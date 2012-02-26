@@ -1,0 +1,181 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 12.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>X-Plane airway data file definition (640 version)</title>
+<meta name="Microsoft Border" content="none, default">
+</head>
+
+<body background="images/Compass.gif">
+
+<h1 align="center"><font color="#800000">X-Plane data file definitions</font></h1>
+<h1 align="center"><font color="#800000">Airway data (awy.dat) 640 version</font></h1>
+<hr>
+<p align="left"><a href="#Scope">Scope</a><br>
+<a href="http://www.xpgoodway.com#Structure">File structure</a><br>
+<a href="#Changes">Changes from previous file versions</a><br>
+<a href="#Example">Example data and explanation</a><br>
+</p>
+
+
+<p align="left"><a href="../designers.html">Return to the X-Plane Designer's
+page</a></p>
+
+
+<hr>
+<h2 align="left"><a name="Scope">Scope</a></h2>
+<p align="left">This document describes the file format and codes used in
+X-Plane's awy.dat file, <b>640 version</b>.</p>
+<ul>
+  <li>
+    <p align="left">This data file format is usable with <b> X-Plane version
+    7.00 onwards</b>.</li>
+  <li>
+    <p align="left">This is the &quot;official&quot; definition of the X-Plane
+    file formats.&nbsp; If you spot any errors or inconsistencies, then please let
+    me know.&nbsp; Likewise if you do not think that X-Plane is interpreting
+    these data correctly.</li>
+  <li>
+    <p align="left">The awy.dat file defines all airway segments in
+    X-Plane.&nbsp; This data is used in X-Plane to draw high and low level
+    airways on X-Plane's charts.</li>
+</ul>
+<h2><a name="Structure">File structure</a></h2>
+
+<p>The file structure is similar to all other X-Plane data files.</p>
+<ul>
+  <li>
+    The first line of each file indicates if the file was generated on a PC (“I”
+    for Intel or IBM) or Macintosh (“A” for Apple).  X-Plane uses this code to help deal with the different
+    ways in which PCs and Macs manipulate carriage returns in text files, and
+    big-endian/little-endian issues.</li>
+  <li>
+	The second line contains a version number used by
+    X-Plane.&nbsp; This usually implies the first version of X-Plane that can
+    utilise the file format (eg. &quot;640 version&quot; implies that this file
+    format was first available for use in X-Plane version 6.40).&nbsp;&nbsp; The
+    version number is followed by my own long copyright message that also includes the
+    sequential build number of the data and my own internal code for the
+    metadata that drives the formatting).  This copyright message is very long, and includes a reference to the GNU General Public Licence under
+    which this data is published as modifiable freeware, and also an acknowledgement and a disclaimer for the US 
+    Department of Defense NIMA for the DAFIF data. The terms of
+    this license require that this <b> copyright message must be left intact
+    if this file is modified and/or redistributed</b>.</li>
+  <li>
+	The very last line of each file is marked by a “99”.</li>
+</ul>
+<p>Here is an example of the two header lines, three airway segments and the file termination line:<br>
+<code><font color="#008000">
+<br>
+I<br>
+600 Version - DAFIF data cycle 200502, build 1922, metadata AwyXP640, Copyright ©
+2005, Robin A. Peel (robin@xsquawkbox.net).   This data is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.  You should have received a copy of the GNU General Public License along with this program ("AptNavGNULicence.txt"); if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307, USA.  This product was developed using DAFIF (the Defense Aeronautical Flight Information File), a product of the US National Imagery and Mapping Agency (NIMA). NIMA requires the following warranty statements:  (A) Under 10 U.S.C. 456, no civil action may be brought against the United States on the basis of the content of a navigational aid prepared or disseminated by either the former Defense Mapping Agency (DMA) or the National Imagery and Mapping Agency (NIMA).  (B) The DAFIF product is provided "as is," and no warranty, express or implied, including, but not limited to the implied warranties of merchantability and fitness for particular purpose or arising by statute or otherwise in law or from a course of dealing or usage in trade, is made by NIMA as to the accuracy and functioning of the product. (C): Neither NIMA nor its personnel will be liable for any claims, losses, or damages arising from or connected with the use of this product.  The user agrees to hold harmless the United States National Imagery and Mapping Agency.  The user's sole and exclusive remedy is to stop using the DAFIF product.
+<br>
+<br>
+ABCDE&nbsp; 32.283733 -106.898669
+ABC&nbsp;&nbsp;&nbsp; 33.282503 -107.280542 2 180 450 J13<br>
+ABC&nbsp;&nbsp;&nbsp; 33.282503 -107.280542 DEF&nbsp;&nbsp;&nbsp; 35.043797 -106.816314 2 180 450 J13<br>
+DEF&nbsp;&nbsp;&nbsp; 35.043797 -106.816314 KLMNO&nbsp; 35.438056 -106.649536 2 180 450 J13-J14-J15
+<br>
+99</font></code></p>
+
+<p>Sequencing of data is conceptually unimportant.&nbsp; By default the segments
+are sorted by the initial &quot;from&quot; fix and then by the &quot;to&quot;
+fix.</p>
+
+<h2><a name="Changes">Changes from previous file versions</a></h2>
+<ul>
+  <li>There was no previous file version for awy.dat.</li>
+</ul>
+
+<h2><a name="Example">Example data</a></h2>
+
+<p>Here is a simplified data fragment for three airway segments in awy.dat:</p>
+
+<p><code><font color="#008000"><br>
+ABCDE&nbsp; 32.283733 -106.898669
+ABC&nbsp;&nbsp;&nbsp; 33.282503 -107.280542 2 180 450 J13<br>
+ABC&nbsp;&nbsp;&nbsp; 33.282503 -107.280542 DEF&nbsp;&nbsp;&nbsp; 35.043797 -106.816314 2 180 450 J13<br>
+DEF&nbsp;&nbsp;&nbsp; 35.043797 -106.816314 KLMNO&nbsp; 35.438056 -106.649536 2 180 450 J13-J14-J15<br>
+</font></code></p>
+
+<p>The meaning of this data is (subject to change):</p>
+<font SIZE="2">
+<table border="0" width="100%">
+  <tr>
+      <td width="10%" bgcolor="#808080" colspan=2><b><font color="#FFFFFF">Meaning
+        of example airway data (awy.dat 640 version)</font></b></td>
+      
+  </tr>
+  <tr>
+    <td width="15%" bgcolor="#C0C0C0" valign="top" align="left"><b>Airway&nbsp; example</b></td>
+    <td width="85%" bgcolor="#C0C0C0" valign="top" align="left"><b>Example Usage</b></td>
+  </tr>
+</font>
+  <tr>
+    <td width="15%" valign="top" align="left" bgcolor="#FFFFCC">ABCDE</td>
+    <td width="85%" valign="top" align="left" bgcolor="#FFFFCC">Name of intersection or nav-aid at
+      the beginning of this segment (the fix ABCDE in this example).</td>
+  </tr>
+  <tr>
+    <td width="15%" valign="top" align="left" bgcolor="#FFFFCC">   32.283733</td>
+    <td width="85%" valign="top" align="left" bgcolor="#FFFFCC">Latitude of the beginning of this
+      segment.</td>
+  </tr>
+  <tr>
+    <td width="15%" valign="top" align="left" bgcolor="#FFFFCC"> -106.898669</td>
+    <td width="85%" valign="top" align="left" bgcolor="#FFFFCC">Longitude of the beginning of this
+      segment.</td>
+  </tr>
+  <tr>
+    <td width="15%" valign="top" align="left" bgcolor="#FFFFCC">ABC</td>
+    <td width="85%" valign="top" align="left" bgcolor="#FFFFCC">Name of intersection or nav-aid at
+      the end of this segment (the nav-aid ABC in this example).</td>
+  </tr>
+  <tr>
+    <td width="15%" valign="top" align="left" bgcolor="#FFFFCC">     33.282503</td>
+    <td width="85%" valign="top" align="left" bgcolor="#FFFFCC">Latitude of the end of this
+      segment.</td>
+  </tr>
+  <tr>
+    <td width="15%" valign="top" align="left" bgcolor="#FFFFCC"> -107.280542</td>
+    <td width="85%" valign="top" align="left" bgcolor="#FFFFCC">Longitude of the end of this
+      segment.</td>
+  </tr>
+  <tr>
+    <td width="15%" valign="top" align="left" bgcolor="#FFFFCC">2</td>
+    <td width="85%" valign="top" align="left" bgcolor="#FFFFCC">This is a &quot;High&quot; airway
+      (1 = &quot;low&quot;, 2 =
+      &quot;high&quot;).&nbsp; If an airway segment is both High and Low, then
+      it should be listed twice (once in each category).&nbsp; This determines
+      if the airway is shown on X-Plane's &quot;High Enroute&quot; or &quot;Low
+      Enroute&quot; charts.</td>
+  </tr>
+  <tr>
+    <td width="15%" valign="top" align="left" bgcolor="#FFFFCC">180</td>
+    <td width="85%" valign="top" align="left" bgcolor="#FFFFCC">Base of airway in hundreds of feet
+      (18,000 feet in this example).</td>
+  </tr>
+  <tr>
+    <td width="15%" valign="top" align="left" bgcolor="#FFFFCC">450</td>
+    <td width="85%" valign="top" align="left" bgcolor="#FFFFCC">Top of airways in hundreds of feet
+      (45,000 feet in this example).</td>
+  </tr>
+  <tr>
+    <td width="15%" valign="top" align="left" bgcolor="#FFFFCC">J13</td>
+    <td width="85%" valign="top" align="left" bgcolor="#FFFFCC">Airway segment name.&nbsp; If
+      multiple airways share this segment, then all names will be included
+      separated by a hyphen (eg. &quot;J13-J14-J15&quot;)
+    </td>
+  </tr>
+</table>
+
+
+<hr>
+<p class="MsoNormal"><font size="1">© Robin Peel,
+2005.&nbsp; Last updated March 29, 2005</font></p>
+</body>
+
+</html>

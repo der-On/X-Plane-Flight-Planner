@@ -1,0 +1,63 @@
+@import "lib";
+
+@header_height: 3em;
+@footer_height: 2em;
+@menu_width: 20em;
+
+html {
+    width:100%;
+    height:100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding:0;
+    font-size:12px;
+}
+
+#header {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:@header_height;
+    background: #CCC;
+    
+    h1 {
+        font-size:200%;
+    }
+}
+
+#content {
+  position:fixed;
+  top:@header_height;
+  bottom:@footer_height;
+  left:0;
+  right:0;
+}
+
+#map {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:@menu_width;
+}
+#map-menu {
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    width:@menu_width;
+    background:#333;
+}
+#footer {
+    height:@footer_height;
+    position:fixed;
+    left:0;
+    bottom:0;
+    right:0;
+    background: #CCC;
+}
