@@ -32,6 +32,8 @@ app.configure('production', function(){
 
 app.get('/', routes.index);
 app.get('/parse', routes.parse);
+app.get('/apt-nav-json',routes.aptNavJson);
+app.get('/airport-json/:icao',routes.airportJson);
 
 app.listen(3000);
 console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
