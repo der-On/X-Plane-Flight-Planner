@@ -1,4 +1,5 @@
-/* Mixins */html {
+/* Mixins */
+html {
   width: 100%;
   height: 100%;
 }
@@ -16,9 +17,70 @@ body {
   right: 0;
   height: 3em;
   background: #CCC;
+  z-index: 1000;
 }
 #header h1 {
   font-size: 200%;
+  float: left;
+}
+#header #search {
+  float: right;
+  font-size: 120%;
+}
+#search-results {
+  position: fixed;
+  top: 3em;
+  right: 2em;
+  width: 15em;
+  max-height: 80%;
+  overflow: auto;
+  background: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  box-shadow: 0 0 10px #cccccc;
+  -webkit-box-shadow: 0 0 10px #cccccc;
+  -moz-box-shadow: 0 0 10px #cccccc;
+  -mz-box-shadow: 0 0 10px #cccccc;
+  -o-box-shadow: 0 0 10px #cccccc;
+  z-index: 1001;
+}
+#search-results ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#search-results ul.loading {
+  background-image: url('../images/loader.gif');
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 60px;
+}
+#search-results ul li {
+  text-indent: 0;
+  background: #FFF;
+  padding: 0.25em;
+  margin: 0;
+  border: 1px solid #CCC;
+  z-index: 1;
+}
+#search-results a.close {
+  padding: 0.2em;
+  background: #DDD;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  font-weight: bold;
+  color: #CC0000;
 }
 #content {
   position: fixed;
@@ -26,6 +88,7 @@ body {
   bottom: 2em;
   left: 0;
   right: 0;
+  z-index: 1;
 }
 #map {
   position: absolute;
@@ -34,7 +97,7 @@ body {
   left: 0;
   right: 20em;
 }
-#map-menu {
+#routes {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -49,4 +112,8 @@ body {
   bottom: 0;
   right: 0;
   background: #CCC;
+}
+/* OpenLayers */
+.olPopup h2 {
+  font-size: 120%;
 }

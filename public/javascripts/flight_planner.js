@@ -1,20 +1,25 @@
 var FlightPlanner = {
     options:{
-      zoom_display_apt_nav: 6 // zoomlevel from wich on to display apt nav data
+      zoom_display_apt_nav: 7 // zoomlevel from wich on to display apt nav data
      ,base_url:'http://localhost:3000/'
+     ,airport_default_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/airport_default.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
+     ,airport_big_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/airport_big.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
+     ,airport_strip_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/airport_strip.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
+     ,airport_sea_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/airport_sea.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
+     ,airport_heli_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/airport_heli.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
+     ,route_style:{}
     },
     aptNav:null,
     map:null,
     menu:null,
+    selectControl:null,
     init:function(map_id,menu_id)
     {
         this.map = new OpenLayers.Map(map_id,{
           units:'degrees'          
         });
         
-        // register events
-        this.map.events.register('zoomend',this,this.onMapZoom);
-        this.map.events.register('moveend',this,this.onMapMove);
+        this.mapProjection = new OpenLayers.Projection("EPSG:4326");
         
         // add base layers
         /*this.map.addLayer(new OpenLayers.Layer.WMS(
@@ -43,31 +48,58 @@ var FlightPlanner = {
           {'type':google.maps.MapTypeId.HYBRID, numZoomLevels: 20}
         ));
           
-        // Google.v3 uses EPSG:900913 as projection, so we have to
-        // transform our coordinates
-        this.map.setCenter(new OpenLayers.LonLat(0, 0).transform(
-            new OpenLayers.Projection("EPSG:4326"),
-            this.map.getProjectionObject()
-        ), 2);
-          
+        this.gotoLatLon(0,0,2);
+        
+        // add routes layer
+        this.routesLayer = new OpenLayers.Layer.Vector('Your routes');
+        this.map.addLayer(this.routesLayer);
+        
         // add nav dat layers
         this.airportsLayer = new OpenLayers.Layer.Vector('Airports');
         this.navaidsLayer = new OpenLayers.Layer.Vector('Navaids');
         this.fixesLayer = new OpenLayers.Layer.Vector('Fixes');
         
-        this.map.addLayer(this.airportsLayer);
-        this.map.addLayer(this.navaidsLayer);
         this.map.addLayer(this.fixesLayer);
+        this.map.addLayer(this.navaidsLayer);
+        this.map.addLayer(this.airportsLayer);        
+        
+        // add select control
+        this.selectControl = new OpenLayers.Control.SelectFeature([this.airportsLayer,this.navaidsLayer,this.fixesLayer]);
+        this.map.addControl(this.selectControl);
+        this.selectControl.activate();
         
         // add layer switcher
         this.map.addControl(new OpenLayers.Control.LayerSwitcher());
         
-        //this.map.zoomToMaxExtent();
-        this.menu = $('#'+menu_id);
+         // register events
+        this.map.events.register('zoomend',this,this.onMapZoom);
+        this.map.events.register('moveend',this,this.onMapMove);
+        this.airportsLayer.events.on({
+          'featureselected': FlightPlanner.onFeatureSelect,
+          'featureunselected': FlightPlanner.onFeatureUnselect
+        });
+        this.navaidsLayer.events.on({
+          'featureselected': FlightPlanner.onFeatureSelect,
+          'featureunselected': FlightPlanner.onFeatureUnselect
+        });
+        this.fixesLayer.events.on({
+          'featureselected': FlightPlanner.onFeatureSelect,
+          'featureunselected': FlightPlanner.onFeatureUnselect
+        });
+    },
+    gotoLatLon:function(lat,lon,zoom)
+    {
+      // Google.v3 uses EPSG:900913 as projection, so we have to
+      // transform our coordinates
+      this.map.setCenter(new OpenLayers.LonLat(lon, lat).transform(
+            this.mapProjection,
+            this.map.getProjectionObject()
+        ), zoom);
     },
     onMapZoom:function()
     {
       var zoom = this.map.getZoom();
+      this.clearAptNav();
       if(zoom>=this.options.zoom_display_apt_nav) {
         this.refreshAptNav();
       }
@@ -75,6 +107,7 @@ var FlightPlanner = {
     onMapMove:function()
     {
       var zoom = this.map.getZoom();
+      this.clearAptNav();
       if(zoom>=this.options.zoom_display_apt_nav) {
         this.refreshAptNav();
       }
@@ -83,18 +116,165 @@ var FlightPlanner = {
     {
       var _this = this;
       var bounds = this.map.getExtent();
-      bounds.transform(this.map.getProjectionObject(),new OpenLayers.Projection("EPSG:4326"));
+      bounds.transform(this.map.getProjectionObject(),this.mapProjection);
       bounds = bounds.toBBOX();
-      console.log(bounds);
+      
       jQuery.getJSON(this.options.base_url+'apt-nav-json',{bounds:bounds},
       function(data,textStatus){
         _this.onAptNavResponse(data);
       });
     },
+    clearAptNav:function()
+    {
+      this.airportsLayer.destroyFeatures();
+      this.navaidsLayer.destroyFeatures();
+      this.fixesLayer.destroyFeatures();
+    },
     onAptNavResponse:function(data)
     {
       this.aptNav = data;
-      // TODO: add airports, navaids and fixes to map
+      
+      // add airports
+      var features = [];
+      var feature = null;
+      var geometry = null;
+      var airport = null;
+      var style = null;
+      
+      for(var i=0;i<this.aptNav.airports.length;i++) {
+        style = this.options.airport_default_style;
+        
+        airport = this.aptNav.airports[i];
+        
+        // simple air strip
+        if(airport.type==1 && airport.runways.length==1 && airport.runways[0].type>2) style = this.options.airport_strip_style;
+        
+        // big airport with more than 2 runways
+        if(airport.runways.length>2) style = this.options.airport_big_style;
+        
+        // seaport
+        if(airport.type==16) style = this.options.airport_sea_style;
+        
+        // heliport
+        if(airport.type==17) style = this.options.airport_heli_style;
+        
+        // make copy of style and add individual properties to it
+        style = this.copyStyle(style);
+        style.graphicTitle = airport.icao+' - '+airport.name
+        
+        // add geometry
+        geometry = new OpenLayers.Geometry.Point(airport.lon,airport.lat);
+        geometry.transform(this.mapProjection,this.map.getProjectionObject());
+        
+        // create the feature
+        feature = new OpenLayers.Feature.Vector(
+          geometry,
+          {airport:airport,title:airport.icao+' - '+airport.name,description:this.getAirportDescription(airport)},
+          style
+        );
+        features.push(feature);
+      }
+      
+      this.airportsLayer.addFeatures(features);
+      // TODO: add navaids and fixes to map
+    },
+    getAirportDescription:function(airport)
+    {
+      var out =  '<p>';
+      var runway = null;
+      for(var i =0;i<airport.runways.length;i++) {
+        runway = airport.runways[i];
+        out+='Runway '+runway.number_start+' - '+runway.number_end+': width '+runway.width+'m';
+        if(airport.type==100) {
+          out+=', ';
+          
+          switch(runway.surface_type) {
+            case 1: out+='Asphalt'; break;
+            case 2: out+='Concrete'; break;
+            case 3: out+='Turf or grass'; break;
+            case 4: out+='Dirt'; break;
+            case 5: out+='Gravel'; break;
+            case 6: out+='Dry lakebed'; break;
+            case 7: out+='Water'; break;
+            case 8: out+='Snow/Ice'; break
+            case 9: out+=''; break;
+          }
+        }
+        out+='<br>';
+      }
+      
+      out+='<a href="javascript:void(0);" onclick="FlightPlanner.Routes.addWayPoint(\'airport\',\''+airport.icao+'\');">add as waypoint</a>';
+      
+      out+='</p>';
+      return out;
+    },
+    copyStyle:function(style)
+    {
+      var copy = {};
+      for(var prop in style) {
+        copy[prop] = style[prop];
+      }
+      return copy;
+    },
+    onPopupClose:function(e)
+    {
+      FlightPlanner.selectControl.unselect(this.feature);
+    },
+    onFeatureSelect:function(e)
+    {
+      var feature = e.feature;
+      var popup = new OpenLayers.Popup.FramedCloud(
+        'featurePopup',
+        feature.geometry.getBounds().getCenterLonLat(),
+        new OpenLayers.Size(100,100),
+        '<h2>'+feature.attributes.title+'</h2>' +
+        feature.attributes.description,
+        null, true, FlightPlanner.onPopupClose
+      );
+      feature.popup = popup;
+      popup.feature = feature;
+      FlightPlanner.map.addPopup(popup);
+    },
+    onFeatureUnselect:function(e)
+    {
+      var feature = e.feature;
+      if(feature.popup) {
+        feature.popup.feature = null;
+        while(FlightPlanner.map.popups.length) {
+          FlightPlanner.map.removePopup(FlightPlanner.map.popups[0]);
+        }
+        feature.popup.destroy();
+        feature.popup = null;
+      }
+    },
+    search:function(s,container) {
+      var _this = this;
+      container.addClass('loading');
+      jQuery.getJSON(this.options.base_url+'airports-search-json/'+s,
+      function(data,textStatus){
+        _this.onSearchResponse(data.airports,container);
+      });
+    },
+    onSearchResponse:function(airports,container)
+    {
+      container.removeClass('loading');
+      container.empty();
+      var out = '';
+      for(var i=0;i<airports.length;i++) {
+        out+='<li><a href="javascript:void(0);" onclick="FlightPlanner.gotoAirport(\''+airports[i].icao+'\','+airports[i].lat+','+airports[i].lon+');">'+airports[i].icao+' - '+airports[i].name+'</a></li>';
+      }
+      container.append(out);
+    },
+    gotoAirport:function(icao,lat,lon)
+    {
+      this.gotoLatLon(lat,lon,this.options.zoom_display_apt_nav+4);
     }
+};
+
+
+FlightPlanner.Routes = {
+  addWayPoint:function(type,id) {
+    
+  }
 };
 

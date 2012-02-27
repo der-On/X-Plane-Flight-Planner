@@ -6,7 +6,7 @@ var AptNavParser = require('../lib/apt_nav_parser').AptNavParser;
  */
 
 exports.index = function(req, res){
-  res.render('index', { title: 'X-Plane Flight Planner' })
+  res.render('index', { title: 'X-Plane Flight Planner' });
 };
 
 exports.parse = function(req,res){
@@ -43,5 +43,12 @@ exports.airportJson = function(req,res) {
   var aptNavData = new AptNavData();
   aptNavData.findAirportByIcao(req.params.icao,function(airport){
     res.json({airport:airport});
+  });
+}
+
+exports.airportsSearchJson = function(req,res) {
+  var aptNavData = new AptNavData();
+  aptNavData.findAirportsMatching(req.params.search,function(airports){
+    res.json({airports:airports});
   });
 }

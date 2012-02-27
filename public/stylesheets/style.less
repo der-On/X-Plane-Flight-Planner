@@ -24,10 +24,65 @@ body {
     right:0;
     height:@header_height;
     background: #CCC;
+    z-index:1000;
     
     h1 {
         font-size:200%;
+        float:left;
     }
+    
+    #search {
+      float:right;
+      font-size:120%;
+    }
+}
+
+#search-results {
+  position:fixed;
+  top:@header_height;
+  right:2em;
+  width:15em;
+  max-height:80%;
+  overflow:auto;
+  background:#fff;
+  .border-radius (5px);
+  .box-shadow (0 0 10px #ccc);
+  z-index:1001;
+  
+  ul {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    
+    &.loading {
+      background-image:url('../images/loader.gif');
+      background-repeat:no-repeat;
+      background-position: center center;
+      height:60px;
+    }
+    
+    li {
+      text-indent:0;
+      background:#FFF;
+      padding:0.25em;
+      margin:0;
+      border:1px solid #CCC;
+      z-index:1;
+    }
+  }
+  
+  a.close {
+    padding:0.2em;
+    background:#DDD;
+    .border-radius (5px);
+    text-decoration:none;
+    position:absolute;
+    top:0;
+    right:0;
+    z-index:2;
+    font-weight:bold;
+    color:#CC0000;
+  }
 }
 
 #content {
@@ -36,6 +91,7 @@ body {
   bottom:@footer_height;
   left:0;
   right:0;
+  z-index:1;
 }
 
 #map {
@@ -45,7 +101,7 @@ body {
     left:0;
     right:@menu_width;
 }
-#map-menu {
+#routes {
     position:absolute;
     top:0;
     bottom:0;
@@ -60,4 +116,11 @@ body {
     bottom:0;
     right:0;
     background: #CCC;
+}
+
+
+/* OpenLayers */
+
+.olPopup h2 {
+  font-size:120%;
 }

@@ -1,3 +1,11 @@
 header#header
     h1 X-Plane Flight-Planner
+    #search
+      label(for='airport-search') ICAO or airport name:
+
+      input(type='text',id='airport-search')
+      button(onclick="FlightPlanner.search($('#search input').val(),$('#search-results > ul'));") Find       
       
+div#search-results
+  a.close(href="javascript:void(0);", onclick="$('#search-results > ul').empty();") X
+  ul
