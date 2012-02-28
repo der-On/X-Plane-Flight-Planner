@@ -99,7 +99,7 @@ var FlightPlanner = {
     onMapZoom:function()
     {
       var zoom = this.map.getZoom();
-      this.clearAptNav();
+      
       if(zoom>=this.options.zoom_display_apt_nav) {
         this.refreshAptNav();
       }
@@ -107,7 +107,7 @@ var FlightPlanner = {
     onMapMove:function()
     {
       var zoom = this.map.getZoom();
-      this.clearAptNav();
+      
       if(zoom>=this.options.zoom_display_apt_nav) {
         this.refreshAptNav();
       }
@@ -124,15 +124,36 @@ var FlightPlanner = {
         _this.onAptNavResponse(data);
       });
     },
+    canDestroyFeature:function(feature)
+    {
+      // airport
+      if(feature.attributes['airport']) {
+        var id = feature.attributes.airport.icao;
+        
+        for(var i = 0;i<this.aptNav.airports.length;i++) {
+          if(id==this.aptNav.airports[i].icao) return false;
+        }
+      }
+      return true;
+    },
     clearAptNav:function()
     {
-      this.airportsLayer.destroyFeatures();
+      var destroy = [];
+      for(var i=0;i<this.airportsLayer.features.length;i++) {
+        if(this.canDestroyFeature(this.airportsLayer.features[i])) {
+          FlightPlanner.selectControl.unselect(this.airportsLayer.features[i]);
+          destroy.push(this.airportsLayer.features[i]);
+        }
+      }
+      this.airportsLayer.destroyFeatures(destroy);
+      
       this.navaidsLayer.destroyFeatures();
       this.fixesLayer.destroyFeatures();
     },
     onAptNavResponse:function(data)
-    {
+    {      
       this.aptNav = data;
+      this.clearAptNav();
       
       // add airports
       var features = [];
@@ -182,9 +203,13 @@ var FlightPlanner = {
     {
       var out =  '<p>';
       var runway = null;
+      var communication = null;
+      
       for(var i =0;i<airport.runways.length;i++) {
         runway = airport.runways[i];
         out+='Runway '+runway.number_start+' - '+runway.number_end+': width '+runway.width+'m';
+        
+        // surface type for land runways
         if(airport.type==100) {
           out+=', ';
           
@@ -201,6 +226,16 @@ var FlightPlanner = {
           }
         }
         out+='<br>';
+      }
+      
+      // communications
+      if(airport.communications.length) {
+        out+='<strong>Coms:</strong><br/>';
+        
+        for(i = 0;i<airport.communications.length;i++) {
+          communication = airport.communications[i];
+          out+=communication.name+': '+(communication.frequency/100)+' MHz <br/>';
+        }
       }
       
       out+='<a href="javascript:void(0);" onclick="FlightPlanner.Routes.addWaypoint(\'airport\',\''+airport.icao+'\');">add as waypoint</a>';
