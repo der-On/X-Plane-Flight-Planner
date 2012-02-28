@@ -1,6 +1,7 @@
 var FlightPlanner = {
     options:{
       zoom_display_apt_nav: 7 // zoomlevel from wich on to display apt nav data
+     ,zoom_search:11 // zoomlevel to use when going to a search result
      ,base_url:'http://localhost:3000/'
      ,airport_default_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/airport_default.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
      ,airport_big_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/airport_big.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
@@ -102,6 +103,8 @@ var FlightPlanner = {
       
       if(zoom>=this.options.zoom_display_apt_nav) {
         this.refreshAptNav();
+      } else {
+        this.clearAptNav(true);
       }
     },
     onMapMove:function()
@@ -110,6 +113,8 @@ var FlightPlanner = {
       
       if(zoom>=this.options.zoom_display_apt_nav) {
         this.refreshAptNav();
+      } else {
+        this.clearAptNav(true);
       }
     },
     refreshAptNav:function()
@@ -136,19 +141,28 @@ var FlightPlanner = {
       }
       return true;
     },
-    clearAptNav:function()
+    clearAptNav:function(force)
     {
-      var destroy = [];
-      for(var i=0;i<this.airportsLayer.features.length;i++) {
-        if(this.canDestroyFeature(this.airportsLayer.features[i])) {
-          FlightPlanner.selectControl.unselect(this.airportsLayer.features[i]);
-          destroy.push(this.airportsLayer.features[i]);
-        }
-      }
-      this.airportsLayer.destroyFeatures(destroy);
+      if(force=='undefined') force = false;
       
-      this.navaidsLayer.destroyFeatures();
-      this.fixesLayer.destroyFeatures();
+      if(!force) {
+
+        var destroy = [];
+        for(var i=0;i<this.airportsLayer.features.length;i++) {
+          if(this.canDestroyFeature(this.airportsLayer.features[i])) {
+            FlightPlanner.selectControl.unselect(this.airportsLayer.features[i]);
+            destroy.push(this.airportsLayer.features[i]);
+          }
+        }
+        this.airportsLayer.destroyFeatures(destroy);
+
+        this.navaidsLayer.destroyFeatures();
+        this.fixesLayer.destroyFeatures();
+      } else {
+        this.airportsLayer.destroyFeatures();
+        this.navaidsLayer.destroyFeatures();
+        this.fixesLayer.destroyFeatures();
+      }
     },
     onAptNavResponse:function(data)
     {      
@@ -205,6 +219,8 @@ var FlightPlanner = {
       var runway = null;
       var communication = null;
       
+      out+='lat: '+airport.lat+', lon: '+airport.lon+'<br/>';
+      
       for(var i =0;i<airport.runways.length;i++) {
         runway = airport.runways[i];
         out+='Runway '+runway.number_start+' - '+runway.number_end+': width '+runway.width+'m';
@@ -214,15 +230,15 @@ var FlightPlanner = {
           out+=', ';
           
           switch(runway.surface_type) {
-            case 1: out+='Asphalt'; break;
-            case 2: out+='Concrete'; break;
-            case 3: out+='Turf or grass'; break;
-            case 4: out+='Dirt'; break;
-            case 5: out+='Gravel'; break;
-            case 6: out+='Dry lakebed'; break;
-            case 7: out+='Water'; break;
-            case 8: out+='Snow/Ice'; break
-            case 9: out+=''; break;
+            case 1:out+='Asphalt';break;
+            case 2:out+='Concrete';break;
+            case 3:out+='Turf or grass';break;
+            case 4:out+='Dirt';break;
+            case 5:out+='Gravel';break;
+            case 6:out+='Dry lakebed';break;
+            case 7:out+='Water';break;
+            case 8:out+='Snow/Ice';break
+            case 9:out+='';break;
           }
         }
         out+='<br>';
@@ -230,7 +246,7 @@ var FlightPlanner = {
       
       // communications
       if(airport.communications.length) {
-        out+='<strong>Coms:</strong><br/>';
+        out+='<br/><strong>Coms:</strong><br/>';
         
         for(i = 0;i<airport.communications.length;i++) {
           communication = airport.communications[i];
@@ -308,7 +324,7 @@ var FlightPlanner = {
     },
     gotoAirport:function(icao,lat,lon)
     {
-      this.gotoLatLon(lat,lon,this.options.zoom_display_apt_nav+4);
+      this.gotoLatLon(lat,lon,this.options.zoom_search);
     }
 };
 
