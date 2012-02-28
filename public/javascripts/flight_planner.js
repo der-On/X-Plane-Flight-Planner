@@ -11,8 +11,8 @@ var FlightPlanner = {
     },
     aptNav:null,
     map:null,
-    menu:null,
     selectControl:null,
+    
     init:function(map_id,menu_id)
     {
         this.map = new OpenLayers.Map(map_id,{
@@ -22,11 +22,9 @@ var FlightPlanner = {
         this.mapProjection = new OpenLayers.Projection("EPSG:4326");
         
         // add base layers
-        /*this.map.addLayer(new OpenLayers.Layer.WMS(
-            "OpenLayers WMS",
-            "http://vmap0.tiles.osgeo.org/wms/vmap0",
-            {'layers':'basic'} )
-        );*/
+        this.map.addLayer(new OpenLayers.Layer.OSM(
+            "OpenStreetMap Mapnik"
+        ));
         
         this.map.addLayer(new OpenLayers.Layer.Google(
           'Google Street',
@@ -86,6 +84,8 @@ var FlightPlanner = {
           'featureselected': FlightPlanner.onFeatureSelect,
           'featureunselected': FlightPlanner.onFeatureUnselect
         });
+        
+        this.Routes.init();
     },
     gotoLatLon:function(lat,lon,zoom)
     {
@@ -203,7 +203,7 @@ var FlightPlanner = {
         out+='<br>';
       }
       
-      out+='<a href="javascript:void(0);" onclick="FlightPlanner.Routes.addWayPoint(\'airport\',\''+airport.icao+'\');">add as waypoint</a>';
+      out+='<a href="javascript:void(0);" onclick="FlightPlanner.Routes.addWaypoint(\'airport\',\''+airport.icao+'\');">add as waypoint</a>';
       
       out+='</p>';
       return out;
@@ -222,6 +222,10 @@ var FlightPlanner = {
     },
     onFeatureSelect:function(e)
     {
+      while(FlightPlanner.map.popups.length) {
+        FlightPlanner.map.removePopup(FlightPlanner.map.popups[0]);
+      }
+      
       var feature = e.feature;
       var popup = new OpenLayers.Popup.FramedCloud(
         'featurePopup',
@@ -248,12 +252,14 @@ var FlightPlanner = {
       }
     },
     search:function(s,container) {
-      var _this = this;
-      container.addClass('loading');
-      jQuery.getJSON(this.options.base_url+'airports-search-json/'+s,
-      function(data,textStatus){
-        _this.onSearchResponse(data.airports,container);
-      });
+      if(s.length>0) {
+        var _this = this;
+        container.addClass('loading');
+        jQuery.getJSON(this.options.base_url+'airports-search-json/'+s,
+        function(data,textStatus){
+          _this.onSearchResponse(data.airports,container);
+        });
+      }
     },
     onSearchResponse:function(airports,container)
     {
@@ -273,8 +279,59 @@ var FlightPlanner = {
 
 
 FlightPlanner.Routes = {
-  addWayPoint:function(type,id) {
-    
+  active_route:null,
+  routes: [],
+  
+  init:function()
+  {
+    this.add();
+  },
+  
+  add:function()
+  {
+    this.routes.push(new Route());
+  },
+  
+  activate:function(id)
+  {
+    if(id>0 && id<=this.routes.length) {
+      this.active_route = this.routes[id-1];
+      this.active_route.activate();
+      for(var i=0;i<this.routes.length;i++) {
+        if(this.routes[i]!=this.active_route) this.routes[i].deactivate();
+      }
+    }
+  },
+  
+  addWaypoint:function(type,id) {
+    if(this.active_route==null) this.active_route = this.routes[0];
+    this.active_route.addWaypoint(type,id);
   }
 };
+
+Route = function()
+{
+  this.waypoints = [];
+  this.id = FlightPlanner.Routes.routes.length+1;
+  this.name = 'route '+this.id;
+  this.tab = $('<li><a href="javascript:void(0);" onclick="FlightPlanner.Routes.activate('+this.id+');">'+this.name+'</a><ul></ul></li>');
+  $('#routes-menu > ul').append(this.tab);
+  
+  this.activate = function()
+  {
+    this.tab.addClass('active');
+  },
+  
+  this.deactivate = function()
+  {
+    this.tab.removeClass('active');
+  }
+}
+
+Waypoint = function()
+{
+  this.lat = null;
+  this.lon = null;
+  this.apt_nav = null;
+}
 

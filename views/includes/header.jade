@@ -7,5 +7,5 @@ header#header
       button(onclick="FlightPlanner.search($('#search input').val(),$('#search-results > ul'));") Find       
       
 div#search-results
-  a.close(href="javascript:void(0);", onclick="$('#search-results > ul').empty();") X
+  a.close(href="javascript:void(0);", onclick="$('#search-results > ul').removeClass('loading').empty();") X
   ul

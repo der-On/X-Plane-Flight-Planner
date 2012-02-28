@@ -5,36 +5,36 @@
 @menu_width: 20em;
 
 html {
-    width:100%;
-    height:100%;
+  width:100%;
+  height:100%;
 }
 
 body {
-    width: 100%;
-    height: 100%;
-    margin:0;
-    padding:0;
-    font-size:12px;
+  width: 100%;
+  height: 100%;
+  margin:0;
+  padding:0;
+  font-size:12px;
 }
 
 #header {
-    position:fixed;
-    top:0;
-    left:0;
-    right:0;
-    height:@header_height;
-    background: #CCC;
-    z-index:1000;
-    
-    h1 {
-        font-size:200%;
-        float:left;
-    }
-    
-    #search {
-      float:right;
-      font-size:120%;
-    }
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  height:@header_height;
+  background: #CCC;
+  z-index:1000;
+
+  h1 {
+    font-size:200%;
+    float:left;
+  }
+
+  #search {
+    float:right;
+    font-size:120%;
+  }
 }
 
 #search-results {
@@ -48,19 +48,19 @@ body {
   .border-radius (5px);
   .box-shadow (0 0 10px #ccc);
   z-index:1001;
-  
+
   ul {
     list-style-type:none;
     padding:0;
     margin:0;
-    
+
     &.loading {
       background-image:url('../images/loader.gif');
       background-repeat:no-repeat;
       background-position: center center;
       height:60px;
     }
-    
+
     li {
       text-indent:0;
       background:#FFF;
@@ -70,7 +70,7 @@ body {
       z-index:1;
     }
   }
-  
+
   a.close {
     padding:0.2em;
     background:#DDD;
@@ -95,27 +95,67 @@ body {
 }
 
 #map {
-    position:absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:@menu_width;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:@menu_width;
 }
 #routes {
-    position:absolute;
-    top:0;
-    bottom:0;
-    right:0;
-    width:@menu_width;
-    background:#333;
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  width:@menu_width;
+  background:#333;
+
+  #routes-menu {
+    height:2em;
+    
+    a {
+      .border-radius (5px);
+      .v-gradient (#AAA, 0%, #333, 100%);
+      background-color:#333;
+      color:#fff;
+      text-decoration:none;
+      padding:0.25em 0.5em;
+      margin:0;
+      border:1px solid #000;
+      display:block;
+    }
+    
+    a.add-route {
+      float:left;
+      
+      &:after {
+        .clearfix();
+      }
+    }
+    
+    ul {
+      list-style-type:none;
+      margin:0;
+      padding:0;
+      
+      &:after {
+        .clearfix();
+      }
+      
+      li {
+        float:left;
+        margin:0;
+        padding:0;
+      }
+    }
+  }
 }
 #footer {
-    height:@footer_height;
-    position:fixed;
-    left:0;
-    bottom:0;
-    right:0;
-    background: #CCC;
+  height:@footer_height;
+  position:fixed;
+  left:0;
+  bottom:0;
+  right:0;
+  background: #CCC;
 }
 
 

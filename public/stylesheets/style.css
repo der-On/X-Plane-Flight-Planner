@@ -105,6 +105,55 @@ body {
   width: 20em;
   background: #333;
 }
+#routes #routes-menu {
+  height: 2em;
+}
+#routes #routes-menu a {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  background-image: linear-gradient(top, #aaaaaa 0%, #333333 100%);
+  background-image: -webkit-linear-gradient(top, #aaaaaa 0%, #333333 100%);
+  background-image: -moz-linear-gradient(top, #aaaaaa 0%, #333333 100%);
+  background-image: -ms-linear-gradient(top, #aaaaaa 0%, #333333 100%);
+  background-image: -o-linear-gradient(top, #aaaaaa 0%, #333333 100%);
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.25em 0.5em;
+  margin: 0;
+  border: 1px solid #000;
+  display: block;
+}
+#routes #routes-menu a.add-route {
+  float: left;
+}
+#routes #routes-menu a.add-route:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#routes #routes-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#routes #routes-menu ul:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#routes #routes-menu ul li {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
 #footer {
   height: 2em;
   position: fixed;
