@@ -54,6 +54,7 @@ var FlightPlanner = {
      ,airport_sea_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/airport_sea.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
      ,airport_heli_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/airport_heli.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
      ,route_style:{fill:true, fillColor:'#DDBB66', fillOpacity:0.75, pointRadius:16, stroke:true, strokeColor:'#DDAA00', strokeOpacity:0.75, strokeWidth:3, strokeLinecap:'round', strokeDashstyle:'solid'}
+     ,route_colors:['#DDBB66','#ffa544','#91b756','#3161a4','#9b8ab6','#ae927a','#c74634','#ad5c15','#4f6f3e','#fdef5a','#4b6574','#3f3f3f']
     },
     aptNav:null,
     map:null,
@@ -429,40 +430,120 @@ FlightPlanner.Routes = {
   },
   
   addWaypoint:function(type,apt_nav_id,lat,lon) {
-    if(this.active_route==null) this.active_route = this.routes[0];
     this.active_route.addWaypoint(type,apt_nav_id,lat,lon);
   },
   
   removeWaypoint:function(route_id,waypoint_id)
   {
     arrayGetBy(this.routes,'id',route_id).removeWaypoint(waypoint_id);
+  },
+  
+  edit:function()
+  {
+    this.active_route.edit();
   }
 };
 
 Route = function()
 {
   this.color = FlightPlanner.options.route_style.strokeColor;
-  
   this.waypoints = [];
   this.id = arrayGreatest(FlightPlanner.Routes.routes,'id',0)+1;
   this.name = 'route '+this.id;
+  this.aircraft = '';
+  this.cruise_speed = 0;
+  this.fuel_consumption = 0;
+  
   this.container = $('<ul class="waypoints" id="route-'+this.id+'" data-id="'+this.id+'"></ul>');
+  this.container.append(this.totals);
+  this.totals = $('<li class="totals"></li>');
   this.select_option = $('<option value="'+this.id+'">'+this.name+'</option>');
   $('#routes-select').append(this.select_option);
   $('#routes-waypoints').append(this.container);
   
+  this.edit = function()
+  {
+    var _this = this;
+    var d_id = 'route-'+this.id+'-edit';
+    var dial = $('<div class="route-edit" id="'+d_id+'" title="Edit '+this.name+'"></div>');
+    $('body').append(dial);
+    
+    var body = '<p>';
+    
+    // name input
+    body+='<label for="'+d_id+'-name">Name:</label><input id="'+d_id+'-name" type="text" value="'+this.name+'"><br/>';
+    
+    // color
+    body+='<label for="'+d_id+'-color">Color:</label><span class="route-color" style="background:'+this.color+'"></span><select id="'+d_id+'-color">';
+    var color;
+    for(var i=0;i<FlightPlanner.options.route_colors.length;i++) {
+      color = FlightPlanner.options.route_colors[i];
+      body+='<option value="'+color+'" style="background:'+color+'"></option>';
+    }
+    body+='</select><br/>';
+    
+    // aircraft  
+    body+='<label for="'+d_id+'-aircraft">Aircraft:</label><input id="'+d_id+'-aircraft" type="text" value="'+this.aircraft+'"><br/>';
+    
+    // cruise_speed
+    body+='<label for="'+d_id+'-cruise_speed">Cruise Speed:</label><input id="'+d_id+'-cruise_speed" type="number" value="'+this.cruise_speed+'"> kts<br/>';
+    
+    // fuel consumption
+    body+='<label for="'+d_id+'-fuel_consumption">Fuel consumption:</label><input id="'+d_id+'-fuel_consumption" type="number" value="'+this.fuel_consumption+'"> gallons/hour<br/>';
+    
+    // save
+    body+='<button class="save-route" id="'+d_id+'-save">Save</button>';
+    
+    body+='</p>';
+    dial.append(body);
+    
+    dial.find('#'+d_id+'-color').change(function(){
+      dial.find('.route-color').css('background',$(this).val());
+    });
+    
+    dial.find('#'+d_id+'-save').click(function(){
+      var name = dial.find('#'+d_id+'-name').val();
+      var color = dial.find('#'+d_id+'-color').val();
+      var aircraft = dial.find('#'+d_id+'-aircraft').val();
+      var cruise_speed = parseInt(dial.find('#'+d_id+'-cruise_speed').val());
+      var fuel_consumption = parseInt(dial.find('#'+d_id+'-fuel_consumption').val());
+      if(name!='') _this.name = name;
+      _this.color = color;
+      _this.aircraft = aircraft;
+      _this.cruise_speed = cruise_speed;
+      _this.fuel_consumption = fuel_consumption;
+      
+      _this.onEditSave();
+      
+      dial.dialog('destroy');
+    });
+    
+    dial.dialog();
+  };
+  
+  this.onEditSave = function()
+  {
+    this.select_option.text(this.name);
+    $('#route-color').css('background',this.color);
+    this.updateFeatures();    
+  };
+  
   this.createFeatures = function()
   {
+    var style = FlightPlanner.copyStyle(FlightPlanner.options.route_style);
+    style.strokeColor = this.color;
+    style.fillColor = this.color;
+    
     // create the openlayers features
     this.line_feature = new OpenLayers.Feature.Vector(
       new OpenLayers.Geometry.LineString(),
       {route:this},
-      FlightPlanner.options.route_style
+      style
     );
     this.points_feature = new OpenLayers.Feature.Vector(
       new OpenLayers.Geometry.MultiPoint(),
       {route:this},
-      FlightPlanner.options.route_style
+      style
     );
     FlightPlanner.routesLayer.addFeatures([this.line_feature,this.points_feature]);
   };
@@ -508,6 +589,7 @@ Route = function()
   {
     this.container.addClass('active');
     $('#routes-select').val(this.id);
+    $('#route-color').css('background',this.color);
     this.select_option[0].selected = true;
   };
   
@@ -556,8 +638,15 @@ Route = function()
       point.transform(FlightPlanner.mapProjection,FlightPlanner.map.getProjectionObject());
       this.line_feature.geometry.addPoint(point);
       this.points_feature.geometry.addPoint(point);
+      
+      waypoint.point_feature = point;
     }
     FlightPlanner.routesLayer.redraw();
+  };
+  
+  this.setTotals = function()
+  {
+    
   }
 }
 
@@ -570,6 +659,11 @@ Waypoint = function(apt_nav_id,route)
   this.lat = null;
   this.lon = null;
   this.apt_nav = null;
+  this.point_feature = null;
+  this.distance = 0;
+  this.heading = 0;
+  this.time = 0;
+  
   this.container = $('<li class="waypoint" id="route-'+this.route.id+'-waypoint-'+this.id+'" data-id="'+this.id+'"></li>');
   this.route.container.append(this.container);
   
@@ -621,6 +715,6 @@ Waypoint = function(apt_nav_id,route)
   this.remove = function()
   {
     this.container.remove();
-  }
+  };
 }
 

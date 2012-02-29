@@ -21,12 +21,24 @@ input,select,button,textarea {
   font-family:sans-serif;
   font-size:100%;
 }
-input[type=text] {
+input[type=text],input[type=number] {
   .border-radius(3px);
   border:1px solid #333;
   background-color:#FFF;
   .v-gradient(#DDD,0%,#FFF,80%);
   padding:0.2em 0.5em;
+}
+button {
+  .border-radius (5px);
+  .v-gradient (#BBB, 0%, #666, 100%);
+  background-color:#333;
+  color:#fff;
+  text-decoration:none;
+  padding:0.25em 0.5em;
+  margin:0;
+  border:1px solid #000;
+  display:inline-block;
+  .text-shadow(-1px -1px 1px #666);
 }
 a:hover {
   border-bottom:none;
@@ -75,16 +87,6 @@ a:hover {
       vertical-align:middle;
     }
     button {
-      .border-radius (5px);
-      .v-gradient (#BBB, 0%, #666, 100%);
-      background-color:#333;
-      color:#fff;
-      text-decoration:none;
-      padding:0.25em 0.5em;
-      margin:0;
-      border:1px solid #000;
-      display:inline-block;
-      .text-shadow(-1px -1px 1px #666);
       vertical-align:middle;
     }
   }
@@ -178,13 +180,13 @@ a:hover {
     padding:0.25em;
     font-size:100%;
     margin:0 0 0 1em;
-    width:@menu_width - 13em;
+    width:@menu_width - 16em;
     
     option {
       margin:0.25em;
     }
   }
-    
+  
   #routes-waypoints {
     .border-radius (5px);
     background-color:#DDD;
@@ -210,7 +212,7 @@ a:hover {
         display:block;
       }
       
-      li.waypoint {
+      li {
         list-style-type:none;
         margin:0 0 0.5em 0;
         padding:0.5em;
@@ -278,5 +280,39 @@ a:hover {
     margin:0 0.5em 0 0;
     padding:0;
     vertical-align:bottom;
+  }
+}
+
+
+/* jQuery UI */
+#route-color,.route-color {
+  display:inline-block;
+  width:2em;
+  height:1em;
+  border:1px solid #000;
+  .border-radius(3px);
+}
+#route-color {
+  margin:0 0.25em;
+  height:2.2em;
+  vertical-align:middle;
+}
+
+.route-edit {
+  line-height:200%;
+  label {
+    width:40%;
+    display:inline-block;
+    padding:0;
+    margin-right:5%;
+  }
+  input[type=text] {
+    width:40%;
+  }
+  input[type=number] {
+    width:4em;
+  }
+  .route-color {
+    margin-right:1em;
   }
 }
