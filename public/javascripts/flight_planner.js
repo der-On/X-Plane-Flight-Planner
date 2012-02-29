@@ -86,7 +86,11 @@ var FlightPlanner = {
           'featureunselected': FlightPlanner.onFeatureUnselect
         });
         
+        // init Routes
         this.Routes.init();
+        
+        // restore last map position
+        this.loadPosition();
     },
     gotoLatLon:function(lat,lon,zoom)
     {
@@ -106,6 +110,7 @@ var FlightPlanner = {
       } else {
         this.clearAptNav(true);
       }
+      this.savePosition();
     },
     onMapMove:function()
     {
@@ -116,6 +121,22 @@ var FlightPlanner = {
       } else {
         this.clearAptNav(true);
       }
+      this.savePosition();
+    },
+    savePosition:function()
+    {
+      var center = this.map.getCenter();
+      $.cookie('x-plane_flight_planner_lat',center.lat);
+      $.cookie('x-plane_flight_planner_lon',center.lon);
+      $.cookie('x-plane_flight_planner_zoom',this.map.getZoom());
+    },
+    loadPosition:function()
+    {
+      var lat = parseFloat($.cookie('x-plane_flight_planner_lat'));
+      var lon = parseFloat($.cookie('x-plane_flight_planner_lon'));
+      var zoom = parseInt($.cookie('x-plane_flight_planner_zoom'));
+      
+      this.map.setCenter(new OpenLayers.LonLat(lon,lat),zoom,false,false);
     },
     refreshAptNav:function()
     {
@@ -254,7 +275,7 @@ var FlightPlanner = {
         }
       }
       
-      out+='<a href="javascript:void(0);" onclick="FlightPlanner.Routes.addWaypoint(\'airport\',\''+airport.icao+'\');">add as waypoint</a>';
+      out+='<a href="javascript:void(0);" onclick="FlightPlanner.Routes.addWaypoint(\'airport\',\''+airport.icao+'\','+airport.lat+','+airport.lon+');">add as waypoint</a>';
       
       out+='</p>';
       return out;
@@ -336,11 +357,13 @@ FlightPlanner.Routes = {
   init:function()
   {
     this.add();
+    this.activate(1);
   },
   
   add:function()
   {
     this.routes.push(new Route());
+    this.activate(this.routes.length);
   },
   
   activate:function(id)
@@ -354,9 +377,9 @@ FlightPlanner.Routes = {
     }
   },
   
-  addWaypoint:function(type,id) {
+  addWaypoint:function(type,id,lat,lon) {
     if(this.active_route==null) this.active_route = this.routes[0];
-    this.active_route.addWaypoint(type,id);
+    this.active_route.addWaypoint(type,id,lat,lon);
   }
 };
 
@@ -365,24 +388,43 @@ Route = function()
   this.waypoints = [];
   this.id = FlightPlanner.Routes.routes.length+1;
   this.name = 'route '+this.id;
-  this.tab = $('<li><a href="javascript:void(0);" onclick="FlightPlanner.Routes.activate('+this.id+');">'+this.name+'</a><ul></ul></li>');
-  $('#routes-menu > ul').append(this.tab);
+  this.container = $('<ul class="route-waypoints" id="route-'+this.id+'"></ul>');
+  this.select_option = $('<option value="'+this.id+'">'+this.name+'</option>');
+  $('#routes-select').append(this.select_option);
+  $('#routes-waypoints').append(this.container);
   
   this.activate = function()
   {
-    this.tab.addClass('active');
-  },
+    this.container.addClass('active');
+    $('#routes-select').val(this.id);
+    this.select_option[0].selected = true;
+  };
   
   this.deactivate = function()
   {
-    this.tab.removeClass('active');
+    this.container.removeClass('active');
+    this.select_option[0].selected = false;
+  };
+  
+  this.addWaypoint = function(type,id,lat,lon)
+  {
+    var waypoint = new Waypoint(id,this);
+    waypoint.type = type;
+    waypoint.lat = lat;
+    waypoint.lon = lon;
+    this.waypoints.push(waypoint);
   }
 }
 
-Waypoint = function()
+Waypoint = function(id,route)
 {
+  this.route = route;
+  this.type = null;
+  this.id = id;
   this.lat = null;
   this.lon = null;
   this.apt_nav = null;
+  this.container = $('<li class="waypoint" id="route-'+this.route.id+'-waypoint-'+this.id+'"></li>');
+  this.route.container.append(this.container);
 }
 

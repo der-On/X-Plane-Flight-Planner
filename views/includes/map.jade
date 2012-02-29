@@ -1,9 +1,10 @@
 #map
 
 #routes
-  nav#routes-menu
-    a.add-route(href="javascript:void(0);", onclick="FlightPlanner.Routes.add();") + add route
-    ul
+  a.add-route(href="javascript:void(0);", onclick="FlightPlanner.Routes.add();") + add route
+  select#routes-select(onclick="FlightPlanner.Routes.activate(this.value);")
+  a.edit-route(href="javascript:void(0);", onclick="FlightPlanner.Routes.config();", title="edit route) edit
+  #routes-waypoints
 
 script
     $(document).ready(function(){
