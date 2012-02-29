@@ -1,3 +1,33 @@
+function numberRounded(number,decimals)
+{
+  var d = decimals*100;
+  return Math.round(number*d)/d;
+}
+
+function arrayGetBy(arr,by,value,strict)
+{
+  if(strict=="undefined") strict = false;
+  
+  for(var i=0;i<arr.length;i++) {
+    if(strict && arr[i][by]===value) {
+      return arr[i];
+    } else if(!strict && arr[i][by]==value) return arr[i];
+  }
+  return null;
+}
+
+function arrayIndexOf(arr,value,strict)
+{
+  if(strict=="undefined") strict = true;
+  
+  for(var i=0;i<arr.length;i++) {
+    if(strict && arr[i]===value) {
+      return i;
+    } else if(!strict && arr[i]==value) return i;
+  }
+  return -1;
+}
+
 var FlightPlanner = {
     options:{
       zoom_display_apt_nav: 7 // zoomlevel from wich on to display apt nav data
@@ -8,7 +38,7 @@ var FlightPlanner = {
      ,airport_strip_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/airport_strip.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
      ,airport_sea_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/airport_sea.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
      ,airport_heli_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/airport_heli.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
-     ,route_style:{}
+     ,route_style:{fill:true, fillColor:'#DDBB66', fillOpacity:0.75, pointRadius:16, stroke:true, strokeColor:'#DDAA00', strokeOpacity:0.75, strokeWidth:3, strokeLinecap:'round', strokeDashstyle:'solid'}
     },
     aptNav:null,
     map:null,
@@ -46,18 +76,14 @@ var FlightPlanner = {
           'Google Hybrid',
           {'type':google.maps.MapTypeId.HYBRID, numZoomLevels: 20}
         ));
-          
-        this.gotoLatLon(0,0,2);
         
-        // add routes layer
-        this.routesLayer = new OpenLayers.Layer.Vector('Your routes');
-        this.map.addLayer(this.routesLayer);
-        
-        // add nav dat layers
+        // add routes and nav dat layers
+        this.routesLayer = new OpenLayers.Layer.Vector('My routes');
         this.airportsLayer = new OpenLayers.Layer.Vector('Airports');
         this.navaidsLayer = new OpenLayers.Layer.Vector('Navaids');
         this.fixesLayer = new OpenLayers.Layer.Vector('Fixes');
         
+        this.map.addLayer(this.routesLayer);
         this.map.addLayer(this.fixesLayer);
         this.map.addLayer(this.navaidsLayer);
         this.map.addLayer(this.airportsLayer);        
@@ -94,6 +120,8 @@ var FlightPlanner = {
     },
     gotoLatLon:function(lat,lon,zoom)
     {
+      if(zoom=="undefined") zoom = this.map.zoom;
+      
       // Google.v3 uses EPSG:900913 as projection, so we have to
       // transform our coordinates
       this.map.setCenter(new OpenLayers.LonLat(lon, lat).transform(
@@ -135,6 +163,10 @@ var FlightPlanner = {
       var lat = parseFloat($.cookie('x-plane_flight_planner_lat'));
       var lon = parseFloat($.cookie('x-plane_flight_planner_lon'));
       var zoom = parseInt($.cookie('x-plane_flight_planner_zoom'));
+      
+      if(lat===null) lat = 0;
+      if(lon===null) lon = 0;
+      if(zoom===null) zoom = 2;
       
       this.map.setCenter(new OpenLayers.LonLat(lon,lat),zoom,false,false);
     },
@@ -185,6 +217,23 @@ var FlightPlanner = {
         this.fixesLayer.destroyFeatures();
       }
     },
+    getAirportStyle:function(airport)
+    {
+      var style = this.options.airport_default_style;
+      // simple air strip
+      if(airport.type==1 && airport.runways.length==1 && airport.runways[0].type>2) style = this.options.airport_strip_style;
+
+      // big airport with more than 2 runways
+      if(airport.runways.length>2) style = this.options.airport_big_style;
+
+      // seaport
+      if(airport.type==16) style = this.options.airport_sea_style;
+
+      // heliport
+      if(airport.type==17) style = this.options.airport_heli_style;
+      
+      return style;
+    },
     onAptNavResponse:function(data)
     {      
       this.aptNav = data;
@@ -197,23 +246,11 @@ var FlightPlanner = {
       var airport = null;
       var style = null;
       
-      for(var i=0;i<this.aptNav.airports.length;i++) {
-        style = this.options.airport_default_style;
-        
+      for(var i=0;i<this.aptNav.airports.length;i++) {        
         airport = this.aptNav.airports[i];
         
-        // simple air strip
-        if(airport.type==1 && airport.runways.length==1 && airport.runways[0].type>2) style = this.options.airport_strip_style;
-        
-        // big airport with more than 2 runways
-        if(airport.runways.length>2) style = this.options.airport_big_style;
-        
-        // seaport
-        if(airport.type==16) style = this.options.airport_sea_style;
-        
-        // heliport
-        if(airport.type==17) style = this.options.airport_heli_style;
-        
+        style = this.getAirportStyle(airport);
+                
         // make copy of style and add individual properties to it
         style = this.copyStyle(style);
         style.graphicTitle = airport.icao+' - '+airport.name
@@ -225,7 +262,7 @@ var FlightPlanner = {
         // create the feature
         feature = new OpenLayers.Feature.Vector(
           geometry,
-          {airport:airport,title:airport.icao+' - '+airport.name,description:this.getAirportDescription(airport)},
+          {airport:airport,title:'<img src="'+style.externalGraphic+'" width="24" height="24">'+airport.icao+' - '+airport.name,description:this.getAirportDescription(airport)},
           style
         );
         features.push(feature);
@@ -236,11 +273,12 @@ var FlightPlanner = {
     },
     getAirportDescription:function(airport)
     {
-      var out =  '<p>';
       var runway = null;
       var communication = null;
+      var out =  '<p>';
+      out+='<a href="javascript:void(0);" onclick="FlightPlanner.Routes.addWaypoint(\'airport\',\''+airport.icao+'\','+airport.lat+','+airport.lon+');">add as waypoint</a><br/>';
       
-      out+='lat: '+airport.lat+', lon: '+airport.lon+'<br/>';
+      out+='lat: '+numberRounded(airport.lat,4)+', lon: '+numberRounded(airport.lon,4)+'<br/>';
       
       for(var i =0;i<airport.runways.length;i++) {
         runway = airport.runways[i];
@@ -274,8 +312,6 @@ var FlightPlanner = {
           out+=communication.name+': '+(communication.frequency/100)+' MHz <br/>';
         }
       }
-      
-      out+='<a href="javascript:void(0);" onclick="FlightPlanner.Routes.addWaypoint(\'airport\',\''+airport.icao+'\','+airport.lat+','+airport.lon+');">add as waypoint</a>';
       
       out+='</p>';
       return out;
@@ -377,21 +413,81 @@ FlightPlanner.Routes = {
     }
   },
   
-  addWaypoint:function(type,id,lat,lon) {
+  addWaypoint:function(type,apt_nav_id,lat,lon) {
     if(this.active_route==null) this.active_route = this.routes[0];
-    this.active_route.addWaypoint(type,id,lat,lon);
+    this.active_route.addWaypoint(type,apt_nav_id,lat,lon);
+  },
+  
+  removeWaypoint:function(route_id,waypoint_id)
+  {
+    arrayGetBy(this.routes,'id',route_id).removeWaypoint(waypoint_id);
   }
 };
 
 Route = function()
 {
+  this.color = FlightPlanner.options.route_style.strokeColor;
+  
   this.waypoints = [];
   this.id = FlightPlanner.Routes.routes.length+1;
   this.name = 'route '+this.id;
-  this.container = $('<ul class="route-waypoints" id="route-'+this.id+'"></ul>');
+  this.container = $('<ul class="waypoints" id="route-'+this.id+'" data-id="'+this.id+'"></ul>');
   this.select_option = $('<option value="'+this.id+'">'+this.name+'</option>');
   $('#routes-select').append(this.select_option);
   $('#routes-waypoints').append(this.container);
+  
+  this.createFeatures = function()
+  {
+    // create the openlayers features
+    this.line_feature = new OpenLayers.Feature.Vector(
+      new OpenLayers.Geometry.LineString(),
+      {route:this},
+      FlightPlanner.options.route_style
+    );
+    this.points_feature = new OpenLayers.Feature.Vector(
+      new OpenLayers.Geometry.MultiPoint(),
+      {route:this},
+      FlightPlanner.options.route_style
+    );
+    FlightPlanner.routesLayer.addFeatures([this.line_feature,this.points_feature]);
+  };
+  
+  this.makeSortable = function()
+  {
+    var _this = this;
+    this.container.sortable({
+      axis:'y',
+      cursor:'move',
+      delay:0,
+      distance:10,
+      helper:'clone',
+      opacity:0.5,
+      tolerance:'pointer',
+      items:'> li',
+      forceHelperSize:true,
+      containment:'parent',
+      update:function(event,ui){
+        _this.onSort(event,ui);
+      }
+    });
+  };
+  
+  this.onSort = function(event,ui)
+  {
+    var _waypoints = [];
+    var waypoint = null;
+    var id = null;
+    var _this = this;
+    
+    ui.item.parent().find('li').each(function(i,el){
+      id = parseInt($(el).attr('data-id'));
+      waypoint = arrayGetBy(_this.waypoints,'id',id);
+      if(waypoint) _waypoints.push(waypoint);
+    });
+    this.waypoints = _waypoints;
+    
+    this.updateFeatures();
+  };
   
   this.activate = function()
   {
@@ -406,25 +502,110 @@ Route = function()
     this.select_option[0].selected = false;
   };
   
-  this.addWaypoint = function(type,id,lat,lon)
+  this.addWaypoint = function(type,apt_nav_id,lat,lon)
   {
-    var waypoint = new Waypoint(id,this);
+    var waypoint = new Waypoint(apt_nav_id,this);
     waypoint.type = type;
     waypoint.lat = lat;
     waypoint.lon = lon;
     this.waypoints.push(waypoint);
+    waypoint.init();
+    this.makeSortable();
+    
+    this.updateFeatures();
+  };
+  
+  this.removeWaypoint = function(id)
+  {
+    var waypoint = arrayGetBy(this.waypoints,'id',id);
+    waypoint.remove();
+    this.waypoints.splice(arrayIndexOf(this.waypoints,waypoint),1);
+    
+    this.updateFeatures();
+  };
+  
+  // for curved lines that use projection see: http://gis.ibbeck.de/ginfo/apps/OLExamples/OL26/examples/gc_example.html  
+  this.updateFeatures = function()
+  {
+    var waypoint = null;
+    var point = null;
+    
+    if(this.line_feature && this.points_feature) FlightPlanner.routesLayer.destroyFeatures([this.line_feature,this.points_feature]);
+    this.createFeatures();
+    
+    for(var i=0;i<this.waypoints.length;i++) {
+      waypoint = this.waypoints[i];
+      point = new OpenLayers.Geometry.Point(waypoint.lon,waypoint.lat);
+      
+      // point needs to be transfomred into map projection
+      point.transform(FlightPlanner.mapProjection,FlightPlanner.map.getProjectionObject());
+      this.line_feature.geometry.addPoint(point);
+      this.points_feature.geometry.addPoint(point);
+    }
+    FlightPlanner.routesLayer.redraw();
   }
 }
 
-Waypoint = function(id,route)
+Waypoint = function(apt_nav_id,route)
 {
   this.route = route;
   this.type = null;
-  this.id = id;
+  this.id = this.route.waypoints.length;
+  this.apt_nav_id = apt_nav_id;
   this.lat = null;
   this.lon = null;
   this.apt_nav = null;
-  this.container = $('<li class="waypoint" id="route-'+this.route.id+'-waypoint-'+this.id+'"></li>');
+  this.container = $('<li class="waypoint" id="route-'+this.route.id+'-waypoint-'+this.id+'" data-id="'+this.id+'"></li>');
   this.route.container.append(this.container);
+  
+  this.init = function()
+  {
+    this.container.addClass(this.type);
+    this.loadAptNav();
+  };  
+  
+  this.loadAptNav = function()
+  {
+    var _this = this;
+    
+    this.container.addClass('loading');
+    
+    if(this.type=='airport') {
+      jQuery.getJSON(FlightPlanner.options.base_url+'airport-json/'+this.apt_nav_id,
+        function(data,textStatus){
+          _this.onAptNavResponse(data);
+        });
+    }
+  };
+  
+  this.onAptNavResponse = function(data)
+  {
+    this.container.removeClass('loading');
+    this.aptNav = data;
+    this.setBody();
+  };
+  
+  this.setBody = function()
+  {
+    var style;
+    var body = '';
+    this.container.empty();
+    
+    var name = null;
+    if(this.aptNav['airport']) {
+      name = '<a class="waypoint-icon" href="javascript:void(0);" onclick="FlightPlanner.gotoLatLon('+this.lat+','+this.lon+');"><img src="'+FlightPlanner.getAirportStyle(this.aptNav.airport).externalGraphic+'" width="24" height="24"></a>'+this.aptNav.airport.icao+' - '+this.aptNav.airport.name;
+    }
+    
+    body+='<h4>'+name+'</h4>';
+    body+='lat: '+numberRounded(this.lat,4)+', lon: '+numberRounded(this.lon,4)+'<br/>';
+    body+='<a href="javascript:void(0);" onclick="FlightPlanner.Routes.removeWaypoint('+this.route.id+','+this.id+');">x remove</a>';
+    
+    this.container.append(body);
+  };
+  
+  this.remove = function()
+  {
+    this.container.remove();
+  }
 }
 

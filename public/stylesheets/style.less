@@ -28,6 +28,16 @@ input[type=text] {
   .v-gradient(#DDD,0%,#FFF,80%);
   padding:0.2em 0.5em;
 }
+a:hover {
+  border-bottom:none;
+}
+
+.loading {
+  background-image:url('../images/loader.gif');
+  background-repeat:no-repeat;
+  background-position: center center;
+  min-height:60px;
+}
 
 #header {
   position:fixed;
@@ -38,7 +48,7 @@ input[type=text] {
   background: #CCC;
   z-index:1000;
   .box-shadow(0 0 10px rgba(0,0,0,0.25));
-  padding:0.5em;
+  padding:0.5em 1em;
   .v-gradient(#AAA,0%,#666,100%);
   color:#FFF;
   .text-shadow(-1px -1px 1px #666);
@@ -97,13 +107,6 @@ input[type=text] {
     padding:0;
     margin:0;
 
-    &.loading {
-      background-image:url('../images/loader.gif');
-      background-repeat:no-repeat;
-      background-position: center center;
-      height:60px;
-    }
-
     li {
       text-indent:0;
       background:#FFF;
@@ -145,6 +148,7 @@ input[type=text] {
   right:@menu_width;
   border:1px solid #000;
 }
+
 #routes {
   position:absolute;
   top:0;
@@ -168,10 +172,6 @@ input[type=text] {
     border:1px solid #000;
     display:inline-block;
     .text-shadow(-1px -1px 1px #666);
-  }
-  
-  a.edit-route {
-    float:right;
   }
   
   #routes-select {
@@ -201,8 +201,9 @@ input[type=text] {
     
     ul.waypoints {
       list-style-type:none;
+      text-indent:0;
       margin:0;
-      padding:0;
+      padding:0.5em;
       display:none;
       
       &.active {
@@ -210,21 +211,60 @@ input[type=text] {
       }
       
       li.waypoint {
+        list-style-type:none;
         margin:0 0 0.5em 0;
-        padding:0;
+        padding:0.5em;
         .border-radius (5px);
-        background:#666;
+        background-color:#666;
+        .v-gradient(#333,0%,#666,100%);
+        display:block;
+        border:1px solid #000;
+        cursor:move;
+        
+        a {
+          color:#FFF;
+          text-decoration:underline;          
+        }
+        .waypoint-icon {
+          text-decoration:none;
+        }
+        
+        &.airport {
+          @color: desaturate(#0000FF,60%);
+          background-color:darken(@color,25%);
+          .v-gradient(darken(@color,10%),0%,darken(@color,20%),100%);
+        }
+        
+        h4 {
+          margin:0 0 0.5em 0;
+          
+          img {
+            display:inline;
+            margin:0 0.5em 0 0;
+            padding:2px;
+            vertical-align:middle;
+            background:fade(#FFF,50%);
+            .border-radius(3px);
+          }
+        }
       }
     }
   }
 }
 #footer {
-  height:@footer_height;
+  height:@footer_height - 0.5em;
   position:fixed;
   left:0;
   bottom:0;
   right:0;
-  background: #CCC;
+  background-color: #666;
+  .v-gradient(#999,0%,#333,100%);
+  padding:0.5em 1em 0 1em;
+  color:#FFF;
+  line-height:100%;
+  .text-shadow(-1px -1px 1px #666);
+  z-index:1000;
+  .box-shadow(0 0 10px rgba(0,0,0,0.25));
 }
 
 
@@ -232,4 +272,11 @@ input[type=text] {
 
 .olPopup h2 {
   font-size:120%;
+  
+  img {
+    display:inline;
+    margin:0 0.5em 0 0;
+    padding:0;
+    vertical-align:bottom;
+  }
 }
