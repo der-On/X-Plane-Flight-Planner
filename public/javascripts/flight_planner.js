@@ -43,6 +43,16 @@ function arrayGreatest(arr,prop,def)
   return c;
 }
 
+function zeroFill( number, width )
+{
+  width -= number.toString().length;
+  if ( width > 0 )
+  {
+    return new Array( width + (/\./.test( number ) ? 2 : 1) ).join( '0' ) + number;
+  }
+  return number;
+}
+
 var FlightPlanner = {
     options:{
       zoom_display_apt_nav: 7 // zoomlevel from wich on to display apt nav data
@@ -294,7 +304,7 @@ var FlightPlanner = {
       var out =  '<p>';
       out+='<a href="javascript:void(0);" onclick="FlightPlanner.Routes.addWaypoint(\'airport\',\''+airport.icao+'\','+airport.lat+','+airport.lon+');">add as waypoint</a><br/>';
       
-      out+='lat: '+numberRounded(airport.lat,4)+', lon: '+numberRounded(airport.lon,4)+'<br/>';
+      out+='lat: '+airport.lat.toFixed(4)+', lon: '+airport.lon.toFixed(4)+'<br/>';
       
       for(var i =0;i<airport.runways.length;i++) {
         runway = airport.runways[i];
@@ -325,7 +335,7 @@ var FlightPlanner = {
         
         for(i = 0;i<airport.communications.length;i++) {
           communication = airport.communications[i];
-          out+=communication.name+': '+(communication.frequency/100)+' MHz <br/>';
+          out+=communication.name+': '+(communication.frequency/100).toFixed(2)+' MHz <br/>';
         }
       }
       
@@ -545,7 +555,7 @@ Route = function()
   {
     this.select_option.text(this.name);
     $('#route-color').css('background',this.color);
-    this.updateFeatures();  
+    this.updateWaypoints();  
   };
   
   this.createFeatures = function()
@@ -625,8 +635,8 @@ Route = function()
     waypoint.type = type;
     waypoint.lat = lat;
     waypoint.lon = lon;
-    this.waypoints.push(waypoint);
     waypoint.init();
+    this.waypoints.push(waypoint);
     this.makeSortable();
     
     this.updateWaypoints();
@@ -645,7 +655,6 @@ Route = function()
   this.updateWaypoints = function()
   {
     var waypoint = null;
-    var prev_waypoint = null;
     var point = null;
     
     this.distance = 0;
@@ -668,9 +677,8 @@ Route = function()
       waypoint.point = point;
       waypoint.next = null;
       
-      if(i>0) {
-        prev_waypoint = this.waypoints[i-1];
-        prev_waypoint.next = waypoint;
+      if(i<this.waypoints.length) {
+        waypoint.next = this.waypoints[i+1];
       }
     }
     FlightPlanner.routesLayer.redraw();
@@ -681,10 +689,12 @@ Route = function()
   this.calculate = function()
   {
     var waypoint = null;
+    this.distance = 0;
+    this.fuel = 0;
+    this.duration = 0;
     
     for(var i=0;i<this.waypoints.length;i++) {
       waypoint = this.waypoints[i];
-
       waypoint.calculate();
       waypoint.setBody();
       this.distance+=waypoint.distance;
@@ -700,19 +710,19 @@ Route = function()
     body+='<h4>Totals</h4>';
     
     // distance
-    body+='Distance: '+numberRounded(this.distance,2)+' nm<br/>';
+    body+='Distance: '+this.distance.toFixed(2)+' nm<br/>';
     
     // duration
     body+='Duration: ';
     if(this.duration>0) {
       var hours = Math.floor(this.duration);
       var mins = Math.round((this.duration-hours)*60);
-      body+=hours+':'+mins;
+      body+=zeroFill(hours,2)+':'+zeroFill(mins,2);
     } else body+=' n.a.';
     body+='<br/>';
     
     // fuel
-    body+='Fuel: '+numberRounded(this.fuel,2)+' gallons';
+    body+='Fuel: '+this.fuel.toFixed(2)+' gallons';
     
     this.totals.append(body);
   }
@@ -745,6 +755,11 @@ Waypoint = function(apt_nav_id,route)
   
   this.calculate = function()
   {
+    this.distance = 0;
+    this.heading = 0;
+    this.duration = 0;
+    this.fuel = 0;
+    
     if(this.aptNav) {
       if(this.next) {
         this.distance = this.point.distanceTo(this.next.point)/1852; // distance in nm
@@ -782,32 +797,34 @@ Waypoint = function(apt_nav_id,route)
     this.container.empty();
     
     var name = null;
-    if(this.aptNav['airport']) {
-      name = '<a class="waypoint-icon" href="javascript:void(0);" onclick="FlightPlanner.gotoLatLon('+this.lat+','+this.lon+');"><img src="'+FlightPlanner.getAirportStyle(this.aptNav.airport).externalGraphic+'" width="24" height="24"></a>'+this.aptNav.airport.icao+' - '+this.aptNav.airport.name;
+    if(this.aptNav) {
+      if(this.aptNav['airport']) {
+        name = '<a class="waypoint-icon" href="javascript:void(0);" onclick="FlightPlanner.gotoLatLon('+this.lat+','+this.lon+');"><img src="'+FlightPlanner.getAirportStyle(this.aptNav.airport).externalGraphic+'" width="24" height="24"></a>'+this.aptNav.airport.icao+' - '+this.aptNav.airport.name;
+      }
     }
     
     body+='<h4>'+name+'</h4>';
-    body+='lat: '+numberRounded(this.lat,4)+', lon: '+numberRounded(this.lon,4)+'<br/>';
+    body+='lat: '+this.lat.toFixed(4)+', lon: '+this.lon.toFixed(4)+'<br/>';
     
     if(this.next) {
       body+='<a class="details-toggle" href="javascript:void(0);" onclick="$(this).next().slideToggle();">Details</a><div class="details">';
       // distance
-      body+='Distance: '+numberRounded(this.distance,2)+' nm<br/>';
+      body+='Distance: '+this.distance.toFixed(2)+' nm<br/>';
       
       // duration
       body+='Duration: ';
       if(this.duration>0) {
           var hours = Math.floor(this.duration);
           var mins = Math.round((this.duration-hours)*60);
-          body+=hours+':'+mins;
+          body+=zeroFill(hours,2)+':'+zeroFill(mins,2);
       } else body+='n.a';
       body+='<br/>';
 
       // fuel
-      body+='Fuel: '+numberRounded(this.fuel,2)+' gallons<br/>';
+      body+='Fuel: '+this.fuel.toFixed(2)+' gallons<br/>';
 
       // heading
-      body+='Heading: '+this.heading+'°<br/>';
+      body+='Heading: '+this.heading.toFixed(2)+'°<br/>';
       
       body+='</div>';
     }
