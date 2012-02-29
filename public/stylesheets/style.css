@@ -288,7 +288,20 @@ a:hover {
   background-image: -o-linear-gradient(top, #333333 0%, #666666 100%);
   display: block;
   border: 1px solid #000;
+}
+#routes #routes-waypoints ul.waypoints li.waypoint {
+  clear: both;
+  padding-bottom: 2em;
   cursor: move;
+}
+#routes #routes-waypoints ul.waypoints li.waypoint .details-toggle {
+  display: block;
+}
+#routes #routes-waypoints ul.waypoints li.waypoint .details {
+  display: none;
+}
+#routes #routes-waypoints ul.waypoints li.waypoint a.remove {
+  float: right;
 }
 #routes #routes-waypoints ul.waypoints li a {
   color: #FFF;

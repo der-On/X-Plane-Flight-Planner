@@ -221,7 +221,24 @@ a:hover {
         .v-gradient(#333,0%,#666,100%);
         display:block;
         border:1px solid #000;
-        cursor:move;
+        
+        &.waypoint {
+          clear:both;
+          padding-bottom:2em;
+          cursor:move;
+          
+          .details-toggle {
+            display:block;
+          }
+          
+          .details {
+            display:none;
+          }
+          
+          a.remove {
+            float:right;
+          }
+        }
         
         a {
           color:#FFF;

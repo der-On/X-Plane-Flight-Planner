@@ -1,6 +1,6 @@
 function numberRounded(number,decimals)
 {
-  var d = decimals*100;
+  var d = decimals*10;
   return Math.round(number*d)/d;
 }
 
@@ -63,7 +63,7 @@ var FlightPlanner = {
     init:function(map_id,menu_id)
     {
         this.map = new OpenLayers.Map(map_id,{
-          units:'degrees'          
+          units:'m'          
         });
         
         this.mapProjection = new OpenLayers.Projection("EPSG:4326");
@@ -414,8 +414,10 @@ FlightPlanner.Routes = {
   
   add:function()
   {
-    this.routes.push(new Route());
-    this.activate(this.routes.length);
+    var route = new Route();
+    route.init();
+    this.routes.push(route);
+    this.activate(route);
   },
   
   activate:function(id)
@@ -453,18 +455,30 @@ Route = function()
   this.aircraft = '';
   this.cruise_speed = 0;
   this.fuel_consumption = 0;
+  this.payload = 0;
+  this.distance = 0;
+  this.duration = 0;
+  this.fuel = 0;
   
-  this.container = $('<ul class="waypoints" id="route-'+this.id+'" data-id="'+this.id+'"></ul>');
-  this.container.append(this.totals);
-  this.totals = $('<li class="totals"></li>');
-  this.select_option = $('<option value="'+this.id+'">'+this.name+'</option>');
-  $('#routes-select').append(this.select_option);
-  $('#routes-waypoints').append(this.container);
+  this.init = function()
+  {
+    this.container = $('<ul class="waypoints" id="route-'+this.id+'" data-id="'+this.id+'"></ul>');
+    this.totals = $('<li class="totals"></li>');
+    this.container.append(this.totals);
+    this.select_option = $('<option value="'+this.id+'">'+this.name+'</option>');
+    $('#routes-select').append(this.select_option);
+    $('#routes-waypoints').append(this.container);
+    this.setTotals();
+  }
   
   this.edit = function()
   {
     var _this = this;
     var d_id = 'route-'+this.id+'-edit';
+    
+    // cancel if dialog is already open
+    if($('#'+d_id).length>0) return false;
+    
     var dial = $('<div class="route-edit" id="'+d_id+'" title="Edit '+this.name+'"></div>');
     $('body').append(dial);
     
@@ -491,6 +505,9 @@ Route = function()
     // fuel consumption
     body+='<label for="'+d_id+'-fuel_consumption">Fuel consumption:</label><input id="'+d_id+'-fuel_consumption" type="number" value="'+this.fuel_consumption+'"> gallons/hour<br/>';
     
+    // payload
+    body+='<label for="'+d_id+'-payload">Payload<br/>(+ Pax & Crew):</label><input id="'+d_id+'-payload" type="number" value="'+this.payload+'"> kg<br/>';
+    
     // save
     body+='<button class="save-route" id="'+d_id+'-save">Save</button>';
     
@@ -507,25 +524,28 @@ Route = function()
       var aircraft = dial.find('#'+d_id+'-aircraft').val();
       var cruise_speed = parseInt(dial.find('#'+d_id+'-cruise_speed').val());
       var fuel_consumption = parseInt(dial.find('#'+d_id+'-fuel_consumption').val());
+      var payload = parseInt(dial.find('#'+d_id+'-payload').val());
       if(name!='') _this.name = name;
       _this.color = color;
       _this.aircraft = aircraft;
       _this.cruise_speed = cruise_speed;
       _this.fuel_consumption = fuel_consumption;
+      _this.payload = payload;
       
       _this.onEditSave();
       
       dial.dialog('destroy');
+      dial.remove();
     });
     
-    dial.dialog();
+    dial.dialog({close:function(){dial.remove();}});
   };
   
   this.onEditSave = function()
   {
     this.select_option.text(this.name);
     $('#route-color').css('background',this.color);
-    this.updateFeatures();    
+    this.updateFeatures();  
   };
   
   this.createFeatures = function()
@@ -559,7 +579,7 @@ Route = function()
       helper:'clone',
       opacity:0.5,
       tolerance:'pointer',
-      items:'> li',
+      items:'> li.waypoint',
       forceHelperSize:true,
       containment:'parent',
       update:function(event,ui){
@@ -582,7 +602,7 @@ Route = function()
     });
     this.waypoints = _waypoints;
     
-    this.updateFeatures();
+    this.updateWaypoints();
   };
   
   this.activate = function()
@@ -609,7 +629,7 @@ Route = function()
     waypoint.init();
     this.makeSortable();
     
-    this.updateFeatures();
+    this.updateWaypoints();
   };
   
   this.removeWaypoint = function(id)
@@ -618,20 +638,26 @@ Route = function()
     waypoint.remove();
     this.waypoints.splice(arrayIndexOf(this.waypoints,waypoint),1);
     
-    this.updateFeatures();
+    this.updateWaypoints();
   };
   
   // for curved lines that use projection see: http://gis.ibbeck.de/ginfo/apps/OLExamples/OL26/examples/gc_example.html  
-  this.updateFeatures = function()
+  this.updateWaypoints = function()
   {
     var waypoint = null;
+    var prev_waypoint = null;
     var point = null;
+    
+    this.distance = 0;
+    this.fuel = 0;
+    this.duration = 0;
     
     if(this.line_feature && this.points_feature) FlightPlanner.routesLayer.destroyFeatures([this.line_feature,this.points_feature]);
     this.createFeatures();
     
     for(var i=0;i<this.waypoints.length;i++) {
       waypoint = this.waypoints[i];
+      
       point = new OpenLayers.Geometry.Point(waypoint.lon,waypoint.lat);
       
       // point needs to be transfomred into map projection
@@ -639,14 +665,56 @@ Route = function()
       this.line_feature.geometry.addPoint(point);
       this.points_feature.geometry.addPoint(point);
       
-      waypoint.point_feature = point;
+      waypoint.point = point;
+      waypoint.next = null;
+      
+      if(i>0) {
+        prev_waypoint = this.waypoints[i-1];
+        prev_waypoint.next = waypoint;
+      }
     }
     FlightPlanner.routesLayer.redraw();
+    this.calculate();
+    this.setTotals();
+  };
+  
+  this.calculate = function()
+  {
+    var waypoint = null;
+    
+    for(var i=0;i<this.waypoints.length;i++) {
+      waypoint = this.waypoints[i];
+
+      waypoint.calculate();
+      waypoint.setBody();
+      this.distance+=waypoint.distance;
+      this.duration+=waypoint.duration;
+      this.fuel+=waypoint.fuel;
+    }
   };
   
   this.setTotals = function()
   {
+    this.totals.empty();
+    var body = '';
+    body+='<h4>Totals</h4>';
     
+    // distance
+    body+='Distance: '+numberRounded(this.distance,2)+' nm<br/>';
+    
+    // duration
+    body+='Duration: ';
+    if(this.duration>0) {
+      var hours = Math.floor(this.duration);
+      var mins = Math.round((this.duration-hours)*60);
+      body+=hours+':'+mins;
+    } else body+=' n.a.';
+    body+='<br/>';
+    
+    // fuel
+    body+='Fuel: '+numberRounded(this.fuel,2)+' gallons';
+    
+    this.totals.append(body);
   }
 }
 
@@ -659,19 +727,32 @@ Waypoint = function(apt_nav_id,route)
   this.lat = null;
   this.lon = null;
   this.apt_nav = null;
-  this.point_feature = null;
+  this.point = null;
+  this.next = null;
   this.distance = 0;
   this.heading = 0;
-  this.time = 0;
+  this.duration = 0;
+  this.fuel = 0;
   
   this.container = $('<li class="waypoint" id="route-'+this.route.id+'-waypoint-'+this.id+'" data-id="'+this.id+'"></li>');
-  this.route.container.append(this.container);
+  this.route.totals.before(this.container);
   
   this.init = function()
   {
     this.container.addClass(this.type);
     this.loadAptNav();
   };  
+  
+  this.calculate = function()
+  {
+    if(this.aptNav) {
+      if(this.next) {
+        this.distance = this.point.distanceTo(this.next.point)/1852; // distance in nm
+        if(this.route.cruise_speed>0) this.duration = this.distance/this.route.cruise_speed; // duration in hours
+        this.fuel = this.duration*this.route.fuel_consumption; // fuel in gallons | TODO: implement payload
+      }
+    }
+  };
   
   this.loadAptNav = function()
   {
@@ -707,7 +788,32 @@ Waypoint = function(apt_nav_id,route)
     
     body+='<h4>'+name+'</h4>';
     body+='lat: '+numberRounded(this.lat,4)+', lon: '+numberRounded(this.lon,4)+'<br/>';
-    body+='<a href="javascript:void(0);" onclick="FlightPlanner.Routes.removeWaypoint('+this.route.id+','+this.id+');">x remove</a>';
+    
+    if(this.next) {
+      body+='<a class="details-toggle" href="javascript:void(0);" onclick="$(this).next().slideToggle();">Details</a><div class="details">';
+      // distance
+      body+='Distance: '+numberRounded(this.distance,2)+' nm<br/>';
+      
+      // duration
+      body+='Duration: ';
+      if(this.duration>0) {
+          var hours = Math.floor(this.duration);
+          var mins = Math.round((this.duration-hours)*60);
+          body+=hours+':'+mins;
+      } else body+='n.a';
+      body+='<br/>';
+
+      // fuel
+      body+='Fuel: '+numberRounded(this.fuel,2)+' gallons<br/>';
+
+      // heading
+      body+='Heading: '+this.heading+'°<br/>';
+      
+      body+='</div>';
+    }
+    
+    // remove button
+    body+='<a class="remove" href="javascript:void(0);" onclick="FlightPlanner.Routes.removeWaypoint('+this.route.id+','+this.id+');">x remove</a>';
     
     this.container.append(body);
   };
