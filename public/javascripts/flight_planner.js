@@ -28,6 +28,21 @@ function arrayIndexOf(arr,value,strict)
   return -1;
 }
 
+function arrayGreatest(arr,prop,def)
+{
+  var c = null;
+  for(var i=0;i<arr.length;i++)
+  {
+      if(arr[i][prop]!='undefined' && arr[i][prop]!==null) {
+        if(c===null || arr[i][prop]>c) c = arr[i][prop];
+      } 
+  }
+  
+  if(c===null) c = def;
+  
+  return c;
+}
+
 var FlightPlanner = {
     options:{
       zoom_display_apt_nav: 7 // zoomlevel from wich on to display apt nav data
@@ -429,7 +444,7 @@ Route = function()
   this.color = FlightPlanner.options.route_style.strokeColor;
   
   this.waypoints = [];
-  this.id = FlightPlanner.Routes.routes.length+1;
+  this.id = arrayGreatest(FlightPlanner.Routes.routes,'id',0)+1;
   this.name = 'route '+this.id;
   this.container = $('<ul class="waypoints" id="route-'+this.id+'" data-id="'+this.id+'"></ul>');
   this.select_option = $('<option value="'+this.id+'">'+this.name+'</option>');
@@ -550,7 +565,7 @@ Waypoint = function(apt_nav_id,route)
 {
   this.route = route;
   this.type = null;
-  this.id = this.route.waypoints.length;
+  this.id = arrayGreatest(this.route.waypoints,'id',0)+1;
   this.apt_nav_id = apt_nav_id;
   this.lat = null;
   this.lon = null;
