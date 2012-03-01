@@ -418,8 +418,9 @@ FlightPlanner.Routes = {
   
   init:function()
   {
-    this.add();
-    this.activate(1);
+    if(!this.load()) {
+      this.add();
+    }
   },
   
   add:function()
@@ -427,36 +428,85 @@ FlightPlanner.Routes = {
     var route = new Route();
     route.init();
     this.routes.push(route);
-    this.activate(route);
+    this.activate(route.id);
+    this.save();
+  },
+  
+  remove:function(id)
+  {
+    var route = arrayGetBy(this.routes,'id',id);
+    if(route) {
+      route.remove();
+      this.routes.splice(arrayIndexOf(this.routes,route),1);
+      
+      if(this.routes.length>0) {
+        this.activate(this.routes[0].id);
+      } else {
+        this.add();
+        this.activate(this.routes[0].id);
+      }
+      
+      this.save();
+    }    
   },
   
   activate:function(id)
   {
-    if(id>0 && id<=this.routes.length) {
-      this.active_route = this.routes[id-1];
-      this.active_route.activate();
-      for(var i=0;i<this.routes.length;i++) {
-        if(this.routes[i]!=this.active_route) this.routes[i].deactivate();
-      }
+    this.active_route = arrayGetBy(this.routes,'id',id);
+    this.active_route.activate();
+    for(var i=0;i<this.routes.length;i++) {
+      if(this.routes[i]!=this.active_route) this.routes[i].deactivate();
     }
   },
   
   addWaypoint:function(type,apt_nav_id,lat,lon) {
     this.active_route.addWaypoint(type,apt_nav_id,lat,lon);
+    this.save();
   },
   
   removeWaypoint:function(route_id,waypoint_id)
   {
     arrayGetBy(this.routes,'id',route_id).removeWaypoint(waypoint_id);
+    this.save();
   },
   
   edit:function()
   {
     this.active_route.edit();
+  },
+  
+  save:function()
+  {
+    var _routes = [];
+    for(var i=0;i<this.routes.length;i++) {
+      _routes.push(this.routes[i].getDataObject());
+    }
+    $.cookie('x-plane_flight_planner_routes',JSON.stringify(_routes));
+  },
+  
+  load:function()
+  {
+    var _routes = $.cookie('x-plane_flight_planner_routes');
+    var route = null;
+    var waypoint = null;
+    if(_routes!==null) {
+      _routes = eval(_routes);
+      if(_routes.length>0) {
+        for(var i=0;i<_routes.length;i++) {
+          route = new Route(_routes[i]);
+          route.init();
+          this.routes.push(route);
+          this.activate(route.id);
+          route.loadWaypoints(_routes[i].waypoints);
+        }
+        return true;
+      }
+    }
+    return false;
   }
 };
 
-Route = function()
+Route = function(data)
 {
   this.color = FlightPlanner.options.route_style.strokeColor;
   this.waypoints = [];
@@ -469,6 +519,31 @@ Route = function()
   this.distance = 0;
   this.duration = 0;
   this.fuel = 0;
+  
+  if(data) {
+    if(data.id) this.id = data.id;
+    if(data.color) this.color = data.color;
+    if(data.name) this.name = data.name;
+    if(data.aircaft) this.aircraft = data.aircaft;
+    if(data.cruise_speed) this.cruise_speed = data.cruise_speed;
+    if(data.fuel_consumption) this.fuel_consumption = data.fuel_consumption;
+    if(data.payload) this.payload = data.payload;
+  };
+  
+  this.loadWaypoints = function(data) {
+    if(data) {
+      var waypoint = null;
+      for(var i=0;i<data.length;i++) {
+        data[i].route = this;
+        waypoint = new Waypoint(data[i]);
+        waypoint.init();
+        this.waypoints.push(waypoint);
+      }
+      
+      this.makeSortable();    
+      this.updateWaypoints();
+    }
+  };
   
   this.init = function()
   {
@@ -521,6 +596,10 @@ Route = function()
     // save
     body+='<button class="save-route" id="'+d_id+'-save">Save</button>';
     
+    // remove
+    body+='<a href="javascript:void(0);" class="remove-route" id="'+d_id+'-remove">x remove</a>';
+    
+    
     body+='</p>';
     dial.append(body);
     
@@ -546,6 +625,14 @@ Route = function()
       
       dial.dialog('destroy');
       dial.remove();
+    });
+    
+    dial.find('#'+d_id+'-remove').click(function(){
+      if(confirm('Do you really want to remove this route?')) {
+        dial.dialog('destroy');
+        dial.remove();
+        FlightPlanner.Routes.remove(_this.id);
+      }
     });
     
     dial.dialog({close:function(){dial.remove();}});
@@ -605,14 +692,18 @@ Route = function()
     var id = null;
     var _this = this;
     
-    ui.item.parent().find('li').each(function(i,el){
+    ui.item.parent().find('li.waypoint').each(function(i,el){
       id = parseInt($(el).attr('data-id'));
-      waypoint = arrayGetBy(_this.waypoints,'id',id);
-      if(waypoint) _waypoints.push(waypoint);
+      if(id!==null || id!="undefined") {
+        waypoint = arrayGetBy(_this.waypoints,'id',id);
+        if(waypoint) _waypoints.push(waypoint);
+      }
     });
     this.waypoints = _waypoints;
     
     this.updateWaypoints();
+    
+    FlightPlanner.Routes.save();
   };
   
   this.activate = function()
@@ -629,12 +720,22 @@ Route = function()
     this.select_option[0].selected = false;
   };
   
+  this.remove = function()
+  {
+    if(this.line_feature && this.points_feature) FlightPlanner.routesLayer.destroyFeatures([this.line_feature,this.points_feature]);
+    this.select_option.remove();
+    this.container.remove();
+  };
+  
   this.addWaypoint = function(type,apt_nav_id,lat,lon)
   {
-    var waypoint = new Waypoint(apt_nav_id,this);
-    waypoint.type = type;
-    waypoint.lat = lat;
-    waypoint.lon = lon;
+    var waypoint = new Waypoint({
+      apt_nav_id:apt_nav_id,
+      route:this,
+      type:type,
+      lat:lat,
+      lon:lon
+    });
     waypoint.init();
     this.waypoints.push(waypoint);
     this.makeSortable();
@@ -725,15 +826,35 @@ Route = function()
     body+='Fuel: '+this.fuel.toFixed(2)+' gallons';
     
     this.totals.append(body);
+  };
+  
+  this.getDataObject = function()
+  {
+    var r = {
+      id:this.id,
+      name:this.name,
+      color:this.color,
+      waypoints:[],
+      aircraft:this.aircraft,
+      cruise_speed:this.cruise_speed,
+      fuel_consumption:this.fuel_consumption,
+      payload:this.payload
+    }
+    
+    for(var i=0;i<this.waypoints.length;i++) {
+      r.waypoints.push(this.waypoints[i].getDataObject());
+    }
+    
+    return r;    
   }
 }
 
-Waypoint = function(apt_nav_id,route)
+Waypoint = function(data)
 {
-  this.route = route;
+  this.route = null;
   this.type = null;
-  this.id = arrayGreatest(this.route.waypoints,'id',0)+1;
-  this.apt_nav_id = apt_nav_id;
+  this.id = null;
+  this.apt_nav_id = null;
   this.lat = null;
   this.lon = null;
   this.apt_nav = null;
@@ -743,6 +864,18 @@ Waypoint = function(apt_nav_id,route)
   this.heading = 0;
   this.duration = 0;
   this.fuel = 0;
+  
+  if(data) {
+    if(data.route) {
+      this.route = data.route;
+      this.id = arrayGreatest(this.route.waypoints,'id',0)+1;
+    }
+    if(data.apt_nav_id) this.apt_nav_id = data.apt_nav_id;
+    if(data.type) this.type = data.type;
+    if(data.id) this.id = data.id;
+    if(data.lat) this.lat = data.lat;
+    if(data.lon) this.lon = data.lon;
+  }
   
   this.container = $('<li class="waypoint" id="route-'+this.route.id+'-waypoint-'+this.id+'" data-id="'+this.id+'"></li>');
   this.route.totals.before(this.container);
@@ -840,5 +973,17 @@ Waypoint = function(apt_nav_id,route)
   {
     this.container.remove();
   };
+  
+  this.getDataObject = function()
+  {
+    return {
+      id:this.id,
+      name:this.name,
+      apt_nav_id:this.apt_nav_id,
+      type:this.type,
+      lat:this.lat,
+      lon:this.lon
+    };
+  }
 }
 
