@@ -765,6 +765,7 @@ Waypoint = function(apt_nav_id,route)
         this.distance = this.point.distanceTo(this.next.point)/1852; // distance in nm
         if(this.route.cruise_speed>0) this.duration = this.distance/this.route.cruise_speed; // duration in hours
         this.fuel = this.duration*this.route.fuel_consumption; // fuel in gallons | TODO: implement payload
+        // for heading calculations see: http://de.wikipedia.org/wiki/Deklination_%28Geographie%29        
       }
     }
   };
@@ -824,7 +825,7 @@ Waypoint = function(apt_nav_id,route)
       body+='Fuel: '+this.fuel.toFixed(2)+' gallons<br/>';
 
       // heading
-      body+='Heading: '+this.heading.toFixed(2)+'°<br/>';
+      body+='Heading: '+Math.round(this.heading)+'°<br/>';
       
       body+='</div>';
     }
