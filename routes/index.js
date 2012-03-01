@@ -6,18 +6,24 @@ var AptNavParser = require('../lib/apt_nav_parser').AptNavParser;
  */
 
 exports.index = function(req, res){
-  res.render('index', { title: 'X-Plane Flight Planner' });
+  var aptNavData = new AptNavData();
+  aptNavData.getVariable('airports_info',function(airports_info){
+    res.render('index', { title: 'X-Plane Flight Planner', airports_info: airports_info});
+  });
 };
 
 exports.parse = function(req,res){
   var aptNavData = new AptNavData();
   var aptNavParser = new AptNavParser();
+  var airports_info = aptNavParser.airportsInfo('apt_nav/apt.dat');
   var airports = aptNavParser.parseAirports('apt_nav/apt.dat');
   
   aptNavData.clearAirports();
   aptNavData.saveAirports(airports);
+  aptNavData.clearVariable('airports_info');
+  aptNavData.saveVariable('airports_info',airports_info);
   
-  res.render('parse', { title: 'X-Plane Flight Planner', airports: airports });
+  res.render('parse', { title: 'X-Plane Flight Planner', airports: airports, airports_info: airports_info });
 };
 
 exports.aptNavJson = function(req,res) {
