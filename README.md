@@ -1,6 +1,6 @@
 # X-Plane Flight Planner
 
-This is a web-based flight planning tool for the Flight Simulator X-Plane.
+This is a web-based flight planning tool for the flight simulator X-Plane.
 It provides an easy to use interface where you can point and click your routes on a map.
 
 Future versions will intergrate the economy system FSEconomy within the flight planner.
