@@ -243,23 +243,6 @@ var FlightPlanner = {
         this.fixesLayer.destroyFeatures();
       }
     },
-    getAirportStyle:function(airport)
-    {
-      var style = this.options.airport_default_style;
-      // simple air strip
-      if(airport.type==1 && airport.runways.length==1 && airport.runways[0].type>2) style = this.options.airport_strip_style;
-
-      // big airport with more than 2 runways
-      if(airport.runways.length>2) style = this.options.airport_big_style;
-
-      // seaport
-      if(airport.type==16) style = this.options.airport_sea_style;
-
-      // heliport
-      if(airport.type==17) style = this.options.airport_heli_style;
-      
-      return style;
-    },
     onAptNavResponse:function(data)
     {      
       this.aptNav = data;
@@ -275,7 +258,7 @@ var FlightPlanner = {
       for(var i=0;i<this.aptNav.airports.length;i++) {        
         airport = this.aptNav.airports[i];
         
-        style = this.getAirportStyle(airport);
+        style = this.Airports.getStyle(airport);
                 
         // make copy of style and add individual properties to it
         style = this.copyStyle(style);
@@ -288,7 +271,7 @@ var FlightPlanner = {
         // create the feature
         feature = new OpenLayers.Feature.Vector(
           geometry,
-          {airport:airport,title:'<img src="'+style.externalGraphic+'" width="24" height="24">'+airport.icao+' - '+airport.name,description:this.getAirportDescription(airport)},
+          {airport:airport,title:'<img src="'+style.externalGraphic+'" width="24" height="24">'+airport.icao+' - '+airport.name,description:this.Airports.getDescription(airport)},
           style
         );
         features.push(feature);
@@ -296,51 +279,6 @@ var FlightPlanner = {
       
       this.airportsLayer.addFeatures(features);
       // TODO: add navaids and fixes to map
-    },
-    getAirportDescription:function(airport)
-    {
-      var runway = null;
-      var communication = null;
-      var out =  '<p>';
-      out+='<a href="javascript:void(0);" onclick="FlightPlanner.Routes.addWaypoint(\'airport\',\''+airport.icao+'\','+airport.lat+','+airport.lon+');">add as waypoint</a><br/>';
-      
-      out+='lat: '+airport.lat.toFixed(4)+', lon: '+airport.lon.toFixed(4)+'<br/>';
-      
-      for(var i =0;i<airport.runways.length;i++) {
-        runway = airport.runways[i];
-        out+='Runway '+runway.number_start+' - '+runway.number_end+': width '+runway.width+'m';
-        
-        // surface type for land runways
-        if(airport.type==100) {
-          out+=', ';
-          
-          switch(runway.surface_type) {
-            case 1:out+='Asphalt';break;
-            case 2:out+='Concrete';break;
-            case 3:out+='Turf or grass';break;
-            case 4:out+='Dirt';break;
-            case 5:out+='Gravel';break;
-            case 6:out+='Dry lakebed';break;
-            case 7:out+='Water';break;
-            case 8:out+='Snow/Ice';break
-            case 9:out+='';break;
-          }
-        }
-        out+='<br>';
-      }
-      
-      // communications
-      if(airport.communications.length) {
-        out+='<br/><strong>Coms:</strong><br/>';
-        
-        for(i = 0;i<airport.communications.length;i++) {
-          communication = airport.communications[i];
-          out+=communication.name+': '+(communication.frequency/100).toFixed(2)+' MHz <br/>';
-        }
-      }
-      
-      out+='</p>';
-      return out;
     },
     copyStyle:function(style)
     {
@@ -384,33 +322,97 @@ var FlightPlanner = {
         feature.popup.destroy();
         feature.popup = null;
       }
-    },
-    search:function(s,container) {
-      if(s.length>0) {
-        var _this = this;
-        container.addClass('loading');
-        jQuery.getJSON(this.options.base_url+'airports-search-json/'+s,
-        function(data,textStatus){
-          _this.onSearchResponse(data.airports,container);
-        });
-      }
-    },
-    onSearchResponse:function(airports,container)
-    {
-      container.removeClass('loading');
-      container.empty();
-      var out = '';
-      for(var i=0;i<airports.length;i++) {
-        out+='<li><a href="javascript:void(0);" onclick="FlightPlanner.gotoAirport(\''+airports[i].icao+'\','+airports[i].lat+','+airports[i].lon+');">'+airports[i].icao+' - '+airports[i].name+'</a></li>';
-      }
-      container.append(out);
-    },
-    gotoAirport:function(icao,lat,lon)
-    {
-      this.gotoLatLon(lat,lon,this.options.zoom_search);
     }
 };
 
+FlightPlanner.Airports = {
+  getDescription:function(airport)
+  {
+    var runway = null;
+    var communication = null;
+    var out =  '<p>';
+    out+='<a href="javascript:void(0);" onclick="FlightPlanner.Routes.addWaypoint(\'airport\',\''+airport.icao+'\','+airport.lat+','+airport.lon+');">add as waypoint</a><br/>';
+
+    out+='lat: '+airport.lat.toFixed(4)+', lon: '+airport.lon.toFixed(4)+'<br/>';
+
+    for(var i =0;i<airport.runways.length;i++) {
+      runway = airport.runways[i];
+      out+='Runway '+runway.number_start+' - '+runway.number_end+': width '+runway.width+'m';
+
+      // surface type for land runways
+      if(airport.type==100) {
+        out+=', ';
+
+        switch(runway.surface_type) {
+          case 1:out+='Asphalt';break;
+          case 2:out+='Concrete';break;
+          case 3:out+='Turf or grass';break;
+          case 4:out+='Dirt';break;
+          case 5:out+='Gravel';break;
+          case 6:out+='Dry lakebed';break;
+          case 7:out+='Water';break;
+          case 8:out+='Snow/Ice';break
+          case 9:out+='';break;
+        }
+      }
+      out+='<br>';
+    }
+
+    // communications
+    if(airport.communications.length) {
+      out+='<br/><strong>Coms:</strong><br/>';
+
+      for(i = 0;i<airport.communications.length;i++) {
+        communication = airport.communications[i];
+        out+=communication.name+': '+(communication.frequency/100).toFixed(2)+' MHz <br/>';
+      }
+    }
+
+    out+='</p>';
+    return out;
+  },
+  getStyle:function(airport)
+  {
+    var style = FlightPlanner.options.airport_default_style;
+    // simple air strip
+    if(airport.type==1 && airport.runways.length==1 && airport.runways[0].type>2) style = FlightPlanner.options.airport_strip_style;
+
+    // big airport with more than 2 runways
+    if(airport.runways.length>2) style = FlightPlanner.options.airport_big_style;
+
+    // seaport
+    if(airport.type==16) style = FlightPlanner.options.airport_sea_style;
+
+    // heliport
+    if(airport.type==17) style = FlightPlanner.options.airport_heli_style;
+
+    return style;
+  },
+  search:function(s,container) {
+    if(s.length>0) {
+      var _this = this;
+      container.addClass('loading');
+      jQuery.getJSON(FlightPlanner.options.base_url+'airports-search-json/'+s,
+      function(data,textStatus){
+        _this.onSearchResponse(data.airports,container);
+      });
+    }
+  },
+  onSearchResponse:function(airports,container)
+  {
+    container.removeClass('loading');
+    container.empty();
+    var out = '';
+    for(var i=0;i<airports.length;i++) {
+      out+='<li><a href="javascript:void(0);" onclick="FlightPlanner.Airports.gotoAirport(\''+airports[i].icao+'\','+airports[i].lat+','+airports[i].lon+');">'+airports[i].icao+' - '+airports[i].name+'</a></li>';
+    }
+    container.append(out);
+  },
+  gotoAirport:function(icao,lat,lon)
+  {
+    FlightPlanner.gotoLatLon(lat,lon,FlightPlanner.options.zoom_search);
+  }
+};
 
 FlightPlanner.Routes = {
   active_route:null,
@@ -933,7 +935,7 @@ Waypoint = function(data)
     var name = null;
     if(this.aptNav) {
       if(this.aptNav['airport']) {
-        name = '<a class="waypoint-icon" href="javascript:void(0);" onclick="FlightPlanner.gotoLatLon('+this.lat+','+this.lon+');"><img src="'+FlightPlanner.getAirportStyle(this.aptNav.airport).externalGraphic+'" width="24" height="24"></a>'+this.aptNav.airport.icao+' - '+this.aptNav.airport.name;
+        name = '<a class="waypoint-icon" href="javascript:void(0);" onclick="FlightPlanner.gotoLatLon('+this.lat+','+this.lon+');"><img src="'+FlightPlanner.Airports.getStyle(this.aptNav.airport).externalGraphic+'" width="24" height="24"></a>'+this.aptNav.airport.icao+' - '+this.aptNav.airport.name;
       }
     }
     
