@@ -38,7 +38,7 @@ Now open your browser and open up the URL: http://localhost:3000
 
 If you haven't done so before you now need to import the apt nav data, you've downloaded before.
 To do so open up: http://localhost:3000/import and then choose wich data to import from the list. You have to import one after another. When importing wait a couple of seconds or maybe minutes depending on the speed of your computer.
-It now processes the corresponding apt_nav/*.dat file and imports every airport/navaid or fix found within into the mongoDB. When done, it should display the number of imported airports.
+It now processes the corresponding apt_nav/*.dat file and imports every airport/navaid or fix found within into the mongoDB.
 When done you'll see a list of all imported data.
 
 To shutdown the server simply hit CTRL-C or on mac Apple-C within the console you've used to start the server.
