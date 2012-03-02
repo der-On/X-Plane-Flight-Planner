@@ -1,0 +1,6 @@
+.scroll-content
+  h1 Imported #{navaids.length} navaids
+
+  ol
+    each navaid in navaids
+      li #{navaid.identifier} - #{navaid.name} | lat: #{navaid.lat}, lon: #{navaid.lon}

@@ -37,7 +37,7 @@ This will open up a local server listening on port 3000.
 Now open your browser and open up the URL: http://localhost:3000
 
 If you haven't done so before you now need to import the apt nav data, you've downloaded before.
-To do so open up: http://localhost:3000/parse and wait a couple of seconds or maybe minutes depending on the speed of your computer.
+To do so open up: http://localhost:3000/import and then choose wich data to import from the list. You have to import one after another. When importing wait a couple of seconds or maybe minutes depending on the speed of your computer.
 It now processes the apt_nav/apt.dat file and imports every airport found within into the mongoDB. When done, it should display the number of imported airports.
 You can check the process by looking into the console. It will print out each airport found there.
 

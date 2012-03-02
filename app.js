@@ -31,7 +31,10 @@ app.configure('production', function(){
 // Routes
 
 app.get('/', routes.index);
-app.get('/parse', routes.parse);
+app.get('/import', routes.importing);
+app.get('/import/airports', routes.importAirports);
+app.get('/import/navaids', routes.importNavaids);
+app.get('/import/fixes', routes.importFixes);
 app.get('/apt-nav-json',routes.aptNavJson);
 app.get('/airport-json/:icao',routes.airportJson);
 app.get('/airports-search-json/:search',routes.airportsSearchJson);

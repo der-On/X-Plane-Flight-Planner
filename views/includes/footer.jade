@@ -1,3 +1,16 @@
 footer#footer
-    p X-Plane Flight-Planner &copy; Ondrej Brinkel 2012 | AptNav data cycle: #{airports_info.data_cycle}
+    p X-Plane Flight-Planner &copy; Ondrej Brinkel 2012 | AptNav: 
+      span
+        if apt_nav_info.airports
+          | airports(#{apt_nav_info.airports.data_cycle})
+        else
+          | airports(data missing)
+        if apt_nav_info.navaids
+          | navaids(#{apt_nav_info.navaids.data_cycle})
+        else
+          | navaids(data missing)
+        if apt_nav_info.fixes
+          | fixes(#{apt_nav_info.fixes.data_cycle})
+        else
+          | fixes(data missing)
       
