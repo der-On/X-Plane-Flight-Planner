@@ -41,5 +41,5 @@ To do so open up: http://localhost:3000/import and then choose wich data to impo
 It now processes the corresponding apt_nav/*.dat file and imports every airport/navaid or fix found within into the mongoDB. When done, it should display the number of imported airports.
 When done you'll see a list of all imported data.
 
-To shutdown the browser simply hit CTRL-C or on mac Apple-C within the console you've used to start the server.
+To shutdown the server simply hit CTRL-C or on mac Apple-C within the console you've used to start the server.
 
