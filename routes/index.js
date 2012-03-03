@@ -96,7 +96,11 @@ exports.aptNavJson = function(req,res) {
   var fixes = [];
   
   aptNavData.findAirportsInBounds(left,bottom,right,top,function(airports){
-    res.json({bounds:{left:left,top:top,right:right,bottom:bottom},airports:airports,navaids:navaids,fixes:fixes});
+    aptNavData.findNavaidsInBounds(left,bottom,right,top,function(navaids){
+      aptNavData.findFixesInBounds(left,bottom,right,top,function(fixes){
+       res.json({bounds:{left:left,top:top,right:right,bottom:bottom},airports:airports,navaids:navaids,fixes:fixes}); 
+      });
+    });
   });
 }
 
@@ -111,5 +115,19 @@ exports.airportsSearchJson = function(req,res) {
   var aptNavData = new AptNavData();
   aptNavData.findAirportsMatching(req.params.search,function(airports){
     res.json({airports:airports});
+  });
+}
+
+exports.navaidJson = function(req,res) {
+  var aptNavData = new AptNavData();
+  aptNavData.findNavaidById(parseInt(req.params.id),function(navaid){
+    res.json({navaid:navaid});
+  });
+}
+
+exports.fixJson = function(req,res) {
+  var aptNavData = new AptNavData();
+  aptNavData.findFixById(req.params.id,function(fix){
+    res.json({fix:fix});
   });
 }

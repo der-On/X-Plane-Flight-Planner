@@ -63,6 +63,11 @@ var FlightPlanner = {
      ,airport_strip_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/airport_strip.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
      ,airport_sea_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/airport_sea.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
      ,airport_heli_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/airport_heli.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
+     ,navaid_default_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/navaid_dme.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
+     ,navaid_ndb_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/navaid_ndb.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
+     ,navaid_dme_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/navaid_dme.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
+     ,navaid_vor_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/navaid_vor.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
+     ,fix_default_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/fix.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
      ,route_style:{fill:true, fillColor:'#DDBB66', fillOpacity:0.75, pointRadius:12, stroke:true, strokeColor:'#DDAA00', strokeOpacity:0.75, strokeWidth:3, strokeLinecap:'round', strokeDashstyle:'solid'}
      ,route_colors:['#DDBB66','#ffa544','#91b756','#3161a4','#9b8ab6','#ae927a','#c74634','#ad5c15','#4f6f3e','#fdef5a','#4b6574','#3f3f3f']
     },
@@ -218,6 +223,26 @@ var FlightPlanner = {
           if(id==this.aptNav.airports[i].icao) return false;
         }
       }
+      
+      // navaids
+      if(feature.attributes['navaid']) {
+        var id = feature.attributes.navaid.id;
+        
+        for(var i = 0;i<this.aptNav.navaids.length;i++) {
+          if(id==this.aptNav.navaids[i].id) return false;
+        }
+      }
+      
+      // fixes
+      if(feature.attributes['fixes']) {
+        var id = feature.attributes.fix.id;
+        
+        for(var i = 0;i<this.aptNav.fixes.length;i++) {
+          if(id==this.aptNav.fixes[i].id) return false;
+        }
+      }
+      return true;
+      
       return true;
     },
     clearAptNav:function(force)
@@ -234,9 +259,24 @@ var FlightPlanner = {
           }
         }
         this.airportsLayer.destroyFeatures(destroy);
-
-        this.navaidsLayer.destroyFeatures();
-        this.fixesLayer.destroyFeatures();
+        
+        destroy = [];
+        for(var i=0;i<this.navaidsLayer.features.length;i++) {
+          if(this.canDestroyFeature(this.navaidsLayer.features[i])) {
+            FlightPlanner.selectControl.unselect(this.navaidsLayer.features[i]);
+            destroy.push(this.navaidsLayer.features[i]);
+          }
+        }
+        this.navaidsLayer.destroyFeatures(destroy);
+        
+        destroy = [];
+        for(var i=0;i<this.fixesLayer.features.length;i++) {
+          if(this.canDestroyFeature(this.fixesLayer.features[i])) {
+            FlightPlanner.selectControl.unselect(this.fixesLayer.features[i]);
+            destroy.push(this.fixesLayer.features[i]);
+          }
+        }
+        this.fixesLayer.destroyFeatures(destroy);
       } else {
         this.airportsLayer.destroyFeatures();
         this.navaidsLayer.destroyFeatures();
@@ -248,37 +288,9 @@ var FlightPlanner = {
       this.aptNav = data;
       this.clearAptNav();
       
-      // add airports
-      var features = [];
-      var feature = null;
-      var geometry = null;
-      var airport = null;
-      var style = null;
-      
-      for(var i=0;i<this.aptNav.airports.length;i++) {        
-        airport = this.aptNav.airports[i];
-        
-        style = this.Airports.getStyle(airport);
-                
-        // make copy of style and add individual properties to it
-        style = this.copyStyle(style);
-        style.graphicTitle = airport.icao+' - '+airport.name
-        
-        // add geometry
-        geometry = new OpenLayers.Geometry.Point(airport.lon,airport.lat);
-        geometry.transform(this.mapProjection,this.map.getProjectionObject());
-        
-        // create the feature
-        feature = new OpenLayers.Feature.Vector(
-          geometry,
-          {airport:airport,title:'<img src="'+style.externalGraphic+'" width="24" height="24">'+airport.icao+' - '+airport.name,description:this.Airports.getDescription(airport)},
-          style
-        );
-        features.push(feature);
-      }
-      
-      this.airportsLayer.addFeatures(features);
-      // TODO: add navaids and fixes to map
+      this.Airports.onAptNavResponse();      
+      this.Navaids.onAptNavResponse();
+      this.Fixes.onAptNavResponse();
     },
     copyStyle:function(style)
     {
@@ -326,15 +338,58 @@ var FlightPlanner = {
 };
 
 FlightPlanner.Airports = {
+  canCreateFeature:function(airport)
+  {
+    for(var i = 0;i<FlightPlanner.airportsLayer.features.length;i++) {
+      if(airport.icao==FlightPlanner.airportsLayer.features[i].attributes.airport.icao) return false;
+    }
+    return true;
+  },
+  onAptNavResponse:function()
+  {
+    // add airports
+    var features = [];
+    var feature = null;
+    var geometry = null;
+    var airport = null;
+    var style = null;
+
+    for(var i=0;i<FlightPlanner.aptNav.airports.length;i++) {
+      airport = FlightPlanner.aptNav.airports[i];
+      
+      if(this.canCreateFeature(airport)) {
+        style = this.getStyle(airport);
+
+        // make copy of style and add individual properties to it
+        style = FlightPlanner.copyStyle(style);
+        style.graphicTitle = airport.icao+' - '+airport.name
+
+        // add geometry
+        geometry = new OpenLayers.Geometry.Point(airport.lon,airport.lat);
+        geometry.transform(FlightPlanner.mapProjection,FlightPlanner.map.getProjectionObject());
+
+        // create the feature
+        feature = new OpenLayers.Feature.Vector(
+          geometry,
+          {airport:airport,title:'<img src="'+style.externalGraphic+'" width="24" height="24">'+airport.icao+' - '+airport.name,description:this.getDescription(airport)},
+          style
+        );
+        features.push(feature);
+      }
+    }
+
+    FlightPlanner.airportsLayer.addFeatures(features);
+  },  
   getDescription:function(airport)
   {
     var runway = null;
     var communication = null;
     var out =  '<p>';
     out+='<a href="javascript:void(0);" onclick="FlightPlanner.Routes.addWaypoint(\'airport\',\''+airport.icao+'\','+airport.lat+','+airport.lon+');">add as waypoint</a><br/>';
-
+    
     out+='lat: '+airport.lat.toFixed(4)+', lon: '+airport.lon.toFixed(4)+'<br/>';
-
+    out+='elevation: '+airport.elevation+' ft<br/>';
+    
     for(var i =0;i<airport.runways.length;i++) {
       runway = airport.runways[i];
       out+='Runway '+runway.number_start+' - '+runway.number_end+': width '+runway.width+'m';
@@ -411,6 +466,164 @@ FlightPlanner.Airports = {
   gotoAirport:function(icao,lat,lon)
   {
     FlightPlanner.gotoLatLon(lat,lon,FlightPlanner.options.zoom_search);
+  }
+};
+
+FlightPlanner.Navaids = {
+  canCreateFeature:function(navaid)
+  {
+    for(var i = 0;i<FlightPlanner.navaidsLayer.features.length;i++) {
+      // exclude marker beacons
+      if(navaid.type>=7 && navaid.type<=9) {
+        return false;
+      } else if(navaid.id==FlightPlanner.navaidsLayer.features[i].attributes.navaid.id) return false;
+    }
+    return true;
+  },
+  onAptNavResponse:function()
+  {
+    // add navaids
+    var features = [];
+    var feature = null;
+    var geometry = null;
+    var navaid = null;
+    var style = null;
+
+    for(var i=0;i<FlightPlanner.aptNav.navaids.length;i++) {        
+      navaid = FlightPlanner.aptNav.navaids[i];
+      
+      if(this.canCreateFeature(navaid)) {
+        style = this.getStyle(navaid);
+
+        // make copy of style and add individual properties to it
+        style = FlightPlanner.copyStyle(style);
+        style.graphicTitle = navaid.identifier+' - '+navaid.name
+
+        // add geometry
+        geometry = new OpenLayers.Geometry.Point(navaid.lon,navaid.lat);
+        geometry.transform(FlightPlanner.mapProjection,FlightPlanner.map.getProjectionObject());
+
+        // create the feature
+        feature = new OpenLayers.Feature.Vector(
+          geometry,
+          {navaid:navaid,title:'<img src="'+style.externalGraphic+'" width="24" height="24">'+navaid.identifier+' - '+navaid.name,description:this.getDescription(navaid)},
+          style
+        );
+        features.push(feature);
+      }
+    }
+
+    FlightPlanner.navaidsLayer.addFeatures(features);
+  },  
+  getDescription:function(navaid)
+  {
+    var out =  '<p>';
+    out+='<a href="javascript:void(0);" onclick="FlightPlanner.Routes.addWaypoint(\'navaid\','+navaid.id+','+navaid.lat+','+navaid.lon+');">add as waypoint</a><br/>';
+
+    out+='lat: '+navaid.lat.toFixed(4)+', lon: '+navaid.lon.toFixed(4)+'<br/>';
+    out+='elevation: '+navaid.elevation+' ft<br/>';
+    
+    // navaid type
+    switch(navaid.type) {
+      case 2:out+='NDB';break;
+      case 3:out+='VOR';break;
+      case 4:out+='LOC';break;
+      case 5:out+='LOC';break;
+      case 6:out+='Glideslope';break;
+      case 7:out+='OM';break;
+      case 8:out+='MM';break;
+      case 9:out+='IM';break
+      case 12:out+='DME';break;
+      case 13:out+='DME';break;
+    }
+    
+    out+='<br>';
+    
+    out+=(navaid.frequency/100).toFixed(2)+' MHz <br/>';
+    out+='range: '+navaid.range+' nm<br/>';
+    if(navaid.bias) out+='bias: '+navaid.bias+' nm<br/>';
+    if(navaid.variation) out+='slaved variation: '+navaid.variation+' <br/>';
+    if(navaid.bearing) out+='true bearing: '+navaid.bearing.toFixed(3)+'° <br/>';
+    if(navaid.icao) out+='airport: '+navaid.icao+'<br/>';
+    if(navaid.runway_number) out+='runway: '+navaid.runway_number+'<br/>';
+    
+    out+='</p>';
+    return out;
+  },
+  getStyle:function(navaid)
+  {
+    var style = FlightPlanner.options.navaid_default_style;
+    
+    // NDB
+    if(navaid.type==2) style = FlightPlanner.options.navaid_ndb_style;
+
+    // VOR
+    if(navaid.type==3) style = FlightPlanner.options.navaid_vor_style;
+    
+    // DME
+    if(navaid.type==12 || navaid.type==13) style = FlightPlanner.options.navaid_dme_style;
+   
+    return style;
+  }
+};
+
+FlightPlanner.Fixes = {
+  canCreateFeature:function(fix)
+  {
+    for(var i = 0;i<FlightPlanner.fixesLayer.features.length;i++) {
+      if(fix.id==FlightPlanner.fixesLayer.features[i].attributes.fix.id) return false;
+    }
+    return true;
+  },
+  onAptNavResponse:function()
+  {
+    // add fixes
+    var features = [];
+    var feature = null;
+    var geometry = null;
+    var fix = null;
+    var style = null;
+
+    for(var i=0;i<FlightPlanner.aptNav.fixes.length;i++) {        
+      fix = FlightPlanner.aptNav.fixes[i];
+      
+      if(this.canCreateFeature(fix)) {
+        style = this.getStyle(fix);
+
+        // make copy of style and add individual properties to it
+        style = FlightPlanner.copyStyle(style);
+        style.graphicTitle = fix.name
+
+        // add geometry
+        geometry = new OpenLayers.Geometry.Point(fix.lon,fix.lat);
+        geometry.transform(FlightPlanner.mapProjection,FlightPlanner.map.getProjectionObject());
+
+        // create the feature
+        feature = new OpenLayers.Feature.Vector(
+          geometry,
+          {fix:fix,title:'<img src="'+style.externalGraphic+'" width="24" height="24">'+fix.name,description:this.getDescription(fix)},
+          style
+        );
+        features.push(feature);
+      }
+    }
+
+    FlightPlanner.fixesLayer.addFeatures(features);
+  },  
+  getDescription:function(fix)
+  {
+    var out =  '<p>';
+    out+='<a href="javascript:void(0);" onclick="FlightPlanner.Routes.addWaypoint(\'fix\','+fix.id+','+fix.lat+','+fix.lon+');">add as waypoint</a><br/>';
+
+    out+='lat: '+fix.lat.toFixed(4)+', lon: '+fix.lon.toFixed(4);
+    
+    out+='</p>';
+    return out;
+  },
+  getStyle:function(fix)
+  {
+    var style = FlightPlanner.options.fix_default_style;   
+    return style;
   }
 };
 
