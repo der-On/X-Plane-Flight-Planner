@@ -329,6 +329,22 @@ a:hover {
   background-image: -ms-linear-gradient(top, #3d3d8f 0%, #2e2e6b 100%);
   background-image: -o-linear-gradient(top, #3d3d8f 0%, #2e2e6b 100%);
 }
+#routes #routes-waypoints ul.waypoints li.navaid {
+  background-color: #265926;
+  background-image: linear-gradient(top, #3d8f3d 0%, #2e6b2e 100%);
+  background-image: -webkit-linear-gradient(top, #3d8f3d 0%, #2e6b2e 100%);
+  background-image: -moz-linear-gradient(top, #3d8f3d 0%, #2e6b2e 100%);
+  background-image: -ms-linear-gradient(top, #3d8f3d 0%, #2e6b2e 100%);
+  background-image: -o-linear-gradient(top, #3d8f3d 0%, #2e6b2e 100%);
+}
+#routes #routes-waypoints ul.waypoints li.fix {
+  background-color: #592626;
+  background-image: linear-gradient(top, #8f3d3d 0%, #6b2e2e 100%);
+  background-image: -webkit-linear-gradient(top, #8f3d3d 0%, #6b2e2e 100%);
+  background-image: -moz-linear-gradient(top, #8f3d3d 0%, #6b2e2e 100%);
+  background-image: -ms-linear-gradient(top, #8f3d3d 0%, #6b2e2e 100%);
+  background-image: -o-linear-gradient(top, #8f3d3d 0%, #6b2e2e 100%);
+}
 #routes #routes-waypoints ul.waypoints li h4 {
   margin: 0 0 0.5em 0;
 }

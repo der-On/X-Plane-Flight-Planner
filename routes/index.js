@@ -127,7 +127,7 @@ exports.navaidJson = function(req,res) {
 
 exports.fixJson = function(req,res) {
   var aptNavData = new AptNavData();
-  aptNavData.findFixById(req.params.id,function(fix){
+  aptNavData.findFixById(parseInt(req.params.id),function(fix){
     res.json({fix:fix});
   });
 }

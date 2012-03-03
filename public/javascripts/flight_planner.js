@@ -68,6 +68,7 @@ var FlightPlanner = {
      ,navaid_dme_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/navaid_dme.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
      ,navaid_vor_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/navaid_vor.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
      ,fix_default_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/fix.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
+     ,gps_default_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/gps.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
      ,route_style:{fill:true, fillColor:'#DDBB66', fillOpacity:0.75, pointRadius:12, stroke:true, strokeColor:'#DDAA00', strokeOpacity:0.75, strokeWidth:3, strokeLinecap:'round', strokeDashstyle:'solid'}
      ,route_colors:['#DDBB66','#ffa544','#91b756','#3161a4','#9b8ab6','#ae927a','#c74634','#ad5c15','#4f6f3e','#fdef5a','#4b6574','#3f3f3f']
     },
@@ -314,7 +315,7 @@ var FlightPlanner = {
       var popup = new OpenLayers.Popup.FramedCloud(
         'featurePopup',
         feature.geometry.getBounds().getCenterLonLat(),
-        new OpenLayers.Size(100,100),
+        new OpenLayers.Size(300,100),
         '<h2>'+feature.attributes.title+'</h2>' +
         feature.attributes.description,
         null, true, FlightPlanner.onPopupClose
@@ -1124,12 +1125,15 @@ Waypoint = function(data)
     
     this.container.addClass('loading');
     
-    if(this.type=='airport') {
-      jQuery.getJSON(FlightPlanner.options.base_url+'airport-json/'+this.apt_nav_id,
-        function(data,textStatus){
-          _this.onAptNavResponse(data);
-        });
-    }
+    var url = null;
+    if(this.type=='airport') url = 'airport-json/';
+    if(this.type=='navaid') url = 'navaid-json/';
+    if(this.type=='fix') url = 'fix-json/';
+    
+    jQuery.getJSON(FlightPlanner.options.base_url+url+this.apt_nav_id,
+      function(data,textStatus){
+        _this.onAptNavResponse(data);
+    });
   };
   
   this.onAptNavResponse = function(data)
@@ -1149,6 +1153,13 @@ Waypoint = function(data)
     if(this.aptNav) {
       if(this.aptNav['airport']) {
         name = '<a class="waypoint-icon" href="javascript:void(0);" onclick="FlightPlanner.gotoLatLon('+this.lat+','+this.lon+');"><img src="'+FlightPlanner.Airports.getStyle(this.aptNav.airport).externalGraphic+'" width="24" height="24"></a>'+this.aptNav.airport.icao+' - '+this.aptNav.airport.name;
+      }
+      if(this.aptNav['navaid']) {
+        name = '<a class="waypoint-icon" href="javascript:void(0);" onclick="FlightPlanner.gotoLatLon('+this.lat+','+this.lon+');"><img src="'+FlightPlanner.Navaids.getStyle(this.aptNav.navaid).externalGraphic+'" width="24" height="24"></a>'+this.aptNav.navaid.identifier+' - '+this.aptNav.navaid.name;
+      }
+      
+      if(this.aptNav['fix']) {
+        name = '<a class="waypoint-icon" href="javascript:void(0);" onclick="FlightPlanner.gotoLatLon('+this.lat+','+this.lon+');"><img src="'+FlightPlanner.Fixes.getStyle(this.aptNav.fix).externalGraphic+'" width="24" height="24"></a>'+this.aptNav.fix.name;
       }
     }
     
