@@ -64,7 +64,7 @@ function zeroFill( number, width )
 
 var FlightPlanner = {
     options:{
-      cookie_expires: 356 // days until the cookies expires
+      cookie_expires: 365 // days until the cookies expires
      ,aircraft_interval: 500 // miliseconds between updates of aircraft position 
      ,zoom_display_apt_nav: 7 // zoomlevel from wich on to display apt nav data
      ,zoom_search:11 // zoomlevel to use when going to a search result
