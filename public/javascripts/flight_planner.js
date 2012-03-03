@@ -65,6 +65,7 @@ function zeroFill( number, width )
 var FlightPlanner = {
     options:{
       cookie_expires: 356 // days until the cookies expires
+     ,aircraft_interval: 500 // miliseconds between updates of aircraft position 
      ,zoom_display_apt_nav: 7 // zoomlevel from wich on to display apt nav data
      ,zoom_search:11 // zoomlevel to use when going to a search result
      ,base_url:'http://localhost:3000/'
@@ -79,6 +80,7 @@ var FlightPlanner = {
      ,navaid_vor_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/navaid_vor.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
      ,fix_default_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/fix.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
      ,gps_default_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/gps.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
+     ,aircraft_default_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/aircraft.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1}
      ,route_style:{fill:true, fillColor:'#DDBB66', fillOpacity:0.75, pointRadius:12, stroke:true, strokeColor:'#DDAA00', strokeOpacity:0.75, strokeWidth:3, strokeLinecap:'round', strokeDashstyle:'solid'}
      ,route_colors:['#DDBB66','#ffa544','#91b756','#3161a4','#9b8ab6','#ae927a','#c74634','#ad5c15','#4f6f3e','#fdef5a','#4b6574','#3f3f3f']
     },
@@ -138,11 +140,13 @@ var FlightPlanner = {
       this.airportsLayer = new OpenLayers.Layer.Vector('Airports');
       this.navaidsLayer = new OpenLayers.Layer.Vector('Navaids');
       this.fixesLayer = new OpenLayers.Layer.Vector('Fixes');
-
+      this.aircraftLayer = new OpenLayers.Layer.Vector('My aircraft');
+      
       this.map.addLayer(this.routesLayer);
       this.map.addLayer(this.fixesLayer);
       this.map.addLayer(this.navaidsLayer);
-      this.map.addLayer(this.airportsLayer);        
+      this.map.addLayer(this.airportsLayer);
+      this.map.addLayer(this.aircraftLayer);
 
       // add select control
       this.selectControl = new OpenLayers.Control.SelectFeature([this.airportsLayer,this.navaidsLayer,this.fixesLayer]);
@@ -153,7 +157,7 @@ var FlightPlanner = {
       this.map.addControl(new OpenLayers.Control.LayerSwitcher());
 
       // restore visible layers
-      this.loadLayers();        
+      this.loadLayers();       
 
         // register events
       this.map.events.register('zoomend',this,this.onMapZoom);
@@ -181,7 +185,10 @@ var FlightPlanner = {
       this.loadPosition();
 
       // init Routes
-      this.Routes.init();        
+      this.Routes.init();
+      
+      // init realtime aircraft
+      this.Aircraft.init();
     },
     gotoLatLon:function(lat,lon,zoom)
     {
@@ -411,6 +418,33 @@ var FlightPlanner = {
       }
     }
 };
+
+FlightPlanner.Aircraft = {
+  interval_id:null,
+  feature:null,
+  init:function()
+  {
+    this.feature = new OpenLayers.Feature.Vector(new OpenLayers.Geometry.Point(0,0),
+      null,
+      FlightPlanner.options.aircraft_default_style
+    );
+    FlightPlanner.aircraftLayer.addFeatures(this.feature);
+    this.interval_id = window.setInterval('FlightPlanner.Aircraft.onInterval()',FlightPlanner.options.aircraft_interval);
+  },
+  onInterval:function()
+  {
+    var _this = this;
+    jQuery.get('http://localhost:8000',function(data,textStatus){
+      data = data.split(',');
+      data[0] = parseFloat(data[0]);
+      data[1] = parseFloat(data[1]);
+      _this.feature.geometry.x = data[0];
+      _this.feature.geomtry.y = data[1];
+      _this.feature.geomtry.transform(FlightPlanner.map.getProjectionObject(),FlightPlanner.mapProjection);
+      FlightPlanner.aircraftLayer.redraw();
+    });
+  }
+}
 
 FlightPlanner.Airports = {
   canCreateFeature:function(airport)
