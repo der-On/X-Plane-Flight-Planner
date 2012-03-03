@@ -55,7 +55,8 @@ function zeroFill( number, width )
 
 var FlightPlanner = {
     options:{
-      zoom_display_apt_nav: 7 // zoomlevel from wich on to display apt nav data
+      cookie_expires: 356 // days until the cookies expires
+     ,zoom_display_apt_nav: 7 // zoomlevel from wich on to display apt nav data
      ,zoom_search:11 // zoomlevel to use when going to a search result
      ,base_url:'http://localhost:3000/'
      ,airport_default_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/airport_default.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
@@ -131,6 +132,8 @@ var FlightPlanner = {
          // register events
         this.map.events.register('zoomend',this,this.onMapZoom);
         this.map.events.register('moveend',this,this.onMapMove);
+        this.map.events.register('changebaselayer',this,this.onBaseLayerChange);
+        this.map.events.register('changelayer',this,this.onLayerChange);
         this.airportsLayer.events.on({
           'featureselected': FlightPlanner.onFeatureSelect,
           'featureunselected': FlightPlanner.onFeatureUnselect
@@ -146,6 +149,9 @@ var FlightPlanner = {
         
         // init Routes
         this.Routes.init();
+        
+        // restore last base layer
+        this.loadBaseLayer();
         
         // restore last map position
         this.loadPosition();
@@ -183,12 +189,24 @@ var FlightPlanner = {
       }
       this.savePosition();
     },
+    onBaseLayerChange:function()
+    {
+      var index = arrayIndexOf(this.map.layers,this.map.baseLayer);
+      // store base layer in cookie
+      $.cookie('x-plane_flight_planner_base_layer',index,{expires:this.options.cookie_expires});
+    },
+    onLayerChange:function()
+    {
+      /*var index = arrayIndexOf(this.map.layers,this.map.baseLayer);
+      // store visible layers in cookie
+      $.cookie('x-plane_flight_planner_visible_layers',JSON.stringify(visible));*/
+    },
     savePosition:function()
     {
       var center = this.map.getCenter();
-      $.cookie('x-plane_flight_planner_lat',center.lat);
-      $.cookie('x-plane_flight_planner_lon',center.lon);
-      $.cookie('x-plane_flight_planner_zoom',this.map.getZoom());
+      $.cookie('x-plane_flight_planner_lat',center.lat,{expires:this.options.cookie_expires});
+      $.cookie('x-plane_flight_planner_lon',center.lon,{expires:this.options.cookie_expires});
+      $.cookie('x-plane_flight_planner_zoom',this.map.getZoom(),{expires:this.options.cookie_expires});
     },
     loadPosition:function()
     {
@@ -201,6 +219,14 @@ var FlightPlanner = {
       if(zoom===null) zoom = 2;
       
       this.map.setCenter(new OpenLayers.LonLat(lon,lat),zoom,false,false);
+    },
+    loadBaseLayer:function()
+    {
+      var index = $.cookie('x-plane_flight_planner_base_layer');
+      if(index!==null) {
+        index = parseInt(index);
+        this.map.setBaseLayer(this.map.layers[index]);
+      }
     },
     refreshAptNav:function()
     {
