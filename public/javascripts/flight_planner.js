@@ -88,85 +88,100 @@ var FlightPlanner = {
     
     init:function(map_id,menu_id)
     {
-        this.map = new OpenLayers.Map(map_id,{
-          units:'m'          
-        });
-        
-        this.mapProjection = new OpenLayers.Projection("EPSG:4326");
-        
-        // add base layers
-        this.map.addLayer(new OpenLayers.Layer.OSM(
-            "OpenStreetMap Mapnik"
-        ));
-        
-        this.map.addLayer(new OpenLayers.Layer.Google(
-          'Google Street',
-          {'type':google.maps.MapTypeId.ROADMAP, numZoomLevels: 20}
-        ));
-        
-        this.map.addLayer(new OpenLayers.Layer.Google(
-          'Google Terrain',
-          {'type':google.maps.MapTypeId.TERRAIN, numZoomLevels: 20}
-        ));
-        
-        this.map.addLayer(new OpenLayers.Layer.Google(
-          'Google Satellite',
-          {'type':google.maps.MapTypeId.SATELLITE, numZoomLevels: 20}
-        ));
-        
-        this.map.addLayer(new OpenLayers.Layer.Google(
-          'Google Hybrid',
-          {'type':google.maps.MapTypeId.HYBRID, numZoomLevels: 20}
-        ));
-        
-        // add routes and nav dat layers
-        this.routesLayer = new OpenLayers.Layer.Vector('My routes');
-        this.airportsLayer = new OpenLayers.Layer.Vector('Airports');
-        this.navaidsLayer = new OpenLayers.Layer.Vector('Navaids');
-        this.fixesLayer = new OpenLayers.Layer.Vector('Fixes');
-        
-        this.map.addLayer(this.routesLayer);
-        this.map.addLayer(this.fixesLayer);
-        this.map.addLayer(this.navaidsLayer);
-        this.map.addLayer(this.airportsLayer);        
-        
-        // add select control
-        this.selectControl = new OpenLayers.Control.SelectFeature([this.airportsLayer,this.navaidsLayer,this.fixesLayer]);
-        this.map.addControl(this.selectControl);
-        this.selectControl.activate();
-        
-        // add layer switcher
-        this.map.addControl(new OpenLayers.Control.LayerSwitcher());
-        
-        // restore visible layers
-        this.loadLayers();        
-        
-         // register events
-        this.map.events.register('zoomend',this,this.onMapZoom);
-        this.map.events.register('moveend',this,this.onMapMove);
-        this.map.events.register('changebaselayer',this,this.onBaseLayerChange);
-        this.map.events.register('changelayer',this,this.onLayerChange);
-        this.airportsLayer.events.on({
-          'featureselected': FlightPlanner.onFeatureSelect,
-          'featureunselected': FlightPlanner.onFeatureUnselect
-        });
-        this.navaidsLayer.events.on({
-          'featureselected': FlightPlanner.onFeatureSelect,
-          'featureunselected': FlightPlanner.onFeatureUnselect
-        });
-        this.fixesLayer.events.on({
-          'featureselected': FlightPlanner.onFeatureSelect,
-          'featureunselected': FlightPlanner.onFeatureUnselect
-        });
-        
-        // restore last base layer
-        this.loadBaseLayer();
-        
-        // restore last map position
-        this.loadPosition();
-        
-        // init Routes
-        this.Routes.init();        
+      var _this = this;
+
+      this.map = new OpenLayers.Map(map_id,{
+        units:'m',
+        controls:[
+          new OpenLayers.Control.Navigation({
+            defaultDblClick:function(e){
+              _this.onDoubleClick(e);
+              OpenLayers.Event.stop(e);
+              return false;
+            }
+          }),
+          new OpenLayers.Control.PanZoom(),
+          new OpenLayers.Control.ArgParser(),
+          new OpenLayers.Control.Attribution()
+        ]
+      });
+
+      this.mapProjection = new OpenLayers.Projection("EPSG:4326");
+
+      // add base layers
+      this.map.addLayer(new OpenLayers.Layer.OSM(
+          "OpenStreetMap Mapnik"
+      ));
+
+      this.map.addLayer(new OpenLayers.Layer.Google(
+        'Google Street',
+        {'type':google.maps.MapTypeId.ROADMAP, numZoomLevels: 20}
+      ));
+
+      this.map.addLayer(new OpenLayers.Layer.Google(
+        'Google Terrain',
+        {'type':google.maps.MapTypeId.TERRAIN, numZoomLevels: 20}
+      ));
+
+      this.map.addLayer(new OpenLayers.Layer.Google(
+        'Google Satellite',
+        {'type':google.maps.MapTypeId.SATELLITE, numZoomLevels: 20}
+      ));
+
+      this.map.addLayer(new OpenLayers.Layer.Google(
+        'Google Hybrid',
+        {'type':google.maps.MapTypeId.HYBRID, numZoomLevels: 20}
+      ));
+
+      // add routes and nav dat layers
+      this.routesLayer = new OpenLayers.Layer.Vector('My routes');
+      this.airportsLayer = new OpenLayers.Layer.Vector('Airports');
+      this.navaidsLayer = new OpenLayers.Layer.Vector('Navaids');
+      this.fixesLayer = new OpenLayers.Layer.Vector('Fixes');
+
+      this.map.addLayer(this.routesLayer);
+      this.map.addLayer(this.fixesLayer);
+      this.map.addLayer(this.navaidsLayer);
+      this.map.addLayer(this.airportsLayer);        
+
+      // add select control
+      this.selectControl = new OpenLayers.Control.SelectFeature([this.airportsLayer,this.navaidsLayer,this.fixesLayer]);
+      this.map.addControl(this.selectControl);
+      this.selectControl.activate();
+
+      // add layer switcher
+      this.map.addControl(new OpenLayers.Control.LayerSwitcher());
+
+      // restore visible layers
+      this.loadLayers();        
+
+        // register events
+      this.map.events.register('zoomend',this,this.onMapZoom);
+      this.map.events.register('moveend',this,this.onMapMove);
+      this.map.events.register('changebaselayer',this,this.onBaseLayerChange);
+      this.map.events.register('changelayer',this,this.onLayerChange);
+
+      this.airportsLayer.events.on({
+        'featureselected': FlightPlanner.onFeatureSelect,
+        'featureunselected': FlightPlanner.onFeatureUnselect
+      });
+      this.navaidsLayer.events.on({
+        'featureselected': FlightPlanner.onFeatureSelect,
+        'featureunselected': FlightPlanner.onFeatureUnselect
+      });
+      this.fixesLayer.events.on({
+        'featureselected': FlightPlanner.onFeatureSelect,
+        'featureunselected': FlightPlanner.onFeatureUnselect
+      });
+
+      // restore last base layer
+      this.loadBaseLayer();
+
+      // restore last map position
+      this.loadPosition();
+
+      // init Routes
+      this.Routes.init();        
     },
     gotoLatLon:function(lat,lon,zoom)
     {
@@ -216,6 +231,12 @@ var FlightPlanner = {
       // store visible layers in cookie
       $.cookie('x-plane_flight_planner_visible_layers',JSON.stringify(visible));
     },
+    onDoubleClick:function(e)
+    {
+      var lon_lat = this.map.getLonLatFromViewPortPx( e.xy );
+      lon_lat.transform(this.map.getProjectionObject(),this.mapProjection);
+      this.Routes.addWaypoint('gps',null,lon_lat.lat,lon_lat.lon);
+    },
     savePosition:function()
     {
       var center = this.map.getCenter();
@@ -249,7 +270,7 @@ var FlightPlanner = {
       if(visible!==null) {
         visible = eval(visible);
         for(var i=0;i<this.map.layers.length;i++) {
-          if(!inArray(i,visible)) {
+          if(!this.map.layers[i].isBaseLayer && !inArray(i,visible)) {
             this.map.layers[i].setVisibility(false);
           }
         }
@@ -1152,7 +1173,10 @@ Waypoint = function(data)
   this.init = function()
   {
     this.container.addClass(this.type);
-    this.loadAptNav();
+    if(this.type=='gps') {
+      this.calculate();
+      this.setBody();      
+    } else this.loadAptNav();
   };  
   
   this.calculate = function()
@@ -1162,13 +1186,11 @@ Waypoint = function(data)
     this.duration = 0;
     this.fuel = 0;
     
-    if(this.aptNav) {
-      if(this.next) {
-        this.distance = this.point.distanceTo(this.next.point)/1852; // distance in nm
-        if(this.route.cruise_speed>0) this.duration = this.distance/this.route.cruise_speed; // duration in hours
-        this.fuel = this.duration*this.route.fuel_consumption; // fuel in gallons | TODO: implement payload
-        // for heading calculations see: http://de.wikipedia.org/wiki/Deklination_%28Geographie%29        
-      }
+    if(this.next) {
+      this.distance = this.point.distanceTo(this.next.point)/1852; // distance in nm
+      if(this.route.cruise_speed>0) this.duration = this.distance/this.route.cruise_speed; // duration in hours
+      this.fuel = this.duration*this.route.fuel_consumption; // fuel in gallons | TODO: implement payload
+      // for heading calculations see: http://de.wikipedia.org/wiki/Deklination_%28Geographie%29        
     }
   };
   
@@ -1214,6 +1236,8 @@ Waypoint = function(data)
       if(this.aptNav['fix']) {
         name = '<a class="waypoint-icon" href="javascript:void(0);" onclick="FlightPlanner.gotoLatLon('+this.lat+','+this.lon+');"><img src="'+FlightPlanner.Fixes.getStyle(this.aptNav.fix).externalGraphic+'" width="24" height="24"></a>'+this.aptNav.fix.name;
       }
+    } else if(this.type=='gps') {
+      name = '<a class="waypoint-icon" href="javascript:void(0);" onclick="FlightPlanner.gotoLatLon('+this.lat+','+this.lon+');"><img src="'+FlightPlanner.options.gps_default_style.externalGraphic+'" width="24" height="24"></a>GPS point';
     }
     
     body+='<h4>'+name+'</h4>';
