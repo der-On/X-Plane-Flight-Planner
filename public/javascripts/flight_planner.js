@@ -42,6 +42,15 @@ function arrayGreatest(arr,prop,def)
   
   return c;
 }
+function inArray(value,arr,strict)
+{
+  if(strict=="undefined") strict = false;
+  for(var i=0;i<arr.length;i++) {
+    if(strict && value===arr[i]) return true;
+    if(!strict && value==arr[i]) return true;
+  }
+  return false;
+}
 
 function zeroFill( number, width )
 {
@@ -129,6 +138,9 @@ var FlightPlanner = {
         // add layer switcher
         this.map.addControl(new OpenLayers.Control.LayerSwitcher());
         
+        // restore visible layers
+        this.loadLayers();        
+        
          // register events
         this.map.events.register('zoomend',this,this.onMapZoom);
         this.map.events.register('moveend',this,this.onMapMove);
@@ -147,14 +159,14 @@ var FlightPlanner = {
           'featureunselected': FlightPlanner.onFeatureUnselect
         });
         
-        // init Routes
-        this.Routes.init();
-        
         // restore last base layer
         this.loadBaseLayer();
         
         // restore last map position
         this.loadPosition();
+        
+        // init Routes
+        this.Routes.init();        
     },
     gotoLatLon:function(lat,lon,zoom)
     {
@@ -197,9 +209,12 @@ var FlightPlanner = {
     },
     onLayerChange:function()
     {
-      /*var index = arrayIndexOf(this.map.layers,this.map.baseLayer);
+      var visible = [];
+      for(var i=0;i<this.map.layers.length;i++) {
+        if(!this.map.layers[i].isBaseLayer && this.map.layers[i].visibility) visible.push(i);
+      }
       // store visible layers in cookie
-      $.cookie('x-plane_flight_planner_visible_layers',JSON.stringify(visible));*/
+      $.cookie('x-plane_flight_planner_visible_layers',JSON.stringify(visible));
     },
     savePosition:function()
     {
@@ -226,6 +241,18 @@ var FlightPlanner = {
       if(index!==null) {
         index = parseInt(index);
         this.map.setBaseLayer(this.map.layers[index]);
+      }
+    },
+    loadLayers:function()
+    {
+      var visible = $.cookie('x-plane_flight_planner_visible_layers');
+      if(visible!==null) {
+        visible = eval(visible);
+        for(var i=0;i<this.map.layers.length;i++) {
+          if(!inArray(i,visible)) {
+            this.map.layers[i].setVisibility(false);
+          }
+        }
       }
     },
     refreshAptNav:function()
