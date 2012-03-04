@@ -1208,7 +1208,6 @@ Waypoint = function(data)
   {
     this.container.addClass(this.type);
     if(this.type=='gps') {
-      this.calculate();
       this.setBody();      
     } else this.loadAptNav();
   };  
@@ -1221,7 +1220,8 @@ Waypoint = function(data)
     this.fuel = 0;
     
     if(this.next) {
-      this.distance = this.point.distanceTo(this.next.point)/1852; // distance in nm
+      var line = new OpenLayers.Geometry.LineString([this.point,this.next.point]);
+      this.distance = line.getGeodesicLength(FlightPlanner.map.getProjectionObject())/1852; // distance in nm
       if(this.route.cruise_speed>0) this.duration = this.distance/this.route.cruise_speed; // duration in hours
       this.fuel = this.duration*this.route.fuel_consumption; // fuel in gallons | TODO: implement payload
       // for heading calculations see: http://de.wikipedia.org/wiki/Deklination_%28Geographie%29        
