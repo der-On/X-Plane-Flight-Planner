@@ -1,3 +1,8 @@
+var EARTH_RADIUS = 3958.75;
+var PI = 3.1415926535897932384626433832795;
+var DEG2RAD =  0.01745329252;
+var RAD2DEG = 57.29577951308;
+
 function numberRounded(number,decimals)
 {
   var d = decimals*10;
@@ -1224,8 +1229,52 @@ Waypoint = function(data)
       this.distance = line.getGeodesicLength(FlightPlanner.map.getProjectionObject())/1852; // distance in nm
       if(this.route.cruise_speed>0) this.duration = this.distance/this.route.cruise_speed; // duration in hours
       this.fuel = this.duration*this.route.fuel_consumption; // fuel in gallons | TODO: implement payload
-      // for heading calculations see: http://de.wikipedia.org/wiki/Deklination_%28Geographie%29        
+      this.heading = this.getHeading(this.point,this.next.point);
     }
+  };
+  
+  // for heading calculations see: http://de.wikipedia.org/wiki/Deklination_%28Geographie%29
+  // and: http://trac.osgeo.org/openlayers/wiki/GreatCircleAlgorithms
+  this.getHeading = function(p_a,p_b)
+  {
+    var p1 = new OpenLayers.Geometry.Point(p_a.x,p_a.y);
+    var p2 = new OpenLayers.Geometry.Point(p_b.x,p_b.y);
+    p1.transform(FlightPlanner.map.getProjectionObject(),FlightPlanner.mapProjection);
+    p2.transform(FlightPlanner.map.getProjectionObject(),FlightPlanner.mapProjection);
+    var x1 = p1.x;
+    var y1 = p1.y;
+    var x2 = p2.x;
+    var y2 = p2.y;
+    var bearing;
+    var variation;
+    
+    //Convert to radians
+    x1 = x1 * DEG2RAD;
+    y1 = y1 * DEG2RAD;
+    x2 = x2 * DEG2RAD;
+    y2 = y2 * DEG2RAD;
+
+    var a = Math.cos(y2) * Math.sin(x2 - x1);
+    var b = Math.cos(y1) * Math.sin(y2) - Math.sin(y1) * Math.cos(y2) * Math.cos(x2 - x1);
+    var adjust = 0
+
+    if((a == 0) && (b == 0)) {
+        bearing = 0;
+    } else if( b == 0) {
+        if( a < 0)  
+            bearing = 3 * PI / 2;
+        else
+            bearing = PI / 2;
+    } else if( b < 0) 
+        adjust = PI;
+    else {
+        if( a < 0) 
+            adjust = 2 * PI;
+        else
+            adjust = 0;
+    }
+    bearing = (Math.atan(a/b) + adjust) * RAD2DEG;
+    return bearing;
   };
   
   this.loadAptNav = function()
