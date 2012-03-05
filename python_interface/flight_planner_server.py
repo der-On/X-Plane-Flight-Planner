@@ -39,7 +39,7 @@ class request(BaseHTTPRequestHandler):
 
 def run(server_class=HTTPServer, handler_class=BaseHTTPRequestHandler):
   global httpd
-  server_address = ('', 3001)
+  server_address = ('127.0.0.1', 3001)
   httpd = server_class(server_address, handler_class)
   httpd.serve_forever()
 

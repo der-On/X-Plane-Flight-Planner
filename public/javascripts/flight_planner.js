@@ -434,12 +434,13 @@ FlightPlanner.Aircraft = {
       FlightPlanner.options.aircraft_default_style
     );
     FlightPlanner.aircraftLayer.addFeatures(this.feature);
-    this.interval_id = window.setInterval('FlightPlanner.Aircraft.onInterval()',FlightPlanner.options.aircraft_interval);
+    
+    //this.interval_id = window.setInterval('FlightPlanner.Aircraft.onInterval()',FlightPlanner.options.aircraft_interval);
   },
   onInterval:function()
   {
     var _this = this;
-    jQuery.getJSON('http://localhost:3001',function(data,textStatus){
+    jQuery.getJSON('http://127.0.0.1:3001',function(data,textStatus){
         _this.feature.geometry.x = data.lat;
         _this.feature.geomtry.y = data.lon;
         _this.feature.geomtry.transform(FlightPlanner.map.getProjectionObject(),FlightPlanner.mapProjection);
@@ -908,6 +909,11 @@ Route = function(data)
       body+='<option value="'+color+'" style="background:'+color+'"></option>';
     }
     body+='</select><br/>';
+    
+    // FSEconomy aircraft
+    if(FSEconomy) {
+      body+='<a class="button" href="javascript:void(0);" onclick="FSEconomy.selectAircraftDialog(\''+d_id+'\');">select FSEconomy aircraft</a><br/>';
+    }
     
     // aircraft  
     body+='<label for="'+d_id+'-aircraft">Aircraft:</label><input id="'+d_id+'-aircraft" type="text" value="'+this.aircraft+'"><br/>';

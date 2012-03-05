@@ -36,7 +36,8 @@ input[type=number] {
   background-image: -o-linear-gradient(top, #dddddd 0%, #ffffff 80%);
   padding: 0.2em 0.5em;
 }
-button {
+button,
+.button {
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -48,7 +49,7 @@ button {
   background-image: -ms-linear-gradient(top, #bbbbbb 0%, #666666 100%);
   background-image: -o-linear-gradient(top, #bbbbbb 0%, #666666 100%);
   background-color: #333;
-  color: #fff;
+  color: #fff !important;
   text-decoration: none;
   padding: 0.25em 0.5em;
   margin: 0;
@@ -444,4 +445,7 @@ a:hover {
 .route-edit .remove-route {
   float: right;
   text-decoration: underline;
+}
+.fse-aircraft {
+  width: 30em;
 }

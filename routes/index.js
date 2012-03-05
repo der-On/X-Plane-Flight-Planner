@@ -1,33 +1,37 @@
 var AptNavData = require('../lib/apt_nav_data').AptNavData;
 var AptNavParser = require('../lib/apt_nav_parser').AptNavParser;
+var request = require('request');
 
 /*
  * GET home page.
  */
 
-exports.index = function(req, res){
+exports.index = function(req, res)
+{
   var aptNavData = new AptNavData();
   aptNavData.getVariable('airports_info',function(airports_info){
     aptNavData.getVariable('navaids_info',function(navaids_info){
       aptNavData.getVariable('fixes_info',function(fixes_info){
-        res.render('index', { title: 'X-Plane Flight Planner', apt_nav_info: { airports: airports_info, navaids: navaids_info, fixes: fixes_info }});
+        res.render('index', {title: 'X-Plane Flight Planner', apt_nav_info: {airports: airports_info, navaids: navaids_info, fixes: fixes_info}});
       });
     });    
   });
 };
 
-exports.importing = function(req,res) {
+exports.importing = function(req,res)
+{
   var aptNavData = new AptNavData();
   aptNavData.getVariable('airports_info',function(airports_info){
     aptNavData.getVariable('navaids_info',function(navaids_info){
       aptNavData.getVariable('fixes_info',function(fixes_info){
-        res.render('import', { title: 'X-Plane Flight Planner - Import', apt_nav_info: { airports: airports_info, navaids: navaids_info, fixes: fixes_info }});
+        res.render('import', {title: 'X-Plane Flight Planner - Import', apt_nav_info: {airports: airports_info, navaids: navaids_info, fixes: fixes_info}});
       });
     });    
   });
 }
 
-exports.importAirports = function(req,res){
+exports.importAirports = function(req,res)
+{
   var aptNavData = new AptNavData();
   var aptNavParser = new AptNavParser();
   var airports_info = aptNavParser.parseInfo('apt_nav/apt.dat');
@@ -40,12 +44,13 @@ exports.importAirports = function(req,res){
   
   aptNavData.getVariable('navaids_info',function(navaids_info){
     aptNavData.getVariable('fixes_info',function(fixes_info){
-      res.render('import_airports', { title: 'X-Plane Flight Planner - Import airports', airports: airports, apt_nav_info: { airports: airports_info, navaids: navaids_info, fixes: fixes_info }});
+      res.render('import_airports', {title: 'X-Plane Flight Planner - Import airports', airports: airports, apt_nav_info: {airports: airports_info, navaids: navaids_info, fixes: fixes_info}});
     });
   });
 };
 
-exports.importNavaids = function(req,res){
+exports.importNavaids = function(req,res)
+{
   var aptNavData = new AptNavData();
   var aptNavParser = new AptNavParser();
   var navaids = aptNavParser.parseNavaids('apt_nav/earth_nav.dat');
@@ -58,12 +63,13 @@ exports.importNavaids = function(req,res){
   
   aptNavData.getVariable('airports_info',function(airports_info){
     aptNavData.getVariable('fixes_info',function(fixes_info){
-      res.render('import_navaids', { title: 'X-Plane Flight Planner - Import navaids', navaids: navaids, apt_nav_info: { airports: airports_info, navaids: navaids_info, fixes: fixes_info }});
+      res.render('import_navaids', {title: 'X-Plane Flight Planner - Import navaids', navaids: navaids, apt_nav_info: {airports: airports_info, navaids: navaids_info, fixes: fixes_info}});
     });
   });
 };
 
-exports.importFixes = function(req,res){
+exports.importFixes = function(req,res)
+{
   var aptNavData = new AptNavData();
   var aptNavParser = new AptNavParser();
   var fixes = aptNavParser.parseFixes('apt_nav/earth_fix.dat');
@@ -76,12 +82,13 @@ exports.importFixes = function(req,res){
   
   aptNavData.getVariable('airports_info',function(airports_info){
     aptNavData.getVariable('navaids_info',function(navaids_info){
-      res.render('import_fixes', { title: 'X-Plane Flight Planner - Import fixes', fixes: fixes, apt_nav_info: { airports: airports_info, navaids: navaids_info, fixes: fixes_info }});
+      res.render('import_fixes', {title: 'X-Plane Flight Planner - Import fixes', fixes: fixes, apt_nav_info: {airports: airports_info, navaids: navaids_info, fixes: fixes_info}});
     });
   });
 };
 
-exports.aptNavJson = function(req,res) {
+exports.aptNavJson = function(req,res)
+{
   var aptNavData = new AptNavData();
   
   var bounds = req.param('bounds').split(',');
@@ -104,30 +111,42 @@ exports.aptNavJson = function(req,res) {
   });
 }
 
-exports.airportJson = function(req,res) {
+exports.airportJson = function(req,res)
+{
   var aptNavData = new AptNavData();
   aptNavData.findAirportByIcao(req.params.icao,function(airport){
     res.json({airport:airport});
   });
 }
 
-exports.airportsSearchJson = function(req,res) {
+exports.airportsSearchJson = function(req,res)
+{
   var aptNavData = new AptNavData();
   aptNavData.findAirportsMatching(req.params.search,function(airports){
     res.json({airports:airports});
   });
 }
 
-exports.navaidJson = function(req,res) {
+exports.navaidJson = function(req,res)
+{
   var aptNavData = new AptNavData();
   aptNavData.findNavaidById(parseInt(req.params.id),function(navaid){
     res.json({navaid:navaid});
   });
 }
 
-exports.fixJson = function(req,res) {
+exports.fixJson = function(req,res)
+{
   var aptNavData = new AptNavData();
   aptNavData.findFixById(parseInt(req.params.id),function(fix){
     res.json({fix:fix});
+  });
+}
+
+exports.getAircrafts = function(req,res)
+{
+  request('http://atilla.hinttech.nl/fseconomy/xml?query=AircraftConfigs',function(er,response,body){
+    res.header('Content-Type','xml');
+    res.send(body);
   });
 }
