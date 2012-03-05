@@ -439,14 +439,13 @@ FlightPlanner.Aircraft = {
   onInterval:function()
   {
     var _this = this;
-    jQuery.get('http://localhost:8000',function(data,textStatus){
-      data = data.split(',');
-      data[0] = parseFloat(data[0]);
-      data[1] = parseFloat(data[1]);
-      _this.feature.geometry.x = data[0];
-      _this.feature.geomtry.y = data[1];
-      _this.feature.geomtry.transform(FlightPlanner.map.getProjectionObject(),FlightPlanner.mapProjection);
-      FlightPlanner.aircraftLayer.redraw();
+    jQuery.getJSON('http://localhost:3001',function(data,textStatus){
+        _this.feature.geometry.x = data.lat;
+        _this.feature.geomtry.y = data.lon;
+        _this.feature.geomtry.transform(FlightPlanner.map.getProjectionObject(),FlightPlanner.mapProjection);
+        FlightPlanner.aircraftLayer.redraw();
+      },{
+      cache:false
     });
   }
 }
