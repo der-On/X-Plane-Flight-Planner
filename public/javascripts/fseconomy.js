@@ -105,7 +105,7 @@ var FSEconomy = {
     });
     
     this.loadJobsFrom(icao,function(jobsFrom){
-      dial.delay(900).queue(function(){
+      dial.delay(1000).queue(function(){
         _this.loadJobsTo(icao,function(jobsTo){
           dial.empty();
           var job = null;
