@@ -931,10 +931,6 @@ Route = function(data)
     // payload
     body+='<label for="'+d_id+'-payload">Payload<br/>(+ Pax & Crew):</label><input id="'+d_id+'-payload" type="number" value="'+this.payload+'"> kg<br/>';
     
-    // remove
-    body+='<a href="javascript:void(0);" class="remove-route" id="'+d_id+'-remove">x remove</a>';
-    
-    
     body+='</p>';
     dial.append(body);
     
@@ -942,19 +938,21 @@ Route = function(data)
       dial.find('.route-color').css('background',$(this).val());
     });
     
-    dial.find('#'+d_id+'-remove').click(function(){
-      if(confirm('Do you really want to remove this route?')) {
-        dial.dialog('destroy');
-        dial.remove();
-        FlightPlanner.Routes.remove(_this.id);
-      }
-    });
-    
     dial.dialog({
       height:'auto',
       width:'auto',
       close:function(){dial.remove();},
       buttons:[
+        {
+          text:'Remove',
+          click:function(){
+            if(confirm('Do you really want to remove this route?')) {
+              dial.dialog('destroy');
+              dial.remove();
+              FlightPlanner.Routes.remove(_this.id);
+            }
+          }
+        },
         {
           text:'Save',
           click:function(){
