@@ -33,7 +33,7 @@ var FSEconomy = {
         $('#'+route_dialog_id+'-aircraft').val(aircraft.name);
         $('#'+route_dialog_id+'-cruise_speed').val(aircraft.cruise_speed);
         $('#'+route_dialog_id+'-fuel_consumption').val(aircraft.fuel_consumption);
-
+        
         dial.dialog('destroy');
         dial.remove();
       });
@@ -99,34 +99,40 @@ var FSEconomy = {
     
     dial.dialog({
       height:400,
-      width:'auto',
+      width:600,
+      minWidth:600,
       close:function(){dial.remove();}
     });
     
     this.loadJobsFrom(icao,function(jobsFrom){
-      // TODO: loading next xml must be delayed a couple milliseconds, as FSE server prevents it within a certain time
-      //_this.loadJobsTo(icao,function(jobsTo){
-        dial.empty();
-        var job = null;
-        var out_from = '<h3>Assignments from '+icao+'</h3>';
-        out_from+=_this.renderJobsTable(jobsFrom);
+      dial.delay(900).queue(function(){
+        _this.loadJobsTo(icao,function(jobsTo){
+          dial.empty();
+          var job = null;
+          var out_from = '<h3>Assignments from '+icao+'</h3>';
+          out_from+=_this.renderJobsTable(jobsFrom);
 
-        /*var out_to = '<h3>Assignments to '+icao+'</h3>';
-        out_to+=_this.renderJobsTable(jobsTo);*/
-        
-        dial.append(out_from);
-      //});
+          var out_to = '<h3>Assignments to '+icao+'</h3>';
+          out_to+=_this.renderJobsTable(jobsTo);
+
+          dial.append(out_from+out_to);
+          dial.append('<p>Sort multiple columns simultaneously by holding down the shift key and clicking a second, third or even fourth column header!</p>');
+
+          dial.find('table').tablesorter();
+        });
+        $(this).dequeue();
+      });
     });
   },
   
   renderJobsTable:function(jobs)
   {
-    out = '<table class="fse-jobs-table"><thead>'
-      +'<th><a href="javascript:void(0);" onclick="FSEconomy.sortTableBy(this);">Pay</a></th>'
+    out = '<table class="fse-jobs-table tablesorter"><thead>'
+      +'<th>Pay</th>'
       +'<th>From</th>'
-      +'<th><a href="javascript:void(0);" onclick="FSEconomy.sortTableBy(this);">Dest</a></th>'
-      +'<th><a href="javascript:void(0);" onclick="FSEconomy.sortTableBy(this);">NM</a></th>'
-      +'<th><a href="javascript:void(0);" onclick="FSEconomy.sortTableBy(this);">Bearing</a></th>'
+      +'<th>Dest</th>'
+      +'<th>NM</th>'
+      +'<th>Bearing</th>'
       +'<th>Cargo</th>'
       +'<th>Expires</th>'
       +'</thead><tbody>';
