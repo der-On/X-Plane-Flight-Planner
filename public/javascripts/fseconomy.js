@@ -95,8 +95,9 @@ var FSEconomy = {
     // disaply already created dialog
     console.log($('#'+d_id));
     if($('#'+d_id).length>0) {
-      var dial = $('#'+d_id);
+      var dial = $('#'+d_id);     
       dial.dialog('open');
+      this.removeDialogFromTaskbar(dial);
       return false;
     }
     

@@ -475,12 +475,13 @@ a:hover {
 }
 .fse-taskbar {
   position: absolute;
-  z-index: 1000;
+  z-index: 900;
   bottom: 2em;
   left: 0;
   list-style-type: none;
   margin: 0;
   padding: 0;
+  background: rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
@@ -501,7 +502,7 @@ a:hover {
 }
 .fse-taskbar .task a {
   padding: 0.25em 1em;
-  border: 1px solid #000;
+  border: 1px solid #666;
   background: #AAA;
   background-image: linear-gradient(top, #cccccc 0%, #aaaaaa 100%);
   background-image: -webkit-linear-gradient(top, #cccccc 0%, #aaaaaa 100%);
