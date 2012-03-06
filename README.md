@@ -7,7 +7,7 @@ Future versions will intergrate the economy system FSEconomy within the flight p
 
 <figure>
 <a href="https://github.com/der-On/X-Plane-Flight-Planner/raw/master/docs/screenshot.jpg"><img src="https://github.com/der-On/X-Plane-Flight-Planner/raw/master/docs/screenshot.jpg" width="600" /></a>
-<figcaption>Screenshot from 01. March 2012</figcaption>
+<figcaption>Screenshot from 06. March 2012</figcaption>
 </figure>
 
 ## How to install
