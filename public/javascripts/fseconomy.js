@@ -8,13 +8,18 @@ var FSEconomy = {
     // cancel if dialog is already open
     if($('#'+d_id).length>0) return false;
     
-    var dial = $('<div class="fse-aircraft" id="'+d_id+'" title="Select aircraft"></div>');
+    var dial = $('<div class="fse-aircraft" id="'+d_id+'" title="Select FSEconomy aircraft"></div>');
     $('body').append(dial);
     
     var body = '<p>Loading aircrafts please wait ...</p>';
     dial.append(body);
     
-    dial.dialog({close:function(){dial.remove();}});
+    dial.dialog({
+      height:'auto',
+      width:'auto',
+      resizable:false,
+      close:function(){dial.remove();}
+    });
     
     this.loadAircrafts(function(aircrafts){
       dial.empty();
@@ -75,5 +80,128 @@ var FSEconomy = {
     if(this.aircrafts && this.aircrafts.length>=id+1) {
       return this.aircrafts[id];
     }
+  },
+  
+  // TODO: provide a task-bar for this kind of dialog? so we can have multiple open at once
+  listJobsDialog:function(icao)
+  {
+    var _this = this;
+    var d_id = 'fse-jobs-'+icao;
+    
+    // cancel if dialog is already open
+    if($('#'+d_id).length>0) return false;
+    
+    var dial = $('<div class="fse-jobs" id="'+d_id+'" title="Assignments for '+icao+'"></div>');
+    $('body').append(dial);
+    
+    var body = '<p>Loading assignments please wait ...</p>';
+    dial.append(body);
+    
+    dial.dialog({
+      height:400,
+      width:'auto',
+      close:function(){dial.remove();}
+    });
+    
+    this.loadJobsFrom(icao,function(jobsFrom){
+      // TODO: loading next xml must be delayed a couple milliseconds, as FSE server prevents it within a certain time
+      //_this.loadJobsTo(icao,function(jobsTo){
+        dial.empty();
+        var job = null;
+        var out_from = '<h3>Assignments from '+icao+'</h3>';
+        out_from+=_this.renderJobsTable(jobsFrom);
+
+        /*var out_to = '<h3>Assignments to '+icao+'</h3>';
+        out_to+=_this.renderJobsTable(jobsTo);*/
+        
+        dial.append(out_from);
+      //});
+    });
+  },
+  
+  renderJobsTable:function(jobs)
+  {
+    out = '<table class="fse-jobs-table"><thead>'
+      +'<th><a href="javascript:void(0);" onclick="FSEconomy.sortTableBy(this);">Pay</a></th>'
+      +'<th>From</th>'
+      +'<th><a href="javascript:void(0);" onclick="FSEconomy.sortTableBy(this);">Dest</a></th>'
+      +'<th><a href="javascript:void(0);" onclick="FSEconomy.sortTableBy(this);">NM</a></th>'
+      +'<th><a href="javascript:void(0);" onclick="FSEconomy.sortTableBy(this);">Bearing</a></th>'
+      +'<th>Cargo</th>'
+      +'<th>Expires</th>'
+      +'</thead><tbody>';
+    
+    var job;
+    for(var i=0;i<jobs.length;i++) {
+      job = jobs[i];
+      out+='<tr>'
+              +'<td>$'+job.pay+'</td>'
+              +'<td><a href="javascript:void(0);" onclick="FlightPlanner.gotoLatLon('+job.from_lat+','+job.from_lon+');">'+job.location+'</a></td>'
+              +'<td><a href="javascript:void(0);" onclick="FlightPlanner.gotoLatLon('+job.to_lat+','+job.to_lon+');">'+job.to+'</a></td>'
+              +'<td>'+job.distance+'</td>'
+              +'<td>'+job.bearing+'</td>';
+
+      if(job.unitType=="passangers") {
+        out+='<td>'+job.amount+' '+job.commodity+'</td>'
+      } else {
+        out+='<td>'+job.commodity+' '+job.amount+' '+job.unitType+'</td>';
+      }
+      out+='<td>'+job.expires+'</td>';
+      out+='</tr>';
+    }
+    
+    out+='</tbody></table>';
+    return out;
+  },
+  
+  loadJobsFrom:function(icao,callback)
+  {
+    var _this = this;
+
+    jQuery.get(FlightPlanner.options.base_url+'fse-jobs-from/'+icao,function(data,textStatus){
+      var jobs = _this.parseJobs(data);
+      callback(jobs);
+    });
+  },
+  
+  loadJobsTo:function(icao,callback)
+  {
+    var _this = this;
+
+    jQuery.get(FlightPlanner.options.base_url+'fse-jobs-to/'+icao,function(data,textStatus){
+      var jobs = _this.parseJobs(data);
+      callback(jobs);
+    });
+  },
+  
+  parseJobs:function(xml)
+  {
+    var jobs = [];
+    var job = null;
+    $($(xml).find('response')[0]).find('job').each(function(i,el){
+      job = {};
+      job.id = parseInt($(el).find('id').text());
+      job.location = $(el).find('location').text();
+      job.from = $(el).find('from').text();
+      job.to = $(el).find('to').text();
+      job.amount = parseInt($(el).find('amount').text());
+      job.unit_type = $(el).find('unitType').text();
+      job.commodity = $(el).find('commodity').text();
+      job.pay = parseFloat($(el).find('pay').text());
+      job.expires = $(el).find('expires').text();
+      job.from_lat = parseFloat($(el).find('from_lat').text());
+      job.from_lon = parseFloat($(el).find('from_lon').text());
+      job.to_lat = parseFloat($(el).find('to_lat').text());
+      job.to_lon = parseFloat($(el).find('to_lon').text());
+      job.distance = parseFloat($(el).find('distance').text());
+      job.bearing = parseFloat($(el).find('bearing').text());
+      jobs.push(job);
+    });
+    return jobs;
+  },
+  
+  sortTableBy:function(link)
+  {
+    
   }
 };

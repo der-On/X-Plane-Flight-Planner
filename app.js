@@ -41,6 +41,8 @@ app.get('/airports-search-json/:search',routes.airportsSearchJson);
 app.get('/navaid-json/:id',routes.navaidJson);
 app.get('/fix-json/:id',routes.fixJson);
 app.get('/fse-aircrafts',routes.getAircrafts);
+app.get('/fse-jobs-from/:icao',routes.getJobsFrom);
+app.get('/fse-jobs-to/:icao',routes.getJobsTo);
 
 app.listen(3000);
 console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);

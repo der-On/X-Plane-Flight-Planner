@@ -10,6 +10,10 @@ html,body {
   overflow-y:hidden;
 }
 
+a,a:visited {
+  text-decoration:underline;
+}
+
 body {
   font-family:sans-serif;
   width: 100%;
@@ -328,6 +332,9 @@ a:hover {
 
 
 /* jQuery UI */
+.ui-dialog {
+  .box-shadow(0 0 10px rgba(0,0,0,0.5));
+}
 #route-color,.route-color {
   display:inline-block;
   width:2em;
@@ -361,5 +368,16 @@ a:hover {
   .remove-route {
     float:right;
     text-decoration:underline;
+  }
+}
+
+.fse-jobs-table {
+  thead th {
+    border-bottom:1px solid #000;
+  }
+  tbody td {
+    border:1px solid #666;
+    padding:0.25em;
+    background:#FFF;
   }
 }

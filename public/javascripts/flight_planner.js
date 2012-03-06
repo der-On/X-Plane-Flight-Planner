@@ -501,6 +501,10 @@ FlightPlanner.Airports = {
     var out =  '<p>';
     out+='<a href="javascript:void(0);" onclick="FlightPlanner.Routes.addWaypoint(\'airport\',\''+airport.icao+'\','+airport.lat+','+airport.lon+');">add as waypoint</a><br/>';
     
+    if(FSEconomy) {
+      out+='<a href="javascript:void(0);" onclick="FSEconomy.listJobsDialog(\''+airport.icao+'\');">list FSEconomy assignments</a><br/>';
+    }
+    
     out+='lat: '+airport.lat.toFixed(4)+', lon: '+airport.lon.toFixed(4)+'<br/>';
     out+='elevation: '+airport.elevation+' ft<br/>';
     
@@ -912,7 +916,7 @@ Route = function(data)
     
     // FSEconomy aircraft
     if(FSEconomy) {
-      body+='<a class="button" href="javascript:void(0);" onclick="FSEconomy.selectAircraftDialog(\''+d_id+'\');">select FSEconomy aircraft</a><br/>';
+      body+='<a href="javascript:void(0);" onclick="FSEconomy.selectAircraftDialog(\''+d_id+'\');">select FSEconomy aircraft</a><br/>';
     }
     
     // aircraft  
@@ -969,7 +973,11 @@ Route = function(data)
       }
     });
     
-    dial.dialog({close:function(){dial.remove();}});
+    dial.dialog({
+      height:'auto',
+      width:'auto',
+      close:function(){dial.remove();}
+    });
   };
   
   this.onEditSave = function()

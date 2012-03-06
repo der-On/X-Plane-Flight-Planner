@@ -5,6 +5,10 @@ body {
   height: 100%;
   overflow-y: hidden;
 }
+a,
+a:visited {
+  text-decoration: underline;
+}
 body {
   font-family: sans-serif;
   width: 100%;
@@ -407,6 +411,13 @@ a:hover {
   vertical-align: bottom;
 }
 /* jQuery UI */
+.ui-dialog {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -mz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 #route-color,
 .route-color {
   display: inline-block;
@@ -446,6 +457,11 @@ a:hover {
   float: right;
   text-decoration: underline;
 }
-.fse-aircraft {
-  width: 30em;
+.fse-jobs-table thead th {
+  border-bottom: 1px solid #000;
+}
+.fse-jobs-table tbody td {
+  border: 1px solid #666;
+  padding: 0.25em;
+  background: #FFF;
 }
