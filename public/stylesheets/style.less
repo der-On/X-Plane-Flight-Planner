@@ -386,3 +386,36 @@ a:hover {
     background:#FFF;
   }
 }
+
+.fse-taskbar {
+  position:absolute;
+  z-index:1000;
+  bottom:@footer_height;
+  left:0;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  .box-shadow(0 0 5px rgba(0,0,0,0.5));
+  
+  &:after {
+    .clearfix();
+  }
+  
+  .task {
+    float:left;
+    margin:0;
+    padding:0;
+    
+    a {
+      padding:0.25em 1em;
+      border:1px solid #000;
+      background:#AAA;
+      .v-gradient(#CCC,0%,#AAA,100%);
+      .border-radius(5px 5px 0 0);
+      color:#000;
+      text-decoration:none;
+      display:block;
+    }
+  }
+  
+}

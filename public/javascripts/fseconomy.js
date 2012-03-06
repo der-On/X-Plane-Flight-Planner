@@ -1,5 +1,6 @@
 var FSEconomy = {
-  aircrafts:null,  
+  aircrafts:null,
+  taskbar:null,
   selectAircraftDialog:function(route_dialog_id)
   {
     var _this = this;
@@ -95,7 +96,6 @@ var FSEconomy = {
     console.log($('#'+d_id));
     if($('#'+d_id).length>0) {
       var dial = $('#'+d_id);
-      dial.data('hard-close',true);
       dial.dialog('open');
       return false;
     }
@@ -119,6 +119,8 @@ var FSEconomy = {
           click:function(){
             dial.data('hard-close',false);
             dial.dialog('close');
+            dial.data('hard-close',true);
+            _this.addDialogToTaskbar(dial);
           }
         }
       ]
@@ -226,8 +228,27 @@ var FSEconomy = {
     return jobs;
   },
   
-  sortTableBy:function(link)
+  addDialogToTaskbar:function(dial)
   {
-    
+    if(this.taskbar==null) {
+      this.taskbar = $('<ul class="fse-taskbar"></ul>');
+      $('body').append(this.taskbar);
+    }
+    var task = $('<li class="task" data-dialog-id="'+dial.attr('id')+'"><a href="javascript:void(0);" onclick="FSEconomy.openDialog(\''+dial.attr('id')+'\');" title="click to open">'+dial.dialog('widget').find('.ui-dialog-title').text()+'</a></li>');
+    this.taskbar.append(task);
+  },
+  removeDialogFromTaskbar:function(dial)
+  {
+    if(this.taskbar) {
+      this.taskbar.find('.task[data-dialog-id='+dial.attr('id')+']').remove();
+    }
+  },
+  openDialog:function(id)
+  {
+    var dial = $('#'+id);
+    if(dial) {
+      this.removeDialogFromTaskbar(dial);
+      dial.dialog('open');
+    }
   }
 };

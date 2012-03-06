@@ -418,14 +418,6 @@ a:hover {
   -mz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.ui-dialog .ui-dialog-disabled {
-  width: 100px;
-  overflow: hidden;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 2em;
-}
 .ui-button {
   text-shadow: none;
   -webkit-text-shadow: none;
@@ -480,4 +472,48 @@ a:hover {
   border: 1px solid #666;
   padding: 0.25em;
   background: #FFF;
+}
+.fse-taskbar {
+  position: absolute;
+  z-index: 1000;
+  bottom: 2em;
+  left: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  -mz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.fse-taskbar:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.fse-taskbar .task {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.fse-taskbar .task a {
+  padding: 0.25em 1em;
+  border: 1px solid #000;
+  background: #AAA;
+  background-image: linear-gradient(top, #cccccc 0%, #aaaaaa 100%);
+  background-image: -webkit-linear-gradient(top, #cccccc 0%, #aaaaaa 100%);
+  background-image: -moz-linear-gradient(top, #cccccc 0%, #aaaaaa 100%);
+  background-image: -ms-linear-gradient(top, #cccccc 0%, #aaaaaa 100%);
+  background-image: -o-linear-gradient(top, #cccccc 0%, #aaaaaa 100%);
+  border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  -ms-border-radius: 5px 5px 0 0;
+  -o-border-radius: 5px 5px 0 0;
+  color: #000;
+  text-decoration: none;
+  display: block;
 }
