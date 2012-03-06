@@ -18,25 +18,28 @@ var FSEconomy = {
       height:'auto',
       width:'auto',
       resizable:false,
-      close:function(){dial.remove();}
+      close:function(){dial.remove();},
+      buttons:[
+        {
+          text: 'Select',
+          click: function(){
+            var id = parseInt(dial.find('#'+d_id+'-select').val());
+            var aircraft = _this.getAircraftById(id);
+            $('#'+route_dialog_id+'-aircraft').val(aircraft.name);
+            $('#'+route_dialog_id+'-cruise_speed').val(aircraft.cruise_speed);
+            $('#'+route_dialog_id+'-fuel_consumption').val(aircraft.fuel_consumption);
+
+            dial.dialog('destroy');
+            dial.remove();
+          }
+        }
+      ]
     });
     
     this.loadAircrafts(function(aircrafts){
       dial.empty();
       dial.append('<label for="'+d_id+'-select">Select aircraft</label><br/>');
       dial.append('<select id="'+d_id+'-select"></select><br/><br/>');
-      dial.append('<a id="'+d_id+'-select-button" class="button" href="javascript:void(0);">select</a>');
-      
-      dial.find('#'+d_id+'-select-button').click(function(){
-        var id = parseInt(dial.find('#'+d_id+'-select').val());
-        var aircraft = _this.getAircraftById(id);
-        $('#'+route_dialog_id+'-aircraft').val(aircraft.name);
-        $('#'+route_dialog_id+'-cruise_speed').val(aircraft.cruise_speed);
-        $('#'+route_dialog_id+'-fuel_consumption').val(aircraft.fuel_consumption);
-        
-        dial.dialog('destroy');
-        dial.remove();
-      });
       
       var out = '';
       var aircraft = null;
@@ -88,8 +91,14 @@ var FSEconomy = {
     var _this = this;
     var d_id = 'fse-jobs-'+icao;
     
-    // cancel if dialog is already open
-    if($('#'+d_id).length>0) return false;
+    // disaply already created dialog
+    console.log($('#'+d_id));
+    if($('#'+d_id).length>0) {
+      var dial = $('#'+d_id);
+      dial.data('hard-close',true);
+      dial.dialog('open');
+      return false;
+    }
     
     var dial = $('<div class="fse-jobs" id="'+d_id+'" title="Assignments for '+icao+'"></div>');
     $('body').append(dial);
@@ -97,11 +106,22 @@ var FSEconomy = {
     var body = '<p>Loading assignments please wait ...</p>';
     dial.append(body);
     
+    dial.data('hard-close',true);
+    
     dial.dialog({
       height:400,
       width:600,
       minWidth:600,
-      close:function(){dial.remove();}
+      close:function(){if(dial.data('hard-close')) dial.remove();},
+      buttons:[
+        {
+          text:'minimize',
+          click:function(){
+            dial.data('hard-close',false);
+            dial.dialog('close');
+          }
+        }
+      ]
     });
     
     this.loadJobsFrom(icao,function(jobsFrom){

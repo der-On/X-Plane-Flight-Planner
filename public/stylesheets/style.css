@@ -418,6 +418,22 @@ a:hover {
   -mz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+.ui-dialog .ui-dialog-disabled {
+  width: 100px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2em;
+}
+.ui-button {
+  text-shadow: none;
+  -webkit-text-shadow: none;
+  -moz-text-shadow: none;
+  -ms-text-shadow: none;
+  -o-text-shadow: none;
+  color: #1C94C4 !important;
+}
 #route-color,
 .route-color {
   display: inline-block;
@@ -459,7 +475,6 @@ a:hover {
 }
 .fse-jobs-table thead th {
   border-bottom: 1px solid #000;
-  padding: 0.25em 1em 0.25em 0.25em;
 }
 .fse-jobs-table tbody td {
   border: 1px solid #666;

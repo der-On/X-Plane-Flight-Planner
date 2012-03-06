@@ -931,9 +931,6 @@ Route = function(data)
     // payload
     body+='<label for="'+d_id+'-payload">Payload<br/>(+ Pax & Crew):</label><input id="'+d_id+'-payload" type="number" value="'+this.payload+'"> kg<br/>';
     
-    // save
-    body+='<button class="save-route" id="'+d_id+'-save">Save</button>';
-    
     // remove
     body+='<a href="javascript:void(0);" class="remove-route" id="'+d_id+'-remove">x remove</a>';
     
@@ -943,26 +940,6 @@ Route = function(data)
     
     dial.find('#'+d_id+'-color').change(function(){
       dial.find('.route-color').css('background',$(this).val());
-    });
-    
-    dial.find('#'+d_id+'-save').click(function(){
-      var name = dial.find('#'+d_id+'-name').val();
-      var color = dial.find('#'+d_id+'-color').val();
-      var aircraft = dial.find('#'+d_id+'-aircraft').val();
-      var cruise_speed = parseInt(dial.find('#'+d_id+'-cruise_speed').val());
-      var fuel_consumption = parseInt(dial.find('#'+d_id+'-fuel_consumption').val());
-      var payload = parseInt(dial.find('#'+d_id+'-payload').val());
-      if(name!='') _this.name = name;
-      _this.color = color;
-      _this.aircraft = aircraft;
-      _this.cruise_speed = cruise_speed;
-      _this.fuel_consumption = fuel_consumption;
-      _this.payload = payload;
-      
-      _this.onEditSave();
-      
-      dial.dialog('destroy');
-      dial.remove();
     });
     
     dial.find('#'+d_id+'-remove').click(function(){
@@ -976,7 +953,31 @@ Route = function(data)
     dial.dialog({
       height:'auto',
       width:'auto',
-      close:function(){dial.remove();}
+      close:function(){dial.remove();},
+      buttons:[
+        {
+          text:'Save',
+          click:function(){
+            var name = dial.find('#'+d_id+'-name').val();
+            var color = dial.find('#'+d_id+'-color').val();
+            var aircraft = dial.find('#'+d_id+'-aircraft').val();
+            var cruise_speed = parseInt(dial.find('#'+d_id+'-cruise_speed').val());
+            var fuel_consumption = parseInt(dial.find('#'+d_id+'-fuel_consumption').val());
+            var payload = parseInt(dial.find('#'+d_id+'-payload').val());
+            if(name!='') _this.name = name;
+            _this.color = color;
+            _this.aircraft = aircraft;
+            _this.cruise_speed = cruise_speed;
+            _this.fuel_consumption = fuel_consumption;
+            _this.payload = payload;
+
+            _this.onEditSave();
+
+            dial.dialog('destroy');
+            dial.remove();
+          }
+        }
+      ]
     });
   };
   
