@@ -1108,12 +1108,30 @@ Route = function(data)
     
     for(var i=0;i<this.waypoints.length;i++) {
       waypoint = this.waypoints[i];
+	  
+	  //calculate flight route following WGS84 ellipse
+	  //XXX: maybe compare this to great circle method...
+	  if(i<this.waypoints.length-1) {
+		  var waypoint2 = this.waypoints[i+1];
+		  var dx = waypoint2.lon - waypoint.lon;
+		  var dy = waypoint2.lat - waypoint.lat;
+		  var dist = Math.sqrt(dx*dx+dy*dy);
+		  //Minimum of 3 Segments
+		  var numSegments = 2*Math.floor(dist)+3;
+		  for(var j=0;j<=numSegments;j++) {
+			var t = j/numSegments;
+			var lon = waypoint.lon * (1-t) + waypoint2.lon * t;
+			var lat = waypoint.lat * (1-t) + waypoint2.lat * t;
+			point = new OpenLayers.Geometry.Point(lon,lat);
+			point.transform(FlightPlanner.mapProjection,FlightPlanner.map.getProjectionObject());
+			this.line_feature.geometry.addPoint(point);
+		  }
+	  }
       
       point = new OpenLayers.Geometry.Point(waypoint.lon,waypoint.lat);
       
       // point needs to be transfomred into map projection
       point.transform(FlightPlanner.mapProjection,FlightPlanner.map.getProjectionObject());
-      this.line_feature.geometry.addPoint(point);
       this.points_feature.geometry.addPoint(point);
       
       waypoint.point = point;
