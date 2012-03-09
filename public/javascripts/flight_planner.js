@@ -550,7 +550,7 @@ FlightPlanner.Airports = {
     // simple air strip
     if(airport.type==1 && airport.runways.length==1 && airport.runways[0].type>2) style = FlightPlanner.options.airport_strip_style;
 
-    // big airport with more than 2 runways
+    // big airport with more than 2 runways TODO: airport size should be defined by runway lengths
     if(airport.runways.length>2) style = FlightPlanner.options.airport_big_style;
 
     // seaport
