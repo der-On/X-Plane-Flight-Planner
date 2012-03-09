@@ -170,10 +170,10 @@ var FSEconomy = {
               +'<td>'+job.distance+'</td>'
               +'<td>'+job.bearing+'</td>';
 
-      if(job.unitType=="passangers") {
+      if(job.unit_type=="passangers") {
         out+='<td>'+job.amount+' '+job.commodity+'</td>'
       } else {
-        out+='<td>'+job.commodity+' '+job.amount+' '+job.unitType+'</td>';
+        out+='<td>'+job.commodity+' '+job.amount+' '+job.unit_type+'</td>';
       }
       out+='<td>'+job.expires+'</td>';
       out+='</tr>';
