@@ -19,6 +19,9 @@ After that open your console and within the root directory of the flight planner
 
 This will install all the dependencies using the node.js package manager.
 
+Next you need to copy the file "local_config.sample.js" and rename the copy to "local_config.js".
+Open up the "local_config.js" in a text editor and adjust it the mongodb user, password and maybe host to your needs.
+
 Now you'll need the lates apt nav data from http://data.x-plane.com/get_data.html 
 You find the download to the left under "Download the data ...".
 After downloading it unpack it's contents into the "apt_nav" folder of the flight planner.
@@ -34,10 +37,10 @@ Open your console and within the root directory of the flight planner type:
   node app.js
 
 This will open up a local server listening on port 3000. 
-Now open your browser and open up the URL: http://localhost:3000
+Now open your browser and open up the URL: http://localhost:3000/flight-planner
 
 If you haven't done so before you now need to import the apt nav data, you've downloaded before.
-To do so open up: http://localhost:3000/import and then choose wich data to import from the list. You have to import one after another. When importing wait a couple of seconds or maybe minutes depending on the speed of your computer.
+To do so open up: http://localhost:3000/flight-planner/import and then choose wich data to import from the list. You have to import one after another. When importing wait a couple of seconds or maybe minutes depending on the speed of your computer.
 It now processes the corresponding apt_nav/*.dat file and imports every airport/navaid or fix found within into the mongoDB.
 When done you'll see a list of all imported data.
 
