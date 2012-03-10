@@ -33,10 +33,12 @@ app.configure('production', function(){
 // Routes
 
 app.get(local_config.base+'', routes.index);
-app.get(local_config.base+'/import', routes.importing);
-app.get(local_config.base+'/import/airports', routes.importAirports);
-app.get(local_config.base+'/import/navaids', routes.importNavaids);
-app.get(local_config.base+'/import/fixes', routes.importFixes);
+if(local_config.enable_import) {
+  app.get(local_config.base+'/import', routes.importing);
+  app.get(local_config.base+'/import/airports', routes.importAirports);
+  app.get(local_config.base+'/import/navaids', routes.importNavaids);
+  app.get(local_config.base+'/import/fixes', routes.importFixes);
+}
 app.get(local_config.base+'/apt-nav-json',routes.aptNavJson);
 app.get(local_config.base+'/airport-json/:icao',routes.airportJson);
 app.get(local_config.base+'/airports-search-json/:search',routes.airportsSearchJson);
