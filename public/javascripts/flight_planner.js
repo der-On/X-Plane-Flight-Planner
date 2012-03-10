@@ -73,7 +73,7 @@ var FlightPlanner = {
      ,aircraft_interval: 500 // miliseconds between updates of aircraft position 
      ,zoom_display_apt_nav: 7 // zoomlevel from wich on to display apt nav data
      ,zoom_search:11 // zoomlevel to use when going to a search result
-     ,base_url:'http://localhost:3000/'
+     ,base_url:''
      ,airport_default_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/airport_default.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
      ,airport_big_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/airport_big.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
      ,airport_strip_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/airport_strip.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
