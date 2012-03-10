@@ -20,7 +20,7 @@ After that open your console and within the root directory of the flight planner
 This will install all the dependencies using the node.js package manager.
 
 Next you need to copy the file "local_config.sample.js" and rename the copy to "local_config.js".
-Open up the "local_config.js" in a text editor and adjust it the mongodb user, password and maybe host to your needs.
+Open up the "local_config.js" in a text editor and adjust the mongodb user, password and maybe host to your needs.
 
 Now you'll need the lates apt nav data from http://data.x-plane.com/get_data.html 
 You find the download to the left under "Download the data ...".
