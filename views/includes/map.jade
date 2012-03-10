@@ -9,5 +9,6 @@
 
 script
     $(document).ready(function(){
+        FlightPlanner.options.base_url = '#{local_config.base_url}';
         FlightPlanner.init('map','map-menu');
     });
