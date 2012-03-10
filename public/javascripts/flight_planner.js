@@ -274,7 +274,7 @@ var FlightPlanner = {
       if(index!==null) {
         index = parseInt(index);
         this.map.setBaseLayer(this.map.layers[index]);
-      }
+      } else this.map.setBaseLayer(this.map.layers[0]);
     },
     loadLayers:function()
     {
