@@ -241,7 +241,7 @@ var FlightPlanner = {
         if(!this.map.layers[i].isBaseLayer && this.map.layers[i].visibility) visible.push(i);
       }
       // store visible layers in cookie
-      $.cookie('x-plane_flight_planner_visible_layers',JSON.stringify(visible));
+      $.cookie('x-plane_flight_planner_visible_layers',JSON.stringify(visible),{expires:this.options.cookie_expires});
     },
     onDoubleClick:function(e)
     {
@@ -814,7 +814,7 @@ FlightPlanner.Routes = {
     for(var i=0;i<this.routes.length;i++) {
       _routes.push(this.routes[i].getDataObject());
     }
-    $.cookie('x-plane_flight_planner_routes',JSON.stringify(_routes));
+    $.cookie('x-plane_flight_planner_routes',JSON.stringify(_routes),{expires:FlightPlanner.options.cookie_expires});
   },
   
   load:function()
