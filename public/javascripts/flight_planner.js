@@ -440,7 +440,7 @@ FlightPlanner.Aircraft = {
   onInterval:function()
   {
     var _this = this;
-    jQuery.getJSON('http://127.0.0.1:3001',function(data,textStatus){
+    jQuery.getJSON('http://localhost:3001',function(data,textStatus){
         _this.feature.geometry.x = data.lat;
         _this.feature.geomtry.y = data.lon;
         _this.feature.geomtry.transform(FlightPlanner.map.getProjectionObject(),FlightPlanner.mapProjection);
