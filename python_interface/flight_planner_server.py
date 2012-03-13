@@ -28,9 +28,11 @@ class request(BaseHTTPRequestHandler):
         lon = float(params['lon'])
       if('heading' in params):
         heading = float(params['heading'])
+      if('callback' in params):
+        res = params['callback']+'('+res+')'
 
     self.send_response(200)
-    self.send_header('Connection','keep-alive')
+    #self.send_header('Connection','keep-alive')
     self.send_header('Content-Length',str(len(res)))
     self.send_header('Content-Type', 'application/json; charset=utf-8')
     self.end_headers()
@@ -39,7 +41,7 @@ class request(BaseHTTPRequestHandler):
 
 def run(server_class=HTTPServer, handler_class=BaseHTTPRequestHandler):
   global httpd
-  server_address = ('127.0.0.1', 3001)
+  server_address = ('', 3001)
   httpd = server_class(server_address, handler_class)
   httpd.serve_forever()
 

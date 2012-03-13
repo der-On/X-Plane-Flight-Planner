@@ -435,19 +435,23 @@ FlightPlanner.Aircraft = {
     );
     FlightPlanner.aircraftLayer.addFeatures(this.feature);
     
-    //this.interval_id = window.setInterval('FlightPlanner.Aircraft.onInterval()',FlightPlanner.options.aircraft_interval);
+    this.interval_id = window.setInterval('FlightPlanner.Aircraft.onInterval()',FlightPlanner.options.aircraft_interval);
   },
   onInterval:function()
   {
     var _this = this;
-    jQuery.getJSON('http://localhost:3001',function(data,textStatus){
-        _this.feature.geometry.x = data.lat;
-        _this.feature.geomtry.y = data.lon;
-        _this.feature.geomtry.transform(FlightPlanner.map.getProjectionObject(),FlightPlanner.mapProjection);
-        FlightPlanner.aircraftLayer.redraw();
-      },{
-      cache:false
+    jQuery.ajax('http://localhost:3001',{
+      cache:false,
+      crossDomain:true,
+      dataType:'jsonp',
+      jsonpCallback:'FlightPlanner.Aircraft.jsonpCallback'
     });
+  },
+  jsonpCallback:function(data){
+    this.feature.geometry.x = data.lon;
+    this.feature.geometry.y = data.lat;
+    this.feature.geometry.transform(FlightPlanner.mapProjection,FlightPlanner.map.getProjectionObject());
+    FlightPlanner.aircraftLayer.redraw();
   }
 }
 
