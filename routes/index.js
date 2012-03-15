@@ -20,7 +20,7 @@ var stats = {
   getJobsTo:0  
 };
 
-var stats_interval = setInterval(outputStats,60000);
+var stats_interval = setInterval(outputStats,1800000); // every 30min
 
 function outputStats()
 {
