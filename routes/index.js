@@ -181,7 +181,7 @@ exports.fixJson = function(req,res)
 
 exports.getAircrafts = function(req,res)
 {
-  stats.getAircafts++;
+  stats.getAircrafts++;
   request('http://atilla.hinttech.nl/fseconomy/xml?query=AircraftConfigs',function(er,response,body){
     res.header('Content-Type','xml');
     res.send(body);
