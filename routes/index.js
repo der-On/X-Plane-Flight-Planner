@@ -2,6 +2,31 @@ var AptNavData = require('../lib/apt_nav_data').AptNavData;
 var AptNavParser = require('../lib/apt_nav_parser').AptNavParser;
 var request = require('request');
 var local_config = require('../local_config').config;
+var util = require('util');
+
+var stats = { 
+  index:0,
+  importing:0,
+  importAirports:0,
+  importNavaids:0,
+  importFixes:0,
+  aptNavJson:0,
+  airportJson:0,
+  airportSearchJson:0,
+  fixJson:0,
+  navaidJson:0,
+  getAircrafts:0,
+  getJobsFrom:0,
+  getJobsTo:0  
+};
+
+var stats_interval = setInterval(outputStats,60000);
+
+function outputStats()
+{
+  util.log('Statistics');
+  console.log(stats);
+}
 
 /*
  * GET home page.
@@ -9,6 +34,7 @@ var local_config = require('../local_config').config;
 
 exports.index = function(req, res)
 {
+  stats.index++;
   var aptNavData = new AptNavData();
   aptNavData.getVariable('airports_info',function(airports_info){
     aptNavData.getVariable('navaids_info',function(navaids_info){
@@ -21,6 +47,7 @@ exports.index = function(req, res)
 
 exports.importing = function(req,res)
 {
+  stats.importing++;
   var aptNavData = new AptNavData();
   aptNavData.getVariable('airports_info',function(airports_info){
     aptNavData.getVariable('navaids_info',function(navaids_info){
@@ -33,6 +60,7 @@ exports.importing = function(req,res)
 
 exports.importAirports = function(req,res)
 {
+  stats.importAirports++;
   var aptNavData = new AptNavData();
   var aptNavParser = new AptNavParser();
   var airports_info = aptNavParser.parseInfo('apt_nav/apt.dat');
@@ -52,6 +80,7 @@ exports.importAirports = function(req,res)
 
 exports.importNavaids = function(req,res)
 {
+  stats.importNavaids++;
   var aptNavData = new AptNavData();
   var aptNavParser = new AptNavParser();
   var navaids = aptNavParser.parseNavaids('apt_nav/earth_nav.dat');
@@ -71,6 +100,7 @@ exports.importNavaids = function(req,res)
 
 exports.importFixes = function(req,res)
 {
+  stats.importFixes++;
   var aptNavData = new AptNavData();
   var aptNavParser = new AptNavParser();
   var fixes = aptNavParser.parseFixes('apt_nav/earth_fix.dat');
@@ -90,6 +120,7 @@ exports.importFixes = function(req,res)
 
 exports.aptNavJson = function(req,res)
 {
+  stats.aptNavJson++;
   var aptNavData = new AptNavData();
   
   var bounds = req.param('bounds').split(',');
@@ -114,6 +145,7 @@ exports.aptNavJson = function(req,res)
 
 exports.airportJson = function(req,res)
 {
+  stats.airportJson++;
   var aptNavData = new AptNavData();
   aptNavData.findAirportByIcao(req.params.icao,function(airport){
     res.json({airport:airport});
@@ -122,6 +154,7 @@ exports.airportJson = function(req,res)
 
 exports.airportsSearchJson = function(req,res)
 {
+  stats.airportSearchJson++;
   var aptNavData = new AptNavData();
   aptNavData.findAirportsMatching(req.params.search,function(airports){
     res.json({airports:airports});
@@ -130,6 +163,7 @@ exports.airportsSearchJson = function(req,res)
 
 exports.navaidJson = function(req,res)
 {
+  stats.navaidJson++;
   var aptNavData = new AptNavData();
   aptNavData.findNavaidById(parseInt(req.params.id),function(navaid){
     res.json({navaid:navaid});
@@ -138,6 +172,7 @@ exports.navaidJson = function(req,res)
 
 exports.fixJson = function(req,res)
 {
+  stats.fixJson++;
   var aptNavData = new AptNavData();
   aptNavData.findFixById(parseInt(req.params.id),function(fix){
     res.json({fix:fix});
@@ -146,6 +181,7 @@ exports.fixJson = function(req,res)
 
 exports.getAircrafts = function(req,res)
 {
+  stats.getAircafts++;
   request('http://atilla.hinttech.nl/fseconomy/xml?query=AircraftConfigs',function(er,response,body){
     res.header('Content-Type','xml');
     res.send(body);
@@ -154,6 +190,7 @@ exports.getAircrafts = function(req,res)
 
 exports.getJobsFrom = function(req,res)
 {
+  stats.getJobsFrom++;
   request("http://atilla.hinttech.nl/fseconomy/xml?query=JobsFeedFrom&icao='"+req.params.icao+"'",function(er,response,body){
     res.header('Content-Type','xml');
     res.send(body);
@@ -162,6 +199,7 @@ exports.getJobsFrom = function(req,res)
 
 exports.getJobsTo = function(req,res)
 {
+  stats.getJobsTo++;
   request("http://atilla.hinttech.nl/fseconomy/xml?query=JobsFeedTo&icao='"+req.params.icao+"'",function(er,response,body){
     res.header('Content-Type','xml');
     res.send(body);
