@@ -2,6 +2,7 @@ var AptNavData = require('../lib/apt_nav_data').AptNavData;
 var AptNavParser = require('../lib/apt_nav_parser').AptNavParser;
 var request = require('request');
 var local_config = require('../local_config').config;
+var app = require('../app');
 
 /*
  * GET home page.
@@ -9,7 +10,7 @@ var local_config = require('../local_config').config;
 
 exports.index = function(req, res)
 {
-  var aptNavData = new AptNavData();
+  var aptNavData = new AptNavData(app.db);
   aptNavData.getVariable('airports_info',function(airports_info){
     aptNavData.getVariable('navaids_info',function(navaids_info){
       aptNavData.getVariable('fixes_info',function(fixes_info){
@@ -21,7 +22,7 @@ exports.index = function(req, res)
 
 exports.importing = function(req,res)
 {
-  var aptNavData = new AptNavData();
+  var aptNavData = new AptNavData(app.db);
   aptNavData.getVariable('airports_info',function(airports_info){
     aptNavData.getVariable('navaids_info',function(navaids_info){
       aptNavData.getVariable('fixes_info',function(fixes_info){
@@ -33,7 +34,7 @@ exports.importing = function(req,res)
 
 exports.importAirports = function(req,res)
 {
-  var aptNavData = new AptNavData();
+  var aptNavData = new AptNavData(app.db);
   var aptNavParser = new AptNavParser();
   var airports_info = aptNavParser.parseInfo('apt_nav/apt.dat');
   var airports = aptNavParser.parseAirports('apt_nav/apt.dat');
@@ -52,7 +53,7 @@ exports.importAirports = function(req,res)
 
 exports.importNavaids = function(req,res)
 {
-  var aptNavData = new AptNavData();
+  var aptNavData = new AptNavData(app.db);
   var aptNavParser = new AptNavParser();
   var navaids = aptNavParser.parseNavaids('apt_nav/earth_nav.dat');
   var navaids_info = aptNavParser.parseInfo('apt_nav/earth_nav.dat');
@@ -71,7 +72,7 @@ exports.importNavaids = function(req,res)
 
 exports.importFixes = function(req,res)
 {
-  var aptNavData = new AptNavData();
+  var aptNavData = new AptNavData(app.db);
   var aptNavParser = new AptNavParser();
   var fixes = aptNavParser.parseFixes('apt_nav/earth_fix.dat');
   var fixes_info = aptNavParser.parseInfo('apt_nav/earth_fix.dat');
@@ -90,7 +91,7 @@ exports.importFixes = function(req,res)
 
 exports.aptNavJson = function(req,res)
 {
-  var aptNavData = new AptNavData();
+  var aptNavData = new AptNavData(app.db);
   
   var bounds = req.param('bounds').split(',');
   
@@ -114,7 +115,7 @@ exports.aptNavJson = function(req,res)
 
 exports.airportJson = function(req,res)
 {
-  var aptNavData = new AptNavData();
+  var aptNavData = new AptNavData(app.db);
   aptNavData.findAirportByIcao(req.params.icao,function(airport){
     res.json({airport:airport});
   });
@@ -122,7 +123,7 @@ exports.airportJson = function(req,res)
 
 exports.airportsSearchJson = function(req,res)
 {
-  var aptNavData = new AptNavData();
+  var aptNavData = new AptNavData(app.db);
   aptNavData.findAirportsMatching(req.params.search,function(airports){
     res.json({airports:airports});
   });
@@ -130,7 +131,7 @@ exports.airportsSearchJson = function(req,res)
 
 exports.navaidJson = function(req,res)
 {
-  var aptNavData = new AptNavData();
+  var aptNavData = new AptNavData(app.db);
   aptNavData.findNavaidById(parseInt(req.params.id),function(navaid){
     res.json({navaid:navaid});
   });
@@ -138,7 +139,7 @@ exports.navaidJson = function(req,res)
 
 exports.fixJson = function(req,res)
 {
-  var aptNavData = new AptNavData();
+  var aptNavData = new AptNavData(app.db);
   aptNavData.findFixById(parseInt(req.params.id),function(fix){
     res.json({fix:fix});
   });
