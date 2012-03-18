@@ -30,6 +30,12 @@ app.configure('production', function(){
   app.use(express.errorHandler());
 });
 
+// DB
+var mongo = require('mongoskin');
+var db = mongo.db(local_config.mongodb.user+':'+local_config.mongodb.password+'@'+local_config.mongodb.host+'/x-plane_apt_nav?auto_reconnect');
+
+exports.db = db;
+
 // Routes
 
 app.get(local_config.base+'', routes.index);
