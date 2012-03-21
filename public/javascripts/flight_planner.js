@@ -827,7 +827,7 @@ FlightPlanner.Routes = {
     var route = null;
     var waypoint = null;
     if(_routes!==null) {
-      _routes = eval(_routes);
+      _routes = JSON.parse(_routes);
       if(_routes.length>0) {
         for(var i=0;i<_routes.length;i++) {
           route = new Route(_routes[i]);
