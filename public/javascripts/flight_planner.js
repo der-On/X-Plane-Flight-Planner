@@ -85,7 +85,7 @@ var FlightPlanner = {
      ,navaid_vor_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/navaid_vor.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
      ,fix_default_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/fix.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
      ,gps_default_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/gps.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, cursor:'pointer'}
-     ,aircraft_default_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/aircraft.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1}
+     ,aircraft_default_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/aircraft.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, graphicXOffset:-12, graphicYOffset:-12}
      ,route_style:{fill:true, fillColor:'#DDBB66', fillOpacity:0.75, pointRadius:12, stroke:true, strokeColor:'#DDAA00', strokeOpacity:0.75, strokeWidth:3, strokeLinecap:'round', strokeDashstyle:'solid'}
      ,route_colors:['#DDBB66','#ffa544','#91b756','#3161a4','#9b8ab6','#ae927a','#c74634','#ad5c15','#4f6f3e','#fdef5a','#4b6574','#3f3f3f']
     },
@@ -451,6 +451,7 @@ FlightPlanner.Aircraft = {
     this.feature.geometry.x = data.lon;
     this.feature.geometry.y = data.lat;
     this.feature.geometry.transform(FlightPlanner.mapProjection,FlightPlanner.map.getProjectionObject());
+    this.feature.style.rotation = data.heading;
     FlightPlanner.aircraftLayer.redraw();
   }
 }
