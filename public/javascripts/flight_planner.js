@@ -147,11 +147,11 @@ var FlightPlanner = {
       this.fixesLayer = new OpenLayers.Layer.Vector('Fixes');
       this.aircraftLayer = new OpenLayers.Layer.Vector('My aircraft');
       
+      this.map.addLayer(this.aircraftLayer);
       this.map.addLayer(this.routesLayer);
       this.map.addLayer(this.fixesLayer);
       this.map.addLayer(this.navaidsLayer);
-      this.map.addLayer(this.airportsLayer);
-      this.map.addLayer(this.aircraftLayer);
+      this.map.addLayer(this.airportsLayer);      
 
       // add select control
       this.selectControl = new OpenLayers.Control.SelectFeature([this.airportsLayer,this.navaidsLayer,this.fixesLayer]);
