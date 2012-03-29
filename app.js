@@ -53,6 +53,7 @@ app.get(local_config.base+'/fix-json/:id',routes.fixJson);
 app.get(local_config.base+'/fse-aircrafts',routes.getAircrafts);
 app.get(local_config.base+'/fse-jobs-from/:icao',routes.getJobsFrom);
 app.get(local_config.base+'/fse-jobs-to/:icao',routes.getJobsTo);
+app.get(local_config.base+'/json-fms/:route',routes.getFms);
 
 app.listen(3000);
 console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);

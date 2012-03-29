@@ -936,7 +936,11 @@ Route = function(data)
     // payload
     body+='<label for="'+d_id+'-payload">Payload<br/>(+ Pax & Crew):</label><input id="'+d_id+'-payload" type="number" value="'+this.payload+'"> kg<br/>';
     
+    // export link
+    body+='<br><a href="'+FlightPlanner.options.base_url+'json-fms/'+encodeURIComponent(JSON.stringify(this.getDataObject()))+'" target="fms">Export to .fms</a>';
+    
     body+='</p>';
+    
     dial.append(body);
     
     dial.find('#'+d_id+'-color').change(function(){

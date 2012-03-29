@@ -3,6 +3,7 @@ var AptNavParser = require('../lib/apt_nav_parser').AptNavParser;
 var request = require('request');
 var local_config = require('../local_config').config;
 var app = require('../app');
+var FmsExporter = require('../lib/fms_exporter').FmsExporter;
 
 /*
  * GET home page.
@@ -166,5 +167,16 @@ exports.getJobsTo = function(req,res)
   request("http://atilla.hinttech.nl/fseconomy/xml?query=JobsFeedTo&icao='"+req.params.icao+"'",function(er,response,body){
     res.header('Content-Type','xml');
     res.send(body);
+  });
+}
+
+exports.getFms = function(req,res)
+{
+  var route = JSON.parse(decodeURIComponent(req.params['route']));
+  var fmsExporter = new FmsExporter();
+  res.header('Content-Type','application/fms');
+  res.header('Content-Disposition','filename='+route.name.urlized('_')+'.fms');
+  fmsExporter.fromRoute(route,function(fms){
+    res.send(fms);
   });
 }
