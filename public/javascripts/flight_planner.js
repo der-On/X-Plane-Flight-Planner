@@ -936,7 +936,11 @@ Route = function(data)
     // payload
     body+='<label for="'+d_id+'-payload">Payload<br/>(+ Pax & Crew):</label><input id="'+d_id+'-payload" type="number" value="'+this.payload+'"> kg<br/>';
     
+    // export link
+    body+='<br><a href="'+FlightPlanner.options.base_url+'json-fms/'+encodeURIComponent(JSON.stringify(this.getDataObject()))+'" target="fms">Export to .fms</a>';
+    
     body+='</p>';
+    
     dial.append(body);
     
     dial.find('#'+d_id+'-color').change(function(){
@@ -1342,6 +1346,15 @@ Waypoint = function(data)
     
     body+='<h4>'+name+'</h4>';
     body+='lat: '+this.lat.toFixed(4)+', lon: '+this.lon.toFixed(4)+'<br/>';
+    
+    if(this.aptNav) {
+      if(this.aptNav['airport']) {
+        body+= 'fly at: '+this.aptNav.airport.elevation+' ft<br/>';
+      }
+      if(this.aptNav['navaid']) {
+        body+= 'fly at: '+this.aptNav.navaid.elevation+' ft<br/>';
+      }
+    }
     
     if(this.next) {
       body+='<a class="details-toggle" href="javascript:void(0);" onclick="$(this).next().slideToggle();">Details</a><div class="details">';
