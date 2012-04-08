@@ -1347,6 +1347,15 @@ Waypoint = function(data)
     body+='<h4>'+name+'</h4>';
     body+='lat: '+this.lat.toFixed(4)+', lon: '+this.lon.toFixed(4)+'<br/>';
     
+    if(this.aptNav) {
+      if(this.aptNav['airport']) {
+        body+= 'fly at: '+this.aptNav.airport.elevation+' ft<br/>';
+      }
+      if(this.aptNav['navaid']) {
+        body+= 'fly at: '+this.aptNav.navaid.elevation+' ft<br/>';
+      }
+    }
+    
     if(this.next) {
       body+='<a class="details-toggle" href="javascript:void(0);" onclick="$(this).next().slideToggle();">Details</a><div class="details">';
       // distance
