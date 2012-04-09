@@ -15,7 +15,9 @@ exports.index = function(req, res)
   aptNavData.getVariable('airports_info',function(airports_info){
     aptNavData.getVariable('navaids_info',function(navaids_info){
       aptNavData.getVariable('fixes_info',function(fixes_info){
-        res.render('index', {local_config: local_config, title: 'X-Plane Flight Planner', apt_nav_info: {airports: airports_info, navaids: navaids_info, fixes: fixes_info}});
+        aptNavData.getVariable('airways_info',function(airways_info){
+          res.render('index', {local_config: local_config, title: 'X-Plane Flight Planner', apt_nav_info: {airports: airports_info, navaids: navaids_info, fixes: fixes_info, airways: airways_info}});
+        });
       });
     });    
   });
@@ -27,7 +29,9 @@ exports.importing = function(req,res)
   aptNavData.getVariable('airports_info',function(airports_info){
     aptNavData.getVariable('navaids_info',function(navaids_info){
       aptNavData.getVariable('fixes_info',function(fixes_info){
-        res.render('import', {local_config: local_config, title: 'X-Plane Flight Planner - Import', apt_nav_info: {airports: airports_info, navaids: navaids_info, fixes: fixes_info}});
+        aptNavData.getVariable('airways_info',function(airways_info){
+          res.render('import', {local_config: local_config, title: 'X-Plane Flight Planner - Import', apt_nav_info: {airports: airports_info, navaids: navaids_info, fixes: fixes_info, airways: airways_info}});
+        });
       });
     });    
   });
@@ -47,7 +51,9 @@ exports.importAirports = function(req,res)
   
   aptNavData.getVariable('navaids_info',function(navaids_info){
     aptNavData.getVariable('fixes_info',function(fixes_info){
-      res.render('import_airports', {local_config: local_config, title: 'X-Plane Flight Planner - Import airports', airports: airports, apt_nav_info: {airports: airports_info, navaids: navaids_info, fixes: fixes_info}});
+      aptNavData.getVariable('airways_info',function(airways_info){
+        res.render('import_airports', {local_config: local_config, title: 'X-Plane Flight Planner - Import airports', airports: airports, apt_nav_info: {airports: airports_info, navaids: navaids_info, fixes: fixes_info, airways: airways_info}});
+      });
     });
   });
 };
@@ -66,7 +72,9 @@ exports.importNavaids = function(req,res)
   
   aptNavData.getVariable('airports_info',function(airports_info){
     aptNavData.getVariable('fixes_info',function(fixes_info){
-      res.render('import_navaids', {local_config: local_config, title: 'X-Plane Flight Planner - Import navaids', navaids: navaids, apt_nav_info: {airports: airports_info, navaids: navaids_info, fixes: fixes_info}});
+      aptNavData.getVariable('airways_info',function(airways_info){
+        res.render('import_navaids', {local_config: local_config, title: 'X-Plane Flight Planner - Import navaids', navaids: navaids, apt_nav_info: {airports: airports_info, navaids: navaids_info, fixes: fixes_info, airways: airways_info}});
+      });
     });
   });
 };
@@ -85,7 +93,34 @@ exports.importFixes = function(req,res)
   
   aptNavData.getVariable('airports_info',function(airports_info){
     aptNavData.getVariable('navaids_info',function(navaids_info){
-      res.render('import_fixes', {local_config: local_config, title: 'X-Plane Flight Planner - Import fixes', fixes: fixes, apt_nav_info: {airports: airports_info, navaids: navaids_info, fixes: fixes_info}});
+      aptNavData.getVariable('fixes_info',function(fixes_info){
+        aptNavData.getVariable('airways_info',function(airways_info){
+          res.render('import_fixes', {local_config: local_config, title: 'X-Plane Flight Planner - Import fixes', fixes: fixes, apt_nav_info: {airports: airports_info, navaids: navaids_info, fixes: fixes_info, airways: airways_info}});
+        });
+      });
+    });
+  });
+};
+
+exports.importAirways = function(req,res)
+{
+  var aptNavData = new AptNavData(app.db);
+  var aptNavParser = new AptNavParser();
+  var airways = aptNavParser.parseAirways('apt_nav/earth_awy.dat');
+  var airways_info = aptNavParser.parseInfo('apt_nav/earth_awy.dat');
+  
+  aptNavData.clearAirways();
+  aptNavData.saveAirways(airways);
+  aptNavData.clearVariable('airways_info');
+  aptNavData.saveVariable('airways_info',airways_info);
+  
+  aptNavData.getVariable('airports_info',function(airports_info){
+    aptNavData.getVariable('navaids_info',function(navaids_info){
+      aptNavData.getVariable('fixes_info',function(fixes_info){
+        aptNavData.getVariable('airways_info',function(airways_info){
+          res.render('import_airways', {local_config: local_config, title: 'X-Plane Flight Planner - Import fixes', airways: airways, apt_nav_info: {airports: airports_info, navaids: navaids_info, fixes: fixes_info, airways: airways_info}});
+        });
+      });
     });
   });
 };
@@ -104,11 +139,14 @@ exports.aptNavJson = function(req,res)
   var airports = [];
   var navaids = [];
   var fixes = [];
+  var airways =[];
   
   aptNavData.findAirportsInBounds(left,bottom,right,top,function(airports){
     aptNavData.findNavaidsInBounds(left,bottom,right,top,function(navaids){
       aptNavData.findFixesInBounds(left,bottom,right,top,function(fixes){
-       res.json({bounds:{left:left,top:top,right:right,bottom:bottom},airports:airports,navaids:navaids,fixes:fixes}); 
+       aptNavData.findAirwaysInBounds(left,bottom,right,top,function(airways){
+        res.json({bounds:{left:left,top:top,right:right,bottom:bottom},airports:airports,navaids:navaids,fixes:fixes,airways:airways}); 
+       });
       });
     });
   });

@@ -13,4 +13,8 @@ footer#footer
           | fixes(#{apt_nav_info.fixes.data_cycle})
         else
           | fixes(data missing)
+        if apt_nav_info.airways
+          | airways(#{apt_nav_info.airways.data_cycle})
+        else
+          | airways(data missing)
       

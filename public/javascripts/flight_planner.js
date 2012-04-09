@@ -88,6 +88,9 @@ var FlightPlanner = {
      ,aircraft_default_style:{fill:false, stroke:false, graphic:true, externalGraphic:'/images/aircraft.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, graphicXOffset:-12, graphicYOffset:-12}
      ,route_style:{fill:true, fillColor:'#DDBB66', fillOpacity:0.75, pointRadius:12, stroke:true, strokeColor:'#DDAA00', strokeOpacity:0.75, strokeWidth:3, strokeLinecap:'round', strokeDashstyle:'solid'}
      ,route_colors:['#DDBB66','#ffa544','#91b756','#3161a4','#9b8ab6','#ae927a','#c74634','#ad5c15','#4f6f3e','#fdef5a','#4b6574','#3f3f3f']
+     ,airway_default_style:{fill:false, stroke:true, strokeColor:'#3161a4', strokeOpacity:0.75, strokeWidth:2, strokeLinecap:'round', strokeDashstyle:'dash', graphic:true, externalGraphic:'/images/airway_low.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, graphicXOffset:-12, graphicYOffset:-12}
+     ,airway_high_style:{fill:false, stroke:true, strokeColor:'#4f6f3e', strokeOpacity:0.75, strokeWidth:2, strokeLinecap:'round', strokeDashstyle:'dash', graphic:true, externalGraphic:'/images/airway_high.png', graphicWidth:24, graphicHeight:24, graphicOpacity:1, graphicXOffset:-12, graphicYOffset:-12}
+     ,airway_label_style:{labelAlign:'cc', fontColor:'#000', labelOutlineWidth:3, labelOutlineColor:'#FFFFFF', fontWeight:'bold'}
     },
     aptNav:null,
     map:null,
@@ -145,13 +148,17 @@ var FlightPlanner = {
       this.airportsLayer = new OpenLayers.Layer.Vector('Airports');
       this.navaidsLayer = new OpenLayers.Layer.Vector('Navaids');
       this.fixesLayer = new OpenLayers.Layer.Vector('Fixes');
+      this.airwaysLowLayer = new OpenLayers.Layer.Vector('Airways low');
+      this.airwaysHighLayer = new OpenLayers.Layer.Vector('Airways high');
       this.aircraftLayer = new OpenLayers.Layer.Vector('My aircraft');
       
       this.map.addLayer(this.aircraftLayer);
       this.map.addLayer(this.routesLayer);
+      this.map.addLayer(this.airwaysLowLayer);
+      this.map.addLayer(this.airwaysHighLayer);
       this.map.addLayer(this.fixesLayer);
       this.map.addLayer(this.navaidsLayer);
-      this.map.addLayer(this.airportsLayer);      
+      this.map.addLayer(this.airportsLayer);
 
       // add select control
       this.selectControl = new OpenLayers.Control.SelectFeature([this.airportsLayer,this.navaidsLayer,this.fixesLayer]);
@@ -182,6 +189,14 @@ var FlightPlanner = {
         'featureselected': FlightPlanner.onFeatureSelect,
         'featureunselected': FlightPlanner.onFeatureUnselect
       });
+      /*this.airwaysLowLayer.events.on({
+        'featureselected': FlightPlanner.onFeatureSelect,
+        'featureunselected': FlightPlanner.onFeatureUnselect
+      });
+      this.airwaysHighLayer.events.on({
+        'featureselected': FlightPlanner.onFeatureSelect,
+        'featureunselected': FlightPlanner.onFeatureUnselect
+      });*/
 
       // restore last base layer
       this.loadBaseLayer();
@@ -302,33 +317,44 @@ var FlightPlanner = {
     },
     canDestroyFeature:function(feature)
     {
+      var id = null;
+      var i = null;
+      
       // airport
       if(feature.attributes['airport']) {
-        var id = feature.attributes.airport.icao;
+        id = feature.attributes.airport.icao;
         
-        for(var i = 0;i<this.aptNav.airports.length;i++) {
+        for(i = 0;i<this.aptNav.airports.length;i++) {
           if(id==this.aptNav.airports[i].icao) return false;
         }
       }
       
       // navaids
       if(feature.attributes['navaid']) {
-        var id = feature.attributes.navaid.id;
+        id = feature.attributes.navaid.id;
         
-        for(var i = 0;i<this.aptNav.navaids.length;i++) {
+        for(i = 0;i<this.aptNav.navaids.length;i++) {
           if(id==this.aptNav.navaids[i].id) return false;
         }
       }
       
       // fixes
-      if(feature.attributes['fixes']) {
-        var id = feature.attributes.fix.id;
+      if(feature.attributes['fix']) {
+        id = feature.attributes.fix.id;
         
-        for(var i = 0;i<this.aptNav.fixes.length;i++) {
+        for(i = 0;i<this.aptNav.fixes.length;i++) {
           if(id==this.aptNav.fixes[i].id) return false;
         }
       }
-      return true;
+      
+      // airways
+      if(feature.attributes['airway']) {
+        id = feature.attributes.airway.id;
+        
+        for(i = 0;i<this.aptNav.airways.length;i++) {
+          if(id==this.aptNav.airways[i].id) return false;
+        }
+      }
       
       return true;
     },
@@ -337,7 +363,7 @@ var FlightPlanner = {
       if(force=='undefined') force = false;
       
       if(!force) {
-
+        // airports
         var destroy = [];
         for(var i=0;i<this.airportsLayer.features.length;i++) {
           if(this.canDestroyFeature(this.airportsLayer.features[i])) {
@@ -347,6 +373,7 @@ var FlightPlanner = {
         }
         this.airportsLayer.destroyFeatures(destroy);
         
+        // navaids
         destroy = [];
         for(var i=0;i<this.navaidsLayer.features.length;i++) {
           if(this.canDestroyFeature(this.navaidsLayer.features[i])) {
@@ -356,6 +383,7 @@ var FlightPlanner = {
         }
         this.navaidsLayer.destroyFeatures(destroy);
         
+        // fixes
         destroy = [];
         for(var i=0;i<this.fixesLayer.features.length;i++) {
           if(this.canDestroyFeature(this.fixesLayer.features[i])) {
@@ -364,10 +392,33 @@ var FlightPlanner = {
           }
         }
         this.fixesLayer.destroyFeatures(destroy);
+        
+        // airways low
+        destroy = [];
+        for(var i=0;i<this.airwaysLowLayer.features.length;i++) {
+          if(this.canDestroyFeature(this.airwaysLowLayer.features[i])) {
+            //FlightPlanner.selectControl.unselect(this.airwaysLowLayer.features[i]);
+            destroy.push(this.airwaysLowLayer.features[i]);
+          }
+        }
+        this.airwaysLowLayer.destroyFeatures(destroy);
+        
+        // airways high
+        destroy = [];
+        for(var i=0;i<this.airwaysHighLayer.features.length;i++) {
+          if(this.canDestroyFeature(this.airwaysHighLayer.features[i])) {
+            //FlightPlanner.selectControl.unselect(this.airwaysHighLayer.features[i]);
+            destroy.push(this.airwaysHighLayer.features[i]);
+          }
+        }
+        this.airwaysHighLayer.destroyFeatures(destroy);
+        
       } else {
         this.airportsLayer.destroyFeatures();
         this.navaidsLayer.destroyFeatures();
         this.fixesLayer.destroyFeatures();
+        this.airwaysLowLayer.destroyFeatures();
+        this.airwaysHighLayer.destroyFeatures();
       }
     },
     onAptNavResponse:function(data)
@@ -378,6 +429,7 @@ var FlightPlanner = {
       this.Airports.onAptNavResponse();      
       this.Navaids.onAptNavResponse();
       this.Fixes.onAptNavResponse();
+      this.Airways.onAptNavResponse();
     },
     copyStyle:function(style)
     {
@@ -472,7 +524,12 @@ FlightPlanner.Airports = {
     var geometry = null;
     var airport = null;
     var style = null;
-
+    
+    /*for(var i=0;i<FlightPlanner.airportsLayer.features.length;i++) {
+      feature = FlightPlanner.airportsLayer.features[i];
+      if(feature.attributes.airport.icao=='EDDP') console.log(feature);
+    }*/
+    
     for(var i=0;i<FlightPlanner.aptNav.airports.length;i++) {
       airport = FlightPlanner.aptNav.airports[i];
       
@@ -746,6 +803,146 @@ FlightPlanner.Fixes = {
   getStyle:function(fix)
   {
     var style = FlightPlanner.options.fix_default_style;   
+    return style;
+  }
+};
+
+FlightPlanner.Airways = {
+  canCreateFeature:function(airway)
+  {
+    for(var i = 0;i<FlightPlanner.airwaysLowLayer.features.length;i++) {
+      if(airway.id==FlightPlanner.airwaysLowLayer.features[i].attributes.airway.id) return false;
+    }
+    for(var i = 0;i<FlightPlanner.airwaysHighLayer.features.length;i++) {
+      if(airway.id==FlightPlanner.airwaysHighLayer.features[i].attributes.airway.id) return false;
+    }
+    return true;
+  },
+  onAptNavResponse:function()
+  {
+    // add airways
+    var features_low = [];
+    var features_high = [];
+    var feature = null;
+    var from_geometry = null;
+    var to_geometry = null;
+    var center_geometry = null;
+    var airway = null;
+    var style = null;
+
+    for(var i=0;i<FlightPlanner.aptNav.airways.length;i++) {        
+      airway = FlightPlanner.aptNav.airways[i];
+      
+      if(this.canCreateFeature(airway)) {
+        style = this.getStyle(airway);
+
+        // make copy of style and add individual properties to it
+        style = FlightPlanner.copyStyle(style);
+        style.graphicTitle = airway.name;
+        
+        // create the from point feature
+        from_geometry = new OpenLayers.Geometry.Point(airway.from_lon,airway.from_lat);
+        from_geometry.transform(FlightPlanner.mapProjection,FlightPlanner.map.getProjectionObject());
+        
+        feature = new OpenLayers.Feature.Vector(
+          from_geometry,
+          {airway:airway,title:airway.name,description:this.getDescription(airway)},
+          style
+        );
+        switch(airway.type) {
+          case 1: features_low.push(feature); break;
+          case 2: features_high.push(feature); break;
+          default: features_low.push(feature);
+        }
+        
+        // create the to point feature
+        to_geometry = new OpenLayers.Geometry.Point(airway.to_lon,airway.to_lat);
+        to_geometry.transform(FlightPlanner.mapProjection,FlightPlanner.map.getProjectionObject());
+        
+        feature = new OpenLayers.Feature.Vector(
+          to_geometry,
+          {airway:airway,title:airway.name,description:this.getDescription(airway)},
+          style
+        );
+        switch(airway.type) {
+          case 1: features_low.push(feature); break;
+          case 2: features_high.push(feature); break;
+          default: features_low.push(feature);
+        }
+        
+        // create the line feature
+        style = this.getStyle(airway);
+        style = FlightPlanner.copyStyle(style);
+        
+        feature = new OpenLayers.Feature.Vector(
+          new OpenLayers.Geometry.LineString([from_geometry,to_geometry]),
+          {airway:airway,title:airway.name,description:this.getDescription(airway)},
+          style
+        );        
+        switch(airway.type) {
+          case 1: features_low.push(feature); break;
+          case 2: features_high.push(feature); break;
+          default: features_low.push(feature);
+        }
+        
+        // create the airway label feature
+        center_geometry = new OpenLayers.Geometry.Point((airway.from_lon+airway.to_lon)/2,(airway.from_lat+airway.to_lat)/2);
+        center_geometry.transform(FlightPlanner.mapProjection,FlightPlanner.map.getProjectionObject());
+        
+        // OpenLayers 2.12 will have an label outline style, until then add the same label with some offset below
+        if(OpenLayers.VERSION_NUMBER != 'Release 2.12') {
+          style = FlightPlanner.options.airway_label_style;
+          style = FlightPlanner.copyStyle(style);
+          style.label = airway.name;
+          style.fontColor = style.labelOutlineColor;
+          style.labelXOffset = 1;
+          style.labelYOffset = -1;
+          
+          feature = new OpenLayers.Feature.Vector(
+            center_geometry,
+            {airway:airway,title:airway.name,description:this.getDescription(airway)},
+            style
+          );
+          switch(airway.type) {
+            case 1: features_low.push(feature); break;
+            case 2: features_high.push(feature); break;
+            default: features_low.push(feature);
+          }
+        }
+        
+        style = FlightPlanner.options.airway_label_style;
+        style = FlightPlanner.copyStyle(style);
+        style.label = airway.name;
+        
+        feature = new OpenLayers.Feature.Vector(
+          center_geometry,
+          {airway:airway,title:airway.name,description:this.getDescription(airway)},
+          style
+        );
+        switch(airway.type) {
+          case 1: features_low.push(feature); break;
+          case 2: features_high.push(feature); break;
+          default: features_low.push(feature);
+        }
+      }
+    }
+    
+    FlightPlanner.airwaysLowLayer.addFeatures(features_low);
+    FlightPlanner.airwaysHighLayer.addFeatures(features_high);
+  },  
+  getDescription:function(airway)
+  {
+    var out =  '<p>';
+
+    out+='from: '+airway.from_name+', to: '+airway.to_name;
+    
+    out+='</p>';
+    return out;
+  },
+  getStyle:function(airway)
+  {
+    var style = FlightPlanner.options.airway_default_style;
+    if(airway.type==2) style = FlightPlanner.options.airway_high_style;
     return style;
   }
 };
