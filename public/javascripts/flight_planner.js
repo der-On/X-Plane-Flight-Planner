@@ -1409,6 +1409,7 @@ Waypoint = function(data)
   this.apt_nav_id = null;
   this.lat = null;
   this.lon = null;
+  this.elevation = 0;
   this.apt_nav = null;
   this.point = null;
   this.next = null;
@@ -1427,6 +1428,7 @@ Waypoint = function(data)
     if(data.id) this.id = data.id;
     if(data.lat) this.lat = data.lat;
     if(data.lon) this.lon = data.lon;
+    if(data.elevation) this.elevation = data.elevation;
   }
   
   this.container = $('<li class="waypoint" id="route-'+this.route.id+'-waypoint-'+this.id+'" data-id="'+this.id+'"></li>');
@@ -1521,6 +1523,10 @@ Waypoint = function(data)
   {
     this.container.removeClass('loading');
     this.aptNav = data;
+    
+    if(this.aptNav['airport']) this.elevation = this.aptNav.airport.elevation;
+    if(this.aptNav['navaid']) this.elevation = this.aptNav.navaid.elevation;
+    
     this.setBody();
   };
   
@@ -1549,14 +1555,7 @@ Waypoint = function(data)
     body+='<h4>'+name+'</h4>';
     body+='lat: '+this.lat.toFixed(4)+', lon: '+this.lon.toFixed(4)+'<br/>';
     
-    if(this.aptNav) {
-      if(this.aptNav['airport']) {
-        body+= 'fly at: '+this.aptNav.airport.elevation+' ft<br/>';
-      }
-      if(this.aptNav['navaid']) {
-        body+= 'fly at: '+this.aptNav.navaid.elevation+' ft<br/>';
-      }
-    }
+    body+= 'fly at: <input type="text" id="'+this.id+'-elevation" value="'+this.elevation+'" size="6" onkeyup="arrayGetBy(FlightPlanner.Routes.active_route.waypoints,\'id\','+this.id+').setElevation(parseInt(this.value));"/> ft<br/>';
     
     if(this.next) {
       body+='<a class="details-toggle" href="javascript:void(0);" onclick="$(this).next().slideToggle();">Details</a><div class="details">';
@@ -1600,8 +1599,15 @@ Waypoint = function(data)
       apt_nav_id:this.apt_nav_id,
       type:this.type,
       lat:this.lat,
-      lon:this.lon
+      lon:this.lon,
+      elevation:this.elevation
     };
+  };
+  
+  this.setElevation = function(elevation)
+  {
+    this.elevation = elevation;
+    $('#'+this.id+'-elevation').val(this.elevation);
   }
 }
 
