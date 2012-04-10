@@ -238,6 +238,11 @@ var FlightPlanner = {
       
       if(zoom>=this.options.zoom_display_apt_nav) {
         this.refreshAptNav();
+        
+        // Dirty fix: OL translates svg layers after dragging the map for some reason, so we remove the translation
+        this.airportsLayer.renderer.root.setAttributeNS(null, "transform", "");
+        this.navaidsLayer.renderer.root.setAttributeNS(null, "transform", "");
+        this.fixesLayer.renderer.root.setAttributeNS(null, "transform", "");
       } else {
         this.clearAptNav(true);
       }
