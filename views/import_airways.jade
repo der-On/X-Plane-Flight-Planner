@@ -1,0 +1,6 @@
+.scroll-content
+  h1 Imported #{airways.length} airways
+
+  ol
+    each airway in airways
+      li #{airway.name} | from: #{airway.from_name} to: #{airway.to_name} type: #{airway.getTypeName()}
