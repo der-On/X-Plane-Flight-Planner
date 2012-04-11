@@ -222,10 +222,12 @@ var FlightPlanner = {
             this.map.getProjectionObject()
         ), zoom);
     },
-    gotoFeature:function(lat,lon,layer,apt_nav_id)
+    gotoFeature:function(lat,lon,layer,apt_nav_id,zoom)
     {
       var _this = this;
       var feature;
+      
+      if(zoom=="undefined") zoom = this.map.getZoom();
       
       this.onAptNavRefreshed = function(){
         feature = _this.getFeatureByAptNavId(layer,apt_nav_id);
@@ -234,7 +236,7 @@ var FlightPlanner = {
         }
         _this.aptNavRefreshed = null;
       };
-      this.gotoLatLon(lat,lon);
+      this.gotoLatLon(lat,lon,zoom);
     },
     onMapZoom:function()
     {
@@ -693,7 +695,7 @@ FlightPlanner.Airports = {
   },
   gotoAirport:function(icao,lat,lon)
   {
-    FlightPlanner.gotoLatLon(lat,lon,FlightPlanner.options.zoom_search);
+    FlightPlanner.gotoFeature(lat,lon,FlightPlanner.airportsLayer,icao,FlightPlanner.options.zoom_search);
   }
 };
 
