@@ -95,6 +95,7 @@ var FlightPlanner = {
     aptNav:null,
     map:null,
     selectControl:null,
+    onAptNavRefreshed:null,
     
     init:function(map_id,menu_id)
     {
@@ -220,6 +221,20 @@ var FlightPlanner = {
             this.mapProjection,
             this.map.getProjectionObject()
         ), zoom);
+    },
+    gotoFeature:function(lat,lon,layer,apt_nav_id)
+    {
+      var _this = this;
+      var feature;
+      
+      this.onAptNavRefreshed = function(){
+        feature = _this.getFeatureByAptNavId(layer,apt_nav_id);
+        if(feature !== null) {
+          _this.onFeatureSelect({feature:feature});
+        }
+        _this.aptNavRefreshed = null;
+      };
+      this.gotoLatLon(lat,lon);
     },
     onMapZoom:function()
     {
@@ -435,6 +450,8 @@ var FlightPlanner = {
       this.Navaids.onAptNavResponse();
       this.Fixes.onAptNavResponse();
       this.Airways.onAptNavResponse();
+      
+      if(this.onAptNavRefreshed && typeof this.onAptNavRefreshed == 'function') this.onAptNavRefreshed();
     },
     copyStyle:function(style)
     {
@@ -478,6 +495,32 @@ var FlightPlanner = {
         feature.popup.destroy();
         feature.popup = null;
       }
+    },
+    getFeatureByAptNavId:function(layer,id)
+    {
+      var feature;
+      var apt_nav_id;
+      if(layer) {
+        for(var i = 0;i<layer.features.length;i++) {
+          feature = layer.features[i];
+          switch(layer) {
+            case this.airportsLayer:
+              apt_nav_id = feature.attributes.airport.icao;
+              break;
+            case this.navaidsLayer:
+              apt_nav_id = feature.attributes.navaid.id;
+              break;
+            case this.fixesLayer:
+              apt_nav_id = feature.attributes.fix.id;
+              break;
+            default:
+              apt_nav_id = null;
+          }
+          
+          if(apt_nav_id!==null && apt_nav_id==id) return feature;
+        }
+      }
+      return null;
     }
 };
 
@@ -1539,14 +1582,14 @@ Waypoint = function(data)
     var name = null;
     if(this.aptNav) {
       if(this.aptNav['airport']) {
-        name = '<a class="waypoint-icon" href="javascript:void(0);" onclick="FlightPlanner.gotoLatLon('+this.lat+','+this.lon+');"><img src="'+FlightPlanner.Airports.getStyle(this.aptNav.airport).externalGraphic+'" width="24" height="24"></a>'+this.aptNav.airport.icao+' - '+this.aptNav.airport.name;
+        name = '<a class="waypoint-icon" href="javascript:void(0);" onclick="FlightPlanner.gotoFeature('+this.lat+','+this.lon+',FlightPlanner.airportsLayer,\''+this.apt_nav_id+'\');"><img src="'+FlightPlanner.Airports.getStyle(this.aptNav.airport).externalGraphic+'" width="24" height="24"></a>'+this.aptNav.airport.icao+' - '+this.aptNav.airport.name;
       }
       if(this.aptNav['navaid']) {
-        name = '<a class="waypoint-icon" href="javascript:void(0);" onclick="FlightPlanner.gotoLatLon('+this.lat+','+this.lon+');"><img src="'+FlightPlanner.Navaids.getStyle(this.aptNav.navaid).externalGraphic+'" width="24" height="24"></a>'+this.aptNav.navaid.identifier+' - '+this.aptNav.navaid.name;
+        name = '<a class="waypoint-icon" href="javascript:void(0);" onclick="FlightPlanner.gotoFeature('+this.lat+','+this.lon+',FlightPlanner.navaidsLayer,'+this.apt_nav_id+');"><img src="'+FlightPlanner.Navaids.getStyle(this.aptNav.navaid).externalGraphic+'" width="24" height="24"></a>'+this.aptNav.navaid.identifier+' - '+this.aptNav.navaid.name;
       }
       
       if(this.aptNav['fix']) {
-        name = '<a class="waypoint-icon" href="javascript:void(0);" onclick="FlightPlanner.gotoLatLon('+this.lat+','+this.lon+');"><img src="'+FlightPlanner.Fixes.getStyle(this.aptNav.fix).externalGraphic+'" width="24" height="24"></a>'+this.aptNav.fix.name;
+        name = '<a class="waypoint-icon" href="javascript:void(0);" onclick="FlightPlanner.gotoFeature('+this.lat+','+this.lon+',FlightPlanner.fixesLayer,'+this.apt_nav_id+');"><img src="'+FlightPlanner.Fixes.getStyle(this.aptNav.fix).externalGraphic+'" width="24" height="24"></a>'+this.aptNav.fix.name;
       }
     } else if(this.type=='gps') {
       name = '<a class="waypoint-icon" href="javascript:void(0);" onclick="FlightPlanner.gotoLatLon('+this.lat+','+this.lon+');"><img src="'+FlightPlanner.options.gps_default_style.externalGraphic+'" width="24" height="24"></a>GPS point';
