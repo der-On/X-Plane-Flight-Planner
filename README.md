@@ -46,3 +46,9 @@ When done you'll see a list of all imported data.
 
 To shutdown the server simply hit CTRL-C or on mac Apple-C within the console you've used to start the server.
 
+
+## Donations
+
+If you like this tool and want to say thank you to the developer you can [donate easily with paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DNL9MGKS39BAJ).
+
+Thank you very much!
