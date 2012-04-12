@@ -234,7 +234,7 @@ var FlightPlanner = {
         if(feature !== null) {
           _this.onFeatureSelect({feature:feature});
         }
-        _this.aptNavRefreshed = null;
+        _this.onAptNavRefreshed = null;
       };
       this.gotoLatLon(lat,lon,zoom);
     },
