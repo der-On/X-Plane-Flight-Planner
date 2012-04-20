@@ -943,7 +943,7 @@ FlightPlanner.Airways = {
         if(OpenLayers.VERSION_NUMBER != 'Release 2.12') {
           style = FlightPlanner.options.airway_label_style;
           style = FlightPlanner.copyStyle(style);
-          style.label = airway.name;
+          style.label = airway.name + ' FL' + airway.elevation_base + '/FL' + airway.elevation_top;
           style.fontColor = style.labelOutlineColor;
           style.labelXOffset = 1;
           style.labelYOffset = -1;
@@ -962,7 +962,7 @@ FlightPlanner.Airways = {
         
         style = FlightPlanner.options.airway_label_style;
         style = FlightPlanner.copyStyle(style);
-        style.label = airway.name;
+        style.label = airway.name + ' FL' + airway.elevation_base + '/FL' + airway.elevation_top;
         
         feature = new OpenLayers.Feature.Vector(
           center_geometry,
