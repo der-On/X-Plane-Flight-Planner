@@ -67,6 +67,23 @@ function zeroFill( number, width )
   return number;
 }
 
+function getURLParams(url)
+{
+  var params = {};
+  var parts = url.split('?',2);
+  var sub_parts;
+  if(parts.length>1) {
+    parts = parts[1].split('&');
+    for(var i=0;i<parts.length;i++) {
+      sub_parts = parts[i].split('=',2);
+      if(sub_parts.length==2) {
+        params[decodeURIComponent(sub_parts[0])] = decodeURIComponent(sub_parts[1]);
+      }
+    }
+  }
+  return params;
+}
+
 var FlightPlanner = {
     options:{
       cookie_expires: 365 // days until the cookies expires
@@ -96,11 +113,14 @@ var FlightPlanner = {
     map:null,
     selectControl:null,
     onAptNavRefreshed:null,
+    urlParams:{},
     
     init:function(map_id,menu_id)
     {
       var _this = this;
-
+      
+      this.urlParams = getURLParams(window.location.href);
+      
       this.map = new OpenLayers.Map(map_id,{
         units:'m',
         controls:[
@@ -529,8 +549,11 @@ var FlightPlanner = {
 FlightPlanner.Aircraft = {
   interval_id:null,
   feature:null,
+  url:'http://localhost:3001',
   init:function()
   {
+    if(FlightPlanner.urlParams['py'] && FlightPlanner.urlParams['py']!='') this.url = FlightPlanner.urlParams['py'];
+    
     this.feature = new OpenLayers.Feature.Vector(new OpenLayers.Geometry.Point(0,0),
       null,
       FlightPlanner.options.aircraft_default_style
@@ -542,7 +565,7 @@ FlightPlanner.Aircraft = {
   onInterval:function()
   {
     var _this = this;
-    jQuery.ajax('http://localhost:3001',{
+    jQuery.ajax(this.url,{
       cache:false,
       crossDomain:true,
       dataType:'jsonp',
