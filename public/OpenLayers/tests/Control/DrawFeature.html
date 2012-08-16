@@ -4,12 +4,10 @@
     <script type="text/javascript">
 
     function test_initialize(t) {
-        t.plan(2);
+        t.plan(1);
         var control = new OpenLayers.Control.DrawFeature("foo", function() {});
         t.ok(control instanceof OpenLayers.Control.DrawFeature,
              "constructor returns an instance");
-        t.ok(OpenLayers.Util.indexOf(control.EVENT_TYPES, "featureadded") > -1,
-             "featureadded event in EVENT_TYPES");
     }
     
     function test_multi(t) {
@@ -37,6 +35,33 @@
             {multi: true, handlerOptions: {multi: false}}
         );
         t.ok(!control.handler.multi, "handlerOptions.multi respected");
+
+    }
+
+    function test_rendererOptions(t) {
+        t.plan(2);
+        
+        var map = new OpenLayers.Map("map");
+        var renderers = ["Canvas", "VML"];
+
+        var layer = new OpenLayers.Layer.Vector(null, {
+            renderers: renderers,
+            rendererOptions: {zIndexing: true},
+            isBaseLayer: true
+        });
+        map.addLayer(layer);
+        
+        var control = new OpenLayers.Control.DrawFeature(
+            layer, OpenLayers.Handler.Polygon, {autoActivate: true}
+        );
+        map.addControl(control);
+
+        var sketchLayer = control.handler.layer;
+
+        t.eq(sketchLayer.renderers, renderers, "Preferred renderers");
+        t.eq(sketchLayer.rendererOptions.zIndexing, true, "renderer options");
+        
+        map.destroy();
 
     }
     

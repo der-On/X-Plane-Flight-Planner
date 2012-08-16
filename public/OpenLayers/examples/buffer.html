@@ -28,7 +28,7 @@
                         "http://vmap0.tiles.osgeo.org/wms/vmap0",
                         {layers: 'basic'}, {'buffer':4} );
                 map.addLayer(layer);
-                map.addControl(new OpenLayers.Control.LayerSwitcher())
+                map.addControl(new OpenLayers.Control.LayerSwitcher());
                 map.setCenter(new OpenLayers.LonLat(lon, lat), zoom);
             }
         </script>
@@ -37,7 +37,7 @@
         <h1 id="title">Buffer Example</h1>
 
         <div id="tags">
-            buffer, performance, tile
+            buffer, performance, tile, light
         </div>
 
         <p id="shortdesc">
@@ -48,7 +48,7 @@
 
         <div id="docs">
             Use the buffer property to control how many tiles are included
-            outside the visible map area. Default is 2.
+            outside the visible map area. Default is 0.
         </div>
     </body>
 </html>
