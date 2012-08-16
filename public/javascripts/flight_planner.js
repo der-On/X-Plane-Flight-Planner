@@ -122,7 +122,7 @@ var FlightPlanner = {
       this.urlParams = getURLParams(window.location.href);
       
       this.map = new OpenLayers.Map(map_id,{
-        units:'m',
+        projection:new OpenLayers.Projection("EPSG:900913"),
         controls:[
           new OpenLayers.Control.Navigation({
             defaultDblClick:function(e){
@@ -145,7 +145,7 @@ var FlightPlanner = {
       ));
 
       this.map.addLayer(new OpenLayers.Layer.Google(
-        'Google Street',
+        'Google Streets',
         {'type':google.maps.MapTypeId.ROADMAP, numZoomLevels: 20}
       ));
 
