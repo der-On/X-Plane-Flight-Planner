@@ -118,7 +118,7 @@ var FlightPlanner = {
     init:function(map_id,menu_id)
     {
       var _this = this;
-      
+
       this.urlParams = getURLParams(window.location.href);
       
       this.map = new OpenLayers.Map(map_id,{
@@ -1120,6 +1120,7 @@ Route = function(data)
   this.waypoints = [];
   this.id = arrayGreatest(FlightPlanner.Routes.routes,'id',0)+1;
   this.name = 'route '+this.id;
+  this.visible = true;
   this.aircraft = '';
   this.cruise_speed = 0;
   this.fuel_consumption = 0;
@@ -1132,6 +1133,7 @@ Route = function(data)
     if(data.id) this.id = data.id;
     if(data.color) this.color = data.color;
     if(data.name) this.name = data.name;
+    if(data.visible) this.visible = data.visible;
     if(data.aircaft) this.aircraft = data.aircaft;
     if(data.cruise_speed) this.cruise_speed = data.cruise_speed;
     if(data.fuel_consumption) this.fuel_consumption = data.fuel_consumption;
@@ -1179,7 +1181,10 @@ Route = function(data)
     
     // name input
     body+='<label for="'+d_id+'-name">Name:</label><input id="'+d_id+'-name" type="text" value="'+this.name+'"><br/>';
-    
+
+    // visibility
+    body+='<label for="'+d_id+'"-visible">Visible:</label><input id="'+d_id+'-visible" type="checkbox" value="1"'+(this.visible?'checked':'')+'><br/>';
+
     // color
     body+='<label for="'+d_id+'-color">Color:</label><span class="route-color" style="background:'+this.color+'"></span><select id="'+d_id+'-color">';
     var color;
@@ -1236,12 +1241,14 @@ Route = function(data)
           text:'Save',
           click:function(){
             var name = dial.find('#'+d_id+'-name').val();
+            var visible = dial.find('#'+d_id+'-visible').get(0).checked;
             var color = dial.find('#'+d_id+'-color').val();
             var aircraft = dial.find('#'+d_id+'-aircraft').val();
             var cruise_speed = parseInt(dial.find('#'+d_id+'-cruise_speed').val());
             var fuel_consumption = parseInt(dial.find('#'+d_id+'-fuel_consumption').val());
             var payload = parseInt(dial.find('#'+d_id+'-payload').val());
             if(name!='') _this.name = name;
+            _this.visible = visible;
             _this.color = color;
             _this.aircraft = aircraft;
             _this.cruise_speed = cruise_speed;
@@ -1262,7 +1269,7 @@ Route = function(data)
   {
     this.select_option.text(this.name);
     $('#route-color').css('background',this.color);
-    this.updateWaypoints();  
+    this.updateWaypoints();
   };
   
   this.createFeatures = function()
@@ -1270,7 +1277,11 @@ Route = function(data)
     var style = FlightPlanner.copyStyle(FlightPlanner.options.route_style);
     style.strokeColor = this.color;
     style.fillColor = this.color;
-    
+
+    if (!this.visible) {
+      style.display = 'none';
+    }
+
     // create the openlayers features
     this.line_feature = new OpenLayers.Feature.Vector(
       new OpenLayers.Geometry.LineString(),
@@ -1394,7 +1405,7 @@ Route = function(data)
       point.transform(FlightPlanner.mapProjection,FlightPlanner.map.getProjectionObject());
       this.line_feature.geometry.addPoint(point);
       this.points_feature.geometry.addPoint(point);
-      
+
       waypoint.point = point;
       waypoint.next = null;
       
