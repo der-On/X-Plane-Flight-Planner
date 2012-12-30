@@ -120,7 +120,7 @@ var FlightPlanner = {
       var _this = this;
 
       this.urlParams = getURLParams(window.location.href);
-      
+
       this.map = new OpenLayers.Map(map_id,{
         projection:new OpenLayers.Projection("EPSG:900913"),
         controls:[
@@ -133,7 +133,8 @@ var FlightPlanner = {
           }),
           new OpenLayers.Control.PanZoom(),
           new OpenLayers.Control.ArgParser(),
-          new OpenLayers.Control.Attribution()
+          new OpenLayers.Control.Attribution(),
+          new OpenLayers.Control.MousePosition()
         ]
       });
 
@@ -172,7 +173,7 @@ var FlightPlanner = {
       this.airwaysLowLayer = new OpenLayers.Layer.Vector('Airways low');
       this.airwaysHighLayer = new OpenLayers.Layer.Vector('Airways high');
       this.aircraftLayer = new OpenLayers.Layer.Vector('My aircraft');
-      
+
       this.map.addLayer(this.aircraftLayer);
       this.map.addLayer(this.routesLayer);
       this.map.addLayer(this.airwaysLowLayer);
@@ -553,9 +554,10 @@ FlightPlanner.Aircraft = {
   follow_input:null,
   init:function()
   {
-    // add follow-aircaft checkbox to layer switcher
-    $('input[name="My aircraft"]').next().after('<label class="follow-aircraft-label" for="follow-aircraft"><input type="checkbox" value="1" name="follow_aircraft" /> follow</label>');
-    this.follow_input = $('input[name="follow_aircraft"]');
+    var _this = this;
+    this.addFollowInput();
+
+    FlightPlanner.map.events.register('changelayer',this,this.onLayerChange);
 
     if(FlightPlanner.urlParams['py'] && FlightPlanner.urlParams['py']!='') this.url = FlightPlanner.urlParams['py'];
     
@@ -566,6 +568,18 @@ FlightPlanner.Aircraft = {
     FlightPlanner.aircraftLayer.addFeatures(this.feature);
     
     this.interval_id = window.setInterval('FlightPlanner.Aircraft.onInterval()',FlightPlanner.options.aircraft_interval);
+  },
+  onLayerChange:function()
+  {
+    if($('input[name="follow_aircraft"]').length == 0) {
+      this.addFollowInput();
+    }
+  },
+  addFollowInput:function()
+  {
+    // add follow-aircaft checkbox to layer switcher
+    $('input[name="My aircraft"]').next().after('<label class="follow-aircraft-label" for="follow-aircraft"><input type="checkbox" value="1" name="follow_aircraft" /> follow</label>');
+    this.follow_input = $('input[name="follow_aircraft"]');
   },
   onInterval:function()
   {
