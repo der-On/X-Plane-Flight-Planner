@@ -1464,6 +1464,7 @@ Route = function(data)
     var r = {
       id:this.id,
       name:this.name,
+      visible:this.visible,
       color:this.color,
       waypoints:[],
       aircraft:this.aircraft,
