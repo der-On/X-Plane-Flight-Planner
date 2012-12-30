@@ -120,7 +120,7 @@ var FlightPlanner = {
       var _this = this;
 
       this.urlParams = getURLParams(window.location.href);
-      
+
       this.map = new OpenLayers.Map(map_id,{
         projection:new OpenLayers.Projection("EPSG:900913"),
         controls:[
@@ -133,7 +133,8 @@ var FlightPlanner = {
           }),
           new OpenLayers.Control.PanZoom(),
           new OpenLayers.Control.ArgParser(),
-          new OpenLayers.Control.Attribution()
+          new OpenLayers.Control.Attribution(),
+          new OpenLayers.Control.MousePosition()
         ]
       });
 
@@ -172,7 +173,7 @@ var FlightPlanner = {
       this.airwaysLowLayer = new OpenLayers.Layer.Vector('Airways low');
       this.airwaysHighLayer = new OpenLayers.Layer.Vector('Airways high');
       this.aircraftLayer = new OpenLayers.Layer.Vector('My aircraft');
-      
+
       this.map.addLayer(this.aircraftLayer);
       this.map.addLayer(this.routesLayer);
       this.map.addLayer(this.airwaysLowLayer);
@@ -550,8 +551,14 @@ FlightPlanner.Aircraft = {
   interval_id:null,
   feature:null,
   url:'http://localhost:3001',
+  follow_input:null,
   init:function()
   {
+    var _this = this;
+    this.addFollowInput();
+
+    FlightPlanner.map.events.register('changelayer',this,this.onLayerChange);
+
     if(FlightPlanner.urlParams['py'] && FlightPlanner.urlParams['py']!='') this.url = FlightPlanner.urlParams['py'];
     
     this.feature = new OpenLayers.Feature.Vector(new OpenLayers.Geometry.Point(0,0),
@@ -561,6 +568,18 @@ FlightPlanner.Aircraft = {
     FlightPlanner.aircraftLayer.addFeatures(this.feature);
     
     this.interval_id = window.setInterval('FlightPlanner.Aircraft.onInterval()',FlightPlanner.options.aircraft_interval);
+  },
+  onLayerChange:function()
+  {
+    if($('input[name="follow_aircraft"]').length == 0) {
+      this.addFollowInput();
+    }
+  },
+  addFollowInput:function()
+  {
+    // add follow-aircaft checkbox to layer switcher
+    $('input[name="My aircraft"]').next().after('<label class="follow-aircraft-label" for="follow-aircraft"><input type="checkbox" value="1" name="follow_aircraft" /> follow</label>');
+    this.follow_input = $('input[name="follow_aircraft"]');
   },
   onInterval:function()
   {
@@ -578,6 +597,10 @@ FlightPlanner.Aircraft = {
     this.feature.geometry.transform(FlightPlanner.mapProjection,FlightPlanner.map.getProjectionObject());
     this.feature.style.rotation = data.heading;
     FlightPlanner.aircraftLayer.redraw();
+
+    if (this.follow_input.get(0).checked) {
+      FlightPlanner.gotoLatLon(data.lon,data.lat);
+    }
   }
 }
 
@@ -1464,6 +1487,7 @@ Route = function(data)
     var r = {
       id:this.id,
       name:this.name,
+      visible:this.visible,
       color:this.color,
       waypoints:[],
       aircraft:this.aircraft,
