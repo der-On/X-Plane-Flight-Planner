@@ -550,8 +550,13 @@ FlightPlanner.Aircraft = {
   interval_id:null,
   feature:null,
   url:'http://localhost:3001',
+  follow_input:null,
   init:function()
   {
+    // add follow-aircaft checkbox to layer switcher
+    $('input[name="My aircraft"]').next().after('<label class="follow-aircraft-label" for="follow-aircraft"><input type="checkbox" value="1" name="follow_aircraft" /> follow</label>');
+    this.follow_input = $('input[name="follow_aircraft"]');
+
     if(FlightPlanner.urlParams['py'] && FlightPlanner.urlParams['py']!='') this.url = FlightPlanner.urlParams['py'];
     
     this.feature = new OpenLayers.Feature.Vector(new OpenLayers.Geometry.Point(0,0),
@@ -578,6 +583,10 @@ FlightPlanner.Aircraft = {
     this.feature.geometry.transform(FlightPlanner.mapProjection,FlightPlanner.map.getProjectionObject());
     this.feature.style.rotation = data.heading;
     FlightPlanner.aircraftLayer.redraw();
+
+    if (this.follow_input.get(0).checked) {
+      FlightPlanner.gotoLatLon(data.lon,data.lat);
+    }
   }
 }
 
