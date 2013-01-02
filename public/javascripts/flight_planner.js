@@ -183,9 +183,25 @@ var FlightPlanner = {
       this.map.addLayer(this.airportsLayer);
 
       // add select control
-      this.selectControl = new OpenLayers.Control.SelectFeature([this.airportsLayer,this.navaidsLayer,this.fixesLayer]);
+      this.selectControl = new OpenLayers.Control.SelectFeature([this.airportsLayer,this.navaidsLayer,this.fixesLayer,this.routesLayer]);
       this.map.addControl(this.selectControl);
       this.selectControl.activate();
+
+      this.dragControl = new OpenLayers.Control.DragFeature(this.routesLayer,{
+        geometryTypes: ['OpenLayers.Geometry.Point'],
+        onComplete: function(feature,pixel){
+          var route = feature.data.route;
+          var waypoint = feature.data.waypoint;
+
+          // point needs to be transfomred from map projection
+          feature.geometry.transform(FlightPlanner.map.getProjectionObject(),FlightPlanner.mapProjection);
+          waypoint.lon = feature.geometry.x;
+          waypoint.lat = feature.geometry.y;
+          route.updateWaypoints();
+        }
+      });
+      this.map.addControl(this.dragControl);
+      this.dragControl.activate();
 
       // add layer switcher
       this.map.addControl(new OpenLayers.Control.LayerSwitcher());
@@ -584,12 +600,14 @@ FlightPlanner.Aircraft = {
   onInterval:function()
   {
     var _this = this;
-    jQuery.ajax(this.url,{
-      cache:false,
-      crossDomain:true,
-      dataType:'jsonp',
-      jsonpCallback:'FlightPlanner.Aircraft.jsonpCallback'
-    });
+    if (FlightPlanner.aircraftLayer.visibility) {
+      jQuery.ajax(this.url,{
+        cache:false,
+        crossDomain:true,
+        dataType:'jsonp',
+        jsonpCallback:'FlightPlanner.Aircraft.jsonpCallback'
+      });
+    }
   },
   jsonpCallback:function(data){
     this.feature.geometry.x = data.lon;
@@ -1151,6 +1169,10 @@ Route = function(data)
   this.distance = 0;
   this.duration = 0;
   this.fuel = 0;
+
+  this.line_feature = null;
+  this.points_feature = null;
+  this.drag_point_features = [];
   
   if(data) {
     if(data.id) this.id = data.id;
@@ -1410,24 +1432,53 @@ Route = function(data)
   this.updateWaypoints = function()
   {
     var waypoint = null;
+    var feature = null;
+    var style = null;
     var point = null;
     
     this.distance = 0;
     this.fuel = 0;
     this.duration = 0;
     
-    if(this.line_feature && this.points_feature) FlightPlanner.routesLayer.destroyFeatures([this.line_feature,this.points_feature]);
+    if(this.line_feature && this.points_feature) FlightPlanner.routesLayer.destroyFeatures(this.drag_point_features.concat([this.line_feature,this.points_feature]));
     this.createFeatures();
     
     for(var i=0;i<this.waypoints.length;i++) {
       waypoint = this.waypoints[i];
       
       point = new OpenLayers.Geometry.Point(waypoint.lon,waypoint.lat);
+      point.data = {waypoint:waypoint};
       
       // point needs to be transfomred into map projection
       point.transform(FlightPlanner.mapProjection,FlightPlanner.map.getProjectionObject());
       this.line_feature.geometry.addPoint(point);
-      this.points_feature.geometry.addPoint(point);
+
+      if(waypoint.type == 'gps') {
+        style = FlightPlanner.copyStyle(FlightPlanner.options.route_style);
+        style.strokeColor = this.color;
+        style.fillColor = this.color;
+
+        style.graphic = FlightPlanner.options.gps_default_style.graphic;
+        //style.externalGraphic = FlightPlanner.options.gps_default_style.externalGraphic;
+        style.graphicWidth = FlightPlanner.options.gps_default_style.graphicWidth;
+        style.graphicHeight = FlightPlanner.options.gps_default_style.graphicHeight;
+        style.graphicOpacity = FlightPlanner.options.gps_default_style.graphicOpacity;
+
+        if (!this.visible) {
+          style.display = 'none';
+        }
+
+        feature = new OpenLayers.Feature.Vector(
+            point,
+            {route:this,waypoint:waypoint},
+            style
+        );
+
+        FlightPlanner.routesLayer.addFeatures([feature]);
+        this.drag_point_features.push(feature);
+      } else {
+        this.points_feature.geometry.addPoint(point);
+      }
 
       waypoint.point = point;
       waypoint.next = null;
