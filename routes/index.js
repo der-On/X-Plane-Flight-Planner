@@ -168,6 +168,28 @@ exports.airportsSearchJson = function(req,res)
   });
 }
 
+exports.searchJson = function(req,res)
+{
+  var aptNavData = new AptNavData(app.db);
+  var results = {
+    airports:[],
+    fixes:[],
+    navaids:[]
+  };
+  aptNavData.findAirportsMatching(req.params.search,function(airports){
+    results.airports = airports;
+
+    aptNavData.findFixesMatching(req.params.search,function(fixes){
+      results.fixes = fixes;
+
+      aptNavData.findNavaidsMatching(req.params.search,function(navaids){
+        results.navaids = navaids;
+        res.json(results);
+      });
+    });
+  });
+}
+
 exports.navaidJson = function(req,res)
 {
   var aptNavData = new AptNavData(app.db);

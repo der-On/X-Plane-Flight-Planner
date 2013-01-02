@@ -560,7 +560,48 @@ var FlightPlanner = {
         }
       }
       return null;
-    }
+    },
+    search:function(s,container) {
+      if(s.length>0) {
+        var _this = this;
+        container.addClass('loading');
+        jQuery.getJSON(FlightPlanner.options.base_url+'search-json/'+s,
+            function(data,textStatus){
+              _this.onSearchResponse(data,container);
+            });
+      }
+    },
+    onSearchResponse:function(results,container)
+    {
+      container.removeClass('loading');
+      container.empty();
+      var out = '';
+
+      if(results.airports.length > 0) {
+        out+='<li class="heading">Airports</li>';
+
+        for(var i=0;i<results.airports.length;i++) {
+          out+='<li><a href="javascript:void(0);" onclick="FlightPlanner.Airports.gotoAirport(\''+results.airports[i].icao+'\','+results.airports[i].lat+','+results.airports[i].lon+');">'+results.airports[i].icao+' - '+results.airports[i].name+'</a></li>';
+        }
+      }
+
+      if(results.navaids.length > 0) {
+        out+='<li class="heading">Navaids</li>';
+
+        for(var i=0;i<results.navaids.length;i++) {
+          out+='<li><a href="javascript:void(0);" onclick="FlightPlanner.Navaids.gotoNavaid(\''+results.navaids[i].id+'\','+results.navaids[i].lat+','+results.navaids[i].lon+');">'+results.navaids[i].identifier+' - '+results.navaids[i].name+'</a></li>';
+        }
+      }
+
+      if(results.fixes.length > 0) {
+        out+='<li class="heading">Fixes</li>';
+
+        for(var i=0;i<results.fixes.length;i++) {
+          out+='<li><a href="javascript:void(0);" onclick="FlightPlanner.Fixes.gotoFix(\''+results.fixes[i].id+'\','+results.fixes[i].lat+','+results.fixes[i].lon+');">'+results.fixes[i].name+'</a></li>';
+        }
+      }
+      container.append(out);
+    },
 };
 
 FlightPlanner.Aircraft = {
@@ -737,26 +778,6 @@ FlightPlanner.Airports = {
 
     return style;
   },
-  search:function(s,container) {
-    if(s.length>0) {
-      var _this = this;
-      container.addClass('loading');
-      jQuery.getJSON(FlightPlanner.options.base_url+'airports-search-json/'+s,
-      function(data,textStatus){
-        _this.onSearchResponse(data.airports,container);
-      });
-    }
-  },
-  onSearchResponse:function(airports,container)
-  {
-    container.removeClass('loading');
-    container.empty();
-    var out = '';
-    for(var i=0;i<airports.length;i++) {
-      out+='<li><a href="javascript:void(0);" onclick="FlightPlanner.Airports.gotoAirport(\''+airports[i].icao+'\','+airports[i].lat+','+airports[i].lon+');">'+airports[i].icao+' - '+airports[i].name+'</a></li>';
-    }
-    container.append(out);
-  },
   gotoAirport:function(icao,lat,lon)
   {
     FlightPlanner.gotoFeature(lat,lon,FlightPlanner.airportsLayer,icao,FlightPlanner.options.zoom_search);
@@ -858,6 +879,10 @@ FlightPlanner.Navaids = {
     if(navaid.type==12 || navaid.type==13) style = FlightPlanner.options.navaid_dme_style;
    
     return style;
+  },
+  gotoNavaid:function(id,lat,lon)
+  {
+    FlightPlanner.gotoFeature(lat,lon,FlightPlanner.navaidsLayer,id,FlightPlanner.options.zoom_search);
   }
 };
 
@@ -918,6 +943,10 @@ FlightPlanner.Fixes = {
   {
     var style = FlightPlanner.options.fix_default_style;   
     return style;
+  },
+  gotoFix:function(id,lat,lon)
+  {
+    FlightPlanner.gotoFeature(lat,lon,FlightPlanner.fixesLayer,id,FlightPlanner.options.zoom_search);
   }
 };
 
