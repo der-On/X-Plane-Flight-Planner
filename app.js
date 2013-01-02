@@ -49,6 +49,7 @@ if(local_config.enable_import) {
 app.get(local_config.base+'/apt-nav-json',routes.aptNavJson);
 app.get(local_config.base+'/airport-json/:icao',routes.airportJson);
 app.get(local_config.base+'/airports-search-json/:search',routes.airportsSearchJson);
+app.get(local_config.base+'/search-json/:search',routes.searchJson);
 app.get(local_config.base+'/navaid-json/:id',routes.navaidJson);
 app.get(local_config.base+'/fix-json/:id',routes.fixJson);
 app.get(local_config.base+'/fse-aircrafts',routes.getAircrafts);
