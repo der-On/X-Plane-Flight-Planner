@@ -250,7 +250,7 @@ var FlightPlanner = {
     },
     gotoLatLon:function(lat,lon,zoom)
     {
-      if(zoom=="undefined") zoom = this.map.zoom;
+      if(typeof zoom=="undefined") zoom = this.map.zoom;
       
       // Google.v3 uses EPSG:900913 as projection, so we have to
       // transform our coordinates
@@ -658,7 +658,7 @@ FlightPlanner.Aircraft = {
     FlightPlanner.aircraftLayer.redraw();
 
     if (this.follow_input.get(0).checked) {
-      FlightPlanner.gotoLatLon(data.lon,data.lat);
+      FlightPlanner.gotoLatLon(data.lat,data.lon);
     }
   }
 }
