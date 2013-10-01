@@ -208,7 +208,7 @@ exports.fixJson = function(req,res)
 
 exports.getAircrafts = function(req,res)
 {
-  request('http://atilla.hinttech.nl/fseconomy/xml?query=AircraftConfigs',function(er,response,body){
+  request('http://fseconomy.net/xml?query=AircraftConfigs',function(er,response,body){
     res.header('Content-Type','xml');
     res.send(body);
   });
@@ -216,7 +216,7 @@ exports.getAircrafts = function(req,res)
 
 exports.getJobsFrom = function(req,res)
 {
-  request("http://atilla.hinttech.nl/fseconomy/xml?query=JobsFeedFrom&icao='"+req.params.icao+"'",function(er,response,body){
+  request("http://fseconomy.net/xml?query=JobsFeedFrom&icao='"+req.params.icao+"'",function(er,response,body){
     res.header('Content-Type','xml');
     res.send(body);
   });
@@ -224,7 +224,7 @@ exports.getJobsFrom = function(req,res)
 
 exports.getJobsTo = function(req,res)
 {
-  request("http://atilla.hinttech.nl/fseconomy/xml?query=JobsFeedTo&icao='"+req.params.icao+"'",function(er,response,body){
+  request("http://fseconomy.net/xml?query=JobsFeedTo&icao='"+req.params.icao+"'",function(er,response,body){
     res.header('Content-Type','xml');
     res.send(body);
   });
