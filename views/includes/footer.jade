@@ -1,5 +1,5 @@
 footer#footer
-    p X-Plane Flight-Planner &copy; Ondrej Brinkel 2012 | AptNav: 
+    p.footer-info X-Plane Flight-Planner &copy; Ondrej Brinkel 2012 | AptNav:
       span
         if apt_nav_info.airports
           | airports(#{apt_nav_info.airports.data_cycle})
@@ -17,4 +17,5 @@ footer#footer
           | airways(#{apt_nav_info.airways.data_cycle})
         else
           | airways(data missing)
-      
+    p.footer-help
+        a(href="https://github.com/der-On/X-Plane-Flight-Planner/wiki/Quickstart-Guide", target="help") Need help?
