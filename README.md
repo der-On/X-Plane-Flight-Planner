@@ -3,7 +3,7 @@
 This is a web-based flight planning tool for the flight simulator X-Plane.
 It provides an easy to use interface where you can point and click your routes on a map.
 
-Future versions will intergrate the economy system FSEconomy within the flight planner.
+Currently the flight-planner will not work 100% on Internet Explorer. Please consider using another browser.
 
 <figure>
 <a href="https://github.com/der-On/X-Plane-Flight-Planner/raw/master/docs/screenshot.jpg"><img src="https://github.com/der-On/X-Plane-Flight-Planner/raw/master/docs/screenshot.jpg" width="600" /></a>
