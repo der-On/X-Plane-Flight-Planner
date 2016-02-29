@@ -18,6 +18,12 @@ function CrowdSourcing() {
         click: function () {
           window.location.href = 'mailto:info@anzui.de?subject=' + encodeURIComponent('I want to support the new X-Plane Flight-Planner')
         }
+      },
+      {
+        text: 'Close',
+        click: function () {
+          dial.remove();
+        }
       }
     ]
   });
