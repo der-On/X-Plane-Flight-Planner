@@ -63,7 +63,7 @@ app.get(local_config.base+'/json-fms/:route',routes.getFms);
 // redirect unkown routes to root
 app.use(function (req, res) {
   if (!res.route) {
-    res.redirect('/');
+    res.redirect(local_config.base);
   }
 });
 
