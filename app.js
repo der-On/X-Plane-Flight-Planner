@@ -5,6 +5,7 @@
 
 var local_config = require('./local_config').config;
 
+var fs = require('fs');
 var express = require('express')
   , routes = require('./routes');
 
@@ -19,7 +20,7 @@ app.configure(function(){
   app.use(express.methodOverride());
   //app.use(express.compiler({ src: __dirname + '/public', enable:['less']}));
   app.use(app.router);
-  app.use(express.static(__dirname + '/public'));
+  app.use(local_config.base, express.static(__dirname + '/public'));
 });
 
 app.configure('development', function(){
