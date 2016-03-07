@@ -62,11 +62,11 @@ app.get(local_config.base+'/fse-jobs-to/:icao',routes.getJobsTo);
 app.get(local_config.base+'/json-fms/:route',routes.getFms);
 
 // redirect unkown routes to root
-app.use(function (req, res) {
+/*app.use(function (req, res) {
   if (!res.route) {
     res.redirect(local_config.base);
   }
-});
+});*/
 
 app.listen(3000);
 console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
