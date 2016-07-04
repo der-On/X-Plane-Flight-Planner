@@ -1,0 +1,139 @@
+[
+  {
+    "type": 1,
+    "icao": "LHDC",
+    "lat": 47.489417249999995,
+    "lon": 34.549616,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13330,
+        "name": "BUDAPEST INFO"
+      },
+      {
+        "type": 54,
+        "frequency": 13240,
+        "name": "INFO"
+      },
+      {
+        "type": 54,
+        "frequency": 12590,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 359,
+    "tower": false,
+    "name": "DEBRECEN",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "05R",
+        "numberEnd": "23L",
+        "latStart": 47.481389,
+        "lonStart": 21.603017,
+        "latEnd": 47.496447,
+        "lonEnd": 21.627622,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 70.1,
+        "surfaceType": null,
+        "numberStart": "05L",
+        "numberEnd": "23R",
+        "latStart": 47.4825,
+        "lonStart": 21.601667,
+        "latEnd": 47.497333,
+        "lonEnd": 21.626,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 5721
+  },
+  {
+    "type": 1,
+    "icao": "LHNY",
+    "lat": 47.982923,
+    "lon": 34.83671425,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12760,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 338,
+    "tower": false,
+    "name": "NYIREGYHAZA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "18L",
+        "numberEnd": "36R",
+        "latStart": 47.985794,
+        "lonStart": 21.697006,
+        "latEnd": 47.977878,
+        "lonEnd": 21.696739,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "18R",
+        "numberEnd": "36L",
+        "latStart": 47.988514,
+        "lonStart": 21.692467,
+        "latEnd": 47.979506,
+        "lonEnd": 21.692158,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 18039
+  },
+  {
+    "type": 1,
+    "icao": "LROD",
+    "lat": 47.0253225,
+    "lon": 34.4666695,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12020,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12020,
+        "name": "APP"
+      }
+    ],
+    "elevation": 465,
+    "tower": true,
+    "name": "ORADEA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 47.017442,
+        "lonStart": 21.900136,
+        "latEnd": 47.033203,
+        "lonEnd": 21.904683,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 18683
+  }
+]

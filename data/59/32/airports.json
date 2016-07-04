@@ -1,0 +1,114 @@
+[
+  {
+    "type": 1,
+    "icao": "ENHD",
+    "lat": 59.3440155,
+    "lon": 32.267453,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11817,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 12050,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12110,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 76,
+    "tower": true,
+    "name": "Haugesund Lufthavn Karmoy",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 59.350664,
+        "lonStart": 5.197539,
+        "latEnd": 59.337367,
+        "lonEnd": 5.224203,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11541
+  },
+  {
+    "type": 1,
+    "icao": "ESSN",
+    "lat": 59.733422700000006,
+    "lon": 32.37578662666667,
+    "communications": [],
+    "elevation": 40,
+    "tower": false,
+    "name": "Norrtalje Mellingeholm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 59.7317129,
+        "lonStart": 18.69070317,
+        "latEnd": 59.733817,
+        "lonEnd": 18.70148,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 20,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 59.7347382,
+        "lonStart": 18.70283971,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20
+      }
+    ],
+    "id": 18431
+  },
+  {
+    "type": 1,
+    "icao": "ENSO",
+    "lat": 59.791925,
+    "lon": 32.5599625,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12020,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 161,
+    "tower": true,
+    "name": "Stord Sorstokken",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 59.797278,
+        "lonStart": 5.333353,
+        "latEnd": 59.786572,
+        "lonEnd": 5.348347,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 24240
+  }
+]

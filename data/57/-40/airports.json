@@ -1,0 +1,94 @@
+[
+  {
+    "type": 1,
+    "icao": "PASI",
+    "lat": 57.047128,
+    "lon": -39.166124999999994,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13590,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12360,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      }
+    ],
+    "elevation": 21,
+    "tower": false,
+    "name": "SITKA ROCKY GUTIERREZ",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 57.053475,
+        "lonStart": -135.373031,
+        "latEnd": 57.040781,
+        "lonEnd": -135.350164,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22310
+  },
+  {
+    "type": 16,
+    "icao": "PEC",
+    "lat": 57.95517222,
+    "lon": -39.151066240000006,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] Pelican",
+    "runways": [
+      {
+        "type": 101,
+        "width": 609.6,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 57.96821587,
+        "lonStart": -136.24426105,
+        "latEnd": 57.94212857,
+        "lonEnd": -136.22828563,
+        "length": 0
+      }
+    ],
+    "id": 34351
+  },
+  {
+    "type": 16,
+    "icao": "AK29",
+    "lat": 57.05213777,
+    "lon": -39.15120265,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] Sitka",
+    "runways": [
+      {
+        "type": 101,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 57.05735523,
+        "lonStart": -135.34932561,
+        "latEnd": 57.04692031,
+        "lonEnd": -135.34309163,
+        "length": 0
+      }
+    ],
+    "id": 34447
+  }
+]

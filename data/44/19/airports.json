@@ -1,0 +1,139 @@
+[
+  {
+    "type": 1,
+    "icao": "LIPE",
+    "lat": 44.5322039925,
+    "lon": 19.600432185,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13487,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12992,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12990,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12080,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12010,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12990,
+        "name": "APP"
+      }
+    ],
+    "elevation": 123,
+    "tower": true,
+    "name": "BOLOGNA Borgo Panigale",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 44.54133613,
+        "lonStart": 11.27229076,
+        "latEnd": 44.52992297,
+        "lonEnd": 11.30400414,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 15,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 44.52894424,
+        "lonStart": 11.29929234,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15
+      },
+      {
+        "type": 102,
+        "width": 15,
+        "surfaceType": 15,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 44.52861263,
+        "lonStart": 11.30022267,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15
+      }
+    ],
+    "id": 1817
+  },
+  {
+    "type": 1,
+    "icao": "LIDP",
+    "lat": 44.319612504999995,
+    "lon": 19.203091524999998,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12260,
+        "name": "Pavullo Radio"
+      }
+    ],
+    "elevation": 2212,
+    "tower": false,
+    "name": "PAVULLO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 23,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 44.31546956,
+        "lonStart": 10.82860358,
+        "latEnd": 44.3256394,
+        "lonEnd": 10.83318157,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 15.9,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 44.31845935,
+        "lonStart": 10.8290436,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.9
+      },
+      {
+        "type": 102,
+        "width": 8,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 44.31888171,
+        "lonStart": 10.82907952,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 8
+      }
+    ],
+    "id": 19260
+  }
+]

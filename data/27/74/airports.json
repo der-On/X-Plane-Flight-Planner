@@ -1,0 +1,44 @@
+[
+  {
+    "type": 1,
+    "icao": "ZSWZ",
+    "lat": 27.91278068,
+    "lon": 74.38414552,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12705,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11820,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12085,
+        "name": "APP"
+      }
+    ],
+    "elevation": 14,
+    "tower": true,
+    "name": "Wenzhou",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 27.90325246,
+        "lonStart": 120.84598214,
+        "latEnd": 27.9223089,
+        "lonEnd": 120.85748599,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 27089
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "type": 1,
+    "icao": "LMML",
+    "lat": 35.8494770475,
+    "lon": 25.1582390975,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12740,
+        "name": "ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 13390,
+        "name": "APRON"
+      },
+      {
+        "type": 54,
+        "frequency": 13510,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12815,
+        "name": "APP"
+      }
+    ],
+    "elevation": 299,
+    "tower": true,
+    "name": "La Valette Luqa",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 35.85645167,
+        "lonStart": 14.47886019,
+        "latEnd": 35.83396873,
+        "lonEnd": 14.50675119,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "6",
+        "numberEnd": "24",
+        "latStart": 35.84752481,
+        "lonStart": 14.46016449,
+        "latEnd": 35.85996298,
+        "lonEnd": 14.48156742,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14745
+  }
+]

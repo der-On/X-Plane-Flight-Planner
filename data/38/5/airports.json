@@ -1,0 +1,113 @@
+[
+  {
+    "type": 1,
+    "icao": "LPLA",
+    "lat": 38.76441,
+    "lon": 5.8236585000000005,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12030,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 13500,
+        "name": "APP"
+      }
+    ],
+    "elevation": 180,
+    "tower": true,
+    "name": "LAJES",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 38.775953,
+        "lonStart": -27.10555,
+        "latEnd": 38.752867,
+        "lonEnd": -27.081414,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14324
+  },
+  {
+    "type": 1,
+    "icao": "LPPI",
+    "lat": 38.554305915,
+    "lon": 5.052113419999998,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "PICO AFIS"
+      }
+    ],
+    "elevation": 111,
+    "tower": false,
+    "name": "PICO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 38.55330709,
+        "lonStart": -28.4510779,
+        "latEnd": 38.55530474,
+        "lonEnd": -28.43126316,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19365
+  },
+  {
+    "type": 1,
+    "icao": "LPSJ",
+    "lat": 38.6654805,
+    "lon": 5.23991,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12230,
+        "name": "RDO"
+      }
+    ],
+    "elevation": 311,
+    "tower": false,
+    "name": "SAO JORGE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 38.668258,
+        "lonStart": -28.182883,
+        "latEnd": 38.662703,
+        "lonEnd": -28.168775,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22070
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "type": 1,
+    "icao": "OP16",
+    "lat": 24.7872375,
+    "lon": 46.671144500000004,
+    "communications": [],
+    "elevation": 16,
+    "tower": false,
+    "name": "KHOREWAH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 19.81,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 24.784333,
+        "lonStart": 68.552147,
+        "latEnd": 24.790142,
+        "lonEnd": 68.562156,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 13345
+  },
+  {
+    "type": 1,
+    "icao": "OPKC",
+    "lat": 24.9065465,
+    "lon": 46.027819,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12670,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12300,
+        "name": "KARACHI GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11880,
+        "name": "KARACHI TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12550,
+        "name": "KARACHI APP"
+      }
+    ],
+    "elevation": 100,
+    "tower": true,
+    "name": "Karachi Jinnah Intl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "07R",
+        "numberEnd": "25L",
+        "latStart": 24.900386,
+        "lonStart": 67.142631,
+        "latEnd": 24.908686,
+        "lonEnd": 67.175036,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "07L",
+        "numberEnd": "25R",
+        "latStart": 24.904708,
+        "lonStart": 67.147553,
+        "latEnd": 24.912406,
+        "lonEnd": 67.177969,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 13605
+  },
+  {
+    "type": 1,
+    "icao": "OPTH",
+    "lat": 24.8415185,
+    "lon": 46.837081000000005,
+    "communications": [],
+    "elevation": 28,
+    "tower": false,
+    "name": "TALHAR",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 24.835456,
+        "lonStart": 68.826581,
+        "latEnd": 24.847581,
+        "lonEnd": 68.850236,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 24556
+  }
+]

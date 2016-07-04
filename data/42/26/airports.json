@@ -1,0 +1,146 @@
+[
+  {
+    "type": 1,
+    "icao": "LFKB",
+    "lat": 42.552508,
+    "lon": 26.0104225,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12592,
+        "name": "LFKB ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12182,
+        "name": "BASTIA GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11800,
+        "name": "BASTIA TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12382,
+        "name": "BASTIA APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12725,
+        "name": "BASTIA APP"
+      }
+    ],
+    "elevation": 23,
+    "tower": true,
+    "name": "Bastia Poretta",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 42.563339,
+        "lonStart": 9.479168,
+        "latEnd": 42.541677,
+        "lonEnd": 9.48825,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2331
+  },
+  {
+    "type": 1,
+    "icao": "LIRS",
+    "lat": 42.760369965,
+    "lon": 26.917019817499998,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 12210,
+        "name": "Grosseto Radar"
+      },
+      {
+        "type": 55,
+        "frequency": 12452,
+        "name": "Grosseto APP"
+      },
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "Grosseto TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12810,
+        "name": "Grosseto TWR"
+      }
+    ],
+    "elevation": 15,
+    "tower": true,
+    "name": "GROSSETO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.5,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 42.74934874,
+        "lonStart": 11.06119122,
+        "latEnd": 42.7724541,
+        "lonEnd": 11.08000802,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 25,
+        "surfaceType": null,
+        "numberStart": "03R",
+        "numberEnd": "21L",
+        "latStart": 42.75077588,
+        "lonStart": 11.06553281,
+        "latEnd": 42.76890114,
+        "lonEnd": 11.08028765,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10182
+  },
+  {
+    "type": 1,
+    "icao": "LIRJ",
+    "lat": 42.76089263,
+    "lon": 26.496710455,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12370,
+        "name": "AFIS"
+      }
+    ],
+    "elevation": 30,
+    "tower": false,
+    "name": "MARINA DI CAMPO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 23,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 42.76593713,
+        "lonStart": 10.23757278,
+        "latEnd": 42.75584813,
+        "lonEnd": 10.242111,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 15830
+  }
+]

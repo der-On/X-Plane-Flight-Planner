@@ -1,0 +1,107 @@
+[
+  {
+    "type": 1,
+    "icao": "MYEF",
+    "lat": 23.56246,
+    "lon": -26.164479,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 11800,
+        "name": "CTAF"
+      },
+      {
+        "type": 50,
+        "frequency": 11850,
+        "name": "AWOS"
+      },
+      {
+        "type": 55,
+        "frequency": 12100,
+        "name": "NASSAU APCH"
+      }
+    ],
+    "elevation": 9,
+    "tower": false,
+    "name": "Exuma Intl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 23.566939,
+        "lonStart": -75.886939,
+        "latEnd": 23.557981,
+        "lonEnd": -75.868264,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 7375
+  },
+  {
+    "type": 1,
+    "icao": "MYE3",
+    "lat": 23.93332777,
+    "lon": -26.19301454,
+    "communications": [],
+    "elevation": 9,
+    "tower": true,
+    "name": "Farmer's Cay",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 23.93607033,
+        "lonStart": -76.31661429,
+        "latEnd": 23.93058521,
+        "lonEnd": -76.31671903,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 7810
+  },
+  {
+    "type": 1,
+    "icao": "MYEG",
+    "lat": 23.466667,
+    "lon": -26.162110999999996,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13477,
+        "name": "AWOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "UNICOM"
+      }
+    ],
+    "elevation": 5,
+    "tower": true,
+    "name": "GEORGE TOWN",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 23.468806,
+        "lonStart": -75.78875,
+        "latEnd": 23.464528,
+        "lonEnd": -75.774583,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 9974
+  }
+]

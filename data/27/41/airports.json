@@ -1,0 +1,141 @@
+[
+  {
+    "type": 1,
+    "icao": "OIKB",
+    "lat": 27.218315750000002,
+    "lon": 41.80100425,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12865,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 12190,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12420,
+        "name": "APP"
+      }
+    ],
+    "elevation": 21,
+    "tower": true,
+    "name": "BANDAR ABBASS INTL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "03R",
+        "numberEnd": "21L",
+        "latStart": 27.203169,
+        "lonStart": 56.370356,
+        "latEnd": 27.232397,
+        "lonEnd": 56.387569,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "03L",
+        "numberEnd": "21R",
+        "latStart": 27.205047,
+        "lonStart": 56.368614,
+        "latEnd": 27.23265,
+        "lonEnd": 56.384869,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1490
+  },
+  {
+    "type": 1,
+    "icao": "OIKP",
+    "lat": 27.158279,
+    "lon": 41.659901500000004,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12185,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12215,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12315,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 19,
+    "tower": true,
+    "name": "HAVADARYA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 35.05,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 27.156008,
+        "lonStart": 56.159253,
+        "latEnd": 27.16055,
+        "lonEnd": 56.184972,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11056
+  },
+  {
+    "type": 1,
+    "icao": "OISL",
+    "lat": 27.674725000000002,
+    "lon": 41.0211305,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12190,
+        "name": "INFO"
+      },
+      {
+        "type": 54,
+        "frequency": 12735,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 2641,
+    "tower": false,
+    "name": "LAR",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 27.674506,
+        "lonStart": 54.367317,
+        "latEnd": 27.674944,
+        "lonEnd": 54.399239,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14390
+  }
+]

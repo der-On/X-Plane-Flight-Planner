@@ -1,0 +1,107 @@
+[
+  {
+    "type": 1,
+    "icao": "UIUU",
+    "lat": 51.81081566666666,
+    "lon": 79.6188075,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12660,
+        "name": "ULAN UDE ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "ULAN UDE TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12930,
+        "name": "ULAN UDE APP"
+      }
+    ],
+    "elevation": 1690,
+    "tower": true,
+    "name": "MUKHINO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 51.804983,
+        "lonStart": 107.416503,
+        "latEnd": 51.810542,
+        "lonEnd": 107.458786,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 103.94,
+        "surfaceType": null,
+        "numberStart": "08L",
+        "numberEnd": "26R",
+        "latStart": 51.8083,
+        "lonStart": 107.429364,
+        "latEnd": 51.812072,
+        "lonEnd": 107.458347,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 96.01,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 51.819,
+        "lonStart": 107.434367,
+        "latEnd": 51.809997,
+        "lonEnd": 107.448769,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16365
+  },
+  {
+    "type": 1,
+    "icao": "XIUW",
+    "lat": 51.850718,
+    "lon": 79.786914,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12740,
+        "name": "Kedrach ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 12400,
+        "name": "Kedrach Start"
+      }
+    ],
+    "elevation": 1689,
+    "tower": true,
+    "name": "Ulan-Ude Vostochny",
+    "runways": [
+      {
+        "type": 100,
+        "width": 64.92,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 51.848127,
+        "lonStart": 107.720519,
+        "latEnd": 51.853309,
+        "lonEnd": 107.758239,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 25890
+  }
+]

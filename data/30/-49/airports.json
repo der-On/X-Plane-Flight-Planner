@@ -1,0 +1,133 @@
+[
+  {
+    "type": 1,
+    "icao": "KBFM",
+    "lat": 30.629505311666666,
+    "lon": -48.51052870166668,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13557,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 11880,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11880,
+        "name": "DOWNTOWN TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11850,
+        "name": "APP/DEP"
+      }
+    ],
+    "elevation": 24,
+    "tower": true,
+    "name": "MOBILE DOWNTOWN",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 30.633083,
+        "lonStart": -88.079942,
+        "latEnd": 30.613203,
+        "lonEnd": -88.059781,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 30.641994,
+        "lonStart": -88.065917,
+        "latEnd": 30.62055,
+        "lonEnd": -88.065903,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 30.63444081,
+        "lonStart": -88.07502264,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      },
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 30.63376106,
+        "lonStart": -88.07604357,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 16165
+  },
+  {
+    "type": 17,
+    "icao": "41M",
+    "lat": 30.52658305,
+    "lon": -48.56056571,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[H] Midstream Fuel Service",
+    "runways": [
+      {
+        "type": 101,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 30.53117158,
+        "lonStart": -88.10480387,
+        "latEnd": 30.52199452,
+        "lonEnd": -88.09297169,
+        "length": 0
+      },
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 30.52658305,
+        "lonStart": -88.09888778,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 31351
+  }
+]

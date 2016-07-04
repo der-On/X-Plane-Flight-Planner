@@ -1,0 +1,104 @@
+[
+  {
+    "type": 1,
+    "icao": "KGPM",
+    "lat": 32.699907913333334,
+    "lon": -53.800467403333336,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11847,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12855,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12115,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12855,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 13597,
+        "name": "RGNL APP/DEP"
+      }
+    ],
+    "elevation": 587,
+    "tower": true,
+    "name": "GRAND PRAIRIE MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 32.704281,
+        "lonStart": -97.046878,
+        "latEnd": 32.693283,
+        "lonEnd": -97.046956,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 32.70215974,
+        "lonStart": -97.04780721,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 10109
+  },
+  {
+    "type": 1,
+    "icao": "TS70",
+    "lat": 32.575136109999995,
+    "lon": -53.86720567999999,
+    "communications": [],
+    "elevation": 600,
+    "tower": false,
+    "name": "Jack Miller",
+    "runways": [
+      {
+        "type": 100,
+        "width": 42.67,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 32.57702981,
+        "lonStart": -97.08790667,
+        "latEnd": 32.57324241,
+        "lonEnd": -97.08599889,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 7.62,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 32.57513611,
+        "lonStart": -97.08695278,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 7.62
+      }
+    ],
+    "id": 12850
+  }
+]

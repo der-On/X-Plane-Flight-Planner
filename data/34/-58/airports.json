@@ -1,0 +1,135 @@
+[
+  {
+    "type": 1,
+    "icao": "KPOC",
+    "lat": 34.091936542,
+    "lon": -57.03402074199998,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12440,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 11820,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12500,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11820,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12550,
+        "name": "SOCAL APP/DEP"
+      }
+    ],
+    "elevation": 1011,
+    "tower": true,
+    "name": "Brackett Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "08R",
+        "numberEnd": "26L",
+        "latStart": 34.091711,
+        "lonStart": -117.7905,
+        "latEnd": 34.090969,
+        "lonEnd": -117.774544,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "08L",
+        "numberEnd": "26R",
+        "latStart": 34.092367,
+        "lonStart": -117.786806,
+        "latEnd": 34.091805,
+        "lonEnd": -117.774736,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 11.9,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.09283071,
+        "lonStart": -117.77557171,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.9
+      }
+    ],
+    "id": 3089
+  },
+  {
+    "type": 1,
+    "icao": "33CA",
+    "lat": 34.905582206000005,
+    "lon": -57.020978258,
+    "communications": [],
+    "elevation": 2689,
+    "tower": false,
+    "name": "Lloyds Landing",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 34.90446543,
+        "lonStart": -118.305332,
+        "latEnd": 34.90649657,
+        "lonEnd": -118.29799457,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 34.90682277,
+        "lonStart": -118.30809925,
+        "latEnd": 34.90464637,
+        "lonEnd": -118.30454969,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 102,
+        "width": 26.1,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.90547989,
+        "lonStart": -118.30260298,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 28.2
+      }
+    ],
+    "id": 15373
+  }
+]

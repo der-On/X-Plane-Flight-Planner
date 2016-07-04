@@ -1,0 +1,65 @@
+[
+  {
+    "type": 1,
+    "icao": "UTSL",
+    "lat": 38.833635,
+    "lon": 52.3718225,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12517,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 13160,
+        "name": "APP"
+      }
+    ],
+    "elevation": 1365,
+    "tower": true,
+    "name": "KARSHI KHANABAD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 40.23,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 38.831067,
+        "lonStart": 65.907442,
+        "latEnd": 38.836203,
+        "lonEnd": 65.935489,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 13250
+  },
+  {
+    "type": 1,
+    "icao": "UT1N",
+    "lat": 38.8018515,
+    "lon": 52.2798915,
+    "communications": [],
+    "elevation": 1194,
+    "tower": false,
+    "name": "KARSHI SOUTH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 43.89,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 38.814117,
+        "lonStart": 65.770197,
+        "latEnd": 38.789586,
+        "lonEnd": 65.77925,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 13251
+  }
+]

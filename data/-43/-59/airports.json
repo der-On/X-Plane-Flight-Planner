@@ -1,0 +1,70 @@
+[
+  {
+    "type": 1,
+    "icao": "SCST",
+    "lat": -42.4902765,
+    "lon": -58.13461099999999,
+    "communications": [],
+    "elevation": 145,
+    "tower": false,
+    "name": "Gamboa",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -42.485998,
+        "lonStart": -73.774667,
+        "latEnd": -42.494555,
+        "lonEnd": -73.770896,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10285
+  },
+  {
+    "type": 1,
+    "icao": "SCPQ",
+    "lat": -42.34041111,
+    "lon": -58.032027774999996,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 12130,
+        "name": "Puerto Montt Radar"
+      },
+      {
+        "type": 54,
+        "frequency": 11840,
+        "name": "ChiloC) Tower"
+      },
+      {
+        "type": 53,
+        "frequency": 12160,
+        "name": "Ground Control"
+      }
+    ],
+    "elevation": 528,
+    "tower": true,
+    "name": "Mocopulli",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -42.33143611,
+        "lonStart": -73.71466944,
+        "latEnd": -42.34938611,
+        "lonEnd": -73.71664722,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17339
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "type": 1,
+    "icao": "VEGT",
+    "lat": 26.1060905,
+    "lon": 58.8490695,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12660,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11875,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12330,
+        "name": "APP"
+      }
+    ],
+    "elevation": 162,
+    "tower": true,
+    "name": "GUWAHATI INTL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 26.094675,
+        "lonStart": 91.580633,
+        "latEnd": 26.117506,
+        "lonEnd": 91.591247,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10237
+  },
+  {
+    "type": 1,
+    "icao": "VQGP",
+    "lat": 26.88458,
+    "lon": 58.669434885,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12265,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 983,
+    "tower": true,
+    "name": "Gelephu",
+    "runways": [
+      {
+        "type": 100,
+        "width": 35,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 26.88777633,
+        "lonStart": 90.4574861,
+        "latEnd": 26.88138367,
+        "lonEnd": 90.47081352,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10373
+  },
+  {
+    "type": 1,
+    "icao": "VE44",
+    "lat": 26.704622999999998,
+    "lon": 58.02922,
+    "communications": [],
+    "elevation": 340,
+    "tower": false,
+    "name": "HASHIMARA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "11R",
+        "numberEnd": "29L",
+        "latStart": 26.701728,
+        "lonStart": 89.355847,
+        "latEnd": 26.694836,
+        "lonEnd": 89.382308,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 33.53,
+        "surfaceType": null,
+        "numberStart": "10L",
+        "numberEnd": "28R",
+        "latStart": 26.713206,
+        "lonStart": 89.357475,
+        "latEnd": 26.708722,
+        "lonEnd": 89.375039,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11040
+  }
+]

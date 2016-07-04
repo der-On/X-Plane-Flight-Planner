@@ -1,0 +1,142 @@
+[
+  {
+    "type": 1,
+    "icao": "LFBD",
+    "lat": 44.830684334,
+    "lon": 17.501903516,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13115,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "Ground"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 11860,
+        "name": "Approach"
+      }
+    ],
+    "elevation": 166,
+    "tower": true,
+    "name": "Bordeaux Merignac",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 44.8192187,
+        "lonStart": -0.72896149,
+        "latEnd": 44.83874314,
+        "lonEnd": -0.70095469,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 44.83162304,
+        "lonStart": -0.72924702,
+        "latEnd": 44.82546392,
+        "lonEnd": -0.69985752,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 27.1,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 44.83837287,
+        "lonStart": -0.69648097,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 28
+      }
+    ],
+    "id": 3007
+  },
+  {
+    "type": 1,
+    "icao": "LIDU",
+    "lat": 44.83491894,
+    "lon": 17.664107268,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12300,
+        "name": "Carpi Radio"
+      }
+    ],
+    "elevation": 68,
+    "tower": false,
+    "name": "CARPI Budrione",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.5,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 44.83003087,
+        "lonStart": 10.86915496,
+        "latEnd": 44.83700079,
+        "lonEnd": 10.87356841,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 8,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 44.83606883,
+        "lonStart": 10.87160125,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 8
+      },
+      {
+        "type": 102,
+        "width": 8,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 44.83588681,
+        "lonStart": 10.87148227,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 8
+      },
+      {
+        "type": 102,
+        "width": 20,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 44.8356074,
+        "lonStart": 10.87129707,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20
+      }
+    ],
+    "id": 3696
+  }
+]

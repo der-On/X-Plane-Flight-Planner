@@ -1,0 +1,101 @@
+[
+  {
+    "type": 1,
+    "icao": "UTDD",
+    "lat": 38.543486,
+    "lon": 53.6751565,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12620,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11920,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12710,
+        "name": "APP"
+      }
+    ],
+    "elevation": 2575,
+    "tower": true,
+    "name": "DUSHANBE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 44.81,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 38.543503,
+        "lonStart": 68.806844,
+        "latEnd": 38.543469,
+        "lonEnd": 68.842431,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5913
+  },
+  {
+    "type": 1,
+    "icao": "UT45",
+    "lat": 38.5123265,
+    "lon": 53.5859375,
+    "communications": [],
+    "elevation": 2379,
+    "tower": false,
+    "name": "GISSAR",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49.38,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 38.510925,
+        "lonStart": 68.658147,
+        "latEnd": 38.513728,
+        "lonEnd": 68.686778,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 10013
+  },
+  {
+    "type": 1,
+    "icao": "UT72",
+    "lat": 38.4105595,
+    "lon": 53.172793,
+    "communications": [],
+    "elevation": 1949,
+    "tower": false,
+    "name": "SARIASIYA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 35.05,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 38.416647,
+        "lonStart": 67.941114,
+        "latEnd": 38.404472,
+        "lonEnd": 67.949183,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22083
+  }
+]

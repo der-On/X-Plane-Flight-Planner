@@ -1,0 +1,144 @@
+[
+  {
+    "type": 1,
+    "icao": "MMGL",
+    "lat": 20.524575249999998,
+    "lon": -41.39767475,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12790,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "GUADALAJARA TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11930,
+        "name": "GUADALAJARA APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12080,
+        "name": "GUADALAJARA APP"
+      }
+    ],
+    "elevation": 5016,
+    "tower": true,
+    "name": "Don Miguel Hidalgo Y Costilla Intl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 20.52875,
+        "lonStart": -103.32775,
+        "latEnd": 20.514017,
+        "lonEnd": -103.292633,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 28.65,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 20.520617,
+        "lonStart": -103.311883,
+        "latEnd": 20.534917,
+        "lonEnd": -103.303033,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 6368
+  },
+  {
+    "type": 1,
+    "icao": "MMZM",
+    "lat": 20.045606,
+    "lon": -41.117861999999995,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12280,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 5141,
+    "tower": false,
+    "name": "ZAMORA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 20.052286,
+        "lonStart": -102.27465,
+        "latEnd": 20.038926,
+        "lonEnd": -102.276761,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 27827
+  },
+  {
+    "type": 1,
+    "icao": "MMZP",
+    "lat": 20.755909000000003,
+    "lon": -41.359553749999996,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12620,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 5333,
+    "tower": true,
+    "name": "ZAPOPAN",
+    "runways": [
+      {
+        "type": 100,
+        "width": 41.45,
+        "surfaceType": null,
+        "numberStart": "08R",
+        "numberEnd": "26L",
+        "latStart": 20.751297,
+        "lonStart": -103.476306,
+        "latEnd": 20.75005,
+        "lonEnd": -103.450425,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 28.96,
+        "surfaceType": null,
+        "numberStart": "08L",
+        "numberEnd": "26R",
+        "latStart": 20.761517,
+        "lonStart": -103.472731,
+        "latEnd": 20.760772,
+        "lonEnd": -103.461233,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 27832
+  }
+]
