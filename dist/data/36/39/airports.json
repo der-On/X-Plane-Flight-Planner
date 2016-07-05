@@ -1,0 +1,81 @@
+[
+  {
+    "type": 1,
+    "icao": "ORBM",
+    "lat": 36.305761000000004,
+    "lon": 39.7182485,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12725,
+        "name": "INFO"
+      },
+      {
+        "type": 53,
+        "frequency": 13282,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12020,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11945,
+        "name": "APP"
+      }
+    ],
+    "elevation": 709,
+    "tower": true,
+    "name": "Mosul",
+    "runways": [
+      {
+        "type": 100,
+        "width": 44.81,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 36.3168,
+        "lonStart": 43.141775,
+        "latEnd": 36.294722,
+        "lonEnd": 43.153025,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 17572
+  },
+  {
+    "type": 1,
+    "icao": "ORTF",
+    "lat": 36.283116500000006,
+    "lon": 39.3324875,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11870,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 996,
+    "tower": true,
+    "name": "TALL AFAR",
+    "runways": [
+      {
+        "type": 100,
+        "width": 44.81,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 36.293244,
+        "lonStart": 42.391986,
+        "latEnd": 36.272989,
+        "lonEnd": 42.4141,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 24559
+  }
+]

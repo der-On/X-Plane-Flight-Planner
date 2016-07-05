@@ -1,0 +1,98 @@
+[
+  {
+    "type": 1,
+    "icao": "HL60",
+    "lat": 32.5252865,
+    "lon": 26.6959305,
+    "communications": [],
+    "elevation": 950,
+    "tower": false,
+    "name": "AL MARJ",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 32.530456,
+        "lonStart": 20.871744,
+        "latEnd": 32.520117,
+        "lonEnd": 20.878353,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 160
+  },
+  {
+    "type": 1,
+    "icao": "HLLB",
+    "lat": 32.09685975,
+    "lon": 26.171465249999997,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12130,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12700,
+        "name": "ARR"
+      },
+      {
+        "type": 55,
+        "frequency": 12650,
+        "name": "BENGHAZI APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12920,
+        "name": "BENGHAZI APP"
+      },
+      {
+        "type": 56,
+        "frequency": 12700,
+        "name": "DEP"
+      }
+    ],
+    "elevation": 433,
+    "tower": true,
+    "name": "BENINA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "15L",
+        "numberEnd": "33R",
+        "latStart": 32.111581,
+        "lonStart": 20.261494,
+        "latEnd": 32.083517,
+        "lonEnd": 20.280158,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "15R",
+        "numberEnd": "33L",
+        "latStart": 32.110194,
+        "lonStart": 20.258703,
+        "latEnd": 32.082147,
+        "lonEnd": 20.277397,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1648
+  }
+]

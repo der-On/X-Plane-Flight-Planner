@@ -1,0 +1,80 @@
+[
+  {
+    "type": 1,
+    "icao": "WALL",
+    "lat": -1.268272,
+    "lon": 57.8101335,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12760,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11870,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12040,
+        "name": "BALIKPAPAN APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12110,
+        "name": "BALIKPAPAN APP"
+      }
+    ],
+    "elevation": 12,
+    "tower": true,
+    "name": "Balikpapan/Sepinggan",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -1.272661,
+        "lonStart": 116.88415,
+        "latEnd": -1.263883,
+        "lonEnd": 116.904806,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2133
+  },
+  {
+    "type": 1,
+    "icao": "WRLH",
+    "lat": -1.866667,
+    "lon": 57.175501634999996,
+    "communications": [],
+    "elevation": 44,
+    "tower": false,
+    "name": "Tanah Grogot (Local Gov)",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -1.86904249,
+        "lonStart": 116.21529478,
+        "latEnd": -1.86429151,
+        "lonEnd": 116.21803922,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 25022
+  }
+]

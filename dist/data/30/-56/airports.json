@@ -1,0 +1,101 @@
+[
+  {
+    "type": 1,
+    "icao": "KAUS",
+    "lat": 30.191612195,
+    "lon": -55.05004721166666,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12887,
+        "name": "ASOS"
+      },
+      {
+        "type": 50,
+        "frequency": 12440,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 12550,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12100,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 541,
+    "tower": true,
+    "name": "Austin Bergstrom Intl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "17R",
+        "numberEnd": "35L",
+        "latStart": 30.213614,
+        "lonStart": -97.679364,
+        "latEnd": 30.179947,
+        "lonEnd": -97.678475,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "17L",
+        "numberEnd": "35R",
+        "latStart": 30.203831,
+        "lonStart": -97.657892,
+        "latEnd": 30.179092,
+        "lonEnd": -97.657244,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 11.9,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 30.18549591,
+        "lonStart": -97.66100098,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.9
+      },
+      {
+        "type": 102,
+        "width": 11.9,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 30.18769326,
+        "lonStart": -97.66106529,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.9
+      }
+    ],
+    "id": 1343
+  }
+]

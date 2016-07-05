@@ -1,0 +1,249 @@
+[
+  {
+    "type": 1,
+    "icao": "KVNY",
+    "lat": 34.209706861,
+    "lon": -87.95317073599999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11845,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 11930,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 12660,
+        "name": "DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12020,
+        "name": "TWR (16L/34R)"
+      },
+      {
+        "type": 54,
+        "frequency": 11930,
+        "name": "TWR (16R/34L)"
+      },
+      {
+        "type": 54,
+        "frequency": 11900,
+        "name": "TWR (HELI)"
+      },
+      {
+        "type": 55,
+        "frequency": 12460,
+        "name": "SOCAL APP/DEP (SE)"
+      },
+      {
+        "type": 55,
+        "frequency": 13420,
+        "name": "SOCAL APP/DEP (SW)"
+      },
+      {
+        "type": 55,
+        "frequency": 13505,
+        "name": "SOCAL APP/DEP (E)"
+      },
+      {
+        "type": 56,
+        "frequency": 12040,
+        "name": "SOCAL APP/DEP (N)"
+      }
+    ],
+    "elevation": 801,
+    "tower": true,
+    "name": "Van Nuys",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "16R",
+        "numberEnd": "34L",
+        "latStart": 34.218908,
+        "lonStart": -118.491236,
+        "latEnd": 34.196992,
+        "lonEnd": -118.489167,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "16L",
+        "numberEnd": "34R",
+        "latStart": 34.218989,
+        "lonStart": -118.49,
+        "latEnd": 34.208003,
+        "lonEnd": -118.488961,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 11.9,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.21860482,
+        "lonStart": -118.49890222,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.9
+      },
+      {
+        "type": 102,
+        "width": 11.9,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 34.21791549,
+        "lonStart": -118.49876287,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.9
+      },
+      {
+        "type": 102,
+        "width": 11.9,
+        "surfaceType": 1,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 34.20511302,
+        "lonStart": -118.49177012,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.9
+      },
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 1,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 34.19708955,
+        "lonStart": -118.49043451,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      },
+      {
+        "type": 102,
+        "width": 14,
+        "surfaceType": 1,
+        "numberStart": "H5",
+        "numberEnd": null,
+        "latStart": 34.21572414,
+        "lonStart": -118.4879718,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14
+      },
+      {
+        "type": 102,
+        "width": 11.9,
+        "surfaceType": 1,
+        "numberStart": "H6",
+        "numberEnd": null,
+        "latStart": 34.19972959,
+        "lonStart": -118.48762484,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.9
+      }
+    ],
+    "id": 26203
+  },
+  {
+    "type": 17,
+    "icao": "AL22",
+    "lat": 34.79397666,
+    "lon": -87.68336223,
+    "communications": [],
+    "elevation": 581,
+    "tower": false,
+    "name": "[H] Eliza Coffee Memorial Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.79397666,
+        "lonStart": -87.68336223,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 29522
+  },
+  {
+    "type": 17,
+    "icao": "AL53",
+    "lat": 34.7462,
+    "lon": -87.67641806,
+    "communications": [],
+    "elevation": 500,
+    "tower": false,
+    "name": "[H] Humana Hospital Shoals",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.7462,
+        "lonStart": -87.67641806,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 30416
+  },
+  {
+    "type": 17,
+    "icao": "AL86",
+    "lat": 34.48398388,
+    "lon": -87.28640862,
+    "communications": [],
+    "elevation": 648,
+    "tower": false,
+    "name": "[H] Lawrence County Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.48398388,
+        "lonStart": -87.28640862,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 30852
+  }
+]

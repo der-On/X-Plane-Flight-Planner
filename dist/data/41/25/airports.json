@@ -1,0 +1,112 @@
+[
+  {
+    "type": 1,
+    "icao": "2051",
+    "lat": 41.367828,
+    "lon": 25.313615,
+    "communications": [],
+    "elevation": 8,
+    "tower": true,
+    "name": "Cavallo",
+    "runways": [
+      {
+        "type": 100,
+        "width": 7.92,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 41.367979,
+        "lonStart": 9.259553,
+        "latEnd": 41.367677,
+        "lonEnd": 9.267205,
+        "length": 0,
+        "surfacetype": 14
+      }
+    ],
+    "id": 4670
+  },
+  {
+    "type": 1,
+    "icao": "LFKF",
+    "lat": 41.502064000000004,
+    "lon": 25.297802500000003,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11872,
+        "name": "LFKF ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "FIGARI GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12030,
+        "name": "FIGARI TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12105,
+        "name": "AJACCIO APP"
+      }
+    ],
+    "elevation": 87,
+    "tower": true,
+    "name": "Figari Sud Corse",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 41.494527,
+        "lonStart": 9.086004,
+        "latEnd": 41.509601,
+        "lonEnd": 9.107916,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 9276
+  },
+  {
+    "type": 1,
+    "icao": "LFKO",
+    "lat": 41.660655,
+    "lon": 25.270734499999996,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 11850,
+        "name": "PROPRIANO MULT"
+      },
+      {
+        "type": 55,
+        "frequency": 12105,
+        "name": "AJACCIO APP"
+      }
+    ],
+    "elevation": 12,
+    "tower": true,
+    "name": "Propriano",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 41.661234,
+        "lonStart": 8.881393,
+        "latEnd": 41.660076,
+        "lonEnd": 8.898129,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 20564
+  }
+]

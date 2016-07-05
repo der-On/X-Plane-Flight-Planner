@@ -1,0 +1,80 @@
+[
+  {
+    "type": 1,
+    "icao": "SCSH",
+    "lat": -39.0631605,
+    "lon": -56.115891000000005,
+    "communications": [],
+    "elevation": 60,
+    "tower": false,
+    "name": "El Budi",
+    "runways": [
+      {
+        "type": 100,
+        "width": 28.04,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": -39.066363,
+        "lonStart": -73.171824,
+        "latEnd": -39.059958,
+        "lonEnd": -73.166282,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7031
+  },
+  {
+    "type": 1,
+    "icao": "SCVD",
+    "lat": -39.6499555,
+    "lon": -56.37295521,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12180,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11920,
+        "name": "APP"
+      },
+      {
+        "type": 51,
+        "frequency": 11820,
+        "name": "MULT"
+      },
+      {
+        "type": 50,
+        "frequency": 12770,
+        "name": "AFIS"
+      }
+    ],
+    "elevation": 59,
+    "tower": true,
+    "name": "Pichoy",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -39.6405391,
+        "lonStart": -73.08653852,
+        "latEnd": -39.6593719,
+        "lonEnd": -73.08568425,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20093
+  }
+]

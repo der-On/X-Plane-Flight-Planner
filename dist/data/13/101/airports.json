@@ -1,0 +1,124 @@
+[
+  {
+    "type": 1,
+    "icao": "PGUA",
+    "lat": 13.58463449,
+    "lon": 101.14293375333334,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11817,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12620,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11870,
+        "name": "GUAM APP/DEP"
+      }
+    ],
+    "elevation": 625,
+    "tower": true,
+    "name": "ANDERSEN AFB",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "06R",
+        "numberEnd": "24L",
+        "latStart": 13.57533301,
+        "lonStart": 144.916486,
+        "latEnd": 13.58796101,
+        "lonEnd": 144.945297,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "06L",
+        "numberEnd": "24R",
+        "latStart": 13.58034501,
+        "lonStart": 144.915589,
+        "latEnd": 13.59222501,
+        "lonEnd": 144.942731,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 48.1,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 13.58653156,
+        "lonStart": 144.92298438,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 42.3
+      },
+      {
+        "type": 102,
+        "width": 51,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 13.58541134,
+        "lonStart": 144.92235712,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 44.9
+      }
+    ],
+    "id": 301
+  },
+  {
+    "type": 17,
+    "icao": "HI47",
+    "lat": 13.49805585,
+    "lon": 101.03593025333335,
+    "communications": [],
+    "elevation": 80,
+    "tower": false,
+    "name": "[H] Big Eye",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.01,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 13.49833016,
+        "lonStart": 144.80500892,
+        "latEnd": 13.49778184,
+        "lonEnd": 144.80499108,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 39,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 13.49805555,
+        "lonStart": 144.805,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 61
+      }
+    ],
+    "id": 28464
+  }
+]

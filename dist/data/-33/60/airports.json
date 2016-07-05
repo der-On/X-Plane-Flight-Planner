@@ -1,0 +1,179 @@
+[
+  {
+    "type": 1,
+    "icao": "YPJT",
+    "lat": -32.098374682499994,
+    "lon": 60.38597278,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12090,
+        "name": "YPJT ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 11810,
+        "name": "JANDAKOT MULTICOM"
+      },
+      {
+        "type": 51,
+        "frequency": 12390,
+        "name": "ACTIVATE LIGHTS ONLY MULTICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 13294,
+        "name": "PERTH CLNC"
+      },
+      {
+        "type": 53,
+        "frequency": 12430,
+        "name": "JANDAKOT GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "JANDAKOT TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12370,
+        "name": "PERTH APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12810,
+        "name": "PERTH APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12750,
+        "name": "PERTH APP"
+      },
+      {
+        "type": 56,
+        "frequency": 11870,
+        "name": "PERTH DEP"
+      },
+      {
+        "type": 56,
+        "frequency": 12810,
+        "name": "PERTH DEP"
+      }
+    ],
+    "elevation": 99,
+    "tower": true,
+    "name": "Jandakot",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -32.09996601,
+        "lonStart": 115.87247748,
+        "latEnd": -32.10364979,
+        "lonEnd": 115.88201977,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "06L",
+        "numberEnd": "24R",
+        "latStart": -32.10060094,
+        "lonStart": 115.87356691,
+        "latEnd": -32.09329963,
+        "lonEnd": 115.88556105,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 18.9,
+        "surfaceType": null,
+        "numberStart": "06R",
+        "numberEnd": "24L",
+        "latStart": -32.10087893,
+        "lonStart": 115.87692633,
+        "latEnd": -32.09486436,
+        "lonEnd": 115.88683147,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 17.07,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -32.09708727,
+        "lonStart": 115.87794972,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.85
+      },
+      {
+        "type": 102,
+        "width": 10.06,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": -32.09665053,
+        "lonStart": 115.87867558,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.06
+      }
+    ],
+    "id": 12905
+  },
+  {
+    "type": 1,
+    "icao": "YTNC",
+    "lat": -32.2027371475,
+    "lon": 60.13763651749999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12650,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 22,
+    "tower": false,
+    "name": "Tuncurry",
+    "runways": [
+      {
+        "type": 100,
+        "width": 110.95,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -32.20581898,
+        "lonStart": 152.47384151,
+        "latEnd": -32.1984673,
+        "lonEnd": 152.48912202,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 34.14,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -32.19902108,
+        "lonStart": 152.48281309,
+        "latEnd": -32.20764123,
+        "lonEnd": 152.4885016,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 25693
+  }
+]

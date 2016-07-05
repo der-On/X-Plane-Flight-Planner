@@ -1,0 +1,149 @@
+[
+  {
+    "type": 1,
+    "icao": "SADO",
+    "lat": -34.53457922,
+    "lon": -50.62970441666666,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12450,
+        "name": "Campo de Mayo GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12380,
+        "name": "Campo de Mayo TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11850,
+        "name": "Campo de Mayo TWR AUX"
+      }
+    ],
+    "elevation": 78,
+    "tower": true,
+    "name": "Campo de Mayo",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -34.52642432,
+        "lonStart": -58.67248176,
+        "latEnd": -34.54224325,
+        "lonEnd": -58.67144177,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 2,
+        "numberStart": "H5",
+        "numberEnd": null,
+        "latStart": -34.53507009,
+        "lonStart": -58.67438824,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.9
+      }
+    ],
+    "id": 4425
+  },
+  {
+    "type": 1,
+    "icao": "SADP",
+    "lat": -34.60861941333334,
+    "lon": -50.612169103333336,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11890,
+        "name": "Palomar TWR AUX"
+      },
+      {
+        "type": 54,
+        "frequency": 12030,
+        "name": "Palomar TWR"
+      }
+    ],
+    "elevation": 59,
+    "tower": true,
+    "name": "El Palomar",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49.07,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -34.60119451,
+        "lonStart": -58.61715117,
+        "latEnd": -34.61863283,
+        "lonEnd": -58.60807214,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 21,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": -34.6060309,
+        "lonStart": -58.60072331,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21
+      }
+    ],
+    "id": 7048
+  },
+  {
+    "type": 1,
+    "icao": "SADQ",
+    "lat": -34.707800436666666,
+    "lon": -50.40160382666667,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12220,
+        "name": "Quilmes TWR"
+      }
+    ],
+    "elevation": 7,
+    "tower": true,
+    "name": "Quilmes",
+    "runways": [
+      {
+        "type": 100,
+        "width": 36.88,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -34.70113285,
+        "lonStart": -58.24534241,
+        "latEnd": -34.71228654,
+        "lonEnd": -58.24367548,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 102,
+        "width": 9.14,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -34.70998192,
+        "lonStart": -58.24718253,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.14
+      }
+    ],
+    "id": 20713
+  }
+]

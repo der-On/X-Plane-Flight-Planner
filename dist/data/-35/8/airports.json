@@ -1,0 +1,73 @@
+[
+  {
+    "type": 1,
+    "icao": "FAGG",
+    "lat": -34.00357832,
+    "lon": 8.27907429,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11890,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12820,
+        "name": "APP"
+      },
+      {
+        "type": 53,
+        "frequency": 12265,
+        "name": "Ground"
+      },
+      {
+        "type": 51,
+        "frequency": 12622,
+        "name": "ATIS"
+      }
+    ],
+    "elevation": 647,
+    "tower": true,
+    "name": "George",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -34.005875,
+        "lonStart": 22.367706,
+        "latEnd": -34.005189,
+        "lonEnd": 22.389325,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 10,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": -34.00162464,
+        "lonStart": 22.37670192,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10
+      },
+      {
+        "type": 102,
+        "width": 10,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -34.00162464,
+        "lonStart": 22.37707824,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10
+      }
+    ],
+    "id": 10403
+  }
+]

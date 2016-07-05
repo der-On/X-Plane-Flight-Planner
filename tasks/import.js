@@ -7,9 +7,8 @@ var rimraf = require('rimraf');
 var path = require('path');
 var parser = require('../lib/apt_nav/parser')();
 var xplaneDir = process.env.XPLANE_DIR || null;
-var dataPath = path.join(__dirname, '../data');
-var searchIndexPath = path.join(__dirname, '../search_index');
-var bson = require('bson');
+var dataPath = path.join(__dirname, '../dist/data');
+var searchIndexPath = path.join(__dirname, '../dist/search_index');
 var ucfirst = require('../lib/utils/ucfirst');
 var property = require('lodash/property');
 
@@ -54,6 +53,7 @@ function mapLatLonToSelectors(data, selectors) {
 
       data[key].push({
         id: item.id,
+        label: key,
         lat: item.lat,
         lon: item.lon
       });

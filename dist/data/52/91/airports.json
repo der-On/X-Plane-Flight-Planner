@@ -1,0 +1,83 @@
+[
+  {
+    "type": 1,
+    "icao": "UIII",
+    "lat": 52.2657710475,
+    "lon": 91.33874810750001,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12485,
+        "name": "ATIS"
+      },
+      {
+        "type": 50,
+        "frequency": 12690,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "TAXIING"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12400,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12520,
+        "name": "APP"
+      }
+    ],
+    "elevation": 1675,
+    "tower": true,
+    "name": "Irkutsk",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 52.2721693,
+        "lonStart": 104.37435732,
+        "latEnd": 52.26070543,
+        "lonEnd": 104.41703024,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 20.12,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 52.26561007,
+        "lonStart": 104.35939859,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.12
+      },
+      {
+        "type": 102,
+        "width": 21.95,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 52.26459939,
+        "lonStart": 104.36053109,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.12
+      }
+    ],
+    "id": 12550
+  }
+]

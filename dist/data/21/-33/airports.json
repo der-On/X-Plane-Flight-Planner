@@ -1,0 +1,93 @@
+[
+  {
+    "type": 1,
+    "icao": "MMUN",
+    "lat": 21.042287,
+    "lon": -32.92573425,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12770,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12320,
+        "name": "Radio Ground Control"
+      },
+      {
+        "type": 54,
+        "frequency": 11860,
+        "name": "Radio Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12110,
+        "name": "Radio Approach"
+      },
+      {
+        "type": 56,
+        "frequency": 12830,
+        "name": "Radio Departure Merida Center"
+      }
+    ],
+    "elevation": 23,
+    "tower": true,
+    "name": "Cancun International",
+    "runways": [
+      {
+        "type": 100,
+        "width": 57.91,
+        "surfaceType": null,
+        "numberStart": "12R",
+        "numberEnd": "30L",
+        "latStart": 21.045298,
+        "lonStart": -86.890988,
+        "latEnd": 21.027808,
+        "lonEnd": -86.863044,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "12L",
+        "numberEnd": "30R",
+        "latStart": 21.054964,
+        "lonStart": -86.880835,
+        "latEnd": 21.041078,
+        "lonEnd": -86.858463,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4448
+  },
+  {
+    "type": 1,
+    "icao": "MMIM",
+    "lat": 21.245033499999998,
+    "lon": -32.750716499999996,
+    "communications": [],
+    "elevation": 7,
+    "tower": false,
+    "name": "ISLA MUJERES",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 21.249267,
+        "lonStart": -86.742233,
+        "latEnd": 21.2408,
+        "lonEnd": -86.7377,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12355
+  }
+]

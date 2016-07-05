@@ -1,0 +1,62 @@
+[
+  {
+    "type": 1,
+    "icao": "FAEL",
+    "lat": -33.036131749999996,
+    "lon": -2.6082782499999997,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12665,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12265,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12010,
+        "name": "APP"
+      }
+    ],
+    "elevation": 435,
+    "tower": true,
+    "name": "East London",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -33.037211,
+        "lonStart": 27.811922,
+        "latEnd": -33.034769,
+        "lonEnd": 27.832475,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -33.041978,
+        "lonStart": 27.820303,
+        "latEnd": -33.030569,
+        "lonEnd": 27.830503,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 6911
+  }
+]

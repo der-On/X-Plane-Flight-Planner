@@ -1,0 +1,81 @@
+[
+  {
+    "type": 1,
+    "icao": "OAIX",
+    "lat": 34.946139,
+    "lon": 52.107486,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13425,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12590,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11850,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 13335,
+        "name": "APP"
+      }
+    ],
+    "elevation": 4895,
+    "tower": true,
+    "name": "BAGRAM",
+    "runways": [
+      {
+        "type": 100,
+        "width": 54.86,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 34.934306,
+        "lonStart": 69.257,
+        "latEnd": 34.957972,
+        "lonEnd": 69.272944,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 1431
+  },
+  {
+    "type": 1,
+    "icao": "OAJL",
+    "lat": 34.39984,
+    "lon": 52.4414195,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11850,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 1814,
+    "tower": true,
+    "name": "JALALABAD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 34.406444,
+        "lonStart": 70.489603,
+        "latEnd": 34.393236,
+        "lonEnd": 70.507647,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12682
+  }
+]

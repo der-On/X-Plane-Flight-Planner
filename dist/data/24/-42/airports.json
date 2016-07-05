@@ -1,0 +1,96 @@
+[
+  {
+    "type": 1,
+    "icao": "MM30",
+    "lat": 24.6585,
+    "lon": -41.448083499999996,
+    "communications": [],
+    "elevation": 42,
+    "tower": false,
+    "name": "CAMPO GOBIERNO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.75,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 24.655361,
+        "lonStart": -107.557806,
+        "latEnd": 24.661639,
+        "lonEnd": -107.546703,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3602
+  },
+  {
+    "type": 1,
+    "icao": "MM50",
+    "lat": 24.420568000000003,
+    "lon": -41.144714,
+    "communications": [],
+    "elevation": 250,
+    "tower": false,
+    "name": "COSALA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.63,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 24.424817,
+        "lonStart": -106.705747,
+        "latEnd": 24.416319,
+        "lonEnd": -106.698422,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4178
+  },
+  {
+    "type": 1,
+    "icao": "MMCL",
+    "lat": 24.765658000000002,
+    "lon": -41.353966,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12780,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11850,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11975,
+        "name": "APP"
+      }
+    ],
+    "elevation": 107,
+    "tower": true,
+    "name": "CULIACAN INTL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 24.756947,
+        "lonStart": -107.482301,
+        "latEnd": 24.774369,
+        "lonEnd": -107.469911,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4266
+  }
+]

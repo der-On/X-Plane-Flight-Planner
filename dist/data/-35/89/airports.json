@@ -1,0 +1,96 @@
+[
+  {
+    "type": 1,
+    "icao": "YSCN",
+    "lat": -34.03979369333334,
+    "lon": 89.10928882833333,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12510,
+        "name": "YSCN ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12010,
+        "name": "CAMDEN MULT"
+      },
+      {
+        "type": 51,
+        "frequency": 12060,
+        "name": "ACTIVATE LIGHTS ONLY MULT"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "CAMDEN GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12010,
+        "name": "CAMDEN TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12455,
+        "name": "SYDNEY APP"
+      }
+    ],
+    "elevation": 229,
+    "tower": true,
+    "name": "Camden",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.22,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -34.04061756,
+        "lonStart": 150.68059552,
+        "latEnd": -34.03500485,
+        "lonEnd": 150.69494654,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 91,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -34.04140417,
+        "lonStart": 150.68141641,
+        "latEnd": -34.04392357,
+        "lonEnd": 150.68932272,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 20,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -34.03656678,
+        "lonStart": 150.6872679,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20
+      },
+      {
+        "type": 102,
+        "width": 30,
+        "surfaceType": 3,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": -34.04124523,
+        "lonStart": 150.68538156,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30
+      }
+    ],
+    "id": 4380
+  }
+]

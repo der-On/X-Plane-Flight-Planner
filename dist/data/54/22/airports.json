@@ -1,0 +1,71 @@
+[
+  {
+    "type": 1,
+    "icao": "EIBT",
+    "lat": 54.226944,
+    "lon": 22.092602915,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12360,
+        "name": "Belmullet Radio"
+      }
+    ],
+    "elevation": 148,
+    "tower": false,
+    "name": "Belmullet",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 54.2258994,
+        "lonStart": -10.04278277,
+        "latEnd": 54.2279886,
+        "lonEnd": -10.03610485,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 2522
+  },
+  {
+    "type": 1,
+    "icao": "EISG",
+    "lat": 54.280211135,
+    "lon": 22.83566238,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12210,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 11,
+    "tower": true,
+    "name": "Sligo",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 54.28114725,
+        "lonStart": -8.60795026,
+        "latEnd": 54.27927502,
+        "lonEnd": -8.59044115,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 23707
+  }
+]

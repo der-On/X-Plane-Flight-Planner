@@ -1,0 +1,86 @@
+[
+  {
+    "type": 1,
+    "icao": "PAEN",
+    "lat": 60.57265284333334,
+    "lon": -80.63725629666668,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13335,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12130,
+        "name": "CTAF"
+      },
+      {
+        "type": 53,
+        "frequency": 11875,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12130,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 99,
+    "tower": true,
+    "name": "Kenai Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "01L",
+        "numberEnd": "19R",
+        "latStart": 60.56306537,
+        "lonStart": -151.25849723,
+        "latEnd": 60.58147131,
+        "lonEnd": -151.23597012,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "01R",
+        "numberEnd": "19L",
+        "latStart": 60.57499152,
+        "lonStart": -151.23835377,
+        "latEnd": 60.57967752,
+        "lonEnd": -151.23261477,
+        "length": 0,
+        "surfacetype": 5
+      },
+      {
+        "type": 102,
+        "width": 35.9,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 60.56605155,
+        "lonStart": -151.24674902,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 37
+      },
+      {
+        "type": 102,
+        "width": 38.1,
+        "surfaceType": 15,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 60.57065979,
+        "lonStart": -151.24108659,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 39.6
+      }
+    ],
+    "id": 13745
+  }
+]

@@ -1,0 +1,109 @@
+[
+  {
+    "type": 1,
+    "icao": "LERT",
+    "lat": 36.6423755625,
+    "lon": 15.1451514875,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 13070,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11975,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12850,
+        "name": "SEVILLA APP"
+      },
+      {
+        "type": 54,
+        "frequency": 34115,
+        "name": "TWR HEL"
+      },
+      {
+        "type": 50,
+        "frequency": 26760,
+        "name": "ATIS"
+      }
+    ],
+    "elevation": 86,
+    "tower": true,
+    "name": "CADIZ ROTA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.65,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 36.6399177,
+        "lonStart": -6.33181914,
+        "latEnd": 36.63917946,
+        "lonEnd": -6.32564683,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 62.58,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 36.64719499,
+        "lonStart": -6.36996447,
+        "latEnd": 36.6432101,
+        "lonEnd": -6.32899844,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3524
+  },
+  {
+    "type": 1,
+    "icao": "LXGB",
+    "lat": 36.15116897,
+    "lon": 15.395854579999998,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13120,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12280,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 13040,
+        "name": "RDR"
+      }
+    ],
+    "elevation": 15,
+    "tower": true,
+    "name": "LXGB Gibraltar",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 36.15081881,
+        "lonStart": -5.35980997,
+        "latEnd": 36.15151913,
+        "lonEnd": -5.33969789,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14684
+  }
+]

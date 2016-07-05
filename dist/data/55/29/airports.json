@@ -1,0 +1,79 @@
+[
+  {
+    "type": 1,
+    "icao": "EKRK",
+    "lat": 55.586431984,
+    "lon": 29.50663069,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12380,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11890,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11965,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12552,
+        "name": "APP"
+      },
+      {
+        "type": 53,
+        "frequency": 13322,
+        "name": "Handling Ground"
+      }
+    ],
+    "elevation": 145,
+    "tower": true,
+    "name": "Copenhagen Roskilde INT",
+    "runways": [
+      {
+        "type": 100,
+        "width": 32,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 55.58999899,
+        "lonStart": 12.1155563,
+        "latEnd": 55.58282101,
+        "lonEnd": 12.1412317,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 32,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 55.57838802,
+        "lonStart": 12.12383107,
+        "latEnd": 55.58997398,
+        "lonEnd": 12.13608493,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 40.4,
+        "surfaceType": 1,
+        "numberStart": "H6",
+        "numberEnd": null,
+        "latStart": 55.59097792,
+        "lonStart": 12.12097109,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 41.3
+      }
+    ],
+    "id": 5312
+  }
+]
