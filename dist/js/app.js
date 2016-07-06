@@ -49,8 +49,8 @@ var Main = function Main() {
 
 exports.default = Main;
 
-},{"./Map":2,"./MenuBar":3,"./Sidebar":5,"material-ui/styles/MuiThemeProvider":306,"material-ui/styles/getMuiTheme":309,"react":534}],2:[function(require,module,exports){
-"use strict";
+},{"./Map":2,"./MenuBar":3,"./Sidebar":5,"material-ui/styles/MuiThemeProvider":381,"material-ui/styles/getMuiTheme":384,"react":654}],2:[function(require,module,exports){
+'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -58,9 +58,13 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = require("react");
+var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
+
+var _reactLeaflet = require('react-leaflet');
+
+var _reactLeaflet2 = _interopRequireDefault(_reactLeaflet);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -80,9 +84,9 @@ var Map = function (_React$Component) {
   }
 
   _createClass(Map, [{
-    key: "render",
+    key: 'render',
     value: function render() {
-      return _react2.default.createElement("div", { className: "main-map" });
+      return _react2.default.createElement('div', { className: 'main-map' });
     }
   }]);
 
@@ -92,7 +96,7 @@ var Map = function (_React$Component) {
 exports.default = Map;
 ;
 
-},{"react":534}],3:[function(require,module,exports){
+},{"react":654,"react-leaflet":460}],3:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -122,7 +126,7 @@ var MenuBar = function MenuBar() {
 
 exports.default = MenuBar;
 
-},{"./Search":4,"material-ui/AppBar":216,"react":534}],4:[function(require,module,exports){
+},{"./Search":4,"material-ui/AppBar":291,"react":654}],4:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -139,9 +143,9 @@ var _AutoComplete = require('material-ui/AutoComplete');
 
 var _AutoComplete2 = _interopRequireDefault(_AutoComplete);
 
-var _search = require('../../search');
+var _FontIcon = require('material-ui/FontIcon');
 
-var _search2 = _interopRequireDefault(_search);
+var _FontIcon2 = _interopRequireDefault(_FontIcon);
 
 var _property = require('lodash/property');
 
@@ -154,6 +158,10 @@ var _flow2 = _interopRequireDefault(_flow);
 var _debounce = require('lodash/debounce');
 
 var _debounce2 = _interopRequireDefault(_debounce);
+
+var _reactRedux = require('react-redux');
+
+var _actions = require('../state/actions');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -182,51 +190,20 @@ var Search = function (_React$Component) {
   function Search(props) {
     _classCallCheck(this, Search);
 
-    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Search).call(this, props));
-
-    _this.state = {
-      loading: true,
-      dataSource: [],
-      results: []
-    };
-
-    _this.navDataSearch = (0, _search2.default)(window.location.href);
-    return _this;
+    return _possibleConstructorReturn(this, Object.getPrototypeOf(Search).call(this, props));
   }
 
   _createClass(Search, [{
     key: 'componentDidMount',
     value: function componentDidMount() {
-      var self = this;
-
-      this.navDataSearch.loadIndex().then(function () {
-        self.setState({
-          loading: false
-        });
-      }).catch(function (error) {
-        console.error(error);
-      });
-
       this.debouncedSearch = (0, _debounce2.default)(this.search.bind(this), 200);
     }
   }, {
     key: 'search',
     value: function search(q) {
-      var self = this;
+      var dispatch = this.props.dispatch;
 
-      this.navDataSearch.find(q).then(function (results) {
-        self.setState({
-          results: [].concat(results.airports.map(attach('type', 'airport')), results.navaids.map(attach('type', 'navaid')), results.fixes.map(attach('type', 'fix'))),
-          dataSource: [].concat(results.airports.map(optionFor('Airport')), results.navaids.map(optionFor('Navaid')), results.fixes.map(optionFor('Fix')))
-        });
-      }).catch(function (error) {
-        console.error(error);
-
-        self.setState({
-          results: [],
-          dataSource: []
-        });
-      });
+      dispatch((0, _actions.setSearchQuery)(q));
     }
   }, {
     key: 'handleUpdateInput',
@@ -236,28 +213,45 @@ var Search = function (_React$Component) {
   }, {
     key: 'handleNewRequest',
     value: function handleNewRequest(value, index) {
+      var results = this.props.results;
+
       // enter was pressed in input
       // use first matching item
+
       if (index === -1) {
         index = 0;
       }
 
-      this.locate(this.state.results[index]);
+      this.locate(results[index]);
     }
   }, {
     key: 'locate',
     value: function locate(item) {
-      console.log(item);
+      var dispatch = this.props.dispatch;
+
+      dispatch((0, _actions.locateNavItem)(item));
     }
   }, {
     key: 'render',
     value: function render() {
+      var _props = this.props;
+      var results = _props.results;
+      var dataSource = _props.dataSource;
+      var indexLoading = _props.indexLoading;
+
+
       return _react2.default.createElement(
         'div',
         { className: 'main-search' },
+        _react2.default.createElement(
+          _FontIcon2.default,
+          { className: 'material-icons main-search-icon' },
+          'search'
+        ),
         _react2.default.createElement(_AutoComplete2.default, {
-          hintText: this.state.loading ? "Loading data ..." : "ICAO, airport name, Fix, Navaid",
-          dataSource: this.state.dataSource,
+          className: 'main-search-input',
+          hintText: indexLoading ? "Loading data ..." : "ICAO, airport name, Fix, Navaid",
+          dataSource: dataSource,
           onUpdateInput: this.handleUpdateInput.bind(this),
           onNewRequest: this.handleNewRequest.bind(this),
           filter: _AutoComplete2.default.noFilter
@@ -269,10 +263,28 @@ var Search = function (_React$Component) {
   return Search;
 }(_react2.default.Component);
 
-exports.default = Search;
 ;
 
-},{"../../search":8,"lodash/debounce":181,"lodash/flow":184,"lodash/property":204,"material-ui/AutoComplete":218,"react":534}],5:[function(require,module,exports){
+function getResults(results) {
+  return [].concat(results.airports.map(attach('type', 'airport')), results.navaids.map(attach('type', 'navaid')), results.fixes.map(attach('type', 'fix')));
+}
+
+function getDataSource(results) {
+  return [].concat(results.airports.map(optionFor('Airport')), results.navaids.map(optionFor('Navaid')), results.fixes.map(optionFor('Fix')));
+}
+
+var mapStateToProps = function mapStateToProps(state) {
+  console.log(state);
+  return {
+    results: getResults(state.search.results),
+    dataSource: getDataSource(state.search.results),
+    indexLoading: state.search.indexLoading
+  };
+};
+
+exports.default = (0, _reactRedux.connect)(mapStateToProps)(Search);
+
+},{"../state/actions":9,"lodash/debounce":245,"lodash/flow":248,"lodash/property":277,"material-ui/AutoComplete":293,"material-ui/FontIcon":297,"react":654,"react-redux":472}],5:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -315,7 +327,23 @@ var Sidebar = function (_React$Component) {
 exports.default = Sidebar;
 ;
 
-},{"react":534}],6:[function(require,module,exports){
+},{"react":654}],6:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _geo_search = require('../geo_search');
+
+var _geo_search2 = _interopRequireDefault(_geo_search);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var geoSearch = (0, _geo_search2.default)(window.location.href);
+exports.default = geoSearch;
+
+},{"../geo_search":15}],7:[function(require,module,exports){
 'use strict';
 
 var _reactDom = require('react-dom');
@@ -326,6 +354,8 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
+var _reactRedux = require('react-redux');
+
 var _reactTapEventPlugin = require('react-tap-event-plugin');
 
 var _reactTapEventPlugin2 = _interopRequireDefault(_reactTapEventPlugin);
@@ -334,15 +364,809 @@ var _Main = require('./components/Main');
 
 var _Main2 = _interopRequireDefault(_Main);
 
+var _store = require('./store');
+
+var _store2 = _interopRequireDefault(_store);
+
+var _actions = require('./state/actions');
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // Needed for onTouchTap
 // http://stackoverflow.com/a/34015469/988941
 (0, _reactTapEventPlugin2.default)();
 
-_reactDom2.default.render(_react2.default.createElement(_Main2.default, null), document.getElementById('app'));
+_reactDom2.default.render(_react2.default.createElement(
+  _reactRedux.Provider,
+  { store: _store2.default },
+  _react2.default.createElement(_Main2.default, null)
+), document.getElementById('app'));
 
-},{"./components/Main":1,"react":534,"react-dom":358,"react-tap-event-plugin":364}],7:[function(require,module,exports){
+_store2.default.dispatch((0, _actions.requestSearchIndex)());
+_store2.default.dispatch((0, _actions.requestGeoSearchAirways)());
+
+},{"./components/Main":1,"./state/actions":9,"./store":13,"react":654,"react-dom":433,"react-redux":472,"react-tap-event-plugin":484}],8:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _search = require('../search');
+
+var _search2 = _interopRequireDefault(_search);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var navDataSearch = (0, _search2.default)(window.location.href);
+exports.default = navDataSearch;
+
+},{"../search":18}],9:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.setSearchQuery = setSearchQuery;
+exports.requestSearchResults = requestSearchResults;
+exports.receiveSearchResults = receiveSearchResults;
+exports.requestSearchIndex = requestSearchIndex;
+exports.receiveSearchIndex = receiveSearchIndex;
+exports.locateNavItem = locateNavItem;
+exports.locatedNavItem = locatedNavItem;
+exports.setActiveNavItem = setActiveNavItem;
+exports.requestGeoSearchAirways = requestGeoSearchAirways;
+exports.receiveGeoSearchAirways = receiveGeoSearchAirways;
+exports.requestGeoSearchResults = requestGeoSearchResults;
+exports.receiveGeoSearchResults = receiveGeoSearchResults;
+exports.createWaypoint = createWaypoint;
+exports.addWaypoint = addWaypoint;
+exports.addNavItemAsWaypoint = addNavItemAsWaypoint;
+exports.removeWaypoint = removeWaypoint;
+exports.setWaypointIndex = setWaypointIndex;
+exports.setWaypointElevation = setWaypointElevation;
+exports.setWaypointNavItem = setWaypointNavItem;
+exports.setWaypointLatLon = setWaypointLatLon;
+exports.createFlightPlan = createFlightPlan;
+exports.addFlightPlan = addFlightPlan;
+exports.removeFlightPlan = removeFlightPlan;
+exports.setFlightPlanTitle = setFlightPlanTitle;
+exports.setFlightPlanColor = setFlightPlanColor;
+exports.setFlightPlanVisibility = setFlightPlanVisibility;
+exports.setFlightPlanAircraft = setFlightPlanAircraft;
+exports.setFlightPlanCruiseSpeed = setFlightPlanCruiseSpeed;
+exports.setFlightPlanFuelConsumption = setFlightPlanFuelConsumption;
+exports.setFlightPlanPayload = setFlightPlanPayload;
+exports.exportFlightPlanToFms = exportFlightPlanToFms;
+
+var _constants = require('./constants');
+
+var c = _interopRequireWildcard(_constants);
+
+var _FlightPlan = require('../../models/FlightPlan');
+
+var _FlightPlan2 = _interopRequireDefault(_FlightPlan);
+
+var _Waypoint = require('../../models/Waypoint');
+
+var _Waypoint2 = _interopRequireDefault(_Waypoint);
+
+var _navDataSearch = require('../navDataSearch');
+
+var _navDataSearch2 = _interopRequireDefault(_navDataSearch);
+
+var _geoSearch = require('../geoSearch');
+
+var _geoSearch2 = _interopRequireDefault(_geoSearch);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function setSearchQuery(query) {
+  return function (dispatch) {
+    dispatch({
+      type: c.SET_SEARCH_QUERY,
+      query: query
+    });
+
+    dispatch(requestSearchResults(query));
+  };
+}
+
+function requestSearchResults(query) {
+  return function (dispatch) {
+    dispatch({
+      type: c.REQUEST_SEARCH_RESULTS,
+      query: query
+    });
+
+    _navDataSearch2.default.find(query).then(function (results) {
+      dispatch(receiveSearchResults(results));
+    });
+  };
+}
+
+function receiveSearchResults(results) {
+  return {
+    type: c.RECEIVE_SEARCH_RESULTS,
+    results: results
+  };
+}
+
+function requestSearchIndex() {
+  return function (dispatch) {
+    dispatch({
+      type: c.REQUEST_SEARCH_INDEX
+    });
+
+    _navDataSearch2.default.loadIndex().then(function () {
+      dispatch(receiveSearchIndex());
+    });
+  };
+}
+
+function receiveSearchIndex() {
+  return {
+    type: c.RECEIVE_SEARCH_INDEX
+  };
+}
+
+function locateNavItem(item) {
+  return {
+    type: c.LOCATE_NAV_ITEM,
+    navItem: item
+  };
+}
+
+function locatedNavItem(item) {
+  return {
+    type: c.LOCATED_NAV_ITEM,
+    navItem: item
+  };
+}
+
+function setActiveNavItem(item) {
+  return {
+    type: c.SET_ACTIVE_NAV_ITEM,
+    navItem: item
+  };
+}
+
+function requestGeoSearchAirways() {
+  return function (dispatch) {
+    dispatch({
+      type: c.REQUEST_GEO_SEARCH_AIRWAYS
+    });
+
+    _geoSearch2.default.loadAirways().then(function () {
+      dispatch(receiveGeoSearchAirways());
+    });
+  };
+}
+
+function receiveGeoSearchAirways() {
+  return {
+    type: c.RECEIVE_GEO_SEARCH_AIRWAYS
+  };
+}
+
+function requestGeoSearchResults(bounds) {
+  return function (dispatch) {
+    dispatch({
+      type: c.REQUEST_GEO_SEARCH_RESULTS,
+      bounds: bounds
+    });
+
+    _geoSearch2.default.findAllInBounds(bounds).then(function (results) {
+      dispatch(receiveGeoSearchResults(results));
+    });
+  };
+}
+
+function receiveGeoSearchResults(results) {
+  return {
+    type: c.RECEIVE_GEO_SEARCH_RESULTS,
+    results: results
+  };
+}
+
+function createWaypoint(data) {
+  return {
+    type: c.CREATE_WAYPOINT,
+    waypoint: (0, _Waypoint2.default)(data)
+  };
+}
+
+function addWaypoint(flightPlanId, waypoint) {
+  return {
+    type: c.ADD_WAYPOINT,
+    flightPlanId: flightPlanId,
+    waypoint: waypoint
+  };
+}
+
+function addNavItemAsWaypoint(flightPlanId, navItem) {
+  return addWaypoint(flightPlanId, (0, _Waypoint2.default)({
+    navItem: navItem
+  }));
+}
+
+function removeWaypoint(waypointId) {
+  return {
+    type: c.REMOVE_WAYPOINT,
+    waypointId: waypointId
+  };
+}
+
+function setWaypointIndex(waypointId, index) {
+  return {
+    type: c.SET_WAYPOINT_INDEX,
+    waypointId: waypointId,
+    index: index
+  };
+}
+
+function setWaypointElevation(waypointId, elevation) {
+  return {
+    type: c.SET_WAYPOINT_ELEVATION,
+    waypointId: waypointId,
+    elevation: elevation
+  };
+}
+
+function setWaypointNavItem(waypointId, navItem) {
+  return {
+    type: c.SET_WAYPOINT_NAV_ITEM,
+    waypointId: waypointId,
+    navItem: navItem
+  };
+}
+
+function setWaypointLatLon(waypointId, lat, lon) {
+  return {
+    type: c.SET_WAYPOINT_LAT_LON,
+    waypointId: waypointId,
+    lat: lat,
+    lon: lon
+  };
+}
+
+function createFlightPlan(data) {
+  return {
+    type: c.CREATE_FLIGHT_PLAN,
+    flightPlan: (0, _FlightPlan2.default)(data)
+  };
+}
+
+function addFlightPlan(flightPlan) {
+  return {
+    type: c.ADD_FLIGHT_PLAN,
+    flightPlan: flightPlan
+  };
+}
+
+function removeFlightPlan(flightPlanId) {
+  return {
+    type: c.REMOVE_FLIGHT_PLAN,
+    flightPlanId: flightPlanId
+  };
+}
+
+function setFlightPlanTitle(flightPlanId, title) {
+  return {
+    type: c.SET_FLIGHT_PLAN_TITLE,
+    flightPlanId: flightPlanId,
+    title: title
+  };
+}
+
+function setFlightPlanColor(flightPlanId, color) {
+  return {
+    type: c.SET_FLIGHT_PLAN_COLOR,
+    flightPlanId: flightPlanId,
+    color: color
+  };
+}
+
+function setFlightPlanVisibility(flightPlanId, visible) {
+  return {
+    type: c.SET_FLIGHT_PLAN_VISIBILITY,
+    flightPlanId: flightPlanId,
+    visible: visible
+  };
+}
+
+function setFlightPlanAircraft(flightPlanId, aircraft) {
+  return {
+    type: c.SET_FLIGHT_PLAN_AIRCRAFT,
+    flightPlanId: flightPlanId,
+    aircraft: aircraft
+  };
+}
+
+function setFlightPlanCruiseSpeed(flightPlanId, cruiseSpeed) {
+  return {
+    type: c.SET_FLIGHT_PLAN_CRUISE_SPEED,
+    flightPlanId: flightPlanId,
+    cruiseSpeed: cruiseSpeed
+  };
+}
+
+function setFlightPlanFuelConsumption(flightPlanId, fuelConsumption) {
+  return {
+    type: c.SET_FLIGHT_PLAN_FUEL_CONSUMPTION,
+    flightPlanId: flightPlanId,
+    fuelConsumption: fuelConsumption
+  };
+}
+
+function setFlightPlanPayload(flightPlanId, payload) {
+  return {
+    type: c.SET_FLIGHT_PLAN_FUEL_PAYLOAD,
+    flightPlanId: flightPlanId,
+    payload: payload
+  };
+}
+
+function exportFlightPlanToFms(flightPlanId) {
+  return {
+    type: c.EXPORT_FLIGHT_PLAN_TO_FMS,
+    flightPlanId: flightPlanId
+  };
+}
+
+},{"../../models/FlightPlan":16,"../../models/Waypoint":17,"../geoSearch":6,"../navDataSearch":8,"./constants":11}],10:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = configureStore;
+
+var _redux = require('redux');
+
+var _reduxThunk = require('redux-thunk');
+
+var _reduxThunk2 = _interopRequireDefault(_reduxThunk);
+
+var _reduxLogger = require('redux-logger');
+
+var _reduxLogger2 = _interopRequireDefault(_reduxLogger);
+
+var _reducers = require('./reducers');
+
+var _reducers2 = _interopRequireDefault(_reducers);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var loggerMiddleware = (0, _reduxLogger2.default)();
+
+var middlewares = [_reduxThunk2.default, loggerMiddleware];
+
+function configureStore() {
+  var initialState = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
+
+  return window.devToolsExtension ? (0, _redux.compose)(_redux.applyMiddleware.apply(null, middlewares), window.devToolsExtension())(_redux.createStore)(_reducers2.default, initialState) : (0, _redux.createStore)(_reducers2.default, initialState, _redux.applyMiddleware.apply(null, middlewares));
+};
+
+},{"./reducers":12,"redux":662,"redux-logger":655,"redux-thunk":656}],11:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+// search for airports, navaids, fixes
+var SET_SEARCH_QUERY = exports.SET_SEARCH_QUERY = 'SET_SEARCH_QUERY';
+var REQUEST_SEARCH_RESULTS = exports.REQUEST_SEARCH_RESULTS = 'REQUEST_SEARCH_RESULTS';
+var RECEIVE_SEARCH_RESULTS = exports.RECEIVE_SEARCH_RESULTS = 'RECEIVE_SEARCH_RESULTS';
+var REQUEST_SEARCH_INDEX = exports.REQUEST_SEARCH_INDEX = 'REQUEST_SEARCH_INDEX';
+var RECEIVE_SEARCH_INDEX = exports.RECEIVE_SEARCH_INDEX = 'RECEIVE_SEARCH_INDEX';
+
+// geolocate a navigation item
+var LOCATE_NAV_ITEM = exports.LOCATE_NAV_ITEM = 'LOCATE_NAV_ITEM';
+var LOCATED_NAV_ITEM = exports.LOCATED_NAV_ITEM = 'LOCATED_NAV_ITEM';
+var SET_ACTIVE_NAV_ITEM = exports.SET_ACTIVE_NAV_ITEM = 'SET_ACTIVE_NAV_ITEM';
+
+// geo search
+var REQUEST_GEO_SEARCH_AIRWAYS = exports.REQUEST_GEO_SEARCH_AIRWAYS = 'REQUEST_GEO_SEARCH_AIRWAYS';
+var RECEIVE_GEO_SEARCH_AIRWAYS = exports.RECEIVE_GEO_SEARCH_AIRWAYS = 'RECEIVE_GEO_SEARCH_AIRWAYS';
+var REQUEST_GEO_SEARCH_RESULTS = exports.REQUEST_GEO_SEARCH_RESULTS = 'REQUEST_GEO_SEARCH_RESULTS';
+var RECEIVE_GEO_SEARCH_RESULTS = exports.RECEIVE_GEO_SEARCH_RESULTS = 'RECEIVE_GEO_SEARCH_RESULTS';
+
+// waypoints
+var CREATE_WAYPOINT = exports.CREATE_WAYPOINT = 'CREATE_WAYPOINT';
+var ADD_WAYPOINT = exports.ADD_WAYPOINT = 'ADD_WAYPOINT';
+var REMOVE_WAYPOINT = exports.REMOVE_WAYPOINT = 'REMOVE_WAYPOINT';
+var SET_WAYPOINT_INDEX = exports.SET_WAYPOINT_INDEX = 'SET_WAYPOINT_INDEX';
+var SET_WAYPOINT_ELEVATION = exports.SET_WAYPOINT_ELEVATION = 'SET_WAYPOINT_ELEVATION';
+var SET_WAYPOINT_NAV_ITEM = exports.SET_WAYPOINT_NAV_ITEM = 'SET_WAYPOINT_NAV_ITEM';
+var SET_WAYPOINT_LAT_LON = exports.SET_WAYPOINT_LAT_LON = 'SET_WAYPOINT_LAT_LON';
+
+// flight plans
+var CREATE_FLIGHT_PLAN = exports.CREATE_FLIGHT_PLAN = 'CREATE_FLIGHT_PLAN';
+var ADD_FLIGHT_PLAN = exports.ADD_FLIGHT_PLAN = 'ADD_FLIGHT_PLAN';
+var REMOVE_FLIGHT_PLAN = exports.REMOVE_FLIGHT_PLAN = 'REMOVE_FLIGHT_PLAN';
+var SET_FLIGHT_PLAN_TITLE = exports.SET_FLIGHT_PLAN_TITLE = 'SET_FLIGHT_PLAN_TITLE';
+var SET_FLIGHT_PLAN_COLOR = exports.SET_FLIGHT_PLAN_COLOR = 'SET_FLIGHT_PLAN_COLOR';
+var SET_FLIGHT_PLAN_VISIBILITY = exports.SET_FLIGHT_PLAN_VISIBILITY = 'SET_FLIGHT_PLAN_VISIBILITY';
+var SET_FLIGHT_PLAN_AIRCRAFT = exports.SET_FLIGHT_PLAN_AIRCRAFT = 'SET_FLIGHT_PLAN_AIRCRAFT';
+var SET_FLIGHT_PLAN_CRUISE_SPEED = exports.SET_FLIGHT_PLAN_CRUISE_SPEED = 'SET_FLIGHT_PLAN_CRUISE_SPEED';
+var SET_FLIGHT_PLAN_FUEL_CONSUMPTION = exports.SET_FLIGHT_PLAN_FUEL_CONSUMPTION = 'SET_FLIGHT_PLAN_FUEL_CONSUMPTION';
+var SET_FLIGHT_PLAN_PAYLOAD = exports.SET_FLIGHT_PLAN_PAYLOAD = 'SET_FLIGHT_PLAN_PAYLOAD';
+var EXPORT_FLIGHT_PLAN_TO_FMS = exports.EXPORT_FLIGHT_PLAN_TO_FMS = 'EXPORT_FLIGHT_PLAN_TO_FMS';
+
+},{}],12:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _redux = require('redux');
+
+var _constants = require('./constants');
+
+var c = _interopRequireWildcard(_constants);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+// helper function to update data table by id
+function updateItemById(state, id, data) {
+  return state[id] ? Object.assign({}, state, _defineProperty({}, id, Object.assign({}, state[id], data))) : state;
+}
+
+function addItem(state, item) {
+  return Object.assign({}, state, _defineProperty({}, item.id, Object.assign({}, item)));
+}
+
+function removeItemById(state, id) {
+  if (state[id]) {
+    state = Object.assign({}, state);
+    delete state[id];
+  }
+
+  return state;
+}
+
+function search(state, action) {
+  state = state || {
+    query: '',
+    results: {
+      airports: [],
+      navaids: [],
+      fixes: []
+    },
+    indexLoading: false,
+    resultsLoading: false
+  };
+
+  switch (action.type) {
+    case c.SET_SEARCH_QUERY:
+      return Object.assign({}, state, {
+        query: setSearchQuery(state.query, action)
+      });
+    case c.REQUEST_SEARCH_RESULTS:
+      return requestSearchResults(state, action);
+    case c.RECEIVE_SEARCH_RESULTS:
+      return receiveSearchResults(state, action);
+    case c.REQUEST_SEARCH_INDEX:
+      return requestSearchIndex(state, action);
+    case c.RECEIVE_SEARCH_INDEX:
+      return receiveSearchIndex(state, action);
+  }
+
+  return state;
+}
+
+function setSearchQuery() {
+  var state = arguments.length <= 0 || arguments[0] === undefined ? '' : arguments[0];
+  var action = arguments[1];
+
+  return action.query;
+}
+
+function requestSearchResults() {
+  var state = arguments.length <= 0 || arguments[0] === undefined ? { resultsLoading: false } : arguments[0];
+  var action = arguments[1];
+
+  return Object.assign({}, state, {
+    resultsLoading: true
+  });
+}
+
+function receiveSearchResults() {
+  var state = arguments.length <= 0 || arguments[0] === undefined ? { resultsLoading: false, results: {} } : arguments[0];
+  var action = arguments[1];
+
+  return Object.assign({}, state, {
+    resultsLoading: false,
+    results: action.results
+  });
+}
+
+function requestSearchIndex() {
+  var state = arguments.length <= 0 || arguments[0] === undefined ? { indexLoading: false } : arguments[0];
+  var action = arguments[1];
+
+  return Object.assign({}, state, {
+    indexLoading: true
+  });
+}
+
+function receiveSearchIndex() {
+  var state = arguments.length <= 0 || arguments[0] === undefined ? { indexLoading: false } : arguments[0];
+  var action = arguments[1];
+
+  return Object.assign({}, state, {
+    indexLoading: false
+  });
+}
+
+function waypoints() {
+  var _map;
+
+  var state = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
+  var action = arguments[1];
+
+  var map = (_map = {}, _defineProperty(_map, c.ADD_WAYPOINT, addWaypoint), _defineProperty(_map, c.REMOVE_WAYPOINT, removeWaypoint), _defineProperty(_map, c.SET_WAYPOINT_INDEX, setWaypointIndex), _defineProperty(_map, c.SET_WAYPOINT_ELEVATION, setWaypointElevation), _defineProperty(_map, c.SET_WAYPOINT_NAV_ITEM, setWaypointNavItem), _defineProperty(_map, c.SET_WAYPOINT_LAT_LON, setWaypointLatLon), _map);
+
+  return map[action.type] ? map[action.type](state, action) : state;
+}
+
+function addWaypoint() {
+  var state = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
+  var action = arguments[1];
+
+  return addItem(state, action.waypoint);
+}
+
+function removeWaypoint(state, action) {
+  return removeItemById(state, action.waypointId);
+}
+
+function setWaypointIndex(state, action) {
+  return updateItemById(state, action.waypointId, {
+    index: action.index
+  });
+}
+
+function setWaypointElevation(state, action) {
+  return updateItemById(state, action.waypointId, {
+    elevation: action.elevation
+  });
+}
+
+function setWaypointNavItem(state, action) {
+  return updateItemById(state, action.waypointId, {
+    navItem: Object.assign({}, action.navItem)
+  });
+}
+
+function setWaypointLatLon(state, action) {
+  return updateItemById(state, action.waypointId, {
+    lat: action.lat,
+    lon: action.lon
+  });
+}
+
+function flightPlans() {
+  var _map2;
+
+  var state = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
+  var action = arguments[1];
+
+  var map = (_map2 = {}, _defineProperty(_map2, c.ADD_FLIGHT_PLAN, addFlightPlan), _defineProperty(_map2, c.REMOVE_FLIGHT_PLAN, removeFlightPlan), _defineProperty(_map2, c.SET_FLIGHT_PLAN_TITLE, setFlightPlanTitle), _defineProperty(_map2, c.SET_FLIGHT_PLAN_COLOR, setFlightPlanColor), _defineProperty(_map2, c.SET_FLIGHT_PLAN_VISIBILITY, setFlightPlanVisibility), _defineProperty(_map2, c.SET_FLIGHT_PLAN_AIRCRAFT, setFlightPlanAircraft), _defineProperty(_map2, c.SET_FLIGHT_PLAN_CRUISE_SPEED, setFlightPlanCruiseSpeed), _defineProperty(_map2, c.SET_FLIGHT_PLAN_FUEL_CONSUMPTION, setFlightPlanFuelConsumption), _defineProperty(_map2, c.SET_FLIGHT_PLAN_PAYLOAD, setFlightPlanPayload), _defineProperty(_map2, c.EXPORT_FLIGHT_PLAN_TO_FMS, exportFlightPlanToFms), _map2);
+
+  return map[action.type] ? map[action.type](state, action) : state;
+}
+
+function addFlightPlan() {
+  var state = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
+  var action = arguments[1];
+
+  return addItem(state, action.flightPlan);
+}
+
+function removeFlightPlan() {
+  var state = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
+  var action = arguments[1];
+
+  return removeItemById(state, action.flightPlanId);
+}
+
+function setFlightPlanTitle() {
+  var state = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
+  var action = arguments[1];
+
+  return updateItemById(state, action.flightPlanId, {
+    title: action.title
+  });
+}
+
+function setFlightPlanColor() {
+  var state = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
+  var action = arguments[1];
+
+  return updateItemById(state, action.flightPlanId, {
+    color: action.color
+  });
+}
+
+function setFlightPlanVisibility() {
+  var state = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
+  var action = arguments[1];
+
+  return updateItemById(state, action.flightPlanId, {
+    visible: action.visible
+  });
+}
+
+function setFlightPlanAircraft() {
+  var state = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
+  var action = arguments[1];
+
+  return updateItemById(state, action.flightPlanId, {
+    aircraft: action.aircraft
+  });
+}
+
+function setFlightPlanCruiseSpeed() {
+  var state = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
+  var action = arguments[1];
+
+  return updateItemById(state, action.flightPlanId, {
+    cruiseSpeed: action.cruiseSpeed
+  });
+}
+
+function setFlightPlanFuelConsumption() {
+  var state = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
+  var action = arguments[1];
+
+  return updateItemById(state, action.flightPlanId, {
+    fuelConsumption: action.fuelConsumption
+  });
+}
+
+function setFlightPlanPayload() {
+  var state = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
+  var action = arguments[1];
+
+  return updateItemById(state, action.flightPlanId, {
+    payload: action.payload
+  });
+}
+
+function exportFlightPlanToFms() {
+  var state = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
+  var action = arguments[1];
+
+  return state;
+}
+
+function geoSearch() {
+  var state = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
+  var action = arguments[1];
+
+  switch (action.type) {
+    case c.REQUEST_GEO_SEARCH_AIRWAYS:
+      return requestGeoSearchAirways(state, action);
+    case c.RECEIVE_GEO_SEARCH_AIRWAYS:
+      return receiveGeoSearchAirways(state, action);
+    case c.REQUEST_GEO_SERACH_RESULTS:
+      return requestGeoSearchResults(state, action);
+    case c.RECEIVE_GEO_SERACH_RESULTS:
+      return receiveGeoSearch(state, action);
+  }
+
+  return state;
+}
+
+function requestGeoSearchAirways() {
+  var state = arguments.length <= 0 || arguments[0] === undefined ? { airwaysLoading: false } : arguments[0];
+  var action = arguments[1];
+
+  return Object.assign({}, state, {
+    airwaysLoading: true
+  });
+}
+
+function receiveGeoSearchAirways() {
+  var state = arguments.length <= 0 || arguments[0] === undefined ? { airwaysLoading: false } : arguments[0];
+  var action = arguments[1];
+
+  return Object.assign({}, state, {
+    airwaysLoading: false
+  });
+}
+
+function requestGeoSearchResults() {
+  var state = arguments.length <= 0 || arguments[0] === undefined ? { resultsLoading: false } : arguments[0];
+  var action = arguments[1];
+
+  return Object.assign({}, state, {
+    bounds: action.bounds,
+    resultsLoading: true
+  });
+}
+
+function receiveGeoSearchResults() {
+  var state = arguments.length <= 0 || arguments[0] === undefined ? { resultsLoading: false, results: {} } : arguments[0];
+  var action = arguments[1];
+
+  return Object.assign({}, state, {
+    resultsLoading: false,
+    results: action.results
+  });
+}
+
+function navItem() {
+  var state = arguments.length <= 0 || arguments[0] === undefined ? null : arguments[0];
+  var action = arguments[1];
+
+  switch (action.type) {
+    case c.LOCATE_NAV_ITEM:
+      return locateNavItem(state, action);
+    case c.LOCATED_NAV_ITEM:
+      return locatedNavItem(state, action);
+    case c.SET_ACTIVE_NAV_ITEM:
+      return setActiveNavItem(state, action);
+  }
+
+  return state;
+}
+
+function locateNavItem() {
+  var state = arguments.length <= 0 || arguments[0] === undefined ? null : arguments[0];
+  var action = arguments[1];
+
+  return Object.assign({}, action.navItem);
+}
+
+function locatedNavItem() {
+  var state = arguments.length <= 0 || arguments[0] === undefined ? null : arguments[0];
+  var action = arguments[1];
+
+  return Object.assign({}, action.navItem);
+}
+
+function setActiveNavItem() {
+  var state = arguments.length <= 0 || arguments[0] === undefined ? null : arguments[0];
+  var action = arguments[1];
+
+  return action.navItem ? Object.assign({}, action.navItem) : null;
+}
+
+var rootReducer = (0, _redux.combineReducers)({
+  search: search,
+  waypoints: waypoints,
+  flightPlans: flightPlans,
+  geoSearch: geoSearch,
+  activeNavItem: navItem
+});
+
+exports.default = rootReducer;
+
+},{"./constants":11,"redux":662}],13:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _configureStore = require('./state/configureStore');
+
+var _configureStore2 = _interopRequireDefault(_configureStore);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var store = (0, _configureStore2.default)();
+exports.default = store;
+
+},{"./state/configureStore":10}],14:[function(require,module,exports){
 (function (global){
 'use strict';
 
@@ -357,7 +1181,164 @@ if (typeof g.fetch === 'undefined') {
 }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"es6-promise":70,"node-fetch":328,"whatwg-fetch":535}],8:[function(require,module,exports){
+},{"es6-promise":81,"node-fetch":403,"whatwg-fetch":672}],15:[function(require,module,exports){
+'use strict';
+
+require('./fetch');
+var partial = require('lodash/partial');
+var flatten = require('lodash/flatten');
+require('es6-promise-series')(Promise);
+
+function airwaysFilter(bounds) {
+  var n = bounds[0];
+  var e = bounds[1];
+  var s = bounds[2];
+  var w = bounds[3];
+
+  return function (airway) {
+    return(
+      // is left to left
+      airway.fromLon < w && airway.toLon <= w ||
+      // is right to right
+      airway.fromLon > e && airway.toLon > e ||
+      // is above top
+      airway.fromLat < n && airway.toLat < n ||
+      // is below bottom
+      airway.fromLat > s && airway.toLat > s
+    );
+  };
+}
+
+module.exports = function GeoSearch(baseUrl) {
+  baseUrl = baseUrl + '/data';
+  var geoSearch = {};
+
+  geoSearch.airways = [];
+
+  geoSearch.loadAirways = function () {
+    return fetch(baseUrl + '/airways.json').then(function (response) {
+      return response.status === 200 ? response.json() : [];
+    }).then(function (airways) {
+      geoSearch.airways = airways;
+      return Promise.resolve(geoSearch);
+    }).catch(function (error) {
+      geoSearch.airways = [];
+      return Promise.resolve(geoSearch);
+    });
+  };
+
+  geoSearch.latLonsForBounds = function (bounds) {
+    var n = Math.floor(bounds[0]);
+    var e = Math.floor(bounds[1]);
+    var s = Math.floor(bounds[2]);
+    var w = Math.floor(bounds[3]);
+    var lonMin = Math.min(w, e);
+    var lonMax = Math.max(w, e);
+    var latMin = Math.min(n, s);
+    var latMax = Math.max(n, s);
+    var latLons = [];
+    var lat, lon;
+
+    for (lat = latMin; lat <= latMax; lat++) {
+      for (lon = lonMin; lon <= lonMax; lon++) {
+        latLons.push([lat, lon]);
+      }
+    }
+
+    return latLons;
+  };
+
+  geoSearch.urlForLatLon = function (latLon, filename) {
+    return baseUrl + '/' + latLon.join('/') + '/' + filename;
+  };
+
+  geoSearch.findAllInBounds = function (bounds) {
+    return Promise.series([partial(geoSearch.findAirportsInBounds, bounds), partial(geoSearch.findFixesInBounds, bounds), partial(geoSearch.findNavaidsInBounds, bounds), partial(geoSearch.findAirwaysInBounds, bounds)]).then(function (datasets) {
+      return Promise.resolve({
+        airports: datasets[0],
+        fixes: datasets[1],
+        navaids: datasets[2],
+        airways: datasets[3]
+      });
+    });
+  };
+
+  geoSearch.findInBounds = function (bounds, filename) {
+    return Promise.series(geoSearch.latLonsForBounds(bounds).map(function (latLon) {
+      return partial(geoSearch.findForLatLon, latLon, filename);
+    })).then(function (datasets) {
+      return Promise.resolve(flatten(datasets));
+    });
+  };
+
+  geoSearch.findForLatLon = function (latLon, filename) {
+    return fetch(geoSearch.urlForLatLon(latLon, filename)).then(function (response) {
+      // fallback to empty dataset if an error occurs
+      return response.status === 200 ? response.json() : Promise.resolve([]);
+    }).then(function (data) {
+      return Promise.resolve(data);
+    }).catch(function (error) {
+      console.error(error);
+      // fallback to empty dataset if an error occurs
+      return Promise.resolve([]);
+    });
+  };
+
+  geoSearch.findAirportsInBounds = function (bounds) {
+    return geoSearch.findInBounds(bounds, 'airports.json');
+  };
+
+  geoSearch.findFixesInBounds = function (bounds) {
+    return geoSearch.findInBounds(bounds, 'fixes.json');
+  };
+
+  geoSearch.findNavaidsInBounds = function (bounds) {
+    return geoSearch.findInBounds(bounds, 'navaids.json');
+  };
+
+  geoSearch.findAirwaysInBounds = function (bounds) {
+    return Promise.resolve(geoSearch.airways.filter(airwaysFilter(bounds)));
+  };
+
+  return geoSearch;
+};
+
+},{"./fetch":14,"es6-promise-series":80,"lodash/flatten":247,"lodash/partial":275}],16:[function(require,module,exports){
+'use strict';
+
+var uuid = require('uuid').v4;
+
+module.exprots = function FlightPlan(data) {
+  return Object.assign({
+    id: uuid(),
+    title: null,
+    color: null,
+    visible: null,
+    cruiseSpeed: null,
+    aircraft: null,
+    fuelConsumption: null,
+    payload: null
+  }, data);
+};
+
+},{"uuid":671}],17:[function(require,module,exports){
+'use strict';
+
+var uuid = require('uuid').v4;
+
+module.exprots = function Waypoint(data) {
+  return Object.assign({
+    id: uuid(),
+    navItem: null,
+    lat: null,
+    lon: null,
+    elevation: null,
+    index: null,
+    flightPlanId: null
+  }, data);
+};
+
+},{"uuid":671}],18:[function(require,module,exports){
 'use strict';
 
 require('./utils/string');
@@ -430,7 +1411,7 @@ module.exports = function Search(baseUrl) {
   return search;
 };
 
-},{"./fetch":7,"./utils/promise_array_filter":9,"./utils/promise_array_map":10,"./utils/promise_next_tick":11,"./utils/string":13,"lodash/flatten":183}],9:[function(require,module,exports){
+},{"./fetch":14,"./utils/promise_array_filter":19,"./utils/promise_array_map":20,"./utils/promise_next_tick":21,"./utils/string":23,"lodash/flatten":247}],19:[function(require,module,exports){
 'use strict';
 
 module.exports = function (array, predicate) {
@@ -461,7 +1442,7 @@ module.exports = function (array, predicate) {
   });
 };
 
-},{}],10:[function(require,module,exports){
+},{}],20:[function(require,module,exports){
 'use strict';
 
 module.exports = function (array, predicate) {
@@ -490,7 +1471,7 @@ module.exports = function (array, predicate) {
   });
 };
 
-},{}],11:[function(require,module,exports){
+},{}],21:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -512,7 +1493,7 @@ module.exports = function (cb) {
 };
 
 }).call(this,require('_process'))
-},{"./set_immediate_polyfill":12,"_process":37}],12:[function(require,module,exports){
+},{"./set_immediate_polyfill":22,"_process":47}],22:[function(require,module,exports){
 (function (global){
 'use strict';
 
@@ -526,7 +1507,7 @@ if (typeof g.setImmediate !== 'function') {
 }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],13:[function(require,module,exports){
+},{}],23:[function(require,module,exports){
 'use strict';
 
 if (typeof String.prototype.explode === 'undefined') {
@@ -567,7 +1548,7 @@ if (typeof String.prototype.trim === 'undefined') {
   };
 }
 
-},{}],14:[function(require,module,exports){
+},{}],24:[function(require,module,exports){
 // http://wiki.commonjs.org/wiki/Unit_Testing/1.0
 //
 // THIS IS NOT TESTED NOR LIKELY TO WORK OUTSIDE V8!
@@ -928,9 +1909,9 @@ var objectKeys = Object.keys || function (obj) {
   return keys;
 };
 
-},{"util/":68}],15:[function(require,module,exports){
+},{"util/":78}],25:[function(require,module,exports){
 
-},{}],16:[function(require,module,exports){
+},{}],26:[function(require,module,exports){
 'use strict';
 
 
@@ -1034,7 +2015,7 @@ exports.setTyped = function (on) {
 
 exports.setTyped(TYPED_OK);
 
-},{}],17:[function(require,module,exports){
+},{}],27:[function(require,module,exports){
 'use strict';
 
 // Note: adler32 takes 12% for level 0 and 2% for level 6.
@@ -1068,7 +2049,7 @@ function adler32(adler, buf, len, pos) {
 
 module.exports = adler32;
 
-},{}],18:[function(require,module,exports){
+},{}],28:[function(require,module,exports){
 module.exports = {
 
   /* Allowed flush values; see deflate() and inflate() below for details */
@@ -1117,7 +2098,7 @@ module.exports = {
   //Z_NULL:                 null // Use -1 or null inline, depending on var type
 };
 
-},{}],19:[function(require,module,exports){
+},{}],29:[function(require,module,exports){
 'use strict';
 
 // Note: we can't get significant speed boost here.
@@ -1160,7 +2141,7 @@ function crc32(crc, buf, len, pos) {
 
 module.exports = crc32;
 
-},{}],20:[function(require,module,exports){
+},{}],30:[function(require,module,exports){
 'use strict';
 
 var utils   = require('../utils/common');
@@ -2927,7 +3908,7 @@ exports.deflatePrime = deflatePrime;
 exports.deflateTune = deflateTune;
 */
 
-},{"../utils/common":16,"./adler32":17,"./crc32":19,"./messages":24,"./trees":25}],21:[function(require,module,exports){
+},{"../utils/common":26,"./adler32":27,"./crc32":29,"./messages":34,"./trees":35}],31:[function(require,module,exports){
 'use strict';
 
 // See state defs from inflate.js
@@ -3255,7 +4236,7 @@ module.exports = function inflate_fast(strm, start) {
   return;
 };
 
-},{}],22:[function(require,module,exports){
+},{}],32:[function(require,module,exports){
 'use strict';
 
 
@@ -4760,7 +5741,7 @@ exports.inflateSyncPoint = inflateSyncPoint;
 exports.inflateUndermine = inflateUndermine;
 */
 
-},{"../utils/common":16,"./adler32":17,"./crc32":19,"./inffast":21,"./inftrees":23}],23:[function(require,module,exports){
+},{"../utils/common":26,"./adler32":27,"./crc32":29,"./inffast":31,"./inftrees":33}],33:[function(require,module,exports){
 'use strict';
 
 
@@ -5089,7 +6070,7 @@ module.exports = function inflate_table(type, lens, lens_index, codes, table, ta
   return 0;
 };
 
-},{"../utils/common":16}],24:[function(require,module,exports){
+},{"../utils/common":26}],34:[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -5104,7 +6085,7 @@ module.exports = {
   '-6':   'incompatible version' /* Z_VERSION_ERROR (-6) */
 };
 
-},{}],25:[function(require,module,exports){
+},{}],35:[function(require,module,exports){
 'use strict';
 
 
@@ -6305,7 +7286,7 @@ exports._tr_flush_block  = _tr_flush_block;
 exports._tr_tally = _tr_tally;
 exports._tr_align = _tr_align;
 
-},{"../utils/common":16}],26:[function(require,module,exports){
+},{"../utils/common":26}],36:[function(require,module,exports){
 'use strict';
 
 
@@ -6336,7 +7317,7 @@ function ZStream() {
 
 module.exports = ZStream;
 
-},{}],27:[function(require,module,exports){
+},{}],37:[function(require,module,exports){
 (function (process,Buffer){
 var msg = require('pako/lib/zlib/messages');
 var zstream = require('pako/lib/zlib/zstream');
@@ -6576,7 +7557,7 @@ Zlib.prototype._error = function(status) {
 exports.Zlib = Zlib;
 
 }).call(this,require('_process'),require("buffer").Buffer)
-},{"_process":37,"buffer":29,"pako/lib/zlib/constants":18,"pako/lib/zlib/deflate.js":20,"pako/lib/zlib/inflate.js":22,"pako/lib/zlib/messages":24,"pako/lib/zlib/zstream":26}],28:[function(require,module,exports){
+},{"_process":47,"buffer":39,"pako/lib/zlib/constants":28,"pako/lib/zlib/deflate.js":30,"pako/lib/zlib/inflate.js":32,"pako/lib/zlib/messages":34,"pako/lib/zlib/zstream":36}],38:[function(require,module,exports){
 (function (process,Buffer){
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -7190,7 +8171,7 @@ util.inherits(InflateRaw, Zlib);
 util.inherits(Unzip, Zlib);
 
 }).call(this,require('_process'),require("buffer").Buffer)
-},{"./binding":27,"_process":37,"_stream_transform":55,"assert":14,"buffer":29,"util":68}],29:[function(require,module,exports){
+},{"./binding":37,"_process":47,"_stream_transform":65,"assert":24,"buffer":39,"util":78}],39:[function(require,module,exports){
 (function (global){
 /*!
  * The buffer module from node.js, for the browser.
@@ -8905,7 +9886,7 @@ function isnan (val) {
 }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"base64-js":30,"ieee754":31,"isarray":32}],30:[function(require,module,exports){
+},{"base64-js":40,"ieee754":41,"isarray":42}],40:[function(require,module,exports){
 'use strict'
 
 exports.toByteArray = toByteArray
@@ -9016,7 +9997,7 @@ function fromByteArray (uint8) {
   return parts.join('')
 }
 
-},{}],31:[function(require,module,exports){
+},{}],41:[function(require,module,exports){
 exports.read = function (buffer, offset, isLE, mLen, nBytes) {
   var e, m
   var eLen = nBytes * 8 - mLen - 1
@@ -9102,14 +10083,14 @@ exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
   buffer[offset + i - d] |= s * 128
 }
 
-},{}],32:[function(require,module,exports){
+},{}],42:[function(require,module,exports){
 var toString = {}.toString;
 
 module.exports = Array.isArray || function (arr) {
   return toString.call(arr) == '[object Array]';
 };
 
-},{}],33:[function(require,module,exports){
+},{}],43:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -9413,7 +10394,7 @@ function isUndefined(arg) {
   return arg === void 0;
 }
 
-},{}],34:[function(require,module,exports){
+},{}],44:[function(require,module,exports){
 var http = require('http');
 
 var https = module.exports;
@@ -9429,7 +10410,7 @@ https.request = function (params, cb) {
     return http.request.call(this, params, cb);
 }
 
-},{"http":58}],35:[function(require,module,exports){
+},{"http":68}],45:[function(require,module,exports){
 if (typeof Object.create === 'function') {
   // implementation from standard node.js 'util' module
   module.exports = function inherits(ctor, superCtor) {
@@ -9454,7 +10435,7 @@ if (typeof Object.create === 'function') {
   }
 }
 
-},{}],36:[function(require,module,exports){
+},{}],46:[function(require,module,exports){
 /**
  * Determine if an object is Buffer
  *
@@ -9473,7 +10454,7 @@ module.exports = function (obj) {
     ))
 }
 
-},{}],37:[function(require,module,exports){
+},{}],47:[function(require,module,exports){
 // shim for using process in browser
 
 var process = module.exports = {};
@@ -9594,7 +10575,7 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}],38:[function(require,module,exports){
+},{}],48:[function(require,module,exports){
 (function (global){
 /*! https://mths.be/punycode v1.4.1 by @mathias */
 ;(function(root) {
@@ -10131,7 +11112,7 @@ process.umask = function() { return 0; };
 }(this));
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],39:[function(require,module,exports){
+},{}],49:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -10217,7 +11198,7 @@ var isArray = Array.isArray || function (xs) {
   return Object.prototype.toString.call(xs) === '[object Array]';
 };
 
-},{}],40:[function(require,module,exports){
+},{}],50:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -10304,16 +11285,16 @@ var objectKeys = Object.keys || function (obj) {
   return res;
 };
 
-},{}],41:[function(require,module,exports){
+},{}],51:[function(require,module,exports){
 'use strict';
 
 exports.decode = exports.parse = require('./decode');
 exports.encode = exports.stringify = require('./encode');
 
-},{"./decode":39,"./encode":40}],42:[function(require,module,exports){
+},{"./decode":49,"./encode":50}],52:[function(require,module,exports){
 module.exports = require("./lib/_stream_duplex.js")
 
-},{"./lib/_stream_duplex.js":43}],43:[function(require,module,exports){
+},{"./lib/_stream_duplex.js":53}],53:[function(require,module,exports){
 // a duplex stream is just a stream that is both readable and writable.
 // Since JS doesn't have multiple prototypal inheritance, this class
 // prototypally inherits from Readable, and then parasitically from
@@ -10389,7 +11370,7 @@ function forEach(xs, f) {
     f(xs[i], i);
   }
 }
-},{"./_stream_readable":45,"./_stream_writable":47,"core-util-is":49,"inherits":35,"process-nextick-args":51}],44:[function(require,module,exports){
+},{"./_stream_readable":55,"./_stream_writable":57,"core-util-is":59,"inherits":45,"process-nextick-args":61}],54:[function(require,module,exports){
 // a passthrough stream.
 // basically just the most minimal sort of Transform stream.
 // Every written chunk gets output as-is.
@@ -10416,7 +11397,7 @@ function PassThrough(options) {
 PassThrough.prototype._transform = function (chunk, encoding, cb) {
   cb(null, chunk);
 };
-},{"./_stream_transform":46,"core-util-is":49,"inherits":35}],45:[function(require,module,exports){
+},{"./_stream_transform":56,"core-util-is":59,"inherits":45}],55:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -11312,7 +12293,7 @@ function indexOf(xs, x) {
   return -1;
 }
 }).call(this,require('_process'))
-},{"./_stream_duplex":43,"_process":37,"buffer":29,"buffer-shims":48,"core-util-is":49,"events":33,"inherits":35,"isarray":50,"process-nextick-args":51,"string_decoder/":64,"util":15}],46:[function(require,module,exports){
+},{"./_stream_duplex":53,"_process":47,"buffer":39,"buffer-shims":58,"core-util-is":59,"events":43,"inherits":45,"isarray":60,"process-nextick-args":61,"string_decoder/":74,"util":25}],56:[function(require,module,exports){
 // a transform stream is a readable/writable stream where you do
 // something with the data.  Sometimes it's called a "filter",
 // but that's not a great name for it, since that implies a thing where
@@ -11493,7 +12474,7 @@ function done(stream, er) {
 
   return stream.push(null);
 }
-},{"./_stream_duplex":43,"core-util-is":49,"inherits":35}],47:[function(require,module,exports){
+},{"./_stream_duplex":53,"core-util-is":59,"inherits":45}],57:[function(require,module,exports){
 (function (process){
 // A bit simpler than readable streams.
 // Implement an async ._write(chunk, encoding, cb), and it'll handle all
@@ -12022,7 +13003,7 @@ function CorkedRequest(state) {
   };
 }
 }).call(this,require('_process'))
-},{"./_stream_duplex":43,"_process":37,"buffer":29,"buffer-shims":48,"core-util-is":49,"events":33,"inherits":35,"process-nextick-args":51,"util-deprecate":52}],48:[function(require,module,exports){
+},{"./_stream_duplex":53,"_process":47,"buffer":39,"buffer-shims":58,"core-util-is":59,"events":43,"inherits":45,"process-nextick-args":61,"util-deprecate":62}],58:[function(require,module,exports){
 (function (global){
 'use strict';
 
@@ -12134,7 +13115,7 @@ exports.allocUnsafeSlow = function allocUnsafeSlow(size) {
 }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"buffer":29}],49:[function(require,module,exports){
+},{"buffer":39}],59:[function(require,module,exports){
 (function (Buffer){
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -12245,9 +13226,9 @@ function objectToString(o) {
 }
 
 }).call(this,{"isBuffer":require("../../../../insert-module-globals/node_modules/is-buffer/index.js")})
-},{"../../../../insert-module-globals/node_modules/is-buffer/index.js":36}],50:[function(require,module,exports){
-arguments[4][32][0].apply(exports,arguments)
-},{"dup":32}],51:[function(require,module,exports){
+},{"../../../../insert-module-globals/node_modules/is-buffer/index.js":46}],60:[function(require,module,exports){
+arguments[4][42][0].apply(exports,arguments)
+},{"dup":42}],61:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -12294,7 +13275,7 @@ function nextTick(fn, arg1, arg2, arg3) {
 }
 
 }).call(this,require('_process'))
-},{"_process":37}],52:[function(require,module,exports){
+},{"_process":47}],62:[function(require,module,exports){
 (function (global){
 
 /**
@@ -12365,10 +13346,10 @@ function config (name) {
 }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],53:[function(require,module,exports){
+},{}],63:[function(require,module,exports){
 module.exports = require("./lib/_stream_passthrough.js")
 
-},{"./lib/_stream_passthrough.js":44}],54:[function(require,module,exports){
+},{"./lib/_stream_passthrough.js":54}],64:[function(require,module,exports){
 (function (process){
 var Stream = (function (){
   try {
@@ -12388,13 +13369,13 @@ if (!process.browser && process.env.READABLE_STREAM === 'disable' && Stream) {
 }
 
 }).call(this,require('_process'))
-},{"./lib/_stream_duplex.js":43,"./lib/_stream_passthrough.js":44,"./lib/_stream_readable.js":45,"./lib/_stream_transform.js":46,"./lib/_stream_writable.js":47,"_process":37}],55:[function(require,module,exports){
+},{"./lib/_stream_duplex.js":53,"./lib/_stream_passthrough.js":54,"./lib/_stream_readable.js":55,"./lib/_stream_transform.js":56,"./lib/_stream_writable.js":57,"_process":47}],65:[function(require,module,exports){
 module.exports = require("./lib/_stream_transform.js")
 
-},{"./lib/_stream_transform.js":46}],56:[function(require,module,exports){
+},{"./lib/_stream_transform.js":56}],66:[function(require,module,exports){
 module.exports = require("./lib/_stream_writable.js")
 
-},{"./lib/_stream_writable.js":47}],57:[function(require,module,exports){
+},{"./lib/_stream_writable.js":57}],67:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -12523,7 +13504,7 @@ Stream.prototype.pipe = function(dest, options) {
   return dest;
 };
 
-},{"events":33,"inherits":35,"readable-stream/duplex.js":42,"readable-stream/passthrough.js":53,"readable-stream/readable.js":54,"readable-stream/transform.js":55,"readable-stream/writable.js":56}],58:[function(require,module,exports){
+},{"events":43,"inherits":45,"readable-stream/duplex.js":52,"readable-stream/passthrough.js":63,"readable-stream/readable.js":64,"readable-stream/transform.js":65,"readable-stream/writable.js":66}],68:[function(require,module,exports){
 (function (global){
 var ClientRequest = require('./lib/request')
 var extend = require('xtend')
@@ -12605,7 +13586,7 @@ http.METHODS = [
 	'UNSUBSCRIBE'
 ]
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./lib/request":60,"builtin-status-codes":62,"url":65,"xtend":69}],59:[function(require,module,exports){
+},{"./lib/request":70,"builtin-status-codes":72,"url":75,"xtend":79}],69:[function(require,module,exports){
 (function (global){
 exports.fetch = isFunction(global.fetch) && isFunction(global.ReadableByteStream)
 
@@ -12649,7 +13630,7 @@ function isFunction (value) {
 xhr = null // Help gc
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],60:[function(require,module,exports){
+},{}],70:[function(require,module,exports){
 (function (process,global,Buffer){
 var capability = require('./capability')
 var inherits = require('inherits')
@@ -12930,7 +13911,7 @@ var unsafeHeaders = [
 ]
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer)
-},{"./capability":59,"./response":61,"_process":37,"buffer":29,"inherits":35,"readable-stream":54,"to-arraybuffer":63}],61:[function(require,module,exports){
+},{"./capability":69,"./response":71,"_process":47,"buffer":39,"inherits":45,"readable-stream":64,"to-arraybuffer":73}],71:[function(require,module,exports){
 (function (process,global,Buffer){
 var capability = require('./capability')
 var inherits = require('inherits')
@@ -13114,7 +14095,7 @@ IncomingMessage.prototype._onXHRProgress = function () {
 }
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer)
-},{"./capability":59,"_process":37,"buffer":29,"inherits":35,"readable-stream":54}],62:[function(require,module,exports){
+},{"./capability":69,"_process":47,"buffer":39,"inherits":45,"readable-stream":64}],72:[function(require,module,exports){
 module.exports = {
   "100": "Continue",
   "101": "Switching Protocols",
@@ -13179,7 +14160,7 @@ module.exports = {
   "511": "Network Authentication Required"
 }
 
-},{}],63:[function(require,module,exports){
+},{}],73:[function(require,module,exports){
 var Buffer = require('buffer').Buffer
 
 module.exports = function (buf) {
@@ -13208,7 +14189,7 @@ module.exports = function (buf) {
 	}
 }
 
-},{"buffer":29}],64:[function(require,module,exports){
+},{"buffer":39}],74:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -13431,7 +14412,7 @@ function base64DetectIncompleteChar(buffer) {
   this.charLength = this.charReceived ? 3 : 0;
 }
 
-},{"buffer":29}],65:[function(require,module,exports){
+},{"buffer":39}],75:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -14165,7 +15146,7 @@ Url.prototype.parseHost = function() {
   if (host) this.hostname = host;
 };
 
-},{"./util":66,"punycode":38,"querystring":41}],66:[function(require,module,exports){
+},{"./util":76,"punycode":48,"querystring":51}],76:[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -14183,14 +15164,14 @@ module.exports = {
   }
 };
 
-},{}],67:[function(require,module,exports){
+},{}],77:[function(require,module,exports){
 module.exports = function isBuffer(arg) {
   return arg && typeof arg === 'object'
     && typeof arg.copy === 'function'
     && typeof arg.fill === 'function'
     && typeof arg.readUInt8 === 'function';
 }
-},{}],68:[function(require,module,exports){
+},{}],78:[function(require,module,exports){
 (function (process,global){
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -14780,7 +15761,7 @@ function hasOwnProperty(obj, prop) {
 }
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./support/isBuffer":67,"_process":37,"inherits":35}],69:[function(require,module,exports){
+},{"./support/isBuffer":77,"_process":47,"inherits":45}],79:[function(require,module,exports){
 module.exports = extend
 
 var hasOwnProperty = Object.prototype.hasOwnProperty;
@@ -14801,7 +15782,72 @@ function extend() {
     return target
 }
 
-},{}],70:[function(require,module,exports){
+},{}],80:[function(require,module,exports){
+"use strict";
+
+function promiseSupported(Promise){
+	return typeof Promise !== "undefined";
+}
+
+module.exports = function(_Promise) {
+	_Promise = _Promise || Promise;
+
+	if (!promiseSupported((_Promise))) {
+		throw new Error('Promise not supported');
+	}
+
+	if (_Promise && typeof _Promise.all === "function" && typeof _Promise.race === "function"){
+		 return arguments[0].series = series;
+	} else {
+		return series.apply(this, arguments);
+	}
+};
+
+
+function series (promises, concurrent) {
+    var results = null;
+    promises = promises.slice();
+    concurrent = concurrent || 1;
+
+    return new Promise(function (resolve, reject) {
+      function next(result) {
+        var concurrentPromises = [];
+        var promise;
+
+        if (!results) {
+          results = [];
+        } else {
+          results = results.concat(result);
+        }
+
+        if (promises.length) {
+          while (concurrentPromises.length < concurrent && promises.length) {
+            var promise = promises.shift();
+
+            if (typeof promise === 'function') {
+              promise = promise();
+            }
+
+            if (!promise || typeof promise.then !== 'function') {
+              promise = Promise.resolve();
+            }
+
+            concurrentPromises.push(promise);
+          }
+
+          Promise.all(concurrentPromises)
+            .then(next)
+            .catch(reject);
+        } else {
+          resolve(results);
+        }
+      }
+
+      next();
+    });
+  }
+
+},{}],81:[function(require,module,exports){
 (function (process,global){
 /*!
  * @overview es6-promise - a tiny implementation of Promises/A+.
@@ -15764,7 +16810,9176 @@ function extend() {
 
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"_process":37}],71:[function(require,module,exports){
+},{"_process":47}],82:[function(require,module,exports){
+/*
+ Leaflet, a JavaScript library for mobile-friendly interactive maps. http://leafletjs.com
+ (c) 2010-2013, Vladimir Agafonkin
+ (c) 2010-2011, CloudMade
+*/
+(function (window, document, undefined) {
+var oldL = window.L,
+    L = {};
+
+L.version = '0.7.7';
+
+// define Leaflet for Node module pattern loaders, including Browserify
+if (typeof module === 'object' && typeof module.exports === 'object') {
+	module.exports = L;
+
+// define Leaflet as an AMD module
+} else if (typeof define === 'function' && define.amd) {
+	define(L);
+}
+
+// define Leaflet as a global L variable, saving the original L to restore later if needed
+
+L.noConflict = function () {
+	window.L = oldL;
+	return this;
+};
+
+window.L = L;
+
+
+/*
+ * L.Util contains various utility functions used throughout Leaflet code.
+ */
+
+L.Util = {
+	extend: function (dest) { // (Object[, Object, ...]) ->
+		var sources = Array.prototype.slice.call(arguments, 1),
+		    i, j, len, src;
+
+		for (j = 0, len = sources.length; j < len; j++) {
+			src = sources[j] || {};
+			for (i in src) {
+				if (src.hasOwnProperty(i)) {
+					dest[i] = src[i];
+				}
+			}
+		}
+		return dest;
+	},
+
+	bind: function (fn, obj) { // (Function, Object) -> Function
+		var args = arguments.length > 2 ? Array.prototype.slice.call(arguments, 2) : null;
+		return function () {
+			return fn.apply(obj, args || arguments);
+		};
+	},
+
+	stamp: (function () {
+		var lastId = 0,
+		    key = '_leaflet_id';
+		return function (obj) {
+			obj[key] = obj[key] || ++lastId;
+			return obj[key];
+		};
+	}()),
+
+	invokeEach: function (obj, method, context) {
+		var i, args;
+
+		if (typeof obj === 'object') {
+			args = Array.prototype.slice.call(arguments, 3);
+
+			for (i in obj) {
+				method.apply(context, [i, obj[i]].concat(args));
+			}
+			return true;
+		}
+
+		return false;
+	},
+
+	limitExecByInterval: function (fn, time, context) {
+		var lock, execOnUnlock;
+
+		return function wrapperFn() {
+			var args = arguments;
+
+			if (lock) {
+				execOnUnlock = true;
+				return;
+			}
+
+			lock = true;
+
+			setTimeout(function () {
+				lock = false;
+
+				if (execOnUnlock) {
+					wrapperFn.apply(context, args);
+					execOnUnlock = false;
+				}
+			}, time);
+
+			fn.apply(context, args);
+		};
+	},
+
+	falseFn: function () {
+		return false;
+	},
+
+	formatNum: function (num, digits) {
+		var pow = Math.pow(10, digits || 5);
+		return Math.round(num * pow) / pow;
+	},
+
+	trim: function (str) {
+		return str.trim ? str.trim() : str.replace(/^\s+|\s+$/g, '');
+	},
+
+	splitWords: function (str) {
+		return L.Util.trim(str).split(/\s+/);
+	},
+
+	setOptions: function (obj, options) {
+		obj.options = L.extend({}, obj.options, options);
+		return obj.options;
+	},
+
+	getParamString: function (obj, existingUrl, uppercase) {
+		var params = [];
+		for (var i in obj) {
+			params.push(encodeURIComponent(uppercase ? i.toUpperCase() : i) + '=' + encodeURIComponent(obj[i]));
+		}
+		return ((!existingUrl || existingUrl.indexOf('?') === -1) ? '?' : '&') + params.join('&');
+	},
+	template: function (str, data) {
+		return str.replace(/\{ *([\w_]+) *\}/g, function (str, key) {
+			var value = data[key];
+			if (value === undefined) {
+				throw new Error('No value provided for variable ' + str);
+			} else if (typeof value === 'function') {
+				value = value(data);
+			}
+			return value;
+		});
+	},
+
+	isArray: Array.isArray || function (obj) {
+		return (Object.prototype.toString.call(obj) === '[object Array]');
+	},
+
+	emptyImageUrl: 'data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='
+};
+
+(function () {
+
+	// inspired by http://paulirish.com/2011/requestanimationframe-for-smart-animating/
+
+	function getPrefixed(name) {
+		var i, fn,
+		    prefixes = ['webkit', 'moz', 'o', 'ms'];
+
+		for (i = 0; i < prefixes.length && !fn; i++) {
+			fn = window[prefixes[i] + name];
+		}
+
+		return fn;
+	}
+
+	var lastTime = 0;
+
+	function timeoutDefer(fn) {
+		var time = +new Date(),
+		    timeToCall = Math.max(0, 16 - (time - lastTime));
+
+		lastTime = time + timeToCall;
+		return window.setTimeout(fn, timeToCall);
+	}
+
+	var requestFn = window.requestAnimationFrame ||
+	        getPrefixed('RequestAnimationFrame') || timeoutDefer;
+
+	var cancelFn = window.cancelAnimationFrame ||
+	        getPrefixed('CancelAnimationFrame') ||
+	        getPrefixed('CancelRequestAnimationFrame') ||
+	        function (id) { window.clearTimeout(id); };
+
+
+	L.Util.requestAnimFrame = function (fn, context, immediate, element) {
+		fn = L.bind(fn, context);
+
+		if (immediate && requestFn === timeoutDefer) {
+			fn();
+		} else {
+			return requestFn.call(window, fn, element);
+		}
+	};
+
+	L.Util.cancelAnimFrame = function (id) {
+		if (id) {
+			cancelFn.call(window, id);
+		}
+	};
+
+}());
+
+// shortcuts for most used utility functions
+L.extend = L.Util.extend;
+L.bind = L.Util.bind;
+L.stamp = L.Util.stamp;
+L.setOptions = L.Util.setOptions;
+
+
+/*
+ * L.Class powers the OOP facilities of the library.
+ * Thanks to John Resig and Dean Edwards for inspiration!
+ */
+
+L.Class = function () {};
+
+L.Class.extend = function (props) {
+
+	// extended class with the new prototype
+	var NewClass = function () {
+
+		// call the constructor
+		if (this.initialize) {
+			this.initialize.apply(this, arguments);
+		}
+
+		// call all constructor hooks
+		if (this._initHooks) {
+			this.callInitHooks();
+		}
+	};
+
+	// instantiate class without calling constructor
+	var F = function () {};
+	F.prototype = this.prototype;
+
+	var proto = new F();
+	proto.constructor = NewClass;
+
+	NewClass.prototype = proto;
+
+	//inherit parent's statics
+	for (var i in this) {
+		if (this.hasOwnProperty(i) && i !== 'prototype') {
+			NewClass[i] = this[i];
+		}
+	}
+
+	// mix static properties into the class
+	if (props.statics) {
+		L.extend(NewClass, props.statics);
+		delete props.statics;
+	}
+
+	// mix includes into the prototype
+	if (props.includes) {
+		L.Util.extend.apply(null, [proto].concat(props.includes));
+		delete props.includes;
+	}
+
+	// merge options
+	if (props.options && proto.options) {
+		props.options = L.extend({}, proto.options, props.options);
+	}
+
+	// mix given properties into the prototype
+	L.extend(proto, props);
+
+	proto._initHooks = [];
+
+	var parent = this;
+	// jshint camelcase: false
+	NewClass.__super__ = parent.prototype;
+
+	// add method for calling all hooks
+	proto.callInitHooks = function () {
+
+		if (this._initHooksCalled) { return; }
+
+		if (parent.prototype.callInitHooks) {
+			parent.prototype.callInitHooks.call(this);
+		}
+
+		this._initHooksCalled = true;
+
+		for (var i = 0, len = proto._initHooks.length; i < len; i++) {
+			proto._initHooks[i].call(this);
+		}
+	};
+
+	return NewClass;
+};
+
+
+// method for adding properties to prototype
+L.Class.include = function (props) {
+	L.extend(this.prototype, props);
+};
+
+// merge new default options to the Class
+L.Class.mergeOptions = function (options) {
+	L.extend(this.prototype.options, options);
+};
+
+// add a constructor hook
+L.Class.addInitHook = function (fn) { // (Function) || (String, args...)
+	var args = Array.prototype.slice.call(arguments, 1);
+
+	var init = typeof fn === 'function' ? fn : function () {
+		this[fn].apply(this, args);
+	};
+
+	this.prototype._initHooks = this.prototype._initHooks || [];
+	this.prototype._initHooks.push(init);
+};
+
+
+/*
+ * L.Mixin.Events is used to add custom events functionality to Leaflet classes.
+ */
+
+var eventsKey = '_leaflet_events';
+
+L.Mixin = {};
+
+L.Mixin.Events = {
+
+	addEventListener: function (types, fn, context) { // (String, Function[, Object]) or (Object[, Object])
+
+		// types can be a map of types/handlers
+		if (L.Util.invokeEach(types, this.addEventListener, this, fn, context)) { return this; }
+
+		var events = this[eventsKey] = this[eventsKey] || {},
+		    contextId = context && context !== this && L.stamp(context),
+		    i, len, event, type, indexKey, indexLenKey, typeIndex;
+
+		// types can be a string of space-separated words
+		types = L.Util.splitWords(types);
+
+		for (i = 0, len = types.length; i < len; i++) {
+			event = {
+				action: fn,
+				context: context || this
+			};
+			type = types[i];
+
+			if (contextId) {
+				// store listeners of a particular context in a separate hash (if it has an id)
+				// gives a major performance boost when removing thousands of map layers
+
+				indexKey = type + '_idx';
+				indexLenKey = indexKey + '_len';
+
+				typeIndex = events[indexKey] = events[indexKey] || {};
+
+				if (!typeIndex[contextId]) {
+					typeIndex[contextId] = [];
+
+					// keep track of the number of keys in the index to quickly check if it's empty
+					events[indexLenKey] = (events[indexLenKey] || 0) + 1;
+				}
+
+				typeIndex[contextId].push(event);
+
+
+			} else {
+				events[type] = events[type] || [];
+				events[type].push(event);
+			}
+		}
+
+		return this;
+	},
+
+	hasEventListeners: function (type) { // (String) -> Boolean
+		var events = this[eventsKey];
+		return !!events && ((type in events && events[type].length > 0) ||
+		                    (type + '_idx' in events && events[type + '_idx_len'] > 0));
+	},
+
+	removeEventListener: function (types, fn, context) { // ([String, Function, Object]) or (Object[, Object])
+
+		if (!this[eventsKey]) {
+			return this;
+		}
+
+		if (!types) {
+			return this.clearAllEventListeners();
+		}
+
+		if (L.Util.invokeEach(types, this.removeEventListener, this, fn, context)) { return this; }
+
+		var events = this[eventsKey],
+		    contextId = context && context !== this && L.stamp(context),
+		    i, len, type, listeners, j, indexKey, indexLenKey, typeIndex, removed;
+
+		types = L.Util.splitWords(types);
+
+		for (i = 0, len = types.length; i < len; i++) {
+			type = types[i];
+			indexKey = type + '_idx';
+			indexLenKey = indexKey + '_len';
+
+			typeIndex = events[indexKey];
+
+			if (!fn) {
+				// clear all listeners for a type if function isn't specified
+				delete events[type];
+				delete events[indexKey];
+				delete events[indexLenKey];
+
+			} else {
+				listeners = contextId && typeIndex ? typeIndex[contextId] : events[type];
+
+				if (listeners) {
+					for (j = listeners.length - 1; j >= 0; j--) {
+						if ((listeners[j].action === fn) && (!context || (listeners[j].context === context))) {
+							removed = listeners.splice(j, 1);
+							// set the old action to a no-op, because it is possible
+							// that the listener is being iterated over as part of a dispatch
+							removed[0].action = L.Util.falseFn;
+						}
+					}
+
+					if (context && typeIndex && (listeners.length === 0)) {
+						delete typeIndex[contextId];
+						events[indexLenKey]--;
+					}
+				}
+			}
+		}
+
+		return this;
+	},
+
+	clearAllEventListeners: function () {
+		delete this[eventsKey];
+		return this;
+	},
+
+	fireEvent: function (type, data) { // (String[, Object])
+		if (!this.hasEventListeners(type)) {
+			return this;
+		}
+
+		var event = L.Util.extend({}, data, { type: type, target: this });
+
+		var events = this[eventsKey],
+		    listeners, i, len, typeIndex, contextId;
+
+		if (events[type]) {
+			// make sure adding/removing listeners inside other listeners won't cause infinite loop
+			listeners = events[type].slice();
+
+			for (i = 0, len = listeners.length; i < len; i++) {
+				listeners[i].action.call(listeners[i].context, event);
+			}
+		}
+
+		// fire event for the context-indexed listeners as well
+		typeIndex = events[type + '_idx'];
+
+		for (contextId in typeIndex) {
+			listeners = typeIndex[contextId].slice();
+
+			if (listeners) {
+				for (i = 0, len = listeners.length; i < len; i++) {
+					listeners[i].action.call(listeners[i].context, event);
+				}
+			}
+		}
+
+		return this;
+	},
+
+	addOneTimeEventListener: function (types, fn, context) {
+
+		if (L.Util.invokeEach(types, this.addOneTimeEventListener, this, fn, context)) { return this; }
+
+		var handler = L.bind(function () {
+			this
+			    .removeEventListener(types, fn, context)
+			    .removeEventListener(types, handler, context);
+		}, this);
+
+		return this
+		    .addEventListener(types, fn, context)
+		    .addEventListener(types, handler, context);
+	}
+};
+
+L.Mixin.Events.on = L.Mixin.Events.addEventListener;
+L.Mixin.Events.off = L.Mixin.Events.removeEventListener;
+L.Mixin.Events.once = L.Mixin.Events.addOneTimeEventListener;
+L.Mixin.Events.fire = L.Mixin.Events.fireEvent;
+
+
+/*
+ * L.Browser handles different browser and feature detections for internal Leaflet use.
+ */
+
+(function () {
+
+	var ie = 'ActiveXObject' in window,
+		ielt9 = ie && !document.addEventListener,
+
+	    // terrible browser detection to work around Safari / iOS / Android browser bugs
+	    ua = navigator.userAgent.toLowerCase(),
+	    webkit = ua.indexOf('webkit') !== -1,
+	    chrome = ua.indexOf('chrome') !== -1,
+	    phantomjs = ua.indexOf('phantom') !== -1,
+	    android = ua.indexOf('android') !== -1,
+	    android23 = ua.search('android [23]') !== -1,
+		gecko = ua.indexOf('gecko') !== -1,
+
+	    mobile = typeof orientation !== undefined + '',
+	    msPointer = !window.PointerEvent && window.MSPointerEvent,
+		pointer = (window.PointerEvent && window.navigator.pointerEnabled) ||
+				  msPointer,
+	    retina = ('devicePixelRatio' in window && window.devicePixelRatio > 1) ||
+	             ('matchMedia' in window && window.matchMedia('(min-resolution:144dpi)') &&
+	              window.matchMedia('(min-resolution:144dpi)').matches),
+
+	    doc = document.documentElement,
+	    ie3d = ie && ('transition' in doc.style),
+	    webkit3d = ('WebKitCSSMatrix' in window) && ('m11' in new window.WebKitCSSMatrix()) && !android23,
+	    gecko3d = 'MozPerspective' in doc.style,
+	    opera3d = 'OTransition' in doc.style,
+	    any3d = !window.L_DISABLE_3D && (ie3d || webkit3d || gecko3d || opera3d) && !phantomjs;
+
+	var touch = !window.L_NO_TOUCH && !phantomjs && (pointer || 'ontouchstart' in window ||
+		(window.DocumentTouch && document instanceof window.DocumentTouch));
+
+	L.Browser = {
+		ie: ie,
+		ielt9: ielt9,
+		webkit: webkit,
+		gecko: gecko && !webkit && !window.opera && !ie,
+
+		android: android,
+		android23: android23,
+
+		chrome: chrome,
+
+		ie3d: ie3d,
+		webkit3d: webkit3d,
+		gecko3d: gecko3d,
+		opera3d: opera3d,
+		any3d: any3d,
+
+		mobile: mobile,
+		mobileWebkit: mobile && webkit,
+		mobileWebkit3d: mobile && webkit3d,
+		mobileOpera: mobile && window.opera,
+
+		touch: touch,
+		msPointer: msPointer,
+		pointer: pointer,
+
+		retina: retina
+	};
+
+}());
+
+
+/*
+ * L.Point represents a point with x and y coordinates.
+ */
+
+L.Point = function (/*Number*/ x, /*Number*/ y, /*Boolean*/ round) {
+	this.x = (round ? Math.round(x) : x);
+	this.y = (round ? Math.round(y) : y);
+};
+
+L.Point.prototype = {
+
+	clone: function () {
+		return new L.Point(this.x, this.y);
+	},
+
+	// non-destructive, returns a new point
+	add: function (point) {
+		return this.clone()._add(L.point(point));
+	},
+
+	// destructive, used directly for performance in situations where it's safe to modify existing point
+	_add: function (point) {
+		this.x += point.x;
+		this.y += point.y;
+		return this;
+	},
+
+	subtract: function (point) {
+		return this.clone()._subtract(L.point(point));
+	},
+
+	_subtract: function (point) {
+		this.x -= point.x;
+		this.y -= point.y;
+		return this;
+	},
+
+	divideBy: function (num) {
+		return this.clone()._divideBy(num);
+	},
+
+	_divideBy: function (num) {
+		this.x /= num;
+		this.y /= num;
+		return this;
+	},
+
+	multiplyBy: function (num) {
+		return this.clone()._multiplyBy(num);
+	},
+
+	_multiplyBy: function (num) {
+		this.x *= num;
+		this.y *= num;
+		return this;
+	},
+
+	round: function () {
+		return this.clone()._round();
+	},
+
+	_round: function () {
+		this.x = Math.round(this.x);
+		this.y = Math.round(this.y);
+		return this;
+	},
+
+	floor: function () {
+		return this.clone()._floor();
+	},
+
+	_floor: function () {
+		this.x = Math.floor(this.x);
+		this.y = Math.floor(this.y);
+		return this;
+	},
+
+	distanceTo: function (point) {
+		point = L.point(point);
+
+		var x = point.x - this.x,
+		    y = point.y - this.y;
+
+		return Math.sqrt(x * x + y * y);
+	},
+
+	equals: function (point) {
+		point = L.point(point);
+
+		return point.x === this.x &&
+		       point.y === this.y;
+	},
+
+	contains: function (point) {
+		point = L.point(point);
+
+		return Math.abs(point.x) <= Math.abs(this.x) &&
+		       Math.abs(point.y) <= Math.abs(this.y);
+	},
+
+	toString: function () {
+		return 'Point(' +
+		        L.Util.formatNum(this.x) + ', ' +
+		        L.Util.formatNum(this.y) + ')';
+	}
+};
+
+L.point = function (x, y, round) {
+	if (x instanceof L.Point) {
+		return x;
+	}
+	if (L.Util.isArray(x)) {
+		return new L.Point(x[0], x[1]);
+	}
+	if (x === undefined || x === null) {
+		return x;
+	}
+	return new L.Point(x, y, round);
+};
+
+
+/*
+ * L.Bounds represents a rectangular area on the screen in pixel coordinates.
+ */
+
+L.Bounds = function (a, b) { //(Point, Point) or Point[]
+	if (!a) { return; }
+
+	var points = b ? [a, b] : a;
+
+	for (var i = 0, len = points.length; i < len; i++) {
+		this.extend(points[i]);
+	}
+};
+
+L.Bounds.prototype = {
+	// extend the bounds to contain the given point
+	extend: function (point) { // (Point)
+		point = L.point(point);
+
+		if (!this.min && !this.max) {
+			this.min = point.clone();
+			this.max = point.clone();
+		} else {
+			this.min.x = Math.min(point.x, this.min.x);
+			this.max.x = Math.max(point.x, this.max.x);
+			this.min.y = Math.min(point.y, this.min.y);
+			this.max.y = Math.max(point.y, this.max.y);
+		}
+		return this;
+	},
+
+	getCenter: function (round) { // (Boolean) -> Point
+		return new L.Point(
+		        (this.min.x + this.max.x) / 2,
+		        (this.min.y + this.max.y) / 2, round);
+	},
+
+	getBottomLeft: function () { // -> Point
+		return new L.Point(this.min.x, this.max.y);
+	},
+
+	getTopRight: function () { // -> Point
+		return new L.Point(this.max.x, this.min.y);
+	},
+
+	getSize: function () {
+		return this.max.subtract(this.min);
+	},
+
+	contains: function (obj) { // (Bounds) or (Point) -> Boolean
+		var min, max;
+
+		if (typeof obj[0] === 'number' || obj instanceof L.Point) {
+			obj = L.point(obj);
+		} else {
+			obj = L.bounds(obj);
+		}
+
+		if (obj instanceof L.Bounds) {
+			min = obj.min;
+			max = obj.max;
+		} else {
+			min = max = obj;
+		}
+
+		return (min.x >= this.min.x) &&
+		       (max.x <= this.max.x) &&
+		       (min.y >= this.min.y) &&
+		       (max.y <= this.max.y);
+	},
+
+	intersects: function (bounds) { // (Bounds) -> Boolean
+		bounds = L.bounds(bounds);
+
+		var min = this.min,
+		    max = this.max,
+		    min2 = bounds.min,
+		    max2 = bounds.max,
+		    xIntersects = (max2.x >= min.x) && (min2.x <= max.x),
+		    yIntersects = (max2.y >= min.y) && (min2.y <= max.y);
+
+		return xIntersects && yIntersects;
+	},
+
+	isValid: function () {
+		return !!(this.min && this.max);
+	}
+};
+
+L.bounds = function (a, b) { // (Bounds) or (Point, Point) or (Point[])
+	if (!a || a instanceof L.Bounds) {
+		return a;
+	}
+	return new L.Bounds(a, b);
+};
+
+
+/*
+ * L.Transformation is an utility class to perform simple point transformations through a 2d-matrix.
+ */
+
+L.Transformation = function (a, b, c, d) {
+	this._a = a;
+	this._b = b;
+	this._c = c;
+	this._d = d;
+};
+
+L.Transformation.prototype = {
+	transform: function (point, scale) { // (Point, Number) -> Point
+		return this._transform(point.clone(), scale);
+	},
+
+	// destructive transform (faster)
+	_transform: function (point, scale) {
+		scale = scale || 1;
+		point.x = scale * (this._a * point.x + this._b);
+		point.y = scale * (this._c * point.y + this._d);
+		return point;
+	},
+
+	untransform: function (point, scale) {
+		scale = scale || 1;
+		return new L.Point(
+		        (point.x / scale - this._b) / this._a,
+		        (point.y / scale - this._d) / this._c);
+	}
+};
+
+
+/*
+ * L.DomUtil contains various utility functions for working with DOM.
+ */
+
+L.DomUtil = {
+	get: function (id) {
+		return (typeof id === 'string' ? document.getElementById(id) : id);
+	},
+
+	getStyle: function (el, style) {
+
+		var value = el.style[style];
+
+		if (!value && el.currentStyle) {
+			value = el.currentStyle[style];
+		}
+
+		if ((!value || value === 'auto') && document.defaultView) {
+			var css = document.defaultView.getComputedStyle(el, null);
+			value = css ? css[style] : null;
+		}
+
+		return value === 'auto' ? null : value;
+	},
+
+	getViewportOffset: function (element) {
+
+		var top = 0,
+		    left = 0,
+		    el = element,
+		    docBody = document.body,
+		    docEl = document.documentElement,
+		    pos;
+
+		do {
+			top  += el.offsetTop  || 0;
+			left += el.offsetLeft || 0;
+
+			//add borders
+			top += parseInt(L.DomUtil.getStyle(el, 'borderTopWidth'), 10) || 0;
+			left += parseInt(L.DomUtil.getStyle(el, 'borderLeftWidth'), 10) || 0;
+
+			pos = L.DomUtil.getStyle(el, 'position');
+
+			if (el.offsetParent === docBody && pos === 'absolute') { break; }
+
+			if (pos === 'fixed') {
+				top  += docBody.scrollTop  || docEl.scrollTop  || 0;
+				left += docBody.scrollLeft || docEl.scrollLeft || 0;
+				break;
+			}
+
+			if (pos === 'relative' && !el.offsetLeft) {
+				var width = L.DomUtil.getStyle(el, 'width'),
+				    maxWidth = L.DomUtil.getStyle(el, 'max-width'),
+				    r = el.getBoundingClientRect();
+
+				if (width !== 'none' || maxWidth !== 'none') {
+					left += r.left + el.clientLeft;
+				}
+
+				//calculate full y offset since we're breaking out of the loop
+				top += r.top + (docBody.scrollTop  || docEl.scrollTop  || 0);
+
+				break;
+			}
+
+			el = el.offsetParent;
+
+		} while (el);
+
+		el = element;
+
+		do {
+			if (el === docBody) { break; }
+
+			top  -= el.scrollTop  || 0;
+			left -= el.scrollLeft || 0;
+
+			el = el.parentNode;
+		} while (el);
+
+		return new L.Point(left, top);
+	},
+
+	documentIsLtr: function () {
+		if (!L.DomUtil._docIsLtrCached) {
+			L.DomUtil._docIsLtrCached = true;
+			L.DomUtil._docIsLtr = L.DomUtil.getStyle(document.body, 'direction') === 'ltr';
+		}
+		return L.DomUtil._docIsLtr;
+	},
+
+	create: function (tagName, className, container) {
+
+		var el = document.createElement(tagName);
+		el.className = className;
+
+		if (container) {
+			container.appendChild(el);
+		}
+
+		return el;
+	},
+
+	hasClass: function (el, name) {
+		if (el.classList !== undefined) {
+			return el.classList.contains(name);
+		}
+		var className = L.DomUtil._getClass(el);
+		return className.length > 0 && new RegExp('(^|\\s)' + name + '(\\s|$)').test(className);
+	},
+
+	addClass: function (el, name) {
+		if (el.classList !== undefined) {
+			var classes = L.Util.splitWords(name);
+			for (var i = 0, len = classes.length; i < len; i++) {
+				el.classList.add(classes[i]);
+			}
+		} else if (!L.DomUtil.hasClass(el, name)) {
+			var className = L.DomUtil._getClass(el);
+			L.DomUtil._setClass(el, (className ? className + ' ' : '') + name);
+		}
+	},
+
+	removeClass: function (el, name) {
+		if (el.classList !== undefined) {
+			el.classList.remove(name);
+		} else {
+			L.DomUtil._setClass(el, L.Util.trim((' ' + L.DomUtil._getClass(el) + ' ').replace(' ' + name + ' ', ' ')));
+		}
+	},
+
+	_setClass: function (el, name) {
+		if (el.className.baseVal === undefined) {
+			el.className = name;
+		} else {
+			// in case of SVG element
+			el.className.baseVal = name;
+		}
+	},
+
+	_getClass: function (el) {
+		return el.className.baseVal === undefined ? el.className : el.className.baseVal;
+	},
+
+	setOpacity: function (el, value) {
+
+		if ('opacity' in el.style) {
+			el.style.opacity = value;
+
+		} else if ('filter' in el.style) {
+
+			var filter = false,
+			    filterName = 'DXImageTransform.Microsoft.Alpha';
+
+			// filters collection throws an error if we try to retrieve a filter that doesn't exist
+			try {
+				filter = el.filters.item(filterName);
+			} catch (e) {
+				// don't set opacity to 1 if we haven't already set an opacity,
+				// it isn't needed and breaks transparent pngs.
+				if (value === 1) { return; }
+			}
+
+			value = Math.round(value * 100);
+
+			if (filter) {
+				filter.Enabled = (value !== 100);
+				filter.Opacity = value;
+			} else {
+				el.style.filter += ' progid:' + filterName + '(opacity=' + value + ')';
+			}
+		}
+	},
+
+	testProp: function (props) {
+
+		var style = document.documentElement.style;
+
+		for (var i = 0; i < props.length; i++) {
+			if (props[i] in style) {
+				return props[i];
+			}
+		}
+		return false;
+	},
+
+	getTranslateString: function (point) {
+		// on WebKit browsers (Chrome/Safari/iOS Safari/Android) using translate3d instead of translate
+		// makes animation smoother as it ensures HW accel is used. Firefox 13 doesn't care
+		// (same speed either way), Opera 12 doesn't support translate3d
+
+		var is3d = L.Browser.webkit3d,
+		    open = 'translate' + (is3d ? '3d' : '') + '(',
+		    close = (is3d ? ',0' : '') + ')';
+
+		return open + point.x + 'px,' + point.y + 'px' + close;
+	},
+
+	getScaleString: function (scale, origin) {
+
+		var preTranslateStr = L.DomUtil.getTranslateString(origin.add(origin.multiplyBy(-1 * scale))),
+		    scaleStr = ' scale(' + scale + ') ';
+
+		return preTranslateStr + scaleStr;
+	},
+
+	setPosition: function (el, point, disable3D) { // (HTMLElement, Point[, Boolean])
+
+		// jshint camelcase: false
+		el._leaflet_pos = point;
+
+		if (!disable3D && L.Browser.any3d) {
+			el.style[L.DomUtil.TRANSFORM] =  L.DomUtil.getTranslateString(point);
+		} else {
+			el.style.left = point.x + 'px';
+			el.style.top = point.y + 'px';
+		}
+	},
+
+	getPosition: function (el) {
+		// this method is only used for elements previously positioned using setPosition,
+		// so it's safe to cache the position for performance
+
+		// jshint camelcase: false
+		return el._leaflet_pos;
+	}
+};
+
+
+// prefix style property names
+
+L.DomUtil.TRANSFORM = L.DomUtil.testProp(
+        ['transform', 'WebkitTransform', 'OTransform', 'MozTransform', 'msTransform']);
+
+// webkitTransition comes first because some browser versions that drop vendor prefix don't do
+// the same for the transitionend event, in particular the Android 4.1 stock browser
+
+L.DomUtil.TRANSITION = L.DomUtil.testProp(
+        ['webkitTransition', 'transition', 'OTransition', 'MozTransition', 'msTransition']);
+
+L.DomUtil.TRANSITION_END =
+        L.DomUtil.TRANSITION === 'webkitTransition' || L.DomUtil.TRANSITION === 'OTransition' ?
+        L.DomUtil.TRANSITION + 'End' : 'transitionend';
+
+(function () {
+    if ('onselectstart' in document) {
+        L.extend(L.DomUtil, {
+            disableTextSelection: function () {
+                L.DomEvent.on(window, 'selectstart', L.DomEvent.preventDefault);
+            },
+
+            enableTextSelection: function () {
+                L.DomEvent.off(window, 'selectstart', L.DomEvent.preventDefault);
+            }
+        });
+    } else {
+        var userSelectProperty = L.DomUtil.testProp(
+            ['userSelect', 'WebkitUserSelect', 'OUserSelect', 'MozUserSelect', 'msUserSelect']);
+
+        L.extend(L.DomUtil, {
+            disableTextSelection: function () {
+                if (userSelectProperty) {
+                    var style = document.documentElement.style;
+                    this._userSelect = style[userSelectProperty];
+                    style[userSelectProperty] = 'none';
+                }
+            },
+
+            enableTextSelection: function () {
+                if (userSelectProperty) {
+                    document.documentElement.style[userSelectProperty] = this._userSelect;
+                    delete this._userSelect;
+                }
+            }
+        });
+    }
+
+	L.extend(L.DomUtil, {
+		disableImageDrag: function () {
+			L.DomEvent.on(window, 'dragstart', L.DomEvent.preventDefault);
+		},
+
+		enableImageDrag: function () {
+			L.DomEvent.off(window, 'dragstart', L.DomEvent.preventDefault);
+		}
+	});
+})();
+
+
+/*
+ * L.LatLng represents a geographical point with latitude and longitude coordinates.
+ */
+
+L.LatLng = function (lat, lng, alt) { // (Number, Number, Number)
+	lat = parseFloat(lat);
+	lng = parseFloat(lng);
+
+	if (isNaN(lat) || isNaN(lng)) {
+		throw new Error('Invalid LatLng object: (' + lat + ', ' + lng + ')');
+	}
+
+	this.lat = lat;
+	this.lng = lng;
+
+	if (alt !== undefined) {
+		this.alt = parseFloat(alt);
+	}
+};
+
+L.extend(L.LatLng, {
+	DEG_TO_RAD: Math.PI / 180,
+	RAD_TO_DEG: 180 / Math.PI,
+	MAX_MARGIN: 1.0E-9 // max margin of error for the "equals" check
+});
+
+L.LatLng.prototype = {
+	equals: function (obj) { // (LatLng) -> Boolean
+		if (!obj) { return false; }
+
+		obj = L.latLng(obj);
+
+		var margin = Math.max(
+		        Math.abs(this.lat - obj.lat),
+		        Math.abs(this.lng - obj.lng));
+
+		return margin <= L.LatLng.MAX_MARGIN;
+	},
+
+	toString: function (precision) { // (Number) -> String
+		return 'LatLng(' +
+		        L.Util.formatNum(this.lat, precision) + ', ' +
+		        L.Util.formatNum(this.lng, precision) + ')';
+	},
+
+	// Haversine distance formula, see http://en.wikipedia.org/wiki/Haversine_formula
+	// TODO move to projection code, LatLng shouldn't know about Earth
+	distanceTo: function (other) { // (LatLng) -> Number
+		other = L.latLng(other);
+
+		var R = 6378137, // earth radius in meters
+		    d2r = L.LatLng.DEG_TO_RAD,
+		    dLat = (other.lat - this.lat) * d2r,
+		    dLon = (other.lng - this.lng) * d2r,
+		    lat1 = this.lat * d2r,
+		    lat2 = other.lat * d2r,
+		    sin1 = Math.sin(dLat / 2),
+		    sin2 = Math.sin(dLon / 2);
+
+		var a = sin1 * sin1 + sin2 * sin2 * Math.cos(lat1) * Math.cos(lat2);
+
+		return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+	},
+
+	wrap: function (a, b) { // (Number, Number) -> LatLng
+		var lng = this.lng;
+
+		a = a || -180;
+		b = b ||  180;
+
+		lng = (lng + b) % (b - a) + (lng < a || lng === b ? b : a);
+
+		return new L.LatLng(this.lat, lng);
+	}
+};
+
+L.latLng = function (a, b) { // (LatLng) or ([Number, Number]) or (Number, Number)
+	if (a instanceof L.LatLng) {
+		return a;
+	}
+	if (L.Util.isArray(a)) {
+		if (typeof a[0] === 'number' || typeof a[0] === 'string') {
+			return new L.LatLng(a[0], a[1], a[2]);
+		} else {
+			return null;
+		}
+	}
+	if (a === undefined || a === null) {
+		return a;
+	}
+	if (typeof a === 'object' && 'lat' in a) {
+		return new L.LatLng(a.lat, 'lng' in a ? a.lng : a.lon);
+	}
+	if (b === undefined) {
+		return null;
+	}
+	return new L.LatLng(a, b);
+};
+
+
+
+/*
+ * L.LatLngBounds represents a rectangular area on the map in geographical coordinates.
+ */
+
+L.LatLngBounds = function (southWest, northEast) { // (LatLng, LatLng) or (LatLng[])
+	if (!southWest) { return; }
+
+	var latlngs = northEast ? [southWest, northEast] : southWest;
+
+	for (var i = 0, len = latlngs.length; i < len; i++) {
+		this.extend(latlngs[i]);
+	}
+};
+
+L.LatLngBounds.prototype = {
+	// extend the bounds to contain the given point or bounds
+	extend: function (obj) { // (LatLng) or (LatLngBounds)
+		if (!obj) { return this; }
+
+		var latLng = L.latLng(obj);
+		if (latLng !== null) {
+			obj = latLng;
+		} else {
+			obj = L.latLngBounds(obj);
+		}
+
+		if (obj instanceof L.LatLng) {
+			if (!this._southWest && !this._northEast) {
+				this._southWest = new L.LatLng(obj.lat, obj.lng);
+				this._northEast = new L.LatLng(obj.lat, obj.lng);
+			} else {
+				this._southWest.lat = Math.min(obj.lat, this._southWest.lat);
+				this._southWest.lng = Math.min(obj.lng, this._southWest.lng);
+
+				this._northEast.lat = Math.max(obj.lat, this._northEast.lat);
+				this._northEast.lng = Math.max(obj.lng, this._northEast.lng);
+			}
+		} else if (obj instanceof L.LatLngBounds) {
+			this.extend(obj._southWest);
+			this.extend(obj._northEast);
+		}
+		return this;
+	},
+
+	// extend the bounds by a percentage
+	pad: function (bufferRatio) { // (Number) -> LatLngBounds
+		var sw = this._southWest,
+		    ne = this._northEast,
+		    heightBuffer = Math.abs(sw.lat - ne.lat) * bufferRatio,
+		    widthBuffer = Math.abs(sw.lng - ne.lng) * bufferRatio;
+
+		return new L.LatLngBounds(
+		        new L.LatLng(sw.lat - heightBuffer, sw.lng - widthBuffer),
+		        new L.LatLng(ne.lat + heightBuffer, ne.lng + widthBuffer));
+	},
+
+	getCenter: function () { // -> LatLng
+		return new L.LatLng(
+		        (this._southWest.lat + this._northEast.lat) / 2,
+		        (this._southWest.lng + this._northEast.lng) / 2);
+	},
+
+	getSouthWest: function () {
+		return this._southWest;
+	},
+
+	getNorthEast: function () {
+		return this._northEast;
+	},
+
+	getNorthWest: function () {
+		return new L.LatLng(this.getNorth(), this.getWest());
+	},
+
+	getSouthEast: function () {
+		return new L.LatLng(this.getSouth(), this.getEast());
+	},
+
+	getWest: function () {
+		return this._southWest.lng;
+	},
+
+	getSouth: function () {
+		return this._southWest.lat;
+	},
+
+	getEast: function () {
+		return this._northEast.lng;
+	},
+
+	getNorth: function () {
+		return this._northEast.lat;
+	},
+
+	contains: function (obj) { // (LatLngBounds) or (LatLng) -> Boolean
+		if (typeof obj[0] === 'number' || obj instanceof L.LatLng) {
+			obj = L.latLng(obj);
+		} else {
+			obj = L.latLngBounds(obj);
+		}
+
+		var sw = this._southWest,
+		    ne = this._northEast,
+		    sw2, ne2;
+
+		if (obj instanceof L.LatLngBounds) {
+			sw2 = obj.getSouthWest();
+			ne2 = obj.getNorthEast();
+		} else {
+			sw2 = ne2 = obj;
+		}
+
+		return (sw2.lat >= sw.lat) && (ne2.lat <= ne.lat) &&
+		       (sw2.lng >= sw.lng) && (ne2.lng <= ne.lng);
+	},
+
+	intersects: function (bounds) { // (LatLngBounds)
+		bounds = L.latLngBounds(bounds);
+
+		var sw = this._southWest,
+		    ne = this._northEast,
+		    sw2 = bounds.getSouthWest(),
+		    ne2 = bounds.getNorthEast(),
+
+		    latIntersects = (ne2.lat >= sw.lat) && (sw2.lat <= ne.lat),
+		    lngIntersects = (ne2.lng >= sw.lng) && (sw2.lng <= ne.lng);
+
+		return latIntersects && lngIntersects;
+	},
+
+	toBBoxString: function () {
+		return [this.getWest(), this.getSouth(), this.getEast(), this.getNorth()].join(',');
+	},
+
+	equals: function (bounds) { // (LatLngBounds)
+		if (!bounds) { return false; }
+
+		bounds = L.latLngBounds(bounds);
+
+		return this._southWest.equals(bounds.getSouthWest()) &&
+		       this._northEast.equals(bounds.getNorthEast());
+	},
+
+	isValid: function () {
+		return !!(this._southWest && this._northEast);
+	}
+};
+
+//TODO International date line?
+
+L.latLngBounds = function (a, b) { // (LatLngBounds) or (LatLng, LatLng)
+	if (!a || a instanceof L.LatLngBounds) {
+		return a;
+	}
+	return new L.LatLngBounds(a, b);
+};
+
+
+/*
+ * L.Projection contains various geographical projections used by CRS classes.
+ */
+
+L.Projection = {};
+
+
+/*
+ * Spherical Mercator is the most popular map projection, used by EPSG:3857 CRS used by default.
+ */
+
+L.Projection.SphericalMercator = {
+	MAX_LATITUDE: 85.0511287798,
+
+	project: function (latlng) { // (LatLng) -> Point
+		var d = L.LatLng.DEG_TO_RAD,
+		    max = this.MAX_LATITUDE,
+		    lat = Math.max(Math.min(max, latlng.lat), -max),
+		    x = latlng.lng * d,
+		    y = lat * d;
+
+		y = Math.log(Math.tan((Math.PI / 4) + (y / 2)));
+
+		return new L.Point(x, y);
+	},
+
+	unproject: function (point) { // (Point, Boolean) -> LatLng
+		var d = L.LatLng.RAD_TO_DEG,
+		    lng = point.x * d,
+		    lat = (2 * Math.atan(Math.exp(point.y)) - (Math.PI / 2)) * d;
+
+		return new L.LatLng(lat, lng);
+	}
+};
+
+
+/*
+ * Simple equirectangular (Plate Carree) projection, used by CRS like EPSG:4326 and Simple.
+ */
+
+L.Projection.LonLat = {
+	project: function (latlng) {
+		return new L.Point(latlng.lng, latlng.lat);
+	},
+
+	unproject: function (point) {
+		return new L.LatLng(point.y, point.x);
+	}
+};
+
+
+/*
+ * L.CRS is a base object for all defined CRS (Coordinate Reference Systems) in Leaflet.
+ */
+
+L.CRS = {
+	latLngToPoint: function (latlng, zoom) { // (LatLng, Number) -> Point
+		var projectedPoint = this.projection.project(latlng),
+		    scale = this.scale(zoom);
+
+		return this.transformation._transform(projectedPoint, scale);
+	},
+
+	pointToLatLng: function (point, zoom) { // (Point, Number[, Boolean]) -> LatLng
+		var scale = this.scale(zoom),
+		    untransformedPoint = this.transformation.untransform(point, scale);
+
+		return this.projection.unproject(untransformedPoint);
+	},
+
+	project: function (latlng) {
+		return this.projection.project(latlng);
+	},
+
+	scale: function (zoom) {
+		return 256 * Math.pow(2, zoom);
+	},
+
+	getSize: function (zoom) {
+		var s = this.scale(zoom);
+		return L.point(s, s);
+	}
+};
+
+
+/*
+ * A simple CRS that can be used for flat non-Earth maps like panoramas or game maps.
+ */
+
+L.CRS.Simple = L.extend({}, L.CRS, {
+	projection: L.Projection.LonLat,
+	transformation: new L.Transformation(1, 0, -1, 0),
+
+	scale: function (zoom) {
+		return Math.pow(2, zoom);
+	}
+});
+
+
+/*
+ * L.CRS.EPSG3857 (Spherical Mercator) is the most common CRS for web mapping
+ * and is used by Leaflet by default.
+ */
+
+L.CRS.EPSG3857 = L.extend({}, L.CRS, {
+	code: 'EPSG:3857',
+
+	projection: L.Projection.SphericalMercator,
+	transformation: new L.Transformation(0.5 / Math.PI, 0.5, -0.5 / Math.PI, 0.5),
+
+	project: function (latlng) { // (LatLng) -> Point
+		var projectedPoint = this.projection.project(latlng),
+		    earthRadius = 6378137;
+		return projectedPoint.multiplyBy(earthRadius);
+	}
+});
+
+L.CRS.EPSG900913 = L.extend({}, L.CRS.EPSG3857, {
+	code: 'EPSG:900913'
+});
+
+
+/*
+ * L.CRS.EPSG4326 is a CRS popular among advanced GIS specialists.
+ */
+
+L.CRS.EPSG4326 = L.extend({}, L.CRS, {
+	code: 'EPSG:4326',
+
+	projection: L.Projection.LonLat,
+	transformation: new L.Transformation(1 / 360, 0.5, -1 / 360, 0.5)
+});
+
+
+/*
+ * L.Map is the central class of the API - it is used to create a map.
+ */
+
+L.Map = L.Class.extend({
+
+	includes: L.Mixin.Events,
+
+	options: {
+		crs: L.CRS.EPSG3857,
+
+		/*
+		center: LatLng,
+		zoom: Number,
+		layers: Array,
+		*/
+
+		fadeAnimation: L.DomUtil.TRANSITION && !L.Browser.android23,
+		trackResize: true,
+		markerZoomAnimation: L.DomUtil.TRANSITION && L.Browser.any3d
+	},
+
+	initialize: function (id, options) { // (HTMLElement or String, Object)
+		options = L.setOptions(this, options);
+
+
+		this._initContainer(id);
+		this._initLayout();
+
+		// hack for https://github.com/Leaflet/Leaflet/issues/1980
+		this._onResize = L.bind(this._onResize, this);
+
+		this._initEvents();
+
+		if (options.maxBounds) {
+			this.setMaxBounds(options.maxBounds);
+		}
+
+		if (options.center && options.zoom !== undefined) {
+			this.setView(L.latLng(options.center), options.zoom, {reset: true});
+		}
+
+		this._handlers = [];
+
+		this._layers = {};
+		this._zoomBoundLayers = {};
+		this._tileLayersNum = 0;
+
+		this.callInitHooks();
+
+		this._addLayers(options.layers);
+	},
+
+
+	// public methods that modify map state
+
+	// replaced by animation-powered implementation in Map.PanAnimation.js
+	setView: function (center, zoom) {
+		zoom = zoom === undefined ? this.getZoom() : zoom;
+		this._resetView(L.latLng(center), this._limitZoom(zoom));
+		return this;
+	},
+
+	setZoom: function (zoom, options) {
+		if (!this._loaded) {
+			this._zoom = this._limitZoom(zoom);
+			return this;
+		}
+		return this.setView(this.getCenter(), zoom, {zoom: options});
+	},
+
+	zoomIn: function (delta, options) {
+		return this.setZoom(this._zoom + (delta || 1), options);
+	},
+
+	zoomOut: function (delta, options) {
+		return this.setZoom(this._zoom - (delta || 1), options);
+	},
+
+	setZoomAround: function (latlng, zoom, options) {
+		var scale = this.getZoomScale(zoom),
+		    viewHalf = this.getSize().divideBy(2),
+		    containerPoint = latlng instanceof L.Point ? latlng : this.latLngToContainerPoint(latlng),
+
+		    centerOffset = containerPoint.subtract(viewHalf).multiplyBy(1 - 1 / scale),
+		    newCenter = this.containerPointToLatLng(viewHalf.add(centerOffset));
+
+		return this.setView(newCenter, zoom, {zoom: options});
+	},
+
+	fitBounds: function (bounds, options) {
+
+		options = options || {};
+		bounds = bounds.getBounds ? bounds.getBounds() : L.latLngBounds(bounds);
+
+		var paddingTL = L.point(options.paddingTopLeft || options.padding || [0, 0]),
+		    paddingBR = L.point(options.paddingBottomRight || options.padding || [0, 0]),
+
+		    zoom = this.getBoundsZoom(bounds, false, paddingTL.add(paddingBR));
+
+		zoom = (options.maxZoom) ? Math.min(options.maxZoom, zoom) : zoom;
+
+		var paddingOffset = paddingBR.subtract(paddingTL).divideBy(2),
+
+		    swPoint = this.project(bounds.getSouthWest(), zoom),
+		    nePoint = this.project(bounds.getNorthEast(), zoom),
+		    center = this.unproject(swPoint.add(nePoint).divideBy(2).add(paddingOffset), zoom);
+
+		return this.setView(center, zoom, options);
+	},
+
+	fitWorld: function (options) {
+		return this.fitBounds([[-90, -180], [90, 180]], options);
+	},
+
+	panTo: function (center, options) { // (LatLng)
+		return this.setView(center, this._zoom, {pan: options});
+	},
+
+	panBy: function (offset) { // (Point)
+		// replaced with animated panBy in Map.PanAnimation.js
+		this.fire('movestart');
+
+		this._rawPanBy(L.point(offset));
+
+		this.fire('move');
+		return this.fire('moveend');
+	},
+
+	setMaxBounds: function (bounds) {
+		bounds = L.latLngBounds(bounds);
+
+		this.options.maxBounds = bounds;
+
+		if (!bounds) {
+			return this.off('moveend', this._panInsideMaxBounds, this);
+		}
+
+		if (this._loaded) {
+			this._panInsideMaxBounds();
+		}
+
+		return this.on('moveend', this._panInsideMaxBounds, this);
+	},
+
+	panInsideBounds: function (bounds, options) {
+		var center = this.getCenter(),
+			newCenter = this._limitCenter(center, this._zoom, bounds);
+
+		if (center.equals(newCenter)) { return this; }
+
+		return this.panTo(newCenter, options);
+	},
+
+	addLayer: function (layer) {
+		// TODO method is too big, refactor
+
+		var id = L.stamp(layer);
+
+		if (this._layers[id]) { return this; }
+
+		this._layers[id] = layer;
+
+		// TODO getMaxZoom, getMinZoom in ILayer (instead of options)
+		if (layer.options && (!isNaN(layer.options.maxZoom) || !isNaN(layer.options.minZoom))) {
+			this._zoomBoundLayers[id] = layer;
+			this._updateZoomLevels();
+		}
+
+		// TODO looks ugly, refactor!!!
+		if (this.options.zoomAnimation && L.TileLayer && (layer instanceof L.TileLayer)) {
+			this._tileLayersNum++;
+			this._tileLayersToLoad++;
+			layer.on('load', this._onTileLayerLoad, this);
+		}
+
+		if (this._loaded) {
+			this._layerAdd(layer);
+		}
+
+		return this;
+	},
+
+	removeLayer: function (layer) {
+		var id = L.stamp(layer);
+
+		if (!this._layers[id]) { return this; }
+
+		if (this._loaded) {
+			layer.onRemove(this);
+		}
+
+		delete this._layers[id];
+
+		if (this._loaded) {
+			this.fire('layerremove', {layer: layer});
+		}
+
+		if (this._zoomBoundLayers[id]) {
+			delete this._zoomBoundLayers[id];
+			this._updateZoomLevels();
+		}
+
+		// TODO looks ugly, refactor
+		if (this.options.zoomAnimation && L.TileLayer && (layer instanceof L.TileLayer)) {
+			this._tileLayersNum--;
+			this._tileLayersToLoad--;
+			layer.off('load', this._onTileLayerLoad, this);
+		}
+
+		return this;
+	},
+
+	hasLayer: function (layer) {
+		if (!layer) { return false; }
+
+		return (L.stamp(layer) in this._layers);
+	},
+
+	eachLayer: function (method, context) {
+		for (var i in this._layers) {
+			method.call(context, this._layers[i]);
+		}
+		return this;
+	},
+
+	invalidateSize: function (options) {
+		if (!this._loaded) { return this; }
+
+		options = L.extend({
+			animate: false,
+			pan: true
+		}, options === true ? {animate: true} : options);
+
+		var oldSize = this.getSize();
+		this._sizeChanged = true;
+		this._initialCenter = null;
+
+		var newSize = this.getSize(),
+		    oldCenter = oldSize.divideBy(2).round(),
+		    newCenter = newSize.divideBy(2).round(),
+		    offset = oldCenter.subtract(newCenter);
+
+		if (!offset.x && !offset.y) { return this; }
+
+		if (options.animate && options.pan) {
+			this.panBy(offset);
+
+		} else {
+			if (options.pan) {
+				this._rawPanBy(offset);
+			}
+
+			this.fire('move');
+
+			if (options.debounceMoveend) {
+				clearTimeout(this._sizeTimer);
+				this._sizeTimer = setTimeout(L.bind(this.fire, this, 'moveend'), 200);
+			} else {
+				this.fire('moveend');
+			}
+		}
+
+		return this.fire('resize', {
+			oldSize: oldSize,
+			newSize: newSize
+		});
+	},
+
+	// TODO handler.addTo
+	addHandler: function (name, HandlerClass) {
+		if (!HandlerClass) { return this; }
+
+		var handler = this[name] = new HandlerClass(this);
+
+		this._handlers.push(handler);
+
+		if (this.options[name]) {
+			handler.enable();
+		}
+
+		return this;
+	},
+
+	remove: function () {
+		if (this._loaded) {
+			this.fire('unload');
+		}
+
+		this._initEvents('off');
+
+		try {
+			// throws error in IE6-8
+			delete this._container._leaflet;
+		} catch (e) {
+			this._container._leaflet = undefined;
+		}
+
+		this._clearPanes();
+		if (this._clearControlPos) {
+			this._clearControlPos();
+		}
+
+		this._clearHandlers();
+
+		return this;
+	},
+
+
+	// public methods for getting map state
+
+	getCenter: function () { // (Boolean) -> LatLng
+		this._checkIfLoaded();
+
+		if (this._initialCenter && !this._moved()) {
+			return this._initialCenter;
+		}
+		return this.layerPointToLatLng(this._getCenterLayerPoint());
+	},
+
+	getZoom: function () {
+		return this._zoom;
+	},
+
+	getBounds: function () {
+		var bounds = this.getPixelBounds(),
+		    sw = this.unproject(bounds.getBottomLeft()),
+		    ne = this.unproject(bounds.getTopRight());
+
+		return new L.LatLngBounds(sw, ne);
+	},
+
+	getMinZoom: function () {
+		return this.options.minZoom === undefined ?
+			(this._layersMinZoom === undefined ? 0 : this._layersMinZoom) :
+			this.options.minZoom;
+	},
+
+	getMaxZoom: function () {
+		return this.options.maxZoom === undefined ?
+			(this._layersMaxZoom === undefined ? Infinity : this._layersMaxZoom) :
+			this.options.maxZoom;
+	},
+
+	getBoundsZoom: function (bounds, inside, padding) { // (LatLngBounds[, Boolean, Point]) -> Number
+		bounds = L.latLngBounds(bounds);
+
+		var zoom = this.getMinZoom() - (inside ? 1 : 0),
+		    maxZoom = this.getMaxZoom(),
+		    size = this.getSize(),
+
+		    nw = bounds.getNorthWest(),
+		    se = bounds.getSouthEast(),
+
+		    zoomNotFound = true,
+		    boundsSize;
+
+		padding = L.point(padding || [0, 0]);
+
+		do {
+			zoom++;
+			boundsSize = this.project(se, zoom).subtract(this.project(nw, zoom)).add(padding);
+			zoomNotFound = !inside ? size.contains(boundsSize) : boundsSize.x < size.x || boundsSize.y < size.y;
+
+		} while (zoomNotFound && zoom <= maxZoom);
+
+		if (zoomNotFound && inside) {
+			return null;
+		}
+
+		return inside ? zoom : zoom - 1;
+	},
+
+	getSize: function () {
+		if (!this._size || this._sizeChanged) {
+			this._size = new L.Point(
+				this._container.clientWidth,
+				this._container.clientHeight);
+
+			this._sizeChanged = false;
+		}
+		return this._size.clone();
+	},
+
+	getPixelBounds: function () {
+		var topLeftPoint = this._getTopLeftPoint();
+		return new L.Bounds(topLeftPoint, topLeftPoint.add(this.getSize()));
+	},
+
+	getPixelOrigin: function () {
+		this._checkIfLoaded();
+		return this._initialTopLeftPoint;
+	},
+
+	getPanes: function () {
+		return this._panes;
+	},
+
+	getContainer: function () {
+		return this._container;
+	},
+
+
+	// TODO replace with universal implementation after refactoring projections
+
+	getZoomScale: function (toZoom) {
+		var crs = this.options.crs;
+		return crs.scale(toZoom) / crs.scale(this._zoom);
+	},
+
+	getScaleZoom: function (scale) {
+		return this._zoom + (Math.log(scale) / Math.LN2);
+	},
+
+
+	// conversion methods
+
+	project: function (latlng, zoom) { // (LatLng[, Number]) -> Point
+		zoom = zoom === undefined ? this._zoom : zoom;
+		return this.options.crs.latLngToPoint(L.latLng(latlng), zoom);
+	},
+
+	unproject: function (point, zoom) { // (Point[, Number]) -> LatLng
+		zoom = zoom === undefined ? this._zoom : zoom;
+		return this.options.crs.pointToLatLng(L.point(point), zoom);
+	},
+
+	layerPointToLatLng: function (point) { // (Point)
+		var projectedPoint = L.point(point).add(this.getPixelOrigin());
+		return this.unproject(projectedPoint);
+	},
+
+	latLngToLayerPoint: function (latlng) { // (LatLng)
+		var projectedPoint = this.project(L.latLng(latlng))._round();
+		return projectedPoint._subtract(this.getPixelOrigin());
+	},
+
+	containerPointToLayerPoint: function (point) { // (Point)
+		return L.point(point).subtract(this._getMapPanePos());
+	},
+
+	layerPointToContainerPoint: function (point) { // (Point)
+		return L.point(point).add(this._getMapPanePos());
+	},
+
+	containerPointToLatLng: function (point) {
+		var layerPoint = this.containerPointToLayerPoint(L.point(point));
+		return this.layerPointToLatLng(layerPoint);
+	},
+
+	latLngToContainerPoint: function (latlng) {
+		return this.layerPointToContainerPoint(this.latLngToLayerPoint(L.latLng(latlng)));
+	},
+
+	mouseEventToContainerPoint: function (e) { // (MouseEvent)
+		return L.DomEvent.getMousePosition(e, this._container);
+	},
+
+	mouseEventToLayerPoint: function (e) { // (MouseEvent)
+		return this.containerPointToLayerPoint(this.mouseEventToContainerPoint(e));
+	},
+
+	mouseEventToLatLng: function (e) { // (MouseEvent)
+		return this.layerPointToLatLng(this.mouseEventToLayerPoint(e));
+	},
+
+
+	// map initialization methods
+
+	_initContainer: function (id) {
+		var container = this._container = L.DomUtil.get(id);
+
+		if (!container) {
+			throw new Error('Map container not found.');
+		} else if (container._leaflet) {
+			throw new Error('Map container is already initialized.');
+		}
+
+		container._leaflet = true;
+	},
+
+	_initLayout: function () {
+		var container = this._container;
+
+		L.DomUtil.addClass(container, 'leaflet-container' +
+			(L.Browser.touch ? ' leaflet-touch' : '') +
+			(L.Browser.retina ? ' leaflet-retina' : '') +
+			(L.Browser.ielt9 ? ' leaflet-oldie' : '') +
+			(this.options.fadeAnimation ? ' leaflet-fade-anim' : ''));
+
+		var position = L.DomUtil.getStyle(container, 'position');
+
+		if (position !== 'absolute' && position !== 'relative' && position !== 'fixed') {
+			container.style.position = 'relative';
+		}
+
+		this._initPanes();
+
+		if (this._initControlPos) {
+			this._initControlPos();
+		}
+	},
+
+	_initPanes: function () {
+		var panes = this._panes = {};
+
+		this._mapPane = panes.mapPane = this._createPane('leaflet-map-pane', this._container);
+
+		this._tilePane = panes.tilePane = this._createPane('leaflet-tile-pane', this._mapPane);
+		panes.objectsPane = this._createPane('leaflet-objects-pane', this._mapPane);
+		panes.shadowPane = this._createPane('leaflet-shadow-pane');
+		panes.overlayPane = this._createPane('leaflet-overlay-pane');
+		panes.markerPane = this._createPane('leaflet-marker-pane');
+		panes.popupPane = this._createPane('leaflet-popup-pane');
+
+		var zoomHide = ' leaflet-zoom-hide';
+
+		if (!this.options.markerZoomAnimation) {
+			L.DomUtil.addClass(panes.markerPane, zoomHide);
+			L.DomUtil.addClass(panes.shadowPane, zoomHide);
+			L.DomUtil.addClass(panes.popupPane, zoomHide);
+		}
+	},
+
+	_createPane: function (className, container) {
+		return L.DomUtil.create('div', className, container || this._panes.objectsPane);
+	},
+
+	_clearPanes: function () {
+		this._container.removeChild(this._mapPane);
+	},
+
+	_addLayers: function (layers) {
+		layers = layers ? (L.Util.isArray(layers) ? layers : [layers]) : [];
+
+		for (var i = 0, len = layers.length; i < len; i++) {
+			this.addLayer(layers[i]);
+		}
+	},
+
+
+	// private methods that modify map state
+
+	_resetView: function (center, zoom, preserveMapOffset, afterZoomAnim) {
+
+		var zoomChanged = (this._zoom !== zoom);
+
+		if (!afterZoomAnim) {
+			this.fire('movestart');
+
+			if (zoomChanged) {
+				this.fire('zoomstart');
+			}
+		}
+
+		this._zoom = zoom;
+		this._initialCenter = center;
+
+		this._initialTopLeftPoint = this._getNewTopLeftPoint(center);
+
+		if (!preserveMapOffset) {
+			L.DomUtil.setPosition(this._mapPane, new L.Point(0, 0));
+		} else {
+			this._initialTopLeftPoint._add(this._getMapPanePos());
+		}
+
+		this._tileLayersToLoad = this._tileLayersNum;
+
+		var loading = !this._loaded;
+		this._loaded = true;
+
+		this.fire('viewreset', {hard: !preserveMapOffset});
+
+		if (loading) {
+			this.fire('load');
+			this.eachLayer(this._layerAdd, this);
+		}
+
+		this.fire('move');
+
+		if (zoomChanged || afterZoomAnim) {
+			this.fire('zoomend');
+		}
+
+		this.fire('moveend', {hard: !preserveMapOffset});
+	},
+
+	_rawPanBy: function (offset) {
+		L.DomUtil.setPosition(this._mapPane, this._getMapPanePos().subtract(offset));
+	},
+
+	_getZoomSpan: function () {
+		return this.getMaxZoom() - this.getMinZoom();
+	},
+
+	_updateZoomLevels: function () {
+		var i,
+			minZoom = Infinity,
+			maxZoom = -Infinity,
+			oldZoomSpan = this._getZoomSpan();
+
+		for (i in this._zoomBoundLayers) {
+			var layer = this._zoomBoundLayers[i];
+			if (!isNaN(layer.options.minZoom)) {
+				minZoom = Math.min(minZoom, layer.options.minZoom);
+			}
+			if (!isNaN(layer.options.maxZoom)) {
+				maxZoom = Math.max(maxZoom, layer.options.maxZoom);
+			}
+		}
+
+		if (i === undefined) { // we have no tilelayers
+			this._layersMaxZoom = this._layersMinZoom = undefined;
+		} else {
+			this._layersMaxZoom = maxZoom;
+			this._layersMinZoom = minZoom;
+		}
+
+		if (oldZoomSpan !== this._getZoomSpan()) {
+			this.fire('zoomlevelschange');
+		}
+	},
+
+	_panInsideMaxBounds: function () {
+		this.panInsideBounds(this.options.maxBounds);
+	},
+
+	_checkIfLoaded: function () {
+		if (!this._loaded) {
+			throw new Error('Set map center and zoom first.');
+		}
+	},
+
+	// map events
+
+	_initEvents: function (onOff) {
+		if (!L.DomEvent) { return; }
+
+		onOff = onOff || 'on';
+
+		L.DomEvent[onOff](this._container, 'click', this._onMouseClick, this);
+
+		var events = ['dblclick', 'mousedown', 'mouseup', 'mouseenter',
+		              'mouseleave', 'mousemove', 'contextmenu'],
+		    i, len;
+
+		for (i = 0, len = events.length; i < len; i++) {
+			L.DomEvent[onOff](this._container, events[i], this._fireMouseEvent, this);
+		}
+
+		if (this.options.trackResize) {
+			L.DomEvent[onOff](window, 'resize', this._onResize, this);
+		}
+	},
+
+	_onResize: function () {
+		L.Util.cancelAnimFrame(this._resizeRequest);
+		this._resizeRequest = L.Util.requestAnimFrame(
+		        function () { this.invalidateSize({debounceMoveend: true}); }, this, false, this._container);
+	},
+
+	_onMouseClick: function (e) {
+		if (!this._loaded || (!e._simulated &&
+		        ((this.dragging && this.dragging.moved()) ||
+		         (this.boxZoom  && this.boxZoom.moved()))) ||
+		            L.DomEvent._skipped(e)) { return; }
+
+		this.fire('preclick');
+		this._fireMouseEvent(e);
+	},
+
+	_fireMouseEvent: function (e) {
+		if (!this._loaded || L.DomEvent._skipped(e)) { return; }
+
+		var type = e.type;
+
+		type = (type === 'mouseenter' ? 'mouseover' : (type === 'mouseleave' ? 'mouseout' : type));
+
+		if (!this.hasEventListeners(type)) { return; }
+
+		if (type === 'contextmenu') {
+			L.DomEvent.preventDefault(e);
+		}
+
+		var containerPoint = this.mouseEventToContainerPoint(e),
+		    layerPoint = this.containerPointToLayerPoint(containerPoint),
+		    latlng = this.layerPointToLatLng(layerPoint);
+
+		this.fire(type, {
+			latlng: latlng,
+			layerPoint: layerPoint,
+			containerPoint: containerPoint,
+			originalEvent: e
+		});
+	},
+
+	_onTileLayerLoad: function () {
+		this._tileLayersToLoad--;
+		if (this._tileLayersNum && !this._tileLayersToLoad) {
+			this.fire('tilelayersload');
+		}
+	},
+
+	_clearHandlers: function () {
+		for (var i = 0, len = this._handlers.length; i < len; i++) {
+			this._handlers[i].disable();
+		}
+	},
+
+	whenReady: function (callback, context) {
+		if (this._loaded) {
+			callback.call(context || this, this);
+		} else {
+			this.on('load', callback, context);
+		}
+		return this;
+	},
+
+	_layerAdd: function (layer) {
+		layer.onAdd(this);
+		this.fire('layeradd', {layer: layer});
+	},
+
+
+	// private methods for getting map state
+
+	_getMapPanePos: function () {
+		return L.DomUtil.getPosition(this._mapPane);
+	},
+
+	_moved: function () {
+		var pos = this._getMapPanePos();
+		return pos && !pos.equals([0, 0]);
+	},
+
+	_getTopLeftPoint: function () {
+		return this.getPixelOrigin().subtract(this._getMapPanePos());
+	},
+
+	_getNewTopLeftPoint: function (center, zoom) {
+		var viewHalf = this.getSize()._divideBy(2);
+		// TODO round on display, not calculation to increase precision?
+		return this.project(center, zoom)._subtract(viewHalf)._round();
+	},
+
+	_latLngToNewLayerPoint: function (latlng, newZoom, newCenter) {
+		var topLeft = this._getNewTopLeftPoint(newCenter, newZoom).add(this._getMapPanePos());
+		return this.project(latlng, newZoom)._subtract(topLeft);
+	},
+
+	// layer point of the current center
+	_getCenterLayerPoint: function () {
+		return this.containerPointToLayerPoint(this.getSize()._divideBy(2));
+	},
+
+	// offset of the specified place to the current center in pixels
+	_getCenterOffset: function (latlng) {
+		return this.latLngToLayerPoint(latlng).subtract(this._getCenterLayerPoint());
+	},
+
+	// adjust center for view to get inside bounds
+	_limitCenter: function (center, zoom, bounds) {
+
+		if (!bounds) { return center; }
+
+		var centerPoint = this.project(center, zoom),
+		    viewHalf = this.getSize().divideBy(2),
+		    viewBounds = new L.Bounds(centerPoint.subtract(viewHalf), centerPoint.add(viewHalf)),
+		    offset = this._getBoundsOffset(viewBounds, bounds, zoom);
+
+		return this.unproject(centerPoint.add(offset), zoom);
+	},
+
+	// adjust offset for view to get inside bounds
+	_limitOffset: function (offset, bounds) {
+		if (!bounds) { return offset; }
+
+		var viewBounds = this.getPixelBounds(),
+		    newBounds = new L.Bounds(viewBounds.min.add(offset), viewBounds.max.add(offset));
+
+		return offset.add(this._getBoundsOffset(newBounds, bounds));
+	},
+
+	// returns offset needed for pxBounds to get inside maxBounds at a specified zoom
+	_getBoundsOffset: function (pxBounds, maxBounds, zoom) {
+		var nwOffset = this.project(maxBounds.getNorthWest(), zoom).subtract(pxBounds.min),
+		    seOffset = this.project(maxBounds.getSouthEast(), zoom).subtract(pxBounds.max),
+
+		    dx = this._rebound(nwOffset.x, -seOffset.x),
+		    dy = this._rebound(nwOffset.y, -seOffset.y);
+
+		return new L.Point(dx, dy);
+	},
+
+	_rebound: function (left, right) {
+		return left + right > 0 ?
+			Math.round(left - right) / 2 :
+			Math.max(0, Math.ceil(left)) - Math.max(0, Math.floor(right));
+	},
+
+	_limitZoom: function (zoom) {
+		var min = this.getMinZoom(),
+		    max = this.getMaxZoom();
+
+		return Math.max(min, Math.min(max, zoom));
+	}
+});
+
+L.map = function (id, options) {
+	return new L.Map(id, options);
+};
+
+
+/*
+ * Mercator projection that takes into account that the Earth is not a perfect sphere.
+ * Less popular than spherical mercator; used by projections like EPSG:3395.
+ */
+
+L.Projection.Mercator = {
+	MAX_LATITUDE: 85.0840591556,
+
+	R_MINOR: 6356752.314245179,
+	R_MAJOR: 6378137,
+
+	project: function (latlng) { // (LatLng) -> Point
+		var d = L.LatLng.DEG_TO_RAD,
+		    max = this.MAX_LATITUDE,
+		    lat = Math.max(Math.min(max, latlng.lat), -max),
+		    r = this.R_MAJOR,
+		    r2 = this.R_MINOR,
+		    x = latlng.lng * d * r,
+		    y = lat * d,
+		    tmp = r2 / r,
+		    eccent = Math.sqrt(1.0 - tmp * tmp),
+		    con = eccent * Math.sin(y);
+
+		con = Math.pow((1 - con) / (1 + con), eccent * 0.5);
+
+		var ts = Math.tan(0.5 * ((Math.PI * 0.5) - y)) / con;
+		y = -r * Math.log(ts);
+
+		return new L.Point(x, y);
+	},
+
+	unproject: function (point) { // (Point, Boolean) -> LatLng
+		var d = L.LatLng.RAD_TO_DEG,
+		    r = this.R_MAJOR,
+		    r2 = this.R_MINOR,
+		    lng = point.x * d / r,
+		    tmp = r2 / r,
+		    eccent = Math.sqrt(1 - (tmp * tmp)),
+		    ts = Math.exp(- point.y / r),
+		    phi = (Math.PI / 2) - 2 * Math.atan(ts),
+		    numIter = 15,
+		    tol = 1e-7,
+		    i = numIter,
+		    dphi = 0.1,
+		    con;
+
+		while ((Math.abs(dphi) > tol) && (--i > 0)) {
+			con = eccent * Math.sin(phi);
+			dphi = (Math.PI / 2) - 2 * Math.atan(ts *
+			            Math.pow((1.0 - con) / (1.0 + con), 0.5 * eccent)) - phi;
+			phi += dphi;
+		}
+
+		return new L.LatLng(phi * d, lng);
+	}
+};
+
+
+
+L.CRS.EPSG3395 = L.extend({}, L.CRS, {
+	code: 'EPSG:3395',
+
+	projection: L.Projection.Mercator,
+
+	transformation: (function () {
+		var m = L.Projection.Mercator,
+		    r = m.R_MAJOR,
+		    scale = 0.5 / (Math.PI * r);
+
+		return new L.Transformation(scale, 0.5, -scale, 0.5);
+	}())
+});
+
+
+/*
+ * L.TileLayer is used for standard xyz-numbered tile layers.
+ */
+
+L.TileLayer = L.Class.extend({
+	includes: L.Mixin.Events,
+
+	options: {
+		minZoom: 0,
+		maxZoom: 18,
+		tileSize: 256,
+		subdomains: 'abc',
+		errorTileUrl: '',
+		attribution: '',
+		zoomOffset: 0,
+		opacity: 1,
+		/*
+		maxNativeZoom: null,
+		zIndex: null,
+		tms: false,
+		continuousWorld: false,
+		noWrap: false,
+		zoomReverse: false,
+		detectRetina: false,
+		reuseTiles: false,
+		bounds: false,
+		*/
+		unloadInvisibleTiles: L.Browser.mobile,
+		updateWhenIdle: L.Browser.mobile
+	},
+
+	initialize: function (url, options) {
+		options = L.setOptions(this, options);
+
+		// detecting retina displays, adjusting tileSize and zoom levels
+		if (options.detectRetina && L.Browser.retina && options.maxZoom > 0) {
+
+			options.tileSize = Math.floor(options.tileSize / 2);
+			options.zoomOffset++;
+
+			if (options.minZoom > 0) {
+				options.minZoom--;
+			}
+			this.options.maxZoom--;
+		}
+
+		if (options.bounds) {
+			options.bounds = L.latLngBounds(options.bounds);
+		}
+
+		this._url = url;
+
+		var subdomains = this.options.subdomains;
+
+		if (typeof subdomains === 'string') {
+			this.options.subdomains = subdomains.split('');
+		}
+	},
+
+	onAdd: function (map) {
+		this._map = map;
+		this._animated = map._zoomAnimated;
+
+		// create a container div for tiles
+		this._initContainer();
+
+		// set up events
+		map.on({
+			'viewreset': this._reset,
+			'moveend': this._update
+		}, this);
+
+		if (this._animated) {
+			map.on({
+				'zoomanim': this._animateZoom,
+				'zoomend': this._endZoomAnim
+			}, this);
+		}
+
+		if (!this.options.updateWhenIdle) {
+			this._limitedUpdate = L.Util.limitExecByInterval(this._update, 150, this);
+			map.on('move', this._limitedUpdate, this);
+		}
+
+		this._reset();
+		this._update();
+	},
+
+	addTo: function (map) {
+		map.addLayer(this);
+		return this;
+	},
+
+	onRemove: function (map) {
+		this._container.parentNode.removeChild(this._container);
+
+		map.off({
+			'viewreset': this._reset,
+			'moveend': this._update
+		}, this);
+
+		if (this._animated) {
+			map.off({
+				'zoomanim': this._animateZoom,
+				'zoomend': this._endZoomAnim
+			}, this);
+		}
+
+		if (!this.options.updateWhenIdle) {
+			map.off('move', this._limitedUpdate, this);
+		}
+
+		this._container = null;
+		this._map = null;
+	},
+
+	bringToFront: function () {
+		var pane = this._map._panes.tilePane;
+
+		if (this._container) {
+			pane.appendChild(this._container);
+			this._setAutoZIndex(pane, Math.max);
+		}
+
+		return this;
+	},
+
+	bringToBack: function () {
+		var pane = this._map._panes.tilePane;
+
+		if (this._container) {
+			pane.insertBefore(this._container, pane.firstChild);
+			this._setAutoZIndex(pane, Math.min);
+		}
+
+		return this;
+	},
+
+	getAttribution: function () {
+		return this.options.attribution;
+	},
+
+	getContainer: function () {
+		return this._container;
+	},
+
+	setOpacity: function (opacity) {
+		this.options.opacity = opacity;
+
+		if (this._map) {
+			this._updateOpacity();
+		}
+
+		return this;
+	},
+
+	setZIndex: function (zIndex) {
+		this.options.zIndex = zIndex;
+		this._updateZIndex();
+
+		return this;
+	},
+
+	setUrl: function (url, noRedraw) {
+		this._url = url;
+
+		if (!noRedraw) {
+			this.redraw();
+		}
+
+		return this;
+	},
+
+	redraw: function () {
+		if (this._map) {
+			this._reset({hard: true});
+			this._update();
+		}
+		return this;
+	},
+
+	_updateZIndex: function () {
+		if (this._container && this.options.zIndex !== undefined) {
+			this._container.style.zIndex = this.options.zIndex;
+		}
+	},
+
+	_setAutoZIndex: function (pane, compare) {
+
+		var layers = pane.children,
+		    edgeZIndex = -compare(Infinity, -Infinity), // -Infinity for max, Infinity for min
+		    zIndex, i, len;
+
+		for (i = 0, len = layers.length; i < len; i++) {
+
+			if (layers[i] !== this._container) {
+				zIndex = parseInt(layers[i].style.zIndex, 10);
+
+				if (!isNaN(zIndex)) {
+					edgeZIndex = compare(edgeZIndex, zIndex);
+				}
+			}
+		}
+
+		this.options.zIndex = this._container.style.zIndex =
+		        (isFinite(edgeZIndex) ? edgeZIndex : 0) + compare(1, -1);
+	},
+
+	_updateOpacity: function () {
+		var i,
+		    tiles = this._tiles;
+
+		if (L.Browser.ielt9) {
+			for (i in tiles) {
+				L.DomUtil.setOpacity(tiles[i], this.options.opacity);
+			}
+		} else {
+			L.DomUtil.setOpacity(this._container, this.options.opacity);
+		}
+	},
+
+	_initContainer: function () {
+		var tilePane = this._map._panes.tilePane;
+
+		if (!this._container) {
+			this._container = L.DomUtil.create('div', 'leaflet-layer');
+
+			this._updateZIndex();
+
+			if (this._animated) {
+				var className = 'leaflet-tile-container';
+
+				this._bgBuffer = L.DomUtil.create('div', className, this._container);
+				this._tileContainer = L.DomUtil.create('div', className, this._container);
+
+			} else {
+				this._tileContainer = this._container;
+			}
+
+			tilePane.appendChild(this._container);
+
+			if (this.options.opacity < 1) {
+				this._updateOpacity();
+			}
+		}
+	},
+
+	_reset: function (e) {
+		for (var key in this._tiles) {
+			this.fire('tileunload', {tile: this._tiles[key]});
+		}
+
+		this._tiles = {};
+		this._tilesToLoad = 0;
+
+		if (this.options.reuseTiles) {
+			this._unusedTiles = [];
+		}
+
+		this._tileContainer.innerHTML = '';
+
+		if (this._animated && e && e.hard) {
+			this._clearBgBuffer();
+		}
+
+		this._initContainer();
+	},
+
+	_getTileSize: function () {
+		var map = this._map,
+		    zoom = map.getZoom() + this.options.zoomOffset,
+		    zoomN = this.options.maxNativeZoom,
+		    tileSize = this.options.tileSize;
+
+		if (zoomN && zoom > zoomN) {
+			tileSize = Math.round(map.getZoomScale(zoom) / map.getZoomScale(zoomN) * tileSize);
+		}
+
+		return tileSize;
+	},
+
+	_update: function () {
+
+		if (!this._map) { return; }
+
+		var map = this._map,
+		    bounds = map.getPixelBounds(),
+		    zoom = map.getZoom(),
+		    tileSize = this._getTileSize();
+
+		if (zoom > this.options.maxZoom || zoom < this.options.minZoom) {
+			return;
+		}
+
+		var tileBounds = L.bounds(
+		        bounds.min.divideBy(tileSize)._floor(),
+		        bounds.max.divideBy(tileSize)._floor());
+
+		this._addTilesFromCenterOut(tileBounds);
+
+		if (this.options.unloadInvisibleTiles || this.options.reuseTiles) {
+			this._removeOtherTiles(tileBounds);
+		}
+	},
+
+	_addTilesFromCenterOut: function (bounds) {
+		var queue = [],
+		    center = bounds.getCenter();
+
+		var j, i, point;
+
+		for (j = bounds.min.y; j <= bounds.max.y; j++) {
+			for (i = bounds.min.x; i <= bounds.max.x; i++) {
+				point = new L.Point(i, j);
+
+				if (this._tileShouldBeLoaded(point)) {
+					queue.push(point);
+				}
+			}
+		}
+
+		var tilesToLoad = queue.length;
+
+		if (tilesToLoad === 0) { return; }
+
+		// load tiles in order of their distance to center
+		queue.sort(function (a, b) {
+			return a.distanceTo(center) - b.distanceTo(center);
+		});
+
+		var fragment = document.createDocumentFragment();
+
+		// if its the first batch of tiles to load
+		if (!this._tilesToLoad) {
+			this.fire('loading');
+		}
+
+		this._tilesToLoad += tilesToLoad;
+
+		for (i = 0; i < tilesToLoad; i++) {
+			this._addTile(queue[i], fragment);
+		}
+
+		this._tileContainer.appendChild(fragment);
+	},
+
+	_tileShouldBeLoaded: function (tilePoint) {
+		if ((tilePoint.x + ':' + tilePoint.y) in this._tiles) {
+			return false; // already loaded
+		}
+
+		var options = this.options;
+
+		if (!options.continuousWorld) {
+			var limit = this._getWrapTileNum();
+
+			// don't load if exceeds world bounds
+			if ((options.noWrap && (tilePoint.x < 0 || tilePoint.x >= limit.x)) ||
+				tilePoint.y < 0 || tilePoint.y >= limit.y) { return false; }
+		}
+
+		if (options.bounds) {
+			var tileSize = this._getTileSize(),
+			    nwPoint = tilePoint.multiplyBy(tileSize),
+			    sePoint = nwPoint.add([tileSize, tileSize]),
+			    nw = this._map.unproject(nwPoint),
+			    se = this._map.unproject(sePoint);
+
+			// TODO temporary hack, will be removed after refactoring projections
+			// https://github.com/Leaflet/Leaflet/issues/1618
+			if (!options.continuousWorld && !options.noWrap) {
+				nw = nw.wrap();
+				se = se.wrap();
+			}
+
+			if (!options.bounds.intersects([nw, se])) { return false; }
+		}
+
+		return true;
+	},
+
+	_removeOtherTiles: function (bounds) {
+		var kArr, x, y, key;
+
+		for (key in this._tiles) {
+			kArr = key.split(':');
+			x = parseInt(kArr[0], 10);
+			y = parseInt(kArr[1], 10);
+
+			// remove tile if it's out of bounds
+			if (x < bounds.min.x || x > bounds.max.x || y < bounds.min.y || y > bounds.max.y) {
+				this._removeTile(key);
+			}
+		}
+	},
+
+	_removeTile: function (key) {
+		var tile = this._tiles[key];
+
+		this.fire('tileunload', {tile: tile, url: tile.src});
+
+		if (this.options.reuseTiles) {
+			L.DomUtil.removeClass(tile, 'leaflet-tile-loaded');
+			this._unusedTiles.push(tile);
+
+		} else if (tile.parentNode === this._tileContainer) {
+			this._tileContainer.removeChild(tile);
+		}
+
+		// for https://github.com/CloudMade/Leaflet/issues/137
+		if (!L.Browser.android) {
+			tile.onload = null;
+			tile.src = L.Util.emptyImageUrl;
+		}
+
+		delete this._tiles[key];
+	},
+
+	_addTile: function (tilePoint, container) {
+		var tilePos = this._getTilePos(tilePoint);
+
+		// get unused tile - or create a new tile
+		var tile = this._getTile();
+
+		/*
+		Chrome 20 layouts much faster with top/left (verify with timeline, frames)
+		Android 4 browser has display issues with top/left and requires transform instead
+		(other browsers don't currently care) - see debug/hacks/jitter.html for an example
+		*/
+		L.DomUtil.setPosition(tile, tilePos, L.Browser.chrome);
+
+		this._tiles[tilePoint.x + ':' + tilePoint.y] = tile;
+
+		this._loadTile(tile, tilePoint);
+
+		if (tile.parentNode !== this._tileContainer) {
+			container.appendChild(tile);
+		}
+	},
+
+	_getZoomForUrl: function () {
+
+		var options = this.options,
+		    zoom = this._map.getZoom();
+
+		if (options.zoomReverse) {
+			zoom = options.maxZoom - zoom;
+		}
+
+		zoom += options.zoomOffset;
+
+		return options.maxNativeZoom ? Math.min(zoom, options.maxNativeZoom) : zoom;
+	},
+
+	_getTilePos: function (tilePoint) {
+		var origin = this._map.getPixelOrigin(),
+		    tileSize = this._getTileSize();
+
+		return tilePoint.multiplyBy(tileSize).subtract(origin);
+	},
+
+	// image-specific code (override to implement e.g. Canvas or SVG tile layer)
+
+	getTileUrl: function (tilePoint) {
+		return L.Util.template(this._url, L.extend({
+			s: this._getSubdomain(tilePoint),
+			z: tilePoint.z,
+			x: tilePoint.x,
+			y: tilePoint.y
+		}, this.options));
+	},
+
+	_getWrapTileNum: function () {
+		var crs = this._map.options.crs,
+		    size = crs.getSize(this._map.getZoom());
+		return size.divideBy(this._getTileSize())._floor();
+	},
+
+	_adjustTilePoint: function (tilePoint) {
+
+		var limit = this._getWrapTileNum();
+
+		// wrap tile coordinates
+		if (!this.options.continuousWorld && !this.options.noWrap) {
+			tilePoint.x = ((tilePoint.x % limit.x) + limit.x) % limit.x;
+		}
+
+		if (this.options.tms) {
+			tilePoint.y = limit.y - tilePoint.y - 1;
+		}
+
+		tilePoint.z = this._getZoomForUrl();
+	},
+
+	_getSubdomain: function (tilePoint) {
+		var index = Math.abs(tilePoint.x + tilePoint.y) % this.options.subdomains.length;
+		return this.options.subdomains[index];
+	},
+
+	_getTile: function () {
+		if (this.options.reuseTiles && this._unusedTiles.length > 0) {
+			var tile = this._unusedTiles.pop();
+			this._resetTile(tile);
+			return tile;
+		}
+		return this._createTile();
+	},
+
+	// Override if data stored on a tile needs to be cleaned up before reuse
+	_resetTile: function (/*tile*/) {},
+
+	_createTile: function () {
+		var tile = L.DomUtil.create('img', 'leaflet-tile');
+		tile.style.width = tile.style.height = this._getTileSize() + 'px';
+		tile.galleryimg = 'no';
+
+		tile.onselectstart = tile.onmousemove = L.Util.falseFn;
+
+		if (L.Browser.ielt9 && this.options.opacity !== undefined) {
+			L.DomUtil.setOpacity(tile, this.options.opacity);
+		}
+		// without this hack, tiles disappear after zoom on Chrome for Android
+		// https://github.com/Leaflet/Leaflet/issues/2078
+		if (L.Browser.mobileWebkit3d) {
+			tile.style.WebkitBackfaceVisibility = 'hidden';
+		}
+		return tile;
+	},
+
+	_loadTile: function (tile, tilePoint) {
+		tile._layer  = this;
+		tile.onload  = this._tileOnLoad;
+		tile.onerror = this._tileOnError;
+
+		this._adjustTilePoint(tilePoint);
+		tile.src     = this.getTileUrl(tilePoint);
+
+		this.fire('tileloadstart', {
+			tile: tile,
+			url: tile.src
+		});
+	},
+
+	_tileLoaded: function () {
+		this._tilesToLoad--;
+
+		if (this._animated) {
+			L.DomUtil.addClass(this._tileContainer, 'leaflet-zoom-animated');
+		}
+
+		if (!this._tilesToLoad) {
+			this.fire('load');
+
+			if (this._animated) {
+				// clear scaled tiles after all new tiles are loaded (for performance)
+				clearTimeout(this._clearBgBufferTimer);
+				this._clearBgBufferTimer = setTimeout(L.bind(this._clearBgBuffer, this), 500);
+			}
+		}
+	},
+
+	_tileOnLoad: function () {
+		var layer = this._layer;
+
+		//Only if we are loading an actual image
+		if (this.src !== L.Util.emptyImageUrl) {
+			L.DomUtil.addClass(this, 'leaflet-tile-loaded');
+
+			layer.fire('tileload', {
+				tile: this,
+				url: this.src
+			});
+		}
+
+		layer._tileLoaded();
+	},
+
+	_tileOnError: function () {
+		var layer = this._layer;
+
+		layer.fire('tileerror', {
+			tile: this,
+			url: this.src
+		});
+
+		var newUrl = layer.options.errorTileUrl;
+		if (newUrl) {
+			this.src = newUrl;
+		}
+
+		layer._tileLoaded();
+	}
+});
+
+L.tileLayer = function (url, options) {
+	return new L.TileLayer(url, options);
+};
+
+
+/*
+ * L.TileLayer.WMS is used for putting WMS tile layers on the map.
+ */
+
+L.TileLayer.WMS = L.TileLayer.extend({
+
+	defaultWmsParams: {
+		service: 'WMS',
+		request: 'GetMap',
+		version: '1.1.1',
+		layers: '',
+		styles: '',
+		format: 'image/jpeg',
+		transparent: false
+	},
+
+	initialize: function (url, options) { // (String, Object)
+
+		this._url = url;
+
+		var wmsParams = L.extend({}, this.defaultWmsParams),
+		    tileSize = options.tileSize || this.options.tileSize;
+
+		if (options.detectRetina && L.Browser.retina) {
+			wmsParams.width = wmsParams.height = tileSize * 2;
+		} else {
+			wmsParams.width = wmsParams.height = tileSize;
+		}
+
+		for (var i in options) {
+			// all keys that are not TileLayer options go to WMS params
+			if (!this.options.hasOwnProperty(i) && i !== 'crs') {
+				wmsParams[i] = options[i];
+			}
+		}
+
+		this.wmsParams = wmsParams;
+
+		L.setOptions(this, options);
+	},
+
+	onAdd: function (map) {
+
+		this._crs = this.options.crs || map.options.crs;
+
+		this._wmsVersion = parseFloat(this.wmsParams.version);
+
+		var projectionKey = this._wmsVersion >= 1.3 ? 'crs' : 'srs';
+		this.wmsParams[projectionKey] = this._crs.code;
+
+		L.TileLayer.prototype.onAdd.call(this, map);
+	},
+
+	getTileUrl: function (tilePoint) { // (Point, Number) -> String
+
+		var map = this._map,
+		    tileSize = this.options.tileSize,
+
+		    nwPoint = tilePoint.multiplyBy(tileSize),
+		    sePoint = nwPoint.add([tileSize, tileSize]),
+
+		    nw = this._crs.project(map.unproject(nwPoint, tilePoint.z)),
+		    se = this._crs.project(map.unproject(sePoint, tilePoint.z)),
+		    bbox = this._wmsVersion >= 1.3 && this._crs === L.CRS.EPSG4326 ?
+		        [se.y, nw.x, nw.y, se.x].join(',') :
+		        [nw.x, se.y, se.x, nw.y].join(','),
+
+		    url = L.Util.template(this._url, {s: this._getSubdomain(tilePoint)});
+
+		return url + L.Util.getParamString(this.wmsParams, url, true) + '&BBOX=' + bbox;
+	},
+
+	setParams: function (params, noRedraw) {
+
+		L.extend(this.wmsParams, params);
+
+		if (!noRedraw) {
+			this.redraw();
+		}
+
+		return this;
+	}
+});
+
+L.tileLayer.wms = function (url, options) {
+	return new L.TileLayer.WMS(url, options);
+};
+
+
+/*
+ * L.TileLayer.Canvas is a class that you can use as a base for creating
+ * dynamically drawn Canvas-based tile layers.
+ */
+
+L.TileLayer.Canvas = L.TileLayer.extend({
+	options: {
+		async: false
+	},
+
+	initialize: function (options) {
+		L.setOptions(this, options);
+	},
+
+	redraw: function () {
+		if (this._map) {
+			this._reset({hard: true});
+			this._update();
+		}
+
+		for (var i in this._tiles) {
+			this._redrawTile(this._tiles[i]);
+		}
+		return this;
+	},
+
+	_redrawTile: function (tile) {
+		this.drawTile(tile, tile._tilePoint, this._map._zoom);
+	},
+
+	_createTile: function () {
+		var tile = L.DomUtil.create('canvas', 'leaflet-tile');
+		tile.width = tile.height = this.options.tileSize;
+		tile.onselectstart = tile.onmousemove = L.Util.falseFn;
+		return tile;
+	},
+
+	_loadTile: function (tile, tilePoint) {
+		tile._layer = this;
+		tile._tilePoint = tilePoint;
+
+		this._redrawTile(tile);
+
+		if (!this.options.async) {
+			this.tileDrawn(tile);
+		}
+	},
+
+	drawTile: function (/*tile, tilePoint*/) {
+		// override with rendering code
+	},
+
+	tileDrawn: function (tile) {
+		this._tileOnLoad.call(tile);
+	}
+});
+
+
+L.tileLayer.canvas = function (options) {
+	return new L.TileLayer.Canvas(options);
+};
+
+
+/*
+ * L.ImageOverlay is used to overlay images over the map (to specific geographical bounds).
+ */
+
+L.ImageOverlay = L.Class.extend({
+	includes: L.Mixin.Events,
+
+	options: {
+		opacity: 1
+	},
+
+	initialize: function (url, bounds, options) { // (String, LatLngBounds, Object)
+		this._url = url;
+		this._bounds = L.latLngBounds(bounds);
+
+		L.setOptions(this, options);
+	},
+
+	onAdd: function (map) {
+		this._map = map;
+
+		if (!this._image) {
+			this._initImage();
+		}
+
+		map._panes.overlayPane.appendChild(this._image);
+
+		map.on('viewreset', this._reset, this);
+
+		if (map.options.zoomAnimation && L.Browser.any3d) {
+			map.on('zoomanim', this._animateZoom, this);
+		}
+
+		this._reset();
+	},
+
+	onRemove: function (map) {
+		map.getPanes().overlayPane.removeChild(this._image);
+
+		map.off('viewreset', this._reset, this);
+
+		if (map.options.zoomAnimation) {
+			map.off('zoomanim', this._animateZoom, this);
+		}
+	},
+
+	addTo: function (map) {
+		map.addLayer(this);
+		return this;
+	},
+
+	setOpacity: function (opacity) {
+		this.options.opacity = opacity;
+		this._updateOpacity();
+		return this;
+	},
+
+	// TODO remove bringToFront/bringToBack duplication from TileLayer/Path
+	bringToFront: function () {
+		if (this._image) {
+			this._map._panes.overlayPane.appendChild(this._image);
+		}
+		return this;
+	},
+
+	bringToBack: function () {
+		var pane = this._map._panes.overlayPane;
+		if (this._image) {
+			pane.insertBefore(this._image, pane.firstChild);
+		}
+		return this;
+	},
+
+	setUrl: function (url) {
+		this._url = url;
+		this._image.src = this._url;
+	},
+
+	getAttribution: function () {
+		return this.options.attribution;
+	},
+
+	_initImage: function () {
+		this._image = L.DomUtil.create('img', 'leaflet-image-layer');
+
+		if (this._map.options.zoomAnimation && L.Browser.any3d) {
+			L.DomUtil.addClass(this._image, 'leaflet-zoom-animated');
+		} else {
+			L.DomUtil.addClass(this._image, 'leaflet-zoom-hide');
+		}
+
+		this._updateOpacity();
+
+		//TODO createImage util method to remove duplication
+		L.extend(this._image, {
+			galleryimg: 'no',
+			onselectstart: L.Util.falseFn,
+			onmousemove: L.Util.falseFn,
+			onload: L.bind(this._onImageLoad, this),
+			src: this._url
+		});
+	},
+
+	_animateZoom: function (e) {
+		var map = this._map,
+		    image = this._image,
+		    scale = map.getZoomScale(e.zoom),
+		    nw = this._bounds.getNorthWest(),
+		    se = this._bounds.getSouthEast(),
+
+		    topLeft = map._latLngToNewLayerPoint(nw, e.zoom, e.center),
+		    size = map._latLngToNewLayerPoint(se, e.zoom, e.center)._subtract(topLeft),
+		    origin = topLeft._add(size._multiplyBy((1 / 2) * (1 - 1 / scale)));
+
+		image.style[L.DomUtil.TRANSFORM] =
+		        L.DomUtil.getTranslateString(origin) + ' scale(' + scale + ') ';
+	},
+
+	_reset: function () {
+		var image   = this._image,
+		    topLeft = this._map.latLngToLayerPoint(this._bounds.getNorthWest()),
+		    size = this._map.latLngToLayerPoint(this._bounds.getSouthEast())._subtract(topLeft);
+
+		L.DomUtil.setPosition(image, topLeft);
+
+		image.style.width  = size.x + 'px';
+		image.style.height = size.y + 'px';
+	},
+
+	_onImageLoad: function () {
+		this.fire('load');
+	},
+
+	_updateOpacity: function () {
+		L.DomUtil.setOpacity(this._image, this.options.opacity);
+	}
+});
+
+L.imageOverlay = function (url, bounds, options) {
+	return new L.ImageOverlay(url, bounds, options);
+};
+
+
+/*
+ * L.Icon is an image-based icon class that you can use with L.Marker for custom markers.
+ */
+
+L.Icon = L.Class.extend({
+	options: {
+		/*
+		iconUrl: (String) (required)
+		iconRetinaUrl: (String) (optional, used for retina devices if detected)
+		iconSize: (Point) (can be set through CSS)
+		iconAnchor: (Point) (centered by default, can be set in CSS with negative margins)
+		popupAnchor: (Point) (if not specified, popup opens in the anchor point)
+		shadowUrl: (String) (no shadow by default)
+		shadowRetinaUrl: (String) (optional, used for retina devices if detected)
+		shadowSize: (Point)
+		shadowAnchor: (Point)
+		*/
+		className: ''
+	},
+
+	initialize: function (options) {
+		L.setOptions(this, options);
+	},
+
+	createIcon: function (oldIcon) {
+		return this._createIcon('icon', oldIcon);
+	},
+
+	createShadow: function (oldIcon) {
+		return this._createIcon('shadow', oldIcon);
+	},
+
+	_createIcon: function (name, oldIcon) {
+		var src = this._getIconUrl(name);
+
+		if (!src) {
+			if (name === 'icon') {
+				throw new Error('iconUrl not set in Icon options (see the docs).');
+			}
+			return null;
+		}
+
+		var img;
+		if (!oldIcon || oldIcon.tagName !== 'IMG') {
+			img = this._createImg(src);
+		} else {
+			img = this._createImg(src, oldIcon);
+		}
+		this._setIconStyles(img, name);
+
+		return img;
+	},
+
+	_setIconStyles: function (img, name) {
+		var options = this.options,
+		    size = L.point(options[name + 'Size']),
+		    anchor;
+
+		if (name === 'shadow') {
+			anchor = L.point(options.shadowAnchor || options.iconAnchor);
+		} else {
+			anchor = L.point(options.iconAnchor);
+		}
+
+		if (!anchor && size) {
+			anchor = size.divideBy(2, true);
+		}
+
+		img.className = 'leaflet-marker-' + name + ' ' + options.className;
+
+		if (anchor) {
+			img.style.marginLeft = (-anchor.x) + 'px';
+			img.style.marginTop  = (-anchor.y) + 'px';
+		}
+
+		if (size) {
+			img.style.width  = size.x + 'px';
+			img.style.height = size.y + 'px';
+		}
+	},
+
+	_createImg: function (src, el) {
+		el = el || document.createElement('img');
+		el.src = src;
+		return el;
+	},
+
+	_getIconUrl: function (name) {
+		if (L.Browser.retina && this.options[name + 'RetinaUrl']) {
+			return this.options[name + 'RetinaUrl'];
+		}
+		return this.options[name + 'Url'];
+	}
+});
+
+L.icon = function (options) {
+	return new L.Icon(options);
+};
+
+
+/*
+ * L.Icon.Default is the blue marker icon used by default in Leaflet.
+ */
+
+L.Icon.Default = L.Icon.extend({
+
+	options: {
+		iconSize: [25, 41],
+		iconAnchor: [12, 41],
+		popupAnchor: [1, -34],
+
+		shadowSize: [41, 41]
+	},
+
+	_getIconUrl: function (name) {
+		var key = name + 'Url';
+
+		if (this.options[key]) {
+			return this.options[key];
+		}
+
+		if (L.Browser.retina && name === 'icon') {
+			name += '-2x';
+		}
+
+		var path = L.Icon.Default.imagePath;
+
+		if (!path) {
+			throw new Error('Couldn\'t autodetect L.Icon.Default.imagePath, set it manually.');
+		}
+
+		return path + '/marker-' + name + '.png';
+	}
+});
+
+L.Icon.Default.imagePath = (function () {
+	var scripts = document.getElementsByTagName('script'),
+	    leafletRe = /[\/^]leaflet[\-\._]?([\w\-\._]*)\.js\??/;
+
+	var i, len, src, matches, path;
+
+	for (i = 0, len = scripts.length; i < len; i++) {
+		src = scripts[i].src;
+		matches = src.match(leafletRe);
+
+		if (matches) {
+			path = src.split(leafletRe)[0];
+			return (path ? path + '/' : '') + 'images';
+		}
+	}
+}());
+
+
+/*
+ * L.Marker is used to display clickable/draggable icons on the map.
+ */
+
+L.Marker = L.Class.extend({
+
+	includes: L.Mixin.Events,
+
+	options: {
+		icon: new L.Icon.Default(),
+		title: '',
+		alt: '',
+		clickable: true,
+		draggable: false,
+		keyboard: true,
+		zIndexOffset: 0,
+		opacity: 1,
+		riseOnHover: false,
+		riseOffset: 250
+	},
+
+	initialize: function (latlng, options) {
+		L.setOptions(this, options);
+		this._latlng = L.latLng(latlng);
+	},
+
+	onAdd: function (map) {
+		this._map = map;
+
+		map.on('viewreset', this.update, this);
+
+		this._initIcon();
+		this.update();
+		this.fire('add');
+
+		if (map.options.zoomAnimation && map.options.markerZoomAnimation) {
+			map.on('zoomanim', this._animateZoom, this);
+		}
+	},
+
+	addTo: function (map) {
+		map.addLayer(this);
+		return this;
+	},
+
+	onRemove: function (map) {
+		if (this.dragging) {
+			this.dragging.disable();
+		}
+
+		this._removeIcon();
+		this._removeShadow();
+
+		this.fire('remove');
+
+		map.off({
+			'viewreset': this.update,
+			'zoomanim': this._animateZoom
+		}, this);
+
+		this._map = null;
+	},
+
+	getLatLng: function () {
+		return this._latlng;
+	},
+
+	setLatLng: function (latlng) {
+		this._latlng = L.latLng(latlng);
+
+		this.update();
+
+		return this.fire('move', { latlng: this._latlng });
+	},
+
+	setZIndexOffset: function (offset) {
+		this.options.zIndexOffset = offset;
+		this.update();
+
+		return this;
+	},
+
+	setIcon: function (icon) {
+
+		this.options.icon = icon;
+
+		if (this._map) {
+			this._initIcon();
+			this.update();
+		}
+
+		if (this._popup) {
+			this.bindPopup(this._popup);
+		}
+
+		return this;
+	},
+
+	update: function () {
+		if (this._icon) {
+			this._setPos(this._map.latLngToLayerPoint(this._latlng).round());
+		}
+		return this;
+	},
+
+	_initIcon: function () {
+		var options = this.options,
+		    map = this._map,
+		    animation = (map.options.zoomAnimation && map.options.markerZoomAnimation),
+		    classToAdd = animation ? 'leaflet-zoom-animated' : 'leaflet-zoom-hide';
+
+		var icon = options.icon.createIcon(this._icon),
+			addIcon = false;
+
+		// if we're not reusing the icon, remove the old one and init new one
+		if (icon !== this._icon) {
+			if (this._icon) {
+				this._removeIcon();
+			}
+			addIcon = true;
+
+			if (options.title) {
+				icon.title = options.title;
+			}
+
+			if (options.alt) {
+				icon.alt = options.alt;
+			}
+		}
+
+		L.DomUtil.addClass(icon, classToAdd);
+
+		if (options.keyboard) {
+			icon.tabIndex = '0';
+		}
+
+		this._icon = icon;
+
+		this._initInteraction();
+
+		if (options.riseOnHover) {
+			L.DomEvent
+				.on(icon, 'mouseover', this._bringToFront, this)
+				.on(icon, 'mouseout', this._resetZIndex, this);
+		}
+
+		var newShadow = options.icon.createShadow(this._shadow),
+			addShadow = false;
+
+		if (newShadow !== this._shadow) {
+			this._removeShadow();
+			addShadow = true;
+		}
+
+		if (newShadow) {
+			L.DomUtil.addClass(newShadow, classToAdd);
+		}
+		this._shadow = newShadow;
+
+
+		if (options.opacity < 1) {
+			this._updateOpacity();
+		}
+
+
+		var panes = this._map._panes;
+
+		if (addIcon) {
+			panes.markerPane.appendChild(this._icon);
+		}
+
+		if (newShadow && addShadow) {
+			panes.shadowPane.appendChild(this._shadow);
+		}
+	},
+
+	_removeIcon: function () {
+		if (this.options.riseOnHover) {
+			L.DomEvent
+			    .off(this._icon, 'mouseover', this._bringToFront)
+			    .off(this._icon, 'mouseout', this._resetZIndex);
+		}
+
+		this._map._panes.markerPane.removeChild(this._icon);
+
+		this._icon = null;
+	},
+
+	_removeShadow: function () {
+		if (this._shadow) {
+			this._map._panes.shadowPane.removeChild(this._shadow);
+		}
+		this._shadow = null;
+	},
+
+	_setPos: function (pos) {
+		L.DomUtil.setPosition(this._icon, pos);
+
+		if (this._shadow) {
+			L.DomUtil.setPosition(this._shadow, pos);
+		}
+
+		this._zIndex = pos.y + this.options.zIndexOffset;
+
+		this._resetZIndex();
+	},
+
+	_updateZIndex: function (offset) {
+		this._icon.style.zIndex = this._zIndex + offset;
+	},
+
+	_animateZoom: function (opt) {
+		var pos = this._map._latLngToNewLayerPoint(this._latlng, opt.zoom, opt.center).round();
+
+		this._setPos(pos);
+	},
+
+	_initInteraction: function () {
+
+		if (!this.options.clickable) { return; }
+
+		// TODO refactor into something shared with Map/Path/etc. to DRY it up
+
+		var icon = this._icon,
+		    events = ['dblclick', 'mousedown', 'mouseover', 'mouseout', 'contextmenu'];
+
+		L.DomUtil.addClass(icon, 'leaflet-clickable');
+		L.DomEvent.on(icon, 'click', this._onMouseClick, this);
+		L.DomEvent.on(icon, 'keypress', this._onKeyPress, this);
+
+		for (var i = 0; i < events.length; i++) {
+			L.DomEvent.on(icon, events[i], this._fireMouseEvent, this);
+		}
+
+		if (L.Handler.MarkerDrag) {
+			this.dragging = new L.Handler.MarkerDrag(this);
+
+			if (this.options.draggable) {
+				this.dragging.enable();
+			}
+		}
+	},
+
+	_onMouseClick: function (e) {
+		var wasDragged = this.dragging && this.dragging.moved();
+
+		if (this.hasEventListeners(e.type) || wasDragged) {
+			L.DomEvent.stopPropagation(e);
+		}
+
+		if (wasDragged) { return; }
+
+		if ((!this.dragging || !this.dragging._enabled) && this._map.dragging && this._map.dragging.moved()) { return; }
+
+		this.fire(e.type, {
+			originalEvent: e,
+			latlng: this._latlng
+		});
+	},
+
+	_onKeyPress: function (e) {
+		if (e.keyCode === 13) {
+			this.fire('click', {
+				originalEvent: e,
+				latlng: this._latlng
+			});
+		}
+	},
+
+	_fireMouseEvent: function (e) {
+
+		this.fire(e.type, {
+			originalEvent: e,
+			latlng: this._latlng
+		});
+
+		// TODO proper custom event propagation
+		// this line will always be called if marker is in a FeatureGroup
+		if (e.type === 'contextmenu' && this.hasEventListeners(e.type)) {
+			L.DomEvent.preventDefault(e);
+		}
+		if (e.type !== 'mousedown') {
+			L.DomEvent.stopPropagation(e);
+		} else {
+			L.DomEvent.preventDefault(e);
+		}
+	},
+
+	setOpacity: function (opacity) {
+		this.options.opacity = opacity;
+		if (this._map) {
+			this._updateOpacity();
+		}
+
+		return this;
+	},
+
+	_updateOpacity: function () {
+		L.DomUtil.setOpacity(this._icon, this.options.opacity);
+		if (this._shadow) {
+			L.DomUtil.setOpacity(this._shadow, this.options.opacity);
+		}
+	},
+
+	_bringToFront: function () {
+		this._updateZIndex(this.options.riseOffset);
+	},
+
+	_resetZIndex: function () {
+		this._updateZIndex(0);
+	}
+});
+
+L.marker = function (latlng, options) {
+	return new L.Marker(latlng, options);
+};
+
+
+/*
+ * L.DivIcon is a lightweight HTML-based icon class (as opposed to the image-based L.Icon)
+ * to use with L.Marker.
+ */
+
+L.DivIcon = L.Icon.extend({
+	options: {
+		iconSize: [12, 12], // also can be set through CSS
+		/*
+		iconAnchor: (Point)
+		popupAnchor: (Point)
+		html: (String)
+		bgPos: (Point)
+		*/
+		className: 'leaflet-div-icon',
+		html: false
+	},
+
+	createIcon: function (oldIcon) {
+		var div = (oldIcon && oldIcon.tagName === 'DIV') ? oldIcon : document.createElement('div'),
+		    options = this.options;
+
+		if (options.html !== false) {
+			div.innerHTML = options.html;
+		} else {
+			div.innerHTML = '';
+		}
+
+		if (options.bgPos) {
+			div.style.backgroundPosition =
+			        (-options.bgPos.x) + 'px ' + (-options.bgPos.y) + 'px';
+		}
+
+		this._setIconStyles(div, 'icon');
+		return div;
+	},
+
+	createShadow: function () {
+		return null;
+	}
+});
+
+L.divIcon = function (options) {
+	return new L.DivIcon(options);
+};
+
+
+/*
+ * L.Popup is used for displaying popups on the map.
+ */
+
+L.Map.mergeOptions({
+	closePopupOnClick: true
+});
+
+L.Popup = L.Class.extend({
+	includes: L.Mixin.Events,
+
+	options: {
+		minWidth: 50,
+		maxWidth: 300,
+		// maxHeight: null,
+		autoPan: true,
+		closeButton: true,
+		offset: [0, 7],
+		autoPanPadding: [5, 5],
+		// autoPanPaddingTopLeft: null,
+		// autoPanPaddingBottomRight: null,
+		keepInView: false,
+		className: '',
+		zoomAnimation: true
+	},
+
+	initialize: function (options, source) {
+		L.setOptions(this, options);
+
+		this._source = source;
+		this._animated = L.Browser.any3d && this.options.zoomAnimation;
+		this._isOpen = false;
+	},
+
+	onAdd: function (map) {
+		this._map = map;
+
+		if (!this._container) {
+			this._initLayout();
+		}
+
+		var animFade = map.options.fadeAnimation;
+
+		if (animFade) {
+			L.DomUtil.setOpacity(this._container, 0);
+		}
+		map._panes.popupPane.appendChild(this._container);
+
+		map.on(this._getEvents(), this);
+
+		this.update();
+
+		if (animFade) {
+			L.DomUtil.setOpacity(this._container, 1);
+		}
+
+		this.fire('open');
+
+		map.fire('popupopen', {popup: this});
+
+		if (this._source) {
+			this._source.fire('popupopen', {popup: this});
+		}
+	},
+
+	addTo: function (map) {
+		map.addLayer(this);
+		return this;
+	},
+
+	openOn: function (map) {
+		map.openPopup(this);
+		return this;
+	},
+
+	onRemove: function (map) {
+		map._panes.popupPane.removeChild(this._container);
+
+		L.Util.falseFn(this._container.offsetWidth); // force reflow
+
+		map.off(this._getEvents(), this);
+
+		if (map.options.fadeAnimation) {
+			L.DomUtil.setOpacity(this._container, 0);
+		}
+
+		this._map = null;
+
+		this.fire('close');
+
+		map.fire('popupclose', {popup: this});
+
+		if (this._source) {
+			this._source.fire('popupclose', {popup: this});
+		}
+	},
+
+	getLatLng: function () {
+		return this._latlng;
+	},
+
+	setLatLng: function (latlng) {
+		this._latlng = L.latLng(latlng);
+		if (this._map) {
+			this._updatePosition();
+			this._adjustPan();
+		}
+		return this;
+	},
+
+	getContent: function () {
+		return this._content;
+	},
+
+	setContent: function (content) {
+		this._content = content;
+		this.update();
+		return this;
+	},
+
+	update: function () {
+		if (!this._map) { return; }
+
+		this._container.style.visibility = 'hidden';
+
+		this._updateContent();
+		this._updateLayout();
+		this._updatePosition();
+
+		this._container.style.visibility = '';
+
+		this._adjustPan();
+	},
+
+	_getEvents: function () {
+		var events = {
+			viewreset: this._updatePosition
+		};
+
+		if (this._animated) {
+			events.zoomanim = this._zoomAnimation;
+		}
+		if ('closeOnClick' in this.options ? this.options.closeOnClick : this._map.options.closePopupOnClick) {
+			events.preclick = this._close;
+		}
+		if (this.options.keepInView) {
+			events.moveend = this._adjustPan;
+		}
+
+		return events;
+	},
+
+	_close: function () {
+		if (this._map) {
+			this._map.closePopup(this);
+		}
+	},
+
+	_initLayout: function () {
+		var prefix = 'leaflet-popup',
+			containerClass = prefix + ' ' + this.options.className + ' leaflet-zoom-' +
+			        (this._animated ? 'animated' : 'hide'),
+			container = this._container = L.DomUtil.create('div', containerClass),
+			closeButton;
+
+		if (this.options.closeButton) {
+			closeButton = this._closeButton =
+			        L.DomUtil.create('a', prefix + '-close-button', container);
+			closeButton.href = '#close';
+			closeButton.innerHTML = '&#215;';
+			L.DomEvent.disableClickPropagation(closeButton);
+
+			L.DomEvent.on(closeButton, 'click', this._onCloseButtonClick, this);
+		}
+
+		var wrapper = this._wrapper =
+		        L.DomUtil.create('div', prefix + '-content-wrapper', container);
+		L.DomEvent.disableClickPropagation(wrapper);
+
+		this._contentNode = L.DomUtil.create('div', prefix + '-content', wrapper);
+
+		L.DomEvent.disableScrollPropagation(this._contentNode);
+		L.DomEvent.on(wrapper, 'contextmenu', L.DomEvent.stopPropagation);
+
+		this._tipContainer = L.DomUtil.create('div', prefix + '-tip-container', container);
+		this._tip = L.DomUtil.create('div', prefix + '-tip', this._tipContainer);
+	},
+
+	_updateContent: function () {
+		if (!this._content) { return; }
+
+		if (typeof this._content === 'string') {
+			this._contentNode.innerHTML = this._content;
+		} else {
+			while (this._contentNode.hasChildNodes()) {
+				this._contentNode.removeChild(this._contentNode.firstChild);
+			}
+			this._contentNode.appendChild(this._content);
+		}
+		this.fire('contentupdate');
+	},
+
+	_updateLayout: function () {
+		var container = this._contentNode,
+		    style = container.style;
+
+		style.width = '';
+		style.whiteSpace = 'nowrap';
+
+		var width = container.offsetWidth;
+		width = Math.min(width, this.options.maxWidth);
+		width = Math.max(width, this.options.minWidth);
+
+		style.width = (width + 1) + 'px';
+		style.whiteSpace = '';
+
+		style.height = '';
+
+		var height = container.offsetHeight,
+		    maxHeight = this.options.maxHeight,
+		    scrolledClass = 'leaflet-popup-scrolled';
+
+		if (maxHeight && height > maxHeight) {
+			style.height = maxHeight + 'px';
+			L.DomUtil.addClass(container, scrolledClass);
+		} else {
+			L.DomUtil.removeClass(container, scrolledClass);
+		}
+
+		this._containerWidth = this._container.offsetWidth;
+	},
+
+	_updatePosition: function () {
+		if (!this._map) { return; }
+
+		var pos = this._map.latLngToLayerPoint(this._latlng),
+		    animated = this._animated,
+		    offset = L.point(this.options.offset);
+
+		if (animated) {
+			L.DomUtil.setPosition(this._container, pos);
+		}
+
+		this._containerBottom = -offset.y - (animated ? 0 : pos.y);
+		this._containerLeft = -Math.round(this._containerWidth / 2) + offset.x + (animated ? 0 : pos.x);
+
+		// bottom position the popup in case the height of the popup changes (images loading etc)
+		this._container.style.bottom = this._containerBottom + 'px';
+		this._container.style.left = this._containerLeft + 'px';
+	},
+
+	_zoomAnimation: function (opt) {
+		var pos = this._map._latLngToNewLayerPoint(this._latlng, opt.zoom, opt.center);
+
+		L.DomUtil.setPosition(this._container, pos);
+	},
+
+	_adjustPan: function () {
+		if (!this.options.autoPan) { return; }
+
+		var map = this._map,
+		    containerHeight = this._container.offsetHeight,
+		    containerWidth = this._containerWidth,
+
+		    layerPos = new L.Point(this._containerLeft, -containerHeight - this._containerBottom);
+
+		if (this._animated) {
+			layerPos._add(L.DomUtil.getPosition(this._container));
+		}
+
+		var containerPos = map.layerPointToContainerPoint(layerPos),
+		    padding = L.point(this.options.autoPanPadding),
+		    paddingTL = L.point(this.options.autoPanPaddingTopLeft || padding),
+		    paddingBR = L.point(this.options.autoPanPaddingBottomRight || padding),
+		    size = map.getSize(),
+		    dx = 0,
+		    dy = 0;
+
+		if (containerPos.x + containerWidth + paddingBR.x > size.x) { // right
+			dx = containerPos.x + containerWidth - size.x + paddingBR.x;
+		}
+		if (containerPos.x - dx - paddingTL.x < 0) { // left
+			dx = containerPos.x - paddingTL.x;
+		}
+		if (containerPos.y + containerHeight + paddingBR.y > size.y) { // bottom
+			dy = containerPos.y + containerHeight - size.y + paddingBR.y;
+		}
+		if (containerPos.y - dy - paddingTL.y < 0) { // top
+			dy = containerPos.y - paddingTL.y;
+		}
+
+		if (dx || dy) {
+			map
+			    .fire('autopanstart')
+			    .panBy([dx, dy]);
+		}
+	},
+
+	_onCloseButtonClick: function (e) {
+		this._close();
+		L.DomEvent.stop(e);
+	}
+});
+
+L.popup = function (options, source) {
+	return new L.Popup(options, source);
+};
+
+
+L.Map.include({
+	openPopup: function (popup, latlng, options) { // (Popup) or (String || HTMLElement, LatLng[, Object])
+		this.closePopup();
+
+		if (!(popup instanceof L.Popup)) {
+			var content = popup;
+
+			popup = new L.Popup(options)
+			    .setLatLng(latlng)
+			    .setContent(content);
+		}
+		popup._isOpen = true;
+
+		this._popup = popup;
+		return this.addLayer(popup);
+	},
+
+	closePopup: function (popup) {
+		if (!popup || popup === this._popup) {
+			popup = this._popup;
+			this._popup = null;
+		}
+		if (popup) {
+			this.removeLayer(popup);
+			popup._isOpen = false;
+		}
+		return this;
+	}
+});
+
+
+/*
+ * Popup extension to L.Marker, adding popup-related methods.
+ */
+
+L.Marker.include({
+	openPopup: function () {
+		if (this._popup && this._map && !this._map.hasLayer(this._popup)) {
+			this._popup.setLatLng(this._latlng);
+			this._map.openPopup(this._popup);
+		}
+
+		return this;
+	},
+
+	closePopup: function () {
+		if (this._popup) {
+			this._popup._close();
+		}
+		return this;
+	},
+
+	togglePopup: function () {
+		if (this._popup) {
+			if (this._popup._isOpen) {
+				this.closePopup();
+			} else {
+				this.openPopup();
+			}
+		}
+		return this;
+	},
+
+	bindPopup: function (content, options) {
+		var anchor = L.point(this.options.icon.options.popupAnchor || [0, 0]);
+
+		anchor = anchor.add(L.Popup.prototype.options.offset);
+
+		if (options && options.offset) {
+			anchor = anchor.add(options.offset);
+		}
+
+		options = L.extend({offset: anchor}, options);
+
+		if (!this._popupHandlersAdded) {
+			this
+			    .on('click', this.togglePopup, this)
+			    .on('remove', this.closePopup, this)
+			    .on('move', this._movePopup, this);
+			this._popupHandlersAdded = true;
+		}
+
+		if (content instanceof L.Popup) {
+			L.setOptions(content, options);
+			this._popup = content;
+			content._source = this;
+		} else {
+			this._popup = new L.Popup(options, this)
+				.setContent(content);
+		}
+
+		return this;
+	},
+
+	setPopupContent: function (content) {
+		if (this._popup) {
+			this._popup.setContent(content);
+		}
+		return this;
+	},
+
+	unbindPopup: function () {
+		if (this._popup) {
+			this._popup = null;
+			this
+			    .off('click', this.togglePopup, this)
+			    .off('remove', this.closePopup, this)
+			    .off('move', this._movePopup, this);
+			this._popupHandlersAdded = false;
+		}
+		return this;
+	},
+
+	getPopup: function () {
+		return this._popup;
+	},
+
+	_movePopup: function (e) {
+		this._popup.setLatLng(e.latlng);
+	}
+});
+
+
+/*
+ * L.LayerGroup is a class to combine several layers into one so that
+ * you can manipulate the group (e.g. add/remove it) as one layer.
+ */
+
+L.LayerGroup = L.Class.extend({
+	initialize: function (layers) {
+		this._layers = {};
+
+		var i, len;
+
+		if (layers) {
+			for (i = 0, len = layers.length; i < len; i++) {
+				this.addLayer(layers[i]);
+			}
+		}
+	},
+
+	addLayer: function (layer) {
+		var id = this.getLayerId(layer);
+
+		this._layers[id] = layer;
+
+		if (this._map) {
+			this._map.addLayer(layer);
+		}
+
+		return this;
+	},
+
+	removeLayer: function (layer) {
+		var id = layer in this._layers ? layer : this.getLayerId(layer);
+
+		if (this._map && this._layers[id]) {
+			this._map.removeLayer(this._layers[id]);
+		}
+
+		delete this._layers[id];
+
+		return this;
+	},
+
+	hasLayer: function (layer) {
+		if (!layer) { return false; }
+
+		return (layer in this._layers || this.getLayerId(layer) in this._layers);
+	},
+
+	clearLayers: function () {
+		this.eachLayer(this.removeLayer, this);
+		return this;
+	},
+
+	invoke: function (methodName) {
+		var args = Array.prototype.slice.call(arguments, 1),
+		    i, layer;
+
+		for (i in this._layers) {
+			layer = this._layers[i];
+
+			if (layer[methodName]) {
+				layer[methodName].apply(layer, args);
+			}
+		}
+
+		return this;
+	},
+
+	onAdd: function (map) {
+		this._map = map;
+		this.eachLayer(map.addLayer, map);
+	},
+
+	onRemove: function (map) {
+		this.eachLayer(map.removeLayer, map);
+		this._map = null;
+	},
+
+	addTo: function (map) {
+		map.addLayer(this);
+		return this;
+	},
+
+	eachLayer: function (method, context) {
+		for (var i in this._layers) {
+			method.call(context, this._layers[i]);
+		}
+		return this;
+	},
+
+	getLayer: function (id) {
+		return this._layers[id];
+	},
+
+	getLayers: function () {
+		var layers = [];
+
+		for (var i in this._layers) {
+			layers.push(this._layers[i]);
+		}
+		return layers;
+	},
+
+	setZIndex: function (zIndex) {
+		return this.invoke('setZIndex', zIndex);
+	},
+
+	getLayerId: function (layer) {
+		return L.stamp(layer);
+	}
+});
+
+L.layerGroup = function (layers) {
+	return new L.LayerGroup(layers);
+};
+
+
+/*
+ * L.FeatureGroup extends L.LayerGroup by introducing mouse events and additional methods
+ * shared between a group of interactive layers (like vectors or markers).
+ */
+
+L.FeatureGroup = L.LayerGroup.extend({
+	includes: L.Mixin.Events,
+
+	statics: {
+		EVENTS: 'click dblclick mouseover mouseout mousemove contextmenu popupopen popupclose'
+	},
+
+	addLayer: function (layer) {
+		if (this.hasLayer(layer)) {
+			return this;
+		}
+
+		if ('on' in layer) {
+			layer.on(L.FeatureGroup.EVENTS, this._propagateEvent, this);
+		}
+
+		L.LayerGroup.prototype.addLayer.call(this, layer);
+
+		if (this._popupContent && layer.bindPopup) {
+			layer.bindPopup(this._popupContent, this._popupOptions);
+		}
+
+		return this.fire('layeradd', {layer: layer});
+	},
+
+	removeLayer: function (layer) {
+		if (!this.hasLayer(layer)) {
+			return this;
+		}
+		if (layer in this._layers) {
+			layer = this._layers[layer];
+		}
+
+		if ('off' in layer) {
+			layer.off(L.FeatureGroup.EVENTS, this._propagateEvent, this);
+		}
+
+		L.LayerGroup.prototype.removeLayer.call(this, layer);
+
+		if (this._popupContent) {
+			this.invoke('unbindPopup');
+		}
+
+		return this.fire('layerremove', {layer: layer});
+	},
+
+	bindPopup: function (content, options) {
+		this._popupContent = content;
+		this._popupOptions = options;
+		return this.invoke('bindPopup', content, options);
+	},
+
+	openPopup: function (latlng) {
+		// open popup on the first layer
+		for (var id in this._layers) {
+			this._layers[id].openPopup(latlng);
+			break;
+		}
+		return this;
+	},
+
+	setStyle: function (style) {
+		return this.invoke('setStyle', style);
+	},
+
+	bringToFront: function () {
+		return this.invoke('bringToFront');
+	},
+
+	bringToBack: function () {
+		return this.invoke('bringToBack');
+	},
+
+	getBounds: function () {
+		var bounds = new L.LatLngBounds();
+
+		this.eachLayer(function (layer) {
+			bounds.extend(layer instanceof L.Marker ? layer.getLatLng() : layer.getBounds());
+		});
+
+		return bounds;
+	},
+
+	_propagateEvent: function (e) {
+		e = L.extend({
+			layer: e.target,
+			target: this
+		}, e);
+		this.fire(e.type, e);
+	}
+});
+
+L.featureGroup = function (layers) {
+	return new L.FeatureGroup(layers);
+};
+
+
+/*
+ * L.Path is a base class for rendering vector paths on a map. Inherited by Polyline, Circle, etc.
+ */
+
+L.Path = L.Class.extend({
+	includes: [L.Mixin.Events],
+
+	statics: {
+		// how much to extend the clip area around the map view
+		// (relative to its size, e.g. 0.5 is half the screen in each direction)
+		// set it so that SVG element doesn't exceed 1280px (vectors flicker on dragend if it is)
+		CLIP_PADDING: (function () {
+			var max = L.Browser.mobile ? 1280 : 2000,
+			    target = (max / Math.max(window.outerWidth, window.outerHeight) - 1) / 2;
+			return Math.max(0, Math.min(0.5, target));
+		})()
+	},
+
+	options: {
+		stroke: true,
+		color: '#0033ff',
+		dashArray: null,
+		lineCap: null,
+		lineJoin: null,
+		weight: 5,
+		opacity: 0.5,
+
+		fill: false,
+		fillColor: null, //same as color by default
+		fillOpacity: 0.2,
+
+		clickable: true
+	},
+
+	initialize: function (options) {
+		L.setOptions(this, options);
+	},
+
+	onAdd: function (map) {
+		this._map = map;
+
+		if (!this._container) {
+			this._initElements();
+			this._initEvents();
+		}
+
+		this.projectLatlngs();
+		this._updatePath();
+
+		if (this._container) {
+			this._map._pathRoot.appendChild(this._container);
+		}
+
+		this.fire('add');
+
+		map.on({
+			'viewreset': this.projectLatlngs,
+			'moveend': this._updatePath
+		}, this);
+	},
+
+	addTo: function (map) {
+		map.addLayer(this);
+		return this;
+	},
+
+	onRemove: function (map) {
+		map._pathRoot.removeChild(this._container);
+
+		// Need to fire remove event before we set _map to null as the event hooks might need the object
+		this.fire('remove');
+		this._map = null;
+
+		if (L.Browser.vml) {
+			this._container = null;
+			this._stroke = null;
+			this._fill = null;
+		}
+
+		map.off({
+			'viewreset': this.projectLatlngs,
+			'moveend': this._updatePath
+		}, this);
+	},
+
+	projectLatlngs: function () {
+		// do all projection stuff here
+	},
+
+	setStyle: function (style) {
+		L.setOptions(this, style);
+
+		if (this._container) {
+			this._updateStyle();
+		}
+
+		return this;
+	},
+
+	redraw: function () {
+		if (this._map) {
+			this.projectLatlngs();
+			this._updatePath();
+		}
+		return this;
+	}
+});
+
+L.Map.include({
+	_updatePathViewport: function () {
+		var p = L.Path.CLIP_PADDING,
+		    size = this.getSize(),
+		    panePos = L.DomUtil.getPosition(this._mapPane),
+		    min = panePos.multiplyBy(-1)._subtract(size.multiplyBy(p)._round()),
+		    max = min.add(size.multiplyBy(1 + p * 2)._round());
+
+		this._pathViewport = new L.Bounds(min, max);
+	}
+});
+
+
+/*
+ * Extends L.Path with SVG-specific rendering code.
+ */
+
+L.Path.SVG_NS = 'http://www.w3.org/2000/svg';
+
+L.Browser.svg = !!(document.createElementNS && document.createElementNS(L.Path.SVG_NS, 'svg').createSVGRect);
+
+L.Path = L.Path.extend({
+	statics: {
+		SVG: L.Browser.svg
+	},
+
+	bringToFront: function () {
+		var root = this._map._pathRoot,
+		    path = this._container;
+
+		if (path && root.lastChild !== path) {
+			root.appendChild(path);
+		}
+		return this;
+	},
+
+	bringToBack: function () {
+		var root = this._map._pathRoot,
+		    path = this._container,
+		    first = root.firstChild;
+
+		if (path && first !== path) {
+			root.insertBefore(path, first);
+		}
+		return this;
+	},
+
+	getPathString: function () {
+		// form path string here
+	},
+
+	_createElement: function (name) {
+		return document.createElementNS(L.Path.SVG_NS, name);
+	},
+
+	_initElements: function () {
+		this._map._initPathRoot();
+		this._initPath();
+		this._initStyle();
+	},
+
+	_initPath: function () {
+		this._container = this._createElement('g');
+
+		this._path = this._createElement('path');
+
+		if (this.options.className) {
+			L.DomUtil.addClass(this._path, this.options.className);
+		}
+
+		this._container.appendChild(this._path);
+	},
+
+	_initStyle: function () {
+		if (this.options.stroke) {
+			this._path.setAttribute('stroke-linejoin', 'round');
+			this._path.setAttribute('stroke-linecap', 'round');
+		}
+		if (this.options.fill) {
+			this._path.setAttribute('fill-rule', 'evenodd');
+		}
+		if (this.options.pointerEvents) {
+			this._path.setAttribute('pointer-events', this.options.pointerEvents);
+		}
+		if (!this.options.clickable && !this.options.pointerEvents) {
+			this._path.setAttribute('pointer-events', 'none');
+		}
+		this._updateStyle();
+	},
+
+	_updateStyle: function () {
+		if (this.options.stroke) {
+			this._path.setAttribute('stroke', this.options.color);
+			this._path.setAttribute('stroke-opacity', this.options.opacity);
+			this._path.setAttribute('stroke-width', this.options.weight);
+			if (this.options.dashArray) {
+				this._path.setAttribute('stroke-dasharray', this.options.dashArray);
+			} else {
+				this._path.removeAttribute('stroke-dasharray');
+			}
+			if (this.options.lineCap) {
+				this._path.setAttribute('stroke-linecap', this.options.lineCap);
+			}
+			if (this.options.lineJoin) {
+				this._path.setAttribute('stroke-linejoin', this.options.lineJoin);
+			}
+		} else {
+			this._path.setAttribute('stroke', 'none');
+		}
+		if (this.options.fill) {
+			this._path.setAttribute('fill', this.options.fillColor || this.options.color);
+			this._path.setAttribute('fill-opacity', this.options.fillOpacity);
+		} else {
+			this._path.setAttribute('fill', 'none');
+		}
+	},
+
+	_updatePath: function () {
+		var str = this.getPathString();
+		if (!str) {
+			// fix webkit empty string parsing bug
+			str = 'M0 0';
+		}
+		this._path.setAttribute('d', str);
+	},
+
+	// TODO remove duplication with L.Map
+	_initEvents: function () {
+		if (this.options.clickable) {
+			if (L.Browser.svg || !L.Browser.vml) {
+				L.DomUtil.addClass(this._path, 'leaflet-clickable');
+			}
+
+			L.DomEvent.on(this._container, 'click', this._onMouseClick, this);
+
+			var events = ['dblclick', 'mousedown', 'mouseover',
+			              'mouseout', 'mousemove', 'contextmenu'];
+			for (var i = 0; i < events.length; i++) {
+				L.DomEvent.on(this._container, events[i], this._fireMouseEvent, this);
+			}
+		}
+	},
+
+	_onMouseClick: function (e) {
+		if (this._map.dragging && this._map.dragging.moved()) { return; }
+
+		this._fireMouseEvent(e);
+	},
+
+	_fireMouseEvent: function (e) {
+		if (!this._map || !this.hasEventListeners(e.type)) { return; }
+
+		var map = this._map,
+		    containerPoint = map.mouseEventToContainerPoint(e),
+		    layerPoint = map.containerPointToLayerPoint(containerPoint),
+		    latlng = map.layerPointToLatLng(layerPoint);
+
+		this.fire(e.type, {
+			latlng: latlng,
+			layerPoint: layerPoint,
+			containerPoint: containerPoint,
+			originalEvent: e
+		});
+
+		if (e.type === 'contextmenu') {
+			L.DomEvent.preventDefault(e);
+		}
+		if (e.type !== 'mousemove') {
+			L.DomEvent.stopPropagation(e);
+		}
+	}
+});
+
+L.Map.include({
+	_initPathRoot: function () {
+		if (!this._pathRoot) {
+			this._pathRoot = L.Path.prototype._createElement('svg');
+			this._panes.overlayPane.appendChild(this._pathRoot);
+
+			if (this.options.zoomAnimation && L.Browser.any3d) {
+				L.DomUtil.addClass(this._pathRoot, 'leaflet-zoom-animated');
+
+				this.on({
+					'zoomanim': this._animatePathZoom,
+					'zoomend': this._endPathZoom
+				});
+			} else {
+				L.DomUtil.addClass(this._pathRoot, 'leaflet-zoom-hide');
+			}
+
+			this.on('moveend', this._updateSvgViewport);
+			this._updateSvgViewport();
+		}
+	},
+
+	_animatePathZoom: function (e) {
+		var scale = this.getZoomScale(e.zoom),
+		    offset = this._getCenterOffset(e.center)._multiplyBy(-scale)._add(this._pathViewport.min);
+
+		this._pathRoot.style[L.DomUtil.TRANSFORM] =
+		        L.DomUtil.getTranslateString(offset) + ' scale(' + scale + ') ';
+
+		this._pathZooming = true;
+	},
+
+	_endPathZoom: function () {
+		this._pathZooming = false;
+	},
+
+	_updateSvgViewport: function () {
+
+		if (this._pathZooming) {
+			// Do not update SVGs while a zoom animation is going on otherwise the animation will break.
+			// When the zoom animation ends we will be updated again anyway
+			// This fixes the case where you do a momentum move and zoom while the move is still ongoing.
+			return;
+		}
+
+		this._updatePathViewport();
+
+		var vp = this._pathViewport,
+		    min = vp.min,
+		    max = vp.max,
+		    width = max.x - min.x,
+		    height = max.y - min.y,
+		    root = this._pathRoot,
+		    pane = this._panes.overlayPane;
+
+		// Hack to make flicker on drag end on mobile webkit less irritating
+		if (L.Browser.mobileWebkit) {
+			pane.removeChild(root);
+		}
+
+		L.DomUtil.setPosition(root, min);
+		root.setAttribute('width', width);
+		root.setAttribute('height', height);
+		root.setAttribute('viewBox', [min.x, min.y, width, height].join(' '));
+
+		if (L.Browser.mobileWebkit) {
+			pane.appendChild(root);
+		}
+	}
+});
+
+
+/*
+ * Popup extension to L.Path (polylines, polygons, circles), adding popup-related methods.
+ */
+
+L.Path.include({
+
+	bindPopup: function (content, options) {
+
+		if (content instanceof L.Popup) {
+			this._popup = content;
+		} else {
+			if (!this._popup || options) {
+				this._popup = new L.Popup(options, this);
+			}
+			this._popup.setContent(content);
+		}
+
+		if (!this._popupHandlersAdded) {
+			this
+			    .on('click', this._openPopup, this)
+			    .on('remove', this.closePopup, this);
+
+			this._popupHandlersAdded = true;
+		}
+
+		return this;
+	},
+
+	unbindPopup: function () {
+		if (this._popup) {
+			this._popup = null;
+			this
+			    .off('click', this._openPopup)
+			    .off('remove', this.closePopup);
+
+			this._popupHandlersAdded = false;
+		}
+		return this;
+	},
+
+	openPopup: function (latlng) {
+
+		if (this._popup) {
+			// open the popup from one of the path's points if not specified
+			latlng = latlng || this._latlng ||
+			         this._latlngs[Math.floor(this._latlngs.length / 2)];
+
+			this._openPopup({latlng: latlng});
+		}
+
+		return this;
+	},
+
+	closePopup: function () {
+		if (this._popup) {
+			this._popup._close();
+		}
+		return this;
+	},
+
+	_openPopup: function (e) {
+		this._popup.setLatLng(e.latlng);
+		this._map.openPopup(this._popup);
+	}
+});
+
+
+/*
+ * Vector rendering for IE6-8 through VML.
+ * Thanks to Dmitry Baranovsky and his Raphael library for inspiration!
+ */
+
+L.Browser.vml = !L.Browser.svg && (function () {
+	try {
+		var div = document.createElement('div');
+		div.innerHTML = '<v:shape adj="1"/>';
+
+		var shape = div.firstChild;
+		shape.style.behavior = 'url(#default#VML)';
+
+		return shape && (typeof shape.adj === 'object');
+
+	} catch (e) {
+		return false;
+	}
+}());
+
+L.Path = L.Browser.svg || !L.Browser.vml ? L.Path : L.Path.extend({
+	statics: {
+		VML: true,
+		CLIP_PADDING: 0.02
+	},
+
+	_createElement: (function () {
+		try {
+			document.namespaces.add('lvml', 'urn:schemas-microsoft-com:vml');
+			return function (name) {
+				return document.createElement('<lvml:' + name + ' class="lvml">');
+			};
+		} catch (e) {
+			return function (name) {
+				return document.createElement(
+				        '<' + name + ' xmlns="urn:schemas-microsoft.com:vml" class="lvml">');
+			};
+		}
+	}()),
+
+	_initPath: function () {
+		var container = this._container = this._createElement('shape');
+
+		L.DomUtil.addClass(container, 'leaflet-vml-shape' +
+			(this.options.className ? ' ' + this.options.className : ''));
+
+		if (this.options.clickable) {
+			L.DomUtil.addClass(container, 'leaflet-clickable');
+		}
+
+		container.coordsize = '1 1';
+
+		this._path = this._createElement('path');
+		container.appendChild(this._path);
+
+		this._map._pathRoot.appendChild(container);
+	},
+
+	_initStyle: function () {
+		this._updateStyle();
+	},
+
+	_updateStyle: function () {
+		var stroke = this._stroke,
+		    fill = this._fill,
+		    options = this.options,
+		    container = this._container;
+
+		container.stroked = options.stroke;
+		container.filled = options.fill;
+
+		if (options.stroke) {
+			if (!stroke) {
+				stroke = this._stroke = this._createElement('stroke');
+				stroke.endcap = 'round';
+				container.appendChild(stroke);
+			}
+			stroke.weight = options.weight + 'px';
+			stroke.color = options.color;
+			stroke.opacity = options.opacity;
+
+			if (options.dashArray) {
+				stroke.dashStyle = L.Util.isArray(options.dashArray) ?
+				    options.dashArray.join(' ') :
+				    options.dashArray.replace(/( *, *)/g, ' ');
+			} else {
+				stroke.dashStyle = '';
+			}
+			if (options.lineCap) {
+				stroke.endcap = options.lineCap.replace('butt', 'flat');
+			}
+			if (options.lineJoin) {
+				stroke.joinstyle = options.lineJoin;
+			}
+
+		} else if (stroke) {
+			container.removeChild(stroke);
+			this._stroke = null;
+		}
+
+		if (options.fill) {
+			if (!fill) {
+				fill = this._fill = this._createElement('fill');
+				container.appendChild(fill);
+			}
+			fill.color = options.fillColor || options.color;
+			fill.opacity = options.fillOpacity;
+
+		} else if (fill) {
+			container.removeChild(fill);
+			this._fill = null;
+		}
+	},
+
+	_updatePath: function () {
+		var style = this._container.style;
+
+		style.display = 'none';
+		this._path.v = this.getPathString() + ' '; // the space fixes IE empty path string bug
+		style.display = '';
+	}
+});
+
+L.Map.include(L.Browser.svg || !L.Browser.vml ? {} : {
+	_initPathRoot: function () {
+		if (this._pathRoot) { return; }
+
+		var root = this._pathRoot = document.createElement('div');
+		root.className = 'leaflet-vml-container';
+		this._panes.overlayPane.appendChild(root);
+
+		this.on('moveend', this._updatePathViewport);
+		this._updatePathViewport();
+	}
+});
+
+
+/*
+ * Vector rendering for all browsers that support canvas.
+ */
+
+L.Browser.canvas = (function () {
+	return !!document.createElement('canvas').getContext;
+}());
+
+L.Path = (L.Path.SVG && !window.L_PREFER_CANVAS) || !L.Browser.canvas ? L.Path : L.Path.extend({
+	statics: {
+		//CLIP_PADDING: 0.02, // not sure if there's a need to set it to a small value
+		CANVAS: true,
+		SVG: false
+	},
+
+	redraw: function () {
+		if (this._map) {
+			this.projectLatlngs();
+			this._requestUpdate();
+		}
+		return this;
+	},
+
+	setStyle: function (style) {
+		L.setOptions(this, style);
+
+		if (this._map) {
+			this._updateStyle();
+			this._requestUpdate();
+		}
+		return this;
+	},
+
+	onRemove: function (map) {
+		map
+		    .off('viewreset', this.projectLatlngs, this)
+		    .off('moveend', this._updatePath, this);
+
+		if (this.options.clickable) {
+			this._map.off('click', this._onClick, this);
+			this._map.off('mousemove', this._onMouseMove, this);
+		}
+
+		this._requestUpdate();
+		
+		this.fire('remove');
+		this._map = null;
+	},
+
+	_requestUpdate: function () {
+		if (this._map && !L.Path._updateRequest) {
+			L.Path._updateRequest = L.Util.requestAnimFrame(this._fireMapMoveEnd, this._map);
+		}
+	},
+
+	_fireMapMoveEnd: function () {
+		L.Path._updateRequest = null;
+		this.fire('moveend');
+	},
+
+	_initElements: function () {
+		this._map._initPathRoot();
+		this._ctx = this._map._canvasCtx;
+	},
+
+	_updateStyle: function () {
+		var options = this.options;
+
+		if (options.stroke) {
+			this._ctx.lineWidth = options.weight;
+			this._ctx.strokeStyle = options.color;
+		}
+		if (options.fill) {
+			this._ctx.fillStyle = options.fillColor || options.color;
+		}
+
+		if (options.lineCap) {
+			this._ctx.lineCap = options.lineCap;
+		}
+		if (options.lineJoin) {
+			this._ctx.lineJoin = options.lineJoin;
+		}
+	},
+
+	_drawPath: function () {
+		var i, j, len, len2, point, drawMethod;
+
+		this._ctx.beginPath();
+
+		for (i = 0, len = this._parts.length; i < len; i++) {
+			for (j = 0, len2 = this._parts[i].length; j < len2; j++) {
+				point = this._parts[i][j];
+				drawMethod = (j === 0 ? 'move' : 'line') + 'To';
+
+				this._ctx[drawMethod](point.x, point.y);
+			}
+			// TODO refactor ugly hack
+			if (this instanceof L.Polygon) {
+				this._ctx.closePath();
+			}
+		}
+	},
+
+	_checkIfEmpty: function () {
+		return !this._parts.length;
+	},
+
+	_updatePath: function () {
+		if (this._checkIfEmpty()) { return; }
+
+		var ctx = this._ctx,
+		    options = this.options;
+
+		this._drawPath();
+		ctx.save();
+		this._updateStyle();
+
+		if (options.fill) {
+			ctx.globalAlpha = options.fillOpacity;
+			ctx.fill(options.fillRule || 'evenodd');
+		}
+
+		if (options.stroke) {
+			ctx.globalAlpha = options.opacity;
+			ctx.stroke();
+		}
+
+		ctx.restore();
+
+		// TODO optimization: 1 fill/stroke for all features with equal style instead of 1 for each feature
+	},
+
+	_initEvents: function () {
+		if (this.options.clickable) {
+			this._map.on('mousemove', this._onMouseMove, this);
+			this._map.on('click dblclick contextmenu', this._fireMouseEvent, this);
+		}
+	},
+
+	_fireMouseEvent: function (e) {
+		if (this._containsPoint(e.layerPoint)) {
+			this.fire(e.type, e);
+		}
+	},
+
+	_onMouseMove: function (e) {
+		if (!this._map || this._map._animatingZoom) { return; }
+
+		// TODO don't do on each move
+		if (this._containsPoint(e.layerPoint)) {
+			this._ctx.canvas.style.cursor = 'pointer';
+			this._mouseInside = true;
+			this.fire('mouseover', e);
+
+		} else if (this._mouseInside) {
+			this._ctx.canvas.style.cursor = '';
+			this._mouseInside = false;
+			this.fire('mouseout', e);
+		}
+	}
+});
+
+L.Map.include((L.Path.SVG && !window.L_PREFER_CANVAS) || !L.Browser.canvas ? {} : {
+	_initPathRoot: function () {
+		var root = this._pathRoot,
+		    ctx;
+
+		if (!root) {
+			root = this._pathRoot = document.createElement('canvas');
+			root.style.position = 'absolute';
+			ctx = this._canvasCtx = root.getContext('2d');
+
+			ctx.lineCap = 'round';
+			ctx.lineJoin = 'round';
+
+			this._panes.overlayPane.appendChild(root);
+
+			if (this.options.zoomAnimation) {
+				this._pathRoot.className = 'leaflet-zoom-animated';
+				this.on('zoomanim', this._animatePathZoom);
+				this.on('zoomend', this._endPathZoom);
+			}
+			this.on('moveend', this._updateCanvasViewport);
+			this._updateCanvasViewport();
+		}
+	},
+
+	_updateCanvasViewport: function () {
+		// don't redraw while zooming. See _updateSvgViewport for more details
+		if (this._pathZooming) { return; }
+		this._updatePathViewport();
+
+		var vp = this._pathViewport,
+		    min = vp.min,
+		    size = vp.max.subtract(min),
+		    root = this._pathRoot;
+
+		//TODO check if this works properly on mobile webkit
+		L.DomUtil.setPosition(root, min);
+		root.width = size.x;
+		root.height = size.y;
+		root.getContext('2d').translate(-min.x, -min.y);
+	}
+});
+
+
+/*
+ * L.LineUtil contains different utility functions for line segments
+ * and polylines (clipping, simplification, distances, etc.)
+ */
+
+/*jshint bitwise:false */ // allow bitwise operations for this file
+
+L.LineUtil = {
+
+	// Simplify polyline with vertex reduction and Douglas-Peucker simplification.
+	// Improves rendering performance dramatically by lessening the number of points to draw.
+
+	simplify: function (/*Point[]*/ points, /*Number*/ tolerance) {
+		if (!tolerance || !points.length) {
+			return points.slice();
+		}
+
+		var sqTolerance = tolerance * tolerance;
+
+		// stage 1: vertex reduction
+		points = this._reducePoints(points, sqTolerance);
+
+		// stage 2: Douglas-Peucker simplification
+		points = this._simplifyDP(points, sqTolerance);
+
+		return points;
+	},
+
+	// distance from a point to a segment between two points
+	pointToSegmentDistance:  function (/*Point*/ p, /*Point*/ p1, /*Point*/ p2) {
+		return Math.sqrt(this._sqClosestPointOnSegment(p, p1, p2, true));
+	},
+
+	closestPointOnSegment: function (/*Point*/ p, /*Point*/ p1, /*Point*/ p2) {
+		return this._sqClosestPointOnSegment(p, p1, p2);
+	},
+
+	// Douglas-Peucker simplification, see http://en.wikipedia.org/wiki/Douglas-Peucker_algorithm
+	_simplifyDP: function (points, sqTolerance) {
+
+		var len = points.length,
+		    ArrayConstructor = typeof Uint8Array !== undefined + '' ? Uint8Array : Array,
+		    markers = new ArrayConstructor(len);
+
+		markers[0] = markers[len - 1] = 1;
+
+		this._simplifyDPStep(points, markers, sqTolerance, 0, len - 1);
+
+		var i,
+		    newPoints = [];
+
+		for (i = 0; i < len; i++) {
+			if (markers[i]) {
+				newPoints.push(points[i]);
+			}
+		}
+
+		return newPoints;
+	},
+
+	_simplifyDPStep: function (points, markers, sqTolerance, first, last) {
+
+		var maxSqDist = 0,
+		    index, i, sqDist;
+
+		for (i = first + 1; i <= last - 1; i++) {
+			sqDist = this._sqClosestPointOnSegment(points[i], points[first], points[last], true);
+
+			if (sqDist > maxSqDist) {
+				index = i;
+				maxSqDist = sqDist;
+			}
+		}
+
+		if (maxSqDist > sqTolerance) {
+			markers[index] = 1;
+
+			this._simplifyDPStep(points, markers, sqTolerance, first, index);
+			this._simplifyDPStep(points, markers, sqTolerance, index, last);
+		}
+	},
+
+	// reduce points that are too close to each other to a single point
+	_reducePoints: function (points, sqTolerance) {
+		var reducedPoints = [points[0]];
+
+		for (var i = 1, prev = 0, len = points.length; i < len; i++) {
+			if (this._sqDist(points[i], points[prev]) > sqTolerance) {
+				reducedPoints.push(points[i]);
+				prev = i;
+			}
+		}
+		if (prev < len - 1) {
+			reducedPoints.push(points[len - 1]);
+		}
+		return reducedPoints;
+	},
+
+	// Cohen-Sutherland line clipping algorithm.
+	// Used to avoid rendering parts of a polyline that are not currently visible.
+
+	clipSegment: function (a, b, bounds, useLastCode) {
+		var codeA = useLastCode ? this._lastCode : this._getBitCode(a, bounds),
+		    codeB = this._getBitCode(b, bounds),
+
+		    codeOut, p, newCode;
+
+		// save 2nd code to avoid calculating it on the next segment
+		this._lastCode = codeB;
+
+		while (true) {
+			// if a,b is inside the clip window (trivial accept)
+			if (!(codeA | codeB)) {
+				return [a, b];
+			// if a,b is outside the clip window (trivial reject)
+			} else if (codeA & codeB) {
+				return false;
+			// other cases
+			} else {
+				codeOut = codeA || codeB;
+				p = this._getEdgeIntersection(a, b, codeOut, bounds);
+				newCode = this._getBitCode(p, bounds);
+
+				if (codeOut === codeA) {
+					a = p;
+					codeA = newCode;
+				} else {
+					b = p;
+					codeB = newCode;
+				}
+			}
+		}
+	},
+
+	_getEdgeIntersection: function (a, b, code, bounds) {
+		var dx = b.x - a.x,
+		    dy = b.y - a.y,
+		    min = bounds.min,
+		    max = bounds.max;
+
+		if (code & 8) { // top
+			return new L.Point(a.x + dx * (max.y - a.y) / dy, max.y);
+		} else if (code & 4) { // bottom
+			return new L.Point(a.x + dx * (min.y - a.y) / dy, min.y);
+		} else if (code & 2) { // right
+			return new L.Point(max.x, a.y + dy * (max.x - a.x) / dx);
+		} else if (code & 1) { // left
+			return new L.Point(min.x, a.y + dy * (min.x - a.x) / dx);
+		}
+	},
+
+	_getBitCode: function (/*Point*/ p, bounds) {
+		var code = 0;
+
+		if (p.x < bounds.min.x) { // left
+			code |= 1;
+		} else if (p.x > bounds.max.x) { // right
+			code |= 2;
+		}
+		if (p.y < bounds.min.y) { // bottom
+			code |= 4;
+		} else if (p.y > bounds.max.y) { // top
+			code |= 8;
+		}
+
+		return code;
+	},
+
+	// square distance (to avoid unnecessary Math.sqrt calls)
+	_sqDist: function (p1, p2) {
+		var dx = p2.x - p1.x,
+		    dy = p2.y - p1.y;
+		return dx * dx + dy * dy;
+	},
+
+	// return closest point on segment or distance to that point
+	_sqClosestPointOnSegment: function (p, p1, p2, sqDist) {
+		var x = p1.x,
+		    y = p1.y,
+		    dx = p2.x - x,
+		    dy = p2.y - y,
+		    dot = dx * dx + dy * dy,
+		    t;
+
+		if (dot > 0) {
+			t = ((p.x - x) * dx + (p.y - y) * dy) / dot;
+
+			if (t > 1) {
+				x = p2.x;
+				y = p2.y;
+			} else if (t > 0) {
+				x += dx * t;
+				y += dy * t;
+			}
+		}
+
+		dx = p.x - x;
+		dy = p.y - y;
+
+		return sqDist ? dx * dx + dy * dy : new L.Point(x, y);
+	}
+};
+
+
+/*
+ * L.Polyline is used to display polylines on a map.
+ */
+
+L.Polyline = L.Path.extend({
+	initialize: function (latlngs, options) {
+		L.Path.prototype.initialize.call(this, options);
+
+		this._latlngs = this._convertLatLngs(latlngs);
+	},
+
+	options: {
+		// how much to simplify the polyline on each zoom level
+		// more = better performance and smoother look, less = more accurate
+		smoothFactor: 1.0,
+		noClip: false
+	},
+
+	projectLatlngs: function () {
+		this._originalPoints = [];
+
+		for (var i = 0, len = this._latlngs.length; i < len; i++) {
+			this._originalPoints[i] = this._map.latLngToLayerPoint(this._latlngs[i]);
+		}
+	},
+
+	getPathString: function () {
+		for (var i = 0, len = this._parts.length, str = ''; i < len; i++) {
+			str += this._getPathPartStr(this._parts[i]);
+		}
+		return str;
+	},
+
+	getLatLngs: function () {
+		return this._latlngs;
+	},
+
+	setLatLngs: function (latlngs) {
+		this._latlngs = this._convertLatLngs(latlngs);
+		return this.redraw();
+	},
+
+	addLatLng: function (latlng) {
+		this._latlngs.push(L.latLng(latlng));
+		return this.redraw();
+	},
+
+	spliceLatLngs: function () { // (Number index, Number howMany)
+		var removed = [].splice.apply(this._latlngs, arguments);
+		this._convertLatLngs(this._latlngs, true);
+		this.redraw();
+		return removed;
+	},
+
+	closestLayerPoint: function (p) {
+		var minDistance = Infinity, parts = this._parts, p1, p2, minPoint = null;
+
+		for (var j = 0, jLen = parts.length; j < jLen; j++) {
+			var points = parts[j];
+			for (var i = 1, len = points.length; i < len; i++) {
+				p1 = points[i - 1];
+				p2 = points[i];
+				var sqDist = L.LineUtil._sqClosestPointOnSegment(p, p1, p2, true);
+				if (sqDist < minDistance) {
+					minDistance = sqDist;
+					minPoint = L.LineUtil._sqClosestPointOnSegment(p, p1, p2);
+				}
+			}
+		}
+		if (minPoint) {
+			minPoint.distance = Math.sqrt(minDistance);
+		}
+		return minPoint;
+	},
+
+	getBounds: function () {
+		return new L.LatLngBounds(this.getLatLngs());
+	},
+
+	_convertLatLngs: function (latlngs, overwrite) {
+		var i, len, target = overwrite ? latlngs : [];
+
+		for (i = 0, len = latlngs.length; i < len; i++) {
+			if (L.Util.isArray(latlngs[i]) && typeof latlngs[i][0] !== 'number') {
+				return;
+			}
+			target[i] = L.latLng(latlngs[i]);
+		}
+		return target;
+	},
+
+	_initEvents: function () {
+		L.Path.prototype._initEvents.call(this);
+	},
+
+	_getPathPartStr: function (points) {
+		var round = L.Path.VML;
+
+		for (var j = 0, len2 = points.length, str = '', p; j < len2; j++) {
+			p = points[j];
+			if (round) {
+				p._round();
+			}
+			str += (j ? 'L' : 'M') + p.x + ' ' + p.y;
+		}
+		return str;
+	},
+
+	_clipPoints: function () {
+		var points = this._originalPoints,
+		    len = points.length,
+		    i, k, segment;
+
+		if (this.options.noClip) {
+			this._parts = [points];
+			return;
+		}
+
+		this._parts = [];
+
+		var parts = this._parts,
+		    vp = this._map._pathViewport,
+		    lu = L.LineUtil;
+
+		for (i = 0, k = 0; i < len - 1; i++) {
+			segment = lu.clipSegment(points[i], points[i + 1], vp, i);
+			if (!segment) {
+				continue;
+			}
+
+			parts[k] = parts[k] || [];
+			parts[k].push(segment[0]);
+
+			// if segment goes out of screen, or it's the last one, it's the end of the line part
+			if ((segment[1] !== points[i + 1]) || (i === len - 2)) {
+				parts[k].push(segment[1]);
+				k++;
+			}
+		}
+	},
+
+	// simplify each clipped part of the polyline
+	_simplifyPoints: function () {
+		var parts = this._parts,
+		    lu = L.LineUtil;
+
+		for (var i = 0, len = parts.length; i < len; i++) {
+			parts[i] = lu.simplify(parts[i], this.options.smoothFactor);
+		}
+	},
+
+	_updatePath: function () {
+		if (!this._map) { return; }
+
+		this._clipPoints();
+		this._simplifyPoints();
+
+		L.Path.prototype._updatePath.call(this);
+	}
+});
+
+L.polyline = function (latlngs, options) {
+	return new L.Polyline(latlngs, options);
+};
+
+
+/*
+ * L.PolyUtil contains utility functions for polygons (clipping, etc.).
+ */
+
+/*jshint bitwise:false */ // allow bitwise operations here
+
+L.PolyUtil = {};
+
+/*
+ * Sutherland-Hodgeman polygon clipping algorithm.
+ * Used to avoid rendering parts of a polygon that are not currently visible.
+ */
+L.PolyUtil.clipPolygon = function (points, bounds) {
+	var clippedPoints,
+	    edges = [1, 4, 2, 8],
+	    i, j, k,
+	    a, b,
+	    len, edge, p,
+	    lu = L.LineUtil;
+
+	for (i = 0, len = points.length; i < len; i++) {
+		points[i]._code = lu._getBitCode(points[i], bounds);
+	}
+
+	// for each edge (left, bottom, right, top)
+	for (k = 0; k < 4; k++) {
+		edge = edges[k];
+		clippedPoints = [];
+
+		for (i = 0, len = points.length, j = len - 1; i < len; j = i++) {
+			a = points[i];
+			b = points[j];
+
+			// if a is inside the clip window
+			if (!(a._code & edge)) {
+				// if b is outside the clip window (a->b goes out of screen)
+				if (b._code & edge) {
+					p = lu._getEdgeIntersection(b, a, edge, bounds);
+					p._code = lu._getBitCode(p, bounds);
+					clippedPoints.push(p);
+				}
+				clippedPoints.push(a);
+
+			// else if b is inside the clip window (a->b enters the screen)
+			} else if (!(b._code & edge)) {
+				p = lu._getEdgeIntersection(b, a, edge, bounds);
+				p._code = lu._getBitCode(p, bounds);
+				clippedPoints.push(p);
+			}
+		}
+		points = clippedPoints;
+	}
+
+	return points;
+};
+
+
+/*
+ * L.Polygon is used to display polygons on a map.
+ */
+
+L.Polygon = L.Polyline.extend({
+	options: {
+		fill: true
+	},
+
+	initialize: function (latlngs, options) {
+		L.Polyline.prototype.initialize.call(this, latlngs, options);
+		this._initWithHoles(latlngs);
+	},
+
+	_initWithHoles: function (latlngs) {
+		var i, len, hole;
+		if (latlngs && L.Util.isArray(latlngs[0]) && (typeof latlngs[0][0] !== 'number')) {
+			this._latlngs = this._convertLatLngs(latlngs[0]);
+			this._holes = latlngs.slice(1);
+
+			for (i = 0, len = this._holes.length; i < len; i++) {
+				hole = this._holes[i] = this._convertLatLngs(this._holes[i]);
+				if (hole[0].equals(hole[hole.length - 1])) {
+					hole.pop();
+				}
+			}
+		}
+
+		// filter out last point if its equal to the first one
+		latlngs = this._latlngs;
+
+		if (latlngs.length >= 2 && latlngs[0].equals(latlngs[latlngs.length - 1])) {
+			latlngs.pop();
+		}
+	},
+
+	projectLatlngs: function () {
+		L.Polyline.prototype.projectLatlngs.call(this);
+
+		// project polygon holes points
+		// TODO move this logic to Polyline to get rid of duplication
+		this._holePoints = [];
+
+		if (!this._holes) { return; }
+
+		var i, j, len, len2;
+
+		for (i = 0, len = this._holes.length; i < len; i++) {
+			this._holePoints[i] = [];
+
+			for (j = 0, len2 = this._holes[i].length; j < len2; j++) {
+				this._holePoints[i][j] = this._map.latLngToLayerPoint(this._holes[i][j]);
+			}
+		}
+	},
+
+	setLatLngs: function (latlngs) {
+		if (latlngs && L.Util.isArray(latlngs[0]) && (typeof latlngs[0][0] !== 'number')) {
+			this._initWithHoles(latlngs);
+			return this.redraw();
+		} else {
+			return L.Polyline.prototype.setLatLngs.call(this, latlngs);
+		}
+	},
+
+	_clipPoints: function () {
+		var points = this._originalPoints,
+		    newParts = [];
+
+		this._parts = [points].concat(this._holePoints);
+
+		if (this.options.noClip) { return; }
+
+		for (var i = 0, len = this._parts.length; i < len; i++) {
+			var clipped = L.PolyUtil.clipPolygon(this._parts[i], this._map._pathViewport);
+			if (clipped.length) {
+				newParts.push(clipped);
+			}
+		}
+
+		this._parts = newParts;
+	},
+
+	_getPathPartStr: function (points) {
+		var str = L.Polyline.prototype._getPathPartStr.call(this, points);
+		return str + (L.Browser.svg ? 'z' : 'x');
+	}
+});
+
+L.polygon = function (latlngs, options) {
+	return new L.Polygon(latlngs, options);
+};
+
+
+/*
+ * Contains L.MultiPolyline and L.MultiPolygon layers.
+ */
+
+(function () {
+	function createMulti(Klass) {
+
+		return L.FeatureGroup.extend({
+
+			initialize: function (latlngs, options) {
+				this._layers = {};
+				this._options = options;
+				this.setLatLngs(latlngs);
+			},
+
+			setLatLngs: function (latlngs) {
+				var i = 0,
+				    len = latlngs.length;
+
+				this.eachLayer(function (layer) {
+					if (i < len) {
+						layer.setLatLngs(latlngs[i++]);
+					} else {
+						this.removeLayer(layer);
+					}
+				}, this);
+
+				while (i < len) {
+					this.addLayer(new Klass(latlngs[i++], this._options));
+				}
+
+				return this;
+			},
+
+			getLatLngs: function () {
+				var latlngs = [];
+
+				this.eachLayer(function (layer) {
+					latlngs.push(layer.getLatLngs());
+				});
+
+				return latlngs;
+			}
+		});
+	}
+
+	L.MultiPolyline = createMulti(L.Polyline);
+	L.MultiPolygon = createMulti(L.Polygon);
+
+	L.multiPolyline = function (latlngs, options) {
+		return new L.MultiPolyline(latlngs, options);
+	};
+
+	L.multiPolygon = function (latlngs, options) {
+		return new L.MultiPolygon(latlngs, options);
+	};
+}());
+
+
+/*
+ * L.Rectangle extends Polygon and creates a rectangle when passed a LatLngBounds object.
+ */
+
+L.Rectangle = L.Polygon.extend({
+	initialize: function (latLngBounds, options) {
+		L.Polygon.prototype.initialize.call(this, this._boundsToLatLngs(latLngBounds), options);
+	},
+
+	setBounds: function (latLngBounds) {
+		this.setLatLngs(this._boundsToLatLngs(latLngBounds));
+	},
+
+	_boundsToLatLngs: function (latLngBounds) {
+		latLngBounds = L.latLngBounds(latLngBounds);
+		return [
+			latLngBounds.getSouthWest(),
+			latLngBounds.getNorthWest(),
+			latLngBounds.getNorthEast(),
+			latLngBounds.getSouthEast()
+		];
+	}
+});
+
+L.rectangle = function (latLngBounds, options) {
+	return new L.Rectangle(latLngBounds, options);
+};
+
+
+/*
+ * L.Circle is a circle overlay (with a certain radius in meters).
+ */
+
+L.Circle = L.Path.extend({
+	initialize: function (latlng, radius, options) {
+		L.Path.prototype.initialize.call(this, options);
+
+		this._latlng = L.latLng(latlng);
+		this._mRadius = radius;
+	},
+
+	options: {
+		fill: true
+	},
+
+	setLatLng: function (latlng) {
+		this._latlng = L.latLng(latlng);
+		return this.redraw();
+	},
+
+	setRadius: function (radius) {
+		this._mRadius = radius;
+		return this.redraw();
+	},
+
+	projectLatlngs: function () {
+		var lngRadius = this._getLngRadius(),
+		    latlng = this._latlng,
+		    pointLeft = this._map.latLngToLayerPoint([latlng.lat, latlng.lng - lngRadius]);
+
+		this._point = this._map.latLngToLayerPoint(latlng);
+		this._radius = Math.max(this._point.x - pointLeft.x, 1);
+	},
+
+	getBounds: function () {
+		var lngRadius = this._getLngRadius(),
+		    latRadius = (this._mRadius / 40075017) * 360,
+		    latlng = this._latlng;
+
+		return new L.LatLngBounds(
+		        [latlng.lat - latRadius, latlng.lng - lngRadius],
+		        [latlng.lat + latRadius, latlng.lng + lngRadius]);
+	},
+
+	getLatLng: function () {
+		return this._latlng;
+	},
+
+	getPathString: function () {
+		var p = this._point,
+		    r = this._radius;
+
+		if (this._checkIfEmpty()) {
+			return '';
+		}
+
+		if (L.Browser.svg) {
+			return 'M' + p.x + ',' + (p.y - r) +
+			       'A' + r + ',' + r + ',0,1,1,' +
+			       (p.x - 0.1) + ',' + (p.y - r) + ' z';
+		} else {
+			p._round();
+			r = Math.round(r);
+			return 'AL ' + p.x + ',' + p.y + ' ' + r + ',' + r + ' 0,' + (65535 * 360);
+		}
+	},
+
+	getRadius: function () {
+		return this._mRadius;
+	},
+
+	// TODO Earth hardcoded, move into projection code!
+
+	_getLatRadius: function () {
+		return (this._mRadius / 40075017) * 360;
+	},
+
+	_getLngRadius: function () {
+		return this._getLatRadius() / Math.cos(L.LatLng.DEG_TO_RAD * this._latlng.lat);
+	},
+
+	_checkIfEmpty: function () {
+		if (!this._map) {
+			return false;
+		}
+		var vp = this._map._pathViewport,
+		    r = this._radius,
+		    p = this._point;
+
+		return p.x - r > vp.max.x || p.y - r > vp.max.y ||
+		       p.x + r < vp.min.x || p.y + r < vp.min.y;
+	}
+});
+
+L.circle = function (latlng, radius, options) {
+	return new L.Circle(latlng, radius, options);
+};
+
+
+/*
+ * L.CircleMarker is a circle overlay with a permanent pixel radius.
+ */
+
+L.CircleMarker = L.Circle.extend({
+	options: {
+		radius: 10,
+		weight: 2
+	},
+
+	initialize: function (latlng, options) {
+		L.Circle.prototype.initialize.call(this, latlng, null, options);
+		this._radius = this.options.radius;
+	},
+
+	projectLatlngs: function () {
+		this._point = this._map.latLngToLayerPoint(this._latlng);
+	},
+
+	_updateStyle : function () {
+		L.Circle.prototype._updateStyle.call(this);
+		this.setRadius(this.options.radius);
+	},
+
+	setLatLng: function (latlng) {
+		L.Circle.prototype.setLatLng.call(this, latlng);
+		if (this._popup && this._popup._isOpen) {
+			this._popup.setLatLng(latlng);
+		}
+		return this;
+	},
+
+	setRadius: function (radius) {
+		this.options.radius = this._radius = radius;
+		return this.redraw();
+	},
+
+	getRadius: function () {
+		return this._radius;
+	}
+});
+
+L.circleMarker = function (latlng, options) {
+	return new L.CircleMarker(latlng, options);
+};
+
+
+/*
+ * Extends L.Polyline to be able to manually detect clicks on Canvas-rendered polylines.
+ */
+
+L.Polyline.include(!L.Path.CANVAS ? {} : {
+	_containsPoint: function (p, closed) {
+		var i, j, k, len, len2, dist, part,
+		    w = this.options.weight / 2;
+
+		if (L.Browser.touch) {
+			w += 10; // polyline click tolerance on touch devices
+		}
+
+		for (i = 0, len = this._parts.length; i < len; i++) {
+			part = this._parts[i];
+			for (j = 0, len2 = part.length, k = len2 - 1; j < len2; k = j++) {
+				if (!closed && (j === 0)) {
+					continue;
+				}
+
+				dist = L.LineUtil.pointToSegmentDistance(p, part[k], part[j]);
+
+				if (dist <= w) {
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+});
+
+
+/*
+ * Extends L.Polygon to be able to manually detect clicks on Canvas-rendered polygons.
+ */
+
+L.Polygon.include(!L.Path.CANVAS ? {} : {
+	_containsPoint: function (p) {
+		var inside = false,
+		    part, p1, p2,
+		    i, j, k,
+		    len, len2;
+
+		// TODO optimization: check if within bounds first
+
+		if (L.Polyline.prototype._containsPoint.call(this, p, true)) {
+			// click on polygon border
+			return true;
+		}
+
+		// ray casting algorithm for detecting if point is in polygon
+
+		for (i = 0, len = this._parts.length; i < len; i++) {
+			part = this._parts[i];
+
+			for (j = 0, len2 = part.length, k = len2 - 1; j < len2; k = j++) {
+				p1 = part[j];
+				p2 = part[k];
+
+				if (((p1.y > p.y) !== (p2.y > p.y)) &&
+						(p.x < (p2.x - p1.x) * (p.y - p1.y) / (p2.y - p1.y) + p1.x)) {
+					inside = !inside;
+				}
+			}
+		}
+
+		return inside;
+	}
+});
+
+
+/*
+ * Extends L.Circle with Canvas-specific code.
+ */
+
+L.Circle.include(!L.Path.CANVAS ? {} : {
+	_drawPath: function () {
+		var p = this._point;
+		this._ctx.beginPath();
+		this._ctx.arc(p.x, p.y, this._radius, 0, Math.PI * 2, false);
+	},
+
+	_containsPoint: function (p) {
+		var center = this._point,
+		    w2 = this.options.stroke ? this.options.weight / 2 : 0;
+
+		return (p.distanceTo(center) <= this._radius + w2);
+	}
+});
+
+
+/*
+ * CircleMarker canvas specific drawing parts.
+ */
+
+L.CircleMarker.include(!L.Path.CANVAS ? {} : {
+	_updateStyle: function () {
+		L.Path.prototype._updateStyle.call(this);
+	}
+});
+
+
+/*
+ * L.GeoJSON turns any GeoJSON data into a Leaflet layer.
+ */
+
+L.GeoJSON = L.FeatureGroup.extend({
+
+	initialize: function (geojson, options) {
+		L.setOptions(this, options);
+
+		this._layers = {};
+
+		if (geojson) {
+			this.addData(geojson);
+		}
+	},
+
+	addData: function (geojson) {
+		var features = L.Util.isArray(geojson) ? geojson : geojson.features,
+		    i, len, feature;
+
+		if (features) {
+			for (i = 0, len = features.length; i < len; i++) {
+				// Only add this if geometry or geometries are set and not null
+				feature = features[i];
+				if (feature.geometries || feature.geometry || feature.features || feature.coordinates) {
+					this.addData(features[i]);
+				}
+			}
+			return this;
+		}
+
+		var options = this.options;
+
+		if (options.filter && !options.filter(geojson)) { return; }
+
+		var layer = L.GeoJSON.geometryToLayer(geojson, options.pointToLayer, options.coordsToLatLng, options);
+		layer.feature = L.GeoJSON.asFeature(geojson);
+
+		layer.defaultOptions = layer.options;
+		this.resetStyle(layer);
+
+		if (options.onEachFeature) {
+			options.onEachFeature(geojson, layer);
+		}
+
+		return this.addLayer(layer);
+	},
+
+	resetStyle: function (layer) {
+		var style = this.options.style;
+		if (style) {
+			// reset any custom styles
+			L.Util.extend(layer.options, layer.defaultOptions);
+
+			this._setLayerStyle(layer, style);
+		}
+	},
+
+	setStyle: function (style) {
+		this.eachLayer(function (layer) {
+			this._setLayerStyle(layer, style);
+		}, this);
+	},
+
+	_setLayerStyle: function (layer, style) {
+		if (typeof style === 'function') {
+			style = style(layer.feature);
+		}
+		if (layer.setStyle) {
+			layer.setStyle(style);
+		}
+	}
+});
+
+L.extend(L.GeoJSON, {
+	geometryToLayer: function (geojson, pointToLayer, coordsToLatLng, vectorOptions) {
+		var geometry = geojson.type === 'Feature' ? geojson.geometry : geojson,
+		    coords = geometry.coordinates,
+		    layers = [],
+		    latlng, latlngs, i, len;
+
+		coordsToLatLng = coordsToLatLng || this.coordsToLatLng;
+
+		switch (geometry.type) {
+		case 'Point':
+			latlng = coordsToLatLng(coords);
+			return pointToLayer ? pointToLayer(geojson, latlng) : new L.Marker(latlng);
+
+		case 'MultiPoint':
+			for (i = 0, len = coords.length; i < len; i++) {
+				latlng = coordsToLatLng(coords[i]);
+				layers.push(pointToLayer ? pointToLayer(geojson, latlng) : new L.Marker(latlng));
+			}
+			return new L.FeatureGroup(layers);
+
+		case 'LineString':
+			latlngs = this.coordsToLatLngs(coords, 0, coordsToLatLng);
+			return new L.Polyline(latlngs, vectorOptions);
+
+		case 'Polygon':
+			if (coords.length === 2 && !coords[1].length) {
+				throw new Error('Invalid GeoJSON object.');
+			}
+			latlngs = this.coordsToLatLngs(coords, 1, coordsToLatLng);
+			return new L.Polygon(latlngs, vectorOptions);
+
+		case 'MultiLineString':
+			latlngs = this.coordsToLatLngs(coords, 1, coordsToLatLng);
+			return new L.MultiPolyline(latlngs, vectorOptions);
+
+		case 'MultiPolygon':
+			latlngs = this.coordsToLatLngs(coords, 2, coordsToLatLng);
+			return new L.MultiPolygon(latlngs, vectorOptions);
+
+		case 'GeometryCollection':
+			for (i = 0, len = geometry.geometries.length; i < len; i++) {
+
+				layers.push(this.geometryToLayer({
+					geometry: geometry.geometries[i],
+					type: 'Feature',
+					properties: geojson.properties
+				}, pointToLayer, coordsToLatLng, vectorOptions));
+			}
+			return new L.FeatureGroup(layers);
+
+		default:
+			throw new Error('Invalid GeoJSON object.');
+		}
+	},
+
+	coordsToLatLng: function (coords) { // (Array[, Boolean]) -> LatLng
+		return new L.LatLng(coords[1], coords[0], coords[2]);
+	},
+
+	coordsToLatLngs: function (coords, levelsDeep, coordsToLatLng) { // (Array[, Number, Function]) -> Array
+		var latlng, i, len,
+		    latlngs = [];
+
+		for (i = 0, len = coords.length; i < len; i++) {
+			latlng = levelsDeep ?
+			        this.coordsToLatLngs(coords[i], levelsDeep - 1, coordsToLatLng) :
+			        (coordsToLatLng || this.coordsToLatLng)(coords[i]);
+
+			latlngs.push(latlng);
+		}
+
+		return latlngs;
+	},
+
+	latLngToCoords: function (latlng) {
+		var coords = [latlng.lng, latlng.lat];
+
+		if (latlng.alt !== undefined) {
+			coords.push(latlng.alt);
+		}
+		return coords;
+	},
+
+	latLngsToCoords: function (latLngs) {
+		var coords = [];
+
+		for (var i = 0, len = latLngs.length; i < len; i++) {
+			coords.push(L.GeoJSON.latLngToCoords(latLngs[i]));
+		}
+
+		return coords;
+	},
+
+	getFeature: function (layer, newGeometry) {
+		return layer.feature ? L.extend({}, layer.feature, {geometry: newGeometry}) : L.GeoJSON.asFeature(newGeometry);
+	},
+
+	asFeature: function (geoJSON) {
+		if (geoJSON.type === 'Feature') {
+			return geoJSON;
+		}
+
+		return {
+			type: 'Feature',
+			properties: {},
+			geometry: geoJSON
+		};
+	}
+});
+
+var PointToGeoJSON = {
+	toGeoJSON: function () {
+		return L.GeoJSON.getFeature(this, {
+			type: 'Point',
+			coordinates: L.GeoJSON.latLngToCoords(this.getLatLng())
+		});
+	}
+};
+
+L.Marker.include(PointToGeoJSON);
+L.Circle.include(PointToGeoJSON);
+L.CircleMarker.include(PointToGeoJSON);
+
+L.Polyline.include({
+	toGeoJSON: function () {
+		return L.GeoJSON.getFeature(this, {
+			type: 'LineString',
+			coordinates: L.GeoJSON.latLngsToCoords(this.getLatLngs())
+		});
+	}
+});
+
+L.Polygon.include({
+	toGeoJSON: function () {
+		var coords = [L.GeoJSON.latLngsToCoords(this.getLatLngs())],
+		    i, len, hole;
+
+		coords[0].push(coords[0][0]);
+
+		if (this._holes) {
+			for (i = 0, len = this._holes.length; i < len; i++) {
+				hole = L.GeoJSON.latLngsToCoords(this._holes[i]);
+				hole.push(hole[0]);
+				coords.push(hole);
+			}
+		}
+
+		return L.GeoJSON.getFeature(this, {
+			type: 'Polygon',
+			coordinates: coords
+		});
+	}
+});
+
+(function () {
+	function multiToGeoJSON(type) {
+		return function () {
+			var coords = [];
+
+			this.eachLayer(function (layer) {
+				coords.push(layer.toGeoJSON().geometry.coordinates);
+			});
+
+			return L.GeoJSON.getFeature(this, {
+				type: type,
+				coordinates: coords
+			});
+		};
+	}
+
+	L.MultiPolyline.include({toGeoJSON: multiToGeoJSON('MultiLineString')});
+	L.MultiPolygon.include({toGeoJSON: multiToGeoJSON('MultiPolygon')});
+
+	L.LayerGroup.include({
+		toGeoJSON: function () {
+
+			var geometry = this.feature && this.feature.geometry,
+				jsons = [],
+				json;
+
+			if (geometry && geometry.type === 'MultiPoint') {
+				return multiToGeoJSON('MultiPoint').call(this);
+			}
+
+			var isGeometryCollection = geometry && geometry.type === 'GeometryCollection';
+
+			this.eachLayer(function (layer) {
+				if (layer.toGeoJSON) {
+					json = layer.toGeoJSON();
+					jsons.push(isGeometryCollection ? json.geometry : L.GeoJSON.asFeature(json));
+				}
+			});
+
+			if (isGeometryCollection) {
+				return L.GeoJSON.getFeature(this, {
+					geometries: jsons,
+					type: 'GeometryCollection'
+				});
+			}
+
+			return {
+				type: 'FeatureCollection',
+				features: jsons
+			};
+		}
+	});
+}());
+
+L.geoJson = function (geojson, options) {
+	return new L.GeoJSON(geojson, options);
+};
+
+
+/*
+ * L.DomEvent contains functions for working with DOM events.
+ */
+
+L.DomEvent = {
+	/* inspired by John Resig, Dean Edwards and YUI addEvent implementations */
+	addListener: function (obj, type, fn, context) { // (HTMLElement, String, Function[, Object])
+
+		var id = L.stamp(fn),
+		    key = '_leaflet_' + type + id,
+		    handler, originalHandler, newType;
+
+		if (obj[key]) { return this; }
+
+		handler = function (e) {
+			return fn.call(context || obj, e || L.DomEvent._getEvent());
+		};
+
+		if (L.Browser.pointer && type.indexOf('touch') === 0) {
+			return this.addPointerListener(obj, type, handler, id);
+		}
+		if (L.Browser.touch && (type === 'dblclick') && this.addDoubleTapListener) {
+			this.addDoubleTapListener(obj, handler, id);
+		}
+
+		if ('addEventListener' in obj) {
+
+			if (type === 'mousewheel') {
+				obj.addEventListener('DOMMouseScroll', handler, false);
+				obj.addEventListener(type, handler, false);
+
+			} else if ((type === 'mouseenter') || (type === 'mouseleave')) {
+
+				originalHandler = handler;
+				newType = (type === 'mouseenter' ? 'mouseover' : 'mouseout');
+
+				handler = function (e) {
+					if (!L.DomEvent._checkMouse(obj, e)) { return; }
+					return originalHandler(e);
+				};
+
+				obj.addEventListener(newType, handler, false);
+
+			} else if (type === 'click' && L.Browser.android) {
+				originalHandler = handler;
+				handler = function (e) {
+					return L.DomEvent._filterClick(e, originalHandler);
+				};
+
+				obj.addEventListener(type, handler, false);
+			} else {
+				obj.addEventListener(type, handler, false);
+			}
+
+		} else if ('attachEvent' in obj) {
+			obj.attachEvent('on' + type, handler);
+		}
+
+		obj[key] = handler;
+
+		return this;
+	},
+
+	removeListener: function (obj, type, fn) {  // (HTMLElement, String, Function)
+
+		var id = L.stamp(fn),
+		    key = '_leaflet_' + type + id,
+		    handler = obj[key];
+
+		if (!handler) { return this; }
+
+		if (L.Browser.pointer && type.indexOf('touch') === 0) {
+			this.removePointerListener(obj, type, id);
+		} else if (L.Browser.touch && (type === 'dblclick') && this.removeDoubleTapListener) {
+			this.removeDoubleTapListener(obj, id);
+
+		} else if ('removeEventListener' in obj) {
+
+			if (type === 'mousewheel') {
+				obj.removeEventListener('DOMMouseScroll', handler, false);
+				obj.removeEventListener(type, handler, false);
+
+			} else if ((type === 'mouseenter') || (type === 'mouseleave')) {
+				obj.removeEventListener((type === 'mouseenter' ? 'mouseover' : 'mouseout'), handler, false);
+			} else {
+				obj.removeEventListener(type, handler, false);
+			}
+		} else if ('detachEvent' in obj) {
+			obj.detachEvent('on' + type, handler);
+		}
+
+		obj[key] = null;
+
+		return this;
+	},
+
+	stopPropagation: function (e) {
+
+		if (e.stopPropagation) {
+			e.stopPropagation();
+		} else {
+			e.cancelBubble = true;
+		}
+		L.DomEvent._skipped(e);
+
+		return this;
+	},
+
+	disableScrollPropagation: function (el) {
+		var stop = L.DomEvent.stopPropagation;
+
+		return L.DomEvent
+			.on(el, 'mousewheel', stop)
+			.on(el, 'MozMousePixelScroll', stop);
+	},
+
+	disableClickPropagation: function (el) {
+		var stop = L.DomEvent.stopPropagation;
+
+		for (var i = L.Draggable.START.length - 1; i >= 0; i--) {
+			L.DomEvent.on(el, L.Draggable.START[i], stop);
+		}
+
+		return L.DomEvent
+			.on(el, 'click', L.DomEvent._fakeStop)
+			.on(el, 'dblclick', stop);
+	},
+
+	preventDefault: function (e) {
+
+		if (e.preventDefault) {
+			e.preventDefault();
+		} else {
+			e.returnValue = false;
+		}
+		return this;
+	},
+
+	stop: function (e) {
+		return L.DomEvent
+			.preventDefault(e)
+			.stopPropagation(e);
+	},
+
+	getMousePosition: function (e, container) {
+		if (!container) {
+			return new L.Point(e.clientX, e.clientY);
+		}
+
+		var rect = container.getBoundingClientRect();
+
+		return new L.Point(
+			e.clientX - rect.left - container.clientLeft,
+			e.clientY - rect.top - container.clientTop);
+	},
+
+	getWheelDelta: function (e) {
+
+		var delta = 0;
+
+		if (e.wheelDelta) {
+			delta = e.wheelDelta / 120;
+		}
+		if (e.detail) {
+			delta = -e.detail / 3;
+		}
+		return delta;
+	},
+
+	_skipEvents: {},
+
+	_fakeStop: function (e) {
+		// fakes stopPropagation by setting a special event flag, checked/reset with L.DomEvent._skipped(e)
+		L.DomEvent._skipEvents[e.type] = true;
+	},
+
+	_skipped: function (e) {
+		var skipped = this._skipEvents[e.type];
+		// reset when checking, as it's only used in map container and propagates outside of the map
+		this._skipEvents[e.type] = false;
+		return skipped;
+	},
+
+	// check if element really left/entered the event target (for mouseenter/mouseleave)
+	_checkMouse: function (el, e) {
+
+		var related = e.relatedTarget;
+
+		if (!related) { return true; }
+
+		try {
+			while (related && (related !== el)) {
+				related = related.parentNode;
+			}
+		} catch (err) {
+			return false;
+		}
+		return (related !== el);
+	},
+
+	_getEvent: function () { // evil magic for IE
+		/*jshint noarg:false */
+		var e = window.event;
+		if (!e) {
+			var caller = arguments.callee.caller;
+			while (caller) {
+				e = caller['arguments'][0];
+				if (e && window.Event === e.constructor) {
+					break;
+				}
+				caller = caller.caller;
+			}
+		}
+		return e;
+	},
+
+	// this is a horrible workaround for a bug in Android where a single touch triggers two click events
+	_filterClick: function (e, handler) {
+		var timeStamp = (e.timeStamp || e.originalEvent.timeStamp),
+			elapsed = L.DomEvent._lastClick && (timeStamp - L.DomEvent._lastClick);
+
+		// are they closer together than 500ms yet more than 100ms?
+		// Android typically triggers them ~300ms apart while multiple listeners
+		// on the same event should be triggered far faster;
+		// or check if click is simulated on the element, and if it is, reject any non-simulated events
+
+		if ((elapsed && elapsed > 100 && elapsed < 500) || (e.target._simulatedClick && !e._simulated)) {
+			L.DomEvent.stop(e);
+			return;
+		}
+		L.DomEvent._lastClick = timeStamp;
+
+		return handler(e);
+	}
+};
+
+L.DomEvent.on = L.DomEvent.addListener;
+L.DomEvent.off = L.DomEvent.removeListener;
+
+
+/*
+ * L.Draggable allows you to add dragging capabilities to any element. Supports mobile devices too.
+ */
+
+L.Draggable = L.Class.extend({
+	includes: L.Mixin.Events,
+
+	statics: {
+		START: L.Browser.touch ? ['touchstart', 'mousedown'] : ['mousedown'],
+		END: {
+			mousedown: 'mouseup',
+			touchstart: 'touchend',
+			pointerdown: 'touchend',
+			MSPointerDown: 'touchend'
+		},
+		MOVE: {
+			mousedown: 'mousemove',
+			touchstart: 'touchmove',
+			pointerdown: 'touchmove',
+			MSPointerDown: 'touchmove'
+		}
+	},
+
+	initialize: function (element, dragStartTarget) {
+		this._element = element;
+		this._dragStartTarget = dragStartTarget || element;
+	},
+
+	enable: function () {
+		if (this._enabled) { return; }
+
+		for (var i = L.Draggable.START.length - 1; i >= 0; i--) {
+			L.DomEvent.on(this._dragStartTarget, L.Draggable.START[i], this._onDown, this);
+		}
+
+		this._enabled = true;
+	},
+
+	disable: function () {
+		if (!this._enabled) { return; }
+
+		for (var i = L.Draggable.START.length - 1; i >= 0; i--) {
+			L.DomEvent.off(this._dragStartTarget, L.Draggable.START[i], this._onDown, this);
+		}
+
+		this._enabled = false;
+		this._moved = false;
+	},
+
+	_onDown: function (e) {
+		this._moved = false;
+
+		if (e.shiftKey || ((e.which !== 1) && (e.button !== 1) && !e.touches)) { return; }
+
+		L.DomEvent.stopPropagation(e);
+
+		if (L.Draggable._disabled) { return; }
+
+		L.DomUtil.disableImageDrag();
+		L.DomUtil.disableTextSelection();
+
+		if (this._moving) { return; }
+
+		var first = e.touches ? e.touches[0] : e;
+
+		this._startPoint = new L.Point(first.clientX, first.clientY);
+		this._startPos = this._newPos = L.DomUtil.getPosition(this._element);
+
+		L.DomEvent
+		    .on(document, L.Draggable.MOVE[e.type], this._onMove, this)
+		    .on(document, L.Draggable.END[e.type], this._onUp, this);
+	},
+
+	_onMove: function (e) {
+		if (e.touches && e.touches.length > 1) {
+			this._moved = true;
+			return;
+		}
+
+		var first = (e.touches && e.touches.length === 1 ? e.touches[0] : e),
+		    newPoint = new L.Point(first.clientX, first.clientY),
+		    offset = newPoint.subtract(this._startPoint);
+
+		if (!offset.x && !offset.y) { return; }
+		if (L.Browser.touch && Math.abs(offset.x) + Math.abs(offset.y) < 3) { return; }
+
+		L.DomEvent.preventDefault(e);
+
+		if (!this._moved) {
+			this.fire('dragstart');
+
+			this._moved = true;
+			this._startPos = L.DomUtil.getPosition(this._element).subtract(offset);
+
+			L.DomUtil.addClass(document.body, 'leaflet-dragging');
+			this._lastTarget = e.target || e.srcElement;
+			L.DomUtil.addClass(this._lastTarget, 'leaflet-drag-target');
+		}
+
+		this._newPos = this._startPos.add(offset);
+		this._moving = true;
+
+		L.Util.cancelAnimFrame(this._animRequest);
+		this._animRequest = L.Util.requestAnimFrame(this._updatePosition, this, true, this._dragStartTarget);
+	},
+
+	_updatePosition: function () {
+		this.fire('predrag');
+		L.DomUtil.setPosition(this._element, this._newPos);
+		this.fire('drag');
+	},
+
+	_onUp: function () {
+		L.DomUtil.removeClass(document.body, 'leaflet-dragging');
+
+		if (this._lastTarget) {
+			L.DomUtil.removeClass(this._lastTarget, 'leaflet-drag-target');
+			this._lastTarget = null;
+		}
+
+		for (var i in L.Draggable.MOVE) {
+			L.DomEvent
+			    .off(document, L.Draggable.MOVE[i], this._onMove)
+			    .off(document, L.Draggable.END[i], this._onUp);
+		}
+
+		L.DomUtil.enableImageDrag();
+		L.DomUtil.enableTextSelection();
+
+		if (this._moved && this._moving) {
+			// ensure drag is not fired after dragend
+			L.Util.cancelAnimFrame(this._animRequest);
+
+			this.fire('dragend', {
+				distance: this._newPos.distanceTo(this._startPos)
+			});
+		}
+
+		this._moving = false;
+	}
+});
+
+
+/*
+	L.Handler is a base class for handler classes that are used internally to inject
+	interaction features like dragging to classes like Map and Marker.
+*/
+
+L.Handler = L.Class.extend({
+	initialize: function (map) {
+		this._map = map;
+	},
+
+	enable: function () {
+		if (this._enabled) { return; }
+
+		this._enabled = true;
+		this.addHooks();
+	},
+
+	disable: function () {
+		if (!this._enabled) { return; }
+
+		this._enabled = false;
+		this.removeHooks();
+	},
+
+	enabled: function () {
+		return !!this._enabled;
+	}
+});
+
+
+/*
+ * L.Handler.MapDrag is used to make the map draggable (with panning inertia), enabled by default.
+ */
+
+L.Map.mergeOptions({
+	dragging: true,
+
+	inertia: !L.Browser.android23,
+	inertiaDeceleration: 3400, // px/s^2
+	inertiaMaxSpeed: Infinity, // px/s
+	inertiaThreshold: L.Browser.touch ? 32 : 18, // ms
+	easeLinearity: 0.25,
+
+	// TODO refactor, move to CRS
+	worldCopyJump: false
+});
+
+L.Map.Drag = L.Handler.extend({
+	addHooks: function () {
+		if (!this._draggable) {
+			var map = this._map;
+
+			this._draggable = new L.Draggable(map._mapPane, map._container);
+
+			this._draggable.on({
+				'dragstart': this._onDragStart,
+				'drag': this._onDrag,
+				'dragend': this._onDragEnd
+			}, this);
+
+			if (map.options.worldCopyJump) {
+				this._draggable.on('predrag', this._onPreDrag, this);
+				map.on('viewreset', this._onViewReset, this);
+
+				map.whenReady(this._onViewReset, this);
+			}
+		}
+		this._draggable.enable();
+	},
+
+	removeHooks: function () {
+		this._draggable.disable();
+	},
+
+	moved: function () {
+		return this._draggable && this._draggable._moved;
+	},
+
+	_onDragStart: function () {
+		var map = this._map;
+
+		if (map._panAnim) {
+			map._panAnim.stop();
+		}
+
+		map
+		    .fire('movestart')
+		    .fire('dragstart');
+
+		if (map.options.inertia) {
+			this._positions = [];
+			this._times = [];
+		}
+	},
+
+	_onDrag: function () {
+		if (this._map.options.inertia) {
+			var time = this._lastTime = +new Date(),
+			    pos = this._lastPos = this._draggable._newPos;
+
+			this._positions.push(pos);
+			this._times.push(time);
+
+			if (time - this._times[0] > 200) {
+				this._positions.shift();
+				this._times.shift();
+			}
+		}
+
+		this._map
+		    .fire('move')
+		    .fire('drag');
+	},
+
+	_onViewReset: function () {
+		// TODO fix hardcoded Earth values
+		var pxCenter = this._map.getSize()._divideBy(2),
+		    pxWorldCenter = this._map.latLngToLayerPoint([0, 0]);
+
+		this._initialWorldOffset = pxWorldCenter.subtract(pxCenter).x;
+		this._worldWidth = this._map.project([0, 180]).x;
+	},
+
+	_onPreDrag: function () {
+		// TODO refactor to be able to adjust map pane position after zoom
+		var worldWidth = this._worldWidth,
+		    halfWidth = Math.round(worldWidth / 2),
+		    dx = this._initialWorldOffset,
+		    x = this._draggable._newPos.x,
+		    newX1 = (x - halfWidth + dx) % worldWidth + halfWidth - dx,
+		    newX2 = (x + halfWidth + dx) % worldWidth - halfWidth - dx,
+		    newX = Math.abs(newX1 + dx) < Math.abs(newX2 + dx) ? newX1 : newX2;
+
+		this._draggable._newPos.x = newX;
+	},
+
+	_onDragEnd: function (e) {
+		var map = this._map,
+		    options = map.options,
+		    delay = +new Date() - this._lastTime,
+
+		    noInertia = !options.inertia || delay > options.inertiaThreshold || !this._positions[0];
+
+		map.fire('dragend', e);
+
+		if (noInertia) {
+			map.fire('moveend');
+
+		} else {
+
+			var direction = this._lastPos.subtract(this._positions[0]),
+			    duration = (this._lastTime + delay - this._times[0]) / 1000,
+			    ease = options.easeLinearity,
+
+			    speedVector = direction.multiplyBy(ease / duration),
+			    speed = speedVector.distanceTo([0, 0]),
+
+			    limitedSpeed = Math.min(options.inertiaMaxSpeed, speed),
+			    limitedSpeedVector = speedVector.multiplyBy(limitedSpeed / speed),
+
+			    decelerationDuration = limitedSpeed / (options.inertiaDeceleration * ease),
+			    offset = limitedSpeedVector.multiplyBy(-decelerationDuration / 2).round();
+
+			if (!offset.x || !offset.y) {
+				map.fire('moveend');
+
+			} else {
+				offset = map._limitOffset(offset, map.options.maxBounds);
+
+				L.Util.requestAnimFrame(function () {
+					map.panBy(offset, {
+						duration: decelerationDuration,
+						easeLinearity: ease,
+						noMoveStart: true
+					});
+				});
+			}
+		}
+	}
+});
+
+L.Map.addInitHook('addHandler', 'dragging', L.Map.Drag);
+
+
+/*
+ * L.Handler.DoubleClickZoom is used to handle double-click zoom on the map, enabled by default.
+ */
+
+L.Map.mergeOptions({
+	doubleClickZoom: true
+});
+
+L.Map.DoubleClickZoom = L.Handler.extend({
+	addHooks: function () {
+		this._map.on('dblclick', this._onDoubleClick, this);
+	},
+
+	removeHooks: function () {
+		this._map.off('dblclick', this._onDoubleClick, this);
+	},
+
+	_onDoubleClick: function (e) {
+		var map = this._map,
+		    zoom = map.getZoom() + (e.originalEvent.shiftKey ? -1 : 1);
+
+		if (map.options.doubleClickZoom === 'center') {
+			map.setZoom(zoom);
+		} else {
+			map.setZoomAround(e.containerPoint, zoom);
+		}
+	}
+});
+
+L.Map.addInitHook('addHandler', 'doubleClickZoom', L.Map.DoubleClickZoom);
+
+
+/*
+ * L.Handler.ScrollWheelZoom is used by L.Map to enable mouse scroll wheel zoom on the map.
+ */
+
+L.Map.mergeOptions({
+	scrollWheelZoom: true
+});
+
+L.Map.ScrollWheelZoom = L.Handler.extend({
+	addHooks: function () {
+		L.DomEvent.on(this._map._container, 'mousewheel', this._onWheelScroll, this);
+		L.DomEvent.on(this._map._container, 'MozMousePixelScroll', L.DomEvent.preventDefault);
+		this._delta = 0;
+	},
+
+	removeHooks: function () {
+		L.DomEvent.off(this._map._container, 'mousewheel', this._onWheelScroll);
+		L.DomEvent.off(this._map._container, 'MozMousePixelScroll', L.DomEvent.preventDefault);
+	},
+
+	_onWheelScroll: function (e) {
+		var delta = L.DomEvent.getWheelDelta(e);
+
+		this._delta += delta;
+		this._lastMousePos = this._map.mouseEventToContainerPoint(e);
+
+		if (!this._startTime) {
+			this._startTime = +new Date();
+		}
+
+		var left = Math.max(40 - (+new Date() - this._startTime), 0);
+
+		clearTimeout(this._timer);
+		this._timer = setTimeout(L.bind(this._performZoom, this), left);
+
+		L.DomEvent.preventDefault(e);
+		L.DomEvent.stopPropagation(e);
+	},
+
+	_performZoom: function () {
+		var map = this._map,
+		    delta = this._delta,
+		    zoom = map.getZoom();
+
+		delta = delta > 0 ? Math.ceil(delta) : Math.floor(delta);
+		delta = Math.max(Math.min(delta, 4), -4);
+		delta = map._limitZoom(zoom + delta) - zoom;
+
+		this._delta = 0;
+		this._startTime = null;
+
+		if (!delta) { return; }
+
+		if (map.options.scrollWheelZoom === 'center') {
+			map.setZoom(zoom + delta);
+		} else {
+			map.setZoomAround(this._lastMousePos, zoom + delta);
+		}
+	}
+});
+
+L.Map.addInitHook('addHandler', 'scrollWheelZoom', L.Map.ScrollWheelZoom);
+
+
+/*
+ * Extends the event handling code with double tap support for mobile browsers.
+ */
+
+L.extend(L.DomEvent, {
+
+	_touchstart: L.Browser.msPointer ? 'MSPointerDown' : L.Browser.pointer ? 'pointerdown' : 'touchstart',
+	_touchend: L.Browser.msPointer ? 'MSPointerUp' : L.Browser.pointer ? 'pointerup' : 'touchend',
+
+	// inspired by Zepto touch code by Thomas Fuchs
+	addDoubleTapListener: function (obj, handler, id) {
+		var last,
+		    doubleTap = false,
+		    delay = 250,
+		    touch,
+		    pre = '_leaflet_',
+		    touchstart = this._touchstart,
+		    touchend = this._touchend,
+		    trackedTouches = [];
+
+		function onTouchStart(e) {
+			var count;
+
+			if (L.Browser.pointer) {
+				trackedTouches.push(e.pointerId);
+				count = trackedTouches.length;
+			} else {
+				count = e.touches.length;
+			}
+			if (count > 1) {
+				return;
+			}
+
+			var now = Date.now(),
+				delta = now - (last || now);
+
+			touch = e.touches ? e.touches[0] : e;
+			doubleTap = (delta > 0 && delta <= delay);
+			last = now;
+		}
+
+		function onTouchEnd(e) {
+			if (L.Browser.pointer) {
+				var idx = trackedTouches.indexOf(e.pointerId);
+				if (idx === -1) {
+					return;
+				}
+				trackedTouches.splice(idx, 1);
+			}
+
+			if (doubleTap) {
+				if (L.Browser.pointer) {
+					// work around .type being readonly with MSPointer* events
+					var newTouch = { },
+						prop;
+
+					// jshint forin:false
+					for (var i in touch) {
+						prop = touch[i];
+						if (typeof prop === 'function') {
+							newTouch[i] = prop.bind(touch);
+						} else {
+							newTouch[i] = prop;
+						}
+					}
+					touch = newTouch;
+				}
+				touch.type = 'dblclick';
+				handler(touch);
+				last = null;
+			}
+		}
+		obj[pre + touchstart + id] = onTouchStart;
+		obj[pre + touchend + id] = onTouchEnd;
+
+		// on pointer we need to listen on the document, otherwise a drag starting on the map and moving off screen
+		// will not come through to us, so we will lose track of how many touches are ongoing
+		var endElement = L.Browser.pointer ? document.documentElement : obj;
+
+		obj.addEventListener(touchstart, onTouchStart, false);
+		endElement.addEventListener(touchend, onTouchEnd, false);
+
+		if (L.Browser.pointer) {
+			endElement.addEventListener(L.DomEvent.POINTER_CANCEL, onTouchEnd, false);
+		}
+
+		return this;
+	},
+
+	removeDoubleTapListener: function (obj, id) {
+		var pre = '_leaflet_';
+
+		obj.removeEventListener(this._touchstart, obj[pre + this._touchstart + id], false);
+		(L.Browser.pointer ? document.documentElement : obj).removeEventListener(
+		        this._touchend, obj[pre + this._touchend + id], false);
+
+		if (L.Browser.pointer) {
+			document.documentElement.removeEventListener(L.DomEvent.POINTER_CANCEL, obj[pre + this._touchend + id],
+				false);
+		}
+
+		return this;
+	}
+});
+
+
+/*
+ * Extends L.DomEvent to provide touch support for Internet Explorer and Windows-based devices.
+ */
+
+L.extend(L.DomEvent, {
+
+	//static
+	POINTER_DOWN: L.Browser.msPointer ? 'MSPointerDown' : 'pointerdown',
+	POINTER_MOVE: L.Browser.msPointer ? 'MSPointerMove' : 'pointermove',
+	POINTER_UP: L.Browser.msPointer ? 'MSPointerUp' : 'pointerup',
+	POINTER_CANCEL: L.Browser.msPointer ? 'MSPointerCancel' : 'pointercancel',
+
+	_pointers: [],
+	_pointerDocumentListener: false,
+
+	// Provides a touch events wrapper for (ms)pointer events.
+	// Based on changes by veproza https://github.com/CloudMade/Leaflet/pull/1019
+	//ref http://www.w3.org/TR/pointerevents/ https://www.w3.org/Bugs/Public/show_bug.cgi?id=22890
+
+	addPointerListener: function (obj, type, handler, id) {
+
+		switch (type) {
+		case 'touchstart':
+			return this.addPointerListenerStart(obj, type, handler, id);
+		case 'touchend':
+			return this.addPointerListenerEnd(obj, type, handler, id);
+		case 'touchmove':
+			return this.addPointerListenerMove(obj, type, handler, id);
+		default:
+			throw 'Unknown touch event type';
+		}
+	},
+
+	addPointerListenerStart: function (obj, type, handler, id) {
+		var pre = '_leaflet_',
+		    pointers = this._pointers;
+
+		var cb = function (e) {
+			if (e.pointerType !== 'mouse' && e.pointerType !== e.MSPOINTER_TYPE_MOUSE) {
+				L.DomEvent.preventDefault(e);
+			}
+
+			var alreadyInArray = false;
+			for (var i = 0; i < pointers.length; i++) {
+				if (pointers[i].pointerId === e.pointerId) {
+					alreadyInArray = true;
+					break;
+				}
+			}
+			if (!alreadyInArray) {
+				pointers.push(e);
+			}
+
+			e.touches = pointers.slice();
+			e.changedTouches = [e];
+
+			handler(e);
+		};
+
+		obj[pre + 'touchstart' + id] = cb;
+		obj.addEventListener(this.POINTER_DOWN, cb, false);
+
+		// need to also listen for end events to keep the _pointers list accurate
+		// this needs to be on the body and never go away
+		if (!this._pointerDocumentListener) {
+			var internalCb = function (e) {
+				for (var i = 0; i < pointers.length; i++) {
+					if (pointers[i].pointerId === e.pointerId) {
+						pointers.splice(i, 1);
+						break;
+					}
+				}
+			};
+			//We listen on the documentElement as any drags that end by moving the touch off the screen get fired there
+			document.documentElement.addEventListener(this.POINTER_UP, internalCb, false);
+			document.documentElement.addEventListener(this.POINTER_CANCEL, internalCb, false);
+
+			this._pointerDocumentListener = true;
+		}
+
+		return this;
+	},
+
+	addPointerListenerMove: function (obj, type, handler, id) {
+		var pre = '_leaflet_',
+		    touches = this._pointers;
+
+		function cb(e) {
+
+			// don't fire touch moves when mouse isn't down
+			if ((e.pointerType === e.MSPOINTER_TYPE_MOUSE || e.pointerType === 'mouse') && e.buttons === 0) { return; }
+
+			for (var i = 0; i < touches.length; i++) {
+				if (touches[i].pointerId === e.pointerId) {
+					touches[i] = e;
+					break;
+				}
+			}
+
+			e.touches = touches.slice();
+			e.changedTouches = [e];
+
+			handler(e);
+		}
+
+		obj[pre + 'touchmove' + id] = cb;
+		obj.addEventListener(this.POINTER_MOVE, cb, false);
+
+		return this;
+	},
+
+	addPointerListenerEnd: function (obj, type, handler, id) {
+		var pre = '_leaflet_',
+		    touches = this._pointers;
+
+		var cb = function (e) {
+			for (var i = 0; i < touches.length; i++) {
+				if (touches[i].pointerId === e.pointerId) {
+					touches.splice(i, 1);
+					break;
+				}
+			}
+
+			e.touches = touches.slice();
+			e.changedTouches = [e];
+
+			handler(e);
+		};
+
+		obj[pre + 'touchend' + id] = cb;
+		obj.addEventListener(this.POINTER_UP, cb, false);
+		obj.addEventListener(this.POINTER_CANCEL, cb, false);
+
+		return this;
+	},
+
+	removePointerListener: function (obj, type, id) {
+		var pre = '_leaflet_',
+		    cb = obj[pre + type + id];
+
+		switch (type) {
+		case 'touchstart':
+			obj.removeEventListener(this.POINTER_DOWN, cb, false);
+			break;
+		case 'touchmove':
+			obj.removeEventListener(this.POINTER_MOVE, cb, false);
+			break;
+		case 'touchend':
+			obj.removeEventListener(this.POINTER_UP, cb, false);
+			obj.removeEventListener(this.POINTER_CANCEL, cb, false);
+			break;
+		}
+
+		return this;
+	}
+});
+
+
+/*
+ * L.Handler.TouchZoom is used by L.Map to add pinch zoom on supported mobile browsers.
+ */
+
+L.Map.mergeOptions({
+	touchZoom: L.Browser.touch && !L.Browser.android23,
+	bounceAtZoomLimits: true
+});
+
+L.Map.TouchZoom = L.Handler.extend({
+	addHooks: function () {
+		L.DomEvent.on(this._map._container, 'touchstart', this._onTouchStart, this);
+	},
+
+	removeHooks: function () {
+		L.DomEvent.off(this._map._container, 'touchstart', this._onTouchStart, this);
+	},
+
+	_onTouchStart: function (e) {
+		var map = this._map;
+
+		if (!e.touches || e.touches.length !== 2 || map._animatingZoom || this._zooming) { return; }
+
+		var p1 = map.mouseEventToLayerPoint(e.touches[0]),
+		    p2 = map.mouseEventToLayerPoint(e.touches[1]),
+		    viewCenter = map._getCenterLayerPoint();
+
+		this._startCenter = p1.add(p2)._divideBy(2);
+		this._startDist = p1.distanceTo(p2);
+
+		this._moved = false;
+		this._zooming = true;
+
+		this._centerOffset = viewCenter.subtract(this._startCenter);
+
+		if (map._panAnim) {
+			map._panAnim.stop();
+		}
+
+		L.DomEvent
+		    .on(document, 'touchmove', this._onTouchMove, this)
+		    .on(document, 'touchend', this._onTouchEnd, this);
+
+		L.DomEvent.preventDefault(e);
+	},
+
+	_onTouchMove: function (e) {
+		var map = this._map;
+
+		if (!e.touches || e.touches.length !== 2 || !this._zooming) { return; }
+
+		var p1 = map.mouseEventToLayerPoint(e.touches[0]),
+		    p2 = map.mouseEventToLayerPoint(e.touches[1]);
+
+		this._scale = p1.distanceTo(p2) / this._startDist;
+		this._delta = p1._add(p2)._divideBy(2)._subtract(this._startCenter);
+
+		if (this._scale === 1) { return; }
+
+		if (!map.options.bounceAtZoomLimits) {
+			if ((map.getZoom() === map.getMinZoom() && this._scale < 1) ||
+			    (map.getZoom() === map.getMaxZoom() && this._scale > 1)) { return; }
+		}
+
+		if (!this._moved) {
+			L.DomUtil.addClass(map._mapPane, 'leaflet-touching');
+
+			map
+			    .fire('movestart')
+			    .fire('zoomstart');
+
+			this._moved = true;
+		}
+
+		L.Util.cancelAnimFrame(this._animRequest);
+		this._animRequest = L.Util.requestAnimFrame(
+		        this._updateOnMove, this, true, this._map._container);
+
+		L.DomEvent.preventDefault(e);
+	},
+
+	_updateOnMove: function () {
+		var map = this._map,
+		    origin = this._getScaleOrigin(),
+		    center = map.layerPointToLatLng(origin),
+		    zoom = map.getScaleZoom(this._scale);
+
+		map._animateZoom(center, zoom, this._startCenter, this._scale, this._delta, false, true);
+	},
+
+	_onTouchEnd: function () {
+		if (!this._moved || !this._zooming) {
+			this._zooming = false;
+			return;
+		}
+
+		var map = this._map;
+
+		this._zooming = false;
+		L.DomUtil.removeClass(map._mapPane, 'leaflet-touching');
+		L.Util.cancelAnimFrame(this._animRequest);
+
+		L.DomEvent
+		    .off(document, 'touchmove', this._onTouchMove)
+		    .off(document, 'touchend', this._onTouchEnd);
+
+		var origin = this._getScaleOrigin(),
+		    center = map.layerPointToLatLng(origin),
+
+		    oldZoom = map.getZoom(),
+		    floatZoomDelta = map.getScaleZoom(this._scale) - oldZoom,
+		    roundZoomDelta = (floatZoomDelta > 0 ?
+		            Math.ceil(floatZoomDelta) : Math.floor(floatZoomDelta)),
+
+		    zoom = map._limitZoom(oldZoom + roundZoomDelta),
+		    scale = map.getZoomScale(zoom) / this._scale;
+
+		map._animateZoom(center, zoom, origin, scale);
+	},
+
+	_getScaleOrigin: function () {
+		var centerOffset = this._centerOffset.subtract(this._delta).divideBy(this._scale);
+		return this._startCenter.add(centerOffset);
+	}
+});
+
+L.Map.addInitHook('addHandler', 'touchZoom', L.Map.TouchZoom);
+
+
+/*
+ * L.Map.Tap is used to enable mobile hacks like quick taps and long hold.
+ */
+
+L.Map.mergeOptions({
+	tap: true,
+	tapTolerance: 15
+});
+
+L.Map.Tap = L.Handler.extend({
+	addHooks: function () {
+		L.DomEvent.on(this._map._container, 'touchstart', this._onDown, this);
+	},
+
+	removeHooks: function () {
+		L.DomEvent.off(this._map._container, 'touchstart', this._onDown, this);
+	},
+
+	_onDown: function (e) {
+		if (!e.touches) { return; }
+
+		L.DomEvent.preventDefault(e);
+
+		this._fireClick = true;
+
+		// don't simulate click or track longpress if more than 1 touch
+		if (e.touches.length > 1) {
+			this._fireClick = false;
+			clearTimeout(this._holdTimeout);
+			return;
+		}
+
+		var first = e.touches[0],
+		    el = first.target;
+
+		this._startPos = this._newPos = new L.Point(first.clientX, first.clientY);
+
+		// if touching a link, highlight it
+		if (el.tagName && el.tagName.toLowerCase() === 'a') {
+			L.DomUtil.addClass(el, 'leaflet-active');
+		}
+
+		// simulate long hold but setting a timeout
+		this._holdTimeout = setTimeout(L.bind(function () {
+			if (this._isTapValid()) {
+				this._fireClick = false;
+				this._onUp();
+				this._simulateEvent('contextmenu', first);
+			}
+		}, this), 1000);
+
+		L.DomEvent
+			.on(document, 'touchmove', this._onMove, this)
+			.on(document, 'touchend', this._onUp, this);
+	},
+
+	_onUp: function (e) {
+		clearTimeout(this._holdTimeout);
+
+		L.DomEvent
+			.off(document, 'touchmove', this._onMove, this)
+			.off(document, 'touchend', this._onUp, this);
+
+		if (this._fireClick && e && e.changedTouches) {
+
+			var first = e.changedTouches[0],
+			    el = first.target;
+
+			if (el && el.tagName && el.tagName.toLowerCase() === 'a') {
+				L.DomUtil.removeClass(el, 'leaflet-active');
+			}
+
+			// simulate click if the touch didn't move too much
+			if (this._isTapValid()) {
+				this._simulateEvent('click', first);
+			}
+		}
+	},
+
+	_isTapValid: function () {
+		return this._newPos.distanceTo(this._startPos) <= this._map.options.tapTolerance;
+	},
+
+	_onMove: function (e) {
+		var first = e.touches[0];
+		this._newPos = new L.Point(first.clientX, first.clientY);
+	},
+
+	_simulateEvent: function (type, e) {
+		var simulatedEvent = document.createEvent('MouseEvents');
+
+		simulatedEvent._simulated = true;
+		e.target._simulatedClick = true;
+
+		simulatedEvent.initMouseEvent(
+		        type, true, true, window, 1,
+		        e.screenX, e.screenY,
+		        e.clientX, e.clientY,
+		        false, false, false, false, 0, null);
+
+		e.target.dispatchEvent(simulatedEvent);
+	}
+});
+
+if (L.Browser.touch && !L.Browser.pointer) {
+	L.Map.addInitHook('addHandler', 'tap', L.Map.Tap);
+}
+
+
+/*
+ * L.Handler.ShiftDragZoom is used to add shift-drag zoom interaction to the map
+  * (zoom to a selected bounding box), enabled by default.
+ */
+
+L.Map.mergeOptions({
+	boxZoom: true
+});
+
+L.Map.BoxZoom = L.Handler.extend({
+	initialize: function (map) {
+		this._map = map;
+		this._container = map._container;
+		this._pane = map._panes.overlayPane;
+		this._moved = false;
+	},
+
+	addHooks: function () {
+		L.DomEvent.on(this._container, 'mousedown', this._onMouseDown, this);
+	},
+
+	removeHooks: function () {
+		L.DomEvent.off(this._container, 'mousedown', this._onMouseDown);
+		this._moved = false;
+	},
+
+	moved: function () {
+		return this._moved;
+	},
+
+	_onMouseDown: function (e) {
+		this._moved = false;
+
+		if (!e.shiftKey || ((e.which !== 1) && (e.button !== 1))) { return false; }
+
+		L.DomUtil.disableTextSelection();
+		L.DomUtil.disableImageDrag();
+
+		this._startLayerPoint = this._map.mouseEventToLayerPoint(e);
+
+		L.DomEvent
+		    .on(document, 'mousemove', this._onMouseMove, this)
+		    .on(document, 'mouseup', this._onMouseUp, this)
+		    .on(document, 'keydown', this._onKeyDown, this);
+	},
+
+	_onMouseMove: function (e) {
+		if (!this._moved) {
+			this._box = L.DomUtil.create('div', 'leaflet-zoom-box', this._pane);
+			L.DomUtil.setPosition(this._box, this._startLayerPoint);
+
+			//TODO refactor: move cursor to styles
+			this._container.style.cursor = 'crosshair';
+			this._map.fire('boxzoomstart');
+		}
+
+		var startPoint = this._startLayerPoint,
+		    box = this._box,
+
+		    layerPoint = this._map.mouseEventToLayerPoint(e),
+		    offset = layerPoint.subtract(startPoint),
+
+		    newPos = new L.Point(
+		        Math.min(layerPoint.x, startPoint.x),
+		        Math.min(layerPoint.y, startPoint.y));
+
+		L.DomUtil.setPosition(box, newPos);
+
+		this._moved = true;
+
+		// TODO refactor: remove hardcoded 4 pixels
+		box.style.width  = (Math.max(0, Math.abs(offset.x) - 4)) + 'px';
+		box.style.height = (Math.max(0, Math.abs(offset.y) - 4)) + 'px';
+	},
+
+	_finish: function () {
+		if (this._moved) {
+			this._pane.removeChild(this._box);
+			this._container.style.cursor = '';
+		}
+
+		L.DomUtil.enableTextSelection();
+		L.DomUtil.enableImageDrag();
+
+		L.DomEvent
+		    .off(document, 'mousemove', this._onMouseMove)
+		    .off(document, 'mouseup', this._onMouseUp)
+		    .off(document, 'keydown', this._onKeyDown);
+	},
+
+	_onMouseUp: function (e) {
+
+		this._finish();
+
+		var map = this._map,
+		    layerPoint = map.mouseEventToLayerPoint(e);
+
+		if (this._startLayerPoint.equals(layerPoint)) { return; }
+
+		var bounds = new L.LatLngBounds(
+		        map.layerPointToLatLng(this._startLayerPoint),
+		        map.layerPointToLatLng(layerPoint));
+
+		map.fitBounds(bounds);
+
+		map.fire('boxzoomend', {
+			boxZoomBounds: bounds
+		});
+	},
+
+	_onKeyDown: function (e) {
+		if (e.keyCode === 27) {
+			this._finish();
+		}
+	}
+});
+
+L.Map.addInitHook('addHandler', 'boxZoom', L.Map.BoxZoom);
+
+
+/*
+ * L.Map.Keyboard is handling keyboard interaction with the map, enabled by default.
+ */
+
+L.Map.mergeOptions({
+	keyboard: true,
+	keyboardPanOffset: 80,
+	keyboardZoomOffset: 1
+});
+
+L.Map.Keyboard = L.Handler.extend({
+
+	keyCodes: {
+		left:    [37],
+		right:   [39],
+		down:    [40],
+		up:      [38],
+		zoomIn:  [187, 107, 61, 171],
+		zoomOut: [189, 109, 173]
+	},
+
+	initialize: function (map) {
+		this._map = map;
+
+		this._setPanOffset(map.options.keyboardPanOffset);
+		this._setZoomOffset(map.options.keyboardZoomOffset);
+	},
+
+	addHooks: function () {
+		var container = this._map._container;
+
+		// make the container focusable by tabbing
+		if (container.tabIndex === -1) {
+			container.tabIndex = '0';
+		}
+
+		L.DomEvent
+		    .on(container, 'focus', this._onFocus, this)
+		    .on(container, 'blur', this._onBlur, this)
+		    .on(container, 'mousedown', this._onMouseDown, this);
+
+		this._map
+		    .on('focus', this._addHooks, this)
+		    .on('blur', this._removeHooks, this);
+	},
+
+	removeHooks: function () {
+		this._removeHooks();
+
+		var container = this._map._container;
+
+		L.DomEvent
+		    .off(container, 'focus', this._onFocus, this)
+		    .off(container, 'blur', this._onBlur, this)
+		    .off(container, 'mousedown', this._onMouseDown, this);
+
+		this._map
+		    .off('focus', this._addHooks, this)
+		    .off('blur', this._removeHooks, this);
+	},
+
+	_onMouseDown: function () {
+		if (this._focused) { return; }
+
+		var body = document.body,
+		    docEl = document.documentElement,
+		    top = body.scrollTop || docEl.scrollTop,
+		    left = body.scrollLeft || docEl.scrollLeft;
+
+		this._map._container.focus();
+
+		window.scrollTo(left, top);
+	},
+
+	_onFocus: function () {
+		this._focused = true;
+		this._map.fire('focus');
+	},
+
+	_onBlur: function () {
+		this._focused = false;
+		this._map.fire('blur');
+	},
+
+	_setPanOffset: function (pan) {
+		var keys = this._panKeys = {},
+		    codes = this.keyCodes,
+		    i, len;
+
+		for (i = 0, len = codes.left.length; i < len; i++) {
+			keys[codes.left[i]] = [-1 * pan, 0];
+		}
+		for (i = 0, len = codes.right.length; i < len; i++) {
+			keys[codes.right[i]] = [pan, 0];
+		}
+		for (i = 0, len = codes.down.length; i < len; i++) {
+			keys[codes.down[i]] = [0, pan];
+		}
+		for (i = 0, len = codes.up.length; i < len; i++) {
+			keys[codes.up[i]] = [0, -1 * pan];
+		}
+	},
+
+	_setZoomOffset: function (zoom) {
+		var keys = this._zoomKeys = {},
+		    codes = this.keyCodes,
+		    i, len;
+
+		for (i = 0, len = codes.zoomIn.length; i < len; i++) {
+			keys[codes.zoomIn[i]] = zoom;
+		}
+		for (i = 0, len = codes.zoomOut.length; i < len; i++) {
+			keys[codes.zoomOut[i]] = -zoom;
+		}
+	},
+
+	_addHooks: function () {
+		L.DomEvent.on(document, 'keydown', this._onKeyDown, this);
+	},
+
+	_removeHooks: function () {
+		L.DomEvent.off(document, 'keydown', this._onKeyDown, this);
+	},
+
+	_onKeyDown: function (e) {
+		var key = e.keyCode,
+		    map = this._map;
+
+		if (key in this._panKeys) {
+
+			if (map._panAnim && map._panAnim._inProgress) { return; }
+
+			map.panBy(this._panKeys[key]);
+
+			if (map.options.maxBounds) {
+				map.panInsideBounds(map.options.maxBounds);
+			}
+
+		} else if (key in this._zoomKeys) {
+			map.setZoom(map.getZoom() + this._zoomKeys[key]);
+
+		} else {
+			return;
+		}
+
+		L.DomEvent.stop(e);
+	}
+});
+
+L.Map.addInitHook('addHandler', 'keyboard', L.Map.Keyboard);
+
+
+/*
+ * L.Handler.MarkerDrag is used internally by L.Marker to make the markers draggable.
+ */
+
+L.Handler.MarkerDrag = L.Handler.extend({
+	initialize: function (marker) {
+		this._marker = marker;
+	},
+
+	addHooks: function () {
+		var icon = this._marker._icon;
+		if (!this._draggable) {
+			this._draggable = new L.Draggable(icon, icon);
+		}
+
+		this._draggable
+			.on('dragstart', this._onDragStart, this)
+			.on('drag', this._onDrag, this)
+			.on('dragend', this._onDragEnd, this);
+		this._draggable.enable();
+		L.DomUtil.addClass(this._marker._icon, 'leaflet-marker-draggable');
+	},
+
+	removeHooks: function () {
+		this._draggable
+			.off('dragstart', this._onDragStart, this)
+			.off('drag', this._onDrag, this)
+			.off('dragend', this._onDragEnd, this);
+
+		this._draggable.disable();
+		L.DomUtil.removeClass(this._marker._icon, 'leaflet-marker-draggable');
+	},
+
+	moved: function () {
+		return this._draggable && this._draggable._moved;
+	},
+
+	_onDragStart: function () {
+		this._marker
+		    .closePopup()
+		    .fire('movestart')
+		    .fire('dragstart');
+	},
+
+	_onDrag: function () {
+		var marker = this._marker,
+		    shadow = marker._shadow,
+		    iconPos = L.DomUtil.getPosition(marker._icon),
+		    latlng = marker._map.layerPointToLatLng(iconPos);
+
+		// update shadow position
+		if (shadow) {
+			L.DomUtil.setPosition(shadow, iconPos);
+		}
+
+		marker._latlng = latlng;
+
+		marker
+		    .fire('move', {latlng: latlng})
+		    .fire('drag');
+	},
+
+	_onDragEnd: function (e) {
+		this._marker
+		    .fire('moveend')
+		    .fire('dragend', e);
+	}
+});
+
+
+/*
+ * L.Control is a base class for implementing map controls. Handles positioning.
+ * All other controls extend from this class.
+ */
+
+L.Control = L.Class.extend({
+	options: {
+		position: 'topright'
+	},
+
+	initialize: function (options) {
+		L.setOptions(this, options);
+	},
+
+	getPosition: function () {
+		return this.options.position;
+	},
+
+	setPosition: function (position) {
+		var map = this._map;
+
+		if (map) {
+			map.removeControl(this);
+		}
+
+		this.options.position = position;
+
+		if (map) {
+			map.addControl(this);
+		}
+
+		return this;
+	},
+
+	getContainer: function () {
+		return this._container;
+	},
+
+	addTo: function (map) {
+		this._map = map;
+
+		var container = this._container = this.onAdd(map),
+		    pos = this.getPosition(),
+		    corner = map._controlCorners[pos];
+
+		L.DomUtil.addClass(container, 'leaflet-control');
+
+		if (pos.indexOf('bottom') !== -1) {
+			corner.insertBefore(container, corner.firstChild);
+		} else {
+			corner.appendChild(container);
+		}
+
+		return this;
+	},
+
+	removeFrom: function (map) {
+		var pos = this.getPosition(),
+		    corner = map._controlCorners[pos];
+
+		corner.removeChild(this._container);
+		this._map = null;
+
+		if (this.onRemove) {
+			this.onRemove(map);
+		}
+
+		return this;
+	},
+
+	_refocusOnMap: function () {
+		if (this._map) {
+			this._map.getContainer().focus();
+		}
+	}
+});
+
+L.control = function (options) {
+	return new L.Control(options);
+};
+
+
+// adds control-related methods to L.Map
+
+L.Map.include({
+	addControl: function (control) {
+		control.addTo(this);
+		return this;
+	},
+
+	removeControl: function (control) {
+		control.removeFrom(this);
+		return this;
+	},
+
+	_initControlPos: function () {
+		var corners = this._controlCorners = {},
+		    l = 'leaflet-',
+		    container = this._controlContainer =
+		            L.DomUtil.create('div', l + 'control-container', this._container);
+
+		function createCorner(vSide, hSide) {
+			var className = l + vSide + ' ' + l + hSide;
+
+			corners[vSide + hSide] = L.DomUtil.create('div', className, container);
+		}
+
+		createCorner('top', 'left');
+		createCorner('top', 'right');
+		createCorner('bottom', 'left');
+		createCorner('bottom', 'right');
+	},
+
+	_clearControlPos: function () {
+		this._container.removeChild(this._controlContainer);
+	}
+});
+
+
+/*
+ * L.Control.Zoom is used for the default zoom buttons on the map.
+ */
+
+L.Control.Zoom = L.Control.extend({
+	options: {
+		position: 'topleft',
+		zoomInText: '+',
+		zoomInTitle: 'Zoom in',
+		zoomOutText: '-',
+		zoomOutTitle: 'Zoom out'
+	},
+
+	onAdd: function (map) {
+		var zoomName = 'leaflet-control-zoom',
+		    container = L.DomUtil.create('div', zoomName + ' leaflet-bar');
+
+		this._map = map;
+
+		this._zoomInButton  = this._createButton(
+		        this.options.zoomInText, this.options.zoomInTitle,
+		        zoomName + '-in',  container, this._zoomIn,  this);
+		this._zoomOutButton = this._createButton(
+		        this.options.zoomOutText, this.options.zoomOutTitle,
+		        zoomName + '-out', container, this._zoomOut, this);
+
+		this._updateDisabled();
+		map.on('zoomend zoomlevelschange', this._updateDisabled, this);
+
+		return container;
+	},
+
+	onRemove: function (map) {
+		map.off('zoomend zoomlevelschange', this._updateDisabled, this);
+	},
+
+	_zoomIn: function (e) {
+		this._map.zoomIn(e.shiftKey ? 3 : 1);
+	},
+
+	_zoomOut: function (e) {
+		this._map.zoomOut(e.shiftKey ? 3 : 1);
+	},
+
+	_createButton: function (html, title, className, container, fn, context) {
+		var link = L.DomUtil.create('a', className, container);
+		link.innerHTML = html;
+		link.href = '#';
+		link.title = title;
+
+		var stop = L.DomEvent.stopPropagation;
+
+		L.DomEvent
+		    .on(link, 'click', stop)
+		    .on(link, 'mousedown', stop)
+		    .on(link, 'dblclick', stop)
+		    .on(link, 'click', L.DomEvent.preventDefault)
+		    .on(link, 'click', fn, context)
+		    .on(link, 'click', this._refocusOnMap, context);
+
+		return link;
+	},
+
+	_updateDisabled: function () {
+		var map = this._map,
+			className = 'leaflet-disabled';
+
+		L.DomUtil.removeClass(this._zoomInButton, className);
+		L.DomUtil.removeClass(this._zoomOutButton, className);
+
+		if (map._zoom === map.getMinZoom()) {
+			L.DomUtil.addClass(this._zoomOutButton, className);
+		}
+		if (map._zoom === map.getMaxZoom()) {
+			L.DomUtil.addClass(this._zoomInButton, className);
+		}
+	}
+});
+
+L.Map.mergeOptions({
+	zoomControl: true
+});
+
+L.Map.addInitHook(function () {
+	if (this.options.zoomControl) {
+		this.zoomControl = new L.Control.Zoom();
+		this.addControl(this.zoomControl);
+	}
+});
+
+L.control.zoom = function (options) {
+	return new L.Control.Zoom(options);
+};
+
+
+
+/*
+ * L.Control.Attribution is used for displaying attribution on the map (added by default).
+ */
+
+L.Control.Attribution = L.Control.extend({
+	options: {
+		position: 'bottomright',
+		prefix: '<a href="http://leafletjs.com" title="A JS library for interactive maps">Leaflet</a>'
+	},
+
+	initialize: function (options) {
+		L.setOptions(this, options);
+
+		this._attributions = {};
+	},
+
+	onAdd: function (map) {
+		this._container = L.DomUtil.create('div', 'leaflet-control-attribution');
+		L.DomEvent.disableClickPropagation(this._container);
+
+		for (var i in map._layers) {
+			if (map._layers[i].getAttribution) {
+				this.addAttribution(map._layers[i].getAttribution());
+			}
+		}
+		
+		map
+		    .on('layeradd', this._onLayerAdd, this)
+		    .on('layerremove', this._onLayerRemove, this);
+
+		this._update();
+
+		return this._container;
+	},
+
+	onRemove: function (map) {
+		map
+		    .off('layeradd', this._onLayerAdd)
+		    .off('layerremove', this._onLayerRemove);
+
+	},
+
+	setPrefix: function (prefix) {
+		this.options.prefix = prefix;
+		this._update();
+		return this;
+	},
+
+	addAttribution: function (text) {
+		if (!text) { return; }
+
+		if (!this._attributions[text]) {
+			this._attributions[text] = 0;
+		}
+		this._attributions[text]++;
+
+		this._update();
+
+		return this;
+	},
+
+	removeAttribution: function (text) {
+		if (!text) { return; }
+
+		if (this._attributions[text]) {
+			this._attributions[text]--;
+			this._update();
+		}
+
+		return this;
+	},
+
+	_update: function () {
+		if (!this._map) { return; }
+
+		var attribs = [];
+
+		for (var i in this._attributions) {
+			if (this._attributions[i]) {
+				attribs.push(i);
+			}
+		}
+
+		var prefixAndAttribs = [];
+
+		if (this.options.prefix) {
+			prefixAndAttribs.push(this.options.prefix);
+		}
+		if (attribs.length) {
+			prefixAndAttribs.push(attribs.join(', '));
+		}
+
+		this._container.innerHTML = prefixAndAttribs.join(' | ');
+	},
+
+	_onLayerAdd: function (e) {
+		if (e.layer.getAttribution) {
+			this.addAttribution(e.layer.getAttribution());
+		}
+	},
+
+	_onLayerRemove: function (e) {
+		if (e.layer.getAttribution) {
+			this.removeAttribution(e.layer.getAttribution());
+		}
+	}
+});
+
+L.Map.mergeOptions({
+	attributionControl: true
+});
+
+L.Map.addInitHook(function () {
+	if (this.options.attributionControl) {
+		this.attributionControl = (new L.Control.Attribution()).addTo(this);
+	}
+});
+
+L.control.attribution = function (options) {
+	return new L.Control.Attribution(options);
+};
+
+
+/*
+ * L.Control.Scale is used for displaying metric/imperial scale on the map.
+ */
+
+L.Control.Scale = L.Control.extend({
+	options: {
+		position: 'bottomleft',
+		maxWidth: 100,
+		metric: true,
+		imperial: true,
+		updateWhenIdle: false
+	},
+
+	onAdd: function (map) {
+		this._map = map;
+
+		var className = 'leaflet-control-scale',
+		    container = L.DomUtil.create('div', className),
+		    options = this.options;
+
+		this._addScales(options, className, container);
+
+		map.on(options.updateWhenIdle ? 'moveend' : 'move', this._update, this);
+		map.whenReady(this._update, this);
+
+		return container;
+	},
+
+	onRemove: function (map) {
+		map.off(this.options.updateWhenIdle ? 'moveend' : 'move', this._update, this);
+	},
+
+	_addScales: function (options, className, container) {
+		if (options.metric) {
+			this._mScale = L.DomUtil.create('div', className + '-line', container);
+		}
+		if (options.imperial) {
+			this._iScale = L.DomUtil.create('div', className + '-line', container);
+		}
+	},
+
+	_update: function () {
+		var bounds = this._map.getBounds(),
+		    centerLat = bounds.getCenter().lat,
+		    halfWorldMeters = 6378137 * Math.PI * Math.cos(centerLat * Math.PI / 180),
+		    dist = halfWorldMeters * (bounds.getNorthEast().lng - bounds.getSouthWest().lng) / 180,
+
+		    size = this._map.getSize(),
+		    options = this.options,
+		    maxMeters = 0;
+
+		if (size.x > 0) {
+			maxMeters = dist * (options.maxWidth / size.x);
+		}
+
+		this._updateScales(options, maxMeters);
+	},
+
+	_updateScales: function (options, maxMeters) {
+		if (options.metric && maxMeters) {
+			this._updateMetric(maxMeters);
+		}
+
+		if (options.imperial && maxMeters) {
+			this._updateImperial(maxMeters);
+		}
+	},
+
+	_updateMetric: function (maxMeters) {
+		var meters = this._getRoundNum(maxMeters);
+
+		this._mScale.style.width = this._getScaleWidth(meters / maxMeters) + 'px';
+		this._mScale.innerHTML = meters < 1000 ? meters + ' m' : (meters / 1000) + ' km';
+	},
+
+	_updateImperial: function (maxMeters) {
+		var maxFeet = maxMeters * 3.2808399,
+		    scale = this._iScale,
+		    maxMiles, miles, feet;
+
+		if (maxFeet > 5280) {
+			maxMiles = maxFeet / 5280;
+			miles = this._getRoundNum(maxMiles);
+
+			scale.style.width = this._getScaleWidth(miles / maxMiles) + 'px';
+			scale.innerHTML = miles + ' mi';
+
+		} else {
+			feet = this._getRoundNum(maxFeet);
+
+			scale.style.width = this._getScaleWidth(feet / maxFeet) + 'px';
+			scale.innerHTML = feet + ' ft';
+		}
+	},
+
+	_getScaleWidth: function (ratio) {
+		return Math.round(this.options.maxWidth * ratio) - 10;
+	},
+
+	_getRoundNum: function (num) {
+		var pow10 = Math.pow(10, (Math.floor(num) + '').length - 1),
+		    d = num / pow10;
+
+		d = d >= 10 ? 10 : d >= 5 ? 5 : d >= 3 ? 3 : d >= 2 ? 2 : 1;
+
+		return pow10 * d;
+	}
+});
+
+L.control.scale = function (options) {
+	return new L.Control.Scale(options);
+};
+
+
+/*
+ * L.Control.Layers is a control to allow users to switch between different layers on the map.
+ */
+
+L.Control.Layers = L.Control.extend({
+	options: {
+		collapsed: true,
+		position: 'topright',
+		autoZIndex: true
+	},
+
+	initialize: function (baseLayers, overlays, options) {
+		L.setOptions(this, options);
+
+		this._layers = {};
+		this._lastZIndex = 0;
+		this._handlingClick = false;
+
+		for (var i in baseLayers) {
+			this._addLayer(baseLayers[i], i);
+		}
+
+		for (i in overlays) {
+			this._addLayer(overlays[i], i, true);
+		}
+	},
+
+	onAdd: function (map) {
+		this._initLayout();
+		this._update();
+
+		map
+		    .on('layeradd', this._onLayerChange, this)
+		    .on('layerremove', this._onLayerChange, this);
+
+		return this._container;
+	},
+
+	onRemove: function (map) {
+		map
+		    .off('layeradd', this._onLayerChange, this)
+		    .off('layerremove', this._onLayerChange, this);
+	},
+
+	addBaseLayer: function (layer, name) {
+		this._addLayer(layer, name);
+		this._update();
+		return this;
+	},
+
+	addOverlay: function (layer, name) {
+		this._addLayer(layer, name, true);
+		this._update();
+		return this;
+	},
+
+	removeLayer: function (layer) {
+		var id = L.stamp(layer);
+		delete this._layers[id];
+		this._update();
+		return this;
+	},
+
+	_initLayout: function () {
+		var className = 'leaflet-control-layers',
+		    container = this._container = L.DomUtil.create('div', className);
+
+		//Makes this work on IE10 Touch devices by stopping it from firing a mouseout event when the touch is released
+		container.setAttribute('aria-haspopup', true);
+
+		if (!L.Browser.touch) {
+			L.DomEvent
+				.disableClickPropagation(container)
+				.disableScrollPropagation(container);
+		} else {
+			L.DomEvent.on(container, 'click', L.DomEvent.stopPropagation);
+		}
+
+		var form = this._form = L.DomUtil.create('form', className + '-list');
+
+		if (this.options.collapsed) {
+			if (!L.Browser.android) {
+				L.DomEvent
+				    .on(container, 'mouseover', this._expand, this)
+				    .on(container, 'mouseout', this._collapse, this);
+			}
+			var link = this._layersLink = L.DomUtil.create('a', className + '-toggle', container);
+			link.href = '#';
+			link.title = 'Layers';
+
+			if (L.Browser.touch) {
+				L.DomEvent
+				    .on(link, 'click', L.DomEvent.stop)
+				    .on(link, 'click', this._expand, this);
+			}
+			else {
+				L.DomEvent.on(link, 'focus', this._expand, this);
+			}
+			//Work around for Firefox android issue https://github.com/Leaflet/Leaflet/issues/2033
+			L.DomEvent.on(form, 'click', function () {
+				setTimeout(L.bind(this._onInputClick, this), 0);
+			}, this);
+
+			this._map.on('click', this._collapse, this);
+			// TODO keyboard accessibility
+		} else {
+			this._expand();
+		}
+
+		this._baseLayersList = L.DomUtil.create('div', className + '-base', form);
+		this._separator = L.DomUtil.create('div', className + '-separator', form);
+		this._overlaysList = L.DomUtil.create('div', className + '-overlays', form);
+
+		container.appendChild(form);
+	},
+
+	_addLayer: function (layer, name, overlay) {
+		var id = L.stamp(layer);
+
+		this._layers[id] = {
+			layer: layer,
+			name: name,
+			overlay: overlay
+		};
+
+		if (this.options.autoZIndex && layer.setZIndex) {
+			this._lastZIndex++;
+			layer.setZIndex(this._lastZIndex);
+		}
+	},
+
+	_update: function () {
+		if (!this._container) {
+			return;
+		}
+
+		this._baseLayersList.innerHTML = '';
+		this._overlaysList.innerHTML = '';
+
+		var baseLayersPresent = false,
+		    overlaysPresent = false,
+		    i, obj;
+
+		for (i in this._layers) {
+			obj = this._layers[i];
+			this._addItem(obj);
+			overlaysPresent = overlaysPresent || obj.overlay;
+			baseLayersPresent = baseLayersPresent || !obj.overlay;
+		}
+
+		this._separator.style.display = overlaysPresent && baseLayersPresent ? '' : 'none';
+	},
+
+	_onLayerChange: function (e) {
+		var obj = this._layers[L.stamp(e.layer)];
+
+		if (!obj) { return; }
+
+		if (!this._handlingClick) {
+			this._update();
+		}
+
+		var type = obj.overlay ?
+			(e.type === 'layeradd' ? 'overlayadd' : 'overlayremove') :
+			(e.type === 'layeradd' ? 'baselayerchange' : null);
+
+		if (type) {
+			this._map.fire(type, obj);
+		}
+	},
+
+	// IE7 bugs out if you create a radio dynamically, so you have to do it this hacky way (see http://bit.ly/PqYLBe)
+	_createRadioElement: function (name, checked) {
+
+		var radioHtml = '<input type="radio" class="leaflet-control-layers-selector" name="' + name + '"';
+		if (checked) {
+			radioHtml += ' checked="checked"';
+		}
+		radioHtml += '/>';
+
+		var radioFragment = document.createElement('div');
+		radioFragment.innerHTML = radioHtml;
+
+		return radioFragment.firstChild;
+	},
+
+	_addItem: function (obj) {
+		var label = document.createElement('label'),
+		    input,
+		    checked = this._map.hasLayer(obj.layer);
+
+		if (obj.overlay) {
+			input = document.createElement('input');
+			input.type = 'checkbox';
+			input.className = 'leaflet-control-layers-selector';
+			input.defaultChecked = checked;
+		} else {
+			input = this._createRadioElement('leaflet-base-layers', checked);
+		}
+
+		input.layerId = L.stamp(obj.layer);
+
+		L.DomEvent.on(input, 'click', this._onInputClick, this);
+
+		var name = document.createElement('span');
+		name.innerHTML = ' ' + obj.name;
+
+		label.appendChild(input);
+		label.appendChild(name);
+
+		var container = obj.overlay ? this._overlaysList : this._baseLayersList;
+		container.appendChild(label);
+
+		return label;
+	},
+
+	_onInputClick: function () {
+		var i, input, obj,
+		    inputs = this._form.getElementsByTagName('input'),
+		    inputsLen = inputs.length;
+
+		this._handlingClick = true;
+
+		for (i = 0; i < inputsLen; i++) {
+			input = inputs[i];
+			obj = this._layers[input.layerId];
+
+			if (input.checked && !this._map.hasLayer(obj.layer)) {
+				this._map.addLayer(obj.layer);
+
+			} else if (!input.checked && this._map.hasLayer(obj.layer)) {
+				this._map.removeLayer(obj.layer);
+			}
+		}
+
+		this._handlingClick = false;
+
+		this._refocusOnMap();
+	},
+
+	_expand: function () {
+		L.DomUtil.addClass(this._container, 'leaflet-control-layers-expanded');
+	},
+
+	_collapse: function () {
+		this._container.className = this._container.className.replace(' leaflet-control-layers-expanded', '');
+	}
+});
+
+L.control.layers = function (baseLayers, overlays, options) {
+	return new L.Control.Layers(baseLayers, overlays, options);
+};
+
+
+/*
+ * L.PosAnimation is used by Leaflet internally for pan animations.
+ */
+
+L.PosAnimation = L.Class.extend({
+	includes: L.Mixin.Events,
+
+	run: function (el, newPos, duration, easeLinearity) { // (HTMLElement, Point[, Number, Number])
+		this.stop();
+
+		this._el = el;
+		this._inProgress = true;
+		this._newPos = newPos;
+
+		this.fire('start');
+
+		el.style[L.DomUtil.TRANSITION] = 'all ' + (duration || 0.25) +
+		        's cubic-bezier(0,0,' + (easeLinearity || 0.5) + ',1)';
+
+		L.DomEvent.on(el, L.DomUtil.TRANSITION_END, this._onTransitionEnd, this);
+		L.DomUtil.setPosition(el, newPos);
+
+		// toggle reflow, Chrome flickers for some reason if you don't do this
+		L.Util.falseFn(el.offsetWidth);
+
+		// there's no native way to track value updates of transitioned properties, so we imitate this
+		this._stepTimer = setInterval(L.bind(this._onStep, this), 50);
+	},
+
+	stop: function () {
+		if (!this._inProgress) { return; }
+
+		// if we just removed the transition property, the element would jump to its final position,
+		// so we need to make it stay at the current position
+
+		L.DomUtil.setPosition(this._el, this._getPos());
+		this._onTransitionEnd();
+		L.Util.falseFn(this._el.offsetWidth); // force reflow in case we are about to start a new animation
+	},
+
+	_onStep: function () {
+		var stepPos = this._getPos();
+		if (!stepPos) {
+			this._onTransitionEnd();
+			return;
+		}
+		// jshint camelcase: false
+		// make L.DomUtil.getPosition return intermediate position value during animation
+		this._el._leaflet_pos = stepPos;
+
+		this.fire('step');
+	},
+
+	// you can't easily get intermediate values of properties animated with CSS3 Transitions,
+	// we need to parse computed style (in case of transform it returns matrix string)
+
+	_transformRe: /([-+]?(?:\d*\.)?\d+)\D*, ([-+]?(?:\d*\.)?\d+)\D*\)/,
+
+	_getPos: function () {
+		var left, top, matches,
+		    el = this._el,
+		    style = window.getComputedStyle(el);
+
+		if (L.Browser.any3d) {
+			matches = style[L.DomUtil.TRANSFORM].match(this._transformRe);
+			if (!matches) { return; }
+			left = parseFloat(matches[1]);
+			top  = parseFloat(matches[2]);
+		} else {
+			left = parseFloat(style.left);
+			top  = parseFloat(style.top);
+		}
+
+		return new L.Point(left, top, true);
+	},
+
+	_onTransitionEnd: function () {
+		L.DomEvent.off(this._el, L.DomUtil.TRANSITION_END, this._onTransitionEnd, this);
+
+		if (!this._inProgress) { return; }
+		this._inProgress = false;
+
+		this._el.style[L.DomUtil.TRANSITION] = '';
+
+		// jshint camelcase: false
+		// make sure L.DomUtil.getPosition returns the final position value after animation
+		this._el._leaflet_pos = this._newPos;
+
+		clearInterval(this._stepTimer);
+
+		this.fire('step').fire('end');
+	}
+
+});
+
+
+/*
+ * Extends L.Map to handle panning animations.
+ */
+
+L.Map.include({
+
+	setView: function (center, zoom, options) {
+
+		zoom = zoom === undefined ? this._zoom : this._limitZoom(zoom);
+		center = this._limitCenter(L.latLng(center), zoom, this.options.maxBounds);
+		options = options || {};
+
+		if (this._panAnim) {
+			this._panAnim.stop();
+		}
+
+		if (this._loaded && !options.reset && options !== true) {
+
+			if (options.animate !== undefined) {
+				options.zoom = L.extend({animate: options.animate}, options.zoom);
+				options.pan = L.extend({animate: options.animate}, options.pan);
+			}
+
+			// try animating pan or zoom
+			var animated = (this._zoom !== zoom) ?
+				this._tryAnimatedZoom && this._tryAnimatedZoom(center, zoom, options.zoom) :
+				this._tryAnimatedPan(center, options.pan);
+
+			if (animated) {
+				// prevent resize handler call, the view will refresh after animation anyway
+				clearTimeout(this._sizeTimer);
+				return this;
+			}
+		}
+
+		// animation didn't start, just reset the map view
+		this._resetView(center, zoom);
+
+		return this;
+	},
+
+	panBy: function (offset, options) {
+		offset = L.point(offset).round();
+		options = options || {};
+
+		if (!offset.x && !offset.y) {
+			return this;
+		}
+
+		if (!this._panAnim) {
+			this._panAnim = new L.PosAnimation();
+
+			this._panAnim.on({
+				'step': this._onPanTransitionStep,
+				'end': this._onPanTransitionEnd
+			}, this);
+		}
+
+		// don't fire movestart if animating inertia
+		if (!options.noMoveStart) {
+			this.fire('movestart');
+		}
+
+		// animate pan unless animate: false specified
+		if (options.animate !== false) {
+			L.DomUtil.addClass(this._mapPane, 'leaflet-pan-anim');
+
+			var newPos = this._getMapPanePos().subtract(offset);
+			this._panAnim.run(this._mapPane, newPos, options.duration || 0.25, options.easeLinearity);
+		} else {
+			this._rawPanBy(offset);
+			this.fire('move').fire('moveend');
+		}
+
+		return this;
+	},
+
+	_onPanTransitionStep: function () {
+		this.fire('move');
+	},
+
+	_onPanTransitionEnd: function () {
+		L.DomUtil.removeClass(this._mapPane, 'leaflet-pan-anim');
+		this.fire('moveend');
+	},
+
+	_tryAnimatedPan: function (center, options) {
+		// difference between the new and current centers in pixels
+		var offset = this._getCenterOffset(center)._floor();
+
+		// don't animate too far unless animate: true specified in options
+		if ((options && options.animate) !== true && !this.getSize().contains(offset)) { return false; }
+
+		this.panBy(offset, options);
+
+		return true;
+	}
+});
+
+
+/*
+ * L.PosAnimation fallback implementation that powers Leaflet pan animations
+ * in browsers that don't support CSS3 Transitions.
+ */
+
+L.PosAnimation = L.DomUtil.TRANSITION ? L.PosAnimation : L.PosAnimation.extend({
+
+	run: function (el, newPos, duration, easeLinearity) { // (HTMLElement, Point[, Number, Number])
+		this.stop();
+
+		this._el = el;
+		this._inProgress = true;
+		this._duration = duration || 0.25;
+		this._easeOutPower = 1 / Math.max(easeLinearity || 0.5, 0.2);
+
+		this._startPos = L.DomUtil.getPosition(el);
+		this._offset = newPos.subtract(this._startPos);
+		this._startTime = +new Date();
+
+		this.fire('start');
+
+		this._animate();
+	},
+
+	stop: function () {
+		if (!this._inProgress) { return; }
+
+		this._step();
+		this._complete();
+	},
+
+	_animate: function () {
+		// animation loop
+		this._animId = L.Util.requestAnimFrame(this._animate, this);
+		this._step();
+	},
+
+	_step: function () {
+		var elapsed = (+new Date()) - this._startTime,
+		    duration = this._duration * 1000;
+
+		if (elapsed < duration) {
+			this._runFrame(this._easeOut(elapsed / duration));
+		} else {
+			this._runFrame(1);
+			this._complete();
+		}
+	},
+
+	_runFrame: function (progress) {
+		var pos = this._startPos.add(this._offset.multiplyBy(progress));
+		L.DomUtil.setPosition(this._el, pos);
+
+		this.fire('step');
+	},
+
+	_complete: function () {
+		L.Util.cancelAnimFrame(this._animId);
+
+		this._inProgress = false;
+		this.fire('end');
+	},
+
+	_easeOut: function (t) {
+		return 1 - Math.pow(1 - t, this._easeOutPower);
+	}
+});
+
+
+/*
+ * Extends L.Map to handle zoom animations.
+ */
+
+L.Map.mergeOptions({
+	zoomAnimation: true,
+	zoomAnimationThreshold: 4
+});
+
+if (L.DomUtil.TRANSITION) {
+
+	L.Map.addInitHook(function () {
+		// don't animate on browsers without hardware-accelerated transitions or old Android/Opera
+		this._zoomAnimated = this.options.zoomAnimation && L.DomUtil.TRANSITION &&
+				L.Browser.any3d && !L.Browser.android23 && !L.Browser.mobileOpera;
+
+		// zoom transitions run with the same duration for all layers, so if one of transitionend events
+		// happens after starting zoom animation (propagating to the map pane), we know that it ended globally
+		if (this._zoomAnimated) {
+			L.DomEvent.on(this._mapPane, L.DomUtil.TRANSITION_END, this._catchTransitionEnd, this);
+		}
+	});
+}
+
+L.Map.include(!L.DomUtil.TRANSITION ? {} : {
+
+	_catchTransitionEnd: function (e) {
+		if (this._animatingZoom && e.propertyName.indexOf('transform') >= 0) {
+			this._onZoomTransitionEnd();
+		}
+	},
+
+	_nothingToAnimate: function () {
+		return !this._container.getElementsByClassName('leaflet-zoom-animated').length;
+	},
+
+	_tryAnimatedZoom: function (center, zoom, options) {
+
+		if (this._animatingZoom) { return true; }
+
+		options = options || {};
+
+		// don't animate if disabled, not supported or zoom difference is too large
+		if (!this._zoomAnimated || options.animate === false || this._nothingToAnimate() ||
+		        Math.abs(zoom - this._zoom) > this.options.zoomAnimationThreshold) { return false; }
+
+		// offset is the pixel coords of the zoom origin relative to the current center
+		var scale = this.getZoomScale(zoom),
+		    offset = this._getCenterOffset(center)._divideBy(1 - 1 / scale),
+			origin = this._getCenterLayerPoint()._add(offset);
+
+		// don't animate if the zoom origin isn't within one screen from the current center, unless forced
+		if (options.animate !== true && !this.getSize().contains(offset)) { return false; }
+
+		this
+		    .fire('movestart')
+		    .fire('zoomstart');
+
+		this._animateZoom(center, zoom, origin, scale, null, true);
+
+		return true;
+	},
+
+	_animateZoom: function (center, zoom, origin, scale, delta, backwards, forTouchZoom) {
+
+		if (!forTouchZoom) {
+			this._animatingZoom = true;
+		}
+
+		// put transform transition on all layers with leaflet-zoom-animated class
+		L.DomUtil.addClass(this._mapPane, 'leaflet-zoom-anim');
+
+		// remember what center/zoom to set after animation
+		this._animateToCenter = center;
+		this._animateToZoom = zoom;
+
+		// disable any dragging during animation
+		if (L.Draggable) {
+			L.Draggable._disabled = true;
+		}
+
+		L.Util.requestAnimFrame(function () {
+			this.fire('zoomanim', {
+				center: center,
+				zoom: zoom,
+				origin: origin,
+				scale: scale,
+				delta: delta,
+				backwards: backwards
+			});
+			// horrible hack to work around a Chrome bug https://github.com/Leaflet/Leaflet/issues/3689
+			setTimeout(L.bind(this._onZoomTransitionEnd, this), 250);
+		}, this);
+	},
+
+	_onZoomTransitionEnd: function () {
+		if (!this._animatingZoom) { return; }
+
+		this._animatingZoom = false;
+
+		L.DomUtil.removeClass(this._mapPane, 'leaflet-zoom-anim');
+
+		L.Util.requestAnimFrame(function () {
+			this._resetView(this._animateToCenter, this._animateToZoom, true, true);
+
+			if (L.Draggable) {
+				L.Draggable._disabled = false;
+			}
+		}, this);
+	}
+});
+
+
+/*
+	Zoom animation logic for L.TileLayer.
+*/
+
+L.TileLayer.include({
+	_animateZoom: function (e) {
+		if (!this._animating) {
+			this._animating = true;
+			this._prepareBgBuffer();
+		}
+
+		var bg = this._bgBuffer,
+		    transform = L.DomUtil.TRANSFORM,
+		    initialTransform = e.delta ? L.DomUtil.getTranslateString(e.delta) : bg.style[transform],
+		    scaleStr = L.DomUtil.getScaleString(e.scale, e.origin);
+
+		bg.style[transform] = e.backwards ?
+				scaleStr + ' ' + initialTransform :
+				initialTransform + ' ' + scaleStr;
+	},
+
+	_endZoomAnim: function () {
+		var front = this._tileContainer,
+		    bg = this._bgBuffer;
+
+		front.style.visibility = '';
+		front.parentNode.appendChild(front); // Bring to fore
+
+		// force reflow
+		L.Util.falseFn(bg.offsetWidth);
+
+		var zoom = this._map.getZoom();
+		if (zoom > this.options.maxZoom || zoom < this.options.minZoom) {
+			this._clearBgBuffer();
+		}
+
+		this._animating = false;
+	},
+
+	_clearBgBuffer: function () {
+		var map = this._map;
+
+		if (map && !map._animatingZoom && !map.touchZoom._zooming) {
+			this._bgBuffer.innerHTML = '';
+			this._bgBuffer.style[L.DomUtil.TRANSFORM] = '';
+		}
+	},
+
+	_prepareBgBuffer: function () {
+
+		var front = this._tileContainer,
+		    bg = this._bgBuffer;
+
+		// if foreground layer doesn't have many tiles but bg layer does,
+		// keep the existing bg layer and just zoom it some more
+
+		var bgLoaded = this._getLoadedTilesPercentage(bg),
+		    frontLoaded = this._getLoadedTilesPercentage(front);
+
+		if (bg && bgLoaded > 0.5 && frontLoaded < 0.5) {
+
+			front.style.visibility = 'hidden';
+			this._stopLoadingImages(front);
+			return;
+		}
+
+		// prepare the buffer to become the front tile pane
+		bg.style.visibility = 'hidden';
+		bg.style[L.DomUtil.TRANSFORM] = '';
+
+		// switch out the current layer to be the new bg layer (and vice-versa)
+		this._tileContainer = bg;
+		bg = this._bgBuffer = front;
+
+		this._stopLoadingImages(bg);
+
+		//prevent bg buffer from clearing right after zoom
+		clearTimeout(this._clearBgBufferTimer);
+	},
+
+	_getLoadedTilesPercentage: function (container) {
+		var tiles = container.getElementsByTagName('img'),
+		    i, len, count = 0;
+
+		for (i = 0, len = tiles.length; i < len; i++) {
+			if (tiles[i].complete) {
+				count++;
+			}
+		}
+		return count / len;
+	},
+
+	// stops loading all tiles in the background layer
+	_stopLoadingImages: function (container) {
+		var tiles = Array.prototype.slice.call(container.getElementsByTagName('img')),
+		    i, len, tile;
+
+		for (i = 0, len = tiles.length; i < len; i++) {
+			tile = tiles[i];
+
+			if (!tile.complete) {
+				tile.onload = L.Util.falseFn;
+				tile.onerror = L.Util.falseFn;
+				tile.src = L.Util.emptyImageUrl;
+
+				tile.parentNode.removeChild(tile);
+			}
+		}
+	}
+});
+
+
+/*
+ * Provides L.Map with convenient shortcuts for using browser geolocation features.
+ */
+
+L.Map.include({
+	_defaultLocateOptions: {
+		watch: false,
+		setView: false,
+		maxZoom: Infinity,
+		timeout: 10000,
+		maximumAge: 0,
+		enableHighAccuracy: false
+	},
+
+	locate: function (/*Object*/ options) {
+
+		options = this._locateOptions = L.extend(this._defaultLocateOptions, options);
+
+		if (!navigator.geolocation) {
+			this._handleGeolocationError({
+				code: 0,
+				message: 'Geolocation not supported.'
+			});
+			return this;
+		}
+
+		var onResponse = L.bind(this._handleGeolocationResponse, this),
+			onError = L.bind(this._handleGeolocationError, this);
+
+		if (options.watch) {
+			this._locationWatchId =
+			        navigator.geolocation.watchPosition(onResponse, onError, options);
+		} else {
+			navigator.geolocation.getCurrentPosition(onResponse, onError, options);
+		}
+		return this;
+	},
+
+	stopLocate: function () {
+		if (navigator.geolocation) {
+			navigator.geolocation.clearWatch(this._locationWatchId);
+		}
+		if (this._locateOptions) {
+			this._locateOptions.setView = false;
+		}
+		return this;
+	},
+
+	_handleGeolocationError: function (error) {
+		var c = error.code,
+		    message = error.message ||
+		            (c === 1 ? 'permission denied' :
+		            (c === 2 ? 'position unavailable' : 'timeout'));
+
+		if (this._locateOptions.setView && !this._loaded) {
+			this.fitWorld();
+		}
+
+		this.fire('locationerror', {
+			code: c,
+			message: 'Geolocation error: ' + message + '.'
+		});
+	},
+
+	_handleGeolocationResponse: function (pos) {
+		var lat = pos.coords.latitude,
+		    lng = pos.coords.longitude,
+		    latlng = new L.LatLng(lat, lng),
+
+		    latAccuracy = 180 * pos.coords.accuracy / 40075017,
+		    lngAccuracy = latAccuracy / Math.cos(L.LatLng.DEG_TO_RAD * lat),
+
+		    bounds = L.latLngBounds(
+		            [lat - latAccuracy, lng - lngAccuracy],
+		            [lat + latAccuracy, lng + lngAccuracy]),
+
+		    options = this._locateOptions;
+
+		if (options.setView) {
+			var zoom = Math.min(this.getBoundsZoom(bounds), options.maxZoom);
+			this.setView(latlng, zoom);
+		}
+
+		var data = {
+			latlng: latlng,
+			bounds: bounds,
+			timestamp: pos.timestamp
+		};
+
+		for (var i in pos.coords) {
+			if (typeof pos.coords[i] === 'number') {
+				data[i] = pos.coords[i];
+			}
+		}
+
+		this.fire('locationfound', data);
+	}
+});
+
+
+}(window, document));
+},{}],83:[function(require,module,exports){
 var getNative = require('./_getNative'),
     root = require('./_root');
 
@@ -15773,7 +25988,7 @@ var DataView = getNative(root, 'DataView');
 
 module.exports = DataView;
 
-},{"./_getNative":132,"./_root":170}],72:[function(require,module,exports){
+},{"./_getNative":184,"./_root":230}],84:[function(require,module,exports){
 var hashClear = require('./_hashClear'),
     hashDelete = require('./_hashDelete'),
     hashGet = require('./_hashGet'),
@@ -15807,7 +26022,7 @@ Hash.prototype.set = hashSet;
 
 module.exports = Hash;
 
-},{"./_hashClear":137,"./_hashDelete":138,"./_hashGet":139,"./_hashHas":140,"./_hashSet":141}],73:[function(require,module,exports){
+},{"./_hashClear":191,"./_hashDelete":192,"./_hashGet":193,"./_hashHas":194,"./_hashSet":195}],85:[function(require,module,exports){
 var baseCreate = require('./_baseCreate'),
     baseLodash = require('./_baseLodash');
 
@@ -15837,7 +26052,7 @@ LazyWrapper.prototype.constructor = LazyWrapper;
 
 module.exports = LazyWrapper;
 
-},{"./_baseCreate":96,"./_baseLodash":104}],74:[function(require,module,exports){
+},{"./_baseCreate":113,"./_baseLodash":131}],86:[function(require,module,exports){
 var listCacheClear = require('./_listCacheClear'),
     listCacheDelete = require('./_listCacheDelete'),
     listCacheGet = require('./_listCacheGet'),
@@ -15871,7 +26086,7 @@ ListCache.prototype.set = listCacheSet;
 
 module.exports = ListCache;
 
-},{"./_listCacheClear":156,"./_listCacheDelete":157,"./_listCacheGet":158,"./_listCacheHas":159,"./_listCacheSet":160}],75:[function(require,module,exports){
+},{"./_listCacheClear":212,"./_listCacheDelete":213,"./_listCacheGet":214,"./_listCacheHas":215,"./_listCacheSet":216}],87:[function(require,module,exports){
 var baseCreate = require('./_baseCreate'),
     baseLodash = require('./_baseLodash');
 
@@ -15895,7 +26110,7 @@ LodashWrapper.prototype.constructor = LodashWrapper;
 
 module.exports = LodashWrapper;
 
-},{"./_baseCreate":96,"./_baseLodash":104}],76:[function(require,module,exports){
+},{"./_baseCreate":113,"./_baseLodash":131}],88:[function(require,module,exports){
 var getNative = require('./_getNative'),
     root = require('./_root');
 
@@ -15904,7 +26119,7 @@ var Map = getNative(root, 'Map');
 
 module.exports = Map;
 
-},{"./_getNative":132,"./_root":170}],77:[function(require,module,exports){
+},{"./_getNative":184,"./_root":230}],89:[function(require,module,exports){
 var mapCacheClear = require('./_mapCacheClear'),
     mapCacheDelete = require('./_mapCacheDelete'),
     mapCacheGet = require('./_mapCacheGet'),
@@ -15938,7 +26153,7 @@ MapCache.prototype.set = mapCacheSet;
 
 module.exports = MapCache;
 
-},{"./_mapCacheClear":161,"./_mapCacheDelete":162,"./_mapCacheGet":163,"./_mapCacheHas":164,"./_mapCacheSet":165}],78:[function(require,module,exports){
+},{"./_mapCacheClear":217,"./_mapCacheDelete":218,"./_mapCacheGet":219,"./_mapCacheHas":220,"./_mapCacheSet":221}],90:[function(require,module,exports){
 var getNative = require('./_getNative'),
     root = require('./_root');
 
@@ -15947,7 +26162,7 @@ var Promise = getNative(root, 'Promise');
 
 module.exports = Promise;
 
-},{"./_getNative":132,"./_root":170}],79:[function(require,module,exports){
+},{"./_getNative":184,"./_root":230}],91:[function(require,module,exports){
 var root = require('./_root');
 
 /** Built-in value references. */
@@ -15955,7 +26170,7 @@ var Reflect = root.Reflect;
 
 module.exports = Reflect;
 
-},{"./_root":170}],80:[function(require,module,exports){
+},{"./_root":230}],92:[function(require,module,exports){
 var getNative = require('./_getNative'),
     root = require('./_root');
 
@@ -15964,7 +26179,36 @@ var Set = getNative(root, 'Set');
 
 module.exports = Set;
 
-},{"./_getNative":132,"./_root":170}],81:[function(require,module,exports){
+},{"./_getNative":184,"./_root":230}],93:[function(require,module,exports){
+var MapCache = require('./_MapCache'),
+    setCacheAdd = require('./_setCacheAdd'),
+    setCacheHas = require('./_setCacheHas');
+
+/**
+ *
+ * Creates an array cache object to store unique values.
+ *
+ * @private
+ * @constructor
+ * @param {Array} [values] The values to cache.
+ */
+function SetCache(values) {
+  var index = -1,
+      length = values ? values.length : 0;
+
+  this.__data__ = new MapCache;
+  while (++index < length) {
+    this.add(values[index]);
+  }
+}
+
+// Add methods to `SetCache`.
+SetCache.prototype.add = SetCache.prototype.push = setCacheAdd;
+SetCache.prototype.has = setCacheHas;
+
+module.exports = SetCache;
+
+},{"./_MapCache":89,"./_setCacheAdd":231,"./_setCacheHas":232}],94:[function(require,module,exports){
 var ListCache = require('./_ListCache'),
     stackClear = require('./_stackClear'),
     stackDelete = require('./_stackDelete'),
@@ -15992,7 +26236,7 @@ Stack.prototype.set = stackSet;
 
 module.exports = Stack;
 
-},{"./_ListCache":74,"./_stackClear":172,"./_stackDelete":173,"./_stackGet":174,"./_stackHas":175,"./_stackSet":176}],82:[function(require,module,exports){
+},{"./_ListCache":86,"./_stackClear":235,"./_stackDelete":236,"./_stackGet":237,"./_stackHas":238,"./_stackSet":239}],95:[function(require,module,exports){
 var root = require('./_root');
 
 /** Built-in value references. */
@@ -16000,7 +26244,7 @@ var Symbol = root.Symbol;
 
 module.exports = Symbol;
 
-},{"./_root":170}],83:[function(require,module,exports){
+},{"./_root":230}],96:[function(require,module,exports){
 var root = require('./_root');
 
 /** Built-in value references. */
@@ -16008,7 +26252,7 @@ var Uint8Array = root.Uint8Array;
 
 module.exports = Uint8Array;
 
-},{"./_root":170}],84:[function(require,module,exports){
+},{"./_root":230}],97:[function(require,module,exports){
 var getNative = require('./_getNative'),
     root = require('./_root');
 
@@ -16017,7 +26261,7 @@ var WeakMap = getNative(root, 'WeakMap');
 
 module.exports = WeakMap;
 
-},{"./_getNative":132,"./_root":170}],85:[function(require,module,exports){
+},{"./_getNative":184,"./_root":230}],98:[function(require,module,exports){
 /**
  * Adds the key-value `pair` to `map`.
  *
@@ -16034,7 +26278,7 @@ function addMapEntry(map, pair) {
 
 module.exports = addMapEntry;
 
-},{}],86:[function(require,module,exports){
+},{}],99:[function(require,module,exports){
 /**
  * Adds `value` to `set`.
  *
@@ -16050,7 +26294,7 @@ function addSetEntry(set, value) {
 
 module.exports = addSetEntry;
 
-},{}],87:[function(require,module,exports){
+},{}],100:[function(require,module,exports){
 /**
  * A faster alternative to `Function#apply`, this function invokes `func`
  * with the `this` binding of `thisArg` and the arguments of `args`.
@@ -16074,7 +26318,7 @@ function apply(func, thisArg, args) {
 
 module.exports = apply;
 
-},{}],88:[function(require,module,exports){
+},{}],101:[function(require,module,exports){
 /**
  * A specialized version of `_.forEach` for arrays without support for
  * iteratee shorthands.
@@ -16098,7 +26342,73 @@ function arrayEach(array, iteratee) {
 
 module.exports = arrayEach;
 
-},{}],89:[function(require,module,exports){
+},{}],102:[function(require,module,exports){
+var baseIndexOf = require('./_baseIndexOf');
+
+/**
+ * A specialized version of `_.includes` for arrays without support for
+ * specifying an index to search from.
+ *
+ * @private
+ * @param {Array} [array] The array to search.
+ * @param {*} target The value to search for.
+ * @returns {boolean} Returns `true` if `target` is found, else `false`.
+ */
+function arrayIncludes(array, value) {
+  var length = array ? array.length : 0;
+  return !!length && baseIndexOf(array, value, 0) > -1;
+}
+
+module.exports = arrayIncludes;
+
+},{"./_baseIndexOf":123}],103:[function(require,module,exports){
+/**
+ * This function is like `arrayIncludes` except that it accepts a comparator.
+ *
+ * @private
+ * @param {Array} [array] The array to search.
+ * @param {*} target The value to search for.
+ * @param {Function} comparator The comparator invoked per element.
+ * @returns {boolean} Returns `true` if `target` is found, else `false`.
+ */
+function arrayIncludesWith(array, value, comparator) {
+  var index = -1,
+      length = array ? array.length : 0;
+
+  while (++index < length) {
+    if (comparator(value, array[index])) {
+      return true;
+    }
+  }
+  return false;
+}
+
+module.exports = arrayIncludesWith;
+
+},{}],104:[function(require,module,exports){
+/**
+ * A specialized version of `_.map` for arrays without support for iteratee
+ * shorthands.
+ *
+ * @private
+ * @param {Array} [array] The array to iterate over.
+ * @param {Function} iteratee The function invoked per iteration.
+ * @returns {Array} Returns the new mapped array.
+ */
+function arrayMap(array, iteratee) {
+  var index = -1,
+      length = array ? array.length : 0,
+      result = Array(length);
+
+  while (++index < length) {
+    result[index] = iteratee(array[index], index, array);
+  }
+  return result;
+}
+
+module.exports = arrayMap;
+
+},{}],105:[function(require,module,exports){
 /**
  * Appends the elements of `values` to `array`.
  *
@@ -16120,7 +26430,7 @@ function arrayPush(array, values) {
 
 module.exports = arrayPush;
 
-},{}],90:[function(require,module,exports){
+},{}],106:[function(require,module,exports){
 /**
  * A specialized version of `_.reduce` for arrays without support for
  * iteratee shorthands.
@@ -16148,7 +26458,32 @@ function arrayReduce(array, iteratee, accumulator, initAccum) {
 
 module.exports = arrayReduce;
 
-},{}],91:[function(require,module,exports){
+},{}],107:[function(require,module,exports){
+/**
+ * A specialized version of `_.some` for arrays without support for iteratee
+ * shorthands.
+ *
+ * @private
+ * @param {Array} [array] The array to iterate over.
+ * @param {Function} predicate The function invoked per iteration.
+ * @returns {boolean} Returns `true` if any element passes the predicate check,
+ *  else `false`.
+ */
+function arraySome(array, predicate) {
+  var index = -1,
+      length = array ? array.length : 0;
+
+  while (++index < length) {
+    if (predicate(array[index], index, array)) {
+      return true;
+    }
+  }
+  return false;
+}
+
+module.exports = arraySome;
+
+},{}],108:[function(require,module,exports){
 var eq = require('./eq');
 
 /**
@@ -16169,7 +26504,7 @@ function assignMergeValue(object, key, value) {
 
 module.exports = assignMergeValue;
 
-},{"./eq":182}],92:[function(require,module,exports){
+},{"./eq":246}],109:[function(require,module,exports){
 var eq = require('./eq');
 
 /** Used for built-in method references. */
@@ -16198,7 +26533,7 @@ function assignValue(object, key, value) {
 
 module.exports = assignValue;
 
-},{"./eq":182}],93:[function(require,module,exports){
+},{"./eq":246}],110:[function(require,module,exports){
 var eq = require('./eq');
 
 /**
@@ -16221,7 +26556,7 @@ function assocIndexOf(array, key) {
 
 module.exports = assocIndexOf;
 
-},{"./eq":182}],94:[function(require,module,exports){
+},{"./eq":246}],111:[function(require,module,exports){
 var copyObject = require('./_copyObject'),
     keys = require('./keys');
 
@@ -16240,7 +26575,7 @@ function baseAssign(object, source) {
 
 module.exports = baseAssign;
 
-},{"./_copyObject":122,"./keys":198}],95:[function(require,module,exports){
+},{"./_copyObject":158,"./keys":268}],112:[function(require,module,exports){
 var Stack = require('./_Stack'),
     arrayEach = require('./_arrayEach'),
     assignValue = require('./_assignValue'),
@@ -16381,7 +26716,7 @@ function baseClone(value, isDeep, isFull, customizer, key, object, stack) {
 
 module.exports = baseClone;
 
-},{"./_Stack":81,"./_arrayEach":88,"./_assignValue":92,"./_baseAssign":94,"./_cloneBuffer":114,"./_copyArray":121,"./_copySymbols":123,"./_getAllKeys":127,"./_getTag":135,"./_initCloneArray":143,"./_initCloneByTag":144,"./_initCloneObject":145,"./_isHostObject":147,"./isArray":186,"./isBuffer":189,"./isObject":192,"./keys":198}],96:[function(require,module,exports){
+},{"./_Stack":94,"./_arrayEach":101,"./_assignValue":109,"./_baseAssign":111,"./_cloneBuffer":148,"./_copyArray":157,"./_copySymbols":159,"./_getAllKeys":176,"./_getTag":188,"./_initCloneArray":198,"./_initCloneByTag":199,"./_initCloneObject":200,"./_isHostObject":202,"./isArray":254,"./isBuffer":257,"./isObject":261,"./keys":268}],113:[function(require,module,exports){
 var isObject = require('./isObject');
 
 /** Built-in value references. */
@@ -16401,7 +26736,92 @@ function baseCreate(proto) {
 
 module.exports = baseCreate;
 
-},{"./isObject":192}],97:[function(require,module,exports){
+},{"./isObject":261}],114:[function(require,module,exports){
+var SetCache = require('./_SetCache'),
+    arrayIncludes = require('./_arrayIncludes'),
+    arrayIncludesWith = require('./_arrayIncludesWith'),
+    arrayMap = require('./_arrayMap'),
+    baseUnary = require('./_baseUnary'),
+    cacheHas = require('./_cacheHas');
+
+/** Used as the size to enable large array optimizations. */
+var LARGE_ARRAY_SIZE = 200;
+
+/**
+ * The base implementation of methods like `_.difference` without support
+ * for excluding multiple arrays or iteratee shorthands.
+ *
+ * @private
+ * @param {Array} array The array to inspect.
+ * @param {Array} values The values to exclude.
+ * @param {Function} [iteratee] The iteratee invoked per element.
+ * @param {Function} [comparator] The comparator invoked per element.
+ * @returns {Array} Returns the new array of filtered values.
+ */
+function baseDifference(array, values, iteratee, comparator) {
+  var index = -1,
+      includes = arrayIncludes,
+      isCommon = true,
+      length = array.length,
+      result = [],
+      valuesLength = values.length;
+
+  if (!length) {
+    return result;
+  }
+  if (iteratee) {
+    values = arrayMap(values, baseUnary(iteratee));
+  }
+  if (comparator) {
+    includes = arrayIncludesWith;
+    isCommon = false;
+  }
+  else if (values.length >= LARGE_ARRAY_SIZE) {
+    includes = cacheHas;
+    isCommon = false;
+    values = new SetCache(values);
+  }
+  outer:
+  while (++index < length) {
+    var value = array[index],
+        computed = iteratee ? iteratee(value) : value;
+
+    value = (comparator || value !== 0) ? value : 0;
+    if (isCommon && computed === computed) {
+      var valuesIndex = valuesLength;
+      while (valuesIndex--) {
+        if (values[valuesIndex] === computed) {
+          continue outer;
+        }
+      }
+      result.push(value);
+    }
+    else if (!includes(values, computed, comparator)) {
+      result.push(value);
+    }
+  }
+  return result;
+}
+
+module.exports = baseDifference;
+
+},{"./_SetCache":93,"./_arrayIncludes":102,"./_arrayIncludesWith":103,"./_arrayMap":104,"./_baseUnary":143,"./_cacheHas":144}],115:[function(require,module,exports){
+var baseForOwn = require('./_baseForOwn'),
+    createBaseEach = require('./_createBaseEach');
+
+/**
+ * The base implementation of `_.forEach` without support for iteratee shorthands.
+ *
+ * @private
+ * @param {Array|Object} collection The collection to iterate over.
+ * @param {Function} iteratee The function invoked per iteration.
+ * @returns {Array|Object} Returns `collection`.
+ */
+var baseEach = createBaseEach(baseForOwn);
+
+module.exports = baseEach;
+
+},{"./_baseForOwn":118,"./_createBaseEach":163}],116:[function(require,module,exports){
 var arrayPush = require('./_arrayPush'),
     isFlattenable = require('./_isFlattenable');
 
@@ -16441,7 +26861,43 @@ function baseFlatten(array, depth, predicate, isStrict, result) {
 
 module.exports = baseFlatten;
 
-},{"./_arrayPush":89,"./_isFlattenable":146}],98:[function(require,module,exports){
+},{"./_arrayPush":105,"./_isFlattenable":201}],117:[function(require,module,exports){
+var createBaseFor = require('./_createBaseFor');
+
+/**
+ * The base implementation of `baseForOwn` which iterates over `object`
+ * properties returned by `keysFunc` and invokes `iteratee` for each property.
+ * Iteratee functions may exit iteration early by explicitly returning `false`.
+ *
+ * @private
+ * @param {Object} object The object to iterate over.
+ * @param {Function} iteratee The function invoked per iteration.
+ * @param {Function} keysFunc The function to get the keys of `object`.
+ * @returns {Object} Returns `object`.
+ */
+var baseFor = createBaseFor();
+
+module.exports = baseFor;
+
+},{"./_createBaseFor":164}],118:[function(require,module,exports){
+var baseFor = require('./_baseFor'),
+    keys = require('./keys');
+
+/**
+ * The base implementation of `_.forOwn` without support for iteratee shorthands.
+ *
+ * @private
+ * @param {Object} object The object to iterate over.
+ * @param {Function} iteratee The function invoked per iteration.
+ * @returns {Object} Returns `object`.
+ */
+function baseForOwn(object, iteratee) {
+  return object && baseFor(object, iteratee, keys);
+}
+
+module.exports = baseForOwn;
+
+},{"./_baseFor":117,"./keys":268}],119:[function(require,module,exports){
 var castPath = require('./_castPath'),
     isKey = require('./_isKey'),
     toKey = require('./_toKey');
@@ -16468,7 +26924,7 @@ function baseGet(object, path) {
 
 module.exports = baseGet;
 
-},{"./_castPath":111,"./_isKey":150,"./_toKey":178}],99:[function(require,module,exports){
+},{"./_castPath":145,"./_isKey":205,"./_toKey":241}],120:[function(require,module,exports){
 var arrayPush = require('./_arrayPush'),
     isArray = require('./isArray');
 
@@ -16490,7 +26946,7 @@ function baseGetAllKeys(object, keysFunc, symbolsFunc) {
 
 module.exports = baseGetAllKeys;
 
-},{"./_arrayPush":89,"./isArray":186}],100:[function(require,module,exports){
+},{"./_arrayPush":105,"./isArray":254}],121:[function(require,module,exports){
 var getPrototype = require('./_getPrototype');
 
 /** Used for built-in method references. */
@@ -16518,7 +26974,231 @@ function baseHas(object, key) {
 
 module.exports = baseHas;
 
-},{"./_getPrototype":133}],101:[function(require,module,exports){
+},{"./_getPrototype":185}],122:[function(require,module,exports){
+/**
+ * The base implementation of `_.hasIn` without support for deep paths.
+ *
+ * @private
+ * @param {Object} [object] The object to query.
+ * @param {Array|string} key The key to check.
+ * @returns {boolean} Returns `true` if `key` exists, else `false`.
+ */
+function baseHasIn(object, key) {
+  return object != null && key in Object(object);
+}
+
+module.exports = baseHasIn;
+
+},{}],123:[function(require,module,exports){
+var indexOfNaN = require('./_indexOfNaN');
+
+/**
+ * The base implementation of `_.indexOf` without `fromIndex` bounds checks.
+ *
+ * @private
+ * @param {Array} array The array to search.
+ * @param {*} value The value to search for.
+ * @param {number} fromIndex The index to search from.
+ * @returns {number} Returns the index of the matched value, else `-1`.
+ */
+function baseIndexOf(array, value, fromIndex) {
+  if (value !== value) {
+    return indexOfNaN(array, fromIndex);
+  }
+  var index = fromIndex - 1,
+      length = array.length;
+
+  while (++index < length) {
+    if (array[index] === value) {
+      return index;
+    }
+  }
+  return -1;
+}
+
+module.exports = baseIndexOf;
+
+},{"./_indexOfNaN":197}],124:[function(require,module,exports){
+var baseIsEqualDeep = require('./_baseIsEqualDeep'),
+    isObject = require('./isObject'),
+    isObjectLike = require('./isObjectLike');
+
+/**
+ * The base implementation of `_.isEqual` which supports partial comparisons
+ * and tracks traversed objects.
+ *
+ * @private
+ * @param {*} value The value to compare.
+ * @param {*} other The other value to compare.
+ * @param {Function} [customizer] The function to customize comparisons.
+ * @param {boolean} [bitmask] The bitmask of comparison flags.
+ *  The bitmask may be composed of the following flags:
+ *     1 - Unordered comparison
+ *     2 - Partial comparison
+ * @param {Object} [stack] Tracks traversed `value` and `other` objects.
+ * @returns {boolean} Returns `true` if the values are equivalent, else `false`.
+ */
+function baseIsEqual(value, other, customizer, bitmask, stack) {
+  if (value === other) {
+    return true;
+  }
+  if (value == null || other == null || (!isObject(value) && !isObjectLike(other))) {
+    return value !== value && other !== other;
+  }
+  return baseIsEqualDeep(value, other, baseIsEqual, customizer, bitmask, stack);
+}
+
+module.exports = baseIsEqual;
+
+},{"./_baseIsEqualDeep":125,"./isObject":261,"./isObjectLike":262}],125:[function(require,module,exports){
+var Stack = require('./_Stack'),
+    equalArrays = require('./_equalArrays'),
+    equalByTag = require('./_equalByTag'),
+    equalObjects = require('./_equalObjects'),
+    getTag = require('./_getTag'),
+    isArray = require('./isArray'),
+    isHostObject = require('./_isHostObject'),
+    isTypedArray = require('./isTypedArray');
+
+/** Used to compose bitmasks for comparison styles. */
+var PARTIAL_COMPARE_FLAG = 2;
+
+/** `Object#toString` result references. */
+var argsTag = '[object Arguments]',
+    arrayTag = '[object Array]',
+    objectTag = '[object Object]';
+
+/** Used for built-in method references. */
+var objectProto = Object.prototype;
+
+/** Used to check objects for own properties. */
+var hasOwnProperty = objectProto.hasOwnProperty;
+
+/**
+ * A specialized version of `baseIsEqual` for arrays and objects which performs
+ * deep comparisons and tracks traversed objects enabling objects with circular
+ * references to be compared.
+ *
+ * @private
+ * @param {Object} object The object to compare.
+ * @param {Object} other The other object to compare.
+ * @param {Function} equalFunc The function to determine equivalents of values.
+ * @param {Function} [customizer] The function to customize comparisons.
+ * @param {number} [bitmask] The bitmask of comparison flags. See `baseIsEqual`
+ *  for more details.
+ * @param {Object} [stack] Tracks traversed `object` and `other` objects.
+ * @returns {boolean} Returns `true` if the objects are equivalent, else `false`.
+ */
+function baseIsEqualDeep(object, other, equalFunc, customizer, bitmask, stack) {
+  var objIsArr = isArray(object),
+      othIsArr = isArray(other),
+      objTag = arrayTag,
+      othTag = arrayTag;
+
+  if (!objIsArr) {
+    objTag = getTag(object);
+    objTag = objTag == argsTag ? objectTag : objTag;
+  }
+  if (!othIsArr) {
+    othTag = getTag(other);
+    othTag = othTag == argsTag ? objectTag : othTag;
+  }
+  var objIsObj = objTag == objectTag && !isHostObject(object),
+      othIsObj = othTag == objectTag && !isHostObject(other),
+      isSameTag = objTag == othTag;
+
+  if (isSameTag && !objIsObj) {
+    stack || (stack = new Stack);
+    return (objIsArr || isTypedArray(object))
+      ? equalArrays(object, other, equalFunc, customizer, bitmask, stack)
+      : equalByTag(object, other, objTag, equalFunc, customizer, bitmask, stack);
+  }
+  if (!(bitmask & PARTIAL_COMPARE_FLAG)) {
+    var objIsWrapped = objIsObj && hasOwnProperty.call(object, '__wrapped__'),
+        othIsWrapped = othIsObj && hasOwnProperty.call(other, '__wrapped__');
+
+    if (objIsWrapped || othIsWrapped) {
+      var objUnwrapped = objIsWrapped ? object.value() : object,
+          othUnwrapped = othIsWrapped ? other.value() : other;
+
+      stack || (stack = new Stack);
+      return equalFunc(objUnwrapped, othUnwrapped, customizer, bitmask, stack);
+    }
+  }
+  if (!isSameTag) {
+    return false;
+  }
+  stack || (stack = new Stack);
+  return equalObjects(object, other, equalFunc, customizer, bitmask, stack);
+}
+
+module.exports = baseIsEqualDeep;
+
+},{"./_Stack":94,"./_equalArrays":173,"./_equalByTag":174,"./_equalObjects":175,"./_getTag":188,"./_isHostObject":202,"./isArray":254,"./isTypedArray":266}],126:[function(require,module,exports){
+var Stack = require('./_Stack'),
+    baseIsEqual = require('./_baseIsEqual');
+
+/** Used to compose bitmasks for comparison styles. */
+var UNORDERED_COMPARE_FLAG = 1,
+    PARTIAL_COMPARE_FLAG = 2;
+
+/**
+ * The base implementation of `_.isMatch` without support for iteratee shorthands.
+ *
+ * @private
+ * @param {Object} object The object to inspect.
+ * @param {Object} source The object of property values to match.
+ * @param {Array} matchData The property names, values, and compare flags to match.
+ * @param {Function} [customizer] The function to customize comparisons.
+ * @returns {boolean} Returns `true` if `object` is a match, else `false`.
+ */
+function baseIsMatch(object, source, matchData, customizer) {
+  var index = matchData.length,
+      length = index,
+      noCustomizer = !customizer;
+
+  if (object == null) {
+    return !length;
+  }
+  object = Object(object);
+  while (index--) {
+    var data = matchData[index];
+    if ((noCustomizer && data[2])
+          ? data[1] !== object[data[0]]
+          : !(data[0] in object)
+        ) {
+      return false;
+    }
+  }
+  while (++index < length) {
+    data = matchData[index];
+    var key = data[0],
+        objValue = object[key],
+        srcValue = data[1];
+
+    if (noCustomizer && data[2]) {
+      if (objValue === undefined && !(key in object)) {
+        return false;
+      }
+    } else {
+      var stack = new Stack;
+      if (customizer) {
+        var result = customizer(objValue, srcValue, key, object, source, stack);
+      }
+      if (!(result === undefined
+            ? baseIsEqual(srcValue, objValue, customizer, UNORDERED_COMPARE_FLAG | PARTIAL_COMPARE_FLAG, stack)
+            : result
+          )) {
+        return false;
+      }
+    }
+  }
+  return true;
+}
+
+module.exports = baseIsMatch;
+
+},{"./_Stack":94,"./_baseIsEqual":124}],127:[function(require,module,exports){
 var isFunction = require('./isFunction'),
     isHostObject = require('./_isHostObject'),
     isMasked = require('./_isMasked'),
@@ -16567,7 +27247,40 @@ function baseIsNative(value) {
 
 module.exports = baseIsNative;
 
-},{"./_isHostObject":147,"./_isMasked":153,"./_toSource":179,"./isFunction":190,"./isObject":192}],102:[function(require,module,exports){
+},{"./_isHostObject":202,"./_isMasked":208,"./_toSource":242,"./isFunction":259,"./isObject":261}],128:[function(require,module,exports){
+var baseMatches = require('./_baseMatches'),
+    baseMatchesProperty = require('./_baseMatchesProperty'),
+    identity = require('./identity'),
+    isArray = require('./isArray'),
+    property = require('./property');
+
+/**
+ * The base implementation of `_.iteratee`.
+ *
+ * @private
+ * @param {*} [value=_.identity] The value to convert to an iteratee.
+ * @returns {Function} Returns the iteratee.
+ */
+function baseIteratee(value) {
+  // Don't store the `typeof` result in a variable to avoid a JIT bug in Safari 9.
+  // See https://bugs.webkit.org/show_bug.cgi?id=156034 for more details.
+  if (typeof value == 'function') {
+    return value;
+  }
+  if (value == null) {
+    return identity;
+  }
+  if (typeof value == 'object') {
+    return isArray(value)
+      ? baseMatchesProperty(value[0], value[1])
+      : baseMatches(value);
+  }
+  return property(value);
+}
+
+module.exports = baseIteratee;
+
+},{"./_baseMatches":132,"./_baseMatchesProperty":133,"./identity":252,"./isArray":254,"./property":277}],129:[function(require,module,exports){
 /* Built-in method references for those with the same name as other `lodash` methods. */
 var nativeKeys = Object.keys;
 
@@ -16585,7 +27298,7 @@ function baseKeys(object) {
 
 module.exports = baseKeys;
 
-},{}],103:[function(require,module,exports){
+},{}],130:[function(require,module,exports){
 var Reflect = require('./_Reflect'),
     iteratorToArray = require('./_iteratorToArray');
 
@@ -16623,7 +27336,7 @@ if (enumerate && !propertyIsEnumerable.call({ 'valueOf': 1 }, 'valueOf')) {
 
 module.exports = baseKeysIn;
 
-},{"./_Reflect":79,"./_iteratorToArray":155}],104:[function(require,module,exports){
+},{"./_Reflect":91,"./_iteratorToArray":211}],131:[function(require,module,exports){
 /**
  * The function whose prototype chain sequence wrappers inherit from.
  *
@@ -16635,7 +27348,66 @@ function baseLodash() {
 
 module.exports = baseLodash;
 
-},{}],105:[function(require,module,exports){
+},{}],132:[function(require,module,exports){
+var baseIsMatch = require('./_baseIsMatch'),
+    getMatchData = require('./_getMatchData'),
+    matchesStrictComparable = require('./_matchesStrictComparable');
+
+/**
+ * The base implementation of `_.matches` which doesn't clone `source`.
+ *
+ * @private
+ * @param {Object} source The object of property values to match.
+ * @returns {Function} Returns the new spec function.
+ */
+function baseMatches(source) {
+  var matchData = getMatchData(source);
+  if (matchData.length == 1 && matchData[0][2]) {
+    return matchesStrictComparable(matchData[0][0], matchData[0][1]);
+  }
+  return function(object) {
+    return object === source || baseIsMatch(object, source, matchData);
+  };
+}
+
+module.exports = baseMatches;
+
+},{"./_baseIsMatch":126,"./_getMatchData":183,"./_matchesStrictComparable":223}],133:[function(require,module,exports){
+var baseIsEqual = require('./_baseIsEqual'),
+    get = require('./get'),
+    hasIn = require('./hasIn'),
+    isKey = require('./_isKey'),
+    isStrictComparable = require('./_isStrictComparable'),
+    matchesStrictComparable = require('./_matchesStrictComparable'),
+    toKey = require('./_toKey');
+
+/** Used to compose bitmasks for comparison styles. */
+var UNORDERED_COMPARE_FLAG = 1,
+    PARTIAL_COMPARE_FLAG = 2;
+
+/**
+ * The base implementation of `_.matchesProperty` which doesn't clone `srcValue`.
+ *
+ * @private
+ * @param {string} path The path of the property to get.
+ * @param {*} srcValue The value to match.
+ * @returns {Function} Returns the new spec function.
+ */
+function baseMatchesProperty(path, srcValue) {
+  if (isKey(path) && isStrictComparable(srcValue)) {
+    return matchesStrictComparable(toKey(path), srcValue);
+  }
+  return function(object) {
+    var objValue = get(object, path);
+    return (objValue === undefined && objValue === srcValue)
+      ? hasIn(object, path)
+      : baseIsEqual(srcValue, objValue, undefined, UNORDERED_COMPARE_FLAG | PARTIAL_COMPARE_FLAG);
+  };
+}
+
+module.exports = baseMatchesProperty;
+
+},{"./_baseIsEqual":124,"./_isKey":205,"./_isStrictComparable":210,"./_matchesStrictComparable":223,"./_toKey":241,"./get":250,"./hasIn":251}],134:[function(require,module,exports){
 var Stack = require('./_Stack'),
     arrayEach = require('./_arrayEach'),
     assignMergeValue = require('./_assignMergeValue'),
@@ -16687,7 +27459,7 @@ function baseMerge(object, source, srcIndex, customizer, stack) {
 
 module.exports = baseMerge;
 
-},{"./_Stack":81,"./_arrayEach":88,"./_assignMergeValue":91,"./_baseMergeDeep":106,"./isArray":186,"./isObject":192,"./isTypedArray":197,"./keysIn":199}],106:[function(require,module,exports){
+},{"./_Stack":94,"./_arrayEach":101,"./_assignMergeValue":108,"./_baseMergeDeep":135,"./isArray":254,"./isObject":261,"./isTypedArray":266,"./keysIn":269}],135:[function(require,module,exports){
 var assignMergeValue = require('./_assignMergeValue'),
     baseClone = require('./_baseClone'),
     copyArray = require('./_copyArray'),
@@ -16772,7 +27544,31 @@ function baseMergeDeep(object, source, key, srcIndex, mergeFunc, customizer, sta
 
 module.exports = baseMergeDeep;
 
-},{"./_assignMergeValue":91,"./_baseClone":95,"./_copyArray":121,"./isArguments":185,"./isArray":186,"./isArrayLikeObject":188,"./isFunction":190,"./isObject":192,"./isPlainObject":194,"./isTypedArray":197,"./toPlainObject":212}],107:[function(require,module,exports){
+},{"./_assignMergeValue":108,"./_baseClone":112,"./_copyArray":157,"./isArguments":253,"./isArray":254,"./isArrayLikeObject":256,"./isFunction":259,"./isObject":261,"./isPlainObject":263,"./isTypedArray":266,"./toPlainObject":286}],136:[function(require,module,exports){
+var arrayReduce = require('./_arrayReduce');
+
+/**
+ * The base implementation of `_.pick` without support for individual
+ * property identifiers.
+ *
+ * @private
+ * @param {Object} object The source object.
+ * @param {string[]} props The property identifiers to pick.
+ * @returns {Object} Returns the new object.
+ */
+function basePick(object, props) {
+  object = Object(object);
+  return arrayReduce(props, function(result, key) {
+    if (key in object) {
+      result[key] = object[key];
+    }
+    return result;
+  }, {});
+}
+
+module.exports = basePick;
+
+},{"./_arrayReduce":106}],137:[function(require,module,exports){
 /**
  * The base implementation of `_.property` without support for deep paths.
  *
@@ -16788,7 +27584,7 @@ function baseProperty(key) {
 
 module.exports = baseProperty;
 
-},{}],108:[function(require,module,exports){
+},{}],138:[function(require,module,exports){
 var baseGet = require('./_baseGet');
 
 /**
@@ -16806,7 +27602,51 @@ function basePropertyDeep(path) {
 
 module.exports = basePropertyDeep;
 
-},{"./_baseGet":98}],109:[function(require,module,exports){
+},{"./_baseGet":119}],139:[function(require,module,exports){
+/**
+ * The base implementation of `_.reduce` and `_.reduceRight`, without support
+ * for iteratee shorthands, which iterates over `collection` using `eachFunc`.
+ *
+ * @private
+ * @param {Array|Object} collection The collection to iterate over.
+ * @param {Function} iteratee The function invoked per iteration.
+ * @param {*} accumulator The initial value.
+ * @param {boolean} initAccum Specify using the first or last element of
+ *  `collection` as the initial value.
+ * @param {Function} eachFunc The function to iterate over `collection`.
+ * @returns {*} Returns the accumulated value.
+ */
+function baseReduce(collection, iteratee, accumulator, initAccum, eachFunc) {
+  eachFunc(collection, function(value, index, collection) {
+    accumulator = initAccum
+      ? (initAccum = false, value)
+      : iteratee(accumulator, value, index, collection);
+  });
+  return accumulator;
+}
+
+module.exports = baseReduce;
+
+},{}],140:[function(require,module,exports){
+var identity = require('./identity'),
+    metaMap = require('./_metaMap');
+
+/**
+ * The base implementation of `setData` without support for hot loop detection.
+ *
+ * @private
+ * @param {Function} func The function to associate metadata with.
+ * @param {*} data The metadata.
+ * @returns {Function} Returns `func`.
+ */
+var baseSetData = !metaMap ? identity : function(func, data) {
+  metaMap.set(func, data);
+  return func;
+};
+
+module.exports = baseSetData;
+
+},{"./_metaMap":225,"./identity":252}],141:[function(require,module,exports){
 /**
  * The base implementation of `_.times` without support for iteratee shorthands
  * or max array length checks.
@@ -16828,7 +27668,7 @@ function baseTimes(n, iteratee) {
 
 module.exports = baseTimes;
 
-},{}],110:[function(require,module,exports){
+},{}],142:[function(require,module,exports){
 var Symbol = require('./_Symbol'),
     isSymbol = require('./isSymbol');
 
@@ -16861,7 +27701,38 @@ function baseToString(value) {
 
 module.exports = baseToString;
 
-},{"./_Symbol":82,"./isSymbol":196}],111:[function(require,module,exports){
+},{"./_Symbol":95,"./isSymbol":265}],143:[function(require,module,exports){
+/**
+ * The base implementation of `_.unary` without support for storing wrapper metadata.
+ *
+ * @private
+ * @param {Function} func The function to cap arguments for.
+ * @returns {Function} Returns the new capped function.
+ */
+function baseUnary(func) {
+  return function(value) {
+    return func(value);
+  };
+}
+
+module.exports = baseUnary;
+
+},{}],144:[function(require,module,exports){
+/**
+ * Checks if a cache value for `key` exists.
+ *
+ * @private
+ * @param {Object} cache The cache to query.
+ * @param {string} key The key of the entry to check.
+ * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+ */
+function cacheHas(cache, key) {
+  return cache.has(key);
+}
+
+module.exports = cacheHas;
+
+},{}],145:[function(require,module,exports){
 var isArray = require('./isArray'),
     stringToPath = require('./_stringToPath');
 
@@ -16878,7 +27749,7 @@ function castPath(value) {
 
 module.exports = castPath;
 
-},{"./_stringToPath":177,"./isArray":186}],112:[function(require,module,exports){
+},{"./_stringToPath":240,"./isArray":254}],146:[function(require,module,exports){
 /**
  * Checks if `value` is a global object.
  *
@@ -16892,7 +27763,7 @@ function checkGlobal(value) {
 
 module.exports = checkGlobal;
 
-},{}],113:[function(require,module,exports){
+},{}],147:[function(require,module,exports){
 var Uint8Array = require('./_Uint8Array');
 
 /**
@@ -16910,7 +27781,7 @@ function cloneArrayBuffer(arrayBuffer) {
 
 module.exports = cloneArrayBuffer;
 
-},{"./_Uint8Array":83}],114:[function(require,module,exports){
+},{"./_Uint8Array":96}],148:[function(require,module,exports){
 /**
  * Creates a clone of  `buffer`.
  *
@@ -16930,7 +27801,7 @@ function cloneBuffer(buffer, isDeep) {
 
 module.exports = cloneBuffer;
 
-},{}],115:[function(require,module,exports){
+},{}],149:[function(require,module,exports){
 var cloneArrayBuffer = require('./_cloneArrayBuffer');
 
 /**
@@ -16948,7 +27819,7 @@ function cloneDataView(dataView, isDeep) {
 
 module.exports = cloneDataView;
 
-},{"./_cloneArrayBuffer":113}],116:[function(require,module,exports){
+},{"./_cloneArrayBuffer":147}],150:[function(require,module,exports){
 var addMapEntry = require('./_addMapEntry'),
     arrayReduce = require('./_arrayReduce'),
     mapToArray = require('./_mapToArray');
@@ -16969,7 +27840,7 @@ function cloneMap(map, isDeep, cloneFunc) {
 
 module.exports = cloneMap;
 
-},{"./_addMapEntry":85,"./_arrayReduce":90,"./_mapToArray":166}],117:[function(require,module,exports){
+},{"./_addMapEntry":98,"./_arrayReduce":106,"./_mapToArray":222}],151:[function(require,module,exports){
 /** Used to match `RegExp` flags from their coerced string values. */
 var reFlags = /\w*$/;
 
@@ -16988,7 +27859,7 @@ function cloneRegExp(regexp) {
 
 module.exports = cloneRegExp;
 
-},{}],118:[function(require,module,exports){
+},{}],152:[function(require,module,exports){
 var addSetEntry = require('./_addSetEntry'),
     arrayReduce = require('./_arrayReduce'),
     setToArray = require('./_setToArray');
@@ -17009,7 +27880,7 @@ function cloneSet(set, isDeep, cloneFunc) {
 
 module.exports = cloneSet;
 
-},{"./_addSetEntry":86,"./_arrayReduce":90,"./_setToArray":171}],119:[function(require,module,exports){
+},{"./_addSetEntry":99,"./_arrayReduce":106,"./_setToArray":234}],153:[function(require,module,exports){
 var Symbol = require('./_Symbol');
 
 /** Used to convert symbols to primitives and strings. */
@@ -17029,7 +27900,7 @@ function cloneSymbol(symbol) {
 
 module.exports = cloneSymbol;
 
-},{"./_Symbol":82}],120:[function(require,module,exports){
+},{"./_Symbol":95}],154:[function(require,module,exports){
 var cloneArrayBuffer = require('./_cloneArrayBuffer');
 
 /**
@@ -17047,7 +27918,91 @@ function cloneTypedArray(typedArray, isDeep) {
 
 module.exports = cloneTypedArray;
 
-},{"./_cloneArrayBuffer":113}],121:[function(require,module,exports){
+},{"./_cloneArrayBuffer":147}],155:[function(require,module,exports){
+/* Built-in method references for those with the same name as other `lodash` methods. */
+var nativeMax = Math.max;
+
+/**
+ * Creates an array that is the composition of partially applied arguments,
+ * placeholders, and provided arguments into a single array of arguments.
+ *
+ * @private
+ * @param {Array} args The provided arguments.
+ * @param {Array} partials The arguments to prepend to those provided.
+ * @param {Array} holders The `partials` placeholder indexes.
+ * @params {boolean} [isCurried] Specify composing for a curried function.
+ * @returns {Array} Returns the new array of composed arguments.
+ */
+function composeArgs(args, partials, holders, isCurried) {
+  var argsIndex = -1,
+      argsLength = args.length,
+      holdersLength = holders.length,
+      leftIndex = -1,
+      leftLength = partials.length,
+      rangeLength = nativeMax(argsLength - holdersLength, 0),
+      result = Array(leftLength + rangeLength),
+      isUncurried = !isCurried;
+
+  while (++leftIndex < leftLength) {
+    result[leftIndex] = partials[leftIndex];
+  }
+  while (++argsIndex < holdersLength) {
+    if (isUncurried || argsIndex < argsLength) {
+      result[holders[argsIndex]] = args[argsIndex];
+    }
+  }
+  while (rangeLength--) {
+    result[leftIndex++] = args[argsIndex++];
+  }
+  return result;
+}
+
+module.exports = composeArgs;
+
+},{}],156:[function(require,module,exports){
+/* Built-in method references for those with the same name as other `lodash` methods. */
+var nativeMax = Math.max;
+
+/**
+ * This function is like `composeArgs` except that the arguments composition
+ * is tailored for `_.partialRight`.
+ *
+ * @private
+ * @param {Array} args The provided arguments.
+ * @param {Array} partials The arguments to append to those provided.
+ * @param {Array} holders The `partials` placeholder indexes.
+ * @params {boolean} [isCurried] Specify composing for a curried function.
+ * @returns {Array} Returns the new array of composed arguments.
+ */
+function composeArgsRight(args, partials, holders, isCurried) {
+  var argsIndex = -1,
+      argsLength = args.length,
+      holdersIndex = -1,
+      holdersLength = holders.length,
+      rightIndex = -1,
+      rightLength = partials.length,
+      rangeLength = nativeMax(argsLength - holdersLength, 0),
+      result = Array(rangeLength + rightLength),
+      isUncurried = !isCurried;
+
+  while (++argsIndex < rangeLength) {
+    result[argsIndex] = args[argsIndex];
+  }
+  var offset = argsIndex;
+  while (++rightIndex < rightLength) {
+    result[offset + rightIndex] = partials[rightIndex];
+  }
+  while (++holdersIndex < holdersLength) {
+    if (isUncurried || argsIndex < argsLength) {
+      result[offset + holders[holdersIndex]] = args[argsIndex++];
+    }
+  }
+  return result;
+}
+
+module.exports = composeArgsRight;
+
+},{}],157:[function(require,module,exports){
 /**
  * Copies the values of `source` to `array`.
  *
@@ -17069,7 +28024,7 @@ function copyArray(source, array) {
 
 module.exports = copyArray;
 
-},{}],122:[function(require,module,exports){
+},{}],158:[function(require,module,exports){
 var assignValue = require('./_assignValue');
 
 /**
@@ -17102,7 +28057,7 @@ function copyObject(source, props, object, customizer) {
 
 module.exports = copyObject;
 
-},{"./_assignValue":92}],123:[function(require,module,exports){
+},{"./_assignValue":109}],159:[function(require,module,exports){
 var copyObject = require('./_copyObject'),
     getSymbols = require('./_getSymbols');
 
@@ -17120,7 +28075,7 @@ function copySymbols(source, object) {
 
 module.exports = copySymbols;
 
-},{"./_copyObject":122,"./_getSymbols":134}],124:[function(require,module,exports){
+},{"./_copyObject":158,"./_getSymbols":186}],160:[function(require,module,exports){
 var root = require('./_root');
 
 /** Used to detect overreaching core-js shims. */
@@ -17128,7 +28083,30 @@ var coreJsData = root['__core-js_shared__'];
 
 module.exports = coreJsData;
 
-},{"./_root":170}],125:[function(require,module,exports){
+},{"./_root":230}],161:[function(require,module,exports){
+/**
+ * Gets the number of `placeholder` occurrences in `array`.
+ *
+ * @private
+ * @param {Array} array The array to inspect.
+ * @param {*} placeholder The placeholder to search for.
+ * @returns {number} Returns the placeholder count.
+ */
+function countHolders(array, placeholder) {
+  var length = array.length,
+      result = 0;
+
+  while (length--) {
+    if (array[length] === placeholder) {
+      result++;
+    }
+  }
+  return result;
+}
+
+module.exports = countHolders;
+
+},{}],162:[function(require,module,exports){
 var isIterateeCall = require('./_isIterateeCall'),
     rest = require('./rest');
 
@@ -17167,7 +28145,187 @@ function createAssigner(assigner) {
 
 module.exports = createAssigner;
 
-},{"./_isIterateeCall":149,"./rest":205}],126:[function(require,module,exports){
+},{"./_isIterateeCall":204,"./rest":279}],163:[function(require,module,exports){
+var isArrayLike = require('./isArrayLike');
+
+/**
+ * Creates a `baseEach` or `baseEachRight` function.
+ *
+ * @private
+ * @param {Function} eachFunc The function to iterate over a collection.
+ * @param {boolean} [fromRight] Specify iterating from right to left.
+ * @returns {Function} Returns the new base function.
+ */
+function createBaseEach(eachFunc, fromRight) {
+  return function(collection, iteratee) {
+    if (collection == null) {
+      return collection;
+    }
+    if (!isArrayLike(collection)) {
+      return eachFunc(collection, iteratee);
+    }
+    var length = collection.length,
+        index = fromRight ? length : -1,
+        iterable = Object(collection);
+
+    while ((fromRight ? index-- : ++index < length)) {
+      if (iteratee(iterable[index], index, iterable) === false) {
+        break;
+      }
+    }
+    return collection;
+  };
+}
+
+module.exports = createBaseEach;
+
+},{"./isArrayLike":255}],164:[function(require,module,exports){
+/**
+ * Creates a base function for methods like `_.forIn` and `_.forOwn`.
+ *
+ * @private
+ * @param {boolean} [fromRight] Specify iterating from right to left.
+ * @returns {Function} Returns the new base function.
+ */
+function createBaseFor(fromRight) {
+  return function(object, iteratee, keysFunc) {
+    var index = -1,
+        iterable = Object(object),
+        props = keysFunc(object),
+        length = props.length;
+
+    while (length--) {
+      var key = props[fromRight ? length : ++index];
+      if (iteratee(iterable[key], key, iterable) === false) {
+        break;
+      }
+    }
+    return object;
+  };
+}
+
+module.exports = createBaseFor;
+
+},{}],165:[function(require,module,exports){
+var createCtorWrapper = require('./_createCtorWrapper'),
+    root = require('./_root');
+
+/** Used to compose bitmasks for wrapper metadata. */
+var BIND_FLAG = 1;
+
+/**
+ * Creates a function that wraps `func` to invoke it with the optional `this`
+ * binding of `thisArg`.
+ *
+ * @private
+ * @param {Function} func The function to wrap.
+ * @param {number} bitmask The bitmask of wrapper flags. See `createWrapper`
+ *  for more details.
+ * @param {*} [thisArg] The `this` binding of `func`.
+ * @returns {Function} Returns the new wrapped function.
+ */
+function createBaseWrapper(func, bitmask, thisArg) {
+  var isBind = bitmask & BIND_FLAG,
+      Ctor = createCtorWrapper(func);
+
+  function wrapper() {
+    var fn = (this && this !== root && this instanceof wrapper) ? Ctor : func;
+    return fn.apply(isBind ? thisArg : this, arguments);
+  }
+  return wrapper;
+}
+
+module.exports = createBaseWrapper;
+
+},{"./_createCtorWrapper":166,"./_root":230}],166:[function(require,module,exports){
+var baseCreate = require('./_baseCreate'),
+    isObject = require('./isObject');
+
+/**
+ * Creates a function that produces an instance of `Ctor` regardless of
+ * whether it was invoked as part of a `new` expression or by `call` or `apply`.
+ *
+ * @private
+ * @param {Function} Ctor The constructor to wrap.
+ * @returns {Function} Returns the new wrapped function.
+ */
+function createCtorWrapper(Ctor) {
+  return function() {
+    // Use a `switch` statement to work with class constructors. See
+    // http://ecma-international.org/ecma-262/6.0/#sec-ecmascript-function-objects-call-thisargument-argumentslist
+    // for more details.
+    var args = arguments;
+    switch (args.length) {
+      case 0: return new Ctor;
+      case 1: return new Ctor(args[0]);
+      case 2: return new Ctor(args[0], args[1]);
+      case 3: return new Ctor(args[0], args[1], args[2]);
+      case 4: return new Ctor(args[0], args[1], args[2], args[3]);
+      case 5: return new Ctor(args[0], args[1], args[2], args[3], args[4]);
+      case 6: return new Ctor(args[0], args[1], args[2], args[3], args[4], args[5]);
+      case 7: return new Ctor(args[0], args[1], args[2], args[3], args[4], args[5], args[6]);
+    }
+    var thisBinding = baseCreate(Ctor.prototype),
+        result = Ctor.apply(thisBinding, args);
+
+    // Mimic the constructor's `return` behavior.
+    // See https://es5.github.io/#x13.2.2 for more details.
+    return isObject(result) ? result : thisBinding;
+  };
+}
+
+module.exports = createCtorWrapper;
+
+},{"./_baseCreate":113,"./isObject":261}],167:[function(require,module,exports){
+var apply = require('./_apply'),
+    createCtorWrapper = require('./_createCtorWrapper'),
+    createHybridWrapper = require('./_createHybridWrapper'),
+    createRecurryWrapper = require('./_createRecurryWrapper'),
+    getHolder = require('./_getHolder'),
+    replaceHolders = require('./_replaceHolders'),
+    root = require('./_root');
+
+/**
+ * Creates a function that wraps `func` to enable currying.
+ *
+ * @private
+ * @param {Function} func The function to wrap.
+ * @param {number} bitmask The bitmask of wrapper flags. See `createWrapper`
+ *  for more details.
+ * @param {number} arity The arity of `func`.
+ * @returns {Function} Returns the new wrapped function.
+ */
+function createCurryWrapper(func, bitmask, arity) {
+  var Ctor = createCtorWrapper(func);
+
+  function wrapper() {
+    var length = arguments.length,
+        args = Array(length),
+        index = length,
+        placeholder = getHolder(wrapper);
+
+    while (index--) {
+      args[index] = arguments[index];
+    }
+    var holders = (length < 3 && args[0] !== placeholder && args[length - 1] !== placeholder)
+      ? []
+      : replaceHolders(args, placeholder);
+
+    length -= holders.length;
+    if (length < arity) {
+      return createRecurryWrapper(
+        func, bitmask, createHybridWrapper, wrapper.placeholder, undefined,
+        args, holders, undefined, undefined, arity - length);
+    }
+    var fn = (this && this !== root && this instanceof wrapper) ? Ctor : func;
+    return apply(fn, this, args);
+  }
+  return wrapper;
+}
+
+module.exports = createCurryWrapper;
+
+},{"./_apply":100,"./_createCtorWrapper":166,"./_createHybridWrapper":169,"./_createRecurryWrapper":171,"./_getHolder":180,"./_replaceHolders":229,"./_root":230}],168:[function(require,module,exports){
 var LodashWrapper = require('./_LodashWrapper'),
     baseFlatten = require('./_baseFlatten'),
     getData = require('./_getData'),
@@ -17254,7 +28412,598 @@ function createFlow(fromRight) {
 
 module.exports = createFlow;
 
-},{"./_LodashWrapper":75,"./_baseFlatten":97,"./_getData":128,"./_getFuncName":129,"./_isLaziable":152,"./isArray":186,"./rest":205}],127:[function(require,module,exports){
+},{"./_LodashWrapper":87,"./_baseFlatten":116,"./_getData":178,"./_getFuncName":179,"./_isLaziable":207,"./isArray":254,"./rest":279}],169:[function(require,module,exports){
+var composeArgs = require('./_composeArgs'),
+    composeArgsRight = require('./_composeArgsRight'),
+    countHolders = require('./_countHolders'),
+    createCtorWrapper = require('./_createCtorWrapper'),
+    createRecurryWrapper = require('./_createRecurryWrapper'),
+    getHolder = require('./_getHolder'),
+    reorder = require('./_reorder'),
+    replaceHolders = require('./_replaceHolders'),
+    root = require('./_root');
+
+/** Used to compose bitmasks for wrapper metadata. */
+var BIND_FLAG = 1,
+    BIND_KEY_FLAG = 2,
+    CURRY_FLAG = 8,
+    CURRY_RIGHT_FLAG = 16,
+    ARY_FLAG = 128,
+    FLIP_FLAG = 512;
+
+/**
+ * Creates a function that wraps `func` to invoke it with optional `this`
+ * binding of `thisArg`, partial application, and currying.
+ *
+ * @private
+ * @param {Function|string} func The function or method name to wrap.
+ * @param {number} bitmask The bitmask of wrapper flags. See `createWrapper`
+ *  for more details.
+ * @param {*} [thisArg] The `this` binding of `func`.
+ * @param {Array} [partials] The arguments to prepend to those provided to
+ *  the new function.
+ * @param {Array} [holders] The `partials` placeholder indexes.
+ * @param {Array} [partialsRight] The arguments to append to those provided
+ *  to the new function.
+ * @param {Array} [holdersRight] The `partialsRight` placeholder indexes.
+ * @param {Array} [argPos] The argument positions of the new function.
+ * @param {number} [ary] The arity cap of `func`.
+ * @param {number} [arity] The arity of `func`.
+ * @returns {Function} Returns the new wrapped function.
+ */
+function createHybridWrapper(func, bitmask, thisArg, partials, holders, partialsRight, holdersRight, argPos, ary, arity) {
+  var isAry = bitmask & ARY_FLAG,
+      isBind = bitmask & BIND_FLAG,
+      isBindKey = bitmask & BIND_KEY_FLAG,
+      isCurried = bitmask & (CURRY_FLAG | CURRY_RIGHT_FLAG),
+      isFlip = bitmask & FLIP_FLAG,
+      Ctor = isBindKey ? undefined : createCtorWrapper(func);
+
+  function wrapper() {
+    var length = arguments.length,
+        args = Array(length),
+        index = length;
+
+    while (index--) {
+      args[index] = arguments[index];
+    }
+    if (isCurried) {
+      var placeholder = getHolder(wrapper),
+          holdersCount = countHolders(args, placeholder);
+    }
+    if (partials) {
+      args = composeArgs(args, partials, holders, isCurried);
+    }
+    if (partialsRight) {
+      args = composeArgsRight(args, partialsRight, holdersRight, isCurried);
+    }
+    length -= holdersCount;
+    if (isCurried && length < arity) {
+      var newHolders = replaceHolders(args, placeholder);
+      return createRecurryWrapper(
+        func, bitmask, createHybridWrapper, wrapper.placeholder, thisArg,
+        args, newHolders, argPos, ary, arity - length
+      );
+    }
+    var thisBinding = isBind ? thisArg : this,
+        fn = isBindKey ? thisBinding[func] : func;
+
+    length = args.length;
+    if (argPos) {
+      args = reorder(args, argPos);
+    } else if (isFlip && length > 1) {
+      args.reverse();
+    }
+    if (isAry && ary < length) {
+      args.length = ary;
+    }
+    if (this && this !== root && this instanceof wrapper) {
+      fn = Ctor || createCtorWrapper(fn);
+    }
+    return fn.apply(thisBinding, args);
+  }
+  return wrapper;
+}
+
+module.exports = createHybridWrapper;
+
+},{"./_composeArgs":155,"./_composeArgsRight":156,"./_countHolders":161,"./_createCtorWrapper":166,"./_createRecurryWrapper":171,"./_getHolder":180,"./_reorder":228,"./_replaceHolders":229,"./_root":230}],170:[function(require,module,exports){
+var apply = require('./_apply'),
+    createCtorWrapper = require('./_createCtorWrapper'),
+    root = require('./_root');
+
+/** Used to compose bitmasks for wrapper metadata. */
+var BIND_FLAG = 1;
+
+/**
+ * Creates a function that wraps `func` to invoke it with the `this` binding
+ * of `thisArg` and `partials` prepended to the arguments it receives.
+ *
+ * @private
+ * @param {Function} func The function to wrap.
+ * @param {number} bitmask The bitmask of wrapper flags. See `createWrapper`
+ *  for more details.
+ * @param {*} thisArg The `this` binding of `func`.
+ * @param {Array} partials The arguments to prepend to those provided to
+ *  the new function.
+ * @returns {Function} Returns the new wrapped function.
+ */
+function createPartialWrapper(func, bitmask, thisArg, partials) {
+  var isBind = bitmask & BIND_FLAG,
+      Ctor = createCtorWrapper(func);
+
+  function wrapper() {
+    var argsIndex = -1,
+        argsLength = arguments.length,
+        leftIndex = -1,
+        leftLength = partials.length,
+        args = Array(leftLength + argsLength),
+        fn = (this && this !== root && this instanceof wrapper) ? Ctor : func;
+
+    while (++leftIndex < leftLength) {
+      args[leftIndex] = partials[leftIndex];
+    }
+    while (argsLength--) {
+      args[leftIndex++] = arguments[++argsIndex];
+    }
+    return apply(fn, isBind ? thisArg : this, args);
+  }
+  return wrapper;
+}
+
+module.exports = createPartialWrapper;
+
+},{"./_apply":100,"./_createCtorWrapper":166,"./_root":230}],171:[function(require,module,exports){
+var isLaziable = require('./_isLaziable'),
+    setData = require('./_setData');
+
+/** Used to compose bitmasks for wrapper metadata. */
+var BIND_FLAG = 1,
+    BIND_KEY_FLAG = 2,
+    CURRY_BOUND_FLAG = 4,
+    CURRY_FLAG = 8,
+    PARTIAL_FLAG = 32,
+    PARTIAL_RIGHT_FLAG = 64;
+
+/**
+ * Creates a function that wraps `func` to continue currying.
+ *
+ * @private
+ * @param {Function} func The function to wrap.
+ * @param {number} bitmask The bitmask of wrapper flags. See `createWrapper`
+ *  for more details.
+ * @param {Function} wrapFunc The function to create the `func` wrapper.
+ * @param {*} placeholder The placeholder value.
+ * @param {*} [thisArg] The `this` binding of `func`.
+ * @param {Array} [partials] The arguments to prepend to those provided to
+ *  the new function.
+ * @param {Array} [holders] The `partials` placeholder indexes.
+ * @param {Array} [argPos] The argument positions of the new function.
+ * @param {number} [ary] The arity cap of `func`.
+ * @param {number} [arity] The arity of `func`.
+ * @returns {Function} Returns the new wrapped function.
+ */
+function createRecurryWrapper(func, bitmask, wrapFunc, placeholder, thisArg, partials, holders, argPos, ary, arity) {
+  var isCurry = bitmask & CURRY_FLAG,
+      newHolders = isCurry ? holders : undefined,
+      newHoldersRight = isCurry ? undefined : holders,
+      newPartials = isCurry ? partials : undefined,
+      newPartialsRight = isCurry ? undefined : partials;
+
+  bitmask |= (isCurry ? PARTIAL_FLAG : PARTIAL_RIGHT_FLAG);
+  bitmask &= ~(isCurry ? PARTIAL_RIGHT_FLAG : PARTIAL_FLAG);
+
+  if (!(bitmask & CURRY_BOUND_FLAG)) {
+    bitmask &= ~(BIND_FLAG | BIND_KEY_FLAG);
+  }
+  var newData = [
+    func, bitmask, thisArg, newPartials, newHolders, newPartialsRight,
+    newHoldersRight, argPos, ary, arity
+  ];
+
+  var result = wrapFunc.apply(undefined, newData);
+  if (isLaziable(func)) {
+    setData(result, newData);
+  }
+  result.placeholder = placeholder;
+  return result;
+}
+
+module.exports = createRecurryWrapper;
+
+},{"./_isLaziable":207,"./_setData":233}],172:[function(require,module,exports){
+var baseSetData = require('./_baseSetData'),
+    createBaseWrapper = require('./_createBaseWrapper'),
+    createCurryWrapper = require('./_createCurryWrapper'),
+    createHybridWrapper = require('./_createHybridWrapper'),
+    createPartialWrapper = require('./_createPartialWrapper'),
+    getData = require('./_getData'),
+    mergeData = require('./_mergeData'),
+    setData = require('./_setData'),
+    toInteger = require('./toInteger');
+
+/** Used as the `TypeError` message for "Functions" methods. */
+var FUNC_ERROR_TEXT = 'Expected a function';
+
+/** Used to compose bitmasks for wrapper metadata. */
+var BIND_FLAG = 1,
+    BIND_KEY_FLAG = 2,
+    CURRY_FLAG = 8,
+    CURRY_RIGHT_FLAG = 16,
+    PARTIAL_FLAG = 32,
+    PARTIAL_RIGHT_FLAG = 64;
+
+/* Built-in method references for those with the same name as other `lodash` methods. */
+var nativeMax = Math.max;
+
+/**
+ * Creates a function that either curries or invokes `func` with optional
+ * `this` binding and partially applied arguments.
+ *
+ * @private
+ * @param {Function|string} func The function or method name to wrap.
+ * @param {number} bitmask The bitmask of wrapper flags.
+ *  The bitmask may be composed of the following flags:
+ *     1 - `_.bind`
+ *     2 - `_.bindKey`
+ *     4 - `_.curry` or `_.curryRight` of a bound function
+ *     8 - `_.curry`
+ *    16 - `_.curryRight`
+ *    32 - `_.partial`
+ *    64 - `_.partialRight`
+ *   128 - `_.rearg`
+ *   256 - `_.ary`
+ *   512 - `_.flip`
+ * @param {*} [thisArg] The `this` binding of `func`.
+ * @param {Array} [partials] The arguments to be partially applied.
+ * @param {Array} [holders] The `partials` placeholder indexes.
+ * @param {Array} [argPos] The argument positions of the new function.
+ * @param {number} [ary] The arity cap of `func`.
+ * @param {number} [arity] The arity of `func`.
+ * @returns {Function} Returns the new wrapped function.
+ */
+function createWrapper(func, bitmask, thisArg, partials, holders, argPos, ary, arity) {
+  var isBindKey = bitmask & BIND_KEY_FLAG;
+  if (!isBindKey && typeof func != 'function') {
+    throw new TypeError(FUNC_ERROR_TEXT);
+  }
+  var length = partials ? partials.length : 0;
+  if (!length) {
+    bitmask &= ~(PARTIAL_FLAG | PARTIAL_RIGHT_FLAG);
+    partials = holders = undefined;
+  }
+  ary = ary === undefined ? ary : nativeMax(toInteger(ary), 0);
+  arity = arity === undefined ? arity : toInteger(arity);
+  length -= holders ? holders.length : 0;
+
+  if (bitmask & PARTIAL_RIGHT_FLAG) {
+    var partialsRight = partials,
+        holdersRight = holders;
+
+    partials = holders = undefined;
+  }
+  var data = isBindKey ? undefined : getData(func);
+
+  var newData = [
+    func, bitmask, thisArg, partials, holders, partialsRight, holdersRight,
+    argPos, ary, arity
+  ];
+
+  if (data) {
+    mergeData(newData, data);
+  }
+  func = newData[0];
+  bitmask = newData[1];
+  thisArg = newData[2];
+  partials = newData[3];
+  holders = newData[4];
+  arity = newData[9] = newData[9] == null
+    ? (isBindKey ? 0 : func.length)
+    : nativeMax(newData[9] - length, 0);
+
+  if (!arity && bitmask & (CURRY_FLAG | CURRY_RIGHT_FLAG)) {
+    bitmask &= ~(CURRY_FLAG | CURRY_RIGHT_FLAG);
+  }
+  if (!bitmask || bitmask == BIND_FLAG) {
+    var result = createBaseWrapper(func, bitmask, thisArg);
+  } else if (bitmask == CURRY_FLAG || bitmask == CURRY_RIGHT_FLAG) {
+    result = createCurryWrapper(func, bitmask, arity);
+  } else if ((bitmask == PARTIAL_FLAG || bitmask == (BIND_FLAG | PARTIAL_FLAG)) && !holders.length) {
+    result = createPartialWrapper(func, bitmask, thisArg, partials);
+  } else {
+    result = createHybridWrapper.apply(undefined, newData);
+  }
+  var setter = data ? baseSetData : setData;
+  return setter(result, newData);
+}
+
+module.exports = createWrapper;
+
+},{"./_baseSetData":140,"./_createBaseWrapper":165,"./_createCurryWrapper":167,"./_createHybridWrapper":169,"./_createPartialWrapper":170,"./_getData":178,"./_mergeData":224,"./_setData":233,"./toInteger":284}],173:[function(require,module,exports){
+var SetCache = require('./_SetCache'),
+    arraySome = require('./_arraySome');
+
+/** Used to compose bitmasks for comparison styles. */
+var UNORDERED_COMPARE_FLAG = 1,
+    PARTIAL_COMPARE_FLAG = 2;
+
+/**
+ * A specialized version of `baseIsEqualDeep` for arrays with support for
+ * partial deep comparisons.
+ *
+ * @private
+ * @param {Array} array The array to compare.
+ * @param {Array} other The other array to compare.
+ * @param {Function} equalFunc The function to determine equivalents of values.
+ * @param {Function} customizer The function to customize comparisons.
+ * @param {number} bitmask The bitmask of comparison flags. See `baseIsEqual`
+ *  for more details.
+ * @param {Object} stack Tracks traversed `array` and `other` objects.
+ * @returns {boolean} Returns `true` if the arrays are equivalent, else `false`.
+ */
+function equalArrays(array, other, equalFunc, customizer, bitmask, stack) {
+  var isPartial = bitmask & PARTIAL_COMPARE_FLAG,
+      arrLength = array.length,
+      othLength = other.length;
+
+  if (arrLength != othLength && !(isPartial && othLength > arrLength)) {
+    return false;
+  }
+  // Assume cyclic values are equal.
+  var stacked = stack.get(array);
+  if (stacked) {
+    return stacked == other;
+  }
+  var index = -1,
+      result = true,
+      seen = (bitmask & UNORDERED_COMPARE_FLAG) ? new SetCache : undefined;
+
+  stack.set(array, other);
+
+  // Ignore non-index properties.
+  while (++index < arrLength) {
+    var arrValue = array[index],
+        othValue = other[index];
+
+    if (customizer) {
+      var compared = isPartial
+        ? customizer(othValue, arrValue, index, other, array, stack)
+        : customizer(arrValue, othValue, index, array, other, stack);
+    }
+    if (compared !== undefined) {
+      if (compared) {
+        continue;
+      }
+      result = false;
+      break;
+    }
+    // Recursively compare arrays (susceptible to call stack limits).
+    if (seen) {
+      if (!arraySome(other, function(othValue, othIndex) {
+            if (!seen.has(othIndex) &&
+                (arrValue === othValue || equalFunc(arrValue, othValue, customizer, bitmask, stack))) {
+              return seen.add(othIndex);
+            }
+          })) {
+        result = false;
+        break;
+      }
+    } else if (!(
+          arrValue === othValue ||
+            equalFunc(arrValue, othValue, customizer, bitmask, stack)
+        )) {
+      result = false;
+      break;
+    }
+  }
+  stack['delete'](array);
+  return result;
+}
+
+module.exports = equalArrays;
+
+},{"./_SetCache":93,"./_arraySome":107}],174:[function(require,module,exports){
+var Symbol = require('./_Symbol'),
+    Uint8Array = require('./_Uint8Array'),
+    equalArrays = require('./_equalArrays'),
+    mapToArray = require('./_mapToArray'),
+    setToArray = require('./_setToArray');
+
+/** Used to compose bitmasks for comparison styles. */
+var UNORDERED_COMPARE_FLAG = 1,
+    PARTIAL_COMPARE_FLAG = 2;
+
+/** `Object#toString` result references. */
+var boolTag = '[object Boolean]',
+    dateTag = '[object Date]',
+    errorTag = '[object Error]',
+    mapTag = '[object Map]',
+    numberTag = '[object Number]',
+    regexpTag = '[object RegExp]',
+    setTag = '[object Set]',
+    stringTag = '[object String]',
+    symbolTag = '[object Symbol]';
+
+var arrayBufferTag = '[object ArrayBuffer]',
+    dataViewTag = '[object DataView]';
+
+/** Used to convert symbols to primitives and strings. */
+var symbolProto = Symbol ? Symbol.prototype : undefined,
+    symbolValueOf = symbolProto ? symbolProto.valueOf : undefined;
+
+/**
+ * A specialized version of `baseIsEqualDeep` for comparing objects of
+ * the same `toStringTag`.
+ *
+ * **Note:** This function only supports comparing values with tags of
+ * `Boolean`, `Date`, `Error`, `Number`, `RegExp`, or `String`.
+ *
+ * @private
+ * @param {Object} object The object to compare.
+ * @param {Object} other The other object to compare.
+ * @param {string} tag The `toStringTag` of the objects to compare.
+ * @param {Function} equalFunc The function to determine equivalents of values.
+ * @param {Function} customizer The function to customize comparisons.
+ * @param {number} bitmask The bitmask of comparison flags. See `baseIsEqual`
+ *  for more details.
+ * @param {Object} stack Tracks traversed `object` and `other` objects.
+ * @returns {boolean} Returns `true` if the objects are equivalent, else `false`.
+ */
+function equalByTag(object, other, tag, equalFunc, customizer, bitmask, stack) {
+  switch (tag) {
+    case dataViewTag:
+      if ((object.byteLength != other.byteLength) ||
+          (object.byteOffset != other.byteOffset)) {
+        return false;
+      }
+      object = object.buffer;
+      other = other.buffer;
+
+    case arrayBufferTag:
+      if ((object.byteLength != other.byteLength) ||
+          !equalFunc(new Uint8Array(object), new Uint8Array(other))) {
+        return false;
+      }
+      return true;
+
+    case boolTag:
+    case dateTag:
+      // Coerce dates and booleans to numbers, dates to milliseconds and
+      // booleans to `1` or `0` treating invalid dates coerced to `NaN` as
+      // not equal.
+      return +object == +other;
+
+    case errorTag:
+      return object.name == other.name && object.message == other.message;
+
+    case numberTag:
+      // Treat `NaN` vs. `NaN` as equal.
+      return (object != +object) ? other != +other : object == +other;
+
+    case regexpTag:
+    case stringTag:
+      // Coerce regexes to strings and treat strings, primitives and objects,
+      // as equal. See http://www.ecma-international.org/ecma-262/6.0/#sec-regexp.prototype.tostring
+      // for more details.
+      return object == (other + '');
+
+    case mapTag:
+      var convert = mapToArray;
+
+    case setTag:
+      var isPartial = bitmask & PARTIAL_COMPARE_FLAG;
+      convert || (convert = setToArray);
+
+      if (object.size != other.size && !isPartial) {
+        return false;
+      }
+      // Assume cyclic values are equal.
+      var stacked = stack.get(object);
+      if (stacked) {
+        return stacked == other;
+      }
+      bitmask |= UNORDERED_COMPARE_FLAG;
+      stack.set(object, other);
+
+      // Recursively compare objects (susceptible to call stack limits).
+      return equalArrays(convert(object), convert(other), equalFunc, customizer, bitmask, stack);
+
+    case symbolTag:
+      if (symbolValueOf) {
+        return symbolValueOf.call(object) == symbolValueOf.call(other);
+      }
+  }
+  return false;
+}
+
+module.exports = equalByTag;
+
+},{"./_Symbol":95,"./_Uint8Array":96,"./_equalArrays":173,"./_mapToArray":222,"./_setToArray":234}],175:[function(require,module,exports){
+var baseHas = require('./_baseHas'),
+    keys = require('./keys');
+
+/** Used to compose bitmasks for comparison styles. */
+var PARTIAL_COMPARE_FLAG = 2;
+
+/**
+ * A specialized version of `baseIsEqualDeep` for objects with support for
+ * partial deep comparisons.
+ *
+ * @private
+ * @param {Object} object The object to compare.
+ * @param {Object} other The other object to compare.
+ * @param {Function} equalFunc The function to determine equivalents of values.
+ * @param {Function} customizer The function to customize comparisons.
+ * @param {number} bitmask The bitmask of comparison flags. See `baseIsEqual`
+ *  for more details.
+ * @param {Object} stack Tracks traversed `object` and `other` objects.
+ * @returns {boolean} Returns `true` if the objects are equivalent, else `false`.
+ */
+function equalObjects(object, other, equalFunc, customizer, bitmask, stack) {
+  var isPartial = bitmask & PARTIAL_COMPARE_FLAG,
+      objProps = keys(object),
+      objLength = objProps.length,
+      othProps = keys(other),
+      othLength = othProps.length;
+
+  if (objLength != othLength && !isPartial) {
+    return false;
+  }
+  var index = objLength;
+  while (index--) {
+    var key = objProps[index];
+    if (!(isPartial ? key in other : baseHas(other, key))) {
+      return false;
+    }
+  }
+  // Assume cyclic values are equal.
+  var stacked = stack.get(object);
+  if (stacked) {
+    return stacked == other;
+  }
+  var result = true;
+  stack.set(object, other);
+
+  var skipCtor = isPartial;
+  while (++index < objLength) {
+    key = objProps[index];
+    var objValue = object[key],
+        othValue = other[key];
+
+    if (customizer) {
+      var compared = isPartial
+        ? customizer(othValue, objValue, key, other, object, stack)
+        : customizer(objValue, othValue, key, object, other, stack);
+    }
+    // Recursively compare objects (susceptible to call stack limits).
+    if (!(compared === undefined
+          ? (objValue === othValue || equalFunc(objValue, othValue, customizer, bitmask, stack))
+          : compared
+        )) {
+      result = false;
+      break;
+    }
+    skipCtor || (skipCtor = key == 'constructor');
+  }
+  if (result && !skipCtor) {
+    var objCtor = object.constructor,
+        othCtor = other.constructor;
+
+    // Non `Object` object instances with different constructors are not equal.
+    if (objCtor != othCtor &&
+        ('constructor' in object && 'constructor' in other) &&
+        !(typeof objCtor == 'function' && objCtor instanceof objCtor &&
+          typeof othCtor == 'function' && othCtor instanceof othCtor)) {
+      result = false;
+    }
+  }
+  stack['delete'](object);
+  return result;
+}
+
+module.exports = equalObjects;
+
+},{"./_baseHas":121,"./keys":268}],176:[function(require,module,exports){
 var baseGetAllKeys = require('./_baseGetAllKeys'),
     getSymbols = require('./_getSymbols'),
     keys = require('./keys');
@@ -17272,7 +29021,26 @@ function getAllKeys(object) {
 
 module.exports = getAllKeys;
 
-},{"./_baseGetAllKeys":99,"./_getSymbols":134,"./keys":198}],128:[function(require,module,exports){
+},{"./_baseGetAllKeys":120,"./_getSymbols":186,"./keys":268}],177:[function(require,module,exports){
+var baseGetAllKeys = require('./_baseGetAllKeys'),
+    getSymbolsIn = require('./_getSymbolsIn'),
+    keysIn = require('./keysIn');
+
+/**
+ * Creates an array of own and inherited enumerable property names and
+ * symbols of `object`.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @returns {Array} Returns the array of property names and symbols.
+ */
+function getAllKeysIn(object) {
+  return baseGetAllKeys(object, keysIn, getSymbolsIn);
+}
+
+module.exports = getAllKeysIn;
+
+},{"./_baseGetAllKeys":120,"./_getSymbolsIn":187,"./keysIn":269}],178:[function(require,module,exports){
 var metaMap = require('./_metaMap'),
     noop = require('./noop');
 
@@ -17289,7 +29057,7 @@ var getData = !metaMap ? noop : function(func) {
 
 module.exports = getData;
 
-},{"./_metaMap":167,"./noop":202}],129:[function(require,module,exports){
+},{"./_metaMap":225,"./noop":272}],179:[function(require,module,exports){
 var realNames = require('./_realNames');
 
 /** Used for built-in method references. */
@@ -17322,7 +29090,22 @@ function getFuncName(func) {
 
 module.exports = getFuncName;
 
-},{"./_realNames":169}],130:[function(require,module,exports){
+},{"./_realNames":227}],180:[function(require,module,exports){
+/**
+ * Gets the argument placeholder value for `func`.
+ *
+ * @private
+ * @param {Function} func The function to inspect.
+ * @returns {*} Returns the placeholder value.
+ */
+function getHolder(func) {
+  var object = func;
+  return object.placeholder;
+}
+
+module.exports = getHolder;
+
+},{}],181:[function(require,module,exports){
 var baseProperty = require('./_baseProperty');
 
 /**
@@ -17340,7 +29123,7 @@ var getLength = baseProperty('length');
 
 module.exports = getLength;
 
-},{"./_baseProperty":107}],131:[function(require,module,exports){
+},{"./_baseProperty":137}],182:[function(require,module,exports){
 var isKeyable = require('./_isKeyable');
 
 /**
@@ -17360,7 +29143,33 @@ function getMapData(map, key) {
 
 module.exports = getMapData;
 
-},{"./_isKeyable":151}],132:[function(require,module,exports){
+},{"./_isKeyable":206}],183:[function(require,module,exports){
+var isStrictComparable = require('./_isStrictComparable'),
+    keys = require('./keys');
+
+/**
+ * Gets the property names, values, and compare flags of `object`.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @returns {Array} Returns the match data of `object`.
+ */
+function getMatchData(object) {
+  var result = keys(object),
+      length = result.length;
+
+  while (length--) {
+    var key = result[length],
+        value = object[key];
+
+    result[length] = [key, value, isStrictComparable(value)];
+  }
+  return result;
+}
+
+module.exports = getMatchData;
+
+},{"./_isStrictComparable":210,"./keys":268}],184:[function(require,module,exports){
 var baseIsNative = require('./_baseIsNative'),
     getValue = require('./_getValue');
 
@@ -17379,7 +29188,7 @@ function getNative(object, key) {
 
 module.exports = getNative;
 
-},{"./_baseIsNative":101,"./_getValue":136}],133:[function(require,module,exports){
+},{"./_baseIsNative":127,"./_getValue":189}],185:[function(require,module,exports){
 /* Built-in method references for those with the same name as other `lodash` methods. */
 var nativeGetPrototype = Object.getPrototypeOf;
 
@@ -17396,7 +29205,7 @@ function getPrototype(value) {
 
 module.exports = getPrototype;
 
-},{}],134:[function(require,module,exports){
+},{}],186:[function(require,module,exports){
 var stubArray = require('./stubArray');
 
 /** Built-in value references. */
@@ -17422,7 +29231,34 @@ if (!getOwnPropertySymbols) {
 
 module.exports = getSymbols;
 
-},{"./stubArray":206}],135:[function(require,module,exports){
+},{"./stubArray":280}],187:[function(require,module,exports){
+var arrayPush = require('./_arrayPush'),
+    getPrototype = require('./_getPrototype'),
+    getSymbols = require('./_getSymbols');
+
+/** Built-in value references. */
+var getOwnPropertySymbols = Object.getOwnPropertySymbols;
+
+/**
+ * Creates an array of the own and inherited enumerable symbol properties
+ * of `object`.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @returns {Array} Returns the array of symbols.
+ */
+var getSymbolsIn = !getOwnPropertySymbols ? getSymbols : function(object) {
+  var result = [];
+  while (object) {
+    arrayPush(result, getSymbols(object));
+    object = getPrototype(object);
+  }
+  return result;
+};
+
+module.exports = getSymbolsIn;
+
+},{"./_arrayPush":105,"./_getPrototype":185,"./_getSymbols":186}],188:[function(require,module,exports){
 var DataView = require('./_DataView'),
     Map = require('./_Map'),
     Promise = require('./_Promise'),
@@ -17494,7 +29330,7 @@ if ((DataView && getTag(new DataView(new ArrayBuffer(1))) != dataViewTag) ||
 
 module.exports = getTag;
 
-},{"./_DataView":71,"./_Map":76,"./_Promise":78,"./_Set":80,"./_WeakMap":84,"./_toSource":179}],136:[function(require,module,exports){
+},{"./_DataView":83,"./_Map":88,"./_Promise":90,"./_Set":92,"./_WeakMap":97,"./_toSource":242}],189:[function(require,module,exports){
 /**
  * Gets the value at `key` of `object`.
  *
@@ -17509,7 +29345,50 @@ function getValue(object, key) {
 
 module.exports = getValue;
 
-},{}],137:[function(require,module,exports){
+},{}],190:[function(require,module,exports){
+var castPath = require('./_castPath'),
+    isArguments = require('./isArguments'),
+    isArray = require('./isArray'),
+    isIndex = require('./_isIndex'),
+    isKey = require('./_isKey'),
+    isLength = require('./isLength'),
+    isString = require('./isString'),
+    toKey = require('./_toKey');
+
+/**
+ * Checks if `path` exists on `object`.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @param {Array|string} path The path to check.
+ * @param {Function} hasFunc The function to check properties.
+ * @returns {boolean} Returns `true` if `path` exists, else `false`.
+ */
+function hasPath(object, path, hasFunc) {
+  path = isKey(path, object) ? [path] : castPath(path);
+
+  var result,
+      index = -1,
+      length = path.length;
+
+  while (++index < length) {
+    var key = toKey(path[index]);
+    if (!(result = object != null && hasFunc(object, key))) {
+      break;
+    }
+    object = object[key];
+  }
+  if (result) {
+    return result;
+  }
+  var length = object ? object.length : 0;
+  return !!length && isLength(length) && isIndex(key, length) &&
+    (isArray(object) || isString(object) || isArguments(object));
+}
+
+module.exports = hasPath;
+
+},{"./_castPath":145,"./_isIndex":203,"./_isKey":205,"./_toKey":241,"./isArguments":253,"./isArray":254,"./isLength":260,"./isString":264}],191:[function(require,module,exports){
 var nativeCreate = require('./_nativeCreate');
 
 /**
@@ -17525,7 +29404,7 @@ function hashClear() {
 
 module.exports = hashClear;
 
-},{"./_nativeCreate":168}],138:[function(require,module,exports){
+},{"./_nativeCreate":226}],192:[function(require,module,exports){
 /**
  * Removes `key` and its value from the hash.
  *
@@ -17542,7 +29421,7 @@ function hashDelete(key) {
 
 module.exports = hashDelete;
 
-},{}],139:[function(require,module,exports){
+},{}],193:[function(require,module,exports){
 var nativeCreate = require('./_nativeCreate');
 
 /** Used to stand-in for `undefined` hash values. */
@@ -17574,7 +29453,7 @@ function hashGet(key) {
 
 module.exports = hashGet;
 
-},{"./_nativeCreate":168}],140:[function(require,module,exports){
+},{"./_nativeCreate":226}],194:[function(require,module,exports){
 var nativeCreate = require('./_nativeCreate');
 
 /** Used for built-in method references. */
@@ -17599,7 +29478,7 @@ function hashHas(key) {
 
 module.exports = hashHas;
 
-},{"./_nativeCreate":168}],141:[function(require,module,exports){
+},{"./_nativeCreate":226}],195:[function(require,module,exports){
 var nativeCreate = require('./_nativeCreate');
 
 /** Used to stand-in for `undefined` hash values. */
@@ -17623,7 +29502,7 @@ function hashSet(key, value) {
 
 module.exports = hashSet;
 
-},{"./_nativeCreate":168}],142:[function(require,module,exports){
+},{"./_nativeCreate":226}],196:[function(require,module,exports){
 var baseTimes = require('./_baseTimes'),
     isArguments = require('./isArguments'),
     isArray = require('./isArray'),
@@ -17649,7 +29528,32 @@ function indexKeys(object) {
 
 module.exports = indexKeys;
 
-},{"./_baseTimes":109,"./isArguments":185,"./isArray":186,"./isLength":191,"./isString":195}],143:[function(require,module,exports){
+},{"./_baseTimes":141,"./isArguments":253,"./isArray":254,"./isLength":260,"./isString":264}],197:[function(require,module,exports){
+/**
+ * Gets the index at which the first occurrence of `NaN` is found in `array`.
+ *
+ * @private
+ * @param {Array} array The array to search.
+ * @param {number} fromIndex The index to search from.
+ * @param {boolean} [fromRight] Specify iterating from right to left.
+ * @returns {number} Returns the index of the matched `NaN`, else `-1`.
+ */
+function indexOfNaN(array, fromIndex, fromRight) {
+  var length = array.length,
+      index = fromIndex + (fromRight ? 1 : -1);
+
+  while ((fromRight ? index-- : ++index < length)) {
+    var other = array[index];
+    if (other !== other) {
+      return index;
+    }
+  }
+  return -1;
+}
+
+module.exports = indexOfNaN;
+
+},{}],198:[function(require,module,exports){
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
 
@@ -17677,7 +29581,7 @@ function initCloneArray(array) {
 
 module.exports = initCloneArray;
 
-},{}],144:[function(require,module,exports){
+},{}],199:[function(require,module,exports){
 var cloneArrayBuffer = require('./_cloneArrayBuffer'),
     cloneDataView = require('./_cloneDataView'),
     cloneMap = require('./_cloneMap'),
@@ -17759,7 +29663,7 @@ function initCloneByTag(object, tag, cloneFunc, isDeep) {
 
 module.exports = initCloneByTag;
 
-},{"./_cloneArrayBuffer":113,"./_cloneDataView":115,"./_cloneMap":116,"./_cloneRegExp":117,"./_cloneSet":118,"./_cloneSymbol":119,"./_cloneTypedArray":120}],145:[function(require,module,exports){
+},{"./_cloneArrayBuffer":147,"./_cloneDataView":149,"./_cloneMap":150,"./_cloneRegExp":151,"./_cloneSet":152,"./_cloneSymbol":153,"./_cloneTypedArray":154}],200:[function(require,module,exports){
 var baseCreate = require('./_baseCreate'),
     getPrototype = require('./_getPrototype'),
     isPrototype = require('./_isPrototype');
@@ -17779,7 +29683,7 @@ function initCloneObject(object) {
 
 module.exports = initCloneObject;
 
-},{"./_baseCreate":96,"./_getPrototype":133,"./_isPrototype":154}],146:[function(require,module,exports){
+},{"./_baseCreate":113,"./_getPrototype":185,"./_isPrototype":209}],201:[function(require,module,exports){
 var isArguments = require('./isArguments'),
     isArray = require('./isArray');
 
@@ -17796,7 +29700,7 @@ function isFlattenable(value) {
 
 module.exports = isFlattenable;
 
-},{"./isArguments":185,"./isArray":186}],147:[function(require,module,exports){
+},{"./isArguments":253,"./isArray":254}],202:[function(require,module,exports){
 /**
  * Checks if `value` is a host object in IE < 9.
  *
@@ -17818,7 +29722,7 @@ function isHostObject(value) {
 
 module.exports = isHostObject;
 
-},{}],148:[function(require,module,exports){
+},{}],203:[function(require,module,exports){
 /** Used as references for various `Number` constants. */
 var MAX_SAFE_INTEGER = 9007199254740991;
 
@@ -17842,7 +29746,7 @@ function isIndex(value, length) {
 
 module.exports = isIndex;
 
-},{}],149:[function(require,module,exports){
+},{}],204:[function(require,module,exports){
 var eq = require('./eq'),
     isArrayLike = require('./isArrayLike'),
     isIndex = require('./_isIndex'),
@@ -17874,7 +29778,7 @@ function isIterateeCall(value, index, object) {
 
 module.exports = isIterateeCall;
 
-},{"./_isIndex":148,"./eq":182,"./isArrayLike":187,"./isObject":192}],150:[function(require,module,exports){
+},{"./_isIndex":203,"./eq":246,"./isArrayLike":255,"./isObject":261}],205:[function(require,module,exports){
 var isArray = require('./isArray'),
     isSymbol = require('./isSymbol');
 
@@ -17905,7 +29809,7 @@ function isKey(value, object) {
 
 module.exports = isKey;
 
-},{"./isArray":186,"./isSymbol":196}],151:[function(require,module,exports){
+},{"./isArray":254,"./isSymbol":265}],206:[function(require,module,exports){
 /**
  * Checks if `value` is suitable for use as unique object key.
  *
@@ -17922,7 +29826,7 @@ function isKeyable(value) {
 
 module.exports = isKeyable;
 
-},{}],152:[function(require,module,exports){
+},{}],207:[function(require,module,exports){
 var LazyWrapper = require('./_LazyWrapper'),
     getData = require('./_getData'),
     getFuncName = require('./_getFuncName'),
@@ -17952,7 +29856,7 @@ function isLaziable(func) {
 
 module.exports = isLaziable;
 
-},{"./_LazyWrapper":73,"./_getData":128,"./_getFuncName":129,"./wrapperLodash":214}],153:[function(require,module,exports){
+},{"./_LazyWrapper":85,"./_getData":178,"./_getFuncName":179,"./wrapperLodash":289}],208:[function(require,module,exports){
 var coreJsData = require('./_coreJsData');
 
 /** Used to detect methods masquerading as native. */
@@ -17974,7 +29878,7 @@ function isMasked(func) {
 
 module.exports = isMasked;
 
-},{"./_coreJsData":124}],154:[function(require,module,exports){
+},{"./_coreJsData":160}],209:[function(require,module,exports){
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
 
@@ -17994,7 +29898,24 @@ function isPrototype(value) {
 
 module.exports = isPrototype;
 
-},{}],155:[function(require,module,exports){
+},{}],210:[function(require,module,exports){
+var isObject = require('./isObject');
+
+/**
+ * Checks if `value` is suitable for strict equality comparisons, i.e. `===`.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` if suitable for strict
+ *  equality comparisons, else `false`.
+ */
+function isStrictComparable(value) {
+  return value === value && !isObject(value);
+}
+
+module.exports = isStrictComparable;
+
+},{"./isObject":261}],211:[function(require,module,exports){
 /**
  * Converts `iterator` to an array.
  *
@@ -18014,7 +29935,7 @@ function iteratorToArray(iterator) {
 
 module.exports = iteratorToArray;
 
-},{}],156:[function(require,module,exports){
+},{}],212:[function(require,module,exports){
 /**
  * Removes all key-value entries from the list cache.
  *
@@ -18028,7 +29949,7 @@ function listCacheClear() {
 
 module.exports = listCacheClear;
 
-},{}],157:[function(require,module,exports){
+},{}],213:[function(require,module,exports){
 var assocIndexOf = require('./_assocIndexOf');
 
 /** Used for built-in method references. */
@@ -18064,7 +29985,7 @@ function listCacheDelete(key) {
 
 module.exports = listCacheDelete;
 
-},{"./_assocIndexOf":93}],158:[function(require,module,exports){
+},{"./_assocIndexOf":110}],214:[function(require,module,exports){
 var assocIndexOf = require('./_assocIndexOf');
 
 /**
@@ -18085,7 +30006,7 @@ function listCacheGet(key) {
 
 module.exports = listCacheGet;
 
-},{"./_assocIndexOf":93}],159:[function(require,module,exports){
+},{"./_assocIndexOf":110}],215:[function(require,module,exports){
 var assocIndexOf = require('./_assocIndexOf');
 
 /**
@@ -18103,7 +30024,7 @@ function listCacheHas(key) {
 
 module.exports = listCacheHas;
 
-},{"./_assocIndexOf":93}],160:[function(require,module,exports){
+},{"./_assocIndexOf":110}],216:[function(require,module,exports){
 var assocIndexOf = require('./_assocIndexOf');
 
 /**
@@ -18130,7 +30051,7 @@ function listCacheSet(key, value) {
 
 module.exports = listCacheSet;
 
-},{"./_assocIndexOf":93}],161:[function(require,module,exports){
+},{"./_assocIndexOf":110}],217:[function(require,module,exports){
 var Hash = require('./_Hash'),
     ListCache = require('./_ListCache'),
     Map = require('./_Map');
@@ -18152,7 +30073,7 @@ function mapCacheClear() {
 
 module.exports = mapCacheClear;
 
-},{"./_Hash":72,"./_ListCache":74,"./_Map":76}],162:[function(require,module,exports){
+},{"./_Hash":84,"./_ListCache":86,"./_Map":88}],218:[function(require,module,exports){
 var getMapData = require('./_getMapData');
 
 /**
@@ -18170,7 +30091,7 @@ function mapCacheDelete(key) {
 
 module.exports = mapCacheDelete;
 
-},{"./_getMapData":131}],163:[function(require,module,exports){
+},{"./_getMapData":182}],219:[function(require,module,exports){
 var getMapData = require('./_getMapData');
 
 /**
@@ -18188,7 +30109,7 @@ function mapCacheGet(key) {
 
 module.exports = mapCacheGet;
 
-},{"./_getMapData":131}],164:[function(require,module,exports){
+},{"./_getMapData":182}],220:[function(require,module,exports){
 var getMapData = require('./_getMapData');
 
 /**
@@ -18206,7 +30127,7 @@ function mapCacheHas(key) {
 
 module.exports = mapCacheHas;
 
-},{"./_getMapData":131}],165:[function(require,module,exports){
+},{"./_getMapData":182}],221:[function(require,module,exports){
 var getMapData = require('./_getMapData');
 
 /**
@@ -18226,7 +30147,7 @@ function mapCacheSet(key, value) {
 
 module.exports = mapCacheSet;
 
-},{"./_getMapData":131}],166:[function(require,module,exports){
+},{"./_getMapData":182}],222:[function(require,module,exports){
 /**
  * Converts `map` to its key-value pairs.
  *
@@ -18246,7 +30167,121 @@ function mapToArray(map) {
 
 module.exports = mapToArray;
 
-},{}],167:[function(require,module,exports){
+},{}],223:[function(require,module,exports){
+/**
+ * A specialized version of `matchesProperty` for source values suitable
+ * for strict equality comparisons, i.e. `===`.
+ *
+ * @private
+ * @param {string} key The key of the property to get.
+ * @param {*} srcValue The value to match.
+ * @returns {Function} Returns the new spec function.
+ */
+function matchesStrictComparable(key, srcValue) {
+  return function(object) {
+    if (object == null) {
+      return false;
+    }
+    return object[key] === srcValue &&
+      (srcValue !== undefined || (key in Object(object)));
+  };
+}
+
+module.exports = matchesStrictComparable;
+
+},{}],224:[function(require,module,exports){
+var composeArgs = require('./_composeArgs'),
+    composeArgsRight = require('./_composeArgsRight'),
+    replaceHolders = require('./_replaceHolders');
+
+/** Used as the internal argument placeholder. */
+var PLACEHOLDER = '__lodash_placeholder__';
+
+/** Used to compose bitmasks for wrapper metadata. */
+var BIND_FLAG = 1,
+    BIND_KEY_FLAG = 2,
+    CURRY_BOUND_FLAG = 4,
+    CURRY_FLAG = 8,
+    ARY_FLAG = 128,
+    REARG_FLAG = 256;
+
+/* Built-in method references for those with the same name as other `lodash` methods. */
+var nativeMin = Math.min;
+
+/**
+ * Merges the function metadata of `source` into `data`.
+ *
+ * Merging metadata reduces the number of wrappers used to invoke a function.
+ * This is possible because methods like `_.bind`, `_.curry`, and `_.partial`
+ * may be applied regardless of execution order. Methods like `_.ary` and
+ * `_.rearg` modify function arguments, making the order in which they are
+ * executed important, preventing the merging of metadata. However, we make
+ * an exception for a safe combined case where curried functions have `_.ary`
+ * and or `_.rearg` applied.
+ *
+ * @private
+ * @param {Array} data The destination metadata.
+ * @param {Array} source The source metadata.
+ * @returns {Array} Returns `data`.
+ */
+function mergeData(data, source) {
+  var bitmask = data[1],
+      srcBitmask = source[1],
+      newBitmask = bitmask | srcBitmask,
+      isCommon = newBitmask < (BIND_FLAG | BIND_KEY_FLAG | ARY_FLAG);
+
+  var isCombo =
+    ((srcBitmask == ARY_FLAG) && (bitmask == CURRY_FLAG)) ||
+    ((srcBitmask == ARY_FLAG) && (bitmask == REARG_FLAG) && (data[7].length <= source[8])) ||
+    ((srcBitmask == (ARY_FLAG | REARG_FLAG)) && (source[7].length <= source[8]) && (bitmask == CURRY_FLAG));
+
+  // Exit early if metadata can't be merged.
+  if (!(isCommon || isCombo)) {
+    return data;
+  }
+  // Use source `thisArg` if available.
+  if (srcBitmask & BIND_FLAG) {
+    data[2] = source[2];
+    // Set when currying a bound function.
+    newBitmask |= bitmask & BIND_FLAG ? 0 : CURRY_BOUND_FLAG;
+  }
+  // Compose partial arguments.
+  var value = source[3];
+  if (value) {
+    var partials = data[3];
+    data[3] = partials ? composeArgs(partials, value, source[4]) : value;
+    data[4] = partials ? replaceHolders(data[3], PLACEHOLDER) : source[4];
+  }
+  // Compose partial right arguments.
+  value = source[5];
+  if (value) {
+    partials = data[5];
+    data[5] = partials ? composeArgsRight(partials, value, source[6]) : value;
+    data[6] = partials ? replaceHolders(data[5], PLACEHOLDER) : source[6];
+  }
+  // Use source `argPos` if available.
+  value = source[7];
+  if (value) {
+    data[7] = value;
+  }
+  // Use source `ary` if it's smaller.
+  if (srcBitmask & ARY_FLAG) {
+    data[8] = data[8] == null ? source[8] : nativeMin(data[8], source[8]);
+  }
+  // Use source `arity` if one is not provided.
+  if (data[9] == null) {
+    data[9] = source[9];
+  }
+  // Use source `func` and merge bitmasks.
+  data[0] = source[0];
+  data[1] = newBitmask;
+
+  return data;
+}
+
+module.exports = mergeData;
+
+},{"./_composeArgs":155,"./_composeArgsRight":156,"./_replaceHolders":229}],225:[function(require,module,exports){
 var WeakMap = require('./_WeakMap');
 
 /** Used to store function metadata. */
@@ -18254,7 +30289,7 @@ var metaMap = WeakMap && new WeakMap;
 
 module.exports = metaMap;
 
-},{"./_WeakMap":84}],168:[function(require,module,exports){
+},{"./_WeakMap":97}],226:[function(require,module,exports){
 var getNative = require('./_getNative');
 
 /* Built-in method references that are verified to be native. */
@@ -18262,13 +30297,75 @@ var nativeCreate = getNative(Object, 'create');
 
 module.exports = nativeCreate;
 
-},{"./_getNative":132}],169:[function(require,module,exports){
+},{"./_getNative":184}],227:[function(require,module,exports){
 /** Used to lookup unminified function names. */
 var realNames = {};
 
 module.exports = realNames;
 
-},{}],170:[function(require,module,exports){
+},{}],228:[function(require,module,exports){
+var copyArray = require('./_copyArray'),
+    isIndex = require('./_isIndex');
+
+/* Built-in method references for those with the same name as other `lodash` methods. */
+var nativeMin = Math.min;
+
+/**
+ * Reorder `array` according to the specified indexes where the element at
+ * the first index is assigned as the first element, the element at
+ * the second index is assigned as the second element, and so on.
+ *
+ * @private
+ * @param {Array} array The array to reorder.
+ * @param {Array} indexes The arranged array indexes.
+ * @returns {Array} Returns `array`.
+ */
+function reorder(array, indexes) {
+  var arrLength = array.length,
+      length = nativeMin(indexes.length, arrLength),
+      oldArray = copyArray(array);
+
+  while (length--) {
+    var index = indexes[length];
+    array[length] = isIndex(index, arrLength) ? oldArray[index] : undefined;
+  }
+  return array;
+}
+
+module.exports = reorder;
+
+},{"./_copyArray":157,"./_isIndex":203}],229:[function(require,module,exports){
+/** Used as the internal argument placeholder. */
+var PLACEHOLDER = '__lodash_placeholder__';
+
+/**
+ * Replaces all `placeholder` elements in `array` with an internal placeholder
+ * and returns an array of their indexes.
+ *
+ * @private
+ * @param {Array} array The array to modify.
+ * @param {*} placeholder The placeholder to replace.
+ * @returns {Array} Returns the new array of placeholder indexes.
+ */
+function replaceHolders(array, placeholder) {
+  var index = -1,
+      length = array.length,
+      resIndex = 0,
+      result = [];
+
+  while (++index < length) {
+    var value = array[index];
+    if (value === placeholder || value === PLACEHOLDER) {
+      array[index] = PLACEHOLDER;
+      result[resIndex++] = index;
+    }
+  }
+  return result;
+}
+
+module.exports = replaceHolders;
+
+},{}],230:[function(require,module,exports){
 (function (global){
 var checkGlobal = require('./_checkGlobal');
 
@@ -18287,7 +30384,88 @@ var root = freeGlobal || freeSelf || thisGlobal || Function('return this')();
 module.exports = root;
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./_checkGlobal":112}],171:[function(require,module,exports){
+},{"./_checkGlobal":146}],231:[function(require,module,exports){
+/** Used to stand-in for `undefined` hash values. */
+var HASH_UNDEFINED = '__lodash_hash_undefined__';
+
+/**
+ * Adds `value` to the array cache.
+ *
+ * @private
+ * @name add
+ * @memberOf SetCache
+ * @alias push
+ * @param {*} value The value to cache.
+ * @returns {Object} Returns the cache instance.
+ */
+function setCacheAdd(value) {
+  this.__data__.set(value, HASH_UNDEFINED);
+  return this;
+}
+
+module.exports = setCacheAdd;
+
+},{}],232:[function(require,module,exports){
+/**
+ * Checks if `value` is in the array cache.
+ *
+ * @private
+ * @name has
+ * @memberOf SetCache
+ * @param {*} value The value to search for.
+ * @returns {number} Returns `true` if `value` is found, else `false`.
+ */
+function setCacheHas(value) {
+  return this.__data__.has(value);
+}
+
+module.exports = setCacheHas;
+
+},{}],233:[function(require,module,exports){
+var baseSetData = require('./_baseSetData'),
+    now = require('./now');
+
+/** Used to detect hot functions by number of calls within a span of milliseconds. */
+var HOT_COUNT = 150,
+    HOT_SPAN = 16;
+
+/**
+ * Sets metadata for `func`.
+ *
+ * **Note:** If this function becomes hot, i.e. is invoked a lot in a short
+ * period of time, it will trip its breaker and transition to an identity
+ * function to avoid garbage collection pauses in V8. See
+ * [V8 issue 2070](https://bugs.chromium.org/p/v8/issues/detail?id=2070)
+ * for more details.
+ *
+ * @private
+ * @param {Function} func The function to associate metadata with.
+ * @param {*} data The metadata.
+ * @returns {Function} Returns `func`.
+ */
+var setData = (function() {
+  var count = 0,
+      lastCalled = 0;
+
+  return function(key, value) {
+    var stamp = now(),
+        remaining = HOT_SPAN - (stamp - lastCalled);
+
+    lastCalled = stamp;
+    if (remaining > 0) {
+      if (++count >= HOT_COUNT) {
+        return key;
+      }
+    } else {
+      count = 0;
+    }
+    return baseSetData(key, value);
+  };
+}());
+
+module.exports = setData;
+
+},{"./_baseSetData":140,"./now":273}],234:[function(require,module,exports){
 /**
  * Converts `set` to an array of its values.
  *
@@ -18307,7 +30485,7 @@ function setToArray(set) {
 
 module.exports = setToArray;
 
-},{}],172:[function(require,module,exports){
+},{}],235:[function(require,module,exports){
 var ListCache = require('./_ListCache');
 
 /**
@@ -18323,7 +30501,7 @@ function stackClear() {
 
 module.exports = stackClear;
 
-},{"./_ListCache":74}],173:[function(require,module,exports){
+},{"./_ListCache":86}],236:[function(require,module,exports){
 /**
  * Removes `key` and its value from the stack.
  *
@@ -18339,7 +30517,7 @@ function stackDelete(key) {
 
 module.exports = stackDelete;
 
-},{}],174:[function(require,module,exports){
+},{}],237:[function(require,module,exports){
 /**
  * Gets the stack value for `key`.
  *
@@ -18355,7 +30533,7 @@ function stackGet(key) {
 
 module.exports = stackGet;
 
-},{}],175:[function(require,module,exports){
+},{}],238:[function(require,module,exports){
 /**
  * Checks if a stack value for `key` exists.
  *
@@ -18371,7 +30549,7 @@ function stackHas(key) {
 
 module.exports = stackHas;
 
-},{}],176:[function(require,module,exports){
+},{}],239:[function(require,module,exports){
 var ListCache = require('./_ListCache'),
     MapCache = require('./_MapCache');
 
@@ -18399,7 +30577,7 @@ function stackSet(key, value) {
 
 module.exports = stackSet;
 
-},{"./_ListCache":74,"./_MapCache":77}],177:[function(require,module,exports){
+},{"./_ListCache":86,"./_MapCache":89}],240:[function(require,module,exports){
 var memoize = require('./memoize'),
     toString = require('./toString');
 
@@ -18426,7 +30604,7 @@ var stringToPath = memoize(function(string) {
 
 module.exports = stringToPath;
 
-},{"./memoize":200,"./toString":213}],178:[function(require,module,exports){
+},{"./memoize":270,"./toString":287}],241:[function(require,module,exports){
 var isSymbol = require('./isSymbol');
 
 /** Used as references for various `Number` constants. */
@@ -18449,7 +30627,7 @@ function toKey(value) {
 
 module.exports = toKey;
 
-},{"./isSymbol":196}],179:[function(require,module,exports){
+},{"./isSymbol":265}],242:[function(require,module,exports){
 /** Used to resolve the decompiled source of functions. */
 var funcToString = Function.prototype.toString;
 
@@ -18474,7 +30652,7 @@ function toSource(func) {
 
 module.exports = toSource;
 
-},{}],180:[function(require,module,exports){
+},{}],243:[function(require,module,exports){
 var LazyWrapper = require('./_LazyWrapper'),
     LodashWrapper = require('./_LodashWrapper'),
     copyArray = require('./_copyArray');
@@ -18499,7 +30677,42 @@ function wrapperClone(wrapper) {
 
 module.exports = wrapperClone;
 
-},{"./_LazyWrapper":73,"./_LodashWrapper":75,"./_copyArray":121}],181:[function(require,module,exports){
+},{"./_LazyWrapper":85,"./_LodashWrapper":87,"./_copyArray":157}],244:[function(require,module,exports){
+var baseClone = require('./_baseClone');
+
+/**
+ * Creates a shallow clone of `value`.
+ *
+ * **Note:** This method is loosely based on the
+ * [structured clone algorithm](https://mdn.io/Structured_clone_algorithm)
+ * and supports cloning arrays, array buffers, booleans, date objects, maps,
+ * numbers, `Object` objects, regexes, sets, strings, symbols, and typed
+ * arrays. The own enumerable properties of `arguments` objects are cloned
+ * as plain objects. An empty object is returned for uncloneable values such
+ * as error objects, functions, DOM nodes, and WeakMaps.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Lang
+ * @param {*} value The value to clone.
+ * @returns {*} Returns the cloned value.
+ * @see _.cloneDeep
+ * @example
+ *
+ * var objects = [{ 'a': 1 }, { 'b': 2 }];
+ *
+ * var shallow = _.clone(objects);
+ * console.log(shallow[0] === objects[0]);
+ * // => true
+ */
+function clone(value) {
+  return baseClone(value, false, true);
+}
+
+module.exports = clone;
+
+},{"./_baseClone":112}],245:[function(require,module,exports){
 var isObject = require('./isObject'),
     now = require('./now'),
     toNumber = require('./toNumber');
@@ -18682,7 +30895,7 @@ function debounce(func, wait, options) {
 
 module.exports = debounce;
 
-},{"./isObject":192,"./now":203,"./toNumber":211}],182:[function(require,module,exports){
+},{"./isObject":261,"./now":273,"./toNumber":285}],246:[function(require,module,exports){
 /**
  * Performs a
  * [`SameValueZero`](http://ecma-international.org/ecma-262/6.0/#sec-samevaluezero)
@@ -18721,7 +30934,7 @@ function eq(value, other) {
 
 module.exports = eq;
 
-},{}],183:[function(require,module,exports){
+},{}],247:[function(require,module,exports){
 var baseFlatten = require('./_baseFlatten');
 
 /**
@@ -18745,7 +30958,7 @@ function flatten(array) {
 
 module.exports = flatten;
 
-},{"./_baseFlatten":97}],184:[function(require,module,exports){
+},{"./_baseFlatten":116}],248:[function(require,module,exports){
 var createFlow = require('./_createFlow');
 
 /**
@@ -18774,7 +30987,144 @@ var flow = createFlow();
 
 module.exports = flow;
 
-},{"./_createFlow":126}],185:[function(require,module,exports){
+},{"./_createFlow":168}],249:[function(require,module,exports){
+var arrayEach = require('./_arrayEach'),
+    baseEach = require('./_baseEach'),
+    baseIteratee = require('./_baseIteratee'),
+    isArray = require('./isArray');
+
+/**
+ * Iterates over elements of `collection` and invokes `iteratee` for each element.
+ * The iteratee is invoked with three arguments: (value, index|key, collection).
+ * Iteratee functions may exit iteration early by explicitly returning `false`.
+ *
+ * **Note:** As with other "Collections" methods, objects with a "length"
+ * property are iterated like arrays. To avoid this behavior use `_.forIn`
+ * or `_.forOwn` for object iteration.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @alias each
+ * @category Collection
+ * @param {Array|Object} collection The collection to iterate over.
+ * @param {Function} [iteratee=_.identity] The function invoked per iteration.
+ * @returns {Array|Object} Returns `collection`.
+ * @see _.forEachRight
+ * @example
+ *
+ * _([1, 2]).forEach(function(value) {
+ *   console.log(value);
+ * });
+ * // => Logs `1` then `2`.
+ *
+ * _.forEach({ 'a': 1, 'b': 2 }, function(value, key) {
+ *   console.log(key);
+ * });
+ * // => Logs 'a' then 'b' (iteration order is not guaranteed).
+ */
+function forEach(collection, iteratee) {
+  var func = isArray(collection) ? arrayEach : baseEach;
+  return func(collection, baseIteratee(iteratee, 3));
+}
+
+module.exports = forEach;
+
+},{"./_arrayEach":101,"./_baseEach":115,"./_baseIteratee":128,"./isArray":254}],250:[function(require,module,exports){
+var baseGet = require('./_baseGet');
+
+/**
+ * Gets the value at `path` of `object`. If the resolved value is
+ * `undefined`, the `defaultValue` is used in its place.
+ *
+ * @static
+ * @memberOf _
+ * @since 3.7.0
+ * @category Object
+ * @param {Object} object The object to query.
+ * @param {Array|string} path The path of the property to get.
+ * @param {*} [defaultValue] The value returned for `undefined` resolved values.
+ * @returns {*} Returns the resolved value.
+ * @example
+ *
+ * var object = { 'a': [{ 'b': { 'c': 3 } }] };
+ *
+ * _.get(object, 'a[0].b.c');
+ * // => 3
+ *
+ * _.get(object, ['a', '0', 'b', 'c']);
+ * // => 3
+ *
+ * _.get(object, 'a.b.c', 'default');
+ * // => 'default'
+ */
+function get(object, path, defaultValue) {
+  var result = object == null ? undefined : baseGet(object, path);
+  return result === undefined ? defaultValue : result;
+}
+
+module.exports = get;
+
+},{"./_baseGet":119}],251:[function(require,module,exports){
+var baseHasIn = require('./_baseHasIn'),
+    hasPath = require('./_hasPath');
+
+/**
+ * Checks if `path` is a direct or inherited property of `object`.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Object
+ * @param {Object} object The object to query.
+ * @param {Array|string} path The path to check.
+ * @returns {boolean} Returns `true` if `path` exists, else `false`.
+ * @example
+ *
+ * var object = _.create({ 'a': _.create({ 'b': 2 }) });
+ *
+ * _.hasIn(object, 'a');
+ * // => true
+ *
+ * _.hasIn(object, 'a.b');
+ * // => true
+ *
+ * _.hasIn(object, ['a', 'b']);
+ * // => true
+ *
+ * _.hasIn(object, 'b');
+ * // => false
+ */
+function hasIn(object, path) {
+  return object != null && hasPath(object, path, baseHasIn);
+}
+
+module.exports = hasIn;
+
+},{"./_baseHasIn":122,"./_hasPath":190}],252:[function(require,module,exports){
+/**
+ * This method returns the first argument given to it.
+ *
+ * @static
+ * @since 0.1.0
+ * @memberOf _
+ * @category Util
+ * @param {*} value Any value.
+ * @returns {*} Returns `value`.
+ * @example
+ *
+ * var object = { 'user': 'fred' };
+ *
+ * console.log(_.identity(object) === object);
+ * // => true
+ */
+function identity(value) {
+  return value;
+}
+
+module.exports = identity;
+
+},{}],253:[function(require,module,exports){
 var isArrayLikeObject = require('./isArrayLikeObject');
 
 /** `Object#toString` result references. */
@@ -18822,7 +31172,7 @@ function isArguments(value) {
 
 module.exports = isArguments;
 
-},{"./isArrayLikeObject":188}],186:[function(require,module,exports){
+},{"./isArrayLikeObject":256}],254:[function(require,module,exports){
 /**
  * Checks if `value` is classified as an `Array` object.
  *
@@ -18852,7 +31202,7 @@ var isArray = Array.isArray;
 
 module.exports = isArray;
 
-},{}],187:[function(require,module,exports){
+},{}],255:[function(require,module,exports){
 var getLength = require('./_getLength'),
     isFunction = require('./isFunction'),
     isLength = require('./isLength');
@@ -18888,7 +31238,7 @@ function isArrayLike(value) {
 
 module.exports = isArrayLike;
 
-},{"./_getLength":130,"./isFunction":190,"./isLength":191}],188:[function(require,module,exports){
+},{"./_getLength":181,"./isFunction":259,"./isLength":260}],256:[function(require,module,exports){
 var isArrayLike = require('./isArrayLike'),
     isObjectLike = require('./isObjectLike');
 
@@ -18923,7 +31273,7 @@ function isArrayLikeObject(value) {
 
 module.exports = isArrayLikeObject;
 
-},{"./isArrayLike":187,"./isObjectLike":193}],189:[function(require,module,exports){
+},{"./isArrayLike":255,"./isObjectLike":262}],257:[function(require,module,exports){
 var root = require('./_root'),
     stubFalse = require('./stubFalse');
 
@@ -18962,7 +31312,45 @@ var isBuffer = !Buffer ? stubFalse : function(value) {
 
 module.exports = isBuffer;
 
-},{"./_root":170,"./stubFalse":207}],190:[function(require,module,exports){
+},{"./_root":230,"./stubFalse":281}],258:[function(require,module,exports){
+var baseIsEqual = require('./_baseIsEqual');
+
+/**
+ * Performs a deep comparison between two values to determine if they are
+ * equivalent.
+ *
+ * **Note:** This method supports comparing arrays, array buffers, booleans,
+ * date objects, error objects, maps, numbers, `Object` objects, regexes,
+ * sets, strings, symbols, and typed arrays. `Object` objects are compared
+ * by their own, not inherited, enumerable properties. Functions and DOM
+ * nodes are **not** supported.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Lang
+ * @param {*} value The value to compare.
+ * @param {*} other The other value to compare.
+ * @returns {boolean} Returns `true` if the values are equivalent,
+ *  else `false`.
+ * @example
+ *
+ * var object = { 'user': 'fred' };
+ * var other = { 'user': 'fred' };
+ *
+ * _.isEqual(object, other);
+ * // => true
+ *
+ * object === other;
+ * // => false
+ */
+function isEqual(value, other) {
+  return baseIsEqual(value, other);
+}
+
+module.exports = isEqual;
+
+},{"./_baseIsEqual":124}],259:[function(require,module,exports){
 var isObject = require('./isObject');
 
 /** `Object#toString` result references. */
@@ -19007,7 +31395,7 @@ function isFunction(value) {
 
 module.exports = isFunction;
 
-},{"./isObject":192}],191:[function(require,module,exports){
+},{"./isObject":261}],260:[function(require,module,exports){
 /** Used as references for various `Number` constants. */
 var MAX_SAFE_INTEGER = 9007199254740991;
 
@@ -19045,7 +31433,7 @@ function isLength(value) {
 
 module.exports = isLength;
 
-},{}],192:[function(require,module,exports){
+},{}],261:[function(require,module,exports){
 /**
  * Checks if `value` is the
  * [language type](http://www.ecma-international.org/ecma-262/6.0/#sec-ecmascript-language-types)
@@ -19078,7 +31466,7 @@ function isObject(value) {
 
 module.exports = isObject;
 
-},{}],193:[function(require,module,exports){
+},{}],262:[function(require,module,exports){
 /**
  * Checks if `value` is object-like. A value is object-like if it's not `null`
  * and has a `typeof` result of "object".
@@ -19109,7 +31497,7 @@ function isObjectLike(value) {
 
 module.exports = isObjectLike;
 
-},{}],194:[function(require,module,exports){
+},{}],263:[function(require,module,exports){
 var getPrototype = require('./_getPrototype'),
     isHostObject = require('./_isHostObject'),
     isObjectLike = require('./isObjectLike');
@@ -19181,7 +31569,7 @@ function isPlainObject(value) {
 
 module.exports = isPlainObject;
 
-},{"./_getPrototype":133,"./_isHostObject":147,"./isObjectLike":193}],195:[function(require,module,exports){
+},{"./_getPrototype":185,"./_isHostObject":202,"./isObjectLike":262}],264:[function(require,module,exports){
 var isArray = require('./isArray'),
     isObjectLike = require('./isObjectLike');
 
@@ -19223,7 +31611,7 @@ function isString(value) {
 
 module.exports = isString;
 
-},{"./isArray":186,"./isObjectLike":193}],196:[function(require,module,exports){
+},{"./isArray":254,"./isObjectLike":262}],265:[function(require,module,exports){
 var isObjectLike = require('./isObjectLike');
 
 /** `Object#toString` result references. */
@@ -19264,7 +31652,7 @@ function isSymbol(value) {
 
 module.exports = isSymbol;
 
-},{"./isObjectLike":193}],197:[function(require,module,exports){
+},{"./isObjectLike":262}],266:[function(require,module,exports){
 var isLength = require('./isLength'),
     isObjectLike = require('./isObjectLike');
 
@@ -19346,7 +31734,31 @@ function isTypedArray(value) {
 
 module.exports = isTypedArray;
 
-},{"./isLength":191,"./isObjectLike":193}],198:[function(require,module,exports){
+},{"./isLength":260,"./isObjectLike":262}],267:[function(require,module,exports){
+/**
+ * Checks if `value` is `undefined`.
+ *
+ * @static
+ * @since 0.1.0
+ * @memberOf _
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is `undefined`, else `false`.
+ * @example
+ *
+ * _.isUndefined(void 0);
+ * // => true
+ *
+ * _.isUndefined(null);
+ * // => false
+ */
+function isUndefined(value) {
+  return value === undefined;
+}
+
+module.exports = isUndefined;
+
+},{}],268:[function(require,module,exports){
 var baseHas = require('./_baseHas'),
     baseKeys = require('./_baseKeys'),
     indexKeys = require('./_indexKeys'),
@@ -19404,7 +31816,7 @@ function keys(object) {
 
 module.exports = keys;
 
-},{"./_baseHas":100,"./_baseKeys":102,"./_indexKeys":142,"./_isIndex":148,"./_isPrototype":154,"./isArrayLike":187}],199:[function(require,module,exports){
+},{"./_baseHas":121,"./_baseKeys":129,"./_indexKeys":196,"./_isIndex":203,"./_isPrototype":209,"./isArrayLike":255}],269:[function(require,module,exports){
 var baseKeysIn = require('./_baseKeysIn'),
     indexKeys = require('./_indexKeys'),
     isIndex = require('./_isIndex'),
@@ -19461,7 +31873,7 @@ function keysIn(object) {
 
 module.exports = keysIn;
 
-},{"./_baseKeysIn":103,"./_indexKeys":142,"./_isIndex":148,"./_isPrototype":154}],200:[function(require,module,exports){
+},{"./_baseKeysIn":130,"./_indexKeys":196,"./_isIndex":203,"./_isPrototype":209}],270:[function(require,module,exports){
 var MapCache = require('./_MapCache');
 
 /** Used as the `TypeError` message for "Functions" methods. */
@@ -19536,7 +31948,7 @@ memoize.Cache = MapCache;
 
 module.exports = memoize;
 
-},{"./_MapCache":77}],201:[function(require,module,exports){
+},{"./_MapCache":89}],271:[function(require,module,exports){
 var baseMerge = require('./_baseMerge'),
     createAssigner = require('./_createAssigner');
 
@@ -19577,7 +31989,7 @@ var merge = createAssigner(function(object, source, srcIndex) {
 
 module.exports = merge;
 
-},{"./_baseMerge":105,"./_createAssigner":125}],202:[function(require,module,exports){
+},{"./_baseMerge":134,"./_createAssigner":162}],272:[function(require,module,exports){
 /**
  * A method that returns `undefined`.
  *
@@ -19596,7 +32008,7 @@ function noop() {
 
 module.exports = noop;
 
-},{}],203:[function(require,module,exports){
+},{}],273:[function(require,module,exports){
 /**
  * Gets the timestamp of the number of milliseconds that have elapsed since
  * the Unix epoch (1 January 1970 00:00:00 UTC).
@@ -19619,7 +32031,127 @@ function now() {
 
 module.exports = now;
 
-},{}],204:[function(require,module,exports){
+},{}],274:[function(require,module,exports){
+var arrayMap = require('./_arrayMap'),
+    baseDifference = require('./_baseDifference'),
+    baseFlatten = require('./_baseFlatten'),
+    basePick = require('./_basePick'),
+    getAllKeysIn = require('./_getAllKeysIn'),
+    rest = require('./rest'),
+    toKey = require('./_toKey');
+
+/**
+ * The opposite of `_.pick`; this method creates an object composed of the
+ * own and inherited enumerable string keyed properties of `object` that are
+ * not omitted.
+ *
+ * @static
+ * @since 0.1.0
+ * @memberOf _
+ * @category Object
+ * @param {Object} object The source object.
+ * @param {...(string|string[])} [props] The property identifiers to omit.
+ * @returns {Object} Returns the new object.
+ * @example
+ *
+ * var object = { 'a': 1, 'b': '2', 'c': 3 };
+ *
+ * _.omit(object, ['a', 'c']);
+ * // => { 'b': '2' }
+ */
+var omit = rest(function(object, props) {
+  if (object == null) {
+    return {};
+  }
+  props = arrayMap(baseFlatten(props, 1), toKey);
+  return basePick(object, baseDifference(getAllKeysIn(object), props));
+});
+
+module.exports = omit;
+
+},{"./_arrayMap":104,"./_baseDifference":114,"./_baseFlatten":116,"./_basePick":136,"./_getAllKeysIn":177,"./_toKey":241,"./rest":279}],275:[function(require,module,exports){
+var createWrapper = require('./_createWrapper'),
+    getHolder = require('./_getHolder'),
+    replaceHolders = require('./_replaceHolders'),
+    rest = require('./rest');
+
+/** Used to compose bitmasks for wrapper metadata. */
+var PARTIAL_FLAG = 32;
+
+/**
+ * Creates a function that invokes `func` with `partials` prepended to the
+ * arguments it receives. This method is like `_.bind` except it does **not**
+ * alter the `this` binding.
+ *
+ * The `_.partial.placeholder` value, which defaults to `_` in monolithic
+ * builds, may be used as a placeholder for partially applied arguments.
+ *
+ * **Note:** This method doesn't set the "length" property of partially
+ * applied functions.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.2.0
+ * @category Function
+ * @param {Function} func The function to partially apply arguments to.
+ * @param {...*} [partials] The arguments to be partially applied.
+ * @returns {Function} Returns the new partially applied function.
+ * @example
+ *
+ * var greet = function(greeting, name) {
+ *   return greeting + ' ' + name;
+ * };
+ *
+ * var sayHelloTo = _.partial(greet, 'hello');
+ * sayHelloTo('fred');
+ * // => 'hello fred'
+ *
+ * // Partially applied with placeholders.
+ * var greetFred = _.partial(greet, _, 'fred');
+ * greetFred('hi');
+ * // => 'hi fred'
+ */
+var partial = rest(function(func, partials) {
+  var holders = replaceHolders(partials, getHolder(partial));
+  return createWrapper(func, PARTIAL_FLAG, undefined, partials, holders);
+});
+
+// Assign default placeholders.
+partial.placeholder = {};
+
+module.exports = partial;
+
+},{"./_createWrapper":172,"./_getHolder":180,"./_replaceHolders":229,"./rest":279}],276:[function(require,module,exports){
+var arrayMap = require('./_arrayMap'),
+    baseFlatten = require('./_baseFlatten'),
+    basePick = require('./_basePick'),
+    rest = require('./rest'),
+    toKey = require('./_toKey');
+
+/**
+ * Creates an object composed of the picked `object` properties.
+ *
+ * @static
+ * @since 0.1.0
+ * @memberOf _
+ * @category Object
+ * @param {Object} object The source object.
+ * @param {...(string|string[])} [props] The property identifiers to pick.
+ * @returns {Object} Returns the new object.
+ * @example
+ *
+ * var object = { 'a': 1, 'b': '2', 'c': 3 };
+ *
+ * _.pick(object, ['a', 'c']);
+ * // => { 'a': 1, 'c': 3 }
+ */
+var pick = rest(function(object, props) {
+  return object == null ? {} : basePick(object, arrayMap(baseFlatten(props, 1), toKey));
+});
+
+module.exports = pick;
+
+},{"./_arrayMap":104,"./_baseFlatten":116,"./_basePick":136,"./_toKey":241,"./rest":279}],277:[function(require,module,exports){
 var baseProperty = require('./_baseProperty'),
     basePropertyDeep = require('./_basePropertyDeep'),
     isKey = require('./_isKey'),
@@ -19653,7 +32185,60 @@ function property(path) {
 
 module.exports = property;
 
-},{"./_baseProperty":107,"./_basePropertyDeep":108,"./_isKey":150,"./_toKey":178}],205:[function(require,module,exports){
+},{"./_baseProperty":137,"./_basePropertyDeep":138,"./_isKey":205,"./_toKey":241}],278:[function(require,module,exports){
+var arrayReduce = require('./_arrayReduce'),
+    baseEach = require('./_baseEach'),
+    baseIteratee = require('./_baseIteratee'),
+    baseReduce = require('./_baseReduce'),
+    isArray = require('./isArray');
+
+/**
+ * Reduces `collection` to a value which is the accumulated result of running
+ * each element in `collection` thru `iteratee`, where each successive
+ * invocation is supplied the return value of the previous. If `accumulator`
+ * is not given, the first element of `collection` is used as the initial
+ * value. The iteratee is invoked with four arguments:
+ * (accumulator, value, index|key, collection).
+ *
+ * Many lodash methods are guarded to work as iteratees for methods like
+ * `_.reduce`, `_.reduceRight`, and `_.transform`.
+ *
+ * The guarded methods are:
+ * `assign`, `defaults`, `defaultsDeep`, `includes`, `merge`, `orderBy`,
+ * and `sortBy`
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Collection
+ * @param {Array|Object} collection The collection to iterate over.
+ * @param {Function} [iteratee=_.identity] The function invoked per iteration.
+ * @param {*} [accumulator] The initial value.
+ * @returns {*} Returns the accumulated value.
+ * @see _.reduceRight
+ * @example
+ *
+ * _.reduce([1, 2], function(sum, n) {
+ *   return sum + n;
+ * }, 0);
+ * // => 3
+ *
+ * _.reduce({ 'a': 1, 'b': 2, 'c': 1 }, function(result, value, key) {
+ *   (result[value] || (result[value] = [])).push(key);
+ *   return result;
+ * }, {});
+ * // => { '1': ['a', 'c'], '2': ['b'] } (iteration order is not guaranteed)
+ */
+function reduce(collection, iteratee, accumulator) {
+  var func = isArray(collection) ? arrayReduce : baseReduce,
+      initAccum = arguments.length < 3;
+
+  return func(collection, baseIteratee(iteratee, 4), accumulator, initAccum, baseEach);
+}
+
+module.exports = reduce;
+
+},{"./_arrayReduce":106,"./_baseEach":115,"./_baseIteratee":128,"./_baseReduce":139,"./isArray":254}],279:[function(require,module,exports){
 var apply = require('./_apply'),
     toInteger = require('./toInteger');
 
@@ -19719,7 +32304,7 @@ function rest(func, start) {
 
 module.exports = rest;
 
-},{"./_apply":87,"./toInteger":210}],206:[function(require,module,exports){
+},{"./_apply":100,"./toInteger":284}],280:[function(require,module,exports){
 /**
  * A method that returns a new empty array.
  *
@@ -19744,7 +32329,7 @@ function stubArray() {
 
 module.exports = stubArray;
 
-},{}],207:[function(require,module,exports){
+},{}],281:[function(require,module,exports){
 /**
  * A method that returns `false`.
  *
@@ -19764,7 +32349,7 @@ function stubFalse() {
 
 module.exports = stubFalse;
 
-},{}],208:[function(require,module,exports){
+},{}],282:[function(require,module,exports){
 var debounce = require('./debounce'),
     isObject = require('./isObject');
 
@@ -19832,7 +32417,7 @@ function throttle(func, wait, options) {
 
 module.exports = throttle;
 
-},{"./debounce":181,"./isObject":192}],209:[function(require,module,exports){
+},{"./debounce":245,"./isObject":261}],283:[function(require,module,exports){
 var toNumber = require('./toNumber');
 
 /** Used as references for various `Number` constants. */
@@ -19876,7 +32461,7 @@ function toFinite(value) {
 
 module.exports = toFinite;
 
-},{"./toNumber":211}],210:[function(require,module,exports){
+},{"./toNumber":285}],284:[function(require,module,exports){
 var toFinite = require('./toFinite');
 
 /**
@@ -19914,7 +32499,7 @@ function toInteger(value) {
 
 module.exports = toInteger;
 
-},{"./toFinite":209}],211:[function(require,module,exports){
+},{"./toFinite":283}],285:[function(require,module,exports){
 var isFunction = require('./isFunction'),
     isObject = require('./isObject'),
     isSymbol = require('./isSymbol');
@@ -19983,7 +32568,7 @@ function toNumber(value) {
 
 module.exports = toNumber;
 
-},{"./isFunction":190,"./isObject":192,"./isSymbol":196}],212:[function(require,module,exports){
+},{"./isFunction":259,"./isObject":261,"./isSymbol":265}],286:[function(require,module,exports){
 var copyObject = require('./_copyObject'),
     keysIn = require('./keysIn');
 
@@ -20017,7 +32602,7 @@ function toPlainObject(value) {
 
 module.exports = toPlainObject;
 
-},{"./_copyObject":122,"./keysIn":199}],213:[function(require,module,exports){
+},{"./_copyObject":158,"./keysIn":269}],287:[function(require,module,exports){
 var baseToString = require('./_baseToString');
 
 /**
@@ -20047,7 +32632,37 @@ function toString(value) {
 
 module.exports = toString;
 
-},{"./_baseToString":110}],214:[function(require,module,exports){
+},{"./_baseToString":142}],288:[function(require,module,exports){
+var toString = require('./toString');
+
+/** Used to generate unique IDs. */
+var idCounter = 0;
+
+/**
+ * Generates a unique ID. If `prefix` is given, the ID is appended to it.
+ *
+ * @static
+ * @since 0.1.0
+ * @memberOf _
+ * @category Util
+ * @param {string} [prefix=''] The value to prefix the ID with.
+ * @returns {string} Returns the unique ID.
+ * @example
+ *
+ * _.uniqueId('contact_');
+ * // => 'contact_104'
+ *
+ * _.uniqueId();
+ * // => '105'
+ */
+function uniqueId(prefix) {
+  var id = ++idCounter;
+  return toString(prefix) + id;
+}
+
+module.exports = uniqueId;
+
+},{"./toString":287}],289:[function(require,module,exports){
 var LazyWrapper = require('./_LazyWrapper'),
     LodashWrapper = require('./_LodashWrapper'),
     baseLodash = require('./_baseLodash'),
@@ -20196,7 +32811,7 @@ lodash.prototype.constructor = lodash;
 
 module.exports = lodash;
 
-},{"./_LazyWrapper":73,"./_LodashWrapper":75,"./_baseLodash":104,"./_wrapperClone":180,"./isArray":186,"./isObjectLike":193}],215:[function(require,module,exports){
+},{"./_LazyWrapper":85,"./_LodashWrapper":87,"./_baseLodash":131,"./_wrapperClone":243,"./isArray":254,"./isObjectLike":262}],290:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -20557,7 +33172,7 @@ AppBar.contextTypes = {
 };
 exports.default = AppBar;
 }).call(this,require('_process'))
-},{"../IconButton":224,"../Paper":234,"../svg-icons/navigation/menu":317,"../utils/propTypes":326,"_process":37,"react":534,"simple-assign":304,"warning":305}],216:[function(require,module,exports){
+},{"../IconButton":299,"../Paper":309,"../svg-icons/navigation/menu":392,"../utils/propTypes":401,"_process":47,"react":654,"simple-assign":379,"warning":380}],291:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -20572,7 +33187,7 @@ var _AppBar2 = _interopRequireDefault(_AppBar);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = _AppBar2.default;
-},{"./AppBar":215}],217:[function(require,module,exports){
+},{"./AppBar":290}],292:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -21232,7 +33847,7 @@ AutoComplete.Divider = _Divider2.default;
 
 exports.default = AutoComplete;
 }).call(this,require('_process'))
-},{"../Divider":220,"../Menu":229,"../MenuItem":232,"../Popover/Popover":235,"../TextField":246,"../utils/deprecatedPropType":323,"../utils/propTypes":326,"_process":37,"keycode":288,"react":534,"react-dom":358,"simple-assign":304,"warning":305}],218:[function(require,module,exports){
+},{"../Divider":295,"../Menu":304,"../MenuItem":307,"../Popover/Popover":310,"../TextField":321,"../utils/deprecatedPropType":398,"../utils/propTypes":401,"_process":47,"keycode":363,"react":654,"react-dom":433,"simple-assign":379,"warning":380}],293:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -21247,7 +33862,7 @@ var _AutoComplete2 = _interopRequireDefault(_AutoComplete);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = _AutoComplete2.default;
-},{"./AutoComplete":217}],219:[function(require,module,exports){
+},{"./AutoComplete":292}],294:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -21321,7 +33936,7 @@ Divider.defaultProps = defaultProps;
 Divider.contextTypes = contextTypes;
 
 exports.default = Divider;
-},{"react":534,"simple-assign":304}],220:[function(require,module,exports){
+},{"react":654,"simple-assign":379}],295:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -21336,7 +33951,7 @@ var _Divider2 = _interopRequireDefault(_Divider);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = _Divider2.default;
-},{"./Divider":219}],221:[function(require,module,exports){
+},{"./Divider":294}],296:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -21483,7 +34098,7 @@ FontIcon.contextTypes = {
   muiTheme: _react.PropTypes.object.isRequired
 };
 exports.default = FontIcon;
-},{"../styles/transitions":311,"react":534,"simple-assign":304}],222:[function(require,module,exports){
+},{"../styles/transitions":386,"react":654,"simple-assign":379}],297:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -21498,7 +34113,7 @@ var _FontIcon2 = _interopRequireDefault(_FontIcon);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = _FontIcon2.default;
-},{"./FontIcon":221}],223:[function(require,module,exports){
+},{"./FontIcon":296}],298:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -21814,7 +34429,7 @@ IconButton.contextTypes = {
   muiTheme: _react.PropTypes.object.isRequired
 };
 exports.default = IconButton;
-},{"../FontIcon":222,"../internal/EnhancedButton":249,"../internal/Tooltip":254,"../styles/transitions":311,"../utils/childUtils":321,"../utils/propTypes":326,"react":534,"simple-assign":304}],224:[function(require,module,exports){
+},{"../FontIcon":297,"../internal/EnhancedButton":324,"../internal/Tooltip":329,"../styles/transitions":386,"../utils/childUtils":396,"../utils/propTypes":401,"react":654,"simple-assign":379}],299:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -21829,7 +34444,7 @@ var _IconButton2 = _interopRequireDefault(_IconButton);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = _IconButton2.default;
-},{"./IconButton":223}],225:[function(require,module,exports){
+},{"./IconButton":298}],300:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -21971,7 +34586,7 @@ List.contextTypes = {
 };
 exports.default = List;
 }).call(this,require('_process'))
-},{"../Subheader":238,"../utils/deprecatedPropType":323,"../utils/propTypes":326,"_process":37,"react":534,"simple-assign":304,"warning":305}],226:[function(require,module,exports){
+},{"../Subheader":313,"../utils/deprecatedPropType":398,"../utils/propTypes":401,"_process":47,"react":654,"simple-assign":379,"warning":380}],301:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -22647,7 +35262,7 @@ ListItem.contextTypes = {
   muiTheme: _react.PropTypes.object.isRequired
 };
 exports.default = ListItem;
-},{"../IconButton":224,"../internal/EnhancedButton":249,"../styles/transitions":311,"../svg-icons/navigation/expand-less":315,"../svg-icons/navigation/expand-more":316,"../utils/colorManipulator":322,"./NestedList":227,"react":534,"react-dom":358,"recompose/shallowEqual":301,"simple-assign":304}],227:[function(require,module,exports){
+},{"../IconButton":299,"../internal/EnhancedButton":324,"../styles/transitions":386,"../svg-icons/navigation/expand-less":390,"../svg-icons/navigation/expand-more":391,"../utils/colorManipulator":397,"./NestedList":302,"react":654,"react-dom":433,"recompose/shallowEqual":376,"simple-assign":379}],302:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -22730,7 +35345,7 @@ NestedList.defaultProps = {
   open: false
 };
 exports.default = NestedList;
-},{"./List":225,"react":534,"simple-assign":304}],228:[function(require,module,exports){
+},{"./List":300,"react":654,"simple-assign":379}],303:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -23458,7 +36073,7 @@ var _initialiseProps = function _initialiseProps() {
 
 exports.default = Menu;
 }).call(this,require('_process'))
-},{"../List/List":225,"../internal/ClickAwayListener":248,"../styles/transitions":311,"../utils/autoPrefix":318,"../utils/deprecatedPropType":323,"../utils/propTypes":326,"./menuUtils":230,"_process":37,"keycode":288,"react":534,"react-dom":358,"recompose/shallowEqual":301,"simple-assign":304,"warning":305}],229:[function(require,module,exports){
+},{"../List/List":300,"../internal/ClickAwayListener":323,"../styles/transitions":386,"../utils/autoPrefix":393,"../utils/deprecatedPropType":398,"../utils/propTypes":401,"./menuUtils":305,"_process":47,"keycode":363,"react":654,"react-dom":433,"recompose/shallowEqual":376,"simple-assign":379,"warning":380}],304:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -23479,7 +36094,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.Menu = _Menu3.default;
 exports.MenuItem = _MenuItem3.default;
 exports.default = _Menu3.default;
-},{"../MenuItem":232,"./Menu":228}],230:[function(require,module,exports){
+},{"../MenuItem":307,"./Menu":303}],305:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -23513,7 +36128,7 @@ var HotKeyHolder = exports.HotKeyHolder = function () {
 
   return HotKeyHolder;
 }();
-},{}],231:[function(require,module,exports){
+},{}],306:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -23870,7 +36485,7 @@ MenuItem.contextTypes = {
   muiTheme: _react.PropTypes.object.isRequired
 };
 exports.default = MenuItem;
-},{"../List/ListItem":226,"../Menu/Menu":228,"../Popover/Popover":235,"../svg-icons/navigation/check":314,"react":534,"react-dom":358,"recompose/shallowEqual":301,"simple-assign":304}],232:[function(require,module,exports){
+},{"../List/ListItem":301,"../Menu/Menu":303,"../Popover/Popover":310,"../svg-icons/navigation/check":389,"react":654,"react-dom":433,"recompose/shallowEqual":376,"simple-assign":379}],307:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -23885,7 +36500,7 @@ var _MenuItem2 = _interopRequireDefault(_MenuItem);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = _MenuItem2.default;
-},{"./MenuItem":231}],233:[function(require,module,exports){
+},{"./MenuItem":306}],308:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -24016,7 +36631,7 @@ Paper.contextTypes = {
   muiTheme: _react.PropTypes.object.isRequired
 };
 exports.default = Paper;
-},{"../styles/transitions":311,"../utils/propTypes":326,"react":534,"simple-assign":304}],234:[function(require,module,exports){
+},{"../styles/transitions":386,"../utils/propTypes":401,"react":654,"simple-assign":379}],309:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -24031,7 +36646,7 @@ var _Paper2 = _interopRequireDefault(_Paper);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = _Paper2.default;
-},{"./Paper":233}],235:[function(require,module,exports){
+},{"./Paper":308}],310:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -24468,7 +37083,7 @@ Popover.contextTypes = {
   muiTheme: _react.PropTypes.object.isRequired
 };
 exports.default = Popover;
-},{"../Paper":234,"../internal/RenderToLayer":251,"../utils/propTypes":326,"./PopoverAnimationDefault":236,"lodash/throttle":208,"react":534,"react-dom":358,"react-event-listener":291}],236:[function(require,module,exports){
+},{"../Paper":309,"../internal/RenderToLayer":326,"../utils/propTypes":401,"./PopoverAnimationDefault":311,"lodash/throttle":282,"react":654,"react-dom":433,"react-event-listener":366}],311:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -24626,7 +37241,7 @@ PopoverDefaultAnimation.contextTypes = {
   muiTheme: _react.PropTypes.object.isRequired
 };
 exports.default = PopoverDefaultAnimation;
-},{"../Paper":234,"../styles/transitions":311,"../utils/propTypes":326,"react":534,"simple-assign":304}],237:[function(require,module,exports){
+},{"../Paper":309,"../styles/transitions":386,"../utils/propTypes":401,"react":654,"simple-assign":379}],312:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -24707,7 +37322,7 @@ Subheader.defaultProps = defaultProps;
 Subheader.contextTypes = contextTypes;
 
 exports.default = Subheader;
-},{"react":534,"simple-assign":304}],238:[function(require,module,exports){
+},{"react":654,"simple-assign":379}],313:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -24722,7 +37337,7 @@ var _Subheader2 = _interopRequireDefault(_Subheader);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = _Subheader2.default;
-},{"./Subheader":237}],239:[function(require,module,exports){
+},{"./Subheader":312}],314:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -24876,7 +37491,7 @@ SvgIcon.contextTypes = {
   muiTheme: _react.PropTypes.object.isRequired
 };
 exports.default = SvgIcon;
-},{"../styles/transitions":311,"react":534,"simple-assign":304}],240:[function(require,module,exports){
+},{"../styles/transitions":386,"react":654,"simple-assign":379}],315:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -24891,7 +37506,7 @@ var _SvgIcon2 = _interopRequireDefault(_SvgIcon);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = _SvgIcon2.default;
-},{"./SvgIcon":239}],241:[function(require,module,exports){
+},{"./SvgIcon":314}],316:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -25111,7 +37726,7 @@ EnhancedTextarea.contextTypes = {
   muiTheme: _react.PropTypes.object.isRequired
 };
 exports.default = EnhancedTextarea;
-},{"react":534,"react-event-listener":291,"simple-assign":304}],242:[function(require,module,exports){
+},{"react":654,"react-event-listener":366,"simple-assign":379}],317:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -25678,7 +38293,7 @@ TextField.contextTypes = {
 };
 exports.default = TextField;
 }).call(this,require('_process'))
-},{"../styles/transitions":311,"../utils/colorManipulator":322,"../utils/deprecatedPropType":323,"./EnhancedTextarea":241,"./TextFieldHint":243,"./TextFieldLabel":244,"./TextFieldUnderline":245,"_process":37,"keycode":288,"react":534,"react-dom":358,"recompose/shallowEqual":301,"simple-assign":304,"warning":305}],243:[function(require,module,exports){
+},{"../styles/transitions":386,"../utils/colorManipulator":397,"../utils/deprecatedPropType":398,"./EnhancedTextarea":316,"./TextFieldHint":318,"./TextFieldLabel":319,"./TextFieldUnderline":320,"_process":47,"keycode":363,"react":654,"react-dom":433,"recompose/shallowEqual":376,"simple-assign":379,"warning":380}],318:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -25755,7 +38370,7 @@ TextFieldHint.defaultProps = {
 };
 
 exports.default = TextFieldHint;
-},{"../styles/transitions":311,"react":534,"simple-assign":304}],244:[function(require,module,exports){
+},{"../styles/transitions":386,"react":654,"simple-assign":379}],319:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -25868,7 +38483,7 @@ TextFieldLabel.defaultProps = {
 };
 
 exports.default = TextFieldLabel;
-},{"../styles/transitions":311,"react":534,"simple-assign":304}],245:[function(require,module,exports){
+},{"../styles/transitions":386,"react":654,"simple-assign":379}],320:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -25999,7 +38614,7 @@ TextFieldUnderline.propTypes = propTypes;
 TextFieldUnderline.defaultProps = defaultProps;
 
 exports.default = TextFieldUnderline;
-},{"../styles/transitions":311,"react":534,"simple-assign":304}],246:[function(require,module,exports){
+},{"../styles/transitions":386,"react":654,"simple-assign":379}],321:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -26014,7 +38629,7 @@ var _TextField2 = _interopRequireDefault(_TextField);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = _TextField2.default;
-},{"./TextField":242}],247:[function(require,module,exports){
+},{"./TextField":317}],322:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -26169,7 +38784,7 @@ CircleRipple.contextTypes = {
   muiTheme: _react.PropTypes.object.isRequired
 };
 exports.default = CircleRipple;
-},{"../styles/transitions":311,"../utils/autoPrefix":318,"react":534,"react-dom":358,"recompose/shallowEqual":301,"simple-assign":304}],248:[function(require,module,exports){
+},{"../styles/transitions":386,"../utils/autoPrefix":393,"react":654,"react-dom":433,"recompose/shallowEqual":376,"simple-assign":379}],323:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -26279,7 +38894,7 @@ ClickAwayListener.propTypes = {
   onClickAway: _react.PropTypes.any
 };
 exports.default = ClickAwayListener;
-},{"../utils/events":325,"react":534,"react-dom":358}],249:[function(require,module,exports){
+},{"../utils/events":400,"react":654,"react-dom":433}],324:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -26684,7 +39299,7 @@ EnhancedButton.contextTypes = {
   muiTheme: _react.PropTypes.object.isRequired
 };
 exports.default = EnhancedButton;
-},{"../utils/childUtils":321,"../utils/events":325,"./FocusRipple":250,"./TouchRipple":255,"keycode":288,"react":534,"simple-assign":304}],250:[function(require,module,exports){
+},{"../utils/childUtils":396,"../utils/events":400,"./FocusRipple":325,"./TouchRipple":330,"keycode":363,"react":654,"simple-assign":379}],325:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -26869,7 +39484,7 @@ FocusRipple.contextTypes = {
   muiTheme: _react.PropTypes.object.isRequired
 };
 exports.default = FocusRipple;
-},{"../styles/transitions":311,"../utils/autoPrefix":318,"./ScaleIn":252,"react":534,"react-dom":358,"recompose/shallowEqual":301,"simple-assign":304}],251:[function(require,module,exports){
+},{"../styles/transitions":386,"../utils/autoPrefix":393,"./ScaleIn":327,"react":654,"react-dom":433,"recompose/shallowEqual":376,"simple-assign":379}],326:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -27038,7 +39653,7 @@ RenderToLayer.contextTypes = {
   muiTheme: _react.PropTypes.object.isRequired
 };
 exports.default = RenderToLayer;
-},{"../utils/dom":324,"react":534,"react-dom":358}],252:[function(require,module,exports){
+},{"../utils/dom":399,"react":654,"react-dom":433}],327:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -27152,7 +39767,7 @@ ScaleIn.contextTypes = {
   muiTheme: _react.PropTypes.object.isRequired
 };
 exports.default = ScaleIn;
-},{"./ScaleInChild":253,"react":534,"react-addons-transition-group":290,"simple-assign":304}],253:[function(require,module,exports){
+},{"./ScaleInChild":328,"react":654,"react-addons-transition-group":365,"simple-assign":379}],328:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -27306,7 +39921,7 @@ ScaleInChild.contextTypes = {
   muiTheme: _react.PropTypes.object.isRequired
 };
 exports.default = ScaleInChild;
-},{"../styles/transitions":311,"../utils/autoPrefix":318,"react":534,"react-dom":358,"simple-assign":304}],254:[function(require,module,exports){
+},{"../styles/transitions":386,"../utils/autoPrefix":393,"react":654,"react-dom":433,"simple-assign":379}],329:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -27512,7 +40127,7 @@ Tooltip.contextTypes = {
   muiTheme: _react.PropTypes.object.isRequired
 };
 exports.default = Tooltip;
-},{"../styles/transitions":311,"react":534,"simple-assign":304}],255:[function(require,module,exports){
+},{"../styles/transitions":386,"react":654,"simple-assign":379}],330:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -27805,7 +40420,7 @@ TouchRipple.contextTypes = {
   muiTheme: _react.PropTypes.object.isRequired
 };
 exports.default = TouchRipple;
-},{"../utils/dom":324,"./CircleRipple":247,"react":534,"react-addons-transition-group":290,"react-dom":358,"simple-assign":304}],256:[function(require,module,exports){
+},{"../utils/dom":399,"./CircleRipple":322,"react":654,"react-addons-transition-group":365,"react-dom":433,"simple-assign":379}],331:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -28004,7 +40619,7 @@ var Prefixer = (function () {
 
 exports['default'] = Prefixer;
 module.exports = exports['default'];
-},{"./plugins/calc":257,"./plugins/cursor":258,"./plugins/flex":259,"./plugins/flexboxIE":260,"./plugins/flexboxOld":261,"./plugins/gradient":262,"./plugins/sizing":263,"./plugins/transition":264,"./prefixProps":265,"./utils/assign":266,"./utils/capitalizeString":268,"./utils/getBrowserInformation":269,"./utils/getPrefixedKeyframes":270,"inline-style-prefix-all":281}],257:[function(require,module,exports){
+},{"./plugins/calc":332,"./plugins/cursor":333,"./plugins/flex":334,"./plugins/flexboxIE":335,"./plugins/flexboxOld":336,"./plugins/gradient":337,"./plugins/sizing":338,"./plugins/transition":339,"./prefixProps":340,"./utils/assign":341,"./utils/capitalizeString":343,"./utils/getBrowserInformation":344,"./utils/getPrefixedKeyframes":345,"inline-style-prefix-all":356}],332:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -28035,7 +40650,7 @@ function calc(_ref2) {
 }
 
 module.exports = exports['default'];
-},{"../utils/camelToDashCase":267}],258:[function(require,module,exports){
+},{"../utils/camelToDashCase":342}],333:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -28073,7 +40688,7 @@ function cursor(_ref) {
 }
 
 module.exports = exports['default'];
-},{"../utils/camelToDashCase":267}],259:[function(require,module,exports){
+},{"../utils/camelToDashCase":342}],334:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -28109,7 +40724,7 @@ function flex(_ref) {
 }
 
 module.exports = exports['default'];
-},{"../utils/camelToDashCase":267}],260:[function(require,module,exports){
+},{"../utils/camelToDashCase":342}],335:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -28175,7 +40790,7 @@ function flexboxIE(_ref2) {
 }
 
 module.exports = exports['default'];
-},{"../utils/camelToDashCase":267}],261:[function(require,module,exports){
+},{"../utils/camelToDashCase":342}],336:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -28247,7 +40862,7 @@ function flexboxOld(_ref2) {
 }
 
 module.exports = exports['default'];
-},{"../utils/camelToDashCase":267}],262:[function(require,module,exports){
+},{"../utils/camelToDashCase":342}],337:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -28280,7 +40895,7 @@ function gradient(_ref2) {
 }
 
 module.exports = exports['default'];
-},{"../utils/camelToDashCase":267}],263:[function(require,module,exports){
+},{"../utils/camelToDashCase":342}],338:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -28327,7 +40942,7 @@ function sizing(_ref2) {
 }
 
 module.exports = exports['default'];
-},{"../utils/camelToDashCase":267}],264:[function(require,module,exports){
+},{"../utils/camelToDashCase":342}],339:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -28389,7 +41004,7 @@ function transition(_ref2) {
 }
 
 module.exports = exports['default'];
-},{"../utils/camelToDashCase":267,"../utils/capitalizeString":268,"../utils/unprefixProperty":271}],265:[function(require,module,exports){
+},{"../utils/camelToDashCase":342,"../utils/capitalizeString":343,"../utils/unprefixProperty":346}],340:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -28397,7 +41012,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports["default"] = { "chrome": { "transform": 35, "transformOrigin": 35, "transformOriginX": 35, "transformOriginY": 35, "backfaceVisibility": 35, "perspective": 35, "perspectiveOrigin": 35, "transformStyle": 35, "transformOriginZ": 35, "animation": 42, "animationDelay": 42, "animationDirection": 42, "animationFillMode": 42, "animationDuration": 42, "animationIterationCount": 42, "animationName": 42, "animationPlayState": 42, "animationTimingFunction": 42, "appearance": 52, "userSelect": 52, "fontKerning": 32, "textEmphasisPosition": 52, "textEmphasis": 52, "textEmphasisStyle": 52, "textEmphasisColor": 52, "boxDecorationBreak": 52, "clipPath": 52, "maskImage": 52, "maskMode": 52, "maskRepeat": 52, "maskPosition": 52, "maskClip": 52, "maskOrigin": 52, "maskSize": 52, "maskComposite": 52, "mask": 52, "maskBorderSource": 52, "maskBorderMode": 52, "maskBorderSlice": 52, "maskBorderWidth": 52, "maskBorderOutset": 52, "maskBorderRepeat": 52, "maskBorder": 52, "maskType": 52, "textDecorationStyle": 52, "textDecorationSkip": 52, "textDecorationLine": 52, "textDecorationColor": 52, "filter": 52, "fontFeatureSettings": 47, "breakAfter": 52, "breakBefore": 52, "breakInside": 52, "columnCount": 52, "columnFill": 52, "columnGap": 52, "columnRule": 52, "columnRuleColor": 52, "columnRuleStyle": 52, "columnRuleWidth": 52, "columns": 52, "columnSpan": 52, "columnWidth": 52 }, "safari": { "flex": 8, "flexBasis": 8, "flexDirection": 8, "flexGrow": 8, "flexFlow": 8, "flexShrink": 8, "flexWrap": 8, "alignContent": 8, "alignItems": 8, "alignSelf": 8, "justifyContent": 8, "order": 8, "transition": 6, "transitionDelay": 6, "transitionDuration": 6, "transitionProperty": 6, "transitionTimingFunction": 6, "transform": 8, "transformOrigin": 8, "transformOriginX": 8, "transformOriginY": 8, "backfaceVisibility": 8, "perspective": 8, "perspectiveOrigin": 8, "transformStyle": 8, "transformOriginZ": 8, "animation": 8, "animationDelay": 8, "animationDirection": 8, "animationFillMode": 8, "animationDuration": 8, "animationIterationCount": 8, "animationName": 8, "animationPlayState": 8, "animationTimingFunction": 8, "appearance": 9.1, "userSelect": 9.1, "backdropFilter": 9.1, "fontKerning": 9.1, "scrollSnapType": 9.1, "scrollSnapPointsX": 9.1, "scrollSnapPointsY": 9.1, "scrollSnapDestination": 9.1, "scrollSnapCoordinate": 9.1, "textEmphasisPosition": 7, "textEmphasis": 7, "textEmphasisStyle": 7, "textEmphasisColor": 7, "boxDecorationBreak": 9.1, "clipPath": 9.1, "maskImage": 9.1, "maskMode": 9.1, "maskRepeat": 9.1, "maskPosition": 9.1, "maskClip": 9.1, "maskOrigin": 9.1, "maskSize": 9.1, "maskComposite": 9.1, "mask": 9.1, "maskBorderSource": 9.1, "maskBorderMode": 9.1, "maskBorderSlice": 9.1, "maskBorderWidth": 9.1, "maskBorderOutset": 9.1, "maskBorderRepeat": 9.1, "maskBorder": 9.1, "maskType": 9.1, "textDecorationStyle": 9.1, "textDecorationSkip": 9.1, "textDecorationLine": 9.1, "textDecorationColor": 9.1, "shapeImageThreshold": 9.1, "shapeImageMargin": 9.1, "shapeImageOutside": 9.1, "filter": 9, "hyphens": 9.1, "flowInto": 9.1, "flowFrom": 9.1, "breakBefore": 8, "breakAfter": 8, "breakInside": 8, "regionFragment": 9.1, "columnCount": 8, "columnFill": 8, "columnGap": 8, "columnRule": 8, "columnRuleColor": 8, "columnRuleStyle": 8, "columnRuleWidth": 8, "columns": 8, "columnSpan": 8, "columnWidth": 8 }, "firefox": { "appearance": 47, "userSelect": 47, "boxSizing": 28, "textAlignLast": 47, "textDecorationStyle": 35, "textDecorationSkip": 35, "textDecorationLine": 35, "textDecorationColor": 35, "tabSize": 47, "hyphens": 42, "fontFeatureSettings": 33, "breakAfter": 47, "breakBefore": 47, "breakInside": 47, "columnCount": 47, "columnFill": 47, "columnGap": 47, "columnRule": 47, "columnRuleColor": 47, "columnRuleStyle": 47, "columnRuleWidth": 47, "columns": 47, "columnSpan": 47, "columnWidth": 47 }, "opera": { "flex": 16, "flexBasis": 16, "flexDirection": 16, "flexGrow": 16, "flexFlow": 16, "flexShrink": 16, "flexWrap": 16, "alignContent": 16, "alignItems": 16, "alignSelf": 16, "justifyContent": 16, "order": 16, "transform": 22, "transformOrigin": 22, "transformOriginX": 22, "transformOriginY": 22, "backfaceVisibility": 22, "perspective": 22, "perspectiveOrigin": 22, "transformStyle": 22, "transformOriginZ": 22, "animation": 29, "animationDelay": 29, "animationDirection": 29, "animationFillMode": 29, "animationDuration": 29, "animationIterationCount": 29, "animationName": 29, "animationPlayState": 29, "animationTimingFunction": 29, "appearance": 37, "userSelect": 37, "fontKerning": 19, "textEmphasisPosition": 37, "textEmphasis": 37, "textEmphasisStyle": 37, "textEmphasisColor": 37, "boxDecorationBreak": 37, "clipPath": 37, "maskImage": 37, "maskMode": 37, "maskRepeat": 37, "maskPosition": 37, "maskClip": 37, "maskOrigin": 37, "maskSize": 37, "maskComposite": 37, "mask": 37, "maskBorderSource": 37, "maskBorderMode": 37, "maskBorderSlice": 37, "maskBorderWidth": 37, "maskBorderOutset": 37, "maskBorderRepeat": 37, "maskBorder": 37, "maskType": 37, "filter": 37, "fontFeatureSettings": 37, "breakAfter": 37, "breakBefore": 37, "breakInside": 37, "columnCount": 37, "columnFill": 37, "columnGap": 37, "columnRule": 37, "columnRuleColor": 37, "columnRuleStyle": 37, "columnRuleWidth": 37, "columns": 37, "columnSpan": 37, "columnWidth": 37 }, "ie": { "gridTemplateRows": 11, "breakInside": 11, "transformOriginY": 9, "gridRowStart": 11, "gridColumn": 11, "regionFragment": 11, "breakBefore": 11, "userSelect": 11, "gridColumnEnd": 11, "gridRowEnd": 11, "gridTemplateColumns": 11, "gridColumnStart": 11, "gridArea": 11, "flexDirection": 10, "gridRowGap": 11, "gridTemplateAreas": 11, "gridAutoRows": 11, "gridRow": 11, "scrollSnapDestination": 11, "scrollSnapPointsY": 11, "touchAction": 10, "gridGap": 11, "gridColumnGap": 11, "wrapFlow": 11, "scrollSnapPointsX": 11, "flowFrom": 11, "transform": 9, "breakAfter": 11, "wrapMargin": 11, "scrollSnapCoordinate": 11, "flexWrap": 10, "scrollSnapType": 11, "flex": 10, "wrapThrough": 11, "gridAutoColumns": 11, "flexFlow": 10, "gridTemplate": 11, "hyphens": 11, "grid": 11, "transformOriginX": 9, "flowInto": 11, "transformOrigin": 9, "gridAutoFlow": 11, "textSizeAdjust": 11 }, "edge": { "userSelect": 14, "wrapFlow": 14, "wrapThrough": 14, "wrapMargin": 14, "scrollSnapType": 14, "scrollSnapPointsX": 14, "scrollSnapPointsY": 14, "scrollSnapDestination": 14, "scrollSnapCoordinate": 14, "hyphens": 14, "flowInto": 14, "flowFrom": 14, "breakBefore": 14, "breakAfter": 14, "breakInside": 14, "regionFragment": 14, "gridTemplateColumns": 14, "gridTemplateRows": 14, "gridTemplateAreas": 14, "gridTemplate": 14, "gridAutoColumns": 14, "gridAutoRows": 14, "gridAutoFlow": 14, "grid": 14, "gridRowStart": 14, "gridColumnStart": 14, "gridRowEnd": 14, "gridRow": 14, "gridColumn": 14, "gridColumnEnd": 14, "gridColumnGap": 14, "gridRowGap": 14, "gridArea": 14, "gridGap": 14 }, "ios_saf": { "flex": 8.1, "flexBasis": 8.1, "flexDirection": 8.1, "flexGrow": 8.1, "flexFlow": 8.1, "flexShrink": 8.1, "flexWrap": 8.1, "alignContent": 8.1, "alignItems": 8.1, "alignSelf": 8.1, "justifyContent": 8.1, "order": 8.1, "transition": 6, "transitionDelay": 6, "transitionDuration": 6, "transitionProperty": 6, "transitionTimingFunction": 6, "transform": 8.1, "transformOrigin": 8.1, "transformOriginX": 8.1, "transformOriginY": 8.1, "backfaceVisibility": 8.1, "perspective": 8.1, "perspectiveOrigin": 8.1, "transformStyle": 8.1, "transformOriginZ": 8.1, "animation": 8.1, "animationDelay": 8.1, "animationDirection": 8.1, "animationFillMode": 8.1, "animationDuration": 8.1, "animationIterationCount": 8.1, "animationName": 8.1, "animationPlayState": 8.1, "animationTimingFunction": 8.1, "appearance": 9.3, "userSelect": 9.3, "backdropFilter": 9.3, "fontKerning": 9.3, "scrollSnapType": 9.3, "scrollSnapPointsX": 9.3, "scrollSnapPointsY": 9.3, "scrollSnapDestination": 9.3, "scrollSnapCoordinate": 9.3, "boxDecorationBreak": 9.3, "clipPath": 9.3, "maskImage": 9.3, "maskMode": 9.3, "maskRepeat": 9.3, "maskPosition": 9.3, "maskClip": 9.3, "maskOrigin": 9.3, "maskSize": 9.3, "maskComposite": 9.3, "mask": 9.3, "maskBorderSource": 9.3, "maskBorderMode": 9.3, "maskBorderSlice": 9.3, "maskBorderWidth": 9.3, "maskBorderOutset": 9.3, "maskBorderRepeat": 9.3, "maskBorder": 9.3, "maskType": 9.3, "textSizeAdjust": 9.3, "textDecorationStyle": 9.3, "textDecorationSkip": 9.3, "textDecorationLine": 9.3, "textDecorationColor": 9.3, "shapeImageThreshold": 9.3, "shapeImageMargin": 9.3, "shapeImageOutside": 9.3, "filter": 9, "hyphens": 9.3, "flowInto": 9.3, "flowFrom": 9.3, "breakBefore": 8.1, "breakAfter": 8.1, "breakInside": 8.1, "regionFragment": 9.3, "columnCount": 8.1, "columnFill": 8.1, "columnGap": 8.1, "columnRule": 8.1, "columnRuleColor": 8.1, "columnRuleStyle": 8.1, "columnRuleWidth": 8.1, "columns": 8.1, "columnSpan": 8.1, "columnWidth": 8.1 }, "android": { "borderImage": 4.2, "borderImageOutset": 4.2, "borderImageRepeat": 4.2, "borderImageSlice": 4.2, "borderImageSource": 4.2, "borderImageWidth": 4.2, "flex": 4.2, "flexBasis": 4.2, "flexDirection": 4.2, "flexGrow": 4.2, "flexFlow": 4.2, "flexShrink": 4.2, "flexWrap": 4.2, "alignContent": 4.2, "alignItems": 4.2, "alignSelf": 4.2, "justifyContent": 4.2, "order": 4.2, "transition": 4.2, "transitionDelay": 4.2, "transitionDuration": 4.2, "transitionProperty": 4.2, "transitionTimingFunction": 4.2, "transform": 4.4, "transformOrigin": 4.4, "transformOriginX": 4.4, "transformOriginY": 4.4, "backfaceVisibility": 4.4, "perspective": 4.4, "perspectiveOrigin": 4.4, "transformStyle": 4.4, "transformOriginZ": 4.4, "animation": 4.4, "animationDelay": 4.4, "animationDirection": 4.4, "animationFillMode": 4.4, "animationDuration": 4.4, "animationIterationCount": 4.4, "animationName": 4.4, "animationPlayState": 4.4, "animationTimingFunction": 4.4, "appearance": 47, "userSelect": 47, "fontKerning": 4.4, "textEmphasisPosition": 47, "textEmphasis": 47, "textEmphasisStyle": 47, "textEmphasisColor": 47, "boxDecorationBreak": 47, "clipPath": 47, "maskImage": 47, "maskMode": 47, "maskRepeat": 47, "maskPosition": 47, "maskClip": 47, "maskOrigin": 47, "maskSize": 47, "maskComposite": 47, "mask": 47, "maskBorderSource": 47, "maskBorderMode": 47, "maskBorderSlice": 47, "maskBorderWidth": 47, "maskBorderOutset": 47, "maskBorderRepeat": 47, "maskBorder": 47, "maskType": 47, "filter": 47, "fontFeatureSettings": 47, "breakAfter": 47, "breakBefore": 47, "breakInside": 47, "columnCount": 47, "columnFill": 47, "columnGap": 47, "columnRule": 47, "columnRuleColor": 47, "columnRuleStyle": 47, "columnRuleWidth": 47, "columns": 47, "columnSpan": 47, "columnWidth": 47 }, "and_chr": { "appearance": 47, "userSelect": 47, "textEmphasisPosition": 47, "textEmphasis": 47, "textEmphasisStyle": 47, "textEmphasisColor": 47, "boxDecorationBreak": 47, "clipPath": 47, "maskImage": 47, "maskMode": 47, "maskRepeat": 47, "maskPosition": 47, "maskClip": 47, "maskOrigin": 47, "maskSize": 47, "maskComposite": 47, "mask": 47, "maskBorderSource": 47, "maskBorderMode": 47, "maskBorderSlice": 47, "maskBorderWidth": 47, "maskBorderOutset": 47, "maskBorderRepeat": 47, "maskBorder": 47, "maskType": 47, "textDecorationStyle": 47, "textDecorationSkip": 47, "textDecorationLine": 47, "textDecorationColor": 47, "filter": 47, "fontFeatureSettings": 47, "breakAfter": 47, "breakBefore": 47, "breakInside": 47, "columnCount": 47, "columnFill": 47, "columnGap": 47, "columnRule": 47, "columnRuleColor": 47, "columnRuleStyle": 47, "columnRuleWidth": 47, "columns": 47, "columnSpan": 47, "columnWidth": 47 }, "and_uc": { "flex": 9.9, "flexBasis": 9.9, "flexDirection": 9.9, "flexGrow": 9.9, "flexFlow": 9.9, "flexShrink": 9.9, "flexWrap": 9.9, "alignContent": 9.9, "alignItems": 9.9, "alignSelf": 9.9, "justifyContent": 9.9, "order": 9.9, "transition": 9.9, "transitionDelay": 9.9, "transitionDuration": 9.9, "transitionProperty": 9.9, "transitionTimingFunction": 9.9, "transform": 9.9, "transformOrigin": 9.9, "transformOriginX": 9.9, "transformOriginY": 9.9, "backfaceVisibility": 9.9, "perspective": 9.9, "perspectiveOrigin": 9.9, "transformStyle": 9.9, "transformOriginZ": 9.9, "animation": 9.9, "animationDelay": 9.9, "animationDirection": 9.9, "animationFillMode": 9.9, "animationDuration": 9.9, "animationIterationCount": 9.9, "animationName": 9.9, "animationPlayState": 9.9, "animationTimingFunction": 9.9, "appearance": 9.9, "userSelect": 9.9, "fontKerning": 9.9, "textEmphasisPosition": 9.9, "textEmphasis": 9.9, "textEmphasisStyle": 9.9, "textEmphasisColor": 9.9, "maskImage": 9.9, "maskMode": 9.9, "maskRepeat": 9.9, "maskPosition": 9.9, "maskClip": 9.9, "maskOrigin": 9.9, "maskSize": 9.9, "maskComposite": 9.9, "mask": 9.9, "maskBorderSource": 9.9, "maskBorderMode": 9.9, "maskBorderSlice": 9.9, "maskBorderWidth": 9.9, "maskBorderOutset": 9.9, "maskBorderRepeat": 9.9, "maskBorder": 9.9, "maskType": 9.9, "textSizeAdjust": 9.9, "filter": 9.9, "hyphens": 9.9, "flowInto": 9.9, "flowFrom": 9.9, "breakBefore": 9.9, "breakAfter": 9.9, "breakInside": 9.9, "regionFragment": 9.9, "fontFeatureSettings": 9.9, "columnCount": 9.9, "columnFill": 9.9, "columnGap": 9.9, "columnRule": 9.9, "columnRuleColor": 9.9, "columnRuleStyle": 9.9, "columnRuleWidth": 9.9, "columns": 9.9, "columnSpan": 9.9, "columnWidth": 9.9 }, "op_mini": { "borderImage": 5, "borderImageOutset": 5, "borderImageRepeat": 5, "borderImageSlice": 5, "borderImageSource": 5, "borderImageWidth": 5, "tabSize": 5, "objectFit": 5, "objectPosition": 5 } };
 module.exports = exports["default"];
-},{}],266:[function(require,module,exports){
+},{}],341:[function(require,module,exports){
 // leight polyfill for Object.assign
 "use strict";
 
@@ -28415,7 +41030,7 @@ exports["default"] = function (base) {
 };
 
 module.exports = exports["default"];
-},{}],267:[function(require,module,exports){
+},{}],342:[function(require,module,exports){
 /**
  * Converts a camel-case string to a dash-case string
  * @param {string} str - str that gets converted to dash-case
@@ -28433,7 +41048,7 @@ exports['default'] = function (str) {
 };
 
 module.exports = exports['default'];
-},{}],268:[function(require,module,exports){
+},{}],343:[function(require,module,exports){
 // helper to capitalize strings
 "use strict";
 
@@ -28446,7 +41061,7 @@ exports["default"] = function (str) {
 };
 
 module.exports = exports["default"];
-},{}],269:[function(require,module,exports){
+},{}],344:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -28540,7 +41155,7 @@ exports['default'] = function (userAgent) {
 };
 
 module.exports = exports['default'];
-},{"bowser":272}],270:[function(require,module,exports){
+},{"bowser":347}],345:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -28561,7 +41176,7 @@ exports['default'] = function (_ref) {
 };
 
 module.exports = exports['default'];
-},{}],271:[function(require,module,exports){
+},{}],346:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -28574,7 +41189,7 @@ exports['default'] = function (property) {
 };
 
 module.exports = exports['default'];
-},{}],272:[function(require,module,exports){
+},{}],347:[function(require,module,exports){
 /*!
  * Bowser - a browser detector
  * https://github.com/ded/bowser
@@ -29135,7 +41750,7 @@ module.exports = exports['default'];
   return bowser
 });
 
-},{}],273:[function(require,module,exports){
+},{}],348:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -29164,7 +41779,7 @@ function calc(property, value) {
 }
 
 module.exports = exports['default'];
-},{"../utils/isPrefixedValue":286,"../utils/joinPrefixedRules":287}],274:[function(require,module,exports){
+},{"../utils/isPrefixedValue":361,"../utils/joinPrefixedRules":362}],349:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -29192,7 +41807,7 @@ function cursor(property, value) {
 }
 
 module.exports = exports['default'];
-},{"../utils/joinPrefixedRules":287}],275:[function(require,module,exports){
+},{"../utils/joinPrefixedRules":362}],350:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -29217,7 +41832,7 @@ function flex(property, value) {
 }
 
 module.exports = exports['default'];
-},{"../utils/camelToDashCase":284}],276:[function(require,module,exports){
+},{"../utils/camelToDashCase":359}],351:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -29251,7 +41866,7 @@ function flexboxIE(property, value) {
 }
 
 module.exports = exports['default'];
-},{}],277:[function(require,module,exports){
+},{}],352:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -29295,7 +41910,7 @@ function flexboxOld(property, value) {
 }
 
 module.exports = exports['default'];
-},{"../utils/camelToDashCase":284}],278:[function(require,module,exports){
+},{"../utils/camelToDashCase":359}],353:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -29324,7 +41939,7 @@ function gradient(property, value) {
 }
 
 module.exports = exports['default'];
-},{"../utils/isPrefixedValue":286,"../utils/joinPrefixedRules":287}],279:[function(require,module,exports){
+},{"../utils/isPrefixedValue":361,"../utils/joinPrefixedRules":362}],354:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -29362,7 +41977,7 @@ function sizing(property, value) {
 }
 
 module.exports = exports['default'];
-},{"../utils/joinPrefixedRules":287}],280:[function(require,module,exports){
+},{"../utils/joinPrefixedRules":362}],355:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -29445,7 +42060,7 @@ function prefixValue(value) {
   return multipleValues.join(',');
 }
 module.exports = exports['default'];
-},{"../prefixProps":282,"../utils/camelToDashCase":284,"../utils/capitalizeString":285,"../utils/isPrefixedValue":286}],281:[function(require,module,exports){
+},{"../prefixProps":357,"../utils/camelToDashCase":359,"../utils/capitalizeString":360,"../utils/isPrefixedValue":361}],356:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -29535,7 +42150,7 @@ function prefixAll(styles) {
 }
 
 module.exports = exports['default'];
-},{"./plugins/calc":273,"./plugins/cursor":274,"./plugins/flex":275,"./plugins/flexboxIE":276,"./plugins/flexboxOld":277,"./plugins/gradient":278,"./plugins/sizing":279,"./plugins/transition":280,"./prefixProps":282,"./utils/assign":283,"./utils/capitalizeString":285}],282:[function(require,module,exports){
+},{"./plugins/calc":348,"./plugins/cursor":349,"./plugins/flex":350,"./plugins/flexboxIE":351,"./plugins/flexboxOld":352,"./plugins/gradient":353,"./plugins/sizing":354,"./plugins/transition":355,"./prefixProps":357,"./utils/assign":358,"./utils/capitalizeString":360}],357:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29543,7 +42158,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports["default"] = { "Webkit": { "transform": true, "transformOrigin": true, "transformOriginX": true, "transformOriginY": true, "backfaceVisibility": true, "perspective": true, "perspectiveOrigin": true, "transformStyle": true, "transformOriginZ": true, "animation": true, "animationDelay": true, "animationDirection": true, "animationFillMode": true, "animationDuration": true, "animationIterationCount": true, "animationName": true, "animationPlayState": true, "animationTimingFunction": true, "appearance": true, "userSelect": true, "fontKerning": true, "textEmphasisPosition": true, "textEmphasis": true, "textEmphasisStyle": true, "textEmphasisColor": true, "boxDecorationBreak": true, "clipPath": true, "maskImage": true, "maskMode": true, "maskRepeat": true, "maskPosition": true, "maskClip": true, "maskOrigin": true, "maskSize": true, "maskComposite": true, "mask": true, "maskBorderSource": true, "maskBorderMode": true, "maskBorderSlice": true, "maskBorderWidth": true, "maskBorderOutset": true, "maskBorderRepeat": true, "maskBorder": true, "maskType": true, "textDecorationStyle": true, "textDecorationSkip": true, "textDecorationLine": true, "textDecorationColor": true, "filter": true, "fontFeatureSettings": true, "breakAfter": true, "breakBefore": true, "breakInside": true, "columnCount": true, "columnFill": true, "columnGap": true, "columnRule": true, "columnRuleColor": true, "columnRuleStyle": true, "columnRuleWidth": true, "columns": true, "columnSpan": true, "columnWidth": true, "flex": true, "flexBasis": true, "flexDirection": true, "flexGrow": true, "flexFlow": true, "flexShrink": true, "flexWrap": true, "alignContent": true, "alignItems": true, "alignSelf": true, "justifyContent": true, "order": true, "transition": true, "transitionDelay": true, "transitionDuration": true, "transitionProperty": true, "transitionTimingFunction": true, "backdropFilter": true, "scrollSnapType": true, "scrollSnapPointsX": true, "scrollSnapPointsY": true, "scrollSnapDestination": true, "scrollSnapCoordinate": true, "shapeImageThreshold": true, "shapeImageMargin": true, "shapeImageOutside": true, "hyphens": true, "flowInto": true, "flowFrom": true, "regionFragment": true, "textSizeAdjust": true, "borderImage": true, "borderImageOutset": true, "borderImageRepeat": true, "borderImageSlice": true, "borderImageSource": true, "borderImageWidth": true, "tabSize": true, "objectFit": true, "objectPosition": true }, "Moz": { "appearance": true, "userSelect": true, "boxSizing": true, "textAlignLast": true, "textDecorationStyle": true, "textDecorationSkip": true, "textDecorationLine": true, "textDecorationColor": true, "tabSize": true, "hyphens": true, "fontFeatureSettings": true, "breakAfter": true, "breakBefore": true, "breakInside": true, "columnCount": true, "columnFill": true, "columnGap": true, "columnRule": true, "columnRuleColor": true, "columnRuleStyle": true, "columnRuleWidth": true, "columns": true, "columnSpan": true, "columnWidth": true }, "ms": { "flex": true, "flexBasis": false, "flexDirection": true, "flexGrow": false, "flexFlow": true, "flexShrink": false, "flexWrap": true, "alignContent": false, "alignItems": false, "alignSelf": false, "justifyContent": false, "order": false, "transform": true, "transformOrigin": true, "transformOriginX": true, "transformOriginY": true, "userSelect": true, "wrapFlow": true, "wrapThrough": true, "wrapMargin": true, "scrollSnapType": true, "scrollSnapPointsX": true, "scrollSnapPointsY": true, "scrollSnapDestination": true, "scrollSnapCoordinate": true, "touchAction": true, "hyphens": true, "flowInto": true, "flowFrom": true, "breakBefore": true, "breakAfter": true, "breakInside": true, "regionFragment": true, "gridTemplateColumns": true, "gridTemplateRows": true, "gridTemplateAreas": true, "gridTemplate": true, "gridAutoColumns": true, "gridAutoRows": true, "gridAutoFlow": true, "grid": true, "gridRowStart": true, "gridColumnStart": true, "gridRowEnd": true, "gridRow": true, "gridColumn": true, "gridColumnEnd": true, "gridColumnGap": true, "gridRowGap": true, "gridArea": true, "gridGap": true, "textSizeAdjust": true } };
 module.exports = exports["default"];
-},{}],283:[function(require,module,exports){
+},{}],358:[function(require,module,exports){
 // leight polyfill for Object.assign
 "use strict";
 
@@ -29560,11 +42175,11 @@ exports["default"] = function (base) {
 };
 
 module.exports = exports["default"];
-},{}],284:[function(require,module,exports){
-arguments[4][267][0].apply(exports,arguments)
-},{"dup":267}],285:[function(require,module,exports){
-arguments[4][268][0].apply(exports,arguments)
-},{"dup":268}],286:[function(require,module,exports){
+},{}],359:[function(require,module,exports){
+arguments[4][342][0].apply(exports,arguments)
+},{"dup":342}],360:[function(require,module,exports){
+arguments[4][343][0].apply(exports,arguments)
+},{"dup":343}],361:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -29578,7 +42193,7 @@ exports['default'] = function (value) {
 };
 
 module.exports = exports['default'];
-},{}],287:[function(require,module,exports){
+},{}],362:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -29607,7 +42222,7 @@ exports['default'] = function (property, value) {
 };
 
 module.exports = exports['default'];
-},{"./camelToDashCase":284}],288:[function(require,module,exports){
+},{"./camelToDashCase":359}],363:[function(require,module,exports){
 // Source: http://jsfiddle.net/vWx8V/
 // http://stackoverflow.com/questions/5603195/full-list-of-javascript-keycodes
 
@@ -29755,11 +42370,11 @@ for (var alias in aliases) {
   codes[alias] = aliases[alias]
 }
 
-},{}],289:[function(require,module,exports){
+},{}],364:[function(require,module,exports){
 module.exports = require('react/lib/ReactFragment').create;
-},{"react/lib/ReactFragment":431}],290:[function(require,module,exports){
+},{"react/lib/ReactFragment":551}],365:[function(require,module,exports){
 module.exports = require('react/lib/ReactTransitionGroup');
-},{"react/lib/ReactTransitionGroup":454}],291:[function(require,module,exports){
+},{"react/lib/ReactTransitionGroup":574}],366:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -29922,7 +42537,7 @@ EventListener.defaultProps = {
   capture: false
 };
 exports.default = EventListener;
-},{"fbjs/lib/shallowEqual":292,"react":534}],292:[function(require,module,exports){
+},{"fbjs/lib/shallowEqual":367,"react":654}],367:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -29989,7 +42604,7 @@ function shallowEqual(objA, objB) {
 }
 
 module.exports = shallowEqual;
-},{}],293:[function(require,module,exports){
+},{}],368:[function(require,module,exports){
 "use strict";
 
 exports.__esModule = true;
@@ -30019,7 +42634,7 @@ function compose() {
     return result;
   };
 }
-},{}],294:[function(require,module,exports){
+},{}],369:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -30073,7 +42688,7 @@ var createElement = function createElement(Component, props, children) {
 };
 
 exports.default = createElement;
-},{"./isReferentiallyTransparentFunctionComponent":298,"react":534}],295:[function(require,module,exports){
+},{"./isReferentiallyTransparentFunctionComponent":373,"react":654}],370:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -30126,7 +42741,7 @@ var createHelper = function createHelper(func, helperName) {
 
 exports.default = createHelper;
 }).call(this,require('_process'))
-},{"./wrapDisplayName":303,"_process":37}],296:[function(require,module,exports){
+},{"./wrapDisplayName":378,"_process":47}],371:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -30143,7 +42758,7 @@ var getDisplayName = function getDisplayName(Component) {
 };
 
 exports.default = getDisplayName;
-},{}],297:[function(require,module,exports){
+},{}],372:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -30152,7 +42767,7 @@ var isClassComponent = function isClassComponent(Component) {
 };
 
 exports.default = isClassComponent;
-},{}],298:[function(require,module,exports){
+},{}],373:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -30168,9 +42783,9 @@ var isReferentiallyTransparentFunctionComponent = function isReferentiallyTransp
 };
 
 exports.default = isReferentiallyTransparentFunctionComponent;
-},{"./isClassComponent.js":297}],299:[function(require,module,exports){
-arguments[4][292][0].apply(exports,arguments)
-},{"dup":292}],300:[function(require,module,exports){
+},{"./isClassComponent.js":372}],374:[function(require,module,exports){
+arguments[4][367][0].apply(exports,arguments)
+},{"dup":367}],375:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -30194,7 +42809,7 @@ var pure = (0, _shouldUpdate2.default)(function (props, nextProps) {
 });
 
 exports.default = (0, _createHelper2.default)(pure, 'pure', true, true);
-},{"./createHelper":295,"./shallowEqual":301,"./shouldUpdate":302}],301:[function(require,module,exports){
+},{"./createHelper":370,"./shallowEqual":376,"./shouldUpdate":377}],376:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -30206,7 +42821,7 @@ var _shallowEqual2 = _interopRequireDefault(_shallowEqual);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = _shallowEqual2.default;
-},{"fbjs/lib/shallowEqual":299}],302:[function(require,module,exports){
+},{"fbjs/lib/shallowEqual":374}],377:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -30253,7 +42868,7 @@ var shouldUpdate = function shouldUpdate(test) {
 };
 
 exports.default = (0, _createHelper2.default)(shouldUpdate, 'shouldUpdate');
-},{"./createElement":294,"./createHelper":295,"react":534}],303:[function(require,module,exports){
+},{"./createElement":369,"./createHelper":370,"react":654}],378:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -30269,7 +42884,7 @@ var wrapDisplayName = function wrapDisplayName(BaseComponent, hocName) {
 };
 
 exports.default = wrapDisplayName;
-},{"./getDisplayName":296}],304:[function(require,module,exports){
+},{"./getDisplayName":371}],379:[function(require,module,exports){
 module.exports = function (target) {
   for (var i = 1; i < arguments.length; i++) {
     var source = arguments[i];
@@ -30282,7 +42897,7 @@ module.exports = function (target) {
   return target;
 };
 
-},{}],305:[function(require,module,exports){
+},{}],380:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -30346,7 +42961,7 @@ if (process.env.NODE_ENV !== 'production') {
 module.exports = warning;
 
 }).call(this,require('_process'))
-},{"_process":37}],306:[function(require,module,exports){
+},{"_process":47}],381:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -30403,7 +43018,7 @@ MuiThemeProvider.childContextTypes = {
   muiTheme: _react.PropTypes.object.isRequired
 };
 exports.default = MuiThemeProvider;
-},{"./getMuiTheme":309,"react":534}],307:[function(require,module,exports){
+},{"./getMuiTheme":384,"react":654}],382:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -30447,7 +43062,7 @@ exports.default = {
 }; /**
     * NB: If you update this file, please also update `docs/src/app/customization/Themes.js`
     */
-},{"../../utils/colorManipulator":322,"../colors":308,"../spacing":310}],308:[function(require,module,exports){
+},{"../../utils/colorManipulator":397,"../colors":383,"../spacing":385}],383:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -30738,7 +43353,7 @@ var faintBlack = exports.faintBlack = 'rgba(0, 0, 0, 0.12)';
 var fullWhite = exports.fullWhite = 'rgba(255, 255, 255, 1)';
 var darkWhite = exports.darkWhite = 'rgba(255, 255, 255, 0.87)';
 var lightWhite = exports.lightWhite = 'rgba(255, 255, 255, 0.54)';
-},{}],309:[function(require,module,exports){
+},{}],384:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -31104,7 +43719,7 @@ function getMuiTheme(muiTheme) {
 
   return muiTheme;
 }
-},{"../utils/autoprefixer":319,"../utils/callOnce":320,"../utils/colorManipulator":322,"../utils/rtl":327,"./baseThemes/lightBaseTheme":307,"./colors":308,"./typography":312,"./zIndex":313,"lodash/merge":201,"recompose/compose":293}],310:[function(require,module,exports){
+},{"../utils/autoprefixer":394,"../utils/callOnce":395,"../utils/colorManipulator":397,"../utils/rtl":402,"./baseThemes/lightBaseTheme":382,"./colors":383,"./typography":387,"./zIndex":388,"lodash/merge":271,"recompose/compose":368}],385:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -31124,7 +43739,7 @@ exports.default = {
   desktopSubheaderHeight: 48,
   desktopToolbarHeight: 56
 };
-},{}],311:[function(require,module,exports){
+},{}],386:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -31159,7 +43774,7 @@ exports.default = {
     return property + ' ' + duration + ' ' + easeFunction + ' ' + delay;
   }
 };
-},{}],312:[function(require,module,exports){
+},{}],387:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -31191,7 +43806,7 @@ var Typography = function Typography() {
 };
 
 exports.default = new Typography();
-},{"./colors":308}],313:[function(require,module,exports){
+},{"./colors":383}],388:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -31209,7 +43824,7 @@ exports.default = {
   snackbar: 2900,
   tooltip: 3000
 };
-},{}],314:[function(require,module,exports){
+},{}],389:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -31242,7 +43857,7 @@ NavigationCheck.displayName = 'NavigationCheck';
 NavigationCheck.muiName = 'SvgIcon';
 
 exports.default = NavigationCheck;
-},{"../../SvgIcon":240,"react":534,"recompose/pure":300}],315:[function(require,module,exports){
+},{"../../SvgIcon":315,"react":654,"recompose/pure":375}],390:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -31275,7 +43890,7 @@ NavigationExpandLess.displayName = 'NavigationExpandLess';
 NavigationExpandLess.muiName = 'SvgIcon';
 
 exports.default = NavigationExpandLess;
-},{"../../SvgIcon":240,"react":534,"recompose/pure":300}],316:[function(require,module,exports){
+},{"../../SvgIcon":315,"react":654,"recompose/pure":375}],391:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -31308,7 +43923,7 @@ NavigationExpandMore.displayName = 'NavigationExpandMore';
 NavigationExpandMore.muiName = 'SvgIcon';
 
 exports.default = NavigationExpandMore;
-},{"../../SvgIcon":240,"react":534,"recompose/pure":300}],317:[function(require,module,exports){
+},{"../../SvgIcon":315,"react":654,"recompose/pure":375}],392:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -31341,7 +43956,7 @@ NavigationMenu.displayName = 'NavigationMenu';
 NavigationMenu.muiName = 'SvgIcon';
 
 exports.default = NavigationMenu;
-},{"../../SvgIcon":240,"react":534,"recompose/pure":300}],318:[function(require,module,exports){
+},{"../../SvgIcon":315,"react":654,"recompose/pure":375}],393:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -31352,7 +43967,7 @@ exports.default = {
     style[key] = value;
   }
 };
-},{}],319:[function(require,module,exports){
+},{}],394:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -31412,7 +44027,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var hasWarnedAboutUserAgent = false;
 }).call(this,require('_process'))
-},{"_process":37,"inline-style-prefixer":256,"warning":305}],320:[function(require,module,exports){
+},{"_process":47,"inline-style-prefixer":331,"warning":380}],395:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -31441,7 +44056,7 @@ function callOnce() {
   }
 }
 }).call(this,require('_process'))
-},{"_process":37,"warning":305}],321:[function(require,module,exports){
+},{"_process":47,"warning":380}],396:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -31490,7 +44105,7 @@ function extendChildren(children, extendedProps, extendedChildren) {
     return _react2.default.cloneElement(child, newProps, newChildren);
   }) : children;
 }
-},{"react":534,"react-addons-create-fragment":289}],322:[function(require,module,exports){
+},{"react":654,"react-addons-create-fragment":364}],397:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -31723,7 +44338,7 @@ function lighten(color, coefficient) {
 
   return convertColorToString(color);
 }
-},{}],323:[function(require,module,exports){
+},{}],398:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -31748,7 +44363,7 @@ function deprecated(propType, explanation) {
   };
 }
 }).call(this,require('_process'))
-},{"_process":37,"warning":305}],324:[function(require,module,exports){
+},{"_process":47,"warning":380}],399:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -31773,7 +44388,7 @@ exports.default = {
     };
   }
 };
-},{}],325:[function(require,module,exports){
+},{}],400:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -31813,7 +44428,7 @@ exports.default = {
     return ['keydown', 'keypress', 'keyup'].indexOf(event.type) !== -1;
   }
 };
-},{}],326:[function(require,module,exports){
+},{}],401:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -31845,7 +44460,7 @@ exports.default = {
   zDepth: _react.PropTypes.oneOf([0, 1, 2, 3, 4, 5])
 
 };
-},{"react":534}],327:[function(require,module,exports){
+},{"react":654}],402:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -31929,7 +44544,7 @@ function rtl(muiTheme) {
     };
   }
 }
-},{}],328:[function(require,module,exports){
+},{}],403:[function(require,module,exports){
 (function (global,Buffer){
 
 /**
@@ -32160,7 +44775,7 @@ Fetch.Headers = Headers;
 Fetch.Request = Request;
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer)
-},{"./lib/body":329,"./lib/fetch-error":330,"./lib/headers":331,"./lib/request":332,"./lib/response":333,"buffer":29,"http":58,"https":34,"stream":57,"url":65,"zlib":28}],329:[function(require,module,exports){
+},{"./lib/body":404,"./lib/fetch-error":405,"./lib/headers":406,"./lib/request":407,"./lib/response":408,"buffer":39,"http":68,"https":44,"stream":67,"url":75,"zlib":38}],404:[function(require,module,exports){
 (function (global,Buffer){
 
 /**
@@ -32397,7 +45012,7 @@ Body.prototype._clone = function(instance) {
 Body.Promise = global.Promise;
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer)
-},{"./fetch-error":330,"buffer":29,"encoding":334,"is-stream":357,"stream":57}],330:[function(require,module,exports){
+},{"./fetch-error":405,"buffer":39,"encoding":409,"is-stream":432,"stream":67}],405:[function(require,module,exports){
 
 /**
  * fetch-error.js
@@ -32433,7 +45048,7 @@ function FetchError(message, type, systemError) {
 
 require('util').inherits(FetchError, Error);
 
-},{"util":68}],331:[function(require,module,exports){
+},{"util":78}],406:[function(require,module,exports){
 
 /**
  * headers.js
@@ -32576,7 +45191,7 @@ Headers.prototype.raw = function() {
 	return this._headers;
 };
 
-},{}],332:[function(require,module,exports){
+},{}],407:[function(require,module,exports){
 
 /**
  * request.js
@@ -32653,7 +45268,7 @@ Request.prototype.clone = function() {
 	return new Request(this);
 };
 
-},{"./body":329,"./headers":331,"url":65}],333:[function(require,module,exports){
+},{"./body":404,"./headers":406,"url":75}],408:[function(require,module,exports){
 
 /**
  * response.js
@@ -32705,7 +45320,7 @@ Response.prototype.clone = function() {
 	});
 };
 
-},{"./body":329,"./headers":331,"http":58}],334:[function(require,module,exports){
+},{"./body":404,"./headers":406,"http":68}],409:[function(require,module,exports){
 (function (Buffer){
 'use strict';
 
@@ -32822,7 +45437,7 @@ function checkEncoding(name) {
 }
 
 }).call(this,require("buffer").Buffer)
-},{"./iconv-loader":335,"buffer":29,"iconv-lite":355}],335:[function(require,module,exports){
+},{"./iconv-loader":410,"buffer":39,"iconv-lite":430}],410:[function(require,module,exports){
 'use strict';
 
 var iconv_package;
@@ -32838,7 +45453,7 @@ try {
 
 module.exports = Iconv;
 
-},{}],336:[function(require,module,exports){
+},{}],411:[function(require,module,exports){
 (function (Buffer){
 "use strict"
 
@@ -33396,7 +46011,7 @@ function findIdx(table, val) {
 
 
 }).call(this,require("buffer").Buffer)
-},{"buffer":29}],337:[function(require,module,exports){
+},{"buffer":39}],412:[function(require,module,exports){
 "use strict"
 
 // Description of supported double byte encodings and aliases.
@@ -33568,7 +46183,7 @@ module.exports = {
 
 };
 
-},{"./tables/big5-added.json":343,"./tables/cp936.json":344,"./tables/cp949.json":345,"./tables/cp950.json":346,"./tables/eucjp.json":347,"./tables/gb18030-ranges.json":348,"./tables/gbk-added.json":349,"./tables/shiftjis.json":350}],338:[function(require,module,exports){
+},{"./tables/big5-added.json":418,"./tables/cp936.json":419,"./tables/cp949.json":420,"./tables/cp950.json":421,"./tables/eucjp.json":422,"./tables/gb18030-ranges.json":423,"./tables/gbk-added.json":424,"./tables/shiftjis.json":425}],413:[function(require,module,exports){
 "use strict"
 
 // Update this array if you add/rename/remove files in this directory.
@@ -33592,7 +46207,7 @@ for (var i = 0; i < modules.length; i++) {
             exports[enc] = module[enc];
 }
 
-},{"./dbcs-codec":336,"./dbcs-data":337,"./internal":339,"./sbcs-codec":340,"./sbcs-data":342,"./sbcs-data-generated":341,"./utf16":351,"./utf7":352}],339:[function(require,module,exports){
+},{"./dbcs-codec":411,"./dbcs-data":412,"./internal":414,"./sbcs-codec":415,"./sbcs-data":417,"./sbcs-data-generated":416,"./utf16":426,"./utf7":427}],414:[function(require,module,exports){
 (function (Buffer){
 "use strict"
 
@@ -33783,7 +46398,7 @@ InternalDecoderCesu8.prototype.end = function() {
 }
 
 }).call(this,require("buffer").Buffer)
-},{"buffer":29,"string_decoder":64}],340:[function(require,module,exports){
+},{"buffer":39,"string_decoder":74}],415:[function(require,module,exports){
 (function (Buffer){
 "use strict"
 
@@ -33859,7 +46474,7 @@ SBCSDecoder.prototype.end = function() {
 }
 
 }).call(this,require("buffer").Buffer)
-},{"buffer":29}],341:[function(require,module,exports){
+},{"buffer":39}],416:[function(require,module,exports){
 "use strict"
 
 // Generated data for sbcs codec. Don't edit manually. Regenerate using generation/gen-sbcs.js script.
@@ -34311,7 +46926,7 @@ module.exports = {
     "chars": "���������������������������������กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรฤลฦวศษสหฬอฮฯะัาำิีึืฺุู����฿เแโใไๅๆ็่้๊๋์ํ๎๏๐๑๒๓๔๕๖๗๘๙๚๛����"
   }
 }
-},{}],342:[function(require,module,exports){
+},{}],417:[function(require,module,exports){
 "use strict"
 
 // Manually added data to be used by sbcs codec in addition to generated one.
@@ -34482,7 +47097,7 @@ module.exports = {
 };
 
 
-},{}],343:[function(require,module,exports){
+},{}],418:[function(require,module,exports){
 module.exports=[
 ["8740","䏰䰲䘃䖦䕸𧉧䵷䖳𧲱䳢𧳅㮕䜶䝄䱇䱀𤊿𣘗𧍒𦺋𧃒䱗𪍑䝏䗚䲅𧱬䴇䪤䚡𦬣爥𥩔𡩣𣸆𣽡晍囻"],
 ["8767","綕夝𨮹㷴霴𧯯寛𡵞媤㘥𩺰嫑宷峼杮薓𩥅瑡璝㡵𡵓𣚞𦀡㻬"],
@@ -34606,7 +47221,7 @@ module.exports=[
 ["fea1","𤅟𤩹𨮏孆𨰃𡢞瓈𡦈甎瓩甞𨻙𡩋寗𨺬鎅畍畊畧畮𤾂㼄𤴓疎瑝疞疴瘂瘬癑癏癯癶𦏵皐臯㟸𦤑𦤎皡皥皷盌𦾟葢𥂝𥅽𡸜眞眦着撯𥈠睘𣊬瞯𨥤𨥨𡛁矴砉𡍶𤨒棊碯磇磓隥礮𥗠磗礴碱𧘌辸袄𨬫𦂃𢘜禆褀椂禀𥡗禝𧬹礼禩渪𧄦㺨秆𩄍秔"]
 ]
 
-},{}],344:[function(require,module,exports){
+},{}],419:[function(require,module,exports){
 module.exports=[
 ["0","\u0000",127,"€"],
 ["8140","丂丄丅丆丏丒丗丟丠両丣並丩丮丯丱丳丵丷丼乀乁乂乄乆乊乑乕乗乚乛乢乣乤乥乧乨乪",5,"乲乴",9,"乿",6,"亇亊"],
@@ -34872,7 +47487,7 @@ module.exports=[
 ["fe40","兀嗀﨎﨏﨑﨓﨔礼﨟蘒﨡﨣﨤﨧﨨﨩"]
 ]
 
-},{}],345:[function(require,module,exports){
+},{}],420:[function(require,module,exports){
 module.exports=[
 ["0","\u0000",127],
 ["8141","갂갃갅갆갋",4,"갘갞갟갡갢갣갥",6,"갮갲갳갴"],
@@ -35147,7 +47762,7 @@ module.exports=[
 ["fda1","爻肴酵驍侯候厚后吼喉嗅帿後朽煦珝逅勛勳塤壎焄熏燻薰訓暈薨喧暄煊萱卉喙毁彙徽揮暉煇諱輝麾休携烋畦虧恤譎鷸兇凶匈洶胸黑昕欣炘痕吃屹紇訖欠欽歆吸恰洽翕興僖凞喜噫囍姬嬉希憙憘戱晞曦熙熹熺犧禧稀羲詰"]
 ]
 
-},{}],346:[function(require,module,exports){
+},{}],421:[function(require,module,exports){
 module.exports=[
 ["0","\u0000",127],
 ["a140","　，、。．‧；：？！︰…‥﹐﹑﹒·﹔﹕﹖﹗｜–︱—︳╴︴﹏（）︵︶｛｝︷︸〔〕︹︺【】︻︼《》︽︾〈〉︿﹀「」﹁﹂『』﹃﹄﹙﹚"],
@@ -35326,7 +47941,7 @@ module.exports=[
 ["f9a1","龤灨灥糷虪蠾蠽蠿讞貜躩軉靋顳顴飌饡馫驤驦驧鬤鸕鸗齈戇欞爧虌躨钂钀钁驩驨鬮鸙爩虋讟钃鱹麷癵驫鱺鸝灩灪麤齾齉龘碁銹裏墻恒粧嫺╔╦╗╠╬╣╚╩╝╒╤╕╞╪╡╘╧╛╓╥╖╟╫╢╙╨╜║═╭╮╰╯▓"]
 ]
 
-},{}],347:[function(require,module,exports){
+},{}],422:[function(require,module,exports){
 module.exports=[
 ["0","\u0000",127],
 ["8ea1","｡",62],
@@ -35510,9 +48125,9 @@ module.exports=[
 ["8feda1","黸黿鼂鼃鼉鼏鼐鼑鼒鼔鼖鼗鼙鼚鼛鼟鼢鼦鼪鼫鼯鼱鼲鼴鼷鼹鼺鼼鼽鼿齁齃",4,"齓齕齖齗齘齚齝齞齨齩齭",4,"齳齵齺齽龏龐龑龒龔龖龗龞龡龢龣龥"]
 ]
 
-},{}],348:[function(require,module,exports){
+},{}],423:[function(require,module,exports){
 module.exports={"uChars":[128,165,169,178,184,216,226,235,238,244,248,251,253,258,276,284,300,325,329,334,364,463,465,467,469,471,473,475,477,506,594,610,712,716,730,930,938,962,970,1026,1104,1106,8209,8215,8218,8222,8231,8241,8244,8246,8252,8365,8452,8454,8458,8471,8482,8556,8570,8596,8602,8713,8720,8722,8726,8731,8737,8740,8742,8748,8751,8760,8766,8777,8781,8787,8802,8808,8816,8854,8858,8870,8896,8979,9322,9372,9548,9588,9616,9622,9634,9652,9662,9672,9676,9680,9702,9735,9738,9793,9795,11906,11909,11913,11917,11928,11944,11947,11951,11956,11960,11964,11979,12284,12292,12312,12319,12330,12351,12436,12447,12535,12543,12586,12842,12850,12964,13200,13215,13218,13253,13263,13267,13270,13384,13428,13727,13839,13851,14617,14703,14801,14816,14964,15183,15471,15585,16471,16736,17208,17325,17330,17374,17623,17997,18018,18212,18218,18301,18318,18760,18811,18814,18820,18823,18844,18848,18872,19576,19620,19738,19887,40870,59244,59336,59367,59413,59417,59423,59431,59437,59443,59452,59460,59478,59493,63789,63866,63894,63976,63986,64016,64018,64021,64025,64034,64037,64042,65074,65093,65107,65112,65127,65132,65375,65510,65536],"gbChars":[0,36,38,45,50,81,89,95,96,100,103,104,105,109,126,133,148,172,175,179,208,306,307,308,309,310,311,312,313,341,428,443,544,545,558,741,742,749,750,805,819,820,7922,7924,7925,7927,7934,7943,7944,7945,7950,8062,8148,8149,8152,8164,8174,8236,8240,8262,8264,8374,8380,8381,8384,8388,8390,8392,8393,8394,8396,8401,8406,8416,8419,8424,8437,8439,8445,8482,8485,8496,8521,8603,8936,8946,9046,9050,9063,9066,9076,9092,9100,9108,9111,9113,9131,9162,9164,9218,9219,11329,11331,11334,11336,11346,11361,11363,11366,11370,11372,11375,11389,11682,11686,11687,11692,11694,11714,11716,11723,11725,11730,11736,11982,11989,12102,12336,12348,12350,12384,12393,12395,12397,12510,12553,12851,12962,12973,13738,13823,13919,13933,14080,14298,14585,14698,15583,15847,16318,16434,16438,16481,16729,17102,17122,17315,17320,17402,17418,17859,17909,17911,17915,17916,17936,17939,17961,18664,18703,18814,18962,19043,33469,33470,33471,33484,33485,33490,33497,33501,33505,33513,33520,33536,33550,37845,37921,37948,38029,38038,38064,38065,38066,38069,38075,38076,38078,39108,39109,39113,39114,39115,39116,39265,39394,189000]}
-},{}],349:[function(require,module,exports){
+},{}],424:[function(require,module,exports){
 module.exports=[
 ["a140","",62],
 ["a180","",32],
@@ -35569,7 +48184,7 @@ module.exports=[
 ["fe80","䜣䜩䝼䞍⻊䥇䥺䥽䦂䦃䦅䦆䦟䦛䦷䦶䲣䲟䲠䲡䱷䲢䴓",6,"䶮",93]
 ]
 
-},{}],350:[function(require,module,exports){
+},{}],425:[function(require,module,exports){
 module.exports=[
 ["0","\u0000",128],
 ["a1","｡",62],
@@ -35696,7 +48311,7 @@ module.exports=[
 ["fc40","髜魵魲鮏鮱鮻鰀鵰鵫鶴鸙黑"]
 ]
 
-},{}],351:[function(require,module,exports){
+},{}],426:[function(require,module,exports){
 (function (Buffer){
 "use strict"
 
@@ -35874,7 +48489,7 @@ function detectEncoding(buf, defaultEncoding) {
 
 
 }).call(this,require("buffer").Buffer)
-},{"buffer":29}],352:[function(require,module,exports){
+},{"buffer":39}],427:[function(require,module,exports){
 (function (Buffer){
 "use strict"
 
@@ -36167,7 +48782,7 @@ Utf7IMAPDecoder.prototype.end = function() {
 
 
 }).call(this,require("buffer").Buffer)
-},{"buffer":29}],353:[function(require,module,exports){
+},{"buffer":39}],428:[function(require,module,exports){
 "use strict"
 
 var BOMChar = '\uFEFF';
@@ -36221,7 +48836,7 @@ StripBOMWrapper.prototype.end = function() {
 }
 
 
-},{}],354:[function(require,module,exports){
+},{}],429:[function(require,module,exports){
 (function (Buffer){
 "use strict"
 
@@ -36439,7 +49054,7 @@ module.exports = function (iconv) {
 }
 
 }).call(this,require("buffer").Buffer)
-},{"buffer":29,"stream":57}],355:[function(require,module,exports){
+},{"buffer":39,"stream":67}],430:[function(require,module,exports){
 (function (process,Buffer){
 "use strict"
 
@@ -36584,7 +49199,7 @@ if (nodeVer) {
 
 
 }).call(this,require('_process'),require("buffer").Buffer)
-},{"../encodings":338,"./bom-handling":353,"./extend-node":354,"./streams":356,"_process":37,"buffer":29}],356:[function(require,module,exports){
+},{"../encodings":413,"./bom-handling":428,"./extend-node":429,"./streams":431,"_process":47,"buffer":39}],431:[function(require,module,exports){
 (function (Buffer){
 "use strict"
 
@@ -36708,7 +49323,7 @@ IconvLiteDecoderStream.prototype.collect = function(cb) {
 
 
 }).call(this,require("buffer").Buffer)
-},{"buffer":29,"stream":57}],357:[function(require,module,exports){
+},{"buffer":39,"stream":67}],432:[function(require,module,exports){
 'use strict';
 
 var isStream = module.exports = function (stream) {
@@ -36731,12 +49346,3230 @@ isStream.transform = function (stream) {
 	return isStream.duplex(stream) && typeof stream._transform === 'function' && typeof stream._transformState === 'object';
 };
 
-},{}],358:[function(require,module,exports){
+},{}],433:[function(require,module,exports){
 'use strict';
 
 module.exports = require('react/lib/ReactDOM');
 
-},{"react/lib/ReactDOM":401}],359:[function(require,module,exports){
+},{"react/lib/ReactDOM":521}],434:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _leaflet = require('leaflet');
+
+var _react = require('react');
+
+var _MapControl2 = require('./MapControl');
+
+var _MapControl3 = _interopRequireDefault(_MapControl2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var AttributionControl = function (_MapControl) {
+  _inherits(AttributionControl, _MapControl);
+
+  function AttributionControl() {
+    _classCallCheck(this, AttributionControl);
+
+    return _possibleConstructorReturn(this, Object.getPrototypeOf(AttributionControl).apply(this, arguments));
+  }
+
+  _createClass(AttributionControl, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      this.leafletElement = _leaflet.control.attribution(this.props);
+    }
+  }]);
+
+  return AttributionControl;
+}(_MapControl3.default);
+
+AttributionControl.propTypes = {
+  prefix: _react.PropTypes.string
+};
+exports.default = AttributionControl;
+},{"./MapControl":446,"leaflet":82,"react":654}],435:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = require('react');
+
+var _MapLayer2 = require('./MapLayer');
+
+var _MapLayer3 = _interopRequireDefault(_MapLayer2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var BaseTileLayer = function (_MapLayer) {
+  _inherits(BaseTileLayer, _MapLayer);
+
+  function BaseTileLayer() {
+    _classCallCheck(this, BaseTileLayer);
+
+    return _possibleConstructorReturn(this, Object.getPrototypeOf(BaseTileLayer).apply(this, arguments));
+  }
+
+  _createClass(BaseTileLayer, [{
+    key: 'componentDidUpdate',
+    value: function componentDidUpdate(prevProps) {
+      var _props = this.props;
+      var opacity = _props.opacity;
+      var zIndex = _props.zIndex;
+
+      if (opacity !== prevProps.opacity) {
+        this.leafletElement.setOpacity(opacity);
+      }
+      if (zIndex !== prevProps.zIndex) {
+        this.leafletElement.setZIndex(zIndex);
+      }
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return null;
+    }
+  }]);
+
+  return BaseTileLayer;
+}(_MapLayer3.default);
+
+BaseTileLayer.propTypes = {
+  opacity: _react.PropTypes.number,
+  zIndex: _react.PropTypes.number
+};
+exports.default = BaseTileLayer;
+},{"./MapLayer":447,"react":654}],436:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
+
+var _leaflet = require('leaflet');
+
+var _BaseTileLayer2 = require('./BaseTileLayer');
+
+var _BaseTileLayer3 = _interopRequireDefault(_BaseTileLayer2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var CanvasTileLayer = function (_BaseTileLayer) {
+  _inherits(CanvasTileLayer, _BaseTileLayer);
+
+  function CanvasTileLayer() {
+    _classCallCheck(this, CanvasTileLayer);
+
+    return _possibleConstructorReturn(this, Object.getPrototypeOf(CanvasTileLayer).apply(this, arguments));
+  }
+
+  _createClass(CanvasTileLayer, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      _get(Object.getPrototypeOf(CanvasTileLayer.prototype), 'componentWillMount', this).call(this);
+      this.leafletElement = _leaflet.tileLayer.canvas(this.props);
+    }
+  }]);
+
+  return CanvasTileLayer;
+}(_BaseTileLayer3.default);
+
+exports.default = CanvasTileLayer;
+},{"./BaseTileLayer":435,"leaflet":82}],437:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
+
+var _leaflet = require('leaflet');
+
+var _react = require('react');
+
+var _latlng = require('./types/latlng');
+
+var _latlng2 = _interopRequireDefault(_latlng);
+
+var _Path2 = require('./Path');
+
+var _Path3 = _interopRequireDefault(_Path2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Circle = function (_Path) {
+  _inherits(Circle, _Path);
+
+  function Circle() {
+    _classCallCheck(this, Circle);
+
+    return _possibleConstructorReturn(this, Object.getPrototypeOf(Circle).apply(this, arguments));
+  }
+
+  _createClass(Circle, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      _get(Object.getPrototypeOf(Circle.prototype), 'componentWillMount', this).call(this);
+      var _props = this.props;
+      var center = _props.center;
+      var radius = _props.radius;
+
+      var props = _objectWithoutProperties(_props, ['center', 'radius']);
+
+      this.leafletElement = (0, _leaflet.circle)(center, radius, props);
+    }
+  }, {
+    key: 'componentDidUpdate',
+    value: function componentDidUpdate(prevProps) {
+      if (this.props.center !== prevProps.center) {
+        this.leafletElement.setLatLng(this.props.center);
+      }
+      if (this.props.radius !== prevProps.radius) {
+        this.leafletElement.setRadius(this.props.radius);
+      }
+      this.setStyleIfChanged(prevProps, this.props);
+    }
+  }]);
+
+  return Circle;
+}(_Path3.default);
+
+Circle.propTypes = {
+  center: _latlng2.default.isRequired,
+  radius: _react.PropTypes.number.isRequired
+};
+exports.default = Circle;
+},{"./Path":451,"./types/latlng":465,"leaflet":82,"react":654}],438:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
+
+var _leaflet = require('leaflet');
+
+var _react = require('react');
+
+var _latlng = require('./types/latlng');
+
+var _latlng2 = _interopRequireDefault(_latlng);
+
+var _Path2 = require('./Path');
+
+var _Path3 = _interopRequireDefault(_Path2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var CircleMarker = function (_Path) {
+  _inherits(CircleMarker, _Path);
+
+  function CircleMarker() {
+    _classCallCheck(this, CircleMarker);
+
+    return _possibleConstructorReturn(this, Object.getPrototypeOf(CircleMarker).apply(this, arguments));
+  }
+
+  _createClass(CircleMarker, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      _get(Object.getPrototypeOf(CircleMarker.prototype), 'componentWillMount', this).call(this);
+      var _props = this.props;
+      var center = _props.center;
+
+      var props = _objectWithoutProperties(_props, ['center']);
+
+      this.leafletElement = (0, _leaflet.circleMarker)(center, props);
+    }
+  }, {
+    key: 'componentDidUpdate',
+    value: function componentDidUpdate(prevProps) {
+      if (this.props.center !== prevProps.center) {
+        this.leafletElement.setLatLng(this.props.center);
+      }
+      if (this.props.radius !== prevProps.radius) {
+        this.leafletElement.setRadius(this.props.radius);
+      }
+      this.setStyleIfChanged(prevProps, this.props);
+    }
+  }]);
+
+  return CircleMarker;
+}(_Path3.default);
+
+CircleMarker.propTypes = {
+  center: _latlng2.default.isRequired,
+  radius: _react.PropTypes.number
+};
+exports.default = CircleMarker;
+},{"./Path":451,"./types/latlng":465,"leaflet":82,"react":654}],439:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
+
+var _leaflet = require('leaflet');
+
+var _react = require('react');
+
+var _layerContainer = require('./types/layerContainer');
+
+var _layerContainer2 = _interopRequireDefault(_layerContainer);
+
+var _Path2 = require('./Path');
+
+var _Path3 = _interopRequireDefault(_Path2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var FeatureGroup = function (_Path) {
+  _inherits(FeatureGroup, _Path);
+
+  function FeatureGroup() {
+    _classCallCheck(this, FeatureGroup);
+
+    return _possibleConstructorReturn(this, Object.getPrototypeOf(FeatureGroup).apply(this, arguments));
+  }
+
+  _createClass(FeatureGroup, [{
+    key: 'getChildContext',
+    value: function getChildContext() {
+      return {
+        layerContainer: this.leafletElement,
+        popupContainer: this.leafletElement
+      };
+    }
+  }, {
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      this.leafletElement = (0, _leaflet.featureGroup)();
+    }
+  }, {
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      _get(Object.getPrototypeOf(FeatureGroup.prototype), 'componentDidMount', this).call(this);
+      this.setStyle(this.props);
+    }
+  }, {
+    key: 'componentDidUpdate',
+    value: function componentDidUpdate(prevProps) {
+      this.setStyleIfChanged(prevProps, this.props);
+    }
+  }]);
+
+  return FeatureGroup;
+}(_Path3.default);
+
+FeatureGroup.childContextTypes = {
+  layerContainer: _layerContainer2.default,
+  popupContainer: _react.PropTypes.object
+};
+exports.default = FeatureGroup;
+},{"./Path":451,"./types/layerContainer":467,"leaflet":82,"react":654}],440:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _isFunction2 = require('lodash/isFunction');
+
+var _isFunction3 = _interopRequireDefault(_isFunction2);
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
+
+var _leaflet = require('leaflet');
+
+var _react = require('react');
+
+var _Path2 = require('./Path');
+
+var _Path3 = _interopRequireDefault(_Path2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var GeoJson = function (_Path) {
+  _inherits(GeoJson, _Path);
+
+  function GeoJson() {
+    _classCallCheck(this, GeoJson);
+
+    return _possibleConstructorReturn(this, Object.getPrototypeOf(GeoJson).apply(this, arguments));
+  }
+
+  _createClass(GeoJson, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      _get(Object.getPrototypeOf(GeoJson.prototype), 'componentWillMount', this).call(this);
+      var _props = this.props;
+      var data = _props.data;
+
+      var props = _objectWithoutProperties(_props, ['data']);
+
+      this.leafletElement = (0, _leaflet.geoJson)(data, props);
+    }
+  }, {
+    key: 'componentDidUpdate',
+    value: function componentDidUpdate(prevProps) {
+      if ((0, _isFunction3.default)(this.props.style)) {
+        this.setStyle(this.props.style);
+      } else {
+        this.setStyleIfChanged(prevProps, this.props);
+      }
+    }
+  }]);
+
+  return GeoJson;
+}(_Path3.default);
+
+GeoJson.propTypes = {
+  data: _react.PropTypes.oneOfType([_react.PropTypes.array, _react.PropTypes.object]).isRequired
+};
+exports.default = GeoJson;
+},{"./Path":451,"leaflet":82,"lodash/isFunction":259,"react":654}],441:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
+
+var _leaflet = require('leaflet');
+
+var _react = require('react');
+
+var _bounds = require('./types/bounds');
+
+var _bounds2 = _interopRequireDefault(_bounds);
+
+var _MapLayer2 = require('./MapLayer');
+
+var _MapLayer3 = _interopRequireDefault(_MapLayer2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var ImageOverlay = function (_MapLayer) {
+  _inherits(ImageOverlay, _MapLayer);
+
+  function ImageOverlay() {
+    _classCallCheck(this, ImageOverlay);
+
+    return _possibleConstructorReturn(this, Object.getPrototypeOf(ImageOverlay).apply(this, arguments));
+  }
+
+  _createClass(ImageOverlay, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      _get(Object.getPrototypeOf(ImageOverlay.prototype), 'componentWillMount', this).call(this);
+      var _props = this.props;
+      var bounds = _props.bounds;
+      var url = _props.url;
+
+      var props = _objectWithoutProperties(_props, ['bounds', 'url']);
+
+      this.leafletElement = (0, _leaflet.imageOverlay)(url, bounds, props);
+    }
+  }, {
+    key: 'componentDidUpdate',
+    value: function componentDidUpdate(prevProps) {
+      if (this.props.url !== prevProps.url) {
+        this.leafletElement.setUrl(this.props.url);
+      }
+      if (this.props.opacity !== prevProps.opacity) {
+        this.leafletElement.setOpacity(this.props.opacity);
+      }
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return null;
+    }
+  }]);
+
+  return ImageOverlay;
+}(_MapLayer3.default);
+
+ImageOverlay.propTypes = {
+  attribution: _react.PropTypes.string,
+  bounds: _bounds2.default.isRequired,
+  opacity: _react.PropTypes.number,
+  url: _react.PropTypes.string.isRequired
+};
+exports.default = ImageOverlay;
+},{"./MapLayer":447,"./types/bounds":461,"leaflet":82,"react":654}],442:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
+
+var _leaflet = require('leaflet');
+
+var _layerContainer = require('./types/layerContainer');
+
+var _layerContainer2 = _interopRequireDefault(_layerContainer);
+
+var _MapLayer2 = require('./MapLayer');
+
+var _MapLayer3 = _interopRequireDefault(_MapLayer2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var LayerGroup = function (_MapLayer) {
+  _inherits(LayerGroup, _MapLayer);
+
+  function LayerGroup() {
+    _classCallCheck(this, LayerGroup);
+
+    return _possibleConstructorReturn(this, Object.getPrototypeOf(LayerGroup).apply(this, arguments));
+  }
+
+  _createClass(LayerGroup, [{
+    key: 'getChildContext',
+    value: function getChildContext() {
+      return {
+        layerContainer: this.leafletElement
+      };
+    }
+  }, {
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      _get(Object.getPrototypeOf(LayerGroup.prototype), 'componentWillMount', this).call(this);
+      this.leafletElement = (0, _leaflet.layerGroup)();
+    }
+  }]);
+
+  return LayerGroup;
+}(_MapLayer3.default);
+
+LayerGroup.childContextTypes = {
+  layerContainer: _layerContainer2.default
+};
+exports.default = LayerGroup;
+},{"./MapLayer":447,"./types/layerContainer":467,"leaflet":82}],443:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _leaflet = require('leaflet');
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _children2 = require('./types/children');
+
+var _children3 = _interopRequireDefault(_children2);
+
+var _layerContainer = require('./types/layerContainer');
+
+var _layerContainer2 = _interopRequireDefault(_layerContainer);
+
+var _map = require('./types/map');
+
+var _map2 = _interopRequireDefault(_map);
+
+var _MapControl2 = require('./MapControl');
+
+var _MapControl3 = _interopRequireDefault(_MapControl2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var controlledLayerPropTypes = {
+  addBaseLayer: _react.PropTypes.func,
+  addOverlay: _react.PropTypes.func,
+  checked: _react.PropTypes.bool,
+  children: _react.PropTypes.node.isRequired,
+  name: _react.PropTypes.string.isRequired,
+  removeLayer: _react.PropTypes.func,
+  removeLayerControl: _react.PropTypes.func
+};
+
+// Abtract class for layer container, extended by BaseLayer and Overlay
+
+var ControlledLayer = function (_Component) {
+  _inherits(ControlledLayer, _Component);
+
+  function ControlledLayer() {
+    _classCallCheck(this, ControlledLayer);
+
+    return _possibleConstructorReturn(this, Object.getPrototypeOf(ControlledLayer).apply(this, arguments));
+  }
+
+  _createClass(ControlledLayer, [{
+    key: 'getChildContext',
+    value: function getChildContext() {
+      return {
+        layerContainer: {
+          addLayer: this.addLayer.bind(this),
+          removeLayer: this.removeLayer.bind(this)
+        }
+      };
+    }
+  }, {
+    key: 'componentWillReceiveProps',
+    value: function componentWillReceiveProps(_ref) {
+      var checked = _ref.checked;
+
+      // Handle dynamically (un)checking the layer => adding/removing from the map
+      if (checked && !this.props.checked) {
+        this.context.map.addLayer(this.layer);
+      } else if (this.props.checked && !checked) {
+        this.context.map.removeLayer(this.layer);
+      }
+    }
+  }, {
+    key: 'componentWillUnmount',
+    value: function componentWillUnmount() {
+      this.props.removeLayerControl(this.layer);
+    }
+  }, {
+    key: 'addLayer',
+    value: function addLayer() {
+      throw new Error('Must be implemented in extending class');
+    }
+  }, {
+    key: 'removeLayer',
+    value: function removeLayer(layer) {
+      this.props.removeLayer(layer);
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return this.props.children || null;
+    }
+  }]);
+
+  return ControlledLayer;
+}(_react.Component);
+
+ControlledLayer.propTypes = controlledLayerPropTypes;
+ControlledLayer.contextTypes = {
+  map: _map2.default
+};
+ControlledLayer.childContextTypes = {
+  layerContainer: _layerContainer2.default
+};
+
+var BaseLayer = function (_ControlledLayer) {
+  _inherits(BaseLayer, _ControlledLayer);
+
+  function BaseLayer() {
+    _classCallCheck(this, BaseLayer);
+
+    return _possibleConstructorReturn(this, Object.getPrototypeOf(BaseLayer).apply(this, arguments));
+  }
+
+  _createClass(BaseLayer, [{
+    key: 'addLayer',
+    value: function addLayer(layer) {
+      this.layer = layer; // Keep layer reference to handle dynamic changes of props
+      var _props = this.props;
+      var addBaseLayer = _props.addBaseLayer;
+      var checked = _props.checked;
+      var name = _props.name;
+
+      addBaseLayer(layer, name, checked);
+    }
+  }]);
+
+  return BaseLayer;
+}(ControlledLayer);
+
+BaseLayer.propTypes = controlledLayerPropTypes;
+
+var Overlay = function (_ControlledLayer2) {
+  _inherits(Overlay, _ControlledLayer2);
+
+  function Overlay() {
+    _classCallCheck(this, Overlay);
+
+    return _possibleConstructorReturn(this, Object.getPrototypeOf(Overlay).apply(this, arguments));
+  }
+
+  _createClass(Overlay, [{
+    key: 'addLayer',
+    value: function addLayer(layer) {
+      this.layer = layer; // Keep layer reference to handle dynamic changes of props
+      var _props2 = this.props;
+      var addOverlay = _props2.addOverlay;
+      var checked = _props2.checked;
+      var name = _props2.name;
+
+      addOverlay(layer, name, checked);
+    }
+  }]);
+
+  return Overlay;
+}(ControlledLayer);
+
+Overlay.propTypes = controlledLayerPropTypes;
+
+var LayersControl = function (_MapControl) {
+  _inherits(LayersControl, _MapControl);
+
+  function LayersControl() {
+    _classCallCheck(this, LayersControl);
+
+    return _possibleConstructorReturn(this, Object.getPrototypeOf(LayersControl).apply(this, arguments));
+  }
+
+  _createClass(LayersControl, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      var _props3 = this.props;
+      var _children = _props3.children;
+
+      var options = _objectWithoutProperties(_props3, ['children']);
+
+      this.leafletElement = _leaflet.control.layers(undefined, undefined, options);
+      this.controlProps = {
+        addBaseLayer: this.addBaseLayer.bind(this),
+        addOverlay: this.addOverlay.bind(this),
+        removeLayer: this.removeLayer.bind(this),
+        removeLayerControl: this.removeLayerControl.bind(this)
+      };
+    }
+  }, {
+    key: 'addBaseLayer',
+    value: function addBaseLayer(layer, name) {
+      var checked = arguments.length <= 2 || arguments[2] === undefined ? false : arguments[2];
+
+      if (checked) {
+        this.context.map.addLayer(layer);
+      }
+      this.leafletElement.addBaseLayer(layer, name);
+    }
+  }, {
+    key: 'addOverlay',
+    value: function addOverlay(layer, name) {
+      var checked = arguments.length <= 2 || arguments[2] === undefined ? false : arguments[2];
+
+      if (checked) {
+        this.context.map.addLayer(layer);
+      }
+      this.leafletElement.addOverlay(layer, name);
+    }
+  }, {
+    key: 'removeLayer',
+    value: function removeLayer(layer) {
+      this.context.map.removeLayer(layer);
+    }
+  }, {
+    key: 'removeLayerControl',
+    value: function removeLayerControl(layer) {
+      this.leafletElement.removeLayer(layer);
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var _this5 = this;
+
+      var children = _react.Children.map(this.props.children, function (child) {
+        return child ? (0, _react.cloneElement)(child, _this5.controlProps) : null;
+      });
+      return _react2.default.createElement(
+        'div',
+        { style: { display: 'none' } },
+        children
+      );
+    }
+  }]);
+
+  return LayersControl;
+}(_MapControl3.default);
+
+LayersControl.propTypes = {
+  baseLayers: _react.PropTypes.object,
+  children: _children3.default,
+  overlays: _react.PropTypes.object
+};
+LayersControl.contextTypes = {
+  layerContainer: _layerContainer2.default,
+  map: _map2.default
+};
+exports.default = LayersControl;
+
+
+LayersControl.BaseLayer = BaseLayer;
+LayersControl.Overlay = Overlay;
+},{"./MapControl":446,"./types/children":462,"./types/layerContainer":467,"./types/map":468,"leaflet":82,"react":654}],444:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _uniqueId2 = require('lodash/uniqueId');
+
+var _uniqueId3 = _interopRequireDefault(_uniqueId2);
+
+var _omit2 = require('lodash/omit');
+
+var _omit3 = _interopRequireDefault(_omit2);
+
+var _isUndefined2 = require('lodash/isUndefined');
+
+var _isUndefined3 = _interopRequireDefault(_isUndefined2);
+
+var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _leaflet = require('leaflet');
+
+var _leaflet2 = _interopRequireDefault(_leaflet);
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _bounds = require('./types/bounds');
+
+var _bounds2 = _interopRequireDefault(_bounds);
+
+var _children = require('./types/children');
+
+var _children2 = _interopRequireDefault(_children);
+
+var _latlng = require('./types/latlng');
+
+var _latlng2 = _interopRequireDefault(_latlng);
+
+var _MapComponent2 = require('./MapComponent');
+
+var _MapComponent3 = _interopRequireDefault(_MapComponent2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+/* eslint-disable react/no-did-mount-set-state */
+
+var normalizeCenter = function normalizeCenter(pos) {
+  return Array.isArray(pos) ? pos : [pos.lat, pos.lon ? pos.lon : pos.lng];
+};
+
+var Map = function (_MapComponent) {
+  _inherits(Map, _MapComponent);
+
+  _createClass(Map, [{
+    key: 'getChildContext',
+    value: function getChildContext() {
+      return {
+        map: this.leafletElement
+      };
+    }
+  }]);
+
+  function Map(props, context) {
+    _classCallCheck(this, Map);
+
+    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Map).call(this, props, context));
+
+    _this.state = {
+      id: props.id || (0, _uniqueId3.default)('map')
+    };
+    return _this;
+  }
+
+  _createClass(Map, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      var props = (0, _omit3.default)(this.props, ['children', 'className', 'id', 'style']);
+      this.leafletElement = _leaflet2.default.map(this.state.id, props);
+      _get(Object.getPrototypeOf(Map.prototype), 'componentDidMount', this).call(this);
+      this.setState({ map: this.leafletElement });
+      if (!(0, _isUndefined3.default)(props.bounds)) {
+        this.leafletElement.fitBounds(props.bounds, props.boundsOptions);
+      }
+    }
+  }, {
+    key: 'componentDidUpdate',
+    value: function componentDidUpdate(prevProps) {
+      var _props = this.props;
+      var bounds = _props.bounds;
+      var boundsOptions = _props.boundsOptions;
+      var center = _props.center;
+      var maxBounds = _props.maxBounds;
+      var zoom = _props.zoom;
+      var animate = _props.animate;
+
+      if (center && this.shouldUpdateCenter(center, prevProps.center)) {
+        this.leafletElement.setView(center, zoom, { animate: animate });
+      } else if (zoom && zoom !== prevProps.zoom) {
+        this.leafletElement.setZoom(zoom);
+      }
+      if (maxBounds && this.shouldUpdateBounds(maxBounds, prevProps.maxBounds)) {
+        this.leafletElement.setMaxBounds(maxBounds);
+      }
+      if (bounds && (this.shouldUpdateBounds(bounds, prevProps.bounds) || boundsOptions !== prevProps.boundsOptions)) {
+        this.leafletElement.fitBounds(bounds, boundsOptions);
+      }
+    }
+  }, {
+    key: 'componentWillUnmount',
+    value: function componentWillUnmount() {
+      _get(Object.getPrototypeOf(Map.prototype), 'componentWillUnmount', this).call(this);
+      this.leafletElement.remove();
+    }
+  }, {
+    key: 'shouldUpdateCenter',
+    value: function shouldUpdateCenter(next, prev) {
+      if (!prev) return true;
+      next = normalizeCenter(next);
+      prev = normalizeCenter(prev);
+      return next[0] !== prev[0] || next[1] !== prev[1];
+    }
+  }, {
+    key: 'shouldUpdateBounds',
+    value: function shouldUpdateBounds(next, prev) {
+      if (!prev) return true;
+      next = _leaflet2.default.latLngBounds(next);
+      prev = _leaflet2.default.latLngBounds(prev);
+      return !next.equals(prev);
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var map = this.leafletElement;
+      var children = map ? _react2.default.Children.map(this.props.children, function (child) {
+        return child ? _react2.default.cloneElement(child, { map: map, layerContainer: map }) : null;
+      }) : null;
+
+      return _react2.default.createElement(
+        'div',
+        {
+          className: this.props.className,
+          id: this.state.id,
+          style: this.props.style },
+        children
+      );
+    }
+  }]);
+
+  return Map;
+}(_MapComponent3.default);
+
+Map.propTypes = {
+  animate: _react.PropTypes.bool,
+  bounds: _bounds2.default,
+  boundsOptions: _react.PropTypes.object,
+  center: _latlng2.default,
+  children: _children2.default,
+  className: _react.PropTypes.string,
+  id: _react.PropTypes.string,
+  maxBounds: _bounds2.default,
+  maxZoom: _react.PropTypes.number,
+  minZoom: _react.PropTypes.number,
+  style: _react.PropTypes.object,
+  zoom: _react.PropTypes.number
+};
+Map.defaultProps = {
+  animate: false
+};
+Map.childContextTypes = {
+  map: _react.PropTypes.instanceOf(_leaflet2.default.Map)
+};
+exports.default = Map;
+},{"./MapComponent":445,"./types/bounds":461,"./types/children":462,"./types/latlng":465,"leaflet":82,"lodash/isUndefined":267,"lodash/omit":274,"lodash/uniqueId":288,"react":654}],445:[function(require,module,exports){
+(function (process){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _reduce2 = require('lodash/reduce');
+
+var _reduce3 = _interopRequireDefault(_reduce2);
+
+var _keys2 = require('lodash/keys');
+
+var _keys3 = _interopRequireDefault(_keys2);
+
+var _forEach2 = require('lodash/forEach');
+
+var _forEach3 = _interopRequireDefault(_forEach2);
+
+var _clone2 = require('lodash/clone');
+
+var _clone3 = _interopRequireDefault(_clone2);
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = require('react');
+
+var _warning = require('warning');
+
+var _warning2 = _interopRequireDefault(_warning);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var EVENTS_RE = /^on(.+)$/i;
+
+var MapComponent = function (_Component) {
+  _inherits(MapComponent, _Component);
+
+  function MapComponent(props, context) {
+    _classCallCheck(this, MapComponent);
+
+    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(MapComponent).call(this, props, context));
+
+    _this._leafletEvents = {};
+    return _this;
+  }
+
+  _createClass(MapComponent, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      this._leafletEvents = this.extractLeafletEvents(this.props);
+    }
+  }, {
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      this.bindLeafletEvents(this._leafletEvents, {});
+    }
+  }, {
+    key: 'componentWillReceiveProps',
+    value: function componentWillReceiveProps(nextProps) {
+      var next = this.extractLeafletEvents(nextProps);
+      this._leafletEvents = this.bindLeafletEvents(next, this._leafletEvents);
+    }
+  }, {
+    key: 'componentWillUnmount',
+    value: function componentWillUnmount() {
+      var el = this.leafletElement;
+      if (!el) return;
+
+      (0, _forEach3.default)(this._leafletEvents, function (cb, ev) {
+        el.off(ev, cb);
+      });
+    }
+  }, {
+    key: 'getLeafletElement',
+    value: function getLeafletElement() {
+      process.env.NODE_ENV !== 'production' ? (0, _warning2.default)(false, 'The "getLeafletElement()" method is deprecated and will be removed in the next version, simply use the "leafletElement" property instead.') : void 0;
+      return this.leafletElement;
+    }
+  }, {
+    key: 'extractLeafletEvents',
+    value: function extractLeafletEvents(props) {
+      return (0, _reduce3.default)((0, _keys3.default)(props), function (res, prop) {
+        if (EVENTS_RE.test(prop)) {
+          var key = prop.replace(EVENTS_RE, function (match, p) {
+            return p.toLowerCase();
+          });
+          res[key] = props[prop];
+        }
+        return res;
+      }, {});
+    }
+  }, {
+    key: 'bindLeafletEvents',
+    value: function bindLeafletEvents() {
+      var next = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
+      var prev = arguments.length <= 1 || arguments[1] === undefined ? {} : arguments[1];
+
+      var el = this.leafletElement;
+      if (!el || !el.on) return {};
+
+      var diff = (0, _clone3.default)(prev);
+      (0, _forEach3.default)(prev, function (cb, ev) {
+        if (!next[ev] || cb !== next[ev]) {
+          delete diff[ev];
+          el.off(ev, cb);
+        }
+      });
+
+      (0, _forEach3.default)(next, function (cb, ev) {
+        if (!prev[ev] || cb !== prev[ev]) {
+          diff[ev] = cb;
+          el.on(ev, cb);
+        }
+      });
+
+      return diff;
+    }
+  }, {
+    key: 'fireLeafletEvent',
+    value: function fireLeafletEvent(type, data) {
+      var el = this.leafletElement;
+      if (el) el.fire(type, data);
+    }
+  }]);
+
+  return MapComponent;
+}(_react.Component);
+
+exports.default = MapComponent;
+}).call(this,require('_process'))
+},{"_process":47,"lodash/clone":244,"lodash/forEach":249,"lodash/keys":268,"lodash/reduce":278,"react":654,"warning":469}],446:[function(require,module,exports){
+(function (process){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = require('react');
+
+var _warning = require('warning');
+
+var _warning2 = _interopRequireDefault(_warning);
+
+var _controlPosition = require('./types/controlPosition');
+
+var _controlPosition2 = _interopRequireDefault(_controlPosition);
+
+var _map = require('./types/map');
+
+var _map2 = _interopRequireDefault(_map);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var MapControl = function (_Component) {
+  _inherits(MapControl, _Component);
+
+  function MapControl() {
+    _classCallCheck(this, MapControl);
+
+    return _possibleConstructorReturn(this, Object.getPrototypeOf(MapControl).apply(this, arguments));
+  }
+
+  _createClass(MapControl, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      this.leafletElement.addTo(this.context.map);
+    }
+  }, {
+    key: 'componentDidUpdate',
+    value: function componentDidUpdate(prevProps) {
+      if (this.props.position !== prevProps.position) {
+        this.leafletElement.setPosition(this.props.position);
+      }
+    }
+  }, {
+    key: 'componentWillUnmount',
+    value: function componentWillUnmount() {
+      this.leafletElement.removeFrom(this.context.map);
+    }
+  }, {
+    key: 'getLeafletElement',
+    value: function getLeafletElement() {
+      process.env.NODE_ENV !== 'production' ? (0, _warning2.default)(false, 'The "getLeafletElement()" method is deprecated and will be removed in the next version, simply use the "leafletElement" property instead.') : void 0;
+      return this.leafletElement;
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return null;
+    }
+  }]);
+
+  return MapControl;
+}(_react.Component);
+
+MapControl.propTypes = {
+  position: _controlPosition2.default
+};
+MapControl.contextTypes = {
+  map: _map2.default
+};
+exports.default = MapControl;
+}).call(this,require('_process'))
+},{"./types/controlPosition":463,"./types/map":468,"_process":47,"react":654,"warning":469}],447:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _children = require('./types/children');
+
+var _children2 = _interopRequireDefault(_children);
+
+var _layerContainer = require('./types/layerContainer');
+
+var _layerContainer2 = _interopRequireDefault(_layerContainer);
+
+var _map = require('./types/map');
+
+var _map2 = _interopRequireDefault(_map);
+
+var _MapComponent2 = require('./MapComponent');
+
+var _MapComponent3 = _interopRequireDefault(_MapComponent2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var MapLayer = function (_MapComponent) {
+  _inherits(MapLayer, _MapComponent);
+
+  function MapLayer() {
+    _classCallCheck(this, MapLayer);
+
+    return _possibleConstructorReturn(this, Object.getPrototypeOf(MapLayer).apply(this, arguments));
+  }
+
+  _createClass(MapLayer, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      _get(Object.getPrototypeOf(MapLayer.prototype), 'componentDidMount', this).call(this);
+      this.layerContainer.addLayer(this.leafletElement);
+    }
+  }, {
+    key: 'componentWillUnmount',
+    value: function componentWillUnmount() {
+      _get(Object.getPrototypeOf(MapLayer.prototype), 'componentWillUnmount', this).call(this);
+      this.layerContainer.removeLayer(this.leafletElement);
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        { style: { display: 'none' } },
+        this.props.children
+      );
+    }
+  }, {
+    key: 'layerContainer',
+    get: function get() {
+      return this.context.layerContainer || this.context.map;
+    }
+  }]);
+
+  return MapLayer;
+}(_MapComponent3.default);
+
+MapLayer.propTypes = {
+  children: _children2.default
+};
+MapLayer.contextTypes = {
+  layerContainer: _layerContainer2.default,
+  map: _map2.default
+};
+exports.default = MapLayer;
+},{"./MapComponent":445,"./types/children":462,"./types/layerContainer":467,"./types/map":468,"react":654}],448:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
+
+var _leaflet = require('leaflet');
+
+var _react = require('react');
+
+var _latlng = require('./types/latlng');
+
+var _latlng2 = _interopRequireDefault(_latlng);
+
+var _MapLayer2 = require('./MapLayer');
+
+var _MapLayer3 = _interopRequireDefault(_MapLayer2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Marker = function (_MapLayer) {
+  _inherits(Marker, _MapLayer);
+
+  function Marker() {
+    _classCallCheck(this, Marker);
+
+    return _possibleConstructorReturn(this, Object.getPrototypeOf(Marker).apply(this, arguments));
+  }
+
+  _createClass(Marker, [{
+    key: 'getChildContext',
+    value: function getChildContext() {
+      return {
+        popupContainer: this.leafletElement
+      };
+    }
+  }, {
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      _get(Object.getPrototypeOf(Marker.prototype), 'componentWillMount', this).call(this);
+      var _props = this.props;
+      var position = _props.position;
+
+      var props = _objectWithoutProperties(_props, ['position']);
+
+      this.leafletElement = (0, _leaflet.marker)(position, props);
+    }
+  }, {
+    key: 'componentDidUpdate',
+    value: function componentDidUpdate(prevProps) {
+      if (this.props.position !== prevProps.position) {
+        this.leafletElement.setLatLng(this.props.position);
+      }
+      if (this.props.icon !== prevProps.icon) {
+        this.leafletElement.setIcon(this.props.icon);
+      }
+      if (this.props.zIndexOffset !== prevProps.zIndexOffset) {
+        this.leafletElement.setZIndexOffset(this.props.zIndexOffset);
+      }
+      if (this.props.opacity !== prevProps.opacity) {
+        this.leafletElement.setOpacity(this.props.opacity);
+      }
+      if (this.props.draggable !== prevProps.draggable) {
+        if (this.props.draggable) {
+          this.leafletElement.dragging.enable();
+        } else {
+          this.leafletElement.dragging.disable();
+        }
+      }
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return this.props.children || null;
+    }
+  }]);
+
+  return Marker;
+}(_MapLayer3.default);
+
+Marker.propTypes = {
+  icon: _react.PropTypes.instanceOf(_leaflet.Icon),
+  opacity: _react.PropTypes.number,
+  position: _latlng2.default.isRequired,
+  zIndexOffset: _react.PropTypes.number
+};
+Marker.childContextTypes = {
+  popupContainer: _react.PropTypes.object
+};
+exports.default = Marker;
+},{"./MapLayer":447,"./types/latlng":465,"leaflet":82,"react":654}],449:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
+
+var _leaflet = require('leaflet');
+
+var _react = require('react');
+
+var _latlngList = require('./types/latlngList');
+
+var _latlngList2 = _interopRequireDefault(_latlngList);
+
+var _Path2 = require('./Path');
+
+var _Path3 = _interopRequireDefault(_Path2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var MultiPolygon = function (_Path) {
+  _inherits(MultiPolygon, _Path);
+
+  function MultiPolygon() {
+    _classCallCheck(this, MultiPolygon);
+
+    return _possibleConstructorReturn(this, Object.getPrototypeOf(MultiPolygon).apply(this, arguments));
+  }
+
+  _createClass(MultiPolygon, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      _get(Object.getPrototypeOf(MultiPolygon.prototype), 'componentWillMount', this).call(this);
+      var _props = this.props;
+      var polygons = _props.polygons;
+
+      var props = _objectWithoutProperties(_props, ['polygons']);
+
+      this.leafletElement = (0, _leaflet.multiPolygon)(polygons, props);
+    }
+  }, {
+    key: 'componentDidUpdate',
+    value: function componentDidUpdate(prevProps) {
+      if (this.props.polygons !== prevProps.polygons) {
+        this.leafletElement.setLatLngs(this.props.polygons);
+      }
+      this.setStyleIfChanged(prevProps, this.props);
+    }
+  }]);
+
+  return MultiPolygon;
+}(_Path3.default);
+
+MultiPolygon.propTypes = {
+  polygons: _react.PropTypes.arrayOf(_latlngList2.default).isRequired
+};
+exports.default = MultiPolygon;
+},{"./Path":451,"./types/latlngList":466,"leaflet":82,"react":654}],450:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
+
+var _leaflet = require('leaflet');
+
+var _react = require('react');
+
+var _latlngList = require('./types/latlngList');
+
+var _latlngList2 = _interopRequireDefault(_latlngList);
+
+var _Path2 = require('./Path');
+
+var _Path3 = _interopRequireDefault(_Path2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var MultiPolyline = function (_Path) {
+  _inherits(MultiPolyline, _Path);
+
+  function MultiPolyline() {
+    _classCallCheck(this, MultiPolyline);
+
+    return _possibleConstructorReturn(this, Object.getPrototypeOf(MultiPolyline).apply(this, arguments));
+  }
+
+  _createClass(MultiPolyline, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      _get(Object.getPrototypeOf(MultiPolyline.prototype), 'componentWillMount', this).call(this);
+      var _props = this.props;
+      var polylines = _props.polylines;
+
+      var props = _objectWithoutProperties(_props, ['polylines']);
+
+      this.leafletElement = (0, _leaflet.multiPolyline)(polylines, props);
+    }
+  }, {
+    key: 'componentDidUpdate',
+    value: function componentDidUpdate(prevProps) {
+      if (this.props.polylines !== prevProps.polylines) {
+        this.leafletElement.setLatLngs(this.props.polylines);
+      }
+      this.setStyleIfChanged(prevProps, this.props);
+    }
+  }]);
+
+  return MultiPolyline;
+}(_Path3.default);
+
+MultiPolyline.propTypes = {
+  polylines: _react.PropTypes.arrayOf(_latlngList2.default).isRequired
+};
+exports.default = MultiPolyline;
+},{"./Path":451,"./types/latlngList":466,"leaflet":82,"react":654}],451:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _pick2 = require('lodash/pick');
+
+var _pick3 = _interopRequireDefault(_pick2);
+
+var _isEqual2 = require('lodash/isEqual');
+
+var _isEqual3 = _interopRequireDefault(_isEqual2);
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = require('react');
+
+var _MapLayer2 = require('./MapLayer');
+
+var _MapLayer3 = _interopRequireDefault(_MapLayer2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var OPTIONS = ['stroke', 'color', 'weight', 'opacity', 'fill', 'fillColor', 'fillOpacity', 'fillRule', 'dashArray', 'lineCap', 'lineJoin', 'clickable', 'pointerEvents', 'className'];
+
+var Path = function (_MapLayer) {
+  _inherits(Path, _MapLayer);
+
+  function Path() {
+    _classCallCheck(this, Path);
+
+    return _possibleConstructorReturn(this, Object.getPrototypeOf(Path).apply(this, arguments));
+  }
+
+  _createClass(Path, [{
+    key: 'getChildContext',
+    value: function getChildContext() {
+      return {
+        popupContainer: this.leafletElement
+      };
+    }
+  }, {
+    key: 'getPathOptions',
+    value: function getPathOptions(props) {
+      return (0, _pick3.default)(props, OPTIONS);
+    }
+  }, {
+    key: 'setStyle',
+    value: function setStyle() {
+      var options = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
+
+      this.leafletElement.setStyle(options);
+    }
+  }, {
+    key: 'setStyleIfChanged',
+    value: function setStyleIfChanged(fromProps, toProps) {
+      var nextStyle = this.getPathOptions(toProps);
+      if (!(0, _isEqual3.default)(nextStyle, this.getPathOptions(fromProps))) {
+        this.setStyle(nextStyle);
+      }
+    }
+  }]);
+
+  return Path;
+}(_MapLayer3.default);
+
+Path.childContextTypes = {
+  popupContainer: _react.PropTypes.object
+};
+exports.default = Path;
+},{"./MapLayer":447,"lodash/isEqual":258,"lodash/pick":276,"react":654}],452:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
+
+var _leaflet = require('leaflet');
+
+var _react = require('react');
+
+var _latlngList = require('./types/latlngList');
+
+var _latlngList2 = _interopRequireDefault(_latlngList);
+
+var _Path2 = require('./Path');
+
+var _Path3 = _interopRequireDefault(_Path2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Polygon = function (_Path) {
+  _inherits(Polygon, _Path);
+
+  function Polygon() {
+    _classCallCheck(this, Polygon);
+
+    return _possibleConstructorReturn(this, Object.getPrototypeOf(Polygon).apply(this, arguments));
+  }
+
+  _createClass(Polygon, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      _get(Object.getPrototypeOf(Polygon.prototype), 'componentWillMount', this).call(this);
+      var _props = this.props;
+      var positions = _props.positions;
+
+      var props = _objectWithoutProperties(_props, ['positions']);
+
+      this.leafletElement = (0, _leaflet.polygon)(positions, props);
+    }
+  }, {
+    key: 'componentDidUpdate',
+    value: function componentDidUpdate(prevProps) {
+      if (this.props.positions !== prevProps.positions) {
+        this.leafletElement.setLatLngs(this.props.positions);
+      }
+      this.setStyleIfChanged(prevProps, this.props);
+    }
+  }]);
+
+  return Polygon;
+}(_Path3.default);
+
+Polygon.propTypes = {
+  positions: _react.PropTypes.oneOfType([_latlngList2.default, _react.PropTypes.arrayOf(_latlngList2.default)]).isRequired
+};
+exports.default = Polygon;
+},{"./Path":451,"./types/latlngList":466,"leaflet":82,"react":654}],453:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
+
+var _leaflet = require('leaflet');
+
+var _latlngList = require('./types/latlngList');
+
+var _latlngList2 = _interopRequireDefault(_latlngList);
+
+var _Path2 = require('./Path');
+
+var _Path3 = _interopRequireDefault(_Path2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Polyline = function (_Path) {
+  _inherits(Polyline, _Path);
+
+  function Polyline() {
+    _classCallCheck(this, Polyline);
+
+    return _possibleConstructorReturn(this, Object.getPrototypeOf(Polyline).apply(this, arguments));
+  }
+
+  _createClass(Polyline, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      _get(Object.getPrototypeOf(Polyline.prototype), 'componentWillMount', this).call(this);
+      var _props = this.props;
+      var positions = _props.positions;
+
+      var props = _objectWithoutProperties(_props, ['positions']);
+
+      this.leafletElement = (0, _leaflet.polyline)(positions, props);
+    }
+  }, {
+    key: 'componentDidUpdate',
+    value: function componentDidUpdate(prevProps) {
+      if (this.props.positions !== prevProps.positions) {
+        this.leafletElement.setLatLngs(this.props.positions);
+      }
+      this.setStyleIfChanged(prevProps, this.props);
+    }
+  }]);
+
+  return Polyline;
+}(_Path3.default);
+
+Polyline.propTypes = {
+  positions: _latlngList2.default.isRequired
+};
+exports.default = Polyline;
+},{"./Path":451,"./types/latlngList":466,"leaflet":82}],454:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
+
+var _leaflet = require('leaflet');
+
+var _react = require('react');
+
+var _reactDom = require('react-dom');
+
+var _latlng = require('./types/latlng');
+
+var _latlng2 = _interopRequireDefault(_latlng);
+
+var _map = require('./types/map');
+
+var _map2 = _interopRequireDefault(_map);
+
+var _MapComponent2 = require('./MapComponent');
+
+var _MapComponent3 = _interopRequireDefault(_MapComponent2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Popup = function (_MapComponent) {
+  _inherits(Popup, _MapComponent);
+
+  function Popup() {
+    _classCallCheck(this, Popup);
+
+    return _possibleConstructorReturn(this, Object.getPrototypeOf(Popup).apply(this, arguments));
+  }
+
+  _createClass(Popup, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      _get(Object.getPrototypeOf(Popup.prototype), 'componentWillMount', this).call(this);
+      var _props = this.props;
+      var _children = _props.children;
+
+      var props = _objectWithoutProperties(_props, ['children']);
+
+      this.leafletElement = (0, _leaflet.popup)(props, this.context.popupContainer);
+      this.leafletElement.on('open', this.renderPopupContent.bind(this));
+      this.leafletElement.on('close', this.removePopupContent.bind(this));
+    }
+  }, {
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      var position = this.props.position;
+      var _context = this.context;
+      var map = _context.map;
+      var popupContainer = _context.popupContainer;
+
+      var el = this.leafletElement;
+
+      if (popupContainer) {
+        // Attach to container component
+        popupContainer.bindPopup(el);
+      } else {
+        // Attach to a Map
+        if (position) {
+          el.setLatLng(position);
+        }
+        el.openOn(map);
+      }
+    }
+  }, {
+    key: 'componentDidUpdate',
+    value: function componentDidUpdate(prevProps) {
+      var position = this.props.position;
+
+
+      if (position !== prevProps.position) {
+        this.leafletElement.setLatLng(position);
+      }
+
+      if (this.leafletElement._isOpen) {
+        this.renderPopupContent();
+      }
+    }
+  }, {
+    key: 'componentWillUnmount',
+    value: function componentWillUnmount() {
+      _get(Object.getPrototypeOf(Popup.prototype), 'componentWillUnmount', this).call(this);
+      this.removePopupContent();
+      this.context.map.removeLayer(this.leafletElement);
+    }
+  }, {
+    key: 'renderPopupContent',
+    value: function renderPopupContent() {
+      if (this.props.children) {
+        (0, _reactDom.render)(_react.Children.only(this.props.children), this.leafletElement._contentNode);
+
+        this.leafletElement._updateLayout();
+        this.leafletElement._updatePosition();
+        this.leafletElement._adjustPan();
+      } else {
+        this.removePopupContent();
+      }
+    }
+  }, {
+    key: 'removePopupContent',
+    value: function removePopupContent() {
+      if (this.leafletElement._contentNode) {
+        (0, _reactDom.unmountComponentAtNode)(this.leafletElement._contentNode);
+      }
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return null;
+    }
+  }]);
+
+  return Popup;
+}(_MapComponent3.default);
+
+Popup.propTypes = {
+  children: _react.PropTypes.node,
+  position: _latlng2.default
+};
+Popup.contextTypes = {
+  map: _map2.default,
+  popupContainer: _react.PropTypes.object
+};
+exports.default = Popup;
+},{"./MapComponent":445,"./types/latlng":465,"./types/map":468,"leaflet":82,"react":654,"react-dom":433}],455:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
+
+var _leaflet = require('leaflet');
+
+var _bounds = require('./types/bounds');
+
+var _bounds2 = _interopRequireDefault(_bounds);
+
+var _Path2 = require('./Path');
+
+var _Path3 = _interopRequireDefault(_Path2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Rectangle = function (_Path) {
+  _inherits(Rectangle, _Path);
+
+  function Rectangle() {
+    _classCallCheck(this, Rectangle);
+
+    return _possibleConstructorReturn(this, Object.getPrototypeOf(Rectangle).apply(this, arguments));
+  }
+
+  _createClass(Rectangle, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      _get(Object.getPrototypeOf(Rectangle.prototype), 'componentWillMount', this).call(this);
+      var _props = this.props;
+      var bounds = _props.bounds;
+
+      var props = _objectWithoutProperties(_props, ['bounds']);
+
+      this.leafletElement = (0, _leaflet.rectangle)(bounds, props);
+    }
+  }, {
+    key: 'componentDidUpdate',
+    value: function componentDidUpdate(prevProps) {
+      if (this.props.bounds !== prevProps.bounds) {
+        this.leafletElement.setBounds(this.props.bounds);
+      }
+      this.setStyleIfChanged(prevProps, this.props);
+    }
+  }]);
+
+  return Rectangle;
+}(_Path3.default);
+
+Rectangle.propTypes = {
+  bounds: _bounds2.default.isRequired
+};
+exports.default = Rectangle;
+},{"./Path":451,"./types/bounds":461,"leaflet":82}],456:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _leaflet = require('leaflet');
+
+var _react = require('react');
+
+var _MapControl2 = require('./MapControl');
+
+var _MapControl3 = _interopRequireDefault(_MapControl2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var ZoomControl = function (_MapControl) {
+  _inherits(ZoomControl, _MapControl);
+
+  function ZoomControl() {
+    _classCallCheck(this, ZoomControl);
+
+    return _possibleConstructorReturn(this, Object.getPrototypeOf(ZoomControl).apply(this, arguments));
+  }
+
+  _createClass(ZoomControl, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      this.leafletElement = _leaflet.control.scale(this.props);
+    }
+  }]);
+
+  return ZoomControl;
+}(_MapControl3.default);
+
+ZoomControl.propTypes = {
+  imperial: _react.PropTypes.bool,
+  maxWidth: _react.PropTypes.number,
+  metric: _react.PropTypes.bool,
+  updateWhenIdle: _react.PropTypes.bool
+};
+exports.default = ZoomControl;
+},{"./MapControl":446,"leaflet":82,"react":654}],457:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
+
+var _leaflet = require('leaflet');
+
+var _react = require('react');
+
+var _BaseTileLayer2 = require('./BaseTileLayer');
+
+var _BaseTileLayer3 = _interopRequireDefault(_BaseTileLayer2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var TileLayer = function (_BaseTileLayer) {
+  _inherits(TileLayer, _BaseTileLayer);
+
+  function TileLayer() {
+    _classCallCheck(this, TileLayer);
+
+    return _possibleConstructorReturn(this, Object.getPrototypeOf(TileLayer).apply(this, arguments));
+  }
+
+  _createClass(TileLayer, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      _get(Object.getPrototypeOf(TileLayer.prototype), 'componentWillMount', this).call(this);
+      var _props = this.props;
+      var url = _props.url;
+
+      var props = _objectWithoutProperties(_props, ['url']);
+
+      this.leafletElement = (0, _leaflet.tileLayer)(url, props);
+    }
+  }, {
+    key: 'componentDidUpdate',
+    value: function componentDidUpdate(prevProps) {
+      _get(Object.getPrototypeOf(TileLayer.prototype), 'componentDidUpdate', this).call(this, prevProps);
+      var url = this.props.url;
+
+      if (url !== prevProps.url) {
+        this.leafletElement.setUrl(url);
+      }
+    }
+  }]);
+
+  return TileLayer;
+}(_BaseTileLayer3.default);
+
+TileLayer.propTypes = {
+  url: _react.PropTypes.string.isRequired
+};
+exports.default = TileLayer;
+},{"./BaseTileLayer":435,"leaflet":82,"react":654}],458:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
+
+var _leaflet = require('leaflet');
+
+var _react = require('react');
+
+var _BaseTileLayer2 = require('./BaseTileLayer');
+
+var _BaseTileLayer3 = _interopRequireDefault(_BaseTileLayer2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var WMSTileLayer = function (_BaseTileLayer) {
+  _inherits(WMSTileLayer, _BaseTileLayer);
+
+  function WMSTileLayer() {
+    _classCallCheck(this, WMSTileLayer);
+
+    return _possibleConstructorReturn(this, Object.getPrototypeOf(WMSTileLayer).apply(this, arguments));
+  }
+
+  _createClass(WMSTileLayer, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      _get(Object.getPrototypeOf(WMSTileLayer.prototype), 'componentWillMount', this).call(this);
+      var _props = this.props;
+      var url = _props.url;
+
+      var props = _objectWithoutProperties(_props, ['url']);
+
+      this.leafletElement = _leaflet.tileLayer.wms(url, props);
+    }
+  }]);
+
+  return WMSTileLayer;
+}(_BaseTileLayer3.default);
+
+WMSTileLayer.propTypes = {
+  url: _react.PropTypes.string.isRequired
+};
+exports.default = WMSTileLayer;
+},{"./BaseTileLayer":435,"leaflet":82,"react":654}],459:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _leaflet = require('leaflet');
+
+var _react = require('react');
+
+var _MapControl2 = require('./MapControl');
+
+var _MapControl3 = _interopRequireDefault(_MapControl2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var ZoomControl = function (_MapControl) {
+  _inherits(ZoomControl, _MapControl);
+
+  function ZoomControl() {
+    _classCallCheck(this, ZoomControl);
+
+    return _possibleConstructorReturn(this, Object.getPrototypeOf(ZoomControl).apply(this, arguments));
+  }
+
+  _createClass(ZoomControl, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      this.leafletElement = _leaflet.control.zoom(this.props);
+    }
+  }]);
+
+  return ZoomControl;
+}(_MapControl3.default);
+
+ZoomControl.propTypes = {
+  zoomInText: _react.PropTypes.string,
+  zoomInTitle: _react.PropTypes.string,
+  zoomOutText: _react.PropTypes.string,
+  zoomOutTitle: _react.PropTypes.string
+};
+exports.default = ZoomControl;
+},{"./MapControl":446,"leaflet":82,"react":654}],460:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.setIconDefaultImagePath = exports.ZoomControl = exports.WMSTileLayer = exports.TileLayer = exports.ScaleControl = exports.Rectangle = exports.Popup = exports.Polyline = exports.Polygon = exports.Path = exports.MultiPolyline = exports.MultiPolygon = exports.Marker = exports.MapLayer = exports.MapControl = exports.MapComponent = exports.Map = exports.LayersControl = exports.LayerGroup = exports.ImageOverlay = exports.GeoJson = exports.FeatureGroup = exports.CircleMarker = exports.Circle = exports.CanvasTileLayer = exports.BaseTileLayer = exports.AttributionControl = exports.PropTypes = undefined;
+
+var _leaflet = require('leaflet');
+
+var _leaflet2 = _interopRequireDefault(_leaflet);
+
+var _types = require('./types');
+
+var _PropTypes = _interopRequireWildcard(_types);
+
+var _AttributionControl2 = require('./AttributionControl');
+
+var _AttributionControl3 = _interopRequireDefault(_AttributionControl2);
+
+var _BaseTileLayer2 = require('./BaseTileLayer');
+
+var _BaseTileLayer3 = _interopRequireDefault(_BaseTileLayer2);
+
+var _CanvasTileLayer2 = require('./CanvasTileLayer');
+
+var _CanvasTileLayer3 = _interopRequireDefault(_CanvasTileLayer2);
+
+var _Circle2 = require('./Circle');
+
+var _Circle3 = _interopRequireDefault(_Circle2);
+
+var _CircleMarker2 = require('./CircleMarker');
+
+var _CircleMarker3 = _interopRequireDefault(_CircleMarker2);
+
+var _FeatureGroup2 = require('./FeatureGroup');
+
+var _FeatureGroup3 = _interopRequireDefault(_FeatureGroup2);
+
+var _GeoJson2 = require('./GeoJson');
+
+var _GeoJson3 = _interopRequireDefault(_GeoJson2);
+
+var _ImageOverlay2 = require('./ImageOverlay');
+
+var _ImageOverlay3 = _interopRequireDefault(_ImageOverlay2);
+
+var _LayerGroup2 = require('./LayerGroup');
+
+var _LayerGroup3 = _interopRequireDefault(_LayerGroup2);
+
+var _LayersControl2 = require('./LayersControl');
+
+var _LayersControl3 = _interopRequireDefault(_LayersControl2);
+
+var _Map2 = require('./Map');
+
+var _Map3 = _interopRequireDefault(_Map2);
+
+var _MapComponent2 = require('./MapComponent');
+
+var _MapComponent3 = _interopRequireDefault(_MapComponent2);
+
+var _MapControl2 = require('./MapControl');
+
+var _MapControl3 = _interopRequireDefault(_MapControl2);
+
+var _MapLayer2 = require('./MapLayer');
+
+var _MapLayer3 = _interopRequireDefault(_MapLayer2);
+
+var _Marker2 = require('./Marker');
+
+var _Marker3 = _interopRequireDefault(_Marker2);
+
+var _MultiPolygon2 = require('./MultiPolygon');
+
+var _MultiPolygon3 = _interopRequireDefault(_MultiPolygon2);
+
+var _MultiPolyline2 = require('./MultiPolyline');
+
+var _MultiPolyline3 = _interopRequireDefault(_MultiPolyline2);
+
+var _Path2 = require('./Path');
+
+var _Path3 = _interopRequireDefault(_Path2);
+
+var _Polygon2 = require('./Polygon');
+
+var _Polygon3 = _interopRequireDefault(_Polygon2);
+
+var _Polyline2 = require('./Polyline');
+
+var _Polyline3 = _interopRequireDefault(_Polyline2);
+
+var _Popup2 = require('./Popup');
+
+var _Popup3 = _interopRequireDefault(_Popup2);
+
+var _Rectangle2 = require('./Rectangle');
+
+var _Rectangle3 = _interopRequireDefault(_Rectangle2);
+
+var _ScaleControl2 = require('./ScaleControl');
+
+var _ScaleControl3 = _interopRequireDefault(_ScaleControl2);
+
+var _TileLayer2 = require('./TileLayer');
+
+var _TileLayer3 = _interopRequireDefault(_TileLayer2);
+
+var _WMSTileLayer2 = require('./WMSTileLayer');
+
+var _WMSTileLayer3 = _interopRequireDefault(_WMSTileLayer2);
+
+var _ZoomControl2 = require('./ZoomControl');
+
+var _ZoomControl3 = _interopRequireDefault(_ZoomControl2);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.PropTypes = _PropTypes;
+exports.AttributionControl = _AttributionControl3.default;
+exports.BaseTileLayer = _BaseTileLayer3.default;
+exports.CanvasTileLayer = _CanvasTileLayer3.default;
+exports.Circle = _Circle3.default;
+exports.CircleMarker = _CircleMarker3.default;
+exports.FeatureGroup = _FeatureGroup3.default;
+exports.GeoJson = _GeoJson3.default;
+exports.ImageOverlay = _ImageOverlay3.default;
+exports.LayerGroup = _LayerGroup3.default;
+exports.LayersControl = _LayersControl3.default;
+exports.Map = _Map3.default;
+exports.MapComponent = _MapComponent3.default;
+exports.MapControl = _MapControl3.default;
+exports.MapLayer = _MapLayer3.default;
+exports.Marker = _Marker3.default;
+exports.MultiPolygon = _MultiPolygon3.default;
+exports.MultiPolyline = _MultiPolyline3.default;
+exports.Path = _Path3.default;
+exports.Polygon = _Polygon3.default;
+exports.Polyline = _Polyline3.default;
+exports.Popup = _Popup3.default;
+exports.Rectangle = _Rectangle3.default;
+exports.ScaleControl = _ScaleControl3.default;
+exports.TileLayer = _TileLayer3.default;
+exports.WMSTileLayer = _WMSTileLayer3.default;
+exports.ZoomControl = _ZoomControl3.default;
+var setIconDefaultImagePath = exports.setIconDefaultImagePath = function setIconDefaultImagePath(path) {
+  _leaflet2.default.Icon.Default.imagePath = path;
+};
+
+setIconDefaultImagePath('//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images');
+},{"./AttributionControl":434,"./BaseTileLayer":435,"./CanvasTileLayer":436,"./Circle":437,"./CircleMarker":438,"./FeatureGroup":439,"./GeoJson":440,"./ImageOverlay":441,"./LayerGroup":442,"./LayersControl":443,"./Map":444,"./MapComponent":445,"./MapControl":446,"./MapLayer":447,"./Marker":448,"./MultiPolygon":449,"./MultiPolyline":450,"./Path":451,"./Polygon":452,"./Polyline":453,"./Popup":454,"./Rectangle":455,"./ScaleControl":456,"./TileLayer":457,"./WMSTileLayer":458,"./ZoomControl":459,"./types":464,"leaflet":82}],461:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = require('react');
+
+var _leaflet = require('leaflet');
+
+var _latlngList = require('./latlngList');
+
+var _latlngList2 = _interopRequireDefault(_latlngList);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = _react.PropTypes.oneOfType([_react.PropTypes.instanceOf(_leaflet.LatLngBounds), _latlngList2.default]);
+},{"./latlngList":466,"leaflet":82,"react":654}],462:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = require('react');
+
+exports.default = _react.PropTypes.oneOfType([_react.PropTypes.arrayOf(_react.PropTypes.node), _react.PropTypes.node]);
+},{"react":654}],463:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = require('react');
+
+exports.default = _react.PropTypes.oneOf(['topleft', 'topright', 'bottomleft', 'bottomright']);
+},{"react":654}],464:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.map = exports.layerContainer = exports.latlngList = exports.latlng = exports.controlPosition = exports.children = exports.bounds = undefined;
+
+var _bounds2 = require('./bounds');
+
+var _bounds3 = _interopRequireDefault(_bounds2);
+
+var _children2 = require('./children');
+
+var _children3 = _interopRequireDefault(_children2);
+
+var _controlPosition2 = require('./controlPosition');
+
+var _controlPosition3 = _interopRequireDefault(_controlPosition2);
+
+var _latlng2 = require('./latlng');
+
+var _latlng3 = _interopRequireDefault(_latlng2);
+
+var _latlngList2 = require('./latlngList');
+
+var _latlngList3 = _interopRequireDefault(_latlngList2);
+
+var _layerContainer2 = require('./layerContainer');
+
+var _layerContainer3 = _interopRequireDefault(_layerContainer2);
+
+var _map2 = require('./map');
+
+var _map3 = _interopRequireDefault(_map2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.bounds = _bounds3.default;
+exports.children = _children3.default;
+exports.controlPosition = _controlPosition3.default;
+exports.latlng = _latlng3.default;
+exports.latlngList = _latlngList3.default;
+exports.layerContainer = _layerContainer3.default;
+exports.map = _map3.default;
+},{"./bounds":461,"./children":462,"./controlPosition":463,"./latlng":465,"./latlngList":466,"./layerContainer":467,"./map":468}],465:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = require('react');
+
+exports.default = _react.PropTypes.oneOfType([
+// [Number, Number]
+_react.PropTypes.arrayOf(_react.PropTypes.number),
+// {lat: Number, lng: Number}
+_react.PropTypes.shape({
+  lat: _react.PropTypes.number,
+  lng: _react.PropTypes.number
+}),
+// {lat: Number, lon: Number}
+_react.PropTypes.shape({
+  lat: _react.PropTypes.number,
+  lon: _react.PropTypes.number
+})]);
+},{"react":654}],466:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = require('react');
+
+var _latlng = require('./latlng');
+
+var _latlng2 = _interopRequireDefault(_latlng);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = _react.PropTypes.arrayOf(_latlng2.default);
+},{"./latlng":465,"react":654}],467:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = require('react');
+
+exports.default = _react.PropTypes.shape({
+  addLayer: _react.PropTypes.func.isRequired,
+  removeLayer: _react.PropTypes.func.isRequired
+});
+},{"react":654}],468:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _leaflet = require('leaflet');
+
+var _react = require('react');
+
+exports.default = _react.PropTypes.instanceOf(_leaflet.Map);
+},{"leaflet":82,"react":654}],469:[function(require,module,exports){
+arguments[4][380][0].apply(exports,arguments)
+},{"_process":47,"dup":380}],470:[function(require,module,exports){
+(function (process){
+'use strict';
+
+exports.__esModule = true;
+exports["default"] = undefined;
+
+var _react = require('react');
+
+var _storeShape = require('../utils/storeShape');
+
+var _storeShape2 = _interopRequireDefault(_storeShape);
+
+var _warning = require('../utils/warning');
+
+var _warning2 = _interopRequireDefault(_warning);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var didWarnAboutReceivingStore = false;
+function warnAboutReceivingStore() {
+  if (didWarnAboutReceivingStore) {
+    return;
+  }
+  didWarnAboutReceivingStore = true;
+
+  (0, _warning2["default"])('<Provider> does not support changing `store` on the fly. ' + 'It is most likely that you see this error because you updated to ' + 'Redux 2.x and React Redux 2.x which no longer hot reload reducers ' + 'automatically. See https://github.com/reactjs/react-redux/releases/' + 'tag/v2.0.0 for the migration instructions.');
+}
+
+var Provider = function (_Component) {
+  _inherits(Provider, _Component);
+
+  Provider.prototype.getChildContext = function getChildContext() {
+    return { store: this.store };
+  };
+
+  function Provider(props, context) {
+    _classCallCheck(this, Provider);
+
+    var _this = _possibleConstructorReturn(this, _Component.call(this, props, context));
+
+    _this.store = props.store;
+    return _this;
+  }
+
+  Provider.prototype.render = function render() {
+    var children = this.props.children;
+
+    return _react.Children.only(children);
+  };
+
+  return Provider;
+}(_react.Component);
+
+exports["default"] = Provider;
+
+if (process.env.NODE_ENV !== 'production') {
+  Provider.prototype.componentWillReceiveProps = function (nextProps) {
+    var store = this.store;
+    var nextStore = nextProps.store;
+
+    if (store !== nextStore) {
+      warnAboutReceivingStore();
+    }
+  };
+}
+
+Provider.propTypes = {
+  store: _storeShape2["default"].isRequired,
+  children: _react.PropTypes.element.isRequired
+};
+Provider.childContextTypes = {
+  store: _storeShape2["default"].isRequired
+};
+}).call(this,require('_process'))
+},{"../utils/storeShape":474,"../utils/warning":475,"_process":47,"react":654}],471:[function(require,module,exports){
+(function (process){
+'use strict';
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+exports.__esModule = true;
+exports["default"] = connect;
+
+var _react = require('react');
+
+var _storeShape = require('../utils/storeShape');
+
+var _storeShape2 = _interopRequireDefault(_storeShape);
+
+var _shallowEqual = require('../utils/shallowEqual');
+
+var _shallowEqual2 = _interopRequireDefault(_shallowEqual);
+
+var _wrapActionCreators = require('../utils/wrapActionCreators');
+
+var _wrapActionCreators2 = _interopRequireDefault(_wrapActionCreators);
+
+var _warning = require('../utils/warning');
+
+var _warning2 = _interopRequireDefault(_warning);
+
+var _isPlainObject = require('lodash/isPlainObject');
+
+var _isPlainObject2 = _interopRequireDefault(_isPlainObject);
+
+var _hoistNonReactStatics = require('hoist-non-react-statics');
+
+var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
+
+var _invariant = require('invariant');
+
+var _invariant2 = _interopRequireDefault(_invariant);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var defaultMapStateToProps = function defaultMapStateToProps(state) {
+  return {};
+}; // eslint-disable-line no-unused-vars
+var defaultMapDispatchToProps = function defaultMapDispatchToProps(dispatch) {
+  return { dispatch: dispatch };
+};
+var defaultMergeProps = function defaultMergeProps(stateProps, dispatchProps, parentProps) {
+  return _extends({}, parentProps, stateProps, dispatchProps);
+};
+
+function getDisplayName(WrappedComponent) {
+  return WrappedComponent.displayName || WrappedComponent.name || 'Component';
+}
+
+var errorObject = { value: null };
+function tryCatch(fn, ctx) {
+  try {
+    return fn.apply(ctx);
+  } catch (e) {
+    errorObject.value = e;
+    return errorObject;
+  }
+}
+
+// Helps track hot reloading.
+var nextVersion = 0;
+
+function connect(mapStateToProps, mapDispatchToProps, mergeProps) {
+  var options = arguments.length <= 3 || arguments[3] === undefined ? {} : arguments[3];
+
+  var shouldSubscribe = Boolean(mapStateToProps);
+  var mapState = mapStateToProps || defaultMapStateToProps;
+
+  var mapDispatch = undefined;
+  if (typeof mapDispatchToProps === 'function') {
+    mapDispatch = mapDispatchToProps;
+  } else if (!mapDispatchToProps) {
+    mapDispatch = defaultMapDispatchToProps;
+  } else {
+    mapDispatch = (0, _wrapActionCreators2["default"])(mapDispatchToProps);
+  }
+
+  var finalMergeProps = mergeProps || defaultMergeProps;
+  var _options$pure = options.pure;
+  var pure = _options$pure === undefined ? true : _options$pure;
+  var _options$withRef = options.withRef;
+  var withRef = _options$withRef === undefined ? false : _options$withRef;
+
+  var checkMergedEquals = pure && finalMergeProps !== defaultMergeProps;
+
+  // Helps track hot reloading.
+  var version = nextVersion++;
+
+  return function wrapWithConnect(WrappedComponent) {
+    var connectDisplayName = 'Connect(' + getDisplayName(WrappedComponent) + ')';
+
+    function checkStateShape(props, methodName) {
+      if (!(0, _isPlainObject2["default"])(props)) {
+        (0, _warning2["default"])(methodName + '() in ' + connectDisplayName + ' must return a plain object. ' + ('Instead received ' + props + '.'));
+      }
+    }
+
+    function computeMergedProps(stateProps, dispatchProps, parentProps) {
+      var mergedProps = finalMergeProps(stateProps, dispatchProps, parentProps);
+      if (process.env.NODE_ENV !== 'production') {
+        checkStateShape(mergedProps, 'mergeProps');
+      }
+      return mergedProps;
+    }
+
+    var Connect = function (_Component) {
+      _inherits(Connect, _Component);
+
+      Connect.prototype.shouldComponentUpdate = function shouldComponentUpdate() {
+        return !pure || this.haveOwnPropsChanged || this.hasStoreStateChanged;
+      };
+
+      function Connect(props, context) {
+        _classCallCheck(this, Connect);
+
+        var _this = _possibleConstructorReturn(this, _Component.call(this, props, context));
+
+        _this.version = version;
+        _this.store = props.store || context.store;
+
+        (0, _invariant2["default"])(_this.store, 'Could not find "store" in either the context or ' + ('props of "' + connectDisplayName + '". ') + 'Either wrap the root component in a <Provider>, ' + ('or explicitly pass "store" as a prop to "' + connectDisplayName + '".'));
+
+        var storeState = _this.store.getState();
+        _this.state = { storeState: storeState };
+        _this.clearCache();
+        return _this;
+      }
+
+      Connect.prototype.computeStateProps = function computeStateProps(store, props) {
+        if (!this.finalMapStateToProps) {
+          return this.configureFinalMapState(store, props);
+        }
+
+        var state = store.getState();
+        var stateProps = this.doStatePropsDependOnOwnProps ? this.finalMapStateToProps(state, props) : this.finalMapStateToProps(state);
+
+        if (process.env.NODE_ENV !== 'production') {
+          checkStateShape(stateProps, 'mapStateToProps');
+        }
+        return stateProps;
+      };
+
+      Connect.prototype.configureFinalMapState = function configureFinalMapState(store, props) {
+        var mappedState = mapState(store.getState(), props);
+        var isFactory = typeof mappedState === 'function';
+
+        this.finalMapStateToProps = isFactory ? mappedState : mapState;
+        this.doStatePropsDependOnOwnProps = this.finalMapStateToProps.length !== 1;
+
+        if (isFactory) {
+          return this.computeStateProps(store, props);
+        }
+
+        if (process.env.NODE_ENV !== 'production') {
+          checkStateShape(mappedState, 'mapStateToProps');
+        }
+        return mappedState;
+      };
+
+      Connect.prototype.computeDispatchProps = function computeDispatchProps(store, props) {
+        if (!this.finalMapDispatchToProps) {
+          return this.configureFinalMapDispatch(store, props);
+        }
+
+        var dispatch = store.dispatch;
+
+        var dispatchProps = this.doDispatchPropsDependOnOwnProps ? this.finalMapDispatchToProps(dispatch, props) : this.finalMapDispatchToProps(dispatch);
+
+        if (process.env.NODE_ENV !== 'production') {
+          checkStateShape(dispatchProps, 'mapDispatchToProps');
+        }
+        return dispatchProps;
+      };
+
+      Connect.prototype.configureFinalMapDispatch = function configureFinalMapDispatch(store, props) {
+        var mappedDispatch = mapDispatch(store.dispatch, props);
+        var isFactory = typeof mappedDispatch === 'function';
+
+        this.finalMapDispatchToProps = isFactory ? mappedDispatch : mapDispatch;
+        this.doDispatchPropsDependOnOwnProps = this.finalMapDispatchToProps.length !== 1;
+
+        if (isFactory) {
+          return this.computeDispatchProps(store, props);
+        }
+
+        if (process.env.NODE_ENV !== 'production') {
+          checkStateShape(mappedDispatch, 'mapDispatchToProps');
+        }
+        return mappedDispatch;
+      };
+
+      Connect.prototype.updateStatePropsIfNeeded = function updateStatePropsIfNeeded() {
+        var nextStateProps = this.computeStateProps(this.store, this.props);
+        if (this.stateProps && (0, _shallowEqual2["default"])(nextStateProps, this.stateProps)) {
+          return false;
+        }
+
+        this.stateProps = nextStateProps;
+        return true;
+      };
+
+      Connect.prototype.updateDispatchPropsIfNeeded = function updateDispatchPropsIfNeeded() {
+        var nextDispatchProps = this.computeDispatchProps(this.store, this.props);
+        if (this.dispatchProps && (0, _shallowEqual2["default"])(nextDispatchProps, this.dispatchProps)) {
+          return false;
+        }
+
+        this.dispatchProps = nextDispatchProps;
+        return true;
+      };
+
+      Connect.prototype.updateMergedPropsIfNeeded = function updateMergedPropsIfNeeded() {
+        var nextMergedProps = computeMergedProps(this.stateProps, this.dispatchProps, this.props);
+        if (this.mergedProps && checkMergedEquals && (0, _shallowEqual2["default"])(nextMergedProps, this.mergedProps)) {
+          return false;
+        }
+
+        this.mergedProps = nextMergedProps;
+        return true;
+      };
+
+      Connect.prototype.isSubscribed = function isSubscribed() {
+        return typeof this.unsubscribe === 'function';
+      };
+
+      Connect.prototype.trySubscribe = function trySubscribe() {
+        if (shouldSubscribe && !this.unsubscribe) {
+          this.unsubscribe = this.store.subscribe(this.handleChange.bind(this));
+          this.handleChange();
+        }
+      };
+
+      Connect.prototype.tryUnsubscribe = function tryUnsubscribe() {
+        if (this.unsubscribe) {
+          this.unsubscribe();
+          this.unsubscribe = null;
+        }
+      };
+
+      Connect.prototype.componentDidMount = function componentDidMount() {
+        this.trySubscribe();
+      };
+
+      Connect.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
+        if (!pure || !(0, _shallowEqual2["default"])(nextProps, this.props)) {
+          this.haveOwnPropsChanged = true;
+        }
+      };
+
+      Connect.prototype.componentWillUnmount = function componentWillUnmount() {
+        this.tryUnsubscribe();
+        this.clearCache();
+      };
+
+      Connect.prototype.clearCache = function clearCache() {
+        this.dispatchProps = null;
+        this.stateProps = null;
+        this.mergedProps = null;
+        this.haveOwnPropsChanged = true;
+        this.hasStoreStateChanged = true;
+        this.haveStatePropsBeenPrecalculated = false;
+        this.statePropsPrecalculationError = null;
+        this.renderedElement = null;
+        this.finalMapDispatchToProps = null;
+        this.finalMapStateToProps = null;
+      };
+
+      Connect.prototype.handleChange = function handleChange() {
+        if (!this.unsubscribe) {
+          return;
+        }
+
+        var storeState = this.store.getState();
+        var prevStoreState = this.state.storeState;
+        if (pure && prevStoreState === storeState) {
+          return;
+        }
+
+        if (pure && !this.doStatePropsDependOnOwnProps) {
+          var haveStatePropsChanged = tryCatch(this.updateStatePropsIfNeeded, this);
+          if (!haveStatePropsChanged) {
+            return;
+          }
+          if (haveStatePropsChanged === errorObject) {
+            this.statePropsPrecalculationError = errorObject.value;
+          }
+          this.haveStatePropsBeenPrecalculated = true;
+        }
+
+        this.hasStoreStateChanged = true;
+        this.setState({ storeState: storeState });
+      };
+
+      Connect.prototype.getWrappedInstance = function getWrappedInstance() {
+        (0, _invariant2["default"])(withRef, 'To access the wrapped instance, you need to specify ' + '{ withRef: true } as the fourth argument of the connect() call.');
+
+        return this.refs.wrappedInstance;
+      };
+
+      Connect.prototype.render = function render() {
+        var haveOwnPropsChanged = this.haveOwnPropsChanged;
+        var hasStoreStateChanged = this.hasStoreStateChanged;
+        var haveStatePropsBeenPrecalculated = this.haveStatePropsBeenPrecalculated;
+        var statePropsPrecalculationError = this.statePropsPrecalculationError;
+        var renderedElement = this.renderedElement;
+
+        this.haveOwnPropsChanged = false;
+        this.hasStoreStateChanged = false;
+        this.haveStatePropsBeenPrecalculated = false;
+        this.statePropsPrecalculationError = null;
+
+        if (statePropsPrecalculationError) {
+          throw statePropsPrecalculationError;
+        }
+
+        var shouldUpdateStateProps = true;
+        var shouldUpdateDispatchProps = true;
+        if (pure && renderedElement) {
+          shouldUpdateStateProps = hasStoreStateChanged || haveOwnPropsChanged && this.doStatePropsDependOnOwnProps;
+          shouldUpdateDispatchProps = haveOwnPropsChanged && this.doDispatchPropsDependOnOwnProps;
+        }
+
+        var haveStatePropsChanged = false;
+        var haveDispatchPropsChanged = false;
+        if (haveStatePropsBeenPrecalculated) {
+          haveStatePropsChanged = true;
+        } else if (shouldUpdateStateProps) {
+          haveStatePropsChanged = this.updateStatePropsIfNeeded();
+        }
+        if (shouldUpdateDispatchProps) {
+          haveDispatchPropsChanged = this.updateDispatchPropsIfNeeded();
+        }
+
+        var haveMergedPropsChanged = true;
+        if (haveStatePropsChanged || haveDispatchPropsChanged || haveOwnPropsChanged) {
+          haveMergedPropsChanged = this.updateMergedPropsIfNeeded();
+        } else {
+          haveMergedPropsChanged = false;
+        }
+
+        if (!haveMergedPropsChanged && renderedElement) {
+          return renderedElement;
+        }
+
+        if (withRef) {
+          this.renderedElement = (0, _react.createElement)(WrappedComponent, _extends({}, this.mergedProps, {
+            ref: 'wrappedInstance'
+          }));
+        } else {
+          this.renderedElement = (0, _react.createElement)(WrappedComponent, this.mergedProps);
+        }
+
+        return this.renderedElement;
+      };
+
+      return Connect;
+    }(_react.Component);
+
+    Connect.displayName = connectDisplayName;
+    Connect.WrappedComponent = WrappedComponent;
+    Connect.contextTypes = {
+      store: _storeShape2["default"]
+    };
+    Connect.propTypes = {
+      store: _storeShape2["default"]
+    };
+
+    if (process.env.NODE_ENV !== 'production') {
+      Connect.prototype.componentWillUpdate = function componentWillUpdate() {
+        if (this.version === version) {
+          return;
+        }
+
+        // We are hot reloading!
+        this.version = version;
+        this.trySubscribe();
+        this.clearCache();
+      };
+    }
+
+    return (0, _hoistNonReactStatics2["default"])(Connect, WrappedComponent);
+  };
+}
+}).call(this,require('_process'))
+},{"../utils/shallowEqual":473,"../utils/storeShape":474,"../utils/warning":475,"../utils/wrapActionCreators":476,"_process":47,"hoist-non-react-statics":477,"invariant":478,"lodash/isPlainObject":263,"react":654}],472:[function(require,module,exports){
+'use strict';
+
+exports.__esModule = true;
+exports.connect = exports.Provider = undefined;
+
+var _Provider = require('./components/Provider');
+
+var _Provider2 = _interopRequireDefault(_Provider);
+
+var _connect = require('./components/connect');
+
+var _connect2 = _interopRequireDefault(_connect);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+exports.Provider = _Provider2["default"];
+exports.connect = _connect2["default"];
+},{"./components/Provider":470,"./components/connect":471}],473:[function(require,module,exports){
+"use strict";
+
+exports.__esModule = true;
+exports["default"] = shallowEqual;
+function shallowEqual(objA, objB) {
+  if (objA === objB) {
+    return true;
+  }
+
+  var keysA = Object.keys(objA);
+  var keysB = Object.keys(objB);
+
+  if (keysA.length !== keysB.length) {
+    return false;
+  }
+
+  // Test for A's keys different from B.
+  var hasOwn = Object.prototype.hasOwnProperty;
+  for (var i = 0; i < keysA.length; i++) {
+    if (!hasOwn.call(objB, keysA[i]) || objA[keysA[i]] !== objB[keysA[i]]) {
+      return false;
+    }
+  }
+
+  return true;
+}
+},{}],474:[function(require,module,exports){
+'use strict';
+
+exports.__esModule = true;
+
+var _react = require('react');
+
+exports["default"] = _react.PropTypes.shape({
+  subscribe: _react.PropTypes.func.isRequired,
+  dispatch: _react.PropTypes.func.isRequired,
+  getState: _react.PropTypes.func.isRequired
+});
+},{"react":654}],475:[function(require,module,exports){
+'use strict';
+
+exports.__esModule = true;
+exports["default"] = warning;
+/**
+ * Prints a warning in the console if it exists.
+ *
+ * @param {String} message The warning message.
+ * @returns {void}
+ */
+function warning(message) {
+  /* eslint-disable no-console */
+  if (typeof console !== 'undefined' && typeof console.error === 'function') {
+    console.error(message);
+  }
+  /* eslint-enable no-console */
+  try {
+    // This error was thrown as a convenience so that you can use this stack
+    // to find the callsite that caused this warning to fire.
+    throw new Error(message);
+    /* eslint-disable no-empty */
+  } catch (e) {}
+  /* eslint-enable no-empty */
+}
+},{}],476:[function(require,module,exports){
+'use strict';
+
+exports.__esModule = true;
+exports["default"] = wrapActionCreators;
+
+var _redux = require('redux');
+
+function wrapActionCreators(actionCreators) {
+  return function (dispatch) {
+    return (0, _redux.bindActionCreators)(actionCreators, dispatch);
+  };
+}
+},{"redux":662}],477:[function(require,module,exports){
+/**
+ * Copyright 2015, Yahoo! Inc.
+ * Copyrights licensed under the New BSD License. See the accompanying LICENSE file for terms.
+ */
+'use strict';
+
+var REACT_STATICS = {
+    childContextTypes: true,
+    contextTypes: true,
+    defaultProps: true,
+    displayName: true,
+    getDefaultProps: true,
+    mixins: true,
+    propTypes: true,
+    type: true
+};
+
+var KNOWN_STATICS = {
+    name: true,
+    length: true,
+    prototype: true,
+    caller: true,
+    arguments: true,
+    arity: true
+};
+
+var isGetOwnPropertySymbolsAvailable = typeof Object.getOwnPropertySymbols === 'function';
+
+module.exports = function hoistNonReactStatics(targetComponent, sourceComponent, customStatics) {
+    if (typeof sourceComponent !== 'string') { // don't hoist over string (html) components
+        var keys = Object.getOwnPropertyNames(sourceComponent);
+
+        /* istanbul ignore else */
+        if (isGetOwnPropertySymbolsAvailable) {
+            keys = keys.concat(Object.getOwnPropertySymbols(sourceComponent));
+        }
+
+        for (var i = 0; i < keys.length; ++i) {
+            if (!REACT_STATICS[keys[i]] && !KNOWN_STATICS[keys[i]] && (!customStatics || !customStatics[keys[i]])) {
+                try {
+                    targetComponent[keys[i]] = sourceComponent[keys[i]];
+                } catch (error) {
+
+                }
+            }
+        }
+    }
+
+    return targetComponent;
+};
+
+},{}],478:[function(require,module,exports){
+(function (process){
+/**
+ * Copyright 2013-2015, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ */
+
+'use strict';
+
+/**
+ * Use invariant() to assert state which your program assumes to be true.
+ *
+ * Provide sprintf-style format (only %s is supported) and arguments
+ * to provide information about what broke and what you were
+ * expecting.
+ *
+ * The invariant message will be stripped in production, but the invariant
+ * will remain to ensure logic does not differ in production.
+ */
+
+var invariant = function(condition, format, a, b, c, d, e, f) {
+  if (process.env.NODE_ENV !== 'production') {
+    if (format === undefined) {
+      throw new Error('invariant requires an error message argument');
+    }
+  }
+
+  if (!condition) {
+    var error;
+    if (format === undefined) {
+      error = new Error(
+        'Minified exception occurred; use the non-minified dev environment ' +
+        'for the full error message and additional helpful warnings.'
+      );
+    } else {
+      var args = [a, b, c, d, e, f];
+      var argIndex = 0;
+      error = new Error(
+        format.replace(/%s/g, function() { return args[argIndex++]; })
+      );
+      error.name = 'Invariant Violation';
+    }
+
+    error.framesToPop = 1; // we don't care about invariant's own frame
+    throw error;
+  }
+};
+
+module.exports = invariant;
+
+}).call(this,require('_process'))
+},{"_process":47}],479:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -36788,7 +52621,7 @@ var invariant = function (condition, format, a, b, c, d, e, f) {
 
 module.exports = invariant;
 }).call(this,require('_process'))
-},{"_process":37}],360:[function(require,module,exports){
+},{"_process":47}],480:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -36824,7 +52657,7 @@ var keyOf = function (oneKeyObj) {
 };
 
 module.exports = keyOf;
-},{}],361:[function(require,module,exports){
+},{}],481:[function(require,module,exports){
 /**
  * Copyright 2013-2014 Facebook, Inc.
  *
@@ -36996,7 +52829,7 @@ function createTapEventPlugin(shouldRejectClick) {
 
 module.exports = createTapEventPlugin;
 
-},{"./TouchEventUtils":362,"fbjs/lib/keyOf":360,"react/lib/EventConstants":380,"react/lib/EventPluginUtils":383,"react/lib/EventPropagators":384,"react/lib/SyntheticUIEvent":472,"react/lib/ViewportMetrics":475}],362:[function(require,module,exports){
+},{"./TouchEventUtils":482,"fbjs/lib/keyOf":480,"react/lib/EventConstants":500,"react/lib/EventPluginUtils":503,"react/lib/EventPropagators":504,"react/lib/SyntheticUIEvent":592,"react/lib/ViewportMetrics":595}],482:[function(require,module,exports){
 /**
  * Copyright 2013-2014 Facebook, Inc.
  *
@@ -37040,14 +52873,14 @@ var TouchEventUtils = {
 
 module.exports = TouchEventUtils;
 
-},{}],363:[function(require,module,exports){
+},{}],483:[function(require,module,exports){
 module.exports = function(lastTouchEvent, clickTimestamp) {
   if (lastTouchEvent && (clickTimestamp - lastTouchEvent) < 750) {
     return true;
   }
 };
 
-},{}],364:[function(require,module,exports){
+},{}],484:[function(require,module,exports){
 (function (process){
 var invariant = require('fbjs/lib/invariant');
 var defaultClickRejectionStrategy = require('./defaultClickRejectionStrategy');
@@ -37077,7 +52910,7 @@ should be injected by the application.'
 };
 
 }).call(this,require('_process'))
-},{"./TapEventPlugin.js":361,"./defaultClickRejectionStrategy":363,"_process":37,"fbjs/lib/invariant":359,"react/lib/EventPluginHub":381}],365:[function(require,module,exports){
+},{"./TapEventPlugin.js":481,"./defaultClickRejectionStrategy":483,"_process":47,"fbjs/lib/invariant":479,"react/lib/EventPluginHub":501}],485:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -37102,7 +52935,7 @@ var AutoFocusUtils = {
 };
 
 module.exports = AutoFocusUtils;
-},{"./ReactDOMComponentTree":405,"fbjs/lib/focusNode":516}],366:[function(require,module,exports){
+},{"./ReactDOMComponentTree":525,"fbjs/lib/focusNode":636}],486:[function(require,module,exports){
 /**
  * Copyright 2013-present Facebook, Inc.
  * All rights reserved.
@@ -37491,7 +53324,7 @@ var BeforeInputEventPlugin = {
 };
 
 module.exports = BeforeInputEventPlugin;
-},{"./EventConstants":380,"./EventPropagators":384,"./FallbackCompositionState":385,"./SyntheticCompositionEvent":463,"./SyntheticInputEvent":467,"fbjs/lib/ExecutionEnvironment":508,"fbjs/lib/keyOf":526}],367:[function(require,module,exports){
+},{"./EventConstants":500,"./EventPropagators":504,"./FallbackCompositionState":505,"./SyntheticCompositionEvent":583,"./SyntheticInputEvent":587,"fbjs/lib/ExecutionEnvironment":628,"fbjs/lib/keyOf":646}],487:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -37640,7 +53473,7 @@ var CSSProperty = {
 };
 
 module.exports = CSSProperty;
-},{}],368:[function(require,module,exports){
+},{}],488:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -37848,7 +53681,7 @@ var CSSPropertyOperations = {
 
 module.exports = CSSPropertyOperations;
 }).call(this,require('_process'))
-},{"./CSSProperty":367,"./ReactInstrumentation":437,"./dangerousStyleValue":481,"_process":37,"fbjs/lib/ExecutionEnvironment":508,"fbjs/lib/camelizeStyleName":510,"fbjs/lib/hyphenateStyleName":521,"fbjs/lib/memoizeStringOnly":528,"fbjs/lib/warning":532}],369:[function(require,module,exports){
+},{"./CSSProperty":487,"./ReactInstrumentation":557,"./dangerousStyleValue":601,"_process":47,"fbjs/lib/ExecutionEnvironment":628,"fbjs/lib/camelizeStyleName":630,"fbjs/lib/hyphenateStyleName":641,"fbjs/lib/memoizeStringOnly":648,"fbjs/lib/warning":652}],489:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -37957,7 +53790,7 @@ PooledClass.addPoolingTo(CallbackQueue);
 
 module.exports = CallbackQueue;
 }).call(this,require('_process'))
-},{"./PooledClass":389,"./reactProdInvariant":500,"_process":37,"fbjs/lib/invariant":522,"object-assign":533}],370:[function(require,module,exports){
+},{"./PooledClass":509,"./reactProdInvariant":620,"_process":47,"fbjs/lib/invariant":642,"object-assign":653}],490:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -38283,7 +54116,7 @@ var ChangeEventPlugin = {
 };
 
 module.exports = ChangeEventPlugin;
-},{"./EventConstants":380,"./EventPluginHub":381,"./EventPropagators":384,"./ReactDOMComponentTree":405,"./ReactUpdates":456,"./SyntheticEvent":465,"./getEventTarget":489,"./isEventSupported":496,"./isTextInputElement":497,"fbjs/lib/ExecutionEnvironment":508,"fbjs/lib/keyOf":526}],371:[function(require,module,exports){
+},{"./EventConstants":500,"./EventPluginHub":501,"./EventPropagators":504,"./ReactDOMComponentTree":525,"./ReactUpdates":576,"./SyntheticEvent":585,"./getEventTarget":609,"./isEventSupported":616,"./isTextInputElement":617,"fbjs/lib/ExecutionEnvironment":628,"fbjs/lib/keyOf":646}],491:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -38480,7 +54313,7 @@ var DOMChildrenOperations = {
 
 module.exports = DOMChildrenOperations;
 }).call(this,require('_process'))
-},{"./DOMLazyTree":372,"./Danger":376,"./ReactDOMComponentTree":405,"./ReactInstrumentation":437,"./ReactMultiChildUpdateTypes":442,"./createMicrosoftUnsafeLocalFunction":480,"./setInnerHTML":502,"./setTextContent":503,"_process":37}],372:[function(require,module,exports){
+},{"./DOMLazyTree":492,"./Danger":496,"./ReactDOMComponentTree":525,"./ReactInstrumentation":557,"./ReactMultiChildUpdateTypes":562,"./createMicrosoftUnsafeLocalFunction":600,"./setInnerHTML":622,"./setTextContent":623,"_process":47}],492:[function(require,module,exports){
 /**
  * Copyright 2015-present, Facebook, Inc.
  * All rights reserved.
@@ -38599,7 +54432,7 @@ DOMLazyTree.queueHTML = queueHTML;
 DOMLazyTree.queueText = queueText;
 
 module.exports = DOMLazyTree;
-},{"./DOMNamespaces":373,"./createMicrosoftUnsafeLocalFunction":480,"./setInnerHTML":502,"./setTextContent":503}],373:[function(require,module,exports){
+},{"./DOMNamespaces":493,"./createMicrosoftUnsafeLocalFunction":600,"./setInnerHTML":622,"./setTextContent":623}],493:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -38620,7 +54453,7 @@ var DOMNamespaces = {
 };
 
 module.exports = DOMNamespaces;
-},{}],374:[function(require,module,exports){
+},{}],494:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -38838,7 +54671,7 @@ var DOMProperty = {
 
 module.exports = DOMProperty;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":500,"_process":37,"fbjs/lib/invariant":522}],375:[function(require,module,exports){
+},{"./reactProdInvariant":620,"_process":47,"fbjs/lib/invariant":642}],495:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -39077,7 +54910,7 @@ var DOMPropertyOperations = {
 
 module.exports = DOMPropertyOperations;
 }).call(this,require('_process'))
-},{"./DOMProperty":374,"./ReactDOMComponentTree":405,"./ReactDOMInstrumentation":413,"./ReactInstrumentation":437,"./quoteAttributeValueForBrowser":499,"_process":37,"fbjs/lib/warning":532}],376:[function(require,module,exports){
+},{"./DOMProperty":494,"./ReactDOMComponentTree":525,"./ReactDOMInstrumentation":533,"./ReactInstrumentation":557,"./quoteAttributeValueForBrowser":619,"_process":47,"fbjs/lib/warning":652}],496:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -39226,7 +55059,7 @@ var Danger = {
 
 module.exports = Danger;
 }).call(this,require('_process'))
-},{"./DOMLazyTree":372,"./reactProdInvariant":500,"_process":37,"fbjs/lib/ExecutionEnvironment":508,"fbjs/lib/createNodesFromMarkup":513,"fbjs/lib/emptyFunction":514,"fbjs/lib/getMarkupWrap":518,"fbjs/lib/invariant":522}],377:[function(require,module,exports){
+},{"./DOMLazyTree":492,"./reactProdInvariant":620,"_process":47,"fbjs/lib/ExecutionEnvironment":628,"fbjs/lib/createNodesFromMarkup":633,"fbjs/lib/emptyFunction":634,"fbjs/lib/getMarkupWrap":638,"fbjs/lib/invariant":642}],497:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -39254,7 +55087,7 @@ var keyOf = require('fbjs/lib/keyOf');
 var DefaultEventPluginOrder = [keyOf({ ResponderEventPlugin: null }), keyOf({ SimpleEventPlugin: null }), keyOf({ TapEventPlugin: null }), keyOf({ EnterLeaveEventPlugin: null }), keyOf({ ChangeEventPlugin: null }), keyOf({ SelectEventPlugin: null }), keyOf({ BeforeInputEventPlugin: null })];
 
 module.exports = DefaultEventPluginOrder;
-},{"fbjs/lib/keyOf":526}],378:[function(require,module,exports){
+},{"fbjs/lib/keyOf":646}],498:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -39305,7 +55138,7 @@ var DisabledInputUtils = {
 };
 
 module.exports = DisabledInputUtils;
-},{}],379:[function(require,module,exports){
+},{}],499:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -39411,7 +55244,7 @@ var EnterLeaveEventPlugin = {
 };
 
 module.exports = EnterLeaveEventPlugin;
-},{"./EventConstants":380,"./EventPropagators":384,"./ReactDOMComponentTree":405,"./SyntheticMouseEvent":469,"fbjs/lib/keyOf":526}],380:[function(require,module,exports){
+},{"./EventConstants":500,"./EventPropagators":504,"./ReactDOMComponentTree":525,"./SyntheticMouseEvent":589,"fbjs/lib/keyOf":646}],500:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -39509,7 +55342,7 @@ var EventConstants = {
 };
 
 module.exports = EventConstants;
-},{"fbjs/lib/keyMirror":525}],381:[function(require,module,exports){
+},{"fbjs/lib/keyMirror":645}],501:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -39753,7 +55586,7 @@ var EventPluginHub = {
 
 module.exports = EventPluginHub;
 }).call(this,require('_process'))
-},{"./EventPluginRegistry":382,"./EventPluginUtils":383,"./ReactErrorUtils":427,"./accumulateInto":476,"./forEachAccumulated":485,"./reactProdInvariant":500,"_process":37,"fbjs/lib/invariant":522}],382:[function(require,module,exports){
+},{"./EventPluginRegistry":502,"./EventPluginUtils":503,"./ReactErrorUtils":547,"./accumulateInto":596,"./forEachAccumulated":605,"./reactProdInvariant":620,"_process":47,"fbjs/lib/invariant":642}],502:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -40003,7 +55836,7 @@ var EventPluginRegistry = {
 
 module.exports = EventPluginRegistry;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":500,"_process":37,"fbjs/lib/invariant":522}],383:[function(require,module,exports){
+},{"./reactProdInvariant":620,"_process":47,"fbjs/lib/invariant":642}],503:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -40235,7 +56068,7 @@ var EventPluginUtils = {
 
 module.exports = EventPluginUtils;
 }).call(this,require('_process'))
-},{"./EventConstants":380,"./ReactErrorUtils":427,"./reactProdInvariant":500,"_process":37,"fbjs/lib/invariant":522,"fbjs/lib/warning":532}],384:[function(require,module,exports){
+},{"./EventConstants":500,"./ReactErrorUtils":547,"./reactProdInvariant":620,"_process":47,"fbjs/lib/invariant":642,"fbjs/lib/warning":652}],504:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -40375,7 +56208,7 @@ var EventPropagators = {
 
 module.exports = EventPropagators;
 }).call(this,require('_process'))
-},{"./EventConstants":380,"./EventPluginHub":381,"./EventPluginUtils":383,"./accumulateInto":476,"./forEachAccumulated":485,"_process":37,"fbjs/lib/warning":532}],385:[function(require,module,exports){
+},{"./EventConstants":500,"./EventPluginHub":501,"./EventPluginUtils":503,"./accumulateInto":596,"./forEachAccumulated":605,"_process":47,"fbjs/lib/warning":652}],505:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -40471,7 +56304,7 @@ _assign(FallbackCompositionState.prototype, {
 PooledClass.addPoolingTo(FallbackCompositionState);
 
 module.exports = FallbackCompositionState;
-},{"./PooledClass":389,"./getTextContentAccessor":493,"object-assign":533}],386:[function(require,module,exports){
+},{"./PooledClass":509,"./getTextContentAccessor":613,"object-assign":653}],506:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -40680,7 +56513,7 @@ var HTMLDOMPropertyConfig = {
 };
 
 module.exports = HTMLDOMPropertyConfig;
-},{"./DOMProperty":374}],387:[function(require,module,exports){
+},{"./DOMProperty":494}],507:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -40739,7 +56572,7 @@ var KeyEscapeUtils = {
 };
 
 module.exports = KeyEscapeUtils;
-},{}],388:[function(require,module,exports){
+},{}],508:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -40877,7 +56710,7 @@ var LinkedValueUtils = {
 
 module.exports = LinkedValueUtils;
 }).call(this,require('_process'))
-},{"./ReactPropTypeLocations":447,"./ReactPropTypes":448,"./reactProdInvariant":500,"_process":37,"fbjs/lib/invariant":522,"fbjs/lib/warning":532}],389:[function(require,module,exports){
+},{"./ReactPropTypeLocations":567,"./ReactPropTypes":568,"./reactProdInvariant":620,"_process":47,"fbjs/lib/invariant":642,"fbjs/lib/warning":652}],509:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -41001,7 +56834,7 @@ var PooledClass = {
 
 module.exports = PooledClass;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":500,"_process":37,"fbjs/lib/invariant":522}],390:[function(require,module,exports){
+},{"./reactProdInvariant":620,"_process":47,"fbjs/lib/invariant":642}],510:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -41091,7 +56924,7 @@ var React = {
 
 module.exports = React;
 }).call(this,require('_process'))
-},{"./ReactChildren":393,"./ReactClass":394,"./ReactComponent":395,"./ReactDOMFactories":409,"./ReactElement":424,"./ReactElementValidator":425,"./ReactPropTypes":448,"./ReactVersion":457,"./onlyChild":498,"_process":37,"fbjs/lib/warning":532,"object-assign":533}],391:[function(require,module,exports){
+},{"./ReactChildren":513,"./ReactClass":514,"./ReactComponent":515,"./ReactDOMFactories":529,"./ReactElement":544,"./ReactElementValidator":545,"./ReactPropTypes":568,"./ReactVersion":577,"./onlyChild":618,"_process":47,"fbjs/lib/warning":652,"object-assign":653}],511:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -41409,7 +57242,7 @@ var ReactBrowserEventEmitter = _assign({}, ReactEventEmitterMixin, {
 });
 
 module.exports = ReactBrowserEventEmitter;
-},{"./EventConstants":380,"./EventPluginRegistry":382,"./ReactEventEmitterMixin":428,"./ViewportMetrics":475,"./getVendorPrefixedEventName":494,"./isEventSupported":496,"object-assign":533}],392:[function(require,module,exports){
+},{"./EventConstants":500,"./EventPluginRegistry":502,"./ReactEventEmitterMixin":548,"./ViewportMetrics":595,"./getVendorPrefixedEventName":614,"./isEventSupported":616,"object-assign":653}],512:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-present, Facebook, Inc.
@@ -41546,7 +57379,7 @@ var ReactChildReconciler = {
 
 module.exports = ReactChildReconciler;
 }).call(this,require('_process'))
-},{"./KeyEscapeUtils":387,"./ReactComponentTreeDevtool":398,"./ReactReconciler":450,"./instantiateReactComponent":495,"./shouldUpdateReactComponent":504,"./traverseAllChildren":505,"_process":37,"fbjs/lib/warning":532}],393:[function(require,module,exports){
+},{"./KeyEscapeUtils":507,"./ReactComponentTreeDevtool":518,"./ReactReconciler":570,"./instantiateReactComponent":615,"./shouldUpdateReactComponent":624,"./traverseAllChildren":625,"_process":47,"fbjs/lib/warning":652}],513:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -41738,7 +57571,7 @@ var ReactChildren = {
 };
 
 module.exports = ReactChildren;
-},{"./PooledClass":389,"./ReactElement":424,"./traverseAllChildren":505,"fbjs/lib/emptyFunction":514}],394:[function(require,module,exports){
+},{"./PooledClass":509,"./ReactElement":544,"./traverseAllChildren":625,"fbjs/lib/emptyFunction":634}],514:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -42466,7 +58299,7 @@ var ReactClass = {
 
 module.exports = ReactClass;
 }).call(this,require('_process'))
-},{"./ReactComponent":395,"./ReactElement":424,"./ReactNoopUpdateQueue":444,"./ReactPropTypeLocationNames":446,"./ReactPropTypeLocations":447,"./reactProdInvariant":500,"_process":37,"fbjs/lib/emptyObject":515,"fbjs/lib/invariant":522,"fbjs/lib/keyMirror":525,"fbjs/lib/keyOf":526,"fbjs/lib/warning":532,"object-assign":533}],395:[function(require,module,exports){
+},{"./ReactComponent":515,"./ReactElement":544,"./ReactNoopUpdateQueue":564,"./ReactPropTypeLocationNames":566,"./ReactPropTypeLocations":567,"./reactProdInvariant":620,"_process":47,"fbjs/lib/emptyObject":635,"fbjs/lib/invariant":642,"fbjs/lib/keyMirror":645,"fbjs/lib/keyOf":646,"fbjs/lib/warning":652,"object-assign":653}],515:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -42587,7 +58420,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = ReactComponent;
 }).call(this,require('_process'))
-},{"./ReactNoopUpdateQueue":444,"./canDefineProperty":478,"./reactProdInvariant":500,"_process":37,"fbjs/lib/emptyObject":515,"fbjs/lib/invariant":522,"fbjs/lib/warning":532}],396:[function(require,module,exports){
+},{"./ReactNoopUpdateQueue":564,"./canDefineProperty":598,"./reactProdInvariant":620,"_process":47,"fbjs/lib/emptyObject":635,"fbjs/lib/invariant":642,"fbjs/lib/warning":652}],516:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -42627,7 +58460,7 @@ var ReactComponentBrowserEnvironment = {
 };
 
 module.exports = ReactComponentBrowserEnvironment;
-},{"./DOMChildrenOperations":371,"./ReactDOMIDOperations":411}],397:[function(require,module,exports){
+},{"./DOMChildrenOperations":491,"./ReactDOMIDOperations":531}],517:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-present, Facebook, Inc.
@@ -42683,7 +58516,7 @@ var ReactComponentEnvironment = {
 
 module.exports = ReactComponentEnvironment;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":500,"_process":37,"fbjs/lib/invariant":522}],398:[function(require,module,exports){
+},{"./reactProdInvariant":620,"_process":47,"fbjs/lib/invariant":642}],518:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2016-present, Facebook, Inc.
@@ -42909,7 +58742,7 @@ var ReactComponentTreeDevtool = {
 
 module.exports = ReactComponentTreeDevtool;
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":400,"./reactProdInvariant":500,"_process":37,"fbjs/lib/invariant":522,"fbjs/lib/warning":532}],399:[function(require,module,exports){
+},{"./ReactCurrentOwner":520,"./reactProdInvariant":620,"_process":47,"fbjs/lib/invariant":642,"fbjs/lib/warning":652}],519:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -43795,7 +59628,7 @@ var ReactCompositeComponent = {
 
 module.exports = ReactCompositeComponent;
 }).call(this,require('_process'))
-},{"./ReactComponentEnvironment":397,"./ReactCurrentOwner":400,"./ReactElement":424,"./ReactErrorUtils":427,"./ReactInstanceMap":436,"./ReactInstrumentation":437,"./ReactNodeTypes":443,"./ReactPropTypeLocations":447,"./ReactReconciler":450,"./ReactUpdateQueue":455,"./checkReactTypeSpec":479,"./reactProdInvariant":500,"./shouldUpdateReactComponent":504,"_process":37,"fbjs/lib/emptyObject":515,"fbjs/lib/invariant":522,"fbjs/lib/warning":532,"object-assign":533}],400:[function(require,module,exports){
+},{"./ReactComponentEnvironment":517,"./ReactCurrentOwner":520,"./ReactElement":544,"./ReactErrorUtils":547,"./ReactInstanceMap":556,"./ReactInstrumentation":557,"./ReactNodeTypes":563,"./ReactPropTypeLocations":567,"./ReactReconciler":570,"./ReactUpdateQueue":575,"./checkReactTypeSpec":599,"./reactProdInvariant":620,"./shouldUpdateReactComponent":624,"_process":47,"fbjs/lib/emptyObject":635,"fbjs/lib/invariant":642,"fbjs/lib/warning":652,"object-assign":653}],520:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -43827,7 +59660,7 @@ var ReactCurrentOwner = {
 };
 
 module.exports = ReactCurrentOwner;
-},{}],401:[function(require,module,exports){
+},{}],521:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -43931,7 +59764,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = React;
 }).call(this,require('_process'))
-},{"./ReactDOMComponentTree":405,"./ReactDefaultInjection":423,"./ReactMount":440,"./ReactReconciler":450,"./ReactUpdates":456,"./ReactVersion":457,"./findDOMNode":483,"./getHostComponentFromComposite":490,"./renderSubtreeIntoContainer":501,"_process":37,"fbjs/lib/ExecutionEnvironment":508,"fbjs/lib/warning":532}],402:[function(require,module,exports){
+},{"./ReactDOMComponentTree":525,"./ReactDefaultInjection":543,"./ReactMount":560,"./ReactReconciler":570,"./ReactUpdates":576,"./ReactVersion":577,"./findDOMNode":603,"./getHostComponentFromComposite":610,"./renderSubtreeIntoContainer":621,"_process":47,"fbjs/lib/ExecutionEnvironment":628,"fbjs/lib/warning":652}],522:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -43956,7 +59789,7 @@ var ReactDOMButton = {
 };
 
 module.exports = ReactDOMButton;
-},{"./DisabledInputUtils":378}],403:[function(require,module,exports){
+},{"./DisabledInputUtils":498}],523:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -44962,7 +60795,7 @@ _assign(ReactDOMComponent.prototype, ReactDOMComponent.Mixin, ReactMultiChild.Mi
 
 module.exports = ReactDOMComponent;
 }).call(this,require('_process'))
-},{"./AutoFocusUtils":365,"./CSSPropertyOperations":368,"./DOMLazyTree":372,"./DOMNamespaces":373,"./DOMProperty":374,"./DOMPropertyOperations":375,"./EventConstants":380,"./EventPluginHub":381,"./EventPluginRegistry":382,"./ReactBrowserEventEmitter":391,"./ReactComponentBrowserEnvironment":396,"./ReactDOMButton":402,"./ReactDOMComponentFlags":404,"./ReactDOMComponentTree":405,"./ReactDOMInput":412,"./ReactDOMOption":414,"./ReactDOMSelect":415,"./ReactDOMTextarea":418,"./ReactInstrumentation":437,"./ReactMultiChild":441,"./ReactServerRenderingTransaction":452,"./escapeTextContentForBrowser":482,"./isEventSupported":496,"./reactProdInvariant":500,"./validateDOMNesting":506,"_process":37,"fbjs/lib/emptyFunction":514,"fbjs/lib/invariant":522,"fbjs/lib/keyOf":526,"fbjs/lib/shallowEqual":531,"fbjs/lib/warning":532,"object-assign":533}],404:[function(require,module,exports){
+},{"./AutoFocusUtils":485,"./CSSPropertyOperations":488,"./DOMLazyTree":492,"./DOMNamespaces":493,"./DOMProperty":494,"./DOMPropertyOperations":495,"./EventConstants":500,"./EventPluginHub":501,"./EventPluginRegistry":502,"./ReactBrowserEventEmitter":511,"./ReactComponentBrowserEnvironment":516,"./ReactDOMButton":522,"./ReactDOMComponentFlags":524,"./ReactDOMComponentTree":525,"./ReactDOMInput":532,"./ReactDOMOption":534,"./ReactDOMSelect":535,"./ReactDOMTextarea":538,"./ReactInstrumentation":557,"./ReactMultiChild":561,"./ReactServerRenderingTransaction":572,"./escapeTextContentForBrowser":602,"./isEventSupported":616,"./reactProdInvariant":620,"./validateDOMNesting":626,"_process":47,"fbjs/lib/emptyFunction":634,"fbjs/lib/invariant":642,"fbjs/lib/keyOf":646,"fbjs/lib/shallowEqual":651,"fbjs/lib/warning":652,"object-assign":653}],524:[function(require,module,exports){
 /**
  * Copyright 2015-present, Facebook, Inc.
  * All rights reserved.
@@ -44981,7 +60814,7 @@ var ReactDOMComponentFlags = {
 };
 
 module.exports = ReactDOMComponentFlags;
-},{}],405:[function(require,module,exports){
+},{}],525:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -45172,7 +61005,7 @@ var ReactDOMComponentTree = {
 
 module.exports = ReactDOMComponentTree;
 }).call(this,require('_process'))
-},{"./DOMProperty":374,"./ReactDOMComponentFlags":404,"./reactProdInvariant":500,"_process":37,"fbjs/lib/invariant":522}],406:[function(require,module,exports){
+},{"./DOMProperty":494,"./ReactDOMComponentFlags":524,"./reactProdInvariant":620,"_process":47,"fbjs/lib/invariant":642}],526:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -45208,7 +61041,7 @@ function ReactDOMContainerInfo(topLevelWrapper, node) {
 
 module.exports = ReactDOMContainerInfo;
 }).call(this,require('_process'))
-},{"./validateDOMNesting":506,"_process":37}],407:[function(require,module,exports){
+},{"./validateDOMNesting":626,"_process":47}],527:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -45278,7 +61111,7 @@ ReactDOMDebugTool.addDevtool(ReactDOMUnknownPropertyDevtool);
 
 module.exports = ReactDOMDebugTool;
 }).call(this,require('_process'))
-},{"./ReactDOMUnknownPropertyDevtool":420,"./ReactDebugTool":421,"_process":37,"fbjs/lib/warning":532}],408:[function(require,module,exports){
+},{"./ReactDOMUnknownPropertyDevtool":540,"./ReactDebugTool":541,"_process":47,"fbjs/lib/warning":652}],528:[function(require,module,exports){
 /**
  * Copyright 2014-present, Facebook, Inc.
  * All rights reserved.
@@ -45339,7 +61172,7 @@ _assign(ReactDOMEmptyComponent.prototype, {
 });
 
 module.exports = ReactDOMEmptyComponent;
-},{"./DOMLazyTree":372,"./ReactDOMComponentTree":405,"object-assign":533}],409:[function(require,module,exports){
+},{"./DOMLazyTree":492,"./ReactDOMComponentTree":525,"object-assign":653}],529:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -45518,7 +61351,7 @@ var ReactDOMFactories = mapObject({
 
 module.exports = ReactDOMFactories;
 }).call(this,require('_process'))
-},{"./ReactElement":424,"./ReactElementValidator":425,"_process":37,"fbjs/lib/mapObject":527}],410:[function(require,module,exports){
+},{"./ReactElement":544,"./ReactElementValidator":545,"_process":47,"fbjs/lib/mapObject":647}],530:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -45537,7 +61370,7 @@ var ReactDOMFeatureFlags = {
 };
 
 module.exports = ReactDOMFeatureFlags;
-},{}],411:[function(require,module,exports){
+},{}],531:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -45572,7 +61405,7 @@ var ReactDOMIDOperations = {
 };
 
 module.exports = ReactDOMIDOperations;
-},{"./DOMChildrenOperations":371,"./ReactDOMComponentTree":405}],412:[function(require,module,exports){
+},{"./DOMChildrenOperations":491,"./ReactDOMComponentTree":525}],532:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -45817,7 +61650,7 @@ function _handleChange(event) {
 
 module.exports = ReactDOMInput;
 }).call(this,require('_process'))
-},{"./DOMPropertyOperations":375,"./DisabledInputUtils":378,"./LinkedValueUtils":388,"./ReactDOMComponentTree":405,"./ReactUpdates":456,"./reactProdInvariant":500,"_process":37,"fbjs/lib/invariant":522,"fbjs/lib/warning":532,"object-assign":533}],413:[function(require,module,exports){
+},{"./DOMPropertyOperations":495,"./DisabledInputUtils":498,"./LinkedValueUtils":508,"./ReactDOMComponentTree":525,"./ReactUpdates":576,"./reactProdInvariant":620,"_process":47,"fbjs/lib/invariant":642,"fbjs/lib/warning":652,"object-assign":653}],533:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -45834,7 +61667,7 @@ module.exports = ReactDOMInput;
 var ReactDOMDebugTool = require('./ReactDOMDebugTool');
 
 module.exports = { debugTool: ReactDOMDebugTool };
-},{"./ReactDOMDebugTool":407}],414:[function(require,module,exports){
+},{"./ReactDOMDebugTool":527}],534:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -45960,7 +61793,7 @@ var ReactDOMOption = {
 
 module.exports = ReactDOMOption;
 }).call(this,require('_process'))
-},{"./ReactChildren":393,"./ReactDOMComponentTree":405,"./ReactDOMSelect":415,"_process":37,"fbjs/lib/warning":532,"object-assign":533}],415:[function(require,module,exports){
+},{"./ReactChildren":513,"./ReactDOMComponentTree":525,"./ReactDOMSelect":535,"_process":47,"fbjs/lib/warning":652,"object-assign":653}],535:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -46176,7 +62009,7 @@ function _handleChange(event) {
 
 module.exports = ReactDOMSelect;
 }).call(this,require('_process'))
-},{"./DisabledInputUtils":378,"./LinkedValueUtils":388,"./ReactDOMComponentTree":405,"./ReactUpdates":456,"_process":37,"fbjs/lib/warning":532,"object-assign":533}],416:[function(require,module,exports){
+},{"./DisabledInputUtils":498,"./LinkedValueUtils":508,"./ReactDOMComponentTree":525,"./ReactUpdates":576,"_process":47,"fbjs/lib/warning":652,"object-assign":653}],536:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -46389,7 +62222,7 @@ var ReactDOMSelection = {
 };
 
 module.exports = ReactDOMSelection;
-},{"./getNodeForCharacterOffset":492,"./getTextContentAccessor":493,"fbjs/lib/ExecutionEnvironment":508}],417:[function(require,module,exports){
+},{"./getNodeForCharacterOffset":612,"./getTextContentAccessor":613,"fbjs/lib/ExecutionEnvironment":628}],537:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -46563,7 +62396,7 @@ _assign(ReactDOMTextComponent.prototype, {
 
 module.exports = ReactDOMTextComponent;
 }).call(this,require('_process'))
-},{"./DOMChildrenOperations":371,"./DOMLazyTree":372,"./ReactDOMComponentTree":405,"./ReactInstrumentation":437,"./escapeTextContentForBrowser":482,"./reactProdInvariant":500,"./validateDOMNesting":506,"_process":37,"fbjs/lib/invariant":522,"object-assign":533}],418:[function(require,module,exports){
+},{"./DOMChildrenOperations":491,"./DOMLazyTree":492,"./ReactDOMComponentTree":525,"./ReactInstrumentation":557,"./escapeTextContentForBrowser":602,"./reactProdInvariant":620,"./validateDOMNesting":626,"_process":47,"fbjs/lib/invariant":642,"object-assign":653}],538:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -46735,7 +62568,7 @@ function _handleChange(event) {
 
 module.exports = ReactDOMTextarea;
 }).call(this,require('_process'))
-},{"./DisabledInputUtils":378,"./LinkedValueUtils":388,"./ReactDOMComponentTree":405,"./ReactUpdates":456,"./reactProdInvariant":500,"_process":37,"fbjs/lib/invariant":522,"fbjs/lib/warning":532,"object-assign":533}],419:[function(require,module,exports){
+},{"./DisabledInputUtils":498,"./LinkedValueUtils":508,"./ReactDOMComponentTree":525,"./ReactUpdates":576,"./reactProdInvariant":620,"_process":47,"fbjs/lib/invariant":642,"fbjs/lib/warning":652,"object-assign":653}],539:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015-present, Facebook, Inc.
@@ -46874,7 +62707,7 @@ module.exports = {
   traverseEnterLeave: traverseEnterLeave
 };
 }).call(this,require('_process'))
-},{"./reactProdInvariant":500,"_process":37,"fbjs/lib/invariant":522}],420:[function(require,module,exports){
+},{"./reactProdInvariant":620,"_process":47,"fbjs/lib/invariant":642}],540:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -46989,7 +62822,7 @@ var ReactDOMUnknownPropertyDevtool = {
 
 module.exports = ReactDOMUnknownPropertyDevtool;
 }).call(this,require('_process'))
-},{"./DOMProperty":374,"./EventPluginRegistry":382,"./ReactComponentTreeDevtool":398,"_process":37,"fbjs/lib/warning":532}],421:[function(require,module,exports){
+},{"./DOMProperty":494,"./EventPluginRegistry":502,"./ReactComponentTreeDevtool":518,"_process":47,"fbjs/lib/warning":652}],541:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2016-present, Facebook, Inc.
@@ -47303,7 +63136,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = ReactDebugTool;
 }).call(this,require('_process'))
-},{"./ReactComponentTreeDevtool":398,"./ReactHostOperationHistoryDevtool":433,"./ReactInvalidSetStateWarningDevTool":438,"_process":37,"fbjs/lib/ExecutionEnvironment":508,"fbjs/lib/performanceNow":530,"fbjs/lib/warning":532}],422:[function(require,module,exports){
+},{"./ReactComponentTreeDevtool":518,"./ReactHostOperationHistoryDevtool":553,"./ReactInvalidSetStateWarningDevTool":558,"_process":47,"fbjs/lib/ExecutionEnvironment":628,"fbjs/lib/performanceNow":650,"fbjs/lib/warning":652}],542:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -47372,7 +63205,7 @@ var ReactDefaultBatchingStrategy = {
 };
 
 module.exports = ReactDefaultBatchingStrategy;
-},{"./ReactUpdates":456,"./Transaction":474,"fbjs/lib/emptyFunction":514,"object-assign":533}],423:[function(require,module,exports){
+},{"./ReactUpdates":576,"./Transaction":594,"fbjs/lib/emptyFunction":634,"object-assign":653}],543:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -47457,7 +63290,7 @@ function inject() {
 module.exports = {
   inject: inject
 };
-},{"./BeforeInputEventPlugin":366,"./ChangeEventPlugin":370,"./DefaultEventPluginOrder":377,"./EnterLeaveEventPlugin":379,"./HTMLDOMPropertyConfig":386,"./ReactComponentBrowserEnvironment":396,"./ReactDOMComponent":403,"./ReactDOMComponentTree":405,"./ReactDOMEmptyComponent":408,"./ReactDOMTextComponent":417,"./ReactDOMTreeTraversal":419,"./ReactDefaultBatchingStrategy":422,"./ReactEventListener":429,"./ReactInjection":434,"./ReactReconcileTransaction":449,"./SVGDOMPropertyConfig":458,"./SelectEventPlugin":459,"./SimpleEventPlugin":460}],424:[function(require,module,exports){
+},{"./BeforeInputEventPlugin":486,"./ChangeEventPlugin":490,"./DefaultEventPluginOrder":497,"./EnterLeaveEventPlugin":499,"./HTMLDOMPropertyConfig":506,"./ReactComponentBrowserEnvironment":516,"./ReactDOMComponent":523,"./ReactDOMComponentTree":525,"./ReactDOMEmptyComponent":528,"./ReactDOMTextComponent":537,"./ReactDOMTreeTraversal":539,"./ReactDefaultBatchingStrategy":542,"./ReactEventListener":549,"./ReactInjection":554,"./ReactReconcileTransaction":569,"./SVGDOMPropertyConfig":578,"./SelectEventPlugin":579,"./SimpleEventPlugin":580}],544:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-present, Facebook, Inc.
@@ -47812,7 +63645,7 @@ ReactElement.REACT_ELEMENT_TYPE = REACT_ELEMENT_TYPE;
 
 module.exports = ReactElement;
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":400,"./canDefineProperty":478,"_process":37,"fbjs/lib/warning":532,"object-assign":533}],425:[function(require,module,exports){
+},{"./ReactCurrentOwner":520,"./canDefineProperty":598,"_process":47,"fbjs/lib/warning":652,"object-assign":653}],545:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-present, Facebook, Inc.
@@ -48041,7 +63874,7 @@ var ReactElementValidator = {
 
 module.exports = ReactElementValidator;
 }).call(this,require('_process'))
-},{"./ReactComponentTreeDevtool":398,"./ReactCurrentOwner":400,"./ReactElement":424,"./ReactPropTypeLocations":447,"./canDefineProperty":478,"./checkReactTypeSpec":479,"./getIteratorFn":491,"_process":37,"fbjs/lib/warning":532}],426:[function(require,module,exports){
+},{"./ReactComponentTreeDevtool":518,"./ReactCurrentOwner":520,"./ReactElement":544,"./ReactPropTypeLocations":567,"./canDefineProperty":598,"./checkReactTypeSpec":599,"./getIteratorFn":611,"_process":47,"fbjs/lib/warning":652}],546:[function(require,module,exports){
 /**
  * Copyright 2014-present, Facebook, Inc.
  * All rights reserved.
@@ -48072,7 +63905,7 @@ var ReactEmptyComponent = {
 ReactEmptyComponent.injection = ReactEmptyComponentInjection;
 
 module.exports = ReactEmptyComponent;
-},{}],427:[function(require,module,exports){
+},{}],547:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -48151,7 +63984,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = ReactErrorUtils;
 }).call(this,require('_process'))
-},{"_process":37}],428:[function(require,module,exports){
+},{"_process":47}],548:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -48185,7 +64018,7 @@ var ReactEventEmitterMixin = {
 };
 
 module.exports = ReactEventEmitterMixin;
-},{"./EventPluginHub":381}],429:[function(require,module,exports){
+},{"./EventPluginHub":501}],549:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -48343,7 +64176,7 @@ var ReactEventListener = {
 };
 
 module.exports = ReactEventListener;
-},{"./PooledClass":389,"./ReactDOMComponentTree":405,"./ReactUpdates":456,"./getEventTarget":489,"fbjs/lib/EventListener":507,"fbjs/lib/ExecutionEnvironment":508,"fbjs/lib/getUnboundedScrollPosition":519,"object-assign":533}],430:[function(require,module,exports){
+},{"./PooledClass":509,"./ReactDOMComponentTree":525,"./ReactUpdates":576,"./getEventTarget":609,"fbjs/lib/EventListener":627,"fbjs/lib/ExecutionEnvironment":628,"fbjs/lib/getUnboundedScrollPosition":639,"object-assign":653}],550:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -48365,7 +64198,7 @@ var ReactFeatureFlags = {
 };
 
 module.exports = ReactFeatureFlags;
-},{}],431:[function(require,module,exports){
+},{}],551:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015-present, Facebook, Inc.
@@ -48437,7 +64270,7 @@ var ReactFragment = {
 
 module.exports = ReactFragment;
 }).call(this,require('_process'))
-},{"./ReactChildren":393,"./ReactElement":424,"./reactProdInvariant":500,"_process":37,"fbjs/lib/emptyFunction":514,"fbjs/lib/invariant":522,"fbjs/lib/warning":532}],432:[function(require,module,exports){
+},{"./ReactChildren":513,"./ReactElement":544,"./reactProdInvariant":620,"_process":47,"fbjs/lib/emptyFunction":634,"fbjs/lib/invariant":642,"fbjs/lib/warning":652}],552:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-present, Facebook, Inc.
@@ -48516,7 +64349,7 @@ var ReactHostComponent = {
 
 module.exports = ReactHostComponent;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":500,"_process":37,"fbjs/lib/invariant":522,"object-assign":533}],433:[function(require,module,exports){
+},{"./reactProdInvariant":620,"_process":47,"fbjs/lib/invariant":642,"object-assign":653}],553:[function(require,module,exports){
 /**
  * Copyright 2016-present, Facebook, Inc.
  * All rights reserved.
@@ -48554,7 +64387,7 @@ var ReactHostOperationHistoryDevtool = {
 };
 
 module.exports = ReactHostOperationHistoryDevtool;
-},{}],434:[function(require,module,exports){
+},{}],554:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -48591,7 +64424,7 @@ var ReactInjection = {
 };
 
 module.exports = ReactInjection;
-},{"./DOMProperty":374,"./EventPluginHub":381,"./EventPluginUtils":383,"./ReactBrowserEventEmitter":391,"./ReactClass":394,"./ReactComponentEnvironment":397,"./ReactEmptyComponent":426,"./ReactHostComponent":432,"./ReactUpdates":456}],435:[function(require,module,exports){
+},{"./DOMProperty":494,"./EventPluginHub":501,"./EventPluginUtils":503,"./ReactBrowserEventEmitter":511,"./ReactClass":514,"./ReactComponentEnvironment":517,"./ReactEmptyComponent":546,"./ReactHostComponent":552,"./ReactUpdates":576}],555:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -48716,7 +64549,7 @@ var ReactInputSelection = {
 };
 
 module.exports = ReactInputSelection;
-},{"./ReactDOMSelection":416,"fbjs/lib/containsNode":511,"fbjs/lib/focusNode":516,"fbjs/lib/getActiveElement":517}],436:[function(require,module,exports){
+},{"./ReactDOMSelection":536,"fbjs/lib/containsNode":631,"fbjs/lib/focusNode":636,"fbjs/lib/getActiveElement":637}],556:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -48765,7 +64598,7 @@ var ReactInstanceMap = {
 };
 
 module.exports = ReactInstanceMap;
-},{}],437:[function(require,module,exports){
+},{}],557:[function(require,module,exports){
 /**
  * Copyright 2016-present, Facebook, Inc.
  * All rights reserved.
@@ -48782,7 +64615,7 @@ module.exports = ReactInstanceMap;
 var ReactDebugTool = require('./ReactDebugTool');
 
 module.exports = { debugTool: ReactDebugTool };
-},{"./ReactDebugTool":421}],438:[function(require,module,exports){
+},{"./ReactDebugTool":541}],558:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2016-present, Facebook, Inc.
@@ -48821,7 +64654,7 @@ var ReactInvalidSetStateWarningDevTool = {
 
 module.exports = ReactInvalidSetStateWarningDevTool;
 }).call(this,require('_process'))
-},{"_process":37,"fbjs/lib/warning":532}],439:[function(require,module,exports){
+},{"_process":47,"fbjs/lib/warning":652}],559:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -48872,7 +64705,7 @@ var ReactMarkupChecksum = {
 };
 
 module.exports = ReactMarkupChecksum;
-},{"./adler32":477}],440:[function(require,module,exports){
+},{"./adler32":597}],560:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -49376,7 +65209,7 @@ var ReactMount = {
 
 module.exports = ReactMount;
 }).call(this,require('_process'))
-},{"./DOMLazyTree":372,"./DOMProperty":374,"./ReactBrowserEventEmitter":391,"./ReactCurrentOwner":400,"./ReactDOMComponentTree":405,"./ReactDOMContainerInfo":406,"./ReactDOMFeatureFlags":410,"./ReactElement":424,"./ReactFeatureFlags":430,"./ReactInstrumentation":437,"./ReactMarkupChecksum":439,"./ReactReconciler":450,"./ReactUpdateQueue":455,"./ReactUpdates":456,"./instantiateReactComponent":495,"./reactProdInvariant":500,"./setInnerHTML":502,"./shouldUpdateReactComponent":504,"_process":37,"fbjs/lib/emptyObject":515,"fbjs/lib/invariant":522,"fbjs/lib/warning":532}],441:[function(require,module,exports){
+},{"./DOMLazyTree":492,"./DOMProperty":494,"./ReactBrowserEventEmitter":511,"./ReactCurrentOwner":520,"./ReactDOMComponentTree":525,"./ReactDOMContainerInfo":526,"./ReactDOMFeatureFlags":530,"./ReactElement":544,"./ReactFeatureFlags":550,"./ReactInstrumentation":557,"./ReactMarkupChecksum":559,"./ReactReconciler":570,"./ReactUpdateQueue":575,"./ReactUpdates":576,"./instantiateReactComponent":615,"./reactProdInvariant":620,"./setInnerHTML":622,"./shouldUpdateReactComponent":624,"_process":47,"fbjs/lib/emptyObject":635,"fbjs/lib/invariant":642,"fbjs/lib/warning":652}],561:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -49824,7 +65657,7 @@ var ReactMultiChild = {
 
 module.exports = ReactMultiChild;
 }).call(this,require('_process'))
-},{"./ReactChildReconciler":392,"./ReactComponentEnvironment":397,"./ReactCurrentOwner":400,"./ReactInstanceMap":436,"./ReactInstrumentation":437,"./ReactMultiChildUpdateTypes":442,"./ReactReconciler":450,"./flattenChildren":484,"./reactProdInvariant":500,"_process":37,"fbjs/lib/emptyFunction":514,"fbjs/lib/invariant":522}],442:[function(require,module,exports){
+},{"./ReactChildReconciler":512,"./ReactComponentEnvironment":517,"./ReactCurrentOwner":520,"./ReactInstanceMap":556,"./ReactInstrumentation":557,"./ReactMultiChildUpdateTypes":562,"./ReactReconciler":570,"./flattenChildren":604,"./reactProdInvariant":620,"_process":47,"fbjs/lib/emptyFunction":634,"fbjs/lib/invariant":642}],562:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -49857,7 +65690,7 @@ var ReactMultiChildUpdateTypes = keyMirror({
 });
 
 module.exports = ReactMultiChildUpdateTypes;
-},{"fbjs/lib/keyMirror":525}],443:[function(require,module,exports){
+},{"fbjs/lib/keyMirror":645}],563:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -49899,7 +65732,7 @@ var ReactNodeTypes = {
 
 module.exports = ReactNodeTypes;
 }).call(this,require('_process'))
-},{"./ReactElement":424,"./reactProdInvariant":500,"_process":37,"fbjs/lib/invariant":522}],444:[function(require,module,exports){
+},{"./ReactElement":544,"./reactProdInvariant":620,"_process":47,"fbjs/lib/invariant":642}],564:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015-present, Facebook, Inc.
@@ -49997,7 +65830,7 @@ var ReactNoopUpdateQueue = {
 
 module.exports = ReactNoopUpdateQueue;
 }).call(this,require('_process'))
-},{"_process":37,"fbjs/lib/warning":532}],445:[function(require,module,exports){
+},{"_process":47,"fbjs/lib/warning":652}],565:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -50094,7 +65927,7 @@ var ReactOwner = {
 
 module.exports = ReactOwner;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":500,"_process":37,"fbjs/lib/invariant":522}],446:[function(require,module,exports){
+},{"./reactProdInvariant":620,"_process":47,"fbjs/lib/invariant":642}],566:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -50121,7 +65954,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = ReactPropTypeLocationNames;
 }).call(this,require('_process'))
-},{"_process":37}],447:[function(require,module,exports){
+},{"_process":47}],567:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -50144,7 +65977,7 @@ var ReactPropTypeLocations = keyMirror({
 });
 
 module.exports = ReactPropTypeLocations;
-},{"fbjs/lib/keyMirror":525}],448:[function(require,module,exports){
+},{"fbjs/lib/keyMirror":645}],568:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -50548,7 +66381,7 @@ function getClassName(propValue) {
 }
 
 module.exports = ReactPropTypes;
-},{"./ReactElement":424,"./ReactPropTypeLocationNames":446,"./getIteratorFn":491,"fbjs/lib/emptyFunction":514}],449:[function(require,module,exports){
+},{"./ReactElement":544,"./ReactPropTypeLocationNames":566,"./getIteratorFn":611,"fbjs/lib/emptyFunction":634}],569:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -50711,7 +66544,7 @@ _assign(ReactReconcileTransaction.prototype, Transaction.Mixin, Mixin);
 PooledClass.addPoolingTo(ReactReconcileTransaction);
 
 module.exports = ReactReconcileTransaction;
-},{"./CallbackQueue":369,"./PooledClass":389,"./ReactBrowserEventEmitter":391,"./ReactInputSelection":435,"./Transaction":474,"object-assign":533}],450:[function(require,module,exports){
+},{"./CallbackQueue":489,"./PooledClass":509,"./ReactBrowserEventEmitter":511,"./ReactInputSelection":555,"./Transaction":594,"object-assign":653}],570:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -50890,7 +66723,7 @@ var ReactReconciler = {
 
 module.exports = ReactReconciler;
 }).call(this,require('_process'))
-},{"./ReactInstrumentation":437,"./ReactRef":451,"./reactProdInvariant":500,"_process":37,"fbjs/lib/invariant":522}],451:[function(require,module,exports){
+},{"./ReactInstrumentation":557,"./ReactRef":571,"./reactProdInvariant":620,"_process":47,"fbjs/lib/invariant":642}],571:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -50969,7 +66802,7 @@ ReactRef.detachRefs = function (instance, element) {
 };
 
 module.exports = ReactRef;
-},{"./ReactOwner":445}],452:[function(require,module,exports){
+},{"./ReactOwner":565}],572:[function(require,module,exports){
 /**
  * Copyright 2014-present, Facebook, Inc.
  * All rights reserved.
@@ -51043,7 +66876,7 @@ _assign(ReactServerRenderingTransaction.prototype, Transaction.Mixin, Mixin);
 PooledClass.addPoolingTo(ReactServerRenderingTransaction);
 
 module.exports = ReactServerRenderingTransaction;
-},{"./PooledClass":389,"./Transaction":474,"object-assign":533}],453:[function(require,module,exports){
+},{"./PooledClass":509,"./Transaction":594,"object-assign":653}],573:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -51149,7 +66982,7 @@ var ReactTransitionChildMapping = {
 
 module.exports = ReactTransitionChildMapping;
 }).call(this,require('_process'))
-},{"./flattenChildren":484,"_process":37}],454:[function(require,module,exports){
+},{"./flattenChildren":604,"_process":47}],574:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -51397,7 +67230,7 @@ var ReactTransitionGroup = React.createClass({
 
 module.exports = ReactTransitionGroup;
 }).call(this,require('_process'))
-},{"./React":390,"./ReactInstanceMap":436,"./ReactTransitionChildMapping":453,"_process":37,"fbjs/lib/emptyFunction":514,"object-assign":533}],455:[function(require,module,exports){
+},{"./React":510,"./ReactInstanceMap":556,"./ReactTransitionChildMapping":573,"_process":47,"fbjs/lib/emptyFunction":634,"object-assign":653}],575:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015-present, Facebook, Inc.
@@ -51623,7 +67456,7 @@ var ReactUpdateQueue = {
 
 module.exports = ReactUpdateQueue;
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":400,"./ReactInstanceMap":436,"./ReactInstrumentation":437,"./ReactUpdates":456,"./reactProdInvariant":500,"_process":37,"fbjs/lib/invariant":522,"fbjs/lib/warning":532}],456:[function(require,module,exports){
+},{"./ReactCurrentOwner":520,"./ReactInstanceMap":556,"./ReactInstrumentation":557,"./ReactUpdates":576,"./reactProdInvariant":620,"_process":47,"fbjs/lib/invariant":642,"fbjs/lib/warning":652}],576:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -51886,7 +67719,7 @@ var ReactUpdates = {
 
 module.exports = ReactUpdates;
 }).call(this,require('_process'))
-},{"./CallbackQueue":369,"./PooledClass":389,"./ReactFeatureFlags":430,"./ReactInstrumentation":437,"./ReactReconciler":450,"./Transaction":474,"./reactProdInvariant":500,"_process":37,"fbjs/lib/invariant":522,"object-assign":533}],457:[function(require,module,exports){
+},{"./CallbackQueue":489,"./PooledClass":509,"./ReactFeatureFlags":550,"./ReactInstrumentation":557,"./ReactReconciler":570,"./Transaction":594,"./reactProdInvariant":620,"_process":47,"fbjs/lib/invariant":642,"object-assign":653}],577:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -51901,7 +67734,7 @@ module.exports = ReactUpdates;
 'use strict';
 
 module.exports = '15.2.0';
-},{}],458:[function(require,module,exports){
+},{}],578:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -52202,7 +68035,7 @@ Object.keys(ATTRS).forEach(function (key) {
 });
 
 module.exports = SVGDOMPropertyConfig;
-},{}],459:[function(require,module,exports){
+},{}],579:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -52399,7 +68232,7 @@ var SelectEventPlugin = {
 };
 
 module.exports = SelectEventPlugin;
-},{"./EventConstants":380,"./EventPropagators":384,"./ReactDOMComponentTree":405,"./ReactInputSelection":435,"./SyntheticEvent":465,"./isTextInputElement":497,"fbjs/lib/ExecutionEnvironment":508,"fbjs/lib/getActiveElement":517,"fbjs/lib/keyOf":526,"fbjs/lib/shallowEqual":531}],460:[function(require,module,exports){
+},{"./EventConstants":500,"./EventPropagators":504,"./ReactDOMComponentTree":525,"./ReactInputSelection":555,"./SyntheticEvent":585,"./isTextInputElement":617,"fbjs/lib/ExecutionEnvironment":628,"fbjs/lib/getActiveElement":637,"fbjs/lib/keyOf":646,"fbjs/lib/shallowEqual":651}],580:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -53031,7 +68864,7 @@ var SimpleEventPlugin = {
 
 module.exports = SimpleEventPlugin;
 }).call(this,require('_process'))
-},{"./EventConstants":380,"./EventPropagators":384,"./ReactDOMComponentTree":405,"./SyntheticAnimationEvent":461,"./SyntheticClipboardEvent":462,"./SyntheticDragEvent":464,"./SyntheticEvent":465,"./SyntheticFocusEvent":466,"./SyntheticKeyboardEvent":468,"./SyntheticMouseEvent":469,"./SyntheticTouchEvent":470,"./SyntheticTransitionEvent":471,"./SyntheticUIEvent":472,"./SyntheticWheelEvent":473,"./getEventCharCode":486,"./reactProdInvariant":500,"_process":37,"fbjs/lib/EventListener":507,"fbjs/lib/emptyFunction":514,"fbjs/lib/invariant":522,"fbjs/lib/keyOf":526}],461:[function(require,module,exports){
+},{"./EventConstants":500,"./EventPropagators":504,"./ReactDOMComponentTree":525,"./SyntheticAnimationEvent":581,"./SyntheticClipboardEvent":582,"./SyntheticDragEvent":584,"./SyntheticEvent":585,"./SyntheticFocusEvent":586,"./SyntheticKeyboardEvent":588,"./SyntheticMouseEvent":589,"./SyntheticTouchEvent":590,"./SyntheticTransitionEvent":591,"./SyntheticUIEvent":592,"./SyntheticWheelEvent":593,"./getEventCharCode":606,"./reactProdInvariant":620,"_process":47,"fbjs/lib/EventListener":627,"fbjs/lib/emptyFunction":634,"fbjs/lib/invariant":642,"fbjs/lib/keyOf":646}],581:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -53071,7 +68904,7 @@ function SyntheticAnimationEvent(dispatchConfig, dispatchMarker, nativeEvent, na
 SyntheticEvent.augmentClass(SyntheticAnimationEvent, AnimationEventInterface);
 
 module.exports = SyntheticAnimationEvent;
-},{"./SyntheticEvent":465}],462:[function(require,module,exports){
+},{"./SyntheticEvent":585}],582:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -53110,7 +68943,7 @@ function SyntheticClipboardEvent(dispatchConfig, dispatchMarker, nativeEvent, na
 SyntheticEvent.augmentClass(SyntheticClipboardEvent, ClipboardEventInterface);
 
 module.exports = SyntheticClipboardEvent;
-},{"./SyntheticEvent":465}],463:[function(require,module,exports){
+},{"./SyntheticEvent":585}],583:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -53147,7 +68980,7 @@ function SyntheticCompositionEvent(dispatchConfig, dispatchMarker, nativeEvent, 
 SyntheticEvent.augmentClass(SyntheticCompositionEvent, CompositionEventInterface);
 
 module.exports = SyntheticCompositionEvent;
-},{"./SyntheticEvent":465}],464:[function(require,module,exports){
+},{"./SyntheticEvent":585}],584:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -53184,7 +69017,7 @@ function SyntheticDragEvent(dispatchConfig, dispatchMarker, nativeEvent, nativeE
 SyntheticMouseEvent.augmentClass(SyntheticDragEvent, DragEventInterface);
 
 module.exports = SyntheticDragEvent;
-},{"./SyntheticMouseEvent":469}],465:[function(require,module,exports){
+},{"./SyntheticMouseEvent":589}],585:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -53447,7 +69280,7 @@ function getPooledWarningPropertyDefinition(propName, getVal) {
   }
 }
 }).call(this,require('_process'))
-},{"./PooledClass":389,"_process":37,"fbjs/lib/emptyFunction":514,"fbjs/lib/warning":532,"object-assign":533}],466:[function(require,module,exports){
+},{"./PooledClass":509,"_process":47,"fbjs/lib/emptyFunction":634,"fbjs/lib/warning":652,"object-assign":653}],586:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -53484,7 +69317,7 @@ function SyntheticFocusEvent(dispatchConfig, dispatchMarker, nativeEvent, native
 SyntheticUIEvent.augmentClass(SyntheticFocusEvent, FocusEventInterface);
 
 module.exports = SyntheticFocusEvent;
-},{"./SyntheticUIEvent":472}],467:[function(require,module,exports){
+},{"./SyntheticUIEvent":592}],587:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -53522,7 +69355,7 @@ function SyntheticInputEvent(dispatchConfig, dispatchMarker, nativeEvent, native
 SyntheticEvent.augmentClass(SyntheticInputEvent, InputEventInterface);
 
 module.exports = SyntheticInputEvent;
-},{"./SyntheticEvent":465}],468:[function(require,module,exports){
+},{"./SyntheticEvent":585}],588:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -53607,7 +69440,7 @@ function SyntheticKeyboardEvent(dispatchConfig, dispatchMarker, nativeEvent, nat
 SyntheticUIEvent.augmentClass(SyntheticKeyboardEvent, KeyboardEventInterface);
 
 module.exports = SyntheticKeyboardEvent;
-},{"./SyntheticUIEvent":472,"./getEventCharCode":486,"./getEventKey":487,"./getEventModifierState":488}],469:[function(require,module,exports){
+},{"./SyntheticUIEvent":592,"./getEventCharCode":606,"./getEventKey":607,"./getEventModifierState":608}],589:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -53680,7 +69513,7 @@ function SyntheticMouseEvent(dispatchConfig, dispatchMarker, nativeEvent, native
 SyntheticUIEvent.augmentClass(SyntheticMouseEvent, MouseEventInterface);
 
 module.exports = SyntheticMouseEvent;
-},{"./SyntheticUIEvent":472,"./ViewportMetrics":475,"./getEventModifierState":488}],470:[function(require,module,exports){
+},{"./SyntheticUIEvent":592,"./ViewportMetrics":595,"./getEventModifierState":608}],590:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -53726,7 +69559,7 @@ function SyntheticTouchEvent(dispatchConfig, dispatchMarker, nativeEvent, native
 SyntheticUIEvent.augmentClass(SyntheticTouchEvent, TouchEventInterface);
 
 module.exports = SyntheticTouchEvent;
-},{"./SyntheticUIEvent":472,"./getEventModifierState":488}],471:[function(require,module,exports){
+},{"./SyntheticUIEvent":592,"./getEventModifierState":608}],591:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -53766,7 +69599,7 @@ function SyntheticTransitionEvent(dispatchConfig, dispatchMarker, nativeEvent, n
 SyntheticEvent.augmentClass(SyntheticTransitionEvent, TransitionEventInterface);
 
 module.exports = SyntheticTransitionEvent;
-},{"./SyntheticEvent":465}],472:[function(require,module,exports){
+},{"./SyntheticEvent":585}],592:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -53826,7 +69659,7 @@ function SyntheticUIEvent(dispatchConfig, dispatchMarker, nativeEvent, nativeEve
 SyntheticEvent.augmentClass(SyntheticUIEvent, UIEventInterface);
 
 module.exports = SyntheticUIEvent;
-},{"./SyntheticEvent":465,"./getEventTarget":489}],473:[function(require,module,exports){
+},{"./SyntheticEvent":585,"./getEventTarget":609}],593:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -53881,7 +69714,7 @@ function SyntheticWheelEvent(dispatchConfig, dispatchMarker, nativeEvent, native
 SyntheticMouseEvent.augmentClass(SyntheticWheelEvent, WheelEventInterface);
 
 module.exports = SyntheticWheelEvent;
-},{"./SyntheticMouseEvent":469}],474:[function(require,module,exports){
+},{"./SyntheticMouseEvent":589}],594:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -54117,7 +69950,7 @@ var Transaction = {
 
 module.exports = Transaction;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":500,"_process":37,"fbjs/lib/invariant":522}],475:[function(require,module,exports){
+},{"./reactProdInvariant":620,"_process":47,"fbjs/lib/invariant":642}],595:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -54145,7 +69978,7 @@ var ViewportMetrics = {
 };
 
 module.exports = ViewportMetrics;
-},{}],476:[function(require,module,exports){
+},{}],596:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-present, Facebook, Inc.
@@ -54209,7 +70042,7 @@ function accumulateInto(current, next) {
 
 module.exports = accumulateInto;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":500,"_process":37,"fbjs/lib/invariant":522}],477:[function(require,module,exports){
+},{"./reactProdInvariant":620,"_process":47,"fbjs/lib/invariant":642}],597:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -54253,7 +70086,7 @@ function adler32(data) {
 }
 
 module.exports = adler32;
-},{}],478:[function(require,module,exports){
+},{}],598:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -54280,7 +70113,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = canDefineProperty;
 }).call(this,require('_process'))
-},{"_process":37}],479:[function(require,module,exports){
+},{"_process":47}],599:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -54354,7 +70187,7 @@ function checkReactTypeSpec(typeSpecs, values, location, componentName, element,
 
 module.exports = checkReactTypeSpec;
 }).call(this,require('_process'))
-},{"./ReactComponentTreeDevtool":398,"./ReactPropTypeLocationNames":446,"./reactProdInvariant":500,"_process":37,"fbjs/lib/invariant":522,"fbjs/lib/warning":532}],480:[function(require,module,exports){
+},{"./ReactComponentTreeDevtool":518,"./ReactPropTypeLocationNames":566,"./reactProdInvariant":620,"_process":47,"fbjs/lib/invariant":642,"fbjs/lib/warning":652}],600:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -54387,7 +70220,7 @@ var createMicrosoftUnsafeLocalFunction = function (func) {
 };
 
 module.exports = createMicrosoftUnsafeLocalFunction;
-},{}],481:[function(require,module,exports){
+},{}],601:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -54469,7 +70302,7 @@ function dangerousStyleValue(name, value, component) {
 
 module.exports = dangerousStyleValue;
 }).call(this,require('_process'))
-},{"./CSSProperty":367,"_process":37,"fbjs/lib/warning":532}],482:[function(require,module,exports){
+},{"./CSSProperty":487,"_process":47,"fbjs/lib/warning":652}],602:[function(require,module,exports){
 /**
  * Copyright 2016-present, Facebook, Inc.
  * All rights reserved.
@@ -54592,7 +70425,7 @@ function escapeTextContentForBrowser(text) {
 }
 
 module.exports = escapeTextContentForBrowser;
-},{}],483:[function(require,module,exports){
+},{}],603:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -54655,7 +70488,7 @@ function findDOMNode(componentOrElement) {
 
 module.exports = findDOMNode;
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":400,"./ReactDOMComponentTree":405,"./ReactInstanceMap":436,"./getHostComponentFromComposite":490,"./reactProdInvariant":500,"_process":37,"fbjs/lib/invariant":522,"fbjs/lib/warning":532}],484:[function(require,module,exports){
+},{"./ReactCurrentOwner":520,"./ReactDOMComponentTree":525,"./ReactInstanceMap":556,"./getHostComponentFromComposite":610,"./reactProdInvariant":620,"_process":47,"fbjs/lib/invariant":642,"fbjs/lib/warning":652}],604:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -54716,7 +70549,7 @@ function flattenChildren(children, selfDebugID) {
 
 module.exports = flattenChildren;
 }).call(this,require('_process'))
-},{"./KeyEscapeUtils":387,"./ReactComponentTreeDevtool":398,"./traverseAllChildren":505,"_process":37,"fbjs/lib/warning":532}],485:[function(require,module,exports){
+},{"./KeyEscapeUtils":507,"./ReactComponentTreeDevtool":518,"./traverseAllChildren":625,"_process":47,"fbjs/lib/warning":652}],605:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -54747,7 +70580,7 @@ var forEachAccumulated = function (arr, cb, scope) {
 };
 
 module.exports = forEachAccumulated;
-},{}],486:[function(require,module,exports){
+},{}],606:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -54798,7 +70631,7 @@ function getEventCharCode(nativeEvent) {
 }
 
 module.exports = getEventCharCode;
-},{}],487:[function(require,module,exports){
+},{}],607:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -54901,7 +70734,7 @@ function getEventKey(nativeEvent) {
 }
 
 module.exports = getEventKey;
-},{"./getEventCharCode":486}],488:[function(require,module,exports){
+},{"./getEventCharCode":606}],608:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -54945,7 +70778,7 @@ function getEventModifierState(nativeEvent) {
 }
 
 module.exports = getEventModifierState;
-},{}],489:[function(require,module,exports){
+},{}],609:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -54981,7 +70814,7 @@ function getEventTarget(nativeEvent) {
 }
 
 module.exports = getEventTarget;
-},{}],490:[function(require,module,exports){
+},{}],610:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -55012,7 +70845,7 @@ function getHostComponentFromComposite(inst) {
 }
 
 module.exports = getHostComponentFromComposite;
-},{"./ReactNodeTypes":443}],491:[function(require,module,exports){
+},{"./ReactNodeTypes":563}],611:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -55053,7 +70886,7 @@ function getIteratorFn(maybeIterable) {
 }
 
 module.exports = getIteratorFn;
-},{}],492:[function(require,module,exports){
+},{}],612:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -55128,7 +70961,7 @@ function getNodeForCharacterOffset(root, offset) {
 }
 
 module.exports = getNodeForCharacterOffset;
-},{}],493:[function(require,module,exports){
+},{}],613:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -55162,7 +70995,7 @@ function getTextContentAccessor() {
 }
 
 module.exports = getTextContentAccessor;
-},{"fbjs/lib/ExecutionEnvironment":508}],494:[function(require,module,exports){
+},{"fbjs/lib/ExecutionEnvironment":628}],614:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -55264,7 +71097,7 @@ function getVendorPrefixedEventName(eventName) {
 }
 
 module.exports = getVendorPrefixedEventName;
-},{"fbjs/lib/ExecutionEnvironment":508}],495:[function(require,module,exports){
+},{"fbjs/lib/ExecutionEnvironment":628}],615:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -55412,7 +71245,7 @@ function instantiateReactComponent(node) {
 
 module.exports = instantiateReactComponent;
 }).call(this,require('_process'))
-},{"./ReactCompositeComponent":399,"./ReactEmptyComponent":426,"./ReactHostComponent":432,"./ReactInstrumentation":437,"./reactProdInvariant":500,"_process":37,"fbjs/lib/invariant":522,"fbjs/lib/warning":532,"object-assign":533}],496:[function(require,module,exports){
+},{"./ReactCompositeComponent":519,"./ReactEmptyComponent":546,"./ReactHostComponent":552,"./ReactInstrumentation":557,"./reactProdInvariant":620,"_process":47,"fbjs/lib/invariant":642,"fbjs/lib/warning":652,"object-assign":653}],616:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -55473,7 +71306,7 @@ function isEventSupported(eventNameSuffix, capture) {
 }
 
 module.exports = isEventSupported;
-},{"fbjs/lib/ExecutionEnvironment":508}],497:[function(require,module,exports){
+},{"fbjs/lib/ExecutionEnvironment":628}],617:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -55515,7 +71348,7 @@ function isTextInputElement(elem) {
 }
 
 module.exports = isTextInputElement;
-},{}],498:[function(require,module,exports){
+},{}],618:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -55556,7 +71389,7 @@ function onlyChild(children) {
 
 module.exports = onlyChild;
 }).call(this,require('_process'))
-},{"./ReactElement":424,"./reactProdInvariant":500,"_process":37,"fbjs/lib/invariant":522}],499:[function(require,module,exports){
+},{"./ReactElement":544,"./reactProdInvariant":620,"_process":47,"fbjs/lib/invariant":642}],619:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -55583,7 +71416,7 @@ function quoteAttributeValueForBrowser(value) {
 }
 
 module.exports = quoteAttributeValueForBrowser;
-},{"./escapeTextContentForBrowser":482}],500:[function(require,module,exports){
+},{"./escapeTextContentForBrowser":602}],620:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -55622,7 +71455,7 @@ function reactProdInvariant(code) {
 }
 
 module.exports = reactProdInvariant;
-},{}],501:[function(require,module,exports){
+},{}],621:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -55639,7 +71472,7 @@ module.exports = reactProdInvariant;
 var ReactMount = require('./ReactMount');
 
 module.exports = ReactMount.renderSubtreeIntoContainer;
-},{"./ReactMount":440}],502:[function(require,module,exports){
+},{"./ReactMount":560}],622:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -55738,7 +71571,7 @@ if (ExecutionEnvironment.canUseDOM) {
 }
 
 module.exports = setInnerHTML;
-},{"./DOMNamespaces":373,"./createMicrosoftUnsafeLocalFunction":480,"fbjs/lib/ExecutionEnvironment":508}],503:[function(require,module,exports){
+},{"./DOMNamespaces":493,"./createMicrosoftUnsafeLocalFunction":600,"fbjs/lib/ExecutionEnvironment":628}],623:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -55787,7 +71620,7 @@ if (ExecutionEnvironment.canUseDOM) {
 }
 
 module.exports = setTextContent;
-},{"./escapeTextContentForBrowser":482,"./setInnerHTML":502,"fbjs/lib/ExecutionEnvironment":508}],504:[function(require,module,exports){
+},{"./escapeTextContentForBrowser":602,"./setInnerHTML":622,"fbjs/lib/ExecutionEnvironment":628}],624:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -55830,7 +71663,7 @@ function shouldUpdateReactComponent(prevElement, nextElement) {
 }
 
 module.exports = shouldUpdateReactComponent;
-},{}],505:[function(require,module,exports){
+},{}],625:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -55993,7 +71826,7 @@ function traverseAllChildren(children, callback, traverseContext) {
 
 module.exports = traverseAllChildren;
 }).call(this,require('_process'))
-},{"./KeyEscapeUtils":387,"./ReactCurrentOwner":400,"./ReactElement":424,"./getIteratorFn":491,"./reactProdInvariant":500,"_process":37,"fbjs/lib/invariant":522,"fbjs/lib/warning":532}],506:[function(require,module,exports){
+},{"./KeyEscapeUtils":507,"./ReactCurrentOwner":520,"./ReactElement":544,"./getIteratorFn":611,"./reactProdInvariant":620,"_process":47,"fbjs/lib/invariant":642,"fbjs/lib/warning":652}],626:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015-present, Facebook, Inc.
@@ -56365,7 +72198,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = validateDOMNesting;
 }).call(this,require('_process'))
-},{"_process":37,"fbjs/lib/emptyFunction":514,"fbjs/lib/warning":532,"object-assign":533}],507:[function(require,module,exports){
+},{"_process":47,"fbjs/lib/emptyFunction":634,"fbjs/lib/warning":652,"object-assign":653}],627:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -56451,7 +72284,7 @@ var EventListener = {
 
 module.exports = EventListener;
 }).call(this,require('_process'))
-},{"./emptyFunction":514,"_process":37}],508:[function(require,module,exports){
+},{"./emptyFunction":634,"_process":47}],628:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -56487,7 +72320,7 @@ var ExecutionEnvironment = {
 };
 
 module.exports = ExecutionEnvironment;
-},{}],509:[function(require,module,exports){
+},{}],629:[function(require,module,exports){
 "use strict";
 
 /**
@@ -56519,7 +72352,7 @@ function camelize(string) {
 }
 
 module.exports = camelize;
-},{}],510:[function(require,module,exports){
+},{}],630:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -56559,7 +72392,7 @@ function camelizeStyleName(string) {
 }
 
 module.exports = camelizeStyleName;
-},{"./camelize":509}],511:[function(require,module,exports){
+},{"./camelize":629}],631:[function(require,module,exports){
 'use strict';
 
 /**
@@ -56599,7 +72432,7 @@ function containsNode(outerNode, innerNode) {
 }
 
 module.exports = containsNode;
-},{"./isTextNode":524}],512:[function(require,module,exports){
+},{"./isTextNode":644}],632:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -56728,7 +72561,7 @@ function createArrayFromMixed(obj) {
 
 module.exports = createArrayFromMixed;
 }).call(this,require('_process'))
-},{"./invariant":522,"_process":37}],513:[function(require,module,exports){
+},{"./invariant":642,"_process":47}],633:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -56814,7 +72647,7 @@ function createNodesFromMarkup(markup, handleScript) {
 
 module.exports = createNodesFromMarkup;
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":508,"./createArrayFromMixed":512,"./getMarkupWrap":518,"./invariant":522,"_process":37}],514:[function(require,module,exports){
+},{"./ExecutionEnvironment":628,"./createArrayFromMixed":632,"./getMarkupWrap":638,"./invariant":642,"_process":47}],634:[function(require,module,exports){
 "use strict";
 
 /**
@@ -56853,7 +72686,7 @@ emptyFunction.thatReturnsArgument = function (arg) {
 };
 
 module.exports = emptyFunction;
-},{}],515:[function(require,module,exports){
+},{}],635:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -56875,7 +72708,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = emptyObject;
 }).call(this,require('_process'))
-},{"_process":37}],516:[function(require,module,exports){
+},{"_process":47}],636:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -56902,7 +72735,7 @@ function focusNode(node) {
 }
 
 module.exports = focusNode;
-},{}],517:[function(require,module,exports){
+},{}],637:[function(require,module,exports){
 'use strict';
 
 /**
@@ -56937,7 +72770,7 @@ function getActiveElement() /*?DOMElement*/{
 }
 
 module.exports = getActiveElement;
-},{}],518:[function(require,module,exports){
+},{}],638:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -57034,7 +72867,7 @@ function getMarkupWrap(nodeName) {
 
 module.exports = getMarkupWrap;
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":508,"./invariant":522,"_process":37}],519:[function(require,module,exports){
+},{"./ExecutionEnvironment":628,"./invariant":642,"_process":47}],639:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -57073,7 +72906,7 @@ function getUnboundedScrollPosition(scrollable) {
 }
 
 module.exports = getUnboundedScrollPosition;
-},{}],520:[function(require,module,exports){
+},{}],640:[function(require,module,exports){
 'use strict';
 
 /**
@@ -57106,7 +72939,7 @@ function hyphenate(string) {
 }
 
 module.exports = hyphenate;
-},{}],521:[function(require,module,exports){
+},{}],641:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -57145,7 +72978,7 @@ function hyphenateStyleName(string) {
 }
 
 module.exports = hyphenateStyleName;
-},{"./hyphenate":520}],522:[function(require,module,exports){
+},{"./hyphenate":640}],642:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -57197,7 +73030,7 @@ function invariant(condition, format, a, b, c, d, e, f) {
 
 module.exports = invariant;
 }).call(this,require('_process'))
-},{"_process":37}],523:[function(require,module,exports){
+},{"_process":47}],643:[function(require,module,exports){
 'use strict';
 
 /**
@@ -57220,7 +73053,7 @@ function isNode(object) {
 }
 
 module.exports = isNode;
-},{}],524:[function(require,module,exports){
+},{}],644:[function(require,module,exports){
 'use strict';
 
 /**
@@ -57245,7 +73078,7 @@ function isTextNode(object) {
 }
 
 module.exports = isTextNode;
-},{"./isNode":523}],525:[function(require,module,exports){
+},{"./isNode":643}],645:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -57295,7 +73128,7 @@ var keyMirror = function keyMirror(obj) {
 
 module.exports = keyMirror;
 }).call(this,require('_process'))
-},{"./invariant":522,"_process":37}],526:[function(require,module,exports){
+},{"./invariant":642,"_process":47}],646:[function(require,module,exports){
 "use strict";
 
 /**
@@ -57330,7 +73163,7 @@ var keyOf = function keyOf(oneKeyObj) {
 };
 
 module.exports = keyOf;
-},{}],527:[function(require,module,exports){
+},{}],647:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -57381,7 +73214,7 @@ function mapObject(object, callback, context) {
 }
 
 module.exports = mapObject;
-},{}],528:[function(require,module,exports){
+},{}],648:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -57411,7 +73244,7 @@ function memoizeStringOnly(callback) {
 }
 
 module.exports = memoizeStringOnly;
-},{}],529:[function(require,module,exports){
+},{}],649:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -57434,7 +73267,7 @@ if (ExecutionEnvironment.canUseDOM) {
 }
 
 module.exports = performance || {};
-},{"./ExecutionEnvironment":508}],530:[function(require,module,exports){
+},{"./ExecutionEnvironment":628}],650:[function(require,module,exports){
 'use strict';
 
 /**
@@ -57468,9 +73301,9 @@ if (performance.now) {
 }
 
 module.exports = performanceNow;
-},{"./performance":529}],531:[function(require,module,exports){
-arguments[4][292][0].apply(exports,arguments)
-},{"dup":292}],532:[function(require,module,exports){
+},{"./performance":649}],651:[function(require,module,exports){
+arguments[4][367][0].apply(exports,arguments)
+},{"dup":367}],652:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -57529,7 +73362,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = warning;
 }).call(this,require('_process'))
-},{"./emptyFunction":514,"_process":37}],533:[function(require,module,exports){
+},{"./emptyFunction":634,"_process":47}],653:[function(require,module,exports){
 'use strict';
 /* eslint-disable no-unused-vars */
 var hasOwnProperty = Object.prototype.hasOwnProperty;
@@ -57614,12 +73447,1142 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 	return to;
 };
 
-},{}],534:[function(require,module,exports){
+},{}],654:[function(require,module,exports){
 'use strict';
 
 module.exports = require('./lib/React');
 
-},{"./lib/React":390}],535:[function(require,module,exports){
+},{"./lib/React":510}],655:[function(require,module,exports){
+"use strict";
+
+function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
+
+function _typeof(obj) { return obj && typeof Symbol !== "undefined" && obj.constructor === Symbol ? "symbol" : typeof obj; }
+
+var repeat = function repeat(str, times) {
+  return new Array(times + 1).join(str);
+};
+var pad = function pad(num, maxLength) {
+  return repeat("0", maxLength - num.toString().length) + num;
+};
+var formatTime = function formatTime(time) {
+  return "@ " + pad(time.getHours(), 2) + ":" + pad(time.getMinutes(), 2) + ":" + pad(time.getSeconds(), 2) + "." + pad(time.getMilliseconds(), 3);
+};
+
+// Use the new performance api to get better precision if available
+var timer = typeof performance !== "undefined" && typeof performance.now === "function" ? performance : Date;
+
+/**
+ * parse the level option of createLogger
+ *
+ * @property {string | function | object} level - console[level]
+ * @property {object} action
+ * @property {array} payload
+ * @property {string} type
+ */
+
+function getLogLevel(level, action, payload, type) {
+  switch (typeof level === "undefined" ? "undefined" : _typeof(level)) {
+    case "object":
+      return typeof level[type] === "function" ? level[type].apply(level, _toConsumableArray(payload)) : level[type];
+    case "function":
+      return level(action);
+    default:
+      return level;
+  }
+}
+
+/**
+ * Creates logger with followed options
+ *
+ * @namespace
+ * @property {object} options - options for logger
+ * @property {string | function | object} options.level - console[level]
+ * @property {boolean} options.duration - print duration of each action?
+ * @property {boolean} options.timestamp - print timestamp with each action?
+ * @property {object} options.colors - custom colors
+ * @property {object} options.logger - implementation of the `console` API
+ * @property {boolean} options.logErrors - should errors in action execution be caught, logged, and re-thrown?
+ * @property {boolean} options.collapsed - is group collapsed?
+ * @property {boolean} options.predicate - condition which resolves logger behavior
+ * @property {function} options.stateTransformer - transform state before print
+ * @property {function} options.actionTransformer - transform action before print
+ * @property {function} options.errorTransformer - transform error before print
+ */
+
+function createLogger() {
+  var options = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
+  var _options$level = options.level;
+  var level = _options$level === undefined ? "log" : _options$level;
+  var _options$logger = options.logger;
+  var logger = _options$logger === undefined ? console : _options$logger;
+  var _options$logErrors = options.logErrors;
+  var logErrors = _options$logErrors === undefined ? true : _options$logErrors;
+  var collapsed = options.collapsed;
+  var predicate = options.predicate;
+  var _options$duration = options.duration;
+  var duration = _options$duration === undefined ? false : _options$duration;
+  var _options$timestamp = options.timestamp;
+  var timestamp = _options$timestamp === undefined ? true : _options$timestamp;
+  var transformer = options.transformer;
+  var _options$stateTransfo = options.stateTransformer;
+  var // deprecated
+  stateTransformer = _options$stateTransfo === undefined ? function (state) {
+    return state;
+  } : _options$stateTransfo;
+  var _options$actionTransf = options.actionTransformer;
+  var actionTransformer = _options$actionTransf === undefined ? function (actn) {
+    return actn;
+  } : _options$actionTransf;
+  var _options$errorTransfo = options.errorTransformer;
+  var errorTransformer = _options$errorTransfo === undefined ? function (error) {
+    return error;
+  } : _options$errorTransfo;
+  var _options$colors = options.colors;
+  var colors = _options$colors === undefined ? {
+    title: function title() {
+      return "#000000";
+    },
+    prevState: function prevState() {
+      return "#9E9E9E";
+    },
+    action: function action() {
+      return "#03A9F4";
+    },
+    nextState: function nextState() {
+      return "#4CAF50";
+    },
+    error: function error() {
+      return "#F20404";
+    }
+  } : _options$colors;
+
+  // exit if console undefined
+
+  if (typeof logger === "undefined") {
+    return function () {
+      return function (next) {
+        return function (action) {
+          return next(action);
+        };
+      };
+    };
+  }
+
+  if (transformer) {
+    console.error("Option 'transformer' is deprecated, use stateTransformer instead");
+  }
+
+  var logBuffer = [];
+  function printBuffer() {
+    logBuffer.forEach(function (logEntry, key) {
+      var started = logEntry.started;
+      var startedTime = logEntry.startedTime;
+      var action = logEntry.action;
+      var prevState = logEntry.prevState;
+      var error = logEntry.error;
+      var took = logEntry.took;
+      var nextState = logEntry.nextState;
+
+      var nextEntry = logBuffer[key + 1];
+      if (nextEntry) {
+        nextState = nextEntry.prevState;
+        took = nextEntry.started - started;
+      }
+      // message
+      var formattedAction = actionTransformer(action);
+      var isCollapsed = typeof collapsed === "function" ? collapsed(function () {
+        return nextState;
+      }, action) : collapsed;
+
+      var formattedTime = formatTime(startedTime);
+      var titleCSS = colors.title ? "color: " + colors.title(formattedAction) + ";" : null;
+      var title = "action " + (timestamp ? formattedTime : "") + " " + formattedAction.type + " " + (duration ? "(in " + took.toFixed(2) + " ms)" : "");
+
+      // render
+      try {
+        if (isCollapsed) {
+          if (colors.title) logger.groupCollapsed("%c " + title, titleCSS);else logger.groupCollapsed(title);
+        } else {
+          if (colors.title) logger.group("%c " + title, titleCSS);else logger.group(title);
+        }
+      } catch (e) {
+        logger.log(title);
+      }
+
+      var prevStateLevel = getLogLevel(level, formattedAction, [prevState], "prevState");
+      var actionLevel = getLogLevel(level, formattedAction, [formattedAction], "action");
+      var errorLevel = getLogLevel(level, formattedAction, [error, prevState], "error");
+      var nextStateLevel = getLogLevel(level, formattedAction, [nextState], "nextState");
+
+      if (prevStateLevel) {
+        if (colors.prevState) logger[prevStateLevel]("%c prev state", "color: " + colors.prevState(prevState) + "; font-weight: bold", prevState);else logger[prevStateLevel]("prev state", prevState);
+      }
+
+      if (actionLevel) {
+        if (colors.action) logger[actionLevel]("%c action", "color: " + colors.action(formattedAction) + "; font-weight: bold", formattedAction);else logger[actionLevel]("action", formattedAction);
+      }
+
+      if (error && errorLevel) {
+        if (colors.error) logger[errorLevel]("%c error", "color: " + colors.error(error, prevState) + "; font-weight: bold", error);else logger[errorLevel]("error", error);
+      }
+
+      if (nextStateLevel) {
+        if (colors.nextState) logger[nextStateLevel]("%c next state", "color: " + colors.nextState(nextState) + "; font-weight: bold", nextState);else logger[nextStateLevel]("next state", nextState);
+      }
+
+      try {
+        logger.groupEnd();
+      } catch (e) {
+        logger.log("—— log end ——");
+      }
+    });
+    logBuffer.length = 0;
+  }
+
+  return function (_ref) {
+    var getState = _ref.getState;
+    return function (next) {
+      return function (action) {
+        // exit early if predicate function returns false
+        if (typeof predicate === "function" && !predicate(getState, action)) {
+          return next(action);
+        }
+
+        var logEntry = {};
+        logBuffer.push(logEntry);
+
+        logEntry.started = timer.now();
+        logEntry.startedTime = new Date();
+        logEntry.prevState = stateTransformer(getState());
+        logEntry.action = action;
+
+        var returnedValue = undefined;
+        if (logErrors) {
+          try {
+            returnedValue = next(action);
+          } catch (e) {
+            logEntry.error = errorTransformer(e);
+          }
+        } else {
+          returnedValue = next(action);
+        }
+
+        logEntry.took = timer.now() - logEntry.started;
+        logEntry.nextState = stateTransformer(getState());
+
+        printBuffer();
+
+        if (logEntry.error) throw logEntry.error;
+        return returnedValue;
+      };
+    };
+  };
+}
+
+module.exports = createLogger;
+},{}],656:[function(require,module,exports){
+'use strict';
+
+exports.__esModule = true;
+function createThunkMiddleware(extraArgument) {
+  return function (_ref) {
+    var dispatch = _ref.dispatch;
+    var getState = _ref.getState;
+    return function (next) {
+      return function (action) {
+        if (typeof action === 'function') {
+          return action(dispatch, getState, extraArgument);
+        }
+
+        return next(action);
+      };
+    };
+  };
+}
+
+var thunk = createThunkMiddleware();
+thunk.withExtraArgument = createThunkMiddleware;
+
+exports['default'] = thunk;
+},{}],657:[function(require,module,exports){
+'use strict';
+
+exports.__esModule = true;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+exports["default"] = applyMiddleware;
+
+var _compose = require('./compose');
+
+var _compose2 = _interopRequireDefault(_compose);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+/**
+ * Creates a store enhancer that applies middleware to the dispatch method
+ * of the Redux store. This is handy for a variety of tasks, such as expressing
+ * asynchronous actions in a concise manner, or logging every action payload.
+ *
+ * See `redux-thunk` package as an example of the Redux middleware.
+ *
+ * Because middleware is potentially asynchronous, this should be the first
+ * store enhancer in the composition chain.
+ *
+ * Note that each middleware will be given the `dispatch` and `getState` functions
+ * as named arguments.
+ *
+ * @param {...Function} middlewares The middleware chain to be applied.
+ * @returns {Function} A store enhancer applying the middleware.
+ */
+function applyMiddleware() {
+  for (var _len = arguments.length, middlewares = Array(_len), _key = 0; _key < _len; _key++) {
+    middlewares[_key] = arguments[_key];
+  }
+
+  return function (createStore) {
+    return function (reducer, initialState, enhancer) {
+      var store = createStore(reducer, initialState, enhancer);
+      var _dispatch = store.dispatch;
+      var chain = [];
+
+      var middlewareAPI = {
+        getState: store.getState,
+        dispatch: function dispatch(action) {
+          return _dispatch(action);
+        }
+      };
+      chain = middlewares.map(function (middleware) {
+        return middleware(middlewareAPI);
+      });
+      _dispatch = _compose2["default"].apply(undefined, chain)(store.dispatch);
+
+      return _extends({}, store, {
+        dispatch: _dispatch
+      });
+    };
+  };
+}
+},{"./compose":660}],658:[function(require,module,exports){
+'use strict';
+
+exports.__esModule = true;
+exports["default"] = bindActionCreators;
+function bindActionCreator(actionCreator, dispatch) {
+  return function () {
+    return dispatch(actionCreator.apply(undefined, arguments));
+  };
+}
+
+/**
+ * Turns an object whose values are action creators, into an object with the
+ * same keys, but with every function wrapped into a `dispatch` call so they
+ * may be invoked directly. This is just a convenience method, as you can call
+ * `store.dispatch(MyActionCreators.doSomething())` yourself just fine.
+ *
+ * For convenience, you can also pass a single function as the first argument,
+ * and get a function in return.
+ *
+ * @param {Function|Object} actionCreators An object whose values are action
+ * creator functions. One handy way to obtain it is to use ES6 `import * as`
+ * syntax. You may also pass a single function.
+ *
+ * @param {Function} dispatch The `dispatch` function available on your Redux
+ * store.
+ *
+ * @returns {Function|Object} The object mimicking the original object, but with
+ * every action creator wrapped into the `dispatch` call. If you passed a
+ * function as `actionCreators`, the return value will also be a single
+ * function.
+ */
+function bindActionCreators(actionCreators, dispatch) {
+  if (typeof actionCreators === 'function') {
+    return bindActionCreator(actionCreators, dispatch);
+  }
+
+  if (typeof actionCreators !== 'object' || actionCreators === null) {
+    throw new Error('bindActionCreators expected an object or a function, instead received ' + (actionCreators === null ? 'null' : typeof actionCreators) + '. ' + 'Did you write "import ActionCreators from" instead of "import * as ActionCreators from"?');
+  }
+
+  var keys = Object.keys(actionCreators);
+  var boundActionCreators = {};
+  for (var i = 0; i < keys.length; i++) {
+    var key = keys[i];
+    var actionCreator = actionCreators[key];
+    if (typeof actionCreator === 'function') {
+      boundActionCreators[key] = bindActionCreator(actionCreator, dispatch);
+    }
+  }
+  return boundActionCreators;
+}
+},{}],659:[function(require,module,exports){
+(function (process){
+'use strict';
+
+exports.__esModule = true;
+exports["default"] = combineReducers;
+
+var _createStore = require('./createStore');
+
+var _isPlainObject = require('lodash/isPlainObject');
+
+var _isPlainObject2 = _interopRequireDefault(_isPlainObject);
+
+var _warning = require('./utils/warning');
+
+var _warning2 = _interopRequireDefault(_warning);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function getUndefinedStateErrorMessage(key, action) {
+  var actionType = action && action.type;
+  var actionName = actionType && '"' + actionType.toString() + '"' || 'an action';
+
+  return 'Given action ' + actionName + ', reducer "' + key + '" returned undefined. ' + 'To ignore an action, you must explicitly return the previous state.';
+}
+
+function getUnexpectedStateShapeWarningMessage(inputState, reducers, action) {
+  var reducerKeys = Object.keys(reducers);
+  var argumentName = action && action.type === _createStore.ActionTypes.INIT ? 'initialState argument passed to createStore' : 'previous state received by the reducer';
+
+  if (reducerKeys.length === 0) {
+    return 'Store does not have a valid reducer. Make sure the argument passed ' + 'to combineReducers is an object whose values are reducers.';
+  }
+
+  if (!(0, _isPlainObject2["default"])(inputState)) {
+    return 'The ' + argumentName + ' has unexpected type of "' + {}.toString.call(inputState).match(/\s([a-z|A-Z]+)/)[1] + '". Expected argument to be an object with the following ' + ('keys: "' + reducerKeys.join('", "') + '"');
+  }
+
+  var unexpectedKeys = Object.keys(inputState).filter(function (key) {
+    return !reducers.hasOwnProperty(key);
+  });
+
+  if (unexpectedKeys.length > 0) {
+    return 'Unexpected ' + (unexpectedKeys.length > 1 ? 'keys' : 'key') + ' ' + ('"' + unexpectedKeys.join('", "') + '" found in ' + argumentName + '. ') + 'Expected to find one of the known reducer keys instead: ' + ('"' + reducerKeys.join('", "') + '". Unexpected keys will be ignored.');
+  }
+}
+
+function assertReducerSanity(reducers) {
+  Object.keys(reducers).forEach(function (key) {
+    var reducer = reducers[key];
+    var initialState = reducer(undefined, { type: _createStore.ActionTypes.INIT });
+
+    if (typeof initialState === 'undefined') {
+      throw new Error('Reducer "' + key + '" returned undefined during initialization. ' + 'If the state passed to the reducer is undefined, you must ' + 'explicitly return the initial state. The initial state may ' + 'not be undefined.');
+    }
+
+    var type = '@@redux/PROBE_UNKNOWN_ACTION_' + Math.random().toString(36).substring(7).split('').join('.');
+    if (typeof reducer(undefined, { type: type }) === 'undefined') {
+      throw new Error('Reducer "' + key + '" returned undefined when probed with a random type. ' + ('Don\'t try to handle ' + _createStore.ActionTypes.INIT + ' or other actions in "redux/*" ') + 'namespace. They are considered private. Instead, you must return the ' + 'current state for any unknown actions, unless it is undefined, ' + 'in which case you must return the initial state, regardless of the ' + 'action type. The initial state may not be undefined.');
+    }
+  });
+}
+
+/**
+ * Turns an object whose values are different reducer functions, into a single
+ * reducer function. It will call every child reducer, and gather their results
+ * into a single state object, whose keys correspond to the keys of the passed
+ * reducer functions.
+ *
+ * @param {Object} reducers An object whose values correspond to different
+ * reducer functions that need to be combined into one. One handy way to obtain
+ * it is to use ES6 `import * as reducers` syntax. The reducers may never return
+ * undefined for any action. Instead, they should return their initial state
+ * if the state passed to them was undefined, and the current state for any
+ * unrecognized action.
+ *
+ * @returns {Function} A reducer function that invokes every reducer inside the
+ * passed object, and builds a state object with the same shape.
+ */
+function combineReducers(reducers) {
+  var reducerKeys = Object.keys(reducers);
+  var finalReducers = {};
+  for (var i = 0; i < reducerKeys.length; i++) {
+    var key = reducerKeys[i];
+    if (typeof reducers[key] === 'function') {
+      finalReducers[key] = reducers[key];
+    }
+  }
+  var finalReducerKeys = Object.keys(finalReducers);
+
+  var sanityError;
+  try {
+    assertReducerSanity(finalReducers);
+  } catch (e) {
+    sanityError = e;
+  }
+
+  return function combination() {
+    var state = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
+    var action = arguments[1];
+
+    if (sanityError) {
+      throw sanityError;
+    }
+
+    if (process.env.NODE_ENV !== 'production') {
+      var warningMessage = getUnexpectedStateShapeWarningMessage(state, finalReducers, action);
+      if (warningMessage) {
+        (0, _warning2["default"])(warningMessage);
+      }
+    }
+
+    var hasChanged = false;
+    var nextState = {};
+    for (var i = 0; i < finalReducerKeys.length; i++) {
+      var key = finalReducerKeys[i];
+      var reducer = finalReducers[key];
+      var previousStateForKey = state[key];
+      var nextStateForKey = reducer(previousStateForKey, action);
+      if (typeof nextStateForKey === 'undefined') {
+        var errorMessage = getUndefinedStateErrorMessage(key, action);
+        throw new Error(errorMessage);
+      }
+      nextState[key] = nextStateForKey;
+      hasChanged = hasChanged || nextStateForKey !== previousStateForKey;
+    }
+    return hasChanged ? nextState : state;
+  };
+}
+}).call(this,require('_process'))
+},{"./createStore":661,"./utils/warning":663,"_process":47,"lodash/isPlainObject":667}],660:[function(require,module,exports){
+"use strict";
+
+exports.__esModule = true;
+exports["default"] = compose;
+/**
+ * Composes single-argument functions from right to left. The rightmost
+ * function can take multiple arguments as it provides the signature for
+ * the resulting composite function.
+ *
+ * @param {...Function} funcs The functions to compose.
+ * @returns {Function} A function obtained by composing the argument functions
+ * from right to left. For example, compose(f, g, h) is identical to doing
+ * (...args) => f(g(h(...args))).
+ */
+
+function compose() {
+  for (var _len = arguments.length, funcs = Array(_len), _key = 0; _key < _len; _key++) {
+    funcs[_key] = arguments[_key];
+  }
+
+  if (funcs.length === 0) {
+    return function (arg) {
+      return arg;
+    };
+  } else {
+    var _ret = function () {
+      var last = funcs[funcs.length - 1];
+      var rest = funcs.slice(0, -1);
+      return {
+        v: function v() {
+          return rest.reduceRight(function (composed, f) {
+            return f(composed);
+          }, last.apply(undefined, arguments));
+        }
+      };
+    }();
+
+    if (typeof _ret === "object") return _ret.v;
+  }
+}
+},{}],661:[function(require,module,exports){
+'use strict';
+
+exports.__esModule = true;
+exports.ActionTypes = undefined;
+exports["default"] = createStore;
+
+var _isPlainObject = require('lodash/isPlainObject');
+
+var _isPlainObject2 = _interopRequireDefault(_isPlainObject);
+
+var _symbolObservable = require('symbol-observable');
+
+var _symbolObservable2 = _interopRequireDefault(_symbolObservable);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+/**
+ * These are private action types reserved by Redux.
+ * For any unknown actions, you must return the current state.
+ * If the current state is undefined, you must return the initial state.
+ * Do not reference these action types directly in your code.
+ */
+var ActionTypes = exports.ActionTypes = {
+  INIT: '@@redux/INIT'
+};
+
+/**
+ * Creates a Redux store that holds the state tree.
+ * The only way to change the data in the store is to call `dispatch()` on it.
+ *
+ * There should only be a single store in your app. To specify how different
+ * parts of the state tree respond to actions, you may combine several reducers
+ * into a single reducer function by using `combineReducers`.
+ *
+ * @param {Function} reducer A function that returns the next state tree, given
+ * the current state tree and the action to handle.
+ *
+ * @param {any} [initialState] The initial state. You may optionally specify it
+ * to hydrate the state from the server in universal apps, or to restore a
+ * previously serialized user session.
+ * If you use `combineReducers` to produce the root reducer function, this must be
+ * an object with the same shape as `combineReducers` keys.
+ *
+ * @param {Function} enhancer The store enhancer. You may optionally specify it
+ * to enhance the store with third-party capabilities such as middleware,
+ * time travel, persistence, etc. The only store enhancer that ships with Redux
+ * is `applyMiddleware()`.
+ *
+ * @returns {Store} A Redux store that lets you read the state, dispatch actions
+ * and subscribe to changes.
+ */
+function createStore(reducer, initialState, enhancer) {
+  var _ref2;
+
+  if (typeof initialState === 'function' && typeof enhancer === 'undefined') {
+    enhancer = initialState;
+    initialState = undefined;
+  }
+
+  if (typeof enhancer !== 'undefined') {
+    if (typeof enhancer !== 'function') {
+      throw new Error('Expected the enhancer to be a function.');
+    }
+
+    return enhancer(createStore)(reducer, initialState);
+  }
+
+  if (typeof reducer !== 'function') {
+    throw new Error('Expected the reducer to be a function.');
+  }
+
+  var currentReducer = reducer;
+  var currentState = initialState;
+  var currentListeners = [];
+  var nextListeners = currentListeners;
+  var isDispatching = false;
+
+  function ensureCanMutateNextListeners() {
+    if (nextListeners === currentListeners) {
+      nextListeners = currentListeners.slice();
+    }
+  }
+
+  /**
+   * Reads the state tree managed by the store.
+   *
+   * @returns {any} The current state tree of your application.
+   */
+  function getState() {
+    return currentState;
+  }
+
+  /**
+   * Adds a change listener. It will be called any time an action is dispatched,
+   * and some part of the state tree may potentially have changed. You may then
+   * call `getState()` to read the current state tree inside the callback.
+   *
+   * You may call `dispatch()` from a change listener, with the following
+   * caveats:
+   *
+   * 1. The subscriptions are snapshotted just before every `dispatch()` call.
+   * If you subscribe or unsubscribe while the listeners are being invoked, this
+   * will not have any effect on the `dispatch()` that is currently in progress.
+   * However, the next `dispatch()` call, whether nested or not, will use a more
+   * recent snapshot of the subscription list.
+   *
+   * 2. The listener should not expect to see all state changes, as the state
+   * might have been updated multiple times during a nested `dispatch()` before
+   * the listener is called. It is, however, guaranteed that all subscribers
+   * registered before the `dispatch()` started will be called with the latest
+   * state by the time it exits.
+   *
+   * @param {Function} listener A callback to be invoked on every dispatch.
+   * @returns {Function} A function to remove this change listener.
+   */
+  function subscribe(listener) {
+    if (typeof listener !== 'function') {
+      throw new Error('Expected listener to be a function.');
+    }
+
+    var isSubscribed = true;
+
+    ensureCanMutateNextListeners();
+    nextListeners.push(listener);
+
+    return function unsubscribe() {
+      if (!isSubscribed) {
+        return;
+      }
+
+      isSubscribed = false;
+
+      ensureCanMutateNextListeners();
+      var index = nextListeners.indexOf(listener);
+      nextListeners.splice(index, 1);
+    };
+  }
+
+  /**
+   * Dispatches an action. It is the only way to trigger a state change.
+   *
+   * The `reducer` function, used to create the store, will be called with the
+   * current state tree and the given `action`. Its return value will
+   * be considered the **next** state of the tree, and the change listeners
+   * will be notified.
+   *
+   * The base implementation only supports plain object actions. If you want to
+   * dispatch a Promise, an Observable, a thunk, or something else, you need to
+   * wrap your store creating function into the corresponding middleware. For
+   * example, see the documentation for the `redux-thunk` package. Even the
+   * middleware will eventually dispatch plain object actions using this method.
+   *
+   * @param {Object} action A plain object representing “what changed”. It is
+   * a good idea to keep actions serializable so you can record and replay user
+   * sessions, or use the time travelling `redux-devtools`. An action must have
+   * a `type` property which may not be `undefined`. It is a good idea to use
+   * string constants for action types.
+   *
+   * @returns {Object} For convenience, the same action object you dispatched.
+   *
+   * Note that, if you use a custom middleware, it may wrap `dispatch()` to
+   * return something else (for example, a Promise you can await).
+   */
+  function dispatch(action) {
+    if (!(0, _isPlainObject2["default"])(action)) {
+      throw new Error('Actions must be plain objects. ' + 'Use custom middleware for async actions.');
+    }
+
+    if (typeof action.type === 'undefined') {
+      throw new Error('Actions may not have an undefined "type" property. ' + 'Have you misspelled a constant?');
+    }
+
+    if (isDispatching) {
+      throw new Error('Reducers may not dispatch actions.');
+    }
+
+    try {
+      isDispatching = true;
+      currentState = currentReducer(currentState, action);
+    } finally {
+      isDispatching = false;
+    }
+
+    var listeners = currentListeners = nextListeners;
+    for (var i = 0; i < listeners.length; i++) {
+      listeners[i]();
+    }
+
+    return action;
+  }
+
+  /**
+   * Replaces the reducer currently used by the store to calculate the state.
+   *
+   * You might need this if your app implements code splitting and you want to
+   * load some of the reducers dynamically. You might also need this if you
+   * implement a hot reloading mechanism for Redux.
+   *
+   * @param {Function} nextReducer The reducer for the store to use instead.
+   * @returns {void}
+   */
+  function replaceReducer(nextReducer) {
+    if (typeof nextReducer !== 'function') {
+      throw new Error('Expected the nextReducer to be a function.');
+    }
+
+    currentReducer = nextReducer;
+    dispatch({ type: ActionTypes.INIT });
+  }
+
+  /**
+   * Interoperability point for observable/reactive libraries.
+   * @returns {observable} A minimal observable of state changes.
+   * For more information, see the observable proposal:
+   * https://github.com/zenparsing/es-observable
+   */
+  function observable() {
+    var _ref;
+
+    var outerSubscribe = subscribe;
+    return _ref = {
+      /**
+       * The minimal observable subscription method.
+       * @param {Object} observer Any object that can be used as an observer.
+       * The observer object should have a `next` method.
+       * @returns {subscription} An object with an `unsubscribe` method that can
+       * be used to unsubscribe the observable from the store, and prevent further
+       * emission of values from the observable.
+       */
+
+      subscribe: function subscribe(observer) {
+        if (typeof observer !== 'object') {
+          throw new TypeError('Expected the observer to be an object.');
+        }
+
+        function observeState() {
+          if (observer.next) {
+            observer.next(getState());
+          }
+        }
+
+        observeState();
+        var unsubscribe = outerSubscribe(observeState);
+        return { unsubscribe: unsubscribe };
+      }
+    }, _ref[_symbolObservable2["default"]] = function () {
+      return this;
+    }, _ref;
+  }
+
+  // When a store is created, an "INIT" action is dispatched so that every
+  // reducer returns their initial state. This effectively populates
+  // the initial state tree.
+  dispatch({ type: ActionTypes.INIT });
+
+  return _ref2 = {
+    dispatch: dispatch,
+    subscribe: subscribe,
+    getState: getState,
+    replaceReducer: replaceReducer
+  }, _ref2[_symbolObservable2["default"]] = observable, _ref2;
+}
+},{"lodash/isPlainObject":667,"symbol-observable":668}],662:[function(require,module,exports){
+(function (process){
+'use strict';
+
+exports.__esModule = true;
+exports.compose = exports.applyMiddleware = exports.bindActionCreators = exports.combineReducers = exports.createStore = undefined;
+
+var _createStore = require('./createStore');
+
+var _createStore2 = _interopRequireDefault(_createStore);
+
+var _combineReducers = require('./combineReducers');
+
+var _combineReducers2 = _interopRequireDefault(_combineReducers);
+
+var _bindActionCreators = require('./bindActionCreators');
+
+var _bindActionCreators2 = _interopRequireDefault(_bindActionCreators);
+
+var _applyMiddleware = require('./applyMiddleware');
+
+var _applyMiddleware2 = _interopRequireDefault(_applyMiddleware);
+
+var _compose = require('./compose');
+
+var _compose2 = _interopRequireDefault(_compose);
+
+var _warning = require('./utils/warning');
+
+var _warning2 = _interopRequireDefault(_warning);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+/*
+* This is a dummy function to check if the function name has been altered by minification.
+* If the function has been minified and NODE_ENV !== 'production', warn the user.
+*/
+function isCrushed() {}
+
+if (process.env.NODE_ENV !== 'production' && typeof isCrushed.name === 'string' && isCrushed.name !== 'isCrushed') {
+  (0, _warning2["default"])('You are currently using minified code outside of NODE_ENV === \'production\'. ' + 'This means that you are running a slower development build of Redux. ' + 'You can use loose-envify (https://github.com/zertosh/loose-envify) for browserify ' + 'or DefinePlugin for webpack (http://stackoverflow.com/questions/30030031) ' + 'to ensure you have the correct code for your production build.');
+}
+
+exports.createStore = _createStore2["default"];
+exports.combineReducers = _combineReducers2["default"];
+exports.bindActionCreators = _bindActionCreators2["default"];
+exports.applyMiddleware = _applyMiddleware2["default"];
+exports.compose = _compose2["default"];
+}).call(this,require('_process'))
+},{"./applyMiddleware":657,"./bindActionCreators":658,"./combineReducers":659,"./compose":660,"./createStore":661,"./utils/warning":663,"_process":47}],663:[function(require,module,exports){
+'use strict';
+
+exports.__esModule = true;
+exports["default"] = warning;
+/**
+ * Prints a warning in the console if it exists.
+ *
+ * @param {String} message The warning message.
+ * @returns {void}
+ */
+function warning(message) {
+  /* eslint-disable no-console */
+  if (typeof console !== 'undefined' && typeof console.error === 'function') {
+    console.error(message);
+  }
+  /* eslint-enable no-console */
+  try {
+    // This error was thrown as a convenience so that if you enable
+    // "break on all exceptions" in your console,
+    // it would pause the execution at this line.
+    throw new Error(message);
+    /* eslint-disable no-empty */
+  } catch (e) {}
+  /* eslint-enable no-empty */
+}
+},{}],664:[function(require,module,exports){
+arguments[4][185][0].apply(exports,arguments)
+},{"dup":185}],665:[function(require,module,exports){
+arguments[4][202][0].apply(exports,arguments)
+},{"dup":202}],666:[function(require,module,exports){
+arguments[4][262][0].apply(exports,arguments)
+},{"dup":262}],667:[function(require,module,exports){
+arguments[4][263][0].apply(exports,arguments)
+},{"./_getPrototype":664,"./_isHostObject":665,"./isObjectLike":666,"dup":263}],668:[function(require,module,exports){
+(function (global){
+/* global window */
+'use strict';
+
+module.exports = require('./ponyfill')(global || window || this);
+
+}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
+},{"./ponyfill":669}],669:[function(require,module,exports){
+'use strict';
+
+module.exports = function symbolObservablePonyfill(root) {
+	var result;
+	var Symbol = root.Symbol;
+
+	if (typeof Symbol === 'function') {
+		if (Symbol.observable) {
+			result = Symbol.observable;
+		} else {
+			result = Symbol('observable');
+			Symbol.observable = result;
+		}
+	} else {
+		result = '@@observable';
+	}
+
+	return result;
+};
+
+},{}],670:[function(require,module,exports){
+(function (global){
+
+var rng;
+
+if (global.crypto && crypto.getRandomValues) {
+  // WHATWG crypto-based RNG - http://wiki.whatwg.org/wiki/Crypto
+  // Moderately fast, high quality
+  var _rnds8 = new Uint8Array(16);
+  rng = function whatwgRNG() {
+    crypto.getRandomValues(_rnds8);
+    return _rnds8;
+  };
+}
+
+if (!rng) {
+  // Math.random()-based (RNG)
+  //
+  // If all else fails, use Math.random().  It's fast, but is of unspecified
+  // quality.
+  var  _rnds = new Array(16);
+  rng = function() {
+    for (var i = 0, r; i < 16; i++) {
+      if ((i & 0x03) === 0) r = Math.random() * 0x100000000;
+      _rnds[i] = r >>> ((i & 0x03) << 3) & 0xff;
+    }
+
+    return _rnds;
+  };
+}
+
+module.exports = rng;
+
+
+}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
+},{}],671:[function(require,module,exports){
+//     uuid.js
+//
+//     Copyright (c) 2010-2012 Robert Kieffer
+//     MIT License - http://opensource.org/licenses/mit-license.php
+
+// Unique ID creation requires a high quality random # generator.  We feature
+// detect to determine the best RNG source, normalizing to a function that
+// returns 128-bits of randomness, since that's what's usually required
+var _rng = require('./rng');
+
+// Maps for number <-> hex string conversion
+var _byteToHex = [];
+var _hexToByte = {};
+for (var i = 0; i < 256; i++) {
+  _byteToHex[i] = (i + 0x100).toString(16).substr(1);
+  _hexToByte[_byteToHex[i]] = i;
+}
+
+// **`parse()` - Parse a UUID into it's component bytes**
+function parse(s, buf, offset) {
+  var i = (buf && offset) || 0, ii = 0;
+
+  buf = buf || [];
+  s.toLowerCase().replace(/[0-9a-f]{2}/g, function(oct) {
+    if (ii < 16) { // Don't overflow!
+      buf[i + ii++] = _hexToByte[oct];
+    }
+  });
+
+  // Zero out remaining bytes if string was short
+  while (ii < 16) {
+    buf[i + ii++] = 0;
+  }
+
+  return buf;
+}
+
+// **`unparse()` - Convert UUID byte array (ala parse()) into a string**
+function unparse(buf, offset) {
+  var i = offset || 0, bth = _byteToHex;
+  return  bth[buf[i++]] + bth[buf[i++]] +
+          bth[buf[i++]] + bth[buf[i++]] + '-' +
+          bth[buf[i++]] + bth[buf[i++]] + '-' +
+          bth[buf[i++]] + bth[buf[i++]] + '-' +
+          bth[buf[i++]] + bth[buf[i++]] + '-' +
+          bth[buf[i++]] + bth[buf[i++]] +
+          bth[buf[i++]] + bth[buf[i++]] +
+          bth[buf[i++]] + bth[buf[i++]];
+}
+
+// **`v1()` - Generate time-based UUID**
+//
+// Inspired by https://github.com/LiosK/UUID.js
+// and http://docs.python.org/library/uuid.html
+
+// random #'s we need to init node and clockseq
+var _seedBytes = _rng();
+
+// Per 4.5, create and 48-bit node id, (47 random bits + multicast bit = 1)
+var _nodeId = [
+  _seedBytes[0] | 0x01,
+  _seedBytes[1], _seedBytes[2], _seedBytes[3], _seedBytes[4], _seedBytes[5]
+];
+
+// Per 4.2.2, randomize (14 bit) clockseq
+var _clockseq = (_seedBytes[6] << 8 | _seedBytes[7]) & 0x3fff;
+
+// Previous uuid creation time
+var _lastMSecs = 0, _lastNSecs = 0;
+
+// See https://github.com/broofa/node-uuid for API details
+function v1(options, buf, offset) {
+  var i = buf && offset || 0;
+  var b = buf || [];
+
+  options = options || {};
+
+  var clockseq = options.clockseq !== undefined ? options.clockseq : _clockseq;
+
+  // UUID timestamps are 100 nano-second units since the Gregorian epoch,
+  // (1582-10-15 00:00).  JSNumbers aren't precise enough for this, so
+  // time is handled internally as 'msecs' (integer milliseconds) and 'nsecs'
+  // (100-nanoseconds offset from msecs) since unix epoch, 1970-01-01 00:00.
+  var msecs = options.msecs !== undefined ? options.msecs : new Date().getTime();
+
+  // Per 4.2.1.2, use count of uuid's generated during the current clock
+  // cycle to simulate higher resolution clock
+  var nsecs = options.nsecs !== undefined ? options.nsecs : _lastNSecs + 1;
+
+  // Time since last uuid creation (in msecs)
+  var dt = (msecs - _lastMSecs) + (nsecs - _lastNSecs)/10000;
+
+  // Per 4.2.1.2, Bump clockseq on clock regression
+  if (dt < 0 && options.clockseq === undefined) {
+    clockseq = clockseq + 1 & 0x3fff;
+  }
+
+  // Reset nsecs if clock regresses (new clockseq) or we've moved onto a new
+  // time interval
+  if ((dt < 0 || msecs > _lastMSecs) && options.nsecs === undefined) {
+    nsecs = 0;
+  }
+
+  // Per 4.2.1.2 Throw error if too many uuids are requested
+  if (nsecs >= 10000) {
+    throw new Error('uuid.v1(): Can\'t create more than 10M uuids/sec');
+  }
+
+  _lastMSecs = msecs;
+  _lastNSecs = nsecs;
+  _clockseq = clockseq;
+
+  // Per 4.1.4 - Convert from unix epoch to Gregorian epoch
+  msecs += 12219292800000;
+
+  // `time_low`
+  var tl = ((msecs & 0xfffffff) * 10000 + nsecs) % 0x100000000;
+  b[i++] = tl >>> 24 & 0xff;
+  b[i++] = tl >>> 16 & 0xff;
+  b[i++] = tl >>> 8 & 0xff;
+  b[i++] = tl & 0xff;
+
+  // `time_mid`
+  var tmh = (msecs / 0x100000000 * 10000) & 0xfffffff;
+  b[i++] = tmh >>> 8 & 0xff;
+  b[i++] = tmh & 0xff;
+
+  // `time_high_and_version`
+  b[i++] = tmh >>> 24 & 0xf | 0x10; // include version
+  b[i++] = tmh >>> 16 & 0xff;
+
+  // `clock_seq_hi_and_reserved` (Per 4.2.2 - include variant)
+  b[i++] = clockseq >>> 8 | 0x80;
+
+  // `clock_seq_low`
+  b[i++] = clockseq & 0xff;
+
+  // `node`
+  var node = options.node || _nodeId;
+  for (var n = 0; n < 6; n++) {
+    b[i + n] = node[n];
+  }
+
+  return buf ? buf : unparse(b);
+}
+
+// **`v4()` - Generate random UUID**
+
+// See https://github.com/broofa/node-uuid for API details
+function v4(options, buf, offset) {
+  // Deprecated - 'format' argument, as supported in v1.2
+  var i = buf && offset || 0;
+
+  if (typeof(options) == 'string') {
+    buf = options == 'binary' ? new Array(16) : null;
+    options = null;
+  }
+  options = options || {};
+
+  var rnds = options.random || (options.rng || _rng)();
+
+  // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+  rnds[6] = (rnds[6] & 0x0f) | 0x40;
+  rnds[8] = (rnds[8] & 0x3f) | 0x80;
+
+  // Copy bytes to buffer, if provided
+  if (buf) {
+    for (var ii = 0; ii < 16; ii++) {
+      buf[i + ii] = rnds[ii];
+    }
+  }
+
+  return buf || unparse(rnds);
+}
+
+// Export public API
+var uuid = v4;
+uuid.v1 = v1;
+uuid.v4 = v4;
+uuid.parse = parse;
+uuid.unparse = unparse;
+
+module.exports = uuid;
+
+},{"./rng":670}],672:[function(require,module,exports){
 (function(self) {
   'use strict';
 
@@ -58054,4 +75017,4 @@ module.exports = require('./lib/React');
   self.fetch.polyfill = true
 })(typeof self !== 'undefined' ? self : this);
 
-},{}]},{},[6]);
+},{}]},{},[7]);
