@@ -129,7 +129,7 @@ function importAirways(src) {
 }
 
 clear();
-importData('airports', airportsDatPath, [property('icao')]);
+importData('airports', airportsDatPath, [property('icao'), property('name')]);
 importData('fixes', fixesDatPath, [property('name')]);
 importData('navaids', navaidsDatPath, [property('name'), property('identifier')]);
 importAirways(airwaysDatPath);
