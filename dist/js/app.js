@@ -64,7 +64,11 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactLeaflet = require('react-leaflet');
 
-var _reactLeaflet2 = _interopRequireDefault(_reactLeaflet);
+var ReactLeaflet = _interopRequireWildcard(_reactLeaflet);
+
+var _reactRedux = require('react-redux');
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -77,26 +81,54 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var Map = function (_React$Component) {
   _inherits(Map, _React$Component);
 
-  function Map() {
+  function Map(props) {
     _classCallCheck(this, Map);
 
-    return _possibleConstructorReturn(this, Object.getPrototypeOf(Map).apply(this, arguments));
+    return _possibleConstructorReturn(this, Object.getPrototypeOf(Map).call(this, props));
   }
 
   _createClass(Map, [{
     key: 'render',
     value: function render() {
-      return _react2.default.createElement('div', { className: 'main-map' });
+      var _props = this.props;
+      var activeNavItem = _props.activeNavItem;
+      var center = _props.center;
+      var zoom = _props.zoom;
+      var baseLayer = _props.baseLayer;
+
+
+      return _react2.default.createElement(
+        'div',
+        { className: 'main-map' },
+        _react2.default.createElement(
+          ReactLeaflet.Map,
+          { center: center, zoom: zoom },
+          _react2.default.createElement(ReactLeaflet.TileLayer, {
+            url: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png',
+            attribution: '© <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+          })
+        )
+      );
     }
   }]);
 
   return Map;
 }(_react2.default.Component);
 
-exports.default = Map;
 ;
 
-},{"react":654,"react-leaflet":460}],3:[function(require,module,exports){
+var mapStateToProps = function mapStateToProps(state) {
+  return {
+    activeNavItem: state.activeNavItem,
+    center: state.map.center,
+    zoom: state.map.zoom,
+    baseLayer: state.map.baseLayer
+  };
+};
+
+exports.default = (0, _reactRedux.connect)(mapStateToProps)(Map);
+
+},{"react":654,"react-leaflet":460,"react-redux":472}],3:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -438,6 +470,9 @@ exports.setFlightPlanCruiseSpeed = setFlightPlanCruiseSpeed;
 exports.setFlightPlanFuelConsumption = setFlightPlanFuelConsumption;
 exports.setFlightPlanPayload = setFlightPlanPayload;
 exports.exportFlightPlanToFms = exportFlightPlanToFms;
+exports.setMapCenter = setMapCenter;
+exports.setMapZoom = setMapZoom;
+exports.setMapBaseLayer = setMapBaseLayer;
 
 var _constants = require('./constants');
 
@@ -513,9 +548,15 @@ function receiveSearchIndex() {
 }
 
 function locateNavItem(item) {
-  return {
-    type: c.LOCATE_NAV_ITEM,
-    navItem: item
+  return function (dispatch) {
+    dispatch({
+      type: c.LOCATE_NAV_ITEM,
+      navItem: item
+    });
+
+    dispatch(setMapCenter(item.lat, item.lon));
+    dispatch(setMapZoom(c.MAP_ZOOM_ACTIVE_NAV_ITEM));
+    dispatch(locatedNavItem(item));
   };
 }
 
@@ -716,6 +757,28 @@ function exportFlightPlanToFms(flightPlanId) {
   };
 }
 
+function setMapCenter(lat, lon) {
+  return {
+    type: c.SET_MAP_CENTER,
+    lat: lat,
+    lon: lon
+  };
+}
+
+function setMapZoom(zoom) {
+  return {
+    type: c.SET_MAP_ZOOM,
+    zoom: zoom
+  };
+}
+
+function setMapBaseLayer(baseLayer) {
+  return {
+    type: c.SET_MAP_BASE_LAYER,
+    baseLayer: baseLayer
+  };
+}
+
 },{"../../models/FlightPlan":16,"../../models/Waypoint":17,"../geoSearch":6,"../navDataSearch":8,"./constants":11}],10:[function(require,module,exports){
 'use strict';
 
@@ -795,6 +858,16 @@ var SET_FLIGHT_PLAN_CRUISE_SPEED = exports.SET_FLIGHT_PLAN_CRUISE_SPEED = 'SET_F
 var SET_FLIGHT_PLAN_FUEL_CONSUMPTION = exports.SET_FLIGHT_PLAN_FUEL_CONSUMPTION = 'SET_FLIGHT_PLAN_FUEL_CONSUMPTION';
 var SET_FLIGHT_PLAN_PAYLOAD = exports.SET_FLIGHT_PLAN_PAYLOAD = 'SET_FLIGHT_PLAN_PAYLOAD';
 var EXPORT_FLIGHT_PLAN_TO_FMS = exports.EXPORT_FLIGHT_PLAN_TO_FMS = 'EXPORT_FLIGHT_PLAN_TO_FMS';
+
+// Map
+var SET_MAP_CENTER = exports.SET_MAP_CENTER = 'SET_MAP_CENTER';
+var SET_MAP_ZOOM = exports.SET_MAP_ZOOM = 'SET_MAP_ZOOM';
+var SET_MAP_BASE_LAYER = exports.SET_MAP_BASE_LAYER = 'SET_MAP_BASE_LAYER';
+
+var MAP_BASE_LAYER_OSM = exports.MAP_BASE_LAYER_OSM = 'osm';
+var MAP_ZOOM_DEFAULT = exports.MAP_ZOOM_DEFAULT = 8;
+var MAP_ZOOM_ACTIVE_NAV_ITEM = exports.MAP_ZOOM_ACTIVE_NAV_ITEM = 12;
+var MAP_CENTER_DEFAULT = exports.MAP_CENTER_DEFAULT = [0, 0];
 
 },{}],12:[function(require,module,exports){
 'use strict';
@@ -1140,12 +1213,59 @@ function setActiveNavItem() {
   return action.navItem ? Object.assign({}, action.navItem) : null;
 }
 
+function map(state, action) {
+  state = state || {
+    center: c.MAP_CENTER_DEFAULT,
+    zoom: c.MAP_ZOOM_DEFAULT,
+    baseLayer: c.MAP_BASE_LAYER_DEFAULT
+  };
+
+  switch (action.type) {
+    case c.SET_MAP_CENTER:
+      return Object.assign({}, state, {
+        center: setMapCenter(state.center, action)
+      });
+    case c.SET_MAP_ZOOM:
+      return Object.assign({}, state, {
+        zoom: setMapZoom(state.zoom, action)
+      });
+    case c.SET_MAP_BASE_LAYER:
+      return Object.assign({}, state, {
+        baseLayer: setMapBaseLayer(state.baseLayer, action)
+      });
+  }
+
+  return state;
+}
+
+function setMapCenter() {
+  var state = arguments.length <= 0 || arguments[0] === undefined ? c.MAP_CENTER_DEFAULT : arguments[0];
+  var action = arguments[1];
+
+  return [action.lat, action.lon];
+}
+
+function setMapZoom() {
+  var state = arguments.length <= 0 || arguments[0] === undefined ? c.MAP_ZOOM_DEFAULT : arguments[0];
+  var action = arguments[1];
+
+  return action.zoom;
+}
+
+function setMapBaseLayer() {
+  var state = arguments.length <= 0 || arguments[0] === undefined ? c.MAP_BASE_LAYER_DEFAULT : arguments[0];
+  var action = arguments[1];
+
+  return action.baseLayer;
+}
+
 var rootReducer = (0, _redux.combineReducers)({
   search: search,
   waypoints: waypoints,
   flightPlans: flightPlans,
   geoSearch: geoSearch,
-  activeNavItem: navItem
+  activeNavItem: navItem,
+  map: map
 });
 
 exports.default = rootReducer;
