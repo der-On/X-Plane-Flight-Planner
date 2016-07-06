@@ -1,154 +1,105 @@
 [
   {
     "type": 1,
-    "icao": "LRCS",
-    "lat": 45.420694499999996,
-    "lon": 33.829861,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12585,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12585,
-        "name": "APP"
-      }
-    ],
-    "elevation": 866,
+    "icao": "UKFI",
+    "lat": 45.09188587,
+    "lon": 33.604227075,
+    "communications": [],
+    "elevation": 52,
     "tower": true,
-    "name": "CARANSEBES",
+    "name": "Saki AB",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 60.05,
         "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 45.423611,
-        "lonStart": 22.241944,
-        "latEnd": 45.417778,
-        "lonEnd": 22.266111,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 45.08233168,
+        "lonStart": 33.59029979,
+        "latEnd": 45.10144006,
+        "lonEnd": 33.61815436,
         "length": 0,
         "surfacetype": 2
       }
     ],
-    "id": 3665
+    "id": 22724
   },
   {
     "type": 1,
-    "icao": "LRTR",
-    "lat": 45.809833499999996,
-    "lon": 33.560642,
+    "icao": "UKFF",
+    "lat": 45.035836696000004,
+    "lon": 33.983911714,
     "communications": [
+      {
+        "type": 50,
+        "frequency": 12720,
+        "name": "ATIS"
+      },
       {
         "type": 53,
-        "frequency": 12160,
-        "name": "TIMISOARA GND"
+        "frequency": 11900,
+        "name": "GND"
       },
       {
         "type": 54,
-        "frequency": 12010,
-        "name": "TIMISOARA TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12010,
-        "name": "TIMISOARA APP"
-      }
-    ],
-    "elevation": 348,
-    "tower": true,
-    "name": "TRAIAN VUIA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 45.815139,
-        "lonStart": 21.316756,
-        "latEnd": 45.804528,
-        "lonEnd": 21.358989,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 24827
-  },
-  {
-    "type": 1,
-    "icao": "LYVR",
-    "lat": 45.14786566666666,
-    "lon": 33.22878716666667,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12350,
-        "name": "INFO"
-      },
-      {
-        "type": 54,
-        "frequency": 11860,
+        "frequency": 12080,
         "name": "TWR"
       },
       {
         "type": 55,
-        "frequency": 12505,
-        "name": "APP"
+        "frequency": 11930,
+        "name": "RADAR"
       },
       {
         "type": 55,
-        "frequency": 11860,
-        "name": "APP"
+        "frequency": 12470,
+        "name": "RADAR"
       }
     ],
-    "elevation": 275,
+    "elevation": 639,
     "tower": true,
-    "name": "VRSAC",
+    "name": "Simferopol",
     "runways": [
       {
         "type": 100,
-        "width": 21.95,
+        "width": 59.13,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 45.0362149,
+        "lonStart": 33.96795444,
+        "latEnd": 45.06814582,
+        "lonEnd": 33.97863887,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 54.86,
         "surfaceType": null,
         "numberStart": "01R",
         "numberEnd": "19L",
-        "latStart": 45.142472,
-        "lonStart": 21.308556,
-        "latEnd": 45.151278,
-        "lonEnd": 21.311222,
+        "latStart": 45.01380881,
+        "lonStart": 33.98568488,
+        "latEnd": 45.03738861,
+        "lonEnd": 33.99121446,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
       },
       {
-        "type": 100,
-        "width": 70.1,
-        "surfaceType": null,
-        "numberStart": "01L",
-        "numberEnd": "19R",
-        "latStart": 45.144222,
-        "lonStart": 21.307667,
-        "latEnd": 45.151556,
-        "lonEnd": 21.309917,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 33.53,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 45.150833,
-        "lonStart": 21.306833,
-        "latEnd": 45.146833,
-        "lonEnd": 21.30875,
-        "length": 0,
-        "surfacetype": 3
+        "type": 102,
+        "width": 45.11,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 45.02362534,
+        "lonStart": 33.99606592,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 46.94
       }
     ],
-    "id": 26143
+    "id": 23523
   }
 ]

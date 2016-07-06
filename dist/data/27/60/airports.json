@@ -1,66 +1,44 @@
 [
   {
     "type": 1,
-    "icao": "VELR",
-    "lat": 27.2954945,
-    "lon": 60.696456,
+    "icao": "OIZI",
+    "lat": 27.2361165,
+    "lon": 60.720039,
     "communications": [
       {
         "type": 54,
-        "frequency": 12350,
-        "name": "TWR"
+        "frequency": 12190,
+        "name": "INFO"
+      },
+      {
+        "type": 54,
+        "frequency": 12270,
+        "name": "INFO"
+      },
+      {
+        "type": 54,
+        "frequency": 12170,
+        "name": "INFO"
       }
     ],
-    "elevation": 330,
-    "tower": true,
-    "name": "LILABARI",
+    "elevation": 2040,
+    "tower": false,
+    "name": "IRAN SHAHR",
     "runways": [
       {
         "type": 100,
         "width": 45.72,
         "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 27.287908,
-        "lonStart": 94.089831,
-        "latEnd": 27.303081,
-        "lonEnd": 94.105467,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 27.246589,
+        "lonStart": 60.718167,
+        "latEnd": 27.225644,
+        "lonEnd": 60.721911,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 14520
-  },
-  {
-    "type": 1,
-    "icao": "VEZO",
-    "lat": 27.588282,
-    "lon": 60.7056165,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12270,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 5401,
-    "tower": true,
-    "name": "ZERO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 27.593756,
-        "lonStart": 93.828425,
-        "latEnd": 27.582808,
-        "lonEnd": 93.827694,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 27845
+    "id": 12341
   }
 ]

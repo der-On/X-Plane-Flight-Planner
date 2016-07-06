@@ -1,5 +1,126 @@
 [
   {
+    "type": 1,
+    "icao": "KTHP",
+    "lat": 43.663132000000004,
+    "lon": -108.209607225,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 4592,
+    "tower": false,
+    "name": "HOT SPRINGS CO THERMOPOLIS MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 43.6570564,
+        "lonStart": -108.21306885,
+        "latEnd": 43.6692076,
+        "lonEnd": -108.2061456,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11204
+  },
+  {
+    "type": 1,
+    "icao": "KRIW",
+    "lat": 43.0639844125,
+    "lon": -108.46030193749999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12142,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 5524,
+    "tower": false,
+    "name": "RIVERTON RGNL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 43.06955575,
+        "lonStart": -108.47257207,
+        "latEnd": 43.06027755,
+        "lonEnd": -108.44456262,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 43.05705246,
+        "lonStart": -108.46573868,
+        "latEnd": 43.06905189,
+        "lonEnd": -108.45833438,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20966
+  },
+  {
+    "type": 1,
+    "icao": "49U",
+    "lat": 43.251178602500005,
+    "lon": -108.12161554,
+    "communications": [],
+    "elevation": 4816,
+    "tower": false,
+    "name": "Shoshoni Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 26.95,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 43.2504992,
+        "lonStart": -108.13170308,
+        "latEnd": 43.24936237,
+        "lonEnd": -108.1131854,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 20.06,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 43.25527986,
+        "lonStart": -108.12512419,
+        "latEnd": 43.24957298,
+        "lonEnd": -108.11644949,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 23456
+  },
+  {
     "type": 17,
     "icao": "WY24",
     "lat": 43.03551472,

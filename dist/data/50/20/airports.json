@@ -1,91 +1,156 @@
 [
   {
     "type": 1,
-    "icao": "EBLG",
-    "lat": 50.63896711499999,
-    "lon": 20.50805721,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12625,
-        "name": "ATIS"
-      },
-      {
-        "type": 52,
-        "frequency": 12180,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 53,
-        "frequency": 12192,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 13062,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12250,
-        "name": "APP"
-      }
-    ],
-    "elevation": 645,
+    "icao": "EPKA",
+    "lat": 50.897416844999995,
+    "lon": 20.732114875,
+    "communications": [],
+    "elevation": 1100,
     "tower": true,
-    "name": "Liege",
+    "name": "Kielce Maslow",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 30,
         "surfaceType": null,
-        "numberStart": "05R",
-        "numberEnd": "23L",
-        "latStart": 50.62708272,
-        "lonStart": 5.42795428,
-        "latEnd": 50.64799528,
-        "lonEnd": 5.46092772,
+        "numberStart": "11R",
+        "numberEnd": "29L",
+        "latStart": 50.89857908,
+        "lonStart": 20.72377705,
+        "latEnd": 50.89503059,
+        "lonEnd": 20.73896949,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 45.11,
+        "width": 253.38,
         "surfaceType": null,
-        "numberStart": "05L",
-        "numberEnd": "23R",
-        "latStart": 50.63127632,
-        "lonStart": 5.43013023,
-        "latEnd": 50.64612768,
-        "lonEnd": 5.45354739,
+        "numberStart": "11L",
+        "numberEnd": "29R",
+        "latStart": 50.89936809,
+        "lonStart": 20.72705705,
+        "latEnd": 50.89668962,
+        "lonEnd": 20.73865591,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
+      }
+    ],
+    "id": 13846
+  },
+  {
+    "type": 1,
+    "icao": "EPKL",
+    "lat": 50.899369,
+    "lon": 20.12707994,
+    "communications": [],
+    "elevation": 819,
+    "tower": false,
+    "name": "Krasocin",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 50.90214521,
+        "lonStart": 20.12160782,
+        "latEnd": 50.89659279,
+        "lonEnd": 20.13255206,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14119
+  },
+  {
+    "type": 1,
+    "icao": "EPPC",
+    "lat": 50.5175237775,
+    "lon": 20.5162694625,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12260,
+        "name": "Radio"
+      }
+    ],
+    "elevation": 610,
+    "tower": true,
+    "name": "Pinczow",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 50.51919176,
+        "lonStart": 20.51106998,
+        "latEnd": 50.51652979,
+        "lonEnd": 20.52004863,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 50.51913692,
+        "lonStart": 20.51458343,
+        "latEnd": 50.51523664,
+        "lonEnd": 20.51937581,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20136
+  },
+  {
+    "type": 1,
+    "icao": "EPKP",
+    "lat": 50.08574257666667,
+    "lon": 20.202992863333332,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12240,
+        "name": "POBIEDNIK RADIO"
+      }
+    ],
+    "elevation": 648,
+    "tower": true,
+    "name": "Pobiednik Wielki",
+    "runways": [
+      {
+        "type": 100,
+        "width": 38.93,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 50.0861039,
+        "lonStart": 20.20794676,
+        "latEnd": 50.08659657,
+        "lonEnd": 20.19696624,
+        "length": 0,
+        "surfacetype": 3
       },
       {
         "type": 102,
-        "width": 29.87,
+        "width": 35.2,
         "surfaceType": 2,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 50.63931674,
-        "lonStart": 5.45197753,
+        "latStart": 50.08452726,
+        "lonStart": 20.20406559,
         "latEnd": null,
         "lonEnd": null,
-        "length": 29.87
-      },
-      {
-        "type": 102,
-        "width": 29.87,
-        "surfaceType": 2,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 50.64200395,
-        "lonStart": 5.44415826,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 29.87
+        "length": 32.9
       }
     ],
-    "id": 15255
+    "id": 20286
   }
 ]

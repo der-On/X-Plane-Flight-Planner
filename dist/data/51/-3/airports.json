@@ -1,65 +1,491 @@
 [
   {
     "type": 1,
-    "icao": "CYBX",
-    "lat": 51.4421065,
-    "lon": -2.8716459999999984,
+    "icao": "XBAD",
+    "lat": 51.548667429999995,
+    "lon": -2.302637915,
     "communications": [],
-    "elevation": 121,
+    "elevation": 495,
     "tower": false,
-    "name": "LOURDES DE BLANC SABLON",
+    "name": "Badminton",
     "runways": [
       {
         "type": 100,
-        "width": 45.72,
+        "width": 27.13,
         "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 51.436644,
-        "lonStart": -57.190861,
-        "latEnd": 51.447569,
-        "lonEnd": -57.181761,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 51.54672307,
+        "lonStart": -2.3117955,
+        "latEnd": 51.55061179,
+        "lonEnd": -2.29348033,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 14640
+    "id": 2057
   },
   {
     "type": 1,
-    "icao": "CYAY",
-    "lat": 51.3919,
-    "lon": -2.3494530000000005,
+    "icao": "EGTG",
+    "lat": 51.5194266,
+    "lon": -2.5903631899999997,
     "communications": [
       {
-        "type": 50,
-        "frequency": 11865,
-        "name": "AWOS1"
+        "type": 54,
+        "frequency": 13235,
+        "name": "Filton Tower"
       },
       {
-        "type": 51,
-        "frequency": 12230,
-        "name": "CTAF"
+        "type": 55,
+        "frequency": 12272,
+        "name": "Filton Approach"
+      },
+      {
+        "type": 55,
+        "frequency": 12795,
+        "name": "Filton Director"
       }
     ],
-    "elevation": 108,
-    "tower": false,
-    "name": "ST ANTHONY",
+    "elevation": 225,
+    "tower": true,
+    "name": "Bristol Filton",
     "runways": [
       {
         "type": 100,
-        "width": 30.48,
+        "width": 91.14,
         "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 51.390931,
-        "lonStart": -56.091775,
-        "latEnd": 51.392869,
-        "lonEnd": -56.074519,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 51.51937087,
+        "lonStart": -2.60792771,
+        "latEnd": 51.51948233,
+        "lonEnd": -2.57279867,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 3213
+  },
+  {
+    "type": 1,
+    "icao": "EGGD",
+    "lat": 51.38265771499999,
+    "lon": -2.71891769,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12602,
+        "name": "EGGD ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 13385,
+        "name": "BRISTOL TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12855,
+        "name": "BRISTOL APP"
+      },
+      {
+        "type": 55,
+        "frequency": 13607,
+        "name": "BRISTOL APP"
+      }
+    ],
+    "elevation": 622,
+    "tower": true,
+    "name": "Bristol International",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 51.38209016,
+        "lonStart": -2.73350061,
+        "latEnd": 51.38322527,
+        "lonEnd": -2.70433477,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 22452
+    "id": 3214
+  },
+  {
+    "type": 1,
+    "icao": "EG21",
+    "lat": 51.341407265,
+    "lon": -2.523642825,
+    "communications": [],
+    "elevation": 600,
+    "tower": false,
+    "name": "Clutton Hill Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 25.91,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 51.34043543,
+        "lonStart": -2.52685097,
+        "latEnd": 51.3423791,
+        "lonEnd": -2.52043468,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5124
+  },
+  {
+    "type": 1,
+    "icao": "EG43",
+    "lat": 51.460559724999996,
+    "lon": -2.301482945,
+    "communications": [],
+    "elevation": 600,
+    "tower": false,
+    "name": "Garston Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 51.4599437,
+        "lonStart": -2.30721931,
+        "latEnd": 51.46117575,
+        "lonEnd": -2.29574658,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10332
+  },
+  {
+    "type": 1,
+    "icao": "EGBJ",
+    "lat": 51.892883205,
+    "lon": -2.16501055,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12747,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 12290,
+        "name": "Gloucester TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12097,
+        "name": "RADAR"
+      },
+      {
+        "type": 55,
+        "frequency": 12855,
+        "name": "Gloucester APP"
+      }
+    ],
+    "elevation": 101,
+    "tower": true,
+    "name": "Gloucester",
+    "runways": [
+      {
+        "type": 100,
+        "width": 36.88,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 51.89341911,
+        "lonStart": -2.17733823,
+        "latEnd": 51.89480617,
+        "lonEnd": -2.15687707,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 34.14,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 51.88860596,
+        "lonStart": -2.16813373,
+        "latEnd": 51.8958674,
+        "lonEnd": -2.16003037,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 51.896775,
+        "lonStart": -2.166272,
+        "latEnd": 51.889636,
+        "lonEnd": -2.165042,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 18.9,
+        "surfaceType": null,
+        "numberStart": "04R",
+        "numberEnd": "22L",
+        "latStart": 51.890853,
+        "lonStart": -2.164458,
+        "latEnd": 51.893103,
+        "lonEnd": -2.161933,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10544
+  },
+  {
+    "type": 1,
+    "icao": "EGDV",
+    "lat": 51.52864474,
+    "lon": -2.1403561775,
+    "communications": [],
+    "elevation": 328,
+    "tower": true,
+    "name": "Hullavington",
+    "runways": [
+      {
+        "type": 100,
+        "width": 42.06,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 51.52583148,
+        "lonStart": -2.14302566,
+        "latEnd": 51.5333,
+        "lonEnd": -2.13167301,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 43.89,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 51.53053148,
+        "lonStart": -2.14902705,
+        "latEnd": 51.524916,
+        "lonEnd": -2.13769899,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12179
+  },
+  {
+    "type": 1,
+    "icao": "EGBP",
+    "lat": 51.6684904975,
+    "lon": -2.055541325,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11890,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 433,
+    "tower": true,
+    "name": "Kemble",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 51.666582,
+        "lonStart": -2.071081,
+        "latEnd": 51.669594,
+        "lonEnd": -2.042431,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 18.9,
+        "surfaceType": null,
+        "numberStart": "08R",
+        "numberEnd": "26L",
+        "latStart": 51.66856371,
+        "lonStart": -2.05762917,
+        "latEnd": 51.66922228,
+        "lonEnd": -2.05102413,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13733
+  },
+  {
+    "type": 1,
+    "icao": "EGTW",
+    "lat": 51.63194561,
+    "lon": -2.013353215,
+    "communications": [],
+    "elevation": 250,
+    "tower": false,
+    "name": "Oaksey Park",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.08,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 51.63537045,
+        "lonStart": -2.00904698,
+        "latEnd": 51.62852077,
+        "lonEnd": -2.01765945,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18783
+  },
+  {
+    "type": 1,
+    "icao": "EGUO",
+    "lat": 51.4416698475,
+    "lon": -2.2828934425,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12007,
+        "name": "Colerne Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12007,
+        "name": "Colerne Approach"
+      }
+    ],
+    "elevation": 593,
+    "tower": true,
+    "name": "RAF Colerne",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 51.43762146,
+        "lonStart": -2.29104532,
+        "latEnd": 51.44439648,
+        "lonEnd": -2.26774325,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 43.89,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 51.43737738,
+        "lonStart": -2.28709373,
+        "latEnd": 51.44728407,
+        "lonEnd": -2.28569147,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20764
+  },
+  {
+    "type": 1,
+    "icao": "EGDY",
+    "lat": 51.008601445000004,
+    "lon": -2.64161917,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12735,
+        "name": "RADAR"
+      }
+    ],
+    "elevation": 75,
+    "tower": true,
+    "name": "RNAS Yeovilton",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 51.00703231,
+        "lonStart": -2.66172162,
+        "latEnd": 51.00953809,
+        "lonEnd": -2.62899867,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 51.00365113,
+        "lonStart": -2.64417617,
+        "latEnd": 51.01418425,
+        "lonEnd": -2.63158022,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 20977
+  },
+  {
+    "type": 17,
+    "icao": "EGBC",
+    "lat": 51.92560442,
+    "lon": -2.0544150500000002,
+    "communications": [],
+    "elevation": 194,
+    "tower": false,
+    "name": "[H] Cheltenham Racecourse [H]",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 51.92629692,
+        "lonStart": -2.05566305,
+        "latEnd": 51.92491192,
+        "lonEnd": -2.05316705,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 28901
   }
 ]

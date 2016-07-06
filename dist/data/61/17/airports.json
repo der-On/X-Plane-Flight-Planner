@@ -1,5 +1,82 @@
 [
   {
+    "type": 1,
+    "icao": "ESNH",
+    "lat": 61.76807575,
+    "lon": 17.08073207,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12320,
+        "name": "RDO"
+      }
+    ],
+    "elevation": 95,
+    "tower": true,
+    "name": "Hudiksvall",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 61.7715705,
+        "lonStart": 17.07062714,
+        "latEnd": 61.764581,
+        "lonEnd": 17.090837,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12150
+  },
+  {
+    "type": 1,
+    "icao": "ESNY",
+    "lat": 61.261461999999995,
+    "lon": 17.098356515,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13535,
+        "name": "AFIS"
+      }
+    ],
+    "elevation": 87,
+    "tower": true,
+    "name": "Soderhamn",
+    "runways": [
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 61.2686835,
+        "lonStart": 17.08095216,
+        "latEnd": 61.254261,
+        "lonEnd": 17.117129,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 17,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 61.2560405,
+        "lonStart": 17.0909189,
+        "latEnd": 61.266863,
+        "lonEnd": 17.104426,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 23798
+  },
+  {
     "type": 17,
     "icao": "ESHX",
     "lat": 61.73159,

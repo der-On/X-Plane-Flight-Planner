@@ -1,13 +1,39 @@
 [
   {
     "type": 1,
-    "icao": "SJNN",
-    "lat": -10.222222225,
-    "lon": -37.281057875,
+    "icao": "SNAU",
+    "lat": -10.9030561,
+    "lon": -37.0830574,
     "communications": [],
-    "elevation": 535,
+    "elevation": 22,
+    "tower": true,
+    "name": "Aeroclub",
+    "runways": [
+      {
+        "type": 100,
+        "width": 13.72,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -10.90100729,
+        "lonStart": -37.08698149,
+        "latEnd": -10.90510491,
+        "lonEnd": -37.07913331,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 621
+  },
+  {
+    "type": 1,
+    "icao": "SNLU",
+    "lat": -10.84222222,
+    "lon": -37.20388889,
+    "communications": [],
+    "elevation": 167,
     "tower": false,
-    "name": "Fazenda Botelho",
+    "name": "Fazenda Boa Luz",
     "runways": [
       {
         "type": 100,
@@ -15,15 +41,47 @@
         "surfaceType": null,
         "numberStart": "01",
         "numberEnd": "19",
-        "latStart": -10.22559549,
-        "lonStart": -64.34326679,
-        "latEnd": -10.21884896,
-        "lonEnd": -64.34339987,
+        "latStart": -10.8444053,
+        "lonStart": -37.20338368,
+        "latEnd": -10.84003914,
+        "lonEnd": -37.2043941,
         "length": 0,
         "surfacetype": 5
       }
     ],
-    "id": 8039
+    "id": 8009
+  },
+  {
+    "type": 1,
+    "icao": "SBAR",
+    "lat": -10.984,
+    "lon": -37.070333465000004,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 12030,
+        "name": "ARACAJU APP"
+      }
+    ],
+    "elevation": 22,
+    "tower": false,
+    "name": "SANTA MARIA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -10.98366661,
+        "lonStart": -37.08041171,
+        "latEnd": -10.98433339,
+        "lonEnd": -37.06025522,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22043
   },
   {
     "type": 17,

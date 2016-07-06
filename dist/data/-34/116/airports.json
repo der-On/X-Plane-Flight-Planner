@@ -1,280 +1,80 @@
 [
   {
     "type": 1,
-    "icao": "YSSY",
-    "lat": -33.94360402625001,
-    "lon": 116.47265086375,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12625,
-        "name": "YSSY ATIS"
-      },
-      {
-        "type": 52,
-        "frequency": 12650,
-        "name": "SYDNEY_GROUND CLD"
-      },
-      {
-        "type": 52,
-        "frequency": 13380,
-        "name": "SYDNEY CLD"
-      },
-      {
-        "type": 53,
-        "frequency": 12170,
-        "name": "SYDNEY GND"
-      },
-      {
-        "type": 53,
-        "frequency": 12650,
-        "name": "SYDNEY GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12050,
-        "name": "SYDNEY TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12470,
-        "name": "SYDNEY TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12440,
-        "name": "SYDNEY APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12530,
-        "name": "SYDNEY APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12610,
-        "name": "SYDNEY APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12830,
-        "name": "SYDNEY APP"
-      },
-      {
-        "type": 55,
-        "frequency": 13590,
-        "name": "SYDNEY APP"
-      },
-      {
-        "type": 55,
-        "frequency": 11945,
-        "name": "ILS_MONITOR_ONLY APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12455,
-        "name": "SYDNEY APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12580,
-        "name": "SYDNEY APP"
-      },
-      {
-        "type": 55,
-        "frequency": 13394,
-        "name": "ILS_MONITOR_ONLY APP"
-      },
-      {
-        "type": 55,
-        "frequency": 13380,
-        "name": "SYDNEY APP"
-      },
-      {
-        "type": 55,
-        "frequency": 13510,
-        "name": "SYDNEY APP"
-      },
-      {
-        "type": 56,
-        "frequency": 11840,
-        "name": "SYDNEY DEP"
-      },
-      {
-        "type": 56,
-        "frequency": 12300,
-        "name": "SYDNEY DEP"
-      },
-      {
-        "type": 56,
-        "frequency": 12969,
-        "name": "SYDNEY DEP"
-      }
-    ],
-    "elevation": 20,
-    "tower": true,
-    "name": "Sydney Kingsford Smith Intl",
+    "icao": "YBOP",
+    "lat": -33.896892785000006,
+    "lon": 116.44974110999999,
+    "communications": [],
+    "elevation": 819,
+    "tower": false,
+    "name": "BOYUP BROOK",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 49.99,
         "surfaceType": null,
-        "numberStart": "16R",
-        "numberEnd": "34L",
-        "latStart": -33.92935441,
-        "lonStart": 151.17158205,
-        "latEnd": -33.96426809,
-        "lonEnd": 151.1806354,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -33.89227857,
+        "lonStart": 116.44958922,
+        "latEnd": -33.901507,
+        "lonEnd": 116.449893,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.16,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": -33.94374835,
-        "lonStart": 151.1636284,
-        "latEnd": -33.93753443,
-        "lonEnd": 151.18995563,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "16L",
-        "numberEnd": "34R",
-        "latStart": -33.94961155,
-        "lonStart": 151.18831864,
-        "latEnd": -33.97110218,
-        "lonEnd": 151.19388829,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 23.3,
-        "surfaceType": 15,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -33.93901009,
-        "lonStart": 151.19089321,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.9
-      },
-      {
-        "type": 102,
-        "width": 14.5,
-        "surfaceType": 15,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": -33.93966956,
-        "lonStart": 151.19165876,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 14.5
-      },
-      {
-        "type": 102,
-        "width": 10.6,
-        "surfaceType": 15,
-        "numberStart": "H10",
-        "numberEnd": null,
-        "latStart": -33.94022809,
-        "lonStart": 151.19062416,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.6
-      },
-      {
-        "type": 102,
-        "width": 10.6,
-        "surfaceType": 15,
-        "numberStart": "H9",
-        "numberEnd": null,
-        "latStart": -33.94039264,
-        "lonStart": 151.19048807,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.6
-      },
-      {
-        "type": 102,
-        "width": 10.8,
-        "surfaceType": 15,
-        "numberStart": "H8",
-        "numberEnd": null,
-        "latStart": -33.94091061,
-        "lonStart": 151.19077847,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.8
-      },
-      {
-        "type": 102,
-        "width": 10.8,
-        "surfaceType": 15,
-        "numberStart": "H7",
-        "numberEnd": null,
-        "latStart": -33.94076282,
-        "lonStart": 151.19104593,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.8
-      },
-      {
-        "type": 102,
-        "width": 10.8,
-        "surfaceType": 15,
-        "numberStart": "H6",
-        "numberEnd": null,
-        "latStart": -33.94058133,
-        "lonStart": 151.19128741,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.8
-      },
-      {
-        "type": 102,
-        "width": 10.8,
-        "surfaceType": 15,
-        "numberStart": "H5",
-        "numberEnd": null,
-        "latStart": -33.94037907,
-        "lonStart": 151.19148617,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.8
-      },
-      {
-        "type": 102,
-        "width": 10.8,
-        "surfaceType": 15,
-        "numberStart": "H4",
-        "numberEnd": null,
-        "latStart": -33.94014119,
-        "lonStart": 151.19166342,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.8
-      },
-      {
-        "type": 102,
-        "width": 11.3,
-        "surfaceType": 15,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": -33.93997001,
-        "lonStart": 151.19186383,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11.7
+        "surfacetype": 3
       }
     ],
-    "id": 24499
+    "id": 1871
+  },
+  {
+    "type": 1,
+    "icao": "YCOI",
+    "lat": -33.359815409999996,
+    "lon": 116.202721955,
+    "communications": [],
+    "elevation": 778,
+    "tower": false,
+    "name": "Collie",
+    "runways": [
+      {
+        "type": 100,
+        "width": 31.09,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -33.35900459,
+        "lonStart": 116.1963688,
+        "latEnd": -33.36062623,
+        "lonEnd": 116.20907511,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 5186
+  },
+  {
+    "type": 1,
+    "icao": "YHLM",
+    "lat": -33.26463658,
+    "lon": 116.819175,
+    "communications": [],
+    "elevation": 847,
+    "tower": false,
+    "name": "Hillman Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 34.14,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -33.27043552,
+        "lonStart": 116.81565651,
+        "latEnd": -33.25883764,
+        "lonEnd": 116.82269349,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11852
   }
 ]

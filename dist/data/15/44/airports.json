@@ -1,44 +1,64 @@
 [
   {
     "type": 1,
-    "icao": "VAGO",
-    "lat": 15.380825999999999,
-    "lon": 44.6004765,
+    "icao": "OYSN",
+    "lat": 15.476179,
+    "lon": 44.219708215,
     "communications": [
       {
+        "type": 54,
+        "frequency": 11890,
+        "name": "SANAA TWR"
+      },
+      {
         "type": 50,
-        "frequency": 12660,
-        "name": "VAGO_ATIS"
+        "frequency": 12840,
+        "name": "SANAA ATIS"
       },
       {
-        "type": 54,
+        "type": 51,
+        "frequency": 12920,
+        "name": "SANAA UNICOM"
+      },
+      {
+        "type": 52,
         "frequency": 11810,
-        "name": "VAGO_TWR"
+        "name": "SANAA CLNC DEL"
       },
       {
-        "type": 54,
-        "frequency": 11970,
-        "name": "VAGO_APP"
+        "type": 53,
+        "frequency": 12160,
+        "name": "SANAA GND"
+      },
+      {
+        "type": 56,
+        "frequency": 12570,
+        "name": "SANAA DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12530,
+        "name": "SANAA APP"
       }
     ],
-    "elevation": 183,
+    "elevation": 7211,
     "tower": true,
-    "name": "Dabolim",
+    "name": "Sanaa Intl",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 45.5,
         "surfaceType": null,
-        "numberStart": "8",
-        "numberEnd": "26",
-        "latStart": 15.377796,
-        "lonStart": 73.817097,
-        "latEnd": 15.383856,
-        "lonEnd": 73.848373,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 15.49081411,
+        "lonStart": 44.21962759,
+        "latEnd": 15.46154389,
+        "lonEnd": 44.21978884,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 5925
+    "id": 22828
   }
 ]

@@ -1,60 +1,39 @@
 [
   {
     "type": 1,
-    "icao": "OPPC",
-    "lat": 33.902778,
-    "lon": 51.983461855,
+    "icao": "OIFK",
+    "lat": 33.8953315,
+    "lon": 51.577043,
     "communications": [
       {
         "type": 54,
-        "frequency": 12220,
+        "frequency": 12177,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11817,
         "name": "TWR"
       }
     ],
-    "elevation": 5799,
+    "elevation": 3465,
     "tower": true,
-    "name": "Parachinar",
+    "name": "KASHAN",
     "runways": [
       {
         "type": 100,
-        "width": 23.16,
+        "width": 44.2,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 33.90799969,
-        "lonStart": 70.0693674,
-        "latEnd": 33.89755631,
-        "lonEnd": 70.0734101,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 33.899619,
+        "lonStart": 51.563411,
+        "latEnd": 33.891044,
+        "lonEnd": 51.590675,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 19744
-  },
-  {
-    "type": 1,
-    "icao": "OP23",
-    "lat": 33.387635,
-    "lon": 51.9897555,
-    "communications": [],
-    "elevation": 2650,
-    "tower": false,
-    "name": "THAL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 33.381842,
-        "lonStart": 70.586083,
-        "latEnd": 33.393428,
-        "lonEnd": 70.591447,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 24675
+    "id": 13255
   }
 ]

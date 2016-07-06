@@ -1,39 +1,54 @@
 [
   {
     "type": 1,
-    "icao": "DAUI",
-    "lat": 27.251021,
-    "lon": 14.879902999999999,
-    "communications": [
+    "icao": "HL73",
+    "lat": 27.6531875,
+    "lon": 14.2718445,
+    "communications": [],
+    "elevation": 1481,
+    "tower": false,
+    "name": "BRACH",
+    "runways": [
       {
-        "type": 54,
-        "frequency": 11810,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 11970,
-        "name": "TWR"
+        "type": 100,
+        "width": 42.67,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 27.663678,
+        "lonStart": 14.257908,
+        "latEnd": 27.642697,
+        "lonEnd": 14.285781,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "elevation": 896,
-    "tower": true,
-    "name": "IN SALAH",
+    "id": 1874
+  },
+  {
+    "type": 1,
+    "icao": "HL66",
+    "lat": 27.240065,
+    "lon": 14.6562545,
+    "communications": [],
+    "elevation": 1325,
+    "tower": false,
+    "name": "TAMINHINT",
     "runways": [
       {
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 27.242514,
-        "lonStart": 2.500278,
-        "latEnd": 27.259528,
-        "lonEnd": 2.523758,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 27.250336,
+        "lonStart": 14.643542,
+        "latEnd": 27.229794,
+        "lonEnd": 14.668967,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 12293
+    "id": 24570
   }
 ]

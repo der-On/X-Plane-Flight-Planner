@@ -1,5 +1,612 @@
 [
   {
+    "type": 1,
+    "icao": "YCAW",
+    "lat": -34.83112218,
+    "lon": 150.578829225,
+    "communications": [],
+    "elevation": 164,
+    "tower": false,
+    "name": "CAMBEWARRA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 42.06,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -34.82898336,
+        "lonStart": 150.57605449,
+        "latEnd": -34.833261,
+        "lonEnd": 150.58160396,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3566
+  },
+  {
+    "type": 1,
+    "icao": "YSCN",
+    "lat": -34.03979369333334,
+    "lon": 150.68648844166668,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12510,
+        "name": "YSCN ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12010,
+        "name": "CAMDEN MULT"
+      },
+      {
+        "type": 51,
+        "frequency": 12060,
+        "name": "ACTIVATE LIGHTS ONLY MULT"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "CAMDEN GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12010,
+        "name": "CAMDEN TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12455,
+        "name": "SYDNEY APP"
+      }
+    ],
+    "elevation": 229,
+    "tower": true,
+    "name": "Camden",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.22,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -34.04061756,
+        "lonStart": 150.68059552,
+        "latEnd": -34.03500485,
+        "lonEnd": 150.69494654,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 91,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -34.04140417,
+        "lonStart": 150.68141641,
+        "latEnd": -34.04392357,
+        "lonEnd": 150.68932272,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 20,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -34.03656678,
+        "lonStart": 150.6872679,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20
+      },
+      {
+        "type": 102,
+        "width": 30,
+        "surfaceType": 3,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": -34.04124523,
+        "lonStart": 150.68538156,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30
+      }
+    ],
+    "id": 4380
+  },
+  {
+    "type": 1,
+    "icao": "AU71",
+    "lat": -34.640380285,
+    "lon": 150.65717768,
+    "communications": [],
+    "elevation": 1888,
+    "tower": false,
+    "name": "Cloonty (PVT)",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -34.64115304,
+        "lonStart": 150.656399,
+        "latEnd": -34.63960753,
+        "lonEnd": 150.65795636,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5108
+  },
+  {
+    "type": 1,
+    "icao": "YMIG",
+    "lat": -34.450265655,
+    "lon": 150.497381595,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12120,
+        "name": "MELBOURNE CENTRE MULT"
+      },
+      {
+        "type": 51,
+        "frequency": 12670,
+        "name": "MITTAGONG CTAF"
+      }
+    ],
+    "elevation": 1889,
+    "tower": false,
+    "name": "Mittagong",
+    "runways": [
+      {
+        "type": 100,
+        "width": 43.89,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -34.45172903,
+        "lonStart": 150.49098254,
+        "latEnd": -34.44880228,
+        "lonEnd": 150.50378065,
+        "length": 0,
+        "surfacetype": 15
+      }
+    ],
+    "id": 17325
+  },
+  {
+    "type": 1,
+    "icao": "YSNW",
+    "lat": -34.945161312500005,
+    "lon": 150.54517650000003,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12220,
+        "name": "ACTIVATE LIGHTS ONLY MULT"
+      },
+      {
+        "type": 51,
+        "frequency": 11885,
+        "name": "MBZ MULT"
+      },
+      {
+        "type": 51,
+        "frequency": 12120,
+        "name": "MELBOURNE CENTRE MULT"
+      },
+      {
+        "type": 52,
+        "frequency": 12835,
+        "name": "NOWRA CLD"
+      },
+      {
+        "type": 52,
+        "frequency": 12175,
+        "name": "NOWRA GROUND CLD"
+      },
+      {
+        "type": 53,
+        "frequency": 13585,
+        "name": "NOWRA GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11885,
+        "name": "NOWRA TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12350,
+        "name": "NOWRA APP"
+      }
+    ],
+    "elevation": 400,
+    "tower": true,
+    "name": "Nowra Military",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -34.947879,
+        "lonStart": 150.526517,
+        "latEnd": -34.949265,
+        "lonEnd": 150.548499,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -34.949004,
+        "lonStart": 150.536279,
+        "latEnd": -34.935518,
+        "lonEnd": 150.552305,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 29.87,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -34.944318,
+        "lonStart": 150.546264,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.87
+      },
+      {
+        "type": 102,
+        "width": 29.87,
+        "surfaceType": 2,
+        "numberStart": "H10",
+        "numberEnd": null,
+        "latStart": -34.945665,
+        "lonStart": 150.547594,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.87
+      },
+      {
+        "type": 102,
+        "width": 29.87,
+        "surfaceType": 2,
+        "numberStart": "H11",
+        "numberEnd": null,
+        "latStart": -34.946099,
+        "lonStart": 150.547844,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.87
+      },
+      {
+        "type": 102,
+        "width": 29.87,
+        "surfaceType": 2,
+        "numberStart": "H12",
+        "numberEnd": null,
+        "latStart": -34.942726,
+        "lonStart": 150.546235,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.87
+      },
+      {
+        "type": 102,
+        "width": 29.87,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": -34.944863,
+        "lonStart": 150.546585,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.87
+      },
+      {
+        "type": 102,
+        "width": 29.87,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": -34.945389,
+        "lonStart": 150.546898,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.87
+      },
+      {
+        "type": 102,
+        "width": 29.87,
+        "surfaceType": 2,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": -34.94583,
+        "lonStart": 150.547172,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.87
+      },
+      {
+        "type": 102,
+        "width": 29.87,
+        "surfaceType": 2,
+        "numberStart": "H5",
+        "numberEnd": null,
+        "latStart": -34.946262,
+        "lonStart": 150.547428,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.87
+      },
+      {
+        "type": 102,
+        "width": 29.87,
+        "surfaceType": 2,
+        "numberStart": "H6",
+        "numberEnd": null,
+        "latStart": -34.944146,
+        "lonStart": 150.546704,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.87
+      },
+      {
+        "type": 102,
+        "width": 29.87,
+        "surfaceType": 2,
+        "numberStart": "H7",
+        "numberEnd": null,
+        "latStart": -34.944695,
+        "lonStart": 150.547025,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.87
+      },
+      {
+        "type": 102,
+        "width": 34.14,
+        "surfaceType": 2,
+        "numberStart": "H8",
+        "numberEnd": null,
+        "latStart": -34.945707,
+        "lonStart": 150.542141,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 34.14
+      },
+      {
+        "type": 102,
+        "width": 29.87,
+        "surfaceType": 2,
+        "numberStart": "H9",
+        "numberEnd": null,
+        "latStart": -34.945215,
+        "lonStart": 150.547334,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.87
+      }
+    ],
+    "id": 18533
+  },
+  {
+    "type": 1,
+    "icao": "YRBN",
+    "lat": -34.645076545,
+    "lon": 150.642092585,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12730,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1820,
+    "tower": false,
+    "name": "Robertson",
+    "runways": [
+      {
+        "type": 100,
+        "width": 50.9,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -34.64616721,
+        "lonStart": 150.6393006,
+        "latEnd": -34.64398588,
+        "lonEnd": 150.64488457,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21592
+  },
+  {
+    "type": 1,
+    "icao": "YOAS",
+    "lat": -34.08402953,
+    "lon": 150.559770185,
+    "communications": [],
+    "elevation": 879,
+    "tower": false,
+    "name": "The Oaks",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -34.08831302,
+        "lonStart": 150.55875792,
+        "latEnd": -34.07974604,
+        "lonEnd": 150.56078245,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25243
+  },
+  {
+    "type": 1,
+    "icao": "YWBN",
+    "lat": -34.18140009,
+    "lon": 150.808888465,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12255,
+        "name": "WEDDERBURN TRAFFIC CTAF"
+      },
+      {
+        "type": 54,
+        "frequency": 12455,
+        "name": "SYDNEY RADAR CNTR"
+      }
+    ],
+    "elevation": 875,
+    "tower": true,
+    "name": "Wedderburn",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -34.17700609,
+        "lonStart": 150.80895336,
+        "latEnd": -34.18579409,
+        "lonEnd": 150.80882357,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 27026
+  },
+  {
+    "type": 1,
+    "icao": "YWIO",
+    "lat": -34.220115362499996,
+    "lon": 150.6703706125,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12455,
+        "name": "WILTON TRAFFIC CTAF"
+      },
+      {
+        "type": 54,
+        "frequency": 12455,
+        "name": "SYDNEY RADAR CNTR"
+      }
+    ],
+    "elevation": 609,
+    "tower": true,
+    "name": "Wilton",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -34.21646036,
+        "lonStart": 150.66827702,
+        "latEnd": -34.22251709,
+        "lonEnd": 150.67236943,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -34.224375,
+        "lonStart": 150.668086,
+        "latEnd": -34.217109,
+        "lonEnd": 150.67275,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 27386
+  },
+  {
+    "type": 1,
+    "icao": "YWOL",
+    "lat": -34.5611495175,
+    "lon": 150.78814401,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12130,
+        "name": "ACTIVATE LIGHTS ONLY MULT"
+      },
+      {
+        "type": 51,
+        "frequency": 12730,
+        "name": "WOLLONGONG MULT"
+      },
+      {
+        "type": 55,
+        "frequency": 12455,
+        "name": "SYDNEY APP"
+      }
+    ],
+    "elevation": 34,
+    "tower": false,
+    "name": "Wollongong",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -34.55150777,
+        "lonStart": 150.78537683,
+        "latEnd": -34.56762038,
+        "lonEnd": 150.78903831,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -34.56229034,
+        "lonStart": 150.78172715,
+        "latEnd": -34.56317958,
+        "lonEnd": 150.79643375,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 27506
+  },
+  {
     "type": 17,
     "icao": "YKAM",
     "lat": -34.66885149,

@@ -1,52 +1,71 @@
 [
   {
     "type": 1,
-    "icao": "DRRN",
-    "lat": 13.482966999999999,
-    "lon": 7.82693625,
+    "icao": "DN57",
+    "lat": 13.0074045,
+    "lon": 7.6577915,
     "communications": [
       {
         "type": 54,
-        "frequency": 11970,
-        "name": "NIAMEY TWR"
+        "frequency": 13000,
+        "name": "TWR"
       },
       {
         "type": 54,
-        "frequency": 11810,
-        "name": "NIAMEY TWR"
+        "frequency": 12500,
+        "name": "TWR"
       }
     ],
-    "elevation": 732,
+    "elevation": 1660,
     "tower": true,
-    "name": "DIORI HAMANI",
+    "name": "KATSINA",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 29.87,
         "surfaceType": null,
-        "numberStart": "09R",
-        "numberEnd": "27L",
-        "latStart": 13.480903,
-        "lonStart": 2.169744,
-        "latEnd": 13.482192,
-        "lonEnd": 2.197481,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 12.996406,
+        "lonStart": 7.649458,
+        "latEnd": 13.018403,
+        "lonEnd": 7.666125,
         "length": 0,
         "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 39.93,
-        "surfaceType": null,
-        "numberStart": "09L",
-        "numberEnd": "27R",
-        "latStart": 13.484031,
-        "lonStart": 2.171067,
-        "latEnd": 13.484742,
-        "lonEnd": 2.186056,
-        "length": 0,
-        "surfacetype": 5
       }
     ],
-    "id": 5812
+    "id": 13269
+  },
+  {
+    "type": 1,
+    "icao": "DRRM",
+    "lat": 13.502529,
+    "lon": 7.1267525,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "AFIS"
+      }
+    ],
+    "elevation": 1240,
+    "tower": false,
+    "name": "MARADI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 13.50165,
+        "lonStart": 7.118236,
+        "latEnd": 13.503408,
+        "lonEnd": 7.135269,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 15801
   }
 ]

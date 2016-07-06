@@ -1,91 +1,28 @@
 [
   {
     "type": 1,
-    "icao": "RORS",
-    "lat": 24.826901999999997,
-    "lon": 74.9775585,
-    "communications": [
-      {
-        "type": 53,
-        "frequency": 12170,
-        "name": "Shimojijima Ground"
-      },
-      {
-        "type": 54,
-        "frequency": 11830,
-        "name": "Shimojijima Tower"
-      },
-      {
-        "type": 54,
-        "frequency": 12620,
-        "name": "Shimojijima Tower"
-      },
-      {
-        "type": 55,
-        "frequency": 12030,
-        "name": "Shimojijima Approach"
-      },
-      {
-        "type": 55,
-        "frequency": 12120,
-        "name": "Shimojijima Approach"
-      },
-      {
-        "type": 56,
-        "frequency": 12500,
-        "name": "Shimojijima Departure"
-      }
-    ],
-    "elevation": 0,
-    "tower": true,
-    "name": "Shimojijima",
+    "icao": "VA1N",
+    "lat": 24.430779,
+    "lon": 74.867836,
+    "communications": [],
+    "elevation": 1617,
+    "tower": false,
+    "name": "NIMACH",
     "runways": [
       {
         "type": 100,
-        "width": 60.96,
+        "width": 28.96,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 24.84004,
-        "lonStart": 125.141353,
-        "latEnd": 24.813764,
-        "lonEnd": 125.148539,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 24.434561,
+        "lonStart": 74.864353,
+        "latEnd": 24.426997,
+        "lonEnd": 74.871319,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 23422
-  },
-  {
-    "type": 1,
-    "icao": "RORT",
-    "lat": 24.653889,
-    "lon": 74.660833,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11860,
-        "name": "REMOTE"
-      }
-    ],
-    "elevation": 36,
-    "tower": true,
-    "name": "TARAMA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 24.660556,
-        "lonStart": 124.674444,
-        "latEnd": 24.647222,
-        "lonEnd": 124.676389,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 24594
+    "id": 17953
   }
 ]

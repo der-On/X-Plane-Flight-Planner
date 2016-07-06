@@ -1,0 +1,75 @@
+[
+  {
+    "type": 1,
+    "icao": "LPFR",
+    "lat": 37.015336500000004,
+    "lon": -7.9723275000000005,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12420,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 11857,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11820,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11940,
+        "name": "APP"
+      }
+    ],
+    "elevation": 24,
+    "tower": true,
+    "name": "Faro",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 37.017292,
+        "lonStart": -7.986094,
+        "latEnd": 37.013381,
+        "lonEnd": -7.958561,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 7818
+  },
+  {
+    "type": 1,
+    "icao": "LPPV",
+    "lat": 37.1833344,
+    "lon": -7.466666699999999,
+    "communications": [],
+    "elevation": 10,
+    "tower": false,
+    "name": "Praia Verde Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 23.16,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 37.18485048,
+        "lonStart": -7.47032221,
+        "latEnd": 37.18181832,
+        "lonEnd": -7.46301119,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 20492
+  }
+]

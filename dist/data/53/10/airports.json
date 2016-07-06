@@ -1,5 +1,189 @@
 [
   {
+    "type": 1,
+    "icao": "EDHM",
+    "lat": 53.914492556666666,
+    "lon": 10.036057423333334,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11812,
+        "name": "Hartenholm Info"
+      }
+    ],
+    "elevation": 106,
+    "tower": true,
+    "name": "Hartenholm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 53.91241475,
+        "lonStart": 10.03050139,
+        "latEnd": 53.916825,
+        "lonEnd": 10.039348,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 10,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 53.91423792,
+        "lonStart": 10.03832288,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10
+      }
+    ],
+    "id": 11499
+  },
+  {
+    "type": 1,
+    "icao": "EDHL",
+    "lat": 53.805252,
+    "lon": 10.718916,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11992,
+        "name": "Luebeck ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12177,
+        "name": "Luebeck ground"
+      },
+      {
+        "type": 54,
+        "frequency": 12870,
+        "name": "Luebeck tower"
+      },
+      {
+        "type": 56,
+        "frequency": 12510,
+        "name": "BREMEN INFO"
+      },
+      {
+        "type": 55,
+        "frequency": 12422,
+        "name": "BREMEN RADAR"
+      }
+    ],
+    "elevation": 53,
+    "tower": true,
+    "name": "Luebeck Blankensee",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 53.802753,
+        "lonStart": 10.705921,
+        "latEnd": 53.807751,
+        "lonEnd": 10.731911,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 15587
+  },
+  {
+    "type": 1,
+    "icao": "EDHG",
+    "lat": 53.248868834999996,
+    "lon": 10.45589484,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12217,
+        "name": "Lueneburg Info"
+      }
+    ],
+    "elevation": 160,
+    "tower": true,
+    "name": "Lueneburg",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 53.247279,
+        "lonStart": 10.45235,
+        "latEnd": 53.249504,
+        "lonEnd": 10.465341,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 50,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 53.24934907,
+        "lonStart": 10.45294399,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 81.6
+      },
+      {
+        "type": 102,
+        "width": 16.5,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 53.24934327,
+        "lonStart": 10.45294437,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.1
+      }
+    ],
+    "id": 15589
+  },
+  {
+    "type": 1,
+    "icao": "EDHW",
+    "lat": 53.9694985,
+    "lon": 10.221675000000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12105,
+        "name": "Wahlstedt Info"
+      }
+    ],
+    "elevation": 127,
+    "tower": true,
+    "name": "Wahlstedt",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 53.970546,
+        "lonStart": 10.217565,
+        "latEnd": 53.968451,
+        "lonEnd": 10.225785,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 26803
+  },
+  {
     "type": 17,
     "icao": "XED2E",
     "lat": 53.8480238,

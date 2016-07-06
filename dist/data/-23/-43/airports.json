@@ -1,55 +1,212 @@
 [
   {
     "type": 1,
-    "icao": "SA87",
-    "lat": -22.118611115,
-    "lon": -42.706734525,
+    "icao": "SDCU",
+    "lat": -22.55416667,
+    "lon": -42.114999995000005,
     "communications": [],
-    "elevation": 160,
+    "elevation": 18,
     "tower": false,
-    "name": "SAN MARTIN FINCA LA FRONTERA",
+    "name": "Brig. Francisco Pinto de Moura",
     "runways": [
       {
         "type": 100,
         "width": 17.98,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": -22.11430874,
-        "lonStart": -63.29055556,
-        "latEnd": -22.12291349,
-        "lonEnd": -63.29055556,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 21992
-  },
-  {
-    "type": 1,
-    "icao": "SA22",
-    "lat": -22.285739999999997,
-    "lon": -42.5023985,
-    "communications": [],
-    "elevation": 918,
-    "tower": false,
-    "name": "SANTA VICTORIA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": -22.280786,
-        "lonStart": -62.714103,
-        "latEnd": -22.290694,
-        "lonEnd": -62.713353,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -22.55441596,
+        "lonStart": -42.1205976,
+        "latEnd": -22.55391738,
+        "lonEnd": -42.10940239,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 22057
+    "id": 3195
+  },
+  {
+    "type": 1,
+    "icao": "SBCB",
+    "lat": -22.921476509999998,
+    "lon": -42.071765465,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13215,
+        "name": "RDO"
+      }
+    ],
+    "elevation": 14,
+    "tower": false,
+    "name": "CABO FRIO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -22.92390143,
+        "lonStart": -42.08394183,
+        "latEnd": -22.91905159,
+        "lonEnd": -42.0595891,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3513
+  },
+  {
+    "type": 1,
+    "icao": "SDLN",
+    "lat": -22.599722219999997,
+    "lon": -42.028888890000005,
+    "communications": [],
+    "elevation": 26,
+    "tower": false,
+    "name": "Fazenda Tosana",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -22.60138128,
+        "lonStart": -42.03148609,
+        "latEnd": -22.59806316,
+        "lonEnd": -42.02629169,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9102
+  },
+  {
+    "type": 1,
+    "icao": "SDMC",
+    "lat": -22.919449999999998,
+    "lon": -42.830929,
+    "communications": [],
+    "elevation": 13,
+    "tower": true,
+    "name": "Marica",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -22.921853,
+        "lonStart": -42.836097,
+        "latEnd": -22.917047,
+        "lonEnd": -42.825761,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16688
+  },
+  {
+    "type": 1,
+    "icao": "SBES",
+    "lat": -22.812872499999997,
+    "lon": -42.0926335,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "ALDEIA TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12280,
+        "name": "ALDEIA TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11945,
+        "name": "ALDEIA APP"
+      }
+    ],
+    "elevation": 61,
+    "tower": true,
+    "name": "SAO PEDRO DA ALDEIA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 28.04,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -22.820653,
+        "lonStart": -42.100728,
+        "latEnd": -22.805092,
+        "lonEnd": -42.084539,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 22072
+  },
+  {
+    "type": 1,
+    "icao": "SDSK",
+    "lat": -22.92972222,
+    "lon": -42.50694444,
+    "communications": [],
+    "elevation": 26,
+    "tower": false,
+    "name": "Saquarema",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -22.92768867,
+        "lonStart": -42.51082601,
+        "latEnd": -22.93175577,
+        "lonEnd": -42.50306287,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23008
+  },
+  {
+    "type": 1,
+    "icao": "SNAO",
+    "lat": -22.5125,
+    "lon": -42.051111109999994,
+    "communications": [],
+    "elevation": 10,
+    "tower": false,
+    "name": "Trimonte",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -22.51457837,
+        "lonStart": -42.05434602,
+        "latEnd": -22.51042163,
+        "lonEnd": -42.0478762,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 25597
   },
   {
     "type": 17,

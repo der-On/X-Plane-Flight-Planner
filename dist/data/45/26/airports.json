@@ -1,258 +1,44 @@
 [
   {
     "type": 1,
-    "icao": "LILE",
-    "lat": 45.4953,
-    "lon": 26.794068,
+    "icao": "LR82",
+    "lat": 45.216425,
+    "lon": 26.9786055,
     "communications": [
       {
         "type": 54,
-        "frequency": 12305,
-        "name": "AFIS"
-      }
-    ],
-    "elevation": 924,
-    "tower": false,
-    "name": "BIELLA CERRIONE",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 45.501386,
-        "lonStart": 8.098922,
-        "latEnd": 45.489214,
-        "lonEnd": 8.106633,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 1699
-  },
-  {
-    "type": 1,
-    "icao": "LILM",
-    "lat": 45.1105576,
-    "lon": 26.781060895,
-    "communications": [],
-    "elevation": 377,
-    "tower": false,
-    "name": "Casale Monferrato",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 45.11550518,
-        "lonStart": 8.45651177,
-        "latEnd": 45.10561002,
-        "lonEnd": 8.45626703,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 4607
-  },
-  {
-    "type": 1,
-    "icao": "LFLJ",
-    "lat": 45.397350085,
-    "lon": 26.015661865000002,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12007,
+        "frequency": 13000,
         "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 13000,
+        "name": "APP"
+      },
+      {
+        "type": 56,
+        "frequency": 13000,
+        "name": "DEP"
       }
     ],
-    "elevation": 6592,
+    "elevation": 344,
     "tower": true,
-    "name": "Courchevel",
+    "name": "BOBOC",
     "runways": [
       {
         "type": 100,
         "width": 79.86,
         "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 45.39561866,
-        "lonStart": 6.63224222,
-        "latEnd": 45.39908151,
-        "lonEnd": 6.63700448,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 45.208242,
+        "lonStart": 26.967614,
+        "latEnd": 45.224608,
+        "lonEnd": 26.989597,
         "length": 0,
         "surfacetype": 2
       }
     ],
-    "id": 5413
-  },
-  {
-    "type": 1,
-    "icao": "LFHM",
-    "lat": 45.823236985,
-    "lon": 26.233831935,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 11850,
-        "name": "MEGEVE MULT"
-      },
-      {
-        "type": 55,
-        "frequency": 12370,
-        "name": "CHAMBERY APP"
-      }
-    ],
-    "elevation": 4839,
-    "tower": true,
-    "name": "Megeve",
-    "runways": [
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 45.82606847,
-        "lonStart": 6.64725837,
-        "latEnd": 45.8204055,
-        "lonEnd": 6.65122163,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 17018
-  },
-  {
-    "type": 1,
-    "icao": "LFHZ",
-    "lat": 45.94965,
-    "lon": 26.292392999999997,
-    "communications": [],
-    "elevation": 1737,
-    "tower": true,
-    "name": "Mont Blanc",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 45.952613,
-        "lonStart": 6.638099,
-        "latEnd": 45.946687,
-        "lonEnd": 6.640009,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 17394
-  },
-  {
-    "type": 1,
-    "icao": "LFKD",
-    "lat": 45.254115315,
-    "lon": 26.026699685,
-    "communications": [],
-    "elevation": 4277,
-    "tower": true,
-    "name": "Sollieres Sardieres",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 45.25717948,
-        "lonStart": 6.80234822,
-        "latEnd": 45.25105115,
-        "lonEnd": 6.80001551,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23817
-  },
-  {
-    "type": 1,
-    "icao": "LIMA",
-    "lat": 45.0856395,
-    "lon": 26.34168675,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11980,
-        "name": "INFO"
-      }
-    ],
-    "elevation": 943,
-    "tower": true,
-    "name": "Torino Aeritalia",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "10L",
-        "numberEnd": "28R",
-        "latStart": 45.087308,
-        "lonStart": 7.596689,
-        "latEnd": 45.085397,
-        "lonEnd": 7.610061,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 39.93,
-        "surfaceType": null,
-        "numberStart": "10R",
-        "numberEnd": "28L",
-        "latStart": 45.0856,
-        "lonStart": 7.600408,
-        "latEnd": 45.084253,
-        "lonEnd": 7.609733,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 25472
-  },
-  {
-    "type": 1,
-    "icao": "LILI",
-    "lat": 45.310556000000005,
-    "lon": 26.862444145,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12260,
-        "name": "Vercelli Radio TWR"
-      }
-    ],
-    "elevation": 416,
-    "tower": true,
-    "name": "Vercelli",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 45.31042414,
-        "lonStart": 8.41420043,
-        "latEnd": 45.31068786,
-        "lonEnd": 8.42135557,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 26274
+    "id": 1798
   }
 ]

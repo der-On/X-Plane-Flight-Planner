@@ -1,86 +1,113 @@
 [
   {
     "type": 1,
-    "icao": "LFCB",
-    "lat": 42.8,
-    "lon": 21.698512885,
+    "icao": "LW75",
+    "lat": 42.0590835,
+    "lon": 21.3909885,
     "communications": [],
-    "elevation": 2027,
+    "elevation": 1149,
     "tower": false,
-    "name": "Bagneres de Luchon",
+    "name": "BRAZDA",
     "runways": [
       {
         "type": 100,
-        "width": 60.05,
+        "width": 50.6,
         "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 42.80357197,
-        "lonStart": 0.60059774,
-        "latEnd": 42.79642803,
-        "lonEnd": 0.59940226,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 2069
-  },
-  {
-    "type": 1,
-    "icao": "LENA",
-    "lat": 42.022209939999996,
-    "lon": 21.24915416,
-    "communications": [],
-    "elevation": 2482,
-    "tower": false,
-    "name": "Huesca Benabarre",
-    "runways": [
-      {
-        "type": 100,
-        "width": 16.41,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 42.02305708,
-        "lonStart": 0.47694552,
-        "latEnd": 42.0213628,
-        "lonEnd": 0.48646021,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 12158
-  },
-  {
-    "type": 1,
-    "icao": "LE06",
-    "lat": 42.057719649999996,
-    "lon": 21.78377668,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12350,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 3150,
-    "tower": true,
-    "name": "Lladurs",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 42.06118706,
-        "lonStart": 1.51330112,
-        "latEnd": 42.05425224,
-        "lonEnd": 1.5164263,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 42.061906,
+        "lonStart": 21.384769,
+        "latEnd": 42.056261,
+        "lonEnd": 21.397208,
         "length": 0,
         "surfacetype": 4
       }
     ],
-    "id": 15366
+    "id": 1899
+  },
+  {
+    "type": 1,
+    "icao": "LW67",
+    "lat": 42.1540665,
+    "lon": 21.6987375,
+    "communications": [],
+    "elevation": 1217,
+    "tower": false,
+    "name": "KUMANOVO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 80.77,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 42.156622,
+        "lonStart": 21.694383,
+        "latEnd": 42.151511,
+        "lonEnd": 21.703092,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13493
+  },
+  {
+    "type": 1,
+    "icao": "BKPR",
+    "lat": 42.57833954666666,
+    "lon": 21.033658573333337,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13200,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 11800,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12012,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11877,
+        "name": "APP"
+      }
+    ],
+    "elevation": 1789,
+    "tower": true,
+    "name": "Pristina Intl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 42.58536372,
+        "lonStart": 21.03457785,
+        "latEnd": 42.56291322,
+        "lonEnd": 21.03685665,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 29,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 42.5867417,
+        "lonStart": 21.02954122,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29
+      }
+    ],
+    "id": 20554
   }
 ]

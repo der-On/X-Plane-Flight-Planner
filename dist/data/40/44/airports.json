@@ -1,28 +1,130 @@
 [
   {
     "type": 1,
-    "icao": "UB14",
-    "lat": 40.273589,
-    "lon": 44.2114155,
-    "communications": [],
-    "elevation": -35,
-    "tower": false,
-    "name": "KYURDAMIR",
+    "icao": "UDYE",
+    "lat": 40.1221155,
+    "lon": 44.4649945,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11940,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 2948,
+    "tower": true,
+    "name": "EREBUNI",
     "runways": [
       {
         "type": 100,
-        "width": 44.2,
+        "width": 40.23,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 40.273228,
-        "lonStart": 48.148881,
-        "latEnd": 40.27395,
-        "lonEnd": 48.178253,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 40.111503,
+        "lonStart": 44.4563,
+        "latEnd": 40.132728,
+        "lonEnd": 44.473689,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 6792
+  },
+  {
+    "type": 1,
+    "icao": "UD21",
+    "lat": 40.29603,
+    "lon": 44.56623275,
+    "communications": [],
+    "elevation": 4416,
+    "tower": false,
+    "name": "YEREVAN YEGVARD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 76.2,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 40.296294,
+        "lonStart": 44.556117,
+        "latEnd": 40.300731,
+        "lonEnd": 44.566289,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 76.2,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 40.297978,
+        "lonStart": 44.571881,
+        "latEnd": 40.289117,
+        "lonEnd": 44.570644,
         "length": 0,
         "surfacetype": 2
       }
     ],
-    "id": 13517
+    "id": 27701
+  },
+  {
+    "type": 1,
+    "icao": "UDYZ",
+    "lat": 40.147271,
+    "lon": 44.395880500000004,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11950,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 11900,
+        "name": "YEREVAN GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12800,
+        "name": "YEREVAN TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12400,
+        "name": "YEREVAN TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12600,
+        "name": "YEREVAN APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12400,
+        "name": "YEREVAN APP"
+      }
+    ],
+    "elevation": 2836,
+    "tower": true,
+    "name": "ZVARTNOTS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 56.08,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 40.147153,
+        "lonStart": 44.373294,
+        "latEnd": 40.147389,
+        "lonEnd": 44.418467,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 27861
   }
 ]

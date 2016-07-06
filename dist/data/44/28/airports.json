@@ -1,158 +1,49 @@
 [
   {
     "type": 1,
-    "icao": "LIPC",
-    "lat": 44.224287525,
-    "lon": 28.254164425,
+    "icao": "LRCK",
+    "lat": 44.362114,
+    "lon": 28.488454,
     "communications": [
       {
+        "type": 50,
+        "frequency": 11875,
+        "name": "ATIS"
+      },
+      {
         "type": 54,
-        "frequency": 12210,
+        "frequency": 12045,
         "name": "TWR"
       },
       {
         "type": 55,
-        "frequency": 11815,
-        "name": "ROMAGNA APP"
+        "frequency": 12290,
+        "name": "BUCURESTI RDR"
       },
       {
         "type": 55,
-        "frequency": 12210,
-        "name": "ROMAGNA APP"
-      },
-      {
-        "type": 55,
-        "frequency": 11857,
-        "name": "ROMAGNA APP"
+        "frequency": 12735,
+        "name": "BUCURESTI RDR"
       }
     ],
-    "elevation": 18,
+    "elevation": 353,
     "tower": true,
-    "name": "CERVIA Pisignano",
+    "name": "CONSTANTA - MIHAIL KOGALNICEANU",
     "runways": [
       {
         "type": 100,
-        "width": 44.11,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 44.23034906,
-        "lonStart": 12.29010286,
-        "latEnd": 44.21822599,
-        "lonEnd": 12.3243738,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 44.377736,
+        "lonStart": 28.490586,
+        "latEnd": 44.346492,
+        "lonEnd": 28.486322,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
       }
     ],
-    "id": 3773
-  },
-  {
-    "type": 1,
-    "icao": "LIPF",
-    "lat": 44.812134407500004,
-    "lon": 28.210053375,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12250,
-        "name": "Ferrara Radio"
-      }
-    ],
-    "elevation": 20,
-    "tower": false,
-    "name": "FERRARA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60,
-        "surfaceType": null,
-        "numberStart": "09R",
-        "numberEnd": "27L",
-        "latStart": 44.81266475,
-        "lonStart": 11.60856012,
-        "latEnd": 44.811089,
-        "lonEnd": 11.61859845,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "09L",
-        "numberEnd": "27R",
-        "latStart": 44.81315626,
-        "lonStart": 11.60893676,
-        "latEnd": 44.81162762,
-        "lonEnd": 11.61866545,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 7542
-  },
-  {
-    "type": 1,
-    "icao": "LIDV",
-    "lat": 44.79037444,
-    "lon": 28.228846345,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11820,
-        "name": "Aguscello Radio"
-      }
-    ],
-    "elevation": 20,
-    "tower": false,
-    "name": "PRATI VECCHI D' AGUSCELLO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 50,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 44.79150295,
-        "lonStart": 11.66844676,
-        "latEnd": 44.78924593,
-        "lonEnd": 11.67806373,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 19533
-  },
-  {
-    "type": 1,
-    "icao": "LIDR",
-    "lat": 44.364325385,
-    "lon": 28.291380829999998,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12350,
-        "name": "Ravenna Radio"
-      }
-    ],
-    "elevation": 0,
-    "tower": false,
-    "name": "RAVENNA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 31,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 44.36347908,
-        "lonStart": 12.21758997,
-        "latEnd": 44.36517169,
-        "lonEnd": 12.23248231,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 20854
+    "id": 4114
   }
 ]

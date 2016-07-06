@@ -1,0 +1,99 @@
+[
+  {
+    "type": 1,
+    "icao": "LGAG",
+    "lat": 38.602070499999996,
+    "lon": 21.351192,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12365,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 153,
+    "tower": true,
+    "name": "AGRINION",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 38.602733,
+        "lonStart": 21.333953,
+        "latEnd": 38.601408,
+        "lonEnd": 21.368431,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 93
+  },
+  {
+    "type": 1,
+    "icao": "LGRX",
+    "lat": 38.151093,
+    "lon": 21.42640075,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12525,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12065,
+        "name": "ANDRAVIDA APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12210,
+        "name": "ANDRAVIDA APP"
+      }
+    ],
+    "elevation": 45,
+    "tower": true,
+    "name": "ARAXOS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "18L",
+        "numberEnd": "36R",
+        "latStart": 38.166153,
+        "lonStart": 21.428314,
+        "latEnd": 38.135997,
+        "lonEnd": 21.426178,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "18R",
+        "numberEnd": "36L",
+        "latStart": 38.166189,
+        "lonStart": 21.426536,
+        "latEnd": 38.136033,
+        "lonEnd": 21.424575,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 365
+  }
+]

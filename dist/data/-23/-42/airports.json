@@ -1,29 +1,97 @@
 [
   {
     "type": 1,
-    "icao": "SGME",
-    "lat": -22.044984999999997,
-    "lon": -41.3251195,
-    "communications": [],
-    "elevation": 553,
-    "tower": false,
-    "name": "DR LUIS MARIA ARGANA INTL",
+    "icao": "SBME",
+    "lat": -22.343032,
+    "lon": -41.766035,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12777,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11845,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12000,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12930,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 11920,
+        "name": "APP"
+      }
+    ],
+    "elevation": 8,
+    "tower": true,
+    "name": "MACAE",
     "runways": [
       {
         "type": 100,
-        "width": 39.93,
+        "width": 29.87,
         "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": -22.060778,
-        "lonStart": -60.621047,
-        "latEnd": -22.029192,
-        "lonEnd": -60.622339,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -22.347597,
+        "lonStart": -41.769242,
+        "latEnd": -22.338467,
+        "lonEnd": -41.762828,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 1
       }
     ],
-    "id": 5875
+    "id": 15669
+  },
+  {
+    "type": 1,
+    "icao": "SBBZ",
+    "lat": -22.770967,
+    "lon": -41.9632665,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13175,
+        "name": "BUZIOS RDO"
+      },
+      {
+        "type": 55,
+        "frequency": 11945,
+        "name": "ALDEIA APP"
+      }
+    ],
+    "elevation": 10,
+    "tower": false,
+    "name": "UMBERTO MODIANO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -22.774528,
+        "lonStart": -41.968219,
+        "latEnd": -22.767406,
+        "lonEnd": -41.958314,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 25808
   },
   {
     "type": 17,

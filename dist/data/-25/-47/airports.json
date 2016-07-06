@@ -1,29 +1,99 @@
 [
   {
     "type": 1,
-    "icao": "SCLE",
-    "lat": -24.293872,
-    "lon": -46.71997057,
-    "communications": [],
-    "elevation": 10290,
+    "icao": "SDCR",
+    "lat": -24.06847285,
+    "lon": -46.827244135,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12345,
+        "name": "RDO"
+      }
+    ],
+    "elevation": 39,
     "tower": false,
-    "name": "La Escondida",
+    "name": "Fazenda Caicara",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 17.98,
         "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": -24.2909198,
-        "lonStart": -69.14311694,
-        "latEnd": -24.2968242,
-        "lonEnd": -69.12036053,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -24.0694655,
+        "lonStart": -46.82978069,
+        "latEnd": -24.0674802,
+        "lonEnd": -46.82470758,
         "length": 0,
         "surfacetype": 5
       }
     ],
-    "id": 14704
+    "id": 8071
+  },
+  {
+    "type": 1,
+    "icao": "SDIM",
+    "lat": -24.159721,
+    "lon": -46.790678845,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12345,
+        "name": "RDO"
+      }
+    ],
+    "elevation": 13,
+    "tower": false,
+    "name": "Itanhaem",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -24.15597319,
+        "lonStart": -46.79591833,
+        "latEnd": -24.16346881,
+        "lonEnd": -46.78543936,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12596
+  },
+  {
+    "type": 1,
+    "icao": "SSCC",
+    "lat": -24.260672745,
+    "lon": -46.987268369999995,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12345,
+        "name": "RDO"
+      }
+    ],
+    "elevation": 65,
+    "tower": false,
+    "name": "Peruibe Sitio do Cascao",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -24.25979318,
+        "lonStart": -46.98786656,
+        "latEnd": -24.26155231,
+        "lonEnd": -46.98667018,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 19997
   },
   {
     "type": 17,

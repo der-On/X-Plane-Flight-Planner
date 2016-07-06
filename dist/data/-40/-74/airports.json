@@ -1,0 +1,129 @@
+[
+  {
+    "type": 1,
+    "icao": "SCSH",
+    "lat": -39.0631605,
+    "lon": -73.16905299999999,
+    "communications": [],
+    "elevation": 60,
+    "tower": false,
+    "name": "El Budi",
+    "runways": [
+      {
+        "type": 100,
+        "width": 28.04,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": -39.066363,
+        "lonStart": -73.171824,
+        "latEnd": -39.059958,
+        "lonEnd": -73.166282,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7031
+  },
+  {
+    "type": 1,
+    "icao": "SCVL",
+    "lat": -39.797442866666664,
+    "lon": -73.24246280666667,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "TWR"
+      },
+      {
+        "type": 50,
+        "frequency": 11820,
+        "name": "TIBA"
+      }
+    ],
+    "elevation": 13,
+    "tower": true,
+    "name": "Las MarC-as",
+    "runways": [
+      {
+        "type": 100,
+        "width": 16.46,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -39.79076994,
+        "lonStart": -73.24126159,
+        "latEnd": -39.80243165,
+        "lonEnd": -73.24201253,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 7.6,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -39.79912701,
+        "lonStart": -73.2441143,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 7.6
+      }
+    ],
+    "id": 14987
+  },
+  {
+    "type": 1,
+    "icao": "SCVD",
+    "lat": -39.6499555,
+    "lon": -73.08611138500001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12180,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11920,
+        "name": "APP"
+      },
+      {
+        "type": 51,
+        "frequency": 11820,
+        "name": "MULT"
+      },
+      {
+        "type": 50,
+        "frequency": 12770,
+        "name": "AFIS"
+      }
+    ],
+    "elevation": 59,
+    "tower": true,
+    "name": "Pichoy",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -39.6405391,
+        "lonStart": -73.08653852,
+        "latEnd": -39.6593719,
+        "lonEnd": -73.08568425,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20093
+  }
+]

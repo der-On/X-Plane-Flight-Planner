@@ -1,5 +1,206 @@
 [
   {
+    "type": 1,
+    "icao": "TJAB",
+    "lat": 18.449986,
+    "lon": -66.67530450000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 22,
+    "tower": false,
+    "name": "Arecibo/Antonio Nery Juarbe Pol",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 18.447944,
+        "lonStart": -66.680581,
+        "latEnd": 18.452028,
+        "lonEnd": -66.670028,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1164
+  },
+  {
+    "type": 1,
+    "icao": "TJIG",
+    "lat": 18.456789999999998,
+    "lon": -66.09846200000001,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12040,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 13587,
+        "name": "CTAF"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 13587,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11940,
+        "name": "SAN JUAN CNTR"
+      },
+      {
+        "type": 55,
+        "frequency": 12090,
+        "name": "SAN JUAN CNTR"
+      }
+    ],
+    "elevation": 10,
+    "tower": true,
+    "name": "Fernando Luis Ribas Dominicci",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 18.455835,
+        "lonStart": -66.106395,
+        "latEnd": 18.457745,
+        "lonEnd": -66.090529,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 9251
+  },
+  {
+    "type": 1,
+    "icao": "TJPS",
+    "lat": 18.008312500000002,
+    "lon": -66.56301400000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 12190,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 55,
+        "frequency": 11875,
+        "name": "SAN JUAN CNTR"
+      }
+    ],
+    "elevation": 29,
+    "tower": true,
+    "name": "Ponce/Mercedita",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 18.011239,
+        "lonStart": -66.572467,
+        "latEnd": 18.005386,
+        "lonEnd": -66.553561,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20336
+  },
+  {
+    "type": 1,
+    "icao": "TJSJ",
+    "lat": 18.438776750000002,
+    "lon": -66.00201824999999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12580,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 12640,
+        "name": "SAN JUAN CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 13205,
+        "name": "SAN JUAN TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12090,
+        "name": "SAN JUAN APP"
+      }
+    ],
+    "elevation": 9,
+    "tower": true,
+    "name": "San Juan - Luis Munoz Marin Intl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 18.438756,
+        "lonStart": -66.014864,
+        "latEnd": 18.449284,
+        "lonEnd": -65.988881,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 18.433561,
+        "lonStart": -66.013728,
+        "latEnd": 18.433506,
+        "lonEnd": -65.9906,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 22811
+  },
+  {
     "type": 17,
     "icao": "PR16",
     "lat": 18.42744638,

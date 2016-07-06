@@ -1,5 +1,558 @@
 [
   {
+    "type": 1,
+    "icao": "23N",
+    "lat": 40.758431380000005,
+    "lon": -73.05372084000001,
+    "communications": [],
+    "elevation": 41,
+    "tower": false,
+    "name": "Bayport Aerodrome",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 40.76209295,
+        "lonStart": -73.05483685,
+        "latEnd": 40.75476981,
+        "lonEnd": -73.05260483,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 2377
+  },
+  {
+    "type": 1,
+    "icao": "07NY",
+    "lat": 40.87093166,
+    "lon": -73.03705139,
+    "communications": [],
+    "elevation": 80,
+    "tower": false,
+    "name": "Hough-Mcgee",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 40.87385931,
+        "lonStart": -73.03801669,
+        "latEnd": 40.86800401,
+        "lonEnd": -73.03608609,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12092
+  },
+  {
+    "type": 1,
+    "icao": "KJFK",
+    "lat": 40.64412376333333,
+    "lon": -73.78150115916667,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12872,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 13505,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12165,
+        "name": "GND"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 53,
+        "frequency": 12505,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11910,
+        "name": "KENNEDY TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12390,
+        "name": "KENNEDY TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12370,
+        "name": "NEW YORK APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12680,
+        "name": "NEW YORK APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12740,
+        "name": "NEW YORK APP"
+      },
+      {
+        "type": 55,
+        "frequency": 13240,
+        "name": "NEW YORK APP"
+      },
+      {
+        "type": 56,
+        "frequency": 12370,
+        "name": "NEW YORK DEP"
+      },
+      {
+        "type": 56,
+        "frequency": 12475,
+        "name": "NEW YORK DEP"
+      },
+      {
+        "type": 56,
+        "frequency": 13435,
+        "name": "NEW YORK DEP"
+      },
+      {
+        "type": 56,
+        "frequency": 13590,
+        "name": "NEW YORK DEP"
+      }
+    ],
+    "elevation": 13,
+    "tower": true,
+    "name": "John F Kennedy Intl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "13R",
+        "numberEnd": "31L",
+        "latStart": 40.64836167,
+        "lonStart": -73.81671471,
+        "latEnd": 40.627911,
+        "lonEnd": -73.77159416,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "04L",
+        "numberEnd": "22R",
+        "latStart": 40.62201778,
+        "lonStart": -73.78558529,
+        "latEnd": 40.64879083,
+        "lonEnd": -73.76466723,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "13L",
+        "numberEnd": "31R",
+        "latStart": 40.6577648,
+        "lonStart": -73.79023952,
+        "latEnd": 40.64372612,
+        "lonEnd": -73.75927694,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "04R",
+        "numberEnd": "22L",
+        "latStart": 40.62542555,
+        "lonStart": -73.77034723,
+        "latEnd": 40.64523583,
+        "lonEnd": -73.75486363,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 17.98,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.65449557,
+        "lonStart": -73.79829261,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 17.98
+      },
+      {
+        "type": 102,
+        "width": 17.98,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 40.64572572,
+        "lonStart": -73.77040456,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 17.98
+      },
+      {
+        "type": 102,
+        "width": 17.98,
+        "surfaceType": 1,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 40.66039844,
+        "lonStart": -73.78553873,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 17.98
+      },
+      {
+        "type": 102,
+        "width": 17.98,
+        "surfaceType": 1,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 40.64963185,
+        "lonStart": -73.8104893,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 17.98
+      }
+    ],
+    "id": 13025
+  },
+  {
+    "type": 1,
+    "icao": "KLGA",
+    "lat": 40.77698719999999,
+    "lon": -73.874576566,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12595,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11870,
+        "name": "TWR"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "Ground"
+      },
+      {
+        "type": 52,
+        "frequency": 12187,
+        "name": "Clearance Delivery"
+      },
+      {
+        "type": 55,
+        "frequency": 12880,
+        "name": "NEW YORK APP"
+      }
+    ],
+    "elevation": 21,
+    "tower": true,
+    "name": "La Guardia",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 40.76916537,
+        "lonStart": -73.88411972,
+        "latEnd": 40.78542937,
+        "lonEnd": -73.87067467,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 40.78228496,
+        "lonStart": -73.87851875,
+        "latEnd": 40.77206398,
+        "lonEnd": -73.85712666,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.77599232,
+        "lonStart": -73.88244303,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 14717
+  },
+  {
+    "type": 1,
+    "icao": "KISP",
+    "lat": 40.795267003999996,
+    "lon": -73.100301513,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12845,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 12185,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 13530,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12430,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12005,
+        "name": "NEW YORK APP/DEP"
+      }
+    ],
+    "elevation": 99,
+    "tower": true,
+    "name": "Long Island Mac Arthur",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 40.788636,
+        "lonStart": -73.11245,
+        "latEnd": 40.802233,
+        "lonEnd": -73.094558,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "15R",
+        "numberEnd": "33L",
+        "latStart": 40.802228,
+        "lonStart": -73.107331,
+        "latEnd": 40.792158,
+        "lonEnd": -73.094092,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 40.792528,
+        "lonStart": -73.108,
+        "latEnd": 40.792525,
+        "lonEnd": -73.089819,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "15L",
+        "numberEnd": "33R",
+        "latStart": 40.799033,
+        "lonStart": -73.098383,
+        "latEnd": 40.792872,
+        "lonEnd": -73.090275,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.79162193,
+        "lonStart": -73.10093566,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      },
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 40.79883511,
+        "lonStart": -73.10717147,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 15450
+  },
+  {
+    "type": 1,
+    "icao": "KFRG",
+    "lat": 40.728829250000004,
+    "lon": -73.41350625,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12665,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 51,
+        "frequency": 11880,
+        "name": "CTAF"
+      },
+      {
+        "type": 52,
+        "frequency": 12825,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12160,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12520,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11880,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11840,
+        "name": "NEW YORK APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12370,
+        "name": "NEW YORK APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12740,
+        "name": "NEW YORK APP"
+      },
+      {
+        "type": 55,
+        "frequency": 13240,
+        "name": "NEW YORK APP"
+      },
+      {
+        "type": 56,
+        "frequency": 12370,
+        "name": "NEW YORK DEP"
+      },
+      {
+        "type": 56,
+        "frequency": 12570,
+        "name": "NEW YORK DEP"
+      },
+      {
+        "type": 56,
+        "frequency": 13435,
+        "name": "NEW YORK DEP"
+      }
+    ],
+    "elevation": 82,
+    "tower": true,
+    "name": "REPUBLIC",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 40.734622,
+        "lonStart": -73.421722,
+        "latEnd": 40.722028,
+        "lonEnd": -73.403486,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 40.721764,
+        "lonStart": -73.414267,
+        "latEnd": 40.736903,
+        "lonEnd": -73.41455,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20903
+  },
+  {
     "type": 17,
     "icao": "3NY2",
     "lat": 40.78621222,
@@ -823,5 +1376,229 @@
       }
     ],
     "id": 33882
+  },
+  {
+    "type": 16,
+    "icao": "4NY2",
+    "lat": 40.78343444,
+    "lon": -73.86624639,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] EDO",
+    "runways": [
+      {
+        "type": 101,
+        "width": 152.4,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 40.77180354,
+        "lonStart": -73.87584484,
+        "latEnd": 40.79506534,
+        "lonEnd": -73.85664794,
+        "length": 0
+      },
+      {
+        "type": 101,
+        "width": 152.4,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 40.79070223,
+        "lonStart": -73.88160712,
+        "latEnd": 40.77616665,
+        "lonEnd": -73.85088566,
+        "length": 0
+      },
+      {
+        "type": 101,
+        "width": 152.4,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 40.79011614,
+        "lonStart": -73.86828366,
+        "latEnd": 40.77675274,
+        "lonEnd": -73.86420912,
+        "length": 0
+      }
+    ],
+    "id": 34076
+  },
+  {
+    "type": 16,
+    "icao": "6N6",
+    "lat": 40.84593361,
+    "lon": -73.81624473,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] Evers",
+    "runways": [
+      {
+        "type": 101,
+        "width": 121.92,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 40.83907616,
+        "lonStart": -73.81624473,
+        "latEnd": 40.85279106,
+        "lonEnd": -73.81624473,
+        "length": 0
+      }
+    ],
+    "id": 34090
+  },
+  {
+    "type": 16,
+    "icao": "54NJ",
+    "lat": 40.41677527,
+    "lon": -73.99958278,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] Highlands",
+    "runways": [
+      {
+        "type": 101,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 40.41523268,
+        "lonStart": -74.00835891,
+        "latEnd": 40.41831786,
+        "lonEnd": -73.99080665,
+        "length": 0
+      }
+    ],
+    "id": 34160
+  },
+  {
+    "type": 16,
+    "icao": "6N7",
+    "lat": 40.733990829999996,
+    "lon": -73.97291639,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] New York Skyports Inc",
+    "runways": [
+      {
+        "type": 101,
+        "width": 304.8,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 40.72062744,
+        "lonStart": -73.96884487,
+        "latEnd": 40.74735422,
+        "lonEnd": -73.97698791,
+        "length": 0
+      }
+    ],
+    "id": 34314
+  },
+  {
+    "type": 16,
+    "icao": "NK30",
+    "lat": 40.55566111,
+    "lon": -73.88569138999999,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] Private Sealanes-Jamaica Bay",
+    "runways": [
+      {
+        "type": 101,
+        "width": 152.4,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 40.55298169,
+        "lonStart": -73.89399953,
+        "latEnd": 40.55834053,
+        "lonEnd": -73.87738325,
+        "length": 0
+      },
+      {
+        "type": 101,
+        "width": 152.4,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 40.56197343,
+        "lonStart": -73.88921799,
+        "latEnd": 40.54934879,
+        "lonEnd": -73.88216479,
+        "length": 0
+      }
+    ],
+    "id": 34380
+  },
+  {
+    "type": 16,
+    "icao": "7N3",
+    "lat": 40.83760027,
+    "lon": -73.71624166999999,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] Sands Point",
+    "runways": [
+      {
+        "type": 101,
+        "width": 91.44,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 40.82938261,
+        "lonStart": -73.71567243,
+        "latEnd": 40.84581793,
+        "lonEnd": -73.71681091,
+        "length": 0
+      },
+      {
+        "type": 101,
+        "width": 91.44,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 40.84000618,
+        "lonStart": -73.72664311,
+        "latEnd": 40.83519436,
+        "lonEnd": -73.70584023,
+        "length": 0
+      }
+    ],
+    "id": 34428
+  },
+  {
+    "type": 1,
+    "icao": "KFLU",
+    "lat": 40.77926805,
+    "lon": -73.83291223,
+    "communications": [],
+    "elevation": 3,
+    "tower": false,
+    "name": "[X] Flushing",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 40.7830098,
+        "lonStart": -73.83405303,
+        "latEnd": 40.7755263,
+        "lonEnd": -73.83177143,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 34562
   }
 ]

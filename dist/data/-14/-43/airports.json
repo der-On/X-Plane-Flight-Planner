@@ -1,75 +1,106 @@
 [
   {
     "type": 1,
-    "icao": "SPZO",
-    "lat": -13.535716935,
-    "lon": -42.74582367,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11810,
-        "name": "TWR"
-      },
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "GND"
-      },
-      {
-        "type": 55,
-        "frequency": 12060,
-        "name": "APP"
-      },
-      {
-        "type": 50,
-        "frequency": 12700,
-        "name": "ATIS"
-      }
-    ],
-    "elevation": 10859,
+    "icao": "SNMC",
+    "lat": -13.025019499999999,
+    "lon": -42.672258,
+    "communications": [],
+    "elevation": 2133,
     "tower": false,
-    "name": "Alejandro Velasco Astete",
+    "name": "MACAUBAS",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 18.9,
         "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": -13.53413445,
-        "lonStart": -71.95434792,
-        "latEnd": -13.53729942,
-        "lonEnd": -71.92316557,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -13.024092,
+        "lonStart": -42.678269,
+        "latEnd": -13.025947,
+        "lonEnd": -42.666247,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 844
+    "id": 15671
   },
   {
     "type": 1,
-    "icao": "SPIR",
-    "lat": -13.0166674,
-    "lon": -42.147443245,
+    "icao": "SB05",
+    "lat": -13.4904125,
+    "lon": -42.229093000000006,
     "communications": [],
-    "elevation": 2221,
-    "tower": true,
-    "name": "Patria",
+    "elevation": 2096,
+    "tower": false,
+    "name": "PARAMIRIM",
     "runways": [
       {
         "type": 100,
-        "width": 25.6,
+        "width": 30.48,
         "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": -13.01046242,
-        "lonStart": -71.27201411,
-        "latEnd": -13.02287238,
-        "lonEnd": -71.26132629,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -13.485339,
+        "lonStart": -42.231008,
+        "latEnd": -13.495486,
+        "lonEnd": -42.227178,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 1
       }
     ],
-    "id": 19836
+    "id": 19214
+  },
+  {
+    "type": 1,
+    "icao": "SNBZ",
+    "lat": -13.44611111,
+    "lon": -42.24916667,
+    "communications": [],
+    "elevation": 1788,
+    "tower": false,
+    "name": "Paramirim",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -13.44107522,
+        "lonStart": -42.25127323,
+        "latEnd": -13.451147,
+        "lonEnd": -42.24706011,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19762
+  },
+  {
+    "type": 1,
+    "icao": "SSQM",
+    "lat": -13.54583333,
+    "lon": -42.480000005,
+    "communications": [],
+    "elevation": 2464,
+    "tower": false,
+    "name": "Tanque Novo",
+    "runways": [
+      {
+        "type": 100,
+        "width": 28.04,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -13.54611153,
+        "lonStart": -42.48601078,
+        "latEnd": -13.54555513,
+        "lonEnd": -42.47398923,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 25043
   }
 ]

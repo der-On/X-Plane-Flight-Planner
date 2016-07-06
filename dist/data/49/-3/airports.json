@@ -1,34 +1,159 @@
 [
   {
     "type": 1,
-    "icao": "CDY3",
-    "lat": 49.6575,
-    "lon": -2.292800500000002,
+    "icao": "EGJA",
+    "lat": 49.70656016666667,
+    "lon": -2.2151765,
     "communications": [
       {
-        "type": 51,
-        "frequency": 12320,
-        "name": "CTAF"
+        "type": 53,
+        "frequency": 13050,
+        "name": "Alderney Ground"
+      },
+      {
+        "type": 54,
+        "frequency": 12535,
+        "name": "Alderney Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12865,
+        "name": "Guernsey Approach"
       }
     ],
-    "elevation": 80,
-    "tower": false,
-    "name": "FOGO",
+    "elevation": 291,
+    "tower": true,
+    "name": "Alderney",
     "runways": [
       {
         "type": 100,
-        "width": 22.86,
+        "width": 17.98,
         "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 49.656849,
-        "lonStart": -54.243752,
-        "latEnd": 49.658151,
-        "lonEnd": -54.231248,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 49.705992,
+        "lonStart": -2.220853,
+        "latEnd": 49.707442,
+        "lonEnd": -2.208839,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 36.88,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 49.708944,
+        "lonStart": -2.221339,
+        "latEnd": 49.704425,
+        "lonEnd": -2.213936,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 36.88,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 49.704269,
+        "lonStart": -2.21455,
+        "latEnd": 49.708289,
+        "lonEnd": -2.211542,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 839
+  },
+  {
+    "type": 1,
+    "icao": "EGJB",
+    "lat": 49.4349545,
+    "lon": -2.6019695,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "Guernsey Ground"
+      },
+      {
+        "type": 54,
+        "frequency": 11995,
+        "name": "Guernsey Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12865,
+        "name": "Guernsey Approach"
+      }
+    ],
+    "elevation": 335,
+    "tower": true,
+    "name": "Guernsey",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 49.434678,
+        "lonStart": -2.611975,
+        "latEnd": 49.435231,
+        "lonEnd": -2.591964,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 7600
+    "id": 10880
+  },
+  {
+    "type": 1,
+    "icao": "EGJJ",
+    "lat": 49.20796367,
+    "lon": -2.19529431,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12972,
+        "name": "Jersey Information"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "Jersey Ground"
+      },
+      {
+        "type": 54,
+        "frequency": 11945,
+        "name": "Jersey Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12030,
+        "name": "Jersey Approach"
+      }
+    ],
+    "elevation": 277,
+    "tower": true,
+    "name": "Jersey",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 49.20699471,
+        "lonStart": -2.20692947,
+        "latEnd": 49.20893263,
+        "lonEnd": -2.18365915,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12968
   }
 ]

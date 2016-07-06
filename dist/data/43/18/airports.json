@@ -1,126 +1,49 @@
 [
   {
     "type": 1,
-    "icao": "LEAS",
-    "lat": 43.563584320000004,
-    "lon": 18.756466305,
+    "icao": "LQSA",
+    "lat": 43.824600405,
+    "lon": 18.331501420000002,
     "communications": [
       {
         "type": 53,
-        "frequency": 12170,
+        "frequency": 12190,
         "name": "GND"
       },
       {
         "type": 54,
-        "frequency": 11815,
+        "frequency": 11825,
         "name": "TWR"
       },
       {
         "type": 55,
-        "frequency": 11815,
+        "frequency": 11977,
         "name": "APP"
+      },
+      {
+        "type": 50,
+        "frequency": 12412,
+        "name": "ATIS"
       }
     ],
-    "elevation": 416,
+    "elevation": 1708,
     "tower": true,
-    "name": "Asturias",
+    "name": "Sarajevo",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 45.72,
         "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 43.56665532,
-        "lonStart": -6.04758071,
-        "latEnd": 43.56051332,
-        "lonEnd": -6.02163871,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 43.8299829,
+        "lonStart": 18.317139,
+        "latEnd": 43.81921791,
+        "lonEnd": 18.34586384,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 1285
-  },
-  {
-    "type": 1,
-    "icao": "LEMR",
-    "lat": 43.43063282,
-    "lon": 18.79880969,
-    "communications": [],
-    "elevation": 524,
-    "tower": false,
-    "name": "LA MORGAL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 43.43062664,
-        "lonStart": -5.83301962,
-        "latEnd": 43.430639,
-        "lonEnd": -5.8216056,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 14278
-  },
-  {
-    "type": 1,
-    "icao": "LILQ",
-    "lat": 43.98539416,
-    "lon": 18.603799435,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12035,
-        "name": "Massa radio"
-      }
-    ],
-    "elevation": 13,
-    "tower": true,
-    "name": "MASSA Cinquale",
-    "runways": [
-      {
-        "type": 100,
-        "width": 50,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 43.98369008,
-        "lonStart": 10.14018614,
-        "latEnd": 43.98791668,
-        "lonEnd": 10.14701518,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 102,
-        "width": 10,
-        "surfaceType": 1,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 43.98465176,
-        "lonStart": 10.1434144,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15
-      },
-      {
-        "type": 102,
-        "width": 25,
-        "surfaceType": 3,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 43.98531812,
-        "lonStart": 10.14368052,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 25
-      }
-    ],
-    "id": 15903
+    "id": 23013
   }
 ]

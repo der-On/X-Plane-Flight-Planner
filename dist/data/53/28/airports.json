@@ -1,72 +1,49 @@
 [
   {
     "type": 1,
-    "icao": "EDHF",
-    "lat": 53.99210650857143,
-    "lon": 28.610299292857142,
+    "icao": "UMMS",
+    "lat": 53.882549499999996,
+    "lon": 28.0307855,
     "communications": [
       {
+        "type": 50,
+        "frequency": 12885,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
         "type": 54,
-        "frequency": 12337,
-        "name": "Hungriger Wolf Info"
+        "frequency": 11830,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12525,
+        "name": "MINSK RADAR"
       }
     ],
-    "elevation": 51,
+    "elevation": 669,
     "tower": true,
-    "name": "Itzehoe Hungriger Wolf",
+    "name": "Minsk Velikiydvor",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 60.05,
         "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 53.99248645,
-        "lonStart": 9.5767925,
-        "latEnd": 53.99651355,
-        "lonEnd": 9.58020799,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 53.894868,
+        "lonStart": 28.012529,
+        "latEnd": 53.870231,
+        "lonEnd": 28.049042,
         "length": 0,
         "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 53.98801341,
-        "lonStart": 9.57300352,
-        "latEnd": 53.99204018,
-        "lonEnd": 9.57641886,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 53.99127735,
-        "lonStart": 9.56725849,
-        "latEnd": 53.99122175,
-        "lonEnd": 9.57809557,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 102,
-        "width": 50,
-        "surfaceType": 2,
-        "numberStart": "H",
-        "numberEnd": null,
-        "latStart": 53.99319287,
-        "lonStart": 9.57526506,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 50
       }
     ],
-    "id": 12610
+    "id": 17280
   }
 ]

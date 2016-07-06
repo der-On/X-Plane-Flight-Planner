@@ -1,120 +1,44 @@
 [
   {
     "type": 1,
-    "icao": "EG15",
-    "lat": 54.16378356,
-    "lon": 25.599493545,
-    "communications": [],
-    "elevation": 17,
-    "tower": false,
-    "name": "Cark",
-    "runways": [
-      {
-        "type": 100,
-        "width": 14.94,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 54.16219369,
-        "lonStart": -2.96638634,
-        "latEnd": 54.16537343,
-        "lonEnd": -2.95855021,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 4548
-  },
-  {
-    "type": 1,
-    "icao": "EPDA",
-    "lat": 54.41208005,
-    "lon": 25.8707929875,
+    "icao": "EYVI",
+    "lat": 54.634166495,
+    "lon": 25.285796089999998,
     "communications": [
       {
         "type": 50,
-        "frequency": 12850,
-        "name": "DARLOWO INFO"
+        "frequency": 12580,
+        "name": "ATIS"
       },
       {
         "type": 54,
-        "frequency": 12950,
-        "name": "DARLOWO TOWER"
+        "frequency": 11820,
+        "name": "TWR"
       },
       {
         "type": 55,
-        "frequency": 13300,
-        "name": "DARLOWO APPROACH"
+        "frequency": 12070,
+        "name": "APP"
       }
     ],
-    "elevation": 8,
+    "elevation": 645,
     "tower": true,
-    "name": "DARLOWO",
+    "name": "VILNIUS INTL",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 49.99,
         "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 54.40286796,
-        "lonStart": 16.34994266,
-        "latEnd": 54.40678536,
-        "lonEnd": 16.3561521,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 27.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 54.41917797,
-        "lonStart": 16.362865,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 28.4
-      },
-      {
-        "type": 102,
-        "width": 27.1,
-        "surfaceType": 2,
-        "numberStart": "H5",
-        "numberEnd": null,
-        "latStart": 54.41948891,
-        "lonStart": 16.36357893,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 28.4
-      }
-    ],
-    "id": 5677
-  },
-  {
-    "type": 1,
-    "icao": "EG60",
-    "lat": 54.882074994999996,
-    "lon": 25.833377945000002,
-    "communications": [],
-    "elevation": 38,
-    "tower": false,
-    "name": "Kirkbride",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 54.8819168,
-        "lonStart": -3.2154773,
-        "latEnd": 54.88223319,
-        "lonEnd": -3.19510607,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 54.6237288,
+        "lonStart": 25.27854667,
+        "latEnd": 54.64460419,
+        "lonEnd": 25.29304551,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 13928
+    "id": 26114
   }
 ]

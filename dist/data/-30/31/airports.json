@@ -1,0 +1,86 @@
+[
+  {
+    "type": 1,
+    "icao": "FALE",
+    "lat": -29.61177079,
+    "lon": 31.1193125,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12700,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12165,
+        "name": "SHAKA GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11845,
+        "name": "SHAKA TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12575,
+        "name": "Durban Radar"
+      }
+    ],
+    "elevation": 304,
+    "tower": true,
+    "name": "DURBAN - KING SHAKA INTERNATIONAL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -29.62505278,
+        "lonStart": 31.10774722,
+        "latEnd": -29.5984888,
+        "lonEnd": 31.13087778,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5912
+  },
+  {
+    "type": 1,
+    "icao": "FAVG",
+    "lat": -29.770670000000003,
+    "lon": 31.058532,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12060,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11910,
+        "name": "DURBAN APP"
+      }
+    ],
+    "elevation": 20,
+    "tower": true,
+    "name": "Virginia",
+    "runways": [
+      {
+        "type": 100,
+        "width": 34.14,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -29.77437296,
+        "lonStart": 31.05629041,
+        "latEnd": -29.76696704,
+        "lonEnd": 31.06077359,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 26368
+  }
+]

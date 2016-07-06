@@ -1,5 +1,373 @@
 [
   {
+    "type": 1,
+    "icao": "KRKP",
+    "lat": 28.086206999999998,
+    "lon": -97.0433335,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11927,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12305,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 12170,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 55,
+        "frequency": 12090,
+        "name": "CORPUS APP/DEP"
+      }
+    ],
+    "elevation": 23,
+    "tower": false,
+    "name": "ARANSAS CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 28.092656,
+        "lonStart": -97.051575,
+        "latEnd": 28.07995,
+        "lonEnd": -97.041711,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 28.092194,
+        "lonStart": -97.038756,
+        "latEnd": 28.080028,
+        "lonEnd": -97.041292,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 359
+  },
+  {
+    "type": 1,
+    "icao": "79R",
+    "lat": 28.11556583,
+    "lon": -97.93083389,
+    "communications": [],
+    "elevation": 165,
+    "tower": false,
+    "name": "Arrowhead",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 28.11923697,
+        "lonStart": -97.9347153,
+        "latEnd": 28.11189469,
+        "lonEnd": -97.92695248,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1225
+  },
+  {
+    "type": 1,
+    "icao": "KBEA",
+    "lat": 28.3654745,
+    "lon": -97.7924065,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 268,
+    "tower": false,
+    "name": "BEEVILLE MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 28.36597213,
+        "lonStart": -97.79637092,
+        "latEnd": 28.35776787,
+        "lonEnd": -97.78568708,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 28.37251352,
+        "lonStart": -97.79316019,
+        "latEnd": 28.36564448,
+        "lonEnd": -97.79440781,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1606
+  },
+  {
+    "type": 1,
+    "icao": "57TX",
+    "lat": 28.441941110000002,
+    "lon": -97.80444334,
+    "communications": [],
+    "elevation": 325,
+    "tower": false,
+    "name": "Brown Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 28.44528664,
+        "lonStart": -97.80605837,
+        "latEnd": 28.43859558,
+        "lonEnd": -97.80282831,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3269
+  },
+  {
+    "type": 1,
+    "icao": "2R9",
+    "lat": 28.824986,
+    "lon": -97.865568,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 289,
+    "tower": false,
+    "name": "KARNES CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 28.829333,
+        "lonStart": -97.8665,
+        "latEnd": 28.820639,
+        "lonEnd": -97.864636,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 13245
+  },
+  {
+    "type": 1,
+    "icao": "XS59",
+    "lat": 28.280839,
+    "lon": -97.21138049999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12272,
+        "name": "UNICOM"
+      }
+    ],
+    "elevation": 38,
+    "tower": false,
+    "name": "MELLON RANCH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 28.286378,
+        "lonStart": -97.214992,
+        "latEnd": 28.2753,
+        "lonEnd": -97.207769,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16011
+  },
+  {
+    "type": 1,
+    "icao": "87TX",
+    "lat": 28.689985829999998,
+    "lon": -97.76027694999999,
+    "communications": [],
+    "elevation": 418,
+    "tower": false,
+    "name": "Porter Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 28.68759554,
+        "lonStart": -97.76447281,
+        "latEnd": 28.69237612,
+        "lonEnd": -97.75608109,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20412
+  },
+  {
+    "type": 1,
+    "icao": "KRFG",
+    "lat": 28.29260625,
+    "lon": -97.32255875000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 56,
+    "tower": false,
+    "name": "ROOKE FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 28.300833,
+        "lonStart": -97.327222,
+        "latEnd": 28.290147,
+        "lonEnd": -97.321069,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 28.290556,
+        "lonStart": -97.325,
+        "latEnd": 28.288889,
+        "lonEnd": -97.316944,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 21026
+  },
+  {
+    "type": 1,
+    "icao": "T69",
+    "lat": 28.038586,
+    "lon": -97.542364,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12090,
+        "name": "CORPUS APP/DEP"
+      }
+    ],
+    "elevation": 48,
+    "tower": false,
+    "name": "SAN PATRICIO CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 16.76,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 28.044161,
+        "lonStart": -97.546203,
+        "latEnd": 28.034322,
+        "lonEnd": -97.538681,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 28.035014,
+        "lonStart": -97.545133,
+        "latEnd": 28.040847,
+        "lonEnd": -97.539439,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21998
+  },
+  {
+    "type": 1,
+    "icao": "96R",
+    "lat": 28.94775722,
+    "lon": -97.45999362,
+    "communications": [],
+    "elevation": 240,
+    "tower": false,
+    "name": "Yorktown",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 28.95116039,
+        "lonStart": -97.4595161,
+        "latEnd": 28.94435405,
+        "lonEnd": -97.46047114,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 27794
+  },
+  {
     "type": 17,
     "icao": "1TS7",
     "lat": 28.31361638,
@@ -147,5 +515,57 @@
       }
     ],
     "id": 33626
+  },
+  {
+    "type": 1,
+    "icao": "1XA2",
+    "lat": 28.361776000000003,
+    "lon": -97.65875433333333,
+    "communications": [],
+    "elevation": 188,
+    "tower": false,
+    "name": "[X] CHASE FLD INDUSTRIAL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "13L",
+        "numberEnd": "31R",
+        "latStart": 28.37034296,
+        "lonStart": -97.67093374,
+        "latEnd": 28.35479304,
+        "lonEnd": -97.65333826,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "13R",
+        "numberEnd": "31L",
+        "latStart": 28.36374796,
+        "lonStart": -97.66807919,
+        "latEnd": 28.34819804,
+        "lonEnd": -97.65048481,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 28.3777192,
+        "lonStart": -97.65590509,
+        "latEnd": 28.3558548,
+        "lonEnd": -97.65378491,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 34549
   }
 ]

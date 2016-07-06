@@ -1,5 +1,49 @@
 [
   {
+    "type": 1,
+    "icao": "YBWX",
+    "lat": -20.862895456666667,
+    "lon": 115.40638665333334,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12010,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 22,
+    "tower": false,
+    "name": "Barrow Island",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -20.86903908,
+        "lonStart": 115.40260078,
+        "latEnd": -20.85369785,
+        "lonEnd": 115.41075048,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 20,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -20.86594944,
+        "lonStart": 115.4058087,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20
+      }
+    ],
+    "id": 2285
+  },
+  {
     "type": 17,
     "icao": "YLOW",
     "lat": -20.654439,
@@ -23,5 +67,30 @@
       }
     ],
     "id": 30793
+  },
+  {
+    "type": 16,
+    "icao": "YMBS",
+    "lat": -20.45471953,
+    "lon": 115.53001638500001,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] MONTEBELLO ISLAND",
+    "runways": [
+      {
+        "type": 101,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "9",
+        "numberEnd": "27",
+        "latStart": -20.45471262,
+        "lonStart": 115.52994347,
+        "latEnd": -20.45472644,
+        "lonEnd": 115.5300893,
+        "length": 0
+      }
+    ],
+    "id": 34272
   }
 ]

@@ -1,96 +1,78 @@
 [
   {
     "type": 1,
-    "icao": "FMEE",
-    "lat": -20.889837926666665,
-    "lon": 30.04260578666667,
+    "icao": "FVMV",
+    "lat": -20.05880975,
+    "lon": 30.85917925,
     "communications": [
       {
-        "type": 50,
-        "frequency": 12680,
-        "name": "ATIS"
-      },
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "GILLOT GND"
-      },
-      {
         "type": 54,
-        "frequency": 11840,
-        "name": "GILLOT TWR"
+        "frequency": 11960,
+        "name": "TWR"
       },
       {
         "type": 55,
-        "frequency": 11940,
-        "name": "GILLOT APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12310,
-        "name": "GILLOT APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12720,
-        "name": "GILLOT APP"
+        "frequency": 11960,
+        "name": "APP"
       }
     ],
-    "elevation": 66,
+    "elevation": 3595,
     "tower": true,
-    "name": "St Denis Gillot",
+    "name": "MASVINGO INTL",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 17.98,
         "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": -20.885956,
-        "lonStart": 55.504619,
-        "latEnd": -20.89211178,
-        "lonEnd": 55.53494649,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -20.054803,
+        "lonStart": 30.858931,
+        "latEnd": -20.069636,
+        "lonEnd": 30.864011,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 45.11,
+        "width": 17.98,
         "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": -20.88417785,
-        "lonStart": 55.50412148,
-        "latEnd": -20.89500635,
-        "lonEnd": 55.52732219,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -20.055619,
+        "lonStart": 30.851153,
+        "latEnd": -20.055181,
+        "lonEnd": 30.862622,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 20.12,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -20.88812708,
-        "lonStart": 55.50673296,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.9
-      },
-      {
-        "type": 102,
-        "width": 20.12,
-        "surfaceType": 1,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": -20.8936485,
-        "lonStart": 55.52727941,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20.12
+        "surfacetype": 3
       }
     ],
-    "id": 24034
+    "id": 15909
+  },
+  {
+    "type": 1,
+    "icao": "FVSH",
+    "lat": -20.289497,
+    "lon": 30.088227500000002,
+    "communications": [],
+    "elevation": 3012,
+    "tower": false,
+    "name": "ZVISHAVANE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -20.2851,
+        "lonStart": 30.084858,
+        "latEnd": -20.293894,
+        "lonEnd": 30.091597,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 27862
   }
 ]

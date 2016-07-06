@@ -1,47 +1,40 @@
 [
   {
-    "type": 1,
-    "icao": "UHPP",
-    "lat": 53.167885575,
-    "lon": 105.80038406249999,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11810,
-        "name": "PETROPAVLOVSK START"
-      }
-    ],
-    "elevation": 129,
-    "tower": true,
-    "name": "YELIZOVO",
+    "type": 17,
+    "icao": "UI60",
+    "lat": 53.96353981000001,
+    "lon": 105.90799005000001,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[H] Kachug",
     "runways": [
       {
         "type": 100,
-        "width": 60.05,
+        "width": 49.99,
         "surfaceType": null,
-        "numberStart": "16L",
-        "numberEnd": "34R",
-        "latStart": 53.18418615,
-        "lonStart": 158.44402502,
-        "latEnd": 53.15600615,
-        "lonEnd": 158.46371102,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 53.96643394,
+        "lonStart": 105.89993043,
+        "latEnd": 53.96126006,
+        "lonEnd": 105.91772515,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 5
       },
       {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "16R",
-        "numberEnd": "34L",
-        "latStart": 53.176083,
-        "lonStart": 158.44623808,
-        "latEnd": 53.155267,
-        "lonEnd": 158.46069608,
-        "length": 0,
-        "surfacetype": 2
+        "type": 102,
+        "width": 10.1,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 53.96292543,
+        "lonStart": 105.90631457,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.1
       }
     ],
-    "id": 27694
+    "id": 30677
   }
 ]

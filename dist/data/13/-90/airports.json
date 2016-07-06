@@ -1,0 +1,109 @@
+[
+  {
+    "type": 1,
+    "icao": "MSLP",
+    "lat": 13.445666,
+    "lon": -89.051739,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12760,
+        "name": "ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 12125,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11800,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11990,
+        "name": "APP"
+      }
+    ],
+    "elevation": 101,
+    "tower": true,
+    "name": "El Salvador Intl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 13.435992,
+        "lonStart": -89.069625,
+        "latEnd": 13.445903,
+        "lonEnd": -89.041831,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 13.454,
+        "lonStart": -89.04775,
+        "latEnd": 13.446769,
+        "lonEnd": -89.04775,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 7062
+  },
+  {
+    "type": 1,
+    "icao": "MSSS",
+    "lat": 13.6988024,
+    "lon": -89.11984937,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11950,
+        "name": "APP"
+      }
+    ],
+    "elevation": 2020,
+    "tower": true,
+    "name": "ILOPANGO INTL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 13.7078274,
+        "lonStart": -89.12444787,
+        "latEnd": 13.6897774,
+        "lonEnd": -89.11525087,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12280
+  }
+]

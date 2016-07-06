@@ -1,175 +1,335 @@
 [
   {
     "type": 1,
-    "icao": "KVNY",
-    "lat": 34.209706861,
-    "lon": -87.95317073599999,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11845,
-        "name": "ATIS"
-      },
-      {
-        "type": 51,
-        "frequency": 11930,
-        "name": "CTAF"
-      },
-      {
-        "type": 51,
-        "frequency": 12295,
-        "name": "UNICOM"
-      },
-      {
-        "type": 52,
-        "frequency": 12660,
-        "name": "DEL"
-      },
-      {
-        "type": 53,
-        "frequency": 12170,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12020,
-        "name": "TWR (16L/34R)"
-      },
-      {
-        "type": 54,
-        "frequency": 11930,
-        "name": "TWR (16R/34L)"
-      },
-      {
-        "type": 54,
-        "frequency": 11900,
-        "name": "TWR (HELI)"
-      },
-      {
-        "type": 55,
-        "frequency": 12460,
-        "name": "SOCAL APP/DEP (SE)"
-      },
-      {
-        "type": 55,
-        "frequency": 13420,
-        "name": "SOCAL APP/DEP (SW)"
-      },
-      {
-        "type": 55,
-        "frequency": 13505,
-        "name": "SOCAL APP/DEP (E)"
-      },
-      {
-        "type": 56,
-        "frequency": 12040,
-        "name": "SOCAL APP/DEP (N)"
-      }
-    ],
-    "elevation": 801,
-    "tower": true,
-    "name": "Van Nuys",
+    "icao": "2A8",
+    "lat": 34.20926833,
+    "lon": -87.15806723,
+    "communications": [],
+    "elevation": 786,
+    "tower": false,
+    "name": "Addison Municipal",
     "runways": [
       {
         "type": 100,
-        "width": 46.02,
+        "width": 34.14,
         "surfaceType": null,
-        "numberStart": "16R",
-        "numberEnd": "34L",
-        "latStart": 34.218908,
-        "lonStart": -118.491236,
-        "latEnd": 34.196992,
-        "lonEnd": -118.489167,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 34.20650519,
+        "lonStart": -87.16087083,
+        "latEnd": 34.21203147,
+        "lonEnd": -87.15526363,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 571
+  },
+  {
+    "type": 1,
+    "icao": "5AL5",
+    "lat": 34.691111,
+    "lon": -87.652778,
+    "communications": [],
+    "elevation": 504,
+    "tower": false,
+    "name": "BIG RIVER AIRPARK",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 34.695232,
+        "lonStart": -87.652778,
+        "latEnd": 34.68699,
+        "lonEnd": -87.652778,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1709
+  },
+  {
+    "type": 1,
+    "icao": "3M2",
+    "lat": 34.144583499999996,
+    "lon": -87.327778,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 753,
+    "tower": false,
+    "name": "DOUBLE SPRINGS WINSTON CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.08,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 34.140556,
+        "lonStart": -87.330556,
+        "latEnd": 34.148611,
+        "lonEnd": -87.325,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5858
+  },
+  {
+    "type": 1,
+    "icao": "AL34",
+    "lat": 34.44704,
+    "lon": -87.38613278,
+    "communications": [],
+    "elevation": 685,
+    "tower": false,
+    "name": "Henson Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 34.44704,
+        "lonStart": -87.3919537,
+        "latEnd": 34.44704,
+        "lonEnd": -87.38031186,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11696
+  },
+  {
+    "type": 1,
+    "icao": "9A4",
+    "lat": 34.659347249999996,
+    "lon": -87.34883675,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11805,
+        "name": "HUNTSVILLE APP/DEP"
+      }
+    ],
+    "elevation": 587,
+    "tower": false,
+    "name": "LAWRENCE CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 34.661458,
+        "lonStart": -87.353603,
+        "latEnd": 34.652614,
+        "lonEnd": -87.340886,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 34.668503,
+        "lonStart": -87.351114,
+        "latEnd": 34.654814,
+        "lonEnd": -87.349744,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 14431
+  },
+  {
+    "type": 1,
+    "icao": "KHAB",
+    "lat": 34.1169445,
+    "lon": -87.9982015,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 442,
+    "tower": false,
+    "name": "MARION CO RANKIN FITE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 34.124497,
+        "lonStart": -87.997906,
+        "latEnd": 34.109392,
+        "lonEnd": -87.998497,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 15837
+  },
+  {
+    "type": 1,
+    "icao": "KMSL",
+    "lat": 34.745341249999996,
+    "lon": -87.61137199999999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11942,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12305,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 550,
+    "tower": false,
+    "name": "NORTHWEST ALABAMA RGNL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 34.749017,
+        "lonStart": -87.617019,
+        "latEnd": 34.7415,
+        "lonEnd": -87.596686,
         "length": 0,
         "surfacetype": 1
       },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 34.750917,
+        "lonStart": -87.615733,
+        "latEnd": 34.739931,
+        "lonEnd": -87.61605,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 18002
+  },
+  {
+    "type": 1,
+    "icao": "1M4",
+    "lat": 34.2803335,
+    "lon": -87.600415,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 930,
+    "tower": false,
+    "name": "POSEY FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 34.287211,
+        "lonStart": -87.600172,
+        "latEnd": 34.273456,
+        "lonEnd": -87.600658,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19515
+  },
+  {
+    "type": 1,
+    "icao": "M22",
+    "lat": 34.4450775,
+    "lon": -87.7116235,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 723,
+    "tower": false,
+    "name": "RUSSELLVILLE MUNI",
+    "runways": [
       {
         "type": 100,
         "width": 22.86,
         "surfaceType": null,
-        "numberStart": "16L",
-        "numberEnd": "34R",
-        "latStart": 34.218989,
-        "lonStart": -118.49,
-        "latEnd": 34.208003,
-        "lonEnd": -118.488961,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 34.437822,
+        "lonStart": -87.714169,
+        "latEnd": 34.452333,
+        "lonEnd": -87.709078,
         "length": 0,
         "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 11.9,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 34.21860482,
-        "lonStart": -118.49890222,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11.9
-      },
-      {
-        "type": 102,
-        "width": 11.9,
-        "surfaceType": 1,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 34.21791549,
-        "lonStart": -118.49876287,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11.9
-      },
-      {
-        "type": 102,
-        "width": 11.9,
-        "surfaceType": 1,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 34.20511302,
-        "lonStart": -118.49177012,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11.9
-      },
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 1,
-        "numberStart": "H4",
-        "numberEnd": null,
-        "latStart": 34.19708955,
-        "lonStart": -118.49043451,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      },
-      {
-        "type": 102,
-        "width": 14,
-        "surfaceType": 1,
-        "numberStart": "H5",
-        "numberEnd": null,
-        "latStart": 34.21572414,
-        "lonStart": -118.4879718,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 14
-      },
-      {
-        "type": 102,
-        "width": 11.9,
-        "surfaceType": 1,
-        "numberStart": "H6",
-        "numberEnd": null,
-        "latStart": 34.19972959,
-        "lonStart": -118.48762484,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11.9
       }
     ],
-    "id": 26203
+    "id": 21088
+  },
+  {
+    "type": 1,
+    "icao": "0AL9",
+    "lat": 34.85,
+    "lon": -87.6325,
+    "communications": [],
+    "elevation": 589,
+    "tower": false,
+    "name": "Wilson Creek",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 34.85,
+        "lonStart": -87.63617669,
+        "latEnd": 34.85,
+        "lonEnd": -87.62882331,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 27378
   },
   {
     "type": 17,
@@ -245,5 +405,54 @@
       }
     ],
     "id": 30852
+  },
+  {
+    "type": 16,
+    "icao": "AL46",
+    "lat": 34.902584999999995,
+    "lon": -87.58724778,
+    "communications": [],
+    "elevation": 508,
+    "tower": false,
+    "name": "[S] Shoals Creek",
+    "runways": [
+      {
+        "type": 101,
+        "width": 365.76,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 34.89459457,
+        "lonStart": -87.59079392,
+        "latEnd": 34.91057543,
+        "lonEnd": -87.58370164,
+        "length": 0
+      },
+      {
+        "type": 101,
+        "width": 304.8,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 34.90103698,
+        "lonStart": -87.59795254,
+        "latEnd": 34.90413302,
+        "lonEnd": -87.57654302,
+        "length": 0
+      },
+      {
+        "type": 101,
+        "width": 335.28,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 34.9174422,
+        "lonStart": -87.59044208,
+        "latEnd": 34.8877278,
+        "lonEnd": -87.58405348,
+        "length": 0
+      }
+    ],
+    "id": 34444
   }
 ]

@@ -1,209 +1,60 @@
 [
   {
     "type": 1,
-    "icao": "HEAR",
-    "lat": 31.073224,
-    "lon": 32.4451835,
-    "communications": [
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12100,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12372,
-        "name": "RADAR"
-      },
-      {
-        "type": 55,
-        "frequency": 12500,
-        "name": "RADAR"
-      }
-    ],
-    "elevation": 121,
-    "tower": true,
-    "name": "EL ARISH INTL",
+    "icao": "HE22",
+    "lat": 31.000176500000002,
+    "lon": 32.5528305,
+    "communications": [],
+    "elevation": 49,
+    "tower": false,
+    "name": "BALUZA",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 17.37,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 31.085756,
-        "lonStart": 33.829675,
-        "latEnd": 31.060692,
-        "lonEnd": 33.842039,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 30.9982,
+        "lonStart": 32.544347,
+        "latEnd": 31.002153,
+        "lonEnd": 32.561314,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 6677
+    "id": 1478
   },
   {
     "type": 1,
-    "icao": "HEGR",
-    "lat": 31.078782,
-    "lon": 32.60199325000001,
+    "icao": "HEPS",
+    "lat": 31.279393,
+    "lon": 32.240063500000005,
     "communications": [
       {
         "type": 54,
-        "frequency": 11820,
+        "frequency": 12070,
         "name": "TWR"
       }
     ],
-    "elevation": 324,
+    "elevation": 8,
     "tower": true,
-    "name": "EL GORA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 31.070483,
-        "lonStart": 34.137142,
-        "latEnd": 31.075917,
-        "lonEnd": 34.161483,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 31.094842,
-        "lonStart": 34.121028,
-        "latEnd": 31.073886,
-        "lonEnd": 34.127347,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 6697
-  },
-  {
-    "type": 1,
-    "icao": "LVGZ",
-    "lat": 31.248095999999997,
-    "lon": 32.76566429,
-    "communications": [],
-    "elevation": 300,
-    "tower": true,
-    "name": "Gaza Intl.",
+    "name": "PORT SAID",
     "runways": [
       {
         "type": 100,
         "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 31.23455738,
-        "lonStart": 34.26969396,
-        "latEnd": 31.26163462,
-        "lonEnd": 34.27642604,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 10361
-  },
-  {
-    "type": 1,
-    "icao": "LL62",
-    "lat": 31.23405183333333,
-    "lon": 32.93847733333333,
-    "communications": [
-      {
-        "type": 55,
-        "frequency": 12090,
-        "name": "TEL AVIV APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12140,
-        "name": "TEL AVIV APP"
-      }
-    ],
-    "elevation": 725,
-    "tower": false,
-    "name": "HATSERIM",
-    "runways": [
-      {
-        "type": 100,
-        "width": 34.14,
-        "surfaceType": null,
-        "numberStart": "10R",
-        "numberEnd": "28L",
-        "latStart": 31.232358,
-        "lonStart": 34.648981,
-        "latEnd": 31.225422,
-        "lonEnd": 34.678803,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 39.93,
-        "surfaceType": null,
-        "numberStart": "10L",
-        "numberEnd": "28R",
-        "latStart": 31.241572,
-        "lonStart": 34.646039,
-        "latEnd": 31.235814,
-        "lonEnd": 34.670589,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 31.240981,
-        "lonStart": 34.646444,
-        "latEnd": 31.228164,
-        "lonEnd": 34.657503,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 11052
-  },
-  {
-    "type": 1,
-    "icao": "LL1A",
-    "lat": 31.2607125,
-    "lon": 32.944734499999996,
-    "communications": [],
-    "elevation": 660,
-    "tower": false,
-    "name": "HATSERIM NORTHWEST",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
         "surfaceType": null,
         "numberStart": "10",
         "numberEnd": "28",
-        "latStart": 31.262664,
-        "lonStart": 34.630708,
-        "latEnd": 31.258761,
-        "lonEnd": 34.650036,
+        "latStart": 31.282278,
+        "lonStart": 32.228194,
+        "latEnd": 31.276508,
+        "lonEnd": 32.251933,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 11053
+    "id": 19496
   }
 ]

@@ -1,145 +1,104 @@
 [
   {
     "type": 1,
-    "icao": "KBFI",
-    "lat": 47.53032254625,
-    "lon": -79.84635447500001,
+    "icao": "CTA4",
+    "lat": 47.4492885,
+    "lon": -79.4179845,
     "communications": [
       {
-        "type": 50,
-        "frequency": 12775,
-        "name": "ATIS"
-      },
-      {
         "type": 51,
-        "frequency": 12295,
-        "name": "UNICOM"
-      },
-      {
-        "type": 52,
-        "frequency": 13240,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12342,
-        "name": "TEST"
-      },
-      {
-        "type": 54,
-        "frequency": 11830,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12060,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11920,
-        "name": "SEATTLE APP/DEP"
-      },
-      {
-        "type": 55,
-        "frequency": 12010,
-        "name": "SEATTLE APP/DEP"
-      },
-      {
-        "type": 55,
-        "frequency": 12040,
-        "name": "SEATTLE APP/DEP"
-      },
-      {
-        "type": 55,
-        "frequency": 12590,
-        "name": "SEATTLE APP/DEP"
+        "frequency": 12320,
+        "name": "CTAF"
       }
     ],
-    "elevation": 20,
-    "tower": true,
-    "name": "Boeing Field King Co Intl",
+    "elevation": 820,
+    "tower": false,
+    "name": "ST BRUNO DE GUIGUES",
     "runways": [
       {
         "type": 100,
         "width": 30.48,
         "surfaceType": null,
-        "numberStart": "13L",
-        "numberEnd": "31R",
-        "latStart": 47.53799292,
-        "lonStart": -122.307461,
-        "latEnd": 47.52916792,
-        "lonEnd": -122.3,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 47.449294,
+        "lonStart": -79.427058,
+        "latEnd": 47.449283,
+        "lonEnd": -79.408911,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22454
+  },
+  {
+    "type": 1,
+    "icao": "CYXR",
+    "lat": 47.694986,
+    "lon": -79.85256525,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12200,
+        "name": "MF"
+      }
+    ],
+    "elevation": 798,
+    "tower": false,
+    "name": "TIMISKAMING RGNL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 47.693919,
+        "lonStart": -79.857958,
+        "latEnd": 47.7013,
+        "lonEnd": -79.836186,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 60.96,
+        "width": 45.72,
         "surfaceType": null,
-        "numberStart": "13R",
-        "numberEnd": "31L",
-        "latStart": 47.54051792,
-        "lonStart": -122.311356,
-        "latEnd": 47.51672592,
-        "lonEnd": -122.291242,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 47.695836,
+        "lonStart": -79.861114,
+        "latEnd": 47.688889,
+        "lonEnd": -79.855003,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 10.1,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 47.5391584,
-        "lonStart": -122.30722302,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.1
-      },
-      {
-        "type": 102,
-        "width": 10.1,
-        "surfaceType": 1,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 47.52449785,
-        "lonStart": -122.29574268,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.1
-      },
-      {
-        "type": 102,
-        "width": 10.1,
-        "surfaceType": 1,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 47.52231054,
-        "lonStart": -122.29411749,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.1
-      },
-      {
-        "type": 102,
-        "width": 10.1,
-        "surfaceType": 1,
-        "numberStart": "H4",
-        "numberEnd": null,
-        "latStart": 47.5322089,
-        "lonStart": -122.30082945,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.1
+        "surfacetype": 5
       }
     ],
-    "id": 2917
+    "id": 24731
+  },
+  {
+    "type": 16,
+    "icao": "CNC8",
+    "lat": 47.059937500000004,
+    "lon": -79.79888249999999,
+    "communications": [],
+    "elevation": 955,
+    "tower": false,
+    "name": "[S] Temagami",
+    "runways": [
+      {
+        "type": 101,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 47.057763,
+        "lonStart": -79.804063,
+        "latEnd": 47.062112,
+        "lonEnd": -79.793702,
+        "length": 0
+      }
+    ],
+    "id": 34486
   }
 ]

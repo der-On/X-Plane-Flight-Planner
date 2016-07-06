@@ -1,80 +1,103 @@
 [
   {
     "type": 1,
-    "icao": "VTSG",
-    "lat": 8.09665711,
-    "lon": 80.80365247,
+    "icao": "VCCA",
+    "lat": 8.301488500000001,
+    "lon": 80.4278985,
     "communications": [
       {
-        "type": 53,
-        "frequency": 12190,
-        "name": "GND"
-      },
-      {
         "type": 54,
-        "frequency": 11860,
+        "frequency": 12050,
         "name": "TWR"
       },
       {
         "type": 55,
-        "frequency": 12005,
+        "frequency": 12670,
         "name": "APP"
       }
     ],
-    "elevation": 82,
+    "elevation": 324,
     "tower": true,
-    "name": "Krabi",
+    "name": "ANURADHAPURA",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 45.72,
         "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 8.106467,
-        "lonStart": 98.980119,
-        "latEnd": 8.085486,
-        "lonEnd": 98.997406,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 8.296844,
+        "lonStart": 80.423022,
+        "latEnd": 8.306133,
+        "lonEnd": 80.432775,
         "length": 0,
         "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 14.94,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 8.09657023,
-        "lonStart": 98.98378483,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 14.94
-      },
-      {
-        "type": 102,
-        "width": 14.94,
-        "surfaceType": 2,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 8.09677405,
-        "lonStart": 98.98402759,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 14.94
-      },
-      {
-        "type": 102,
-        "width": 14.94,
-        "surfaceType": 1,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 8.09798827,
-        "lonStart": 98.98484493,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 14.94
       }
     ],
-    "id": 14108
+    "id": 339
+  },
+  {
+    "type": 1,
+    "icao": "VC12",
+    "lat": 8.0498055,
+    "lon": 80.981376,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 170,
+    "tower": true,
+    "name": "MINNERIYA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 8.045764,
+        "lonStart": 80.971769,
+        "latEnd": 8.053847,
+        "lonEnd": 80.990983,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16137
+  },
+  {
+    "type": 1,
+    "icao": "VC13",
+    "lat": 8.741394499999998,
+    "lon": 80.497365,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 298,
+    "tower": true,
+    "name": "VAVUNIYA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 8.736175,
+        "lonStart": 80.492822,
+        "latEnd": 8.746614,
+        "lonEnd": 80.501908,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 26055
   }
 ]

@@ -1,216 +1,28 @@
 [
   {
     "type": 1,
-    "icao": "EDCA",
-    "lat": 53.832904224,
-    "lon": 29.732701629999998,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12265,
-        "name": "Anklam Info"
-      }
-    ],
-    "elevation": 16,
+    "icao": "UMNB",
+    "lat": 53.101618,
+    "lon": 29.203972,
+    "communications": [],
+    "elevation": 501,
     "tower": true,
-    "name": "Anklam",
+    "name": "Bobrujsk",
     "runways": [
       {
         "type": 100,
-        "width": 20,
+        "width": 49.07,
         "surfaceType": null,
-        "numberStart": "09L",
-        "numberEnd": "27R",
-        "latStart": 53.83333403,
-        "lonStart": 13.65982935,
-        "latEnd": 53.83220262,
-        "lonEnd": 13.6779476,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 40,
-        "surfaceType": null,
-        "numberStart": "09R",
-        "numberEnd": "27L",
-        "latStart": 53.83253161,
-        "lonStart": 13.66274418,
-        "latEnd": 53.83168716,
-        "lonEnd": 13.67632584,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 102,
-        "width": 10.7,
-        "surfaceType": 15,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 53.8347657,
-        "lonStart": 13.67704484,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11.2
-      }
-    ],
-    "id": 1069
-  },
-  {
-    "type": 1,
-    "icao": "EHDR",
-    "lat": 53.118260725,
-    "lon": 29.62076278,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13235,
-        "name": "DUTCH MIL INFO"
-      }
-    ],
-    "elevation": 14,
-    "tower": true,
-    "name": "Drachten",
-    "runways": [
-      {
-        "type": 100,
-        "width": 31.09,
-        "surfaceType": null,
-        "numberStart": "08",
+        "numberStart": "8",
         "numberEnd": "26",
-        "latStart": 53.11726285,
-        "lonStart": 6.12226696,
-        "latEnd": 53.1192586,
-        "lonEnd": 6.13611833,
+        "latStart": 53.10337,
+        "lonStart": 29.226186,
+        "latEnd": 53.099866,
+        "lonEnd": 29.181758,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 5
       }
     ],
-    "id": 6470
-  },
-  {
-    "type": 1,
-    "icao": "EHGG",
-    "lat": 53.121032750000005,
-    "lon": 29.84835425,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13355,
-        "name": "ATIS"
-      },
-      {
-        "type": 52,
-        "frequency": 12170,
-        "name": "DEL"
-      },
-      {
-        "type": 53,
-        "frequency": 12170,
-        "name": "GND/CLNC DEL"
-      },
-      {
-        "type": 54,
-        "frequency": 11870,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12030,
-        "name": "APP"
-      }
-    ],
-    "elevation": 17,
-    "tower": true,
-    "name": "Eelde",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 53.111083,
-        "lonStart": 6.560897,
-        "latEnd": 53.124956,
-        "lonEnd": 6.590267,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 53.117386,
-        "lonStart": 6.576858,
-        "latEnd": 53.130706,
-        "lonEnd": 6.580269,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 6988
-  },
-  {
-    "type": 1,
-    "icao": "EHLW",
-    "lat": 53.2269995,
-    "lon": 29.48448075,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12210,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12070,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12210,
-        "name": "ARRIVAL"
-      },
-      {
-        "type": 55,
-        "frequency": 12210,
-        "name": "RAPCON NORTH"
-      }
-    ],
-    "elevation": 4,
-    "tower": true,
-    "name": "Leeuwarden",
-    "runways": [
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 53.219167,
-        "lonStart": 5.738092,
-        "latEnd": 53.231664,
-        "lonEnd": 5.768297,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 53.228667,
-        "lonStart": 5.739667,
-        "latEnd": 53.2285,
-        "lonEnd": 5.769667,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 15115
+    "id": 2895
   }
 ]

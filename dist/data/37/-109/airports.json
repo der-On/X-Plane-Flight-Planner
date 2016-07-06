@@ -1,5 +1,130 @@
 [
   {
+    "type": 1,
+    "icao": "KCEZ",
+    "lat": 37.304085177999994,
+    "lon": -108.628398476,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13562,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 5916,
+    "tower": false,
+    "name": "CORTEZ MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 37.29560325,
+        "lonStart": -108.63625708,
+        "latEnd": 37.31040925,
+        "lonEnd": -108.61983508,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 14.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 37.30462109,
+        "lonStart": -108.62884956,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.1
+      },
+      {
+        "type": 102,
+        "width": 14.2,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 37.30478491,
+        "lonStart": -108.62866569,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.1
+      },
+      {
+        "type": 102,
+        "width": 25.3,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 37.30500739,
+        "lonStart": -108.62838497,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 4175
+  },
+  {
+    "type": 1,
+    "icao": "8V6",
+    "lat": 37.7638775,
+    "lon": -108.88871695,
+    "communications": [],
+    "elevation": 6975,
+    "tower": false,
+    "name": "Dove Creek",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 37.75857515,
+        "lonStart": -108.891564,
+        "latEnd": 37.76917985,
+        "lonEnd": -108.8858699,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 6444
+  },
+  {
+    "type": 1,
+    "icao": "CO27",
+    "lat": 37.46776944,
+    "lon": -108.66454112,
+    "communications": [],
+    "elevation": 6640,
+    "tower": false,
+    "name": "Tanner Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 37.47070939,
+        "lonStart": -108.66368596,
+        "latEnd": 37.46482949,
+        "lonEnd": -108.66539628,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 25039
+  },
+  {
     "type": 17,
     "icao": "CD36",
     "lat": 37.88332361,

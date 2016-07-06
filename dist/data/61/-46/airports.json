@@ -1,54 +1,52 @@
 [
   {
     "type": 1,
-    "icao": "9AK3",
-    "lat": 61.01388444,
-    "lon": -45.22298908,
-    "communications": [],
-    "elevation": 29,
-    "tower": false,
-    "name": "Nikolai Creek",
+    "icao": "BGBW",
+    "lat": 61.160721190000004,
+    "lon": -45.43299934,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11910,
+        "name": "AFIS"
+      },
+      {
+        "type": 54,
+        "frequency": 12130,
+        "name": "Tower"
+      }
+    ],
+    "elevation": 111,
+    "tower": true,
+    "name": "Narsarsuaq",
     "runways": [
       {
         "type": 100,
-        "width": 22.86,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 61.01329666,
-        "lonStart": -151.46045038,
-        "latEnd": 61.01447222,
-        "lonEnd": -151.43737018,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 61.1544748,
+        "lonStart": -45.43675035,
+        "latEnd": 61.16679904,
+        "lonEnd": -45.41485907,
         "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 18332
-  },
-  {
-    "type": 1,
-    "icao": "TYE",
-    "lat": 61.0766625,
-    "lon": -45.030853150000006,
-    "communications": [],
-    "elevation": 110,
-    "tower": false,
-    "name": "Tyonek",
-    "runways": [
+        "surfacetype": 2
+      },
       {
         "type": 100,
-        "width": 27.43,
+        "width": 70,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 61.08042126,
-        "lonStart": -151.13461004,
-        "latEnd": 61.07290374,
-        "lonEnd": -151.14153052,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 61.16605143,
+        "lonStart": -45.44270493,
+        "latEnd": 61.15555949,
+        "lonEnd": -45.43768301,
         "length": 0,
-        "surfacetype": 5
+        "surfacetype": 4
       }
     ],
-    "id": 25775
+    "id": 18134
   }
 ]

@@ -1,205 +1,71 @@
 [
   {
     "type": 1,
-    "icao": "LFTW",
-    "lat": 43.7556572,
-    "lon": 12.281051399999999,
+    "icao": "LIRZ",
+    "lat": 43.098083625,
+    "lon": 12.51397875,
     "communications": [
       {
-        "type": 50,
-        "frequency": 12935,
-        "name": "LFTW ATIS"
-      },
-      {
-        "type": 50,
-        "frequency": 11970,
-        "name": "RHONE FSS"
-      },
-      {
-        "type": 50,
-        "frequency": 12792,
-        "name": "RHONE FSS"
-      },
-      {
-        "type": 53,
-        "frequency": 12180,
-        "name": "GARONS GND"
-      },
-      {
         "type": 54,
-        "frequency": 12320,
-        "name": "GARONS TWR"
+        "frequency": 11810,
+        "name": "Perugia TWR"
       },
       {
         "type": 55,
-        "frequency": 12035,
-        "name": "RHONE APP"
-      },
-      {
-        "type": 55,
-        "frequency": 11970,
-        "name": "GARONS APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12210,
-        "name": "GARONS APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12490,
-        "name": "GARONS APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12460,
-        "name": "GARONS APPROACH APP"
-      },
-      {
-        "type": 55,
-        "frequency": 11990,
-        "name": "GARONS GCA APP"
+        "frequency": 12560,
+        "name": "Perugia APP"
       }
     ],
-    "elevation": 308,
+    "elevation": 692,
     "tower": true,
-    "name": "Garons Navy",
+    "name": "PERUGIA S.Francesco",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 45.5,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 43.769291,
-        "lonStart": 4.415556,
-        "latEnd": 43.745597,
-        "lonEnd": 4.41722,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 43.08848339,
+        "lonStart": 12.51062635,
+        "latEnd": 43.10768386,
+        "lonEnd": 12.51733115,
         "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 102,
-        "width": 24.99,
-        "surfaceType": 2,
-        "numberStart": "H33",
-        "numberEnd": null,
-        "latStart": 43.758626,
-        "lonStart": 4.412684,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.99
-      },
-      {
-        "type": 102,
-        "width": 39.93,
-        "surfaceType": 1,
-        "numberStart": "H34",
-        "numberEnd": null,
-        "latStart": 43.757055,
-        "lonStart": 4.419233,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 39.93
-      },
-      {
-        "type": 102,
-        "width": 34.14,
-        "surfaceType": 2,
-        "numberStart": "H35",
-        "numberEnd": null,
-        "latStart": 43.747717,
-        "lonStart": 4.412187,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 34.14
+        "surfacetype": 1
       }
     ],
-    "id": 10325
+    "id": 19328
   },
   {
     "type": 1,
-    "icao": "LFMQ",
-    "lat": 43.250903446666676,
-    "lon": 12.029107848333334,
+    "icao": "SMTO",
+    "lat": 43.94977667,
+    "lon": 12.511105775,
     "communications": [
       {
-        "type": 55,
-        "frequency": 12020,
-        "name": "PROVENCE APP"
-      },
-      {
-        "type": 51,
-        "frequency": 11900,
-        "name": "LFMQ AFIS"
+        "type": 54,
+        "frequency": 11807,
+        "name": "San Marino Radio"
       }
     ],
-    "elevation": 1391,
+    "elevation": 787,
     "tower": true,
-    "name": "Le Castellet",
+    "name": "San Marino Aeroclub",
     "runways": [
       {
         "type": 100,
-        "width": 30,
+        "width": 27.54,
         "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 43.25726341,
-        "lonStart": 5.77666751,
-        "latEnd": 43.24778537,
-        "lonEnd": 5.79397864,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 43.94774722,
+        "lonStart": 12.51202091,
+        "latEnd": 43.95180612,
+        "lonEnd": 12.51019064,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 12.1,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 43.25019924,
-        "lonStart": 5.78767841,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.7
-      },
-      {
-        "type": 102,
-        "width": 12.4,
-        "surfaceType": 1,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 43.25000517,
-        "lonStart": 5.78749285,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11.3
-      },
-      {
-        "type": 102,
-        "width": 11.4,
-        "surfaceType": 1,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 43.25016604,
-        "lonStart": 5.78697604,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11.1
-      },
-      {
-        "type": 102,
-        "width": 12.1,
-        "surfaceType": 1,
-        "numberStart": "H4",
-        "numberEnd": null,
-        "latStart": 43.25000145,
-        "lonStart": 5.78804691,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11.6
+        "surfacetype": 3
       }
     ],
-    "id": 15064
+    "id": 22816
   }
 ]

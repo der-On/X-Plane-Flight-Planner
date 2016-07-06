@@ -1,107 +1,117 @@
 [
   {
     "type": 1,
-    "icao": "LFMO",
-    "lat": 44.139691,
-    "lon": 20.568053,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12070,
-        "name": "ORANGE TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12210,
-        "name": "ORANGE TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11892,
-        "name": "ORANGE APP"
-      }
-    ],
-    "elevation": 196,
-    "tower": true,
-    "name": "Caritat AB",
+    "icao": "LYBT",
+    "lat": 44.93410183333333,
+    "lon": 20.256811666666664,
+    "communications": [],
+    "elevation": 265,
+    "tower": false,
+    "name": "BATAJNICA",
     "runways": [
       {
         "type": 100,
-        "width": 60.05,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 44.1489,
-        "lonStart": 4.859744,
-        "latEnd": 44.131333,
-        "lonEnd": 4.877358,
+        "numberStart": "12L",
+        "numberEnd": "30R",
+        "latStart": 44.9475,
+        "lonStart": 20.23775,
+        "latEnd": 44.9345,
+        "lonEnd": 20.2635,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 60.05,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 44.149053,
-        "lonStart": 4.859606,
-        "latEnd": 44.131363,
-        "lonEnd": 4.87734,
+        "numberStart": "12R",
+        "numberEnd": "30L",
+        "latStart": 44.935983,
+        "lonStart": 20.251767,
+        "latEnd": 44.923333,
+        "lonEnd": 20.277,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 1
       },
       {
-        "type": 102,
-        "width": 14.9,
-        "surfaceType": 2,
-        "numberStart": "H25",
-        "numberEnd": null,
-        "latStart": 44.137806,
-        "lonStart": 4.858219,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 14.9
+        "type": 100,
+        "width": 58.22,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 44.934206,
+        "lonStart": 20.250331,
+        "latEnd": 44.929089,
+        "lonEnd": 20.260522,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 4547
+    "id": 1559
   },
   {
     "type": 1,
-    "icao": "LILH",
-    "lat": 44.95282404666667,
-    "lon": 20.992302419999998,
+    "icao": "LYBE",
+    "lat": 44.818428999999995,
+    "lon": 20.309210999999998,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "BELGRADE TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11910,
+        "name": "BELGRADE APP"
+      }
+    ],
+    "elevation": 334,
+    "tower": true,
+    "name": "Belgrade",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 44.826519,
+        "lonStart": 20.290969,
+        "latEnd": 44.810339,
+        "lonEnd": 20.327453,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2486
+  },
+  {
+    "type": 1,
+    "icao": "LY87",
+    "lat": 44.7743265,
+    "lon": 20.961335,
     "communications": [],
-    "elevation": 421,
+    "elevation": 280,
     "tower": false,
-    "name": "VOGHERA",
+    "name": "KOVIN",
     "runways": [
       {
         "type": 100,
         "width": 29.87,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 44.956214,
-        "lonStart": 9.014308,
-        "latEnd": 44.947781,
-        "lonEnd": 9.018756,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 44.781336,
+        "lonStart": 20.951606,
+        "latEnd": 44.767317,
+        "lonEnd": 20.971064,
         "length": 0,
         "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 25,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 44.95447714,
-        "lonStart": 9.01481826,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 26.4
       }
     ],
-    "id": 26134
+    "id": 13478
   }
 ]

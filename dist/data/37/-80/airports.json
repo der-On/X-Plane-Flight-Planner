@@ -1,24 +1,102 @@
 [
   {
     "type": 1,
-    "icao": "KCEZ",
-    "lat": 37.304085177999994,
-    "lon": -79.44234961,
+    "icao": "0V4",
+    "lat": 37.141731,
+    "lon": -79.016386,
     "communications": [
       {
-        "type": 50,
-        "frequency": 13562,
-        "name": "ASOS"
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
       },
       {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
+        "type": 55,
+        "frequency": 13500,
+        "name": "ROANOKE APP/DEP"
       }
     ],
-    "elevation": 5916,
+    "elevation": 596,
     "tower": false,
-    "name": "CORTEZ MUNI",
+    "name": "BROOKNEAL CAMPBELL CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 37.138606,
+        "lonStart": -79.021603,
+        "latEnd": 37.144856,
+        "lonEnd": -79.011169,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1926
+  },
+  {
+    "type": 1,
+    "icao": "VA43",
+    "lat": 37.647356939999995,
+    "lon": -79.4247575,
+    "communications": [],
+    "elevation": 819,
+    "tower": false,
+    "name": "Balcony Downs Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 37.64893082,
+        "lonStart": -79.42536522,
+        "latEnd": 37.64578306,
+        "lonEnd": -79.42414978,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 2119
+  },
+  {
+    "type": 1,
+    "icao": "VA04",
+    "lat": 37.492075549999996,
+    "lon": -79.92865417,
+    "communications": [],
+    "elevation": 1100,
+    "tower": false,
+    "name": "Barrows",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 37.49128168,
+        "lonStart": -79.93214349,
+        "latEnd": 37.49286942,
+        "lonEnd": -79.92516485,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 2287
+  },
+  {
+    "type": 1,
+    "icao": "44VA",
+    "lat": 37.73124,
+    "lon": -79.81115944999999,
+    "communications": [],
+    "elevation": 1620,
+    "tower": false,
+    "name": "Big Hill",
     "runways": [
       {
         "type": 100,
@@ -26,51 +104,692 @@
         "surfaceType": null,
         "numberStart": "03",
         "numberEnd": "21",
-        "latStart": 37.29560325,
-        "lonStart": -108.63625708,
-        "latEnd": 37.31040925,
-        "lonEnd": -108.61983508,
+        "latStart": 37.7277051,
+        "lonStart": -79.81305665,
+        "latEnd": 37.7347749,
+        "lonEnd": -79.80926225,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 2696
+  },
+  {
+    "type": 1,
+    "icao": "VA13",
+    "lat": 37.2654225,
+    "lon": -79.04279751,
+    "communications": [],
+    "elevation": 785,
+    "tower": false,
+    "name": "Breezy Knoll",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 37.26341641,
+        "lonStart": -79.04514812,
+        "latEnd": 37.26742859,
+        "lonEnd": -79.0404469,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3146
+  },
+  {
+    "type": 1,
+    "icao": "70VA",
+    "lat": 37.07541833,
+    "lon": -79.82725500000001,
+    "communications": [],
+    "elevation": 1034,
+    "tower": false,
+    "name": "Burnt Chimney",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 37.07396727,
+        "lonStart": -79.82975826,
+        "latEnd": 37.07686939,
+        "lonEnd": -79.82475174,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3426
+  },
+  {
+    "type": 1,
+    "icao": "W24",
+    "lat": 37.37792083,
+    "lon": -79.12224528,
+    "communications": [],
+    "elevation": 939,
+    "tower": false,
+    "name": "Falwell",
+    "runways": [
+      {
+        "type": 100,
+        "width": 7.32,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 37.37812899,
+        "lonStart": -79.12724355,
+        "latEnd": 37.37771267,
+        "lonEnd": -79.11724701,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 7790
+  },
+  {
+    "type": 1,
+    "icao": "81VA",
+    "lat": 37.11805555,
+    "lon": -79.78861112,
+    "communications": [],
+    "elevation": 1050,
+    "tower": false,
+    "name": "Ferguson",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 37.1192507,
+        "lonStart": -79.7909191,
+        "latEnd": 37.1168604,
+        "lonEnd": -79.78630314,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9242
+  },
+  {
+    "type": 1,
+    "icao": "VA83",
+    "lat": 37.52235388,
+    "lon": -79.85198695,
+    "communications": [],
+    "elevation": 1140,
+    "tower": false,
+    "name": "Fincastle",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 37.52329116,
+        "lonStart": -79.85710575,
+        "latEnd": 37.5214166,
+        "lonEnd": -79.84686815,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9287
+  },
+  {
+    "type": 1,
+    "icao": "KHSP",
+    "lat": 37.9514525,
+    "lon": -79.8338885,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11880,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 3792,
+    "tower": false,
+    "name": "INGALLS FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 37.947472,
+        "lonStart": -79.842194,
+        "latEnd": 37.955433,
+        "lonEnd": -79.825583,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12311
+  },
+  {
+    "type": 1,
+    "icao": "VA65",
+    "lat": 37.39458555,
+    "lon": -79.32475028,
+    "communications": [],
+    "elevation": 920,
+    "tower": false,
+    "name": "Ivy Hill",
+    "runways": [
+      {
+        "type": 100,
+        "width": 53.34,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 37.39437662,
+        "lonStart": -79.32689206,
+        "latEnd": 37.39479448,
+        "lonEnd": -79.3226085,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12617
+  },
+  {
+    "type": 1,
+    "icao": "0VA1",
+    "lat": 37.23347583,
+    "lon": -79.58530917,
+    "communications": [],
+    "elevation": 900,
+    "tower": false,
+    "name": "Johnson Fox Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 37.23534654,
+        "lonStart": -79.58782882,
+        "latEnd": 37.23160512,
+        "lonEnd": -79.58278952,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13066
+  },
+  {
+    "type": 1,
+    "icao": "KLYH",
+    "lat": 37.3265195025,
+    "lon": -79.2006602875,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11980,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12765,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12765,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12547,
+        "name": "ROANOKE APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 13500,
+        "name": "ROANOKE APP/DEP"
+      }
+    ],
+    "elevation": 937,
+    "tower": true,
+    "name": "LYNCHBURG RGNL PRESTON GLENN FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 37.314717,
+        "lonStart": -79.20796661,
+        "latEnd": 37.331963,
+        "lonEnd": -79.19657736,
         "length": 0,
         "surfacetype": 1
       },
       {
-        "type": 102,
-        "width": 14.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 37.30462109,
-        "lonStart": -108.62884956,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 13.1
-      },
-      {
-        "type": 102,
-        "width": 14.2,
-        "surfaceType": 2,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 37.30478491,
-        "lonStart": -108.62866569,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 13.1
-      },
-      {
-        "type": 102,
-        "width": 25.3,
-        "surfaceType": 2,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 37.30500739,
-        "lonStart": -108.62838497,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 37.3340982,
+        "lonStart": -79.20093377,
+        "latEnd": 37.32529981,
+        "lonEnd": -79.19716341,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "id": 4175
+    "id": 14685
+  },
+  {
+    "type": 1,
+    "icao": "VA68",
+    "lat": 37.118754159999995,
+    "lon": -79.60280806,
+    "communications": [],
+    "elevation": 1020,
+    "tower": false,
+    "name": "Lakeview Aerodrome",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 37.11691379,
+        "lonStart": -79.60430689,
+        "latEnd": 37.12059453,
+        "lonEnd": -79.60130923,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14874
+  },
+  {
+    "type": 1,
+    "icao": "91VA",
+    "lat": 37.32764222,
+    "lon": -79.40475112,
+    "communications": [],
+    "elevation": 760,
+    "tower": false,
+    "name": "Miller",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 37.32578659,
+        "lonStart": -79.40692723,
+        "latEnd": 37.32949785,
+        "lonEnd": -79.40257501,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17211
+  },
+  {
+    "type": 1,
+    "icao": "W90",
+    "lat": 37.271804,
+    "lon": -79.335835,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 13500,
+        "name": "ROANOKE APP/DEP"
+      }
+    ],
+    "elevation": 849,
+    "tower": false,
+    "name": "NEW LONDON",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 37.275833,
+        "lonStart": -79.337503,
+        "latEnd": 37.267775,
+        "lonEnd": -79.334167,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17915
+  },
+  {
+    "type": 1,
+    "icao": "2VA0",
+    "lat": 37.11264305,
+    "lon": -79.60919695,
+    "communications": [],
+    "elevation": 940,
+    "tower": false,
+    "name": "Red Birds Airyard",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 37.11083757,
+        "lonStart": -79.61130822,
+        "latEnd": 37.11444853,
+        "lonEnd": -79.60708568,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21267
+  },
+  {
+    "type": 1,
+    "icao": "0VA2",
+    "lat": 37.79651777,
+    "lon": -79.76671417,
+    "communications": [],
+    "elevation": 1020,
+    "tower": false,
+    "name": "Riverwood",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 37.79838848,
+        "lonStart": -79.76925291,
+        "latEnd": 37.79464706,
+        "lonEnd": -79.76417543,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21551
+  },
+  {
+    "type": 1,
+    "icao": "KROA",
+    "lat": 37.3252335,
+    "lon": -79.97543000000002,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13237,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 11970,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11815,
+        "name": "APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12690,
+        "name": "APP/DEP"
+      }
+    ],
+    "elevation": 1174,
+    "tower": true,
+    "name": "Roanoke Rgnl Woodrum Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 37.322235,
+        "lonStart": -79.98399,
+        "latEnd": 37.334307,
+        "lonEnd": -79.966085,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 37.328956,
+        "lonStart": -79.981128,
+        "latEnd": 37.315436,
+        "lonEnd": -79.970517,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 21561
+  },
+  {
+    "type": 1,
+    "icao": "93W",
+    "lat": 37.348473330000004,
+    "lon": -79.57197778,
+    "communications": [],
+    "elevation": 850,
+    "tower": false,
+    "name": "Robinson - Private",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 37.34800533,
+        "lonStart": -79.57677242,
+        "latEnd": 37.34894133,
+        "lonEnd": -79.56718314,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21603
+  },
+  {
+    "type": 1,
+    "icao": "W91",
+    "lat": 37.107728,
+    "lon": -79.5924795,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 13500,
+        "name": "ROANOKE APP/DEP"
+      }
+    ],
+    "elevation": 892,
+    "tower": false,
+    "name": "SMITH MOUNTAIN LAKE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 37.104756,
+        "lonStart": -79.596181,
+        "latEnd": 37.1107,
+        "lonEnd": -79.588778,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22349
+  },
+  {
+    "type": 1,
+    "icao": "08VA",
+    "lat": 37.55402194,
+    "lon": -79.74976334,
+    "communications": [],
+    "elevation": 1000,
+    "tower": false,
+    "name": "Springwood Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 37.55377123,
+        "lonStart": -79.75233896,
+        "latEnd": 37.55427265,
+        "lonEnd": -79.74718772,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24003
+  },
+  {
+    "type": 1,
+    "icao": "93VA",
+    "lat": 37.536253329999994,
+    "lon": -79.02335639,
+    "communications": [],
+    "elevation": 810,
+    "tower": false,
+    "name": "Timberdoodle",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 37.534625,
+        "lonStart": -79.02463953,
+        "latEnd": 37.53788166,
+        "lonEnd": -79.02207325,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25375
+  },
+  {
+    "type": 1,
+    "icao": "VA63",
+    "lat": 37.67957833,
+    "lon": -79.42031362,
+    "communications": [],
+    "elevation": 720,
+    "tower": false,
+    "name": "Twin River",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 37.67710218,
+        "lonStart": -79.42446549,
+        "latEnd": 37.68205448,
+        "lonEnd": -79.41616175,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25758
+  },
+  {
+    "type": 1,
+    "icao": "94W",
+    "lat": 37.269309989999996,
+    "lon": -79.43586195,
+    "communications": [],
+    "elevation": 750,
+    "tower": false,
+    "name": "Windy Ridge",
+    "runways": [
+      {
+        "type": 100,
+        "width": 13.72,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 37.26989946,
+        "lonStart": -79.437607,
+        "latEnd": 37.26872052,
+        "lonEnd": -79.4341169,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 27415
   },
   {
     "type": 17,
@@ -246,5 +965,55 @@
       }
     ],
     "id": 33128
+  },
+  {
+    "type": 16,
+    "icao": "7VA7",
+    "lat": 37.03347583,
+    "lon": -79.69975223,
+    "communications": [],
+    "elevation": 794,
+    "tower": false,
+    "name": "[S] Brammer",
+    "runways": [
+      {
+        "type": 101,
+        "width": 91.44,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 37.03785711,
+        "lonStart": -79.70388802,
+        "latEnd": 37.02909455,
+        "lonEnd": -79.69561644,
+        "length": 0
+      }
+    ],
+    "id": 34010
+  },
+  {
+    "type": 16,
+    "icao": "VA48",
+    "lat": 37.03819944,
+    "lon": -79.59614028,
+    "communications": [],
+    "elevation": 793,
+    "tower": false,
+    "name": "[S] Lockerman",
+    "runways": [
+      {
+        "type": 101,
+        "width": 1524,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 37.04500578,
+        "lonStart": -79.59718723,
+        "latEnd": 37.0313931,
+        "lonEnd": -79.59509333,
+        "length": 0
+      }
+    ],
+    "id": 34259
   }
 ]

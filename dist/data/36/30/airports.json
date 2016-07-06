@@ -1,88 +1,80 @@
 [
   {
     "type": 1,
-    "icao": "LGML",
-    "lat": 36.696087,
-    "lon": 30.583645904999997,
-    "communications": [],
-    "elevation": 12,
-    "tower": true,
-    "name": "Milos",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.99,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 36.69546208,
-        "lonStart": 24.47057989,
-        "latEnd": 36.69671192,
-        "lonEnd": 24.47942011,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 17246
-  },
-  {
-    "type": 1,
-    "icao": "LGSR",
-    "lat": 36.3989491925,
-    "lon": 30.932177539999998,
+    "icao": "LTAI",
+    "lat": 36.89959816666667,
+    "lon": 30.79750733333334,
     "communications": [
       {
-        "type": 54,
-        "frequency": 11805,
-        "name": "TWR"
+        "type": 50,
+        "frequency": 11827,
+        "name": "ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 12317,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
       },
       {
         "type": 54,
-        "frequency": 12210,
+        "frequency": 12610,
         "name": "TWR"
       },
       {
         "type": 55,
-        "frequency": 11805,
-        "name": "APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12210,
+        "frequency": 12830,
         "name": "APP"
       }
     ],
-    "elevation": 127,
+    "elevation": 176,
     "tower": true,
-    "name": "SANTORINI",
+    "name": "Antalya",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "16R",
-        "numberEnd": "34L",
-        "latStart": 36.40766791,
-        "lonStart": 25.47364076,
-        "latEnd": 36.38977386,
-        "lonEnd": 25.48192644,
+        "numberStart": "18C",
+        "numberEnd": "36C",
+        "latStart": 36.915481,
+        "lonStart": 30.794747,
+        "latEnd": 36.885144,
+        "lonEnd": 30.790589,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
       },
       {
         "type": 100,
-        "width": 29.87,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "16L",
-        "numberEnd": "34R",
-        "latStart": 36.40813564,
-        "lonStart": 25.47507618,
-        "latEnd": 36.39021936,
-        "lonEnd": 25.48338386,
+        "numberStart": "18L",
+        "numberEnd": "36R",
+        "latStart": 36.91135,
+        "lonStart": 30.811406,
+        "latEnd": 36.880897,
+        "lonEnd": 30.807214,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "18R",
+        "numberEnd": "36L",
+        "latStart": 36.915692,
+        "lonStart": 30.792369,
+        "latEnd": 36.889025,
+        "lonEnd": 30.788719,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 22065
+    "id": 1087
   }
 ]

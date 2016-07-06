@@ -1,0 +1,94 @@
+[
+  {
+    "type": 1,
+    "icao": "OPKC",
+    "lat": 24.9065465,
+    "lon": 67.16079725,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12670,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12300,
+        "name": "KARACHI GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11880,
+        "name": "KARACHI TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12550,
+        "name": "KARACHI APP"
+      }
+    ],
+    "elevation": 100,
+    "tower": true,
+    "name": "Karachi Jinnah Intl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "07R",
+        "numberEnd": "25L",
+        "latStart": 24.900386,
+        "lonStart": 67.142631,
+        "latEnd": 24.908686,
+        "lonEnd": 67.175036,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "07L",
+        "numberEnd": "25R",
+        "latStart": 24.904708,
+        "lonStart": 67.147553,
+        "latEnd": 24.912406,
+        "lonEnd": 67.177969,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 13605
+  },
+  {
+    "type": 1,
+    "icao": "OPSF",
+    "lat": 24.874206,
+    "lon": 67.118504,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12250,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 29,
+    "tower": true,
+    "name": "SHAREA FAISAL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 24.872081,
+        "lonStart": 67.106575,
+        "latEnd": 24.876331,
+        "lonEnd": 67.130433,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22197
+  }
+]

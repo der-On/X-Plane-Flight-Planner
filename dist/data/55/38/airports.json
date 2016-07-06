@@ -1,40 +1,64 @@
 [
   {
     "type": 1,
-    "icao": "EYPA",
-    "lat": 55.9731155,
-    "lon": 38.536046,
+    "icao": "UUMS",
+    "lat": 55.20614788,
+    "lon": 38.676298897500004,
     "communications": [
       {
         "type": 54,
-        "frequency": 11830,
-        "name": "TWR"
+        "frequency": 13315,
+        "name": "Severka Start"
       },
       {
         "type": 55,
-        "frequency": 12430,
-        "name": "APP"
+        "frequency": 12400,
+        "name": "Severka Approach"
       }
     ],
-    "elevation": 33,
+    "elevation": 419,
     "tower": true,
-    "name": "PALANGA INTL",
+    "name": "Severka",
     "runways": [
       {
         "type": 100,
-        "width": 39.93,
+        "width": 24.99,
         "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 55.964464,
-        "lonStart": 21.090325,
-        "latEnd": 55.981767,
-        "lonEnd": 21.097297,
+        "numberStart": "5",
+        "numberEnd": "23",
+        "latStart": 55.20492258,
+        "lonStart": 38.674638,
+        "latEnd": 55.20741555,
+        "lonEnd": 38.68148491,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 10.06,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 55.20661109,
+        "lonStart": 38.67492101,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.06
+      },
+      {
+        "type": 102,
+        "width": 11.89,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 55.2056423,
+        "lonStart": 38.67415167,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.89
       }
     ],
-    "id": 19175
+    "id": 23312
   },
   {
     "type": 17,

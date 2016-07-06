@@ -1,68 +1,130 @@
 [
   {
     "type": 1,
-    "icao": "LFBF",
-    "lat": 43.54439875,
-    "lon": 11.90866725,
+    "icao": "LIQB",
+    "lat": 43.456189783333336,
+    "lon": 11.846944043333332,
     "communications": [
       {
         "type": 54,
-        "frequency": 11840,
-        "name": "FRANCAZAL TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12210,
-        "name": "FRANCAZAL TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11880,
-        "name": "FRANCAZAL APP"
+        "frequency": 12690,
+        "name": "Arezzo Radio"
       }
     ],
-    "elevation": 535,
-    "tower": true,
-    "name": "Francazal AB",
+    "elevation": 813,
+    "tower": false,
+    "name": "AREZZO",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 23,
         "surfaceType": null,
         "numberStart": "12",
         "numberEnd": "30",
-        "latStart": 43.549128,
-        "lonStart": 1.357287,
-        "latEnd": 43.542292,
-        "lonEnd": 1.377479,
+        "latStart": 43.45680834,
+        "lonStart": 11.84347923,
+        "latEnd": 43.45362461,
+        "lonEnd": 11.85123116,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 102,
-        "width": 29.87,
-        "surfaceType": 1,
-        "numberStart": "H1",
+        "width": 20,
+        "surfaceType": 15,
+        "numberStart": "H65",
         "numberEnd": null,
-        "latStart": 43.54208,
-        "lonStart": 1.371665,
+        "latStart": 43.4581364,
+        "lonStart": 11.84612174,
         "latEnd": null,
         "lonEnd": null,
-        "length": 29.87
-      },
-      {
-        "type": 102,
-        "width": 10.06,
-        "surfaceType": 3,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 43.544095,
-        "lonStart": 1.363425,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.06
+        "length": 20
       }
     ],
-    "id": 9661
+    "id": 380
+  },
+  {
+    "type": 1,
+    "icao": "LIRQ",
+    "lat": 43.81002133,
+    "lon": 11.205044690000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "FIRENZE TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12582,
+        "name": "FIRENZE APP"
+      },
+      {
+        "type": 50,
+        "frequency": 12935,
+        "name": "FIRENZE ATIS"
+      }
+    ],
+    "elevation": 144,
+    "tower": true,
+    "name": "Firenze Peretola",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 43.805325,
+        "lonStart": 11.19778908,
+        "latEnd": 43.81471766,
+        "lonEnd": 11.2123003,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 9307
+  },
+  {
+    "type": 1,
+    "icao": "LIQS",
+    "lat": 43.255343555,
+    "lon": 11.255068635,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12260,
+        "name": "SIENA INFO"
+      },
+      {
+        "type": 55,
+        "frequency": 12210,
+        "name": "GROSSETO APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12452,
+        "name": "GROSSETO APP"
+      }
+    ],
+    "elevation": 633,
+    "tower": false,
+    "name": "SIENA Ampugnano",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 43.26199497,
+        "lonStart": 11.25478569,
+        "latEnd": 43.24869214,
+        "lonEnd": 11.25535158,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22265
   }
 ]

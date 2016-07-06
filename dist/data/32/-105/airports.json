@@ -1,5 +1,227 @@
 [
   {
+    "type": 1,
+    "icao": "NM47",
+    "lat": 32.78011333,
+    "lon": -104.38135056,
+    "communications": [],
+    "elevation": 3359,
+    "tower": false,
+    "name": "2 X 4 Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 32.77822536,
+        "lonStart": -104.38455756,
+        "latEnd": 32.7820013,
+        "lonEnd": -104.37814356,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 32.78280963,
+        "lonStart": -104.38359613,
+        "latEnd": 32.77741703,
+        "lonEnd": -104.37910499,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 32.78281464,
+        "lonStart": -104.38078403,
+        "latEnd": 32.77741202,
+        "lonEnd": -104.38191709,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 4
+  },
+  {
+    "type": 1,
+    "icao": "KATS",
+    "lat": 32.85255825,
+    "lon": -104.467669,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12672,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11960,
+        "name": "ROSWELL APP/DEP"
+      }
+    ],
+    "elevation": 3541,
+    "tower": false,
+    "name": "ARTESIA MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 32.846039,
+        "lonStart": -104.475092,
+        "latEnd": 32.858272,
+        "lonEnd": -104.460578,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 32.8582,
+        "lonStart": -104.473703,
+        "latEnd": 32.847722,
+        "lonEnd": -104.461303,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 406
+  },
+  {
+    "type": 1,
+    "icao": "KCNM",
+    "lat": 32.3386035,
+    "lon": -104.26282250000001,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11837,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 3294,
+    "tower": false,
+    "name": "CAVERN CITY AIR TERMINAL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 32.32265,
+        "lonStart": -104.274258,
+        "latEnd": 32.338139,
+        "lonEnd": -104.256556,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "14R",
+        "numberEnd": "32L",
+        "latStart": 32.342892,
+        "lonStart": -104.270858,
+        "latEnd": 32.328467,
+        "lonEnd": -104.262586,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 32.342294,
+        "lonStart": -104.270725,
+        "latEnd": 32.342292,
+        "lonEnd": -104.253458,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "14L",
+        "numberEnd": "32R",
+        "latStart": 32.35185,
+        "lonStart": -104.260083,
+        "latEnd": 32.340244,
+        "lonEnd": -104.254056,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3745
+  },
+  {
+    "type": 1,
+    "icao": "62NM",
+    "lat": 32.598725,
+    "lon": -104.42635,
+    "communications": [],
+    "elevation": 3360,
+    "tower": false,
+    "name": "SEVEN RIVERS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 32.60013198,
+        "lonStart": -104.43130167,
+        "latEnd": 32.59731802,
+        "lonEnd": -104.42139833,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 32.59673114,
+        "lonStart": -104.42903809,
+        "latEnd": 32.60071886,
+        "lonEnd": -104.42366191,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 22172
+  },
+  {
     "type": 17,
     "icao": "NM45",
     "lat": 32.83927888,

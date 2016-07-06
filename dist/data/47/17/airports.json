@@ -1,132 +1,97 @@
 [
   {
     "type": 1,
-    "icao": "LFGH",
-    "lat": 47.36103601666667,
-    "lon": 17.73090792,
-    "communications": [],
-    "elevation": 580,
+    "icao": "LHPR",
+    "lat": 47.62770825,
+    "lon": 17.8101094925,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12990,
+        "name": "Per Info"
+      }
+    ],
+    "elevation": 421,
     "tower": true,
-    "name": "Cosne sur Loire",
+    "name": "GyC6r-Per",
     "runways": [
       {
         "type": 100,
-        "width": 17.98,
+        "width": 30,
         "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 47.36236545,
-        "lonStart": 2.91106994,
-        "latEnd": 47.35948747,
-        "lonEnd": 2.92082078,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 47.63286013,
+        "lonStart": 17.79322011,
+        "latEnd": 47.62388987,
+        "lonEnd": 17.81674586,
         "length": 0,
         "surfacetype": 1
       },
       {
-        "type": 102,
-        "width": 28,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 47.36125513,
-        "lonStart": 2.92216635,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 28
+        "type": 100,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 47.62925,
+        "lonStart": 17.809444,
+        "latEnd": 47.624833,
+        "lonEnd": 17.821028,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 5368
+    "id": 10921
   },
   {
     "type": 1,
-    "icao": "LFRH",
-    "lat": 47.76095,
-    "lon": 17.0395778,
+    "icao": "LHSA",
+    "lat": 47.076167999999996,
+    "lon": 17.9672585,
     "communications": [
       {
-        "type": 50,
-        "frequency": 12912,
-        "name": "LFRH ATIS"
+        "type": 54,
+        "frequency": 12900,
+        "name": "TWR"
       },
       {
         "type": 54,
-        "frequency": 11970,
-        "name": "LORIENT TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12270,
-        "name": "LORIENT TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11980,
-        "name": "LORIENT_GCA APP"
-      },
-      {
-        "type": 55,
-        "frequency": 11970,
-        "name": "LORIENT APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12210,
-        "name": "LORIENT APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12300,
-        "name": "LORIENT APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12230,
-        "name": "LORIENT APP"
+        "frequency": 12700,
+        "name": "TWR"
       }
     ],
-    "elevation": 122,
+    "elevation": 919,
     "tower": true,
-    "name": "Lorient Lann-Bihoue",
+    "name": "SZENTKIRALYSZABADJA",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 60.05,
         "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 47.756248,
-        "lonStart": -3.459188,
-        "latEnd": 47.763024,
-        "lonEnd": -3.428694,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 47.75622,
-        "lonStart": -3.441774,
-        "latEnd": 47.774372,
-        "lonEnd": -3.433972,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 47.086194,
+        "lonStart": 17.963778,
+        "latEnd": 47.0695,
+        "lonEnd": 17.973111,
         "length": 0,
         "surfacetype": 1
       },
       {
-        "type": 102,
-        "width": 14.94,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 47.754886,
-        "lonStart": -3.438545,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 14.94
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "16R",
+        "numberEnd": "34L",
+        "latStart": 47.081386,
+        "lonStart": 17.962314,
+        "latEnd": 47.067592,
+        "lonEnd": 17.969831,
+        "length": 0,
+        "surfacetype": 4
       }
     ],
-    "id": 15504
+    "id": 22640
   }
 ]

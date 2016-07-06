@@ -1,82 +1,81 @@
 [
   {
     "type": 1,
-    "icao": "SCAR",
-    "lat": -18.348503,
-    "lon": -44.340683,
-    "communications": [
-      {
-        "type": 55,
-        "frequency": 11990,
-        "name": "Approach"
-      },
-      {
-        "type": 54,
-        "frequency": 11850,
-        "name": "Tower"
-      },
-      {
-        "type": 54,
-        "frequency": 12190,
-        "name": "Ground"
-      }
-    ],
-    "elevation": 166,
+    "icao": "SNQV",
+    "lat": -18.749403,
+    "lon": -44.45702806,
+    "communications": [],
+    "elevation": 2205,
     "tower": true,
-    "name": "Chacalluta",
+    "name": "Curvelo",
     "runways": [
       {
         "type": 100,
-        "width": 45,
+        "width": 23,
         "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": -18.357768,
-        "lonStart": -70.342128,
-        "latEnd": -18.339238,
-        "lonEnd": -70.335337,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -18.75127381,
+        "lonStart": -44.46237703,
+        "latEnd": -18.74753219,
+        "lonEnd": -44.45167909,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 4741
+    "id": 5608
   },
   {
     "type": 1,
-    "icao": "SPTN",
-    "lat": -18.053333000000002,
-    "lon": -44.16119082,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11840,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11830,
-        "name": "APP"
-      }
-    ],
-    "elevation": 1538,
-    "tower": true,
-    "name": "Coronel Carlos Ciriani Santa Rosa - Tacna",
+    "icao": "SDZJ",
+    "lat": -18.91722222,
+    "lon": -44.45444444,
+    "communications": [],
+    "elevation": 2343,
+    "tower": false,
+    "name": "Fazenda Porteirinhas",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 17.98,
         "surfaceType": null,
         "numberStart": "02",
         "numberEnd": "20",
-        "latStart": -18.06396904,
-        "lonStart": -70.27968468,
-        "latEnd": -18.04269696,
-        "lonEnd": -70.27198178,
+        "latStart": -18.91924122,
+        "lonStart": -44.45436617,
+        "latEnd": -18.91520322,
+        "lonEnd": -44.45452271,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 4
       }
     ],
-    "id": 5346
+    "id": 8652
+  },
+  {
+    "type": 1,
+    "icao": "SSHO",
+    "lat": -18.661944435,
+    "lon": -44.851944445,
+    "communications": [],
+    "elevation": 2208,
+    "tower": false,
+    "name": "Fazenda Santa Fe",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -18.65841063,
+        "lonStart": -44.8541569,
+        "latEnd": -18.66547824,
+        "lonEnd": -44.84973199,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 8810
   },
   {
     "type": 17,

@@ -1,39 +1,317 @@
 [
   {
     "type": 1,
-    "icao": "VEPT",
-    "lat": 25.591316499999998,
-    "lon": 55.336758,
+    "icao": "OIBA",
+    "lat": 25.8757405,
+    "lon": 55.0329945,
     "communications": [
       {
         "type": 54,
-        "frequency": 12110,
-        "name": "TWR"
+        "frequency": 12290,
+        "name": "INFO"
       },
       {
         "type": 54,
-        "frequency": 11830,
-        "name": "TWR"
+        "frequency": 12190,
+        "name": "INFO"
       }
     ],
-    "elevation": 170,
-    "tower": true,
-    "name": "PATNA",
+    "elevation": 22,
+    "tower": false,
+    "name": "ABUMUSA ISLAND",
     "runways": [
       {
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 25.588061,
-        "lonStart": 85.078944,
-        "latEnd": 25.594572,
-        "lonEnd": 85.097036,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 25.874189,
+        "lonStart": 55.018197,
+        "latEnd": 25.877292,
+        "lonEnd": 55.047792,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 19253
+    "id": 61
+  },
+  {
+    "type": 1,
+    "icao": "OM01",
+    "lat": 25.755522499999998,
+    "lon": 55.9601635,
+    "communications": [],
+    "elevation": 15,
+    "tower": false,
+    "name": "AL SAQR",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 25.758763,
+        "lonStart": 55.958322,
+        "latEnd": 25.752282,
+        "lonEnd": 55.962005,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 163
+  },
+  {
+    "type": 1,
+    "icao": "OMDB",
+    "lat": 25.2511103175,
+    "lon": 55.3710990675,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11875,
+        "name": "Dubai Tower Air 1"
+      },
+      {
+        "type": 54,
+        "frequency": 11955,
+        "name": "Dubai Tower Air 2"
+      },
+      {
+        "type": 50,
+        "frequency": 13170,
+        "name": "Dubai ATIS Departure"
+      },
+      {
+        "type": 50,
+        "frequency": 12627,
+        "name": "Dubai ATIS Arrival"
+      },
+      {
+        "type": 55,
+        "frequency": 12490,
+        "name": "Dubai Arrival 1"
+      },
+      {
+        "type": 55,
+        "frequency": 12025,
+        "name": "Dubai Arrival 2"
+      },
+      {
+        "type": 56,
+        "frequency": 12620,
+        "name": "Dubai Departure North"
+      },
+      {
+        "type": 56,
+        "frequency": 12250,
+        "name": "Dubai Departure South"
+      },
+      {
+        "type": 53,
+        "frequency": 11835,
+        "name": "Dubai Ground 1"
+      },
+      {
+        "type": 53,
+        "frequency": 11885,
+        "name": "Dubai Ground 2"
+      },
+      {
+        "type": 52,
+        "frequency": 12035,
+        "name": "Dubai Delivery"
+      }
+    ],
+    "elevation": 62,
+    "tower": true,
+    "name": "Dubai Intl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "12R",
+        "numberEnd": "30L",
+        "latStart": 25.25618071,
+        "lonStart": 55.35829727,
+        "latEnd": 25.2352781,
+        "lonEnd": 55.39597369,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "12L",
+        "numberEnd": "30R",
+        "latStart": 25.2666993,
+        "lonStart": 55.34666559,
+        "latEnd": 25.24628316,
+        "lonEnd": 55.38345972,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 6511
+  },
+  {
+    "type": 1,
+    "icao": "OMDM",
+    "lat": 25.026857,
+    "lon": 55.366193,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12192,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11855,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12250,
+        "name": "APP"
+      }
+    ],
+    "elevation": 165,
+    "tower": true,
+    "name": "MINHAD AB",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 25.026547,
+        "lonStart": 55.346608,
+        "latEnd": 25.027167,
+        "lonEnd": 55.385778,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16132
+  },
+  {
+    "type": 1,
+    "icao": "OMRK",
+    "lat": 25.6133515,
+    "lon": 55.938831,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12160,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11825,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 102,
+    "tower": true,
+    "name": "RAS AL KHAIMAH INTL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 25.629739,
+        "lonStart": 55.933906,
+        "latEnd": 25.596964,
+        "lonEnd": 55.943756,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20837
+  },
+  {
+    "type": 1,
+    "icao": "OMSJ",
+    "lat": 25.3285865,
+    "lon": 55.517218,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12240,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11860,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12790,
+        "name": "DUBAI DIR"
+      },
+      {
+        "type": 55,
+        "frequency": 12490,
+        "name": "DUBAI ARR"
+      },
+      {
+        "type": 56,
+        "frequency": 12445,
+        "name": "DUBAI DEP"
+      }
+    ],
+    "elevation": 111,
+    "tower": true,
+    "name": "SHARJAH INTL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 25.338342,
+        "lonStart": 55.50025,
+        "latEnd": 25.318831,
+        "lonEnd": 55.534186,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22198
+  },
+  {
+    "type": 1,
+    "icao": "AE-0003",
+    "lat": 25.09016698,
+    "lon": 55.13265968,
+    "communications": [],
+    "elevation": 3,
+    "tower": true,
+    "name": "Skydive Dubai",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.3,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 25.08880844,
+        "lonStart": 55.12958361,
+        "latEnd": 25.09152552,
+        "lonEnd": 55.13573575,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 23658
   }
 ]

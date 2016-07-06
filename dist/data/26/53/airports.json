@@ -1,202 +1,102 @@
 [
   {
     "type": 1,
-    "icao": "VIBL",
-    "lat": 26.98834,
-    "lon": 53.933592999999995,
-    "communications": [],
-    "elevation": 384,
-    "tower": false,
-    "name": "BAKSHI KA TALAB",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 26.988819,
-        "lonStart": 80.879325,
-        "latEnd": 26.987861,
-        "lonEnd": 80.906908,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 1455
-  },
-  {
-    "type": 1,
-    "icao": "VIRB",
-    "lat": 26.248489,
-    "lon": 53.8102095,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12250,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 360,
-    "tower": true,
-    "name": "FURSATGANJ",
-    "runways": [
-      {
-        "type": 100,
-        "width": 42.06,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 26.248442,
-        "lonStart": 81.371883,
-        "latEnd": 26.248536,
-        "lonEnd": 81.389125,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 7737
-  },
-  {
-    "type": 1,
-    "icao": "VI75",
-    "lat": 26.520408,
-    "lon": 53.3743805,
-    "communications": [],
-    "elevation": 400,
-    "tower": false,
-    "name": "KALYANPUR",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 26.520569,
-        "lonStart": 80.228514,
-        "latEnd": 26.520247,
-        "lonEnd": 80.237314,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 13205
-  },
-  {
-    "type": 1,
-    "icao": "VIKA",
-    "lat": 26.4414445,
-    "lon": 53.399861,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12230,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 411,
-    "tower": true,
-    "name": "KANPUR",
-    "runways": [
-      {
-        "type": 100,
-        "width": 41.15,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 26.442531,
-        "lonStart": 80.359364,
-        "latEnd": 26.440358,
-        "lonEnd": 80.370364,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 13227
-  },
-  {
-    "type": 1,
-    "icao": "VICX",
-    "lat": 26.4043835,
-    "lon": 53.402387499999996,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12350,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12270,
-        "name": "APP"
-      }
-    ],
-    "elevation": 405,
-    "tower": true,
-    "name": "KANPUR CHAKERI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 26.404136,
-        "lonStart": 80.400144,
-        "latEnd": 26.404631,
-        "lonEnd": 80.428294,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 13228
-  },
-  {
-    "type": 1,
-    "icao": "VILK",
-    "lat": 26.760593,
-    "lon": 53.818157,
+    "icao": "OIBK",
+    "lat": 26.52700516666667,
+    "lon": 53.98024233333334,
     "communications": [
       {
         "type": 50,
-        "frequency": 12680,
+        "frequency": 12800,
         "name": "ATIS"
       },
       {
         "type": 54,
-        "frequency": 11970,
+        "frequency": 12167,
         "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 11860,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11960,
-        "name": "APP"
       }
     ],
-    "elevation": 410,
+    "elevation": 101,
     "tower": true,
-    "name": "LUCKNOW",
+    "name": "Kish Island",
     "runways": [
+      {
+        "type": 100,
+        "width": 65.53,
+        "surfaceType": null,
+        "numberStart": "09L",
+        "numberEnd": "27R",
+        "latStart": 26.530106,
+        "lonStart": 53.962014,
+        "latEnd": 26.527306,
+        "lonEnd": 53.998592,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "09R",
+        "numberEnd": "27L",
+        "latStart": 26.527556,
+        "lonStart": 53.961922,
+        "latEnd": 26.524753,
+        "lonEnd": 53.9985,
+        "length": 0,
+        "surfacetype": 1
+      },
       {
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
         "numberStart": "09",
         "numberEnd": "27",
-        "latStart": 26.760411,
-        "lonStart": 80.875539,
-        "latEnd": 26.760775,
-        "lonEnd": 80.903142,
+        "latStart": 26.52755785,
+        "lonStart": 53.96192417,
+        "latEnd": 26.52475215,
+        "lonEnd": 53.99850183,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 14657
+    "id": 13939
+  },
+  {
+    "type": 1,
+    "icao": "OIBV",
+    "lat": 26.810298500000002,
+    "lon": 53.356289000000004,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12855,
+        "name": "INFO"
+      },
+      {
+        "type": 54,
+        "frequency": 12900,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 76,
+    "tower": false,
+    "name": "LAVAN ISLAND",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 26.813719,
+        "lonStart": 53.346564,
+        "latEnd": 26.806878,
+        "lonEnd": 53.366014,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14428
   }
 ]

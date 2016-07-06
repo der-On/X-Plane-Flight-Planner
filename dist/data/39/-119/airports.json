@@ -1,0 +1,115 @@
+[
+  {
+    "type": 1,
+    "icao": "KFLX",
+    "lat": 39.498996,
+    "lon": -118.74869575000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12085,
+        "name": "NAVY FALLON APP/DEP"
+      }
+    ],
+    "elevation": 3963,
+    "tower": false,
+    "name": "FALLON MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 39.494353,
+        "lonStart": -118.756583,
+        "latEnd": 39.504731,
+        "lonEnd": -118.741458,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 39.503214,
+        "lonStart": -118.752578,
+        "latEnd": 39.493686,
+        "lonEnd": -118.744164,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 7414
+  },
+  {
+    "type": 1,
+    "icao": "KNFL",
+    "lat": 39.41712116666667,
+    "lon": -118.69908683333334,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11925,
+        "name": "NAVY FALLON TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12085,
+        "name": "NAVY FALLON APP/DEP"
+      }
+    ],
+    "elevation": 3934,
+    "tower": true,
+    "name": "FALLON NAS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 61.26,
+        "surfaceType": null,
+        "numberStart": "13R",
+        "numberEnd": "31L",
+        "latStart": 39.435589,
+        "lonStart": -118.713969,
+        "latEnd": 39.404031,
+        "lonEnd": -118.685661,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "13L",
+        "numberEnd": "31R",
+        "latStart": 39.430569,
+        "lonStart": -118.70515,
+        "latEnd": 39.405597,
+        "lonEnd": -118.682758,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 46.94,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 39.413108,
+        "lonStart": -118.715875,
+        "latEnd": 39.413833,
+        "lonEnd": -118.691108,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 7415
+  }
+]

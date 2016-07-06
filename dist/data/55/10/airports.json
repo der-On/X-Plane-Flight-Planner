@@ -1,73 +1,385 @@
 [
   {
     "type": 1,
-    "icao": "EGPF",
-    "lat": 55.8713797625,
-    "lon": 10.645003525,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12957,
-        "name": "Glasgow Information"
-      },
-      {
-        "type": 53,
-        "frequency": 12170,
-        "name": "Glasgow Ground"
-      },
-      {
-        "type": 54,
-        "frequency": 11880,
-        "name": "Glasgow Tower"
-      },
-      {
-        "type": 55,
-        "frequency": 11910,
-        "name": "Glasgow Approach"
-      }
-    ],
-    "elevation": 26,
-    "tower": true,
-    "name": "Glasgow",
+    "icao": "EK57",
+    "lat": 55.06766402,
+    "lon": 10.24318696,
+    "communications": [],
+    "elevation": 11,
+    "tower": false,
+    "name": "Bjoernoe",
     "runways": [
       {
         "type": 100,
-        "width": 46.02,
+        "width": 20.12,
         "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 55.86348064,
-        "lonStart": -4.44906008,
-        "latEnd": 55.87997447,
-        "lonEnd": -4.41823594,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 55.06859166,
+        "lonStart": 10.23908603,
+        "latEnd": 55.06673638,
+        "lonEnd": 10.24728789,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 2781
+  },
+  {
+    "type": 1,
+    "icao": "EK29",
+    "lat": 55.54307498,
+    "lon": 10.03223793,
+    "communications": [],
+    "elevation": 5,
+    "tower": false,
+    "name": "Bogense",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 55.54302648,
+        "lonStart": 10.02900415,
+        "latEnd": 55.54312348,
+        "lonEnd": 10.03547171,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 2921
+  },
+  {
+    "type": 1,
+    "icao": "EK60",
+    "lat": 55.169539275,
+    "lon": 10.50324364,
+    "communications": [],
+    "elevation": 198,
+    "tower": false,
+    "name": "Egeskov Slot",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 55.168532,
+        "lonStart": 10.49808818,
+        "latEnd": 55.17054655,
+        "lonEnd": 10.5083991,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6990
+  },
+  {
+    "type": 1,
+    "icao": "EKEL",
+    "lat": 55.75675919,
+    "lon": 10.248688155,
+    "communications": [],
+    "elevation": 6,
+    "tower": false,
+    "name": "Endelave",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 55.75788796,
+        "lonStart": 10.24411351,
+        "latEnd": 55.75563042,
+        "lonEnd": 10.2532628,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7183
+  },
+  {
+    "type": 1,
+    "icao": "EK15",
+    "lat": 55.752479570000006,
+    "lon": 10.293957195,
+    "communications": [],
+    "elevation": 10,
+    "tower": false,
+    "name": "Endelave Syd",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 55.75550057,
+        "lonStart": 10.29376427,
+        "latEnd": 55.74945857,
+        "lonEnd": 10.29415012,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7184
+  },
+  {
+    "type": 1,
+    "icao": "EK65",
+    "lat": 55.03414536,
+    "lon": 10.872541165,
+    "communications": [],
+    "elevation": 47,
+    "tower": false,
+    "name": "Langeland Tranakaer",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 55.03209535,
+        "lonStart": 10.87187539,
+        "latEnd": 55.03619537,
+        "lonEnd": 10.87320694,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14927
+  },
+  {
+    "type": 1,
+    "icao": "EKOD",
+    "lat": 55.475290675,
+    "lon": 10.333263315,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11952,
+        "name": "AFIS"
+      }
+    ],
+    "elevation": 56,
+    "tower": true,
+    "name": "Odense",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 55.47148611,
+        "lonStart": 10.31529167,
+        "latEnd": 55.47983056,
+        "lonEnd": 10.3405,
         "length": 0,
         "surfacetype": 1
       },
       {
-        "type": 102,
-        "width": 20.12,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 55.87097754,
-        "lonStart": -4.42522446,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.99
-      },
-      {
-        "type": 102,
-        "width": 20.12,
-        "surfaceType": 1,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 55.8710864,
-        "lonStart": -4.42567583,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.99
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 55.47692642,
+        "lonStart": 10.33441819,
+        "latEnd": 55.47291961,
+        "lonEnd": 10.3428434,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 10514
+    "id": 18818
+  },
+  {
+    "type": 1,
+    "icao": "EK32",
+    "lat": 55.41904997,
+    "lon": 10.67053584,
+    "communications": [],
+    "elevation": 24,
+    "tower": false,
+    "name": "Oestfyn Kerteminde",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.95,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 55.42097854,
+        "lonStart": 10.67051326,
+        "latEnd": 55.4171214,
+        "lonEnd": 10.67055842,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18829
+  },
+  {
+    "type": 1,
+    "icao": "EK03",
+    "lat": 55.325015035,
+    "lon": 10.581662945000001,
+    "communications": [],
+    "elevation": 125,
+    "tower": false,
+    "name": "Rolsted-Ferrritslev (E452)",
+    "runways": [
+      {
+        "type": 100,
+        "width": 35.05,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 55.32258581,
+        "lonStart": 10.57872073,
+        "latEnd": 55.32744426,
+        "lonEnd": 10.58460516,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21688
+  },
+  {
+    "type": 1,
+    "icao": "EKSS",
+    "lat": 55.88986389,
+    "lon": 10.613584724999999,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "Samsoe",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 55.89064167,
+        "lonStart": 10.60820278,
+        "latEnd": 55.88908611,
+        "lonEnd": 10.61896667,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 22782
+  },
+  {
+    "type": 1,
+    "icao": "EKST",
+    "lat": 55.016504999999995,
+    "lon": 10.563061000000001,
+    "communications": [],
+    "elevation": 16,
+    "tower": false,
+    "name": "Sydfyn Tasinge",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 55.01786645,
+        "lonStart": 10.55641074,
+        "latEnd": 55.01514355,
+        "lonEnd": 10.56971126,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24498
+  },
+  {
+    "type": 1,
+    "icao": "EK76",
+    "lat": 55.956830215,
+    "lon": 10.40939645,
+    "communications": [],
+    "elevation": 8,
+    "tower": false,
+    "name": "Tunoe",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.85,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 55.95630513,
+        "lonStart": 10.40596138,
+        "latEnd": 55.9573553,
+        "lonEnd": 10.41283152,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25697
+  },
+  {
+    "type": 1,
+    "icao": "EK50",
+    "lat": 55.24852339,
+    "lon": 10.048197505000001,
+    "communications": [],
+    "elevation": 236,
+    "tower": false,
+    "name": "Vestfyn",
+    "runways": [
+      {
+        "type": 100,
+        "width": 13.11,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 55.24985465,
+        "lonStart": 10.0476126,
+        "latEnd": 55.24719213,
+        "lonEnd": 10.04878241,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 26291
+  },
+  {
+    "type": 1,
+    "icao": "EK27",
+    "lat": 55.247970355,
+    "lon": 10.2013145,
+    "communications": [],
+    "elevation": 120,
+    "tower": false,
+    "name": "Voejstrup",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 55.24791373,
+        "lonStart": 10.19264764,
+        "latEnd": 55.24802698,
+        "lonEnd": 10.20998136,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 26391
   }
 ]

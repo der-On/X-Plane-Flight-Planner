@@ -1,5 +1,128 @@
 [
   {
+    "type": 1,
+    "icao": "LSZS",
+    "lat": 46.532468861428576,
+    "lon": 9.88138439,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13660,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 13532,
+        "name": "AFIS"
+      }
+    ],
+    "elevation": 5600,
+    "tower": true,
+    "name": "Samedan",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 46.52695235,
+        "lonStart": 9.87806896,
+        "latEnd": 46.54146117,
+        "lonEnd": 9.88980795,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 11.1,
+        "surfaceType": 2,
+        "numberStart": "H5",
+        "numberEnd": null,
+        "latStart": 46.53201857,
+        "lonStart": 9.88075977,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.8
+      },
+      {
+        "type": 102,
+        "width": 11.4,
+        "surfaceType": 2,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 46.53196585,
+        "lonStart": 9.88046691,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.8
+      },
+      {
+        "type": 102,
+        "width": 11.4,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 46.53190757,
+        "lonStart": 9.88015205,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.8
+      },
+      {
+        "type": 102,
+        "width": 10.5,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 46.53141939,
+        "lonStart": 9.88039545,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.9
+      },
+      {
+        "type": 102,
+        "width": 10.5,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 46.53155713,
+        "lonStart": 9.88003964,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.9
+      }
+    ],
+    "id": 22779
+  },
+  {
+    "type": 1,
+    "icao": "LILO",
+    "lat": 46.1500015,
+    "lon": 9.7166672,
+    "communications": [],
+    "elevation": 901,
+    "tower": false,
+    "name": "Sondrio Caiolo",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 46.1500015,
+        "lonStart": 9.71147244,
+        "latEnd": 46.1500015,
+        "lonEnd": 9.72186196,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 23839
+  },
+  {
     "type": 17,
     "icao": "LSXD",
     "lat": 46.837686,

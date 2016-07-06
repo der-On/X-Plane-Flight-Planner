@@ -1,5 +1,359 @@
 [
   {
+    "type": 1,
+    "icao": "O85",
+    "lat": 40.57487277,
+    "lon": -122.40806417,
+    "communications": [],
+    "elevation": 719,
+    "tower": false,
+    "name": "Benton Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 40.57810671,
+        "lonStart": -122.40904713,
+        "latEnd": 40.57163883,
+        "lonEnd": -122.40708121,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2567
+  },
+  {
+    "type": 1,
+    "icao": "73Q",
+    "lat": 40.08043111,
+    "lon": -122.57694834,
+    "communications": [],
+    "elevation": 890,
+    "tower": false,
+    "name": "Big Bluff Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 40.08330729,
+        "lonStart": -122.57714534,
+        "latEnd": 40.07755493,
+        "lonEnd": -122.57675134,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 2689
+  },
+  {
+    "type": 1,
+    "icao": "6Q4",
+    "lat": 40.346264160000004,
+    "lon": -122.33889278000001,
+    "communications": [],
+    "elevation": 529,
+    "tower": false,
+    "name": "Flying N Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 40.34982515,
+        "lonStart": -122.33913765,
+        "latEnd": 40.34270317,
+        "lonEnd": -122.33864791,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9491
+  },
+  {
+    "type": 1,
+    "icao": "68CA",
+    "lat": 40.361110999999994,
+    "lon": -122.215833,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 615,
+    "tower": false,
+    "name": "LAKE CALIFORNIA AIR PARK",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 40.365114,
+        "lonStart": -122.217097,
+        "latEnd": 40.357108,
+        "lonEnd": -122.214569,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14328
+  },
+  {
+    "type": 1,
+    "icao": "O54",
+    "lat": 40.7457,
+    "lon": -122.9219695,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 2350,
+    "tower": false,
+    "name": "LONNIE POOL FLD WEAVERVILLE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 40.749617,
+        "lonStart": -122.920428,
+        "latEnd": 40.741783,
+        "lonEnd": -122.923511,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14604
+  },
+  {
+    "type": 1,
+    "icao": "3CL2",
+    "lat": 40.15638888,
+    "lon": -122.30194445000001,
+    "communications": [],
+    "elevation": 345,
+    "tower": false,
+    "name": "Meadow Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 40.1559261,
+        "lonStart": -122.30456717,
+        "latEnd": 40.15685166,
+        "lonEnd": -122.29932173,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16987
+  },
+  {
+    "type": 1,
+    "icao": "75Q",
+    "lat": 40.01598805,
+    "lon": -122.38999751,
+    "communications": [],
+    "elevation": 550,
+    "tower": false,
+    "name": "Rancho Tehama",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 40.01749174,
+        "lonStart": -122.39641948,
+        "latEnd": 40.01448436,
+        "lonEnd": -122.38357554,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 21179
+  },
+  {
+    "type": 1,
+    "icao": "KRBL",
+    "lat": 40.150679,
+    "lon": -122.2522985,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12077,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 349,
+    "tower": false,
+    "name": "Red Bluff Muni",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 40.158336,
+        "lonStart": -122.2544,
+        "latEnd": 40.143022,
+        "lonEnd": -122.250197,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 21268
+  },
+  {
+    "type": 1,
+    "icao": "KRDD",
+    "lat": 40.50865275,
+    "lon": -122.2931015,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12410,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 11980,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11980,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 502,
+    "tower": true,
+    "name": "Redding Muni",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 40.520336,
+        "lonStart": -122.294853,
+        "latEnd": 40.501111,
+        "lonEnd": -122.294886,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 40.511917,
+        "lonStart": -122.297178,
+        "latEnd": 40.501247,
+        "lonEnd": -122.285489,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 21281
+  },
+  {
+    "type": 1,
+    "icao": "CA53",
+    "lat": 40.6725,
+    "lon": -122.34166667,
+    "communications": [],
+    "elevation": 740,
+    "tower": false,
+    "name": "Tews Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 7.32,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 40.67280086,
+        "lonStart": -122.34489732,
+        "latEnd": 40.67219914,
+        "lonEnd": -122.33843602,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 25200
+  },
+  {
+    "type": 1,
+    "icao": "O86",
+    "lat": 40.982918,
+    "lon": -122.694025,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 2390,
+    "tower": false,
+    "name": "Trinity Center",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 40.986947,
+        "lonStart": -122.695831,
+        "latEnd": 40.978889,
+        "lonEnd": -122.692219,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 25602
+  },
+  {
     "type": 17,
     "icao": "2CL4",
     "lat": 40.52209611,
@@ -48,5 +402,30 @@
       }
     ],
     "id": 31282
+  },
+  {
+    "type": 16,
+    "icao": "Q83",
+    "lat": 40.75765,
+    "lon": -122.32334028,
+    "communications": [],
+    "elevation": 1063,
+    "tower": false,
+    "name": "[S] Bridge Bay Resort",
+    "runways": [
+      {
+        "type": 101,
+        "width": 1219.2,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 40.75121124,
+        "lonStart": -122.33932694,
+        "latEnd": 40.76408876,
+        "lonEnd": -122.30735362,
+        "length": 0
+      }
+    ],
+    "id": 34013
   }
 ]

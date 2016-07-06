@@ -1,5 +1,310 @@
 [
   {
+    "type": 1,
+    "icao": "SDNT",
+    "lat": -15.68166667,
+    "lon": -47.76888889,
+    "communications": [],
+    "elevation": 3562,
+    "tower": false,
+    "name": "Aerorancho",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.13,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -15.67895427,
+        "lonStart": -47.77376812,
+        "latEnd": -15.68437907,
+        "lonEnd": -47.76400966,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 661
+  },
+  {
+    "type": 1,
+    "icao": "SIQE",
+    "lat": -15.9373755,
+    "lon": -47.7270155,
+    "communications": [],
+    "elevation": 3362,
+    "tower": false,
+    "name": "Botelho",
+    "runways": [
+      {
+        "type": 100,
+        "width": 25,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -15.933638,
+        "lonStart": -47.733206,
+        "latEnd": -15.941113,
+        "lonEnd": -47.720825,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3039
+  },
+  {
+    "type": 1,
+    "icao": "SBBR",
+    "lat": -15.867752988571429,
+    "lon": -47.91291410571428,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12780,
+        "name": "BRASILIA ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 12100,
+        "name": "BRASILIA CLRD"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "BRASILIA TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11845,
+        "name": "BRASILIA TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12150,
+        "name": "BRASILIA TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11920,
+        "name": "BRASILIA APP"
+      },
+      {
+        "type": 55,
+        "frequency": 11950,
+        "name": "BRASILIA APP"
+      },
+      {
+        "type": 55,
+        "frequency": 11970,
+        "name": "BRASILIA APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12000,
+        "name": "BRASILIA APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12960,
+        "name": "BRASILIA APP"
+      },
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "GND"
+      }
+    ],
+    "elevation": 3479,
+    "tower": true,
+    "name": "Brasilia Presidente Juscelino Kubitsch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "11R",
+        "numberEnd": "29L",
+        "latStart": -15.88052267,
+        "lonStart": -47.94002399,
+        "latEnd": -15.87844967,
+        "lonEnd": -47.90921799,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "11L",
+        "numberEnd": "29R",
+        "latStart": -15.86336905,
+        "lonStart": -47.92761138,
+        "latEnd": -15.86153607,
+        "lonEnd": -47.8977796,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 20.7,
+        "surfaceType": 3,
+        "numberStart": "H19",
+        "numberEnd": null,
+        "latStart": -15.8649824,
+        "lonStart": -47.90517234,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.3
+      },
+      {
+        "type": 102,
+        "width": 21.5,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": -15.86468597,
+        "lonStart": -47.90519298,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21.5
+      },
+      {
+        "type": 102,
+        "width": 18.9,
+        "surfaceType": 2,
+        "numberStart": "H5",
+        "numberEnd": null,
+        "latStart": -15.86072509,
+        "lonStart": -47.90540046,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21.8
+      }
+    ],
+    "id": 3126
+  },
+  {
+    "type": 1,
+    "icao": "SDZF",
+    "lat": -15.991944445000001,
+    "lon": -47.47527778,
+    "communications": [],
+    "elevation": 2946,
+    "tower": false,
+    "name": "Fazenda Lamarao",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": -15.99405115,
+        "lonStart": -47.47599168,
+        "latEnd": -15.98983774,
+        "lonEnd": -47.47456388,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 8451
+  },
+  {
+    "type": 1,
+    "icao": "SWFR",
+    "lat": -15.554266093333334,
+    "lon": -47.3443125,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12345,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 3166,
+    "tower": true,
+    "name": "Formosa",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -15.56123086,
+        "lonStart": -47.34753367,
+        "latEnd": -15.55028036,
+        "lonEnd": -47.34140684,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 10.4,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": -15.55128706,
+        "lonStart": -47.34399699,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.2
+      }
+    ],
+    "id": 9587
+  },
+  {
+    "type": 1,
+    "icao": "SSGP",
+    "lat": -15.85388889,
+    "lon": -47.80638889,
+    "communications": [],
+    "elevation": 3281,
+    "tower": false,
+    "name": "Piquet",
+    "runways": [
+      {
+        "type": 100,
+        "width": 35.05,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -15.85450487,
+        "lonStart": -47.80960272,
+        "latEnd": -15.85327291,
+        "lonEnd": -47.80317506,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20191
+  },
+  {
+    "type": 1,
+    "icao": "SWPV",
+    "lat": -15.67888889,
+    "lon": -47.544166669999996,
+    "communications": [],
+    "elevation": 3806,
+    "tower": false,
+    "name": "Planaltina",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -15.67897682,
+        "lonStart": -47.54930719,
+        "latEnd": -15.67880096,
+        "lonEnd": -47.53902615,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 20237
+  },
+  {
     "type": 17,
     "icao": "SWWR",
     "lat": -15.77583333,

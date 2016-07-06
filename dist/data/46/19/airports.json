@@ -1,249 +1,39 @@
 [
   {
     "type": 1,
-    "icao": "LFCA",
-    "lat": 46.782827913999995,
-    "lon": 19.041872292,
-    "communications": [],
-    "elevation": 206,
-    "tower": true,
-    "name": "CHATELLERAULT",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 46.78570259,
-        "lonStart": 0.54969907,
-        "latEnd": 46.78093245,
-        "lonEnd": 0.55010518,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 20,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 46.78622137,
-        "lonStart": 0.55017671,
-        "latEnd": 46.77905839,
-        "lonEnd": 0.55078128,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 15.9,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 46.78222477,
-        "lonStart": 0.54949484,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 14.8
-      }
-    ],
-    "id": 3834
-  },
-  {
-    "type": 1,
-    "icao": "LIVD",
-    "lat": 46.728208931999994,
-    "lon": 19.126367207999998,
+    "icao": "LHKE",
+    "lat": 46.917500000000004,
+    "lon": 19.749222000000003,
     "communications": [
-      {
-        "type": 51,
-        "frequency": 11885,
-        "name": "Dobiacco Informatione"
-      }
-    ],
-    "elevation": 4068,
-    "tower": true,
-    "name": "Dobbiaco",
-    "runways": [
-      {
-        "type": 100,
-        "width": 50,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 46.72738,
-        "lonStart": 12.225178,
-        "latEnd": 46.726501,
-        "lonEnd": 12.238067,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 102,
-        "width": 10.6,
-        "surfaceType": 15,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 46.72903975,
-        "lonStart": 12.22704118,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.8
-      },
-      {
-        "type": 102,
-        "width": 10.6,
-        "surfaceType": 15,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 46.72899091,
-        "lonStart": 12.22669656,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.8
-      },
-      {
-        "type": 102,
-        "width": 10.6,
-        "surfaceType": 15,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 46.729133,
-        "lonStart": 12.2264193,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.8
-      }
-    ],
-    "id": 6325
-  },
-  {
-    "type": 1,
-    "icao": "LSZL",
-    "lat": 46.16237944181818,
-    "lon": 19.047430104545455,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13345,
-        "name": "ATIS"
-      },
-      {
-        "type": 53,
-        "frequency": 12170,
-        "name": "GND"
-      },
       {
         "type": 54,
-        "frequency": 13482,
+        "frequency": 13575,
         "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12025,
+        "name": "APP"
       }
     ],
-    "elevation": 649,
+    "elevation": 376,
     "tower": true,
-    "name": "Locarno",
+    "name": "KECSKEMET",
     "runways": [
       {
         "type": 100,
-        "width": 22.86,
+        "width": 60.05,
         "surfaceType": null,
-        "numberStart": "08L",
-        "numberEnd": "26R",
-        "latStart": 46.16461912,
-        "lonStart": 8.87274333,
-        "latEnd": 46.16598157,
-        "lonEnd": 8.88293017,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 46.923611,
+        "lonStart": 19.735472,
+        "latEnd": 46.911389,
+        "lonEnd": 19.762972,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "08C",
-        "numberEnd": "26C",
-        "latStart": 46.1599737,
-        "lonStart": 8.87441685,
-        "latEnd": 46.16118034,
-        "lonEnd": 8.88343812,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "08R",
-        "numberEnd": "26L",
-        "latStart": 46.15873126,
-        "lonStart": 8.87483288,
-        "latEnd": 46.15992226,
-        "lonEnd": 8.88373696,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 102,
-        "width": 6,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 46.16328829,
-        "lonStart": 8.88314854,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6
-      },
-      {
-        "type": 102,
-        "width": 6,
-        "surfaceType": 2,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 46.1633075,
-        "lonStart": 8.88294786,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6
-      },
-      {
-        "type": 102,
-        "width": 6,
-        "surfaceType": 2,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 46.16325054,
-        "lonStart": 8.8827531,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6
-      },
-      {
-        "type": 102,
-        "width": 6,
-        "surfaceType": 2,
-        "numberStart": "H4",
-        "numberEnd": null,
-        "latStart": 46.16296893,
-        "lonStart": 8.88202758,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6
-      },
-      {
-        "type": 102,
-        "width": 6,
-        "surfaceType": 2,
-        "numberStart": "H5",
-        "numberEnd": null,
-        "latStart": 46.16295035,
-        "lonStart": 8.88177684,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6
+        "surfacetype": 2
       }
     ],
-    "id": 15383
+    "id": 13285
   }
 ]

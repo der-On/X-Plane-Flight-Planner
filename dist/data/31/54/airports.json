@@ -1,66 +1,44 @@
 [
   {
     "type": 1,
-    "icao": "VIBR",
-    "lat": 31.8767125,
-    "lon": 54.5120945,
+    "icao": "OIYY",
+    "lat": 31.904908,
+    "lon": 54.2765,
     "communications": [
       {
+        "type": 50,
+        "frequency": 12625,
+        "name": "ATIS"
+      },
+      {
         "type": 54,
-        "frequency": 12230,
+        "frequency": 12270,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12190,
         "name": "TWR"
       }
     ],
-    "elevation": 3573,
+    "elevation": 4054,
     "tower": true,
-    "name": "KULLU MANALI",
+    "name": "YAZD SHAHID SADOOGHI",
     "runways": [
       {
         "type": 100,
-        "width": 30.48,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 31.881442,
-        "lonStart": 77.152206,
-        "latEnd": 31.871983,
-        "lonEnd": 77.156506,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 31.917519,
+        "lonStart": 54.260664,
+        "latEnd": 31.892297,
+        "lonEnd": 54.292336,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 13489
-  },
-  {
-    "type": 1,
-    "icao": "VISM",
-    "lat": 31.0818015,
-    "lon": 54.070786,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12250,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 5072,
-    "tower": true,
-    "name": "SHIMLA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 31.0864,
-        "lonStart": 77.064369,
-        "latEnd": 31.077203,
-        "lonEnd": 77.071561,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22227
+    "id": 27689
   }
 ]

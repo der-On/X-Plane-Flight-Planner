@@ -1,66 +1,78 @@
 [
   {
     "type": 1,
-    "icao": "BIPA",
-    "lat": 65.555720695,
-    "lon": 20.787351345000005,
+    "icao": "ESPE",
+    "lat": 65.874898465,
+    "lon": 20.146451773749998,
     "communications": [
       {
-        "type": 50,
-        "frequency": 11910,
-        "name": "AFIS"
+        "type": 51,
+        "frequency": 12415,
+        "name": "TCA"
+      },
+      {
+        "type": 54,
+        "frequency": 13040,
+        "name": "TWR"
       }
     ],
-    "elevation": 11,
-    "tower": false,
-    "name": "Patreksfjordur",
+    "elevation": 597,
+    "tower": true,
+    "name": "Vidsel",
     "runways": [
       {
         "type": 100,
-        "width": 45,
+        "width": 35,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 65.8802335,
+        "lonStart": 20.12659013,
+        "latEnd": 65.870998,
+        "lonEnd": 20.17178,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 15,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 65.88855423,
+        "lonStart": 20.09586979,
+        "latEnd": 65.88489465,
+        "lonEnd": 20.10965095,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 35,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 65.8704806,
+        "lonStart": 20.13396927,
+        "latEnd": 65.86494577,
+        "lonEnd": 20.15677501,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 15,
         "surfaceType": null,
         "numberStart": "14",
         "numberEnd": "32",
-        "latStart": 65.55894118,
-        "lonStart": -23.97779752,
-        "latEnd": 65.55250021,
-        "lonEnd": -23.95162671,
+        "latStart": 65.87299357,
+        "lonStart": 20.17731811,
+        "latEnd": 65.8660874,
+        "lonEnd": 20.19966093,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 19835
-  },
-  {
-    "type": 1,
-    "icao": "BITF",
-    "lat": 65.676529335,
-    "lon": 20.83265941,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11910,
-        "name": "AFIS"
-      }
-    ],
-    "elevation": 115,
-    "tower": false,
-    "name": "Talknafjordur",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.69,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 65.67825104,
-        "lonStart": -24.00948881,
-        "latEnd": 65.67480763,
-        "lonEnd": -23.99840451,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 24990
+    "id": 26314
   }
 ]

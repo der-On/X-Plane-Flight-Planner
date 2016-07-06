@@ -1,5 +1,224 @@
 [
   {
+    "type": 1,
+    "icao": "64F",
+    "lat": 31.643758050000002,
+    "lon": -100.96955278,
+    "communications": [],
+    "elevation": 2443,
+    "tower": false,
+    "name": "Alvie Cole Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 31.64724732,
+        "lonStart": -100.97211389,
+        "latEnd": 31.64026878,
+        "lonEnd": -100.96699167,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 946
+  },
+  {
+    "type": 1,
+    "icao": "96TX",
+    "lat": 31.16544527,
+    "lon": -100.47648195,
+    "communications": [],
+    "elevation": 2125,
+    "tower": false,
+    "name": "Brown Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 31.1695197,
+        "lonStart": -100.47581274,
+        "latEnd": 31.16137084,
+        "lonEnd": -100.47715116,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3267
+  },
+  {
+    "type": 1,
+    "icao": "TS65",
+    "lat": 31.3584975,
+    "lon": -100.6128765,
+    "communications": [],
+    "elevation": 1974,
+    "tower": false,
+    "name": "DUCOTE AIRPARK",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 31.363506,
+        "lonStart": -100.613906,
+        "latEnd": 31.353489,
+        "lonEnd": -100.611847,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5892
+  },
+  {
+    "type": 1,
+    "icao": "54F",
+    "lat": 31.881805999999997,
+    "lon": -100.540278,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1922,
+    "tower": false,
+    "name": "ROBERT LEE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 31.888056,
+        "lonStart": -100.540278,
+        "latEnd": 31.875556,
+        "lonEnd": -100.540278,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20985
+  },
+  {
+    "type": 1,
+    "icao": "94TA",
+    "lat": 31.305720270000002,
+    "lon": -100.45870334,
+    "communications": [],
+    "elevation": 1960,
+    "tower": false,
+    "name": "Reece Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 31.30986513,
+        "lonStart": -100.45887275,
+        "latEnd": 31.30157541,
+        "lonEnd": -100.45853393,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21299
+  },
+  {
+    "type": 1,
+    "icao": "KSJT",
+    "lat": 31.357969641666667,
+    "lon": -100.49585648333333,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12845,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 11830,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12535,
+        "name": "APP/DEP"
+      }
+    ],
+    "elevation": 1918,
+    "tower": true,
+    "name": "SAN ANGELO RGNL MATHIS FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 31.36877372,
+        "lonStart": -100.497514,
+        "latEnd": 31.34682972,
+        "lonEnd": -100.500794,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 31.34970172,
+        "lonStart": -100.499867,
+        "latEnd": 31.36161272,
+        "lonEnd": -100.486856,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 31.36124072,
+        "lonStart": -100.502061,
+        "latEnd": 31.35965925,
+        "lonEnd": -100.4880469,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 21952
+  },
+  {
     "type": 17,
     "icao": "7TA9",
     "lat": 31.41877305,

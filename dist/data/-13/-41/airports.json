@@ -1,39 +1,54 @@
 [
   {
     "type": 1,
-    "icao": "SPTU",
-    "lat": -12.613103,
-    "lon": -40.913071235000004,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11880,
-        "name": "TWR"
-      },
-      {
-        "type": 50,
-        "frequency": 12690,
-        "name": "RDO"
-      }
-    ],
-    "elevation": 659,
-    "tower": true,
-    "name": "Padre Aldamiz",
+    "icao": "SNHP",
+    "lat": -12.402464,
+    "lon": -40.4746565,
+    "communications": [],
+    "elevation": 1188,
+    "tower": false,
+    "name": "HERBERT MATA PIRES",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 22.86,
         "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": -12.62883977,
-        "lonStart": -69.22877624,
-        "latEnd": -12.59736623,
-        "lonEnd": -69.22758798,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -12.405903,
+        "lonStart": -40.479444,
+        "latEnd": -12.399025,
+        "lonEnd": -40.469869,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 1
       }
     ],
-    "id": 19642
+    "id": 11108
+  },
+  {
+    "type": 1,
+    "icao": "SNIB",
+    "lat": -12.4999525,
+    "lon": -40.2698525,
+    "communications": [],
+    "elevation": 929,
+    "tower": true,
+    "name": "Itaberaba",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -12.497494,
+        "lonStart": -40.274783,
+        "latEnd": -12.502411,
+        "lonEnd": -40.264922,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12590
   }
 ]

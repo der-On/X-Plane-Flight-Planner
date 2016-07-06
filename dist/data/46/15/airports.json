@@ -1,102 +1,85 @@
 [
   {
     "type": 1,
-    "icao": "LFDW",
-    "lat": 46.582859706666675,
-    "lon": 15.955554236666666,
-    "communications": [],
-    "elevation": 439,
+    "icao": "LOWG",
+    "lat": 46.99119219416667,
+    "lon": 15.441870451666668,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12612,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11820,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11930,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12302,
+        "name": "APP"
+      }
+    ],
+    "elevation": 1115,
     "tower": true,
-    "name": "Chauvigny",
+    "name": "Graz Thalerhof",
     "runways": [
       {
         "type": 100,
-        "width": 81.99,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "5",
-        "numberEnd": "23",
-        "latStart": 46.58116126,
-        "lonStart": 0.63872201,
-        "latEnd": 46.58557414,
-        "lonEnd": 0.64594781,
+        "numberStart": "17C",
+        "numberEnd": "35C",
+        "latStart": 47.00433384,
+        "lonStart": 15.43597562,
+        "latEnd": 46.97779916,
+        "lonEnd": 15.44327557,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "17R",
+        "numberEnd": "35L",
+        "latStart": 46.99542927,
+        "lonStart": 15.43509694,
+        "latEnd": 46.98870661,
+        "lonEnd": 15.43694205,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "17L",
+        "numberEnd": "35R",
+        "latStart": 46.99062139,
+        "lonStart": 15.44257502,
+        "latEnd": 46.98495958,
+        "lonEnd": 15.44412736,
         "length": 0,
         "surfacetype": 3
       },
       {
         "type": 102,
-        "width": 15.5,
+        "width": 20.12,
         "surfaceType": 2,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 46.58184372,
-        "lonStart": 0.64236656,
+        "latStart": 46.9907377,
+        "lonStart": 15.44415509,
         "latEnd": null,
         "lonEnd": null,
-        "length": 14.9
-      }
-    ],
-    "id": 4846
-  },
-  {
-    "type": 1,
-    "icao": "LSZA",
-    "lat": 46.004225215,
-    "lon": 15.09226581166667,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12117,
-        "name": "ATIS"
-      },
-      {
-        "type": 53,
-        "frequency": 12177,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11970,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12025,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12255,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 915,
-    "tower": true,
-    "name": "Lugano",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 45.998528,
-        "lonStart": 8.907764,
-        "latEnd": 46.010022,
-        "lonEnd": 8.913394,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 24.08,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 46.00387803,
-        "lonStart": 8.908778,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 25.91
+        "length": 17.98
       },
       {
         "type": 102,
@@ -104,134 +87,156 @@
         "surfaceType": 2,
         "numberStart": "H2",
         "numberEnd": null,
-        "latStart": 46.00410326,
-        "lonStart": 8.90889624,
+        "latStart": 46.99076757,
+        "lonStart": 15.44442219,
         "latEnd": null,
         "lonEnd": null,
-        "length": 21.95
+        "length": 17.98
       },
       {
         "type": 102,
-        "width": 17.98,
+        "width": 20.12,
         "surfaceType": 2,
         "numberStart": "H3",
         "numberEnd": null,
-        "latStart": 46.00431854,
-        "lonStart": 8.90901805,
+        "latStart": 46.9908064,
+        "lonStart": 15.4447068,
         "latEnd": null,
         "lonEnd": null,
-        "length": 21.95
+        "length": 17.98
       },
       {
         "type": 102,
-        "width": 17.98,
+        "width": 20.12,
         "surfaceType": 2,
         "numberStart": "H4",
         "numberEnd": null,
-        "latStart": 46.00450146,
-        "lonStart": 8.90911658,
+        "latStart": 46.99334594,
+        "lonStart": 15.44342857,
         "latEnd": null,
         "lonEnd": null,
-        "length": 20.12
+        "length": 17.98
+      },
+      {
+        "type": 102,
+        "width": 20.12,
+        "surfaceType": 2,
+        "numberStart": "H5",
+        "numberEnd": null,
+        "latStart": 46.99338086,
+        "lonStart": 15.44371544,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 17.98
+      },
+      {
+        "type": 102,
+        "width": 20.12,
+        "surfaceType": 2,
+        "numberStart": "H6",
+        "numberEnd": null,
+        "latStart": 46.99341801,
+        "lonStart": 15.44402477,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 17.98
       }
     ],
-    "id": 15591
+    "id": 10734
   },
   {
     "type": 1,
-    "icao": "LSZS",
-    "lat": 46.532468861428576,
-    "lon": 15.11733485,
+    "icao": "LJMB",
+    "lat": 46.480624847499996,
+    "lon": 15.686019869999999,
     "communications": [
       {
-        "type": 50,
-        "frequency": 13660,
-        "name": "ATIS"
+        "type": 54,
+        "frequency": 11920,
+        "name": "Maribor TWR"
       },
       {
-        "type": 54,
-        "frequency": 13532,
-        "name": "AFIS"
+        "type": 55,
+        "frequency": 11920,
+        "name": "Maribor APP"
       }
     ],
-    "elevation": 5600,
+    "elevation": 876,
     "tower": true,
-    "name": "Samedan",
+    "name": "MARIBOR",
     "runways": [
       {
         "type": 100,
-        "width": 39.93,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 46.52695235,
-        "lonStart": 9.87806896,
-        "latEnd": 46.54146117,
-        "lonEnd": 9.88980795,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 46.48915,
+        "lonStart": 15.67709404,
+        "latEnd": 46.470569,
+        "lonEnd": 15.69516104,
         "length": 0,
         "surfacetype": 1
       },
       {
-        "type": 102,
-        "width": 11.1,
-        "surfaceType": 2,
-        "numberStart": "H5",
-        "numberEnd": null,
-        "latStart": 46.53201857,
-        "lonStart": 9.88075977,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11.8
-      },
-      {
-        "type": 102,
-        "width": 11.4,
-        "surfaceType": 2,
-        "numberStart": "H4",
-        "numberEnd": null,
-        "latStart": 46.53196585,
-        "lonStart": 9.88046691,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11.8
-      },
-      {
-        "type": 102,
-        "width": 11.4,
-        "surfaceType": 2,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 46.53190757,
-        "lonStart": 9.88015205,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11.8
-      },
-      {
-        "type": 102,
-        "width": 10.5,
-        "surfaceType": 2,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 46.53141939,
-        "lonStart": 9.88039545,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.9
-      },
-      {
-        "type": 102,
-        "width": 10.5,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 46.53155713,
-        "lonStart": 9.88003964,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.9
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "15L",
+        "numberEnd": "33R",
+        "latStart": 46.4858738,
+        "lonStart": 15.68154275,
+        "latEnd": 46.47690659,
+        "lonEnd": 15.69028165,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 22779
+    "id": 15826
+  },
+  {
+    "type": 1,
+    "icao": "LJSG",
+    "lat": 46.471886115,
+    "lon": 15.116834435000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12350,
+        "name": "AFIS"
+      }
+    ],
+    "elevation": 1645,
+    "tower": true,
+    "name": "Slovenj Gradec",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 46.47627194,
+        "lonStart": 15.11211204,
+        "latEnd": 46.467675,
+        "lonEnd": 15.121881,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "14R",
+        "numberEnd": "32L",
+        "latStart": 46.47609723,
+        "lonStart": 15.11178787,
+        "latEnd": 46.46750029,
+        "lonEnd": 15.12155683,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23714
   }
 ]

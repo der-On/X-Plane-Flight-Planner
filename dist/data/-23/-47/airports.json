@@ -1,55 +1,280 @@
 [
   {
     "type": 1,
-    "icao": "SCBE",
-    "lat": -22.141057495,
-    "lon": -46.107385095,
+    "icao": "SDBP",
+    "lat": -22.9811525,
+    "lon": -46.5386685,
     "communications": [],
-    "elevation": 3475,
-    "tower": true,
-    "name": "Barriles",
+    "elevation": 2887,
+    "tower": false,
+    "name": "Aeroporto E Arthur Siqueira RC",
     "runways": [
       {
         "type": 100,
-        "width": 28.96,
+        "width": 10.5,
         "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": -22.13561465,
-        "lonStart": -70.06826985,
-        "latEnd": -22.14650034,
-        "lonEnd": -70.05751279,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": -22.98031288,
+        "lonStart": -46.53884344,
+        "latEnd": -22.98199212,
+        "lonEnd": -46.53849356,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 2281
+    "id": 657
   },
   {
     "type": 1,
-    "icao": "SCNE",
-    "lat": -22.307082405000003,
-    "lon": -46.007827070000005,
-    "communications": [],
-    "elevation": 4002,
+    "icao": "SBBP",
+    "lat": -22.978800015,
+    "lon": -46.537114875,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12570,
+        "name": "AFIS"
+      },
+      {
+        "type": 50,
+        "frequency": 12775,
+        "name": "ATIS"
+      }
+    ],
+    "elevation": 2887,
     "tower": false,
-    "name": "Maria Elena",
+    "name": "Aeroporto Estadual Arthur Siqueira",
     "runways": [
       {
         "type": 100,
-        "width": 17.98,
+        "width": 32,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -22.97438542,
+        "lonStart": -46.54052445,
+        "latEnd": -22.98321461,
+        "lonEnd": -46.5337053,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 659
+  },
+  {
+    "type": 1,
+    "icao": "SDHE",
+    "lat": -22.4925,
+    "lon": -46.843611135,
+    "communications": [],
+    "elevation": 2493,
+    "tower": false,
+    "name": "Fazenda Herdade",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -22.49464325,
+        "lonStart": -46.84495036,
+        "latEnd": -22.49035675,
+        "lonEnd": -46.84227191,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 8339
+  },
+  {
+    "type": 1,
+    "icao": "SDCT",
+    "lat": -22.23079403,
+    "lon": -46.976525185,
+    "communications": [],
+    "elevation": 2237,
+    "tower": false,
+    "name": "Fazenda Santo Antonio do Oricanga",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": -22.22856789,
+        "lonStart": -46.97687687,
+        "latEnd": -22.23302017,
+        "lonEnd": -46.9761735,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 8918
+  },
+  {
+    "type": 1,
+    "icao": "SDIB",
+    "lat": -22.158081,
+    "lon": -46.7752805,
+    "communications": [],
+    "elevation": 3018,
+    "tower": false,
+    "name": "IRMAOS RIBEIRO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -22.164606,
+        "lonStart": -46.776722,
+        "latEnd": -22.151556,
+        "lonEnd": -46.773839,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12343
+  },
+  {
+    "type": 1,
+    "icao": "SDMJ",
+    "lat": -22.41,
+    "lon": -46.90527778,
+    "communications": [],
+    "elevation": 2274,
+    "tower": false,
+    "name": "Mogi-Mirim",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -22.40880494,
+        "lonStart": -46.91247316,
+        "latEnd": -22.41119506,
+        "lonEnd": -46.8980824,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 17351
+  },
+  {
+    "type": 1,
+    "icao": "SNEJ",
+    "lat": -22.859722220000002,
+    "lon": -46.03750029,
+    "communications": [],
+    "elevation": 5102,
+    "tower": false,
+    "name": "Monte Verde",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -22.86163431,
+        "lonStart": -46.04250747,
+        "latEnd": -22.85781013,
+        "lonEnd": -46.03249311,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 17417
+  },
+  {
+    "type": 1,
+    "icao": "SNOF",
+    "lat": -22.297168,
+    "lon": -46.392441575,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12345,
+        "name": "RDO"
+      }
+    ],
+    "elevation": 2818,
+    "tower": true,
+    "name": "Ouro Fino",
+    "runways": [
+      {
+        "type": 100,
+        "width": 23,
         "surfaceType": null,
         "numberStart": "06",
         "numberEnd": "24",
-        "latStart": -22.31103938,
-        "lonStart": -69.71252871,
-        "latEnd": -22.30312543,
-        "lonEnd": -69.69815053,
+        "latStart": -22.30051306,
+        "lonStart": -46.39608215,
+        "latEnd": -22.29382294,
+        "lonEnd": -46.388801,
         "length": 0,
-        "surfacetype": 5
+        "surfacetype": 1
       }
     ],
-    "id": 16683
+    "id": 19106
+  },
+  {
+    "type": 1,
+    "icao": "SDJV",
+    "lat": -22.01722222,
+    "lon": -46.84083333,
+    "communications": [],
+    "elevation": 2500,
+    "tower": false,
+    "name": "Sao Joao da Boa Vista",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": -22.02266834,
+        "lonStart": -46.84274373,
+        "latEnd": -22.0117761,
+        "lonEnd": -46.83892293,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22974
+  },
+  {
+    "type": 1,
+    "icao": "SDFT",
+    "lat": -22.414444445,
+    "lon": -46.80888882,
+    "communications": [],
+    "elevation": 2151,
+    "tower": false,
+    "name": "Virgulino de Oliveira",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -22.41299828,
+        "lonStart": -46.81075314,
+        "latEnd": -22.41589061,
+        "lonEnd": -46.8070245,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 26371
   },
   {
     "type": 17,

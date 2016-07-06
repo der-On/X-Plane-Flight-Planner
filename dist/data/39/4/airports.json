@@ -1,66 +1,101 @@
 [
   {
     "type": 1,
-    "icao": "LPCR",
-    "lat": 39.6714845,
-    "lon": 4.2747804999999985,
+    "icao": "LEMH",
+    "lat": 39.8626589175,
+    "lon": 4.219853475,
     "communications": [
       {
-        "type": 51,
-        "frequency": 12230,
-        "name": "CORVO AFIS"
+        "type": 53,
+        "frequency": 12175,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11820,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11965,
+        "name": "APP"
       }
     ],
-    "elevation": 59,
-    "tower": false,
-    "name": "Corvo",
+    "elevation": 84,
+    "tower": true,
+    "name": "Menorca",
     "runways": [
       {
         "type": 100,
-        "width": 30,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 39.671904,
-        "lonStart": -31.121504,
-        "latEnd": 39.671065,
-        "lonEnd": -31.11193,
+        "numberStart": "01L",
+        "numberEnd": "19R",
+        "latStart": 39.85125683,
+        "lonStart": 4.21631929,
+        "latEnd": 39.87391484,
+        "lonEnd": 4.22098061,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "01R",
+        "numberEnd": "19L",
+        "latStart": 39.853389,
+        "lonStart": 4.219136,
+        "latEnd": 39.872075,
+        "lonEnd": 4.222978,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 5364
+    "id": 17063
   },
   {
     "type": 1,
-    "icao": "LPFL",
-    "lat": 39.455336,
-    "lon": 4.158015564999998,
+    "icao": "LESL",
+    "lat": 39.862808406666666,
+    "lon": 4.252457693333334,
     "communications": [
       {
         "type": 54,
-        "frequency": 11830,
+        "frequency": 12350,
         "name": "TWR"
       }
     ],
-    "elevation": 112,
+    "elevation": 195,
     "tower": true,
-    "name": "FLORES",
+    "name": "Sant Lluis",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 25,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 39.4615219,
-        "lonStart": -31.13311897,
-        "latEnd": 39.4491501,
-        "lonEnd": -31.12967233,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 39.85367986,
+        "lonStart": 4.24806549,
+        "latEnd": 39.86913792,
+        "lonEnd": 4.25519185,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 10,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.86560744,
+        "lonStart": 4.25411574,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10
       }
     ],
-    "id": 7586
+    "id": 22881
   }
 ]

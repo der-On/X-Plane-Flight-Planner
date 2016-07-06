@@ -1,45 +1,117 @@
 [
   {
     "type": 1,
-    "icao": "SPQT",
-    "lat": -3.784739,
-    "lon": -38.5483725,
+    "icao": "SJDS",
+    "lat": -3.92722222,
+    "lon": -38.500555559999995,
+    "communications": [],
+    "elevation": 66,
+    "tower": false,
+    "name": "Fabrica Fortaleza",
+    "runways": [
+      {
+        "type": 100,
+        "width": 32,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -3.92567265,
+        "lonStart": -38.50517335,
+        "latEnd": -3.92877179,
+        "lonEnd": -38.49593777,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 7742
+  },
+  {
+    "type": 1,
+    "icao": "SNFF",
+    "lat": -3.80944444,
+    "lon": -38.616944445,
+    "communications": [],
+    "elevation": 82,
+    "tower": false,
+    "name": "Feijo",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -3.80865459,
+        "lonStart": -38.61929551,
+        "latEnd": -3.81023429,
+        "lonEnd": -38.61459338,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 9223
+  },
+  {
+    "type": 1,
+    "icao": "SBFZ",
+    "lat": -3.7762835,
+    "lon": -38.5325555,
     "communications": [
+      {
+        "type": 50,
+        "frequency": 12770,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12195,
+        "name": "GND"
+      },
       {
         "type": 54,
         "frequency": 11850,
-        "name": "TWR"
+        "name": "FORTALEZA TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12900,
+        "name": "FORTALEZA TWR"
       },
       {
         "type": 55,
-        "frequency": 12410,
-        "name": "APP"
+        "frequency": 11920,
+        "name": "FORTALEZA APP"
       },
       {
-        "type": 50,
-        "frequency": 13250,
-        "name": "ATIS"
+        "type": 55,
+        "frequency": 13300,
+        "name": "FORTALEZA APP"
+      },
+      {
+        "type": 55,
+        "frequency": 13455,
+        "name": "FORTALEZA APP"
       }
     ],
-    "elevation": 306,
+    "elevation": 82,
     "tower": true,
-    "name": "Coronel Francisco Secada Vignetta",
+    "name": "Pinto Martins",
     "runways": [
       {
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": -3.790947,
-        "lonStart": -73.318214,
-        "latEnd": -3.778531,
-        "lonEnd": -73.299397,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -3.773342,
+        "lonStart": -38.54365,
+        "latEnd": -3.779225,
+        "lonEnd": -38.521461,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 1
       }
     ],
-    "id": 5348
+    "id": 20180
   },
   {
     "type": 17,

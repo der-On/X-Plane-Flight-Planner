@@ -1,0 +1,89 @@
+[
+  {
+    "type": 1,
+    "icao": "PACL",
+    "lat": 64.301203,
+    "lon": -149.12014299999998,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 551,
+    "tower": false,
+    "name": "CLEAR",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 64.29665,
+        "lonStart": -149.127117,
+        "latEnd": 64.305756,
+        "lonEnd": -149.113169,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3972
+  },
+  {
+    "type": 1,
+    "icao": "PANN",
+    "lat": 64.54807775,
+    "lon": -149.07568675,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12520,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12210,
+        "name": "CTAF"
+      },
+      {
+        "type": 55,
+        "frequency": 12535,
+        "name": "FAIRBANKS APP/DEP"
+      }
+    ],
+    "elevation": 362,
+    "tower": false,
+    "name": "NENANA MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "04L",
+        "numberEnd": "22R",
+        "latStart": 64.545608,
+        "lonStart": -149.087064,
+        "latEnd": 64.552097,
+        "lonEnd": -149.062028,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "04R",
+        "numberEnd": "22L",
+        "latStart": 64.545525,
+        "lonStart": -149.083686,
+        "latEnd": 64.549081,
+        "lonEnd": -149.069969,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17885
+  }
+]

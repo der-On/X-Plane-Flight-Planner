@@ -1,67 +1,60 @@
 [
   {
     "type": 1,
-    "icao": "PGUM",
-    "lat": 13.48387425,
-    "lon": 79.137057,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11900,
-        "name": "ATIS"
-      },
-      {
-        "type": 52,
-        "frequency": 12190,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11810,
-        "name": "AGANA TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11870,
-        "name": "APP/DEP"
-      }
-    ],
-    "elevation": 298,
-    "tower": true,
-    "name": "Guam Intl",
+    "icao": "VOAR",
+    "lat": 13.071215500000001,
+    "lon": 79.691193,
+    "communications": [],
+    "elevation": 265,
+    "tower": false,
+    "name": "ARKONAM",
     "runways": [
       {
         "type": 100,
-        "width": 45.72,
+        "width": 47.24,
         "surfaceType": null,
-        "numberStart": "06L",
-        "numberEnd": "24R",
-        "latStart": 13.478908,
-        "lonStart": 144.783983,
-        "latEnd": 13.490589,
-        "lonEnd": 144.809525,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "06R",
-        "numberEnd": "24L",
-        "latStart": 13.477161,
-        "lonStart": 144.784817,
-        "latEnd": 13.488839,
-        "lonEnd": 144.810358,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 13.061642,
+        "lonStart": 79.674997,
+        "latEnd": 13.080789,
+        "lonEnd": 79.707389,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 10859
+    "id": 390
+  },
+  {
+    "type": 1,
+    "icao": "VOTP",
+    "lat": 13.632493,
+    "lon": 79.54325399999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11900,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 350,
+    "tower": true,
+    "name": "TIRUPATI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 13.630964,
+        "lonStart": 79.5328,
+        "latEnd": 13.634022,
+        "lonEnd": 79.553708,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 24748
   }
 ]

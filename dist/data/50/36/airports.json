@@ -1,93 +1,111 @@
 [
   {
     "type": 1,
-    "icao": "EPJL",
-    "lat": 50.00844141,
-    "lon": 36.460655995,
-    "communications": [],
-    "elevation": 613,
-    "tower": true,
-    "name": "Laszki",
-    "runways": [
+    "icao": "UUOB",
+    "lat": 50.644233250000006,
+    "lon": 36.5899925,
+    "communications": [
       {
-        "type": 100,
-        "width": 60,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 50.00774719,
-        "lonStart": 22.91217636,
-        "latEnd": 50.00913563,
-        "lonEnd": 22.92316835,
-        "length": 0,
-        "surfacetype": 3
+        "type": 53,
+        "frequency": 12170,
+        "name": "TAXIING"
+      },
+      {
+        "type": 54,
+        "frequency": 11820,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 13300,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12400,
+        "name": "APP"
       }
     ],
-    "id": 15003
-  },
-  {
-    "type": 1,
-    "icao": "EPST",
-    "lat": 50.6267599925,
-    "lon": 36.3092578875,
-    "communications": [],
-    "elevation": 492,
+    "elevation": 733,
     "tower": true,
-    "name": "Turbia",
+    "name": "BELGOROD",
     "runways": [
       {
         "type": 100,
-        "width": 99.97,
+        "width": 67.06,
         "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 50.62803609,
-        "lonStart": 21.99256756,
-        "latEnd": 50.62703791,
-        "lonEnd": 22.00538264,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 50.649689,
+        "lonStart": 36.574664,
+        "latEnd": 50.639719,
+        "lonEnd": 36.605056,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 4
       },
       {
         "type": 100,
-        "width": 99.97,
+        "width": 42.06,
         "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 50.62761679,
-        "lonStart": 21.9930769,
-        "latEnd": 50.62434918,
-        "lonEnd": 22.00318561,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 50.648536,
+        "lonStart": 36.575697,
+        "latEnd": 50.638989,
+        "lonEnd": 36.604553,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       }
     ],
-    "id": 25706
+    "id": 1616
   },
   {
     "type": 1,
-    "icao": "EPZA",
-    "lat": 50.700978,
-    "lon": 36.94905439,
-    "communications": [],
-    "elevation": 750,
+    "icao": "UK60",
+    "lat": 50.02565431,
+    "lon": 36.268758596666665,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12095,
+        "name": "Sokolniky TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12695,
+        "name": "Sokolniky TWR"
+      }
+    ],
+    "elevation": 600,
     "tower": true,
-    "name": "Zamosc-Mokre",
+    "name": "KHARKIV NORTH",
     "runways": [
       {
         "type": 100,
-        "width": 45.79,
+        "width": 60.05,
         "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 50.70336023,
-        "lonStart": 23.19951301,
-        "latEnd": 50.69859577,
-        "lonEnd": 23.21024044,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 50.01831627,
+        "lonStart": 36.26047357,
+        "latEnd": 50.03196627,
+        "lonEnd": 36.27407657,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 39.01,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 50.02668039,
+        "lonStart": 36.27172565,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 42.06
       }
     ],
-    "id": 27870
+    "id": 13338
   }
 ]

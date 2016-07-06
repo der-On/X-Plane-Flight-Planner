@@ -1,39 +1,41 @@
 [
   {
     "type": 1,
-    "icao": "GMMZ",
-    "lat": 30.939074599999998,
-    "lon": 12.00477711,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11810,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11930,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 3782,
-    "tower": true,
-    "name": "OUARZAZATE",
+    "icao": "HL78",
+    "lat": 30.703505749999998,
+    "lon": 12.48434675,
+    "communications": [],
+    "elevation": 2000,
+    "tower": false,
+    "name": "HABIT AWLAD MUHAMMAD",
     "runways": [
       {
         "type": 100,
-        "width": 40.11,
+        "width": 28.96,
         "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 30.94515814,
-        "lonStart": -6.92343684,
-        "latEnd": 30.93299106,
-        "lonEnd": -6.89551126,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 30.712381,
+        "lonStart": 12.481411,
+        "latEnd": 30.691514,
+        "lonEnd": 12.486564,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 25.3,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 30.703072,
+        "lonStart": 12.475681,
+        "latEnd": 30.707056,
+        "lonEnd": 12.493731,
+        "length": 0,
+        "surfacetype": 4
       }
     ],
-    "id": 18740
+    "id": 10941
   }
 ]

@@ -25,6 +25,103 @@
     "id": 910
   },
   {
+    "type": 1,
+    "icao": "CNP3",
+    "lat": 45.4125213875,
+    "lon": -76.36566324249999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12427,
+        "name": "OTTAWA TRML"
+      },
+      {
+        "type": 55,
+        "frequency": 13515,
+        "name": "OTTAWA TRML"
+      }
+    ],
+    "elevation": 357,
+    "tower": false,
+    "name": "Arnprior South Renfrew Muni",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 45.41671869,
+        "lonStart": -76.36772189,
+        "latEnd": 45.41138086,
+        "lonEnd": -76.36330108,
+        "length": 0,
+        "surfacetype": 5
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 45.410692,
+        "lonStart": -76.373493,
+        "latEnd": 45.411294,
+        "lonEnd": -76.358137,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1209
+  },
+  {
+    "type": 1,
+    "icao": "CYRP",
+    "lat": 45.319452,
+    "lon": -76.0222695,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12115,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12817,
+        "name": "OTTAWA TRML"
+      }
+    ],
+    "elevation": 381,
+    "tower": false,
+    "name": "CARP",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 45.318834,
+        "lonStart": -76.02987,
+        "latEnd": 45.32007,
+        "lonEnd": -76.014669,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3694
+  },
+  {
     "type": 17,
     "icao": "CPN7",
     "lat": 45.141774,

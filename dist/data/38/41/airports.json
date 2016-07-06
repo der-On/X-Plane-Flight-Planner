@@ -1,39 +1,44 @@
 [
   {
     "type": 1,
-    "icao": "OITK",
-    "lat": 38.427451500000004,
-    "lon": 41.691568000000004,
+    "icao": "LTCK",
+    "lat": 38.7477705,
+    "lon": 41.6612305,
     "communications": [
       {
-        "type": 54,
-        "frequency": 12185,
-        "name": "INFO"
+        "type": 53,
+        "frequency": 12195,
+        "name": "GND"
       },
       {
         "type": 54,
-        "frequency": 12225,
-        "name": "INFO"
+        "frequency": 12210,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12210,
+        "name": "APP"
       }
     ],
-    "elevation": 3981,
-    "tower": false,
-    "name": "KHOY",
+    "elevation": 4157,
+    "tower": true,
+    "name": "MUS",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 38.439064,
-        "lonStart": 44.967297,
-        "latEnd": 38.415839,
-        "lonEnd": 44.979853,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 38.754847,
+        "lonStart": 41.642922,
+        "latEnd": 38.740694,
+        "lonEnd": 41.679539,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 13346
+    "id": 16396
   }
 ]

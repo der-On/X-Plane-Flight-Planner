@@ -1,5 +1,432 @@
 [
   {
+    "type": 1,
+    "icao": "XS30",
+    "lat": 33.60510694,
+    "lon": -95.48189916999999,
+    "communications": [],
+    "elevation": 483,
+    "tower": false,
+    "name": "Burress",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 33.60798005,
+        "lonStart": -95.48214039,
+        "latEnd": 33.60223383,
+        "lonEnd": -95.48165795,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3429
+  },
+  {
+    "type": 1,
+    "icao": "KLBR",
+    "lat": 33.593164,
+    "lon": -95.063556,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11892,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 439,
+    "tower": false,
+    "name": "CLARKSVILLE RED RIVER J D TRISSELL FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 33.597262,
+        "lonStart": -95.064088,
+        "latEnd": 33.589066,
+        "lonEnd": -95.063024,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3966
+  },
+  {
+    "type": 1,
+    "icao": "2F7",
+    "lat": 33.2928735,
+    "lon": -95.8964125,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      },
+      {
+        "type": 55,
+        "frequency": 12760,
+        "name": "FORT WORTH CNTR"
+      }
+    ],
+    "elevation": 515,
+    "tower": false,
+    "name": "COMMERCE MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 33.298239,
+        "lonStart": -95.896117,
+        "latEnd": 33.287508,
+        "lonEnd": -95.896708,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4081
+  },
+  {
+    "type": 1,
+    "icao": "KPRX",
+    "lat": 33.63662133333333,
+    "lon": -95.45039483333335,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11967,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12297,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 546,
+    "tower": false,
+    "name": "COX FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 33.644819,
+        "lonStart": -95.454431,
+        "latEnd": 33.628331,
+        "lonEnd": -95.454147,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 33.630278,
+        "lonStart": -95.453014,
+        "latEnd": 33.640406,
+        "lonEnd": -95.443836,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 33.642897,
+        "lonStart": -95.453233,
+        "latEnd": 33.632997,
+        "lonEnd": -95.443708,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 4203
+  },
+  {
+    "type": 1,
+    "icao": "F53",
+    "lat": 33.2154445,
+    "lon": -95.2374415,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 411,
+    "tower": false,
+    "name": "FRANKLIN CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 33.219331,
+        "lonStart": -95.241833,
+        "latEnd": 33.211558,
+        "lonEnd": -95.23305,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 7684
+  },
+  {
+    "type": 1,
+    "icao": "TS54",
+    "lat": 33.01484111,
+    "lon": -95.43439416999999,
+    "communications": [],
+    "elevation": 535,
+    "tower": false,
+    "name": "Flying B",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 33.01678122,
+        "lonStart": -95.43419175,
+        "latEnd": 33.012901,
+        "lonEnd": -95.43459659,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9404
+  },
+  {
+    "type": 1,
+    "icao": "40F",
+    "lat": 33.65260444,
+    "lon": -95.65579362,
+    "communications": [],
+    "elevation": 588,
+    "tower": false,
+    "name": "Flying Tigers",
+    "runways": [
+      {
+        "type": 100,
+        "width": 6.1,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 33.64967064,
+        "lonStart": -95.65751261,
+        "latEnd": 33.65553824,
+        "lonEnd": -95.65407463,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 33.65443289,
+        "lonStart": -95.65634129,
+        "latEnd": 33.65077599,
+        "lonEnd": -95.65524595,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9522
+  },
+  {
+    "type": 1,
+    "icao": "4TX3",
+    "lat": 33.66121388,
+    "lon": -95.83357751,
+    "communications": [],
+    "elevation": 525,
+    "tower": false,
+    "name": "Forest Hill",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 33.66421463,
+        "lonStart": -95.83319858,
+        "latEnd": 33.65821313,
+        "lonEnd": -95.83395644,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9578
+  },
+  {
+    "type": 1,
+    "icao": "TS11",
+    "lat": 33.107059719999995,
+    "lon": -95.92996667,
+    "communications": [],
+    "elevation": 531,
+    "tower": false,
+    "name": "Glenmar",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 33.10924876,
+        "lonStart": -95.93014941,
+        "latEnd": 33.10487068,
+        "lonEnd": -95.92978393,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10532
+  },
+  {
+    "type": 1,
+    "icao": "TA06",
+    "lat": 33.16122472,
+    "lon": -95.80579584,
+    "communications": [],
+    "elevation": 610,
+    "tower": false,
+    "name": "Morris Manor",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 33.16396102,
+        "lonStart": -95.80602441,
+        "latEnd": 33.15848842,
+        "lonEnd": -95.80556727,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17537
+  },
+  {
+    "type": 1,
+    "icao": "44F",
+    "lat": 33.79316027,
+    "lon": -95.52801306,
+    "communications": [],
+    "elevation": 535,
+    "tower": false,
+    "name": "Powderly",
+    "runways": [
+      {
+        "type": 100,
+        "width": 13.72,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 33.79746994,
+        "lonStart": -95.52837569,
+        "latEnd": 33.7888506,
+        "lonEnd": -95.52765043,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 20475
+  },
+  {
+    "type": 1,
+    "icao": "KSLR",
+    "lat": 33.159832,
+    "lon": -95.62114600000001,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11835,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12307,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 489,
+    "tower": false,
+    "name": "SULPHUR SPRINGS MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 33.166606,
+        "lonStart": -95.619775,
+        "latEnd": 33.153058,
+        "lonEnd": -95.622517,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22589
+  },
+  {
+    "type": 1,
+    "icao": "0TA8",
+    "lat": 33.84871694,
+    "lon": -95.40717778,
+    "communications": [],
+    "elevation": 410,
+    "tower": false,
+    "name": "Womack Plantation",
+    "runways": [
+      {
+        "type": 100,
+        "width": 13.72,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 33.8523724,
+        "lonStart": -95.40671517,
+        "latEnd": 33.84506148,
+        "lonEnd": -95.40764039,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 27517
+  },
+  {
     "type": 17,
     "icao": "93TA",
     "lat": 33.06012027,

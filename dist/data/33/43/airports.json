@@ -1,28 +1,52 @@
 [
   {
     "type": 1,
-    "icao": "OI05",
-    "lat": 33.088958,
-    "lon": 43.2486805,
-    "communications": [],
-    "elevation": 3550,
-    "tower": false,
-    "name": "NAIN MILITARY",
+    "icao": "ORAT",
+    "lat": 33.33804175,
+    "lon": 43.597077,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13577,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12525,
+        "name": "APP"
+      }
+    ],
+    "elevation": 274,
+    "tower": true,
+    "name": "AL TAQADDUM AB",
     "runways": [
       {
         "type": 100,
-        "width": 19.51,
+        "width": 60.96,
         "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 33.091722,
-        "lonStart": 53.411167,
-        "latEnd": 33.086194,
-        "lonEnd": 53.423472,
+        "numberStart": "12R",
+        "numberEnd": "30L",
+        "latStart": 33.345914,
+        "lonStart": 43.576553,
+        "latEnd": 33.328106,
+        "lonEnd": 43.61415,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "12L",
+        "numberEnd": "30R",
+        "latStart": 33.3472,
+        "lonStart": 43.581544,
+        "latEnd": 33.330947,
+        "lonEnd": 43.616061,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 17804
+    "id": 165
   }
 ]

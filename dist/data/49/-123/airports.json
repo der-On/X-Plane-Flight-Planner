@@ -1,5 +1,110 @@
 [
   {
+    "type": 1,
+    "icao": "CYXX",
+    "lat": 49.024846741428576,
+    "lon": -122.36998853571428,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11980,
+        "name": "CYXX ATIS"
+      },
+      {
+        "type": 50,
+        "frequency": 11940,
+        "name": "ABBOTSFORD FSS"
+      },
+      {
+        "type": 50,
+        "frequency": 12250,
+        "name": "ABBOTSFORD FSS"
+      },
+      {
+        "type": 50,
+        "frequency": 12670,
+        "name": "ABBOTSFORD FSS"
+      },
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "ABBOTSFORD GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11940,
+        "name": "ABBOTSFORD TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12100,
+        "name": "ABBOTSFORD TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 13269,
+        "name": "VICTORIA APP"
+      }
+    ],
+    "elevation": 188,
+    "tower": true,
+    "name": "Abbotsford",
+    "runways": [
+      {
+        "type": 100,
+        "width": 61,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 49.01910434,
+        "lonStart": -122.37993304,
+        "latEnd": 49.02096603,
+        "lonEnd": -122.34172062,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 61,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 49.01877,
+        "lonStart": -122.378718,
+        "latEnd": 49.031764,
+        "lonEnd": -122.369176,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 28.96,
+        "surfaceType": null,
+        "numberStart": "01L",
+        "numberEnd": "19R",
+        "latStart": 49.02614172,
+        "lonStart": -122.37425003,
+        "latEnd": 49.0298181,
+        "lonEnd": -122.37163406,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 15,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 49.027363,
+        "lonStart": -122.374488,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15
+      }
+    ],
+    "id": 516
+  },
+  {
     "type": 17,
     "icao": "CAB5",
     "lat": 49.03628298,
@@ -34,5 +139,207 @@
       }
     ],
     "id": 517
+  },
+  {
+    "type": 1,
+    "icao": "CAK3",
+    "lat": 49.078764,
+    "lon": -122.94053,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12330,
+        "name": "RDO"
+      }
+    ],
+    "elevation": 10,
+    "tower": true,
+    "name": "DELTA HERITAGE AIR PARK",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 49.078764,
+        "lonStart": -122.94597391,
+        "latEnd": 49.078764,
+        "lonEnd": -122.93508609,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5755
+  },
+  {
+    "type": 1,
+    "icao": "CBQ2",
+    "lat": 49.167146,
+    "lon": -122.55184700000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12320,
+        "name": "FORT LANGLEY MULT"
+      }
+    ],
+    "elevation": 6,
+    "tower": false,
+    "name": "Fort Langley",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 49.167572,
+        "lonStart": -122.556359,
+        "latEnd": 49.16672,
+        "lonEnd": -122.547335,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 9602
+  },
+  {
+    "type": 1,
+    "icao": "SCHL",
+    "lat": 49.746821999999995,
+    "lon": -122.15054762,
+    "communications": [],
+    "elevation": 41,
+    "tower": false,
+    "name": "Harrison Lake Logging Camp",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 49.7487535,
+        "lonStart": -122.15353678,
+        "latEnd": 49.7448905,
+        "lonEnd": -122.14755846,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 11483
+  },
+  {
+    "type": 1,
+    "icao": "CYNJ",
+    "lat": 49.101962485,
+    "lon": -122.6293707525,
+    "communications": [],
+    "elevation": 34,
+    "tower": true,
+    "name": "Langley",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 49.09849555,
+        "lonStart": -122.63028336,
+        "latEnd": 49.10339589,
+        "lonEnd": -122.62569267,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 49.103064,
+        "lonStart": -122.63623857,
+        "latEnd": 49.1028945,
+        "lonEnd": -122.62526841,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14935
+  },
+  {
+    "type": 1,
+    "icao": "CYPK",
+    "lat": 49.216287333333334,
+    "lon": -122.71086000000001,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12500,
+        "name": "ATIS 125.0"
+      },
+      {
+        "type": 53,
+        "frequency": 12380,
+        "name": "GND 123.8"
+      },
+      {
+        "type": 54,
+        "frequency": 12000,
+        "name": "TWR 126.3"
+      },
+      {
+        "type": 54,
+        "frequency": 12630,
+        "name": "DEP 132.3"
+      }
+    ],
+    "elevation": 11,
+    "tower": true,
+    "name": "Pitt Meadows",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "08R",
+        "numberEnd": "26L",
+        "latStart": 49.21467238,
+        "lonStart": -122.72246231,
+        "latEnd": 49.21310162,
+        "lonEnd": -122.70334769,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "08L",
+        "numberEnd": "26R",
+        "latStart": 49.21927057,
+        "lonStart": -122.71597858,
+        "latEnd": 49.21845143,
+        "lonEnd": -122.70603742,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 49.21925497,
+        "lonStart": -122.70673008,
+        "latEnd": 49.21297303,
+        "lonEnd": -122.71060392,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20224
   }
 ]

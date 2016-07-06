@@ -1,5 +1,110 @@
 [
   {
+    "type": 1,
+    "icao": "YBTH",
+    "lat": -33.407603,
+    "lon": 149.6538265,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12060,
+        "name": "ACTIVATE LIGHTS ONLY MULT"
+      },
+      {
+        "type": 51,
+        "frequency": 12735,
+        "name": "BATHURST MULT"
+      },
+      {
+        "type": 51,
+        "frequency": 13525,
+        "name": "MELBOURNE CENTRE MULT"
+      }
+    ],
+    "elevation": 2435,
+    "tower": false,
+    "name": "Bathurst",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -33.400778,
+        "lonStart": 149.650705,
+        "latEnd": -33.416106,
+        "lonEnd": 149.651923,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -33.406697,
+        "lonStart": 149.649274,
+        "latEnd": -33.406831,
+        "lonEnd": 149.663404,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 2342
+  },
+  {
+    "type": 1,
+    "icao": "YORG",
+    "lat": -33.3786283125,
+    "lon": 149.1284788725,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 11900,
+        "name": "ORANGE CTAF"
+      },
+      {
+        "type": 52,
+        "frequency": 13525,
+        "name": "MELBOURNE CENTRE MULT"
+      }
+    ],
+    "elevation": 3111,
+    "tower": false,
+    "name": "Orange",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -33.3775366,
+        "lonStart": 149.12374923,
+        "latEnd": -33.3863017,
+        "lonEnd": 149.13836792,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 29.55,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": -33.37746771,
+        "lonStart": 149.12257751,
+        "latEnd": -33.37320724,
+        "lonEnd": 149.12922083,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18999
+  },
+  {
     "type": 17,
     "icao": "YXCF",
     "lat": -33.303661325,

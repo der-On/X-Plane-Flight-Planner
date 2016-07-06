@@ -1,5 +1,330 @@
 [
   {
+    "type": 1,
+    "icao": "AZ99",
+    "lat": 32.54546944,
+    "lon": -114.63648056,
+    "communications": [],
+    "elevation": 192,
+    "tower": false,
+    "name": "Checkerboard",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 32.54565606,
+        "lonStart": -114.64070492,
+        "latEnd": 32.54528282,
+        "lonEnd": -114.6322562,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 4852
+  },
+  {
+    "type": 1,
+    "icao": "KLGF",
+    "lat": 32.8645,
+    "lon": -114.39303075000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12620,
+        "name": "CTAF"
+      },
+      {
+        "type": 55,
+        "frequency": 12555,
+        "name": "YUMA APP"
+      },
+      {
+        "type": 56,
+        "frequency": 12000,
+        "name": "YUMA DEP"
+      }
+    ],
+    "elevation": 422,
+    "tower": false,
+    "name": "LAGUNA AAF",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 32.8754,
+        "lonStart": -114.392842,
+        "latEnd": 32.859031,
+        "lonEnd": -114.396506,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 32.859783,
+        "lonStart": -114.400869,
+        "latEnd": 32.863786,
+        "lonEnd": -114.381906,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14318
+  },
+  {
+    "type": 1,
+    "icao": "44A",
+    "lat": 32.51838694,
+    "lon": -114.69800945,
+    "communications": [],
+    "elevation": 163,
+    "tower": false,
+    "name": "Rolle Airfield",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 32.52222185,
+        "lonStart": -114.6977711,
+        "latEnd": 32.51455203,
+        "lonEnd": -114.6982478,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 21680
+  },
+  {
+    "type": 1,
+    "icao": "MM76",
+    "lat": 32.4453415,
+    "lon": -114.797928,
+    "communications": [],
+    "elevation": 50,
+    "tower": false,
+    "name": "SAN LUIS RIO COLORADO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 32.450564,
+        "lonStart": -114.803017,
+        "latEnd": 32.440119,
+        "lonEnd": -114.792839,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 21987
+  },
+  {
+    "type": 1,
+    "icao": "54AZ",
+    "lat": 32.60088444,
+    "lon": -114.66578667,
+    "communications": [],
+    "elevation": 177,
+    "tower": false,
+    "name": "Somerton",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 32.60516146,
+        "lonStart": -114.66837349,
+        "latEnd": 32.59660742,
+        "lonEnd": -114.66319985,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 32.59907896,
+        "lonStart": -114.66778519,
+        "latEnd": 32.60268992,
+        "lonEnd": -114.66378815,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 23832
+  },
+  {
+    "type": 1,
+    "icao": "KNYL",
+    "lat": 32.660788849999996,
+    "lon": -114.60481710357145,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11880,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11930,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 212,
+    "tower": true,
+    "name": "Yuma MCAS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "03L",
+        "numberEnd": "21R",
+        "latStart": 32.636792,
+        "lonStart": -114.629381,
+        "latEnd": 32.663033,
+        "lonEnd": -114.5993,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "03R",
+        "numberEnd": "21L",
+        "latStart": 32.648747,
+        "lonStart": -114.612511,
+        "latEnd": 32.666972,
+        "lonEnd": -114.591611,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 32.667714,
+        "lonStart": -114.60405,
+        "latEnd": 32.652019,
+        "lonEnd": -114.603769,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 32.665906,
+        "lonStart": -114.605639,
+        "latEnd": 32.666161,
+        "lonEnd": -114.585681,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 6.5,
+        "surfaceType": 2,
+        "numberStart": "H06",
+        "numberEnd": null,
+        "latStart": 32.66837858,
+        "lonStart": -114.60153441,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      },
+      {
+        "type": 102,
+        "width": 6.5,
+        "surfaceType": 2,
+        "numberStart": "H05",
+        "numberEnd": null,
+        "latStart": 32.66845824,
+        "lonStart": -114.60130515,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      },
+      {
+        "type": 102,
+        "width": 13.6,
+        "surfaceType": 2,
+        "numberStart": "H04",
+        "numberEnd": null,
+        "latStart": 32.66393803,
+        "lonStart": -114.60663368,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.6
+      },
+      {
+        "type": 102,
+        "width": 12.7,
+        "surfaceType": 1,
+        "numberStart": "H03",
+        "numberEnd": null,
+        "latStart": 32.66375403,
+        "lonStart": -114.60662987,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.2
+      },
+      {
+        "type": 102,
+        "width": 19.4,
+        "surfaceType": 1,
+        "numberStart": "H01",
+        "numberEnd": null,
+        "latStart": 32.65958551,
+        "lonStart": -114.60957146,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20
+      },
+      {
+        "type": 102,
+        "width": 19.4,
+        "surfaceType": 1,
+        "numberStart": "H02",
+        "numberEnd": null,
+        "latStart": 32.65958551,
+        "lonStart": -114.60982288,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20
+      }
+    ],
+    "id": 27814
+  },
+  {
     "type": 17,
     "icao": "2L5",
     "lat": 32.68282611,

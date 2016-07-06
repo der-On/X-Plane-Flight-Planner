@@ -1,86 +1,60 @@
 [
   {
     "type": 1,
-    "icao": "HRYG",
-    "lat": -1.677203,
-    "lon": 13.792712499999999,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12180,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11870,
-        "name": "GOMA APP"
-      }
-    ],
-    "elevation": 5082,
-    "tower": true,
-    "name": "GISENYI",
+    "icao": "FO22",
+    "lat": -1.1294374999999999,
+    "lon": 13.9205055,
+    "communications": [],
+    "elevation": 1660,
+    "tower": false,
+    "name": "AKIENI",
     "runways": [
       {
         "type": 100,
-        "width": 22.86,
+        "width": 39.93,
         "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": -1.681728,
-        "lonStart": 29.258103,
-        "latEnd": -1.672678,
-        "lonEnd": 29.259647,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -1.134167,
+        "lonStart": 13.912325,
+        "latEnd": -1.124708,
+        "lonEnd": 13.928686,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 10012
+    "id": 123
   },
   {
     "type": 1,
-    "icao": "FZNA",
-    "lat": -1.6708155,
-    "lon": 13.7788915,
+    "icao": "FOON",
+    "lat": -1.6561555000000001,
+    "lon": 13.4380375,
     "communications": [
       {
-        "type": 51,
-        "frequency": 12190,
-        "name": "UNICOM"
-      },
-      {
-        "type": 53,
-        "frequency": 12450,
-        "name": "GND"
-      },
-      {
         "type": 54,
-        "frequency": 11870,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12650,
-        "name": "APP"
+        "frequency": 11820,
+        "name": "MVENGUE TWR"
       }
     ],
-    "elevation": 5089,
+    "elevation": 1450,
     "tower": true,
-    "name": "GOMA",
+    "name": "MVENGUE",
     "runways": [
       {
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": -1.661839,
-        "lonStart": 29.237575,
-        "latEnd": -1.679792,
-        "lonEnd": 29.23935,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -1.64495,
+        "lonStart": 13.429842,
+        "latEnd": -1.667361,
+        "lonEnd": 13.446233,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 10061
+    "id": 16412
   }
 ]

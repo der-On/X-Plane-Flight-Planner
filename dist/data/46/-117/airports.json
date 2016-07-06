@@ -1,5 +1,251 @@
 [
   {
+    "type": 1,
+    "icao": "ID10",
+    "lat": 46.92433694,
+    "lon": -116.95849862,
+    "communications": [],
+    "elevation": 2580,
+    "tower": false,
+    "name": "Anderson-Plummer",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 46.92267235,
+        "lonStart": -116.96130242,
+        "latEnd": 46.92600153,
+        "lonEnd": -116.95569482,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1029
+  },
+  {
+    "type": 1,
+    "icao": "S84",
+    "lat": 46.038889,
+    "lon": -116.33166700000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 3474,
+    "tower": false,
+    "name": "COTTONWOOD MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 46.038889,
+        "lonStart": -116.337778,
+        "latEnd": 46.038889,
+        "lonEnd": -116.325556,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4189
+  },
+  {
+    "type": 1,
+    "icao": "S89",
+    "lat": 46.24710916,
+    "lon": -116.48014473,
+    "communications": [],
+    "elevation": 3805,
+    "tower": false,
+    "name": "Craigmont Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 46.24697514,
+        "lonStart": -116.48569434,
+        "latEnd": 46.24724318,
+        "lonEnd": -116.47459512,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5453
+  },
+  {
+    "type": 1,
+    "icao": "S91",
+    "lat": 46.78740305,
+    "lon": -116.16765,
+    "communications": [],
+    "elevation": 2827,
+    "tower": false,
+    "name": "Elk River",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 46.79078956,
+        "lonStart": -116.16686664,
+        "latEnd": 46.78401654,
+        "lonEnd": -116.16843336,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7096
+  },
+  {
+    "type": 1,
+    "icao": "ID60",
+    "lat": 46.71322055,
+    "lon": -116.99710862,
+    "communications": [],
+    "elevation": 2550,
+    "tower": false,
+    "name": "Fountains",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 46.71316071,
+        "lonStart": -117.00210855,
+        "latEnd": 46.71328039,
+        "lonEnd": -116.99210869,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 9631
+  },
+  {
+    "type": 1,
+    "icao": "S73",
+    "lat": 46.219306,
+    "lon": -116.01347200000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1194,
+    "tower": false,
+    "name": "KAMIAH MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 46.223056,
+        "lonStart": -116.015833,
+        "latEnd": 46.215556,
+        "lonEnd": -116.011111,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13210
+  },
+  {
+    "type": 1,
+    "icao": "0S5",
+    "lat": 46.23739138,
+    "lon": -116.24264195,
+    "communications": [],
+    "elevation": 3201,
+    "tower": false,
+    "name": "Nez Perce Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 46.24007442,
+        "lonStart": -116.24346647,
+        "latEnd": 46.23470834,
+        "lonEnd": -116.24181743,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 18300
+  },
+  {
+    "type": 1,
+    "icao": "S68",
+    "lat": 46.49129138,
+    "lon": -116.27680612,
+    "communications": [],
+    "elevation": 1005,
+    "tower": false,
+    "name": "Orofino Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 46.49235091,
+        "lonStart": -116.28154262,
+        "latEnd": 46.49023185,
+        "lonEnd": -116.27206962,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19035
+  },
+  {
+    "type": 1,
+    "icao": "ID11",
+    "lat": 46.38211388,
+    "lon": -116.51264612,
+    "communications": [],
+    "elevation": 3399,
+    "tower": false,
+    "name": "Wood Brothers Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 46.38205884,
+        "lonStart": -116.51493106,
+        "latEnd": 46.38216892,
+        "lonEnd": -116.51036118,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 27530
+  },
+  {
     "type": 17,
     "icao": "ID66",
     "lat": 46.48656972,

@@ -1,5 +1,393 @@
 [
   {
+    "type": 1,
+    "icao": "LSPA",
+    "lat": 47.574022,
+    "lon": 9.048154,
+    "communications": [],
+    "elevation": 1363,
+    "tower": false,
+    "name": "Amlikon",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 47.574298,
+        "lonStart": 9.042344,
+        "latEnd": 47.573746,
+        "lonEnd": 9.053964,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 993
+  },
+  {
+    "type": 1,
+    "icao": "LSZE",
+    "lat": 47.014875775,
+    "lon": 9.481946025,
+    "communications": [],
+    "elevation": 1617,
+    "tower": true,
+    "name": "Bad Ragaz",
+    "runways": [
+      {
+        "type": 100,
+        "width": 11.89,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 47.01595305,
+        "lonStart": 9.47914728,
+        "latEnd": 47.0137985,
+        "lonEnd": 9.48474477,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2046
+  },
+  {
+    "type": 1,
+    "icao": "EDNY",
+    "lat": 47.671316485000006,
+    "lon": 9.51149105,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12960,
+        "name": "Friedrichshafen ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 12007,
+        "name": "Friedrichshafen Tower"
+      },
+      {
+        "type": 54,
+        "frequency": 12435,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11992,
+        "name": "ZURICH ARR"
+      }
+    ],
+    "elevation": 1367,
+    "tower": true,
+    "name": "Friedrichshafen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 47.66602,
+        "lonStart": 9.4978509,
+        "latEnd": 47.67661297,
+        "lonEnd": 9.5251312,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 9733
+  },
+  {
+    "type": 1,
+    "icao": "LOIH",
+    "lat": 47.384498895,
+    "lon": 9.699735324999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12120,
+        "name": "AFIS"
+      }
+    ],
+    "elevation": 1352,
+    "tower": true,
+    "name": "Hohenems Dornbirn",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 47.38248553,
+        "lonStart": 9.6967512,
+        "latEnd": 47.38651226,
+        "lonEnd": 9.70271945,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11938
+  },
+  {
+    "type": 1,
+    "icao": "EDTZ",
+    "lat": 47.681444889999995,
+    "lon": 9.13931744,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12435,
+        "name": "Konstanz Info"
+      }
+    ],
+    "elevation": 1302,
+    "tower": true,
+    "name": "Konstanz",
+    "runways": [
+      {
+        "type": 100,
+        "width": 25,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 47.6836244,
+        "lonStart": 9.13335057,
+        "latEnd": 47.67926538,
+        "lonEnd": 9.14528431,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14067
+  },
+  {
+    "type": 1,
+    "icao": "LSZT",
+    "lat": 47.523285,
+    "lon": 9.001601,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 11930,
+        "name": "AFIS"
+      }
+    ],
+    "elevation": 1539,
+    "tower": true,
+    "name": "Lommis",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 47.52205195,
+        "lonStart": 8.99708162,
+        "latEnd": 47.52451805,
+        "lonEnd": 9.00612038,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 15422
+  },
+  {
+    "type": 1,
+    "icao": "LSMF",
+    "lat": 47.0776985,
+    "lon": 9.064475999999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13482,
+        "name": "AFIS"
+      }
+    ],
+    "elevation": 1485,
+    "tower": true,
+    "name": "Mollis",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.62,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 47.070894,
+        "lonStart": 9.062169,
+        "latEnd": 47.084503,
+        "lonEnd": 9.066783,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17368
+  },
+  {
+    "type": 1,
+    "icao": "EDTP",
+    "lat": 47.909446700000004,
+    "lon": 9.250836979999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12325,
+        "name": "Pfullendorf Info"
+      }
+    ],
+    "elevation": 2303,
+    "tower": true,
+    "name": "Pfullendorf",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 47.9067677,
+        "lonStart": 9.24983748,
+        "latEnd": 47.9121257,
+        "lonEnd": 9.25183648,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20044
+  },
+  {
+    "type": 1,
+    "icao": "LSZX",
+    "lat": 47.171647,
+    "lon": 9.0394315,
+    "communications": [],
+    "elevation": 1358,
+    "tower": false,
+    "name": "Schaenis",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.95,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 47.173871,
+        "lonStart": 9.038409,
+        "latEnd": 47.169423,
+        "lonEnd": 9.040454,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 23075
+  },
+  {
+    "type": 1,
+    "icao": "LSZV",
+    "lat": 47.50888589,
+    "lon": 9.26246815,
+    "communications": [],
+    "elevation": 1655,
+    "tower": false,
+    "name": "Sitterdorf",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 47.50836944,
+        "lonStart": 9.25915883,
+        "latEnd": 47.50940234,
+        "lonEnd": 9.26577747,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23579
+  },
+  {
+    "type": 1,
+    "icao": "LSZR",
+    "lat": 47.48602836800001,
+    "lon": 9.559912768,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12377,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11865,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11970,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11992,
+        "name": "ZURICH ARR"
+      }
+    ],
+    "elevation": 1306,
+    "tower": true,
+    "name": "St.Gallen-Altenrhein",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 47.48613051,
+        "lonStart": 9.55028415,
+        "latEnd": 47.48407248,
+        "lonEnd": 9.5699563,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "10L",
+        "numberEnd": "28R",
+        "latStart": 47.48642987,
+        "lonStart": 9.5574141,
+        "latEnd": 47.48560381,
+        "lonEnd": 9.56531027,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 10.1,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 47.48790517,
+        "lonStart": 9.55659902,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.9
+      }
+    ],
+    "id": 24071
+  },
+  {
     "type": 17,
     "icao": "LSXB",
     "lat": 47.068015020000004,

@@ -1,178 +1,39 @@
 [
   {
     "type": 1,
-    "icao": "LIPK",
-    "lat": 44.194290404,
-    "lon": 18.496308362,
+    "icao": "LQTZ",
+    "lat": 44.45866650000001,
+    "lon": 18.724833,
     "communications": [
       {
         "type": 54,
-        "frequency": 11895,
-        "name": "ForlC, TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 11975,
-        "name": "ForlC, TWR"
+        "frequency": 13085,
+        "name": "TWR"
       },
       {
         "type": 55,
-        "frequency": 11815,
-        "name": "Romagna APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12210,
-        "name": "Romagna APP"
-      },
-      {
-        "type": 55,
-        "frequency": 11857,
-        "name": "Romagna Radar"
+        "frequency": 12580,
+        "name": "APP/DEP"
       }
     ],
-    "elevation": 97,
+    "elevation": 784,
     "tower": true,
-    "name": "FORLI'",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 44.20013992,
-        "lonStart": 12.05623935,
-        "latEnd": 44.18971014,
-        "lonEnd": 12.08480866,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 11,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 44.19400905,
-        "lonStart": 12.07842292,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11
-      },
-      {
-        "type": 102,
-        "width": 11,
-        "surfaceType": 1,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 44.19388863,
-        "lonStart": 12.07876141,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11
-      },
-      {
-        "type": 102,
-        "width": 8,
-        "surfaceType": 1,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 44.19370428,
-        "lonStart": 12.07840799,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 8
-      }
-    ],
-    "id": 7616
-  },
-  {
-    "type": 1,
-    "icao": "LIPR",
-    "lat": 44.021083446,
-    "lon": 18.891440902,
-    "communications": [
-      {
-        "type": 55,
-        "frequency": 11815,
-        "name": "Romagna APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12210,
-        "name": "Romagna APP"
-      },
-      {
-        "type": 55,
-        "frequency": 11857,
-        "name": "Rimini Radar"
-      },
-      {
-        "type": 53,
-        "frequency": 12160,
-        "name": "Rimini Ground"
-      },
-      {
-        "type": 54,
-        "frequency": 11910,
-        "name": "Rimini TWR"
-      }
-    ],
-    "elevation": 41,
-    "tower": true,
-    "name": "RIMINI Miramare",
+    "name": "TUZLA",
     "runways": [
       {
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 44.028531,
-        "lonStart": 12.59696401,
-        "latEnd": 44.012042,
-        "lonEnd": 12.62652801,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 44.459833,
+        "lonStart": 18.709333,
+        "latEnd": 44.4575,
+        "lonEnd": 18.740333,
         "length": 0,
         "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 12,
-        "surfaceType": 4,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 44.0215667,
-        "lonStart": 12.61567006,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11.8
-      },
-      {
-        "type": 102,
-        "width": 9,
-        "surfaceType": 2,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 44.0217069,
-        "lonStart": 12.61632458,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9
-      },
-      {
-        "type": 102,
-        "width": 5,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 44.02157063,
-        "lonStart": 12.61620386,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 5
       }
     ],
-    "id": 20941
+    "id": 24924
   }
 ]

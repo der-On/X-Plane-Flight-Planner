@@ -1,821 +1,171 @@
 [
   {
     "type": 1,
-    "icao": "EDBA",
-    "lat": 50.8415392525,
-    "lon": 30.951832975000002,
+    "icao": "UKKM",
+    "lat": 50.603496,
+    "lon": 30.191932,
     "communications": [
       {
         "type": 54,
-        "frequency": 12300,
-        "name": "Arnstadt Info"
+        "frequency": 11815,
+        "name": "TWR"
       }
     ],
-    "elevation": 1145,
+    "elevation": 517,
     "tower": true,
-    "name": "Arnstadt-Alkersleben",
+    "name": "ANTONOV INTL",
     "runways": [
       {
         "type": 100,
-        "width": 23,
+        "width": 56.08,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 50.84198329,
-        "lonStart": 11.06336287,
-        "latEnd": 50.84175409,
-        "lonEnd": 11.07658175,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 50.617686,
+        "lonStart": 30.181278,
+        "latEnd": 50.589306,
+        "lonEnd": 30.202586,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45,
-        "surfaceType": null,
-        "numberStart": "09R",
-        "numberEnd": "27L",
-        "latStart": 50.84133724,
-        "lonStart": 11.06113255,
-        "latEnd": 50.84108239,
-        "lonEnd": 11.07634226,
-        "length": 0,
-        "surfacetype": 3
+        "surfacetype": 2
       }
     ],
-    "id": 1211
+    "id": 335
   },
   {
     "type": 1,
-    "icao": "EDEN",
-    "lat": 50.8444485,
-    "lon": 30.2771835,
+    "icao": "UKBB",
+    "lat": 50.3394722,
+    "lon": 30.89290312,
     "communications": [
+      {
+        "type": 50,
+        "frequency": 12670,
+        "name": "UKBB ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 13027,
+        "name": "BORISPIL DLV"
+      },
+      {
+        "type": 53,
+        "frequency": 11805,
+        "name": "BORISPIL GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11930,
+        "name": "BORYSPIL TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11965,
+        "name": "BORYSPIL TWR"
+      },
       {
         "type": 54,
         "frequency": 12400,
-        "name": "Bad Hersfeld Info"
-      }
-    ],
-    "elevation": 931,
-    "tower": true,
-    "name": "Bad Hersfeld",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 50.84145,
-        "lonStart": 9.70692,
-        "latEnd": 50.847447,
-        "lonEnd": 9.7077,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 2041
-  },
-  {
-    "type": 1,
-    "icao": "EDFK",
-    "lat": 50.21033,
-    "lon": 30.137635,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12200,
-        "name": "Bad Kissingen Info"
-      }
-    ],
-    "elevation": 652,
-    "tower": true,
-    "name": "Bad Kissingen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 50.213884,
-        "lonStart": 10.068494,
-        "latEnd": 50.206776,
-        "lonEnd": 10.070333,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 2042
-  },
-  {
-    "type": 1,
-    "icao": "EDFD",
-    "lat": 50.306149000000005,
-    "lon": 30.2639535,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12365,
-        "name": "Neustadt Saale Info"
-      }
-    ],
-    "elevation": 997,
-    "tower": true,
-    "name": "Bad Neustadt/Saale Grasberg",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 50.308349,
-        "lonStart": 10.223958,
-        "latEnd": 50.303949,
-        "lonEnd": 10.230195,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 2045
-  },
-  {
-    "type": 1,
-    "icao": "EDQC",
-    "lat": 50.262233635,
-    "lon": 30.625615935,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12867,
-        "name": "Coburg Info"
+        "name": "BORYSPIL TWR"
       },
       {
-        "type": 50,
-        "frequency": 12010,
-        "name": "Coburg ATIS"
-      }
-    ],
-    "elevation": 1489,
-    "tower": true,
-    "name": "Coburg - Brandensteinsebene",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "12R",
-        "numberEnd": "30L",
-        "latStart": 50.26358655,
-        "lonStart": 10.9914518,
-        "latEnd": 50.26043322,
-        "lonEnd": 10.99995943,
-        "length": 0,
-        "surfacetype": 3
+        "type": 55,
+        "frequency": 12772,
+        "name": "KIEV RADAR"
       },
       {
-        "type": 100,
-        "width": 20,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 50.26452019,
-        "lonStart": 10.99018414,
-        "latEnd": 50.26039458,
-        "lonEnd": 11.00134647,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 5139
-  },
-  {
-    "type": 1,
-    "icao": "EDQY",
-    "lat": 50.23062726,
-    "lon": 30.61127015,
-    "communications": [
+        "type": 55,
+        "frequency": 12090,
+        "name": "KYIV RADAR"
+      },
       {
-        "type": 54,
-        "frequency": 12980,
-        "name": "Steinruecken Info"
+        "type": 55,
+        "frequency": 12467,
+        "name": "KYIV RADAR"
+      },
+      {
+        "type": 55,
+        "frequency": 12817,
+        "name": "KYIV RADAR"
       }
     ],
-    "elevation": 1184,
+    "elevation": 420,
     "tower": true,
-    "name": "Coburg-Steinruecken",
+    "name": "Boryspil",
     "runways": [
       {
         "type": 100,
-        "width": 25,
+        "width": 63.09,
         "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 50.22951775,
-        "lonStart": 10.99080353,
-        "latEnd": 50.23173677,
-        "lonEnd": 11.00002964,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 5140
-  },
-  {
-    "type": 1,
-    "icao": "EDQR",
-    "lat": 50.039750624999996,
-    "lon": 30.429151885,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12250,
-        "name": "Ebern Info"
-      }
-    ],
-    "elevation": 828,
-    "tower": true,
-    "name": "Ebern-Sendelbach",
-    "runways": [
-      {
-        "type": 100,
-        "width": 25,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 50.0415609,
-        "lonStart": 10.82036342,
-        "latEnd": 50.03794035,
-        "lonEnd": 10.82503564,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 6934
-  },
-  {
-    "type": 1,
-    "icao": "EDGE",
-    "lat": 50.9934347275,
-    "lon": 30.72892915,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11975,
-        "name": "Eisenach Info"
-      }
-    ],
-    "elevation": 1101,
-    "tower": true,
-    "name": "Eisenach-Kindel",
-    "runways": [
-      {
-        "type": 100,
-        "width": 55,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 50.99411559,
-        "lonStart": 10.46433153,
-        "latEnd": 50.9902321,
-        "lonEnd": 10.48805281,
+        "numberStart": "18R",
+        "numberEnd": "36L",
+        "latStart": 50.3520872,
+        "lonStart": 30.88167562,
+        "latEnd": 50.3206872,
+        "lonEnd": 30.87942562,
         "length": 0,
         "surfacetype": 2
       },
       {
         "type": 100,
-        "width": 15,
+        "width": 60.05,
         "surfaceType": null,
-        "numberStart": "10L",
-        "numberEnd": "28R",
-        "latStart": 50.99499011,
-        "lonStart": 10.46675186,
-        "latEnd": 50.99440111,
-        "lonEnd": 10.47034972,
+        "numberStart": "18L",
+        "numberEnd": "36R",
+        "latStart": 50.3605572,
+        "lonStart": 30.90659562,
+        "latEnd": 50.3245572,
+        "lonEnd": 30.90391562,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 2
       }
     ],
-    "id": 7016
+    "id": 3027
   },
   {
     "type": 1,
-    "icao": "EDEG",
-    "lat": 50.970264725,
-    "lon": 30.846610724999998,
+    "icao": "UKKK",
+    "lat": 50.401768585,
+    "lon": 30.451086185,
     "communications": [
       {
+        "type": 50,
+        "frequency": 12747,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 11900,
+        "name": "GND"
+      },
+      {
         "type": 54,
-        "frequency": 12250,
-        "name": "Gotha Info"
+        "frequency": 12070,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12530,
+        "name": "KYIV RADAR"
       }
     ],
-    "elevation": 990,
+    "elevation": 557,
     "tower": true,
-    "name": "Gotha-Ost",
+    "name": "ZHULIANY INTL",
     "runways": [
       {
         "type": 100,
-        "width": 30,
+        "width": 45,
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": 50.96947127,
-        "lonStart": 10.72216327,
-        "latEnd": 50.97105818,
-        "lonEnd": 10.73346123,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 10645
-  },
-  {
-    "type": 1,
-    "icao": "EDQK",
-    "lat": 50.1351704,
-    "lon": 30.794767337499998,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11852,
-        "name": "Kulmbach Info"
-      }
-    ],
-    "elevation": 1660,
-    "tower": true,
-    "name": "Kulmbach",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 50.13471326,
-        "lonStart": 11.45412239,
-        "latEnd": 50.13523977,
-        "lonEnd": 11.46415045,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 50,
-        "surfaceType": null,
-        "numberStart": "09L",
-        "numberEnd": "27R",
-        "latStart": 50.13508971,
-        "lonStart": 11.45406833,
-        "latEnd": 50.13563886,
-        "lonEnd": 11.4645392,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 14186
-  },
-  {
-    "type": 1,
-    "icao": "EDFT",
-    "lat": 50.683609505,
-    "lon": 30.04593685,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12217,
-        "name": "Lauterbach Info"
-      }
-    ],
-    "elevation": 1209,
-    "tower": false,
-    "name": "Lauterbach",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 50.68255336,
-        "lonStart": 9.40720805,
-        "latEnd": 50.68466565,
-        "lonEnd": 9.41591404,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15024
-  },
-  {
-    "type": 1,
-    "icao": "EDQL",
-    "lat": 50.147842510000004,
-    "lon": 30.59670424,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12300,
-        "name": "Lichtenfels Info"
-      }
-    ],
-    "elevation": 853,
-    "tower": true,
-    "name": "Lichtenfels",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 50.14550609,
-        "lonStart": 11.04322955,
-        "latEnd": 50.15017893,
-        "lonEnd": 11.05045637,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15247
-  },
-  {
-    "type": 1,
-    "icao": "EDQO",
-    "lat": 50.22598366,
-    "lon": 30.976108534999998,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12300,
-        "name": "Ottengruener Heide Info"
-      }
-    ],
-    "elevation": 1879,
-    "tower": true,
-    "name": "Ottengruener Heide",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.5,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 50.22705694,
-        "lonStart": 11.72730669,
-        "latEnd": 50.22491038,
-        "lonEnd": 11.73576407,
+        "latStart": 50.40107066,
+        "lonStart": 30.43482508,
+        "latEnd": 50.40246651,
+        "lonEnd": 30.46734729,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 19087
-  },
-  {
-    "type": 1,
-    "icao": "EDOS",
-    "lat": 50.669650245,
-    "lon": 30.858959905000003,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12305,
-        "name": "Pennewitz Info"
-      }
-    ],
-    "elevation": 1505,
-    "tower": true,
-    "name": "Pennewitz",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 50.66786643,
-        "lonStart": 11.04648575,
-        "latEnd": 50.67143406,
-        "lonEnd": 11.05552873,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 19960
-  },
-  {
-    "type": 1,
-    "icao": "EPKP",
-    "lat": 50.08574257666667,
-    "lon": 30.16620297333333,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12240,
-        "name": "POBIEDNIK RADIO"
-      }
-    ],
-    "elevation": 648,
-    "tower": true,
-    "name": "Pobiednik Wielki",
-    "runways": [
-      {
-        "type": 100,
-        "width": 38.93,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 50.0861039,
-        "lonStart": 20.20794676,
-        "latEnd": 50.08659657,
-        "lonEnd": 20.19696624,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 102,
-        "width": 35.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 50.08452726,
-        "lonStart": 20.20406559,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 32.9
-      }
-    ],
-    "id": 20286
-  },
-  {
-    "type": 1,
-    "icao": "EDOK",
-    "lat": 50.732705644999996,
-    "lon": 30.982588255,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11832,
-        "name": "Rudolstadt Info"
-      }
-    ],
-    "elevation": 1535,
-    "tower": true,
-    "name": "Rudolstadt-Groschwitz",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 50.73113824,
-        "lonStart": 11.23090346,
-        "latEnd": 50.73427305,
-        "lonEnd": 11.24121706,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 21813
-  },
-  {
-    "type": 1,
-    "icao": "EDX6",
-    "lat": 50.9031625,
-    "lon": 30.0711815,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12337,
-        "name": "Schwalmstadt Info"
-      }
-    ],
-    "elevation": 695,
-    "tower": true,
-    "name": "Schwalmstadt Ziegenhain",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 50.90432,
-        "lonStart": 9.238531,
-        "latEnd": 50.897498,
-        "lonEnd": 9.24514,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 50.901596,
-        "lonStart": 9.239461,
-        "latEnd": 50.909236,
-        "lonEnd": 9.24563,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23148
-  },
-  {
-    "type": 1,
-    "icao": "EDFS",
-    "lat": 50.0107405,
-    "lon": 30.127192,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11907,
-        "name": "Schweinfurth Info"
-      }
-    ],
-    "elevation": 685,
-    "tower": true,
-    "name": "Schweinfurt-SC<d",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 50.011636,
-        "lonStart": 10.244539,
-        "latEnd": 50.009845,
-        "lonEnd": 10.257954,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23153
-  },
-  {
-    "type": 1,
-    "icao": "EDQS",
-    "lat": 50.632073035000005,
-    "lon": 30.676805805,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12455,
-        "name": "Suhl Info"
-      }
-    ],
-    "elevation": 1928,
-    "tower": true,
-    "name": "Suhl-Goldlauter",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 50.63256478,
-        "lonStart": 10.72203032,
-        "latEnd": 50.63158129,
-        "lonEnd": 10.72998711,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 24335
-  },
-  {
-    "type": 1,
-    "icao": "EDER",
-    "lat": 50.49819435125,
-    "lon": 30.224233802500002,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11865,
-        "name": "Wasserkuppe Info"
-      }
-    ],
-    "elevation": 2956,
-    "tower": true,
-    "name": "Wasserkuppe",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 50.49755535,
-        "lonStart": 9.94962884,
-        "latEnd": 50.49988669,
-        "lonEnd": 9.95796255,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 50,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 50.49933514,
-        "lonStart": 9.94981496,
-        "latEnd": 50.493849,
-        "lonEnd": 9.95441065,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "06R",
-        "numberEnd": "24L",
-        "latStart": 50.49705956,
-        "lonStart": 9.94999278,
-        "latEnd": 50.4998585,
-        "lonEnd": 9.9595202,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "06C",
-        "numberEnd": "24C",
-        "latStart": 50.49783202,
-        "lonStart": 9.9506611,
-        "latEnd": 50.50017855,
-        "lonEnd": 9.95900702,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 26959
-  },
-  {
-    "type": 1,
-    "icao": "EDNZ",
-    "lat": 50.13689726,
-    "lon": 30.96445242,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12337,
-        "name": "Haidberg Info"
-      }
-    ],
-    "elevation": 1901,
-    "tower": true,
-    "name": "Zell-Haidberg",
-    "runways": [
-      {
-        "type": 100,
-        "width": 10,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 50.1356892,
-        "lonStart": 11.79079952,
-        "latEnd": 50.13810532,
-        "lonEnd": 11.79833281,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 27890
-  },
-  {
-    "type": 17,
-    "icao": "ETOA",
-    "lat": 50.04884741,
-    "lon": 30.10721159,
-    "communications": [],
-    "elevation": 754,
-    "tower": true,
-    "name": "[H] SCHWEINFURT AHP (clsd)",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.95,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 50.04852153,
-        "lonStart": 10.16524989,
-        "latEnd": 50.04917329,
-        "lonEnd": 10.17459296,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 32477
+    "id": 27850
   }
 ]

@@ -1,70 +1,81 @@
 [
   {
     "type": 1,
-    "icao": "UG11",
-    "lat": 40.8876225,
-    "lon": 43.413436000000004,
-    "communications": [],
-    "elevation": 1099,
-    "tower": false,
-    "name": "DOLLYAR",
-    "runways": [
-      {
-        "type": 100,
-        "width": 41.15,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 40.891506,
-        "lonStart": 45.943133,
-        "latEnd": 40.883739,
-        "lonEnd": 45.970897,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 5836
-  },
-  {
-    "type": 1,
-    "icao": "UBBG",
-    "lat": 40.7376765,
-    "lon": 43.5183165,
+    "icao": "UDSG",
+    "lat": 40.750369500000005,
+    "lon": 43.8593405,
     "communications": [
       {
         "type": 50,
-        "frequency": 11925,
+        "frequency": 12870,
         "name": "ATIS"
       },
       {
         "type": 54,
-        "frequency": 12400,
-        "name": "TWR"
+        "frequency": 12060,
+        "name": "GYUMRI TWR"
       },
       {
         "type": 55,
-        "frequency": 12400,
-        "name": "APP"
+        "frequency": 12770,
+        "name": "GYUMRI APP"
       }
     ],
-    "elevation": 1083,
+    "elevation": 5000,
     "tower": true,
-    "name": "GANJA",
+    "name": "GYUMRI",
     "runways": [
       {
         "type": 100,
-        "width": 43.89,
+        "width": 44.81,
         "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 40.744642,
-        "lonStart": 46.305922,
-        "latEnd": 40.730711,
-        "lonEnd": 46.329242,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 40.737147,
+        "lonStart": 43.851714,
+        "latEnd": 40.763592,
+        "lonEnd": 43.866967,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10244
+  },
+  {
+    "type": 1,
+    "icao": "LTCF",
+    "lat": 40.5620835,
+    "lon": 43.115,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12190,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12240,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 5889,
+    "tower": true,
+    "name": "KARS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 40.555278,
+        "lonStart": 43.096389,
+        "latEnd": 40.568889,
+        "lonEnd": 43.133611,
         "length": 0,
         "surfacetype": 2
       }
     ],
-    "id": 9881
+    "id": 13249
   }
 ]

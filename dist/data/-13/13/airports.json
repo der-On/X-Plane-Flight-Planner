@@ -1,47 +1,66 @@
 [
   {
     "type": 1,
-    "icao": "FQPB",
-    "lat": -12.99024775,
-    "lon": 13.762936249999996,
+    "icao": "FNBG",
+    "lat": -12.6090235,
+    "lon": 13.403712500000001,
     "communications": [
       {
         "type": 54,
-        "frequency": 11840,
-        "name": "TWR"
+        "frequency": 11870,
+        "name": "AFIS"
       }
     ],
-    "elevation": 331,
+    "elevation": 118,
     "tower": false,
-    "name": "PEMBA",
+    "name": "BENGUELA",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 30.48,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": -12.985628,
-        "lonStart": 40.522078,
-        "latEnd": -13.000994,
-        "lonEnd": 40.527583,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -12.604361,
+        "lonStart": 13.398075,
+        "latEnd": -12.613686,
+        "lonEnd": 13.40935,
         "length": 0,
         "surfacetype": 1
-      },
+      }
+    ],
+    "id": 1644
+  },
+  {
+    "type": 1,
+    "icao": "FNLB",
+    "lat": -12.371233499999999,
+    "lon": 13.536625,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "RDO"
+      }
+    ],
+    "elevation": 10,
+    "tower": false,
+    "name": "LOBITO",
+    "runways": [
       {
         "type": 100,
         "width": 29.87,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": -12.988019,
-        "lonStart": 40.517011,
-        "latEnd": -12.98635,
-        "lonEnd": 40.524208,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -12.365292,
+        "lonStart": 13.533133,
+        "latEnd": -12.377175,
+        "lonEnd": 13.540117,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 19290
+    "id": 14573
   }
 ]

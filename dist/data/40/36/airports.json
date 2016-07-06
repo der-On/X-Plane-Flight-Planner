@@ -1,124 +1,34 @@
 [
   {
     "type": 1,
-    "icao": "LTAE",
-    "lat": 40.078918,
-    "lon": 36.3232985,
+    "icao": "LTAW",
+    "lat": 40.3062805,
+    "lon": 36.371089,
     "communications": [
       {
         "type": 54,
-        "frequency": 12210,
+        "frequency": 11870,
         "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11910,
-        "name": "ESENBOGA APP"
-      },
-      {
-        "type": 55,
-        "frequency": 11960,
-        "name": "ESENBOGA APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12210,
-        "name": "ESENBOGA APP"
       }
     ],
-    "elevation": 2767,
+    "elevation": 1831,
     "tower": true,
-    "name": "AKINCI",
+    "name": "TOKAT",
     "runways": [
       {
         "type": 100,
-        "width": 44.81,
+        "width": 29.87,
         "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 40.066233,
-        "lonStart": 32.554994,
-        "latEnd": 40.091603,
-        "lonEnd": 32.576256,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 40.301528,
+        "lonStart": 36.3639,
+        "latEnd": 40.311033,
+        "lonEnd": 36.378278,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 124
-  },
-  {
-    "type": 1,
-    "icao": "LTAC",
-    "lat": 40.12828475,
-    "lon": 36.5622435,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12360,
-        "name": "ATIS"
-      },
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11810,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12210,
-        "name": "APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12060,
-        "name": "APP"
-      },
-      {
-        "type": 55,
-        "frequency": 11960,
-        "name": "APP"
-      },
-      {
-        "type": 55,
-        "frequency": 11910,
-        "name": "APP"
-      }
-    ],
-    "elevation": 3125,
-    "tower": true,
-    "name": "ESENBOGA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "03L",
-        "numberEnd": "21R",
-        "latStart": 40.115167,
-        "lonStart": 32.981225,
-        "latEnd": 40.142444,
-        "lonEnd": 33.007333,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "03R",
-        "numberEnd": "21L",
-        "latStart": 40.114056,
-        "lonStart": 32.983833,
-        "latEnd": 40.141472,
-        "lonEnd": 33.009222,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 6810
+    "id": 24772
   }
 ]

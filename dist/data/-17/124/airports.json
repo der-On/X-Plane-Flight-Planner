@@ -1,214 +1,53 @@
 [
   {
     "type": 1,
-    "icao": "YBCS",
-    "lat": -16.883395771333333,
-    "lon": 124.06474098266669,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13110,
-        "name": "YBCS ATIS"
-      },
-      {
-        "type": 52,
-        "frequency": 12170,
-        "name": "CAIRNS CLD"
-      },
-      {
-        "type": 53,
-        "frequency": 12170,
-        "name": "CAIRNS GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12490,
-        "name": "CAIRNS TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11840,
-        "name": "CAIRNS APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12610,
-        "name": "CAIRNS APP"
-      },
-      {
-        "type": 56,
-        "frequency": 11840,
-        "name": "CAIRNS DEP"
-      },
-      {
-        "type": 56,
-        "frequency": 12610,
-        "name": "CAIRNS DEP"
-      }
-    ],
-    "elevation": 9,
-    "tower": true,
-    "name": "Cairns Intl",
+    "icao": "YMHT",
+    "lat": -16.823150849999998,
+    "lon": 124.91390209,
+    "communications": [],
+    "elevation": 644,
+    "tower": false,
+    "name": "MOUNT HART STN",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 28.96,
         "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": -16.86582971,
-        "lonStart": 145.74356344,
-        "latEnd": -16.89229329,
-        "lonEnd": 145.75553081,
+        "numberStart": "2",
+        "numberEnd": "20",
+        "latStart": -16.82847523,
+        "lonStart": 124.91136715,
+        "latEnd": -16.81782647,
+        "lonEnd": 124.91643703,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 18.9,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": -16.88065825,
-        "lonStart": 145.75211172,
-        "latEnd": -16.88553632,
-        "lonEnd": 145.75918701,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 15.9,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -16.87937644,
-        "lonStart": 145.74842528,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.9
-      },
-      {
-        "type": 102,
-        "width": 14.9,
-        "surfaceType": 1,
-        "numberStart": "H10",
-        "numberEnd": null,
-        "latStart": -16.88851337,
-        "lonStart": 145.75204554,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 14.9
-      },
-      {
-        "type": 102,
-        "width": 14.9,
-        "surfaceType": 2,
-        "numberStart": "H11",
-        "numberEnd": null,
-        "latStart": -16.88871316,
-        "lonStart": 145.75213261,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 14.9
-      },
-      {
-        "type": 102,
-        "width": 15.9,
-        "surfaceType": 1,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": -16.87960341,
-        "lonStart": 145.74856682,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.9
-      },
-      {
-        "type": 102,
-        "width": 15.9,
-        "surfaceType": 1,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": -16.87983648,
-        "lonStart": 145.74871347,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.9
-      },
-      {
-        "type": 102,
-        "width": 10.1,
-        "surfaceType": 1,
-        "numberStart": "H4",
-        "numberEnd": null,
-        "latStart": -16.88219387,
-        "lonStart": 145.74931466,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.1
-      },
-      {
-        "type": 102,
-        "width": 10.1,
-        "surfaceType": 1,
-        "numberStart": "H5",
-        "numberEnd": null,
-        "latStart": -16.88205269,
-        "lonStart": 145.74924759,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.1
-      },
-      {
-        "type": 102,
-        "width": 10.1,
-        "surfaceType": 1,
-        "numberStart": "H6",
-        "numberEnd": null,
-        "latStart": -16.88186291,
-        "lonStart": 145.74916328,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.1
-      },
-      {
-        "type": 102,
-        "width": 14.9,
-        "surfaceType": 1,
-        "numberStart": "H7",
-        "numberEnd": null,
-        "latStart": -16.887977,
-        "lonStart": 145.7518084,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 14.9
-      },
-      {
-        "type": 102,
-        "width": 14.9,
-        "surfaceType": 1,
-        "numberStart": "H8",
-        "numberEnd": null,
-        "latStart": -16.88815682,
-        "lonStart": 145.75188505,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 14.9
-      },
-      {
-        "type": 102,
-        "width": 14.9,
-        "surfaceType": 1,
-        "numberStart": "H9",
-        "numberEnd": null,
-        "latStart": -16.88833285,
-        "lonStart": 145.75196649,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 14.9
+        "surfacetype": 5
       }
     ],
-    "id": 4327
+    "id": 16309
+  },
+  {
+    "type": 16,
+    "icao": "YWTI",
+    "lat": -16.383098035000003,
+    "lon": 124.48349093499999,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] WALCOTT INLET",
+    "runways": [
+      {
+        "type": 101,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "8",
+        "numberEnd": "26",
+        "latStart": -16.38311407,
+        "lonStart": 124.48334887,
+        "latEnd": -16.383082,
+        "lonEnd": 124.483633,
+        "length": 0
+      }
+    ],
+    "id": 34512
   }
 ]

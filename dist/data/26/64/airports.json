@@ -1,28 +1,39 @@
 [
   {
     "type": 1,
-    "icao": "ZPZI",
-    "lat": 26.5402033,
-    "lon": 64.166115035,
-    "communications": [],
-    "elevation": 6482,
-    "tower": false,
-    "name": "Panzhihua",
+    "icao": "OPPG",
+    "lat": 26.954546,
+    "lon": 64.13251650000001,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 3289,
+    "tower": true,
+    "name": "PANJGUR",
     "runways": [
       {
         "type": 100,
-        "width": 49.99,
+        "width": 22.86,
         "surfaceType": null,
-        "numberStart": "2",
-        "numberEnd": "20",
-        "latStart": 26.5522433,
-        "lonStart": 101.80406677,
-        "latEnd": 26.5281633,
-        "lonEnd": 101.79368646,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 26.9591,
+        "lonStart": 64.126844,
+        "latEnd": 26.949992,
+        "lonEnd": 64.138189,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 1
       }
     ],
-    "id": 19732
+    "id": 19200
   }
 ]

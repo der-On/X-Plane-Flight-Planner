@@ -1,5 +1,556 @@
 [
   {
+    "type": 1,
+    "icao": "YAMB",
+    "lat": -27.636913207500005,
+    "lon": 152.71260826125,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12192,
+        "name": "AMBERLEY GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "AMBERLEY TWR"
+      }
+    ],
+    "elevation": 86,
+    "tower": true,
+    "name": "Amberley Military",
+    "runways": [
+      {
+        "type": 100,
+        "width": 35.05,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -27.63476962,
+        "lonStart": 152.71245512,
+        "latEnd": -27.63572993,
+        "lonEnd": 152.71716502,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -27.62119298,
+        "lonStart": 152.70507569,
+        "latEnd": -27.64799443,
+        "lonEnd": 152.71674918,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": -27.64461099,
+        "lonStart": 152.70788851,
+        "latEnd": -27.636602,
+        "lonEnd": 152.720433,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 34.14,
+        "surfaceType": null,
+        "numberStart": "15R",
+        "numberEnd": "33L",
+        "latStart": -27.63431187,
+        "lonStart": 152.70928467,
+        "latEnd": -27.64009384,
+        "lonEnd": 152.7118149,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 964
+  },
+  {
+    "type": 1,
+    "icao": "YB2",
+    "lat": -27.431883,
+    "lon": 152.394605,
+    "communications": [],
+    "elevation": 291,
+    "tower": true,
+    "name": "Arty Hearns Pvt Strip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": -27.42834748,
+        "lonStart": 152.39523591,
+        "latEnd": -27.43541852,
+        "lonEnd": 152.39397409,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 1240
+  },
+  {
+    "type": 1,
+    "icao": "BDF",
+    "lat": -27.418613999999998,
+    "lon": 152.401557,
+    "communications": [],
+    "elevation": 290,
+    "tower": true,
+    "name": "Bradfield",
+    "runways": [
+      {
+        "type": 100,
+        "width": 51.82,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": -27.4151101,
+        "lonStart": 152.40204167,
+        "latEnd": -27.4221179,
+        "lonEnd": 152.40107233,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 3092
+  },
+  {
+    "type": 1,
+    "icao": "YB1",
+    "lat": -27.432856500000003,
+    "lon": 152.4124185,
+    "communications": [],
+    "elevation": 248,
+    "tower": true,
+    "name": "Bush Strip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -27.43049613,
+        "lonStart": 152.41422049,
+        "latEnd": -27.43590387,
+        "lonEnd": 152.41055951,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -27.43023679,
+        "lonStart": 152.41141084,
+        "latEnd": -27.43478921,
+        "lonEnd": 152.41348316,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 3442
+  },
+  {
+    "type": 1,
+    "icao": "YCAB",
+    "lat": -27.07575178,
+    "lon": 152.9846602975,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12800,
+        "name": "YCAB MULT"
+      },
+      {
+        "type": 51,
+        "frequency": 12740,
+        "name": "YCAB UNIC"
+      }
+    ],
+    "elevation": 79,
+    "tower": false,
+    "name": "Caboolture",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.08,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -27.0776463,
+        "lonStart": 152.97987941,
+        "latEnd": -27.07586384,
+        "lonEnd": 152.98790846,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -27.07163859,
+        "lonStart": 152.98042007,
+        "latEnd": -27.07785839,
+        "lonEnd": 152.99043325,
+        "length": 0,
+        "surfacetype": 15
+      }
+    ],
+    "id": 4297
+  },
+  {
+    "type": 1,
+    "icao": "YBCM",
+    "lat": -27.391402127499997,
+    "lon": 152.4668942825,
+    "communications": [],
+    "elevation": 313,
+    "tower": false,
+    "name": "Coominya",
+    "runways": [
+      {
+        "type": 100,
+        "width": 70.1,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -27.38791366,
+        "lonStart": 152.46222466,
+        "latEnd": -27.39301251,
+        "lonEnd": 152.47048725,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -27.39394386,
+        "lonStart": 152.46488318,
+        "latEnd": -27.39073848,
+        "lonEnd": 152.46998204,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5295
+  },
+  {
+    "type": 1,
+    "icao": "YFRH",
+    "lat": -27.60509952,
+    "lon": 152.37257484999998,
+    "communications": [],
+    "elevation": 333,
+    "tower": false,
+    "name": "FOREST HILL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.95,
+        "surfaceType": null,
+        "numberStart": "3",
+        "numberEnd": "21",
+        "latStart": -27.60777796,
+        "lonStart": 152.37043479,
+        "latEnd": -27.60242108,
+        "lonEnd": 152.37471491,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7611
+  },
+  {
+    "type": 1,
+    "icao": "YGAS",
+    "lat": -27.589360999999997,
+    "lon": 152.25711,
+    "communications": [],
+    "elevation": 460,
+    "tower": false,
+    "name": "Gatton Airpark",
+    "runways": [
+      {
+        "type": 100,
+        "width": 38.1,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": -27.59319522,
+        "lonStart": 152.25566249,
+        "latEnd": -27.58552678,
+        "lonEnd": 152.25855751,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 10351
+  },
+  {
+    "type": 1,
+    "icao": "YGAT",
+    "lat": -27.56022,
+    "lon": 152.340033,
+    "communications": [],
+    "elevation": 320,
+    "tower": false,
+    "name": "Gatton College",
+    "runways": [
+      {
+        "type": 100,
+        "width": 38.1,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -27.56039858,
+        "lonStart": 152.33618924,
+        "latEnd": -27.56004142,
+        "lonEnd": 152.34387676,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 10352
+  },
+  {
+    "type": 1,
+    "icao": "LYN",
+    "lat": -27.474764,
+    "lon": 152.40483,
+    "communications": [],
+    "elevation": 251,
+    "tower": true,
+    "name": "Lynfield",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -27.47220933,
+        "lonStart": 152.40442532,
+        "latEnd": -27.47731867,
+        "lonEnd": 152.40523468,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 15645
+  },
+  {
+    "type": 1,
+    "icao": "YRIO",
+    "lat": -27.5481801,
+    "lon": 152.39041444,
+    "communications": [],
+    "elevation": 263,
+    "tower": false,
+    "name": "RIPCORD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "9",
+        "numberEnd": "27",
+        "latStart": -27.54823684,
+        "lonStart": 152.38756701,
+        "latEnd": -27.54881562,
+        "lonEnd": 152.39566619,
+        "length": 0,
+        "surfacetype": 15
+      },
+      {
+        "type": 102,
+        "width": 29.87,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -27.54809999,
+        "lonStart": 152.38929953,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.87
+      },
+      {
+        "type": 102,
+        "width": 29.87,
+        "surfaceType": 3,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": -27.54756795,
+        "lonStart": 152.38912503,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.87
+      }
+    ],
+    "id": 20955
+  },
+  {
+    "type": 1,
+    "icao": "YTLH",
+    "lat": -27.07148285,
+    "lon": 152.38286074,
+    "communications": [],
+    "elevation": 303,
+    "tower": false,
+    "name": "TOOGOOLAWAH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 10.06,
+        "surfaceType": null,
+        "numberStart": "6",
+        "numberEnd": "24",
+        "latStart": -27.07314133,
+        "lonStart": 152.37793168,
+        "latEnd": -27.06982437,
+        "lonEnd": 152.3877898,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 24794
+  },
+  {
+    "type": 1,
+    "icao": "AU16",
+    "lat": -27.1020208,
+    "lon": 152.893761215,
+    "communications": [],
+    "elevation": 91,
+    "tower": false,
+    "name": "Upper Caboolture",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.85,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -27.10061427,
+        "lonStart": 152.89162594,
+        "latEnd": -27.10342733,
+        "lonEnd": 152.89589649,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25960
+  },
+  {
+    "type": 1,
+    "icao": "YWSG",
+    "lat": -27.09670915166667,
+    "lon": 152.46149661833334,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12900,
+        "name": "YWSG MULT"
+      },
+      {
+        "type": 51,
+        "frequency": 12730,
+        "name": "YWSG UNIC"
+      }
+    ],
+    "elevation": 299,
+    "tower": false,
+    "name": "Watts Bridge",
+    "runways": [
+      {
+        "type": 100,
+        "width": 42.98,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -27.09406872,
+        "lonStart": 152.45925168,
+        "latEnd": -27.09956665,
+        "lonEnd": 152.46685099,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "12L",
+        "numberEnd": "30R",
+        "latStart": -27.09414479,
+        "lonStart": 152.46102103,
+        "latEnd": -27.0988851,
+        "lonEnd": 152.46747838,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": -27.09942601,
+        "lonStart": 152.45463761,
+        "latEnd": -27.09416364,
+        "lonEnd": 152.45974002,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 26982
+  },
+  {
+    "type": 1,
+    "icao": "YWIN",
+    "lat": -27.72124169,
+    "lon": 152.64413098,
+    "communications": [],
+    "elevation": 169,
+    "tower": false,
+    "name": "Willowbank Skydiving",
+    "runways": [
+      {
+        "type": 100,
+        "width": 10.06,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -27.72556038,
+        "lonStart": 152.64333096,
+        "latEnd": -27.716923,
+        "lonEnd": 152.644931,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 27367
+  },
+  {
     "type": 17,
     "icao": "YENO",
     "lat": -27.42339627,

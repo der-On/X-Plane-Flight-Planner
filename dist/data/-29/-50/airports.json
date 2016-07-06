@@ -1,40 +1,61 @@
 [
   {
     "type": 1,
-    "icao": "SCLL",
-    "lat": -28.596284145,
-    "lon": -49.67993129,
+    "icao": "SBCM",
+    "lat": -28.725818,
+    "lon": -49.42474,
     "communications": [
       {
         "type": 54,
-        "frequency": 11820,
-        "name": "MULT"
-      },
-      {
-        "type": 50,
-        "frequency": 12770,
-        "name": "INFO"
+        "frequency": 13195,
+        "name": "CRICIUMA RDO"
       }
     ],
-    "elevation": 1725,
+    "elevation": 93,
     "tower": true,
-    "name": "Vallenar",
+    "name": "FORQUILHINHA",
     "runways": [
       {
         "type": 100,
-        "width": 32,
+        "width": 29.87,
         "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": -28.59549846,
-        "lonStart": -70.76279275,
-        "latEnd": -28.59706983,
-        "lonEnd": -70.74821687,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -28.72745,
+        "lonStart": -49.432136,
+        "latEnd": -28.724186,
+        "lonEnd": -49.417344,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 26176
+    "id": 7621
+  },
+  {
+    "type": 1,
+    "icao": "SSSQ",
+    "lat": -28.2588882,
+    "lon": -49.915557899999996,
+    "communications": [],
+    "elevation": 4462,
+    "tower": true,
+    "name": "Sao Joaquim",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -28.25464282,
+        "lonStart": -49.91790868,
+        "latEnd": -28.26313358,
+        "lonEnd": -49.91320712,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 22976
   },
   {
     "type": 17,

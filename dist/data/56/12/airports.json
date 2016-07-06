@@ -1,5 +1,169 @@
 [
   {
+    "type": 1,
+    "icao": "ESTA",
+    "lat": 56.291491949999994,
+    "lon": 12.85497654,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12710,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 13245,
+        "name": "TWR"
+      },
+      {
+        "type": 56,
+        "frequency": 12485,
+        "name": "SWEDEN"
+      }
+    ],
+    "elevation": 68,
+    "tower": true,
+    "name": "Angelholm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 56.29777925,
+        "lonStart": 12.84417674,
+        "latEnd": 56.28520465,
+        "lonEnd": 12.86577634,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1048
+  },
+  {
+    "type": 1,
+    "icao": "ESGF",
+    "lat": 56.96858,
+    "lon": 12.388297999999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12335,
+        "name": "Morup Traffic com. freq."
+      }
+    ],
+    "elevation": 36,
+    "tower": false,
+    "name": "Falkenberg Morup",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 56.968682,
+        "lonStart": 12.382685,
+        "latEnd": 56.968478,
+        "lonEnd": 12.393911,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7781
+  },
+  {
+    "type": 1,
+    "icao": "ESMT",
+    "lat": 56.6883455175,
+    "lon": 12.81552792,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13010,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 101,
+    "tower": true,
+    "name": "Halmstad",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 56.68373876,
+        "lonStart": 12.80602108,
+        "latEnd": 56.68765523,
+        "lonEnd": 12.81572487,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 56.68074704,
+        "lonStart": 12.81815934,
+        "latEnd": 56.70124104,
+        "lonEnd": 12.82220639,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11346
+  },
+  {
+    "type": 1,
+    "icao": "ESMH",
+    "lat": 56.1847996325,
+    "lon": 12.575962345,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12355,
+        "name": "RDO Hoganas Traffic"
+      }
+    ],
+    "elevation": 19,
+    "tower": false,
+    "name": "Hoganas",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 56.18413956,
+        "lonStart": 12.57322444,
+        "latEnd": 56.18626,
+        "lonEnd": 12.579629,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 56.18682097,
+        "lonStart": 12.57074494,
+        "latEnd": 56.181978,
+        "lonEnd": 12.580251,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11932
+  },
+  {
     "type": 17,
     "icao": "ESHH",
     "lat": 56.03735833,

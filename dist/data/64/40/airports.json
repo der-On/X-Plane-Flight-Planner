@@ -1,60 +1,49 @@
 [
   {
     "type": 1,
-    "icao": "ESNV",
-    "lat": 64.57908325,
-    "lon": 40.697935040000004,
+    "icao": "ULAA",
+    "lat": 64.600275,
+    "lon": 40.716665500000005,
     "communications": [
       {
+        "type": 50,
+        "frequency": 12667,
+        "name": "ARKHANGELSK ATIS"
+      },
+      {
         "type": 54,
-        "frequency": 12255,
-        "name": "AFIS"
+        "frequency": 12180,
+        "name": "ARKHANGELSK TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12200,
+        "name": "ARKHANGELSK APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12400,
+        "name": "ARKHANGELSK APP"
       }
     ],
-    "elevation": 1138,
-    "tower": false,
-    "name": "Vilhelmina",
+    "elevation": 62,
+    "tower": true,
+    "name": "TALAGI",
     "runways": [
       {
         "type": 100,
-        "width": 30,
+        "width": 43.89,
         "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 64.5806115,
-        "lonStart": 16.81831508,
-        "latEnd": 64.577555,
-        "lonEnd": 16.848782,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 64.601564,
+        "lonStart": 40.690731,
+        "latEnd": 64.598986,
+        "lonEnd": 40.7426,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
       }
     ],
-    "id": 26332
-  },
-  {
-    "type": 1,
-    "icao": "ESUS",
-    "lat": 64.155868855,
-    "lon": 40.714307925,
-    "communications": [],
-    "elevation": 1011,
-    "tower": false,
-    "name": "C\u0005sele Genlanda",
-    "runways": [
-      {
-        "type": 100,
-        "width": 25,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 64.15843916,
-        "lonStart": 17.2753173,
-        "latEnd": 64.15329855,
-        "lonEnd": 17.29518422,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 34586
+    "id": 24551
   }
 ]

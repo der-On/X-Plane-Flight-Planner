@@ -1,94 +1,28 @@
 [
   {
     "type": 1,
-    "icao": "DABB",
-    "lat": 36.829325749999995,
-    "lon": 22.3234575,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11870,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 11970,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11900,
-        "name": "APP"
-      }
-    ],
-    "elevation": 16,
-    "tower": true,
-    "name": "ANNABA",
+    "icao": "LGSP",
+    "lat": 36.973890499999996,
+    "lon": 22.5262905,
+    "communications": [],
+    "elevation": 500,
+    "tower": false,
+    "name": "SPARTI",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 22.86,
         "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 36.818306,
-        "lonStart": 7.808697,
-        "latEnd": 36.845083,
-        "lonEnd": 7.812739,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 36.820611,
-        "lonStart": 7.806747,
-        "latEnd": 36.833303,
-        "lonEnd": 7.826803,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 36.9719,
+        "lonStart": 22.521781,
+        "latEnd": 36.975881,
+        "lonEnd": 22.5308,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 322
-  },
-  {
-    "type": 1,
-    "icao": "DTKA",
-    "lat": 36.9801655,
-    "lon": 22.9192695,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11925,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11925,
-        "name": "APP"
-      }
-    ],
-    "elevation": 230,
-    "tower": true,
-    "name": "TABARKA 7 NOVEMBRE",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 36.980853,
-        "lonStart": 8.859061,
-        "latEnd": 36.979478,
-        "lonEnd": 8.891189,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 24524
+    "id": 22416
   }
 ]

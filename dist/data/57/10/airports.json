@@ -1,52 +1,123 @@
 [
   {
     "type": 1,
-    "icao": "XPLO",
-    "lat": 57.335137259999996,
-    "lon": 10.0795131075,
+    "icao": "EK26",
+    "lat": 57.459279935,
+    "lon": 10.089544465,
     "communications": [],
-    "elevation": 80,
+    "elevation": 70,
     "tower": false,
-    "name": "Plockton",
+    "name": "Boegsted Hjorring",
     "runways": [
       {
         "type": 100,
-        "width": 17.98,
+        "width": 29.87,
         "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 57.33280093,
-        "lonStart": -5.67429591,
-        "latEnd": 57.33794751,
-        "lonEnd": -5.67192132,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 57.45932465,
+        "lonStart": 10.08274008,
+        "latEnd": 57.45923522,
+        "lonEnd": 10.09634885,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 10.06,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 57.33475848,
-        "lonStart": -5.6728775,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.06
-      },
-      {
-        "type": 102,
-        "width": 14.94,
-        "surfaceType": 1,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 57.33504212,
-        "lonStart": -5.67272167,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 14.94
+        "surfacetype": 3
       }
     ],
-    "id": 20271
+    "id": 2913
+  },
+  {
+    "type": 1,
+    "icao": "EKSA",
+    "lat": 57.346069685,
+    "lon": 10.40798457,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12250,
+        "name": "Saeby Radio"
+      }
+    ],
+    "elevation": 115,
+    "tower": true,
+    "name": "Saeby Ottestrup",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 57.34711091,
+        "lonStart": 10.4040473,
+        "latEnd": 57.34502846,
+        "lonEnd": 10.41192184,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 22667
+  },
+  {
+    "type": 1,
+    "icao": "EKSN",
+    "lat": 57.503524999999996,
+    "lon": 10.22937093,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11875,
+        "name": "AFIS"
+      },
+      {
+        "type": 55,
+        "frequency": 12397,
+        "name": "AALBORG APP"
+      }
+    ],
+    "elevation": 92,
+    "tower": true,
+    "name": "Sindal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 57.503175,
+        "lonStart": 10.21939167,
+        "latEnd": 57.503875,
+        "lonEnd": 10.23935019,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 23538
+  },
+  {
+    "type": 1,
+    "icao": "EK02",
+    "lat": 57.157409834999996,
+    "lon": 10.196577909999998,
+    "communications": [],
+    "elevation": 110,
+    "tower": false,
+    "name": "Stagsted (E451)",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 57.16012552,
+        "lonStart": 10.1958758,
+        "latEnd": 57.15469415,
+        "lonEnd": 10.19728002,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24087
   }
 ]

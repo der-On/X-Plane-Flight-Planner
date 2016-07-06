@@ -1,5 +1,121 @@
 [
   {
+    "type": 1,
+    "icao": "ESNG",
+    "lat": 67.132398765,
+    "lon": 20.814652275,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "AFIS"
+      }
+    ],
+    "elevation": 1026,
+    "tower": true,
+    "name": "Gallivare",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 67.13599253,
+        "lonStart": 20.79720955,
+        "latEnd": 67.128805,
+        "lonEnd": 20.832095,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10280
+  },
+  {
+    "type": 1,
+    "icao": "ESNQ",
+    "lat": 67.82199274999999,
+    "lon": 20.33677097,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13015,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 1507,
+    "tower": true,
+    "name": "Kiruna",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 67.8126805,
+        "lonStart": 20.32034194,
+        "latEnd": 67.831305,
+        "lonEnd": 20.3532,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 13936
+  },
+  {
+    "type": 1,
+    "icao": "ESUK",
+    "lat": 67.764433015,
+    "lon": 20.257483356666665,
+    "communications": [],
+    "elevation": 1548,
+    "tower": false,
+    "name": "Kiruna Kalixfors",
+    "runways": [
+      {
+        "type": 100,
+        "width": 38,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 67.7677415,
+        "lonStart": 20.24975479,
+        "latEnd": 67.760307,
+        "lonEnd": 20.253009,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 35,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 67.76066638,
+        "lonStart": 20.25313731,
+        "latEnd": 67.76520215,
+        "lonEnd": 20.26965566,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 35,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 67.76750076,
+        "lonStart": 20.25005169,
+        "latEnd": 67.7651803,
+        "lonEnd": 20.26929169,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 13937
+  },
+  {
     "type": 17,
     "icao": "ESEG",
     "lat": 67.13656413,

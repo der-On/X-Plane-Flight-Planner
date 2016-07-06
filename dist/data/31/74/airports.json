@@ -1,44 +1,146 @@
 [
   {
     "type": 1,
-    "icao": "ZSOF",
-    "lat": 31.780018,
-    "lon": 74.5289845,
+    "icao": "OPLA",
+    "lat": 31.521561750000004,
+    "lon": 74.403591,
     "communications": [
       {
         "type": 50,
-        "frequency": 12885,
+        "frequency": 12630,
         "name": "ATIS"
       },
       {
-        "type": 54,
-        "frequency": 11875,
-        "name": "HEFEI TWR"
+        "type": 53,
+        "frequency": 11840,
+        "name": "LAHORE GND"
       },
       {
         "type": 54,
         "frequency": 11810,
-        "name": "HEFEI TWR"
+        "name": "LAHORE TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12180,
+        "name": "LAHORE TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12130,
+        "name": "LAHORE APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12530,
+        "name": "LAHORE APP"
       }
     ],
-    "elevation": 108,
+    "elevation": 711,
     "tower": true,
-    "name": "LUOGANG",
+    "name": "ALLAMA IQBAL INTL",
     "runways": [
       {
         "type": 100,
-        "width": 49.99,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "18L",
+        "numberEnd": "36R",
+        "latStart": 31.53665,
+        "lonStart": 74.404844,
+        "latEnd": 31.506472,
+        "lonEnd": 74.404303,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "18R",
+        "numberEnd": "36L",
+        "latStart": 31.533925,
+        "lonStart": 74.402828,
+        "latEnd": 31.5092,
+        "lonEnd": 74.402389,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 218
+  },
+  {
+    "type": 1,
+    "icao": "VIAR",
+    "lat": 31.71119023,
+    "lon": 74.796470935,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11970,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12435,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11970,
+        "name": "APP"
+      }
+    ],
+    "elevation": 754,
+    "tower": true,
+    "name": "AMRITSAR",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 31.72649146,
+        "lonStart": 74.78905887,
+        "latEnd": 31.695889,
+        "lonEnd": 74.803883,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 283
+  },
+  {
+    "type": 1,
+    "icao": "OPLH",
+    "lat": 31.494794499999998,
+    "lon": 74.346239,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11940,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 679,
+    "tower": true,
+    "name": "WALTON",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
         "surfaceType": null,
         "numberStart": "14",
         "numberEnd": "32",
-        "latStart": 31.789636,
-        "lonStart": 117.287569,
-        "latEnd": 31.7704,
-        "lonEnd": 117.309858,
+        "latStart": 31.499208,
+        "lonStart": 74.341417,
+        "latEnd": 31.490381,
+        "lonEnd": 74.351061,
         "length": 0,
         "surfacetype": 2
       }
     ],
-    "id": 14677
+    "id": 26480
   }
 ]

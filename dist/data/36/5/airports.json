@@ -1,65 +1,97 @@
 [
   {
     "type": 1,
-    "icao": "LPAZ",
-    "lat": 36.9727315,
-    "lon": 5.896481666666667,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11810,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11900,
-        "name": "APP"
-      }
-    ],
-    "elevation": 308,
-    "tower": true,
-    "name": "SANTA MARIA",
+    "icao": "DAAS",
+    "lat": 36.178129,
+    "lon": 5.324493,
+    "communications": [],
+    "elevation": 3359,
+    "tower": false,
+    "name": "Ain Arnat",
     "runways": [
       {
         "type": 100,
-        "width": 60.05,
+        "width": 38.1,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 36.985,
-        "lonStart": -25.173333,
-        "latEnd": 36.957778,
-        "lonEnd": -25.167917,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 36.973611,
-        "lonStart": -25.175833,
-        "latEnd": 36.961667,
-        "lonEnd": -25.161389,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 36.973889,
-        "lonStart": -25.175833,
-        "latEnd": 36.984444,
-        "lonEnd": -25.168889,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 36.17790232,
+        "lonStart": 5.31376855,
+        "latEnd": 36.17835568,
+        "lonEnd": 5.33521745,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 22044
+    "id": 731
+  },
+  {
+    "type": 1,
+    "icao": "DAAV",
+    "lat": 36.7951345,
+    "lon": 5.873607,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11970,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 36,
+    "tower": true,
+    "name": "JIJEL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 36.805833,
+        "lonStart": 5.871503,
+        "latEnd": 36.784436,
+        "lonEnd": 5.875711,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12748
+  },
+  {
+    "type": 1,
+    "icao": "DAAE",
+    "lat": 36.7118055,
+    "lon": 5.0698615,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11890,
+        "name": "BEJAIA TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11970,
+        "name": "BEJAIA TWR"
+      }
+    ],
+    "elevation": 20,
+    "tower": true,
+    "name": "SOUMMAM",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 36.71,
+        "lonStart": 5.056667,
+        "latEnd": 36.713611,
+        "lonEnd": 5.083056,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22380
   }
 ]

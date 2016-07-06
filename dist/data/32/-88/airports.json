@@ -1,88 +1,304 @@
 [
   {
     "type": 1,
-    "icao": "KMZJ",
-    "lat": 32.51698052166666,
-    "lon": -87.36192355499999,
+    "icao": "0A8",
+    "lat": 32.9367915,
+    "lon": -87.08888350000001,
     "communications": [
       {
-        "type": 50,
-        "frequency": 11837,
-        "name": "WX-AWOS"
-      },
-      {
         "type": 51,
-        "frequency": 12305,
+        "frequency": 12280,
         "name": "CTAF/UNICOM"
       }
     ],
-    "elevation": 1892,
-    "tower": true,
-    "name": "Pinal Airpark",
+    "elevation": 250,
+    "tower": false,
+    "name": "BIBB CO",
     "runways": [
       {
         "type": 100,
-        "width": 46.02,
+        "width": 24.38,
         "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 32.51636304,
-        "lonStart": -111.33311947,
-        "latEnd": 32.50364491,
-        "lonEnd": -111.31771677,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 32.937494,
+        "lonStart": -87.095678,
+        "latEnd": 32.936089,
+        "lonEnd": -87.082089,
         "length": 0,
         "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 29.87,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 32.51957745,
-        "lonStart": -111.33442383,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 29.87
-      },
-      {
-        "type": 102,
-        "width": 29.87,
-        "surfaceType": 1,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 32.52013617,
-        "lonStart": -111.33510471,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 29.87
-      },
-      {
-        "type": 102,
-        "width": 29.87,
-        "surfaceType": 1,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 32.52067562,
-        "lonStart": -111.33577645,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 29.87
-      },
-      {
-        "type": 102,
-        "width": 29.87,
-        "surfaceType": 1,
-        "numberStart": "H5",
-        "numberEnd": null,
-        "latStart": 32.52148594,
-        "lonStart": -111.33676178,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 29.87
       }
     ],
-    "id": 20135
+    "id": 1695
+  },
+  {
+    "type": 1,
+    "icao": "7A2",
+    "lat": 32.4638195,
+    "lon": -87.9540635,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11920,
+        "name": "MERIDIAN APP/DEP"
+      }
+    ],
+    "elevation": 112,
+    "tower": false,
+    "name": "DEMOPOLIS MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 32.458772,
+        "lonStart": -87.959569,
+        "latEnd": 32.468867,
+        "lonEnd": -87.948558,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5757
+  },
+  {
+    "type": 1,
+    "icao": "3A7",
+    "lat": 32.820972499999996,
+    "lon": -87.8625,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 170,
+    "tower": false,
+    "name": "EUTAW MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 32.825556,
+        "lonStart": -87.865,
+        "latEnd": 32.816389,
+        "lonEnd": -87.86,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 6843
+  },
+  {
+    "type": 1,
+    "icao": "70A",
+    "lat": 32.266805500000004,
+    "lon": -87.718056,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 161,
+    "tower": false,
+    "name": "FREDDIE JONES FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 32.271389,
+        "lonStart": -87.718056,
+        "latEnd": 32.262222,
+        "lonEnd": -87.718056,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 7696
+  },
+  {
+    "type": 1,
+    "icao": "7A0",
+    "lat": 32.681458500000005,
+    "lon": -87.662083,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 180,
+    "tower": false,
+    "name": "GREENSBORO MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 23.77,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 32.68625,
+        "lonStart": -87.662083,
+        "latEnd": 32.676667,
+        "lonEnd": -87.662083,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10155
+  },
+  {
+    "type": 1,
+    "icao": "4A2",
+    "lat": 32.15847694,
+    "lon": -87.44999777999999,
+    "communications": [],
+    "elevation": 177,
+    "tower": false,
+    "name": "Martin Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 56.39,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 32.16251908,
+        "lonStart": -87.45075401,
+        "latEnd": 32.1544348,
+        "lonEnd": -87.44924155,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16747
+  },
+  {
+    "type": 1,
+    "icao": "L44",
+    "lat": 32.96818027,
+    "lon": -87.64056334,
+    "communications": [],
+    "elevation": 162,
+    "tower": false,
+    "name": "Moundville",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 32.96818027,
+        "lonStart": -87.64595793,
+        "latEnd": 32.96818027,
+        "lonEnd": -87.63516875,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17585
+  },
+  {
+    "type": 1,
+    "icao": "2AL0",
+    "lat": 32.35180555,
+    "lon": -87.54555556,
+    "communications": [],
+    "elevation": 275,
+    "tower": false,
+    "name": "Paulling Place Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.62,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 32.35180555,
+        "lonStart": -87.54977664,
+        "latEnd": 32.35180555,
+        "lonEnd": -87.54133448,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 19868
+  },
+  {
+    "type": 1,
+    "icao": "S63",
+    "lat": 32.36680416,
+    "lon": -87.1041575,
+    "communications": [],
+    "elevation": 125,
+    "tower": false,
+    "name": "Skyharbor",
+    "runways": [
+      {
+        "type": 100,
+        "width": 51.82,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 32.3650898,
+        "lonStart": -87.10767304,
+        "latEnd": 32.36851852,
+        "lonEnd": -87.10064196,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23662
+  },
+  {
+    "type": 1,
+    "icao": "A08",
+    "lat": 32.512361,
+    "lon": -87.3855555,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 225,
+    "tower": false,
+    "name": "VAIDEN FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 32.520833,
+        "lonStart": -87.388611,
+        "latEnd": 32.503889,
+        "lonEnd": -87.3825,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 26028
   },
   {
     "type": 17,

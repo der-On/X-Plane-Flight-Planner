@@ -1,118 +1,54 @@
 [
   {
     "type": 1,
-    "icao": "LGKA",
-    "lat": 40.4463875,
-    "lon": 30.853787500000003,
+    "icao": "LTBQ",
+    "lat": 40.735032000000004,
+    "lon": 30.0832625,
     "communications": [
       {
+        "type": 53,
+        "frequency": 12195,
+        "name": "GND"
+      },
+      {
         "type": 54,
-        "frequency": 11840,
-        "name": "KASTORIA INFO"
+        "frequency": 12210,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12050,
+        "name": "YESILKOY APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12110,
+        "name": "YESILKOY APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12220,
+        "name": "YESILKOY APP"
       }
     ],
-    "elevation": 2166,
+    "elevation": 182,
     "tower": true,
-    "name": "ARISTOTELIS",
+    "name": "TOPEL",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 29.87,
         "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 40.452825,
-        "lonStart": 21.267625,
-        "latEnd": 40.43995,
-        "lonEnd": 21.294594,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 40.736511,
+        "lonStart": 30.065686,
+        "latEnd": 40.733553,
+        "lonEnd": 30.100839,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 384
-  },
-  {
-    "type": 1,
-    "icao": "LA10",
-    "lat": 40.0873195,
-    "lon": 30.115996000000003,
-    "communications": [],
-    "elevation": 666,
-    "tower": false,
-    "name": "GJIROKASTER",
-    "runways": [
-      {
-        "type": 100,
-        "width": 69.49,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 40.091511,
-        "lonStart": 20.148864,
-        "latEnd": 40.083128,
-        "lonEnd": 20.157269,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 10014
-  },
-  {
-    "type": 1,
-    "icao": "LAKO",
-    "lat": 40.6456445,
-    "lon": 30.69731,
-    "communications": [],
-    "elevation": 665,
-    "tower": false,
-    "name": "KORCE NORTHWEST",
-    "runways": [
-      {
-        "type": 100,
-        "width": 83.82,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 40.635586,
-        "lonStart": 20.738917,
-        "latEnd": 40.655703,
-        "lonEnd": 20.744281,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 13465
-  },
-  {
-    "type": 1,
-    "icao": "LAKV",
-    "lat": 40.771885999999995,
-    "lon": 30.326503,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12450,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 135,
-    "tower": true,
-    "name": "KUCOVA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 67.06,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 40.781394,
-        "lonStart": 19.890628,
-        "latEnd": 40.762378,
-        "lonEnd": 19.913147,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 13483
+    "id": 24798
   }
 ]

@@ -1,5 +1,112 @@
 [
   {
+    "type": 1,
+    "icao": "5A8",
+    "lat": 59.28256166,
+    "lon": -158.6176725,
+    "communications": [],
+    "elevation": 65,
+    "tower": false,
+    "name": "Aleknagik",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 59.28535751,
+        "lonStart": -158.61863761,
+        "latEnd": 59.27976581,
+        "lonEnd": -158.61670739,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 845
+  },
+  {
+    "type": 1,
+    "icao": "Z35",
+    "lat": 59.28092333,
+    "lon": -158.59720028,
+    "communications": [],
+    "elevation": 149,
+    "tower": false,
+    "name": "Aleknagik Mission School",
+    "runways": [
+      {
+        "type": 100,
+        "width": 7.62,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 59.27986544,
+        "lonStart": -158.59966832,
+        "latEnd": 59.28198122,
+        "lonEnd": -158.59473224,
+        "length": 0,
+        "surfacetype": 5
+      },
+      {
+        "type": 100,
+        "width": 10.67,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 59.28146277,
+        "lonStart": -158.60010163,
+        "latEnd": 59.28038389,
+        "lonEnd": -158.59429893,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 846
+  },
+  {
+    "type": 1,
+    "icao": "PADL",
+    "lat": 59.0446735,
+    "lon": -158.5055125,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12500,
+        "name": "ATIS"
+      },
+      {
+        "type": 50,
+        "frequency": 13555,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12360,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 74,
+    "tower": true,
+    "name": "DILLINGHAM",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 59.036836,
+        "lonStart": -158.513092,
+        "latEnd": 59.052511,
+        "lonEnd": -158.497933,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5805
+  },
+  {
     "type": 17,
     "icao": "5Z4",
     "lat": 59.00175277,
@@ -23,5 +130,105 @@
       }
     ],
     "id": 28150
+  },
+  {
+    "type": 16,
+    "icao": "Z33",
+    "lat": 59.27397805,
+    "lon": -158.62358917,
+    "communications": [],
+    "elevation": 5,
+    "tower": false,
+    "name": "[S] Aleknagik",
+    "runways": [
+      {
+        "type": 101,
+        "width": 304.8,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 59.27866882,
+        "lonStart": -158.64881319,
+        "latEnd": 59.26928728,
+        "lonEnd": -158.59836515,
+        "length": 0
+      }
+    ],
+    "id": 33965
+  },
+  {
+    "type": 16,
+    "icao": "3Z8",
+    "lat": 59.74703944,
+    "lon": -158.87472751,
+    "communications": [],
+    "elevation": 89,
+    "tower": false,
+    "name": "[S] Golden Horn Lodge",
+    "runways": [
+      {
+        "type": 101,
+        "width": 457.2,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 59.7532544,
+        "lonStart": -158.88047975,
+        "latEnd": 59.74082448,
+        "lonEnd": -158.86897527,
+        "length": 0
+      }
+    ],
+    "id": 34128
+  },
+  {
+    "type": 16,
+    "icao": "0Z3",
+    "lat": 59.05897555,
+    "lon": -158.57719001,
+    "communications": [],
+    "elevation": 80,
+    "tower": false,
+    "name": "[S] Shannons Pond",
+    "runways": [
+      {
+        "type": 101,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 59.05816409,
+        "lonStart": -158.58057457,
+        "latEnd": 59.05978701,
+        "lonEnd": -158.57380545,
+        "length": 0
+      }
+    ],
+    "id": 34440
+  },
+  {
+    "type": 16,
+    "icao": "AK56",
+    "lat": 59.96316027,
+    "lon": -158.47723501000002,
+    "communications": [],
+    "elevation": 304,
+    "tower": false,
+    "name": "[S] Tikchik Lodge",
+    "runways": [
+      {
+        "type": 101,
+        "width": 609.6,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 59.96200104,
+        "lonStart": -158.48220145,
+        "latEnd": 59.9643195,
+        "lonEnd": -158.47226857,
+        "length": 0
+      }
+    ],
+    "id": 34490
   }
 ]

@@ -1,46 +1,89 @@
 [
   {
     "type": 1,
-    "icao": "EGPJ",
-    "lat": 56.18362063666667,
-    "lon": 16.580147333333333,
+    "icao": "ESMB",
+    "lat": 56.86266494,
+    "lon": 16.655469785,
     "communications": [
       {
         "type": 54,
-        "frequency": 13045,
-        "name": "Fife Radio"
+        "frequency": 12355,
+        "name": "RDO"
       }
     ],
-    "elevation": 398,
-    "tower": true,
-    "name": "Fife",
+    "elevation": 118,
+    "tower": false,
+    "name": "Borgholm Borglanda",
     "runways": [
       {
         "type": 100,
-        "width": 17.98,
+        "width": 50,
         "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 56.181786,
-        "lonStart": -3.22515,
-        "latEnd": 56.184786,
-        "lonEnd": -3.215444,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 56.86006088,
+        "lonStart": 16.65266357,
+        "latEnd": 56.865269,
+        "lonEnd": 16.658276,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3015
+  },
+  {
+    "type": 1,
+    "icao": "ESMQ",
+    "lat": 56.68504555,
+    "lon": 16.283442909999998,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 12545,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 13080,
+        "name": "TWR"
+      },
+      {
+        "type": 53,
+        "frequency": 12150,
+        "name": "GroundControl"
+      }
+    ],
+    "elevation": 17,
+    "tower": true,
+    "name": "Kalmar",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 56.696819,
+        "lonStart": 16.276661,
+        "latEnd": 56.67841461,
+        "lonEnd": 16.2943146,
         "length": 0,
         "surfacetype": 1
       },
       {
-        "type": 102,
-        "width": 17.98,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 56.18428991,
-        "lonStart": -3.219194,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 17.98
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 56.680622,
+        "lonStart": 16.277617,
+        "latEnd": 56.68432659,
+        "lonEnd": 16.28517904,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "id": 9274
+    "id": 13561
   }
 ]

@@ -1,41 +1,159 @@
 [
   {
     "type": 1,
-    "icao": "DTTB",
-    "lat": 37.2447235,
-    "lon": 23.51295125,
-    "communications": [],
-    "elevation": 20,
-    "tower": false,
-    "name": "SIDI AHMED AIR BASE",
+    "icao": "LGAV",
+    "lat": 37.9363575,
+    "lon": 23.944470000000003,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13612,
+        "name": "ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 11867,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 53,
+        "frequency": 12195,
+        "name": "GND"
+      },
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "GND"
+      },
+      {
+        "type": 53,
+        "frequency": 12175,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 13602,
+        "name": "INFO"
+      },
+      {
+        "type": 54,
+        "frequency": 11862,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 13627,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12657,
+        "name": "ATHINAI APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12402,
+        "name": "ATHINAI APP"
+      },
+      {
+        "type": 55,
+        "frequency": 13117,
+        "name": "ATHINAI APP"
+      },
+      {
+        "type": 55,
+        "frequency": 13297,
+        "name": "ATHINAI ARR"
+      },
+      {
+        "type": 55,
+        "frequency": 12657,
+        "name": "ATHINAI ARR"
+      },
+      {
+        "type": 55,
+        "frequency": 12140,
+        "name": "ATHINAI DIR"
+      },
+      {
+        "type": 56,
+        "frequency": 11830,
+        "name": "DEPATURE RADAR DEP"
+      },
+      {
+        "type": 56,
+        "frequency": 12895,
+        "name": "ATHINAI DEP"
+      }
+    ],
+    "elevation": 308,
+    "tower": true,
+    "name": "Athens Intl Airport Elefterios Venizelos",
     "runways": [
       {
         "type": 100,
-        "width": 50.6,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 37.240328,
-        "lonStart": 9.769847,
-        "latEnd": 37.244122,
-        "lonEnd": 9.803331,
+        "numberStart": "03R",
+        "numberEnd": "21L",
+        "latStart": 37.923511,
+        "lonStart": 23.943261,
+        "latEnd": 37.952425,
+        "lonEnd": 23.970422,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 49.99,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 37.249158,
-        "lonStart": 9.79255,
-        "latEnd": 37.245286,
-        "lonEnd": 9.805317,
+        "numberStart": "03L",
+        "numberEnd": "21R",
+        "latStart": 37.921011,
+        "lonStart": 23.919203,
+        "latEnd": 37.948483,
+        "lonEnd": 23.944994,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 1
       }
     ],
-    "id": 22256
+    "id": 1292
+  },
+  {
+    "type": 1,
+    "icao": "LGMG",
+    "lat": 37.9811125,
+    "lon": 23.365423999999997,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12350,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 12,
+    "tower": true,
+    "name": "MEGARA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 38.1,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 37.980372,
+        "lonStart": 23.358631,
+        "latEnd": 37.981853,
+        "lonEnd": 23.372217,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16001
   }
 ]

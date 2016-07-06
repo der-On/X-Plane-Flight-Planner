@@ -1,130 +1,57 @@
 [
   {
     "type": 1,
-    "icao": "BIBL",
-    "lat": 65.64537847,
-    "lon": 22.679727800000002,
+    "icao": "ESPA",
+    "lat": 65.5448736575,
+    "lon": 22.1086842575,
     "communications": [
       {
         "type": 54,
-        "frequency": 11860,
-        "name": "ATC"
-      }
-    ],
-    "elevation": 152,
-    "tower": false,
-    "name": "Blonduos",
-    "runways": [
+        "frequency": 12820,
+        "name": "TWR"
+      },
       {
-        "type": 100,
-        "width": 27,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 65.6412118,
-        "lonStart": -20.29008954,
-        "latEnd": 65.64954514,
-        "lonEnd": -20.28437527,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 2847
-  },
-  {
-    "type": 1,
-    "icao": "BIGJ",
-    "lat": 65.99541124999999,
-    "lon": 22.333657124999995,
-    "communications": [
+        "type": 55,
+        "frequency": 12545,
+        "name": "CON"
+      },
       {
         "type": 50,
-        "frequency": 11860,
+        "frequency": 12260,
         "name": "AFIS"
       }
     ],
-    "elevation": 68,
-    "tower": false,
-    "name": "Gjogur",
+    "elevation": 65,
+    "tower": true,
+    "name": "LuleC% Kallax",
     "runways": [
       {
         "type": 100,
-        "width": 27.74,
+        "width": 12,
         "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 65.9916025,
-        "lonStart": -21.33190575,
-        "latEnd": 65.99922,
-        "lonEnd": -21.321847,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 65.55119258,
+        "lonStart": 22.08459973,
+        "latEnd": 65.54082005,
+        "lonEnd": 22.10610389,
         "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 10503
-  },
-  {
-    "type": 1,
-    "icao": "BIHK",
-    "lat": 65.70472258000001,
-    "lon": 22.00598746,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11860,
-        "name": "AFIS"
-      }
-    ],
-    "elevation": 89,
-    "tower": false,
-    "name": "Holmavik",
-    "runways": [
+        "surfacetype": 1
+      },
       {
         "type": 100,
-        "width": 30,
+        "width": 45,
         "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 65.70024103,
-        "lonStart": -21.69722921,
-        "latEnd": 65.70920413,
-        "lonEnd": -21.69526964,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 65.554779,
+        "lonStart": 22.0974374,
+        "latEnd": 65.532703,
+        "lonEnd": 22.14659601,
         "length": 0,
-        "surfacetype": 5
+        "surfacetype": 1
       }
     ],
-    "id": 11973
-  },
-  {
-    "type": 1,
-    "icao": "BIHV",
-    "lat": 65.27009377499999,
-    "lon": 22.20762869,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11810,
-        "name": "AFIS"
-      }
-    ],
-    "elevation": 164,
-    "tower": false,
-    "name": "Hvammstangi",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 65.2745291,
-        "lonStart": -20.85040107,
-        "latEnd": 65.26565845,
-        "lonEnd": -20.84677668,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 12234
+    "id": 15599
   }
 ]

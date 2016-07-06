@@ -1,5 +1,166 @@
 [
   {
+    "type": 1,
+    "icao": "KHSE",
+    "lat": 35.232793,
+    "lon": -75.61779000000001,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11837,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      },
+      {
+        "type": 55,
+        "frequency": 11975,
+        "name": "CHERRY POINT APP/DEP"
+      }
+    ],
+    "elevation": 17,
+    "tower": false,
+    "name": "Billy Mitchell",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 35.230533,
+        "lonStart": -75.621986,
+        "latEnd": 35.235053,
+        "lonEnd": -75.613594,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2730
+  },
+  {
+    "type": 1,
+    "icao": "KMQI",
+    "lat": 35.9190435,
+    "lon": -75.695427705,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12827,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 14,
+    "tower": false,
+    "name": "DARE CO RGNL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 35.913969,
+        "lonStart": -75.70075391,
+        "latEnd": 35.923272,
+        "lonEnd": -75.69180391,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 35.923672,
+        "lonStart": -75.696664,
+        "latEnd": 35.915261,
+        "lonEnd": -75.692489,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5675
+  },
+  {
+    "type": 1,
+    "icao": "7W6",
+    "lat": 35.5625,
+    "lon": -75.9552795,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "UNICOM"
+      }
+    ],
+    "elevation": 7,
+    "tower": false,
+    "name": "HYDE COUNTY",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 35.564817,
+        "lonStart": -75.962653,
+        "latEnd": 35.560183,
+        "lonEnd": -75.947906,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11263
+  },
+  {
+    "type": 1,
+    "icao": "W95",
+    "lat": 35.1011625,
+    "lon": -75.96596400000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      },
+      {
+        "type": 55,
+        "frequency": 11975,
+        "name": "CHERRY POINT APP/DEP"
+      }
+    ],
+    "elevation": 5,
+    "tower": false,
+    "name": "OCRACOKE ISLAND",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 35.098539,
+        "lonStart": -75.969828,
+        "latEnd": 35.103786,
+        "lonEnd": -75.9621,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 18604
+  },
+  {
     "type": 17,
     "icao": "NC88",
     "lat": 35.98266833,

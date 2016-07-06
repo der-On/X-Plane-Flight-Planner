@@ -1,5 +1,207 @@
 [
   {
+    "type": 1,
+    "icao": "U03",
+    "lat": 42.5915275,
+    "lon": -114.7968055,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 3660,
+    "tower": false,
+    "name": "BUHL MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 42.593333,
+        "lonStart": -114.803611,
+        "latEnd": 42.589722,
+        "lonEnd": -114.79,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1964
+  },
+  {
+    "type": 1,
+    "icao": "KGNG",
+    "lat": 42.9171665,
+    "lon": -114.765157,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 3728,
+    "tower": false,
+    "name": "GOODING MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 42.916514,
+        "lonStart": -114.77395,
+        "latEnd": 42.917819,
+        "lonEnd": -114.756364,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10069
+  },
+  {
+    "type": 1,
+    "icao": "U94",
+    "lat": 42.57907833,
+    "lon": -114.13836195,
+    "communications": [],
+    "elevation": 4172,
+    "tower": false,
+    "name": "Hazelton Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 42.57814931,
+        "lonStart": -114.14342222,
+        "latEnd": 42.58000735,
+        "lonEnd": -114.13330168,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 11603
+  },
+  {
+    "type": 1,
+    "icao": "KJER",
+    "lat": 42.726682,
+    "lon": -114.4566445,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13522,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12670,
+        "name": "TWIN FALLS APP/DEP"
+      }
+    ],
+    "elevation": 4053,
+    "tower": false,
+    "name": "JEROME CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 42.727883,
+        "lonStart": -114.465803,
+        "latEnd": 42.725481,
+        "lonEnd": -114.447486,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12728
+  },
+  {
+    "type": 1,
+    "icao": "KTWF",
+    "lat": 42.4825,
+    "lon": -114.4882785,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13502,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 11820,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "TWIN FALLS GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11820,
+        "name": "TWIN FALLS TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12670,
+        "name": "TWIN FALLS APP/DEP"
+      }
+    ],
+    "elevation": 4151,
+    "tower": true,
+    "name": "JOSLIN FLD MAGIC VALLEY RGNL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 42.481256,
+        "lonStart": -114.503219,
+        "latEnd": 42.480711,
+        "lonEnd": -114.470975,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 42.487211,
+        "lonStart": -114.493589,
+        "latEnd": 42.480822,
+        "lonEnd": -114.485331,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12809
+  },
+  {
     "type": 17,
     "icao": "ID45",
     "lat": 42.56463277,

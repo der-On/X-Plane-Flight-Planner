@@ -1,5 +1,650 @@
 [
   {
+    "type": 1,
+    "icao": "MU17",
+    "lat": 38.50336583,
+    "lon": -92.22101612,
+    "communications": [],
+    "elevation": 600,
+    "tower": false,
+    "name": "Balcer Aero South",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 38.50706378,
+        "lonStart": -92.22076847,
+        "latEnd": 38.49966788,
+        "lonEnd": -92.22126377,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 2117
+  },
+  {
+    "type": 1,
+    "icao": "MO89",
+    "lat": 38.174197219999996,
+    "lon": -92.85852388999999,
+    "communications": [],
+    "elevation": 930,
+    "tower": false,
+    "name": "Bar-Vik",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 38.17741494,
+        "lonStart": -92.86149769,
+        "latEnd": 38.1709795,
+        "lonEnd": -92.85555009,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 2209
+  },
+  {
+    "type": 1,
+    "icao": "MO74",
+    "lat": 38.92226194,
+    "lon": -92.16962723,
+    "communications": [],
+    "elevation": 819,
+    "tower": false,
+    "name": "Cedar Creek",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 38.92427875,
+        "lonStart": -92.17361903,
+        "latEnd": 38.92024513,
+        "lonEnd": -92.16563543,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4692
+  },
+  {
+    "type": 1,
+    "icao": "KCOU",
+    "lat": 38.81903975,
+    "lon": -92.219575,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12845,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12160,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11930,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12437,
+        "name": "MIZZU APP/DEP"
+      }
+    ],
+    "elevation": 889,
+    "tower": true,
+    "name": "Columbia Rgnl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 38.805217,
+        "lonStart": -92.223728,
+        "latEnd": 38.821831,
+        "lonEnd": -92.215389,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 38.828858,
+        "lonStart": -92.225011,
+        "latEnd": 38.820253,
+        "lonEnd": -92.214172,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5211
+  },
+  {
+    "type": 1,
+    "icao": "H79",
+    "lat": 38.358365,
+    "lon": -92.575186,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 909,
+    "tower": false,
+    "name": "ELDON MODEL AIRPARK",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 38.362894,
+        "lonStart": -92.575336,
+        "latEnd": 38.353836,
+        "lonEnd": -92.575036,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 6723
+  },
+  {
+    "type": 1,
+    "icao": "KFTT",
+    "lat": 38.83844533333333,
+    "lon": -92.00300566666665,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12437,
+        "name": "MIZZU APP/DEP"
+      }
+    ],
+    "elevation": 886,
+    "tower": false,
+    "name": "ELTON HENSLEY MEM",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 38.840997,
+        "lonStart": -91.999872,
+        "latEnd": 38.830022,
+        "lonEnd": -92.000342,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 14.33,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 38.837661,
+        "lonStart": -92.008242,
+        "latEnd": 38.842436,
+        "lonEnd": -91.9988,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 38.841589,
+        "lonStart": -92.009042,
+        "latEnd": 38.837967,
+        "lonEnd": -92.001736,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 6758
+  },
+  {
+    "type": 1,
+    "icao": "K15",
+    "lat": 38.1104475,
+    "lon": -92.68055849999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12410,
+        "name": "MIZZU APP/DEP"
+      }
+    ],
+    "elevation": 875,
+    "tower": false,
+    "name": "GRAND GLAIZE OSAGE BEACH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 38.113931,
+        "lonStart": -92.683961,
+        "latEnd": 38.106964,
+        "lonEnd": -92.677156,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10105
+  },
+  {
+    "type": 1,
+    "icao": "7L7",
+    "lat": 38.26669583,
+    "lon": -92.81685777999999,
+    "communications": [],
+    "elevation": 770,
+    "tower": false,
+    "name": "Harbour",
+    "runways": [
+      {
+        "type": 100,
+        "width": 13.72,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 38.26516632,
+        "lonStart": -92.82085193,
+        "latEnd": 38.26822534,
+        "lonEnd": -92.81286363,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11429
+  },
+  {
+    "type": 1,
+    "icao": "9MO6",
+    "lat": 38.19308444,
+    "lon": -92.99241695,
+    "communications": [],
+    "elevation": 689,
+    "tower": false,
+    "name": "Ivy Bend",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 38.19146484,
+        "lonStart": -92.99478756,
+        "latEnd": 38.19470404,
+        "lonEnd": -92.99004634,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12616
+  },
+  {
+    "type": 1,
+    "icao": "KVER",
+    "lat": 38.946729,
+    "lon": -92.6826695,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12437,
+        "name": "MIZZU APP/DEP"
+      }
+    ],
+    "elevation": 715,
+    "tower": false,
+    "name": "JESSE VIERTEL MEM",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 38.9522,
+        "lonStart": -92.682097,
+        "latEnd": 38.941258,
+        "lonEnd": -92.683242,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12733
+  },
+  {
+    "type": 1,
+    "icao": "KJEF",
+    "lat": 38.591362676,
+    "lon": -92.158752254,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13362,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12560,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12437,
+        "name": "MIZZU APP/DEP"
+      }
+    ],
+    "elevation": 548,
+    "tower": true,
+    "name": "Jefferson City Mem",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 38.595736,
+        "lonStart": -92.163844,
+        "latEnd": 38.586878,
+        "lonEnd": -92.146144,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 38.591028,
+        "lonStart": -92.164119,
+        "latEnd": 38.59085,
+        "lonEnd": -92.152222,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 22.3,
+        "surfaceType": 2,
+        "numberStart": "H46",
+        "numberEnd": null,
+        "latStart": 38.59232138,
+        "lonStart": -92.16743227,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 28.3
+      }
+    ],
+    "id": 12938
+  },
+  {
+    "type": 1,
+    "icao": "OMU9",
+    "lat": 38.884186940000006,
+    "lon": -92.98547306,
+    "communications": [],
+    "elevation": 810,
+    "tower": false,
+    "name": "Kollmeyer",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 38.88596411,
+        "lonStart": -92.98792134,
+        "latEnd": 38.88240977,
+        "lonEnd": -92.98302478,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14057
+  },
+  {
+    "type": 1,
+    "icao": "KAIZ",
+    "lat": 38.096033500000004,
+    "lon": -92.5494765,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13532,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12410,
+        "name": "MIZZU APP/DEP"
+      }
+    ],
+    "elevation": 869,
+    "tower": false,
+    "name": "LEE C FINE MEM",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 38.088917,
+        "lonStart": -92.556281,
+        "latEnd": 38.10315,
+        "lonEnd": -92.542672,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14467
+  },
+  {
+    "type": 1,
+    "icao": "24MO",
+    "lat": 38.13336472,
+    "lon": -92.83352223,
+    "communications": [],
+    "elevation": 760,
+    "tower": false,
+    "name": "Mistwood",
+    "runways": [
+      {
+        "type": 100,
+        "width": 10.97,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 38.13230622,
+        "lonStart": -92.83821525,
+        "latEnd": 38.13442322,
+        "lonEnd": -92.82882921,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17308
+  },
+  {
+    "type": 1,
+    "icao": "MO23",
+    "lat": 38.633361,
+    "lon": -92.5335225,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "UNICOM"
+      }
+    ],
+    "elevation": 820,
+    "tower": false,
+    "name": "PHILLIPS FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 38.63693,
+        "lonStart": -92.533607,
+        "latEnd": 38.629792,
+        "lonEnd": -92.533438,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 19346
+  },
+  {
+    "type": 1,
+    "icao": "3VS",
+    "lat": 38.4278025,
+    "lon": -92.87519501,
+    "communications": [],
+    "elevation": 1030,
+    "tower": false,
+    "name": "Roy Otten Memorial Airfield",
+    "runways": [
+      {
+        "type": 100,
+        "width": 11.89,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 38.42674249,
+        "lonStart": -92.87991383,
+        "latEnd": 38.42886251,
+        "lonEnd": -92.87047619,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 21795
+  },
+  {
+    "type": 1,
+    "icao": "1MO8",
+    "lat": 38.252807219999994,
+    "lon": -92.80296806,
+    "communications": [],
+    "elevation": 800,
+    "tower": false,
+    "name": "Sherlock Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 36.58,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 38.25641913,
+        "lonStart": -92.80264643,
+        "latEnd": 38.24919531,
+        "lonEnd": -92.80328969,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23408
+  },
+  {
+    "type": 1,
+    "icao": "MU32",
+    "lat": 38.95114777,
+    "lon": -92.44740639,
+    "communications": [],
+    "elevation": 700,
+    "tower": false,
+    "name": "Sugar Branch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 38.9525508,
+        "lonStart": -92.44934107,
+        "latEnd": 38.94974474,
+        "lonEnd": -92.44547171,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24323
+  },
+  {
     "type": 17,
     "icao": "91MO",
     "lat": 38.95003861,
@@ -210,5 +855,30 @@
       }
     ],
     "id": 33508
+  },
+  {
+    "type": 16,
+    "icao": "MO07",
+    "lat": 38.200032500000006,
+    "lon": -92.61685166999999,
+    "communications": [],
+    "elevation": 659,
+    "tower": false,
+    "name": "[S] Bagnell",
+    "runways": [
+      {
+        "type": 101,
+        "width": 335.28,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 38.20122838,
+        "lonStart": -92.63861374,
+        "latEnd": 38.19883662,
+        "lonEnd": -92.5950896,
+        "length": 0
+      }
+    ],
+    "id": 33988
   }
 ]

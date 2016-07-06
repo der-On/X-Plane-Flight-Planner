@@ -1,100 +1,34 @@
 [
   {
     "type": 1,
-    "icao": "OPOR",
-    "lat": 25.2735374325,
-    "lon": 54.758405645,
-    "communications": [
-      {
-        "type": 53,
-        "frequency": 12180,
-        "name": "OPOR_GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12990,
-        "name": "OPOR_TWR"
-      }
-    ],
-    "elevation": 32,
-    "tower": true,
-    "name": "Ormara",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "6",
-        "numberEnd": "24",
-        "latStart": 25.27165353,
-        "lonStart": 64.579615,
-        "latEnd": 25.278172,
-        "lonEnd": 64.592933,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 24.08,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 25.27209998,
-        "lonStart": 64.58771825,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.08
-      },
-      {
-        "type": 102,
-        "width": 24.08,
-        "surfaceType": 1,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 25.27222422,
-        "lonStart": 64.58811733,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.08
-      }
-    ],
-    "id": 19030
-  },
-  {
-    "type": 1,
-    "icao": "VIBN",
-    "lat": 25.4523665,
-    "lon": 54.1502085,
+    "icao": "OIBS",
+    "lat": 25.9091445,
+    "lon": 54.5394295,
     "communications": [
       {
         "type": 54,
-        "frequency": 11810,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11900,
-        "name": "APP"
+        "frequency": 12900,
+        "name": "INFO"
       }
     ],
-    "elevation": 266,
-    "tower": true,
-    "name": "VARANASI",
+    "elevation": 43,
+    "tower": false,
+    "name": "SIRRI ISLAND",
     "runways": [
       {
         "type": 100,
-        "width": 45.72,
+        "width": 53.34,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 25.452919,
-        "lonStart": 82.848603,
-        "latEnd": 25.451814,
-        "lonEnd": 82.870375,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 25.916158,
+        "lonStart": 54.529381,
+        "latEnd": 25.902131,
+        "lonEnd": 54.549478,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 26048
+    "id": 22303
   }
 ]

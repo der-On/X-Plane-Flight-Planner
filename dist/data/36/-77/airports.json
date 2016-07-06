@@ -1,5 +1,1006 @@
 [
   {
+    "type": 1,
+    "icao": "42VA",
+    "lat": 36.67820666,
+    "lon": -76.03298584,
+    "communications": [],
+    "elevation": 15,
+    "tower": false,
+    "name": "Atlantic Airpark",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 36.67915929,
+        "lonStart": -76.03972225,
+        "latEnd": 36.67725403,
+        "lonEnd": -76.02624943,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1300
+  },
+  {
+    "type": 1,
+    "icao": "2VA8",
+    "lat": 36.68376166,
+    "lon": -76.82995889,
+    "communications": [],
+    "elevation": 65,
+    "tower": false,
+    "name": "Brandywyne Farms",
+    "runways": [
+      {
+        "type": 100,
+        "width": 7.62,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 36.68346129,
+        "lonStart": -76.8323237,
+        "latEnd": 36.68406203,
+        "lonEnd": -76.82759408,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3118
+  },
+  {
+    "type": 1,
+    "icao": "KCPK",
+    "lat": 36.665618,
+    "lon": -76.3206635,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12367,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12305,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11890,
+        "name": "NORFOLK APP/DEP"
+      }
+    ],
+    "elevation": 20,
+    "tower": false,
+    "name": "CHESAPEAKE RGNL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 36.659578,
+        "lonStart": -76.326294,
+        "latEnd": 36.671658,
+        "lonEnd": -76.315033,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3866
+  },
+  {
+    "type": 1,
+    "icao": "KONX",
+    "lat": 36.39994832,
+    "lon": -76.01543189,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11977,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      },
+      {
+        "type": 55,
+        "frequency": 12482,
+        "name": "OCEANA APP/DEP"
+      }
+    ],
+    "elevation": 16,
+    "tower": false,
+    "name": "CURRITUCK CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 36.39375508,
+        "lonStart": -76.02079687,
+        "latEnd": 36.40614156,
+        "lonEnd": -76.01006691,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 4275
+  },
+  {
+    "type": 1,
+    "icao": "KECG",
+    "lat": 36.25972982,
+    "lon": -76.17363178142857,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12437,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 51,
+        "frequency": 12050,
+        "name": "CTAF"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12050,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11955,
+        "name": "NORFOLK APP/DEP"
+      }
+    ],
+    "elevation": 12,
+    "tower": true,
+    "name": "ELIZABETH CITY CGAS RGNL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 36.261347,
+        "lonStart": -76.184197,
+        "latEnd": 36.260514,
+        "lonEnd": -76.159736,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 36.253822,
+        "lonStart": -76.179078,
+        "latEnd": 36.266222,
+        "lonEnd": -76.178414,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.25564626,
+        "lonStart": -76.17151442,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      },
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 36.25792585,
+        "lonStart": -76.16667553,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      },
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 1,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 36.26263163,
+        "lonStart": -76.17580752,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 6731
+  },
+  {
+    "type": 1,
+    "icao": "KFKN",
+    "lat": 36.7002985,
+    "lon": -76.9021415,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12467,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12790,
+        "name": "NORFOLK APP/DEP"
+      }
+    ],
+    "elevation": 41,
+    "tower": false,
+    "name": "FRANKLIN MUNI JOHN BEVERLY ROSE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 36.699228,
+        "lonStart": -76.910525,
+        "latEnd": 36.701369,
+        "lonEnd": -76.893758,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 7690
+  },
+  {
+    "type": 1,
+    "icao": "KNFE",
+    "lat": 36.692063785,
+    "lon": -76.13454863499999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12715,
+        "name": "ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 11850,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12080,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11890,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 11960,
+        "name": "OCEANA NAS APP"
+      },
+      {
+        "type": 56,
+        "frequency": 12520,
+        "name": "DEP"
+      }
+    ],
+    "elevation": 16,
+    "tower": true,
+    "name": "Fentress Nalf",
+    "runways": [
+      {
+        "type": 100,
+        "width": 53.04,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 36.68353257,
+        "lonStart": -76.14331363,
+        "latEnd": 36.700595,
+        "lonEnd": -76.12578364,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 9239
+  },
+  {
+    "type": 1,
+    "icao": "1NC3",
+    "lat": 36.18071416,
+    "lon": -76.14909556,
+    "communications": [],
+    "elevation": 7,
+    "tower": false,
+    "name": "Fletchers",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 36.18028506,
+        "lonStart": -76.15245204,
+        "latEnd": 36.18114326,
+        "lonEnd": -76.14573908,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9357
+  },
+  {
+    "type": 1,
+    "icao": "3VA8",
+    "lat": 36.85626027,
+    "lon": -76.68217806,
+    "communications": [],
+    "elevation": 80,
+    "tower": false,
+    "name": "Garner",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 36.85978224,
+        "lonStart": -76.68287522,
+        "latEnd": 36.8527383,
+        "lonEnd": -76.6814809,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10321
+  },
+  {
+    "type": 1,
+    "icao": "62VA",
+    "lat": 36.66987305,
+    "lon": -76.7285675,
+    "communications": [],
+    "elevation": 70,
+    "tower": false,
+    "name": "Grasso Salvage",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 36.66940104,
+        "lonStart": -76.73228296,
+        "latEnd": 36.67034506,
+        "lonEnd": -76.72485204,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10718
+  },
+  {
+    "type": 1,
+    "icao": "KPVG",
+    "lat": 36.780253429999995,
+    "lon": -76.44894643250001,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11837,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11890,
+        "name": "NORFOLK APP/DEP"
+      }
+    ],
+    "elevation": 23,
+    "tower": false,
+    "name": "HAMPTON ROADS EXECUTIVE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.03,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 36.77953366,
+        "lonStart": -76.45593034,
+        "latEnd": 36.77908147,
+        "lonEnd": -76.44255733,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 21.03,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 36.77770514,
+        "lonStart": -76.44931441,
+        "latEnd": 36.78469345,
+        "lonEnd": -76.44798365,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10987
+  },
+  {
+    "type": 1,
+    "icao": "16NC",
+    "lat": 36.19611111,
+    "lon": -76.66527778,
+    "communications": [],
+    "elevation": 31,
+    "tower": false,
+    "name": "Lees",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 36.19617334,
+        "lonStart": -76.66969578,
+        "latEnd": 36.19604888,
+        "lonEnd": -76.66085978,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 36.19402128,
+        "lonStart": -76.66532298,
+        "latEnd": 36.19820094,
+        "lonEnd": -76.66523258,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 15110
+  },
+  {
+    "type": 1,
+    "icao": "14W",
+    "lat": 36.20015805,
+    "lon": -76.23576667,
+    "communications": [],
+    "elevation": 7,
+    "tower": false,
+    "name": "Meadstown Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 36.20503463,
+        "lonStart": -76.23672381,
+        "latEnd": 36.19528147,
+        "lonEnd": -76.23480953,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17003
+  },
+  {
+    "type": 1,
+    "icao": "KEDE",
+    "lat": 36.027478,
+    "lon": -76.566293,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12112,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 20,
+    "tower": false,
+    "name": "NORTHEASTERN RGNL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 36.020353,
+        "lonStart": -76.569753,
+        "latEnd": 36.036836,
+        "lonEnd": -76.569786,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 36.022706,
+        "lonStart": -76.5673,
+        "latEnd": 36.030017,
+        "lonEnd": -76.558333,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17998
+  },
+  {
+    "type": 1,
+    "icao": "KORF",
+    "lat": 36.894206444999995,
+    "lon": -76.2022600775,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12715,
+        "name": "ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 11850,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12080,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11890,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 11960,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12482,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12570,
+        "name": "APP"
+      },
+      {
+        "type": 56,
+        "frequency": 12520,
+        "name": "DEP"
+      }
+    ],
+    "elevation": 25,
+    "tower": true,
+    "name": "Norfolk Intl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 36.88590919,
+        "lonStart": -76.20826445,
+        "latEnd": 36.90544766,
+        "lonEnd": -76.18938861,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 36.89685411,
+        "lonStart": -76.21252681,
+        "latEnd": 36.88861482,
+        "lonEnd": -76.19886044,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 18412
+  },
+  {
+    "type": 1,
+    "icao": "KNGU",
+    "lat": 36.937498678333334,
+    "lon": -76.29009262833334,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11842,
+        "name": "ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 12070,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "CHAMBERS GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12430,
+        "name": "CHAMBERS TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12637,
+        "name": "CHAMBERS TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11890,
+        "name": "APP"
+      },
+      {
+        "type": 56,
+        "frequency": 12520,
+        "name": "DEP"
+      }
+    ],
+    "elevation": 15,
+    "tower": true,
+    "name": "Norfolk Naval Air Station",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 36.93744479,
+        "lonStart": -76.30258335,
+        "latEnd": 36.93747061,
+        "lonEnd": -76.27834455,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 31.09,
+        "surfaceType": 1,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 36.94008518,
+        "lonStart": -76.29029634,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 32
+      },
+      {
+        "type": 102,
+        "width": 32,
+        "surfaceType": 1,
+        "numberStart": "H5",
+        "numberEnd": null,
+        "latStart": 36.93984723,
+        "lonStart": -76.28873809,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 31.09
+      },
+      {
+        "type": 102,
+        "width": 49.99,
+        "surfaceType": 1,
+        "numberStart": "H6",
+        "numberEnd": null,
+        "latStart": 36.93588029,
+        "lonStart": -76.29030441,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 49.99
+      },
+      {
+        "type": 102,
+        "width": 49.99,
+        "surfaceType": 1,
+        "numberStart": "H7",
+        "numberEnd": null,
+        "latStart": 36.93426397,
+        "lonStart": -76.29028903,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 49.99
+      }
+    ],
+    "id": 18414
+  },
+  {
+    "type": 1,
+    "icao": "KNTU",
+    "lat": 36.82147205,
+    "lon": -76.03229643699999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12087,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11960,
+        "name": "APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12390,
+        "name": "OCEANA APP/DEP"
+      }
+    ],
+    "elevation": 22,
+    "tower": true,
+    "name": "Oceana Naval Air Station",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "05R",
+        "numberEnd": "23L",
+        "latStart": 36.80545054,
+        "lonStart": -76.04994426,
+        "latEnd": 36.82988546,
+        "lonEnd": -76.02245176,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "05L",
+        "numberEnd": "23R",
+        "latStart": 36.81492853,
+        "lonStart": -76.0425885,
+        "latEnd": 36.83133778,
+        "lonEnd": -76.02410142,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "14L",
+        "numberEnd": "32R",
+        "latStart": 36.83469686,
+        "lonStart": -76.03714109,
+        "latEnd": 36.81935211,
+        "lonEnd": -76.01722362,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "14R",
+        "numberEnd": "32L",
+        "latStart": 36.8331672,
+        "lonStart": -76.0386359,
+        "latEnd": 36.8179648,
+        "lonEnd": -76.0189141,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 21.95,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.81927924,
+        "lonStart": -76.02786888,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21.03
+      },
+      {
+        "type": 102,
+        "width": 21.03,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 36.80865798,
+        "lonStart": -76.04409484,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21.95
+      }
+    ],
+    "id": 18805
+  },
+  {
+    "type": 1,
+    "icao": "KSFQ",
+    "lat": 36.68215635999999,
+    "lon": -76.60077319,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11937,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12790,
+        "name": "NORFOLK APP/DEP"
+      }
+    ],
+    "elevation": 72,
+    "tower": false,
+    "name": "SUFFOLK EXECUTIVE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 36.67472701,
+        "lonStart": -76.60352988,
+        "latEnd": 36.68659317,
+        "lonEnd": -76.5949507,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 36.68093139,
+        "lonStart": -76.60914229,
+        "latEnd": 36.68637387,
+        "lonEnd": -76.59546989,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22576
+  },
+  {
+    "type": 1,
+    "icao": "9W1",
+    "lat": 36.58931833,
+    "lon": -76.63800834,
+    "communications": [],
+    "elevation": 75,
+    "tower": false,
+    "name": "Umphlett Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 36.58582156,
+        "lonStart": -76.63808436,
+        "latEnd": 36.5928151,
+        "lonEnd": -76.63793232,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25910
+  },
+  {
+    "type": 1,
+    "icao": "VA59",
+    "lat": 36.63570638,
+    "lon": -76.15160084,
+    "communications": [],
+    "elevation": 9,
+    "tower": false,
+    "name": "Weatherly & Son",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 36.63377321,
+        "lonStart": -76.15247768,
+        "latEnd": 36.63763955,
+        "lonEnd": -76.150724,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 27010
+  },
+  {
     "type": 17,
     "icao": "NC98",
     "lat": 36.32460027,

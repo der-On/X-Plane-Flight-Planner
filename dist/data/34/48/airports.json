@@ -1,34 +1,39 @@
 [
   {
     "type": 1,
-    "icao": "OAHR",
-    "lat": 34.210017,
-    "lon": 48.2144195,
+    "icao": "OIHH",
+    "lat": 34.867326500000004,
+    "lon": 48.5563585,
     "communications": [
       {
         "type": 54,
-        "frequency": 11810,
+        "frequency": 12190,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12350,
         "name": "TWR"
       }
     ],
-    "elevation": 3206,
+    "elevation": 5755,
     "tower": true,
-    "name": "HERAT",
+    "name": "HAMADAN",
     "runways": [
       {
         "type": 100,
-        "width": 45.72,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 34.221217,
-        "lonStart": 62.230022,
-        "latEnd": 34.198817,
-        "lonEnd": 62.226578,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 34.871072,
+        "lonStart": 48.539267,
+        "latEnd": 34.863581,
+        "lonEnd": 48.57345,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 11106
+    "id": 10972
   }
 ]

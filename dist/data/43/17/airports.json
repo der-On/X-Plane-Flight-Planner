@@ -1,182 +1,86 @@
 [
   {
     "type": 1,
-    "icao": "LECO",
-    "lat": 43.3022635,
-    "lon": 17.463258,
+    "icao": "LQMO",
+    "lat": 43.282871,
+    "lon": 17.845854000000003,
     "communications": [
       {
-        "type": 53,
-        "frequency": 12170,
-        "name": "GND"
+        "type": 50,
+        "frequency": 12622,
+        "name": "ATIS"
       },
       {
         "type": 54,
-        "frequency": 11830,
+        "frequency": 12555,
         "name": "TWR"
       },
       {
         "type": 55,
-        "frequency": 12020,
-        "name": "SANTIAGO APP"
+        "frequency": 12022,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12987,
+        "name": "APP"
       }
     ],
-    "elevation": 327,
+    "elevation": 155,
     "tower": true,
-    "name": "A Coruna",
+    "name": "MOSTAR",
     "runways": [
       {
         "type": 100,
-        "width": 45,
+        "width": 49,
         "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 43.294783,
-        "lonStart": -8.383228,
-        "latEnd": 43.309744,
-        "lonEnd": -8.370947,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 43.292855,
+        "lonStart": 17.84025,
+        "latEnd": 43.272887,
+        "lonEnd": 17.851458,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 24
+    "id": 16278
   },
   {
     "type": 1,
-    "icao": "LFMT",
-    "lat": 43.575880000000005,
-    "lon": 17.163206,
+    "icao": "LDDP",
+    "lat": 43.038686,
+    "lon": 17.429647,
     "communications": [
       {
-        "type": 50,
-        "frequency": 12412,
-        "name": "LFMT ATIS"
-      },
-      {
-        "type": 53,
-        "frequency": 12195,
-        "name": "MONTPELLIER GND"
+        "type": 54,
+        "frequency": 12962,
+        "name": "INFO"
       },
       {
         "type": 54,
-        "frequency": 11820,
-        "name": "MONTPELLIER TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 11877,
-        "name": "MONTPELLIER TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12037,
-        "name": "MONTPELLIER APP"
-      },
-      {
-        "type": 55,
-        "frequency": 13085,
-        "name": "MONTPELLIER APP"
-      },
-      {
-        "type": 55,
-        "frequency": 13377,
-        "name": "MONTPELLIER APP"
+        "frequency": 12350,
+        "name": "INFO"
       }
     ],
-    "elevation": 16,
-    "tower": true,
-    "name": "Montpellier/Mediterranee",
-    "runways": [
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "12L",
-        "numberEnd": "30R",
-        "latStart": 43.586149,
-        "lonStart": 3.955746,
-        "latEnd": 43.572819,
-        "lonEnd": 3.982228,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "12R",
-        "numberEnd": "30L",
-        "latStart": 43.575864,
-        "lonStart": 3.951927,
-        "latEnd": 43.570216,
-        "lonEnd": 3.963141,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 10.1,
-        "surfaceType": 2,
-        "numberStart": "H30",
-        "numberEnd": null,
-        "latStart": 43.573983,
-        "lonStart": 3.960173,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.1
-      },
-      {
-        "type": 102,
-        "width": 14.9,
-        "surfaceType": 1,
-        "numberStart": "H31",
-        "numberEnd": null,
-        "latStart": 43.576249,
-        "lonStart": 3.968355,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 14.9
-      }
-    ],
-    "id": 17441
-  },
-  {
-    "type": 1,
-    "icao": "LERO",
-    "lat": 43.118070175,
-    "lon": 17.824818110000002,
-    "communications": [],
-    "elevation": 1442,
+    "elevation": 7,
     "tower": false,
-    "name": "Rozas",
+    "name": "PLOCE",
     "runways": [
       {
         "type": 100,
-        "width": 45,
+        "width": 22.86,
         "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 43.12458015,
-        "lonStart": -7.46898866,
-        "latEnd": 43.11572472,
-        "lonEnd": -7.46488901,
-        "length": 0,
-        "surfacetype": 4
-      },
-      {
-        "type": 100,
-        "width": 45,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 43.11157766,
-        "lonStart": -7.46786179,
-        "latEnd": 43.12039817,
-        "lonEnd": -7.45935817,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 43.033333,
+        "lonStart": 17.428894,
+        "latEnd": 43.044039,
+        "lonEnd": 17.4304,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 21802
+    "id": 19437
   }
 ]

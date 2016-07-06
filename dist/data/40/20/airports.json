@@ -1,44 +1,54 @@
 [
   {
     "type": 1,
-    "icao": "LECH",
-    "lat": 40.21412486,
-    "lon": 20.140463545,
-    "communications": [
-      {
-        "type": 53,
-        "frequency": 12182,
-        "name": "Castellon GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12067,
-        "name": "Castellon TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12010,
-        "name": "Castellon APP"
-      }
-    ],
-    "elevation": 1181,
-    "tower": true,
-    "name": "Castellon-Costa Azahar",
+    "icao": "LA10",
+    "lat": 40.0873195,
+    "lon": 20.1530665,
+    "communications": [],
+    "elevation": 666,
+    "tower": false,
+    "name": "GJIROKASTER",
     "runways": [
       {
         "type": 100,
-        "width": 44.26,
+        "width": 69.49,
         "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 40.20752954,
-        "lonStart": 0.06020691,
-        "latEnd": 40.22072018,
-        "lonEnd": 0.08694448,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 40.091511,
+        "lonStart": 20.148864,
+        "latEnd": 40.083128,
+        "lonEnd": 20.157269,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 4634
+    "id": 10014
+  },
+  {
+    "type": 1,
+    "icao": "LAKO",
+    "lat": 40.6456445,
+    "lon": 20.741599,
+    "communications": [],
+    "elevation": 665,
+    "tower": false,
+    "name": "KORCE NORTHWEST",
+    "runways": [
+      {
+        "type": 100,
+        "width": 83.82,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 40.635586,
+        "lonStart": 20.738917,
+        "latEnd": 40.655703,
+        "lonEnd": 20.744281,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13465
   }
 ]

@@ -1,97 +1,83 @@
 [
   {
     "type": 1,
-    "icao": "ESMU",
-    "lat": 56.572660225,
-    "lon": 35.37103406,
-    "communications": [],
-    "elevation": 479,
-    "tower": false,
-    "name": "Almhult Mockeln",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 56.57019845,
-        "lonStart": 14.16694612,
-        "latEnd": 56.575122,
-        "lonEnd": 14.171232,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 908
-  },
-  {
-    "type": 1,
-    "icao": "ESMG",
-    "lat": 56.95027225,
-    "lon": 35.43703882,
+    "icao": "UUEM",
+    "lat": 56.8247345,
+    "lon": 35.757676000000004,
     "communications": [
       {
-        "type": 54,
-        "frequency": 12225,
-        "name": "INFO Feringe"
+        "type": 53,
+        "frequency": 12400,
+        "name": "TVER TAXIING"
       },
       {
         "type": 54,
-        "frequency": 12880,
-        "name": "RDO Feringe segel"
+        "frequency": 12020,
+        "name": "TVER START"
       }
     ],
-    "elevation": 538,
-    "tower": false,
-    "name": "Feringe",
+    "elevation": 469,
+    "tower": true,
+    "name": "MIGALOVO",
     "runways": [
       {
         "type": 100,
-        "width": 25,
+        "width": 49.07,
         "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 56.9453605,
-        "lonStart": 13.91889364,
-        "latEnd": 56.955184,
-        "lonEnd": 13.924355,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 56.821822,
+        "lonStart": 35.737919,
+        "latEnd": 56.827647,
+        "lonEnd": 35.777433,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
       }
     ],
-    "id": 9247
+    "id": 16091
   },
   {
-    "type": 1,
-    "icao": "ESMX",
-    "lat": 56.92912475,
-    "lon": 35.83120702,
+    "type": 17,
+    "icao": "UUEX",
+    "lat": 56.776773453333334,
+    "lon": 35.10010193,
     "communications": [
       {
         "type": 54,
-        "frequency": 11815,
-        "name": "TWR"
+        "frequency": 13300,
+        "name": "Zalesye"
       }
     ],
-    "elevation": 610,
+    "elevation": 472,
     "tower": true,
-    "name": "Vaxjo Kronoberg",
+    "name": "[H] Zalesye",
     "runways": [
       {
         "type": 100,
-        "width": 45,
+        "width": 49.99,
         "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 56.9199305,
-        "lonStart": 14.72409504,
-        "latEnd": 56.938319,
-        "lonEnd": 14.731881,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 56.77667809,
+        "lonStart": 35.09973112,
+        "latEnd": 56.77686811,
+        "lonEnd": 35.10047373,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 15
+      },
+      {
+        "type": 102,
+        "width": 24.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 56.77677416,
+        "lonStart": 35.10010094,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.1
       }
     ],
-    "id": 26248
+    "id": 33937
   }
 ]

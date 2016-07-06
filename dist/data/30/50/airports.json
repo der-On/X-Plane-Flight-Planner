@@ -1,106 +1,39 @@
 [
   {
     "type": 1,
-    "icao": "OP14",
-    "lat": 30.340016499999997,
-    "lon": 50.449865499999994,
-    "communications": [],
-    "elevation": 376,
-    "tower": false,
-    "name": "BELAB",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 30.333844,
-        "lonStart": 70.553542,
-        "latEnd": 30.346189,
-        "lonEnd": 70.559814,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 1611
-  },
-  {
-    "type": 1,
-    "icao": "OP18",
-    "lat": 30.494875,
-    "lon": 50.7303225,
-    "communications": [],
-    "elevation": 423,
-    "tower": false,
-    "name": "KOT ADDU",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 30.499508,
-        "lonStart": 70.970403,
-        "latEnd": 30.490242,
-        "lonEnd": 70.971772,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 13470
-  },
-  {
-    "type": 1,
-    "icao": "OPMT",
-    "lat": 30.203279000000002,
-    "lon": 50.805404,
+    "icao": "OIAH",
+    "lat": 30.3375665,
+    "lon": 50.8279625,
     "communications": [
       {
-        "type": 53,
-        "frequency": 12180,
-        "name": "TWR"
+        "type": 54,
+        "frequency": 12900,
+        "name": "INFO"
       },
       {
         "type": 54,
-        "frequency": 11910,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12260,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11910,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12260,
-        "name": "TWR"
+        "frequency": 12210,
+        "name": "INFO"
       }
     ],
-    "elevation": 403,
-    "tower": true,
-    "name": "MULTAN INTL",
+    "elevation": 2414,
+    "tower": false,
+    "name": "GACHSARAN",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 30.215694,
-        "lonStart": 71.419944,
-        "latEnd": 30.190864,
-        "lonEnd": 71.418278,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 30.3423,
+        "lonStart": 50.820047,
+        "latEnd": 30.332833,
+        "lonEnd": 50.835878,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 16373
+    "id": 9857
   }
 ]

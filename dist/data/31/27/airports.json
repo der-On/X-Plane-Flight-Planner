@@ -1,54 +1,52 @@
 [
   {
     "type": 1,
-    "icao": "HL67",
-    "lat": 31.859674666666667,
-    "lon": 27.878041333333332,
-    "communications": [],
-    "elevation": 519,
-    "tower": false,
-    "name": "GAMAL ABD EL NASSER",
+    "icao": "HEMM",
+    "lat": 31.32706825,
+    "lon": 27.225096999999998,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "MATRUH TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12190,
+        "name": "MATRUH TWR"
+      }
+    ],
+    "elevation": 94,
+    "tower": true,
+    "name": "MERSA MATRUH",
     "runways": [
       {
         "type": 100,
-        "width": 45.72,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 31.849317,
-        "lonStart": 23.893775,
-        "latEnd": 31.874867,
-        "lonEnd": 23.904708,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 31.322017,
+        "lonStart": 27.214889,
+        "latEnd": 31.335525,
+        "lonEnd": 27.242158,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 45.72,
+        "width": 45.11,
         "surfaceType": null,
         "numberStart": "15",
         "numberEnd": "33",
-        "latStart": 31.873636,
-        "lonStart": 23.903589,
-        "latEnd": 31.850381,
-        "lonEnd": 23.919858,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 31.854594,
-        "lonStart": 23.890383,
-        "latEnd": 31.855253,
-        "lonEnd": 23.922072,
+        "latStart": 31.337056,
+        "lonStart": 27.213708,
+        "latEnd": 31.313675,
+        "lonEnd": 27.229633,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 9869
+    "id": 16047
   }
 ]

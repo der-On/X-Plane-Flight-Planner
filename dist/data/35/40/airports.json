@@ -1,28 +1,47 @@
 [
   {
     "type": 1,
-    "icao": "ORSU",
-    "lat": 35.5608555,
-    "lon": 40.425323500000005,
-    "communications": [],
-    "elevation": 2494,
-    "tower": false,
-    "name": "SULAYMANIYAH INTL",
+    "icao": "OSDZ",
+    "lat": 35.283576249999996,
+    "lon": 40.1731695,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 700,
+    "tower": true,
+    "name": "DEIR ZZOR",
     "runways": [
       {
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 35.571592,
-        "lonStart": 45.300528,
-        "latEnd": 35.550119,
-        "lonEnd": 45.3288,
+        "numberStart": "10R",
+        "numberEnd": "28L",
+        "latStart": 35.286597,
+        "lonStart": 40.152878,
+        "latEnd": 35.276958,
+        "lonEnd": 40.187878,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "10L",
+        "numberEnd": "28R",
+        "latStart": 35.289958,
+        "lonStart": 40.160461,
+        "latEnd": 35.280792,
+        "lonEnd": 40.191461,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "id": 22583
+    "id": 5741
   }
 ]

@@ -1,118 +1,65 @@
 [
   {
     "type": 1,
-    "icao": "EGEL",
-    "lat": 56.602068375,
-    "lon": 24.992629599999997,
+    "icao": "EVPA",
+    "lat": 56.81572352,
+    "lon": 24.525566065,
+    "communications": [],
+    "elevation": 64,
+    "tower": false,
+    "name": "Ikskile",
+    "runways": [
+      {
+        "type": 100,
+        "width": 23,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 56.81547002,
+        "lonStart": 24.52065029,
+        "latEnd": 56.81597702,
+        "lonEnd": 24.53048184,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12428
+  },
+  {
+    "type": 1,
+    "icao": "EVRS",
+    "lat": 56.991157584999996,
+    "lon": 24.07535601,
     "communications": [
       {
         "type": 51,
-        "frequency": 12500,
-        "name": "Coll Radio"
-      }
-    ],
-    "elevation": 20,
-    "tower": true,
-    "name": "Coll",
-    "runways": [
+        "frequency": 12395,
+        "name": "CTAF"
+      },
       {
-        "type": 100,
-        "width": 18,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 56.59992492,
-        "lonStart": -6.61895263,
-        "latEnd": 56.60421183,
-        "lonEnd": -6.61653255,
-        "length": 0,
-        "surfacetype": 1
+        "type": 55,
+        "frequency": 11810,
+        "name": "Riga Tower"
       }
     ],
-    "id": 5183
-  },
-  {
-    "type": 1,
-    "icao": "EGEY",
-    "lat": 56.0575625,
-    "lon": 24.9050695,
-    "communications": [],
-    "elevation": 39,
+    "elevation": 4,
     "tower": false,
-    "name": "Colonsay",
+    "name": "Spilve",
     "runways": [
       {
         "type": 100,
-        "width": 17.98,
+        "width": 23,
         "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 56.057936,
-        "lonStart": -6.24705,
-        "latEnd": 56.057189,
-        "lonEnd": -6.239108,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 5202
-  },
-  {
-    "type": 1,
-    "icao": "EGPU",
-    "lat": 56.50129593333333,
-    "lon": 24.811524878333334,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12270,
-        "name": "Tiree Information"
-      }
-    ],
-    "elevation": 38,
-    "tower": true,
-    "name": "Tiree",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 56.49471088,
-        "lonStart": -6.87787145,
-        "latEnd": 56.50376472,
-        "lonEnd": -6.8602545,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 18.9,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 56.502164,
-        "lonStart": -6.879344,
-        "latEnd": 56.500025,
-        "lonEnd": -6.86675,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 56.507022,
-        "lonStart": -6.877514,
-        "latEnd": 56.500089,
-        "lonEnd": -6.87465,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 56.99573797,
+        "lonStart": 24.07010743,
+        "latEnd": 56.9865772,
+        "lonEnd": 24.08060459,
         "length": 0,
         "surfacetype": 2
       }
     ],
-    "id": 25405
+    "id": 23956
   }
 ]

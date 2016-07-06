@@ -1,5 +1,398 @@
 [
   {
+    "type": 1,
+    "icao": "KBVY",
+    "lat": 42.584275,
+    "lon": -70.91651525,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11920,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12520,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12160,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12520,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12440,
+        "name": "BOSTON APP/DEP"
+      }
+    ],
+    "elevation": 106,
+    "tower": true,
+    "name": "BEVERLY MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 42.579661,
+        "lonStart": -70.9255,
+        "latEnd": 42.583378,
+        "lonEnd": -70.907625,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 42.591947,
+        "lonStart": -70.921925,
+        "latEnd": 42.582114,
+        "lonEnd": -70.911011,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1681
+  },
+  {
+    "type": 1,
+    "icao": "28M",
+    "lat": 42.025077265,
+    "lon": -70.8380725,
+    "communications": [],
+    "elevation": 70,
+    "tower": false,
+    "name": "Cranland",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 42.02749006,
+        "lonStart": -70.8389814,
+        "latEnd": 42.02266447,
+        "lonEnd": -70.8371636,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5460
+  },
+  {
+    "type": 1,
+    "icao": "7B3",
+    "lat": 42.96258944,
+    "lon": -70.82866417,
+    "communications": [],
+    "elevation": 92,
+    "tower": false,
+    "name": "Hampton Airfield",
+    "runways": [
+      {
+        "type": 100,
+        "width": 51.82,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 42.95971633,
+        "lonStart": -70.82893871,
+        "latEnd": 42.96546255,
+        "lonEnd": -70.82838963,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11376
+  },
+  {
+    "type": 1,
+    "icao": "KGHG",
+    "lat": 42.0982365,
+    "lon": -70.672132,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12000,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12410,
+        "name": "BOSTON APP/DEP"
+      }
+    ],
+    "elevation": 11,
+    "tower": false,
+    "name": "MARSHFIELD MUNI GEORGE HARLOW FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 42.095381,
+        "lonStart": -70.676117,
+        "latEnd": 42.101092,
+        "lonEnd": -70.668147,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 15874
+  },
+  {
+    "type": 1,
+    "icao": "6MA2",
+    "lat": 42.860089439999996,
+    "lon": -70.99533417,
+    "communications": [],
+    "elevation": 117,
+    "tower": false,
+    "name": "Meadowbrook",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 42.86075303,
+        "lonStart": -70.99896506,
+        "latEnd": 42.85942585,
+        "lonEnd": -70.99170328,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16994
+  },
+  {
+    "type": 1,
+    "icao": "MA64",
+    "lat": 42.07537944,
+    "lon": -70.81531862,
+    "communications": [],
+    "elevation": 40,
+    "tower": false,
+    "name": "Pheasant Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 42.07801616,
+        "lonStart": -70.81633722,
+        "latEnd": 42.07274272,
+        "lonEnd": -70.81430002,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20049
+  },
+  {
+    "type": 1,
+    "icao": "2B2",
+    "lat": 42.795992955,
+    "lon": -70.842195505,
+    "communications": [],
+    "elevation": 11,
+    "tower": false,
+    "name": "Plum Island",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.66,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 42.79791078,
+        "lonStart": -70.84632319,
+        "latEnd": 42.79539219,
+        "lonEnd": -70.84248007,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 42.79519972,
+        "lonStart": -70.84336609,
+        "latEnd": 42.79546913,
+        "lonEnd": -70.83661267,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20278
+  },
+  {
+    "type": 1,
+    "icao": "KPVC",
+    "lat": 42.072281000000004,
+    "lon": -70.2207375,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11902,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 12065,
+        "name": "OTIS CLNC DEL"
+      },
+      {
+        "type": 55,
+        "frequency": 11820,
+        "name": "CAPE APP/DEP"
+      }
+    ],
+    "elevation": 7,
+    "tower": false,
+    "name": "Provincetown Muni",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 42.069831,
+        "lonStart": -70.226281,
+        "latEnd": 42.074731,
+        "lonEnd": -70.215194,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20574
+  },
+  {
+    "type": 1,
+    "icao": "MA63",
+    "lat": 42.073990550000005,
+    "lon": -70.79809612,
+    "communications": [],
+    "elevation": 34,
+    "tower": false,
+    "name": "Sherman - Private",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 42.07596809,
+        "lonStart": -70.79886005,
+        "latEnd": 42.07201301,
+        "lonEnd": -70.79733219,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23411
+  },
+  {
+    "type": 1,
+    "icao": "KPHQ",
+    "lat": 42.6664825,
+    "lon": -70.85296667,
+    "communications": [],
+    "elevation": 61,
+    "tower": false,
+    "name": "Snow",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 42.66447783,
+        "lonStart": -70.85418049,
+        "latEnd": 42.66848717,
+        "lonEnd": -70.85175285,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23780
+  },
+  {
+    "type": 1,
+    "icao": "KNZW",
+    "lat": 42.14871138,
+    "lon": -70.93976695,
+    "communications": [],
+    "elevation": 162,
+    "tower": true,
+    "name": "South Weymouth LRRS Shea Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 42.15734019,
+        "lonStart": -70.9454434,
+        "latEnd": 42.14008257,
+        "lonEnd": -70.9340905,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 42.14510405,
+        "lonStart": -70.94974276,
+        "latEnd": 42.15231871,
+        "lonEnd": -70.92979114,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 23895
+  },
+  {
     "type": 17,
     "icao": "MA98",
     "lat": 42.81452777,
@@ -498,5 +891,67 @@
       }
     ],
     "id": 33455
+  },
+  {
+    "type": 16,
+    "icao": "6MA0",
+    "lat": 42.86147888,
+    "lon": -70.94338834,
+    "communications": [],
+    "elevation": 86,
+    "tower": false,
+    "name": "[S] Lake Gardner",
+    "runways": [
+      {
+        "type": 101,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 42.86517694,
+        "lonStart": -70.945849,
+        "latEnd": 42.85778082,
+        "lonEnd": -70.94092768,
+        "length": 0
+      }
+    ],
+    "id": 34233
+  },
+  {
+    "type": 16,
+    "icao": "MA01",
+    "lat": 42.00982388,
+    "lon": -70.84309583999999,
+    "communications": [],
+    "elevation": 50,
+    "tower": false,
+    "name": "[S] Monponsett Pond",
+    "runways": [
+      {
+        "type": 101,
+        "width": 91.44,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 42.00936513,
+        "lonStart": -70.84897007,
+        "latEnd": 42.01028263,
+        "lonEnd": -70.83722161,
+        "length": 0
+      },
+      {
+        "type": 101,
+        "width": 152.4,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 42.01549424,
+        "lonStart": -70.84681792,
+        "latEnd": 42.00415352,
+        "lonEnd": -70.83937376,
+        "length": 0
+      }
+    ],
+    "id": 34297
   }
 ]

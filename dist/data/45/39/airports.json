@@ -1,28 +1,87 @@
 [
   {
     "type": 1,
-    "icao": "UKFI",
-    "lat": 45.09188587,
-    "lon": 39.345869925,
-    "communications": [],
-    "elevation": 52,
+    "icao": "URKK",
+    "lat": 45.0346445,
+    "lon": 39.170453499999994,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12180,
+        "name": "KRASNODRA ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 11900,
+        "name": "KRASNODAR TAXIING"
+      },
+      {
+        "type": 54,
+        "frequency": 11820,
+        "name": "KRASNODAR TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12060,
+        "name": "KRASNODAR TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12960,
+        "name": "KRASNODAR APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12770,
+        "name": "KRASNODAR APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12900,
+        "name": "KRASNODAR APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12400,
+        "name": "KRASNODAR APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12130,
+        "name": "KRASNODAR KRUG"
+      }
+    ],
+    "elevation": 118,
     "tower": true,
-    "name": "Saki AB",
+    "name": "PASHKOVSKIY",
     "runways": [
       {
         "type": 100,
-        "width": 60.05,
+        "width": 44.2,
         "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 45.08233168,
-        "lonStart": 33.59029979,
-        "latEnd": 45.10144006,
-        "lonEnd": 33.61815436,
+        "numberStart": "05R",
+        "numberEnd": "23L",
+        "latStart": 45.026028,
+        "lonStart": 39.173367,
+        "latEnd": 45.042428,
+        "lonEnd": 39.203567,
         "length": 0,
         "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 48.77,
+        "surfaceType": null,
+        "numberStart": "05L",
+        "numberEnd": "23R",
+        "latStart": 45.029058,
+        "lonStart": 39.141419,
+        "latEnd": 45.041064,
+        "lonEnd": 39.163461,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "id": 22724
+    "id": 19241
   }
 ]

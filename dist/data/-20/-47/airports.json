@@ -1,5 +1,89 @@
 [
   {
+    "type": 1,
+    "icao": "SBAX",
+    "lat": -19.5632475,
+    "lon": -46.9603585,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13035,
+        "name": "RDO"
+      }
+    ],
+    "elevation": 3275,
+    "tower": false,
+    "name": "ARAXA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -19.557242,
+        "lonStart": -46.966825,
+        "latEnd": -19.569253,
+        "lonEnd": -46.953892,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 364
+  },
+  {
+    "type": 1,
+    "icao": "SB04",
+    "lat": -19.2874195,
+    "lon": -46.511739,
+    "communications": [],
+    "elevation": 3700,
+    "tower": false,
+    "name": "AUREA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -19.282664,
+        "lonStart": -46.513397,
+        "latEnd": -19.292175,
+        "lonEnd": -46.510081,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 475
+  },
+  {
+    "type": 1,
+    "icao": "SNRP",
+    "lat": -19.2122211,
+    "lon": -46.2405548,
+    "communications": [],
+    "elevation": 3757,
+    "tower": true,
+    "name": "Rio Paranaiba",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.33,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -19.20877506,
+        "lonStart": -46.24361691,
+        "latEnd": -19.21566714,
+        "lonEnd": -46.23749269,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 21507
+  },
+  {
     "type": 17,
     "icao": "SJBQ",
     "lat": -19.67583333,

@@ -1,5 +1,328 @@
 [
   {
+    "type": 1,
+    "icao": "UUDD",
+    "lat": 55.40919066666666,
+    "lon": 37.90143150000001,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12830,
+        "name": "ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 12375,
+        "name": "DELIVERY"
+      },
+      {
+        "type": 53,
+        "frequency": 11900,
+        "name": "TAXIING"
+      },
+      {
+        "type": 54,
+        "frequency": 11860,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11970,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12770,
+        "name": "RADAR"
+      },
+      {
+        "type": 55,
+        "frequency": 12060,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12440,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12900,
+        "name": "APP"
+      }
+    ],
+    "elevation": 588,
+    "tower": true,
+    "name": "Moscou Domodedovo",
+    "runways": [
+      {
+        "type": 100,
+        "width": 53.04,
+        "surfaceType": null,
+        "numberStart": "14L",
+        "numberEnd": "32R",
+        "latStart": 55.423283,
+        "lonStart": 37.907997,
+        "latEnd": 55.395286,
+        "lonEnd": 37.941764,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 70.1,
+        "surfaceType": null,
+        "numberStart": "14R",
+        "numberEnd": "32L",
+        "latStart": 55.42115,
+        "lonStart": 37.872156,
+        "latEnd": 55.395425,
+        "lonEnd": 37.903339,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "14C",
+        "numberEnd": "32C",
+        "latStart": 55.42,
+        "lonStart": 37.88,
+        "latEnd": 55.4,
+        "lonEnd": 37.903333,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 17557
+  },
+  {
+    "type": 1,
+    "icao": "UUEE",
+    "lat": 55.9726425,
+    "lon": 37.41458599999999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12512,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 13150,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11810,
+        "name": "RADAR"
+      }
+    ],
+    "elevation": 622,
+    "tower": true,
+    "name": "Moscou Sheremetyevo",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "07R",
+        "numberEnd": "25L",
+        "latStart": 55.967097,
+        "lonStart": 37.386286,
+        "latEnd": 55.975667,
+        "lonEnd": 37.443661,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "07L",
+        "numberEnd": "25R",
+        "latStart": 55.969789,
+        "lonStart": 37.386728,
+        "latEnd": 55.978017,
+        "lonEnd": 37.441669,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 17558
+  },
+  {
+    "type": 1,
+    "icao": "UUMO",
+    "lat": 55.51406612833333,
+    "lon": 37.501939033333336,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12760,
+        "name": "Ostafievo ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11920,
+        "name": "Ostafievo Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12400,
+        "name": "Nebesniy Podhod"
+      }
+    ],
+    "elevation": 561,
+    "tower": true,
+    "name": "Ostafievo",
+    "runways": [
+      {
+        "type": 100,
+        "width": 47.85,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 55.50678989,
+        "lonStart": 37.48765372,
+        "latEnd": 55.5084624,
+        "lonEnd": 37.52009998,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 11.89,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 55.51749209,
+        "lonStart": 37.50120505,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.89
+      },
+      {
+        "type": 102,
+        "width": 13.11,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 55.51735777,
+        "lonStart": 37.50105033,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.89
+      },
+      {
+        "type": 102,
+        "width": 13.11,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 55.51721738,
+        "lonStart": 37.50088892,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.89
+      },
+      {
+        "type": 102,
+        "width": 14.02,
+        "surfaceType": 2,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 55.51707724,
+        "lonStart": 37.5007362,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.11
+      }
+    ],
+    "id": 19064
+  },
+  {
+    "type": 1,
+    "icao": "UUWW",
+    "lat": 55.59606049999999,
+    "lon": 37.267663999999996,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12587,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12045,
+        "name": "TAXIING"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12600,
+        "name": "RADAR"
+      },
+      {
+        "type": 55,
+        "frequency": 12900,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12230,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12440,
+        "name": "APP"
+      }
+    ],
+    "elevation": 685,
+    "tower": true,
+    "name": "VNUKOVO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 55.586547,
+        "lonStart": 37.257644,
+        "latEnd": 55.611686,
+        "lonEnd": 37.276867,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 55.588042,
+        "lonStart": 37.246031,
+        "latEnd": 55.597967,
+        "lonEnd": 37.290114,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 26133
+  },
+  {
     "type": 17,
     "icao": "UU04",
     "lat": 55.75844619,

@@ -1,49 +1,80 @@
 [
   {
     "type": 1,
-    "icao": "FIMP",
-    "lat": -20.430234499999997,
-    "lon": 18.6160495,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12620,
-        "name": "ATIS"
-      },
-      {
-        "type": 54,
-        "frequency": 12930,
-        "name": "INFO"
-      },
-      {
-        "type": 54,
-        "frequency": 11810,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11910,
-        "name": "APP"
-      }
-    ],
-    "elevation": 186,
-    "tower": true,
-    "name": "SIR SEEWOOSAGUR RAMGOOLAM INTL",
+    "icao": "FY2S",
+    "lat": -20.3833,
+    "lon": 18.16665,
+    "communications": [],
+    "elevation": 4000,
+    "tower": false,
+    "name": "Okamatipati",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 10.06,
         "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": -20.423318,
-        "lonStart": 57.66925,
-        "latEnd": -20.437151,
-        "lonEnd": 57.697953,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -20.3833,
+        "lonStart": 18.1609,
+        "latEnd": -20.3833,
+        "lonEnd": 18.1724,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 22299
+    "id": 18857
+  },
+  {
+    "type": 1,
+    "icao": "FY2X",
+    "lat": -20.9667,
+    "lon": 18.16665,
+    "communications": [],
+    "elevation": 4400,
+    "tower": false,
+    "name": "Okondjatu",
+    "runways": [
+      {
+        "type": 100,
+        "width": 10.06,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -20.9667,
+        "lonStart": 18.1609,
+        "latEnd": -20.9667,
+        "lonEnd": 18.1724,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 18877
+  },
+  {
+    "type": 1,
+    "icao": "FY38",
+    "lat": -20.0667,
+    "lon": 18.26665,
+    "communications": [],
+    "elevation": 3800,
+    "tower": false,
+    "name": "Ongongoro",
+    "runways": [
+      {
+        "type": 100,
+        "width": 10.06,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -20.0667,
+        "lonStart": 18.2666,
+        "latEnd": -20.0667,
+        "lonEnd": 18.2667,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18970
   }
 ]

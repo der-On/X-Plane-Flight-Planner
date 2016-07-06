@@ -1,5 +1,615 @@
 [
   {
+    "type": 1,
+    "icao": "KAUM",
+    "lat": 43.6626335,
+    "lon": -92.932931,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11902,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11980,
+        "name": "ROCHESTER APP/DEP"
+      }
+    ],
+    "elevation": 1232,
+    "tower": false,
+    "name": "AUSTIN MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 43.670514,
+        "lonStart": -92.934431,
+        "latEnd": 43.654753,
+        "lonEnd": -92.931431,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 480
+  },
+  {
+    "type": 1,
+    "icao": "KCCY",
+    "lat": 43.072169,
+    "lon": -92.6107915,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12552,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11890,
+        "name": "WATERLOO APP/DEP"
+      }
+    ],
+    "elevation": 1125,
+    "tower": false,
+    "name": "CHARLES CITY MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 43.077057,
+        "lonStart": -92.617569,
+        "latEnd": 43.070709,
+        "lonEnd": -92.605354,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 48.77,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 43.06929,
+        "lonStart": -92.612198,
+        "latEnd": 43.074211,
+        "lonEnd": -92.605492,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 51.82,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 43.073189,
+        "lonStart": -92.612068,
+        "latEnd": 43.068558,
+        "lonEnd": -92.612068,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3821
+  },
+  {
+    "type": 1,
+    "icao": "7MN3",
+    "lat": 43.70524083,
+    "lon": -92.46072751,
+    "communications": [],
+    "elevation": 1339,
+    "tower": false,
+    "name": "Caldbeck Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 43.701132,
+        "lonStart": -92.46102538,
+        "latEnd": 43.70934966,
+        "lonEnd": -92.46042964,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4341
+  },
+  {
+    "type": 1,
+    "icao": "KCJJ",
+    "lat": 43.365293745,
+    "lon": -92.13307569,
+    "communications": [],
+    "elevation": 1279,
+    "tower": false,
+    "name": "Ellen Church Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 43.36893361,
+        "lonStart": -92.13549361,
+        "latEnd": 43.36165388,
+        "lonEnd": -92.13065777,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 7104
+  },
+  {
+    "type": 1,
+    "icao": "KFKA",
+    "lat": 43.6766305,
+    "lon": -92.179886,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11892,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      },
+      {
+        "type": 55,
+        "frequency": 11980,
+        "name": "ROCHESTER APP/DEP"
+      }
+    ],
+    "elevation": 1276,
+    "tower": false,
+    "name": "FILLMORE CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 43.678297,
+        "lonStart": -92.187108,
+        "latEnd": 43.674964,
+        "lonEnd": -92.172664,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 7551
+  },
+  {
+    "type": 1,
+    "icao": "MN22",
+    "lat": 43.81968555,
+    "lon": -92.33350084,
+    "communications": [],
+    "elevation": 1300,
+    "tower": false,
+    "name": "Flying A",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 43.81982914,
+        "lonStart": -92.33919985,
+        "latEnd": 43.81954196,
+        "lonEnd": -92.32780183,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9392
+  },
+  {
+    "type": 1,
+    "icao": "2Y5",
+    "lat": 43.14302611,
+    "lon": -92.87797417,
+    "communications": [],
+    "elevation": 1150,
+    "tower": false,
+    "name": "Folkerts",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 43.14321273,
+        "lonStart": -92.88285458,
+        "latEnd": 43.14283949,
+        "lonEnd": -92.87309376,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9553
+  },
+  {
+    "type": 1,
+    "icao": "MY11",
+    "lat": 43.521355,
+    "lon": -92.65851473000001,
+    "communications": [],
+    "elevation": 1320,
+    "tower": false,
+    "name": "Gilgenbachs",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 43.5215488,
+        "lonStart": -92.66361452,
+        "latEnd": 43.5211612,
+        "lonEnd": -92.65341494,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10471
+  },
+  {
+    "type": 1,
+    "icao": "Y82",
+    "lat": 43.178583610000004,
+    "lon": -92.69741223,
+    "communications": [],
+    "elevation": 1125,
+    "tower": false,
+    "name": "Henry",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 43.1815784,
+        "lonStart": -92.69791648,
+        "latEnd": 43.17558882,
+        "lonEnd": -92.69690798,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11689
+  },
+  {
+    "type": 1,
+    "icao": "23MN",
+    "lat": 43.64107583,
+    "lon": -92.02210306,
+    "communications": [],
+    "elevation": 1240,
+    "tower": false,
+    "name": "High Grove",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 43.64114763,
+        "lonStart": -92.02494408,
+        "latEnd": 43.64100403,
+        "lonEnd": -92.01926204,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11809
+  },
+  {
+    "type": 1,
+    "icao": "IA49",
+    "lat": 43.144972499999994,
+    "lon": -92.05350167,
+    "communications": [],
+    "elevation": 1180,
+    "tower": false,
+    "name": "Jirak",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 43.14509819,
+        "lonStart": -92.0584348,
+        "latEnd": 43.14484681,
+        "lonEnd": -92.04856854,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13002
+  },
+  {
+    "type": 1,
+    "icao": "0MN6",
+    "lat": 43.66218583,
+    "lon": -92.40433723,
+    "communications": [],
+    "elevation": 1365,
+    "tower": false,
+    "name": "Matson Fld",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 43.66236528,
+        "lonStart": -92.40907032,
+        "latEnd": 43.66200638,
+        "lonEnd": -92.39960414,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16808
+  },
+  {
+    "type": 1,
+    "icao": "7IA7",
+    "lat": 43.08361111000001,
+    "lon": -92.31000001000001,
+    "communications": [],
+    "elevation": 1160,
+    "tower": false,
+    "name": "Mitchell Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 4.88,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 43.0826453,
+        "lonStart": -92.31248705,
+        "latEnd": 43.08457692,
+        "lonEnd": -92.30751297,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 17315
+  },
+  {
+    "type": 1,
+    "icao": "1Y5",
+    "lat": 43.08719583,
+    "lon": -92.3432325,
+    "communications": [],
+    "elevation": 1173,
+    "tower": false,
+    "name": "New Hampton Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 43.09114351,
+        "lonStart": -92.3438962,
+        "latEnd": 43.08324815,
+        "lonEnd": -92.3425688,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 32,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 43.08463807,
+        "lonStart": -92.34649842,
+        "latEnd": 43.08975359,
+        "lonEnd": -92.33996658,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18250
+  },
+  {
+    "type": 1,
+    "icao": "D02",
+    "lat": 43.2924995,
+    "lon": -92.796112,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1168,
+    "tower": false,
+    "name": "OSAGE MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 43.297222,
+        "lonStart": -92.796112,
+        "latEnd": 43.287777,
+        "lonEnd": -92.796112,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 18714
+  },
+  {
+    "type": 1,
+    "icao": "KRST",
+    "lat": 43.907861665,
+    "lon": -92.50008492999999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12050,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 11830,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11920,
+        "name": "APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 11980,
+        "name": "APP/DEP"
+      }
+    ],
+    "elevation": 1317,
+    "tower": true,
+    "name": "Rochester Intl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "2",
+        "numberEnd": "20",
+        "latStart": 43.89492208,
+        "lonStart": -92.50692545,
+        "latEnd": 43.91285,
+        "lonEnd": -92.494578,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 43.92014958,
+        "lonStart": -92.51212827,
+        "latEnd": 43.903525,
+        "lonEnd": -92.486708,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 21617
+  },
+  {
+    "type": 1,
+    "icao": "MY37",
+    "lat": 43.98107555,
+    "lon": -92.24655417,
+    "communications": [],
+    "elevation": 1285,
+    "tower": false,
+    "name": "Thomas Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 43.98463925,
+        "lonStart": -92.24638122,
+        "latEnd": 43.97751185,
+        "lonEnd": -92.24672712,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25278
+  },
+  {
+    "type": 1,
+    "icao": "2MN8",
+    "lat": 43.996075000000005,
+    "lon": -92.33572527999999,
+    "communications": [],
+    "elevation": 1227,
+    "tower": false,
+    "name": "Trygstad",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 43.99619466,
+        "lonStart": -92.34048855,
+        "latEnd": 43.99595534,
+        "lonEnd": -92.33096201,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 25644
+  },
+  {
     "type": 17,
     "icao": "4IA3",
     "lat": 43.04997222,

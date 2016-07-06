@@ -1,112 +1,39 @@
 [
   {
     "type": 1,
-    "icao": "LTAD",
-    "lat": 39.950193,
-    "lon": 36.31151925,
+    "icao": "LTAR",
+    "lat": 39.8138335,
+    "lon": 36.9035,
     "communications": [
       {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
         "type": 54,
-        "frequency": 12210,
+        "frequency": 11810,
         "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11910,
-        "name": "ESENBOGA APP"
-      },
-      {
-        "type": 55,
-        "frequency": 11960,
-        "name": "ESENBOGA APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12210,
-        "name": "ESENBOGA APP"
       }
     ],
-    "elevation": 2653,
+    "elevation": 5236,
     "tower": true,
-    "name": "ETIMESGUT",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "11L",
-        "numberEnd": "29R",
-        "latStart": 39.956855,
-        "lonStart": 32.671204,
-        "latEnd": 39.947453,
-        "lonEnd": 32.699172,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "11R",
-        "numberEnd": "29L",
-        "latStart": 39.950961,
-        "lonStart": 32.681917,
-        "latEnd": 39.945503,
-        "lonEnd": 32.698085,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 6826
-  },
-  {
-    "type": 1,
-    "icao": "LTAB",
-    "lat": 39.936865250000004,
-    "lon": 36.33689725,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13200,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12900,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 2694,
-    "tower": true,
-    "name": "GUVERCINLIK",
+    "name": "SIVAS",
     "runways": [
       {
         "type": 100,
         "width": 29.87,
         "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 39.931033,
-        "lonStart": 32.7301,
-        "latEnd": 39.938864,
-        "lonEnd": 32.75145,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 39.7975,
+        "lonStart": 36.896667,
+        "latEnd": 39.830167,
+        "lonEnd": 36.910333,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 39.938783,
-        "lonStart": 32.739844,
-        "latEnd": 39.938781,
-        "lonEnd": 32.750097,
-        "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
       }
     ],
-    "id": 10236
+    "id": 22312
   }
 ]

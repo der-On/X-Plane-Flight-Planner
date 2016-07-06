@@ -1,58 +1,34 @@
 [
   {
     "type": 1,
-    "icao": "LECI",
-    "lat": 42.56829551,
-    "lon": 10.096963645,
+    "icao": "LIRJ",
+    "lat": 42.76089263,
+    "lon": 10.239841890000001,
     "communications": [
       {
-        "type": 51,
-        "frequency": 12350,
-        "name": "A/A"
+        "type": 54,
+        "frequency": 12370,
+        "name": "AFIS"
       }
     ],
-    "elevation": 7362,
+    "elevation": 30,
     "tower": false,
-    "name": "Santa Cilia-Los Pirineos",
+    "name": "MARINA DI CAMPO",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 23,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 42.56900458,
-        "lonStart": -0.73312017,
-        "latEnd": 42.56947542,
-        "lonEnd": -0.72267972,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 42.76593713,
+        "lonStart": 10.23757278,
+        "latEnd": 42.75584813,
+        "lonEnd": 10.242111,
         "length": 0,
         "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 29.87,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 42.56759449,
-        "lonStart": -0.72413829,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 29.87
-      },
-      {
-        "type": 102,
-        "width": 20.12,
-        "surfaceType": 2,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 42.56710755,
-        "lonStart": -0.72436238,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20.12
       }
     ],
-    "id": 22887
+    "id": 15830
   }
 ]

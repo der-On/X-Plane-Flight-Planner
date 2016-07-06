@@ -1,5 +1,590 @@
 [
   {
+    "type": 1,
+    "icao": "YSBK",
+    "lat": -33.91966938551724,
+    "lon": 150.98779705482755,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12090,
+        "name": "YSBK ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 13280,
+        "name": "BANKSTOWN MULT"
+      },
+      {
+        "type": 53,
+        "frequency": 11990,
+        "name": "BANKSTOWN GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12360,
+        "name": "BANKSTOWN TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 13280,
+        "name": "BANKSTOWN TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12830,
+        "name": "SYDNEY APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12455,
+        "name": "SYDNEY APP"
+      },
+      {
+        "type": 56,
+        "frequency": 11840,
+        "name": "SYDNEY DEP"
+      },
+      {
+        "type": 56,
+        "frequency": 12969,
+        "name": "SYDNEY DEP"
+      }
+    ],
+    "elevation": 28,
+    "tower": true,
+    "name": "Bankstown",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "11C",
+        "numberEnd": "29C",
+        "latStart": -33.91948645,
+        "lonStart": 150.98342217,
+        "latEnd": -33.92644899,
+        "lonEnd": 150.99586195,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "11L",
+        "numberEnd": "29R",
+        "latStart": -33.920136,
+        "lonStart": 150.98662834,
+        "latEnd": -33.925672,
+        "lonEnd": 150.996541,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "11R",
+        "numberEnd": "29L",
+        "latStart": -33.9216525,
+        "lonStart": 150.98522136,
+        "latEnd": -33.926843,
+        "lonEnd": 150.994479,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 14.9,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -33.91731723,
+        "lonStart": 150.99380562,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.9
+      },
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H10",
+        "numberEnd": null,
+        "latStart": -33.92098854,
+        "lonStart": 150.98223991,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      },
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H11",
+        "numberEnd": null,
+        "latStart": -33.92073273,
+        "lonStart": 150.98202216,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      },
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H12",
+        "numberEnd": null,
+        "latStart": -33.92073375,
+        "lonStart": 150.98184356,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      },
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H13",
+        "numberEnd": null,
+        "latStart": -33.92637034,
+        "lonStart": 150.98186182,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      },
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H14",
+        "numberEnd": null,
+        "latStart": -33.92625959,
+        "lonStart": 150.9820519,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      },
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 3,
+        "numberStart": "H15",
+        "numberEnd": null,
+        "latStart": -33.92000247,
+        "lonStart": 150.99350749,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      },
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 3,
+        "numberStart": "H16",
+        "numberEnd": null,
+        "latStart": -33.9203447,
+        "lonStart": 150.99231794,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      },
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H17",
+        "numberEnd": null,
+        "latStart": -33.9150421,
+        "lonStart": 150.98728561,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      },
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H18",
+        "numberEnd": null,
+        "latStart": -33.91495886,
+        "lonStart": 150.98720733,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      },
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H19",
+        "numberEnd": null,
+        "latStart": -33.9148472,
+        "lonStart": 150.98705442,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      },
+      {
+        "type": 102,
+        "width": 15.9,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": -33.91720874,
+        "lonStart": 150.99361578,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.9
+      },
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H20",
+        "numberEnd": null,
+        "latStart": -33.91477411,
+        "lonStart": 150.98682201,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      },
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H21",
+        "numberEnd": null,
+        "latStart": -33.91470508,
+        "lonStart": 150.98664342,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      },
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H22",
+        "numberEnd": null,
+        "latStart": -33.91507456,
+        "lonStart": 150.98749053,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      },
+      {
+        "type": 102,
+        "width": 29.9,
+        "surfaceType": 1,
+        "numberStart": "H23",
+        "numberEnd": null,
+        "latStart": -33.92112328,
+        "lonStart": 150.991852,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.9
+      },
+      {
+        "type": 102,
+        "width": 10.1,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": -33.91708865,
+        "lonStart": 150.99730015,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.1
+      },
+      {
+        "type": 102,
+        "width": 15.9,
+        "surfaceType": 1,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": -33.91711511,
+        "lonStart": 150.99343847,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.9
+      },
+      {
+        "type": 102,
+        "width": 14.9,
+        "surfaceType": 1,
+        "numberStart": "H5",
+        "numberEnd": null,
+        "latStart": -33.91531649,
+        "lonStart": 150.98440683,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.9
+      },
+      {
+        "type": 102,
+        "width": 14.9,
+        "surfaceType": 1,
+        "numberStart": "H6",
+        "numberEnd": null,
+        "latStart": -33.91633174,
+        "lonStart": 150.98443638,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.9
+      },
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H7",
+        "numberEnd": null,
+        "latStart": -33.92142539,
+        "lonStart": 150.98225805,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      },
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H8",
+        "numberEnd": null,
+        "latStart": -33.92127989,
+        "lonStart": 150.98225214,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      },
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H9",
+        "numberEnd": null,
+        "latStart": -33.92113269,
+        "lonStart": 150.98224725,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 2196
+  },
+  {
+    "type": 1,
+    "icao": "YSHW",
+    "lat": -33.995644205000005,
+    "lon": 150.952077445,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 12455,
+        "name": "SYDNEY APP"
+      }
+    ],
+    "elevation": 250,
+    "tower": false,
+    "name": "Holsworthy",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -33.99397471,
+        "lonStart": 150.94907626,
+        "latEnd": -33.9973137,
+        "lonEnd": 150.95507863,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11978
+  },
+  {
+    "type": 1,
+    "icao": "YKAT",
+    "lat": -33.667924282499996,
+    "lon": 150.322481855,
+    "communications": [],
+    "elevation": 3232,
+    "tower": false,
+    "name": "Katoomba Airfield",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.08,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -33.66893671,
+        "lonStart": 150.31691833,
+        "latEnd": -33.66698379,
+        "lonEnd": 150.32724655,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -33.6665826,
+        "lonStart": 150.31902576,
+        "latEnd": -33.66919403,
+        "lonEnd": 150.32673678,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 13660
+  },
+  {
+    "type": 1,
+    "icao": "YSRI",
+    "lat": -33.60202666666667,
+    "lon": 150.77872233333335,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 13550,
+        "name": "RICHMOND MULT"
+      },
+      {
+        "type": 53,
+        "frequency": 12165,
+        "name": "RICHMOND GND"
+      },
+      {
+        "type": 53,
+        "frequency": 12825,
+        "name": "RICHMOND GND"
+      },
+      {
+        "type": 54,
+        "frequency": 13305,
+        "name": "BRISBANE CNTR"
+      },
+      {
+        "type": 54,
+        "frequency": 13550,
+        "name": "RICHMOND TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12455,
+        "name": "SYDNEY APP"
+      },
+      {
+        "type": 55,
+        "frequency": 13590,
+        "name": "SYDNEY APP"
+      }
+    ],
+    "elevation": 67,
+    "tower": true,
+    "name": "Richmond (NSW)",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -33.601648,
+        "lonStart": 150.771262,
+        "latEnd": -33.607314,
+        "lonEnd": 150.793254,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -33.601934,
+        "lonStart": 150.779214,
+        "latEnd": -33.595148,
+        "lonEnd": 150.781242,
+        "length": 0,
+        "surfacetype": 15
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "10R",
+        "numberEnd": "28L",
+        "latStart": -33.602249,
+        "lonStart": 150.77054,
+        "latEnd": -33.603867,
+        "lonEnd": 150.776822,
+        "length": 0,
+        "surfacetype": 15
+      }
+    ],
+    "id": 21446
+  },
+  {
+    "type": 1,
+    "icao": "YSFS",
+    "lat": -33.716878465,
+    "lon": 150.87094416833335,
+    "communications": [],
+    "elevation": 72,
+    "tower": true,
+    "name": "Schofields",
+    "runways": [
+      {
+        "type": 100,
+        "width": 36.88,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -33.719585,
+        "lonStart": 150.865635,
+        "latEnd": -33.710617,
+        "lonEnd": 150.873775,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 36.88,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -33.722453,
+        "lonStart": 150.877055,
+        "latEnd": -33.719483,
+        "lonEnd": 150.865753,
+        "length": 0,
+        "surfacetype": 5
+      },
+      {
+        "type": 100,
+        "width": 36.88,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -33.71821679,
+        "lonStart": 150.87452502,
+        "latEnd": -33.710916,
+        "lonEnd": 150.86892199,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 23118
+  },
+  {
     "type": 17,
     "icao": "YGNB",
     "lat": -33.76167987,

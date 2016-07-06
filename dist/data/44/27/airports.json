@@ -1,171 +1,65 @@
 [
   {
     "type": 1,
-    "icao": "LIPM",
-    "lat": 44.631328185,
-    "lon": 27.717102415,
+    "icao": "LR80",
+    "lat": 44.3923055,
+    "lon": 27.7266945,
     "communications": [
       {
         "type": 54,
-        "frequency": 11955,
-        "name": "Modena Radio"
-      }
-    ],
-    "elevation": 184,
-    "tower": false,
-    "name": "MODENA Marzaglia",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 44.6326109,
-        "lonStart": 10.80415936,
-        "latEnd": 44.63004547,
-        "lonEnd": 10.81349204,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 16169
-  },
-  {
-    "type": 1,
-    "icao": "LIMP",
-    "lat": 44.82677094,
-    "lon": 27.564502989999998,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11845,
-        "name": "Parma TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12757,
-        "name": "Parma APP"
-      }
-    ],
-    "elevation": 161,
-    "tower": true,
-    "name": "PARMA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 44.81765766,
-        "lonStart": 10.29312176,
-        "latEnd": 44.83588422,
-        "lonEnd": 10.30114728,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19229
-  },
-  {
-    "type": 1,
-    "icao": "LIMS",
-    "lat": 44.91450947,
-    "lon": 27.306828430000003,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13607,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12210,
+        "frequency": 13000,
         "name": "TWR"
       },
       {
         "type": 55,
-        "frequency": 12392,
+        "frequency": 13000,
         "name": "APP"
       }
     ],
-    "elevation": 456,
+    "elevation": 180,
     "tower": true,
-    "name": "PIACENZA San Damiano",
+    "name": "FETESTI",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 44.92095202,
-        "lonStart": 9.70558994,
-        "latEnd": 44.90806692,
-        "lonEnd": 9.73856498,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19357
-  },
-  {
-    "type": 1,
-    "icao": "LIDE",
-    "lat": 44.69807011,
-    "lon": 27.67690906,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12715,
-        "name": "AFIS service"
-      }
-    ],
-    "elevation": 150,
-    "tower": true,
-    "name": "REGGIO EMILIA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 44.69992255,
-        "lonStart": 10.65760045,
-        "latEnd": 44.69621767,
-        "lonEnd": 10.671921,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 20894
-  },
-  {
-    "type": 1,
-    "icao": "LIQW",
-    "lat": 44.087538574999996,
-    "lon": 27.035758565,
-    "communications": [],
-    "elevation": 46,
-    "tower": false,
-    "name": "Sarzana Luni",
-    "runways": [
-      {
-        "type": 100,
-        "width": 23,
+        "width": 79.86,
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 44.09159144,
-        "lonStart": 9.98803142,
-        "latEnd": 44.08348571,
-        "lonEnd": 9.98791523,
+        "latStart": 44.403514,
+        "lonStart": 27.728061,
+        "latEnd": 44.381097,
+        "lonEnd": 27.725328,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 7548
+  },
+  {
+    "type": 1,
+    "icao": "LB12",
+    "lat": 44.055164000000005,
+    "lon": 27.178833500000003,
+    "communications": [],
+    "elevation": 351,
+    "tower": false,
+    "name": "SILISTRA POLKOVNIK LAMBRINOVO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 43.28,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 44.05595,
+        "lonStart": 27.163236,
+        "latEnd": 44.054378,
+        "lonEnd": 27.194431,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 23028
+    "id": 22281
   }
 ]

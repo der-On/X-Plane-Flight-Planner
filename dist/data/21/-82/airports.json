@@ -1,97 +1,64 @@
 [
   {
     "type": 1,
-    "icao": "PHJR",
-    "lat": 21.306718732857146,
-    "lon": -81.19631264,
+    "icao": "MUCL",
+    "lat": 21.6164515,
+    "lon": -81.54599999999999,
     "communications": [
       {
-        "type": 50,
-        "frequency": 11980,
-        "name": "ATIS"
-      },
-      {
-        "type": 51,
-        "frequency": 13260,
-        "name": "CTAF"
-      },
-      {
-        "type": 52,
-        "frequency": 12170,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 53,
-        "frequency": 12380,
-        "name": "GND"
-      },
-      {
         "type": 54,
-        "frequency": 13260,
-        "name": "TWR"
+        "frequency": 11850,
+        "name": "CAYO LARGO TWR"
       },
       {
         "type": 55,
-        "frequency": 11830,
-        "name": "HONOLULU APP/DEP"
+        "frequency": 12010,
+        "name": "CAYO LARGO APP"
       }
     ],
-    "elevation": 20,
+    "elevation": 9,
     "tower": true,
-    "name": "KALAELOA",
+    "name": "VILO ACUNA INTL",
     "runways": [
       {
         "type": 100,
-        "width": 60.96,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "04R",
-        "numberEnd": "22L",
-        "latStart": 21.29936901,
-        "lonStart": -158.08025033,
-        "latEnd": 21.31255213,
-        "lonEnd": -158.06017622,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 21.622414,
+        "lonStart": -81.559053,
+        "latEnd": 21.610489,
+        "lonEnd": -81.532947,
         "length": 0,
         "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 21.31186565,
-        "lonStart": -158.08389385,
-        "latEnd": 21.30078693,
-        "lonEnd": -158.06192848,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "04L",
-        "numberEnd": "22R",
-        "latStart": 21.3057398,
-        "lonStart": -158.07374969,
-        "latEnd": 21.313947,
-        "lonEnd": -158.06123601,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 24.99,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 21.30277061,
-        "lonStart": -158.06358067,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.69
       }
     ],
-    "id": 13187
+    "id": 26115
+  },
+  {
+    "type": 16,
+    "icao": "SP06",
+    "lat": 21.650784,
+    "lon": -81.536034,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] Vilo Acuna",
+    "runways": [
+      {
+        "type": 101,
+        "width": 3047.7,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 21.6644989,
+        "lonStart": -81.536034,
+        "latEnd": 21.6370691,
+        "lonEnd": -81.536034,
+        "length": 0
+      }
+    ],
+    "id": 34511
   }
 ]

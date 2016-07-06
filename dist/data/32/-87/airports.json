@@ -1,5 +1,480 @@
 [
   {
+    "type": 1,
+    "icao": "AL79",
+    "lat": 32.26958638,
+    "lon": -86.09884973,
+    "communications": [],
+    "elevation": 305,
+    "tower": false,
+    "name": "Bartlett Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 32.27301511,
+        "lonStart": -86.09884973,
+        "latEnd": 32.26615765,
+        "lonEnd": -86.09884973,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 2296
+  },
+  {
+    "type": 1,
+    "icao": "KSEM",
+    "lat": 32.343946,
+    "lon": -86.987804,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12400,
+        "name": "MONTGOMERY APP/DEP"
+      }
+    ],
+    "elevation": 166,
+    "tower": false,
+    "name": "CRAIG FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 32.353042,
+        "lonStart": -86.995086,
+        "latEnd": 32.33485,
+        "lonEnd": -86.980522,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4210
+  },
+  {
+    "type": 1,
+    "icao": "2AL3",
+    "lat": 32.45541416,
+    "lon": -86.11916667,
+    "communications": [],
+    "elevation": 365,
+    "tower": false,
+    "name": "Emerald Mountain",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 32.45347164,
+        "lonStart": -86.12299797,
+        "latEnd": 32.45735668,
+        "lonEnd": -86.11533537,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7156
+  },
+  {
+    "type": 1,
+    "icao": "02A",
+    "lat": 32.850483,
+    "lon": -86.611436,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12120,
+        "name": "MONTGOMERY APP/DEP"
+      }
+    ],
+    "elevation": 585,
+    "tower": false,
+    "name": "GRAGG WADE FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 32.849372,
+        "lonStart": -86.617828,
+        "latEnd": 32.851594,
+        "lonEnd": -86.605044,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10095
+  },
+  {
+    "type": 1,
+    "icao": "AL12",
+    "lat": 32.358611,
+    "lon": -86.125,
+    "communications": [],
+    "elevation": 225,
+    "tower": false,
+    "name": "KERSHAW",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 32.358611,
+        "lonStart": -86.1325,
+        "latEnd": 32.358611,
+        "lonEnd": -86.1175,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 13324
+  },
+  {
+    "type": 1,
+    "icao": "KMXF",
+    "lat": 32.3837525,
+    "lon": -86.36532725,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13470,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12715,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11815,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12120,
+        "name": "MONTGOMERY APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12400,
+        "name": "MONTGOMERY APP/DEP"
+      }
+    ],
+    "elevation": 171,
+    "tower": true,
+    "name": "MAXWELL AFB",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 32.391358,
+        "lonStart": -86.373106,
+        "latEnd": 32.372586,
+        "lonEnd": -86.359533,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 32.389658,
+        "lonStart": -86.363881,
+        "latEnd": 32.381408,
+        "lonEnd": -86.364789,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 15941
+  },
+  {
+    "type": 1,
+    "icao": "KMGM",
+    "lat": 32.297363661999995,
+    "lon": -86.39379056800001,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12067,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 11970,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 11830,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11970,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12285,
+        "name": "SFA"
+      },
+      {
+        "type": 55,
+        "frequency": 11885,
+        "name": "APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12120,
+        "name": "APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12400,
+        "name": "APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 13245,
+        "name": "APP/DEP"
+      }
+    ],
+    "elevation": 221,
+    "tower": true,
+    "name": "MONTGOMERY RGNL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 32.3024,
+        "lonStart": -86.409978,
+        "latEnd": 32.299806,
+        "lonEnd": -86.380978,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 32.294994,
+        "lonStart": -86.394136,
+        "latEnd": 32.304239,
+        "lonEnd": -86.387075,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 49.99,
+        "surfaceType": 2,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 32.28537931,
+        "lonStart": -86.39678584,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 49.99
+      }
+    ],
+    "id": 16226
+  },
+  {
+    "type": 1,
+    "icao": "AL76",
+    "lat": 32.848736939999995,
+    "lon": -86.86998834,
+    "communications": [],
+    "elevation": 495,
+    "tower": false,
+    "name": "Mayfield - Private",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 32.84461285,
+        "lonStart": -86.87177508,
+        "latEnd": 32.85286103,
+        "lonEnd": -86.8682016,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16855
+  },
+  {
+    "type": 1,
+    "icao": "1A9",
+    "lat": 32.438739,
+    "lon": -86.512681,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12120,
+        "name": "MONTGOMERY APP/DEP"
+      }
+    ],
+    "elevation": 225,
+    "tower": false,
+    "name": "PRATTVILLE GROUBY FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 32.438636,
+        "lonStart": -86.521431,
+        "latEnd": 32.438842,
+        "lonEnd": -86.503931,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19536
+  },
+  {
+    "type": 1,
+    "icao": "08A",
+    "lat": 32.528149786,
+    "lon": -86.330330688,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12305,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12120,
+        "name": "MONTGOMERY APP/DEP"
+      }
+    ],
+    "elevation": 196,
+    "tower": false,
+    "name": "WETUMPKA MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 32.5294,
+        "lonStart": -86.3331,
+        "latEnd": 32.5295,
+        "lonEnd": -86.323333,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 32.529086,
+        "lonStart": -86.333833,
+        "latEnd": 32.521939,
+        "lonEnd": -86.333956,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 17,
+        "surfaceType": 2,
+        "numberStart": "H11",
+        "numberEnd": null,
+        "latStart": 32.53082393,
+        "lonStart": -86.32743144,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21.5
+      }
+    ],
+    "id": 26606
+  },
+  {
+    "type": 1,
+    "icao": "65A",
+    "lat": 32.94595611,
+    "lon": -86.51386834,
+    "communications": [],
+    "elevation": 344,
+    "tower": false,
+    "name": "Ware Island",
+    "runways": [
+      {
+        "type": 100,
+        "width": 48.77,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 32.94938484,
+        "lonStart": -86.51386834,
+        "latEnd": 32.94252738,
+        "lonEnd": -86.51386834,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 26913
+  },
+  {
     "type": 17,
     "icao": "AL11",
     "lat": 32.32791722,

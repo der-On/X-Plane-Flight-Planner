@@ -1,5 +1,509 @@
 [
   {
+    "type": 1,
+    "icao": "LSMA",
+    "lat": 46.9433335,
+    "lon": 8.285,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11962,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 1459,
+    "tower": true,
+    "name": "Alpnach",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.62,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 46.936667,
+        "lonStart": 8.283333,
+        "latEnd": 46.95,
+        "lonEnd": 8.286667,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 918
+  },
+  {
+    "type": 1,
+    "icao": "LSPM",
+    "lat": 46.512924125,
+    "lon": 8.69006744,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 11852,
+        "name": "AFIS"
+      }
+    ],
+    "elevation": 3241,
+    "tower": true,
+    "name": "Ambri",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 46.51503821,
+        "lonStart": 8.67754195,
+        "latEnd": 46.51081004,
+        "lonEnd": 8.70259293,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 972
+  },
+  {
+    "type": 1,
+    "icao": "LSZD",
+    "lat": 46.157721499999994,
+    "lon": 8.782055,
+    "communications": [],
+    "elevation": 655,
+    "tower": false,
+    "name": "Ascona",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 46.160498,
+        "lonStart": 8.781392,
+        "latEnd": 46.154945,
+        "lonEnd": 8.782718,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 1255
+  },
+  {
+    "type": 1,
+    "icao": "LSZC",
+    "lat": 46.973373110000004,
+    "lon": 8.39792785,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11962,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 1472,
+    "tower": true,
+    "name": "Buochs",
+    "runways": [
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 46.97074059,
+        "lonStart": 8.38582606,
+        "latEnd": 46.97803873,
+        "lonEnd": 8.4080825,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 10.7,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 46.97134001,
+        "lonStart": 8.39987499,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.7
+      }
+    ],
+    "id": 3391
+  },
+  {
+    "type": 1,
+    "icao": "LSPG",
+    "lat": 46.90742103,
+    "lon": 8.25318272,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 11940,
+        "name": "AFIS"
+      }
+    ],
+    "elevation": 1524,
+    "tower": false,
+    "name": "Kaegiswil",
+    "runways": [
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 46.90380005,
+        "lonStart": 8.25054929,
+        "latEnd": 46.91104201,
+        "lonEnd": 8.25581615,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 13529
+  },
+  {
+    "type": 1,
+    "icao": "LSZL",
+    "lat": 46.16237944181818,
+    "lon": 8.88043202090909,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13345,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 13482,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 649,
+    "tower": true,
+    "name": "Locarno",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "08L",
+        "numberEnd": "26R",
+        "latStart": 46.16461912,
+        "lonStart": 8.87274333,
+        "latEnd": 46.16598157,
+        "lonEnd": 8.88293017,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "08C",
+        "numberEnd": "26C",
+        "latStart": 46.1599737,
+        "lonStart": 8.87441685,
+        "latEnd": 46.16118034,
+        "lonEnd": 8.88343812,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "08R",
+        "numberEnd": "26L",
+        "latStart": 46.15873126,
+        "lonStart": 8.87483288,
+        "latEnd": 46.15992226,
+        "lonEnd": 8.88373696,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 6,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 46.16328829,
+        "lonStart": 8.88314854,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6
+      },
+      {
+        "type": 102,
+        "width": 6,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 46.1633075,
+        "lonStart": 8.88294786,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6
+      },
+      {
+        "type": 102,
+        "width": 6,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 46.16325054,
+        "lonStart": 8.8827531,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6
+      },
+      {
+        "type": 102,
+        "width": 6,
+        "surfaceType": 2,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 46.16296893,
+        "lonStart": 8.88202758,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6
+      },
+      {
+        "type": 102,
+        "width": 6,
+        "surfaceType": 2,
+        "numberStart": "H5",
+        "numberEnd": null,
+        "latStart": 46.16295035,
+        "lonStart": 8.88177684,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6
+      }
+    ],
+    "id": 15383
+  },
+  {
+    "type": 1,
+    "icao": "LSML",
+    "lat": 46.294994,
+    "lon": 8.9916,
+    "communications": [],
+    "elevation": 850,
+    "tower": true,
+    "name": "Lodrino",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.62,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 46.29871857,
+        "lonStart": 8.989638,
+        "latEnd": 46.29126943,
+        "lonEnd": 8.993562,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 15395
+  },
+  {
+    "type": 1,
+    "icao": "LSZA",
+    "lat": 46.004225215,
+    "lon": 8.909494478333334,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12117,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12177,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11970,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12025,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12255,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 915,
+    "tower": true,
+    "name": "Lugano",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 45.998528,
+        "lonStart": 8.907764,
+        "latEnd": 46.010022,
+        "lonEnd": 8.913394,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 24.08,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 46.00387803,
+        "lonStart": 8.908778,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 25.91
+      },
+      {
+        "type": 102,
+        "width": 20.12,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 46.00410326,
+        "lonStart": 8.90889624,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21.95
+      },
+      {
+        "type": 102,
+        "width": 17.98,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 46.00431854,
+        "lonStart": 8.90901805,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21.95
+      },
+      {
+        "type": 102,
+        "width": 17.98,
+        "surfaceType": 2,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 46.00450146,
+        "lonStart": 8.90911658,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.12
+      }
+    ],
+    "id": 15591
+  },
+  {
+    "type": 1,
+    "icao": "LSMM",
+    "lat": 46.742327,
+    "lon": 8.108747000000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13015,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 1878,
+    "tower": true,
+    "name": "Meiringen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 46.743413,
+        "lonStart": 8.095074,
+        "latEnd": 46.741241,
+        "lonEnd": 8.12242,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 17022
+  },
+  {
+    "type": 1,
+    "icao": "LSPU",
+    "lat": 46.48002601,
+    "lon": 8.26329746,
+    "communications": [],
+    "elevation": 4363,
+    "tower": false,
+    "name": "Munster",
+    "runways": [
+      {
+        "type": 100,
+        "width": 37,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 46.4779822,
+        "lonStart": 8.25999911,
+        "latEnd": 46.48206982,
+        "lonEnd": 8.26659581,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17723
+  },
+  {
+    "type": 1,
+    "icao": "LSMC",
+    "lat": 46.500169,
+    "lon": 8.296182,
+    "communications": [],
+    "elevation": 4412,
+    "tower": false,
+    "name": "Ulrichen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 46.494519,
+        "lonStart": 8.285106,
+        "latEnd": 46.505819,
+        "lonEnd": 8.307258,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 25897
+  },
+  {
     "type": 17,
     "icao": "LSXE",
     "lat": 46.834199,

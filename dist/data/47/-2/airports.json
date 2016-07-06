@@ -1,0 +1,125 @@
+[
+  {
+    "type": 1,
+    "icao": "LFFI",
+    "lat": 47.408203,
+    "lon": -1.1775660000000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11820,
+        "name": "INFO"
+      },
+      {
+        "type": 55,
+        "frequency": 13027,
+        "name": "NANTES APP"
+      }
+    ],
+    "elevation": 110,
+    "tower": false,
+    "name": "Ancenis",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 47.406632,
+        "lonStart": -1.185168,
+        "latEnd": 47.409774,
+        "lonEnd": -1.169964,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1008
+  },
+  {
+    "type": 1,
+    "icao": "LFTQ",
+    "lat": 47.739999999999995,
+    "lon": -1.19,
+    "communications": [],
+    "elevation": 321,
+    "tower": false,
+    "name": "Chateaubriant Pouance",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 47.74083843,
+        "lonStart": -1.19465293,
+        "latEnd": 47.73916157,
+        "lonEnd": -1.18534707,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4829
+  },
+  {
+    "type": 1,
+    "icao": "LFRS",
+    "lat": 47.156040000000004,
+    "lon": -1.611186,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12692,
+        "name": "LFRS ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12187,
+        "name": "NANTES GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11865,
+        "name": "NANTES TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12987,
+        "name": "NANTES APP"
+      }
+    ],
+    "elevation": 89,
+    "tower": true,
+    "name": "Nantes_Atlantique",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 47.141604,
+        "lonStart": -1.619537,
+        "latEnd": 47.164788,
+        "lonEnd": -1.601895,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 47.160477,
+        "lonStart": -1.614934,
+        "latEnd": 47.157291,
+        "lonEnd": -1.608378,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 18109
+  }
+]

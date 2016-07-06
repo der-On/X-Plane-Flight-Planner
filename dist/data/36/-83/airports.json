@@ -1,23 +1,307 @@
 [
   {
     "type": 1,
-    "icao": "KVGT",
-    "lat": 36.211901845714294,
-    "lon": -82.75705624428574,
+    "icao": "TN03",
+    "lat": 36.1962175,
+    "lon": -82.48708805999999,
+    "communications": [],
+    "elevation": 1505,
+    "tower": false,
+    "name": "Decker Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 36.19568663,
+        "lonStart": -82.48972648,
+        "latEnd": 36.19674837,
+        "lonEnd": -82.48444964,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6124
+  },
+  {
+    "type": 1,
+    "icao": "0A9",
+    "lat": 36.3712115,
+    "lon": -82.17340250000001,
     "communications": [
       {
         "type": 50,
-        "frequency": 11805,
-        "name": "ASOS"
+        "frequency": 13567,
+        "name": "AWOS 3"
       },
       {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1593,
+    "tower": false,
+    "name": "ELIZABETHTON MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 36.367881,
+        "lonStart": -82.179897,
+        "latEnd": 36.374542,
+        "lonEnd": -82.166908,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 6732
+  },
+  {
+    "type": 1,
+    "icao": "19VA",
+    "lat": 36.889722219999996,
+    "lon": -82.29777778,
+    "communications": [],
+    "elevation": 1720,
+    "tower": false,
+    "name": "Flying W",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 36.89190825,
+        "lonStart": -82.29801691,
+        "latEnd": 36.88753619,
+        "lonEnd": -82.29753865,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9531
+  },
+  {
+    "type": 1,
+    "icao": "KGCY",
+    "lat": 36.192983,
+    "lon": -82.81505849999999,
+    "communications": [
+      {
         "type": 50,
-        "frequency": 11805,
+        "frequency": 12842,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11925,
+        "name": "TRI CITY APP/DEP"
+      }
+    ],
+    "elevation": 1608,
+    "tower": false,
+    "name": "Greeneville Greene Co Muni",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 36.187122,
+        "lonStart": -82.822911,
+        "latEnd": 36.198844,
+        "lonEnd": -82.807206,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10770
+  },
+  {
+    "type": 1,
+    "icao": "KRVN",
+    "lat": 36.457578999999996,
+    "lon": -82.885036,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11925,
+        "name": "TRI CITY APP/DEP"
+      }
+    ],
+    "elevation": 1255,
+    "tower": false,
+    "name": "HAWKINS CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 36.455475,
+        "lonStart": -82.890389,
+        "latEnd": 36.459683,
+        "lonEnd": -82.879683,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11058
+  },
+  {
+    "type": 1,
+    "icao": "3TN0",
+    "lat": 36.53527777,
+    "lon": -82.43055556,
+    "communications": [],
+    "elevation": 1550,
+    "tower": false,
+    "name": "Indian Springs",
+    "runways": [
+      {
+        "type": 100,
+        "width": 7.62,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 36.53446796,
+        "lonStart": -82.43159923,
+        "latEnd": 36.53608758,
+        "lonEnd": -82.42951189,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12477
+  },
+  {
+    "type": 1,
+    "icao": "0A4",
+    "lat": 36.36361,
+    "lon": -82.3088875,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1550,
+    "tower": false,
+    "name": "JOHNSON CITY STOLPORT",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 36.360278,
+        "lonStart": -82.311942,
+        "latEnd": 36.366942,
+        "lonEnd": -82.305833,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12782
+  },
+  {
+    "type": 1,
+    "icao": "KLNP",
+    "lat": 36.987518,
+    "lon": -82.5299975,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11860,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 2684,
+    "tower": false,
+    "name": "LONESOME PINE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 36.983483,
+        "lonStart": -82.537506,
+        "latEnd": 36.991553,
+        "lonEnd": -82.522489,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14596
+  },
+  {
+    "type": 1,
+    "icao": "TN62",
+    "lat": 36.372326939999994,
+    "lon": -82.39153028000001,
+    "communications": [],
+    "elevation": 1925,
+    "tower": false,
+    "name": "Mc Afee STOL Patch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 36.37127895,
+        "lonStart": -82.39287808,
+        "latEnd": 36.37337493,
+        "lonEnd": -82.39018248,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16876
+  },
+  {
+    "type": 1,
+    "icao": "KTRI",
+    "lat": 36.4759195,
+    "lon": -82.40641364999999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11825,
         "name": "ATIS"
       },
       {
         "type": 51,
-        "frequency": 12570,
+        "frequency": 11950,
         "name": "CTAF"
       },
       {
@@ -26,172 +310,110 @@
         "name": "UNICOM"
       },
       {
-        "type": 52,
-        "frequency": 12400,
-        "name": "CLNC DEL"
-      },
-      {
         "type": 53,
         "frequency": 12170,
         "name": "GND"
       },
       {
         "type": 54,
-        "frequency": 12570,
+        "frequency": 11950,
         "name": "TWR"
       },
       {
         "type": 55,
-        "frequency": 11940,
-        "name": "LAS VEGAS APP"
+        "frequency": 11925,
+        "name": "APP"
       },
       {
         "type": 55,
-        "frequency": 11812,
-        "name": "NELLIS APP"
+        "frequency": 12550,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 13442,
+        "name": "APP"
+      },
+      {
+        "type": 56,
+        "frequency": 12550,
+        "name": "DEP"
+      },
+      {
+        "type": 56,
+        "frequency": 13442,
+        "name": "DEP"
       }
     ],
-    "elevation": 2205,
+    "elevation": 1519,
     "tower": true,
-    "name": "North Las Vegas",
+    "name": "Tri Cities Rgnl Tn Va",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 36.465342,
+        "lonStart": -82.4191123,
+        "latEnd": 36.481525,
+        "lonEnd": -82.4007093,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 36.478303,
+        "lonStart": -82.410469,
+        "latEnd": 36.478508,
+        "lonEnd": -82.395364,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 25569
+  },
+  {
+    "type": 1,
+    "icao": "KVJI",
+    "lat": 36.6871025,
+    "lon": -82.0333265,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12812,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 2086,
+    "tower": false,
+    "name": "Virginia Highlands",
     "runways": [
       {
         "type": 100,
         "width": 22.86,
         "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 36.21329679,
-        "lonStart": -115.20337281,
-        "latEnd": 36.21363121,
-        "lonEnd": -115.18641319,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 36.683672,
+        "lonStart": -82.039647,
+        "latEnd": 36.690533,
+        "lonEnd": -82.027006,
         "length": 0,
         "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "12R",
-        "numberEnd": "30L",
-        "latStart": 36.21467834,
-        "lonStart": -115.20266822,
-        "latEnd": 36.20508166,
-        "lonEnd": -115.19054378,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "12L",
-        "numberEnd": "30R",
-        "latStart": 36.21242263,
-        "lonStart": -115.19641895,
-        "latEnd": 36.20435737,
-        "lonEnd": -115.18623305,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 10.7,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 36.21246207,
-        "lonStart": -115.20668518,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.8
-      },
-      {
-        "type": 102,
-        "width": 10.7,
-        "surfaceType": 2,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 36.212534,
-        "lonStart": -115.20700066,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.8
-      },
-      {
-        "type": 102,
-        "width": 10.7,
-        "surfaceType": 2,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 36.2125385,
-        "lonStart": -115.20639757,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.8
-      },
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H4",
-        "numberEnd": null,
-        "latStart": 36.20792555,
-        "lonStart": -115.19668561,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      },
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H5",
-        "numberEnd": null,
-        "latStart": 36.20792328,
-        "lonStart": -115.19634285,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      },
-      {
-        "type": 102,
-        "width": 13.1,
-        "surfaceType": 1,
-        "numberStart": "H6",
-        "numberEnd": null,
-        "latStart": 36.21676902,
-        "lonStart": -115.20231365,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 13.1
-      },
-      {
-        "type": 102,
-        "width": 13.1,
-        "surfaceType": 1,
-        "numberStart": "H7",
-        "numberEnd": null,
-        "latStart": 36.21659201,
-        "lonStart": -115.20209575,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 13.1
-      },
-      {
-        "type": 102,
-        "width": 13.1,
-        "surfaceType": 1,
-        "numberStart": "H8",
-        "numberEnd": null,
-        "latStart": 36.21641341,
-        "lonStart": -115.20187641,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 13.1
       }
     ],
-    "id": 18452
+    "id": 26369
   },
   {
     "type": 17,

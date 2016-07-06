@@ -1,5 +1,133 @@
 [
   {
+    "type": 1,
+    "icao": "KAZC",
+    "lat": 36.95992625,
+    "lon": -113.0137882225,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11837,
+        "name": "AWOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "UNICOM/CTAF"
+      }
+    ],
+    "elevation": 4874,
+    "tower": false,
+    "name": "Colorado City Muni",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 36.96470933,
+        "lonStart": -113.02389712,
+        "latEnd": 36.95540135,
+        "lonEnd": -113.00572688,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 36.9536167,
+        "lonStart": -113.01687186,
+        "latEnd": 36.96597762,
+        "lonEnd": -113.00865703,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5204
+  },
+  {
+    "type": 1,
+    "icao": "1Z1",
+    "lat": 36.25970277,
+    "lon": -113.23132278,
+    "communications": [],
+    "elevation": 4100,
+    "tower": false,
+    "name": "Grand Canyon Bar Ten Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 36.26597706,
+        "lonStart": -113.23214061,
+        "latEnd": 36.25342848,
+        "lonEnd": -113.23050495,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 10684
+  },
+  {
+    "type": 1,
+    "icao": "AZ01",
+    "lat": 36.252485,
+    "lon": -113.96495805999999,
+    "communications": [],
+    "elevation": 1544,
+    "tower": false,
+    "name": "Tassi",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 36.25195575,
+        "lonStart": -113.96724683,
+        "latEnd": 36.25301425,
+        "lonEnd": -113.96266929,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 25067
+  },
+  {
+    "type": 1,
+    "icao": "L50",
+    "lat": 36.30081416,
+    "lon": -113.06909389,
+    "communications": [],
+    "elevation": 4682,
+    "tower": false,
+    "name": "Tuweep",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 36.2969483,
+        "lonStart": -113.07232939,
+        "latEnd": 36.30468002,
+        "lonEnd": -113.06585839,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 25737
+  },
+  {
     "type": 17,
     "icao": "AZ12",
     "lat": 36.10831611,

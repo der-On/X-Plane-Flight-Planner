@@ -1,5 +1,108 @@
 [
   {
+    "type": 1,
+    "icao": "YCTM",
+    "lat": -34.6250473975,
+    "lon": 148.035095705,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12670,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1106,
+    "tower": false,
+    "name": "Cootamundra",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -34.61762943,
+        "lonStart": 148.03565361,
+        "latEnd": -34.63024219,
+        "lonEnd": 148.03743515,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 108.92,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -34.62471739,
+        "lonStart": 148.0289236,
+        "latEnd": -34.62760058,
+        "lonEnd": 148.03837046,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 5308
+  },
+  {
+    "type": 1,
+    "icao": "YHAE",
+    "lat": -34.562696085,
+    "lon": 148.39342483500002,
+    "communications": [],
+    "elevation": 1432,
+    "tower": false,
+    "name": "HARDEN",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.85,
+        "surfaceType": null,
+        "numberStart": "8",
+        "numberEnd": "26",
+        "latStart": -34.5628135,
+        "lonStart": 148.38816588,
+        "latEnd": -34.56257867,
+        "lonEnd": 148.39868379,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 11000
+  },
+  {
+    "type": 1,
+    "icao": "YYNG",
+    "lat": -34.255525250000005,
+    "lon": 148.24694069999998,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12670,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1267,
+    "tower": false,
+    "name": "YOUNG",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": -34.26083347,
+        "lonStart": 148.24524387,
+        "latEnd": -34.25021703,
+        "lonEnd": 148.24863753,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 27718
+  },
+  {
     "type": 17,
     "icao": "YGRA",
     "lat": -34.70773858,

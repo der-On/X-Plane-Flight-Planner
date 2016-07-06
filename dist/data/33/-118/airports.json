@@ -1,5 +1,1157 @@
 [
   {
+    "type": 1,
+    "icao": "L86",
+    "lat": 33.56558027,
+    "lon": -117.23975777999999,
+    "communications": [],
+    "elevation": 1120,
+    "tower": false,
+    "name": "Bear Creek",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 33.56911611,
+        "lonStart": -117.24097456,
+        "latEnd": 33.56204443,
+        "lonEnd": -117.238541,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 2395
+  },
+  {
+    "type": 1,
+    "icao": "37CA",
+    "lat": 33.50697277,
+    "lon": -117.07141777999999,
+    "communications": [],
+    "elevation": 1350,
+    "tower": false,
+    "name": "Billy Joe",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 33.50519926,
+        "lonStart": -117.07434531,
+        "latEnd": 33.50874628,
+        "lonEnd": -117.06849025,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 2729
+  },
+  {
+    "type": 1,
+    "icao": "2CA4",
+    "lat": 33.25892388,
+    "lon": -117.09225334000001,
+    "communications": [],
+    "elevation": 1155,
+    "tower": false,
+    "name": "Blackinton",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 33.26193702,
+        "lonStart": -117.0920645,
+        "latEnd": 33.25591074,
+        "lonEnd": -117.09244218,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 2804
+  },
+  {
+    "type": 1,
+    "icao": "KNFG",
+    "lat": 33.30139,
+    "lon": -117.355,
+    "communications": [
+      {
+        "type": 52,
+        "frequency": 12620,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12877,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12877,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12845,
+        "name": "APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12730,
+        "name": "SOCAL APP/DEP"
+      }
+    ],
+    "elevation": 78,
+    "tower": true,
+    "name": "Camp Pendleton MCAS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 33.295533,
+        "lonStart": -117.361911,
+        "latEnd": 33.307247,
+        "lonEnd": -117.348089,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4401
+  },
+  {
+    "type": 1,
+    "icao": "KCNO",
+    "lat": 33.975429108571426,
+    "lon": -117.63576128285715,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12585,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 11850,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12160,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11850,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 13540,
+        "name": "SOCAL APP/DEP"
+      }
+    ],
+    "elevation": 649,
+    "tower": true,
+    "name": "Chino",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "08R",
+        "numberEnd": "26L",
+        "latStart": 33.973514,
+        "lonStart": -117.646728,
+        "latEnd": 33.973706,
+        "lonEnd": -117.623642,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "08L",
+        "numberEnd": "26R",
+        "latStart": 33.97572675,
+        "lonStart": -117.64677781,
+        "latEnd": 33.97586125,
+        "lonEnd": -117.63075619,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 33.970631,
+        "lonStart": -117.641775,
+        "latEnd": 33.980286,
+        "lonEnd": -117.630422,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 11.9,
+        "surfaceType": 1,
+        "numberStart": "H",
+        "numberEnd": null,
+        "latStart": 33.97827876,
+        "lonStart": -117.63022798,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.9
+      }
+    ],
+    "id": 4931
+  },
+  {
+    "type": 1,
+    "icao": "KAJO",
+    "lat": 33.897658485,
+    "lon": -117.60242793,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13217,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 13540,
+        "name": "SOCAL APP/DEP"
+      }
+    ],
+    "elevation": 533,
+    "tower": false,
+    "name": "Corona Muni",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 33.89758989,
+        "lonStart": -117.60768904,
+        "latEnd": 33.89772708,
+        "lonEnd": -117.59716682,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5342
+  },
+  {
+    "type": 1,
+    "icao": "KRIR",
+    "lat": 33.9897215,
+    "lon": -117.410555,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 764,
+    "tower": false,
+    "name": "FLABOB",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 33.988888,
+        "lonStart": -117.41583,
+        "latEnd": 33.990555,
+        "lonEnd": -117.40528,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 7570
+  },
+  {
+    "type": 1,
+    "icao": "L18",
+    "lat": 33.35419805,
+    "lon": -117.25086862,
+    "communications": [],
+    "elevation": 708,
+    "tower": false,
+    "name": "Fallbrook Community Airpark",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 33.35708454,
+        "lonStart": -117.25007081,
+        "latEnd": 33.35131156,
+        "lonEnd": -117.25166643,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 7786
+  },
+  {
+    "type": 1,
+    "icao": "KFUL",
+    "lat": 33.871594624,
+    "lon": -117.97894493200002,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12505,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 11910,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11910,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12465,
+        "name": "SOCAL APP/DEP"
+      }
+    ],
+    "elevation": 96,
+    "tower": true,
+    "name": "Fullerton Muni",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 33.871058,
+        "lonStart": -117.984806,
+        "latEnd": 33.87299,
+        "lonEnd": -117.97479,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 10.97,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.87118646,
+        "lonStart": -117.98078889,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.97
+      },
+      {
+        "type": 102,
+        "width": 10.97,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 33.87146685,
+        "lonStart": -117.9771978,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.97
+      },
+      {
+        "type": 102,
+        "width": 10.97,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 33.87127181,
+        "lonStart": -117.97714197,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.97
+      }
+    ],
+    "id": 9783
+  },
+  {
+    "type": 1,
+    "icao": "KHMT",
+    "lat": 33.734321249999994,
+    "lon": -117.02204524999999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11837,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11925,
+        "name": "MARCH APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 13350,
+        "name": "MARCH APP/DEP"
+      }
+    ],
+    "elevation": 1512,
+    "tower": false,
+    "name": "Hemet Ryan",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 33.730739,
+        "lonStart": -117.029136,
+        "latEnd": 33.736142,
+        "lonEnd": -117.016503,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 7.62,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 33.73391811,
+        "lonStart": -117.02430099,
+        "latEnd": 33.73648589,
+        "lonEnd": -117.01824101,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11659
+  },
+  {
+    "type": 1,
+    "icao": "52CA",
+    "lat": 33.8530725,
+    "lon": -117.42393389,
+    "communications": [],
+    "elevation": 1385,
+    "tower": false,
+    "name": "Lake Mathews",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 33.85416742,
+        "lonStart": -117.42922184,
+        "latEnd": 33.85197758,
+        "lonEnd": -117.41864594,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14836
+  },
+  {
+    "type": 1,
+    "icao": "8CL1",
+    "lat": 33.18614888,
+    "lon": -117.00197362,
+    "communications": [],
+    "elevation": 1643,
+    "tower": false,
+    "name": "Lake Wohlford Resort",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 33.18480079,
+        "lonStart": -117.00347574,
+        "latEnd": 33.18749697,
+        "lonEnd": -117.0004715,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14856
+  },
+  {
+    "type": 1,
+    "icao": "KRIV",
+    "lat": 33.88389936,
+    "lon": -117.257128706,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13475,
+        "name": "ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 12175,
+        "name": "DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12175,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12765,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 13350,
+        "name": "MARCH APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 11925,
+        "name": "MARCH APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 13400,
+        "name": "SOCAL APP/DEP"
+      }
+    ],
+    "elevation": 1535,
+    "tower": true,
+    "name": "March ARB",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 33.89643085,
+        "lonStart": -117.270633,
+        "latEnd": 33.86499685,
+        "lonEnd": -117.248275,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 33.89025585,
+        "lonStart": -117.260675,
+        "latEnd": 33.88432485,
+        "lonEnd": -117.253533,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 14.94,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.8834884,
+        "lonStart": -117.25252753,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.94
+      }
+    ],
+    "id": 16663
+  },
+  {
+    "type": 1,
+    "icao": "KCRQ",
+    "lat": 33.128163709999995,
+    "lon": -117.27763948,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12015,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 11860,
+        "name": "CTAF"
+      },
+      {
+        "type": 52,
+        "frequency": 13485,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11860,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12730,
+        "name": "SOCAL APP/DEP"
+      }
+    ],
+    "elevation": 331,
+    "tower": true,
+    "name": "Mc Clellan Palomar",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 33.12695022,
+        "lonStart": -117.28820254,
+        "latEnd": 33.12951976,
+        "lonEnd": -117.27228563,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.12802115,
+        "lonStart": -117.27243027,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19.8
+      }
+    ],
+    "id": 16892
+  },
+  {
+    "type": 1,
+    "icao": "F70",
+    "lat": 33.5741795,
+    "lon": -117.128474,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11902,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 13350,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 55,
+        "frequency": 13350,
+        "name": "MARCH APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 13400,
+        "name": "MARCH APP/DEP"
+      }
+    ],
+    "elevation": 1350,
+    "tower": false,
+    "name": "Murietta - French Valley",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 33.582231,
+        "lonStart": -117.126356,
+        "latEnd": 33.566128,
+        "lonEnd": -117.130592,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17732
+  },
+  {
+    "type": 1,
+    "icao": "KOKB",
+    "lat": 33.217978,
+    "lon": -117.351509,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12780,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12730,
+        "name": "SOCAL APP/DEP"
+      }
+    ],
+    "elevation": 28,
+    "tower": false,
+    "name": "Oceanside Muni",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 33.21733355,
+        "lonStart": -117.35587776,
+        "latEnd": 33.21862245,
+        "lonEnd": -117.34714024,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 18806
+  },
+  {
+    "type": 1,
+    "icao": "KSNA",
+    "lat": 33.67482186083333,
+    "lon": -117.87097703666666,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12600,
+        "name": "John Wayne ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12680,
+        "name": "John Wayne CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "John Wayne UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 11800,
+        "name": "John Wayne CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12080,
+        "name": "John Wayne GND"
+      },
+      {
+        "type": 53,
+        "frequency": 13225,
+        "name": "John Wayne GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11990,
+        "name": "John Wayne TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12680,
+        "name": "John Wayne TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12835,
+        "name": "John Wayne TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12130,
+        "name": "SOCAL APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12465,
+        "name": "SOCAL APP"
+      },
+      {
+        "type": 55,
+        "frequency": 13270,
+        "name": "SOCAL APP"
+      },
+      {
+        "type": 56,
+        "frequency": 12810,
+        "name": "SOCAL DEP"
+      }
+    ],
+    "elevation": 56,
+    "tower": true,
+    "name": "Orange County - John Wayne",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "02L",
+        "numberEnd": "20R",
+        "latStart": 33.66782515,
+        "lonStart": -117.87382046,
+        "latEnd": 33.68166885,
+        "lonEnd": -117.86504606,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "02R",
+        "numberEnd": "20L",
+        "latStart": 33.67401608,
+        "lonStart": -117.86803587,
+        "latEnd": 33.68102592,
+        "lonEnd": -117.86359463,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 13.1,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.67657948,
+        "lonStart": -117.87064666,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.1
+      },
+      {
+        "type": 102,
+        "width": 13.1,
+        "surfaceType": 15,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 33.67675172,
+        "lonStart": -117.87054363,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.1
+      },
+      {
+        "type": 102,
+        "width": 13.1,
+        "surfaceType": 15,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 33.67666852,
+        "lonStart": -117.87034671,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.1
+      },
+      {
+        "type": 102,
+        "width": 13.1,
+        "surfaceType": 15,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 33.67649399,
+        "lonStart": -117.87045426,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.1
+      },
+      {
+        "type": 102,
+        "width": 13.1,
+        "surfaceType": 15,
+        "numberStart": "H5",
+        "numberEnd": null,
+        "latStart": 33.67158736,
+        "lonStart": -117.87472744,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.8
+      },
+      {
+        "type": 102,
+        "width": 13.1,
+        "surfaceType": 15,
+        "numberStart": "H6",
+        "numberEnd": null,
+        "latStart": 33.67175176,
+        "lonStart": -117.87465239,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.8
+      },
+      {
+        "type": 102,
+        "width": 13.1,
+        "surfaceType": 15,
+        "numberStart": "H7",
+        "numberEnd": null,
+        "latStart": 33.67166396,
+        "lonStart": -117.87496604,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.8
+      },
+      {
+        "type": 102,
+        "width": 13.1,
+        "surfaceType": 15,
+        "numberStart": "H8",
+        "numberEnd": null,
+        "latStart": 33.67182954,
+        "lonStart": -117.87489029,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.8
+      }
+    ],
+    "id": 19001
+  },
+  {
+    "type": 1,
+    "icao": "L65",
+    "lat": 33.760835,
+    "lon": -117.218336,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      },
+      {
+        "type": 55,
+        "frequency": 13350,
+        "name": "MARCH APP/DEP"
+      }
+    ],
+    "elevation": 1413,
+    "tower": false,
+    "name": "PERRIS VALLEY",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 33.767503,
+        "lonStart": -117.220561,
+        "latEnd": 33.754167,
+        "lonEnd": -117.216111,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19313
+  },
+  {
+    "type": 1,
+    "icao": "8CA5",
+    "lat": 33.64557888,
+    "lon": -117.11003027999999,
+    "communications": [],
+    "elevation": 1419,
+    "tower": false,
+    "name": "Pines Airpark",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 33.64890576,
+        "lonStart": -117.10903388,
+        "latEnd": 33.642252,
+        "lonEnd": -117.11102668,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20164
+  },
+  {
+    "type": 1,
+    "icao": "KRAL",
+    "lat": 33.951729748000005,
+    "lon": -117.44624635,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12880,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12100,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12100,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 13540,
+        "name": "SOCAL APP/DEP"
+      }
+    ],
+    "elevation": 818,
+    "tower": true,
+    "name": "Riverside Muni",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 33.95388975,
+        "lonStart": -117.45197169,
+        "latEnd": 33.95053625,
+        "lonEnd": -117.43462631,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 33.95515756,
+        "lonStart": -117.44864077,
+        "latEnd": 33.94732604,
+        "lonEnd": -117.44840509,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 13.11,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.95173914,
+        "lonStart": -117.44758789,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.11
+      }
+    ],
+    "id": 21545
+  },
+  {
+    "type": 1,
+    "icao": "CA89",
+    "lat": 33.633411925000004,
+    "lon": -117.299806995,
+    "communications": [],
+    "elevation": 1253,
+    "tower": false,
+    "name": "Skylark Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.08,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 33.63639684,
+        "lonStart": -117.30422381,
+        "latEnd": 33.63042701,
+        "lonEnd": -117.29539018,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 23669
+  },
+  {
     "type": 17,
     "icao": "CA94",
     "lat": 33.76696083,
@@ -1173,5 +2325,109 @@
       }
     ],
     "id": 33892
+  },
+  {
+    "type": 1,
+    "icao": "KNZJ",
+    "lat": 33.6713829,
+    "lon": -117.73217622000001,
+    "communications": [],
+    "elevation": 383,
+    "tower": false,
+    "name": "[X] El Toro MCAS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "16R",
+        "numberEnd": "34L",
+        "latStart": 33.6848498,
+        "lonStart": -117.7300034,
+        "latEnd": 33.65742,
+        "lonEnd": -117.7300034,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "16L",
+        "numberEnd": "34R",
+        "latStart": 33.6848613,
+        "lonStart": -117.7285004,
+        "latEnd": 33.6574315,
+        "lonEnd": -117.7285004,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "07R",
+        "numberEnd": "25L",
+        "latStart": 33.6699982,
+        "lonStart": -117.74434653,
+        "latEnd": 33.6699982,
+        "lonEnd": -117.71797947,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "07L",
+        "numberEnd": "25R",
+        "latStart": 33.6711349,
+        "lonStart": -117.74434671,
+        "latEnd": 33.6711349,
+        "lonEnd": -117.71797929,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 76.2,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 33.67116426,
+        "lonStart": -117.74377603,
+        "latEnd": 33.67583594,
+        "lonEnd": -117.73632657,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 34560
+  },
+  {
+    "type": 1,
+    "icao": "KNTK",
+    "lat": 33.706751,
+    "lon": -117.82580300000001,
+    "communications": [],
+    "elevation": 54,
+    "tower": false,
+    "name": "[X] Tustin Mcas",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 33.70556337,
+        "lonStart": -117.83053153,
+        "latEnd": 33.70793863,
+        "lonEnd": -117.82107447,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 34579
   }
 ]

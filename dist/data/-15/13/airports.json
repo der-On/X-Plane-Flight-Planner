@@ -1,28 +1,34 @@
 [
   {
     "type": 1,
-    "icao": "FQNC",
-    "lat": -14.4882335,
-    "lon": 13.117183,
-    "communications": [],
-    "elevation": 410,
+    "icao": "FNUB",
+    "lat": -14.924696999999998,
+    "lon": 13.576563435,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11890,
+        "name": "AFIS"
+      }
+    ],
+    "elevation": 5777,
     "tower": false,
-    "name": "NACALA",
+    "name": "LUBANGO",
     "runways": [
       {
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": -14.4995,
-        "lonStart": 40.711333,
-        "latEnd": -14.476967,
-        "lonEnd": 40.713167,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -14.92514874,
+        "lonStart": 13.56193102,
+        "latEnd": -14.92424526,
+        "lonEnd": 13.59119585,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 17796
+    "id": 14649
   }
 ]

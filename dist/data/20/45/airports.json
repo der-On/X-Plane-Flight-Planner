@@ -1,41 +1,60 @@
 [
   {
     "type": 1,
-    "icao": "VA1P",
-    "lat": 20.71407825,
-    "lon": 45.81511975,
+    "icao": "OESL",
+    "lat": 20.4647345,
+    "lon": 45.619662500000004,
     "communications": [],
-    "elevation": 31,
+    "elevation": 2021,
     "tower": false,
-    "name": "DIU",
+    "name": "SULAYEL",
     "runways": [
       {
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 20.708025,
-        "lonStart": 70.914269,
-        "latEnd": 20.718222,
-        "lonEnd": 70.928014,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 20.718272,
-        "lonStart": 70.916194,
-        "latEnd": 20.711794,
-        "lonEnd": 70.924006,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 20.467361,
+        "lonStart": 45.605533,
+        "latEnd": 20.462108,
+        "lonEnd": 45.633792,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 5817
+    "id": 22582
+  },
+  {
+    "type": 1,
+    "icao": "OEWD",
+    "lat": 20.504275,
+    "lon": 45.199554500000005,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 2062,
+    "tower": false,
+    "name": "WADI AL DAWASIR",
+    "runways": [
+      {
+        "type": 100,
+        "width": 44.81,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 20.507131,
+        "lonStart": 45.185267,
+        "latEnd": 20.501419,
+        "lonEnd": 45.213842,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 26442
   }
 ]

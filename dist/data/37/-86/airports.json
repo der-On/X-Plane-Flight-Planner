@@ -1,5 +1,657 @@
 [
   {
+    "type": 1,
+    "icao": "KEKX",
+    "lat": 37.686765226666665,
+    "lon": -85.92513347666666,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12102,
+        "name": "WX AWOS-3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 11945,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "LOUISVILLE GROUND"
+      },
+      {
+        "type": 54,
+        "frequency": 12420,
+        "name": "LOUISVILLE TOWER"
+      },
+      {
+        "type": 55,
+        "frequency": 12367,
+        "name": "LOUISVILLE APP (West)"
+      },
+      {
+        "type": 55,
+        "frequency": 13207,
+        "name": "LOUISVILLE APP (East)"
+      },
+      {
+        "type": 56,
+        "frequency": 13232,
+        "name": "LOUISVILLE DEP (Alt)"
+      },
+      {
+        "type": 56,
+        "frequency": 13415,
+        "name": "LOUISVILLE DEP (Alt)"
+      }
+    ],
+    "elevation": 773,
+    "tower": true,
+    "name": "ADDINGTON FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 37.680349,
+        "lonStart": -85.932573,
+        "latEnd": 37.691665,
+        "lonEnd": -85.917489,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 13,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 37.68828168,
+        "lonStart": -85.92533843,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13
+      }
+    ],
+    "id": 69
+  },
+  {
+    "type": 1,
+    "icao": "I49",
+    "lat": 37.65562194,
+    "lon": -85.15384834,
+    "communications": [],
+    "elevation": 842,
+    "tower": false,
+    "name": "Arnolds",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 37.65791518,
+        "lonStart": -85.15645646,
+        "latEnd": 37.6533287,
+        "lonEnd": -85.15124022,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 37.6540957,
+        "lonStart": -85.15693347,
+        "latEnd": 37.65714818,
+        "lonEnd": -85.15076321,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1208
+  },
+  {
+    "type": 1,
+    "icao": "I96",
+    "lat": 37.08533972,
+    "lon": -85.34718445,
+    "communications": [],
+    "elevation": 817,
+    "tower": false,
+    "name": "Columbia-Adair Co.",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 37.08459833,
+        "lonStart": -85.35155675,
+        "latEnd": 37.08608111,
+        "lonEnd": -85.34281215,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5212
+  },
+  {
+    "type": 1,
+    "icao": "KGLW",
+    "lat": 37.031779,
+    "lon": -85.953754,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11852,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 715,
+    "tower": false,
+    "name": "GLASGOW MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 37.029458,
+        "lonStart": -85.962361,
+        "latEnd": 37.0341,
+        "lonEnd": -85.945147,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10021
+  },
+  {
+    "type": 1,
+    "icao": "KFTK",
+    "lat": 37.907428198750004,
+    "lon": -85.97124999374999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12680,
+        "name": "CTAF"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12680,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12367,
+        "name": "LOUISVILLE APP/DEP"
+      }
+    ],
+    "elevation": 755,
+    "tower": true,
+    "name": "GODMAN AAF",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 37.908558,
+        "lonStart": -85.9798,
+        "latEnd": 37.906978,
+        "lonEnd": -85.962589,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 37.91271096,
+        "lonStart": -85.97885711,
+        "latEnd": 37.90138654,
+        "lonEnd": -85.96999961,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 37.91416551,
+        "lonStart": -85.97029982,
+        "latEnd": 37.89995599,
+        "lonEnd": -85.96923933,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 37.90558816,
+        "lonStart": -85.97254816,
+        "latEnd": 37.91008243,
+        "lonEnd": -85.96666692,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10049
+  },
+  {
+    "type": 1,
+    "icao": "84KY",
+    "lat": 37.81533916,
+    "lon": -85.53995806,
+    "communications": [],
+    "elevation": 650,
+    "tower": false,
+    "name": "Greene County Parachute Center",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 37.81702791,
+        "lonStart": -85.54269417,
+        "latEnd": 37.81365041,
+        "lonEnd": -85.53722195,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10768
+  },
+  {
+    "type": 1,
+    "icao": "86KY",
+    "lat": 37.62138888,
+    "lon": -85.79222223,
+    "communications": [],
+    "elevation": 760,
+    "tower": false,
+    "name": "Hornback",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 37.62303367,
+        "lonStart": -85.79229475,
+        "latEnd": 37.61974409,
+        "lonEnd": -85.79214971,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 37.62056294,
+        "lonStart": -85.79338034,
+        "latEnd": 37.62221482,
+        "lonEnd": -85.79106412,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12058
+  },
+  {
+    "type": 1,
+    "icao": "6I2",
+    "lat": 37.6334765,
+    "lon": -85.2418375,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 866,
+    "tower": false,
+    "name": "LEBANON SPRINGFIELD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 37.635264,
+        "lonStart": -85.250172,
+        "latEnd": 37.631689,
+        "lonEnd": -85.233503,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14459
+  },
+  {
+    "type": 1,
+    "icao": "I53",
+    "lat": 37.3095135,
+    "lon": -85.058843,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1040,
+    "tower": false,
+    "name": "LIBERTY CASEY CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 37.305419,
+        "lonStart": -85.0594,
+        "latEnd": 37.313608,
+        "lonEnd": -85.058286,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14510
+  },
+  {
+    "type": 1,
+    "icao": "21KY",
+    "lat": 37.53756027,
+    "lon": -85.73746055999999,
+    "communications": [],
+    "elevation": 780,
+    "tower": false,
+    "name": "Lincoln Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 37.53550165,
+        "lonStart": -85.73884095,
+        "latEnd": 37.53961889,
+        "lonEnd": -85.73608017,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 15284
+  },
+  {
+    "type": 1,
+    "icao": "04KY",
+    "lat": 37.13505361,
+    "lon": -85.78941556000001,
+    "communications": [],
+    "elevation": 710,
+    "tower": false,
+    "name": "Natchez Trace Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 37.13703086,
+        "lonStart": -85.79096536,
+        "latEnd": 37.13307636,
+        "lonEnd": -85.78786576,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 18148
+  },
+  {
+    "type": 1,
+    "icao": "K24",
+    "lat": 37.0096975,
+    "lon": -85.102735,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11842,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1011,
+    "tower": false,
+    "name": "RUSSELL CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 37.016542,
+        "lonStart": -85.103428,
+        "latEnd": 37.002853,
+        "lonEnd": -85.102042,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 21085
+  },
+  {
+    "type": 1,
+    "icao": "KBRY",
+    "lat": 37.8143225,
+    "lon": -85.4996375,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11992,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12367,
+        "name": "LOUISVILLE APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 13207,
+        "name": "LOUISVILLE APP/DEP"
+      }
+    ],
+    "elevation": 669,
+    "tower": false,
+    "name": "SAMUELS FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 37.807931,
+        "lonStart": -85.502814,
+        "latEnd": 37.820714,
+        "lonEnd": -85.496461,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 21949
+  },
+  {
+    "type": 1,
+    "icao": "59KY",
+    "lat": 37.89783888,
+    "lon": -85.55523362,
+    "communications": [],
+    "elevation": 690,
+    "tower": false,
+    "name": "Samuels Springs",
+    "runways": [
+      {
+        "type": 100,
+        "width": 33.53,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 37.89571971,
+        "lonStart": -85.55666154,
+        "latEnd": 37.89995805,
+        "lonEnd": -85.5538057,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 22784
+  },
+  {
+    "type": 1,
+    "icao": "KAAS",
+    "lat": 37.358267999999995,
+    "lon": -85.309425,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12112,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 921,
+    "tower": false,
+    "name": "TAYLOR CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 37.353842,
+        "lonStart": -85.316008,
+        "latEnd": 37.362694,
+        "lonEnd": -85.302842,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 24618
+  },
+  {
+    "type": 1,
+    "icao": "70KY",
+    "lat": 37.81590055,
+    "lon": -85.96468528,
+    "communications": [],
+    "elevation": 680,
+    "tower": false,
+    "name": "Vine Grove",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 37.81704485,
+        "lonStart": -85.96914332,
+        "latEnd": 37.81475625,
+        "lonEnd": -85.96022724,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 26356
+  },
+  {
+    "type": 1,
+    "icao": "90KY",
+    "lat": 37.582560830000006,
+    "lon": -85.73329389,
+    "communications": [],
+    "elevation": 759,
+    "tower": false,
+    "name": "Williams",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 37.58247467,
+        "lonStart": -85.73640715,
+        "latEnd": 37.58264699,
+        "lonEnd": -85.73018063,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 27322
+  },
+  {
     "type": 17,
     "icao": "1KY1",
     "lat": 37.71055555,

@@ -1,170 +1,139 @@
 [
   {
     "type": 1,
-    "icao": "EDHK",
-    "lat": 54.37822095538461,
-    "lon": 16.95037154,
+    "icao": "EPDA",
+    "lat": 54.41208005,
+    "lon": 16.3581346725,
     "communications": [
       {
-        "type": 53,
-        "frequency": 12560,
-        "name": "Kiel Ground"
+        "type": 50,
+        "frequency": 12850,
+        "name": "DARLOWO INFO"
       },
       {
         "type": 54,
-        "frequency": 11997,
-        "name": "Kiel Tower"
-      },
-      {
-        "type": 56,
-        "frequency": 12510,
-        "name": "BREMEN Information"
+        "frequency": 12950,
+        "name": "DARLOWO TOWER"
       },
       {
         "type": 55,
-        "frequency": 13622,
-        "name": "BREMEN RADAR"
+        "frequency": 13300,
+        "name": "DARLOWO APPROACH"
       }
     ],
-    "elevation": 101,
+    "elevation": 8,
     "tower": true,
-    "name": "Kiel Holtenau",
+    "name": "DARLOWO",
     "runways": [
       {
         "type": 100,
         "width": 29.87,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 54.378622,
-        "lonStart": 10.133602,
-        "latEnd": 54.380266,
-        "lonEnd": 10.154711,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 54.40286796,
+        "lonStart": 16.34994266,
+        "latEnd": 54.40678536,
+        "lonEnd": 16.3561521,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 27.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 54.41917797,
+        "lonStart": 16.362865,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 28.4
+      },
+      {
+        "type": 102,
+        "width": 27.1,
+        "surfaceType": 2,
+        "numberStart": "H5",
+        "numberEnd": null,
+        "latStart": 54.41948891,
+        "lonStart": 16.36357893,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 28.4
+      }
+    ],
+    "id": 5677
+  },
+  {
+    "type": 1,
+    "icao": "EPWI",
+    "lat": 54.553791700000005,
+    "lon": 16.619715030000002,
+    "communications": [],
+    "elevation": 5,
+    "tower": false,
+    "name": "WICKO MORSKIE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 48.77,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 54.55042152,
+        "lonStart": 16.61867776,
+        "latEnd": 54.55742943,
+        "lonEnd": 16.62407369,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 29.87,
+        "width": 49.99,
         "surfaceType": null,
-        "numberStart": "08L",
-        "numberEnd": "26R",
-        "latStart": 54.38105217,
-        "lonStart": 10.14121006,
-        "latEnd": 54.3817102,
-        "lonEnd": 10.14807122,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 54.55416535,
+        "lonStart": 16.608854,
+        "latEnd": 54.5531505,
+        "lonEnd": 16.62725467,
         "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 102,
-        "width": 36,
-        "surfaceType": 2,
-        "numberStart": "H",
-        "numberEnd": null,
-        "latStart": 54.38112869,
-        "lonStart": 10.1517826,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 34.5
-      },
-      {
-        "type": 102,
-        "width": 10.7,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 54.37605952,
-        "lonStart": 10.14438508,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11.2
-      },
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 54.37610181,
-        "lonStart": 10.14524502,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.6
-      },
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 54.37612296,
-        "lonStart": 10.14489106,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.6
-      },
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H4",
-        "numberEnd": null,
-        "latStart": 54.37686173,
-        "lonStart": 10.14426482,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.5
-      },
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H5",
-        "numberEnd": null,
-        "latStart": 54.37707319,
-        "lonStart": 10.14425575,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.5
-      },
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H6",
-        "numberEnd": null,
-        "latStart": 54.37682209,
-        "lonStart": 10.14539024,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11.9
-      },
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H7",
-        "numberEnd": null,
-        "latStart": 54.37697804,
-        "lonStart": 10.14549915,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11.9
-      },
-      {
-        "type": 102,
-        "width": 8.4,
-        "surfaceType": 2,
-        "numberStart": "H8",
-        "numberEnd": null,
-        "latStart": 54.37807402,
-        "lonStart": 10.15232804,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.6
+        "surfacetype": 1
       }
     ],
-    "id": 13845
+    "id": 26637
+  },
+  {
+    "type": 1,
+    "icao": "EPKZ",
+    "lat": 54.042340734999996,
+    "lon": 16.263687285000003,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12230,
+        "name": "ZEGRZE-POMORSKIE-RADIO"
+      }
+    ],
+    "elevation": 250,
+    "tower": true,
+    "name": "ZEGRZE POMORSKIE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 54.038538,
+        "lonStart": 16.245515,
+        "latEnd": 54.04614347,
+        "lonEnd": 16.28185957,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 27838
   }
 ]

@@ -23,5 +23,47 @@
       }
     ],
     "id": 725
+  },
+  {
+    "type": 1,
+    "icao": "EFMA",
+    "lat": 60.122203,
+    "lon": 19.898156999999998,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11970,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11960,
+        "name": "TWR"
+      },
+      {
+        "type": 50,
+        "frequency": 13042,
+        "name": "ATIS"
+      }
+    ],
+    "elevation": 17,
+    "tower": true,
+    "name": "Mariehamn",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 60.114364,
+        "lonStart": 19.891367,
+        "latEnd": 60.130042,
+        "lonEnd": 19.904947,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16689
   }
 ]

@@ -1,0 +1,96 @@
+[
+  {
+    "type": 1,
+    "icao": "SCTE",
+    "lat": -41.4388875,
+    "lon": -73.09395556000001,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 12130,
+        "name": "RADAR"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TWR"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      }
+    ],
+    "elevation": 292,
+    "tower": true,
+    "name": "El Tepual",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -41.42693611,
+        "lonStart": -73.09353056,
+        "latEnd": -41.45083889,
+        "lonEnd": -73.09438056,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 7064
+  },
+  {
+    "type": 1,
+    "icao": "SCFR",
+    "lat": -41.130091,
+    "lon": -73.064378525,
+    "communications": [],
+    "elevation": 469,
+    "tower": false,
+    "name": "Frutillar",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -41.126274,
+        "lonStart": -73.06400905,
+        "latEnd": -41.133908,
+        "lonEnd": -73.064748,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9760
+  },
+  {
+    "type": 1,
+    "icao": "SCAC",
+    "lat": -41.90865358,
+    "lon": -73.79673569,
+    "communications": [],
+    "elevation": 374,
+    "tower": true,
+    "name": "Pupelde",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -41.90625932,
+        "lonStart": -73.79651071,
+        "latEnd": -41.91104784,
+        "lonEnd": -73.79696067,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 20635
+  }
+]

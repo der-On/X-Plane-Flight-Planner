@@ -1,74 +1,35 @@
 [
   {
     "type": 1,
-    "icao": "SCQL",
-    "lat": -32.852098,
-    "lon": -52.047769974999994,
-    "communications": [],
-    "elevation": 458,
-    "tower": false,
-    "name": "El Boco",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": -32.85420301,
-        "lonStart": -71.24554696,
-        "latEnd": -32.84999299,
-        "lonEnd": -71.24359709,
-        "length": 0,
-        "surfacetype": 12
-      }
-    ],
-    "id": 7028
-  },
-  {
-    "type": 1,
-    "icao": "SCER",
-    "lat": -32.7953713925,
-    "lon": -52.154796149999996,
+    "icao": "SJRG",
+    "lat": -32.08326515,
+    "lon": -52.16735809,
     "communications": [
       {
         "type": 54,
-        "frequency": 11830,
-        "name": "TWR"
+        "frequency": 13180,
+        "name": "RDO"
       }
     ],
-    "elevation": 12,
-    "tower": true,
-    "name": "Quintero",
+    "elevation": 24,
+    "tower": false,
+    "name": "Rio Grande Airport",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 30,
         "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": -32.7953729,
-        "lonStart": -71.52507323,
-        "latEnd": -32.78529897,
-        "lonEnd": -71.51945581,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -32.08937981,
+        "lonStart": -52.17440657,
+        "latEnd": -32.07715049,
+        "lonEnd": -52.16030961,
         "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 50,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": -32.81223044,
-        "lonStart": -71.52022914,
-        "latEnd": -32.78858326,
-        "lonEnd": -71.51779754,
-        "length": 0,
-        "surfacetype": 2
+        "surfacetype": 1
       }
     ],
-    "id": 20724
+    "id": 21502
   },
   {
     "type": 17,

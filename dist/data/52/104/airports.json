@@ -1,29 +1,174 @@
 [
   {
     "type": 1,
-    "icao": "UHP1",
-    "lat": 52.910007,
-    "lon": 104.88149023,
-    "communications": [],
-    "elevation": 203,
-    "tower": false,
-    "name": "Lenino",
+    "icao": "UIII",
+    "lat": 52.2657710475,
+    "lon": 104.37782931000001,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12485,
+        "name": "ATIS"
+      },
+      {
+        "type": 50,
+        "frequency": 12690,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "TAXIING"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12400,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12520,
+        "name": "APP"
+      }
+    ],
+    "elevation": 1675,
+    "tower": true,
+    "name": "Irkutsk",
     "runways": [
       {
         "type": 100,
-        "width": 75.9,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 52.910007,
-        "lonStart": 156.85297346,
-        "latEnd": 52.910007,
-        "lonEnd": 156.90371054,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 52.2721693,
+        "lonStart": 104.37435732,
+        "latEnd": 52.26070543,
+        "lonEnd": 104.41703024,
         "length": 0,
         "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 20.12,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 52.26561007,
+        "lonStart": 104.35939859,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.12
+      },
+      {
+        "type": 102,
+        "width": 21.95,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 52.26459939,
+        "lonStart": 104.36053109,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.12
       }
     ],
-    "id": 15153
+    "id": 12550
+  },
+  {
+    "type": 1,
+    "icao": "UIIR",
+    "lat": 52.365355996666665,
+    "lon": 104.18872780666668,
+    "communications": [],
+    "elevation": 1417,
+    "tower": false,
+    "name": "Irkutsk Northwest",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 52.35934801,
+        "lonStart": 104.19566037,
+        "latEnd": 52.37607499,
+        "lonEnd": 104.17101895,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 35.97,
+        "surfaceType": 2,
+        "numberStart": "H6",
+        "numberEnd": null,
+        "latStart": 52.36064499,
+        "lonStart": 104.1995041,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 35.97
+      }
+    ],
+    "id": 12551
+  },
+  {
+    "type": 1,
+    "icao": "XIIO",
+    "lat": 52.550352485000005,
+    "lon": 104.45464496,
+    "communications": [],
+    "elevation": 1482,
+    "tower": false,
+    "name": "Oyek",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 52.5472528,
+        "lonStart": 104.45222791,
+        "latEnd": 52.55345217,
+        "lonEnd": 104.45706201,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 19141
+  },
+  {
+    "type": 1,
+    "icao": "UIIO",
+    "lat": 52.8280585,
+    "lon": 104.73110789,
+    "communications": [],
+    "elevation": 1771,
+    "tower": true,
+    "name": "Ust-Ordynskiy",
+    "runways": [
+      {
+        "type": 100,
+        "width": 74.98,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 52.83181778,
+        "lonStart": 104.71930716,
+        "latEnd": 52.82429922,
+        "lonEnd": 104.74290862,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 26014
   },
   {
     "type": 17,

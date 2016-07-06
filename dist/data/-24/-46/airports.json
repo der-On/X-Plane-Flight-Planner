@@ -1,55 +1,139 @@
 [
   {
     "type": 1,
-    "icao": "SCSL",
-    "lat": -23.64895,
-    "lon": -45.982799845,
-    "communications": [],
-    "elevation": 7568,
-    "tower": false,
-    "name": "El Salar",
+    "icao": "SBTA",
+    "lat": -23.0401335,
+    "lon": -45.51601,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11990,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 1908,
+    "tower": true,
+    "name": "BASE DE AVIACAO DE TAUBATE",
     "runways": [
       {
         "type": 100,
-        "width": 26.21,
+        "width": 29.87,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": -23.64867229,
-        "lonStart": -68.31637198,
-        "latEnd": -23.64922771,
-        "lonEnd": -68.29452797,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -23.043861,
+        "lonStart": -45.522078,
+        "latEnd": -23.036406,
+        "lonEnd": -45.509942,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 7061
+    "id": 1551
   },
   {
     "type": 1,
-    "icao": "SCSM",
-    "lat": -23.584615499999998,
-    "lon": -45.990648449999995,
+    "icao": "SDIP",
+    "lat": -23.043333330000003,
+    "lon": -45.77555556,
     "communications": [],
-    "elevation": 7567,
+    "elevation": 1913,
     "tower": false,
-    "name": "Minsal",
+    "name": "Fazenda Centro de Voo a Vela Ipua",
     "runways": [
       {
         "type": 100,
-        "width": 17.98,
+        "width": 20.12,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": -23.5846851,
-        "lonStart": -68.396751,
-        "latEnd": -23.5845459,
-        "lonEnd": -68.36867802,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -23.04482644,
+        "lonStart": -45.77804248,
+        "latEnd": -23.04184022,
+        "lonEnd": -45.77306864,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 8134
+  },
+  {
+    "type": 1,
+    "icao": "SBSJ",
+    "lat": -23.228170499999997,
+    "lon": -45.862737499999994,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11850,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11925,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12905,
+        "name": "APP"
+      }
+    ],
+    "elevation": 2120,
+    "tower": true,
+    "name": "Sao Jose Dos Campos",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -23.219683,
+        "lonStart": -45.871933,
+        "latEnd": -23.236658,
+        "lonEnd": -45.853542,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 17279
+    "id": 22981
+  },
+  {
+    "type": 1,
+    "icao": "SDUB",
+    "lat": -23.4409725,
+    "lon": -45.075556,
+    "communications": [],
+    "elevation": 13,
+    "tower": true,
+    "name": "Ubatuba",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -23.442223,
+        "lonStart": -45.080002,
+        "latEnd": -23.439722,
+        "lonEnd": -45.07111,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 25863
   },
   {
     "type": 17,

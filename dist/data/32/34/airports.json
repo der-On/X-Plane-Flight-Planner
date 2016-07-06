@@ -1,201 +1,153 @@
 [
   {
     "type": 1,
-    "icao": "OS73",
-    "lat": 32.786693,
-    "lon": 34.2522415,
+    "icao": "LLHZ",
+    "lat": 32.180553,
+    "lon": 34.834723999999994,
     "communications": [],
-    "elevation": 1213,
-    "tower": false,
-    "name": "AL AL",
+    "elevation": 121,
+    "tower": true,
+    "name": "Herzelia",
     "runways": [
       {
         "type": 100,
-        "width": 28.96,
+        "width": 17.98,
         "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 32.782278,
-        "lonStart": 35.713375,
-        "latEnd": 32.791108,
-        "lonEnd": 35.722553,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 32.18194241,
+        "lonStart": 34.83021374,
+        "latEnd": 32.17916359,
+        "lonEnd": 34.83923426,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 139
+    "id": 11744
   },
   {
     "type": 1,
-    "icao": "OS60",
-    "lat": 32.70520075,
-    "lon": 34.55615825,
-    "communications": [],
-    "elevation": 2459,
-    "tower": false,
-    "name": "AS SUWAYDA WEST",
+    "icao": "LLSD",
+    "lat": 32.114661,
+    "lon": 34.782237499999994,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12290,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12105,
+        "name": "TAMROOR TAXI"
+      },
+      {
+        "type": 54,
+        "frequency": 12525,
+        "name": "TAMROOR TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12525,
+        "name": "TAMROOR APP"
+      }
+    ],
+    "elevation": 43,
+    "tower": true,
+    "name": "Sde Dov",
     "runways": [
       {
         "type": 100,
         "width": 29.87,
         "surfaceType": null,
-        "numberStart": "05L",
-        "numberEnd": "23R",
-        "latStart": 32.698778,
-        "lonStart": 36.398683,
-        "latEnd": 32.713872,
-        "lonEnd": 36.425319,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "05R",
-        "numberEnd": "23L",
-        "latStart": 32.696528,
-        "lonStart": 36.400453,
-        "latEnd": 32.711625,
-        "lonEnd": 36.427094,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 32.107736,
+        "lonStart": 34.777961,
+        "latEnd": 32.121586,
+        "lonEnd": 34.786514,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 419
+    "id": 23183
   },
   {
     "type": 1,
-    "icao": "OJMF",
-    "lat": 32.3564515,
-    "lon": 34.297439999999995,
-    "communications": [],
-    "elevation": 2240,
-    "tower": false,
-    "name": "KING HUSSEIN",
+    "icao": "LLBG",
+    "lat": 32.0098303,
+    "lon": 34.88387610833333,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13250,
+        "name": "ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 11935,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 11805,
+        "name": "GND WEST"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11950,
+        "name": "TMA"
+      }
+    ],
+    "elevation": 134,
+    "tower": true,
+    "name": "Tel Aviv Ben Gurion",
     "runways": [
       {
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 32.365206,
-        "lonStart": 36.247183,
-        "latEnd": 32.347697,
-        "lonEnd": 36.271381,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 13378
-  },
-  {
-    "type": 1,
-    "icao": "LLIB",
-    "lat": 32.98155275,
-    "lon": 34.27386575,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11845,
-        "name": "ROSH PINA TWR"
-      }
-    ],
-    "elevation": 922,
-    "tower": true,
-    "name": "MAHANAIM I BEN YAAKOV",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 32.987161,
-        "lonStart": 35.568119,
-        "latEnd": 32.978425,
-        "lonEnd": 35.573989,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 32.01414502,
+        "lonStart": 34.86694528,
+        "latEnd": 31.99990836,
+        "lonEnd": 34.89423653,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 30.48,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 32.977742,
-        "lonStart": 35.566036,
-        "latEnd": 32.982883,
-        "lonEnd": 35.574464,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 32.01220457,
+        "lonStart": 34.85671029,
+        "latEnd": 32.01867203,
+        "lonEnd": 34.89902606,
         "length": 0,
         "surfacetype": 1
-      }
-    ],
-    "id": 15711
-  },
-  {
-    "type": 1,
-    "icao": "OJHF",
-    "lat": 32.16075,
-    "lon": 34.644673499999996,
-    "communications": [
-      {
-        "type": 55,
-        "frequency": 12890,
-        "name": "AMMAN APP"
       },
       {
-        "type": 55,
-        "frequency": 12150,
-        "name": "AMMAN APP"
-      }
-    ],
-    "elevation": 2220,
-    "tower": false,
-    "name": "PRINCE HASAN",
-    "runways": [
-      {
         "type": 100,
-        "width": 42.67,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 32.169564,
-        "lonStart": 37.137411,
-        "latEnd": 32.151936,
-        "lonEnd": 37.161364,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 31.99598614,
+        "lonStart": 34.88596861,
+        "latEnd": 32.01806568,
+        "lonEnd": 34.90036988,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 19553
-  },
-  {
-    "type": 1,
-    "icao": "OJ38",
-    "lat": 32.025264,
-    "lon": 34.081015,
-    "communications": [],
-    "elevation": 2398,
-    "tower": false,
-    "name": "ZARQA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 32.026817,
-        "lonStart": 36.138319,
-        "latEnd": 32.023711,
-        "lonEnd": 36.151189,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 27836
+    "id": 25137
   }
 ]

@@ -1,52 +1,81 @@
 [
   {
     "type": 1,
-    "icao": "LICR",
-    "lat": 38.07251565,
-    "lon": 26.85467799,
+    "icao": "LGHI",
+    "lat": 38.343175,
+    "lon": 26.140575,
     "communications": [
       {
         "type": 54,
-        "frequency": 11825,
+        "frequency": 12270,
+        "name": "CHIOS TWR"
+      }
+    ],
+    "elevation": 18,
+    "tower": true,
+    "name": "Chios",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 38.336464,
+        "lonStart": 26.139142,
+        "latEnd": 38.349886,
+        "lonEnd": 26.142008,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4935
+  },
+  {
+    "type": 1,
+    "icao": "LTFA",
+    "lat": 38.5166295,
+    "lon": 26.9760515,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12195,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12210,
         "name": "TWR"
       },
       {
         "type": 55,
-        "frequency": 12027,
-        "name": "APP"
+        "frequency": 12010,
+        "name": "MENDERES APP"
+      },
+      {
+        "type": 55,
+        "frequency": 13290,
+        "name": "MENDERES APP"
       }
     ],
-    "elevation": 96,
+    "elevation": 13,
     "tower": true,
-    "name": "Reggio Calabria",
+    "name": "KAKLIC",
     "runways": [
       {
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 38.08070492,
-        "lonStart": 15.64523266,
-        "latEnd": 38.06475219,
-        "lonEnd": 15.65609559,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 38.07513735,
-        "lonStart": 15.63925897,
-        "latEnd": 38.06946814,
-        "lonEnd": 15.65729672,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 38.530167,
+        "lonStart": 26.973844,
+        "latEnd": 38.503092,
+        "lonEnd": 26.978259,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 21322
+    "id": 13186
   }
 ]

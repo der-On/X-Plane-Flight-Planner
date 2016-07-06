@@ -1,129 +1,44 @@
 [
   {
     "type": 1,
-    "icao": "LZBD",
-    "lat": 48.74333912499999,
-    "lon": 35.094421835,
+    "icao": "UKDD",
+    "lat": 48.357222,
+    "lon": 35.100556,
     "communications": [
       {
-        "type": 51,
-        "frequency": 12220,
-        "name": "TRAFFIC"
-      }
-    ],
-    "elevation": 983,
-    "tower": true,
-    "name": "Bidovce",
-    "runways": [
-      {
-        "type": 100,
-        "width": 35.05,
-        "surfaceType": null,
-        "numberStart": "17L",
-        "numberEnd": "35R",
-        "latStart": 48.74618554,
-        "lonStart": 21.44746608,
-        "latEnd": 48.74144776,
-        "lonEnd": 21.44917079,
-        "length": 0,
-        "surfacetype": 3
+        "type": 53,
+        "frequency": 12180,
+        "name": "GND"
       },
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "17R",
-        "numberEnd": "35L",
-        "latStart": 48.74460841,
-        "lonStart": 21.44765871,
-        "latEnd": 48.74111479,
-        "lonEnd": 21.44893595,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 2676
-  },
-  {
-    "type": 1,
-    "icao": "LZKC",
-    "lat": 48.9368911375,
-    "lon": 35.4631514025,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12260,
-        "name": "INFO"
-      }
-    ],
-    "elevation": 566,
-    "tower": true,
-    "name": "HUMENNE - Kamenica nad Cirochou",
-    "runways": [
-      {
-        "type": 100,
-        "width": 70.1,
-        "surfaceType": null,
-        "numberStart": "07R",
-        "numberEnd": "25L",
-        "latStart": 48.93559028,
-        "lonStart": 21.9884804,
-        "latEnd": 48.93766903,
-        "lonEnd": 22.0001197,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "07L",
-        "numberEnd": "25R",
-        "latStart": 48.93611371,
-        "lonStart": 21.98826465,
-        "latEnd": 48.93819153,
-        "lonEnd": 21.99990067,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11241
-  },
-  {
-    "type": 1,
-    "icao": "UKLU",
-    "lat": 48.634277499999996,
-    "lon": 35.441018,
-    "communications": [
       {
         "type": 54,
-        "frequency": 13450,
+        "frequency": 11860,
         "name": "TWR"
       },
       {
         "type": 55,
-        "frequency": 12190,
-        "name": "APP"
+        "frequency": 11940,
+        "name": "RADAR"
       }
     ],
-    "elevation": 383,
+    "elevation": 481,
     "tower": true,
-    "name": "UZHHOROD INTL",
+    "name": "Dnipropetrovsk Intl",
     "runways": [
       {
         "type": 100,
-        "width": 39.93,
+        "width": 43.89,
         "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 48.636397,
-        "lonStart": 22.249878,
-        "latEnd": 48.632158,
-        "lonEnd": 22.276833,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 48.357222,
+        "lonStart": 35.08125768,
+        "latEnd": 48.357222,
+        "lonEnd": 35.11985432,
         "length": 0,
         "surfacetype": 2
       }
     ],
-    "id": 25856
+    "id": 6323
   }
 ]

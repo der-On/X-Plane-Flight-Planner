@@ -1,5 +1,506 @@
 [
   {
+    "type": 1,
+    "icao": "2AK1",
+    "lat": 64.36373916,
+    "lon": -147.36375806,
+    "communications": [],
+    "elevation": 910,
+    "tower": false,
+    "name": "Blair Lake",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 64.36583626,
+        "lonStart": -147.36392732,
+        "latEnd": 64.36164206,
+        "lonEnd": -147.3635888,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 2814
+  },
+  {
+    "type": 1,
+    "icao": "95Z",
+    "lat": 64.75922222,
+    "lon": -147.38763889,
+    "communications": [],
+    "elevation": 482,
+    "tower": false,
+    "name": "Bradley Sky-Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 64.76483094,
+        "lonStart": -147.3880982,
+        "latEnd": 64.7536135,
+        "lonEnd": -147.38717958,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 101,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 64.76261758,
+        "lonStart": -147.38651985,
+        "latEnd": 64.75582686,
+        "lonEnd": -147.38875793,
+        "length": 0
+      }
+    ],
+    "id": 3098
+  },
+  {
+    "type": 1,
+    "icao": "AK28",
+    "lat": 64.81402777,
+    "lon": -147.91855556000002,
+    "communications": [],
+    "elevation": 426,
+    "tower": false,
+    "name": "Chena Marina",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 64.8197712,
+        "lonStart": -147.91167888,
+        "latEnd": 64.80828434,
+        "lonEnd": -147.92543224,
+        "length": 0,
+        "surfacetype": 5
+      },
+      {
+        "type": 101,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 64.81840905,
+        "lonStart": -147.91079743,
+        "latEnd": 64.80964649,
+        "lonEnd": -147.92631369,
+        "length": 0
+      }
+    ],
+    "id": 4861
+  },
+  {
+    "type": 1,
+    "icao": "2AK2",
+    "lat": 64.45345861000001,
+    "lon": -147.56349195,
+    "communications": [],
+    "elevation": 660,
+    "tower": false,
+    "name": "Clear Creek",
+    "runways": [
+      {
+        "type": 100,
+        "width": 57.91,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 64.45852985,
+        "lonStart": -147.56824311,
+        "latEnd": 64.44838737,
+        "lonEnd": -147.55874079,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5073
+  },
+  {
+    "type": 1,
+    "icao": "31AK",
+    "lat": 64.83290776999999,
+    "lon": -147.42464334,
+    "communications": [],
+    "elevation": 450,
+    "tower": false,
+    "name": "Dalrymples",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 64.8327929,
+        "lonStart": -147.43237878,
+        "latEnd": 64.83302264,
+        "lonEnd": -147.4169079,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5970
+  },
+  {
+    "type": 1,
+    "icao": "PAEI",
+    "lat": 64.66566499999999,
+    "lon": -147.10151100000002,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11927,
+        "name": "ASOS"
+      },
+      {
+        "type": 50,
+        "frequency": 11852,
+        "name": "ASOS"
+      },
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12530,
+        "name": "RANGE CON"
+      },
+      {
+        "type": 54,
+        "frequency": 12720,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12535,
+        "name": "FAIRBANKS APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12650,
+        "name": "FAIRBANKS APP"
+      },
+      {
+        "type": 56,
+        "frequency": 12650,
+        "name": "FAIRBANKS DEP"
+      }
+    ],
+    "elevation": 548,
+    "tower": true,
+    "name": "EIELSON AFB",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 64.684022,
+        "lonStart": -147.119025,
+        "latEnd": 64.647308,
+        "lonEnd": -147.083997,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 6670
+  },
+  {
+    "type": 1,
+    "icao": "PAFA",
+    "lat": 64.81390883333333,
+    "lon": -147.85539216666666,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11902,
+        "name": "ASOS"
+      },
+      {
+        "type": 50,
+        "frequency": 11927,
+        "name": "ASOS"
+      },
+      {
+        "type": 50,
+        "frequency": 12440,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 12760,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12650,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 11860,
+        "name": "APP"
+      },
+      {
+        "type": 56,
+        "frequency": 12650,
+        "name": "DEP"
+      },
+      {
+        "type": 56,
+        "frequency": 12535,
+        "name": "DEP"
+      }
+    ],
+    "elevation": 434,
+    "tower": true,
+    "name": "FAIRBANKS INTL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "01L",
+        "numberEnd": "19R",
+        "latStart": 64.802631,
+        "lonStart": -147.885889,
+        "latEnd": 64.828033,
+        "lonEnd": -147.839214,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "01R",
+        "numberEnd": "19L",
+        "latStart": 64.800222,
+        "lonStart": -147.875656,
+        "latEnd": 64.814214,
+        "lonEnd": -147.84995,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 64.816056,
+        "lonStart": -147.846561,
+        "latEnd": 64.822297,
+        "lonEnd": -147.835083,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 7389
+  },
+  {
+    "type": 1,
+    "icao": "32AK",
+    "lat": 64.9109565,
+    "lon": -147.9068255,
+    "communications": [],
+    "elevation": 639,
+    "tower": false,
+    "name": "Hardrock Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 64.912797,
+        "lonStart": -147.905538,
+        "latEnd": 64.909116,
+        "lonEnd": -147.908113,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 11438
+  },
+  {
+    "type": 1,
+    "icao": "5AK2",
+    "lat": 64.73068666,
+    "lon": -147.34768667,
+    "communications": [],
+    "elevation": 490,
+    "tower": false,
+    "name": "Howards",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 64.7306005,
+        "lonStart": -147.35346632,
+        "latEnd": 64.73077282,
+        "lonEnd": -147.34190702,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 12114
+  },
+  {
+    "type": 1,
+    "icao": "PAFB",
+    "lat": 64.837614,
+    "lon": -147.614535,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13425,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12500,
+        "name": "CTAF"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12500,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12535,
+        "name": "FAIRBANKS APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12650,
+        "name": "FAIRBANKS APP"
+      },
+      {
+        "type": 56,
+        "frequency": 12535,
+        "name": "FAIRBANKS DEP"
+      }
+    ],
+    "elevation": 454,
+    "tower": true,
+    "name": "LADD AAF",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 64.837417,
+        "lonStart": -147.642003,
+        "latEnd": 64.837811,
+        "lonEnd": -147.587067,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14303
+  },
+  {
+    "type": 1,
+    "icao": "MTF",
+    "lat": 64.8067875,
+    "lon": -147.76242200000002,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 11830,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 432,
+    "tower": false,
+    "name": "Metro Fld",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 64.806392,
+        "lonStart": -147.777147,
+        "latEnd": 64.807183,
+        "lonEnd": -147.747697,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17108
+  },
+  {
+    "type": 1,
+    "icao": "5AK3",
+    "lat": 64.77318722000001,
+    "lon": -147.33380223,
+    "communications": [],
+    "elevation": 479,
+    "tower": false,
+    "name": "Wrights",
+    "runways": [
+      {
+        "type": 100,
+        "width": 13.72,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 64.77668239,
+        "lonStart": -147.33408861,
+        "latEnd": 64.76969205,
+        "lonEnd": -147.33351585,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 27587
+  },
+  {
     "type": 17,
     "icao": "1AK9",
     "lat": 64.820801,
@@ -23,5 +524,42 @@
       }
     ],
     "id": 33421
+  },
+  {
+    "type": 16,
+    "icao": "2Z5",
+    "lat": 64.83289944,
+    "lon": -147.84825834,
+    "communications": [],
+    "elevation": 438,
+    "tower": false,
+    "name": "[S] Chena River",
+    "runways": [
+      {
+        "type": 101,
+        "width": 91.44,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 64.83483107,
+        "lonStart": -147.85680103,
+        "latEnd": 64.83096781,
+        "lonEnd": -147.83971565,
+        "length": 0
+      },
+      {
+        "type": 101,
+        "width": 91.44,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 64.83895421,
+        "lonStart": -147.84068796,
+        "latEnd": 64.82684467,
+        "lonEnd": -147.85582872,
+        "length": 0
+      }
+    ],
+    "id": 34035
   }
 ]

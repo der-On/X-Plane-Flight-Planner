@@ -1,24 +1,29 @@
 [
   {
     "type": 1,
-    "icao": "LGAG",
-    "lat": 38.602070499999996,
-    "lon": 29.9676805,
+    "icao": "LTBO",
+    "lat": 38.6814775,
+    "lon": 29.471674999999998,
     "communications": [
       {
         "type": 54,
-        "frequency": 12365,
+        "frequency": 12170,
         "name": "TWR"
       },
       {
         "type": 54,
-        "frequency": 12210,
+        "frequency": 12142,
         "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 13205,
+        "name": "MENDERES APP"
       }
     ],
-    "elevation": 153,
+    "elevation": 2897,
     "tower": true,
-    "name": "AGRINION",
+    "name": "USAK",
     "runways": [
       {
         "type": 100,
@@ -26,153 +31,14 @@
         "surfaceType": null,
         "numberStart": "09",
         "numberEnd": "27",
-        "latStart": 38.602733,
-        "lonStart": 21.333953,
-        "latEnd": 38.601408,
-        "lonEnd": 21.368431,
+        "latStart": 38.681669,
+        "lonStart": 29.456992,
+        "latEnd": 38.681286,
+        "lonEnd": 29.486358,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
       }
     ],
-    "id": 93
-  },
-  {
-    "type": 1,
-    "icao": "LGPZ",
-    "lat": 38.925465,
-    "lon": 29.840154,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12210,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12045,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12045,
-        "name": "APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12210,
-        "name": "APP"
-      }
-    ],
-    "elevation": 11,
-    "tower": true,
-    "name": "AKTIO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "07L",
-        "numberEnd": "25R",
-        "latStart": 38.920597,
-        "lonStart": 20.749975,
-        "latEnd": 38.930333,
-        "lonEnd": 20.780647,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 132
-  },
-  {
-    "type": 1,
-    "icao": "LGRX",
-    "lat": 38.151093,
-    "lon": 29.78172,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12525,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12210,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12065,
-        "name": "ANDRAVIDA APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12210,
-        "name": "ANDRAVIDA APP"
-      }
-    ],
-    "elevation": 45,
-    "tower": true,
-    "name": "ARAXOS",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "18L",
-        "numberEnd": "36R",
-        "latStart": 38.166153,
-        "lonStart": 21.428314,
-        "latEnd": 38.135997,
-        "lonEnd": 21.426178,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "18R",
-        "numberEnd": "36L",
-        "latStart": 38.166189,
-        "lonStart": 21.426536,
-        "latEnd": 38.136033,
-        "lonEnd": 21.424575,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 365
-  },
-  {
-    "type": 1,
-    "icao": "LGKF",
-    "lat": 38.1200695,
-    "lon": 29.30187625,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12225,
-        "name": "AFIS INFO"
-      }
-    ],
-    "elevation": 59,
-    "tower": true,
-    "name": "Kefallinia",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 38.129175,
-        "lonStart": 20.4927885,
-        "latEnd": 38.110964,
-        "lonEnd": 20.50816958,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 13694
+    "id": 25838
   }
 ]

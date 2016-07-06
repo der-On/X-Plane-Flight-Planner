@@ -1,52 +1,28 @@
 [
   {
     "type": 1,
-    "icao": "EGPO",
-    "lat": 58.214495745,
-    "lon": 25.9377985775,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12350,
-        "name": "Stornoway Tower"
-      },
-      {
-        "type": 55,
-        "frequency": 12350,
-        "name": "Stornoway Approach"
-      }
-    ],
-    "elevation": 26,
-    "tower": true,
-    "name": "Stornoway",
+    "icao": "EEVI",
+    "lat": 58.34834722,
+    "lon": 25.49475014,
+    "communications": [],
+    "elevation": 250,
+    "tower": false,
+    "name": "VILJANDI",
     "runways": [
       {
         "type": 100,
-        "width": 46.02,
+        "width": 30,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 58.224325,
-        "lonStart": -6.332725,
-        "latEnd": 58.205792,
-        "lonEnd": -6.329203,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 58.34608333,
+        "lonStart": 25.4894725,
+        "latEnd": 58.35061111,
+        "lonEnd": 25.50002778,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 58.21147198,
-        "lonStart": -6.33826669,
-        "latEnd": 58.216394,
-        "lonEnd": -6.322189,
-        "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 24242
+    "id": 26096
   }
 ]

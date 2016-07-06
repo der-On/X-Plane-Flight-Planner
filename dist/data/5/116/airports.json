@@ -1,0 +1,80 @@
+[
+  {
+    "type": 1,
+    "icao": "WBKG",
+    "lat": 5.355687365,
+    "lon": 116.16481146,
+    "communications": [],
+    "elevation": 1040,
+    "tower": false,
+    "name": "Keningau",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.08,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 5.35954193,
+        "lonStart": 116.1640238,
+        "latEnd": 5.3518328,
+        "lonEnd": 116.16559912,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13754
+  },
+  {
+    "type": 1,
+    "icao": "WBKK",
+    "lat": 5.9372085000000006,
+    "lon": 116.0511805,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12740,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12160,
+        "name": "KINABALU GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "KINABALU TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 13330,
+        "name": "KINABALU"
+      },
+      {
+        "type": 55,
+        "frequency": 11910,
+        "name": "KINABALU APP"
+      }
+    ],
+    "elevation": 10,
+    "tower": true,
+    "name": "Kota Kinabalu Intl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 5.924778,
+        "lonStart": 116.045944,
+        "latEnd": 5.949639,
+        "lonEnd": 116.056417,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14097
+  }
+]

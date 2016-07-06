@@ -1,62 +1,107 @@
 [
   {
     "type": 1,
-    "icao": "LMML",
-    "lat": 35.8494770475,
-    "lon": 25.1582390975,
+    "icao": "LGIR",
+    "lat": 35.339487166666665,
+    "lon": 25.180120333333335,
     "communications": [
       {
         "type": 50,
-        "frequency": 12740,
+        "frequency": 12755,
         "name": "ATIS"
       },
       {
-        "type": 52,
-        "frequency": 13390,
-        "name": "APRON"
+        "type": 53,
+        "frequency": 12170,
+        "name": "KAZANTZAKIS GND"
       },
       {
         "type": 54,
-        "frequency": 13510,
-        "name": "TWR"
+        "frequency": 12210,
+        "name": "KAZANTZAKIS TWR"
       },
       {
         "type": 55,
-        "frequency": 12815,
-        "name": "APP"
+        "frequency": 12397,
+        "name": "IRAKLION RADAR"
       }
     ],
-    "elevation": 299,
+    "elevation": 115,
     "tower": true,
-    "name": "La Valette Luqa",
+    "name": "Iraklion - Nizos Kazantzakis",
     "runways": [
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 35.85645167,
-        "lonStart": 14.47886019,
-        "latEnd": 35.83396873,
-        "lonEnd": 14.50675119,
-        "length": 0,
-        "surfacetype": 1
-      },
       {
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "6",
-        "numberEnd": "24",
-        "latStart": 35.84752481,
-        "lonStart": 14.46016449,
-        "latEnd": 35.85996298,
-        "lonEnd": 14.48156742,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 35.341042,
+        "lonStart": 25.161183,
+        "latEnd": 35.339014,
+        "lonEnd": 25.190489,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 35.343883,
+        "lonStart": 25.173342,
+        "latEnd": 35.335556,
+        "lonEnd": 25.187253,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 35.342286,
+        "lonStart": 25.184258,
+        "latEnd": 35.335142,
+        "lonEnd": 25.184197,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 14745
+    "id": 12542
+  },
+  {
+    "type": 1,
+    "icao": "LGTL",
+    "lat": 35.1920205,
+    "lon": 25.326999999999998,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 1180,
+    "tower": true,
+    "name": "KASTELI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 35.179333,
+        "lonStart": 25.321456,
+        "latEnd": 35.204708,
+        "lonEnd": 25.332544,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 13262
   }
 ]

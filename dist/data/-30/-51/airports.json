@@ -1,29 +1,107 @@
 [
   {
     "type": 1,
-    "icao": "SCEC",
-    "lat": -29.1447475,
-    "lon": -50.014921,
+    "icao": "SSBZ",
+    "lat": -29.67611111,
+    "lon": -50.981388890000005,
     "communications": [],
-    "elevation": 3678,
+    "elevation": 56,
     "tower": false,
-    "name": "PELICANO",
+    "name": "Aeroclube",
     "runways": [
       {
         "type": 100,
-        "width": 30.48,
+        "width": 29.87,
         "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": -29.150192,
-        "lonStart": -70.890539,
-        "latEnd": -29.139303,
-        "lonEnd": -70.885061,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": -29.67960372,
+        "lonStart": -50.9829366,
+        "latEnd": -29.6726185,
+        "lonEnd": -50.97984118,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 630
+  },
+  {
+    "type": 1,
+    "icao": "SSCN",
+    "lat": -29.3702405,
+    "lon": -50.831961,
+    "communications": [],
+    "elevation": 2723,
+    "tower": true,
+    "name": "Canela",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -29.374,
+        "lonStart": -50.836858,
+        "latEnd": -29.366481,
+        "lonEnd": -50.827064,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 19286
+    "id": 4457
+  },
+  {
+    "type": 1,
+    "icao": "SSKK",
+    "lat": -29.76361111,
+    "lon": -50.03694444,
+    "communications": [],
+    "elevation": 33,
+    "tower": false,
+    "name": "Capao da Canoa",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.13,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -29.76521862,
+        "lonStart": -50.04014061,
+        "latEnd": -29.7620036,
+        "lonEnd": -50.03374827,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4488
+  },
+  {
+    "type": 1,
+    "icao": "SSOS",
+    "lat": -29.90222222,
+    "lon": -50.250555565,
+    "communications": [],
+    "elevation": 39,
+    "tower": false,
+    "name": "Osorio",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -29.90280936,
+        "lonStart": -50.25570883,
+        "latEnd": -29.90163508,
+        "lonEnd": -50.2454023,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 19063
   },
   {
     "type": 17,

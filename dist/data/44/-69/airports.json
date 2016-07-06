@@ -1,5 +1,402 @@
 [
   {
+    "type": 1,
+    "icao": "KBGR",
+    "lat": 44.8066948,
+    "lon": -68.82416883333333,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12775,
+        "name": "ASOS"
+      },
+      {
+        "type": 50,
+        "frequency": 12775,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 13590,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12070,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12450,
+        "name": "APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 11892,
+        "name": "APP/DEP"
+      }
+    ],
+    "elevation": 190,
+    "tower": true,
+    "name": "BANGOR INTL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 44.818372,
+        "lonStart": -68.843931,
+        "latEnd": 44.796503,
+        "lonEnd": -68.812322,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 44.8052094,
+        "lonStart": -68.8162535,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 1500
+  },
+  {
+    "type": 1,
+    "icao": "ME84",
+    "lat": 44.16535944,
+    "lon": -68.42779639,
+    "communications": [],
+    "elevation": 100,
+    "tower": false,
+    "name": "Banks",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 44.16468967,
+        "lonStart": -68.43050804,
+        "latEnd": 44.16602921,
+        "lonEnd": -68.42508474,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 2195
+  },
+  {
+    "type": 1,
+    "icao": "07B",
+    "lat": 44.44591,
+    "lon": -68.56613417,
+    "communications": [],
+    "elevation": 359,
+    "tower": false,
+    "name": "Blue Hill",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 44.44932071,
+        "lonStart": -68.57000291,
+        "latEnd": 44.44249929,
+        "lonEnd": -68.56226543,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 2856
+  },
+  {
+    "type": 1,
+    "icao": "0B2",
+    "lat": 44.76368277,
+    "lon": -68.76781362,
+    "communications": [],
+    "elevation": 124,
+    "tower": false,
+    "name": "Brewer",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 44.76124448,
+        "lonStart": -68.76726971,
+        "latEnd": 44.76612106,
+        "lonEnd": -68.76835753,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3178
+  },
+  {
+    "type": 1,
+    "icao": "KOLD",
+    "lat": 44.95244175,
+    "lon": -68.6742245,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12450,
+        "name": "BANGOR APP/DEP"
+      }
+    ],
+    "elevation": 126,
+    "tower": false,
+    "name": "DEWITT FLD OLD TOWN MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 44.953658,
+        "lonStart": -68.682767,
+        "latEnd": 44.952411,
+        "lonEnd": -68.667422,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 44.947781,
+        "lonStart": -68.675667,
+        "latEnd": 44.955917,
+        "lonEnd": -68.671042,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5775
+  },
+  {
+    "type": 1,
+    "icao": "KBHB",
+    "lat": 44.449529909999995,
+    "lon": -68.36103690249999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11802,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 11990,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 55,
+        "frequency": 12450,
+        "name": "BANGOR APP/DEP"
+      }
+    ],
+    "elevation": 83,
+    "tower": false,
+    "name": "Hancock Co Bar Harbor",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 44.44386618,
+        "lonStart": -68.36728632,
+        "latEnd": 44.45684089,
+        "lonEnd": -68.35898651,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 44.45267251,
+        "lonStart": -68.36219701,
+        "latEnd": 44.44474006,
+        "lonEnd": -68.35567777,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11384
+  },
+  {
+    "type": 1,
+    "icao": "57B",
+    "lat": 44.302454999999995,
+    "lon": -68.910609,
+    "communications": [],
+    "elevation": 92,
+    "tower": false,
+    "name": "Islesboro",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 44.299243,
+        "lonStart": -68.909639,
+        "latEnd": 44.305667,
+        "lonEnd": -68.911579,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12581
+  },
+  {
+    "type": 1,
+    "icao": "ME55",
+    "lat": 44.0736925,
+    "lon": -68.81891973,
+    "communications": [],
+    "elevation": 72,
+    "tower": false,
+    "name": "Mary Talbot Meml Airfield",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 44.07184727,
+        "lonStart": -68.82022838,
+        "latEnd": 44.07553773,
+        "lonEnd": -68.81761108,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 16766
+  },
+  {
+    "type": 1,
+    "icao": "93B",
+    "lat": 44.175080550000004,
+    "lon": -68.67863722999999,
+    "communications": [],
+    "elevation": 30,
+    "tower": false,
+    "name": "Stonington Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 44.17330737,
+        "lonStart": -68.68180166,
+        "latEnd": 44.17685373,
+        "lonEnd": -68.6754728,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 24234
+  },
+  {
+    "type": 1,
+    "icao": "ME40",
+    "lat": 44.17785777,
+    "lon": -68.83475278,
+    "communications": [],
+    "elevation": 101,
+    "tower": false,
+    "name": "Watson",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 44.18177086,
+        "lonStart": -68.83652561,
+        "latEnd": 44.17394468,
+        "lonEnd": -68.83297995,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 26977
+  },
+  {
+    "type": 1,
+    "icao": "ME41",
+    "lat": 44.15258,
+    "lon": -68.87642084000001,
+    "communications": [],
+    "elevation": 80,
+    "tower": false,
+    "name": "Witherspoons",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 44.15130422,
+        "lonStart": -68.87732683,
+        "latEnd": 44.15385578,
+        "lonEnd": -68.87551485,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 27473
+  },
+  {
     "type": 17,
     "icao": "ME02",
     "lat": 44.80701527,
@@ -23,5 +420,42 @@
       }
     ],
     "id": 29544
+  },
+  {
+    "type": 16,
+    "icao": "ME27",
+    "lat": 44.90090222,
+    "lon": -68.80225834,
+    "communications": [],
+    "elevation": 115,
+    "tower": false,
+    "name": "[S] Double A",
+    "runways": [
+      {
+        "type": 101,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 44.89866965,
+        "lonStart": -68.81141207,
+        "latEnd": 44.90313479,
+        "lonEnd": -68.79310461,
+        "length": 0
+      },
+      {
+        "type": 101,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 44.91289754,
+        "lonStart": -68.81164539,
+        "latEnd": 44.8889069,
+        "lonEnd": -68.79287129,
+        "length": 0
+      }
+    ],
+    "id": 34070
   }
 ]

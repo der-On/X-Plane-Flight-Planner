@@ -1,0 +1,70 @@
+[
+  {
+    "type": 1,
+    "icao": "NZMO",
+    "lat": -45.532893,
+    "lon": 167.65319499999998,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12800,
+        "name": "QUEENSTOWN FSS"
+      },
+      {
+        "type": 53,
+        "frequency": 12875,
+        "name": "MANAPOURI GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11850,
+        "name": "MANAPOURI TWR"
+      }
+    ],
+    "elevation": 687,
+    "tower": true,
+    "name": "Manapouri-Te_Anau",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -45.531393,
+        "lonStart": 167.64314,
+        "latEnd": -45.534393,
+        "lonEnd": 167.66325,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16568
+  },
+  {
+    "type": 1,
+    "icao": "NZTZ",
+    "lat": -45.4636536,
+    "lon": 167.7016602,
+    "communications": [],
+    "elevation": 786,
+    "tower": false,
+    "name": "Te Anau",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.02,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -45.46036801,
+        "lonStart": 167.70174197,
+        "latEnd": -45.46693919,
+        "lonEnd": 167.70157843,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25118
+  }
+]

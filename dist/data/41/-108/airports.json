@@ -1,5 +1,92 @@
 [
   {
+    "type": 1,
+    "icao": "KDWX",
+    "lat": 41.037433164999996,
+    "lon": -107.49254976,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11942,
+        "name": "AWOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 6520,
+    "tower": false,
+    "name": "DIXON",
+    "runways": [
+      {
+        "type": 100,
+        "width": 23,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 41.03429798,
+        "lonStart": -107.5045463,
+        "latEnd": 41.04056835,
+        "lonEnd": -107.48055322,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5822
+  },
+  {
+    "type": 1,
+    "icao": "KRWL",
+    "lat": 41.805702915,
+    "lon": -107.200492635,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11852,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 6812,
+    "tower": false,
+    "name": "RAWLINS MUNI HARVEY FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 41.80007205,
+        "lonStart": -107.21018449,
+        "latEnd": 41.81135955,
+        "lonEnd": -107.18937293,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 18,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 41.80819705,
+        "lonStart": -107.20838639,
+        "latEnd": 41.80318301,
+        "lonEnd": -107.19402673,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20859
+  },
+  {
     "type": 17,
     "icao": "WY68",
     "lat": 41.78718055,

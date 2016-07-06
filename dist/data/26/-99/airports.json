@@ -1,5 +1,444 @@
 [
   {
+    "type": 1,
+    "icao": "XS93",
+    "lat": 26.7169995,
+    "lon": -98.55863099999999,
+    "communications": [],
+    "elevation": 420,
+    "tower": false,
+    "name": "DIAMOND O RANCH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 26.721133,
+        "lonStart": -98.563234,
+        "latEnd": 26.712866,
+        "lonEnd": -98.554028,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5792
+  },
+  {
+    "type": 1,
+    "icao": "KEBG",
+    "lat": 26.44322751333333,
+    "lon": -98.12271817666668,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11802,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12100,
+        "name": "CORPUS APP DEP"
+      }
+    ],
+    "elevation": 75,
+    "tower": false,
+    "name": "EDINBURG INTL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 26.44723561,
+        "lonStart": -98.126736,
+        "latEnd": 26.436117,
+        "lonEnd": -98.11771276,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 25,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 26.44632993,
+        "lonStart": -98.12370577,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 26.4
+      }
+    ],
+    "id": 6650
+  },
+  {
+    "type": 1,
+    "icao": "2TA8",
+    "lat": 26.859305499999998,
+    "lon": -98.222083,
+    "communications": [],
+    "elevation": 183,
+    "tower": false,
+    "name": "EL COYOTE RANCH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 26.864444,
+        "lonStart": -98.228333,
+        "latEnd": 26.854167,
+        "lonEnd": -98.215833,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 6686
+  },
+  {
+    "type": 1,
+    "icao": "MMRX",
+    "lat": 26.008907,
+    "lon": -98.2285135,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 11880,
+        "name": "REYNOSA APP/TWR"
+      }
+    ],
+    "elevation": 139,
+    "tower": true,
+    "name": "GENERAL LUCIO BLANCO INTL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 26.015558,
+        "lonStart": -98.234497,
+        "latEnd": 26.002256,
+        "lonEnd": -98.22253,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 9941
+  },
+  {
+    "type": 1,
+    "icao": "7TE7",
+    "lat": 26.386935166666664,
+    "lon": -98.34064183333334,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "UNICOM"
+      }
+    ],
+    "elevation": 219,
+    "tower": false,
+    "name": "MOORE FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 91.44,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 26.393828,
+        "lonStart": -98.342078,
+        "latEnd": 26.382222,
+        "lonEnd": -98.333056,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 91.44,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 26.384722,
+        "lonStart": -98.348094,
+        "latEnd": 26.382222,
+        "lonEnd": -98.333056,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 91.44,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 26.396186,
+        "lonStart": -98.344061,
+        "latEnd": 26.382431,
+        "lonEnd": -98.343506,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 16240
+  },
+  {
+    "type": 1,
+    "icao": "KMFE",
+    "lat": 26.17620419,
+    "lon": -98.2378674,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12850,
+        "name": "ASOS"
+      },
+      {
+        "type": 50,
+        "frequency": 12850,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 11850,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11850,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12100,
+        "name": "VALLEY APP/DEP"
+      }
+    ],
+    "elevation": 106,
+    "tower": true,
+    "name": "Mc Allen Miller Intl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 26.18288844,
+        "lonStart": -98.24629939,
+        "latEnd": 26.16775744,
+        "lonEnd": -98.23251339,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 26.18067144,
+        "lonStart": -98.23571841,
+        "latEnd": 26.17349944,
+        "lonEnd": -98.23693841,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16878
+  },
+  {
+    "type": 1,
+    "icao": "43TX",
+    "lat": 26.153130830000002,
+    "lon": -98.13500834000001,
+    "communications": [],
+    "elevation": 91,
+    "tower": false,
+    "name": "Mid-Valley Dusters Inc",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 26.15471887,
+        "lonStart": -98.1373561,
+        "latEnd": 26.15154279,
+        "lonEnd": -98.13266058,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17147
+  },
+  {
+    "type": 1,
+    "icao": "6T1",
+    "lat": 26.36145777,
+    "lon": -98.15250945,
+    "communications": [],
+    "elevation": 89,
+    "tower": false,
+    "name": "Norman & White",
+    "runways": [
+      {
+        "type": 100,
+        "width": 91.44,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 26.36212634,
+        "lonStart": -98.15858646,
+        "latEnd": 26.3607892,
+        "lonEnd": -98.14643244,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18416
+  },
+  {
+    "type": 1,
+    "icao": "08TS",
+    "lat": 26.887828329999998,
+    "lon": -98.50723862000001,
+    "communications": [],
+    "elevation": 420,
+    "tower": false,
+    "name": "Puesta Del Sol",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 26.89212071,
+        "lonStart": -98.50928147,
+        "latEnd": 26.88353595,
+        "lonEnd": -98.50519577,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 20604
+  },
+  {
+    "type": 1,
+    "icao": "XS19",
+    "lat": 26.20618416,
+    "lon": -98.40112834,
+    "communications": [],
+    "elevation": 115,
+    "tower": false,
+    "name": "Putz",
+    "runways": [
+      {
+        "type": 100,
+        "width": 6.1,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 26.20848462,
+        "lonStart": -98.40279343,
+        "latEnd": 26.2038837,
+        "lonEnd": -98.39946325,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20644
+  },
+  {
+    "type": 1,
+    "icao": "67R",
+    "lat": 26.4232375,
+    "lon": -98.8457045,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 290,
+    "tower": false,
+    "name": "RIO GRANDE CITY MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 26.428456,
+        "lonStart": -98.847642,
+        "latEnd": 26.418019,
+        "lonEnd": -98.843767,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20949
+  },
+  {
+    "type": 1,
+    "icao": "38XS",
+    "lat": 26.8151945,
+    "lon": -98.479278,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "UNICOM"
+      }
+    ],
+    "elevation": 312,
+    "tower": false,
+    "name": "SAN RAFAEL RANCH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 26.822025,
+        "lonStart": -98.48444,
+        "latEnd": 26.808364,
+        "lonEnd": -98.474116,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22004
+  },
+  {
     "type": 17,
     "icao": "92TX",
     "lat": 26.41673388,

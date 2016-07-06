@@ -1,106 +1,112 @@
 [
   {
     "type": 1,
-    "icao": "OS64",
-    "lat": 33.919129,
-    "lon": 35.392158,
-    "communications": [],
-    "elevation": 2727,
-    "tower": false,
-    "name": "AN NASIRIYAH",
-    "runways": [
+    "icao": "OLBA",
+    "lat": 33.82053283333333,
+    "lon": 35.4877855,
+    "communications": [
       {
-        "type": 100,
-        "width": 43.89,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 33.909311,
-        "lonStart": 36.855369,
-        "latEnd": 33.928947,
-        "lonEnd": 36.877858,
-        "length": 0,
-        "surfacetype": 1
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11890,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11930,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12030,
+        "name": "APP"
       }
     ],
-    "id": 284
-  },
-  {
-    "type": 1,
-    "icao": "OS61",
-    "lat": 33.609275749999995,
-    "lon": 35.175939,
-    "communications": [],
-    "elevation": 2060,
-    "tower": false,
-    "name": "DUMAYR",
+    "elevation": 86,
+    "tower": true,
+    "name": "Beyrouth Rafic Hariri Intl",
     "runways": [
       {
         "type": 100,
-        "width": 44.81,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "06L",
-        "numberEnd": "24R",
-        "latStart": 33.603517,
-        "lonStart": 36.733753,
-        "latEnd": 33.615728,
-        "lonEnd": 36.764156,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 33.798186,
+        "lonStart": 35.480858,
+        "latEnd": 33.826936,
+        "lonEnd": 35.503117,
         "length": 0,
         "surfacetype": 2
       },
       {
         "type": 100,
-        "width": 50.29,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "06R",
-        "numberEnd": "24L",
-        "latStart": 33.60435,
-        "lonStart": 36.740767,
-        "latEnd": 33.613508,
-        "lonEnd": 36.763767,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 33.840058,
+        "lonStart": 35.478897,
+        "latEnd": 33.8105,
+        "lonEnd": 35.487833,
         "length": 0,
-        "surfacetype": 4
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 33.838206,
+        "lonStart": 35.487086,
+        "latEnd": 33.809311,
+        "lonEnd": 35.488922,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "id": 5899
+    "id": 2655
   },
   {
     "type": 1,
-    "icao": "OS68",
-    "lat": 33.682407500000004,
-    "lon": 35.4427145,
-    "communications": [],
-    "elevation": 2300,
-    "tower": false,
-    "name": "SAYQAL",
+    "icao": "OLRA",
+    "lat": 33.850772,
+    "lon": 35.987742,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12070,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11970,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 3018,
+    "tower": true,
+    "name": "RAYAK",
     "runways": [
       {
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 33.679717,
-        "lonStart": 37.200739,
-        "latEnd": 33.679994,
-        "lonEnd": 37.233017,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 33.841519,
+        "lonStart": 35.976153,
+        "latEnd": 33.860025,
+        "lonEnd": 35.999331,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 33.679147,
-        "lonStart": 37.199353,
-        "latEnd": 33.690772,
-        "lonEnd": 37.222478,
-        "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
       }
     ],
-    "id": 22105
+    "id": 20862
   }
 ]

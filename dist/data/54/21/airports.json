@@ -1,72 +1,67 @@
 [
   {
     "type": 1,
-    "icao": "EGNL",
-    "lat": 54.12845098428571,
-    "lon": 21.33056966714286,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12320,
-        "name": "Walney Information"
-      }
-    ],
-    "elevation": 172,
+    "icao": "EPGM",
+    "lat": 54.005518304999995,
+    "lon": 21.82135894,
+    "communications": [],
+    "elevation": 410,
     "tower": true,
-    "name": "Barrow Walney Island",
+    "name": "Gizycko Mazury",
     "runways": [
       {
         "type": 100,
-        "width": 46.02,
+        "width": 38.4,
         "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 54.12399972,
-        "lonStart": -3.26758115,
-        "latEnd": 54.13017914,
-        "lonEnd": -3.25542925,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 54.00687513,
+        "lonStart": 21.81507297,
+        "latEnd": 54.00416148,
+        "lonEnd": 21.82764491,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 54.133125,
-        "lonStart": -3.269294,
-        "latEnd": 54.124306,
-        "lonEnd": -3.265575,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 46.02,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 54.13312969,
-        "lonStart": -3.27178504,
-        "latEnd": 54.12907441,
-        "lonEnd": -3.25475093,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 14.9,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 54.12534293,
-        "lonStart": -3.26091169,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 14.9
+        "surfacetype": 3
       }
     ],
-    "id": 2286
+    "id": 10500
+  },
+  {
+    "type": 1,
+    "icao": "EPKE",
+    "lat": 54.047639999999994,
+    "lon": 21.4260930425,
+    "communications": [],
+    "elevation": 449,
+    "tower": true,
+    "name": "Ketrzyn",
+    "runways": [
+      {
+        "type": 100,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 54.0473602,
+        "lonStart": 21.42168183,
+        "latEnd": 54.0488998,
+        "lonEnd": 21.42888376,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 80,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 54.05165561,
+        "lonStart": 21.42332557,
+        "latEnd": 54.04264439,
+        "lonEnd": 21.43048101,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13793
   }
 ]

@@ -1,55 +1,269 @@
 [
   {
     "type": 1,
-    "icao": "SLCP",
-    "lat": -16.146943999999998,
-    "lon": -39.089705005,
+    "icao": "SSTI",
+    "lat": -16.45777778,
+    "lon": -39.16583333,
     "communications": [],
-    "elevation": 1621,
-    "tower": true,
-    "name": "Concepcion",
+    "elevation": 278,
+    "tower": false,
+    "name": "Arraial da Ajuda",
     "runways": [
       {
         "type": 100,
-        "width": 24.99,
+        "width": 20.12,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": -16.13999312,
-        "lonStart": -62.02551513,
-        "latEnd": -16.15389488,
-        "lonEnd": -62.01781987,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -16.45663241,
+        "lonStart": -39.1681336,
+        "latEnd": -16.45892315,
+        "lonEnd": -39.16353306,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 4
       }
     ],
-    "id": 5246
+    "id": 1217
   },
   {
     "type": 1,
-    "icao": "SLJV",
-    "lat": -16.326944400000002,
-    "lon": -39.469523815,
+    "icao": "SIAJ",
+    "lat": -16.984722220000002,
+    "lon": -39.15888889,
     "communications": [],
-    "elevation": 1703,
-    "tower": true,
-    "name": "San Javier",
+    "elevation": 43,
+    "tower": false,
+    "name": "Fazenda Taua",
     "runways": [
       {
         "type": 100,
-        "width": 21.34,
+        "width": 22.86,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": -16.32026234,
-        "lonStart": -62.60542117,
-        "latEnd": -16.33362646,
-        "lonEnd": -62.60346403,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -16.98414992,
+        "lonStart": -39.16403151,
+        "latEnd": -16.98529452,
+        "lonEnd": -39.15374627,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 5
       }
     ],
-    "id": 22802
+    "id": 9092
+  },
+  {
+    "type": 1,
+    "icao": "SNHQ",
+    "lat": -16.18111111,
+    "lon": -39.93194444,
+    "communications": [],
+    "elevation": 984,
+    "tower": false,
+    "name": "Nacional de Grafite III",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -16.18515319,
+        "lonStart": -39.93241427,
+        "latEnd": -16.17706903,
+        "lonEnd": -39.93147461,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 18048
+  },
+  {
+    "type": 1,
+    "icao": "SNEC",
+    "lat": -16.713055564999998,
+    "lon": -39.14305556,
+    "communications": [],
+    "elevation": 130,
+    "tower": false,
+    "name": "Outeiro das Brisas",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -16.709863,
+        "lonStart": -39.14609049,
+        "latEnd": -16.71624813,
+        "lonEnd": -39.14002063,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 19111
+  },
+  {
+    "type": 1,
+    "icao": "SBPS",
+    "lat": -16.43852552,
+    "lon": -39.080927505000005,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11820,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 167,
+    "tower": true,
+    "name": "Porto Seguro",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -16.44096067,
+        "lonStart": -39.08996004,
+        "latEnd": -16.43609037,
+        "lonEnd": -39.07189497,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20432
+  },
+  {
+    "type": 1,
+    "icao": "SIOV",
+    "lat": -16.901388894999997,
+    "lon": -39.158888884999996,
+    "communications": [],
+    "elevation": 44,
+    "tower": false,
+    "name": "Taua",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -16.90080968,
+        "lonStart": -39.1640284,
+        "latEnd": -16.90196811,
+        "lonEnd": -39.15374937,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 25080
+  },
+  {
+    "type": 1,
+    "icao": "SBTV",
+    "lat": -16.540833329999998,
+    "lon": -39.107777780000006,
+    "communications": [],
+    "elevation": 174,
+    "tower": false,
+    "name": "Terravista",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -16.53668376,
+        "lonStart": -39.11339585,
+        "latEnd": -16.5449829,
+        "lonEnd": -39.10215971,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 25182
+  },
+  {
+    "type": 1,
+    "icao": "SB02",
+    "lat": -16.184675,
+    "lon": -39.358221,
+    "communications": [],
+    "elevation": 410,
+    "tower": false,
+    "name": "USINA SANTA CRUZ",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -16.191064,
+        "lonStart": -39.358939,
+        "latEnd": -16.178286,
+        "lonEnd": -39.357503,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 25844
+  },
+  {
+    "type": 1,
+    "icao": "SJXC",
+    "lat": -16.18305556,
+    "lon": -39.358055555,
+    "communications": [],
+    "elevation": 410,
+    "tower": false,
+    "name": "Usina Santa Cruz",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -16.18665053,
+        "lonStart": -39.36349108,
+        "latEnd": -16.17946059,
+        "lonEnd": -39.35262003,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 25998
+  },
+  {
+    "type": 1,
+    "icao": "SJXS",
+    "lat": -16.871111,
+    "lon": -39.363889,
+    "communications": [],
+    "elevation": 434,
+    "tower": false,
+    "name": "VERACEL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -16.872292,
+        "lonStart": -39.370845,
+        "latEnd": -16.86993,
+        "lonEnd": -39.356933,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 26070
   },
   {
     "type": 17,

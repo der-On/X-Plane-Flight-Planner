@@ -1,44 +1,62 @@
 [
   {
     "type": 1,
-    "icao": "OEHL",
-    "lat": 27.437917,
-    "lon": 34.5543335,
+    "icao": "HESH",
+    "lat": 27.977318,
+    "lon": 34.39494525,
     "communications": [
       {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF"
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
       },
       {
         "type": 54,
-        "frequency": 11870,
-        "name": "INFO"
+        "frequency": 11890,
+        "name": "TWR"
       },
       {
-        "type": 54,
-        "frequency": 13150,
-        "name": "SAUDIA RDO"
+        "type": 55,
+        "frequency": 12110,
+        "name": "RADAR"
+      },
+      {
+        "type": 55,
+        "frequency": 12260,
+        "name": "RADAR"
       }
     ],
-    "elevation": 3331,
-    "tower": false,
-    "name": "HAIL",
+    "elevation": 143,
+    "tower": true,
+    "name": "SHARM EL SHEIKH INTL",
     "runways": [
       {
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 27.454667,
-        "lonStart": 41.6875,
-        "latEnd": 27.421167,
-        "lonEnd": 41.685083,
+        "numberStart": "04L",
+        "numberEnd": "22R",
+        "latStart": 27.9685,
+        "lonStart": 34.382628,
+        "latEnd": 27.988897,
+        "lonEnd": 34.403906,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "04R",
+        "numberEnd": "22L",
+        "latStart": 27.965739,
+        "lonStart": 34.385983,
+        "latEnd": 27.986136,
+        "lonEnd": 34.407264,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 10956
+    "id": 22200
   }
 ]

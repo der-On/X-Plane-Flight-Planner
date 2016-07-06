@@ -1,226 +1,117 @@
 [
   {
     "type": 1,
-    "icao": "FAGC",
-    "lat": -25.98881501222222,
-    "lon": 25.132800423888884,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12280,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 5325,
+    "icao": "FB01",
+    "lat": -25.200000000000003,
+    "lon": 25.71665,
+    "communications": [],
+    "elevation": 3850,
     "tower": false,
-    "name": "Midrand Grand Central",
+    "name": "Alpha",
     "runways": [
       {
         "type": 100,
-        "width": 22.86,
+        "width": 24.99,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": -25.97973542,
-        "lonStart": 28.13638396,
-        "latEnd": -25.99447694,
-        "lonEnd": 28.14473278,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -25.2025,
+        "lonStart": 25.7134,
+        "latEnd": -25.1975,
+        "lonEnd": 25.7199,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -25.98941958,
-        "lonStart": 28.14086127,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      },
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": -25.98941341,
-        "lonStart": 28.14067374,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      },
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": -25.98956348,
-        "lonStart": 28.14085898,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      },
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H4",
-        "numberEnd": null,
-        "latStart": -25.98955937,
-        "lonStart": 28.14066687,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      },
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H5",
-        "numberEnd": null,
-        "latStart": -25.9896971,
-        "lonStart": 28.1410648,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      },
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H6",
-        "numberEnd": null,
-        "latStart": -25.98969093,
-        "lonStart": 28.14085212,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      },
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H7",
-        "numberEnd": null,
-        "latStart": -25.98968477,
-        "lonStart": 28.14066459,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      },
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H8",
-        "numberEnd": null,
-        "latStart": -25.98984511,
-        "lonStart": 28.14106252,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      },
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H9",
-        "numberEnd": null,
-        "latStart": -25.98983894,
-        "lonStart": 28.14084983,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      },
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H10",
-        "numberEnd": null,
-        "latStart": -25.98983278,
-        "lonStart": 28.1406623,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      },
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H34",
-        "numberEnd": null,
-        "latStart": -25.98810595,
-        "lonStart": 28.14022219,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      },
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H37",
-        "numberEnd": null,
-        "latStart": -25.98759999,
-        "lonStart": 28.13989054,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      },
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H36",
-        "numberEnd": null,
-        "latStart": -25.98743666,
-        "lonStart": 28.13988428,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      },
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H33",
-        "numberEnd": null,
-        "latStart": -25.98810657,
-        "lonStart": 28.14002658,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      },
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H32",
-        "numberEnd": null,
-        "latStart": -25.98833097,
-        "lonStart": 28.14022772,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      },
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H31",
-        "numberEnd": null,
-        "latStart": -25.98833225,
-        "lonStart": 28.14003228,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
+        "surfacetype": 5
       }
     ],
-    "id": 17164
+    "id": 913
+  },
+  {
+    "type": 1,
+    "icao": "FBGH",
+    "lat": -25.435000000000002,
+    "lon": 25.4086,
+    "communications": [],
+    "elevation": 4218,
+    "tower": false,
+    "name": "Goodhope",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -25.4359,
+        "lonStart": 25.4032,
+        "latEnd": -25.4341,
+        "lonEnd": 25.414,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10595
+  },
+  {
+    "type": 1,
+    "icao": "FBKY",
+    "lat": -25.05,
+    "lon": 25.316650000000003,
+    "communications": [],
+    "elevation": 4200,
+    "tower": false,
+    "name": "Kanye",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -25.0543,
+        "lonStart": 25.3139,
+        "latEnd": -25.0457,
+        "lonEnd": 25.3194,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 13597
+  },
+  {
+    "type": 1,
+    "icao": "FAMM",
+    "lat": -25.798445,
+    "lon": 25.548109,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11930,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11930,
+        "name": "APP"
+      }
+    ],
+    "elevation": 4181,
+    "tower": true,
+    "name": "Mafikeng",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": -25.81759445,
+        "lonStart": 25.53912885,
+        "latEnd": -25.77929555,
+        "lonEnd": 25.55708915,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16468
   }
 ]

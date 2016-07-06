@@ -1,5 +1,977 @@
 [
   {
+    "type": 1,
+    "icao": "56TX",
+    "lat": 30.009388610000002,
+    "lon": -96.75942167,
+    "communications": [],
+    "elevation": 439,
+    "tower": false,
+    "name": "Anchorage Farm Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 38.1,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 30.01166039,
+        "lonStart": -96.76002735,
+        "latEnd": 30.00711683,
+        "lonEnd": -96.75881599,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1009
+  },
+  {
+    "type": 1,
+    "icao": "11R",
+    "lat": 30.2189875,
+    "lon": -96.374280615,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12112,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12307,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 13430,
+        "name": "Houston Apch"
+      },
+      {
+        "type": 56,
+        "frequency": 13430,
+        "name": "Houston Dptr"
+      }
+    ],
+    "elevation": 308,
+    "tower": false,
+    "name": "BRENHAM MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 30.22712744,
+        "lonStart": -96.37570953,
+        "latEnd": 30.21084756,
+        "lonEnd": -96.3728517,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1902
+  },
+  {
+    "type": 1,
+    "icao": "9TX1",
+    "lat": 30.14327277,
+    "lon": -96.85609084000001,
+    "communications": [],
+    "elevation": 464,
+    "tower": false,
+    "name": "Bar S Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 30.1461816,
+        "lonStart": -96.85922753,
+        "latEnd": 30.14036394,
+        "lonEnd": -96.85295415,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 2205
+  },
+  {
+    "type": 1,
+    "icao": "TS87",
+    "lat": 30.41798333,
+    "lon": -96.07940112,
+    "communications": [],
+    "elevation": 328,
+    "tower": false,
+    "name": "Bridle Ridge",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 30.42139327,
+        "lonStart": -96.07898551,
+        "latEnd": 30.41457339,
+        "lonEnd": -96.07981673,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3190
+  },
+  {
+    "type": 1,
+    "icao": "KRWV",
+    "lat": 30.5154735,
+    "lon": -96.70408499999999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11835,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      },
+      {
+        "type": 55,
+        "frequency": 12040,
+        "name": "HOUSTON CNTR"
+      }
+    ],
+    "elevation": 391,
+    "tower": false,
+    "name": "CALDWELL MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 30.519433,
+        "lonStart": -96.706481,
+        "latEnd": 30.511514,
+        "lonEnd": -96.701689,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3544
+  },
+  {
+    "type": 1,
+    "icao": "T35",
+    "lat": 30.879444499999998,
+    "lon": -96.97111100000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 401,
+    "tower": false,
+    "name": "CAMERON MUNI AIRPARK",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 30.883611,
+        "lonStart": -96.9725,
+        "latEnd": 30.875278,
+        "lonEnd": -96.969722,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3578
+  },
+  {
+    "type": 1,
+    "icao": "KCFD",
+    "lat": 30.71614175,
+    "lon": -96.33262500000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 367,
+    "tower": false,
+    "name": "COULTER FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 30.720528,
+        "lonStart": -96.334372,
+        "latEnd": 30.71085,
+        "lonEnd": -96.328328,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 30.718422,
+        "lonStart": -96.3339,
+        "latEnd": 30.714767,
+        "lonEnd": -96.3339,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4191
+  },
+  {
+    "type": 1,
+    "icao": "11T",
+    "lat": 30.81630333,
+    "lon": -96.60108138999999,
+    "communications": [],
+    "elevation": 270,
+    "tower": false,
+    "name": "Corpora",
+    "runways": [
+      {
+        "type": 100,
+        "width": 10.67,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 30.81914587,
+        "lonStart": -96.60331391,
+        "latEnd": 30.81346079,
+        "lonEnd": -96.59884887,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5352
+  },
+  {
+    "type": 1,
+    "icao": "KCLL",
+    "lat": 30.588752833333334,
+    "lon": -96.36419733333334,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12685,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 11850,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12870,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11850,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 321,
+    "tower": true,
+    "name": "Easterwood Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 30.596639,
+        "lonStart": -96.362856,
+        "latEnd": 30.577756,
+        "lonEnd": -96.358564,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 30.591472,
+        "lonStart": -96.372794,
+        "latEnd": 30.586906,
+        "lonEnd": -96.357275,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 30.585297,
+        "lonStart": -96.373092,
+        "latEnd": 30.594447,
+        "lonEnd": -96.360603,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 6924
+  },
+  {
+    "type": 1,
+    "icao": "72R",
+    "lat": 30.03355444,
+    "lon": -96.6846975,
+    "communications": [],
+    "elevation": 340,
+    "tower": false,
+    "name": "El Paisano",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 30.03337267,
+        "lonStart": -96.68770014,
+        "latEnd": 30.03373621,
+        "lonEnd": -96.68169486,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 30.03139724,
+        "lonStart": -96.68591282,
+        "latEnd": 30.03571164,
+        "lonEnd": -96.68348218,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7047
+  },
+  {
+    "type": 1,
+    "icao": "TA35",
+    "lat": 30.27271166,
+    "lon": -96.35496445000001,
+    "communications": [],
+    "elevation": 8,
+    "tower": false,
+    "name": "Faust Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 30.27524009,
+        "lonStart": -96.3556944,
+        "latEnd": 30.27018323,
+        "lonEnd": -96.3542345,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7836
+  },
+  {
+    "type": 1,
+    "icao": "65TA",
+    "lat": 30.34326472,
+    "lon": -96.30718472999999,
+    "communications": [],
+    "elevation": 250,
+    "tower": false,
+    "name": "Flying C Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 30.34672467,
+        "lonStart": -96.30818432,
+        "latEnd": 30.33980477,
+        "lonEnd": -96.30618514,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 9417
+  },
+  {
+    "type": 1,
+    "icao": "KGYB",
+    "lat": 30.1692665,
+    "lon": -96.980018,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11922,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12305,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 13215,
+        "name": "HOUSTON CNTR"
+      }
+    ],
+    "elevation": 485,
+    "tower": false,
+    "name": "GIDDINGS LEE CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 30.174739,
+        "lonStart": -96.98065,
+        "latEnd": 30.163794,
+        "lonEnd": -96.979386,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 9993
+  },
+  {
+    "type": 1,
+    "icao": "03T",
+    "lat": 30.2627125,
+    "lon": -96.50024612,
+    "communications": [],
+    "elevation": 505,
+    "tower": false,
+    "name": "Gay Hill Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 30.26385482,
+        "lonStart": -96.50295776,
+        "latEnd": 30.26157018,
+        "lonEnd": -96.49753448,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10359
+  },
+  {
+    "type": 1,
+    "icao": "KRCK",
+    "lat": 30.6316665,
+    "lon": -96.989722,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 474,
+    "tower": false,
+    "name": "H H COFFIELD RGNL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 30.635833,
+        "lonStart": -96.989722,
+        "latEnd": 30.6275,
+        "lonEnd": -96.989722,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10929
+  },
+  {
+    "type": 1,
+    "icao": "KLHB",
+    "lat": 30.8718305,
+    "lon": -96.622228,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11867,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 285,
+    "tower": false,
+    "name": "HEARNE MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 30.877328,
+        "lonStart": -96.622228,
+        "latEnd": 30.866333,
+        "lonEnd": -96.622228,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11077
+  },
+  {
+    "type": 1,
+    "icao": "35R",
+    "lat": 30.121606110000002,
+    "lon": -96.086625,
+    "communications": [],
+    "elevation": 260,
+    "tower": false,
+    "name": "Hempstead",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 30.12578444,
+        "lonStart": -96.08696279,
+        "latEnd": 30.11742778,
+        "lonEnd": -96.08628721,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11666
+  },
+  {
+    "type": 1,
+    "icao": "XS17",
+    "lat": 30.70908388,
+    "lon": -96.90192639,
+    "communications": [],
+    "elevation": 460,
+    "tower": false,
+    "name": "Hensley Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 30.7138724,
+        "lonStart": -96.90231585,
+        "latEnd": 30.70429536,
+        "lonEnd": -96.90153693,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11694
+  },
+  {
+    "type": 1,
+    "icao": "46T",
+    "lat": 30.73158333,
+    "lon": -96.13106806,
+    "communications": [],
+    "elevation": 285,
+    "tower": false,
+    "name": "K Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 30.72879415,
+        "lonStart": -96.13835611,
+        "latEnd": 30.73437251,
+        "lonEnd": -96.12378001,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 13165
+  },
+  {
+    "type": 1,
+    "icao": "60R",
+    "lat": 30.3718805,
+    "lon": -96.11326550000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 228,
+    "tower": false,
+    "name": "NAVASOTA MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 30.376283,
+        "lonStart": -96.113425,
+        "latEnd": 30.367478,
+        "lonEnd": -96.113106,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17858
+  },
+  {
+    "type": 1,
+    "icao": "60TX",
+    "lat": 30.033555,
+    "lon": -96.26357445,
+    "communications": [],
+    "elevation": 350,
+    "tower": false,
+    "name": "P-K Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 30.0383457,
+        "lonStart": -96.26495416,
+        "latEnd": 30.0287643,
+        "lonEnd": -96.26219474,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19152
+  },
+  {
+    "type": 1,
+    "icao": "93TX",
+    "lat": 30.91491111,
+    "lon": -96.68552973,
+    "communications": [],
+    "elevation": 279,
+    "tower": false,
+    "name": "Putz Aero Inc",
+    "runways": [
+      {
+        "type": 100,
+        "width": 7.62,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 30.91752428,
+        "lonStart": -96.68574272,
+        "latEnd": 30.91229794,
+        "lonEnd": -96.68531674,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20645
+  },
+  {
+    "type": 1,
+    "icao": "TX75",
+    "lat": 30.9675,
+    "lon": -96.46861111999999,
+    "communications": [],
+    "elevation": 430,
+    "tower": false,
+    "name": "Sandbur Ranches - Private",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 30.96488003,
+        "lonStart": -96.47177519,
+        "latEnd": 30.97011997,
+        "lonEnd": -96.46544705,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22839
+  },
+  {
+    "type": 1,
+    "icao": "XS68",
+    "lat": 30.256878880000002,
+    "lon": -96.32857473,
+    "communications": [],
+    "elevation": 290,
+    "tower": false,
+    "name": "Sky Lane Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 30.25892551,
+        "lonStart": -96.33017291,
+        "latEnd": 30.25483225,
+        "lonEnd": -96.32697655,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23637
+  },
+  {
+    "type": 1,
+    "icao": "83TX",
+    "lat": 30.637944600000004,
+    "lon": -96.4840559,
+    "communications": [],
+    "elevation": 264,
+    "tower": false,
+    "name": "TEXAS A AND M FLT TEST STATION",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "17L",
+        "numberEnd": "35R",
+        "latStart": 30.644167,
+        "lonStart": -96.483056,
+        "latEnd": 30.625,
+        "lonEnd": -96.483056,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "17R",
+        "numberEnd": "35L",
+        "latStart": 30.644167,
+        "lonStart": -96.485556,
+        "latEnd": 30.625,
+        "lonEnd": -96.485556,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 91.44,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 30.637222,
+        "lonStart": -96.489722,
+        "latEnd": 30.646667,
+        "lonEnd": -96.480556,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 91.44,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 30.642222,
+        "lonStart": -96.491389,
+        "latEnd": 30.634167,
+        "lonEnd": -96.480556,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 91.44,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 30.646667,
+        "lonStart": -96.480556,
+        "latEnd": 30.634167,
+        "lonEnd": -96.480556,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 24672
+  },
+  {
+    "type": 1,
+    "icao": "XS18",
+    "lat": 30.38465166,
+    "lon": -96.22468251000001,
+    "communications": [],
+    "elevation": 198,
+    "tower": false,
+    "name": "Tom J Moore Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 30.39012426,
+        "lonStart": -96.22512612,
+        "latEnd": 30.37917906,
+        "lonEnd": -96.2242389,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25445
+  },
+  {
+    "type": 1,
+    "icao": "0TS4",
+    "lat": 30.09188555,
+    "lon": -96.79497806,
+    "communications": [],
+    "elevation": 410,
+    "tower": false,
+    "name": "Ullrich",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 30.09434071,
+        "lonStart": -96.79467982,
+        "latEnd": 30.08943039,
+        "lonEnd": -96.7952763,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25895
+  },
+  {
+    "type": 1,
+    "icao": "13R",
+    "lat": 30.65603194,
+    "lon": -96.53830139,
+    "communications": [],
+    "elevation": 240,
+    "tower": false,
+    "name": "Varisco",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 30.65381211,
+        "lonStart": -96.54097354,
+        "latEnd": 30.65825177,
+        "lonEnd": -96.53562924,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 26230
+  },
+  {
+    "type": 1,
+    "icao": "7TA5",
+    "lat": 30.58714555,
+    "lon": -96.63413861999999,
+    "communications": [],
+    "elevation": 350,
+    "tower": false,
+    "name": "Weber Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 30.5908873,
+        "lonStart": -96.6351421,
+        "latEnd": 30.5834038,
+        "lonEnd": -96.63313514,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 27019
+  },
+  {
     "type": 17,
     "icao": "33TS",
     "lat": 30.52131555,

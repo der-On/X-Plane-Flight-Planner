@@ -1,70 +1,54 @@
 [
   {
     "type": 1,
-    "icao": "SPHO",
-    "lat": -13.153334526,
-    "lon": -61.993050155999995,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11810,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 8916,
-    "tower": true,
-    "name": "Coronel Alfredo Mendivil Duarte - Ayacucho",
+    "icao": "SWDK",
+    "lat": -13.01972222,
+    "lon": -61.168611115,
+    "communications": [],
+    "elevation": 680,
+    "tower": false,
+    "name": "Fazenda Dona Olga",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 20.12,
         "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": -13.16653797,
-        "lonStart": -74.20939804,
-        "latEnd": -13.14309075,
-        "lonEnd": -74.19947827,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -13.01996957,
+        "lonStart": -61.17322305,
+        "latEnd": -13.01947487,
+        "lonEnd": -61.16399918,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": -13.15170758,
-        "lonStart": -74.20399302,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      },
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 2,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": -13.15242634,
-        "lonStart": -74.20428207,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      },
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 2,
-        "numberStart": "H4",
-        "numberEnd": null,
-        "latStart": -13.15290999,
-        "lonStart": -74.2044869,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
+        "surfacetype": 3
       }
     ],
-    "id": 5344
+    "id": 8210
+  },
+  {
+    "type": 1,
+    "icao": "SIZN",
+    "lat": -13.004166675,
+    "lon": -61.239999999999995,
+    "communications": [],
+    "elevation": 843,
+    "tower": false,
+    "name": "Fazenda Santa Ana",
+    "runways": [
+      {
+        "type": 100,
+        "width": 35.05,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -12.99887449,
+        "lonStart": -61.24122472,
+        "latEnd": -13.00945886,
+        "lonEnd": -61.23877528,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 8783
   }
 ]

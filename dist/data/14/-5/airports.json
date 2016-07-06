@@ -1,84 +1,34 @@
 [
   {
     "type": 1,
-    "icao": "GVNP",
-    "lat": 14.9325805,
-    "lon": -4.276239500000001,
+    "icao": "GAMB",
+    "lat": 14.512757,
+    "lon": -4.0795545,
     "communications": [
       {
         "type": 54,
-        "frequency": 11820,
-        "name": "PRAIA TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11820,
-        "name": "PRAIA APP"
+        "frequency": 11810,
+        "name": "TWR"
       }
     ],
-    "elevation": 230,
+    "elevation": 905,
     "tower": true,
-    "name": "PRAIA INTERNATIONAL",
+    "name": "AMBODEDJO",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 28.65,
         "surfaceType": null,
-        "numberStart": "03R",
-        "numberEnd": "21L",
-        "latStart": 14.931886,
-        "lonStart": -23.4885,
-        "latEnd": 14.949461,
-        "lonEnd": -23.481233,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "03L",
-        "numberEnd": "21R",
-        "latStart": 14.919161,
-        "lonStart": -23.495733,
-        "latEnd": 14.929814,
-        "lonEnd": -23.491311,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 14.504975,
+        "lonStart": -4.088228,
+        "latEnd": 14.520539,
+        "lonEnd": -4.070881,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 19530
-  },
-  {
-    "type": 1,
-    "icao": "GVSF",
-    "lat": 14.886088,
-    "lon": -4.8024450000000005,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11860,
-        "name": "ATIS"
-      }
-    ],
-    "elevation": 557,
-    "tower": false,
-    "name": "Sao Filipe Airport",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 14.890502,
-        "lonStart": -24.486564,
-        "latEnd": 14.881674,
-        "lonEnd": -24.475937,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22966
+    "id": 267
   }
 ]

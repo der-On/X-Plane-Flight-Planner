@@ -1,0 +1,179 @@
+[
+  {
+    "type": 1,
+    "icao": "NZGA",
+    "lat": -38.4054947,
+    "lon": 176.7446594,
+    "communications": [],
+    "elevation": 550,
+    "tower": false,
+    "name": "Galatea",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": -38.40951166,
+        "lonStart": 176.74169987,
+        "latEnd": -38.40147774,
+        "lonEnd": 176.74761893,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10270
+  },
+  {
+    "type": 1,
+    "icao": "NZRK",
+    "lat": -38.887832599999996,
+    "lon": 176.36450200000002,
+    "communications": [],
+    "elevation": 2337,
+    "tower": false,
+    "name": "Rangitaiki",
+    "runways": [
+      {
+        "type": 100,
+        "width": 13.11,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -38.88102556,
+        "lonStart": 176.36465465,
+        "latEnd": -38.89463964,
+        "lonEnd": 176.36434935,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21197
+  },
+  {
+    "type": 1,
+    "icao": "NZRO",
+    "lat": -38.1056255,
+    "lon": 176.31776449999998,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12880,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12120,
+        "name": "CTAF"
+      },
+      {
+        "type": 54,
+        "frequency": 12120,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11950,
+        "name": "CHRISTCHURCH APP"
+      }
+    ],
+    "elevation": 935,
+    "tower": true,
+    "name": "Rotorua",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "18R",
+        "numberEnd": "36L",
+        "latStart": -38.10012175,
+        "lonStart": 176.3206174,
+        "latEnd": -38.11333425,
+        "lonEnd": 176.3127446,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "18L",
+        "numberEnd": "36R",
+        "latStart": -38.10114234,
+        "lonStart": 176.32086874,
+        "latEnd": -38.10790366,
+        "lonEnd": 176.31682726,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21768
+  },
+  {
+    "type": 1,
+    "icao": "NZAP",
+    "lat": -38.741577,
+    "lon": 176.082209,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12520,
+        "name": "AWOS"
+      },
+      {
+        "type": 50,
+        "frequency": 12360,
+        "name": "CHRISTCHURCH FSS"
+      },
+      {
+        "type": 51,
+        "frequency": 11840,
+        "name": "TAUPO UNIC"
+      },
+      {
+        "type": 53,
+        "frequency": 12869,
+        "name": "TAUPO GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "TAUPO TWR"
+      }
+    ],
+    "elevation": 1335,
+    "tower": true,
+    "name": "Taupo",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -38.734692,
+        "lonStart": 176.086958,
+        "latEnd": -38.746814,
+        "lonEnd": 176.082836,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -38.740231,
+        "lonStart": 176.076326,
+        "latEnd": -38.744571,
+        "lonEnd": 176.082716,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25083
+  }
+]

@@ -1,39 +1,119 @@
 [
   {
     "type": 1,
-    "icao": "CYAH",
-    "lat": 53.75457129,
-    "lon": -9.965259964999998,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 13120,
-        "name": "UNICOM"
-      },
-      {
-        "type": 50,
-        "frequency": 11845,
-        "name": "ATIS"
-      }
-    ],
-    "elevation": 1001,
+    "icao": "EICA",
+    "lat": 53.23049154,
+    "lon": -9.46782593,
+    "communications": [],
+    "elevation": 68,
     "tower": false,
-    "name": "La Grande-4",
+    "name": "Connemara",
     "runways": [
       {
         "type": 100,
-        "width": 45.72,
+        "width": 17.98,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 53.75262776,
-        "lonStart": -73.68703475,
-        "latEnd": 53.75651482,
-        "lonEnd": -73.664746,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 53.22866116,
+        "lonStart": -9.47082053,
+        "latEnd": 53.23232192,
+        "lonEnd": -9.46483133,
         "length": 0,
-        "surfacetype": 5
+        "surfacetype": 1
       }
     ],
-    "id": 14715
+    "id": 5267
+  },
+  {
+    "type": 1,
+    "icao": "EIIR",
+    "lat": 53.058662,
+    "lon": -9.506169,
+    "communications": [],
+    "elevation": 40,
+    "tower": false,
+    "name": "Inisheer",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 53.05987778,
+        "lonStart": -9.50975446,
+        "latEnd": 53.05744622,
+        "lonEnd": -9.50258354,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12503
+  },
+  {
+    "type": 1,
+    "icao": "EIMN",
+    "lat": 53.09443668,
+    "lon": -9.56861824,
+    "communications": [],
+    "elevation": 15,
+    "tower": false,
+    "name": "Inishmaan",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 53.095077,
+        "lonStart": -9.571152,
+        "latEnd": 53.091059,
+        "lonEnd": -9.565122,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 53.09479908,
+        "lonStart": -9.57055621,
+        "latEnd": 53.09681164,
+        "lonEnd": -9.56764275,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12504
+  },
+  {
+    "type": 1,
+    "icao": "EIIM",
+    "lat": 53.10685435,
+    "lon": -9.653164535,
+    "communications": [],
+    "elevation": 29,
+    "tower": false,
+    "name": "Inishmore",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 53.1085615,
+        "lonStart": -9.65641695,
+        "latEnd": 53.1051472,
+        "lonEnd": -9.64991212,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12505
   }
 ]

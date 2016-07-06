@@ -1,144 +1,86 @@
 [
   {
     "type": 1,
-    "icao": "LFMF",
-    "lat": 43.61037476,
-    "lon": 25.15128944,
+    "icao": "LBGO",
+    "lat": 43.1514475,
+    "lon": 25.712913999999998,
     "communications": [
       {
-        "type": 51,
-        "frequency": 11905,
-        "name": "FAYENCE MULT"
+        "type": 54,
+        "frequency": 11970,
+        "name": "TWR"
       }
     ],
-    "elevation": 741,
+    "elevation": 285,
     "tower": true,
-    "name": "Fayence",
+    "name": "Gorna Oryahovitsa",
     "runways": [
       {
         "type": 100,
-        "width": 7.92,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "10L",
-        "numberEnd": "28R",
-        "latStart": 43.61098009,
-        "lonStart": 6.69254843,
-        "latEnd": 43.6105585,
-        "lonEnd": 6.69563514,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 43.153003,
+        "lonStart": 25.69795,
+        "latEnd": 43.149892,
+        "lonEnd": 25.727878,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 7.92,
-        "surfaceType": null,
-        "numberStart": "10R",
-        "numberEnd": "28L",
-        "latStart": 43.61027852,
-        "lonStart": 6.6923689,
-        "latEnd": 43.60968193,
-        "lonEnd": 6.69665014,
-        "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
       }
     ],
-    "id": 7839
+    "id": 10633
   },
   {
     "type": 1,
-    "icao": "LFTP",
-    "lat": 43.86898874500001,
-    "lon": 25.0152708625,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12350,
-        "name": "PROVENCE ATC"
-      }
-    ],
-    "elevation": 2521,
-    "tower": true,
-    "name": "Puimoisson",
+    "icao": "LB42",
+    "lat": 43.327332,
+    "lon": 25.003443,
+    "communications": [],
+    "elevation": 420,
+    "tower": false,
+    "name": "KAMENETS",
     "runways": [
       {
         "type": 100,
-        "width": 7,
+        "width": 79.86,
         "surfaceType": null,
-        "numberStart": "08L",
-        "numberEnd": "26R",
-        "latStart": 43.86902344,
-        "lonStart": 6.16210504,
-        "latEnd": 43.87042006,
-        "lonEnd": 6.17006274,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 43.328117,
+        "lonStart": 24.988067,
+        "latEnd": 43.326547,
+        "lonEnd": 25.018819,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 5,
-        "surfaceType": null,
-        "numberStart": "08R",
-        "numberEnd": "26L",
-        "latStart": 43.8688253,
-        "lonStart": 6.16313169,
-        "latEnd": 43.86983514,
-        "lonEnd": 6.16895757,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 95,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 43.86835621,
-        "lonStart": 6.15906865,
-        "latEnd": 43.87005305,
-        "lonEnd": 6.16875114,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 73.1,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 43.86999467,
-        "lonStart": 6.16215118,
-        "latEnd": 43.86540209,
-        "lonEnd": 6.16451706,
-        "length": 0,
-        "surfacetype": 3
+        "surfacetype": 2
       }
     ],
-    "id": 20608
+    "id": 13208
   },
   {
-    "type": 17,
-    "icao": "JCA",
-    "lat": 43.534496000000004,
-    "lon": 25.290298280000002,
+    "type": 1,
+    "icao": "LB29",
+    "lat": 43.4054055,
+    "lon": 25.473953,
     "communications": [],
-    "elevation": 0,
+    "elevation": 349,
     "tower": false,
-    "name": "[H] Cannes Pointe Croisette",
+    "name": "MASLAREVO",
     "runways": [
       {
         "type": 100,
-        "width": 48.77,
+        "width": 24.99,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 43.53471544,
-        "lonStart": 7.04632,
-        "latEnd": 43.53427656,
-        "lonEnd": 7.04632,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 43.404217,
+        "lonStart": 25.471775,
+        "latEnd": 43.406594,
+        "lonEnd": 25.476131,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 28752
+    "id": 15896
   }
 ]

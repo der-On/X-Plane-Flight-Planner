@@ -1,5 +1,346 @@
 [
   {
+    "type": 1,
+    "icao": "12NC",
+    "lat": 34.87587633333333,
+    "lon": -76.34998833333333,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 11975,
+        "name": "CHERRY POINT APP"
+      }
+    ],
+    "elevation": 20,
+    "tower": false,
+    "name": "ATLANTIC MCOLF",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 34.871936,
+        "lonStart": -76.356033,
+        "latEnd": 34.878783,
+        "lonEnd": -76.347197,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 34.868978,
+        "lonStart": -76.349189,
+        "latEnd": 34.878619,
+        "lonEnd": -76.349092,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 34.878514,
+        "lonStart": -76.354958,
+        "latEnd": 34.878428,
+        "lonEnd": -76.343461,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 453
+  },
+  {
+    "type": 1,
+    "icao": "KNKT",
+    "lat": 34.90280306375,
+    "lon": -76.88121727625,
+    "communications": [
+      {
+        "type": 52,
+        "frequency": 12595,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12862,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12130,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11935,
+        "name": "APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 11975,
+        "name": "APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12410,
+        "name": "APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 13257,
+        "name": "APP/DEP"
+      }
+    ],
+    "elevation": 27,
+    "tower": true,
+    "name": "Cherry Point MCAS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "14L",
+        "numberEnd": "32R",
+        "latStart": 34.92084361,
+        "lonStart": -76.90384128,
+        "latEnd": 34.90321728,
+        "lonEnd": -76.88283985,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "14R",
+        "numberEnd": "32L",
+        "latStart": 34.9003926,
+        "lonStart": -76.88180551,
+        "latEnd": 34.88392238,
+        "lonEnd": -76.86216591,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "05L",
+        "numberEnd": "23R",
+        "latStart": 34.90299999,
+        "lonStart": -76.88159895,
+        "latEnd": 34.91936601,
+        "lonEnd": -76.86139104,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "05R",
+        "numberEnd": "23L",
+        "latStart": 34.8879537,
+        "lonStart": -76.89779348,
+        "latEnd": 34.90372894,
+        "lonEnd": -76.87830219,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4877
+  },
+  {
+    "type": 1,
+    "icao": "NC87",
+    "lat": 34.88182666,
+    "lon": -76.94272112,
+    "communications": [],
+    "elevation": 26,
+    "tower": false,
+    "name": "Dogwood Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 38.1,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 34.87990774,
+        "lonStart": -76.94280281,
+        "latEnd": 34.88374558,
+        "lonEnd": -76.94263943,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6349
+  },
+  {
+    "type": 1,
+    "icao": "W74",
+    "lat": 34.93682638,
+    "lon": -76.94466556,
+    "communications": [],
+    "elevation": 30,
+    "tower": false,
+    "name": "Hickory Hill",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 34.93426758,
+        "lonStart": -76.94661597,
+        "latEnd": 34.93938518,
+        "lonEnd": -76.94271515,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11782
+  },
+  {
+    "type": 1,
+    "icao": "NC54",
+    "lat": 34.87766388,
+    "lon": -76.35658251,
+    "communications": [],
+    "elevation": 10,
+    "tower": false,
+    "name": "Jackson - Private",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 34.87492257,
+        "lonStart": -76.3566992,
+        "latEnd": 34.88040519,
+        "lonEnd": -76.35646582,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12860
+  },
+  {
+    "type": 1,
+    "icao": "KMRH",
+    "lat": 34.733522666666666,
+    "lon": -76.66058050000001,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13537,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 12565,
+        "name": "CHERRY POINT CLNC"
+      },
+      {
+        "type": 55,
+        "frequency": 12410,
+        "name": "CHERRY POINT APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 13257,
+        "name": "CHERRY POINT APP/DEP"
+      }
+    ],
+    "elevation": 11,
+    "tower": false,
+    "name": "MICHAEL J SMITH FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 34.733233,
+        "lonStart": -76.668753,
+        "latEnd": 34.737603,
+        "lonEnd": -76.655636,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 34.727469,
+        "lonStart": -76.661911,
+        "latEnd": 34.737881,
+        "lonEnd": -76.655953,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 34.736192,
+        "lonStart": -76.665519,
+        "latEnd": 34.728758,
+        "lonEnd": -76.655711,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16072
+  },
+  {
+    "type": 1,
+    "icao": "NC17",
+    "lat": 34.980164720000005,
+    "lon": -76.30796917,
+    "communications": [],
+    "elevation": 9,
+    "tower": false,
+    "name": "Wolfs Den",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 34.98307101,
+        "lonStart": -76.30985518,
+        "latEnd": 34.97725843,
+        "lonEnd": -76.30608316,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 27502
+  },
+  {
     "type": 17,
     "icao": "NC80",
     "lat": 34.71682805,

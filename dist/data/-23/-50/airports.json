@@ -1,5 +1,527 @@
 [
   {
+    "type": 1,
+    "icao": "SBBU",
+    "lat": -22.3450405,
+    "lon": -49.0538015,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12787,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 12130,
+        "name": "RDO"
+      },
+      {
+        "type": 55,
+        "frequency": 12130,
+        "name": "APP"
+      }
+    ],
+    "elevation": 2024,
+    "tower": false,
+    "name": "BAURU",
+    "runways": [
+      {
+        "type": 100,
+        "width": 35.05,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -22.341392,
+        "lonStart": -49.059939,
+        "latEnd": -22.348689,
+        "lonEnd": -49.047664,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1575
+  },
+  {
+    "type": 1,
+    "icao": "SBAE",
+    "lat": -22.16115998,
+    "lon": -49.070197285,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13045,
+        "name": "RDO"
+      }
+    ],
+    "elevation": 1949,
+    "tower": false,
+    "name": "Bauru - Arealva",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -22.15264487,
+        "lonStart": -49.07464398,
+        "latEnd": -22.16967509,
+        "lonEnd": -49.06575059,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2362
+  },
+  {
+    "type": 1,
+    "icao": "SSOO",
+    "lat": -22.33722222,
+    "lon": -49.54305556,
+    "communications": [],
+    "elevation": 1903,
+    "tower": false,
+    "name": "Estancia J.D.S.",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -22.33918632,
+        "lonStart": -49.5454655,
+        "latEnd": -22.33525812,
+        "lonEnd": -49.54064562,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 7296
+  },
+  {
+    "type": 1,
+    "icao": "SJEJ",
+    "lat": -22.155,
+    "lon": -49.28777778,
+    "communications": [],
+    "elevation": 1713,
+    "tower": false,
+    "name": "Fazenda Bonanza",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -22.15496367,
+        "lonStart": -49.2910815,
+        "latEnd": -22.15503633,
+        "lonEnd": -49.28447406,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 8034
+  },
+  {
+    "type": 1,
+    "icao": "SDGF",
+    "lat": -22.36722222,
+    "lon": -49.946944439999996,
+    "communications": [],
+    "elevation": 1647,
+    "tower": false,
+    "name": "Fazenda Fartura",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -22.36894953,
+        "lonStart": -49.94798437,
+        "latEnd": -22.36549491,
+        "lonEnd": -49.94590451,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 8257
+  },
+  {
+    "type": 1,
+    "icao": "SDZV",
+    "lat": -22.47611111,
+    "lon": -49.47,
+    "communications": [],
+    "elevation": 1841,
+    "tower": false,
+    "name": "Fazenda Guandu",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": -22.47983728,
+        "lonStart": -49.46939649,
+        "latEnd": -22.47238494,
+        "lonEnd": -49.47060351,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 8324
+  },
+  {
+    "type": 1,
+    "icao": "SDJG",
+    "lat": -22.73333333,
+    "lon": -49.483333294999994,
+    "communications": [],
+    "elevation": 1689,
+    "tower": false,
+    "name": "Fazenda Ponte Preta",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -22.73205598,
+        "lonStart": -49.48713846,
+        "latEnd": -22.73461068,
+        "lonEnd": -49.47952813,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 8647
+  },
+  {
+    "type": 1,
+    "icao": "SJUL",
+    "lat": -22.877777775,
+    "lon": -49.03777778,
+    "communications": [],
+    "elevation": 2257,
+    "tower": false,
+    "name": "Fazenda Rio Pardo",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -22.88227021,
+        "lonStart": -49.03862095,
+        "latEnd": -22.87328534,
+        "lonEnd": -49.03693461,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 8740
+  },
+  {
+    "type": 1,
+    "icao": "SDZA",
+    "lat": -22.005555559999998,
+    "lon": -49.411111105,
+    "communications": [],
+    "elevation": 1804,
+    "tower": false,
+    "name": "Fazenda Santa Maria",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -22.01018509,
+        "lonStart": -49.41385664,
+        "latEnd": -22.00092603,
+        "lonEnd": -49.40836557,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 8850
+  },
+  {
+    "type": 1,
+    "icao": "SSZT",
+    "lat": -22.794166665,
+    "lon": -49.34111111,
+    "communications": [],
+    "elevation": 2146,
+    "tower": false,
+    "name": "Fazenda Sao Joao",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": -22.79936713,
+        "lonStart": -49.3430845,
+        "latEnd": -22.7889662,
+        "lonEnd": -49.33913772,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 8950
+  },
+  {
+    "type": 1,
+    "icao": "SDKC",
+    "lat": -22.30361111,
+    "lon": -49.46222222,
+    "communications": [],
+    "elevation": 1771,
+    "tower": false,
+    "name": "Fazenda Sao Lucas",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -22.3057645,
+        "lonStart": -49.4640777,
+        "latEnd": -22.30145772,
+        "lonEnd": -49.46036674,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 8983
+  },
+  {
+    "type": 1,
+    "icao": "SDSH",
+    "lat": -22.29555556,
+    "lon": -49.212222215,
+    "communications": [],
+    "elevation": 1755,
+    "tower": false,
+    "name": "Fazenda Shangri-la",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -22.29858895,
+        "lonStart": -49.21591776,
+        "latEnd": -22.29252217,
+        "lonEnd": -49.20852667,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 9053
+  },
+  {
+    "type": 1,
+    "icao": "SDGC",
+    "lat": -22.183332399999998,
+    "lon": -49.6558342,
+    "communications": [],
+    "elevation": 2182,
+    "tower": true,
+    "name": "Garca",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.33,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": -22.18778711,
+        "lonStart": -49.65515809,
+        "latEnd": -22.17887769,
+        "lonEnd": -49.65651031,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 10298
+  },
+  {
+    "type": 1,
+    "icao": "SBML",
+    "lat": -22.19689,
+    "lon": -49.926399,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13045,
+        "name": "RDO"
+      }
+    ],
+    "elevation": 2122,
+    "tower": true,
+    "name": "MARILIA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 35.05,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": -22.204294,
+        "lonStart": -49.928292,
+        "latEnd": -22.189486,
+        "lonEnd": -49.924506,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 15829
+  },
+  {
+    "type": 1,
+    "icao": "SDOU",
+    "lat": -22.9664985,
+    "lon": -49.913279,
+    "communications": [],
+    "elevation": 1532,
+    "tower": true,
+    "name": "Ourinhos",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -22.961058,
+        "lonStart": -49.917614,
+        "latEnd": -22.971939,
+        "lonEnd": -49.908944,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19104
+  },
+  {
+    "type": 1,
+    "icao": "SSVF",
+    "lat": -22.961944435,
+    "lon": -49.14833333,
+    "communications": [],
+    "elevation": 2557,
+    "tower": false,
+    "name": "Rancho Donana",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -22.9570361,
+        "lonStart": -49.15108551,
+        "latEnd": -22.96685277,
+        "lonEnd": -49.14558115,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21172
+  },
+  {
+    "type": 1,
+    "icao": "SDDK",
+    "lat": -22.48124872,
+    "lon": -49.98610859,
+    "communications": [],
+    "elevation": 1886,
+    "tower": false,
+    "name": "Saint-Exupery",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -22.48429857,
+        "lonStart": -49.98982065,
+        "latEnd": -22.47819887,
+        "lonEnd": -49.98239653,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 22718
+  },
+  {
+    "type": 1,
+    "icao": "SDUZ",
+    "lat": -22.948333329999997,
+    "lon": -49.766111115,
+    "communications": [],
+    "elevation": 1068,
+    "tower": false,
+    "name": "Usina Sao Luiz",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -22.95043985,
+        "lonStart": -49.76992235,
+        "latEnd": -22.94622681,
+        "lonEnd": -49.76229988,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 26003
+  },
+  {
+    "type": 1,
+    "icao": "SDVE",
+    "lat": -22.230154,
+    "lon": -49.817243500000004,
+    "communications": [],
+    "elevation": 2100,
+    "tower": false,
+    "name": "VERA CRUZ",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.59,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -22.227508,
+        "lonStart": -49.821081,
+        "latEnd": -22.2328,
+        "lonEnd": -49.813406,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 26069
+  },
+  {
     "type": 17,
     "icao": "SDXC",
     "lat": -22.28777778,

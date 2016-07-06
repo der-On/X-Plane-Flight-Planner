@@ -1,5 +1,134 @@
 [
   {
+    "type": 1,
+    "icao": "KBTN",
+    "lat": 45.815479249999996,
+    "lon": -97.74346949999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1317,
+    "tower": false,
+    "name": "BRITTON MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 45.818639,
+        "lonStart": -97.748156,
+        "latEnd": 45.8105,
+        "lonEnd": -97.736472,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 36.58,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 45.813556,
+        "lonStart": -97.746583,
+        "latEnd": 45.819222,
+        "lonEnd": -97.742667,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1916
+  },
+  {
+    "type": 1,
+    "icao": "ND90",
+    "lat": 45.96663083,
+    "lon": -97.73371223000001,
+    "communications": [],
+    "elevation": 1285,
+    "tower": false,
+    "name": "Dahl - Private",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 45.96713226,
+        "lonStart": -97.73958755,
+        "latEnd": 45.9661294,
+        "lonEnd": -97.72783691,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 45.970034,
+        "lonStart": -97.73311106,
+        "latEnd": 45.96322766,
+        "lonEnd": -97.7343134,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5938
+  },
+  {
+    "type": 1,
+    "icao": "1D7",
+    "lat": 45.29337325,
+    "lon": -97.51523825,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1854,
+    "tower": false,
+    "name": "THE SIGURD ANDERSON",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 45.295622,
+        "lonStart": -97.517756,
+        "latEnd": 45.290094,
+        "lonEnd": -97.5057,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 45.290833,
+        "lonStart": -97.519164,
+        "latEnd": 45.296944,
+        "lonEnd": -97.518333,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24683
+  },
+  {
     "type": 17,
     "icao": "SD17",
     "lat": 45.65801388,

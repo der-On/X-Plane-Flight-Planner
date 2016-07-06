@@ -1,5 +1,616 @@
 [
   {
+    "type": 1,
+    "icao": "1NK8",
+    "lat": 42.19174249,
+    "lon": -75.84130501,
+    "communications": [],
+    "elevation": 939,
+    "tower": false,
+    "name": "Chenango Bridge",
+    "runways": [
+      {
+        "type": 100,
+        "width": 44.2,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 42.19117219,
+        "lonStart": -75.84492633,
+        "latEnd": 42.19231279,
+        "lonEnd": -75.83768369,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 44.2,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 42.19402307,
+        "lonStart": -75.84195928,
+        "latEnd": 42.18946191,
+        "lonEnd": -75.84065074,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4862
+  },
+  {
+    "type": 1,
+    "icao": "NY78",
+    "lat": 42.05842027,
+    "lon": -75.02044251000001,
+    "communications": [],
+    "elevation": 1087,
+    "tower": false,
+    "name": "Downsville",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 42.05589481,
+        "lonStart": -75.02409013,
+        "latEnd": 42.06094573,
+        "lonEnd": -75.01679489,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6453
+  },
+  {
+    "type": 1,
+    "icao": "NY25",
+    "lat": 42.450079,
+    "lon": -75.01627350000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "UNICOM"
+      }
+    ],
+    "elevation": 1110,
+    "tower": false,
+    "name": "F AND F AIRPARK INC",
+    "runways": [
+      {
+        "type": 100,
+        "width": 38.1,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 42.451523,
+        "lonStart": -75.020279,
+        "latEnd": 42.448635,
+        "lonEnd": -75.012268,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7378
+  },
+  {
+    "type": 1,
+    "icao": "KBGM",
+    "lat": 42.208025237499996,
+    "lon": -75.9797229725,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12815,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 11930,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 12505,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11930,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11860,
+        "name": "APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12755,
+        "name": "APP/DEP"
+      }
+    ],
+    "elevation": 1636,
+    "tower": true,
+    "name": "GREATER BINGHAMTON EDWIN A LINK FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 42.21894688,
+        "lonStart": -75.98662198,
+        "latEnd": 42.20236301,
+        "lonEnd": -75.97289024,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 42.20498517,
+        "lonStart": -75.98889914,
+        "latEnd": 42.20580589,
+        "lonEnd": -75.97048053,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10138
+  },
+  {
+    "type": 1,
+    "icao": "4N7",
+    "lat": 42.30424138,
+    "lon": -75.78713723,
+    "communications": [],
+    "elevation": 935,
+    "tower": false,
+    "name": "Greene",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 42.30230524,
+        "lonStart": -75.79132672,
+        "latEnd": 42.30617752,
+        "lonEnd": -75.78294774,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10767
+  },
+  {
+    "type": 1,
+    "icao": "H30",
+    "lat": 42.8438185,
+    "lon": -75.5614055,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12612,
+        "name": "SYRACUSE APP/DEP"
+      }
+    ],
+    "elevation": 1134,
+    "tower": false,
+    "name": "HAMILTON MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 42.850231,
+        "lonStart": -75.564789,
+        "latEnd": 42.837406,
+        "lonEnd": -75.558022,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10980
+  },
+  {
+    "type": 1,
+    "icao": "5N5",
+    "lat": 42.00035527,
+    "lon": -75.76018723,
+    "communications": [],
+    "elevation": 870,
+    "tower": false,
+    "name": "Kirkwood Airpark",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 42.00376964,
+        "lonStart": -75.76432415,
+        "latEnd": 41.9969409,
+        "lonEnd": -75.75605031,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13935
+  },
+  {
+    "type": 1,
+    "icao": "KOIC",
+    "lat": 42.566554999999994,
+    "lon": -75.524113,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11902,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1025,
+    "tower": false,
+    "name": "LT WARREN EATON",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 42.560081,
+        "lonStart": -75.524506,
+        "latEnd": 42.573029,
+        "lonEnd": -75.52372,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14645
+  },
+  {
+    "type": 1,
+    "icao": "3NY5",
+    "lat": 42.02368638,
+    "lon": -75.95714139,
+    "communications": [],
+    "elevation": 1558,
+    "tower": false,
+    "name": "Luke",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 42.02569866,
+        "lonStart": -75.95771716,
+        "latEnd": 42.0216741,
+        "lonEnd": -75.95656562,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 15594
+  },
+  {
+    "type": 1,
+    "icao": "NY73",
+    "lat": 42.318132489999996,
+    "lon": -75.59907444999999,
+    "communications": [],
+    "elevation": 1580,
+    "tower": false,
+    "name": "Miller Fld",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 42.3151051,
+        "lonStart": -75.60125142,
+        "latEnd": 42.32115988,
+        "lonEnd": -75.59689748,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17229
+  },
+  {
+    "type": 1,
+    "icao": "8NY3",
+    "lat": 42.26867777,
+    "lon": -75.55972223,
+    "communications": [],
+    "elevation": 1455,
+    "tower": false,
+    "name": "North Fork",
+    "runways": [
+      {
+        "type": 100,
+        "width": 19.81,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 42.26649805,
+        "lonStart": -75.56128842,
+        "latEnd": 42.27085749,
+        "lonEnd": -75.55815604,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18449
+  },
+  {
+    "type": 1,
+    "icao": "N66",
+    "lat": 42.524767,
+    "lon": -75.0644605,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11957,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1764,
+    "tower": false,
+    "name": "ONEONTA MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 42.520634,
+        "lonStart": -75.069885,
+        "latEnd": 42.5289,
+        "lonEnd": -75.059036,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 18672
+  },
+  {
+    "type": 1,
+    "icao": "NY63",
+    "lat": 42.91673722,
+    "lon": -75.23294056,
+    "communications": [],
+    "elevation": 1230,
+    "tower": false,
+    "name": "Oertle Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 42.91874331,
+        "lonStart": -75.23549497,
+        "latEnd": 42.91473113,
+        "lonEnd": -75.23038615,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18828
+  },
+  {
+    "type": 1,
+    "icao": "N23",
+    "lat": 42.302579,
+    "lon": -75.41595799999999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11827,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1027,
+    "tower": false,
+    "name": "SIDNEY MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 42.299525,
+        "lonStart": -75.422569,
+        "latEnd": 42.305633,
+        "lonEnd": -75.409347,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22263
+  },
+  {
+    "type": 1,
+    "icao": "NY53",
+    "lat": 42.73896055,
+    "lon": -75.30016723,
+    "communications": [],
+    "elevation": 1150,
+    "tower": false,
+    "name": "Tri County Airways",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 42.73553404,
+        "lonStart": -75.30254436,
+        "latEnd": 42.74238706,
+        "lonEnd": -75.2977901,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25571
+  },
+  {
+    "type": 1,
+    "icao": "NK23",
+    "lat": 42.92145861,
+    "lon": -75.41406083999999,
+    "communications": [],
+    "elevation": 1399,
+    "tower": false,
+    "name": "Valley View",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 42.92131505,
+        "lonStart": -75.41780147,
+        "latEnd": 42.92160217,
+        "lonEnd": -75.41032021,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 26185
+  },
+  {
+    "type": 1,
+    "icao": "1NY0",
+    "lat": 42.883399999999995,
+    "lon": -75.99964334,
+    "communications": [],
+    "elevation": 1382,
+    "tower": false,
+    "name": "Wallbridge",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 42.88095534,
+        "lonStart": -76.00011223,
+        "latEnd": 42.88584466,
+        "lonEnd": -75.99917445,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 26853
+  },
+  {
+    "type": 1,
+    "icao": "2NK7",
+    "lat": 42.15786305,
+    "lon": -75.14794667000001,
+    "communications": [],
+    "elevation": 1200,
+    "tower": false,
+    "name": "Walton",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 42.15668138,
+        "lonStart": -75.15189209,
+        "latEnd": 42.15904472,
+        "lonEnd": -75.14400125,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 26876
+  },
+  {
+    "type": 1,
+    "icao": "4N8",
+    "lat": 42.05008527,
+    "lon": -75.30100612,
+    "communications": [],
+    "elevation": 1859,
+    "tower": false,
+    "name": "White Birch Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 42.05251407,
+        "lonStart": -75.30232763,
+        "latEnd": 42.04765647,
+        "lonEnd": -75.29968461,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 27205
+  },
+  {
     "type": 17,
     "icao": "12NY",
     "lat": 42.87340444,

@@ -1,55 +1,118 @@
 [
   {
     "type": 1,
-    "icao": "SIEW",
-    "lat": -7.98444444,
-    "lon": -34.51514071,
+    "icao": "SIXW",
+    "lat": -7.5316666649999995,
+    "lon": -34.86166667,
     "communications": [],
-    "elevation": 278,
+    "elevation": 0,
     "tower": false,
-    "name": "Areia Branca",
+    "name": "Cimento Poty",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 20.12,
         "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": -7.98847464,
-        "lonStart": -61.04986718,
-        "latEnd": -7.98041424,
-        "lonEnd": -61.0440217,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -7.53111016,
+        "lonStart": -34.8657135,
+        "latEnd": -7.53222317,
+        "lonEnd": -34.85761984,
         "length": 0,
-        "surfacetype": 5
+        "surfacetype": 1
       }
     ],
-    "id": 1165
+    "id": 4999
   },
   {
     "type": 1,
-    "icao": "SVGT",
-    "lat": -7.416667,
-    "lon": -34.674380425,
+    "icao": "SIPE",
+    "lat": -7.656012499999999,
+    "lon": -34.85651,
     "communications": [],
-    "elevation": 948,
-    "tower": true,
-    "name": "Guasipati",
+    "elevation": 20,
+    "tower": false,
+    "name": "ITAPESSOCA",
     "runways": [
       {
         "type": 100,
-        "width": 21.34,
+        "width": 30.48,
         "surfaceType": null,
         "numberStart": "05",
         "numberEnd": "23",
-        "latStart": -7.4219131,
-        "lonStart": -61.93733995,
-        "latEnd": -7.4114209,
-        "lonEnd": -61.92877185,
+        "latStart": -7.664089,
+        "lonStart": -34.860128,
+        "latEnd": -7.647936,
+        "lonEnd": -34.852892,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 1
       }
     ],
-    "id": 10872
+    "id": 12363
+  },
+  {
+    "type": 1,
+    "icao": "SNJO",
+    "lat": -7.0919905,
+    "lon": -34.8415915,
+    "communications": [],
+    "elevation": 16,
+    "tower": false,
+    "name": "JOAO PESSOA AEROCLUBE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -7.089414,
+        "lonStart": -34.8454,
+        "latEnd": -7.094567,
+        "lonEnd": -34.837783,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12764
+  },
+  {
+    "type": 1,
+    "icao": "SBJP",
+    "lat": -7.148382,
+    "lon": -34.950680500000004,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "PESSOA TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11830,
+        "name": "PESSOA CON"
+      }
+    ],
+    "elevation": 215,
+    "tower": true,
+    "name": "Presidente Castro Pinto",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -7.140264,
+        "lonStart": -34.958672,
+        "latEnd": -7.1565,
+        "lonEnd": -34.942689,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20517
   },
   {
     "type": 17,

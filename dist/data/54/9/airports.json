@@ -1,5 +1,436 @@
 [
   {
+    "type": 1,
+    "icao": "EDXF",
+    "lat": 54.772824963333335,
+    "lon": 9.377806441666667,
+    "communications": [
+      {
+        "type": 56,
+        "frequency": 12510,
+        "name": "BREMEN INFO"
+      },
+      {
+        "type": 54,
+        "frequency": 12285,
+        "name": "Flensburg Info"
+      }
+    ],
+    "elevation": 129,
+    "tower": true,
+    "name": "Flensburg Schaeferhaus",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 54.77419,
+        "lonStart": 9.366522,
+        "latEnd": 54.769779,
+        "lonEnd": 9.389816,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "11L",
+        "numberEnd": "29R",
+        "latStart": 54.77557022,
+        "lonStart": 9.37109031,
+        "latEnd": 54.77147812,
+        "lonEnd": 9.38793058,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 54.77074422,
+        "lonStart": 9.37218438,
+        "latEnd": 54.77518822,
+        "lonEnd": 9.37929538,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9352
+  },
+  {
+    "type": 1,
+    "icao": "ETNH",
+    "lat": 54.31259357666667,
+    "lon": 9.536863199999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "Hohn Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12330,
+        "name": "RADAR"
+      }
+    ],
+    "elevation": 39,
+    "tower": true,
+    "name": "Hohn AB",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 54.310191,
+        "lonStart": 9.519724,
+        "latEnd": 54.31421,
+        "lonEnd": 9.556571,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 12.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 54.31337973,
+        "lonStart": 9.5342946,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.7
+      }
+    ],
+    "id": 11943
+  },
+  {
+    "type": 1,
+    "icao": "EDXJ",
+    "lat": 54.509957,
+    "lon": 9.138245000000001,
+    "communications": [
+      {
+        "type": 56,
+        "frequency": 12510,
+        "name": "BREMEN Information"
+      },
+      {
+        "type": 54,
+        "frequency": 12205,
+        "name": "Husum Info"
+      }
+    ],
+    "elevation": 62,
+    "tower": true,
+    "name": "Husum Schwesing",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 54.504532,
+        "lonStart": 9.132058,
+        "latEnd": 54.515382,
+        "lonEnd": 9.144432,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12231
+  },
+  {
+    "type": 1,
+    "icao": "EK07",
+    "lat": 54.954326710000004,
+    "lon": 9.99536561,
+    "communications": [],
+    "elevation": 141,
+    "tower": false,
+    "name": "Kettingskov (E521)",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.07,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 54.95593351,
+        "lonStart": 9.99560724,
+        "latEnd": 54.95271991,
+        "lonEnd": 9.99512398,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13795
+  },
+  {
+    "type": 1,
+    "icao": "EKPB",
+    "lat": 54.870307,
+    "lon": 9.279015999999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12747,
+        "name": "SKRYDSTRUP APP"
+      }
+    ],
+    "elevation": 88,
+    "tower": true,
+    "name": "Krusa Padborg",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 54.86693323,
+        "lonStart": 9.27303512,
+        "latEnd": 54.87368077,
+        "lonEnd": 9.28499688,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14156
+  },
+  {
+    "type": 1,
+    "icao": "EDHN",
+    "lat": 54.0782755175,
+    "lon": 9.93895565,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12510,
+        "name": "Bremen Information"
+      },
+      {
+        "type": 54,
+        "frequency": 12300,
+        "name": "Neumuenster INFO"
+      }
+    ],
+    "elevation": 71,
+    "tower": true,
+    "name": "Neumuenster",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 54.078959,
+        "lonStart": 9.937147,
+        "latEnd": 54.079886,
+        "lonEnd": 9.946176,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 54.07496745,
+        "lonStart": 9.93570517,
+        "latEnd": 54.07928962,
+        "lonEnd": 9.93679443,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18230
+  },
+  {
+    "type": 1,
+    "icao": "EDXR",
+    "lat": 54.21954805000001,
+    "lon": 9.6014327525,
+    "communications": [
+      {
+        "type": 56,
+        "frequency": 12510,
+        "name": "BREMEN INFO"
+      },
+      {
+        "type": 54,
+        "frequency": 12365,
+        "name": "Rendsburg Info"
+      }
+    ],
+    "elevation": 22,
+    "tower": false,
+    "name": "Rendsburg Schachtholm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 54.217505,
+        "lonStart": 9.596441,
+        "latEnd": 54.224566,
+        "lonEnd": 9.604781,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 54.21935817,
+        "lonStart": 9.59880787,
+        "latEnd": 54.21676303,
+        "lonEnd": 9.60570114,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21358
+  },
+  {
+    "type": 1,
+    "icao": "ETNS",
+    "lat": 54.458674422499996,
+    "lon": 9.5169771275,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12510,
+        "name": "BREMEN INFO"
+      },
+      {
+        "type": 55,
+        "frequency": 12330,
+        "name": "RADAR"
+      },
+      {
+        "type": 55,
+        "frequency": 13515,
+        "name": "RADAR"
+      },
+      {
+        "type": 54,
+        "frequency": 12510,
+        "name": "Schleswig Tower"
+      }
+    ],
+    "elevation": 69,
+    "tower": false,
+    "name": "Schleswig Jagel AB",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 54.450303,
+        "lonStart": 9.499342,
+        "latEnd": 54.468438,
+        "lonEnd": 9.533497,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 54.45557121,
+        "lonStart": 9.50306278,
+        "latEnd": 54.46038548,
+        "lonEnd": 9.53200673,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 23099
+  },
+  {
+    "type": 1,
+    "icao": "EDXC",
+    "lat": 54.425469185,
+    "lon": 9.54172448,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11867,
+        "name": "Kropp Info"
+      }
+    ],
+    "elevation": 54,
+    "tower": true,
+    "name": "Schleswig Kropp",
+    "runways": [
+      {
+        "type": 100,
+        "width": 32,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 54.42527037,
+        "lonStart": 9.53592196,
+        "latEnd": 54.425668,
+        "lonEnd": 9.547527,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23100
+  },
+  {
+    "type": 1,
+    "icao": "EKSB",
+    "lat": 54.962829175,
+    "lon": 9.794023445,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12640,
+        "name": "AFIS"
+      }
+    ],
+    "elevation": 24,
+    "tower": true,
+    "name": "Sonderborg",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 54.96895279,
+        "lonStart": 9.78488889,
+        "latEnd": 54.95670556,
+        "lonEnd": 9.803158,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 23838
+  },
+  {
     "type": 17,
     "icao": "ED2B",
     "lat": 54.79075176,

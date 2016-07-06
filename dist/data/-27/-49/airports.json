@@ -1,61 +1,134 @@
 [
   {
     "type": 1,
-    "icao": "SCRA",
-    "lat": -26.332541499999998,
-    "lon": -48.473301665,
+    "icao": "SIJY",
+    "lat": -26.983055555,
+    "lon": -48.81638889,
     "communications": [],
-    "elevation": 97,
+    "elevation": 33,
     "tower": false,
-    "name": "ChaC1aral",
+    "name": "Itajai - Campo Comandantes",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 17.98,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": -26.33181861,
-        "lonStart": -70.61333894,
-        "latEnd": -26.33326439,
-        "lonEnd": -70.60128091,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -26.98561177,
+        "lonStart": -48.81863695,
+        "latEnd": -26.98049934,
+        "lonEnd": -48.81414083,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 4850
+    "id": 12593
   },
   {
     "type": 1,
-    "icao": "SCES",
-    "lat": -26.3111265,
-    "lon": -48.043816500000005,
+    "icao": "SBJV",
+    "lat": -26.2244515,
+    "lon": -48.797362500000006,
     "communications": [
       {
         "type": 54,
-        "frequency": 11820,
-        "name": "AFIS"
+        "frequency": 11800,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12050,
+        "name": "TWR"
       }
     ],
-    "elevation": 5240,
+    "elevation": 15,
     "tower": true,
-    "name": "RICARDO GARCIA POSADA",
+    "name": "LAURO CARNEIRO DE LOYOLA",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": -26.311342,
-        "lonStart": -69.776722,
-        "latEnd": -26.310911,
-        "lonEnd": -69.753678,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -26.219822,
+        "lonStart": -48.803761,
+        "latEnd": -26.229081,
+        "lonEnd": -48.790964,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 20918
+    "id": 14426
+  },
+  {
+    "type": 1,
+    "icao": "SBNF",
+    "lat": -26.8799985,
+    "lon": -48.6513875,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12762,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11820,
+        "name": "NAVEGANTES TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11950,
+        "name": "NAVEGANTES APP"
+      }
+    ],
+    "elevation": 18,
+    "tower": true,
+    "name": "Ministro Victor Konder",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -26.8844,
+        "lonStart": -48.658397,
+        "latEnd": -26.875597,
+        "lonEnd": -48.644378,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17272
+  },
+  {
+    "type": 1,
+    "icao": "SSSS",
+    "lat": -26.221111105,
+    "lon": -48.56444444,
+    "communications": [],
+    "elevation": 49,
+    "tower": false,
+    "name": "SSSS Sao Francisco do Sul",
+    "runways": [
+      {
+        "type": 100,
+        "width": 35,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -26.21801918,
+        "lonStart": -48.56549822,
+        "latEnd": -26.22420303,
+        "lonEnd": -48.56339066,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 22450
   },
   {
     "type": 17,

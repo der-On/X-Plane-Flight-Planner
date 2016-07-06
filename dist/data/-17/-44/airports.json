@@ -1,39 +1,112 @@
 [
   {
     "type": 1,
-    "icao": "SPQU",
-    "lat": -16.340578,
-    "lon": -43.963018285000004,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11870,
-        "name": "TWR"
-      },
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "GND"
-      }
-    ],
-    "elevation": 8404,
-    "tower": true,
-    "name": "RodrC-guez BallC3n",
+    "icao": "SSTX",
+    "lat": -16.19416667,
+    "lon": -43.073333325,
+    "communications": [],
+    "elevation": 2920,
+    "tower": false,
+    "name": "Fazenda Lagoa dos Patos",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 29.87,
         "surfaceType": null,
         "numberStart": "10",
         "numberEnd": "28",
-        "latStart": -16.33983839,
-        "lonStart": -71.58471896,
-        "latEnd": -16.34131761,
-        "lonEnd": -71.55688582,
+        "latStart": -16.19530752,
+        "lonStart": -43.07835479,
+        "latEnd": -16.19302582,
+        "lonEnd": -43.06831186,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 8447
+  },
+  {
+    "type": 1,
+    "icao": "SIVN",
+    "lat": -16.6,
+    "lon": -43.76666667,
+    "communications": [],
+    "elevation": 2149,
+    "tower": false,
+    "name": "Fazenda Sansara",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -16.60467732,
+        "lonStart": -43.76911503,
+        "latEnd": -16.59532268,
+        "lonEnd": -43.76421831,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 8771
+  },
+  {
+    "type": 1,
+    "icao": "SNFK",
+    "lat": -16.4380569,
+    "lon": -43.4691658,
+    "communications": [],
+    "elevation": 2484,
+    "tower": true,
+    "name": "Francisco Sa",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.33,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -16.43471387,
+        "lonStart": -43.47230415,
+        "latEnd": -16.44139993,
+        "lonEnd": -43.46602745,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 9666
+  },
+  {
+    "type": 1,
+    "icao": "SBMK",
+    "lat": -16.706925,
+    "lon": -43.818899880000004,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13170,
+        "name": "RDO Montes Claros"
+      }
+    ],
+    "elevation": 2191,
+    "tower": true,
+    "name": "MARIO RIBEIRO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -16.70578979,
+        "lonStart": -43.82869418,
+        "latEnd": -16.70806021,
+        "lonEnd": -43.80910558,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 21655
+    "id": 15833
   }
 ]

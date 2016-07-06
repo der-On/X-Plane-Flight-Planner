@@ -1,5 +1,93 @@
 [
   {
+    "type": 1,
+    "icao": "SBEG",
+    "lat": -3.038611,
+    "lon": -60.0497225,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12765,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11910,
+        "name": "MANAUS APP"
+      },
+      {
+        "type": 55,
+        "frequency": 11970,
+        "name": "MANAUS APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12040,
+        "name": "MANAUS APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12280,
+        "name": "MANAUS APP"
+      }
+    ],
+    "elevation": 264,
+    "tower": true,
+    "name": "Eduardo Gomes",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -3.038583,
+        "lonStart": -60.061889,
+        "latEnd": -3.038639,
+        "lonEnd": -60.037556,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 6979
+  },
+  {
+    "type": 1,
+    "icao": "SWFN",
+    "lat": -3.072777775,
+    "lon": -60.02111111000001,
+    "communications": [],
+    "elevation": 203,
+    "tower": false,
+    "name": "Flores",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -3.07245582,
+        "lonStart": -60.02469734,
+        "latEnd": -3.07309973,
+        "lonEnd": -60.01752488,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 9371
+  },
+  {
     "type": 17,
     "icao": "SIFI",
     "lat": -3.0925,

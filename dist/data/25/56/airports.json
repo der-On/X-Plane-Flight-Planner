@@ -1,28 +1,44 @@
 [
   {
     "type": 1,
-    "icao": "VEPU",
-    "lat": 25.7595945,
-    "lon": 56.578207,
-    "communications": [],
-    "elevation": 129,
-    "tower": false,
-    "name": "PURNEA",
+    "icao": "OMFJ",
+    "lat": 25.1121165,
+    "lon": 56.324217000000004,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 11945,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12460,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12940,
+        "name": "RADAR"
+      }
+    ],
+    "elevation": 152,
+    "tower": true,
+    "name": "FUJAIRAH INTL",
     "runways": [
       {
         "type": 100,
-        "width": 45.72,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 25.759564,
-        "lonStart": 87.396789,
-        "latEnd": 25.759625,
-        "lonEnd": 87.423231,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 25.118575,
+        "lonStart": 56.307031,
+        "latEnd": 25.105658,
+        "lonEnd": 56.341403,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 1
       }
     ],
-    "id": 19610
+    "id": 7725
   }
 ]

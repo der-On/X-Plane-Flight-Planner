@@ -1,9 +1,9 @@
 [
   {
     "type": 1,
-    "icao": "LICT",
-    "lat": 37.9123720225,
-    "lon": 25.1908297325,
+    "icao": "LGMK",
+    "lat": 37.43538532,
+    "lon": 25.348137795,
     "communications": [
       {
         "type": 54,
@@ -11,47 +11,81 @@
         "name": "TWR"
       },
       {
-        "type": 54,
-        "frequency": 11970,
-        "name": "Trapani TWR"
-      },
-      {
         "type": 55,
-        "frequency": 11995,
-        "name": "Trapani APP"
+        "frequency": 12210,
+        "name": "APP"
       }
     ],
-    "elevation": 23,
+    "elevation": 405,
     "tower": true,
-    "name": "TRAPANI Birgi",
+    "name": "Mikonos",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 29.87,
         "surfaceType": null,
-        "numberStart": "13R",
-        "numberEnd": "31L",
-        "latStart": 37.91883762,
-        "lonStart": 12.47579225,
-        "latEnd": 37.9039763,
-        "lonEnd": 12.50011886,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "13L",
-        "numberEnd": "31R",
-        "latStart": 37.92043446,
-        "lonStart": 12.47731067,
-        "latEnd": 37.90623971,
-        "lonEnd": 12.50054605,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 37.44368764,
+        "lonStart": 25.34446159,
+        "latEnd": 37.427083,
+        "lonEnd": 25.351814,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 24834
+    "id": 17174
+  },
+  {
+    "type": 1,
+    "icao": "LGNX",
+    "lat": 37.08120915,
+    "lon": 25.368120775,
+    "communications": [],
+    "elevation": 9,
+    "tower": true,
+    "name": "Naxos",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 37.08526001,
+        "lonStart": 25.36821153,
+        "latEnd": 37.07715829,
+        "lonEnd": 25.36803002,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 18164
+  },
+  {
+    "type": 1,
+    "icao": "LGPA",
+    "lat": 37.016602000000006,
+    "lon": 25.133297,
+    "communications": [],
+    "elevation": 121,
+    "tower": true,
+    "name": "Paros",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 37.01979483,
+        "lonStart": 25.133297,
+        "latEnd": 37.01340917,
+        "lonEnd": 25.133297,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19803
   }
 ]

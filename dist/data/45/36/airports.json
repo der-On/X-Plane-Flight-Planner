@@ -1,123 +1,34 @@
 [
   {
     "type": 1,
-    "icao": "LR82",
-    "lat": 45.216425,
-    "lon": 36.096111,
+    "icao": "UKFK",
+    "lat": 45.372868,
+    "lon": 36.402761,
     "communications": [
       {
         "type": 54,
-        "frequency": 13000,
+        "frequency": 12800,
         "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 13000,
-        "name": "APP"
-      },
-      {
-        "type": 56,
-        "frequency": 13000,
-        "name": "DEP"
       }
     ],
-    "elevation": 344,
+    "elevation": 152,
     "tower": true,
-    "name": "BOBOC",
+    "name": "KERCH INTL",
     "runways": [
       {
         "type": 100,
-        "width": 79.86,
+        "width": 35.05,
         "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 45.208242,
-        "lonStart": 26.967614,
-        "latEnd": 45.224608,
-        "lonEnd": 26.989597,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 45.370675,
+        "lonStart": 36.392669,
+        "latEnd": 45.375061,
+        "lonEnd": 36.412853,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 1
       }
     ],
-    "id": 1798
-  },
-  {
-    "type": 1,
-    "icao": "LRTC",
-    "lat": 45.0624865,
-    "lon": 36.8826555,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12030,
-        "name": "TULCEA TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12030,
-        "name": "TULCEA APP"
-      }
-    ],
-    "elevation": 200,
-    "tower": true,
-    "name": "CATALOI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 45.071206,
-        "lonStart": 28.711544,
-        "latEnd": 45.053767,
-        "lonEnd": 28.717081,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 3732
-  },
-  {
-    "type": 1,
-    "icao": "LR79",
-    "lat": 45.158611,
-    "lon": 36.296110999999996,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13000,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 13000,
-        "name": "APP"
-      },
-      {
-        "type": 56,
-        "frequency": 13000,
-        "name": "DEP"
-      }
-    ],
-    "elevation": 131,
-    "tower": true,
-    "name": "IANCA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 79.86,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 45.148611,
-        "lonStart": 27.423611,
-        "latEnd": 45.168611,
-        "lonEnd": 27.438056,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 12249
+    "id": 13319
   }
 ]

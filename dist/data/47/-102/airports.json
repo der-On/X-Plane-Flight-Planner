@@ -1,5 +1,705 @@
 [
   {
+    "type": 1,
+    "icao": "95D",
+    "lat": 47.2508335,
+    "lon": -101.8141665,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1791,
+    "tower": false,
+    "name": "BEULAH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 47.253056,
+        "lonStart": -101.821389,
+        "latEnd": 47.248611,
+        "lonEnd": -101.806944,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1680
+  },
+  {
+    "type": 1,
+    "icao": "30ND",
+    "lat": 47.648332769999996,
+    "lon": -101.07209473,
+    "communications": [],
+    "elevation": 1850,
+    "tower": false,
+    "name": "Blotter Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 47.64948845,
+        "lonStart": -101.07353419,
+        "latEnd": 47.64717709,
+        "lonEnd": -101.07065527,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 2850
+  },
+  {
+    "type": 1,
+    "icao": "NA90",
+    "lat": 47.46666388,
+    "lon": -101.22265445,
+    "communications": [],
+    "elevation": 2000,
+    "tower": false,
+    "name": "Circle Z Landing Strip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 47.46866006,
+        "lonStart": -101.22513219,
+        "latEnd": 47.4646677,
+        "lonEnd": -101.22017671,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 47.46666388,
+        "lonStart": -101.22468322,
+        "latEnd": 47.46666388,
+        "lonEnd": -101.22062568,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5024
+  },
+  {
+    "type": 1,
+    "icao": "ND58",
+    "lat": 47.34833861,
+    "lon": -101.81628028,
+    "communications": [],
+    "elevation": 1904,
+    "tower": false,
+    "name": "Dakota Gas - Private",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 47.35045772,
+        "lonStart": -101.82148557,
+        "latEnd": 47.3462195,
+        "lonEnd": -101.81107499,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5949
+  },
+  {
+    "type": 1,
+    "icao": "NA39",
+    "lat": 47.89778666,
+    "lon": -101.85461056,
+    "communications": [],
+    "elevation": 2133,
+    "tower": false,
+    "name": "Dorbrinski",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 47.90140684,
+        "lonStart": -101.85451631,
+        "latEnd": 47.89416648,
+        "lonEnd": -101.85470481,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6398
+  },
+  {
+    "type": 1,
+    "icao": "41ND",
+    "lat": 47.60472111,
+    "lon": -101.1018175,
+    "communications": [],
+    "elevation": 1895,
+    "tower": false,
+    "name": "Evensons",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 47.60704091,
+        "lonStart": -101.10306978,
+        "latEnd": 47.60240131,
+        "lonEnd": -101.10056522,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7360
+  },
+  {
+    "type": 1,
+    "icao": "Y32",
+    "lat": 47.68333472,
+    "lon": -101.60044223,
+    "communications": [],
+    "elevation": 2065,
+    "tower": false,
+    "name": "Fischer - Private",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 47.68657629,
+        "lonStart": -101.59959322,
+        "latEnd": 47.68009315,
+        "lonEnd": -101.60129124,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9312
+  },
+  {
+    "type": 1,
+    "icao": "3NA3",
+    "lat": 47.20193944,
+    "lon": -101.25209723,
+    "communications": [],
+    "elevation": 1970,
+    "tower": false,
+    "name": "Folk - Private",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 47.20193944,
+        "lonStart": -101.25734567,
+        "latEnd": 47.20193944,
+        "lonEnd": -101.24684879,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9552
+  },
+  {
+    "type": 1,
+    "icao": "D05",
+    "lat": 47.65583325,
+    "lon": -101.4364585,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1935,
+    "tower": false,
+    "name": "GARRISON MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 47.658889,
+        "lonStart": -101.441389,
+        "latEnd": 47.651111,
+        "lonEnd": -101.431667,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 36.58,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 47.653611,
+        "lonStart": -101.440278,
+        "latEnd": 47.659722,
+        "lonEnd": -101.4325,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9897
+  },
+  {
+    "type": 1,
+    "icao": "37N",
+    "lat": 47.48305472,
+    "lon": -101.40877167,
+    "communications": [],
+    "elevation": 1723,
+    "tower": false,
+    "name": "Garrison Dam Recreational Airpark",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 47.4852491,
+        "lonStart": -101.41439573,
+        "latEnd": 47.48086034,
+        "lonEnd": -101.40314761,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 10329
+  },
+  {
+    "type": 1,
+    "icao": "3NA2",
+    "lat": 47.302771660000005,
+    "lon": -101.06709223,
+    "communications": [],
+    "elevation": 1790,
+    "tower": false,
+    "name": "Lorentzen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 6.1,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 47.30333455,
+        "lonStart": -101.06937284,
+        "latEnd": 47.30220877,
+        "lonEnd": -101.06481162,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 15501
+  },
+  {
+    "type": 1,
+    "icao": "KHZE",
+    "lat": 47.289861,
+    "lon": -101.5809445,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1813,
+    "tower": false,
+    "name": "MERCER CO RGNL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 47.295972,
+        "lonStart": -101.5855,
+        "latEnd": 47.28375,
+        "lonEnd": -101.576389,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16039
+  },
+  {
+    "type": 1,
+    "icao": "23ND",
+    "lat": 47.0822165,
+    "lon": -101.26709149999999,
+    "communications": [],
+    "elevation": 2110,
+    "tower": false,
+    "name": "MINNKOTA PVT",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 47.081264,
+        "lonStart": -101.274997,
+        "latEnd": 47.083169,
+        "lonEnd": -101.259186,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16139
+  },
+  {
+    "type": 1,
+    "icao": "ND39",
+    "lat": 47.957787769999996,
+    "lon": -101.80127667,
+    "communications": [],
+    "elevation": 2081,
+    "tower": false,
+    "name": "Makoti",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 47.95941242,
+        "lonStart": -101.80531424,
+        "latEnd": 47.95616312,
+        "lonEnd": -101.7972391,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16515
+  },
+  {
+    "type": 1,
+    "icao": "8NA8",
+    "lat": 47.706945829999995,
+    "lon": -101.57655278,
+    "communications": [],
+    "elevation": 2020,
+    "tower": false,
+    "name": "Miller Private Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 47.70696977,
+        "lonStart": -101.57859058,
+        "latEnd": 47.70692189,
+        "lonEnd": -101.57451498,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 47.70831711,
+        "lonStart": -101.57651721,
+        "latEnd": 47.70557455,
+        "lonEnd": -101.57658835,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17232
+  },
+  {
+    "type": 1,
+    "icao": "89ND",
+    "lat": 47.911394720000004,
+    "lon": -101.24932639,
+    "communications": [],
+    "elevation": 2245,
+    "tower": false,
+    "name": "Poleschook",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 47.91372625,
+        "lonStart": -101.24932639,
+        "latEnd": 47.90906319,
+        "lonEnd": -101.24932639,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20317
+  },
+  {
+    "type": 1,
+    "icao": "NA27",
+    "lat": 47.91028333,
+    "lon": -101.14543362,
+    "communications": [],
+    "elevation": 2100,
+    "tower": false,
+    "name": "Polsfut Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 47.9141235,
+        "lonStart": -101.14543362,
+        "latEnd": 47.90644316,
+        "lonEnd": -101.14543362,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20327
+  },
+  {
+    "type": 1,
+    "icao": "ND56",
+    "lat": 47.93334111000001,
+    "lon": -101.66710972999999,
+    "communications": [],
+    "elevation": 2109,
+    "tower": false,
+    "name": "Ryder",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 47.93199551,
+        "lonStart": -101.66885558,
+        "latEnd": 47.93468671,
+        "lonEnd": -101.66536388,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 47.93482203,
+        "lonStart": -101.66668008,
+        "latEnd": 47.93186019,
+        "lonEnd": -101.66753938,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 47.9345082,
+        "lonStart": -101.66770953,
+        "latEnd": 47.93217402,
+        "lonEnd": -101.66650993,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21878
+  },
+  {
+    "type": 1,
+    "icao": "0NA8",
+    "lat": 47.87472666,
+    "lon": -101.14571112,
+    "communications": [],
+    "elevation": 2150,
+    "tower": false,
+    "name": "Scheresky Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 47.87829253,
+        "lonStart": -101.14571112,
+        "latEnd": 47.87116079,
+        "lonEnd": -101.14571112,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23087
+  },
+  {
+    "type": 1,
+    "icao": "5NA0",
+    "lat": 47.7736125,
+    "lon": -101.27904667,
+    "communications": [],
+    "elevation": 2065,
+    "tower": false,
+    "name": "Semchenko",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 47.7736125,
+        "lonStart": -101.28312811,
+        "latEnd": 47.7736125,
+        "lonEnd": -101.27496523,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 47.77503016,
+        "lonStart": -101.27981443,
+        "latEnd": 47.77219484,
+        "lonEnd": -101.27827891,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23249
+  },
+  {
+    "type": 1,
+    "icao": "0NA7",
+    "lat": 47.39777333,
+    "lon": -101.07264834,
+    "communications": [],
+    "elevation": 1935,
+    "tower": false,
+    "name": "Stevens Strip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 16.76,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 47.4013392,
+        "lonStart": -101.07264834,
+        "latEnd": 47.39420746,
+        "lonEnd": -101.07264834,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 47.39777333,
+        "lonStart": -101.07467446,
+        "latEnd": 47.39777333,
+        "lonEnd": -101.07062222,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24175
+  },
+  {
+    "type": 1,
+    "icao": "5C8",
+    "lat": 47.352672749999996,
+    "lon": -101.02530175000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1904,
+    "tower": false,
+    "name": "WASHBURN MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 47.350133,
+        "lonStart": -101.032153,
+        "latEnd": 47.351744,
+        "lonEnd": -101.017417,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 36.58,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 47.356992,
+        "lonStart": -101.025256,
+        "latEnd": 47.351822,
+        "lonEnd": -101.026381,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 26517
+  },
+  {
     "type": 17,
     "icao": "ND50",
     "lat": 47.29833666,

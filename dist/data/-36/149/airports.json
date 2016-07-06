@@ -1,5 +1,196 @@
 [
   {
+    "type": 1,
+    "icao": "YSCB",
+    "lat": -35.30424910875,
+    "lon": 149.1909923975,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12745,
+        "name": "YSCB ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 11870,
+        "name": "CANBERRA MULT"
+      },
+      {
+        "type": 52,
+        "frequency": 12170,
+        "name": "CANBERRA GROUND CLD"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "CANBERRA GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11870,
+        "name": "CANBERRA TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12590,
+        "name": "MELBOURNE CENTRE CNTR"
+      },
+      {
+        "type": 55,
+        "frequency": 12450,
+        "name": "CANBERRA APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12590,
+        "name": "CANBERRA APP"
+      }
+    ],
+    "elevation": 1887,
+    "tower": true,
+    "name": "Canberra",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -35.290631,
+        "lonStart": 149.194444,
+        "latEnd": -35.320209,
+        "lonEnd": 149.194444,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -35.30068456,
+        "lonStart": 149.18515573,
+        "latEnd": -35.31038622,
+        "lonEnd": 149.19932341,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 20.1,
+        "surfaceType": 1,
+        "numberStart": "H19",
+        "numberEnd": null,
+        "latStart": -35.3035012,
+        "lonStart": 149.19599879,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.1
+      },
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H21",
+        "numberEnd": null,
+        "latStart": -35.30267888,
+        "lonStart": 149.18592403,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      },
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H22",
+        "numberEnd": null,
+        "latStart": -35.30286358,
+        "lonStart": 149.1861941,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      },
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H23",
+        "numberEnd": null,
+        "latStart": -35.30303843,
+        "lonStart": 149.18645512,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 4447
+  },
+  {
+    "type": 1,
+    "icao": "YGDO",
+    "lat": -35.050049525000006,
+    "lon": 149.2559716,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12670,
+        "name": "GUNDAROO CTAF"
+      },
+      {
+        "type": 52,
+        "frequency": 12450,
+        "name": "CANBERRA APPROACH"
+      }
+    ],
+    "elevation": 1895,
+    "tower": false,
+    "name": "Gundaroo",
+    "runways": [
+      {
+        "type": 100,
+        "width": 13,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -35.0549217,
+        "lonStart": 149.25511055,
+        "latEnd": -35.04517735,
+        "lonEnd": 149.25683265,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10894
+  },
+  {
+    "type": 1,
+    "icao": "YTAL",
+    "lat": -35.398363270000004,
+    "lon": 149.167231495,
+    "communications": [],
+    "elevation": 2044,
+    "tower": false,
+    "name": "TRALEE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 25.91,
+        "surfaceType": null,
+        "numberStart": "3",
+        "numberEnd": "21",
+        "latStart": -35.40023079,
+        "lonStart": 149.16543886,
+        "latEnd": -35.39649575,
+        "lonEnd": 149.16902413,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24828
+  },
+  {
     "type": 17,
     "icao": "YMJR",
     "lat": -35.245885,

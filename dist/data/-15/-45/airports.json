@@ -1,39 +1,54 @@
 [
   {
     "type": 1,
-    "icao": "SPZA",
-    "lat": -14.854192999999999,
-    "lon": -44.90919,
-    "communications": [
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11810,
-        "name": "NASCA TWR"
-      }
-    ],
-    "elevation": 1860,
+    "icao": "SNKC",
+    "lat": -14.1169443,
+    "lon": -44.450557700000005,
+    "communications": [],
+    "elevation": 2018,
     "tower": true,
-    "name": "MARIA REICHE NEUMAN",
+    "name": "Cocos",
     "runways": [
       {
         "type": 100,
-        "width": 18.29,
+        "width": 14.33,
         "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": -14.856064,
-        "lonStart": -74.966058,
-        "latEnd": -14.852322,
-        "lonEnd": -74.957564,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -14.12044028,
+        "lonStart": -44.45347685,
+        "latEnd": -14.11344832,
+        "lonEnd": -44.44763855,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
       }
     ],
-    "id": 15820
+    "id": 5150
+  },
+  {
+    "type": 1,
+    "icao": "SNMW",
+    "lat": -14.3983326,
+    "lon": -44.3691673,
+    "communications": [],
+    "elevation": 1798,
+    "tower": true,
+    "name": "Montalvania",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -14.39308297,
+        "lonStart": -44.37124779,
+        "latEnd": -14.40358223,
+        "lonEnd": -44.36708681,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 17399
   }
 ]

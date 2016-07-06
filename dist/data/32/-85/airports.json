@@ -1,5 +1,613 @@
 [
   {
+    "type": 1,
+    "icao": "6A1",
+    "lat": 32.56750625,
+    "lon": -84.25074799999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 666,
+    "tower": false,
+    "name": "BUTLER MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 32.573142,
+        "lonStart": -84.250792,
+        "latEnd": 32.562147,
+        "lonEnd": -84.250703,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 54.86,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 32.565819,
+        "lonStart": -84.254189,
+        "latEnd": 32.568917,
+        "lonEnd": -84.247308,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 2005
+  },
+  {
+    "type": 1,
+    "icao": "KCSG",
+    "lat": 32.51613475,
+    "lon": -84.93988825,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12775,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12010,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12010,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12550,
+        "name": "ATLANTA APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12655,
+        "name": "ATLANTA APP/DEP"
+      }
+    ],
+    "elevation": 396,
+    "tower": true,
+    "name": "COLUMBUS METROPOLITAN",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 32.511167,
+        "lonStart": -84.945317,
+        "latEnd": 32.522511,
+        "lonEnd": -84.926992,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 32.518736,
+        "lonStart": -84.9488,
+        "latEnd": 32.512125,
+        "lonEnd": -84.938444,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4068
+  },
+  {
+    "type": 1,
+    "icao": "53A",
+    "lat": 32.301987499999996,
+    "lon": -84.0074805,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      },
+      {
+        "type": 55,
+        "frequency": 11960,
+        "name": "ATLANTA APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12420,
+        "name": "ATLANTA APP/DEP"
+      }
+    ],
+    "elevation": 337,
+    "tower": false,
+    "name": "DR C P SAVAGE SR",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 32.307786,
+        "lonStart": -84.007417,
+        "latEnd": 32.296189,
+        "lonEnd": -84.007544,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5873
+  },
+  {
+    "type": 1,
+    "icao": "KPIM",
+    "lat": 32.840699,
+    "lon": -84.882436,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 12770,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 52,
+        "frequency": 12045,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 55,
+        "frequency": 12550,
+        "name": "ATLANTA APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12655,
+        "name": "ATLANTA APP/DEP"
+      }
+    ],
+    "elevation": 902,
+    "tower": false,
+    "name": "HARRIS CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 32.840506,
+        "lonStart": -84.890575,
+        "latEnd": 32.840892,
+        "lonEnd": -84.874297,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11018
+  },
+  {
+    "type": 1,
+    "icao": "GA08",
+    "lat": 32.69180361,
+    "lon": -84.49714278,
+    "communications": [],
+    "elevation": 659,
+    "tower": false,
+    "name": "Jumpin J",
+    "runways": [
+      {
+        "type": 100,
+        "width": 19.81,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 32.69443836,
+        "lonStart": -84.49780823,
+        "latEnd": 32.68916886,
+        "lonEnd": -84.49647733,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13139
+  },
+  {
+    "type": 1,
+    "icao": "KLSF",
+    "lat": 32.331782000000004,
+    "lon": -84.9871555,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13437,
+        "name": "ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 12170,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12105,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11905,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12550,
+        "name": "ATLANTA APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12655,
+        "name": "ATLANTA APP/DEP"
+      }
+    ],
+    "elevation": 232,
+    "tower": true,
+    "name": "LAWSON AAF",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 32.343003,
+        "lonStart": -84.996508,
+        "latEnd": 32.320561,
+        "lonEnd": -84.977803,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14440
+  },
+  {
+    "type": 1,
+    "icao": "9GA5",
+    "lat": 32.05821861,
+    "lon": -84.29018889,
+    "communications": [],
+    "elevation": 475,
+    "tower": false,
+    "name": "Lowell Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 32.05814203,
+        "lonStart": -84.29277653,
+        "latEnd": 32.05829519,
+        "lonEnd": -84.28760125,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 15546
+  },
+  {
+    "type": 1,
+    "icao": "82A",
+    "lat": 32.282375,
+    "lon": -84.50352799999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 682,
+    "tower": false,
+    "name": "MARION CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 32.285485,
+        "lonStart": -84.507189,
+        "latEnd": 32.279265,
+        "lonEnd": -84.499867,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 15835
+  },
+  {
+    "type": 1,
+    "icao": "7A9",
+    "lat": 32.09043861000001,
+    "lon": -84.37213556,
+    "communications": [],
+    "elevation": 525,
+    "tower": false,
+    "name": "Peterson Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 70.1,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 32.09489872,
+        "lonStart": -84.3723194,
+        "latEnd": 32.0859785,
+        "lonEnd": -84.37195172,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20023
+  },
+  {
+    "type": 1,
+    "icao": "3GA1",
+    "lat": 32.72513777,
+    "lon": -84.35825112,
+    "communications": [],
+    "elevation": 554,
+    "tower": false,
+    "name": "Prattsburg",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 32.72505401,
+        "lonStart": -84.36110233,
+        "latEnd": 32.72522153,
+        "lonEnd": -84.35539991,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20510
+  },
+  {
+    "type": 1,
+    "icao": "5A9",
+    "lat": 32.9334595,
+    "lon": -84.6888155,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 880,
+    "tower": false,
+    "name": "ROOSEVELT MEM",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 32.937519,
+        "lonStart": -84.689664,
+        "latEnd": 32.9294,
+        "lonEnd": -84.687967,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 21028
+  },
+  {
+    "type": 1,
+    "icao": "0GA9",
+    "lat": 32.71388888,
+    "lon": -84.02750001,
+    "communications": [],
+    "elevation": 505,
+    "tower": false,
+    "name": "Roberta Industrial Park",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 32.71198793,
+        "lonStart": -84.03309202,
+        "latEnd": 32.71578983,
+        "lonEnd": -84.021908,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21576
+  },
+  {
+    "type": 1,
+    "icao": "KACJ",
+    "lat": 32.1109925,
+    "lon": -84.18893949999999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12837,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 12395,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 52,
+        "frequency": 11995,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 55,
+        "frequency": 12550,
+        "name": "ATLANTA APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12655,
+        "name": "ATLANTA APP/DEP"
+      }
+    ],
+    "elevation": 471,
+    "tower": false,
+    "name": "SOUTHER FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 32.104378,
+        "lonStart": -84.195511,
+        "latEnd": 32.115906,
+        "lonEnd": -84.181561,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 32.111925,
+        "lonStart": -84.195458,
+        "latEnd": 32.111761,
+        "lonEnd": -84.183228,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22399
+  },
+  {
+    "type": 1,
+    "icao": "KOPN",
+    "lat": 32.955003,
+    "lon": -84.2641165,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13397,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11960,
+        "name": "ATLANTA APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12420,
+        "name": "ATLANTA APP/DEP"
+      }
+    ],
+    "elevation": 798,
+    "tower": false,
+    "name": "THOMASTON UPSON CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 32.959292,
+        "lonStart": -84.273133,
+        "latEnd": 32.950714,
+        "lonEnd": -84.2551,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 24697
+  },
+  {
+    "type": 1,
+    "icao": "GA49",
+    "lat": 32.92790972,
+    "lon": -84.14130334000001,
+    "communications": [],
+    "elevation": 730,
+    "tower": false,
+    "name": "Thistle Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 32.93126352,
+        "lonStart": -84.14215265,
+        "latEnd": 32.92455592,
+        "lonEnd": -84.14045403,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25270
+  },
+  {
     "type": 17,
     "icao": "GA97",
     "lat": 32.38347888,

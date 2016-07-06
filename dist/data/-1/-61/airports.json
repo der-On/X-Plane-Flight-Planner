@@ -1,73 +1,28 @@
 [
   {
     "type": 1,
-    "icao": "SEMT",
-    "lat": -0.94556483,
-    "lon": -60.74427153,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11870,
-        "name": "TWR"
-      },
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "GND"
-      },
-      {
-        "type": 55,
-        "frequency": 12270,
-        "name": "APP"
-      },
-      {
-        "type": 51,
-        "frequency": 12690,
-        "name": "RDO"
-      }
-    ],
-    "elevation": 47,
-    "tower": true,
-    "name": "Eloy Alfaro Intl",
+    "icao": "SJVP",
+    "lat": -0.79916667,
+    "lon": -60.08388889,
+    "communications": [],
+    "elevation": 875,
+    "tower": false,
+    "name": "Vila Pitinga",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 39.93,
         "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": -0.95327386,
-        "lonStart": -80.68947771,
-        "latEnd": -0.93888213,
-        "lonEnd": -80.6681383,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -0.80102063,
+        "lonStart": -60.0908468,
+        "latEnd": -0.79731271,
+        "lonEnd": -60.07693098,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 24.4,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -0.94512194,
-        "lonStart": -80.6744658,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.4
-      },
-      {
-        "type": 102,
-        "width": 24.4,
-        "surfaceType": 2,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": -0.94498139,
-        "lonStart": -80.67426048,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.4
+        "surfacetype": 5
       }
     ],
-    "id": 7135
+    "id": 26329
   }
 ]

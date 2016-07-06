@@ -1,5 +1,322 @@
 [
   {
+    "type": 1,
+    "icao": "CO07",
+    "lat": 39.85415388,
+    "lon": -105.47138444999999,
+    "communications": [],
+    "elevation": 8899,
+    "tower": false,
+    "name": "Athanasiou Valley",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 39.85472418,
+        "lonStart": -105.47487946,
+        "latEnd": 39.85358358,
+        "lonEnd": -105.46788944,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1289
+  },
+  {
+    "type": 1,
+    "icao": "CO98",
+    "lat": 39.54998805,
+    "lon": -105.03387251,
+    "communications": [],
+    "elevation": 5450,
+    "tower": false,
+    "name": "Bowen Farms Nr 1",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 39.5504591,
+        "lonStart": -105.03701532,
+        "latEnd": 39.549517,
+        "lonEnd": -105.0307297,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 39.55173823,
+        "lonStart": -105.0334313,
+        "latEnd": 39.54823787,
+        "lonEnd": -105.03431372,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3067
+  },
+  {
+    "type": 1,
+    "icao": "27CO",
+    "lat": 39.54276611,
+    "lon": -105.31749251,
+    "communications": [],
+    "elevation": 8040,
+    "tower": false,
+    "name": "Flying J Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 39.54537035,
+        "lonStart": -105.31737458,
+        "latEnd": 39.54016187,
+        "lonEnd": -105.31761044,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9461
+  },
+  {
+    "type": 1,
+    "icao": "77CO",
+    "lat": 39.408320829999994,
+    "lon": -105.83667806,
+    "communications": [],
+    "elevation": 9869,
+    "tower": false,
+    "name": "Heckendorf Ranches - Georgia Pass Ranc",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 39.41207479,
+        "lonStart": -105.83926142,
+        "latEnd": 39.40456687,
+        "lonEnd": -105.8340947,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11624
+  },
+  {
+    "type": 1,
+    "icao": "CO10",
+    "lat": 39.994707489999996,
+    "lon": -105.22387695,
+    "communications": [],
+    "elevation": 5230,
+    "tower": false,
+    "name": "Lemons Private Strip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 39.99873205,
+        "lonStart": -105.22276033,
+        "latEnd": 39.99068293,
+        "lonEnd": -105.22499357,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 15147
+  },
+  {
+    "type": 1,
+    "icao": "CO52",
+    "lat": 39.58332138,
+    "lon": -105.30332584,
+    "communications": [],
+    "elevation": 7700,
+    "tower": false,
+    "name": "Marshdale",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 39.58622767,
+        "lonStart": -105.30533091,
+        "latEnd": 39.58041509,
+        "lonEnd": -105.30132077,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 16734
+  },
+  {
+    "type": 1,
+    "icao": "5CO6",
+    "lat": 39.54998805,
+    "lon": -105.28388056,
+    "communications": [],
+    "elevation": 8000,
+    "tower": false,
+    "name": "Meyer Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 39.55228232,
+        "lonStart": -105.28718511,
+        "latEnd": 39.54769378,
+        "lonEnd": -105.28057601,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17122
+  },
+  {
+    "type": 1,
+    "icao": "KBJC",
+    "lat": 39.90901783333333,
+    "lon": -105.11696766666667,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12625,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 11860,
+        "name": "CTAF"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12395,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11860,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12610,
+        "name": "DENVER APP/DEP"
+      }
+    ],
+    "elevation": 5670,
+    "tower": true,
+    "name": "Rocky Mountain Metropolitan Airport",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "11L",
+        "numberEnd": "29R",
+        "latStart": 39.915286,
+        "lonStart": -105.128431,
+        "latEnd": 39.901369,
+        "lonEnd": -105.101931,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "11R",
+        "numberEnd": "29L",
+        "latStart": 39.914189,
+        "lonStart": -105.131558,
+        "latEnd": 39.903361,
+        "lonEnd": -105.110936,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 39.905869,
+        "lonStart": -105.118089,
+        "latEnd": 39.914033,
+        "lonEnd": -105.110861,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 21640
+  },
+  {
+    "type": 1,
+    "icao": "2CO9",
+    "lat": 39.291666660000004,
+    "lon": -105.875,
+    "communications": [],
+    "elevation": 9600,
+    "tower": false,
+    "name": "Silver Heels",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 39.28876922,
+        "lonStart": -105.88204105,
+        "latEnd": 39.2945641,
+        "lonEnd": -105.86795895,
+        "length": 0,
+        "surfacetype": 5
+      },
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 39.29579634,
+        "lonStart": -105.88092619,
+        "latEnd": 39.28753698,
+        "lonEnd": -105.86907381,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 23512
+  },
+  {
     "type": 17,
     "icao": "CD19",
     "lat": 39.69082138,

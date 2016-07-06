@@ -1,5 +1,441 @@
 [
   {
+    "type": 1,
+    "icao": "L54",
+    "lat": 32.955685,
+    "lon": -116.294701,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1220,
+    "tower": false,
+    "name": "Agua Caliente Springs",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 32.957289,
+        "lonStart": -116.298294,
+        "latEnd": 32.954081,
+        "lonEnd": -116.291108,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 712
+  },
+  {
+    "type": 1,
+    "icao": "KSDM",
+    "lat": 32.571548388000004,
+    "lon": -116.980846668,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13235,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12650,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 12440,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12440,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12650,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12825,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12435,
+        "name": "SOCAL APP"
+      },
+      {
+        "type": 56,
+        "frequency": 12515,
+        "name": "SOCAL DEP"
+      }
+    ],
+    "elevation": 525,
+    "tower": true,
+    "name": "BROWN FLD MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "08R",
+        "numberEnd": "26L",
+        "latStart": 32.57156644,
+        "lonStart": -116.98432097,
+        "latEnd": 32.57070691,
+        "lonEnd": -116.97410256,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "08L",
+        "numberEnd": "26R",
+        "latStart": 32.57376211,
+        "lonStart": -116.99349404,
+        "latEnd": 32.57163423,
+        "lonEnd": -116.96774162,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 22.9,
+        "surfaceType": 2,
+        "numberStart": "H27",
+        "numberEnd": null,
+        "latStart": 32.57007225,
+        "lonStart": -116.98457415,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 22.9
+      }
+    ],
+    "id": 1932
+  },
+  {
+    "type": 1,
+    "icao": "MMTJ",
+    "lat": 32.5410625,
+    "lon": -116.970158,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12790,
+        "name": "ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 12235,
+        "name": "TIJUANA CLNC DEL"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TIJUANA TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11950,
+        "name": "TIJUANA APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12030,
+        "name": "TIJUANA APP"
+      }
+    ],
+    "elevation": 489,
+    "tower": true,
+    "name": "GENERAL ABELARDO L RODRIGUEZ INTL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 43.89,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 32.5431,
+        "lonStart": -116.985672,
+        "latEnd": 32.539025,
+        "lonEnd": -116.954644,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 9919
+  },
+  {
+    "type": 1,
+    "icao": "KSEE",
+    "lat": 32.825881906250004,
+    "lon": -116.9720453225,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12545,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12070,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12305,
+        "name": "UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 12510,
+        "name": "DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12070,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12435,
+        "name": "SOCAL APP/DEP"
+      }
+    ],
+    "elevation": 388,
+    "tower": true,
+    "name": "Gillespie Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "09L",
+        "numberEnd": "27R",
+        "latStart": 32.82945985,
+        "lonStart": -116.9812456,
+        "latEnd": 32.82638785,
+        "lonEnd": -116.9642426,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 32.82951585,
+        "lonStart": -116.9724786,
+        "latEnd": 32.81812385,
+        "lonEnd": -116.9723896,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "09R",
+        "numberEnd": "27L",
+        "latStart": 32.82738285,
+        "lonStart": -116.9762316,
+        "latEnd": 32.82580785,
+        "lonEnd": -116.9675176,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 32.82508433,
+        "lonStart": -116.97123757,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      },
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 32.82529282,
+        "lonStart": -116.97101941,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 10476
+  },
+  {
+    "type": 1,
+    "icao": "L78",
+    "lat": 32.61672944,
+    "lon": -116.16473862000001,
+    "communications": [],
+    "elevation": 2820,
+    "tower": false,
+    "name": "Jacumba",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 32.61630991,
+        "lonStart": -116.16879513,
+        "latEnd": 32.61714897,
+        "lonEnd": -116.16068211,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 12878
+  },
+  {
+    "type": 1,
+    "icao": "0CL3",
+    "lat": 32.633111940000006,
+    "lon": -116.89307806,
+    "communications": [],
+    "elevation": 490,
+    "tower": false,
+    "name": "John Nichols Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 32.63385238,
+        "lonStart": -116.89688647,
+        "latEnd": 32.6323715,
+        "lonEnd": -116.88926965,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 32.63199118,
+        "lonStart": -116.89568999,
+        "latEnd": 32.6342327,
+        "lonEnd": -116.89046613,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 13035
+  },
+  {
+    "type": 1,
+    "icao": "1CA6",
+    "lat": 32.76505416,
+    "lon": -116.72252055999999,
+    "communications": [],
+    "elevation": 2650,
+    "tower": false,
+    "name": "On The Rocks",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 32.76812322,
+        "lonStart": -116.7236364,
+        "latEnd": 32.7619851,
+        "lonEnd": -116.72140472,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 18959
+  },
+  {
+    "type": 1,
+    "icao": "46CA",
+    "lat": 32.970881379999994,
+    "lon": -116.40918139,
+    "communications": [],
+    "elevation": 1680,
+    "tower": false,
+    "name": "Rancho Vallecito",
+    "runways": [
+      {
+        "type": 100,
+        "width": 6.1,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 32.97222109,
+        "lonStart": -116.41294344,
+        "latEnd": 32.96954167,
+        "lonEnd": -116.40541934,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 21180
+  },
+  {
+    "type": 1,
+    "icao": "CA75",
+    "lat": 32.63811416,
+    "lon": -116.63918445,
+    "communications": [],
+    "elevation": 2655,
+    "tower": false,
+    "name": "Reider Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 32.6409456,
+        "lonStart": -116.6395973,
+        "latEnd": 32.63528272,
+        "lonEnd": -116.6387716,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 21337
+  },
+  {
     "type": 17,
     "icao": "9L3",
     "lat": 32.81116194,

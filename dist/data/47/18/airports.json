@@ -1,58 +1,99 @@
 [
   {
     "type": 1,
-    "icao": "LSPV",
-    "lat": 47.204622695,
-    "lon": 18.4503021875,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12320,
-        "name": "AFIS"
-      }
-    ],
-    "elevation": 1336,
-    "tower": true,
-    "name": "Wangen-Lachen",
+    "icao": "LH58",
+    "lat": 47.3508945,
+    "lon": 18.4300125,
+    "communications": [],
+    "elevation": 1000,
+    "tower": false,
+    "name": "CSAKVAR",
     "runways": [
       {
         "type": 100,
-        "width": 17.98,
+        "width": 18.9,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 47.20440979,
-        "lonStart": 8.86415042,
-        "latEnd": 47.20529071,
-        "lonEnd": 8.87059853,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 47.343881,
+        "lonStart": 18.421161,
+        "latEnd": 47.357908,
+        "lonEnd": 18.438864,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 6,
-        "surfaceType": 15,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 47.20437237,
-        "lonStart": 8.86571896,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6
-      },
-      {
-        "type": 102,
-        "width": 6,
-        "surfaceType": 15,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 47.20441791,
-        "lonStart": 8.86604866,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6
+        "surfacetype": 2
       }
     ],
-    "id": 26889
+    "id": 4253
+  },
+  {
+    "type": 1,
+    "icao": "LZNZ",
+    "lat": 47.961701500000004,
+    "lon": 18.184108639999998,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12260,
+        "name": "Traffic"
+      }
+    ],
+    "elevation": 375,
+    "tower": true,
+    "name": "Nove Zamky",
+    "runways": [
+      {
+        "type": 100,
+        "width": 69,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 47.96587758,
+        "lonStart": 18.18158896,
+        "latEnd": 47.95752542,
+        "lonEnd": 18.18662832,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18516
+  },
+  {
+    "type": 1,
+    "icao": "LHTL",
+    "lat": 47.3456339975,
+    "lon": 18.981698570000002,
+    "communications": [],
+    "elevation": 341,
+    "tower": true,
+    "name": "Tokol Air Base",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 47.35446594,
+        "lonStart": 18.97070705,
+        "latEnd": 47.33664606,
+        "lonEnd": 18.99095553,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 47.34984995,
+        "lonStart": 18.97786494,
+        "latEnd": 47.34157404,
+        "lonEnd": 18.98726676,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25433
   }
 ]

@@ -1,54 +1,78 @@
 [
   {
     "type": 1,
-    "icao": "LIEO",
-    "lat": 40.898659705,
-    "lon": 25.205297899999998,
+    "icao": "LGAL",
+    "lat": 40.85580708,
+    "lon": 25.956136165,
     "communications": [
       {
-        "type": 55,
-        "frequency": 12595,
-        "name": "Olbia APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12287,
-        "name": "Olbia radar"
-      },
-      {
         "type": 54,
-        "frequency": 11897,
-        "name": "Olbia TWR"
+        "frequency": 12380,
+        "name": "ALEXANDROUPOLIS TWR"
       },
       {
-        "type": 54,
-        "frequency": 12195,
-        "name": "Olbia TWR"
-      },
-      {
-        "type": 50,
-        "frequency": 11390,
-        "name": "Olbia ARR and DEP Information"
+        "type": 55,
+        "frequency": 12380,
+        "name": "ALEXANDROUPOLIS APP"
       }
     ],
-    "elevation": 37,
+    "elevation": 22,
     "tower": true,
-    "name": "OLBIA Costa Smeralda",
+    "name": "Alexandroupolis Dimokritos",
     "runways": [
       {
         "type": 100,
         "width": 45,
         "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 40.89240662,
-        "lonStart": 9.50568301,
-        "latEnd": 40.90491279,
-        "lonEnd": 9.52957217,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 40.85239412,
+        "lonStart": 25.94151691,
+        "latEnd": 40.85922004,
+        "lonEnd": 25.97075542,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 18639
+    "id": 862
+  },
+  {
+    "type": 1,
+    "icao": "LT86",
+    "lat": 40.2069895,
+    "lon": 25.8871665,
+    "communications": [],
+    "elevation": 46,
+    "tower": false,
+    "name": "IMROZ",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 40.1967,
+        "lonStart": 25.880658,
+        "latEnd": 40.215311,
+        "lonEnd": 25.887544,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 40.203214,
+        "lonStart": 25.886989,
+        "latEnd": 40.212733,
+        "lonEnd": 25.893475,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 12290
   }
 ]

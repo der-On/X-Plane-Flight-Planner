@@ -1,28 +1,44 @@
 [
   {
     "type": 1,
-    "icao": "BGCO",
-    "lat": 70.7419281,
-    "lon": 24.037008135,
-    "communications": [],
-    "elevation": 45,
+    "icao": "ENNA",
+    "lat": 70.0688125,
+    "lon": 24.973489,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11890,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11805,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 24,
     "tower": true,
-    "name": "Nerlerit Inaat/Constable Pynt",
+    "name": "BANAK",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 70.74607204,
-        "lonStart": -22.66376789,
-        "latEnd": 70.73778416,
-        "lonEnd": -22.65315331,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 70.081247,
+        "lonStart": 24.970575,
+        "latEnd": 70.056378,
+        "lonEnd": 24.976403,
         "length": 0,
-        "surfacetype": 5
+        "surfacetype": 1
       }
     ],
-    "id": 18209
+    "id": 1486
   }
 ]

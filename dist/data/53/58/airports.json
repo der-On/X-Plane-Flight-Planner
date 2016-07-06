@@ -1,34 +1,39 @@
 [
   {
     "type": 1,
-    "icao": "UAUU",
-    "lat": 53.206666999999996,
-    "lon": 58.37,
+    "icao": "USCM",
+    "lat": 53.393132,
+    "lon": 58.755661,
     "communications": [
       {
         "type": 54,
-        "frequency": 12930,
+        "frequency": 12400,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12080,
         "name": "TWR"
       }
     ],
-    "elevation": 595,
+    "elevation": 1431,
     "tower": true,
-    "name": "KOSTANAY",
+    "name": "MAGNITOGORSK",
     "runways": [
       {
         "type": 100,
-        "width": 47.85,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 53.216667,
-        "lonStart": 63.543333,
-        "latEnd": 53.196667,
-        "lonEnd": 63.558333,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 53.379122,
+        "lonStart": 58.748833,
+        "latEnd": 53.407142,
+        "lonEnd": 58.762489,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
       }
     ],
-    "id": 13469
+    "id": 15708
   }
 ]

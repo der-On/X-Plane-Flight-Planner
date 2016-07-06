@@ -1,131 +1,76 @@
 [
   {
     "type": 1,
-    "icao": "LIBR",
-    "lat": 40.661432995,
-    "lon": 29.2950671125,
+    "icao": "LTFJ",
+    "lat": 40.8985715,
+    "lon": 29.30922657,
     "communications": [
       {
-        "type": 54,
-        "frequency": 11840,
-        "name": "APP"
+        "type": 50,
+        "frequency": 12855,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12175,
+        "name": "GND"
       },
       {
         "type": 54,
-        "frequency": 12100,
-        "name": "App"
-      },
-      {
-        "type": 54,
-        "frequency": 12210,
-        "name": "App"
-      },
-      {
-        "type": 54,
-        "frequency": 11810,
+        "frequency": 12092,
         "name": "TWR"
       },
       {
         "type": 54,
         "frequency": 12210,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12262,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11880,
         "name": "TWR"
       }
     ],
-    "elevation": 150,
+    "elevation": 312,
     "tower": true,
-    "name": "Brindisi Casale",
+    "name": "SABIHA GOKCEN",
     "runways": [
       {
         "type": 100,
-        "width": 45,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 40.67566231,
-        "lonStart": 17.92578384,
-        "latEnd": 40.65555821,
-        "lonEnd": 17.950348,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 40.89266427,
+        "lonStart": 29.29318841,
+        "latEnd": 40.90447873,
+        "lonEnd": 29.32526473,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 40.65232624,
-        "lonStart": 17.93674118,
-        "latEnd": 40.66218522,
-        "lonEnd": 17.9536654,
-        "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
       }
     ],
-    "id": 3205
+    "id": 21898
   },
   {
     "type": 1,
-    "icao": "LIBN",
-    "lat": 40.238982,
-    "lon": 29.1787705,
+    "icao": "LTBX",
+    "lat": 40.993013749999996,
+    "lon": 29.2165195,
     "communications": [
       {
         "type": 54,
-        "frequency": 12210,
+        "frequency": 12600,
         "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 11955,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11895,
-        "name": "APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12210,
-        "name": "APP"
       }
     ],
-    "elevation": 156,
+    "elevation": 400,
     "tower": true,
-    "name": "LECCE",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 40.246679,
-        "lonStart": 18.126256,
-        "latEnd": 40.231285,
-        "lonEnd": 18.139925,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 14462
-  },
-  {
-    "type": 1,
-    "icao": "LINL",
-    "lat": 40.358917805000004,
-    "lon": 29.326845340000002,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11965,
-        "name": "Lecce Radio"
-      }
-    ],
-    "elevation": 59,
-    "tower": true,
-    "name": "LECCE Lepore",
+    "name": "SAMANDIRA",
     "runways": [
       {
         "type": 100,
@@ -133,14 +78,131 @@
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 40.36284894,
-        "lonStart": 18.29870401,
-        "latEnd": 40.35498667,
-        "lonEnd": 18.29724371,
+        "latStart": 40.999314,
+        "lonStart": 29.216531,
+        "latEnd": 40.986619,
+        "lonEnd": 29.21655,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 40.990625,
+        "lonStart": 29.213294,
+        "latEnd": 40.995497,
+        "lonEnd": 29.219703,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 21943
+  },
+  {
+    "type": 1,
+    "icao": "LTBP",
+    "lat": 40.68647025,
+    "lon": 29.37810675,
+    "communications": [],
+    "elevation": 5,
+    "tower": false,
+    "name": "YALOVA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.62,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 40.684136,
+        "lonStart": 29.371975,
+        "latEnd": 40.685131,
+        "lonEnd": 29.388519,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 39.62,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 40.694372,
+        "lonStart": 29.376372,
+        "latEnd": 40.682242,
+        "lonEnd": 29.375561,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 14463
+    "id": 27662
+  },
+  {
+    "type": 1,
+    "icao": "LTBR",
+    "lat": 40.25520825,
+    "lon": 29.562568749999997,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12195,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "TWR/APP"
+      },
+      {
+        "type": 54,
+        "frequency": 12420,
+        "name": "TWR/APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12420,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12032,
+        "name": "APP"
+      }
+    ],
+    "elevation": 764,
+    "tower": true,
+    "name": "YENISEHIR",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "07L",
+        "numberEnd": "25R",
+        "latStart": 40.252214,
+        "lonStart": 29.545401,
+        "latEnd": 40.259406,
+        "lonEnd": 29.5793,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "07R",
+        "numberEnd": "25L",
+        "latStart": 40.25101,
+        "lonStart": 29.545837,
+        "latEnd": 40.258203,
+        "lonEnd": 29.579737,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 27699
   }
 ]

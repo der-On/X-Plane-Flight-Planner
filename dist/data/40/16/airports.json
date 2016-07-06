@@ -1,42 +1,15 @@
 [
   {
     "type": 1,
-    "icao": "LPCV",
-    "lat": 40.2647695,
-    "lon": 16.3917615,
+    "icao": "LIBV",
+    "lat": 40.76779175,
+    "lon": 16.933417,
     "communications": [
       {
         "type": 54,
-        "frequency": 12200,
-        "name": "AFIS"
-      }
-    ],
-    "elevation": 1571,
-    "tower": false,
-    "name": "COVILHA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 40.261872,
-        "lonStart": -7.484144,
-        "latEnd": 40.267667,
-        "lonEnd": -7.475772,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 4198
-  },
-  {
-    "type": 1,
-    "icao": "LPOV",
-    "lat": 40.9159195,
-    "lon": 16.129057000000003,
-    "communications": [
+        "frequency": 12245,
+        "name": "TWR"
+      },
       {
         "type": 54,
         "frequency": 12210,
@@ -44,86 +17,46 @@
       },
       {
         "type": 55,
-        "frequency": 11860,
+        "frequency": 12210,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 13065,
         "name": "APP"
       }
     ],
-    "elevation": 56,
+    "elevation": 1187,
     "tower": true,
-    "name": "OVAR",
+    "name": "GIOIA DEL COLLE",
     "runways": [
       {
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 40.926828,
-        "lonStart": -8.646897,
-        "latEnd": 40.905011,
-        "lonEnd": -8.644953,
+        "numberStart": "14R",
+        "numberEnd": "32L",
+        "latStart": 40.775,
+        "lonStart": 16.922167,
+        "latEnd": 40.753833,
+        "lonEnd": 16.944667,
         "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 18748
-  },
-  {
-    "type": 1,
-    "icao": "LPIN",
-    "lat": 40.9666672,
-    "lon": 16.154203125000002,
-    "communications": [],
-    "elevation": 10,
-    "tower": false,
-    "name": "Paramos Airfield",
-    "runways": [
+        "surfacetype": 1
+      },
       {
         "type": 100,
-        "width": 39.93,
+        "width": 29.87,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 40.97330194,
-        "lonStart": -8.65162621,
-        "latEnd": 40.96003246,
-        "lonEnd": -8.64836919,
+        "numberStart": "14L",
+        "numberEnd": "32R",
+        "latStart": 40.781667,
+        "lonStart": 16.922167,
+        "latEnd": 40.760667,
+        "lonEnd": 16.944667,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 19764
-  },
-  {
-    "type": 1,
-    "icao": "LPVZ",
-    "lat": 40.72554,
-    "lon": 16.4212695,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12230,
-        "name": "RDO"
-      }
-    ],
-    "elevation": 2060,
-    "tower": false,
-    "name": "VISEU",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.57,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 40.720044,
-        "lonStart": -7.888497,
-        "latEnd": 40.731036,
-        "lonEnd": -7.889553,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 26126
+    "id": 10009
   }
 ]

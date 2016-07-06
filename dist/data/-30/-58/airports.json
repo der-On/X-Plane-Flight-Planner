@@ -1,56 +1,172 @@
 [
   {
     "type": 1,
-    "icao": "SCSE",
-    "lat": -29.917237139999997,
-    "lon": -57.44244758333334,
-    "communications": [
-      {
-        "type": 55,
-        "frequency": 12910,
-        "name": "CENTER"
-      },
-      {
-        "type": 54,
-        "frequency": 11860,
-        "name": "TOWER"
-      },
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "GROUND"
-      }
-    ],
-    "elevation": 480,
-    "tower": true,
-    "name": "La Florida",
+    "icao": "SJDJ",
+    "lat": -29.88861111,
+    "lon": -57.14,
+    "communications": [],
+    "elevation": 209,
+    "tower": false,
+    "name": "Arenhart",
     "runways": [
       {
         "type": 100,
-        "width": 45,
+        "width": 22.86,
         "surfaceType": null,
         "numberStart": "12",
         "numberEnd": "30",
-        "latStart": -29.91258368,
-        "lonStart": -71.20860423,
-        "latEnd": -29.92029156,
-        "lonEnd": -71.1905555,
+        "latStart": -29.88801129,
+        "lonStart": -57.1417721,
+        "latEnd": -29.88921093,
+        "lonEnd": -57.1382279,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1169
+  },
+  {
+    "type": 1,
+    "icao": "SATU",
+    "lat": -29.7705945,
+    "lon": -57.9789765,
+    "communications": [],
+    "elevation": 229,
+    "tower": true,
+    "name": "CURUZU CUATIA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": -29.780161,
+        "lonStart": -57.9792,
+        "latEnd": -29.761028,
+        "lonEnd": -57.978753,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4279
+  },
+  {
+    "type": 1,
+    "icao": "SA8N",
+    "lat": -29.993888885,
+    "lon": -57.837777775,
+    "communications": [],
+    "elevation": 265,
+    "tower": false,
+    "name": "LIBERTAD LA ESMERALDA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -29.99546768,
+        "lonStart": -57.84211548,
+        "latEnd": -29.99231009,
+        "lonEnd": -57.83344007,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 14509
+  },
+  {
+    "type": 1,
+    "icao": "SARL",
+    "lat": -29.6894235,
+    "lon": -57.152076,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12030,
+        "name": "LIBRES TWR/APP"
+      },
+      {
+        "type": 54,
+        "frequency": 11850,
+        "name": "LIBRES TWR/APP"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "LIBRES TWR/APP"
+      }
+    ],
+    "elevation": 230,
+    "tower": true,
+    "name": "PASO DE LOS LIBRES",
+    "runways": [
+      {
+        "type": 100,
+        "width": 44.81,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -29.67935,
+        "lonStart": -57.153933,
+        "latEnd": -29.699497,
+        "lonEnd": -57.150219,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19243
+  },
+  {
+    "type": 1,
+    "icao": "SBUG",
+    "lat": -29.78190825,
+    "lon": -57.037952250000004,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "URUGUAIANA RDO"
+      },
+      {
+        "type": 54,
+        "frequency": 12590,
+        "name": "URUGUAIANA RDO"
+      }
+    ],
+    "elevation": 256,
+    "tower": false,
+    "name": "Rubem Berta",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -29.7828,
+        "lonStart": -57.045442,
+        "latEnd": -29.781561,
+        "lonEnd": -57.029992,
         "length": 0,
         "surfacetype": 1
       },
       {
-        "type": 102,
-        "width": 10,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -29.91883618,
-        "lonStart": -71.19844696,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10
+        "type": 100,
+        "width": 61.57,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": -29.7847,
+        "lonStart": -57.040661,
+        "latEnd": -29.778572,
+        "lonEnd": -57.035714,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 14709
+    "id": 21807
   }
 ]

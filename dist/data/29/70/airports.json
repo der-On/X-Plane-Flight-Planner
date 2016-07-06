@@ -1,64 +1,65 @@
 [
   {
     "type": 1,
-    "icao": "VIDF",
-    "lat": 29.592860134,
-    "lon": 70.108776544,
-    "communications": [],
-    "elevation": 4910,
-    "tower": false,
-    "name": "Pithorgarh",
+    "icao": "OPDG",
+    "lat": 29.961009500000003,
+    "lon": 70.48592500000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12180,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11940,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 492,
+    "tower": true,
+    "name": "D G KHAN",
     "runways": [
       {
         "type": 100,
-        "width": 17.29,
+        "width": 29.87,
         "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 29.59827472,
-        "lonStart": 80.23508567,
-        "latEnd": 29.58894325,
-        "lonEnd": 80.24320684,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 29.96995,
+        "lonStart": 70.486075,
+        "latEnd": 29.952069,
+        "lonEnd": 70.485775,
         "length": 0,
         "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 21.3,
-        "surfaceType": 1,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 29.59212441,
-        "lonStart": 80.23959601,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21.9
-      },
-      {
-        "type": 102,
-        "width": 17.1,
-        "surfaceType": 1,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 29.59270264,
-        "lonStart": 80.23993451,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      },
-      {
-        "type": 102,
-        "width": 17.1,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 29.59225565,
-        "lonStart": 80.24032328,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
       }
     ],
-    "id": 20222
+    "id": 5623
+  },
+  {
+    "type": 1,
+    "icao": "OP22",
+    "lat": 29.263972,
+    "lon": 70.18641550000001,
+    "communications": [],
+    "elevation": 401,
+    "tower": false,
+    "name": "RAJANPUR",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 29.251533,
+        "lonStart": 70.179742,
+        "latEnd": 29.276411,
+        "lonEnd": 70.193089,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20809
   }
 ]

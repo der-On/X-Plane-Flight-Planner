@@ -1,352 +1,52 @@
 [
   {
     "type": 1,
-    "icao": "OIID",
-    "lat": 35.702983,
-    "lon": 43.587897,
+    "icao": "ORQW",
+    "lat": 35.767168749999996,
+    "lon": 43.125046,
     "communications": [
       {
+        "type": 51,
+        "frequency": 12200,
+        "name": "CTAF"
+      },
+      {
         "type": 54,
-        "frequency": 12600,
+        "frequency": 12220,
         "name": "TWR"
       }
     ],
-    "elevation": 4046,
+    "elevation": 749,
     "tower": true,
-    "name": "DOSHAN TAPPEH",
+    "name": "QAYYARAH WEST",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 29.87,
         "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 35.695844,
-        "lonStart": 51.465672,
-        "latEnd": 35.710122,
-        "lonEnd": 51.484589,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 5855
-  },
-  {
-    "type": 1,
-    "icao": "OI19",
-    "lat": 35.529897000000005,
-    "lon": 43.514587500000005,
-    "communications": [],
-    "elevation": 3258,
-    "tower": false,
-    "name": "FIRUZABAD",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 35.531694,
-        "lonStart": 51.501075,
-        "latEnd": 35.5281,
-        "lonEnd": 51.510542,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 7563
-  },
-  {
-    "type": 1,
-    "icao": "OI03",
-    "lat": 35.1741935,
-    "lon": 43.745583499999995,
-    "communications": [],
-    "elevation": 2717,
-    "tower": false,
-    "name": "GARMCAR SW",
-    "runways": [
-      {
-        "type": 100,
-        "width": 32,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 35.176031,
-        "lonStart": 52.318811,
-        "latEnd": 35.172356,
-        "lonEnd": 52.327733,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 9890
-  },
-  {
-    "type": 1,
-    "icao": "OIIG",
-    "lat": 35.644763999999995,
-    "lon": 43.5082095,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11880,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 3627,
-    "tower": true,
-    "name": "GHALE MORGHI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 36.58,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 35.645306,
-        "lonStart": 51.372197,
-        "latEnd": 35.644222,
-        "lonEnd": 51.392308,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 9985
-  },
-  {
-    "type": 1,
-    "icao": "OIIA",
-    "lat": 35.952096,
-    "lon": 43.1970085,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13017,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 3769,
-    "tower": true,
-    "name": "GHAZVIN AZADI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 35.953381,
-        "lonStart": 50.443206,
-        "latEnd": 35.950811,
-        "lonEnd": 50.45835,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 9988
-  },
-  {
-    "type": 1,
-    "icao": "OIIE",
-    "lat": 35.4183785,
-    "lon": 43.26705125,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12720,
-        "name": "ATIS"
-      },
-      {
-        "type": 53,
-        "frequency": 12182,
-        "name": "GND"
-      },
-      {
-        "type": 53,
-        "frequency": 12160,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11870,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 3305,
-    "tower": true,
-    "name": "IMAM KHOMEINI INTL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "11R",
-        "numberEnd": "29L",
-        "latStart": 35.423675,
-        "lonStart": 51.121508,
-        "latEnd": 35.411353,
-        "lonEnd": 51.165803,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 35.784044,
+        "lonStart": 43.122239,
+        "latEnd": 35.752206,
+        "lonEnd": 43.133817,
         "length": 0,
         "surfacetype": 1
       },
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "11L",
-        "numberEnd": "29R",
-        "latStart": 35.425339,
-        "lonStart": 51.122197,
-        "latEnd": 35.413147,
-        "lonEnd": 51.165953,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 12282
-  },
-  {
-    "type": 1,
-    "icao": "OIIM",
-    "lat": 35.7762845,
-    "lon": 43.3247555,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13010,
-        "name": "MEHRSHAHR TWR"
-      }
-    ],
-    "elevation": 4040,
-    "tower": true,
-    "name": "NAJA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 19.81,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 35.780022,
-        "lonStart": 50.876964,
-        "latEnd": 35.772547,
-        "lonEnd": 50.885061,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 17807
-  },
-  {
-    "type": 1,
-    "icao": "OIIP",
-    "lat": 35.775968,
-    "lon": 43.288364,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12165,
-        "name": "INFO"
-      },
-      {
-        "type": 54,
-        "frequency": 11840,
-        "name": "INFO"
-      }
-    ],
-    "elevation": 4170,
-    "tower": false,
-    "name": "PAYAM",
-    "runways": [
       {
         "type": 100,
         "width": 60.05,
         "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 35.786125,
-        "lonStart": 50.810917,
-        "latEnd": 35.765811,
-        "lonEnd": 50.842853,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19263
-  },
-  {
-    "type": 1,
-    "icao": "OIII",
-    "lat": 35.692631166666665,
-    "lon": 43.49560433333334,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12800,
-        "name": "ATIS"
-      },
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11810,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12510,
-        "name": "APP"
-      }
-    ],
-    "elevation": 3962,
-    "tower": true,
-    "name": "Teheran Mehrabad Intl",
-    "runways": [
-      {
-        "type": 100,
-        "width": 39.93,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 35.698681,
-        "lonStart": 51.32405,
-        "latEnd": 35.698811,
-        "lonEnd": 51.329289,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 35.780206,
+        "lonStart": 43.113122,
+        "latEnd": 35.752219,
+        "lonEnd": 43.131006,
         "length": 0,
         "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "11R",
-        "numberEnd": "29L",
-        "latStart": 35.694689,
-        "lonStart": 51.291631,
-        "latEnd": 35.682436,
-        "lonEnd": 51.333633,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "11L",
-        "numberEnd": "29R",
-        "latStart": 35.696628,
-        "lonStart": 51.292156,
-        "latEnd": 35.684542,
-        "lonEnd": 51.333694,
-        "length": 0,
-        "surfacetype": 1
       }
     ],
-    "id": 25133
+    "id": 20653
   }
 ]

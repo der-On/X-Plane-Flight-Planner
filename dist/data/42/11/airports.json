@@ -1,51 +1,62 @@
 [
   {
     "type": 1,
-    "icao": "LEBG",
-    "lat": 42.35648328,
-    "lon": 11.706944413333332,
+    "icao": "LIRS",
+    "lat": 42.760369965,
+    "lon": 11.071754925,
     "communications": [
       {
-        "type": 53,
-        "frequency": 12177,
-        "name": "GMC"
+        "type": 55,
+        "frequency": 12210,
+        "name": "Grosseto Radar"
+      },
+      {
+        "type": 55,
+        "frequency": 12452,
+        "name": "Grosseto APP"
       },
       {
         "type": 54,
-        "frequency": 11892,
-        "name": "twr"
+        "frequency": 12210,
+        "name": "Grosseto TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12810,
+        "name": "Grosseto TWR"
       }
     ],
-    "elevation": 2961,
+    "elevation": 15,
     "tower": true,
-    "name": "Burgos",
+    "name": "GROSSETO",
     "runways": [
       {
         "type": 100,
-        "width": 47.28,
+        "width": 45.5,
         "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 42.35046907,
-        "lonStart": -3.62238185,
-        "latEnd": 42.3642409,
-        "lonEnd": -3.6049623,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 42.74934874,
+        "lonStart": 11.06119122,
+        "latEnd": 42.7724541,
+        "lonEnd": 11.08000802,
         "length": 0,
         "surfacetype": 1
       },
       {
-        "type": 102,
-        "width": 9.5,
-        "surfaceType": 1,
-        "numberStart": "H16",
-        "numberEnd": null,
-        "latStart": 42.35473987,
-        "lonStart": -3.62102581,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 8.9
+        "type": 100,
+        "width": 25,
+        "surfaceType": null,
+        "numberStart": "03R",
+        "numberEnd": "21L",
+        "latStart": 42.75077588,
+        "lonStart": 11.06553281,
+        "latEnd": 42.76890114,
+        "lonEnd": 11.08028765,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "id": 3404
+    "id": 10182
   }
 ]

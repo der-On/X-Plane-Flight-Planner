@@ -1,0 +1,110 @@
+[
+  {
+    "type": 1,
+    "icao": "SEMT",
+    "lat": -0.94556483,
+    "lon": -80.6765855725,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11870,
+        "name": "TWR"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 55,
+        "frequency": 12270,
+        "name": "APP"
+      },
+      {
+        "type": 51,
+        "frequency": 12690,
+        "name": "RDO"
+      }
+    ],
+    "elevation": 47,
+    "tower": true,
+    "name": "Eloy Alfaro Intl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -0.95327386,
+        "lonStart": -80.68947771,
+        "latEnd": -0.93888213,
+        "lonEnd": -80.6681383,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 24.4,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -0.94512194,
+        "lonStart": -80.6744658,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.4
+      },
+      {
+        "type": 102,
+        "width": 24.4,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": -0.94498139,
+        "lonStart": -80.67426048,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.4
+      }
+    ],
+    "id": 7135
+  },
+  {
+    "type": 1,
+    "icao": "SESV",
+    "lat": -0.6081110000000001,
+    "lon": -80.4026835,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11840,
+        "name": "SAN VICENTE TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11860,
+        "name": "SAN VICENTE TWR"
+      }
+    ],
+    "elevation": 10,
+    "tower": true,
+    "name": "LOS PERALES",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -0.599369,
+        "lonStart": -80.407428,
+        "latEnd": -0.616853,
+        "lonEnd": -80.397939,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14626
+  }
+]

@@ -1,39 +1,54 @@
 [
   {
     "type": 1,
-    "icao": "LTCB",
-    "lat": 40.9668335,
-    "lon": 39.5164415,
+    "icao": "LTCG",
+    "lat": 40.995059999999995,
+    "lon": 39.789701,
     "communications": [
       {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
         "type": 54,
-        "frequency": 11840,
+        "frequency": 12210,
         "name": "TWR"
       },
       {
-        "type": 53,
-        "frequency": 12157,
-        "name": "GND"
+        "type": 54,
+        "frequency": 12010,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12210,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12010,
+        "name": "APP"
       }
     ],
-    "elevation": 11,
+    "elevation": 104,
     "tower": true,
-    "name": "Ordu-Giresun",
+    "name": "TRABZON",
     "runways": [
       {
         "type": 100,
-        "width": 45,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 40.969603,
-        "lonStart": 38.068819,
-        "latEnd": 40.964064,
-        "lonEnd": 38.103697,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 40.999542,
+        "lonStart": 39.775244,
+        "latEnd": 40.990578,
+        "lonEnd": 39.804158,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 19014
+    "id": 24822
   }
 ]

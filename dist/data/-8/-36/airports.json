@@ -1,28 +1,60 @@
 [
   {
     "type": 1,
-    "icao": "SWHT",
-    "lat": -7.534896,
-    "lon": -35.3083615,
+    "icao": "SNKB",
+    "lat": -7.178333335,
+    "lon": -35.99027778,
     "communications": [],
-    "elevation": 230,
-    "tower": true,
-    "name": "Humaita",
+    "elevation": 1925,
+    "tower": false,
+    "name": "Aeroclube",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 20.12,
         "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": -7.5295,
-        "lonStart": -63.076431,
-        "latEnd": -7.540292,
-        "lonEnd": -63.067758,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -7.17909812,
+        "lonStart": -35.99382405,
+        "latEnd": -7.17756855,
+        "lonEnd": -35.98673151,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 628
+  },
+  {
+    "type": 1,
+    "icao": "SBKG",
+    "lat": -7.2699165,
+    "lon": -35.896364000000005,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12590,
+        "name": "CAMPINA GRANDE RDO"
+      }
+    ],
+    "elevation": 1646,
+    "tower": true,
+    "name": "PRESIDENTE JOAO SUASSUNA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 42.06,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -7.265725,
+        "lonStart": -35.902278,
+        "latEnd": -7.274108,
+        "lonEnd": -35.89045,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 12185
+    "id": 19545
   }
 ]

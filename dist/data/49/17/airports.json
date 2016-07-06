@@ -1,29 +1,293 @@
 [
   {
     "type": 1,
-    "icao": "ELLX",
-    "lat": 49.6258298225,
-    "lon": 17.0555377,
+    "icao": "LKBO",
+    "lat": 49.67031863666667,
+    "lon": 17.293144783333332,
     "communications": [
       {
-        "type": 50,
-        "frequency": 13555,
-        "name": "ELLX ATIS"
+        "type": 54,
+        "frequency": 11827,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 773,
+    "tower": true,
+    "name": "Bohunovice",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 49.66980152,
+        "lonStart": 17.28931177,
+        "latEnd": 49.67150769,
+        "lonEnd": 17.30064064,
+        "length": 0,
+        "surfacetype": 3
       },
       {
+        "type": 102,
+        "width": 14.9,
+        "surfaceType": 4,
+        "numberStart": "H",
+        "numberEnd": null,
+        "latStart": 49.6696467,
+        "lonStart": 17.28948194,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.9
+      }
+    ],
+    "id": 2932
+  },
+  {
+    "type": 1,
+    "icao": "LKHN",
+    "lat": 49.54603986,
+    "lon": 17.70443098,
+    "communications": [
+      {
         "type": 54,
-        "frequency": 11810,
-        "name": "TWR"
+        "frequency": 12350,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 797,
+    "tower": true,
+    "name": "Hranice",
+    "runways": [
+      {
+        "type": 100,
+        "width": 149.96,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 49.54416599,
+        "lonStart": 17.70023138,
+        "latEnd": 49.54791373,
+        "lonEnd": 17.70863058,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12127
+  },
+  {
+    "type": 1,
+    "icao": "LKKM",
+    "lat": 49.28575483,
+    "lon": 17.415322515,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12220,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 616,
+    "tower": true,
+    "name": "Kromeriz",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 49.28254487,
+        "lonStart": 17.41330423,
+        "latEnd": 49.28896479,
+        "lonEnd": 17.4173408,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14146
+  },
+  {
+    "type": 1,
+    "icao": "LKKU",
+    "lat": 49.028308416666675,
+    "lon": 17.439006368333335,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12010,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 580,
+    "tower": true,
+    "name": "Kunovice",
+    "runways": [
+      {
+        "type": 100,
+        "width": 79.86,
+        "surfaceType": null,
+        "numberStart": "03L",
+        "numberEnd": "21R",
+        "latStart": 49.02163219,
+        "lonStart": 17.43292904,
+        "latEnd": 49.03365457,
+        "lonEnd": 17.44159637,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "03C",
+        "numberEnd": "21C",
+        "latStart": 49.02129931,
+        "lonStart": 17.43400657,
+        "latEnd": 49.03755185,
+        "lonEnd": 17.44572363,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "03R",
+        "numberEnd": "21L",
+        "latStart": 49.02099555,
+        "lonStart": 17.43494162,
+        "latEnd": 49.03471703,
+        "lonEnd": 17.44484098,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14194
+  },
+  {
+    "type": 1,
+    "icao": "LKOL",
+    "lat": 49.58759383833333,
+    "lon": 17.20933289,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11800,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 869,
+    "tower": true,
+    "name": "Olomouc",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 49.58833378,
+        "lonStart": 17.20536133,
+        "latEnd": 49.58793027,
+        "lonEnd": 17.21099919,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "10L",
+        "numberEnd": "28R",
+        "latStart": 49.58784052,
+        "lonStart": 17.20472323,
+        "latEnd": 49.58707754,
+        "lonEnd": 17.21514202,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "10R",
+        "numberEnd": "28L",
+        "latStart": 49.58757195,
+        "lonStart": 17.20467633,
+        "latEnd": 49.58680897,
+        "lonEnd": 17.21509524,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18923
+  },
+  {
+    "type": 1,
+    "icao": "LKOT",
+    "lat": 49.1984006275,
+    "lon": 17.517282965,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12240,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 603,
+    "tower": true,
+    "name": "Otrokovice",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "17L",
+        "numberEnd": "35R",
+        "latStart": 49.20132514,
+        "lonStart": 17.51704007,
+        "latEnd": 49.19556272,
+        "lonEnd": 17.51837453,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "17R",
+        "numberEnd": "35L",
+        "latStart": 49.20101414,
+        "lonStart": 17.51624526,
+        "latEnd": 49.19570051,
+        "lonEnd": 17.517472,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 19083
+  },
+  {
+    "type": 1,
+    "icao": "LKPO",
+    "lat": 49.425920575000006,
+    "lon": 17.404829015,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11975,
+        "name": "MTWR"
       },
       {
         "type": 55,
-        "frequency": 11890,
-        "name": "APP"
+        "frequency": 12777,
+        "name": "MAPP"
       }
     ],
-    "elevation": 1233,
+    "elevation": 676,
     "tower": true,
-    "name": "Luxembourg",
+    "name": "Prerov",
     "runways": [
       {
         "type": 100,
@@ -31,38 +295,149 @@
         "surfaceType": null,
         "numberStart": "06",
         "numberEnd": "24",
-        "latStart": 49.61763209,
-        "lonStart": 6.18747837,
-        "latEnd": 49.63554195,
-        "lonEnd": 6.23568145,
+        "latStart": 49.42136845,
+        "lonStart": 17.3890764,
+        "latEnd": 49.4304727,
+        "lonEnd": 17.42058163,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 20,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 49.62521213,
-        "lonStart": 6.19915611,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20
-      },
-      {
-        "type": 102,
-        "width": 20,
-        "surfaceType": 2,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 49.62493312,
-        "lonStart": 6.19997437,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20
+        "surfacetype": 2
       }
     ],
-    "id": 15630
+    "id": 20513
+  },
+  {
+    "type": 1,
+    "icao": "LKPJ",
+    "lat": 49.447758025,
+    "lon": 17.13448716,
+    "communications": [],
+    "elevation": 702,
+    "tower": false,
+    "name": "Prostejov",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 49.45065246,
+        "lonStart": 17.12773614,
+        "latEnd": 49.44486359,
+        "lonEnd": 17.14123818,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20570
+  },
+  {
+    "type": 1,
+    "icao": "LKSB",
+    "lat": 49.487419175,
+    "lon": 17.052460455,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12067,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 836,
+    "tower": true,
+    "name": "Stichovice",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 49.48995178,
+        "lonStart": 17.04788235,
+        "latEnd": 49.48488657,
+        "lonEnd": 17.05703856,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24192
+  },
+  {
+    "type": 1,
+    "icao": "LKSU",
+    "lat": 49.959920025,
+    "lon": 17.017060202499998,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12260,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 1099,
+    "tower": true,
+    "name": "Sumperk",
+    "runways": [
+      {
+        "type": 100,
+        "width": 89.92,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 49.95791315,
+        "lonStart": 17.01298554,
+        "latEnd": 49.96131175,
+        "lonEnd": 17.02117733,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 114.91,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 49.95706839,
+        "lonStart": 17.01681279,
+        "latEnd": 49.96338681,
+        "lonEnd": 17.01726515,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24360
+  },
+  {
+    "type": 1,
+    "icao": "LKVY",
+    "lat": 49.300433705,
+    "lon": 17.02536556,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12032,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 915,
+    "tower": true,
+    "name": "Vyskov",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 49.29494201,
+        "lonStart": 17.02233,
+        "latEnd": 49.3059254,
+        "lonEnd": 17.02840112,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 26419
   }
 ]

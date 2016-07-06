@@ -1,28 +1,80 @@
 [
   {
     "type": 1,
-    "icao": "FIMR",
-    "lat": -19.757658,
-    "lon": 21.797912500000002,
+    "icao": "FBKF",
+    "lat": -19.5,
+    "lon": 21,
     "communications": [],
-    "elevation": 95,
+    "elevation": 3600,
     "tower": false,
-    "name": "PLAINE CORAIL",
+    "name": "Kalkfontein",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 10.06,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -19.5008,
+        "lonStart": 20.9953,
+        "latEnd": -19.4992,
+        "lonEnd": 21.0047,
+        "length": 0,
+        "surfacetype": 15
+      }
+    ],
+    "id": 13558
+  },
+  {
+    "type": 1,
+    "icao": "FB29",
+    "lat": -19.5833,
+    "lon": 21,
+    "communications": [],
+    "elevation": 3100,
+    "tower": false,
+    "name": "Kanana",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
         "surfaceType": null,
         "numberStart": "12",
         "numberEnd": "30",
-        "latStart": -19.756069,
-        "lonStart": 63.355072,
-        "latEnd": -19.759247,
-        "lonEnd": 63.366892,
+        "latStart": -19.5815,
+        "lonStart": 20.9967,
+        "latEnd": -19.5851,
+        "lonEnd": 21.0033,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 5
       }
     ],
-    "id": 19422
+    "id": 13583
+  },
+  {
+    "type": 1,
+    "icao": "FB91",
+    "lat": -19.86665,
+    "lon": 21.06665,
+    "communications": [],
+    "elevation": 3669,
+    "tower": false,
+    "name": "Xai Xai Botswana",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -19.8653,
+        "lonStart": 21.0626,
+        "latEnd": -19.868,
+        "lonEnd": 21.0707,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 27627
   }
 ]

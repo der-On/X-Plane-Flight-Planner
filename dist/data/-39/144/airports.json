@@ -1,5 +1,305 @@
 [
   {
+    "type": 1,
+    "icao": "YMAV",
+    "lat": -38.03599626333334,
+    "lon": 144.47164501666666,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11820,
+        "name": "Avalon ATIS"
+      },
+      {
+        "type": 55,
+        "frequency": 13355,
+        "name": "Avalon Approach"
+      },
+      {
+        "type": 54,
+        "frequency": 12010,
+        "name": "Avalon Tower"
+      }
+    ],
+    "elevation": 35,
+    "tower": true,
+    "name": "Avalon",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -38.02724602,
+        "lonStart": 144.4694054,
+        "latEnd": -38.05444248,
+        "lonEnd": 144.46485917,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 38,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -38.02630029,
+        "lonStart": 144.48067048,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 38
+      }
+    ],
+    "id": 1354
+  },
+  {
+    "type": 1,
+    "icao": "YAVE",
+    "lat": -38.031909602499994,
+    "lon": 144.4930235125,
+    "communications": [],
+    "elevation": 32,
+    "tower": false,
+    "name": "Avalon East (Temp. during Airshows)",
+    "runways": [
+      {
+        "type": 100,
+        "width": 36.88,
+        "surfaceType": null,
+        "numberStart": "17R",
+        "numberEnd": "35L",
+        "latStart": -38.03627741,
+        "lonStart": 144.49145915,
+        "latEnd": -38.027363,
+        "lonEnd": 144.493105,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 36.88,
+        "surfaceType": null,
+        "numberStart": "17L",
+        "numberEnd": "35R",
+        "latStart": -38.0364455,
+        "lonStart": 144.492949,
+        "latEnd": -38.0275525,
+        "lonEnd": 144.4945809,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1355
+  },
+  {
+    "type": 1,
+    "icao": "YBRS",
+    "lat": -38.2570265575,
+    "lon": 144.4279211025,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 11900,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 49,
+    "tower": false,
+    "name": "Barwon Heads",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "1",
+        "numberEnd": "19",
+        "latStart": -38.25929112,
+        "lonStart": 144.42730989,
+        "latEnd": -38.25266804,
+        "lonEnd": 144.42853215,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 18.9,
+        "surfaceType": null,
+        "numberStart": "9",
+        "numberEnd": "27",
+        "latStart": -38.25778677,
+        "lonStart": 144.42510931,
+        "latEnd": -38.2583603,
+        "lonEnd": 144.43073306,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 2309
+  },
+  {
+    "type": 1,
+    "icao": "YCES",
+    "lat": -38.146033,
+    "lon": 144.262246965,
+    "communications": [],
+    "elevation": 96,
+    "tower": false,
+    "name": "Ceres",
+    "runways": [
+      {
+        "type": 100,
+        "width": 83,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -38.14962245,
+        "lonStart": 144.26158516,
+        "latEnd": -38.14244355,
+        "lonEnd": 144.26290877,
+        "length": 0,
+        "surfacetype": 15
+      }
+    ],
+    "id": 4732
+  },
+  {
+    "type": 1,
+    "icao": "YGLG",
+    "lat": -38.224068245,
+    "lon": 144.331157055,
+    "communications": [],
+    "elevation": 118,
+    "tower": false,
+    "name": "Geelong",
+    "runways": [
+      {
+        "type": 100,
+        "width": 10.97,
+        "surfaceType": null,
+        "numberStart": "1",
+        "numberEnd": "19",
+        "latStart": -38.22778301,
+        "lonStart": 144.33252417,
+        "latEnd": -38.21925561,
+        "lonEnd": 144.33447722,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 11.89,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -38.22397575,
+        "lonStart": 144.32365827,
+        "latEnd": -38.22525861,
+        "lonEnd": 144.33396856,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 10368
+  },
+  {
+    "type": 1,
+    "icao": "YSLE",
+    "lat": -38.168687765,
+    "lon": 144.6879348725,
+    "communications": [],
+    "elevation": 53,
+    "tower": false,
+    "name": "ST LEONARDS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 53.04,
+        "surfaceType": null,
+        "numberStart": "1",
+        "numberEnd": "19",
+        "latStart": -38.17137083,
+        "lonStart": 144.68791108,
+        "latEnd": -38.16513347,
+        "lonEnd": 144.6890826,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -38.16806067,
+        "lonStart": 144.68363881,
+        "latEnd": -38.17018609,
+        "lonEnd": 144.691107,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 22475
+  },
+  {
+    "type": 1,
+    "icao": "YTQY",
+    "lat": -38.29510519833333,
+    "lon": 144.36652728,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 11900,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 30,
+    "tower": false,
+    "name": "Torquay",
+    "runways": [
+      {
+        "type": 100,
+        "width": 36.88,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -38.29180985,
+        "lonStart": 144.36546132,
+        "latEnd": -38.29623155,
+        "lonEnd": 144.36993029,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -38.29577641,
+        "lonStart": 144.364393,
+        "latEnd": -38.29650634,
+        "lonEnd": 144.36985667,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 59.13,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -38.29830352,
+        "lonStart": 144.36412123,
+        "latEnd": -38.29200352,
+        "lonEnd": 144.36540117,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25481
+  },
+  {
     "type": 17,
     "icao": "YGEH",
     "lat": -38.15130584,

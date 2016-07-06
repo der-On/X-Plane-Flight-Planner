@@ -1,355 +1,99 @@
 [
   {
     "type": 1,
-    "icao": "ETHF",
-    "lat": 51.11536422999999,
-    "lon": 23.226144326666667,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12210,
-        "name": "Fritzlar Tower"
-      },
-      {
-        "type": 55,
-        "frequency": 13560,
-        "name": "Fritzlar Radar"
-      }
-    ],
-    "elevation": 565,
-    "tower": true,
-    "name": "Fritzlar AB",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 51.116817,
-        "lonStart": 9.279313,
-        "latEnd": 51.112317,
-        "lonEnd": 9.292422,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 29.4,
-        "surfaceType": 15,
-        "numberStart": "H8",
-        "numberEnd": null,
-        "latStart": 51.11695869,
-        "lonStart": 9.28680298,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 29.3
-      }
-    ],
-    "id": 9746
-  },
-  {
-    "type": 1,
-    "icao": "EGFE",
-    "lat": 51.833805622499995,
-    "lon": 23.4341978975,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12220,
-        "name": "Haverfordwest Radio"
-      }
-    ],
-    "elevation": 159,
-    "tower": true,
-    "name": "Haverfordwest",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 51.82738585,
-        "lonStart": -4.96630092,
-        "latEnd": 51.8392272,
-        "lonEnd": -4.95539859,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 51.83409451,
-        "lonStart": -4.97064962,
-        "latEnd": 51.83451493,
-        "lonEnd": -4.95490673,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 11550
-  },
-  {
-    "type": 1,
-    "icao": "EG69",
-    "lat": 51.170320055,
-    "lon": 23.249703784999998,
+    "icao": "XEP80",
+    "lat": 51.612425,
+    "lon": 23.007142805,
     "communications": [],
-    "elevation": 455,
+    "elevation": 479,
     "tower": false,
-    "name": "Lundy Island",
+    "name": "Debowa Kloda",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 30,
         "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 51.16875424,
-        "lonStart": -4.6724783,
-        "latEnd": 51.17188587,
-        "lonEnd": -4.66861423,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 51.6084135,
+        "lonStart": 23.00582247,
+        "latEnd": 51.6164365,
+        "lonEnd": 23.00846314,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 15616
+    "id": 6114
   },
   {
     "type": 1,
-    "icao": "EGFP",
-    "lat": 51.71393577,
-    "lon": 23.700807445,
+    "icao": "EPCD",
+    "lat": 51.082713045,
+    "lon": 23.43771582,
     "communications": [
       {
         "type": 54,
-        "frequency": 12440,
-        "name": "Pembrey Radio"
+        "frequency": 11957,
+        "name": "DEPULTYCZE RADIO"
       }
     ],
-    "elevation": 15,
+    "elevation": 694,
     "tower": true,
-    "name": "Pembrey",
+    "name": "Depultycze Krolewskie",
     "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "8",
-        "numberEnd": "26",
-        "latStart": 51.71091354,
-        "lonStart": -4.31534311,
-        "latEnd": 51.716958,
-        "lonEnd": -4.309219,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19950
-  },
-  {
-    "type": 1,
-    "icao": "EGDA",
-    "lat": 51.884277999999995,
-    "lon": 23.377625105,
-    "communications": [],
-    "elevation": 355,
-    "tower": false,
-    "name": "RAF Brawdy",
-    "runways": [
-      {
-        "type": 100,
-        "width": 46.02,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 51.87040611,
-        "lonStart": -5.12604051,
-        "latEnd": 51.89051789,
-        "lonEnd": -5.11691949,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 47.85,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 51.8949487,
-        "lonStart": -5.13521626,
-        "latEnd": 51.8812393,
-        "lonEnd": -5.11747174,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 20761
-  },
-  {
-    "type": 1,
-    "icao": "EGDX",
-    "lat": 51.405195,
-    "lon": 23.980790225,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11812,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12662,
-        "name": "APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12585,
-        "name": "CARDIFF APP"
-      }
-    ],
-    "elevation": 163,
-    "tower": true,
-    "name": "RAF St Athan",
-    "runways": [
-      {
-        "type": 100,
-        "width": 41.15,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 51.40280706,
-        "lonStart": -3.44600249,
-        "latEnd": 51.40758294,
-        "lonEnd": -3.42092951,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 20789
-  },
-  {
-    "type": 1,
-    "icao": "EGDC",
-    "lat": 51.08943906166667,
-    "lon": 23.467780116666663,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13035,
-        "name": "ATIS"
-      },
-      {
-        "type": 53,
-        "frequency": 13019,
-        "name": "Chevenor GND"
-      },
-      {
-        "type": 54,
-        "frequency": 13019,
-        "name": "Chevenor TWR"
-      }
-    ],
-    "elevation": 26,
-    "tower": true,
-    "name": "Royal Marines Base Chivenor",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 51.08717474,
-        "lonStart": -4.16339693,
-        "latEnd": 51.08723078,
-        "lonEnd": -4.13732528,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 51.0855372,
-        "lonStart": -4.14823029,
-        "latEnd": 51.0950832,
-        "lonEnd": -4.15684829,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 51.0872472,
-        "lonStart": -4.15836731,
-        "latEnd": 51.09436125,
-        "lonEnd": -4.15209125,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 21796
-  },
-  {
-    "type": 1,
-    "icao": "EGFH",
-    "lat": 51.602631405000004,
-    "lon": 23.763881195,
-    "communications": [],
-    "elevation": 299,
-    "tower": true,
-    "name": "Swansea",
-    "runways": [
-      {
-        "type": 100,
-        "width": 46,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 51.59972489,
-        "lonStart": -4.07430426,
-        "latEnd": 51.61075151,
-        "lonEnd": -4.06169131,
-        "length": 0,
-        "surfacetype": 2
-      },
       {
         "type": 100,
         "width": 50,
         "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 51.60131636,
-        "lonStart": -4.07717148,
-        "latEnd": 51.60021661,
-        "lonEnd": -4.06216448,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 51.07955471,
+        "lonStart": 23.4365208,
+        "latEnd": 51.08587138,
+        "lonEnd": 23.43891084,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
+      }
+    ],
+    "id": 6194
+  },
+  {
+    "type": 1,
+    "icao": "EPSA",
+    "lat": 51.455408112499995,
+    "lon": 23.542658059999997,
+    "communications": [],
+    "elevation": 515,
+    "tower": false,
+    "name": "Zlobek Maly",
+    "runways": [
+      {
+        "type": 100,
+        "width": 59.74,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 51.456112,
+        "lonStart": 23.54480875,
+        "latEnd": 51.45329684,
+        "lonEnd": 23.54054711,
+        "length": 0,
+        "surfacetype": 3
       },
       {
         "type": 100,
-        "width": 46,
+        "width": 59.74,
         "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 51.60567555,
-        "lonStart": -4.07430872,
-        "latEnd": 51.59810351,
-        "lonEnd": -4.06565596,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 51.45920908,
+        "lonStart": 23.54496555,
+        "latEnd": 51.45301453,
+        "lonEnd": 23.54031083,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 24464
+    "id": 27915
   }
 ]

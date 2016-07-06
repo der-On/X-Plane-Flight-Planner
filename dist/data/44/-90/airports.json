@@ -1,5 +1,941 @@
 [
   {
+    "type": 1,
+    "icao": "KISW",
+    "lat": 44.3599685,
+    "lon": -89.83947549999999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12657,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1020,
+    "tower": false,
+    "name": "Alexander Fld South Wood Co",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 44.35335,
+        "lonStart": -89.841842,
+        "latEnd": 44.367547,
+        "lonEnd": -89.834725,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 44.363122,
+        "lonStart": -89.844183,
+        "latEnd": 44.358761,
+        "lonEnd": -89.831664,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 44.361389,
+        "lonStart": -89.8425,
+        "latEnd": 44.355642,
+        "lonEnd": -89.841939,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 856
+  },
+  {
+    "type": 1,
+    "icao": "2WI0",
+    "lat": 44.85274638,
+    "lon": -89.60012112000001,
+    "communications": [],
+    "elevation": 1196,
+    "tower": false,
+    "name": "Benders",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 44.85274638,
+        "lonStart": -89.60689227,
+        "latEnd": 44.85274638,
+        "lonEnd": -89.59334997,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 2541
+  },
+  {
+    "type": 1,
+    "icao": "1WI7",
+    "lat": 44.02220166,
+    "lon": -89.09650584,
+    "communications": [],
+    "elevation": 805,
+    "tower": false,
+    "name": "Buzzards Roost",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 44.02220166,
+        "lonStart": -89.099939,
+        "latEnd": 44.02220166,
+        "lonEnd": -89.09307268,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3471
+  },
+  {
+    "type": 1,
+    "icao": "WS10",
+    "lat": 44.40803638,
+    "lon": -89.01594473,
+    "communications": [],
+    "elevation": 850,
+    "tower": false,
+    "name": "Casey Lake",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 44.40798851,
+        "lonStart": -89.01978384,
+        "latEnd": 44.40808425,
+        "lonEnd": -89.01210562,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4618
+  },
+  {
+    "type": 1,
+    "icao": "68C",
+    "lat": 44.50481266666666,
+    "lon": -89.025436,
+    "communications": [],
+    "elevation": 875,
+    "tower": false,
+    "name": "Central County",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 44.50297373,
+        "lonStart": -89.02934391,
+        "latEnd": 44.50724627,
+        "lonEnd": -89.02167609,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 36.58,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 44.504416,
+        "lonStart": -89.02917043,
+        "latEnd": 44.504416,
+        "lonEnd": -89.02224757,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 39.62,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 44.50603492,
+        "lonStart": -89.02805021,
+        "latEnd": 44.50378908,
+        "lonEnd": -89.02212779,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4718
+  },
+  {
+    "type": 1,
+    "icao": "KCWA",
+    "lat": 44.777218,
+    "lon": -89.6672745,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12745,
+        "name": "ATIS"
+      },
+      {
+        "type": 50,
+        "frequency": 12745,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 11975,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11975,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 1276,
+    "tower": true,
+    "name": "Central Wisconsin",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 44.779878,
+        "lonStart": -89.675536,
+        "latEnd": 44.784461,
+        "lonEnd": -89.646806,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 44.781047,
+        "lonStart": -89.675542,
+        "latEnd": 44.763486,
+        "lonEnd": -89.671214,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 4723
+  },
+  {
+    "type": 1,
+    "icao": "51C",
+    "lat": 44.05997277,
+    "lon": -89.56678945,
+    "communications": [],
+    "elevation": 1100,
+    "tower": false,
+    "name": "Coloma Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 44.06353864,
+        "lonStart": -89.56678945,
+        "latEnd": 44.0564069,
+        "lonEnd": -89.56678945,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 5196
+  },
+  {
+    "type": 1,
+    "icao": "55WI",
+    "lat": 44.318018609999996,
+    "lon": -89.96873973,
+    "communications": [],
+    "elevation": 984,
+    "tower": false,
+    "name": "Cranmoor Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 44.32158448,
+        "lonStart": -89.96873973,
+        "latEnd": 44.31445274,
+        "lonEnd": -89.96873973,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5461
+  },
+  {
+    "type": 1,
+    "icao": "3WI4",
+    "lat": 44.92358055,
+    "lon": -89.40233945,
+    "communications": [],
+    "elevation": 1320,
+    "tower": false,
+    "name": "Flying O",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 44.92358055,
+        "lonStart": -89.40698825,
+        "latEnd": 44.92358055,
+        "lonEnd": -89.39769065,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9493
+  },
+  {
+    "type": 1,
+    "icao": "20WI",
+    "lat": 44.02136833,
+    "lon": -89.07928362,
+    "communications": [],
+    "elevation": 800,
+    "tower": false,
+    "name": "Harju",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 44.02311395,
+        "lonStart": -89.08171119,
+        "latEnd": 44.01962271,
+        "lonEnd": -89.07685605,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11448
+  },
+  {
+    "type": 1,
+    "icao": "WS14",
+    "lat": 44.46413944,
+    "lon": -89.35872556,
+    "communications": [],
+    "elevation": 1113,
+    "tower": false,
+    "name": "Lake Ell Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 44.46385365,
+        "lonStart": -89.36099656,
+        "latEnd": 44.46442523,
+        "lonEnd": -89.35645456,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 44.46551093,
+        "lonStart": -89.35872556,
+        "latEnd": 44.46276795,
+        "lonEnd": -89.35872556,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14823
+  },
+  {
+    "type": 1,
+    "icao": "3WI8",
+    "lat": 44.053312219999995,
+    "lon": -89.12178389,
+    "communications": [],
+    "elevation": 825,
+    "tower": false,
+    "name": "Plantation Pine",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 44.05378853,
+        "lonStart": -89.12554253,
+        "latEnd": 44.05283591,
+        "lonEnd": -89.11802525,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20243
+  },
+  {
+    "type": 1,
+    "icao": "WS09",
+    "lat": 44.01330722,
+    "lon": -89.524845,
+    "communications": [],
+    "elevation": 1017,
+    "tower": false,
+    "name": "Rox",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 44.01099585,
+        "lonStart": -89.52754178,
+        "latEnd": 44.01561859,
+        "lonEnd": -89.52214822,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21787
+  },
+  {
+    "type": 1,
+    "icao": "8WI2",
+    "lat": 44.22469416,
+    "lon": -89.53095334,
+    "communications": [],
+    "elevation": 1100,
+    "tower": false,
+    "name": "Runway Leasing Inc Nr 1",
+    "runways": [
+      {
+        "type": 100,
+        "width": 38.1,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 44.22798574,
+        "lonStart": -89.53095334,
+        "latEnd": 44.22140258,
+        "lonEnd": -89.53095334,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 21833
+  },
+  {
+    "type": 1,
+    "icao": "8WI3",
+    "lat": 44.4208025,
+    "lon": -89.55539639,
+    "communications": [],
+    "elevation": 1069,
+    "tower": false,
+    "name": "Rwnway Leasing Inc Nr 2",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 44.4208025,
+        "lonStart": -89.56038908,
+        "latEnd": 44.4208025,
+        "lonEnd": -89.5504037,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 21873
+  },
+  {
+    "type": 1,
+    "icao": "WS16",
+    "lat": 44.84718916,
+    "lon": -89.80151389,
+    "communications": [],
+    "elevation": 1345,
+    "tower": false,
+    "name": "Scherrico Meadows",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 44.84718916,
+        "lonStart": -89.80639639,
+        "latEnd": 44.84718916,
+        "lonEnd": -89.79663139,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23090
+  },
+  {
+    "type": 1,
+    "icao": "80WI",
+    "lat": 44.02303472,
+    "lon": -89.13845084,
+    "communications": [],
+    "elevation": 800,
+    "tower": false,
+    "name": "Spring Creek",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 44.02687489,
+        "lonStart": -89.13845084,
+        "latEnd": 44.01919455,
+        "lonEnd": -89.13845084,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23978
+  },
+  {
+    "type": 1,
+    "icao": "KSTE",
+    "lat": 44.544964,
+    "lon": -89.53007625000001,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11927,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1110,
+    "tower": false,
+    "name": "Stevens Point Muni",
+    "runways": [
+      {
+        "type": 100,
+        "width": 36.58,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 44.538431,
+        "lonStart": -89.536603,
+        "latEnd": 44.5528,
+        "lonEnd": -89.525169,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 44.546781,
+        "lonStart": -89.535325,
+        "latEnd": 44.541844,
+        "lonEnd": -89.523208,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 24174
+  },
+  {
+    "type": 1,
+    "icao": "WS36",
+    "lat": 44.27136194,
+    "lon": -89.43706277999999,
+    "communications": [],
+    "elevation": 1140,
+    "tower": false,
+    "name": "Swan Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 44.27136194,
+        "lonStart": -89.440702,
+        "latEnd": 44.27136194,
+        "lonEnd": -89.43342356,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24456
+  },
+  {
+    "type": 1,
+    "icao": "97C",
+    "lat": 44.43331111,
+    "lon": -89.15011223,
+    "communications": [],
+    "elevation": 890,
+    "tower": false,
+    "name": "Timberline",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 44.43325845,
+        "lonStart": -89.15433708,
+        "latEnd": 44.43336377,
+        "lonEnd": -89.14588738,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25376
+  },
+  {
+    "type": 1,
+    "icao": "KPCZ",
+    "lat": 44.3329195,
+    "lon": -89.017376,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11862,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12440,
+        "name": "MINNEAPOLIS CNTR"
+      }
+    ],
+    "elevation": 826,
+    "tower": false,
+    "name": "Waupaca Muni",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 44.333364,
+        "lonStart": -89.032892,
+        "latEnd": 44.332508,
+        "lonEnd": -89.013056,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 44.336667,
+        "lonStart": -89.021689,
+        "latEnd": 44.330711,
+        "lonEnd": -89.009308,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 33.53,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 44.330953,
+        "lonStart": -89.016086,
+        "latEnd": 44.333314,
+        "lonEnd": -89.011225,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 26988
+  },
+  {
+    "type": 1,
+    "icao": "KAUW",
+    "lat": 44.9260485,
+    "lon": -89.625486,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12592,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12440,
+        "name": "Minneapolis"
+      }
+    ],
+    "elevation": 1201,
+    "tower": false,
+    "name": "Wausau Downtown",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 44.930222,
+        "lonStart": -89.638389,
+        "latEnd": 44.922442,
+        "lonEnd": -89.622664,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 44.922722,
+        "lonStart": -89.624583,
+        "latEnd": 44.928808,
+        "lonEnd": -89.616308,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 26989
+  },
+  {
+    "type": 1,
+    "icao": "Y50",
+    "lat": 44.04287866666667,
+    "lon": -89.30551716666666,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 858,
+    "tower": false,
+    "name": "Wautoma Muni",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 44.044639,
+        "lonStart": -89.309172,
+        "latEnd": 44.038611,
+        "lonEnd": -89.299806,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 44.044978,
+        "lonStart": -89.311875,
+        "latEnd": 44.045794,
+        "lonEnd": -89.303278,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 10.67,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 44.0405306,
+        "lonStart": -89.30617035,
+        "latEnd": 44.0427194,
+        "lonEnd": -89.30280165,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 26990
+  },
+  {
+    "type": 1,
+    "icao": "W23",
+    "lat": 44.19938260000001,
+    "lon": -89.2178993475,
+    "communications": [],
+    "elevation": 908,
+    "tower": false,
+    "name": "Wild Rose Idlewild",
+    "runways": [
+      {
+        "type": 100,
+        "width": 35.6,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 44.20412992,
+        "lonStart": -89.21787107,
+        "latEnd": 44.19788994,
+        "lonEnd": -89.21793686,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 44.19775527,
+        "lonStart": -89.22361455,
+        "latEnd": 44.19775527,
+        "lonEnd": -89.21217491,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 27273
+  },
+  {
+    "type": 1,
+    "icao": "6WI1",
+    "lat": 44.49523916,
+    "lon": -89.91262695,
+    "communications": [],
+    "elevation": 1120,
+    "tower": false,
+    "name": "Winch Airfield",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 44.49527267,
+        "lonStart": -89.91531834,
+        "latEnd": 44.49520565,
+        "lonEnd": -89.90993556,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 27390
+  },
+  {
+    "type": 1,
+    "icao": "WS04",
+    "lat": 44.032468609999995,
+    "lon": -89.86512667,
+    "communications": [],
+    "elevation": 950,
+    "tower": false,
+    "name": "Zanadu",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 44.03052903,
+        "lonStart": -89.86782448,
+        "latEnd": 44.03440819,
+        "lonEnd": -89.86242886,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 27871
+  },
+  {
     "type": 17,
     "icao": "WI64",
     "lat": 44.5069225,

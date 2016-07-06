@@ -1,5 +1,81 @@
 [
   {
+    "type": 1,
+    "icao": "YGGG",
+    "lat": -32.298670959999995,
+    "lon": 149.56250859,
+    "communications": [],
+    "elevation": 1443,
+    "tower": false,
+    "name": "GULGONG",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "9",
+        "numberEnd": "27",
+        "latStart": -32.29834492,
+        "lonStart": 149.55459818,
+        "latEnd": -32.298997,
+        "lonEnd": 149.570419,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 10215
+  },
+  {
+    "type": 1,
+    "icao": "YMDG",
+    "lat": -32.5623973925,
+    "lon": 149.6107695375,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12670,
+        "name": "MUDGEE CTAF"
+      },
+      {
+        "type": 52,
+        "frequency": 13305,
+        "name": "BRISBANE CNTR"
+      }
+    ],
+    "elevation": 1541,
+    "tower": false,
+    "name": "Mudgee",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": -32.56974739,
+        "lonStart": 149.6020492,
+        "latEnd": -32.56015903,
+        "lonEnd": 149.61661638,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 105.36,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -32.55407499,
+        "lonStart": 149.61111269,
+        "latEnd": -32.56560816,
+        "lonEnd": 149.61329988,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17677
+  },
+  {
     "type": 17,
     "icao": "YXRN",
     "lat": -32.80397,

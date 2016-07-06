@@ -1,5 +1,55 @@
 [
   {
+    "type": 1,
+    "icao": "UIBB",
+    "lat": 56.37015725250001,
+    "lon": 101.7029493575,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "TAXIING"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "KRUG"
+      }
+    ],
+    "elevation": 1609,
+    "tower": true,
+    "name": "BRATSK",
+    "runways": [
+      {
+        "type": 100,
+        "width": 74.98,
+        "surfaceType": null,
+        "numberStart": "12L",
+        "numberEnd": "30R",
+        "latStart": 56.37350699,
+        "lonStart": 101.69279599,
+        "latEnd": 56.36601102,
+        "lonEnd": 101.72234344,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 56.376517,
+        "lonStart": 101.675136,
+        "latEnd": 56.364594,
+        "lonEnd": 101.721522,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 1896
+  },
+  {
     "type": 17,
     "icao": "UI90",
     "lat": 56.516667,
@@ -23,5 +73,31 @@
       }
     ],
     "id": 27941
+  },
+  {
+    "type": 17,
+    "icao": "UI78",
+    "lat": 56.1041365,
+    "lon": 101.43764823000001,
+    "communications": [],
+    "elevation": 1441,
+    "tower": false,
+    "name": "[H] Mostovoy",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 56.10607008,
+        "lonStart": 101.4322268,
+        "latEnd": 56.10220292,
+        "lonEnd": 101.44306966,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 31463
   }
 ]

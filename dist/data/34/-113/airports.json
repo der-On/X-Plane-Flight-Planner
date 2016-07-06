@@ -1,5 +1,297 @@
 [
   {
+    "type": 1,
+    "icao": "AZ27",
+    "lat": 34.910019160000004,
+    "lon": -112.53406195,
+    "communications": [],
+    "elevation": 4399,
+    "tower": false,
+    "name": "Big Spring Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 34.90841522,
+        "lonStart": -112.54045941,
+        "latEnd": 34.9116231,
+        "lonEnd": -112.52766449,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 2709
+  },
+  {
+    "type": 1,
+    "icao": "P52",
+    "lat": 34.7300015,
+    "lon": -112.0352805,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 3549,
+    "tower": false,
+    "name": "COTTONWOOD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 34.735278,
+        "lonStart": -112.038061,
+        "latEnd": 34.724725,
+        "lonEnd": -112.0325,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4188
+  },
+  {
+    "type": 1,
+    "icao": "AZ71",
+    "lat": 34.21530583,
+    "lon": -112.53628388999999,
+    "communications": [],
+    "elevation": 3439,
+    "tower": false,
+    "name": "Cooper Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 34.21366463,
+        "lonStart": -112.53712634,
+        "latEnd": 34.21694703,
+        "lonEnd": -112.53544144,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5306
+  },
+  {
+    "type": 1,
+    "icao": "AZ07",
+    "lat": 34.11669944,
+    "lon": -112.09515667,
+    "communications": [],
+    "elevation": 2200,
+    "tower": false,
+    "name": "Cross Y Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 34.11977302,
+        "lonStart": -112.09429957,
+        "latEnd": 34.11362586,
+        "lonEnd": -112.09601377,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 5526
+  },
+  {
+    "type": 1,
+    "icao": "AZ46",
+    "lat": 34.76641111,
+    "lon": -112.54906084000001,
+    "communications": [],
+    "elevation": 5025,
+    "tower": false,
+    "name": "Hh Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 34.76805444,
+        "lonStart": -112.55214125,
+        "latEnd": 34.76476778,
+        "lonEnd": -112.54598043,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 11766
+  },
+  {
+    "type": 1,
+    "icao": "43E",
+    "lat": 34.01947277,
+    "lon": -112.82573584,
+    "communications": [],
+    "elevation": 2455,
+    "tower": false,
+    "name": "Moreton",
+    "runways": [
+      {
+        "type": 100,
+        "width": 42.67,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 34.02462078,
+        "lonStart": -112.8304162,
+        "latEnd": 34.01432476,
+        "lonEnd": -112.82105548,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 21.95,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 34.02303376,
+        "lonStart": -112.82551068,
+        "latEnd": 34.01591178,
+        "lonEnd": -112.825961,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 19.81,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 34.02008981,
+        "lonStart": -112.82896041,
+        "latEnd": 34.01885573,
+        "lonEnd": -112.82251127,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 17497
+  },
+  {
+    "type": 1,
+    "icao": "KPRC",
+    "lat": 34.65446216666666,
+    "lon": -112.419514,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12720,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12530,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12530,
+        "name": "PRESCOTT TWR"
+      }
+    ],
+    "elevation": 5042,
+    "tower": true,
+    "name": "Prescott Ernest A. Love Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "03R",
+        "numberEnd": "21L",
+        "latStart": 34.645756,
+        "lonStart": -112.428756,
+        "latEnd": 34.661342,
+        "lonEnd": -112.4122,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "03L",
+        "numberEnd": "21R",
+        "latStart": 34.656492,
+        "lonStart": -112.42045,
+        "latEnd": 34.666494,
+        "lonEnd": -112.409822,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 34.652739,
+        "lonStart": -112.427967,
+        "latEnd": 34.64395,
+        "lonEnd": -112.417889,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20514
+  },
+  {
+    "type": 1,
+    "icao": "28E",
+    "lat": 34.50891333,
+    "lon": -112.67989862,
+    "communications": [],
+    "elevation": 4366,
+    "tower": false,
+    "name": "Quarter Circle J Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 34.50557767,
+        "lonStart": -112.68252739,
+        "latEnd": 34.51224899,
+        "lonEnd": -112.67726985,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 20694
+  },
+  {
     "type": 17,
     "icao": "AZ68",
     "lat": 34.06392222,

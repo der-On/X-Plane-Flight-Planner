@@ -1,60 +1,182 @@
 [
   {
     "type": 1,
-    "icao": "VE54",
-    "lat": 24.019264,
-    "lon": 54.0549845,
-    "communications": [],
-    "elevation": 803,
-    "tower": false,
-    "name": "DALTONGANJ",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 24.019167,
-        "lonStart": 84.090608,
-        "latEnd": 24.019361,
-        "lonEnd": 84.099594,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 5661
-  },
-  {
-    "type": 1,
-    "icao": "VEGY",
-    "lat": 24.7443085,
-    "lon": 54.8410415,
+    "icao": "OMAA",
+    "lat": 24.433048499999998,
+    "lon": 54.651182,
     "communications": [
       {
+        "type": 50,
+        "frequency": 12510,
+        "name": "ATIS"
+      },
+      {
         "type": 54,
-        "frequency": 12350,
+        "frequency": 11920,
         "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12175,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12440,
+        "name": "RDR"
+      },
+      {
+        "type": 55,
+        "frequency": 12810,
+        "name": "RDR"
       }
     ],
-    "elevation": 380,
+    "elevation": 87,
     "tower": true,
-    "name": "GAYA",
+    "name": "ABU DHABI INTL",
     "runways": [
       {
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 24.746753,
-        "lonStart": 84.940219,
-        "latEnd": 24.741864,
-        "lonEnd": 84.962131,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 24.444389,
+        "lonStart": 54.635206,
+        "latEnd": 24.421708,
+        "lonEnd": 54.667158,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 9905
+    "id": 55
+  },
+  {
+    "type": 1,
+    "icao": "OM11",
+    "lat": 24.5188555,
+    "lon": 54.980064,
+    "communications": [],
+    "elevation": 87,
+    "tower": false,
+    "name": "ABU DHABI NORTHEAST",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 24.525236,
+        "lonStart": 54.972014,
+        "latEnd": 24.512475,
+        "lonEnd": 54.988114,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 56
+  },
+  {
+    "type": 1,
+    "icao": "OMAM",
+    "lat": 24.23958275,
+    "lon": 54.549414999999996,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12440,
+        "name": "ABU DHABI APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12450,
+        "name": "AL DHAFRA ARR/DEP"
+      }
+    ],
+    "elevation": 77,
+    "tower": true,
+    "name": "AL DHAFRA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "13L",
+        "numberEnd": "31R",
+        "latStart": 24.258167,
+        "lonStart": 54.533333,
+        "latEnd": 24.238333,
+        "lonEnd": 54.562111,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "13R",
+        "numberEnd": "31L",
+        "latStart": 24.240842,
+        "lonStart": 54.536722,
+        "latEnd": 24.220989,
+        "lonEnd": 54.565494,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 147
+  },
+  {
+    "type": 1,
+    "icao": "OMAD",
+    "lat": 24.428596785000003,
+    "lon": 54.458181095,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11990,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12440,
+        "name": "ABU DHABI APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12810,
+        "name": "ABU DHABI APP"
+      }
+    ],
+    "elevation": 16,
+    "tower": true,
+    "name": "BATEEN",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 24.43743119,
+        "lonStart": 54.44569242,
+        "latEnd": 24.41976238,
+        "lonEnd": 54.47066977,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1561
   }
 ]

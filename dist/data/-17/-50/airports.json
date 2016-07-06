@@ -1,5 +1,130 @@
 [
   {
+    "type": 1,
+    "icao": "SWNV",
+    "lat": -16.625403,
+    "lon": -49.349267999999995,
+    "communications": [],
+    "elevation": 2707,
+    "tower": false,
+    "name": "AERODROMO NACIONAL DE AVIACAO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -16.622953,
+        "lonStart": -49.353944,
+        "latEnd": -16.627853,
+        "lonEnd": -49.344592,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 78
+  },
+  {
+    "type": 1,
+    "icao": "SWOA",
+    "lat": -16.539444435,
+    "lon": -49.39888889,
+    "communications": [],
+    "elevation": 2625,
+    "tower": false,
+    "name": "Arnapar",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -16.5357556,
+        "lonStart": -49.40023662,
+        "latEnd": -16.54313327,
+        "lonEnd": -49.39754116,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 1195
+  },
+  {
+    "type": 1,
+    "icao": "SWGP",
+    "lat": -16.826919500000002,
+    "lon": -49.8789375,
+    "communications": [],
+    "elevation": 1995,
+    "tower": false,
+    "name": "PALMEIRAS DE GOIAS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 19.2,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -16.832225,
+        "lonStart": -49.879792,
+        "latEnd": -16.821614,
+        "lonEnd": -49.878083,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19185
+  },
+  {
+    "type": 1,
+    "icao": "SBGO",
+    "lat": -16.631932,
+    "lon": -49.2211007,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12767,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11870,
+        "name": "GOIANIA TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12105,
+        "name": "GOIANIA TWR"
+      }
+    ],
+    "elevation": 2450,
+    "tower": true,
+    "name": "Santa Genoveva",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -16.62624358,
+        "lonStart": -49.2312293,
+        "latEnd": -16.63762042,
+        "lonEnd": -49.2109721,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22896
+  },
+  {
     "type": 17,
     "icao": "SWBP",
     "lat": -16.51361111,

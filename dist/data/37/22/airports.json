@@ -1,56 +1,81 @@
 [
   {
     "type": 1,
-    "icao": "LICC",
-    "lat": 37.46827354,
-    "lon": 22.526710616666666,
+    "icao": "LGKL",
+    "lat": 37.0683195,
+    "lon": 22.0255235,
     "communications": [
       {
-        "type": 53,
-        "frequency": 12972,
-        "name": "GND"
+        "type": 54,
+        "frequency": 12210,
+        "name": "TWR"
       },
       {
         "type": 54,
-        "frequency": 11870,
+        "frequency": 12075,
         "name": "TWR"
       },
       {
         "type": 55,
-        "frequency": 12080,
-        "name": "DIRECTOR"
+        "frequency": 12075,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12210,
+        "name": "APP"
       }
     ],
-    "elevation": 39,
+    "elevation": 26,
     "tower": true,
-    "name": "Catania Fontanarossa",
+    "name": "KALAMATA",
     "runways": [
       {
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 37.46562285,
-        "lonStart": 15.05266841,
-        "latEnd": 37.46793515,
-        "lonEnd": 15.08013444,
+        "numberStart": "17R",
+        "numberEnd": "35L",
+        "latStart": 37.080814,
+        "lonStart": 22.022625,
+        "latEnd": 37.055825,
+        "lonEnd": 22.028422,
         "length": 0,
         "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 31.4,
-        "surfaceType": 2,
-        "numberStart": "H25",
-        "numberEnd": null,
-        "latStart": 37.47126262,
-        "lonStart": 15.05952829,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 31.1
       }
     ],
-    "id": 4654
+    "id": 13192
+  },
+  {
+    "type": 1,
+    "icao": "LGTP",
+    "lat": 37.530567000000005,
+    "lon": 22.403632,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 2113,
+    "tower": true,
+    "name": "TRIPOLIS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 37.522503,
+        "lonStart": 22.399372,
+        "latEnd": 37.538631,
+        "lonEnd": 22.407892,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 24870
   }
 ]

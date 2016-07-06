@@ -1,148 +1,146 @@
 [
   {
     "type": 1,
-    "icao": "EIBN",
-    "lat": 51.669377685,
-    "lon": 21.091443560000002,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12240,
-        "name": "Bantry Radio"
-      }
-    ],
-    "elevation": 5,
-    "tower": false,
-    "name": "Bantry",
-    "runways": [
-      {
-        "type": 100,
-        "width": 14.94,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 51.66850325,
-        "lonStart": -9.487365,
-        "latEnd": 51.67025212,
-        "lonEnd": -9.48130635,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 2200
-  },
-  {
-    "type": 1,
-    "icao": "EICK",
-    "lat": 51.84260523,
-    "lon": 21.6717639175,
+    "icao": "EPDE",
+    "lat": 51.551180195,
+    "lon": 21.891074675,
     "communications": [
       {
         "type": 50,
-        "frequency": 12092,
-        "name": "Cork ATIS"
+        "frequency": 12850,
+        "name": "AFIS INFO"
       },
       {
         "type": 54,
-        "frequency": 12180,
-        "name": "Cork Grd"
-      },
-      {
-        "type": 54,
-        "frequency": 12185,
-        "name": "Cork Grd"
-      },
-      {
-        "type": 54,
-        "frequency": 11930,
-        "name": "Cork Twr"
-      },
-      {
-        "type": 54,
-        "frequency": 12170,
-        "name": "Cork Twr"
+        "frequency": 12275,
+        "name": "DEBLIN TOWER"
       },
       {
         "type": 55,
-        "frequency": 11990,
-        "name": "Cork App"
+        "frequency": 12825,
+        "name": "DEBLIN APPROACH"
       }
     ],
-    "elevation": 501,
+    "elevation": 388,
     "tower": true,
-    "name": "Cork",
+    "name": "DEBLIN",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 60.05,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 51.85008173,
-        "lonStart": -8.49615376,
-        "latEnd": 51.83208373,
-        "lonEnd": -8.48551176,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 51.55688638,
+        "lonStart": 21.87548337,
+        "latEnd": 51.54547401,
+        "lonEnd": 21.90666598,
         "length": 0,
         "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 51.84142473,
-        "lonStart": -8.49570503,
-        "latEnd": 51.84683073,
-        "lonEnd": -8.47885303,
-        "length": 0,
-        "surfacetype": 2
       }
     ],
-    "id": 5330
+    "id": 5718
   },
   {
     "type": 1,
-    "icao": "EDLD",
-    "lat": 51.615747353333326,
-    "lon": 21.77604898,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12270,
-        "name": "Dinslaken Info"
-      }
-    ],
-    "elevation": 216,
-    "tower": true,
-    "name": "Dinslaken- Schwarze Heide",
+    "icao": "EPRP",
+    "lat": 51.4790057775,
+    "lon": 21.1083635675,
+    "communications": [],
+    "elevation": 483,
+    "tower": false,
+    "name": "Piastow",
     "runways": [
       {
         "type": 100,
-        "width": 30,
+        "width": 199.95,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 51.47648961,
+        "lonStart": 21.10344602,
+        "latEnd": 51.48125541,
+        "lonEnd": 21.11360146,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 199.95,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 51.48234726,
+        "lonStart": 21.10747947,
+        "latEnd": 51.47593083,
+        "lonEnd": 21.10892732,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20083
+  },
+  {
+    "type": 1,
+    "icao": "EPRA",
+    "lat": 51.388827825,
+    "lon": 21.21163328,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13100,
+        "name": "Radom TOWER"
+      },
+      {
+        "type": 55,
+        "frequency": 12867,
+        "name": "Radom APPROACH"
+      }
+    ],
+    "elevation": 623,
+    "tower": true,
+    "name": "RADOM SADKOW",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.24,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 51.3865118,
+        "lonStart": 21.1977633,
+        "latEnd": 51.39114385,
+        "lonEnd": 21.22550326,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20756
+  },
+  {
+    "type": 1,
+    "icao": "EPSJ",
+    "lat": 51.9526726,
+    "lon": 21.35065436,
+    "communications": [],
+    "elevation": 313,
+    "tower": false,
+    "name": "Sobienie Krolewskie",
+    "runways": [
+      {
+        "type": 100,
+        "width": 50,
         "surfaceType": null,
         "numberStart": "09",
         "numberEnd": "27",
-        "latStart": 51.615502,
-        "lonStart": 6.850453,
-        "latEnd": 51.616541,
-        "lonEnd": 6.872064,
+        "latStart": 51.95301893,
+        "lonStart": 21.34444488,
+        "latEnd": 51.95232627,
+        "lonEnd": 21.35686384,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 11.7,
-        "surfaceType": 15,
-        "numberStart": "H199",
-        "numberEnd": null,
-        "latStart": 51.61519906,
-        "lonStart": 6.86115294,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.2
+        "surfacetype": 3
       }
     ],
-    "id": 6305
+    "id": 23792
   }
 ]

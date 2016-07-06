@@ -1,5 +1,117 @@
 [
   {
+    "type": 1,
+    "icao": "YCFS",
+    "lat": -30.324426069999998,
+    "lon": 153.1158974975,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13030,
+        "name": "COFFS HARBOUR ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11820,
+        "name": "COFFS TWR"
+      },
+      {
+        "type": 51,
+        "frequency": 11820,
+        "name": "COFFS HARBOUR CTAF"
+      },
+      {
+        "type": 52,
+        "frequency": 12260,
+        "name": "BRISBANE CNTR"
+      }
+    ],
+    "elevation": 18,
+    "tower": true,
+    "name": "Coffs Harbour",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -30.33832953,
+        "lonStart": 153.10654342,
+        "latEnd": -30.32417913,
+        "lonEnd": 153.12056047,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 18,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -30.31646923,
+        "lonStart": 153.11400652,
+        "latEnd": -30.31872639,
+        "lonEnd": 153.12247958,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5159
+  },
+  {
+    "type": 1,
+    "icao": "YSWK",
+    "lat": -30.924490935,
+    "lon": 153.026558985,
+    "communications": [],
+    "elevation": 2,
+    "tower": false,
+    "name": "SOUTH WEST ROCKS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "1",
+        "numberEnd": "19",
+        "latStart": -30.92881084,
+        "lonStart": 153.02612478,
+        "latEnd": -30.92017103,
+        "lonEnd": 153.02699319,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 22394
+  },
+  {
+    "type": 1,
+    "icao": "YSEW",
+    "lat": -30.155707855,
+    "lon": 153.16461143499998,
+    "communications": [],
+    "elevation": 104,
+    "tower": false,
+    "name": "STEWARTS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.9,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -30.15281919,
+        "lonStart": 153.16127952,
+        "latEnd": -30.15859652,
+        "lonEnd": 153.16794335,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 22531
+  },
+  {
     "type": 17,
     "icao": "YSSL",
     "lat": -30.204835,

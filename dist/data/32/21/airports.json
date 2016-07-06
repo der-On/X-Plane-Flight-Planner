@@ -1,28 +1,57 @@
 [
   {
     "type": 1,
-    "icao": "DTTD",
-    "lat": 32.306146,
-    "lon": 21.346625000000003,
-    "communications": [],
-    "elevation": 1004,
-    "tower": false,
-    "name": "REMADA",
+    "icao": "HLLQ",
+    "lat": 32.7894555,
+    "lon": 21.95835825,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12650,
+        "name": "BENGHAZI APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12920,
+        "name": "BENGHAZI APP"
+      }
+    ],
+    "elevation": 2157,
+    "tower": true,
+    "name": "EL BEIDA",
     "runways": [
       {
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 32.29625,
-        "lonStart": 10.377208,
-        "latEnd": 32.316042,
-        "lonEnd": 10.386989,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 32.794478,
+        "lonStart": 21.934111,
+        "latEnd": 32.787314,
+        "lonEnd": 21.971639,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 57.91,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 32.780583,
+        "lonStart": 21.958861,
+        "latEnd": 32.795447,
+        "lonEnd": 21.968822,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 20898
+    "id": 6680
   }
 ]

@@ -1,60 +1,80 @@
 [
   {
     "type": 1,
-    "icao": "EGPR",
-    "lat": 57.024396393333326,
-    "lon": 24.78823915,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12880,
-        "name": "unnamed entity"
-      }
-    ],
-    "elevation": 3,
-    "tower": true,
-    "name": "Barra",
+    "icao": "EVAD",
+    "lat": 57.09862473333334,
+    "lon": 24.266693753333332,
+    "communications": [],
+    "elevation": 7,
+    "tower": false,
+    "name": "Adazi",
     "runways": [
       {
         "type": 100,
-        "width": 46.02,
+        "width": 15,
+        "surfaceType": null,
+        "numberStart": "15L",
+        "numberEnd": "33R",
+        "latStart": 57.09705051,
+        "lonStart": 24.26804578,
+        "latEnd": 57.09613715,
+        "lonEnd": 24.26882673,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 15,
+        "surfaceType": null,
+        "numberStart": "15R",
+        "numberEnd": "33L",
+        "latStart": 57.10094927,
+        "lonStart": 24.26469854,
+        "latEnd": 57.10028047,
+        "lonEnd": 24.26527271,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 15,
         "surfaceType": null,
         "numberStart": "15",
         "numberEnd": "33",
-        "latStart": 57.025328,
-        "lonStart": -7.44707988,
-        "latEnd": 57.020367,
-        "lonEnd": -7.43930488,
+        "latStart": 57.1002804,
+        "lonStart": 24.26527306,
+        "latEnd": 57.0970506,
+        "lonEnd": 24.2680457,
         "length": 0,
-        "surfacetype": 15
-      },
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 57.024725,
-        "lonStart": -7.44681589,
-        "latEnd": 57.027633,
-        "lonEnd": -7.43479889,
-        "length": 0,
-        "surfacetype": 15
-      },
-      {
-        "type": 100,
-        "width": 46.02,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 57.02463136,
-        "lonStart": -7.44836333,
-        "latEnd": 57.023694,
-        "lonEnd": -7.43926288,
-        "length": 0,
-        "surfacetype": 15
+        "surfacetype": 1
       }
     ],
-    "id": 2262
+    "id": 569
+  },
+  {
+    "type": 1,
+    "icao": "EVLI",
+    "lat": 57.4853875,
+    "lon": 24.67240031,
+    "communications": [],
+    "elevation": 210,
+    "tower": false,
+    "name": "Limbazi",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 57.48854256,
+        "lonStart": 24.67136532,
+        "latEnd": 57.48223244,
+        "lonEnd": 24.6734353,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 15278
   }
 ]

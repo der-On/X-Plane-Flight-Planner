@@ -1,46 +1,323 @@
 [
   {
-    "type": 17,
-    "icao": "EGHK",
-    "lat": 50.128074579999996,
-    "lon": 13.029914839999998,
+    "type": 1,
+    "icao": "LKCH",
+    "lat": 50.471703659999996,
+    "lon": 13.47059992,
     "communications": [
       {
         "type": 54,
-        "frequency": 11810,
-        "name": "Penzance Radio"
+        "frequency": 12360,
+        "name": "INFO"
       }
     ],
-    "elevation": 13,
+    "elevation": 1130,
     "tower": true,
-    "name": "[H] Penzance Heliport [H]",
+    "name": "Chomutov",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 99.97,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 50.127786,
-        "lonStart": -5.520183,
-        "latEnd": 50.128383,
-        "lonEnd": -5.515053,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 50.472528,
+        "lonStart": 13.46339635,
+        "latEnd": 50.46683087,
+        "lonEnd": 13.47090704,
         "length": 0,
         "surfacetype": 3
       },
       {
-        "type": 102,
-        "width": 31.1,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 50.12805474,
-        "lonStart": -5.51845548,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 31.1
+        "type": 100,
+        "width": 99.97,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 50.46950319,
+        "lonStart": 13.46876057,
+        "latEnd": 50.47795258,
+        "lonEnd": 13.47933572,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 31974
+    "id": 4954
+  },
+  {
+    "type": 1,
+    "icao": "EDAR",
+    "lat": 50.9794151325,
+    "lon": 13.90790281,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11862,
+        "name": "Pirna Info"
+      }
+    ],
+    "elevation": 400,
+    "tower": true,
+    "name": "EDAR Pirna Pratzschwitz",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "12L",
+        "numberEnd": "30R",
+        "latStart": 50.98156027,
+        "lonStart": 13.90271984,
+        "latEnd": 50.97794411,
+        "lonEnd": 13.91365473,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 70.1,
+        "surfaceType": null,
+        "numberStart": "12R",
+        "numberEnd": "30L",
+        "latStart": 50.98089633,
+        "lonStart": 13.90212902,
+        "latEnd": 50.97725982,
+        "lonEnd": 13.91310765,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6643
+  },
+  {
+    "type": 1,
+    "icao": "LKMO",
+    "lat": 50.5249627175,
+    "lon": 13.683506975,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12350,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 1085,
+    "tower": true,
+    "name": "Most",
+    "runways": [
+      {
+        "type": 100,
+        "width": 70.1,
+        "surfaceType": null,
+        "numberStart": "02R",
+        "numberEnd": "20L",
+        "latStart": 50.51999587,
+        "lonStart": 13.68120695,
+        "latEnd": 50.52977607,
+        "lonEnd": 13.68650404,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "02L",
+        "numberEnd": "20R",
+        "latStart": 50.52014924,
+        "lonStart": 13.68051117,
+        "latEnd": 50.52992969,
+        "lonEnd": 13.68580574,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17569
+  },
+  {
+    "type": 1,
+    "icao": "LKPC",
+    "lat": 50.306239915,
+    "lon": 13.934855344999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13055,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 1207,
+    "tower": true,
+    "name": "Panensky Tynec",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "8",
+        "numberEnd": "26",
+        "latStart": 50.30539217,
+        "lonStart": 13.91732506,
+        "latEnd": 50.30708766,
+        "lonEnd": 13.95238563,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 19717
+  },
+  {
+    "type": 1,
+    "icao": "LKRK",
+    "lat": 50.09432229,
+    "lon": 13.691625564999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12350,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 1272,
+    "tower": true,
+    "name": "Rakovnik",
+    "runways": [
+      {
+        "type": 100,
+        "width": 89.92,
+        "surfaceType": null,
+        "numberStart": "09L",
+        "numberEnd": "27R",
+        "latStart": 50.09466252,
+        "lonStart": 13.68693661,
+        "latEnd": 50.09485324,
+        "lonEnd": 13.69749034,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 88.09,
+        "surfaceType": null,
+        "numberStart": "09R",
+        "numberEnd": "27L",
+        "latStart": 50.09371037,
+        "lonStart": 13.68454389,
+        "latEnd": 50.09406303,
+        "lonEnd": 13.69753142,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21140
+  },
+  {
+    "type": 1,
+    "icao": "LKRA",
+    "lat": 50.405328270000005,
+    "lon": 13.75115694,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12260,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 882,
+    "tower": true,
+    "name": "Rana",
+    "runways": [
+      {
+        "type": 100,
+        "width": 92.05,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 50.40346624,
+        "lonStart": 13.75117274,
+        "latEnd": 50.40810651,
+        "lonEnd": 13.75865909,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 64.01,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 50.40614335,
+        "lonStart": 13.74175155,
+        "latEnd": 50.40359698,
+        "lonEnd": 13.75304438,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21160
+  },
+  {
+    "type": 1,
+    "icao": "LKUL",
+    "lat": 50.699880795,
+    "lon": 13.968835835,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12340,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 787,
+    "tower": true,
+    "name": "Usti nad Labem",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 50.69761039,
+        "lonStart": 13.96435434,
+        "latEnd": 50.7021512,
+        "lonEnd": 13.97331733,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 26015
+  },
+  {
+    "type": 1,
+    "icao": "LKZD",
+    "lat": 50.317358915,
+    "lon": 13.51266923,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12542,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 880,
+    "tower": true,
+    "name": "Zatec/Macerka",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 50.31911299,
+        "lonStart": 13.50530581,
+        "latEnd": 50.31560484,
+        "lonEnd": 13.52003265,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 27878
   }
 ]

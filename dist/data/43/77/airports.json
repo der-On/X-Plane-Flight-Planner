@@ -1,0 +1,72 @@
+[
+  {
+    "type": 1,
+    "icao": "UAAA",
+    "lat": 43.355234565,
+    "lon": 77.04456951,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12980,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11940,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12400,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12080,
+        "name": "RADAR"
+      },
+      {
+        "type": 55,
+        "frequency": 13160,
+        "name": "APP"
+      }
+    ],
+    "elevation": 2233,
+    "tower": true,
+    "name": "Almaty Intl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "05R",
+        "numberEnd": "23L",
+        "latStart": 43.340956,
+        "lonStart": 77.018067,
+        "latEnd": 43.363186,
+        "lonEnd": 77.062942,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "05L",
+        "numberEnd": "23R",
+        "latStart": 43.34700013,
+        "lonStart": 77.02561625,
+        "latEnd": 43.36979613,
+        "lonEnd": 77.07165279,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 903
+  }
+]

@@ -1,5 +1,217 @@
 [
   {
+    "type": 1,
+    "icao": "S05",
+    "lat": 43.086459809999994,
+    "lon": -124.40786299999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 122,
+    "tower": false,
+    "name": "Bandon State",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 43.09139575,
+        "lonStart": -124.40808,
+        "latEnd": 43.08152387,
+        "lonEnd": -124.407646,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2180
+  },
+  {
+    "type": 1,
+    "icao": "45OR",
+    "lat": 43.15483222,
+    "lon": -124.17066139,
+    "communications": [],
+    "elevation": 279,
+    "tower": false,
+    "name": "Benham",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 43.155959,
+        "lonStart": -124.17356632,
+        "latEnd": 43.15370544,
+        "lonEnd": -124.16775646,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2551
+  },
+  {
+    "type": 1,
+    "icao": "6S2",
+    "lat": 43.982816975000006,
+    "lon": -124.111368735,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11822,
+        "name": "AWOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 50,
+    "tower": false,
+    "name": "Florence Muni",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 43.98683332,
+        "lonStart": -124.11260172,
+        "latEnd": 43.97880063,
+        "lonEnd": -124.11013575,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 9368
+  },
+  {
+    "type": 1,
+    "icao": "9S3",
+    "lat": 43.58317027,
+    "lon": -124.18039195,
+    "communications": [],
+    "elevation": 20,
+    "tower": false,
+    "name": "Lakeside State",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 43.5860648,
+        "lonStart": -124.18116867,
+        "latEnd": 43.58027574,
+        "lonEnd": -124.17961523,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14869
+  },
+  {
+    "type": 1,
+    "icao": "KOTH",
+    "lat": 43.416639777499995,
+    "lon": -124.246410465,
+    "communications": [],
+    "elevation": 17,
+    "tower": true,
+    "name": "North Bend Regional airport",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 43.41984329,
+        "lonStart": -124.24627635,
+        "latEnd": 43.40924235,
+        "lonEnd": -124.23774349,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 43.41471347,
+        "lonStart": -124.26062802,
+        "latEnd": 43.42276,
+        "lonEnd": -124.240994,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 18441
+  },
+  {
+    "type": 1,
+    "icao": "18S",
+    "lat": 43.102609720000004,
+    "lon": -124.16093778000001,
+    "communications": [],
+    "elevation": 23,
+    "tower": false,
+    "name": "Norway",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 43.10485199,
+        "lonStart": -124.16370297,
+        "latEnd": 43.10036745,
+        "lonEnd": -124.15817259,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18493
+  },
+  {
+    "type": 1,
+    "icao": "1OR0",
+    "lat": 43.48316888,
+    "lon": -124.20289195000001,
+    "communications": [],
+    "elevation": 320,
+    "tower": false,
+    "name": "Sunnyhill",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 43.48189741,
+        "lonStart": -124.20580835,
+        "latEnd": 43.48444035,
+        "lonEnd": -124.19997555,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24384
+  },
+  {
     "type": 17,
     "icao": "OR49",
     "lat": 43.40038972,
@@ -98,5 +310,67 @@
       }
     ],
     "id": 31943
+  },
+  {
+    "type": 16,
+    "icao": "1O0",
+    "lat": 43.90416666,
+    "lon": -124.11472223000001,
+    "communications": [],
+    "elevation": 39,
+    "tower": false,
+    "name": "[S] Lake Woahink",
+    "runways": [
+      {
+        "type": 101,
+        "width": 304.8,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 43.90116055,
+        "lonStart": -124.12327661,
+        "latEnd": 43.90717277,
+        "lonEnd": -124.10616785,
+        "length": 0
+      },
+      {
+        "type": 101,
+        "width": 304.8,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 43.90831632,
+        "lonStart": -124.1127391,
+        "latEnd": 43.900017,
+        "lonEnd": -124.11670536,
+        "length": 0
+      }
+    ],
+    "id": 34245
+  },
+  {
+    "type": 16,
+    "icao": "5J2",
+    "lat": 43.86650804999999,
+    "lon": -124.08455889,
+    "communications": [],
+    "elevation": 6,
+    "tower": false,
+    "name": "[S] Siltcoos Lake",
+    "runways": [
+      {
+        "type": 101,
+        "width": 121.92,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 43.88227058,
+        "lonStart": -124.08532238,
+        "latEnd": 43.85074552,
+        "lonEnd": -124.0837954,
+        "length": 0
+      }
+    ],
+    "id": 34445
   }
 ]

@@ -1,0 +1,91 @@
+[
+  {
+    "type": 1,
+    "icao": "LEST",
+    "lat": 42.897810585,
+    "lon": -8.415641529999998,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11875,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12020,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 11820,
+        "name": "APP"
+      }
+    ],
+    "elevation": 1210,
+    "tower": true,
+    "name": "Santiago",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 42.91180994,
+        "lonStart": -8.42033392,
+        "latEnd": 42.88381123,
+        "lonEnd": -8.41094914,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22942
+  },
+  {
+    "type": 1,
+    "icao": "LEVX",
+    "lat": 42.231891149999996,
+    "lon": -8.62677145,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11845,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12020,
+        "name": "SANTIAGO APP"
+      }
+    ],
+    "elevation": 854,
+    "tower": true,
+    "name": "Vigo",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 42.22124055,
+        "lonStart": -8.62966509,
+        "latEnd": 42.24254175,
+        "lonEnd": -8.62387781,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 26322
+  }
+]

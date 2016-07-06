@@ -1,5 +1,190 @@
 [
   {
+    "type": 1,
+    "icao": "LEBB",
+    "lat": 43.301357099090914,
+    "lon": -2.9243230700000002,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11882,
+        "name": "BILBAO ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 12170,
+        "name": "BILBAO CLR"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "BILBAO GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11850,
+        "name": "BILBAO TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12150,
+        "name": "BILBAO EMG"
+      },
+      {
+        "type": 55,
+        "frequency": 12070,
+        "name": "BILBAO APP"
+      },
+      {
+        "type": 56,
+        "frequency": 12170,
+        "name": "BILBAO DEP"
+      }
+    ],
+    "elevation": 136,
+    "tower": true,
+    "name": "Bilbao",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 43.30634758,
+        "lonStart": -2.92494345,
+        "latEnd": 43.2958199,
+        "lonEnd": -2.8962282,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 43.30334512,
+        "lonStart": -2.93702664,
+        "latEnd": 43.30125456,
+        "lonEnd": -2.91245863,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 15,
+        "numberStart": "H10",
+        "numberEnd": null,
+        "latStart": 43.30103454,
+        "lonStart": -2.9226684,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.5
+      },
+      {
+        "type": 102,
+        "width": 4.9,
+        "surfaceType": 15,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 43.30134557,
+        "lonStart": -2.93524852,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 4.9
+      },
+      {
+        "type": 102,
+        "width": 4.9,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 43.30130095,
+        "lonStart": -2.93470051,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 4.9
+      },
+      {
+        "type": 102,
+        "width": 4.9,
+        "surfaceType": 15,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 43.30137323,
+        "lonStart": -2.9357721,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 4.9
+      },
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 15,
+        "numberStart": "H9",
+        "numberEnd": null,
+        "latStart": 43.30105237,
+        "lonStart": -2.92289024,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.3
+      },
+      {
+        "type": 102,
+        "width": 8,
+        "surfaceType": 2,
+        "numberStart": "H8",
+        "numberEnd": null,
+        "latStart": 43.30104064,
+        "lonStart": -2.9231931,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 8.9
+      },
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 15,
+        "numberStart": "H7",
+        "numberEnd": null,
+        "latStart": 43.30101363,
+        "lonStart": -2.92242398,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 2722
+  },
+  {
+    "type": 1,
+    "icao": "XL015",
+    "lat": 43.076055249999996,
+    "lon": -2.683951745,
+    "communications": [],
+    "elevation": 1930,
+    "tower": false,
+    "name": "Dima Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.6,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 43.07780563,
+        "lonStart": -2.68476453,
+        "latEnd": 43.07430487,
+        "lonEnd": -2.68313896,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 6296
+  },
+  {
     "type": 17,
     "icao": "XL013",
     "lat": 43.33966763,

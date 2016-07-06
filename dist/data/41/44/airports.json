@@ -1,28 +1,146 @@
 [
   {
     "type": 1,
-    "icao": "UB16",
-    "lat": 41.753393,
-    "lon": 44.0498875,
-    "communications": [],
-    "elevation": 935,
-    "tower": false,
-    "name": "BELOKANY",
+    "icao": "UDLS",
+    "lat": 41.048446999999996,
+    "lon": 44.3371695,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13030,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 4836,
+    "tower": true,
+    "name": "STEPANAVAN",
     "runways": [
       {
         "type": 100,
-        "width": 36.58,
+        "width": 28.04,
         "surfaceType": null,
         "numberStart": "13",
         "numberEnd": "31",
-        "latStart": 41.757439,
-        "lonStart": 46.350428,
-        "latEnd": 41.749347,
-        "lonEnd": 46.360147,
+        "latStart": 41.054308,
+        "lonStart": 44.328156,
+        "latEnd": 41.042586,
+        "lonEnd": 44.346183,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 1632
+    "id": 22523
+  },
+  {
+    "type": 1,
+    "icao": "UGTB",
+    "lat": 41.6685815,
+    "lon": 44.95364375,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13280,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 11900,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12800,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12720,
+        "name": "APP"
+      }
+    ],
+    "elevation": 1624,
+    "tower": true,
+    "name": "TBILISI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 44.81,
+        "surfaceType": null,
+        "numberStart": "13R",
+        "numberEnd": "31L",
+        "latStart": 41.677817,
+        "lonStart": 44.940114,
+        "latEnd": 41.658206,
+        "lonEnd": 44.964886,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 59.74,
+        "surfaceType": null,
+        "numberStart": "13L",
+        "numberEnd": "31R",
+        "latStart": 41.676914,
+        "lonStart": 44.943892,
+        "latEnd": 41.661389,
+        "lonEnd": 44.965683,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 24623
+  },
+  {
+    "type": 1,
+    "icao": "UG22",
+    "lat": 41.459176,
+    "lon": 44.783153999999996,
+    "communications": [],
+    "elevation": 1305,
+    "tower": false,
+    "name": "TBILISI MARNEULI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.62,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 41.459408,
+        "lonStart": 44.768311,
+        "latEnd": 41.458944,
+        "lonEnd": 44.797997,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 24624
+  },
+  {
+    "type": 1,
+    "icao": "UG24",
+    "lat": 41.6492335,
+    "lon": 44.9364585,
+    "communications": [],
+    "elevation": 1250,
+    "tower": false,
+    "name": "TBILISI SOGANLUG",
+    "runways": [
+      {
+        "type": 100,
+        "width": 77.72,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 41.657831,
+        "lonStart": 44.926928,
+        "latEnd": 41.640636,
+        "lonEnd": 44.945989,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 24625
   }
 ]

@@ -1,78 +1,92 @@
 [
   {
     "type": 1,
-    "icao": "XCHI",
-    "lat": 52.94777360333333,
-    "lon": 15.617975833333333,
-    "communications": [],
-    "elevation": 448,
-    "tower": false,
-    "name": "Chirk",
+    "icao": "EP69",
+    "lat": 52.715805945,
+    "lon": 15.510930235,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13030,
+        "name": "LIPKI WIELKIE"
+      }
+    ],
+    "elevation": 135,
+    "tower": true,
+    "name": "Lipki Wielkie",
     "runways": [
       {
         "type": 100,
-        "width": 20.12,
+        "width": 24.99,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 52.94977054,
-        "lonStart": -3.04668438,
-        "latEnd": 52.94612264,
-        "lonEnd": -3.04611329,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 52.71345293,
+        "lonStart": 15.50652346,
+        "latEnd": 52.71815896,
+        "lonEnd": 15.51533701,
         "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 102,
-        "width": 10.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 52.94742763,
-        "lonStart": -3.04551076,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.1
+        "surfacetype": 1
       }
     ],
-    "id": 4939
+    "id": 15321
   },
   {
     "type": 1,
-    "icao": "EG70",
-    "lat": 52.36180344666666,
-    "lon": 15.755509803333332,
+    "icao": "EPGW",
+    "lat": 52.693436070000004,
+    "lon": 15.216248975,
     "communications": [],
-    "elevation": 500,
-    "tower": false,
-    "name": "Milson",
+    "elevation": 164,
+    "tower": true,
+    "name": "Ulim",
     "runways": [
       {
         "type": 100,
-        "width": 11.89,
+        "width": 30.28,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 52.36328777,
-        "lonStart": -2.54680622,
-        "latEnd": 52.35937266,
-        "lonEnd": -2.54484448,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 52.69470641,
+        "lonStart": 15.21203849,
+        "latEnd": 52.69216573,
+        "lonEnd": 15.22045946,
         "length": 0,
         "surfacetype": 3
-      },
-      {
-        "type": 102,
-        "width": 10.06,
-        "surfaceType": 3,
-        "numberStart": "H49",
-        "numberEnd": null,
-        "latStart": 52.36274991,
-        "lonStart": -2.54603703,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.06
       }
     ],
-    "id": 17248
+    "id": 25894
+  },
+  {
+    "type": 1,
+    "icao": "EPZG",
+    "lat": 52.138632865,
+    "lon": 15.79839988,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11875,
+        "name": "ZIELONA GORA TOWER"
+      }
+    ],
+    "elevation": 191,
+    "tower": true,
+    "name": "ZIELONA GORA BABIMOST",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 52.13381601,
+        "lonStart": 15.78193891,
+        "latEnd": 52.14344972,
+        "lonEnd": 15.81486085,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 27852
   }
 ]

@@ -1,5 +1,144 @@
 [
   {
+    "type": 1,
+    "icao": "KPTN",
+    "lat": 29.70956746,
+    "lon": -91.3389411575,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13457,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12430,
+        "name": "NEW ORLEANS APP/DEP"
+      }
+    ],
+    "elevation": 7,
+    "tower": false,
+    "name": "HARRY P WILLIAMS MEM",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 29.70480048,
+        "lonStart": -91.34394252,
+        "latEnd": 29.71183036,
+        "lonEnd": -91.33239711,
+        "length": 0,
+        "surfacetype": 13
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 29.707008,
+        "lonStart": -91.347008,
+        "latEnd": 29.714631,
+        "lonEnd": -91.332417,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11032
+  },
+  {
+    "type": 1,
+    "icao": "2R1",
+    "lat": 29.8990275,
+    "lon": -91.666249,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 14,
+    "tower": false,
+    "name": "LE MAIRE MEM",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 29.895833,
+        "lonStart": -91.669167,
+        "latEnd": 29.902222,
+        "lonEnd": -91.663331,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14446
+  },
+  {
+    "type": 1,
+    "icao": "63LA",
+    "lat": 29.964093329999997,
+    "lon": -91.91206417000001,
+    "communications": [],
+    "elevation": 23,
+    "tower": false,
+    "name": "Leonards Airfield & Indust Park",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 29.96428104,
+        "lonStart": -91.91516262,
+        "latEnd": 29.96390562,
+        "lonEnd": -91.90896572,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 15169
+  },
+  {
+    "type": 1,
+    "icao": "LS34",
+    "lat": 29.899649439999997,
+    "lon": -91.72178251,
+    "communications": [],
+    "elevation": 12,
+    "tower": false,
+    "name": "Patoutville",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 29.90252562,
+        "lonStart": -91.72160863,
+        "latEnd": 29.89677326,
+        "lonEnd": -91.72195639,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 19834
+  },
+  {
     "type": 17,
     "icao": "9LA7",
     "lat": 29.668264720000003,
@@ -616,5 +755,30 @@
       }
     ],
     "id": 33370
+  },
+  {
+    "type": 16,
+    "icao": "LA64",
+    "lat": 29.683541939999998,
+    "lon": -91.10010027999999,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] Bayou Boeuf",
+    "runways": [
+      {
+        "type": 101,
+        "width": 152.4,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 29.69684945,
+        "lonStart": -91.09628118,
+        "latEnd": 29.67023443,
+        "lonEnd": -91.10391938,
+        "length": 0
+      }
+    ],
+    "id": 33994
   }
 ]

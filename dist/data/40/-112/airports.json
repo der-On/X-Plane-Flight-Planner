@@ -1,5 +1,484 @@
 [
   {
+    "type": 1,
+    "icao": "KBTF",
+    "lat": 40.868159925,
+    "lon": -111.9274911,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 12070,
+        "name": "SALT LAKE CITY"
+      }
+    ],
+    "elevation": 4233,
+    "tower": false,
+    "name": "Bountiful Skypark",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.03,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 40.87453597,
+        "lonStart": -111.92754851,
+        "latEnd": 40.86178388,
+        "lonEnd": -111.92743369,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3054
+  },
+  {
+    "type": 1,
+    "icao": "UT08",
+    "lat": 40.42888135,
+    "lon": -111.93301894999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12620,
+        "name": "UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12430,
+        "name": "SALT LAKE CITY APP"
+      }
+    ],
+    "elevation": 4859,
+    "tower": false,
+    "name": "Camp WG Williams Total Force Fld",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 40.4352079,
+        "lonStart": -111.93109283,
+        "latEnd": 40.4225548,
+        "lonEnd": -111.93494507,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4404
+  },
+  {
+    "type": 1,
+    "icao": "36U",
+    "lat": 40.4818015,
+    "lon": -111.4288045,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12482,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 5637,
+    "tower": false,
+    "name": "Heber CIty Muni Russ McDonald Fld",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 40.475689,
+        "lonStart": -111.438267,
+        "latEnd": 40.487914,
+        "lonEnd": -111.419342,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11619
+  },
+  {
+    "type": 1,
+    "icao": "UT90",
+    "lat": 40.4705703525,
+    "lon": -111.88916458,
+    "communications": [],
+    "elevation": 5797,
+    "tower": false,
+    "name": "Point of the Mountain North",
+    "runways": [
+      {
+        "type": 100,
+        "width": 3.05,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 40.47079464,
+        "lonStart": -111.88932928,
+        "latEnd": 40.47061067,
+        "lonEnd": -111.88918852,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 7.01,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 40.47060687,
+        "lonStart": -111.88918283,
+        "latEnd": 40.47026923,
+        "lonEnd": -111.88895769,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 20307
+  },
+  {
+    "type": 1,
+    "icao": "UT91",
+    "lat": 40.4571463675,
+    "lon": -111.90195926250001,
+    "communications": [],
+    "elevation": 5140,
+    "tower": true,
+    "name": "Point of the Mountain South",
+    "runways": [
+      {
+        "type": 100,
+        "width": 345.03,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 40.45708084,
+        "lonStart": -111.90229902,
+        "latEnd": 40.45628798,
+        "lonEnd": -111.90167495,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 31.09,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 40.45798972,
+        "lonStart": -111.90227671,
+        "latEnd": 40.45722693,
+        "lonEnd": -111.90158637,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 20308
+  },
+  {
+    "type": 1,
+    "icao": "KPVU",
+    "lat": 40.21899875,
+    "lon": -111.72329375,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13517,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12530,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 11940,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12530,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12430,
+        "name": "SALT LAKE CITY APP"
+      },
+      {
+        "type": 56,
+        "frequency": 11885,
+        "name": "SALT LAKE CITY DEP"
+      }
+    ],
+    "elevation": 4497,
+    "tower": true,
+    "name": "Provo Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 40.230211,
+        "lonStart": -111.732442,
+        "latEnd": 40.210692,
+        "lonEnd": -111.715133,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 40.226431,
+        "lonStart": -111.720386,
+        "latEnd": 40.208661,
+        "lonEnd": -111.725214,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20575
+  },
+  {
+    "type": 1,
+    "icao": "KSLC",
+    "lat": 40.786973999999994,
+    "lon": -111.975425625,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12475,
+        "name": "ATIS"
+      },
+      {
+        "type": 50,
+        "frequency": 12762,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 12730,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 53,
+        "frequency": 13365,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11905,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 13265,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12110,
+        "name": "APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12430,
+        "name": "APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12490,
+        "name": "APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12625,
+        "name": "APP/DEP"
+      }
+    ],
+    "elevation": 4227,
+    "tower": true,
+    "name": "Salt Lake City Intl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "16L",
+        "numberEnd": "34R",
+        "latStart": 40.807444,
+        "lonStart": -111.976936,
+        "latEnd": 40.774633,
+        "lonEnd": -111.973125,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "16R",
+        "numberEnd": "34L",
+        "latStart": 40.807778,
+        "lonStart": -111.999283,
+        "latEnd": 40.774972,
+        "lonEnd": -111.995469,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 40.798917,
+        "lonStart": -111.962072,
+        "latEnd": 40.772581,
+        "lonEnd": -111.962067,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 40.785714,
+        "lonStart": -111.971236,
+        "latEnd": 40.773753,
+        "lonEnd": -111.963217,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22759
+  },
+  {
+    "type": 1,
+    "icao": "U42",
+    "lat": 40.61921187,
+    "lon": -111.992832935,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13442,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 12700,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 55,
+        "frequency": 12020,
+        "name": "APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12430,
+        "name": "APP/DEP"
+      }
+    ],
+    "elevation": 4607,
+    "tower": false,
+    "name": "Salt Lake City Municipal 2",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 40.62747646,
+        "lonStart": -111.99428719,
+        "latEnd": 40.61094728,
+        "lonEnd": -111.99137868,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22760
+  },
+  {
+    "type": 1,
+    "icao": "U77",
+    "lat": 40.142616630000006,
+    "lon": -111.66429400499999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 4529,
+    "tower": false,
+    "name": "Spanish Fork Springville",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 40.14789222,
+        "lonStart": -111.67181656,
+        "latEnd": 40.13734104,
+        "lonEnd": -111.65677145,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 23931
+  },
+  {
     "type": 17,
     "icao": "UT39",
     "lat": 40.85827833,

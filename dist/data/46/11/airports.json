@@ -1,111 +1,92 @@
 [
   {
     "type": 1,
-    "icao": "LSGL",
-    "lat": 46.544744333749996,
-    "lon": 11.6087928,
+    "icao": "LIPB",
+    "lat": 46.45890625,
+    "lon": 11.326862,
     "communications": [
       {
-        "type": 51,
-        "frequency": 12320,
-        "name": "AFIS"
-      },
-      {
-        "type": 50,
-        "frequency": 11882,
-        "name": "ATIS"
+        "type": 54,
+        "frequency": 12060,
+        "name": "INFO"
       }
     ],
-    "elevation": 2041,
-    "tower": true,
-    "name": "Lausanne",
+    "elevation": 789,
+    "tower": false,
+    "name": "BOLZANO",
     "runways": [
       {
         "type": 100,
-        "width": 22.86,
+        "width": 29.87,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 46.549064,
-        "lonStart": 6.61703757,
-        "latEnd": 46.54095592,
-        "lonEnd": 6.61625294,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 46.454353,
+        "lonStart": 11.324853,
+        "latEnd": 46.465833,
+        "lonEnd": 11.327856,
         "length": 0,
         "surfacetype": 1
       },
       {
-        "type": 102,
-        "width": 5,
-        "surfaceType": 1,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 46.544001,
-        "lonStart": 6.61951574,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 5
-      },
-      {
-        "type": 102,
-        "width": 5,
-        "surfaceType": 1,
-        "numberStart": "H4",
-        "numberEnd": null,
-        "latStart": 46.54404653,
-        "lonStart": 6.61983495,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 5
-      },
-      {
-        "type": 102,
-        "width": 5,
-        "surfaceType": 1,
-        "numberStart": "H5",
-        "numberEnd": null,
-        "latStart": 46.54409459,
-        "lonStart": 6.6201519,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 5
-      },
-      {
-        "type": 102,
-        "width": 5,
-        "surfaceType": 2,
-        "numberStart": "H6",
-        "numberEnd": null,
-        "latStart": 46.5450309,
-        "lonStart": 6.61758964,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 5
-      },
-      {
-        "type": 102,
-        "width": 5,
-        "surfaceType": 2,
-        "numberStart": "H7",
-        "numberEnd": null,
-        "latStart": 46.54526355,
-        "lonStart": 6.61762117,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 5
-      },
-      {
-        "type": 102,
-        "width": 5,
-        "surfaceType": 2,
-        "numberStart": "H8",
-        "numberEnd": null,
-        "latStart": 46.54549818,
-        "lonStart": 6.61763551,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 5
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "01R",
+        "numberEnd": "19L",
+        "latStart": 46.454633,
+        "lonStart": 11.326533,
+        "latEnd": 46.460806,
+        "lonEnd": 11.328206,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 15023
+    "id": 1822
+  },
+  {
+    "type": 1,
+    "icao": "LIDT",
+    "lat": 46.02015498,
+    "lon": 11.125116299999998,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11965,
+        "name": "TRENTO RDO TWR"
+      }
+    ],
+    "elevation": 609,
+    "tower": true,
+    "name": "Mattarello",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 46.02591307,
+        "lonStart": 11.1247696,
+        "latEnd": 46.01710985,
+        "lonEnd": 11.1247696,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 31.09,
+        "surfaceType": null,
+        "numberStart": "1",
+        "numberEnd": "19",
+        "latStart": 46.017818,
+        "lonStart": 11.125463,
+        "latEnd": 46.019779,
+        "lonEnd": 11.125463,
+        "length": 0,
+        "surfacetype": 15
+      }
+    ],
+    "id": 16809
   }
 ]

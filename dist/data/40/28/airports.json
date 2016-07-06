@@ -1,62 +1,80 @@
 [
   {
     "type": 1,
-    "icao": "LIBV",
-    "lat": 40.76779175,
-    "lon": 28.8397085,
+    "icao": "LTBA",
+    "lat": 40.97954853833334,
+    "lon": 28.813192388333334,
     "communications": [
       {
-        "type": 54,
-        "frequency": 12245,
-        "name": "TWR"
+        "type": 50,
+        "frequency": 12820,
+        "name": "ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 12170,
+        "name": "YESILKOY DELIVERY"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "YESILKOY GND"
       },
       {
         "type": 54,
-        "frequency": 12210,
-        "name": "TWR"
+        "frequency": 12180,
+        "name": "YESILKOY TWR"
       },
       {
         "type": 55,
-        "frequency": 12210,
-        "name": "APP"
-      },
-      {
-        "type": 55,
-        "frequency": 13065,
-        "name": "APP"
+        "frequency": 12110,
+        "name": "YESILKOY APP"
       }
     ],
-    "elevation": 1187,
+    "elevation": 163,
     "tower": true,
-    "name": "GIOIA DEL COLLE",
+    "name": "Istanbul Ataturk",
     "runways": [
       {
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "14R",
-        "numberEnd": "32L",
-        "latStart": 40.775,
-        "lonStart": 16.922167,
-        "latEnd": 40.753833,
-        "lonEnd": 16.944667,
+        "numberStart": "17R",
+        "numberEnd": "35L",
+        "latStart": 40.99788245,
+        "lonStart": 28.8058553,
+        "latEnd": 40.96847728,
+        "lonEnd": 28.80696541,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
       },
       {
         "type": 100,
-        "width": 29.87,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "14L",
-        "numberEnd": "32R",
-        "latStart": 40.781667,
-        "lonStart": 16.922167,
-        "latEnd": 40.760667,
-        "lonEnd": 16.944667,
+        "numberStart": "17L",
+        "numberEnd": "35R",
+        "latStart": 40.99755014,
+        "lonStart": 28.80859453,
+        "latEnd": 40.9691151,
+        "lonEnd": 28.80948085,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 40.96550418,
+        "lonStart": 28.80981834,
+        "latEnd": 40.97876208,
+        "lonEnd": 28.8384399,
+        "length": 0,
+        "surfacetype": 2
       }
     ],
-    "id": 10009
+    "id": 12587
   }
 ]

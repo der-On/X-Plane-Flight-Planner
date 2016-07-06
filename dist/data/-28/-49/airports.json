@@ -1,61 +1,146 @@
 [
   {
     "type": 1,
-    "icao": "SCCL",
-    "lat": -27.0780525,
-    "lon": -48.940418885,
+    "icao": "SSKT",
+    "lat": -27.611666669999998,
+    "lon": -48.67277778,
     "communications": [],
-    "elevation": 180,
+    "elevation": 20,
     "tower": false,
-    "name": "Caldera",
+    "name": "Aeroclube de Santa Catarina",
     "runways": [
       {
         "type": 100,
-        "width": 24.38,
+        "width": 17.98,
         "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": -27.07633637,
-        "lonStart": -70.80106914,
-        "latEnd": -27.07976863,
-        "lonEnd": -70.78954169,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -27.61573601,
+        "lonStart": -48.67361902,
+        "latEnd": -27.60759733,
+        "lonEnd": -48.67193654,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 4342
+    "id": 638
   },
   {
     "type": 1,
-    "icao": "SCHA",
-    "lat": -27.2969085,
-    "lon": -48.859722735,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11830,
-        "name": "ATC traffic"
-      }
-    ],
-    "elevation": 954,
-    "tower": true,
-    "name": "Chamonate",
+    "icao": "SDYS",
+    "lat": -27.17361111,
+    "lon": -48.63111111,
+    "communications": [],
+    "elevation": 33,
+    "tower": false,
+    "name": "Aeroportobelo",
     "runways": [
       {
         "type": 100,
-        "width": 28.04,
+        "width": 24.99,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": -27.29614692,
-        "lonStart": -70.42177539,
-        "latEnd": -27.29767008,
-        "lonEnd": -70.4054675,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -27.17561661,
+        "lonStart": -48.63288667,
+        "latEnd": -27.17160561,
+        "lonEnd": -48.62933555,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 4774
+    "id": 660
+  },
+  {
+    "type": 1,
+    "icao": "SDEN",
+    "lat": -27.16638889,
+    "lon": -48.6225,
+    "communications": [],
+    "elevation": 16,
+    "tower": false,
+    "name": "Costa Esmeralda",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -27.1632821,
+        "lonStart": -48.62756982,
+        "latEnd": -27.16949568,
+        "lonEnd": -48.61743018,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5369
+  },
+  {
+    "type": 1,
+    "icao": "SBFL",
+    "lat": -27.670486750000002,
+    "lon": -48.54717993,
+    "communications": [],
+    "elevation": 19,
+    "tower": true,
+    "name": "Hercillo Luz Intl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -27.66559314,
+        "lonStart": -48.55129364,
+        "latEnd": -27.67634286,
+        "lonEnd": -48.5313214,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -27.67661815,
+        "lonStart": -48.55457821,
+        "latEnd": -27.66339285,
+        "lonEnd": -48.55152647,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 11709
+  },
+  {
+    "type": 1,
+    "icao": "SJSH",
+    "lat": -27.37055556,
+    "lon": -48.61222222,
+    "communications": [],
+    "elevation": 33,
+    "tower": false,
+    "name": "Sonhar",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -27.37291787,
+        "lonStart": -48.61367382,
+        "latEnd": -27.36819325,
+        "lonEnd": -48.61077062,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 23845
   },
   {
     "type": 17,

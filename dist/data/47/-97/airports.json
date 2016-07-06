@@ -1,5 +1,487 @@
 [
   {
+    "type": 1,
+    "icao": "KCKN",
+    "lat": 47.84213666666667,
+    "lon": -96.62117483333333,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 11815,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 55,
+        "frequency": 11810,
+        "name": "GRAND FORKS APP/DEP"
+      }
+    ],
+    "elevation": 898,
+    "tower": false,
+    "name": "CROOKSTON MUNI KIRKWOOD FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 47.844139,
+        "lonStart": -96.628675,
+        "latEnd": 47.836083,
+        "lonEnd": -96.615897,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 61.57,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 47.845917,
+        "lonStart": -96.622008,
+        "latEnd": 47.83775,
+        "lonEnd": -96.622286,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 61.57,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 47.843542,
+        "lonStart": -96.623119,
+        "latEnd": 47.845389,
+        "lonEnd": -96.615064,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4234
+  },
+  {
+    "type": 1,
+    "icao": "Y61",
+    "lat": 47.32997138,
+    "lon": -96.78368889000001,
+    "communications": [],
+    "elevation": 874,
+    "tower": false,
+    "name": "Christianson Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 47.33351772,
+        "lonStart": -96.78313895,
+        "latEnd": 47.32642504,
+        "lonEnd": -96.78423883,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4966
+  },
+  {
+    "type": 1,
+    "icao": "D14",
+    "lat": 47.5519115,
+    "lon": -96.292,
+    "communications": [],
+    "elevation": 1135,
+    "tower": false,
+    "name": "FERTILE MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 47.555231,
+        "lonStart": -96.295594,
+        "latEnd": 47.548592,
+        "lonEnd": -96.288406,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 7545
+  },
+  {
+    "type": 1,
+    "icao": "MY59",
+    "lat": 47.90163888,
+    "lon": -96.612285,
+    "communications": [],
+    "elevation": 910,
+    "tower": false,
+    "name": "Gasper",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 47.90519607,
+        "lonStart": -96.61265603,
+        "latEnd": 47.89808169,
+        "lonEnd": -96.61191397,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10341
+  },
+  {
+    "type": 1,
+    "icao": "MN01",
+    "lat": 47.28330138,
+    "lon": -96.61701667,
+    "communications": [],
+    "elevation": 886,
+    "tower": false,
+    "name": "Hammars Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 47.28671132,
+        "lonStart": -96.61648835,
+        "latEnd": 47.27989144,
+        "lonEnd": -96.61754499,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11364
+  },
+  {
+    "type": 1,
+    "icao": "76MN",
+    "lat": 47.59635111,
+    "lon": -96.02170612,
+    "communications": [],
+    "elevation": 1246,
+    "tower": false,
+    "name": "Hemmingsen - Private",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 47.59935691,
+        "lonStart": -96.02209609,
+        "latEnd": 47.59334531,
+        "lonEnd": -96.02131615,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11662
+  },
+  {
+    "type": 1,
+    "icao": "45MN",
+    "lat": 47.92608333,
+    "lon": -96.61422917,
+    "communications": [],
+    "elevation": 898,
+    "tower": false,
+    "name": "Kaml Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 47.92789527,
+        "lonStart": -96.61641885,
+        "latEnd": 47.92427139,
+        "lonEnd": -96.61203949,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13572
+  },
+  {
+    "type": 1,
+    "icao": "6ND3",
+    "lat": 47.06969333,
+    "lon": -96.94063862,
+    "communications": [],
+    "elevation": 884,
+    "tower": false,
+    "name": "Lisburg",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 47.06702871,
+        "lonStart": -96.9374706,
+        "latEnd": 47.07235795,
+        "lonEnd": -96.94380664,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 47.06628339,
+        "lonStart": -96.94116482,
+        "latEnd": 47.07310327,
+        "lonEnd": -96.94011242,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 15326
+  },
+  {
+    "type": 1,
+    "icao": "D00",
+    "lat": 47.260468,
+    "lon": -96.4002635,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      },
+      {
+        "type": 55,
+        "frequency": 12040,
+        "name": "FARGO APP/DEP"
+      }
+    ],
+    "elevation": 954,
+    "tower": false,
+    "name": "NORMAN CO ADA TWIN VALLEY",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 47.264294,
+        "lonStart": -96.402994,
+        "latEnd": 47.256642,
+        "lonEnd": -96.397533,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17980
+  },
+  {
+    "type": 1,
+    "icao": "84MN",
+    "lat": 47.53330694,
+    "lon": -96.83091250000001,
+    "communications": [],
+    "elevation": 869,
+    "tower": false,
+    "name": "Nielsville",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 47.53734298,
+        "lonStart": -96.83133051,
+        "latEnd": 47.5292709,
+        "lonEnd": -96.83049449,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18320
+  },
+  {
+    "type": 1,
+    "icao": "MY98",
+    "lat": 47.04551916,
+    "lon": -96.66563112,
+    "communications": [],
+    "elevation": 898,
+    "tower": false,
+    "name": "Pake",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 47.04913107,
+        "lonStart": -96.66600177,
+        "latEnd": 47.04190725,
+        "lonEnd": -96.66526047,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 19660
+  },
+  {
+    "type": 1,
+    "icao": "D81",
+    "lat": 47.824967220000005,
+    "lon": -96.25782584,
+    "communications": [],
+    "elevation": 1061,
+    "tower": false,
+    "name": "Red Lake Falls Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 47.82813685,
+        "lonStart": -96.26002725,
+        "latEnd": 47.82179759,
+        "lonEnd": -96.25562443,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21272
+  },
+  {
+    "type": 1,
+    "icao": "MY64",
+    "lat": 47.03107388,
+    "lon": -96.60229584000001,
+    "communications": [],
+    "elevation": 903,
+    "tower": false,
+    "name": "Schjeldrup",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 47.03408381,
+        "lonStart": -96.60260463,
+        "latEnd": 47.02806395,
+        "lonEnd": -96.60198705,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23097
+  },
+  {
+    "type": 1,
+    "icao": "MN38",
+    "lat": 47.92497777,
+    "lon": -96.98368667,
+    "communications": [],
+    "elevation": 840,
+    "tower": false,
+    "name": "Spud Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 47.92852411,
+        "lonStart": -96.98313043,
+        "latEnd": 47.92143143,
+        "lonEnd": -96.98424291,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24008
+  },
+  {
+    "type": 1,
+    "icao": "0ND2",
+    "lat": 47.172193050000004,
+    "lon": -96.84063528,
+    "communications": [],
+    "elevation": 877,
+    "tower": false,
+    "name": "Swenson",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.8,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 47.17246543,
+        "lonStart": -96.84444753,
+        "latEnd": 47.17192067,
+        "lonEnd": -96.83682303,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24483
+  },
+  {
+    "type": 1,
+    "icao": "MY71",
+    "lat": 47.126356380000004,
+    "lon": -96.78063389,
+    "communications": [],
+    "elevation": 880,
+    "tower": false,
+    "name": "Thompson",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 47.12610764,
+        "lonStart": -96.7858621,
+        "latEnd": 47.12660512,
+        "lonEnd": -96.77540568,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25285
+  },
+  {
     "type": 17,
     "icao": "MY30",
     "lat": 47.24024416,

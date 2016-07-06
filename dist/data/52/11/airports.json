@@ -1,274 +1,235 @@
 [
   {
     "type": 1,
-    "icao": "ETHC",
-    "lat": 52.594506431818175,
-    "lon": 11.964622168636367,
+    "icao": "EDBG",
+    "lat": 52.24196492666667,
+    "lon": 11.85835872,
     "communications": [
       {
         "type": 54,
-        "frequency": 12210,
-        "name": "Celle tower"
+        "frequency": 12205,
+        "name": "Burg Info"
       }
     ],
-    "elevation": 114,
+    "elevation": 172,
     "tower": true,
-    "name": "Celle AB",
+    "name": "Burg",
     "runways": [
       {
         "type": 100,
-        "width": 45,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 52.2417868,
+        "lonStart": 11.84991266,
+        "latEnd": 52.24175671,
+        "lonEnd": 11.86240481,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 22,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 52.24235127,
+        "lonStart": 11.86275869,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 22
+      }
+    ],
+    "id": 3398
+  },
+  {
+    "type": 1,
+    "icao": "EDOC",
+    "lat": 52.528492575,
+    "lon": 11.352621464999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12285,
+        "name": "GARDELEGEN INFO"
+      }
+    ],
+    "elevation": 230,
+    "tower": true,
+    "name": "Gardelegen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "8",
+        "numberEnd": "26",
+        "latStart": 52.5282339,
+        "lonStart": 11.34857606,
+        "latEnd": 52.52875125,
+        "lonEnd": 11.35666687,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10300
+  },
+  {
+    "type": 1,
+    "icao": "EDBM",
+    "lat": 52.073657,
+    "lon": 11.6264795,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13265,
+        "name": "BERLIN INFO"
+      },
+      {
+        "type": 54,
+        "frequency": 11930,
+        "name": "INFO"
+      },
+      {
+        "type": 55,
+        "frequency": 12417,
+        "name": "BERLIN RADAR"
+      }
+    ],
+    "elevation": 267,
+    "tower": false,
+    "name": "Magdeburg",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 52.073517,
+        "lonStart": 11.619203,
+        "latEnd": 52.073797,
+        "lonEnd": 11.633756,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16475
+  },
+  {
+    "type": 1,
+    "icao": "XDBM",
+    "lat": 52.074674,
+    "lon": 11.626864995,
+    "communications": [],
+    "elevation": 268,
+    "tower": true,
+    "name": "Magdeburg Grass",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "9",
+        "numberEnd": "27",
+        "latStart": 52.074563,
+        "lonStart": 11.62172399,
+        "latEnd": 52.074785,
+        "lonEnd": 11.632006,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16476
+  },
+  {
+    "type": 1,
+    "icao": "EDOL",
+    "lat": 52.040333000000004,
+    "lon": 11.202832915,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12940,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 340,
+    "tower": true,
+    "name": "OSCHERSLEBEN",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 52.04125639,
+        "lonStart": 11.19870866,
+        "latEnd": 52.03940961,
+        "lonEnd": 11.20695717,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18722
+  },
+  {
+    "type": 1,
+    "icao": "EDOV",
+    "lat": 52.62965845800001,
+    "lon": 11.819997198,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12240,
+        "name": "Stendal Info"
+      }
+    ],
+    "elevation": 184,
+    "tower": false,
+    "name": "Stendal-Borstel",
+    "runways": [
+      {
+        "type": 100,
+        "width": 52,
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": 52.589871,
-        "lonStart": 10.008806,
-        "latEnd": 52.592969,
-        "lonEnd": 10.039903,
+        "latStart": 52.62778625,
+        "lonStart": 11.80511813,
+        "latEnd": 52.63043237,
+        "lonEnd": 11.83440396,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "08L",
+        "numberEnd": "26R",
+        "latStart": 52.62883136,
+        "lonStart": 11.80936815,
+        "latEnd": 52.62975923,
+        "lonEnd": 11.81963359,
+        "length": 0,
+        "surfacetype": 3
       },
       {
         "type": 102,
-        "width": 19.2,
+        "width": 19.3,
         "surfaceType": 2,
-        "numberStart": "H1",
+        "numberStart": "H",
         "numberEnd": null,
-        "latStart": 52.5954794,
-        "lonStart": 10.03589348,
+        "latStart": 52.63148308,
+        "lonStart": 11.83146216,
         "latEnd": null,
         "lonEnd": null,
-        "length": 19.2
-      },
-      {
-        "type": 102,
-        "width": 19.2,
-        "surfaceType": 2,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 52.59543868,
-        "lonStart": 10.03545775,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.2
-      },
-      {
-        "type": 102,
-        "width": 19.2,
-        "surfaceType": 2,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 52.5954005,
-        "lonStart": 10.0350346,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.2
-      },
-      {
-        "type": 102,
-        "width": 19.2,
-        "surfaceType": 2,
-        "numberStart": "H4",
-        "numberEnd": null,
-        "latStart": 52.59536233,
-        "lonStart": 10.03460306,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.2
-      },
-      {
-        "type": 102,
-        "width": 19.2,
-        "surfaceType": 2,
-        "numberStart": "H5",
-        "numberEnd": null,
-        "latStart": 52.59522235,
-        "lonStart": 10.03328751,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.2
-      },
-      {
-        "type": 102,
-        "width": 19.2,
-        "surfaceType": 2,
-        "numberStart": "H6",
-        "numberEnd": null,
-        "latStart": 52.59517908,
-        "lonStart": 10.03286017,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.2
-      },
-      {
-        "type": 102,
-        "width": 19.2,
-        "surfaceType": 2,
-        "numberStart": "H7",
-        "numberEnd": null,
-        "latStart": 52.59513072,
-        "lonStart": 10.03239931,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.2
-      },
-      {
-        "type": 102,
-        "width": 19.2,
-        "surfaceType": 2,
-        "numberStart": "H8",
-        "numberEnd": null,
-        "latStart": 52.59508746,
-        "lonStart": 10.03197616,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.2
-      },
-      {
-        "type": 102,
-        "width": 19.2,
-        "surfaceType": 2,
-        "numberStart": "H9",
-        "numberEnd": null,
-        "latStart": 52.59504419,
-        "lonStart": 10.03153625,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.2
-      },
-      {
-        "type": 102,
-        "width": 19.2,
-        "surfaceType": 2,
-        "numberStart": "H10",
-        "numberEnd": null,
-        "latStart": 52.59500092,
-        "lonStart": 10.03109634,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.2
-      },
-      {
-        "type": 102,
-        "width": 19.2,
-        "surfaceType": 2,
-        "numberStart": "H11",
-        "numberEnd": null,
-        "latStart": 52.59495511,
-        "lonStart": 10.03065644,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.2
-      },
-      {
-        "type": 102,
-        "width": 19.2,
-        "surfaceType": 2,
-        "numberStart": "H12",
-        "numberEnd": null,
-        "latStart": 52.59491439,
-        "lonStart": 10.03023329,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.2
-      },
-      {
-        "type": 102,
-        "width": 19.2,
-        "surfaceType": 2,
-        "numberStart": "H13",
-        "numberEnd": null,
-        "latStart": 52.59487112,
-        "lonStart": 10.02979338,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.2
-      },
-      {
-        "type": 102,
-        "width": 22.3,
-        "surfaceType": 1,
-        "numberStart": "H14",
-        "numberEnd": null,
-        "latStart": 52.59503446,
-        "lonStart": 10.02873034,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21.5
-      },
-      {
-        "type": 102,
-        "width": 22.3,
-        "surfaceType": 1,
-        "numberStart": "H15",
-        "numberEnd": null,
-        "latStart": 52.5947087,
-        "lonStart": 10.02840774,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21.5
-      },
-      {
-        "type": 102,
-        "width": 22.3,
-        "surfaceType": 1,
-        "numberStart": "H16",
-        "numberEnd": null,
-        "latStart": 52.59449745,
-        "lonStart": 10.02820245,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21.5
-      },
-      {
-        "type": 102,
-        "width": 22.3,
-        "surfaceType": 1,
-        "numberStart": "H17",
-        "numberEnd": null,
-        "latStart": 52.59426331,
-        "lonStart": 10.02795946,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21.5
-      },
-      {
-        "type": 102,
-        "width": 22.3,
-        "surfaceType": 1,
-        "numberStart": "H18",
-        "numberEnd": null,
-        "latStart": 52.59391463,
-        "lonStart": 10.02761172,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21.5
-      },
-      {
-        "type": 102,
-        "width": 22.3,
-        "surfaceType": 1,
-        "numberStart": "H19",
-        "numberEnd": null,
-        "latStart": 52.59356697,
-        "lonStart": 10.02724544,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21.5
-      },
-      {
-        "type": 102,
-        "width": 22.3,
-        "surfaceType": 1,
-        "numberStart": "H20",
-        "numberEnd": null,
-        "latStart": 52.59322973,
-        "lonStart": 10.02692782,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21.5
+        "length": 20.8
       }
     ],
-    "id": 4707
+    "id": 24162
   }
 ]

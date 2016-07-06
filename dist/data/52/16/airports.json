@@ -1,66 +1,86 @@
 [
   {
     "type": 1,
-    "icao": "EGBE",
-    "lat": 52.37086643000001,
-    "lon": 16.468711023333334,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12605,
-        "name": "ATIS"
-      },
-      {
-        "type": 53,
-        "frequency": 12170,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11925,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12480,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11925,
-        "name": "APP"
-      }
-    ],
-    "elevation": 267,
+    "icao": "EPKS",
+    "lat": 52.331906755000006,
+    "lon": 16.96662088,
+    "communications": [],
+    "elevation": 275,
     "tower": true,
-    "name": "Coventry",
+    "name": "POZNAN Krzesiny",
     "runways": [
       {
         "type": 100,
-        "width": 46.02,
+        "width": 60,
         "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 52.36489395,
-        "lonStart": -1.48840311,
-        "latEnd": 52.37597865,
-        "lonEnd": -1.46874288,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 52.33714958,
+        "lonStart": 16.95044187,
+        "latEnd": 52.32666393,
+        "lonEnd": 16.98279989,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 10,
-        "surfaceType": 1,
-        "numberStart": "H28",
-        "numberEnd": null,
-        "latStart": 52.37172669,
-        "lonStart": -1.48144247,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10
+        "surfacetype": 2
       }
     ],
-    "id": 5419
+    "id": 19526
+  },
+  {
+    "type": 1,
+    "icao": "EPPO",
+    "lat": 52.421541905,
+    "lon": 16.823573305,
+    "communications": [],
+    "elevation": 308,
+    "tower": true,
+    "name": "POZNAN LAWICA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 59.66,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 52.424947,
+        "lonStart": 16.80593319,
+        "latEnd": 52.41813681,
+        "lonEnd": 16.84121342,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19527
+  },
+  {
+    "type": 1,
+    "icao": "EPZB",
+    "lat": 52.362009404999995,
+    "lon": 16.638677015,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12335,
+        "name": "Zborowo-Radio"
+      }
+    ],
+    "elevation": 275,
+    "tower": true,
+    "name": "Zborowo",
+    "runways": [
+      {
+        "type": 100,
+        "width": 61.28,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 52.36274322,
+        "lonStart": 16.63262413,
+        "latEnd": 52.36127559,
+        "lonEnd": 16.6447299,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 27881
   }
 ]

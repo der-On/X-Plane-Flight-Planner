@@ -1,39 +1,52 @@
 [
   {
     "type": 1,
-    "icao": "DXXX",
-    "lat": 6.165736000000001,
-    "lon": 3.711015,
+    "icao": "DNMM",
+    "lat": 6.5773797499999995,
+    "lon": 3.3213475,
     "communications": [
       {
         "type": 54,
-        "frequency": 12360,
-        "name": "A/G VOICE RDO"
+        "frequency": 12090,
+        "name": "LAGOS WEST"
       },
       {
-        "type": 54,
-        "frequency": 12070,
-        "name": "TWR"
+        "type": 55,
+        "frequency": 12470,
+        "name": "APP"
       }
     ],
-    "elevation": 72,
+    "elevation": 135,
     "tower": true,
-    "name": "GNASSINGBE EYADEMA INTL",
+    "name": "Lagos Murtala Muhammed",
     "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "18R",
+        "numberEnd": "36L",
+        "latStart": 6.587781,
+        "lonStart": 3.313556,
+        "latEnd": 6.552519,
+        "lonEnd": 3.313556,
+        "length": 0,
+        "surfacetype": 1
+      },
       {
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 6.155128,
-        "lonStart": 1.245686,
-        "latEnd": 6.176344,
-        "lonEnd": 1.262597,
+        "numberStart": "18L",
+        "numberEnd": "36R",
+        "latStart": 6.597008,
+        "lonStart": 3.329139,
+        "latEnd": 6.572211,
+        "lonEnd": 3.329139,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 10040
+    "id": 14788
   }
 ]

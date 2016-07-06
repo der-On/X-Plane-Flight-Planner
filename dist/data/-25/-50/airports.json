@@ -1,59 +1,106 @@
 [
   {
     "type": 1,
-    "icao": "SASA",
-    "lat": -24.853279542000003,
-    "lon": -49.230211481999994,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12885,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 4087,
+    "icao": "SSYA",
+    "lat": -24.1038735,
+    "lon": -49.789077500000005,
+    "communications": [],
+    "elevation": 2641,
     "tower": true,
-    "name": "Martin Miguel De GC<emes - Salta",
+    "name": "Arapoti",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 22.86,
         "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": -24.8728435,
-        "lonStart": -65.4899399,
-        "latEnd": -24.8463615,
-        "lonEnd": -65.48414496,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -24.109261,
+        "lonStart": -49.792586,
+        "latEnd": -24.098486,
+        "lonEnd": -49.785569,
         "length": 0,
         "surfacetype": 1
-      },
+      }
+    ],
+    "id": 1139
+  },
+  {
+    "type": 1,
+    "icao": "SSQT",
+    "lat": -24.8075008,
+    "lon": -49.9602776,
+    "communications": [],
+    "elevation": 3313,
+    "tower": true,
+    "name": "Castro",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.42,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -24.81285856,
+        "lonStart": -49.96411068,
+        "latEnd": -24.80214304,
+        "lonEnd": -49.95644452,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 4646
+  },
+  {
+    "type": 1,
+    "icao": "SDID",
+    "lat": -24.135277780000003,
+    "lon": -49.32833333,
+    "communications": [],
+    "elevation": 2598,
+    "tower": false,
+    "name": "Itarare",
+    "runways": [
       {
         "type": 100,
         "width": 29.87,
         "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": -24.85809847,
-        "lonStart": -65.48957832,
-        "latEnd": -24.84482353,
-        "lonEnd": -65.47080269,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -24.13305842,
+        "lonStart": -49.33087923,
+        "latEnd": -24.13749714,
+        "lonEnd": -49.32578743,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 1,
-        "numberStart": "H26",
-        "numberEnd": null,
-        "latStart": -24.84427071,
-        "lonStart": -65.48035416,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
+        "surfacetype": 4
       }
     ],
-    "id": 16749
+    "id": 12602
+  },
+  {
+    "type": 1,
+    "icao": "SSIS",
+    "lat": -24.5413895,
+    "lon": -49.9208336,
+    "communications": [],
+    "elevation": 3501,
+    "tower": true,
+    "name": "Pirai Do Sul",
+    "runways": [
+      {
+        "type": 100,
+        "width": 13.41,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -24.53975505,
+        "lonStart": -49.92506651,
+        "latEnd": -24.54302395,
+        "lonEnd": -49.91660069,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 20194
   }
 ]

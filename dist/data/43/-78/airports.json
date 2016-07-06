@@ -1,5 +1,459 @@
 [
   {
+    "type": 1,
+    "icao": "24NY",
+    "lat": 43.0667275,
+    "lon": -77.95890056,
+    "communications": [],
+    "elevation": 690,
+    "tower": false,
+    "name": "Ely Air Park",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 43.06666766,
+        "lonStart": -77.96359314,
+        "latEnd": 43.06678734,
+        "lonEnd": -77.95420798,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 7143
+  },
+  {
+    "type": 1,
+    "icao": "KROC",
+    "lat": 43.117194549,
+    "lon": -77.672303226,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12482,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 11830,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 52,
+        "frequency": 11880,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11955,
+        "name": "APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12370,
+        "name": "APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12732,
+        "name": "APP/DEP"
+      }
+    ],
+    "elevation": 559,
+    "tower": true,
+    "name": "GREATER ROCHESTER INTL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 43.106878,
+        "lonStart": -77.687711,
+        "latEnd": 43.125567,
+        "lonEnd": -77.671989,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 43.122779,
+        "lonStart": -77.677624,
+        "latEnd": 43.123496,
+        "lonEnd": -77.653666,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 33.53,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 43.116169,
+        "lonStart": -77.672589,
+        "latEnd": 43.121008,
+        "lonEnd": -77.659142,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 15.24,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 43.11438641,
+        "lonStart": -77.6748535,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.24
+      },
+      {
+        "type": 102,
+        "width": 15.24,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 43.11413169,
+        "lonStart": -77.67500304,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.24
+      },
+      {
+        "type": 102,
+        "width": 15.24,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 43.11388216,
+        "lonStart": -77.67516683,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.24
+      },
+      {
+        "type": 102,
+        "width": 15.24,
+        "surfaceType": 2,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 43.11364823,
+        "lonStart": -77.67528789,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.24
+      }
+    ],
+    "id": 10144
+  },
+  {
+    "type": 1,
+    "icao": "7G0",
+    "lat": 43.181124,
+    "lon": -77.915764,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12370,
+        "name": "ROCHESTER APP/DEP"
+      }
+    ],
+    "elevation": 666,
+    "tower": false,
+    "name": "LEDGEDALE AIRPARK",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 43.181231,
+        "lonStart": -77.923642,
+        "latEnd": 43.181017,
+        "lonEnd": -77.907886,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14466
+  },
+  {
+    "type": 1,
+    "icao": "D78",
+    "lat": 43.03534083,
+    "lon": -77.30804112,
+    "communications": [],
+    "elevation": 520,
+    "tower": false,
+    "name": "Lakestone Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 43.03881426,
+        "lonStart": -77.30896483,
+        "latEnd": 43.0318674,
+        "lonEnd": -77.30711741,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14870
+  },
+  {
+    "type": 1,
+    "icao": "91NY",
+    "lat": 43.19561694,
+    "lon": -77.74806195,
+    "communications": [],
+    "elevation": 470,
+    "tower": false,
+    "name": "Manitou Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 43.19556667,
+        "lonStart": -77.75201203,
+        "latEnd": 43.19566721,
+        "lonEnd": -77.74411187,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16592
+  },
+  {
+    "type": 1,
+    "icao": "3NK0",
+    "lat": 43.20311583,
+    "lon": -77.90251167,
+    "communications": [],
+    "elevation": 547,
+    "tower": false,
+    "name": "Mc Kinney",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 43.20360929,
+        "lonStart": -77.90678586,
+        "latEnd": 43.20262237,
+        "lonEnd": -77.89823748,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16945
+  },
+  {
+    "type": 1,
+    "icao": "74NY",
+    "lat": 43.00561666,
+    "lon": -77.29137778,
+    "communications": [],
+    "elevation": 660,
+    "tower": false,
+    "name": "New Salem Aerodrome",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 43.00348451,
+        "lonStart": -77.29183957,
+        "latEnd": 43.00774881,
+        "lonEnd": -77.29091599,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18265
+  },
+  {
+    "type": 1,
+    "icao": "1G9",
+    "lat": 43.098396660000006,
+    "lon": -77.18192361999999,
+    "communications": [],
+    "elevation": 540,
+    "tower": false,
+    "name": "Oak Ridge",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 43.10159765,
+        "lonStart": -77.18360641,
+        "latEnd": 43.09519567,
+        "lonEnd": -77.18024083,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18769
+  },
+  {
+    "type": 1,
+    "icao": "6G3",
+    "lat": 43.07561861,
+    "lon": -77.23331528,
+    "communications": [],
+    "elevation": 459,
+    "tower": false,
+    "name": "Palmyra Airpark",
+    "runways": [
+      {
+        "type": 100,
+        "width": 36.58,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 43.0794598,
+        "lonStart": -77.23533388,
+        "latEnd": 43.07177742,
+        "lonEnd": -77.23129668,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 19697
+  },
+  {
+    "type": 1,
+    "icao": "8NY8",
+    "lat": 43.257559439999994,
+    "lon": -77.99001528,
+    "communications": [],
+    "elevation": 402,
+    "tower": false,
+    "name": "Para-Tech",
+    "runways": [
+      {
+        "type": 100,
+        "width": 7.32,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 43.25711456,
+        "lonStart": -77.99315788,
+        "latEnd": 43.25800432,
+        "lonEnd": -77.98687268,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19741
+  },
+  {
+    "type": 1,
+    "icao": "D91",
+    "lat": 43.16950555,
+    "lon": -77.81834167,
+    "communications": [],
+    "elevation": 614,
+    "tower": false,
+    "name": "Spencerport Airpark",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 43.1688644,
+        "lonStart": -77.82286418,
+        "latEnd": 43.1701467,
+        "lonEnd": -77.81381916,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23949
+  },
+  {
+    "type": 1,
+    "icao": "KSDC",
+    "lat": 43.2346131,
+    "lon": -77.11945132,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11955,
+        "name": "ROCHESTER APP/DEP"
+      }
+    ],
+    "elevation": 424,
+    "tower": false,
+    "name": "WILLIAMSON SODUS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 43.234452,
+        "lonStart": -77.12658032,
+        "latEnd": 43.2347742,
+        "lonEnd": -77.11232232,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 26670
+  },
+  {
     "type": 17,
     "icao": "29NY",
     "lat": 43.04450694,

@@ -1,34 +1,54 @@
 [
   {
     "type": 1,
-    "icao": "PTKK",
-    "lat": 7.461893,
-    "lon": 79.65235000000001,
+    "icao": "VCBI",
+    "lat": 7.181134035,
+    "lon": 79.8844489,
     "communications": [
       {
-        "type": 51,
-        "frequency": 12360,
-        "name": "CTAF"
+        "type": 50,
+        "frequency": 12720,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "COLOMBO GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11870,
+        "name": "COLOMBO TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12380,
+        "name": "COLOMBO TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12090,
+        "name": "COLOMBO APP"
       }
     ],
-    "elevation": 11,
-    "tower": false,
-    "name": "Chukk Intl",
+    "elevation": 29,
+    "tower": true,
+    "name": "BANDARANAIKE INTL COLOMBO",
     "runways": [
       {
         "type": 100,
-        "width": 46.02,
+        "width": 45.11,
         "surfaceType": null,
         "numberStart": "04",
         "numberEnd": "22",
-        "latStart": 7.456144,
-        "lonStart": 151.837058,
-        "latEnd": 7.467642,
-        "lonEnd": 151.848986,
+        "latStart": 7.16891014,
+        "lonStart": 79.87510416,
+        "latEnd": 7.19335793,
+        "lonEnd": 79.89379364,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 4977
+    "id": 1492
   }
 ]

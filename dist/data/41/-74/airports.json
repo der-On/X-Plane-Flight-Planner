@@ -1,5 +1,922 @@
 [
   {
+    "type": 1,
+    "icao": "09N",
+    "lat": 41.83259305,
+    "lon": -73.87596778,
+    "communications": [],
+    "elevation": 450,
+    "tower": false,
+    "name": "Airhaven",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 41.83021083,
+        "lonStart": -73.87636035,
+        "latEnd": 41.83497527,
+        "lonEnd": -73.87557521,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 753
+  },
+  {
+    "type": 1,
+    "icao": "11N",
+    "lat": 41.56676083,
+    "lon": -73.46623389,
+    "communications": [],
+    "elevation": 674,
+    "tower": false,
+    "name": "Candlelight Farms",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 41.57005818,
+        "lonStart": -73.46920654,
+        "latEnd": 41.56346348,
+        "lonEnd": -73.46326124,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4453
+  },
+  {
+    "type": 1,
+    "icao": "CT60",
+    "lat": 41.50842833,
+    "lon": -73.30789473,
+    "communications": [],
+    "elevation": 649,
+    "tower": false,
+    "name": "Canterbury Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.51029138,
+        "lonStart": -73.30851502,
+        "latEnd": 41.50656528,
+        "lonEnd": -73.30727444,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4469
+  },
+  {
+    "type": 1,
+    "icao": "CT66",
+    "lat": 41.666762489999996,
+    "lon": -73.28289416999999,
+    "communications": [],
+    "elevation": 939,
+    "tower": false,
+    "name": "Clouds Hill",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 41.6676042,
+        "lonStart": -73.28520435,
+        "latEnd": 41.66592078,
+        "lonEnd": -73.28058399,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5113
+  },
+  {
+    "type": 1,
+    "icao": "KDXR",
+    "lat": 41.3716846175,
+    "lon": -73.48198110499999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12775,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 11940,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 12860,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12160,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11940,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12640,
+        "name": "NEW YORK APP/DEP"
+      }
+    ],
+    "elevation": 458,
+    "tower": true,
+    "name": "Danbury",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 41.3686942,
+        "lonStart": -73.49076102,
+        "latEnd": 41.372894,
+        "lonEnd": -73.47564701,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 41.37641127,
+        "lonStart": -73.48334439,
+        "latEnd": 41.368739,
+        "lonEnd": -73.478172,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5981
+  },
+  {
+    "type": 1,
+    "icao": "CT51",
+    "lat": 41.53342777,
+    "lon": -73.41623195,
+    "communications": [],
+    "elevation": 300,
+    "tower": false,
+    "name": "Docktors Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.53608927,
+        "lonStart": -73.41711842,
+        "latEnd": 41.53076627,
+        "lonEnd": -73.41534548,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6333
+  },
+  {
+    "type": 1,
+    "icao": "CT52",
+    "lat": 41.36815111,
+    "lon": -73.29122778,
+    "communications": [],
+    "elevation": 610,
+    "tower": false,
+    "name": "Flying Ridge Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.37081261,
+        "lonStart": -73.292112,
+        "latEnd": 41.36548961,
+        "lonEnd": -73.29034356,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9502
+  },
+  {
+    "type": 1,
+    "icao": "CT59",
+    "lat": 41.550095549999995,
+    "lon": -73.26622695,
+    "communications": [],
+    "elevation": 949,
+    "tower": false,
+    "name": "Good Hill Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.55368858,
+        "lonStart": -73.267424,
+        "latEnd": 41.54650252,
+        "lonEnd": -73.2650299,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10586
+  },
+  {
+    "type": 1,
+    "icao": "KBDR",
+    "lat": 41.164347166666666,
+    "lon": -73.12619916666667,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11915,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12090,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 12175,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12090,
+        "name": "BRIDGEPORT TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12407,
+        "name": "NEW YORK APP/DEP"
+      }
+    ],
+    "elevation": 9,
+    "tower": true,
+    "name": "IGOR I SIKORSKY MEM",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 41.166239,
+        "lonStart": -73.134961,
+        "latEnd": 41.164458,
+        "lonEnd": -73.117839,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 41.157044,
+        "lonStart": -73.131956,
+        "latEnd": 41.166119,
+        "lonEnd": -73.119944,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 41.170556,
+        "lonStart": -73.128053,
+        "latEnd": 41.161667,
+        "lonEnd": -73.124442,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12266
+  },
+  {
+    "type": 1,
+    "icao": "20N",
+    "lat": 41.985203999999996,
+    "lon": -73.96416400000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 13275,
+        "name": "NEW YORK APP/DEP"
+      }
+    ],
+    "elevation": 149,
+    "tower": false,
+    "name": "KINGSTON ULSTER",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 41.988622,
+        "lonStart": -73.967911,
+        "latEnd": 41.981786,
+        "lonEnd": -73.960417,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 13391
+  },
+  {
+    "type": 1,
+    "icao": "N77",
+    "lat": 41.382038050000006,
+    "lon": -73.76485473,
+    "communications": [],
+    "elevation": 700,
+    "tower": false,
+    "name": "Mahopac",
+    "runways": [
+      {
+        "type": 100,
+        "width": 19.81,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 41.37957275,
+        "lonStart": -73.76468254,
+        "latEnd": 41.38450335,
+        "lonEnd": -73.76502692,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16491
+  },
+  {
+    "type": 1,
+    "icao": "NY94",
+    "lat": 41.971481,
+    "lon": -73.862907,
+    "communications": [],
+    "elevation": 323,
+    "tower": false,
+    "name": "Old Rhinebeck",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.97442095,
+        "lonStart": -73.86381993,
+        "latEnd": 41.96854105,
+        "lonEnd": -73.86199407,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18902
+  },
+  {
+    "type": 1,
+    "icao": "KPOU",
+    "lat": 41.626600499999995,
+    "lon": -73.88433821666668,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12675,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12400,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 12180,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12400,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 165,
+    "tower": true,
+    "name": "Poughkeepsie - Dutchess Co",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 41.62190673,
+        "lonStart": -73.89201987,
+        "latEnd": 41.63059927,
+        "lonEnd": -73.87782221,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 41.63022589,
+        "lonStart": -73.88515756,
+        "latEnd": 41.62456511,
+        "lonEnd": -73.87852673,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 41.62497265,
+        "lonStart": -73.88817884,
+        "latEnd": 41.62733335,
+        "lonEnd": -73.88432409,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20459
+  },
+  {
+    "type": 1,
+    "icao": "CT44",
+    "lat": 41.785650829999994,
+    "lon": -73.30872862,
+    "communications": [],
+    "elevation": 1330,
+    "tower": false,
+    "name": "Ripley Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 41.78815667,
+        "lonStart": -73.31022487,
+        "latEnd": 41.78314499,
+        "lonEnd": -73.30723237,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21517
+  },
+  {
+    "type": 1,
+    "icao": "44N",
+    "lat": 41.707364,
+    "lon": -73.7379875,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 13275,
+        "name": "NEW YORK APP/DEP"
+      }
+    ],
+    "elevation": 700,
+    "tower": false,
+    "name": "SKY ACRES",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 41.7121,
+        "lonStart": -73.741225,
+        "latEnd": 41.702628,
+        "lonEnd": -73.73475,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22322
+  },
+  {
+    "type": 1,
+    "icao": "N69",
+    "lat": 41.576983,
+    "lon": -73.732354,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 13275,
+        "name": "NEW YORK APP/DEP"
+      }
+    ],
+    "elevation": 358,
+    "tower": false,
+    "name": "STORMVILLE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 41.573883,
+        "lonStart": -73.736794,
+        "latEnd": 41.580083,
+        "lonEnd": -73.727914,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22543
+  },
+  {
+    "type": 1,
+    "icao": "1NY5",
+    "lat": 41.638982490000004,
+    "lon": -73.74290805999999,
+    "communications": [],
+    "elevation": 625,
+    "tower": false,
+    "name": "Sherman Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.64108054,
+        "lonStart": -73.74355618,
+        "latEnd": 41.63688444,
+        "lonEnd": -73.74225994,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 23412
+  },
+  {
+    "type": 1,
+    "icao": "46N",
+    "lat": 41.98328416,
+    "lon": -73.835972915,
+    "communications": [],
+    "elevation": 323,
+    "tower": false,
+    "name": "Sky Park",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 41.97824027,
+        "lonStart": -73.83604,
+        "latEnd": 41.98832805,
+        "lonEnd": -73.83590583,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 23643
+  },
+  {
+    "type": 1,
+    "icao": "KHPN",
+    "lat": 41.0667585,
+    "lon": -73.70761725,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13380,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 51,
+        "frequency": 11857,
+        "name": "CTAF"
+      },
+      {
+        "type": 52,
+        "frequency": 12725,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12182,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11857,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12080,
+        "name": "NEW YORK APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12465,
+        "name": "NEW YORK APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12640,
+        "name": "NEW YORK APP"
+      },
+      {
+        "type": 56,
+        "frequency": 12055,
+        "name": "NEW YORK DEP"
+      }
+    ],
+    "elevation": 438,
+    "tower": true,
+    "name": "WESTCHESTER CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 41.067053,
+        "lonStart": -73.715761,
+        "latEnd": 41.064428,
+        "lonEnd": -73.7,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 41.07555,
+        "lonStart": -73.713308,
+        "latEnd": 41.060003,
+        "lonEnd": -73.7014,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 26591
+  },
+  {
+    "type": 1,
+    "icao": "N41",
+    "lat": 41.63343027,
+    "lon": -73.04677389,
+    "communications": [],
+    "elevation": 850,
+    "tower": false,
+    "name": "Waterbury",
+    "runways": [
+      {
+        "type": 100,
+        "width": 41.15,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 41.63594112,
+        "lonStart": -73.04826959,
+        "latEnd": 41.63091942,
+        "lonEnd": -73.04527819,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 76.2,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 41.63124791,
+        "lonStart": -73.04708078,
+        "latEnd": 41.63561263,
+        "lonEnd": -73.046467,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 26960
+  },
+  {
+    "type": 1,
+    "icao": "KOXC",
+    "lat": 41.478282,
+    "lon": -73.13518501,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13297,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 11847,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 13510,
+        "name": "NEW YORK CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12165,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11847,
+        "name": "OXFORD TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12407,
+        "name": "NEW YORK APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 13510,
+        "name": "NEW YORK APP/DEP"
+      }
+    ],
+    "elevation": 726,
+    "tower": true,
+    "name": "Waterbury Oxford",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.486139,
+        "lonStart": -73.13688051,
+        "latEnd": 41.470425,
+        "lonEnd": -73.13348951,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 26961
+  },
+  {
+    "type": 1,
+    "icao": "CT01",
+    "lat": 41.6662075,
+    "lon": -73.18900167000001,
+    "communications": [],
+    "elevation": 1020,
+    "tower": false,
+    "name": "Whelan Farms",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 41.66429209,
+        "lonStart": -73.18882238,
+        "latEnd": 41.66812291,
+        "lonEnd": -73.18918096,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 27188
+  },
+  {
+    "type": 1,
+    "icao": "CT42",
+    "lat": 41.850094999999996,
+    "lon": -73.26622695,
+    "communications": [],
+    "elevation": 1584,
+    "tower": false,
+    "name": "Wings Ago Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.8522242,
+        "lonStart": -73.26693963,
+        "latEnd": 41.8479658,
+        "lonEnd": -73.26551427,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 27422
+  },
+  {
     "type": 17,
     "icao": "CT56",
     "lat": 41.10009666,

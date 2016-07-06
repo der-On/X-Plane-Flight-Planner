@@ -1,29 +1,509 @@
 [
   {
     "type": 1,
-    "icao": "SCMB",
-    "lat": -23.5556945,
-    "lon": -46.9755555,
-    "communications": [],
-    "elevation": 131,
-    "tower": true,
-    "name": "LA CHIMBA",
+    "icao": "SDTB",
+    "lat": -23.127843885,
+    "lon": -46.574609394999996,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12625,
+        "name": "FCA"
+      }
+    ],
+    "elevation": 2591,
+    "tower": false,
+    "name": "Atibaia",
     "runways": [
       {
         "type": 100,
-        "width": 15.85,
+        "width": 30,
         "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": -23.559722,
-        "lonStart": -70.399444,
-        "latEnd": -23.551667,
-        "lonEnd": -70.394447,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": -23.13268013,
+        "lonStart": -46.57510034,
+        "latEnd": -23.12300764,
+        "lonEnd": -46.57411845,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 1294
+  },
+  {
+    "type": 1,
+    "icao": "SBST",
+    "lat": -23.925649284444447,
+    "lon": -46.300363626666666,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12280,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11980,
+        "name": "SAO PAULO APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12005,
+        "name": "SAO PAULO APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12950,
+        "name": "SAO PAULO APP"
+      }
+    ],
+    "elevation": 9,
+    "tower": true,
+    "name": "BASE AEREA DE SANTOS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -23.9227665,
+        "lonStart": -46.303826,
+        "latEnd": -23.933454,
+        "lonEnd": -46.296681,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 58,
+        "surfaceType": 3,
+        "numberStart": "H7",
+        "numberEnd": null,
+        "latStart": -23.92507201,
+        "lonStart": -46.30364047,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 54
+      },
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 3,
+        "numberStart": "H6",
+        "numberEnd": null,
+        "latStart": -23.92431392,
+        "lonStart": -46.29888011,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      },
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 3,
+        "numberStart": "H5",
+        "numberEnd": null,
+        "latStart": -23.92456025,
+        "lonStart": -46.29926907,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      },
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 3,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": -23.92480503,
+        "lonStart": -46.29965975,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      },
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 3,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": -23.92504572,
+        "lonStart": -46.30004862,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      },
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 3,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": -23.92529157,
+        "lonStart": -46.30043768,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      },
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -23.92553456,
+        "lonStart": -46.30082994,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 1550
+  },
+  {
+    "type": 1,
+    "icao": "SDIH",
+    "lat": -23.563334474999998,
+    "lon": -46.07152302,
+    "communications": [],
+    "elevation": 2467,
+    "tower": false,
+    "name": "Fazenda Irohy",
+    "runways": [
+      {
+        "type": 100,
+        "width": 23,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -23.56193118,
+        "lonStart": -46.07587607,
+        "latEnd": -23.56473777,
+        "lonEnd": -46.06716997,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 8361
+  },
+  {
+    "type": 1,
+    "icao": "SDVH",
+    "lat": -23.004166665,
+    "lon": -46.634722249999996,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12625,
+        "name": "RDO"
+      }
+    ],
+    "elevation": 2727,
+    "tower": false,
+    "name": "Fazenda Vale Eldorado",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": -23.00733381,
+        "lonStart": -46.6358388,
+        "latEnd": -23.00099952,
+        "lonEnd": -46.6336057,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 14259
+    "id": 9152
+  },
+  {
+    "type": 1,
+    "icao": "SBJD",
+    "lat": -23.180736635000002,
+    "lon": -46.943934525,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11875,
+        "name": "RDO"
+      },
+      {
+        "type": 53,
+        "frequency": 12165,
+        "name": "GRND"
+      },
+      {
+        "type": 55,
+        "frequency": 13575,
+        "name": "APP SP Final"
+      }
+    ],
+    "elevation": 2483,
+    "tower": true,
+    "name": "Jundiai",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -23.17489037,
+        "lonStart": -46.94662751,
+        "latEnd": -23.1865829,
+        "lonEnd": -46.94124154,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 13142
+  },
+  {
+    "type": 1,
+    "icao": "SBMT",
+    "lat": -23.5091195,
+    "lon": -46.637754,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12160,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11870,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11980,
+        "name": "SAO PAULO APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12005,
+        "name": "SAO PAULO APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12950,
+        "name": "SAO PAULO APP"
+      }
+    ],
+    "elevation": 2368,
+    "tower": true,
+    "name": "MARTE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -23.507831,
+        "lonStart": -46.645458,
+        "latEnd": -23.510408,
+        "lonEnd": -46.63005,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 15875
+  },
+  {
+    "type": 1,
+    "icao": "SDNI",
+    "lat": -23.61972222,
+    "lon": -46.98361111,
+    "communications": [],
+    "elevation": 3090,
+    "tower": false,
+    "name": "Nascimento I",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -23.61739584,
+        "lonStart": -46.98558403,
+        "latEnd": -23.6220486,
+        "lonEnd": -46.98163819,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 18140
+  },
+  {
+    "type": 1,
+    "icao": "SBGR",
+    "lat": -23.43233312,
+    "lon": -46.469675224999996,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12775,
+        "name": "ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 12100,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 53,
+        "frequency": 12690,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11840,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 13275,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 13520,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12150,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11980,
+        "name": "SAO PAULO APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12005,
+        "name": "SAO PAULO APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12950,
+        "name": "SAO PAULO APP"
+      }
+    ],
+    "elevation": 2459,
+    "tower": true,
+    "name": "Sao Paulo - Guarulhos",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "09L",
+        "numberEnd": "27R",
+        "latStart": -23.43451155,
+        "lonStart": -46.4843157,
+        "latEnd": -23.42470651,
+        "lonEnd": -46.44799646,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "09R",
+        "numberEnd": "27L",
+        "latStart": -23.43890697,
+        "lonStart": -46.48744934,
+        "latEnd": -23.43120745,
+        "lonEnd": -46.4589394,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22997
+  },
+  {
+    "type": 1,
+    "icao": "SBSP",
+    "lat": -23.62676386,
+    "lon": -46.65512014,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12765,
+        "name": "ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 12060,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12715,
+        "name": "SAO PAULO TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12950,
+        "name": "SAO PAULO APP"
+      }
+    ],
+    "elevation": 2630,
+    "tower": true,
+    "name": "Sao Paulo Congonhas",
+    "runways": [
+      {
+        "type": 100,
+        "width": 44.81,
+        "surfaceType": null,
+        "numberStart": "17R",
+        "numberEnd": "35L",
+        "latStart": -23.61991261,
+        "lonStart": -46.66119614,
+        "latEnd": -23.63469861,
+        "lonEnd": -46.65086814,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 44.81,
+        "surfaceType": null,
+        "numberStart": "17L",
+        "numberEnd": "35R",
+        "latStart": -23.62077361,
+        "lonStart": -46.65802914,
+        "latEnd": -23.63167061,
+        "lonEnd": -46.65038714,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22998
   },
   {
     "type": 17,

@@ -1,473 +1,213 @@
 [
   {
     "type": 1,
-    "icao": "LE01",
-    "lat": 41.367419659999996,
-    "lon": 21.565606369999998,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12350,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 838,
-    "tower": true,
-    "name": "Avinyonet",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.52,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 41.36828493,
-        "lonStart": 1.76465835,
-        "latEnd": 41.36655439,
-        "lonEnd": 1.76964422,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 1368
-  },
-  {
-    "type": 1,
-    "icao": "LEBL",
-    "lat": 41.29510809833334,
-    "lon": 21.688965550000002,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12197,
-        "name": "ATIS"
-      },
-      {
-        "type": 52,
-        "frequency": 12180,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 53,
-        "frequency": 12185,
-        "name": "GMC E"
-      },
-      {
-        "type": 53,
-        "frequency": 12165,
-        "name": "GMC SC"
-      },
-      {
-        "type": 53,
-        "frequency": 12170,
-        "name": "GMC W"
-      },
-      {
-        "type": 54,
-        "frequency": 11810,
-        "name": "TWR ARR"
-      },
-      {
-        "type": 54,
-        "frequency": 11832,
-        "name": "TWR DPT"
-      },
-      {
-        "type": 55,
-        "frequency": 12115,
-        "name": "DPT E"
-      },
-      {
-        "type": 55,
-        "frequency": 12650,
-        "name": "DPT W"
-      },
-      {
-        "type": 55,
-        "frequency": 11910,
-        "name": "APROACH"
-      }
-    ],
-    "elevation": 14,
-    "tower": true,
-    "name": "Barcelona - El Prat",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 41.287759,
-        "lonStart": 2.0848361,
-        "latEnd": 41.30938568,
-        "lonEnd": 2.094709,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "07R",
-        "numberEnd": "25L",
-        "latStart": 41.2823122,
-        "lonStart": 2.07434999,
-        "latEnd": 41.29222053,
-        "lonEnd": 2.103281,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "07L",
-        "numberEnd": "25R",
-        "latStart": 41.29324514,
-        "lonStart": 2.06727496,
-        "latEnd": 41.30572604,
-        "lonEnd": 2.10372899,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 2225
-  },
-  {
-    "type": 1,
-    "icao": "LIBD",
-    "lat": 41.13638445,
-    "lon": 21.636000654,
-    "communications": [
-      {
-        "type": 55,
-        "frequency": 11950,
-        "name": "APP/DEP"
-      },
-      {
-        "type": 54,
-        "frequency": 11830,
-        "name": "TWR"
-      },
-      {
-        "type": 51,
-        "frequency": 12405,
-        "name": "ATIS"
-      }
-    ],
-    "elevation": 187,
-    "tower": true,
-    "name": "Bari Palese Macchie",
-    "runways": [
-      {
-        "type": 100,
-        "width": 40,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 41.13285055,
-        "lonStart": 16.74057591,
-        "latEnd": 41.14233304,
-        "lonEnd": 16.77408584,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 21,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.13799893,
-        "lonStart": 16.77589098,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21
-      },
-      {
-        "type": 102,
-        "width": 19.7,
-        "surfaceType": 2,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 41.13447944,
-        "lonStart": 16.76109639,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21.9
-      },
-      {
-        "type": 102,
-        "width": 12,
-        "surfaceType": 2,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 41.13426029,
-        "lonStart": 16.76010695,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 13.1
-      }
-    ],
-    "id": 2235
-  },
-  {
-    "type": 1,
-    "icao": "LECF",
-    "lat": 41.74471741,
-    "lon": 21.648077999999998,
+    "icao": "LW69",
+    "lat": 41.4292775,
+    "lon": 21.4024585,
     "communications": [],
-    "elevation": 2355,
-    "tower": true,
-    "name": "Calaf",
-    "runways": [
-      {
-        "type": 100,
-        "width": 35,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 41.74652977,
-        "lonStart": 1.55325095,
-        "latEnd": 41.74290505,
-        "lonEnd": 1.56169905,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 4331
-  },
-  {
-    "type": 1,
-    "icao": "LE03",
-    "lat": 41.580898595,
-    "lon": 21.84159403,
-    "communications": [],
-    "elevation": 801,
+    "elevation": 1970,
     "tower": false,
-    "name": "Castellar del Valles",
+    "name": "DOLNENI",
     "runways": [
       {
         "type": 100,
-        "width": 24,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 41.57782136,
-        "lonStart": 2.09921223,
-        "latEnd": 41.58397583,
-        "lonEnd": 2.10166942,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 4633
-  },
-  {
-    "type": 1,
-    "icao": "LEIG",
-    "lat": 41.584504595,
-    "lon": 21.615749564999998,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12260,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 1148,
-    "tower": true,
-    "name": "Igualada-Odena",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.1,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 41.58822026,
-        "lonStart": 1.6507102,
-        "latEnd": 41.58078893,
-        "lonEnd": 1.65457345,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 12421
-  },
-  {
-    "type": 1,
-    "icao": "LEDA",
-    "lat": 41.727951465000004,
-    "lon": 21.122356025000002,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12132,
-        "name": "TWR"
-      },
-      {
-        "type": 53,
-        "frequency": 12162,
-        "name": "GMC"
-      }
-    ],
-    "elevation": 1152,
-    "tower": true,
-    "name": "Lleida Alguaire",
-    "runways": [
-      {
-        "type": 100,
-        "width": 62,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 41.73565481,
-        "lonStart": 0.52446393,
-        "latEnd": 41.72024812,
-        "lonEnd": 0.54634395,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 15370
-  },
-  {
-    "type": 1,
-    "icao": "LE04",
-    "lat": 41.799442635000005,
-    "lon": 21.956612425,
-    "communications": [],
-    "elevation": 2295,
-    "tower": false,
-    "name": "Moia - Les Humbertes",
-    "runways": [
-      {
-        "type": 100,
-        "width": 26,
+        "width": 19.51,
         "surfaceType": null,
         "numberStart": "01",
         "numberEnd": "19",
-        "latStart": 41.79721107,
-        "lonStart": 2.11155065,
-        "latEnd": 41.8016742,
-        "lonEnd": 2.11240109,
+        "latStart": 41.427972,
+        "lonStart": 21.402028,
+        "latEnd": 41.430583,
+        "lonEnd": 21.402889,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 5838
+  },
+  {
+    "type": 1,
+    "icao": "LW74",
+    "lat": 41.021539000000004,
+    "lon": 21.426521,
+    "communications": [],
+    "elevation": 1950,
+    "tower": false,
+    "name": "LOGOVARDI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 97.54,
+        "surfaceType": null,
+        "numberStart": "17L",
+        "numberEnd": "35R",
+        "latStart": 41.024858,
+        "lonStart": 21.426142,
+        "latEnd": 41.014206,
+        "lonEnd": 21.428775,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17R",
+        "numberEnd": "35L",
+        "latStart": 41.024886,
+        "lonStart": 21.425253,
+        "latEnd": 41.022206,
+        "lonEnd": 21.425914,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 14586
+  },
+  {
+    "type": 1,
+    "icao": "LW66",
+    "lat": 41.333097,
+    "lon": 21.449056,
+    "communications": [],
+    "elevation": 2034,
+    "tower": false,
+    "name": "PRILEP",
+    "runways": [
+      {
+        "type": 100,
+        "width": 80.47,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 41.329444,
+        "lonStart": 21.444806,
+        "latEnd": 41.33675,
+        "lonEnd": 21.453306,
         "length": 0,
         "surfacetype": 4
       }
     ],
-    "id": 17355
+    "id": 19551
   },
   {
     "type": 1,
-    "icao": "LERS",
-    "lat": 41.14806239,
-    "lon": 21.153926505,
+    "icao": "LW68",
+    "lat": 41.1507015,
+    "lon": 21.408423499999998,
+    "communications": [],
+    "elevation": 1900,
+    "tower": false,
+    "name": "SRPCI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 41.152053,
+        "lonStart": 21.408239,
+        "latEnd": 41.14935,
+        "lonEnd": 21.408608,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 22449
+  },
+  {
+    "type": 1,
+    "icao": "LW71",
+    "lat": 41.8276525,
+    "lon": 21.986888999999998,
+    "communications": [],
+    "elevation": 794,
+    "tower": false,
+    "name": "SVETI NIKOLE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.64,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 41.828722,
+        "lonStart": 21.985778,
+        "latEnd": 41.826583,
+        "lonEnd": 21.988,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 22626
+  },
+  {
+    "type": 1,
+    "icao": "LWSK",
+    "lat": 41.959448390000006,
+    "lon": 21.622199275,
     "communications": [
       {
-        "type": 53,
-        "frequency": 12170,
-        "name": "GMC"
+        "type": 50,
+        "frequency": 13012,
+        "name": "ATIS"
       },
       {
         "type": 54,
-        "frequency": 11815,
+        "frequency": 11850,
         "name": "TWR"
       },
       {
         "type": 55,
-        "frequency": 11815,
+        "frequency": 12030,
         "name": "APP"
       }
     ],
-    "elevation": 232,
+    "elevation": 780,
     "tower": true,
-    "name": "Reus",
+    "name": "Skopje",
     "runways": [
       {
         "type": 100,
-        "width": 42,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 41.14408324,
-        "lonStart": 1.15581147,
-        "latEnd": 41.15204154,
-        "lonEnd": 1.18316799,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 21388
-  },
-  {
-    "type": 1,
-    "icao": "LELL",
-    "lat": 41.52050139,
-    "lon": 21.809190105,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12080,
-        "name": "TWR"
-      },
-      {
-        "type": 53,
-        "frequency": 12160,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 461,
-    "tower": true,
-    "name": "Sabadell",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 41.52334596,
-        "lonStart": 2.10072339,
-        "latEnd": 41.51765682,
-        "lonEnd": 2.11073667,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22648
-  },
-  {
-    "type": 1,
-    "icao": "LE07",
-    "lat": 41.2497288,
-    "lon": 21.24413839,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13012,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 604,
-    "tower": true,
-    "name": "Vallmoll",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
+        "width": 45,
         "surfaceType": null,
         "numberStart": "16",
         "numberEnd": "34",
-        "latStart": 41.25173353,
-        "lonStart": 1.24055271,
-        "latEnd": 41.24772407,
-        "lonEnd": 1.24223101,
+        "latStart": 41.97230617,
+        "lonStart": 21.61771756,
+        "latEnd": 41.94659061,
+        "lonEnd": 21.62668099,
         "length": 0,
-        "surfacetype": 4
+        "surfacetype": 1
       }
     ],
-    "id": 26191
+    "id": 23612
+  },
+  {
+    "type": 1,
+    "icao": "LW70",
+    "lat": 41.759292,
+    "lon": 21.842708000000002,
+    "communications": [],
+    "elevation": 1112,
+    "tower": false,
+    "name": "TITOV VELES",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 41.760278,
+        "lonStart": 21.841472,
+        "latEnd": 41.758306,
+        "lonEnd": 21.843944,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 24752
   }
 ]

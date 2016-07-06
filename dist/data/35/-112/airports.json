@@ -1,5 +1,83 @@
 [
   {
+    "type": 1,
+    "icao": "KFLG",
+    "lat": 35.14046182,
+    "lon": -111.66920131500001,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12580,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 13455,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 13455,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 7011,
+    "tower": true,
+    "name": "Flagstaff Pulliam",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 35.13138051,
+        "lonStart": -111.67887148,
+        "latEnd": 35.14954313,
+        "lonEnd": -111.65953115,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 9339
+  },
+  {
+    "type": 1,
+    "icao": "AZ77",
+    "lat": 35.238333499999996,
+    "lon": -111.9358345,
+    "communications": [],
+    "elevation": 6958,
+    "tower": false,
+    "name": "SUNRISE RANCH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 35.241389,
+        "lonStart": -111.939719,
+        "latEnd": 35.235278,
+        "lonEnd": -111.93195,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22610
+  },
+  {
     "type": 17,
     "icao": "AZ23",
     "lat": 35.2236225,

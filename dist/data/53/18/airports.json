@@ -1,59 +1,137 @@
 [
   {
     "type": 1,
-    "icao": "EGCK",
-    "lat": 53.103163578,
-    "lon": 18.637956359999997,
+    "icao": "EPGI",
+    "lat": 53.524841725,
+    "lon": 18.84951231,
     "communications": [
       {
         "type": 54,
-        "frequency": 12225,
-        "name": "Caernarfon Radio"
+        "frequency": 12280,
+        "name": "LISIE KATY RADIO"
       }
     ],
-    "elevation": 0,
+    "elevation": 113,
     "tower": true,
-    "name": "Caernarfon",
+    "name": "Lisie Katy",
     "runways": [
       {
         "type": 100,
-        "width": 23,
+        "width": 182.04,
         "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 53.1003486,
-        "lonStart": -4.34292463,
-        "latEnd": 53.10948174,
-        "lonEnd": -4.33738765,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 53.52833816,
+        "lonStart": 18.8429349,
+        "latEnd": 53.52134529,
+        "lonEnd": 18.85608972,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
+      }
+    ],
+    "id": 15327
+  },
+  {
+    "type": 1,
+    "icao": "EPTO",
+    "lat": 53.02936371,
+    "lon": 18.5462524475,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12220,
+        "name": "AERO"
+      }
+    ],
+    "elevation": 164,
+    "tower": true,
+    "name": "TORUN",
+    "runways": [
+      {
+        "type": 100,
+        "width": 115.1,
+        "surfaceType": null,
+        "numberStart": "11R",
+        "numberEnd": "29L",
+        "latStart": 53.02746608,
+        "lonStart": 18.54139474,
+        "latEnd": 53.02545912,
+        "lonEnd": 18.55491777,
+        "length": 0,
+        "surfacetype": 3
       },
       {
         "type": 100,
-        "width": 23,
+        "width": 99.97,
+        "surfaceType": null,
+        "numberStart": "11L",
+        "numberEnd": "29R",
+        "latStart": 53.030833,
+        "lonStart": 18.544444,
+        "latEnd": 53.02885,
+        "lonEnd": 18.556692,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 57,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 53.03027306,
+        "lonStart": 18.53855621,
+        "latEnd": 53.02756001,
+        "lonEnd": 18.5559738,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 57,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 53.02707216,
+        "lonStart": 18.53674659,
+        "latEnd": 53.03739625,
+        "lonEnd": 18.54129447,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 24810
+  },
+  {
+    "type": 1,
+    "icao": "EPWT",
+    "lat": 53.298510925,
+    "lon": 18.413466104999998,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11872,
+        "name": "WATOROWO RADIO"
+      }
+    ],
+    "elevation": 297,
+    "tower": true,
+    "name": "Watorowo",
+    "runways": [
+      {
+        "type": 100,
+        "width": 44.5,
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": 53.10152189,
-        "lonStart": -4.34442796,
-        "latEnd": 53.10298782,
-        "lonEnd": -4.33058096,
+        "latStart": 53.29775226,
+        "lonStart": 18.4069069,
+        "latEnd": 53.29926959,
+        "lonEnd": 18.42002531,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 15,
-        "surfaceType": 2,
-        "numberStart": "H15",
-        "numberEnd": null,
-        "latStart": 53.10147784,
-        "lonStart": -4.33533517,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15
+        "surfacetype": 3
       }
     ],
-    "id": 4316
+    "id": 26973
   }
 ]

@@ -1,5 +1,467 @@
 [
   {
+    "type": 1,
+    "icao": "KCOE",
+    "lat": 47.7740993975,
+    "lon": -116.81896984999999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13507,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 13210,
+        "name": "SPOKANE APP/DEP"
+      }
+    ],
+    "elevation": 2317,
+    "tower": false,
+    "name": "COEUR D ALENE PAPPY BOYINGTON FIELD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 47.7719001,
+        "lonStart": -116.83713891,
+        "latEnd": 47.77882653,
+        "lonEnd": -116.80874605,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 47.76657822,
+        "lonStart": -116.82089417,
+        "latEnd": 47.77909274,
+        "lonEnd": -116.80910027,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4018
+  },
+  {
+    "type": 1,
+    "icao": "ID43",
+    "lat": 47.551294999999996,
+    "lon": -116.76351584,
+    "communications": [],
+    "elevation": 2702,
+    "tower": false,
+    "name": "Carlin Bay",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 47.54961386,
+        "lonStart": -116.76840437,
+        "latEnd": 47.55297614,
+        "lonEnd": -116.75862731,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4550
+  },
+  {
+    "type": 1,
+    "icao": "ID34",
+    "lat": 47.98462583,
+    "lon": -116.682975,
+    "communications": [],
+    "elevation": 2260,
+    "tower": false,
+    "name": "Granite",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 47.98706412,
+        "lonStart": -116.68239802,
+        "latEnd": 47.98218754,
+        "lonEnd": -116.68355198,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10703
+  },
+  {
+    "type": 1,
+    "icao": "S61",
+    "lat": 47.956848050000005,
+    "lon": -116.67741917000001,
+    "communications": [],
+    "elevation": 2445,
+    "tower": false,
+    "name": "Hackney Airpark",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 47.95369882,
+        "lonStart": -116.68282879,
+        "latEnd": 47.95999728,
+        "lonEnd": -116.67200955,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11286
+  },
+  {
+    "type": 1,
+    "icao": "ID27",
+    "lat": 47.75545916,
+    "lon": -116.85936112,
+    "communications": [],
+    "elevation": 2333,
+    "tower": false,
+    "name": "Hawk Haven",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 47.75460648,
+        "lonStart": -116.86038818,
+        "latEnd": 47.75631184,
+        "lonEnd": -116.85833406,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11561
+  },
+  {
+    "type": 1,
+    "icao": "ID48",
+    "lat": 47.92879333,
+    "lon": -116.71102945,
+    "communications": [],
+    "elevation": 2350,
+    "tower": false,
+    "name": "Hooks",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 47.93249579,
+        "lonStart": -116.7111259,
+        "latEnd": 47.92509087,
+        "lonEnd": -116.710933,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 12026
+  },
+  {
+    "type": 1,
+    "icao": "S77",
+    "lat": 47.83741583,
+    "lon": -116.26351278,
+    "communications": [],
+    "elevation": 3002,
+    "tower": false,
+    "name": "Magee",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 47.84059292,
+        "lonStart": -116.26188301,
+        "latEnd": 47.83423874,
+        "lonEnd": -116.26514255,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16478
+  },
+  {
+    "type": 1,
+    "icao": "ID09",
+    "lat": 47.74017888,
+    "lon": -116.99825473,
+    "communications": [],
+    "elevation": 2150,
+    "tower": false,
+    "name": "Otterson Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 47.73927705,
+        "lonStart": -117.00100424,
+        "latEnd": 47.74108071,
+        "lonEnd": -116.99550522,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 19092
+  },
+  {
+    "type": 1,
+    "icao": "ID65",
+    "lat": 47.58101694,
+    "lon": -116.77185056,
+    "communications": [],
+    "elevation": 2775,
+    "tower": false,
+    "name": "Pischs Place",
+    "runways": [
+      {
+        "type": 100,
+        "width": 16.76,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 47.580926,
+        "lonStart": -116.77571129,
+        "latEnd": 47.58110788,
+        "lonEnd": -116.76798983,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20205
+  },
+  {
+    "type": 1,
+    "icao": "ID06",
+    "lat": 47.828793610000005,
+    "lon": -116.78352723,
+    "communications": [],
+    "elevation": 2315,
+    "tower": false,
+    "name": "Ranch Aero",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 47.82591473,
+        "lonStart": -116.78590422,
+        "latEnd": 47.83167249,
+        "lonEnd": -116.78115024,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21162
+  },
+  {
+    "type": 1,
+    "icao": "ID23",
+    "lat": 47.39240333,
+    "lon": -116.87295556000001,
+    "communications": [],
+    "elevation": 2500,
+    "tower": false,
+    "name": "Rock Creek Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 47.39577493,
+        "lonStart": -116.87124067,
+        "latEnd": 47.38903173,
+        "lonEnd": -116.87467045,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 21620
+  },
+  {
+    "type": 1,
+    "icao": "S83",
+    "lat": 47.5472611,
+    "lon": -116.18906273,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13547,
+        "name": "AWOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 2227,
+    "tower": false,
+    "name": "SHOSHONE COUNTY",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 47.54708591,
+        "lonStart": -116.19986115,
+        "latEnd": 47.54743629,
+        "lonEnd": -116.17826431,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22241
+  },
+  {
+    "type": 1,
+    "icao": "2ID4",
+    "lat": 47.9083335,
+    "lon": -116.7093055,
+    "communications": [],
+    "elevation": 2350,
+    "tower": false,
+    "name": "SILVERWOOD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 47.904167,
+        "lonStart": -116.715278,
+        "latEnd": 47.9125,
+        "lonEnd": -116.703333,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22289
+  },
+  {
+    "type": 1,
+    "icao": "S72",
+    "lat": 47.3279165,
+    "lon": -116.5794445,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 2127,
+    "tower": false,
+    "name": "ST MARIES MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 47.329722,
+        "lonStart": -116.5875,
+        "latEnd": 47.326111,
+        "lonEnd": -116.571389,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22478
+  },
+  {
+    "type": 1,
+    "icao": "ID13",
+    "lat": 47.32212972,
+    "lon": -116.63989167,
+    "communications": [],
+    "elevation": 2880,
+    "tower": false,
+    "name": "Sky Island Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 47.32210578,
+        "lonStart": -116.64191458,
+        "latEnd": 47.32215366,
+        "lonEnd": -116.63786876,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23636
+  },
+  {
+    "type": 1,
+    "icao": "ID22",
+    "lat": 47.97796,
+    "lon": -116.79269834,
+    "communications": [],
+    "elevation": 2500,
+    "tower": false,
+    "name": "Treeport",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 47.97974605,
+        "lonStart": -116.800447,
+        "latEnd": 47.97617395,
+        "lonEnd": -116.78494968,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25549
+  },
+  {
     "type": 17,
     "icao": "ID14",
     "lat": 47.31407611,

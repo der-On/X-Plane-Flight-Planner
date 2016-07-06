@@ -1,5 +1,618 @@
 [
   {
+    "type": 1,
+    "icao": "NH49",
+    "lat": 43.97034583,
+    "lon": -71.67952417000001,
+    "communications": [],
+    "elevation": 649,
+    "tower": false,
+    "name": "Bradley Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 43.96801998,
+        "lonStart": -71.67975015,
+        "latEnd": 43.97267168,
+        "lonEnd": -71.67929819,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3095
+  },
+  {
+    "type": 1,
+    "icao": "NH18",
+    "lat": 43.73340972,
+    "lon": -71.15117917,
+    "communications": [],
+    "elevation": 560,
+    "tower": false,
+    "name": "Chickville",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 43.73068719,
+        "lonStart": -71.15071653,
+        "latEnd": 43.73613225,
+        "lonEnd": -71.15164181,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4904
+  },
+  {
+    "type": 1,
+    "icao": "KCON",
+    "lat": 43.20362300000001,
+    "lon": -71.50201249999999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13232,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 13365,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 55,
+        "frequency": 12735,
+        "name": "BOSTON APP/DEP"
+      }
+    ],
+    "elevation": 346,
+    "tower": false,
+    "name": "Concord Muni",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 43.20817316,
+        "lonStart": -71.50765813,
+        "latEnd": 43.19323284,
+        "lonEnd": -71.49816187,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 43.20768308,
+        "lonStart": -71.50691192,
+        "latEnd": 43.20540292,
+        "lonEnd": -71.49531808,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5248
+  },
+  {
+    "type": 1,
+    "icao": "NH07",
+    "lat": 43.28036111,
+    "lon": -71.45661111999999,
+    "communications": [],
+    "elevation": 484,
+    "tower": false,
+    "name": "Cooper Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 43.28219188,
+        "lonStart": -71.45843821,
+        "latEnd": 43.27853034,
+        "lonEnd": -71.45478403,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5303
+  },
+  {
+    "type": 1,
+    "icao": "NH04",
+    "lat": 43.06730444,
+    "lon": -71.61118306,
+    "communications": [],
+    "elevation": 779,
+    "tower": false,
+    "name": "Country Club Air Park",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 43.0689313,
+        "lonStart": -71.61182161,
+        "latEnd": 43.06567758,
+        "lonEnd": -71.61054451,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5403
+  },
+  {
+    "type": 1,
+    "icao": "NH40",
+    "lat": 43.404658330000004,
+    "lon": -71.95036056000001,
+    "communications": [],
+    "elevation": 998,
+    "tower": false,
+    "name": "Eagles Nest",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 43.40680573,
+        "lonStart": -71.95474262,
+        "latEnd": 43.40251093,
+        "lonEnd": -71.9459785,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 6883
+  },
+  {
+    "type": 1,
+    "icao": "NH25",
+    "lat": 43.686743050000004,
+    "lon": -71.28923667000001,
+    "communications": [],
+    "elevation": 620,
+    "tower": false,
+    "name": "Flying H Skyport",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 43.686176,
+        "lonStart": -71.29197138,
+        "latEnd": 43.6873101,
+        "lonEnd": -71.28650196,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 9453
+  },
+  {
+    "type": 1,
+    "icao": "8B1",
+    "lat": 43.066743,
+    "lon": -71.8995225,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 600,
+    "tower": false,
+    "name": "HAWTHORNE FEATHER AIRPARK",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 43.062339,
+        "lonStart": -71.900581,
+        "latEnd": 43.071147,
+        "lonEnd": -71.898464,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11063
+  },
+  {
+    "type": 1,
+    "icao": "KLCI",
+    "lat": 43.573060645,
+    "lon": -71.41779903,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13352,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 11985,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 55,
+        "frequency": 13475,
+        "name": "BOSTON APP/DEP"
+      }
+    ],
+    "elevation": 545,
+    "tower": false,
+    "name": "Laconia Muni",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 43.56996428,
+        "lonStart": -71.42809893,
+        "latEnd": 43.57615701,
+        "lonEnd": -71.40749913,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14763
+  },
+  {
+    "type": 1,
+    "icao": "8B8",
+    "lat": 43.587577769999996,
+    "lon": -71.26618001,
+    "communications": [],
+    "elevation": 580,
+    "tower": false,
+    "name": "Lakes Region",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 43.58825131,
+        "lonStart": -71.2699096,
+        "latEnd": 43.58690423,
+        "lonEnd": -71.26245042,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14862
+  },
+  {
+    "type": 1,
+    "icao": "NH38",
+    "lat": 43.972571110000004,
+    "lon": -71.1697925,
+    "communications": [],
+    "elevation": 860,
+    "tower": false,
+    "name": "Leavitt",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 43.97223682,
+        "lonStart": -71.17357552,
+        "latEnd": 43.9729054,
+        "lonEnd": -71.16600948,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 15087
+  },
+  {
+    "type": 1,
+    "icao": "NH03",
+    "lat": 43.02924916,
+    "lon": -71.64535028,
+    "communications": [],
+    "elevation": 300,
+    "tower": false,
+    "name": "Lee Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 43.03115459,
+        "lonStart": -71.64804949,
+        "latEnd": 43.02734373,
+        "lonEnd": -71.64265107,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 15102
+  },
+  {
+    "type": 1,
+    "icao": "NH15",
+    "lat": 43.38674666,
+    "lon": -71.23339973,
+    "communications": [],
+    "elevation": 702,
+    "tower": false,
+    "name": "Locke Lake",
+    "runways": [
+      {
+        "type": 100,
+        "width": 91.44,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 43.38912845,
+        "lonStart": -71.23679357,
+        "latEnd": 43.38436487,
+        "lonEnd": -71.23000589,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 15385
+  },
+  {
+    "type": 1,
+    "icao": "5M3",
+    "lat": 43.768408,
+    "lon": -71.386739,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "UNICOM"
+      }
+    ],
+    "elevation": 571,
+    "tower": false,
+    "name": "MOULTONBORO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 43.763655,
+        "lonStart": -71.387235,
+        "latEnd": 43.773161,
+        "lonEnd": -71.386243,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16284
+  },
+  {
+    "type": 1,
+    "icao": "NH24",
+    "lat": 43.70840944,
+    "lon": -71.28562556,
+    "communications": [],
+    "elevation": 670,
+    "tower": false,
+    "name": "Melvin Village",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 43.70969246,
+        "lonStart": -71.28961207,
+        "latEnd": 43.70712642,
+        "lonEnd": -71.28163905,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17051
+  },
+  {
+    "type": 1,
+    "icao": "NH31",
+    "lat": 43.650077499999995,
+    "lon": -71.14951195,
+    "communications": [],
+    "elevation": 965,
+    "tower": false,
+    "name": "Mountain View Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 32,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 43.6523184,
+        "lonStart": -71.15428093,
+        "latEnd": 43.6478366,
+        "lonEnd": -71.14474297,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17644
+  },
+  {
+    "type": 1,
+    "icao": "NH01",
+    "lat": 43.59201805,
+    "lon": -71.75146806000001,
+    "communications": [],
+    "elevation": 510,
+    "tower": false,
+    "name": "Newfound Valley",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 43.5896227,
+        "lonStart": -71.75229266,
+        "latEnd": 43.5944134,
+        "lonEnd": -71.75064346,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 18279
+  },
+  {
+    "type": 1,
+    "icao": "NH12",
+    "lat": 43.779238050000004,
+    "lon": -71.75369056,
+    "communications": [],
+    "elevation": 505,
+    "tower": false,
+    "name": "Plymouth Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 43.78001776,
+        "lonStart": -71.75802189,
+        "latEnd": 43.77845834,
+        "lonEnd": -71.74935923,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20284
+  },
+  {
+    "type": 1,
+    "icao": "NH20",
+    "lat": 43.49229805,
+    "lon": -71.64591001,
+    "communications": [],
+    "elevation": 439,
+    "tower": false,
+    "name": "Ward Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 43.49091984,
+        "lonStart": -71.64675584,
+        "latEnd": 43.49367626,
+        "lonEnd": -71.64506418,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 26908
+  },
+  {
+    "type": 1,
+    "icao": "NH14",
+    "lat": 43.820352220000004,
+    "lon": -71.13395750000001,
+    "communications": [],
+    "elevation": 470,
+    "tower": false,
+    "name": "White Mountain Gateway",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 43.82866187,
+        "lonStart": -71.13982568,
+        "latEnd": 43.81204257,
+        "lonEnd": -71.12808932,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 27214
+  },
+  {
+    "type": 1,
+    "icao": "NH69",
+    "lat": 43.830629720000005,
+    "lon": -71.18701389,
+    "communications": [],
+    "elevation": 459,
+    "tower": false,
+    "name": "Windsock Village",
+    "runways": [
+      {
+        "type": 100,
+        "width": 68.58,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 43.83437114,
+        "lonStart": -71.19257562,
+        "latEnd": 43.8268883,
+        "lonEnd": -71.18145216,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 27404
+  },
+  {
     "type": 17,
     "icao": "NH10",
     "lat": 43.11730388,
@@ -397,5 +1010,117 @@
       }
     ],
     "id": 33740
+  },
+  {
+    "type": 16,
+    "icao": "B18",
+    "lat": 43.47758333,
+    "lon": -71.237,
+    "communications": [],
+    "elevation": 502,
+    "tower": false,
+    "name": "[S] Alton Bay",
+    "runways": [
+      {
+        "type": 101,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 43.47280941,
+        "lonStart": -71.23630853,
+        "latEnd": 43.48235725,
+        "lonEnd": -71.23769147,
+        "length": 0
+      }
+    ],
+    "id": 33967
+  },
+  {
+    "type": 16,
+    "icao": "NH36",
+    "lat": 43.627020830000006,
+    "lon": -71.34451528,
+    "communications": [],
+    "elevation": 502,
+    "tower": false,
+    "name": "[S] Arthurs",
+    "runways": [
+      {
+        "type": 101,
+        "width": 609.6,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 43.62513066,
+        "lonStart": -71.35362191,
+        "latEnd": 43.628911,
+        "lonEnd": -71.33540865,
+        "length": 0
+      }
+    ],
+    "id": 33978
+  },
+  {
+    "type": 16,
+    "icao": "NH37",
+    "lat": 43.07036083,
+    "lon": -71.46506806,
+    "communications": [],
+    "elevation": 188,
+    "tower": false,
+    "name": "[S] Breaults River Side",
+    "runways": [
+      {
+        "type": 101,
+        "width": 152.4,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 43.07695264,
+        "lonStart": -71.46765551,
+        "latEnd": 43.06376902,
+        "lonEnd": -71.46248061,
+        "length": 0
+      }
+    ],
+    "id": 34011
+  },
+  {
+    "type": 16,
+    "icao": "NH71",
+    "lat": 43.63868777,
+    "lon": -71.32312584,
+    "communications": [],
+    "elevation": 502,
+    "tower": false,
+    "name": "[S] Loons Nest",
+    "runways": [
+      {
+        "type": 101,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 43.63424822,
+        "lonStart": -71.32904983,
+        "latEnd": 43.64312732,
+        "lonEnd": -71.31720185,
+        "length": 0
+      },
+      {
+        "type": 101,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 43.64368079,
+        "lonStart": -71.32813842,
+        "latEnd": 43.63369475,
+        "lonEnd": -71.31811326,
+        "length": 0
+      }
+    ],
+    "id": 34263
   }
 ]

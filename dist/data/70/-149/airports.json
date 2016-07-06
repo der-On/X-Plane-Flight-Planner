@@ -1,5 +1,73 @@
 [
   {
+    "type": 1,
+    "icao": "PASC",
+    "lat": 70.194754,
+    "lon": -148.46516216,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11840,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12360,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "UNICOM"
+      }
+    ],
+    "elevation": 64,
+    "tower": false,
+    "name": "DEADHORSE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 70.19244722,
+        "lonStart": -148.49057672,
+        "latEnd": 70.19706078,
+        "lonEnd": -148.4397476,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5713
+  },
+  {
+    "type": 1,
+    "icao": "AK11",
+    "lat": 70.40167694,
+    "lon": -148.68223723,
+    "communications": [],
+    "elevation": 15,
+    "tower": false,
+    "name": "Point Mcintyre",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 70.40095456,
+        "lonStart": -148.68815428,
+        "latEnd": 70.40239932,
+        "lonEnd": -148.67632018,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 20304
+  },
+  {
     "type": 17,
     "icao": "35AK",
     "lat": 70.49215472,
@@ -23,5 +91,31 @@
       }
     ],
     "id": 32625
+  },
+  {
+    "type": 1,
+    "icao": "PUO",
+    "lat": 70.25185402,
+    "lon": -148.34277027500002,
+    "communications": [],
+    "elevation": 43,
+    "tower": false,
+    "name": "[X] Prudhoe Bay",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 70.25010638,
+        "lonStart": -148.3643825,
+        "latEnd": 70.25360166,
+        "lonEnd": -148.32115805,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 34573
   }
 ]

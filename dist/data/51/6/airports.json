@@ -1,121 +1,508 @@
 [
   {
     "type": 1,
-    "icao": "EGWU",
-    "lat": 51.553208493750006,
-    "lon": 6.07961069625,
+    "icao": "EDLY",
+    "lat": 51.852937,
+    "lon": 6.8153688500000005,
     "communications": [
       {
-        "type": 50,
-        "frequency": 12512,
-        "name": "Northolt Information"
-      },
-      {
         "type": 54,
-        "frequency": 12067,
-        "name": "Northolt Tower"
-      },
-      {
-        "type": 55,
-        "frequency": 12645,
-        "name": "Northolt Approach"
-      },
-      {
-        "type": 56,
-        "frequency": 12912,
-        "name": "Northolt Departures"
+        "frequency": 12292,
+        "name": "Hoxfeld Info"
       }
     ],
-    "elevation": 124,
+    "elevation": 157,
     "tower": true,
-    "name": "RAF Northolt",
+    "name": "Borken-Hoxfeld",
     "runways": [
       {
         "type": 100,
-        "width": 46.02,
+        "width": 30,
         "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 51.55005794,
-        "lonStart": -0.43101945,
-        "latEnd": 51.55533406,
-        "lonEnd": -0.40816655,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 51.854437,
+        "lonStart": 6.81089565,
+        "latEnd": 51.851437,
+        "lonEnd": 6.81984205,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3016
+  },
+  {
+    "type": 1,
+    "icao": "EDLD",
+    "lat": 51.615747353333326,
+    "lon": 6.861223313333333,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12270,
+        "name": "Dinslaken Info"
+      }
+    ],
+    "elevation": 216,
+    "tower": true,
+    "name": "Dinslaken- Schwarze Heide",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 51.615502,
+        "lonStart": 6.850453,
+        "latEnd": 51.616541,
+        "lonEnd": 6.872064,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 102,
-        "width": 18.9,
-        "surfaceType": 2,
-        "numberStart": "H1",
+        "width": 11.7,
+        "surfaceType": 15,
+        "numberStart": "H199",
         "numberEnd": null,
-        "latStart": 51.55077089,
-        "lonStart": -0.41711254,
+        "latStart": 51.61519906,
+        "lonStart": 6.86115294,
         "latEnd": null,
         "lonEnd": null,
-        "length": 18.9
-      },
-      {
-        "type": 102,
-        "width": 30.2,
-        "surfaceType": 2,
-        "numberStart": "H14",
-        "numberEnd": null,
-        "latStart": 51.55083159,
-        "lonStart": -0.4128562,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 28.2
-      },
-      {
-        "type": 102,
-        "width": 18.9,
-        "surfaceType": 2,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 51.5506265,
-        "lonStart": -0.41496652,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.9
-      },
-      {
-        "type": 102,
-        "width": 20.1,
-        "surfaceType": 2,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 51.55594072,
-        "lonStart": -0.41450113,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20.1
-      },
-      {
-        "type": 102,
-        "width": 20.1,
-        "surfaceType": 2,
-        "numberStart": "H4",
-        "numberEnd": null,
-        "latStart": 51.55601443,
-        "lonStart": -0.41416525,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20.1
-      },
-      {
-        "type": 102,
-        "width": 20.1,
-        "surfaceType": 2,
-        "numberStart": "H5",
-        "numberEnd": null,
-        "latStart": 51.55609182,
-        "lonStart": -0.4138274,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20.1
+        "length": 10.2
       }
     ],
-    "id": 20785
+    "id": 6305
+  },
+  {
+    "type": 1,
+    "icao": "EDDL",
+    "lat": 51.287268034,
+    "lon": 6.7647677139999995,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12377,
+        "name": "Duesseldorf ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 12177,
+        "name": "Duesseldorf delivery"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "Duesseldorf ground"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "Duesseldorf tower"
+      },
+      {
+        "type": 55,
+        "frequency": 11940,
+        "name": "Duesseldorf director"
+      }
+    ],
+    "elevation": 145,
+    "tower": true,
+    "name": "Duesseldorf Intl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "05R",
+        "numberEnd": "23L",
+        "latStart": 51.27962131,
+        "lonStart": 6.7520365,
+        "latEnd": 51.29592631,
+        "lonEnd": 6.7862545,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "05L",
+        "numberEnd": "23R",
+        "latStart": 51.28367031,
+        "lonStart": 6.7486745,
+        "latEnd": 51.29838131,
+        "lonEnd": 6.7795555,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 42.4,
+        "surfaceType": 15,
+        "numberStart": "H7",
+        "numberEnd": null,
+        "latStart": 51.27874093,
+        "lonStart": 6.75731757,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 44.9
+      }
+    ],
+    "id": 6529
+  },
+  {
+    "type": 1,
+    "icao": "EDLE",
+    "lat": 51.402811678,
+    "lon": 6.94076541,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11975,
+        "name": "Essen Muelheim Info"
+      }
+    ],
+    "elevation": 423,
+    "tower": true,
+    "name": "Essen-Muelheim",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 51.40016,
+        "lonStart": 6.928696,
+        "latEnd": 51.40582,
+        "lonEnd": 6.949541,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 51.39980957,
+        "lonStart": 6.93665132,
+        "latEnd": 51.40272401,
+        "lonEnd": 6.94812758,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 12.1,
+        "surfaceType": 15,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 51.40554481,
+        "lonStart": 6.94081115,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14
+      }
+    ],
+    "id": 7281
+  },
+  {
+    "type": 1,
+    "icao": "EDLG",
+    "lat": 51.690839,
+    "lon": 6.1042479499999995,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11845,
+        "name": "Goch Info"
+      }
+    ],
+    "elevation": 49,
+    "tower": true,
+    "name": "Goch-Asperden",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 51.691244,
+        "lonStart": 6.09851305,
+        "latEnd": 51.690434,
+        "lonEnd": 6.10998285,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10555
+  },
+  {
+    "type": 1,
+    "icao": "EDLF",
+    "lat": 51.334021572,
+    "lon": 6.3599754299999995,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12362,
+        "name": "Grefrath Info"
+      }
+    ],
+    "elevation": 104,
+    "tower": true,
+    "name": "Grefrath-Niershorst",
+    "runways": [
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 51.332723,
+        "lonStart": 6.35514637,
+        "latEnd": 51.335377,
+        "lonEnd": 6.36447191,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 51.33229891,
+        "lonStart": 6.35613253,
+        "latEnd": 51.33454717,
+        "lonEnd": 6.36405219,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 16.8,
+        "surfaceType": 15,
+        "numberStart": "H37",
+        "numberEnd": null,
+        "latStart": 51.33516178,
+        "lonStart": 6.36007415,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 17.1
+      }
+    ],
+    "id": 10784
+  },
+  {
+    "type": 1,
+    "icao": "EDLC",
+    "lat": 51.529457,
+    "lon": 6.53703507,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12300,
+        "name": "Kamp-Lintfort Info"
+      }
+    ],
+    "elevation": 85,
+    "tower": true,
+    "name": "Kamp-Lintfort",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 51.5286885,
+        "lonStart": 6.53317844,
+        "latEnd": 51.5302255,
+        "lonEnd": 6.5408917,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13577
+  },
+  {
+    "type": 1,
+    "icao": "EDLK",
+    "lat": 51.38456716,
+    "lon": 6.5876735,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12285,
+        "name": "Krefeld Info"
+      }
+    ],
+    "elevation": 141,
+    "tower": true,
+    "name": "Krefeld- Egelsberg",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 51.38311832,
+        "lonStart": 6.583394,
+        "latEnd": 51.386016,
+        "lonEnd": 6.591953,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14126
+  },
+  {
+    "type": 1,
+    "icao": "EDLN",
+    "lat": 51.230345735,
+    "lon": 6.50450264,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12192,
+        "name": "Moenchengladbach ground"
+      },
+      {
+        "type": 54,
+        "frequency": 11812,
+        "name": "Moenchengladbach tower"
+      },
+      {
+        "type": 55,
+        "frequency": 13377,
+        "name": "Langen radar"
+      }
+    ],
+    "elevation": 125,
+    "tower": true,
+    "name": "Moenchengladbach",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 51.23371124,
+        "lonStart": 6.49779814,
+        "latEnd": 51.22698023,
+        "lonEnd": 6.51120714,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17347
+  },
+  {
+    "type": 1,
+    "icao": "EDLS",
+    "lat": 51.995575905,
+    "lon": 6.84171564,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11920,
+        "name": "Stadtlohn Info"
+      }
+    ],
+    "elevation": 157,
+    "tower": true,
+    "name": "Stadtlohn - Vreden",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 51.997086,
+        "lonStart": 6.833104,
+        "latEnd": 51.99406581,
+        "lonEnd": 6.85032728,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 24079
+  },
+  {
+    "type": 1,
+    "icao": "EDLV",
+    "lat": 51.602472,
+    "lon": 6.142068,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12445,
+        "name": "Niederrhein ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 12940,
+        "name": "Niederrhein Tower"
+      }
+    ],
+    "elevation": 104,
+    "tower": true,
+    "name": "Weeze - Niederrhein",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 51.602858,
+        "lonStart": 6.12447,
+        "latEnd": 51.602086,
+        "lonEnd": 6.159666,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 27035
+  },
+  {
+    "type": 1,
+    "icao": "EDLX",
+    "lat": 51.661772,
+    "lon": 6.596094004999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12202,
+        "name": "Wesel Info"
+      }
+    ],
+    "elevation": 72,
+    "tower": true,
+    "name": "Wesel-Roemerwardt",
+    "runways": [
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 51.6617055,
+        "lonStart": 6.59196999,
+        "latEnd": 51.6618385,
+        "lonEnd": 6.60021802,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 27102
   }
 ]

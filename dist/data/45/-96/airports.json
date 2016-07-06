@@ -1,5 +1,514 @@
 [
   {
+    "type": 1,
+    "icao": "MN04",
+    "lat": 45.77357388,
+    "lon": -95.26281112000001,
+    "communications": [],
+    "elevation": 1387,
+    "tower": false,
+    "name": "Aggies Landing",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 45.77589654,
+        "lonStart": -95.26310246,
+        "latEnd": 45.77125122,
+        "lonEnd": -95.26251978,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 681
+  },
+  {
+    "type": 1,
+    "icao": "KBBB",
+    "lat": 45.3319305,
+    "lon": -95.650567,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1039,
+    "tower": false,
+    "name": "BENSON MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 45.336342,
+        "lonStart": -95.655192,
+        "latEnd": 45.327519,
+        "lonEnd": -95.645942,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1653
+  },
+  {
+    "type": 1,
+    "icao": "6D1",
+    "lat": 45.497049,
+    "lon": -95.1042095,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1305,
+    "tower": false,
+    "name": "BROOTEN MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 45.501217,
+        "lonStart": -95.107594,
+        "latEnd": 45.492881,
+        "lonEnd": -95.100825,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1929
+  },
+  {
+    "type": 1,
+    "icao": "6MN2",
+    "lat": 45.545516379999995,
+    "lon": -95.77949167,
+    "communications": [],
+    "elevation": 1174,
+    "tower": false,
+    "name": "Browns - Private",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 45.54264721,
+        "lonStart": -95.77985009,
+        "latEnd": 45.54838555,
+        "lonEnd": -95.77913325,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3275
+  },
+  {
+    "type": 1,
+    "icao": "KAXN",
+    "lat": 45.8662945,
+    "lon": -95.39456025,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11837,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1424,
+    "tower": false,
+    "name": "CHANDLER FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 45.871633,
+        "lonStart": -95.402075,
+        "latEnd": 45.861031,
+        "lonEnd": -95.389025,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 45.862592,
+        "lonStart": -95.399669,
+        "latEnd": 45.869922,
+        "lonEnd": -95.387472,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3802
+  },
+  {
+    "type": 1,
+    "icao": "Y63",
+    "lat": 45.98607111,
+    "lon": -95.99199862,
+    "communications": [],
+    "elevation": 1205,
+    "tower": false,
+    "name": "Elbow Lake Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 45.98921005,
+        "lonStart": -95.99516184,
+        "latEnd": 45.98293217,
+        "lonEnd": -95.9888354,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7070
+  },
+  {
+    "type": 1,
+    "icao": "KGHW",
+    "lat": 45.64438125,
+    "lon": -95.32048675,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1393,
+    "tower": false,
+    "name": "GLENWOOD MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 45.648147,
+        "lonStart": -95.322942,
+        "latEnd": 45.6364,
+        "lonEnd": -95.31755,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 63.7,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 45.644406,
+        "lonStart": -95.325311,
+        "latEnd": 45.648572,
+        "lonEnd": -95.316144,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10036
+  },
+  {
+    "type": 1,
+    "icao": "MY58",
+    "lat": 45.23885,
+    "lon": -95.92532166999999,
+    "communications": [],
+    "elevation": 1020,
+    "tower": false,
+    "name": "Home-Base",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 45.23916557,
+        "lonStart": -95.93044407,
+        "latEnd": 45.23853443,
+        "lonEnd": -95.92019927,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11993
+  },
+  {
+    "type": 1,
+    "icao": "MN11",
+    "lat": 45.29996,
+    "lon": -95.54503223,
+    "communications": [],
+    "elevation": 1050,
+    "tower": false,
+    "name": "Lorenz",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 45.30351719,
+        "lonStart": -95.54538586,
+        "latEnd": 45.29640281,
+        "lonEnd": -95.5446786,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 15502
+  },
+  {
+    "type": 1,
+    "icao": "KMOX",
+    "lat": 45.56634699999999,
+    "lon": -95.96749650000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1138,
+    "tower": false,
+    "name": "MORRIS MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 45.569019,
+        "lonStart": -95.970647,
+        "latEnd": 45.560147,
+        "lonEnd": -95.961464,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 44.12,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 45.5657,
+        "lonStart": -95.972783,
+        "latEnd": 45.570522,
+        "lonEnd": -95.965092,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16267
+  },
+  {
+    "type": 1,
+    "icao": "23Y",
+    "lat": 45.2221825,
+    "lon": -95.40113584,
+    "communications": [],
+    "elevation": 1082,
+    "tower": false,
+    "name": "Murdock Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 45.22486814,
+        "lonStart": -95.4065812,
+        "latEnd": 45.21949686,
+        "lonEnd": -95.39569048,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17728
+  },
+  {
+    "type": 1,
+    "icao": "73MN",
+    "lat": 45.13537555,
+    "lon": -95.51669278,
+    "communications": [],
+    "elevation": 1035,
+    "tower": false,
+    "name": "Paynes",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 45.13617423,
+        "lonStart": -95.52091813,
+        "latEnd": 45.13457687,
+        "lonEnd": -95.51246743,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 19884
+  },
+  {
+    "type": 1,
+    "icao": "MY19",
+    "lat": 45.170793329999995,
+    "lon": -95.39252278000001,
+    "communications": [],
+    "elevation": 1082,
+    "tower": false,
+    "name": "Schwenk",
+    "runways": [
+      {
+        "type": 100,
+        "width": 32,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 45.17434564,
+        "lonStart": -95.39208195,
+        "latEnd": 45.16724102,
+        "lonEnd": -95.39296361,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23154
+  },
+  {
+    "type": 1,
+    "icao": "D32",
+    "lat": 45.599960550000006,
+    "lon": -95.53365112,
+    "communications": [],
+    "elevation": 1141,
+    "tower": false,
+    "name": "Starbuck Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 62.48,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 45.60308295,
+        "lonStart": -95.53573212,
+        "latEnd": 45.59683815,
+        "lonEnd": -95.53157012,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24122
+  },
+  {
+    "type": 1,
+    "icao": "KBDH",
+    "lat": 45.11660985,
+    "lon": -95.1259085325,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "UNICOM"
+      }
+    ],
+    "elevation": 1125,
+    "tower": false,
+    "name": "WILLMAR MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 45.12284552,
+        "lonStart": -95.13826249,
+        "latEnd": 45.11259848,
+        "lonEnd": -95.12257151,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 76,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 45.1121508,
+        "lonStart": -95.1247209,
+        "latEnd": 45.1188446,
+        "lonEnd": -95.11807923,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 26674
+  },
+  {
+    "type": 1,
+    "icao": "2MN1",
+    "lat": 45.046069720000006,
+    "lon": -95.46446584,
+    "communications": [],
+    "elevation": 1040,
+    "tower": false,
+    "name": "Winter Strip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 45.04962203,
+        "lonStart": -95.46402597,
+        "latEnd": 45.04251741,
+        "lonEnd": -95.46490571,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 27443
+  },
+  {
     "type": 17,
     "icao": "MY91",
     "lat": 45.87357277,
@@ -23,5 +532,30 @@
       }
     ],
     "id": 29398
+  },
+  {
+    "type": 16,
+    "icao": "9MN8",
+    "lat": 45.97305555,
+    "lon": -95.57611112000001,
+    "communications": [],
+    "elevation": 1354,
+    "tower": false,
+    "name": "[S] Whiskey Lake",
+    "runways": [
+      {
+        "type": 101,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 45.96917661,
+        "lonStart": -95.58276258,
+        "latEnd": 45.97693449,
+        "lonEnd": -95.56945966,
+        "length": 0
+      }
+    ],
+    "id": 34531
   }
 ]

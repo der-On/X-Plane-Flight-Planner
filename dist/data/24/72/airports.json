@@ -1,166 +1,80 @@
 [
   {
     "type": 1,
-    "icao": "RCMQ",
-    "lat": 24.264960000000002,
-    "lon": 72.434085,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12025,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 11875,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12040,
-        "name": "TAICHUNG APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12060,
-        "name": "TAICHUNG APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12960,
-        "name": "TAICHUNG APP"
-      },
-      {
-        "type": 55,
-        "frequency": 13010,
-        "name": "TAICHUNG APP"
-      }
-    ],
-    "elevation": 663,
-    "tower": true,
-    "name": "CHING CHUAN KANG AB",
+    "icao": "VA74",
+    "lat": 24.4942445,
+    "lon": 72.7815195,
+    "communications": [],
+    "elevation": 875,
+    "tower": false,
+    "name": "ABU ROAD",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 14.94,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 24.281453,
-        "lonStart": 120.619703,
-        "latEnd": 24.248467,
-        "lonEnd": 120.621906,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 3899
-  },
-  {
-    "type": 1,
-    "icao": "RCPO",
-    "lat": 24.8180335,
-    "lon": 72.878196,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12120,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 11840,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12350,
-        "name": "TAIPEI APP"
-      }
-    ],
-    "elevation": 26,
-    "tower": true,
-    "name": "HSINCHU",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 24.806367,
-        "lonStart": 120.926692,
-        "latEnd": 24.8297,
-        "lonEnd": 120.9521,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 24.493439,
+        "lonStart": 72.775972,
+        "latEnd": 24.49505,
+        "lonEnd": 72.787067,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 11223
+    "id": 57
   },
   {
     "type": 1,
-    "icao": "RCYU",
-    "lat": 24.02709925,
-    "lon": 72.823211,
-    "communications": [
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12617,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 11810,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12400,
-        "name": "APP"
-      },
-      {
-        "type": 55,
-        "frequency": 11910,
-        "name": "APP"
-      }
-    ],
-    "elevation": 52,
-    "tower": true,
-    "name": "HUALIEN",
+    "icao": "VADS",
+    "lat": 24.267934500000003,
+    "lon": 72.2044335,
+    "communications": [],
+    "elevation": 485,
+    "tower": false,
+    "name": "DEESA",
     "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 24.012611,
-        "lonStart": 121.610969,
-        "latEnd": 24.03475,
-        "lonEnd": 121.622889,
-        "length": 0,
-        "surfacetype": 1
-      },
       {
         "type": 100,
         "width": 19.81,
         "surfaceType": null,
-        "numberStart": "03L",
-        "numberEnd": "21R",
-        "latStart": 24.029119,
-        "lonStart": 121.615208,
-        "latEnd": 24.031917,
-        "lonEnd": 121.616694,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 24.2652,
+        "lonStart": 72.200511,
+        "latEnd": 24.270669,
+        "lonEnd": 72.208356,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 11225
+    "id": 5736
+  },
+  {
+    "type": 1,
+    "icao": "VA38",
+    "lat": 24.8951195,
+    "lon": 72.8459055,
+    "communications": [],
+    "elevation": 1000,
+    "tower": false,
+    "name": "SIROHI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 24.900103,
+        "lonStart": 72.839108,
+        "latEnd": 24.890136,
+        "lonEnd": 72.852703,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22302
   }
 ]

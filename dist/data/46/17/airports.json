@@ -1,115 +1,57 @@
 [
   {
     "type": 1,
-    "icao": "LSGS",
-    "lat": 46.2210477725,
-    "lon": 17.05459934375,
+    "icao": "LHSM",
+    "lat": 46.68828875,
+    "lon": 17.15765825,
     "communications": [
       {
-        "type": 53,
-        "frequency": 12170,
-        "name": "GND"
+        "type": 54,
+        "frequency": 13570,
+        "name": "INFO"
       },
       {
         "type": 54,
-        "frequency": 13427,
-        "name": "SWISS MILITARY RADAR"
+        "frequency": 12760,
+        "name": "INFO"
       },
       {
         "type": 54,
-        "frequency": 11827,
+        "frequency": 12760,
         "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12235,
-        "name": "RADAR"
-      },
-      {
-        "type": 55,
-        "frequency": 12682,
-        "name": "RADAR"
       }
     ],
-    "elevation": 1584,
+    "elevation": 408,
     "tower": true,
-    "name": "Sion",
+    "name": "BALATON",
     "runways": [
       {
         "type": 100,
-        "width": 39.93,
+        "width": 60.05,
         "surfaceType": null,
-        "numberStart": "07R",
-        "numberEnd": "25L",
-        "latStart": 46.2166672,
-        "lonStart": 7.31449263,
-        "latEnd": 46.2220047,
-        "lonEnd": 7.33949061,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 46.697283,
+        "lonStart": 17.154917,
+        "latEnd": 46.6755,
+        "lonEnd": 17.1632,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
       },
       {
         "type": 100,
-        "width": 29.87,
+        "width": 64.62,
         "surfaceType": null,
-        "numberStart": "07L",
-        "numberEnd": "25R",
-        "latStart": 46.21854958,
-        "lonStart": 7.32096232,
-        "latEnd": 46.22030296,
-        "lonEnd": 7.32916412,
+        "numberStart": "17R",
+        "numberEnd": "35L",
+        "latStart": 46.694294,
+        "lonStart": 17.154672,
+        "latEnd": 46.686078,
+        "lonEnd": 17.157844,
         "length": 0,
         "surfacetype": 3
-      },
-      {
-        "type": 102,
-        "width": 10,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 46.22263735,
-        "lonStart": 7.33938388,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10
-      },
-      {
-        "type": 102,
-        "width": 10,
-        "surfaceType": 2,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 46.22269037,
-        "lonStart": 7.33964286,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10
-      },
-      {
-        "type": 102,
-        "width": 10,
-        "surfaceType": 2,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 46.22273921,
-        "lonStart": 7.33988791,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10
-      },
-      {
-        "type": 102,
-        "width": 10,
-        "surfaceType": 2,
-        "numberStart": "H4",
-        "numberEnd": null,
-        "latStart": 46.22279081,
-        "lonStart": 7.34011749,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10
       }
     ],
-    "id": 23554
+    "id": 1460
   }
 ]

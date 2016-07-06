@@ -1,5 +1,947 @@
 [
   {
+    "type": 1,
+    "icao": "CL77",
+    "lat": 37.070504,
+    "lon": -122.127466,
+    "communications": [],
+    "elevation": 2020,
+    "tower": false,
+    "name": "Bonny Doon Village",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 37.07214979,
+        "lonStart": -122.13103864,
+        "latEnd": 37.06885821,
+        "lonEnd": -122.12389336,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2979
+  },
+  {
+    "type": 1,
+    "icao": "KCCR",
+    "lat": 37.98939071,
+    "lon": -122.05718334454546,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12470,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 11970,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 11875,
+        "name": "DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11970,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11990,
+        "name": "Travis APP/DEP"
+      }
+    ],
+    "elevation": 25,
+    "tower": true,
+    "name": "Buchanan Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "01L",
+        "numberEnd": "19R",
+        "latStart": 37.981953,
+        "lonStart": -122.061328,
+        "latEnd": 37.994542,
+        "lonEnd": -122.054403,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "14L",
+        "numberEnd": "32R",
+        "latStart": 37.996514,
+        "lonStart": -122.058856,
+        "latEnd": 37.9852,
+        "lonEnd": -122.051739,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "14R",
+        "numberEnd": "32L",
+        "latStart": 37.9959,
+        "lonStart": -122.060408,
+        "latEnd": 37.989019,
+        "lonEnd": -122.056078,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "01R",
+        "numberEnd": "19L",
+        "latStart": 37.983878,
+        "lonStart": -122.058381,
+        "latEnd": 37.990853,
+        "lonEnd": -122.054542,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 14.9,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 37.99767856,
+        "lonStart": -122.05804243,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.9
+      },
+      {
+        "type": 102,
+        "width": 11.9,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 37.98473689,
+        "lonStart": -122.05714804,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.9
+      },
+      {
+        "type": 102,
+        "width": 11.9,
+        "surfaceType": 1,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 37.98302336,
+        "lonStart": -122.05809132,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.9
+      }
+    ],
+    "id": 3314
+  },
+  {
+    "type": 1,
+    "icao": "KHAF",
+    "lat": 37.51343858,
+    "lon": -122.501164325,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 13510,
+        "name": "NORCAL APP/DEP"
+      }
+    ],
+    "elevation": 64,
+    "tower": false,
+    "name": "Half Moon Bay",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 37.51845864,
+        "lonStart": -122.50705378,
+        "latEnd": 37.50841852,
+        "lonEnd": -122.49527487,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11327
+  },
+  {
+    "type": 1,
+    "icao": "KHWD",
+    "lat": 37.658865472,
+    "lon": -122.122011818,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12670,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 51,
+        "frequency": 12020,
+        "name": "CTAF"
+      },
+      {
+        "type": 52,
+        "frequency": 12805,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12140,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12020,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12535,
+        "name": "NORCAL APP"
+      },
+      {
+        "type": 55,
+        "frequency": 13450,
+        "name": "NORCAL APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12440,
+        "name": "NORCAL APP/DEP"
+      }
+    ],
+    "elevation": 52,
+    "tower": true,
+    "name": "Hayward Executive",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "10R",
+        "numberEnd": "28L",
+        "latStart": 37.662044,
+        "lonStart": -122.129792,
+        "latEnd": 37.654261,
+        "lonEnd": -122.112733,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "10L",
+        "numberEnd": "28R",
+        "latStart": 37.662475,
+        "lonStart": -122.127261,
+        "latEnd": 37.658228,
+        "lonEnd": -122.117953,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 34.14,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 37.65731936,
+        "lonStart": -122.12232009,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 34.14
+      }
+    ],
+    "id": 11599
+  },
+  {
+    "type": 1,
+    "icao": "17CL",
+    "lat": 37.088003,
+    "lon": -122.273582,
+    "communications": [],
+    "elevation": 125,
+    "tower": false,
+    "name": "Las Trancas",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 37.08936881,
+        "lonStart": -122.27501867,
+        "latEnd": 37.08663719,
+        "lonEnd": -122.27214533,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 14991
+  },
+  {
+    "type": 1,
+    "icao": "59CA",
+    "lat": 37.803259999999995,
+    "lon": -122.02885056,
+    "communications": [],
+    "elevation": 1008,
+    "tower": false,
+    "name": "Little Hands",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 37.80500024,
+        "lonStart": -122.028219,
+        "latEnd": 37.80151976,
+        "lonEnd": -122.02948212,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 15342
+  },
+  {
+    "type": 1,
+    "icao": "KOAK",
+    "lat": 37.727469327499996,
+    "lon": -122.21639005437503,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13377,
+        "name": "KOAK ATIS"
+      },
+      {
+        "type": 50,
+        "frequency": 12220,
+        "name": "OAKLAND FSS"
+      },
+      {
+        "type": 50,
+        "frequency": 12250,
+        "name": "OAKLAND FSS"
+      },
+      {
+        "type": 50,
+        "frequency": 12200,
+        "name": "OAKLAND FSS EFAS"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "METRO OAKLAND INTL UNIC"
+      },
+      {
+        "type": 52,
+        "frequency": 12110,
+        "name": "OAKLAND CLD"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "OAKLAND GND NORTH"
+      },
+      {
+        "type": 53,
+        "frequency": 12175,
+        "name": "OAKLAND GND SOUTH"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "OAKLAND TWR NORTH"
+      },
+      {
+        "type": 54,
+        "frequency": 12720,
+        "name": "OAKLAND TWR SOUTH"
+      },
+      {
+        "type": 55,
+        "frequency": 13565,
+        "name": "CLASS C SOUTH"
+      },
+      {
+        "type": 55,
+        "frequency": 13395,
+        "name": "NORCAL APP"
+      },
+      {
+        "type": 55,
+        "frequency": 13450,
+        "name": "NORCAL APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12535,
+        "name": "NORCAL APP EAST"
+      },
+      {
+        "type": 55,
+        "frequency": 13510,
+        "name": "NORCAL APP WEST"
+      },
+      {
+        "type": 56,
+        "frequency": 12090,
+        "name": "NORCAL DEP NW"
+      },
+      {
+        "type": 56,
+        "frequency": 13510,
+        "name": "NORCAL DEP WEST"
+      },
+      {
+        "type": 56,
+        "frequency": 12700,
+        "name": "CLASS C NORTH"
+      }
+    ],
+    "elevation": 9,
+    "tower": true,
+    "name": "Metro Oakland Intl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 37.71915142,
+        "lonStart": -122.24071982,
+        "latEnd": 37.70149942,
+        "lonEnd": -122.21423982,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "09R",
+        "numberEnd": "27L",
+        "latStart": 37.72871542,
+        "lonStart": -122.22588582,
+        "latEnd": 37.72228042,
+        "lonEnd": -122.20599482,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "09L",
+        "numberEnd": "27R",
+        "latStart": 37.73046942,
+        "lonStart": -122.22215182,
+        "latEnd": 37.72482042,
+        "lonEnd": -122.20468882,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 37.74028942,
+        "lonStart": -122.22278882,
+        "latEnd": 37.73136942,
+        "lonEnd": -122.21965882,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 10.97,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 37.73597907,
+        "lonStart": -122.2253532,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.97
+      },
+      {
+        "type": 102,
+        "width": 10.97,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 37.73421948,
+        "lonStart": -122.21712776,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.97
+      },
+      {
+        "type": 102,
+        "width": 10.97,
+        "surfaceType": 1,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 37.73174487,
+        "lonStart": -122.2181466,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.97
+      },
+      {
+        "type": 102,
+        "width": 10.97,
+        "surfaceType": 1,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 37.73189418,
+        "lonStart": -122.21747324,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.97
+      },
+      {
+        "type": 102,
+        "width": 11.89,
+        "surfaceType": 1,
+        "numberStart": "H5",
+        "numberEnd": null,
+        "latStart": 37.72830128,
+        "lonStart": -122.21203336,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.89
+      },
+      {
+        "type": 102,
+        "width": 11.89,
+        "surfaceType": 1,
+        "numberStart": "H6",
+        "numberEnd": null,
+        "latStart": 37.72739209,
+        "lonStart": -122.20923332,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.89
+      },
+      {
+        "type": 102,
+        "width": 11.89,
+        "surfaceType": 1,
+        "numberStart": "H7",
+        "numberEnd": null,
+        "latStart": 37.72580471,
+        "lonStart": -122.20374452,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.89
+      },
+      {
+        "type": 102,
+        "width": 11.89,
+        "surfaceType": 1,
+        "numberStart": "H8",
+        "numberEnd": null,
+        "latStart": 37.7255782,
+        "lonStart": -122.20300031,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.89
+      }
+    ],
+    "id": 17109
+  },
+  {
+    "type": 1,
+    "icao": "KNUQ",
+    "lat": 37.416138527499996,
+    "lon": -122.04920725999999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12417,
+        "name": "ASOS"
+      },
+      {
+        "type": 50,
+        "frequency": 12210,
+        "name": "MOFFETT AWOS"
+      },
+      {
+        "type": 51,
+        "frequency": 11955,
+        "name": "MOFFETT CTAF"
+      },
+      {
+        "type": 53,
+        "frequency": 12185,
+        "name": "MOFFETT GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11955,
+        "name": "MOFFETT TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 13450,
+        "name": "MOFFETT APP"
+      },
+      {
+        "type": 56,
+        "frequency": 12130,
+        "name": "MOFFETT DEP"
+      }
+    ],
+    "elevation": 33,
+    "tower": true,
+    "name": "Moffett Federal AFLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "14L",
+        "numberEnd": "32R",
+        "latStart": 37.42932581,
+        "lonStart": -122.05482627,
+        "latEnd": 37.405542,
+        "lonEnd": -122.042603,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "14R",
+        "numberEnd": "32L",
+        "latStart": 37.425231,
+        "lonStart": -122.055044,
+        "latEnd": 37.4044553,
+        "lonEnd": -122.04435577,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17350
+  },
+  {
+    "type": 1,
+    "icao": "KPAO",
+    "lat": 37.45949162333333,
+    "lon": -122.11458011333333,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13527,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12500,
+        "name": "Ground"
+      },
+      {
+        "type": 54,
+        "frequency": 11860,
+        "name": "Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12130,
+        "name": "NORCAL APP/DEP"
+      }
+    ],
+    "elevation": 3,
+    "tower": true,
+    "name": "Palo Alto",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 37.458026,
+        "lonStart": -122.111985,
+        "latEnd": 37.463752,
+        "lonEnd": -122.1176605,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 8.1,
+        "surfaceType": 15,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 37.45669687,
+        "lonStart": -122.11409484,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 8.7
+      }
+    ],
+    "id": 19699
+  },
+  {
+    "type": 1,
+    "icao": "KSQL",
+    "lat": 37.511734860000004,
+    "lon": -122.249385725,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 11900,
+        "name": "San Carlos CTAF"
+      },
+      {
+        "type": 53,
+        "frequency": 12160,
+        "name": "San Carlos Ground"
+      },
+      {
+        "type": 54,
+        "frequency": 11900,
+        "name": "San Carlos Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 13395,
+        "name": "Norcal Approach"
+      },
+      {
+        "type": 56,
+        "frequency": 13565,
+        "name": "Norcal Departure"
+      }
+    ],
+    "elevation": 5,
+    "tower": true,
+    "name": "San Carlos",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 37.51441788,
+        "lonStart": -122.25238931,
+        "latEnd": 37.50905184,
+        "lonEnd": -122.24638214,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22789
+  },
+  {
+    "type": 1,
+    "icao": "KSFO",
+    "lat": 37.621715869,
+    "lon": -122.37803214499999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11805,
+        "name": "AWOS 1"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 11820,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "GND"
+      },
+      {
+        "type": 53,
+        "frequency": 12865,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12050,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 13450,
+        "name": "NORCAL APP"
+      },
+      {
+        "type": 55,
+        "frequency": 13565,
+        "name": "NORCAL APP"
+      },
+      {
+        "type": 55,
+        "frequency": 13395,
+        "name": "NORCAL APP"
+      },
+      {
+        "type": 56,
+        "frequency": 12090,
+        "name": "NORCAL DEP"
+      },
+      {
+        "type": 56,
+        "frequency": 13510,
+        "name": "NORCAL DEP"
+      },
+      {
+        "type": 50,
+        "frequency": 13545,
+        "name": "ATIS"
+      },
+      {
+        "type": 50,
+        "frequency": 11885,
+        "name": "ATIS"
+      }
+    ],
+    "elevation": 13,
+    "tower": true,
+    "name": "San Francisco Intl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 61,
+        "surfaceType": null,
+        "numberStart": "10L",
+        "numberEnd": "28R",
+        "latStart": 37.6287392,
+        "lonStart": -122.39346107,
+        "latEnd": 37.61350248,
+        "lonEnd": -122.35713294,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 61,
+        "surfaceType": null,
+        "numberStart": "10R",
+        "numberEnd": "28L",
+        "latStart": 37.62627591,
+        "lonStart": -122.39313418,
+        "latEnd": 37.61166079,
+        "lonEnd": -122.35830709,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 61,
+        "surfaceType": null,
+        "numberStart": "01R",
+        "numberEnd": "19L",
+        "latStart": 37.60681964,
+        "lonStart": -122.38075119,
+        "latEnd": 37.62782772,
+        "lonEnd": -122.3668169,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 61,
+        "surfaceType": null,
+        "numberStart": "01L",
+        "numberEnd": "19R",
+        "latStart": 37.60897298,
+        "lonStart": -122.38223054,
+        "latEnd": 37.6271927,
+        "lonEnd": -122.3701528,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 20,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 37.6333029,
+        "lonStart": -122.38916737,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20
+      },
+      {
+        "type": 102,
+        "width": 20,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 37.63286437,
+        "lonStart": -122.38916737,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20
+      }
+    ],
+    "id": 22798
+  },
+  {
     "type": 17,
     "icao": "1CL3",
     "lat": 37.80076111,
@@ -510,5 +1452,30 @@
       }
     ],
     "id": 33441
+  },
+  {
+    "type": 16,
+    "icao": "SP01",
+    "lat": 37.840973,
+    "lon": -122.34809100000001,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] S.F. Bay Landing Zone",
+    "runways": [
+      {
+        "type": 101,
+        "width": 1706.88,
+        "surfaceType": null,
+        "numberStart": "10C",
+        "numberEnd": "28C",
+        "latStart": 37.81936253,
+        "lonStart": -122.35291616,
+        "latEnd": 37.86258347,
+        "lonEnd": -122.34326584,
+        "length": 0
+      }
+    ],
+    "id": 34408
   }
 ]

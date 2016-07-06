@@ -1,114 +1,41 @@
 [
   {
     "type": 1,
-    "icao": "CYYJ",
-    "lat": 48.64747714999999,
-    "lon": -58.90438044625001,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11880,
-        "name": "CYYJ ATIS"
-      },
-      {
-        "type": 51,
-        "frequency": 11970,
-        "name": "VICTORIA MULT"
-      },
-      {
-        "type": 52,
-        "frequency": 12640,
-        "name": "VICTORIA CLD"
-      },
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "VICTORIA GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11970,
-        "name": "VICTORIA TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12780,
-        "name": "VICTORIA APP"
-      },
-      {
-        "type": 55,
-        "frequency": 13385,
-        "name": "VICTORIA APP"
-      }
-    ],
-    "elevation": 62,
-    "tower": true,
-    "name": "Victoria Intl",
+    "icao": "CYJT",
+    "lat": 48.54181125000001,
+    "lon": -58.55148775000001,
+    "communications": [],
+    "elevation": 80,
+    "tower": false,
+    "name": "STEPHENVILLE",
     "runways": [
       {
         "type": 100,
-        "width": 61,
+        "width": 60.96,
         "surfaceType": null,
         "numberStart": "09",
         "numberEnd": "27",
-        "latStart": 48.65180944,
-        "lonStart": -123.43968593,
-        "latEnd": 48.64646944,
-        "lonEnd": -123.41181993,
+        "latStart": 48.540278,
+        "lonStart": -58.569442,
+        "latEnd": 48.548889,
+        "lonEnd": -58.530278,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 61,
+        "width": 45.72,
         "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 48.65315318,
-        "lonStart": -123.43386907,
-        "latEnd": 48.64100118,
-        "lonEnd": -123.42423707,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 48.533889,
+        "lonStart": -58.552503,
+        "latEnd": 48.544189,
+        "lonEnd": -58.553728,
         "length": 0,
         "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 61,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 48.64230644,
-        "lonStart": -123.43538156,
-        "latEnd": 48.65222244,
-        "lonEnd": -123.42091356,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 15,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 48.64597099,
-        "lonStart": -123.43334414,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15
-      },
-      {
-        "type": 102,
-        "width": 15,
-        "surfaceType": 1,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 48.64688409,
-        "lonStart": -123.43245593,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15
       }
     ],
-    "id": 26310
+    "id": 22525
   }
 ]

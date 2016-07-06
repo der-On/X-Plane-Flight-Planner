@@ -1,81 +1,39 @@
 [
   {
     "type": 1,
-    "icao": "LTAP",
-    "lat": 40.8293735,
-    "lon": 38.172433,
+    "icao": "LTCB",
+    "lat": 40.9668335,
+    "lon": 38.086258,
     "communications": [
       {
-        "type": 50,
-        "frequency": 12242,
-        "name": "ATIS"
+        "type": 54,
+        "frequency": 11840,
+        "name": "TWR"
       },
       {
         "type": 53,
-        "frequency": 12195,
+        "frequency": 12157,
         "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12210,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12210,
-        "name": "APP"
       }
     ],
-    "elevation": 1758,
+    "elevation": 11,
     "tower": true,
-    "name": "MERZIFON",
+    "name": "Ordu-Giresun",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 45,
         "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 40.821739,
-        "lonStart": 35.507858,
-        "latEnd": 40.837008,
-        "lonEnd": 35.536122,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 40.969603,
+        "lonStart": 38.068819,
+        "latEnd": 40.964064,
+        "lonEnd": 38.103697,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 16050
-  },
-  {
-    "type": 1,
-    "icao": "LTAW",
-    "lat": 40.3062805,
-    "lon": 38.337466500000005,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11870,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 1831,
-    "tower": true,
-    "name": "TOKAT",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 40.301528,
-        "lonStart": 36.3639,
-        "latEnd": 40.311033,
-        "lonEnd": 36.378278,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 24772
+    "id": 19014
   }
 ]

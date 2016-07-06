@@ -1,5 +1,99 @@
 [
   {
+    "type": 1,
+    "icao": "SBVT",
+    "lat": -20.255611000000002,
+    "lon": -40.288893,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12757,
+        "name": "VITORIA ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "VITORIA TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11985,
+        "name": "VITORIA APP"
+      }
+    ],
+    "elevation": 11,
+    "tower": true,
+    "name": "Goiabeiras",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -20.262336,
+        "lonStart": -40.293322,
+        "latEnd": -20.248886,
+        "lonEnd": -40.284464,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10567
+  },
+  {
+    "type": 1,
+    "icao": "SNGA",
+    "lat": -20.646469500000002,
+    "lon": -40.491862499999996,
+    "communications": [],
+    "elevation": 28,
+    "tower": true,
+    "name": "Guarapari",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -20.651036,
+        "lonStart": -40.495969,
+        "latEnd": -20.641903,
+        "lonEnd": -40.487756,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10866
+  },
+  {
+    "type": 1,
+    "icao": "SIVU",
+    "lat": -20.422849999999997,
+    "lon": -40.3326235,
+    "communications": [],
+    "elevation": 16,
+    "tower": false,
+    "name": "JOAO MONTEIRO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -20.426861,
+        "lonStart": -40.334508,
+        "latEnd": -20.418839,
+        "lonEnd": -40.330739,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12763
+  },
+  {
     "type": 17,
     "icao": "SIHC",
     "lat": -20.29333333,

@@ -1,98 +1,383 @@
 [
   {
     "type": 1,
-    "icao": "SLBJ",
-    "lat": -22.773335,
-    "lon": -43.5398445,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11810,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 1250,
-    "tower": true,
-    "name": "BERMEJO",
+    "icao": "SDNY",
+    "lat": -22.745336,
+    "lon": -43.460307,
+    "communications": [],
+    "elevation": 164,
+    "tower": false,
+    "name": "AEROCLUBE NOVA IGUACU",
     "runways": [
       {
         "type": 100,
-        "width": 35.97,
+        "width": 28.04,
         "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": -22.780103,
-        "lonStart": -64.313122,
-        "latEnd": -22.766567,
-        "lonEnd": -64.312639,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -22.745269,
+        "lonStart": -43.466147,
+        "latEnd": -22.745403,
+        "lonEnd": -43.454467,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 1663
+    "id": 77
   },
   {
     "type": 1,
-    "icao": "SAST",
-    "lat": -22.6191665,
-    "lon": -43.2032875,
+    "icao": "SBAF",
+    "lat": -22.875083,
+    "lon": -43.384709,
     "communications": [
       {
+        "type": 53,
+        "frequency": 12185,
+        "name": "AFONSOS"
+      },
+      {
         "type": 54,
-        "frequency": 11860,
+        "frequency": 11890,
+        "name": "AFONSOS TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11935,
+        "name": "RIO APP"
+      }
+    ],
+    "elevation": 109,
+    "tower": true,
+    "name": "Campo Delio Jardim de Mattos",
+    "runways": [
+      {
+        "type": 100,
+        "width": 52.12,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -22.87933262,
+        "lonStart": -43.39325007,
+        "latEnd": -22.87083338,
+        "lonEnd": -43.37616793,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 4413
+  },
+  {
+    "type": 1,
+    "icao": "SDIN",
+    "lat": -22.997500000000002,
+    "lon": -43.40138889,
+    "communications": [],
+    "elevation": 2,
+    "tower": false,
+    "name": "Clube Ceu",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -22.99878171,
+        "lonStart": -43.40281238,
+        "latEnd": -22.99621829,
+        "lonEnd": -43.3999654,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5118
+  },
+  {
+    "type": 1,
+    "icao": "SIFU",
+    "lat": -22.415555555,
+    "lon": -43.775277775,
+    "communications": [],
+    "elevation": 1319,
+    "tower": false,
+    "name": "Fazenda Ribeirao",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -22.41747017,
+        "lonStart": -43.77740791,
+        "latEnd": -22.41364094,
+        "lonEnd": -43.77314764,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 8724
+  },
+  {
+    "type": 1,
+    "icao": "SJTQ",
+    "lat": -22.36888889,
+    "lon": -43.25138889,
+    "communications": [],
+    "elevation": 2087,
+    "tower": false,
+    "name": "Fazenda Santa Tereza",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": -22.37148909,
+        "lonStart": -43.25129127,
+        "latEnd": -22.36628869,
+        "lonEnd": -43.25148651,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 8891
+  },
+  {
+    "type": 1,
+    "icao": "SBGL",
+    "lat": -22.80895825,
+    "lon": -43.2439351675,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12760,
+        "name": "ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 12100,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12165,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11820,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11935,
+        "name": "RIO APP"
+      }
+    ],
+    "elevation": 26,
+    "tower": true,
+    "name": "Galeao Antonio Carlos Jombim",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -22.801944,
+        "lonStart": -43.25526746,
+        "latEnd": -22.792222,
+        "lonEnd": -43.21827225,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 47,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -22.8125,
+        "lonStart": -43.26360048,
+        "latEnd": -22.829167,
+        "lonEnd": -43.23860048,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10273
+  },
+  {
+    "type": 1,
+    "icao": "SBJR",
+    "lat": -22.987777700000002,
+    "lon": -43.3702774,
+    "communications": [],
+    "elevation": 10,
+    "tower": true,
+    "name": "Jacarepagua",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.8,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": -22.99182572,
+        "lonStart": -43.37020065,
+        "latEnd": -22.98372968,
+        "lonEnd": -43.37035415,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 12845
+  },
+  {
+    "type": 1,
+    "icao": "SBSC",
+    "lat": -22.932488999999997,
+    "lon": -43.71909,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12290,
         "name": "TWR"
       },
       {
         "type": 54,
-        "frequency": 11910,
+        "frequency": 11880,
         "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 13250,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 13370,
+        "name": "APP"
       }
     ],
-    "elevation": 1473,
+    "elevation": 10,
     "tower": true,
-    "name": "GENERAL ENRIQUE MOSCONI",
+    "name": "SANTA CRUZ",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": -22.625894,
-        "lonStart": -63.794136,
-        "latEnd": -22.612439,
-        "lonEnd": -63.792242,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -22.943792,
+        "lonStart": -43.724586,
+        "latEnd": -22.921186,
+        "lonEnd": -43.713594,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 9927
+    "id": 22038
   },
   {
     "type": 1,
-    "icao": "SASQ",
-    "lat": -22.162361,
-    "lon": -43.8745835,
-    "communications": [],
-    "elevation": 11414,
-    "tower": false,
-    "name": "La Quiaca",
+    "icao": "SBRJ",
+    "lat": -22.9103590975,
+    "lon": -43.163303625,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13265,
+        "name": "ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 12105,
+        "name": "TFC"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11870,
+        "name": "RIO TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11935,
+        "name": "RIO CON"
+      }
+    ],
+    "elevation": 11,
+    "tower": true,
+    "name": "Santos-Dumont",
     "runways": [
+      {
+        "type": 100,
+        "width": 42.06,
+        "surfaceType": null,
+        "numberStart": "02R",
+        "numberEnd": "20L",
+        "latStart": -22.91646342,
+        "lonStart": -43.16252972,
+        "latEnd": -22.90452776,
+        "lonEnd": -43.16332187,
+        "length": 0,
+        "surfacetype": 1
+      },
       {
         "type": 100,
         "width": 29.87,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": -22.151111,
-        "lonStart": -65.575556,
-        "latEnd": -22.173611,
-        "lonEnd": -65.564167,
+        "numberStart": "02L",
+        "numberEnd": "20R",
+        "latStart": -22.91583381,
+        "lonStart": -43.16331884,
+        "latEnd": -22.9046114,
+        "lonEnd": -43.16404407,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 14732
+    "id": 22956
+  },
+  {
+    "type": 1,
+    "icao": "SDVL",
+    "lat": -22.242777785,
+    "lon": -43.713611105,
+    "communications": [],
+    "elevation": 1902,
+    "tower": false,
+    "name": "Valenca",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -22.24078839,
+        "lonStart": -43.71485422,
+        "latEnd": -22.24476718,
+        "lonEnd": -43.71236799,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 26163
   },
   {
     "type": 17,

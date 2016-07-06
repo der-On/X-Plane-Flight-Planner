@@ -1,28 +1,34 @@
 [
   {
     "type": 1,
-    "icao": "OP12",
-    "lat": 27.8465695,
-    "lon": 46.503635,
-    "communications": [],
-    "elevation": 2523,
+    "icao": "OEPK",
+    "lat": 27.954236,
+    "lon": 46.742653000000004,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1000,
     "tower": false,
-    "name": "BANDARI",
+    "name": "IPSA 3",
     "runways": [
       {
         "type": 100,
-        "width": 30.18,
+        "width": 29.87,
         "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 27.836783,
-        "lonStart": 65.150914,
-        "latEnd": 27.856356,
-        "lonEnd": 65.168536,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 27.962139,
+        "lonStart": 46.740003,
+        "latEnd": 27.946333,
+        "lonEnd": 46.745303,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 1494
+    "id": 12339
   }
 ]

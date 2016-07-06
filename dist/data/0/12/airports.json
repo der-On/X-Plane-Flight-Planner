@@ -1,81 +1,34 @@
 [
   {
     "type": 1,
-    "icao": "FZIC",
-    "lat": 0.481646,
-    "lon": 12.898854,
+    "icao": "FOOK",
+    "lat": 0.5792125,
+    "lon": 12.890908,
     "communications": [
       {
         "type": 54,
-        "frequency": 12110,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12590,
-        "name": "APP"
-      },
-      {
-        "type": 55,
-        "frequency": 13090,
-        "name": "APP"
+        "frequency": 11850,
+        "name": "INFO"
       }
     ],
-    "elevation": 1416,
-    "tower": true,
-    "name": "BANGOKA INTL",
+    "elevation": 1726,
+    "tower": false,
+    "name": "MAKOKOU",
     "runways": [
       {
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 0.490667,
-        "lonStart": 25.325083,
-        "latEnd": 0.472625,
-        "lonEnd": 25.350833,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 0.574947,
+        "lonStart": 12.884044,
+        "latEnd": 0.583478,
+        "lonEnd": 12.897772,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 1499
-  },
-  {
-    "type": 1,
-    "icao": "FZIA",
-    "lat": 0.5174639999999999,
-    "lon": 12.830707,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12190,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 11810,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 1289,
-    "tower": true,
-    "name": "KISANGANI SIMISINI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 0.518678,
-        "lonStart": 25.145164,
-        "latEnd": 0.51625,
-        "lonEnd": 25.164861,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 13406
+    "id": 15729
   }
 ]

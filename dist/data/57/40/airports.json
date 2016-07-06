@@ -1,80 +1,39 @@
 [
   {
     "type": 1,
-    "icao": "EVAD",
-    "lat": 57.09862473333334,
-    "lon": 40.681914266666666,
-    "communications": [],
-    "elevation": 7,
+    "icao": "UUDL",
+    "lat": 57.560668,
+    "lon": 40.1573665,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12735,
+        "name": "ATIS"
+      },
+      {
+        "type": 55,
+        "frequency": 12030,
+        "name": "APP"
+      }
+    ],
+    "elevation": 305,
     "tower": false,
-    "name": "Adazi",
+    "name": "TUNOSHNA",
     "runways": [
       {
         "type": 100,
-        "width": 15,
+        "width": 43.89,
         "surfaceType": null,
-        "numberStart": "15L",
-        "numberEnd": "33R",
-        "latStart": 57.09705051,
-        "lonStart": 24.26804578,
-        "latEnd": 57.09613715,
-        "lonEnd": 24.26882673,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 15,
-        "surfaceType": null,
-        "numberStart": "15R",
-        "numberEnd": "33L",
-        "latStart": 57.10094927,
-        "lonStart": 24.26469854,
-        "latEnd": 57.10028047,
-        "lonEnd": 24.26527271,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 15,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 57.1002804,
-        "lonStart": 24.26527306,
-        "latEnd": 57.0970506,
-        "lonEnd": 24.2680457,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 57.554619,
+        "lonStart": 40.134897,
+        "latEnd": 57.566717,
+        "lonEnd": 40.179836,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 569
-  },
-  {
-    "type": 1,
-    "icao": "EERU",
-    "lat": 57.785566610000004,
-    "lon": 40.521185169999995,
-    "communications": [],
-    "elevation": 32,
-    "tower": false,
-    "name": "Ruhnu Airfield",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 57.78769161,
-        "lonStart": 23.25892873,
-        "latEnd": 57.78344161,
-        "lonEnd": 23.26523428,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 21820
+    "id": 24905
   }
 ]

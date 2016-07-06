@@ -1,5 +1,334 @@
 [
   {
+    "type": 1,
+    "icao": "S03",
+    "lat": 42.190285,
+    "lon": -122.660629,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1883,
+    "tower": false,
+    "name": "Ashland Muni Sumner Parker Fld",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 42.19414204,
+        "lonStart": -122.66478619,
+        "latEnd": 42.18642796,
+        "lonEnd": -122.65647181,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1268
+  },
+  {
+    "type": 1,
+    "icao": "OR96",
+    "lat": 42.53901305,
+    "lon": -122.90393417,
+    "communications": [],
+    "elevation": 1436,
+    "tower": false,
+    "name": "Beagle Sky Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.62,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 42.54303761,
+        "lonStart": -122.90509517,
+        "latEnd": 42.53498849,
+        "lonEnd": -122.90277317,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 2389
+  },
+  {
+    "type": 1,
+    "icao": "OR97",
+    "lat": 42.438736379999995,
+    "lon": -122.86365223,
+    "communications": [],
+    "elevation": 1310,
+    "tower": false,
+    "name": "Burrill",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 42.43861672,
+        "lonStart": -122.86829537,
+        "latEnd": 42.43885604,
+        "lonEnd": -122.85900909,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 3430
+  },
+  {
+    "type": 1,
+    "icao": "0OR5",
+    "lat": 42.50345805,
+    "lon": -122.85476445,
+    "communications": [],
+    "elevation": 1345,
+    "tower": false,
+    "name": "East Oregon Cattle Co",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 42.50417853,
+        "lonStart": -122.8577722,
+        "latEnd": 42.50273757,
+        "lonEnd": -122.8517567,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6913
+  },
+  {
+    "type": 1,
+    "icao": "89OR",
+    "lat": 42.597903880000004,
+    "lon": -122.71253945000001,
+    "communications": [],
+    "elevation": 2000,
+    "tower": false,
+    "name": "Mucky Flat",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 42.59655294,
+        "lonStart": -122.71397327,
+        "latEnd": 42.59925482,
+        "lonEnd": -122.71110563,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 17673
+  },
+  {
+    "type": 1,
+    "icao": "24S",
+    "lat": 42.108192,
+    "lon": -122.38445999999999,
+    "communications": [],
+    "elevation": 3650,
+    "tower": false,
+    "name": "Pinehurst State",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 42.10525026,
+        "lonStart": -122.38778724,
+        "latEnd": 42.11113374,
+        "lonEnd": -122.38113276,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20160
+  },
+  {
+    "type": 1,
+    "icao": "64S",
+    "lat": 42.7431945,
+    "lon": -122.4880555,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 2578,
+    "tower": false,
+    "name": "Prospect State",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 42.738889,
+        "lonStart": -122.4925,
+        "latEnd": 42.7475,
+        "lonEnd": -122.483611,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20569
+  },
+  {
+    "type": 1,
+    "icao": "KMFR",
+    "lat": 42.374964000000006,
+    "lon": -122.87328898999999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12725,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 11940,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11940,
+        "name": "MEDFORD TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12430,
+        "name": "CASCADE APP/DEP"
+      }
+    ],
+    "elevation": 1334,
+    "tower": true,
+    "name": "Rogue Valley Intl Medford",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 42.386217,
+        "lonStart": -122.87918599,
+        "latEnd": 42.363711,
+        "lonEnd": -122.86739199,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 21667
+  },
+  {
+    "type": 1,
+    "icao": "41S",
+    "lat": 42.60818027,
+    "lon": -122.826155,
+    "communications": [],
+    "elevation": 1511,
+    "tower": false,
+    "name": "Rogue-Air",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 42.61052813,
+        "lonStart": -122.8251185,
+        "latEnd": 42.60583241,
+        "lonEnd": -122.8271915,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21668
+  },
+  {
+    "type": 1,
+    "icao": "OR06",
+    "lat": 42.53901277,
+    "lon": -122.92294834,
+    "communications": [],
+    "elevation": 1430,
+    "tower": false,
+    "name": "Snider Creek",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 42.54209827,
+        "lonStart": -122.92383844,
+        "latEnd": 42.53592727,
+        "lonEnd": -122.92205824,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23773
+  },
+  {
+    "type": 1,
+    "icao": "0OR8",
+    "lat": 42.48484694,
+    "lon": -122.86615334,
+    "communications": [],
+    "elevation": 1260,
+    "tower": false,
+    "name": "Sutton On Rogue",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 42.48472728,
+        "lonStart": -122.8707999,
+        "latEnd": 42.4849666,
+        "lonEnd": -122.86150678,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24434
+  },
+  {
     "type": 17,
     "icao": "39OR",
     "lat": 42.42916666,

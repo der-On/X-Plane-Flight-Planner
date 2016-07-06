@@ -1,45 +1,87 @@
 [
   {
     "type": 1,
-    "icao": "SLTR",
-    "lat": -14.818682175,
-    "lon": -39.876125329999994,
-    "communications": [
+    "icao": "SNIU",
+    "lat": -14.173617,
+    "lon": -39.684135999999995,
+    "communications": [],
+    "elevation": 492,
+    "tower": false,
+    "name": "IPIAU",
+    "runways": [
       {
-        "type": 54,
-        "frequency": 11850,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11910,
-        "name": "APP"
-      },
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "GND"
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -14.170081,
+        "lonStart": -39.688944,
+        "latEnd": -14.177153,
+        "lonEnd": -39.679328,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "elevation": 508,
+    "id": 12338
+  },
+  {
+    "type": 1,
+    "icao": "SBIL",
+    "lat": -14.815964000000001,
+    "lon": -39.033197,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 12010,
+        "name": "APP"
+      }
+    ],
+    "elevation": 15,
+    "tower": false,
+    "name": "Ilheus",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -14.816167,
+        "lonStart": -39.040461,
+        "latEnd": -14.815761,
+        "lonEnd": -39.025933,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12435
+  },
+  {
+    "type": 1,
+    "icao": "SNHA",
+    "lat": -14.8105305,
+    "lon": -39.290429,
+    "communications": [],
+    "elevation": 197,
     "tower": true,
-    "name": "Trinidad",
+    "name": "Itabuna",
     "runways": [
       {
         "type": 100,
         "width": 29.87,
         "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": -14.81103819,
-        "lonStart": -64.9259245,
-        "latEnd": -14.82632616,
-        "lonEnd": -64.91013814,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -14.814317,
+        "lonStart": -39.296319,
+        "latEnd": -14.806744,
+        "lonEnd": -39.284539,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 25599
+    "id": 12591
   },
   {
     "type": 17,

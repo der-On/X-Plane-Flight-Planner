@@ -1,86 +1,91 @@
 [
   {
     "type": 1,
-    "icao": "OSPR",
-    "lat": 34.557353000000006,
-    "lon": 36.429983500000006,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12190,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 1322,
-    "tower": true,
-    "name": "PALMYRA",
+    "icao": "OS70",
+    "lat": 34.569041999999996,
+    "lon": 36.572833,
+    "communications": [],
+    "elevation": 1768,
+    "tower": false,
+    "name": "AL QUSAYR",
     "runways": [
       {
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 34.555992,
-        "lonStart": 38.301253,
-        "latEnd": 34.558714,
-        "lonEnd": 38.332525,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 34.571528,
+        "lonStart": 36.556444,
+        "latEnd": 34.566556,
+        "lonEnd": 36.589222,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 19191
+    "id": 161
   },
   {
     "type": 1,
-    "icao": "OS72",
-    "lat": 34.51945416666667,
-    "lon": 36.06314483333333,
-    "communications": [],
-    "elevation": 1805,
-    "tower": false,
-    "name": "TIYAS",
+    "icao": "OLKA",
+    "lat": 34.589372,
+    "lon": 36.011379500000004,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12310,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11950,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 75,
+    "tower": true,
+    "name": "RENE MOUAWAD",
     "runways": [
       {
         "type": 100,
-        "width": 45.72,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 34.522425,
-        "lonStart": 37.612533,
-        "latEnd": 34.522714,
-        "lonEnd": 37.64735,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 34.582975,
+        "lonStart": 35.996892,
+        "latEnd": 34.595769,
+        "lonEnd": 36.025867,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 51.82,
-        "surfaceType": null,
-        "numberStart": "09R",
-        "numberEnd": "27L",
-        "latStart": 34.521639,
-        "lonStart": 37.613164,
-        "latEnd": 34.521864,
-        "lonEnd": 37.646739,
-        "length": 0,
-        "surfacetype": 4
-      },
-      {
-        "type": 100,
-        "width": 54.86,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 34.52615,
-        "lonStart": 37.606661,
-        "latEnd": 34.501933,
-        "lonEnd": 37.608522,
-        "length": 0,
-        "surfacetype": 4
+        "surfacetype": 2
       }
     ],
-    "id": 24755
+    "id": 20900
+  },
+  {
+    "type": 1,
+    "icao": "OS65",
+    "lat": 34.490268,
+    "lon": 36.909036,
+    "communications": [],
+    "elevation": 2644,
+    "tower": false,
+    "name": "SHAYRAT",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 34.495017,
+        "lonStart": 36.893733,
+        "latEnd": 34.485519,
+        "lonEnd": 36.924339,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22206
   }
 ]

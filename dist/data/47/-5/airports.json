@@ -1,76 +1,69 @@
 [
   {
     "type": 1,
-    "icao": "LFVM",
-    "lat": 47.095482000000004,
-    "lon": -4.645970500000001,
+    "icao": "LFRQ",
+    "lat": 47.972947,
+    "lon": -4.1722096,
     "communications": [
       {
         "type": 51,
-        "frequency": 11910,
-        "name": "CTAF"
+        "frequency": 11862,
+        "name": "QUIMPER MULT"
       },
       {
         "type": 54,
-        "frequency": 11910,
-        "name": "MIQUELON TWR"
+        "frequency": 11862,
+        "name": "QUIMPER TWR"
       },
       {
         "type": 55,
-        "frequency": 11910,
-        "name": "ST PIERRE TRML"
+        "frequency": 11957,
+        "name": "IROISE APP"
       }
     ],
-    "elevation": 10,
+    "elevation": 297,
     "tower": true,
-    "name": "Miquelon",
+    "name": "Quimper Pluguffan",
     "runways": [
       {
         "type": 100,
-        "width": 19.81,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 47.096108,
-        "lonStart": -56.386797,
-        "latEnd": 47.094856,
-        "lonEnd": -56.373739,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 47.966291,
+        "lonStart": -4.176132,
+        "latEnd": 47.974685,
+        "lonEnd": -4.16814,
         "length": 0,
         "surfacetype": 1
-      }
-    ],
-    "id": 17286
-  },
-  {
-    "type": 1,
-    "icao": "CCC2",
-    "lat": 47.137221999999994,
-    "lon": -4.099583500000001,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12320,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 155,
-    "tower": false,
-    "name": "WINTERLAND",
-    "runways": [
+      },
       {
         "type": 100,
-        "width": 22.86,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 47.139722,
-        "lonStart": -55.333889,
-        "latEnd": 47.134722,
-        "lonEnd": -55.324444,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 47.975656,
+        "lonStart": -4.185355,
+        "latEnd": 47.974478,
+        "lonEnd": -4.156611,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 20.12,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 47.973625,
+        "lonStart": -4.17481,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 22.86
       }
     ],
-    "id": 26709
+    "id": 20715
   }
 ]

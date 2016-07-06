@@ -1,28 +1,39 @@
 [
   {
     "type": 1,
-    "icao": "OPWN",
-    "lat": 32.3046625,
-    "lon": 50.9350695,
-    "communications": [],
-    "elevation": 4549,
+    "icao": "OIFS",
+    "lat": 32.296796,
+    "lon": 50.841747,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12170,
+        "name": "INFO"
+      },
+      {
+        "type": 54,
+        "frequency": 11850,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 6723,
     "tower": false,
-    "name": "WANA",
+    "name": "SHAHRE KORD",
     "runways": [
       {
         "type": 100,
-        "width": 30.48,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 32.304778,
-        "lonStart": 69.565592,
-        "latEnd": 32.304547,
-        "lonEnd": 69.575275,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 32.309228,
+        "lonStart": 50.832144,
+        "latEnd": 32.284364,
+        "lonEnd": 50.85135,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 26483
+    "id": 22188
   }
 ]

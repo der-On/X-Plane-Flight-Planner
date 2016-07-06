@@ -1,28 +1,54 @@
 [
   {
     "type": 1,
-    "icao": "SLRB",
-    "lat": -18.3188896,
-    "lon": -39.045731695,
+    "icao": "SNMU",
+    "lat": -18.0488765,
+    "lon": -39.8641695,
     "communications": [],
-    "elevation": 906,
-    "tower": true,
-    "name": "Robore",
+    "elevation": 276,
+    "tower": false,
+    "name": "MUCURI",
     "runways": [
       {
         "type": 100,
-        "width": 17.07,
+        "width": 17.98,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": -18.31381696,
-        "lonStart": -59.76750115,
-        "latEnd": -18.32396224,
-        "lonEnd": -59.76361145,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -18.054581,
+        "lonStart": -39.866978,
+        "latEnd": -18.043172,
+        "lonEnd": -39.861361,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 1
       }
     ],
-    "id": 21612
+    "id": 16357
+  },
+  {
+    "type": 1,
+    "icao": "SNMX",
+    "lat": -18.7213415,
+    "lon": -39.833747,
+    "communications": [],
+    "elevation": 98,
+    "tower": true,
+    "name": "Sao Mateus",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -18.724647,
+        "lonStart": -39.839111,
+        "latEnd": -18.718036,
+        "lonEnd": -39.828383,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22992
   }
 ]

@@ -1,5 +1,107 @@
 [
   {
+    "type": 1,
+    "icao": "48U",
+    "lat": 41.45798209,
+    "lon": -109.49016645500001,
+    "communications": [],
+    "elevation": 7182,
+    "tower": false,
+    "name": "Greater Green River Intergalactic Spaceport",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 41.45319485,
+        "lonStart": -109.4992183,
+        "latEnd": 41.46276933,
+        "lonEnd": -109.48111461,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 10745
+  },
+  {
+    "type": 1,
+    "icao": "KRKS",
+    "lat": 41.5940713925,
+    "lon": -109.06557684,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11837,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 6759,
+    "tower": false,
+    "name": "ROCK SPRINGS SWEETWATER CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 41.59767538,
+        "lonStart": -109.08226541,
+        "latEnd": 41.5914077,
+        "lonEnd": -109.0466734,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 23,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 41.58854506,
+        "lonStart": -109.07346868,
+        "latEnd": 41.59865743,
+        "lonEnd": -109.05989987,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 21000
+  },
+  {
+    "type": 1,
+    "icao": "WY41",
+    "lat": 41.071056025000004,
+    "lon": -109.093248345,
+    "communications": [],
+    "elevation": 7049,
+    "tower": false,
+    "name": "Red Creek Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.76,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 41.06989705,
+        "lonStart": -109.10016687,
+        "latEnd": 41.072215,
+        "lonEnd": -109.08632982,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21269
+  },
+  {
     "type": 17,
     "icao": "WY49",
     "lat": 41.58496444,

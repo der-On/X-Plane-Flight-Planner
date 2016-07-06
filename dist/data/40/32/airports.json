@@ -1,79 +1,124 @@
 [
   {
     "type": 1,
-    "icao": "LGKM",
-    "lat": 40.972775,
-    "lon": 32.6513525,
+    "icao": "LTAE",
+    "lat": 40.078918,
+    "lon": 32.565625,
     "communications": [
       {
         "type": 54,
         "frequency": 12210,
         "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11910,
+        "name": "ESENBOGA APP"
+      },
+      {
+        "type": 55,
+        "frequency": 11960,
+        "name": "ESENBOGA APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12210,
+        "name": "ESENBOGA APP"
       }
     ],
-    "elevation": 203,
+    "elevation": 2767,
     "tower": true,
-    "name": "AMIGDHALEON",
+    "name": "AKINCI",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 44.81,
         "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 40.977992,
-        "lonStart": 24.335147,
-        "latEnd": 40.967558,
-        "lonEnd": 24.347683,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 40.066233,
+        "lonStart": 32.554994,
+        "latEnd": 40.091603,
+        "lonEnd": 32.576256,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 275
+    "id": 124
   },
   {
     "type": 1,
-    "icao": "LGKV",
-    "lat": 40.9147805,
-    "lon": 32.7633695,
+    "icao": "LTAC",
+    "lat": 40.12828475,
+    "lon": 32.99540325,
     "communications": [
       {
+        "type": 50,
+        "frequency": 12360,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
         "type": 54,
-        "frequency": 11840,
-        "name": "MEGAS ALEXANDROS TWR"
+        "frequency": 11810,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12210,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12060,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 11960,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 11910,
+        "name": "APP"
       }
     ],
-    "elevation": 18,
+    "elevation": 3125,
     "tower": true,
-    "name": "Kavala Megas Alexandros",
+    "name": "ESENBOGA",
     "runways": [
       {
         "type": 100,
-        "width": 45.72,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "05R",
-        "numberEnd": "23L",
-        "latStart": 40.906303,
-        "lonStart": 24.604981,
-        "latEnd": 40.921658,
-        "lonEnd": 24.634283,
+        "numberStart": "03L",
+        "numberEnd": "21R",
+        "latStart": 40.115167,
+        "lonStart": 32.981225,
+        "latEnd": 40.142444,
+        "lonEnd": 33.007333,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 30.48,
+        "width": 60.05,
         "surfaceType": null,
-        "numberStart": "05L",
-        "numberEnd": "23R",
-        "latStart": 40.907903,
-        "lonStart": 24.603581,
-        "latEnd": 40.923258,
-        "lonEnd": 24.632883,
+        "numberStart": "03R",
+        "numberEnd": "21L",
+        "latStart": 40.114056,
+        "lonStart": 32.983833,
+        "latEnd": 40.141472,
+        "lonEnd": 33.009222,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 13670
+    "id": 6810
   }
 ]

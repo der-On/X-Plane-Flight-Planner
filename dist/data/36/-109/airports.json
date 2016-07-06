@@ -1,5 +1,305 @@
 [
   {
+    "type": 1,
+    "icao": "N19",
+    "lat": 36.833889,
+    "lon": -108.02937499999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 5876,
+    "tower": false,
+    "name": "AZTEC MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 36.835,
+        "lonStart": -108.035556,
+        "latEnd": 36.834167,
+        "lonEnd": -108.020833,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 36.830833,
+        "lonStart": -108.034444,
+        "latEnd": 36.835556,
+        "lonEnd": -108.026667,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 498
+  },
+  {
+    "type": 1,
+    "icao": "NM39",
+    "lat": 36.63278083,
+    "lon": -108.31146528,
+    "communications": [],
+    "elevation": 5720,
+    "tower": false,
+    "name": "Davenport",
+    "runways": [
+      {
+        "type": 100,
+        "width": 8.23,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 36.63144471,
+        "lonStart": -108.32331236,
+        "latEnd": 36.63411695,
+        "lonEnd": -108.2996182,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 6029
+  },
+  {
+    "type": 1,
+    "icao": "KFMN",
+    "lat": 36.74196292777778,
+    "lon": -108.22742567888888,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12715,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 11890,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11890,
+        "name": "FARMINGTON TWR"
+      }
+    ],
+    "elevation": 5505,
+    "tower": true,
+    "name": "Four Corners Regional",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 36.741092,
+        "lonStart": -108.239928,
+        "latEnd": 36.741636,
+        "lonEnd": -108.217064,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 36.737314,
+        "lonStart": -108.24145,
+        "latEnd": 36.744953,
+        "lonEnd": -108.221408,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 36.747875,
+        "lonStart": -108.233386,
+        "latEnd": 36.743747,
+        "lonEnd": -108.225394,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 102,
+        "width": 14.2,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 36.74036276,
+        "lonStart": -108.22217526,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.3
+      },
+      {
+        "type": 102,
+        "width": 14.2,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 36.74035068,
+        "lonStart": -108.22272979,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.3
+      },
+      {
+        "type": 102,
+        "width": 14.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.74033591,
+        "lonStart": -108.22329606,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.3
+      }
+    ],
+    "id": 9633
+  },
+  {
+    "type": 1,
+    "icao": "NM04",
+    "lat": 36.6777825,
+    "lon": -108.08395862,
+    "communications": [],
+    "elevation": 5345,
+    "tower": false,
+    "name": "Keller Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 19.81,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 36.67846686,
+        "lonStart": -108.08797311,
+        "latEnd": 36.67709814,
+        "lonEnd": -108.07994413,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 13713
+  },
+  {
+    "type": 1,
+    "icao": "5V5",
+    "lat": 36.6972735,
+    "lon": -108.701397,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "MEDEVAC"
+      }
+    ],
+    "elevation": 5270,
+    "tower": false,
+    "name": "SHIPROCK AIRSTRIP",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 36.691667,
+        "lonStart": -108.705831,
+        "latEnd": 36.70288,
+        "lonEnd": -108.696963,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22230
+  },
+  {
+    "type": 1,
+    "icao": "NM27",
+    "lat": 36.42250305,
+    "lon": -108.86148001000001,
+    "communications": [],
+    "elevation": 5950,
+    "tower": false,
+    "name": "Sanostee",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 36.41843224,
+        "lonStart": -108.86464125,
+        "latEnd": 36.42657386,
+        "lonEnd": -108.85831877,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 22880
+  },
+  {
+    "type": 1,
+    "icao": "NM05",
+    "lat": 36.74472527,
+    "lon": -108.15007195000001,
+    "communications": [],
+    "elevation": 5500,
+    "tower": false,
+    "name": "Williams",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 36.74170124,
+        "lonStart": -108.15243012,
+        "latEnd": 36.7477493,
+        "lonEnd": -108.14771378,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 27324
+  },
+  {
     "type": 17,
     "icao": "NM62",
     "lat": 36.72416944,

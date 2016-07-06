@@ -1,5 +1,317 @@
 [
   {
+    "type": 1,
+    "icao": "KAIT",
+    "lat": 46.54802625,
+    "lon": -93.677605,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11867,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12305,
+        "name": "UNICOM/CTAF"
+      },
+      {
+        "type": 55,
+        "frequency": 11805,
+        "name": "MINNEAPOLIS APP/DEP"
+      }
+    ],
+    "elevation": 1205,
+    "tower": false,
+    "name": "AITKIN MUNI STEVE KURTZ FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 46.556011,
+        "lonStart": -93.676464,
+        "latEnd": 46.545397,
+        "lonEnd": -93.672181,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 46.545186,
+        "lonStart": -93.687639,
+        "latEnd": 46.545511,
+        "lonEnd": -93.674136,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 117
+  },
+  {
+    "type": 1,
+    "icao": "07Y",
+    "lat": 46.955507499999996,
+    "lon": -93.59689639,
+    "communications": [],
+    "elevation": 1289,
+    "tower": false,
+    "name": "Hill City-Quadna Mountain",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 46.95931103,
+        "lonStart": -93.59860004,
+        "latEnd": 46.95170397,
+        "lonEnd": -93.59519274,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11834
+  },
+  {
+    "type": 1,
+    "icao": "KHZX",
+    "lat": 46.6187975,
+    "lon": -93.309811,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11957,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1228,
+    "tower": false,
+    "name": "ISEDOR IVERSON",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 46.622367,
+        "lonStart": -93.314153,
+        "latEnd": 46.615228,
+        "lonEnd": -93.305469,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12349
+  },
+  {
+    "type": 1,
+    "icao": "MY72",
+    "lat": 46.15967694,
+    "lon": -93.46134751,
+    "communications": [],
+    "elevation": 1271,
+    "tower": false,
+    "name": "Isle - Private",
+    "runways": [
+      {
+        "type": 100,
+        "width": 48.77,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 46.16290338,
+        "lonStart": -93.46277164,
+        "latEnd": 46.1564505,
+        "lonEnd": -93.45992338,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12577
+  },
+  {
+    "type": 1,
+    "icao": "5MN7",
+    "lat": 46.38718388,
+    "lon": -93.93192695,
+    "communications": [],
+    "elevation": 1295,
+    "tower": false,
+    "name": "Lindeys Landing",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 46.39047095,
+        "lonStart": -93.93167721,
+        "latEnd": 46.38389681,
+        "lonEnd": -93.93217669,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 46.38731308,
+        "lonStart": -93.93550098,
+        "latEnd": 46.38705468,
+        "lonEnd": -93.92835292,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 101,
+        "width": 792.48,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 46.37715344,
+        "lonStart": -93.9454871,
+        "latEnd": 46.39721432,
+        "lonEnd": -93.9183668,
+        "length": 0
+      }
+    ],
+    "id": 15295
+  },
+  {
+    "type": 1,
+    "icao": "9Y9",
+    "lat": 46.31940388,
+    "lon": -93.83081056,
+    "communications": [],
+    "elevation": 1261,
+    "tower": false,
+    "name": "Mille Lacs Lake",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 46.31652831,
+        "lonStart": -93.83351446,
+        "latEnd": 46.32227945,
+        "lonEnd": -93.82810666,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 46.3194936,
+        "lonStart": -93.83328945,
+        "latEnd": 46.31931416,
+        "lonEnd": -93.82833167,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17208
+  },
+  {
+    "type": 1,
+    "icao": "MY66",
+    "lat": 46.070517499999994,
+    "lon": -93.84719889,
+    "communications": [],
+    "elevation": 1330,
+    "tower": false,
+    "name": "North Star Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 46.07531114,
+        "lonStart": -93.84683678,
+        "latEnd": 46.06572386,
+        "lonEnd": -93.847561,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18461
+  },
+  {
+    "type": 1,
+    "icao": "8MN4",
+    "lat": 46.37968138,
+    "lon": -93.81358750000001,
+    "communications": [],
+    "elevation": 1289,
+    "tower": false,
+    "name": "Sethney Personal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 33.53,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 46.3768052,
+        "lonStart": -93.81380599,
+        "latEnd": 46.38255756,
+        "lonEnd": -93.81336901,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23303
+  },
+  {
+    "type": 1,
+    "icao": "MN85",
+    "lat": 46.03329305,
+    "lon": -93.66135584,
+    "communications": [],
+    "elevation": 1250,
+    "tower": false,
+    "name": "Swiderski Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 46.03671708,
+        "lonStart": -93.66109736,
+        "latEnd": 46.02986902,
+        "lonEnd": -93.66161432,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24485
+  },
+  {
     "type": 17,
     "icao": "MN94",
     "lat": 46.07301472,
@@ -23,5 +335,203 @@
       }
     ],
     "id": 31367
+  },
+  {
+    "type": 16,
+    "icao": "M69",
+    "lat": 46.36968055,
+    "lon": -93.81386667000001,
+    "communications": [],
+    "elevation": 1276,
+    "tower": false,
+    "name": "[S] Birch Lake",
+    "runways": [
+      {
+        "type": 101,
+        "width": 609.6,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 46.37529267,
+        "lonStart": -93.82258876,
+        "latEnd": 46.36406843,
+        "lonEnd": -93.80514458,
+        "length": 0
+      }
+    ],
+    "id": 34002
+  },
+  {
+    "type": 16,
+    "icao": "0MN2",
+    "lat": 46.13328194,
+    "lon": -93.00298223,
+    "communications": [],
+    "elevation": 1023,
+    "tower": false,
+    "name": "[S] Grindstone Lake",
+    "runways": [
+      {
+        "type": 101,
+        "width": 914.4,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 46.11858221,
+        "lonStart": -93.00787946,
+        "latEnd": 46.14798167,
+        "lonEnd": -92.998085,
+        "length": 0
+      }
+    ],
+    "id": 34138
+  },
+  {
+    "type": 16,
+    "icao": "MY22",
+    "lat": 46.14162277,
+    "lon": -93.52107278,
+    "communications": [],
+    "elevation": 1250,
+    "tower": false,
+    "name": "[S] Hazelglade Resort",
+    "runways": [
+      {
+        "type": 101,
+        "width": 762,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 46.14180222,
+        "lonStart": -93.52601452,
+        "latEnd": 46.14144332,
+        "lonEnd": -93.51613104,
+        "length": 0
+      },
+      {
+        "type": 101,
+        "width": 609.6,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 46.14376312,
+        "lonStart": -93.5238542,
+        "latEnd": 46.13948242,
+        "lonEnd": -93.51829136,
+        "length": 0
+      },
+      {
+        "type": 101,
+        "width": 762,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 46.1450468,
+        "lonStart": -93.52081379,
+        "latEnd": 46.13819874,
+        "lonEnd": -93.52133177,
+        "length": 0
+      }
+    ],
+    "id": 34158
+  },
+  {
+    "type": 16,
+    "icao": "17MN",
+    "lat": 46.71689138,
+    "lon": -93.21022278000001,
+    "communications": [],
+    "elevation": 1224,
+    "tower": false,
+    "name": "[S] Kivi Mokki",
+    "runways": [
+      {
+        "type": 101,
+        "width": 914.4,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 46.72062622,
+        "lonStart": -93.21861122,
+        "latEnd": 46.71315654,
+        "lonEnd": -93.20183434,
+        "length": 0
+      }
+    ],
+    "id": 34211
+  },
+  {
+    "type": 16,
+    "icao": "M14",
+    "lat": 46.47412832999999,
+    "lon": -93.91859251,
+    "communications": [],
+    "elevation": 1246,
+    "tower": false,
+    "name": "[S] Mals Serpent Lake",
+    "runways": [
+      {
+        "type": 101,
+        "width": 152.4,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 46.46844325,
+        "lonStart": -93.92416059,
+        "latEnd": 46.47981341,
+        "lonEnd": -93.91302443,
+        "length": 0
+      },
+      {
+        "type": 101,
+        "width": 152.4,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 46.47479802,
+        "lonStart": -93.93249885,
+        "latEnd": 46.47345864,
+        "lonEnd": -93.90468617,
+        "length": 0
+      },
+      {
+        "type": 101,
+        "width": 152.4,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 46.48233723,
+        "lonStart": -93.917759,
+        "latEnd": 46.46591943,
+        "lonEnd": -93.91942602,
+        "length": 0
+      }
+    ],
+    "id": 34276
+  },
+  {
+    "type": 16,
+    "icao": "MY32",
+    "lat": 46.36440444,
+    "lon": -93.85997889000001,
+    "communications": [],
+    "elevation": 1261,
+    "tower": false,
+    "name": "[S] Rosackers Nr 2",
+    "runways": [
+      {
+        "type": 101,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 46.37810055,
+        "lonStart": -93.85893873,
+        "latEnd": 46.35070833,
+        "lonEnd": -93.86101905,
+        "length": 0
+      }
+    ],
+    "id": 34403
   }
 ]

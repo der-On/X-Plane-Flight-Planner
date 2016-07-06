@@ -1,28 +1,34 @@
 [
   {
     "type": 1,
-    "icao": "UHPO",
-    "lat": 56.090008,
-    "lon": 107.98325125,
-    "communications": [],
-    "elevation": 331,
-    "tower": false,
-    "name": "Kozyrevsk",
+    "icao": "UITK",
+    "lat": 56.2794845,
+    "lon": 107.56725907500001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "Kazachinsk Tower"
+      }
+    ],
+    "elevation": 1148,
+    "tower": true,
+    "name": "Kazachinsk",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 39.93,
         "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 56.08474748,
-        "lonStart": 159.87123398,
-        "latEnd": 56.09526852,
-        "lonEnd": 159.88212202,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 56.27372383,
+        "lonStart": 107.56012721,
+        "latEnd": 56.28524517,
+        "lonEnd": 107.57439094,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 1
       }
     ],
-    "id": 14107
+    "id": 13682
   }
 ]

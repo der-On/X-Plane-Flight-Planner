@@ -1,5 +1,322 @@
 [
   {
+    "type": 1,
+    "icao": "EDWA",
+    "lat": 54.627240130000004,
+    "lon": 8.930057184999999,
+    "communications": [],
+    "elevation": 1,
+    "tower": false,
+    "name": "Bordelum",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 54.62538241,
+        "lonStart": 8.92735897,
+        "latEnd": 54.62909785,
+        "lonEnd": 8.9327554,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3010
+  },
+  {
+    "type": 1,
+    "icao": "EDXB",
+    "lat": 54.15360704333333,
+    "lon": 8.899863776666667,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12260,
+        "name": "Buesum INFO"
+      }
+    ],
+    "elevation": 6,
+    "tower": true,
+    "name": "Heide Buesum",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 54.15445,
+        "lonStart": 8.896522,
+        "latEnd": 54.152318,
+        "lonEnd": 8.906942,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 14.9,
+        "surfaceType": 1,
+        "numberStart": "H",
+        "numberEnd": null,
+        "latStart": 54.15405313,
+        "lonStart": 8.89612733,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.9
+      }
+    ],
+    "id": 11632
+  },
+  {
+    "type": 1,
+    "icao": "EDXK",
+    "lat": 54.79106145,
+    "lon": 8.9629643,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12260,
+        "name": "Leck Info"
+      }
+    ],
+    "elevation": 23,
+    "tower": true,
+    "name": "Leck",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 54.7926339,
+        "lonStart": 8.9570596,
+        "latEnd": 54.789489,
+        "lonEnd": 8.968869,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 15091
+  },
+  {
+    "type": 1,
+    "icao": "EDHP",
+    "lat": 54.53634,
+    "lon": 8.680126999999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12300,
+        "name": "Pellworm Info"
+      }
+    ],
+    "elevation": 9,
+    "tower": true,
+    "name": "Pellworm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 54.5371,
+        "lonStart": 8.676431,
+        "latEnd": 54.53558,
+        "lonEnd": 8.683823,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 19944
+  },
+  {
+    "type": 1,
+    "icao": "EDXO",
+    "lat": 54.308884500000005,
+    "lon": 8.6866255,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12977,
+        "name": "St. Peter Ording INFO"
+      }
+    ],
+    "elevation": 4,
+    "tower": true,
+    "name": "Sankt Peter Ording",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 54.307726,
+        "lonStart": 8.681935,
+        "latEnd": 54.310043,
+        "lonEnd": 8.691316,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22879
+  },
+  {
+    "type": 1,
+    "icao": "EKTD",
+    "lat": 54.929625,
+    "lon": 8.840316665,
+    "communications": [],
+    "elevation": 6,
+    "tower": false,
+    "name": "Toender",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 54.93136667,
+        "lonStart": 8.8342,
+        "latEnd": 54.92788333,
+        "lonEnd": 8.84643333,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25423
+  },
+  {
+    "type": 1,
+    "icao": "EDXW",
+    "lat": 54.91151750166667,
+    "lon": 8.344467088333335,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11840,
+        "name": "SYLT ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11975,
+        "name": "Sylt Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12022,
+        "name": "BREMEN RADAR"
+      }
+    ],
+    "elevation": 50,
+    "tower": true,
+    "name": "Westerland Sylt",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 54.919347,
+        "lonStart": 8.33288302,
+        "latEnd": 54.90385,
+        "lonEnd": 8.35209402,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 54.909417,
+        "lonStart": 8.32917198,
+        "latEnd": 54.917117,
+        "lonEnd": 8.35199398,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 54.91171725,
+        "lonStart": 8.34648896,
+        "latEnd": 54.90765676,
+        "lonEnd": 8.35417057,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 27139
+  },
+  {
+    "type": 1,
+    "icao": "EDXY",
+    "lat": 54.68498055,
+    "lon": 8.530748092,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11825,
+        "name": "Wyk INFO"
+      }
+    ],
+    "elevation": 24,
+    "tower": true,
+    "name": "Wyk auf Foehr",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 54.683621,
+        "lonStart": 8.527738,
+        "latEnd": 54.688872,
+        "lonEnd": 8.530687,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 54.684488,
+        "lonStart": 8.527,
+        "latEnd": 54.684183,
+        "lonEnd": 8.536431,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 14.9,
+        "surfaceType": 3,
+        "numberStart": "H",
+        "numberEnd": null,
+        "latStart": 54.68373875,
+        "lonStart": 8.53188446,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.9
+      }
+    ],
+    "id": 27609
+  },
+  {
     "type": 17,
     "icao": "XED2H",
     "lat": 54.794037939999996,

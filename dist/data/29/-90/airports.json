@@ -1,5 +1,120 @@
 [
   {
+    "type": 1,
+    "icao": "7LA1",
+    "lat": 29.45827277,
+    "lon": -89.67589695000001,
+    "communications": [],
+    "elevation": 1,
+    "tower": false,
+    "name": "Birdwin",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 29.45574227,
+        "lonStart": -89.67778428,
+        "latEnd": 29.46080327,
+        "lonEnd": -89.67400962,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 2757
+  },
+  {
+    "type": 1,
+    "icao": "LA75",
+    "lat": 29.85631722,
+    "lon": -89.91951139000001,
+    "communications": [],
+    "elevation": 3,
+    "tower": false,
+    "name": "Braithwaite Park",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 29.85960429,
+        "lonStart": -89.91931276,
+        "latEnd": 29.85303015,
+        "lonEnd": -89.91971002,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 29.85563555,
+        "lonStart": -89.92208226,
+        "latEnd": 29.85699889,
+        "lonEnd": -89.91694052,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 101,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 29.85973884,
+        "lonStart": -89.92152159,
+        "latEnd": 29.8528956,
+        "lonEnd": -89.91750119,
+        "length": 0
+      },
+      {
+        "type": 101,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 29.86012877,
+        "lonStart": -89.92005101,
+        "latEnd": 29.85250567,
+        "lonEnd": -89.91897177,
+        "length": 0
+      }
+    ],
+    "id": 3105
+  },
+  {
+    "type": 1,
+    "icao": "82LA",
+    "lat": 29.93242583,
+    "lon": -89.93284501,
+    "communications": [],
+    "elevation": 5,
+    "tower": false,
+    "name": "Fishers Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 29.93132458,
+        "lonStart": -89.93425632,
+        "latEnd": 29.93352708,
+        "lonEnd": -89.9314337,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9324
+  },
+  {
     "type": 17,
     "icao": "45LA",
     "lat": 29.30188638,
@@ -123,6 +238,43 @@
       }
     ],
     "id": 28918
+  },
+  {
+    "type": 17,
+    "icao": "8LA1",
+    "lat": 29.26049888,
+    "lon": -89.35477584,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[H] Chevron Usa Inc.",
+    "runways": [
+      {
+        "type": 101,
+        "width": 121.92,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 29.27386227,
+        "lonStart": -89.35123944,
+        "latEnd": 29.24713549,
+        "lonEnd": -89.35831224,
+        "length": 0
+      },
+      {
+        "type": 102,
+        "width": 24.4,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 29.26049888,
+        "lonStart": -89.35477584,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.4
+      }
+    ],
+    "id": 28920
   },
   {
     "type": 17,
@@ -376,6 +528,43 @@
   },
   {
     "type": 17,
+    "icao": "7LA7",
+    "lat": 29.276330829999996,
+    "lon": -89.24199528000001,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[H] Romere Pass",
+    "runways": [
+      {
+        "type": 101,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 29.27057969,
+        "lonStart": -89.24627702,
+        "latEnd": 29.28208197,
+        "lonEnd": -89.23771354,
+        "length": 0
+      },
+      {
+        "type": 102,
+        "width": 13.7,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 29.27633083,
+        "lonStart": -89.24199528,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.7
+      }
+    ],
+    "id": 32407
+  },
+  {
+    "type": 17,
     "icao": "8LA3",
     "lat": 29.09133944,
     "lon": -89.30477278,
@@ -562,6 +751,116 @@
   },
   {
     "type": 17,
+    "icao": "30LA",
+    "lat": 29.27111111,
+    "lon": -89.35583334,
+    "communications": [],
+    "elevation": 5,
+    "tower": false,
+    "name": "[H] Venice Base Heliport & SPB",
+    "runways": [
+      {
+        "type": 101,
+        "width": 85.34,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 29.26805346,
+        "lonStart": -89.35898944,
+        "latEnd": 29.27416876,
+        "lonEnd": -89.35267724,
+        "length": 0
+      },
+      {
+        "type": 101,
+        "width": 243.84,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 29.27763293,
+        "lonStart": -89.35826258,
+        "latEnd": 29.26458929,
+        "lonEnd": -89.3534041,
+        "length": 0
+      },
+      {
+        "type": 102,
+        "width": 14.6,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 29.27111111,
+        "lonStart": -89.35583334,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.6
+      },
+      {
+        "type": 102,
+        "width": 14.6,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 29.27111111,
+        "lonStart": -89.35583334,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.6
+      },
+      {
+        "type": 102,
+        "width": 14.6,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 29.27111111,
+        "lonStart": -89.35583334,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.6
+      }
+    ],
+    "id": 33602
+  },
+  {
+    "type": 17,
+    "icao": "LA98",
+    "lat": 29.13189444,
+    "lon": -89.38810751,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[H] West Bay",
+    "runways": [
+      {
+        "type": 101,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 29.12988952,
+        "lonStart": -89.39561501,
+        "latEnd": 29.13389936,
+        "lonEnd": -89.38060001,
+        "length": 0
+      },
+      {
+        "type": 102,
+        "width": 12.8,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 29.13189444,
+        "lonStart": -89.38810751,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.6
+      }
+    ],
+    "id": 33784
+  },
+  {
+    "type": 17,
     "icao": "LS63",
     "lat": 29.21911222,
     "lon": -89.39699834,
@@ -584,5 +883,55 @@
       }
     ],
     "id": 33789
+  },
+  {
+    "type": 16,
+    "icao": "SP04",
+    "lat": 29.3883,
+    "lon": -89.875229,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] Barataria Bay",
+    "runways": [
+      {
+        "type": 101,
+        "width": 3047.7,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 29.4020149,
+        "lonStart": -89.875229,
+        "latEnd": 29.3745851,
+        "lonEnd": -89.875229,
+        "length": 0
+      }
+    ],
+    "id": 33989
+  },
+  {
+    "type": 16,
+    "icao": "53LA",
+    "lat": 29.057174160000002,
+    "lon": -89.30282806,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] Shell Central Facilities",
+    "runways": [
+      {
+        "type": 101,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 29.05387263,
+        "lonStart": -89.30784019,
+        "latEnd": 29.06047569,
+        "lonEnd": -89.29781593,
+        "length": 0
+      }
+    ],
+    "id": 34442
   }
 ]

@@ -1,76 +1,112 @@
 [
   {
     "type": 1,
-    "icao": "LGLM",
-    "lat": 39.9170275,
-    "lon": 32.575615,
+    "icao": "LTAD",
+    "lat": 39.950193,
+    "lon": 32.687594499999996,
     "communications": [
       {
         "type": 54,
-        "frequency": 12850,
+        "frequency": 12210,
         "name": "TWR"
       },
       {
         "type": 55,
-        "frequency": 12850,
-        "name": "APP"
+        "frequency": 11910,
+        "name": "ESENBOGA APP"
+      },
+      {
+        "type": 55,
+        "frequency": 11960,
+        "name": "ESENBOGA APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12210,
+        "name": "ESENBOGA APP"
       }
     ],
-    "elevation": 14,
+    "elevation": 2653,
     "tower": true,
-    "name": "Lemnos",
+    "name": "ETIMESGUT",
     "runways": [
       {
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "04R",
-        "numberEnd": "22L",
-        "latStart": 39.907172,
-        "lonStart": 25.224347,
-        "latEnd": 39.926883,
-        "lonEnd": 25.24835,
+        "numberStart": "11L",
+        "numberEnd": "29R",
+        "latStart": 39.956855,
+        "lonStart": 32.671204,
+        "latEnd": 39.947453,
+        "lonEnd": 32.699172,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "11R",
+        "numberEnd": "29L",
+        "latStart": 39.950961,
+        "lonStart": 32.681917,
+        "latEnd": 39.945503,
+        "lonEnd": 32.698085,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 15145
+    "id": 6826
   },
   {
     "type": 1,
-    "icao": "LGMT",
-    "lat": 39.0658335,
-    "lon": 32.8205945,
+    "icao": "LTAB",
+    "lat": 39.936865250000004,
+    "lon": 32.742872750000004,
     "communications": [
       {
         "type": 54,
-        "frequency": 12385,
+        "frequency": 13200,
         "name": "TWR"
       },
       {
-        "type": 55,
-        "frequency": 12385,
-        "name": "APP"
+        "type": 54,
+        "frequency": 12900,
+        "name": "TWR"
       }
     ],
-    "elevation": 60,
+    "elevation": 2694,
     "tower": true,
-    "name": "Mitilini",
+    "name": "GUVERCINLIK",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 29.87,
         "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 39.074992,
-        "lonStart": 26.584514,
-        "latEnd": 39.056675,
-        "lonEnd": 26.599372,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 39.931033,
+        "lonStart": 32.7301,
+        "latEnd": 39.938864,
+        "lonEnd": 32.75145,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 39.938783,
+        "lonStart": 32.739844,
+        "latEnd": 39.938781,
+        "lonEnd": 32.750097,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 17323
+    "id": 10236
   }
 ]

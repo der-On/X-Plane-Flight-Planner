@@ -1,84 +1,301 @@
 [
   {
     "type": 1,
-    "icao": "LFRN",
-    "lat": 48.0684682,
-    "lon": 18.1830814,
+    "icao": "LZDB",
+    "lat": 48.997057007500004,
+    "lon": 18.192290235,
     "communications": [
       {
-        "type": 50,
-        "frequency": 13640,
-        "name": "LFRN ATIS"
-      },
-      {
-        "type": 51,
-        "frequency": 12050,
-        "name": "RENNES MULT"
-      },
-      {
-        "type": 53,
-        "frequency": 12172,
-        "name": "RENNES GND"
-      },
-      {
         "type": 54,
-        "frequency": 12050,
-        "name": "RENNES TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 13400,
-        "name": "RENNES APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12490,
-        "name": "RENNES APP"
+        "frequency": 12350,
+        "name": "AIRPORT"
       }
     ],
-    "elevation": 124,
+    "elevation": 770,
     "tower": true,
-    "name": "Rennes St Jacques",
+    "name": "Dubnica",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 35.97,
         "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 48.069911,
-        "lonStart": -1.740498,
-        "latEnd": 48.063881,
-        "lonEnd": -1.733498,
+        "numberStart": "05L",
+        "numberEnd": "23R",
+        "latStart": 48.99403958,
+        "lonStart": 18.18630132,
+        "latEnd": 49.00042155,
+        "lonEnd": 18.1978364,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       },
       {
         "type": 100,
-        "width": 45.11,
+        "width": 64.01,
         "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 48.073689,
-        "lonStart": -1.746064,
-        "latEnd": 48.070159,
-        "lonEnd": -1.718286,
+        "numberStart": "05R",
+        "numberEnd": "23L",
+        "latStart": 48.99369272,
+        "lonStart": 18.18674416,
+        "latEnd": 49.00007418,
+        "lonEnd": 18.19827906,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
+      }
+    ],
+    "id": 6516
+  },
+  {
+    "type": 1,
+    "icao": "LZPT",
+    "lat": 48.61900173749999,
+    "lon": 18.326196845,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12350,
+        "name": "TRAFFIC"
+      }
+    ],
+    "elevation": 604,
+    "tower": true,
+    "name": "Male Bielice",
+    "runways": [
+      {
+        "type": 100,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "07L",
+        "numberEnd": "25R",
+        "latStart": 48.61817519,
+        "lonStart": 18.31879437,
+        "latEnd": 48.62049125,
+        "lonEnd": 18.33335425,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 100.01,
+        "surfaceType": null,
+        "numberStart": "07R",
+        "numberEnd": "25L",
+        "latStart": 48.61751218,
+        "lonStart": 18.31903975,
+        "latEnd": 48.61982833,
+        "lonEnd": 18.33359901,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16527
+  },
+  {
+    "type": 1,
+    "icao": "LZNI",
+    "lat": 48.27947279999999,
+    "lon": 18.132375092500002,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12340,
+        "name": "TRAFFIC"
+      }
+    ],
+    "elevation": 442,
+    "tower": true,
+    "name": "Nitra",
+    "runways": [
+      {
+        "type": 100,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "15L",
+        "numberEnd": "33R",
+        "latStart": 48.28373513,
+        "lonStart": 18.12858826,
+        "latEnd": 48.2755952,
+        "lonEnd": 18.13700096,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 99.97,
+        "surfaceType": null,
+        "numberStart": "15R",
+        "numberEnd": "33L",
+        "latStart": 48.2833504,
+        "lonStart": 18.12774926,
+        "latEnd": 48.27521047,
+        "lonEnd": 18.13616189,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18354
+  },
+  {
+    "type": 1,
+    "icao": "LZPE",
+    "lat": 48.7660913525,
+    "lon": 18.586815852500003,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12260,
+        "name": "TRAFFIC"
+      }
+    ],
+    "elevation": 853,
+    "tower": true,
+    "name": "Prievidza",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.99,
+        "surfaceType": null,
+        "numberStart": "04R",
+        "numberEnd": "22L",
+        "latStart": 48.76268333,
+        "lonStart": 18.58299264,
+        "latEnd": 48.76916246,
+        "lonEnd": 18.59124416,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 84.98,
+        "surfaceType": null,
+        "numberStart": "04L",
+        "numberEnd": "22R",
+        "latStart": 48.76302003,
+        "lonStart": 18.5823879,
+        "latEnd": 48.76949959,
+        "lonEnd": 18.59063871,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20540
+  },
+  {
+    "type": 1,
+    "icao": "LZSY",
+    "lat": 48.075842775,
+    "lon": 18.113888125,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12355,
+        "name": "AIRPORT"
+      }
+    ],
+    "elevation": 394,
+    "tower": true,
+    "name": "Surany",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 48.07829827,
+        "lonStart": 18.11163602,
+        "latEnd": 48.07338728,
+        "lonEnd": 18.11614023,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24414
+  },
+  {
+    "type": 1,
+    "icao": "LZTN",
+    "lat": 48.86914971625001,
+    "lon": 18.005361887499998,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11917,
+        "name": "Aeroclub_TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12360,
+        "name": "Trencin TWR"
+      }
+    ],
+    "elevation": 675,
+    "tower": true,
+    "name": "TRENCIN",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 48.85759717,
+        "lonStart": 17.98296094,
+        "latEnd": 48.870825,
+        "lonEnd": 18.00151408,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 69.8,
+        "surfaceType": null,
+        "numberStart": "03L",
+        "numberEnd": "21R",
+        "latStart": 48.86597785,
+        "lonStart": 18.00375516,
+        "latEnd": 48.87354621,
+        "lonEnd": 18.011151,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 69.8,
+        "surfaceType": null,
+        "numberStart": "03R",
+        "numberEnd": "21L",
+        "latStart": 48.86562241,
+        "lonStart": 18.00456221,
+        "latEnd": 48.87319108,
+        "lonEnd": 18.0119577,
+        "length": 0,
+        "surfacetype": 3
       },
       {
         "type": 102,
-        "width": 34.1,
+        "width": 29.9,
         "surfaceType": 2,
-        "numberStart": "H1",
+        "numberStart": "H49",
         "numberEnd": null,
-        "latStart": 48.064701,
-        "lonStart": -1.732071,
+        "latStart": 48.87335371,
+        "lonStart": 18.01370326,
         "latEnd": null,
         "lonEnd": null,
-        "length": 34.1
+        "length": 29.9
+      },
+      {
+        "type": 102,
+        "width": 29.9,
+        "surfaceType": 2,
+        "numberStart": "H48",
+        "numberEnd": null,
+        "latStart": 48.8730843,
+        "lonStart": 18.01329075,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.9
       }
     ],
-    "id": 21361
+    "id": 24841
   }
 ]

@@ -1,141 +1,193 @@
 [
   {
     "type": 1,
-    "icao": "KOAK",
-    "lat": 37.727469327499996,
-    "lon": -82.23360555687502,
+    "icao": "KEBD",
+    "lat": 37.681729375,
+    "lon": -82.122168425,
     "communications": [
       {
         "type": 50,
-        "frequency": 13377,
-        "name": "KOAK ATIS"
-      },
-      {
-        "type": 50,
-        "frequency": 12220,
-        "name": "OAKLAND FSS"
-      },
-      {
-        "type": 50,
-        "frequency": 12250,
-        "name": "OAKLAND FSS"
-      },
-      {
-        "type": 50,
-        "frequency": 12200,
-        "name": "OAKLAND FSS EFAS"
+        "frequency": 11938,
+        "name": "AWOS - 6L4"
       },
       {
         "type": 51,
-        "frequency": 12295,
-        "name": "METRO OAKLAND INTL UNIC"
-      },
-      {
-        "type": 52,
-        "frequency": 12110,
-        "name": "OAKLAND CLD"
-      },
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "OAKLAND GND NORTH"
-      },
-      {
-        "type": 53,
-        "frequency": 12175,
-        "name": "OAKLAND GND SOUTH"
-      },
-      {
-        "type": 54,
-        "frequency": 11830,
-        "name": "OAKLAND TWR NORTH"
-      },
-      {
-        "type": 54,
-        "frequency": 12720,
-        "name": "OAKLAND TWR SOUTH"
-      },
-      {
-        "type": 55,
-        "frequency": 13565,
-        "name": "CLASS C SOUTH"
-      },
-      {
-        "type": 55,
-        "frequency": 13395,
-        "name": "NORCAL APP"
-      },
-      {
-        "type": 55,
-        "frequency": 13450,
-        "name": "NORCAL APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12535,
-        "name": "NORCAL APP EAST"
-      },
-      {
-        "type": 55,
-        "frequency": 13510,
-        "name": "NORCAL APP WEST"
-      },
-      {
-        "type": 56,
-        "frequency": 12090,
-        "name": "NORCAL DEP NW"
-      },
-      {
-        "type": 56,
-        "frequency": 13510,
-        "name": "NORCAL DEP WEST"
-      },
-      {
-        "type": 56,
-        "frequency": 12700,
-        "name": "CLASS C NORTH"
+        "frequency": 12280,
+        "name": "UNICOM"
       }
     ],
-    "elevation": 9,
-    "tower": true,
-    "name": "Metro Oakland Intl",
+    "elevation": 1883,
+    "tower": false,
+    "name": "APPALACHIAN RGNL",
     "runways": [
       {
         "type": 100,
-        "width": 46.02,
+        "width": 23,
         "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 37.71915142,
-        "lonStart": -122.24071982,
-        "latEnd": 37.70149942,
-        "lonEnd": -122.21423982,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 37.6794209,
+        "lonStart": -82.13018249,
+        "latEnd": 37.68403785,
+        "lonEnd": -82.11415436,
         "length": 0,
         "surfacetype": 1
+      }
+    ],
+    "id": 347
+  },
+  {
+    "type": 1,
+    "icao": "K22",
+    "lat": 37.751018,
+    "lon": -82.636686,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12017,
+        "name": "AWOS 3"
       },
       {
+        "type": 51,
+        "frequency": 12305,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11975,
+        "name": "HUNTINGTON APP/DEP"
+      }
+    ],
+    "elevation": 1221,
+    "tower": false,
+    "name": "BIG SANDY RGNL",
+    "runways": [
+      {
         "type": 100,
-        "width": 46.02,
+        "width": 30.48,
         "surfaceType": null,
-        "numberStart": "09R",
-        "numberEnd": "27L",
-        "latStart": 37.72871542,
-        "lonStart": -122.22588582,
-        "latEnd": 37.72228042,
-        "lonEnd": -122.20599482,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 37.745142,
+        "lonStart": -82.641153,
+        "latEnd": 37.756894,
+        "lonEnd": -82.632219,
         "length": 0,
         "surfacetype": 1
-      },
+      }
+    ],
+    "id": 1711
+  },
+  {
+    "type": 1,
+    "icao": "KGDY",
+    "lat": 37.232401935,
+    "lon": -82.12498833000001,
+    "communications": [],
+    "elevation": 2304,
+    "tower": false,
+    "name": "Grundy Municipal",
+    "runways": [
       {
         "type": 100,
-        "width": 46.02,
+        "width": 15.24,
         "surfaceType": null,
-        "numberStart": "09L",
-        "numberEnd": "27R",
-        "latStart": 37.73046942,
-        "lonStart": -122.22215182,
-        "latEnd": 37.72482042,
-        "lonEnd": -122.20468882,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 37.22978888,
+        "lonStart": -82.12749361,
+        "latEnd": 37.23501499,
+        "lonEnd": -82.12248305,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10848
+  },
+  {
+    "type": 1,
+    "icao": "4I0",
+    "lat": 37.687602999999996,
+    "lon": -82.260972,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1575,
+    "tower": false,
+    "name": "MINGO CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 37.684754,
+        "lonStart": -82.265874,
+        "latEnd": 37.690452,
+        "lonEnd": -82.25607,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16131
+  },
+  {
+    "type": 1,
+    "icao": "9KY9",
+    "lat": 37.7459275,
+    "lon": -82.77905,
+    "communications": [],
+    "elevation": 624,
+    "tower": false,
+    "name": "PAINTSVILLE PRESTONSBURG COMBS FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 37.748297,
+        "lonStart": -82.783439,
+        "latEnd": 37.743558,
+        "lonEnd": -82.774661,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19168
+  },
+  {
+    "type": 1,
+    "icao": "KPBX",
+    "lat": 37.562211,
+    "lon": -82.565516,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1473,
+    "tower": false,
+    "name": "PIKE CO HATCHER FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 37.560322,
+        "lonStart": -82.579283,
+        "latEnd": 37.561883,
+        "lonEnd": -82.560931,
         "length": 0,
         "surfacetype": 1
       },
@@ -143,113 +195,17 @@
         "type": 100,
         "width": 22.86,
         "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 37.74028942,
-        "lonStart": -122.22278882,
-        "latEnd": 37.73136942,
-        "lonEnd": -122.21965882,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 37.558567,
+        "lonStart": -82.562636,
+        "latEnd": 37.568072,
+        "lonEnd": -82.559214,
         "length": 0,
         "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 10.97,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 37.73597907,
-        "lonStart": -122.2253532,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.97
-      },
-      {
-        "type": 102,
-        "width": 10.97,
-        "surfaceType": 1,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 37.73421948,
-        "lonStart": -122.21712776,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.97
-      },
-      {
-        "type": 102,
-        "width": 10.97,
-        "surfaceType": 1,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 37.73174487,
-        "lonStart": -122.2181466,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.97
-      },
-      {
-        "type": 102,
-        "width": 10.97,
-        "surfaceType": 1,
-        "numberStart": "H4",
-        "numberEnd": null,
-        "latStart": 37.73189418,
-        "lonStart": -122.21747324,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.97
-      },
-      {
-        "type": 102,
-        "width": 11.89,
-        "surfaceType": 1,
-        "numberStart": "H5",
-        "numberEnd": null,
-        "latStart": 37.72830128,
-        "lonStart": -122.21203336,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11.89
-      },
-      {
-        "type": 102,
-        "width": 11.89,
-        "surfaceType": 1,
-        "numberStart": "H6",
-        "numberEnd": null,
-        "latStart": 37.72739209,
-        "lonStart": -122.20923332,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11.89
-      },
-      {
-        "type": 102,
-        "width": 11.89,
-        "surfaceType": 1,
-        "numberStart": "H7",
-        "numberEnd": null,
-        "latStart": 37.72580471,
-        "lonStart": -122.20374452,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11.89
-      },
-      {
-        "type": 102,
-        "width": 11.89,
-        "surfaceType": 1,
-        "numberStart": "H8",
-        "numberEnd": null,
-        "latStart": 37.7255782,
-        "lonStart": -122.20300031,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11.89
       }
     ],
-    "id": 17109
+    "id": 19376
   },
   {
     "type": 17,

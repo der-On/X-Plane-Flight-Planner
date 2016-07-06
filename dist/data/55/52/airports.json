@@ -1,72 +1,62 @@
 [
   {
     "type": 1,
-    "icao": "UWKD",
-    "lat": 55.6065445,
-    "lon": 52.429019499999995,
+    "icao": "UWKE",
+    "lat": 55.563755,
+    "lon": 52.08979125,
     "communications": [
       {
-        "type": 50,
-        "frequency": 12680,
-        "name": "ATIS"
-      },
-      {
-        "type": 53,
-        "frequency": 12170,
-        "name": "TAXIING"
-      },
-      {
         "type": 54,
-        "frequency": 12030,
+        "frequency": 12120,
         "name": "TWR"
       },
       {
         "type": 55,
-        "frequency": 11940,
-        "name": "RADAR"
+        "frequency": 12900,
+        "name": "APP"
       },
       {
         "type": 55,
-        "frequency": 12900,
-        "name": "RADAR"
+        "frequency": 12790,
+        "name": "APP"
       },
       {
         "type": 55,
         "frequency": 12400,
-        "name": "RADAR"
+        "name": "APP"
       }
     ],
-    "elevation": 411,
+    "elevation": 643,
     "tower": true,
-    "name": "KAZAN",
+    "name": "BEGISHEVO",
     "runways": [
       {
         "type": 100,
-        "width": 43.89,
+        "width": 42.06,
         "surfaceType": null,
-        "numberStart": "11L",
-        "numberEnd": "29R",
-        "latStart": 55.618733,
-        "lonStart": 49.252447,
-        "latEnd": 55.598875,
-        "lonEnd": 49.299997,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 55.557056,
+        "lonStart": 52.078092,
+        "latEnd": 55.572314,
+        "lonEnd": 52.106928,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 45.11,
+        "width": 57.91,
         "surfaceType": null,
-        "numberStart": "11R",
-        "numberEnd": "29L",
-        "latStart": 55.610628,
-        "lonStart": 49.266814,
-        "latEnd": 55.597942,
-        "lonEnd": 49.299497,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 55.557594,
+        "lonStart": 52.077117,
+        "latEnd": 55.568056,
+        "lonEnd": 52.097028,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 3
       }
     ],
-    "id": 13279
+    "id": 1607
   }
 ]

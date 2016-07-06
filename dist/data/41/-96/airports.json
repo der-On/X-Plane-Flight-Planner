@@ -1,5 +1,709 @@
 [
   {
+    "type": 1,
+    "icao": "KAIO",
+    "lat": 41.40762925,
+    "lon": -95.0477145,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12782,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1182,
+    "tower": false,
+    "name": "ATLANTIC MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 41.411003,
+        "lonStart": -95.052811,
+        "latEnd": 41.40515,
+        "lonEnd": -95.040856,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 56.39,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 41.409789,
+        "lonStart": -95.048622,
+        "latEnd": 41.404575,
+        "lonEnd": -95.048569,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 454
+  },
+  {
+    "type": 1,
+    "icao": "KCBF",
+    "lat": 41.2598652675,
+    "lon": -95.758914965,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12657,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12450,
+        "name": "OMAHA APP/DEP"
+      }
+    ],
+    "elevation": 1252,
+    "tower": false,
+    "name": "Council Bluffs Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.26859948,
+        "lonStart": -95.75745122,
+        "latEnd": 41.25351802,
+        "lonEnd": -95.75796414,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 41.26256734,
+        "lonStart": -95.76430441,
+        "latEnd": 41.25477623,
+        "lonEnd": -95.75594009,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 5399
+  },
+  {
+    "type": 1,
+    "icao": "KDNS",
+    "lat": 41.98681583333333,
+    "lon": -95.38143433333333,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11995,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1276,
+    "tower": false,
+    "name": "DENISON MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 41.989614,
+        "lonStart": -95.387114,
+        "latEnd": 41.981889,
+        "lonEnd": -95.371922,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 32,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.989986,
+        "lonStart": -95.380828,
+        "latEnd": 41.984153,
+        "lonEnd": -95.380692,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 53.34,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 41.986378,
+        "lonStart": -95.387222,
+        "latEnd": 41.988875,
+        "lonEnd": -95.380828,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5758
+  },
+  {
+    "type": 1,
+    "icao": "KOMA",
+    "lat": 41.30313925833333,
+    "lon": -95.89399046833334,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12040,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 11990,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 13210,
+        "name": "OMAHA TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12010,
+        "name": "OMAHA APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12450,
+        "name": "OMAHA APP/DEP"
+      }
+    ],
+    "elevation": 984,
+    "tower": true,
+    "name": "Eppley Airfield",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "14R",
+        "numberEnd": "32L",
+        "latStart": 41.31384024,
+        "lonStart": -95.90608398,
+        "latEnd": 41.29262061,
+        "lonEnd": -95.88593779,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "14L",
+        "numberEnd": "32R",
+        "latStart": 41.31352781,
+        "lonStart": -95.90041461,
+        "latEnd": 41.29454604,
+        "lonEnd": -95.88239222,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.3133321,
+        "lonStart": -95.89449965,
+        "latEnd": 41.29096875,
+        "lonEnd": -95.89461456,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 7231
+  },
+  {
+    "type": 1,
+    "icao": "KHNR",
+    "lat": 41.584269250000006,
+    "lon": -95.33916525000001,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11832,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12450,
+        "name": "OMAHA APP/DEP"
+      }
+    ],
+    "elevation": 1231,
+    "tower": false,
+    "name": "HARLAN MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 41.59,
+        "lonStart": -95.342781,
+        "latEnd": 41.5797,
+        "lonEnd": -95.336769,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 36.58,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 41.581833,
+        "lonStart": -95.340444,
+        "latEnd": 41.585544,
+        "lonEnd": -95.336667,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11008
+  },
+  {
+    "type": 1,
+    "icao": "75NE",
+    "lat": 41.44740762,
+    "lon": -95.957261215,
+    "communications": [],
+    "elevation": 1000,
+    "tower": false,
+    "name": "Heaton",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 41.4509882,
+        "lonStart": -95.95724033,
+        "latEnd": 41.44382704,
+        "lonEnd": -95.9572821,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11614
+  },
+  {
+    "type": 1,
+    "icao": "4IA6",
+    "lat": 41.083324160000004,
+    "lon": -95.09471056000001,
+    "communications": [],
+    "elevation": 1200,
+    "tower": false,
+    "name": "Jacobs",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 41.08673984,
+        "lonStart": -95.09510702,
+        "latEnd": 41.07990848,
+        "lonEnd": -95.0943141,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12874
+  },
+  {
+    "type": 1,
+    "icao": "1Y0",
+    "lat": 41.89998611,
+    "lon": -95.06693612,
+    "communications": [],
+    "elevation": 1321,
+    "tower": false,
+    "name": "Manning Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 28.96,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 41.89906452,
+        "lonStart": -95.0695914,
+        "latEnd": 41.9009077,
+        "lonEnd": -95.06428084,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 36.58,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 41.90194808,
+        "lonStart": -95.06716674,
+        "latEnd": 41.89802414,
+        "lonEnd": -95.0667055,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16603
+  },
+  {
+    "type": 1,
+    "icao": "K35",
+    "lat": 41.54027,
+    "lon": -95.88778805999999,
+    "communications": [],
+    "elevation": 1000,
+    "tower": false,
+    "name": "Missouri Valley",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 41.5434638,
+        "lonStart": -95.88885194,
+        "latEnd": 41.5370762,
+        "lonEnd": -95.88672418,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17307
+  },
+  {
+    "type": 1,
+    "icao": "KOFF",
+    "lat": 41.119322,
+    "lon": -95.9082195,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12602,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12370,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11800,
+        "name": "OMAHA APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12010,
+        "name": "OMAHA APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12450,
+        "name": "OMAHA APP/DEP"
+      }
+    ],
+    "elevation": 1052,
+    "tower": true,
+    "name": "OFFUTT AFB",
+    "runways": [
+      {
+        "type": 100,
+        "width": 91.14,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 41.129458,
+        "lonStart": -95.924692,
+        "latEnd": 41.109186,
+        "lonEnd": -95.891747,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 18614
+  },
+  {
+    "type": 1,
+    "icao": "IA93",
+    "lat": 41.61276861,
+    "lon": -95.89556556,
+    "communications": [],
+    "elevation": 1030,
+    "tower": false,
+    "name": "Olsen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 41.61618898,
+        "lonStart": -95.89588546,
+        "latEnd": 41.60934824,
+        "lonEnd": -95.89524566,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18926
+  },
+  {
+    "type": 1,
+    "icao": "KRDK",
+    "lat": 41.0109345,
+    "lon": -95.25867038833336,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11977,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1044,
+    "tower": false,
+    "name": "Red Oak Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 41.00702891,
+        "lonStart": -95.26673802,
+        "latEnd": 41.01448409,
+        "lonEnd": -95.25105109,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 41.01429591,
+        "lonStart": -95.26057373,
+        "latEnd": 41.00637609,
+        "lonEnd": -95.25955033,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 64.01,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 41.01391571,
+        "lonStart": -95.25936679,
+        "latEnd": 41.00950629,
+        "lonEnd": -95.25474237,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21273
+  },
+  {
+    "type": 1,
+    "icao": "IA01",
+    "lat": 41.35138166,
+    "lon": -95.46639112,
+    "communications": [],
+    "elevation": 1300,
+    "tower": false,
+    "name": "Ridge",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 41.3543379,
+        "lonStart": -95.46904742,
+        "latEnd": 41.34842542,
+        "lonEnd": -95.46373482,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21464
+  },
+  {
+    "type": 1,
+    "icao": "3IA4",
+    "lat": 41.53193722,
+    "lon": -95.94195556,
+    "communications": [],
+    "elevation": 1000,
+    "tower": false,
+    "name": "Robinson",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.53553812,
+        "lonStart": -95.94144998,
+        "latEnd": 41.52833632,
+        "lonEnd": -95.94246114,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21601
+  },
+  {
+    "type": 1,
+    "icao": "IA35",
+    "lat": 41.18722083,
+    "lon": -95.90417889,
+    "communications": [],
+    "elevation": 970,
+    "tower": false,
+    "name": "Ruckl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 36.58,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 41.18756489,
+        "lonStart": -95.90852876,
+        "latEnd": 41.18687677,
+        "lonEnd": -95.89982902,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21811
+  },
+  {
+    "type": 1,
+    "icao": "IA62",
+    "lat": 41.53332222,
+    "lon": -95.07526834,
+    "communications": [],
+    "elevation": 1310,
+    "tower": false,
+    "name": "Wheatley Farms",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.53578151,
+        "lonStart": -95.07498091,
+        "latEnd": 41.53086293,
+        "lonEnd": -95.07555577,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 27185
+  },
+  {
+    "type": 1,
+    "icao": "3Y4",
+    "lat": 41.736099440000004,
+    "lon": -95.68361723000001,
+    "communications": [],
+    "elevation": 1067,
+    "tower": false,
+    "name": "Woodbine Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 28.96,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 41.7388921,
+        "lonStart": -95.68394465,
+        "latEnd": 41.73330678,
+        "lonEnd": -95.68328981,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 27536
+  },
+  {
     "type": 17,
     "icao": "IA91",
     "lat": 41.02715916,

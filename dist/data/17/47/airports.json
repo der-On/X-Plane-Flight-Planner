@@ -1,83 +1,34 @@
 [
   {
     "type": 1,
-    "icao": "VOBR",
-    "lat": 17.906400750000003,
-    "lon": 47.694425,
-    "communications": [],
-    "elevation": 2178,
+    "icao": "OESH",
+    "lat": 17.466875,
+    "lon": 47.121429,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 2363,
     "tower": false,
-    "name": "BIDAR",
+    "name": "SHARURAH",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 17.896967,
-        "lonStart": 77.483428,
-        "latEnd": 17.915389,
-        "lonEnd": 77.489675,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
+        "width": 44.81,
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": 17.904725,
-        "lonStart": 77.470361,
-        "latEnd": 17.908522,
-        "lonEnd": 77.489408,
+        "latStart": 17.465325,
+        "lonStart": 47.104244,
+        "latEnd": 17.468425,
+        "lonEnd": 47.138614,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 1698
-  },
-  {
-    "type": 1,
-    "icao": "VOHY",
-    "lat": 17.453253,
-    "lon": 47.9537225,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12680,
-        "name": "ATIS"
-      },
-      {
-        "type": 54,
-        "frequency": 12225,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 13240,
-        "name": "APP"
-      }
-    ],
-    "elevation": 1742,
-    "tower": true,
-    "name": "HYDERABAD",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 17.452953,
-        "lonStart": 78.453892,
-        "latEnd": 17.453553,
-        "lonEnd": 78.484292,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 11264
+    "id": 22204
   }
 ]

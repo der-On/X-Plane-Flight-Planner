@@ -1,5 +1,292 @@
 [
   {
+    "type": 1,
+    "icao": "9K0",
+    "lat": 38.35862555,
+    "lon": -96.55445166999999,
+    "communications": [],
+    "elevation": 1272,
+    "tower": false,
+    "name": "Chase County",
+    "runways": [
+      {
+        "type": 100,
+        "width": 47.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 38.36177229,
+        "lonStart": -96.55473228,
+        "latEnd": 38.35547881,
+        "lonEnd": -96.55417106,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4827
+  },
+  {
+    "type": 1,
+    "icao": "SN47",
+    "lat": 38.766672220000004,
+    "lon": -96.10721527999999,
+    "communications": [],
+    "elevation": 1230,
+    "tower": false,
+    "name": "Converse Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 38.76994577,
+        "lonStart": -96.106774,
+        "latEnd": 38.76339867,
+        "lonEnd": -96.10765656,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5279
+  },
+  {
+    "type": 1,
+    "icao": "K63",
+    "lat": 38.67917387999999,
+    "lon": -96.57111556000001,
+    "communications": [],
+    "elevation": 1409,
+    "tower": false,
+    "name": "Council Grove Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 36.58,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 38.67741707,
+        "lonStart": -96.57344594,
+        "latEnd": 38.68093069,
+        "lonEnd": -96.56878518,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 38.68053626,
+        "lonStart": -96.57351758,
+        "latEnd": 38.6778115,
+        "lonEnd": -96.56871354,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5400
+  },
+  {
+    "type": 1,
+    "icao": "KEMP",
+    "lat": 38.33031525,
+    "lon": -96.18976431749999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12467,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12772,
+        "name": "KANSAS CITY CNTR"
+      }
+    ],
+    "elevation": 1208,
+    "tower": false,
+    "name": "EMPORIA MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 38.32541523,
+        "lonStart": -96.19299885,
+        "latEnd": 38.33882877,
+        "lonEnd": -96.18935381,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 91.14,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 38.3261379,
+        "lonStart": -96.19441567,
+        "latEnd": 38.3308791,
+        "lonEnd": -96.18228894,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6768
+  },
+  {
+    "type": 1,
+    "icao": "SN91",
+    "lat": 38.109744719999995,
+    "lon": -96.11555056,
+    "communications": [],
+    "elevation": 1100,
+    "tower": false,
+    "name": "Godfrey",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 38.1084617,
+        "lonStart": -96.11921299,
+        "latEnd": 38.11102774,
+        "lonEnd": -96.11188813,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10558
+  },
+  {
+    "type": 1,
+    "icao": "KHRU",
+    "lat": 38.683225,
+    "lon": -96.80800550000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      },
+      {
+        "type": 55,
+        "frequency": 12735,
+        "name": "KANSAS CITY CNTR"
+      }
+    ],
+    "elevation": 1480,
+    "tower": false,
+    "name": "HERINGTON RGNL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 38.688969,
+        "lonStart": -96.807992,
+        "latEnd": 38.677481,
+        "lonEnd": -96.808019,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11110
+  },
+  {
+    "type": 1,
+    "icao": "43K",
+    "lat": 38.33751638,
+    "lon": -96.99168889000002,
+    "communications": [],
+    "elevation": 1390,
+    "tower": false,
+    "name": "Marion Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 28.96,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 38.33451082,
+        "lonStart": -96.99457637,
+        "latEnd": 38.34052194,
+        "lonEnd": -96.98880141,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 38.34024667,
+        "lonStart": -96.99493485,
+        "latEnd": 38.33478609,
+        "lonEnd": -96.98844293,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 13.72,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 38.34099519,
+        "lonStart": -96.99192133,
+        "latEnd": 38.33403757,
+        "lonEnd": -96.99145645,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16700
+  },
+  {
+    "type": 1,
+    "icao": "15KS",
+    "lat": 38.43056916,
+    "lon": -96.08832667,
+    "communications": [],
+    "elevation": 1200,
+    "tower": false,
+    "name": "Sickler Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 38.43370631,
+        "lonStart": -96.08790576,
+        "latEnd": 38.42743201,
+        "lonEnd": -96.08874758,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23476
+  },
+  {
     "type": 17,
     "icao": "65KS",
     "lat": 38.45001277,

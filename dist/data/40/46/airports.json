@@ -1,14 +1,14 @@
 [
   {
     "type": 1,
-    "icao": "UTAK",
-    "lat": 40.063472000000004,
-    "lon": 46.5281945,
+    "icao": "UBBG",
+    "lat": 40.7376765,
+    "lon": 46.317582,
     "communications": [
       {
-        "type": 53,
-        "frequency": 12170,
-        "name": "GND"
+        "type": 50,
+        "frequency": 11925,
+        "name": "ATIS"
       },
       {
         "type": 54,
@@ -17,54 +17,28 @@
       },
       {
         "type": 55,
-        "frequency": 12000,
+        "frequency": 12400,
         "name": "APP"
       }
     ],
-    "elevation": 279,
+    "elevation": 1083,
     "tower": true,
-    "name": "TURKMENBASHI",
+    "name": "GANJA",
     "runways": [
       {
         "type": 100,
         "width": 43.89,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 40.074444,
-        "lonStart": 53.003889,
-        "latEnd": 40.0525,
-        "lonEnd": 53.010556,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 40.744642,
+        "lonStart": 46.305922,
+        "latEnd": 40.730711,
+        "lonEnd": 46.329242,
         "length": 0,
         "surfacetype": 2
       }
     ],
-    "id": 24913
-  },
-  {
-    "type": 1,
-    "icao": "UT1F",
-    "lat": 40.038136,
-    "lon": 46.6761,
-    "communications": [],
-    "elevation": -20,
-    "tower": false,
-    "name": "YANGADZHA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 36.58,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 40.045036,
-        "lonStart": 53.320964,
-        "latEnd": 40.031236,
-        "lonEnd": 53.336289,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 27671
+    "id": 9881
   }
 ]

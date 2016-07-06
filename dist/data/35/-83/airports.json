@@ -1,5 +1,390 @@
 [
   {
+    "type": 1,
+    "icao": "KAVL",
+    "lat": 35.436436539999995,
+    "lon": -82.54122479,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12020,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12110,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12110,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12465,
+        "name": "APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12580,
+        "name": "APP/DEP"
+      }
+    ],
+    "elevation": 2165,
+    "tower": true,
+    "name": "Asheville Rgnl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 35.44649605,
+        "lonStart": -82.54644213,
+        "latEnd": 35.4258672,
+        "lonEnd": -82.53718092,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 14.9,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 35.43694637,
+        "lonStart": -82.54005132,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.9
+      }
+    ],
+    "id": 1264
+  },
+  {
+    "type": 1,
+    "icao": "6A7",
+    "lat": 35.22261416,
+    "lon": -82.72679195,
+    "communications": [],
+    "elevation": 2125,
+    "tower": false,
+    "name": "Brevard",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 35.22028409,
+        "lonStart": -82.72886425,
+        "latEnd": 35.22494423,
+        "lonEnd": -82.72471965,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3174
+  },
+  {
+    "type": 1,
+    "icao": "4NC6",
+    "lat": 35.444559999999996,
+    "lon": -82.47956417,
+    "communications": [],
+    "elevation": 2100,
+    "tower": false,
+    "name": "Cane Creek",
+    "runways": [
+      {
+        "type": 100,
+        "width": 48.77,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 35.44158638,
+        "lonStart": -82.48221609,
+        "latEnd": 35.44753362,
+        "lonEnd": -82.47691225,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4455
+  },
+  {
+    "type": 1,
+    "icao": "SC36",
+    "lat": 35.12472222,
+    "lon": -82.32638889,
+    "communications": [],
+    "elevation": 1220,
+    "tower": false,
+    "name": "Emery",
+    "runways": [
+      {
+        "type": 100,
+        "width": 8.53,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 35.12238011,
+        "lonStart": -82.32778554,
+        "latEnd": 35.12706433,
+        "lonEnd": -82.32499224,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 7159
+  },
+  {
+    "type": 1,
+    "icao": "33A",
+    "lat": 35.15733805,
+    "lon": -82.12233306,
+    "communications": [],
+    "elevation": 1047,
+    "tower": false,
+    "name": "Fairview",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 35.16007084,
+        "lonStart": -82.12556094,
+        "latEnd": 35.15460526,
+        "lonEnd": -82.11910518,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 7763
+  },
+  {
+    "type": 1,
+    "icao": "4H4",
+    "lat": 35.34678527,
+    "lon": -82.05510834,
+    "communications": [],
+    "elevation": 800,
+    "tower": false,
+    "name": "Fox Haven Plantation",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 35.3466322,
+        "lonStart": -82.05779209,
+        "latEnd": 35.34693834,
+        "lonEnd": -82.05242459,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9650
+  },
+  {
+    "type": 1,
+    "icao": "0A7",
+    "lat": 35.3076143725,
+    "lon": -82.43420109499999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 2084,
+    "tower": false,
+    "name": "HENDERSONVILLE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 35.31040512,
+        "lonStart": -82.43741557,
+        "latEnd": 35.30505237,
+        "lonEnd": -82.43271955,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 35.31087204,
+        "lonStart": -82.43643304,
+        "latEnd": 35.30412796,
+        "lonEnd": -82.43023622,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11098
+  },
+  {
+    "type": 1,
+    "icao": "SC78",
+    "lat": 35.09067249,
+    "lon": -82.49539973,
+    "communications": [],
+    "elevation": 1250,
+    "tower": false,
+    "name": "King Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 35.09280245,
+        "lonStart": -82.4965587,
+        "latEnd": 35.08854253,
+        "lonEnd": -82.49424076,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13890
+  },
+  {
+    "type": 1,
+    "icao": "2NC0",
+    "lat": 35.86897036,
+    "lon": -82.34249585,
+    "communications": [],
+    "elevation": 4432,
+    "tower": false,
+    "name": "Mountain Air",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.85,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 35.87183141,
+        "lonStart": -82.34590529,
+        "latEnd": 35.86610931,
+        "lonEnd": -82.33908641,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17631
+  },
+  {
+    "type": 1,
+    "icao": "8A8",
+    "lat": 35.006504160000006,
+    "lon": -82.26427945,
+    "communications": [],
+    "elevation": 929,
+    "tower": false,
+    "name": "O Neal Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 35.00729803,
+        "lonStart": -82.2676595,
+        "latEnd": 35.00571029,
+        "lonEnd": -82.2608994,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18578
+  },
+  {
+    "type": 1,
+    "icao": "9A9",
+    "lat": 35.72067972,
+    "lon": -82.00983084,
+    "communications": [],
+    "elevation": 1211,
+    "tower": false,
+    "name": "Shiflet Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 54.86,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 35.72115854,
+        "lonStart": -82.01544217,
+        "latEnd": 35.7202009,
+        "lonEnd": -82.00421951,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23418
+  },
+  {
+    "type": 1,
+    "icao": "22W",
+    "lat": 35.270278,
+    "lon": -82.64416700000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "UNICOM"
+      }
+    ],
+    "elevation": 2110,
+    "tower": false,
+    "name": "TRANSYLVANIA COUNTY",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 35.270278,
+        "lonStart": -82.649028,
+        "latEnd": 35.270278,
+        "lonEnd": -82.639306,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 24833
+  },
+  {
     "type": 17,
     "icao": "NC84",
     "lat": 35.53482583,

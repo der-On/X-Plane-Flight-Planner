@@ -1,5 +1,228 @@
 [
   {
+    "type": 1,
+    "icao": "YCVM",
+    "lat": -31.837465932499995,
+    "lon": 115.97459701,
+    "communications": [],
+    "elevation": 86,
+    "tower": false,
+    "name": "Caversham (RAAF disused)",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -31.8394475,
+        "lonStart": 115.96935724,
+        "latEnd": -31.83101,
+        "lonEnd": 115.980222,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 35.05,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -31.83778818,
+        "lonStart": 115.97150886,
+        "latEnd": -31.84161805,
+        "lonEnd": 115.97729994,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 4674
+  },
+  {
+    "type": 1,
+    "icao": "YGIG",
+    "lat": -31.464367414999998,
+    "lon": 115.86302635,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 11850,
+        "name": "GINGIN CTAF"
+      },
+      {
+        "type": 53,
+        "frequency": 12165,
+        "name": "GINGIN GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11850,
+        "name": "GINGIN TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12330,
+        "name": "PEARCE APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12810,
+        "name": "PERTH APP"
+      },
+      {
+        "type": 56,
+        "frequency": 13590,
+        "name": "PEARCE DEP"
+      }
+    ],
+    "elevation": 249,
+    "tower": true,
+    "name": "Gingin",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -31.46660548,
+        "lonStart": 115.85328914,
+        "latEnd": -31.46212935,
+        "lonEnd": 115.87276356,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10492
+  },
+  {
+    "type": 1,
+    "icao": "YPLP",
+    "lat": -31.961614,
+    "lon": 115.869035,
+    "communications": [],
+    "elevation": 6,
+    "tower": false,
+    "name": "Langley Park",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -31.960287,
+        "lonStart": 115.864968,
+        "latEnd": -31.962941,
+        "lonEnd": 115.873102,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14937
+  },
+  {
+    "type": 1,
+    "icao": "YPPH",
+    "lat": -31.9396725,
+    "lon": 115.96661399999999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12380,
+        "name": "Perth ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 11855,
+        "name": "PERTH CLD"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "PERTH GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12050,
+        "name": "PERTH TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12370,
+        "name": "PERTH APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12810,
+        "name": "PERTH APP"
+      },
+      {
+        "type": 56,
+        "frequency": 11870,
+        "name": "PERTH DEP"
+      }
+    ],
+    "elevation": 70,
+    "tower": true,
+    "name": "Perth",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -31.940912,
+        "lonStart": 115.959294,
+        "latEnd": -31.930832,
+        "lonEnd": 115.978888,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -31.958624,
+        "lonStart": 115.959723,
+        "latEnd": -31.928322,
+        "lonEnd": 115.968551,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19994
+  },
+  {
+    "type": 1,
+    "icao": "YCHP",
+    "lat": -31.551351,
+    "lon": 115.65612899999999,
+    "communications": [],
+    "elevation": 109,
+    "tower": true,
+    "name": "Yanchep",
+    "runways": [
+      {
+        "type": 100,
+        "width": 70.1,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -31.552342,
+        "lonStart": 115.652284,
+        "latEnd": -31.55036,
+        "lonEnd": 115.659974,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 27739
+  },
+  {
     "type": 17,
     "icao": "YBWD",
     "lat": -31.9607576,

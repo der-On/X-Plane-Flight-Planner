@@ -1,5 +1,574 @@
 [
   {
+    "type": 1,
+    "icao": "KABI",
+    "lat": 32.41317333333333,
+    "lon": -99.68323266666668,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11825,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12010,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12720,
+        "name": "APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12500,
+        "name": "APP/DEP"
+      }
+    ],
+    "elevation": 1791,
+    "tower": true,
+    "name": "ABILENE RGNL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "17R",
+        "numberEnd": "35L",
+        "latStart": 32.428081,
+        "lonStart": -99.684919,
+        "latEnd": 32.408289,
+        "lonEnd": -99.684819,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "17L",
+        "numberEnd": "35R",
+        "latStart": 32.408531,
+        "lonStart": -99.674781,
+        "latEnd": 32.388747,
+        "lonEnd": -99.674683,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 32.419603,
+        "lonStart": -99.694811,
+        "latEnd": 32.425789,
+        "lonEnd": -99.685383,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 49
+  },
+  {
+    "type": 1,
+    "icao": "T23",
+    "lat": 32.71875,
+    "lon": -99.2675,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1424,
+    "tower": false,
+    "name": "ALBANY MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 32.723889,
+        "lonStart": -99.2675,
+        "latEnd": 32.713611,
+        "lonEnd": -99.2675,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 176
+  },
+  {
+    "type": 1,
+    "icao": "F56",
+    "lat": 32.911566666666666,
+    "lon": -99.732276,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12720,
+        "name": "ABILENE APP/DEP"
+      }
+    ],
+    "elevation": 1561,
+    "tower": false,
+    "name": "ARLEDGE FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 32.914236,
+        "lonStart": -99.735953,
+        "latEnd": 32.904053,
+        "lonEnd": -99.736036,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 32.913611,
+        "lonStart": -99.734167,
+        "latEnd": 32.913611,
+        "lonEnd": -99.727222,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 32.913611,
+        "lonStart": -99.732222,
+        "latEnd": 32.910278,
+        "lonEnd": -99.728056,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 391
+  },
+  {
+    "type": 1,
+    "icao": "3F2",
+    "lat": 32.416798,
+    "lon": -99.000344,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1611,
+    "tower": false,
+    "name": "CISCO MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 32.421883,
+        "lonStart": -99.000344,
+        "latEnd": 32.411713,
+        "lonEnd": -99.000344,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3937
+  },
+  {
+    "type": 1,
+    "icao": "KDYS",
+    "lat": 32.419359166666666,
+    "lon": -99.855863,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 11835,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 13300,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12500,
+        "name": "ABILENE APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12720,
+        "name": "ABILENE APP/DEP"
+      }
+    ],
+    "elevation": 1789,
+    "tower": true,
+    "name": "DYESS AFB",
+    "runways": [
+      {
+        "type": 100,
+        "width": 91.44,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 32.438956,
+        "lonStart": -99.858831,
+        "latEnd": 32.402556,
+        "lonEnd": -99.850369,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "16C",
+        "numberEnd": "34C",
+        "latStart": 32.42542172,
+        "lonStart": -99.85593667,
+        "latEnd": 32.41609028,
+        "lonEnd": -99.85326333,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "16R",
+        "numberEnd": "34L",
+        "latStart": 32.421367,
+        "lonStart": -99.859503,
+        "latEnd": 32.411764,
+        "lonEnd": -99.857275,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5920
+  },
+  {
+    "type": 1,
+    "icao": "6F4",
+    "lat": 32.450125549999996,
+    "lon": -99.65036362000001,
+    "communications": [],
+    "elevation": 1774,
+    "tower": false,
+    "name": "Elmdale Airpark",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 32.45456668,
+        "lonStart": -99.64962397,
+        "latEnd": 32.44568442,
+        "lonEnd": -99.65110327,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 32.45416898,
+        "lonStart": -99.65053095,
+        "latEnd": 32.44608212,
+        "lonEnd": -99.65019629,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 32.45045004,
+        "lonStart": -99.65309967,
+        "latEnd": 32.44980106,
+        "lonEnd": -99.64762757,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7127
+  },
+  {
+    "type": 1,
+    "icao": "35TX",
+    "lat": 32.48401222,
+    "lon": -99.82564667,
+    "communications": [],
+    "elevation": 1750,
+    "tower": false,
+    "name": "Flying B Ranch Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 32.48763432,
+        "lonStart": -99.82655937,
+        "latEnd": 32.48039012,
+        "lonEnd": -99.82473397,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9410
+  },
+  {
+    "type": 1,
+    "icao": "TX14",
+    "lat": 32.36679444,
+    "lon": -99.75175472999999,
+    "communications": [],
+    "elevation": 1820,
+    "tower": false,
+    "name": "Flying W",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 32.36964654,
+        "lonStart": -99.75128016,
+        "latEnd": 32.36394234,
+        "lonEnd": -99.7522293,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 9534
+  },
+  {
+    "type": 1,
+    "icao": "TA16",
+    "lat": 32.027920550000005,
+    "lon": -99.10728306,
+    "communications": [],
+    "elevation": 1550,
+    "tower": false,
+    "name": "Goodall Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 32.03340317,
+        "lonStart": -99.10750889,
+        "latEnd": 32.02243793,
+        "lonEnd": -99.10705723,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10589
+  },
+  {
+    "type": 1,
+    "icao": "TX36",
+    "lat": 32.83345,
+    "lon": -99.04201612,
+    "communications": [],
+    "elevation": 1190,
+    "tower": false,
+    "name": "Green Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 32.83893262,
+        "lonStart": -99.04224398,
+        "latEnd": 32.82796738,
+        "lonEnd": -99.04178826,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10761
+  },
+  {
+    "type": 1,
+    "icao": "54TS",
+    "lat": 32.81122472,
+    "lon": -99.85176084,
+    "communications": [],
+    "elevation": 1235,
+    "tower": false,
+    "name": "J Bar Wc Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 32.813237,
+        "lonStart": -99.85226976,
+        "latEnd": 32.80921244,
+        "lonEnd": -99.85125192,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12626
+  },
+  {
+    "type": 1,
+    "icao": "TX02",
+    "lat": 32.526512499999995,
+    "lon": -99.61286362,
+    "communications": [],
+    "elevation": 1780,
+    "tower": false,
+    "name": "Portlock Airfield",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 32.53035033,
+        "lonStart": -99.61302257,
+        "latEnd": 32.52267467,
+        "lonEnd": -99.61270467,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20418
+  },
+  {
+    "type": 1,
+    "icao": "TX20",
+    "lat": 32.79316944,
+    "lon": -99.87787278,
+    "communications": [],
+    "elevation": 1670,
+    "tower": false,
+    "name": "Steen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 32.7901694,
+        "lonStart": -99.87903235,
+        "latEnd": 32.79616948,
+        "lonEnd": -99.87671321,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24151
+  },
+  {
+    "type": 1,
+    "icao": "6F5",
+    "lat": 32.742618050000004,
+    "lon": -99.29785612,
+    "communications": [],
+    "elevation": 1473,
+    "tower": false,
+    "name": "Taylor",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 32.74657553,
+        "lonStart": -99.29885622,
+        "latEnd": 32.73866057,
+        "lonEnd": -99.29685602,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 25094
+  },
+  {
+    "type": 1,
+    "icao": "6F2",
+    "lat": 32.27040833,
+    "lon": -99.59785806,
+    "communications": [],
+    "elevation": 2057,
+    "tower": false,
+    "name": "Zimmerle",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 32.27193428,
+        "lonStart": -99.59858721,
+        "latEnd": 32.26888238,
+        "lonEnd": -99.59712891,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 27909
+  },
+  {
     "type": 17,
     "icao": "4TX1",
     "lat": 32.37457166,

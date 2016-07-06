@@ -1,162 +1,78 @@
 [
   {
     "type": 1,
-    "icao": "TFFB",
-    "lat": 16.018048999999998,
-    "lon": -22.86524952,
+    "icao": "GVBA",
+    "lat": 16.1365315,
+    "lon": -22.8888975,
     "communications": [],
-    "elevation": 55,
+    "elevation": 69,
     "tower": false,
-    "name": "Basse-Terre/Baillif",
+    "name": "Rabil",
     "runways": [
       {
         "type": 100,
-        "width": 20.12,
+        "width": 29.87,
         "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 16.01960893,
-        "lonStart": -61.74698811,
-        "latEnd": 16.01648907,
-        "lonEnd": -61.74217589,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 16.131244,
+        "lonStart": -22.890531,
+        "latEnd": 16.141819,
+        "lonEnd": -22.887264,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 2328
+    "id": 21106
   },
   {
     "type": 1,
-    "icao": "TFFA",
-    "lat": 16.300268,
-    "lon": -22.39037618,
-    "communications": [],
-    "elevation": 9,
-    "tower": false,
-    "name": "Grande Anse La Desirade",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 16.29932985,
-        "lonStart": -61.08195851,
-        "latEnd": 16.30120615,
-        "lonEnd": -61.07658749,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 10698
-  },
-  {
-    "type": 1,
-    "icao": "TFFR",
-    "lat": 16.26528716,
-    "lon": -22.642848215,
+    "icao": "GVAC",
+    "lat": 16.73820825,
+    "lon": -22.9505,
     "communications": [
       {
-        "type": 50,
-        "frequency": 12760,
-        "name": "TFFR ATIS"
-      },
-      {
-        "type": 53,
-        "frequency": 12185,
-        "name": "RAIZET GND"
-      },
-      {
         "type": 54,
-        "frequency": 11840,
-        "name": "RAIZET TWR"
+        "frequency": 11970,
+        "name": "TWR"
       },
       {
         "type": 55,
-        "frequency": 11905,
-        "name": "RAIZET APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12130,
-        "name": "RAIZET APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12907,
-        "name": "RAIZET APP"
+        "frequency": 11970,
+        "name": "SAL APP"
       }
     ],
-    "elevation": 35,
+    "elevation": 177,
     "tower": true,
-    "name": "Point \bC \b\bPitre - Le Raizet",
+    "name": "Sal Amilcar Cabral Intl",
     "runways": [
       {
         "type": 100,
-        "width": 45,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 16.26835416,
-        "lonStart": -61.54791659,
-        "latEnd": 16.26222016,
-        "lonEnd": -61.51569859,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 16.721333,
+        "lonStart": -22.948833,
+        "latEnd": 16.751,
+        "lonEnd": -22.949,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 16.736667,
+        "lonStart": -22.958,
+        "latEnd": 16.743833,
+        "lonEnd": -22.946167,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 20309
-  },
-  {
-    "type": 1,
-    "icao": "TFFC",
-    "lat": 16.255384,
-    "lon": -22.506079905,
-    "communications": [],
-    "elevation": 9,
-    "tower": false,
-    "name": "Saint Francois",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 16.25578715,
-        "lonStart": -61.26714066,
-        "latEnd": 16.25498085,
-        "lonEnd": -61.26177734,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 22700
-  },
-  {
-    "type": 16,
-    "icao": "SP18",
-    "lat": 16.217129,
-    "lon": -22.671114449999997,
-    "communications": [],
-    "elevation": 0,
-    "tower": false,
-    "name": "[S] Le Raizet Harbor",
-    "runways": [
-      {
-        "type": 101,
-        "width": 3047.7,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 16.2308439,
-        "lonStart": -61.545643,
-        "latEnd": 16.2034141,
-        "lonEnd": -61.545643,
-        "length": 0
-      }
-    ],
-    "id": 34251
+    "id": 22728
   }
 ]
