@@ -44,16 +44,16 @@ function mapToLatLon(data) {
   };
 }
 
-function mapLatLonToSelectors(data, selectors) {
+function mapLatLonToSelectors(data, selectors, label) {
   return function (item) {
-    selectors.forEach(function (selector) {
+    selectors.forEach(function (selector, i) {
       var key = selector(item);
       if (!key) return;
       if (!data[key]) data[key] = [];
 
       data[key].push({
         id: item.id,
-        label: key,
+        label: label ? label(item) : key,
         lat: item.lat,
         lon: item.lon
       });
@@ -83,7 +83,7 @@ function writeJson(data, dest) {
   fs.writeFileSync(dest + '.json', JSON.stringify(data, null, 2), 'utf8');
 }
 
-function writeSearchIndex(list, filename, selectors) {
+function writeSearchIndex(list, filename, selectors, label) {
   var dest = path.join(searchIndexPath, filename);
 
   if (fs.existsSync(dest)) {
@@ -92,12 +92,12 @@ function writeSearchIndex(list, filename, selectors) {
 
   var index = {};
 
-  list.forEach(mapLatLonToSelectors(index, selectors));
+  list.forEach(mapLatLonToSelectors(index, selectors, label));
 
   writeJson(index, dest);
 }
 
-function importData(filename, src, searchSelectors) {
+function importData(filename, src, searchSelectors, label) {
   debug(src);
 
   if (!fs.existsSync(src)) {
@@ -110,7 +110,7 @@ function importData(filename, src, searchSelectors) {
   list.forEach(mapToLatLon(data));
 
   writeToLatLon(data, filename);
-  writeSearchIndex(list, filename, searchSelectors);
+  writeSearchIndex(list, filename, searchSelectors, label);
 }
 
 function importAirways(src) {
@@ -129,7 +129,9 @@ function importAirways(src) {
 }
 
 clear();
-importData('airports', airportsDatPath, [property('icao'), property('name')]);
+importData('airports', airportsDatPath, [property('icao'), property('name')], function (airport) {
+  return airport.icao + ' - ' + airport.name;
+});
 importData('fixes', fixesDatPath, [property('name')]);
 importData('navaids', navaidsDatPath, [property('name'), property('identifier')]);
 importAirways(airwaysDatPath);
