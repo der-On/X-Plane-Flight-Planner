@@ -12,17 +12,31 @@ body {
   line-height: 20px;
 }
 
+.main-search {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 2;
+}
+
+.main-menu-icon,
 .main-search-icon {
+  margin: 1rem;
   vertical-align: middle;
-  margin-right: 0.5rem;
+  position: relative;
+  top: -0.25rem;
+}
+.main-search-icon {
+  opacity: 0.25;
 }
 
 .main-map {
   position: fixed;
-  top: 4rem;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+  z-index: 1;
 }
 .main-map .leaflet-container {
   width: 100%;
