@@ -81,8 +81,8 @@ var _leaflet2 = _interopRequireDefault(_leaflet);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var baseUrl = window.location.href + '/images/icons';
-_leaflet2.default.Icon.Default.imagePath = window.location.href + '/images/leaflet';
+var baseUrl = window.location.href.split('#')[0] + '/images/icons';
+_leaflet2.default.Icon.Default.imagePath = window.location.href.split('#')[0] + '/images/leaflet';
 
 function airportIconUrl(airport) {
   // simple air strip
@@ -90,7 +90,8 @@ function airportIconUrl(airport) {
     return '/airport_strip.png';
   }
 
-  // big airport with more than 2 runways TODO: airport size should be defined by runway lengths
+  // big airport with more than 2 runways
+  // TODO: airport size should be defined by runway lengths
   if (airport.runways.length > 2) {
     return '/airport_big.png';
   }
@@ -218,6 +219,12 @@ var _toString = require('lodash/toString');
 
 var _toString2 = _interopRequireDefault(_toString);
 
+var _constants = require('../../state/constants');
+
+var c = _interopRequireWildcard(_constants);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -250,8 +257,8 @@ var Map = function (_React$Component) {
       this.map = _leaflet2.default.map(this.refs.container, {
         center: center,
         zoom: zoom,
-        maxZoom: 20,
-        minZoom: 2
+        maxZoom: c.MAP_MAX_ZOOM,
+        minZoom: c.MAP_MIN_ZOOM
       });
 
       this.map.zoomControl.setPosition('topright');
@@ -290,6 +297,7 @@ var Map = function (_React$Component) {
 
       this.updateNavItemMarkers();
       this.updateWaypoints();
+      this.updateLocationHash();
       this.bindMapEvents();
     }
   }, {
@@ -316,7 +324,7 @@ var Map = function (_React$Component) {
         }
       }
 
-      var debouncedHandler = (0, _debounce2.default)(handler, 1000);
+      var debouncedHandler = (0, _debounce2.default)(handler, 250);
 
       function attach(event) {
         self.map.on(event, debouncedHandler);
@@ -349,6 +357,7 @@ var Map = function (_React$Component) {
         this.map.setView(centerLatLng, zoom, {
           animate: true
         });
+        this.updateLocationHash();
       }
 
       if (navItems !== prevProps.navItems) {
@@ -375,6 +384,15 @@ var Map = function (_React$Component) {
       dispatch((0, _actions.setMapCenter)(centerLatLng.lat, centerLatLng.lng));
     }
   }, {
+    key: 'updateLocationHash',
+    value: function updateLocationHash() {
+      var _props3 = this.props;
+      var center = _props3.center;
+      var zoom = _props3.zoom;
+
+      window.location.hash = '#' + zoom + '/' + center.join('/');
+    }
+  }, {
     key: 'requestGeoSearch',
     value: function requestGeoSearch() {
       var dispatch = this.props.dispatch;
@@ -385,14 +403,43 @@ var Map = function (_React$Component) {
   }, {
     key: 'updateNavItemMarkers',
     value: function updateNavItemMarkers() {
+      if (this.map.getZoom() < c.MAP_MIN_ZOOM_NAV_ITEMS_VISIBLE) {
+        this.clearNavItemMarkers();
+        return;
+      }
+
       this.createNavItemMarkers();
-      this.clearNavItemMarkers();
+      this.cleanupNavItemMarkers();
     }
   }, {
     key: 'clearNavItemMarkers',
     value: function clearNavItemMarkers() {
+      var self = this;
+
+      function deleteFrom(collection, layerGroup) {
+        return function (id) {
+          var marker = collection[id] || null;
+          if (marker) {
+            layerGroup.removeLayer(marker);
+          }
+          delete collection[id];
+        };
+      }
+
+      Object.keys(this.markers.airports).forEach(deleteFrom(this.markers.airports, this.layerGroups.airports));
+
+      Object.keys(this.markers.navaids).forEach(deleteFrom(this.markers.navaids, this.layerGroups.navaids));
+
+      Object.keys(this.markers.fixes).forEach(deleteFrom(this.markers.fixes, this.layerGroups.fixes));
+
+      Object.keys(this.markers.airways).forEach(deleteFrom(this.markers.airways, this.layerGroups.airways));
+    }
+  }, {
+    key: 'cleanupNavItemMarkers',
+    value: function cleanupNavItemMarkers() {
       var navItems = this.props.navItems;
 
+      var zoom = this.map.getZoom();
       var self = this;
       var getId = (0, _flow2.default)((0, _property2.default)('id'), _toString2.default);
 
@@ -406,13 +453,42 @@ var Map = function (_React$Component) {
         };
       }
 
-      var airportIds = navItems.airports.map(getId);
-      var navaidIds = navItems.navaids.map(getId);
-      var fixIds = navItems.fixes.map(getId);
+      function filterAirport(airport) {
+        if (zoom <= c.MAP_LOD_1_ZOOM) {
+          return airport.runways.length > 2;
+        }
+
+        return true;
+      }
+
+      function filterNavaid(navaid) {
+        return zoom > c.MAP_LOD_2_ZOOM;
+      }
+
+      function filterFix(fix) {
+        return zoom > c.MAP_LOD_2_ZOOM;
+      }
+
+      function filterAirway(airway) {
+        if (zoom <= c.MAP_LOD_2_ZOOM) {
+          return airway.type === 2;
+        }
+
+        return true;
+      }
+
+      var airportIds = navItems.airports.filter(filterAirport).map(getId);
+
+      var navaidIds = navItems.navaids.filter(filterNavaid).map(getId);
+
+      var fixIds = navItems.fixes.filter(filterFix).map(getId);
+
+      var airwayIds = navItems.airways.filter(filterAirway).map(getId);
 
       var prevAirportIds = Object.keys(this.markers.airports);
       var prevNavaidIds = Object.keys(this.markers.navaids);
       var prevFixIds = Object.keys(this.markers.fixes);
+      var prevAirwayIds = Object.keys(this.markers.airways);
 
       var airportsToDelete = _without2.default.apply(null, [prevAirportIds].concat(airportIds));
       airportsToDelete.forEach(deleteFrom(this.markers.airports, this.layerGroups.airports));
@@ -422,6 +498,9 @@ var Map = function (_React$Component) {
 
       var fixesToDelete = _without2.default.apply(null, [prevFixIds].concat(fixIds));
       fixesToDelete.forEach(deleteFrom(this.markers.fixes, this.layerGroups.fixes));
+
+      var airwaysToDelete = _without2.default.apply(null, [prevAirwayIds].concat(airwayIds));
+      airwaysToDelete.forEach(deleteFrom(this.markers.airways, this.layerGroups.airways));
     }
   }, {
     key: 'createNavItemMarkers',
@@ -448,6 +527,36 @@ var Map = function (_React$Component) {
       navItems.navaids.forEach(createIn('navaid', this.markers.navaids, this.layerGroups.navaids));
 
       navItems.fixes.forEach(createIn('fix', this.markers.fixes, this.layerGroups.fixes));
+
+      // TODO: create airways as layergroups containg start, stop, label and line
+      navItems.airways.forEach(function (airway) {
+        var group = self.markers.airways[airway.id] || null;
+        if (!group) {
+          group = _leaflet2.default.layerGroup([self.createAirwayMarker(airway, airway.latFrom, airway.lonFrom), self.createAirwayMarker(airway, airway.latTo, airway.lonTo), self.createAirwayLine(airway)]);
+        }
+      });
+    }
+  }, {
+    key: 'createAirwayMarker',
+    value: function createAirwayMarker(airway, lat, lon) {
+      var latLng = _leaflet2.default.latLng(lat, lon);
+      var marker = _leaflet2.default.marker(latLng, {
+        icon: _Icons2.default.airway(airway),
+        zIndexOffset: -1000
+      });
+
+      return marker;
+    }
+  }, {
+    key: 'createAirwayLine',
+    value: function createAirwayLine(airway) {
+      var line = _leaflet2.default.polyline([[airway.latFrom, airway.lonFrom], [airway.latTo, airway.lonTo]], {
+        dashArray: '5, 5',
+        clickable: false,
+        color: airway.type === 2 ? '#4f6f3e' : '#3161a4'
+      });
+
+      return line;
     }
   }, {
     key: 'createNavItemMarker',
@@ -455,8 +564,7 @@ var Map = function (_React$Component) {
       var zIndexes = {
         airport: 3000,
         navaid: 2000,
-        fix: 1000,
-        airway: -1000
+        fix: 1000
       };
       var latLng = _leaflet2.default.latLng(navItem.lat, navItem.lon);
       var marker = _leaflet2.default.marker(latLng, {
@@ -497,11 +605,11 @@ var Map = function (_React$Component) {
   }, {
     key: 'render',
     value: function render() {
-      var _props3 = this.props;
-      var activeNavItem = _props3.activeNavItem;
-      var center = _props3.center;
-      var zoom = _props3.zoom;
-      var baseLayer = _props3.baseLayer;
+      var _props4 = this.props;
+      var activeNavItem = _props4.activeNavItem;
+      var center = _props4.center;
+      var zoom = _props4.zoom;
+      var baseLayer = _props4.baseLayer;
 
 
       return _react2.default.createElement('div', {
@@ -529,7 +637,7 @@ var mapStateToProps = function mapStateToProps(state) {
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(Map);
 
-},{"../../state/actions":10,"./BaseLayers":2,"./Icons":3,"leaflet":83,"lodash/debounce":221,"lodash/flow":224,"lodash/property":246,"lodash/toString":255,"lodash/without":256,"react":583,"react-redux":401}],5:[function(require,module,exports){
+},{"../../state/actions":10,"../../state/constants":12,"./BaseLayers":2,"./Icons":3,"leaflet":83,"lodash/debounce":221,"lodash/flow":224,"lodash/property":246,"lodash/toString":255,"lodash/without":256,"react":583,"react-redux":401}],5:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -753,7 +861,7 @@ var _geo_search2 = _interopRequireDefault(_geo_search);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var geoSearch = (0, _geo_search2.default)(window.location.href);
+var geoSearch = (0, _geo_search2.default)(window.location.href.split('#')[0]);
 exports.default = geoSearch;
 
 },{"../geo_search":16}],8:[function(require,module,exports){
@@ -811,7 +919,7 @@ var _search2 = _interopRequireDefault(_search);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var navDataSearch = (0, _search2.default)(window.location.href);
+var navDataSearch = (0, _search2.default)(window.location.href.split('#')[0]);
 exports.default = navDataSearch;
 
 },{"../search":19}],10:[function(require,module,exports){
@@ -1251,6 +1359,12 @@ var MAP_BASE_LAYER_OSM = exports.MAP_BASE_LAYER_OSM = 'osm';
 var MAP_ZOOM_DEFAULT = exports.MAP_ZOOM_DEFAULT = 8;
 var MAP_ZOOM_ACTIVE_NAV_ITEM = exports.MAP_ZOOM_ACTIVE_NAV_ITEM = 12;
 var MAP_CENTER_DEFAULT = exports.MAP_CENTER_DEFAULT = [0, 0];
+var MAP_MAX_ZOOM = exports.MAP_MAX_ZOOM = 20;
+var MAP_MIN_ZOOM = exports.MAP_MIN_ZOOM = 2;
+var MAP_MIN_ZOOM_NAV_ITEMS_VISIBLE = exports.MAP_MIN_ZOOM_NAV_ITEMS_VISIBLE = 6;
+var MAP_LOD_1_ZOOM = exports.MAP_LOD_1_ZOOM = 10;
+var MAP_LOD_2_ZOOM = exports.MAP_LOD_2_ZOOM = 8;
+var MAP_LOD_3_ZOOM = exports.MAP_LOD_3_ZOOM = 6;
 
 },{}],13:[function(require,module,exports){
 'use strict';
