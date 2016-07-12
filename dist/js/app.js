@@ -81,10 +81,92 @@ var _leaflet2 = _interopRequireDefault(_leaflet);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var baseUrl = window.location.href + '/images/icons';
 _leaflet2.default.Icon.Default.imagePath = window.location.href + '/images/leaflet';
 
+function airportIconUrl(airport) {
+  // simple air strip
+  if (airport.type === 1 && airport.runways.length === 1 && airport.runways[0].type > 2) {
+    return '/airport_strip.png';
+  }
+
+  // big airport with more than 2 runways TODO: airport size should be defined by runway lengths
+  if (airport.runways.length > 2) {
+    return '/airport_big.png';
+  }
+
+  // seaport
+  if (airport.type === 16) {
+    return '/airport_sea.png';
+  }
+
+  // heliport
+  if (airport.type === 17) {
+    return '/airport_heli.png';
+  }
+
+  return '/airport_default.png';
+}
+
+function navaidIconUrl(navaid) {
+  // NDB
+  if (navaid.type === 2) {
+    return '/navaid_ndb.png';
+  }
+
+  // VOR
+  if (navaid.type === 3) {
+    return '/navaid_vor.png';
+  }
+
+  // DME
+  if (navaid.type === 12 || navaid.type == 13) {
+    return '/navaid_dme.png';
+  }
+
+  return '/navaid_dme.png';
+}
+
+function airwayIconUrl(airway) {
+  if (airway.type === 2) {
+    return '/airway_high.png';
+  }
+
+  return '/airway_low.png';
+}
+
+var defaultOptions = {
+  iconSize: [32, 32],
+  iconAnchor: [16, 16],
+  popupAnchor: [16, 32]
+};
+
 exports.default = {
-  airport: function airport() {}
+  airport: function airport(_airport) {
+    return _leaflet2.default.icon(Object.assign({}, defaultOptions, {
+      iconUrl: baseUrl + airportIconUrl(_airport)
+    }));
+  },
+  navaid: function navaid(_navaid) {
+    return _leaflet2.default.icon(Object.assign({}, defaultOptions, {
+      iconUrl: baseUrl + navaidIconUrl(_navaid)
+    }));
+  },
+  fix: function fix(_fix) {
+    return _leaflet2.default.icon(Object.assign({}, defaultOptions, {
+      iconUrl: baseUrl + '/fix.png'
+    }));
+  },
+  airway: function airway(_airway) {
+    return _leaflet2.default.icon(Object.assign({}, defaultOptions, {
+      iconUrl: baseUrl + airwayIconUrl(_airway)
+    }));
+  },
+  aircraft: function aircraft() {
+    return _leaflet2.default.icon(Object.assign({}, defaultOptions, {
+      iconUrl: baseUrl + '/aircraft.png'
+    }));
+  }
 };
 
 },{"leaflet":83}],4:[function(require,module,exports){
@@ -154,15 +236,6 @@ var Map = function (_React$Component) {
   }
 
   _createClass(Map, [{
-    key: 'getDefaultProps',
-    value: function getDefaultProps() {
-      return {
-        center: [0, 0],
-        zoom: 10,
-        baseLayer: 'osm'
-      };
-    }
-  }, {
     key: 'componentDidMount',
     value: function componentDidMount() {
       var _props = this.props;
@@ -172,6 +245,7 @@ var Map = function (_React$Component) {
       var baseLayer = _props.baseLayer;
       var dispatch = _props.dispatch;
 
+      // create and configure map
 
       this.map = _leaflet2.default.map(this.refs.container, {
         center: center,
@@ -180,19 +254,36 @@ var Map = function (_React$Component) {
         minZoom: 2
       });
 
+      this.map.zoomControl.setPosition('topright');
+
       // add baselayers
       this.baseLayers = _BaseLayers2.default;
       this.baseLayers[baseLayer].addTo(this.map);
-      this.navItemMarkers = {
+
+      // add markers and lines
+      this.markers = {
         airports: {},
         navaids: {},
         fixes: {},
-        airways: {}
+        airways: {},
+        waypoints: {}
       };
-      this.waypointMarkers = {};
-      this.waypointLines = {};
 
-      this.map.zoomControl.setPosition('topright');
+      this.layerGroups = {
+        airports: _leaflet2.default.layerGroup(),
+        navaids: _leaflet2.default.layerGroup(),
+        fixes: _leaflet2.default.layerGroup(),
+        airways: _leaflet2.default.layerGroup(),
+        waypoints: _leaflet2.default.layerGroup(),
+        aircraft: _leaflet2.default.layerGroup()
+      };
+
+      this.layerGroups.airways.addTo(this.map);
+      this.layerGroups.fixes.addTo(this.map);
+      this.layerGroups.navaids.addTo(this.map);
+      this.layerGroups.airports.addTo(this.map);
+      this.layerGroups.waypoints.addTo(this.map);
+      this.layerGroups.aircraft.addTo(this.map);
 
       // initially load nav items
       this.requestGeoSearch();
@@ -219,6 +310,7 @@ var Map = function (_React$Component) {
         if (self.map.getZoom() !== zoom) {
           self.updateZoom();
         }
+
         if (!centerLatLng.equals(self.map.getCenter())) {
           self.updateCenter();
         }
@@ -304,11 +396,11 @@ var Map = function (_React$Component) {
       var self = this;
       var getId = (0, _flow2.default)((0, _property2.default)('id'), _toString2.default);
 
-      function deleteFrom(collection) {
+      function deleteFrom(collection, layerGroup) {
         return function (id) {
           var marker = collection[id] || null;
           if (marker) {
-            self.map.removeLayer(marker);
+            layerGroup.removeLayer(marker);
           }
           delete collection[id];
         };
@@ -318,15 +410,18 @@ var Map = function (_React$Component) {
       var navaidIds = navItems.navaids.map(getId);
       var fixIds = navItems.fixes.map(getId);
 
-      var prevAirportIds = Object.keys(this.navItemMarkers.airports);
-      var prevNavaidIds = Object.keys(this.navItemMarkers.navaids);
-      var prevFixIds = Object.keys(this.navItemMarkers.fixes);
+      var prevAirportIds = Object.keys(this.markers.airports);
+      var prevNavaidIds = Object.keys(this.markers.navaids);
+      var prevFixIds = Object.keys(this.markers.fixes);
 
-      _without2.default.apply(null, [prevAirportIds].concat(airportIds)).forEach(deleteFrom(this.navItemMarkers.airports));
+      var airportsToDelete = _without2.default.apply(null, [prevAirportIds].concat(airportIds));
+      airportsToDelete.forEach(deleteFrom(this.markers.airports, this.layerGroups.airports));
 
-      _without2.default.apply(null, [prevNavaidIds].concat(navaidIds)).forEach(deleteFrom(this.navItemMarkers.navaids));
+      var navaidsToDelete = _without2.default.apply(null, [prevNavaidIds].concat(navaidIds));
+      navaidsToDelete.forEach(deleteFrom(this.markers.navaids, this.layerGroups.navaids));
 
-      _without2.default.apply(null, [prevFixIds].concat(fixIds)).forEach(deleteFrom(this.navItemMarkers.fixes));
+      var fixesToDelete = _without2.default.apply(null, [prevFixIds].concat(fixIds));
+      fixesToDelete.forEach(deleteFrom(this.markers.fixes, this.layerGroups.fixes));
     }
   }, {
     key: 'createNavItemMarkers',
@@ -335,44 +430,39 @@ var Map = function (_React$Component) {
       var navItems = this.props.navItems;
 
 
-      navItems.airports.forEach(function (airport) {
-        var marker = self.navItemMarkers.airports[airport.id];
-        if (!marker) {
-          marker = self.createNavItemMarker('airport', airport);
-          self.navItemMarkers.airports[airport.id] = marker;
-          marker.addTo(self.map);
-        }
+      function createIn(type, collection, layerGroup) {
+        return function (item) {
+          var marker = collection[item.id];
+          if (!marker) {
+            marker = self.createNavItemMarker(type, item);
+            collection[item.id] = marker;
+            marker.addTo(layerGroup);
+          }
 
-        return marker;
-      });
+          return marker;
+        };
+      }
 
-      navItems.navaids.forEach(function (navaid) {
-        var marker = self.navItemMarkers.navaids[navaid.id];
-        if (!marker) {
-          marker = self.createNavItemMarker('navaid', navaid);
-          self.navItemMarkers.navaids[navaid.id] = marker;
-          marker.addTo(self.map);
-        }
+      navItems.airports.forEach(createIn('airport', this.markers.airports, this.layerGroups.airports));
 
-        return marker;
-      });
+      navItems.navaids.forEach(createIn('navaid', this.markers.navaids, this.layerGroups.navaids));
 
-      navItems.fixes.forEach(function (fix) {
-        var marker = self.navItemMarkers.fixes[fix.id];
-        if (!marker) {
-          marker = self.createNavItemMarker('fix', fix);
-          self.navItemMarkers.fixes[fix.id] = marker;
-          marker.addTo(self.map);
-        }
-
-        return marker;
-      });
+      navItems.fixes.forEach(createIn('fix', this.markers.fixes, this.layerGroups.fixes));
     }
   }, {
     key: 'createNavItemMarker',
     value: function createNavItemMarker(type, navItem) {
+      var zIndexes = {
+        airport: 3000,
+        navaid: 2000,
+        fix: 1000,
+        airway: -1000
+      };
       var latLng = _leaflet2.default.latLng(navItem.lat, navItem.lon);
-      var marker = _leaflet2.default.marker(latLng);
+      var marker = _leaflet2.default.marker(latLng, {
+        icon: _Icons2.default[type](navItem),
+        zIndexOffset: zIndexes[type] || 0
+      });
 
       return marker;
     }
