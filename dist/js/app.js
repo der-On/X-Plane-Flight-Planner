@@ -589,11 +589,15 @@ var Map = function (_React$Component) {
       }
 
       function filterLowAirway(airway) {
-        if (zoom <= c.MAP_LOD_3_ZOOM) {
+        if (zoom <= c.MAP_LOD_2_ZOOM) {
           return airway.type === 2;
         }
 
         return true;
+      }
+
+      function filterAirway(airway) {
+        return zoom > c.MAP_LOD_3_ZOOM;
       }
 
       function hideMarkerIn(collection) {
@@ -624,7 +628,7 @@ var Map = function (_React$Component) {
 
       var fixIds = navItems.fixes.filter(filterFix).map(getId);
 
-      var airwayIds = navItems.airways.map(getId);
+      var airwayIds = navItems.airways.filter(filterAirway).filter(filterLowAirway).map(getId);
 
       var prevAirportIds = Object.keys(this.markers.airports);
       var prevNavaidIds = Object.keys(this.markers.navaids);
