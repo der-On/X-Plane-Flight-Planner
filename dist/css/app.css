@@ -46,3 +46,13 @@ body {
 .nav-item-marker-icon {
   transition: opacity 0.5s;
 }
+
+.nav-item-popup-content .nav-item-icon {
+  vertical-align: middle;
+}
+.nav-item-popup-content .airport-runways,
+.nav-item-popup-content .airport-communications {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
