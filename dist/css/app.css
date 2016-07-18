@@ -12,13 +12,18 @@ body {
   line-height: 20px;
 }
 
-.main-search {
+.main-sidebar {
   position: fixed;
-  top: 1rem;
-  left: 1rem;
+  top: 0;
+  left: 0;
+  height: 3rem;
   z-index: 2;
+  transition: all 0.25s ease-in-out;
+  overflow: hidden;
 }
-
+.main-sidebar.expanded {
+  height: 100%;
+}
 .main-menu-icon,
 .main-search-icon {
   margin: 1rem;
@@ -55,4 +60,35 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.nav-item-icon {
+  height: 1em;
+  width: auto;
+  display: inline-block;
+}
+
+.waypoints-list__items {
+  position: absolute;
+  top: 6rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+}
+.waypoint__title {
+  margin: 0 0 1rem 0;
+}
+.waypoint__details {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 14px;
+  line-height: 16px;
+  cursor: default;
+}
+.waypoint__icon {
+  margin: 0 0.5rem;
+  vertical-align: top;
+}
+.waypoint__elevation {
+  max-width: 5rem;
 }
