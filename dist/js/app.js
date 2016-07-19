@@ -662,6 +662,8 @@ var Map = function (_React$Component) {
       // initially load nav items
       this.requestGeoSearch();
 
+      this.updateViewFromLocationHash();
+
       this.updateNavItemMarkers();
       this.updateFlightPlans();
       this.updateLocationHash();
@@ -752,11 +754,31 @@ var Map = function (_React$Component) {
       }
     }
   }, {
+    key: 'updateViewFromLocationHash',
+    value: function updateViewFromLocationHash() {
+      var _props4 = this.props;
+      var zoom = _props4.zoom;
+      var center = _props4.center;
+      var dispatch = _props4.dispatch;
+
+      var hash = window.location.hash.replace('#', '');
+
+      if (!hash.length) return;
+
+      var parts = hash.split('/');
+
+      var _zoom = parseInt(parts[0] || zoom);
+      var lat = parseFloat(parts[1] || center[0]);
+      var lon = parseFloat(parts[2] || center[1]);
+
+      dispatch((0, _actions.setMapView)(_zoom, lat, lon));
+    }
+  }, {
     key: 'updateLocationHash',
     value: function updateLocationHash() {
-      var _props4 = this.props;
-      var center = _props4.center;
-      var zoom = _props4.zoom;
+      var _props5 = this.props;
+      var center = _props5.center;
+      var zoom = _props5.zoom;
 
       window.location.hash = '#' + zoom + '/' + center.join('/');
     }
@@ -949,9 +971,9 @@ var Map = function (_React$Component) {
     key: 'createFlightPlans',
     value: function createFlightPlans() {
       var self = this;
-      var _props5 = this.props;
-      var flightPlans = _props5.flightPlans;
-      var waypoints = _props5.waypoints;
+      var _props6 = this.props;
+      var flightPlans = _props6.flightPlans;
+      var waypoints = _props6.waypoints;
 
 
       function create(id) {
@@ -1008,9 +1030,9 @@ var Map = function (_React$Component) {
   }, {
     key: 'createWaypoints',
     value: function createWaypoints() {
-      var _props6 = this.props;
-      var waypoints = _props6.waypoints;
-      var flightPlans = _props6.flightPlans;
+      var _props7 = this.props;
+      var waypoints = _props7.waypoints;
+      var flightPlans = _props7.flightPlans;
 
       var self = this;
 
@@ -1114,9 +1136,9 @@ var Map = function (_React$Component) {
   }, {
     key: 'addNavItemAsWaypoint',
     value: function addNavItemAsWaypoint(type, id) {
-      var _props7 = this.props;
-      var activeFlightPlanId = _props7.activeFlightPlanId;
-      var dispatch = _props7.dispatch;
+      var _props8 = this.props;
+      var activeFlightPlanId = _props8.activeFlightPlanId;
+      var dispatch = _props8.dispatch;
 
       var navItem = this.navItemById(type, id);
       if (!navItem) return;
@@ -1126,11 +1148,11 @@ var Map = function (_React$Component) {
   }, {
     key: 'render',
     value: function render() {
-      var _props8 = this.props;
-      var activeNavItem = _props8.activeNavItem;
-      var center = _props8.center;
-      var zoom = _props8.zoom;
-      var baseLayer = _props8.baseLayer;
+      var _props9 = this.props;
+      var activeNavItem = _props9.activeNavItem;
+      var center = _props9.center;
+      var zoom = _props9.zoom;
+      var baseLayer = _props9.baseLayer;
 
 
       return _react2.default.createElement('div', {
@@ -2330,7 +2352,7 @@ var middlewares = [_reduxThunk2.default /*,
                                         loggerMiddleware*/
 ];
 
-var enhancer = (0, _redux.compose)((0, _reduxLocalstorage2.default)(['waypoints', 'flightPlans', 'activeFlightPlanId', 'sidebar'], {
+var enhancer = (0, _redux.compose)((0, _reduxLocalstorage2.default)(['waypoints', 'flightPlans', 'activeFlightPlanId', 'sidebar', 'map'], {
   key: 'X-Plane-Flight-Planner'
 }), _redux.applyMiddleware.apply(null, middlewares));
 
@@ -2894,8 +2916,7 @@ function setMapView() {
 
   return Object.assign({}, state, {
     zoom: action.zoom,
-    lat: action.lat,
-    lon: action.lon
+    center: [action.lat, action.lon]
   });
 }
 
