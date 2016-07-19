@@ -1,0 +1,6 @@
+.scroll-content
+  h1 Imported #{airports.length} airports
+
+  ol
+    each airport in airports
+      li #{airport.icao} - #{airport.name} | lat: #{airport.lat}, lon: #{airport.lon}

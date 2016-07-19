@@ -1,0 +1,21 @@
+footer#footer
+    p.footer-info X-Plane Flight-Planner &copy; Ondrej Brinkel 2012 | AptNav:
+      span
+        if apt_nav_info.airports
+          | airports(#{apt_nav_info.airports.data_cycle})
+        else
+          | airports(data missing)
+        if apt_nav_info.navaids
+          | navaids(#{apt_nav_info.navaids.data_cycle})
+        else
+          | navaids(data missing)
+        if apt_nav_info.fixes
+          | fixes(#{apt_nav_info.fixes.data_cycle})
+        else
+          | fixes(data missing)
+        if apt_nav_info.airways
+          | airways(#{apt_nav_info.airways.data_cycle})
+        else
+          | airways(data missing)
+    p.footer-help
+        a(href="https://github.com/der-On/X-Plane-Flight-Planner/wiki/Quickstart-Guide", target="help") Need help?

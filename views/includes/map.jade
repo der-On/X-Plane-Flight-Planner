@@ -1,0 +1,14 @@
+#map
+
+#routes
+  a.add-route(href="javascript:void(0);", onclick="FlightPlanner.Routes.add();") + add route
+  select#routes-select(onclick="FlightPlanner.Routes.activate(this.value);")
+  span#route-color
+  a.edit-route(href="javascript:void(0);", onclick="FlightPlanner.Routes.edit();", title="edit route") edit
+  #routes-waypoints
+
+script
+    $(document).ready(function(){
+        FlightPlanner.options.base_url = '#{local_config.base_url}';
+        FlightPlanner.init('map','map-menu');
+    });
