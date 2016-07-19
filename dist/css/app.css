@@ -95,3 +95,16 @@ body {
 .waypoint__elevation {
   max-width: 5rem;
 }
+
+.geo-search-progress {
+  position: fixed;
+  right: 0;
+  bottom: 1rem;
+  width: 25vw;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.leaflet-control-layers-toggle {
+  background-image: url('../images/leaflet/layers.png');
+}
