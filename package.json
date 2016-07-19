@@ -47,7 +47,8 @@
     "start": "node tasks/serve.js",
     "build": "node node_modules/.bin/browserify ./lib/app/index.js -t [ babelify --presets [ es2015 react ] ] -o ./dist/js/app.js",
     "watch": "node node_modules/.bin/watchify ./lib/app/index.js -t [ babelify --presets [ es2015 react ] ] -o ./dist/js/app.js",
-    "import": "node tasks/import.js"
+    "import": "node tasks/import.js",
+    "deploy": "npm run build && rsync -a ./dist/ ./gh-pages/ && cd ./gh-pages && git add --all && git commit -m'new build' && git push"
   },
   "repository": {
     "type": "git",
