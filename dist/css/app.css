@@ -105,6 +105,19 @@ body {
   pointer-events: none;
 }
 
+.feedback-button,
+.donate-button {
+  position: fixed;
+  bottom: 1.5rem;
+  z-index: 2;
+}
+.feedback-button {
+  right: 0.5rem;
+}
+.donate-button {
+  right: 9rem;
+}
+
 .leaflet-control-layers-toggle {
   background-image: url('../images/leaflet/layers.png');
 }
