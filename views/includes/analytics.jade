@@ -20,7 +20,8 @@ if local_config.analytics && local_config.analytics.type == 'owa'
 
 if local_config.analytics && local_config.analytics.type == 'piwik'
   <!-- Piwik -->
-  <script type="text/javascript">
+  script
+    //<![CDATA[
     var _paq = _paq || [];
     _paq.push(["setDomains", ["*.der-on.github.io/X-Plane-Flight-Planner","*.xplane.anzui.de/flight-planner"]]);
     _paq.push(['trackPageView']);
@@ -32,6 +33,8 @@ if local_config.analytics && local_config.analytics.type == 'piwik'
       var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
       g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
     })();
-  </script>
-  <noscript><p><img src="//piwik.anzui.de/piwik.php?idsite=4" style="border:0;" alt="" /></p></noscript>
+    //]]>
+  noscript
+    p
+      img(src="//piwik.anzui.de/piwik.php?idsite=4", style="border:0;", alt="")
   <!-- End Piwik Code -->
