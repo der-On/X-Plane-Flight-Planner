@@ -1,0 +1,182 @@
+[
+  {
+    "type": 1,
+    "icao": "UIUU",
+    "lat": 51.81081566666666,
+    "lon": 107.44102266666665,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12660,
+        "name": "ULAN UDE ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "ULAN UDE TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12930,
+        "name": "ULAN UDE APP"
+      }
+    ],
+    "elevation": 1690,
+    "tower": true,
+    "name": "MUKHINO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 51.804983,
+        "lonStart": 107.416503,
+        "latEnd": 51.810542,
+        "lonEnd": 107.458786,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 103.94,
+        "surfaceType": null,
+        "numberStart": "08L",
+        "numberEnd": "26R",
+        "latStart": 51.8083,
+        "lonStart": 107.429364,
+        "latEnd": 51.812072,
+        "lonEnd": 107.458347,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 96.01,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 51.819,
+        "lonStart": 107.434367,
+        "latEnd": 51.809997,
+        "lonEnd": 107.448769,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16365
+  },
+  {
+    "type": 1,
+    "icao": "XIUW",
+    "lat": 51.850718,
+    "lon": 107.739379,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12740,
+        "name": "Kedrach ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 12400,
+        "name": "Kedrach Start"
+      }
+    ],
+    "elevation": 1689,
+    "tower": true,
+    "name": "Ulan-Ude Vostochny",
+    "runways": [
+      {
+        "type": 100,
+        "width": 64.92,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 51.848127,
+        "lonStart": 107.720519,
+        "latEnd": 51.853309,
+        "lonEnd": 107.758239,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 25890
+  },
+  {
+    "type": 17,
+    "icao": "UI42",
+    "lat": 51.90528111,
+    "lon": 107.54626142,
+    "communications": [],
+    "elevation": 1923,
+    "tower": false,
+    "name": "[H] Divizionnaya 041",
+    "runways": [
+      {
+        "type": 102,
+        "width": 50,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 51.90528111,
+        "lonStart": 107.54626142,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 50
+      }
+    ],
+    "id": 29374
+  },
+  {
+    "type": 17,
+    "icao": "UI79",
+    "lat": 51.86273106,
+    "lon": 107.63689781,
+    "communications": [],
+    "elevation": 1666,
+    "tower": false,
+    "name": "[H] Nadezhda",
+    "runways": [
+      {
+        "type": 102,
+        "width": 10.1,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 51.86273106,
+        "lonStart": 107.63689781,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.1
+      }
+    ],
+    "id": 31542
+  },
+  {
+    "type": 17,
+    "icao": "UI93",
+    "lat": 51.726389,
+    "lon": 107.519722,
+    "communications": [],
+    "elevation": 1694,
+    "tower": false,
+    "name": "[H] Nizhniy Sayantuy",
+    "runways": [
+      {
+        "type": 102,
+        "width": 50,
+        "surfaceType": 4,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 51.726389,
+        "lonStart": 107.519722,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 50
+      }
+    ],
+    "id": 31624
+  }
+]

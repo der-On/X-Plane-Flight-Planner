@@ -1,0 +1,123 @@
+[
+  {
+    "type": 1,
+    "icao": "BIKF",
+    "lat": 63.98093279571428,
+    "lon": -22.61681016142857,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12830,
+        "name": "ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 12100,
+        "name": "Clearance"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "Ground"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 11930,
+        "name": "Approach"
+      },
+      {
+        "type": 50,
+        "frequency": 31160,
+        "name": "ATIS (UHF)"
+      },
+      {
+        "type": 53,
+        "frequency": 35980,
+        "name": "Ground (UHF)"
+      },
+      {
+        "type": 54,
+        "frequency": 25780,
+        "name": "Tower (UHF)"
+      },
+      {
+        "type": 55,
+        "frequency": 37720,
+        "name": "Approach (UHF)"
+      }
+    ],
+    "elevation": 170,
+    "tower": true,
+    "name": "KeflavC-k",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 63.96448056,
+        "lonStart": -22.60545278,
+        "latEnd": 63.99187778,
+        "lonEnd": -22.60543333,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 63.98503889,
+        "lonStart": -22.65500556,
+        "latEnd": 63.98504167,
+        "lonEnd": -22.59238889,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 29,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 63.983806,
+        "lonStart": -22.59002557,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29
+      },
+      {
+        "type": 102,
+        "width": 30,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 63.97612548,
+        "lonStart": -22.64423424,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30
+      },
+      {
+        "type": 102,
+        "width": 25,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 63.98015919,
+        "lonStart": -22.62513076,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 25
+      }
+    ],
+    "id": 13695
+  }
+]

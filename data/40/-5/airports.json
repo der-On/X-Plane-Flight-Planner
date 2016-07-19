@@ -1,0 +1,96 @@
+[
+  {
+    "type": 1,
+    "icao": "LETI",
+    "lat": 40.249167288,
+    "lon": -4.788507686000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12350,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 1399,
+    "tower": true,
+    "name": "EL TIETAR",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "05R",
+        "numberEnd": "23L",
+        "latStart": 40.24438444,
+        "lonStart": -4.79328459,
+        "latEnd": 40.25105429,
+        "lonEnd": -4.785657,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "05L",
+        "numberEnd": "23R",
+        "latStart": 40.24671183,
+        "lonStart": -4.79146972,
+        "latEnd": 40.25128832,
+        "lonEnd": -4.7862261,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 102,
+        "width": 28.7,
+        "surfaceType": 5,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.25239756,
+        "lonStart": -4.78590102,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 31.3
+      }
+    ],
+    "id": 6711
+  },
+  {
+    "type": 1,
+    "icao": "LEFM",
+    "lat": 40.8883139,
+    "lon": -4.238765785,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12340,
+        "name": "AERO CLUB"
+      },
+      {
+        "type": 50,
+        "frequency": 12350,
+        "name": "AERO CLUB"
+      }
+    ],
+    "elevation": 3280,
+    "tower": false,
+    "name": "Fuentemilanos",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 40.89231619,
+        "lonStart": -4.2416338,
+        "latEnd": 40.88431161,
+        "lonEnd": -4.23589777,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 9770
+  }
+]

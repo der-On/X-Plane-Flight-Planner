@@ -1,0 +1,110 @@
+html {
+  font-family: 'Robot', sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.main-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3rem;
+  z-index: 2;
+  transition: all 0.25s ease-in-out;
+  overflow: hidden;
+}
+.main-sidebar.expanded {
+  height: 100%;
+}
+.main-sidebar-toggle {
+  display: inline-block;
+}
+.main-sidebar-toggle,
+.main-search-icon {
+  margin: 0 1rem;
+  vertical-align: middle;
+  position: relative;
+  top: -0.25rem;
+}
+.main-search-icon {
+  opacity: 0.25;
+}
+
+.main-map {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.main-map .leaflet-container {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-item-marker-icon {
+  transition: opacity 0.5s;
+}
+
+.nav-item-popup-content .nav-item-icon {
+  vertical-align: middle;
+}
+.nav-item-popup-content .airport-runways,
+.nav-item-popup-content .airport-communications {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item-icon {
+  height: 1em;
+  width: auto;
+  display: inline-block;
+}
+
+.waypoints-list__items {
+  position: absolute;
+  top: 6rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+}
+.waypoint__title {
+  margin: 0 0 1rem 0;
+}
+.waypoint__details {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 14px;
+  line-height: 16px;
+  cursor: default;
+}
+.waypoint__icon {
+  margin: 0 0.5rem;
+  vertical-align: top;
+}
+.waypoint__elevation {
+  max-width: 5rem;
+}
+
+.geo-search-progress {
+  position: fixed;
+  right: 0;
+  bottom: 1rem;
+  width: 25vw;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.leaflet-control-layers-toggle {
+  background-image: url('../images/leaflet/layers.png');
+}

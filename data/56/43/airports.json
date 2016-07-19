@@ -1,0 +1,119 @@
+[
+  {
+    "type": 1,
+    "icao": "UWGG",
+    "lat": 56.22092875,
+    "lon": 43.785731,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12780,
+        "name": "NIZHNY ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "NIZHNY TAXIING"
+      },
+      {
+        "type": 54,
+        "frequency": 12040,
+        "name": "NIZHNY TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12470,
+        "name": "NIZHNY APP"
+      }
+    ],
+    "elevation": 256,
+    "tower": true,
+    "name": "STRIGINO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "18R",
+        "numberEnd": "36L",
+        "latStart": 56.242,
+        "lonStart": 43.786664,
+        "latEnd": 56.217311,
+        "lonEnd": 43.777614,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "18L",
+        "numberEnd": "36R",
+        "latStart": 56.241622,
+        "lonStart": 43.789983,
+        "latEnd": 56.219547,
+        "lonEnd": 43.781906,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 21.95,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 56.215225,
+        "lonStart": 43.783003,
+        "latEnd": 56.210103,
+        "lonEnd": 43.786456,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 21.95,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 56.209964,
+        "lonStart": 43.786361,
+        "latEnd": 56.211658,
+        "lonEnd": 43.793861,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22557
+  },
+  {
+    "type": 17,
+    "icao": "UU10",
+    "lat": 56.636843,
+    "lon": 43.246008,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11930,
+        "name": "Vershilovo Ploshadka"
+      }
+    ],
+    "elevation": 282,
+    "tower": true,
+    "name": "[H] Vershilovo",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.9,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 56.636843,
+        "lonStart": 43.246008,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.9
+      }
+    ],
+    "id": 33612
+  }
+]

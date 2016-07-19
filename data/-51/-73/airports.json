@@ -1,0 +1,78 @@
+[
+  {
+    "type": 1,
+    "icao": "SAWC",
+    "lat": -50.28065056,
+    "lon": -72.05298301,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11995,
+        "name": "TWR"
+      },
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "GND"
+      }
+    ],
+    "elevation": 667,
+    "tower": true,
+    "name": "El Calafate",
+    "runways": [
+      {
+        "type": 100,
+        "width": 44.81,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -50.2817201,
+        "lonStart": -72.07092298,
+        "latEnd": -50.27958102,
+        "lonEnd": -72.03504304,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 7033
+  },
+  {
+    "type": 1,
+    "icao": "SAWA",
+    "lat": -50.3383331,
+    "lon": -72.24888609999999,
+    "communications": [],
+    "elevation": 732,
+    "tower": true,
+    "name": "Lago Argentino",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.07,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -50.33296449,
+        "lonStart": -72.24800202,
+        "latEnd": -50.34370171,
+        "lonEnd": -72.24977018,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 12.8,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -50.33997983,
+        "lonStart": -72.25468101,
+        "latEnd": -50.33668637,
+        "lonEnd": -72.24309119,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 14778
+  }
+]

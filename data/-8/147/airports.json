@@ -1,0 +1,71 @@
+[
+  {
+    "type": 1,
+    "icao": "BPD",
+    "lat": -7.743576,
+    "lon": 147.020599,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12770,
+        "name": "BPD AWOS"
+      }
+    ],
+    "elevation": 2750,
+    "tower": false,
+    "name": "Bapi",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -7.74169179,
+        "lonStart": 147.01941078,
+        "latEnd": -7.74546021,
+        "lonEnd": 147.02178722,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 2201
+  },
+  {
+    "type": 1,
+    "icao": "GAR",
+    "lat": -7.875268,
+    "lon": 147.141079,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12720,
+        "name": "GNA AWOS"
+      },
+      {
+        "type": 54,
+        "frequency": 13490,
+        "name": "Garaina TWR"
+      }
+    ],
+    "elevation": 2500,
+    "tower": true,
+    "name": "Garaina",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -7.86885531,
+        "lonStart": 147.13482738,
+        "latEnd": -7.88168069,
+        "lonEnd": 147.14733062,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 10295
+  }
+]

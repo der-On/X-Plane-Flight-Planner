@@ -1,0 +1,62 @@
+[
+  {
+    "type": 1,
+    "icao": "USSS",
+    "lat": 56.74310775,
+    "lon": 60.802727,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12780,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 11900,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12000,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12590,
+        "name": "APP"
+      }
+    ],
+    "elevation": 764,
+    "tower": true,
+    "name": "KOLTSOVO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 53.04,
+        "surfaceType": null,
+        "numberStart": "08R",
+        "numberEnd": "26L",
+        "latStart": 56.742406,
+        "lonStart": 60.779061,
+        "latEnd": 56.740467,
+        "lonEnd": 60.828208,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "08L",
+        "numberEnd": "26R",
+        "latStart": 56.744808,
+        "lonStart": 60.7814,
+        "latEnd": 56.74475,
+        "lonEnd": 60.822239,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 13449
+  }
+]

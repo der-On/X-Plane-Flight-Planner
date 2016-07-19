@@ -1,0 +1,102 @@
+[
+  {
+    "type": 1,
+    "icao": "OIBK",
+    "lat": 26.52700516666667,
+    "lon": 53.98024233333334,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12800,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 12167,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 101,
+    "tower": true,
+    "name": "Kish Island",
+    "runways": [
+      {
+        "type": 100,
+        "width": 65.53,
+        "surfaceType": null,
+        "numberStart": "09L",
+        "numberEnd": "27R",
+        "latStart": 26.530106,
+        "lonStart": 53.962014,
+        "latEnd": 26.527306,
+        "lonEnd": 53.998592,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "09R",
+        "numberEnd": "27L",
+        "latStart": 26.527556,
+        "lonStart": 53.961922,
+        "latEnd": 26.524753,
+        "lonEnd": 53.9985,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 26.52755785,
+        "lonStart": 53.96192417,
+        "latEnd": 26.52475215,
+        "lonEnd": 53.99850183,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 13939
+  },
+  {
+    "type": 1,
+    "icao": "OIBV",
+    "lat": 26.810298500000002,
+    "lon": 53.356289000000004,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12855,
+        "name": "INFO"
+      },
+      {
+        "type": 54,
+        "frequency": 12900,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 76,
+    "tower": false,
+    "name": "LAVAN ISLAND",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 26.813719,
+        "lonStart": 53.346564,
+        "latEnd": 26.806878,
+        "lonEnd": 53.366014,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14428
+  }
+]

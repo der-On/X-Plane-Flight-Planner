@@ -1,0 +1,147 @@
+[
+  {
+    "type": 1,
+    "icao": "RKPC",
+    "lat": 33.508979749999995,
+    "lon": 126.48939725,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12680,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12165,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12620,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11900,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12405,
+        "name": "APP"
+      },
+      {
+        "type": 56,
+        "frequency": 12120,
+        "name": "DEP"
+      }
+    ],
+    "elevation": 118,
+    "tower": true,
+    "name": "JEJU INTL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 33.500383,
+        "lonStart": 126.469289,
+        "latEnd": 33.514508,
+        "lonEnd": 126.4968,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 33.515528,
+        "lonStart": 126.487389,
+        "latEnd": 33.5055,
+        "lonEnd": 126.504111,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12719
+  },
+  {
+    "type": 1,
+    "icao": "RKPD",
+    "lat": 33.395919250000006,
+    "lon": 126.712089,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12825,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 13120,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 13050,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11900,
+        "name": "JEJU APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12405,
+        "name": "JEJU APP"
+      },
+      {
+        "type": 56,
+        "frequency": 12120,
+        "name": "JEJU DEP"
+      }
+    ],
+    "elevation": 1171,
+    "tower": true,
+    "name": "JEONGSEOK",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.42,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 33.382889,
+        "lonStart": 126.711778,
+        "latEnd": 33.403744,
+        "lonEnd": 126.711519,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 33.403919,
+        "lonStart": 126.707531,
+        "latEnd": 33.393125,
+        "lonEnd": 126.717528,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12724
+  }
+]

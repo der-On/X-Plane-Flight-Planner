@@ -1,0 +1,121 @@
+[
+  {
+    "type": 1,
+    "icao": "LDOC",
+    "lat": 45.54242925,
+    "lon": 18.632523,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 11880,
+        "name": "OSIJEK APP"
+      }
+    ],
+    "elevation": 298,
+    "tower": false,
+    "name": "CEPIN",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 45.543906,
+        "lonStart": 18.624714,
+        "latEnd": 45.541522,
+        "lonEnd": 18.639539,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "10R",
+        "numberEnd": "28L",
+        "latStart": 45.543242,
+        "lonStart": 18.626031,
+        "latEnd": 45.541047,
+        "lonEnd": 18.639808,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 3771
+  },
+  {
+    "type": 1,
+    "icao": "LDOS",
+    "lat": 45.4623649,
+    "lon": 18.81136072,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11880,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11880,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12015,
+        "name": "APP"
+      }
+    ],
+    "elevation": 290,
+    "tower": true,
+    "name": "OSIJEK",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 45.46630878,
+        "lonStart": 18.79640303,
+        "latEnd": 45.45842102,
+        "lonEnd": 18.82631841,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 18726
+  },
+  {
+    "type": 1,
+    "icao": "LHPP",
+    "lat": 45.989306,
+    "lon": 18.242083,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12690,
+        "name": "POGANY INFO"
+      }
+    ],
+    "elevation": 1000,
+    "tower": false,
+    "name": "PECS SOUTH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 45.995556,
+        "lonStart": 18.238333,
+        "latEnd": 45.983056,
+        "lonEnd": 18.245833,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19277
+  }
+]

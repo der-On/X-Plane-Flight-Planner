@@ -1,0 +1,109 @@
+[
+  {
+    "type": 1,
+    "icao": "RCYU",
+    "lat": 24.02709925,
+    "lon": 121.61644,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12617,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12400,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 11910,
+        "name": "APP"
+      }
+    ],
+    "elevation": 52,
+    "tower": true,
+    "name": "HUALIEN",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 24.012611,
+        "lonStart": 121.610969,
+        "latEnd": 24.03475,
+        "lonEnd": 121.622889,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 19.81,
+        "surfaceType": null,
+        "numberStart": "03L",
+        "numberEnd": "21R",
+        "latStart": 24.029119,
+        "lonStart": 121.615208,
+        "latEnd": 24.031917,
+        "lonEnd": 121.616694,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11225
+  },
+  {
+    "type": 1,
+    "icao": "RCDI",
+    "lat": 24.855137499999998,
+    "lon": 121.2376345,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13530,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 13550,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 13510,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 790,
+    "tower": true,
+    "name": "LONGTAN",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 24.851428,
+        "lonStart": 121.234822,
+        "latEnd": 24.858847,
+        "lonEnd": 121.240447,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14602
+  }
+]

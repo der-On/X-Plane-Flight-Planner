@@ -1,0 +1,106 @@
+[
+  {
+    "type": 1,
+    "icao": "NZVL",
+    "lat": -45.993827800000005,
+    "lon": 168.8163452,
+    "communications": [],
+    "elevation": 335,
+    "tower": false,
+    "name": "Mandeville",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -45.99174551,
+        "lonStart": 168.8107082,
+        "latEnd": -45.99591009,
+        "lonEnd": 168.8219822,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16578
+  },
+  {
+    "type": 1,
+    "icao": "NZQN",
+    "lat": -45.020545999999996,
+    "lon": 168.745402,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12640,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 11810,
+        "name": "CTAF"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11810,
+        "name": "APP"
+      }
+    ],
+    "elevation": 1171,
+    "tower": true,
+    "name": "Queenstown",
+    "runways": [
+      {
+        "type": 100,
+        "width": 35.36,
+        "surfaceType": null,
+        "numberStart": "05R",
+        "numberEnd": "23L",
+        "latStart": -45.02180538,
+        "lonStart": 168.73530165,
+        "latEnd": -45.01777662,
+        "lonEnd": 168.75807635,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 50.9,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -45.01849307,
+        "lonStart": 168.74018074,
+        "latEnd": -45.02668093,
+        "lonEnd": 168.74413326,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 36.88,
+        "surfaceType": null,
+        "numberStart": "05L",
+        "numberEnd": "23R",
+        "latStart": -45.02009646,
+        "lonStart": 168.74262797,
+        "latEnd": -45.01842354,
+        "lonEnd": 168.75209203,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20701
+  }
+]

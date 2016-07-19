@@ -1,0 +1,138 @@
+[
+  {
+    "type": 1,
+    "icao": "ESGP",
+    "lat": 57.77788386500001,
+    "lon": 11.876640233333333,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11905,
+        "name": "AFIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12467,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12467,
+        "name": "GOTEBORG CON"
+      }
+    ],
+    "elevation": 59,
+    "tower": true,
+    "name": "Goteborg Save",
+    "runways": [
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 57.76596295,
+        "lonStart": 11.86878578,
+        "latEnd": 57.78415572,
+        "lonEnd": 11.87177112,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 57.77590539,
+        "lonStart": 11.87241038,
+        "latEnd": 57.7814841,
+        "lonEnd": 11.88257087,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 50,
+        "surfaceType": 15,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 57.78031927,
+        "lonStart": 11.88266517,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 75
+      },
+      {
+        "type": 102,
+        "width": 50,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 57.77947576,
+        "lonStart": 11.88163808,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 75
+      }
+    ],
+    "id": 10643
+  },
+  {
+    "type": 1,
+    "icao": "EKLS",
+    "lat": 57.277227999999994,
+    "lon": 11.000085,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12497,
+        "name": "COPPENHAGEN INFO"
+      }
+    ],
+    "elevation": 25,
+    "tower": true,
+    "name": "Laeso",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 57.27547513,
+        "lonStart": 10.99311215,
+        "latEnd": 57.27898087,
+        "lonEnd": 11.00705785,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14770
+  },
+  {
+    "type": 1,
+    "icao": "ESHS",
+    "lat": 57.68361013,
+    "lon": 11.95666805,
+    "communications": [],
+    "elevation": 157,
+    "tower": false,
+    "name": "Sahlgrenska Universitetssjukhuset Goteborg",
+    "runways": [
+      {
+        "type": 102,
+        "width": 32.7,
+        "surfaceType": 15,
+        "numberStart": "H162",
+        "numberEnd": null,
+        "latStart": 57.68361013,
+        "lonStart": 11.95666805,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 27.6
+      }
+    ],
+    "id": 22679
+  }
+]

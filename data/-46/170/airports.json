@@ -1,0 +1,103 @@
+[
+  {
+    "type": 1,
+    "icao": "NZDN",
+    "lat": -45.9291515,
+    "lon": 170.197629,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12880,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12070,
+        "name": "CTAF"
+      },
+      {
+        "type": 54,
+        "frequency": 12240,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12070,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12930,
+        "name": "CHRISTCHURCH CON"
+      },
+      {
+        "type": 55,
+        "frequency": 12070,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12240,
+        "name": "APP"
+      }
+    ],
+    "elevation": 4,
+    "tower": true,
+    "name": "Dunedin",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -45.933925,
+        "lonStart": 170.187472,
+        "latEnd": -45.924378,
+        "lonEnd": 170.207786,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 6556
+  },
+  {
+    "type": 1,
+    "icao": "NZTI",
+    "lat": -45.8619156,
+    "lon": 170.36183929999999,
+    "communications": [],
+    "elevation": 85,
+    "tower": false,
+    "name": "Taieri",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.42,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -45.86350198,
+        "lonStart": 170.35798911,
+        "latEnd": -45.86150422,
+        "lonEnd": 170.36869549,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 45.42,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -45.85889975,
+        "lonStart": 170.35684928,
+        "latEnd": -45.86375645,
+        "lonEnd": 170.36382332,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24961
+  }
+]

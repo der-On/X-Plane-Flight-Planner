@@ -1,0 +1,76 @@
+[
+  {
+    "type": 1,
+    "icao": "CPN",
+    "lat": -10.183833,
+    "lon": 148.376833,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12080,
+        "name": "CPR ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "CAPE RODNEY GND"
+      },
+      {
+        "type": 54,
+        "frequency": 13230,
+        "name": "CAPE RODNEY TWR"
+      }
+    ],
+    "elevation": 48,
+    "tower": true,
+    "name": "Cape Rodney",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -10.18205349,
+        "lonStart": 148.36753168,
+        "latEnd": -10.18561251,
+        "lonEnd": 148.38613432,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4497
+  },
+  {
+    "type": 1,
+    "icao": "KUP",
+    "lat": -10.073798,
+    "lon": 148.218155,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12770,
+        "name": "KUP AWOS"
+      }
+    ],
+    "elevation": 150,
+    "tower": false,
+    "name": "Kupiano",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -10.07194323,
+        "lonStart": 148.21411514,
+        "latEnd": -10.07565277,
+        "lonEnd": 148.22219486,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 14199
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "type": 1,
+    "icao": "EGFF",
+    "lat": 51.396564749999996,
+    "lon": -3.3432018450000003,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13247,
+        "name": "Cardiff Information"
+      },
+      {
+        "type": 53,
+        "frequency": 12585,
+        "name": "Cardiff Radar"
+      },
+      {
+        "type": 54,
+        "frequency": 13310,
+        "name": "Cardiff Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 11915,
+        "name": "Cardiff Approach"
+      }
+    ],
+    "elevation": 220,
+    "tower": true,
+    "name": "Cardiff",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 51.40140811,
+        "lonStart": -3.35854787,
+        "latEnd": 51.39172139,
+        "lonEnd": -3.32785582,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4536
+  },
+  {
+    "type": 1,
+    "icao": "EGDX",
+    "lat": 51.405195,
+    "lon": -3.433466,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11812,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12662,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12585,
+        "name": "CARDIFF APP"
+      }
+    ],
+    "elevation": 163,
+    "tower": true,
+    "name": "RAF St Athan",
+    "runways": [
+      {
+        "type": 100,
+        "width": 41.15,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 51.40280706,
+        "lonStart": -3.44600249,
+        "latEnd": 51.40758294,
+        "lonEnd": -3.42092951,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20789
+  },
+  {
+    "type": 17,
+    "icao": "EGFC",
+    "lat": 51.467494475,
+    "lon": -3.1375780850000003,
+    "communications": [],
+    "elevation": 24,
+    "tower": false,
+    "name": "[H] Cardiff Tremorfa Heliport [H]",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 51.46622826,
+        "lonStart": -3.13826245,
+        "latEnd": 51.46876069,
+        "lonEnd": -3.13689372,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 28781
+  }
+]

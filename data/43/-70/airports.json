@@ -1,0 +1,159 @@
+[
+  {
+    "type": 1,
+    "icao": "KBXM",
+    "lat": 43.893478396,
+    "lon": -69.938175684,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12055,
+        "name": "ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 13410,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 13455,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11960,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11815,
+        "name": "APP/DEP"
+      }
+    ],
+    "elevation": 75,
+    "tower": true,
+    "name": "Brunswick Executive",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "1L",
+        "numberEnd": "19R",
+        "latStart": 43.8813494,
+        "lonStart": -69.9387872,
+        "latEnd": 43.9032053,
+        "lonEnd": -69.9415183,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "1R",
+        "numberEnd": "19L",
+        "latStart": 43.881522,
+        "lonStart": -69.9361425,
+        "latEnd": 43.903378,
+        "lonEnd": -69.9388733,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 2,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 43.89793728,
+        "lonStart": -69.93555712,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 3292
+  },
+  {
+    "type": 1,
+    "icao": "KIWI",
+    "lat": 43.96127902,
+    "lon": -69.7125163875,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13572,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11815,
+        "name": "BRUNSWICK APP/DEP"
+      }
+    ],
+    "elevation": 74,
+    "tower": false,
+    "name": "Wiscasset",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "7",
+        "numberEnd": "25",
+        "latStart": 43.95852055,
+        "lonStart": -69.71766731,
+        "latEnd": 43.96429505,
+        "lonEnd": -69.70753981,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "7L",
+        "numberEnd": "25R",
+        "latStart": 43.9593453,
+        "lonStart": -69.71556028,
+        "latEnd": 43.96295518,
+        "lonEnd": -69.70929815,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 27458
+  },
+  {
+    "type": 17,
+    "icao": "ME07",
+    "lat": 43.89952444,
+    "lon": -69.97921667,
+    "communications": [],
+    "elevation": 78,
+    "tower": false,
+    "name": "[H] Memorial Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 43.89952444,
+        "lonStart": -69.97921667,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 31239
+  }
+]

@@ -1,0 +1,157 @@
+[
+  {
+    "type": 1,
+    "icao": "GMTT",
+    "lat": 35.72691125,
+    "lon": -5.91689975,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11950,
+        "name": "TANGER TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12120,
+        "name": "TANGER APP"
+      }
+    ],
+    "elevation": 62,
+    "tower": true,
+    "name": "IBN BATOUTA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 35.733275,
+        "lonStart": -5.940311,
+        "latEnd": 35.729978,
+        "lonEnd": -5.901819,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 35.719111,
+        "lonStart": -5.923125,
+        "latEnd": 35.725281,
+        "lonEnd": -5.902344,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12253
+  },
+  {
+    "type": 1,
+    "icao": "GMTN",
+    "lat": 35.594333,
+    "lon": -5.3200195,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11900,
+        "name": "TETOUAN TWR"
+      }
+    ],
+    "elevation": 10,
+    "tower": true,
+    "name": "SANIAT RMEL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 35.588294,
+        "lonStart": -5.330356,
+        "latEnd": 35.600372,
+        "lonEnd": -5.309683,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 22028
+  },
+  {
+    "type": 17,
+    "icao": "GECE",
+    "lat": 35.892372074,
+    "lon": -5.306360484000001,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12250,
+        "name": "AWOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12332,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 9,
+    "tower": false,
+    "name": "[H] GECE Ceuta",
+    "runways": [
+      {
+        "type": 100,
+        "width": 34.14,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 35.89215,
+        "lonStart": -5.30745979,
+        "latEnd": 35.89312768,
+        "lonEnd": -5.30504015,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 24.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 35.89206076,
+        "lonStart": -5.30675738,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.1
+      },
+      {
+        "type": 102,
+        "width": 24.1,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 35.89219423,
+        "lonStart": -5.30643259,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.1
+      },
+      {
+        "type": 102,
+        "width": 24.1,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 35.8923277,
+        "lonStart": -5.30611251,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.1
+      }
+    ],
+    "id": 29852
+  }
+]

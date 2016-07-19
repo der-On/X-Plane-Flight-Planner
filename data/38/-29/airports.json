@@ -1,0 +1,108 @@
+[
+  {
+    "type": 1,
+    "icao": "LPHR",
+    "lat": 38.519898,
+    "lon": -28.7157945,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11800,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11970,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 11800,
+        "name": "APP"
+      }
+    ],
+    "elevation": 118,
+    "tower": true,
+    "name": "HORTA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 38.519863,
+        "lonStart": -28.724533,
+        "latEnd": 38.519933,
+        "lonEnd": -28.707056,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11201
+  },
+  {
+    "type": 1,
+    "icao": "LPPI",
+    "lat": 38.554305915,
+    "lon": -28.44117053,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "PICO AFIS"
+      }
+    ],
+    "elevation": 111,
+    "tower": false,
+    "name": "PICO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 38.55330709,
+        "lonStart": -28.4510779,
+        "latEnd": 38.55530474,
+        "lonEnd": -28.43126316,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19365
+  },
+  {
+    "type": 1,
+    "icao": "LPSJ",
+    "lat": 38.6654805,
+    "lon": -28.175829,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12230,
+        "name": "RDO"
+      }
+    ],
+    "elevation": 311,
+    "tower": false,
+    "name": "SAO JORGE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 38.668258,
+        "lonStart": -28.182883,
+        "latEnd": 38.662703,
+        "lonEnd": -28.168775,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22070
+  }
+]

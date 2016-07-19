@@ -1,0 +1,132 @@
+[
+  {
+    "type": 1,
+    "icao": "NZAR",
+    "lat": -37.03023433333334,
+    "lon": 174.97369366666666,
+    "communications": [],
+    "elevation": 110,
+    "tower": true,
+    "name": "Ardmore Aerodrome",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -37.0355008,
+        "lonStart": 174.9688819,
+        "latEnd": -37.0265952,
+        "lonEnd": 174.9802141,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 39.62,
+        "surfaceType": null,
+        "numberStart": "07R",
+        "numberEnd": "25L",
+        "latStart": -37.029263,
+        "lonStart": 174.96911278,
+        "latEnd": -37.029263,
+        "lonEnd": 174.97680922,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "03L",
+        "numberEnd": "21R",
+        "latStart": -37.03202137,
+        "lonStart": 174.97148779,
+        "latEnd": -37.02876263,
+        "lonEnd": 174.97565621,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1161
+  },
+  {
+    "type": 1,
+    "icao": "NZAA",
+    "lat": -37.012074,
+    "lon": 174.78618133,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12780,
+        "name": "ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 12820,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11870,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12430,
+        "name": "APP"
+      }
+    ],
+    "elevation": 21,
+    "tower": true,
+    "name": "Auckland International",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.33,
+        "surfaceType": null,
+        "numberStart": "05R",
+        "numberEnd": "23L",
+        "latStart": -37.01747887,
+        "lonStart": 174.76657918,
+        "latEnd": -37.00666913,
+        "lonEnd": 174.80578348,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 1318
+  },
+  {
+    "type": 1,
+    "icao": "NZRA",
+    "lat": -37.806835199999995,
+    "lon": 174.8585052,
+    "communications": [],
+    "elevation": 14,
+    "tower": false,
+    "name": "Raglan",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.35,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -37.80783527,
+        "lonStart": 174.85502749,
+        "latEnd": -37.80583513,
+        "lonEnd": 174.86198291,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21122
+  }
+]

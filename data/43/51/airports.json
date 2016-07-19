@@ -1,0 +1,81 @@
+[
+  {
+    "type": 1,
+    "icao": "UATE",
+    "lat": 43.85967286166667,
+    "lon": 51.091253058333336,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13010,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 12070,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12420,
+        "name": "APP"
+      }
+    ],
+    "elevation": 73,
+    "tower": true,
+    "name": "AKTAU",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "12L",
+        "numberEnd": "30R",
+        "latStart": 43.86762114,
+        "lonStart": 51.07689987,
+        "latEnd": 43.8530785,
+        "lonEnd": 51.10789245,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 43.86656627,
+        "lonStart": 51.07683355,
+        "latEnd": 43.85370423,
+        "lonEnd": 51.10451323,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 29.9,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 43.85994873,
+        "lonStart": 51.08672934,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.9
+      },
+      {
+        "type": 102,
+        "width": 22,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 43.8571183,
+        "lonStart": 51.09464991,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.1
+      }
+    ],
+    "id": 131
+  }
+]

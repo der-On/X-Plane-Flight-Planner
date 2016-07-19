@@ -1,0 +1,138 @@
+[
+  {
+    "type": 1,
+    "icao": "PAHN",
+    "lat": 59.24426044999999,
+    "lon": -135.52246000333332,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13575,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 15,
+    "tower": false,
+    "name": "HAINES",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 59.245714,
+        "lonStart": -135.533567,
+        "latEnd": 59.241944,
+        "lonEnd": -135.513508,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 40.53,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 59.24512335,
+        "lonStart": -135.52030501,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 44.96
+      }
+    ],
+    "id": 10958
+  },
+  {
+    "type": 1,
+    "icao": "PAGY",
+    "lat": 59.460225205,
+    "lon": -135.31697956,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13580,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 43,
+    "tower": false,
+    "name": "SKAGWAY",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 59.45675264,
+        "lonStart": -135.32364819,
+        "latEnd": 59.46369777,
+        "lonEnd": -135.31031093,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22317
+  },
+  {
+    "type": 16,
+    "icao": "3Z9",
+    "lat": 59.23495111,
+    "lon": -135.44071806,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] Haines",
+    "runways": [
+      {
+        "type": 101,
+        "width": 1219.2,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 59.24100588,
+        "lonStart": -135.4344243,
+        "latEnd": 59.22889634,
+        "lonEnd": -135.44701182,
+        "length": 0
+      }
+    ],
+    "id": 34147
+  },
+  {
+    "type": 16,
+    "icao": "7K2",
+    "lat": 59.44689527,
+    "lon": -135.32266334,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] Skagway",
+    "runways": [
+      {
+        "type": 101,
+        "width": 609.6,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 59.44591227,
+        "lonStart": -135.32770093,
+        "latEnd": 59.44787827,
+        "lonEnd": -135.31762575,
+        "length": 0
+      }
+    ],
+    "id": 34449
+  }
+]

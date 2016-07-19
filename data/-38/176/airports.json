@@ -1,0 +1,148 @@
+[
+  {
+    "type": 1,
+    "icao": "NZTG",
+    "lat": -37.67346725,
+    "lon": 176.19585812500003,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12660,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 11830,
+        "name": "CTAF"
+      },
+      {
+        "type": 54,
+        "frequency": 12340,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11950,
+        "name": "CHRISTCHURCH APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12380,
+        "name": "CHRISTCHURCH APP"
+      }
+    ],
+    "elevation": 13,
+    "tower": true,
+    "name": "TAURANGA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "07R",
+        "numberEnd": "25L",
+        "latStart": -37.67375,
+        "lonStart": 176.188056,
+        "latEnd": -37.675556,
+        "lonEnd": 176.208611,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "07L",
+        "numberEnd": "25R",
+        "latStart": -37.673333,
+        "lonStart": 176.195139,
+        "latEnd": -37.674167,
+        "lonEnd": 176.203889,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -37.671071,
+        "lonStart": 176.194604,
+        "latEnd": -37.677364,
+        "lonEnd": 176.194058,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": -37.673053,
+        "lonStart": 176.188339,
+        "latEnd": -37.669444,
+        "lonEnd": 176.194169,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 24614
+  },
+  {
+    "type": 1,
+    "icao": "NZWK",
+    "lat": -37.91981275,
+    "lon": 176.91488825000002,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 11860,
+        "name": "CTAF"
+      },
+      {
+        "type": 54,
+        "frequency": 12550,
+        "name": "CHRISTCHURCH FIS"
+      }
+    ],
+    "elevation": 20,
+    "tower": false,
+    "name": "WHAKATANE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09L",
+        "numberEnd": "27R",
+        "latStart": -37.916611,
+        "lonStart": 176.90895,
+        "latEnd": -37.921528,
+        "lonEnd": 176.922269,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "09R",
+        "numberEnd": "27L",
+        "latStart": -37.91939057,
+        "lonStart": 176.9101534,
+        "latEnd": -37.92172143,
+        "lonEnd": 176.9181806,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 26610
+  }
+]

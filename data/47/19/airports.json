@@ -1,0 +1,84 @@
+[
+  {
+    "type": 1,
+    "icao": "LHBP",
+    "lat": 47.436612964,
+    "lon": 19.251041518,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13237,
+        "name": "LHBP ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 13455,
+        "name": "FERIHEGY CLD"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "FERIHEGY GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "FERIHEGY TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12969,
+        "name": "BUDAPEST APP"
+      },
+      {
+        "type": 55,
+        "frequency": 11950,
+        "name": "FERIHEGY APP"
+      }
+    ],
+    "elevation": 495,
+    "tower": true,
+    "name": "Ferihegy (Budapest)",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "13R",
+        "numberEnd": "31L",
+        "latStart": 47.44872301,
+        "lonStart": 19.22070625,
+        "latEnd": 47.43044885,
+        "lonEnd": 19.25027336,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "13L",
+        "numberEnd": "31R",
+        "latStart": 47.44542374,
+        "lonStart": 19.25754923,
+        "latEnd": 47.42291419,
+        "lonEnd": 19.29395588,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 120,
+        "surfaceType": 3,
+        "numberStart": "H",
+        "numberEnd": null,
+        "latStart": 47.43555503,
+        "lonStart": 19.23272287,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 120
+      }
+    ],
+    "id": 9246
+  }
+]

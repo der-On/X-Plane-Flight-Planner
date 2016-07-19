@@ -1,0 +1,153 @@
+[
+  {
+    "type": 1,
+    "icao": "YBMK",
+    "lat": -21.171625974285714,
+    "lon": 149.18163354428572,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12800,
+        "name": "ATIS"
+      },
+      {
+        "type": 50,
+        "frequency": 12450,
+        "name": "ACTIVATE LIGHTS ONLY MULT"
+      },
+      {
+        "type": 51,
+        "frequency": 12450,
+        "name": "CTAF"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "SMC"
+      },
+      {
+        "type": 54,
+        "frequency": 12450,
+        "name": "MACKAY TWR"
+      }
+    ],
+    "elevation": 18,
+    "tower": true,
+    "name": "Mackay",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -21.16319524,
+        "lonStart": 149.17749011,
+        "latEnd": -21.17832326,
+        "lonEnd": 149.18766673,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -21.1756545,
+        "lonStart": 149.17420892,
+        "latEnd": -21.16924801,
+        "lonEnd": 149.18516529,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 13.7,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -21.17328728,
+        "lonStart": 149.18088858,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.7
+      },
+      {
+        "type": 102,
+        "width": 13.7,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": -21.17369652,
+        "lonStart": 149.18115149,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.7
+      },
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 15,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": -21.16797701,
+        "lonStart": 149.18486369,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 16440
+  },
+  {
+    "type": 17,
+    "icao": "YMHP",
+    "lat": -21.14540842,
+    "lon": 149.15444362,
+    "communications": [],
+    "elevation": 12,
+    "tower": false,
+    "name": "[H] MACKAY BASE HOSPITAL",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 1,
+        "numberStart": "H34",
+        "numberEnd": null,
+        "latStart": -21.14540842,
+        "lonStart": 149.15444362,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.9
+      }
+    ],
+    "id": 30991
+  },
+  {
+    "type": 16,
+    "icao": "YMKH",
+    "lat": -21.139490520000003,
+    "lon": 149.191328,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] MACKAY HARBOUR",
+    "runways": [
+      {
+        "type": 101,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "9",
+        "numberEnd": "27",
+        "latStart": -21.13915587,
+        "lonStart": 149.18998882,
+        "latEnd": -21.13982517,
+        "lonEnd": 149.19266718,
+        "length": 0
+      }
+    ],
+    "id": 34267
+  }
+]

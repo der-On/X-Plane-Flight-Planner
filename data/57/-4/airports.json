@@ -1,0 +1,180 @@
+[
+  {
+    "type": 1,
+    "icao": "X6FE",
+    "lat": 57.758560270000004,
+    "lon": -3.9461424750000003,
+    "communications": [],
+    "elevation": 25,
+    "tower": false,
+    "name": "Fearn",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 57.75949787,
+        "lonStart": -3.9555108,
+        "latEnd": 57.75762267,
+        "lonEnd": -3.93677415,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 9214
+  },
+  {
+    "type": 1,
+    "icao": "EG38",
+    "lat": 57.102259634999996,
+    "lon": -3.891265985,
+    "communications": [],
+    "elevation": 860,
+    "tower": false,
+    "name": "Feshiebridge",
+    "runways": [
+      {
+        "type": 100,
+        "width": 7.92,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 57.09862604,
+        "lonStart": -3.89464103,
+        "latEnd": 57.10589323,
+        "lonEnd": -3.88789094,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9259
+  },
+  {
+    "type": 1,
+    "icao": "EGQK",
+    "lat": 57.64941,
+    "lon": -3.560597,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "Kinloss Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12330,
+        "name": "Lossie Director"
+      },
+      {
+        "type": 56,
+        "frequency": 11935,
+        "name": "Lossie Departure"
+      }
+    ],
+    "elevation": 22,
+    "tower": true,
+    "name": "RAF Kinloss",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 57.645956,
+        "lonStart": -3.578815,
+        "latEnd": 57.652864,
+        "lonEnd": -3.542379,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20776
+  },
+  {
+    "type": 1,
+    "icao": "EGQS",
+    "lat": 57.70528665333333,
+    "lon": -3.3349447683333335,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 11820,
+        "name": "Lossiemouth Ground"
+      },
+      {
+        "type": 54,
+        "frequency": 11820,
+        "name": "Lossiemouth Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12330,
+        "name": "Lossiemouth Approach"
+      },
+      {
+        "type": 56,
+        "frequency": 11935,
+        "name": "Lossiemouth Departure"
+      }
+    ],
+    "elevation": 41,
+    "tower": true,
+    "name": "RAF Lossiemouth",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 57.697967,
+        "lonStart": -3.353422,
+        "latEnd": 57.715953,
+        "lonEnd": -3.321308,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 57.707261,
+        "lonStart": -3.343839,
+        "latEnd": 57.705381,
+        "lonEnd": -3.313014,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 35.05,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 57.70272959,
+        "lonStart": -3.33919534,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 35.05
+      },
+      {
+        "type": 102,
+        "width": 35.05,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 57.70242833,
+        "lonStart": -3.33889027,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 35.05
+      }
+    ],
+    "id": 20781
+  }
+]

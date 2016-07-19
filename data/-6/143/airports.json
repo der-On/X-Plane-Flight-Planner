@@ -1,0 +1,70 @@
+[
+  {
+    "type": 1,
+    "icao": "KDP",
+    "lat": -5.8405946150000005,
+    "lon": 143.507195055,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13065,
+        "name": "KDP AWOS"
+      },
+      {
+        "type": 53,
+        "frequency": 13085,
+        "name": "KANDEP GND"
+      },
+      {
+        "type": 54,
+        "frequency": 13080,
+        "name": "KANDEP TWR"
+      }
+    ],
+    "elevation": 7727,
+    "tower": true,
+    "name": "Kandep",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -5.84040726,
+        "lonStart": 143.50229264,
+        "latEnd": -5.84078197,
+        "lonEnd": 143.51209747,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13586
+  },
+  {
+    "type": 1,
+    "icao": "AYWD",
+    "lat": -5.643300999999999,
+    "lon": 143.89541250000002,
+    "communications": [],
+    "elevation": 5889,
+    "tower": false,
+    "name": "WAPENAMANDA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -5.638069,
+        "lonStart": 143.890803,
+        "latEnd": -5.648533,
+        "lonEnd": 143.900022,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 26492
+  }
+]

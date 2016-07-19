@@ -1,0 +1,56 @@
+[
+  {
+    "type": 1,
+    "icao": "LIEA",
+    "lat": 40.632679429999996,
+    "lon": 8.292199966666667,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12502,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11885,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12855,
+        "name": "APP"
+      }
+    ],
+    "elevation": 85,
+    "tower": true,
+    "name": "ALGHERO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 40.61935337,
+        "lonStart": 8.28310438,
+        "latEnd": 40.64491278,
+        "lonEnd": 8.29845669,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 30,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.63377214,
+        "lonStart": 8.29503883,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30
+      }
+    ],
+    "id": 209
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "type": 1,
+    "icao": "DN57",
+    "lat": 13.0074045,
+    "lon": 7.6577915,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13000,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12500,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 1660,
+    "tower": true,
+    "name": "KATSINA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 12.996406,
+        "lonStart": 7.649458,
+        "latEnd": 13.018403,
+        "lonEnd": 7.666125,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 13269
+  },
+  {
+    "type": 1,
+    "icao": "DRRM",
+    "lat": 13.502529,
+    "lon": 7.1267525,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "AFIS"
+      }
+    ],
+    "elevation": 1240,
+    "tower": false,
+    "name": "MARADI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 13.50165,
+        "lonStart": 7.118236,
+        "latEnd": 13.503408,
+        "lonEnd": 7.135269,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 15801
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "type": 1,
+    "icao": "EPSC",
+    "lat": 53.584731000000005,
+    "lon": 14.902194999999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11850,
+        "name": "SZCZECIN TWR"
+      }
+    ],
+    "elevation": 154,
+    "tower": true,
+    "name": "GOLENIOW",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 53.5920829,
+        "lonStart": 14.88792304,
+        "latEnd": 53.5773791,
+        "lonEnd": 14.91646696,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 10058
+  },
+  {
+    "type": 1,
+    "icao": "EDAH",
+    "lat": 53.879191594,
+    "lon": 14.146037748000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13282,
+        "name": "Heringsdorf Tower"
+      },
+      {
+        "type": 56,
+        "frequency": 13465,
+        "name": "Bremen Radar"
+      }
+    ],
+    "elevation": 92,
+    "tower": true,
+    "name": "Heringsdorf",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "10R",
+        "numberEnd": "28L",
+        "latStart": 53.87984439,
+        "lonStart": 14.14057781,
+        "latEnd": 53.87838236,
+        "lonEnd": 14.14939534,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 35,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 53.88163587,
+        "lonStart": 14.13444797,
+        "latEnd": 53.8760721,
+        "lonEnd": 14.16834532,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 53.88002325,
+        "lonStart": 14.1374223,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 11713
+  },
+  {
+    "type": 1,
+    "icao": "EPSD",
+    "lat": 53.390712215,
+    "lon": 14.63217914,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12220,
+        "name": "Szczecin-Radio"
+      }
+    ],
+    "elevation": 1,
+    "tower": false,
+    "name": "Szczecin-Dabie",
+    "runways": [
+      {
+        "type": 100,
+        "width": 84.09,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 53.38876777,
+        "lonStart": 14.62680478,
+        "latEnd": 53.39265666,
+        "lonEnd": 14.6375535,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24509
+  }
+]

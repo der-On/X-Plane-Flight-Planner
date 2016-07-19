@@ -1,0 +1,110 @@
+[
+  {
+    "type": 1,
+    "icao": "CKU",
+    "lat": 60.54390333,
+    "lon": -145.72670417,
+    "communications": [],
+    "elevation": 12,
+    "tower": false,
+    "name": "Cordova Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 60.5437273,
+        "lonStart": -145.73182336,
+        "latEnd": 60.54407936,
+        "lonEnd": -145.72158498,
+        "length": 0,
+        "surfacetype": 5
+      },
+      {
+        "type": 101,
+        "width": 914.4,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 60.5487131,
+        "lonStart": -145.74675779,
+        "latEnd": 60.53909356,
+        "lonEnd": -145.70665055,
+        "length": 0
+      }
+    ],
+    "id": 5325
+  },
+  {
+    "type": 1,
+    "icao": "PACV",
+    "lat": 60.4906935,
+    "lon": -145.477301,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13565,
+        "name": "ASOS"
+      },
+      {
+        "type": 50,
+        "frequency": 12220,
+        "name": "JUNEAU FSS"
+      },
+      {
+        "type": 50,
+        "frequency": 12360,
+        "name": "JUNEAU FSS"
+      },
+      {
+        "type": 51,
+        "frequency": 12360,
+        "name": "JUNEAU CTAF"
+      },
+      {
+        "type": 54,
+        "frequency": 11930,
+        "name": "ANCHORAGE CNTR"
+      },
+      {
+        "type": 54,
+        "frequency": 13360,
+        "name": "ANCHORAGE CNTR"
+      }
+    ],
+    "elevation": 41,
+    "tower": true,
+    "name": "Cordova-Smith",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 60.496753,
+        "lonStart": -145.496827,
+        "latEnd": 60.488337,
+        "lonEnd": -145.458911,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 60.491439,
+        "lonStart": -145.476686,
+        "latEnd": 60.486245,
+        "lonEnd": -145.47678,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 5326
+  }
+]

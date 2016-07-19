@@ -1,0 +1,74 @@
+[
+  {
+    "type": 1,
+    "icao": "KCQX",
+    "lat": 41.6884,
+    "lon": -69.989522,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13587,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 12730,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 55,
+        "frequency": 11820,
+        "name": "CAPE APP/DEP"
+      }
+    ],
+    "elevation": 67,
+    "tower": false,
+    "name": "Chatham Muni",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 41.685433,
+        "lonStart": -69.993333,
+        "latEnd": 41.691367,
+        "lonEnd": -69.985711,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4837
+  },
+  {
+    "type": 17,
+    "icao": "3MA4",
+    "lat": 41.71483305,
+    "lon": -69.96612667,
+    "communications": [],
+    "elevation": 8,
+    "tower": false,
+    "name": "[H] North Chatham",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.71483305,
+        "lonStart": -69.96612667,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 31643
+  }
+]

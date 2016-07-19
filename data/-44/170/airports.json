@@ -1,0 +1,105 @@
+[
+  {
+    "type": 1,
+    "icao": "NZGT",
+    "lat": -43.910385,
+    "lon": 170.12816600000002,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 11860,
+        "name": "ALPS TRAFFIC"
+      },
+      {
+        "type": 54,
+        "frequency": 12350,
+        "name": "CHRISTCHURCH FIS"
+      }
+    ],
+    "elevation": 1824,
+    "tower": false,
+    "name": "GLENTANNER",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -43.906093,
+        "lonStart": 170.127251,
+        "latEnd": -43.914677,
+        "lonEnd": 170.129081,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10035
+  },
+  {
+    "type": 1,
+    "icao": "NZMC",
+    "lat": -43.7659682575,
+    "lon": 170.13347039750002,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 11860,
+        "name": "ALPS_TRAFFIC MULT"
+      },
+      {
+        "type": 51,
+        "frequency": 13100,
+        "name": "MOUNT_COOK UNIC"
+      },
+      {
+        "type": 55,
+        "frequency": 12350,
+        "name": "CHRISTCHURCH APP"
+      }
+    ],
+    "elevation": 2152,
+    "tower": false,
+    "name": "Mount_Cook",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -43.760345,
+        "lonStart": 170.131073,
+        "latEnd": -43.772626,
+        "lonEnd": 170.138812,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 21.03,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -43.76551858,
+        "lonStart": 170.13176818,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.9
+      },
+      {
+        "type": 102,
+        "width": 21.95,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": -43.76538345,
+        "lonStart": 170.13222841,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 17.98
+      }
+    ],
+    "id": 17630
+  }
+]

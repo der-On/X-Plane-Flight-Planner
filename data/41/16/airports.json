@@ -1,0 +1,80 @@
+[
+  {
+    "type": 1,
+    "icao": "LIBD",
+    "lat": 41.13638445,
+    "lon": 16.762351214,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 11950,
+        "name": "APP/DEP"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "TWR"
+      },
+      {
+        "type": 51,
+        "frequency": 12405,
+        "name": "ATIS"
+      }
+    ],
+    "elevation": 187,
+    "tower": true,
+    "name": "Bari Palese Macchie",
+    "runways": [
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 41.13285055,
+        "lonStart": 16.74057591,
+        "latEnd": 41.14233304,
+        "lonEnd": 16.77408584,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 21,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.13799893,
+        "lonStart": 16.77589098,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21
+      },
+      {
+        "type": 102,
+        "width": 19.7,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 41.13447944,
+        "lonStart": 16.76109639,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21.9
+      },
+      {
+        "type": 102,
+        "width": 12,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 41.13426029,
+        "lonStart": 16.76010695,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.1
+      }
+    ],
+    "id": 2235
+  }
+]
