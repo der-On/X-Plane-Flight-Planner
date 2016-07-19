@@ -1148,13 +1148,6 @@ var Search = function (_React$Component) {
       this.locate(results[index]);
     }
   }, {
-    key: 'handleMenuClick',
-    value: function handleMenuClick() {
-      var dispatch = this.props.dispatch;
-
-      dispatch((0, _actions.toggleSidebar)());
-    }
-  }, {
     key: 'locate',
     value: function locate(item) {
       var dispatch = this.props.dispatch;
@@ -1171,15 +1164,8 @@ var Search = function (_React$Component) {
 
 
       return _react2.default.createElement(
-        'div',
+        'span',
         { className: 'main-search' },
-        _react2.default.createElement(
-          _FontIcon2.default,
-          {
-            className: 'material-icons main-menu-icon',
-            onClick: this.handleMenuClick.bind(this) },
-          'menu'
-        ),
         _react2.default.createElement(_AutoComplete2.default, {
           className: 'main-search-input',
           hintText: indexLoading ? "Loading data ..." : "ICAO, airport name, Fix, Navaid",
@@ -1241,6 +1227,14 @@ var _Paper = require('material-ui/Paper');
 
 var _Paper2 = _interopRequireDefault(_Paper);
 
+var _FontIcon = require('material-ui/FontIcon');
+
+var _FontIcon2 = _interopRequireDefault(_FontIcon);
+
+var _IconButton = require('material-ui/IconButton');
+
+var _IconButton2 = _interopRequireDefault(_IconButton);
+
 var _reactRedux = require('react-redux');
 
 var _filter = require('lodash/filter');
@@ -1250,6 +1244,8 @@ var _filter2 = _interopRequireDefault(_filter);
 var _WaypointList = require('./WaypointList');
 
 var _WaypointList2 = _interopRequireDefault(_WaypointList);
+
+var _actions = require('../state/actions');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1269,10 +1265,25 @@ var Sidebar = function (_React$Component) {
   }
 
   _createClass(Sidebar, [{
+    key: 'handleSidebarToggleClick',
+    value: function handleSidebarToggleClick() {
+      var dispatch = this.props.dispatch;
+
+      dispatch((0, _actions.toggleSidebar)());
+    }
+  }, {
+    key: 'handleMenuToggleClick',
+    value: function handleMenuToggleClick() {
+      var dispatch = this.props.dispatch;
+
+      dispatch((0, _actions.toggleMenu)());
+    }
+  }, {
     key: 'render',
     value: function render() {
       var _props = this.props;
       var expanded = _props.expanded;
+      var menuExpanded = _props.menuExpanded;
       var waypoints = _props.waypoints;
 
 
@@ -1281,7 +1292,40 @@ var Sidebar = function (_React$Component) {
         {
           className: 'main-sidebar ' + (expanded ? 'expanded' : 'collapsed'),
           zDepth: 2 },
-        _react2.default.createElement(_Search2.default, null),
+        _react2.default.createElement(
+          'header',
+          { className: 'main-sidebar__header' },
+          _react2.default.createElement(
+            _IconButton2.default,
+            {
+              className: 'main-menu-toggle',
+              tooltip: menuExpanded ? 'hide menu' : 'show menu',
+              tooltipPosition: 'bottom-right',
+              onClick: this.handleMenuToggleClick.bind(this) },
+            _react2.default.createElement(
+              _FontIcon2.default,
+              {
+                className: 'material-icons' },
+              'menu'
+            )
+          ),
+          _react2.default.createElement(_Search2.default, null),
+          _react2.default.createElement(
+            _IconButton2.default,
+            {
+              className: 'main-sidebar-toggle',
+              tooltip: expanded ? 'collapse sidebar' : 'expand sidebar',
+              tooltipPosition: 'top-right',
+              style: { display: 'block', width: '100%', height: '1rem', padding: '0' },
+              onClick: this.handleSidebarToggleClick.bind(this) },
+            _react2.default.createElement(
+              _FontIcon2.default,
+              {
+                className: 'material-icons' },
+              expanded ? 'expand_less' : 'expand_more'
+            )
+          )
+        ),
         _react2.default.createElement(_WaypointList2.default, { waypoints: waypoints })
       );
     }
@@ -1305,6 +1349,7 @@ function getWaypoints(state) {
 var mapStateToProps = function mapStateToProps(state) {
   return {
     expanded: state.sidebar.expanded,
+    menuExpanded: state.menu.expanded,
     waypoints: getWaypoints(state),
     flightPlans: state.flightPlans || {}
   };
@@ -1312,7 +1357,7 @@ var mapStateToProps = function mapStateToProps(state) {
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(Sidebar);
 
-},{"./Search":10,"./WaypointList":12,"lodash/filter":265,"material-ui/Paper":330,"react":643,"react-redux":461}],12:[function(require,module,exports){
+},{"../state/actions":17,"./Search":10,"./WaypointList":12,"lodash/filter":265,"material-ui/FontIcon":316,"material-ui/IconButton":318,"material-ui/Paper":330,"react":643,"react-redux":461}],12:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -1665,6 +1710,9 @@ exports.setMapBaseLayer = setMapBaseLayer;
 exports.collapseSidebar = collapseSidebar;
 exports.expandSidebar = expandSidebar;
 exports.toggleSidebar = toggleSidebar;
+exports.collapseMenu = collapseMenu;
+exports.expandMenu = expandMenu;
+exports.toggleMenu = toggleMenu;
 exports.addFlashMessage = addFlashMessage;
 exports.popFlashMessage = popFlashMessage;
 exports.clearFlashMessages = clearFlashMessages;
@@ -2037,6 +2085,24 @@ function toggleSidebar() {
   };
 }
 
+function collapseMenu() {
+  return {
+    type: c.COLLAPSE_MENU
+  };
+}
+
+function expandMenu() {
+  return {
+    type: c.EXPAND_MENU
+  };
+}
+
+function toggleMenu() {
+  return {
+    type: c.TOGGLE_MENU
+  };
+}
+
 function addFlashMessage(message, type, undo) {
   return {
     type: c.ADD_FLASH_MESSAGE,
@@ -2173,6 +2239,11 @@ var MAP_MAX_CLUSTER_RADIUS = exports.MAP_MAX_CLUSTER_RADIUS = 30;
 var COLLAPSE_SIDEBAR = exports.COLLAPSE_SIDEBAR = 'COLLAPSE_SIDEBAR';
 var EXPAND_SIDEBAR = exports.EXPAND_SIDEBAR = 'EXPAND_SIDEBAR';
 var TOGGLE_SIDEBAR = exports.TOGGLE_SIDEBAR = 'TOGGLE_SIDEBAR';
+
+// main menu
+var COLLAPSE_MENU = exports.COLLAPSE_MENU = 'COLLAPSE_MENU';
+var EXPAND_MENU = exports.EXPAND_MENU = 'EXPAND_MENU';
+var TOGGLE_MENU = exports.TOGGLE_MENU = 'TOGGLE_MENU';
 
 // flash messages
 var ADD_FLASH_MESSAGE = exports.ADD_FLASH_MESSAGE = 'ADD_FLASH_MESSAGE';
@@ -2688,6 +2759,41 @@ function toggleSidebar(state, action) {
   return state ? false : true;
 }
 
+function menu(state, action) {
+  state = state || {
+    expanded: false
+  };
+
+  switch (action.type) {
+    case c.COLLAPSE_MENU:
+      return Object.assign({}, state, {
+        expanded: collapseMenu(state.expanded, action)
+      });
+    case c.EXPAND_MENU:
+      return Object.assign({}, state, {
+        expanded: expandMenu(state.expanded, action)
+      });
+    case c.TOGGLE_MENU:
+      return Object.assign({}, state, {
+        expanded: toggleMenu(state.expanded, action)
+      });
+  }
+
+  return state;
+}
+
+function collapseMenu(state, action) {
+  return false;
+}
+
+function expandMenu(state, action) {
+  return true;
+}
+
+function toggleMenu(state, action) {
+  return state ? false : true;
+}
+
 function navItem() {
   var state = arguments.length <= 0 || arguments[0] === undefined ? null : arguments[0];
   var action = arguments[1];
@@ -2777,6 +2883,7 @@ var rootReducer = (0, _redux.combineReducers)({
   geoSearch: geoSearch,
   map: map,
   sidebar: sidebar,
+  menu: menu,
   activeNavItem: navItem,
   activeFlightPlanId: setActiveFlightPlan,
   flashMessages: flashMessages
