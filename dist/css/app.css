@@ -16,7 +16,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  height: 5rem;
+  height: 3rem;
   z-index: 2;
   transition: all 0.25s ease-in-out;
   overflow: hidden;
@@ -25,13 +25,9 @@ body {
   height: 100%;
 }
 .main-sidebar-toggle {
-  display: block;
-  text-align: center;
-}
-.main-menu-toggle {
   display: inline-block;
 }
-.main-menu-toggle,
+.main-sidebar-toggle,
 .main-search-icon {
   margin: 0 1rem;
   vertical-align: middle;
@@ -77,7 +73,7 @@ body {
 
 .waypoints-list__items {
   position: absolute;
-  top: 7rem;
+  top: 6rem;
   left: 0;
   right: 0;
   bottom: 0;

@@ -336,15 +336,18 @@ var _leaflet = require('leaflet');
 
 var _leaflet2 = _interopRequireDefault(_leaflet);
 
+var _constants = require('../../state/constants');
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 window.L = _leaflet2.default;
 require('../../../leaflet.label-patched');
 
+
 var zIndexes = {
   aircraft: 6000,
   waypoint: 5000,
-  flightPlanPath: 4000,
+  flightPlan: 4000,
   airport: 3000,
   navaid: 2000,
   fix: 1000,
@@ -352,8 +355,39 @@ var zIndexes = {
   airwayLine: 3400
 };
 
+var flightPlanOptions = {
+  fill: false,
+  clickable: false,
+  className: 'map__flight-plan-path',
+  opacity: 0.75,
+  width: 6,
+  zIndexOffset: zIndexes.flightPlan
+};
+
+var waypointOptions = {
+  fill: true,
+  clickable: false,
+  className: 'map__flight-plan-waypoint',
+  opacity: 0.75,
+  radius: 20,
+  fillOpacity: 0.75,
+  zIndexOffset: zIndexes.waypoint
+};
+
+var airwayLineOptions = {
+  dashArray: '5, 5',
+  lineCap: 'butt',
+  weight: 2,
+  clickable: false,
+  zIndexOffset: zIndexes.airwayLine
+};
+
 function navItemLabel(navItem) {
   return navItem.icao || navItem.name || navItem.identifier;
+}
+
+function navItemLatLng(navItem) {
+  return _leaflet2.default.latLng(navItem.lat || 0, navItem.lon || 0);
 }
 
 function navItemMarker(type, navItem) {
@@ -373,14 +407,9 @@ function airwayMarker(airway, lat, lon, label) {
 }
 
 function airwayLine(airway) {
-  return _leaflet2.default.polyline([[airway.fromLat, airway.fromLon], [airway.toLat, airway.toLon]], {
-    dashArray: '5, 5',
-    lineCap: 'butt',
-    weight: 2,
-    clickable: false,
-    color: airway.type === 2 ? '#4f6f3e' : '#3161a4',
-    zIndexOffset: zIndexes.airwayLine
-  }).bindLabel(airway.name);
+  return _leaflet2.default.polyline([[airway.fromLat, airway.fromLon], [airway.toLat, airway.toLon]], Object.assign({}, airwayLineOptions, {
+    color: airway.type === 2 ? '#4f6f3e' : '#3161a4'
+  })).bindLabel(airway.name);
 }
 
 exports.default = {
@@ -390,14 +419,16 @@ exports.default = {
   airway: function airway(_airway) {
     return _leaflet2.default.layerGroup([airwayMarker(_airway, _airway.fromLat, _airway.fromLon, _airway.fromName), airwayMarker(_airway, _airway.toLat, _airway.toLon, _airway.toName), airwayLine(_airway)]);
   },
-  waypoint: function waypoint(_waypoint) {
-    var latLng = _leaflet2.default.latLng(_waypoint.lat, _waypoint.lon);
-    return _leaflet2.default.marker(latLng, {
-      zIndexOffset: zIndexes.waypoint
-    });
+  waypoint: function waypoint(flightPlan, _waypoint) {
+    return _leaflet2.default.circleMarker(navItemLatLng(_waypoint), Object.assign({}, waypointOptions, {
+      color: flightPlan.color || _constants.DEFAULT_FLIGHT_PLAN_COLOR,
+      fillColor: flightPlan.color || _constants.DEFAULT_FLIGHT_PLAN_COLOR
+    }));
   },
-  flightPlanPath: function flightPlanPath(flightPlan, waypoints) {
-    // TODO: implement
+  flightPlan: function flightPlan(_flightPlan, waypoints) {
+    return _leaflet2.default.polyline(waypoints.map(navItemLatLng), Object.assign({}, flightPlanOptions, {
+      color: _flightPlan.color || _constants.DEFAULT_FLIGHT_PLAN_COLOR
+    }));
   },
   aircraft: function aircraft() {
     return _leaflet2.default.marker([0, 0], {
@@ -407,7 +438,7 @@ exports.default = {
   }
 };
 
-},{"../../../leaflet.label-patched":26,"./Icons":5,"./Popups":7,"leaflet":95,"lodash/partial":294}],7:[function(require,module,exports){
+},{"../../../leaflet.label-patched":26,"../../state/constants":19,"./Icons":5,"./Popups":7,"leaflet":95,"lodash/partial":294}],7:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -537,6 +568,10 @@ var _toString = require('lodash/toString');
 
 var _toString2 = _interopRequireDefault(_toString);
 
+var _filter = require('lodash/filter');
+
+var _filter2 = _interopRequireDefault(_filter);
+
 var _constants = require('../../state/constants');
 
 var c = _interopRequireWildcard(_constants);
@@ -550,6 +585,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+function waypointsForFlightPlan(flightPlanId, waypoints) {
+  return (0, _filter2.default)(waypoints, function (waypoint, id) {
+    return waypoint.flightPlanId === flightPlanId;
+  });
+}
+
+function navItemLatLng(navItem) {
+  return _leaflet2.default.latLng(navItem.lat || 0, navItem.lon || 0);
+}
 
 var Map = function (_React$Component) {
   _inherits(Map, _React$Component);
@@ -591,7 +636,9 @@ var Map = function (_React$Component) {
         navaids: {},
         fixes: {},
         airways: {},
-        flightPlans: {}
+        flightPlans: {},
+        waypoints: {},
+        aircraft: null
       };
 
       this.layerGroups = {
@@ -600,6 +647,7 @@ var Map = function (_React$Component) {
         fixes: (0, _Cluster2.default)('fixes'),
         airways: _leaflet2.default.layerGroup(),
         flightPlans: _leaflet2.default.layerGroup(),
+        waypoints: _leaflet2.default.layerGroup(),
         aircraft: _leaflet2.default.layerGroup()
       };
 
@@ -608,6 +656,7 @@ var Map = function (_React$Component) {
       this.layerGroups.navaids.addTo(this.map);
       this.layerGroups.airports.addTo(this.map);
       this.layerGroups.flightPlans.addTo(this.map);
+      this.layerGroups.waypoints.addTo(this.map);
       this.layerGroups.aircraft.addTo(this.map);
 
       // initially load nav items
@@ -890,7 +939,137 @@ var Map = function (_React$Component) {
     }
   }, {
     key: 'updateFlightPlans',
-    value: function updateFlightPlans() {}
+    value: function updateFlightPlans() {
+      this.createFlightPlans();
+      this.cleanupFlightPlans();
+      this.createWaypoints();
+      this.cleanupWaypoints();
+    }
+  }, {
+    key: 'createFlightPlans',
+    value: function createFlightPlans() {
+      var self = this;
+      var _props5 = this.props;
+      var flightPlans = _props5.flightPlans;
+      var waypoints = _props5.waypoints;
+
+
+      function create(id) {
+        var flightPlan = flightPlans[id];
+        var marker = self.markers.flightPlans[id];
+        var _waypoints = waypointsForFlightPlan(id, waypoints);
+
+        // create if needed
+        if (!marker) {
+          marker = _Markers2.default.flightPlan(flightPlan, _waypoints);
+          self.markers.flightPlans[id] = marker;
+          marker.addTo(self.layerGroups.flightPlans);
+        } // update latLngs
+        else {
+            marker.setLatLngs(_waypoints.map(navItemLatLng));
+          }
+      }
+
+      Object.keys(flightPlans).forEach(create);
+    }
+  }, {
+    key: 'cleanupFlightPlans',
+    value: function cleanupFlightPlans() {
+      var flightPlans = this.props.flightPlans;
+
+      var self = this;
+
+      function remove(id) {
+        var marker = self.markers.flightPlans[id] || null;
+        if (marker) {
+          self.layerGroups.flightPlans.removeLayer(marker);
+        }
+        delete self.markers.flightPlans[id];
+      }
+
+      var flightPlanIds = Object.keys(flightPlans);
+      var prevFlightPlanIds = Object.keys(self.layerGroups.flightPlans);
+      var flightPlansToDelete = _without2.default.apply(null, [prevFlightPlanIds].concat(flightPlanIds));
+      flightPlansToDelete.forEach(remove);
+    }
+  }, {
+    key: 'clearFlightPlans',
+    value: function clearFlightPlans() {
+      var self = this;
+
+      Object.keys(this.markers.flightPlans).forEach(function (id) {
+        var marker = self.markers.flightPlans[id];
+        if (marker) {
+          self.layerGroups.flightPlans.removeLayer(marker);
+        }
+        delete self.markers.flightPlans[id];
+      });
+    }
+  }, {
+    key: 'createWaypoints',
+    value: function createWaypoints() {
+      var _props6 = this.props;
+      var waypoints = _props6.waypoints;
+      var flightPlans = _props6.flightPlans;
+
+      var self = this;
+
+      function create(id) {
+        var waypoint = waypoints[id];
+        var flightPlanId = waypoint.flightPlanId;
+        var flightPlan = flightPlans[flightPlanId];
+        var latLng = _leaflet2.default.latLng(waypoint.lat, waypoint.lon);
+
+        var marker = self.markers.waypoints[id] || null;
+
+        // create marker if needed
+        if (!marker) {
+          marker = _Markers2.default.waypoint(flightPlan, waypoint);
+          marker.addTo(self.layerGroups.waypoints);
+          self.markers.waypoints[id] = marker;
+        } // update lat lng of marker it nessecary
+        else if (!latLng.equals(marker.getLatLng())) {
+            marker.setLatLng(latLng);
+          }
+      }
+
+      Object.keys(waypoints).forEach(create);
+    }
+  }, {
+    key: 'cleanupWaypoints',
+    value: function cleanupWaypoints() {
+      var waypoints = this.props.waypoints;
+
+      var self = this;
+
+      function remove(id) {
+        var marker = self.markers.waypoints[id];
+        if (marker) {
+          self.layerGroups.waypoints.removeLayer(marker);
+        }
+
+        delete self.markers.waypoints[id];
+      }
+
+      var waypointIds = Object.keys(waypoints);
+      var prevWaypointIds = Object.keys(this.markers.waypoints);
+      var waypointsToDelete = _without2.default.apply(null, [prevWaypointIds].concat(waypointIds));
+      waypointsToDelete.forEach(remove);
+    }
+  }, {
+    key: 'clearWaypoints',
+    value: function clearWaypoints(flightPlandId) {
+      var self = this;
+
+      Object.keys(this.markers.waypoints).forEach(function (id) {
+        var marker = self.markers.waypoints[id];
+        if (marker) {
+          self.layerGroups.waypoints.removeLayer(marker);
+        }
+
+        delete self.markers.waypoints[id];
+      });
+    }
   }, {
     key: 'handleClick',
     value: function handleClick(event) {
@@ -935,9 +1114,9 @@ var Map = function (_React$Component) {
   }, {
     key: 'addNavItemAsWaypoint',
     value: function addNavItemAsWaypoint(type, id) {
-      var _props5 = this.props;
-      var activeFlightPlanId = _props5.activeFlightPlanId;
-      var dispatch = _props5.dispatch;
+      var _props7 = this.props;
+      var activeFlightPlanId = _props7.activeFlightPlanId;
+      var dispatch = _props7.dispatch;
 
       var navItem = this.navItemById(type, id);
       if (!navItem) return;
@@ -947,11 +1126,11 @@ var Map = function (_React$Component) {
   }, {
     key: 'render',
     value: function render() {
-      var _props6 = this.props;
-      var activeNavItem = _props6.activeNavItem;
-      var center = _props6.center;
-      var zoom = _props6.zoom;
-      var baseLayer = _props6.baseLayer;
+      var _props8 = this.props;
+      var activeNavItem = _props8.activeNavItem;
+      var center = _props8.center;
+      var zoom = _props8.zoom;
+      var baseLayer = _props8.baseLayer;
 
 
       return _react2.default.createElement('div', {
@@ -981,7 +1160,7 @@ var mapStateToProps = function mapStateToProps(state) {
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(Map);
 
-},{"../../state/actions":17,"../../state/constants":19,"./BaseLayers":3,"./Cluster":4,"./Markers":6,"leaflet":95,"lodash/debounce":263,"lodash/flow":267,"lodash/negate":289,"lodash/property":295,"lodash/toString":305,"lodash/without":306,"react":643,"react-redux":461}],9:[function(require,module,exports){
+},{"../../state/actions":17,"../../state/constants":19,"./BaseLayers":3,"./Cluster":4,"./Markers":6,"leaflet":95,"lodash/debounce":263,"lodash/filter":265,"lodash/flow":267,"lodash/negate":289,"lodash/property":295,"lodash/toString":305,"lodash/without":306,"react":643,"react-redux":461}],9:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -1298,25 +1477,9 @@ var Sidebar = function (_React$Component) {
           _react2.default.createElement(
             _IconButton2.default,
             {
-              className: 'main-menu-toggle',
-              tooltip: menuExpanded ? 'hide menu' : 'show menu',
-              tooltipPosition: 'bottom-right',
-              onClick: this.handleMenuToggleClick.bind(this) },
-            _react2.default.createElement(
-              _FontIcon2.default,
-              {
-                className: 'material-icons' },
-              'menu'
-            )
-          ),
-          _react2.default.createElement(_Search2.default, null),
-          _react2.default.createElement(
-            _IconButton2.default,
-            {
               className: 'main-sidebar-toggle',
               tooltip: expanded ? 'collapse sidebar' : 'expand sidebar',
-              tooltipPosition: 'top-right',
-              style: { display: 'block', width: '100%', height: '1rem', padding: '0' },
+              tooltipPosition: 'bottom-right',
               onClick: this.handleSidebarToggleClick.bind(this) },
             _react2.default.createElement(
               _FontIcon2.default,
@@ -1324,7 +1487,8 @@ var Sidebar = function (_React$Component) {
                 className: 'material-icons' },
               expanded ? 'expand_less' : 'expand_more'
             )
-          )
+          ),
+          _react2.default.createElement(_Search2.default, null)
         ),
         _react2.default.createElement(_WaypointList2.default, { waypoints: waypoints })
       );
@@ -1710,6 +1874,7 @@ exports.setMapBaseLayer = setMapBaseLayer;
 exports.collapseSidebar = collapseSidebar;
 exports.expandSidebar = expandSidebar;
 exports.toggleSidebar = toggleSidebar;
+exports.setSidebarContext = setSidebarContext;
 exports.collapseMenu = collapseMenu;
 exports.expandMenu = expandMenu;
 exports.toggleMenu = toggleMenu;
@@ -2085,6 +2250,13 @@ function toggleSidebar() {
   };
 }
 
+function setSidebarContext(contex) {
+  return {
+    type: c.SET_SIDEBAR_CONTEXT,
+    context: context
+  };
+}
+
 function collapseMenu() {
   return {
     type: c.COLLAPSE_MENU
@@ -2239,6 +2411,10 @@ var MAP_MAX_CLUSTER_RADIUS = exports.MAP_MAX_CLUSTER_RADIUS = 30;
 var COLLAPSE_SIDEBAR = exports.COLLAPSE_SIDEBAR = 'COLLAPSE_SIDEBAR';
 var EXPAND_SIDEBAR = exports.EXPAND_SIDEBAR = 'EXPAND_SIDEBAR';
 var TOGGLE_SIDEBAR = exports.TOGGLE_SIDEBAR = 'TOGGLE_SIDEBAR';
+var SET_SIDEBAR_CONTEXT = exports.SET_SIDEBAR_CONTEXT = 'SET_SIDEBAR_CONTEXT';
+var SIDEBAR_CONTEXT_WAYPOINTS = exports.SIDEBAR_CONTEXT_WAYPOINTS = 'waypoints';
+var SIDEBAR_CONTEXT_FLIGHT_PLANS = exports.SIDEBAR_CONTEXT_FLIGHT_PLANS = 'flightPlans';
+var SIDEBAR_CONTEXT_FLIGHT_PLAN = exports.SIDEBAR_CONTEXT_FLIGHT_PLAN = 'flightPlan';
 
 // main menu
 var COLLAPSE_MENU = exports.COLLAPSE_MENU = 'COLLAPSE_MENU';
@@ -2258,6 +2434,10 @@ var DANGER = exports.DANGER = 'DANGER';
 var ERROR = exports.ERROR = 'ERROR';
 var DEBUG = exports.DEBUG = 'DEBUG';
 
+// flight plans
+var FLIGHT_PLAN_COLORS = exports.FLIGHT_PLAN_COLORS = ['#DDBB66', '#ffa544', '#91b756', '#3161a4', '#9b8ab6', '#ae927a', '#c74634', '#ad5c15', '#4f6f3e', '#fdef5a', '#4b6574', '#3f3f3f'];
+var DEFAULT_FLIGHT_PLAN_COLOR = exports.DEFAULT_FLIGHT_PLAN_COLOR = FLIGHT_PLAN_COLORS[0];
+
 },{}],20:[function(require,module,exports){
 'use strict';
 
@@ -2275,7 +2455,9 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 function InitialState() {
   // TODO: load state from localstorage
-  var initalFlightPlan = (0, _FlightPlan2.default)();
+  var initalFlightPlan = (0, _FlightPlan2.default)({
+    title: 'route 1'
+  });
   return {
     flightPlans: _defineProperty({}, initalFlightPlan.id, initalFlightPlan),
     activeFlightPlanId: initalFlightPlan.id
@@ -2726,7 +2908,8 @@ function setMapBaseLayer() {
 
 function sidebar(state, action) {
   state = state || {
-    expanded: false
+    expanded: false,
+    context: c.SIDEBAR_CONTEXT_WAYPONTS
   };
 
   switch (action.type) {
@@ -2741,6 +2924,10 @@ function sidebar(state, action) {
     case c.TOGGLE_SIDEBAR:
       return Object.assign({}, state, {
         expanded: toggleSidebar(state.expanded, action)
+      });
+    case c.SET_SIDEBAR_CONTEXT:
+      return Object.assign({}, state, {
+        context: setSidebarContext(state.context, action)
       });
   }
 
@@ -2757,6 +2944,10 @@ function expandSidebar(state, action) {
 
 function toggleSidebar(state, action) {
   return state ? false : true;
+}
+
+function setSidebarContext(state, action) {
+  return action.state || state || c.SIDEBAR_CONTEXT_WAYPONTS;
 }
 
 function menu(state, action) {
