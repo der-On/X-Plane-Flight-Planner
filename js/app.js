@@ -2123,7 +2123,9 @@ var WaypointListItem = function (_React$Component) {
         _react2.default.createElement(
           _List.ListItem,
           {
-            rightIcon: _react2.default.createElement(_delete2.default, { onClick: this.handleDeleteClick.bind(this) }) },
+            rightIcon: _react2.default.createElement(_delete2.default, {
+              title: 'Remove waypoint',
+              onClick: this.handleDeleteClick.bind(this) }) },
           _react2.default.createElement(
             'div',
             { className: 'waypoint__sort' },
@@ -2160,6 +2162,7 @@ var WaypointListItem = function (_React$Component) {
             'div',
             {
               className: 'waypoint__title',
+              title: 'click to view on map',
               onClick: this.handleTitleClick.bind(this) },
             (0, _padStart2.default)((waypoint.index + 1).toString(), 2, '0'),
             _react2.default.createElement(_NavItemIcon2.default, { className: 'waypoint__icon', navItem: waypoint.navItem || waypoint }),
