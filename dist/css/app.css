@@ -102,9 +102,19 @@ body {
 .flight-plans-list__flight-plan {
   position: relative;
 }
+.waypoints-list__empty,
+.flight-plans-list__empty,
+.flight-plan__totals,
+.waypoint__totals {
+  padding: 1rem;
+  opacity: 0.85;
+  font-size: 12px;
+}
 .waypoint__title,
-.waypoint__details {
+.waypoint__details,
+.waypoint__totals {
   margin-left: 48px;
+  padding-left: 0;
 }
 .waypoint__sort {
   position: absolute;
@@ -167,6 +177,12 @@ body {
 
 .leaflet-control-layers-toggle {
   background-image: url('../images/leaflet/layers.png');
+}
+
+.flight-plans-list__add-button {
+  position: fixed;
+  bottom: 0.5rem;
+  left: 0.5rem;
 }
 
 .flight-plan-settings {
