@@ -441,6 +441,8 @@ var _leaflet = require('leaflet');
 
 var _leaflet2 = _interopRequireDefault(_leaflet);
 
+var _constants = require('../../state/constants');
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var baseUrl = window.location.href.split('#')[0] + '/images/icons';
@@ -542,10 +544,18 @@ exports.default = {
     return _leaflet2.default.icon(Object.assign({}, defaultOptions, {
       iconUrl: aircraftIconUrl()
     }));
+  },
+  waypoint: function waypoint(flightPlan, _waypoint) {
+    var color = flightPlan.color || _constants.DEFAULT_FLIGHT_PLAN_COLOR;
+
+    return _leaflet2.default.divIcon(Object.assign({}, defaultOptions, {
+      className: 'map-waypoint__icon',
+      html: '<span style="background-color:' + color + ';border-color:' + color + ';"></span>'
+    }));
   }
 };
 
-},{"leaflet":98}],9:[function(require,module,exports){
+},{"../../state/constants":22,"leaflet":98}],9:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -578,13 +588,13 @@ require('../../../leaflet.label-patched');
 
 var zIndexes = {
   aircraft: 6000,
-  waypoint: 5000,
-  flightPlan: 4000,
   airport: 3000,
   navaid: 2000,
   fix: 1000,
   airway: 3500,
-  airwayLine: 3400
+  airwayLine: 3400,
+  waypoint: 500,
+  flightPlan: 300
 };
 
 var flightPlanOptions = {
@@ -597,12 +607,9 @@ var flightPlanOptions = {
 };
 
 var waypointOptions = {
-  fill: true,
   clickable: false,
   className: 'map__flight-plan-waypoint',
   opacity: 0.75,
-  radius: 20,
-  fillOpacity: 0.75,
   zIndexOffset: zIndexes.waypoint
 };
 
@@ -652,9 +659,10 @@ exports.default = {
     return _leaflet2.default.layerGroup([airwayMarker(_airway, _airway.fromLat, _airway.fromLon, _airway.fromName), airwayMarker(_airway, _airway.toLat, _airway.toLon, _airway.toName), airwayLine(_airway)]);
   },
   waypoint: function waypoint(flightPlan, _waypoint) {
-    return _leaflet2.default.circleMarker(navItemLatLng(_waypoint), Object.assign({}, waypointOptions, {
-      color: flightPlan.color || _constants.DEFAULT_FLIGHT_PLAN_COLOR,
-      fillColor: flightPlan.color || _constants.DEFAULT_FLIGHT_PLAN_COLOR
+    return _leaflet2.default.marker(navItemLatLng(_waypoint), Object.assign({}, waypointOptions, {
+      icon: _Icons2.default.waypoint(flightPlan, _waypoint),
+      draggable: !_waypoint.navItem, // make gps waypoints draggable
+      clickable: !_waypoint.navItem
     }));
   },
   flightPlan: function flightPlan(_flightPlan, waypoints) {
@@ -804,6 +812,10 @@ var _filter = require('lodash/filter');
 
 var _filter2 = _interopRequireDefault(_filter);
 
+var _partial = require('lodash/partial');
+
+var _partial2 = _interopRequireDefault(_partial);
+
 var _mapKeys = require('lodash/mapKeys');
 
 var _mapKeys2 = _interopRequireDefault(_mapKeys);
@@ -886,7 +898,8 @@ var Map = function (_React$Component) {
         center: center,
         zoom: zoom,
         maxZoom: c.MAP_MAX_ZOOM,
-        minZoom: c.MAP_MIN_ZOOM
+        minZoom: c.MAP_MIN_ZOOM,
+        doubleClickZoom: false
       });
 
       this.map.zoomControl.setPosition('topright');
@@ -944,10 +957,12 @@ var Map = function (_React$Component) {
   }, {
     key: 'bindMapEvents',
     value: function bindMapEvents() {
-      var dispatch = this.props.dispatch;
+      var _props2 = this.props;
+      var dispatch = _props2.dispatch;
+      var activeFlightPlanId = _props2.activeFlightPlanId;
 
       var self = this;
-      var viewEvents = ['resize', 'dragend', 'moveend', 'zoomend'];
+      var viewEvents = ['resize', 'moveend', 'moveend', 'zoomend'];
       var overlayEvents = ['overlayadd', 'overlayremove'];
 
       function attach(handler) {
@@ -991,22 +1006,28 @@ var Map = function (_React$Component) {
         dispatch((0, _actions.setMapBaseLayer)(baseLayer));
       }
 
+      function doubleClickHandler(event) {
+        var latLng = event.latlng;
+        dispatch((0, _actions.addGpsWaypoint)(activeFlightPlanId, latLng.lat, latLng.lng));
+      }
+
       viewEvents.forEach(attach(debouncedViewHandler));
       this.map.on('baselayerchange', baseLayerHandler);
       overlayEvents.forEach(attach(overlaysHandler));
+      this.map.on('dblclick', doubleClickHandler);
     }
   }, {
     key: 'componentDidUpdate',
     value: function componentDidUpdate(prevProps) {
-      var _props2 = this.props;
-      var activeNavItem = _props2.activeNavItem;
-      var center = _props2.center;
-      var zoom = _props2.zoom;
-      var baseLayer = _props2.baseLayer;
-      var overlays = _props2.overlays;
-      var navItems = _props2.navItems;
-      var waypoints = _props2.waypoints;
-      var flightPlans = _props2.flightPlans;
+      var _props3 = this.props;
+      var activeNavItem = _props3.activeNavItem;
+      var center = _props3.center;
+      var zoom = _props3.zoom;
+      var baseLayer = _props3.baseLayer;
+      var overlays = _props3.overlays;
+      var navItems = _props3.navItems;
+      var waypoints = _props3.waypoints;
+      var flightPlans = _props3.flightPlans;
 
       var bounds;
       var centerLatLng = _leaflet2.default.latLng(center);
@@ -1060,10 +1081,10 @@ var Map = function (_React$Component) {
   }, {
     key: 'updateView',
     value: function updateView() {
-      var _props3 = this.props;
-      var dispatch = _props3.dispatch;
-      var center = _props3.center;
-      var zoom = _props3.zoom;
+      var _props4 = this.props;
+      var dispatch = _props4.dispatch;
+      var center = _props4.center;
+      var zoom = _props4.zoom;
 
       var centerLatLng = this.map.getCenter();
       var prevCenterLatLng = _leaflet2.default.latLng(center);
@@ -1079,10 +1100,10 @@ var Map = function (_React$Component) {
   }, {
     key: 'updateViewFromLocationHash',
     value: function updateViewFromLocationHash() {
-      var _props4 = this.props;
-      var zoom = _props4.zoom;
-      var center = _props4.center;
-      var dispatch = _props4.dispatch;
+      var _props5 = this.props;
+      var zoom = _props5.zoom;
+      var center = _props5.center;
+      var dispatch = _props5.dispatch;
 
       var hash = window.location.hash.replace('#', '');
 
@@ -1099,9 +1120,9 @@ var Map = function (_React$Component) {
   }, {
     key: 'updateLocationHash',
     value: function updateLocationHash() {
-      var _props5 = this.props;
-      var center = _props5.center;
-      var zoom = _props5.zoom;
+      var _props6 = this.props;
+      var center = _props6.center;
+      var zoom = _props6.zoom;
 
       window.location.hash = '#' + zoom + '/' + center.join('/');
     }
@@ -1299,9 +1320,9 @@ var Map = function (_React$Component) {
     key: 'createFlightPlans',
     value: function createFlightPlans() {
       var self = this;
-      var _props6 = this.props;
-      var flightPlans = _props6.flightPlans;
-      var waypoints = _props6.waypoints;
+      var _props7 = this.props;
+      var flightPlans = _props7.flightPlans;
+      var waypoints = _props7.waypoints;
 
 
       function create(id) {
@@ -1358,9 +1379,9 @@ var Map = function (_React$Component) {
   }, {
     key: 'createWaypoints',
     value: function createWaypoints() {
-      var _props7 = this.props;
-      var waypoints = _props7.waypoints;
-      var flightPlans = _props7.flightPlans;
+      var _props8 = this.props;
+      var waypoints = _props8.waypoints;
+      var flightPlans = _props8.flightPlans;
 
       var self = this;
 
@@ -1377,6 +1398,11 @@ var Map = function (_React$Component) {
           marker = _Markers2.default.waypoint(flightPlan, waypoint);
           marker.addTo(self.overlays.waypoints);
           self.markers.waypoints[id] = marker;
+
+          // attach dragend handler to gps waypoints
+          if (!marker.navItem) {
+            marker.on('dragend', (0, _partial2.default)(self.handleWaypointDrag.bind(self), id));
+          }
         } // update lat lng of marker it nessecary
         else if (!latLng.equals(marker.getLatLng())) {
             marker.setLatLng(latLng);
@@ -1431,6 +1457,15 @@ var Map = function (_React$Component) {
       }
     }
   }, {
+    key: 'handleWaypointDrag',
+    value: function handleWaypointDrag(id, event) {
+      var dispatch = this.props.dispatch;
+
+      var latLng = event.target.getLatLng();
+
+      dispatch((0, _actions.setWaypointLatLon)(id, latLng.lat, latLng.lng));
+    }
+  }, {
     key: 'navItemById',
     value: function navItemById(type, id) {
       var navItems = this.props.navItems;
@@ -1464,9 +1499,9 @@ var Map = function (_React$Component) {
   }, {
     key: 'addNavItemAsWaypoint',
     value: function addNavItemAsWaypoint(type, id) {
-      var _props8 = this.props;
-      var activeFlightPlanId = _props8.activeFlightPlanId;
-      var dispatch = _props8.dispatch;
+      var _props9 = this.props;
+      var activeFlightPlanId = _props9.activeFlightPlanId;
+      var dispatch = _props9.dispatch;
 
       var navItem = this.navItemById(type, id);
       if (!navItem) return;
@@ -1476,11 +1511,11 @@ var Map = function (_React$Component) {
   }, {
     key: 'render',
     value: function render() {
-      var _props9 = this.props;
-      var activeNavItem = _props9.activeNavItem;
-      var center = _props9.center;
-      var zoom = _props9.zoom;
-      var baseLayer = _props9.baseLayer;
+      var _props10 = this.props;
+      var activeNavItem = _props10.activeNavItem;
+      var center = _props10.center;
+      var zoom = _props10.zoom;
+      var baseLayer = _props10.baseLayer;
 
 
       return _react2.default.createElement('div', {
@@ -1511,7 +1546,7 @@ var mapStateToProps = function mapStateToProps(state) {
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(Map);
 
-},{"../../state/actions":20,"../../state/constants":22,"./BaseLayers":6,"./Cluster":7,"./Markers":9,"leaflet":98,"lodash/debounce":266,"lodash/filter":268,"lodash/flow":270,"lodash/mapKeys":290,"lodash/negate":293,"lodash/property":299,"lodash/toString":309,"lodash/without":310,"react":651,"react-redux":469}],12:[function(require,module,exports){
+},{"../../state/actions":20,"../../state/constants":22,"./BaseLayers":6,"./Cluster":7,"./Markers":9,"leaflet":98,"lodash/debounce":266,"lodash/filter":268,"lodash/flow":270,"lodash/mapKeys":290,"lodash/negate":293,"lodash/partial":298,"lodash/property":299,"lodash/toString":309,"lodash/without":310,"react":651,"react-redux":469}],12:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -2200,6 +2235,7 @@ exports.receiveGeoSearchResults = receiveGeoSearchResults;
 exports.createWaypoint = createWaypoint;
 exports.addWaypoint = addWaypoint;
 exports.addWaypointAt = addWaypointAt;
+exports.addGpsWaypoint = addGpsWaypoint;
 exports.addNavItemAsWaypoint = addNavItemAsWaypoint;
 exports.removeWaypoint = removeWaypoint;
 exports.setWaypointIndex = setWaypointIndex;
@@ -2257,6 +2293,10 @@ var _geoSearch2 = _interopRequireDefault(_geoSearch);
 var _padStart = require('lodash/padStart');
 
 var _padStart2 = _interopRequireDefault(_padStart);
+
+var _round = require('lodash/round');
+
+var _round2 = _interopRequireDefault(_round);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -2395,6 +2435,18 @@ function addWaypointAt(waypoint, index) {
     type: c.ADD_WAYPOINT_AT,
     waypoint: waypoint,
     index: index
+  };
+}
+
+function addGpsWaypoint(flightPlanId, lat, lon) {
+  return function (dispatch) {
+    dispatch(addWaypoint((0, _Waypoint2.default)({
+      flightPlanId: flightPlanId,
+      lat: lat,
+      lon: lon
+    })));
+
+    dispatch(addFlashMessage('GPS Waypoint added at lat: ' + (0, _round2.default)(lat, 4) + ', lon: ' + (0, _round2.default)(lon, 4) + '.'));
   };
 }
 
@@ -2655,7 +2707,7 @@ function clearFlashMessages() {
   };
 }
 
-},{"../../models/FlightPlan":30,"../../models/Waypoint":31,"../geoSearch":17,"../navDataSearch":19,"./constants":22,"lodash/padStart":297}],21:[function(require,module,exports){
+},{"../../models/FlightPlan":30,"../../models/Waypoint":31,"../geoSearch":17,"../navDataSearch":19,"./constants":22,"lodash/padStart":297,"lodash/round":301}],21:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -2727,6 +2779,7 @@ var RECEIVE_GEO_SEARCH_RESULTS = exports.RECEIVE_GEO_SEARCH_RESULTS = 'RECEIVE_G
 var CREATE_WAYPOINT = exports.CREATE_WAYPOINT = 'CREATE_WAYPOINT';
 var ADD_WAYPOINT = exports.ADD_WAYPOINT = 'ADD_WAYPOINT';
 var ADD_WAYPOINT_AT = exports.ADD_WAYPOINT_AT = 'ADD_WAYPOINT_AT';
+var ADD_GPS_WAYPOINT = exports.ADD_GPS_WAYPOINT = 'ADD_GPS_WAYPOINT';
 var REMOVE_WAYPOINT = exports.REMOVE_WAYPOINT = 'REMOVE_WAYPOINT';
 var SET_WAYPOINT_INDEX = exports.SET_WAYPOINT_INDEX = 'SET_WAYPOINT_INDEX';
 var SET_WAYPOINT_ELEVATION = exports.SET_WAYPOINT_ELEVATION = 'SET_WAYPOINT_ELEVATION';
@@ -4254,7 +4307,8 @@ module.exports = function Waypoint(data) {
     lon: null,
     elevation: null,
     index: null,
-    flightPlanId: null
+    flightPlanId: null,
+    name: null
   }, data);
 };
 
