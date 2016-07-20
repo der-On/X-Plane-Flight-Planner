@@ -38,6 +38,11 @@ body {
   opacity: 0.25;
 }
 
+.main-sidebar__waypoints-button,
+.main-sidebar__flight-plans-button {
+  width: 50%;
+}
+
 .main-map {
   position: fixed;
   top: 0;
@@ -83,7 +88,9 @@ body {
   left: -1px;
 }
 
-.waypoints-list__items {
+.waypoints-list,
+.flight-plans-list,
+.flight-plan-settings {
   position: absolute;
   top: 6rem;
   left: 0;
@@ -91,7 +98,8 @@ body {
   bottom: 0;
   overflow: auto;
 }
-.waypoints-list__waypoint {
+.waypoints-list__waypoint,
+.flight-plans-list__flight-plan {
   position: relative;
 }
 .waypoint__title,
@@ -159,4 +167,8 @@ body {
 
 .leaflet-control-layers-toggle {
   background-image: url('../images/leaflet/layers.png');
+}
+
+.flight-plan-settings {
+  padding: 1rem;
 }
