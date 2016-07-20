@@ -44,6 +44,11 @@ var Donate = function (_React$Component) {
         label: 'Donate',
         secondary: true,
         linkButton: true,
+        icon: _react2.default.createElement(
+          _FontIcon2.default,
+          { className: 'material-icons' },
+          'favorite_border'
+        ),
         href: 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DNL9MGKS39BAJ',
         target: 'donate' });
     }
