@@ -91,8 +91,35 @@ body {
   bottom: 0;
   overflow: auto;
 }
+.waypoints-list__waypoint {
+  position: relative;
+}
+.waypoint__title,
+.waypoint__details {
+  margin-left: 48px;
+}
+.waypoint__sort {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 48px;
+}
+.waypoint__sort-up,
+.waypoint__sort-down {
+  position: absolute;
+  left: 0;
+}
+.waypoint__sort-up {
+  top: 0;
+}
+.waypoint__sort-down {
+  top: auto;
+  bottom: 0;
+}
 .waypoint__title {
-  margin: 0 0 1rem 0;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 .waypoint__details {
   color: rgba(0, 0, 0, 0.54);
