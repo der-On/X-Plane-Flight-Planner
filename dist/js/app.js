@@ -1350,7 +1350,7 @@ exports.default = {
     return _leaflet2.default.marker(navItemLatLng(_waypoint), Object.assign({}, waypointOptions, {
       icon: _Icons2.default.waypoint(flightPlan, _waypoint),
       draggable: !_waypoint.navItem, // make gps waypoints draggable
-      clickable: !_waypoint.navItem
+      clickable: true
     })).bindLabel((0, _padStart2.default)((_waypoint.index + 1).toString(), 2, '0'), {
       noHide: true
     }).bindPopup(_Popups2.default.waypoint(_waypoint));
@@ -1464,7 +1464,7 @@ exports.default = {
     return '<div class="nav-item-popup-content">\n      <h2>\n        ' + renderNavItemIcon('airway', airway) + '\n        ' + airway.toName + ' - ' + airway.name + '\n      </h2>\n      <p>' + renderAddGpsWaypointLink(airway.toLat, airway.toLon) + '</p>\n      <p>' + renderLatLonElevationAirwayTo(airway) + '</p>\n    </div>';
   },
   waypoint: function waypoint(_waypoint) {
-    return '<div class="nav-item-popup-content">\n      <h2>\n        ' + renderNavItemIcon(_waypoint.navItem ? _waypoint.navItem._type : 'gps', _waypoint) + '\n        ' + (_waypoint.navItem ? navItemName(_waypoint.navItem) : 'GPS point') + '\n      </h2>\n      <p>' + renderRemoveWaypointLink(_waypoint) + '</p>\n      <p>' + renderLatLonElevation(_waypoint) + '</p>\n    </div>';
+    return '<div class="nav-item-popup-content">\n      <h2>\n        ' + (_waypoint.navItem ? renderNavItemIcon(_waypoint.navItem._type, _waypoint.navItem) : renderNavItemIcon('gps', _waypoint)) + '\n        ' + (_waypoint.navItem ? navItemName(_waypoint.navItem) : 'GPS point') + '\n      </h2>\n      <p>' + renderRemoveWaypointLink(_waypoint) + '</p>\n      <p>' + renderLatLonElevation(_waypoint) + '</p>\n    </div>';
   }
 };
 
