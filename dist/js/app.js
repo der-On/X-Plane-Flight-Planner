@@ -1692,6 +1692,8 @@ var Map = function (_React$Component) {
         var activeFlightPlanId = self.props.activeFlightPlanId;
 
         var latLng = event.latlng;
+
+        self.openSidebarIfNoWaypoints();
         dispatch((0, _actions.addGpsWaypoint)(activeFlightPlanId, latLng.lat, latLng.lng));
       }
 
@@ -1822,6 +1824,18 @@ var Map = function (_React$Component) {
 
       var bounds = this.map.getBounds();
       dispatch((0, _actions.requestGeoSearchResults)([bounds.getNorth(), bounds.getEast(), bounds.getSouth(), bounds.getWest()]));
+    }
+  }, {
+    key: 'openSidebarIfNoWaypoints',
+    value: function openSidebarIfNoWaypoints() {
+      var _props6 = this.props;
+      var dispatch = _props6.dispatch;
+      var waypoints = _props6.waypoints;
+      var activeFlightPlanId = _props6.activeFlightPlanId;
+
+      if (!(0, _waypoints_for_flight_plan2.default)(activeFlightPlanId, waypoints).length) {
+        dispatch((0, _actions.expandSidebar)());
+      }
     }
   }, {
     key: 'updateNavItemMarkers',
@@ -2004,9 +2018,9 @@ var Map = function (_React$Component) {
     key: 'createFlightPlans',
     value: function createFlightPlans() {
       var self = this;
-      var _props6 = this.props;
-      var flightPlans = _props6.flightPlans;
-      var waypoints = _props6.waypoints;
+      var _props7 = this.props;
+      var flightPlans = _props7.flightPlans;
+      var waypoints = _props7.waypoints;
 
 
       function create(id) {
@@ -2074,9 +2088,9 @@ var Map = function (_React$Component) {
   }, {
     key: 'createWaypoints',
     value: function createWaypoints() {
-      var _props7 = this.props;
-      var waypoints = _props7.waypoints;
-      var flightPlans = _props7.flightPlans;
+      var _props8 = this.props;
+      var waypoints = _props8.waypoints;
+      var flightPlans = _props8.flightPlans;
 
       var self = this;
 
@@ -2117,9 +2131,9 @@ var Map = function (_React$Component) {
   }, {
     key: 'cleanupWaypoints',
     value: function cleanupWaypoints() {
-      var _props8 = this.props;
-      var waypoints = _props8.waypoints;
-      var flightPlans = _props8.flightPlans;
+      var _props9 = this.props;
+      var waypoints = _props9.waypoints;
+      var flightPlans = _props9.flightPlans;
 
       var self = this;
 
@@ -2164,6 +2178,7 @@ var Map = function (_React$Component) {
       if (!target || !target.dataset) return;
 
       if (typeof target.dataset.addAsWaypoint !== 'undefined') {
+        this.openSidebarIfNoWaypoints();
         this.addNavItemAsWaypoint(target.dataset.type, parseInt(target.dataset.id));
       }
     }
@@ -2210,9 +2225,9 @@ var Map = function (_React$Component) {
   }, {
     key: 'addNavItemAsWaypoint',
     value: function addNavItemAsWaypoint(type, id) {
-      var _props9 = this.props;
-      var activeFlightPlanId = _props9.activeFlightPlanId;
-      var dispatch = _props9.dispatch;
+      var _props10 = this.props;
+      var activeFlightPlanId = _props10.activeFlightPlanId;
+      var dispatch = _props10.dispatch;
 
       var navItem = this.navItemById(type, id);
       if (!navItem) return;
@@ -2222,11 +2237,11 @@ var Map = function (_React$Component) {
   }, {
     key: 'render',
     value: function render() {
-      var _props10 = this.props;
-      var activeNavItem = _props10.activeNavItem;
-      var center = _props10.center;
-      var zoom = _props10.zoom;
-      var baseLayer = _props10.baseLayer;
+      var _props11 = this.props;
+      var activeNavItem = _props11.activeNavItem;
+      var center = _props11.center;
+      var zoom = _props11.zoom;
+      var baseLayer = _props11.baseLayer;
 
 
       return _react2.default.createElement('div', {
@@ -2243,6 +2258,7 @@ var Map = function (_React$Component) {
 
 var mapStateToProps = function mapStateToProps(state) {
   return {
+    activeFlightPlan: state.flightPlans[state.activeFlightPlanId],
     activeFlightPlanId: state.activeFlightPlanId,
     activeNavItem: state.activeNavItem,
     center: state.map.center || [0, 0],
