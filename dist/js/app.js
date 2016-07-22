@@ -138,7 +138,7 @@ var _Snackbar2 = _interopRequireDefault(_Snackbar);
 
 var _actions = require('../state/actions');
 
-var _constants = require('../state/constants');
+var _constants = require('../constants');
 
 var _reactRedux = require('react-redux');
 
@@ -213,7 +213,7 @@ var mapStateToProps = function mapStateToProps(state) {
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(FlashMessages);
 
-},{"../state/actions":25,"../state/constants":27,"lodash/last":305,"material-ui/Snackbar":372,"react":693,"react-redux":511}],4:[function(require,module,exports){
+},{"../constants":22,"../state/actions":26,"lodash/last":305,"material-ui/Snackbar":372,"react":693,"react-redux":511}],4:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -244,7 +244,7 @@ var _reactRedux = require('react-redux');
 
 var _actions = require('../state/actions');
 
-var _constants = require('../state/constants');
+var _constants = require('../constants');
 
 var _FlightPlan = require('../../models/FlightPlan');
 
@@ -341,7 +341,7 @@ var mapStateToProps = function mapStateToProps(state) {
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(FlightPlanList);
 
-},{"../../models/FlightPlan":35,"../state/actions":25,"../state/constants":27,"./FlightPlanListItem":5,"material-ui/FloatingActionButton":344,"material-ui/List":355,"material-ui/svg-icons/content/add":459,"react":693,"react-redux":511}],5:[function(require,module,exports){
+},{"../../models/FlightPlan":35,"../constants":22,"../state/actions":26,"./FlightPlanListItem":5,"material-ui/FloatingActionButton":344,"material-ui/List":355,"material-ui/svg-icons/content/add":459,"react":693,"react-redux":511}],5:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -388,7 +388,7 @@ var _FlightPlanTotals2 = _interopRequireDefault(_FlightPlanTotals);
 
 var _actions = require('../state/actions');
 
-var _constants = require('../state/constants');
+var _constants = require('../constants');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -475,7 +475,7 @@ var FlightPlanListItem = function (_React$Component) {
 
 exports.default = (0, _reactRedux.connect)()(FlightPlanListItem);
 
-},{"../state/actions":25,"../state/constants":27,"./FlightPlanTotals":7,"material-ui/Checkbox":331,"material-ui/Chip":333,"material-ui/Divider":337,"material-ui/FontIcon":346,"material-ui/IconButton":348,"material-ui/List":355,"material-ui/svg-icons/action/settings":458,"react":693,"react-redux":511}],6:[function(require,module,exports){
+},{"../constants":22,"../state/actions":26,"./FlightPlanTotals":7,"material-ui/Checkbox":331,"material-ui/Chip":333,"material-ui/Divider":337,"material-ui/FontIcon":346,"material-ui/IconButton":348,"material-ui/List":355,"material-ui/svg-icons/action/settings":458,"react":693,"react-redux":511}],6:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -536,7 +536,7 @@ var _FlightPlanTotals2 = _interopRequireDefault(_FlightPlanTotals);
 
 var _actions = require('../state/actions');
 
-var _constants = require('../state/constants');
+var _constants = require('../constants');
 
 var _last = require('lodash/last');
 
@@ -785,7 +785,7 @@ var mapStateToProps = function mapStateToProps(state) {
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(FlightPlanSettings);
 
-},{"../state/actions":25,"../state/constants":27,"./FlightPlanTotals":7,"lodash/last":305,"material-ui/Chip":333,"material-ui/Dialog":335,"material-ui/FlatButton":342,"material-ui/FontIcon":346,"material-ui/MenuItem":360,"material-ui/RaisedButton":367,"material-ui/SelectField":369,"material-ui/TextField":382,"material-ui/Toggle":384,"material-ui/svg-icons/action/delete":457,"react":693,"react-redux":511}],7:[function(require,module,exports){
+},{"../constants":22,"../state/actions":26,"./FlightPlanTotals":7,"lodash/last":305,"material-ui/Chip":333,"material-ui/Dialog":335,"material-ui/FlatButton":342,"material-ui/FontIcon":346,"material-ui/MenuItem":360,"material-ui/RaisedButton":367,"material-ui/SelectField":369,"material-ui/TextField":382,"material-ui/Toggle":384,"material-ui/svg-icons/action/delete":457,"react":693,"react-redux":511}],7:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -1081,7 +1081,7 @@ var _leaflet = require('leaflet');
 
 var _leaflet2 = _interopRequireDefault(_leaflet);
 
-var _constants = require('../../state/constants');
+var _constants = require('../../constants');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1100,7 +1100,7 @@ function Cluster(type) {
 
 exports.default = Cluster;
 
-},{"../../state/constants":27,"leaflet":114,"leaflet.markercluster":113}],12:[function(require,module,exports){
+},{"../../constants":22,"leaflet":114,"leaflet.markercluster":113}],12:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -1117,7 +1117,7 @@ var _leaflet = require('leaflet');
 
 var _leaflet2 = _interopRequireDefault(_leaflet);
 
-var _constants = require('../../state/constants');
+var _constants = require('../../constants');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1231,7 +1231,7 @@ exports.default = {
   }
 };
 
-},{"../../state/constants":27,"leaflet":114}],13:[function(require,module,exports){
+},{"../../constants":22,"leaflet":114}],13:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -1258,7 +1258,7 @@ var _leaflet = require('leaflet');
 
 var _leaflet2 = _interopRequireDefault(_leaflet);
 
-var _constants = require('../../state/constants');
+var _constants = require('../../constants');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1368,7 +1368,7 @@ exports.default = {
   }
 };
 
-},{"../../../leaflet.label-patched":34,"../../state/constants":27,"./Icons":12,"./Popups":14,"leaflet":114,"lodash/padStart":313,"lodash/partial":314}],14:[function(require,module,exports){
+},{"../../../leaflet.label-patched":34,"../../constants":22,"./Icons":12,"./Popups":14,"leaflet":114,"lodash/padStart":313,"lodash/partial":314}],14:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -1541,7 +1541,7 @@ var _mapKeys = require('lodash/mapKeys');
 
 var _mapKeys2 = _interopRequireDefault(_mapKeys);
 
-var _constants = require('../../state/constants');
+var _constants = require('../../constants');
 
 var c = _interopRequireWildcard(_constants);
 
@@ -2338,7 +2338,7 @@ var mapStateToProps = function mapStateToProps(state) {
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(Map);
 
-},{"../../../utils/waypoints_for_flight_plan":54,"../../state/actions":25,"../../state/constants":27,"./BaseLayers":10,"./Cluster":11,"./Icons":12,"./Markers":13,"leaflet":114,"lodash/debounce":282,"lodash/filter":284,"lodash/flow":286,"lodash/mapKeys":306,"lodash/negate":309,"lodash/partial":314,"lodash/property":315,"lodash/toString":325,"lodash/without":326,"react":693,"react-redux":511}],16:[function(require,module,exports){
+},{"../../../utils/waypoints_for_flight_plan":54,"../../constants":22,"../../state/actions":26,"./BaseLayers":10,"./Cluster":11,"./Icons":12,"./Markers":13,"leaflet":114,"lodash/debounce":282,"lodash/filter":284,"lodash/flow":286,"lodash/mapKeys":306,"lodash/negate":309,"lodash/partial":314,"lodash/property":315,"lodash/toString":325,"lodash/without":326,"react":693,"react-redux":511}],16:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -2563,7 +2563,7 @@ var mapStateToProps = function mapStateToProps(state) {
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(Search);
 
-},{"../state/actions":25,"lodash/debounce":282,"lodash/flow":286,"lodash/property":315,"material-ui/AutoComplete":329,"material-ui/FontIcon":346,"react":693,"react-redux":511}],18:[function(require,module,exports){
+},{"../state/actions":26,"lodash/debounce":282,"lodash/flow":286,"lodash/property":315,"material-ui/AutoComplete":329,"material-ui/FontIcon":346,"react":693,"react-redux":511}],18:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -2616,7 +2616,7 @@ var _FlightPlanSettings2 = _interopRequireDefault(_FlightPlanSettings);
 
 var _actions = require('../state/actions');
 
-var _constants = require('../state/constants');
+var _constants = require('../constants');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -2752,7 +2752,7 @@ var mapStateToProps = function mapStateToProps(state) {
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(Sidebar);
 
-},{"../state/actions":25,"../state/constants":27,"./FlightPlanList":4,"./FlightPlanSettings":6,"./Search":17,"./WaypointList":19,"lodash/filter":284,"material-ui/FontIcon":346,"material-ui/IconButton":348,"material-ui/Paper":362,"material-ui/RaisedButton":367,"react":693,"react-redux":511}],19:[function(require,module,exports){
+},{"../constants":22,"../state/actions":26,"./FlightPlanList":4,"./FlightPlanSettings":6,"./Search":17,"./WaypointList":19,"lodash/filter":284,"material-ui/FontIcon":346,"material-ui/IconButton":348,"material-ui/Paper":362,"material-ui/RaisedButton":367,"react":693,"react-redux":511}],19:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -3088,7 +3088,7 @@ var mapStateToProps = function mapStateToProps(state) {
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(WaypointListItem);
 
-},{"../../utils/waypoints_for_flight_plan":54,"../state/actions":25,"./NavItemIcon":16,"./WaypointTotals":21,"lodash/padStart":313,"lodash/round":317,"material-ui/Divider":337,"material-ui/FlatButton":342,"material-ui/FontIcon":346,"material-ui/IconButton":348,"material-ui/List":355,"material-ui/TextField":382,"material-ui/svg-icons/action/delete":457,"react":693,"react-redux":511}],21:[function(require,module,exports){
+},{"../../utils/waypoints_for_flight_plan":54,"../state/actions":26,"./NavItemIcon":16,"./WaypointTotals":21,"lodash/padStart":313,"lodash/round":317,"material-ui/Divider":337,"material-ui/FlatButton":342,"material-ui/FontIcon":346,"material-ui/IconButton":348,"material-ui/List":355,"material-ui/TextField":382,"material-ui/svg-icons/action/delete":457,"react":693,"react-redux":511}],21:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -3219,6 +3219,109 @@ exports.default = (0, _reactRedux.connect)(mapStateToProps)(WaypointTotals);
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+// search for airports, navaids, fixes
+var SET_SEARCH_QUERY = exports.SET_SEARCH_QUERY = 'SET_SEARCH_QUERY';
+var REQUEST_SEARCH_RESULTS = exports.REQUEST_SEARCH_RESULTS = 'REQUEST_SEARCH_RESULTS';
+var RECEIVE_SEARCH_RESULTS = exports.RECEIVE_SEARCH_RESULTS = 'RECEIVE_SEARCH_RESULTS';
+var REQUEST_SEARCH_INDEX = exports.REQUEST_SEARCH_INDEX = 'REQUEST_SEARCH_INDEX';
+var RECEIVE_SEARCH_INDEX = exports.RECEIVE_SEARCH_INDEX = 'RECEIVE_SEARCH_INDEX';
+
+// geolocate a navigation item
+var LOCATE_NAV_ITEM = exports.LOCATE_NAV_ITEM = 'LOCATE_NAV_ITEM';
+var LOCATED_NAV_ITEM = exports.LOCATED_NAV_ITEM = 'LOCATED_NAV_ITEM';
+var SET_ACTIVE_NAV_ITEM = exports.SET_ACTIVE_NAV_ITEM = 'SET_ACTIVE_NAV_ITEM';
+
+// geo search
+var REQUEST_GEO_SEARCH_AIRWAYS = exports.REQUEST_GEO_SEARCH_AIRWAYS = 'REQUEST_GEO_SEARCH_AIRWAYS';
+var RECEIVE_GEO_SEARCH_AIRWAYS = exports.RECEIVE_GEO_SEARCH_AIRWAYS = 'RECEIVE_GEO_SEARCH_AIRWAYS';
+var REQUEST_GEO_SEARCH_RESULTS = exports.REQUEST_GEO_SEARCH_RESULTS = 'REQUEST_GEO_SEARCH_RESULTS';
+var RECEIVE_GEO_SEARCH_RESULTS = exports.RECEIVE_GEO_SEARCH_RESULTS = 'RECEIVE_GEO_SEARCH_RESULTS';
+
+// waypoints
+var CREATE_WAYPOINT = exports.CREATE_WAYPOINT = 'CREATE_WAYPOINT';
+var ADD_WAYPOINT = exports.ADD_WAYPOINT = 'ADD_WAYPOINT';
+var ADD_WAYPOINT_AT = exports.ADD_WAYPOINT_AT = 'ADD_WAYPOINT_AT';
+var ADD_GPS_WAYPOINT = exports.ADD_GPS_WAYPOINT = 'ADD_GPS_WAYPOINT';
+var REMOVE_WAYPOINT = exports.REMOVE_WAYPOINT = 'REMOVE_WAYPOINT';
+var SET_WAYPOINT_INDEX = exports.SET_WAYPOINT_INDEX = 'SET_WAYPOINT_INDEX';
+var SET_WAYPOINT_ELEVATION = exports.SET_WAYPOINT_ELEVATION = 'SET_WAYPOINT_ELEVATION';
+var SET_WAYPOINT_NAV_ITEM = exports.SET_WAYPOINT_NAV_ITEM = 'SET_WAYPOINT_NAV_ITEM';
+var SET_WAYPOINT_LAT_LON = exports.SET_WAYPOINT_LAT_LON = 'SET_WAYPOINT_LAT_LON';
+var SET_WAYPOINT_FLIGHT_PLAN = exports.SET_WAYPOINT_FLIGHT_PLAN = 'SET_WAYPOINT_FLIGHT_PLAN';
+
+// flight plans
+var CREATE_FLIGHT_PLAN = exports.CREATE_FLIGHT_PLAN = 'CREATE_FLIGHT_PLAN';
+var ADD_FLIGHT_PLAN = exports.ADD_FLIGHT_PLAN = 'ADD_FLIGHT_PLAN';
+var REMOVE_FLIGHT_PLAN = exports.REMOVE_FLIGHT_PLAN = 'REMOVE_FLIGHT_PLAN';
+var SET_FLIGHT_PLAN_TITLE = exports.SET_FLIGHT_PLAN_TITLE = 'SET_FLIGHT_PLAN_TITLE';
+var SET_FLIGHT_PLAN_COLOR = exports.SET_FLIGHT_PLAN_COLOR = 'SET_FLIGHT_PLAN_COLOR';
+var SET_FLIGHT_PLAN_VISIBILITY = exports.SET_FLIGHT_PLAN_VISIBILITY = 'SET_FLIGHT_PLAN_VISIBILITY';
+var SET_FLIGHT_PLAN_AIRCRAFT = exports.SET_FLIGHT_PLAN_AIRCRAFT = 'SET_FLIGHT_PLAN_AIRCRAFT';
+var SET_FLIGHT_PLAN_CRUISE_SPEED = exports.SET_FLIGHT_PLAN_CRUISE_SPEED = 'SET_FLIGHT_PLAN_CRUISE_SPEED';
+var SET_FLIGHT_PLAN_FUEL_CONSUMPTION = exports.SET_FLIGHT_PLAN_FUEL_CONSUMPTION = 'SET_FLIGHT_PLAN_FUEL_CONSUMPTION';
+var SET_FLIGHT_PLAN_PAYLOAD = exports.SET_FLIGHT_PLAN_PAYLOAD = 'SET_FLIGHT_PLAN_PAYLOAD';
+var EXPORT_FLIGHT_PLAN_TO_FMS = exports.EXPORT_FLIGHT_PLAN_TO_FMS = 'EXPORT_FLIGHT_PLAN_TO_FMS';
+var SET_ACTIVE_FLIGHT_PLAN = exports.SET_ACTIVE_FLIGHT_PLAN = 'SET_ACTIVE_FLIGHT_PLAN';
+
+// Map
+var SET_MAP_CENTER = exports.SET_MAP_CENTER = 'SET_MAP_CENTER';
+var SET_MAP_ZOOM = exports.SET_MAP_ZOOM = 'SET_MAP_ZOOM';
+var SET_MAP_VIEW = exports.SET_MAP_VIEW = 'SET_MAP_VIEW';
+var SET_MAP_BASE_LAYER = exports.SET_MAP_BASE_LAYER = 'SET_MAP_BASE_LAYER';
+var SET_MAP_OVERLAYS = exports.SET_MAP_OVERLAYS = 'SET_MAP_OVERLAYS';
+
+var MAP_BASE_LAYER_OSM = exports.MAP_BASE_LAYER_OSM = 'osm';
+var MAP_ZOOM_DEFAULT = exports.MAP_ZOOM_DEFAULT = 4;
+var MAP_ZOOM_ACTIVE_NAV_ITEM = exports.MAP_ZOOM_ACTIVE_NAV_ITEM = 12;
+var MAP_CENTER_DEFAULT = exports.MAP_CENTER_DEFAULT = [0, 0];
+var MAP_MAX_ZOOM = exports.MAP_MAX_ZOOM = 20;
+var MAP_MIN_ZOOM = exports.MAP_MIN_ZOOM = 2;
+var MAP_LOD_1_ZOOM = exports.MAP_LOD_1_ZOOM = 10;
+var MAP_LOD_2_ZOOM = exports.MAP_LOD_2_ZOOM = 8;
+var MAP_LOD_3_ZOOM = exports.MAP_LOD_3_ZOOM = 7;
+var MAP_MIN_ZOOM_NAV_ITEMS_VISIBLE = exports.MAP_MIN_ZOOM_NAV_ITEMS_VISIBLE = 6;
+var MAP_MAX_CLUSTER_RADIUS = exports.MAP_MAX_CLUSTER_RADIUS = 30;
+var MAP_BASE_LAYER_DEFAULT = exports.MAP_BASE_LAYER_DEFAULT = 'osm';
+var MAP_OVERLAYS_DEFAULT = exports.MAP_OVERLAYS_DEFAULT = ['navaids', 'fixes', 'airways', 'airports', 'flightPlans', 'waypoints', 'aircraft'];
+
+// sidebar
+var COLLAPSE_SIDEBAR = exports.COLLAPSE_SIDEBAR = 'COLLAPSE_SIDEBAR';
+var EXPAND_SIDEBAR = exports.EXPAND_SIDEBAR = 'EXPAND_SIDEBAR';
+var TOGGLE_SIDEBAR = exports.TOGGLE_SIDEBAR = 'TOGGLE_SIDEBAR';
+var SET_SIDEBAR_CONTEXT = exports.SET_SIDEBAR_CONTEXT = 'SET_SIDEBAR_CONTEXT';
+var SIDEBAR_CONTEXT_WAYPOINTS = exports.SIDEBAR_CONTEXT_WAYPOINTS = 'waypoints';
+var SIDEBAR_CONTEXT_FLIGHT_PLANS = exports.SIDEBAR_CONTEXT_FLIGHT_PLANS = 'flightPlans';
+var SIDEBAR_CONTEXT_FLIGHT_PLAN = exports.SIDEBAR_CONTEXT_FLIGHT_PLAN = 'flightPlan';
+var SIDEBAR_CONTEXT_DEFAULT = exports.SIDEBAR_CONTEXT_DEFAULT = SIDEBAR_CONTEXT_WAYPOINTS;
+
+// main menu
+var COLLAPSE_MENU = exports.COLLAPSE_MENU = 'COLLAPSE_MENU';
+var EXPAND_MENU = exports.EXPAND_MENU = 'EXPAND_MENU';
+var TOGGLE_MENU = exports.TOGGLE_MENU = 'TOGGLE_MENU';
+
+// flash messages
+var ADD_FLASH_MESSAGE = exports.ADD_FLASH_MESSAGE = 'ADD_FLASH_MESSAGE';
+var POP_FLASH_MESSAGE = exports.POP_FLASH_MESSAGE = 'POP_FLASH_MESSAGE';
+var CLEAR_FLASH_MESSAGES = exports.CLEAR_FLASH_MESSAGES = 'CLEAR_FLASH_MESSAGES';
+var FLASH_MESSAGE_DURATION = exports.FLASH_MESSAGE_DURATION = 5000;
+
+// log / flash message types
+var INFO = exports.INFO = 'INFO';
+var WARNING = exports.WARNING = 'WARNING';
+var DANGER = exports.DANGER = 'DANGER';
+var ERROR = exports.ERROR = 'ERROR';
+var DEBUG = exports.DEBUG = 'DEBUG';
+
+// flight plans
+var FLIGHT_PLAN_COLORS = exports.FLIGHT_PLAN_COLORS = ['#DDBB66', '#ffa544', '#91b756', '#3161a4', '#9b8ab6', '#ae927a', '#c74634', '#ad5c15', '#4f6f3e', '#fdef5a', '#4b6574', '#3f3f3f'];
+var FLIGHT_PLAN_COLOR_DEFAULT = exports.FLIGHT_PLAN_COLOR_DEFAULT = FLIGHT_PLAN_COLORS[0];
+
+},{}],23:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
 
 var _geo_search = require('../geo_search');
 
@@ -3233,7 +3336,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var geoSearch = (0, _geo_search2.default)((0, _base_url2.default)());
 exports.default = geoSearch;
 
-},{"../geo_search":33,"../utils/base_url":38}],23:[function(require,module,exports){
+},{"../geo_search":33,"../utils/base_url":38}],24:[function(require,module,exports){
 'use strict';
 
 var _reactDom = require('react-dom');
@@ -3275,7 +3378,7 @@ _reactDom2.default.render(_react2.default.createElement(
 _store2.default.dispatch((0, _actions.requestSearchIndex)());
 _store2.default.dispatch((0, _actions.requestGeoSearchAirways)());
 
-},{"./components/Main":9,"./state/actions":25,"./store":30,"react":693,"react-dom":508,"react-redux":511,"react-tap-event-plugin":523}],24:[function(require,module,exports){
+},{"./components/Main":9,"./state/actions":26,"./store":30,"react":693,"react-dom":508,"react-redux":511,"react-tap-event-plugin":523}],25:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -3295,7 +3398,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var navDataSearch = (0, _search2.default)((0, _base_url2.default)());
 exports.default = navDataSearch;
 
-},{"../search":37,"../utils/base_url":38}],25:[function(require,module,exports){
+},{"../search":37,"../utils/base_url":38}],26:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -3352,7 +3455,7 @@ exports.addFlashMessage = addFlashMessage;
 exports.popFlashMessage = popFlashMessage;
 exports.clearFlashMessages = clearFlashMessages;
 
-var _constants = require('./constants');
+var _constants = require('../constants');
 
 var c = _interopRequireWildcard(_constants);
 
@@ -3797,7 +3900,7 @@ function clearFlashMessages() {
   };
 }
 
-},{"../../models/FlightPlan":35,"../../models/Waypoint":36,"../geoSearch":22,"../navDataSearch":24,"./constants":27,"lodash/padStart":313,"lodash/round":317}],26:[function(require,module,exports){
+},{"../../models/FlightPlan":35,"../../models/Waypoint":36,"../constants":22,"../geoSearch":23,"../navDataSearch":25,"lodash/padStart":313,"lodash/round":317}],27:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -3841,110 +3944,7 @@ function configureStore() {
   return window.devToolsExtension ? (0, _redux.compose)(enhancer, window.devToolsExtension())(_redux.createStore)(_reducers2.default, initialState) : (0, _redux.createStore)(_reducers2.default, initialState, enhancer);
 };
 
-},{"./reducers":29,"redux":706,"redux-localstorage":696,"redux-logger":699,"redux-thunk":700}],27:[function(require,module,exports){
-'use strict';
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-// search for airports, navaids, fixes
-var SET_SEARCH_QUERY = exports.SET_SEARCH_QUERY = 'SET_SEARCH_QUERY';
-var REQUEST_SEARCH_RESULTS = exports.REQUEST_SEARCH_RESULTS = 'REQUEST_SEARCH_RESULTS';
-var RECEIVE_SEARCH_RESULTS = exports.RECEIVE_SEARCH_RESULTS = 'RECEIVE_SEARCH_RESULTS';
-var REQUEST_SEARCH_INDEX = exports.REQUEST_SEARCH_INDEX = 'REQUEST_SEARCH_INDEX';
-var RECEIVE_SEARCH_INDEX = exports.RECEIVE_SEARCH_INDEX = 'RECEIVE_SEARCH_INDEX';
-
-// geolocate a navigation item
-var LOCATE_NAV_ITEM = exports.LOCATE_NAV_ITEM = 'LOCATE_NAV_ITEM';
-var LOCATED_NAV_ITEM = exports.LOCATED_NAV_ITEM = 'LOCATED_NAV_ITEM';
-var SET_ACTIVE_NAV_ITEM = exports.SET_ACTIVE_NAV_ITEM = 'SET_ACTIVE_NAV_ITEM';
-
-// geo search
-var REQUEST_GEO_SEARCH_AIRWAYS = exports.REQUEST_GEO_SEARCH_AIRWAYS = 'REQUEST_GEO_SEARCH_AIRWAYS';
-var RECEIVE_GEO_SEARCH_AIRWAYS = exports.RECEIVE_GEO_SEARCH_AIRWAYS = 'RECEIVE_GEO_SEARCH_AIRWAYS';
-var REQUEST_GEO_SEARCH_RESULTS = exports.REQUEST_GEO_SEARCH_RESULTS = 'REQUEST_GEO_SEARCH_RESULTS';
-var RECEIVE_GEO_SEARCH_RESULTS = exports.RECEIVE_GEO_SEARCH_RESULTS = 'RECEIVE_GEO_SEARCH_RESULTS';
-
-// waypoints
-var CREATE_WAYPOINT = exports.CREATE_WAYPOINT = 'CREATE_WAYPOINT';
-var ADD_WAYPOINT = exports.ADD_WAYPOINT = 'ADD_WAYPOINT';
-var ADD_WAYPOINT_AT = exports.ADD_WAYPOINT_AT = 'ADD_WAYPOINT_AT';
-var ADD_GPS_WAYPOINT = exports.ADD_GPS_WAYPOINT = 'ADD_GPS_WAYPOINT';
-var REMOVE_WAYPOINT = exports.REMOVE_WAYPOINT = 'REMOVE_WAYPOINT';
-var SET_WAYPOINT_INDEX = exports.SET_WAYPOINT_INDEX = 'SET_WAYPOINT_INDEX';
-var SET_WAYPOINT_ELEVATION = exports.SET_WAYPOINT_ELEVATION = 'SET_WAYPOINT_ELEVATION';
-var SET_WAYPOINT_NAV_ITEM = exports.SET_WAYPOINT_NAV_ITEM = 'SET_WAYPOINT_NAV_ITEM';
-var SET_WAYPOINT_LAT_LON = exports.SET_WAYPOINT_LAT_LON = 'SET_WAYPOINT_LAT_LON';
-var SET_WAYPOINT_FLIGHT_PLAN = exports.SET_WAYPOINT_FLIGHT_PLAN = 'SET_WAYPOINT_FLIGHT_PLAN';
-
-// flight plans
-var CREATE_FLIGHT_PLAN = exports.CREATE_FLIGHT_PLAN = 'CREATE_FLIGHT_PLAN';
-var ADD_FLIGHT_PLAN = exports.ADD_FLIGHT_PLAN = 'ADD_FLIGHT_PLAN';
-var REMOVE_FLIGHT_PLAN = exports.REMOVE_FLIGHT_PLAN = 'REMOVE_FLIGHT_PLAN';
-var SET_FLIGHT_PLAN_TITLE = exports.SET_FLIGHT_PLAN_TITLE = 'SET_FLIGHT_PLAN_TITLE';
-var SET_FLIGHT_PLAN_COLOR = exports.SET_FLIGHT_PLAN_COLOR = 'SET_FLIGHT_PLAN_COLOR';
-var SET_FLIGHT_PLAN_VISIBILITY = exports.SET_FLIGHT_PLAN_VISIBILITY = 'SET_FLIGHT_PLAN_VISIBILITY';
-var SET_FLIGHT_PLAN_AIRCRAFT = exports.SET_FLIGHT_PLAN_AIRCRAFT = 'SET_FLIGHT_PLAN_AIRCRAFT';
-var SET_FLIGHT_PLAN_CRUISE_SPEED = exports.SET_FLIGHT_PLAN_CRUISE_SPEED = 'SET_FLIGHT_PLAN_CRUISE_SPEED';
-var SET_FLIGHT_PLAN_FUEL_CONSUMPTION = exports.SET_FLIGHT_PLAN_FUEL_CONSUMPTION = 'SET_FLIGHT_PLAN_FUEL_CONSUMPTION';
-var SET_FLIGHT_PLAN_PAYLOAD = exports.SET_FLIGHT_PLAN_PAYLOAD = 'SET_FLIGHT_PLAN_PAYLOAD';
-var EXPORT_FLIGHT_PLAN_TO_FMS = exports.EXPORT_FLIGHT_PLAN_TO_FMS = 'EXPORT_FLIGHT_PLAN_TO_FMS';
-var SET_ACTIVE_FLIGHT_PLAN = exports.SET_ACTIVE_FLIGHT_PLAN = 'SET_ACTIVE_FLIGHT_PLAN';
-
-// Map
-var SET_MAP_CENTER = exports.SET_MAP_CENTER = 'SET_MAP_CENTER';
-var SET_MAP_ZOOM = exports.SET_MAP_ZOOM = 'SET_MAP_ZOOM';
-var SET_MAP_VIEW = exports.SET_MAP_VIEW = 'SET_MAP_VIEW';
-var SET_MAP_BASE_LAYER = exports.SET_MAP_BASE_LAYER = 'SET_MAP_BASE_LAYER';
-var SET_MAP_OVERLAYS = exports.SET_MAP_OVERLAYS = 'SET_MAP_OVERLAYS';
-
-var MAP_BASE_LAYER_OSM = exports.MAP_BASE_LAYER_OSM = 'osm';
-var MAP_ZOOM_DEFAULT = exports.MAP_ZOOM_DEFAULT = 4;
-var MAP_ZOOM_ACTIVE_NAV_ITEM = exports.MAP_ZOOM_ACTIVE_NAV_ITEM = 12;
-var MAP_CENTER_DEFAULT = exports.MAP_CENTER_DEFAULT = [0, 0];
-var MAP_MAX_ZOOM = exports.MAP_MAX_ZOOM = 20;
-var MAP_MIN_ZOOM = exports.MAP_MIN_ZOOM = 2;
-var MAP_LOD_1_ZOOM = exports.MAP_LOD_1_ZOOM = 10;
-var MAP_LOD_2_ZOOM = exports.MAP_LOD_2_ZOOM = 8;
-var MAP_LOD_3_ZOOM = exports.MAP_LOD_3_ZOOM = 7;
-var MAP_MIN_ZOOM_NAV_ITEMS_VISIBLE = exports.MAP_MIN_ZOOM_NAV_ITEMS_VISIBLE = 6;
-var MAP_MAX_CLUSTER_RADIUS = exports.MAP_MAX_CLUSTER_RADIUS = 30;
-var MAP_BASE_LAYER_DEFAULT = exports.MAP_BASE_LAYER_DEFAULT = 'osm';
-var MAP_OVERLAYS_DEFAULT = exports.MAP_OVERLAYS_DEFAULT = ['navaids', 'fixes', 'airways', 'airports', 'flightPlans', 'waypoints', 'aircraft'];
-
-// sidebar
-var COLLAPSE_SIDEBAR = exports.COLLAPSE_SIDEBAR = 'COLLAPSE_SIDEBAR';
-var EXPAND_SIDEBAR = exports.EXPAND_SIDEBAR = 'EXPAND_SIDEBAR';
-var TOGGLE_SIDEBAR = exports.TOGGLE_SIDEBAR = 'TOGGLE_SIDEBAR';
-var SET_SIDEBAR_CONTEXT = exports.SET_SIDEBAR_CONTEXT = 'SET_SIDEBAR_CONTEXT';
-var SIDEBAR_CONTEXT_WAYPOINTS = exports.SIDEBAR_CONTEXT_WAYPOINTS = 'waypoints';
-var SIDEBAR_CONTEXT_FLIGHT_PLANS = exports.SIDEBAR_CONTEXT_FLIGHT_PLANS = 'flightPlans';
-var SIDEBAR_CONTEXT_FLIGHT_PLAN = exports.SIDEBAR_CONTEXT_FLIGHT_PLAN = 'flightPlan';
-var SIDEBAR_CONTEXT_DEFAULT = exports.SIDEBAR_CONTEXT_DEFAULT = SIDEBAR_CONTEXT_WAYPOINTS;
-
-// main menu
-var COLLAPSE_MENU = exports.COLLAPSE_MENU = 'COLLAPSE_MENU';
-var EXPAND_MENU = exports.EXPAND_MENU = 'EXPAND_MENU';
-var TOGGLE_MENU = exports.TOGGLE_MENU = 'TOGGLE_MENU';
-
-// flash messages
-var ADD_FLASH_MESSAGE = exports.ADD_FLASH_MESSAGE = 'ADD_FLASH_MESSAGE';
-var POP_FLASH_MESSAGE = exports.POP_FLASH_MESSAGE = 'POP_FLASH_MESSAGE';
-var CLEAR_FLASH_MESSAGES = exports.CLEAR_FLASH_MESSAGES = 'CLEAR_FLASH_MESSAGES';
-var FLASH_MESSAGE_DURATION = exports.FLASH_MESSAGE_DURATION = 5000;
-
-// log / flash message types
-var INFO = exports.INFO = 'INFO';
-var WARNING = exports.WARNING = 'WARNING';
-var DANGER = exports.DANGER = 'DANGER';
-var ERROR = exports.ERROR = 'ERROR';
-var DEBUG = exports.DEBUG = 'DEBUG';
-
-// flight plans
-var FLIGHT_PLAN_COLORS = exports.FLIGHT_PLAN_COLORS = ['#DDBB66', '#ffa544', '#91b756', '#3161a4', '#9b8ab6', '#ae927a', '#c74634', '#ad5c15', '#4f6f3e', '#fdef5a', '#4b6574', '#3f3f3f'];
-var FLIGHT_PLAN_COLOR_DEFAULT = exports.FLIGHT_PLAN_COLOR_DEFAULT = FLIGHT_PLAN_COLORS[0];
-
-},{}],28:[function(require,module,exports){
+},{"./reducers":29,"redux":706,"redux-localstorage":696,"redux-logger":699,"redux-thunk":700}],28:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -3982,7 +3982,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _redux = require('redux');
 
-var _constants = require('./constants');
+var _constants = require('../constants');
 
 var c = _interopRequireWildcard(_constants);
 
@@ -4595,7 +4595,7 @@ var rootReducer = (0, _redux.combineReducers)({
 
 exports.default = rootReducer;
 
-},{"./constants":27,"lodash/filter":284,"redux":706}],30:[function(require,module,exports){
+},{"../constants":22,"lodash/filter":284,"redux":706}],30:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -4615,7 +4615,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var store = (0, _configureStore2.default)((0, _initial2.default)());
 exports.default = store;
 
-},{"./state/configureStore":26,"./state/initial":28}],31:[function(require,module,exports){
+},{"./state/configureStore":27,"./state/initial":28}],31:[function(require,module,exports){
 'use strict';
 
 var types = {
@@ -82624,4 +82624,4 @@ module.exports = uuid;
   self.fetch.polyfill = true
 })(typeof self !== 'undefined' ? self : this);
 
-},{}]},{},[23]);
+},{}]},{},[24]);
