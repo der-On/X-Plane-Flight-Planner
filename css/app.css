@@ -188,3 +188,11 @@ body {
 .flight-plan-settings {
   padding: 1rem;
 }
+
+.flight-plan__delete-button {
+  float: right;
+  opacity: 0.5;
+}
+.flight-plan__delete-button:hover {
+  opacity: 1;
+}
