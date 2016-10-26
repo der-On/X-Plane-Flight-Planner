@@ -1,5 +1,7 @@
 # X-Plane Flight Planner
 
+https://der-on.github.io/X-Plane-Flight-Planner/
+
 This is a web-based flight planning tool for the flight simulator X-Plane.
 It provides an easy to use interface where you can point and click your routes on a map.
 
