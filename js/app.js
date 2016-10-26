@@ -12,7 +12,7 @@ var _toArray2 = _interopRequireDefault(_toArray);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var analytics = {
-  tracker: Piwik ? Piwik.getAsyncTracker() : null,
+  tracker: typeof window.Piwik !== 'undefined' ? Piwik.getAsyncTracker() : null,
   trackEvent: function trackEvent() {
     var args = (0, _toArray2.default)(arguments);
     return function () {
