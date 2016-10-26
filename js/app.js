@@ -12,17 +12,17 @@ var _toArray2 = _interopRequireDefault(_toArray);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var analytics = {
-  tracker: Piwik.getAsyncTracker(),
+  tracker: Piwik ? Piwik.getAsyncTracker() : null,
   trackEvent: function trackEvent() {
     var args = (0, _toArray2.default)(arguments);
     return function () {
-      return tracker.trackEvent.apply(tracker, args);
+      return tracker ? tracker.trackEvent.apply(tracker, args) : null;
     };
   },
   trackSiteSearch: function trackSiteSearch() {
     var args = (0, _toArray2.default)(arguments);
     return function () {
-      return tracker.trackSiteSearch.apply(tracker, args);
+      return tracker ? tracker.trackSiteSearch.apply(tracker, args) : null;
     };
   }
 };
