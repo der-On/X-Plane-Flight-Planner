@@ -13298,7 +13298,7 @@ function placemarkFromWaypoint(waypoint) {
     '          <coordinates>' + coordinatesFromWaypoint(waypoint) + '</coordinates>',
     '        </Point>',
     '      </Placemark>'
-  ].join('\n');
+  ].join('\r\n');
 }
 
 function coordinatesFromWaypoint(waypoint) {
@@ -13348,14 +13348,14 @@ module.exports = function (flightPlan) {
     '            ' + flightPlan
                       .waypoints
                       .map(coordinatesFromWaypoint)
-                      .join('\n            '),
+                      .join('\r\n            '),
     '          </coordinates>',
     '        </LineString>',
     '      </Placemark>',
     '    </Folder>',
     '  </Document>',
     '</kml>'
-    ]).join('\n');
+  ]).join('\r\n');
 };
 
 },{"../types":106}],101:[function(require,module,exports){
@@ -13411,7 +13411,7 @@ module.exports = function (flightPlan) {
         .waypoints
         .map(lineFromWaypoint)
     )
-    .join('\n');
+    .join('\r\n');
 };
 
 },{"../types":106}],102:[function(require,module,exports){
@@ -13567,7 +13567,7 @@ module.exports = {
 'use strict';
 
 module.exports = function normalizeLineBreaks (str) {
-  return str.replace(/(\r\n|\r)/gm, '\n');
+  return str.replace(/(\r\n|\r|\n)/gm, '\r\n');
 };
 
 },{}],108:[function(require,module,exports){
