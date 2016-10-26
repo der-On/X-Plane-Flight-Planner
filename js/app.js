@@ -15,14 +15,15 @@ var analytics = {
   tracker: typeof window.Piwik !== 'undefined' ? Piwik.getAsyncTracker() : null,
   trackEvent: function trackEvent() {
     var args = (0, _toArray2.default)(arguments);
+    var self = this;
     return function () {
-      return tracker ? tracker.trackEvent.apply(tracker, args) : null;
+      return self.tracker ? self.tracker.trackEvent.apply(tracker, args) : null;
     };
   },
   trackSiteSearch: function trackSiteSearch() {
     var args = (0, _toArray2.default)(arguments);
     return function () {
-      return tracker ? tracker.trackSiteSearch.apply(tracker, args) : null;
+      return self.tracker ? self.tracker.trackSiteSearch.apply(tracker, args) : null;
     };
   }
 };
@@ -641,7 +642,7 @@ var FlightPlanSettings = function (_React$Component) {
           dispatch = _props2.dispatch,
           flightPlan = _props2.flightPlan;
 
-      _analytics2.default.tracker.trackEvent('FlightPlanSettings', 'Change', 'Color');
+      _analytics2.default.trackEvent('FlightPlanSettings', 'Change', 'Color')();
       dispatch((0, _actions.setFlightPlanColor)(flightPlan.id, _constants.FLIGHT_PLAN_COLORS[index]));
     }
   }, {
@@ -687,7 +688,7 @@ var FlightPlanSettings = function (_React$Component) {
           dispatch = _props7.dispatch,
           flightPlan = _props7.flightPlan;
 
-      _analytics2.default.tracker.trackEvent('FlightPlanSettings', 'Change', 'Visibility');
+      _analytics2.default.trackEvent('FlightPlanSettings', 'Change', 'Visibility')();
       dispatch((0, _actions.setFlightPlanVisibility)(flightPlan.id, visible));
     }
   }, {
@@ -708,12 +709,12 @@ var FlightPlanSettings = function (_React$Component) {
 
 
       if (!deleting) {
-        _analytics2.default.tracker.trackEvent('FlightPlanSettings', 'Clicked', 'Delete');
+        _analytics2.default.trackEvent('FlightPlanSettings', 'Clicked', 'Delete')();
         this.setState({
           deleting: true
         });
       } else {
-        _analytics2.default.tracker.trackEvent('FlightPlanSettings', 'Confirmed', 'Delete');
+        _analytics2.default.trackEvent('FlightPlanSettings', 'Confirmed', 'Delete')();
         dispatch((0, _actions.removeFlightPlan)(flightPlan.id));
         dispatch((0, _actions.setActiveFlightPlan)((0, _last2.default)(Object.keys(flightPlans))));
         dispatch((0, _actions.setSidebarContext)(_constants.SIDEBAR_CONTEXT_FLIGHT_PLANS));
@@ -722,7 +723,7 @@ var FlightPlanSettings = function (_React$Component) {
   }, {
     key: 'handleDeleteAbortClick',
     value: function handleDeleteAbortClick() {
-      _analytics2.default.tracker.trackEvent('FlightPlanSettings', 'Aborted', 'Delete');
+      _analytics2.default.trackEvent('FlightPlanSettings', 'Aborted', 'Delete')();
       this.setState({
         deleting: false
       });
@@ -736,7 +737,7 @@ var FlightPlanSettings = function (_React$Component) {
           waypoints = _props9.waypoints;
 
       return function (event) {
-        _analytics2.default.tracker.trackEvent('FlightPlanSettings', 'Clicked', 'ExportAs', format);
+        _analytics2.default.trackEvent('FlightPlanSettings', 'Clicked', 'ExportAs', format);
         dispatch((0, _actions.exportFlightPlan)(flightPlan.id, format));
         (0, _downloadFlightPlan2.default)(flightPlan, (0, _waypoints_for_flight_plan2.default)(flightPlan.id, waypoints), format);
       };
@@ -2597,7 +2598,7 @@ var Search = function (_React$Component) {
     value: function search(q) {
       var dispatch = this.props.dispatch;
 
-      _analytics2.default.tracker.trackSiteSearch(q);
+      _analytics2.default.trackSiteSearch(q)();
       dispatch((0, _actions.setSearchQuery)(q));
     }
   }, {
@@ -2759,7 +2760,7 @@ var Sidebar = function (_React$Component) {
     value: function handleSidebarToggleClick() {
       var dispatch = this.props.dispatch;
 
-      _analytics2.default.tracker.trackEvent('Sidebar', 'Clicked', 'Toggle');
+      _analytics2.default.trackEvent('Sidebar', 'Clicked', 'Toggle')();
       dispatch((0, _actions.toggleSidebar)());
     }
   }, {
@@ -2769,7 +2770,7 @@ var Sidebar = function (_React$Component) {
 
 
       return function () {
-        _analytics2.default.tracker.trackEvent('Sidebar', 'Clicked', 'SetContext', context);
+        _analytics2.default.trackEvent('Sidebar', 'Clicked', 'SetContext', context)();
         dispatch((0, _actions.setSidebarContext)(context));
       };
     }
@@ -3066,10 +3067,10 @@ var WaypointListItem = function (_React$Component) {
 
       var removedWaypoint = Object.assign({}, waypoint);
 
-      _analytics2.default.tracker.trackEvent('WaypointListItem', 'Clicked', 'Delete');
+      _analytics2.default.trackEvent('WaypointListItem', 'Clicked', 'Delete')();
 
       function undo() {
-        _analytics2.default.tracker.trackEvent('WaypointListItem', 'Undo', 'Delete');
+        _analytics2.default.trackEvent('WaypointListItem', 'Undo', 'Delete')();
         dispatch((0, _actions.addWaypointAt)(removedWaypoint, removedWaypoint.index - 1));
       }
 
@@ -3082,7 +3083,7 @@ var WaypointListItem = function (_React$Component) {
           waypoint = _props4.waypoint,
           dispatch = _props4.dispatch;
 
-      _analytics2.default.tracker.trackEvent('WaypointListItem', 'Clicked', 'SortUp');
+      _analytics2.default.trackEvent('WaypointListItem', 'Clicked', 'SortUp')();
       dispatch((0, _actions.setWaypointIndex)(waypoint.id, waypoint.index - 1.5));
     }
   }, {
@@ -3092,13 +3093,13 @@ var WaypointListItem = function (_React$Component) {
           waypoint = _props5.waypoint,
           dispatch = _props5.dispatch;
 
-      _analytics2.default.tracker.trackEvent('WaypointListItem', 'Clicked', 'SortDown');
+      _analytics2.default.trackEvent('WaypointListItem', 'Clicked', 'SortDown')();
       dispatch((0, _actions.setWaypointIndex)(waypoint.id, waypoint.index + 1.5));
     }
   }, {
     key: 'handleTotalsToggle',
     value: function handleTotalsToggle() {
-      _analytics2.default.tracker.trackEvent('WaypointListItem', 'Clicked', 'TotalsToggle');
+      _analytics2.default.trackEvent('WaypointListItem', 'Clicked', 'TotalsToggle')();
       this.setState({
         totalsCollapsed: !this.state.totalsCollapsed
       });
