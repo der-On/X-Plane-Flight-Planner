@@ -17,13 +17,13 @@ var analytics = {
     var args = (0, _toArray2.default)(arguments);
     var self = this;
     return function () {
-      return self.tracker ? self.tracker.trackEvent.apply(tracker, args) : null;
+      return self.tracker ? self.tracker.trackEvent.apply(self.tracker, args) : null;
     };
   },
   trackSiteSearch: function trackSiteSearch() {
     var args = (0, _toArray2.default)(arguments);
     return function () {
-      return self.tracker ? self.tracker.trackSiteSearch.apply(tracker, args) : null;
+      return self.tracker ? self.tracker.trackSiteSearch.apply(self.tracker, args) : null;
     };
   }
 };
