@@ -1,0 +1,130 @@
+[
+  {
+    "type": 1,
+    "icao": "YBUD",
+    "lat": -24.902773978571428,
+    "lon": 152.32105939,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 11960,
+        "name": "ACTIVATE LIGHTS ONLY MULT"
+      },
+      {
+        "type": 51,
+        "frequency": 12690,
+        "name": "BUNDABERG MULT"
+      },
+      {
+        "type": 51,
+        "frequency": 12410,
+        "name": "BRISBANE CENTRE MULT"
+      }
+    ],
+    "elevation": 104,
+    "tower": false,
+    "name": "Bundaberg",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -24.89730591,
+        "lonStart": 152.3172526,
+        "latEnd": -24.91256944,
+        "lonEnd": 152.327825,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 94.88,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -24.90656411,
+        "lonStart": 152.31315124,
+        "latEnd": -24.90245816,
+        "lonEnd": 152.32477283,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 10,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -24.9004172,
+        "lonStart": 152.32231196,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10
+      },
+      {
+        "type": 102,
+        "width": 20,
+        "surfaceType": 15,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": -24.90012313,
+        "lonStart": 152.32092844,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20
+      },
+      {
+        "type": 102,
+        "width": 20,
+        "surfaceType": 15,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": -24.8999799,
+        "lonStart": 152.32117366,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20
+      }
+    ],
+    "id": 32863
+  },
+  {
+    "type": 1,
+    "icao": "YLTT",
+    "lat": -24.11288975,
+    "lon": 152.715565765,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12690,
+        "name": "LADY ELLIOTT ISLAND MULT"
+      },
+      {
+        "type": 54,
+        "frequency": 12410,
+        "name": "BRISBANE CENTRE CNTR"
+      }
+    ],
+    "elevation": 6,
+    "tower": true,
+    "name": "Lady Elliot Island",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49.07,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -24.11564668,
+        "lonStart": 152.71532805,
+        "latEnd": -24.11013282,
+        "lonEnd": 152.71580348,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 33733
+  }
+]

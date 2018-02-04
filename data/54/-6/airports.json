@@ -1,0 +1,102 @@
+[
+  {
+    "type": 1,
+    "icao": "EGAC",
+    "lat": 54.618102495,
+    "lon": -5.872496005,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13662,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 12282,
+        "name": "BELFAST TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 13085,
+        "name": "BELFAST APP"
+      }
+    ],
+    "elevation": 15,
+    "tower": true,
+    "name": "Belfast City",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 54.61135374,
+        "lonStart": -5.88056767,
+        "latEnd": 54.62485125,
+        "lonEnd": -5.86442434,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1493
+  },
+  {
+    "type": 1,
+    "icao": "EGAD",
+    "lat": 54.58142611666667,
+    "lon": -5.691776139999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12830,
+        "name": "Newtownards Radio"
+      }
+    ],
+    "elevation": 7,
+    "tower": false,
+    "name": "Newtownards",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 54.5778387,
+        "lonStart": -5.69509541,
+        "latEnd": 54.58392536,
+        "lonEnd": -5.68881024,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 54.58527763,
+        "lonStart": -5.69299597,
+        "latEnd": 54.58032998,
+        "lonEnd": -5.68796922,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 54.58002422,
+        "lonStart": -5.69713639,
+        "latEnd": 54.58116081,
+        "lonEnd": -5.68864961,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1494
+  }
+]

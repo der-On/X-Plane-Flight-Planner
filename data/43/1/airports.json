@@ -1,0 +1,566 @@
+[
+  {
+    "type": 1,
+    "icao": "LFBO",
+    "lat": 43.624920636666666,
+    "lon": 1.3711617233333333,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12312,
+        "name": "ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 12170,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12125,
+        "name": "TOULOUSE INFO"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12110,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12517,
+        "name": "TOULOUSE APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12930,
+        "name": "TOULOUSE APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12385,
+        "name": "TOULOUSE APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12497,
+        "name": "TOULOUSE APP"
+      }
+    ],
+    "elevation": 499,
+    "tower": true,
+    "name": "Toulouse Blagnac",
+    "runways": [
+      {
+        "type": 100,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "14L",
+        "numberEnd": "32R",
+        "latStart": 43.63748883,
+        "lonStart": 1.35757397,
+        "latEnd": 43.61568883,
+        "lonEnd": 1.38026597,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "14R",
+        "numberEnd": "32L",
+        "latStart": 43.64419335,
+        "lonStart": 1.34587149,
+        "latEnd": 43.61908864,
+        "lonEnd": 1.3720266,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 43.61752095,
+        "lonStart": 1.38452969,
+        "latEnd": 43.61554322,
+        "lonEnd": 1.38670262,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3551
+  },
+  {
+    "type": 1,
+    "icao": "LFDJ",
+    "lat": 43.09063209999999,
+    "lon": 1.69795798,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 12035,
+        "name": "TOULOUSE APP"
+      },
+      {
+        "type": 54,
+        "frequency": 11817,
+        "name": "PAMIERS INFO"
+      }
+    ],
+    "elevation": 1112,
+    "tower": true,
+    "name": "Pamiers Les Pujols",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.51,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 43.09085362,
+        "lonStart": 1.68998029,
+        "latEnd": 43.09041058,
+        "lonEnd": 1.70593567,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3569
+  },
+  {
+    "type": 17,
+    "icao": "HFOI",
+    "lat": 43.025345,
+    "lon": 1.617685,
+    "communications": [],
+    "elevation": 1149,
+    "tower": true,
+    "name": "[H] DZ Hopital Val d Ariege",
+    "runways": [
+      {
+        "type": 102,
+        "width": 25,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 43.025345,
+        "lonStart": 1.617685,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 25
+      }
+    ],
+    "id": 17938
+  },
+  {
+    "type": 1,
+    "icao": "LFBF",
+    "lat": 43.54439875,
+    "lon": 1.367464,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11840,
+        "name": "FRANCAZAL TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "FRANCAZAL TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11880,
+        "name": "FRANCAZAL APP"
+      }
+    ],
+    "elevation": 535,
+    "tower": true,
+    "name": "Francazal AB",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 43.549128,
+        "lonStart": 1.357287,
+        "latEnd": 43.542292,
+        "lonEnd": 1.377479,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 29.87,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 43.54208,
+        "lonStart": 1.371665,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.87
+      },
+      {
+        "type": 102,
+        "width": 10.06,
+        "surfaceType": 3,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 43.544095,
+        "lonStart": 1.363425,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.06
+      }
+    ],
+    "id": 20215
+  },
+  {
+    "type": 1,
+    "icao": "LFBR",
+    "lat": 43.449188,
+    "lon": 1.263765,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12457,
+        "name": "LFBR ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12320,
+        "name": "MURET MULT"
+      },
+      {
+        "type": 53,
+        "frequency": 12175,
+        "name": "MURET GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12320,
+        "name": "MURET TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12517,
+        "name": "TOULOUSE APP"
+      },
+      {
+        "type": 55,
+        "frequency": 11880,
+        "name": "FRANCAZAL APP"
+      }
+    ],
+    "elevation": 622,
+    "tower": true,
+    "name": "L herm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 32.92,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 43.451433,
+        "lonStart": 1.257706,
+        "latEnd": 43.446943,
+        "lonEnd": 1.269824,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20221
+  },
+  {
+    "type": 1,
+    "icao": "LFCG",
+    "lat": 43.007796,
+    "lon": 1.103202,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 11825,
+        "name": "ST GIRONS MULT"
+      },
+      {
+        "type": 55,
+        "frequency": 12930,
+        "name": "TOULOUSE APP"
+      }
+    ],
+    "elevation": 1368,
+    "tower": true,
+    "name": "Antichan",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 43.012213,
+        "lonStart": 1.100154,
+        "latEnd": 43.003379,
+        "lonEnd": 1.10625,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20230
+  },
+  {
+    "type": 1,
+    "icao": "LFCL",
+    "lat": 43.586113999999995,
+    "lon": 1.4991664999999998,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12810,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 12270,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12517,
+        "name": "TOULOUSE APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12930,
+        "name": "TOULOUSE APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12385,
+        "name": "TOULOUSE APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12497,
+        "name": "TOULOUSE APP"
+      }
+    ],
+    "elevation": 459,
+    "tower": true,
+    "name": "LASBORDES",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 43.590073,
+        "lonStart": 1.496966,
+        "latEnd": 43.582155,
+        "lonEnd": 1.501367,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20233
+  },
+  {
+    "type": 1,
+    "icao": "LFDG",
+    "lat": 43.883888999999996,
+    "lon": 1.875556,
+    "communications": [],
+    "elevation": 446,
+    "tower": false,
+    "name": "Gaillac l Isle sur Tarn",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 43.88233191,
+        "lonStart": 1.86890701,
+        "latEnd": 43.88544609,
+        "lonEnd": 1.88220499,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20246
+  },
+  {
+    "type": 1,
+    "icao": "LFIR",
+    "lat": 43.481389,
+    "lon": 1.98,
+    "communications": [],
+    "elevation": 643,
+    "tower": false,
+    "name": "Revel Montgey",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 43.48337211,
+        "lonStart": 1.97623825,
+        "latEnd": 43.47940589,
+        "lonEnd": 1.98376175,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20331
+  },
+  {
+    "type": 1,
+    "icao": "LFIT",
+    "lat": 43.612091,
+    "lon": 1.72564,
+    "communications": [],
+    "elevation": 525,
+    "tower": false,
+    "name": "Toulouse Bourg Saint Bernard",
+    "runways": [
+      {
+        "type": 100,
+        "width": 79.86,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 43.61366547,
+        "lonStart": 1.72187347,
+        "latEnd": 43.61051653,
+        "lonEnd": 1.72940653,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20333
+  },
+  {
+    "type": 1,
+    "icao": "LFJH",
+    "lat": 43.2,
+    "lon": 1.0499999999999998,
+    "communications": [],
+    "elevation": 810,
+    "tower": true,
+    "name": "Palaminy",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 43.2,
+        "lonStart": 1.04395314,
+        "latEnd": 43.2,
+        "lonEnd": 1.05604686,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20337
+  },
+  {
+    "type": 1,
+    "icao": "LFMG",
+    "lat": 43.408438,
+    "lon": 1.9913616666666665,
+    "communications": [],
+    "elevation": 1470,
+    "tower": false,
+    "name": "La Montagne Noire",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 43.40716262,
+        "lonStart": 1.98759679,
+        "latEnd": 43.40491338,
+        "lonEnd": 1.99295921,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 43.40735981,
+        "lonStart": 1.99033747,
+        "latEnd": 43.41056619,
+        "lonEnd": 1.99331453,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 43.41143694,
+        "lonStart": 1.99203503,
+        "latEnd": 43.40918906,
+        "lonEnd": 1.99192697,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20374
+  },
+  {
+    "type": 1,
+    "icao": "LFMW",
+    "lat": 43.311322000000004,
+    "lon": 1.924203,
+    "communications": [],
+    "elevation": 550,
+    "tower": false,
+    "name": "Castelnaudary Villeneuve",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 43.31383532,
+        "lonStart": 1.914713,
+        "latEnd": 43.30880868,
+        "lonEnd": 1.933693,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 20383
+  }
+]

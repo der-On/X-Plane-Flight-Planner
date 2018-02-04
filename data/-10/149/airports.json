@@ -1,0 +1,108 @@
+[
+  {
+    "type": 1,
+    "icao": "AGL",
+    "lat": -9.33740064,
+    "lon": 149.15546075,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12480,
+        "name": "WGL ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12570,
+        "name": "Wanigela GND"
+      },
+      {
+        "type": 54,
+        "frequency": 13250,
+        "name": "Wanigela TWR"
+      }
+    ],
+    "elevation": 56,
+    "tower": true,
+    "name": "Wanigela",
+    "runways": [
+      {
+        "type": 100,
+        "width": 63.09,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -9.33744395,
+        "lonStart": 149.15126942,
+        "latEnd": -9.33735733,
+        "lonEnd": 149.15965208,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14419
+  },
+  {
+    "type": 1,
+    "icao": "RBP",
+    "lat": -9.97033016,
+    "lon": 149.83211713,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12770,
+        "name": "RBP AWOS"
+      }
+    ],
+    "elevation": 50,
+    "tower": false,
+    "name": "Rabaraba",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -9.96773481,
+        "lonStart": 149.82895433,
+        "latEnd": -9.97292551,
+        "lonEnd": 149.83527993,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24333
+  },
+  {
+    "type": 1,
+    "icao": "TFI",
+    "lat": -9.076016615,
+    "lon": 149.32006317,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12770,
+        "name": "TFI AWOS"
+      }
+    ],
+    "elevation": 80,
+    "tower": false,
+    "name": "Tufi",
+    "runways": [
+      {
+        "type": 100,
+        "width": 56.08,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -9.07779641,
+        "lonStart": 149.31628663,
+        "latEnd": -9.07423682,
+        "lonEnd": 149.32383971,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 29879
+  }
+]

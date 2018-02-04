@@ -1,0 +1,146 @@
+[
+  {
+    "type": 1,
+    "icao": "EFGE",
+    "lat": 60.087170244999996,
+    "lon": 22.523289345000002,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12360,
+        "name": "CTAF Freq"
+      }
+    ],
+    "elevation": 150,
+    "tower": false,
+    "name": "Genböle",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 60.08683324,
+        "lonStart": 22.52038782,
+        "latEnd": 60.08750725,
+        "lonEnd": 22.52619087,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1461
+  },
+  {
+    "type": 1,
+    "icao": "EFOP",
+    "lat": 60.875867075,
+    "lon": 22.7439836075,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12320,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 331,
+    "tower": false,
+    "name": "Oripää",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 60.87898667,
+        "lonStart": 22.73823588,
+        "latEnd": 60.8701982,
+        "lonEnd": 22.75106975,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 10,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 60.87548177,
+        "lonStart": 22.73532142,
+        "latEnd": 60.87880166,
+        "lonEnd": 22.75130738,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1477
+  },
+  {
+    "type": 1,
+    "icao": "EFTU",
+    "lat": 60.514115000000004,
+    "lon": 22.262812500000003,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13005,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11970,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 161,
+    "tower": true,
+    "name": "Turku",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 60.513108,
+        "lonStart": 22.240147,
+        "latEnd": 60.515122,
+        "lonEnd": 22.285478,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1482
+  },
+  {
+    "type": 17,
+    "icao": "EFTV",
+    "lat": 60.45120316,
+    "lon": 22.29035649,
+    "communications": [],
+    "elevation": 75,
+    "tower": false,
+    "name": "Turku University Central Hospital Heliport",
+    "runways": [
+      {
+        "type": 102,
+        "width": 27.8,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 60.45120316,
+        "lonStart": 22.29035649,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.1
+      }
+    ],
+    "id": 1483
+  }
+]

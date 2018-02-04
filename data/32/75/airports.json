@@ -1,0 +1,65 @@
+[
+  {
+    "type": 1,
+    "icao": "VIPK",
+    "lat": 32.233621,
+    "lon": 75.6345865,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12270,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12270,
+        "name": "APP"
+      }
+    ],
+    "elevation": 1017,
+    "tower": true,
+    "name": "PATHANKOT",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 32.221456,
+        "lonStart": 75.632256,
+        "latEnd": 32.245786,
+        "lonEnd": 75.636917,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 30902
+  },
+  {
+    "type": 1,
+    "icao": "VIUX",
+    "lat": 32.9021875,
+    "lon": 75.1562235,
+    "communications": [],
+    "elevation": 2066,
+    "tower": false,
+    "name": "UDHAMPUR",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 32.914556,
+        "lonStart": 75.155908,
+        "latEnd": 32.889819,
+        "lonEnd": 75.156539,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 30912
+  }
+]

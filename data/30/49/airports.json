@@ -1,0 +1,121 @@
+[
+  {
+    "type": 1,
+    "icao": "OIAG",
+    "lat": 30.745446,
+    "lon": 49.6760875,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12350,
+        "name": "INFO"
+      },
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 87,
+    "tower": false,
+    "name": "AGHAJARI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 30.752361,
+        "lonStart": 49.668494,
+        "latEnd": 30.738531,
+        "lonEnd": 49.683681,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 23388
+  },
+  {
+    "type": 1,
+    "icao": "OIAJ",
+    "lat": 30.83516675,
+    "lon": 49.53491675,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12490,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12260,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 85,
+    "tower": true,
+    "name": "OMIDIYEH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "12R",
+        "numberEnd": "30L",
+        "latStart": 30.8455,
+        "lonStart": 49.515,
+        "latEnd": 30.823167,
+        "lonEnd": 49.549333,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "12L",
+        "numberEnd": "30R",
+        "latStart": 30.8455,
+        "lonStart": 49.523167,
+        "latEnd": 30.8265,
+        "lonEnd": 49.552167,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 23391
+  },
+  {
+    "type": 1,
+    "icao": "OIAM",
+    "lat": 30.556191499999997,
+    "lon": 49.1518795,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11865,
+        "name": "ATIS"
+      }
+    ],
+    "elevation": 8,
+    "tower": true,
+    "name": "MAHSHAHR",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 30.565119,
+        "lonStart": 49.142353,
+        "latEnd": 30.547264,
+        "lonEnd": 49.161406,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 23392
+  }
+]

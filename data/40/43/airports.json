@@ -1,0 +1,81 @@
+[
+  {
+    "type": 1,
+    "icao": "LTCF",
+    "lat": 40.562419885,
+    "lon": 43.11517164,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12190,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12240,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 5889,
+    "tower": true,
+    "name": "Kars",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 40.555641,
+        "lonStart": 43.09646085,
+        "latEnd": 40.56919877,
+        "lonEnd": 43.13388243,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 4019
+  },
+  {
+    "type": 1,
+    "icao": "UDSG",
+    "lat": 40.750369500000005,
+    "lon": 43.8593405,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12870,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 12060,
+        "name": "GYUMRI TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12770,
+        "name": "GYUMRI APP"
+      }
+    ],
+    "elevation": 5000,
+    "tower": true,
+    "name": "GYUMRI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 44.81,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 40.737147,
+        "lonStart": 43.851714,
+        "latEnd": 40.763592,
+        "lonEnd": 43.866967,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 30256
+  }
+]

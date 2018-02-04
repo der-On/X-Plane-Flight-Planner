@@ -1,0 +1,89 @@
+[
+  {
+    "type": 1,
+    "icao": "FLND",
+    "lat": -12.998343305,
+    "lon": 28.664972065,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11970,
+        "name": "APP"
+      }
+    ],
+    "elevation": 4166,
+    "tower": true,
+    "name": "Simon Mwansa Kapwepwe International",
+    "runways": [
+      {
+        "type": 100,
+        "width": 59.48,
+        "surfaceType": null,
+        "numberStart": "10L",
+        "numberEnd": "28R",
+        "latStart": -12.99758615,
+        "lonStart": 28.65411793,
+        "latEnd": -12.99774075,
+        "lonEnd": 28.67729188,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 22.1,
+        "surfaceType": null,
+        "numberStart": "10R",
+        "numberEnd": "28L",
+        "latStart": -12.99898974,
+        "lonStart": 28.65866913,
+        "latEnd": -12.99905658,
+        "lonEnd": 28.66980932,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 2180
+  },
+  {
+    "type": 1,
+    "icao": "FLSO",
+    "lat": -12.90045511,
+    "lon": 28.14983762,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 11970,
+        "name": "Ndola APP"
+      },
+      {
+        "type": 54,
+        "frequency": 11870,
+        "name": "Kitwe RADIO"
+      }
+    ],
+    "elevation": 4145,
+    "tower": true,
+    "name": "Kitwe (Southdowns)",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.98,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -12.89799662,
+        "lonStart": 28.14085443,
+        "latEnd": -12.9029136,
+        "lonEnd": 28.15882081,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2181
+  }
+]

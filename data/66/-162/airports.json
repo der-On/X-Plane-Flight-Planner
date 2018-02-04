@@ -1,0 +1,82 @@
+[
+  {
+    "type": 16,
+    "icao": "ORV",
+    "lat": 66.83622894000001,
+    "lon": -161.05025607,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] Noorvik SPB",
+    "runways": [
+      {
+        "type": 101,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 66.83315344,
+        "lonStart": -161.05665357,
+        "latEnd": 66.83930444,
+        "lonEnd": -161.04385857,
+        "length": 0
+      }
+    ],
+    "id": 23743
+  },
+  {
+    "type": 1,
+    "icao": "PFNO",
+    "lat": 66.82315700000001,
+    "lon": -161.02501804,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12000,
+        "name": "AWOS-3"
+      },
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF"
+      },
+      {
+        "type": 55,
+        "frequency": 11920,
+        "name": "Anchorage ARTCC"
+      }
+    ],
+    "elevation": 55,
+    "tower": false,
+    "name": "NOORVIK Robert Bob Curtis",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 66.81610502,
+        "lonStart": -161.03564186,
+        "latEnd": 66.81946998,
+        "lonEnd": -161.0088483,
+        "length": 0,
+        "surfacetype": 5
+      },
+      {
+        "type": 100,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "3",
+        "numberEnd": "21",
+        "latStart": 66.826215,
+        "lonStart": -161.03272,
+        "latEnd": 66.830838,
+        "lonEnd": -161.022862,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 24074
+  }
+]

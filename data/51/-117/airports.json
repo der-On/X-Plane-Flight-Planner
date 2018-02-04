@@ -1,0 +1,85 @@
+[
+  {
+    "type": 1,
+    "icao": "CYGE",
+    "lat": 51.2983335,
+    "lon": -116.98152711,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 54,
+        "frequency": 13025,
+        "name": "Fake tower for AI"
+      }
+    ],
+    "elevation": 2575,
+    "tower": true,
+    "name": "GOLDEN",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 51.304167,
+        "lonStart": -116.98472161,
+        "latEnd": 51.2925,
+        "lonEnd": -116.97833261,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 760
+  },
+  {
+    "type": 17,
+    "icao": "XCBT5",
+    "lat": 51.29705808,
+    "lon": -116.96699646,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "MF"
+      },
+      {
+        "type": 51,
+        "frequency": 13027,
+        "name": "Ambulance Dispatch"
+      },
+      {
+        "type": 50,
+        "frequency": 12237,
+        "name": "RCO FISE"
+      },
+      {
+        "type": 50,
+        "frequency": 12670,
+        "name": "RCO bcst"
+      }
+    ],
+    "elevation": 2575,
+    "tower": false,
+    "name": "[H] Golden (Golden & District Gen Hospital) Heliport",
+    "runways": [
+      {
+        "type": 102,
+        "width": 19.5,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 51.29705808,
+        "lonStart": -116.96699646,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19.5
+      }
+    ],
+    "id": 5322
+  }
+]

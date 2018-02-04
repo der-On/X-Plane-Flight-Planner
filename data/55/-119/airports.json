@@ -1,0 +1,120 @@
+[
+  {
+    "type": 1,
+    "icao": "CYQU",
+    "lat": 55.183144825,
+    "lon": -118.88740548749999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12860,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "MF GRAND PRAIRIE RDO"
+      },
+      {
+        "type": 52,
+        "frequency": 12190,
+        "name": "Clearance Delivery"
+      }
+    ],
+    "elevation": 2193,
+    "tower": true,
+    "name": "GRANDE PRAIRIE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 55.19009568,
+        "lonStart": -118.90455515,
+        "latEnd": 55.17365627,
+        "lonEnd": -118.87567943,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 55.18439151,
+        "lonStart": -118.89952261,
+        "latEnd": 55.18443584,
+        "lonEnd": -118.86986476,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 822
+  },
+  {
+    "type": 1,
+    "icao": "FS5",
+    "lat": 55.78380027,
+    "lon": -118.840866735,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12320,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 2043,
+    "tower": false,
+    "name": "Spirit River",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 55.78379684,
+        "lonStart": -118.84808166,
+        "latEnd": 55.7838037,
+        "lonEnd": -118.83365181,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2203
+  },
+  {
+    "type": 17,
+    "icao": "XCGP2",
+    "lat": 55.17598,
+    "lon": -118.78758523,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "MF Grand Prairie RDO"
+      }
+    ],
+    "elevation": 2193,
+    "tower": false,
+    "name": "Queen Elizabeth II Hospital Heliport",
+    "runways": [
+      {
+        "type": 102,
+        "width": 50,
+        "surfaceType": 15,
+        "numberStart": "H89",
+        "numberEnd": null,
+        "latStart": 55.17598,
+        "lonStart": -118.78758523,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 50
+      }
+    ],
+    "id": 5326
+  }
+]

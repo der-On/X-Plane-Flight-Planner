@@ -1,0 +1,93 @@
+[
+  {
+    "type": 1,
+    "icao": "LEAX",
+    "lat": 36.80152375,
+    "lon": -4.1359509800000005,
+    "communications": [],
+    "elevation": 97,
+    "tower": true,
+    "name": "Leoni Benabu",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 36.80419407,
+        "lonStart": -4.14134813,
+        "latEnd": 36.79885343,
+        "lonEnd": -4.13055383,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3485
+  },
+  {
+    "type": 1,
+    "icao": "LEMG",
+    "lat": 36.67974728,
+    "lon": -4.49573567,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12037,
+        "name": "ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 12185,
+        "name": "CLR DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11815,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12385,
+        "name": "APP"
+      }
+    ],
+    "elevation": 50,
+    "tower": true,
+    "name": "Malaga",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 36.69108243,
+        "lonStart": -4.50786749,
+        "latEnd": 36.67794669,
+        "lonEnd": -4.47663586,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 36.68455734,
+        "lonStart": -4.5126253,
+        "latEnd": 36.66540266,
+        "lonEnd": -4.48581403,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3515
+  }
+]

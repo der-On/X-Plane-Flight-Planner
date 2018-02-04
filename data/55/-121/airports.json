@@ -1,0 +1,83 @@
+[
+  {
+    "type": 1,
+    "icao": "BX7",
+    "lat": 55.02735706,
+    "lon": -120.931039855,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12320,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 3075,
+    "tower": false,
+    "name": "Tumbler Ridge",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 55.02300149,
+        "lonStart": -120.93661784,
+        "latEnd": 55.03171263,
+        "lonEnd": -120.92546187,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 625
+  },
+  {
+    "type": 1,
+    "icao": "CYDQ",
+    "lat": 55.7432333875,
+    "lon": -120.1818103175,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12855,
+        "name": "AWOS"
+      },
+      {
+        "type": 54,
+        "frequency": 12220,
+        "name": "MF PEACE RIVER RDO"
+      }
+    ],
+    "elevation": 2147,
+    "tower": false,
+    "name": "DAWSON CREEK",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 55.74181279,
+        "lonStart": -120.19519677,
+        "latEnd": 55.74274853,
+        "lonEnd": -120.17098896,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 101,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 55.74391602,
+        "lonStart": -120.18940598,
+        "latEnd": 55.74445621,
+        "lonEnd": -120.17164956,
+        "length": 0
+      }
+    ],
+    "id": 750
+  }
+]

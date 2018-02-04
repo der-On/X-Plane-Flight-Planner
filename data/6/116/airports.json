@@ -1,0 +1,77 @@
+[
+  {
+    "type": 1,
+    "icao": "WBKB",
+    "lat": 6.36208519,
+    "lon": 116.471187295,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12480,
+        "name": "AWOS"
+      },
+      {
+        "type": 54,
+        "frequency": 12880,
+        "name": "ATC"
+      }
+    ],
+    "elevation": 45,
+    "tower": true,
+    "name": "Kota Belud",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 6.36824024,
+        "lonStart": 116.47160459,
+        "latEnd": 6.35593014,
+        "lonEnd": 116.47077,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 5249
+  },
+  {
+    "type": 1,
+    "icao": "WBKT",
+    "lat": 6.9238849,
+    "lon": 116.83737179333333,
+    "communications": [],
+    "elevation": 33,
+    "tower": false,
+    "name": "Kudat",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "4",
+        "numberEnd": "22",
+        "latStart": 6.92153029,
+        "lonStart": 116.83491475,
+        "latEnd": 6.92649469,
+        "lonEnd": 116.83918773,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 11.89,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 6.92362972,
+        "lonStart": 116.8380129,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.89
+      }
+    ],
+    "id": 31524
+  }
+]

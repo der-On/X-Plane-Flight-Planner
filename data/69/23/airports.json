@@ -1,0 +1,89 @@
+[
+  {
+    "type": 1,
+    "icao": "ENAT",
+    "lat": 69.977058035,
+    "lon": 23.3611372625,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "ATC Tower"
+      },
+      {
+        "type": 54,
+        "frequency": 12040,
+        "name": "ATC Tower"
+      }
+    ],
+    "elevation": 6,
+    "tower": true,
+    "name": "Alta",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.65,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 69.98282703,
+        "lonStart": 23.33898835,
+        "latEnd": 69.97190286,
+        "lonEnd": 23.39157726,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 4.4,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 69.97681283,
+        "lonStart": 23.35670126,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 4.4
+      },
+      {
+        "type": 102,
+        "width": 4.4,
+        "surfaceType": 15,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 69.97668942,
+        "lonStart": 23.35728218,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 4.4
+      }
+    ],
+    "id": 1735
+  },
+  {
+    "type": 1,
+    "icao": "ENKA",
+    "lat": 69.04138900000001,
+    "lon": 23.033333,
+    "communications": [],
+    "elevation": 1132,
+    "tower": true,
+    "name": "Kautokeino",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 69.03606177,
+        "lonStart": 23.03089413,
+        "latEnd": 69.04671623,
+        "lonEnd": 23.03577187,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 16596
+  }
+]

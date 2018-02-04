@@ -1,0 +1,82 @@
+[
+  {
+    "type": 1,
+    "icao": "SVBM",
+    "lat": 10.043312443333333,
+    "lon": -69.35920708333333,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12350,
+        "name": "TWR"
+      },
+      {
+        "type": 50,
+        "frequency": 13275,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "SMC"
+      }
+    ],
+    "elevation": 2042,
+    "tower": true,
+    "name": "Barquisimeto",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 10.04058768,
+        "lonStart": -69.3713862,
+        "latEnd": 10.04389888,
+        "lonEnd": -69.34982365,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 25,
+        "surfaceType": 1,
+        "numberStart": "H44",
+        "numberEnd": null,
+        "latStart": 10.04545077,
+        "lonStart": -69.3564114,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 25
+      }
+    ],
+    "id": 4970
+  },
+  {
+    "type": 1,
+    "icao": "SVHH",
+    "lat": 10.8075695,
+    "lon": -69.63837649999999,
+    "communications": [],
+    "elevation": 2459,
+    "tower": true,
+    "name": "Churuguara",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 10.81,
+        "lonStart": -69.643772,
+        "latEnd": 10.805139,
+        "lonEnd": -69.632981,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 29000
+  }
+]

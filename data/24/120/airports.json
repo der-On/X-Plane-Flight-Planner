@@ -1,0 +1,91 @@
+[
+  {
+    "type": 1,
+    "icao": "RCMQ",
+    "lat": 24.264960000000002,
+    "lon": 120.62080436,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12025,
+        "name": "CCK GROUND"
+      },
+      {
+        "type": 54,
+        "frequency": 11875,
+        "name": "CCK TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 13185,
+        "name": "TAIPEI APP"
+      },
+      {
+        "type": 50,
+        "frequency": 12775,
+        "name": "Cingcyuangang ATIS"
+      }
+    ],
+    "elevation": 663,
+    "tower": true,
+    "name": "Taichung Cingcyuangang",
+    "runways": [
+      {
+        "type": 100,
+        "width": 61,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 24.28139376,
+        "lonStart": 120.61970696,
+        "latEnd": 24.24852624,
+        "lonEnd": 120.62190176,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 4423
+  },
+  {
+    "type": 1,
+    "icao": "RCPO",
+    "lat": 24.8180335,
+    "lon": 120.939396,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12120,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11840,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12350,
+        "name": "TAIPEI APP"
+      }
+    ],
+    "elevation": 26,
+    "tower": true,
+    "name": "HSINCHU",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 24.806367,
+        "lonStart": 120.926692,
+        "latEnd": 24.8297,
+        "lonEnd": 120.9521,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 24345
+  }
+]

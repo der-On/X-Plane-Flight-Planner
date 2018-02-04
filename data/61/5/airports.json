@@ -1,0 +1,107 @@
+[
+  {
+    "type": 1,
+    "icao": "ENFL",
+    "lat": 61.58371699199999,
+    "lon": 5.019511496,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 11920,
+        "name": "AFIS"
+      },
+      {
+        "type": 50,
+        "frequency": 12462,
+        "name": "ATIS"
+      }
+    ],
+    "elevation": 37,
+    "tower": true,
+    "name": "FLORO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 61.5809,
+        "lonStart": 5.008028,
+        "latEnd": 61.584422,
+        "lonEnd": 5.029361,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 30,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 61.58431365,
+        "lonStart": 5.01934837,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30
+      },
+      {
+        "type": 102,
+        "width": 30,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 61.58438893,
+        "lonStart": 5.02006996,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30
+      },
+      {
+        "type": 102,
+        "width": 30,
+        "surfaceType": 1,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 61.58456038,
+        "lonStart": 5.02075015,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30
+      }
+    ],
+    "id": 1741
+  },
+  {
+    "type": 1,
+    "icao": "ENBL",
+    "lat": 61.3918155,
+    "lon": 5.76133,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11845,
+        "name": "AFIS"
+      }
+    ],
+    "elevation": 1045,
+    "tower": true,
+    "name": "BRINGELAND",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 61.390628,
+        "lonStart": 5.752792,
+        "latEnd": 61.393003,
+        "lonEnd": 5.769868,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16573
+  }
+]

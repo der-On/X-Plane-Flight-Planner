@@ -1,0 +1,177 @@
+[
+  {
+    "type": 17,
+    "icao": "LRBH",
+    "lat": 44.45235548,
+    "lon": 26.09560472,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 13185,
+        "name": "OPC"
+      },
+      {
+        "type": 55,
+        "frequency": 11825,
+        "name": "BUCHAREST APP"
+      },
+      {
+        "type": 54,
+        "frequency": 12080,
+        "name": "BANEASA TWR"
+      }
+    ],
+    "elevation": 1601,
+    "tower": true,
+    "name": "Chrystal Tower / Bucharest",
+    "runways": [
+      {
+        "type": 102,
+        "width": 20.4,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 44.45235548,
+        "lonStart": 26.09560472,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19.4
+      }
+    ],
+    "id": 3919
+  },
+  {
+    "type": 1,
+    "icao": "LROP",
+    "lat": 44.5722804125,
+    "lon": 26.102251545,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11850,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "Ground"
+      },
+      {
+        "type": 54,
+        "frequency": 12185,
+        "name": "OTOPENI Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 11825,
+        "name": "BUCHAREST Approch"
+      }
+    ],
+    "elevation": 174,
+    "tower": true,
+    "name": "Otopeni / Henri Coanda Int",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "08L",
+        "numberEnd": "26R",
+        "latStart": 44.57658464,
+        "lonStart": 26.08402773,
+        "latEnd": 44.57993278,
+        "lonEnd": 26.12781314,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "08R",
+        "numberEnd": "26L",
+        "latStart": 44.56463975,
+        "lonStart": 26.07667801,
+        "latEnd": 44.56796448,
+        "lonEnd": 26.1204873,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3925
+  },
+  {
+    "type": 1,
+    "icao": "XLRCOMA",
+    "lat": 44.200365425,
+    "lon": 26.139575465,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12345,
+        "name": "ATC"
+      }
+    ],
+    "elevation": 160,
+    "tower": true,
+    "name": "COMANA MOTOFLY",
+    "runways": [
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 44.19929171,
+        "lonStart": 26.13669684,
+        "latEnd": 44.20143914,
+        "lonEnd": 26.14245409,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5512
+  },
+  {
+    "type": 1,
+    "icao": "LRBS",
+    "lat": 44.50319572,
+    "lon": 26.102105610000002,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12995,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12080,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12520,
+        "name": "PRECISION"
+      }
+    ],
+    "elevation": 296,
+    "tower": true,
+    "name": "Bucarest Baneasa",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 44.499222,
+        "lonStart": 26.082764,
+        "latEnd": 44.50716944,
+        "lonEnd": 26.12144722,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 20784
+  }
+]

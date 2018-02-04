@@ -1,0 +1,189 @@
+[
+  {
+    "type": 1,
+    "icao": "OTBD",
+    "lat": 25.265297736666668,
+    "lon": 51.56359577333333,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12645,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 11827,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11865,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11890,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12110,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 11940,
+        "name": "APP"
+      }
+    ],
+    "elevation": 35,
+    "tower": true,
+    "name": "[X] DOHA INTL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 25.280222,
+        "lonStart": 51.556525,
+        "latEnd": 25.241889,
+        "lonEnd": 51.573472,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 50,
+        "surfaceType": 4,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 25.27378221,
+        "lonStart": 51.56079032,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 50
+      }
+    ],
+    "id": 4351
+  },
+  {
+    "type": 1,
+    "icao": "OTBH",
+    "lat": 25.1173155,
+    "lon": 51.314989,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12375,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 13550,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12550,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12645,
+        "name": "DOHA INFO"
+      }
+    ],
+    "elevation": 129,
+    "tower": true,
+    "name": "AL UDEID AB",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "16L",
+        "numberEnd": "34R",
+        "latStart": 25.133014,
+        "lonStart": 51.308036,
+        "latEnd": 25.101617,
+        "lonEnd": 51.321942,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 23766
+  },
+  {
+    "type": 1,
+    "icao": "OTBK",
+    "lat": 25.6295915,
+    "lon": 51.506721,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12045,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 9,
+    "tower": true,
+    "name": "AL KHOR",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 25.635136,
+        "lonStart": 51.501617,
+        "latEnd": 25.624047,
+        "lonEnd": 51.511825,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 23767
+  },
+  {
+    "type": 1,
+    "icao": "OTHH",
+    "lat": 25.27448408,
+    "lon": 51.607703775000004,
+    "communications": [],
+    "elevation": 13,
+    "tower": true,
+    "name": "Doha Hamad International",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "16L",
+        "numberEnd": "34R",
+        "latStart": 25.29611355,
+        "lonStart": 51.60887886,
+        "latEnd": 25.25547777,
+        "lonEnd": 51.62676582,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "16R",
+        "numberEnd": "34L",
+        "latStart": 25.29093841,
+        "lonStart": 51.58975945,
+        "latEnd": 25.25540659,
+        "lonEnd": 51.60541097,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 23768
+  }
+]

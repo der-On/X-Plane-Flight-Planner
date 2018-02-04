@@ -1,0 +1,70 @@
+[
+  {
+    "type": 1,
+    "icao": "VTSB",
+    "lat": 9.132603,
+    "lon": 99.135586,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12270,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12960,
+        "name": "APP"
+      }
+    ],
+    "elevation": 20,
+    "tower": true,
+    "name": "Surat Thani",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 9.122831,
+        "lonStart": 99.126033,
+        "latEnd": 9.142375,
+        "lonEnd": 99.145139,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 31087
+  },
+  {
+    "type": 1,
+    "icao": "VTT3",
+    "lat": 9.133062495,
+    "lon": 99.35544366,
+    "communications": [],
+    "elevation": 30,
+    "tower": false,
+    "name": "Surat Thani Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "4",
+        "numberEnd": "22",
+        "latStart": 9.13062299,
+        "lonStart": 99.35298932,
+        "latEnd": 9.135502,
+        "lonEnd": 99.357898,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 31104
+  }
+]

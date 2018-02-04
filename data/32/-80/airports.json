@@ -1,0 +1,107 @@
+[
+  {
+    "type": 1,
+    "icao": "KLRO",
+    "lat": 32.897673729999994,
+    "lon": -79.7828652,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 13580,
+        "name": "CHARLESTON APP/DEP"
+      },
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 50,
+        "frequency": 11862,
+        "name": "AWOS"
+      }
+    ],
+    "elevation": 12,
+    "tower": false,
+    "name": "Mt Pleasant Regional-Faison Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 32.90259233,
+        "lonStart": -79.78419555,
+        "latEnd": 32.89275513,
+        "lonEnd": -79.78153485,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2909
+  },
+  {
+    "type": 1,
+    "icao": "SC65",
+    "lat": 32.823608500000006,
+    "lon": -79.808098,
+    "communications": [],
+    "elevation": 8,
+    "tower": false,
+    "name": "Ravens Run",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 32.826247,
+        "lonStart": -79.810453,
+        "latEnd": 32.82097,
+        "lonEnd": -79.805743,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4686
+  },
+  {
+    "type": 17,
+    "icao": "SC71",
+    "lat": 32.784932035,
+    "lon": -79.94980052,
+    "communications": [],
+    "elevation": 15,
+    "tower": false,
+    "name": "[H] Medical University of South Carolina",
+    "runways": [
+      {
+        "type": 102,
+        "width": 11.71,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 32.78697969,
+        "lonStart": -79.95084441,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.81
+      },
+      {
+        "type": 102,
+        "width": 11.73,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 32.78288438,
+        "lonStart": -79.94875663,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.7
+      }
+    ],
+    "id": 4687
+  }
+]

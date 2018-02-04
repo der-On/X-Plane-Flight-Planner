@@ -1,0 +1,571 @@
+[
+  {
+    "type": 1,
+    "icao": "LFPG",
+    "lat": 49.0104251411111,
+    "lon": 2.562438347777778,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12713,
+        "name": "De Gaulle ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12177,
+        "name": "De Gaulle Ground North"
+      },
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "De Gaulle Ground South"
+      },
+      {
+        "type": 54,
+        "frequency": 11925,
+        "name": "De Gaulle Twr North 1"
+      },
+      {
+        "type": 54,
+        "frequency": 12360,
+        "name": "De Gaulle Twr North 2"
+      },
+      {
+        "type": 54,
+        "frequency": 12090,
+        "name": "De Gaulle Twr South 1"
+      },
+      {
+        "type": 54,
+        "frequency": 11865,
+        "name": "De Gaulle Twr South 2"
+      },
+      {
+        "type": 52,
+        "frequency": 12185,
+        "name": "De Gaulle Delivery"
+      },
+      {
+        "type": 56,
+        "frequency": 12435,
+        "name": "De Gaulle Departure North"
+      },
+      {
+        "type": 56,
+        "frequency": 13120,
+        "name": "De Gaulle Departure East"
+      },
+      {
+        "type": 56,
+        "frequency": 13338,
+        "name": "De Gaulle Departure S/W"
+      },
+      {
+        "type": 55,
+        "frequency": 12115,
+        "name": "De Gaulle Arrival NE/NW"
+      },
+      {
+        "type": 55,
+        "frequency": 12583,
+        "name": "De Gaulle Arrival SE/SW"
+      }
+    ],
+    "elevation": 392,
+    "tower": true,
+    "name": "Paris - Charles De Gaulle",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "09L",
+        "numberEnd": "27R",
+        "latStart": 49.024719,
+        "lonStart": 2.524892,
+        "latEnd": 49.026694,
+        "lonEnd": 2.561689,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "09R",
+        "numberEnd": "27L",
+        "latStart": 49.020617,
+        "lonStart": 2.513058,
+        "latEnd": 49.02368506,
+        "lonEnd": 2.57030747,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "08L",
+        "numberEnd": "26R",
+        "latStart": 48.995686,
+        "lonStart": 2.552744,
+        "latEnd": 48.99874964,
+        "lonEnd": 2.61018834,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "08R",
+        "numberEnd": "26L",
+        "latStart": 48.992914,
+        "lonStart": 2.565661,
+        "latEnd": 48.994878,
+        "lonEnd": 2.602433,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 19.3,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 49.01588357,
+        "lonStart": 2.56097232,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.9
+      }
+    ],
+    "id": 3654
+  },
+  {
+    "type": 1,
+    "icao": "LFPT",
+    "lat": 49.0957925,
+    "lon": 2.0355832499999997,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12412,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 12120,
+        "name": "PONTOISE TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11880,
+        "name": "PONTOISE APP"
+      }
+    ],
+    "elevation": 325,
+    "tower": true,
+    "name": "Pontoise Cormeilles",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 49.087767,
+        "lonStart": 2.027397,
+        "latEnd": 49.098575,
+        "lonEnd": 2.04365,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 49.101911,
+        "lonStart": 2.025678,
+        "latEnd": 49.094917,
+        "lonEnd": 2.045608,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3656
+  },
+  {
+    "type": 1,
+    "icao": "LFAD",
+    "lat": 49.432575,
+    "lon": 2.802279,
+    "communications": [],
+    "elevation": 314,
+    "tower": false,
+    "name": "Compiegne Margny",
+    "runways": [
+      {
+        "type": 100,
+        "width": 79.86,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 49.42986593,
+        "lonStart": 2.79765263,
+        "latEnd": 49.43528407,
+        "lonEnd": 2.80690537,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20198
+  },
+  {
+    "type": 1,
+    "icao": "LFAQ",
+    "lat": 49.971529000000004,
+    "lon": 2.69766,
+    "communications": [],
+    "elevation": 363,
+    "tower": false,
+    "name": "Albert Bray",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 49.971522,
+        "lonStart": 2.689506,
+        "latEnd": 49.971536,
+        "lonEnd": 2.705814,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20207
+  },
+  {
+    "type": 1,
+    "icao": "LFAR",
+    "lat": 49.673056,
+    "lon": 2.569167,
+    "communications": [],
+    "elevation": 358,
+    "tower": false,
+    "name": "Montdidier Fignieres",
+    "runways": [
+      {
+        "type": 100,
+        "width": 99.97,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 49.67282065,
+        "lonStart": 2.56396626,
+        "latEnd": 49.67329135,
+        "lonEnd": 2.57436774,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20208
+  },
+  {
+    "type": 1,
+    "icao": "LFAY",
+    "lat": 49.87314289,
+    "lon": 2.38675572,
+    "communications": [],
+    "elevation": 208,
+    "tower": false,
+    "name": "Amiens Glisy",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 49.87575278,
+        "lonStart": 2.37859444,
+        "latEnd": 49.870533,
+        "lonEnd": 2.394917,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20212
+  },
+  {
+    "type": 1,
+    "icao": "LFFE",
+    "lat": 49.046159,
+    "lon": 2.3545445,
+    "communications": [],
+    "elevation": 335,
+    "tower": false,
+    "name": "Enghien Moisselles",
+    "runways": [
+      {
+        "type": 100,
+        "width": 79.86,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 49.04560858,
+        "lonStart": 2.35069171,
+        "latEnd": 49.04831742,
+        "lonEnd": 2.35997429,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 79.86,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 49.0476794,
+        "lonStart": 2.35210238,
+        "latEnd": 49.0430306,
+        "lonEnd": 2.35540962,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20268
+  },
+  {
+    "type": 1,
+    "icao": "LFOB",
+    "lat": 49.45600045,
+    "lon": 2.11891364,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11837,
+        "name": "BEAUVAIS ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11990,
+        "name": "BEAUVAIS TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12140,
+        "name": "BEAUVAIS TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11990,
+        "name": "BEAUVAIS APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12140,
+        "name": "BEAUVAIS APP"
+      }
+    ],
+    "elevation": 357,
+    "tower": true,
+    "name": "Beauvais-Tille",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 49.4583105,
+        "lonStart": 2.10385,
+        "latEnd": 49.4462055,
+        "lonEnd": 2.13173256,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 49.457358,
+        "lonStart": 2.1168,
+        "latEnd": 49.4621278,
+        "lonEnd": 2.123272,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20399
+  },
+  {
+    "type": 1,
+    "icao": "LFPA",
+    "lat": 49.167853,
+    "lon": 2.3186275,
+    "communications": [],
+    "elevation": 148,
+    "tower": false,
+    "name": "Persan Beaumont",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 49.17001958,
+        "lonStart": 2.30764908,
+        "latEnd": 49.17653642,
+        "lonEnd": 2.32136892,
+        "length": 0,
+        "surfacetype": 5
+      },
+      {
+        "type": 100,
+        "width": 99.97,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 49.16101378,
+        "lonStart": 2.3151103,
+        "latEnd": 49.16653422,
+        "lonEnd": 2.3255357,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 89.92,
+        "surfaceType": null,
+        "numberStart": "10R",
+        "numberEnd": "28L",
+        "latStart": 49.16747132,
+        "lonStart": 2.31290849,
+        "latEnd": 49.16609668,
+        "lonEnd": 2.32483151,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "10L",
+        "numberEnd": "28R",
+        "latStart": 49.16822426,
+        "lonStart": 2.31518517,
+        "latEnd": 49.16692774,
+        "lonEnd": 2.32643083,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20416
+  },
+  {
+    "type": 1,
+    "icao": "LFPC",
+    "lat": 49.25276768333333,
+    "lon": 2.5185312366666666,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "Creil Sol"
+      },
+      {
+        "type": 54,
+        "frequency": 11970,
+        "name": "Creil Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12330,
+        "name": "DE GAULLE APP"
+      },
+      {
+        "type": 55,
+        "frequency": 11815,
+        "name": "DE GAULLE APP"
+      }
+    ],
+    "elevation": 291,
+    "tower": true,
+    "name": "Creil AB",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 49.24902,
+        "lonStart": 2.5041695,
+        "latEnd": 49.2580674,
+        "lonEnd": 2.534086,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 34.1,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 49.25121565,
+        "lonStart": 2.51733821,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 34.1
+      }
+    ],
+    "id": 20418
+  },
+  {
+    "type": 1,
+    "icao": "LFPP",
+    "lat": 49.10936149999999,
+    "lon": 2.737405,
+    "communications": [],
+    "elevation": 387,
+    "tower": true,
+    "name": "Le Plessis Belleville",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "07R",
+        "numberEnd": "25L",
+        "latStart": 49.10751424,
+        "lonStart": 2.73264278,
+        "latEnd": 49.11044176,
+        "lonEnd": 2.74268722,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "07L",
+        "numberEnd": "25R",
+        "latStart": 49.10846421,
+        "lonStart": 2.73275049,
+        "latEnd": 49.11102579,
+        "lonEnd": 2.74153951,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20426
+  }
+]

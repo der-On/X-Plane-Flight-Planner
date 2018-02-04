@@ -1,0 +1,74 @@
+[
+  {
+    "type": 1,
+    "icao": "CYTH",
+    "lat": 55.803750596,
+    "lon": -97.862027902,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12765,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 12295,
+        "name": "INFO"
+      },
+      {
+        "type": 54,
+        "frequency": 12300,
+        "name": "INFO"
+      },
+      {
+        "type": 54,
+        "frequency": 12250,
+        "name": "RDO"
+      }
+    ],
+    "elevation": 729,
+    "tower": false,
+    "name": "THOMPSON",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 55.79640186,
+        "lonStart": -97.8747739,
+        "latEnd": 55.80402965,
+        "lonEnd": -97.85006358,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 55.81264529,
+        "lonStart": -97.86653902,
+        "latEnd": 55.80054052,
+        "lonEnd": -97.85460284,
+        "length": 0,
+        "surfacetype": 5
+      },
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 55.80513566,
+        "lonStart": -97.86416017,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 843
+  }
+]

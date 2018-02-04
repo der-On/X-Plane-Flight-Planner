@@ -1,0 +1,114 @@
+[
+  {
+    "type": 1,
+    "icao": "DTNH",
+    "lat": 36.075732,
+    "lon": 10.4386025,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13630,
+        "name": "ATIS ENFIDHA"
+      },
+      {
+        "type": 53,
+        "frequency": 12167,
+        "name": "ENFIDHA GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11855,
+        "name": "ENFIDHA TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11930,
+        "name": "ENFIDHA APP"
+      }
+    ],
+    "elevation": 21,
+    "tower": true,
+    "name": "Enfidha-Hammamet",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 36.075814,
+        "lonStart": 10.420286,
+        "latEnd": 36.07565,
+        "lonEnd": 10.456919,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16065
+  },
+  {
+    "type": 1,
+    "icao": "DTTA",
+    "lat": 36.8512675,
+    "lon": 10.230027,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11867,
+        "name": "TUNIS ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "TUNIS GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TUNIS TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12120,
+        "name": "TUNIS APP"
+      },
+      {
+        "type": 55,
+        "frequency": 11950,
+        "name": "TUNIS APP"
+      }
+    ],
+    "elevation": 21,
+    "tower": true,
+    "name": "CARTHAGE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 36.839131,
+        "lonStart": 10.223756,
+        "latEnd": 36.86725,
+        "lonEnd": 10.231411,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 36.854256,
+        "lonStart": 10.217694,
+        "latEnd": 36.844433,
+        "lonEnd": 10.247247,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16066
+  }
+]

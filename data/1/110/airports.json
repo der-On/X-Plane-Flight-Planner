@@ -1,0 +1,85 @@
+[
+  {
+    "type": 1,
+    "icao": "WBGG",
+    "lat": 1.4846975,
+    "lon": 110.34693200000001,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12840,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12170,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12020,
+        "name": "APP DIRECTOR"
+      },
+      {
+        "type": 55,
+        "frequency": 12385,
+        "name": "APP DIRECTOR"
+      }
+    ],
+    "elevation": 89,
+    "tower": true,
+    "name": "Kuching Intl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 1.480631,
+        "lonStart": 110.336731,
+        "latEnd": 1.488764,
+        "lonEnd": 110.357133,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 31510
+  },
+  {
+    "type": 1,
+    "icao": "WZ70",
+    "lat": 1.019865,
+    "lon": 110.051969,
+    "communications": [],
+    "elevation": 1675,
+    "tower": false,
+    "name": "Lokok (MAF)",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 1.02127552,
+        "lonStart": 110.05028774,
+        "latEnd": 1.01845448,
+        "lonEnd": 110.05365026,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 32328
+  }
+]

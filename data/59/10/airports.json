@@ -1,0 +1,153 @@
+[
+  {
+    "type": 1,
+    "icao": "ENRY",
+    "lat": 59.378793,
+    "lon": 10.78542651,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13617,
+        "name": "RyggeInformation"
+      },
+      {
+        "type": 54,
+        "frequency": 11950,
+        "name": "Rygge Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12210,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12435,
+        "name": "Farris"
+      },
+      {
+        "type": 55,
+        "frequency": 12030,
+        "name": "ARRIVAL"
+      }
+    ],
+    "elevation": 173,
+    "tower": true,
+    "name": "RYGGE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 59.383736,
+        "lonStart": 10.76625001,
+        "latEnd": 59.37385,
+        "lonEnd": 10.80460301,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1762
+  },
+  {
+    "type": 1,
+    "icao": "ENSI",
+    "lat": 59.70714384,
+    "lon": 10.88150949,
+    "communications": [],
+    "elevation": 351,
+    "tower": false,
+    "name": "SKI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.08,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 59.70946967,
+        "lonStart": 10.88232246,
+        "latEnd": 59.70481801,
+        "lonEnd": 10.88069652,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1766
+  },
+  {
+    "type": 1,
+    "icao": "ENJB",
+    "lat": 59.298020895,
+    "lon": 10.369978215,
+    "communications": [],
+    "elevation": 89,
+    "tower": false,
+    "name": "Jarlsberg",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 59.30161271,
+        "lonStart": 10.36959845,
+        "latEnd": 59.29442908,
+        "lonEnd": 10.37035798,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16595
+  },
+  {
+    "type": 1,
+    "icao": "ENTO",
+    "lat": 59.1866625,
+    "lon": 10.2585955,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11907,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12617,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11865,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 13405,
+        "name": "FARRIS TCA"
+      }
+    ],
+    "elevation": 286,
+    "tower": true,
+    "name": "TORP",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 59.200117,
+        "lonStart": 10.258319,
+        "latEnd": 59.173208,
+        "lonEnd": 10.258872,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16621
+  }
+]

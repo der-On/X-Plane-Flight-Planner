@@ -1,0 +1,111 @@
+[
+  {
+    "type": 1,
+    "icao": "EINN",
+    "lat": 52.701975,
+    "lon": -8.924811,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13095,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11870,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12180,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12020,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12140,
+        "name": "APP"
+      }
+    ],
+    "elevation": 44,
+    "tower": true,
+    "name": "Shannon",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 52.693172,
+        "lonStart": -8.943519,
+        "latEnd": 52.710778,
+        "lonEnd": -8.906103,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1669
+  },
+  {
+    "type": 1,
+    "icao": "EICN",
+    "lat": 52.6665075,
+    "lon": -8.6818355,
+    "communications": [],
+    "elevation": 17,
+    "tower": false,
+    "name": "Limerick-Coonagh",
+    "runways": [
+      {
+        "type": 100,
+        "width": 10.06,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 52.666395,
+        "lonStart": -8.684936,
+        "latEnd": 52.66662,
+        "lonEnd": -8.678735,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16436
+  },
+  {
+    "type": 1,
+    "icao": "EIRT",
+    "lat": 52.108889,
+    "lon": -8.993611005,
+    "communications": [],
+    "elevation": 280,
+    "tower": false,
+    "name": "Rathcoole",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 52.10856191,
+        "lonStart": -8.99686461,
+        "latEnd": 52.10921609,
+        "lonEnd": -8.9903574,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16454
+  }
+]

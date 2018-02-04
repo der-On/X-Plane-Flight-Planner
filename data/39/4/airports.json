@@ -1,0 +1,93 @@
+[
+  {
+    "type": 1,
+    "icao": "LEMH",
+    "lat": 39.862585835,
+    "lon": 4.21864995,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12175,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11820,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11965,
+        "name": "APP"
+      },
+      {
+        "type": 50,
+        "frequency": 12915,
+        "name": "ATIS"
+      }
+    ],
+    "elevation": 83,
+    "tower": true,
+    "name": "Menorca",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 39.85125683,
+        "lonStart": 4.21631929,
+        "latEnd": 39.87391484,
+        "lonEnd": 4.22098061,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3516
+  },
+  {
+    "type": 1,
+    "icao": "LESL",
+    "lat": 39.862811959999995,
+    "lon": 4.252504066666666,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12350,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 194,
+    "tower": true,
+    "name": "San Luis",
+    "runways": [
+      {
+        "type": 100,
+        "width": 23,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 39.85367049,
+        "lonStart": 4.24810199,
+        "latEnd": 39.86913784,
+        "lonEnd": 4.25519806,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 10,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.86562755,
+        "lonStart": 4.25421215,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.2
+      }
+    ],
+    "id": 3527
+  }
+]

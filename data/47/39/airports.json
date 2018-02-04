@@ -1,0 +1,90 @@
+[
+  {
+    "type": 1,
+    "icao": "URRR",
+    "lat": 47.25419483333334,
+    "lon": 39.816074,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12170,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 11900,
+        "name": "TAXIING"
+      },
+      {
+        "type": 54,
+        "frequency": 11970,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12120,
+        "name": "RADAR"
+      },
+      {
+        "type": 55,
+        "frequency": 12400,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12710,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12820,
+        "name": "APP"
+      }
+    ],
+    "elevation": 280,
+    "tower": true,
+    "name": "Rostov Na Donu",
+    "runways": [
+      {
+        "type": 100,
+        "width": 74.68,
+        "surfaceType": null,
+        "numberStart": "04R",
+        "numberEnd": "22L",
+        "latStart": 47.249758,
+        "lonStart": 39.806986,
+        "latEnd": 47.261978,
+        "lonEnd": 39.825483,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 85.34,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 47.248706,
+        "lonStart": 39.805186,
+        "latEnd": 47.248311,
+        "lonEnd": 39.822611,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 47.250358,
+        "lonStart": 39.806253,
+        "latEnd": 47.266058,
+        "lonEnd": 39.829925,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 30485
+  }
+]

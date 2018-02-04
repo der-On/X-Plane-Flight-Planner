@@ -1,0 +1,103 @@
+[
+  {
+    "type": 1,
+    "icao": "RJGG",
+    "lat": 34.858416774999995,
+    "lon": 136.80539445,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 11917,
+        "name": "Centrair Approach"
+      },
+      {
+        "type": 55,
+        "frequency": 12105,
+        "name": "Centrair Approach"
+      },
+      {
+        "type": 50,
+        "frequency": 12707,
+        "name": "Centrair ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 12185,
+        "name": "Centrair Delivery"
+      },
+      {
+        "type": 56,
+        "frequency": 12000,
+        "name": "Centrair Departure"
+      },
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "Centrair Ground"
+      },
+      {
+        "type": 54,
+        "frequency": 11885,
+        "name": "Centrair Tower"
+      }
+    ],
+    "elevation": 15,
+    "tower": true,
+    "name": "CHUBU CENTRAIR INTL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 34.87389185,
+        "lonStart": 136.801675,
+        "latEnd": 34.8429417,
+        "lonEnd": 136.8091139,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4452
+  },
+  {
+    "type": 1,
+    "icao": "RJOE",
+    "lat": 34.529989,
+    "lon": 136.67526900000001,
+    "communications": [],
+    "elevation": 20,
+    "tower": true,
+    "name": "Akeno AB",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 34.52811736,
+        "lonStart": 136.67375482,
+        "latEnd": 34.53186064,
+        "lonEnd": 136.67678318,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 34.53123979,
+        "lonStart": 136.67299985,
+        "latEnd": 34.52873821,
+        "lonEnd": 136.67753815,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 24412
+  }
+]

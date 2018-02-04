@@ -1,0 +1,102 @@
+[
+  {
+    "type": 1,
+    "icao": "LGAL",
+    "lat": 40.85580708,
+    "lon": 25.956136165,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12380,
+        "name": "ALEXANDROUPOLIS TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12380,
+        "name": "ALEXANDROUPOLIS APP"
+      }
+    ],
+    "elevation": 22,
+    "tower": true,
+    "name": "Alexandroupolis Dimokritos",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 40.85239412,
+        "lonStart": 25.94151691,
+        "latEnd": 40.85922004,
+        "lonEnd": 25.97075542,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3704
+  },
+  {
+    "type": 1,
+    "icao": "LTFK",
+    "lat": 40.20865946833334,
+    "lon": 25.889234821666665,
+    "communications": [],
+    "elevation": 45,
+    "tower": false,
+    "name": "Gokceada",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 40.1967,
+        "lonStart": 25.880658,
+        "latEnd": 40.215311,
+        "lonEnd": 25.887544,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 40.203214,
+        "lonStart": 25.886989,
+        "latEnd": 40.212733,
+        "lonEnd": 25.893475,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.21182444,
+        "lonStart": 25.8932525,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      },
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 40.21217437,
+        "lonStart": 25.89349043,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 4036
+  }
+]

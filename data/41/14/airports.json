@@ -1,0 +1,96 @@
+[
+  {
+    "type": 1,
+    "icao": "LIAU",
+    "lat": 41.11567221,
+    "lon": 14.17722938,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12250,
+        "name": "Capua Radio"
+      }
+    ],
+    "elevation": 63,
+    "tower": false,
+    "name": "CAPUA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 41.11611801,
+        "lonStart": 14.18285281,
+        "latEnd": 41.11522641,
+        "lonEnd": 14.17160595,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3738
+  },
+  {
+    "type": 1,
+    "icao": "LIRM",
+    "lat": 41.056843362,
+    "lon": 14.074140316000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11802,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 28,
+    "tower": true,
+    "name": "GRAZZANISE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "06R",
+        "numberEnd": "24L",
+        "latStart": 41.05321306,
+        "lonStart": 14.06601237,
+        "latEnd": 41.0665078,
+        "lonEnd": 14.09694723,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "06L",
+        "numberEnd": "24R",
+        "latStart": 41.05264478,
+        "lonStart": 14.06263736,
+        "latEnd": 41.05888264,
+        "lonEnd": 14.07715603,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 102,
+        "width": 30,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.05296853,
+        "lonStart": 14.06794859,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 40
+      }
+    ],
+    "id": 3819
+  }
+]

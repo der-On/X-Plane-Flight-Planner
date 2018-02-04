@@ -1,0 +1,111 @@
+[
+  {
+    "type": 1,
+    "icao": "LFKJ",
+    "lat": 41.921718696,
+    "lon": 8.798345016,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12692,
+        "name": "LFKJ ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "AJACCIO GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "AJACCIO TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12105,
+        "name": "AJACCIO APP"
+      }
+    ],
+    "elevation": 18,
+    "tower": true,
+    "name": "Napoleon Bonaparte",
+    "runways": [
+      {
+        "type": 100,
+        "width": 54.86,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 41.91186937,
+        "lonStart": 8.79496744,
+        "latEnd": 41.93149762,
+        "lonEnd": 8.80723663,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 41.924447,
+        "lonStart": 8.791741,
+        "latEnd": 41.923729,
+        "lonEnd": 8.804401,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 25.4,
+        "surfaceType": 1,
+        "numberStart": "H6",
+        "numberEnd": null,
+        "latStart": 41.91705049,
+        "lonStart": 8.79337901,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 25.5
+      }
+    ],
+    "id": 3615
+  },
+  {
+    "type": 1,
+    "icao": "LFKO",
+    "lat": 41.660655,
+    "lon": 8.889761,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 11850,
+        "name": "PROPRIANO MULT"
+      },
+      {
+        "type": 55,
+        "frequency": 12105,
+        "name": "AJACCIO APP"
+      }
+    ],
+    "elevation": 12,
+    "tower": true,
+    "name": "Propriano",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 41.661234,
+        "lonStart": 8.881393,
+        "latEnd": 41.660076,
+        "lonEnd": 8.898129,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 20349
+  }
+]

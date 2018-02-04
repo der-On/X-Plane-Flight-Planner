@@ -1,0 +1,137 @@
+[
+  {
+    "type": 1,
+    "icao": "EHAL",
+    "lat": 53.452122756666675,
+    "lon": 5.680950523333333,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11835,
+        "name": "Ameland Radio"
+      }
+    ],
+    "elevation": 11,
+    "tower": true,
+    "name": "Ameland",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 53.45344927,
+        "lonStart": 5.67265432,
+        "latEnd": 53.453774,
+        "lonEnd": 5.68473225,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 35,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 53.449145,
+        "lonStart": 5.685465,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 35
+      }
+    ],
+    "id": 1634
+  },
+  {
+    "type": 1,
+    "icao": "EHLW",
+    "lat": 53.2269995,
+    "lon": 5.75393075,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12070,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12210,
+        "name": "ARRIVAL"
+      },
+      {
+        "type": 55,
+        "frequency": 12210,
+        "name": "RAPCON NORTH"
+      }
+    ],
+    "elevation": 3,
+    "tower": true,
+    "name": "Leeuwarden",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 53.219167,
+        "lonStart": 5.738092,
+        "latEnd": 53.231664,
+        "lonEnd": 5.768297,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 53.228667,
+        "lonStart": 5.739667,
+        "latEnd": 53.2285,
+        "lonEnd": 5.769667,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1646
+  },
+  {
+    "type": 17,
+    "icao": "EHVL",
+    "lat": 53.29691,
+    "lon": 5.085593,
+    "communications": [
+      {
+        "type": 56,
+        "frequency": 13235,
+        "name": "Dutch Mil"
+      }
+    ],
+    "elevation": 0,
+    "tower": true,
+    "name": "[H] Vlieland",
+    "runways": [
+      {
+        "type": 102,
+        "width": 29.9,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 53.29691,
+        "lonStart": 5.085593,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.9
+      }
+    ],
+    "id": 1658
+  }
+]

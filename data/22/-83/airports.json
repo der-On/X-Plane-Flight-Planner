@@ -1,0 +1,101 @@
+[
+  {
+    "type": 1,
+    "icao": "MUHA",
+    "lat": 22.989154,
+    "lon": -82.409086,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13250,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "MARTI TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11935,
+        "name": "HABANA APP"
+      }
+    ],
+    "elevation": 208,
+    "tower": true,
+    "name": "Havana Jose Marti Intl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 22.978633,
+        "lonStart": -82.424944,
+        "latEnd": 22.999675,
+        "lonEnd": -82.393228,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4152
+  },
+  {
+    "type": 1,
+    "icao": "MUSA",
+    "lat": 22.868215230000004,
+    "lon": -82.51711926166666,
+    "communications": [],
+    "elevation": 164,
+    "tower": false,
+    "name": "SAN ANTONIO DE LOS BANOS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 56.39,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 22.851389,
+        "lonStart": -82.539083,
+        "latEnd": 22.8705,
+        "lonEnd": -82.510733,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 22.87848397,
+        "lonStart": -82.52808323,
+        "latEnd": 22.87032721,
+        "lonEnd": -82.50599573,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 22.85891947,
+        "lonStart": -82.51023739,
+        "latEnd": 22.87967173,
+        "lonEnd": -82.50858322,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 4154
+  }
+]

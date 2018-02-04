@@ -1,0 +1,114 @@
+[
+  {
+    "type": 1,
+    "icao": "NZGS",
+    "lat": -38.662520654999994,
+    "lon": 177.977424855,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12640,
+        "name": "GISBORNE ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 12730,
+        "name": "GISBORNE TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11950,
+        "name": "CHCH CTL"
+      },
+      {
+        "type": 56,
+        "frequency": 11950,
+        "name": "CHCH CTL"
+      }
+    ],
+    "elevation": 14,
+    "tower": true,
+    "name": "Gisborne",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -38.65830443,
+        "lonStart": 177.97494344,
+        "latEnd": -38.6696656,
+        "lonEnd": 177.97899551,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -38.66607501,
+        "lonStart": 177.97187763,
+        "latEnd": -38.65904904,
+        "lonEnd": 177.98188627,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -38.6596233,
+        "lonStart": 177.97007014,
+        "latEnd": -38.66399513,
+        "lonEnd": 177.98231392,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "14L",
+        "numberEnd": "32R",
+        "latStart": -38.65849011,
+        "lonStart": 177.97848957,
+        "latEnd": -38.66496262,
+        "lonEnd": 177.98082236,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4231
+  },
+  {
+    "type": 1,
+    "icao": "NZOP",
+    "lat": -38.0231108,
+    "lon": 177.305743365,
+    "communications": [],
+    "elevation": 24,
+    "tower": false,
+    "name": "Opotiki",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.35,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -38.02425279,
+        "lonStart": 177.31127264,
+        "latEnd": -38.02196881,
+        "lonEnd": 177.30021409,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4259
+  }
+]

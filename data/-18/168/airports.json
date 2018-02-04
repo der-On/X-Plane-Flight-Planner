@@ -1,0 +1,107 @@
+[
+  {
+    "type": 1,
+    "icao": "NVSE",
+    "lat": -17.08983344,
+    "lon": 168.34251706,
+    "communications": [],
+    "elevation": 35,
+    "tower": false,
+    "name": "Siwo",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -17.08581263,
+        "lonStart": 168.34040658,
+        "latEnd": -17.09385425,
+        "lonEnd": 168.34462754,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 22957
+  },
+  {
+    "type": 1,
+    "icao": "NVVQ",
+    "lat": -17.537215,
+    "lon": 168.438448015,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12070,
+        "name": "NVVQ MULT"
+      }
+    ],
+    "elevation": 3,
+    "tower": false,
+    "name": "Quoin_Hill",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.03,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -17.53651302,
+        "lonStart": 168.43427281,
+        "latEnd": -17.53791698,
+        "lonEnd": 168.44262322,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 22975
+  },
+  {
+    "type": 1,
+    "icao": "NVVV",
+    "lat": -17.698183,
+    "lon": 168.317539,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "VILA TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12070,
+        "name": "VILA TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11830,
+        "name": "VILA_TOWER APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12070,
+        "name": "VILA_TOWER APP"
+      }
+    ],
+    "elevation": 69,
+    "tower": true,
+    "name": "Bauerfield",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -17.692693,
+        "lonStart": 168.306706,
+        "latEnd": -17.703673,
+        "lonEnd": 168.328372,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22976
+  }
+]

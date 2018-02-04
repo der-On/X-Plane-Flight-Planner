@@ -1,0 +1,137 @@
+[
+  {
+    "type": 1,
+    "icao": "ESDF",
+    "lat": 56.262684402000005,
+    "lon": 15.266989910000001,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11920,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12844,
+        "name": "CON"
+      },
+      {
+        "type": 55,
+        "frequency": 12845,
+        "name": "CON"
+      },
+      {
+        "type": 55,
+        "frequency": 12990,
+        "name": "CON"
+      }
+    ],
+    "elevation": 190,
+    "tower": true,
+    "name": "Ronneby Kallinge",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 56.25710652,
+        "lonStart": 15.26280167,
+        "latEnd": 56.27781252,
+        "lonEnd": 15.26848794,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "01L",
+        "numberEnd": "19R",
+        "latStart": 56.25864737,
+        "lonStart": 15.26127308,
+        "latEnd": 56.26538373,
+        "lonEnd": 15.26317769,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 50,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 56.25447187,
+        "lonStart": 15.27920917,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 50
+      }
+    ],
+    "id": 1874
+  },
+  {
+    "type": 1,
+    "icao": "ESFQ",
+    "lat": 56.8442645,
+    "lon": 15.452678760000001,
+    "communications": [],
+    "elevation": 734,
+    "tower": false,
+    "name": "[X] Kosta airbase",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 56.853189,
+        "lonStart": 15.45075852,
+        "latEnd": 56.83534,
+        "lonEnd": 15.454599,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1886
+  },
+  {
+    "type": 1,
+    "icao": "ESMA",
+    "lat": 56.611208395,
+    "lon": 15.605883585,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12315,
+        "name": "RDO"
+      }
+    ],
+    "elevation": 442,
+    "tower": false,
+    "name": "Emmaboda",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 56.605604,
+        "lonStart": 15.60300817,
+        "latEnd": 56.61681279,
+        "lonEnd": 15.608759,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1943
+  }
+]

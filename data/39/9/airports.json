@@ -1,0 +1,86 @@
+[
+  {
+    "type": 1,
+    "icao": "LIEE",
+    "lat": 39.251475,
+    "lon": 9.054289045,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12160,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12060,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11840,
+        "name": "CAGLIARI APP"
+      },
+      {
+        "type": 55,
+        "frequency": 11875,
+        "name": "CAGLIARI APP"
+      }
+    ],
+    "elevation": 13,
+    "tower": true,
+    "name": "Cagliari Elmas",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 39.26086416,
+        "lonStart": 9.04340537,
+        "latEnd": 39.24208584,
+        "lonEnd": 9.06517272,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3765
+  },
+  {
+    "type": 1,
+    "icao": "LIET",
+    "lat": 39.918763999999996,
+    "lon": 9.6832485,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11965,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 21,
+    "tower": true,
+    "name": "TORTOLI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 39.92145,
+        "lonStart": 9.677233,
+        "latEnd": 39.916078,
+        "lonEnd": 9.689264,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3768
+  }
+]

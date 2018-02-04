@@ -1,0 +1,95 @@
+[
+  {
+    "type": 1,
+    "icao": "LDZA",
+    "lat": 45.7418905,
+    "lon": 16.067202729999998,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12437,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12185,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11912,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12485,
+        "name": "INFO"
+      },
+      {
+        "type": 55,
+        "frequency": 12070,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 11850,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12070,
+        "name": "RADAR"
+      }
+    ],
+    "elevation": 353,
+    "tower": true,
+    "name": "Zagreb",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 45.73187521,
+        "lonStart": 16.05196872,
+        "latEnd": 45.75190579,
+        "lonEnd": 16.08243674,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3473
+  },
+  {
+    "type": 1,
+    "icao": "LDZJ",
+    "lat": 45.861194,
+    "lon": 16.83599,
+    "communications": [],
+    "elevation": 1414,
+    "tower": false,
+    "name": "Bjelovar",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 45.858261,
+        "lonStart": 16.83393,
+        "latEnd": 45.864127,
+        "lonEnd": 16.83805,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3475
+  }
+]

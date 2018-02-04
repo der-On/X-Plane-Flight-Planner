@@ -1,0 +1,97 @@
+[
+  {
+    "type": 1,
+    "icao": "ESFS",
+    "lat": 57.0650335,
+    "lon": 16.861979499999997,
+    "communications": [],
+    "elevation": 16,
+    "tower": false,
+    "name": "Sandvik Mellanlanda",
+    "runways": [
+      {
+        "type": 100,
+        "width": 25,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 57.068029,
+        "lonStart": 16.861309,
+        "latEnd": 57.062038,
+        "lonEnd": 16.86265,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1888
+  },
+  {
+    "type": 1,
+    "icao": "ESMO",
+    "lat": 57.348836500000004,
+    "lon": 16.49770715,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12215,
+        "name": "AFIS"
+      },
+      {
+        "type": 54,
+        "frequency": 12335,
+        "name": "TWR (Oskarshamn Airport)"
+      }
+    ],
+    "elevation": 96,
+    "tower": true,
+    "name": "Oskarshamn",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 57.342106,
+        "lonStart": 16.4966063,
+        "latEnd": 57.355567,
+        "lonEnd": 16.498808,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1955
+  },
+  {
+    "type": 1,
+    "icao": "ESSW",
+    "lat": 57.78000706,
+    "lon": 16.523641595,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12325,
+        "name": "RDO Vastervik radio"
+      }
+    ],
+    "elevation": 127,
+    "tower": false,
+    "name": "Vastervik",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 57.78316412,
+        "lonStart": 16.52038019,
+        "latEnd": 57.77685,
+        "lonEnd": 16.526903,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2018
+  }
+]

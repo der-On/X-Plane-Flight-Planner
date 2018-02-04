@@ -1,0 +1,70 @@
+[
+  {
+    "type": 1,
+    "icao": "WPEC",
+    "lat": -8.485439,
+    "lon": 126.3993055,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12345,
+        "name": "E TIMOR COMMON HIGH"
+      },
+      {
+        "type": 54,
+        "frequency": 12710,
+        "name": "E TIMOR COMMON LOW"
+      },
+      {
+        "type": 54,
+        "frequency": 12250,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 1776,
+    "tower": true,
+    "name": "Baukau Cakung",
+    "runways": [
+      {
+        "type": 100,
+        "width": 55.47,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -8.476475,
+        "lonStart": 126.392322,
+        "latEnd": -8.494403,
+        "lonEnd": 126.406289,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 31761
+  },
+  {
+    "type": 1,
+    "icao": "WXW0",
+    "lat": -8.448192015,
+    "lon": 126.987554,
+    "communications": [],
+    "elevation": 1359,
+    "tower": false,
+    "name": "Abisu",
+    "runways": [
+      {
+        "type": 100,
+        "width": 36.88,
+        "surfaceType": null,
+        "numberStart": "2",
+        "numberEnd": "20",
+        "latStart": -8.4525457,
+        "lonStart": 126.98565286,
+        "latEnd": -8.44383833,
+        "lonEnd": 126.98945514,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 32180
+  }
+]

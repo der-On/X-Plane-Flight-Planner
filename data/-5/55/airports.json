@@ -1,0 +1,88 @@
+[
+  {
+    "type": 1,
+    "icao": "FSPP",
+    "lat": -4.319845443333333,
+    "lon": 55.692122903333335,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "GRD"
+      },
+      {
+        "type": 54,
+        "frequency": 12230,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 9,
+    "tower": true,
+    "name": "PRASLIN",
+    "runways": [
+      {
+        "type": 100,
+        "width": 31.7,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -4.313811,
+        "lonStart": 55.688323,
+        "latEnd": -4.324689,
+        "lonEnd": 55.694848,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 25,
+        "surfaceType": 3,
+        "numberStart": "H64",
+        "numberEnd": null,
+        "latStart": -4.32103633,
+        "lonStart": 55.69319771,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 25
+      }
+    ],
+    "id": 2204
+  },
+  {
+    "type": 1,
+    "icao": "FSIA",
+    "lat": -4.674378,
+    "lon": 55.521829,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11970,
+        "name": "APP"
+      }
+    ],
+    "elevation": 10,
+    "tower": true,
+    "name": "SEYCHELLES INTL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -4.666631,
+        "lonStart": 55.510802,
+        "latEnd": -4.682125,
+        "lonEnd": 55.532856,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 17237
+  }
+]

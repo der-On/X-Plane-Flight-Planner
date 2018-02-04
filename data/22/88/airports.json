@@ -1,0 +1,93 @@
+[
+  {
+    "type": 1,
+    "icao": "VECC",
+    "lat": 22.6556196475,
+    "lon": 88.4468541325,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12640,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "KOLKATA GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12730,
+        "name": "KOLKATA RDO"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "KOLKATA TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12790,
+        "name": "KOLKATA APP"
+      }
+    ],
+    "elevation": 16,
+    "tower": true,
+    "name": "NETAJI SUBHASH CHANDRA BOSE INTL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "01R",
+        "numberEnd": "19L",
+        "latStart": 22.64218599,
+        "lonStart": 88.44631411,
+        "latEnd": 22.67430714,
+        "lonEnd": 88.45009543,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "01L",
+        "numberEnd": "19R",
+        "latStart": 22.640281,
+        "lonStart": 88.444018,
+        "latEnd": 22.66570446,
+        "lonEnd": 88.44698899,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5148
+  },
+  {
+    "type": 1,
+    "icao": "VE31",
+    "lat": 22.7810055,
+    "lon": 88.35923450000001,
+    "communications": [],
+    "elevation": 18,
+    "tower": false,
+    "name": "BARRACKPORE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 22.772944,
+        "lonStart": 88.356575,
+        "latEnd": 22.789067,
+        "lonEnd": 88.361894,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 30795
+  }
+]

@@ -1,0 +1,147 @@
+[
+  {
+    "type": 1,
+    "icao": "LHBP",
+    "lat": 47.436614774,
+    "lon": 19.251036178,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13237,
+        "name": "LHBP ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 13455,
+        "name": "BUDAPEST CLD"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "BUDAPEST GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "BUDAPEST TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12970,
+        "name": "BUDAPEST APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12297,
+        "name": "BUDAPEST APP"
+      },
+      {
+        "type": 55,
+        "frequency": 11950,
+        "name": "BUDAPEST DIR"
+      }
+    ],
+    "elevation": 495,
+    "tower": true,
+    "name": "Budapest Ferenc Liszt International Airport",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "13R",
+        "numberEnd": "31L",
+        "latStart": 47.44872482,
+        "lonStart": 19.22070091,
+        "latEnd": 47.43045066,
+        "lonEnd": 19.25026802,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "13L",
+        "numberEnd": "31R",
+        "latStart": 47.44542555,
+        "lonStart": 19.25754389,
+        "latEnd": 47.422916,
+        "lonEnd": 19.29395054,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 120,
+        "surfaceType": 3,
+        "numberStart": "H",
+        "numberEnd": null,
+        "latStart": 47.43555684,
+        "lonStart": 19.23271753,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 120
+      }
+    ],
+    "id": 3718
+  },
+  {
+    "type": 1,
+    "icao": "LHDK",
+    "lat": 47.61276298,
+    "lon": 19.143613695,
+    "communications": [],
+    "elevation": 413,
+    "tower": false,
+    "name": "Dunakeszi",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 47.61429328,
+        "lonStart": 19.13883418,
+        "latEnd": 47.61123268,
+        "lonEnd": 19.14839321,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 3721
+  },
+  {
+    "type": 1,
+    "icao": "LHGD",
+    "lat": 47.572317,
+    "lon": 19.336180499999998,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11905,
+        "name": "Gödöllõ INFO"
+      }
+    ],
+    "elevation": 715,
+    "tower": true,
+    "name": "Gödöllõ",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 47.574779,
+        "lonStart": 19.331474,
+        "latEnd": 47.569855,
+        "lonEnd": 19.340887,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3724
+  }
+]

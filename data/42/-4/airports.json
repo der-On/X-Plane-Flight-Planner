@@ -1,0 +1,89 @@
+[
+  {
+    "type": 1,
+    "icao": "LEBG",
+    "lat": 42.35608552,
+    "lon": -3.6203579799999996,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12542,
+        "name": "GMC"
+      },
+      {
+        "type": 54,
+        "frequency": 11845,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 2962,
+    "tower": true,
+    "name": "Burgos",
+    "runways": [
+      {
+        "type": 100,
+        "width": 47.28,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 42.35045876,
+        "lonStart": -3.62239072,
+        "latEnd": 42.36423059,
+        "lonEnd": -3.60497117,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 17.7,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 42.35475716,
+        "lonStart": -3.62104181,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 16.9
+      },
+      {
+        "type": 102,
+        "width": 18.6,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 42.35489557,
+        "lonStart": -3.63302822,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 16.7
+      }
+    ],
+    "id": 3489
+  },
+  {
+    "type": 1,
+    "icao": "LEMB",
+    "lat": 42.134303134999996,
+    "lon": -3.731516205,
+    "communications": [],
+    "elevation": 3021,
+    "tower": false,
+    "name": "Madrigalego Burgos",
+    "runways": [
+      {
+        "type": 100,
+        "width": 25.21,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 42.13266886,
+        "lonStart": -3.73438339,
+        "latEnd": 42.13593741,
+        "lonEnd": -3.72864902,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 20170
+  }
+]

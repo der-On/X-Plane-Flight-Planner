@@ -1,0 +1,95 @@
+[
+  {
+    "type": 1,
+    "icao": "EGKL",
+    "lat": 50.881610644999995,
+    "lon": 0.15560237,
+    "communications": [],
+    "elevation": 60,
+    "tower": false,
+    "name": "Deanland",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 50.88041423,
+        "lonStart": 0.15258247,
+        "latEnd": 50.88280706,
+        "lonEnd": 0.15862227,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1561
+  },
+  {
+    "type": 1,
+    "icao": "EGMD",
+    "lat": 50.956171424999994,
+    "lon": 0.93914688,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12922,
+        "name": "Lydd Information"
+      },
+      {
+        "type": 54,
+        "frequency": 11937,
+        "name": "Lydd Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12070,
+        "name": "Lydd Approach"
+      }
+    ],
+    "elevation": 13,
+    "tower": true,
+    "name": "Lydd",
+    "runways": [
+      {
+        "type": 100,
+        "width": 32,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 50.950486,
+        "lonStart": 0.933364,
+        "latEnd": 50.96185685,
+        "lonEnd": 0.94492976,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1573
+  },
+  {
+    "type": 17,
+    "icao": "EGRS",
+    "lat": 50.71737229,
+    "lon": 0.4379298,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[H] Royal Sovereign Lighthouse",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 50.71737229,
+        "lonStart": 0.4379298,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 16363
+  }
+]

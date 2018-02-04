@@ -1,0 +1,101 @@
+[
+  {
+    "type": 1,
+    "icao": "UWKJ",
+    "lat": 56.702811196000006,
+    "lon": 47.896828396,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11970,
+        "name": "Tower"
+      },
+      {
+        "type": 53,
+        "frequency": 11860,
+        "name": "Taxi"
+      },
+      {
+        "type": 50,
+        "frequency": 12590,
+        "name": "ATIS"
+      }
+    ],
+    "elevation": 348,
+    "tower": true,
+    "name": "Yoshkar-Ola",
+    "runways": [
+      {
+        "type": 100,
+        "width": 89.92,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 56.71023782,
+        "lonStart": 47.89286565,
+        "latEnd": 56.69479245,
+        "lonEnd": 47.8963254,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 56.71594117,
+        "lonStart": 47.89271978,
+        "latEnd": 56.69456283,
+        "lonEnd": 47.89749687,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 12,
+        "surfaceType": 4,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 56.69852171,
+        "lonStart": 47.90473428,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12
+      }
+    ],
+    "id": 5132
+  },
+  {
+    "type": 1,
+    "icao": "UWKS",
+    "lat": 56.0902685,
+    "lon": 47.3472515,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11930,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 560,
+    "tower": true,
+    "name": "CHEBOKSARY",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49.07,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 56.086781,
+        "lonStart": 47.328056,
+        "latEnd": 56.093756,
+        "lonEnd": 47.366447,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 30639
+  }
+]

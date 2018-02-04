@@ -1,0 +1,755 @@
+[
+  {
+    "type": 1,
+    "icao": "YSSY",
+    "lat": -33.9467851025,
+    "lon": 151.183819885,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12625,
+        "name": "ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 13380,
+        "name": "CLD"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND (E of RWY 16R/34L)"
+      },
+      {
+        "type": 53,
+        "frequency": 12650,
+        "name": "GND (W of RWY 16R/34L)"
+      },
+      {
+        "type": 54,
+        "frequency": 12050,
+        "name": "TWR (RWYs 16R/34L & 07/25)"
+      },
+      {
+        "type": 54,
+        "frequency": 12470,
+        "name": "TWR (RWY 16L/34R)"
+      },
+      {
+        "type": 56,
+        "frequency": 12300,
+        "name": "DEP N/E"
+      },
+      {
+        "type": 56,
+        "frequency": 12970,
+        "name": "DEP S/W/NW"
+      },
+      {
+        "type": 55,
+        "frequency": 12440,
+        "name": "APP N/E"
+      },
+      {
+        "type": 55,
+        "frequency": 12830,
+        "name": "APP S/W"
+      },
+      {
+        "type": 55,
+        "frequency": 12530,
+        "name": "DIR E"
+      },
+      {
+        "type": 55,
+        "frequency": 12610,
+        "name": "DIR W"
+      },
+      {
+        "type": 55,
+        "frequency": 13395,
+        "name": "PRM E (Monitor)"
+      },
+      {
+        "type": 55,
+        "frequency": 11945,
+        "name": "PRM W (Monitor)"
+      }
+    ],
+    "elevation": 20,
+    "tower": true,
+    "name": "Sydney Kingsford Smith Intl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "16R",
+        "numberEnd": "34L",
+        "latStart": -33.92934977,
+        "lonStart": 151.17158996,
+        "latEnd": -33.96426726,
+        "lonEnd": 151.18064439,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.16,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -33.94373955,
+        "lonStart": 151.16362819,
+        "latEnd": -33.9375332,
+        "lonEnd": 151.1899427,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "16L",
+        "numberEnd": "34R",
+        "latStart": -33.94961545,
+        "lonStart": 151.18831076,
+        "latEnd": -33.97110151,
+        "lonEnd": 151.19390211,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 22.9,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -33.93900452,
+        "lonStart": 151.19088221,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.5
+      },
+      {
+        "type": 102,
+        "width": 14.5,
+        "surfaceType": 15,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": -33.93966956,
+        "lonStart": 151.19165876,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.5
+      }
+    ],
+    "id": 5610
+  },
+  {
+    "type": 16,
+    "icao": "YCGP",
+    "lat": -33.617722,
+    "lon": 151.19843300000002,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] COTTAGE PT",
+    "runways": [
+      {
+        "type": 101,
+        "width": 11.89,
+        "surfaceType": null,
+        "numberStart": "9",
+        "numberEnd": "27",
+        "latStart": -33.617764,
+        "lonStart": 151.19838999,
+        "latEnd": -33.61768,
+        "lonEnd": 151.19847601,
+        "length": 0
+      }
+    ],
+    "id": 32956
+  },
+  {
+    "type": 1,
+    "icao": "YCOB",
+    "lat": -33.062084425,
+    "lon": 151.4581642,
+    "communications": [],
+    "elevation": 98,
+    "tower": false,
+    "name": "[X] Cooranbong",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -33.06394813,
+        "lonStart": 151.45015636,
+        "latEnd": -33.06051157,
+        "lonEnd": 151.46083844,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -33.05802536,
+        "lonStart": 151.46074949,
+        "latEnd": -33.06585264,
+        "lonEnd": 151.46091251,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 33012
+  },
+  {
+    "type": 17,
+    "icao": "YHPG",
+    "lat": -33.82611655,
+    "lon": 151.26146551,
+    "communications": [],
+    "elevation": 118,
+    "tower": false,
+    "name": "[H] HMAS Penguin",
+    "runways": [
+      {
+        "type": 102,
+        "width": 29.9,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -33.82611655,
+        "lonStart": 151.26146551,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.9
+      }
+    ],
+    "id": 33458
+  },
+  {
+    "type": 1,
+    "icao": "YLMQ",
+    "lat": -33.0659041,
+    "lon": 151.64633291500002,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12600,
+        "name": "AEROPELICAN MULTICOM"
+      },
+      {
+        "type": 54,
+        "frequency": 12570,
+        "name": "BRISBANE CTR"
+      }
+    ],
+    "elevation": 9,
+    "tower": true,
+    "name": "Aeropelican",
+    "runways": [
+      {
+        "type": 100,
+        "width": 13.11,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -33.06644449,
+        "lonStart": 151.64168593,
+        "latEnd": -33.06536371,
+        "lonEnd": 151.6509799,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 33705
+  },
+  {
+    "type": 17,
+    "icao": "YLSB",
+    "lat": -33.99433297,
+    "lon": 151.24963321,
+    "communications": [],
+    "elevation": 107,
+    "tower": false,
+    "name": "[H] LIFE SAVER BASE",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 3,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": -33.99433297,
+        "lonStart": 151.24963321,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 33727
+  },
+  {
+    "type": 1,
+    "icao": "YMVM",
+    "lat": -33.285347279999996,
+    "lon": 151.21265396,
+    "communications": [],
+    "elevation": 1027,
+    "tower": false,
+    "name": "MANGROVE MT",
+    "runways": [
+      {
+        "type": 100,
+        "width": 34.14,
+        "surfaceType": null,
+        "numberStart": "1",
+        "numberEnd": "19",
+        "latStart": -33.29034996,
+        "lonStart": 151.21074278,
+        "latEnd": -33.2803446,
+        "lonEnd": 151.21456514,
+        "length": 0,
+        "surfacetype": 15
+      }
+    ],
+    "id": 33983
+  },
+  {
+    "type": 16,
+    "icao": "YPLB",
+    "lat": -33.586946995,
+    "lon": 151.32378895,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] PALM BEACH",
+    "runways": [
+      {
+        "type": 101,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "9",
+        "numberEnd": "27",
+        "latStart": -33.58692299,
+        "lonStart": 151.3235939,
+        "latEnd": -33.586971,
+        "lonEnd": 151.323984,
+        "length": 0
+      }
+    ],
+    "id": 34206
+  },
+  {
+    "type": 17,
+    "icao": "YPRT",
+    "lat": -33.830034690000005,
+    "lon": 151.024454364,
+    "communications": [],
+    "elevation": 24,
+    "tower": false,
+    "name": "[H] PARRAMATTA",
+    "runways": [
+      {
+        "type": 102,
+        "width": 4.9,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -33.83021037,
+        "lonStart": 151.02434175,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      },
+      {
+        "type": 102,
+        "width": 4.9,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": -33.83005334,
+        "lonStart": 151.0244227,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 4.9
+      },
+      {
+        "type": 102,
+        "width": 4.9,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": -33.82991861,
+        "lonStart": 151.02458608,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 4.9
+      },
+      {
+        "type": 102,
+        "width": 4,
+        "surfaceType": 2,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": -33.82988213,
+        "lonStart": 151.02479229,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 4
+      },
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 3,
+        "numberStart": "H5",
+        "numberEnd": null,
+        "latStart": -33.830109,
+        "lonStart": 151.024129,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 34241
+  },
+  {
+    "type": 16,
+    "icao": "YRAY",
+    "lat": -33.87006911,
+    "lon": 151.26306399999999,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] ROSE BAY",
+    "runways": [
+      {
+        "type": 101,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "3",
+        "numberEnd": "21",
+        "latStart": -33.87018122,
+        "lonStart": 151.2629689,
+        "latEnd": -33.869957,
+        "lonEnd": 151.2631591,
+        "length": 0
+      }
+    ],
+    "id": 34283
+  },
+  {
+    "type": 17,
+    "icao": "YRNS",
+    "lat": -33.82036616,
+    "lon": 151.19033892,
+    "communications": [],
+    "elevation": 332,
+    "tower": false,
+    "name": "[H] Royal North Shore Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 7,
+        "surfaceType": 2,
+        "numberStart": "H7",
+        "numberEnd": null,
+        "latStart": -33.82036616,
+        "lonStart": 151.19033892,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 7
+      }
+    ],
+    "id": 34325
+  },
+  {
+    "type": 17,
+    "icao": "YRPA",
+    "lat": -33.891678,
+    "lon": 151.18329804,
+    "communications": [],
+    "elevation": 96,
+    "tower": false,
+    "name": "[H] Royal Prince Alfred Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H5",
+        "numberEnd": null,
+        "latStart": -33.891678,
+        "lonStart": 151.18329804,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 34337
+  },
+  {
+    "type": 17,
+    "icao": "YRSH",
+    "lat": -33.830044895,
+    "lon": 151.0475889,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12040,
+        "name": "Unicom"
+      }
+    ],
+    "elevation": 12,
+    "tower": false,
+    "name": "[H] Rosehill Heliport",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -33.8299237,
+        "lonStart": 151.0480209,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      },
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 3,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": -33.83016609,
+        "lonStart": 151.0471569,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 34343
+  },
+  {
+    "type": 17,
+    "icao": "YRWK",
+    "lat": -33.931353,
+    "lon": 151.23986,
+    "communications": [],
+    "elevation": 104,
+    "tower": false,
+    "name": "[H] RANDWICK",
+    "runways": [
+      {
+        "type": 102,
+        "width": 29.9,
+        "surfaceType": 3,
+        "numberStart": "H58",
+        "numberEnd": null,
+        "latStart": -33.931353,
+        "lonStart": 151.23986,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.9
+      }
+    ],
+    "id": 34360
+  },
+  {
+    "type": 1,
+    "icao": "YSMB",
+    "lat": -33.36776198,
+    "lon": 151.299793245,
+    "communications": [],
+    "elevation": 840,
+    "tower": false,
+    "name": "Somersby",
+    "runways": [
+      {
+        "type": 100,
+        "width": 11.89,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": -33.3707152,
+        "lonStart": 151.29963262,
+        "latEnd": -33.36480876,
+        "lonEnd": 151.29995387,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 34429
+  },
+  {
+    "type": 17,
+    "icao": "YSOP",
+    "lat": -33.850372,
+    "lon": 151.064496,
+    "communications": [],
+    "elevation": 23,
+    "tower": false,
+    "name": "[H] SYDNEY OLYMPIC PARK",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 3,
+        "numberStart": "H27",
+        "numberEnd": null,
+        "latStart": -33.850372,
+        "lonStart": 151.064496,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 34446
+  },
+  {
+    "type": 17,
+    "icao": "YSVE",
+    "lat": -33.78220883,
+    "lon": 151.06847846,
+    "communications": [],
+    "elevation": 358,
+    "tower": false,
+    "name": "[H] CHANNEL 7 SYDNEY",
+    "runways": [
+      {
+        "type": 102,
+        "width": 14,
+        "surfaceType": 1,
+        "numberStart": "H96",
+        "numberEnd": null,
+        "latStart": -33.78220883,
+        "lonStart": 151.06847846,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14
+      }
+    ],
+    "id": 34481
+  },
+  {
+    "type": 17,
+    "icao": "YSX1",
+    "lat": -33.83810609,
+    "lon": 151.27834195,
+    "communications": [],
+    "elevation": 289,
+    "tower": true,
+    "name": "[H] North Head Army Heliport",
+    "runways": [
+      {
+        "type": 102,
+        "width": 34.1,
+        "surfaceType": 12,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -33.83810609,
+        "lonStart": 151.27834195,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 34.1
+      }
+    ],
+    "id": 34495
+  },
+  {
+    "type": 17,
+    "icao": "YTCN",
+    "lat": -33.81133609,
+    "lon": 151.19639997,
+    "communications": [],
+    "elevation": 258,
+    "tower": false,
+    "name": "[H] TCN CHANNEL NINE",
+    "runways": [
+      {
+        "type": 102,
+        "width": 27.1,
+        "surfaceType": 3,
+        "numberStart": "H29",
+        "numberEnd": null,
+        "latStart": -33.81133609,
+        "lonStart": 151.19639997,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 27.1
+      }
+    ],
+    "id": 34520
+  },
+  {
+    "type": 17,
+    "icao": "YVCB",
+    "lat": -33.8845426,
+    "lon": 151.22688164,
+    "communications": [],
+    "elevation": 198,
+    "tower": false,
+    "name": "[H] VICTORIA BARRACKS",
+    "runways": [
+      {
+        "type": 102,
+        "width": 29.9,
+        "surfaceType": 3,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": -33.8845426,
+        "lonStart": 151.22688164,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.9
+      }
+    ],
+    "id": 34644
+  },
+  {
+    "type": 1,
+    "icao": "YWVA",
+    "lat": -33.240474045,
+    "lon": 151.42980224000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 13210,
+        "name": "WARNERVALE CTAF"
+      },
+      {
+        "type": 54,
+        "frequency": 12580,
+        "name": "SYDNEY CENTRE"
+      }
+    ],
+    "elevation": 27,
+    "tower": false,
+    "name": "Warnervale",
+    "runways": [
+      {
+        "type": 100,
+        "width": 6,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": -33.24396805,
+        "lonStart": 151.42675145,
+        "latEnd": -33.23698004,
+        "lonEnd": 151.43285303,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 34804
+  }
+]

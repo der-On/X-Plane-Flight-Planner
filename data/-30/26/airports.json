@@ -1,0 +1,108 @@
+[
+  {
+    "type": 1,
+    "icao": "FABL",
+    "lat": -29.093157068,
+    "lon": 26.300597002,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12665,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 12080,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12430,
+        "name": "APP"
+      }
+    ],
+    "elevation": 4458,
+    "tower": true,
+    "name": "Bloemfontein",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": -29.105078,
+        "lonStart": 26.302454,
+        "latEnd": -29.081956,
+        "lonEnd": 26.30252999,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -29.089561,
+        "lonStart": 26.285414,
+        "latEnd": -29.09363188,
+        "lonEnd": 26.3075134,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 25,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -29.09555846,
+        "lonStart": 26.30507362,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 25
+      }
+    ],
+    "id": 2126
+  },
+  {
+    "type": 1,
+    "icao": "FATP",
+    "lat": -29.0377095,
+    "lon": 26.161853500000003,
+    "communications": [],
+    "elevation": 4547,
+    "tower": false,
+    "name": "New Tempe",
+    "runways": [
+      {
+        "type": 100,
+        "width": 10.06,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": -29.04857455,
+        "lonStart": 26.16111961,
+        "latEnd": -29.03693745,
+        "lonEnd": 26.15908039,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -29.03382001,
+        "lonStart": 26.15757328,
+        "latEnd": -29.03150599,
+        "lonEnd": 26.16964072,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16845
+  }
+]

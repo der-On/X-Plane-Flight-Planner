@@ -1,0 +1,101 @@
+[
+  {
+    "type": 1,
+    "icao": "LFBL",
+    "lat": 45.861896,
+    "lon": 1.181368,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12807,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 12405,
+        "name": "LIMOGES INFO"
+      },
+      {
+        "type": 54,
+        "frequency": 11817,
+        "name": "LIMOGES TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11920,
+        "name": "LIMOGES APP"
+      }
+    ],
+    "elevation": 1300,
+    "tower": true,
+    "name": "Limoges Bellegarde",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 45.852489,
+        "lonStart": 1.172539,
+        "latEnd": 45.871303,
+        "lonEnd": 1.190197,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20219
+  },
+  {
+    "type": 1,
+    "icao": "LFBV",
+    "lat": 45.1508885,
+    "lon": 1.468472,
+    "communications": [],
+    "elevation": 377,
+    "tower": false,
+    "name": "[X] Brive la Roche",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 45.155388,
+        "lonStart": 1.462222,
+        "latEnd": 45.146389,
+        "lonEnd": 1.474722,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20224
+  },
+  {
+    "type": 1,
+    "icao": "LFDZ",
+    "lat": 45.104999,
+    "lon": 1.215803,
+    "communications": [],
+    "elevation": 499,
+    "tower": false,
+    "name": "Condat sur Vezere",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 45.10917122,
+        "lonStart": 1.21317114,
+        "latEnd": 45.10082678,
+        "lonEnd": 1.21843486,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 20253
+  }
+]

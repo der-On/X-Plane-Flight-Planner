@@ -1,0 +1,75 @@
+[
+  {
+    "type": 1,
+    "icao": "UAFO",
+    "lat": 40.6083335,
+    "lon": 72.794167,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12420,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12060,
+        "name": "GCA"
+      }
+    ],
+    "elevation": 2927,
+    "tower": true,
+    "name": "OSH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 40.615,
+        "lonStart": 72.781667,
+        "latEnd": 40.601667,
+        "lonEnd": 72.806667,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 30227
+  },
+  {
+    "type": 1,
+    "icao": "UTFA",
+    "lat": 40.7277375,
+    "lon": 72.29402200000001,
+    "communications": [],
+    "elevation": 1515,
+    "tower": false,
+    "name": "ANDIZHAN",
+    "runways": [
+      {
+        "type": 100,
+        "width": 38.1,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 40.718372,
+        "lonStart": 72.281411,
+        "latEnd": 40.737103,
+        "lonEnd": 72.306633,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 30596
+  }
+]

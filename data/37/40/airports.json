@@ -1,0 +1,81 @@
+[
+  {
+    "type": 1,
+    "icao": "LTCC",
+    "lat": 37.893898500000006,
+    "lon": 40.2010165,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12242,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12210,
+        "name": "APP"
+      }
+    ],
+    "elevation": 2250,
+    "tower": true,
+    "name": "Diyarbakir",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 37.909153,
+        "lonStart": 40.194983,
+        "latEnd": 37.878644,
+        "lonEnd": 40.20705,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 4016
+  },
+  {
+    "type": 1,
+    "icao": "LTCR",
+    "lat": 37.223371325,
+    "lon": 40.63175725,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11865,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 1729,
+    "tower": true,
+    "name": "MARDIN",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 37.21440327,
+        "lonStart": 40.62320132,
+        "latEnd": 37.23233938,
+        "lonEnd": 40.64031318,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4025
+  }
+]

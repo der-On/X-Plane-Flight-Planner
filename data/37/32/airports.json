@@ -1,0 +1,93 @@
+[
+  {
+    "type": 1,
+    "icao": "LTAN",
+    "lat": 37.977347797142855,
+    "lon": 32.55977044857143,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12835,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12210,
+        "name": "APP"
+      }
+    ],
+    "elevation": 3378,
+    "tower": true,
+    "name": "Konya AB",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "01L",
+        "numberEnd": "19R",
+        "latStart": 37.96453785,
+        "lonStart": 32.55396425,
+        "latEnd": 37.99452387,
+        "lonEnd": 32.56535611,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "01R",
+        "numberEnd": "19L",
+        "latStart": 37.96394896,
+        "lonStart": 32.55630608,
+        "latEnd": 37.99397386,
+        "lonEnd": 32.56769689,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 29,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 37.97053302,
+        "lonStart": 32.5511611,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 26.1
+      },
+      {
+        "type": 102,
+        "width": 29.9,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 37.9711394,
+        "lonStart": 32.55218376,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 27.9
+      },
+      {
+        "type": 102,
+        "width": 40,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 37.98277762,
+        "lonStart": 32.57172495,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 40
+      }
+    ],
+    "id": 3995
+  }
+]

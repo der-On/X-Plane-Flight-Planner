@@ -1,0 +1,129 @@
+[
+  {
+    "type": 1,
+    "icao": "MMUN",
+    "lat": 21.03774026285714,
+    "lon": -86.86923635428572,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12770,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12320,
+        "name": "Radio Ground Control"
+      },
+      {
+        "type": 54,
+        "frequency": 11860,
+        "name": "Radio Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12110,
+        "name": "Radio Approach"
+      },
+      {
+        "type": 56,
+        "frequency": 12830,
+        "name": "Radio Departure Merida Center"
+      }
+    ],
+    "elevation": 21,
+    "tower": true,
+    "name": "Cancun International",
+    "runways": [
+      {
+        "type": 100,
+        "width": 57.91,
+        "surfaceType": null,
+        "numberStart": "12R",
+        "numberEnd": "30L",
+        "latStart": 21.04534427,
+        "lonStart": -86.89100509,
+        "latEnd": 21.02780746,
+        "lonEnd": -86.86297805,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "12L",
+        "numberEnd": "30R",
+        "latStart": 21.05473912,
+        "lonStart": -86.88136695,
+        "latEnd": 21.04070214,
+        "lonEnd": -86.85893013,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 20.6,
+        "surfaceType": 2,
+        "numberStart": "H6",
+        "numberEnd": null,
+        "latStart": 21.03205271,
+        "lonStart": -86.8633288,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.8
+      },
+      {
+        "type": 102,
+        "width": 20.6,
+        "surfaceType": 2,
+        "numberStart": "H7",
+        "numberEnd": null,
+        "latStart": 21.03186677,
+        "lonStart": -86.86345549,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.8
+      },
+      {
+        "type": 102,
+        "width": 20.6,
+        "surfaceType": 2,
+        "numberStart": "H8",
+        "numberEnd": null,
+        "latStart": 21.03166937,
+        "lonStart": -86.86358997,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.8
+      }
+    ],
+    "id": 4123
+  },
+  {
+    "type": 1,
+    "icao": "MMIM",
+    "lat": 21.245033499999998,
+    "lon": -86.73996650000001,
+    "communications": [],
+    "elevation": 7,
+    "tower": false,
+    "name": "ISLA MUJERES",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 21.249267,
+        "lonStart": -86.742233,
+        "latEnd": 21.2408,
+        "lonEnd": -86.7377,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 21477
+  }
+]

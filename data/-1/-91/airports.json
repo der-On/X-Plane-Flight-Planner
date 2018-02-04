@@ -1,0 +1,71 @@
+[
+  {
+    "type": 1,
+    "icao": "SEGS",
+    "lat": -0.45346330999999995,
+    "lon": -90.26583148,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 12600,
+        "name": "Galapagos APP"
+      },
+      {
+        "type": 54,
+        "frequency": 12220,
+        "name": "Baltra TWR"
+      }
+    ],
+    "elevation": 207,
+    "tower": true,
+    "name": "Galapagos - Baltra",
+    "runways": [
+      {
+        "type": 100,
+        "width": 40.24,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -0.44500216,
+        "lonStart": -90.27197394,
+        "latEnd": -0.46192446,
+        "lonEnd": -90.25968902,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4869
+  },
+  {
+    "type": 1,
+    "icao": "SEII",
+    "lat": -0.94269197,
+    "lon": -90.95297292000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12590,
+        "name": "ATC TWR"
+      }
+    ],
+    "elevation": 35,
+    "tower": true,
+    "name": "General Villamil",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -0.93593672,
+        "lonStart": -90.95388473,
+        "latEnd": -0.94944722,
+        "lonEnd": -90.95206111,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4870
+  }
+]

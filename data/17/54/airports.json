@@ -1,0 +1,104 @@
+[
+  {
+    "type": 1,
+    "icao": "OOSA",
+    "lat": 17.03661575,
+    "lon": 54.096616,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11820,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11910,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12510,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 11910,
+        "name": "RDR"
+      }
+    ],
+    "elevation": 73,
+    "tower": true,
+    "name": "SALALAH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 17.033747,
+        "lonStart": 54.076461,
+        "latEnd": 17.043683,
+        "lonEnd": 54.106106,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 17.040264,
+        "lonStart": 54.101328,
+        "latEnd": 17.028769,
+        "lonEnd": 54.102569,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 23578
+  },
+  {
+    "type": 1,
+    "icao": "OOTH",
+    "lat": 17.665986,
+    "lon": 54.024611,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12200,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11860,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12500,
+        "name": "APP"
+      }
+    ],
+    "elevation": 1570,
+    "tower": true,
+    "name": "THUMRAIT",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 17.683861,
+        "lonStart": 54.022194,
+        "latEnd": 17.648111,
+        "lonEnd": 54.027028,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 23579
+  }
+]

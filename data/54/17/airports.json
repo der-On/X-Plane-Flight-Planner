@@ -1,0 +1,154 @@
+[
+  {
+    "type": 1,
+    "icao": "EPCE",
+    "lat": 54.416256344999994,
+    "lon": 17.76326408,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 13242,
+        "name": "CEWICE APPROACH"
+      },
+      {
+        "type": 54,
+        "frequency": 12675,
+        "name": "CEWICE TOWER"
+      },
+      {
+        "type": 50,
+        "frequency": 12675,
+        "name": "CEWICE INFO"
+      }
+    ],
+    "elevation": 505,
+    "tower": true,
+    "name": "CEWICE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 54.41358491,
+        "lonStart": 17.74454483,
+        "latEnd": 54.41892778,
+        "lonEnd": 17.78198333,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16638
+  },
+  {
+    "type": 1,
+    "icao": "EPKO",
+    "lat": 54.130768865,
+    "lon": 17.8440133275,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12117,
+        "name": "Korne Radio"
+      }
+    ],
+    "elevation": 535,
+    "tower": true,
+    "name": "Korne",
+    "runways": [
+      {
+        "type": 100,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 54.128654,
+        "lonStart": 17.84158176,
+        "latEnd": 54.13090127,
+        "lonEnd": 17.84910844,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 54.13213446,
+        "lonStart": 17.83967707,
+        "latEnd": 54.13138573,
+        "lonEnd": 17.84568604,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16648
+  },
+  {
+    "type": 1,
+    "icao": "EPSK",
+    "lat": 54.47873388,
+    "lon": 17.105627939999998,
+    "communications": [],
+    "elevation": 219,
+    "tower": false,
+    "name": "SLUPSK",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 54.47813877,
+        "lonStart": 17.08870469,
+        "latEnd": 54.47932899,
+        "lonEnd": 17.12255119,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16665
+  },
+  {
+    "type": 1,
+    "icao": "EPSR",
+    "lat": 54.4094353725,
+    "lon": 17.095680485,
+    "communications": [],
+    "elevation": 252,
+    "tower": false,
+    "name": "Krepa",
+    "runways": [
+      {
+        "type": 100,
+        "width": 100,
+        "surfaceType": null,
+        "numberStart": "10R",
+        "numberEnd": "28L",
+        "latStart": 54.40942064,
+        "lonStart": 17.09004334,
+        "latEnd": 54.40820201,
+        "lonEnd": 17.10081973,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 100,
+        "surfaceType": null,
+        "numberStart": "10L",
+        "numberEnd": "28R",
+        "latStart": 54.41066735,
+        "lonStart": 17.09055675,
+        "latEnd": 54.40945149,
+        "lonEnd": 17.10130212,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16667
+  }
+]

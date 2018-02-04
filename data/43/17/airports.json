@@ -1,0 +1,86 @@
+[
+  {
+    "type": 1,
+    "icao": "LQMO",
+    "lat": 43.282871,
+    "lon": 17.845854000000003,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12622,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 12555,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12022,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12987,
+        "name": "APP"
+      }
+    ],
+    "elevation": 155,
+    "tower": true,
+    "name": "MOSTAR",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 43.292855,
+        "lonStart": 17.84025,
+        "latEnd": 43.272887,
+        "lonEnd": 17.851458,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3913
+  },
+  {
+    "type": 1,
+    "icao": "LDDP",
+    "lat": 43.038686,
+    "lon": 17.429647,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12962,
+        "name": "INFO"
+      },
+      {
+        "type": 54,
+        "frequency": 12350,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 7,
+    "tower": false,
+    "name": "PLOCE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 43.033333,
+        "lonStart": 17.428894,
+        "latEnd": 43.044039,
+        "lonEnd": 17.4304,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20144
+  }
+]

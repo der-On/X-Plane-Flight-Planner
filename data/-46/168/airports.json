@@ -1,0 +1,119 @@
+[
+  {
+    "type": 1,
+    "icao": "NZQN",
+    "lat": -45.019653152500005,
+    "lon": 168.7447483075,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12640,
+        "name": "ATIS"
+      },
+      {
+        "type": 55,
+        "frequency": 12575,
+        "name": "APP"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TWR"
+      },
+      {
+        "type": 51,
+        "frequency": 11810,
+        "name": "CTAF"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      }
+    ],
+    "elevation": 1170,
+    "tower": true,
+    "name": "Queenstown",
+    "runways": [
+      {
+        "type": 100,
+        "width": 32,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -45.02013985,
+        "lonStart": 168.73499061,
+        "latEnd": -45.01649985,
+        "lonEnd": 168.75846252,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 12,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -45.01724914,
+        "lonStart": 168.74098496,
+        "latEnd": -45.02472377,
+        "lonEnd": 168.74455514,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4266
+  },
+  {
+    "type": 1,
+    "icao": "NZVL",
+    "lat": -45.991805345,
+    "lon": 168.81562806,
+    "communications": [],
+    "elevation": 335,
+    "tower": false,
+    "name": "Mandeville",
+    "runways": [
+      {
+        "type": 100,
+        "width": 62,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -45.98988406,
+        "lonStart": 168.81036352,
+        "latEnd": -45.99372663,
+        "lonEnd": 168.8208926,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4283
+  },
+  {
+    "type": 1,
+    "icao": "XNZYL",
+    "lat": -45.083868935,
+    "lon": 168.746696695,
+    "communications": [],
+    "elevation": 1207,
+    "tower": false,
+    "name": "Jacks Point",
+    "runways": [
+      {
+        "type": 100,
+        "width": 35,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -45.08205943,
+        "lonStart": 168.74197621,
+        "latEnd": -45.08567844,
+        "lonEnd": 168.75141718,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5531
+  }
+]

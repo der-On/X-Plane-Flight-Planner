@@ -1,0 +1,120 @@
+[
+  {
+    "type": 1,
+    "icao": "SVBQ",
+    "lat": 10.0015,
+    "lon": -71.08372800000001,
+    "communications": [],
+    "elevation": 42,
+    "tower": false,
+    "name": "BACHAQUERO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 10.008006,
+        "lonStart": -71.083742,
+        "latEnd": 9.994994,
+        "lonEnd": -71.083714,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 28971
+  },
+  {
+    "type": 1,
+    "icao": "SVMC",
+    "lat": 10.558208,
+    "lon": -71.72785775,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11890,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12020,
+        "name": "MARACAIBO APP"
+      },
+      {
+        "type": 55,
+        "frequency": 11970,
+        "name": "MARACAIBO APP"
+      }
+    ],
+    "elevation": 235,
+    "tower": true,
+    "name": "LA CHINITA INTL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "03L",
+        "numberEnd": "21R",
+        "latStart": 10.545917,
+        "lonStart": -71.7341,
+        "latEnd": 10.570942,
+        "lonEnd": -71.723467,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "03R",
+        "numberEnd": "21L",
+        "latStart": 10.547567,
+        "lonStart": -71.731347,
+        "latEnd": 10.568406,
+        "lonEnd": -71.722517,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 29009
+  },
+  {
+    "type": 1,
+    "icao": "SVON",
+    "lat": 10.3300695,
+    "lon": -71.3225275,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11815,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 164,
+    "tower": true,
+    "name": "ORO NEGRO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 28.96,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 10.325389,
+        "lonStart": -71.329611,
+        "latEnd": 10.33475,
+        "lonEnd": -71.315444,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 29020
+  }
+]

@@ -1,0 +1,105 @@
+[
+  {
+    "type": 1,
+    "icao": "LIDF",
+    "lat": 43.82381386,
+    "lon": 13.026504066666666,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11965,
+        "name": "Radio Fano"
+      }
+    ],
+    "elevation": 50,
+    "tower": false,
+    "name": "FANO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 43.8208108,
+        "lonStart": 13.02094115,
+        "latEnd": 43.82800579,
+        "lonEnd": 13.03209791,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 33.7,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 43.82262499,
+        "lonStart": 13.02647314,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 33.2
+      }
+    ],
+    "id": 3758
+  },
+  {
+    "type": 1,
+    "icao": "LIPY",
+    "lat": 43.614689883333334,
+    "lon": 13.361409960000001,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 12532,
+        "name": "Ancona APP"
+      },
+      {
+        "type": 54,
+        "frequency": 11980,
+        "name": "Falconara TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "Falconara TWR"
+      },
+      {
+        "type": 50,
+        "frequency": 12285,
+        "name": "Ancona ATIS Information"
+      }
+    ],
+    "elevation": 47,
+    "tower": true,
+    "name": "ANCONA Falconara",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 43.60690731,
+        "lonStart": 13.34936796,
+        "latEnd": 43.62580412,
+        "lonEnd": 13.375278,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 30,
+        "surfaceType": 2,
+        "numberStart": "H",
+        "numberEnd": null,
+        "latStart": 43.61135822,
+        "lonStart": 13.35958392,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30
+      }
+    ],
+    "id": 3805
+  }
+]

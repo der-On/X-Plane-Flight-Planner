@@ -1,0 +1,84 @@
+[
+  {
+    "type": 1,
+    "icao": "WATR",
+    "lat": -10.7666667,
+    "lon": 123.0744444,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12340,
+        "name": "AFIS Rote Information"
+      }
+    ],
+    "elevation": 197,
+    "tower": true,
+    "name": "Rote/Lekunik (DGCA)",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -10.76981415,
+        "lonStart": 123.07184997,
+        "latEnd": -10.76351925,
+        "lonEnd": 123.07703883,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 31496
+  },
+  {
+    "type": 1,
+    "icao": "WATT",
+    "lat": -10.17339725,
+    "lon": 123.66770500000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12220,
+        "name": "KUPANG APP"
+      }
+    ],
+    "elevation": 335,
+    "tower": true,
+    "name": "Kupang El Tari",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -10.174753,
+        "lonStart": 123.660531,
+        "latEnd": -10.169561,
+        "lonEnd": 123.682806,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 64.01,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -10.171325,
+        "lonStart": 123.658997,
+        "latEnd": -10.17795,
+        "lonEnd": 123.668486,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 31498
+  }
+]

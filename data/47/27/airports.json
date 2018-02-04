@@ -1,0 +1,76 @@
+[
+  {
+    "type": 1,
+    "icao": "LRIA",
+    "lat": 47.180492154999996,
+    "lon": 27.620670259999997,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11920,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11920,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 11880,
+        "name": "PRECISION"
+      }
+    ],
+    "elevation": 410,
+    "tower": true,
+    "name": "IASI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 47.18992715,
+        "lonStart": 27.61228125,
+        "latEnd": 47.17105716,
+        "lonEnd": 27.62905927,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3924
+  },
+  {
+    "type": 1,
+    "icao": "LUBL",
+    "lat": 47.838469045,
+    "lon": 27.780738635,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12230,
+        "name": "Balti Tower"
+      }
+    ],
+    "elevation": 759,
+    "tower": true,
+    "name": "BALTI INTL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 42.06,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 47.84746327,
+        "lonStart": 27.77397461,
+        "latEnd": 47.82947482,
+        "lonEnd": 27.78750266,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 4037
+  }
+]

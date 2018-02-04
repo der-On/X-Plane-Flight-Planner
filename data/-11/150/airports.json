@@ -1,0 +1,113 @@
+[
+  {
+    "type": 1,
+    "icao": "AYGN",
+    "lat": -10.311531855,
+    "lon": 150.333755585,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12220,
+        "name": "AYGN ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 11960,
+        "name": "ACTIVATE LIGHTS ONLY MULTICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12290,
+        "name": "GURNEY GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11940,
+        "name": "GURNEY TWR"
+      }
+    ],
+    "elevation": 66,
+    "tower": true,
+    "name": "Gurney",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -10.31302166,
+        "lonStart": 150.34133372,
+        "latEnd": -10.31004205,
+        "lonEnd": 150.32617745,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14791
+  },
+  {
+    "type": 1,
+    "icao": "DOI",
+    "lat": -10.700934565,
+    "lon": 150.72178379000002,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12770,
+        "name": "DOI AWOS"
+      }
+    ],
+    "elevation": 10,
+    "tower": false,
+    "name": "Doini",
+    "runways": [
+      {
+        "type": 100,
+        "width": 42.06,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -10.70021054,
+        "lonStart": 150.71876116,
+        "latEnd": -10.70165859,
+        "lonEnd": 150.72480642,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 16055
+  },
+  {
+    "type": 1,
+    "icao": "LNQ",
+    "lat": -10.432366,
+    "lon": 150.14363600000001,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12770,
+        "name": "MIS AWOS"
+      }
+    ],
+    "elevation": 39,
+    "tower": false,
+    "name": "Loani",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -10.43488745,
+        "lonStart": 150.14107216,
+        "latEnd": -10.42984455,
+        "lonEnd": 150.14619984,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20739
+  }
+]

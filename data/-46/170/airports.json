@@ -1,0 +1,129 @@
+[
+  {
+    "type": 1,
+    "icao": "NZDN",
+    "lat": -45.929091035,
+    "lon": 170.19765523,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12880,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12070,
+        "name": "CTAF"
+      },
+      {
+        "type": 54,
+        "frequency": 12240,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12070,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12930,
+        "name": "CHRISTCHURCH CON"
+      },
+      {
+        "type": 55,
+        "frequency": 12070,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12240,
+        "name": "APP"
+      }
+    ],
+    "elevation": 3,
+    "tower": true,
+    "name": "Dunedin",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -45.93386998,
+        "lonStart": 170.18750077,
+        "latEnd": -45.92431209,
+        "lonEnd": 170.20780969,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4224
+  },
+  {
+    "type": 1,
+    "icao": "NZTI",
+    "lat": -45.8604668025,
+    "lon": 170.3616729975,
+    "communications": [],
+    "elevation": 84,
+    "tower": false,
+    "name": "Taieri",
+    "runways": [
+      {
+        "type": 100,
+        "width": 35,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -45.86243378,
+        "lonStart": 170.35846369,
+        "latEnd": -45.85971947,
+        "lonEnd": 170.36797924,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -45.8579231,
+        "lonStart": 170.3562876,
+        "latEnd": -45.86179086,
+        "lonEnd": 170.36396146,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4276
+  },
+  {
+    "type": 1,
+    "icao": "XNZRF",
+    "lat": -45.09372367,
+    "lon": 170.114195945,
+    "communications": [],
+    "elevation": 1571,
+    "tower": false,
+    "name": "Ranfurly",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -45.0914467,
+        "lonStart": 170.11028878,
+        "latEnd": -45.09600064,
+        "lonEnd": 170.11810311,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5528
+  }
+]

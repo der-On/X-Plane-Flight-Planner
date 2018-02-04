@@ -1,0 +1,96 @@
+[
+  {
+    "type": 1,
+    "icao": "WBGS",
+    "lat": 2.261603,
+    "lon": 111.98532349999999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12765,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12320,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12260,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12260,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12320,
+        "name": "APP"
+      }
+    ],
+    "elevation": 122,
+    "tower": true,
+    "name": "Sibu",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 2.26965,
+        "lonStart": 111.975875,
+        "latEnd": 2.253556,
+        "lonEnd": 111.994772,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 31518
+  },
+  {
+    "type": 1,
+    "icao": "WBTM",
+    "lat": 2.177843,
+    "lon": 111.2022025,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12190,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 15,
+    "tower": true,
+    "name": "TANJUNG MANIS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 2.173361,
+        "lonStart": 111.197158,
+        "latEnd": 2.182325,
+        "lonEnd": 111.207247,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 31529
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "type": 1,
+    "icao": "ENHD",
+    "lat": 59.3440155,
+    "lon": 5.210871,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11817,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 12050,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12110,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 76,
+    "tower": true,
+    "name": "Haugesund Lufthavn Karmoy",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 59.350664,
+        "lonStart": 5.197539,
+        "latEnd": 59.337367,
+        "lonEnd": 5.224203,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16589
+  },
+  {
+    "type": 1,
+    "icao": "ENSO",
+    "lat": 59.791925,
+    "lon": 5.34085,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12020,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 161,
+    "tower": true,
+    "name": "Stord Sorstokken",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 59.797278,
+        "lonStart": 5.333353,
+        "latEnd": 59.786572,
+        "lonEnd": 5.348347,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16616
+  }
+]

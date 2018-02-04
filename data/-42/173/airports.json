@@ -1,0 +1,283 @@
+[
+  {
+    "type": 1,
+    "icao": "NZNS",
+    "lat": -41.295451053,
+    "lon": 173.223417643,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12910,
+        "name": "NZNS ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 12330,
+        "name": "NELSON CLD"
+      },
+      {
+        "type": 54,
+        "frequency": 12740,
+        "name": "NELSON TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12740,
+        "name": "NELSON APP"
+      }
+    ],
+    "elevation": 16,
+    "tower": true,
+    "name": "Nelson",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": -41.30139825,
+        "lonStart": 173.21881899,
+        "latEnd": -41.29217825,
+        "lonEnd": 173.22941699,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -41.29609627,
+        "lonStart": 173.21705258,
+        "latEnd": -41.29545815,
+        "lonEnd": 173.22428113,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -41.29235277,
+        "lonStart": 173.22286956,
+        "latEnd": -41.29688019,
+        "lonEnd": 173.22215505,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "02L",
+        "numberEnd": "20R",
+        "latStart": -41.29637281,
+        "lonStart": 173.21887301,
+        "latEnd": -41.29163634,
+        "lonEnd": 173.2244003,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 14.94,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -41.29607125,
+        "lonStart": 173.22800691,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.94
+      },
+      {
+        "type": 102,
+        "width": 14.94,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": -41.29606625,
+        "lonStart": 173.22830191,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.94
+      }
+    ],
+    "id": 4254
+  },
+  {
+    "type": 1,
+    "icao": "NZOM",
+    "lat": -41.54145782333334,
+    "lon": 173.9238798816667,
+    "communications": [],
+    "elevation": 59,
+    "tower": false,
+    "name": "Omaka",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": -41.5453894,
+        "lonStart": 173.92045218,
+        "latEnd": -41.53840314,
+        "lonEnd": 173.92741056,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -41.53824882,
+        "lonStart": 173.91971413,
+        "latEnd": -41.5447837,
+        "lonEnd": 173.92812841,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -41.54127392,
+        "lonStart": 173.91949533,
+        "latEnd": -41.54064796,
+        "lonEnd": 173.92807868,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4258
+  },
+  {
+    "type": 1,
+    "icao": "NZPN",
+    "lat": -41.346540090000005,
+    "lon": 173.95655961,
+    "communications": [],
+    "elevation": 78,
+    "tower": true,
+    "name": "Picton",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -41.34322987,
+        "lonStart": 173.95917684,
+        "latEnd": -41.34985031,
+        "lonEnd": 173.95394238,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4264
+  },
+  {
+    "type": 1,
+    "icao": "NZWB",
+    "lat": -41.51709721666667,
+    "lon": 173.86937385833335,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12820,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12280,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12230,
+        "name": "WELLINGTON APP"
+      },
+      {
+        "type": 55,
+        "frequency": 11930,
+        "name": "WELLINGTON APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12650,
+        "name": "WELLINGTON APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12110,
+        "name": "WELLINGTON APP"
+      }
+    ],
+    "elevation": 108,
+    "tower": true,
+    "name": "Woodbourne",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -41.51831089,
+        "lonStart": 173.86093232,
+        "latEnd": -41.51741005,
+        "lonEnd": 173.877917,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "06L",
+        "numberEnd": "24R",
+        "latStart": -41.51692584,
+        "lonStart": 173.86090779,
+        "latEnd": -41.51603958,
+        "lonEnd": 173.87773329,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -41.51431355,
+        "lonStart": 173.86371151,
+        "latEnd": -41.51958339,
+        "lonEnd": 173.87504124,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4284
+  }
+]

@@ -1,0 +1,168 @@
+[
+  {
+    "type": 1,
+    "icao": "CYAV",
+    "lat": 50.057047385714284,
+    "lon": -97.03429374142856,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12580,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12070,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11850,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 757,
+    "tower": true,
+    "name": "Winnipeg St. Andrews",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.92,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 50.05057208,
+        "lonStart": -97.03576493,
+        "latEnd": 50.05616017,
+        "lonEnd": -97.02706175,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 50.06142834,
+        "lonStart": -97.03577277,
+        "latEnd": 50.05581417,
+        "lonEnd": -97.0263957,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 50.06141428,
+        "lonStart": -97.03693613,
+        "latEnd": 50.0532611,
+        "lonEnd": -97.03879328,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 50.06068156,
+        "lonStart": -97.03933163,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.4
+      }
+    ],
+    "id": 722
+  },
+  {
+    "type": 1,
+    "icao": "CYGM",
+    "lat": 50.627915,
+    "lon": -97.04208578000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12215,
+        "name": "UNICOM"
+      },
+      {
+        "type": 54,
+        "frequency": 12215,
+        "name": "MF"
+      }
+    ],
+    "elevation": 752,
+    "tower": false,
+    "name": "GIMLI INDUSTRIAL PARK",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 50.63611106,
+        "lonStart": -97.04944705,
+        "latEnd": 50.61971894,
+        "lonEnd": -97.03472451,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 762
+  },
+  {
+    "type": 1,
+    "icao": "XCAV9",
+    "lat": 50.14140509999999,
+    "lon": -97.06097334333333,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "Unicom"
+      }
+    ],
+    "elevation": 754,
+    "tower": false,
+    "name": "Oak Hammock Air Park",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 50.14638016,
+        "lonStart": -97.06108327,
+        "latEnd": 50.13935722,
+        "lonEnd": -97.06094648,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 19.8,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 50.13847792,
+        "lonStart": -97.06089028,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19.8
+      }
+    ],
+    "id": 5319
+  }
+]

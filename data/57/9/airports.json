@@ -1,0 +1,112 @@
+[
+  {
+    "type": 1,
+    "icao": "EKYT",
+    "lat": 57.096369445,
+    "lon": 9.849501126666667,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12047,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12397,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12070,
+        "name": "ARR"
+      }
+    ],
+    "elevation": 9,
+    "tower": true,
+    "name": "Aalborg",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "08L",
+        "numberEnd": "26R",
+        "latStart": 57.0937117,
+        "lonStart": 9.83338464,
+        "latEnd": 57.09652088,
+        "lonEnd": 9.87687818,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "08R",
+        "numberEnd": "26L",
+        "latStart": 57.09190493,
+        "lonStart": 9.83547941,
+        "latEnd": 57.09459302,
+        "lonEnd": 9.87724767,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 50,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 57.10203071,
+        "lonStart": 9.83915018,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 51.5
+      },
+      {
+        "type": 102,
+        "width": 58,
+        "surfaceType": 2,
+        "numberStart": "H5",
+        "numberEnd": null,
+        "latStart": 57.09945543,
+        "lonStart": 9.83486668,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 57.9
+      }
+    ],
+    "id": 1720
+  },
+  {
+    "type": 1,
+    "icao": "EK13",
+    "lat": 57.28971378,
+    "lon": 9.85681625,
+    "communications": [],
+    "elevation": 58,
+    "tower": false,
+    "name": "Broenderslev",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.02,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 57.2874634,
+        "lonStart": 9.85553105,
+        "latEnd": 57.29196416,
+        "lonEnd": 9.85810145,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16472
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "type": 1,
+    "icao": "EG32",
+    "lat": 56.00098314,
+    "lon": -2.733859155,
+    "communications": [],
+    "elevation": 115,
+    "tower": false,
+    "name": "East Fortune",
+    "runways": [
+      {
+        "type": 100,
+        "width": 11.89,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 56.00120285,
+        "lonStart": -2.73602123,
+        "latEnd": 56.00076343,
+        "lonEnd": -2.73169708,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 16250
+  },
+  {
+    "type": 1,
+    "icao": "EG59",
+    "lat": 56.26897998,
+    "lon": -2.750741315,
+    "communications": [],
+    "elevation": 387,
+    "tower": false,
+    "name": "Kingsmuir",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 56.26729968,
+        "lonStart": -2.75445711,
+        "latEnd": 56.27066028,
+        "lonEnd": -2.74702552,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16268
+  },
+  {
+    "type": 1,
+    "icao": "EGQL",
+    "lat": 56.374978725,
+    "lon": -2.8638472024999997,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12210,
+        "name": "Leuchars Ground"
+      },
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "Leuchars Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12650,
+        "name": "Leuchars Approach"
+      },
+      {
+        "type": 56,
+        "frequency": 12650,
+        "name": "Leuchars Departure"
+      }
+    ],
+    "elevation": 38,
+    "tower": true,
+    "name": "RAF Leuchars",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 56.37303949,
+        "lonStart": -2.88172101,
+        "latEnd": 56.37646251,
+        "lonEnd": -2.83918527,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 56.3699379,
+        "lonStart": -2.87428553,
+        "latEnd": 56.380475,
+        "lonEnd": -2.860197,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16361
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "type": 1,
+    "icao": "EFIV",
+    "lat": 68.607266775,
+    "lon": 27.405382075,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12320,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11970,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 480,
+    "tower": true,
+    "name": "Ivalo",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 68.59961949,
+        "lonStart": 27.38278141,
+        "latEnd": 68.61491406,
+        "lonEnd": 27.42798274,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16184
+  },
+  {
+    "type": 1,
+    "icao": "EFVU",
+    "lat": 68.08670000000001,
+    "lon": 27.1281,
+    "communications": [],
+    "elevation": 853,
+    "tower": false,
+    "name": "Vuotso",
+    "runways": [
+      {
+        "type": 100,
+        "width": 19.81,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 68.08939909,
+        "lonStart": 27.1281,
+        "latEnd": 68.08400091,
+        "lonEnd": 27.1281,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16231
+  }
+]

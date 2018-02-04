@@ -1,0 +1,88 @@
+[
+  {
+    "type": 1,
+    "icao": "EFHF",
+    "lat": 60.25296325,
+    "lon": 25.0451905,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12270,
+        "name": "MALMI ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12160,
+        "name": "MALMI GND"
+      },
+      {
+        "type": 54,
+        "frequency": 13125,
+        "name": "MALMI TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11970,
+        "name": "MALMI TWR"
+      }
+    ],
+    "elevation": 57,
+    "tower": true,
+    "name": "Helsinki Malmi",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 60.260539,
+        "lonStart": 25.044142,
+        "latEnd": 60.248581,
+        "lonEnd": 25.041514,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 60.251864,
+        "lonStart": 25.038364,
+        "latEnd": 60.250869,
+        "lonEnd": 25.056742,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1463
+  },
+  {
+    "type": 1,
+    "icao": "EFMN",
+    "lat": 60.572199999999995,
+    "lon": 25.5119,
+    "communications": [],
+    "elevation": 135,
+    "tower": false,
+    "name": "Mantsala",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 60.57082158,
+        "lonStart": 25.50954591,
+        "latEnd": 60.57357842,
+        "lonEnd": 25.51425409,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 16204
+  }
+]

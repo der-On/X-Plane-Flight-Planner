@@ -1,0 +1,86 @@
+[
+  {
+    "type": 1,
+    "icao": "EICM",
+    "lat": 53.30015129,
+    "lon": -8.941745675,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12182,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12182,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12250,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 81,
+    "tower": true,
+    "name": "Galway",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 53.298781,
+        "lonStart": -8.950525,
+        "latEnd": 53.30152158,
+        "lonEnd": -8.93296635,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16435
+  },
+  {
+    "type": 1,
+    "icao": "EIKN",
+    "lat": 53.910305795,
+    "lon": -8.818474044999999,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 13070,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 13069,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 665,
+    "tower": true,
+    "name": "Ireland West Airport Knock",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 53.90829759,
+        "lonStart": -8.83561505,
+        "latEnd": 53.912314,
+        "lonEnd": -8.80133304,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16446
+  }
+]

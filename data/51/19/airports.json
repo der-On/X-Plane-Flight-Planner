@@ -1,0 +1,91 @@
+[
+  {
+    "type": 1,
+    "icao": "EPLK",
+    "lat": 51.55162454,
+    "lon": 19.179137635,
+    "communications": [],
+    "elevation": 639,
+    "tower": true,
+    "name": "LASK",
+    "runways": [
+      {
+        "type": 100,
+        "width": 53.37,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 51.55497098,
+        "lonStart": 19.16196671,
+        "latEnd": 51.5482781,
+        "lonEnd": 19.19630856,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1826
+  },
+  {
+    "type": 1,
+    "icao": "EPLL",
+    "lat": 51.71995543,
+    "lon": 19.389233335,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13567,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 12422,
+        "name": "LODZ"
+      }
+    ],
+    "elevation": 604,
+    "tower": true,
+    "name": "LODZ LUBLINEK",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 51.7162635,
+        "lonStart": 19.37214082,
+        "latEnd": 51.72364736,
+        "lonEnd": 19.40632585,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 1827
+  },
+  {
+    "type": 1,
+    "icao": "EPPT",
+    "lat": 51.382552954999994,
+    "lon": 19.688546065,
+    "communications": [],
+    "elevation": 671,
+    "tower": true,
+    "name": "Piotrkow Trybunalski",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18,
+        "surfaceType": null,
+        "numberStart": "03R",
+        "numberEnd": "21L",
+        "latStart": 51.37892442,
+        "lonStart": 19.68492272,
+        "latEnd": 51.38618149,
+        "lonEnd": 19.69216941,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 1847
+  }
+]

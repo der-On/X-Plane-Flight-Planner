@@ -1,0 +1,105 @@
+[
+  {
+    "type": 1,
+    "icao": "MKJP",
+    "lat": 17.935665,
+    "lon": -76.78756,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12770,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11865,
+        "name": "MANLEY TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12060,
+        "name": "MANLEY APP"
+      },
+      {
+        "type": 52,
+        "frequency": 12810,
+        "name": "Clearance Delivery"
+      }
+    ],
+    "elevation": 9,
+    "tower": true,
+    "name": "Norman Manley Intl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 17.940258,
+        "lonStart": -76.799453,
+        "latEnd": 17.931072,
+        "lonEnd": -76.775667,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4100
+  },
+  {
+    "type": 1,
+    "icao": "MKTP",
+    "lat": 17.98847722,
+    "lon": -76.82373579,
+    "communications": [],
+    "elevation": 16,
+    "tower": false,
+    "name": "TINSON PEN",
+    "runways": [
+      {
+        "type": 100,
+        "width": 33.53,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 17.99242885,
+        "lonStart": -76.82846002,
+        "latEnd": 17.98452559,
+        "lonEnd": -76.81901156,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4103
+  },
+  {
+    "type": 16,
+    "icao": "SP08",
+    "lat": 17.951529999999998,
+    "lon": -76.792686,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] Norman Manley Harbor",
+    "runways": [
+      {
+        "type": 101,
+        "width": 3047.7,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 17.95975894,
+        "lonStart": -76.792686,
+        "latEnd": 17.94330106,
+        "lonEnd": -76.792686,
+        "length": 0
+      }
+    ],
+    "id": 28222
+  }
+]

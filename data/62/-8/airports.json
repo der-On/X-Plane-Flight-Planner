@@ -1,0 +1,69 @@
+[
+  {
+    "type": 1,
+    "icao": "EKVG",
+    "lat": 62.0632655,
+    "lon": -7.275771499999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12485,
+        "name": "Tower (AFIS)"
+      },
+      {
+        "type": 51,
+        "frequency": 12050,
+        "name": "Emergency (CTAF)"
+      },
+      {
+        "type": 50,
+        "frequency": 12020,
+        "name": "ATIS"
+      }
+    ],
+    "elevation": 275,
+    "tower": true,
+    "name": "Vagar",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 62.067042,
+        "lonStart": -7.290972,
+        "latEnd": 62.059489,
+        "lonEnd": -7.260571,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1718
+  },
+  {
+    "type": 17,
+    "icao": "EKMS",
+    "lat": 62.102112,
+    "lon": -7.645917,
+    "communications": [],
+    "elevation": 108,
+    "tower": false,
+    "name": "[H] Mykines",
+    "runways": [
+      {
+        "type": 102,
+        "width": 4.6,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 62.102112,
+        "lonStart": -7.645917,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 4.6
+      }
+    ],
+    "id": 16534
+  }
+]

@@ -1,0 +1,150 @@
+[
+  {
+    "type": 1,
+    "icao": "PACD",
+    "lat": 55.20356797166667,
+    "lon": -162.72175337500002,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13575,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12360,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 98,
+    "tower": true,
+    "name": "Cold Bay",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 55.22239404,
+        "lonStart": -162.73791777,
+        "latEnd": 55.19587796,
+        "lonEnd": -162.71951823,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 55.19897506,
+        "lonStart": -162.7274647,
+        "latEnd": 55.19801094,
+        "lonEnd": -162.7072633,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 20.1,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 55.20290232,
+        "lonStart": -162.71904416,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.1
+      },
+      {
+        "type": 102,
+        "width": 20.1,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 55.20324751,
+        "lonStart": -162.71931209,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.1
+      }
+    ],
+    "id": 23899
+  },
+  {
+    "type": 1,
+    "icao": "PAVC",
+    "lat": 55.116347,
+    "lon": -162.2662275,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11832,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 155,
+    "tower": false,
+    "name": "KING COVE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 35.05,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 55.115947,
+        "lonStart": -162.274222,
+        "latEnd": 55.116747,
+        "lonEnd": -162.258233,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 24044
+  },
+  {
+    "type": 16,
+    "icao": "Z87",
+    "lat": 55.251627219999996,
+    "lon": -162.75340445,
+    "communications": [],
+    "elevation": 48,
+    "tower": false,
+    "name": "[S] Blinn Lake",
+    "runways": [
+      {
+        "type": 101,
+        "width": 304.8,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 55.25262968,
+        "lonStart": -162.75915719,
+        "latEnd": 55.25062476,
+        "lonEnd": -162.74765171,
+        "length": 0
+      },
+      {
+        "type": 101,
+        "width": 304.8,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 55.25425035,
+        "lonStart": -162.75199742,
+        "latEnd": 55.24900409,
+        "lonEnd": -162.75481148,
+        "length": 0
+      }
+    ],
+    "id": 34908
+  }
+]

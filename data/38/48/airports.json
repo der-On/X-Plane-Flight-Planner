@@ -1,0 +1,70 @@
+[
+  {
+    "type": 1,
+    "icao": "OITL",
+    "lat": 38.3256775,
+    "lon": 48.4243525,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12665,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 12190,
+        "name": "INFO"
+      },
+      {
+        "type": 54,
+        "frequency": 11815,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 4314,
+    "tower": false,
+    "name": "ARDABIL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 38.338536,
+        "lonStart": 48.414897,
+        "latEnd": 38.312819,
+        "lonEnd": 48.433808,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 23453
+  },
+  {
+    "type": 1,
+    "icao": "UB10",
+    "lat": 38.7464415,
+    "lon": 48.8180375,
+    "communications": [],
+    "elevation": 30,
+    "tower": false,
+    "name": "LENKORAN",
+    "runways": [
+      {
+        "type": 100,
+        "width": 40.23,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 38.751914,
+        "lonStart": 48.812239,
+        "latEnd": 38.740969,
+        "lonEnd": 48.823836,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 30243
+  }
+]

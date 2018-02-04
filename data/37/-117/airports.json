@@ -1,0 +1,76 @@
+[
+  {
+    "type": 1,
+    "icao": "KTNX",
+    "lat": 37.798837500000005,
+    "lon": -116.780746,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13410,
+        "name": "SILVERBOW TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11935,
+        "name": "NELLIS APP"
+      }
+    ],
+    "elevation": 5549,
+    "tower": true,
+    "name": "TONOPAH TEST RANGE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 37.814031,
+        "lonStart": -116.788792,
+        "latEnd": 37.783644,
+        "lonEnd": -116.7727,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 19896
+  },
+  {
+    "type": 1,
+    "icao": "L23",
+    "lat": 37.102092,
+    "lon": -116.31290849999999,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 11870,
+        "name": "DREAMLAND APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12615,
+        "name": "DREAMLAND APP"
+      }
+    ],
+    "elevation": 5068,
+    "tower": false,
+    "name": "PAHUTE MESA AIRSTRIP",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 37.109706,
+        "lonStart": -116.310553,
+        "latEnd": 37.094478,
+        "lonEnd": -116.315264,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19997
+  }
+]

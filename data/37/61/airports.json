@@ -1,0 +1,78 @@
+[
+  {
+    "type": 1,
+    "icao": "UT52",
+    "lat": 37.664345499999996,
+    "lon": 61.826979,
+    "communications": [],
+    "elevation": 728,
+    "tower": false,
+    "name": "MARY NORTH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 37.677872,
+        "lonStart": 61.826514,
+        "latEnd": 37.650819,
+        "lonEnd": 61.827444,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 30562
+  },
+  {
+    "type": 1,
+    "icao": "UTAM",
+    "lat": 37.6225001675,
+    "lon": 61.89666675,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12220,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12400,
+        "name": "RADAR"
+      }
+    ],
+    "elevation": 728,
+    "tower": true,
+    "name": "MARY",
+    "runways": [
+      {
+        "type": 100,
+        "width": 44.81,
+        "surfaceType": null,
+        "numberStart": "18L",
+        "numberEnd": "36R",
+        "latStart": 37.632778,
+        "lonStart": 61.897222,
+        "latEnd": 37.607778,
+        "lonEnd": 61.898056,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "18R",
+        "numberEnd": "36L",
+        "latStart": 37.64166667,
+        "lonStart": 61.895,
+        "latEnd": 37.607778,
+        "lonEnd": 61.896389,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 30590
+  }
+]

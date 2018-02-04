@@ -1,0 +1,57 @@
+[
+  {
+    "type": 1,
+    "icao": "UELL",
+    "lat": 56.9038934225,
+    "lon": 124.8920161675,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12680,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "Chulman Krug"
+      },
+      {
+        "type": 55,
+        "frequency": 13170,
+        "name": "Chulman Transit"
+      }
+    ],
+    "elevation": 2812,
+    "tower": true,
+    "name": "Chulman",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 56.90810565,
+        "lonStart": 124.88623875,
+        "latEnd": 56.91972735,
+        "lonEnd": 124.94141084,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 74.07,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 56.89704421,
+        "lonStart": 124.86994367,
+        "latEnd": 56.89069648,
+        "lonEnd": 124.87047141,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 30266
+  }
+]

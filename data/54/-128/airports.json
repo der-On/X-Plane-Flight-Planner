@@ -1,0 +1,70 @@
+[
+  {
+    "type": 1,
+    "icao": "CYYD",
+    "lat": 54.825384764999995,
+    "lon": -127.18287633,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12865,
+        "name": "AWOS"
+      },
+      {
+        "type": 54,
+        "frequency": 12230,
+        "name": "Traffic"
+      }
+    ],
+    "elevation": 1715,
+    "tower": true,
+    "name": "Smithers Regional",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 54.8358612,
+        "lonStart": -127.18589461,
+        "latEnd": 54.81490833,
+        "lonEnd": -127.17985805,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 868
+  },
+  {
+    "type": 17,
+    "icao": "XCAA6",
+    "lat": 54.77222236,
+    "lon": -127.14166859,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12230,
+        "name": "MF/Traffic"
+      }
+    ],
+    "elevation": 1600,
+    "tower": false,
+    "name": "[H] Smithers (Canadian) Heliport",
+    "runways": [
+      {
+        "type": 102,
+        "width": 20.8,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 54.77222236,
+        "lonStart": -127.14166859,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 17.2
+      }
+    ],
+    "id": 5316
+  }
+]

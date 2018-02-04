@@ -1,0 +1,89 @@
+[
+  {
+    "type": 1,
+    "icao": "AIE",
+    "lat": -5.141509,
+    "lon": 144.73203999999998,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12770,
+        "name": "AIE AWOS"
+      }
+    ],
+    "elevation": 350,
+    "tower": false,
+    "name": "Aiome",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -5.14585421,
+        "lonStart": 144.730871,
+        "latEnd": -5.13716379,
+        "lonEnd": 144.733209,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 14422
+  },
+  {
+    "type": 1,
+    "icao": "AYMH",
+    "lat": -5.8271183175,
+    "lon": 144.29856514,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12840,
+        "name": "AYMH ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12055,
+        "name": "Hagen GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12050,
+        "name": "HAGEN TWR"
+      }
+    ],
+    "elevation": 5362,
+    "tower": true,
+    "name": "Mount Hagen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -5.82306219,
+        "lonStart": 144.29089791,
+        "latEnd": -5.83341419,
+        "lonEnd": 144.30774632,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -5.82641001,
+        "lonStart": 144.2928815,
+        "latEnd": -5.82558688,
+        "lonEnd": 144.30273483,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14799
+  }
+]

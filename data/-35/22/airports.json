@@ -1,0 +1,99 @@
+[
+  {
+    "type": 1,
+    "icao": "FAGG",
+    "lat": -34.003588737499996,
+    "lon": 22.3773749,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11890,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12820,
+        "name": "APP"
+      },
+      {
+        "type": 53,
+        "frequency": 12265,
+        "name": "Ground"
+      },
+      {
+        "type": 51,
+        "frequency": 12622,
+        "name": "ATIS"
+      }
+    ],
+    "elevation": 647,
+    "tower": true,
+    "name": "George",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -34.00591667,
+        "lonStart": 22.36639444,
+        "latEnd": -34.005189,
+        "lonEnd": 22.389325,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 10,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": -34.00162464,
+        "lonStart": 22.37670192,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10
+      },
+      {
+        "type": 102,
+        "width": 10,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -34.00162464,
+        "lonStart": 22.37707824,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10
+      }
+    ],
+    "id": 2132
+  },
+  {
+    "type": 1,
+    "icao": "FAMO",
+    "lat": -34.158736000000005,
+    "lon": 22.055744500000003,
+    "communications": [],
+    "elevation": 526,
+    "tower": true,
+    "name": "Mosselbay Aerodrome",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -34.16051,
+        "lonStart": 22.049955,
+        "latEnd": -34.156962,
+        "lonEnd": 22.061534,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2142
+  }
+]

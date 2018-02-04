@@ -1,0 +1,71 @@
+[
+  {
+    "type": 1,
+    "icao": "LPCR",
+    "lat": 39.6714845,
+    "lon": -31.116717,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12230,
+        "name": "CORVO AFIS"
+      }
+    ],
+    "elevation": 59,
+    "tower": false,
+    "name": "Corvo",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 39.671904,
+        "lonStart": -31.121504,
+        "latEnd": 39.671065,
+        "lonEnd": -31.11193,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3874
+  },
+  {
+    "type": 1,
+    "icao": "LPFL",
+    "lat": 39.45538718,
+    "lon": -31.131513814999998,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11880,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11880,
+        "name": "APP"
+      }
+    ],
+    "elevation": 108,
+    "tower": true,
+    "name": "Flores",
+    "runways": [
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 39.46169561,
+        "lonStart": -31.13325264,
+        "latEnd": 39.44907875,
+        "lonEnd": -31.12977499,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3879
+  }
+]

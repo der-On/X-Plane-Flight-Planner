@@ -1,0 +1,119 @@
+[
+  {
+    "type": 1,
+    "icao": "ZUUU",
+    "lat": 30.556486175000003,
+    "lon": 103.94526138,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12300,
+        "name": "CHENGDU TWR 02L/20R"
+      },
+      {
+        "type": 54,
+        "frequency": 11885,
+        "name": "CHENGDU TWR 02R/20L"
+      },
+      {
+        "type": 53,
+        "frequency": 12185,
+        "name": "CHENGDU GND"
+      },
+      {
+        "type": 52,
+        "frequency": 12160,
+        "name": "CHENGDU DELIVERY"
+      },
+      {
+        "type": 50,
+        "frequency": 12845,
+        "name": "ATIS - Arrival"
+      },
+      {
+        "type": 50,
+        "frequency": 12860,
+        "name": "ATIS - Departure"
+      },
+      {
+        "type": 55,
+        "frequency": 12560,
+        "name": "CHENGDU APP AREA 1"
+      },
+      {
+        "type": 55,
+        "frequency": 12020,
+        "name": "CHENGDU APP AREA 1"
+      },
+      {
+        "type": 55,
+        "frequency": 11970,
+        "name": "CHENGDU APP AREA 2"
+      }
+    ],
+    "elevation": 1673,
+    "tower": true,
+    "name": "Chengdu Shuangliu Intl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 43.74,
+        "surfaceType": null,
+        "numberStart": "02L",
+        "numberEnd": "20R",
+        "latStart": 30.56344202,
+        "lonStart": 103.94001135,
+        "latEnd": 30.593507,
+        "lonEnd": 103.95399851,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 44.81,
+        "surfaceType": null,
+        "numberStart": "02R",
+        "numberEnd": "20L",
+        "latStart": 30.5195,
+        "lonStart": 103.9367,
+        "latEnd": 30.54949568,
+        "lonEnd": 103.95033566,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5674
+  },
+  {
+    "type": 1,
+    "icao": "ZUXJ",
+    "lat": 30.421131754999998,
+    "lon": 103.844373765,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "Tower"
+      }
+    ],
+    "elevation": 1541,
+    "tower": true,
+    "name": "Xinjin",
+    "runways": [
+      {
+        "type": 100,
+        "width": 25,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 30.41595624,
+        "lonStart": 103.84259253,
+        "latEnd": 30.42630727,
+        "lonEnd": 103.846155,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5675
+  }
+]

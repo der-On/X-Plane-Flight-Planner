@@ -1,0 +1,129 @@
+[
+  {
+    "type": 1,
+    "icao": "UA66",
+    "lat": 41.516802999999996,
+    "lon": 69.5753955,
+    "communications": [],
+    "elevation": 2295,
+    "tower": false,
+    "name": "CHIRCHIK",
+    "runways": [
+      {
+        "type": 100,
+        "width": 32,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 41.515014,
+        "lonStart": 69.560647,
+        "latEnd": 41.518592,
+        "lonEnd": 69.590144,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 30219
+  },
+  {
+    "type": 1,
+    "icao": "UT63",
+    "lat": 41.3126735,
+    "lon": 69.391439,
+    "communications": [],
+    "elevation": 1574,
+    "tower": false,
+    "name": "TASHKENT VOSTOCHNY",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 41.310611,
+        "lonStart": 69.372353,
+        "latEnd": 41.314736,
+        "lonEnd": 69.410525,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 30573
+  },
+  {
+    "type": 1,
+    "icao": "UTTT",
+    "lat": 41.255517,
+    "lon": 69.281646,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12680,
+        "name": "ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 12940,
+        "name": "TASHKENT DELIVERY"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "TASHKENT GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12040,
+        "name": "TASHKENT TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12900,
+        "name": "TASHKENT TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11940,
+        "name": "TASHKENT KRUG"
+      },
+      {
+        "type": 55,
+        "frequency": 12520,
+        "name": "TASHKENT APP"
+      }
+    ],
+    "elevation": 1416,
+    "tower": true,
+    "name": "Yuzhny",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "08L",
+        "numberEnd": "26R",
+        "latStart": 41.25243932,
+        "lonStart": 69.25808553,
+        "latEnd": 41.26053668,
+        "lonEnd": 69.30474047,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "08R",
+        "numberEnd": "26L",
+        "latStart": 41.25059327,
+        "lonStart": 69.25910504,
+        "latEnd": 41.25849873,
+        "lonEnd": 69.30465296,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 30603
+  }
+]
