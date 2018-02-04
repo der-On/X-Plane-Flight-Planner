@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "EPKZ",
+    "lat": 54.042340734999996,
+    "lon": 16.263687285000003,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12230,
+        "name": "ZEGRZE-POMORSKIE-RADIO"
+      }
+    ],
+    "elevation": 250,
+    "tower": true,
+    "name": "ZEGRZE POMORSKIE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "07R",
+        "numberEnd": "25L",
+        "latStart": 54.038538,
+        "lonStart": 16.245515,
+        "latEnd": 54.04614347,
+        "lonEnd": 16.28185957,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1825
+  },
+  {
+    "type": 1,
     "icao": "EPDA",
     "lat": 54.41208005,
     "lon": 16.3581346725,
@@ -63,7 +95,7 @@
         "length": 28.4
       }
     ],
-    "id": 5677
+    "id": 16639
   },
   {
     "type": 1,
@@ -102,38 +134,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 26637
-  },
-  {
-    "type": 1,
-    "icao": "EPKZ",
-    "lat": 54.042340734999996,
-    "lon": 16.263687285000003,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12230,
-        "name": "ZEGRZE-POMORSKIE-RADIO"
-      }
-    ],
-    "elevation": 250,
-    "tower": true,
-    "name": "ZEGRZE POMORSKIE",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 54.038538,
-        "lonStart": 16.245515,
-        "latEnd": 54.04614347,
-        "lonEnd": 16.28185957,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 27838
+    "id": 16673
   }
 ]

@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "KGWS",
-    "lat": 39.508054,
-    "lon": -107.311386,
+    "lat": 39.506484076666666,
+    "lon": -107.30927919333332,
     "communications": [
       {
         "type": 51,
@@ -17,25 +17,37 @@
     "runways": [
       {
         "type": 100,
-        "width": 15.24,
+        "width": 15.23,
         "surfaceType": null,
         "numberStart": "14",
         "numberEnd": "32",
-        "latStart": 39.512222,
-        "lonStart": -107.314161,
-        "latEnd": 39.503886,
-        "lonEnd": -107.308611,
+        "latStart": 39.51004733,
+        "lonStart": -107.31172148,
+        "latEnd": 39.50190243,
+        "lonEnd": -107.30654472,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 7.6,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.50750247,
+        "lonStart": -107.30957138,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 7.6
       }
     ],
-    "id": 10037
+    "id": 2743
   },
   {
     "type": 1,
     "icao": "KRIL",
-    "lat": 39.526314,
-    "lon": -107.72694050000001,
+    "lat": 39.52588232,
+    "lon": -107.72720991666665,
     "communications": [
       {
         "type": 50,
@@ -48,25 +60,37 @@
         "name": "CTAF/UNICOM"
       }
     ],
-    "elevation": 5544,
+    "elevation": 5542,
     "tower": false,
     "name": "Garfield Co Rgnl",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 30.48,
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": 39.526792,
-        "lonStart": -107.739331,
-        "latEnd": 39.525836,
-        "lonEnd": -107.71455,
+        "latStart": 39.5263477,
+        "lonStart": -107.74039238,
+        "latEnd": 39.52686587,
+        "lonEnd": -107.71559717,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 28,
+        "surfaceType": 2,
+        "numberStart": "H27",
+        "numberEnd": null,
+        "latStart": 39.52443339,
+        "lonStart": -107.7256402,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 23.4
       }
     ],
-    "id": 10315
+    "id": 3191
   },
   {
     "type": 1,
@@ -92,57 +116,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 10525
-  },
-  {
-    "type": 17,
-    "icao": "CD42",
-    "lat": 39.53331555,
-    "lon": -107.28394223,
-    "communications": [],
-    "elevation": 7983,
-    "tower": false,
-    "name": "[H] Lookout Mountain",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 39.53331555,
-        "lonStart": -107.28394223,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 30937
-  },
-  {
-    "type": 17,
-    "icao": "CD66",
-    "lat": 39.69997666,
-    "lon": -107.95062834,
-    "communications": [],
-    "elevation": 8416,
-    "tower": false,
-    "name": "[H] Rio Blanco",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 4,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 39.69997666,
-        "lonStart": -107.95062834,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 32354
+    "id": 9922
   },
   {
     "type": 17,
@@ -167,6 +141,56 @@
         "length": 30.5
       }
     ],
-    "id": 33135
+    "id": 15153
+  },
+  {
+    "type": 17,
+    "icao": "CD42",
+    "lat": 39.53331555,
+    "lon": -107.28394223,
+    "communications": [],
+    "elevation": 7983,
+    "tower": false,
+    "name": "[H] Lookout Mountain",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.53331555,
+        "lonStart": -107.28394223,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 15154
+  },
+  {
+    "type": 17,
+    "icao": "CD66",
+    "lat": 39.69997666,
+    "lon": -107.95062834,
+    "communications": [],
+    "elevation": 8416,
+    "tower": false,
+    "name": "[H] Rio Blanco",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 4,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.69997666,
+        "lonStart": -107.95062834,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 15168
   }
 ]

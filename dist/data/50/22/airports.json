@@ -1,36 +1,15 @@
 [
   {
     "type": 1,
-    "icao": "EPJL",
-    "lat": 50.00844141,
-    "lon": 22.917672355,
-    "communications": [],
-    "elevation": 613,
-    "tower": true,
-    "name": "Laszki",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 50.00774719,
-        "lonStart": 22.91217636,
-        "latEnd": 50.00913563,
-        "lonEnd": 22.92316835,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15003
-  },
-  {
-    "type": 1,
     "icao": "EPRZ",
-    "lat": 50.105901194,
-    "lon": 22.038602914000002,
+    "lat": 50.105896974000004,
+    "lon": 22.038579415999997,
     "communications": [
+      {
+        "type": 52,
+        "frequency": 12180,
+        "name": "RZESZOW DELIVERY"
+      },
       {
         "type": 54,
         "frequency": 12680,
@@ -39,15 +18,10 @@
       {
         "type": 50,
         "frequency": 12495,
-        "name": "RZESZOW ATIS"
-      },
-      {
-        "type": 52,
-        "frequency": 12180,
-        "name": "RZESZOW DELIVERY"
+        "name": "ATIS"
       }
     ],
-    "elevation": 691,
+    "elevation": 690,
     "tower": true,
     "name": "RZESZOW JASIONKA",
     "runways": [
@@ -59,8 +33,8 @@
         "numberEnd": "27",
         "latStart": 50.11019779,
         "lonStart": 22.00143771,
-        "latEnd": 50.10961554,
-        "lonEnd": 22.04627582,
+        "latEnd": 50.10959444,
+        "lonEnd": 22.04615833,
         "length": 0,
         "surfacetype": 1
       },
@@ -90,6 +64,32 @@
         "length": 18.7
       }
     ],
-    "id": 21096
+    "id": 1854
+  },
+  {
+    "type": 1,
+    "icao": "EPJL",
+    "lat": 50.00844141,
+    "lon": 22.917672355,
+    "communications": [],
+    "elevation": 613,
+    "tower": true,
+    "name": "Laszki",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 50.00774719,
+        "lonStart": 22.91217636,
+        "latEnd": 50.00913563,
+        "lonEnd": 22.92316835,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16643
   }
 ]

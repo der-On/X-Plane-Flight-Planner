@@ -1,121 +1,34 @@
 [
   {
     "type": 1,
-    "icao": "X21",
-    "lat": 28.62243875,
-    "lon": -80.83563875,
+    "icao": "KCOF",
+    "lat": 28.23635025,
+    "lon": -80.60983598249999,
     "communications": [
       {
         "type": 50,
-        "frequency": 11972,
-        "name": "AWOS 3"
+        "frequency": 11917,
+        "name": "ATIS"
       },
       {
-        "type": 51,
-        "frequency": 12300,
-        "name": "CTAF/UNICOM"
+        "type": 52,
+        "frequency": 11840,
+        "name": "CLNC DEL"
       },
       {
-        "type": 55,
-        "frequency": 13495,
-        "name": "ORLANDO APP/DEP"
-      }
-    ],
-    "elevation": 29,
-    "tower": false,
-    "name": "ARTHUR DUNN AIR PARK",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 28.625833,
-        "lonStart": -80.837778,
-        "latEnd": 28.618306,
-        "lonEnd": -80.833944,
-        "length": 0,
-        "surfacetype": 1
+        "type": 53,
+        "frequency": 12435,
+        "name": "GND"
       },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 28.620833,
-        "lonStart": -80.837083,
-        "latEnd": 28.624783,
-        "lonEnd": -80.83375,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 407
-  },
-  {
-    "type": 1,
-    "icao": "34FD",
-    "lat": 28.857211659999997,
-    "lon": -80.90699889,
-    "communications": [],
-    "elevation": 24,
-    "tower": false,
-    "name": "Blue Ridge Flightpark",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 28.86164838,
-        "lonStart": -80.90826193,
-        "latEnd": 28.85277494,
-        "lonEnd": -80.90573585,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 2862
-  },
-  {
-    "type": 1,
-    "icao": "FD74",
-    "lat": 28.06585111,
-    "lon": -80.9022825,
-    "communications": [],
-    "elevation": 36,
-    "tower": false,
-    "name": "Bruner Groves",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 28.06946302,
-        "lonStart": -80.90256873,
-        "latEnd": 28.0622392,
-        "lonEnd": -80.90199627,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 3289
-  },
-  {
-    "type": 1,
-    "icao": "KXMR",
-    "lat": 28.467586,
-    "lon": -80.56661500000001,
-    "communications": [
       {
         "type": 54,
-        "frequency": 11862,
-        "name": "CAPE TWR"
+        "frequency": 13375,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 13265,
+        "name": "ORLANDO APP/DEP"
       },
       {
         "type": 55,
@@ -123,88 +36,38 @@
         "name": "ORLANDO APP/DEP"
       }
     ],
-    "elevation": 9,
+    "elevation": 7,
     "tower": true,
-    "name": "CAPE CANAVERAL AFS SKID STRIP",
+    "name": "Patrick AFB",
     "runways": [
       {
         "type": 100,
         "width": 60.96,
         "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 28.476011,
-        "lonStart": -80.578911,
-        "latEnd": 28.459161,
-        "lonEnd": -80.554319,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 28.22104984,
+        "lonStart": -80.61506123,
+        "latEnd": 28.24438084,
+        "lonEnd": -80.60551423,
         "length": 0,
         "surfacetype": 1
-      }
-    ],
-    "id": 3635
-  },
-  {
-    "type": 1,
-    "icao": "2FD6",
-    "lat": 28.88804416,
-    "lon": -80.86644222999999,
-    "communications": [],
-    "elevation": 15,
-    "tower": false,
-    "name": "Dalphonse Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 28.89031659,
-        "lonStart": -80.86754391,
-        "latEnd": 28.88577173,
-        "lonEnd": -80.86534055,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 5969
-  },
-  {
-    "type": 1,
-    "icao": "X50",
-    "lat": 28.978875000000002,
-    "lon": -80.925056,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12270,
-        "name": "CTAF/UNICOM"
       },
       {
-        "type": 55,
-        "frequency": 12535,
-        "name": "DAYTONA APP/DEP"
-      }
-    ],
-    "elevation": 12,
-    "tower": false,
-    "name": "MASSEY RANCH AIRPARK",
-    "runways": [
-      {
         "type": 100,
-        "width": 18.29,
+        "width": 60.96,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 28.984161,
-        "lonStart": -80.925056,
-        "latEnd": 28.973589,
-        "lonEnd": -80.925056,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 28.24160441,
+        "lonStart": -80.61532559,
+        "latEnd": 28.23836591,
+        "lonEnd": -80.60344288,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 15907
+    "id": 2511
   },
   {
     "type": 1,
@@ -246,7 +109,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 16046
+    "id": 2512
   },
   {
     "type": 1,
@@ -349,150 +212,236 @@
         "surfacetype": 1
       }
     ],
-    "id": 17028
+    "id": 2976
   },
   {
     "type": 1,
-    "icao": "KTTS",
-    "lat": 28.6148905,
-    "lon": -80.694371,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12360,
-        "name": "CTAF"
-      },
-      {
-        "type": 53,
-        "frequency": 12175,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12855,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 13495,
-        "name": "ORLANDO APP/DEP"
-      }
-    ],
-    "elevation": 10,
-    "tower": true,
-    "name": "NASA Shuttle Landing Facility",
-    "runways": [
-      {
-        "type": 100,
-        "width": 91.44,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 28.632753,
-        "lonStart": -80.706061,
-        "latEnd": 28.597028,
-        "lonEnd": -80.682681,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 17847
-  },
-  {
-    "type": 1,
-    "icao": "KCOF",
-    "lat": 28.23632975,
-    "lon": -80.60981050000001,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11917,
-        "name": "ATIS"
-      },
-      {
-        "type": 52,
-        "frequency": 11840,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 53,
-        "frequency": 12435,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 13375,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 13265,
-        "name": "ORLANDO APP/DEP"
-      },
-      {
-        "type": 55,
-        "frequency": 13495,
-        "name": "ORLANDO APP/DEP"
-      }
-    ],
-    "elevation": 8,
-    "tower": true,
-    "name": "Patrick AFB",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 28.221122,
-        "lonStart": -80.615036,
-        "latEnd": 28.244453,
-        "lonEnd": -80.605489,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 28.2414,
-        "lonStart": -80.615331,
-        "latEnd": 28.238344,
-        "lonEnd": -80.603386,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19837
-  },
-  {
-    "type": 1,
-    "icao": "X65",
-    "lat": 28.29834166,
-    "lon": -80.71866501,
+    "icao": "2FD6",
+    "lat": 28.88804416,
+    "lon": -80.86644222999999,
     "communications": [],
-    "elevation": 27,
+    "elevation": 15,
     "tower": false,
-    "name": "Rockledge Airpark",
+    "name": "Dalphonse Ranch",
     "runways": [
       {
         "type": 100,
-        "width": 13.72,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 28.89031659,
+        "lonStart": -80.86754391,
+        "latEnd": 28.88577173,
+        "lonEnd": -80.86534055,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6954
+  },
+  {
+    "type": 17,
+    "icao": "3FD3",
+    "lat": 28.08779333,
+    "lon": -80.61366445,
+    "communications": [],
+    "elevation": 40,
+    "tower": false,
+    "name": "[H] Holmes Regional Medical Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 21.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 28.08779333,
+        "lonStart": -80.61366445,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.4
+      }
+    ],
+    "id": 7509
+  },
+  {
+    "type": 1,
+    "icao": "3FD6",
+    "lat": 28.76415833,
+    "lon": -80.85394251,
+    "communications": [],
+    "elevation": 5,
+    "tower": false,
+    "name": "Tradewinds Aerodrome",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 28.30109458,
-        "lonStart": -80.71882887,
-        "latEnd": 28.29558874,
-        "lonEnd": -80.71850115,
+        "latStart": 28.76826716,
+        "lonStart": -80.85418816,
+        "latEnd": 28.7600495,
+        "lonEnd": -80.85369686,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 21634
+    "id": 7512
+  },
+  {
+    "type": 17,
+    "icao": "8FD4",
+    "lat": 28.33611777,
+    "lon": -80.73033167,
+    "communications": [],
+    "elevation": 100,
+    "tower": false,
+    "name": "[H] Wuesthoff Hospital Emergency",
+    "runways": [
+      {
+        "type": 102,
+        "width": 21,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 28.33611777,
+        "lonStart": -80.73033167,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21
+      }
+    ],
+    "id": 10039
+  },
+  {
+    "type": 17,
+    "icao": "9FD4",
+    "lat": 28.41833333,
+    "lon": -80.62055556,
+    "communications": [],
+    "elevation": 9,
+    "tower": false,
+    "name": "[H] Port Canaveral North",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 28.41833333,
+        "lonStart": -80.62055556,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 10483
+  },
+  {
+    "type": 1,
+    "icao": "34FD",
+    "lat": 28.857211659999997,
+    "lon": -80.90699889,
+    "communications": [],
+    "elevation": 24,
+    "tower": false,
+    "name": "Blue Ridge Flightpark",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 28.86164838,
+        "lonStart": -80.90826193,
+        "latEnd": 28.85277494,
+        "lonEnd": -80.90573585,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11851
+  },
+  {
+    "type": 17,
+    "icao": "46FL",
+    "lat": 28.62944027,
+    "lon": -80.82199834,
+    "communications": [],
+    "elevation": 8,
+    "tower": false,
+    "name": "[H] Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.8,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 28.62944027,
+        "lonStart": -80.82199834,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.8
+      }
+    ],
+    "id": 12325
+  },
+  {
+    "type": 17,
+    "icao": "92FD",
+    "lat": 28.21834444,
+    "lon": -80.68422028,
+    "communications": [],
+    "elevation": 32,
+    "tower": false,
+    "name": "[H] Nierenberg Estate",
+    "runways": [
+      {
+        "type": 102,
+        "width": 3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 28.21834444,
+        "lonStart": -80.68422028,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 7.6
+      }
+    ],
+    "id": 14089
+  },
+  {
+    "type": 1,
+    "icao": "FD74",
+    "lat": 28.06585111,
+    "lon": -80.9022825,
+    "communications": [],
+    "elevation": 36,
+    "tower": false,
+    "name": "Bruner Groves",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 28.06946302,
+        "lonStart": -80.90256873,
+        "latEnd": 28.0622392,
+        "lonEnd": -80.90199627,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17057
   },
   {
     "type": 1,
@@ -567,17 +516,167 @@
         "surfacetype": 1
       }
     ],
-    "id": 23925
+    "id": 19887
   },
   {
     "type": 1,
-    "icao": "3FD6",
-    "lat": 28.76415833,
-    "lon": -80.85394251,
-    "communications": [],
-    "elevation": 5,
+    "icao": "KTTS",
+    "lat": 28.6148905,
+    "lon": -80.69437099,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12360,
+        "name": "CTAF"
+      },
+      {
+        "type": 53,
+        "frequency": 12175,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12855,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 13495,
+        "name": "ORLANDO APP/DEP"
+      }
+    ],
+    "elevation": 9,
+    "tower": true,
+    "name": "NASA Shuttle Landing Facility",
+    "runways": [
+      {
+        "type": 100,
+        "width": 91.44,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 28.632753,
+        "lonStart": -80.70606099,
+        "latEnd": 28.597028,
+        "lonEnd": -80.68268099,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 19909
+  },
+  {
+    "type": 1,
+    "icao": "KXMR",
+    "lat": 28.467586,
+    "lon": -80.56661500000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11862,
+        "name": "CAPE TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 13495,
+        "name": "ORLANDO APP/DEP"
+      }
+    ],
+    "elevation": 9,
+    "tower": true,
+    "name": "CAPE CANAVERAL AFS SKID STRIP",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 28.476011,
+        "lonStart": -80.578911,
+        "latEnd": 28.459161,
+        "lonEnd": -80.554319,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19981
+  },
+  {
+    "type": 1,
+    "icao": "X21",
+    "lat": 28.622655550000005,
+    "lon": -80.83538570500001,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11972,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 13495,
+        "name": "ORLANDO APP/DEP"
+      }
+    ],
+    "elevation": 29,
     "tower": false,
-    "name": "Tradewinds Aerodrome",
+    "name": "ARTHUR DUNN AIR PARK",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 28.625833,
+        "lonStart": -80.837778,
+        "latEnd": 28.6191732,
+        "lonEnd": -80.83293182,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 28.620833,
+        "lonStart": -80.837083,
+        "latEnd": 28.624783,
+        "lonEnd": -80.83375,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 32367
+  },
+  {
+    "type": 1,
+    "icao": "X50",
+    "lat": 28.978875000000002,
+    "lon": -80.925056,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12535,
+        "name": "DAYTONA APP/DEP"
+      }
+    ],
+    "elevation": 12,
+    "tower": false,
+    "name": "MASSEY RANCH AIRPARK",
     "runways": [
       {
         "type": 100,
@@ -585,139 +684,40 @@
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 28.76826716,
-        "lonStart": -80.85418816,
-        "latEnd": 28.7600495,
-        "lonEnd": -80.85369686,
+        "latStart": 28.984161,
+        "lonStart": -80.925056,
+        "latEnd": 28.973589,
+        "lonEnd": -80.925056,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       }
     ],
-    "id": 25521
+    "id": 32377
   },
   {
-    "type": 17,
-    "icao": "3FD3",
-    "lat": 28.08779333,
-    "lon": -80.61366445,
+    "type": 1,
+    "icao": "X65",
+    "lat": 28.29834166,
+    "lon": -80.71866501,
     "communications": [],
-    "elevation": 40,
+    "elevation": 27,
     "tower": false,
-    "name": "[H] Holmes Regional Medical Center",
+    "name": "Rockledge Airpark",
     "runways": [
       {
-        "type": 102,
-        "width": 21.3,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 28.08779333,
-        "lonStart": -80.61366445,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.4
+        "type": 100,
+        "width": 13.72,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 28.30109458,
+        "lonStart": -80.71882887,
+        "latEnd": 28.29558874,
+        "lonEnd": -80.71850115,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "id": 30274
-  },
-  {
-    "type": 17,
-    "icao": "46FL",
-    "lat": 28.62944027,
-    "lon": -80.82199834,
-    "communications": [],
-    "elevation": 8,
-    "tower": false,
-    "name": "[H] Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.8,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 28.62944027,
-        "lonStart": -80.82199834,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.8
-      }
-    ],
-    "id": 30315
-  },
-  {
-    "type": 17,
-    "icao": "92FD",
-    "lat": 28.21834444,
-    "lon": -80.68422028,
-    "communications": [],
-    "elevation": 32,
-    "tower": false,
-    "name": "[H] Nierenberg Estate",
-    "runways": [
-      {
-        "type": 102,
-        "width": 3,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 28.21834444,
-        "lonStart": -80.68422028,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 7.6
-      }
-    ],
-    "id": 31618
-  },
-  {
-    "type": 17,
-    "icao": "9FD4",
-    "lat": 28.41833333,
-    "lon": -80.62055556,
-    "communications": [],
-    "elevation": 9,
-    "tower": false,
-    "name": "[H] Port Canaveral North",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 28.41833333,
-        "lonStart": -80.62055556,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 32105
-  },
-  {
-    "type": 17,
-    "icao": "8FD4",
-    "lat": 28.33611777,
-    "lon": -80.73033167,
-    "communications": [],
-    "elevation": 100,
-    "tower": false,
-    "name": "[H] Wuesthoff Hospital Emergency",
-    "runways": [
-      {
-        "type": 102,
-        "width": 21,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 28.33611777,
-        "lonStart": -80.73033167,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21
-      }
-    ],
-    "id": 33913
+    "id": 32388
   }
 ]

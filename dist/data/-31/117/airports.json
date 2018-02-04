@@ -1,38 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "YBEC",
-    "lat": -30.476042829999997,
-    "lon": 117.87983134000001,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12760,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 1299,
-    "tower": false,
-    "name": "Beacon",
-    "runways": [
-      {
-        "type": 100,
-        "width": 67.06,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": -30.47026476,
-        "lonStart": 117.87976113,
-        "latEnd": -30.4818209,
-        "lonEnd": 117.87990155,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 2385
-  },
-  {
-    "type": 1,
     "icao": "YBCB",
     "lat": -30.82137146,
     "lon": 117.86717647500001,
@@ -61,7 +29,39 @@
         "surfacetype": 4
       }
     ],
-    "id": 2539
+    "id": 32706
+  },
+  {
+    "type": 1,
+    "icao": "YBEC",
+    "lat": -30.476042829999997,
+    "lon": 117.87983134000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12760,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1299,
+    "tower": false,
+    "name": "Beacon",
+    "runways": [
+      {
+        "type": 100,
+        "width": 67.06,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -30.47026476,
+        "lonStart": 117.87976113,
+        "latEnd": -30.4818209,
+        "lonEnd": 117.87990155,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 32726
   },
   {
     "type": 1,
@@ -87,6 +87,6 @@
         "surfacetype": 4
       }
     ],
-    "id": 13550
+    "id": 33543
   }
 ]

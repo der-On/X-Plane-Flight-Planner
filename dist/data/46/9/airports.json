@@ -1,6 +1,87 @@
 [
   {
     "type": 1,
+    "icao": "LILO",
+    "lat": 46.154591385,
+    "lon": 9.795219535000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12492,
+        "name": "MILANO INFORMATION"
+      }
+    ],
+    "elevation": 899,
+    "tower": false,
+    "name": "Sondrio Caiolo",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.18,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 46.15417493,
+        "lonStart": 9.78847534,
+        "latEnd": 46.15500784,
+        "lonEnd": 9.80196373,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3776
+  },
+  {
+    "type": 17,
+    "icao": "LSXV",
+    "lat": 46.232190316666674,
+    "lon": 9.089508360000002,
+    "communications": [],
+    "elevation": 855,
+    "tower": false,
+    "name": "[H] San Vittore",
+    "runways": [
+      {
+        "type": 102,
+        "width": 5,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 46.23216712,
+        "lonStart": 9.08932797,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 5
+      },
+      {
+        "type": 102,
+        "width": 5,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 46.23219103,
+        "lonStart": 9.08950869,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 5
+      },
+      {
+        "type": 102,
+        "width": 5,
+        "surfaceType": 1,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 46.2322128,
+        "lonStart": 9.08968842,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 5
+      }
+    ],
+    "id": 3967
+  },
+  {
+    "type": 1,
     "icao": "LSZS",
     "lat": 46.532468861428576,
     "lon": 9.88138439,
@@ -94,33 +175,7 @@
         "length": 10.9
       }
     ],
-    "id": 22779
-  },
-  {
-    "type": 1,
-    "icao": "LILO",
-    "lat": 46.1500015,
-    "lon": 9.7166672,
-    "communications": [],
-    "elevation": 901,
-    "tower": false,
-    "name": "Sondrio Caiolo",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 46.1500015,
-        "lonStart": 9.71147244,
-        "latEnd": 46.1500015,
-        "lonEnd": 9.72186196,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 23839
+    "id": 3982
   },
   {
     "type": 17,
@@ -145,56 +200,7 @@
         "length": 25
       }
     ],
-    "id": 29383
-  },
-  {
-    "type": 17,
-    "icao": "LSXV",
-    "lat": 46.232190316666674,
-    "lon": 9.089508360000002,
-    "communications": [],
-    "elevation": 855,
-    "tower": false,
-    "name": "[H] San Vittore",
-    "runways": [
-      {
-        "type": 102,
-        "width": 5,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 46.23216712,
-        "lonStart": 9.08932797,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 5
-      },
-      {
-        "type": 102,
-        "width": 5,
-        "surfaceType": 1,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 46.23219103,
-        "lonStart": 9.08950869,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 5
-      },
-      {
-        "type": 102,
-        "width": 5,
-        "surfaceType": 1,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 46.2322128,
-        "lonStart": 9.08968842,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 5
-      }
-    ],
-    "id": 32550
+    "id": 20893
   },
   {
     "type": 17,
@@ -219,6 +225,6 @@
         "length": 25
       }
     ],
-    "id": 33525
+    "id": 20898
   }
 ]

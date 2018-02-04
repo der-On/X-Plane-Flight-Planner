@@ -1,6 +1,74 @@
 [
   {
     "type": 1,
+    "icao": "SBCC",
+    "lat": -9.339340214,
+    "lon": -54.956153952,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12590,
+        "name": "RDO"
+      }
+    ],
+    "elevation": 1762,
+    "tower": true,
+    "name": "Cachimbo Air Base",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -9.33135879,
+        "lonStart": -54.97693352,
+        "latEnd": -9.33613965,
+        "lonEnd": -54.95372156,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 15,
+        "surfaceType": 15,
+        "numberStart": "H12",
+        "numberEnd": null,
+        "latStart": -9.33285003,
+        "lonStart": -54.97606237,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.8
+      },
+      {
+        "type": 102,
+        "width": 15,
+        "surfaceType": 15,
+        "numberStart": "H30",
+        "numberEnd": null,
+        "latStart": -9.33605813,
+        "lonStart": -54.96086209,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.8
+      },
+      {
+        "type": 102,
+        "width": 19.7,
+        "surfaceType": 2,
+        "numberStart": "H5",
+        "numberEnd": null,
+        "latStart": -9.36029447,
+        "lonStart": -54.91319022,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.4
+      }
+    ],
+    "id": 4599
+  },
+  {
+    "type": 1,
     "icao": "SDNV",
     "lat": -9.50388889,
     "lon": -54.01194444,
@@ -23,65 +91,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 833
-  },
-  {
-    "type": 1,
-    "icao": "SBCC",
-    "lat": -9.3339365,
-    "lon": -54.9654225,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12590,
-        "name": "RDO"
-      }
-    ],
-    "elevation": 1762,
-    "tower": true,
-    "name": "CACHIMBO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": -9.331567,
-        "lonStart": -54.976992,
-        "latEnd": -9.336306,
-        "lonEnd": -54.953853,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 3519
-  },
-  {
-    "type": 1,
-    "icao": "SSNM",
-    "lat": -9.96583333,
-    "lon": -54.885000000000005,
-    "communications": [],
-    "elevation": 968,
-    "tower": false,
-    "name": "Guaranta",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": -9.96152342,
-        "lonStart": -54.8863647,
-        "latEnd": -9.97014324,
-        "lonEnd": -54.8836353,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 10865
+    "id": 25662
   },
   {
     "type": 1,
@@ -107,6 +117,32 @@
         "surfacetype": 5
       }
     ],
-    "id": 26006
+    "id": 26665
+  },
+  {
+    "type": 1,
+    "icao": "SSNM",
+    "lat": -9.96583333,
+    "lon": -54.885000000000005,
+    "communications": [],
+    "elevation": 968,
+    "tower": false,
+    "name": "Guaranta",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -9.96152342,
+        "lonStart": -54.8863647,
+        "latEnd": -9.97014324,
+        "lonEnd": -54.8836353,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 28643
   }
 ]

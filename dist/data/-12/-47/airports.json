@@ -1,6 +1,32 @@
 [
   {
     "type": 1,
+    "icao": "SWDN",
+    "lat": -11.595410000000001,
+    "lon": -46.846748500000004,
+    "communications": [],
+    "elevation": 2001,
+    "tower": true,
+    "name": "Dianopolis",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -11.596392,
+        "lonStart": -46.853603,
+        "latEnd": -11.594428,
+        "lonEnd": -46.839894,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 29131
+  },
+  {
+    "type": 1,
     "icao": "SWMA",
     "lat": -11.833611115,
     "lon": -46.26666667,
@@ -23,7 +49,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 595
+    "id": 29317
   },
   {
     "type": 1,
@@ -49,32 +75,6 @@
         "surfacetype": 5
       }
     ],
-    "id": 2271
-  },
-  {
-    "type": 1,
-    "icao": "SWDN",
-    "lat": -11.595410000000001,
-    "lon": -46.846748500000004,
-    "communications": [],
-    "elevation": 2001,
-    "tower": true,
-    "name": "Dianopolis",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": -11.596392,
-        "lonStart": -46.853603,
-        "latEnd": -11.594428,
-        "lonEnd": -46.839894,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 6253
+    "id": 29606
   }
 ]

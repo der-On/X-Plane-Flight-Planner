@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "FAKN",
-    "lat": -25.383099,
-    "lon": 31.105408,
+    "lat": -25.384263496666666,
+    "lon": 31.103979276666667,
     "communications": [
       {
         "type": 54,
@@ -14,6 +14,11 @@
         "type": 55,
         "frequency": 11920,
         "name": "APP"
+      },
+      {
+        "type": 51,
+        "frequency": 11900,
+        "name": "Lowveld"
       }
     ],
     "elevation": 2829,
@@ -22,25 +27,37 @@
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 45,
         "surfaceType": null,
         "numberStart": "05",
         "numberEnd": "23",
-        "latStart": -25.39272872,
-        "lonStart": 31.09805506,
-        "latEnd": -25.37346928,
-        "lonEnd": 31.11276094,
+        "latStart": -25.395324,
+        "lonStart": 31.09646,
+        "latEnd": -25.370972,
+        "lonEnd": 31.114694,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 18.1,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -25.38649449,
+        "lonStart": 31.10078383,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 17.1
       }
     ],
-    "id": 14152
+    "id": 2136
   },
   {
     "type": 1,
     "icao": "FAMN",
-    "lat": -25.473601,
-    "lon": 31.5658265,
+    "lat": -25.47359022,
+    "lon": 31.56585878,
     "communications": [
       {
         "type": 51,
@@ -60,12 +77,12 @@
         "numberEnd": "27",
         "latStart": -25.475319,
         "lonStart": 31.559939,
-        "latEnd": -25.471883,
-        "lonEnd": 31.571714,
+        "latEnd": -25.47186144,
+        "lonEnd": 31.57177856,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 15742
+    "id": 16826
   }
 ]

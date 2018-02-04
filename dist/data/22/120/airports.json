@@ -1,6 +1,143 @@
 [
   {
     "type": 1,
+    "icao": "RCKH",
+    "lat": 22.577092999999998,
+    "lon": 120.350005845,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12780,
+        "name": "KAOHSIUNG INT'L AIRPORT"
+      },
+      {
+        "type": 52,
+        "frequency": 12180,
+        "name": "KAOHSIUNG TWR CLNCDEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "KAOHSIUNG TWR GROUND CONTROL"
+      },
+      {
+        "type": 54,
+        "frequency": 11870,
+        "name": "KAOHSIUNG TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12070,
+        "name": "KAOHSIUNG TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12150,
+        "name": "KAOHSIUNG TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 23660,
+        "name": "KAOHSIUNG TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 24300,
+        "name": "KAOHSIUNG TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 13165,
+        "name": "KAOHSIUNG APP"
+      }
+    ],
+    "elevation": 30,
+    "tower": true,
+    "name": "KAOHSIUNG INTL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 22.57756829,
+        "lonStart": 120.33466423,
+        "latEnd": 22.57661771,
+        "lonEnd": 120.36534746,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 4422
+  },
+  {
+    "type": 1,
+    "icao": "RCNN",
+    "lat": 22.950393395,
+    "lon": 120.2057126075,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12160,
+        "name": "TAINAN GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11840,
+        "name": "TAINAN TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12110,
+        "name": "KAOHSIUNG APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12470,
+        "name": "KAOHSIUNG APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12570,
+        "name": "KAOHSIUNG APP"
+      }
+    ],
+    "elevation": 62,
+    "tower": true,
+    "name": "TAINAN",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "18R",
+        "numberEnd": "36L",
+        "latStart": 22.96406802,
+        "lonStart": 120.2036169,
+        "latEnd": 22.93662826,
+        "lonEnd": 120.20433869,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "18L",
+        "numberEnd": "36R",
+        "latStart": 22.96415917,
+        "lonStart": 120.20711654,
+        "latEnd": 22.93671813,
+        "lonEnd": 120.2077783,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 4424
+  },
+  {
+    "type": 1,
     "icao": "RCAY",
     "lat": 22.7825335,
     "lon": 120.26257100000001,
@@ -57,31 +194,93 @@
         "surfacetype": 1
       }
     ],
-    "id": 9880
+    "id": 24334
   },
   {
     "type": 1,
-    "icao": "RCKW",
-    "lat": 22.0410735,
-    "lon": 120.73020700000001,
+    "icao": "RCDC",
+    "lat": 22.672368,
+    "lon": 120.4617275,
     "communications": [
       {
         "type": 54,
-        "frequency": 11825,
+        "frequency": 12617,
         "name": "TWR"
       },
       {
         "type": 55,
         "frequency": 12110,
-        "name": "APP"
+        "name": "KAOHSIUNG APP"
       },
       {
         "type": 55,
         "frequency": 12470,
-        "name": "APP"
+        "name": "KAOHSIUNG APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12620,
+        "name": "KAOHSIUNG APP"
       }
     ],
-    "elevation": 46,
+    "elevation": 78,
+    "tower": true,
+    "name": "PINGTUNG SOUTH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 22.671975,
+        "lonStart": 120.450097,
+        "latEnd": 22.672761,
+        "lonEnd": 120.473358,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 24336
+  },
+  {
+    "type": 1,
+    "icao": "RCKW",
+    "lat": 22.040110629999997,
+    "lon": 120.73175735666666,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11825,
+        "name": "HENGCHUN TOWER"
+      },
+      {
+        "type": 54,
+        "frequency": 12150,
+        "name": "HENGCHUN TOWER"
+      },
+      {
+        "type": 54,
+        "frequency": 23660,
+        "name": "HENGCHUN TOWER"
+      },
+      {
+        "type": 54,
+        "frequency": 24300,
+        "name": "HENGCHUN TOWER"
+      },
+      {
+        "type": 55,
+        "frequency": 12110,
+        "name": "KAOHSIUNG APPROACH"
+      },
+      {
+        "type": 55,
+        "frequency": 12470,
+        "name": "KAOHSIUNG APPROACH"
+      }
+    ],
+    "elevation": 45,
     "tower": true,
     "name": "HENGCHUN",
     "runways": [
@@ -91,82 +290,27 @@
         "surfaceType": null,
         "numberStart": "14",
         "numberEnd": "32",
-        "latStart": 22.046825,
-        "lonStart": 120.724772,
-        "latEnd": 22.035322,
-        "lonEnd": 120.735642,
+        "latStart": 22.04682776,
+        "lonStart": 120.72476939,
+        "latEnd": 22.03531924,
+        "lonEnd": 120.73564417,
         "length": 0,
         "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 17.6,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 22.03818489,
+        "lonStart": 120.73485851,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 17.6
       }
     ],
-    "id": 11100
-  },
-  {
-    "type": 1,
-    "icao": "RCKH",
-    "lat": 22.577092999999998,
-    "lon": 120.35000600000001,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12780,
-        "name": "ATIS"
-      },
-      {
-        "type": 52,
-        "frequency": 12180,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12070,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 11870,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12570,
-        "name": "APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12470,
-        "name": "APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12110,
-        "name": "APP"
-      }
-    ],
-    "elevation": 31,
-    "tower": true,
-    "name": "KAOHSIUNG INTL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 22.577567,
-        "lonStart": 120.334706,
-        "latEnd": 22.576619,
-        "lonEnd": 120.365306,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 13231
+    "id": 24342
   },
   {
     "type": 1,
@@ -218,123 +362,6 @@
         "surfacetype": 2
       }
     ],
-    "id": 19401
-  },
-  {
-    "type": 1,
-    "icao": "RCDC",
-    "lat": 22.672368,
-    "lon": 120.4617275,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12617,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12110,
-        "name": "KAOHSIUNG APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12470,
-        "name": "KAOHSIUNG APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12620,
-        "name": "KAOHSIUNG APP"
-      }
-    ],
-    "elevation": 78,
-    "tower": true,
-    "name": "PINGTUNG SOUTH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 22.671975,
-        "lonStart": 120.450097,
-        "latEnd": 22.672761,
-        "lonEnd": 120.473358,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19402
-  },
-  {
-    "type": 1,
-    "icao": "RCNN",
-    "lat": 22.950403,
-    "lon": 120.2057915,
-    "communications": [
-      {
-        "type": 53,
-        "frequency": 12160,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12617,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 11840,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12110,
-        "name": "KAOHSIUNG APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12470,
-        "name": "KAOHSIUNG APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12570,
-        "name": "KAOHSIUNG APP"
-      }
-    ],
-    "elevation": 63,
-    "tower": true,
-    "name": "TAINAN",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "18L",
-        "numberEnd": "36R",
-        "latStart": 22.964278,
-        "lonStart": 120.207167,
-        "latEnd": 22.936667,
-        "lonEnd": 120.207833,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "18R",
-        "numberEnd": "36L",
-        "latStart": 22.964056,
-        "lonStart": 120.203722,
-        "latEnd": 22.936611,
-        "lonEnd": 120.204444,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 24543
+    "id": 24347
   }
 ]

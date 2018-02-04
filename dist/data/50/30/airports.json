@@ -1,41 +1,56 @@
 [
   {
     "type": 1,
-    "icao": "UKKM",
-    "lat": 50.603496,
-    "lon": 30.191932,
+    "icao": "UKKK",
+    "lat": 50.401768585,
+    "lon": 30.451086185,
     "communications": [
       {
+        "type": 50,
+        "frequency": 12747,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 11900,
+        "name": "GND"
+      },
+      {
         "type": 54,
-        "frequency": 11815,
+        "frequency": 12070,
         "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12530,
+        "name": "KYIV RADAR"
       }
     ],
-    "elevation": 517,
+    "elevation": 557,
     "tower": true,
-    "name": "ANTONOV INTL",
+    "name": "ZHULIANY INTL",
     "runways": [
       {
         "type": 100,
-        "width": 56.08,
+        "width": 45,
         "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 50.617686,
-        "lonStart": 30.181278,
-        "latEnd": 50.589306,
-        "lonEnd": 30.202586,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 50.40107066,
+        "lonStart": 30.43482508,
+        "latEnd": 50.40246651,
+        "lonEnd": 30.46734729,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 1
       }
     ],
-    "id": 335
+    "id": 5071
   },
   {
     "type": 1,
     "icao": "UKBB",
-    "lat": 50.3394722,
-    "lon": 30.89290312,
+    "lat": 50.33949377,
+    "lon": 30.8928412625,
     "communications": [
       {
         "type": 50,
@@ -88,84 +103,69 @@
         "name": "KYIV RADAR"
       }
     ],
-    "elevation": 420,
+    "elevation": 419,
     "tower": true,
     "name": "Boryspil",
     "runways": [
       {
         "type": 100,
-        "width": 63.09,
+        "width": 63.1,
         "surfaceType": null,
         "numberStart": "18R",
         "numberEnd": "36L",
-        "latStart": 50.3520872,
-        "lonStart": 30.88167562,
-        "latEnd": 50.3206872,
-        "lonEnd": 30.87942562,
+        "latStart": 50.35211465,
+        "lonStart": 30.88164069,
+        "latEnd": 50.32071539,
+        "lonEnd": 30.87936539,
         "length": 0,
         "surfacetype": 2
       },
       {
         "type": 100,
-        "width": 60.05,
+        "width": 60.06,
         "surfaceType": null,
         "numberStart": "18L",
         "numberEnd": "36R",
-        "latStart": 50.3605572,
-        "lonStart": 30.90659562,
-        "latEnd": 50.3245572,
-        "lonEnd": 30.90391562,
+        "latStart": 50.3605735,
+        "lonStart": 30.90648677,
+        "latEnd": 50.32457154,
+        "lonEnd": 30.9038722,
         "length": 0,
         "surfacetype": 2
       }
     ],
-    "id": 3027
+    "id": 30443
   },
   {
     "type": 1,
-    "icao": "UKKK",
-    "lat": 50.401768585,
-    "lon": 30.451086185,
+    "icao": "UKKM",
+    "lat": 50.603496,
+    "lon": 30.191932,
     "communications": [
       {
-        "type": 50,
-        "frequency": 12747,
-        "name": "ATIS"
-      },
-      {
-        "type": 53,
-        "frequency": 11900,
-        "name": "GND"
-      },
-      {
         "type": 54,
-        "frequency": 12070,
+        "frequency": 11815,
         "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12530,
-        "name": "KYIV RADAR"
       }
     ],
-    "elevation": 557,
+    "elevation": 517,
     "tower": true,
-    "name": "ZHULIANY INTL",
+    "name": "ANTONOV INTL",
     "runways": [
       {
         "type": 100,
-        "width": 45,
+        "width": 56.08,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 50.40107066,
-        "lonStart": 30.43482508,
-        "latEnd": 50.40246651,
-        "lonEnd": 30.46734729,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 50.617686,
+        "lonStart": 30.181278,
+        "latEnd": 50.589306,
+        "lonEnd": 30.202586,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
       }
     ],
-    "id": 27850
+    "id": 30457
   }
 ]

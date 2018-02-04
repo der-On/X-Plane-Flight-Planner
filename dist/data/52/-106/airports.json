@@ -2,9 +2,15 @@
   {
     "type": 1,
     "icao": "CJD3",
-    "lat": 52.99124860500001,
-    "lon": -105.449209195,
-    "communications": [],
+    "lat": 52.9917335875,
+    "lon": -105.44932277,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12320,
+        "name": "Traffic"
+      }
+    ],
     "elevation": 1500,
     "tower": false,
     "name": "Birch Hills",
@@ -15,10 +21,10 @@
         "surfaceType": null,
         "numberStart": "09",
         "numberEnd": "27",
-        "latStart": 52.99317578,
-        "lonStart": -105.4542913,
-        "latEnd": 52.99190878,
-        "lonEnd": -105.44235418,
+        "latStart": 52.99371408,
+        "lonStart": -105.45447124,
+        "latEnd": 52.99225714,
+        "lonEnd": -105.44263748,
         "length": 0,
         "surfacetype": 1
       },
@@ -28,41 +34,47 @@
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 52.99242361,
-        "lonStart": -105.45009565,
-        "latEnd": 52.98748625,
-        "lonEnd": -105.45009565,
+        "latStart": 52.9930278,
+        "lonStart": -105.45009118,
+        "latEnd": 52.98793533,
+        "lonEnd": -105.45009118,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 2747
+    "id": 670
   },
   {
     "type": 1,
-    "icao": "CKS3",
-    "lat": 52.488049000000004,
-    "lon": -105.763885,
-    "communications": [],
-    "elevation": 1875,
+    "icao": "CKT7",
+    "lat": 52.649125964999996,
+    "lon": -105.76290821,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12320,
+        "name": "Traffic"
+      }
+    ],
+    "elevation": 1660,
     "tower": false,
-    "name": "Cudworth",
+    "name": "Wakaw",
     "runways": [
       {
         "type": 100,
-        "width": 22.86,
+        "width": 15.24,
         "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 52.48613168,
-        "lonStart": -105.76855312,
-        "latEnd": 52.48996632,
-        "lonEnd": -105.75921688,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 52.65138836,
+        "lonStart": -105.76800145,
+        "latEnd": 52.64686357,
+        "lonEnd": -105.75781497,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 4
       }
     ],
-    "id": 5559
+    "id": 678
   },
   {
     "type": 1,
@@ -88,7 +100,7 @@
         "surfacetype": 5
       }
     ],
-    "id": 5560
+    "id": 15222
   },
   {
     "type": 1,
@@ -127,32 +139,32 @@
         "surfacetype": 3
       }
     ],
-    "id": 12188
+    "id": 15273
   },
   {
     "type": 1,
-    "icao": "CKT7",
-    "lat": 52.648602,
-    "lon": -105.762900245,
+    "icao": "CKS3",
+    "lat": 52.488049000000004,
+    "lon": -105.763885,
     "communications": [],
-    "elevation": 1660,
+    "elevation": 1875,
     "tower": false,
-    "name": "Wakaw",
+    "name": "Cudworth",
     "runways": [
       {
         "type": 100,
-        "width": 17.98,
+        "width": 22.86,
         "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 52.65077858,
-        "lonStart": -105.76783737,
-        "latEnd": 52.64642542,
-        "lonEnd": -105.75796312,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 52.48613168,
+        "lonStart": -105.76855312,
+        "latEnd": 52.48996632,
+        "lonEnd": -105.75921688,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 26814
+    "id": 15338
   }
 ]

@@ -1,6 +1,44 @@
 [
   {
     "type": 1,
+    "icao": "AR2",
+    "lat": 49.66807300666667,
+    "lon": -116.81666572666667,
+    "communications": [],
+    "elevation": 1758,
+    "tower": false,
+    "name": "Crawford Bay",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 49.67023137,
+        "lonStart": -116.81824261,
+        "latEnd": 49.66311223,
+        "lonEnd": -116.81508859,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 5,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 49.67087542,
+        "lonStart": -116.81666598,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 5
+      }
+    ],
+    "id": 14600
+  },
+  {
+    "type": 1,
     "icao": "CAJ3",
     "lat": 49.036944500000004,
     "lon": -116.4983345,
@@ -29,46 +67,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 405
-  },
-  {
-    "type": 1,
-    "icao": "AR2",
-    "lat": 49.66877365,
-    "lon": -116.8166656,
-    "communications": [],
-    "elevation": 1759,
-    "tower": false,
-    "name": "Crawford Bay",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 49.67023137,
-        "lonStart": -116.81824261,
-        "latEnd": 49.66311223,
-        "lonEnd": -116.81508859,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 1.22,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 49.6708755,
-        "lonStart": -116.81665712,
-        "latEnd": 49.6708755,
-        "lonEnd": -116.81667408,
-        "length": 0,
-        "surfacetype": 12
-      }
-    ],
-    "id": 5467
+    "id": 15082
   },
   {
     "type": 1,
@@ -100,6 +99,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 13258
+    "id": 15102
   }
 ]

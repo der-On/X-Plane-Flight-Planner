@@ -1,48 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "SCQP",
-    "lat": -38.92590139,
-    "lon": -72.6515875,
-    "communications": [
-      {
-        "type": 55,
-        "frequency": 11920,
-        "name": "TEMUCO RADAR"
-      },
-      {
-        "type": 54,
-        "frequency": 11840,
-        "name": "TOWER"
-      },
-      {
-        "type": 53,
-        "frequency": 12160,
-        "name": "GROUND"
-      }
-    ],
-    "elevation": 320,
-    "tower": true,
-    "name": "La AraucanC-a",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": -38.9364,
-        "lonStart": -72.65574444,
-        "latEnd": -38.91540278,
-        "lonEnd": -72.64743056,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 14693
-  },
-  {
-    "type": 1,
     "icao": "SCQC",
     "lat": -38.334388875,
     "lon": -72.58710669999999,
@@ -65,7 +23,133 @@
         "surfacetype": 3
       }
     ],
-    "id": 14699
+    "id": 4801
+  },
+  {
+    "type": 1,
+    "icao": "SCQP",
+    "lat": -38.92590139,
+    "lon": -72.6515875,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 11920,
+        "name": "TEMUCO RADAR"
+      },
+      {
+        "type": 54,
+        "frequency": 11840,
+        "name": "TOWER"
+      },
+      {
+        "type": 53,
+        "frequency": 12160,
+        "name": "GROUND"
+      }
+    ],
+    "elevation": 320,
+    "tower": true,
+    "name": "La Araucanía",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": -38.9364,
+        "lonStart": -72.65574444,
+        "latEnd": -38.91540278,
+        "lonEnd": -72.64743056,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4807
+  },
+  {
+    "type": 1,
+    "icao": "SCTO",
+    "lat": -38.244612384999996,
+    "lon": -72.34834065000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11820,
+        "name": "MULT"
+      }
+    ],
+    "elevation": 1147,
+    "tower": true,
+    "name": "Victoria",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": -38.24939649,
+        "lonStart": -72.34974689,
+        "latEnd": -38.23982828,
+        "lonEnd": -72.34693441,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4841
+  },
+  {
+    "type": 1,
+    "icao": "SCTR",
+    "lat": -38.27123848,
+    "lon": -72.66161277,
+    "communications": [],
+    "elevation": 812,
+    "tower": false,
+    "name": "Traiguén",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -38.27469698,
+        "lonStart": -72.66288615,
+        "latEnd": -38.26777998,
+        "lonEnd": -72.66033939,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4843
+  },
+  {
+    "type": 1,
+    "icao": "SCVO",
+    "lat": -38.2309675,
+    "lon": -72.48521904,
+    "communications": [],
+    "elevation": 978,
+    "tower": false,
+    "name": "María Ester",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -38.23172467,
+        "lonStart": -72.48881639,
+        "latEnd": -38.23021033,
+        "lonEnd": -72.48162169,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4853
   },
   {
     "type": 1,
@@ -107,90 +191,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 16635
-  },
-  {
-    "type": 1,
-    "icao": "SCVO",
-    "lat": -38.2309675,
-    "lon": -72.48521904,
-    "communications": [],
-    "elevation": 978,
-    "tower": false,
-    "name": "MarC-a Ester",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": -38.23172467,
-        "lonStart": -72.48881639,
-        "latEnd": -38.23021033,
-        "lonEnd": -72.48162169,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 16772
-  },
-  {
-    "type": 1,
-    "icao": "SCTR",
-    "lat": -38.27123848,
-    "lon": -72.66161277,
-    "communications": [],
-    "elevation": 812,
-    "tower": false,
-    "name": "TraiguC)n",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": -38.27469698,
-        "lonStart": -72.66288615,
-        "latEnd": -38.26777998,
-        "lonEnd": -72.66033939,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 25525
-  },
-  {
-    "type": 1,
-    "icao": "SCTO",
-    "lat": -38.244612384999996,
-    "lon": -72.34834065000001,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11820,
-        "name": "MULT"
-      }
-    ],
-    "elevation": 1147,
-    "tower": true,
-    "name": "Victoria",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": -38.24939649,
-        "lonStart": -72.34974689,
-        "latEnd": -38.23982828,
-        "lonEnd": -72.34693441,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 26309
+    "id": 25255
   }
 ]

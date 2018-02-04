@@ -1,6 +1,58 @@
 [
   {
     "type": 1,
+    "icao": "KMFR",
+    "lat": 42.374964000000006,
+    "lon": -122.87328898999999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12725,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11940,
+        "name": "MEDFORD TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12430,
+        "name": "CASCADE APP/DEP"
+      }
+    ],
+    "elevation": 1333,
+    "tower": true,
+    "name": "Rogue Valley Intl Medford",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 42.386217,
+        "lonStart": -122.87918599,
+        "latEnd": 42.363711,
+        "lonEnd": -122.86739199,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2957
+  },
+  {
+    "type": 1,
     "icao": "S03",
     "lat": 42.190285,
     "lon": -122.660629,
@@ -29,59 +81,32 @@
         "surfacetype": 1
       }
     ],
-    "id": 1268
+    "id": 4492
   },
   {
-    "type": 1,
-    "icao": "OR96",
-    "lat": 42.53901305,
-    "lon": -122.90393417,
+    "type": 17,
+    "icao": "0OR0",
+    "lat": 42.3387375,
+    "lon": -122.86226112,
     "communications": [],
-    "elevation": 1436,
+    "elevation": 1350,
     "tower": false,
-    "name": "Beagle Sky Ranch",
+    "name": "[H] Providence Hospital",
     "runways": [
       {
-        "type": 100,
-        "width": 39.62,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 42.54303761,
-        "lonStart": -122.90509517,
-        "latEnd": 42.53498849,
-        "lonEnd": -122.90277317,
-        "length": 0,
-        "surfacetype": 3
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 42.3387375,
+        "lonStart": -122.86226112,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
       }
     ],
-    "id": 2389
-  },
-  {
-    "type": 1,
-    "icao": "OR97",
-    "lat": 42.438736379999995,
-    "lon": -122.86365223,
-    "communications": [],
-    "elevation": 1310,
-    "tower": false,
-    "name": "Burrill",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 42.43861672,
-        "lonStart": -122.86829537,
-        "latEnd": 42.43885604,
-        "lonEnd": -122.85900909,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 3430
+    "id": 6092
   },
   {
     "type": 1,
@@ -107,33 +132,58 @@
         "surfacetype": 3
       }
     ],
-    "id": 6913
+    "id": 6097
   },
   {
     "type": 1,
-    "icao": "89OR",
-    "lat": 42.597903880000004,
-    "lon": -122.71253945000001,
+    "icao": "0OR8",
+    "lat": 42.48484694,
+    "lon": -122.86615334,
     "communications": [],
-    "elevation": 2000,
+    "elevation": 1260,
     "tower": false,
-    "name": "Mucky Flat",
+    "name": "Sutton On Rogue",
     "runways": [
       {
         "type": 100,
-        "width": 12.19,
+        "width": 22.86,
         "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 42.59655294,
-        "lonStart": -122.71397327,
-        "latEnd": 42.59925482,
-        "lonEnd": -122.71110563,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 42.48472728,
+        "lonStart": -122.8707999,
+        "latEnd": 42.4849666,
+        "lonEnd": -122.86150678,
         "length": 0,
-        "surfacetype": 5
+        "surfacetype": 3
       }
     ],
-    "id": 17673
+    "id": 6100
+  },
+  {
+    "type": 17,
+    "icao": "8OR8",
+    "lat": 42.35929916,
+    "lon": -122.51113945,
+    "communications": [],
+    "elevation": 2379,
+    "tower": false,
+    "name": "[H] Light Valley Tree Farm",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 4,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 42.35929916,
+        "lonStart": -122.51113945,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 10290
   },
   {
     "type": 1,
@@ -159,7 +209,58 @@
         "surfacetype": 1
       }
     ],
-    "id": 20160
+    "id": 11492
+  },
+  {
+    "type": 17,
+    "icao": "39OR",
+    "lat": 42.42916666,
+    "lon": -122.87555556,
+    "communications": [],
+    "elevation": 1278,
+    "tower": false,
+    "name": "[H] Croman",
+    "runways": [
+      {
+        "type": 102,
+        "width": 36.6,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 42.42916666,
+        "lonStart": -122.87555556,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 45.7
+      }
+    ],
+    "id": 12070
+  },
+  {
+    "type": 1,
+    "icao": "41S",
+    "lat": 42.60818027,
+    "lon": -122.826155,
+    "communications": [],
+    "elevation": 1511,
+    "tower": false,
+    "name": "Rogue-Air",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 42.61052813,
+        "lonStart": -122.8251185,
+        "latEnd": 42.60583241,
+        "lonEnd": -122.8271915,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12151
   },
   {
     "type": 1,
@@ -191,90 +292,58 @@
         "surfacetype": 1
       }
     ],
-    "id": 20569
+    "id": 13051
   },
   {
-    "type": 1,
-    "icao": "KMFR",
-    "lat": 42.374964000000006,
-    "lon": -122.87328898999999,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12725,
-        "name": "ATIS"
-      },
-      {
-        "type": 51,
-        "frequency": 11940,
-        "name": "CTAF"
-      },
-      {
-        "type": 51,
-        "frequency": 12295,
-        "name": "UNICOM"
-      },
-      {
-        "type": 53,
-        "frequency": 12180,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11940,
-        "name": "MEDFORD TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12430,
-        "name": "CASCADE APP/DEP"
-      }
-    ],
-    "elevation": 1334,
-    "tower": true,
-    "name": "Rogue Valley Intl Medford",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 42.386217,
-        "lonStart": -122.87918599,
-        "latEnd": 42.363711,
-        "lonEnd": -122.86739199,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 21667
-  },
-  {
-    "type": 1,
-    "icao": "41S",
-    "lat": 42.60818027,
-    "lon": -122.826155,
+    "type": 17,
+    "icao": "65OR",
+    "lat": 42.20541055,
+    "lon": -122.63364112,
     "communications": [],
-    "elevation": 1511,
+    "elevation": 2100,
     "tower": false,
-    "name": "Rogue-Air",
+    "name": "[H] Timberland Shop",
+    "runways": [
+      {
+        "type": 102,
+        "width": 45.7,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 42.20541055,
+        "lonStart": -122.63364112,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 45.7
+      }
+    ],
+    "id": 13090
+  },
+  {
+    "type": 1,
+    "icao": "89OR",
+    "lat": 42.597903880000004,
+    "lon": -122.71253945000001,
+    "communications": [],
+    "elevation": 2000,
+    "tower": false,
+    "name": "Mucky Flat",
     "runways": [
       {
         "type": 100,
-        "width": 24.38,
+        "width": 12.19,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 42.61052813,
-        "lonStart": -122.8251185,
-        "latEnd": 42.60583241,
-        "lonEnd": -122.8271915,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 42.59655294,
+        "lonStart": -122.71397327,
+        "latEnd": 42.59925482,
+        "lonEnd": -122.71110563,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 5
       }
     ],
-    "id": 21668
+    "id": 14005
   },
   {
     "type": 1,
@@ -300,17 +369,43 @@
         "surfacetype": 3
       }
     ],
-    "id": 23773
+    "id": 23641
   },
   {
     "type": 1,
-    "icao": "0OR8",
-    "lat": 42.48484694,
-    "lon": -122.86615334,
+    "icao": "OR96",
+    "lat": 42.53901305,
+    "lon": -122.90393417,
     "communications": [],
-    "elevation": 1260,
+    "elevation": 1436,
     "tower": false,
-    "name": "Sutton On Rogue",
+    "name": "Beagle Sky Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.62,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 42.54303761,
+        "lonStart": -122.90509517,
+        "latEnd": 42.53498849,
+        "lonEnd": -122.90277317,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23722
+  },
+  {
+    "type": 1,
+    "icao": "OR97",
+    "lat": 42.438736379999995,
+    "lon": -122.86365223,
+    "communications": [],
+    "elevation": 1310,
+    "tower": false,
+    "name": "Burrill",
     "runways": [
       {
         "type": 100,
@@ -318,90 +413,15 @@
         "surfaceType": null,
         "numberStart": "07",
         "numberEnd": "25",
-        "latStart": 42.48472728,
-        "lonStart": -122.8707999,
-        "latEnd": 42.4849666,
-        "lonEnd": -122.86150678,
+        "latStart": 42.43861672,
+        "lonStart": -122.86829537,
+        "latEnd": 42.43885604,
+        "lonEnd": -122.85900909,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 4
       }
     ],
-    "id": 24434
-  },
-  {
-    "type": 17,
-    "icao": "39OR",
-    "lat": 42.42916666,
-    "lon": -122.87555556,
-    "communications": [],
-    "elevation": 1278,
-    "tower": false,
-    "name": "[H] Croman",
-    "runways": [
-      {
-        "type": 102,
-        "width": 36.6,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 42.42916666,
-        "lonStart": -122.87555556,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 45.7
-      }
-    ],
-    "id": 29190
-  },
-  {
-    "type": 17,
-    "icao": "8OR8",
-    "lat": 42.35929916,
-    "lon": -122.51113945,
-    "communications": [],
-    "elevation": 2379,
-    "tower": false,
-    "name": "[H] Light Valley Tree Farm",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 4,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 42.35929916,
-        "lonStart": -122.51113945,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 30898
-  },
-  {
-    "type": 17,
-    "icao": "0OR0",
-    "lat": 42.3387375,
-    "lon": -122.86226112,
-    "communications": [],
-    "elevation": 1350,
-    "tower": false,
-    "name": "[H] Providence Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 42.3387375,
-        "lonStart": -122.86226112,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 32167
+    "id": 23723
   },
   {
     "type": 17,
@@ -426,31 +446,6 @@
         "length": 21.3
       }
     ],
-    "id": 32405
-  },
-  {
-    "type": 17,
-    "icao": "65OR",
-    "lat": 42.20541055,
-    "lon": -122.63364112,
-    "communications": [],
-    "elevation": 2100,
-    "tower": false,
-    "name": "[H] Timberland Shop",
-    "runways": [
-      {
-        "type": 102,
-        "width": 45.7,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 42.20541055,
-        "lonStart": -122.63364112,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 45.7
-      }
-    ],
-    "id": 33326
+    "id": 23725
   }
 ]

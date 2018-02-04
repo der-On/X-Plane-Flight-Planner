@@ -23,7 +23,49 @@
         "surfacetype": 3
       }
     ],
-    "id": 7031
+    "id": 4827
+  },
+  {
+    "type": 1,
+    "icao": "SCVD",
+    "lat": -39.64981528,
+    "lon": -73.086290185,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 11920,
+        "name": "Temuco Approach"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "Valdivia Tower"
+      },
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "Grond Control"
+      }
+    ],
+    "elevation": 72,
+    "tower": true,
+    "name": "Pichoy",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -39.64034165,
+        "lonStart": -73.08663817,
+        "latEnd": -39.65928891,
+        "lonEnd": -73.0859422,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4847
   },
   {
     "type": 1,
@@ -44,7 +86,7 @@
     ],
     "elevation": 13,
     "tower": true,
-    "name": "Las MarC-as",
+    "name": "Las Marías",
     "runways": [
       {
         "type": 100,
@@ -72,58 +114,6 @@
         "length": 7.6
       }
     ],
-    "id": 14987
-  },
-  {
-    "type": 1,
-    "icao": "SCVD",
-    "lat": -39.6499555,
-    "lon": -73.08611138500001,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11830,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12180,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11920,
-        "name": "APP"
-      },
-      {
-        "type": 51,
-        "frequency": 11820,
-        "name": "MULT"
-      },
-      {
-        "type": 50,
-        "frequency": 12770,
-        "name": "AFIS"
-      }
-    ],
-    "elevation": 59,
-    "tower": true,
-    "name": "Pichoy",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": -39.6405391,
-        "lonStart": -73.08653852,
-        "latEnd": -39.6593719,
-        "lonEnd": -73.08568425,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 20093
+    "id": 4850
   }
 ]

@@ -1,53 +1,40 @@
 [
   {
     "type": 1,
-    "icao": "YMIA",
-    "lat": -34.22948845,
-    "lon": 142.0862033875,
+    "icao": "YATP",
+    "lat": -34.35393875,
+    "lon": 142.16943150499998,
     "communications": [
       {
         "type": 51,
         "frequency": 11880,
-        "name": "MILDURA CTAF"
+        "name": "YATPOOL MULT"
       },
       {
-        "type": 52,
+        "type": 54,
         "frequency": 12210,
         "name": "MELBOURNE CNTR"
       }
     ],
-    "elevation": 166,
-    "tower": false,
-    "name": "Mildura",
+    "elevation": 180,
+    "tower": true,
+    "name": "Mildura Yatpool",
     "runways": [
       {
         "type": 100,
-        "width": 50.78,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": -34.22641798,
-        "lonStart": 142.07382233,
-        "latEnd": -34.22971183,
-        "lonEnd": 142.0930934,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 30,
+        "width": 17.98,
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": -34.22583751,
-        "lonStart": 142.08948373,
-        "latEnd": -34.23598648,
-        "lonEnd": 142.08841409,
+        "latStart": -34.3570985,
+        "lonStart": 142.16941601,
+        "latEnd": -34.350779,
+        "lonEnd": 142.169447,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 4
       }
     ],
-    "id": 17182
+    "id": 32667
   },
   {
     "type": 1,
@@ -110,50 +97,63 @@
         "surfacetype": 3
       }
     ],
-    "id": 17183
+    "id": 33827
   },
   {
     "type": 1,
-    "icao": "YATP",
-    "lat": -34.35393875,
-    "lon": 142.16943150499998,
+    "icao": "YMIA",
+    "lat": -34.22948845,
+    "lon": 142.0862033875,
     "communications": [
       {
         "type": 51,
         "frequency": 11880,
-        "name": "YATPOOL MULT"
+        "name": "MILDURA CTAF"
       },
       {
-        "type": 54,
+        "type": 52,
         "frequency": 12210,
         "name": "MELBOURNE CNTR"
       }
     ],
-    "elevation": 180,
-    "tower": true,
-    "name": "Mildura Yatpool",
+    "elevation": 166,
+    "tower": false,
+    "name": "Mildura",
     "runways": [
       {
         "type": 100,
-        "width": 17.98,
+        "width": 50.78,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -34.22641798,
+        "lonStart": 142.07382233,
+        "latEnd": -34.22971183,
+        "lonEnd": 142.0930934,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30,
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": -34.3570985,
-        "lonStart": 142.16941601,
-        "latEnd": -34.350779,
-        "lonEnd": 142.169447,
+        "latStart": -34.22583751,
+        "lonStart": 142.08948373,
+        "latEnd": -34.23598648,
+        "lonEnd": 142.08841409,
         "length": 0,
-        "surfacetype": 4
+        "surfacetype": 1
       }
     ],
-    "id": 17184
+    "id": 33849
   },
   {
     "type": 1,
     "icao": "YROI",
-    "lat": -34.6445202725,
-    "lon": 142.7755146225,
+    "lat": -34.6443728275,
+    "lon": 142.77547561999998,
     "communications": [
       {
         "type": 51,
@@ -171,27 +171,27 @@
         "surfaceType": null,
         "numberStart": "01",
         "numberEnd": "19",
-        "latStart": -34.6468709,
-        "lonStart": 142.77049103,
-        "latEnd": -34.6380691,
-        "lonEnd": 142.77639203,
+        "latStart": -34.64677374,
+        "lonStart": 142.77042602,
+        "latEnd": -34.63781089,
+        "lonEnd": 142.77645103,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 33.46,
+        "width": 34.02,
         "surfaceType": null,
         "numberStart": "12",
         "numberEnd": "30",
-        "latStart": -34.643363,
-        "lonStart": 142.77346616,
-        "latEnd": -34.64977809,
-        "lonEnd": 142.78170927,
+        "latStart": -34.64317326,
+        "lonStart": 142.77341777,
+        "latEnd": -34.64973342,
+        "lonEnd": 142.78160766,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 21610
+    "id": 34330
   }
 ]

@@ -1,6 +1,76 @@
 [
   {
     "type": 1,
+    "icao": "O28",
+    "lat": 39.45217993333333,
+    "lon": -123.37263210666667,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 2062,
+    "tower": false,
+    "name": "ELLS FLD WILLITS MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 39.455397,
+        "lonStart": -123.372722,
+        "latEnd": 39.4472,
+        "lonEnd": -123.371847,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 7.1,
+        "surfaceType": 2,
+        "numberStart": "H17",
+        "numberEnd": null,
+        "latStart": 39.4539428,
+        "lonStart": -123.37332732,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 5.9
+      }
+    ],
+    "id": 4297
+  },
+  {
+    "type": 1,
+    "icao": "8Q3",
+    "lat": 39.4743325,
+    "lon": -123.79557056,
+    "communications": [],
+    "elevation": 70,
+    "tower": false,
+    "name": "Fort Bragg",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 39.47686628,
+        "lonStart": -123.79574259,
+        "latEnd": 39.47179872,
+        "lonEnd": -123.79539853,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10319
+  },
+  {
+    "type": 1,
     "icao": "D83",
     "lat": 39.012637999999995,
     "lon": -123.38264000000001,
@@ -29,65 +99,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 1836
-  },
-  {
-    "type": 1,
-    "icao": "O28",
-    "lat": 39.4512985,
-    "lon": -123.3722845,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 2063,
-    "tower": false,
-    "name": "ELLS FLD WILLITS MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 39.455397,
-        "lonStart": -123.372722,
-        "latEnd": 39.4472,
-        "lonEnd": -123.371847,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 6750
-  },
-  {
-    "type": 1,
-    "icao": "8Q3",
-    "lat": 39.4743325,
-    "lon": -123.79557056,
-    "communications": [],
-    "elevation": 70,
-    "tower": false,
-    "name": "Fort Bragg",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 39.47686628,
-        "lonStart": -123.79574259,
-        "latEnd": 39.47179872,
-        "lonEnd": -123.79539853,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 9593
+    "id": 15935
   },
   {
     "type": 1,
@@ -119,39 +131,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 15347
-  },
-  {
-    "type": 1,
-    "icao": "O09",
-    "lat": 39.789860000000004,
-    "lon": -123.26625000000001,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 1434,
-    "tower": false,
-    "name": "ROUND VALLEY",
-    "runways": [
-      {
-        "type": 100,
-        "width": 16.76,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 39.791942,
-        "lonStart": -123.272219,
-        "latEnd": 39.787778,
-        "lonEnd": -123.260281,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 21051
+    "id": 19415
   },
   {
     "type": 1,
@@ -188,6 +168,38 @@
         "surfacetype": 1
       }
     ],
-    "id": 25796
+    "id": 19928
+  },
+  {
+    "type": 1,
+    "icao": "O09",
+    "lat": 39.789860000000004,
+    "lon": -123.26625000000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1434,
+    "tower": false,
+    "name": "ROUND VALLEY",
+    "runways": [
+      {
+        "type": 100,
+        "width": 16.76,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 39.791942,
+        "lonStart": -123.272219,
+        "latEnd": 39.787778,
+        "lonEnd": -123.260281,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 23094
   }
 ]

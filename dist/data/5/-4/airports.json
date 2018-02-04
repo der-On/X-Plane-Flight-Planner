@@ -2,18 +2,13 @@
   {
     "type": 1,
     "icao": "DIAP",
-    "lat": 5.261386,
-    "lon": -3.926296,
+    "lat": 5.254092932000001,
+    "lon": -3.9307044319999997,
     "communications": [
       {
-        "type": 50,
-        "frequency": 12660,
-        "name": "ATIS"
-      },
-      {
-        "type": 54,
-        "frequency": 12910,
-        "name": "INFO"
+        "type": 55,
+        "frequency": 12110,
+        "name": "APP"
       },
       {
         "type": 54,
@@ -27,18 +22,54 @@
     "runways": [
       {
         "type": 100,
-        "width": 49.99,
+        "width": 44.81,
         "surfaceType": null,
         "numberStart": "03",
         "numberEnd": "21",
-        "latStart": 5.248847,
-        "lonStart": -3.931453,
-        "latEnd": 5.273925,
-        "lonEnd": -3.921139,
+        "latStart": 5.24873248,
+        "lonStart": -3.93103609,
+        "latEnd": 5.27380266,
+        "lonEnd": -3.9207005,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 9.7,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 5.24948437,
+        "lonStart": -3.9338549,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.9
+      },
+      {
+        "type": 102,
+        "width": 9.8,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 5.24930793,
+        "lonStart": -3.93392983,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.7
+      },
+      {
+        "type": 102,
+        "width": 9.8,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 5.24913722,
+        "lonStart": -3.93400084,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.7
       }
     ],
-    "id": 526
+    "id": 921
   }
 ]

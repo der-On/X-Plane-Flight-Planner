@@ -1,281 +1,41 @@
 [
   {
     "type": 1,
-    "icao": "L45",
-    "lat": 35.324874,
-    "lon": -118.996017,
+    "icao": "7CA2",
+    "lat": 35.175437195,
+    "lon": -118.925418485,
     "communications": [
       {
         "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 12645,
-        "name": "APP/DEP"
+        "frequency": 12295,
+        "name": "CTAF"
       }
     ],
-    "elevation": 375,
+    "elevation": 338,
     "tower": false,
-    "name": "BAKERSFIELD MUNI",
+    "name": "PARADISE LAKES",
     "runways": [
       {
         "type": 100,
-        "width": 22.86,
+        "width": 8,
         "surfaceType": null,
         "numberStart": "16",
         "numberEnd": "34",
-        "latStart": 35.330342,
-        "lonStart": -118.996653,
-        "latEnd": 35.319406,
-        "lonEnd": -118.995381,
+        "latStart": 35.17903336,
+        "lonStart": -118.92558792,
+        "latEnd": 35.17184103,
+        "lonEnd": -118.92524905,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 1454
-  },
-  {
-    "type": 1,
-    "icao": "L71",
-    "lat": 35.1506391,
-    "lon": -118.01682401000001,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12087,
-        "name": "AWOS 1"
-      },
-      {
-        "type": 51,
-        "frequency": 12270,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 13365,
-        "name": "JOSHUA APP/DEP"
-      }
-    ],
-    "elevation": 2435,
-    "tower": false,
-    "name": "CALIFORNIA CITY MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 35.14918677,
-        "lonStart": -118.026419,
-        "latEnd": 35.15332077,
-        "lonEnd": -118.0069,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 2,
-        "numberStart": "H16",
-        "numberEnd": null,
-        "latStart": 35.14940976,
-        "lonStart": -118.01715303,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 3552
-  },
-  {
-    "type": 1,
-    "icao": "74CL",
-    "lat": 35.256905270000004,
-    "lon": -118.83343084,
-    "communications": [],
-    "elevation": 517,
-    "tower": false,
-    "name": "Di Giorgio Ranch Landing Strip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 13.41,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 35.26046246,
-        "lonStart": -118.83312622,
-        "latEnd": 35.25334808,
-        "lonEnd": -118.83373546,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 6237
-  },
-  {
-    "type": 1,
-    "icao": "62CL",
-    "lat": 35.40717916,
-    "lon": -118.50008667,
-    "communications": [],
-    "elevation": 3485,
-    "tower": false,
-    "name": "Flying S Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 35.40664156,
-        "lonStart": -118.50636221,
-        "latEnd": 35.40771676,
-        "lonEnd": -118.49381113,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 9507
-  },
-  {
-    "type": 1,
-    "icao": "6CA7",
-    "lat": 35.17996305,
-    "lon": -118.85509862,
-    "communications": [],
-    "elevation": 388,
-    "tower": false,
-    "name": "J&J Crop Dusters Inc",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 35.17960465,
-        "lonStart": -118.85927059,
-        "latEnd": 35.18032145,
-        "lonEnd": -118.85092665,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 12645
-  },
-  {
-    "type": 1,
-    "icao": "L05",
-    "lat": 35.7283335,
-    "lon": -118.419725,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 2614,
-    "tower": false,
-    "name": "KERN VALLEY",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 35.733056,
-        "lonStart": -118.418889,
-        "latEnd": 35.723611,
-        "lonEnd": -118.420561,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 13322
-  },
-  {
-    "type": 1,
-    "icao": "CN37",
-    "lat": 35.38134777,
-    "lon": -118.23091027999999,
-    "communications": [],
-    "elevation": 4071,
-    "tower": false,
-    "name": "Kelso Valley",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 35.3854397,
-        "lonStart": -118.23143778,
-        "latEnd": 35.37725584,
-        "lonEnd": -118.23038278,
-        "length": 0,
-        "surfacetype": 4
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 35.3792518,
-        "lonStart": -118.2344486,
-        "latEnd": 35.38344374,
-        "lonEnd": -118.22737196,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 13729
-  },
-  {
-    "type": 1,
-    "icao": "L94",
-    "lat": 35.101078,
-    "lon": -118.42314,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12300,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 4220,
-    "tower": false,
-    "name": "MOUNTAIN VALLEY",
-    "runways": [
-      {
-        "type": 100,
-        "width": 10.97,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 35.10263144,
-        "lonStart": -118.43111444,
-        "latEnd": 35.09952456,
-        "lonEnd": -118.41516556,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 16335
+    "id": 243
   },
   {
     "type": 1,
     "icao": "KMHV",
-    "lat": 35.05971283,
-    "lon": -118.153106735,
+    "lat": 35.05995914166667,
+    "lon": -118.15272706499998,
     "communications": [
       {
         "type": 50,
@@ -341,149 +101,13 @@
         "numberEnd": "22",
         "latStart": 35.059625,
         "lonStart": -118.164464,
-        "latEnd": 35.06632213,
-        "lonEnd": -118.15411413,
+        "latEnd": 35.0678,
+        "lonEnd": -118.15183611,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 17357
-  },
-  {
-    "type": 1,
-    "icao": "7CA2",
-    "lat": 35.176666499999996,
-    "lon": -118.927222,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12295,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 339,
-    "tower": false,
-    "name": "PARADISE LAKES",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 35.180358,
-        "lonStart": -118.927669,
-        "latEnd": 35.172975,
-        "lonEnd": -118.926775,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19209
-  },
-  {
-    "type": 1,
-    "icao": "9CA0",
-    "lat": 35.11385444,
-    "lon": -118.59814501,
-    "communications": [],
-    "elevation": 3839,
-    "tower": false,
-    "name": "Psk Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 35.11208685,
-        "lonStart": -118.60257539,
-        "latEnd": 35.11562203,
-        "lonEnd": -118.59371463,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 20584
-  },
-  {
-    "type": 1,
-    "icao": "L91",
-    "lat": 35.40662444,
-    "lon": -118.85287251,
-    "communications": [],
-    "elevation": 830,
-    "tower": false,
-    "name": "Rio Bravo",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 35.40691757,
-        "lonStart": -118.8580157,
-        "latEnd": 35.40633131,
-        "lonEnd": -118.84772932,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 21497
-  },
-  {
-    "type": 1,
-    "icao": "91CL",
-    "lat": 35.989945,
-    "lon": -118.08035612,
-    "communications": [],
-    "elevation": 6427,
-    "tower": false,
-    "name": "Sacatar Meadows",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 35.99247586,
-        "lonStart": -118.08499345,
-        "latEnd": 35.98741414,
-        "lonEnd": -118.07571879,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 22654
-  },
-  {
-    "type": 1,
-    "icao": "2CL7",
-    "lat": 35.39829055,
-    "lon": -118.48314139,
-    "communications": [],
-    "elevation": 3600,
-    "tower": false,
-    "name": "Shadow Mountain Airstrip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 35.39861583,
-        "lonStart": -118.48884799,
-        "latEnd": 35.39796527,
-        "lonEnd": -118.47743479,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 23324
+    "id": 2966
   },
   {
     "type": 1,
@@ -520,7 +144,367 @@
         "surfacetype": 1
       }
     ],
-    "id": 24632
+    "id": 3345
+  },
+  {
+    "type": 1,
+    "icao": "L05",
+    "lat": 35.72350203800001,
+    "lon": -118.41873596,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 2613,
+    "tower": false,
+    "name": "KERN VALLEY",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 35.73303294,
+        "lonStart": -118.41923024,
+        "latEnd": 35.72344208,
+        "lonEnd": -118.42017537,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 33.4,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 35.72012081,
+        "lonStart": -118.41802394,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 35.4
+      },
+      {
+        "type": 102,
+        "width": 33.4,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 35.72042634,
+        "lonStart": -118.41794373,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 34.2
+      },
+      {
+        "type": 102,
+        "width": 33.4,
+        "surfaceType": 1,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 35.72048802,
+        "lonStart": -118.41830652,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 34.2
+      }
+    ],
+    "id": 3426
+  },
+  {
+    "type": 1,
+    "icao": "L45",
+    "lat": 35.324878999999996,
+    "lon": -118.9960385,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12645,
+        "name": "BAKERSFIELD APP/DEP"
+      }
+    ],
+    "elevation": 375,
+    "tower": false,
+    "name": "Bakersfield Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 35.330349,
+        "lonStart": -118.996675,
+        "latEnd": 35.319409,
+        "lonEnd": -118.995402,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3439
+  },
+  {
+    "type": 1,
+    "icao": "L71",
+    "lat": 35.1506391,
+    "lon": -118.01682401000001,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12087,
+        "name": "AWOS 1"
+      },
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 13365,
+        "name": "JOSHUA APP/DEP"
+      }
+    ],
+    "elevation": 2435,
+    "tower": false,
+    "name": "CALIFORNIA CITY MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 35.14918677,
+        "lonStart": -118.026419,
+        "latEnd": 35.15332077,
+        "lonEnd": -118.0069,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 2,
+        "numberStart": "H16",
+        "numberEnd": null,
+        "latStart": 35.14940976,
+        "lonStart": -118.01715303,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 3447
+  },
+  {
+    "type": 1,
+    "icao": "L94",
+    "lat": 35.1004807975,
+    "lon": -118.42188331250001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 4220,
+    "tower": false,
+    "name": "MOUNTAIN VALLEY",
+    "runways": [
+      {
+        "type": 100,
+        "width": 11,
+        "surfaceType": null,
+        "numberStart": "09R",
+        "numberEnd": "27L",
+        "latStart": 35.10135122,
+        "lonStart": -118.42801502,
+        "latEnd": 35.09917896,
+        "lonEnd": -118.41585136,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 5,
+        "surfaceType": null,
+        "numberStart": "09L",
+        "numberEnd": "27R",
+        "latStart": 35.10176749,
+        "lonStart": -118.42783825,
+        "latEnd": 35.09962552,
+        "lonEnd": -118.41582862,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3457
+  },
+  {
+    "type": 1,
+    "icao": "2CL7",
+    "lat": 35.39829055,
+    "lon": -118.48314139,
+    "communications": [],
+    "elevation": 3600,
+    "tower": false,
+    "name": "Shadow Mountain Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 35.39861583,
+        "lonStart": -118.48884799,
+        "latEnd": 35.39796527,
+        "lonEnd": -118.47743479,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 6916
+  },
+  {
+    "type": 1,
+    "icao": "6CA7",
+    "lat": 35.17996305,
+    "lon": -118.85509862,
+    "communications": [],
+    "elevation": 388,
+    "tower": false,
+    "name": "J&J Crop Dusters Inc",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 35.17960465,
+        "lonStart": -118.85927059,
+        "latEnd": 35.18032145,
+        "lonEnd": -118.85092665,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 9025
+  },
+  {
+    "type": 1,
+    "icao": "9CA0",
+    "lat": 35.11385444,
+    "lon": -118.59814501,
+    "communications": [],
+    "elevation": 3839,
+    "tower": false,
+    "name": "Psk Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 35.11208685,
+        "lonStart": -118.60257539,
+        "latEnd": 35.11562203,
+        "lonEnd": -118.59371463,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 10445
+  },
+  {
+    "type": 1,
+    "icao": "62CL",
+    "lat": 35.40717916,
+    "lon": -118.50008667,
+    "communications": [],
+    "elevation": 3485,
+    "tower": false,
+    "name": "Flying S Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 35.40664156,
+        "lonStart": -118.50636221,
+        "latEnd": 35.40771676,
+        "lonEnd": -118.49381113,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 12944
+  },
+  {
+    "type": 1,
+    "icao": "74CL",
+    "lat": 35.256905270000004,
+    "lon": -118.83343084,
+    "communications": [],
+    "elevation": 517,
+    "tower": false,
+    "name": "Di Giorgio Ranch Landing Strip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 13.41,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 35.26046246,
+        "lonStart": -118.83312622,
+        "latEnd": 35.25334808,
+        "lonEnd": -118.83373546,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 13423
+  },
+  {
+    "type": 1,
+    "icao": "91CL",
+    "lat": 35.989945,
+    "lon": -118.08035612,
+    "communications": [],
+    "elevation": 6427,
+    "tower": false,
+    "name": "Sacatar Meadows",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 35.99247586,
+        "lonStart": -118.08499345,
+        "latEnd": 35.98741414,
+        "lonEnd": -118.07571879,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14052
   },
   {
     "type": 17,
@@ -545,6 +529,71 @@
         "length": 20.1
       }
     ],
-    "id": 30715
+    "id": 15413
+  },
+  {
+    "type": 1,
+    "icao": "CN37",
+    "lat": 35.38134777,
+    "lon": -118.23091027999999,
+    "communications": [],
+    "elevation": 4071,
+    "tower": false,
+    "name": "Kelso Valley",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 35.3854397,
+        "lonStart": -118.23143778,
+        "latEnd": 35.37725584,
+        "lonEnd": -118.23038278,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 35.3792518,
+        "lonStart": -118.2344486,
+        "latEnd": 35.38344374,
+        "lonEnd": -118.22737196,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 15453
+  },
+  {
+    "type": 1,
+    "icao": "L91",
+    "lat": 35.40662444,
+    "lon": -118.85287251,
+    "communications": [],
+    "elevation": 830,
+    "tower": false,
+    "name": "Rio Bravo",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 35.40691757,
+        "lonStart": -118.8580157,
+        "latEnd": 35.40633131,
+        "lonEnd": -118.84772932,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20018
   }
 ]

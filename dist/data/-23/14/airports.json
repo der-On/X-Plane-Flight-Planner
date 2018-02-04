@@ -1,61 +1,48 @@
 [
   {
     "type": 1,
-    "icao": "FYAR",
-    "lat": -22.462222,
-    "lon": 14.98,
+    "icao": "FYSM",
+    "lat": -22.6604285,
+    "lon": 14.56973575,
     "communications": [
       {
         "type": 54,
-        "frequency": 12350,
-        "name": "A/G VOICE RDO"
+        "frequency": 12630,
+        "name": "COMM"
       }
     ],
-    "elevation": 1904,
-    "tower": false,
-    "name": "ARANDIS",
+    "elevation": 0,
+    "tower": true,
+    "name": "Swakopmund Airport",
     "runways": [
       {
         "type": 100,
-        "width": 20.12,
+        "width": 35.14,
         "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": -22.463583,
-        "lonStart": 14.970778,
-        "latEnd": -22.460861,
-        "lonEnd": 14.989222,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -22.657966,
+        "lonStart": 14.566163,
+        "latEnd": -22.664841,
+        "lonEnd": 14.570356,
         "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 358
-  },
-  {
-    "type": 1,
-    "icao": "FYHN",
-    "lat": -22.103450000000002,
-    "lon": 14.3025,
-    "communications": [],
-    "elevation": 120,
-    "tower": false,
-    "name": "Henties Bay",
-    "runways": [
+        "surfacetype": 4
+      },
       {
         "type": 100,
-        "width": 7.01,
+        "width": 25.59,
         "surfaceType": null,
         "numberStart": "06",
         "numberEnd": "24",
-        "latStart": -22.1068,
-        "lonStart": 14.2962,
-        "latEnd": -22.1001,
-        "lonEnd": 14.3088,
+        "latStart": -22.664261,
+        "lonStart": 14.565881,
+        "latEnd": -22.654646,
+        "lonEnd": 14.576543,
         "length": 0,
         "surfacetype": 4
       }
     ],
-    "id": 11698
+    "id": 2220
   },
   {
     "type": 1,
@@ -87,7 +74,65 @@
         "surfacetype": 1
       }
     ],
-    "id": 26481
+    "id": 2223
+  },
+  {
+    "type": 1,
+    "icao": "FYAR",
+    "lat": -22.462222,
+    "lon": 14.98,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12350,
+        "name": "A/G VOICE RDO"
+      }
+    ],
+    "elevation": 1904,
+    "tower": false,
+    "name": "ARANDIS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -22.463583,
+        "lonStart": 14.970778,
+        "latEnd": -22.460861,
+        "lonEnd": 14.989222,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17461
+  },
+  {
+    "type": 1,
+    "icao": "FYHN",
+    "lat": -22.103450000000002,
+    "lon": 14.3025,
+    "communications": [],
+    "elevation": 120,
+    "tower": false,
+    "name": "Henties Bay",
+    "runways": [
+      {
+        "type": 100,
+        "width": 7.01,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -22.1068,
+        "lonStart": 14.2962,
+        "latEnd": -22.1001,
+        "lonEnd": 14.3088,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 17505
   },
   {
     "type": 1,
@@ -113,6 +158,6 @@
         "surfacetype": 4
       }
     ],
-    "id": 27485
+    "id": 17618
   }
 ]

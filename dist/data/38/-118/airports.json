@@ -1,29 +1,53 @@
 [
   {
     "type": 1,
-    "icao": "NV31",
-    "lat": 38.80576388,
-    "lon": -117.03119527999999,
-    "communications": [],
-    "elevation": 6620,
+    "icao": "KTPH",
+    "lat": 38.060420725,
+    "lon": -117.08664023,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11887,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 5425,
     "tower": false,
-    "name": "Barker Creek Ranch Airstrip",
+    "name": "TONOPAH",
     "runways": [
       {
         "type": 100,
-        "width": 9.14,
+        "width": 24.38,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 38.80624309,
-        "lonStart": -117.03349026,
-        "latEnd": 38.80528467,
-        "lonEnd": -117.0289003,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 38.0676591,
+        "lonStart": -117.09276482,
+        "latEnd": 38.0486909,
+        "lonEnd": -117.08632501,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 38.06755113,
+        "lonStart": -117.09256516,
+        "latEnd": 38.05778177,
+        "lonEnd": -117.07490593,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 2241
+    "id": 3341
   },
   {
     "type": 1,
@@ -49,7 +73,39 @@
         "surfacetype": 4
       }
     ],
-    "id": 5129
+    "id": 7278
+  },
+  {
+    "type": 1,
+    "icao": "A36",
+    "lat": 38.693889,
+    "lon": -117.146669,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 5744,
+    "tower": false,
+    "name": "HADLEY",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 38.703056,
+        "lonStart": -117.146669,
+        "latEnd": 38.684722,
+        "lonEnd": -117.146669,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14385
   },
   {
     "type": 1,
@@ -88,89 +144,33 @@
         "surfacetype": 4
       }
     ],
-    "id": 10246
+    "id": 19182
   },
   {
     "type": 1,
-    "icao": "A36",
-    "lat": 38.693889,
-    "lon": -117.146669,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 5744,
+    "icao": "NV31",
+    "lat": 38.80576388,
+    "lon": -117.03119527999999,
+    "communications": [],
+    "elevation": 6620,
     "tower": false,
-    "name": "HADLEY",
+    "name": "Barker Creek Ranch Airstrip",
     "runways": [
       {
         "type": 100,
-        "width": 18.29,
+        "width": 9.14,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 38.703056,
-        "lonStart": -117.146669,
-        "latEnd": 38.684722,
-        "lonEnd": -117.146669,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 38.80624309,
+        "lonStart": -117.03349026,
+        "latEnd": 38.80528467,
+        "lonEnd": -117.0289003,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 10949
-  },
-  {
-    "type": 1,
-    "icao": "KTPH",
-    "lat": 38.0605215,
-    "lon": -117.08680425,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11887,
-        "name": "ASOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12300,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 5426,
-    "tower": false,
-    "name": "TONOPAH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 38.067533,
-        "lonStart": -117.092722,
-        "latEnd": 38.048817,
-        "lonEnd": -117.086367,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 38.067169,
-        "lonStart": -117.091839,
-        "latEnd": 38.058567,
-        "lonEnd": -117.076289,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 24792
+    "id": 22926
   },
   {
     "type": 1,
@@ -196,6 +196,6 @@
         "surfacetype": 5
       }
     ],
-    "id": 27417
+    "id": 22938
   }
 ]

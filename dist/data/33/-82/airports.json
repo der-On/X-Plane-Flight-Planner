@@ -1,64 +1,72 @@
 [
   {
     "type": 1,
-    "icao": "KAIK",
-    "lat": 33.6492785,
-    "lon": -81.684389,
+    "icao": "6J0",
+    "lat": 33.7946345,
+    "lon": -81.24586149999999,
     "communications": [
       {
-        "type": 50,
-        "frequency": 11802,
-        "name": "AWOS 3"
-      },
-      {
         "type": 51,
-        "frequency": 12280,
+        "frequency": 12300,
         "name": "CTAF/UNICOM"
       },
       {
         "type": 55,
-        "frequency": 11915,
-        "name": "AUGUSTA APP/DEP"
+        "frequency": 12415,
+        "name": "COLUMBIA APP/DEP"
       }
     ],
-    "elevation": 527,
+    "elevation": 451,
     "tower": false,
-    "name": "Aiken Muni",
+    "name": "Lexington County At Pelion",
     "runways": [
       {
         "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 33.646072,
-        "lonStart": -81.695781,
-        "latEnd": 33.653553,
-        "lonEnd": -81.680078,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 22.86,
+        "width": 18.29,
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 33.653964,
-        "lonStart": -81.680808,
-        "latEnd": 33.643525,
-        "lonEnd": -81.680889,
+        "latStart": 33.800511,
+        "lonStart": -81.247017,
+        "latEnd": 33.788758,
+        "lonEnd": -81.244706,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 729
+    "id": 219
+  },
+  {
+    "type": 1,
+    "icao": "7J1",
+    "lat": 33.785928935,
+    "lon": -81.09211189,
+    "communications": [],
+    "elevation": 458,
+    "tower": false,
+    "name": "Lexington County",
+    "runways": [
+      {
+        "type": 100,
+        "width": 38.1,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 33.78745125,
+        "lonStart": -81.09753345,
+        "latEnd": 33.78440662,
+        "lonEnd": -81.08669033,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 246
   },
   {
     "type": 1,
     "icao": "KAGS",
-    "lat": 33.36967625,
-    "lon": -81.96389525000001,
+    "lat": 33.369903124000004,
+    "lon": -81.965049516,
     "communications": [
       {
         "type": 51,
@@ -124,154 +132,77 @@
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": 33.366039,
-        "lonStart": -81.969233,
-        "latEnd": 33.369408,
-        "lonEnd": -81.949992,
+        "latStart": 33.36606455,
+        "lonStart": -81.96914212,
+        "latEnd": 33.36943355,
+        "lonEnd": -81.94990112,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.37075952,
+        "lonStart": -81.96984834,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
       }
     ],
-    "id": 1325
+    "id": 2329
   },
   {
     "type": 1,
-    "icao": "99N",
-    "lat": 33.304532,
-    "lon": -81.108407,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 230,
-    "tower": false,
-    "name": "BAMBERG CO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 33.30095,
-        "lonStart": -81.112475,
-        "latEnd": 33.308114,
-        "lonEnd": -81.104339,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 1481
-  },
-  {
-    "type": 1,
-    "icao": "KBNL",
-    "lat": 33.25779299999999,
-    "lon": -81.38829325,
+    "icao": "KAIK",
+    "lat": 33.64927625,
+    "lon": -81.68439224999999,
     "communications": [
       {
         "type": 50,
-        "frequency": 11977,
+        "frequency": 11802,
         "name": "AWOS 3"
       },
       {
         "type": 51,
         "frequency": 12280,
         "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 13250,
-        "name": "JACKSONVILLE APP/DEP"
       }
     ],
-    "elevation": 246,
+    "elevation": 527,
     "tower": false,
-    "name": "Barnwell Co",
+    "name": "Aiken Municipal",
     "runways": [
-      {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 33.252586,
-        "lonStart": -81.398342,
-        "latEnd": 33.262725,
-        "lonEnd": -81.386103,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 20.73,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 33.25258672,
-        "lonStart": -81.39834659,
-        "latEnd": 33.26272528,
-        "lonEnd": -81.38610741,
-        "length": 0,
-        "surfacetype": 1
-      },
       {
         "type": 100,
         "width": 30.48,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 33.26455502,
-        "lonStart": -81.3871677,
-        "latEnd": 33.25130698,
-        "lonEnd": -81.3815543,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 33.646072,
+        "lonStart": -81.695781,
+        "latEnd": 33.653553,
+        "lonEnd": -81.680078,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 33.264553,
-        "lonStart": -81.387169,
-        "latEnd": 33.251306,
-        "lonEnd": -81.381556,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 2261
-  },
-  {
-    "type": 1,
-    "icao": "SC55",
-    "lat": 33.00571555,
-    "lon": -81.04843722999999,
-    "communications": [],
-    "elevation": 120,
-    "tower": false,
-    "name": "Broxton Bridge Plantation",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
+        "width": 22.86,
         "surfaceType": null,
         "numberStart": "01",
         "numberEnd": "19",
-        "latStart": 33.00216921,
-        "lonStart": -81.04888169,
-        "latEnd": 33.00926189,
-        "lonEnd": -81.04799277,
+        "latStart": 33.643519,
+        "lonStart": -81.680892,
+        "latEnd": 33.653961,
+        "lonEnd": -81.680818,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       }
     ],
-    "id": 3281
+    "id": 2333
   },
   {
     "type": 1,
@@ -358,13 +289,52 @@
         "length": 14.6
       }
     ],
-    "id": 4061
+    "id": 2463
+  },
+  {
+    "type": 1,
+    "icao": "KXNO",
+    "lat": 33.6099381475,
+    "lon": -81.07861394,
+    "communications": [],
+    "elevation": 319,
+    "tower": true,
+    "name": "North AF Auxiliary",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 33.600856,
+        "lonStart": -81.097147,
+        "latEnd": 33.617168,
+        "lonEnd": -81.070693,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 33.60738256,
+        "lonStart": -81.07727685,
+        "latEnd": 33.61434603,
+        "lonEnd": -81.06933891,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3411
   },
   {
     "type": 1,
     "icao": "SC13",
-    "lat": 33.84070638,
-    "lon": -81.18370917,
+    "lat": 33.84074493,
+    "lon": -81.18593254999999,
     "communications": [],
     "elevation": 450,
     "tower": false,
@@ -372,27 +342,27 @@
     "runways": [
       {
         "type": 100,
-        "width": 60.96,
+        "width": 48.77,
         "surfaceType": null,
         "numberStart": "12",
         "numberEnd": "30",
-        "latStart": 33.84269041,
-        "lonStart": -81.18860674,
-        "latEnd": 33.83872235,
-        "lonEnd": -81.1788116,
+        "latStart": 33.84263438,
+        "lonStart": -81.19077589,
+        "latEnd": 33.83885548,
+        "lonEnd": -81.18108921,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 6003
+    "id": 4678
   },
   {
     "type": 1,
     "icao": "SC23",
-    "lat": 33.76403833,
-    "lon": -81.35871278,
+    "lat": 33.76670342,
+    "lon": -81.35831713,
     "communications": [],
-    "elevation": 460,
+    "elevation": 459,
     "tower": false,
     "name": "Eagles Nest-Fairview Airpark",
     "runways": [
@@ -402,28 +372,169 @@
         "surfaceType": null,
         "numberStart": "02",
         "numberEnd": "20",
-        "latStart": 33.76047876,
-        "lonStart": -81.35994056,
-        "latEnd": 33.7675979,
-        "lonEnd": -81.357485,
+        "latStart": 33.76196917,
+        "lonStart": -81.35896304,
+        "latEnd": 33.76883166,
+        "lonEnd": -81.35695266,
         "length": 0,
         "surfacetype": 3
       },
       {
         "type": 100,
-        "width": 60.96,
+        "width": 30.95,
         "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 33.7621893,
-        "lonStart": -81.35979758,
-        "latEnd": 33.76588736,
-        "lonEnd": -81.35762798,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 33.76793776,
+        "lonStart": -81.36047023,
+        "latEnd": 33.76807509,
+        "lonEnd": -81.35688259,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 6887
+    "id": 4683
+  },
+  {
+    "type": 1,
+    "icao": "SC24",
+    "lat": 33.84239877,
+    "lon": -81.217681465,
+    "communications": [],
+    "elevation": 524,
+    "tower": false,
+    "name": "Falcon",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 33.84209837,
+        "lonStart": -81.22223895,
+        "latEnd": 33.84269917,
+        "lonEnd": -81.21312398,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4684
+  },
+  {
+    "type": 1,
+    "icao": "SC45",
+    "lat": 33.88300819,
+    "lon": -81.38386897999999,
+    "communications": [],
+    "elevation": 550,
+    "tower": false,
+    "name": "Gilbert International",
+    "runways": [
+      {
+        "type": 100,
+        "width": 48.92,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 33.88300943,
+        "lonStart": -81.38952495,
+        "latEnd": 33.88300695,
+        "lonEnd": -81.37821301,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4685
+  },
+  {
+    "type": 1,
+    "icao": "SC99",
+    "lat": 33.96385941,
+    "lon": -81.358289695,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 520,
+    "tower": false,
+    "name": "White Plains",
+    "runways": [
+      {
+        "type": 100,
+        "width": 10.67,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 33.96385786,
+        "lonStart": -81.36323762,
+        "latEnd": 33.96386096,
+        "lonEnd": -81.35334177,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4689
+  },
+  {
+    "type": 17,
+    "icao": "4GA2",
+    "lat": 33.47124777,
+    "lon": -81.98122667,
+    "communications": [],
+    "elevation": 139,
+    "tower": false,
+    "name": "[H] University Hosp",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.9,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.47124777,
+        "lonStart": -81.98122667,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.9
+      }
+    ],
+    "id": 8067
+  },
+  {
+    "type": 1,
+    "icao": "6J4",
+    "lat": 33.926666499999996,
+    "lon": -81.7947235,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 555,
+    "tower": false,
+    "name": "SALUDA CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 33.922336,
+        "lonStart": -81.795639,
+        "latEnd": 33.930997,
+        "lonEnd": -81.793808,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 9155
   },
   {
     "type": 1,
@@ -462,375 +573,145 @@
         "surfacetype": 3
       }
     ],
-    "id": 6962
+    "id": 9157
   },
   {
     "type": 1,
-    "icao": "SC35",
-    "lat": 33.08960416,
-    "lon": -81.00815695,
-    "communications": [],
-    "elevation": 146,
+    "icao": "99N",
+    "lat": 33.304532,
+    "lon": -81.108407,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 230,
     "tower": false,
-    "name": "Ehrhardt",
+    "name": "BAMBERG CO",
     "runways": [
       {
         "type": 100,
-        "width": 24.38,
+        "width": 18.29,
         "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 33.09088948,
-        "lonStart": -81.01350707,
-        "latEnd": 33.08831884,
-        "lonEnd": -81.00280683,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 33.30095,
+        "lonStart": -81.112475,
+        "latEnd": 33.308114,
+        "lonEnd": -81.104339,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       }
     ],
-    "id": 7002
+    "id": 14332
   },
   {
-    "type": 1,
-    "icao": "SC24",
-    "lat": 33.84237222,
-    "lon": -81.21732139,
+    "type": 17,
+    "icao": "GA51",
+    "lat": 33.12515111,
+    "lon": -81.74539056,
     "communications": [],
-    "elevation": 525,
+    "elevation": 128,
     "tower": false,
-    "name": "Falcon",
+    "name": "[H] Vegp Visitor Center",
     "runways": [
       {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 33.84210434,
-        "lonStart": -81.22193365,
-        "latEnd": 33.8426401,
-        "lonEnd": -81.21270913,
-        "length": 0,
-        "surfacetype": 3
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.12515111,
+        "lonStart": -81.74539056,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
       }
     ],
-    "id": 7773
+    "id": 17699
   },
   {
     "type": 1,
-    "icao": "SC94",
-    "lat": 33.36931888,
-    "lon": -81.23482639,
-    "communications": [],
-    "elevation": 284,
-    "tower": false,
-    "name": "Free Fall Farms",
-    "runways": [
+    "icao": "KBNL",
+    "lat": 33.25779299999999,
+    "lon": -81.38829325,
+    "communications": [
       {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 33.37167884,
-        "lonStart": -81.23886208,
-        "latEnd": 33.36695892,
-        "lonEnd": -81.2307907,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9701
-  },
-  {
-    "type": 1,
-    "icao": "SC45",
-    "lat": 33.88403527,
-    "lon": -81.38176834,
-    "communications": [],
-    "elevation": 551,
-    "tower": false,
-    "name": "Gilbert International",
-    "runways": [
+        "type": 50,
+        "frequency": 11977,
+        "name": "AWOS 3"
+      },
       {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 33.88370042,
-        "lonStart": -81.38753648,
-        "latEnd": 33.88437012,
-        "lonEnd": -81.3760002,
-        "length": 0,
-        "surfacetype": 3
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 13250,
+        "name": "JACKSONVILLE APP/DEP"
       }
     ],
-    "id": 10462
-  },
-  {
-    "type": 1,
-    "icao": "SC20",
-    "lat": 33.48430444,
-    "lon": -81.82594528,
-    "communications": [],
-    "elevation": 458,
+    "elevation": 246,
     "tower": false,
-    "name": "Harman",
+    "name": "Barnwell Co",
     "runways": [
       {
         "type": 100,
         "width": 21.34,
         "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 33.48627758,
-        "lonStart": -81.82822987,
-        "latEnd": 33.4823313,
-        "lonEnd": -81.82366069,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11455
-  },
-  {
-    "type": 1,
-    "icao": "SC46",
-    "lat": 33.850976939999995,
-    "lon": -81.54843722999999,
-    "communications": [],
-    "elevation": 540,
-    "tower": false,
-    "name": "House Movers Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 33.85134968,
-        "lonStart": -81.55270741,
-        "latEnd": 33.8506042,
-        "lonEnd": -81.54416705,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 12097
-  },
-  {
-    "type": 1,
-    "icao": "6J0",
-    "lat": 33.7946345,
-    "lon": -81.24586149999999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 12415,
-        "name": "COLUMBIA APP/DEP"
-      }
-    ],
-    "elevation": 452,
-    "tower": false,
-    "name": "LEXINGTON COUNTY AT PELION",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 33.800511,
-        "lonStart": -81.247017,
-        "latEnd": 33.788758,
-        "lonEnd": -81.244706,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 14504
-  },
-  {
-    "type": 1,
-    "icao": "7J1",
-    "lat": 33.78681972,
-    "lon": -81.09481723,
-    "communications": [],
-    "elevation": 459,
-    "tower": false,
-    "name": "Lexington County",
-    "runways": [
-      {
-        "type": 100,
-        "width": 27.43,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 33.78800886,
-        "lonStart": -81.10015699,
-        "latEnd": 33.78563058,
-        "lonEnd": -81.08947747,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15231
-  },
-  {
-    "type": 1,
-    "icao": "KXNO",
-    "lat": 33.609930000000006,
-    "lon": -81.07862075,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 11815,
-        "name": "CTAF"
-      },
-      {
-        "type": 52,
-        "frequency": 12047,
-        "name": "COLUMBIA CLNC DEL"
-      },
-      {
-        "type": 53,
-        "frequency": 11815,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11815,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12415,
-        "name": "COLUMBIA APP/DEP"
-      }
-    ],
-    "elevation": 321,
-    "tower": true,
-    "name": "NORTH AF AUX",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 33.600856,
-        "lonStart": -81.097136,
-        "latEnd": 33.617153,
-        "lonEnd": -81.070697,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 27.43,
-        "surfaceType": null,
         "numberStart": "05",
         "numberEnd": "23",
-        "latStart": 33.607389,
-        "lonStart": -81.077306,
-        "latEnd": 33.614322,
-        "lonEnd": -81.069344,
+        "latStart": 33.252586,
+        "lonStart": -81.398342,
+        "latEnd": 33.262725,
+        "lonEnd": -81.386103,
         "length": 0,
         "surfacetype": 1
-      }
-    ],
-    "id": 17983
-  },
-  {
-    "type": 1,
-    "icao": "SC95",
-    "lat": 33.629315829999996,
-    "lon": -81.32972223,
-    "communications": [],
-    "elevation": 438,
-    "tower": false,
-    "name": "Perry International",
-    "runways": [
+      },
+      {
+        "type": 100,
+        "width": 20.73,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 33.25258672,
+        "lonStart": -81.39834659,
+        "latEnd": 33.26272528,
+        "lonEnd": -81.38610741,
+        "length": 0,
+        "surfacetype": 1
+      },
       {
         "type": 100,
         "width": 30.48,
         "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 33.62641775,
-        "lonStart": -81.33718641,
-        "latEnd": 33.63221391,
-        "lonEnd": -81.32225805,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 33.26455502,
+        "lonStart": -81.3871677,
+        "latEnd": 33.25130698,
+        "lonEnd": -81.3815543,
         "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 19985
-  },
-  {
-    "type": 1,
-    "icao": "6J4",
-    "lat": 33.926666499999996,
-    "lon": -81.7947235,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 555,
-    "tower": false,
-    "name": "SALUDA CO",
-    "runways": [
+        "surfacetype": 1
+      },
       {
         "type": 100,
-        "width": 18.29,
+        "width": 30.48,
         "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 33.922336,
-        "lonStart": -81.795639,
-        "latEnd": 33.930997,
-        "lonEnd": -81.793808,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 33.264553,
+        "lonStart": -81.387169,
+        "latEnd": 33.251306,
+        "lonEnd": -81.381556,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 21940
-  },
-  {
-    "type": 1,
-    "icao": "SC01",
-    "lat": 33.039045,
-    "lon": -81.29427333999999,
-    "communications": [],
-    "elevation": 203,
-    "tower": false,
-    "name": "Sugar Hill",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 33.04155084,
-        "lonStart": -81.29560421,
-        "latEnd": 33.03653916,
-        "lonEnd": -81.29294247,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 24325
+    "id": 18882
   },
   {
     "type": 1,
@@ -862,39 +743,59 @@
         "surfacetype": 1
       }
     ],
-    "id": 24930
+    "id": 24603
   },
   {
     "type": 1,
-    "icao": "SC99",
-    "lat": 33.9638885,
-    "lon": -81.359167,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12300,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 520,
+    "icao": "SC01",
+    "lat": 33.039045,
+    "lon": -81.29427333999999,
+    "communications": [],
+    "elevation": 203,
     "tower": false,
-    "name": "WHITE PLAINS",
+    "name": "Sugar Hill",
     "runways": [
       {
         "type": 100,
-        "width": 10.67,
+        "width": 22.86,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 33.963258,
-        "lonStart": -81.364056,
-        "latEnd": 33.964519,
-        "lonEnd": -81.354278,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 33.04155084,
+        "lonStart": -81.29560421,
+        "latEnd": 33.03653916,
+        "lonEnd": -81.29294247,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 26621
+    "id": 25163
+  },
+  {
+    "type": 1,
+    "icao": "SC20",
+    "lat": 33.48430444,
+    "lon": -81.82594528,
+    "communications": [],
+    "elevation": 458,
+    "tower": false,
+    "name": "Harman",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 33.48627758,
+        "lonStart": -81.82822987,
+        "latEnd": 33.4823313,
+        "lonEnd": -81.82366069,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25177
   },
   {
     "type": 17,
@@ -919,56 +820,136 @@
         "length": 15.2
       }
     ],
-    "id": 32578
+    "id": 25182
   },
   {
-    "type": 17,
-    "icao": "4GA2",
-    "lat": 33.47124777,
-    "lon": -81.98122667,
+    "type": 1,
+    "icao": "SC35",
+    "lat": 33.08960416,
+    "lon": -81.00815695,
     "communications": [],
-    "elevation": 139,
+    "elevation": 146,
     "tower": false,
-    "name": "[H] University Hosp",
+    "name": "Ehrhardt",
     "runways": [
       {
-        "type": 102,
-        "width": 15.9,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.47124777,
-        "lonStart": -81.98122667,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.9
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 33.09088948,
+        "lonStart": -81.01350707,
+        "latEnd": 33.08831884,
+        "lonEnd": -81.00280683,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 33501
+    "id": 25187
   },
   {
-    "type": 17,
-    "icao": "GA51",
-    "lat": 33.12515111,
-    "lon": -81.74539056,
+    "type": 1,
+    "icao": "SC46",
+    "lat": 33.850976939999995,
+    "lon": -81.54843722999999,
     "communications": [],
-    "elevation": 128,
+    "elevation": 540,
     "tower": false,
-    "name": "[H] Vegp Visitor Center",
+    "name": "House Movers Field",
     "runways": [
       {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.12515111,
-        "lonStart": -81.74539056,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 33.85134968,
+        "lonStart": -81.55270741,
+        "latEnd": 33.8506042,
+        "lonEnd": -81.54416705,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 33600
+    "id": 25196
+  },
+  {
+    "type": 1,
+    "icao": "SC55",
+    "lat": 33.00571555,
+    "lon": -81.04843722999999,
+    "communications": [],
+    "elevation": 120,
+    "tower": false,
+    "name": "Broxton Bridge Plantation",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 33.00216921,
+        "lonStart": -81.04888169,
+        "latEnd": 33.00926189,
+        "lonEnd": -81.04799277,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25204
+  },
+  {
+    "type": 1,
+    "icao": "SC94",
+    "lat": 33.36931888,
+    "lon": -81.23482639,
+    "communications": [],
+    "elevation": 284,
+    "tower": false,
+    "name": "Free Fall Farms",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 33.37167884,
+        "lonStart": -81.23886208,
+        "latEnd": 33.36695892,
+        "lonEnd": -81.2307907,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25236
+  },
+  {
+    "type": 1,
+    "icao": "SC95",
+    "lat": 33.629315829999996,
+    "lon": -81.32972223,
+    "communications": [],
+    "elevation": 438,
+    "tower": false,
+    "name": "Perry International",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 33.62641775,
+        "lonStart": -81.33718641,
+        "latEnd": 33.63221391,
+        "lonEnd": -81.32225805,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25237
   }
 ]

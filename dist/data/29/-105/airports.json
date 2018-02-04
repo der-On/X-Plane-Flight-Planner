@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "T77",
+    "lat": 29.634027500000002,
+    "lon": -104.36152799999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 2932,
+    "tower": false,
+    "name": "PRESIDIO LELY INTL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 29.641111,
+        "lonStart": -104.361667,
+        "latEnd": 29.626944,
+        "lonEnd": -104.361389,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 29716
+  },
+  {
+    "type": 1,
     "icao": "TS15",
     "lat": 29.89294861,
     "lon": -104.26158333999999,
@@ -36,38 +68,6 @@
         "surfacetype": 5
       }
     ],
-    "id": 4990
-  },
-  {
-    "type": 1,
-    "icao": "T77",
-    "lat": 29.634027500000002,
-    "lon": -104.36152799999999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 2932,
-    "tower": false,
-    "name": "PRESIDIO LELY INTL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 29.641111,
-        "lonStart": -104.361667,
-        "latEnd": 29.626944,
-        "lonEnd": -104.361389,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19547
+    "id": 29995
   }
 ]

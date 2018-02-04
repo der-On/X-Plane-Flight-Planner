@@ -23,45 +23,109 @@
         "surfacetype": 3
       }
     ],
-    "id": 2183
+    "id": 725
   },
   {
-    "type": 1,
-    "icao": "EW9",
-    "lat": 51.07948875,
-    "lon": -115.33364865,
-    "communications": [],
-    "elevation": 4295,
-    "tower": false,
-    "name": "Canmore",
-    "runways": [
+    "type": 17,
+    "icao": "XCBM7",
+    "lat": 51.179648,
+    "lon": -115.57609,
+    "communications": [
       {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "14L",
-        "numberEnd": "32R",
-        "latStart": 51.07949956,
-        "lonStart": -115.33392118,
-        "latEnd": 51.07924524,
-        "lonEnd": -115.33375762,
-        "length": 0,
-        "surfacetype": 1
+        "type": 51,
+        "frequency": 12330,
+        "name": "Traffic"
       },
       {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "14R",
-        "numberEnd": "32L",
-        "latStart": 51.07969411,
-        "lonStart": -115.33351515,
-        "latEnd": 51.07951609,
-        "lonEnd": -115.33340065,
-        "length": 0,
-        "surfacetype": 5
+        "type": 50,
+        "frequency": 12355,
+        "name": "RCO FISE"
+      },
+      {
+        "type": 50,
+        "frequency": 12670,
+        "name": "RCO bcst"
       }
     ],
-    "id": 4459
+    "elevation": 4540,
+    "tower": false,
+    "name": "[H] Banff Mineral Springs (Hospital) Heliport",
+    "runways": [
+      {
+        "type": 102,
+        "width": 19.8,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 51.179648,
+        "lonStart": -115.57609,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19.8
+      }
+    ],
+    "id": 5321
+  },
+  {
+    "type": 17,
+    "icao": "XCCH3",
+    "lat": 51.09240221,
+    "lon": -115.34947812,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12330,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 4305,
+    "tower": false,
+    "name": "[H] Canmore (Hospital) Heliport",
+    "runways": [
+      {
+        "type": 102,
+        "width": 20.1,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 51.09240221,
+        "lonStart": -115.34947812,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.1
+      }
+    ],
+    "id": 5323
+  },
+  {
+    "type": 17,
+    "icao": "XCEW9",
+    "lat": 51.07887413,
+    "lon": -115.33768721,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12330,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 4294,
+    "tower": false,
+    "name": "[H] Canmore Municipal Heliport",
+    "runways": [
+      {
+        "type": 102,
+        "width": 21,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 51.07887413,
+        "lonStart": -115.33768721,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21
+      }
+    ],
+    "id": 5325
   }
 ]

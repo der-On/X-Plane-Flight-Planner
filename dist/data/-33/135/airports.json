@@ -1,83 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "YHTA",
-    "lat": -32.140003,
-    "lon": 135.1005705,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12670,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 623,
-    "tower": false,
-    "name": "Hiltaba",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": -32.13599146,
-        "lonStart": 135.1101104,
-        "latEnd": -32.14355654,
-        "lonEnd": 135.0936556,
-        "length": 0,
-        "surfacetype": 4
-      },
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": -32.14170241,
-        "lonStart": 135.10493796,
-        "latEnd": -32.13876159,
-        "lonEnd": 135.09357804,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 11866
-  },
-  {
-    "type": 1,
-    "icao": "YMPA",
-    "lat": -32.838837235,
-    "lon": 135.144649365,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12670,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 509,
-    "tower": false,
-    "name": "Minnipa",
-    "runways": [
-      {
-        "type": 100,
-        "width": 95.1,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": -32.83214046,
-        "lonStart": 135.14400973,
-        "latEnd": -32.84553401,
-        "lonEnd": 135.145289,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 17278
-  },
-  {
-    "type": 1,
     "icao": "AU87",
     "lat": -32.41129165833333,
     "lon": 135.48645377333332,
@@ -126,6 +49,83 @@
         "surfacetype": 4
       }
     ],
-    "id": 27751
+    "id": 14771
+  },
+  {
+    "type": 1,
+    "icao": "YHTA",
+    "lat": -32.140003,
+    "lon": 135.1005705,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12670,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 623,
+    "tower": false,
+    "name": "Hiltaba",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -32.13599146,
+        "lonStart": 135.1101104,
+        "latEnd": -32.14355654,
+        "lonEnd": 135.0936556,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -32.14170241,
+        "lonStart": 135.10493796,
+        "latEnd": -32.13876159,
+        "lonEnd": 135.09357804,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 33468
+  },
+  {
+    "type": 1,
+    "icao": "YMPA",
+    "lat": -32.838837235,
+    "lon": 135.144649365,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12670,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 509,
+    "tower": false,
+    "name": "Minnipa",
+    "runways": [
+      {
+        "type": 100,
+        "width": 95.1,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -32.83214046,
+        "lonStart": 135.14400973,
+        "latEnd": -32.84553401,
+        "lonEnd": 135.145289,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 33920
   }
 ]

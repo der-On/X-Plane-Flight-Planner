@@ -1,5 +1,30 @@
 [
   {
+    "type": 16,
+    "icao": "ES05",
+    "lat": 60.98144892,
+    "lon": 14.609097850000001,
+    "communications": [],
+    "elevation": 529,
+    "tower": true,
+    "name": "[S] Mora/Saxviken",
+    "runways": [
+      {
+        "type": 101,
+        "width": 80.4,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 60.97872904,
+        "lonStart": 14.60836409,
+        "latEnd": 60.9841688,
+        "lonEnd": 14.60983161,
+        "length": 0
+      }
+    ],
+    "id": 1868
+  },
+  {
     "type": 1,
     "icao": "ESKD",
     "lat": 60.5566404875,
@@ -36,7 +61,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 5950
+    "id": 1931
   },
   {
     "type": 1,
@@ -68,7 +93,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 17485
+    "id": 1935
   },
   {
     "type": 1,
@@ -84,7 +109,7 @@
     ],
     "elevation": 610,
     "tower": false,
-    "name": "SiljansnC$s",
+    "name": "Siljansnäs",
     "runways": [
       {
         "type": 100,
@@ -113,37 +138,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 23499
-  },
-  {
-    "type": 16,
-    "icao": "ES05",
-    "lat": 60.982971,
-    "lon": 14.592618,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12985,
-        "name": "AFIS"
-      }
-    ],
-    "elevation": 529,
-    "tower": true,
-    "name": "[S] Mora/Saxviken",
-    "runways": [
-      {
-        "type": 101,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 60.98039344,
-        "lonStart": 14.59068394,
-        "latEnd": 60.98554856,
-        "lonEnd": 14.59455206,
-        "length": 0
-      }
-    ],
-    "id": 34300
+    "id": 2053
   }
 ]

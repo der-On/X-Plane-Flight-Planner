@@ -1,19 +1,115 @@
 [
   {
     "type": 1,
+    "icao": "5AZ3",
+    "lat": 33.208671415,
+    "lon": -111.617194825,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 0,
+    "tower": true,
+    "name": "Pegasus Airpark",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 33.20862563,
+        "lonStart": -111.62526156,
+        "latEnd": 33.2087172,
+        "lonEnd": -111.60912809,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 178
+  },
+  {
+    "type": 1,
+    "icao": "18AZ",
+    "lat": 33.818054000000004,
+    "lon": -111.898054,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12272,
+        "name": "UNICOM"
+      },
+      {
+        "type": 50,
+        "frequency": 12562,
+        "name": "AWOS"
+      }
+    ],
+    "elevation": 2567,
+    "tower": false,
+    "name": "SKY RANCH AT CAREFREE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 33.816386,
+        "lonStart": -111.904439,
+        "latEnd": 33.819722,
+        "lonEnd": -111.891669,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 344
+  },
+  {
+    "type": 1,
+    "icao": "E81",
+    "lat": 33.281077535,
+    "lon": -111.129555705,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 2645,
+    "tower": false,
+    "name": "Superior Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 33.53,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 33.27858496,
+        "lonStart": -111.1340889,
+        "latEnd": 33.28357011,
+        "lonEnd": -111.12502251,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 937
+  },
+  {
+    "type": 1,
     "icao": "KCHD",
-    "lat": 33.26904450000001,
-    "lon": -111.811282,
+    "lat": 33.27082781,
+    "lon": -111.80904149,
     "communications": [
       {
         "type": 50,
         "frequency": 12832,
         "name": "ATIS"
-      },
-      {
-        "type": 50,
-        "frequency": 12832,
-        "name": "AWOS 3"
       },
       {
         "type": 51,
@@ -70,15 +166,51 @@
         "lonEnd": -111.808986,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 17,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 33.27352427,
+        "lonStart": -111.7995431,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 17
+      },
+      {
+        "type": 102,
+        "width": 15,
+        "surfaceType": 15,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 33.27312517,
+        "lonStart": -111.80919645,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15
+      },
+      {
+        "type": 102,
+        "width": 15,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.27296723,
+        "lonStart": -111.80942288,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15
       }
     ],
-    "id": 3803
+    "id": 2483
   },
   {
     "type": 1,
     "icao": "KFFZ",
-    "lat": 33.4609325,
-    "lon": -111.72845400000001,
+    "lat": 33.46029680142857,
+    "lon": -111.72683708285714,
     "communications": [
       {
         "type": 50,
@@ -113,7 +245,7 @@
     ],
     "elevation": 1394,
     "tower": true,
-    "name": "FALCON FLD",
+    "name": "Falcon Field",
     "runways": [
       {
         "type": 100,
@@ -124,7 +256,7 @@
         "latStart": 33.455897,
         "lonStart": -111.734089,
         "latEnd": 33.464686,
-        "lonEnd": -111.721061,
+        "lonEnd": -111.72106034,
         "length": 0,
         "surfacetype": 1
       },
@@ -140,9 +272,474 @@
         "lonEnd": -111.724483,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 20,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 33.46213576,
+        "lonStart": -111.72107927,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.1
+      },
+      {
+        "type": 102,
+        "width": 20,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.45799395,
+        "lonStart": -111.72637477,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19.3
+      },
+      {
+        "type": 102,
+        "width": 20,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 33.4582179,
+        "lonStart": -111.7265902,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19.3
       }
     ],
-    "id": 7409
+    "id": 2661
+  },
+  {
+    "type": 1,
+    "icao": "KIWA",
+    "lat": 33.307801301666665,
+    "lon": -111.65532927,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13350,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12825,
+        "name": "GROUND"
+      },
+      {
+        "type": 54,
+        "frequency": 12475,
+        "name": "TOWER EAST"
+      },
+      {
+        "type": 54,
+        "frequency": 12060,
+        "name": "TOWER WEST"
+      }
+    ],
+    "elevation": 1380,
+    "tower": true,
+    "name": "WILLIAMS GATEWAY",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "12L",
+        "numberEnd": "30R",
+        "latStart": 33.31753821,
+        "lonStart": -111.66152536,
+        "latEnd": 33.29948815,
+        "lonEnd": -111.63995134,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "12C",
+        "numberEnd": "30C",
+        "latStart": 33.3173587,
+        "lonStart": -111.66612547,
+        "latEnd": 33.29755986,
+        "lonEnd": -111.64246702,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "12R",
+        "numberEnd": "30L",
+        "latStart": 33.31765721,
+        "lonStart": -111.67285367,
+        "latEnd": 33.29720568,
+        "lonEnd": -111.64905276,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 2833
+  },
+  {
+    "type": 1,
+    "icao": "KSDL",
+    "lat": 33.622881,
+    "lon": -111.91053464000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 11990,
+        "name": "CTAF"
+      },
+      {
+        "type": 50,
+        "frequency": 11860,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12160,
+        "name": "Scottsdale Ground"
+      },
+      {
+        "type": 54,
+        "frequency": 11990,
+        "name": "Scottsdale Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12070,
+        "name": "Phoenix Approach"
+      },
+      {
+        "type": 56,
+        "frequency": 12070,
+        "name": "Phoenix Departure"
+      },
+      {
+        "type": 53,
+        "frequency": 12480,
+        "name": "Clearence Delivery"
+      },
+      {
+        "type": 54,
+        "frequency": 12550,
+        "name": "Heli Control"
+      }
+    ],
+    "elevation": 1510,
+    "tower": true,
+    "name": "SCOTTSDALE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 33.61472505,
+        "lonStart": -111.91994141,
+        "latEnd": 33.63103695,
+        "lonEnd": -111.90112787,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3244
+  },
+  {
+    "type": 1,
+    "icao": "0AS0",
+    "lat": 33.66115472,
+    "lon": -111.61680334,
+    "communications": [],
+    "elevation": 1560,
+    "tower": false,
+    "name": "Sycamore Creek",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 33.65995177,
+        "lonStart": -111.62153066,
+        "latEnd": 33.66235767,
+        "lonEnd": -111.61207602,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 5707
+  },
+  {
+    "type": 17,
+    "icao": "0AZ3",
+    "lat": 33.41699055,
+    "lon": -111.83264,
+    "communications": [],
+    "elevation": 1263,
+    "tower": false,
+    "name": "[H] 1st St Center Parking Garage",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.41699055,
+        "lonStart": -111.83264,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 5710
+  },
+  {
+    "type": 17,
+    "icao": "0AZ7",
+    "lat": 33.44365555,
+    "lon": -111.96347834,
+    "communications": [],
+    "elevation": 1180,
+    "tower": false,
+    "name": "[H] Sunstate",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.44365555,
+        "lonStart": -111.96347834,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 5714
+  },
+  {
+    "type": 17,
+    "icao": "00E",
+    "lat": 33.49421222,
+    "lon": -111.64124806,
+    "communications": [],
+    "elevation": 2525,
+    "tower": false,
+    "name": "[H] Apache Junction",
+    "runways": [
+      {
+        "type": 102,
+        "width": 13.7,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.49421222,
+        "lonStart": -111.64124806,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 5774
+  },
+  {
+    "type": 17,
+    "icao": "2AZ0",
+    "lat": 33.45004416,
+    "lon": -111.980145,
+    "communications": [],
+    "elevation": 1160,
+    "tower": false,
+    "name": "[H] Helicopter Transport Inc",
+    "runways": [
+      {
+        "type": 102,
+        "width": 33.5,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.45004416,
+        "lonStart": -111.980145,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 60
+      }
+    ],
+    "id": 6881
+  },
+  {
+    "type": 17,
+    "icao": "02E",
+    "lat": 33.4342125,
+    "lon": -111.84152945,
+    "communications": [],
+    "elevation": 1248,
+    "tower": false,
+    "name": "[H] Mesa Lutheran Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.8,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.4342125,
+        "lonStart": -111.84152945,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.8
+      }
+    ],
+    "id": 6936
+  },
+  {
+    "type": 17,
+    "icao": "3AZ1",
+    "lat": 33.37226972,
+    "lon": -111.83652834,
+    "communications": [],
+    "elevation": 1229,
+    "tower": false,
+    "name": "[H] Pixley-Richards Gilbert",
+    "runways": [
+      {
+        "type": 102,
+        "width": 11.6,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.37226972,
+        "lonStart": -111.83652834,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.6
+      }
+    ],
+    "id": 7435
+  },
+  {
+    "type": 1,
+    "icao": "3AZ2",
+    "lat": 33.080328879999996,
+    "lon": -111.98347417,
+    "communications": [],
+    "elevation": 1181,
+    "tower": false,
+    "name": "U of A Maricopa Ag Center",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 33.08741148,
+        "lonStart": -111.9815227,
+        "latEnd": 33.07324628,
+        "lonEnd": -111.98542564,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 7436
+  },
+  {
+    "type": 17,
+    "icao": "3AZ7",
+    "lat": 33.40337888,
+    "lon": -111.97320001,
+    "communications": [],
+    "elevation": 1295,
+    "tower": false,
+    "name": "[H] The Buttes In Tempe",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.40337888,
+        "lonStart": -111.97320001,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 7441
+  },
+  {
+    "type": 17,
+    "icao": "4AZ3",
+    "lat": 33.66643722,
+    "lon": -111.12401112,
+    "communications": [],
+    "elevation": 2165,
+    "tower": false,
+    "name": "[H] Tonto Ranger Station",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.66643722,
+        "lonStart": -111.12401112,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      },
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 33.66643722,
+        "lonStart": -111.12401112,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 7981
+  },
+  {
+    "type": 17,
+    "icao": "5AZ1",
+    "lat": 33.45615861,
+    "lon": -111.49235445,
+    "communications": [],
+    "elevation": 2000,
+    "tower": false,
+    "name": "[H] Goldfield Ghost Town",
+    "runways": [
+      {
+        "type": 102,
+        "width": 7.3,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.45615861,
+        "lonStart": -111.49235445,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 7.3
+      }
+    ],
+    "id": 8500
   },
   {
     "type": 1,
@@ -187,362 +784,57 @@
         "surfacetype": 1
       }
     ],
-    "id": 10000
+    "id": 11846
   },
   {
-    "type": 1,
-    "icao": "AZ25",
-    "lat": 33.6,
-    "lon": -111.60527778,
-    "communications": [],
-    "elevation": 1720,
-    "tower": false,
-    "name": "Goldfield Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 33.6036221,
-        "lonStart": -111.60435344,
-        "latEnd": 33.5963779,
-        "lonEnd": -111.60620212,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 10578
-  },
-  {
-    "type": 1,
-    "icao": "5AZ3",
-    "lat": 33.212500000000006,
-    "lon": -111.6172225,
-    "communications": [],
-    "elevation": 1450,
-    "tower": false,
-    "name": "PEGASUS AIRPARK",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 33.212794,
-        "lonStart": -111.625389,
-        "latEnd": 33.212206,
-        "lonEnd": -111.609056,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19281
-  },
-  {
-    "type": 1,
-    "icao": "P18",
-    "lat": 33.47198833,
-    "lon": -111.96375667000001,
+    "type": 17,
+    "icao": "AZ10",
+    "lat": 33.4472675,
+    "lon": -111.84652973,
     "communications": [],
     "elevation": 1250,
     "tower": false,
-    "name": "Papago AAF-NG",
+    "name": "[H] JSJ",
     "runways": [
       {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 33.47223955,
-        "lonStart": -111.96950336,
-        "latEnd": 33.47173711,
-        "lonEnd": -111.95800998,
-        "length": 0,
-        "surfacetype": 1
+        "type": 102,
+        "width": 17.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.4472675,
+        "lonStart": -111.84652973,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 17.1
       }
     ],
-    "id": 19736
+    "id": 14815
   },
   {
-    "type": 1,
-    "icao": "KSDL",
-    "lat": 33.6228805,
-    "lon": -111.91053500000001,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11860,
-        "name": "ATIS"
-      },
-      {
-        "type": 51,
-        "frequency": 11990,
-        "name": "CTAF"
-      },
-      {
-        "type": 52,
-        "frequency": 12480,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 53,
-        "frequency": 12160,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11990,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12070,
-        "name": "PHOENIX APP/DEP"
-      }
-    ],
-    "elevation": 1510,
-    "tower": true,
-    "name": "SCOTTSDALE",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 33.614722,
-        "lonStart": -111.919939,
-        "latEnd": 33.631039,
-        "lonEnd": -111.901131,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22127
-  },
-  {
-    "type": 1,
-    "icao": "18AZ",
-    "lat": 33.818054000000004,
-    "lon": -111.898054,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12297,
-        "name": "UNICOM"
-      }
-    ],
-    "elevation": 2568,
-    "tower": false,
-    "name": "SKY RANCH AT CAREFREE",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 33.816386,
-        "lonStart": -111.904439,
-        "latEnd": 33.819722,
-        "lonEnd": -111.891669,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22327
-  },
-  {
-    "type": 1,
-    "icao": "P19",
-    "lat": 33.298932,
-    "lon": -111.9154365,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      },
-      {
-        "type": 55,
-        "frequency": 12370,
-        "name": "PHOENIX APP/DEP"
-      }
-    ],
-    "elevation": 1177,
-    "tower": false,
-    "name": "STELLAR AIRPARK",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 33.304253,
-        "lonStart": -111.915431,
-        "latEnd": 33.293611,
-        "lonEnd": -111.915442,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22520
-  },
-  {
-    "type": 1,
-    "icao": "E81",
-    "lat": 33.27783388,
-    "lon": -111.12706501,
+    "type": 17,
+    "icao": "AZ20",
+    "lat": 33.59254166,
+    "lon": -111.97848028,
     "communications": [],
-    "elevation": 2646,
+    "elevation": 1370,
     "tower": false,
-    "name": "Superior Municipal",
+    "name": "[H] Westcor Home Office",
     "runways": [
       {
-        "type": 100,
-        "width": 33.53,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 33.27487857,
-        "lonStart": -111.13158957,
-        "latEnd": 33.28078919,
-        "lonEnd": -111.12254045,
-        "length": 0,
-        "surfacetype": 4
+        "type": 102,
+        "width": 91.4,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.59254166,
+        "lonStart": -111.97848028,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 91.4
       }
     ],
-    "id": 24411
-  },
-  {
-    "type": 1,
-    "icao": "0AS0",
-    "lat": 33.66115472,
-    "lon": -111.61680334,
-    "communications": [],
-    "elevation": 1560,
-    "tower": false,
-    "name": "Sycamore Creek",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 33.65995177,
-        "lonStart": -111.62153066,
-        "latEnd": 33.66235767,
-        "lonEnd": -111.61207602,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 24496
-  },
-  {
-    "type": 1,
-    "icao": "3AZ2",
-    "lat": 33.080328879999996,
-    "lon": -111.98347417,
-    "communications": [],
-    "elevation": 1181,
-    "tower": false,
-    "name": "U of A Maricopa Ag Center",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 33.08741148,
-        "lonStart": -111.9815227,
-        "latEnd": 33.07324628,
-        "lonEnd": -111.98542564,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 25780
-  },
-  {
-    "type": 1,
-    "icao": "KIWA",
-    "lat": 33.307406879999995,
-    "lon": -111.65584723833332,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13350,
-        "name": "ATIS"
-      },
-      {
-        "type": 53,
-        "frequency": 12825,
-        "name": "GROUND"
-      },
-      {
-        "type": 54,
-        "frequency": 12475,
-        "name": "TOWER EAST"
-      },
-      {
-        "type": 54,
-        "frequency": 12060,
-        "name": "TOWER WEST"
-      }
-    ],
-    "elevation": 1381,
-    "tower": true,
-    "name": "WILLIAMS GATEWAY",
-    "runways": [
-      {
-        "type": 100,
-        "width": 46.02,
-        "surfaceType": null,
-        "numberStart": "12R",
-        "numberEnd": "30L",
-        "latStart": 33.31767121,
-        "lonStart": -111.6728668,
-        "latEnd": 33.29632195,
-        "lonEnd": -111.6502227,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 46.02,
-        "surfaceType": null,
-        "numberStart": "12C",
-        "numberEnd": "30C",
-        "latStart": 33.31764234,
-        "lonStart": -111.66591776,
-        "latEnd": 33.29670598,
-        "lonEnd": -111.64370561,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 46.02,
-        "surfaceType": null,
-        "numberStart": "12L",
-        "numberEnd": "30R",
-        "latStart": 33.31759358,
-        "lonStart": -111.66131301,
-        "latEnd": 33.29850622,
-        "lonEnd": -111.64105755,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 26664
+    "id": 14825
   },
   {
     "type": 1,
@@ -568,357 +860,33 @@
         "surfacetype": 4
       }
     ],
-    "id": 27515
+    "id": 14826
   },
   {
-    "type": 17,
-    "icao": "0AZ3",
-    "lat": 33.41699055,
-    "lon": -111.83264,
+    "type": 1,
+    "icao": "AZ25",
+    "lat": 33.6,
+    "lon": -111.60527778,
     "communications": [],
-    "elevation": 1263,
+    "elevation": 1720,
     "tower": false,
-    "name": "[H] 1st St Center Parking Garage",
+    "name": "Goldfield Ranch",
     "runways": [
       {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.41699055,
-        "lonStart": -111.83264,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 33.6036221,
+        "lonStart": -111.60435344,
+        "latEnd": 33.5963779,
+        "lonEnd": -111.60620212,
+        "length": 0,
+        "surfacetype": 5
       }
     ],
-    "id": 27940
-  },
-  {
-    "type": 17,
-    "icao": "AZ42",
-    "lat": 33.44754416,
-    "lon": -111.99181223,
-    "communications": [],
-    "elevation": 1140,
-    "tower": false,
-    "name": "[H] ASI",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.44754416,
-        "lonStart": -111.99181223,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 27983
-  },
-  {
-    "type": 17,
-    "icao": "0AZ9",
-    "lat": 33.61670833,
-    "lon": -111.92014445,
-    "communications": [],
-    "elevation": 1438,
-    "tower": false,
-    "name": "[H] Air Commerce Center",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.61670833,
-        "lonStart": -111.92014445,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 28036
-  },
-  {
-    "type": 17,
-    "icao": "00E",
-    "lat": 33.49421222,
-    "lon": -111.64124806,
-    "communications": [],
-    "elevation": 2525,
-    "tower": false,
-    "name": "[H] Apache Junction",
-    "runways": [
-      {
-        "type": 102,
-        "width": 13.7,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.49421222,
-        "lonStart": -111.64124806,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 28153
-  },
-  {
-    "type": 17,
-    "icao": "AZ51",
-    "lat": 33.81865277,
-    "lon": -111.63263834,
-    "communications": [],
-    "elevation": 1608,
-    "tower": false,
-    "name": "[H] Bartlett Dam",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 4,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.81865277,
-        "lonStart": -111.63263834,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 28353
-  },
-  {
-    "type": 17,
-    "icao": "AZ76",
-    "lat": 33.29810472,
-    "lon": -111.8729175,
-    "communications": [],
-    "elevation": 1193,
-    "tower": false,
-    "name": "[H] Chandler Regional Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.29810472,
-        "lonStart": -111.8729175,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 28882
-  },
-  {
-    "type": 17,
-    "icao": "AZ59",
-    "lat": 33.44171138,
-    "lon": -111.95014389,
-    "communications": [],
-    "elevation": 1180,
-    "tower": false,
-    "name": "[H] Cross Cut",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.44171138,
-        "lonStart": -111.95014389,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 29193
-  },
-  {
-    "type": 17,
-    "icao": "5AZ1",
-    "lat": 33.45615861,
-    "lon": -111.49235445,
-    "communications": [],
-    "elevation": 2000,
-    "tower": false,
-    "name": "[H] Goldfield Ghost Town",
-    "runways": [
-      {
-        "type": 102,
-        "width": 7.3,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.45615861,
-        "lonStart": -111.49235445,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 7.3
-      }
-    ],
-    "id": 29955
-  },
-  {
-    "type": 17,
-    "icao": "2AZ0",
-    "lat": 33.45004416,
-    "lon": -111.980145,
-    "communications": [],
-    "elevation": 1160,
-    "tower": false,
-    "name": "[H] Helicopter Transport Inc",
-    "runways": [
-      {
-        "type": 102,
-        "width": 33.5,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.45004416,
-        "lonStart": -111.980145,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 60
-      }
-    ],
-    "id": 30188
-  },
-  {
-    "type": 17,
-    "icao": "AZ53",
-    "lat": 33.59060305,
-    "lon": -111.34429556,
-    "communications": [],
-    "elevation": 1891,
-    "tower": false,
-    "name": "[H] Horse Mesa Dam Nr 2",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.59060305,
-        "lonStart": -111.34429556,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 30308
-  },
-  {
-    "type": 17,
-    "icao": "AZ55",
-    "lat": 33.58254722,
-    "lon": -111.35735195,
-    "communications": [],
-    "elevation": 1890,
-    "tower": false,
-    "name": "[H] Horse Mesa Nr 1",
-    "runways": [
-      {
-        "type": 102,
-        "width": 4.6,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.58254722,
-        "lonStart": -111.35735195,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 30309
-  },
-  {
-    "type": 17,
-    "icao": "AZ52",
-    "lat": 33.98198305,
-    "lon": -111.71653306,
-    "communications": [],
-    "elevation": 2020,
-    "tower": false,
-    "name": "[H] Horseshoe Dam",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.98198305,
-        "lonStart": -111.71653306,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 30310
-  },
-  {
-    "type": 17,
-    "icao": "AZ10",
-    "lat": 33.4472675,
-    "lon": -111.84652973,
-    "communications": [],
-    "elevation": 1250,
-    "tower": false,
-    "name": "[H] JSJ",
-    "runways": [
-      {
-        "type": 102,
-        "width": 17.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.4472675,
-        "lonStart": -111.84652973,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 17.1
-      }
-    ],
-    "id": 30567
-  },
-  {
-    "type": 17,
-    "icao": "AZ87",
-    "lat": 33.22755111,
-    "lon": -111.85347167,
-    "communications": [],
-    "elevation": 1203,
-    "tower": false,
-    "name": "[H] Jeppesen Ranch",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.22755111,
-        "lonStart": -111.85347167,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.4
-      }
-    ],
-    "id": 30606
+    "id": 14829
   },
   {
     "type": 17,
@@ -943,7 +911,307 @@
         "length": 6.1
       }
     ],
-    "id": 30946
+    "id": 14831
+  },
+  {
+    "type": 17,
+    "icao": "AZ42",
+    "lat": 33.44754416,
+    "lon": -111.99181223,
+    "communications": [],
+    "elevation": 1140,
+    "tower": false,
+    "name": "[H] ASI",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.44754416,
+        "lonStart": -111.99181223,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 14843
+  },
+  {
+    "type": 17,
+    "icao": "AZ51",
+    "lat": 33.81865277,
+    "lon": -111.63263834,
+    "communications": [],
+    "elevation": 1608,
+    "tower": false,
+    "name": "[H] Bartlett Dam",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 4,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.81865277,
+        "lonStart": -111.63263834,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 14851
+  },
+  {
+    "type": 17,
+    "icao": "AZ52",
+    "lat": 33.98198305,
+    "lon": -111.71653306,
+    "communications": [],
+    "elevation": 2020,
+    "tower": false,
+    "name": "[H] Horseshoe Dam",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.98198305,
+        "lonStart": -111.71653306,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 14852
+  },
+  {
+    "type": 17,
+    "icao": "AZ53",
+    "lat": 33.59060305,
+    "lon": -111.34429556,
+    "communications": [],
+    "elevation": 1891,
+    "tower": false,
+    "name": "[H] Horse Mesa Dam Nr 2",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.59060305,
+        "lonStart": -111.34429556,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 14853
+  },
+  {
+    "type": 17,
+    "icao": "AZ54",
+    "lat": 33.5522675,
+    "lon": -111.54902306,
+    "communications": [],
+    "elevation": 1528,
+    "tower": false,
+    "name": "[H] Stewart Mountain Dam",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.5522675,
+        "lonStart": -111.54902306,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 14854
+  },
+  {
+    "type": 17,
+    "icao": "AZ55",
+    "lat": 33.58254722,
+    "lon": -111.35735195,
+    "communications": [],
+    "elevation": 1890,
+    "tower": false,
+    "name": "[H] Horse Mesa Nr 1",
+    "runways": [
+      {
+        "type": 102,
+        "width": 4.6,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.58254722,
+        "lonStart": -111.35735195,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 14855
+  },
+  {
+    "type": 17,
+    "icao": "AZ56",
+    "lat": 33.55337972,
+    "lon": -111.44485445,
+    "communications": [],
+    "elevation": 1640,
+    "tower": false,
+    "name": "[H] Mormon Flat Dam",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.55337972,
+        "lonStart": -111.44485445,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 14856
+  },
+  {
+    "type": 17,
+    "icao": "AZ58",
+    "lat": 33.67088138,
+    "lon": -111.16206834,
+    "communications": [],
+    "elevation": 1895,
+    "tower": false,
+    "name": "[H] Roosevelt Dam",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 4,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.67088138,
+        "lonStart": -111.16206834,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21.3
+      }
+    ],
+    "id": 14858
+  },
+  {
+    "type": 17,
+    "icao": "AZ59",
+    "lat": 33.44171138,
+    "lon": -111.95014389,
+    "communications": [],
+    "elevation": 1180,
+    "tower": false,
+    "name": "[H] Cross Cut",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.44171138,
+        "lonStart": -111.95014389,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 14859
+  },
+  {
+    "type": 17,
+    "icao": "AZ66",
+    "lat": 33.42449055,
+    "lon": -111.82041778,
+    "communications": [],
+    "elevation": 1243,
+    "tower": false,
+    "name": "[H] Mesa Hospital Medical Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.42449055,
+        "lonStart": -111.82041778,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 14866
+  },
+  {
+    "type": 17,
+    "icao": "AZ73",
+    "lat": 33.41282333,
+    "lon": -111.94042112,
+    "communications": [],
+    "elevation": 1160,
+    "tower": false,
+    "name": "[H] Tempe St. Lukes Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.41282333,
+        "lonStart": -111.94042112,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 14873
+  },
+  {
+    "type": 17,
+    "icao": "AZ76",
+    "lat": 33.29810472,
+    "lon": -111.8729175,
+    "communications": [],
+    "elevation": 1193,
+    "tower": false,
+    "name": "[H] Chandler Regional Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.29810472,
+        "lonStart": -111.8729175,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 14876
   },
   {
     "type": 17,
@@ -1016,17 +1284,17 @@
         "length": 27.4
       }
     ],
-    "id": 31146
+    "id": 14881
   },
   {
     "type": 17,
-    "icao": "AZ66",
-    "lat": 33.42449055,
-    "lon": -111.82041778,
+    "icao": "AZ87",
+    "lat": 33.22755111,
+    "lon": -111.85347167,
     "communications": [],
-    "elevation": 1243,
+    "elevation": 1203,
     "tower": false,
-    "name": "[H] Mesa Hospital Medical Center",
+    "name": "[H] Jeppesen Ranch",
     "runways": [
       {
         "type": 102,
@@ -1034,239 +1302,14 @@
         "surfaceType": 3,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 33.42449055,
-        "lonStart": -111.82041778,
+        "latStart": 33.22755111,
+        "lonStart": -111.85347167,
         "latEnd": null,
         "lonEnd": null,
-        "length": 18.3
+        "length": 24.4
       }
     ],
-    "id": 31301
-  },
-  {
-    "type": 17,
-    "icao": "02E",
-    "lat": 33.4342125,
-    "lon": -111.84152945,
-    "communications": [],
-    "elevation": 1248,
-    "tower": false,
-    "name": "[H] Mesa Lutheran Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.8,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.4342125,
-        "lonStart": -111.84152945,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.8
-      }
-    ],
-    "id": 31302
-  },
-  {
-    "type": 17,
-    "icao": "AZ56",
-    "lat": 33.55337972,
-    "lon": -111.44485445,
-    "communications": [],
-    "elevation": 1640,
-    "tower": false,
-    "name": "[H] Mormon Flat Dam",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.55337972,
-        "lonStart": -111.44485445,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 31446
-  },
-  {
-    "type": 17,
-    "icao": "AZ95",
-    "lat": 33.639485,
-    "lon": -111.99709195,
-    "communications": [],
-    "elevation": 1459,
-    "tower": false,
-    "name": "[H] Paradise Valley Hosp Emerg Dept",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.639485,
-        "lonStart": -111.99709195,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 31887
-  },
-  {
-    "type": 17,
-    "icao": "3AZ1",
-    "lat": 33.37226972,
-    "lon": -111.83652834,
-    "communications": [],
-    "elevation": 1229,
-    "tower": false,
-    "name": "[H] Pixley-Richards Gilbert",
-    "runways": [
-      {
-        "type": 102,
-        "width": 11.6,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.37226972,
-        "lonStart": -111.83652834,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11.6
-      }
-    ],
-    "id": 32047
-  },
-  {
-    "type": 17,
-    "icao": "AZ58",
-    "lat": 33.67088138,
-    "lon": -111.16206834,
-    "communications": [],
-    "elevation": 1895,
-    "tower": false,
-    "name": "[H] Roosevelt Dam",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 4,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.67088138,
-        "lonStart": -111.16206834,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21.3
-      }
-    ],
-    "id": 32412
-  },
-  {
-    "type": 17,
-    "icao": "AZ96",
-    "lat": 33.58226472,
-    "lon": -111.88681028,
-    "communications": [],
-    "elevation": 1375,
-    "tower": false,
-    "name": "[H] Scottsdale Memorial Hospital-North",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.58226472,
-        "lonStart": -111.88681028,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 32617
-  },
-  {
-    "type": 17,
-    "icao": "AZ54",
-    "lat": 33.5522675,
-    "lon": -111.54902306,
-    "communications": [],
-    "elevation": 1528,
-    "tower": false,
-    "name": "[H] Stewart Mountain Dam",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.5522675,
-        "lonStart": -111.54902306,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 33083
-  },
-  {
-    "type": 17,
-    "icao": "0AZ7",
-    "lat": 33.44365555,
-    "lon": -111.96347834,
-    "communications": [],
-    "elevation": 1180,
-    "tower": false,
-    "name": "[H] Sunstate",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.44365555,
-        "lonStart": -111.96347834,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 33138
-  },
-  {
-    "type": 17,
-    "icao": "AZ73",
-    "lat": 33.41282333,
-    "lon": -111.94042112,
-    "communications": [],
-    "elevation": 1160,
-    "tower": false,
-    "name": "[H] Tempe St. Lukes Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.41282333,
-        "lonStart": -111.94042112,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 33236
+    "id": 14886
   },
   {
     "type": 17,
@@ -1291,69 +1334,7 @@
         "length": 18.3
       }
     ],
-    "id": 33281
-  },
-  {
-    "type": 17,
-    "icao": "3AZ7",
-    "lat": 33.40337888,
-    "lon": -111.97320001,
-    "communications": [],
-    "elevation": 1295,
-    "tower": false,
-    "name": "[H] The Buttes In Tempe",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.40337888,
-        "lonStart": -111.97320001,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 33283
-  },
-  {
-    "type": 17,
-    "icao": "4AZ3",
-    "lat": 33.66643722,
-    "lon": -111.12401112,
-    "communications": [],
-    "elevation": 2165,
-    "tower": false,
-    "name": "[H] Tonto Ranger Station",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.66643722,
-        "lonStart": -111.12401112,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      },
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 2,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 33.66643722,
-        "lonStart": -111.12401112,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 33348
+    "id": 14888
   },
   {
     "type": 17,
@@ -1378,31 +1359,119 @@
         "length": 18.9
       }
     ],
-    "id": 33577
+    "id": 14889
   },
   {
     "type": 17,
-    "icao": "AZ20",
-    "lat": 33.59254166,
-    "lon": -111.97848028,
+    "icao": "AZ95",
+    "lat": 33.639485,
+    "lon": -111.99709195,
     "communications": [],
-    "elevation": 1370,
+    "elevation": 1459,
     "tower": false,
-    "name": "[H] Westcor Home Office",
+    "name": "[H] Paradise Valley Hosp Emerg Dept",
     "runways": [
       {
         "type": 102,
-        "width": 91.4,
-        "surfaceType": 3,
+        "width": 12.2,
+        "surfaceType": 2,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 33.59254166,
-        "lonStart": -111.97848028,
+        "latStart": 33.639485,
+        "lonStart": -111.99709195,
         "latEnd": null,
         "lonEnd": null,
-        "length": 91.4
+        "length": 12.2
       }
     ],
-    "id": 33808
+    "id": 14892
+  },
+  {
+    "type": 17,
+    "icao": "AZ96",
+    "lat": 33.58226472,
+    "lon": -111.88681028,
+    "communications": [],
+    "elevation": 1375,
+    "tower": false,
+    "name": "[H] Scottsdale Memorial Hospital-North",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.58226472,
+        "lonStart": -111.88681028,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 14893
+  },
+  {
+    "type": 1,
+    "icao": "P18",
+    "lat": 33.47198833,
+    "lon": -111.96375667000001,
+    "communications": [],
+    "elevation": 1250,
+    "tower": false,
+    "name": "Papago AAF-NG",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 33.47223955,
+        "lonStart": -111.96950336,
+        "latEnd": 33.47173711,
+        "lonEnd": -111.95800998,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 23784
+  },
+  {
+    "type": 1,
+    "icao": "P19",
+    "lat": 33.298932,
+    "lon": -111.9154365,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      },
+      {
+        "type": 55,
+        "frequency": 12370,
+        "name": "PHOENIX APP/DEP"
+      }
+    ],
+    "elevation": 1177,
+    "tower": false,
+    "name": "STELLAR AIRPARK",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 33.304253,
+        "lonStart": -111.915431,
+        "latEnd": 33.293611,
+        "lonEnd": -111.915442,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 23785
   }
 ]

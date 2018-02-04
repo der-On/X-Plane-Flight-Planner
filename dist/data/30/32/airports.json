@@ -1,6 +1,45 @@
 [
   {
     "type": 1,
+    "icao": "HE34",
+    "lat": 30.246847,
+    "lon": 32.492166499999996,
+    "communications": [],
+    "elevation": 22,
+    "tower": false,
+    "name": "KIBRIT",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "14L",
+        "numberEnd": "32R",
+        "latStart": 30.256083,
+        "lonStart": 32.483139,
+        "latEnd": 30.238861,
+        "lonEnd": 32.502583,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 39.62,
+        "surfaceType": null,
+        "numberStart": "14R",
+        "numberEnd": "32L",
+        "latStart": 30.254972,
+        "lonStart": 32.48175,
+        "latEnd": 30.237472,
+        "lonEnd": 32.501194,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17911
+  },
+  {
+    "type": 1,
     "icao": "HE35",
     "lat": 30.5726625,
     "lon": 32.095341250000004,
@@ -36,49 +75,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 60
-  },
-  {
-    "type": 1,
-    "icao": "HE44",
-    "lat": 30.598814,
-    "lon": 32.2346865,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11850,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 11810,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11910,
-        "name": "APP"
-      }
-    ],
-    "elevation": 39,
-    "tower": true,
-    "name": "AL ISMAILIYAH AB",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 30.607872,
-        "lonStart": 32.221642,
-        "latEnd": 30.589756,
-        "lonEnd": 32.247731,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 151
+    "id": 17912
   },
   {
     "type": 1,
@@ -130,7 +127,49 @@
         "surfacetype": 1
       }
     ],
-    "id": 417
+    "id": 17916
+  },
+  {
+    "type": 1,
+    "icao": "HE44",
+    "lat": 30.598814,
+    "lon": 32.2346865,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11850,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11910,
+        "name": "APP"
+      }
+    ],
+    "elevation": 39,
+    "tower": true,
+    "name": "AL ISMAILIYAH AB",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 30.607872,
+        "lonStart": 32.221642,
+        "latEnd": 30.589756,
+        "lonEnd": 32.247731,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17920
   },
   {
     "type": 1,
@@ -156,45 +195,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 6709
-  },
-  {
-    "type": 1,
-    "icao": "HE34",
-    "lat": 30.246847,
-    "lon": 32.492166499999996,
-    "communications": [],
-    "elevation": 22,
-    "tower": false,
-    "name": "KIBRIT",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "14L",
-        "numberEnd": "32R",
-        "latStart": 30.256083,
-        "lonStart": 32.483139,
-        "latEnd": 30.238861,
-        "lonEnd": 32.502583,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 39.62,
-        "surfaceType": null,
-        "numberStart": "14R",
-        "numberEnd": "32L",
-        "latStart": 30.254972,
-        "lonStart": 32.48175,
-        "latEnd": 30.237472,
-        "lonEnd": 32.501194,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 13351
+    "id": 17921
   }
 ]

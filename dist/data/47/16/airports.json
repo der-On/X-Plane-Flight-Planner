@@ -1,113 +1,142 @@
 [
   {
     "type": 1,
-    "icao": "LHFM",
-    "lat": 47.5828305,
-    "lon": 16.8454165,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12445,
-        "name": "INFO"
-      }
-    ],
-    "elevation": 440,
-    "tower": false,
-    "name": "FERTOSZENTMIKLOS",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 47.586953,
-        "lonStart": 16.843019,
-        "latEnd": 47.578708,
-        "lonEnd": 16.847814,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 7546
-  },
-  {
-    "type": 1,
-    "icao": "LOGF",
-    "lat": 47.063,
-    "lon": 16.085,
-    "communications": [],
-    "elevation": 830,
-    "tower": true,
-    "name": "Fuerstenfeld",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 47.06502242,
-        "lonStart": 16.08145675,
-        "latEnd": 47.06097758,
-        "lonEnd": 16.08854325,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 9771
-  },
-  {
-    "type": 1,
     "icao": "LOGP",
-    "lat": 47.388,
-    "lon": 16.112000000000002,
+    "lat": 47.386610125000004,
+    "lon": 16.11276227,
     "communications": [],
-    "elevation": 1340,
+    "elevation": 1339,
     "tower": true,
     "name": "Pinkafeld",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 31,
         "surfaceType": null,
         "numberStart": "15",
         "numberEnd": "33",
-        "latStart": 47.3904521,
-        "lonStart": 16.10990285,
-        "latEnd": 47.3855479,
-        "lonEnd": 16.11409715,
+        "latStart": 47.38897135,
+        "lonStart": 16.11044542,
+        "latEnd": 47.3842489,
+        "lonEnd": 16.11507912,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 20173
+    "id": 3848
   },
   {
     "type": 1,
-    "icao": "LOGG",
-    "lat": 47.147999999999996,
-    "lon": 16.318,
-    "communications": [],
-    "elevation": 950,
-    "tower": true,
-    "name": "Punitz Guessing",
+    "icao": "LHFM",
+    "lat": 47.582960015,
+    "lon": 16.8459895025,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11892,
+        "name": "Fertõszentmiklós INFO"
+      }
+    ],
+    "elevation": 439,
+    "tower": false,
+    "name": "Fertõszentmiklós",
     "runways": [
       {
         "type": 100,
-        "width": 17.98,
+        "width": 23,
         "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 47.15118848,
-        "lonStart": 16.31527107,
-        "latEnd": 47.14481152,
-        "lonEnd": 16.32072893,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 47.58697674,
+        "lonStart": 16.84307169,
+        "latEnd": 47.57871722,
+        "lonEnd": 16.84784329,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 25,
+        "surfaceType": null,
+        "numberStart": "15L",
+        "numberEnd": "33R",
+        "latStart": 47.58513301,
+        "lonStart": 16.84537135,
+        "latEnd": 47.58101309,
+        "lonEnd": 16.84767168,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20522
+  },
+  {
+    "type": 1,
+    "icao": "LHSY",
+    "lat": 47.2775119,
+    "lon": 16.62826295,
+    "communications": [],
+    "elevation": 731,
+    "tower": true,
+    "name": "Szombathely",
+    "runways": [
+      {
+        "type": 100,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 47.28245436,
+        "lonStart": 16.62542681,
+        "latEnd": 47.27256944,
+        "lonEnd": 16.63109909,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20527
+  },
+  {
+    "type": 1,
+    "icao": "LOAN",
+    "lat": 47.8433335,
+    "lon": 16.260139000000002,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12265,
+        "name": "AFIS"
+      },
+      {
+        "type": 54,
+        "frequency": 12440,
+        "name": "WIEN CNTR"
+      },
+      {
+        "type": 55,
+        "frequency": 12820,
+        "name": "WIEN APP"
+      }
+    ],
+    "elevation": 895,
+    "tower": true,
+    "name": "WIENER NEUSTADT Ost",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 47.843889,
+        "lonStart": 16.253056,
+        "latEnd": 47.842778,
+        "lonEnd": 16.267222,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 20627
+    "id": 20744
   },
   {
     "type": 1,
@@ -146,49 +175,59 @@
         "surfacetype": 1
       }
     ],
-    "id": 26393
+    "id": 20746
   },
   {
     "type": 1,
-    "icao": "LOAN",
-    "lat": 47.8433335,
-    "lon": 16.260139000000002,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12265,
-        "name": "AFIS"
-      },
-      {
-        "type": 54,
-        "frequency": 12440,
-        "name": "WIEN CNTR"
-      },
-      {
-        "type": 55,
-        "frequency": 12820,
-        "name": "WIEN APP"
-      }
-    ],
-    "elevation": 895,
+    "icao": "LOGF",
+    "lat": 47.063,
+    "lon": 16.085,
+    "communications": [],
+    "elevation": 830,
     "tower": true,
-    "name": "WIENER NEUSTADT Ost",
+    "name": "Fuerstenfeld",
     "runways": [
       {
         "type": 100,
-        "width": 22.86,
+        "width": 17.98,
         "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 47.843889,
-        "lonStart": 16.253056,
-        "latEnd": 47.842778,
-        "lonEnd": 16.267222,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 47.06502242,
+        "lonStart": 16.08145675,
+        "latEnd": 47.06097758,
+        "lonEnd": 16.08854325,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 26640
+    "id": 20747
+  },
+  {
+    "type": 1,
+    "icao": "LOGG",
+    "lat": 47.147999999999996,
+    "lon": 16.318,
+    "communications": [],
+    "elevation": 950,
+    "tower": true,
+    "name": "Punitz Guessing",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 47.15118848,
+        "lonStart": 16.31527107,
+        "latEnd": 47.14481152,
+        "lonEnd": 16.32072893,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20748
   },
   {
     "type": 1,
@@ -227,6 +266,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 27579
+    "id": 20772
   }
 ]

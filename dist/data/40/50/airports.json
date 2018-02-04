@@ -1,6 +1,91 @@
 [
   {
     "type": 1,
+    "icao": "UBBB",
+    "lat": 40.471951245,
+    "lon": 50.0494686025,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12680,
+        "name": "BAKU ATIS"
+      },
+      {
+        "type": 55,
+        "frequency": 12930,
+        "name": "BAKU APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12080,
+        "name": "BAKU APP"
+      },
+      {
+        "type": 54,
+        "frequency": 11920,
+        "name": "BAKU TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "BAKU TWR"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "BAKU GND"
+      },
+      {
+        "type": 53,
+        "frequency": 13510,
+        "name": "BAKU GND"
+      },
+      {
+        "type": 52,
+        "frequency": 13570,
+        "name": "BAKU DLV"
+      },
+      {
+        "type": 52,
+        "frequency": 12790,
+        "name": "BAKU DLV"
+      }
+    ],
+    "elevation": 9,
+    "tower": true,
+    "name": "HEYDAR ALIYEV",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 40.49082957,
+        "lonStart": 50.03053664,
+        "latEnd": 40.45575309,
+        "lonEnd": 50.04118204,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 40.48501216,
+        "lonStart": 50.06291266,
+        "latEnd": 40.45621016,
+        "lonEnd": 50.06324307,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 5059
+  },
+  {
+    "type": 1,
     "icao": "UB18",
     "lat": 40.406553,
     "lon": 50.2001975,
@@ -23,91 +108,6 @@
         "surfacetype": 2
       }
     ],
-    "id": 1456
-  },
-  {
-    "type": 1,
-    "icao": "UBBB",
-    "lat": 40.470000250000005,
-    "lon": 50.052083249999995,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12680,
-        "name": "BAKU ATIS"
-      },
-      {
-        "type": 50,
-        "frequency": 12640,
-        "name": "BAKU ATIS"
-      },
-      {
-        "type": 53,
-        "frequency": 12170,
-        "name": "BAKU GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11920,
-        "name": "BAKU TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12930,
-        "name": "BAKU APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12390,
-        "name": "BAKU APP"
-      },
-      {
-        "type": 55,
-        "frequency": 11920,
-        "name": "BAKU PRECISION"
-      },
-      {
-        "type": 55,
-        "frequency": 12080,
-        "name": "BAKU RADAR"
-      },
-      {
-        "type": 55,
-        "frequency": 12800,
-        "name": "BAKU RADAR"
-      }
-    ],
-    "elevation": 10,
-    "tower": true,
-    "name": "HEYDAR ALIYEV",
-    "runways": [
-      {
-        "type": 100,
-        "width": 50.9,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 40.486667,
-        "lonStart": 50.063333,
-        "latEnd": 40.456667,
-        "lonEnd": 50.063333,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 40.48,
-        "lonStart": 50.035,
-        "latEnd": 40.456667,
-        "lonEnd": 50.046667,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 11121
+    "id": 30248
   }
 ]

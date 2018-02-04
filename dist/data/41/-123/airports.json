@@ -1,29 +1,173 @@
 [
   {
     "type": 1,
-    "icao": "CA10",
-    "lat": 41.617092,
-    "lon": -122.31918300000001,
-    "communications": [],
-    "elevation": 3009,
+    "icao": "1O5",
+    "lat": 41.73087675,
+    "lon": -122.54530925000002,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 2527,
     "tower": false,
-    "name": "Coonrod Ranch",
+    "name": "Montague Yreka Rohrer Field",
     "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 41.734338,
+        "lonStart": -122.546605,
+        "latEnd": 41.725687,
+        "lonEnd": -122.542561,
+        "length": 0,
+        "surfacetype": 1
+      },
       {
         "type": 100,
         "width": 30.48,
         "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 41.62065524,
-        "lonStart": -122.32193479,
-        "latEnd": 41.61352876,
-        "lonEnd": -122.31643121,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 41.730964,
+        "lonStart": -122.549819,
+        "latEnd": 41.732518,
+        "lonEnd": -122.542252,
         "length": 0,
-        "surfacetype": 4
+        "surfacetype": 3
       }
     ],
-    "id": 5300
+    "id": 54
+  },
+  {
+    "type": 1,
+    "icao": "A30",
+    "lat": 41.5569127575,
+    "lon": -122.85440826249999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 2728,
+    "tower": false,
+    "name": "SCOTT VALLEY",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 41.562801,
+        "lonStart": -122.855376,
+        "latEnd": 41.552694,
+        "lonEnd": -122.854565,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H6",
+        "numberEnd": null,
+        "latStart": 41.55592152,
+        "lonStart": -122.85383674,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      },
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H5",
+        "numberEnd": null,
+        "latStart": 41.55623451,
+        "lonStart": -122.85385531,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 505
+  },
+  {
+    "type": 1,
+    "icao": "KSIY",
+    "lat": 41.781433,
+    "lon": -122.468131,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12112,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 2647,
+    "tower": false,
+    "name": "Siskiyou Co",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 41.791517,
+        "lonStart": -122.465489,
+        "latEnd": 41.771349,
+        "lonEnd": -122.470773,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3265
+  },
+  {
+    "type": 1,
+    "icao": "O46",
+    "lat": 41.480789635,
+    "lon": -122.454541475,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 2937,
+    "tower": false,
+    "name": "Weed",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 41.48714907,
+        "lonStart": -122.45796418,
+        "latEnd": 41.4744302,
+        "lonEnd": -122.45111877,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4300
   },
   {
     "type": 1,
@@ -49,7 +193,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 6572
+    "id": 6654
   },
   {
     "type": 1,
@@ -75,78 +219,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 15118
-  },
-  {
-    "type": 1,
-    "icao": "CA11",
-    "lat": 41.273211939999996,
-    "lon": -122.12222612,
-    "communications": [],
-    "elevation": 3540,
-    "tower": false,
-    "name": "Mc Cloud Airstrip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 41.27702349,
-        "lonStart": -122.12160343,
-        "latEnd": 41.26940039,
-        "lonEnd": -122.12284881,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 16893
-  },
-  {
-    "type": 1,
-    "icao": "1O5",
-    "lat": 41.730928250000005,
-    "lon": -122.54619174999999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 2527,
-    "tower": false,
-    "name": "Montague Yreka Rohrer Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 41.734444,
-        "lonStart": -122.5475,
-        "latEnd": 41.725833,
-        "lonEnd": -122.543331,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 41.730689,
-        "lonStart": -122.550522,
-        "latEnd": 41.732747,
-        "lonEnd": -122.543414,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 17397
+    "id": 11421
   },
   {
     "type": 1,
@@ -172,107 +245,58 @@
         "surfacetype": 4
       }
     ],
-    "id": 21778
+    "id": 15000
   },
   {
     "type": 1,
-    "icao": "A30",
-    "lat": 41.558333000000005,
-    "lon": -122.855275,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 2728,
+    "icao": "CA10",
+    "lat": 41.617092,
+    "lon": -122.31918300000001,
+    "communications": [],
+    "elevation": 3009,
     "tower": false,
-    "name": "SCOTT VALLEY",
+    "name": "Coonrod Ranch",
     "runways": [
       {
         "type": 100,
-        "width": 15.24,
+        "width": 30.48,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 41.563333,
-        "lonStart": -122.85555,
-        "latEnd": 41.553333,
-        "lonEnd": -122.855,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 41.62065524,
+        "lonStart": -122.32193479,
+        "latEnd": 41.61352876,
+        "lonEnd": -122.31643121,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 4
       }
     ],
-    "id": 22125
+    "id": 15001
   },
   {
     "type": 1,
-    "icao": "KSIY",
-    "lat": 41.7814415,
-    "lon": -122.4681095,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12112,
-        "name": "ASOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12300,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 2648,
+    "icao": "CA11",
+    "lat": 41.273211939999996,
+    "lon": -122.12222612,
+    "communications": [],
+    "elevation": 3540,
     "tower": false,
-    "name": "Siskiyou Co",
+    "name": "Mc Cloud Airstrip",
     "runways": [
       {
         "type": 100,
-        "width": 45.72,
+        "width": 22.86,
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 41.791519,
-        "lonStart": -122.465475,
-        "latEnd": 41.771364,
-        "lonEnd": -122.470744,
+        "latStart": 41.27702349,
+        "lonStart": -122.12160343,
+        "latEnd": 41.26940039,
+        "lonEnd": -122.12284881,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 4
       }
     ],
-    "id": 23566
-  },
-  {
-    "type": 1,
-    "icao": "O46",
-    "lat": 41.475001500000005,
-    "lon": -122.4530595,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12270,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 2937,
-    "tower": false,
-    "name": "Weed",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 41.481389,
-        "lonStart": -122.456669,
-        "latEnd": 41.468614,
-        "lonEnd": -122.44945,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 27029
+    "id": 15002
   }
 ]

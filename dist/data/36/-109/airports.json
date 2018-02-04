@@ -1,77 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "N19",
-    "lat": 36.833889,
-    "lon": -108.02937499999999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 5876,
-    "tower": false,
-    "name": "AZTEC MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 36.835,
-        "lonStart": -108.035556,
-        "latEnd": 36.834167,
-        "lonEnd": -108.020833,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 36.830833,
-        "lonStart": -108.034444,
-        "latEnd": 36.835556,
-        "lonEnd": -108.026667,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 498
-  },
-  {
-    "type": 1,
-    "icao": "NM39",
-    "lat": 36.63278083,
-    "lon": -108.31146528,
-    "communications": [],
-    "elevation": 5720,
-    "tower": false,
-    "name": "Davenport",
-    "runways": [
-      {
-        "type": 100,
-        "width": 8.23,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 36.63144471,
-        "lonStart": -108.32331236,
-        "latEnd": 36.63411695,
-        "lonEnd": -108.2996182,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 6029
-  },
-  {
-    "type": 1,
     "icao": "KFMN",
     "lat": 36.74196292777778,
     "lon": -108.22742567888888,
@@ -182,33 +111,7 @@
         "length": 14.3
       }
     ],
-    "id": 9633
-  },
-  {
-    "type": 1,
-    "icao": "NM04",
-    "lat": 36.6777825,
-    "lon": -108.08395862,
-    "communications": [],
-    "elevation": 5345,
-    "tower": false,
-    "name": "Keller Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 19.81,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 36.67846686,
-        "lonStart": -108.08797311,
-        "latEnd": 36.67709814,
-        "lonEnd": -108.07994413,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 13713
+    "id": 2676
   },
   {
     "type": 1,
@@ -245,33 +148,78 @@
         "surfacetype": 1
       }
     ],
-    "id": 22230
+    "id": 8942
   },
   {
     "type": 1,
-    "icao": "NM27",
-    "lat": 36.42250305,
-    "lon": -108.86148001000001,
-    "communications": [],
-    "elevation": 5950,
+    "icao": "N19",
+    "lat": 36.833889,
+    "lon": -108.02937499999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 5876,
     "tower": false,
-    "name": "Sanostee",
+    "name": "AZTEC MUNI",
     "runways": [
       {
         "type": 100,
         "width": 15.24,
         "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 36.41843224,
-        "lonStart": -108.86464125,
-        "latEnd": 36.42657386,
-        "lonEnd": -108.85831877,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 36.835,
+        "lonStart": -108.035556,
+        "latEnd": 36.834167,
+        "lonEnd": -108.020833,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 36.830833,
+        "lonStart": -108.034444,
+        "latEnd": 36.835556,
+        "lonEnd": -108.026667,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22147
+  },
+  {
+    "type": 1,
+    "icao": "NM04",
+    "lat": 36.6777825,
+    "lon": -108.08395862,
+    "communications": [],
+    "elevation": 5345,
+    "tower": false,
+    "name": "Keller Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 19.81,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 36.67846686,
+        "lonStart": -108.08797311,
+        "latEnd": 36.67709814,
+        "lonEnd": -108.07994413,
         "length": 0,
         "surfacetype": 4
       }
     ],
-    "id": 22880
+    "id": 22799
   },
   {
     "type": 1,
@@ -297,7 +245,59 @@
         "surfacetype": 4
       }
     ],
-    "id": 27324
+    "id": 22800
+  },
+  {
+    "type": 1,
+    "icao": "NM27",
+    "lat": 36.42250305,
+    "lon": -108.86148001000001,
+    "communications": [],
+    "elevation": 5950,
+    "tower": false,
+    "name": "Sanostee",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 36.41843224,
+        "lonStart": -108.86464125,
+        "latEnd": 36.42657386,
+        "lonEnd": -108.85831877,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 22821
+  },
+  {
+    "type": 1,
+    "icao": "NM39",
+    "lat": 36.63278083,
+    "lon": -108.31146528,
+    "communications": [],
+    "elevation": 5720,
+    "tower": false,
+    "name": "Davenport",
+    "runways": [
+      {
+        "type": 100,
+        "width": 8.23,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 36.63144471,
+        "lonStart": -108.32331236,
+        "latEnd": 36.63411695,
+        "lonEnd": -108.2996182,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22833
   },
   {
     "type": 17,
@@ -322,6 +322,6 @@
         "length": 12.2
       }
     ],
-    "id": 32733
+    "id": 22853
   }
 ]

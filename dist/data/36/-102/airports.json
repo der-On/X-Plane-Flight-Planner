@@ -1,6 +1,51 @@
 [
   {
     "type": 1,
+    "icao": "X43",
+    "lat": 36.028948347500005,
+    "lon": -101.8305221175,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 3506,
+    "tower": false,
+    "name": "Sunray",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 36.03347679,
+        "lonStart": -101.82886859,
+        "latEnd": 36.02456211,
+        "lonEnd": -101.82886865,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 36.02436663,
+        "lonStart": -101.83526726,
+        "latEnd": 36.03338786,
+        "lonEnd": -101.82908397,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 5312
+  },
+  {
+    "type": 1,
     "icao": "2E3",
     "lat": 36.1772985,
     "lon": -101.6944235,
@@ -34,7 +79,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 3995
+    "id": 6937
   },
   {
     "type": 1,
@@ -71,7 +116,78 @@
         "surfacetype": 1
       }
     ],
-    "id": 10186
+    "id": 16085
+  },
+  {
+    "type": 1,
+    "icao": "E42",
+    "lat": 36.221008499999996,
+    "lon": -101.19449549999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 3090,
+    "tower": false,
+    "name": "SPEARMAN MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 36.215025,
+        "lonStart": -101.198658,
+        "latEnd": 36.226992,
+        "lonEnd": -101.190333,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16098
+  },
+  {
+    "type": 1,
+    "icao": "K49",
+    "lat": 36.5072425,
+    "lon": -101.81264775,
+    "communications": [],
+    "elevation": 3462,
+    "tower": false,
+    "name": "MUNICIPAL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.63,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 36.501467,
+        "lonStart": -101.816164,
+        "latEnd": 36.508303,
+        "lonEnd": -101.807483,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 36.512811,
+        "lonStart": -101.813333,
+        "latEnd": 36.506389,
+        "lonEnd": -101.813611,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 18722
   },
   {
     "type": 1,
@@ -121,122 +237,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 10238
-  },
-  {
-    "type": 1,
-    "icao": "K49",
-    "lat": 36.5072425,
-    "lon": -101.81264775,
-    "communications": [],
-    "elevation": 3462,
-    "tower": false,
-    "name": "MUNICIPAL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 14.63,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 36.501467,
-        "lonStart": -101.816164,
-        "latEnd": 36.508303,
-        "lonEnd": -101.807483,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 36.512811,
-        "lonStart": -101.813333,
-        "latEnd": 36.506389,
-        "lonEnd": -101.813611,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 16386
-  },
-  {
-    "type": 1,
-    "icao": "E42",
-    "lat": 36.221008499999996,
-    "lon": -101.19449549999999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 3090,
-    "tower": false,
-    "name": "SPEARMAN MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 36.215025,
-        "lonStart": -101.198658,
-        "latEnd": 36.226992,
-        "lonEnd": -101.190333,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22419
-  },
-  {
-    "type": 1,
-    "icao": "X43",
-    "lat": 36.02888875,
-    "lon": -101.83041674999998,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 3507,
-    "tower": false,
-    "name": "SUNRAY",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 36.024167,
-        "lonStart": -101.835,
-        "latEnd": 36.033333,
-        "lonEnd": -101.829167,
-        "length": 0,
-        "surfacetype": 5
-      },
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 36.033611,
-        "lonStart": -101.828889,
-        "latEnd": 36.024444,
-        "lonEnd": -101.828611,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22609
+    "id": 19235
   }
 ]

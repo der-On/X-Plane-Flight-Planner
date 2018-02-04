@@ -3,9 +3,15 @@
     "type": 1,
     "icao": "RJDT",
     "lat": 34.284889,
-    "lon": 129.33055000000002,
-    "communications": [],
-    "elevation": 213,
+    "lon": 129.3305474,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12430,
+        "name": "RJDT_TWR"
+      }
+    ],
+    "elevation": 212,
     "tower": true,
     "name": "TSUSHIMA",
     "runways": [
@@ -15,14 +21,14 @@
         "surfaceType": null,
         "numberStart": "14",
         "numberEnd": "32",
-        "latStart": 34.291053,
-        "lonStart": 129.323386,
-        "latEnd": 34.278725,
-        "lonEnd": 129.337714,
+        "latStart": 34.29105188,
+        "lonStart": 129.32338459,
+        "latEnd": 34.27872612,
+        "lonEnd": 129.33771021,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 24887
+    "id": 4441
   }
 ]

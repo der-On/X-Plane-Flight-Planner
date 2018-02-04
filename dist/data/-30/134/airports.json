@@ -1,6 +1,61 @@
 [
   {
     "type": 1,
+    "icao": "YCBP",
+    "lat": -29.039914902499998,
+    "lon": 134.72143556,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 11960,
+        "name": "ACTIVATE LIGHTS ONLY MULT"
+      },
+      {
+        "type": 51,
+        "frequency": 12670,
+        "name": "COOBER PEDY MULT"
+      },
+      {
+        "type": 51,
+        "frequency": 12070,
+        "name": "MELBOURNE CENTRE MULT"
+      }
+    ],
+    "elevation": 738,
+    "tower": false,
+    "name": "Coober Pedy",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": -29.04434692,
+        "lonStart": 134.71429114,
+        "latEnd": -29.03590168,
+        "lonEnd": 134.72536421,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -29.03597639,
+        "lonStart": 134.72058085,
+        "latEnd": -29.04343462,
+        "lonEnd": 134.72550604,
+        "length": 0,
+        "surfacetype": 15
+      }
+    ],
+    "id": 32922
+  },
+  {
+    "type": 1,
     "icao": "YCWH",
     "lat": -29.957588056250003,
     "lon": 134.15190660875,
@@ -68,62 +123,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 5232
-  },
-  {
-    "type": 1,
-    "icao": "YCBP",
-    "lat": -29.039914902499998,
-    "lon": 134.72143556,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 11960,
-        "name": "ACTIVATE LIGHTS ONLY MULT"
-      },
-      {
-        "type": 51,
-        "frequency": 12670,
-        "name": "COOBER PEDY MULT"
-      },
-      {
-        "type": 51,
-        "frequency": 12070,
-        "name": "MELBOURNE CENTRE MULT"
-      }
-    ],
-    "elevation": 738,
-    "tower": false,
-    "name": "Coober Pedy",
-    "runways": [
-      {
-        "type": 100,
-        "width": 14.94,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": -29.04434692,
-        "lonStart": 134.71429114,
-        "latEnd": -29.03590168,
-        "lonEnd": 134.72536421,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": -29.03597639,
-        "lonStart": 134.72058085,
-        "latEnd": -29.04343462,
-        "lonEnd": 134.72550604,
-        "length": 0,
-        "surfacetype": 15
-      }
-    ],
-    "id": 5281
+    "id": 33086
   },
   {
     "type": 1,
@@ -168,7 +168,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 12499
+    "id": 33484
   },
   {
     "type": 1,
@@ -200,6 +200,6 @@
         "surfacetype": 4
       }
     ],
-    "id": 27455
+    "id": 34791
   }
 ]

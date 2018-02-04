@@ -1,6 +1,56 @@
 [
   {
     "type": 1,
+    "icao": "2G9",
+    "lat": 40.038338554999996,
+    "lon": -79.01541177,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13380,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 2271,
+    "tower": false,
+    "name": "SOMERSET CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 40.03505083,
+        "lonStart": -79.0224324,
+        "latEnd": 40.0426933,
+        "lonEnd": -79.00757947,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 62.18,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 40.04024605,
+        "lonStart": -79.01944295,
+        "latEnd": 40.03536404,
+        "lonEnd": -79.01219226,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 81
+  },
+  {
+    "type": 1,
     "icao": "KAGC",
     "lat": 40.354227588,
     "lon": -79.929174326,
@@ -104,7 +154,7 @@
         "length": 13.8
       }
     ],
-    "id": 222
+    "id": 2328
   },
   {
     "type": 1,
@@ -164,7 +214,889 @@
         "surfacetype": 1
       }
     ],
-    "id": 1206
+    "id": 2872
+  },
+  {
+    "type": 17,
+    "icao": "1PS8",
+    "lat": 40.96117527,
+    "lon": -79.00197834,
+    "communications": [],
+    "elevation": 1515,
+    "tower": false,
+    "name": "[H] Punxsutawney Area Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.96117527,
+        "lonStart": -79.00197834,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 6712
+  },
+  {
+    "type": 17,
+    "icao": "02PA",
+    "lat": 40.46312777,
+    "lon": -79.76893334,
+    "communications": [],
+    "elevation": 1068,
+    "tower": false,
+    "name": "[H] Louis A Grant Inc",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.46312777,
+        "lonStart": -79.76893334,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 7246
+  },
+  {
+    "type": 1,
+    "icao": "3G9",
+    "lat": 40.85256444,
+    "lon": -79.97477973,
+    "communications": [],
+    "elevation": 1333,
+    "tower": false,
+    "name": "Butler Farm Show",
+    "runways": [
+      {
+        "type": 100,
+        "width": 11.58,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 40.85606845,
+        "lonStart": -79.97543079,
+        "latEnd": 40.84906043,
+        "lonEnd": -79.97412867,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 7522
+  },
+  {
+    "type": 17,
+    "icao": "3PA5",
+    "lat": 40.31034694,
+    "lon": -79.6550425,
+    "communications": [],
+    "elevation": 1000,
+    "tower": false,
+    "name": "[H] Davis Family Furniture",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.31034694,
+        "lonStart": -79.6550425,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 7814
+  },
+  {
+    "type": 1,
+    "icao": "3PN9",
+    "lat": 40.441775,
+    "lon": -79.5500778,
+    "communications": [],
+    "elevation": 1210,
+    "tower": false,
+    "name": "Phil Cain Memorial Ultralight",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 40.4411579,
+        "lonStart": -79.55104412,
+        "latEnd": 40.4423921,
+        "lonEnd": -79.54911148,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7826
+  },
+  {
+    "type": 1,
+    "icao": "4G0",
+    "lat": 40.45229055,
+    "lon": -79.77476889,
+    "communications": [],
+    "elevation": 1187,
+    "tower": false,
+    "name": "Pittsburgh-Monroeville",
+    "runways": [
+      {
+        "type": 100,
+        "width": 8.23,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 40.44996674,
+        "lonStart": -79.77751858,
+        "latEnd": 40.45461436,
+        "lonEnd": -79.7720192,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 8058
+  },
+  {
+    "type": 17,
+    "icao": "4PS9",
+    "lat": 40.59867666,
+    "lon": -79.58115584,
+    "communications": [],
+    "elevation": 950,
+    "tower": false,
+    "name": "[H] Ferrante",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.59867666,
+        "lonStart": -79.58115584,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 8349
+  },
+  {
+    "type": 1,
+    "icao": "5G8",
+    "lat": 40.376457220000006,
+    "lon": -79.60837584,
+    "communications": [],
+    "elevation": 1188,
+    "tower": false,
+    "name": "Jeannette Regional",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 40.3729639,
+        "lonStart": -79.60935054,
+        "latEnd": 40.37995054,
+        "lonEnd": -79.60740114,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 8586
+  },
+  {
+    "type": 17,
+    "icao": "5PA5",
+    "lat": 40.18229333,
+    "lon": -79.91004834,
+    "communications": [],
+    "elevation": 1113,
+    "tower": false,
+    "name": "[H] Monongahela Valley Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.9,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.18229333,
+        "lonStart": -79.91004834,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19.8
+      }
+    ],
+    "id": 8848
+  },
+  {
+    "type": 17,
+    "icao": "5PS3",
+    "lat": 40.46645777,
+    "lon": -79.95282973,
+    "communications": [],
+    "elevation": 946,
+    "tower": false,
+    "name": "[H] St Francis Medical Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 19.8,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.46645777,
+        "lonStart": -79.95282973,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19.8
+      }
+    ],
+    "id": 8856
+  },
+  {
+    "type": 17,
+    "icao": "7PS6",
+    "lat": 40.618955,
+    "lon": -79.73782612,
+    "communications": [],
+    "elevation": 964,
+    "tower": false,
+    "name": "[H] Allegheny Valley Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.618955,
+        "lonStart": -79.73782612,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 9847
+  },
+  {
+    "type": 1,
+    "icao": "7SP",
+    "lat": 40.010039000000006,
+    "lon": -79.3219405,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 2907,
+    "tower": false,
+    "name": "SEVEN SPRINGS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.8,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 40.009914,
+        "lonStart": -79.327417,
+        "latEnd": 40.010164,
+        "lonEnd": -79.316464,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 9865
+  },
+  {
+    "type": 17,
+    "icao": "8PA5",
+    "lat": 40.81450833,
+    "lon": -79.50615556,
+    "communications": [],
+    "elevation": 1304,
+    "tower": false,
+    "name": "[H] Echo 8 Communications Facility",
+    "runways": [
+      {
+        "type": 102,
+        "width": 10.4,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.81450833,
+        "lonStart": -79.50615556,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.4
+      }
+    ],
+    "id": 10298
+  },
+  {
+    "type": 1,
+    "icao": "9G1",
+    "lat": 40.603546265,
+    "lon": -79.82611892,
+    "communications": [],
+    "elevation": 1060,
+    "tower": false,
+    "name": "West Penn",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 40.6082372,
+        "lonStart": -79.82784646,
+        "latEnd": 40.59885533,
+        "lonEnd": -79.82439138,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 10500
+  },
+  {
+    "type": 1,
+    "icao": "9PN1",
+    "lat": 40.03896333,
+    "lon": -79.7900425,
+    "communications": [],
+    "elevation": 1240,
+    "tower": false,
+    "name": "Seitz Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 40.04077976,
+        "lonStart": -79.791304,
+        "latEnd": 40.0371469,
+        "lonEnd": -79.788781,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10746
+  },
+  {
+    "type": 1,
+    "icao": "9PS2",
+    "lat": 40.808675269999995,
+    "lon": -79.66977084000001,
+    "communications": [],
+    "elevation": 1200,
+    "tower": false,
+    "name": "J T Willie",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 40.81152737,
+        "lonStart": -79.67030042,
+        "latEnd": 40.80582317,
+        "lonEnd": -79.66924126,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10755
+  },
+  {
+    "type": 17,
+    "icao": "24PN",
+    "lat": 40.10840555,
+    "lon": -79.54809389,
+    "communications": [],
+    "elevation": 1088,
+    "tower": false,
+    "name": "[H] W.P.H.S.",
+    "runways": [
+      {
+        "type": 102,
+        "width": 22.6,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.10840555,
+        "lonStart": -79.54809389,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 22.6
+      }
+    ],
+    "id": 11489
+  },
+  {
+    "type": 17,
+    "icao": "25PA",
+    "lat": 40.31728333,
+    "lon": -79.60115834,
+    "communications": [],
+    "elevation": 1200,
+    "tower": false,
+    "name": "[H] Jeannette Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 19.8,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.31728333,
+        "lonStart": -79.60115834,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19.8
+      }
+    ],
+    "id": 11531
+  },
+  {
+    "type": 1,
+    "icao": "31D",
+    "lat": 40.333402500000005,
+    "lon": -79.77921223,
+    "communications": [],
+    "elevation": 1250,
+    "tower": false,
+    "name": "Inter County",
+    "runways": [
+      {
+        "type": 100,
+        "width": 37.8,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 40.33302839,
+        "lonStart": -79.78270428,
+        "latEnd": 40.33377661,
+        "lonEnd": -79.77572018,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11734
+  },
+  {
+    "type": 17,
+    "icao": "42PN",
+    "lat": 40.45756888,
+    "lon": -79.99144195,
+    "communications": [],
+    "elevation": 797,
+    "tower": false,
+    "name": "[H] Allegheny General Hospital Emergency",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.45756888,
+        "lonStart": -79.99144195,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 12188
+  },
+  {
+    "type": 17,
+    "icao": "46PA",
+    "lat": 40.48951277,
+    "lon": -79.89449501,
+    "communications": [],
+    "elevation": 761,
+    "tower": false,
+    "name": "[H] St Margaret Memorial Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 19.8,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.48951277,
+        "lonStart": -79.89449501,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19.8
+      }
+    ],
+    "id": 12345
+  },
+  {
+    "type": 17,
+    "icao": "50PN",
+    "lat": 40.39117888,
+    "lon": -79.57115306,
+    "communications": [],
+    "elevation": 1208,
+    "tower": false,
+    "name": "[H] Delmont Personal Use",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.39117888,
+        "lonStart": -79.57115306,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 12499
+  },
+  {
+    "type": 17,
+    "icao": "51PN",
+    "lat": 40.499235,
+    "lon": -79.86532751,
+    "communications": [],
+    "elevation": 984,
+    "tower": false,
+    "name": "[H] Helistop Ridc Industrial Park",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.499235,
+        "lonStart": -79.86532751,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 12539
+  },
+  {
+    "type": 17,
+    "icao": "53PN",
+    "lat": 40.63006611,
+    "lon": -79.11364501,
+    "communications": [],
+    "elevation": 1358,
+    "tower": false,
+    "name": "[H] S W Jack",
+    "runways": [
+      {
+        "type": 102,
+        "width": 21.3,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.63006611,
+        "lonStart": -79.11364501,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21.3
+      }
+    ],
+    "id": 12622
+  },
+  {
+    "type": 17,
+    "icao": "54PN",
+    "lat": 40.42729055,
+    "lon": -79.74754584,
+    "communications": [],
+    "elevation": 1199,
+    "tower": false,
+    "name": "[H] Forbes Regional Health Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.42729055,
+        "lonStart": -79.74754584,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 12659
+  },
+  {
+    "type": 17,
+    "icao": "60PN",
+    "lat": 40.33340277,
+    "lon": -79.92477223,
+    "communications": [],
+    "elevation": 1154,
+    "tower": false,
+    "name": "[H] Jefferson Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 21.3,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.33340277,
+        "lonStart": -79.92477223,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21.3
+      }
+    ],
+    "id": 12892
+  },
+  {
+    "type": 1,
+    "icao": "77PA",
+    "lat": 40.58340055,
+    "lon": -79.89977472999999,
+    "communications": [],
+    "elevation": 1140,
+    "tower": false,
+    "name": "Nardo",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 40.58305698,
+        "lonStart": -79.90299367,
+        "latEnd": 40.58374412,
+        "lonEnd": -79.89655579,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13573
+  },
+  {
+    "type": 17,
+    "icao": "81PN",
+    "lat": 40.81117527,
+    "lon": -79.54810084,
+    "communications": [],
+    "elevation": 1157,
+    "tower": false,
+    "name": "[H] Armstrong County Memorial Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 21.3,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.81117527,
+        "lonStart": -79.54810084,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21.3
+      }
+    ],
+    "id": 13721
+  },
+  {
+    "type": 17,
+    "icao": "83PA",
+    "lat": 40.31118027,
+    "lon": -79.61031945,
+    "communications": [],
+    "elevation": 1348,
+    "tower": false,
+    "name": "[H] MMC",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.31118027,
+        "lonStart": -79.61031945,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 13799
+  },
+  {
+    "type": 1,
+    "icao": "85PN",
+    "lat": 40.5792325,
+    "lon": -79.60532278,
+    "communications": [],
+    "elevation": 1280,
+    "tower": false,
+    "name": "Kiski",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 40.57998774,
+        "lonStart": -79.60778396,
+        "latEnd": 40.57847726,
+        "lonEnd": -79.6028616,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13877
+  },
+  {
+    "type": 1,
+    "icao": "87PA",
+    "lat": 40.926452499999996,
+    "lon": -79.73866084,
+    "communications": [],
+    "elevation": 1359,
+    "tower": false,
+    "name": "Waltman",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 40.92984385,
+        "lonStart": -79.74011927,
+        "latEnd": 40.92306115,
+        "lonEnd": -79.73720241,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13940
+  },
+  {
+    "type": 1,
+    "icao": "92PA",
+    "lat": 40.7042325,
+    "lon": -79.95200138999999,
+    "communications": [],
+    "elevation": 1150,
+    "tower": false,
+    "name": "Hawkins Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 40.7059073,
+        "lonStart": -79.95271922,
+        "latEnd": 40.7025577,
+        "lonEnd": -79.95128356,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14104
+  },
+  {
+    "type": 17,
+    "icao": "95PA",
+    "lat": 40.89478611,
+    "lon": -79.59004639,
+    "communications": [],
+    "elevation": 1430,
+    "tower": false,
+    "name": "[H] Snyder Ranch",
+    "runways": [
+      {
+        "type": 102,
+        "width": 61,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.89478611,
+        "lonStart": -79.59004639,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 182.9
+      },
+      {
+        "type": 102,
+        "width": 121.9,
+        "surfaceType": 3,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 40.89478611,
+        "lonStart": -79.59004639,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 365.8
+      }
+    ],
+    "id": 14208
+  },
+  {
+    "type": 1,
+    "icao": "G04",
+    "lat": 40.66256611,
+    "lon": -79.84560805999999,
+    "communications": [],
+    "elevation": 1220,
+    "tower": false,
+    "name": "Culmerville",
+    "runways": [
+      {
+        "type": 100,
+        "width": 54.25,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 40.66224468,
+        "lonStart": -79.84862313,
+        "latEnd": 40.66288754,
+        "lonEnd": -79.84259299,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17648
   },
   {
     "type": 1,
@@ -211,642 +1143,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 2002
-  },
-  {
-    "type": 1,
-    "icao": "3G9",
-    "lat": 40.85256444,
-    "lon": -79.97477973,
-    "communications": [],
-    "elevation": 1333,
-    "tower": false,
-    "name": "Butler Farm Show",
-    "runways": [
-      {
-        "type": 100,
-        "width": 11.58,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 40.85606845,
-        "lonStart": -79.97543079,
-        "latEnd": 40.84906043,
-        "lonEnd": -79.97412867,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 3455
-  },
-  {
-    "type": 1,
-    "icao": "PN01",
-    "lat": 40.58812277,
-    "lon": -79.90588611999999,
-    "communications": [],
-    "elevation": 1180,
-    "tower": false,
-    "name": "Cedar Run",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 40.59056743,
-        "lonStart": -79.90633854,
-        "latEnd": 40.58567811,
-        "lonEnd": -79.9054337,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 4700
-  },
-  {
-    "type": 1,
-    "icao": "G04",
-    "lat": 40.66256611,
-    "lon": -79.84560805999999,
-    "communications": [],
-    "elevation": 1220,
-    "tower": false,
-    "name": "Culmerville",
-    "runways": [
-      {
-        "type": 100,
-        "width": 54.25,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 40.66224468,
-        "lonStart": -79.84862313,
-        "latEnd": 40.66288754,
-        "lonEnd": -79.84259299,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 5565
-  },
-  {
-    "type": 1,
-    "icao": "PN08",
-    "lat": 40.73461944,
-    "lon": -79.15989723,
-    "communications": [],
-    "elevation": 1373,
-    "tower": false,
-    "name": "Davis",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 40.73600504,
-        "lonStart": -79.161378,
-        "latEnd": 40.73323384,
-        "lonEnd": -79.15841646,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 6050
-  },
-  {
-    "type": 1,
-    "icao": "PN49",
-    "lat": 40.77200861,
-    "lon": -79.42893139,
-    "communications": [],
-    "elevation": 1500,
-    "tower": false,
-    "name": "Dunbar",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 40.77174139,
-        "lonStart": -79.43144211,
-        "latEnd": 40.77227583,
-        "lonEnd": -79.42642067,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 6549
-  },
-  {
-    "type": 1,
-    "icao": "PN66",
-    "lat": 40.42562333,
-    "lon": -79.36364889,
-    "communications": [],
-    "elevation": 1220,
-    "tower": false,
-    "name": "Dunlea Airpark",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 40.4235849,
-        "lonStart": -79.36605995,
-        "latEnd": 40.42766176,
-        "lonEnd": -79.36123783,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 6562
-  },
-  {
-    "type": 1,
-    "icao": "92PA",
-    "lat": 40.7042325,
-    "lon": -79.95200138999999,
-    "communications": [],
-    "elevation": 1150,
-    "tower": false,
-    "name": "Hawkins Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 40.7059073,
-        "lonStart": -79.95271922,
-        "latEnd": 40.7025577,
-        "lonEnd": -79.95128356,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11570
-  },
-  {
-    "type": 1,
-    "icao": "KIDI",
-    "lat": 40.6322265,
-    "lon": -79.1055305,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12662,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "UNICOM"
-      }
-    ],
-    "elevation": 1405,
-    "tower": false,
-    "name": "INDIANA CO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 40.632828,
-        "lonStart": -79.112694,
-        "latEnd": 40.631625,
-        "lonEnd": -79.098367,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 12302
-  },
-  {
-    "type": 1,
-    "icao": "31D",
-    "lat": 40.333402500000005,
-    "lon": -79.77921223,
-    "communications": [],
-    "elevation": 1250,
-    "tower": false,
-    "name": "Inter County",
-    "runways": [
-      {
-        "type": 100,
-        "width": 37.8,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 40.33302839,
-        "lonStart": -79.78270428,
-        "latEnd": 40.33377661,
-        "lonEnd": -79.77572018,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 12518
-  },
-  {
-    "type": 1,
-    "icao": "PA15",
-    "lat": 40.51451055,
-    "lon": -79.42726278,
-    "communications": [],
-    "elevation": 1240,
-    "tower": false,
-    "name": "J & W Landing Strip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 40.51368411,
-        "lonStart": -79.43060844,
-        "latEnd": 40.51533699,
-        "lonEnd": -79.42391712,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 12623
-  },
-  {
-    "type": 1,
-    "icao": "9PS2",
-    "lat": 40.808675269999995,
-    "lon": -79.66977084000001,
-    "communications": [],
-    "elevation": 1200,
-    "tower": false,
-    "name": "J T Willie",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 40.81152737,
-        "lonStart": -79.67030042,
-        "latEnd": 40.80582317,
-        "lonEnd": -79.66924126,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 12640
-  },
-  {
-    "type": 1,
-    "icao": "5G8",
-    "lat": 40.376457220000006,
-    "lon": -79.60837584,
-    "communications": [],
-    "elevation": 1188,
-    "tower": false,
-    "name": "Jeannette Regional",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 40.3729639,
-        "lonStart": -79.60935054,
-        "latEnd": 40.37995054,
-        "lonEnd": -79.60740114,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 12935
-  },
-  {
-    "type": 1,
-    "icao": "PA48",
-    "lat": 40.44478999,
-    "lon": -79.28892528,
-    "communications": [],
-    "elevation": 1040,
-    "tower": false,
-    "name": "Jim Shearer South",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 40.44695149,
-        "lonStart": -79.2911443,
-        "latEnd": 40.44262849,
-        "lonEnd": -79.28670626,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 12995
-  },
-  {
-    "type": 1,
-    "icao": "85PN",
-    "lat": 40.5792325,
-    "lon": -79.60532278,
-    "communications": [],
-    "elevation": 1280,
-    "tower": false,
-    "name": "Kiski",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 40.57998774,
-        "lonStart": -79.60778396,
-        "latEnd": 40.57847726,
-        "lonEnd": -79.6028616,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 13940
-  },
-  {
-    "type": 1,
-    "icao": "PN25",
-    "lat": 40.73562027,
-    "lon": -79.68866,
-    "communications": [],
-    "elevation": 1080,
-    "tower": false,
-    "name": "Lindsay",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 40.73570403,
-        "lonStart": -79.69182557,
-        "latEnd": 40.73553651,
-        "lonEnd": -79.68549443,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15300
-  },
-  {
-    "type": 1,
-    "icao": "PN47",
-    "lat": 40.18340861,
-    "lon": -79.06641694999999,
-    "communications": [],
-    "elevation": 1975,
-    "tower": false,
-    "name": "Lohrs Landing",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 40.18162834,
-        "lonStart": -79.06735843,
-        "latEnd": 40.18518888,
-        "lonEnd": -79.06547547,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15412
-  },
-  {
-    "type": 1,
-    "icao": "PN57",
-    "lat": 40.81200833,
-    "lon": -79.03725612,
-    "communications": [],
-    "elevation": 1500,
-    "tower": false,
-    "name": "Marion Center Speedway",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 40.81089205,
-        "lonStart": -79.04153952,
-        "latEnd": 40.81312461,
-        "lonEnd": -79.03297272,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 16698
-  },
-  {
-    "type": 1,
-    "icao": "P37",
-    "lat": 40.733397769999996,
-    "lon": -79.59976888999999,
-    "communications": [],
-    "elevation": 1090,
-    "tower": false,
-    "name": "Mc Ville",
-    "runways": [
-      {
-        "type": 100,
-        "width": 42.67,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 40.73733638,
-        "lonStart": -79.60049939,
-        "latEnd": 40.72945916,
-        "lonEnd": -79.59903839,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 48.77,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 40.73044252,
-        "lonStart": -79.6013446,
-        "latEnd": 40.73635302,
-        "lonEnd": -79.59819318,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 16967
-  },
-  {
-    "type": 1,
-    "icao": "P45",
-    "lat": 40.10840555,
-    "lon": -79.54142695000002,
-    "communications": [],
-    "elevation": 1160,
-    "tower": false,
-    "name": "Mount Pleasant Scottdale",
-    "runways": [
-      {
-        "type": 100,
-        "width": 48.16,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 40.10646856,
-        "lonStart": -79.54466852,
-        "latEnd": 40.11034254,
-        "lonEnd": -79.53818538,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 64.31,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 40.10987388,
-        "lonStart": -79.54355913,
-        "latEnd": 40.10693722,
-        "lonEnd": -79.53929477,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 17620
-  },
-  {
-    "type": 1,
-    "icao": "77PA",
-    "lat": 40.58340055,
-    "lon": -79.89977472999999,
-    "communications": [],
-    "elevation": 1140,
-    "tower": false,
-    "name": "Nardo",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 40.58305698,
-        "lonStart": -79.90299367,
-        "latEnd": 40.58374412,
-        "lonEnd": -79.89655579,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 18126
-  },
-  {
-    "type": 1,
-    "icao": "PN02",
-    "lat": 40.98478583,
-    "lon": -79.56643473,
-    "communications": [],
-    "elevation": 865,
-    "tower": false,
-    "name": "Offutt Acres",
-    "runways": [
-      {
-        "type": 100,
-        "width": 36.58,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 40.98452815,
-        "lonStart": -79.56886357,
-        "latEnd": 40.98504351,
-        "lonEnd": -79.56400589,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 18832
-  },
-  {
-    "type": 1,
-    "icao": "3PN9",
-    "lat": 40.441775,
-    "lon": -79.5500778,
-    "communications": [],
-    "elevation": 1210,
-    "tower": false,
-    "name": "Phil Cain Memorial Ultralight",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 40.4411579,
-        "lonStart": -79.55104412,
-        "latEnd": 40.4423921,
-        "lonEnd": -79.54911148,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 20056
-  },
-  {
-    "type": 1,
-    "icao": "4G0",
-    "lat": 40.45229055,
-    "lon": -79.77476889,
-    "communications": [],
-    "elevation": 1187,
-    "tower": false,
-    "name": "Pittsburgh-Monroeville",
-    "runways": [
-      {
-        "type": 100,
-        "width": 8.23,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 40.44996674,
-        "lonStart": -79.77751858,
-        "latEnd": 40.45461436,
-        "lonEnd": -79.7720192,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 20227
+    "id": 18895
   },
   {
     "type": 1,
@@ -888,946 +1185,148 @@
         "surfacetype": 1
       }
     ],
-    "id": 21045
+    "id": 19174
   },
   {
     "type": 1,
-    "icao": "PN36",
-    "lat": 40.733397499999995,
-    "lon": -79.06725612,
-    "communications": [],
-    "elevation": 1420,
-    "tower": false,
-    "name": "Rayne",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 40.7330921,
-        "lonStart": -79.07012384,
-        "latEnd": 40.7337029,
-        "lonEnd": -79.0643884,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 21243
-  },
-  {
-    "type": 1,
-    "icao": "7SP",
-    "lat": 40.010039000000006,
-    "lon": -79.3219405,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 2907,
-    "tower": false,
-    "name": "SEVEN SPRINGS",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.8,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 40.009914,
-        "lonStart": -79.327417,
-        "latEnd": 40.010164,
-        "lonEnd": -79.316464,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22173
-  },
-  {
-    "type": 1,
-    "icao": "2G9",
-    "lat": 40.038338554999996,
-    "lon": -79.01541177,
+    "icao": "KIDI",
+    "lat": 40.6322265,
+    "lon": -79.1055305,
     "communications": [
       {
         "type": 50,
-        "frequency": 13380,
+        "frequency": 12662,
         "name": "AWOS 3"
       },
       {
         "type": 51,
         "frequency": 12280,
-        "name": "CTAF/UNICOM"
+        "name": "UNICOM"
       }
     ],
-    "elevation": 2271,
+    "elevation": 1405,
     "tower": false,
-    "name": "SOMERSET CO",
+    "name": "INDIANA CO",
     "runways": [
       {
         "type": 100,
         "width": 22.86,
         "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 40.03505083,
-        "lonStart": -79.0224324,
-        "latEnd": 40.0426933,
-        "lonEnd": -79.00757947,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 40.632828,
+        "lonStart": -79.112694,
+        "latEnd": 40.631625,
+        "lonEnd": -79.098367,
         "length": 0,
         "surfacetype": 1
+      }
+    ],
+    "id": 19330
+  },
+  {
+    "type": 1,
+    "icao": "P37",
+    "lat": 40.733397769999996,
+    "lon": -79.59976888999999,
+    "communications": [],
+    "elevation": 1090,
+    "tower": false,
+    "name": "Mc Ville",
+    "runways": [
+      {
+        "type": 100,
+        "width": 42.67,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 40.73733638,
+        "lonStart": -79.60049939,
+        "latEnd": 40.72945916,
+        "lonEnd": -79.59903839,
+        "length": 0,
+        "surfacetype": 3
       },
       {
         "type": 100,
-        "width": 62.18,
+        "width": 48.77,
         "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 40.04024605,
-        "lonStart": -79.01944295,
-        "latEnd": 40.03536404,
-        "lonEnd": -79.01219226,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 40.73044252,
+        "lonStart": -79.6013446,
+        "latEnd": 40.73635302,
+        "lonEnd": -79.59819318,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 22370
+    "id": 23789
   },
   {
     "type": 1,
-    "icao": "9PN1",
-    "lat": 40.03896333,
-    "lon": -79.7900425,
-    "communications": [],
-    "elevation": 1240,
-    "tower": false,
-    "name": "Seitz Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 40.04077976,
-        "lonStart": -79.791304,
-        "latEnd": 40.0371469,
-        "lonEnd": -79.788781,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23226
-  },
-  {
-    "type": 1,
-    "icao": "PN83",
-    "lat": 40.80284222,
-    "lon": -79.20253751,
-    "communications": [],
-    "elevation": 1380,
-    "tower": false,
-    "name": "Skunk Hollow",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 40.80351012,
-        "lonStart": -79.20472138,
-        "latEnd": 40.80217432,
-        "lonEnd": -79.20035364,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23616
-  },
-  {
-    "type": 1,
-    "icao": "PN98",
-    "lat": 40.2778475,
-    "lon": -79.76837806,
+    "icao": "P45",
+    "lat": 40.10840555,
+    "lon": -79.54142695000002,
     "communications": [],
     "elevation": 1160,
     "tower": false,
-    "name": "Sugar-Bob",
+    "name": "Mount Pleasant Scottdale",
     "runways": [
       {
         "type": 100,
-        "width": 30.48,
+        "width": 48.16,
         "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 40.27701046,
-        "lonStart": -79.77044151,
-        "latEnd": 40.27868454,
-        "lonEnd": -79.76631461,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 40.10646856,
+        "lonStart": -79.54466852,
+        "latEnd": 40.11034254,
+        "lonEnd": -79.53818538,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 64.31,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 40.10987388,
+        "lonStart": -79.54355913,
+        "latEnd": 40.10693722,
+        "lonEnd": -79.53929477,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 24332
+    "id": 23790
   },
   {
     "type": 1,
-    "icao": "PS98",
-    "lat": 40.88339833,
-    "lon": -79.19337084,
-    "communications": [],
-    "elevation": 1320,
-    "tower": false,
-    "name": "Travis",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 40.88311202,
-        "lonStart": -79.19606541,
-        "latEnd": 40.88368464,
-        "lonEnd": -79.19067627,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 25541
-  },
-  {
-    "type": 1,
-    "icao": "87PA",
-    "lat": 40.926452499999996,
-    "lon": -79.73866084,
-    "communications": [],
-    "elevation": 1359,
-    "tower": false,
-    "name": "Waltman",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 40.92984385,
-        "lonStart": -79.74011927,
-        "latEnd": 40.92306115,
-        "lonEnd": -79.73720241,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 26874
-  },
-  {
-    "type": 1,
-    "icao": "9G1",
-    "lat": 40.603546265,
-    "lon": -79.82611892,
-    "communications": [],
-    "elevation": 1060,
-    "tower": false,
-    "name": "West Penn",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 40.6082372,
-        "lonStart": -79.82784646,
-        "latEnd": 40.59885533,
-        "lonEnd": -79.82439138,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 27123
-  },
-  {
-    "type": 17,
-    "icao": "PN78",
-    "lat": 40.44201333,
-    "lon": -79.99533084,
-    "communications": [],
-    "elevation": 1604,
-    "tower": false,
-    "name": "[H] 600 Grant Street Rooftop",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.44201333,
-        "lonStart": -79.99533084,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 27954
-  },
-  {
-    "type": 17,
-    "icao": "42PN",
-    "lat": 40.45756888,
-    "lon": -79.99144195,
-    "communications": [],
-    "elevation": 797,
-    "tower": false,
-    "name": "[H] Allegheny General Hospital Emergency",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.45756888,
-        "lonStart": -79.99144195,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 28086
-  },
-  {
-    "type": 17,
-    "icao": "7PS6",
-    "lat": 40.618955,
-    "lon": -79.73782612,
-    "communications": [],
-    "elevation": 964,
-    "tower": false,
-    "name": "[H] Allegheny Valley Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.618955,
-        "lonStart": -79.73782612,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 28088
-  },
-  {
-    "type": 17,
-    "icao": "81PN",
-    "lat": 40.81117527,
-    "lon": -79.54810084,
-    "communications": [],
-    "elevation": 1157,
-    "tower": false,
-    "name": "[H] Armstrong County Memorial Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 21.3,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.81117527,
-        "lonStart": -79.54810084,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21.3
-      }
-    ],
-    "id": 28181
-  },
-  {
-    "type": 17,
-    "icao": "PS26",
-    "lat": 40.63478833,
-    "lon": -79.74421528,
-    "communications": [],
-    "elevation": 1200,
-    "tower": false,
-    "name": "[H] Banning",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.63478833,
-        "lonStart": -79.74421528,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 28317
-  },
-  {
-    "type": 17,
-    "icao": "PS24",
-    "lat": 40.00368555,
-    "lon": -79.87560167,
-    "communications": [],
-    "elevation": 1199,
-    "tower": false,
-    "name": "[H] Brownsville General Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.00368555,
-        "lonStart": -79.87560167,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 28607
-  },
-  {
-    "type": 17,
-    "icao": "PA93",
-    "lat": 40.685,
-    "lon": -79.45666667,
-    "communications": [],
-    "elevation": 1173,
-    "tower": false,
-    "name": "[H] Cherokee",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.685,
-        "lonStart": -79.45666667,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 28904
-  },
-  {
-    "type": 17,
-    "icao": "PS78",
-    "lat": 40.44229111,
-    "lon": -79.96005195,
-    "communications": [],
-    "elevation": 1124,
-    "tower": false,
-    "name": "[H] Childrens Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 14.6,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.44229111,
-        "lonStart": -79.96005195,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 29.3
-      }
-    ],
-    "id": 28931
-  },
-  {
-    "type": 17,
-    "icao": "3PA5",
-    "lat": 40.31034694,
-    "lon": -79.6550425,
-    "communications": [],
-    "elevation": 1000,
-    "tower": false,
-    "name": "[H] Davis Family Furniture",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.31034694,
-        "lonStart": -79.6550425,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 29272
-  },
-  {
-    "type": 17,
-    "icao": "50PN",
-    "lat": 40.39117888,
-    "lon": -79.57115306,
-    "communications": [],
-    "elevation": 1208,
-    "tower": false,
-    "name": "[H] Delmont Personal Use",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.39117888,
-        "lonStart": -79.57115306,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 29311
-  },
-  {
-    "type": 17,
-    "icao": "8PA5",
-    "lat": 40.81450833,
-    "lon": -79.50615556,
-    "communications": [],
-    "elevation": 1304,
-    "tower": false,
-    "name": "[H] Echo 8 Communications Facility",
-    "runways": [
-      {
-        "type": 102,
-        "width": 10.4,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.81450833,
-        "lonStart": -79.50615556,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.4
-      }
-    ],
-    "id": 29463
-  },
-  {
-    "type": 17,
-    "icao": "4PS9",
-    "lat": 40.59867666,
-    "lon": -79.58115584,
-    "communications": [],
-    "elevation": 950,
-    "tower": false,
-    "name": "[H] Ferrante",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.59867666,
-        "lonStart": -79.58115584,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 29714
-  },
-  {
-    "type": 17,
-    "icao": "54PN",
-    "lat": 40.42729055,
-    "lon": -79.74754584,
-    "communications": [],
-    "elevation": 1199,
-    "tower": false,
-    "name": "[H] Forbes Regional Health Center",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.42729055,
-        "lonStart": -79.74754584,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 29784
-  },
-  {
-    "type": 17,
-    "icao": "PA29",
-    "lat": 40.14534944,
-    "lon": -79.55059417,
+    "icao": "PA15",
+    "lat": 40.51451055,
+    "lon": -79.42726278,
     "communications": [],
     "elevation": 1240,
     "tower": false,
-    "name": "[H] Frick Hospital & Community Health Cent",
+    "name": "J & W Landing Strip",
     "runways": [
       {
-        "type": 102,
-        "width": 19.8,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.14534944,
-        "lonStart": -79.55059417,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.8
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 40.51368411,
+        "lonStart": -79.43060844,
+        "latEnd": 40.51533699,
+        "lonEnd": -79.42391712,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 29833
-  },
-  {
-    "type": 17,
-    "icao": "51PN",
-    "lat": 40.499235,
-    "lon": -79.86532751,
-    "communications": [],
-    "elevation": 984,
-    "tower": false,
-    "name": "[H] Helistop Ridc Industrial Park",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.499235,
-        "lonStart": -79.86532751,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 30197
-  },
-  {
-    "type": 17,
-    "icao": "PN63",
-    "lat": 40.436735,
-    "lon": -79.76032389,
-    "communications": [],
-    "elevation": 1188,
-    "tower": false,
-    "name": "[H] Howard Johnsons Motor Lodge",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.436735,
-        "lonStart": -79.76032389,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 30398
-  },
-  {
-    "type": 17,
-    "icao": "PN32",
-    "lat": 40.60839972,
-    "lon": -79.13558973,
-    "communications": [],
-    "elevation": 1285,
-    "tower": false,
-    "name": "[H] Indiana Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.60839972,
-        "lonStart": -79.13558973,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 30510
-  },
-  {
-    "type": 17,
-    "icao": "25PA",
-    "lat": 40.31728333,
-    "lon": -79.60115834,
-    "communications": [],
-    "elevation": 1200,
-    "tower": false,
-    "name": "[H] Jeannette Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 19.8,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.31728333,
-        "lonStart": -79.60115834,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.8
-      }
-    ],
-    "id": 30598
-  },
-  {
-    "type": 17,
-    "icao": "60PN",
-    "lat": 40.33340277,
-    "lon": -79.92477223,
-    "communications": [],
-    "elevation": 1154,
-    "tower": false,
-    "name": "[H] Jefferson Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 21.3,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.33340277,
-        "lonStart": -79.92477223,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21.3
-      }
-    ],
-    "id": 30602
-  },
-  {
-    "type": 17,
-    "icao": "PA24",
-    "lat": 40.31951388,
-    "lon": -79.39531473,
-    "communications": [],
-    "elevation": 1040,
-    "tower": false,
-    "name": "[H] Latrobe Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 22.9,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.31951388,
-        "lonStart": -79.39531473,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 22.9
-      }
-    ],
-    "id": 30846
-  },
-  {
-    "type": 17,
-    "icao": "02PA",
-    "lat": 40.46312777,
-    "lon": -79.76893334,
-    "communications": [],
-    "elevation": 1068,
-    "tower": false,
-    "name": "[H] Louis A Grant Inc",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.46312777,
-        "lonStart": -79.76893334,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 30949
-  },
-  {
-    "type": 17,
-    "icao": "83PA",
-    "lat": 40.31118027,
-    "lon": -79.61031945,
-    "communications": [],
-    "elevation": 1348,
-    "tower": false,
-    "name": "[H] MMC",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.31118027,
-        "lonStart": -79.61031945,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 31007
-  },
-  {
-    "type": 17,
-    "icao": "PN23",
-    "lat": 40.43534694,
-    "lon": -79.9850525,
-    "communications": [],
-    "elevation": 886,
-    "tower": false,
-    "name": "[H] Mercy Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 19.8,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.43534694,
-        "lonStart": -79.9850525,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.8
-      }
-    ],
-    "id": 31275
-  },
-  {
-    "type": 17,
-    "icao": "5PA5",
-    "lat": 40.18229333,
-    "lon": -79.91004834,
-    "communications": [],
-    "elevation": 1113,
-    "tower": false,
-    "name": "[H] Monongahela Valley Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.9,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.18229333,
-        "lonStart": -79.91004834,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.8
-      }
-    ],
-    "id": 31418
-  },
-  {
-    "type": 17,
-    "icao": "PN42",
-    "lat": 40.62506611,
-    "lon": -79.14975695,
-    "communications": [],
-    "elevation": 1398,
-    "tower": false,
-    "name": "[H] Practice Football Field",
-    "runways": [
-      {
-        "type": 102,
-        "width": 91.4,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.62506611,
-        "lonStart": -79.14975695,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 91.4
-      }
-    ],
-    "id": 32132
-  },
-  {
-    "type": 17,
-    "icao": "1PS8",
-    "lat": 40.96117527,
-    "lon": -79.00197834,
-    "communications": [],
-    "elevation": 1515,
-    "tower": false,
-    "name": "[H] Punxsutawney Area Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.96117527,
-        "lonStart": -79.00197834,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 32189
-  },
-  {
-    "type": 17,
-    "icao": "53PN",
-    "lat": 40.63006611,
-    "lon": -79.11364501,
-    "communications": [],
-    "elevation": 1358,
-    "tower": false,
-    "name": "[H] S W Jack",
-    "runways": [
-      {
-        "type": 102,
-        "width": 21.3,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.63006611,
-        "lonStart": -79.11364501,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21.3
-      }
-    ],
-    "id": 32463
+    "id": 23808
   },
   {
     "type": 17,
@@ -1852,144 +1351,32 @@
         "length": 14.6
       }
     ],
-    "id": 32655
+    "id": 23809
   },
   {
     "type": 17,
-    "icao": "95PA",
-    "lat": 40.89478611,
-    "lon": -79.59004639,
+    "icao": "PA24",
+    "lat": 40.31951388,
+    "lon": -79.39531473,
     "communications": [],
-    "elevation": 1430,
+    "elevation": 1040,
     "tower": false,
-    "name": "[H] Snyder Ranch",
+    "name": "[H] Latrobe Hospital",
     "runways": [
       {
         "type": 102,
-        "width": 61,
-        "surfaceType": 3,
+        "width": 22.9,
+        "surfaceType": 1,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 40.89478611,
-        "lonStart": -79.59004639,
+        "latStart": 40.31951388,
+        "lonStart": -79.39531473,
         "latEnd": null,
         "lonEnd": null,
-        "length": 182.9
-      },
-      {
-        "type": 102,
-        "width": 121.9,
-        "surfaceType": 3,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 40.89478611,
-        "lonStart": -79.59004639,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 365.8
+        "length": 22.9
       }
     ],
-    "id": 32760
-  },
-  {
-    "type": 17,
-    "icao": "5PS3",
-    "lat": 40.46645777,
-    "lon": -79.95282973,
-    "communications": [],
-    "elevation": 946,
-    "tower": false,
-    "name": "[H] St Francis Medical Center",
-    "runways": [
-      {
-        "type": 102,
-        "width": 19.8,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.46645777,
-        "lonStart": -79.95282973,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.8
-      }
-    ],
-    "id": 32891
-  },
-  {
-    "type": 17,
-    "icao": "46PA",
-    "lat": 40.48951277,
-    "lon": -79.89449501,
-    "communications": [],
-    "elevation": 761,
-    "tower": false,
-    "name": "[H] St Margaret Memorial Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 19.8,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.48951277,
-        "lonStart": -79.89449501,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.8
-      }
-    ],
-    "id": 32960
-  },
-  {
-    "type": 17,
-    "icao": "24PN",
-    "lat": 40.10840555,
-    "lon": -79.54809389,
-    "communications": [],
-    "elevation": 1088,
-    "tower": false,
-    "name": "[H] W.P.H.S.",
-    "runways": [
-      {
-        "type": 102,
-        "width": 22.6,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.10840555,
-        "lonStart": -79.54809389,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 22.6
-      }
-    ],
-    "id": 33667
-  },
-  {
-    "type": 17,
-    "icao": "PN80",
-    "lat": 40.46201305,
-    "lon": -79.94477389,
-    "communications": [],
-    "elevation": 1117,
-    "tower": false,
-    "name": "[H] West Penn Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.46201305,
-        "lonStart": -79.94477389,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 33798
+    "id": 23817
   },
   {
     "type": 17,
@@ -2014,57 +1401,186 @@
         "length": 11.9
       }
     ],
-    "id": 33820
+    "id": 23821
   },
   {
-    "type": 16,
-    "icao": "PN65",
-    "lat": 40.63756583,
-    "lon": -79.69421417000001,
+    "type": 17,
+    "icao": "PA29",
+    "lat": 40.14534944,
+    "lon": -79.55059417,
     "communications": [],
-    "elevation": 745,
+    "elevation": 1240,
     "tower": false,
-    "name": "[S] Deer Lakes",
+    "name": "[H] Frick Hospital & Community Health Cent",
     "runways": [
       {
-        "type": 101,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 40.62683367,
-        "lonStart": -79.69722031,
-        "latEnd": 40.64829799,
-        "lonEnd": -79.69120803,
-        "length": 0
+        "type": 102,
+        "width": 19.8,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.14534944,
+        "lonStart": -79.55059417,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19.8
       }
     ],
-    "id": 34066
+    "id": 23822
   },
   {
-    "type": 16,
-    "icao": "PS88",
-    "lat": 40.65006555,
-    "lon": -79.69143667,
+    "type": 1,
+    "icao": "PA48",
+    "lat": 40.44478999,
+    "lon": -79.28892528,
     "communications": [],
-    "elevation": 745,
+    "elevation": 1040,
     "tower": false,
-    "name": "[S] Kikkatuck Ii",
+    "name": "Jim Shearer South",
     "runways": [
       {
-        "type": 101,
-        "width": 304.8,
+        "type": 100,
+        "width": 15.24,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 40.65733127,
-        "lonStart": -79.69652859,
-        "latEnd": 40.64279983,
-        "lonEnd": -79.68634475,
-        "length": 0
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 40.44695149,
+        "lonStart": -79.2911443,
+        "latEnd": 40.44262849,
+        "lonEnd": -79.28670626,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "id": 34205
+    "id": 23839
+  },
+  {
+    "type": 17,
+    "icao": "PA93",
+    "lat": 40.685,
+    "lon": -79.45666667,
+    "communications": [],
+    "elevation": 1173,
+    "tower": false,
+    "name": "[H] Cherokee",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.685,
+        "lonStart": -79.45666667,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 23879
+  },
+  {
+    "type": 1,
+    "icao": "PN01",
+    "lat": 40.58812277,
+    "lon": -79.90588611999999,
+    "communications": [],
+    "elevation": 1180,
+    "tower": false,
+    "name": "Cedar Run",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 40.59056743,
+        "lonStart": -79.90633854,
+        "latEnd": 40.58567811,
+        "lonEnd": -79.9054337,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24093
+  },
+  {
+    "type": 1,
+    "icao": "PN02",
+    "lat": 40.98478583,
+    "lon": -79.56643473,
+    "communications": [],
+    "elevation": 865,
+    "tower": false,
+    "name": "Offutt Acres",
+    "runways": [
+      {
+        "type": 100,
+        "width": 36.58,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 40.98452815,
+        "lonStart": -79.56886357,
+        "latEnd": 40.98504351,
+        "lonEnd": -79.56400589,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24094
+  },
+  {
+    "type": 1,
+    "icao": "PN08",
+    "lat": 40.73461944,
+    "lon": -79.15989723,
+    "communications": [],
+    "elevation": 1373,
+    "tower": false,
+    "name": "Davis",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 40.73600504,
+        "lonStart": -79.161378,
+        "latEnd": 40.73323384,
+        "lonEnd": -79.15841646,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24098
+  },
+  {
+    "type": 17,
+    "icao": "PN23",
+    "lat": 40.43534694,
+    "lon": -79.9850525,
+    "communications": [],
+    "elevation": 886,
+    "tower": false,
+    "name": "[H] Mercy Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 19.8,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.43534694,
+        "lonStart": -79.9850525,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19.8
+      }
+    ],
+    "id": 24109
   },
   {
     "type": 16,
@@ -2101,6 +1617,490 @@
         "length": 0
       }
     ],
-    "id": 34455
+    "id": 24110
+  },
+  {
+    "type": 1,
+    "icao": "PN25",
+    "lat": 40.73562027,
+    "lon": -79.68866,
+    "communications": [],
+    "elevation": 1080,
+    "tower": false,
+    "name": "Lindsay",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 40.73570403,
+        "lonStart": -79.69182557,
+        "latEnd": 40.73553651,
+        "lonEnd": -79.68549443,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24111
+  },
+  {
+    "type": 17,
+    "icao": "PN32",
+    "lat": 40.60839972,
+    "lon": -79.13558973,
+    "communications": [],
+    "elevation": 1285,
+    "tower": false,
+    "name": "[H] Indiana Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.60839972,
+        "lonStart": -79.13558973,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 24115
+  },
+  {
+    "type": 1,
+    "icao": "PN36",
+    "lat": 40.733397499999995,
+    "lon": -79.06725612,
+    "communications": [],
+    "elevation": 1420,
+    "tower": false,
+    "name": "Rayne",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 40.7330921,
+        "lonStart": -79.07012384,
+        "latEnd": 40.7337029,
+        "lonEnd": -79.0643884,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24119
+  },
+  {
+    "type": 17,
+    "icao": "PN42",
+    "lat": 40.62506611,
+    "lon": -79.14975695,
+    "communications": [],
+    "elevation": 1398,
+    "tower": false,
+    "name": "[H] Practice Football Field",
+    "runways": [
+      {
+        "type": 102,
+        "width": 91.4,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.62506611,
+        "lonStart": -79.14975695,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 91.4
+      }
+    ],
+    "id": 24122
+  },
+  {
+    "type": 1,
+    "icao": "PN47",
+    "lat": 40.18340861,
+    "lon": -79.06641694999999,
+    "communications": [],
+    "elevation": 1975,
+    "tower": false,
+    "name": "Lohrs Landing",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 40.18162834,
+        "lonStart": -79.06735843,
+        "latEnd": 40.18518888,
+        "lonEnd": -79.06547547,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24124
+  },
+  {
+    "type": 1,
+    "icao": "PN49",
+    "lat": 40.77200861,
+    "lon": -79.42893139,
+    "communications": [],
+    "elevation": 1500,
+    "tower": false,
+    "name": "Dunbar",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 40.77174139,
+        "lonStart": -79.43144211,
+        "latEnd": 40.77227583,
+        "lonEnd": -79.42642067,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24125
+  },
+  {
+    "type": 1,
+    "icao": "PN57",
+    "lat": 40.81200833,
+    "lon": -79.03725612,
+    "communications": [],
+    "elevation": 1500,
+    "tower": false,
+    "name": "Marion Center Speedway",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 40.81089205,
+        "lonStart": -79.04153952,
+        "latEnd": 40.81312461,
+        "lonEnd": -79.03297272,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24130
+  },
+  {
+    "type": 17,
+    "icao": "PN63",
+    "lat": 40.436735,
+    "lon": -79.76032389,
+    "communications": [],
+    "elevation": 1188,
+    "tower": false,
+    "name": "[H] Howard Johnsons Motor Lodge",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.436735,
+        "lonStart": -79.76032389,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 24133
+  },
+  {
+    "type": 16,
+    "icao": "PN65",
+    "lat": 40.63756583,
+    "lon": -79.69421417000001,
+    "communications": [],
+    "elevation": 745,
+    "tower": false,
+    "name": "[S] Deer Lakes",
+    "runways": [
+      {
+        "type": 101,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 40.62683367,
+        "lonStart": -79.69722031,
+        "latEnd": 40.64829799,
+        "lonEnd": -79.69120803,
+        "length": 0
+      }
+    ],
+    "id": 24134
+  },
+  {
+    "type": 1,
+    "icao": "PN66",
+    "lat": 40.42562333,
+    "lon": -79.36364889,
+    "communications": [],
+    "elevation": 1220,
+    "tower": false,
+    "name": "Dunlea Airpark",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 40.4235849,
+        "lonStart": -79.36605995,
+        "latEnd": 40.42766176,
+        "lonEnd": -79.36123783,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24135
+  },
+  {
+    "type": 17,
+    "icao": "PN78",
+    "lat": 40.44201333,
+    "lon": -79.99533084,
+    "communications": [],
+    "elevation": 1604,
+    "tower": false,
+    "name": "[H] 600 Grant Street Rooftop",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.44201333,
+        "lonStart": -79.99533084,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 24140
+  },
+  {
+    "type": 17,
+    "icao": "PN80",
+    "lat": 40.46201305,
+    "lon": -79.94477389,
+    "communications": [],
+    "elevation": 1117,
+    "tower": false,
+    "name": "[H] West Penn Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.46201305,
+        "lonStart": -79.94477389,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 24142
+  },
+  {
+    "type": 1,
+    "icao": "PN83",
+    "lat": 40.80284222,
+    "lon": -79.20253751,
+    "communications": [],
+    "elevation": 1380,
+    "tower": false,
+    "name": "Skunk Hollow",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 40.80351012,
+        "lonStart": -79.20472138,
+        "latEnd": 40.80217432,
+        "lonEnd": -79.20035364,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24143
+  },
+  {
+    "type": 1,
+    "icao": "PN98",
+    "lat": 40.2778475,
+    "lon": -79.76837806,
+    "communications": [],
+    "elevation": 1160,
+    "tower": false,
+    "name": "Sugar-Bob",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 40.27701046,
+        "lonStart": -79.77044151,
+        "latEnd": 40.27868454,
+        "lonEnd": -79.76631461,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24149
+  },
+  {
+    "type": 17,
+    "icao": "PS24",
+    "lat": 40.00368555,
+    "lon": -79.87560167,
+    "communications": [],
+    "elevation": 1199,
+    "tower": false,
+    "name": "[H] Brownsville General Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.00368555,
+        "lonStart": -79.87560167,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 24199
+  },
+  {
+    "type": 17,
+    "icao": "PS26",
+    "lat": 40.63478833,
+    "lon": -79.74421528,
+    "communications": [],
+    "elevation": 1200,
+    "tower": false,
+    "name": "[H] Banning",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.63478833,
+        "lonStart": -79.74421528,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 24201
+  },
+  {
+    "type": 17,
+    "icao": "PS78",
+    "lat": 40.44229111,
+    "lon": -79.96005195,
+    "communications": [],
+    "elevation": 1124,
+    "tower": false,
+    "name": "[H] Childrens Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 14.6,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.44229111,
+        "lonStart": -79.96005195,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.3
+      }
+    ],
+    "id": 24247
+  },
+  {
+    "type": 16,
+    "icao": "PS88",
+    "lat": 40.65006555,
+    "lon": -79.69143667,
+    "communications": [],
+    "elevation": 745,
+    "tower": false,
+    "name": "[S] Kikkatuck Ii",
+    "runways": [
+      {
+        "type": 101,
+        "width": 304.8,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 40.65733127,
+        "lonStart": -79.69652859,
+        "latEnd": 40.64279983,
+        "lonEnd": -79.68634475,
+        "length": 0
+      }
+    ],
+    "id": 24254
+  },
+  {
+    "type": 1,
+    "icao": "PS98",
+    "lat": 40.88339833,
+    "lon": -79.19337084,
+    "communications": [],
+    "elevation": 1320,
+    "tower": false,
+    "name": "Travis",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 40.88311202,
+        "lonStart": -79.19606541,
+        "latEnd": 40.88368464,
+        "lonEnd": -79.19067627,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24260
   }
 ]

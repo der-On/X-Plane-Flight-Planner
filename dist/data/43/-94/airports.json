@@ -1,6 +1,394 @@
 [
   {
     "type": 1,
+    "icao": "68Y",
+    "lat": 43.733287770000004,
+    "lon": -93.78356,
+    "communications": [],
+    "elevation": 1119,
+    "tower": false,
+    "name": "Wells Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.35,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 43.73725967,
+        "lonStart": -93.78413775,
+        "latEnd": 43.72931587,
+        "lonEnd": -93.78298225,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 454
+  },
+  {
+    "type": 1,
+    "icao": "KMCW",
+    "lat": 43.1576228775,
+    "lon": -93.3316017875,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12030,
+        "name": "Mason City ASOS"
+      },
+      {
+        "type": 54,
+        "frequency": 12300,
+        "name": "Mason City CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1212,
+    "tower": false,
+    "name": "Mason City Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 43.1686447,
+        "lonStart": -93.32773608,
+        "latEnd": 43.15079572,
+        "lonEnd": -93.32770582,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 43.15985109,
+        "lonStart": -93.34395136,
+        "latEnd": 43.1512,
+        "lonEnd": -93.32701389,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2945
+  },
+  {
+    "type": 1,
+    "icao": "0Y6",
+    "lat": 43.41662111,
+    "lon": -93.50854445,
+    "communications": [],
+    "elevation": 1260,
+    "tower": false,
+    "name": "Lake Mills Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 43.42124545,
+        "lonStart": -93.50809927,
+        "latEnd": 43.41199677,
+        "lonEnd": -93.50898963,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6260
+  },
+  {
+    "type": 1,
+    "icao": "1IA9",
+    "lat": 43.06774194,
+    "lon": -93.90217056,
+    "communications": [],
+    "elevation": 1192,
+    "tower": false,
+    "name": "Newbrough",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 43.06804809,
+        "lonStart": -93.90816344,
+        "latEnd": 43.06743579,
+        "lonEnd": -93.89617768,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6427
+  },
+  {
+    "type": 1,
+    "icao": "1Y6",
+    "lat": 43.13746666,
+    "lon": -93.06825667,
+    "communications": [],
+    "elevation": 1155,
+    "tower": false,
+    "name": "Spotts Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 43.13764252,
+        "lonStart": -93.0728551,
+        "latEnd": 43.1372908,
+        "lonEnd": -93.06365824,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6849
+  },
+  {
+    "type": 1,
+    "icao": "2IA9",
+    "lat": 43.19079222,
+    "lon": -93.77077528000001,
+    "communications": [],
+    "elevation": 1210,
+    "tower": false,
+    "name": "South 80 Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 43.19053417,
+        "lonStart": -93.77414276,
+        "latEnd": 43.19105027,
+        "lonEnd": -93.7674078,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6993
+  },
+  {
+    "type": 1,
+    "icao": "2MN4",
+    "lat": 43.70384555,
+    "lon": -93.46576973,
+    "communications": [],
+    "elevation": 1279,
+    "tower": false,
+    "name": "Freeborn County",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 43.70738485,
+        "lonStart": -93.46637086,
+        "latEnd": 43.70030625,
+        "lonEnd": -93.4651686,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7112
+  },
+  {
+    "type": 1,
+    "icao": "3IA9",
+    "lat": 43.475788609999995,
+    "lon": -93.90717417,
+    "communications": [],
+    "elevation": 1180,
+    "tower": false,
+    "name": "Rake",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 43.47601822,
+        "lonStart": -93.91169906,
+        "latEnd": 43.475559,
+        "lonEnd": -93.90264928,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7559
+  },
+  {
+    "type": 1,
+    "icao": "5D2",
+    "lat": 43.4513475,
+    "lon": -93.19048028,
+    "communications": [],
+    "elevation": 1224,
+    "tower": false,
+    "name": "Northwood Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 43.45496847,
+        "lonStart": -93.19109271,
+        "latEnd": 43.44772653,
+        "lonEnd": -93.18986785,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 8546
+  },
+  {
+    "type": 1,
+    "icao": "48MN",
+    "lat": 43.77079,
+    "lon": -93.58910862,
+    "communications": [],
+    "elevation": 1210,
+    "tower": false,
+    "name": "Jacobsen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 43.77407356,
+        "lonStart": -93.58879065,
+        "latEnd": 43.76750644,
+        "lonEnd": -93.58942659,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12406
+  },
+  {
+    "type": 1,
+    "icao": "82MN",
+    "lat": 43.88746055,
+    "lon": -93.56827555999999,
+    "communications": [],
+    "elevation": 1187,
+    "tower": false,
+    "name": "Arneman Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 43.891565,
+        "lonStart": -93.56787732,
+        "latEnd": 43.8833561,
+        "lonEnd": -93.5686738,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13753
+  },
+  {
+    "type": 1,
+    "icao": "96MN",
+    "lat": 43.568013050000005,
+    "lon": -93.25437195,
+    "communications": [],
+    "elevation": 1240,
+    "tower": false,
+    "name": "Air-Ag",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 43.571711,
+        "lonStart": -93.25410447,
+        "latEnd": 43.5643151,
+        "lonEnd": -93.25463943,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14236
+  },
+  {
+    "type": 1,
+    "icao": "IA33",
+    "lat": 43.01194444,
+    "lon": -93.24242584000001,
+    "communications": [],
+    "elevation": 1200,
+    "tower": false,
+    "name": "Dads Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 28.96,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 43.01213106,
+        "lonStart": -93.24729582,
+        "latEnd": 43.01175782,
+        "lonEnd": -93.23755586,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18168
+  },
+  {
+    "type": 1,
+    "icao": "IA70",
+    "lat": 43.42578861,
+    "lon": -93.83578139,
+    "communications": [],
+    "elevation": 1220,
+    "tower": false,
+    "name": "Friesenborg & Larson",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 43.42974414,
+        "lonStart": -93.83635383,
+        "latEnd": 43.42183308,
+        "lonEnd": -93.83520895,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18203
+  },
+  {
+    "type": 1,
     "icao": "KAEL",
     "lat": 43.68157624999999,
     "lon": -93.36726800000001,
@@ -37,8 +425,8 @@
         "type": 100,
         "width": 22.86,
         "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
+        "numberStart": "05",
+        "numberEnd": "23",
         "latStart": 43.679075,
         "lonStart": -93.371397,
         "latEnd": 43.684544,
@@ -47,137 +435,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 181
-  },
-  {
-    "type": 1,
-    "icao": "96MN",
-    "lat": 43.568013050000005,
-    "lon": -93.25437195,
-    "communications": [],
-    "elevation": 1240,
-    "tower": false,
-    "name": "Air-Ag",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 43.571711,
-        "lonStart": -93.25410447,
-        "latEnd": 43.5643151,
-        "lonEnd": -93.25463943,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 745
-  },
-  {
-    "type": 1,
-    "icao": "82MN",
-    "lat": 43.88746055,
-    "lon": -93.56827555999999,
-    "communications": [],
-    "elevation": 1187,
-    "tower": false,
-    "name": "Arneman Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 43.891565,
-        "lonStart": -93.56787732,
-        "latEnd": 43.8833561,
-        "lonEnd": -93.5686738,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 1198
-  },
-  {
-    "type": 1,
-    "icao": "MN74",
-    "lat": 43.83051388,
-    "lon": -93.84050612,
-    "communications": [],
-    "elevation": 1055,
-    "tower": false,
-    "name": "B & D Flyers IntL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 43.83073392,
-        "lonStart": -93.84486817,
-        "latEnd": 43.83029384,
-        "lonEnd": -93.83614407,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 1399
-  },
-  {
-    "type": 1,
-    "icao": "Y54",
-    "lat": 43.333291939999995,
-    "lon": -93.96689723,
-    "communications": [],
-    "elevation": 1196,
-    "tower": false,
-    "name": "Buffalo Center",
-    "runways": [
-      {
-        "type": 100,
-        "width": 91.44,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 43.33690385,
-        "lonStart": -93.96655,
-        "latEnd": 43.32968003,
-        "lonEnd": -93.96724446,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 3349
-  },
-  {
-    "type": 1,
-    "icao": "IA33",
-    "lat": 43.01194444,
-    "lon": -93.24242584000001,
-    "communications": [],
-    "elevation": 1200,
-    "tower": false,
-    "name": "Dads Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 28.96,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 43.01213106,
-        "lonStart": -93.24729582,
-        "latEnd": 43.01175782,
-        "lonEnd": -93.23755586,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 5932
+    "id": 18775
   },
   {
     "type": 1,
@@ -222,291 +480,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 7610
-  },
-  {
-    "type": 1,
-    "icao": "2MN4",
-    "lat": 43.70384555,
-    "lon": -93.46576973,
-    "communications": [],
-    "elevation": 1279,
-    "tower": false,
-    "name": "Freeborn County",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 43.70738485,
-        "lonStart": -93.46637086,
-        "latEnd": 43.70030625,
-        "lonEnd": -93.4651686,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9704
-  },
-  {
-    "type": 1,
-    "icao": "IA70",
-    "lat": 43.42578861,
-    "lon": -93.83578139,
-    "communications": [],
-    "elevation": 1220,
-    "tower": false,
-    "name": "Friesenborg & Larson",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 43.42974414,
-        "lonStart": -93.83635383,
-        "latEnd": 43.42183308,
-        "lonEnd": -93.83520895,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9737
-  },
-  {
-    "type": 1,
-    "icao": "48MN",
-    "lat": 43.77079,
-    "lon": -93.58910862,
-    "communications": [],
-    "elevation": 1210,
-    "tower": false,
-    "name": "Jacobsen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 43.77407356,
-        "lonStart": -93.58879065,
-        "latEnd": 43.76750644,
-        "lonEnd": -93.58942659,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 12875
-  },
-  {
-    "type": 1,
-    "icao": "0Y6",
-    "lat": 43.41662111,
-    "lon": -93.50854445,
-    "communications": [],
-    "elevation": 1260,
-    "tower": false,
-    "name": "Lake Mills Municipal",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 43.42124545,
-        "lonStart": -93.50809927,
-        "latEnd": 43.41199677,
-        "lonEnd": -93.50898963,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 14837
-  },
-  {
-    "type": 1,
-    "icao": "KMCW",
-    "lat": 43.157618,
-    "lon": -93.33157700000001,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12030,
-        "name": "ASOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12300,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 1213,
-    "tower": false,
-    "name": "MASON CITY MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 43.168633,
-        "lonStart": -93.327708,
-        "latEnd": 43.1508,
-        "lonEnd": -93.327675,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 43.159842,
-        "lonStart": -93.343914,
-        "latEnd": 43.151197,
-        "lonEnd": -93.327011,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 15897
-  },
-  {
-    "type": 1,
-    "icao": "1IA9",
-    "lat": 43.06774194,
-    "lon": -93.90217056,
-    "communications": [],
-    "elevation": 1192,
-    "tower": false,
-    "name": "Newbrough",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 43.06804809,
-        "lonStart": -93.90816344,
-        "latEnd": 43.06743579,
-        "lonEnd": -93.89617768,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 18270
-  },
-  {
-    "type": 1,
-    "icao": "5D2",
-    "lat": 43.4513475,
-    "lon": -93.19048028,
-    "communications": [],
-    "elevation": 1224,
-    "tower": false,
-    "name": "Northwood Municipal",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 43.45496847,
-        "lonStart": -93.19109271,
-        "latEnd": 43.44772653,
-        "lonEnd": -93.18986785,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 18491
-  },
-  {
-    "type": 1,
-    "icao": "3IA9",
-    "lat": 43.475788609999995,
-    "lon": -93.90717417,
-    "communications": [],
-    "elevation": 1180,
-    "tower": false,
-    "name": "Rake",
-    "runways": [
-      {
-        "type": 100,
-        "width": 27.43,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 43.47601822,
-        "lonStart": -93.91169906,
-        "latEnd": 43.475559,
-        "lonEnd": -93.90264928,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 21138
-  },
-  {
-    "type": 1,
-    "icao": "2IA9",
-    "lat": 43.19079222,
-    "lon": -93.77077528000001,
-    "communications": [],
-    "elevation": 1210,
-    "tower": false,
-    "name": "South 80 Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 43.19053417,
-        "lonStart": -93.77414276,
-        "latEnd": 43.19105027,
-        "lonEnd": -93.7674078,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23874
-  },
-  {
-    "type": 1,
-    "icao": "1Y6",
-    "lat": 43.13746666,
-    "lon": -93.06825667,
-    "communications": [],
-    "elevation": 1155,
-    "tower": false,
-    "name": "Spotts Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 43.13764252,
-        "lonStart": -93.0728551,
-        "latEnd": 43.1372908,
-        "lonEnd": -93.06365824,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23971
+    "id": 19176
   },
   {
     "type": 1,
@@ -532,32 +506,58 @@
         "surfacetype": 3
       }
     ],
-    "id": 26905
+    "id": 21571
   },
   {
     "type": 1,
-    "icao": "68Y",
-    "lat": 43.733287770000004,
-    "lon": -93.78356,
+    "icao": "MN74",
+    "lat": 43.83051388,
+    "lon": -93.84050612,
     "communications": [],
-    "elevation": 1119,
+    "elevation": 1055,
     "tower": false,
-    "name": "Wells Municipal",
+    "name": "B & D Flyers IntL",
     "runways": [
       {
         "type": 100,
-        "width": 60.35,
+        "width": 22.86,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 43.73725967,
-        "lonStart": -93.78413775,
-        "latEnd": 43.72931587,
-        "lonEnd": -93.78298225,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 43.83073392,
+        "lonStart": -93.84486817,
+        "latEnd": 43.83029384,
+        "lonEnd": -93.83614407,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 27074
+    "id": 21584
+  },
+  {
+    "type": 1,
+    "icao": "Y54",
+    "lat": 43.333291939999995,
+    "lon": -93.96689723,
+    "communications": [],
+    "elevation": 1196,
+    "tower": false,
+    "name": "Buffalo Center",
+    "runways": [
+      {
+        "type": 100,
+        "width": 91.44,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 43.33690385,
+        "lonStart": -93.96655,
+        "latEnd": 43.32968003,
+        "lonEnd": -93.96724446,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 32560
   }
 ]

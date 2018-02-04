@@ -1,38 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "LE01",
-    "lat": 41.367419659999996,
-    "lon": 1.767151285,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12350,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 838,
-    "tower": true,
-    "name": "Avinyonet",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.52,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 41.36828493,
-        "lonStart": 1.76465835,
-        "latEnd": 41.36655439,
-        "lonEnd": 1.76964422,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 1368
-  },
-  {
-    "type": 1,
     "icao": "LECF",
     "lat": 41.74471741,
     "lon": 1.5574750000000002,
@@ -55,39 +23,7 @@
         "surfacetype": 5
       }
     ],
-    "id": 4331
-  },
-  {
-    "type": 1,
-    "icao": "LEIG",
-    "lat": 41.584504595,
-    "lon": 1.652641825,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12260,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 1148,
-    "tower": true,
-    "name": "Igualada-Odena",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.1,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 41.58822026,
-        "lonStart": 1.6507102,
-        "latEnd": 41.58078893,
-        "lonEnd": 1.65457345,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 12421
+    "id": 3493
   },
   {
     "type": 1,
@@ -129,7 +65,39 @@
         "surfacetype": 1
       }
     ],
-    "id": 21388
+    "id": 3525
+  },
+  {
+    "type": 1,
+    "icao": "XLEX1",
+    "lat": 41.367419659999996,
+    "lon": 1.767151285,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12350,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 838,
+    "tower": true,
+    "name": "Avinyonet",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.52,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 41.36828493,
+        "lonStart": 1.76465835,
+        "latEnd": 41.36655439,
+        "lonEnd": 1.76964422,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5503
   },
   {
     "type": 1,
@@ -161,6 +129,38 @@
         "surfacetype": 4
       }
     ],
-    "id": 26191
+    "id": 20153
+  },
+  {
+    "type": 1,
+    "icao": "LEIG",
+    "lat": 41.584504595,
+    "lon": 1.652641825,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12260,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 1148,
+    "tower": true,
+    "name": "Igualada-Odena",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.1,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 41.58822026,
+        "lonStart": 1.6507102,
+        "latEnd": 41.58078893,
+        "lonEnd": 1.65457345,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20166
   }
 ]

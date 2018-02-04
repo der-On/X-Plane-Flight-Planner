@@ -1,51 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "EDHC",
-    "lat": 53.01746,
-    "lon": 11.144480000000001,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12250,
-        "name": "Luechow Info"
-      }
-    ],
-    "elevation": 39,
-    "tower": true,
-    "name": "Luechow-Rehbeck",
-    "runways": [
-      {
-        "type": 100,
-        "width": 10,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 53.019114,
-        "lonStart": 11.143165,
-        "latEnd": 53.015157,
-        "lonEnd": 11.146311,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "15C",
-        "numberEnd": "33C",
-        "latStart": 53.020442,
-        "lonStart": 11.142113,
-        "latEnd": 53.015127,
-        "lonEnd": 11.146331,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15588
-  },
-  {
-    "type": 1,
     "icao": "EDAN",
     "lat": 53.3617632375,
     "lon": 11.613975615,
@@ -87,7 +42,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 18233
+    "id": 991
   },
   {
     "type": 1,
@@ -132,7 +87,84 @@
         "surfacetype": 3
       }
     ],
-    "id": 20176
+    "id": 1017
+  },
+  {
+    "type": 1,
+    "icao": "EDCW",
+    "lat": 53.9146338,
+    "lon": 11.50109067,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12305,
+        "name": "Wismar Info"
+      }
+    ],
+    "elevation": 42,
+    "tower": true,
+    "name": "Wismar-Müggenburg",
+    "runways": [
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 53.91411477,
+        "lonStart": 11.49632884,
+        "latEnd": 53.91515283,
+        "lonEnd": 11.5058525,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1048
+  },
+  {
+    "type": 1,
+    "icao": "EDHC",
+    "lat": 53.01746,
+    "lon": 11.144480000000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12250,
+        "name": "Luechow Info"
+      }
+    ],
+    "elevation": 39,
+    "tower": true,
+    "name": "Luechow-Rehbeck",
+    "runways": [
+      {
+        "type": 100,
+        "width": 10,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 53.019114,
+        "lonStart": 11.143165,
+        "latEnd": 53.015157,
+        "lonEnd": 11.146311,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "15C",
+        "numberEnd": "33C",
+        "latStart": 53.020442,
+        "lonStart": 11.142113,
+        "latEnd": 53.015127,
+        "lonEnd": 11.146331,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1128
   },
   {
     "type": 1,
@@ -181,38 +213,6 @@
         "length": 12.8
       }
     ],
-    "id": 23156
-  },
-  {
-    "type": 1,
-    "icao": "EDCW",
-    "lat": 53.9146338,
-    "lon": 11.50109067,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12305,
-        "name": "Wismar Info"
-      }
-    ],
-    "elevation": 42,
-    "tower": true,
-    "name": "Wismar-MC<ggenburg",
-    "runways": [
-      {
-        "type": 100,
-        "width": 40,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 53.91411477,
-        "lonStart": 11.49632884,
-        "latEnd": 53.91515283,
-        "lonEnd": 11.5058525,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 27463
+    "id": 1249
   }
 ]

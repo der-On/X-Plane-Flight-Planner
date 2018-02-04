@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "LPAR",
-    "lat": 38.883183,
-    "lon": -9.029942,
+    "lat": 38.88648839,
+    "lon": -9.028509915,
     "communications": [
       {
         "type": 54,
@@ -18,23 +18,47 @@
     ],
     "elevation": 11,
     "tower": true,
-    "name": "ALVERCA",
+    "name": "Alverca",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 45,
         "surfaceType": null,
         "numberStart": "04",
         "numberEnd": "22",
-        "latStart": 38.871847,
-        "lonStart": -9.039228,
-        "latEnd": 38.894519,
-        "lonEnd": -9.020656,
+        "latStart": 38.87178674,
+        "lonStart": -9.03932957,
+        "latEnd": 38.89447532,
+        "lonEnd": -9.02074883,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 35,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 38.8859294,
+        "lonStart": -9.02972415,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 33.7
+      },
+      {
+        "type": 102,
+        "width": 42.2,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 38.8937621,
+        "lonStart": -9.02423711,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.6
       }
     ],
-    "id": 255
+    "id": 3864
   },
   {
     "type": 1,
@@ -76,13 +100,106 @@
         "surfacetype": 1
       }
     ],
-    "id": 3716
+    "id": 3875
+  },
+  {
+    "type": 1,
+    "icao": "LPMT",
+    "lat": 38.70215254125,
+    "lon": -9.0364811325,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13410,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 45,
+    "tower": true,
+    "name": "Montijo",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 38.70499523,
+        "lonStart": -9.03716286,
+        "latEnd": 38.71165727,
+        "lonEnd": -9.01032375,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 38.70001945,
+        "lonStart": -9.03831459,
+        "latEnd": 38.71959901,
+        "lonEnd": -9.03545486,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 30.9,
+        "surfaceType": 1,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 38.69844847,
+        "lonStart": -9.04058694,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.1
+      },
+      {
+        "type": 102,
+        "width": 36.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 38.69581067,
+        "lonStart": -9.04197122,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 36.3
+      },
+      {
+        "type": 102,
+        "width": 36.2,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 38.69505307,
+        "lonStart": -9.04239822,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 36.3
+      },
+      {
+        "type": 102,
+        "width": 36.2,
+        "surfaceType": 2,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 38.69163716,
+        "lonStart": -9.04563662,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 36.3
+      }
+    ],
+    "id": 3892
   },
   {
     "type": 1,
     "icao": "LPPT",
-    "lat": 38.778559,
-    "lon": -9.13514625,
+    "lat": 38.778537385,
+    "lon": -9.135130365,
     "communications": [
       {
         "type": 50,
@@ -90,18 +207,18 @@
         "name": "ATIS"
       },
       {
-        "type": 52,
-        "frequency": 11895,
-        "name": "CLD"
-      },
-      {
         "type": 53,
         "frequency": 12175,
         "name": "GND"
       },
       {
-        "type": 54,
+        "type": 52,
         "frequency": 11895,
+        "name": "CLR"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
         "name": "TWR"
       },
       {
@@ -116,88 +233,38 @@
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 45,
         "surfaceType": null,
         "numberStart": "03",
         "numberEnd": "21",
-        "latStart": 38.765689,
-        "lonStart": -9.144383,
-        "latEnd": 38.797333,
-        "lonEnd": -9.127394,
+        "latStart": 38.76564368,
+        "lonStart": -9.14431477,
+        "latEnd": 38.79730183,
+        "lonEnd": -9.12738025,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 45.11,
+        "width": 45,
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 38.786239,
-        "lonStart": -9.137208,
-        "latEnd": 38.764975,
-        "lonEnd": -9.1316,
+        "latStart": 38.78625701,
+        "lonStart": -9.13727624,
+        "latEnd": 38.76494702,
+        "lonEnd": -9.1315502,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 15324
-  },
-  {
-    "type": 1,
-    "icao": "LPMT",
-    "lat": 38.7090355,
-    "lon": -9.030348,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12210,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 13410,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 46,
-    "tower": true,
-    "name": "MONTIJO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 38.705003,
-        "lonStart": -9.037172,
-        "latEnd": 38.711644,
-        "lonEnd": -9.010406,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 38.699942,
-        "lonStart": -9.038342,
-        "latEnd": 38.719553,
-        "lonEnd": -9.035472,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 16231
+    "id": 3902
   },
   {
     "type": 1,
     "icao": "LPST",
-    "lat": 38.831042999999994,
-    "lon": -9.3396545,
+    "lat": 38.83200754,
+    "lon": -9.340107636666666,
     "communications": [
       {
         "type": 53,
@@ -215,9 +282,9 @@
         "name": "APP"
       }
     ],
-    "elevation": 440,
+    "elevation": 439,
     "tower": true,
-    "name": "SINTRA",
+    "name": "Sintra",
     "runways": [
       {
         "type": 100,
@@ -225,14 +292,26 @@
         "surfaceType": null,
         "numberStart": "14",
         "numberEnd": "32",
-        "latStart": 38.836786,
-        "lonStart": -9.346881,
-        "latEnd": 38.8253,
-        "lonEnd": -9.332428,
+        "latStart": 38.83687,
+        "lonStart": -9.347003,
+        "latEnd": 38.82525825,
+        "lonEnd": -9.3323852,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 23.7,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 38.83389437,
+        "lonStart": -9.34093471,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.1
       }
     ],
-    "id": 22295
+    "id": 3908
   }
 ]

@@ -1,14 +1,64 @@
 [
   {
     "type": 1,
-    "icao": "EG3",
-    "lat": 52.488332,
-    "lon": -113.712219,
+    "icao": "CYQF",
+    "lat": 52.1800058325,
+    "lon": -113.8935656125,
     "communications": [
       {
-        "type": 51,
+        "type": 50,
+        "frequency": 12400,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11850,
+        "name": "MF RED DEER RDO"
+      }
+    ],
+    "elevation": 2968,
+    "tower": false,
+    "name": "RED DEER REGIONAL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 52.19116682,
+        "lonStart": -113.89263494,
+        "latEnd": 52.17600274,
+        "lonEnd": -113.89261974,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 52.17943848,
+        "lonStart": -113.90042616,
+        "latEnd": 52.17341529,
+        "lonEnd": -113.88858161,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 813
+  },
+  {
+    "type": 1,
+    "icao": "EG3",
+    "lat": 52.488481050000004,
+    "lon": -113.7117933,
+    "communications": [
+      {
+        "type": 54,
         "frequency": 12280,
-        "name": "CTAF/UNICOM"
+        "name": "UNICOM / Traffic"
       }
     ],
     "elevation": 2783,
@@ -17,19 +67,19 @@
     "runways": [
       {
         "type": 100,
-        "width": 22.56,
+        "width": 22.86,
         "surfaceType": null,
         "numberStart": "16",
         "numberEnd": "34",
-        "latStart": 52.4925,
-        "lonStart": -113.712219,
-        "latEnd": 52.484164,
-        "lonEnd": -113.712219,
+        "latStart": 52.49259552,
+        "lonStart": -113.7117933,
+        "latEnd": 52.48436658,
+        "lonEnd": -113.7117933,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 14762
+    "id": 1487
   },
   {
     "type": 1,
@@ -61,57 +111,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 19464
-  },
-  {
-    "type": 1,
-    "icao": "CYQF",
-    "lat": 52.182567750000004,
-    "lon": -113.8936855,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12400,
-        "name": "ATIS"
-      },
-      {
-        "type": 54,
-        "frequency": 11850,
-        "name": "MF RED DEER RDO"
-      }
-    ],
-    "elevation": 2968,
-    "tower": false,
-    "name": "RED DEER REGIONAL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 52.193611,
-        "lonStart": -113.893061,
-        "latEnd": 52.178333,
-        "lonEnd": -113.893061,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 52.182219,
-        "lonStart": -113.900281,
-        "latEnd": 52.176108,
-        "lonEnd": -113.888339,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 20874
+    "id": 15186
   },
   {
     "type": 1,
@@ -143,6 +143,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 26605
+    "id": 15190
   }
 ]

@@ -1,89 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "EDCA",
-    "lat": 53.832904224,
-    "lon": 13.670778362000002,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12265,
-        "name": "Anklam Info"
-      }
-    ],
-    "elevation": 16,
-    "tower": true,
-    "name": "Anklam",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20,
-        "surfaceType": null,
-        "numberStart": "09L",
-        "numberEnd": "27R",
-        "latStart": 53.83333403,
-        "lonStart": 13.65982935,
-        "latEnd": 53.83220262,
-        "lonEnd": 13.6779476,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 40,
-        "surfaceType": null,
-        "numberStart": "09R",
-        "numberEnd": "27L",
-        "latStart": 53.83253161,
-        "lonStart": 13.66274418,
-        "latEnd": 53.83168716,
-        "lonEnd": 13.67632584,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 102,
-        "width": 10.7,
-        "surfaceType": 15,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 53.8347657,
-        "lonStart": 13.67704484,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11.2
-      }
-    ],
-    "id": 1069
-  },
-  {
-    "type": 1,
-    "icao": "EDBD",
-    "lat": 53.3561134,
-    "lon": 13.7836113,
-    "communications": [],
-    "elevation": 164,
-    "tower": false,
-    "name": "Dedelow",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 53.35688592,
-        "lonStart": 13.77695247,
-        "latEnd": 53.35534088,
-        "lonEnd": 13.79027013,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 6129
-  },
-  {
-    "type": 1,
     "icao": "EDBN",
     "lat": 53.602618686666666,
     "lon": 13.304020426666668,
@@ -124,39 +41,7 @@
         "length": 15.9
       }
     ],
-    "id": 18219
-  },
-  {
-    "type": 1,
-    "icao": "EDCV",
-    "lat": 53.505553559999996,
-    "lon": 13.948802355,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12635,
-        "name": "Pasewalk Info"
-      }
-    ],
-    "elevation": 72,
-    "tower": true,
-    "name": "Pasewalk",
-    "runways": [
-      {
-        "type": 100,
-        "width": 23,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 53.50549501,
-        "lonStart": 13.94201518,
-        "latEnd": 53.50561211,
-        "lonEnd": 13.95558953,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19816
+    "id": 1015
   },
   {
     "type": 1,
@@ -201,7 +86,128 @@
         "surfacetype": 3
       }
     ],
-    "id": 23110
+    "id": 1026
+  },
+  {
+    "type": 1,
+    "icao": "EDCA",
+    "lat": 53.832904224,
+    "lon": 13.670778362000002,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12265,
+        "name": "Anklam Info"
+      }
+    ],
+    "elevation": 16,
+    "tower": true,
+    "name": "Anklam",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 53.83333403,
+        "lonStart": 13.65982935,
+        "latEnd": 53.83220262,
+        "lonEnd": 13.6779476,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "09R",
+        "numberEnd": "27L",
+        "latStart": 53.83253161,
+        "lonStart": 13.66274418,
+        "latEnd": 53.83168716,
+        "lonEnd": 13.67632584,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 10.7,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 53.8347657,
+        "lonStart": 13.67704484,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.2
+      }
+    ],
+    "id": 1028
+  },
+  {
+    "type": 1,
+    "icao": "EDCV",
+    "lat": 53.505553559999996,
+    "lon": 13.948802355,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12635,
+        "name": "Pasewalk Info"
+      }
+    ],
+    "elevation": 72,
+    "tower": true,
+    "name": "Pasewalk",
+    "runways": [
+      {
+        "type": 100,
+        "width": 23,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 53.50549501,
+        "lonStart": 13.94201518,
+        "latEnd": 53.50561211,
+        "lonEnd": 13.95558953,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1047
+  },
+  {
+    "type": 1,
+    "icao": "EDUG",
+    "lat": 53.00662004,
+    "lon": 13.201519075,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12672,
+        "name": "Gransee Fallschirm"
+      }
+    ],
+    "elevation": 164,
+    "tower": true,
+    "name": "Gransee",
+    "runways": [
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 53.00795007,
+        "lonStart": 13.19555954,
+        "latEnd": 53.00529001,
+        "lonEnd": 13.20747861,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1363
   },
   {
     "type": 1,
@@ -246,6 +252,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 25734
+    "id": 1366
   }
 ]

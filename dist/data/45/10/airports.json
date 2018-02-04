@@ -41,75 +41,39 @@
         "length": 13.1
       }
     ],
-    "id": 5480
+    "id": 3778
   },
   {
     "type": 1,
-    "icao": "LIPL",
-    "lat": 45.4321665,
-    "lon": 10.267667,
+    "icao": "LIPN",
+    "lat": 45.472028505,
+    "lon": 10.927910445,
     "communications": [
       {
-        "type": 54,
-        "frequency": 12210,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12445,
-        "name": "GARDA APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12425,
-        "name": "GARDA APP"
+        "type": 51,
+        "frequency": 12525,
+        "name": "BOSCO RADIO"
       }
     ],
-    "elevation": 333,
-    "tower": true,
-    "name": "GHEDI",
+    "elevation": 286,
+    "tower": false,
+    "name": "Verona Boscomantico",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 22,
         "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 45.441647,
-        "lonStart": 10.254206,
-        "latEnd": 45.422686,
-        "lonEnd": 10.281128,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 45.4708238,
+        "lonStart": 10.92163498,
+        "latEnd": 45.47323321,
+        "lonEnd": 10.93418591,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 9989
-  },
-  {
-    "type": 1,
-    "icao": "LIDM",
-    "lat": 45.135278,
-    "lon": 10.794722,
-    "communications": [],
-    "elevation": 82,
-    "tower": false,
-    "name": "Mantova",
-    "runways": [
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 45.1321031,
-        "lonStart": 10.79157063,
-        "latEnd": 45.1384529,
-        "lonEnd": 10.79787337,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 16617
+    "id": 3798
   },
   {
     "type": 1,
@@ -161,99 +125,28 @@
         "surfacetype": 1
       }
     ],
-    "id": 17433
-  },
-  {
-    "type": 1,
-    "icao": "LIPN",
-    "lat": 45.472016999999994,
-    "lon": 10.927918,
-    "communications": [],
-    "elevation": 286,
-    "tower": false,
-    "name": "VERONA BOSCOMANTICO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.95,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 45.470817,
-        "lonStart": 10.921664,
-        "latEnd": 45.473217,
-        "lonEnd": 10.934172,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 26075
+    "id": 3799
   },
   {
     "type": 1,
     "icao": "LIPX",
-    "lat": 45.396198174999995,
-    "lon": 10.88926313,
+    "lat": 45.397066069999994,
+    "lon": 10.888562066666667,
     "communications": [
-      {
-        "type": 55,
-        "frequency": 11855,
-        "name": "Verona APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12425,
-        "name": "Verona APP"
-      },
-      {
-        "type": 55,
-        "frequency": 13590,
-        "name": "Verona APP"
-      },
-      {
-        "type": 55,
-        "frequency": 11855,
-        "name": "Verona Radar"
-      },
-      {
-        "type": 55,
-        "frequency": 12425,
-        "name": "Verona Radar"
-      },
-      {
-        "type": 55,
-        "frequency": 13590,
-        "name": "Verona Radar"
-      },
-      {
-        "type": 56,
-        "frequency": 11855,
-        "name": "Verona Radar"
-      },
-      {
-        "type": 56,
-        "frequency": 12425,
-        "name": "Verona Radar"
-      },
-      {
-        "type": 56,
-        "frequency": 13590,
-        "name": "Verona Radar"
-      },
-      {
-        "type": 54,
-        "frequency": 12175,
-        "name": "Villafranca GND"
-      },
-      {
-        "type": 53,
-        "frequency": 13150,
-        "name": "Villa Apron"
-      },
       {
         "type": 54,
         "frequency": 11865,
         "name": "Villafranca TWR"
+      },
+      {
+        "type": 53,
+        "frequency": 12175,
+        "name": "Villafranca GND"
+      },
+      {
+        "type": 55,
+        "frequency": 11855,
+        "name": "Verona APP"
       }
     ],
     "elevation": 240,
@@ -266,14 +159,94 @@
         "surfaceType": null,
         "numberStart": "04",
         "numberEnd": "22",
-        "latStart": 45.38576457,
-        "lonStart": 10.87407428,
-        "latEnd": 45.40663178,
-        "lonEnd": 10.90445198,
+        "latStart": 45.38730956,
+        "lonStart": 10.87632621,
+        "latEnd": 45.40659778,
+        "lonEnd": 10.90438282,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 25.8,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 45.39729087,
+        "lonStart": 10.88497717,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 34.5
+      }
+    ],
+    "id": 3804
+  },
+  {
+    "type": 1,
+    "icao": "LIDM",
+    "lat": 45.135278,
+    "lon": 10.794722,
+    "communications": [],
+    "elevation": 82,
+    "tower": false,
+    "name": "Mantova",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 45.1321031,
+        "lonStart": 10.79157063,
+        "latEnd": 45.1384529,
+        "lonEnd": 10.79787337,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20542
+  },
+  {
+    "type": 1,
+    "icao": "LIPL",
+    "lat": 45.4321665,
+    "lon": 10.267667,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12445,
+        "name": "GARDA APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12425,
+        "name": "GARDA APP"
+      }
+    ],
+    "elevation": 333,
+    "tower": true,
+    "name": "GHEDI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 45.441647,
+        "lonStart": 10.254206,
+        "latEnd": 45.422686,
+        "lonEnd": 10.281128,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 26287
+    "id": 20557
   }
 ]

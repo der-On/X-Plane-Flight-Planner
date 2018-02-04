@@ -2,16 +2,21 @@
   {
     "type": 1,
     "icao": "CYBF",
-    "lat": 54.3040265,
-    "lon": -110.743475,
+    "lat": 54.304782775,
+    "lon": -110.741186505,
     "communications": [
       {
         "type": 51,
         "frequency": 12320,
         "name": "CTAF"
+      },
+      {
+        "type": 50,
+        "frequency": 12297,
+        "name": "AWOS"
       }
     ],
-    "elevation": 1835,
+    "elevation": 1834,
     "tower": true,
     "name": "Bonnyville Regional",
     "runways": [
@@ -19,33 +24,48 @@
         "type": 100,
         "width": 22.86,
         "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 54.304164,
-        "lonStart": -110.753889,
-        "latEnd": 54.303889,
-        "lonEnd": -110.733061,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 54.30477718,
+        "lonStart": -110.75155764,
+        "latEnd": 54.30478837,
+        "lonEnd": -110.73081537,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 2980
+    "id": 729
   },
   {
     "type": 1,
     "icao": "CYOD",
-    "lat": 54.40472266666668,
-    "lon": -110.28456949999999,
+    "lat": 54.40537420500001,
+    "lon": -110.28529674666667,
     "communications": [
       {
-        "type": 52,
-        "frequency": 12060,
-        "name": "CLNC DEL"
+        "type": 55,
+        "frequency": 11940,
+        "name": "ARR"
       },
       {
-        "type": 53,
-        "frequency": 12190,
-        "name": "GND"
+        "type": 55,
+        "frequency": 12450,
+        "name": "ARR/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 13410,
+        "name": "ARR"
+      },
+      {
+        "type": 55,
+        "frequency": 12060,
+        "name": "ARR"
+      },
+      {
+        "type": 55,
+        "frequency": 12820,
+        "name": "ARR"
       },
       {
         "type": 54,
@@ -53,24 +73,14 @@
         "name": "TWR"
       },
       {
-        "type": 55,
-        "frequency": 12450,
-        "name": "APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12450,
-        "name": "ARR"
-      },
-      {
-        "type": 56,
-        "frequency": 12450,
-        "name": "DEP"
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
       }
     ],
-    "elevation": 1774,
+    "elevation": 1772,
     "tower": true,
-    "name": "COLD LAKE",
+    "name": "Cold Lake",
     "runways": [
       {
         "type": 100,
@@ -78,10 +88,10 @@
         "surfaceType": null,
         "numberStart": "13L",
         "numberEnd": "31R",
-        "latStart": 54.418889,
-        "lonStart": -110.304731,
-        "latEnd": 54.391108,
-        "lonEnd": -110.269719,
+        "latStart": 54.42022851,
+        "lonStart": -110.30628146,
+        "latEnd": 54.39136017,
+        "lonEnd": -110.26986195,
         "length": 0,
         "surfacetype": 1
       },
@@ -91,10 +101,10 @@
         "surfaceType": null,
         "numberStart": "13R",
         "numberEnd": "31L",
-        "latStart": 54.416667,
-        "lonStart": -110.310839,
-        "latEnd": 54.394444,
-        "lonEnd": -110.282219,
+        "latStart": 54.4176819,
+        "lonStart": -110.31188771,
+        "latEnd": 54.39483329,
+        "lonEnd": -110.28284169,
         "length": 0,
         "surfacetype": 1
       },
@@ -104,15 +114,15 @@
         "surfaceType": null,
         "numberStart": "04",
         "numberEnd": "22",
-        "latStart": 54.396667,
-        "lonStart": -110.285281,
-        "latEnd": 54.410561,
-        "lonEnd": -110.254628,
+        "latStart": 54.39724935,
+        "lonStart": -110.28547982,
+        "latEnd": 54.41089201,
+        "lonEnd": -110.25542785,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 4027
+    "id": 798
   },
   {
     "type": 1,
@@ -149,6 +159,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 5165
+    "id": 16560
   }
 ]

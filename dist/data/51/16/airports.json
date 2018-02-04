@@ -1,35 +1,74 @@
 [
   {
     "type": 1,
-    "icao": "EPLE",
-    "lat": 51.1827485,
-    "lon": 16.178222499999997,
+    "icao": "EPLS",
+    "lat": 51.83523275375,
+    "lon": 16.521413655000003,
     "communications": [
       {
         "type": 54,
-        "frequency": 12555,
-        "name": "AERO"
+        "frequency": 12230,
+        "name": "RADIO"
       }
     ],
-    "elevation": 407,
-    "tower": false,
-    "name": "LEGNICA",
+    "elevation": 310,
+    "tower": true,
+    "name": "Leszno Strzyzewice",
     "runways": [
       {
         "type": 100,
-        "width": 39.93,
+        "width": 100,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 51.181511,
-        "lonStart": 16.167056,
-        "latEnd": 51.183986,
-        "lonEnd": 16.189389,
+        "numberStart": "06R",
+        "numberEnd": "24L",
+        "latStart": 51.83142678,
+        "lonStart": 16.51663667,
+        "latEnd": 51.83581721,
+        "lonEnd": 16.52827955,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 15
+      },
+      {
+        "type": 100,
+        "width": 150,
+        "surfaceType": null,
+        "numberStart": "06L",
+        "numberEnd": "24R",
+        "latStart": 51.83306564,
+        "lonStart": 16.51516066,
+        "latEnd": 51.8372306,
+        "lonEnd": 16.52645691,
+        "length": 0,
+        "surfacetype": 15
+      },
+      {
+        "type": 100,
+        "width": 150,
+        "surfaceType": null,
+        "numberStart": "15R",
+        "numberEnd": "33L",
+        "latStart": 51.83885491,
+        "lonStart": 16.51673948,
+        "latEnd": 51.83262468,
+        "lonEnd": 16.52292818,
+        "length": 0,
+        "surfacetype": 15
+      },
+      {
+        "type": 100,
+        "width": 250,
+        "surfaceType": null,
+        "numberStart": "15L",
+        "numberEnd": "33R",
+        "latStart": 51.83977037,
+        "lonStart": 16.51916075,
+        "latEnd": 51.83307184,
+        "lonEnd": 16.52594704,
+        "length": 0,
+        "surfacetype": 15
       }
     ],
-    "id": 14478
+    "id": 1828
   },
   {
     "type": 1,
@@ -68,72 +107,71 @@
         "surfacetype": 3
       }
     ],
-    "id": 14651
+    "id": 1829
   },
   {
     "type": 1,
-    "icao": "EPLS",
-    "lat": 51.83526099625001,
-    "lon": 16.52312945875,
-    "communications": [],
-    "elevation": 308,
+    "icao": "EPWR",
+    "lat": 51.10386839,
+    "lon": 16.8819735,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12722,
+        "name": "WROCLAW TWR"
+      }
+    ],
+    "elevation": 403,
     "tower": true,
-    "name": "Leszno-Strzyzewice",
+    "name": "WROCLAW STRACHOWICE",
     "runways": [
       {
         "type": 100,
-        "width": 100,
+        "width": 58,
         "surfaceType": null,
-        "numberStart": "15R",
-        "numberEnd": "33L",
-        "latStart": 51.83865101,
-        "lonStart": 16.5184681,
-        "latEnd": 51.83240299,
-        "lonEnd": 16.52454238,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 51.10880006,
+        "lonStart": 16.86590095,
+        "latEnd": 51.09893672,
+        "lonEnd": 16.89804605,
         "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 100,
-        "surfaceType": null,
-        "numberStart": "15L",
-        "numberEnd": "33R",
-        "latStart": 51.83962104,
-        "lonStart": 16.52099098,
-        "latEnd": 51.83283296,
-        "lonEnd": 16.52759073,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 100,
-        "surfaceType": null,
-        "numberStart": "06R",
-        "numberEnd": "24L",
-        "latStart": 51.83179723,
-        "lonStart": 16.51833539,
-        "latEnd": 51.83618477,
-        "lonEnd": 16.52969953,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 100,
-        "surfaceType": null,
-        "numberStart": "06L",
-        "numberEnd": "24R",
-        "latStart": 51.8331058,
-        "lonStart": 16.51702123,
-        "latEnd": 51.83749217,
-        "lonEnd": 16.52838733,
-        "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       }
     ],
-    "id": 15199
+    "id": 1861
+  },
+  {
+    "type": 1,
+    "icao": "EPLE",
+    "lat": 51.1827485,
+    "lon": 16.178222499999997,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12555,
+        "name": "AERO"
+      }
+    ],
+    "elevation": 407,
+    "tower": false,
+    "name": "LEGNICA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 51.181511,
+        "lonStart": 16.167056,
+        "latEnd": 51.183986,
+        "lonEnd": 16.189389,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 16651
   },
   {
     "type": 1,
@@ -178,38 +216,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 24510
-  },
-  {
-    "type": 1,
-    "icao": "EPWR",
-    "lat": 51.10386839,
-    "lon": 16.8819735,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12722,
-        "name": "WROCLAW TWR"
-      }
-    ],
-    "elevation": 403,
-    "tower": true,
-    "name": "WROCLAW STRACHOWICE",
-    "runways": [
-      {
-        "type": 100,
-        "width": 58,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 51.10880006,
-        "lonStart": 16.86590095,
-        "latEnd": 51.09893672,
-        "lonEnd": 16.89804605,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 26761
+    "id": 16674
   }
 ]

@@ -1,45 +1,153 @@
 [
   {
     "type": 1,
-    "icao": "4O3",
-    "lat": 36.745116499999995,
-    "lon": -97.349593,
+    "icao": "KEND",
+    "lat": 36.339893663000005,
+    "lon": -97.91658837399999,
     "communications": [
       {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF"
+        "type": 53,
+        "frequency": 12180,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12405,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12052,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12130,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 11977,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 11807,
+        "name": "APP"
+      },
+      {
+        "type": 56,
+        "frequency": 12052,
+        "name": "DEP"
       }
     ],
-    "elevation": 1028,
-    "tower": false,
-    "name": "BLACKWELL TONKAWA MUNI",
+    "elevation": 1307,
+    "tower": true,
+    "name": "VANCE AFB",
     "runways": [
       {
         "type": 100,
-        "width": 18.29,
+        "width": 45.72,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 36.749925,
-        "lonStart": -97.349608,
-        "latEnd": 36.740308,
-        "lonEnd": -97.349578,
+        "numberStart": "17C",
+        "numberEnd": "35C",
+        "latStart": 36.35553003,
+        "lonStart": -97.9146525,
+        "latEnd": 36.33024797,
+        "lonEnd": -97.9146525,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "17R",
+        "numberEnd": "35L",
+        "latStart": 36.34921303,
+        "lonStart": -97.923185,
+        "latEnd": 36.32393097,
+        "lonEnd": -97.923185,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "17L",
+        "numberEnd": "35R",
+        "latStart": 36.34693091,
+        "lonStart": -97.91099341,
+        "latEnd": 36.33315018,
+        "lonEnd": -97.91099341,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 36.34291997,
+        "lonStart": -97.92298203,
+        "latEnd": 36.33329197,
+        "lonEnd": -97.91108503,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 36.3370038,
+        "lonStart": -97.92308143,
+        "latEnd": 36.3467178,
+        "lonEnd": -97.91107343,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 1770
+    "id": 2626
   },
   {
     "type": 1,
-    "icao": "0OK8",
-    "lat": 36.292535830000006,
-    "lon": -97.59310417,
-    "communications": [],
-    "elevation": 1140,
-    "tower": false,
-    "name": "Cades",
+    "icao": "KSWO",
+    "lat": 36.1612125,
+    "lon": -97.08568675,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13572,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 51,
+        "frequency": 12535,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12160,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12535,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 1000,
+    "tower": true,
+    "name": "STILLWATER RGNL",
     "runways": [
       {
         "type": 100,
@@ -47,73 +155,34 @@
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 36.29595986,
-        "lonStart": -97.59332681,
-        "latEnd": 36.2891118,
-        "lonEnd": -97.59288153,
+        "latStart": 36.172311,
+        "lonStart": -97.086858,
+        "latEnd": 36.151989,
+        "lonEnd": -97.086636,
         "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 4311
-  },
-  {
-    "type": 1,
-    "icao": "8OK7",
-    "lat": 36.797250829999996,
-    "lon": -97.71838528,
-    "communications": [],
-    "elevation": 1084,
-    "tower": false,
-    "name": "Cc & M",
-    "runways": [
+        "surfacetype": 1
+      },
       {
         "type": 100,
-        "width": 24.38,
+        "width": 22.86,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 36.79999005,
-        "lonStart": -97.71856456,
-        "latEnd": 36.79451161,
-        "lonEnd": -97.718206,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 4684
-  },
-  {
-    "type": 1,
-    "icao": "29OK",
-    "lat": 36.300000999999995,
-    "lon": -97.3169445,
-    "communications": [],
-    "elevation": 1120,
-    "tower": false,
-    "name": "DITCH WITCH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 36.305558,
-        "lonStart": -97.317497,
-        "latEnd": 36.294444,
-        "lonEnd": -97.316392,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 36.155375,
+        "lonStart": -97.090564,
+        "latEnd": 36.165175,
+        "lonEnd": -97.078689,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 5816
+    "id": 3309
   },
   {
     "type": 1,
     "icao": "KWDG",
-    "lat": 36.3783374825,
-    "lon": -97.78791575,
+    "lat": 36.3767200575,
+    "lon": -97.7879171275,
     "communications": [
       {
         "type": 50,
@@ -158,8 +227,8 @@
         "numberEnd": "35",
         "latStart": 36.38677176,
         "lonStart": -97.79108705,
-        "latEnd": 36.36963359,
-        "lonEnd": -97.7910806,
+        "latEnd": 36.36316389,
+        "lonEnd": -97.79108611,
         "length": 0,
         "surfacetype": 1
       },
@@ -177,69 +246,54 @@
         "surfacetype": 1
       }
     ],
-    "id": 6778
+    "id": 3396
   },
   {
     "type": 1,
-    "icao": "KBWL",
-    "lat": 36.79586527,
-    "lon": -97.31698806,
-    "communications": [],
-    "elevation": 1054,
+    "icao": "O53",
+    "lat": 36.790585,
+    "lon": -97.74900149999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11807,
+        "name": "VANCE APP/DEP"
+      }
+    ],
+    "elevation": 1091,
     "tower": false,
-    "name": "Earl Henry",
+    "name": "MEDFORD MUNI",
     "runways": [
       {
         "type": 100,
-        "width": 36.58,
+        "width": 18.29,
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 36.79915234,
-        "lonStart": -97.31720319,
-        "latEnd": 36.7925782,
-        "lonEnd": -97.31677293,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 6895
-  },
-  {
-    "type": 1,
-    "icao": "OK63",
-    "lat": 36.104204440000004,
-    "lon": -97.93700167,
-    "communications": [],
-    "elevation": 1100,
-    "tower": false,
-    "name": "Enix Boys",
-    "runways": [
-      {
-        "type": 100,
-        "width": 3.96,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 36.10757222,
-        "lonStart": -97.93648987,
-        "latEnd": 36.10083666,
-        "lonEnd": -97.93751347,
+        "latStart": 36.794714,
+        "lonStart": -97.748989,
+        "latEnd": 36.786456,
+        "lonEnd": -97.749014,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 7197
+    "id": 4302
   },
   {
     "type": 1,
-    "icao": "OK66",
-    "lat": 36.55669805,
-    "lon": -97.83366778,
+    "icao": "0OK8",
+    "lat": 36.292535830000006,
+    "lon": -97.59310417,
     "communications": [],
-    "elevation": 1118,
+    "elevation": 1140,
     "tower": false,
-    "name": "F.W. Zaloudek",
+    "name": "Cades",
     "runways": [
       {
         "type": 100,
@@ -247,67 +301,143 @@
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 36.56299826,
-        "lonStart": -97.83407883,
-        "latEnd": 36.55039784,
-        "lonEnd": -97.83325673,
+        "latStart": 36.29595986,
+        "lonStart": -97.59332681,
+        "latEnd": 36.2891118,
+        "lonEnd": -97.59288153,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 7384
+    "id": 6089
   },
   {
     "type": 1,
-    "icao": "OK48",
-    "lat": 36.87503222,
-    "lon": -97.09615,
+    "icao": "2K1",
+    "lat": 36.66253027,
+    "lon": -97.80866612,
     "communications": [],
-    "elevation": 1113,
+    "elevation": 1061,
     "tower": false,
-    "name": "Grass Roots",
+    "name": "Pond Creek Municipal",
     "runways": [
       {
         "type": 100,
-        "width": 32,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 36.87856016,
-        "lonStart": -97.09716818,
-        "latEnd": 36.87150428,
-        "lonEnd": -97.09513182,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 10716
-  },
-  {
-    "type": 1,
-    "icao": "OK72",
-    "lat": 36.69169694,
-    "lon": -97.72671917,
-    "communications": [],
-    "elevation": 1030,
-    "tower": false,
-    "name": "Homestead Farms",
-    "runways": [
-      {
-        "type": 100,
-        "width": 6.71,
+        "width": 131.06,
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 36.69560033,
-        "lonStart": -97.72697429,
-        "latEnd": 36.68779355,
-        "lonEnd": -97.72646405,
+        "latStart": 36.66570777,
+        "lonStart": -97.80887371,
+        "latEnd": 36.65935277,
+        "lonEnd": -97.80845853,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 12001
+    "id": 7039
+  },
+  {
+    "type": 1,
+    "icao": "4K8",
+    "lat": 36.86669972,
+    "lon": -97.02114861999999,
+    "communications": [],
+    "elevation": 1155,
+    "tower": false,
+    "name": "Sky Park",
+    "runways": [
+      {
+        "type": 100,
+        "width": 71.63,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 36.87094551,
+        "lonStart": -97.02142675,
+        "latEnd": 36.86245393,
+        "lonEnd": -97.02087049,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 8143
+  },
+  {
+    "type": 17,
+    "icao": "04OK",
+    "lat": 36.11532861,
+    "lon": -97.07947945,
+    "communications": [],
+    "elevation": 982,
+    "tower": false,
+    "name": "[H] Stillwater Medical Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 13.7,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.11532861,
+        "lonStart": -97.07947945,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.7
+      }
+    ],
+    "id": 8309
+  },
+  {
+    "type": 1,
+    "icao": "8OK7",
+    "lat": 36.797250829999996,
+    "lon": -97.71838528,
+    "communications": [],
+    "elevation": 1084,
+    "tower": false,
+    "name": "Cc & M",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 36.79999005,
+        "lonStart": -97.71856456,
+        "latEnd": 36.79451161,
+        "lonEnd": -97.718206,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10278
+  },
+  {
+    "type": 17,
+    "icao": "15OK",
+    "lat": 36.42114416,
+    "lon": -97.84561251,
+    "communications": [],
+    "elevation": 1234,
+    "tower": false,
+    "name": "[H] Enid State School",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.42114416,
+        "lonStart": -97.84561251,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 11115
   },
   {
     "type": 1,
@@ -333,33 +463,59 @@
         "surfacetype": 3
       }
     ],
-    "id": 12648
+    "id": 11203
   },
   {
     "type": 1,
-    "icao": "OK17",
-    "lat": 36.35142916,
-    "lon": -97.28421028,
+    "icao": "29OK",
+    "lat": 36.300000999999995,
+    "lon": -97.3169445,
     "communications": [],
-    "elevation": 967,
+    "elevation": 1120,
     "tower": false,
-    "name": "Jerome",
+    "name": "DITCH WITCH",
     "runways": [
       {
         "type": 100,
-        "width": 13.72,
+        "width": 12.19,
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 36.35396294,
-        "lonStart": -97.28437516,
-        "latEnd": 36.34889538,
-        "lonEnd": -97.2840454,
+        "latStart": 36.305558,
+        "lonStart": -97.317497,
+        "latEnd": 36.294444,
+        "lonEnd": -97.316392,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11683
+  },
+  {
+    "type": 1,
+    "icao": "46OK",
+    "lat": 36.22114694,
+    "lon": -97.84450028,
+    "communications": [],
+    "elevation": 1120,
+    "tower": false,
+    "name": "Steinert Lakes",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 36.22470793,
+        "lonStart": -97.84473161,
+        "latEnd": 36.21758595,
+        "lonEnd": -97.84426895,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 12963
+    "id": 12343
   },
   {
     "type": 1,
@@ -398,44 +554,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 15479
-  },
-  {
-    "type": 1,
-    "icao": "O53",
-    "lat": 36.790585,
-    "lon": -97.74900149999999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 11807,
-        "name": "VANCE APP/DEP"
-      }
-    ],
-    "elevation": 1092,
-    "tower": false,
-    "name": "MEDFORD MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 36.794714,
-        "lonStart": -97.748989,
-        "latEnd": 36.786456,
-        "lonEnd": -97.749014,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 15993
+    "id": 13497
   },
   {
     "type": 1,
@@ -493,13 +612,71 @@
         "surfacetype": 1
       }
     ],
-    "id": 19320
+    "id": 16714
+  },
+  {
+    "type": 1,
+    "icao": "KBKN",
+    "lat": 36.745116499999995,
+    "lon": -97.349593,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1028,
+    "tower": false,
+    "name": "BLACKWELL TONKAWA MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 36.749925,
+        "lonStart": -97.349608,
+        "latEnd": 36.740308,
+        "lonEnd": -97.349578,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 18873
+  },
+  {
+    "type": 1,
+    "icao": "KBWL",
+    "lat": 36.79586527,
+    "lon": -97.31698806,
+    "communications": [],
+    "elevation": 1054,
+    "tower": false,
+    "name": "Earl Henry",
+    "runways": [
+      {
+        "type": 100,
+        "width": 36.58,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 36.79915234,
+        "lonStart": -97.31720319,
+        "latEnd": 36.7925782,
+        "lonEnd": -97.31677293,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18905
   },
   {
     "type": 1,
     "icao": "KPNC",
-    "lat": 36.736645365,
-    "lon": -97.099823875,
+    "lat": 36.731958,
+    "lon": -97.09977900000001,
     "communications": [
       {
         "type": 50,
@@ -512,23 +689,10 @@
         "name": "CTAF/UNICOM"
       }
     ],
-    "elevation": 1007,
+    "elevation": 1006,
     "tower": false,
     "name": "Ponca City Rgnl",
     "runways": [
-      {
-        "type": 100,
-        "width": 2.13,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 36.74150416,
-        "lonStart": -97.09987024,
-        "latEnd": 36.7411613,
-        "lonEnd": -97.09986726,
-        "length": 0,
-        "surfacetype": 1
-      },
       {
         "type": 100,
         "width": 46.02,
@@ -543,137 +707,58 @@
         "surfacetype": 2
       }
     ],
-    "id": 20335
+    "id": 19695
   },
   {
     "type": 1,
-    "icao": "2K1",
-    "lat": 36.66253027,
-    "lon": -97.80866612,
+    "icao": "OK17",
+    "lat": 36.35142916,
+    "lon": -97.28421028,
     "communications": [],
-    "elevation": 1061,
+    "elevation": 967,
     "tower": false,
-    "name": "Pond Creek Municipal",
+    "name": "Jerome",
     "runways": [
       {
         "type": 100,
-        "width": 131.06,
+        "width": 13.72,
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 36.66570777,
-        "lonStart": -97.80887371,
-        "latEnd": 36.65935277,
-        "lonEnd": -97.80845853,
+        "latStart": 36.35396294,
+        "lonStart": -97.28437516,
+        "latEnd": 36.34889538,
+        "lonEnd": -97.2840454,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 20337
+    "id": 23480
   },
   {
-    "type": 1,
-    "icao": "KSWO",
-    "lat": 36.16121566666667,
-    "lon": -97.08568916666668,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13572,
-        "name": "ASOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12270,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 51,
-        "frequency": 12535,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 53,
-        "frequency": 12160,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12535,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 1000,
-    "tower": true,
-    "name": "STILLWATER RGNL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 36.172311,
-        "lonStart": -97.086858,
-        "latEnd": 36.151989,
-        "lonEnd": -97.086636,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 36.1660555,
-        "lonStart": -97.0917238,
-        "latEnd": 36.1563885,
-        "lonEnd": -97.0796642,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 36.155375,
-        "lonStart": -97.090564,
-        "latEnd": 36.165175,
-        "lonEnd": -97.078689,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22533
-  },
-  {
-    "type": 1,
-    "icao": "OK49",
-    "lat": 36.650039160000006,
-    "lon": -97.0169825,
+    "type": 17,
+    "icao": "OK38",
+    "lat": 36.28837388,
+    "lon": -97.30004278,
     "communications": [],
-    "elevation": 1050,
+    "elevation": 1020,
     "tower": false,
-    "name": "Secrest Ranch",
+    "name": "[H] Perry Memorial Hospital",
     "runways": [
       {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 36.65264142,
-        "lonStart": -97.01715249,
-        "latEnd": 36.6474369,
-        "lonEnd": -97.01681251,
-        "length": 0,
-        "surfacetype": 3
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.28837388,
+        "lonStart": -97.30004278,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
       }
     ],
-    "id": 23202
+    "id": 23495
   },
   {
     "type": 1,
@@ -699,59 +784,59 @@
         "surfacetype": 3
       }
     ],
-    "id": 23483
+    "id": 23499
   },
   {
     "type": 1,
-    "icao": "4K8",
-    "lat": 36.86669972,
-    "lon": -97.02114861999999,
+    "icao": "OK48",
+    "lat": 36.87503222,
+    "lon": -97.09615,
     "communications": [],
-    "elevation": 1155,
+    "elevation": 1113,
     "tower": false,
-    "name": "Sky Park",
+    "name": "Grass Roots",
     "runways": [
       {
         "type": 100,
-        "width": 71.63,
+        "width": 32,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 36.87094551,
-        "lonStart": -97.02142675,
-        "latEnd": 36.86245393,
-        "lonEnd": -97.02087049,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 36.87856016,
+        "lonStart": -97.09716818,
+        "latEnd": 36.87150428,
+        "lonEnd": -97.09513182,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 23642
+    "id": 23505
   },
   {
     "type": 1,
-    "icao": "46OK",
-    "lat": 36.22114694,
-    "lon": -97.84450028,
+    "icao": "OK49",
+    "lat": 36.650039160000006,
+    "lon": -97.0169825,
     "communications": [],
-    "elevation": 1120,
+    "elevation": 1050,
     "tower": false,
-    "name": "Steinert Lakes",
+    "name": "Secrest Ranch",
     "runways": [
       {
         "type": 100,
-        "width": 24.38,
+        "width": 22.86,
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 36.22470793,
-        "lonStart": -97.84473161,
-        "latEnd": 36.21758595,
-        "lonEnd": -97.84426895,
+        "latStart": 36.65264142,
+        "lonStart": -97.01715249,
+        "latEnd": 36.6474369,
+        "lonEnd": -97.01681251,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 24158
+    "id": 23506
   },
   {
     "type": 1,
@@ -777,121 +862,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 25545
+    "id": 23507
   },
   {
     "type": 1,
-    "icao": "KEND",
-    "lat": 36.339799299999996,
-    "lon": -97.916545,
-    "communications": [
-      {
-        "type": 53,
-        "frequency": 12180,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12405,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12052,
-        "name": "APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12130,
-        "name": "APP"
-      },
-      {
-        "type": 55,
-        "frequency": 11977,
-        "name": "APP"
-      },
-      {
-        "type": 55,
-        "frequency": 11807,
-        "name": "APP"
-      },
-      {
-        "type": 56,
-        "frequency": 12052,
-        "name": "DEP"
-      }
-    ],
-    "elevation": 1307,
-    "tower": true,
-    "name": "VANCE AFB",
+    "icao": "OK63",
+    "lat": 36.104204440000004,
+    "lon": -97.93700167,
+    "communications": [],
+    "elevation": 1100,
+    "tower": false,
+    "name": "Enix Boys",
     "runways": [
       {
         "type": 100,
-        "width": 45.72,
+        "width": 3.96,
         "surfaceType": null,
-        "numberStart": "17C",
-        "numberEnd": "35C",
-        "latStart": 36.355525,
-        "lonStart": -97.914644,
-        "latEnd": 36.330253,
-        "lonEnd": -97.914661,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "17R",
-        "numberEnd": "35L",
-        "latStart": 36.349211,
-        "lonStart": -97.923178,
-        "latEnd": 36.323933,
-        "lonEnd": -97.923192,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "17L",
-        "numberEnd": "35R",
-        "latStart": 36.34695,
-        "lonStart": -97.911003,
-        "latEnd": 36.333147,
-        "lonEnd": -97.911011,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 36.336944,
-        "lonStart": -97.922775,
-        "latEnd": 36.346658,
-        "lonEnd": -97.910767,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 36.3425,
-        "lonStart": -97.923058,
-        "latEnd": 36.332872,
-        "lonEnd": -97.911161,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 36.10757222,
+        "lonStart": -97.93648987,
+        "latEnd": 36.10083666,
+        "lonEnd": -97.93751347,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 26043
+    "id": 23513
   },
   {
     "type": 1,
@@ -917,81 +914,58 @@
         "surfacetype": 3
       }
     ],
-    "id": 27032
+    "id": 23514
   },
   {
-    "type": 17,
-    "icao": "15OK",
-    "lat": 36.42114416,
-    "lon": -97.84561251,
+    "type": 1,
+    "icao": "OK66",
+    "lat": 36.55669805,
+    "lon": -97.83366778,
     "communications": [],
-    "elevation": 1234,
+    "elevation": 1118,
     "tower": false,
-    "name": "[H] Enid State School",
+    "name": "F.W. Zaloudek",
     "runways": [
       {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 36.42114416,
-        "lonStart": -97.84561251,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 36.56299826,
+        "lonStart": -97.83407883,
+        "latEnd": 36.55039784,
+        "lonEnd": -97.83325673,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 29556
+    "id": 23516
   },
   {
-    "type": 17,
-    "icao": "OK38",
-    "lat": 36.28837388,
-    "lon": -97.30004278,
+    "type": 1,
+    "icao": "OK72",
+    "lat": 36.69169694,
+    "lon": -97.72671917,
     "communications": [],
-    "elevation": 1020,
+    "elevation": 1030,
     "tower": false,
-    "name": "[H] Perry Memorial Hospital",
+    "name": "Homestead Farms",
     "runways": [
       {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 36.28837388,
-        "lonStart": -97.30004278,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
+        "type": 100,
+        "width": 6.71,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 36.69560033,
+        "lonStart": -97.72697429,
+        "latEnd": 36.68779355,
+        "lonEnd": -97.72646405,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "id": 31982
-  },
-  {
-    "type": 17,
-    "icao": "04OK",
-    "lat": 36.11532861,
-    "lon": -97.07947945,
-    "communications": [],
-    "elevation": 982,
-    "tower": false,
-    "name": "[H] Stillwater Medical Center",
-    "runways": [
-      {
-        "type": 102,
-        "width": 13.7,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 36.11532861,
-        "lonStart": -97.07947945,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 13.7
-      }
-    ],
-    "id": 33085
+    "id": 23518
   }
 ]

@@ -1,55 +1,40 @@
 [
   {
     "type": 1,
-    "icao": "LFFK",
-    "lat": 46.441389,
-    "lon": -0.792779,
-    "communications": [],
-    "elevation": 85,
-    "tower": false,
-    "name": "Fontenay le Comte",
-    "runways": [
+    "icao": "LFJB",
+    "lat": 46.90299612,
+    "lon": -0.697475665,
+    "communications": [
       {
-        "type": 100,
-        "width": 79.86,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 46.44090702,
-        "lonStart": -0.79943365,
-        "latEnd": 46.44187098,
-        "lonEnd": -0.78612435,
-        "length": 0,
-        "surfacetype": 3
+        "type": 55,
+        "frequency": 11940,
+        "name": "NANTES INFO"
+      },
+      {
+        "type": 54,
+        "frequency": 12350,
+        "name": "MAULEON INFO"
       }
     ],
-    "id": 9565
-  },
-  {
-    "type": 1,
-    "icao": "LFJB",
-    "lat": 46.902992495,
-    "lon": -0.6974749250000001,
-    "communications": [],
-    "elevation": 576,
-    "tower": false,
+    "elevation": 567,
+    "tower": true,
     "name": "Mauleon",
     "runways": [
       {
         "type": 100,
-        "width": 19.51,
+        "width": 20,
         "surfaceType": null,
         "numberStart": "04",
         "numberEnd": "22",
-        "latStart": 46.89822692,
-        "lonStart": -0.70238603,
-        "latEnd": 46.90775807,
-        "lonEnd": -0.69256382,
+        "latStart": 46.89821143,
+        "lonStart": -0.70240088,
+        "latEnd": 46.90778081,
+        "lonEnd": -0.69255045,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 16823
+    "id": 3608
   },
   {
     "type": 1,
@@ -86,7 +71,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 18346
+    "id": 20220
   },
   {
     "type": 1,
@@ -125,6 +110,32 @@
         "surfacetype": 3
       }
     ],
-    "id": 25313
+    "id": 20239
+  },
+  {
+    "type": 1,
+    "icao": "LFFK",
+    "lat": 46.441389,
+    "lon": -0.792779,
+    "communications": [],
+    "elevation": 85,
+    "tower": false,
+    "name": "Fontenay le Comte",
+    "runways": [
+      {
+        "type": 100,
+        "width": 79.86,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 46.44090702,
+        "lonStart": -0.79943365,
+        "latEnd": 46.44187098,
+        "lonEnd": -0.78612435,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20271
   }
 ]

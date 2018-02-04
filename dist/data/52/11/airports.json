@@ -41,145 +41,146 @@
         "length": 22
       }
     ],
-    "id": 3398
+    "id": 1008
+  },
+  {
+    "type": 1,
+    "icao": "EDBM",
+    "lat": 52.07471399999999,
+    "lon": 11.626401038,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11930,
+        "name": "Magdeburg Info"
+      }
+    ],
+    "elevation": 268,
+    "tower": true,
+    "name": "Magdeburg City",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 52.0735172,
+        "lonStart": 11.61916542,
+        "latEnd": 52.073799,
+        "lonEnd": 11.633756,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "09L",
+        "numberEnd": "27R",
+        "latStart": 52.07458039,
+        "lonStart": 11.6217765,
+        "latEnd": 52.07479158,
+        "lonEnd": 11.63333798,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 13.5,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 52.07688183,
+        "lonStart": 11.62396929,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.5
+      }
+    ],
+    "id": 1014
   },
   {
     "type": 1,
     "icao": "EDOC",
-    "lat": 52.528492575,
-    "lon": 11.352621464999999,
+    "lat": 52.5304708,
+    "lon": 11.353689865,
     "communications": [
       {
         "type": 54,
         "frequency": 12285,
-        "name": "GARDELEGEN INFO"
+        "name": "Gardelegen Info"
       }
     ],
-    "elevation": 230,
+    "elevation": 229,
     "tower": true,
     "name": "Gardelegen",
     "runways": [
       {
         "type": 100,
-        "width": 39.93,
+        "width": 40,
         "surfaceType": null,
-        "numberStart": "8",
+        "numberStart": "08",
         "numberEnd": "26",
-        "latStart": 52.5282339,
-        "lonStart": 11.34857606,
-        "latEnd": 52.52875125,
-        "lonEnd": 11.35666687,
+        "latStart": 52.53015122,
+        "lonStart": 11.34937932,
+        "latEnd": 52.53079038,
+        "lonEnd": 11.35800041,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 10300
-  },
-  {
-    "type": 1,
-    "icao": "EDBM",
-    "lat": 52.073657,
-    "lon": 11.6264795,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13265,
-        "name": "BERLIN INFO"
-      },
-      {
-        "type": 54,
-        "frequency": 11930,
-        "name": "INFO"
-      },
-      {
-        "type": 55,
-        "frequency": 12417,
-        "name": "BERLIN RADAR"
-      }
-    ],
-    "elevation": 267,
-    "tower": false,
-    "name": "Magdeburg",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 52.073517,
-        "lonStart": 11.619203,
-        "latEnd": 52.073797,
-        "lonEnd": 11.633756,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 16475
-  },
-  {
-    "type": 1,
-    "icao": "XDBM",
-    "lat": 52.074674,
-    "lon": 11.626864995,
-    "communications": [],
-    "elevation": 268,
-    "tower": true,
-    "name": "Magdeburg Grass",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "9",
-        "numberEnd": "27",
-        "latStart": 52.074563,
-        "lonStart": 11.62172399,
-        "latEnd": 52.074785,
-        "lonEnd": 11.632006,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 16476
+    "id": 1237
   },
   {
     "type": 1,
     "icao": "EDOL",
-    "lat": 52.040333000000004,
-    "lon": 11.202832915,
+    "lat": 52.03746224,
+    "lon": 11.2068929,
     "communications": [
       {
-        "type": 51,
+        "type": 54,
         "frequency": 12940,
-        "name": "INFO"
+        "name": "Oschersleben Info"
       }
     ],
-    "elevation": 340,
+    "elevation": 305,
     "tower": true,
-    "name": "OSCHERSLEBEN",
+    "name": "Oschersleben",
     "runways": [
       {
         "type": 100,
-        "width": 49.99,
+        "width": 35,
         "surfaceType": null,
         "numberStart": "11",
         "numberEnd": "29",
-        "latStart": 52.04125639,
-        "lonStart": 11.19870866,
-        "latEnd": 52.03940961,
-        "lonEnd": 11.20695717,
+        "latStart": 52.03918589,
+        "lonStart": 11.2012274,
+        "latEnd": 52.03693333,
+        "lonEnd": 11.21000329,
         "length": 0,
         "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 10,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 52.0362675,
+        "lonStart": 11.20944801,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10
       }
     ],
-    "id": 18722
+    "id": 1246
   },
   {
     "type": 1,
     "icao": "EDOV",
-    "lat": 52.62965845800001,
-    "lon": 11.819997198,
+    "lat": 52.629706048,
+    "lon": 11.819961122,
     "communications": [
       {
         "type": 54,
@@ -193,14 +194,14 @@
     "runways": [
       {
         "type": 100,
-        "width": 52,
+        "width": 60,
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": 52.62778625,
-        "lonStart": 11.80511813,
-        "latEnd": 52.63043237,
-        "lonEnd": 11.83440396,
+        "latStart": 52.62779543,
+        "lonStart": 11.80509796,
+        "latEnd": 52.6304238,
+        "lonEnd": 11.83431724,
         "length": 0,
         "surfacetype": 2
       },
@@ -210,26 +211,26 @@
         "surfaceType": null,
         "numberStart": "08L",
         "numberEnd": "26R",
-        "latStart": 52.62883136,
-        "lonStart": 11.80936815,
-        "latEnd": 52.62975923,
-        "lonEnd": 11.81963359,
+        "latStart": 52.62895563,
+        "lonStart": 11.80929588,
+        "latEnd": 52.62989081,
+        "lonEnd": 11.8196396,
         "length": 0,
         "surfacetype": 3
       },
       {
         "type": 102,
-        "width": 19.3,
+        "width": 17.7,
         "surfaceType": 2,
         "numberStart": "H",
         "numberEnd": null,
-        "latStart": 52.63148308,
-        "lonStart": 11.83146216,
+        "latStart": 52.63146457,
+        "lonStart": 11.83145493,
         "latEnd": null,
         "lonEnd": null,
-        "length": 20.8
+        "length": 19
       }
     ],
-    "id": 24162
+    "id": 1255
   }
 ]

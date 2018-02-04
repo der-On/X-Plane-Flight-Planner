@@ -1,51 +1,147 @@
 [
   {
     "type": 1,
-    "icao": "ETEB",
-    "lat": 49.308161,
-    "lon": 10.638648499999999,
+    "icao": "EDFR",
+    "lat": 49.38894079000001,
+    "lon": 10.2185675,
     "communications": [
       {
         "type": 54,
-        "frequency": 12210,
-        "name": "Ansbach Tower"
+        "frequency": 11817,
+        "name": "Rothenburg Info"
       }
     ],
-    "elevation": 1533,
+    "elevation": 1309,
     "tower": true,
-    "name": "Ansbach-Katterbach",
+    "name": "Rothenburg ob der Tauber",
     "runways": [
       {
         "type": 100,
-        "width": 22,
+        "width": 20,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 49.307832,
-        "lonStart": 10.636118,
-        "latEnd": 49.30849,
-        "lonEnd": 10.641179,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 49.384922,
+        "lonStart": 10.215533,
+        "latEnd": 49.39295958,
+        "lonEnd": 10.221602,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 1085
+    "id": 1095
   },
   {
     "type": 1,
-    "icao": "EDQF",
-    "lat": 49.36087829,
-    "lon": 10.6684515,
+    "icao": "EDGJ",
+    "lat": 49.673504095,
+    "lon": 10.07111273,
     "communications": [
       {
         "type": 54,
-        "frequency": 12365,
-        "name": "Ansbach Info"
+        "frequency": 12300,
+        "name": "Ochsenfurth Info"
       }
     ],
-    "elevation": 1370,
+    "elevation": 813,
     "tower": true,
-    "name": "Ansbach-Petersdorf",
+    "name": "Ochsenfurth",
+    "runways": [
+      {
+        "type": 100,
+        "width": 19,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 49.67401754,
+        "lonStart": 10.06762527,
+        "latEnd": 49.67299065,
+        "lonEnd": 10.07460019,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1110
+  },
+  {
+    "type": 1,
+    "icao": "EDGY",
+    "lat": 49.744522845,
+    "lon": 10.20794548,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12335,
+        "name": "Kitzingen Info"
+      }
+    ],
+    "elevation": 656,
+    "tower": true,
+    "name": "Kitzingen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 49.74178968,
+        "lonStart": 10.19944887,
+        "latEnd": 49.74725601,
+        "lonEnd": 10.21644209,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 1123
+  },
+  {
+    "type": 1,
+    "icao": "EDMH",
+    "lat": 49.11210443,
+    "lon": 10.78177373,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11855,
+        "name": "Gunzenhausen Info"
+      }
+    ],
+    "elevation": 1591,
+    "tower": true,
+    "name": "Gunzenhausen-Reutberg",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 49.11046405,
+        "lonStart": 10.77748825,
+        "latEnd": 49.11374481,
+        "lonEnd": 10.78605921,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1193
+  },
+  {
+    "type": 1,
+    "icao": "EDND",
+    "lat": 49.06536412666666,
+    "lon": 10.402232486666666,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11842,
+        "name": "Dinkelsbuehl Info"
+      }
+    ],
+    "elevation": 1598,
+    "tower": true,
+    "name": "Dinkelsbühl-Sinbronn",
     "runways": [
       {
         "type": 100,
@@ -53,47 +149,27 @@
         "surfaceType": null,
         "numberStart": "09",
         "numberEnd": "27",
-        "latStart": 49.36096458,
-        "lonStart": 10.663088,
-        "latEnd": 49.360792,
-        "lonEnd": 10.673815,
+        "latStart": 49.06522424,
+        "lonStart": 10.39775236,
+        "latEnd": 49.06496176,
+        "lonEnd": 10.40735861,
         "length": 0,
         "surfacetype": 3
-      }
-    ],
-    "id": 1086
-  },
-  {
-    "type": 1,
-    "icao": "EDQB",
-    "lat": 49.510225,
-    "lon": 10.366098000000001,
-    "communications": [
+      },
       {
-        "type": 54,
-        "frequency": 11827,
-        "name": "Windsheim Info"
+        "type": 102,
+        "width": 20,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 49.06590638,
+        "lonStart": 10.40158649,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20
       }
     ],
-    "elevation": 1220,
-    "tower": true,
-    "name": "Bad Windsheim",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 49.509456,
-        "lonStart": 10.361474,
-        "latEnd": 49.510994,
-        "lonEnd": 10.370722,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 2049
+    "id": 1213
   },
   {
     "type": 1,
@@ -181,135 +257,71 @@
         "length": 12
       }
     ],
-    "id": 2156
+    "id": 1280
   },
   {
     "type": 1,
-    "icao": "EDND",
-    "lat": 49.065093000000005,
-    "lon": 10.402555499999998,
+    "icao": "EDQB",
+    "lat": 49.510225,
+    "lon": 10.366098000000001,
     "communications": [
       {
         "type": 54,
-        "frequency": 11842,
-        "name": "Dinkelsbuehl Info"
+        "frequency": 11827,
+        "name": "Windsheim Info"
       }
     ],
-    "elevation": 1598,
+    "elevation": 1220,
     "tower": true,
-    "name": "Dinkelsbuehl-Sinbronn",
+    "name": "Bad Windsheim",
     "runways": [
       {
         "type": 100,
         "width": 30,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 49.065224,
-        "lonStart": 10.397761,
-        "latEnd": 49.064962,
-        "lonEnd": 10.40735,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 6303
-  },
-  {
-    "type": 1,
-    "icao": "XEDB2",
-    "lat": 49.48149951,
-    "lon": 10.858782025,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12347,
-        "name": "Secke Info"
-      }
-    ],
-    "elevation": 1042,
-    "tower": true,
-    "name": "Fuerth-Seckendorf",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 49.48142487,
-        "lonStart": 10.85443954,
-        "latEnd": 49.48157415,
-        "lonEnd": 10.86312451,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9773
-  },
-  {
-    "type": 1,
-    "icao": "XED7G",
-    "lat": 49.02428484,
-    "lon": 10.660083175,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12342,
-        "name": "Geilsheim Info"
-      }
-    ],
-    "elevation": 1564,
-    "tower": true,
-    "name": "Geilsheim",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20,
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": 49.024284,
-        "lonStart": 10.65750337,
-        "latEnd": 49.02428568,
-        "lonEnd": 10.66266298,
+        "latStart": 49.509456,
+        "lonStart": 10.361474,
+        "latEnd": 49.510994,
+        "lonEnd": 10.370722,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 10372
+    "id": 1281
   },
   {
     "type": 1,
-    "icao": "EDMH",
-    "lat": 49.112095,
-    "lon": 10.78181,
+    "icao": "EDQF",
+    "lat": 49.36087829,
+    "lon": 10.6684515,
     "communications": [
       {
         "type": 54,
-        "frequency": 11855,
-        "name": "Gunzenhausen Info"
+        "frequency": 12365,
+        "name": "Ansbach Info"
       }
     ],
-    "elevation": 1590,
+    "elevation": 1370,
     "tower": true,
-    "name": "Gunzenhausen-Reutberg",
+    "name": "Ansbach-Petersdorf",
     "runways": [
       {
         "type": 100,
-        "width": 15,
+        "width": 30,
         "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 49.11045,
-        "lonStart": 10.77753,
-        "latEnd": 49.11374,
-        "lonEnd": 10.78609,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 49.36096458,
+        "lonStart": 10.663088,
+        "latEnd": 49.360792,
+        "lonEnd": 10.673815,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 10903
+    "id": 1285
   },
   {
     "type": 1,
@@ -341,135 +353,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 11745
-  },
-  {
-    "type": 1,
-    "icao": "ETIK",
-    "lat": 49.47382,
-    "lon": 10.387846,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12210,
-        "name": "Illesheim Tower"
-      }
-    ],
-    "elevation": 1078,
-    "tower": true,
-    "name": "Illesheim AAF",
-    "runways": [
-      {
-        "type": 100,
-        "width": 27,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 49.472112,
-        "lonStart": 10.382566,
-        "latEnd": 49.475528,
-        "lonEnd": 10.393126,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 12440
-  },
-  {
-    "type": 1,
-    "icao": "XED7I",
-    "lat": 49.60982882,
-    "lon": 10.22554499,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12097,
-        "name": "Ippesheim Info"
-      }
-    ],
-    "elevation": 1000,
-    "tower": true,
-    "name": "Ippesheim",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 49.61004986,
-        "lonStart": 10.22317348,
-        "latEnd": 49.60960778,
-        "lonEnd": 10.2279165,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 12538
-  },
-  {
-    "type": 1,
-    "icao": "XEDC9",
-    "lat": 49.038176975,
-    "lon": 10.502259004999999,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12247,
-        "name": "Irsingen Info"
-      }
-    ],
-    "elevation": 1525,
-    "tower": true,
-    "name": "Irsingen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 33,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 49.03739572,
-        "lonStart": 10.49760269,
-        "latEnd": 49.03895823,
-        "lonEnd": 10.50691532,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 12558
-  },
-  {
-    "type": 1,
-    "icao": "ETIN",
-    "lat": 49.744514484999996,
-    "lon": 10.20791961,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12335,
-        "name": "Kitzingen Info"
-      }
-    ],
-    "elevation": 688,
-    "tower": true,
-    "name": "Kitzingen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 49.74177296,
-        "lonStart": 10.19939713,
-        "latEnd": 49.74725601,
-        "lonEnd": 10.21644209,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 13959
+    "id": 1287
   },
   {
     "type": 1,
@@ -501,71 +385,210 @@
         "surfacetype": 1
       }
     ],
-    "id": 18232
+    "id": 1292
   },
   {
     "type": 1,
-    "icao": "EDGJ",
-    "lat": 49.673504095,
-    "lon": 10.07111273,
+    "icao": "ETEB",
+    "lat": 49.308161,
+    "lon": 10.638648499999999,
     "communications": [
       {
         "type": 54,
-        "frequency": 12300,
-        "name": "Ochsenfurth Info"
+        "frequency": 12210,
+        "name": "Ansbach Tower"
       }
     ],
-    "elevation": 813,
+    "elevation": 1533,
     "tower": true,
-    "name": "Ochsenfurth",
+    "name": "[H] Ansbach-Katterbach",
     "runways": [
       {
         "type": 100,
-        "width": 19,
+        "width": 22,
         "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 49.67401754,
-        "lonStart": 10.06762527,
-        "latEnd": 49.67299065,
-        "lonEnd": 10.07460019,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 49.307832,
+        "lonStart": 10.636118,
+        "latEnd": 49.30849,
+        "lonEnd": 10.641179,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       }
     ],
-    "id": 18809
+    "id": 2056
   },
   {
     "type": 1,
-    "icao": "EDFR",
-    "lat": 49.38894079000001,
-    "lon": 10.2185675,
+    "icao": "ETIK",
+    "lat": 49.47382,
+    "lon": 10.387846,
     "communications": [
       {
         "type": 54,
-        "frequency": 11817,
-        "name": "Rothenburg Info"
+        "frequency": 12210,
+        "name": "Illesheim Tower"
       }
     ],
-    "elevation": 1309,
+    "elevation": 1078,
     "tower": true,
-    "name": "Rothenburg ob der Tauber",
+    "name": "Illesheim AAF",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 49.472112,
+        "lonStart": 10.382566,
+        "latEnd": 49.475528,
+        "lonEnd": 10.393126,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2071
+  },
+  {
+    "type": 17,
+    "icao": "XED7A",
+    "lat": 49.32030608,
+    "lon": 10.56067537,
+    "communications": [],
+    "elevation": 1538,
+    "tower": true,
+    "name": "[H] Klinikum Ansbach",
+    "runways": [
+      {
+        "type": 102,
+        "width": 22,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 49.32030608,
+        "lonStart": 10.56067537,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 22
+      }
+    ],
+    "id": 5349
+  },
+  {
+    "type": 17,
+    "icao": "XED7C",
+    "lat": 49.65970854,
+    "lon": 10.08671696,
+    "communications": [],
+    "elevation": 807,
+    "tower": true,
+    "name": "[H] Klinik Ochsenfurt",
+    "runways": [
+      {
+        "type": 102,
+        "width": 20.5,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 49.65970854,
+        "lonStart": 10.08671696,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.5
+      }
+    ],
+    "id": 5351
+  },
+  {
+    "type": 1,
+    "icao": "XED7G",
+    "lat": 49.02428484,
+    "lon": 10.660083175,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12342,
+        "name": "Geilsheim Info"
+      }
+    ],
+    "elevation": 1564,
+    "tower": true,
+    "name": "Geilsheim",
     "runways": [
       {
         "type": 100,
         "width": 20,
         "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 49.384922,
-        "lonStart": 10.215533,
-        "latEnd": 49.39295958,
-        "lonEnd": 10.221602,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 49.024284,
+        "lonStart": 10.65750337,
+        "latEnd": 49.02428568,
+        "lonEnd": 10.66266298,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 21764
+    "id": 5354
+  },
+  {
+    "type": 1,
+    "icao": "XED7I",
+    "lat": 49.60982882,
+    "lon": 10.22554499,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12097,
+        "name": "Ippesheim Info"
+      }
+    ],
+    "elevation": 1000,
+    "tower": true,
+    "name": "Ippesheim",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 49.61004986,
+        "lonStart": 10.22317348,
+        "latEnd": 49.60960778,
+        "lonEnd": 10.2279165,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5356
+  },
+  {
+    "type": 17,
+    "icao": "XED7K",
+    "lat": 49.10836,
+    "lon": 10.77481,
+    "communications": [],
+    "elevation": 1525,
+    "tower": true,
+    "name": "[H] Klinikum Gunzenhausen",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 49.10836,
+        "lonStart": 10.77481,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15
+      }
+    ],
+    "id": 5358
   },
   {
     "type": 1,
@@ -597,6 +620,127 @@
         "surfacetype": 3
       }
     ],
-    "id": 25952
+    "id": 5364
+  },
+  {
+    "type": 17,
+    "icao": "XED7W",
+    "lat": 49.03490992,
+    "lon": 10.98694984,
+    "communications": [],
+    "elevation": 1427,
+    "tower": false,
+    "name": "[H] Klinikum Weissenburg",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 49.03490992,
+        "lonStart": 10.98694984,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15
+      }
+    ],
+    "id": 5365
+  },
+  {
+    "type": 1,
+    "icao": "XEDB2",
+    "lat": 49.48149951,
+    "lon": 10.858782025,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12347,
+        "name": "Secke Info"
+      }
+    ],
+    "elevation": 1042,
+    "tower": true,
+    "name": "Fuerth-Seckendorf",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 49.48142487,
+        "lonStart": 10.85443954,
+        "latEnd": 49.48157415,
+        "lonEnd": 10.86312451,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5374
+  },
+  {
+    "type": 1,
+    "icao": "XEDC9",
+    "lat": 49.038176975,
+    "lon": 10.502259004999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12247,
+        "name": "Irsingen Info"
+      }
+    ],
+    "elevation": 1525,
+    "tower": true,
+    "name": "Irsingen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 33,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 49.03739572,
+        "lonStart": 10.49760269,
+        "latEnd": 49.03895823,
+        "lonEnd": 10.50691532,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5377
+  },
+  {
+    "type": 1,
+    "icao": "XEDN7",
+    "lat": 49.838219445,
+    "lon": 10.77886024,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12342,
+        "name": "Burgebrach Info"
+      }
+    ],
+    "elevation": 930,
+    "tower": true,
+    "name": "Burgebrach",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 49.83851228,
+        "lonStart": 10.77688859,
+        "latEnd": 49.83792661,
+        "lonEnd": 10.78083189,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5398
   }
 ]

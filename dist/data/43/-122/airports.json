@@ -1,6 +1,64 @@
 [
   {
     "type": 1,
+    "icao": "S21",
+    "lat": 43.876321000000004,
+    "lon": -121.4530485,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 4164,
+    "tower": false,
+    "name": "Sunriver",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 43.883514,
+        "lonStart": -121.450214,
+        "latEnd": 43.869128,
+        "lonEnd": -121.455883,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4501
+  },
+  {
+    "type": 1,
+    "icao": "01OR",
+    "lat": 43.11930666,
+    "lon": -121.04471889,
+    "communications": [],
+    "elevation": 4346,
+    "tower": false,
+    "name": "Red & White Flying Service",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 43.11907691,
+        "lonStart": -121.05373225,
+        "latEnd": 43.11953641,
+        "lonEnd": -121.03570553,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 6685
+  },
+  {
+    "type": 1,
     "icao": "2S2",
     "lat": 43.129020999999995,
     "lon": -121.817802,
@@ -23,7 +81,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 2418
+    "id": 7290
   },
   {
     "type": 1,
@@ -55,33 +113,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 5486
-  },
-  {
-    "type": 1,
-    "icao": "01OR",
-    "lat": 43.11930666,
-    "lon": -121.04471889,
-    "communications": [],
-    "elevation": 4346,
-    "tower": false,
-    "name": "Red & White Flying Service",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 43.11907691,
-        "lonStart": -121.05373225,
-        "latEnd": 43.11953641,
-        "lonEnd": -121.03570553,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 21264
+    "id": 8877
   },
   {
     "type": 1,
@@ -107,39 +139,7 @@
         "surfacetype": 5
       }
     ],
-    "id": 23515
-  },
-  {
-    "type": 1,
-    "icao": "S21",
-    "lat": 43.876321000000004,
-    "lon": -121.4530485,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 4164,
-    "tower": false,
-    "name": "Sunriver",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 43.883514,
-        "lonStart": -121.450214,
-        "latEnd": 43.869128,
-        "lonEnd": -121.455883,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 24392
+    "id": 12308
   },
   {
     "type": 17,
@@ -164,6 +164,6 @@
         "length": 30.5
       }
     ],
-    "id": 30799
+    "id": 23710
   }
 ]

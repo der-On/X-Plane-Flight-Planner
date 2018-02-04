@@ -1,6 +1,48 @@
 [
   {
     "type": 1,
+    "icao": "LBSF",
+    "lat": 42.696411295,
+    "lon": 23.41790948,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12370,
+        "name": "Approach"
+      },
+      {
+        "type": 56,
+        "frequency": 12370,
+        "name": "Departure"
+      }
+    ],
+    "elevation": 1742,
+    "tower": true,
+    "name": "Sofia",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 42.69771828,
+        "lonStart": 23.39599695,
+        "latEnd": 42.69510431,
+        "lonEnd": 23.43982201,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3460
+  },
+  {
+    "type": 1,
     "icao": "LB20",
     "lat": 42.8124305,
     "lon": 23.2996335,
@@ -23,7 +65,7 @@
         "surfacetype": 2
       }
     ],
-    "id": 13494
+    "id": 20116
   },
   {
     "type": 1,
@@ -49,7 +91,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 22498
+    "id": 20118
   },
   {
     "type": 1,
@@ -75,58 +117,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 22499
-  },
-  {
-    "type": 1,
-    "icao": "LBSF",
-    "lat": 42.69713,
-    "lon": 23.416722,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12405,
-        "name": "LBSF ATIS"
-      },
-      {
-        "type": 54,
-        "frequency": 11810,
-        "name": "SOFIA TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12190,
-        "name": "Sofia_East CNTR"
-      },
-      {
-        "type": 54,
-        "frequency": 13110,
-        "name": "Sofia_West CNTR"
-      },
-      {
-        "type": 55,
-        "frequency": 12370,
-        "name": "SOFIA APP"
-      }
-    ],
-    "elevation": 1741,
-    "tower": true,
-    "name": "Sofia",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 42.69826,
-        "lonStart": 23.394774,
-        "latEnd": 42.696,
-        "lonEnd": 23.43867,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 23805
+    "id": 20128
   }
 ]

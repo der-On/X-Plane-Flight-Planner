@@ -1,32 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "FY0K",
-    "lat": -22.2974,
-    "lon": 17.19895,
-    "communications": [],
-    "elevation": 6450,
-    "tower": false,
-    "name": "Burg Gusinde",
-    "runways": [
-      {
-        "type": 100,
-        "width": 10.06,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": -22.302,
-        "lonStart": 17.193,
-        "latEnd": -22.2928,
-        "lonEnd": 17.2049,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 3400
-  },
-  {
-    "type": 1,
     "icao": "FYWE",
     "lat": -22.606290733333328,
     "lon": 17.079495795000003,
@@ -97,59 +71,98 @@
         "length": 15
       }
     ],
-    "id": 6803
+    "id": 2224
   },
   {
     "type": 1,
-    "icao": "FYIB",
-    "lat": -22.94985,
-    "lon": 17.64535,
-    "communications": [],
-    "elevation": 5100,
-    "tower": false,
-    "name": "Ibenstein",
+    "icao": "FYWH",
+    "lat": -22.481807,
+    "lon": 17.471586,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12050,
+        "name": "APP"
+      },
+      {
+        "type": 52,
+        "frequency": 12590,
+        "name": "APN"
+      },
+      {
+        "type": 51,
+        "frequency": 12620,
+        "name": "ATIS"
+      },
+      {
+        "type": 55,
+        "frequency": 12470,
+        "name": "RADAR_ACC"
+      }
+    ],
+    "elevation": 5640,
+    "tower": true,
+    "name": "Windhoek Hosea Kutako Intl",
     "runways": [
       {
         "type": 100,
-        "width": 20.12,
+        "width": 45,
         "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": -22.9521,
-        "lonStart": 17.6411,
-        "latEnd": -22.9476,
-        "lonEnd": 17.6496,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -22.489728,
+        "lonStart": 17.449594,
+        "latEnd": -22.471447,
+        "lonEnd": 17.489331,
         "length": 0,
-        "surfacetype": 5
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -22.4777,
+        "lonStart": 17.469125,
+        "latEnd": -22.488353,
+        "lonEnd": 17.478294,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "id": 12387
+    "id": 2225
   },
   {
     "type": 1,
-    "icao": "FYMG",
-    "lat": -22.01765,
-    "lon": 17.3655,
+    "icao": "FY0K",
+    "lat": -22.2974,
+    "lon": 17.19895,
     "communications": [],
-    "elevation": 5100,
+    "elevation": 6450,
     "tower": false,
-    "name": "Midgard",
+    "name": "Burg Gusinde",
     "runways": [
       {
         "type": 100,
         "width": 10.06,
         "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": -22.0248,
-        "lonStart": 17.3627,
-        "latEnd": -22.0105,
-        "lonEnd": 17.3683,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -22.302,
+        "lonStart": 17.193,
+        "latEnd": -22.2928,
+        "lonEnd": 17.2049,
         "length": 0,
         "surfacetype": 5
       }
     ],
-    "id": 17159
+    "id": 17281
   },
   {
     "type": 1,
@@ -175,7 +188,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 17345
+    "id": 17329
   },
   {
     "type": 1,
@@ -201,33 +214,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 18835
-  },
-  {
-    "type": 1,
-    "icao": "FYPA",
-    "lat": -22.3031,
-    "lon": 17.0633,
-    "communications": [],
-    "elevation": 4700,
-    "tower": false,
-    "name": "Okapuka",
-    "runways": [
-      {
-        "type": 100,
-        "width": 10.06,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": -22.2986,
-        "lonStart": 17.0633,
-        "latEnd": -22.3076,
-        "lonEnd": 17.0633,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 18862
+    "id": 17340
   },
   {
     "type": 1,
@@ -253,7 +240,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 21769
+    "id": 17367
   },
   {
     "type": 1,
@@ -279,7 +266,7 @@
         "surfacetype": 5
       }
     ],
-    "id": 24202
+    "id": 17375
   },
   {
     "type": 1,
@@ -305,56 +292,84 @@
         "surfacetype": 5
       }
     ],
-    "id": 24222
+    "id": 17376
   },
   {
     "type": 1,
-    "icao": "FYWH",
-    "lat": -22.4818105,
-    "lon": 17.47156925,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11810,
-        "name": "WINDHOEK TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12050,
-        "name": "WINDHOEK APP"
-      }
-    ],
-    "elevation": 5640,
-    "tower": true,
-    "name": "Windhoek Hosea Kutako Intl",
+    "icao": "FYIB",
+    "lat": -22.94985,
+    "lon": 17.64535,
+    "communications": [],
+    "elevation": 5100,
+    "tower": false,
+    "name": "Ibenstein",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 20.12,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": -22.489756,
-        "lonStart": 17.449539,
-        "latEnd": -22.471411,
-        "lonEnd": 17.489358,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -22.9521,
+        "lonStart": 17.6411,
+        "latEnd": -22.9476,
+        "lonEnd": 17.6496,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": -22.477678,
-        "lonStart": 17.469047,
-        "latEnd": -22.488397,
-        "lonEnd": 17.478333,
-        "length": 0,
-        "surfacetype": 1
+        "surfacetype": 5
       }
     ],
-    "id": 27398
+    "id": 17510
+  },
+  {
+    "type": 1,
+    "icao": "FYMG",
+    "lat": -22.01765,
+    "lon": 17.3655,
+    "communications": [],
+    "elevation": 5100,
+    "tower": false,
+    "name": "Midgard",
+    "runways": [
+      {
+        "type": 100,
+        "width": 10.06,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": -22.0248,
+        "lonStart": 17.3627,
+        "latEnd": -22.0105,
+        "lonEnd": 17.3683,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 17538
+  },
+  {
+    "type": 1,
+    "icao": "FYPA",
+    "lat": -22.3031,
+    "lon": 17.0633,
+    "communications": [],
+    "elevation": 4700,
+    "tower": false,
+    "name": "Okapuka",
+    "runways": [
+      {
+        "type": 100,
+        "width": 10.06,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -22.2986,
+        "lonStart": 17.0633,
+        "latEnd": -22.3076,
+        "lonEnd": 17.0633,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 17572
   }
 ]

@@ -1,6 +1,55 @@
 [
   {
     "type": 1,
+    "icao": "LIER",
+    "lat": 39.897032689999996,
+    "lon": 8.64127662,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12260,
+        "name": "Oristano Aerodrom e Info"
+      },
+      {
+        "type": 54,
+        "frequency": 11825,
+        "name": "Aux Freq"
+      }
+    ],
+    "elevation": 36,
+    "tower": true,
+    "name": "ORISTANO Fenosu",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 39.89923182,
+        "lonStart": 8.63773147,
+        "latEnd": 39.8911427,
+        "lonEnd": 8.64810696,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 33,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.90072355,
+        "lonStart": 8.63799143,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 33
+      }
+    ],
+    "id": 3767
+  },
+  {
+    "type": 1,
     "icao": "LIED",
     "lat": 39.353938750000005,
     "lon": 8.9724945,
@@ -52,55 +101,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 5725
-  },
-  {
-    "type": 1,
-    "icao": "LIER",
-    "lat": 39.897032689999996,
-    "lon": 8.64127662,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12260,
-        "name": "Oristano Aerodrom e Info"
-      },
-      {
-        "type": 54,
-        "frequency": 11825,
-        "name": "Aux Freq"
-      }
-    ],
-    "elevation": 36,
-    "tower": true,
-    "name": "ORISTANO Fenosu",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 39.89923182,
-        "lonStart": 8.63773147,
-        "latEnd": 39.8911427,
-        "lonEnd": 8.64810696,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 33,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 39.90072355,
-        "lonStart": 8.63799143,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 33
-      }
-    ],
-    "id": 18700
+    "id": 20545
   }
 ]

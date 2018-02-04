@@ -1,35 +1,9 @@
 [
   {
     "type": 1,
-    "icao": "SJXM",
-    "lat": -21.732222219999997,
-    "lon": -43.89444444,
-    "communications": [],
-    "elevation": 3452,
-    "tower": false,
-    "name": "Carolina de Assis Repetto",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": -21.73508523,
-        "lonStart": -43.89762637,
-        "latEnd": -21.72935921,
-        "lonEnd": -43.89126251,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 4573
-  },
-  {
-    "type": 1,
     "icao": "SBJF",
-    "lat": -21.791506,
-    "lon": -43.386768000000004,
+    "lat": -21.79149608,
+    "lon": -43.386030965,
     "communications": [
       {
         "type": 54,
@@ -37,7 +11,7 @@
         "name": "JUIZ DE FORA RDO"
       }
     ],
-    "elevation": 2989,
+    "elevation": 2988,
     "tower": true,
     "name": "FRANCISCO DE ASSIS",
     "runways": [
@@ -47,41 +21,15 @@
         "surfaceType": null,
         "numberStart": "03",
         "numberEnd": "21",
-        "latStart": -21.798431,
-        "lonStart": -43.387489,
-        "latEnd": -21.784581,
-        "lonEnd": -43.386047,
+        "latStart": -21.79842108,
+        "lonStart": -43.38675186,
+        "latEnd": -21.78457108,
+        "lonEnd": -43.38531007,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 7674
-  },
-  {
-    "type": 1,
-    "icao": "SNJL",
-    "lat": -21.84555556,
-    "lon": -43.187499994999996,
-    "communications": [],
-    "elevation": 2300,
-    "tower": false,
-    "name": "Faz do Rochedo",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": -21.84606823,
-        "lonStart": -43.1898652,
-        "latEnd": -21.84504289,
-        "lonEnd": -43.18513479,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 7843
+    "id": 4626
   },
   {
     "type": 1,
@@ -113,7 +61,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 15724
+    "id": 25105
   },
   {
     "type": 1,
@@ -139,7 +87,84 @@
         "surfacetype": 1
       }
     ],
-    "id": 21327
+    "id": 25162
+  },
+  {
+    "type": 1,
+    "icao": "SJXM",
+    "lat": -21.732222219999997,
+    "lon": -43.89444444,
+    "communications": [],
+    "elevation": 3452,
+    "tower": false,
+    "name": "Carolina de Assis Repetto",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -21.73508523,
+        "lonStart": -43.89762637,
+        "latEnd": -21.72935921,
+        "lonEnd": -43.89126251,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 27312
+  },
+  {
+    "type": 1,
+    "icao": "SNJL",
+    "lat": -21.84555556,
+    "lon": -43.187499994999996,
+    "communications": [],
+    "elevation": 2300,
+    "tower": false,
+    "name": "Faz do Rochedo",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -21.84606823,
+        "lonStart": -43.1898652,
+        "latEnd": -21.84504289,
+        "lonEnd": -43.18513479,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 27801
+  },
+  {
+    "type": 17,
+    "icao": "SNJX",
+    "lat": -21.78138889,
+    "lon": -43.36472222,
+    "communications": [],
+    "elevation": 846,
+    "tower": false,
+    "name": "[H] Hospital Monte Sinai",
+    "runways": [
+      {
+        "type": 102,
+        "width": 21,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -21.78138889,
+        "lonStart": -43.36472222,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21
+      }
+    ],
+    "id": 27811
   },
   {
     "type": 1,
@@ -165,31 +190,6 @@
         "surfacetype": 4
       }
     ],
-    "id": 22973
-  },
-  {
-    "type": 17,
-    "icao": "SNJX",
-    "lat": -21.78138889,
-    "lon": -43.36472222,
-    "communications": [],
-    "elevation": 846,
-    "tower": false,
-    "name": "[H] Hospital Monte Sinai",
-    "runways": [
-      {
-        "type": 102,
-        "width": 21,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -21.78138889,
-        "lonStart": -43.36472222,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21
-      }
-    ],
-    "id": 30340
+    "id": 27891
   }
 ]

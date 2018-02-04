@@ -1,101 +1,21 @@
 [
   {
     "type": 1,
-    "icao": "MT11",
-    "lat": 48.3166825,
-    "lon": -106.83394445,
-    "communications": [],
-    "elevation": 2157,
-    "tower": false,
-    "name": "Etchart Field",
-    "runways": [
+    "icao": "07MT",
+    "lat": 48.422122875,
+    "lon": -106.53038337000001,
+    "communications": [
       {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 48.31944538,
-        "lonStart": -106.83824669,
-        "latEnd": 48.31391962,
-        "lonEnd": -106.82964221,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 7329
-  },
-  {
-    "type": 1,
-    "icao": "MT09",
-    "lat": 48.84585694,
-    "lon": -106.60892778,
-    "communications": [],
-    "elevation": 2948,
-    "tower": false,
-    "name": "Floyd Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 48.84885471,
-        "lonStart": -106.61166487,
-        "latEnd": 48.84285917,
-        "lonEnd": -106.60619069,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9379
-  },
-  {
-    "type": 1,
-    "icao": "37S",
-    "lat": 48.006006052500005,
-    "lon": -106.4809674875,
-    "communications": [],
-    "elevation": 2290,
-    "tower": true,
-    "name": "Fort Peck",
-    "runways": [
-      {
-        "type": 100,
-        "width": 39.93,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 48.01049253,
-        "lonStart": -106.48937108,
-        "latEnd": 48.00387405,
-        "lonEnd": -106.47901103,
-        "length": 0,
-        "surfacetype": 4
+        "type": 55,
+        "frequency": 12327,
+        "name": "App (Land. Permission)"
       },
       {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "5",
-        "numberEnd": "23",
-        "latStart": 48.00335907,
-        "lonStart": -106.48274748,
-        "latEnd": 48.00629856,
-        "lonEnd": -106.47274036,
-        "length": 0,
-        "surfacetype": 4
+        "type": 50,
+        "frequency": 13517,
+        "name": "WX ASOS (CCG)"
       }
     ],
-    "id": 9610
-  },
-  {
-    "type": 1,
-    "icao": "07MT",
-    "lat": 48.421093,
-    "lon": -106.5277165,
-    "communications": [],
     "elevation": 2762,
     "tower": false,
     "name": "GLASGOW INDUSTRIAL",
@@ -106,15 +26,162 @@
         "surfaceType": null,
         "numberStart": "10",
         "numberEnd": "28",
-        "latStart": 48.430342,
-        "lonStart": -106.551786,
-        "latEnd": 48.411844,
-        "lonEnd": -106.503647,
+        "latStart": 48.43034902,
+        "lonStart": -106.55177908,
+        "latEnd": 48.41389673,
+        "lonEnd": -106.50898766,
         "length": 0,
         "surfacetype": 2
       }
     ],
-    "id": 10020
+    "id": 251
+  },
+  {
+    "type": 1,
+    "icao": "37S",
+    "lat": 48.006001729999994,
+    "lon": -106.48103674499998,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 2290,
+    "tower": true,
+    "name": "Fort Peck",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 48.01048512,
+        "lonStart": -106.48941359,
+        "latEnd": 48.00385924,
+        "lonEnd": -106.47903139,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "5",
+        "numberEnd": "23",
+        "latStart": 48.00334672,
+        "lonStart": -106.48291545,
+        "latEnd": 48.00631584,
+        "lonEnd": -106.47278655,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 381
+  },
+  {
+    "type": 1,
+    "icao": "KGGW",
+    "lat": 48.212763467500004,
+    "lon": -106.61667473,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13517,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 2292,
+    "tower": false,
+    "name": "Wokal Fld Glasgow Intl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 48.21853452,
+        "lonStart": -106.62518358,
+        "latEnd": 48.20686264,
+        "lonEnd": -106.60705659,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 48.21280474,
+        "lonStart": -106.63027296,
+        "latEnd": 48.21285197,
+        "lonEnd": -106.60418579,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2712
+  },
+  {
+    "type": 1,
+    "icao": "S00",
+    "lat": 48.85961638333333,
+    "lon": -106.41657924833333,
+    "communications": [],
+    "elevation": 3264,
+    "tower": false,
+    "name": "Opheim",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 48.86519059,
+        "lonStart": -106.41686556,
+        "latEnd": 48.85786596,
+        "lonEnd": -106.41598754,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 48.85841256,
+        "lonStart": -106.41904948,
+        "latEnd": 48.86085985,
+        "lonEnd": -106.41382746,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 48.85856053,
+        "lonStart": -106.41891848,
+        "latEnd": 48.85680881,
+        "lonEnd": -106.41482697,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4490
   },
   {
     "type": 1,
@@ -153,59 +220,59 @@
         "surfacetype": 3
       }
     ],
-    "id": 18911
+    "id": 21828
   },
   {
     "type": 1,
-    "icao": "S00",
-    "lat": 48.86669166000001,
-    "lon": -106.41725416999999,
+    "icao": "MT09",
+    "lat": 48.84585694,
+    "lon": -106.60892778,
     "communications": [],
-    "elevation": 3264,
+    "elevation": 2948,
     "tower": false,
-    "name": "Opheim",
+    "name": "Floyd Ranch",
     "runways": [
       {
         "type": 100,
-        "width": 45.72,
+        "width": 18.29,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 48.87033893,
-        "lonStart": -106.41783693,
-        "latEnd": 48.86304439,
-        "lonEnd": -106.41667141,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 48.86543892,
-        "lonStart": -106.41987536,
-        "latEnd": 48.8679444,
-        "lonEnd": -106.41463298,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 48.86736106,
-        "lonStart": -106.41953978,
-        "latEnd": 48.86602226,
-        "lonEnd": -106.41496856,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 48.84885471,
+        "lonStart": -106.61166487,
+        "latEnd": 48.84285917,
+        "lonEnd": -106.60619069,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 18992
+    "id": 21832
+  },
+  {
+    "type": 1,
+    "icao": "MT11",
+    "lat": 48.3166825,
+    "lon": -106.83394445,
+    "communications": [],
+    "elevation": 2157,
+    "tower": false,
+    "name": "Etchart Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 48.31944538,
+        "lonStart": -106.83824669,
+        "latEnd": 48.31391962,
+        "lonEnd": -106.82964221,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21834
   },
   {
     "type": 1,
@@ -231,61 +298,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 21284
-  },
-  {
-    "type": 1,
-    "icao": "KGGW",
-    "lat": 48.212244,
-    "lon": -106.60204625,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13517,
-        "name": "ASOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 2293,
-    "tower": false,
-    "name": "Wokal Fld Glasgow Intl",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 48.216408,
-        "lonStart": -106.621811,
-        "latEnd": 48.206886,
-        "lonEnd": -106.607056,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 48.21284,
-        "lonStart": -106.599912,
-        "latEnd": 48.212842,
-        "lonEnd": -106.579406,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 27491
+    "id": 21905
   }
 ]

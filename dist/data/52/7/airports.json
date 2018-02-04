@@ -1,91 +1,8 @@
 [
   {
     "type": 1,
-    "icao": "EDXA",
-    "lat": 52.377972,
-    "lon": 7.9134245000000005,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12305,
-        "name": "Achmer Info"
-      }
-    ],
-    "elevation": 177,
-    "tower": true,
-    "name": "Achmer",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "07L",
-        "numberEnd": "25R",
-        "latStart": 52.376732,
-        "lonStart": 7.906253,
-        "latEnd": 52.380718,
-        "lonEnd": 7.92081,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "07R",
-        "numberEnd": "25L",
-        "latStart": 52.375683,
-        "lonStart": 7.906881,
-        "latEnd": 52.378755,
-        "lonEnd": 7.919754,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 546
-  },
-  {
-    "type": 1,
-    "icao": "ETWM",
-    "lat": 52.72417342333333,
-    "lon": 7.32752074,
-    "communications": [],
-    "elevation": 55,
-    "tower": false,
-    "name": "ETWM Meppen AB",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 52.721467,
-        "lonStart": 7.322294,
-        "latEnd": 52.724732,
-        "lonEnd": 7.330374,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 102,
-        "width": 42.5,
-        "surfaceType": 1,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 52.72632127,
-        "lonStart": 7.32989422,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 41.5
-      }
-    ],
-    "id": 6827
-  },
-  {
-    "type": 1,
     "icao": "EDDG",
-    "lat": 52.13519675,
+    "lat": 52.135196750000006,
     "lon": 7.68263475,
     "communications": [
       {
@@ -100,11 +17,6 @@
       },
       {
         "type": 54,
-        "frequency": 12352,
-        "name": "Langen INFO"
-      },
-      {
-        "type": 54,
         "frequency": 12980,
         "name": "Muenster TWR"
       },
@@ -116,21 +28,8 @@
     ],
     "elevation": 159,
     "tower": true,
-    "name": "Muenster-Osnabrueck",
+    "name": "Muenster- Osnabrueck",
     "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "07L",
-        "numberEnd": "25R",
-        "latStart": 52.134303,
-        "lonStart": 7.673567,
-        "latEnd": 52.137131,
-        "lonEnd": 7.686881,
-        "length": 0,
-        "surfacetype": 3
-      },
       {
         "type": 100,
         "width": 45.11,
@@ -143,9 +42,22 @@
         "lonEnd": 7.700016,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "07L",
+        "numberEnd": "25R",
+        "latStart": 52.134303,
+        "lonStart": 7.673567,
+        "latEnd": 52.137131,
+        "lonEnd": 7.686881,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 17686
+    "id": 1055
   },
   {
     "type": 1,
@@ -177,7 +89,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 18410
+    "id": 1401
   },
   {
     "type": 1,
@@ -209,56 +121,52 @@
         "surfacetype": 1
       }
     ],
-    "id": 19061
+    "id": 1402
   },
   {
     "type": 1,
-    "icao": "ETHE",
-    "lat": 52.29149953,
-    "lon": 7.386373,
+    "icao": "EDXA",
+    "lat": 52.377972,
+    "lon": 7.9134245000000005,
     "communications": [
       {
-        "type": 54,
-        "frequency": 12210,
-        "name": "Bentlage tower"
-      },
-      {
-        "type": 55,
-        "frequency": 12330,
-        "name": "Bentlage radar"
+        "type": 51,
+        "frequency": 12305,
+        "name": "Achmer Info"
       }
     ],
-    "elevation": 128,
-    "tower": false,
-    "name": "Rheine - Bentlage AAF",
+    "elevation": 177,
+    "tower": true,
+    "name": "Achmer",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 30,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 52.290913,
-        "lonStart": 7.38326,
-        "latEnd": 52.291414,
-        "lonEnd": 7.390778,
+        "numberStart": "07L",
+        "numberEnd": "25R",
+        "latStart": 52.376732,
+        "lonStart": 7.906253,
+        "latEnd": 52.380718,
+        "lonEnd": 7.92081,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       },
       {
-        "type": 102,
-        "width": 50,
-        "surfaceType": 15,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 52.29217159,
-        "lonStart": 7.385081,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 53.6
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 52.375683,
+        "lonStart": 7.906881,
+        "latEnd": 52.378755,
+        "lonEnd": 7.919754,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 21405
+    "id": 1421
   },
   {
     "type": 1,
@@ -303,13 +211,13 @@
         "surfacetype": 3
       }
     ],
-    "id": 21406
+    "id": 1425
   },
   {
     "type": 1,
     "icao": "EHST",
-    "lat": 52.99670662,
-    "lon": 7.02277039,
+    "lat": 52.99676399,
+    "lon": 7.022745329999999,
     "communications": [
       {
         "type": 54,
@@ -332,14 +240,101 @@
         "surfaceType": null,
         "numberStart": "06",
         "numberEnd": "24",
-        "latStart": 52.99539526,
-        "lonStart": 7.01973294,
-        "latEnd": 52.99801798,
-        "lonEnd": 7.02580784,
+        "latStart": 52.99547318,
+        "lonStart": 7.0196798,
+        "latEnd": 52.9980548,
+        "lonEnd": 7.02581086,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 24078
+    "id": 1652
+  },
+  {
+    "type": 1,
+    "icao": "ETHE",
+    "lat": 52.29149953,
+    "lon": 7.386373,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "Bentlage tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12330,
+        "name": "Bentlage radar"
+      }
+    ],
+    "elevation": 128,
+    "tower": false,
+    "name": "Rheine - Bentlage AAF",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 52.290913,
+        "lonStart": 7.38326,
+        "latEnd": 52.291414,
+        "lonEnd": 7.390778,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 50,
+        "surfaceType": 15,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 52.29217159,
+        "lonStart": 7.385081,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 53.6
+      }
+    ],
+    "id": 2062
+  },
+  {
+    "type": 1,
+    "icao": "ETWM",
+    "lat": 52.72417342333333,
+    "lon": 7.32752074,
+    "communications": [],
+    "elevation": 55,
+    "tower": false,
+    "name": "ETWM Meppen AB",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 52.721467,
+        "lonStart": 7.322294,
+        "latEnd": 52.724732,
+        "lonEnd": 7.330374,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 42.5,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 52.72632127,
+        "lonStart": 7.32989422,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 41.5
+      }
+    ],
+    "id": 2097
   }
 ]

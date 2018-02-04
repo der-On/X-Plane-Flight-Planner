@@ -1,6 +1,77 @@
 [
   {
     "type": 1,
+    "icao": "KJDN",
+    "lat": 47.32875323499999,
+    "lon": -106.95270584,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 2662,
+    "tower": false,
+    "name": "Jordan",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 47.33127362,
+        "lonStart": -106.96054444,
+        "latEnd": 47.32623285,
+        "lonEnd": -106.94486724,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2844
+  },
+  {
+    "type": 1,
+    "icao": "6U2",
+    "lat": 47.76667527,
+    "lon": -106.18807862,
+    "communications": [],
+    "elevation": 2424,
+    "tower": false,
+    "name": "Nelson",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 47.76750475,
+        "lonStart": -106.19302822,
+        "latEnd": 47.76584579,
+        "lonEnd": -106.18312902,
+        "length": 0,
+        "surfacetype": 5
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 47.76373628,
+        "lonStart": -106.18545135,
+        "latEnd": 47.76961426,
+        "lonEnd": -106.19070589,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9434
+  },
+  {
+    "type": 1,
     "icao": "6U3",
     "lat": 47.833345,
     "lon": -106.48392889000002,
@@ -49,78 +120,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 12027
-  },
-  {
-    "type": 1,
-    "icao": "KJDN",
-    "lat": 47.328700999999995,
-    "lon": -106.952658,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 2662,
-    "tower": false,
-    "name": "Jordan",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 47.33120227,
-        "lonStart": -106.96057553,
-        "latEnd": 47.32619973,
-        "lonEnd": -106.94474047,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 13100
-  },
-  {
-    "type": 1,
-    "icao": "6U2",
-    "lat": 47.76667527,
-    "lon": -106.18807862,
-    "communications": [],
-    "elevation": 2424,
-    "tower": false,
-    "name": "Nelson",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 47.76750475,
-        "lonStart": -106.19302822,
-        "latEnd": 47.76584579,
-        "lonEnd": -106.18312902,
-        "length": 0,
-        "surfacetype": 5
-      },
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 47.76373628,
-        "lonStart": -106.18545135,
-        "latEnd": 47.76961426,
-        "lonEnd": -106.19070589,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 18187
+    "id": 9435
   },
   {
     "type": 1,
@@ -159,6 +159,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 20276
+    "id": 13977
   }
 ]

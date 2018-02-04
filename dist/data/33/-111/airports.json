@@ -34,7 +34,73 @@
         "surfacetype": 2
       }
     ],
-    "id": 13284
+    "id": 933
+  },
+  {
+    "type": 1,
+    "icao": "P13",
+    "lat": 33.3531429875,
+    "lon": -110.663706815,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 50,
+        "frequency": 12007,
+        "name": "AWOS-3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 3261,
+    "tower": false,
+    "name": "SAN CARLOS APACHE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 33.354981,
+        "lonStart": -110.677778,
+        "latEnd": 33.351314,
+        "lonEnd": -110.656944,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 1,
+        "numberStart": "H44",
+        "numberEnd": null,
+        "latStart": 33.35307515,
+        "lonStart": -110.65985479,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      },
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 1,
+        "numberStart": "H43",
+        "numberEnd": null,
+        "latStart": 33.3532018,
+        "lonStart": -110.66025047,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 4355
   },
   {
     "type": 1,
@@ -79,38 +145,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 21960
-  },
-  {
-    "type": 1,
-    "icao": "P13",
-    "lat": 33.353147500000006,
-    "lon": -110.667361,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 3261,
-    "tower": false,
-    "name": "SAN CARLOS APACHE",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 33.354981,
-        "lonStart": -110.677778,
-        "latEnd": 33.351314,
-        "lonEnd": -110.656944,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 21962
+    "id": 7985
   }
 ]

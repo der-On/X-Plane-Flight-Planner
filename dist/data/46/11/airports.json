@@ -1,48 +1,29 @@
 [
   {
     "type": 1,
-    "icao": "LIPB",
-    "lat": 46.45890625,
-    "lon": 11.326862,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12060,
-        "name": "INFO"
-      }
-    ],
-    "elevation": 789,
+    "icao": "XLILU",
+    "lat": 46.60300247,
+    "lon": 11.37958069,
+    "communications": [],
+    "elevation": 2608,
     "tower": false,
-    "name": "BOLZANO",
+    "name": "Locher Airfield",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 20,
         "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 46.454353,
-        "lonStart": 11.324853,
-        "latEnd": 46.465833,
-        "lonEnd": 11.327856,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "01R",
-        "numberEnd": "19L",
-        "latStart": 46.454633,
-        "lonStart": 11.326533,
-        "latEnd": 46.460806,
-        "lonEnd": 11.328206,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 46.60495412,
+        "lonStart": 11.37928169,
+        "latEnd": 46.60105082,
+        "lonEnd": 11.37987969,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 1822
+    "id": 5507
   },
   {
     "type": 1,
@@ -87,6 +68,51 @@
         "surfacetype": 15
       }
     ],
-    "id": 16809
+    "id": 20543
+  },
+  {
+    "type": 1,
+    "icao": "LIPB",
+    "lat": 46.45890625,
+    "lon": 11.326862,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12060,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 789,
+    "tower": false,
+    "name": "BOLZANO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 46.454353,
+        "lonStart": 11.324853,
+        "latEnd": 46.465833,
+        "lonEnd": 11.327856,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "01R",
+        "numberEnd": "19L",
+        "latStart": 46.454633,
+        "lonStart": 11.326533,
+        "latEnd": 46.460806,
+        "lonEnd": 11.328206,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20553
   }
 ]

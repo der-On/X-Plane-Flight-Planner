@@ -3,7 +3,7 @@
     "type": 1,
     "icao": "LDZA",
     "lat": 45.7418905,
-    "lon": 16.0672,
+    "lon": 16.067202729999998,
     "communications": [
       {
         "type": 50,
@@ -17,8 +17,8 @@
       },
       {
         "type": 54,
-        "frequency": 12485,
-        "name": "INFO"
+        "frequency": 11830,
+        "name": "TWR"
       },
       {
         "type": 54,
@@ -27,8 +27,8 @@
       },
       {
         "type": 54,
-        "frequency": 11830,
-        "name": "TWR"
+        "frequency": 12485,
+        "name": "INFO"
       },
       {
         "type": 55,
@@ -56,14 +56,40 @@
         "surfaceType": null,
         "numberStart": "05",
         "numberEnd": "23",
-        "latStart": 45.731875,
-        "lonStart": 16.051969,
-        "latEnd": 45.751906,
-        "lonEnd": 16.082431,
+        "latStart": 45.73187521,
+        "lonStart": 16.05196872,
+        "latEnd": 45.75190579,
+        "lonEnd": 16.08243674,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 27866
+    "id": 3473
+  },
+  {
+    "type": 1,
+    "icao": "LDZJ",
+    "lat": 45.861194,
+    "lon": 16.83599,
+    "communications": [],
+    "elevation": 1414,
+    "tower": false,
+    "name": "Bjelovar",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 45.858261,
+        "lonStart": 16.83393,
+        "latEnd": 45.864127,
+        "lonEnd": 16.83805,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3475
   }
 ]

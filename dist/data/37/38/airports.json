@@ -1,40 +1,45 @@
 [
   {
     "type": 1,
-    "icao": "LTCP",
-    "lat": 37.7313695,
-    "lon": 38.468936,
+    "icao": "LTCS",
+    "lat": 37.44808369,
+    "lon": 38.898378910000005,
     "communications": [
       {
-        "type": 54,
-        "frequency": 12185,
-        "name": "TWR"
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
       },
       {
         "type": 54,
-        "frequency": 11905,
+        "frequency": 11840,
         "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11885,
+        "name": "APP"
       }
     ],
-    "elevation": 2215,
+    "elevation": 2708,
     "tower": true,
-    "name": "ADIYAMAN",
+    "name": "Sanliurfa GAP",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 45,
         "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 37.724031,
-        "lonStart": 38.458158,
-        "latEnd": 37.738708,
-        "lonEnd": 38.479714,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 37.43468863,
+        "lonStart": 38.88324773,
+        "latEnd": 37.46147875,
+        "lonEnd": 38.91351009,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 1
       }
     ],
-    "id": 71
+    "id": 4026
   },
   {
     "type": 1,
@@ -71,6 +76,43 @@
         "surfacetype": 1
       }
     ],
-    "id": 22030
+    "id": 20922
+  },
+  {
+    "type": 1,
+    "icao": "LTCP",
+    "lat": 37.7313695,
+    "lon": 38.468936,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12185,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11905,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 2215,
+    "tower": true,
+    "name": "ADIYAMAN",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 37.724031,
+        "lonStart": 38.458158,
+        "latEnd": 37.738708,
+        "lonEnd": 38.479714,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 20925
   }
 ]

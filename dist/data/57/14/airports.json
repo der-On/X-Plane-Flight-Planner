@@ -1,6 +1,88 @@
 [
   {
     "type": 1,
+    "icao": "ESGJ",
+    "lat": 57.754237116,
+    "lon": 14.071931703999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11825,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 741,
+    "tower": true,
+    "name": "Jonkoping",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 57.7479375,
+        "lonStart": 14.06285439,
+        "latEnd": 57.767494,
+        "lonEnd": 14.074779,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 57.753446,
+        "lonStart": 14.068882,
+        "latEnd": 57.751277,
+        "lonEnd": 14.078109,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 15,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 57.75103108,
+        "lonStart": 14.07503413,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15
+      }
+    ],
+    "id": 1899
+  },
+  {
+    "type": 17,
+    "icao": "ESHJ",
+    "lat": 57.76476747,
+    "lon": 14.19451708,
+    "communications": [],
+    "elevation": 345,
+    "tower": false,
+    "name": "[H] Jönköping Ryhov hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 23,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 57.76476747,
+        "lonStart": 14.19451708,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 23
+      }
+    ],
+    "id": 1918
+  },
+  {
+    "type": 1,
     "icao": "ESMC",
     "lat": 57.66993723,
     "lon": 14.94224135,
@@ -29,7 +111,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 7023
+    "id": 1945
   },
   {
     "type": 1,
@@ -118,88 +200,58 @@
         "surfacetype": 1
       }
     ],
-    "id": 11304
+    "id": 1961
   },
   {
     "type": 1,
-    "icao": "ESGJ",
-    "lat": 57.754237116,
-    "lon": 14.071931703999999,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11825,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 741,
-    "tower": true,
-    "name": "Jonkoping",
+    "icao": "XESG8",
+    "lat": 57.601856005,
+    "lon": 14.28649095,
+    "communications": [],
+    "elevation": 669,
+    "tower": false,
+    "name": "Jönköping Ödestugu",
     "runways": [
       {
         "type": 100,
-        "width": 45,
+        "width": 40,
         "surfaceType": null,
         "numberStart": "01",
         "numberEnd": "19",
-        "latStart": 57.7479375,
-        "lonStart": 14.06285439,
-        "latEnd": 57.767494,
-        "lonEnd": 14.074779,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 24.99,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 57.753446,
-        "lonStart": 14.068882,
-        "latEnd": 57.751277,
-        "lonEnd": 14.078109,
+        "latStart": 57.59894677,
+        "lonStart": 14.28594381,
+        "latEnd": 57.60476524,
+        "lonEnd": 14.28703809,
         "length": 0,
         "surfacetype": 3
-      },
-      {
-        "type": 102,
-        "width": 15,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 57.75103108,
-        "lonStart": 14.07503413,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15
       }
     ],
-    "id": 13097
+    "id": 5425
   },
   {
-    "type": 17,
-    "icao": "ESHJ",
-    "lat": 57.76476747,
-    "lon": 14.19451708,
+    "type": 1,
+    "icao": "XESG9",
+    "lat": 57.868306245,
+    "lon": 14.338545285,
     "communications": [],
-    "elevation": 345,
+    "elevation": 488,
     "tower": false,
-    "name": "[H] JC6nkC6ping Ryhov hospital",
+    "name": "Huskvarna Drättinge",
     "runways": [
       {
-        "type": 102,
-        "width": 23,
-        "surfaceType": 15,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 57.76476747,
-        "lonStart": 14.19451708,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 23
+        "type": 100,
+        "width": 15,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 57.867719,
+        "lonStart": 14.33440255,
+        "latEnd": 57.86889349,
+        "lonEnd": 14.34268802,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 30659
+    "id": 5426
   }
 ]

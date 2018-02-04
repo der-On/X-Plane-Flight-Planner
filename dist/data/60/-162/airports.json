@@ -1,9 +1,9 @@
 [
   {
-    "type": 1,
-    "icao": "PFAK",
-    "lat": 60.9028915,
-    "lon": -161.2305945,
+    "type": 16,
+    "icao": "KKI",
+    "lat": 60.901555235000004,
+    "lon": -161.44074924,
     "communications": [
       {
         "type": 51,
@@ -11,57 +11,60 @@
         "name": "CTAF"
       }
     ],
-    "elevation": 29,
+    "elevation": 0,
     "tower": false,
-    "name": "AKIAK",
+    "name": "[S] Akiachak",
     "runways": [
       {
-        "type": 100,
-        "width": 22.86,
+        "type": 101,
+        "width": 91.44,
         "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 60.899911,
-        "lonStart": -161.237161,
-        "latEnd": 60.905872,
-        "lonEnd": -161.224028,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 122
-  },
-  {
-    "type": 1,
-    "icao": "Z13",
-    "lat": 60.9048365,
-    "lon": -161.422435635,
-    "communications": [
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 60.91009729,
+        "lonStart": -161.44841257,
+        "latEnd": 60.90563215,
+        "lonEnd": -161.42174189,
+        "length": 0
+      },
       {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 13,
-    "tower": false,
-    "name": "Akiachak",
-    "runways": [
-      {
-        "type": 100,
-        "width": 11.89,
+        "type": 101,
+        "width": 60.96,
         "surfaceType": null,
         "numberStart": "11",
         "numberEnd": "29",
-        "latStart": 60.90586551,
-        "lonStart": -161.42657729,
-        "latEnd": 60.90380749,
-        "lonEnd": -161.41829398,
-        "length": 0,
-        "surfacetype": 5
+        "latStart": 60.900305,
+        "lonStart": -161.440999,
+        "latEnd": 60.892344,
+        "lonEnd": -161.421101,
+        "length": 0
+      },
+      {
+        "type": 101,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "3",
+        "numberEnd": "21",
+        "latStart": 60.887394,
+        "lonStart": -161.478573,
+        "latEnd": 60.90094,
+        "lonEnd": -161.445012,
+        "length": 0
+      },
+      {
+        "type": 101,
+        "width": 152.4,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 60.91402816,
+        "lonStart": -161.4412599,
+        "latEnd": 60.90170128,
+        "lonEnd": -161.42889456,
+        "length": 0
       }
     ],
-    "id": 780
+    "id": 19388
   },
   {
     "type": 1,
@@ -187,82 +190,7 @@
         "length": 39
       }
     ],
-    "id": 1677
-  },
-  {
-    "type": 1,
-    "icao": "PFKW",
-    "lat": 60.80425194,
-    "lon": -161.44535,
-    "communications": [],
-    "elevation": 28,
-    "tower": false,
-    "name": "Kwethluk",
-    "runways": [
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 60.80379398,
-        "lonStart": -161.45017992,
-        "latEnd": 60.8047099,
-        "lonEnd": -161.44052008,
-        "length": 0,
-        "surfacetype": 5
-      },
-      {
-        "type": 101,
-        "width": 152.4,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 60.80413226,
-        "lonStart": -161.45940592,
-        "latEnd": 60.80437162,
-        "lonEnd": -161.43129408,
-        "length": 0
-      }
-    ],
-    "id": 14221
-  },
-  {
-    "type": 1,
-    "icao": "PPKA",
-    "lat": 60.7029125,
-    "lon": -161.77830849999998,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      },
-      {
-        "type": 55,
-        "frequency": 12520,
-        "name": "ANCHORAGE CNTR"
-      }
-    ],
-    "elevation": 24,
-    "tower": false,
-    "name": "NAPASKIAK",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 60.699386,
-        "lonStart": -161.782589,
-        "latEnd": 60.706439,
-        "lonEnd": -161.774028,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 17833
+    "id": 23890
   },
   {
     "type": 1,
@@ -312,13 +240,13 @@
         "length": 0
       }
     ],
-    "id": 18113
+    "id": 23987
   },
   {
-    "type": 16,
-    "icao": "KKI",
-    "lat": 60.901555235000004,
-    "lon": -161.44074924,
+    "type": 1,
+    "icao": "PFAK",
+    "lat": 60.9028915,
+    "lon": -161.2305945,
     "communications": [
       {
         "type": 51,
@@ -326,97 +254,132 @@
         "name": "CTAF"
       }
     ],
-    "elevation": 0,
+    "elevation": 29,
     "tower": false,
-    "name": "[S] Akiachak",
+    "name": "AKIAK",
     "runways": [
       {
-        "type": 101,
-        "width": 91.44,
+        "type": 100,
+        "width": 22.86,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 60.91009729,
-        "lonStart": -161.44841257,
-        "latEnd": 60.90563215,
-        "lonEnd": -161.42174189,
-        "length": 0
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 60.899911,
+        "lonStart": -161.237161,
+        "latEnd": 60.905872,
+        "lonEnd": -161.224028,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 24063
+  },
+  {
+    "type": 1,
+    "icao": "PFKW",
+    "lat": 60.80425194,
+    "lon": -161.44535,
+    "communications": [],
+    "elevation": 28,
+    "tower": false,
+    "name": "Kwethluk",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 60.80379398,
+        "lonStart": -161.45017992,
+        "latEnd": 60.8047099,
+        "lonEnd": -161.44052008,
+        "length": 0,
+        "surfacetype": 5
       },
       {
         "type": 101,
-        "width": 60.96,
+        "width": 152.4,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 60.80413226,
+        "lonStart": -161.45940592,
+        "latEnd": 60.80437162,
+        "lonEnd": -161.43129408,
+        "length": 0
+      }
+    ],
+    "id": 24073
+  },
+  {
+    "type": 1,
+    "icao": "PPKA",
+    "lat": 60.7029125,
+    "lon": -161.77830849999998,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      },
+      {
+        "type": 55,
+        "frequency": 12520,
+        "name": "ANCHORAGE CNTR"
+      }
+    ],
+    "elevation": 24,
+    "tower": false,
+    "name": "NAPASKIAK",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 60.699386,
+        "lonStart": -161.782589,
+        "latEnd": 60.706439,
+        "lonEnd": -161.774028,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 24153
+  },
+  {
+    "type": 1,
+    "icao": "Z13",
+    "lat": 60.9048365,
+    "lon": -161.422435635,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 13,
+    "tower": false,
+    "name": "Akiachak",
+    "runways": [
+      {
+        "type": 100,
+        "width": 11.89,
         "surfaceType": null,
         "numberStart": "11",
         "numberEnd": "29",
-        "latStart": 60.900305,
-        "lonStart": -161.440999,
-        "latEnd": 60.892344,
-        "lonEnd": -161.421101,
-        "length": 0
-      },
-      {
-        "type": 101,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "3",
-        "numberEnd": "21",
-        "latStart": 60.887394,
-        "lonStart": -161.478573,
-        "latEnd": 60.90094,
-        "lonEnd": -161.445012,
-        "length": 0
-      },
-      {
-        "type": 101,
-        "width": 152.4,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 60.91402816,
-        "lonStart": -161.4412599,
-        "latEnd": 60.90170128,
-        "lonEnd": -161.42889456,
-        "length": 0
+        "latStart": 60.90586551,
+        "lonStart": -161.42657729,
+        "latEnd": 60.90380749,
+        "lonEnd": -161.41829398,
+        "length": 0,
+        "surfacetype": 5
       }
     ],
-    "id": 33963
-  },
-  {
-    "type": 16,
-    "icao": "Z59",
-    "lat": 60.784226715,
-    "lon": -161.74913061249998,
-    "communications": [],
-    "elevation": 0,
-    "tower": false,
-    "name": "[S] Bethel SPB",
-    "runways": [
-      {
-        "type": 101,
-        "width": 152.4,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 60.78015734,
-        "lonStart": -161.75063917,
-        "latEnd": 60.7838932,
-        "lonEnd": -161.73561861,
-        "length": 0
-      },
-      {
-        "type": 101,
-        "width": 6.1,
-        "surfaceType": null,
-        "numberStart": "3",
-        "numberEnd": "21",
-        "latStart": 60.78640843,
-        "lonStart": -161.75517137,
-        "latEnd": 60.78644789,
-        "lonEnd": -161.7550933,
-        "length": 0
-      }
-    ],
-    "id": 33999
+    "id": 34885
   },
   {
     "type": 16,
@@ -453,6 +416,43 @@
         "length": 0
       }
     ],
-    "id": 34151
+    "id": 34900
+  },
+  {
+    "type": 16,
+    "icao": "Z59",
+    "lat": 60.784226715,
+    "lon": -161.74913061249998,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] Bethel SPB",
+    "runways": [
+      {
+        "type": 101,
+        "width": 152.4,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 60.78015734,
+        "lonStart": -161.75063917,
+        "latEnd": 60.7838932,
+        "lonEnd": -161.73561861,
+        "length": 0
+      },
+      {
+        "type": 101,
+        "width": 6.1,
+        "surfaceType": null,
+        "numberStart": "3",
+        "numberEnd": "21",
+        "latStart": 60.78640843,
+        "lonStart": -161.75517137,
+        "latEnd": 60.78644789,
+        "lonEnd": -161.7550933,
+        "length": 0
+      }
+    ],
+    "id": 34901
   }
 ]

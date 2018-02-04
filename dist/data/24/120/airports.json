@@ -3,58 +3,48 @@
     "type": 1,
     "icao": "RCMQ",
     "lat": 24.264960000000002,
-    "lon": 120.62080449999999,
+    "lon": 120.62080436,
     "communications": [
       {
-        "type": 54,
+        "type": 53,
         "frequency": 12025,
-        "name": "TWR"
+        "name": "CCK GROUND"
       },
       {
         "type": 54,
         "frequency": 11875,
-        "name": "TWR"
+        "name": "CCK TWR"
       },
       {
         "type": 55,
-        "frequency": 12040,
-        "name": "TAICHUNG APP"
+        "frequency": 13185,
+        "name": "TAIPEI APP"
       },
       {
-        "type": 55,
-        "frequency": 12060,
-        "name": "TAICHUNG APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12960,
-        "name": "TAICHUNG APP"
-      },
-      {
-        "type": 55,
-        "frequency": 13010,
-        "name": "TAICHUNG APP"
+        "type": 50,
+        "frequency": 12775,
+        "name": "Cingcyuangang ATIS"
       }
     ],
     "elevation": 663,
     "tower": true,
-    "name": "CHING CHUAN KANG AB",
+    "name": "Taichung Cingcyuangang",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 61,
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 24.281453,
-        "lonStart": 120.619703,
-        "latEnd": 24.248467,
-        "lonEnd": 120.621906,
+        "latStart": 24.28139376,
+        "lonStart": 120.61970696,
+        "latEnd": 24.24852624,
+        "lonEnd": 120.62190176,
         "length": 0,
         "surfacetype": 2
       }
     ],
-    "id": 3899
+    "id": 4423
   },
   {
     "type": 1,
@@ -96,6 +86,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 11223
+    "id": 24345
   }
 ]

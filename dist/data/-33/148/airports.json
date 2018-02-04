@@ -1,61 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "YSDU",
-    "lat": -32.2174688675,
-    "lon": 148.57720899,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 13400,
-        "name": "DUBBO CTAF"
-      },
-      {
-        "type": 52,
-        "frequency": 12390,
-        "name": "MELBOURNE CENTRE MULT"
-      },
-      {
-        "type": 50,
-        "frequency": 11440,
-        "name": "DUBBO AWIS"
-      }
-    ],
-    "elevation": 935,
-    "tower": false,
-    "name": "Dubbo",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": -32.222789,
-        "lonStart": 148.56879443,
-        "latEnd": -32.21370028,
-        "lonEnd": 148.58339236,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 18,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": -32.21435824,
-        "lonStart": 148.57337718,
-        "latEnd": -32.21902795,
-        "lonEnd": 148.58327199,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 6512
-  },
-  {
-    "type": 1,
     "icao": "YNRM",
     "lat": -32.213592069,
     "lon": 148.225350643,
@@ -136,7 +81,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 18133
+    "id": 34071
   },
   {
     "type": 1,
@@ -162,7 +107,62 @@
         "surfacetype": 4
       }
     ],
-    "id": 19274
+    "id": 34201
+  },
+  {
+    "type": 1,
+    "icao": "YSDU",
+    "lat": -32.2174688675,
+    "lon": 148.57720899,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 13400,
+        "name": "DUBBO CTAF"
+      },
+      {
+        "type": 52,
+        "frequency": 12390,
+        "name": "MELBOURNE CENTRE MULT"
+      },
+      {
+        "type": 50,
+        "frequency": 11440,
+        "name": "DUBBO AWIS"
+      }
+    ],
+    "elevation": 935,
+    "tower": false,
+    "name": "Dubbo",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -32.222789,
+        "lonStart": 148.56879443,
+        "latEnd": -32.21370028,
+        "lonEnd": 148.58339236,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 18,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -32.21435824,
+        "lonStart": 148.57337718,
+        "latEnd": -32.21902795,
+        "lonEnd": 148.58327199,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 34387
   },
   {
     "type": 1,
@@ -207,6 +207,6 @@
         "surfacetype": 5
       }
     ],
-    "id": 27066
+    "id": 34699
   }
 ]

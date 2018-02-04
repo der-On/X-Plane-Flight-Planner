@@ -1,6 +1,32 @@
 [
   {
     "type": 1,
+    "icao": "VNSK",
+    "lat": 28.585653225,
+    "lon": 81.635783175,
+    "communications": [],
+    "elevation": 2229,
+    "tower": true,
+    "name": "Surkhet - Birendranagar",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 28.58020614,
+        "lonStart": 81.63403134,
+        "latEnd": 28.59110031,
+        "lonEnd": 81.63753501,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5169
+  },
+  {
+    "type": 1,
     "icao": "VNNG",
     "lat": 28.103635,
     "lon": 81.6670055,
@@ -29,33 +55,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 17889
-  },
-  {
-    "type": 1,
-    "icao": "VNSK",
-    "lat": 28.585653225,
-    "lon": 81.635783175,
-    "communications": [],
-    "elevation": 2229,
-    "tower": true,
-    "name": "Surkhet / Birendranagar",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 28.58020614,
-        "lonStart": 81.63403134,
-        "latEnd": 28.59110031,
-        "lonEnd": 81.63753501,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 24420
+    "id": 30945
   },
   {
     "type": 1,
@@ -81,6 +81,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 25357
+    "id": 30954
   }
 ]

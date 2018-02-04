@@ -1,58 +1,14 @@
 [
   {
     "type": 1,
-    "icao": "ETHB",
-    "lat": 52.27870726,
-    "lon": 9.08140944,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12210,
-        "name": "Bueckeburg tower"
-      }
-    ],
-    "elevation": 229,
-    "tower": true,
-    "name": "Bueckeburg AB",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 52.27666446,
-        "lonStart": 9.06910084,
-        "latEnd": 52.28019554,
-        "lonEnd": 9.09522021,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 46.8,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 52.27926178,
-        "lonStart": 9.07990727,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 44.7
-      }
-    ],
-    "id": 3340
-  },
-  {
-    "type": 1,
     "icao": "EDDV",
-    "lat": 52.46266385272727,
-    "lon": 9.685102344545454,
+    "lat": 52.46264319272727,
+    "lon": 9.685111609090908,
     "communications": [
       {
         "type": 50,
-        "frequency": 13212,
-        "name": "EDDV ATIS"
+        "frequency": 13657,
+        "name": "Hannover ATIS"
       },
       {
         "type": 53,
@@ -63,6 +19,11 @@
         "type": 54,
         "frequency": 12017,
         "name": "Hannover Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 13132,
+        "name": "Bremen Radar"
       }
     ],
     "elevation": 183,
@@ -75,10 +36,10 @@
         "surfaceType": null,
         "numberStart": "09R",
         "numberEnd": "27L",
-        "latStart": 52.454991,
-        "lonStart": 9.676781,
-        "latEnd": 52.454033,
-        "lonEnd": 9.711161,
+        "latStart": 52.45496899,
+        "lonStart": 9.67679263,
+        "latEnd": 52.45401099,
+        "lonEnd": 9.71117263,
         "length": 0,
         "surfacetype": 2
       },
@@ -88,10 +49,10 @@
         "surfaceType": null,
         "numberStart": "09C",
         "numberEnd": "27C",
-        "latStart": 52.46483047,
-        "lonStart": 9.68378779,
-        "latEnd": 52.46452147,
-        "lonEnd": 9.69516479,
+        "latStart": 52.46480845,
+        "lonStart": 9.6837994,
+        "latEnd": 52.46449945,
+        "lonEnd": 9.6951764,
         "length": 0,
         "surfacetype": 1
       },
@@ -101,10 +62,10 @@
         "surfaceType": null,
         "numberStart": "09L",
         "numberEnd": "27R",
-        "latStart": 52.468365,
-        "lonStart": 9.648273,
-        "latEnd": 52.466826,
-        "lonEnd": 9.704162,
+        "latStart": 52.46834972,
+        "lonStart": 9.64826989,
+        "latEnd": 52.46681213,
+        "lonEnd": 9.70416248,
         "length": 0,
         "surfacetype": 2
       },
@@ -114,8 +75,8 @@
         "surfaceType": 1,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 52.46316948,
-        "lonStart": 9.68290025,
+        "latStart": 52.46314747,
+        "lonStart": 9.68291186,
         "latEnd": null,
         "lonEnd": null,
         "length": 11.9
@@ -126,8 +87,8 @@
         "surfaceType": 1,
         "numberStart": "H2",
         "numberEnd": null,
-        "latStart": 52.46301938,
-        "lonStart": 9.68282337,
+        "latStart": 52.46299737,
+        "lonStart": 9.68283498,
         "latEnd": null,
         "lonEnd": null,
         "length": 11.9
@@ -138,8 +99,8 @@
         "surfaceType": 1,
         "numberStart": "H3",
         "numberEnd": null,
-        "latStart": 52.46287517,
-        "lonStart": 9.68299843,
+        "latStart": 52.46285316,
+        "lonStart": 9.68301004,
         "latEnd": null,
         "lonEnd": null,
         "length": 11.9
@@ -150,8 +111,8 @@
         "surfaceType": 2,
         "numberStart": "H5",
         "numberEnd": null,
-        "latStart": 52.46381546,
-        "lonStart": 9.68479847,
+        "latStart": 52.46379345,
+        "lonStart": 9.68481008,
         "latEnd": null,
         "lonEnd": null,
         "length": 14.6
@@ -162,14 +123,46 @@
         "surfaceType": 1,
         "numberStart": "H4",
         "numberEnd": null,
-        "latStart": 52.46285595,
-        "lonStart": 9.68327569,
+        "latStart": 52.46283394,
+        "lonStart": 9.68328731,
         "latEnd": null,
         "lonEnd": null,
         "length": 13
       }
     ],
-    "id": 11405
+    "id": 1065
+  },
+  {
+    "type": 1,
+    "icao": "EDVH",
+    "lat": 52.76303239,
+    "lon": 9.611882229999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11900,
+        "name": "Hodenhagen Info"
+      }
+    ],
+    "elevation": 78,
+    "tower": true,
+    "name": "Hodenhagen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 52.75956262,
+        "lonStart": 9.60844428,
+        "latEnd": 52.76650216,
+        "lonEnd": 9.61532018,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1374
   },
   {
     "type": 1,
@@ -214,84 +207,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 11829
-  },
-  {
-    "type": 1,
-    "icao": "EDVH",
-    "lat": 52.763058315,
-    "lon": 9.611863487499999,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11900,
-        "name": "Hodenhagen Info"
-      }
-    ],
-    "elevation": 78,
-    "tower": true,
-    "name": "Hodenhagen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 16,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 52.759581,
-        "lonStart": 9.608429,
-        "latEnd": 52.766543,
-        "lonEnd": 9.615309,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 40,
-        "surfaceType": null,
-        "numberStart": "03C",
-        "numberEnd": "21C",
-        "latStart": 52.75956796,
-        "lonStart": 9.60841194,
-        "latEnd": 52.7665413,
-        "lonEnd": 9.61530401,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11913
-  },
-  {
-    "type": 1,
-    "icao": "EDXI",
-    "lat": 52.709719125,
-    "lon": 9.162098,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12200,
-        "name": "Nienburg Info"
-      }
-    ],
-    "elevation": 82,
-    "tower": false,
-    "name": "Nienburg - Holzbalge",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "9",
-        "numberEnd": "27",
-        "latStart": 52.70933325,
-        "lonStart": 9.155881,
-        "latEnd": 52.710105,
-        "lonEnd": 9.168315,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 18321
+    "id": 1379
   },
   {
     "type": 1,
@@ -336,7 +252,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 21494
+    "id": 1383
   },
   {
     "type": 1,
@@ -368,7 +284,83 @@
         "surfacetype": 3
       }
     ],
-    "id": 26275
+    "id": 1409
+  },
+  {
+    "type": 1,
+    "icao": "EDXI",
+    "lat": 52.709719125,
+    "lon": 9.162098,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12200,
+        "name": "Nienburg Info"
+      }
+    ],
+    "elevation": 82,
+    "tower": false,
+    "name": "Nienburg - Holzbalge",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "9",
+        "numberEnd": "27",
+        "latStart": 52.70933325,
+        "lonStart": 9.155881,
+        "latEnd": 52.710105,
+        "lonEnd": 9.168315,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1429
+  },
+  {
+    "type": 1,
+    "icao": "ETHB",
+    "lat": 52.27870726,
+    "lon": 9.08140944,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "Bueckeburg tower"
+      }
+    ],
+    "elevation": 229,
+    "tower": true,
+    "name": "Bueckeburg AB",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 52.27666446,
+        "lonStart": 9.06910084,
+        "latEnd": 52.28019554,
+        "lonEnd": 9.09522021,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 46.8,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 52.27926178,
+        "lonStart": 9.07990727,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 44.7
+      }
+    ],
+    "id": 2060
   },
   {
     "type": 1,
@@ -413,6 +405,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 27594
+    "id": 2083
   }
 ]

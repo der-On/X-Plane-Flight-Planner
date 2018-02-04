@@ -1,6 +1,45 @@
 [
   {
     "type": 1,
+    "icao": "YNBR",
+    "lat": -30.31799286,
+    "lon": 149.8281376375,
+    "communications": [],
+    "elevation": 788,
+    "tower": false,
+    "name": "Narrabri",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -30.314157,
+        "lonStart": 149.827543,
+        "latEnd": -30.32963611,
+        "lonEnd": 149.82346944,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 72.96,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -30.313645,
+        "lonStart": 149.824327,
+        "latEnd": -30.31453333,
+        "lonEnd": 149.83721111,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5598
+  },
+  {
+    "type": 1,
     "icao": "YBAD",
     "lat": -30.95552689,
     "lon": 149.09226718999997,
@@ -29,7 +68,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 2212
+    "id": 32687
   },
   {
     "type": 1,
@@ -55,52 +94,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 18032
-  },
-  {
-    "type": 1,
-    "icao": "YNBR",
-    "lat": -30.317415044999997,
-    "lon": 149.8283049975,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12670,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 788,
-    "tower": false,
-    "name": "Narrabri",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": -30.32752638,
-        "lonStart": 149.82393844,
-        "latEnd": -30.31415697,
-        "lonEnd": 149.82754261,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 92.05,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": -30.31341865,
-        "lonStart": 149.82394036,
-        "latEnd": -30.31455818,
-        "lonEnd": 149.83779858,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 18129
+    "id": 34089
   },
   {
     "type": 1,
@@ -126,7 +120,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 24769
+    "id": 34583
   },
   {
     "type": 1,
@@ -152,6 +146,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 26555
+    "id": 34806
   }
 ]

@@ -1,6 +1,32 @@
 [
   {
     "type": 1,
+    "icao": "WASB",
+    "lat": -2.1012560000000002,
+    "lon": 133.51671,
+    "communications": [],
+    "elevation": 49,
+    "tower": false,
+    "name": "Bintuni/Stenkol (DGAC)",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -2.09940469,
+        "lonStart": 133.51450221,
+        "latEnd": -2.10310731,
+        "lonEnd": 133.51891779,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 31477
+  },
+  {
+    "type": 1,
     "icao": "WASO",
     "lat": -2.5343939974999996,
     "lon": 133.43859369499998,
@@ -47,33 +73,7 @@
         "length": 18.3
       }
     ],
-    "id": 2021
-  },
-  {
-    "type": 1,
-    "icao": "WASB",
-    "lat": -2.1012560000000002,
-    "lon": 133.51671,
-    "communications": [],
-    "elevation": 49,
-    "tower": false,
-    "name": "Bintuni/Stenkol (DGAC)",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": -2.09940469,
-        "lonStart": 133.51450221,
-        "latEnd": -2.10310731,
-        "lonEnd": 133.51891779,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 2740
+    "id": 31484
   },
   {
     "type": 1,
@@ -99,6 +99,6 @@
         "surfacetype": 4
       }
     ],
-    "id": 9758
+    "id": 32170
   }
 ]

@@ -2,23 +2,18 @@
   {
     "type": 1,
     "icao": "MMCZ",
-    "lat": 20.522844499999998,
-    "lon": -86.92814225000001,
+    "lat": 20.522931281666665,
+    "lon": -86.93083041,
     "communications": [
       {
         "type": 54,
-        "frequency": 11810,
+        "frequency": 11800,
         "name": "TWR"
       },
       {
         "type": 55,
-        "frequency": 12040,
+        "frequency": 12110,
         "name": "CANCUN APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12040,
-        "name": "CANCUN ARR"
       },
       {
         "type": 56,
@@ -28,7 +23,7 @@
     ],
     "elevation": 15,
     "tower": true,
-    "name": "Cozumel Intl",
+    "name": "Cozumel International",
     "runways": [
       {
         "type": 100,
@@ -36,10 +31,10 @@
         "surfaceType": null,
         "numberStart": "05",
         "numberEnd": "23",
-        "latStart": 20.522883,
-        "lonStart": -86.9402,
-        "latEnd": 20.538842,
-        "lonEnd": -86.915794,
+        "latStart": 20.52284273,
+        "lonStart": -86.94016799,
+        "latEnd": 20.53922827,
+        "lonEnd": -86.91531368,
         "length": 0,
         "surfacetype": 1
       },
@@ -49,14 +44,38 @@
         "surfaceType": null,
         "numberStart": "11",
         "numberEnd": "29",
-        "latStart": 20.520111,
-        "lonStart": -86.939967,
-        "latEnd": 20.509542,
-        "lonEnd": -86.916608,
+        "latStart": 20.520081,
+        "lonStart": -86.939952,
+        "latEnd": 20.509531,
+        "lonEnd": -86.916581,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 25,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 20.52295475,
+        "lonStart": -86.93632904,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 25
+      },
+      {
+        "type": 102,
+        "width": 25,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 20.52294994,
+        "lonStart": -86.93663875,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 25
       }
     ],
-    "id": 5445
+    "id": 4111
   }
 ]

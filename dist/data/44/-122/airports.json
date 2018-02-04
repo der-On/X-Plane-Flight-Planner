@@ -1,29 +1,47 @@
 [
   {
     "type": 1,
-    "icao": "OG00",
-    "lat": 44.557895,
-    "lon": -121.40143806,
-    "communications": [],
-    "elevation": 2694,
+    "icao": "6K5",
+    "lat": 44.303546616666665,
+    "lon": -121.54043208,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 3168,
     "tower": false,
-    "name": "3 Rivers Recreation Area",
+    "name": "SISTERS EAGLE AIR",
     "runways": [
       {
         "type": 100,
-        "width": 15.24,
+        "width": 18.29,
         "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 44.55532615,
-        "lonStart": -121.41036121,
-        "latEnd": 44.56046385,
-        "lonEnd": -121.39251491,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 44.300861,
+        "lonStart": -121.543573,
+        "latEnd": 44.30825249,
+        "lonEnd": -121.53453892,
         "length": 0,
-        "surfacetype": 4
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 23,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 44.30152636,
+        "lonStart": -121.54318432,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 23.3
       }
     ],
-    "id": 6
+    "id": 220
   },
   {
     "type": 1,
@@ -44,7 +62,7 @@
     ],
     "elevation": 3456,
     "tower": false,
-    "name": "BEND MUNI",
+    "name": "Bend Muni",
     "runways": [
       {
         "type": 100,
@@ -60,286 +78,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 1639
-  },
-  {
-    "type": 1,
-    "icao": "S33",
-    "lat": 44.6715265,
-    "lon": -121.15596175,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 2437,
-    "tower": false,
-    "name": "CITY CO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 44.674031,
-        "lonStart": -121.153386,
-        "latEnd": 44.660078,
-        "lonEnd": -121.153389,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 44.673844,
-        "lonStart": -121.162847,
-        "latEnd": 44.678153,
-        "lonEnd": -121.154225,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 3938
-  },
-  {
-    "type": 1,
-    "icao": "3OR8",
-    "lat": 44.283174439999996,
-    "lon": -121.26920306,
-    "communications": [],
-    "elevation": 2919,
-    "tower": false,
-    "name": "Cline Falls Air Park",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 44.28451398,
-        "lonStart": -121.27463723,
-        "latEnd": 44.2818349,
-        "lonEnd": -121.26376889,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 5099
-  },
-  {
-    "type": 1,
-    "icao": "OR30",
-    "lat": 44.00317277,
-    "lon": -121.27197333999999,
-    "communications": [],
-    "elevation": 3800,
-    "tower": false,
-    "name": "D M Stevenson Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 44.00605115,
-        "lonStart": -121.27211308,
-        "latEnd": 44.00029439,
-        "lonEnd": -121.2718336,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 5626
-  },
-  {
-    "type": 1,
-    "icao": "35OR",
-    "lat": 44.19261972,
-    "lon": -121.17947473000001,
-    "communications": [],
-    "elevation": 3195,
-    "tower": false,
-    "name": "Freight Wagon Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 44.19478148,
-        "lonStart": -121.18069287,
-        "latEnd": 44.19045796,
-        "lonEnd": -121.17825659,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9722
-  },
-  {
-    "type": 1,
-    "icao": "OR29",
-    "lat": 44.11125,
-    "lon": -121.333889,
-    "communications": [],
-    "elevation": 3480,
-    "tower": false,
-    "name": "GOPHER GULCH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 44.115833,
-        "lonStart": -121.333056,
-        "latEnd": 44.106667,
-        "lonEnd": -121.334722,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 10074
-  },
-  {
-    "type": 1,
-    "icao": "5OR5",
-    "lat": 44.03456388,
-    "lon": -121.11835723,
-    "communications": [],
-    "elevation": 3490,
-    "tower": false,
-    "name": "Juniper Air Park",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 44.03381109,
-        "lonStart": -121.12328352,
-        "latEnd": 44.03531667,
-        "lonEnd": -121.11343094,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 13147
-  },
-  {
-    "type": 1,
-    "icao": "5S5",
-    "lat": 44.51928472,
-    "lon": -121.32060028000001,
-    "communications": [],
-    "elevation": 2694,
-    "tower": false,
-    "name": "Lake Billy Chinook State",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 44.52540612,
-        "lonStart": -121.32075014,
-        "latEnd": 44.51316332,
-        "lonEnd": -121.32045042,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 14812
-  },
-  {
-    "type": 1,
-    "icao": "8OR5",
-    "lat": 44.04733972,
-    "lon": -121.27558583999999,
-    "communications": [],
-    "elevation": 3674,
-    "tower": false,
-    "name": "Pilot Butte",
-    "runways": [
-      {
-        "type": 100,
-        "width": 6.1,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 44.0504702,
-        "lonStart": -121.2741707,
-        "latEnd": 44.04420924,
-        "lonEnd": -121.27700098,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 20124
-  },
-  {
-    "type": 1,
-    "icao": "7OR4",
-    "lat": 44.309560829999995,
-    "lon": -121.44282084,
-    "communications": [],
-    "elevation": 3069,
-    "tower": false,
-    "name": "Pineridge Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 91.44,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 44.31321826,
-        "lonStart": -121.44201131,
-        "latEnd": 44.3059034,
-        "lonEnd": -121.44363037,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 20163
-  },
-  {
-    "type": 1,
-    "icao": "OR02",
-    "lat": 44.33567805,
-    "lon": -121.02002889,
-    "communications": [],
-    "elevation": 2600,
-    "tower": false,
-    "name": "River Run Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 7.62,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 44.33673758,
-        "lonStart": -121.02458796,
-        "latEnd": 44.33461852,
-        "lonEnd": -121.01546982,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 21531
+    "id": 2397
   },
   {
     "type": 1,
@@ -381,8 +120,8 @@
         "type": 100,
         "width": 45.72,
         "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
+        "numberStart": "05",
+        "numberEnd": "23",
         "latStart": 44.249508,
         "lonStart": -121.161786,
         "latEnd": 44.259058,
@@ -394,8 +133,8 @@
         "type": 100,
         "width": 30.48,
         "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
+        "numberStart": "11",
+        "numberEnd": "29",
         "latStart": 44.258919,
         "lonStart": -121.161153,
         "latEnd": 44.248778,
@@ -404,39 +143,207 @@
         "surfacetype": 1
       }
     ],
-    "id": 21583
+    "id": 3181
   },
   {
     "type": 1,
-    "icao": "6K5",
-    "lat": 44.3044445,
-    "lon": -121.5391665,
+    "icao": "S33",
+    "lat": 44.6715265,
+    "lon": -121.15596175,
     "communications": [
       {
         "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
       }
     ],
-    "elevation": 3167,
+    "elevation": 2437,
     "tower": false,
-    "name": "SISTERS EAGLE AIR",
+    "name": "Madras Muni",
     "runways": [
       {
         "type": 100,
-        "width": 9.14,
+        "width": 22.86,
         "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 44.300556,
-        "lonStart": -121.543333,
-        "latEnd": 44.308333,
-        "lonEnd": -121.535,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 44.674031,
+        "lonStart": -121.153386,
+        "latEnd": 44.660078,
+        "lonEnd": -121.153389,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 44.673844,
+        "lonStart": -121.162847,
+        "latEnd": 44.678153,
+        "lonEnd": -121.154225,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 22307
+    "id": 4504
+  },
+  {
+    "type": 17,
+    "icao": "0OR4",
+    "lat": 44.6165075,
+    "lon": -121.26782473,
+    "communications": [],
+    "elevation": 2125,
+    "tower": false,
+    "name": "[H] Round Butte",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 44.6165075,
+        "lonStart": -121.26782473,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 6096
+  },
+  {
+    "type": 1,
+    "icao": "3OR8",
+    "lat": 44.283174439999996,
+    "lon": -121.26920306,
+    "communications": [],
+    "elevation": 2919,
+    "tower": false,
+    "name": "Cline Falls Air Park",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 44.28451398,
+        "lonStart": -121.27463723,
+        "latEnd": 44.2818349,
+        "lonEnd": -121.26376889,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 7806
+  },
+  {
+    "type": 1,
+    "icao": "5OR5",
+    "lat": 44.03456388,
+    "lon": -121.11835723,
+    "communications": [],
+    "elevation": 3490,
+    "tower": false,
+    "name": "Juniper Air Park",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 44.03381109,
+        "lonStart": -121.12328352,
+        "latEnd": 44.03531667,
+        "lonEnd": -121.11343094,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 8836
+  },
+  {
+    "type": 1,
+    "icao": "5S5",
+    "lat": 44.51928472,
+    "lon": -121.32060028000001,
+    "communications": [],
+    "elevation": 2694,
+    "tower": false,
+    "name": "Lake Billy Chinook State",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 44.52540612,
+        "lonStart": -121.32075014,
+        "latEnd": 44.51316332,
+        "lonEnd": -121.32045042,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 8880
+  },
+  {
+    "type": 1,
+    "icao": "7OR4",
+    "lat": 44.309560829999995,
+    "lon": -121.44282084,
+    "communications": [],
+    "elevation": 3069,
+    "tower": false,
+    "name": "Pineridge Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 91.44,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 44.31321826,
+        "lonStart": -121.44201131,
+        "latEnd": 44.3059034,
+        "lonEnd": -121.44363037,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9823
+  },
+  {
+    "type": 1,
+    "icao": "8OR5",
+    "lat": 44.04733972,
+    "lon": -121.27558583999999,
+    "communications": [],
+    "elevation": 3674,
+    "tower": false,
+    "name": "Pilot Butte",
+    "runways": [
+      {
+        "type": 100,
+        "width": 6.1,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 44.0504702,
+        "lonStart": -121.2741707,
+        "latEnd": 44.04420924,
+        "lonEnd": -121.27700098,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10287
   },
   {
     "type": 1,
@@ -462,7 +369,58 @@
         "surfacetype": 5
       }
     ],
-    "id": 22946
+    "id": 10323
+  },
+  {
+    "type": 1,
+    "icao": "35OR",
+    "lat": 44.19261972,
+    "lon": -121.17947473000001,
+    "communications": [],
+    "elevation": 3195,
+    "tower": false,
+    "name": "Freight Wagon Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 44.19478148,
+        "lonStart": -121.18069287,
+        "latEnd": 44.19045796,
+        "lonEnd": -121.17825659,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11914
+  },
+  {
+    "type": 17,
+    "icao": "54OR",
+    "lat": 44.06706194,
+    "lon": -121.26891973,
+    "communications": [],
+    "elevation": 3588,
+    "tower": false,
+    "name": "[H] St Charles Medical Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 44.06706194,
+        "lonStart": -121.26891973,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 12657
   },
   {
     "type": 1,
@@ -488,7 +446,136 @@
         "surfacetype": 4
       }
     ],
-    "id": 25225
+    "id": 12928
+  },
+  {
+    "type": 17,
+    "icao": "62OR",
+    "lat": 44.32166666,
+    "lon": -121.19333334,
+    "communications": [],
+    "elevation": 2950,
+    "tower": false,
+    "name": "[H] Cinder Butte",
+    "runways": [
+      {
+        "type": 102,
+        "width": 33.5,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 44.32166666,
+        "lonStart": -121.19333334,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 33.5
+      }
+    ],
+    "id": 12967
+  },
+  {
+    "type": 1,
+    "icao": "OG00",
+    "lat": 44.557895,
+    "lon": -121.40143806,
+    "communications": [],
+    "elevation": 2694,
+    "tower": false,
+    "name": "3 Rivers Recreation Area",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 44.55532615,
+        "lonStart": -121.41036121,
+        "latEnd": 44.56046385,
+        "lonEnd": -121.39251491,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 23208
+  },
+  {
+    "type": 1,
+    "icao": "OR02",
+    "lat": 44.33567805,
+    "lon": -121.02002889,
+    "communications": [],
+    "elevation": 2600,
+    "tower": false,
+    "name": "River Run Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 7.62,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 44.33673758,
+        "lonStart": -121.02458796,
+        "latEnd": 44.33461852,
+        "lonEnd": -121.01546982,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 23637
+  },
+  {
+    "type": 1,
+    "icao": "OR29",
+    "lat": 44.11125,
+    "lon": -121.333889,
+    "communications": [],
+    "elevation": 3480,
+    "tower": false,
+    "name": "GOPHER GULCH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 44.115833,
+        "lonStart": -121.333056,
+        "latEnd": 44.106667,
+        "lonEnd": -121.334722,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 23661
+  },
+  {
+    "type": 1,
+    "icao": "OR30",
+    "lat": 44.00317277,
+    "lon": -121.27197333999999,
+    "communications": [],
+    "elevation": 3800,
+    "tower": false,
+    "name": "D M Stevenson Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 44.00605115,
+        "lonStart": -121.27211308,
+        "latEnd": 44.00029439,
+        "lonEnd": -121.2718336,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23662
   },
   {
     "type": 1,
@@ -514,81 +601,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 27196
-  },
-  {
-    "type": 17,
-    "icao": "62OR",
-    "lat": 44.32166666,
-    "lon": -121.19333334,
-    "communications": [],
-    "elevation": 2950,
-    "tower": false,
-    "name": "[H] Cinder Butte",
-    "runways": [
-      {
-        "type": 102,
-        "width": 33.5,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 44.32166666,
-        "lonStart": -121.19333334,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 33.5
-      }
-    ],
-    "id": 28964
-  },
-  {
-    "type": 17,
-    "icao": "0OR4",
-    "lat": 44.6165075,
-    "lon": -121.26782473,
-    "communications": [],
-    "elevation": 2125,
-    "tower": false,
-    "name": "[H] Round Butte",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 44.6165075,
-        "lonStart": -121.26782473,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 32434
-  },
-  {
-    "type": 17,
-    "icao": "54OR",
-    "lat": 44.06706194,
-    "lon": -121.26891973,
-    "communications": [],
-    "elevation": 3588,
-    "tower": false,
-    "name": "[H] St Charles Medical Center",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 44.06706194,
-        "lonStart": -121.26891973,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 32866
+    "id": 23664
   }
 ]

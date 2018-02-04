@@ -1,6 +1,138 @@
 [
   {
     "type": 1,
+    "icao": "CYSB",
+    "lat": 46.62036031,
+    "lon": -80.800040739,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12740,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12550,
+        "name": "RADIO"
+      },
+      {
+        "type": 52,
+        "frequency": 12180,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 54,
+        "frequency": 13550,
+        "name": "CTR Toronto"
+      }
+    ],
+    "elevation": 1141,
+    "tower": true,
+    "name": "Sudbury",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 46.61753798,
+        "lonStart": -80.80474272,
+        "latEnd": 46.63333934,
+        "lonEnd": -80.79173645,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 46.62907357,
+        "lonStart": -80.80717883,
+        "latEnd": 46.62546257,
+        "lonEnd": -80.78801271,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 29,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 46.61608055,
+        "lonStart": -80.80187649,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29
+      },
+      {
+        "type": 102,
+        "width": 29,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 46.61627171,
+        "lonStart": -80.80158243,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29
+      },
+      {
+        "type": 102,
+        "width": 29,
+        "surfaceType": 1,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 46.61645549,
+        "lonStart": -80.80130012,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29
+      },
+      {
+        "type": 102,
+        "width": 29,
+        "surfaceType": 1,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 46.61665229,
+        "lonStart": -80.80104521,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29
+      },
+      {
+        "type": 102,
+        "width": 29,
+        "surfaceType": 1,
+        "numberStart": "H5",
+        "numberEnd": null,
+        "latStart": 46.61683702,
+        "lonStart": -80.8007675,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29
+      },
+      {
+        "type": 102,
+        "width": 29,
+        "surfaceType": 1,
+        "numberStart": "H6",
+        "numberEnd": null,
+        "latStart": 46.61589258,
+        "lonStart": -80.80216493,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29
+      }
+    ],
+    "id": 832
+  },
+  {
+    "type": 1,
     "icao": "CPX4",
     "lat": 46.194790749999996,
     "lon": -80.31112387249999,
@@ -36,139 +168,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 18453
-  },
-  {
-    "type": 1,
-    "icao": "CYSB",
-    "lat": 46.620459630000006,
-    "lon": -80.800349865,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12740,
-        "name": "ATIS"
-      },
-      {
-        "type": 51,
-        "frequency": 12550,
-        "name": "RADIO"
-      },
-      {
-        "type": 52,
-        "frequency": 12180,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 54,
-        "frequency": 13550,
-        "name": "CTR Toronto"
-      }
-    ],
-    "elevation": 1141,
-    "tower": true,
-    "name": "SUDBURY",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 46.6176373,
-        "lonStart": -80.80505177,
-        "latEnd": 46.63343866,
-        "lonEnd": -80.7920455,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 46.62917289,
-        "lonStart": -80.80748799,
-        "latEnd": 46.62556189,
-        "lonEnd": -80.78832187,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 29,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 46.61617987,
-        "lonStart": -80.80218563,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 29
-      },
-      {
-        "type": 102,
-        "width": 29,
-        "surfaceType": 1,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 46.61637103,
-        "lonStart": -80.80189157,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 29
-      },
-      {
-        "type": 102,
-        "width": 29,
-        "surfaceType": 1,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 46.61655481,
-        "lonStart": -80.80160926,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 29
-      },
-      {
-        "type": 102,
-        "width": 29,
-        "surfaceType": 1,
-        "numberStart": "H4",
-        "numberEnd": null,
-        "latStart": 46.61675161,
-        "lonStart": -80.80135435,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 29
-      },
-      {
-        "type": 102,
-        "width": 29,
-        "surfaceType": 1,
-        "numberStart": "H5",
-        "numberEnd": null,
-        "latStart": 46.61693634,
-        "lonStart": -80.80107664,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 29
-      },
-      {
-        "type": 102,
-        "width": 29,
-        "surfaceType": 1,
-        "numberStart": "H6",
-        "numberEnd": null,
-        "latStart": 46.6159919,
-        "lonStart": -80.80247407,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 29
-      }
-    ],
-    "id": 22574
+    "id": 15565
   },
   {
     "type": 16,
@@ -193,7 +193,7 @@
         "length": 0
       }
     ],
-    "id": 34295
+    "id": 15689
   },
   {
     "type": 16,
@@ -218,6 +218,6 @@
         "length": 0
       }
     ],
-    "id": 34537
+    "id": 15693
   }
 ]

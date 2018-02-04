@@ -1,6 +1,32 @@
 [
   {
     "type": 1,
+    "icao": "SSBD",
+    "lat": -29.39638889,
+    "lon": -52.99166667,
+    "communications": [],
+    "elevation": 1444,
+    "tower": false,
+    "name": "Sobradinho",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": -29.39948928,
+        "lonStart": -52.99140741,
+        "latEnd": -29.3932885,
+        "lonEnd": -52.99192593,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 28339
+  },
+  {
+    "type": 1,
     "icao": "SSRY",
     "lat": -29.97277778,
     "lon": -52.361111109999996,
@@ -23,7 +49,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 21508
+    "id": 28750
   },
   {
     "type": 1,
@@ -49,33 +75,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 22890
-  },
-  {
-    "type": 1,
-    "icao": "SSBD",
-    "lat": -29.39638889,
-    "lon": -52.99166667,
-    "communications": [],
-    "elevation": 1444,
-    "tower": false,
-    "name": "Sobradinho",
-    "runways": [
-      {
-        "type": 100,
-        "width": 39.93,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": -29.39948928,
-        "lonStart": -52.99140741,
-        "latEnd": -29.3932885,
-        "lonEnd": -52.99192593,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 23794
+    "id": 28754
   },
   {
     "type": 1,
@@ -101,6 +101,6 @@
         "surfacetype": 2
       }
     ],
-    "id": 26259
+    "id": 28842
   }
 ]

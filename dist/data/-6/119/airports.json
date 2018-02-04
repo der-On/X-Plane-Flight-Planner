@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "WAAA",
-    "lat": -5.0616305,
-    "lon": 119.55404300000001,
+    "lat": -5.0708956675,
+    "lon": 119.5525326125,
     "communications": [
       {
         "type": 50,
@@ -24,12 +24,30 @@
         "type": 55,
         "frequency": 12060,
         "name": "UJUNG PANDANG APP"
+      },
+      {
+        "type": 53,
+        "frequency": 12160,
+        "name": "Hasanuddin Ground"
       }
     ],
-    "elevation": 47,
+    "elevation": 45,
     "tower": true,
     "name": "Ujung Pandang Hasanuddin",
     "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -5.09228611,
+        "lonStart": 119.54403056,
+        "latEnd": -5.06803556,
+        "lonEnd": 119.55801389,
+        "length": 0,
+        "surfacetype": 1
+      },
       {
         "type": 100,
         "width": 45.11,
@@ -44,6 +62,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 25886
+    "id": 5239
   }
 ]

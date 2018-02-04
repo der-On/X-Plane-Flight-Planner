@@ -2,33 +2,18 @@
   {
     "type": 1,
     "icao": "EGAA",
-    "lat": 54.653827607500006,
-    "lon": -6.2201611224999995,
+    "lat": 54.65067947285714,
+    "lon": -6.2249223957142865,
     "communications": [
-      {
-        "type": 50,
-        "frequency": 12819,
-        "name": "ATIS"
-      },
       {
         "type": 50,
         "frequency": 12820,
         "name": "ATIS"
       },
       {
-        "type": 53,
-        "frequency": 12175,
-        "name": "GND"
-      },
-      {
         "type": 54,
         "frequency": 11830,
         "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12880,
-        "name": "unnamed entity"
       },
       {
         "type": 55,
@@ -51,10 +36,10 @@
         "surfaceType": null,
         "numberStart": "07",
         "numberEnd": "25",
-        "latStart": 54.652256,
+        "latStart": 54.65225343,
         "lonStart": -6.235239,
-        "latEnd": 54.66257643,
-        "lonEnd": -6.19679749,
+        "latEnd": 54.66281004,
+        "lonEnd": -6.19604085,
         "length": 0,
         "surfacetype": 1
       },
@@ -64,15 +49,51 @@
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 54.657922,
-        "lonStart": -6.228622,
-        "latEnd": 54.642556,
-        "lonEnd": -6.219986,
+        "latStart": 54.65792222,
+        "lonStart": -6.22862222,
+        "latEnd": 54.64176224,
+        "lonEnd": -6.21954857,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 17,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 54.64682885,
+        "lonStart": -6.23149461,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 17
+      },
+      {
+        "type": 102,
+        "width": 17,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 54.646667,
+        "lonStart": -6.23166987,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 17
+      },
+      {
+        "type": 102,
+        "width": 17,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 54.64651253,
+        "lonStart": -6.23184165,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 17
       }
     ],
-    "id": 2480
+    "id": 1491
   },
   {
     "type": 1,
@@ -98,7 +119,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 17654
+    "id": 16276
   },
   {
     "type": 1,
@@ -137,6 +158,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 34570
+    "id": 16291
   }
 ]

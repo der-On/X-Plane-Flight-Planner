@@ -1,120 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "CL25",
-    "lat": 34.93552916,
-    "lon": -119.45178695,
-    "communications": [],
-    "elevation": 3175,
-    "tower": false,
-    "name": "7R Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 34.93733144,
-        "lonStart": -119.45504628,
-        "latEnd": 34.93372688,
-        "lonEnd": -119.44852762,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 19
-  },
-  {
-    "type": 1,
-    "icao": "KCMA",
-    "lat": 34.213744985000005,
-    "lon": -119.09383632000001,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12602,
-        "name": "ATIS"
-      },
-      {
-        "type": 51,
-        "frequency": 12820,
-        "name": "CTAF"
-      },
-      {
-        "type": 52,
-        "frequency": 12075,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 52,
-        "frequency": 12180,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 53,
-        "frequency": 12180,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12820,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12470,
-        "name": "PT MUGU APP/DEP"
-      }
-    ],
-    "elevation": 77,
-    "tower": true,
-    "name": "CAMARILLO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 46.02,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 34.21382572,
-        "lonStart": -119.10380841,
-        "latEnd": 34.21366425,
-        "lonEnd": -119.08386423,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 3564
-  },
-  {
-    "type": 1,
-    "icao": "CA97",
-    "lat": 34.01972611,
-    "lon": -119.85290667000001,
-    "communications": [],
-    "elevation": 250,
-    "tower": false,
-    "name": "Christy Airstrip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 34.02055758,
-        "lonStart": -119.85693018,
-        "latEnd": 34.01889464,
-        "lonEnd": -119.84888316,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 4972
-  },
-  {
-    "type": 1,
     "icao": "02CL",
     "lat": 34.75841018375,
     "lon": -119.06314492,
@@ -176,71 +62,115 @@
         "surfacetype": 4
       }
     ],
-    "id": 5269
+    "id": 77
   },
   {
     "type": 1,
-    "icao": "3CA3",
-    "lat": 34.92219694,
-    "lon": -119.52595722999999,
+    "icao": "CA97",
+    "lat": 34.019836285,
+    "lon": -119.85274041,
     "communications": [],
-    "elevation": 2440,
+    "elevation": 250,
     "tower": false,
-    "name": "Dixon",
+    "name": "Christy Airstrip",
     "runways": [
       {
         "type": 100,
         "width": 15.24,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 34.92574045,
-        "lonStart": -119.52565503,
-        "latEnd": 34.91865343,
-        "lonEnd": -119.52625943,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 34.01941742,
+        "lonStart": -119.85685623,
+        "latEnd": 34.02025515,
+        "lonEnd": -119.84862459,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 639
+  },
+  {
+    "type": 1,
+    "icao": "CL25",
+    "lat": 34.935513095000005,
+    "lon": -119.45176292,
+    "communications": [],
+    "elevation": 3174,
+    "tower": false,
+    "name": "7R Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 13,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 34.93726489,
+        "lonStart": -119.45519589,
+        "latEnd": 34.9337613,
+        "lonEnd": -119.44832995,
         "length": 0,
         "surfacetype": 4
       }
     ],
-    "id": 6320
+    "id": 680
   },
   {
     "type": 1,
-    "icao": "L88",
-    "lat": 34.939954745,
-    "lon": -119.685617555,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 2203,
-    "tower": false,
-    "name": "NEW CUYAMA",
+    "icao": "KCMA",
+    "lat": 34.2144273425,
+    "lon": -119.092977755,
+    "communications": [],
+    "elevation": 77,
+    "tower": true,
+    "name": "Camarillo",
     "runways": [
       {
         "type": 100,
-        "width": 18.29,
+        "width": 45.72,
         "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 34.94238449,
-        "lonStart": -119.69156403,
-        "latEnd": 34.937525,
-        "lonEnd": -119.67967108,
+        "numberStart": "8",
+        "numberEnd": "26",
+        "latStart": 34.21383916,
+        "lonStart": -119.10430433,
+        "latEnd": 34.2136806,
+        "lonEnd": -119.0844187,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 34.21509197,
+        "lonStart": -119.09124983,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      },
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 34.21509764,
+        "lonStart": -119.09193816,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
       }
     ],
-    "id": 17907
+    "id": 2503
   },
   {
     "type": 1,
     "icao": "KOXR",
-    "lat": 34.200805020000004,
-    "lon": -119.20722563999999,
+    "lat": 34.200801874999996,
+    "lon": -119.207239675,
     "communications": [
       {
         "type": 50,
@@ -280,13 +210,473 @@
         "numberEnd": "25",
         "latStart": 34.20087367,
         "lonStart": -119.2171011,
-        "latEnd": 34.20073637,
-        "lonEnd": -119.19735018,
+        "latEnd": 34.20073008,
+        "lonEnd": -119.19737825,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 19140
+    "id": 3095
+  },
+  {
+    "type": 1,
+    "icao": "KSBA",
+    "lat": 34.427766743333336,
+    "lon": -119.83897289444447,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13265,
+        "name": "KSBA ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 11970,
+        "name": "SANTA BARBARA CTAF"
+      },
+      {
+        "type": 52,
+        "frequency": 13290,
+        "name": "SANTA BARBARA CLD"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "SANTA BARBARA GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11970,
+        "name": "SANTA BARBARA TWR"
+      }
+    ],
+    "elevation": 13,
+    "tower": true,
+    "name": "Santa Barbara Mun",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 34.4274959,
+        "lonStart": -119.85467698,
+        "latEnd": 34.4279159,
+        "lonEnd": -119.83459298,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "15R",
+        "numberEnd": "33L",
+        "latStart": 34.43052316,
+        "lonStart": -119.84153889,
+        "latEnd": 34.41940716,
+        "lonEnd": -119.83810689,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "15L",
+        "numberEnd": "33R",
+        "latStart": 34.43078056,
+        "lonStart": -119.84036944,
+        "latEnd": 34.41965621,
+        "lonEnd": -119.83695222,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 15.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.43112784,
+        "lonStart": -119.83483178,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.3
+      },
+      {
+        "type": 102,
+        "width": 15.1,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 34.43137421,
+        "lonStart": -119.83483947,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.3
+      },
+      {
+        "type": 102,
+        "width": 14.8,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 34.43161975,
+        "lonStart": -119.8348474,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.9
+      }
+    ],
+    "id": 3232
+  },
+  {
+    "type": 1,
+    "icao": "KSZP",
+    "lat": 34.346929063333334,
+    "lon": -119.06140461333332,
+    "communications": [],
+    "elevation": 245,
+    "tower": false,
+    "name": "Santa Paula",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 34.34496963,
+        "lonStart": -119.06545107,
+        "latEnd": 34.34897659,
+        "lonEnd": -119.05788017,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 20.7,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.34684097,
+        "lonStart": -119.0608826,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21.7
+      }
+    ],
+    "id": 3313
+  },
+  {
+    "type": 1,
+    "icao": "L88",
+    "lat": 34.939975219999994,
+    "lon": -119.68565139,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 2203,
+    "tower": true,
+    "name": "New Cuyama",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 34.94239242,
+        "lonStart": -119.69156519,
+        "latEnd": 34.93755802,
+        "lonEnd": -119.67973759,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3454
+  },
+  {
+    "type": 17,
+    "icao": "2CL6",
+    "lat": 34.21667138,
+    "lon": -119.15788417,
+    "communications": [],
+    "elevation": 76,
+    "tower": false,
+    "name": "[H] St Johns Regional Medical Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.21667138,
+        "lonStart": -119.15788417,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 6915
+  },
+  {
+    "type": 1,
+    "icao": "3CA3",
+    "lat": 34.92219694,
+    "lon": -119.52595722999999,
+    "communications": [],
+    "elevation": 2440,
+    "tower": false,
+    "name": "Dixon",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 34.92574045,
+        "lonStart": -119.52565503,
+        "latEnd": 34.91865343,
+        "lonEnd": -119.52625943,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 7465
+  },
+  {
+    "type": 17,
+    "icao": "3CL9",
+    "lat": 34.28805555,
+    "lon": -119.16899445,
+    "communications": [],
+    "elevation": 271,
+    "tower": false,
+    "name": "[H] Sce Northern Division",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.28805555,
+        "lonStart": -119.16899445,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 7476
+  },
+  {
+    "type": 17,
+    "icao": "6L8",
+    "lat": 34.33110833,
+    "lon": -119.60429306,
+    "communications": [],
+    "elevation": 98,
+    "tower": false,
+    "name": "[H] Platform Hillhouse",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.33110833,
+        "lonStart": -119.60429306,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 9182
+  },
+  {
+    "type": 17,
+    "icao": "8CA7",
+    "lat": 34.33305222,
+    "lon": -119.56123556,
+    "communications": [],
+    "elevation": 110,
+    "tower": false,
+    "name": "[H] Platform Henry",
+    "runways": [
+      {
+        "type": 102,
+        "width": 16.8,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.33305222,
+        "lonStart": -119.56123556,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 17.7
+      }
+    ],
+    "id": 10010
+  },
+  {
+    "type": 17,
+    "icao": "9L5",
+    "lat": 34.3897175,
+    "lon": -119.90597139,
+    "communications": [],
+    "elevation": 86,
+    "tower": false,
+    "name": "[H] Platform Holly",
+    "runways": [
+      {
+        "type": 102,
+        "width": 13.7,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.3897175,
+        "lonStart": -119.90597139,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.7
+      }
+    ],
+    "id": 10588
+  },
+  {
+    "type": 17,
+    "icao": "13L",
+    "lat": 34.43027222,
+    "lon": -119.91208362,
+    "communications": [],
+    "elevation": 15,
+    "tower": false,
+    "name": "[H] Elwood Onshore Facility",
+    "runways": [
+      {
+        "type": 102,
+        "width": 10.7,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.43027222,
+        "lonStart": -119.91208362,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.7
+      }
+    ],
+    "id": 11017
+  },
+  {
+    "type": 17,
+    "icao": "49CA",
+    "lat": 34.28666472,
+    "lon": -119.58901417,
+    "communications": [],
+    "elevation": 88,
+    "tower": false,
+    "name": "[H] Texaco Platform Habitat",
+    "runways": [
+      {
+        "type": 102,
+        "width": 14.6,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.28666472,
+        "lonStart": -119.58901417,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.6
+      }
+    ],
+    "id": 12430
+  },
+  {
+    "type": 17,
+    "icao": "CA72",
+    "lat": 34.27472222,
+    "lon": -119.25694445,
+    "communications": [],
+    "elevation": 173,
+    "tower": false,
+    "name": "[H] Community Memorial Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 23.5,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.27472222,
+        "lonStart": -119.25694445,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.3
+      }
+    ],
+    "id": 15056
+  },
+  {
+    "type": 17,
+    "icao": "CA96",
+    "lat": 34.4336075,
+    "lon": -119.80958278,
+    "communications": [],
+    "elevation": 43,
+    "tower": false,
+    "name": "[H] Goleta Valley Community Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.8,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.4336075,
+        "lonStart": -119.80958278,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.8
+      }
+    ],
+    "id": 15077
+  },
+  {
+    "type": 17,
+    "icao": "CL73",
+    "lat": 34.20222666,
+    "lon": -119.20288528,
+    "communications": [],
+    "elevation": 41,
+    "tower": false,
+    "name": "[H] Rotor-Aids Maintenance Hangar",
+    "runways": [
+      {
+        "type": 102,
+        "width": 19.8,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.20222666,
+        "lonStart": -119.20288528,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19.8
+      }
+    ],
+    "id": 15422
   },
   {
     "type": 1,
@@ -346,121 +736,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 20305
-  },
-  {
-    "type": 1,
-    "icao": "KSBA",
-    "lat": 34.427506684444445,
-    "lon": -119.83899708444444,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13265,
-        "name": "KSBA ATIS"
-      },
-      {
-        "type": 51,
-        "frequency": 11970,
-        "name": "SANTA BARBARA CTAF"
-      },
-      {
-        "type": 52,
-        "frequency": 13290,
-        "name": "SANTA BARBARA CLD"
-      },
-      {
-        "type": 53,
-        "frequency": 12170,
-        "name": "SANTA BARBARA GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11970,
-        "name": "SANTA BARBARA TWR"
-      }
-    ],
-    "elevation": 13,
-    "tower": true,
-    "name": "Santa Barbara Mun",
-    "runways": [
-      {
-        "type": 100,
-        "width": 46.02,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 34.42723788,
-        "lonStart": -119.85469996,
-        "latEnd": 34.42765788,
-        "lonEnd": -119.83461596,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "15R",
-        "numberEnd": "33L",
-        "latStart": 34.43026514,
-        "lonStart": -119.84156189,
-        "latEnd": 34.41914914,
-        "lonEnd": -119.83812989,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "15L",
-        "numberEnd": "33R",
-        "latStart": 34.43050419,
-        "lonStart": -119.84040322,
-        "latEnd": 34.41939819,
-        "lonEnd": -119.83697522,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 15.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 34.43086982,
-        "lonStart": -119.83485477,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.3
-      },
-      {
-        "type": 102,
-        "width": 15.1,
-        "surfaceType": 2,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 34.43111619,
-        "lonStart": -119.83486246,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.3
-      },
-      {
-        "type": 102,
-        "width": 14.8,
-        "surfaceType": 2,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 34.43136173,
-        "lonStart": -119.83487039,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 14.9
-      }
-    ],
-    "id": 22885
+    "id": 19585
   },
   {
     "type": 1,
@@ -486,294 +762,6 @@
         "surfacetype": 4
       }
     ],
-    "id": 22891
-  },
-  {
-    "type": 1,
-    "icao": "KSZP",
-    "lat": 34.346929063333334,
-    "lon": -119.06140461333332,
-    "communications": [],
-    "elevation": 245,
-    "tower": false,
-    "name": "Santa Paula",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 34.34496963,
-        "lonStart": -119.06545107,
-        "latEnd": 34.34897659,
-        "lonEnd": -119.05788017,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 20.7,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 34.34684097,
-        "lonStart": -119.0608826,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21.7
-      }
-    ],
-    "id": 22917
-  },
-  {
-    "type": 17,
-    "icao": "CA72",
-    "lat": 34.27472222,
-    "lon": -119.25694445,
-    "communications": [],
-    "elevation": 173,
-    "tower": false,
-    "name": "[H] Community Memorial Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 23.5,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 34.27472222,
-        "lonStart": -119.25694445,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 29.3
-      }
-    ],
-    "id": 29091
-  },
-  {
-    "type": 17,
-    "icao": "13L",
-    "lat": 34.43027222,
-    "lon": -119.91208362,
-    "communications": [],
-    "elevation": 15,
-    "tower": false,
-    "name": "[H] Elwood Onshore Facility",
-    "runways": [
-      {
-        "type": 102,
-        "width": 10.7,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 34.43027222,
-        "lonStart": -119.91208362,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.7
-      }
-    ],
-    "id": 29535
-  },
-  {
-    "type": 17,
-    "icao": "CA96",
-    "lat": 34.4336075,
-    "lon": -119.80958278,
-    "communications": [],
-    "elevation": 43,
-    "tower": false,
-    "name": "[H] Goleta Valley Community Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.8,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 34.4336075,
-        "lonStart": -119.80958278,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.8
-      }
-    ],
-    "id": 29956
-  },
-  {
-    "type": 17,
-    "icao": "8CA7",
-    "lat": 34.33305222,
-    "lon": -119.56123556,
-    "communications": [],
-    "elevation": 110,
-    "tower": false,
-    "name": "[H] Platform Henry",
-    "runways": [
-      {
-        "type": 102,
-        "width": 16.8,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 34.33305222,
-        "lonStart": -119.56123556,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 17.7
-      }
-    ],
-    "id": 32053
-  },
-  {
-    "type": 17,
-    "icao": "6L8",
-    "lat": 34.33110833,
-    "lon": -119.60429306,
-    "communications": [],
-    "elevation": 98,
-    "tower": false,
-    "name": "[H] Platform Hillhouse",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 34.33110833,
-        "lonStart": -119.60429306,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 32055
-  },
-  {
-    "type": 17,
-    "icao": "9L5",
-    "lat": 34.3897175,
-    "lon": -119.90597139,
-    "communications": [],
-    "elevation": 86,
-    "tower": false,
-    "name": "[H] Platform Holly",
-    "runways": [
-      {
-        "type": 102,
-        "width": 13.7,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 34.3897175,
-        "lonStart": -119.90597139,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 13.7
-      }
-    ],
-    "id": 32056
-  },
-  {
-    "type": 17,
-    "icao": "CL73",
-    "lat": 34.20222666,
-    "lon": -119.20288528,
-    "communications": [],
-    "elevation": 41,
-    "tower": false,
-    "name": "[H] Rotor-Aids Maintenance Hangar",
-    "runways": [
-      {
-        "type": 102,
-        "width": 19.8,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 34.20222666,
-        "lonStart": -119.20288528,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.8
-      }
-    ],
-    "id": 32431
-  },
-  {
-    "type": 17,
-    "icao": "3CL9",
-    "lat": 34.28805555,
-    "lon": -119.16899445,
-    "communications": [],
-    "elevation": 271,
-    "tower": false,
-    "name": "[H] Sce Northern Division",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 34.28805555,
-        "lonStart": -119.16899445,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 32586
-  },
-  {
-    "type": 17,
-    "icao": "2CL6",
-    "lat": 34.21667138,
-    "lon": -119.15788417,
-    "communications": [],
-    "elevation": 76,
-    "tower": false,
-    "name": "[H] St Johns Regional Medical Center",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 34.21667138,
-        "lonStart": -119.15788417,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 32909
-  },
-  {
-    "type": 17,
-    "icao": "49CA",
-    "lat": 34.28666472,
-    "lon": -119.58901417,
-    "communications": [],
-    "elevation": 88,
-    "tower": false,
-    "name": "[H] Texaco Platform Habitat",
-    "runways": [
-      {
-        "type": 102,
-        "width": 14.6,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 34.28666472,
-        "lonStart": -119.58901417,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 14.6
-      }
-    ],
-    "id": 33266
+    "id": 19869
   }
 ]

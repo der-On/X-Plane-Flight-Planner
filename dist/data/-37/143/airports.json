@@ -1,35 +1,9 @@
 [
   {
     "type": 1,
-    "icao": "YUNG",
-    "lat": -36.265484154999996,
-    "lon": 143.78527479500002,
-    "communications": [],
-    "elevation": 363,
-    "tower": false,
-    "name": "BORUNG",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "7",
-        "numberEnd": "25",
-        "latStart": -36.26659957,
-        "lonStart": 143.78104497,
-        "latEnd": -36.26436874,
-        "lonEnd": 143.78950462,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 1848
-  },
-  {
-    "type": 1,
     "icao": "YBBT",
-    "lat": -36.13785959,
-    "lon": 143.72207662333332,
+    "lat": -36.137669890000005,
+    "lon": 143.72235561666665,
     "communications": [
       {
         "type": 51,
@@ -43,37 +17,37 @@
     "runways": [
       {
         "type": 100,
-        "width": 30,
+        "width": 30.35,
         "surfaceType": null,
         "numberStart": "10",
         "numberEnd": "28",
-        "latStart": -36.13674182,
-        "lonStart": 143.71669419,
-        "latEnd": -36.1403911,
-        "lonEnd": 143.72768462,
+        "latStart": -36.13653924,
+        "lonStart": 143.7169022,
+        "latEnd": -36.14023057,
+        "lonEnd": 143.72803756,
         "length": 0,
         "surfacetype": 3
       },
       {
         "type": 102,
-        "width": 12,
+        "width": 12.2,
         "surfaceType": 2,
-        "numberStart": "H24",
+        "numberStart": "H1",
         "numberEnd": null,
-        "latStart": -36.13644585,
-        "lonStart": 143.72185106,
+        "latStart": -36.13623986,
+        "lonStart": 143.72212709,
         "latEnd": null,
         "lonEnd": null,
-        "length": 12
+        "length": 12.1
       }
     ],
-    "id": 2995
+    "id": 32704
   },
   {
     "type": 1,
     "icao": "YBGR",
-    "lat": -36.620564792500005,
-    "lon": 143.95135404,
+    "lat": -36.62054817,
+    "lon": 143.9512792475,
     "communications": [
       {
         "type": 51,
@@ -91,10 +65,10 @@
         "surfaceType": null,
         "numberStart": "09",
         "numberEnd": "27",
-        "latStart": -36.61946207,
-        "lonStart": 143.94703199,
-        "latEnd": -36.6194509,
-        "lonEnd": 143.9595829,
+        "latStart": -36.61941817,
+        "lonStart": 143.94695512,
+        "latEnd": -36.61944337,
+        "lonEnd": 143.9595088,
         "length": 0,
         "surfacetype": 4
       },
@@ -104,15 +78,15 @@
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": -36.61842956,
-        "lonStart": 143.94911475,
-        "latEnd": -36.62491664,
-        "lonEnd": 143.94968652,
+        "latStart": -36.61842203,
+        "lonStart": 143.94904065,
+        "latEnd": -36.62490911,
+        "lonEnd": 143.94961242,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 3187
+    "id": 32749
   },
   {
     "type": 1,
@@ -144,7 +118,39 @@
         "surfacetype": 1
       }
     ],
-    "id": 4820
+    "id": 32962
+  },
+  {
+    "type": 1,
+    "icao": "YDLL",
+    "lat": -36.849998,
+    "lon": 143.699997,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12670,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 718,
+    "tower": false,
+    "name": "Dunolly",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -36.84845943,
+        "lonStart": 143.69471438,
+        "latEnd": -36.85153657,
+        "lonEnd": 143.70527962,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 33141
   },
   {
     "type": 1,
@@ -189,39 +195,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 5841
-  },
-  {
-    "type": 1,
-    "icao": "YDLL",
-    "lat": -36.849998,
-    "lon": 143.699997,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12670,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 718,
-    "tower": false,
-    "name": "Dunolly",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": -36.84845943,
-        "lonStart": 143.69471438,
-        "latEnd": -36.85153657,
-        "lonEnd": 143.70527962,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 6569
+    "id": 33160
   },
   {
     "type": 1,
@@ -253,13 +227,13 @@
         "surfacetype": 3
       }
     ],
-    "id": 18159
+    "id": 34092
   },
   {
     "type": 1,
     "icao": "YSTA",
-    "lat": -36.642798442499995,
-    "lon": 143.1821883475,
+    "lat": -36.6428172925,
+    "lon": 143.1823326675,
     "communications": [
       {
         "type": 51,
@@ -277,10 +251,10 @@
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": -36.63642889,
-        "lonStart": 143.18504557,
-        "latEnd": -36.64546911,
-        "lonEnd": 143.18362626,
+        "latStart": -36.63644774,
+        "lonStart": 143.18518989,
+        "latEnd": -36.64548796,
+        "lonEnd": 143.18377058,
         "length": 0,
         "surfacetype": 1
       },
@@ -290,21 +264,47 @@
         "surfaceType": null,
         "numberStart": "09",
         "numberEnd": "27",
-        "latStart": -36.64428182,
-        "lonStart": 143.17646808,
-        "latEnd": -36.64501395,
-        "lonEnd": 143.18361348,
+        "latStart": -36.64430067,
+        "lonStart": 143.1766124,
+        "latEnd": -36.6450328,
+        "lonEnd": 143.1837578,
         "length": 0,
         "surfacetype": 4
       }
     ],
-    "id": 22689
+    "id": 34463
+  },
+  {
+    "type": 1,
+    "icao": "YUNG",
+    "lat": -36.265484154999996,
+    "lon": 143.78527479500002,
+    "communications": [],
+    "elevation": 363,
+    "tower": false,
+    "name": "BORUNG",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "7",
+        "numberEnd": "25",
+        "latStart": -36.26659957,
+        "lonStart": 143.78104497,
+        "latEnd": -36.26436874,
+        "lonEnd": 143.78950462,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 34633
   },
   {
     "type": 1,
     "icao": "YWYF",
     "lat": -36.058915812500004,
-    "lon": 143.24029273000002,
+    "lon": 143.24029518,
     "communications": [],
     "elevation": 350,
     "tower": false,
@@ -317,9 +317,9 @@
         "numberStart": "08",
         "numberEnd": "26",
         "latStart": -36.05889585,
-        "lonStart": 143.23398028,
+        "lonStart": 143.23398273,
         "latEnd": -36.05891384,
-        "lonEnd": 143.24194653,
+        "lonEnd": 143.24194898,
         "length": 0,
         "surfacetype": 3
       },
@@ -330,13 +330,13 @@
         "numberStart": "17",
         "numberEnd": "35",
         "latStart": -36.05429719,
-        "lonStart": 143.24265204,
+        "lonStart": 143.24265449,
         "latEnd": -36.06355637,
-        "lonEnd": 143.24259207,
+        "lonEnd": 143.24259452,
         "length": 0,
         "surfacetype": 15
       }
     ],
-    "id": 27605
+    "id": 34817
   }
 ]

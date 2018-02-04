@@ -1,6 +1,32 @@
 [
   {
     "type": 1,
+    "icao": "VIV",
+    "lat": -9.3035107,
+    "lon": 150.3190346,
+    "communications": [],
+    "elevation": 73,
+    "tower": true,
+    "name": "Vivigani",
+    "runways": [
+      {
+        "type": 100,
+        "width": 42.06,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -9.29754184,
+        "lonStart": 150.31331489,
+        "latEnd": -9.30947956,
+        "lonEnd": 150.32475431,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 5160
+  },
+  {
+    "type": 1,
     "icao": "ESA",
     "lat": -9.8744568,
     "lon": 150.95432385499998,
@@ -29,7 +55,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 7266
+    "id": 16685
   },
   {
     "type": 1,
@@ -61,7 +87,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 12382
+    "id": 18499
   },
   {
     "type": 1,
@@ -93,48 +119,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 22733
-  },
-  {
-    "type": 1,
-    "icao": "VIV",
-    "lat": -9.3035107,
-    "lon": 150.3190346,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12350,
-        "name": "VIV ATIS"
-      },
-      {
-        "type": 53,
-        "frequency": 12165,
-        "name": "VIVIGANI GND"
-      },
-      {
-        "type": 54,
-        "frequency": 13280,
-        "name": "VIVIGANI TWR"
-      }
-    ],
-    "elevation": 73,
-    "tower": true,
-    "name": "Vivigani",
-    "runways": [
-      {
-        "type": 100,
-        "width": 42.06,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": -9.29754184,
-        "lonStart": 150.31331489,
-        "latEnd": -9.30947956,
-        "lonEnd": 150.32475431,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 26384
+    "id": 25031
   }
 ]

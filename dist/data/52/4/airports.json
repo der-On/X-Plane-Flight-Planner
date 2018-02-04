@@ -1,29 +1,150 @@
 [
   {
     "type": 1,
-    "icao": "EHBX",
-    "lat": 52.4845009,
-    "lon": 4.6071901,
-    "communications": [],
-    "elevation": 9,
-    "tower": false,
-    "name": "Beverwijk Hospital",
+    "icao": "EHAM",
+    "lat": 52.314876950000006,
+    "lon": 4.758100328333334,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 11905,
+        "name": "APP"
+      },
+      {
+        "type": 56,
+        "frequency": 12120,
+        "name": "DEP"
+      },
+      {
+        "type": 54,
+        "frequency": 11922,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TWR 18C/36C"
+      },
+      {
+        "type": 54,
+        "frequency": 11990,
+        "name": "TWR 06/24"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "GND"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 52,
+        "frequency": 12197,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 50,
+        "frequency": 13298,
+        "name": "ATIS ARR"
+      },
+      {
+        "type": 50,
+        "frequency": 12220,
+        "name": "ATIS DEP"
+      }
+    ],
+    "elevation": -11,
+    "tower": true,
+    "name": "Schiphol",
     "runways": [
       {
         "type": 100,
-        "width": 48.77,
+        "width": 45,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 52.48440564,
-        "lonStart": 4.60630294,
-        "latEnd": 52.48459616,
-        "lonEnd": 4.60807726,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 52.31662025,
+        "lonStart": 4.74576581,
+        "latEnd": 52.31839053,
+        "lonEnd": 4.79752198,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "18L",
+        "numberEnd": "36R",
+        "latStart": 52.32167382,
+        "lonStart": 4.7802192,
+        "latEnd": 52.29054339,
+        "lonEnd": 4.77732475,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "18C",
+        "numberEnd": "36C",
+        "latStart": 52.33139367,
+        "lonStart": 4.740041,
+        "latEnd": 52.30177579,
+        "lonEnd": 4.73732077,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "18R",
+        "numberEnd": "36L",
+        "latStart": 52.36266639,
+        "lonStart": 4.71195543,
+        "latEnd": 52.32857445,
+        "lonEnd": 4.7088498,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 52.28792106,
+        "lonStart": 4.73415314,
+        "latEnd": 52.30456545,
+        "lonEnd": 4.77752635,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 52.30035725,
+        "lonStart": 4.78348514,
+        "latEnd": 52.31404135,
+        "lonEnd": 4.80304057,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 2647
+    "id": 1635
   },
   {
     "type": 1,
@@ -57,7 +178,7 @@
         "name": "APP"
       }
     ],
-    "elevation": 2,
+    "elevation": 1,
     "tower": true,
     "name": "De Kooy",
     "runways": [
@@ -75,7 +196,90 @@
         "surfacetype": 1
       }
     ],
-    "id": 6088
+    "id": 1644
+  },
+  {
+    "type": 1,
+    "icao": "EHVB",
+    "lat": 52.168246710000005,
+    "lon": 4.42188708,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13415,
+        "name": "EHVB-TWR"
+      }
+    ],
+    "elevation": 0,
+    "tower": false,
+    "name": "[X] VALKENBURG",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 52.15937109,
+        "lonStart": 4.40393169,
+        "latEnd": 52.17289998,
+        "lonEnd": 4.43198037,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 52.17515345,
+        "lonStart": 4.42327041,
+        "latEnd": 52.16228645,
+        "lonEnd": 4.42973955,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 25.7,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 52.17152258,
+        "lonStart": 4.42051338,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21.5
+      }
+    ],
+    "id": 1656
+  },
+  {
+    "type": 1,
+    "icao": "EHBX",
+    "lat": 52.4845009,
+    "lon": 4.6071901,
+    "communications": [],
+    "elevation": 9,
+    "tower": false,
+    "name": "Beverwijk Hospital",
+    "runways": [
+      {
+        "type": 100,
+        "width": 48.77,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 52.48440564,
+        "lonStart": 4.60630294,
+        "latEnd": 52.48459616,
+        "lonEnd": 4.60807726,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16418
   },
   {
     "type": 1,
@@ -101,162 +305,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 14932
-  },
-  {
-    "type": 1,
-    "icao": "EHAM",
-    "lat": 52.31484986583333,
-    "lon": 4.758121428333334,
-    "communications": [
-      {
-        "type": 52,
-        "frequency": 12197,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 53,
-        "frequency": 12170,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11922,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12880,
-        "name": "unnamed entity"
-      },
-      {
-        "type": 55,
-        "frequency": 12220,
-        "name": "DEP"
-      }
-    ],
-    "elevation": -11,
-    "tower": true,
-    "name": "Schiphol",
-    "runways": [
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 52.31662258,
-        "lonStart": 4.74629843,
-        "latEnd": 52.31835819,
-        "lonEnd": 4.79692334,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "18L",
-        "numberEnd": "36R",
-        "latStart": 52.32132036,
-        "lonStart": 4.78019039,
-        "latEnd": 52.29082345,
-        "lonEnd": 4.77743092,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 49.07,
-        "surfaceType": null,
-        "numberStart": "18C",
-        "numberEnd": "36C",
-        "latStart": 52.33139702,
-        "lonStart": 4.74011451,
-        "latEnd": 52.30173122,
-        "lonEnd": 4.73740403,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 56.08,
-        "surfaceType": null,
-        "numberStart": "18R",
-        "numberEnd": "36L",
-        "latStart": 52.36265227,
-        "lonStart": 4.71199426,
-        "latEnd": 52.328458,
-        "lonEnd": 4.70890493,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 49.07,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 52.2878684,
-        "lonStart": 4.73415315,
-        "latEnd": 52.3045649,
-        "lonEnd": 4.77753518,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 52.30037477,
-        "lonStart": 4.78348374,
-        "latEnd": 52.31402723,
-        "lonEnd": 4.80302426,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 23095
-  },
-  {
-    "type": 1,
-    "icao": "EHVB",
-    "lat": 52.16745,
-    "lon": 4.42229575,
-    "communications": [],
-    "elevation": 0,
-    "tower": false,
-    "name": "[X] VALKENBURG",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 52.159333,
-        "lonStart": 4.404,
-        "latEnd": 52.173,
-        "lonEnd": 4.432,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 52.175167,
-        "lonStart": 4.423333,
-        "latEnd": 52.1623,
-        "lonEnd": 4.42985,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 34580
+    "id": 16424
   }
 ]

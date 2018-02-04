@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "AU50",
+    "lat": -24.404911230000003,
+    "lon": 113.49228601,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12760,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 30,
+    "tower": false,
+    "name": "Lake Macleod",
+    "runways": [
+      {
+        "type": 100,
+        "width": 34.14,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -24.39973751,
+        "lonStart": 113.49120223,
+        "latEnd": -24.41008495,
+        "lonEnd": 113.49336979,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 14750
+  },
+  {
+    "type": 1,
     "icao": "YCAR",
     "lat": -24.882725875,
     "lon": 113.6679392325,
@@ -42,38 +74,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 4569
-  },
-  {
-    "type": 1,
-    "icao": "AU50",
-    "lat": -24.404911230000003,
-    "lon": 113.49228601,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12760,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 30,
-    "tower": false,
-    "name": "Lake Macleod",
-    "runways": [
-      {
-        "type": 100,
-        "width": 34.14,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": -24.39973751,
-        "lonStart": 113.49120223,
-        "latEnd": -24.41008495,
-        "lonEnd": 113.49336979,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 14835
+    "id": 32910
   }
 ]

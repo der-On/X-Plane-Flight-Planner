@@ -2,13 +2,18 @@
   {
     "type": 1,
     "icao": "SEST",
-    "lat": -0.9102055,
-    "lon": -89.61745,
+    "lat": -0.91015865,
+    "lon": -89.61748176,
     "communications": [
+      {
+        "type": 55,
+        "frequency": 12600,
+        "name": "Galapagos APP"
+      },
       {
         "type": 54,
         "frequency": 12250,
-        "name": "TWR"
+        "name": "San Cristobal TWR"
       }
     ],
     "elevation": 62,
@@ -17,18 +22,18 @@
     "runways": [
       {
         "type": 100,
-        "width": 20.12,
+        "width": 29.49,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": -0.901789,
-        "lonStart": -89.619014,
-        "latEnd": -0.918622,
-        "lonEnd": -89.615886,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -0.90170831,
+        "lonStart": -89.61905958,
+        "latEnd": -0.91860899,
+        "lonEnd": -89.61590394,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 10269
+    "id": 4874
   }
 ]

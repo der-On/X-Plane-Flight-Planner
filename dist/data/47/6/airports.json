@@ -1,6 +1,145 @@
 [
   {
     "type": 1,
+    "icao": "LFQM",
+    "lat": 47.20624259666666,
+    "lon": 6.0817773,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12220,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 1270,
+    "tower": true,
+    "name": "Besancon La Veze",
+    "runways": [
+      {
+        "type": 100,
+        "width": 23,
+        "surfaceType": null,
+        "numberStart": "5",
+        "numberEnd": "23",
+        "latStart": 47.2029934,
+        "lonStart": 6.07602405,
+        "latEnd": 47.21055353,
+        "lonEnd": 6.09085721,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 20,
+        "surfaceType": 2,
+        "numberStart": "H01",
+        "numberEnd": null,
+        "latStart": 47.20518086,
+        "lonStart": 6.07845064,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20
+      }
+    ],
+    "id": 3661
+  },
+  {
+    "type": 1,
+    "icao": "LFQW",
+    "lat": 47.6386,
+    "lon": 6.2042585,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 11815,
+        "name": "A/A"
+      },
+      {
+        "type": 55,
+        "frequency": 12992,
+        "name": "Luxeuil APP"
+      }
+    ],
+    "elevation": 1249,
+    "tower": true,
+    "name": "Vesoul Frotey",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 47.637728,
+        "lonStart": 6.19475,
+        "latEnd": 47.639472,
+        "lonEnd": 6.213767,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3663
+  },
+  {
+    "type": 1,
+    "icao": "LFYL",
+    "lat": 47.703106315,
+    "lon": 6.54485544,
+    "communications": [],
+    "elevation": 1040,
+    "tower": false,
+    "name": "Lure Malbouhans",
+    "runways": [
+      {
+        "type": 100,
+        "width": 44.34,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 47.69428977,
+        "lonStart": 6.53535163,
+        "latEnd": 47.71192286,
+        "lonEnd": 6.55435925,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3703
+  },
+  {
+    "type": 1,
+    "icao": "LSGC",
+    "lat": 47.08415363,
+    "lon": 6.7934969249999995,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11812,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 3368,
+    "tower": true,
+    "name": "Les Eplatures",
+    "runways": [
+      {
+        "type": 100,
+        "width": 28.96,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 47.08115349,
+        "lonStart": 6.78744006,
+        "latEnd": 47.08715377,
+        "lonEnd": 6.79955379,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3935
+  },
+  {
+    "type": 1,
     "icao": "LFGG",
     "lat": 47.7026775,
     "lon": 6.832838500000001,
@@ -36,39 +175,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 2484
-  },
-  {
-    "type": 1,
-    "icao": "LFQM",
-    "lat": 47.20686587,
-    "lon": 6.083656115,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12220,
-        "name": "INFO"
-      }
-    ],
-    "elevation": 1270,
-    "tower": true,
-    "name": "Besancon La Veze",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "5",
-        "numberEnd": "23",
-        "latStart": 47.20307601,
-        "lonStart": 6.07624935,
-        "latEnd": 47.21065573,
-        "lonEnd": 6.09106288,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 2624
+    "id": 20287
   },
   {
     "type": 1,
@@ -107,65 +214,52 @@
         "surfacetype": 3
       }
     ],
-    "id": 2625
+    "id": 20451
   },
   {
     "type": 1,
-    "icao": "LSGC",
-    "lat": 47.08415363,
-    "lon": 6.7934969249999995,
+    "icao": "LFSM",
+    "lat": 47.486847184999995,
+    "lon": 6.7912685875,
     "communications": [
       {
         "type": 54,
-        "frequency": 11812,
-        "name": "TWR"
+        "frequency": 13202,
+        "name": "AFIS"
       }
     ],
-    "elevation": 3368,
+    "elevation": 1041,
     "tower": true,
-    "name": "Les Eplatures",
+    "name": "Monbeliard Courcelles",
     "runways": [
       {
         "type": 100,
-        "width": 28.96,
+        "width": 20.12,
         "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 47.08115349,
-        "lonStart": 6.78744006,
-        "latEnd": 47.08715377,
-        "lonEnd": 6.79955379,
+        "numberStart": "8",
+        "numberEnd": "26",
+        "latStart": 47.48527257,
+        "lonStart": 6.78025961,
+        "latEnd": 47.48806077,
+        "lonEnd": 6.8025215,
         "length": 0,
         "surfacetype": 1
-      }
-    ],
-    "id": 15186
-  },
-  {
-    "type": 1,
-    "icao": "LFYL",
-    "lat": 47.703106315,
-    "lon": 6.54485544,
-    "communications": [],
-    "elevation": 1040,
-    "tower": false,
-    "name": "Lure Malbouhans",
-    "runways": [
+      },
       {
         "type": 100,
-        "width": 44.34,
+        "width": 49.99,
         "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 47.69428977,
-        "lonStart": 6.53535163,
-        "latEnd": 47.71192286,
-        "lonEnd": 6.55435925,
+        "numberStart": "8R",
+        "numberEnd": "26L",
+        "latStart": 47.48632247,
+        "lonStart": 6.78551576,
+        "latEnd": 47.48773293,
+        "lonEnd": 6.79677748,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 15621
+    "id": 20458
   },
   {
     "type": 1,
@@ -225,88 +319,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 15631
-  },
-  {
-    "type": 1,
-    "icao": "LFSM",
-    "lat": 47.486847184999995,
-    "lon": 6.7912685875,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13225,
-        "name": "ATC"
-      }
-    ],
-    "elevation": 1041,
-    "tower": true,
-    "name": "Monbeliard Courcelles",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "8",
-        "numberEnd": "26",
-        "latStart": 47.48527257,
-        "lonStart": 6.78025961,
-        "latEnd": 47.48806077,
-        "lonEnd": 6.8025215,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "8R",
-        "numberEnd": "26L",
-        "latStart": 47.48632247,
-        "lonStart": 6.78551576,
-        "latEnd": 47.48773293,
-        "lonEnd": 6.79677748,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 17379
-  },
-  {
-    "type": 1,
-    "icao": "LFQW",
-    "lat": 47.6386,
-    "lon": 6.2042585,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 11815,
-        "name": "A/A"
-      },
-      {
-        "type": 55,
-        "frequency": 12992,
-        "name": "Luxeuil APP"
-      }
-    ],
-    "elevation": 1249,
-    "tower": true,
-    "name": "Vesoul Frotey",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 47.637728,
-        "lonStart": 6.19475,
-        "latEnd": 47.639472,
-        "lonEnd": 6.213767,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 26289
+    "id": 20463
   }
 ]

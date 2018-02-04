@@ -2,31 +2,26 @@
   {
     "type": 1,
     "icao": "CYQT",
-    "lat": 48.3720354975,
-    "lon": -89.325121815,
+    "lat": 48.3720055475,
+    "lon": -89.32395677,
     "communications": [
-      {
-        "type": 50,
-        "frequency": 12880,
-        "name": "ATIS"
-      },
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "GND"
-      },
       {
         "type": 54,
         "frequency": 11810,
-        "name": "TWR"
+        "name": "CYQT Tower"
       },
       {
-        "type": 55,
-        "frequency": 11920,
-        "name": "APP/DEP"
+        "type": 53,
+        "frequency": 12130,
+        "name": "CYQT Ground"
+      },
+      {
+        "type": 50,
+        "frequency": 12880,
+        "name": "CYQT ATIS"
       }
     ],
-    "elevation": 651,
+    "elevation": 652,
     "tower": true,
     "name": "Thunder Bay",
     "runways": [
@@ -36,27 +31,27 @@
         "surfaceType": null,
         "numberStart": "07",
         "numberEnd": "25",
-        "latStart": 48.3701874,
-        "lonStart": -89.33364706,
-        "latEnd": 48.37586994,
-        "lonEnd": -89.3095171,
+        "latStart": 48.36983592,
+        "lonStart": -89.33342185,
+        "latEnd": 48.37646866,
+        "lonEnd": -89.30523438,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
       },
       {
         "type": 100,
-        "width": 60.96,
+        "width": 60.98,
         "surfaceType": null,
         "numberStart": "12",
         "numberEnd": "30",
-        "latStart": 48.37484871,
-        "lonStart": -89.33798349,
-        "latEnd": 48.36723594,
-        "lonEnd": -89.31933961,
+        "latStart": 48.37476944,
+        "lonStart": -89.33804722,
+        "latEnd": 48.36694817,
+        "lonEnd": -89.31912363,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
       }
     ],
-    "id": 25330
+    "id": 821
   }
 ]

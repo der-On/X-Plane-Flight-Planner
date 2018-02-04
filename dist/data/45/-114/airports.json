@@ -1,9 +1,35 @@
 [
   {
     "type": 1,
+    "icao": "7S4",
+    "lat": 45.58749392,
+    "lon": -113.45764344,
+    "communications": [],
+    "elevation": 6132,
+    "tower": false,
+    "name": "Wisdom",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 45.58377502,
+        "lonStart": -113.46008257,
+        "latEnd": 45.59121282,
+        "lonEnd": -113.45520431,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 255
+  },
+  {
+    "type": 1,
     "icao": "KSMN",
-    "lat": 45.123780499999995,
-    "lon": -113.881332,
+    "lat": 45.12328889,
+    "lon": -113.88143078,
     "communications": [
       {
         "type": 50,
@@ -28,38 +54,12 @@
         "numberEnd": "35",
         "latStart": 45.130775,
         "lonStart": -113.879981,
-        "latEnd": 45.116786,
-        "lonEnd": -113.882683,
+        "latEnd": 45.11580278,
+        "lonEnd": -113.88288056,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 14482
-  },
-  {
-    "type": 1,
-    "icao": "7S4",
-    "lat": 45.59158972,
-    "lon": -113.45922556,
-    "communications": [],
-    "elevation": 6132,
-    "tower": false,
-    "name": "Wisdom",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 45.58738113,
-        "lonStart": -113.46228998,
-        "latEnd": 45.59579831,
-        "lonEnd": -113.45616114,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 27459
+    "id": 19825
   }
 ]

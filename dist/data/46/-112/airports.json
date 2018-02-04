@@ -1,11 +1,49 @@
 [
   {
     "type": 1,
+    "icao": "8U8",
+    "lat": 46.33123915,
+    "lon": -111.482595605,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 3893,
+    "tower": false,
+    "name": "Townsend",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 46.33671725,
+        "lonStart": -111.48288703,
+        "latEnd": 46.32576105,
+        "lonEnd": -111.48230418,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 292
+  },
+  {
+    "type": 1,
     "icao": "8U9",
-    "lat": 46.418821109999996,
-    "lon": -111.57719389,
-    "communications": [],
-    "elevation": 3839,
+    "lat": 46.418709129999996,
+    "lon": -111.577252995,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 3838,
     "tower": false,
     "name": "Canyon Ferry",
     "runways": [
@@ -15,21 +53,21 @@
         "surfaceType": null,
         "numberStart": "16",
         "numberEnd": "34",
-        "latStart": 46.42320386,
-        "lonStart": -111.57752707,
-        "latEnd": 46.41443836,
-        "lonEnd": -111.57686071,
+        "latStart": 46.42311565,
+        "lonStart": -111.57719766,
+        "latEnd": 46.41430261,
+        "lonEnd": -111.57730833,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 5
       }
     ],
-    "id": 4477
+    "id": 293
   },
   {
     "type": 1,
     "icao": "KHLN",
-    "lat": 46.607313500000004,
-    "lon": -111.98330700000001,
+    "lat": 46.606926488750005,
+    "lon": -111.98467425,
     "communications": [
       {
         "type": 50,
@@ -59,12 +97,17 @@
       {
         "type": 55,
         "frequency": 11950,
-        "name": "APP/DEP"
+        "name": "APP"
+      },
+      {
+        "type": 56,
+        "frequency": 11950,
+        "name": "DEP"
       }
     ],
-    "elevation": 3877,
+    "elevation": 3876,
     "tower": true,
-    "name": "Helena Rgnl",
+    "name": "Helena Regional",
     "runways": [
       {
         "type": 100,
@@ -72,10 +115,10 @@
         "surfaceType": null,
         "numberStart": "09",
         "numberEnd": "27",
-        "latStart": 46.608414,
-        "lonStart": -111.997689,
+        "latStart": 46.608417,
+        "lonStart": -111.997694,
         "latEnd": 46.602989,
-        "lonEnd": -111.962767,
+        "lonEnd": -111.962766,
         "length": 0,
         "surfacetype": 1
       },
@@ -85,10 +128,10 @@
         "surfaceType": null,
         "numberStart": "05",
         "numberEnd": "23",
-        "latStart": 46.6056,
-        "lonStart": -111.997442,
-        "latEnd": 46.610725,
-        "lonEnd": -111.980536,
+        "latStart": 46.605599,
+        "lonStart": -111.997443,
+        "latEnd": 46.610726,
+        "lonEnd": -111.980538,
         "length": 0,
         "surfacetype": 1
       },
@@ -96,17 +139,30 @@
         "type": 100,
         "width": 22.86,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 46.612172,
-        "lonStart": -111.980772,
-        "latEnd": 46.603981,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 46.612173,
+        "lonStart": -111.980773,
+        "latEnd": 46.60398,
         "lonEnd": -111.980636,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 46.60630591,
+        "lonStart": -111.992269,
+        "latEnd": 46.605222,
+        "lonEnd": -111.985275,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 11643
+    "id": 2766
   },
   {
     "type": 1,
@@ -145,39 +201,32 @@
         "surfacetype": 3
       }
     ],
-    "id": 17635
+    "id": 8698
   },
   {
-    "type": 1,
-    "icao": "8U8",
-    "lat": 46.331232,
-    "lon": -111.4825865,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 3893,
+    "type": 17,
+    "icao": "MT35",
+    "lat": 46.58465638,
+    "lon": -111.99666139,
+    "communications": [],
+    "elevation": 4115,
     "tower": false,
-    "name": "Townsend",
+    "name": "[H] St Peters Community Hospital",
     "runways": [
       {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 46.336711,
-        "lonStart": -111.482881,
-        "latEnd": 46.325753,
-        "lonEnd": -111.482292,
-        "length": 0,
-        "surfacetype": 1
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 46.58465638,
+        "lonStart": -111.99666139,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
       }
     ],
-    "id": 25514
+    "id": 21857
   },
   {
     "type": 1,
@@ -203,31 +252,6 @@
         "surfacetype": 5
       }
     ],
-    "id": 27533
-  },
-  {
-    "type": 17,
-    "icao": "MT35",
-    "lat": 46.58465638,
-    "lon": -111.99666139,
-    "communications": [],
-    "elevation": 4115,
-    "tower": false,
-    "name": "[H] St Peters Community Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 46.58465638,
-        "lonStart": -111.99666139,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 33006
+    "id": 21889
   }
 ]

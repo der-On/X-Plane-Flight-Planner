@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "LFMR",
+    "lat": 44.38720559,
+    "lon": 6.60918724,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12350,
+        "name": "Provence Approch"
+      }
+    ],
+    "elevation": 3714,
+    "tower": true,
+    "name": "Saint Pons",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 44.38734,
+        "lonStart": 6.6041,
+        "latEnd": 44.38707118,
+        "lonEnd": 6.61427448,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3632
+  },
+  {
+    "type": 1,
     "icao": "LFNA",
     "lat": 44.454008284,
     "lon": 6.037909672,
@@ -24,8 +56,8 @@
         "type": 100,
         "width": 32,
         "surfaceType": null,
-        "numberStart": "03L",
-        "numberEnd": "21R",
+        "numberStart": "02L",
+        "numberEnd": "20R",
         "latStart": 44.450016,
         "lonStart": 6.034103,
         "latEnd": 44.45710984,
@@ -59,7 +91,7 @@
         "length": 22.8
       }
     ],
-    "id": 10291
+    "id": 3635
   },
   {
     "type": 1,
@@ -91,38 +123,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 22693
-  },
-  {
-    "type": 1,
-    "icao": "LFMR",
-    "lat": 44.38720559,
-    "lon": 6.60918724,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12350,
-        "name": "Provence Approch"
-      }
-    ],
-    "elevation": 3714,
-    "tower": true,
-    "name": "Saint Pons",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 44.38734,
-        "lonStart": 6.6041,
-        "latEnd": 44.38707118,
-        "lonEnd": 6.61427448,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22712
+    "id": 3636
   }
 ]

@@ -1,6 +1,53 @@
 [
   {
     "type": 1,
+    "icao": "RJBH",
+    "lat": 34.3667595,
+    "lon": 132.41389700000002,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13065,
+        "name": "FLIGHT SERVICE"
+      },
+      {
+        "type": 55,
+        "frequency": 12405,
+        "name": "HIROSHIMA APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12515,
+        "name": "HIROSHIMA APP"
+      },
+      {
+        "type": 56,
+        "frequency": 11990,
+        "name": "HIROSHIMA DEP"
+      }
+    ],
+    "elevation": 15,
+    "tower": true,
+    "name": "HIROSHIMANISHI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 34.359644,
+        "lonStart": 132.409194,
+        "latEnd": 34.373875,
+        "lonEnd": 132.4186,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 24380
+  },
+  {
+    "type": 1,
     "icao": "RJOA",
     "lat": 34.436025,
     "lon": 132.9194445,
@@ -69,54 +116,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 11149
-  },
-  {
-    "type": 1,
-    "icao": "RJBH",
-    "lat": 34.3667595,
-    "lon": 132.41389700000002,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13065,
-        "name": "FLIGHT SERVICE"
-      },
-      {
-        "type": 55,
-        "frequency": 12405,
-        "name": "HIROSHIMA APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12515,
-        "name": "HIROSHIMA APP"
-      },
-      {
-        "type": 56,
-        "frequency": 11990,
-        "name": "HIROSHIMA DEP"
-      }
-    ],
-    "elevation": 15,
-    "tower": true,
-    "name": "HIROSHIMANISHI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 34.359644,
-        "lonStart": 132.409194,
-        "latEnd": 34.373875,
-        "lonEnd": 132.4186,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 11150
+    "id": 24409
   },
   {
     "type": 1,
@@ -191,6 +191,6 @@
         "surfacetype": 2
       }
     ],
-    "id": 12375
+    "id": 24415
   }
 ]

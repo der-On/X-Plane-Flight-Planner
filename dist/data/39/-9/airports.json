@@ -1,35 +1,72 @@
 [
   {
     "type": 1,
-    "icao": "LPJF",
-    "lat": 39.779925000000006,
-    "lon": -8.82024748,
+    "icao": "LP77",
+    "lat": 39.401800245000004,
+    "lon": -8.289487385000001,
     "communications": [],
-    "elevation": 164,
+    "elevation": 541,
     "tower": false,
-    "name": "Leiria Airstrip",
+    "name": "Santa Margarida",
     "runways": [
       {
         "type": 100,
-        "width": 10.97,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 39.40582888,
+        "lonStart": -8.29414983,
+        "latEnd": 39.39777161,
+        "lonEnd": -8.28482494,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3863
+  },
+  {
+    "type": 1,
+    "icao": "LPJF",
+    "lat": 39.779920000000004,
+    "lon": -8.82021078,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "ATC Monte Real"
+      },
+      {
+        "type": 50,
+        "frequency": 12125,
+        "name": "Estacao Aeronautica"
+      }
+    ],
+    "elevation": 137,
+    "tower": true,
+    "name": "Leiria Gandara",
+    "runways": [
+      {
+        "type": 100,
+        "width": 11.2,
         "surfaceType": null,
         "numberStart": "02",
         "numberEnd": "20",
-        "latStart": 39.7774185,
-        "lonStart": -8.820868,
-        "latEnd": 39.7824315,
-        "lonEnd": -8.81962696,
+        "latStart": 39.77737758,
+        "lonStart": -8.82083528,
+        "latEnd": 39.78246242,
+        "lonEnd": -8.81958628,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 1
       }
     ],
-    "id": 15131
+    "id": 3884
   },
   {
     "type": 1,
     "icao": "LPMR",
-    "lat": 39.831239,
-    "lon": -8.8872585,
+    "lat": 39.83007665333333,
+    "lon": -8.886453113333333,
     "communications": [
       {
         "type": 53,
@@ -54,7 +91,7 @@
     ],
     "elevation": 187,
     "tower": true,
-    "name": "MONTE REAL",
+    "name": "Monte Real",
     "runways": [
       {
         "type": 100,
@@ -62,47 +99,151 @@
         "surfaceType": null,
         "numberStart": "01",
         "numberEnd": "19",
-        "latStart": 39.817772,
-        "lonStart": -8.887789,
-        "latEnd": 39.844706,
-        "lonEnd": -8.886728,
+        "latStart": 39.81778842,
+        "lonStart": -8.88779229,
+        "latEnd": 39.84471964,
+        "lonEnd": -8.88672997,
         "length": 0,
         "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 30.1,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.8277219,
+        "lonStart": -8.88483708,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.5
       }
     ],
-    "id": 16213
+    "id": 3891
   },
   {
     "type": 1,
-    "icao": "LP77",
-    "lat": 39.401667,
-    "lon": -8.288889000000001,
-    "communications": [],
-    "elevation": 541,
-    "tower": false,
-    "name": "SANTA MARGARIDA",
+    "icao": "LPOT",
+    "lat": 39.092102366666666,
+    "lon": -8.963591460000002,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11860,
+        "name": "TWR"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 55,
+        "frequency": 14400,
+        "name": "APP"
+      }
+    ],
+    "elevation": 134,
+    "tower": true,
+    "name": "Ota",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 43,
         "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 39.406156,
-        "lonStart": -8.292792,
-        "latEnd": 39.397178,
-        "lonEnd": -8.284986,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 39.1011963,
+        "lonStart": -8.96542469,
+        "latEnd": 39.07895156,
+        "lonEnd": -8.95886849,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 20,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.09615924,
+        "lonStart": -8.9664812,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20
+      }
+    ],
+    "id": 3894
+  },
+  {
+    "type": 1,
+    "icao": "LPSO",
+    "lat": 39.211746385,
+    "lon": -8.057670705,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11980,
+        "name": "AFIS"
+      }
+    ],
+    "elevation": 390,
+    "tower": true,
+    "name": "Aerodromo Ponte de Sor",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 39.20434978,
+        "lonStart": -8.06192973,
+        "latEnd": 39.21914299,
+        "lonEnd": -8.05341168,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 22042
+    "id": 3906
+  },
+  {
+    "type": 1,
+    "icao": "LPSR",
+    "lat": 39.209220265,
+    "lon": -8.6876575,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12260,
+        "name": "Santarem Radio"
+      }
+    ],
+    "elevation": 99,
+    "tower": true,
+    "name": "Santarem",
+    "runways": [
+      {
+        "type": 100,
+        "width": 28,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 39.20549858,
+        "lonStart": -8.69275948,
+        "latEnd": 39.21294195,
+        "lonEnd": -8.68255552,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3907
   },
   {
     "type": 1,
     "icao": "LPTN",
-    "lat": 39.475516,
-    "lon": -8.37014225,
+    "lat": 39.47575559857143,
+    "lon": -8.372541925714286,
     "communications": [
       {
         "type": 54,
@@ -112,7 +253,7 @@
     ],
     "elevation": 266,
     "tower": true,
-    "name": "TANCOS",
+    "name": "Tancos",
     "runways": [
       {
         "type": 100,
@@ -120,10 +261,10 @@
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": 39.472072,
-        "lonStart": -8.385708,
-        "latEnd": 39.476603,
-        "lonEnd": -8.359683,
+        "latStart": 39.47168215,
+        "lonStart": -8.38677149,
+        "latEnd": 39.47660134,
+        "lonEnd": -8.35961883,
         "length": 0,
         "surfacetype": 1
       },
@@ -133,14 +274,50 @@
         "surfaceType": null,
         "numberStart": "12",
         "numberEnd": "30",
-        "latStart": 39.479147,
-        "lonStart": -8.373803,
-        "latEnd": 39.474242,
-        "lonEnd": -8.361375,
+        "latStart": 39.47914568,
+        "lonStart": -8.37372492,
+        "latEnd": 39.47420217,
+        "lonEnd": -8.36131343,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 14.9,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.47906917,
+        "lonStart": -8.3735721,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.9
+      },
+      {
+        "type": 102,
+        "width": 15,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 39.47543901,
+        "lonStart": -8.37414822,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15
+      },
+      {
+        "type": 102,
+        "width": 13.6,
+        "surfaceType": 1,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 39.47414967,
+        "lonStart": -8.37864449,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14
       }
     ],
-    "id": 24576
+    "id": 3909
   }
 ]

@@ -2,38 +2,43 @@
   {
     "type": 1,
     "icao": "RPVI",
-    "lat": 10.7130455,
-    "lon": 122.5452975,
+    "lat": 10.833026115,
+    "lon": 122.49335446,
     "communications": [
       {
         "type": 54,
         "frequency": 12340,
-        "name": "TWR"
+        "name": "Iloilo Tower"
       },
       {
         "type": 55,
         "frequency": 12100,
-        "name": "BACOLOD APP"
+        "name": "Bacolod Approache"
+      },
+      {
+        "type": 55,
+        "frequency": 12150,
+        "name": "Bacolod Approache"
       }
     ],
-    "elevation": 27,
+    "elevation": 167,
     "tower": true,
-    "name": "Iloilo",
+    "name": "Iloilo International Airport",
     "runways": [
       {
         "type": 100,
-        "width": 35.97,
+        "width": 45,
         "surfaceType": null,
         "numberStart": "02",
         "numberEnd": "20",
-        "latStart": 10.704347,
-        "lonStart": 122.541453,
-        "latEnd": 10.721744,
-        "lonEnd": 122.549142,
+        "latStart": 10.82240247,
+        "lonStart": 122.48942616,
+        "latEnd": 10.84364976,
+        "lonEnd": 122.49728276,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 12443
+    "id": 4486
   }
 ]

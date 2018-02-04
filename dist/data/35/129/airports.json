@@ -1,58 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "RKTH",
-    "lat": 35.987857,
-    "lon": 129.42048749999998,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12872,
-        "name": "ATIS"
-      },
-      {
-        "type": 53,
-        "frequency": 12620,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11805,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12020,
-        "name": "APP/DEP"
-      },
-      {
-        "type": 55,
-        "frequency": 12425,
-        "name": "APP/DEP"
-      }
-    ],
-    "elevation": 70,
-    "tower": true,
-    "name": "POHANG",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 35.987736,
-        "lonStart": 129.408672,
-        "latEnd": 35.987978,
-        "lonEnd": 129.432303,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 19447
-  },
-  {
-    "type": 1,
     "icao": "RKPU",
     "lat": 35.5934835,
     "lon": 129.351739,
@@ -106,6 +54,58 @@
         "surfacetype": 1
       }
     ],
-    "id": 25802
+    "id": 24502
+  },
+  {
+    "type": 1,
+    "icao": "RKTH",
+    "lat": 35.987857,
+    "lon": 129.42048749999998,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12872,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12620,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11805,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12020,
+        "name": "APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12425,
+        "name": "APP/DEP"
+      }
+    ],
+    "elevation": 70,
+    "tower": true,
+    "name": "POHANG",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 35.987736,
+        "lonStart": 129.408672,
+        "latEnd": 35.987978,
+        "lonEnd": 129.432303,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 24515
   }
 ]

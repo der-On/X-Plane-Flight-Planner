@@ -1,6 +1,192 @@
 [
   {
     "type": 1,
+    "icao": "LIPH",
+    "lat": 45.6493197,
+    "lon": 12.195069885,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11870,
+        "name": "Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12040,
+        "name": "APP"
+      },
+      {
+        "type": 56,
+        "frequency": 12040,
+        "name": "DEP"
+      }
+    ],
+    "elevation": 193,
+    "tower": true,
+    "name": "Treviso Sant Angelo",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 45.64557457,
+        "lonStart": 12.18096369,
+        "latEnd": 45.65306483,
+        "lonEnd": 12.20917608,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 3795
+  },
+  {
+    "type": 1,
+    "icao": "LIPV",
+    "lat": 45.428386700000004,
+    "lon": 12.387999785,
+    "communications": [],
+    "elevation": 13,
+    "tower": false,
+    "name": "Venezia San Nicolo",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 45.42532048,
+        "lonStart": 12.38279292,
+        "latEnd": 45.43145292,
+        "lonEnd": 12.39320665,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3803
+  },
+  {
+    "type": 1,
+    "icao": "LIPZ",
+    "lat": 45.50479075,
+    "lon": 12.349691275,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12222,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12020,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11890,
+        "name": "APP"
+      }
+    ],
+    "elevation": 5,
+    "tower": true,
+    "name": "Venezia Tessera",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "04R",
+        "numberEnd": "22L",
+        "latStart": 45.4941223,
+        "lonStart": 12.33773103,
+        "latEnd": 45.5161867,
+        "lonEnd": 12.36607807,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "04L",
+        "numberEnd": "22R",
+        "latStart": 45.495151,
+        "lonStart": 12.335555,
+        "latEnd": 45.513703,
+        "lonEnd": 12.359401,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3806
+  },
+  {
+    "type": 1,
+    "icao": "XLIJE",
+    "lat": 45.56544706,
+    "lon": 12.576838219999999,
+    "communications": [],
+    "elevation": 13,
+    "tower": false,
+    "name": "Jesolo",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 45.56393266,
+        "lonStart": 12.57477892,
+        "latEnd": 45.56696146,
+        "lonEnd": 12.57889752,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5505
+  },
+  {
+    "type": 1,
+    "icao": "XLIKI",
+    "lat": 45.56542609,
+    "lon": 12.576817055,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11885,
+        "name": "Caposile Radio"
+      }
+    ],
+    "elevation": 3,
+    "tower": true,
+    "name": "Caposile",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.5,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 45.56395814,
+        "lonStart": 12.57482476,
+        "latEnd": 45.56689404,
+        "lonEnd": 12.57880935,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5506
+  },
+  {
+    "type": 1,
     "icao": "LIDC",
     "lat": 45.0828018,
     "lon": 12.1556044,
@@ -23,33 +209,83 @@
         "surfacetype": 3
       }
     ],
-    "id": 4293
+    "id": 20537
   },
   {
     "type": 1,
     "icao": "LIDK",
-    "lat": 45.952801,
-    "lon": 12.818901,
+    "lat": 45.953568489999995,
+    "lon": 12.8186267625,
     "communications": [],
-    "elevation": 125,
-    "tower": false,
-    "name": "Casarsa",
+    "elevation": 124,
+    "tower": true,
+    "name": "Casarsa Della Delizia",
     "runways": [
       {
         "type": 100,
-        "width": 60.05,
+        "width": 40,
         "surfaceType": null,
         "numberStart": "06",
         "numberEnd": "24",
-        "latStart": 45.95133899,
-        "lonStart": 12.81525876,
-        "latEnd": 45.95426301,
-        "lonEnd": 12.82254324,
+        "latStart": 45.95172915,
+        "lonStart": 12.81375922,
+        "latEnd": 45.95521314,
+        "lonEnd": 12.82177016,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 20.75,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 45.95396285,
+        "lonStart": 12.81786956,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21.88
+      },
+      {
+        "type": 102,
+        "width": 20,
+        "surfaceType": 3,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 45.95336882,
+        "lonStart": 12.82110811,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20
       }
     ],
-    "id": 4609
+    "id": 20540
+  },
+  {
+    "type": 1,
+    "icao": "LIDW",
+    "lat": 45.703333,
+    "lon": 12.536389,
+    "communications": [],
+    "elevation": 17,
+    "tower": false,
+    "name": "Salgareda Aviosuperficie Carrer",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 45.70606006,
+        "lonStart": 12.53413452,
+        "latEnd": 45.70060594,
+        "lonEnd": 12.53864348,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20544
   },
   {
     "type": 1,
@@ -96,160 +332,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 12588
-  },
-  {
-    "type": 1,
-    "icao": "LIDW",
-    "lat": 45.703333,
-    "lon": 12.536389,
-    "communications": [],
-    "elevation": 17,
-    "tower": false,
-    "name": "Salgareda Aviosuperficie Carrer",
-    "runways": [
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 45.70606006,
-        "lonStart": 12.53413452,
-        "latEnd": 45.70060594,
-        "lonEnd": 12.53864348,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 22740
-  },
-  {
-    "type": 1,
-    "icao": "LIPH",
-    "lat": 45.6486546,
-    "lon": 12.194661685,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11870,
-        "name": "Tower"
-      },
-      {
-        "type": 55,
-        "frequency": 12040,
-        "name": "APP"
-      },
-      {
-        "type": 56,
-        "frequency": 12040,
-        "name": "DEP"
-      }
-    ],
-    "elevation": 193,
-    "tower": true,
-    "name": "Treviso Sant Angelo",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 45.64490947,
-        "lonStart": 12.18055549,
-        "latEnd": 45.65239973,
-        "lonEnd": 12.20876788,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 25568
-  },
-  {
-    "type": 1,
-    "icao": "LIPV",
-    "lat": 45.428386700000004,
-    "lon": 12.387999785,
-    "communications": [],
-    "elevation": 13,
-    "tower": false,
-    "name": "Venezia San Nicolo",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 45.42532048,
-        "lonStart": 12.38279292,
-        "latEnd": 45.43145292,
-        "lonEnd": 12.39320665,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 26264
-  },
-  {
-    "type": 1,
-    "icao": "LIPZ",
-    "lat": 45.50479075,
-    "lon": 12.349691275,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12222,
-        "name": "ATIS"
-      },
-      {
-        "type": 53,
-        "frequency": 12170,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12020,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11890,
-        "name": "APP"
-      }
-    ],
-    "elevation": 6,
-    "tower": true,
-    "name": "Venezia Tessera",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "04R",
-        "numberEnd": "22L",
-        "latStart": 45.4941223,
-        "lonStart": 12.33773103,
-        "latEnd": 45.5161867,
-        "lonEnd": 12.36607807,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "04L",
-        "numberEnd": "22R",
-        "latStart": 45.495151,
-        "lonStart": 12.335555,
-        "latEnd": 45.513703,
-        "lonEnd": 12.359401,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 26265
+    "id": 20558
   }
 ]

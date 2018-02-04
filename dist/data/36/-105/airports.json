@@ -1,79 +1,35 @@
 [
   {
     "type": 1,
-    "icao": "NM67",
-    "lat": 36.856972,
-    "lon": -104.447764,
-    "communications": [],
-    "elevation": 6578,
-    "tower": false,
-    "name": "LA MESA PARK",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 36.864189,
-        "lonStart": -104.450198,
-        "latEnd": 36.849755,
-        "lonEnd": -104.44533,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 14275
-  },
-  {
-    "type": 1,
-    "icao": "KRTN",
-    "lat": 36.74155425,
-    "lon": -104.50154175,
+    "icao": "S42",
+    "lat": 36.331525345,
+    "lon": -104.617862515,
     "communications": [
       {
-        "type": 50,
-        "frequency": 11837,
-        "name": "ASOS"
-      },
-      {
         "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
+        "frequency": 12290,
+        "name": "CTAF"
       }
     ],
-    "elevation": 6352,
+    "elevation": 5891,
     "tower": false,
-    "name": "RATON MUNI CREWS FLD",
+    "name": "Springer Muni",
     "runways": [
       {
         "type": 100,
-        "width": 22.86,
+        "width": 18.29,
         "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 36.734167,
-        "lonStart": -104.511258,
-        "latEnd": 36.748539,
-        "lonEnd": -104.499128,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 36.740458,
-        "lonStart": -104.505228,
-        "latEnd": 36.743053,
-        "lonEnd": -104.490553,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 36.32506731,
+        "lonStart": -104.6207486,
+        "latEnd": 36.33798338,
+        "lonEnd": -104.61497643,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 20851
+    "id": 4506
   },
   {
     "type": 1,
@@ -99,38 +55,82 @@
         "surfacetype": 3
       }
     ],
-    "id": 21891
+    "id": 14291
   },
   {
     "type": 1,
-    "icao": "S42",
-    "lat": 36.3269765,
-    "lon": -104.6197095,
+    "icao": "KRTN",
+    "lat": 36.742288945,
+    "lon": -104.50092086000001,
     "communications": [
       {
+        "type": 50,
+        "frequency": 11837,
+        "name": "ASOS"
+      },
+      {
         "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
       }
     ],
-    "elevation": 5891,
+    "elevation": 6352,
     "tower": false,
-    "name": "SPRINGER MUNI",
+    "name": "RATON MUNI CREWS FLD",
     "runways": [
       {
         "type": 100,
-        "width": 18.29,
+        "width": 22.86,
         "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 36.320511,
-        "lonStart": -104.622569,
-        "latEnd": 36.333442,
-        "lonEnd": -104.61685,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 36.734167,
+        "lonStart": -104.511258,
+        "latEnd": 36.75147778,
+        "lonEnd": -104.49664444,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 36.740458,
+        "lonStart": -104.505228,
+        "latEnd": 36.743053,
+        "lonEnd": -104.490553,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 22434
+    "id": 19767
+  },
+  {
+    "type": 1,
+    "icao": "NM67",
+    "lat": 36.856972,
+    "lon": -104.447764,
+    "communications": [],
+    "elevation": 6578,
+    "tower": false,
+    "name": "LA MESA PARK",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 36.864189,
+        "lonStart": -104.450198,
+        "latEnd": 36.849755,
+        "lonEnd": -104.44533,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22858
   }
 ]

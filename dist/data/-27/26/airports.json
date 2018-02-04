@@ -1,6 +1,76 @@
 [
   {
     "type": 1,
+    "icao": "FAKD",
+    "lat": -26.867842928571427,
+    "lon": 26.719065765714284,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12350,
+        "name": "Tower"
+      }
+    ],
+    "elevation": 4443,
+    "tower": true,
+    "name": "Klerksdorp (P.C. Pelser)",
+    "runways": [
+      {
+        "type": 100,
+        "width": 25.91,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -26.86983119,
+        "lonStart": 26.71803985,
+        "latEnd": -26.86192714,
+        "lonEnd": 26.72328456,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -26.86465161,
+        "lonStart": 26.71653451,
+        "latEnd": -26.87169512,
+        "lonEnd": 26.72509924,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -26.86467519,
+        "lonStart": 26.71624581,
+        "latEnd": -26.87780847,
+        "lonEnd": 26.71996991,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 16.4,
+        "surfaceType": 2,
+        "numberStart": "H01",
+        "numberEnd": null,
+        "latStart": -26.86431178,
+        "lonStart": 26.71428648,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 2134
+  },
+  {
+    "type": 1,
     "icao": "FALI",
     "lat": -26.1741375,
     "lon": 26.185997999999998,
@@ -42,58 +112,6 @@
         "surfacetype": 4
       }
     ],
-    "id": 15246
-  },
-  {
-    "type": 1,
-    "icao": "FAKD",
-    "lat": -26.86833,
-    "lon": 26.719392999999997,
-    "communications": [],
-    "elevation": 4444,
-    "tower": false,
-    "name": "P C Pelser",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": -26.86451799,
-        "lonStart": 26.71626073,
-        "latEnd": -26.87760801,
-        "lonEnd": 26.71994127,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 24.99,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": -26.86454954,
-        "lonStart": 26.71629991,
-        "latEnd": -26.87066246,
-        "lonEnd": 26.72370009,
-        "length": 0,
-        "surfacetype": 4
-      },
-      {
-        "type": 100,
-        "width": 24.99,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": -26.86979155,
-        "lonStart": 26.71774683,
-        "latEnd": -26.86285045,
-        "lonEnd": 26.72240917,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 19149
+    "id": 16815
   }
 ]

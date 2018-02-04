@@ -1,6 +1,43 @@
 [
   {
     "type": 1,
+    "icao": "FAMM",
+    "lat": -25.79823944,
+    "lon": 25.548133465,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11930,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11930,
+        "name": "APP"
+      }
+    ],
+    "elevation": 4181,
+    "tower": true,
+    "name": "Mafikeng",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": -25.81718333,
+        "lonStart": 25.53917778,
+        "latEnd": -25.77929555,
+        "lonEnd": 25.55708915,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16825
+  },
+  {
+    "type": 1,
     "icao": "FB01",
     "lat": -25.200000000000003,
     "lon": 25.71665,
@@ -23,7 +60,7 @@
         "surfacetype": 5
       }
     ],
-    "id": 913
+    "id": 16859
   },
   {
     "type": 1,
@@ -49,7 +86,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 10595
+    "id": 16959
   },
   {
     "type": 1,
@@ -75,43 +112,6 @@
         "surfacetype": 5
       }
     ],
-    "id": 13597
-  },
-  {
-    "type": 1,
-    "icao": "FAMM",
-    "lat": -25.798445,
-    "lon": 25.548109,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11930,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11930,
-        "name": "APP"
-      }
-    ],
-    "elevation": 4181,
-    "tower": true,
-    "name": "Mafikeng",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": -25.81759445,
-        "lonStart": 25.53912885,
-        "latEnd": -25.77929555,
-        "lonEnd": 25.55708915,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 16468
+    "id": 16965
   }
 ]

@@ -42,33 +42,83 @@
         "surfacetype": 1
       }
     ],
-    "id": 6697
+    "id": 17931
   },
   {
     "type": 1,
-    "icao": "LVGZ",
-    "lat": 31.248095999999997,
-    "lon": 34.27306,
+    "icao": "LL1A",
+    "lat": 31.2607125,
+    "lon": 34.640372,
     "communications": [],
-    "elevation": 300,
-    "tower": true,
-    "name": "Gaza Intl.",
+    "elevation": 660,
+    "tower": false,
+    "name": "HATSERIM NORTHWEST",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 29.87,
         "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 31.23455738,
-        "lonStart": 34.26969396,
-        "latEnd": 31.26163462,
-        "lonEnd": 34.27642604,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 31.262664,
+        "lonStart": 34.630708,
+        "latEnd": 31.258761,
+        "lonEnd": 34.650036,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 10361
+    "id": 20658
+  },
+  {
+    "type": 1,
+    "icao": "LL59",
+    "lat": 31.8998945,
+    "lon": 34.6916915,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 12090,
+        "name": "TEL AVIV APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12140,
+        "name": "TEL AVIV APP"
+      }
+    ],
+    "elevation": 32,
+    "tower": false,
+    "name": "PALMAHIM AB",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 31.891861,
+        "lonStart": 34.687469,
+        "latEnd": 31.911508,
+        "lonEnd": 34.698197,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 31.900303,
+        "lonStart": 34.687186,
+        "latEnd": 31.895906,
+        "lonEnd": 34.693914,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20689
   },
   {
     "type": 1,
@@ -131,39 +181,13 @@
         "surfacetype": 1
       }
     ],
-    "id": 11052
+    "id": 20692
   },
   {
     "type": 1,
-    "icao": "LL1A",
-    "lat": 31.2607125,
-    "lon": 34.640372,
-    "communications": [],
-    "elevation": 660,
-    "tower": false,
-    "name": "HATSERIM NORTHWEST",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 31.262664,
-        "lonStart": 34.630708,
-        "latEnd": 31.258761,
-        "lonEnd": 34.650036,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 11053
-  },
-  {
-    "type": 1,
-    "icao": "LLHS",
-    "lat": 31.760626833333333,
-    "lon": 34.7306225,
+    "icao": "LLBS",
+    "lat": 31.287001500000002,
+    "lon": 34.7229515,
     "communications": [
       {
         "type": 55,
@@ -176,101 +200,25 @@
         "name": "TEL AVIV APP"
       }
     ],
-    "elevation": 148,
+    "elevation": 656,
     "tower": false,
-    "name": "HATZOR",
+    "name": "TEYMAN",
     "runways": [
       {
         "type": 100,
-        "width": 45.72,
+        "width": 21.03,
         "surfaceType": null,
-        "numberStart": "11R",
-        "numberEnd": "29L",
-        "latStart": 31.763989,
-        "lonStart": 34.720722,
-        "latEnd": 31.755747,
-        "lonEnd": 34.745019,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 35.05,
-        "surfaceType": null,
-        "numberStart": "11L",
-        "numberEnd": "29R",
-        "latStart": 31.765547,
-        "lonStart": 34.721511,
-        "latEnd": 31.757378,
-        "lonEnd": 34.745639,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 31.754228,
-        "lonStart": 34.715075,
-        "latEnd": 31.766872,
-        "lonEnd": 34.735769,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 31.290378,
+        "lonStart": 34.719225,
+        "latEnd": 31.283625,
+        "lonEnd": 34.726678,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 11055
-  },
-  {
-    "type": 1,
-    "icao": "LL59",
-    "lat": 31.8998945,
-    "lon": 34.6916915,
-    "communications": [
-      {
-        "type": 55,
-        "frequency": 12090,
-        "name": "TEL AVIV APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12140,
-        "name": "TEL AVIV APP"
-      }
-    ],
-    "elevation": 32,
-    "tower": false,
-    "name": "PALMAHIM AB",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 31.891861,
-        "lonStart": 34.687469,
-        "latEnd": 31.911508,
-        "lonEnd": 34.698197,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 31.900303,
-        "lonStart": 34.687186,
-        "latEnd": 31.895906,
-        "lonEnd": 34.693914,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19181
+    "id": 20720
   },
   {
     "type": 1,
@@ -333,13 +281,13 @@
         "surfacetype": 1
       }
     ],
-    "id": 24639
+    "id": 20721
   },
   {
     "type": 1,
-    "icao": "LLBS",
-    "lat": 31.287001500000002,
-    "lon": 34.7229515,
+    "icao": "LLHS",
+    "lat": 31.760626833333333,
+    "lon": 34.7306225,
     "communications": [
       {
         "type": 55,
@@ -352,24 +300,76 @@
         "name": "TEL AVIV APP"
       }
     ],
-    "elevation": 656,
+    "elevation": 148,
     "tower": false,
-    "name": "TEYMAN",
+    "name": "HATZOR",
     "runways": [
       {
         "type": 100,
-        "width": 21.03,
+        "width": 45.72,
         "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 31.290378,
-        "lonStart": 34.719225,
-        "latEnd": 31.283625,
-        "lonEnd": 34.726678,
+        "numberStart": "11R",
+        "numberEnd": "29L",
+        "latStart": 31.763989,
+        "lonStart": 34.720722,
+        "latEnd": 31.755747,
+        "lonEnd": 34.745019,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 35.05,
+        "surfaceType": null,
+        "numberStart": "11L",
+        "numberEnd": "29R",
+        "latStart": 31.765547,
+        "lonStart": 34.721511,
+        "latEnd": 31.757378,
+        "lonEnd": 34.745639,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 31.754228,
+        "lonStart": 34.715075,
+        "latEnd": 31.766872,
+        "lonEnd": 34.735769,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 24673
+    "id": 20726
+  },
+  {
+    "type": 1,
+    "icao": "LVGZ",
+    "lat": 31.248095999999997,
+    "lon": 34.27306,
+    "communications": [],
+    "elevation": 300,
+    "tower": true,
+    "name": "Gaza Intl.",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 31.23455738,
+        "lonStart": 34.26969396,
+        "latEnd": 31.26163462,
+        "lonEnd": 34.27642604,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20930
   }
 ]

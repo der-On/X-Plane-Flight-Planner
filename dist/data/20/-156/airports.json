@@ -1,6 +1,43 @@
 [
   {
     "type": 1,
+    "icao": "PHMU",
+    "lat": 20.001353015,
+    "lon": -155.668112785,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12000,
+        "name": "AWOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 2667,
+    "tower": false,
+    "name": "WAIMEA KOHALA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 19.99695192,
+        "lonStart": -155.67408396,
+        "latEnd": 20.00575411,
+        "lonEnd": -155.66214161,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4405
+  },
+  {
+    "type": 1,
     "icao": "HI05",
     "lat": 20.083603330000003,
     "lon": -155.50222223,
@@ -23,7 +60,33 @@
         "surfacetype": 1
       }
     ],
-    "id": 12015
+    "id": 17945
+  },
+  {
+    "type": 1,
+    "icao": "HI27",
+    "lat": 20.02821074,
+    "lon": -155.38837066000002,
+    "communications": [],
+    "elevation": 1520,
+    "tower": false,
+    "name": "Upper Paauilo Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 25.91,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 20.02763223,
+        "lonStart": -155.39052275,
+        "latEnd": 20.02878925,
+        "lonEnd": -155.38621857,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17955
   },
   {
     "type": 1,
@@ -55,64 +118,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 25820
-  },
-  {
-    "type": 1,
-    "icao": "HI27",
-    "lat": 20.02821074,
-    "lon": -155.38837066000002,
-    "communications": [],
-    "elevation": 1520,
-    "tower": false,
-    "name": "Upper Paauilo Airstrip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 25.91,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 20.02763223,
-        "lonStart": -155.39052275,
-        "latEnd": 20.02878925,
-        "lonEnd": -155.38621857,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 25964
-  },
-  {
-    "type": 1,
-    "icao": "PHMU",
-    "lat": 20.001353015,
-    "lon": -155.668112785,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 2668,
-    "tower": false,
-    "name": "WAIMEA KOHALA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 19.99695192,
-        "lonStart": -155.67408396,
-        "latEnd": 20.00575411,
-        "lonEnd": -155.66214161,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 26451
+    "id": 24087
   }
 ]

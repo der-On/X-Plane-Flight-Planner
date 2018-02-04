@@ -1,9 +1,86 @@
 [
   {
     "type": 1,
+    "icao": "02T",
+    "lat": 45.77011516,
+    "lon": -112.980384445,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 5830,
+    "tower": false,
+    "name": "Wise River",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 45.7658173,
+        "lonStart": -112.98544287,
+        "latEnd": 45.77441302,
+        "lonEnd": -112.97532602,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 95
+  },
+  {
+    "type": 1,
+    "icao": "7S1",
+    "lat": 45.5348614775,
+    "lon": -112.303214075,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 4775,
+    "tower": false,
+    "name": "TWIN BRIDGES",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 45.54468214,
+        "lonStart": -112.29960678,
+        "latEnd": 45.5282279,
+        "lonEnd": -112.30059134,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 45.5328708,
+        "lonStart": -112.31191066,
+        "latEnd": 45.53366507,
+        "lonEnd": -112.30074752,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 253
+  },
+  {
+    "type": 1,
     "icao": "KBTM",
-    "lat": 45.953450000000004,
-    "lon": -112.49670566666667,
+    "lat": 45.9547465,
+    "lon": -112.49757375,
     "communications": [
       {
         "type": 50,
@@ -21,7 +98,7 @@
         "name": "CTAF/UNICOM"
       }
     ],
-    "elevation": 5549,
+    "elevation": 5548,
     "tower": false,
     "name": "Bert Mooney",
     "runways": [
@@ -42,21 +119,8 @@
         "type": 100,
         "width": 22.86,
         "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 45.944867,
-        "lonStart": -112.501681,
-        "latEnd": 45.956847,
-        "lonEnd": -112.488258,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
+        "numberStart": "12",
+        "numberEnd": "30",
         "latStart": 45.958992,
         "lonStart": -112.505739,
         "latEnd": 45.950169,
@@ -65,23 +129,18 @@
         "surfacetype": 1
       }
     ],
-    "id": 2614
+    "id": 2447
   },
   {
     "type": 1,
     "icao": "KDLN",
-    "lat": 45.254607,
-    "lon": -112.552629,
+    "lat": 45.2546101975,
+    "lon": -112.55263661000001,
     "communications": [
       {
         "type": 50,
         "frequency": 13522,
         "name": "ASOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
       },
       {
         "type": 51,
@@ -97,12 +156,12 @@
         "type": 100,
         "width": 22.86,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 45.266133,
-        "lonStart": -112.552489,
-        "latEnd": 45.248314,
-        "lonEnd": -112.551869,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 45.26613763,
+        "lonStart": -112.55251099,
+        "latEnd": 45.24832216,
+        "lonEnd": -112.55187745,
         "length": 0,
         "surfacetype": 1
       },
@@ -110,8 +169,8 @@
         "type": 100,
         "width": 18.29,
         "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
+        "numberStart": "04",
+        "numberEnd": "22",
         "latStart": 45.248828,
         "lonStart": -112.558439,
         "latEnd": 45.255153,
@@ -120,85 +179,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 6290
-  },
-  {
-    "type": 1,
-    "icao": "MT21",
-    "lat": 45.90158333,
-    "lon": -112.54946389,
-    "communications": [],
-    "elevation": 5950,
-    "tower": false,
-    "name": "Flying Arrow Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 45.90198431,
-        "lonStart": -112.55134861,
-        "latEnd": 45.90118235,
-        "lonEnd": -112.54757917,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9400
-  },
-  {
-    "type": 1,
-    "icao": "MT41",
-    "lat": 45.87825972,
-    "lon": -112.11721750000001,
-    "communications": [],
-    "elevation": 4510,
-    "tower": false,
-    "name": "Jefco Skypark",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 45.87978346,
-        "lonStart": -112.12437643,
-        "latEnd": 45.87673598,
-        "lonEnd": -112.11005857,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 12937
-  },
-  {
-    "type": 1,
-    "icao": "MT14",
-    "lat": 45.82353666,
-    "lon": -112.88614639,
-    "communications": [],
-    "elevation": 5940,
-    "tower": false,
-    "name": "Jerry Creek",
-    "runways": [
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 45.82194656,
-        "lonStart": -112.88859329,
-        "latEnd": 45.82512676,
-        "lonEnd": -112.88369949,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 12964
+    "id": 2570
   },
   {
     "type": 1,
@@ -224,52 +205,59 @@
         "surfacetype": 3
       }
     ],
-    "id": 23745
+    "id": 21835
   },
   {
     "type": 1,
-    "icao": "7S1",
-    "lat": 45.53341175,
-    "lon": -112.31087824999999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 4776,
+    "icao": "MT14",
+    "lat": 45.82353666,
+    "lon": -112.88614639,
+    "communications": [],
+    "elevation": 5940,
     "tower": false,
-    "name": "TWIN BRIDGES",
+    "name": "Jerry Creek",
     "runways": [
       {
         "type": 100,
-        "width": 18.29,
+        "width": 9.14,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 45.539164,
-        "lonStart": -112.309169,
-        "latEnd": 45.5275,
-        "lonEnd": -112.309169,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 45.82194656,
+        "lonStart": -112.88859329,
+        "latEnd": 45.82512676,
+        "lonEnd": -112.88369949,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 33.53,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 45.532864,
-        "lonStart": -112.319133,
-        "latEnd": 45.534119,
-        "lonEnd": -112.306042,
-        "length": 0,
-        "surfacetype": 5
+        "surfacetype": 3
       }
     ],
-    "id": 24927
+    "id": 21837
+  },
+  {
+    "type": 1,
+    "icao": "MT21",
+    "lat": 45.90158333,
+    "lon": -112.54946389,
+    "communications": [],
+    "elevation": 5950,
+    "tower": false,
+    "name": "Flying Arrow Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 45.90198431,
+        "lonStart": -112.55134861,
+        "latEnd": 45.90118235,
+        "lonEnd": -112.54757917,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21844
   },
   {
     "type": 1,
@@ -295,32 +283,32 @@
         "surfacetype": 3
       }
     ],
-    "id": 25208
+    "id": 21845
   },
   {
     "type": 1,
-    "icao": "02T",
-    "lat": 45.769092,
-    "lon": -112.98170400000001,
+    "icao": "MT41",
+    "lat": 45.87825972,
+    "lon": -112.11721750000001,
     "communications": [],
-    "elevation": 5830,
+    "elevation": 4510,
     "tower": false,
-    "name": "Wise River",
+    "name": "Jefco Skypark",
     "runways": [
       {
         "type": 100,
-        "width": 18.29,
+        "width": 17.98,
         "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 45.76465595,
-        "lonStart": -112.98649619,
-        "latEnd": 45.77352805,
-        "lonEnd": -112.97691181,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 45.87978346,
+        "lonStart": -112.12437643,
+        "latEnd": 45.87673598,
+        "lonEnd": -112.11005857,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 27460
+    "id": 21863
   }
 ]

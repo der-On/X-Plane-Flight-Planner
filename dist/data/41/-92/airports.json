@@ -1,170 +1,88 @@
 [
   {
     "type": 1,
-    "icao": "C11",
-    "lat": 41.79584027,
-    "lon": -91.87101111999999,
-    "communications": [],
-    "elevation": 711,
-    "tower": false,
-    "name": "Amana",
-    "runways": [
-      {
-        "type": 100,
-        "width": 28.96,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 41.7954057,
-        "lonStart": -91.87575851,
-        "latEnd": 41.79627484,
-        "lonEnd": -91.86626373,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 953
-  },
-  {
-    "type": 1,
-    "icao": "IA25",
-    "lat": 41.800569159999995,
-    "lon": -91.43989139,
-    "communications": [],
-    "elevation": 819,
-    "tower": false,
-    "name": "Bartlett Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 41.80068882,
-        "lonStart": -91.44448801,
-        "latEnd": 41.8004495,
-        "lonEnd": -91.43529477,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 2295
-  },
-  {
-    "type": 1,
-    "icao": "IA61",
-    "lat": 41.08029611,
-    "lon": -91.94656167000001,
-    "communications": [],
-    "elevation": 800,
-    "tower": false,
-    "name": "Estle Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 41.07815576,
-        "lonStart": -91.94911833,
-        "latEnd": 41.08243646,
-        "lonEnd": -91.94400501,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 41.08034876,
-        "lonStart": -91.94856186,
-        "latEnd": 41.08024346,
-        "lonEnd": -91.94456148,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 7323
-  },
-  {
-    "type": 1,
-    "icao": "KFFL",
-    "lat": 41.05353825,
-    "lon": -91.98201574999999,
+    "icao": "KCID",
+    "lat": 41.886060490000006,
+    "lon": -91.70751075500002,
     "communications": [
       {
         "type": 50,
-        "frequency": 13202,
-        "name": "AWOS 3"
+        "frequency": 12415,
+        "name": "ATIS"
       },
       {
         "type": 51,
-        "frequency": 12270,
-        "name": "CTAF/UNICOM"
+        "frequency": 11870,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 12545,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12160,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11870,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11905,
+        "name": "APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 11970,
+        "name": "APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 13405,
+        "name": "APP/DEP"
       }
     ],
-    "elevation": 799,
-    "tower": false,
-    "name": "FAIRFIELD MUNI",
+    "elevation": 869,
+    "tower": true,
+    "name": "THE EASTERN IOWA",
     "runways": [
       {
         "type": 100,
-        "width": 22.86,
+        "width": 45.72,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 41.059019,
-        "lonStart": -91.981636,
-        "latEnd": 41.048039,
-        "lonEnd": -91.981544,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 41.88597774,
+        "lonStart": -91.72638052,
+        "latEnd": 41.88559974,
+        "lonEnd": -91.69480352,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 50.29,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 41.053339,
-        "lonStart": -91.986875,
-        "latEnd": 41.053756,
-        "lonEnd": -91.978008,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 7394
-  },
-  {
-    "type": 1,
-    "icao": "IA24",
-    "lat": 41.755,
-    "lon": -91.7277795,
-    "communications": [],
-    "elevation": 750,
-    "tower": false,
-    "name": "GREEN CASTLE",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
+        "width": 45.72,
         "surfaceType": null,
         "numberStart": "13",
         "numberEnd": "31",
-        "latStart": 41.758889,
-        "lonStart": -91.732781,
-        "latEnd": 41.751111,
-        "lonEnd": -91.722778,
+        "latStart": 41.89244474,
+        "lonStart": -91.71234449,
+        "latEnd": 41.88021974,
+        "lonEnd": -91.69651449,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 10146
+    "id": 2488
   },
   {
     "type": 1,
@@ -224,33 +142,232 @@
         "surfacetype": 2
       }
     ],
-    "id": 12336
+    "id": 2826
   },
   {
     "type": 1,
-    "icao": "IA77",
-    "lat": 41.02642333,
-    "lon": -91.14181417,
-    "communications": [],
-    "elevation": 755,
+    "icao": "KMUT",
+    "lat": 41.36825567,
+    "lon": -91.14879696,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11977,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 12425,
+        "name": "QUAD CITY CLNC DEL"
+      },
+      {
+        "type": 55,
+        "frequency": 11820,
+        "name": "QUAD CITY APP/DEP"
+      }
+    ],
+    "elevation": 546,
     "tower": false,
-    "name": "Keitzer Field",
+    "name": "MUSCATINE MUNI",
     "runways": [
       {
         "type": 100,
-        "width": 28.96,
+        "width": 30.48,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 41.02957584,
-        "lonStart": -91.14166824,
-        "latEnd": 41.02327082,
-        "lonEnd": -91.1419601,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 41.362297,
+        "lonStart": -91.154439,
+        "latEnd": 41.370183,
+        "lonEnd": -91.137356,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 41.37356168,
+        "lonStart": -91.15792084,
+        "latEnd": 41.366981,
+        "lonEnd": -91.145472,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 3018
+  },
+  {
+    "type": 17,
+    "icao": "1IA7",
+    "lat": 41.66001611,
+    "lon": -91.54766834,
+    "communications": [],
+    "elevation": 838,
+    "tower": false,
+    "name": "[H] University of Iowa Hospitals & Clinic",
+    "runways": [
+      {
+        "type": 102,
+        "width": 14.6,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.66001611,
+        "lonStart": -91.54766834,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.6
+      },
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 41.66001611,
+        "lonStart": -91.54766834,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 6425
+  },
+  {
+    "type": 1,
+    "icao": "2IS4",
+    "lat": 41.33697444,
+    "lon": -91.01320251,
+    "communications": [],
+    "elevation": 552,
+    "tower": false,
+    "name": "Ritter Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 41.33706538,
+        "lonStart": -91.01667096,
+        "latEnd": 41.3368835,
+        "lonEnd": -91.00973406,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 13702
+    "id": 7024
+  },
+  {
+    "type": 17,
+    "icao": "3IA0",
+    "lat": 41.28918361,
+    "lon": -91.68766667,
+    "communications": [],
+    "elevation": 758,
+    "tower": false,
+    "name": "[H] Washington County Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.28918361,
+        "lonStart": -91.68766667,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11
+      }
+    ],
+    "id": 7550
+  },
+  {
+    "type": 1,
+    "icao": "4IA8",
+    "lat": 41.64723083,
+    "lon": -91.95962139,
+    "communications": [],
+    "elevation": 850,
+    "tower": false,
+    "name": "Weiss",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.62,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 41.64947173,
+        "lonStart": -91.96423923,
+        "latEnd": 41.64498993,
+        "lonEnd": -91.95500355,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 8095
+  },
+  {
+    "type": 1,
+    "icao": "7C2",
+    "lat": 41.03336833,
+    "lon": -91.05014501,
+    "communications": [],
+    "elevation": 700,
+    "tower": false,
+    "name": "Sharar Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 41.03351192,
+        "lonStart": -91.05559618,
+        "latEnd": 41.03322474,
+        "lonEnd": -91.04469384,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9521
+  },
+  {
+    "type": 17,
+    "icao": "7IA6",
+    "lat": 41.00307583,
+    "lon": -91.95211667,
+    "communications": [],
+    "elevation": 768,
+    "tower": false,
+    "name": "[H] Jefferson County Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.00307583,
+        "lonStart": -91.95211667,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 9620
   },
   {
     "type": 1,
@@ -287,67 +404,7 @@
         "surfacetype": 2
       }
     ],
-    "id": 15923
-  },
-  {
-    "type": 1,
-    "icao": "KMUT",
-    "lat": 41.3681875,
-    "lon": -91.14866674999999,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11977,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12270,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 52,
-        "frequency": 12425,
-        "name": "QUAD CITY CLNC DEL"
-      },
-      {
-        "type": 55,
-        "frequency": 11820,
-        "name": "QUAD CITY APP/DEP"
-      }
-    ],
-    "elevation": 547,
-    "tower": false,
-    "name": "MUSCATINE MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 41.362297,
-        "lonStart": -91.154439,
-        "latEnd": 41.370183,
-        "lonEnd": -91.137356,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 41.373289,
-        "lonStart": -91.1574,
-        "latEnd": 41.366981,
-        "lonEnd": -91.145472,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 16397
+    "id": 9998
   },
   {
     "type": 1,
@@ -373,33 +430,32 @@
         "surfacetype": 3
       }
     ],
-    "id": 17740
+    "id": 10002
   },
   {
-    "type": 1,
-    "icao": "IA16",
-    "lat": 41.70834916,
-    "lon": -91.50016889,
+    "type": 17,
+    "icao": "8IA0",
+    "lat": 41.43361111,
+    "lon": -91.05416667,
     "communications": [],
-    "elevation": 800,
+    "elevation": 632,
     "tower": false,
-    "name": "Picayune",
+    "name": "[H] Muscatine General",
     "runways": [
       {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 41.70719018,
-        "lonStart": -91.50308864,
-        "latEnd": 41.70950814,
-        "lonEnd": -91.49724914,
-        "length": 0,
-        "surfacetype": 3
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.43361111,
+        "lonStart": -91.05416667,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
       }
     ],
-    "id": 20089
+    "id": 10082
   },
   {
     "type": 1,
@@ -425,33 +481,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 20394
-  },
-  {
-    "type": 1,
-    "icao": "2IS4",
-    "lat": 41.33697444,
-    "lon": -91.01320251,
-    "communications": [],
-    "elevation": 552,
-    "tower": false,
-    "name": "Ritter Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 41.33706538,
-        "lonStart": -91.01667096,
-        "latEnd": 41.3368835,
-        "lonEnd": -91.00973406,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 21522
+    "id": 10084
   },
   {
     "type": 1,
@@ -477,17 +507,95 @@
         "surfacetype": 3
       }
     ],
-    "id": 21855
+    "id": 13239
   },
   {
     "type": 1,
-    "icao": "7C2",
-    "lat": 41.03336833,
-    "lon": -91.05014501,
+    "icao": "C11",
+    "lat": 41.79584027,
+    "lon": -91.87101111999999,
     "communications": [],
-    "elevation": 700,
+    "elevation": 711,
     "tower": false,
-    "name": "Sharar Field",
+    "name": "Amana",
+    "runways": [
+      {
+        "type": 100,
+        "width": 28.96,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 41.7954057,
+        "lonStart": -91.87575851,
+        "latEnd": 41.79627484,
+        "lonEnd": -91.86626373,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14937
+  },
+  {
+    "type": 1,
+    "icao": "IA16",
+    "lat": 41.70834916,
+    "lon": -91.50016889,
+    "communications": [],
+    "elevation": 800,
+    "tower": false,
+    "name": "Picayune",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 41.70719018,
+        "lonStart": -91.50308864,
+        "latEnd": 41.70950814,
+        "lonEnd": -91.49724914,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18151
+  },
+  {
+    "type": 1,
+    "icao": "IA24",
+    "lat": 41.755,
+    "lon": -91.7277795,
+    "communications": [],
+    "elevation": 750,
+    "tower": false,
+    "name": "GREEN CASTLE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 41.758889,
+        "lonStart": -91.732781,
+        "latEnd": 41.751111,
+        "lonEnd": -91.722778,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 18159
+  },
+  {
+    "type": 1,
+    "icao": "IA25",
+    "lat": 41.800569159999995,
+    "lon": -91.43989139,
+    "communications": [],
+    "elevation": 819,
+    "tower": false,
+    "name": "Bartlett Field",
     "runways": [
       {
         "type": 100,
@@ -495,100 +603,205 @@
         "surfaceType": null,
         "numberStart": "09",
         "numberEnd": "27",
-        "latStart": 41.03351192,
-        "lonStart": -91.05559618,
-        "latEnd": 41.03322474,
-        "lonEnd": -91.04469384,
+        "latStart": 41.80068882,
+        "lonStart": -91.44448801,
+        "latEnd": 41.8004495,
+        "lonEnd": -91.43529477,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 23351
+    "id": 18160
   },
   {
     "type": 1,
-    "icao": "KCID",
-    "lat": 41.884733479999994,
-    "lon": -91.71029865999999,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12415,
-        "name": "ATIS"
-      },
-      {
-        "type": 51,
-        "frequency": 11870,
-        "name": "CTAF"
-      },
-      {
-        "type": 51,
-        "frequency": 12295,
-        "name": "UNICOM"
-      },
-      {
-        "type": 52,
-        "frequency": 12545,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 53,
-        "frequency": 12160,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11870,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11905,
-        "name": "APP/DEP"
-      },
-      {
-        "type": 55,
-        "frequency": 11970,
-        "name": "APP/DEP"
-      },
-      {
-        "type": 55,
-        "frequency": 13405,
-        "name": "APP/DEP"
-      }
-    ],
-    "elevation": 869,
-    "tower": true,
-    "name": "The Eastern Iowa",
+    "icao": "IA61",
+    "lat": 41.08029611,
+    "lon": -91.94656167000001,
+    "communications": [],
+    "elevation": 800,
+    "tower": false,
+    "name": "Estle Field",
     "runways": [
       {
         "type": 100,
-        "width": 45.72,
+        "width": 18.29,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 41.88465073,
-        "lonStart": -91.72916844,
-        "latEnd": 41.88427273,
-        "lonEnd": -91.69759144,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 41.07815576,
+        "lonStart": -91.94911833,
+        "latEnd": 41.08243646,
+        "lonEnd": -91.94400501,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       },
       {
         "type": 100,
-        "width": 45.72,
+        "width": 18.29,
         "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 41.89111773,
-        "lonStart": -91.71513238,
-        "latEnd": 41.87889273,
-        "lonEnd": -91.69930238,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 41.08034876,
+        "lonStart": -91.94856186,
+        "latEnd": 41.08024346,
+        "lonEnd": -91.94456148,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 25227
+    "id": 18195
+  },
+  {
+    "type": 17,
+    "icao": "IA72",
+    "lat": 41.97861166,
+    "lon": -91.65517917,
+    "communications": [],
+    "elevation": 850,
+    "tower": false,
+    "name": "[H] Mercy Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.97861166,
+        "lonStart": -91.65517917,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 18205
+  },
+  {
+    "type": 17,
+    "icao": "IA73",
+    "lat": 41.98472249,
+    "lon": -91.66156862,
+    "communications": [],
+    "elevation": 757,
+    "tower": false,
+    "name": "[H] St Lukes Hospital Emergency",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.98472249,
+        "lonStart": -91.66156862,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 18206
+  },
+  {
+    "type": 17,
+    "icao": "IA75",
+    "lat": 41.97583388,
+    "lon": -91.67017945,
+    "communications": [],
+    "elevation": 813,
+    "tower": false,
+    "name": "[H] Mays Island Helistop",
+    "runways": [
+      {
+        "type": 102,
+        "width": 4.6,
+        "surfaceType": 4,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.97583388,
+        "lonStart": -91.67017945,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 4.6
+      }
+    ],
+    "id": 18208
+  },
+  {
+    "type": 1,
+    "icao": "IA77",
+    "lat": 41.02642333,
+    "lon": -91.14181417,
+    "communications": [],
+    "elevation": 755,
+    "tower": false,
+    "name": "Keitzer Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 28.96,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.02957584,
+        "lonStart": -91.14166824,
+        "latEnd": 41.02327082,
+        "lonEnd": -91.1419601,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18210
+  },
+  {
+    "type": 17,
+    "icao": "IA80",
+    "lat": 41.95500194,
+    "lon": -91.65240084,
+    "communications": [],
+    "elevation": 813,
+    "tower": false,
+    "name": "[H] Cedar Rapids Emergency",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.95500194,
+        "lonStart": -91.65240084,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 18213
+  },
+  {
+    "type": 17,
+    "icao": "IA92",
+    "lat": 41.66751527,
+    "lon": -91.60016973,
+    "communications": [],
+    "elevation": 790,
+    "tower": false,
+    "name": "[H] University of Iowa Hospitals & Clinic",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.66751527,
+        "lonStart": -91.60016973,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 18223
   },
   {
     "type": 1,
@@ -638,269 +851,56 @@
         "surfacetype": 2
       }
     ],
-    "id": 26523
+    "id": 18832
   },
   {
     "type": 1,
-    "icao": "4IA8",
-    "lat": 41.64723083,
-    "lon": -91.95962139,
-    "communications": [],
-    "elevation": 850,
+    "icao": "KFFL",
+    "lat": 41.05336175,
+    "lon": -91.98196861,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13202,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 799,
     "tower": false,
-    "name": "Weiss",
+    "name": "FAIRFIELD MUNI",
     "runways": [
       {
         "type": 100,
-        "width": 39.62,
+        "width": 22.86,
         "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 41.64947173,
-        "lonStart": -91.96423923,
-        "latEnd": 41.64498993,
-        "lonEnd": -91.95500355,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.059019,
+        "lonStart": -91.981636,
+        "latEnd": 41.048039,
+        "lonEnd": -91.981544,
         "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 27048
-  },
-  {
-    "type": 17,
-    "icao": "IA80",
-    "lat": 41.95500194,
-    "lon": -91.65240084,
-    "communications": [],
-    "elevation": 813,
-    "tower": false,
-    "name": "[H] Cedar Rapids Emergency",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.95500194,
-        "lonStart": -91.65240084,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 28825
-  },
-  {
-    "type": 17,
-    "icao": "7IA6",
-    "lat": 41.00307583,
-    "lon": -91.95211667,
-    "communications": [],
-    "elevation": 768,
-    "tower": false,
-    "name": "[H] Jefferson County Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.00307583,
-        "lonStart": -91.95211667,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 30599
-  },
-  {
-    "type": 17,
-    "icao": "IA75",
-    "lat": 41.97583388,
-    "lon": -91.67017945,
-    "communications": [],
-    "elevation": 813,
-    "tower": false,
-    "name": "[H] Mays Island Helistop",
-    "runways": [
-      {
-        "type": 102,
-        "width": 4.6,
-        "surfaceType": 4,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.97583388,
-        "lonStart": -91.67017945,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 4.6
-      }
-    ],
-    "id": 31132
-  },
-  {
-    "type": 17,
-    "icao": "IA72",
-    "lat": 41.97861166,
-    "lon": -91.65517917,
-    "communications": [],
-    "elevation": 850,
-    "tower": false,
-    "name": "[H] Mercy Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.97861166,
-        "lonStart": -91.65517917,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 31273
-  },
-  {
-    "type": 17,
-    "icao": "8IA0",
-    "lat": 41.43361111,
-    "lon": -91.05416667,
-    "communications": [],
-    "elevation": 632,
-    "tower": false,
-    "name": "[H] Muscatine General",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.43361111,
-        "lonStart": -91.05416667,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 31502
-  },
-  {
-    "type": 17,
-    "icao": "IA73",
-    "lat": 41.98472249,
-    "lon": -91.66156862,
-    "communications": [],
-    "elevation": 757,
-    "tower": false,
-    "name": "[H] St Lukes Hospital Emergency",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.98472249,
-        "lonStart": -91.66156862,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 32954
-  },
-  {
-    "type": 17,
-    "icao": "1IA7",
-    "lat": 41.66001611,
-    "lon": -91.54766834,
-    "communications": [],
-    "elevation": 838,
-    "tower": false,
-    "name": "[H] University of Iowa Hospitals & Clinic",
-    "runways": [
-      {
-        "type": 102,
-        "width": 14.6,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.66001611,
-        "lonStart": -91.54766834,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 14.6
+        "surfacetype": 1
       },
       {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 2,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 41.66001611,
-        "lonStart": -91.54766834,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
+        "type": 100,
+        "width": 50.29,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 41.053339,
+        "lonStart": -91.986875,
+        "latEnd": 41.05305,
+        "lonEnd": -91.97781944,
+        "length": 0,
+        "surfacetype": 4
       }
     ],
-    "id": 33517
-  },
-  {
-    "type": 17,
-    "icao": "IA92",
-    "lat": 41.66751527,
-    "lon": -91.60016973,
-    "communications": [],
-    "elevation": 790,
-    "tower": false,
-    "name": "[H] University of Iowa Hospitals & Clinic",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.66751527,
-        "lonStart": -91.60016973,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 33518
-  },
-  {
-    "type": 17,
-    "icao": "3IA0",
-    "lat": 41.28918361,
-    "lon": -91.68766667,
-    "communications": [],
-    "elevation": 758,
-    "tower": false,
-    "name": "[H] Washington County Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.28918361,
-        "lonStart": -91.68766667,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11
-      }
-    ],
-    "id": 33733
+    "id": 19138
   }
 ]

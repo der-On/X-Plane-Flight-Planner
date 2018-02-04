@@ -1,6 +1,58 @@
 [
   {
     "type": 1,
+    "icao": "1GA8",
+    "lat": 31.178531380000003,
+    "lon": -83.2265425,
+    "communications": [],
+    "elevation": 225,
+    "tower": false,
+    "name": "South One Ten",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 31.18255594,
+        "lonStart": -83.22754237,
+        "latEnd": 31.17450682,
+        "lonEnd": -83.22554263,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6400
+  },
+  {
+    "type": 1,
+    "icao": "3J8",
+    "lat": 31.66546111,
+    "lon": -83.44710556,
+    "communications": [],
+    "elevation": 327,
+    "tower": false,
+    "name": "Crystal Lake Airpark",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 31.66221886,
+        "lonStart": -83.45008175,
+        "latEnd": 31.66870336,
+        "lonEnd": -83.44412937,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 7596
+  },
+  {
+    "type": 1,
     "icao": "4J2",
     "lat": 31.2125555,
     "lon": -83.22627800000001,
@@ -39,39 +91,116 @@
         "surfacetype": 1
       }
     ],
-    "id": 1668
+    "id": 8130
   },
   {
     "type": 1,
-    "icao": "74GA",
-    "lat": 31.83462694,
-    "lon": -83.21848695,
+    "icao": "09GA",
+    "lat": 31.11129833,
+    "lon": -83.68405834,
     "communications": [],
-    "elevation": 361,
+    "elevation": 230,
     "tower": false,
-    "name": "Bowens Mill Christian Center",
+    "name": "Sunbelt Strip",
     "runways": [
       {
         "type": 100,
-        "width": 30.48,
+        "width": 21.34,
         "surfaceType": null,
         "numberStart": "09",
         "numberEnd": "27",
-        "latStart": 31.83447856,
-        "lonStart": -83.22348831,
-        "latEnd": 31.83477532,
-        "lonEnd": -83.21348559,
+        "latStart": 31.11118346,
+        "lonStart": -83.68790056,
+        "latEnd": 31.1114132,
+        "lonEnd": -83.68021612,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 3068
+    "id": 10506
+  },
+  {
+    "type": 1,
+    "icao": "9GA2",
+    "lat": 31.10518583,
+    "lon": -83.99878556,
+    "communications": [],
+    "elevation": 310,
+    "tower": false,
+    "name": "Lost Creek Farms",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 31.10507574,
+        "lonStart": -84.00246745,
+        "latEnd": 31.10529592,
+        "lonEnd": -83.99510367,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10508
+  },
+  {
+    "type": 17,
+    "icao": "9GA7",
+    "lat": 31.69796416,
+    "lon": -83.26015473,
+    "communications": [],
+    "elevation": 362,
+    "tower": false,
+    "name": "[H] Fitzgerald Jr Womans Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 31.69796416,
+        "lonStart": -83.26015473,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 10512
+  },
+  {
+    "type": 1,
+    "icao": "13GA",
+    "lat": 31.36657194,
+    "lon": -83.75489667,
+    "communications": [],
+    "elevation": 350,
+    "tower": false,
+    "name": "Oak Ridge Plantation",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 31.37089546,
+        "lonStart": -83.75694247,
+        "latEnd": 31.36224842,
+        "lonEnd": -83.75285087,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11010
   },
   {
     "type": 1,
     "icao": "15J",
-    "lat": 31.1378055,
-    "lon": -83.45308675000001,
+    "lat": 31.137339609999998,
+    "lon": -83.45367505499999,
     "communications": [
       {
         "type": 51,
@@ -99,8 +228,8 @@
         "surfaceType": null,
         "numberStart": "05",
         "numberEnd": "23",
-        "latStart": 31.132583,
-        "lonStart": -83.458519,
+        "latStart": 31.13071944,
+        "lonStart": -83.46087222,
         "latEnd": 31.140036,
         "lonEnd": -83.449117,
         "length": 0,
@@ -120,7 +249,91 @@
         "surfacetype": 1
       }
     ],
-    "id": 4120
+    "id": 11102
+  },
+  {
+    "type": 1,
+    "icao": "74GA",
+    "lat": 31.83462694,
+    "lon": -83.21848695,
+    "communications": [],
+    "elevation": 361,
+    "tower": false,
+    "name": "Bowens Mill Christian Center",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 31.83447856,
+        "lonStart": -83.22348831,
+        "latEnd": 31.83477532,
+        "lonEnd": -83.21348559,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13428
+  },
+  {
+    "type": 1,
+    "icao": "75J",
+    "lat": 31.6855555,
+    "lon": -83.6322095,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 389,
+    "tower": false,
+    "name": "TURNER CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 31.689778,
+        "lonStart": -83.633919,
+        "latEnd": 31.681333,
+        "lonEnd": -83.6305,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 13480
+  },
+  {
+    "type": 1,
+    "icao": "GA42",
+    "lat": 31.616843879999998,
+    "lon": -83.88323306,
+    "communications": [],
+    "elevation": 330,
+    "tower": false,
+    "name": "Crowe",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 31.61304108,
+        "lonStart": -83.88386066,
+        "latEnd": 31.62064668,
+        "lonEnd": -83.88260546,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17690
   },
   {
     "type": 1,
@@ -183,59 +396,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 4230
-  },
-  {
-    "type": 1,
-    "icao": "GA42",
-    "lat": 31.616843879999998,
-    "lon": -83.88323306,
-    "communications": [],
-    "elevation": 330,
-    "tower": false,
-    "name": "Crowe",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 31.61304108,
-        "lonStart": -83.88386066,
-        "latEnd": 31.62064668,
-        "lonEnd": -83.88260546,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 5536
-  },
-  {
-    "type": 1,
-    "icao": "3J8",
-    "lat": 31.66546111,
-    "lon": -83.44710556,
-    "communications": [],
-    "elevation": 327,
-    "tower": false,
-    "name": "Crystal Lake Airpark",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 31.66221886,
-        "lonStart": -83.45008175,
-        "latEnd": 31.66870336,
-        "lonEnd": -83.44412937,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 5545
+    "id": 18953
   },
   {
     "type": 1,
@@ -262,8 +423,8 @@
         "type": 100,
         "width": 30.48,
         "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
+        "numberStart": "02",
+        "numberEnd": "20",
         "latStart": 31.676517,
         "lonStart": -83.274633,
         "latEnd": 31.689972,
@@ -285,112 +446,13 @@
         "surfacetype": 3
       }
     ],
-    "id": 7568
-  },
-  {
-    "type": 1,
-    "icao": "KTMA",
-    "lat": 31.429231,
-    "lon": -83.48777833333334,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11852,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12270,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 11952,
-        "name": "VALDOSTA APP/DEP"
-      },
-      {
-        "type": 55,
-        "frequency": 12660,
-        "name": "VALDOSTA APP/DEP"
-      }
-    ],
-    "elevation": 355,
-    "tower": false,
-    "name": "HENRY TIFT MYERS",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 31.433694,
-        "lonStart": -83.494719,
-        "latEnd": 31.420678,
-        "lonEnd": -83.485719,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 31.431983,
-        "lonStart": -83.492203,
-        "latEnd": 31.431175,
-        "lonEnd": -83.480042,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 31.424942,
-        "lonStart": -83.489806,
-        "latEnd": 31.432914,
-        "lonEnd": -83.484181,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 11104
-  },
-  {
-    "type": 1,
-    "icao": "9GA2",
-    "lat": 31.10518583,
-    "lon": -83.99878556,
-    "communications": [],
-    "elevation": 310,
-    "tower": false,
-    "name": "Lost Creek Farms",
-    "runways": [
-      {
-        "type": 100,
-        "width": 27.43,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 31.10507574,
-        "lonStart": -84.00246745,
-        "latEnd": 31.10529592,
-        "lonEnd": -83.99510367,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15522
+    "id": 19179
   },
   {
     "type": 1,
     "icao": "KMGR",
     "lat": 31.08474725,
-    "lon": -83.80306325000001,
+    "lon": -83.8030631675,
     "communications": [
       {
         "type": 50,
@@ -437,40 +499,14 @@
         "numberStart": "16",
         "numberEnd": "34",
         "latStart": 31.0885,
-        "lonStart": -83.803967,
+        "lonStart": -83.80396667,
         "latEnd": 31.078528,
         "lonEnd": -83.799586,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 16285
-  },
-  {
-    "type": 1,
-    "icao": "13GA",
-    "lat": 31.36657194,
-    "lon": -83.75489667,
-    "communications": [],
-    "elevation": 350,
-    "tower": false,
-    "name": "Oak Ridge Plantation",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 31.37089546,
-        "lonStart": -83.75694247,
-        "latEnd": 31.36224842,
-        "lonEnd": -83.75285087,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 18771
+    "id": 19477
   },
   {
     "type": 1,
@@ -528,7 +564,7 @@
         "surfacetype": 2
       }
     ],
-    "id": 22420
+    "id": 19524
   },
   {
     "type": 1,
@@ -560,115 +596,79 @@
         "surfacetype": 1
       }
     ],
-    "id": 22638
+    "id": 19867
   },
   {
     "type": 1,
-    "icao": "1GA8",
-    "lat": 31.178531380000003,
-    "lon": -83.2265425,
-    "communications": [],
-    "elevation": 225,
-    "tower": false,
-    "name": "South One Ten",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 31.18255594,
-        "lonStart": -83.22754237,
-        "latEnd": 31.17450682,
-        "lonEnd": -83.22554263,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23891
-  },
-  {
-    "type": 1,
-    "icao": "09GA",
-    "lat": 31.11129833,
-    "lon": -83.68405834,
-    "communications": [],
-    "elevation": 230,
-    "tower": false,
-    "name": "Sunbelt Strip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 31.11118346,
-        "lonStart": -83.68790056,
-        "latEnd": 31.1114132,
-        "lonEnd": -83.68021612,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 24364
-  },
-  {
-    "type": 1,
-    "icao": "75J",
-    "lat": 31.6855555,
-    "lon": -83.6322095,
+    "icao": "KTMA",
+    "lat": 31.429625055000002,
+    "lon": -83.48805109333334,
     "communications": [
+      {
+        "type": 50,
+        "frequency": 11852,
+        "name": "AWOS 3"
+      },
       {
         "type": 51,
         "frequency": 12270,
         "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11952,
+        "name": "VALDOSTA APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12660,
+        "name": "VALDOSTA APP/DEP"
       }
     ],
-    "elevation": 389,
+    "elevation": 355,
     "tower": false,
-    "name": "TURNER CO",
+    "name": "HENRY TIFT MYERS",
     "runways": [
       {
         "type": 100,
-        "width": 15.24,
+        "width": 30.48,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 31.689778,
-        "lonStart": -83.633919,
-        "latEnd": 31.681333,
-        "lonEnd": -83.6305,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 31.43605833,
+        "lonStart": -83.49635556,
+        "latEnd": 31.420678,
+        "lonEnd": -83.485719,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 31.431983,
+        "lonStart": -83.492203,
+        "latEnd": 31.431175,
+        "lonEnd": -83.480042,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 31.424942,
+        "lonStart": -83.489806,
+        "latEnd": 31.432914,
+        "lonEnd": -83.484181,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 24916
-  },
-  {
-    "type": 17,
-    "icao": "9GA7",
-    "lat": 31.69796416,
-    "lon": -83.26015473,
-    "communications": [],
-    "elevation": 362,
-    "tower": false,
-    "name": "[H] Fitzgerald Jr Womans Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 31.69796416,
-        "lonStart": -83.26015473,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 29744
+    "id": 19892
   }
 ]

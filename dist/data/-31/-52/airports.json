@@ -1,61 +1,9 @@
 [
   {
     "type": 1,
-    "icao": "SIXE",
-    "lat": -30.050277780000002,
-    "lon": -51.44361111,
-    "communications": [],
-    "elevation": 33,
-    "tower": false,
-    "name": "Aeroclube de Eldorado do Sul",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": -30.04964422,
-        "lonStart": -51.45190175,
-        "latEnd": -30.05091134,
-        "lonEnd": -51.43532047,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 635
-  },
-  {
-    "type": 1,
-    "icao": "SSGI",
-    "lat": -30.06027778,
-    "lon": -51.4375,
-    "communications": [],
-    "elevation": 33,
-    "tower": false,
-    "name": "Astral",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": -30.05992137,
-        "lonStart": -51.44216395,
-        "latEnd": -30.06063419,
-        "lonEnd": -51.43283605,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 1284
-  },
-  {
-    "type": 1,
     "icao": "SSBN",
-    "lat": -30.18777778,
-    "lon": -51.182777779999995,
+    "lat": -30.188843795,
+    "lon": -51.1817942,
     "communications": [],
     "elevation": 20,
     "tower": false,
@@ -67,67 +15,15 @@
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": -30.19000906,
-        "lonStart": -51.18740369,
-        "latEnd": -30.1855465,
-        "lonEnd": -51.17815187,
+        "latStart": -30.19043504,
+        "lonStart": -51.18722842,
+        "latEnd": -30.18725255,
+        "lonEnd": -51.17635998,
         "length": 0,
-        "surfacetype": 4
+        "surfacetype": 1
       }
     ],
-    "id": 2478
-  },
-  {
-    "type": 1,
-    "icao": "SJZA",
-    "lat": -30.67638889,
-    "lon": -51.525277775,
-    "communications": [],
-    "elevation": 106,
-    "tower": false,
-    "name": "Capao Alto",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": -30.67547697,
-        "lonStart": -51.52875381,
-        "latEnd": -30.67730081,
-        "lonEnd": -51.52180174,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 4486
-  },
-  {
-    "type": 1,
-    "icao": "SSAU",
-    "lat": -30.747500000000002,
-    "lon": -51.428888889999996,
-    "communications": [],
-    "elevation": 14,
-    "tower": false,
-    "name": "Centeno",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": -30.7460987,
-        "lonStart": -51.43194255,
-        "latEnd": -30.7489013,
-        "lonEnd": -51.42583523,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 4711
+    "id": 4958
   },
   {
     "type": 1,
@@ -153,33 +49,135 @@
         "surfacetype": 4
       }
     ],
-    "id": 5629
+    "id": 25517
+  },
+  {
+    "type": 17,
+    "icao": "SIAN",
+    "lat": -30.03055556,
+    "lon": -51.22027778,
+    "communications": [],
+    "elevation": 56,
+    "tower": false,
+    "name": "[H] Hospital Dom Vicente Scherer",
+    "runways": [
+      {
+        "type": 102,
+        "width": 24.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -30.03055556,
+        "lonStart": -51.22027778,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.1
+      }
+    ],
+    "id": 26071
   },
   {
     "type": 1,
-    "icao": "SSMK",
-    "lat": -30.07305556,
-    "lon": -51.40861111,
+    "icao": "SIXE",
+    "lat": -30.050277780000002,
+    "lon": -51.44361111,
     "communications": [],
-    "elevation": 20,
+    "elevation": 33,
     "tower": false,
-    "name": "El Dorado",
+    "name": "Aeroclube de Eldorado do Sul",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -30.04964422,
+        "lonStart": -51.45190175,
+        "latEnd": -30.05091134,
+        "lonEnd": -51.43532047,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 26648
+  },
+  {
+    "type": 17,
+    "icao": "SJRN",
+    "lat": -30.03138889,
+    "lon": -51.17666667,
+    "communications": [],
+    "elevation": 126,
+    "tower": false,
+    "name": "[H] Carlos Gomes Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 21,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -30.03138889,
+        "lonStart": -51.17666667,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21
+      }
+    ],
+    "id": 27162
+  },
+  {
+    "type": 1,
+    "icao": "SJZA",
+    "lat": -30.67638889,
+    "lon": -51.525277775,
+    "communications": [],
+    "elevation": 106,
+    "tower": false,
+    "name": "Capao Alto",
     "runways": [
       {
         "type": 100,
         "width": 17.98,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": -30.07361317,
-        "lonStart": -51.41060422,
-        "latEnd": -30.07249795,
-        "lonEnd": -51.406618,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -30.67547697,
+        "lonStart": -51.52875381,
+        "latEnd": -30.67730081,
+        "lonEnd": -51.52180174,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 7037
+    "id": 27352
+  },
+  {
+    "type": 1,
+    "icao": "SSAU",
+    "lat": -30.747500000000002,
+    "lon": -51.428888889999996,
+    "communications": [],
+    "elevation": 14,
+    "tower": false,
+    "name": "Centeno",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -30.7460987,
+        "lonStart": -51.43194255,
+        "latEnd": -30.7489013,
+        "lonEnd": -51.42583523,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 28330
   },
   {
     "type": 1,
@@ -205,57 +203,33 @@
         "surfacetype": 4
       }
     ],
-    "id": 9200
+    "id": 28404
   },
   {
-    "type": 17,
-    "icao": "SJRN",
-    "lat": -30.03138889,
-    "lon": -51.17666667,
+    "type": 1,
+    "icao": "SSGI",
+    "lat": -30.06027778,
+    "lon": -51.4375,
     "communications": [],
-    "elevation": 126,
+    "elevation": 33,
     "tower": false,
-    "name": "[H] Carlos Gomes Center",
+    "name": "Astral",
     "runways": [
       {
-        "type": 102,
-        "width": 21,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -30.03138889,
-        "lonStart": -51.17666667,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -30.05992137,
+        "lonStart": -51.44216395,
+        "latEnd": -30.06063419,
+        "lonEnd": -51.43283605,
+        "length": 0,
+        "surfacetype": 4
       }
     ],
-    "id": 28787
-  },
-  {
-    "type": 17,
-    "icao": "SIAN",
-    "lat": -30.03055556,
-    "lon": -51.22027778,
-    "communications": [],
-    "elevation": 56,
-    "tower": false,
-    "name": "[H] Hospital Dom Vicente Scherer",
-    "runways": [
-      {
-        "type": 102,
-        "width": 24.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -30.03055556,
-        "lonStart": -51.22027778,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.1
-      }
-    ],
-    "id": 30326
+    "id": 28465
   },
   {
     "type": 17,
@@ -280,7 +254,33 @@
         "length": 18
       }
     ],
-    "id": 30339
+    "id": 28494
+  },
+  {
+    "type": 1,
+    "icao": "SSMK",
+    "lat": -30.07305556,
+    "lon": -51.40861111,
+    "communications": [],
+    "elevation": 20,
+    "tower": false,
+    "name": "El Dorado",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -30.07361317,
+        "lonStart": -51.41060422,
+        "latEnd": -30.07249795,
+        "lonEnd": -51.406618,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 28617
   },
   {
     "type": 17,
@@ -305,6 +305,6 @@
         "length": 19.5
       }
     ],
-    "id": 30481
+    "id": 29462
   }
 ]

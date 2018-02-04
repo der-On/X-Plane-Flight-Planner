@@ -1,272 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "EDBQ",
-    "lat": 51.6663208,
-    "lon": 13.957250100000001,
-    "communications": [],
-    "elevation": 422,
-    "tower": false,
-    "name": "Bronkow",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 51.66705201,
-        "lonStart": 13.95169789,
-        "latEnd": 51.66829039,
-        "lonEnd": 13.96430431,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 51.66680131,
-        "lonStart": 13.9515864,
-        "latEnd": 51.66313949,
-        "lonEnd": 13.9614118,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 3233
-  },
-  {
-    "type": 1,
-    "icao": "EDDC",
-    "lat": 51.133836370000004,
-    "lon": 13.769357996666665,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11887,
-        "name": "ATIS"
-      },
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12580,
-        "name": "MUNCHEN INFO"
-      },
-      {
-        "type": 54,
-        "frequency": 11970,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12292,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12562,
-        "name": "BERLIN RADAR"
-      }
-    ],
-    "elevation": 752,
-    "tower": true,
-    "name": "Dresden",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 51.124663,
-        "lonStart": 13.75474,
-        "latEnd": 51.14406833,
-        "lonEnd": 13.78138955,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 102,
-        "width": 29.87,
-        "surfaceType": 15,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 51.13277778,
-        "lonStart": 13.77194444,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 29.87
-      }
-    ],
-    "id": 6485
-  },
-  {
-    "type": 1,
-    "icao": "EDAU",
-    "lat": 51.2949260575,
-    "lon": 13.3522359375,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12260,
-        "name": "Riesa Info"
-      }
-    ],
-    "elevation": 321,
-    "tower": true,
-    "name": "EDAU Riesa-GC6hlis",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "12C",
-        "numberEnd": "30C",
-        "latStart": 51.29807617,
-        "lonStart": 13.3435098,
-        "latEnd": 51.29537645,
-        "lonEnd": 13.350988,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 23,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 51.29537546,
-        "lonStart": 13.3509919,
-        "latEnd": 51.29087615,
-        "lonEnd": 13.36345405,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 6644
-  },
-  {
-    "type": 1,
-    "icao": "EDUF",
-    "lat": 51.547928999999996,
-    "lon": 13.2290365,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12580,
-        "name": "BERLIN INFO"
-      },
-      {
-        "type": 54,
-        "frequency": 13012,
-        "name": "INFO"
-      }
-    ],
-    "elevation": 284,
-    "tower": false,
-    "name": "FALKENBERG LONNEWITZ",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 51.546997,
-        "lonStart": 13.220517,
-        "latEnd": 51.548861,
-        "lonEnd": 13.237556,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 7411
-  },
-  {
-    "type": 1,
-    "icao": "EDUS",
-    "lat": 51.607164499999996,
-    "lon": 13.73956525,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12580,
-        "name": "BERLIN INFO"
-      },
-      {
-        "type": 54,
-        "frequency": 12305,
-        "name": "SCHACKESDORF INFO"
-      }
-    ],
-    "elevation": 399,
-    "tower": false,
-    "name": "FINSTERWALDE SCHACKSDORF",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 51.607409,
-        "lonStart": 13.72934,
-        "latEnd": 51.607589,
-        "lonEnd": 13.74666,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 39.93,
-        "surfaceType": null,
-        "numberStart": "09R",
-        "numberEnd": "27L",
-        "latStart": 51.606764,
-        "lonStart": 13.734744,
-        "latEnd": 51.606896,
-        "lonEnd": 13.747517,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 7559
-  },
-  {
-    "type": 1,
-    "icao": "EDAS",
-    "lat": 51.635334,
-    "lon": 13.6736679,
-    "communications": [],
-    "elevation": 384,
-    "tower": false,
-    "name": "Finsterwalde",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 51.635334,
-        "lonStart": 13.66750722,
-        "latEnd": 51.635334,
-        "lonEnd": 13.67982858,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9305
-  },
-  {
-    "type": 1,
     "icao": "EDAK",
     "lat": 51.308557689999994,
     "lon": 13.551729218333334,
@@ -321,96 +55,78 @@
         "surfacetype": 3
       }
     ],
-    "id": 10831
+    "id": 989
   },
   {
     "type": 1,
-    "icao": "ETSH",
-    "lat": 51.7678335,
-    "lon": 13.167667,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12580,
-        "name": "BERLIN INFO"
-      },
-      {
-        "type": 54,
-        "frequency": 12210,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 13050,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12330,
-        "name": "RADAR"
-      },
-      {
-        "type": 55,
-        "frequency": 12985,
-        "name": "RADAR"
-      },
-      {
-        "type": 55,
-        "frequency": 12642,
-        "name": "BERLIN ARR"
-      }
-    ],
-    "elevation": 265,
-    "tower": true,
-    "name": "Holzdorf",
+    "icao": "EDAS",
+    "lat": 51.634405650000005,
+    "lon": 13.672164545,
+    "communications": [],
+    "elevation": 383,
+    "tower": false,
+    "name": "Finsterwalde",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 25,
         "surfaceType": null,
         "numberStart": "09",
         "numberEnd": "27",
-        "latStart": 51.7685,
-        "lonStart": 13.150167,
-        "latEnd": 51.767167,
-        "lonEnd": 13.185167,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 11984
-  },
-  {
-    "type": 1,
-    "icao": "EDOQ",
-    "lat": 51.296,
-    "lon": 13.078363625,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12220,
-        "name": "INFO"
-      }
-    ],
-    "elevation": 501,
-    "tower": true,
-    "name": "OSCHATZ",
-    "runways": [
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 51.29541054,
-        "lonStart": 13.07301305,
-        "latEnd": 51.29658946,
-        "lonEnd": 13.0837142,
+        "latStart": 51.63385627,
+        "lonStart": 13.66467891,
+        "latEnd": 51.63495503,
+        "lonEnd": 13.67965018,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 18721
+    "id": 996
+  },
+  {
+    "type": 1,
+    "icao": "EDAU",
+    "lat": 51.2949260575,
+    "lon": 13.3522359375,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12260,
+        "name": "Riesa Info"
+      }
+    ],
+    "elevation": 320,
+    "tower": true,
+    "name": "Riesa-Göhlis",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "12C",
+        "numberEnd": "30C",
+        "latStart": 51.29807617,
+        "lonStart": 13.3435098,
+        "latEnd": 51.29537645,
+        "lonEnd": 13.350988,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 23,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 51.29537546,
+        "lonStart": 13.3509919,
+        "latEnd": 51.29087615,
+        "lonEnd": 13.36345405,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 998
   },
   {
     "type": 1,
@@ -455,60 +171,428 @@
         "surfacetype": 1
       }
     ],
-    "id": 18823
+    "id": 1016
   },
   {
     "type": 1,
-    "icao": "EDOD",
-    "lat": 51.901699050000005,
-    "lon": 13.196500749999998,
+    "icao": "EDBQ",
+    "lat": 51.672192775,
+    "lon": 13.9603996475,
     "communications": [],
-    "elevation": 335,
+    "elevation": 421,
     "tower": false,
-    "name": "Reinsdorf",
+    "name": "Bronkow",
     "runways": [
       {
         "type": 100,
-        "width": 39.93,
+        "width": 38,
         "surfaceType": null,
-        "numberStart": "10L",
-        "numberEnd": "28R",
-        "latStart": 51.90304978,
-        "lonStart": 13.18741131,
-        "latEnd": 51.90105022,
-        "lonEnd": 13.20579049,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 51.67045874,
+        "lonStart": 13.95416787,
+        "latEnd": 51.67225179,
+        "lonEnd": 13.96643594,
         "length": 0,
         "surfacetype": 3
       },
       {
         "type": 100,
-        "width": 39.93,
+        "width": 38,
         "surfaceType": null,
-        "numberStart": "10R",
-        "numberEnd": "28L",
-        "latStart": 51.90234788,
-        "lonStart": 13.18721116,
-        "latEnd": 51.90034832,
-        "lonEnd": 13.20559004,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 51.6749923,
+        "lonStart": 13.95500383,
+        "latEnd": 51.67106827,
+        "lonEnd": 13.96599095,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 21345
+    "id": 1018
+  },
+  {
+    "type": 1,
+    "icao": "EDBZ",
+    "lat": 51.49166577,
+    "lon": 13.879430634999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12997,
+        "name": "Schwarzheide Info"
+      }
+    ],
+    "elevation": 331,
+    "tower": true,
+    "name": "Schwarzheide - Schipkau",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 51.49084709,
+        "lonStart": 13.87339969,
+        "latEnd": 51.49248445,
+        "lonEnd": 13.88546158,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1027
+  },
+  {
+    "type": 1,
+    "icao": "EDDC",
+    "lat": 51.133846006666666,
+    "lon": 13.769317810000002,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12292,
+        "name": "Dresden Tower"
+      },
+      {
+        "type": 53,
+        "frequency": 12197,
+        "name": "Dresden Ground"
+      },
+      {
+        "type": 52,
+        "frequency": 12175,
+        "name": "Dresden Apron"
+      },
+      {
+        "type": 50,
+        "frequency": 11887,
+        "name": "Dresden ATIS"
+      }
+    ],
+    "elevation": 753,
+    "tower": true,
+    "name": "Dresden",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 51.1246631,
+        "lonStart": 13.7546744,
+        "latEnd": 51.14403092,
+        "lonEnd": 13.78133478,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 30,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 51.132844,
+        "lonStart": 13.77194425,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30
+      }
+    ],
+    "id": 1052
+  },
+  {
+    "type": 1,
+    "icao": "EDOD",
+    "lat": 51.90079323,
+    "lon": 13.19543429,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12285,
+        "name": "Reinsdorf Info"
+      }
+    ],
+    "elevation": 334,
+    "tower": true,
+    "name": "Reinsdorf",
+    "runways": [
+      {
+        "type": 100,
+        "width": 35,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 51.90186823,
+        "lonStart": 13.18623622,
+        "latEnd": 51.89971823,
+        "lonEnd": 13.20463236,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1238
+  },
+  {
+    "type": 1,
+    "icao": "EDOG",
+    "lat": 51.571015685,
+    "lon": 13.05222174,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12230,
+        "name": "Beilrode Info"
+      }
+    ],
+    "elevation": 269,
+    "tower": true,
+    "name": "Torgau-Beilrode",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 51.5702484,
+        "lonStart": 13.04656362,
+        "latEnd": 51.57178297,
+        "lonEnd": 13.05787986,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1241
+  },
+  {
+    "type": 1,
+    "icao": "EDOQ",
+    "lat": 51.296814715,
+    "lon": 13.0792083,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12220,
+        "name": "Oschatz Info"
+      }
+    ],
+    "elevation": 501,
+    "tower": true,
+    "name": "Oschatz",
+    "runways": [
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 51.2958497,
+        "lonStart": 13.07288131,
+        "latEnd": 51.29777973,
+        "lonEnd": 13.08553529,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1250
+  },
+  {
+    "type": 1,
+    "icao": "EDUF",
+    "lat": 51.54829983999999,
+    "lon": 13.228814752857144,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 13012,
+        "name": "Loennewitz Info"
+      }
+    ],
+    "elevation": 284,
+    "tower": false,
+    "name": "Falkenberg - Lönnewitz",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 51.54686883,
+        "lonStart": 13.21960831,
+        "latEnd": 51.54874625,
+        "lonEnd": 13.23664187,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "08L",
+        "numberEnd": "26R",
+        "latStart": 51.54887675,
+        "lonStart": 13.22889441,
+        "latEnd": 51.5494442,
+        "lonEnd": 13.23404601,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "08C",
+        "numberEnd": "26C",
+        "latStart": 51.54558151,
+        "lonStart": 13.20791864,
+        "latEnd": 51.54883656,
+        "lonEnd": 13.23748716,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 14,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 51.54974478,
+        "lonStart": 13.23710687,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.8
+      }
+    ],
+    "id": 1362
+  },
+  {
+    "type": 1,
+    "icao": "EDUS",
+    "lat": 51.60700007250001,
+    "lon": 13.7394584525,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12305,
+        "name": "Schacksdorf Info"
+      }
+    ],
+    "elevation": 398,
+    "tower": false,
+    "name": "Finsterwalde - Schacksdorf",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 51.60724939,
+        "lonStart": 13.72694612,
+        "latEnd": 51.6075881,
+        "lonEnd": 13.7485013,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "09R",
+        "numberEnd": "27L",
+        "latStart": 51.60648245,
+        "lonStart": 13.73502839,
+        "latEnd": 51.60668035,
+        "lonEnd": 13.747358,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1365
+  },
+  {
+    "type": 1,
+    "icao": "ETSH",
+    "lat": 51.76708848,
+    "lon": 13.1722960475,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13050,
+        "name": "Holzdorf Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12330,
+        "name": "Holzdorf Radar"
+      },
+      {
+        "type": 56,
+        "frequency": 12985,
+        "name": "Holzdorf Radar"
+      }
+    ],
+    "elevation": 265,
+    "tower": true,
+    "name": "Holzdorf",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 51.76866335,
+        "lonStart": 13.14589026,
+        "latEnd": 51.76707368,
+        "lonEnd": 13.18929479,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 50,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 51.76995194,
+        "lonStart": 13.1737495,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 50
+      },
+      {
+        "type": 102,
+        "width": 50,
+        "surfaceType": 15,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 51.76266495,
+        "lonStart": 13.18024964,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 50
+      }
+    ],
+    "id": 2092
   },
   {
     "type": 1,
     "icao": "XEDE9",
-    "lat": 51.302971,
-    "lon": 13.227972704999999,
+    "lat": 51.302816345,
+    "lon": 13.22845598,
     "communications": [
       {
         "type": 51,
         "frequency": 12350,
-        "name": "INFO"
+        "name": "Riesa-Canitz Info"
       }
     ],
-    "elevation": 403,
+    "elevation": 402,
     "tower": true,
     "name": "Riesa-Canitz",
     "runways": [
@@ -518,72 +602,14 @@
         "surfaceType": null,
         "numberStart": "09",
         "numberEnd": "27",
-        "latStart": 51.30275349,
-        "lonStart": 13.22133414,
-        "latEnd": 51.30318851,
-        "lonEnd": 13.23461127,
+        "latStart": 51.30258086,
+        "lonStart": 13.22126877,
+        "latEnd": 51.30305183,
+        "lonEnd": 13.23564319,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 21475
-  },
-  {
-    "type": 1,
-    "icao": "EDBZ",
-    "lat": 51.4916611,
-    "lon": 13.8800001,
-    "communications": [],
-    "elevation": 331,
-    "tower": false,
-    "name": "Schwarzheide Schipkau",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 51.49171606,
-        "lonStart": 13.87494337,
-        "latEnd": 51.49160614,
-        "lonEnd": 13.88505683,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23151
-  },
-  {
-    "type": 1,
-    "icao": "EDOG",
-    "lat": 51.5711667,
-    "lon": 13.052166745000001,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12230,
-        "name": "INFO"
-      }
-    ],
-    "elevation": 269,
-    "tower": false,
-    "name": "TORGAU-BEILRODE",
-    "runways": [
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 51.57054162,
-        "lonStart": 13.04646299,
-        "latEnd": 51.57179178,
-        "lonEnd": 13.0578705,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 24800
+    "id": 5385
   }
 ]

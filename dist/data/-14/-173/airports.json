@@ -1,46 +1,10 @@
 [
   {
     "type": 1,
-    "icao": "NSAU",
-    "lat": -13.505172625,
-    "lon": -172.62790372,
-    "communications": [],
-    "elevation": 40,
-    "tower": false,
-    "name": "Asau",
-    "runways": [
-      {
-        "type": 100,
-        "width": 10.97,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": -13.50534948,
-        "lonStart": -172.63087755,
-        "latEnd": -13.50499577,
-        "lonEnd": -172.62492989,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 1250
-  },
-  {
-    "type": 1,
     "icao": "NSFA",
-    "lat": -13.8290356175,
-    "lon": -172.00772040500001,
+    "lat": -13.83002289,
+    "lon": -172.009101965,
     "communications": [
-      {
-        "type": 54,
-        "frequency": 11810,
-        "name": "RDO"
-      },
-      {
-        "type": 54,
-        "frequency": 11850,
-        "name": "RDO"
-      },
       {
         "type": 54,
         "frequency": 11850,
@@ -78,21 +42,35 @@
         "lonEnd": -171.99448198,
         "length": 0,
         "surfacetype": 1
-      },
-      {
-        "type": 101,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": -13.82793772,
-        "lonStart": -172.00634128,
-        "latEnd": -13.82815897,
-        "lonEnd": -172.00633641,
-        "length": 0
       }
     ],
-    "id": 7777
+    "id": 4192
+  },
+  {
+    "type": 1,
+    "icao": "NSAU",
+    "lat": -13.505172625,
+    "lon": -172.62790372,
+    "communications": [],
+    "elevation": 40,
+    "tower": false,
+    "name": "Asau",
+    "runways": [
+      {
+        "type": 100,
+        "width": 10.97,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -13.50534948,
+        "lonStart": -172.63087755,
+        "latEnd": -13.50499577,
+        "lonEnd": -172.62492989,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22866
   },
   {
     "type": 1,
@@ -118,6 +96,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 16622
+    "id": 22868
   }
 ]

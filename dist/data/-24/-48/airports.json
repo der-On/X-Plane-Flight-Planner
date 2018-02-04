@@ -1,29 +1,75 @@
 [
   {
     "type": 1,
-    "icao": "SDOI",
-    "lat": -23.29805556,
-    "lon": -47.691944434999996,
-    "communications": [],
-    "elevation": 2050,
-    "tower": false,
-    "name": "Centro Nacional de Para-quedismo",
+    "icao": "SBKP",
+    "lat": -23.00740011,
+    "lon": -47.13450811,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11825,
+        "name": "CAMPINAS TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12140,
+        "name": "CAMPINAS APP"
+      },
+      {
+        "type": 50,
+        "frequency": 12765,
+        "name": "CAMPINAS ATIS"
+      }
+    ],
+    "elevation": 2169,
+    "tower": true,
+    "name": "Sao Paulo Viracopos",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 45,
         "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": -23.3006063,
-        "lonStart": -47.69408476,
-        "latEnd": -23.29550482,
-        "lonEnd": -47.68980411,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -22.998428,
+        "lonStart": -47.147019,
+        "latEnd": -23.01637222,
+        "lonEnd": -47.12199722,
         "length": 0,
-        "surfacetype": 4
+        "surfacetype": 1
       }
     ],
-    "id": 4726
+    "id": 4632
+  },
+  {
+    "type": 17,
+    "icao": "SDBJ",
+    "lat": -23.70944444,
+    "lon": -47.42555556,
+    "communications": [],
+    "elevation": 810,
+    "tower": false,
+    "name": "[H] Jimenez",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -23.70944444,
+        "lonStart": -47.42555556,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 25356
   },
   {
     "type": 1,
@@ -49,153 +95,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 8032
-  },
-  {
-    "type": 1,
-    "icao": "SDDL",
-    "lat": -23.307499999999997,
-    "lon": -47.933888935,
-    "communications": [],
-    "elevation": 1916,
-    "tower": false,
-    "name": "Fazenda Dois Lagos",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": -23.30820323,
-        "lonStart": -47.93823146,
-        "latEnd": -23.30679677,
-        "lonEnd": -47.92954641,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 8202
-  },
-  {
-    "type": 1,
-    "icao": "SIDN",
-    "lat": -23.425555565,
-    "lon": -47.58138889,
-    "communications": [],
-    "elevation": 1985,
-    "tower": false,
-    "name": "Fazenda Ipanema",
-    "runways": [
-      {
-        "type": 100,
-        "width": 79.86,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": -23.42289039,
-        "lonStart": -47.58601069,
-        "latEnd": -23.42822074,
-        "lonEnd": -47.57676709,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 8353
-  },
-  {
-    "type": 1,
-    "icao": "SIVE",
-    "lat": -23.506944445000002,
-    "lon": -48,
-    "communications": [],
-    "elevation": 2447,
-    "tower": false,
-    "name": "Fazenda Royal",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": -23.51018555,
-        "lonStart": -48.00001245,
-        "latEnd": -23.50370334,
-        "lonEnd": -47.99998755,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 8754
-  },
-  {
-    "type": 1,
-    "icao": "SDIU",
-    "lat": -23.34972222,
-    "lon": -47.327777780000005,
-    "communications": [],
-    "elevation": 2231,
-    "tower": false,
-    "name": "Itu",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": -23.35332119,
-        "lonStart": -47.32776647,
-        "latEnd": -23.34612325,
-        "lonEnd": -47.32778909,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 12604
-  },
-  {
-    "type": 1,
-    "icao": "SBKP",
-    "lat": -23.0073835,
-    "lon": -47.134522000000004,
-    "communications": [
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11825,
-        "name": "CAMPINAS TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12140,
-        "name": "CAMPINAS APP"
-      }
-    ],
-    "elevation": 2170,
-    "tower": true,
-    "name": "Sao Paulo Viracopos",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": -22.998428,
-        "lonStart": -47.147019,
-        "latEnd": -23.016339,
-        "lonEnd": -47.122025,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22999
+    "id": 25360
   },
   {
     "type": 1,
@@ -227,33 +127,33 @@
         "surfacetype": 1
       }
     ],
-    "id": 23861
+    "id": 25386
   },
   {
     "type": 1,
-    "icao": "SDTF",
-    "lat": -23.3318875,
-    "lon": -47.878333,
+    "icao": "SDDL",
+    "lat": -23.307499999999997,
+    "lon": -47.933888935,
     "communications": [],
-    "elevation": 2083,
-    "tower": true,
-    "name": "Tatui",
+    "elevation": 1916,
+    "tower": false,
+    "name": "Fazenda Dois Lagos",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 22.86,
         "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": -23.328953,
-        "lonStart": -47.883844,
-        "latEnd": -23.334822,
-        "lonEnd": -47.872822,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -23.30820323,
+        "lonStart": -47.93823146,
+        "latEnd": -23.30679677,
+        "lonEnd": -47.92954641,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 4
       }
     ],
-    "id": 25077
+    "id": 25407
   },
   {
     "type": 1,
@@ -279,7 +179,260 @@
         "surfacetype": 4
       }
     ],
-    "id": 25349
+    "id": 25437
+  },
+  {
+    "type": 1,
+    "icao": "SDIU",
+    "lat": -23.34972222,
+    "lon": -47.327777780000005,
+    "communications": [],
+    "elevation": 2231,
+    "tower": false,
+    "name": "Itu",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": -23.35332119,
+        "lonStart": -47.32776647,
+        "latEnd": -23.34612325,
+        "lonEnd": -47.32778909,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 25537
+  },
+  {
+    "type": 17,
+    "icao": "SDKU",
+    "lat": -23.06083333,
+    "lon": -47.18527778,
+    "communications": [],
+    "elevation": 705,
+    "tower": false,
+    "name": "[H] Itanhanga",
+    "runways": [
+      {
+        "type": 102,
+        "width": 21,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -23.06083333,
+        "lonStart": -47.18527778,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21
+      }
+    ],
+    "id": 25588
+  },
+  {
+    "type": 17,
+    "icao": "SDMB",
+    "lat": -23.00111111,
+    "lon": -47.11944444,
+    "communications": [],
+    "elevation": 657,
+    "tower": false,
+    "name": "[H] Benteler",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -23.00111111,
+        "lonStart": -47.11944444,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 25619
+  },
+  {
+    "type": 1,
+    "icao": "SDOI",
+    "lat": -23.29805556,
+    "lon": -47.691944434999996,
+    "communications": [],
+    "elevation": 2050,
+    "tower": false,
+    "name": "Centro Nacional de Para-quedismo",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -23.3006063,
+        "lonStart": -47.69408476,
+        "latEnd": -23.29550482,
+        "lonEnd": -47.68980411,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 25674
+  },
+  {
+    "type": 17,
+    "icao": "SDPE",
+    "lat": -23.41277778,
+    "lon": -47.42555556,
+    "communications": [],
+    "elevation": 558,
+    "tower": false,
+    "name": "[H] Pirelli Eden",
+    "runways": [
+      {
+        "type": 102,
+        "width": 20.1,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -23.41277778,
+        "lonStart": -47.42555556,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.1
+      }
+    ],
+    "id": 25696
+  },
+  {
+    "type": 17,
+    "icao": "SDQI",
+    "lat": -23.07222222,
+    "lon": -47.09083333,
+    "communications": [],
+    "elevation": 720,
+    "tower": false,
+    "name": "[H] Fazenda Quilombo",
+    "runways": [
+      {
+        "type": 102,
+        "width": 22,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -23.07222222,
+        "lonStart": -47.09083333,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 22
+      }
+    ],
+    "id": 25726
+  },
+  {
+    "type": 17,
+    "icao": "SDSR",
+    "lat": -23.65861111,
+    "lon": -47.10277778,
+    "communications": [],
+    "elevation": 874,
+    "tower": false,
+    "name": "[H] Subestacao Sao Roque",
+    "runways": [
+      {
+        "type": 102,
+        "width": 34.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -23.65861111,
+        "lonStart": -47.10277778,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 34.1
+      }
+    ],
+    "id": 25786
+  },
+  {
+    "type": 17,
+    "icao": "SDTA",
+    "lat": -23.33194444,
+    "lon": -47.88,
+    "communications": [],
+    "elevation": 633,
+    "tower": false,
+    "name": "[H] Tatui",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -23.33194444,
+        "lonStart": -47.88,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 25793
+  },
+  {
+    "type": 1,
+    "icao": "SDTF",
+    "lat": -23.3318875,
+    "lon": -47.878333,
+    "communications": [],
+    "elevation": 2083,
+    "tower": true,
+    "name": "Tatui",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -23.328953,
+        "lonStart": -47.883844,
+        "latEnd": -23.334822,
+        "lonEnd": -47.872822,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 25797
+  },
+  {
+    "type": 17,
+    "icao": "SDVB",
+    "lat": -23.43777778,
+    "lon": -47.41416667,
+    "communications": [],
+    "elevation": 629,
+    "tower": false,
+    "name": "[H] INA Brasil",
+    "runways": [
+      {
+        "type": 102,
+        "width": 20.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -23.43777778,
+        "lonStart": -47.41416667,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.1
+      }
+    ],
+    "id": 25845
   },
   {
     "type": 1,
@@ -305,357 +458,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 25562
-  },
-  {
-    "type": 17,
-    "icao": "SDMB",
-    "lat": -23.00111111,
-    "lon": -47.11944444,
-    "communications": [],
-    "elevation": 657,
-    "tower": false,
-    "name": "[H] Benteler",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -23.00111111,
-        "lonStart": -47.11944444,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
-      }
-    ],
-    "id": 28429
-  },
-  {
-    "type": 17,
-    "icao": "SNGL",
-    "lat": -23.33194444,
-    "lon": -47.55944444,
-    "communications": [],
-    "elevation": 1949,
-    "tower": false,
-    "name": "[H] Boa Vista",
-    "runways": [
-      {
-        "type": 102,
-        "width": 29.9,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -23.33194444,
-        "lonStart": -47.55944444,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 29.9
-      }
-    ],
-    "id": 28509
-  },
-  {
-    "type": 17,
-    "icao": "SWUF",
-    "lat": -23.25805556,
-    "lon": -47.66055556,
-    "communications": [],
-    "elevation": 628,
-    "tower": false,
-    "name": "[H] Cervejaria Petropolis",
-    "runways": [
-      {
-        "type": 102,
-        "width": 21,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -23.25805556,
-        "lonStart": -47.66055556,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21
-      }
-    ],
-    "id": 28866
-  },
-  {
-    "type": 17,
-    "icao": "SJVJ",
-    "lat": -23.12555556,
-    "lon": -47.70888889,
-    "communications": [],
-    "elevation": 511,
-    "tower": false,
-    "name": "[H] Chacara da Capela",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -23.12555556,
-        "lonStart": -47.70888889,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
-      }
-    ],
-    "id": 28876
-  },
-  {
-    "type": 17,
-    "icao": "SSIZ",
-    "lat": -23.05916667,
-    "lon": -47.0625,
-    "communications": [],
-    "elevation": 687,
-    "tower": false,
-    "name": "[H] Condominio Fazenda da Grama",
-    "runways": [
-      {
-        "type": 102,
-        "width": 19.5,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -23.05916667,
-        "lonStart": -47.0625,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.5
-      }
-    ],
-    "id": 29114
-  },
-  {
-    "type": 17,
-    "icao": "SICI",
-    "lat": -23.50944444,
-    "lon": -47.45805556,
-    "communications": [],
-    "elevation": 633,
-    "tower": false,
-    "name": "[H] Conjunto Hospitalar de Sorocaba",
-    "runways": [
-      {
-        "type": 102,
-        "width": 19.5,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -23.50944444,
-        "lonStart": -47.45805556,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.5
-      }
-    ],
-    "id": 29123
-  },
-  {
-    "type": 17,
-    "icao": "SSUJ",
-    "lat": -23.60722222,
-    "lon": -47.26305556,
-    "communications": [],
-    "elevation": 881,
-    "tower": false,
-    "name": "[H] Estrada do Iate Clube",
-    "runways": [
-      {
-        "type": 102,
-        "width": 20.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -23.60722222,
-        "lonStart": -47.26305556,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20.1
-      }
-    ],
-    "id": 29586
-  },
-  {
-    "type": 17,
-    "icao": "SJBM",
-    "lat": -23.36138889,
-    "lon": -47.56861111,
-    "communications": [],
-    "elevation": 1875,
-    "tower": false,
-    "name": "[H] Fazenda Boa Vista",
-    "runways": [
-      {
-        "type": 102,
-        "width": 24.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -23.36138889,
-        "lonStart": -47.56861111,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.1
-      }
-    ],
-    "id": 29663
-  },
-  {
-    "type": 17,
-    "icao": "SDQI",
-    "lat": -23.07222222,
-    "lon": -47.09083333,
-    "communications": [],
-    "elevation": 720,
-    "tower": false,
-    "name": "[H] Fazenda Quilombo",
-    "runways": [
-      {
-        "type": 102,
-        "width": 22,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -23.07222222,
-        "lonStart": -47.09083333,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 22
-      }
-    ],
-    "id": 29685
-  },
-  {
-    "type": 17,
-    "icao": "SIZP",
-    "lat": -23.05611111,
-    "lon": -47.07916667,
-    "communications": [],
-    "elevation": 666,
-    "tower": false,
-    "name": "[H] Fazenda Sant' Anna da Grama",
-    "runways": [
-      {
-        "type": 102,
-        "width": 20.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -23.05611111,
-        "lonStart": -47.07916667,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20.1
-      }
-    ],
-    "id": 29687
-  },
-  {
-    "type": 17,
-    "icao": "SIXR",
-    "lat": -23.55,
-    "lon": -47.36666667,
-    "communications": [],
-    "elevation": 791,
-    "tower": false,
-    "name": "[H] Fazenda Santa Maria",
-    "runways": [
-      {
-        "type": 102,
-        "width": 28,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -23.55,
-        "lonStart": -47.36666667,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 28
-      }
-    ],
-    "id": 29691
-  },
-  {
-    "type": 17,
-    "icao": "SSWY",
-    "lat": -23.04861111,
-    "lon": -47.16722222,
-    "communications": [],
-    "elevation": 2100,
-    "tower": false,
-    "name": "[H] Flamboyant",
-    "runways": [
-      {
-        "type": 102,
-        "width": 24.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -23.04861111,
-        "lonStart": -47.16722222,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.1
-      }
-    ],
-    "id": 29754
-  },
-  {
-    "type": 17,
-    "icao": "SDZD",
-    "lat": -23.42527778,
-    "lon": -47.36194444,
-    "communications": [],
-    "elevation": 589,
-    "tower": false,
-    "name": "[H] Flextronics Internacional",
-    "runways": [
-      {
-        "type": 102,
-        "width": 24.1,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -23.42527778,
-        "lonStart": -47.36194444,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.1
-      }
-    ],
-    "id": 29757
-  },
-  {
-    "type": 17,
-    "icao": "SJOF",
-    "lat": -23.07361111,
-    "lon": -47.7275,
-    "communications": [],
-    "elevation": 524,
-    "tower": false,
-    "name": "[H] Frango Forte",
-    "runways": [
-      {
-        "type": 102,
-        "width": 20.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -23.07361111,
-        "lonStart": -47.7275,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20.1
-      }
-    ],
-    "id": 29819
+    "id": 25880
   },
   {
     "type": 17,
@@ -680,17 +483,42 @@
         "length": 20.1
       }
     ],
-    "id": 29879
+    "id": 25901
   },
   {
     "type": 17,
-    "icao": "SJPC",
-    "lat": -23.45305556,
-    "lon": -47.42111111,
+    "icao": "SDZD",
+    "lat": -23.42527778,
+    "lon": -47.36194444,
     "communications": [],
-    "elevation": 605,
+    "elevation": 589,
     "tower": false,
-    "name": "[H] Giannone Flavor",
+    "name": "[H] Flextronics Internacional",
+    "runways": [
+      {
+        "type": 102,
+        "width": 24.1,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -23.42527778,
+        "lonStart": -47.36194444,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.1
+      }
+    ],
+    "id": 25949
+  },
+  {
+    "type": 17,
+    "icao": "SICI",
+    "lat": -23.50944444,
+    "lon": -47.45805556,
+    "communications": [],
+    "elevation": 633,
+    "tower": false,
+    "name": "[H] Conjunto Hospitalar de Sorocaba",
     "runways": [
       {
         "type": 102,
@@ -698,189 +526,40 @@
         "surfaceType": 2,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": -23.45305556,
-        "lonStart": -47.42111111,
+        "latStart": -23.50944444,
+        "lonStart": -47.45805556,
         "latEnd": null,
         "lonEnd": null,
         "length": 19.5
       }
     ],
-    "id": 29923
+    "id": 26118
   },
   {
-    "type": 17,
-    "icao": "SJOE",
-    "lat": -23.24638889,
-    "lon": -47.42472222,
+    "type": 1,
+    "icao": "SIDN",
+    "lat": -23.425555565,
+    "lon": -47.58138889,
     "communications": [],
-    "elevation": 526,
+    "elevation": 1985,
     "tower": false,
-    "name": "[H] Haras Cachoeira",
+    "name": "Fazenda Ipanema",
     "runways": [
       {
-        "type": 102,
-        "width": 20.1,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -23.24638889,
-        "lonStart": -47.42472222,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20.1
+        "type": 100,
+        "width": 79.86,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -23.42289039,
+        "lonStart": -47.58601069,
+        "latEnd": -23.42822074,
+        "lonEnd": -47.57676709,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 30121
-  },
-  {
-    "type": 17,
-    "icao": "SWDP",
-    "lat": -23.175,
-    "lon": -47.92416667,
-    "communications": [],
-    "elevation": 2062,
-    "tower": false,
-    "name": "[H] Haras da Mata",
-    "runways": [
-      {
-        "type": 102,
-        "width": 21,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -23.175,
-        "lonStart": -47.92416667,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21
-      }
-    ],
-    "id": 30123
-  },
-  {
-    "type": 17,
-    "icao": "SNZI",
-    "lat": -23.05944444,
-    "lon": -47.15972222,
-    "communications": [],
-    "elevation": 631,
-    "tower": false,
-    "name": "[H] Helvetia",
-    "runways": [
-      {
-        "type": 102,
-        "width": 19.5,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -23.05944444,
-        "lonStart": -47.15972222,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.5
-      }
-    ],
-    "id": 30206
-  },
-  {
-    "type": 17,
-    "icao": "SIKH",
-    "lat": -23.08416667,
-    "lon": -47.18305556,
-    "communications": [],
-    "elevation": 601,
-    "tower": false,
-    "name": "[H] Hotel Vitoria",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -23.08416667,
-        "lonStart": -47.18305556,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
-      }
-    ],
-    "id": 30385
-  },
-  {
-    "type": 17,
-    "icao": "SDVB",
-    "lat": -23.43777778,
-    "lon": -47.41416667,
-    "communications": [],
-    "elevation": 629,
-    "tower": false,
-    "name": "[H] INA Brasil",
-    "runways": [
-      {
-        "type": 102,
-        "width": 20.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -23.43777778,
-        "lonStart": -47.41416667,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20.1
-      }
-    ],
-    "id": 30452
-  },
-  {
-    "type": 17,
-    "icao": "SDKU",
-    "lat": -23.06083333,
-    "lon": -47.18527778,
-    "communications": [],
-    "elevation": 705,
-    "tower": false,
-    "name": "[H] Itanhanga",
-    "runways": [
-      {
-        "type": 102,
-        "width": 21,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -23.06083333,
-        "lonStart": -47.18527778,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21
-      }
-    ],
-    "id": 30548
-  },
-  {
-    "type": 17,
-    "icao": "SDBJ",
-    "lat": -23.70944444,
-    "lon": -47.42555556,
-    "communications": [],
-    "elevation": 810,
-    "tower": false,
-    "name": "[H] Jimenez",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -23.70944444,
-        "lonStart": -47.42555556,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
-      }
-    ],
-    "id": 30618
+    "id": 26148
   },
   {
     "type": 17,
@@ -905,32 +584,32 @@
         "length": 20.1
       }
     ],
-    "id": 30725
+    "id": 26251
   },
   {
     "type": 17,
-    "icao": "SJKF",
-    "lat": -23.50861111,
-    "lon": -47.58194444,
+    "icao": "SIKH",
+    "lat": -23.08416667,
+    "lon": -47.18305556,
     "communications": [],
-    "elevation": 610,
+    "elevation": 601,
     "tower": false,
-    "name": "[H] Lago Azul",
+    "name": "[H] Hotel Vitoria",
     "runways": [
       {
         "type": 102,
         "width": 18,
-        "surfaceType": 3,
+        "surfaceType": 2,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": -23.50861111,
-        "lonStart": -47.58194444,
+        "latStart": -23.08416667,
+        "lonStart": -47.18305556,
         "latEnd": null,
         "lonEnd": null,
         "length": 18
       }
     ],
-    "id": 30809
+    "id": 26321
   },
   {
     "type": 17,
@@ -955,132 +634,7 @@
         "length": 21
       }
     ],
-    "id": 30926
-  },
-  {
-    "type": 17,
-    "icao": "SJHY",
-    "lat": -23.55916667,
-    "lon": -47.19972222,
-    "communications": [],
-    "elevation": 832,
-    "tower": false,
-    "name": "[H] Paiva Air",
-    "runways": [
-      {
-        "type": 102,
-        "width": 21,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -23.55916667,
-        "lonStart": -47.19972222,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21
-      }
-    ],
-    "id": 31855
-  },
-  {
-    "type": 17,
-    "icao": "SDPE",
-    "lat": -23.41277778,
-    "lon": -47.42555556,
-    "communications": [],
-    "elevation": 558,
-    "tower": false,
-    "name": "[H] Pirelli Eden",
-    "runways": [
-      {
-        "type": 102,
-        "width": 20.1,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -23.41277778,
-        "lonStart": -47.42555556,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20.1
-      }
-    ],
-    "id": 32040
-  },
-  {
-    "type": 17,
-    "icao": "SWKD",
-    "lat": -23.25694444,
-    "lon": -47.04111111,
-    "communications": [],
-    "elevation": 2812,
-    "tower": false,
-    "name": "[H] Portal do Japy",
-    "runways": [
-      {
-        "type": 102,
-        "width": 21,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -23.25694444,
-        "lonStart": -47.04111111,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21
-      }
-    ],
-    "id": 32112
-  },
-  {
-    "type": 17,
-    "icao": "SIZD",
-    "lat": -23.38722222,
-    "lon": -47.33027778,
-    "communications": [],
-    "elevation": 638,
-    "tower": false,
-    "name": "[H] Sabre",
-    "runways": [
-      {
-        "type": 102,
-        "width": 19.5,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -23.38722222,
-        "lonStart": -47.33027778,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.5
-      }
-    ],
-    "id": 32505
-  },
-  {
-    "type": 17,
-    "icao": "SJFS",
-    "lat": -23.20805556,
-    "lon": -47.48027778,
-    "communications": [],
-    "elevation": 450,
-    "tower": false,
-    "name": "[H] Sao Joao e Sao Marcos",
-    "runways": [
-      {
-        "type": 102,
-        "width": 21,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -23.20805556,
-        "lonStart": -47.48027778,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21
-      }
-    ],
-    "id": 32568
+    "id": 26354
   },
   {
     "type": 17,
@@ -1105,107 +659,33 @@
         "length": 24.1
       }
     ],
-    "id": 32730
+    "id": 26559
   },
   {
-    "type": 17,
-    "icao": "SWWS",
-    "lat": -23.44527778,
-    "lon": -47.38944444,
+    "type": 1,
+    "icao": "SIVE",
+    "lat": -23.506944445000002,
+    "lon": -48,
     "communications": [],
-    "elevation": 2020,
+    "elevation": 2447,
     "tower": false,
-    "name": "[H] Sorocaba Business Park",
+    "name": "Fazenda Royal",
     "runways": [
       {
-        "type": 102,
-        "width": 21,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -23.44527778,
-        "lonStart": -47.38944444,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": -23.51018555,
+        "lonStart": -48.00001245,
+        "latEnd": -23.50370334,
+        "lonEnd": -47.99998755,
+        "length": 0,
+        "surfacetype": 4
       }
     ],
-    "id": 32778
-  },
-  {
-    "type": 17,
-    "icao": "SDSR",
-    "lat": -23.65861111,
-    "lon": -47.10277778,
-    "communications": [],
-    "elevation": 874,
-    "tower": false,
-    "name": "[H] Subestacao Sao Roque",
-    "runways": [
-      {
-        "type": 102,
-        "width": 34.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -23.65861111,
-        "lonStart": -47.10277778,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 34.1
-      }
-    ],
-    "id": 33113
-  },
-  {
-    "type": 17,
-    "icao": "SDTA",
-    "lat": -23.33194444,
-    "lon": -47.88,
-    "communications": [],
-    "elevation": 633,
-    "tower": false,
-    "name": "[H] Tatui",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -23.33194444,
-        "lonStart": -47.88,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
-      }
-    ],
-    "id": 33220
-  },
-  {
-    "type": 17,
-    "icao": "SJZV",
-    "lat": -23.29833333,
-    "lon": -47.295,
-    "communications": [],
-    "elevation": 621,
-    "tower": false,
-    "name": "[H] Terras de Sao Jose",
-    "runways": [
-      {
-        "type": 102,
-        "width": 21,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -23.29833333,
-        "lonStart": -47.295,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21
-      }
-    ],
-    "id": 33257
+    "id": 26596
   },
   {
     "type": 17,
@@ -1230,7 +710,257 @@
         "length": 20.1
       }
     ],
-    "id": 33623
+    "id": 26610
+  },
+  {
+    "type": 17,
+    "icao": "SIXR",
+    "lat": -23.55,
+    "lon": -47.36666667,
+    "communications": [],
+    "elevation": 791,
+    "tower": false,
+    "name": "[H] Fazenda Santa Maria",
+    "runways": [
+      {
+        "type": 102,
+        "width": 28,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -23.55,
+        "lonStart": -47.36666667,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 28
+      }
+    ],
+    "id": 26660
+  },
+  {
+    "type": 17,
+    "icao": "SIZD",
+    "lat": -23.38722222,
+    "lon": -47.33027778,
+    "communications": [],
+    "elevation": 638,
+    "tower": false,
+    "name": "[H] Sabre",
+    "runways": [
+      {
+        "type": 102,
+        "width": 19.5,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -23.38722222,
+        "lonStart": -47.33027778,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19.5
+      }
+    ],
+    "id": 26697
+  },
+  {
+    "type": 17,
+    "icao": "SIZP",
+    "lat": -23.05611111,
+    "lon": -47.07916667,
+    "communications": [],
+    "elevation": 666,
+    "tower": false,
+    "name": "[H] Fazenda Sant' Anna da Grama",
+    "runways": [
+      {
+        "type": 102,
+        "width": 20.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -23.05611111,
+        "lonStart": -47.07916667,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.1
+      }
+    ],
+    "id": 26708
+  },
+  {
+    "type": 17,
+    "icao": "SJBM",
+    "lat": -23.36138889,
+    "lon": -47.56861111,
+    "communications": [],
+    "elevation": 1875,
+    "tower": false,
+    "name": "[H] Fazenda Boa Vista",
+    "runways": [
+      {
+        "type": 102,
+        "width": 24.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -23.36138889,
+        "lonStart": -47.56861111,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.1
+      }
+    ],
+    "id": 26756
+  },
+  {
+    "type": 17,
+    "icao": "SJFS",
+    "lat": -23.20805556,
+    "lon": -47.48027778,
+    "communications": [],
+    "elevation": 450,
+    "tower": false,
+    "name": "[H] Sao Joao e Sao Marcos",
+    "runways": [
+      {
+        "type": 102,
+        "width": 21,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -23.20805556,
+        "lonStart": -47.48027778,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21
+      }
+    ],
+    "id": 26861
+  },
+  {
+    "type": 17,
+    "icao": "SJHY",
+    "lat": -23.55916667,
+    "lon": -47.19972222,
+    "communications": [],
+    "elevation": 832,
+    "tower": false,
+    "name": "[H] Paiva Air",
+    "runways": [
+      {
+        "type": 102,
+        "width": 21,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -23.55916667,
+        "lonStart": -47.19972222,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21
+      }
+    ],
+    "id": 26918
+  },
+  {
+    "type": 17,
+    "icao": "SJKF",
+    "lat": -23.50861111,
+    "lon": -47.58194444,
+    "communications": [],
+    "elevation": 610,
+    "tower": false,
+    "name": "[H] Lago Azul",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -23.50861111,
+        "lonStart": -47.58194444,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 26974
+  },
+  {
+    "type": 17,
+    "icao": "SJOE",
+    "lat": -23.24638889,
+    "lon": -47.42472222,
+    "communications": [],
+    "elevation": 526,
+    "tower": false,
+    "name": "[H] Haras Cachoeira",
+    "runways": [
+      {
+        "type": 102,
+        "width": 20.1,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -23.24638889,
+        "lonStart": -47.42472222,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.1
+      }
+    ],
+    "id": 27076
+  },
+  {
+    "type": 17,
+    "icao": "SJOF",
+    "lat": -23.07361111,
+    "lon": -47.7275,
+    "communications": [],
+    "elevation": 524,
+    "tower": false,
+    "name": "[H] Frango Forte",
+    "runways": [
+      {
+        "type": 102,
+        "width": 20.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -23.07361111,
+        "lonStart": -47.7275,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.1
+      }
+    ],
+    "id": 27077
+  },
+  {
+    "type": 17,
+    "icao": "SJPC",
+    "lat": -23.45305556,
+    "lon": -47.42111111,
+    "communications": [],
+    "elevation": 605,
+    "tower": false,
+    "name": "[H] Giannone Flavor",
+    "runways": [
+      {
+        "type": 102,
+        "width": 19.5,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -23.45305556,
+        "lonStart": -47.42111111,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19.5
+      }
+    ],
+    "id": 27100
   },
   {
     "type": 17,
@@ -1255,7 +985,157 @@
         "length": 24.1
       }
     ],
-    "id": 33636
+    "id": 27154
+  },
+  {
+    "type": 17,
+    "icao": "SJVJ",
+    "lat": -23.12555556,
+    "lon": -47.70888889,
+    "communications": [],
+    "elevation": 511,
+    "tower": false,
+    "name": "[H] Chacara da Capela",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -23.12555556,
+        "lonStart": -47.70888889,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 27258
+  },
+  {
+    "type": 17,
+    "icao": "SJZV",
+    "lat": -23.29833333,
+    "lon": -47.295,
+    "communications": [],
+    "elevation": 621,
+    "tower": false,
+    "name": "[H] Terras de Sao Jose",
+    "runways": [
+      {
+        "type": 102,
+        "width": 21,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -23.29833333,
+        "lonStart": -47.295,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21
+      }
+    ],
+    "id": 27373
+  },
+  {
+    "type": 17,
+    "icao": "SNGL",
+    "lat": -23.33194444,
+    "lon": -47.55944444,
+    "communications": [],
+    "elevation": 1949,
+    "tower": false,
+    "name": "[H] Boa Vista",
+    "runways": [
+      {
+        "type": 102,
+        "width": 29.9,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -23.33194444,
+        "lonStart": -47.55944444,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.9
+      }
+    ],
+    "id": 27728
+  },
+  {
+    "type": 17,
+    "icao": "SNZI",
+    "lat": -23.05944444,
+    "lon": -47.15972222,
+    "communications": [],
+    "elevation": 631,
+    "tower": false,
+    "name": "[H] Helvetia",
+    "runways": [
+      {
+        "type": 102,
+        "width": 19.5,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -23.05944444,
+        "lonStart": -47.15972222,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19.5
+      }
+    ],
+    "id": 28193
+  },
+  {
+    "type": 17,
+    "icao": "SSIZ",
+    "lat": -23.05916667,
+    "lon": -47.0625,
+    "communications": [],
+    "elevation": 687,
+    "tower": false,
+    "name": "[H] Condominio Fazenda da Grama",
+    "runways": [
+      {
+        "type": 102,
+        "width": 19.5,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -23.05916667,
+        "lonStart": -47.0625,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19.5
+      }
+    ],
+    "id": 28532
+  },
+  {
+    "type": 17,
+    "icao": "SSUJ",
+    "lat": -23.60722222,
+    "lon": -47.26305556,
+    "communications": [],
+    "elevation": 881,
+    "tower": false,
+    "name": "[H] Estrada do Iate Clube",
+    "runways": [
+      {
+        "type": 102,
+        "width": 20.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -23.60722222,
+        "lonStart": -47.26305556,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.1
+      }
+    ],
+    "id": 28801
   },
   {
     "type": 17,
@@ -1280,6 +1160,131 @@
         "length": 18.9
       }
     ],
-    "id": 33941
+    "id": 28835
+  },
+  {
+    "type": 17,
+    "icao": "SSWY",
+    "lat": -23.04861111,
+    "lon": -47.16722222,
+    "communications": [],
+    "elevation": 2100,
+    "tower": false,
+    "name": "[H] Flamboyant",
+    "runways": [
+      {
+        "type": 102,
+        "width": 24.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -23.04861111,
+        "lonStart": -47.16722222,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.1
+      }
+    ],
+    "id": 28866
+  },
+  {
+    "type": 17,
+    "icao": "SWDP",
+    "lat": -23.175,
+    "lon": -47.92416667,
+    "communications": [],
+    "elevation": 2062,
+    "tower": false,
+    "name": "[H] Haras da Mata",
+    "runways": [
+      {
+        "type": 102,
+        "width": 21,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -23.175,
+        "lonStart": -47.92416667,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21
+      }
+    ],
+    "id": 29133
+  },
+  {
+    "type": 17,
+    "icao": "SWKD",
+    "lat": -23.25694444,
+    "lon": -47.04111111,
+    "communications": [],
+    "elevation": 2812,
+    "tower": false,
+    "name": "[H] Portal do Japy",
+    "runways": [
+      {
+        "type": 102,
+        "width": 21,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -23.25694444,
+        "lonStart": -47.04111111,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21
+      }
+    ],
+    "id": 29281
+  },
+  {
+    "type": 17,
+    "icao": "SWUF",
+    "lat": -23.25805556,
+    "lon": -47.66055556,
+    "communications": [],
+    "elevation": 628,
+    "tower": false,
+    "name": "[H] Cervejaria Petropolis",
+    "runways": [
+      {
+        "type": 102,
+        "width": 21,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -23.25805556,
+        "lonStart": -47.66055556,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21
+      }
+    ],
+    "id": 29510
+  },
+  {
+    "type": 17,
+    "icao": "SWWS",
+    "lat": -23.44527778,
+    "lon": -47.38944444,
+    "communications": [],
+    "elevation": 2020,
+    "tower": false,
+    "name": "[H] Sorocaba Business Park",
+    "runways": [
+      {
+        "type": 102,
+        "width": 21,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -23.44527778,
+        "lonStart": -47.38944444,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21
+      }
+    ],
+    "id": 29568
   }
 ]

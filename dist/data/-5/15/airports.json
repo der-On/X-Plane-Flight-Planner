@@ -1,6 +1,63 @@
 [
   {
     "type": 1,
+    "icao": "FZAA",
+    "lat": -4.387230645,
+    "lon": 15.44213367,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12810,
+        "name": "A/G"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "A/G"
+      },
+      {
+        "type": 55,
+        "frequency": 11970,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12050,
+        "name": "APP"
+      }
+    ],
+    "elevation": 1026,
+    "tower": true,
+    "name": "NDJILI INTL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -4.39707139,
+        "lonStart": 15.42685996,
+        "latEnd": -4.3773899,
+        "lonEnd": 15.45740738,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2226
+  },
+  {
+    "type": 1,
     "icao": "FCBB",
     "lat": -4.2516985,
     "lon": 15.253029000000002,
@@ -34,64 +91,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 15944
-  },
-  {
-    "type": 1,
-    "icao": "FZAA",
-    "lat": -4.38575,
-    "lon": 15.4445695,
-    "communications": [
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11810,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12810,
-        "name": "A/G"
-      },
-      {
-        "type": 54,
-        "frequency": 11810,
-        "name": "A/G"
-      },
-      {
-        "type": 55,
-        "frequency": 11970,
-        "name": "APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12050,
-        "name": "APP"
-      }
-    ],
-    "elevation": 1027,
-    "tower": true,
-    "name": "NDJILI INTL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": -4.397167,
-        "lonStart": 15.426722,
-        "latEnd": -4.374333,
-        "lonEnd": 15.462417,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 17863
+    "id": 16984
   },
   {
     "type": 1,
@@ -123,6 +123,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 17865
+    "id": 17624
   }
 ]

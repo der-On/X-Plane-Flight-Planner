@@ -1,35 +1,41 @@
 [
   {
     "type": 1,
-    "icao": "HI33",
-    "lat": 21.944845,
-    "lon": -159.4401375,
-    "communications": [],
-    "elevation": 385,
+    "icao": "PAK",
+    "lat": 21.896905,
+    "lon": -159.603327015,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 23,
     "tower": false,
-    "name": "Haiku Airstrip",
+    "name": "Port Allen",
     "runways": [
       {
         "type": 100,
-        "width": 18.29,
+        "width": 17.98,
         "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 21.944106,
-        "lonStart": -159.443691,
-        "latEnd": 21.945584,
-        "lonEnd": -159.436584,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 21.89750068,
+        "lonStart": -159.60689104,
+        "latEnd": 21.89630932,
+        "lonEnd": -159.59976299,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 11314
+    "id": 4377
   },
   {
     "type": 1,
     "icao": "PHLI",
-    "lat": 21.981803323703705,
-    "lon": -159.34449484777778,
+    "lat": 21.979015457142857,
+    "lon": -159.34191601571428,
     "communications": [
       {
         "type": 50,
@@ -57,7 +63,7 @@
         "name": "TWR"
       }
     ],
-    "elevation": 153,
+    "elevation": 152,
     "tower": true,
     "name": "Lihue - Kauai",
     "runways": [
@@ -89,314 +95,68 @@
       },
       {
         "type": 102,
-        "width": 10.06,
+        "width": 12.19,
         "surfaceType": 2,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 21.98160683,
-        "lonStart": -159.34664668,
+        "latStart": 21.98214563,
+        "lonStart": -159.34683685,
         "latEnd": null,
         "lonEnd": null,
-        "length": 10.06
+        "length": 12.19
       },
       {
         "type": 102,
-        "width": 10.06,
-        "surfaceType": 2,
-        "numberStart": "H10",
-        "numberEnd": null,
-        "latStart": 21.98269982,
-        "lonStart": -159.3454734,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.06
-      },
-      {
-        "type": 102,
-        "width": 10.06,
-        "surfaceType": 2,
-        "numberStart": "H11",
-        "numberEnd": null,
-        "latStart": 21.98282327,
-        "lonStart": -159.34534027,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.06
-      },
-      {
-        "type": 102,
-        "width": 10.06,
-        "surfaceType": 2,
-        "numberStart": "H12",
-        "numberEnd": null,
-        "latStart": 21.98295608,
-        "lonStart": -159.3451998,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.06
-      },
-      {
-        "type": 102,
-        "width": 10.06,
-        "surfaceType": 2,
-        "numberStart": "H13",
-        "numberEnd": null,
-        "latStart": 21.98307187,
-        "lonStart": -159.34507401,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.06
-      },
-      {
-        "type": 102,
-        "width": 10.06,
-        "surfaceType": 2,
-        "numberStart": "H14",
-        "numberEnd": null,
-        "latStart": 21.98319712,
-        "lonStart": -159.34494047,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.06
-      },
-      {
-        "type": 102,
-        "width": 10.06,
-        "surfaceType": 2,
-        "numberStart": "H15",
-        "numberEnd": null,
-        "latStart": 21.98331533,
-        "lonStart": -159.34481375,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.06
-      },
-      {
-        "type": 102,
-        "width": 10.06,
-        "surfaceType": 2,
-        "numberStart": "H16",
-        "numberEnd": null,
-        "latStart": 21.98343705,
-        "lonStart": -159.34468323,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.06
-      },
-      {
-        "type": 102,
-        "width": 10.06,
-        "surfaceType": 2,
-        "numberStart": "H17",
-        "numberEnd": null,
-        "latStart": 21.98355526,
-        "lonStart": -159.34455652,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.06
-      },
-      {
-        "type": 102,
-        "width": 10.06,
-        "surfaceType": 2,
-        "numberStart": "H18",
-        "numberEnd": null,
-        "latStart": 21.9836784,
-        "lonStart": -159.34442448,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.06
-      },
-      {
-        "type": 102,
-        "width": 10.06,
-        "surfaceType": 2,
-        "numberStart": "H19",
-        "numberEnd": null,
-        "latStart": 21.98380224,
-        "lonStart": -159.34429094,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.06
-      },
-      {
-        "type": 102,
-        "width": 10.06,
+        "width": 12.19,
         "surfaceType": 2,
         "numberStart": "H2",
         "numberEnd": null,
-        "latStart": 21.981721,
-        "lonStart": -159.34652246,
+        "latStart": 21.98312285,
+        "lonStart": -159.34578874,
         "latEnd": null,
         "lonEnd": null,
-        "length": 10.06
+        "length": 12.19
       },
       {
         "type": 102,
-        "width": 10.06,
-        "surfaceType": 2,
-        "numberStart": "H20",
-        "numberEnd": null,
-        "latStart": 21.983924,
-        "lonStart": -159.34416194,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.06
-      },
-      {
-        "type": 102,
-        "width": 10.06,
-        "surfaceType": 2,
-        "numberStart": "H21",
-        "numberEnd": null,
-        "latStart": 21.982369,
-        "lonStart": -159.34666383,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.06
-      },
-      {
-        "type": 102,
-        "width": 10.06,
-        "surfaceType": 2,
-        "numberStart": "H22",
-        "numberEnd": null,
-        "latStart": 21.983154,
-        "lonStart": -159.34581343,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.06
-      },
-      {
-        "type": 102,
-        "width": 10.06,
-        "surfaceType": 2,
-        "numberStart": "H23",
-        "numberEnd": null,
-        "latStart": 21.98392823,
-        "lonStart": -159.34497607,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.06
-      },
-      {
-        "type": 102,
-        "width": 10.06,
+        "width": 12.19,
         "surfaceType": 2,
         "numberStart": "H3",
         "numberEnd": null,
-        "latStart": 21.981848,
-        "lonStart": -159.34638814,
+        "latStart": 21.98390272,
+        "lonStart": -159.34495352,
         "latEnd": null,
         "lonEnd": null,
-        "length": 10.06
-      },
-      {
-        "type": 102,
-        "width": 10.06,
-        "surfaceType": 2,
-        "numberStart": "H4",
-        "numberEnd": null,
-        "latStart": 21.98197349,
-        "lonStart": -159.34625281,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.06
-      },
-      {
-        "type": 102,
-        "width": 10.06,
-        "surfaceType": 2,
-        "numberStart": "H5",
-        "numberEnd": null,
-        "latStart": 21.98209337,
-        "lonStart": -159.34612353,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.06
-      },
-      {
-        "type": 102,
-        "width": 10.06,
-        "surfaceType": 2,
-        "numberStart": "H6",
-        "numberEnd": null,
-        "latStart": 21.98221325,
-        "lonStart": -159.34599527,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.06
-      },
-      {
-        "type": 102,
-        "width": 10.06,
-        "surfaceType": 2,
-        "numberStart": "H7",
-        "numberEnd": null,
-        "latStart": 21.98233968,
-        "lonStart": -159.34585994,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.06
-      },
-      {
-        "type": 102,
-        "width": 10.06,
-        "surfaceType": 2,
-        "numberStart": "H8",
-        "numberEnd": null,
-        "latStart": 21.98246313,
-        "lonStart": -159.34572773,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.06
-      },
-      {
-        "type": 102,
-        "width": 10.06,
-        "surfaceType": 2,
-        "numberStart": "H9",
-        "numberEnd": null,
-        "latStart": 21.98258232,
-        "lonStart": -159.34559919,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.06
+        "length": 12.19
       }
     ],
-    "id": 15266
+    "id": 4402
   },
   {
     "type": 1,
-    "icao": "PAK",
-    "lat": 21.896905,
-    "lon": -159.603327015,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 24,
+    "icao": "HI33",
+    "lat": 21.944845,
+    "lon": -159.4401375,
+    "communications": [],
+    "elevation": 385,
     "tower": false,
-    "name": "Port Allen",
+    "name": "Haiku Airstrip",
     "runways": [
       {
         "type": 100,
-        "width": 17.98,
+        "width": 18.29,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 21.89750068,
-        "lonStart": -159.60689104,
-        "latEnd": 21.89630932,
-        "lonEnd": -159.59976299,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 21.944106,
+        "lonStart": -159.443691,
+        "latEnd": 21.945584,
+        "lonEnd": -159.436584,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 20373
+    "id": 17960
   },
   {
     "type": 1,
@@ -422,6 +182,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 20607
+    "id": 17963
   }
 ]

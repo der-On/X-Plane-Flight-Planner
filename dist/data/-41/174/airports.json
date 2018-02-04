@@ -2,11 +2,11 @@
   {
     "type": 1,
     "icao": "NZPP",
-    "lat": -40.90370725,
-    "lon": 174.989209875,
+    "lat": -40.90369106285714,
+    "lon": 174.98815407714284,
     "communications": [
       {
-        "type": 51,
+        "type": 54,
         "frequency": 11830,
         "name": "CTAF"
       },
@@ -31,63 +31,62 @@
         "name": "WELLINGTON APP"
       }
     ],
-    "elevation": 22,
+    "elevation": 21,
     "tower": true,
-    "name": "PARAPARAUMU",
+    "name": "Paraparaumu (Kapiti Coast)",
     "runways": [
+      {
+        "type": 100,
+        "width": 41.99,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -40.89877171,
+        "lonStart": 174.98515635,
+        "latEnd": -40.90434735,
+        "lonEnd": 174.99289267,
+        "length": 0,
+        "surfacetype": 1
+      },
       {
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "16R",
-        "numberEnd": "34L",
-        "latStart": -40.897383,
-        "lonStart": 174.988392,
-        "latEnd": -40.909881,
-        "lonEnd": 174.988953,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -40.89901154,
+        "lonStart": 174.98791365,
+        "latEnd": -40.91162818,
+        "lonEnd": 174.98787285,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 11.89,
-        "surfaceType": null,
-        "numberStart": "11L",
-        "numberEnd": "29R",
-        "latStart": -40.898556,
-        "lonStart": 174.985439,
-        "latEnd": -40.90495,
-        "lonEnd": 174.994227,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 89.92,
+        "width": 85,
         "surfaceType": null,
         "numberStart": "16L",
         "numberEnd": "34R",
-        "latStart": -40.90198042,
-        "lonStart": 174.98928309,
-        "latEnd": -40.90746358,
-        "lonEnd": 174.98905091,
+        "latStart": -40.90217892,
+        "lonStart": 174.98880188,
+        "latEnd": -40.90701282,
+        "lonEnd": 174.98883144,
         "length": 0,
         "surfacetype": 3
       },
       {
-        "type": 100,
-        "width": 89.92,
-        "surfaceType": null,
-        "numberStart": "11R",
-        "numberEnd": "29L",
-        "latStart": -40.9034926,
-        "lonStart": 174.98734983,
-        "latEnd": -40.9059514,
-        "lonEnd": 174.99098417,
-        "length": 0,
-        "surfacetype": 3
+        "type": 102,
+        "width": 18.8,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -40.90288692,
+        "lonStart": 174.9856097,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19
       }
     ],
-    "id": 19218
+    "id": 4265
   }
 ]

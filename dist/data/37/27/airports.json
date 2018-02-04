@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "LTFB",
-    "lat": 37.950736,
-    "lon": 27.328990500000003,
+    "lat": 37.950736004999996,
+    "lon": 27.328937325,
     "communications": [
       {
         "type": 54,
@@ -11,7 +11,7 @@
         "name": "TWR"
       }
     ],
-    "elevation": 10,
+    "elevation": 9,
     "tower": true,
     "name": "EFES",
     "runways": [
@@ -21,53 +21,21 @@
         "surfaceType": null,
         "numberStart": "09",
         "numberEnd": "27",
-        "latStart": 37.950572,
-        "lonStart": 27.319089,
-        "latEnd": 37.9509,
-        "lonEnd": 27.338892,
+        "latStart": 37.95057206,
+        "lonStart": 27.31903909,
+        "latEnd": 37.95089995,
+        "lonEnd": 27.33883556,
         "length": 0,
         "surfacetype": 2
       }
     ],
-    "id": 6663
-  },
-  {
-    "type": 1,
-    "icao": "LTBV",
-    "lat": 37.1401095,
-    "lon": 27.669611,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12600,
-        "name": "BODRUM TWR"
-      }
-    ],
-    "elevation": 202,
-    "tower": true,
-    "name": "IMSIK",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 37.1372,
-        "lonStart": 27.661578,
-        "latEnd": 37.143019,
-        "lonEnd": 27.677644,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 12291
+    "id": 4029
   },
   {
     "type": 1,
     "icao": "LTFE",
-    "lat": 37.2511155,
-    "lon": 27.66535,
+    "lat": 37.2502810325,
+    "lon": 27.6651173025,
     "communications": [
       {
         "type": 50,
@@ -100,24 +68,69 @@
         "name": "MENDERES APP"
       }
     ],
-    "elevation": 21,
+    "elevation": 20,
     "tower": true,
-    "name": "MILAS BODRUM",
+    "name": "Milas Bodrum",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 45,
         "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 37.254967,
-        "lonStart": 27.649214,
-        "latEnd": 37.247264,
-        "lonEnd": 27.681486,
+        "numberStart": "10L",
+        "numberEnd": "28R",
+        "latStart": 37.25495077,
+        "lonStart": 27.64916313,
+        "latEnd": 37.24723232,
+        "lonEnd": 27.68166921,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "10R",
+        "numberEnd": "28L",
+        "latStart": 37.2533319,
+        "lonStart": 27.6485467,
+        "latEnd": 37.24560914,
+        "lonEnd": 27.68109017,
         "length": 0,
         "surfacetype": 2
       }
     ],
-    "id": 16095
+    "id": 4032
+  },
+  {
+    "type": 1,
+    "icao": "LTBV",
+    "lat": 37.1401095,
+    "lon": 27.669611,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12600,
+        "name": "BODRUM TWR"
+      }
+    ],
+    "elevation": 202,
+    "tower": true,
+    "name": "IMSIK",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 37.1372,
+        "lonStart": 27.661578,
+        "latEnd": 37.143019,
+        "lonEnd": 27.677644,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20921
   }
 ]

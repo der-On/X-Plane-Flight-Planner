@@ -1,233 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "KAMW",
-    "lat": 41.99262875,
-    "lon": -93.62183325000001,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13202,
-        "name": "ASOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12270,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 52,
-        "frequency": 12600,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 55,
-        "frequency": 12390,
-        "name": "DES MOINES APP/DEP"
-      }
-    ],
-    "elevation": 955,
-    "tower": false,
-    "name": "AMES MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 41.982703,
-        "lonStart": -93.624758,
-        "latEnd": 41.997692,
-        "lonEnd": -93.618767,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 41.998517,
-        "lonStart": -93.626364,
-        "latEnd": 41.991603,
-        "lonEnd": -93.617444,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 274
-  },
-  {
-    "type": 1,
-    "icao": "KIKV",
-    "lat": 41.69153958,
-    "lon": -93.5664295375,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11917,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 52,
-        "frequency": 12665,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 55,
-        "frequency": 12390,
-        "name": "DES MOINES APP/DEP"
-      }
-    ],
-    "elevation": 910,
-    "tower": false,
-    "name": "ANKENY RGNL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 41.69765015,
-        "lonStart": -93.56582076,
-        "latEnd": 41.68255553,
-        "lonEnd": -93.56582675,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 41.68890132,
-        "lonStart": -93.57247132,
-        "latEnd": 41.69705132,
-        "lonEnd": -93.56159932,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 320
-  },
-  {
-    "type": 1,
-    "icao": "KCNC",
-    "lat": 41.0196165,
-    "lon": -93.3603905,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12552,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 13520,
-        "name": "DES MOINES APP/DEP"
-      }
-    ],
-    "elevation": 1049,
-    "tower": false,
-    "name": "CHARITON MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 41.020769,
-        "lonStart": -93.363467,
-        "latEnd": 41.018539,
-        "lonEnd": -93.349272,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 41.023422,
-        "lonStart": -93.364406,
-        "latEnd": 41.015736,
-        "lonEnd": -93.364417,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 3820
-  },
-  {
-    "type": 1,
-    "icao": "IA47",
-    "lat": 41.64026611,
-    "lon": -93.80855751,
-    "communications": [],
-    "elevation": 999,
-    "tower": false,
-    "name": "Day Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 41.64380402,
-        "lonStart": -93.80847488,
-        "latEnd": 41.6367282,
-        "lonEnd": -93.80864014,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 6079
-  },
-  {
-    "type": 1,
-    "icao": "IA38",
-    "lat": 41.548058,
-    "lon": -93.429169,
-    "communications": [],
-    "elevation": 850,
-    "tower": false,
-    "name": "De Louis Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 41.55038385,
-        "lonStart": -93.42895168,
-        "latEnd": 41.54573215,
-        "lonEnd": -93.42938632,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 6091
-  },
-  {
-    "type": 1,
     "icao": "KDSM",
     "lat": 41.53397225,
     "lon": -93.66307099999999,
@@ -304,251 +77,27 @@
         "surfacetype": 1
       }
     ],
-    "id": 6204
+    "id": 2580
   },
   {
     "type": 1,
-    "icao": "IA56",
-    "lat": 41.78054333,
-    "lon": -93.37937584,
-    "communications": [],
-    "elevation": 916,
-    "tower": false,
-    "name": "Farrar",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 41.7839637,
-        "lonStart": -93.3790551,
-        "latEnd": 41.77712296,
-        "lonEnd": -93.37969658,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 7822
-  },
-  {
-    "type": 1,
-    "icao": "IA86",
-    "lat": 41.26666138,
-    "lon": -93.50938056,
-    "communications": [],
-    "elevation": 990,
-    "tower": false,
-    "name": "Hedgewood Landing",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 41.26727842,
-        "lonStart": -93.51293632,
-        "latEnd": 41.26604434,
-        "lonEnd": -93.5058248,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11630
-  },
-  {
-    "type": 1,
-    "icao": "KOXV",
-    "lat": 41.299099999999996,
-    "lon": -93.1137455,
+    "icao": "KIKV",
+    "lat": 41.691538555,
+    "lon": -93.5664290125,
     "communications": [
       {
         "type": 50,
-        "frequency": 11977,
+        "frequency": 11917,
         "name": "AWOS 3"
       },
       {
         "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 12390,
-        "name": "DES MOINES APP/DEP"
-      }
-    ],
-    "elevation": 928,
-    "tower": false,
-    "name": "KNOXVILLE MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 41.304108,
-        "lonStart": -93.116722,
-        "latEnd": 41.294092,
-        "lonEnd": -93.110769,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 13435
-  },
-  {
-    "type": 1,
-    "icao": "IA48",
-    "lat": 41.741654159999996,
-    "lon": -93.72522223,
-    "communications": [],
-    "elevation": 900,
-    "tower": false,
-    "name": "Kern Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 41.74452727,
-        "lonStart": -93.72495297,
-        "latEnd": 41.73878105,
-        "lonEnd": -93.72549149,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 13781
-  },
-  {
-    "type": 1,
-    "icao": "IA41",
-    "lat": 41.41526944,
-    "lon": -93.56132667,
-    "communications": [],
-    "elevation": 950,
-    "tower": false,
-    "name": "Laverty Fld",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 41.41770187,
-        "lonStart": -93.56414622,
-        "latEnd": 41.41283701,
-        "lonEnd": -93.55850712,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15031
-  },
-  {
-    "type": 1,
-    "icao": "IA79",
-    "lat": 41.45554638,
-    "lon": -93.60160556,
-    "communications": [],
-    "elevation": 950,
-    "tower": false,
-    "name": "Loerke-Fox Run Aerodrome",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 41.45446898,
-        "lonStart": -93.60661888,
-        "latEnd": 41.45662378,
-        "lonEnd": -93.59659224,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15398
-  },
-  {
-    "type": 1,
-    "icao": "Y76",
-    "lat": 41.655544160000005,
-    "lon": -93.64410778,
-    "communications": [],
-    "elevation": 805,
-    "tower": false,
-    "name": "Morningstar Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 54.86,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 41.65835941,
-        "lonStart": -93.64450381,
-        "latEnd": 41.65272891,
-        "lonEnd": -93.64371175,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 17522
-  },
-  {
-    "type": 1,
-    "icao": "IA66",
-    "lat": 41.3038825,
-    "lon": -93.56771556000001,
-    "communications": [],
-    "elevation": 991,
-    "tower": false,
-    "name": "Nash Field Indianola",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 41.30691158,
-        "lonStart": -93.5674336,
-        "latEnd": 41.30085342,
-        "lonEnd": -93.56799752,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 18142
-  },
-  {
-    "type": 1,
-    "icao": "KTNU",
-    "lat": 41.67443317,
-    "lon": -93.0217275,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13227,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
+        "frequency": 12290,
         "name": "CTAF/UNICOM"
       },
       {
         "type": 52,
-        "frequency": 12630,
+        "frequency": 12665,
         "name": "CLNC DEL"
       },
       {
@@ -557,166 +106,63 @@
         "name": "DES MOINES APP/DEP"
       }
     ],
-    "elevation": 953,
+    "elevation": 910,
     "tower": false,
-    "name": "Newton Muni",
+    "name": "ANKENY RGNL",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 30.48,
         "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 41.68042167,
-        "lonStart": -93.028144,
-        "latEnd": 41.66844467,
-        "lonEnd": -93.015311,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.69765015,
+        "lonStart": -93.56582076,
+        "latEnd": 41.68255553,
+        "lonEnd": -93.56582675,
         "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 18297
-  },
-  {
-    "type": 1,
-    "icao": "I75",
-    "lat": 41.052358,
-    "lon": -93.689522,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
+        "surfacetype": 2
       },
-      {
-        "type": 55,
-        "frequency": 13520,
-        "name": "DES MOINES APP/DEP"
-      }
-    ],
-    "elevation": 1110,
-    "tower": false,
-    "name": "OSCEOLA MUNI",
-    "runways": [
       {
         "type": 100,
         "width": 22.86,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 41.057847,
-        "lonStart": -93.689658,
-        "latEnd": 41.046869,
-        "lonEnd": -93.689386,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 41.68890132,
+        "lonStart": -93.57247132,
+        "latEnd": 41.69704722,
+        "lonEnd": -93.56159722,
         "length": 0,
         "surfacetype": 2
       }
     ],
-    "id": 18720
+    "id": 2817
   },
   {
-    "type": 1,
-    "icao": "8C0",
-    "lat": 41.63332305,
-    "lon": -93.20020362,
+    "type": 17,
+    "icao": "0IA0",
+    "lat": 41.31694111,
+    "lon": -93.09603695,
     "communications": [],
-    "elevation": 935,
+    "elevation": 925,
     "tower": false,
-    "name": "Prairie City-Krohn",
+    "name": "[H] Knoxville Area Community Hospital",
     "runways": [
       {
-        "type": 100,
-        "width": 36.58,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 41.63289297,
-        "lonStart": -93.20567842,
-        "latEnd": 41.63375313,
-        "lonEnd": -93.19472882,
-        "length": 0,
-        "surfacetype": 3
+        "type": 102,
+        "width": 19.8,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.31694111,
+        "lonStart": -93.09603695,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19.8
       }
     ],
-    "id": 20498
-  },
-  {
-    "type": 1,
-    "icao": "IA87",
-    "lat": 41.65748805,
-    "lon": -93.82105806,
-    "communications": [],
-    "elevation": 965,
-    "tower": false,
-    "name": "Robel Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 41.65773679,
-        "lonStart": -93.82581919,
-        "latEnd": 41.65723931,
-        "lonEnd": -93.81629693,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 21571
-  },
-  {
-    "type": 1,
-    "icao": "Y42",
-    "lat": 41.75582111,
-    "lon": -93.56660528,
-    "communications": [],
-    "elevation": 965,
-    "tower": false,
-    "name": "Todd Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 41.7593783,
-        "lonStart": -93.56627184,
-        "latEnd": 41.75226392,
-        "lonEnd": -93.56693872,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 25418
-  },
-  {
-    "type": 1,
-    "icao": "IA11",
-    "lat": 41.29388222,
-    "lon": -93.66549528,
-    "communications": [],
-    "elevation": 980,
-    "tower": false,
-    "name": "Too Short",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 41.29525183,
-        "lonStart": -93.66539975,
-        "latEnd": 41.29251261,
-        "lonEnd": -93.66559081,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 25459
+    "id": 5827
   },
   {
     "type": 1,
@@ -742,32 +188,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 27229
-  },
-  {
-    "type": 17,
-    "icao": "6IA9",
-    "lat": 41.0261075,
-    "lon": -93.76799751,
-    "communications": [],
-    "elevation": 1133,
-    "tower": false,
-    "name": "[H] Clarke County Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.0261075,
-        "lonStart": -93.76799751,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 28993
+    "id": 7551
   },
   {
     "type": 17,
@@ -792,17 +213,67 @@
         "length": 18.3
       }
     ],
-    "id": 29331
+    "id": 7553
   },
   {
     "type": 17,
-    "icao": "IA71",
-    "lat": 41.35971472,
-    "lon": -93.55910417,
+    "icao": "5IA0",
+    "lat": 41.70415722,
+    "lon": -93.05158667,
     "communications": [],
-    "elevation": 898,
+    "elevation": 945,
     "tower": false,
-    "name": "[H] Indianola",
+    "name": "[H] Skiff Medical Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 22.9,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.70415722,
+        "lonStart": -93.05158667,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 22.9
+      }
+    ],
+    "id": 8609
+  },
+  {
+    "type": 17,
+    "icao": "6IA4",
+    "lat": 41.61666666,
+    "lon": -93.64055556,
+    "communications": [],
+    "elevation": 876,
+    "tower": false,
+    "name": "[H] Polk County Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 11,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.61666666,
+        "lonStart": -93.64055556,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11
+      }
+    ],
+    "id": 9119
+  },
+  {
+    "type": 17,
+    "icao": "6IA9",
+    "lat": 41.0261075,
+    "lon": -93.76799751,
+    "communications": [],
+    "elevation": 1133,
+    "tower": false,
+    "name": "[H] Clarke County Hospital",
     "runways": [
       {
         "type": 102,
@@ -810,39 +281,283 @@
         "surfaceType": 2,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 41.35971472,
-        "lonStart": -93.55910417,
+        "latStart": 41.0261075,
+        "lonStart": -93.76799751,
         "latEnd": null,
         "lonEnd": null,
         "length": 15.2
       }
     ],
-    "id": 30512
+    "id": 9122
+  },
+  {
+    "type": 1,
+    "icao": "8C0",
+    "lat": 41.63332305,
+    "lon": -93.20020362,
+    "communications": [],
+    "elevation": 935,
+    "tower": false,
+    "name": "Prairie City-Krohn",
+    "runways": [
+      {
+        "type": 100,
+        "width": 36.58,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 41.63289297,
+        "lonStart": -93.20567842,
+        "latEnd": 41.63375313,
+        "lonEnd": -93.19472882,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9995
+  },
+  {
+    "type": 1,
+    "icao": "I75",
+    "lat": 41.05228728,
+    "lon": -93.68911521999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 13520,
+        "name": "DES MOINES APP/DEP"
+      }
+    ],
+    "elevation": 1110,
+    "tower": false,
+    "name": "OSCEOLA MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.05770556,
+        "lonStart": -93.68884444,
+        "latEnd": 41.046869,
+        "lonEnd": -93.689386,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 18124
+  },
+  {
+    "type": 1,
+    "icao": "IA11",
+    "lat": 41.29388222,
+    "lon": -93.66549528,
+    "communications": [],
+    "elevation": 980,
+    "tower": false,
+    "name": "Too Short",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.29525183,
+        "lonStart": -93.66539975,
+        "latEnd": 41.29251261,
+        "lonEnd": -93.66559081,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18147
   },
   {
     "type": 17,
-    "icao": "IA98",
-    "lat": 41.60221111,
-    "lon": -93.61049528,
+    "icao": "IA19",
+    "lat": 41.02749944,
+    "lon": -93.30243139,
     "communications": [],
-    "elevation": 854,
+    "elevation": 1047,
     "tower": false,
-    "name": "[H] Iowa Lutheran Hospital Life Flight",
+    "name": "[H] Lucas County Health Center",
     "runways": [
       {
         "type": 102,
-        "width": 15.9,
-        "surfaceType": 1,
+        "width": 16.8,
+        "surfaceType": 2,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 41.60221111,
-        "lonStart": -93.61049528,
+        "latStart": 41.02749944,
+        "lonStart": -93.30243139,
         "latEnd": null,
         "lonEnd": null,
-        "length": 15.9
+        "length": 16.8
       }
     ],
-    "id": 30538
+    "id": 18154
+  },
+  {
+    "type": 17,
+    "icao": "IA34",
+    "lat": 41.30054888,
+    "lon": -93.62993945,
+    "communications": [],
+    "elevation": 798,
+    "tower": false,
+    "name": "[H] Mahaska County Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.30054888,
+        "lonStart": -93.62993945,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 18169
+  },
+  {
+    "type": 1,
+    "icao": "IA38",
+    "lat": 41.548058,
+    "lon": -93.429169,
+    "communications": [],
+    "elevation": 850,
+    "tower": false,
+    "name": "De Louis Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.55038385,
+        "lonStart": -93.42895168,
+        "latEnd": 41.54573215,
+        "lonEnd": -93.42938632,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18173
+  },
+  {
+    "type": 1,
+    "icao": "IA41",
+    "lat": 41.41526944,
+    "lon": -93.56132667,
+    "communications": [],
+    "elevation": 950,
+    "tower": false,
+    "name": "Laverty Fld",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 41.41770187,
+        "lonStart": -93.56414622,
+        "latEnd": 41.41283701,
+        "lonEnd": -93.55850712,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18176
+  },
+  {
+    "type": 1,
+    "icao": "IA47",
+    "lat": 41.64026611,
+    "lon": -93.80855751,
+    "communications": [],
+    "elevation": 999,
+    "tower": false,
+    "name": "Day Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.64380402,
+        "lonStart": -93.80847488,
+        "latEnd": 41.6367282,
+        "lonEnd": -93.80864014,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18182
+  },
+  {
+    "type": 1,
+    "icao": "IA48",
+    "lat": 41.741654159999996,
+    "lon": -93.72522223,
+    "communications": [],
+    "elevation": 900,
+    "tower": false,
+    "name": "Kern Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.74452727,
+        "lonStart": -93.72495297,
+        "latEnd": 41.73878105,
+        "lonEnd": -93.72549149,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18183
+  },
+  {
+    "type": 1,
+    "icao": "IA56",
+    "lat": 41.78054333,
+    "lon": -93.37937584,
+    "communications": [],
+    "elevation": 916,
+    "tower": false,
+    "name": "Farrar",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.7839637,
+        "lonStart": -93.3790551,
+        "latEnd": 41.77712296,
+        "lonEnd": -93.37969658,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18190
   },
   {
     "type": 17,
@@ -903,67 +618,43 @@
         "length": 21.3
       }
     ],
-    "id": 30539
+    "id": 18198
   },
   {
-    "type": 17,
-    "icao": "0IA0",
-    "lat": 41.31694111,
-    "lon": -93.09603695,
+    "type": 1,
+    "icao": "IA66",
+    "lat": 41.3038825,
+    "lon": -93.56771556000001,
     "communications": [],
-    "elevation": 925,
+    "elevation": 991,
     "tower": false,
-    "name": "[H] Knoxville Area Community Hospital",
+    "name": "Nash Field Indianola",
     "runways": [
       {
-        "type": 102,
-        "width": 19.8,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.31694111,
-        "lonStart": -93.09603695,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.8
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.30691158,
+        "lonStart": -93.5674336,
+        "latEnd": 41.30085342,
+        "lonEnd": -93.56799752,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 30746
+    "id": 18200
   },
   {
     "type": 17,
-    "icao": "IA19",
-    "lat": 41.02749944,
-    "lon": -93.30243139,
+    "icao": "IA71",
+    "lat": 41.35971472,
+    "lon": -93.55910417,
     "communications": [],
-    "elevation": 1047,
+    "elevation": 898,
     "tower": false,
-    "name": "[H] Lucas County Health Center",
-    "runways": [
-      {
-        "type": 102,
-        "width": 16.8,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.02749944,
-        "lonStart": -93.30243139,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 16.8
-      }
-    ],
-    "id": 30962
-  },
-  {
-    "type": 17,
-    "icao": "IA34",
-    "lat": 41.30054888,
-    "lon": -93.62993945,
-    "communications": [],
-    "elevation": 798,
-    "tower": false,
-    "name": "[H] Mahaska County Hospital",
+    "name": "[H] Indianola",
     "runways": [
       {
         "type": 102,
@@ -971,14 +662,40 @@
         "surfaceType": 2,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 41.30054888,
-        "lonStart": -93.62993945,
+        "latStart": 41.35971472,
+        "lonStart": -93.55910417,
         "latEnd": null,
         "lonEnd": null,
         "length": 15.2
       }
     ],
-    "id": 31043
+    "id": 18204
+  },
+  {
+    "type": 1,
+    "icao": "IA79",
+    "lat": 41.45554638,
+    "lon": -93.60160556,
+    "communications": [],
+    "elevation": 950,
+    "tower": false,
+    "name": "Loerke-Fox Run Aerodrome",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 41.45446898,
+        "lonStart": -93.60661888,
+        "latEnd": 41.45662378,
+        "lonEnd": -93.59659224,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18212
   },
   {
     "type": 17,
@@ -1015,57 +732,59 @@
         "length": 18.3
       }
     ],
-    "id": 31280
+    "id": 18215
   },
   {
-    "type": 17,
-    "icao": "6IA4",
-    "lat": 41.61666666,
-    "lon": -93.64055556,
+    "type": 1,
+    "icao": "IA86",
+    "lat": 41.26666138,
+    "lon": -93.50938056,
     "communications": [],
-    "elevation": 876,
+    "elevation": 990,
     "tower": false,
-    "name": "[H] Polk County Hospital",
+    "name": "Hedgewood Landing",
     "runways": [
       {
-        "type": 102,
-        "width": 11,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.61666666,
-        "lonStart": -93.64055556,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 41.26727842,
+        "lonStart": -93.51293632,
+        "latEnd": 41.26604434,
+        "lonEnd": -93.5058248,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 32092
+    "id": 18218
   },
   {
-    "type": 17,
-    "icao": "5IA0",
-    "lat": 41.70415722,
-    "lon": -93.05158667,
+    "type": 1,
+    "icao": "IA87",
+    "lat": 41.65748805,
+    "lon": -93.82105806,
     "communications": [],
-    "elevation": 945,
+    "elevation": 965,
     "tower": false,
-    "name": "[H] Skiff Medical Center",
+    "name": "Robel Field",
     "runways": [
       {
-        "type": 102,
-        "width": 22.9,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.70415722,
-        "lonStart": -93.05158667,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 22.9
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 41.65773679,
+        "lonStart": -93.82581919,
+        "latEnd": 41.65723931,
+        "lonEnd": -93.81629693,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 32736
+    "id": 18219
   },
   {
     "type": 17,
@@ -1090,6 +809,287 @@
         "length": 9.1
       }
     ],
-    "id": 33901
+    "id": 18221
+  },
+  {
+    "type": 17,
+    "icao": "IA98",
+    "lat": 41.60221111,
+    "lon": -93.61049528,
+    "communications": [],
+    "elevation": 854,
+    "tower": false,
+    "name": "[H] Iowa Lutheran Hospital Life Flight",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.9,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.60221111,
+        "lonStart": -93.61049528,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.9
+      }
+    ],
+    "id": 18229
+  },
+  {
+    "type": 1,
+    "icao": "KAMW",
+    "lat": 41.99262875,
+    "lon": -93.62183325000001,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13202,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 12600,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 55,
+        "frequency": 12390,
+        "name": "DES MOINES APP/DEP"
+      }
+    ],
+    "elevation": 955,
+    "tower": false,
+    "name": "AMES MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 41.982703,
+        "lonStart": -93.624758,
+        "latEnd": 41.997692,
+        "lonEnd": -93.618767,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 41.998517,
+        "lonStart": -93.626364,
+        "latEnd": 41.991603,
+        "lonEnd": -93.617444,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 18802
+  },
+  {
+    "type": 1,
+    "icao": "KCNC",
+    "lat": 41.0196165,
+    "lon": -93.3603905,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12552,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 13520,
+        "name": "DES MOINES APP/DEP"
+      }
+    ],
+    "elevation": 1049,
+    "tower": false,
+    "name": "CHARITON MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 41.020769,
+        "lonStart": -93.363467,
+        "latEnd": 41.018539,
+        "lonEnd": -93.349272,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 41.023422,
+        "lonStart": -93.364406,
+        "latEnd": 41.015736,
+        "lonEnd": -93.364417,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 18965
+  },
+  {
+    "type": 1,
+    "icao": "KOXV",
+    "lat": 41.299099999999996,
+    "lon": -93.1137455,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11977,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12390,
+        "name": "DES MOINES APP/DEP"
+      }
+    ],
+    "elevation": 928,
+    "tower": false,
+    "name": "KNOXVILLE MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 41.304108,
+        "lonStart": -93.116722,
+        "latEnd": 41.294092,
+        "lonEnd": -93.110769,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 19653
+  },
+  {
+    "type": 1,
+    "icao": "KTNU",
+    "lat": 41.67443317,
+    "lon": -93.0217275,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13227,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 12630,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 55,
+        "frequency": 12390,
+        "name": "DES MOINES APP/DEP"
+      }
+    ],
+    "elevation": 953,
+    "tower": false,
+    "name": "Newton Muni",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 41.68042167,
+        "lonStart": -93.028144,
+        "latEnd": 41.66844467,
+        "lonEnd": -93.015311,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19895
+  },
+  {
+    "type": 1,
+    "icao": "Y42",
+    "lat": 41.75582111,
+    "lon": -93.56660528,
+    "communications": [],
+    "elevation": 965,
+    "tower": false,
+    "name": "Todd Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.7593783,
+        "lonStart": -93.56627184,
+        "latEnd": 41.75226392,
+        "lonEnd": -93.56693872,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 32551
+  },
+  {
+    "type": 1,
+    "icao": "Y76",
+    "lat": 41.655544160000005,
+    "lon": -93.64410778,
+    "communications": [],
+    "elevation": 805,
+    "tower": false,
+    "name": "Morningstar Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 54.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 41.65835941,
+        "lonStart": -93.64450381,
+        "latEnd": 41.65272891,
+        "lonEnd": -93.64371175,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 32572
   }
 ]

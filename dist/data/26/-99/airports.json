@@ -1,32 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "XS93",
-    "lat": 26.7169995,
-    "lon": -98.55863099999999,
-    "communications": [],
-    "elevation": 420,
-    "tower": false,
-    "name": "DIAMOND O RANCH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 26.721133,
-        "lonStart": -98.563234,
-        "latEnd": 26.712866,
-        "lonEnd": -98.554028,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 5792
-  },
-  {
-    "type": 1,
     "icao": "KEBG",
     "lat": 26.44322751333333,
     "lon": -98.12271817666668,
@@ -77,7 +51,7 @@
         "length": 26.4
       }
     ],
-    "id": 6650
+    "id": 2600
   },
   {
     "type": 1,
@@ -103,39 +77,33 @@
         "surfacetype": 1
       }
     ],
-    "id": 6686
+    "id": 7316
   },
   {
     "type": 1,
-    "icao": "MMRX",
-    "lat": 26.008907,
-    "lon": -98.2285135,
-    "communications": [
-      {
-        "type": 55,
-        "frequency": 11880,
-        "name": "REYNOSA APP/TWR"
-      }
-    ],
-    "elevation": 139,
-    "tower": true,
-    "name": "GENERAL LUCIO BLANCO INTL",
+    "icao": "6T1",
+    "lat": 26.36145777,
+    "lon": -98.15250945,
+    "communications": [],
+    "elevation": 89,
+    "tower": false,
+    "name": "Norman & White",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 91.44,
         "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 26.015558,
-        "lonStart": -98.234497,
-        "latEnd": 26.002256,
-        "lonEnd": -98.22253,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 26.36212634,
+        "lonStart": -98.15858646,
+        "latEnd": 26.3607892,
+        "lonEnd": -98.14643244,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 9941
+    "id": 9383
   },
   {
     "type": 1,
@@ -193,7 +161,148 @@
         "surfacetype": 2
       }
     ],
-    "id": 16240
+    "id": 9886
+  },
+  {
+    "type": 1,
+    "icao": "08TS",
+    "lat": 26.887828329999998,
+    "lon": -98.50723862000001,
+    "communications": [],
+    "elevation": 420,
+    "tower": false,
+    "name": "Puesta Del Sol",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 26.89212071,
+        "lonStart": -98.50928147,
+        "latEnd": 26.88353595,
+        "lonEnd": -98.50519577,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 10348
+  },
+  {
+    "type": 1,
+    "icao": "38XS",
+    "lat": 26.8151945,
+    "lon": -98.479278,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "UNICOM"
+      }
+    ],
+    "elevation": 312,
+    "tower": false,
+    "name": "SAN RAFAEL RANCH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 26.822025,
+        "lonStart": -98.48444,
+        "latEnd": 26.808364,
+        "lonEnd": -98.474116,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12048
+  },
+  {
+    "type": 1,
+    "icao": "43TX",
+    "lat": 26.153130830000002,
+    "lon": -98.13500834000001,
+    "communications": [],
+    "elevation": 91,
+    "tower": false,
+    "name": "Mid-Valley Dusters Inc",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 26.15471887,
+        "lonStart": -98.1373561,
+        "latEnd": 26.15154279,
+        "lonEnd": -98.13266058,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12232
+  },
+  {
+    "type": 1,
+    "icao": "67R",
+    "lat": 26.4232375,
+    "lon": -98.8457045,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 290,
+    "tower": false,
+    "name": "RIO GRANDE CITY MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 26.428456,
+        "lonStart": -98.847642,
+        "latEnd": 26.418019,
+        "lonEnd": -98.843767,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 13166
+  },
+  {
+    "type": 17,
+    "icao": "92TX",
+    "lat": 26.41673388,
+    "lon": -98.13695334,
+    "communications": [],
+    "elevation": 90,
+    "tower": false,
+    "name": "[H] TGP 409",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 26.41673388,
+        "lonStart": -98.13695334,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 14109
   },
   {
     "type": 1,
@@ -245,8 +354,8 @@
         "type": 100,
         "width": 45.72,
         "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
+        "numberStart": "14",
+        "numberEnd": "32",
         "latStart": 26.18288844,
         "lonStart": -98.24629939,
         "latEnd": 26.16775744,
@@ -268,85 +377,39 @@
         "surfacetype": 1
       }
     ],
-    "id": 16878
+    "id": 19473
   },
   {
     "type": 1,
-    "icao": "43TX",
-    "lat": 26.153130830000002,
-    "lon": -98.13500834000001,
-    "communications": [],
-    "elevation": 91,
-    "tower": false,
-    "name": "Mid-Valley Dusters Inc",
+    "icao": "MMRX",
+    "lat": 26.008907,
+    "lon": -98.2285135,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 11880,
+        "name": "REYNOSA APP/TWR"
+      }
+    ],
+    "elevation": 139,
+    "tower": true,
+    "name": "GENERAL LUCIO BLANCO INTL",
     "runways": [
       {
         "type": 100,
-        "width": 27.43,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 26.15471887,
-        "lonStart": -98.1373561,
-        "latEnd": 26.15154279,
-        "lonEnd": -98.13266058,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 26.015558,
+        "lonStart": -98.234497,
+        "latEnd": 26.002256,
+        "lonEnd": -98.22253,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 17147
-  },
-  {
-    "type": 1,
-    "icao": "6T1",
-    "lat": 26.36145777,
-    "lon": -98.15250945,
-    "communications": [],
-    "elevation": 89,
-    "tower": false,
-    "name": "Norman & White",
-    "runways": [
-      {
-        "type": 100,
-        "width": 91.44,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 26.36212634,
-        "lonStart": -98.15858646,
-        "latEnd": 26.3607892,
-        "lonEnd": -98.14643244,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 18416
-  },
-  {
-    "type": 1,
-    "icao": "08TS",
-    "lat": 26.887828329999998,
-    "lon": -98.50723862000001,
-    "communications": [],
-    "elevation": 420,
-    "tower": false,
-    "name": "Puesta Del Sol",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 26.89212071,
-        "lonStart": -98.50928147,
-        "latEnd": 26.88353595,
-        "lonEnd": -98.50519577,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 20604
+    "id": 21505
   },
   {
     "type": 1,
@@ -372,95 +435,32 @@
         "surfacetype": 1
       }
     ],
-    "id": 20644
+    "id": 32452
   },
   {
     "type": 1,
-    "icao": "67R",
-    "lat": 26.4232375,
-    "lon": -98.8457045,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 290,
-    "tower": false,
-    "name": "RIO GRANDE CITY MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 26.428456,
-        "lonStart": -98.847642,
-        "latEnd": 26.418019,
-        "lonEnd": -98.843767,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 20949
-  },
-  {
-    "type": 1,
-    "icao": "38XS",
-    "lat": 26.8151945,
-    "lon": -98.479278,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "UNICOM"
-      }
-    ],
-    "elevation": 312,
-    "tower": false,
-    "name": "SAN RAFAEL RANCH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 26.822025,
-        "lonStart": -98.48444,
-        "latEnd": 26.808364,
-        "lonEnd": -98.474116,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22004
-  },
-  {
-    "type": 17,
-    "icao": "92TX",
-    "lat": 26.41673388,
-    "lon": -98.13695334,
+    "icao": "XS93",
+    "lat": 26.7169995,
+    "lon": -98.55863099999999,
     "communications": [],
-    "elevation": 90,
+    "elevation": 420,
     "tower": false,
-    "name": "[H] TGP 409",
+    "name": "DIAMOND O RANCH",
     "runways": [
       {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 26.41673388,
-        "lonStart": -98.13695334,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 26.721133,
+        "lonStart": -98.563234,
+        "latEnd": 26.712866,
+        "lonEnd": -98.554028,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "id": 33179
+    "id": 32520
   }
 ]

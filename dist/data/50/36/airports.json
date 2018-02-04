@@ -1,9 +1,58 @@
 [
   {
     "type": 1,
+    "icao": "UKHV",
+    "lat": 50.02565431,
+    "lon": 36.268758596666665,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12095,
+        "name": "Sokolniky TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12695,
+        "name": "Sokolniky TWR"
+      }
+    ],
+    "elevation": 600,
+    "tower": true,
+    "name": "KHARKIV NORTH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 50.01831627,
+        "lonStart": 36.26047357,
+        "latEnd": 50.03196627,
+        "lonEnd": 36.27407657,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 39.01,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 50.02668039,
+        "lonStart": 36.27172565,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 42.06
+      }
+    ],
+    "id": 30454
+  },
+  {
+    "type": 1,
     "icao": "UUOB",
-    "lat": 50.644233250000006,
-    "lon": 36.5899925,
+    "lat": 50.644055445000006,
+    "lon": 36.590611195,
     "communications": [
       {
         "type": 53,
@@ -51,61 +100,12 @@
         "numberEnd": "29",
         "latStart": 50.648536,
         "lonStart": 36.575697,
-        "latEnd": 50.638989,
-        "lonEnd": 36.604553,
+        "latEnd": 50.63827778,
+        "lonEnd": 36.60702778,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 1616
-  },
-  {
-    "type": 1,
-    "icao": "UK60",
-    "lat": 50.02565431,
-    "lon": 36.268758596666665,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12095,
-        "name": "Sokolniky TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12695,
-        "name": "Sokolniky TWR"
-      }
-    ],
-    "elevation": 600,
-    "tower": true,
-    "name": "KHARKIV NORTH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 50.01831627,
-        "lonStart": 36.26047357,
-        "latEnd": 50.03196627,
-        "lonEnd": 36.27407657,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 102,
-        "width": 39.01,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 50.02668039,
-        "lonStart": 36.27172565,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 42.06
-      }
-    ],
-    "id": 13338
+    "id": 30632
   }
 ]

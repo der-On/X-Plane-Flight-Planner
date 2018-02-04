@@ -1,6 +1,116 @@
 [
   {
     "type": 1,
+    "icao": "40G",
+    "lat": 35.64993577333333,
+    "lon": -112.14598212666668,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12485,
+        "name": "L.A. CENTER"
+      }
+    ],
+    "elevation": 5999,
+    "tower": false,
+    "name": "Valle",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.02,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 35.645183,
+        "lonStart": -112.150633,
+        "latEnd": 35.655947,
+        "lonEnd": -112.14555,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 35.64867732,
+        "lonStart": -112.14176338,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 391
+  },
+  {
+    "type": 1,
+    "icao": "KCMR",
+    "lat": 35.3028812525,
+    "lon": -112.19417221750001,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12112,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 6678,
+    "tower": false,
+    "name": "H A CLARK MEM FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 35.3132975,
+        "lonStart": -112.19264169,
+        "latEnd": 35.2972825,
+        "lonEnd": -112.19632195,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H15",
+        "numberEnd": null,
+        "latStart": 35.3003593,
+        "lonStart": -112.19388934,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      },
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H14",
+        "numberEnd": null,
+        "latStart": 35.30058571,
+        "lonStart": -112.19383589,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 2507
+  },
+  {
+    "type": 1,
     "icao": "KGCN",
     "lat": 35.961775464642855,
     "lon": -112.13356627107143,
@@ -361,50 +471,13 @@
         "length": 6.1
       }
     ],
-    "id": 10686
-  },
-  {
-    "type": 1,
-    "icao": "KCMR",
-    "lat": 35.3022335,
-    "lon": -112.19405850000001,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12112,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 6678,
-    "tower": false,
-    "name": "H A CLARK MEM FLD",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 35.310278,
-        "lonStart": -112.191928,
-        "latEnd": 35.294189,
-        "lonEnd": -112.196189,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 10927
+    "id": 2700
   },
   {
     "type": 1,
     "icao": "P23",
-    "lat": 35.335,
-    "lon": -112.88722200000001,
+    "lat": 35.335066805,
+    "lon": -112.88649075000001,
     "communications": [
       {
         "type": 51,
@@ -412,7 +485,7 @@
         "name": "CTAF"
       }
     ],
-    "elevation": 5235,
+    "elevation": 5236,
     "tower": false,
     "name": "SELIGMAN",
     "runways": [
@@ -422,77 +495,15 @@
         "surfaceType": null,
         "numberStart": "04",
         "numberEnd": "22",
-        "latStart": 35.331111,
-        "lonStart": -112.893611,
-        "latEnd": 35.338889,
-        "lonEnd": -112.880833,
+        "latStart": 35.33109393,
+        "lonStart": -112.89292531,
+        "latEnd": 35.33903968,
+        "lonEnd": -112.88005619,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 22151
-  },
-  {
-    "type": 1,
-    "icao": "40G",
-    "lat": 35.650565,
-    "lon": -112.14809149999999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 12485,
-        "name": "L.A. CENTER"
-      }
-    ],
-    "elevation": 5999,
-    "tower": false,
-    "name": "Valle",
-    "runways": [
-      {
-        "type": 100,
-        "width": 14.02,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 35.645183,
-        "lonStart": -112.150633,
-        "latEnd": 35.655947,
-        "lonEnd": -112.14555,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 26173
-  },
-  {
-    "type": 17,
-    "icao": "AZ18",
-    "lat": 35.97498416,
-    "lon": -112.13127973,
-    "communications": [],
-    "elevation": 6600,
-    "tower": false,
-    "name": "[H] Madison Aviation",
-    "runways": [
-      {
-        "type": 102,
-        "width": 61,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 35.97498416,
-        "lonStart": -112.13127973,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 91.4
-      }
-    ],
-    "id": 31033
+    "id": 4358
   },
   {
     "type": 17,
@@ -517,6 +528,31 @@
         "length": 61
       }
     ],
-    "id": 33425
+    "id": 7058
+  },
+  {
+    "type": 17,
+    "icao": "AZ18",
+    "lat": 35.97498416,
+    "lon": -112.13127973,
+    "communications": [],
+    "elevation": 6600,
+    "tower": false,
+    "name": "[H] Madison Aviation",
+    "runways": [
+      {
+        "type": 102,
+        "width": 61,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 35.97498416,
+        "lonStart": -112.13127973,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 91.4
+      }
+    ],
+    "id": 14823
   }
 ]

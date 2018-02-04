@@ -23,7 +23,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 286
+    "id": 32643
+  },
+  {
+    "type": 1,
+    "icao": "YCPX",
+    "lat": -12.586297649999999,
+    "lon": 131.30886291500002,
+    "communications": [],
+    "elevation": 46,
+    "tower": false,
+    "name": "RESEARCH STN",
+    "runways": [
+      {
+        "type": 100,
+        "width": 13.11,
+        "surfaceType": null,
+        "numberStart": "1",
+        "numberEnd": "19",
+        "latStart": -12.58120188,
+        "lonStart": 131.3092555,
+        "latEnd": -12.59139342,
+        "lonEnd": 131.30847033,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 33034
   },
   {
     "type": 1,
@@ -49,7 +75,65 @@
         "surfacetype": 3
       }
     ],
-    "id": 4110
+    "id": 33083
+  },
+  {
+    "type": 1,
+    "icao": "YMBN",
+    "lat": -12.84870578,
+    "lon": 131.57573408000002,
+    "communications": [],
+    "elevation": 82,
+    "tower": false,
+    "name": "MOUNT BUNDEY MINE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 35.97,
+        "surfaceType": null,
+        "numberStart": "4",
+        "numberEnd": "22",
+        "latStart": -12.85184866,
+        "lonStart": 131.57237347,
+        "latEnd": -12.8455629,
+        "lonEnd": 131.57909469,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 33773
+  },
+  {
+    "type": 1,
+    "icao": "YMDY",
+    "lat": -12.89009635,
+    "lon": 131.90705559,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12670,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 146,
+    "tower": false,
+    "name": "Mount Bundey",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -12.88704855,
+        "lonStart": 131.90237278,
+        "latEnd": -12.89314415,
+        "lonEnd": 131.9117384,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 33806
   },
   {
     "type": 1,
@@ -94,65 +178,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 7162
-  },
-  {
-    "type": 1,
-    "icao": "YMBN",
-    "lat": -12.84870578,
-    "lon": 131.57573408000002,
-    "communications": [],
-    "elevation": 82,
-    "tower": false,
-    "name": "MOUNT BUNDEY MINE",
-    "runways": [
-      {
-        "type": 100,
-        "width": 35.97,
-        "surfaceType": null,
-        "numberStart": "4",
-        "numberEnd": "22",
-        "latStart": -12.85184866,
-        "lonStart": 131.57237347,
-        "latEnd": -12.8455629,
-        "lonEnd": 131.57909469,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 16291
-  },
-  {
-    "type": 1,
-    "icao": "YMDY",
-    "lat": -12.89009635,
-    "lon": 131.90705559,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12670,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 146,
-    "tower": false,
-    "name": "Mount Bundey",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": -12.88704855,
-        "lonStart": 131.90237278,
-        "latEnd": -12.89314415,
-        "lonEnd": 131.9117384,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 17590
+    "id": 33872
   },
   {
     "type": 1,
@@ -178,33 +204,32 @@
         "surfacetype": 4
       }
     ],
-    "id": 18681
+    "id": 34131
   },
   {
-    "type": 1,
-    "icao": "YCPX",
-    "lat": -12.586297649999999,
-    "lon": 131.30886291500002,
+    "type": 17,
+    "icao": "YSAE",
+    "lat": -12.534221,
+    "lon": 131.050794,
     "communications": [],
-    "elevation": 46,
+    "elevation": 146,
     "tower": false,
-    "name": "RESEARCH STN",
+    "name": "[H] SATTLER",
     "runways": [
       {
-        "type": 100,
-        "width": 13.11,
-        "surfaceType": null,
-        "numberStart": "1",
-        "numberEnd": "19",
-        "latStart": -12.58120188,
-        "lonStart": 131.3092555,
-        "latEnd": -12.59139342,
-        "lonEnd": 131.30847033,
-        "length": 0,
-        "surfacetype": 4
+        "type": 102,
+        "width": 18,
+        "surfaceType": 3,
+        "numberStart": "H9",
+        "numberEnd": null,
+        "latStart": -12.534221,
+        "lonStart": 131.050794,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
       }
     ],
-    "id": 20905
+    "id": 34368
   },
   {
     "type": 1,
@@ -243,31 +268,6 @@
         "surfacetype": 4
       }
     ],
-    "id": 26747
-  },
-  {
-    "type": 17,
-    "icao": "YSAE",
-    "lat": -12.534221,
-    "lon": 131.050794,
-    "communications": [],
-    "elevation": 146,
-    "tower": false,
-    "name": "[H] SATTLER",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 3,
-        "numberStart": "H9",
-        "numberEnd": null,
-        "latStart": -12.534221,
-        "lonStart": 131.050794,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
-      }
-    ],
-    "id": 32471
+    "id": 34762
   }
 ]

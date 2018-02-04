@@ -1,82 +1,9 @@
 [
   {
     "type": 1,
-    "icao": "KBMC",
-    "lat": 41.5523945,
-    "lon": -112.0622165,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13507,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12305,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 52,
-        "frequency": 12600,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 55,
-        "frequency": 12110,
-        "name": "APP/DEP"
-      }
-    ],
-    "elevation": 4229,
-    "tower": false,
-    "name": "Brigham City",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 41.562686,
-        "lonStart": -112.062336,
-        "latEnd": 41.542103,
-        "lonEnd": -112.062097,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 3201
-  },
-  {
-    "type": 1,
-    "icao": "UT48",
-    "lat": 41.150221110000004,
-    "lon": -112.09883223,
-    "communications": [],
-    "elevation": 4260,
-    "tower": false,
-    "name": "LBL Farms",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 41.1514635,
-        "lonStart": -112.10498991,
-        "latEnd": 41.14897872,
-        "lonEnd": -112.09267455,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 14443
-  },
-  {
-    "type": 1,
     "icao": "KOGD",
-    "lat": 41.195919753333335,
-    "lon": -112.01247633333334,
+    "lat": 41.194496534285705,
+    "lon": -112.01400213714285,
     "communications": [
       {
         "type": 50,
@@ -115,71 +42,104 @@
     "runways": [
       {
         "type": 100,
-        "width": 46.02,
+        "width": 45.72,
         "surfaceType": null,
         "numberStart": "03",
         "numberEnd": "21",
-        "latStart": 41.188025,
-        "lonStart": -112.020822,
-        "latEnd": 41.203792,
-        "lonEnd": -112.000069,
+        "latStart": 41.18801901,
+        "lonStart": -112.0208449,
+        "latEnd": 41.20379611,
+        "lonEnd": -112.00007562,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 46.02,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 41.197861,
-        "lonStart": -112.022219,
-        "latEnd": 41.197925,
-        "lonEnd": -112.001875,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 46.02,
+        "width": 30.48,
         "surfaceType": null,
         "numberStart": "16",
         "numberEnd": "34",
-        "latStart": 41.20129052,
-        "lonStart": -112.014967,
-        "latEnd": 41.186625,
-        "lonEnd": -112.014906,
+        "latStart": 41.20087261,
+        "lonStart": -112.01499069,
+        "latEnd": 41.18662291,
+        "lonEnd": -112.01492622,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 41.19786095,
+        "lonStart": -112.02221066,
+        "latEnd": 41.1978954,
+        "lonEnd": -112.0090215,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 41.18640875,
+        "lonStart": -112.01594537,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 3053
+  },
+  {
+    "type": 1,
+    "icao": "KBMC",
+    "lat": 41.554314,
+    "lon": -112.06223878,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13507,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12305,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 12600,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 55,
+        "frequency": 12110,
+        "name": "APP/DEP"
+      }
+    ],
+    "elevation": 4229,
+    "tower": false,
+    "name": "Brigham City",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 41.566525,
+        "lonStart": -112.06238056,
+        "latEnd": 41.542103,
+        "lonEnd": -112.062097,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 18836
-  },
-  {
-    "type": 1,
-    "icao": "UT40",
-    "lat": 41.09833333,
-    "lon": -112.11555555999999,
-    "communications": [],
-    "elevation": 4228,
-    "tower": false,
-    "name": "Payne Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 41.09879479,
-        "lonStart": -112.11784089,
-        "latEnd": 41.09787187,
-        "lonEnd": -112.11327023,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 19883
+    "id": 18880
   },
   {
     "type": 1,
@@ -205,7 +165,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 25554
+    "id": 30180
   },
   {
     "type": 17,
@@ -230,6 +190,58 @@
         "length": 18.3
       }
     ],
-    "id": 28583
+    "id": 30528
+  },
+  {
+    "type": 1,
+    "icao": "UT40",
+    "lat": 41.09833333,
+    "lon": -112.11555555999999,
+    "communications": [],
+    "elevation": 4228,
+    "tower": false,
+    "name": "Payne Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 41.09879479,
+        "lonStart": -112.11784089,
+        "latEnd": 41.09787187,
+        "lonEnd": -112.11327023,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 30551
+  },
+  {
+    "type": 1,
+    "icao": "UT48",
+    "lat": 41.150221110000004,
+    "lon": -112.09883223,
+    "communications": [],
+    "elevation": 4260,
+    "tower": false,
+    "name": "LBL Farms",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 41.1514635,
+        "lonStart": -112.10498991,
+        "latEnd": 41.14897872,
+        "lonEnd": -112.09267455,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 30558
   }
 ]

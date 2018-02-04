@@ -1,63 +1,39 @@
 [
   {
     "type": 1,
-    "icao": "KSEP",
-    "lat": 32.21539275,
-    "lon": -98.1791325,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11807,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 1320,
+    "icao": "0F6",
+    "lat": 32.20430416,
+    "lon": -98.66561001,
+    "communications": [],
+    "elevation": 1452,
     "tower": false,
-    "name": "CLARK FLD MUNI",
+    "name": "Gorman",
     "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 32.220286,
-        "lonStart": -98.181158,
-        "latEnd": 32.210372,
-        "lonEnd": -98.174203,
-        "length": 0,
-        "surfacetype": 1
-      },
       {
         "type": 100,
         "width": 15.24,
         "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 32.212794,
-        "lonStart": -98.183144,
-        "latEnd": 32.218119,
-        "lonEnd": -98.178025,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 32.2077439,
+        "lonStart": -98.66654852,
+        "latEnd": 32.20086442,
+        "lonEnd": -98.6646715,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 4
       }
     ],
-    "id": 3962
+    "id": 5782
   },
   {
     "type": 1,
-    "icao": "TE40",
-    "lat": 32.674846110000004,
-    "lon": -98.82617583999999,
+    "icao": "0TS7",
+    "lat": 32.83345944,
+    "lon": -98.12532223,
     "communications": [],
-    "elevation": 1387,
+    "elevation": 978,
     "tower": false,
-    "name": "Caselman Ranch",
+    "name": "Flying U",
     "runways": [
       {
         "type": 100,
@@ -65,15 +41,67 @@
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 32.67769821,
-        "lonStart": -98.82569964,
-        "latEnd": 32.67199401,
-        "lonEnd": -98.82665204,
+        "latStart": 32.83727099,
+        "lonStart": -98.12476525,
+        "latEnd": 32.82964789,
+        "lonEnd": -98.12587921,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 4615
+    "id": 6185
+  },
+  {
+    "type": 1,
+    "icao": "2TX2",
+    "lat": 32.02653527,
+    "lon": -98.01003389,
+    "communications": [],
+    "elevation": 1050,
+    "tower": false,
+    "name": "Ray Smith Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 32.02434463,
+        "lonStart": -98.011981,
+        "latEnd": 32.02872591,
+        "lonEnd": -98.00808678,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7342
+  },
+  {
+    "type": 1,
+    "icao": "04F",
+    "lat": 32.098752219999994,
+    "lon": -98.52532639,
+    "communications": [],
+    "elevation": 1293,
+    "tower": false,
+    "name": "De Leon Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 6.1,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 32.10178213,
+        "lonStart": -98.52684459,
+        "latEnd": 32.09572231,
+        "lonEnd": -98.52380819,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 8030
   },
   {
     "type": 1,
@@ -99,7 +127,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 5373
+    "id": 8368
   },
   {
     "type": 1,
@@ -131,96 +159,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 5888
-  },
-  {
-    "type": 1,
-    "icao": "04F",
-    "lat": 32.098752219999994,
-    "lon": -98.52532639,
-    "communications": [],
-    "elevation": 1293,
-    "tower": false,
-    "name": "De Leon Municipal",
-    "runways": [
-      {
-        "type": 100,
-        "width": 6.1,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 32.10178213,
-        "lonStart": -98.52684459,
-        "latEnd": 32.09572231,
-        "lonEnd": -98.52380819,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 6090
-  },
-  {
-    "type": 1,
-    "icao": "73XS",
-    "lat": 32.44596611,
-    "lon": -98.37115945,
-    "communications": [],
-    "elevation": 1055,
-    "tower": false,
-    "name": "Dearing Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 32.4490698,
-        "lonStart": -98.37070787,
-        "latEnd": 32.44286242,
-        "lonEnd": -98.37161103,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 6109
-  },
-  {
-    "type": 1,
-    "icao": "KETN",
-    "lat": 32.413543000000004,
-    "lon": -98.80975,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 12715,
-        "name": "FORT WORTH CNTR"
-      }
-    ],
-    "elevation": 1464,
-    "tower": false,
-    "name": "EASTLAND MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 32.419064,
-        "lonStart": -98.809542,
-        "latEnd": 32.408022,
-        "lonEnd": -98.809958,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 6630
+    "id": 10470
   },
   {
     "type": 1,
@@ -246,85 +185,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 6952
+    "id": 11125
   },
   {
     "type": 1,
-    "icao": "0TS7",
-    "lat": 32.83345944,
-    "lon": -98.12532223,
+    "icao": "16TX",
+    "lat": 32.26402833,
+    "lon": -98.10726084000001,
     "communications": [],
-    "elevation": 978,
+    "elevation": 1300,
     "tower": false,
-    "name": "Flying U",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 32.83727099,
-        "lonStart": -98.12476525,
-        "latEnd": 32.82964789,
-        "lonEnd": -98.12587921,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9524
-  },
-  {
-    "type": 1,
-    "icao": "0F6",
-    "lat": 32.20430416,
-    "lon": -98.66561001,
-    "communications": [],
-    "elevation": 1452,
-    "tower": false,
-    "name": "Gorman",
+    "name": "Ratliff",
     "runways": [
       {
         "type": 100,
         "width": 15.24,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 32.2077439,
-        "lonStart": -98.66654852,
-        "latEnd": 32.20086442,
-        "lonEnd": -98.6646715,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 10631
-  },
-  {
-    "type": 1,
-    "icao": "62XS",
-    "lat": 32.02236805,
-    "lon": -98.13364834000001,
-    "communications": [],
-    "elevation": 1220,
-    "tower": false,
-    "name": "J F Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 32.02557526,
-        "lonStart": -98.13452167,
-        "latEnd": 32.01916084,
-        "lonEnd": -98.13277501,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 32.26242402,
+        "lonStart": -98.10968921,
+        "latEnd": 32.26563264,
+        "lonEnd": -98.10483247,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 12630
+    "id": 11167
   },
   {
     "type": 1,
@@ -350,94 +237,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 13368
-  },
-  {
-    "type": 1,
-    "icao": "KMWL",
-    "lat": 32.781616,
-    "lon": -98.060761,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13507,
-        "name": "ASOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12272,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 974,
-    "tower": false,
-    "name": "MINERAL WELLS",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 32.787425,
-        "lonStart": -98.064281,
-        "latEnd": 32.775642,
-        "lonEnd": -98.050622,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 32.787453,
-        "lonStart": -98.063997,
-        "latEnd": 32.775944,
-        "lonEnd": -98.064144,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 16129
-  },
-  {
-    "type": 1,
-    "icao": "F35",
-    "lat": 32.922971000000004,
-    "lon": -98.43712049999999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      },
-      {
-        "type": 55,
-        "frequency": 12700,
-        "name": "FORT WORTH CNTR"
-      }
-    ],
-    "elevation": 1008,
-    "tower": false,
-    "name": "POSSUM KINGDOM",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 32.919181,
-        "lonStart": -98.439769,
-        "latEnd": 32.926761,
-        "lonEnd": -98.434472,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19517
+    "id": 11210
   },
   {
     "type": 1,
@@ -463,7 +263,135 @@
         "surfacetype": 1
       }
     ],
-    "id": 20657
+    "id": 11215
+  },
+  {
+    "type": 1,
+    "icao": "24TX",
+    "lat": 32.50013111,
+    "lon": -98.38366028,
+    "communications": [],
+    "elevation": 1092,
+    "tower": false,
+    "name": "Thurber Lake",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 32.50584843,
+        "lonStart": -98.38282793,
+        "latEnd": 32.49441379,
+        "lonEnd": -98.38449263,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 11495
+  },
+  {
+    "type": 17,
+    "icao": "39XS",
+    "lat": 32.79873805,
+    "lon": -98.14587862,
+    "communications": [],
+    "elevation": 918,
+    "tower": false,
+    "name": "[H] Palo Pinto General Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 32.79873805,
+        "lonStart": -98.14587862,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 12085
+  },
+  {
+    "type": 1,
+    "icao": "62XS",
+    "lat": 32.02236805,
+    "lon": -98.13364834000001,
+    "communications": [],
+    "elevation": 1220,
+    "tower": false,
+    "name": "J F Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 32.02557526,
+        "lonStart": -98.13452167,
+        "latEnd": 32.01916084,
+        "lonEnd": -98.13277501,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12978
+  },
+  {
+    "type": 1,
+    "icao": "73XS",
+    "lat": 32.44596611,
+    "lon": -98.37115945,
+    "communications": [],
+    "elevation": 1055,
+    "tower": false,
+    "name": "Dearing Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 32.4490698,
+        "lonStart": -98.37070787,
+        "latEnd": 32.44286242,
+        "lonEnd": -98.37161103,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13418
+  },
+  {
+    "type": 17,
+    "icao": "88TS",
+    "lat": 32.83346,
+    "lon": -98.05198723,
+    "communications": [],
+    "elevation": 887,
+    "tower": false,
+    "name": "[H] Mc Quaid",
+    "runways": [
+      {
+        "type": 102,
+        "width": 182.9,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 32.83346,
+        "lonStart": -98.05198723,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 182.9
+      }
+    ],
+    "id": 13975
   },
   {
     "type": 1,
@@ -502,111 +430,44 @@
         "surfacetype": 3
       }
     ],
-    "id": 21195
+    "id": 16715
   },
   {
     "type": 1,
-    "icao": "16TX",
-    "lat": 32.26402833,
-    "lon": -98.10726084000001,
-    "communications": [],
-    "elevation": 1300,
-    "tower": false,
-    "name": "Ratliff",
-    "runways": [
+    "icao": "F35",
+    "lat": 32.92332522,
+    "lon": -98.436872,
+    "communications": [
       {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 32.26242402,
-        "lonStart": -98.10968921,
-        "latEnd": 32.26563264,
-        "lonEnd": -98.10483247,
-        "length": 0,
-        "surfacetype": 3
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      },
+      {
+        "type": 55,
+        "frequency": 12700,
+        "name": "FORT WORTH CNTR"
       }
     ],
-    "id": 21220
-  },
-  {
-    "type": 1,
-    "icao": "2TX2",
-    "lat": 32.02653527,
-    "lon": -98.01003389,
-    "communications": [],
-    "elevation": 1050,
+    "elevation": 1008,
     "tower": false,
-    "name": "Ray Smith Farm",
+    "name": "POSSUM KINGDOM",
     "runways": [
       {
         "type": 100,
-        "width": 12.19,
+        "width": 18.29,
         "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 32.02434463,
-        "lonStart": -98.011981,
-        "latEnd": 32.02872591,
-        "lonEnd": -98.00808678,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 21238
-  },
-  {
-    "type": 1,
-    "icao": "TS47",
-    "lat": 32.968455,
-    "lon": -98.01142945000001,
-    "communications": [],
-    "elevation": 1130,
-    "tower": false,
-    "name": "Rock Creek Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 36.58,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 32.97052541,
-        "lonStart": -98.01303206,
-        "latEnd": 32.96638459,
-        "lonEnd": -98.00982684,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 21621
-  },
-  {
-    "type": 1,
-    "icao": "TA65",
-    "lat": 32.8212335,
-    "lon": -98.4786665,
-    "communications": [],
-    "elevation": 1142,
-    "tower": false,
-    "name": "SPORTSMANS WORLD",
-    "runways": [
-      {
-        "type": 100,
-        "width": 19.81,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 32.825314,
-        "lonStart": -98.4835,
-        "latEnd": 32.817153,
-        "lonEnd": -98.473833,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 32.919181,
+        "lonStart": -98.439769,
+        "latEnd": 32.92746944,
+        "lonEnd": -98.433975,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 22429
+    "id": 16724
   },
   {
     "type": 1,
@@ -664,83 +525,144 @@
         "surfacetype": 1
       }
     ],
-    "id": 22524
+    "id": 18872
   },
   {
     "type": 1,
-    "icao": "24TX",
-    "lat": 32.50013111,
-    "lon": -98.38366028,
-    "communications": [],
-    "elevation": 1092,
+    "icao": "KETN",
+    "lat": 32.413543000000004,
+    "lon": -98.80975,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12715,
+        "name": "FORT WORTH CNTR"
+      }
+    ],
+    "elevation": 1464,
     "tower": false,
-    "name": "Thurber Lake",
+    "name": "EASTLAND MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 32.419064,
+        "lonStart": -98.809542,
+        "latEnd": 32.408022,
+        "lonEnd": -98.809958,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19111
+  },
+  {
+    "type": 1,
+    "icao": "KMWL",
+    "lat": 32.781616,
+    "lon": -98.060761,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13507,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12272,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 974,
+    "tower": false,
+    "name": "MINERAL WELLS",
     "runways": [
       {
         "type": 100,
         "width": 30.48,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 32.50584843,
-        "lonStart": -98.38282793,
-        "latEnd": 32.49441379,
-        "lonEnd": -98.38449263,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 32.787425,
+        "lonStart": -98.064281,
+        "latEnd": 32.775642,
+        "lonEnd": -98.050622,
         "length": 0,
-        "surfacetype": 5
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 32.787453,
+        "lonStart": -98.063997,
+        "latEnd": 32.775944,
+        "lonEnd": -98.064144,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "id": 25337
+    "id": 19532
   },
   {
-    "type": 17,
-    "icao": "88TS",
-    "lat": 32.83346,
-    "lon": -98.05198723,
-    "communications": [],
-    "elevation": 887,
-    "tower": false,
-    "name": "[H] Mc Quaid",
-    "runways": [
+    "type": 1,
+    "icao": "KSEP",
+    "lat": 32.21539275,
+    "lon": -98.1791325,
+    "communications": [
       {
-        "type": 102,
-        "width": 182.9,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 32.83346,
-        "lonStart": -98.05198723,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 182.9
+        "type": 50,
+        "frequency": 11807,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
       }
     ],
-    "id": 31161
-  },
-  {
-    "type": 17,
-    "icao": "39XS",
-    "lat": 32.79873805,
-    "lon": -98.14587862,
-    "communications": [],
-    "elevation": 918,
+    "elevation": 1320,
     "tower": false,
-    "name": "[H] Palo Pinto General Hospital",
+    "name": "CLARK FLD MUNI",
     "runways": [
       {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 32.79873805,
-        "lonStart": -98.14587862,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 32.220286,
+        "lonStart": -98.181158,
+        "latEnd": 32.210372,
+        "lonEnd": -98.174203,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 32.212794,
+        "lonStart": -98.183144,
+        "latEnd": 32.218119,
+        "lonEnd": -98.178025,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "id": 31869
+    "id": 19804
   },
   {
     "type": 17,
@@ -765,6 +687,84 @@
         "length": 17.7
       }
     ],
-    "id": 33526
+    "id": 29757
+  },
+  {
+    "type": 1,
+    "icao": "TA65",
+    "lat": 32.8212335,
+    "lon": -98.4786665,
+    "communications": [],
+    "elevation": 1142,
+    "tower": false,
+    "name": "SPORTSMANS WORLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 19.81,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 32.825314,
+        "lonStart": -98.4835,
+        "latEnd": 32.817153,
+        "lonEnd": -98.473833,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 29785
+  },
+  {
+    "type": 1,
+    "icao": "TE40",
+    "lat": 32.674846110000004,
+    "lon": -98.82617583999999,
+    "communications": [],
+    "elevation": 1387,
+    "tower": false,
+    "name": "Caselman Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 32.67769821,
+        "lonStart": -98.82569964,
+        "latEnd": 32.67199401,
+        "lonEnd": -98.82665204,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 29857
+  },
+  {
+    "type": 1,
+    "icao": "TS47",
+    "lat": 32.968455,
+    "lon": -98.01142945000001,
+    "communications": [],
+    "elevation": 1130,
+    "tower": false,
+    "name": "Rock Creek Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 36.58,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 32.97052541,
+        "lonStart": -98.01303206,
+        "latEnd": 32.96638459,
+        "lonEnd": -98.00982684,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 30027
   }
 ]

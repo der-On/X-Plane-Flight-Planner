@@ -1,90 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "YBNS",
-    "lat": -37.88735294833333,
-    "lon": 147.57029698333332,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12670,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 165,
-    "tower": false,
-    "name": "Bairnsdale",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": -37.88328504,
-        "lonStart": 147.56549844,
-        "latEnd": -37.88958007,
-        "lonEnd": 147.57102959,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "1",
-        "numberEnd": "19",
-        "latStart": -37.89061377,
-        "lonStart": 147.57293344,
-        "latEnd": -37.88584505,
-        "lonEnd": 147.57400975,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": -37.89021667,
-        "lonStart": 147.5640369,
-        "latEnd": -37.88457709,
-        "lonEnd": 147.57427378,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 2084
-  },
-  {
-    "type": 1,
-    "icao": "YLKE",
-    "lat": -37.852275055,
-    "lon": 147.953016815,
-    "communications": [],
-    "elevation": 198,
-    "tower": false,
-    "name": "LAKES ENTRANCE",
-    "runways": [
-      {
-        "type": 100,
-        "width": 35.97,
-        "surfaceType": null,
-        "numberStart": "9",
-        "numberEnd": "27",
-        "latStart": -37.85205472,
-        "lonStart": 147.9485815,
-        "latEnd": -37.85249539,
-        "lonEnd": 147.95745213,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 14351
-  },
-  {
-    "type": 1,
     "icao": "YHOT",
     "lat": -37.04813775,
     "lon": 147.33516399,
@@ -123,7 +39,65 @@
         "surfacetype": 1
       }
     ],
-    "id": 17665
+    "id": 5590
+  },
+  {
+    "type": 1,
+    "icao": "YBNS",
+    "lat": -37.88745063333334,
+    "lon": 147.57056202666666,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12670,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 165,
+    "tower": false,
+    "name": "Bairnsdale",
+    "runways": [
+      {
+        "type": 100,
+        "width": 23,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -37.88340101,
+        "lonStart": 147.56572809,
+        "latEnd": -37.88966844,
+        "lonEnd": 147.57130512,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 9,
+        "surfaceType": null,
+        "numberStart": "1",
+        "numberEnd": "19",
+        "latStart": -37.89070223,
+        "lonStart": 147.57320858,
+        "latEnd": -37.88593351,
+        "lonEnd": 147.57428489,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": -37.89033306,
+        "lonStart": 147.56429656,
+        "latEnd": -37.88466555,
+        "lonEnd": 147.57454892,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 32809
   },
   {
     "type": 17,
@@ -148,7 +122,33 @@
         "length": 18
       }
     ],
-    "id": 30786
+    "id": 33672
+  },
+  {
+    "type": 1,
+    "icao": "YLKE",
+    "lat": -37.852275055,
+    "lon": 147.953016815,
+    "communications": [],
+    "elevation": 198,
+    "tower": false,
+    "name": "LAKES ENTRANCE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 35.97,
+        "surfaceType": null,
+        "numberStart": "9",
+        "numberEnd": "27",
+        "latStart": -37.85205472,
+        "lonStart": 147.9485815,
+        "latEnd": -37.85249539,
+        "lonEnd": 147.95745213,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 33694
   },
   {
     "type": 17,
@@ -173,6 +173,6 @@
         "length": 18
       }
     ],
-    "id": 31703
+    "id": 34124
   }
 ]

@@ -1,69 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "OIBA",
-    "lat": 25.8757405,
-    "lon": 55.0329945,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12290,
-        "name": "INFO"
-      },
-      {
-        "type": 54,
-        "frequency": 12190,
-        "name": "INFO"
-      }
-    ],
-    "elevation": 22,
-    "tower": false,
-    "name": "ABUMUSA ISLAND",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 25.874189,
-        "lonStart": 55.018197,
-        "latEnd": 25.877292,
-        "lonEnd": 55.047792,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 61
-  },
-  {
-    "type": 1,
-    "icao": "OM01",
-    "lat": 25.755522499999998,
-    "lon": 55.9601635,
-    "communications": [],
-    "elevation": 15,
-    "tower": false,
-    "name": "AL SAQR",
-    "runways": [
-      {
-        "type": 100,
-        "width": 14.94,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 25.758763,
-        "lonStart": 55.958322,
-        "latEnd": 25.752282,
-        "lonEnd": 55.962005,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 163
-  },
-  {
-    "type": 1,
     "icao": "OMDB",
     "lat": 25.2511103175,
     "lon": 55.3710990675,
@@ -155,7 +92,96 @@
         "surfacetype": 1
       }
     ],
-    "id": 6511
+    "id": 4327
+  },
+  {
+    "type": 1,
+    "icao": "XOM01",
+    "lat": 25.09016698,
+    "lon": 55.13265968,
+    "communications": [],
+    "elevation": 2,
+    "tower": true,
+    "name": "Skydive Dubai",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.3,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 25.08880844,
+        "lonStart": 55.12958361,
+        "latEnd": 25.09152552,
+        "lonEnd": 55.13573575,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5532
+  },
+  {
+    "type": 1,
+    "icao": "OIBA",
+    "lat": 25.8757405,
+    "lon": 55.0329945,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12290,
+        "name": "INFO"
+      },
+      {
+        "type": 54,
+        "frequency": 12190,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 22,
+    "tower": false,
+    "name": "ABUMUSA ISLAND",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 25.874189,
+        "lonStart": 55.018197,
+        "latEnd": 25.877292,
+        "lonEnd": 55.047792,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 23394
+  },
+  {
+    "type": 1,
+    "icao": "OM01",
+    "lat": 25.755522499999998,
+    "lon": 55.9601635,
+    "communications": [],
+    "elevation": 15,
+    "tower": false,
+    "name": "AL SAQR",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 25.758763,
+        "lonStart": 55.958322,
+        "latEnd": 25.752282,
+        "lonEnd": 55.962005,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 23565
   },
   {
     "type": 1,
@@ -197,7 +223,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 16132
+    "id": 23568
   },
   {
     "type": 1,
@@ -234,7 +260,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 20837
+    "id": 23570
   },
   {
     "type": 1,
@@ -286,32 +312,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 22198
-  },
-  {
-    "type": 1,
-    "icao": "AE-0003",
-    "lat": 25.09016698,
-    "lon": 55.13265968,
-    "communications": [],
-    "elevation": 3,
-    "tower": true,
-    "name": "Skydive Dubai",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.3,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 25.08880844,
-        "lonStart": 55.12958361,
-        "latEnd": 25.09152552,
-        "lonEnd": 55.13573575,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 23658
+    "id": 23571
   }
 ]

@@ -1,14 +1,72 @@
 [
   {
     "type": 1,
-    "icao": "CJZ3",
-    "lat": 52.86420191,
-    "lon": -104.70078937,
+    "icao": "CJY3",
+    "lat": 52.83630592166667,
+    "lon": -104.06774634833334,
     "communications": [
       {
-        "type": 51,
+        "type": 54,
         "frequency": 12280,
-        "name": "CTAF"
+        "name": "Traffic"
+      }
+    ],
+    "elevation": 1524,
+    "tower": false,
+    "name": "Tisdale",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 52.83984909,
+        "lonStart": -104.0697972,
+        "latEnd": 52.83297663,
+        "lonEnd": -104.06225297,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 49.07,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 52.83491925,
+        "lonStart": -104.07169068,
+        "latEnd": 52.835125,
+        "lonEnd": -104.06026389,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 52.84026711,
+        "lonStart": -104.07123672,
+        "latEnd": 52.83469845,
+        "lonEnd": -104.07123663,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 674
+  },
+  {
+    "type": 1,
+    "icao": "CJZ3",
+    "lat": 52.86444738,
+    "lon": -104.7008975,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12280,
+        "name": "UNICOM / Traffic"
       }
     ],
     "elevation": 1495,
@@ -21,15 +79,15 @@
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": 52.86420191,
-        "lonStart": -104.70756876,
-        "latEnd": 52.86420191,
-        "lonEnd": -104.69400998,
+        "latStart": 52.86444738,
+        "lonStart": -104.70767689,
+        "latEnd": 52.86444738,
+        "lonEnd": -104.69411811,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 17032
+    "id": 675
   },
   {
     "type": 1,
@@ -55,7 +113,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 18056
+    "id": 15267
   },
   {
     "type": 1,
@@ -81,7 +139,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 20712
+    "id": 15307
   },
   {
     "type": 1,
@@ -107,64 +165,6 @@
         "surfacetype": 4
       }
     ],
-    "id": 24066
-  },
-  {
-    "type": 1,
-    "icao": "CJY3",
-    "lat": 52.836225821666666,
-    "lon": -104.06850486666667,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 1525,
-    "tower": false,
-    "name": "Tisdale",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 52.83991731,
-        "lonStart": -104.07031128,
-        "latEnd": 52.83314069,
-        "lonEnd": -104.06274472,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 49.07,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 52.834625,
-        "lonStart": -104.07221752,
-        "latEnd": 52.834625,
-        "lonEnd": -104.06222848,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 52.84024841,
-        "lonStart": -104.0717636,
-        "latEnd": 52.83479852,
-        "lonEnd": -104.0717636,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 25406
+    "id": 15319
   }
 ]

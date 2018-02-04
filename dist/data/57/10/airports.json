@@ -1,6 +1,69 @@
 [
   {
     "type": 1,
+    "icao": "EKSN",
+    "lat": 57.503524999999996,
+    "lon": 10.22937093,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 12397,
+        "name": "AALBORG APP"
+      },
+      {
+        "type": 54,
+        "frequency": 11875,
+        "name": "AFIS"
+      }
+    ],
+    "elevation": 91,
+    "tower": true,
+    "name": "Sindal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 57.503175,
+        "lonStart": 10.21939167,
+        "latEnd": 57.503875,
+        "lonEnd": 10.23935019,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1712
+  },
+  {
+    "type": 1,
+    "icao": "EK02",
+    "lat": 57.157409834999996,
+    "lon": 10.196577909999998,
+    "communications": [],
+    "elevation": 110,
+    "tower": false,
+    "name": "Stagsted (E451)",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 57.16012552,
+        "lonStart": 10.1958758,
+        "latEnd": 57.15469415,
+        "lonEnd": 10.19728002,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16463
+  },
+  {
+    "type": 1,
     "icao": "EK26",
     "lat": 57.459279935,
     "lon": 10.089544465,
@@ -23,7 +86,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 2913
+    "id": 16482
   },
   {
     "type": 1,
@@ -55,69 +118,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 22667
-  },
-  {
-    "type": 1,
-    "icao": "EKSN",
-    "lat": 57.503524999999996,
-    "lon": 10.22937093,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11875,
-        "name": "AFIS"
-      },
-      {
-        "type": 55,
-        "frequency": 12397,
-        "name": "AALBORG APP"
-      }
-    ],
-    "elevation": 92,
-    "tower": true,
-    "name": "Sindal",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 57.503175,
-        "lonStart": 10.21939167,
-        "latEnd": 57.503875,
-        "lonEnd": 10.23935019,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 23538
-  },
-  {
-    "type": 1,
-    "icao": "EK02",
-    "lat": 57.157409834999996,
-    "lon": 10.196577909999998,
-    "communications": [],
-    "elevation": 110,
-    "tower": false,
-    "name": "Stagsted (E451)",
-    "runways": [
-      {
-        "type": 100,
-        "width": 14.94,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 57.16012552,
-        "lonStart": 10.1958758,
-        "latEnd": 57.15469415,
-        "lonEnd": 10.19728002,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 24087
+    "id": 16541
   }
 ]

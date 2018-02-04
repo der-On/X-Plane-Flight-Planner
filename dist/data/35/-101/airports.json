@@ -1,58 +1,74 @@
 [
   {
     "type": 1,
-    "icao": "KHHF",
-    "lat": 35.89512975,
-    "lon": -100.40367975000001,
+    "icao": "2F1",
+    "lat": 35.234596499999995,
+    "lon": -100.18530100000001,
     "communications": [
       {
-        "type": 50,
-        "frequency": 11902,
-        "name": "AWOS 3"
-      },
-      {
         "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      },
-      {
-        "type": 55,
-        "frequency": 12210,
-        "name": "FORT WORTH RDO"
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
       }
     ],
-    "elevation": 2394,
+    "elevation": 2369,
     "tower": false,
-    "name": "HEMPHILL CO",
+    "name": "SHAMROCK MUNI",
     "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 35.239543,
+        "lonStart": -100.185242,
+        "latEnd": 35.22965,
+        "lonEnd": -100.18536,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 79
+  },
+  {
+    "type": 1,
+    "icao": "KHHF",
+    "lat": 35.8949086925,
+    "lon": -100.403956535,
+    "communications": [],
+    "elevation": 2396,
+    "tower": false,
+    "name": "Canadian Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.92,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 35.89928189,
+        "lonStart": -100.40271497,
+        "latEnd": 35.89071408,
+        "lonEnd": -100.40369719,
+        "length": 0,
+        "surfacetype": 1
+      },
       {
         "type": 100,
         "width": 22.86,
         "surfaceType": null,
         "numberStart": "04",
         "numberEnd": "22",
-        "latStart": 35.890083,
-        "lonStart": -100.410219,
-        "latEnd": 35.899964,
-        "lonEnd": -100.398494,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 35.899339,
-        "lonStart": -100.402539,
-        "latEnd": 35.891133,
-        "lonEnd": -100.403467,
+        "latStart": 35.8896808,
+        "lonStart": -100.41090798,
+        "latEnd": 35.899958,
+        "lonEnd": -100.398506,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 11093
+    "id": 2758
   },
   {
     "type": 1,
@@ -97,7 +113,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 15971
+    "id": 6939
   },
   {
     "type": 1,
@@ -129,7 +145,33 @@
         "surfacetype": 1
       }
     ],
-    "id": 16068
+    "id": 7496
+  },
+  {
+    "type": 1,
+    "icao": "9TA2",
+    "lat": 35.9289305,
+    "lon": -100.307075,
+    "communications": [],
+    "elevation": 2339,
+    "tower": false,
+    "name": "URSCHEL RANCH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 35.935797,
+        "lonStart": -100.307075,
+        "latEnd": 35.922064,
+        "lonEnd": -100.307075,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10783
   },
   {
     "type": 1,
@@ -192,65 +234,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 19319
-  },
-  {
-    "type": 1,
-    "icao": "2F1",
-    "lat": 35.235972000000004,
-    "lon": -100.184722,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 2369,
-    "tower": false,
-    "name": "SHAMROCK MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 35.240833,
-        "lonStart": -100.184722,
-        "latEnd": 35.231111,
-        "lonEnd": -100.184722,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22193
-  },
-  {
-    "type": 1,
-    "icao": "9TA2",
-    "lat": 35.9289305,
-    "lon": -100.307075,
-    "communications": [],
-    "elevation": 2339,
-    "tower": false,
-    "name": "URSCHEL RANCH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 35.935797,
-        "lonStart": -100.307075,
-        "latEnd": 35.922064,
-        "lonEnd": -100.307075,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 25832
+    "id": 19703
   },
   {
     "type": 1,
@@ -282,6 +266,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 26614
+    "id": 29705
   }
 ]

@@ -1,37 +1,17 @@
 [
   {
     "type": 1,
-    "icao": "SNDH",
-    "lat": -12.160277780000001,
-    "lon": -45.022499999999994,
-    "communications": [],
-    "elevation": 1682,
-    "tower": false,
-    "name": "Aba",
-    "runways": [
+    "icao": "SNBR",
+    "lat": -12.079217005,
+    "lon": -45.009366084999996,
+    "communications": [
       {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": -12.1585617,
-        "lonStart": -45.02774416,
-        "latEnd": -12.16199386,
-        "lonEnd": -45.01725584,
-        "length": 0,
-        "surfacetype": 4
+        "type": 54,
+        "frequency": 12280,
+        "name": "UNICOM"
       }
     ],
-    "id": 509
-  },
-  {
-    "type": 1,
-    "icao": "SNBR",
-    "lat": -12.078890000000001,
-    "lon": -45.008993000000004,
-    "communications": [],
-    "elevation": 2446,
+    "elevation": 2445,
     "tower": true,
     "name": "Barreiras",
     "runways": [
@@ -41,119 +21,15 @@
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": -12.082361,
-        "lonStart": -45.015519,
-        "latEnd": -12.075419,
-        "lonEnd": -45.002467,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 2272
-  },
-  {
-    "type": 1,
-    "icao": "SSNW",
-    "lat": -12.3024625,
-    "lon": -45.513923500000004,
-    "communications": [],
-    "elevation": 2408,
-    "tower": false,
-    "name": "FAZENDA BURITI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": -12.300058,
-        "lonStart": -45.520922,
-        "latEnd": -12.304867,
-        "lonEnd": -45.506925,
+        "latStart": -12.08267146,
+        "lonStart": -45.0158833,
+        "latEnd": -12.07576255,
+        "lonEnd": -45.00284887,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 7453
-  },
-  {
-    "type": 1,
-    "icao": "SJAX",
-    "lat": -12.965,
-    "lon": -45.97611111,
-    "communications": [],
-    "elevation": 2657,
-    "tower": false,
-    "name": "Fazenda Acalanto",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.99,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": -12.96827825,
-        "lonStart": -45.98143982,
-        "latEnd": -12.96172175,
-        "lonEnd": -45.9707824,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 7852
-  },
-  {
-    "type": 1,
-    "icao": "SJGC",
-    "lat": -12.901666670000001,
-    "lon": -45.499999994999996,
-    "communications": [],
-    "elevation": 1201,
-    "tower": false,
-    "name": "Fazenda Busato 1",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": -12.90388658,
-        "lonStart": -45.50556424,
-        "latEnd": -12.89944676,
-        "lonEnd": -45.49443575,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 8051
-  },
-  {
-    "type": 1,
-    "icao": "SJMZ",
-    "lat": -12.9575,
-    "lon": -45.98472222,
-    "communications": [],
-    "elevation": 2701,
-    "tower": false,
-    "name": "Fazenda Mizote",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.99,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": -12.95852081,
-        "lonStart": -45.98969523,
-        "latEnd": -12.95647919,
-        "lonEnd": -45.97974921,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 8512
+    "id": 4921
   },
   {
     "type": 1,
@@ -179,7 +55,59 @@
         "surfacetype": 4
       }
     ],
-    "id": 8535
+    "id": 25441
+  },
+  {
+    "type": 1,
+    "icao": "SJAX",
+    "lat": -12.965,
+    "lon": -45.97611111,
+    "communications": [],
+    "elevation": 2657,
+    "tower": false,
+    "name": "Fazenda Acalanto",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -12.96827825,
+        "lonStart": -45.98143982,
+        "latEnd": -12.96172175,
+        "lonEnd": -45.9707824,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 26741
+  },
+  {
+    "type": 1,
+    "icao": "SJGC",
+    "lat": -12.901666670000001,
+    "lon": -45.499999994999996,
+    "communications": [],
+    "elevation": 1201,
+    "tower": false,
+    "name": "Fazenda Busato 1",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -12.90388658,
+        "lonStart": -45.50556424,
+        "latEnd": -12.89944676,
+        "lonEnd": -45.49443575,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 26870
   },
   {
     "type": 1,
@@ -205,59 +133,33 @@
         "surfacetype": 4
       }
     ],
-    "id": 8730
+    "id": 26871
   },
   {
     "type": 1,
-    "icao": "SNDQ",
-    "lat": -12.92111111,
-    "lon": -45.56944444,
+    "icao": "SJMZ",
+    "lat": -12.9575,
+    "lon": -45.98472222,
     "communications": [],
-    "elevation": 2595,
+    "elevation": 2701,
     "tower": false,
-    "name": "Fazenda Soya",
+    "name": "Fazenda Mizote",
     "runways": [
       {
         "type": 100,
-        "width": 20.12,
+        "width": 24.99,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": -12.92315862,
-        "lonStart": -45.57458177,
-        "latEnd": -12.9190636,
-        "lonEnd": -45.56430711,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -12.95852081,
+        "lonStart": -45.98969523,
+        "latEnd": -12.95647919,
+        "lonEnd": -45.97974921,
         "length": 0,
-        "surfacetype": 4
+        "surfacetype": 5
       }
     ],
-    "id": 9069
-  },
-  {
-    "type": 1,
-    "icao": "SWXF",
-    "lat": -12.44888889,
-    "lon": -45.67944444,
-    "communications": [],
-    "elevation": 2438,
-    "tower": false,
-    "name": "Fazenda Triflora",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": -12.45502289,
-        "lonStart": -45.6781518,
-        "latEnd": -12.44275489,
-        "lonEnd": -45.68073708,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 9128
+    "id": 27046
   },
   {
     "type": 1,
@@ -283,59 +185,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 12917
-  },
-  {
-    "type": 1,
-    "icao": "SSQZ",
-    "lat": -12.106707,
-    "lon": -45.894632,
-    "communications": [],
-    "elevation": 2408,
-    "tower": false,
-    "name": "LUIS EDUARDO MAGALHAES",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": -12.107531,
-        "lonStart": -45.900975,
-        "latEnd": -12.105883,
-        "lonEnd": -45.888289,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 14667
-  },
-  {
-    "type": 1,
-    "icao": "SNSD",
-    "lat": -12.919444445,
-    "lon": -45.714444445,
-    "communications": [],
-    "elevation": 2664,
-    "tower": false,
-    "name": "Sao Luiz",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": -12.92148747,
-        "lonStart": -45.71958356,
-        "latEnd": -12.91740142,
-        "lonEnd": -45.70930533,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 22989
+    "id": 27225
   },
   {
     "type": 1,
@@ -361,6 +211,162 @@
         "surfacetype": 4
       }
     ],
-    "id": 26932
+    "id": 27289
+  },
+  {
+    "type": 1,
+    "icao": "SNDH",
+    "lat": -12.160277780000001,
+    "lon": -45.022499999999994,
+    "communications": [],
+    "elevation": 1682,
+    "tower": false,
+    "name": "Aba",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -12.1585617,
+        "lonStart": -45.02774416,
+        "latEnd": -12.16199386,
+        "lonEnd": -45.01725584,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 27654
+  },
+  {
+    "type": 1,
+    "icao": "SNDQ",
+    "lat": -12.92111111,
+    "lon": -45.56944444,
+    "communications": [],
+    "elevation": 2595,
+    "tower": false,
+    "name": "Fazenda Soya",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -12.92315862,
+        "lonStart": -45.57458177,
+        "latEnd": -12.9190636,
+        "lonEnd": -45.56430711,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 27662
+  },
+  {
+    "type": 1,
+    "icao": "SNSD",
+    "lat": -12.919444445,
+    "lon": -45.714444445,
+    "communications": [],
+    "elevation": 2664,
+    "tower": false,
+    "name": "Sao Luiz",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -12.92148747,
+        "lonStart": -45.71958356,
+        "latEnd": -12.91740142,
+        "lonEnd": -45.70930533,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 28014
+  },
+  {
+    "type": 1,
+    "icao": "SSNW",
+    "lat": -12.3024625,
+    "lon": -45.513923500000004,
+    "communications": [],
+    "elevation": 2408,
+    "tower": false,
+    "name": "FAZENDA BURITI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -12.300058,
+        "lonStart": -45.520922,
+        "latEnd": -12.304867,
+        "lonEnd": -45.506925,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 28652
+  },
+  {
+    "type": 1,
+    "icao": "SSQZ",
+    "lat": -12.106707,
+    "lon": -45.894632,
+    "communications": [],
+    "elevation": 2408,
+    "tower": false,
+    "name": "LUIS EDUARDO MAGALHAES",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -12.107531,
+        "lonStart": -45.900975,
+        "latEnd": -12.105883,
+        "lonEnd": -45.888289,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 28727
+  },
+  {
+    "type": 1,
+    "icao": "SWXF",
+    "lat": -12.44888889,
+    "lon": -45.67944444,
+    "communications": [],
+    "elevation": 2438,
+    "tower": false,
+    "name": "Fazenda Triflora",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": -12.45502289,
+        "lonStart": -45.6781518,
+        "latEnd": -12.44275489,
+        "lonEnd": -45.68073708,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 29580
   }
 ]

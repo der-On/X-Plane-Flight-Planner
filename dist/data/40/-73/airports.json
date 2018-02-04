@@ -1,6 +1,389 @@
 [
   {
     "type": 1,
+    "icao": "KFOK",
+    "lat": 40.84321483333333,
+    "lon": -72.63278982166666,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11992,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12530,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12530,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11895,
+        "name": "NEW YORK APP/DEP"
+      }
+    ],
+    "elevation": 66,
+    "tower": true,
+    "name": "Francis S Gabreski",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 40.836239,
+        "lonStart": -72.639008,
+        "latEnd": 40.85445,
+        "lonEnd": -72.617033,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 40.834914,
+        "lonStart": -72.636972,
+        "latEnd": 40.848625,
+        "lonEnd": -72.637764,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 40.84714699,
+        "lonStart": -72.63966624,
+        "latEnd": 40.83791401,
+        "lonEnd": -72.62629569,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2681
+  },
+  {
+    "type": 1,
+    "icao": "KHTO",
+    "lat": 40.9595919175,
+    "lon": -72.251123425,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11807,
+        "name": "AWOS-3PT"
+      },
+      {
+        "type": 54,
+        "frequency": 12522,
+        "name": "Tower"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "Ground"
+      },
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 11895,
+        "name": "NEW YORK CLNC DEL"
+      },
+      {
+        "type": 55,
+        "frequency": 13225,
+        "name": "NEW YORK APP/DEP"
+      }
+    ],
+    "elevation": 56,
+    "tower": false,
+    "name": "East Hampton",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 40.958883,
+        "lonStart": -72.260306,
+        "latEnd": 40.959103,
+        "lonEnd": -72.244903,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 40.96261754,
+        "lonStart": -72.25155824,
+        "latEnd": 40.95776413,
+        "lonEnd": -72.24772646,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2782
+  },
+  {
+    "type": 1,
+    "icao": "1N2",
+    "lat": 40.82634860500001,
+    "lon": -72.74982195000001,
+    "communications": [],
+    "elevation": 50,
+    "tower": false,
+    "name": "Spadaro - Lufker",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18L",
+        "numberEnd": "36R",
+        "latStart": 40.8217601,
+        "lonStart": -72.74992458,
+        "latEnd": 40.82788156,
+        "lonEnd": -72.75194154,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 6.1,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 40.83080403,
+        "lonStart": -72.74967551,
+        "latEnd": 40.82494873,
+        "lonEnd": -72.74774617,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 6584
+  },
+  {
+    "type": 1,
+    "icao": "3C8",
+    "lat": 40.915175,
+    "lon": -72.794368,
+    "communications": [],
+    "elevation": 75,
+    "tower": false,
+    "name": "Calverton Executive Airpark",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 40.923831,
+        "lonStart": -72.794022,
+        "latEnd": 40.905769,
+        "lonEnd": -72.766772,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 40.907708,
+        "lonStart": -72.815656,
+        "latEnd": 40.923392,
+        "lonEnd": -72.801022,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 7459
+  },
+  {
+    "type": 1,
+    "icao": "03NY",
+    "lat": 40.95843166,
+    "lon": -72.71676500000001,
+    "communications": [],
+    "elevation": 95,
+    "tower": false,
+    "name": "Talmage Fld",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 40.96070569,
+        "lonStart": -72.7187961,
+        "latEnd": 40.95615763,
+        "lonEnd": -72.7147339,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7756
+  },
+  {
+    "type": 17,
+    "icao": "4NY5",
+    "lat": 40.9876,
+    "lon": -72.17341167,
+    "communications": [],
+    "elevation": 68,
+    "tower": false,
+    "name": "[H] Bistrians",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.9876,
+        "lonStart": -72.17341167,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 8286
+  },
+  {
+    "type": 17,
+    "icao": "9NY5",
+    "lat": 40.80037611,
+    "lon": -72.91677112,
+    "communications": [],
+    "elevation": 29,
+    "tower": false,
+    "name": "[H] Norman Kurrass Contractor",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.80037611,
+        "lonStart": -72.91677112,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 45.7
+      }
+    ],
+    "id": 10687
+  },
+  {
+    "type": 1,
+    "icao": "21N",
+    "lat": 40.987600549999996,
+    "lon": -72.51897612,
+    "communications": [],
+    "elevation": 30,
+    "tower": false,
+    "name": "Mattituck Airbase",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 40.98459062,
+        "lonStart": -72.51869729,
+        "latEnd": 40.99061048,
+        "lonEnd": -72.51925495,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11355
+  },
+  {
+    "type": 17,
+    "icao": "25NY",
+    "lat": 40.80009916,
+    "lon": -72.69954223,
+    "communications": [],
+    "elevation": 3,
+    "tower": false,
+    "name": "[H] Carters",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.80009916,
+        "lonStart": -72.69954223,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 11526
+  },
+  {
+    "type": 17,
+    "icao": "87N",
+    "lat": 40.84732249,
+    "lon": -72.46397667,
+    "communications": [],
+    "elevation": 3,
+    "tower": false,
+    "name": "[H] Southampton",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.5,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.84732249,
+        "lonStart": -72.46397667,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.5
+      }
+    ],
+    "id": 13932
+  },
+  {
+    "type": 1,
     "icao": "KHWV",
     "lat": 40.821964,
     "lon": -72.86691125,
@@ -62,385 +445,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 3241
-  },
-  {
-    "type": 1,
-    "icao": "3C8",
-    "lat": 40.915175,
-    "lon": -72.794368,
-    "communications": [],
-    "elevation": 75,
-    "tower": false,
-    "name": "Calverton Executive Airpark",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 40.923831,
-        "lonStart": -72.794022,
-        "latEnd": 40.905769,
-        "lonEnd": -72.766772,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 40.907708,
-        "lonStart": -72.815656,
-        "latEnd": 40.923392,
-        "lonEnd": -72.801022,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 4362
-  },
-  {
-    "type": 1,
-    "icao": "KHTO",
-    "lat": 40.959614,
-    "lon": -72.25113975,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12270,
-        "name": "AWOS-2"
-      },
-      {
-        "type": 54,
-        "frequency": 12522,
-        "name": "Tower"
-      },
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "Ground"
-      },
-      {
-        "type": 52,
-        "frequency": 11895,
-        "name": "NEW YORK CLNC DEL"
-      },
-      {
-        "type": 55,
-        "frequency": 13225,
-        "name": "NEW YORK APP/DEP"
-      }
-    ],
-    "elevation": 56,
-    "tower": false,
-    "name": "East Hampton",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 40.958883,
-        "lonStart": -72.260306,
-        "latEnd": 40.959103,
-        "lonEnd": -72.244903,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 40.962853,
-        "lonStart": -72.251742,
-        "latEnd": 40.957617,
-        "lonEnd": -72.247608,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 6909
-  },
-  {
-    "type": 1,
-    "icao": "KFOK",
-    "lat": 40.843214833333334,
-    "lon": -72.63278966666667,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11992,
-        "name": "ASOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12530,
-        "name": "CTAF"
-      },
-      {
-        "type": 51,
-        "frequency": 12295,
-        "name": "UNICOM"
-      },
-      {
-        "type": 53,
-        "frequency": 12180,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12530,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11895,
-        "name": "NEW YORK APP/DEP"
-      }
-    ],
-    "elevation": 67,
-    "tower": true,
-    "name": "Francis S Gabreski",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 40.836239,
-        "lonStart": -72.639008,
-        "latEnd": 40.85445,
-        "lonEnd": -72.617033,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 40.834914,
-        "lonStart": -72.636972,
-        "latEnd": 40.848625,
-        "lonEnd": -72.637764,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 40.847167,
-        "lonStart": -72.639642,
-        "latEnd": 40.837894,
-        "lonEnd": -72.626319,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 9663
-  },
-  {
-    "type": 1,
-    "icao": "21N",
-    "lat": 40.987600549999996,
-    "lon": -72.51897612,
-    "communications": [],
-    "elevation": 30,
-    "tower": false,
-    "name": "Mattituck Airbase",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 40.98459062,
-        "lonStart": -72.51869729,
-        "latEnd": 40.99061048,
-        "lonEnd": -72.51925495,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 16817
-  },
-  {
-    "type": 1,
-    "icao": "1N2",
-    "lat": 40.82634860500001,
-    "lon": -72.74982195000001,
-    "communications": [],
-    "elevation": 50,
-    "tower": false,
-    "name": "Spadaro - Lufker",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18L",
-        "numberEnd": "36R",
-        "latStart": 40.8217601,
-        "lonStart": -72.74992458,
-        "latEnd": 40.82788156,
-        "lonEnd": -72.75194154,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 6.1,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 40.83080403,
-        "lonStart": -72.74967551,
-        "latEnd": 40.82494873,
-        "lonEnd": -72.74774617,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 23926
-  },
-  {
-    "type": 1,
-    "icao": "03NY",
-    "lat": 40.95843166,
-    "lon": -72.71676500000001,
-    "communications": [],
-    "elevation": 95,
-    "tower": false,
-    "name": "Talmage Fld",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 40.96070569,
-        "lonStart": -72.7187961,
-        "latEnd": 40.95615763,
-        "lonEnd": -72.7147339,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 25001
-  },
-  {
-    "type": 17,
-    "icao": "4NY5",
-    "lat": 40.9876,
-    "lon": -72.17341167,
-    "communications": [],
-    "elevation": 68,
-    "tower": false,
-    "name": "[H] Bistrians",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.9876,
-        "lonStart": -72.17341167,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 28481
-  },
-  {
-    "type": 17,
-    "icao": "25NY",
-    "lat": 40.80009916,
-    "lon": -72.69954223,
-    "communications": [],
-    "elevation": 3,
-    "tower": false,
-    "name": "[H] Carters",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.80009916,
-        "lonStart": -72.69954223,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 28801
-  },
-  {
-    "type": 17,
-    "icao": "9NY5",
-    "lat": 40.80037611,
-    "lon": -72.91677112,
-    "communications": [],
-    "elevation": 29,
-    "tower": false,
-    "name": "[H] Norman Kurrass Contractor",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.80037611,
-        "lonStart": -72.91677112,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 45.7
-      }
-    ],
-    "id": 31634
-  },
-  {
-    "type": 17,
-    "icao": "87N",
-    "lat": 40.84732249,
-    "lon": -72.46397667,
-    "communications": [],
-    "elevation": 3,
-    "tower": false,
-    "name": "[H] Southampton",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.5,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.84732249,
-        "lonStart": -72.46397667,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.5
-      }
-    ],
-    "id": 32795
+    "id": 19321
   },
   {
     "type": 17,
@@ -465,6 +470,6 @@
         "length": 15.2
       }
     ],
-    "id": 32797
+    "id": 22732
   }
 ]

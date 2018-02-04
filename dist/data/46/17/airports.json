@@ -2,56 +2,109 @@
   {
     "type": 1,
     "icao": "LHSM",
-    "lat": 46.68828875,
-    "lon": 17.15765825,
+    "lat": 46.68876105333334,
+    "lon": 17.15930788,
     "communications": [
       {
         "type": 54,
-        "frequency": 13570,
-        "name": "INFO"
-      },
-      {
-        "type": 54,
-        "frequency": 12760,
-        "name": "INFO"
-      },
-      {
-        "type": 54,
-        "frequency": 12760,
-        "name": "TWR"
+        "frequency": 13457,
+        "name": "LHSM Tower"
       }
     ],
     "elevation": 408,
     "tower": true,
-    "name": "BALATON",
+    "name": "Hévíz-Balaton",
     "runways": [
       {
         "type": 100,
-        "width": 60.05,
+        "width": 60,
         "surfaceType": null,
         "numberStart": "16",
         "numberEnd": "34",
-        "latStart": 46.697283,
-        "lonStart": 17.154917,
-        "latEnd": 46.6755,
-        "lonEnd": 17.1632,
+        "latStart": 46.69723369,
+        "lonStart": 17.15493351,
+        "latEnd": 46.67547763,
+        "lonEnd": 17.16322246,
         "length": 0,
         "surfacetype": 2
       },
       {
+        "type": 102,
+        "width": 28,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 46.69357184,
+        "lonStart": 17.15976767,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 28
+      }
+    ],
+    "id": 3729
+  },
+  {
+    "type": 1,
+    "icao": "LHTA",
+    "lat": 46.393001345,
+    "lon": 17.917445975,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "Emergency Radio"
+      }
+    ],
+    "elevation": 511,
+    "tower": true,
+    "name": "Taszár (Kaland)",
+    "runways": [
+      {
         "type": 100,
-        "width": 64.62,
+        "width": 70,
         "surfaceType": null,
-        "numberStart": "17R",
-        "numberEnd": "35L",
-        "latStart": 46.694294,
-        "lonStart": 17.154672,
-        "latEnd": 46.686078,
-        "lonEnd": 17.157844,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 46.40387077,
+        "lonStart": 17.91326098,
+        "latEnd": 46.38213192,
+        "lonEnd": 17.92163097,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 3732
+  },
+  {
+    "type": 1,
+    "icao": "LHZK",
+    "lat": 46.55418795,
+    "lon": 17.151525890000002,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 13570,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 416,
+    "tower": false,
+    "name": "Zalakaros",
+    "runways": [
+      {
+        "type": 100,
+        "width": 25,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 46.551356,
+        "lonStart": 17.14917408,
+        "latEnd": 46.5570199,
+        "lonEnd": 17.1538777,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 1460
+    "id": 3734
   }
 ]

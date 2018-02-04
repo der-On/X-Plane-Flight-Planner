@@ -1,6 +1,32 @@
 [
   {
     "type": 1,
+    "icao": "80TX",
+    "lat": 25.92674694,
+    "lon": -97.40859139,
+    "communications": [],
+    "elevation": 20,
+    "tower": false,
+    "name": "Resaca Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 25.92774998,
+        "lonStart": -97.40963142,
+        "latEnd": 25.9257439,
+        "lonEnd": -97.40755136,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13693
+  },
+  {
+    "type": 1,
     "icao": "KBRO",
     "lat": 25.907451999999996,
     "lon": -97.42592633333334,
@@ -44,8 +70,8 @@
         "type": 100,
         "width": 45.72,
         "surfaceType": null,
-        "numberStart": "13R",
-        "numberEnd": "31L",
+        "numberStart": "13",
+        "numberEnd": "31",
         "latStart": 25.912825,
         "lonStart": -97.431308,
         "latEnd": 25.898328,
@@ -57,8 +83,8 @@
         "type": 100,
         "width": 45.72,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
+        "numberStart": "18",
+        "numberEnd": "36",
         "latStart": 25.915075,
         "lonStart": -97.42885,
         "latEnd": 25.898578,
@@ -80,7 +106,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 3280
+    "id": 18890
   },
   {
     "type": 1,
@@ -112,32 +138,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 9962
-  },
-  {
-    "type": 1,
-    "icao": "80TX",
-    "lat": 25.92674694,
-    "lon": -97.40859139,
-    "communications": [],
-    "elevation": 20,
-    "tower": false,
-    "name": "Resaca Airstrip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 25.92774998,
-        "lonStart": -97.40963142,
-        "latEnd": 25.9257439,
-        "lonEnd": -97.40755136,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 21373
+    "id": 21484
   }
 ]

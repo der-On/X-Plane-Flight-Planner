@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "NZHN",
-    "lat": -37.86405783,
-    "lon": 175.330823647,
+    "lat": -37.863847478333334,
+    "lon": 175.33115253166667,
     "communications": [
       {
         "type": 50,
@@ -41,7 +41,7 @@
         "name": "CHRISTCHURCH APP"
       }
     ],
-    "elevation": 171,
+    "elevation": 169,
     "tower": true,
     "name": "Hamilton",
     "runways": [
@@ -51,10 +51,10 @@
         "surfaceType": null,
         "numberStart": "18L",
         "numberEnd": "36R",
-        "latStart": -37.85785297,
-        "lonStart": 175.33543112,
-        "latEnd": -37.87482397,
-        "lonEnd": 175.32928112,
+        "latStart": -37.85570087,
+        "lonStart": 175.3362469,
+        "latEnd": -37.87483433,
+        "lonEnd": 175.32928338,
         "length": 0,
         "surfacetype": 1
       },
@@ -64,10 +64,10 @@
         "surfaceType": null,
         "numberStart": "18R",
         "numberEnd": "36L",
-        "latStart": -37.86150608,
-        "lonStart": 175.33286473,
-        "latEnd": -37.86691405,
-        "lonEnd": 175.33090656,
+        "latStart": -37.86156506,
+        "lonStart": 175.33286033,
+        "latEnd": -37.86677369,
+        "lonEnd": 175.3309625,
         "length": 0,
         "surfacetype": 1
       },
@@ -75,43 +75,82 @@
         "type": 100,
         "width": 30,
         "surfaceType": null,
-        "numberStart": "18C",
-        "numberEnd": "36C",
-        "latStart": -37.86114079,
-        "lonStart": 175.3330548,
-        "latEnd": -37.86818454,
-        "lonEnd": 175.33050866,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "07L",
-        "numberEnd": "25R",
+        "numberStart": "07",
+        "numberEnd": "25",
         "latStart": -37.86185428,
         "lonStart": 175.32527341,
-        "latEnd": -37.86244022,
-        "lonEnd": 175.33345013,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "07R",
-        "numberEnd": "25L",
-        "latStart": -37.86268376,
-        "lonStart": 175.325314,
-        "latEnd": -37.86317764,
-        "lonEnd": 175.33215194,
+        "latEnd": -37.86235664,
+        "lonEnd": 175.33228867,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 11354
+    "id": 4235
+  },
+  {
+    "type": 1,
+    "icao": "NZTH",
+    "lat": -37.160639749999994,
+    "lon": 175.5487740875,
+    "communications": [],
+    "elevation": 11,
+    "tower": false,
+    "name": "Thames",
+    "runways": [
+      {
+        "type": 100,
+        "width": 34,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -37.161719,
+        "lonStart": 175.54546335,
+        "latEnd": -37.159259,
+        "lonEnd": 175.552813,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 34,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -37.156164,
+        "lonStart": 175.546156,
+        "latEnd": -37.165417,
+        "lonEnd": 175.550664,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4275
+  },
+  {
+    "type": 1,
+    "icao": "NZUN",
+    "lat": -37.020985695,
+    "lon": 175.86358777,
+    "communications": [],
+    "elevation": 19,
+    "tower": false,
+    "name": "Pauanui Beach",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.35,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -37.02230443,
+        "lonStart": 175.85939264,
+        "latEnd": -37.01966696,
+        "lonEnd": 175.8677829,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4282
   },
   {
     "type": 1,
@@ -150,7 +189,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 16790
+    "id": 23068
   },
   {
     "type": 1,
@@ -216,33 +255,7 @@
         "length": 21.03
       }
     ],
-    "id": 17073
-  },
-  {
-    "type": 1,
-    "icao": "NZUN",
-    "lat": -37.020958205,
-    "lon": 175.863658805,
-    "communications": [],
-    "elevation": 19,
-    "tower": false,
-    "name": "Pauanui Beach",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.35,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": -37.02232354,
-        "lonStart": 175.85931535,
-        "latEnd": -37.01959287,
-        "lonEnd": 175.86800226,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 19855
+    "id": 23069
   },
   {
     "type": 1,
@@ -268,7 +281,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 25119
+    "id": 23079
   },
   {
     "type": 1,
@@ -294,46 +307,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 25120
-  },
-  {
-    "type": 1,
-    "icao": "NZTH",
-    "lat": -37.160639749999994,
-    "lon": 175.5487740875,
-    "communications": [],
-    "elevation": 11,
-    "tower": false,
-    "name": "Thames",
-    "runways": [
-      {
-        "type": 100,
-        "width": 34,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": -37.161719,
-        "lonStart": 175.54546335,
-        "latEnd": -37.159259,
-        "lonEnd": 175.552813,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 34,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": -37.156164,
-        "lonStart": 175.546156,
-        "latEnd": -37.165417,
-        "lonEnd": 175.550664,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 25213
+    "id": 23080
   },
   {
     "type": 1,
@@ -359,6 +333,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 26807
+    "id": 23089
   }
 ]

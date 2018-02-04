@@ -1,6 +1,32 @@
 [
   {
     "type": 1,
+    "icao": "5CO7",
+    "lat": 40.7749695,
+    "lon": -107.53395549999999,
+    "communications": [],
+    "elevation": 6978,
+    "tower": false,
+    "name": "MESA VIEW RANCH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 40.772242,
+        "lonStart": -107.535383,
+        "latEnd": 40.777697,
+        "lonEnd": -107.532528,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 182
+  },
+  {
+    "type": 1,
     "icao": "KCAG",
     "lat": 40.4952095,
     "lon": -107.521661,
@@ -34,13 +60,13 @@
         "surfacetype": 1
       }
     ],
-    "id": 4211
+    "id": 2464
   },
   {
     "type": 1,
     "icao": "KEEO",
-    "lat": 40.048801499999996,
-    "lon": -107.885918,
+    "lat": 40.048802665,
+    "lon": -107.885920665,
     "communications": [
       {
         "type": 50,
@@ -65,39 +91,13 @@
         "numberEnd": "21",
         "latStart": 40.041922,
         "lonStart": -107.893308,
-        "latEnd": 40.055681,
-        "lonEnd": -107.878528,
+        "latEnd": 40.05568333,
+        "lonEnd": -107.87853333,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 15997
-  },
-  {
-    "type": 1,
-    "icao": "5CO7",
-    "lat": 40.7749695,
-    "lon": -107.53395549999999,
-    "communications": [],
-    "elevation": 6978,
-    "tower": false,
-    "name": "MESA VIEW RANCH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 40.772242,
-        "lonStart": -107.535383,
-        "latEnd": 40.777697,
-        "lonEnd": -107.532528,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 16052
+    "id": 2607
   },
   {
     "type": 1,
@@ -134,32 +134,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 27667
-  },
-  {
-    "type": 17,
-    "icao": "54CO",
-    "lat": 40.51872111,
-    "lon": -107.54520362,
-    "communications": [],
-    "elevation": 6195,
-    "tower": false,
-    "name": "[H] Memorial Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.51872111,
-        "lonStart": -107.54520362,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 31229
+    "id": 2752
   },
   {
     "type": 17,
@@ -184,7 +159,32 @@
         "length": 21.3
       }
     ],
-    "id": 32034
+    "id": 8016
+  },
+  {
+    "type": 17,
+    "icao": "54CO",
+    "lat": 40.51872111,
+    "lon": -107.54520362,
+    "communications": [],
+    "elevation": 6195,
+    "tower": false,
+    "name": "[H] Memorial Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.51872111,
+        "lonStart": -107.54520362,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 12637
   },
   {
     "type": 17,
@@ -209,6 +209,6 @@
         "length": 30.5
       }
     ],
-    "id": 33226
+    "id": 15158
   }
 ]

@@ -1,35 +1,35 @@
 [
   {
     "type": 1,
-    "icao": "XEDAE",
-    "lat": 49.831913205,
-    "lon": 9.537127120000001,
+    "icao": "EDEW",
+    "lat": 49.5816835,
+    "lon": 9.402149000000001,
     "communications": [
       {
         "type": 54,
-        "frequency": 13012,
-        "name": "Altfeld Info"
+        "frequency": 12275,
+        "name": "Wallduern Info"
       }
     ],
-    "elevation": 1149,
+    "elevation": 1312,
     "tower": true,
-    "name": "Altfeld",
+    "name": "Wallduern",
     "runways": [
       {
         "type": 100,
-        "width": 8,
+        "width": 21.5,
         "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 49.8321289,
-        "lonStart": 9.53311451,
-        "latEnd": 49.83169751,
-        "lonEnd": 9.54113973,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 49.579733,
+        "lonStart": 9.397337,
+        "latEnd": 49.583634,
+        "lonEnd": 9.406961,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 932
+    "id": 1078
   },
   {
     "type": 1,
@@ -74,13 +74,236 @@
         "surfacetype": 3
       }
     ],
-    "id": 1253
+    "id": 1081
+  },
+  {
+    "type": 1,
+    "icao": "EDFU",
+    "lat": 49.6949905,
+    "lon": 9.182371,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12237,
+        "name": "Mainbullau Info"
+      }
+    ],
+    "elevation": 1502,
+    "tower": true,
+    "name": "Mainbullau",
+    "runways": [
+      {
+        "type": 100,
+        "width": 10.5,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 49.693095,
+        "lonStart": 9.178579,
+        "latEnd": 49.696886,
+        "lonEnd": 9.186163,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1098
+  },
+  {
+    "type": 1,
+    "icao": "EDFW",
+    "lat": 49.817828,
+    "lon": 9.897632999999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12217,
+        "name": "Wuerzburg Info"
+      }
+    ],
+    "elevation": 991,
+    "tower": false,
+    "name": "Wuerzburg Schenkenturm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 49.818749,
+        "lonStart": 9.893205,
+        "latEnd": 49.816907,
+        "lonEnd": 9.902061,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1100
+  },
+  {
+    "type": 1,
+    "icao": "EDGH",
+    "lat": 49.79865896,
+    "lon": 9.83686109,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12242,
+        "name": "Hettstadt Info"
+      }
+    ],
+    "elevation": 1049,
+    "tower": true,
+    "name": "Hettstadt",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 49.79852557,
+        "lonStart": 9.83300083,
+        "latEnd": 49.79879235,
+        "lonEnd": 9.84072135,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1108
+  },
+  {
+    "type": 1,
+    "icao": "EDGI",
+    "lat": 49.321778885,
+    "lon": 9.663548385,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13060,
+        "name": "Ingelfingen Info"
+      }
+    ],
+    "elevation": 1374,
+    "tower": true,
+    "name": "Ingelfingen - Buehlhof",
+    "runways": [
+      {
+        "type": 100,
+        "width": 10,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 49.32101779,
+        "lonStart": 9.66019228,
+        "latEnd": 49.32253998,
+        "lonEnd": 9.66690449,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1109
+  },
+  {
+    "type": 1,
+    "icao": "EDGM",
+    "lat": 49.399362685,
+    "lon": 9.123670435000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12285,
+        "name": "Mosbach Info"
+      }
+    ],
+    "elevation": 1082,
+    "tower": true,
+    "name": "Mosbach - Lohrbach",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 49.40186133,
+        "lonStart": 9.12135677,
+        "latEnd": 49.39686404,
+        "lonEnd": 9.1259841,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1113
+  },
+  {
+    "type": 17,
+    "icao": "EDGO",
+    "lat": 49.24148126,
+    "lon": 9.23439842,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12200,
+        "name": "Oedheim Info"
+      }
+    ],
+    "elevation": 507,
+    "tower": true,
+    "name": "[H] Oedheim",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 49.24148126,
+        "lonStart": 9.23439842,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30
+      }
+    ],
+    "id": 1114
+  },
+  {
+    "type": 1,
+    "icao": "EDGU",
+    "lat": 49.515733999999995,
+    "lon": 9.6694035,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12261,
+        "name": "Unterschuepf Info"
+      }
+    ],
+    "elevation": 1154,
+    "tower": true,
+    "name": "Unterschuepf",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 49.515541,
+        "lonStart": 9.664714,
+        "latEnd": 49.515927,
+        "lonEnd": 9.674093,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1120
   },
   {
     "type": 1,
     "icao": "EDQG",
-    "lat": 49.64717127875,
-    "lon": 9.965073045,
+    "lat": 49.6471452125,
+    "lon": 9.96486446625,
     "communications": [
       {
         "type": 54,
@@ -88,7 +311,7 @@
         "name": "Giebelstadt Info"
       }
     ],
-    "elevation": 980,
+    "elevation": 979,
     "tower": true,
     "name": "Giebelstadt",
     "runways": [
@@ -98,10 +321,10 @@
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": 49.646183,
-        "lonStart": 9.95246,
-        "latEnd": 49.650117,
-        "lonEnd": 9.980954,
+        "latStart": 49.64619246,
+        "lonStart": 9.95244682,
+        "latEnd": 49.64989901,
+        "lonEnd": 9.97929855,
         "length": 0,
         "surfacetype": 2
       },
@@ -145,135 +368,89 @@
         "surfacetype": 3
       }
     ],
-    "id": 10453
+    "id": 1286
   },
   {
     "type": 1,
-    "icao": "EDGH",
-    "lat": 49.79865896,
-    "lon": 9.83686109,
+    "icao": "EDTX",
+    "lat": 49.12434438,
+    "lon": 9.780899505,
     "communications": [
       {
         "type": 54,
-        "frequency": 12242,
-        "name": "Hettstadt Info"
+        "frequency": 12922,
+        "name": "Schwaebisch-Hall Info"
       }
     ],
-    "elevation": 1049,
+    "elevation": 1299,
     "tower": true,
-    "name": "Hettstadt",
+    "name": "Schwaebisch-Hall Weckrieden",
     "runways": [
       {
         "type": 100,
-        "width": 29,
+        "width": 30,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 49.79852557,
-        "lonStart": 9.83300083,
-        "latEnd": 49.79879235,
-        "lonEnd": 9.84072135,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 49.12413476,
+        "lonStart": 9.77713001,
+        "latEnd": 49.124554,
+        "lonEnd": 9.784669,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 11757
+    "id": 1358
   },
   {
     "type": 1,
-    "icao": "EDGI",
-    "lat": 49.321778885,
-    "lon": 9.663548385,
+    "icao": "EDTY",
+    "lat": 49.118476355,
+    "lon": 9.785246995,
     "communications": [
       {
         "type": 54,
-        "frequency": 13060,
-        "name": "Ingelfingen Info"
+        "frequency": 12922,
+        "name": "Schwaebisch-Hall Info"
+      },
+      {
+        "type": 50,
+        "frequency": 13387,
+        "name": "Schwaebisch-Hall ATIS"
       }
     ],
-    "elevation": 1374,
+    "elevation": 1289,
     "tower": true,
-    "name": "Ingelfingen - Buehlhof",
+    "name": "Schwaebisch-Hall",
     "runways": [
       {
         "type": 100,
-        "width": 10,
+        "width": 30,
         "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 49.32101779,
-        "lonStart": 9.66019228,
-        "latEnd": 49.32253998,
-        "lonEnd": 9.66690449,
+        "numberStart": "10L",
+        "numberEnd": "28R",
+        "latStart": 49.11913641,
+        "lonStart": 9.78174891,
+        "latEnd": 49.11805701,
+        "lonEnd": 9.79197207,
         "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 12490
-  },
-  {
-    "type": 1,
-    "icao": "EDFU",
-    "lat": 49.6949905,
-    "lon": 9.182371,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12237,
-        "name": "Mainbullau Info"
-      }
-    ],
-    "elevation": 1502,
-    "tower": true,
-    "name": "Mainbullau",
-    "runways": [
+        "surfacetype": 3
+      },
       {
         "type": 100,
-        "width": 10.5,
+        "width": 30,
         "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 49.693095,
-        "lonStart": 9.178579,
-        "latEnd": 49.696886,
-        "lonEnd": 9.186163,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 49.119415,
+        "lonStart": 9.773206,
+        "latEnd": 49.117297,
+        "lonEnd": 9.794061,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
       }
     ],
-    "id": 16497
-  },
-  {
-    "type": 1,
-    "icao": "EDGM",
-    "lat": 49.399362685,
-    "lon": 9.123670435000001,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12285,
-        "name": "Mosbach Info"
-      }
-    ],
-    "elevation": 1082,
-    "tower": true,
-    "name": "Mosbach - Lohrbach",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 49.40186133,
-        "lonStart": 9.12135677,
-        "latEnd": 49.39686404,
-        "lonEnd": 9.1259841,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 17556
+    "id": 1359
   },
   {
     "type": 1,
@@ -339,7 +516,7 @@
         "type": 102,
         "width": 49.1,
         "surfaceType": 15,
-        "numberStart": "H137",
+        "numberStart": "H1",
         "numberEnd": null,
         "latStart": 49.39105779,
         "lonStart": 9.96009279,
@@ -348,178 +525,38 @@
         "length": 53.6
       }
     ],
-    "id": 18317
+    "id": 2066
   },
   {
     "type": 1,
-    "icao": "EDTY",
-    "lat": 49.118476355,
-    "lon": 9.785246995,
+    "icao": "XEDAE",
+    "lat": 49.831913205,
+    "lon": 9.537127120000001,
     "communications": [
       {
         "type": 54,
-        "frequency": 12922,
-        "name": "Schwaebisch-Hall Info"
-      },
-      {
-        "type": 50,
-        "frequency": 13387,
-        "name": "Schwaebisch-Hall ATIS"
+        "frequency": 13012,
+        "name": "Altfeld Info"
       }
     ],
-    "elevation": 1289,
+    "elevation": 1149,
     "tower": true,
-    "name": "Schwaebisch-Hall",
+    "name": "Altfeld",
     "runways": [
       {
         "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "10L",
-        "numberEnd": "28R",
-        "latStart": 49.11913641,
-        "lonStart": 9.78174891,
-        "latEnd": 49.11805701,
-        "lonEnd": 9.79197207,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 30,
+        "width": 8,
         "surfaceType": null,
         "numberStart": "10",
         "numberEnd": "28",
-        "latStart": 49.119415,
-        "lonStart": 9.773206,
-        "latEnd": 49.117297,
-        "lonEnd": 9.794061,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 23146
-  },
-  {
-    "type": 1,
-    "icao": "EDTX",
-    "lat": 49.12434438,
-    "lon": 9.780899505,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12922,
-        "name": "Schwaebisch-Hall Info"
-      }
-    ],
-    "elevation": 1299,
-    "tower": true,
-    "name": "Schwaebisch-Hall Weckrieden",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 49.12413476,
-        "lonStart": 9.77713001,
-        "latEnd": 49.124554,
-        "lonEnd": 9.784669,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23147
-  },
-  {
-    "type": 1,
-    "icao": "EDGU",
-    "lat": 49.515733999999995,
-    "lon": 9.6694035,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12261,
-        "name": "Unterschuepf Info"
-      }
-    ],
-    "elevation": 1154,
-    "tower": true,
-    "name": "Unterschuepf",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 49.515541,
-        "lonStart": 9.664714,
-        "latEnd": 49.515927,
-        "lonEnd": 9.674093,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 25951
-  },
-  {
-    "type": 1,
-    "icao": "EDEW",
-    "lat": 49.5816835,
-    "lon": 9.402149000000001,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12275,
-        "name": "Wallduern Info"
-      }
-    ],
-    "elevation": 1312,
-    "tower": true,
-    "name": "Wallduern",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.5,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 49.579733,
-        "lonStart": 9.397337,
-        "latEnd": 49.583634,
-        "lonEnd": 9.406961,
+        "latStart": 49.8321289,
+        "lonStart": 9.53311451,
+        "latEnd": 49.83169751,
+        "lonEnd": 9.54113973,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 26855
-  },
-  {
-    "type": 1,
-    "icao": "EDFW",
-    "lat": 49.817909244999996,
-    "lon": 9.897565740000001,
-    "communications": [],
-    "elevation": 984,
-    "tower": false,
-    "name": "Wuerzburg Schenkenturm",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.03,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 49.81893958,
-        "lonStart": 9.89317833,
-        "latEnd": 49.81687891,
-        "lonEnd": 9.90195315,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 27592
+    "id": 5371
   }
 ]

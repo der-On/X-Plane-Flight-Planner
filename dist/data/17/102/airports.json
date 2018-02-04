@@ -1,29 +1,35 @@
 [
   {
     "type": 1,
-    "icao": "VTUM",
-    "lat": 17.865534745,
-    "lon": 102.72908574,
-    "communications": [],
-    "elevation": 540,
-    "tower": false,
-    "name": "Nong Kai",
+    "icao": "VLVT",
+    "lat": 17.988342725,
+    "lon": 102.563221665,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 1850,
+    "tower": true,
+    "name": "Vientiane Wattay",
     "runways": [
       {
         "type": 100,
-        "width": 50.9,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 17.86358381,
-        "lonStart": 102.73140642,
-        "latEnd": 17.86748568,
-        "lonEnd": 102.72676506,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 17.99796734,
+        "lonStart": 102.55324967,
+        "latEnd": 17.97871811,
+        "lonEnd": 102.57319366,
         "length": 0,
-        "surfacetype": 4
+        "surfacetype": 1
       }
     ],
-    "id": 18391
+    "id": 30920
   },
   {
     "type": 1,
@@ -61,7 +67,7 @@
         "length": 11.89
       }
     ],
-    "id": 25872
+    "id": 31108
   },
   {
     "type": 1,
@@ -103,38 +109,32 @@
         "surfacetype": 1
       }
     ],
-    "id": 25873
+    "id": 31111
   },
   {
     "type": 1,
-    "icao": "VLVT",
-    "lat": 17.988342725,
-    "lon": 102.563221665,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11810,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 1850,
-    "tower": true,
-    "name": "Vientiane Wattay",
+    "icao": "VTUM",
+    "lat": 17.865534745,
+    "lon": 102.72908574,
+    "communications": [],
+    "elevation": 540,
+    "tower": false,
+    "name": "Nong Kai",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 50.9,
         "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 17.99796734,
-        "lonStart": 102.55324967,
-        "latEnd": 17.97871811,
-        "lonEnd": 102.57319366,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 17.86358381,
+        "lonStart": 102.73140642,
+        "latEnd": 17.86748568,
+        "lonEnd": 102.72676506,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 4
       }
     ],
-    "id": 26317
+    "id": 31120
   }
 ]

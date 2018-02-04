@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "NZMO",
-    "lat": -45.532893,
-    "lon": 167.65319499999998,
+    "lat": -45.53347299199999,
+    "lon": 167.648124498,
     "communications": [
       {
         "type": 50,
@@ -23,7 +23,7 @@
     ],
     "elevation": 687,
     "tower": true,
-    "name": "Manapouri-Te_Anau",
+    "name": "Manapouri-Te Anau",
     "runways": [
       {
         "type": 100,
@@ -31,21 +31,46 @@
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": -45.531393,
-        "lonStart": 167.64314,
-        "latEnd": -45.534393,
-        "lonEnd": 167.66325,
+        "latStart": -45.53154753,
+        "lonStart": 167.64309588,
+        "latEnd": -45.53449335,
+        "lonEnd": 167.66300361,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 35,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -45.52854063,
+        "lonStart": 167.64396324,
+        "latEnd": -45.5386682,
+        "lonEnd": 167.64860284,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 12.16,
+        "surfaceType": 2,
+        "numberStart": "H20",
+        "numberEnd": null,
+        "latStart": -45.53411525,
+        "lonStart": 167.64195692,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.52
       }
     ],
-    "id": 16568
+    "id": 4249
   },
   {
     "type": 1,
     "icao": "NZTZ",
-    "lat": -45.4636536,
-    "lon": 167.7016602,
+    "lat": -45.43735972,
+    "lon": 167.70734365200002,
     "communications": [],
     "elevation": 786,
     "tower": false,
@@ -57,14 +82,38 @@
         "surfaceType": null,
         "numberStart": "16",
         "numberEnd": "34",
-        "latStart": -45.46036801,
-        "lonStart": 167.70174197,
-        "latEnd": -45.46693919,
-        "lonEnd": 167.70157843,
+        "latStart": -45.46026924,
+        "lonStart": 167.70136647,
+        "latEnd": -45.46560304,
+        "lonEnd": 167.70138189,
         "length": 0,
         "surfacetype": 3
+      },
+      {
+        "type": 101,
+        "width": 100,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -45.41793369,
+        "lonStart": 167.70735033,
+        "latEnd": -45.42459324,
+        "lonEnd": 167.71473763,
+        "length": 0
+      },
+      {
+        "type": 102,
+        "width": 13.1,
+        "surfaceType": 2,
+        "numberStart": "H17",
+        "numberEnd": null,
+        "latStart": -45.41839939,
+        "lonStart": 167.71188194,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.19
       }
     ],
-    "id": 25118
+    "id": 4280
   }
 ]

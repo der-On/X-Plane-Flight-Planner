@@ -1,9 +1,71 @@
 [
   {
     "type": 1,
+    "icao": "RJOS",
+    "lat": 34.13228061,
+    "lon": 134.60930972,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12620,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11800,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12245,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12010,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12400,
+        "name": "APP"
+      },
+      {
+        "type": 56,
+        "frequency": 12010,
+        "name": "DEP"
+      },
+      {
+        "type": 56,
+        "frequency": 12400,
+        "name": "DEP"
+      }
+    ],
+    "elevation": 26,
+    "tower": true,
+    "name": "TOKUSHIMA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 34.134739,
+        "lonStart": 134.596125,
+        "latEnd": 34.12982222,
+        "lonEnd": 134.62249444,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4462
+  },
+  {
+    "type": 1,
     "icao": "RJOT",
-    "lat": 34.214053,
-    "lon": 134.015772,
+    "lat": 34.215458437500004,
+    "lon": 134.0178637825,
     "communications": [
       {
         "type": 50,
@@ -62,70 +124,32 @@
         "lonEnd": 134.028736,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 50,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 34.21609678,
+        "lonStart": 134.01677011,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 50
+      },
+      {
+        "type": 102,
+        "width": 50,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.21763097,
+        "lonStart": 134.02314102,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 50
       }
     ],
-    "id": 24548
-  },
-  {
-    "type": 1,
-    "icao": "RJOS",
-    "lat": 34.1328085,
-    "lon": 134.606639,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12620,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 11800,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12245,
-        "name": "APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12010,
-        "name": "APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12400,
-        "name": "APP"
-      },
-      {
-        "type": 56,
-        "frequency": 12010,
-        "name": "DEP"
-      },
-      {
-        "type": 56,
-        "frequency": 12400,
-        "name": "DEP"
-      }
-    ],
-    "elevation": 26,
-    "tower": true,
-    "name": "TOKUSHIMA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 34.134739,
-        "lonStart": 134.596125,
-        "latEnd": 34.130878,
-        "lonEnd": 134.617153,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 24775
+    "id": 24417
   }
 ]

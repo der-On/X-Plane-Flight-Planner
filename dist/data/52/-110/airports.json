@@ -1,75 +1,17 @@
 [
   {
     "type": 1,
-    "icao": "CKU4",
-    "lat": 52.73991783,
-    "lon": -109.01495840999999,
-    "communications": [],
-    "elevation": 2100,
-    "tower": false,
-    "name": "Cut Knife",
-    "runways": [
-      {
-        "type": 100,
-        "width": 46.02,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 52.73991783,
-        "lonStart": -109.02401825,
-        "latEnd": 52.73991783,
-        "lonEnd": -109.00589857,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 5612
-  },
-  {
-    "type": 1,
-    "icao": "CJR2",
-    "lat": 52.069721,
-    "lon": -109.374168,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12320,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 2300,
-    "tower": false,
-    "name": "Luseland",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 52.07194282,
-        "lonStart": -109.38000208,
-        "latEnd": 52.06749918,
-        "lonEnd": -109.36833392,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 15623
-  },
-  {
-    "type": 1,
     "icao": "CJJ8",
-    "lat": 52.342781,
-    "lon": -109.91887700000001,
+    "lat": 52.34380025,
+    "lon": -109.92063247499999,
     "communications": [
       {
-        "type": 51,
+        "type": 54,
         "frequency": 12320,
-        "name": "CTAF"
+        "name": "Traffic"
       }
     ],
-    "elevation": 2280,
+    "elevation": 2279,
     "tower": false,
     "name": "Macklin",
     "runways": [
@@ -79,15 +21,47 @@
         "surfaceType": null,
         "numberStart": "11",
         "numberEnd": "29",
-        "latStart": 52.34500121,
-        "lonStart": -109.92443473,
-        "latEnd": 52.34056079,
-        "lonEnd": -109.91331927,
+        "latStart": 52.34606224,
+        "lonStart": -109.92625668,
+        "latEnd": 52.34153826,
+        "lonEnd": -109.91500827,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 16443
+    "id": 671
+  },
+  {
+    "type": 1,
+    "icao": "CJR2",
+    "lat": 52.06957292,
+    "lon": -109.37478056,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12320,
+        "name": "Traffic"
+      }
+    ],
+    "elevation": 2299,
+    "tower": false,
+    "name": "Luseland",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 52.07167717,
+        "lonStart": -109.38053213,
+        "latEnd": 52.06746867,
+        "lonEnd": -109.36902899,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 673
   },
   {
     "type": 1,
@@ -113,7 +87,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 18181
+    "id": 15275
   },
   {
     "type": 1,
@@ -158,6 +132,32 @@
         "surfacetype": 4
       }
     ],
-    "id": 25934
+    "id": 15309
+  },
+  {
+    "type": 1,
+    "icao": "CKU4",
+    "lat": 52.73991783,
+    "lon": -109.01495840999999,
+    "communications": [],
+    "elevation": 2100,
+    "tower": false,
+    "name": "Cut Knife",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 52.73991783,
+        "lonStart": -109.02401825,
+        "latEnd": 52.73991783,
+        "lonEnd": -109.00589857,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 15344
   }
 ]

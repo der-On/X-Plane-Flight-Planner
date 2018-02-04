@@ -1,48 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "KSUT",
-    "lat": 33.929261,
-    "lon": -78.074993,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12417,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12300,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 11825,
-        "name": "WILMINGTON APP/DEP"
-      }
-    ],
-    "elevation": 24,
-    "tower": false,
-    "name": "BRUNSWICK CO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 33.925114,
-        "lonStart": -78.079322,
-        "latEnd": 33.933408,
-        "lonEnd": -78.070664,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 1940
-  },
-  {
-    "type": 1,
     "icao": "KCRE",
     "lat": 33.8117485,
     "lon": -78.7239415,
@@ -96,59 +54,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 10693
-  },
-  {
-    "type": 1,
-    "icao": "SC21",
-    "lat": 33.94183777000001,
-    "lon": -78.83307917,
-    "communications": [],
-    "elevation": 45,
-    "tower": false,
-    "name": "Hardee",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 33.93865412,
-        "lonStart": -78.83566763,
-        "latEnd": 33.94502142,
-        "lonEnd": -78.83049071,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11432
-  },
-  {
-    "type": 1,
-    "icao": "SC28",
-    "lat": 33.652114440000005,
-    "lon": -78.99420056,
-    "communications": [],
-    "elevation": 26,
-    "tower": false,
-    "name": "Javika",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 33.64915474,
-        "lonStart": -78.99763412,
-        "latEnd": 33.65507414,
-        "lonEnd": -78.990767,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 12930
+    "id": 2522
   },
   {
     "type": 1,
@@ -220,7 +126,33 @@
         "surfacetype": 1
       }
     ],
-    "id": 17783
+    "id": 3029
+  },
+  {
+    "type": 1,
+    "icao": "SC21",
+    "lat": 33.94129248,
+    "lon": -78.83296473499999,
+    "communications": [],
+    "elevation": 44,
+    "tower": false,
+    "name": "Hardee",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 33.93825966,
+        "lonStart": -78.83572214,
+        "latEnd": 33.9443253,
+        "lonEnd": -78.83020733,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4681
   },
   {
     "type": 1,
@@ -252,6 +184,48 @@
         "surfacetype": 1
       }
     ],
-    "id": 18608
+    "id": 12876
+  },
+  {
+    "type": 1,
+    "icao": "KSUT",
+    "lat": 33.93081884,
+    "lon": -78.073365515,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12417,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11825,
+        "name": "WILMINGTON APP/DEP"
+      }
+    ],
+    "elevation": 24,
+    "tower": false,
+    "name": "BRUNSWICK CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 33.925114,
+        "lonStart": -78.079322,
+        "latEnd": 33.93652368,
+        "lonEnd": -78.06740903,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19854
   }
 ]

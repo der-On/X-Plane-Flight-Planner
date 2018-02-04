@@ -7,7 +7,7 @@
     "communications": [],
     "elevation": 89,
     "tower": false,
-    "name": "BrC%valla",
+    "name": "Bråvalla",
     "runways": [
       {
         "type": 100,
@@ -36,7 +36,88 @@
         "surfacetype": 1
       }
     ],
-    "id": 3307
+    "id": 1872
+  },
+  {
+    "type": 1,
+    "icao": "ESKN",
+    "lat": 58.79043925,
+    "lon": 16.907356930000002,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12627,
+        "name": "ATIS"
+      },
+      {
+        "type": 55,
+        "frequency": 13295,
+        "name": "OSTGOTA APP"
+      },
+      {
+        "type": 54,
+        "frequency": 12770,
+        "name": "TWR ATC freq."
+      }
+    ],
+    "elevation": 140,
+    "tower": true,
+    "name": "Stockholm Skavsta",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 58.786662,
+        "lonStart": 16.88039617,
+        "latEnd": 58.789772,
+        "lonEnd": 16.92980117,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 58.801356,
+        "lonStart": 16.90410719,
+        "latEnd": 58.783967,
+        "lonEnd": 16.91512319,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1936
+  },
+  {
+    "type": 1,
+    "icao": "ESKX",
+    "lat": 58.790497,
+    "lon": 16.572001280000002,
+    "communications": [],
+    "elevation": 139,
+    "tower": false,
+    "name": "[X] Björkvik airbase",
+    "runways": [
+      {
+        "type": 100,
+        "width": 35,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 58.79475715,
+        "lonStart": 16.55801146,
+        "latEnd": 58.78623685,
+        "lonEnd": 16.5859911,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1942
   },
   {
     "type": 1,
@@ -86,56 +167,58 @@
         "surfacetype": 3
       }
     ],
-    "id": 18429
+    "id": 2014
   },
   {
     "type": 1,
-    "icao": "ESKN",
-    "lat": 58.79043925,
-    "lon": 16.907356930000002,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12675,
-        "name": "ATIS"
-      },
-      {
-        "type": 54,
-        "frequency": 12770,
-        "name": "TWR ATC freq."
-      }
-    ],
-    "elevation": 140,
-    "tower": true,
-    "name": "Stockholm Skavsta",
+    "icao": "XESS16",
+    "lat": 58.491442000000006,
+    "lon": 16.291050685000002,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "Söderköping",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 15,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 58.786662,
-        "lonStart": 16.88039617,
-        "latEnd": 58.789772,
-        "lonEnd": 16.92980117,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 58.49380535,
+        "lonStart": 16.28639614,
+        "latEnd": 58.48907865,
+        "lonEnd": 16.29570523,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 39.93,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 58.801356,
-        "lonStart": 16.90410719,
-        "latEnd": 58.783967,
-        "lonEnd": 16.91512319,
-        "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 24211
+    "id": 5463
+  },
+  {
+    "type": 1,
+    "icao": "XESVE",
+    "lat": 58.433452,
+    "lon": 16.60541934,
+    "communications": [],
+    "elevation": 29,
+    "tower": false,
+    "name": "Stegeborg",
+    "runways": [
+      {
+        "type": 100,
+        "width": 25,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 58.43203098,
+        "lonStart": 16.59707158,
+        "latEnd": 58.43487302,
+        "lonEnd": 16.6137671,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5478
   }
 ]

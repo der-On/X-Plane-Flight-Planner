@@ -1,91 +1,9 @@
 [
   {
     "type": 1,
-    "icao": "07R",
-    "lat": 27.61031,
-    "lon": -97.7519415,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 55,
-    "tower": false,
-    "name": "BISHOP MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 27.614306,
-        "lonStart": -97.754012,
-        "latEnd": 27.606314,
-        "lonEnd": -97.749871,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 1754
-  },
-  {
-    "type": 1,
-    "icao": "KNGW",
-    "lat": 27.702639,
-    "lon": -97.43875025,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11965,
-        "name": "NAVY CABANISS TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12540,
-        "name": "CORPUS APP/DEP"
-      }
-    ],
-    "elevation": 29,
-    "tower": true,
-    "name": "CABANISS FLD NOLF",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 27.706111,
-        "lonStart": -97.443056,
-        "latEnd": 27.696667,
-        "lonEnd": -97.431667,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 27.710556,
-        "lonStart": -97.440278,
-        "latEnd": 27.697222,
-        "lonEnd": -97.44,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 3506
-  },
-  {
-    "type": 1,
     "icao": "KCRP",
-    "lat": 27.77044175,
-    "lon": -97.50073750000001,
+    "lat": 27.771267775000002,
+    "lon": -97.50076489749999,
     "communications": [
       {
         "type": 50,
@@ -128,7 +46,7 @@
         "name": "APP/DEP"
       }
     ],
-    "elevation": 43,
+    "elevation": 41,
     "tower": true,
     "name": "CORPUS CHRISTI INTL",
     "runways": [
@@ -136,12 +54,12 @@
         "type": 100,
         "width": 45.72,
         "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 27.777,
-        "lonStart": -97.513389,
-        "latEnd": 27.762192,
-        "lonEnd": -97.497208,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 27.78126839,
+        "lonStart": -97.49636508,
+        "latEnd": 27.764593,
+        "lonEnd": -97.4960614,
         "length": 0,
         "surfacetype": 1
       },
@@ -149,17 +67,510 @@
         "type": 100,
         "width": 45.72,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 27.779647,
-        "lonStart": -97.496322,
-        "latEnd": 27.762928,
-        "lonEnd": -97.496031,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 27.77700802,
+        "lonStart": -97.51340973,
+        "latEnd": 27.76220169,
+        "lonEnd": -97.49722338,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 4169
+    "id": 2524
+  },
+  {
+    "type": 1,
+    "icao": "KRAS",
+    "lat": 27.811821000000002,
+    "lon": -97.08875699999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      },
+      {
+        "type": 55,
+        "frequency": 12090,
+        "name": "CORPUS APP/DEP"
+      }
+    ],
+    "elevation": 3,
+    "tower": false,
+    "name": "MUSTANG BEACH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 27.814592,
+        "lonStart": -97.09315,
+        "latEnd": 27.80905,
+        "lonEnd": -97.084364,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3173
+  },
+  {
+    "type": 1,
+    "icao": "T43",
+    "lat": 27.913040379999998,
+    "lon": -97.21149474,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11877,
+        "name": "AWOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12090,
+        "name": "CORPUS APP/DEP"
+      }
+    ],
+    "elevation": 18,
+    "tower": false,
+    "name": "T P MC CAMPBELL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 27.91828707,
+        "lonStart": -97.2164959,
+        "latEnd": 27.90779369,
+        "lonEnd": -97.20649358,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4987
+  },
+  {
+    "type": 17,
+    "icao": "0TA6",
+    "lat": 27.84780388,
+    "lon": -97.22304584,
+    "communications": [],
+    "elevation": 20,
+    "tower": false,
+    "name": "[H] Arco Ingleside Shorebase",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 27.84780388,
+        "lonStart": -97.22304584,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      },
+      {
+        "type": 102,
+        "width": 4.6,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 27.84780388,
+        "lonStart": -97.22304584,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      },
+      {
+        "type": 102,
+        "width": 4.6,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 27.84780388,
+        "lonStart": -97.22304584,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 6163
+  },
+  {
+    "type": 17,
+    "icao": "2T2",
+    "lat": 27.77975,
+    "lon": -97.41415889,
+    "communications": [],
+    "elevation": 38,
+    "tower": false,
+    "name": "[H] Memorial Medical Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 4,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 27.77975,
+        "lonStart": -97.41415889,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 7303
+  },
+  {
+    "type": 17,
+    "icao": "3TX0",
+    "lat": 27.74114055,
+    "lon": -97.43499223,
+    "communications": [],
+    "elevation": 37,
+    "tower": false,
+    "name": "[H] Texas Dept. of Public Safety",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 27.74114055,
+        "lonStart": -97.43499223,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 7892
+  },
+  {
+    "type": 17,
+    "icao": "4TA7",
+    "lat": 27.86113666,
+    "lon": -97.19887889,
+    "communications": [],
+    "elevation": 20,
+    "tower": false,
+    "name": "[H] Oak Ridge",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 27.86113666,
+        "lonStart": -97.19887889,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 8372
+  },
+  {
+    "type": 1,
+    "icao": "07R",
+    "lat": 27.61031,
+    "lon": -97.7519415,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 55,
+    "tower": false,
+    "name": "BISHOP MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 27.614306,
+        "lonStart": -97.754012,
+        "latEnd": 27.606314,
+        "lonEnd": -97.749871,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 9857
+  },
+  {
+    "type": 1,
+    "icao": "07TE",
+    "lat": 27.721909625,
+    "lon": -97.509618,
+    "communications": [],
+    "elevation": 39,
+    "tower": false,
+    "name": "CUDDIHY FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 27.716944,
+        "lonStart": -97.514444,
+        "latEnd": 27.726944,
+        "lonEnd": -97.503611,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 27.721667,
+        "lonStart": -97.518889,
+        "latEnd": 27.721667,
+        "lonEnd": -97.503333,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 27.725833,
+        "lonStart": -97.5175,
+        "latEnd": 27.716389,
+        "lonEnd": -97.506389,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 27.729722,
+        "lonStart": -97.506389,
+        "latEnd": 27.716111,
+        "lonEnd": -97.506389,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 9882
+  },
+  {
+    "type": 1,
+    "icao": "9R5",
+    "lat": 27.887801109999998,
+    "lon": -97.35443639,
+    "communications": [],
+    "elevation": 40,
+    "tower": false,
+    "name": "Hunt",
+    "runways": [
+      {
+        "type": 100,
+        "width": 6.1,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 27.89084922,
+        "lonStart": -97.35667594,
+        "latEnd": 27.884753,
+        "lonEnd": -97.35219684,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10767
+  },
+  {
+    "type": 17,
+    "icao": "10TX",
+    "lat": 27.84474861,
+    "lon": -97.22387917,
+    "communications": [],
+    "elevation": 15,
+    "tower": false,
+    "name": "[H] JBLN Aerospace",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 27.84474861,
+        "lonStart": -97.22387917,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 10917
+  },
+  {
+    "type": 17,
+    "icao": "33TX",
+    "lat": 27.74447138,
+    "lon": -97.84638695,
+    "communications": [],
+    "elevation": 106,
+    "tower": false,
+    "name": "[H] TGP 1",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 27.74447138,
+        "lonStart": -97.84638695,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 11837
+  },
+  {
+    "type": 1,
+    "icao": "66TX",
+    "lat": 27.62392027,
+    "lon": -97.88305417000001,
+    "communications": [],
+    "elevation": 85,
+    "tower": false,
+    "name": "Oliver Till",
+    "runways": [
+      {
+        "type": 100,
+        "width": 10.06,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 27.6241409,
+        "lonStart": -97.88508222,
+        "latEnd": 27.62369964,
+        "lonEnd": -97.88102612,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13130
+  },
+  {
+    "type": 1,
+    "icao": "67TX",
+    "lat": 27.80030222,
+    "lon": -97.85122056,
+    "communications": [],
+    "elevation": 95,
+    "tower": false,
+    "name": "Old Hoppe Place",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 27.80386441,
+        "lonStart": -97.85268626,
+        "latEnd": 27.79674003,
+        "lonEnd": -97.84975486,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 13171
+  },
+  {
+    "type": 1,
+    "icao": "68TX",
+    "lat": 27.98084944,
+    "lon": -97.78694223,
+    "communications": [],
+    "elevation": 50,
+    "tower": false,
+    "name": "San Patricio International",
+    "runways": [
+      {
+        "type": 100,
+        "width": 36.58,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 27.98497636,
+        "lonStart": -97.79314377,
+        "latEnd": 27.97672252,
+        "lonEnd": -97.78074069,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 33.53,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 27.97924179,
+        "lonStart": -97.79123095,
+        "latEnd": 27.98245709,
+        "lonEnd": -97.78265351,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13216
+  },
+  {
+    "type": 1,
+    "icao": "69TA",
+    "lat": 27.65503166,
+    "lon": -97.52527139,
+    "communications": [],
+    "elevation": 45,
+    "tower": false,
+    "name": "Dean",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 27.65831873,
+        "lonStart": -97.52546588,
+        "latEnd": 27.65174459,
+        "lonEnd": -97.5250769,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13255
   },
   {
     "type": 1,
@@ -255,150 +666,57 @@
         "surfacetype": 1
       }
     ],
-    "id": 4170
+    "id": 19559
   },
   {
     "type": 1,
-    "icao": "07TE",
-    "lat": 27.721909625,
-    "lon": -97.509618,
-    "communications": [],
-    "elevation": 39,
-    "tower": false,
-    "name": "CUDDIHY FLD",
+    "icao": "KNGW",
+    "lat": 27.702639,
+    "lon": -97.43875025,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11965,
+        "name": "NAVY CABANISS TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12540,
+        "name": "CORPUS APP/DEP"
+      }
+    ],
+    "elevation": 29,
+    "tower": true,
+    "name": "CABANISS FLD NOLF",
     "runways": [
       {
         "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 27.716944,
-        "lonStart": -97.514444,
-        "latEnd": 27.726944,
-        "lonEnd": -97.503611,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 27.721667,
-        "lonStart": -97.518889,
-        "latEnd": 27.721667,
-        "lonEnd": -97.503333,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 30.48,
+        "width": 45.72,
         "surfaceType": null,
         "numberStart": "13",
         "numberEnd": "31",
-        "latStart": 27.725833,
-        "lonStart": -97.5175,
-        "latEnd": 27.716389,
-        "lonEnd": -97.506389,
+        "latStart": 27.706111,
+        "lonStart": -97.443056,
+        "latEnd": 27.696667,
+        "lonEnd": -97.431667,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 27.729722,
-        "lonStart": -97.506389,
-        "latEnd": 27.716111,
-        "lonEnd": -97.506389,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 4263
-  },
-  {
-    "type": 1,
-    "icao": "69TA",
-    "lat": 27.65503166,
-    "lon": -97.52527139,
-    "communications": [],
-    "elevation": 45,
-    "tower": false,
-    "name": "Dean",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
+        "width": 45.72,
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 27.65831873,
-        "lonStart": -97.52546588,
-        "latEnd": 27.65174459,
-        "lonEnd": -97.5250769,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 6103
-  },
-  {
-    "type": 1,
-    "icao": "TE62",
-    "lat": 27.8542665,
-    "lon": -97.682275,
-    "communications": [],
-    "elevation": 90,
-    "tower": false,
-    "name": "HIGH MAN TOWER AIRSTRIP",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 27.854685,
-        "lonStart": -97.687359,
-        "latEnd": 27.853848,
-        "lonEnd": -97.677191,
+        "latStart": 27.710556,
+        "lonStart": -97.440278,
+        "latEnd": 27.697222,
+        "lonEnd": -97.44,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 11131
-  },
-  {
-    "type": 1,
-    "icao": "9R5",
-    "lat": 27.887801109999998,
-    "lon": -97.35443639,
-    "communications": [],
-    "elevation": 40,
-    "tower": false,
-    "name": "Hunt",
-    "runways": [
-      {
-        "type": 100,
-        "width": 6.1,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 27.89084922,
-        "lonStart": -97.35667594,
-        "latEnd": 27.884753,
-        "lonEnd": -97.35219684,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 12199
+    "id": 19562
   },
   {
     "type": 1,
@@ -474,44 +792,52 @@
         "surfacetype": 1
       }
     ],
-    "id": 13392
+    "id": 19577
   },
   {
     "type": 1,
-    "icao": "KRAS",
-    "lat": 27.811821000000002,
-    "lon": -97.08875699999999,
+    "icao": "KNWL",
+    "lat": 27.63569475,
+    "lon": -97.30888825000001,
     "communications": [
       {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      },
-      {
-        "type": 55,
-        "frequency": 12090,
-        "name": "CORPUS APP/DEP"
+        "type": 54,
+        "frequency": 13385,
+        "name": "NAVY WALDRON TWR"
       }
     ],
-    "elevation": 4,
-    "tower": false,
-    "name": "MUSTANG BEACH",
+    "elevation": 24,
+    "tower": true,
+    "name": "WALDRON FLD NOLF",
     "runways": [
       {
         "type": 100,
-        "width": 21.34,
+        "width": 60.96,
         "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 27.814592,
-        "lonStart": -97.09315,
-        "latEnd": 27.80905,
-        "lonEnd": -97.084364,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 27.641667,
+        "lonStart": -97.316667,
+        "latEnd": 27.631667,
+        "lonEnd": -97.305558,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 27.641667,
+        "lonStart": -97.306664,
+        "latEnd": 27.627778,
+        "lonEnd": -97.306664,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 16402
+    "id": 19593
   },
   {
     "type": 1,
@@ -558,59 +884,183 @@
         "surfacetype": 1
       }
     ],
-    "id": 18019
+    "id": 19736
   },
   {
-    "type": 1,
-    "icao": "67TX",
-    "lat": 27.80030222,
-    "lon": -97.85122056,
+    "type": 17,
+    "icao": "TA09",
+    "lat": 27.83530444,
+    "lon": -97.20360112,
     "communications": [],
-    "elevation": 911,
+    "elevation": 24,
     "tower": false,
-    "name": "Old Hoppe Place",
+    "name": "[H] Navsta Ingleside",
     "runways": [
       {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 27.80386441,
-        "lonStart": -97.85268626,
-        "latEnd": 27.79674003,
-        "lonEnd": -97.84975486,
-        "length": 0,
-        "surfacetype": 2
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 27.83530444,
+        "lonStart": -97.20360112,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
       }
     ],
-    "id": 18896
+    "id": 29736
+  },
+  {
+    "type": 17,
+    "icao": "TE00",
+    "lat": 27.91335638,
+    "lon": -97.15915639,
+    "communications": [],
+    "elevation": 7,
+    "tower": false,
+    "name": "[H] Coastal Bend Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 16.8,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 27.91335638,
+        "lonStart": -97.15915639,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 16.8
+      }
+    ],
+    "id": 29822
+  },
+  {
+    "type": 17,
+    "icao": "TE42",
+    "lat": 27.74864083,
+    "lon": -97.38471389,
+    "communications": [],
+    "elevation": 29,
+    "tower": false,
+    "name": "[H] DFCH",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 27.74864083,
+        "lonStart": -97.38471389,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 29859
   },
   {
     "type": 1,
-    "icao": "66TX",
-    "lat": 27.62392027,
-    "lon": -97.88305417000001,
+    "icao": "TE62",
+    "lat": 27.8542665,
+    "lon": -97.682275,
     "communications": [],
-    "elevation": 85,
+    "elevation": 90,
     "tower": false,
-    "name": "Oliver Till",
+    "name": "HIGH MAN TOWER AIRSTRIP",
     "runways": [
       {
         "type": 100,
-        "width": 10.06,
+        "width": 18.29,
         "surfaceType": null,
         "numberStart": "09",
         "numberEnd": "27",
-        "latStart": 27.6241409,
-        "lonStart": -97.88508222,
-        "latEnd": 27.62369964,
-        "lonEnd": -97.88102612,
+        "latStart": 27.854685,
+        "lonStart": -97.687359,
+        "latEnd": 27.853848,
+        "lonEnd": -97.677191,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       }
     ],
-    "id": 18919
+    "id": 29871
+  },
+  {
+    "type": 17,
+    "icao": "TS97",
+    "lat": 27.83307972,
+    "lon": -97.54027167,
+    "communications": [],
+    "elevation": 60,
+    "tower": false,
+    "name": "[H] HPL",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 27.83307972,
+        "lonStart": -97.54027167,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 30071
+  },
+  {
+    "type": 17,
+    "icao": "XS45",
+    "lat": 27.71586583,
+    "lon": -97.17304417,
+    "communications": [],
+    "elevation": 8,
+    "tower": false,
+    "name": "[H] Mustang Island",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 27.71586583,
+        "lonStart": -97.17304417,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 32477
+  },
+  {
+    "type": 17,
+    "icao": "XS52",
+    "lat": 27.33504444,
+    "lon": -97.12803834,
+    "communications": [],
+    "elevation": 145,
+    "tower": false,
+    "name": "[H] Lewis",
+    "runways": [
+      {
+        "type": 102,
+        "width": 91.4,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 27.33504444,
+        "lonStart": -97.12803834,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 804.7
+      }
+    ],
+    "id": 32484
   },
   {
     "type": 1,
@@ -649,451 +1099,6 @@
         "surfacetype": 5
       }
     ],
-    "id": 21099
-  },
-  {
-    "type": 1,
-    "icao": "68TX",
-    "lat": 27.98084944,
-    "lon": -97.78694223,
-    "communications": [],
-    "elevation": 50,
-    "tower": false,
-    "name": "San Patricio International",
-    "runways": [
-      {
-        "type": 100,
-        "width": 36.58,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 27.98497636,
-        "lonStart": -97.79314377,
-        "latEnd": 27.97672252,
-        "lonEnd": -97.78074069,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 33.53,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 27.97924179,
-        "lonStart": -97.79123095,
-        "latEnd": 27.98245709,
-        "lonEnd": -97.78265351,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 22820
-  },
-  {
-    "type": 1,
-    "icao": "T43",
-    "lat": 27.913030499999998,
-    "lon": -97.211489,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12270,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 12090,
-        "name": "CORPUS APP/DEP"
-      }
-    ],
-    "elevation": 18,
-    "tower": false,
-    "name": "T P MC CAMPBELL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 27.918278,
-        "lonStart": -97.216492,
-        "latEnd": 27.907783,
-        "lonEnd": -97.206486,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 24516
-  },
-  {
-    "type": 1,
-    "icao": "KNWL",
-    "lat": 27.63569475,
-    "lon": -97.30888825000001,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13385,
-        "name": "NAVY WALDRON TWR"
-      }
-    ],
-    "elevation": 24,
-    "tower": true,
-    "name": "WALDRON FLD NOLF",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 27.641667,
-        "lonStart": -97.316667,
-        "latEnd": 27.631667,
-        "lonEnd": -97.305558,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 27.641667,
-        "lonStart": -97.306664,
-        "latEnd": 27.627778,
-        "lonEnd": -97.306664,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 26466
-  },
-  {
-    "type": 17,
-    "icao": "0TA6",
-    "lat": 27.84780388,
-    "lon": -97.22304584,
-    "communications": [],
-    "elevation": 20,
-    "tower": false,
-    "name": "[H] Arco Ingleside Shorebase",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 27.84780388,
-        "lonStart": -97.22304584,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      },
-      {
-        "type": 102,
-        "width": 4.6,
-        "surfaceType": 2,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 27.84780388,
-        "lonStart": -97.22304584,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      },
-      {
-        "type": 102,
-        "width": 4.6,
-        "surfaceType": 2,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 27.84780388,
-        "lonStart": -97.22304584,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 28167
-  },
-  {
-    "type": 17,
-    "icao": "TE00",
-    "lat": 27.91335638,
-    "lon": -97.15915639,
-    "communications": [],
-    "elevation": 7,
-    "tower": false,
-    "name": "[H] Coastal Bend Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 16.8,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 27.91335638,
-        "lonStart": -97.15915639,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 16.8
-      }
-    ],
-    "id": 29026
-  },
-  {
-    "type": 17,
-    "icao": "TE42",
-    "lat": 27.74864083,
-    "lon": -97.38471389,
-    "communications": [],
-    "elevation": 29,
-    "tower": false,
-    "name": "[H] DFCH",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 27.74864083,
-        "lonStart": -97.38471389,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 29228
-  },
-  {
-    "type": 17,
-    "icao": "TS97",
-    "lat": 27.83307972,
-    "lon": -97.54027167,
-    "communications": [],
-    "elevation": 60,
-    "tower": false,
-    "name": "[H] HPL",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 27.83307972,
-        "lonStart": -97.54027167,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 30085
-  },
-  {
-    "type": 17,
-    "icao": "10TX",
-    "lat": 27.84474861,
-    "lon": -97.22387917,
-    "communications": [],
-    "elevation": 15,
-    "tower": false,
-    "name": "[H] JBLN Aerospace",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 27.84474861,
-        "lonStart": -97.22387917,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 30563
-  },
-  {
-    "type": 17,
-    "icao": "XS52",
-    "lat": 27.33504444,
-    "lon": -97.12803834,
-    "communications": [],
-    "elevation": 145,
-    "tower": false,
-    "name": "[H] Lewis",
-    "runways": [
-      {
-        "type": 102,
-        "width": 91.4,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 27.33504444,
-        "lonStart": -97.12803834,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 804.7
-      }
-    ],
-    "id": 30881
-  },
-  {
-    "type": 17,
-    "icao": "2T2",
-    "lat": 27.77975,
-    "lon": -97.41415889,
-    "communications": [],
-    "elevation": 38,
-    "tower": false,
-    "name": "[H] Memorial Medical Center",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 4,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 27.77975,
-        "lonStart": -97.41415889,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 31252
-  },
-  {
-    "type": 17,
-    "icao": "XS45",
-    "lat": 27.71586583,
-    "lon": -97.17304417,
-    "communications": [],
-    "elevation": 8,
-    "tower": false,
-    "name": "[H] Mustang Island",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 27.71586583,
-        "lonStart": -97.17304417,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 31506
-  },
-  {
-    "type": 17,
-    "icao": "TA09",
-    "lat": 27.83530444,
-    "lon": -97.20360112,
-    "communications": [],
-    "elevation": 24,
-    "tower": false,
-    "name": "[H] Navsta Ingleside",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 27.83530444,
-        "lonStart": -97.20360112,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 31575
-  },
-  {
-    "type": 17,
-    "icao": "4TA7",
-    "lat": 27.86113666,
-    "lon": -97.19887889,
-    "communications": [],
-    "elevation": 20,
-    "tower": false,
-    "name": "[H] Oak Ridge",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 27.86113666,
-        "lonStart": -97.19887889,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 31711
-  },
-  {
-    "type": 17,
-    "icao": "33TX",
-    "lat": 27.74447138,
-    "lon": -97.84638695,
-    "communications": [],
-    "elevation": 106,
-    "tower": false,
-    "name": "[H] TGP 1",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 27.74447138,
-        "lonStart": -97.84638695,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 33172
-  },
-  {
-    "type": 17,
-    "icao": "3TX0",
-    "lat": 27.74114055,
-    "lon": -97.43499223,
-    "communications": [],
-    "elevation": 37,
-    "tower": false,
-    "name": "[H] Texas Dept. of Public Safety",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 27.74114055,
-        "lonStart": -97.43499223,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 33269
+    "id": 32496
   }
 ]

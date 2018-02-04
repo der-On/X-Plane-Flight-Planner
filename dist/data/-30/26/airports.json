@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "FABL",
-    "lat": -29.092556000000002,
-    "lon": 26.299422,
+    "lat": -29.093157068,
+    "lon": 26.300597002,
     "communications": [
       {
         "type": 50,
@@ -12,7 +12,7 @@
       },
       {
         "type": 54,
-        "frequency": 11810,
+        "frequency": 12080,
         "name": "TWR"
       },
       {
@@ -27,14 +27,14 @@
     "runways": [
       {
         "type": 100,
-        "width": 46.02,
+        "width": 46,
         "surfaceType": null,
         "numberStart": "02",
         "numberEnd": "20",
-        "latStart": -29.10503003,
-        "lonStart": 26.302404,
-        "latEnd": -29.08199997,
-        "lonEnd": 26.302404,
+        "latStart": -29.105078,
+        "lonStart": 26.302454,
+        "latEnd": -29.081956,
+        "lonEnd": 26.30252999,
         "length": 0,
         "surfacetype": 1
       },
@@ -44,15 +44,27 @@
         "surfaceType": null,
         "numberStart": "12",
         "numberEnd": "30",
-        "latStart": -29.08971281,
-        "lonStart": 26.28534728,
-        "latEnd": -29.09348119,
-        "lonEnd": 26.30753272,
+        "latStart": -29.089561,
+        "lonStart": 26.285414,
+        "latEnd": -29.09363188,
+        "lonEnd": 26.3075134,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 25,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -29.09555846,
+        "lonStart": 26.30507362,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 25
       }
     ],
-    "id": 2842
+    "id": 2126
   },
   {
     "type": 1,
@@ -91,6 +103,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 18266
+    "id": 16845
   }
 ]

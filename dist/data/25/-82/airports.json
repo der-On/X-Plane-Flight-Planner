@@ -1,58 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "X01",
-    "lat": 25.84871166,
-    "lon": -81.39007945,
-    "communications": [],
-    "elevation": 5,
-    "tower": false,
-    "name": "Everglades Airpark",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 25.85150308,
-        "lonStart": -81.39201764,
-        "latEnd": 25.84592024,
-        "lonEnd": -81.38814126,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 7363
-  },
-  {
-    "type": 1,
-    "icao": "26X",
-    "lat": 25.96815,
-    "lon": -81.08145973,
-    "communications": [],
-    "elevation": 12,
-    "tower": false,
-    "name": "Lost Horn Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.59,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 25.96950858,
-        "lonStart": -81.08430178,
-        "latEnd": 25.96679142,
-        "lonEnd": -81.07861768,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15523
-  },
-  {
-    "type": 1,
     "icao": "KMKY",
     "lat": 25.99504,
     "lon": -81.672529,
@@ -76,9 +24,14 @@
         "type": 55,
         "frequency": 11975,
         "name": "FORT MYERS APP/DEP"
+      },
+      {
+        "type": 54,
+        "frequency": 13475,
+        "name": "MIAMI ARTCC"
       }
     ],
-    "elevation": 5,
+    "elevation": 4,
     "tower": false,
     "name": "Marco Island",
     "runways": [
@@ -96,7 +49,33 @@
         "surfacetype": 1
       }
     ],
-    "id": 16666
+    "id": 2975
+  },
+  {
+    "type": 1,
+    "icao": "X01",
+    "lat": 25.848886775,
+    "lon": -81.390329085,
+    "communications": [],
+    "elevation": 4,
+    "tower": false,
+    "name": "Everglades Airpark",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 25.85173908,
+        "lonStart": -81.39218146,
+        "latEnd": 25.84603447,
+        "lonEnd": -81.38847671,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5305
   },
   {
     "type": 1,
@@ -122,7 +101,33 @@
         "surfacetype": 5
       }
     ],
-    "id": 18788
+    "id": 10496
+  },
+  {
+    "type": 1,
+    "icao": "26X",
+    "lat": 25.96815,
+    "lon": -81.08145973,
+    "communications": [],
+    "elevation": 12,
+    "tower": false,
+    "name": "Lost Horn Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.59,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 25.96950858,
+        "lonStart": -81.08430178,
+        "latEnd": 25.96679142,
+        "lonEnd": -81.07861768,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11577
   },
   {
     "type": 1,
@@ -148,7 +153,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 21697
+    "id": 11652
   },
   {
     "type": 16,
@@ -173,6 +178,6 @@
         "length": 0
       }
     ],
-    "id": 34089
+    "id": 24308
   }
 ]

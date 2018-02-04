@@ -1,6 +1,32 @@
 [
   {
     "type": 1,
+    "icao": "UT1F",
+    "lat": 40.038136,
+    "lon": 53.3286265,
+    "communications": [],
+    "elevation": -20,
+    "tower": false,
+    "name": "YANGADZHA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 36.58,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 40.045036,
+        "lonStart": 53.320964,
+        "latEnd": 40.031236,
+        "lonEnd": 53.336289,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 30504
+  },
+  {
+    "type": 1,
     "icao": "UTAK",
     "lat": 40.063472000000004,
     "lon": 53.0072225,
@@ -29,8 +55,8 @@
         "type": 100,
         "width": 43.89,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
+        "numberStart": "16L",
+        "numberEnd": "34R",
         "latStart": 40.074444,
         "lonStart": 53.003889,
         "latEnd": 40.0525,
@@ -39,32 +65,6 @@
         "surfacetype": 2
       }
     ],
-    "id": 24913
-  },
-  {
-    "type": 1,
-    "icao": "UT1F",
-    "lat": 40.038136,
-    "lon": 53.3286265,
-    "communications": [],
-    "elevation": -20,
-    "tower": false,
-    "name": "YANGADZHA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 36.58,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 40.045036,
-        "lonStart": 53.320964,
-        "latEnd": 40.031236,
-        "lonEnd": 53.336289,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 27671
+    "id": 30589
   }
 ]

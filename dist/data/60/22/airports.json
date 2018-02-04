@@ -2,38 +2,50 @@
   {
     "type": 1,
     "icao": "EFGE",
-    "lat": 60.086948,
-    "lon": 22.521948000000002,
-    "communications": [],
-    "elevation": 46,
+    "lat": 60.087170244999996,
+    "lon": 22.523289345000002,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12360,
+        "name": "CTAF Freq"
+      }
+    ],
+    "elevation": 150,
     "tower": false,
-    "name": "Genbole",
+    "name": "Genböle",
     "runways": [
       {
         "type": 100,
-        "width": 12.19,
+        "width": 15,
         "surfaceType": null,
         "numberStart": "07",
         "numberEnd": "25",
-        "latStart": 60.08613181,
-        "lonStart": 22.51745122,
-        "latEnd": 60.08776419,
-        "lonEnd": 22.52644478,
+        "latStart": 60.08683324,
+        "lonStart": 22.52038782,
+        "latEnd": 60.08750725,
+        "lonEnd": 22.52619087,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 10381
+    "id": 1461
   },
   {
     "type": 1,
     "icao": "EFOP",
-    "lat": 60.876099999999994,
-    "lon": 22.7481,
-    "communications": [],
+    "lat": 60.875867075,
+    "lon": 22.7439836075,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12320,
+        "name": "CTAF"
+      }
+    ],
     "elevation": 331,
     "tower": false,
-    "name": "Oripaa",
+    "name": "Oripää",
     "runways": [
       {
         "type": 100,
@@ -41,28 +53,28 @@
         "surfaceType": null,
         "numberStart": "14",
         "numberEnd": "32",
-        "latStart": 60.87933802,
-        "lonStart": 22.74251746,
-        "latEnd": 60.87286198,
-        "lonEnd": 22.75368254,
+        "latStart": 60.87898667,
+        "lonStart": 22.73823588,
+        "latEnd": 60.8701982,
+        "lonEnd": 22.75106975,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 14.94,
+        "width": 10,
         "surfaceType": null,
         "numberStart": "06",
         "numberEnd": "24",
-        "latStart": 60.87407568,
-        "lonStart": 22.74089592,
-        "latEnd": 60.87812432,
-        "lonEnd": 22.75530408,
+        "latStart": 60.87548177,
+        "lonStart": 22.73532142,
+        "latEnd": 60.87880166,
+        "lonEnd": 22.75130738,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       }
     ],
-    "id": 19024
+    "id": 1477
   },
   {
     "type": 1,
@@ -104,7 +116,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 25715
+    "id": 1482
   },
   {
     "type": 17,
@@ -129,6 +141,6 @@
         "length": 20.1
       }
     ],
-    "id": 25716
+    "id": 1483
   }
 ]

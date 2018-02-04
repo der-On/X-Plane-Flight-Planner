@@ -1,6 +1,116 @@
 [
   {
     "type": 1,
+    "icao": "KCDK",
+    "lat": 29.1342145,
+    "lon": -83.0505465,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "Cedar Key Traffic"
+      }
+    ],
+    "elevation": 6,
+    "tower": false,
+    "name": "George T Lewis",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 29.132095,
+        "lonStart": -83.053263,
+        "latEnd": 29.136334,
+        "lonEnd": -83.04783,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2470
+  },
+  {
+    "type": 1,
+    "icao": "5FL1",
+    "lat": 29.9032725,
+    "lon": -83.60792445000001,
+    "communications": [],
+    "elevation": 25,
+    "tower": false,
+    "name": "Ezell",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 29.89919807,
+        "lonStart": -83.60858502,
+        "latEnd": 29.90734693,
+        "lonEnd": -83.60726388,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 8571
+  },
+  {
+    "type": 1,
+    "icao": "6FL4",
+    "lat": 29.82105305,
+    "lon": -83.57320028000001,
+    "communications": [],
+    "elevation": 7,
+    "tower": false,
+    "name": "Sylvanmir Farms",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 29.82096689,
+        "lonStart": -83.57604402,
+        "latEnd": 29.82113921,
+        "lonEnd": -83.57035654,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9073
+  },
+  {
+    "type": 1,
+    "icao": "33FD",
+    "lat": 29.91438944,
+    "lon": -83.26652584000001,
+    "communications": [],
+    "elevation": 50,
+    "tower": false,
+    "name": "R O Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 29.91773029,
+        "lonStart": -83.26741569,
+        "latEnd": 29.91104859,
+        "lonEnd": -83.26563599,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11808
+  },
+  {
+    "type": 1,
     "icao": "39FD",
     "lat": 29.72939166,
     "lon": -83.35347084,
@@ -23,7 +133,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 1010
+    "id": 12051
   },
   {
     "type": 1,
@@ -68,116 +178,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 5519
-  },
-  {
-    "type": 1,
-    "icao": "5FL1",
-    "lat": 29.9032725,
-    "lon": -83.60792445000001,
-    "communications": [],
-    "elevation": 25,
-    "tower": false,
-    "name": "Ezell",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 29.89919807,
-        "lonStart": -83.60858502,
-        "latEnd": 29.90734693,
-        "lonEnd": -83.60726388,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 7377
-  },
-  {
-    "type": 1,
-    "icao": "KCDK",
-    "lat": 29.1342145,
-    "lon": -83.0505465,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "Cedar Key Traffic"
-      }
-    ],
-    "elevation": 6,
-    "tower": false,
-    "name": "George T Lewis",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 29.132095,
-        "lonStart": -83.053263,
-        "latEnd": 29.136334,
-        "lonEnd": -83.04783,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 10410
-  },
-  {
-    "type": 1,
-    "icao": "33FD",
-    "lat": 29.91438944,
-    "lon": -83.26652584000001,
-    "communications": [],
-    "elevation": 50,
-    "tower": false,
-    "name": "R O Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 29.91773029,
-        "lonStart": -83.26741569,
-        "latEnd": 29.91104859,
-        "lonEnd": -83.26563599,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 20742
-  },
-  {
-    "type": 1,
-    "icao": "6FL4",
-    "lat": 29.82105305,
-    "lon": -83.57320028000001,
-    "communications": [],
-    "elevation": 7,
-    "tower": false,
-    "name": "Sylvanmir Farms",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 29.82096689,
-        "lonStart": -83.57604402,
-        "latEnd": 29.82113921,
-        "lonEnd": -83.57035654,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 24501
+    "id": 18997
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "type": 1,
-    "icao": "08AK",
+    "icao": "4A2",
     "lat": 60.86674555,
     "lon": -162.27313888999998,
     "communications": [
@@ -29,83 +29,7 @@
         "surfacetype": 5
       }
     ],
-    "id": 1304
-  },
-  {
-    "type": 1,
-    "icao": "PAEE",
-    "lat": 60.214802580000004,
-    "lon": -162.02475547749998,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF"
-      },
-      {
-        "type": 55,
-        "frequency": 12520,
-        "name": "Anchorage ARTCC"
-      }
-    ],
-    "elevation": 0,
-    "tower": false,
-    "name": "Eek",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 60.21809173,
-        "lonStart": -162.04249019,
-        "latEnd": 60.20931027,
-        "lonEnd": -162.04531343,
-        "length": 0,
-        "surfacetype": 5
-      },
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 60.21780993,
-        "lonStart": -162.00513807,
-        "latEnd": 60.21399839,
-        "lonEnd": -162.00608022,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 6987
-  },
-  {
-    "type": 1,
-    "icao": "PFKA",
-    "lat": 60.872021939999996,
-    "lon": -162.52480945000002,
-    "communications": [],
-    "elevation": 40,
-    "tower": false,
-    "name": "Kasigluk",
-    "runways": [
-      {
-        "type": 100,
-        "width": 14.94,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 60.87467032,
-        "lonStart": -162.52404479,
-        "latEnd": 60.86937356,
-        "lonEnd": -162.52557411,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 13642
+    "id": 7966
   },
   {
     "type": 1,
@@ -161,7 +85,7 @@
         "length": 0
       }
     ],
-    "id": 18550
+    "id": 11131
   },
   {
     "type": 1,
@@ -193,7 +117,83 @@
         "surfacetype": 5
       }
     ],
-    "id": 25698
+    "id": 14388
+  },
+  {
+    "type": 1,
+    "icao": "PAEE",
+    "lat": 60.214802580000004,
+    "lon": -162.02475547749998,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF"
+      },
+      {
+        "type": 55,
+        "frequency": 12520,
+        "name": "Anchorage ARTCC"
+      }
+    ],
+    "elevation": 0,
+    "tower": false,
+    "name": "Eek",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 60.21809173,
+        "lonStart": -162.04249019,
+        "latEnd": 60.20931027,
+        "lonEnd": -162.04531343,
+        "length": 0,
+        "surfacetype": 5
+      },
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 60.21780993,
+        "lonStart": -162.00513807,
+        "latEnd": 60.21399839,
+        "lonEnd": -162.00608022,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 23917
+  },
+  {
+    "type": 1,
+    "icao": "PFKA",
+    "lat": 60.87339789,
+    "lon": -162.52447455499998,
+    "communications": [],
+    "elevation": 40,
+    "tower": false,
+    "name": "Kasigluk",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 60.87742222,
+        "lonStart": -162.523375,
+        "latEnd": 60.86937356,
+        "lonEnd": -162.52557411,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 24068
   },
   {
     "type": 16,
@@ -242,6 +242,6 @@
         "length": 0
       }
     ],
-    "id": 34499
+    "id": 34888
   }
 ]

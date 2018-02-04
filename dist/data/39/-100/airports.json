@@ -1,6 +1,64 @@
 [
   {
     "type": 1,
+    "icao": "0H1",
+    "lat": 39.0044525,
+    "lon": -99.8928985,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 2435,
+    "tower": false,
+    "name": "TREGO WAKEENEY",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 39.009894,
+        "lonStart": -99.893836,
+        "latEnd": 38.999011,
+        "lonEnd": -99.891961,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5817
+  },
+  {
+    "type": 1,
+    "icao": "25KS",
+    "lat": 39.683343879999995,
+    "lon": -99.12842195,
+    "communications": [],
+    "elevation": 1700,
+    "tower": false,
+    "name": "Wyrill Farming-Leasing Inc",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 39.68641415,
+        "lonStart": -99.12856127,
+        "latEnd": 39.68027361,
+        "lonEnd": -99.12828263,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11515
+  },
+  {
+    "type": 1,
     "icao": "K72",
     "lat": 39.77278722,
     "lon": -99.36009777999999,
@@ -23,7 +81,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 4986
+    "id": 18737
   },
   {
     "type": 1,
@@ -50,8 +108,8 @@
         "type": 100,
         "width": 22.86,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
+        "numberStart": "18",
+        "numberEnd": "36",
         "latStart": 39.387069,
         "lonStart": -99.831278,
         "latEnd": 39.373344,
@@ -60,7 +118,7 @@
         "surfacetype": 2
       }
     ],
-    "id": 11137
+    "id": 19286
   },
   {
     "type": 1,
@@ -115,7 +173,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 18006
+    "id": 19581
   },
   {
     "type": 1,
@@ -165,33 +223,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 19348
-  },
-  {
-    "type": 1,
-    "icao": "SN04",
-    "lat": 39.19445444,
-    "lon": -99.30343389,
-    "communications": [],
-    "elevation": 2182,
-    "tower": false,
-    "name": "Plainville Arpk",
-    "runways": [
-      {
-        "type": 100,
-        "width": 36.58,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 39.19801814,
-        "lonStart": -99.30359447,
-        "latEnd": 39.19089074,
-        "lonEnd": -99.30327331,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 20234
+    "id": 19671
   },
   {
     "type": 1,
@@ -233,65 +265,33 @@
         "surfacetype": 2
       }
     ],
-    "id": 21711
+    "id": 19739
   },
   {
     "type": 1,
-    "icao": "SN07",
-    "lat": 39.37723194,
-    "lon": -99.29509834,
+    "icao": "SN04",
+    "lat": 39.19445444,
+    "lon": -99.30343389,
     "communications": [],
-    "elevation": 1973,
+    "elevation": 2182,
     "tower": false,
-    "name": "Stockton Municipal",
+    "name": "Plainville Arpk",
     "runways": [
       {
         "type": 100,
-        "width": 73.15,
+        "width": 36.58,
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 39.38202923,
-        "lonStart": -99.29531506,
-        "latEnd": 39.37243465,
-        "lonEnd": -99.29488162,
+        "latStart": 39.19801814,
+        "lonStart": -99.30359447,
+        "latEnd": 39.19089074,
+        "lonEnd": -99.30327331,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 24215
-  },
-  {
-    "type": 1,
-    "icao": "0H1",
-    "lat": 39.0044525,
-    "lon": -99.8928985,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 2435,
-    "tower": false,
-    "name": "TREGO WAKEENEY",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 39.009894,
-        "lonStart": -99.893836,
-        "latEnd": 38.999011,
-        "lonEnd": -99.891961,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 24838
+    "id": 27488
   },
   {
     "type": 1,
@@ -317,32 +317,32 @@
         "surfacetype": 3
       }
     ],
-    "id": 26204
+    "id": 27489
   },
   {
     "type": 1,
-    "icao": "25KS",
-    "lat": 39.683343879999995,
-    "lon": -99.12842195,
+    "icao": "SN07",
+    "lat": 39.37723194,
+    "lon": -99.29509834,
     "communications": [],
-    "elevation": 1700,
+    "elevation": 1973,
     "tower": false,
-    "name": "Wyrill Farming-Leasing Inc",
+    "name": "Stockton Municipal",
     "runways": [
       {
         "type": 100,
-        "width": 15.24,
+        "width": 73.15,
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 39.68641415,
-        "lonStart": -99.12856127,
-        "latEnd": 39.68027361,
-        "lonEnd": -99.12828263,
+        "latStart": 39.38202923,
+        "lonStart": -99.29531506,
+        "latEnd": 39.37243465,
+        "lonEnd": -99.29488162,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 27615
+    "id": 27491
   }
 ]

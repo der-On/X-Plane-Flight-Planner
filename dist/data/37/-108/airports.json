@@ -1,101 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "00C",
-    "lat": 37.203178,
-    "lon": -107.86919449999999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 6684,
-    "tower": false,
-    "name": "Animas Air Park",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 37.19675,
-        "lonStart": -107.87225,
-        "latEnd": 37.209606,
-        "lonEnd": -107.866139,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 1066
-  },
-  {
-    "type": 1,
-    "icao": "KDRO",
-    "lat": 37.151517,
-    "lon": -107.75376800000001,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12062,
-        "name": "ASOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 6685,
-    "tower": false,
-    "name": "DURANGO LA PLATA CO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 37.141481,
-        "lonStart": -107.763347,
-        "latEnd": 37.161553,
-        "lonEnd": -107.744189,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 5911
-  },
-  {
-    "type": 1,
-    "icao": "5V9",
-    "lat": 37.00139388,
-    "lon": -107.42282556,
-    "communications": [],
-    "elevation": 6109,
-    "tower": false,
-    "name": "Navajo Landing Strip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 11.58,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 37.00561967,
-        "lonStart": -107.42170085,
-        "latEnd": 36.99716809,
-        "lonEnd": -107.42395027,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 18156
-  },
-  {
-    "type": 1,
     "icao": "KPSO",
     "lat": 37.2862545,
     "lon": -107.0560095,
@@ -124,7 +29,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 22528
+    "id": 3146
   },
   {
     "type": 1,
@@ -161,7 +66,215 @@
         "surfacetype": 1
       }
     ],
-    "id": 25143
+    "id": 3323
+  },
+  {
+    "type": 1,
+    "icao": "00C",
+    "lat": 37.203178,
+    "lon": -107.86919449999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 6684,
+    "tower": false,
+    "name": "Animas Air Park",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 37.19675,
+        "lonStart": -107.87225,
+        "latEnd": 37.209606,
+        "lonEnd": -107.866139,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5721
+  },
+  {
+    "type": 1,
+    "icao": "5V9",
+    "lat": 37.00139388,
+    "lon": -107.42282556,
+    "communications": [],
+    "elevation": 6109,
+    "tower": false,
+    "name": "Navajo Landing Strip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 11.58,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 37.00561967,
+        "lonStart": -107.42170085,
+        "latEnd": 36.99716809,
+        "lonEnd": -107.42395027,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 8945
+  },
+  {
+    "type": 17,
+    "icao": "7CO9",
+    "lat": 37.85277777,
+    "lon": -107.57525,
+    "communications": [],
+    "elevation": 9500,
+    "tower": false,
+    "name": "[H] K2 Heliport Nr 1A",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 37.85277777,
+        "lonStart": -107.57525,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 9549
+  },
+  {
+    "type": 17,
+    "icao": "58CO",
+    "lat": 37.62722,
+    "lon": -107.80395389,
+    "communications": [],
+    "elevation": 8700,
+    "tower": false,
+    "name": "[H] Purgatory Nr One",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 4,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 37.62722,
+        "lonStart": -107.80395389,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 61
+      }
+    ],
+    "id": 12785
+  },
+  {
+    "type": 17,
+    "icao": "CD11",
+    "lat": 37.24166916,
+    "lon": -107.87562167,
+    "communications": [],
+    "elevation": 6534,
+    "tower": false,
+    "name": "[H] Mountain Bell Durango",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 37.24166916,
+        "lonStart": -107.87562167,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 91.4
+      }
+    ],
+    "id": 15133
+  },
+  {
+    "type": 17,
+    "icao": "CD68",
+    "lat": 37.79999666,
+    "lon": -107.66728389,
+    "communications": [],
+    "elevation": 9270,
+    "tower": false,
+    "name": "[H] Silverton Junction",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 37.79999666,
+        "lonStart": -107.66728389,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 15169
+  },
+  {
+    "type": 17,
+    "icao": "CD72",
+    "lat": 37.35000194,
+    "lon": -107.76728612,
+    "communications": [],
+    "elevation": 9873,
+    "tower": false,
+    "name": "[H] Missionary Ridge",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 37.35000194,
+        "lonStart": -107.76728612,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 15172
+  },
+  {
+    "type": 17,
+    "icao": "CD78",
+    "lat": 37.68333055,
+    "lon": -107.76728639,
+    "communications": [],
+    "elevation": 10632,
+    "tower": false,
+    "name": "[H] Coal Bank Pass",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 37.68333055,
+        "lonStart": -107.76728639,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 15176
   },
   {
     "type": 1,
@@ -187,82 +300,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 26152
-  },
-  {
-    "type": 17,
-    "icao": "CD78",
-    "lat": 37.68333055,
-    "lon": -107.76728639,
-    "communications": [],
-    "elevation": 10632,
-    "tower": false,
-    "name": "[H] Coal Bank Pass",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 37.68333055,
-        "lonStart": -107.76728639,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 29024
-  },
-  {
-    "type": 17,
-    "icao": "CO72",
-    "lat": 37.93999361,
-    "lon": -107.84867501,
-    "communications": [],
-    "elevation": 9430,
-    "tower": false,
-    "name": "[H] Doral Telluride",
-    "runways": [
-      {
-        "type": 102,
-        "width": 5.5,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 37.93999361,
-        "lonStart": -107.84867501,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 5.5
-      }
-    ],
-    "id": 29393
-  },
-  {
-    "type": 17,
-    "icao": "7CO9",
-    "lat": 37.85277777,
-    "lon": -107.57525,
-    "communications": [],
-    "elevation": 9500,
-    "tower": false,
-    "name": "[H] K2 Heliport Nr 1A",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 37.85277777,
-        "lonStart": -107.57525,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 30662
+    "id": 15180
   },
   {
     "type": 17,
@@ -287,106 +325,68 @@
         "length": 13.7
       }
     ],
-    "id": 31283
+    "id": 15512
   },
   {
     "type": 17,
-    "icao": "CD72",
-    "lat": 37.35000194,
-    "lon": -107.76728612,
+    "icao": "CO72",
+    "lat": 37.93999361,
+    "lon": -107.84867501,
     "communications": [],
-    "elevation": 9873,
+    "elevation": 9430,
     "tower": false,
-    "name": "[H] Missionary Ridge",
+    "name": "[H] Doral Telluride",
     "runways": [
       {
         "type": 102,
-        "width": 30.5,
+        "width": 5.5,
         "surfaceType": 3,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 37.35000194,
-        "lonStart": -107.76728612,
+        "latStart": 37.93999361,
+        "lonStart": -107.84867501,
         "latEnd": null,
         "lonEnd": null,
-        "length": 30.5
+        "length": 5.5
       }
     ],
-    "id": 31398
+    "id": 15533
   },
   {
-    "type": 17,
-    "icao": "CD11",
-    "lat": 37.24166916,
-    "lon": -107.87562167,
-    "communications": [],
-    "elevation": 6534,
-    "tower": false,
-    "name": "[H] Mountain Bell Durango",
-    "runways": [
+    "type": 1,
+    "icao": "KDRO",
+    "lat": 37.151517,
+    "lon": -107.75376800000001,
+    "communications": [
       {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 37.24166916,
-        "lonStart": -107.87562167,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 91.4
+        "type": 50,
+        "frequency": 12062,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
       }
     ],
-    "id": 31479
-  },
-  {
-    "type": 17,
-    "icao": "58CO",
-    "lat": 37.62722,
-    "lon": -107.80395389,
-    "communications": [],
-    "elevation": 8700,
+    "elevation": 6685,
     "tower": false,
-    "name": "[H] Purgatory Nr One",
+    "name": "DURANGO LA PLATA CO",
     "runways": [
       {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 4,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 37.62722,
-        "lonStart": -107.80395389,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 61
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 37.141481,
+        "lonStart": -107.763347,
+        "latEnd": 37.161553,
+        "lonEnd": -107.744189,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "id": 32190
-  },
-  {
-    "type": 17,
-    "icao": "CD68",
-    "lat": 37.79999666,
-    "lon": -107.66728389,
-    "communications": [],
-    "elevation": 9270,
-    "tower": false,
-    "name": "[H] Silverton Junction",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 37.79999666,
-        "lonStart": -107.66728389,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 32715
+    "id": 19043
   }
 ]

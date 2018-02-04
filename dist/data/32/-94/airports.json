@@ -1,327 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "KBAD",
-    "lat": 32.501946000000004,
-    "lon": -93.662635,
-    "communications": [
-      {
-        "type": 53,
-        "frequency": 12180,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12825,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11990,
-        "name": "SHREVEPORT APP/DEP"
-      },
-      {
-        "type": 55,
-        "frequency": 12375,
-        "name": "SHREVEPORT APP/DEP"
-      }
-    ],
-    "elevation": 166,
-    "tower": true,
-    "name": "BARKSDALE AFB",
-    "runways": [
-      {
-        "type": 100,
-        "width": 91.44,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 32.51614607,
-        "lonStart": -93.67176166,
-        "latEnd": 32.48774593,
-        "lonEnd": -93.65350834,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 1521
-  },
-  {
-    "type": 1,
-    "icao": "5F5",
-    "lat": 32.344600830000005,
-    "lon": -93.79990251000001,
-    "communications": [],
-    "elevation": 180,
-    "tower": false,
-    "name": "Bluebird Hill",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 32.34869964,
-        "lonStart": -93.79947805,
-        "latEnd": 32.34050202,
-        "lonEnd": -93.80032697,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 2868
-  },
-  {
-    "type": 1,
-    "icao": "3F3",
-    "lat": 32.07207699999999,
-    "lon": -93.76512100000001,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 11990,
-        "name": "SHREVEPORT APP/DEP"
-      },
-      {
-        "type": 55,
-        "frequency": 12140,
-        "name": "SHREVEPORT APP/DEP"
-      }
-    ],
-    "elevation": 324,
-    "tower": false,
-    "name": "C E RUSTY WILLIAMS",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 32.065833,
-        "lonStart": -93.770553,
-        "latEnd": 32.075553,
-        "lonEnd": -93.758889,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 32.079614,
-        "lonStart": -93.764792,
-        "latEnd": 32.067308,
-        "lonEnd": -93.76625,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 3493
-  },
-  {
-    "type": 1,
-    "icao": "LS90",
-    "lat": 32.26238166,
-    "lon": -93.93573973,
-    "communications": [],
-    "elevation": 293,
-    "tower": false,
-    "name": "Caddo Detention Center",
-    "runways": [
-      {
-        "type": 100,
-        "width": 36.58,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 32.26267452,
-        "lonStart": -93.93969824,
-        "latEnd": 32.2620888,
-        "lonEnd": -93.93178122,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 4309
-  },
-  {
-    "type": 1,
-    "icao": "LA36",
-    "lat": 32.419599160000004,
-    "lon": -93.23433417000001,
-    "communications": [],
-    "elevation": 240,
-    "tower": false,
-    "name": "Charlie",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 32.41761202,
-        "lonStart": -93.23496493,
-        "latEnd": 32.4215863,
-        "lonEnd": -93.23370341,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 4813
-  },
-  {
-    "type": 1,
-    "icao": "LA54",
-    "lat": 32.83764027,
-    "lon": -93.83767889,
-    "communications": [],
-    "elevation": 194,
-    "tower": false,
-    "name": "Gilliam",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 32.83726972,
-        "lonStart": -93.84271982,
-        "latEnd": 32.83801082,
-        "lonEnd": -93.83263796,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 10480
-  },
-  {
-    "type": 1,
-    "icao": "5F4",
-    "lat": 32.7885095,
-    "lon": -93.0036515,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      },
-      {
-        "type": 55,
-        "frequency": 11860,
-        "name": "SHREVEPORT APP/DEP"
-      }
-    ],
-    "elevation": 244,
-    "tower": false,
-    "name": "HOMER MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 32.790872,
-        "lonStart": -93.008042,
-        "latEnd": 32.786147,
-        "lonEnd": -92.999261,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 11177
-  },
-  {
-    "type": 1,
-    "icao": "5F3",
-    "lat": 32.98625055,
-    "lon": -93.13849778,
-    "communications": [],
-    "elevation": 348,
-    "tower": false,
-    "name": "Haynesville",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 32.99034248,
-        "lonStart": -93.13901051,
-        "latEnd": 32.98215862,
-        "lonEnd": -93.13798505,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 11597
-  },
-  {
-    "type": 1,
-    "icao": "78LA",
-    "lat": 32.26682499,
-    "lon": -93.72517889,
-    "communications": [],
-    "elevation": 230,
-    "tower": false,
-    "name": "Heinsohns Airfield",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 32.26699664,
-        "lonStart": -93.72749917,
-        "latEnd": 32.26665334,
-        "lonEnd": -93.72285861,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11637
-  },
-  {
-    "type": 1,
-    "icao": "5LA0",
-    "lat": 32.591813880000004,
-    "lon": -93.82795555999999,
-    "communications": [],
-    "elevation": 200,
-    "tower": false,
-    "name": "Juneau",
-    "runways": [
-      {
-        "type": 100,
-        "width": 25.91,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 32.59318015,
-        "lonStart": -93.82781369,
-        "latEnd": 32.59044761,
-        "lonEnd": -93.82809743,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 13143
-  },
-  {
-    "type": 1,
     "icao": "KDTN",
     "lat": 32.5400872,
     "lon": -93.74496243,
@@ -374,7 +53,7 @@
     ],
     "elevation": 179,
     "tower": true,
-    "name": "KDTN_SHREVEPORT DOWNTOWN",
+    "name": "SHREVEPORT DOWNTOWN",
     "runways": [
       {
         "type": 100,
@@ -403,237 +82,13 @@
         "surfacetype": 1
       }
     ],
-    "id": 13282
-  },
-  {
-    "type": 1,
-    "icao": "LS69",
-    "lat": 32.64348055,
-    "lon": -93.66239917,
-    "communications": [],
-    "elevation": 165,
-    "tower": false,
-    "name": "L J Earnest",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 32.64300242,
-        "lonStart": -93.66888944,
-        "latEnd": 32.64395868,
-        "lonEnd": -93.6559089,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 14242
-  },
-  {
-    "type": 1,
-    "icao": "04LA",
-    "lat": 32.27321277,
-    "lon": -93.40600584,
-    "communications": [],
-    "elevation": 275,
-    "tower": false,
-    "name": "Loggy Bayou Plantation",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 32.27676508,
-        "lonStart": -93.40563827,
-        "latEnd": 32.26966046,
-        "lonEnd": -93.40637341,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15407
-  },
-  {
-    "type": 1,
-    "icao": "F33",
-    "lat": 32.3848775,
-    "lon": -93.73629,
-    "communications": [],
-    "elevation": 210,
-    "tower": false,
-    "name": "Lucien",
-    "runways": [
-      {
-        "type": 100,
-        "width": 7.62,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 32.38747342,
-        "lonStart": -93.73655894,
-        "latEnd": 32.38228158,
-        "lonEnd": -93.73602106,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 15575
-  },
-  {
-    "type": 1,
-    "icao": "F24",
-    "lat": 32.6458335,
-    "lon": -93.29791700000001,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 11860,
-        "name": "SHREVEPORT APP/DEP"
-      },
-      {
-        "type": 55,
-        "frequency": 12140,
-        "name": "SHREVEPORT APP/DEP"
-      }
-    ],
-    "elevation": 278,
-    "tower": false,
-    "name": "MINDEN WEBSTER",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 32.639167,
-        "lonStart": -93.300278,
-        "latEnd": 32.6525,
-        "lonEnd": -93.295556,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 16125
-  },
-  {
-    "type": 1,
-    "icao": "LA56",
-    "lat": 32.34182276999999,
-    "lon": -93.65851083999999,
-    "communications": [],
-    "elevation": 155,
-    "tower": false,
-    "name": "Naylor",
-    "runways": [
-      {
-        "type": 100,
-        "width": 91.44,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 32.34455531,
-        "lonStart": -93.65822788,
-        "latEnd": 32.33909023,
-        "lonEnd": -93.6587938,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 18166
-  },
-  {
-    "type": 1,
-    "icao": "56LA",
-    "lat": 32.345138500000004,
-    "lon": -93.8181955,
-    "communications": [],
-    "elevation": 180,
-    "tower": false,
-    "name": "OLD HICKORY RANCH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 32.349998,
-        "lonStart": -93.81778,
-        "latEnd": 32.340279,
-        "lonEnd": -93.818611,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 18647
-  },
-  {
-    "type": 1,
-    "icao": "68LA",
-    "lat": 32.33055555,
-    "lon": -93.51722223,
-    "communications": [],
-    "elevation": 148,
-    "tower": false,
-    "name": "Pilkinton Airstrip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 32.3334137,
-        "lonStart": -93.52072493,
-        "latEnd": 32.3276974,
-        "lonEnd": -93.51371953,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 20122
-  },
-  {
-    "type": 1,
-    "icao": "LA17",
-    "lat": 32.60181555,
-    "lon": -93.69406638999999,
-    "communications": [],
-    "elevation": 173,
-    "tower": false,
-    "name": "Pioneer Field Flight Park",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 32.6013186,
-        "lonStart": -93.69626794,
-        "latEnd": 32.6023125,
-        "lonEnd": -93.69186484,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 20185
+    "id": 2582
   },
   {
     "type": 1,
     "icao": "KSHV",
-    "lat": 32.44838548166666,
-    "lon": -93.82506839,
+    "lat": 32.448375818333325,
+    "lon": -93.82513736499999,
     "communications": [
       {
         "type": 50,
@@ -676,7 +131,7 @@
         "name": "APP/DEP"
       }
     ],
-    "elevation": 257,
+    "elevation": 256,
     "tower": true,
     "name": "SHREVEPORT RGNL",
     "runways": [
@@ -697,8 +152,8 @@
         "type": 100,
         "width": 45.72,
         "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
+        "numberStart": "06",
+        "numberEnd": "24",
         "latStart": 32.44505865,
         "lonStart": -93.832917,
         "latEnd": 32.45334765,
@@ -708,36 +163,553 @@
       },
       {
         "type": 102,
-        "width": 4.57,
+        "width": 4.6,
         "surfaceType": 1,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 32.45016922,
-        "lonStart": -93.82781994,
+        "latStart": 32.45022364,
+        "lonStart": -93.82783625,
         "latEnd": null,
         "lonEnd": null,
-        "length": 4.57
+        "length": 4.6
       },
       {
         "type": 102,
-        "width": 4.57,
+        "width": 4.6,
         "surfaceType": 1,
         "numberStart": "H2",
         "numberEnd": null,
-        "latStart": 32.45230307,
-        "lonStart": -93.82095142,
+        "latStart": 32.45219067,
+        "lonStart": -93.82134896,
         "latEnd": null,
         "lonEnd": null,
-        "length": 4.57
+        "length": 4.6
       }
     ],
-    "id": 22244
+    "id": 3263
+  },
+  {
+    "type": 17,
+    "icao": "02LA",
+    "lat": 32.53126222,
+    "lon": -93.66017695,
+    "communications": [],
+    "elevation": 166,
+    "tower": false,
+    "name": "[H] LA State Police Troop G",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 32.53126222,
+        "lonStart": -93.66017695,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 7061
+  },
+  {
+    "type": 1,
+    "icao": "3F3",
+    "lat": 32.071730554999995,
+    "lon": -93.76516197250001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11990,
+        "name": "SHREVEPORT APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12140,
+        "name": "SHREVEPORT APP/DEP"
+      }
+    ],
+    "elevation": 324,
+    "tower": false,
+    "name": "C E RUSTY WILLIAMS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 32.065833,
+        "lonStart": -93.770553,
+        "latEnd": 32.075553,
+        "lonEnd": -93.758889,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 32.079614,
+        "lonStart": -93.764792,
+        "latEnd": 32.06592222,
+        "lonEnd": -93.76641389,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 7501
+  },
+  {
+    "type": 1,
+    "icao": "04LA",
+    "lat": 32.27321277,
+    "lon": -93.40600584,
+    "communications": [],
+    "elevation": 275,
+    "tower": false,
+    "name": "Loggy Bayou Plantation",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 32.27676508,
+        "lonStart": -93.40563827,
+        "latEnd": 32.26966046,
+        "lonEnd": -93.40637341,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 8156
+  },
+  {
+    "type": 1,
+    "icao": "5F3",
+    "lat": 32.98625055,
+    "lon": -93.13849778,
+    "communications": [],
+    "elevation": 348,
+    "tower": false,
+    "name": "Haynesville",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 32.99034248,
+        "lonStart": -93.13901051,
+        "latEnd": 32.98215862,
+        "lonEnd": -93.13798505,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 8553
+  },
+  {
+    "type": 1,
+    "icao": "5F4",
+    "lat": 32.7885095,
+    "lon": -93.0036515,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      },
+      {
+        "type": 55,
+        "frequency": 11860,
+        "name": "SHREVEPORT APP/DEP"
+      }
+    ],
+    "elevation": 244,
+    "tower": false,
+    "name": "HOMER MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 32.790872,
+        "lonStart": -93.008042,
+        "latEnd": 32.786147,
+        "lonEnd": -92.999261,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 8554
+  },
+  {
+    "type": 1,
+    "icao": "5F5",
+    "lat": 32.344600830000005,
+    "lon": -93.79990251000001,
+    "communications": [],
+    "elevation": 180,
+    "tower": false,
+    "name": "Bluebird Hill",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 32.34869964,
+        "lonStart": -93.79947805,
+        "latEnd": 32.34050202,
+        "lonEnd": -93.80032697,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 8555
+  },
+  {
+    "type": 1,
+    "icao": "5F8",
+    "lat": 32.791808329999995,
+    "lon": -93.95712528,
+    "communications": [],
+    "elevation": 202,
+    "tower": false,
+    "name": "Thackers",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 32.79146168,
+        "lonStart": -93.96183856,
+        "latEnd": 32.79215498,
+        "lonEnd": -93.952412,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 8558
+  },
+  {
+    "type": 1,
+    "icao": "5LA0",
+    "lat": 32.591813880000004,
+    "lon": -93.82795555999999,
+    "communications": [],
+    "elevation": 200,
+    "tower": false,
+    "name": "Juneau",
+    "runways": [
+      {
+        "type": 100,
+        "width": 25.91,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 32.59318015,
+        "lonStart": -93.82781369,
+        "latEnd": 32.59044761,
+        "lonEnd": -93.82809743,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 8673
+  },
+  {
+    "type": 1,
+    "icao": "43LA",
+    "lat": 32.74764304999999,
+    "lon": -93.87470778,
+    "communications": [],
+    "elevation": 177,
+    "tower": false,
+    "name": "Slays",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 32.74779612,
+        "lonStart": -93.87731049,
+        "latEnd": 32.74748998,
+        "lonEnd": -93.87210507,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12217
+  },
+  {
+    "type": 1,
+    "icao": "56LA",
+    "lat": 32.345138500000004,
+    "lon": -93.8181955,
+    "communications": [],
+    "elevation": 180,
+    "tower": false,
+    "name": "OLD HICKORY RANCH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 32.349998,
+        "lonStart": -93.81778,
+        "latEnd": 32.340279,
+        "lonEnd": -93.818611,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12723
+  },
+  {
+    "type": 1,
+    "icao": "68LA",
+    "lat": 32.33055555,
+    "lon": -93.51722223,
+    "communications": [],
+    "elevation": 148,
+    "tower": false,
+    "name": "Pilkinton Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 32.3334137,
+        "lonStart": -93.52072493,
+        "latEnd": 32.3276974,
+        "lonEnd": -93.51371953,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13198
+  },
+  {
+    "type": 17,
+    "icao": "77LA",
+    "lat": 32.49487472,
+    "lon": -93.74990084,
+    "communications": [],
+    "elevation": 60,
+    "tower": false,
+    "name": "[H] Schumpert Medical Center Regional",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 32.49487472,
+        "lonStart": -93.74990084,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 13562
+  },
+  {
+    "type": 1,
+    "icao": "78LA",
+    "lat": 32.26682499,
+    "lon": -93.72517889,
+    "communications": [],
+    "elevation": 230,
+    "tower": false,
+    "name": "Heinsohns Airfield",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 32.26699664,
+        "lonStart": -93.72749917,
+        "latEnd": 32.26665334,
+        "lonEnd": -93.72285861,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13596
+  },
+  {
+    "type": 1,
+    "icao": "84LA",
+    "lat": 32.55292833,
+    "lon": -93.59323112,
+    "communications": [],
+    "elevation": 180,
+    "tower": false,
+    "name": "Touchstone Ridge",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 32.55402135,
+        "lonStart": -93.59311767,
+        "latEnd": 32.55183531,
+        "lonEnd": -93.59334457,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13825
+  },
+  {
+    "type": 1,
+    "icao": "F24",
+    "lat": 32.6458335,
+    "lon": -93.29791700000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11860,
+        "name": "SHREVEPORT APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12140,
+        "name": "SHREVEPORT APP/DEP"
+      }
+    ],
+    "elevation": 278,
+    "tower": false,
+    "name": "MINDEN WEBSTER",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 32.639167,
+        "lonStart": -93.300278,
+        "latEnd": 32.6525,
+        "lonEnd": -93.295556,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16716
+  },
+  {
+    "type": 1,
+    "icao": "F33",
+    "lat": 32.3848775,
+    "lon": -93.73629,
+    "communications": [],
+    "elevation": 210,
+    "tower": false,
+    "name": "Lucien",
+    "runways": [
+      {
+        "type": 100,
+        "width": 7.62,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 32.38747342,
+        "lonStart": -93.73655894,
+        "latEnd": 32.38228158,
+        "lonEnd": -93.73602106,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16722
+  },
+  {
+    "type": 1,
+    "icao": "KBAD",
+    "lat": 32.501946000000004,
+    "lon": -93.662635,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12825,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11990,
+        "name": "SHREVEPORT APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12375,
+        "name": "SHREVEPORT APP/DEP"
+      }
+    ],
+    "elevation": 166,
+    "tower": true,
+    "name": "BARKSDALE AFB",
+    "runways": [
+      {
+        "type": 100,
+        "width": 91.44,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 32.51614607,
+        "lonStart": -93.67176166,
+        "latEnd": 32.48774593,
+        "lonEnd": -93.65350834,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 18844
   },
   {
     "type": 1,
     "icao": "KSPH",
-    "lat": 32.983447,
-    "lon": -93.409172,
+    "lat": 32.98372361,
+    "lon": -93.409173555,
     "communications": [
       {
         "type": 51,
@@ -765,41 +737,92 @@
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 32.988944,
-        "lonStart": -93.409183,
+        "latStart": 32.98949722,
+        "lonStart": -93.40918611,
         "latEnd": 32.97795,
         "lonEnd": -93.409161,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 22442
+    "id": 19835
+  },
+  {
+    "type": 17,
+    "icao": "LA14",
+    "lat": 32.42404305,
+    "lon": -93.72073389,
+    "communications": [],
+    "elevation": 161,
+    "tower": false,
+    "name": "[H] Schumpert Clinic South",
+    "runways": [
+      {
+        "type": 102,
+        "width": 11,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 32.42404305,
+        "lonStart": -93.72073389,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11
+      }
+    ],
+    "id": 20029
   },
   {
     "type": 1,
-    "icao": "43LA",
-    "lat": 32.74764304999999,
-    "lon": -93.87470778,
+    "icao": "LA17",
+    "lat": 32.60181555,
+    "lon": -93.69406638999999,
     "communications": [],
-    "elevation": 177,
+    "elevation": 173,
     "tower": false,
-    "name": "Slays",
+    "name": "Pioneer Field Flight Park",
     "runways": [
       {
         "type": 100,
-        "width": 30.48,
+        "width": 60.96,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 32.74779612,
-        "lonStart": -93.87731049,
-        "latEnd": 32.74748998,
-        "lonEnd": -93.87210507,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 32.6013186,
+        "lonStart": -93.69626794,
+        "latEnd": 32.6023125,
+        "lonEnd": -93.69186484,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 23699
+    "id": 20032
+  },
+  {
+    "type": 1,
+    "icao": "LA36",
+    "lat": 32.419599160000004,
+    "lon": -93.23433417000001,
+    "communications": [],
+    "elevation": 240,
+    "tower": false,
+    "name": "Charlie",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 32.41761202,
+        "lonStart": -93.23496493,
+        "latEnd": 32.4215863,
+        "lonEnd": -93.23370341,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20043
   },
   {
     "type": 1,
@@ -825,7 +848,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 24298
+    "id": 20056
   },
   {
     "type": 1,
@@ -851,109 +874,59 @@
         "surfacetype": 3
       }
     ],
-    "id": 24513
+    "id": 20057
   },
   {
     "type": 1,
-    "icao": "5F8",
-    "lat": 32.791808329999995,
-    "lon": -93.95712528,
+    "icao": "LA54",
+    "lat": 32.83764027,
+    "lon": -93.83767889,
     "communications": [],
-    "elevation": 202,
+    "elevation": 194,
     "tower": false,
-    "name": "Thackers",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 32.79146168,
-        "lonStart": -93.96183856,
-        "latEnd": 32.79215498,
-        "lonEnd": -93.952412,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 25211
-  },
-  {
-    "type": 1,
-    "icao": "84LA",
-    "lat": 32.55292833,
-    "lon": -93.59323112,
-    "communications": [],
-    "elevation": 180,
-    "tower": false,
-    "name": "Touchstone Ridge",
+    "name": "Gilliam",
     "runways": [
       {
         "type": 100,
         "width": 22.86,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 32.55402135,
-        "lonStart": -93.59311767,
-        "latEnd": 32.55183531,
-        "lonEnd": -93.59334457,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 32.83726972,
+        "lonStart": -93.84271982,
+        "latEnd": 32.83801082,
+        "lonEnd": -93.83263796,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 25497
+    "id": 20059
   },
   {
-    "type": 17,
-    "icao": "LS41",
-    "lat": 32.53348444,
-    "lon": -93.70851112,
+    "type": 1,
+    "icao": "LA56",
+    "lat": 32.34182276999999,
+    "lon": -93.65851083999999,
     "communications": [],
-    "elevation": 165,
+    "elevation": 155,
     "tower": false,
-    "name": "[H] Bossier Medical Center",
+    "name": "Naylor",
     "runways": [
       {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 32.53348444,
-        "lonStart": -93.70851112,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
+        "type": 100,
+        "width": 91.44,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 32.34455531,
+        "lonStart": -93.65822788,
+        "latEnd": 32.33909023,
+        "lonEnd": -93.6587938,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 28536
-  },
-  {
-    "type": 17,
-    "icao": "02LA",
-    "lat": 32.53126222,
-    "lon": -93.66017695,
-    "communications": [],
-    "elevation": 166,
-    "tower": false,
-    "name": "[H] LA State Police Troop G",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 32.53126222,
-        "lonStart": -93.66017695,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 30785
+    "id": 20061
   },
   {
     "type": 17,
@@ -978,42 +951,17 @@
         "length": 15.2
       }
     ],
-    "id": 30960
+    "id": 20795
   },
   {
     "type": 17,
-    "icao": "LA14",
-    "lat": 32.42404305,
-    "lon": -93.72073389,
+    "icao": "LS41",
+    "lat": 32.53348444,
+    "lon": -93.70851112,
     "communications": [],
-    "elevation": 161,
+    "elevation": 165,
     "tower": false,
-    "name": "[H] Schumpert Clinic South",
-    "runways": [
-      {
-        "type": 102,
-        "width": 11,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 32.42404305,
-        "lonStart": -93.72073389,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11
-      }
-    ],
-    "id": 32608
-  },
-  {
-    "type": 17,
-    "icao": "77LA",
-    "lat": 32.49487472,
-    "lon": -93.74990084,
-    "communications": [],
-    "elevation": 60,
-    "tower": false,
-    "name": "[H] Schumpert Medical Center Regional",
+    "name": "[H] Bossier Medical Center",
     "runways": [
       {
         "type": 102,
@@ -1021,14 +969,40 @@
         "surfaceType": 2,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 32.49487472,
-        "lonStart": -93.74990084,
+        "latStart": 32.53348444,
+        "lonStart": -93.70851112,
         "latEnd": null,
         "lonEnd": null,
-        "length": 18.3
+        "length": 15.2
       }
     ],
-    "id": 32609
+    "id": 20825
+  },
+  {
+    "type": 1,
+    "icao": "LS69",
+    "lat": 32.64348055,
+    "lon": -93.66239917,
+    "communications": [],
+    "elevation": 165,
+    "tower": false,
+    "name": "L J Earnest",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 32.64300242,
+        "lonStart": -93.66888944,
+        "latEnd": 32.64395868,
+        "lonEnd": -93.6559089,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20852
   },
   {
     "type": 17,
@@ -1053,6 +1027,32 @@
         "length": 21.3
       }
     ],
-    "id": 33861
+    "id": 20859
+  },
+  {
+    "type": 1,
+    "icao": "LS90",
+    "lat": 32.26238166,
+    "lon": -93.93573973,
+    "communications": [],
+    "elevation": 293,
+    "tower": false,
+    "name": "Caddo Detention Center",
+    "runways": [
+      {
+        "type": 100,
+        "width": 36.58,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 32.26267452,
+        "lonStart": -93.93969824,
+        "latEnd": 32.2620888,
+        "lonEnd": -93.93178122,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20870
   }
 ]

@@ -1,29 +1,53 @@
 [
   {
     "type": 1,
-    "icao": "07E",
-    "lat": 34.88669611,
-    "lon": -109.42732667,
-    "communications": [],
-    "elevation": 6440,
+    "icao": "KJTC",
+    "lat": 34.1290937925,
+    "lon": -109.31093138,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11965,
+        "name": "AWOS-3PT"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 7051,
     "tower": false,
-    "name": "Navajo Nr 5",
+    "name": "Springerville Municipal",
     "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 34.121981,
+        "lonStart": -109.320758,
+        "latEnd": 34.138672,
+        "lonEnd": -109.301508,
+        "length": 0,
+        "surfacetype": 1
+      },
       {
         "type": 100,
         "width": 18.29,
         "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 34.88331862,
-        "lonStart": -109.43259679,
-        "latEnd": 34.8900736,
-        "lonEnd": -109.42205655,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 34.13175259,
+        "lonStart": -109.31573613,
+        "latEnd": 34.12396958,
+        "lonEnd": -109.30572339,
         "length": 0,
-        "surfacetype": 4
+        "surfacetype": 1
       }
     ],
-    "id": 18158
+    "id": 2856
   },
   {
     "type": 1,
@@ -33,16 +57,21 @@
     "communications": [
       {
         "type": 50,
-        "frequency": 13217,
+        "frequency": 13422,
         "name": "ASOS"
       },
       {
         "type": 51,
         "frequency": 12280,
         "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12432,
+        "name": "Albuquerque Ctr"
       }
     ],
-    "elevation": 5736,
+    "elevation": 5735,
     "tower": false,
     "name": "ST JOHNS INDUSTRIAL AIR PARK",
     "runways": [
@@ -73,52 +102,33 @@
         "surfacetype": 1
       }
     ],
-    "id": 22469
+    "id": 3267
   },
   {
     "type": 1,
-    "icao": "D68",
-    "lat": 34.13143125,
-    "lon": -109.30803225000001,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 7051,
+    "icao": "07E",
+    "lat": 34.88669611,
+    "lon": -109.42732667,
+    "communications": [],
+    "elevation": 6440,
     "tower": false,
-    "name": "TOWN OF SPRINGERVILLE MUNI",
+    "name": "Navajo Nr 5",
     "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 34.121981,
-        "lonStart": -109.320758,
-        "latEnd": 34.138672,
-        "lonEnd": -109.301508,
-        "length": 0,
-        "surfacetype": 1
-      },
       {
         "type": 100,
         "width": 18.29,
         "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 34.136378,
-        "lonStart": -109.310944,
-        "latEnd": 34.128694,
-        "lonEnd": -109.298919,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 34.88331862,
+        "lonStart": -109.43259679,
+        "latEnd": 34.8900736,
+        "lonEnd": -109.42205655,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 4
       }
     ],
-    "id": 24820
+    "id": 9555
   },
   {
     "type": 1,
@@ -144,6 +154,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 26620
+    "id": 11337
   }
 ]

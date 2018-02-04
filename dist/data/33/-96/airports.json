@@ -1,66 +1,104 @@
 [
   {
     "type": 1,
-    "icao": "XS30",
-    "lat": 33.60510694,
-    "lon": -95.48189916999999,
-    "communications": [],
-    "elevation": 483,
-    "tower": false,
-    "name": "Burress",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 33.60798005,
-        "lonStart": -95.48214039,
-        "latEnd": 33.60223383,
-        "lonEnd": -95.48165795,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 3429
-  },
-  {
-    "type": 1,
-    "icao": "KLBR",
-    "lat": 33.593164,
-    "lon": -95.063556,
+    "icao": "KPRX",
+    "lat": 33.63631673857143,
+    "lon": -95.45128173571429,
     "communications": [
       {
         "type": 50,
-        "frequency": 11892,
+        "frequency": 11967,
         "name": "AWOS 3"
       },
       {
         "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
+        "frequency": 12297,
+        "name": "CTAF/UNICOM"
       }
     ],
-    "elevation": 439,
+    "elevation": 545,
     "tower": false,
-    "name": "CLARKSVILLE RED RIVER J D TRISSELL FLD",
+    "name": "Cox Field",
     "runways": [
       {
         "type": 100,
-        "width": 15.24,
+        "width": 45.72,
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 33.597262,
-        "lonStart": -95.064088,
-        "latEnd": 33.589066,
-        "lonEnd": -95.063024,
+        "latStart": 33.6448058,
+        "lonStart": -95.45443054,
+        "latEnd": 33.6283442,
+        "lonEnd": -95.45414757,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 33.63026503,
+        "lonStart": -95.45303131,
+        "latEnd": 33.64039303,
+        "lonEnd": -95.44385331,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 33.642897,
+        "lonStart": -95.453233,
+        "latEnd": 33.632997,
+        "lonEnd": -95.443708,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 12,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.63451511,
+        "lonStart": -95.45656842,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12
       }
     ],
-    "id": 3966
+    "id": 3141
+  },
+  {
+    "type": 1,
+    "icao": "0TA8",
+    "lat": 33.84871694,
+    "lon": -95.40717778,
+    "communications": [],
+    "elevation": 410,
+    "tower": false,
+    "name": "Womack Plantation",
+    "runways": [
+      {
+        "type": 100,
+        "width": 13.72,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 33.8523724,
+        "lonStart": -95.40671517,
+        "latEnd": 33.84506148,
+        "lonEnd": -95.40764039,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6165
   },
   {
     "type": 1,
@@ -97,112 +135,17 @@
         "surfacetype": 1
       }
     ],
-    "id": 4081
+    "id": 6946
   },
   {
     "type": 1,
-    "icao": "KPRX",
-    "lat": 33.63662133333333,
-    "lon": -95.45039483333335,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11967,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12297,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 546,
-    "tower": false,
-    "name": "COX FLD",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 33.644819,
-        "lonStart": -95.454431,
-        "latEnd": 33.628331,
-        "lonEnd": -95.454147,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 33.630278,
-        "lonStart": -95.453014,
-        "latEnd": 33.640406,
-        "lonEnd": -95.443836,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 33.642897,
-        "lonStart": -95.453233,
-        "latEnd": 33.632997,
-        "lonEnd": -95.443708,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 4203
-  },
-  {
-    "type": 1,
-    "icao": "F53",
-    "lat": 33.2154445,
-    "lon": -95.2374415,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12300,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 411,
-    "tower": false,
-    "name": "FRANKLIN CO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 33.219331,
-        "lonStart": -95.241833,
-        "latEnd": 33.211558,
-        "lonEnd": -95.23305,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 7684
-  },
-  {
-    "type": 1,
-    "icao": "TS54",
-    "lat": 33.01484111,
-    "lon": -95.43439416999999,
+    "icao": "4TX3",
+    "lat": 33.66121388,
+    "lon": -95.83357751,
     "communications": [],
-    "elevation": 535,
+    "elevation": 525,
     "tower": false,
-    "name": "Flying B",
+    "name": "Forest Hill",
     "runways": [
       {
         "type": 100,
@@ -210,15 +153,40 @@
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 33.01678122,
-        "lonStart": -95.43419175,
-        "latEnd": 33.012901,
-        "lonEnd": -95.43459659,
+        "latStart": 33.66421463,
+        "lonStart": -95.83319858,
+        "latEnd": 33.65821313,
+        "lonEnd": -95.83395644,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 9404
+    "id": 8401
+  },
+  {
+    "type": 17,
+    "icao": "8T5",
+    "lat": 33.17622722,
+    "lon": -95.23577667,
+    "communications": [],
+    "elevation": 481,
+    "tower": false,
+    "name": "[H] Mt Vernon Medical Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 7.6,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.17622722,
+        "lonStart": -95.23577667,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 7.6
+      }
+    ],
+    "id": 10330
   },
   {
     "type": 1,
@@ -257,85 +225,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 9522
-  },
-  {
-    "type": 1,
-    "icao": "4TX3",
-    "lat": 33.66121388,
-    "lon": -95.83357751,
-    "communications": [],
-    "elevation": 525,
-    "tower": false,
-    "name": "Forest Hill",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 33.66421463,
-        "lonStart": -95.83319858,
-        "latEnd": 33.65821313,
-        "lonEnd": -95.83395644,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9578
-  },
-  {
-    "type": 1,
-    "icao": "TS11",
-    "lat": 33.107059719999995,
-    "lon": -95.92996667,
-    "communications": [],
-    "elevation": 531,
-    "tower": false,
-    "name": "Glenmar",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 33.10924876,
-        "lonStart": -95.93014941,
-        "latEnd": 33.10487068,
-        "lonEnd": -95.92978393,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 10532
-  },
-  {
-    "type": 1,
-    "icao": "TA06",
-    "lat": 33.16122472,
-    "lon": -95.80579584,
-    "communications": [],
-    "elevation": 610,
-    "tower": false,
-    "name": "Morris Manor",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 33.16396102,
-        "lonStart": -95.80602441,
-        "latEnd": 33.15848842,
-        "lonEnd": -95.80556727,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 17537
+    "id": 12089
   },
   {
     "type": 1,
@@ -361,7 +251,126 @@
         "surfacetype": 4
       }
     ],
-    "id": 20475
+    "id": 12245
+  },
+  {
+    "type": 17,
+    "icao": "60TS",
+    "lat": 33.22539055,
+    "lon": -95.89691001,
+    "communications": [],
+    "elevation": 517,
+    "tower": false,
+    "name": "[H] Presbyterian Hospital of Commerce",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.22539055,
+        "lonStart": -95.89691001,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 12896
+  },
+  {
+    "type": 17,
+    "icao": "93TA",
+    "lat": 33.06012027,
+    "lon": -95.15771834,
+    "communications": [],
+    "elevation": 351,
+    "tower": false,
+    "name": "[H] Mac Kay",
+    "runways": [
+      {
+        "type": 102,
+        "width": 24.4,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.06012027,
+        "lonStart": -95.15771834,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.4
+      }
+    ],
+    "id": 14138
+  },
+  {
+    "type": 1,
+    "icao": "F53",
+    "lat": 33.2154445,
+    "lon": -95.2374415,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 411,
+    "tower": false,
+    "name": "FRANKLIN CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 33.219331,
+        "lonStart": -95.241833,
+        "latEnd": 33.211558,
+        "lonEnd": -95.23305,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16735
+  },
+  {
+    "type": 1,
+    "icao": "KLBR",
+    "lat": 33.593164,
+    "lon": -95.063556,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11892,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 439,
+    "tower": false,
+    "name": "CLARKSVILLE RED RIVER J D TRISSELL FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 33.597262,
+        "lonStart": -95.064088,
+        "latEnd": 33.589066,
+        "lonEnd": -95.063024,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19396
   },
   {
     "type": 1,
@@ -398,107 +407,110 @@
         "surfacetype": 1
       }
     ],
-    "id": 22589
+    "id": 19822
   },
   {
     "type": 1,
-    "icao": "0TA8",
-    "lat": 33.84871694,
-    "lon": -95.40717778,
+    "icao": "TA06",
+    "lat": 33.16122472,
+    "lon": -95.80579584,
     "communications": [],
-    "elevation": 410,
+    "elevation": 610,
     "tower": false,
-    "name": "Womack Plantation",
+    "name": "Morris Manor",
     "runways": [
       {
         "type": 100,
-        "width": 13.72,
+        "width": 15.24,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 33.8523724,
-        "lonStart": -95.40671517,
-        "latEnd": 33.84506148,
-        "lonEnd": -95.40764039,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 33.16396102,
+        "lonStart": -95.80602441,
+        "latEnd": 33.15848842,
+        "lonEnd": -95.80556727,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 27517
+    "id": 29733
   },
   {
-    "type": 17,
-    "icao": "93TA",
-    "lat": 33.06012027,
-    "lon": -95.15771834,
+    "type": 1,
+    "icao": "TS11",
+    "lat": 33.107059719999995,
+    "lon": -95.92996667,
     "communications": [],
-    "elevation": 351,
+    "elevation": 531,
     "tower": false,
-    "name": "[H] Mac Kay",
+    "name": "Glenmar",
     "runways": [
       {
-        "type": 102,
-        "width": 24.4,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.06012027,
-        "lonStart": -95.15771834,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.4
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 33.10924876,
+        "lonStart": -95.93014941,
+        "latEnd": 33.10487068,
+        "lonEnd": -95.92978393,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 31022
+    "id": 29992
   },
   {
-    "type": 17,
-    "icao": "8T5",
-    "lat": 33.17622722,
-    "lon": -95.23577667,
+    "type": 1,
+    "icao": "TS54",
+    "lat": 33.01484111,
+    "lon": -95.43439416999999,
     "communications": [],
-    "elevation": 481,
+    "elevation": 535,
     "tower": false,
-    "name": "[H] Mt Vernon Medical Center",
+    "name": "Flying B",
     "runways": [
       {
-        "type": 102,
-        "width": 7.6,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.17622722,
-        "lonStart": -95.23577667,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 7.6
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 33.01678122,
+        "lonStart": -95.43419175,
+        "latEnd": 33.012901,
+        "lonEnd": -95.43459659,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 31487
+    "id": 30032
   },
   {
-    "type": 17,
-    "icao": "60TS",
-    "lat": 33.22539055,
-    "lon": -95.89691001,
+    "type": 1,
+    "icao": "XS30",
+    "lat": 33.60510694,
+    "lon": -95.48189916999999,
     "communications": [],
-    "elevation": 517,
+    "elevation": 483,
     "tower": false,
-    "name": "[H] Presbyterian Hospital of Commerce",
+    "name": "Burress",
     "runways": [
       {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.22539055,
-        "lonStart": -95.89691001,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 33.60798005,
+        "lonStart": -95.48214039,
+        "latEnd": 33.60223383,
+        "lonEnd": -95.48165795,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 32150
+    "id": 32463
   }
 ]

@@ -2,27 +2,33 @@
   {
     "type": 1,
     "icao": "SWBC",
-    "lat": -0.9812905000000001,
-    "lon": -62.919643,
-    "communications": [],
-    "elevation": 111,
+    "lat": -0.981161285,
+    "lon": -62.91830624,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12280,
+        "name": "UNICOM"
+      }
+    ],
+    "elevation": 110,
     "tower": true,
-    "name": "Barcelos",
+    "name": "Barcelos Rio Negro",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 31,
         "surfaceType": null,
         "numberStart": "09",
         "numberEnd": "27",
-        "latStart": -0.981953,
-        "lonStart": -62.924944,
-        "latEnd": -0.980628,
-        "lonEnd": -62.914342,
+        "latStart": -0.98200028,
+        "lonStart": -62.92500496,
+        "latEnd": -0.98032229,
+        "lonEnd": -62.91160752,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 2226
+    "id": 4974
   }
 ]

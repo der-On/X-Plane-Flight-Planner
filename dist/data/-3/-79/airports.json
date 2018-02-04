@@ -1,43 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "SEMC",
-    "lat": -2.2991665,
-    "lon": -78.12075,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12300,
-        "name": "MACAS TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11950,
-        "name": "SHELL APP"
-      }
-    ],
-    "elevation": 3452,
-    "tower": true,
-    "name": "CORONEL E CARVAJAL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": -2.310114,
-        "lonStart": -78.123553,
-        "latEnd": -2.288219,
-        "lonEnd": -78.117947,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 4163
-  },
-  {
-    "type": 1,
     "icao": "SECU",
     "lat": -2.889468,
     "lon": -78.98439803,
@@ -71,7 +34,44 @@
         "surfacetype": 1
       }
     ],
-    "id": 15844
+    "id": 25980
+  },
+  {
+    "type": 1,
+    "icao": "SEMC",
+    "lat": -2.2991665,
+    "lon": -78.12075,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12300,
+        "name": "MACAS TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11950,
+        "name": "SHELL APP"
+      }
+    ],
+    "elevation": 3452,
+    "tower": true,
+    "name": "CORONEL E CARVAJAL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": -2.310114,
+        "lonStart": -78.123553,
+        "latEnd": -2.288219,
+        "lonEnd": -78.117947,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 25989
   },
   {
     "type": 1,
@@ -97,7 +97,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 19254
+    "id": 25993
   },
   {
     "type": 1,
@@ -123,6 +123,6 @@
         "surfacetype": 2
       }
     ],
-    "id": 24317
+    "id": 26000
   }
 ]

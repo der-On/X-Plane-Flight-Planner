@@ -2,27 +2,45 @@
   {
     "type": 1,
     "icao": "LPSC",
-    "lat": 39.1166649,
-    "lon": -9.3666668,
-    "communications": [],
-    "elevation": 157,
+    "lat": 39.124090243333335,
+    "lon": -9.379709326666665,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12235,
+        "name": "AFIS"
+      }
+    ],
+    "elevation": 160,
     "tower": false,
-    "name": "Santa Cruz Airstrip",
+    "name": "Santa Cruz",
     "runways": [
       {
         "type": 100,
-        "width": 23.16,
+        "width": 23,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 39.11979934,
-        "lonStart": -9.3670558,
-        "latEnd": 39.11353046,
-        "lonEnd": -9.3662778,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 39.12629169,
+        "lonStart": -9.38077358,
+        "latEnd": 39.1209534,
+        "lonEnd": -9.37922664,
         "length": 0,
-        "surfacetype": 4
+        "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 13.6,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.12502564,
+        "lonStart": -9.37912776,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.68
       }
     ],
-    "id": 22889
+    "id": 3903
   }
 ]

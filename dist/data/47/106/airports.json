@@ -1,9 +1,35 @@
 [
   {
     "type": 1,
+    "icao": "XZMUB",
+    "lat": 47.646918299999996,
+    "lon": 106.820048765,
+    "communications": [],
+    "elevation": 4501,
+    "tower": true,
+    "name": "New Ulaanbaatar International Airport",
+    "runways": [
+      {
+        "type": 100,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 47.65103613,
+        "lonStart": 106.79674369,
+        "latEnd": 47.64280047,
+        "lonEnd": 106.84335384,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 5562
+  },
+  {
+    "type": 1,
     "icao": "ZMUB",
-    "lat": 47.842620339999996,
-    "lon": 106.7629062525,
+    "lat": 47.84277699500001,
+    "lon": 106.76277176500001,
     "communications": [
       {
         "type": 50,
@@ -39,40 +65,14 @@
         "surfaceType": null,
         "numberStart": "15",
         "numberEnd": "33",
-        "latStart": 47.84978171,
-        "lonStart": 106.75169906,
+        "latStart": 47.85040833,
+        "lonStart": 106.75116111,
         "latEnd": 47.83550765,
         "lonEnd": 106.76571795,
         "length": 0,
         "surfacetype": 4
       }
     ],
-    "id": 3900
-  },
-  {
-    "type": 1,
-    "icao": "XZMUB",
-    "lat": 47.646918299999996,
-    "lon": 106.820048765,
-    "communications": [],
-    "elevation": 4501,
-    "tower": true,
-    "name": "New Ulaanbaatar International Airport",
-    "runways": [
-      {
-        "type": 100,
-        "width": 50,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 47.65103613,
-        "lonStart": 106.79674369,
-        "latEnd": 47.64280047,
-        "lonEnd": 106.84335384,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 18267
+    "id": 34929
   }
 ]

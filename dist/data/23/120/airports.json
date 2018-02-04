@@ -2,28 +2,23 @@
   {
     "type": 1,
     "icao": "RCKU",
-    "lat": 23.461784750000003,
-    "lon": 120.3928195,
+    "lat": 23.461254236666665,
+    "lon": 120.39181908,
     "communications": [
       {
         "type": 54,
-        "frequency": 12190,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12617,
-        "name": "TWR"
+        "frequency": 12270,
+        "name": "CHIAYI TOWER"
       },
       {
         "type": 54,
         "frequency": 11860,
-        "name": "TWR"
+        "name": "CHIAYI TOWER"
       },
       {
         "type": 55,
         "frequency": 12060,
-        "name": "TAICHUNG APP"
+        "name": "KAOHSIUNG APPROACH"
       }
     ],
     "elevation": 84,
@@ -34,29 +29,28 @@
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "18R",
-        "numberEnd": "36L",
-        "latStart": 23.477333,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 23.47733315,
         "lonStart": 120.390389,
-        "latEnd": 23.449889,
-        "lonEnd": 120.390722,
+        "latEnd": 23.44988885,
+        "lonEnd": 120.39072197,
         "length": 0,
         "surfacetype": 2
       },
       {
-        "type": 100,
-        "width": 22.56,
-        "surfaceType": null,
-        "numberStart": "18L",
-        "numberEnd": "36R",
-        "latStart": 23.46725,
-        "lonStart": 120.395,
-        "latEnd": 23.452667,
-        "lonEnd": 120.395167,
-        "length": 0,
-        "surfacetype": 1
+        "type": 102,
+        "width": 41.6,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 23.45654071,
+        "lonStart": 120.39434627,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 41.6
       }
     ],
-    "id": 3882
+    "id": 24341
   }
 ]

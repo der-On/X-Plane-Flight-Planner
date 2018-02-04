@@ -1,13 +1,45 @@
 [
   {
     "type": 1,
+    "icao": "SA9E",
+    "lat": -38.95169432,
+    "lon": -71.33067931,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11820,
+        "name": "ATC traffic"
+      }
+    ],
+    "elevation": 3815,
+    "tower": true,
+    "name": "Moquehue",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -38.95294767,
+        "lonStart": -71.3348777,
+        "latEnd": -38.95044097,
+        "lonEnd": -71.32648092,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4529
+  },
+  {
+    "type": 1,
     "icao": "SCAI",
     "lat": -38.431575,
     "lon": -71.92319549999999,
     "communications": [],
     "elevation": 1666,
     "tower": true,
-    "name": "CuracautC-n",
+    "name": "Curacautín",
     "runways": [
       {
         "type": 100,
@@ -23,7 +55,7 @@
         "surfacetype": 5
       }
     ],
-    "id": 5585
+    "id": 4693
   },
   {
     "type": 1,
@@ -49,7 +81,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 9789
+    "id": 4717
+  },
+  {
+    "type": 1,
+    "icao": "SCML",
+    "lat": -38.8591785,
+    "lon": -71.813790135,
+    "communications": [],
+    "elevation": 1388,
+    "tower": false,
+    "name": "Melipeuco",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -38.86103303,
+        "lonStart": -71.81905498,
+        "latEnd": -38.85732397,
+        "lonEnd": -71.80852529,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4774
   },
   {
     "type": 1,
@@ -81,65 +139,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 12400
-  },
-  {
-    "type": 1,
-    "icao": "SCML",
-    "lat": -38.8591785,
-    "lon": -71.813790135,
-    "communications": [],
-    "elevation": 1388,
-    "tower": false,
-    "name": "Melipeuco",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": -38.86103303,
-        "lonStart": -71.81905498,
-        "latEnd": -38.85732397,
-        "lonEnd": -71.80852529,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 17038
-  },
-  {
-    "type": 1,
-    "icao": "SA9E",
-    "lat": -38.95169432,
-    "lon": -71.33067931,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11820,
-        "name": "ATC traffic"
-      }
-    ],
-    "elevation": 3815,
-    "tower": true,
-    "name": "Moquehue",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": -38.95294767,
-        "lonStart": -71.3348777,
-        "latEnd": -38.95044097,
-        "lonEnd": -71.32648092,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 17484
+    "id": 4803
   },
   {
     "type": 1,
@@ -165,6 +165,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 26335
+    "id": 4810
   }
 ]

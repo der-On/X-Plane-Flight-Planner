@@ -1,54 +1,17 @@
 [
   {
     "type": 1,
-    "icao": "FG3",
-    "lat": 52.0166655,
-    "lon": -110.75,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12320,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 2499,
-    "tower": false,
-    "name": "Consort",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 52.020278,
-        "lonStart": -110.753331,
-        "latEnd": 52.013053,
-        "lonEnd": -110.746669,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 5273
-  },
-  {
-    "type": 1,
     "icao": "EH6",
-    "lat": 52.338036,
-    "lon": -110.277658,
+    "lat": 52.337936965,
+    "lon": -110.27860507,
     "communications": [
       {
-        "type": 51,
+        "type": 54,
         "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 13345,
-        "name": "EDMONTON CNTR"
+        "name": "UNICOM / Traffic"
       }
     ],
-    "elevation": 2197,
+    "elevation": 2196,
     "tower": false,
     "name": "Provost",
     "runways": [
@@ -58,47 +21,15 @@
         "surfaceType": null,
         "numberStart": "12",
         "numberEnd": "30",
-        "latStart": 52.342722,
-        "lonStart": -110.285844,
-        "latEnd": 52.33335,
-        "lonEnd": -110.269472,
+        "latStart": 52.34290415,
+        "lonStart": -110.28693283,
+        "latEnd": 52.33296978,
+        "lonEnd": -110.27027731,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 20576
-  },
-  {
-    "type": 1,
-    "icao": "CYWV",
-    "lat": 52.7958335,
-    "lon": -110.8575055,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 2229,
-    "tower": false,
-    "name": "WAINWRIGHT",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 52.798889,
-        "lonStart": -110.86195,
-        "latEnd": 52.792778,
-        "lonEnd": -110.853061,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 26452
+    "id": 1633
   },
   {
     "type": 1,
@@ -137,6 +68,70 @@
         "surfacetype": 3
       }
     ],
-    "id": 26455
+    "id": 15192
+  },
+  {
+    "type": 1,
+    "icao": "CYWV",
+    "lat": 52.7958335,
+    "lon": -110.8575055,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 2229,
+    "tower": false,
+    "name": "WAINWRIGHT",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 52.798889,
+        "lonStart": -110.86195,
+        "latEnd": 52.792778,
+        "lonEnd": -110.853061,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 15832
+  },
+  {
+    "type": 1,
+    "icao": "FG3",
+    "lat": 52.0166655,
+    "lon": -110.75,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12320,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 2499,
+    "tower": false,
+    "name": "Consort",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 52.020278,
+        "lonStart": -110.753331,
+        "latEnd": 52.013053,
+        "lonEnd": -110.746669,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17087
   }
 ]

@@ -1,6 +1,84 @@
 [
   {
     "type": 1,
+    "icao": "CYMJ",
+    "lat": 50.33023228,
+    "lon": -105.55822037833333,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 25780,
+        "name": "ATIS CYMJ"
+      },
+      {
+        "type": 54,
+        "frequency": 12620,
+        "name": "TOWER CYMJ"
+      },
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "GROUND CYMJ"
+      },
+      {
+        "type": 52,
+        "frequency": 13530,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 56,
+        "frequency": 11900,
+        "name": "DEPART CYMJ"
+      }
+    ],
+    "elevation": 1873,
+    "tower": true,
+    "name": "Air Vice Marshall C.M. McEwan Airport",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.78,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 50.32721546,
+        "lonStart": -105.55898632,
+        "latEnd": 50.33305409,
+        "lonEnd": -105.55034525,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 47.3,
+        "surfaceType": null,
+        "numberStart": "11R",
+        "numberEnd": "29L",
+        "latStart": 50.3327212,
+        "lonStart": -105.5745542,
+        "latEnd": 50.32301774,
+        "lonEnd": -105.54706653,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 47.3,
+        "surfaceType": null,
+        "numberStart": "11L",
+        "numberEnd": "29R",
+        "latStart": 50.33819759,
+        "lonStart": -105.57478509,
+        "latEnd": 50.3271876,
+        "lonEnd": -105.54358488,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 788
+  },
+  {
+    "type": 1,
     "icao": "CBS7",
     "lat": 50.06659958,
     "lon": -105.300231175,
@@ -23,7 +101,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 3193
+    "id": 15104
   },
   {
     "type": 1,
@@ -49,100 +127,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 15609
-  },
-  {
-    "type": 1,
-    "icao": "CYMJ",
-    "lat": 50.33015150333333,
-    "lon": -105.55869674333333,
-    "communications": [
-      {
-        "type": 52,
-        "frequency": 13530,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 53,
-        "frequency": 12180,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12620,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11900,
-        "name": "ARR"
-      },
-      {
-        "type": 55,
-        "frequency": 12910,
-        "name": "ARR"
-      },
-      {
-        "type": 55,
-        "frequency": 13410,
-        "name": "ARR"
-      },
-      {
-        "type": 55,
-        "frequency": 13650,
-        "name": "ARR"
-      },
-      {
-        "type": 56,
-        "frequency": 11900,
-        "name": "DEP"
-      }
-    ],
-    "elevation": 1892,
-    "tower": true,
-    "name": "Moose Jaw Air Vice Marshal C M McEwen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 46.02,
-        "surfaceType": null,
-        "numberStart": "11L",
-        "numberEnd": "29R",
-        "latStart": 50.33813048,
-        "lonStart": -105.5754771,
-        "latEnd": 50.32719401,
-        "lonEnd": -105.54406764,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 46.02,
-        "surfaceType": null,
-        "numberStart": "11R",
-        "numberEnd": "29L",
-        "latStart": 50.33242359,
-        "lonStart": -105.57523033,
-        "latEnd": 50.32286548,
-        "lonEnd": -105.54776972,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 50.32721048,
-        "lonStart": -105.55919739,
-        "latEnd": 50.33308498,
-        "lonEnd": -105.55043828,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 17481
+    "id": 15183
   },
   {
     "type": 1,
@@ -168,7 +153,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 17482
+    "id": 15270
   },
   {
     "type": 1,
@@ -194,6 +179,6 @@
         "surfacetype": 5
       }
     ],
-    "id": 23988
+    "id": 15331
   }
 ]

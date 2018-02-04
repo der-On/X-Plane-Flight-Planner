@@ -1,38 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "ESMA",
-    "lat": 56.611208395,
-    "lon": 15.605883585,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12315,
-        "name": "RDO"
-      }
-    ],
-    "elevation": 442,
-    "tower": false,
-    "name": "Emmaboda",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 56.605604,
-        "lonStart": 15.60300817,
-        "latEnd": 56.61681279,
-        "lonEnd": 15.608759,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 7163
-  },
-  {
-    "type": 1,
     "icao": "ESDF",
     "lat": 56.262684402000005,
     "lon": 15.266989910000001,
@@ -106,6 +74,64 @@
         "length": 50
       }
     ],
-    "id": 21706
+    "id": 1874
+  },
+  {
+    "type": 1,
+    "icao": "ESFQ",
+    "lat": 56.8442645,
+    "lon": 15.452678760000001,
+    "communications": [],
+    "elevation": 734,
+    "tower": false,
+    "name": "[X] Kosta airbase",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 56.853189,
+        "lonStart": 15.45075852,
+        "latEnd": 56.83534,
+        "lonEnd": 15.454599,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1886
+  },
+  {
+    "type": 1,
+    "icao": "ESMA",
+    "lat": 56.611208395,
+    "lon": 15.605883585,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12315,
+        "name": "RDO"
+      }
+    ],
+    "elevation": 442,
+    "tower": false,
+    "name": "Emmaboda",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 56.605604,
+        "lonStart": 15.60300817,
+        "latEnd": 56.61681279,
+        "lonEnd": 15.608759,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1943
   }
 ]

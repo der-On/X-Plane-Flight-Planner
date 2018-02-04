@@ -1,6 +1,43 @@
 [
   {
     "type": 1,
+    "icao": "LTFD",
+    "lat": 39.552341495,
+    "lon": 27.010083405,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11970,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12190,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 69,
+    "tower": true,
+    "name": "Balikesir Koca Seyit",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 39.54433619,
+        "lonStart": 26.99597692,
+        "latEnd": 39.5603468,
+        "lonEnd": 27.02418989,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 4031
+  },
+  {
+    "type": 1,
     "icao": "LTBF",
     "lat": 39.6192585,
     "lon": 27.925959499999998,
@@ -39,43 +76,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 1471
-  },
-  {
-    "type": 1,
-    "icao": "LTFD",
-    "lat": 39.554491999999996,
-    "lon": 27.0139265,
-    "communications": [
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11970,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 49,
-    "tower": true,
-    "name": "BALIKESIR KORFEZ",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 39.548942,
-        "lonStart": 27.004153,
-        "latEnd": 39.560042,
-        "lonEnd": 27.0237,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 1472
+    "id": 20913
   }
 ]

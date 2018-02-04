@@ -1,9 +1,138 @@
 [
   {
     "type": 1,
+    "icao": "LTBR",
+    "lat": 40.253921596666665,
+    "lon": 29.560074983333333,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12420,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12210,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12420,
+        "name": "APP"
+      }
+    ],
+    "elevation": 762,
+    "tower": true,
+    "name": "Yenisehir AB",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "07L",
+        "numberEnd": "25R",
+        "latStart": 40.25217084,
+        "lonStart": 29.54527823,
+        "latEnd": 40.25942516,
+        "lonEnd": 29.57926759,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "07R",
+        "numberEnd": "25L",
+        "latStart": 40.25099477,
+        "lonStart": 29.54575824,
+        "latEnd": 40.25819239,
+        "lonEnd": 29.57972434,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 25,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.24966129,
+        "lonStart": 29.54498427,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 25
+      },
+      {
+        "type": 102,
+        "width": 25,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 40.25308513,
+        "lonStart": 29.56543723,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 25
+      }
+    ],
+    "id": 4007
+  },
+  {
+    "type": 1,
+    "icao": "LTBX",
+    "lat": 40.9926374925,
+    "lon": 29.215947185,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12600,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 398,
+    "tower": true,
+    "name": "Samandira",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 40.99873236,
+        "lonStart": 29.21602704,
+        "latEnd": 40.98654667,
+        "lonEnd": 29.21601472,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 40.99019947,
+        "lonStart": 29.21266899,
+        "latEnd": 40.99507147,
+        "lonEnd": 29.21907799,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 4011
+  },
+  {
+    "type": 1,
     "icao": "LTFJ",
-    "lat": 40.8985715,
-    "lon": 29.30922657,
+    "lat": 40.89832973333333,
+    "lon": 29.310278763333333,
     "communications": [
       {
         "type": 50,
@@ -17,28 +146,23 @@
       },
       {
         "type": 54,
-        "frequency": 12092,
+        "frequency": 11880,
         "name": "TWR"
       },
       {
         "type": 54,
-        "frequency": 12210,
+        "frequency": 12092,
         "name": "TWR"
       },
       {
         "type": 54,
         "frequency": 12262,
         "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 11880,
-        "name": "TWR"
       }
     ],
     "elevation": 312,
     "tower": true,
-    "name": "SABIHA GOKCEN",
+    "name": "Sabiha Gokcen",
     "runways": [
       {
         "type": 100,
@@ -52,54 +176,21 @@
         "lonEnd": 29.32526473,
         "length": 0,
         "surfacetype": 2
-      }
-    ],
-    "id": 21898
-  },
-  {
-    "type": 1,
-    "icao": "LTBX",
-    "lat": 40.993013749999996,
-    "lon": 29.2165195,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12600,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 400,
-    "tower": true,
-    "name": "SAMANDIRA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 40.999314,
-        "lonStart": 29.216531,
-        "latEnd": 40.986619,
-        "lonEnd": 29.21655,
-        "length": 0,
-        "surfacetype": 2
       },
       {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 40.990625,
-        "lonStart": 29.213294,
-        "latEnd": 40.995497,
-        "lonEnd": 29.219703,
-        "length": 0,
-        "surfacetype": 2
+        "type": 102,
+        "width": 50,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.8978462,
+        "lonStart": 29.31238315,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 50
       }
     ],
-    "id": 21943
+    "id": 4035
   },
   {
     "type": 1,
@@ -138,71 +229,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 27662
-  },
-  {
-    "type": 1,
-    "icao": "LTBR",
-    "lat": 40.25520825,
-    "lon": 29.562568749999997,
-    "communications": [
-      {
-        "type": 53,
-        "frequency": 12195,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12210,
-        "name": "TWR/APP"
-      },
-      {
-        "type": 54,
-        "frequency": 12420,
-        "name": "TWR/APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12420,
-        "name": "APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12032,
-        "name": "APP"
-      }
-    ],
-    "elevation": 764,
-    "tower": true,
-    "name": "YENISEHIR",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "07L",
-        "numberEnd": "25R",
-        "latStart": 40.252214,
-        "lonStart": 29.545401,
-        "latEnd": 40.259406,
-        "lonEnd": 29.5793,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "07R",
-        "numberEnd": "25L",
-        "latStart": 40.25101,
-        "lonStart": 29.545837,
-        "latEnd": 40.258203,
-        "lonEnd": 29.579737,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 27699
+    "id": 20919
   }
 ]

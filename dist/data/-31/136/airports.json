@@ -1,6 +1,45 @@
 [
   {
     "type": 1,
+    "icao": "AU09",
+    "lat": -30.927309442499997,
+    "lon": 136.5421769275,
+    "communications": [],
+    "elevation": 453,
+    "tower": false,
+    "name": "[X] Evetts Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 36.88,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -30.92322968,
+        "lonStart": 136.53105163,
+        "latEnd": -30.933635,
+        "lonEnd": 136.548467,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -30.91706043,
+        "lonStart": 136.54418343,
+        "latEnd": -30.93531266,
+        "lonEnd": 136.54500565,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14720
+  },
+  {
+    "type": 1,
     "icao": "YOLD",
     "lat": -30.484945404999998,
     "lon": 136.876099055,
@@ -39,7 +78,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 18939
+    "id": 34121
   },
   {
     "type": 1,
@@ -91,7 +130,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 19212
+    "id": 34202
   },
   {
     "type": 1,
@@ -136,45 +175,6 @@
         "surfacetype": 4
       }
     ],
-    "id": 21790
-  },
-  {
-    "type": 1,
-    "icao": "AU09",
-    "lat": -30.927309442499997,
-    "lon": 136.5421769275,
-    "communications": [],
-    "elevation": 453,
-    "tower": false,
-    "name": "[X] Evetts Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 36.88,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": -30.92322968,
-        "lonStart": 136.53105163,
-        "latEnd": -30.933635,
-        "lonEnd": 136.548467,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": -30.91706043,
-        "lonStart": 136.54418343,
-        "latEnd": -30.93531266,
-        "lonEnd": 136.54500565,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 34561
+    "id": 34361
   }
 ]

@@ -1,6 +1,75 @@
 [
   {
     "type": 1,
+    "icao": "3M5",
+    "lat": 34.747369,
+    "lon": -86.46096642,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 649,
+    "tower": false,
+    "name": "Moontown",
+    "runways": [
+      {
+        "type": 100,
+        "width": 48.77,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 34.74742,
+        "lonStart": -86.46459484,
+        "latEnd": 34.747318,
+        "lonEnd": -86.457338,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 122
+  },
+  {
+    "type": 1,
+    "icao": "4A6",
+    "lat": 34.688711,
+    "lon": -86.00592499999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 50,
+        "frequency": 12012,
+        "name": "AWOS"
+      }
+    ],
+    "elevation": 649,
+    "tower": false,
+    "name": "SCOTTSBORO MUNI WORD FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 34.682986,
+        "lonStart": -86.011236,
+        "latEnd": 34.694436,
+        "lonEnd": -86.000614,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 143
+  },
+  {
+    "type": 1,
     "icao": "8A0",
     "lat": 34.2291095,
     "lon": -86.2557585,
@@ -39,153 +108,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 186
-  },
-  {
-    "type": 1,
-    "icao": "1M3",
-    "lat": 34.9778625,
-    "lon": -86.88472612000001,
-    "communications": [],
-    "elevation": 919,
-    "tower": false,
-    "name": "Ardmore",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 34.97421573,
-        "lonStart": -86.88551089,
-        "latEnd": 34.98150927,
-        "lonEnd": -86.88394135,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 1160
-  },
-  {
-    "type": 1,
-    "icao": "AL93",
-    "lat": 34.88564333,
-    "lon": -86.70999778000001,
-    "communications": [],
-    "elevation": 830,
-    "tower": false,
-    "name": "Big Sky",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 34.88900297,
-        "lonStart": -86.71006927,
-        "latEnd": 34.88228369,
-        "lonEnd": -86.70992629,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 2705
-  },
-  {
-    "type": 1,
-    "icao": "3M4",
-    "lat": 34.86481027,
-    "lon": -86.77027751,
-    "communications": [],
-    "elevation": 820,
-    "tower": false,
-    "name": "Epps Airpark",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 34.86170377,
-        "lonStart": -86.7709451,
-        "latEnd": 34.86791677,
-        "lonEnd": -86.76960992,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 7232
-  },
-  {
-    "type": 1,
-    "icao": "3A1",
-    "lat": 34.268701,
-    "lon": -86.858039,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12417,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 11805,
-        "name": "HUNTSVILLE APP/DEP"
-      }
-    ],
-    "elevation": 969,
-    "tower": false,
-    "name": "FOLSOM FLD",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 34.261458,
-        "lonStart": -86.860628,
-        "latEnd": 34.275944,
-        "lonEnd": -86.85545,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 7604
-  },
-  {
-    "type": 1,
-    "icao": "AL10",
-    "lat": 34.65120083,
-    "lon": -86.41693167,
-    "communications": [],
-    "elevation": 650,
-    "tower": false,
-    "name": "Frerichs",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 34.65120083,
-        "lonStart": -86.42109968,
-        "latEnd": 34.65120083,
-        "lonEnd": -86.41276366,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9726
+    "id": 272
   },
   {
     "type": 1,
@@ -235,33 +158,103 @@
         "surfacetype": 1
       }
     ],
-    "id": 10224
+    "id": 273
   },
   {
     "type": 1,
-    "icao": "M38",
-    "lat": 34.916125,
-    "lon": -86.647044945,
-    "communications": [],
-    "elevation": 814,
+    "icao": "KCMD",
+    "lat": 34.269119030000006,
+    "lon": -86.85867737666666,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12417,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11805,
+        "name": "HUNTSVILLE APP/DEP"
+      }
+    ],
+    "elevation": 969,
     "tower": false,
-    "name": "Hazel Green",
+    "name": "CULLMAN REGIONAL AIRPORT-FOLSOM FIELD",
     "runways": [
       {
         "type": 100,
-        "width": 12.19,
+        "width": 30.48,
         "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 34.91502099,
-        "lonStart": -86.65126884,
-        "latEnd": 34.91722901,
-        "lonEnd": -86.64282105,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 34.26145832,
+        "lonStart": -86.86062351,
+        "latEnd": 34.27594908,
+        "lonEnd": -86.85544797,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 45.7,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.26994969,
+        "lonStart": -86.85996065,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 22.7
+      }
+    ],
+    "id": 2504
+  },
+  {
+    "type": 1,
+    "icao": "KDCU",
+    "lat": 34.654051499999994,
+    "lon": -86.94536248,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11837,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12307,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11805,
+        "name": "HUNTSVILLE APP/DEP"
+      }
+    ],
+    "elevation": 591,
+    "tower": false,
+    "name": "PRYOR FLD RGNL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 34.66243899,
+        "lonStart": -86.94516314,
+        "latEnd": 34.64566401,
+        "lonEnd": -86.94556182,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 11600
+    "id": 2553
   },
   {
     "type": 1,
@@ -356,227 +349,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 12213
-  },
-  {
-    "type": 1,
-    "icao": "KMDQ",
-    "lat": 34.859384825,
-    "lon": -86.55752152,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12000,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12300,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 12560,
-        "name": "HUNTSVILLE APP/DEP"
-      }
-    ],
-    "elevation": 755,
-    "tower": false,
-    "name": "MADISON CO EXECUTIVE",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 34.86834648,
-        "lonStart": -86.557337,
-        "latEnd": 34.85042317,
-        "lonEnd": -86.55770604,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 15697
-  },
-  {
-    "type": 1,
-    "icao": "M96",
-    "lat": 34.490648050000004,
-    "lon": -86.67332889,
-    "communications": [],
-    "elevation": 630,
-    "tower": false,
-    "name": "Milton-Otto Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 34.49294015,
-        "lonStart": -86.67664308,
-        "latEnd": 34.48835595,
-        "lonEnd": -86.6700147,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 17250
-  },
-  {
-    "type": 1,
-    "icao": "3M5",
-    "lat": 34.747369,
-    "lon": -86.46096642,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12270,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 649,
-    "tower": false,
-    "name": "Moontown",
-    "runways": [
-      {
-        "type": 100,
-        "width": 48.77,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 34.74742,
-        "lonStart": -86.46459484,
-        "latEnd": 34.747318,
-        "lonEnd": -86.457338,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 17457
-  },
-  {
-    "type": 1,
-    "icao": "2AL7",
-    "lat": 34.06277777,
-    "lon": -86.72305556,
-    "communications": [],
-    "elevation": 625,
-    "tower": false,
-    "name": "Mount Aero Lake Farm",
-    "runways": [
-      {
-        "type": 100,
-        "width": 27.43,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 34.0663431,
-        "lonStart": -86.72313068,
-        "latEnd": 34.05921244,
-        "lonEnd": -86.72298044,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 17586
-  },
-  {
-    "type": 1,
-    "icao": "AL29",
-    "lat": 34.129263879999996,
-    "lon": -86.63332667,
-    "communications": [],
-    "elevation": 750,
-    "tower": false,
-    "name": "New Horizon",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 34.13248583,
-        "lonStart": -86.63474335,
-        "latEnd": 34.12604193,
-        "lonEnd": -86.63190999,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 18256
-  },
-  {
-    "type": 1,
-    "icao": "KDCU",
-    "lat": 34.654051499999994,
-    "lon": -86.94536248,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11837,
-        "name": "ASOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12307,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 11805,
-        "name": "HUNTSVILLE APP/DEP"
-      }
-    ],
-    "elevation": 591,
-    "tower": false,
-    "name": "PRYOR FLD RGNL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 34.66243899,
-        "lonStart": -86.94516314,
-        "latEnd": 34.64566401,
-        "lonEnd": -86.94556182,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19573
-  },
-  {
-    "type": 1,
-    "icao": "AL72",
-    "lat": 34.695368880000004,
-    "lon": -86.78611112,
-    "communications": [],
-    "elevation": 680,
-    "tower": false,
-    "name": "Palmer Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 34.69783719,
-        "lonStart": -86.78616352,
-        "latEnd": 34.69290057,
-        "lonEnd": -86.78605872,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 19690
+    "id": 2780
   },
   {
     "type": 1,
@@ -643,7 +416,215 @@
         "surfacetype": 1
       }
     ],
-    "id": 20887
+    "id": 2784
+  },
+  {
+    "type": 1,
+    "icao": "KMDQ",
+    "lat": 34.85999261333333,
+    "lon": -86.55669929999999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12000,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12560,
+        "name": "HUNTSVILLE APP/DEP"
+      }
+    ],
+    "elevation": 754,
+    "tower": false,
+    "name": "MADISON CO EXECUTIVE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 34.86828055,
+        "lonStart": -86.55733825,
+        "latEnd": 34.85042508,
+        "lonEnd": -86.55769022,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 27.7,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.86127221,
+        "lonStart": -86.55506943,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 35.5
+      }
+    ],
+    "id": 2947
+  },
+  {
+    "type": 1,
+    "icao": "M38",
+    "lat": 34.916125,
+    "lon": -86.647044945,
+    "communications": [],
+    "elevation": 814,
+    "tower": false,
+    "name": "Hazel Green",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 34.91502099,
+        "lonStart": -86.65126884,
+        "latEnd": 34.91722901,
+        "lonEnd": -86.64282105,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4078
+  },
+  {
+    "type": 17,
+    "icao": "1AL0",
+    "lat": 34.22083333,
+    "lon": -86.16055556,
+    "communications": [],
+    "elevation": 1000,
+    "tower": false,
+    "name": "[H] Boaz-Albertville Medical Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.22083333,
+        "lonStart": -86.16055556,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 6279
+  },
+  {
+    "type": 17,
+    "icao": "1AL1",
+    "lat": 34.59083333,
+    "lon": -86.97222223,
+    "communications": [],
+    "elevation": 586,
+    "tower": false,
+    "name": "[H] Decatur General Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.5,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.59083333,
+        "lonStart": -86.97222223,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.5
+      }
+    ],
+    "id": 6280
+  },
+  {
+    "type": 1,
+    "icao": "1M3",
+    "lat": 34.9778625,
+    "lon": -86.88472612000001,
+    "communications": [],
+    "elevation": 919,
+    "tower": false,
+    "name": "Ardmore",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 34.97421573,
+        "lonStart": -86.88551089,
+        "latEnd": 34.98150927,
+        "lonEnd": -86.88394135,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6513
+  },
+  {
+    "type": 1,
+    "icao": "2AL7",
+    "lat": 34.06277777,
+    "lon": -86.72305556,
+    "communications": [],
+    "elevation": 625,
+    "tower": false,
+    "name": "Mount Aero Lake Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 34.0663431,
+        "lonStart": -86.72313068,
+        "latEnd": 34.05921244,
+        "lonEnd": -86.72298044,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6873
+  },
+  {
+    "type": 1,
+    "icao": "3M4",
+    "lat": 34.86481027,
+    "lon": -86.77027751,
+    "communications": [],
+    "elevation": 820,
+    "tower": false,
+    "name": "Epps Airpark",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 34.86170377,
+        "lonStart": -86.7709451,
+        "latEnd": 34.86791677,
+        "lonEnd": -86.76960992,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7646
   },
   {
     "type": 1,
@@ -680,44 +661,134 @@
         "surfacetype": 1
       }
     ],
-    "id": 21052
+    "id": 8691
   },
   {
     "type": 1,
-    "icao": "4A6",
-    "lat": 34.688711,
-    "lon": -86.00592499999999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12300,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 50,
-        "frequency": 12012,
-        "name": "AWOS"
-      }
-    ],
-    "elevation": 649,
+    "icao": "AL10",
+    "lat": 34.65120083,
+    "lon": -86.41693167,
+    "communications": [],
+    "elevation": 650,
     "tower": false,
-    "name": "SCOTTSBORO MUNI WORD FLD",
+    "name": "Frerichs",
     "runways": [
       {
         "type": 100,
-        "width": 24.38,
+        "width": 18.29,
         "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 34.682986,
-        "lonStart": -86.011236,
-        "latEnd": 34.694436,
-        "lonEnd": -86.000614,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 34.65120083,
+        "lonStart": -86.42109968,
+        "latEnd": 34.65120083,
+        "lonEnd": -86.41276366,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 22126
+    "id": 14503
+  },
+  {
+    "type": 17,
+    "icao": "AL28",
+    "lat": 34.73731305,
+    "lon": -86.57415862,
+    "communications": [],
+    "elevation": 644,
+    "tower": false,
+    "name": "[H] Humana Ground",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.73731305,
+        "lonStart": -86.57415862,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 14520
+  },
+  {
+    "type": 1,
+    "icao": "AL29",
+    "lat": 34.129263879999996,
+    "lon": -86.63332667,
+    "communications": [],
+    "elevation": 750,
+    "tower": false,
+    "name": "New Horizon",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 34.13248583,
+        "lonStart": -86.63474335,
+        "latEnd": 34.12604193,
+        "lonEnd": -86.63190999,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14521
+  },
+  {
+    "type": 17,
+    "icao": "AL36",
+    "lat": 34.72092416,
+    "lon": -86.58054778,
+    "communications": [],
+    "elevation": 728,
+    "tower": false,
+    "name": "[H] The Huntsville Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.72092416,
+        "lonStart": -86.58054778,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 14528
+  },
+  {
+    "type": 17,
+    "icao": "AL44",
+    "lat": 34.17232083,
+    "lon": -86.84361223,
+    "communications": [],
+    "elevation": 789,
+    "tower": false,
+    "name": "[H] Cullman Medical Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 16.8,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.17232083,
+        "lonStart": -86.84361223,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21.3
+      }
+    ],
+    "id": 14535
   },
   {
     "type": 1,
@@ -743,107 +814,59 @@
         "surfacetype": 3
       }
     ],
-    "id": 27016
+    "id": 14549
   },
   {
-    "type": 17,
-    "icao": "1AL0",
-    "lat": 34.22083333,
-    "lon": -86.16055556,
+    "type": 1,
+    "icao": "AL72",
+    "lat": 34.695368880000004,
+    "lon": -86.78611112,
     "communications": [],
-    "elevation": 1000,
+    "elevation": 680,
     "tower": false,
-    "name": "[H] Boaz-Albertville Medical Center",
+    "name": "Palmer Field",
     "runways": [
       {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 34.22083333,
-        "lonStart": -86.16055556,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 34.69783719,
+        "lonStart": -86.78616352,
+        "latEnd": 34.69290057,
+        "lonEnd": -86.78605872,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 28511
+    "id": 14562
   },
   {
-    "type": 17,
-    "icao": "AL44",
-    "lat": 34.17232083,
-    "lon": -86.84361223,
+    "type": 1,
+    "icao": "AL93",
+    "lat": 34.88564333,
+    "lon": -86.70999778000001,
     "communications": [],
-    "elevation": 789,
+    "elevation": 830,
     "tower": false,
-    "name": "[H] Cullman Medical Center",
+    "name": "Big Sky",
     "runways": [
       {
-        "type": 102,
-        "width": 16.8,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 34.17232083,
-        "lonStart": -86.84361223,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21.3
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 34.88900297,
+        "lonStart": -86.71006927,
+        "latEnd": 34.88228369,
+        "lonEnd": -86.70992629,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 29203
-  },
-  {
-    "type": 17,
-    "icao": "1AL1",
-    "lat": 34.59083333,
-    "lon": -86.97222223,
-    "communications": [],
-    "elevation": 586,
-    "tower": false,
-    "name": "[H] Decatur General Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.5,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 34.59083333,
-        "lonStart": -86.97222223,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.5
-      }
-    ],
-    "id": 29293
-  },
-  {
-    "type": 17,
-    "icao": "AL28",
-    "lat": 34.73731305,
-    "lon": -86.57415862,
-    "communications": [],
-    "elevation": 644,
-    "tower": false,
-    "name": "[H] Humana Ground",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 34.73731305,
-        "lonStart": -86.57415862,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 30414
+    "id": 14583
   },
   {
     "type": 17,
@@ -868,31 +891,32 @@
         "length": 27.4
       }
     ],
-    "id": 30431
+    "id": 21023
   },
   {
-    "type": 17,
-    "icao": "AL36",
-    "lat": 34.72092416,
-    "lon": -86.58054778,
+    "type": 1,
+    "icao": "M96",
+    "lat": 34.490648050000004,
+    "lon": -86.67332889,
     "communications": [],
-    "elevation": 728,
+    "elevation": 630,
     "tower": false,
-    "name": "[H] The Huntsville Hospital",
+    "name": "Milton-Otto Field",
     "runways": [
       {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 34.72092416,
-        "lonStart": -86.58054778,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 34.49294015,
+        "lonStart": -86.67664308,
+        "latEnd": 34.48835595,
+        "lonEnd": -86.6700147,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 33295
+    "id": 21027
   }
 ]

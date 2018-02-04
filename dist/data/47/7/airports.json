@@ -1,199 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "LFSB",
-    "lat": 47.60023788888889,
-    "lon": 7.524219222222222,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12125,
-        "name": "BALE FSS"
-      },
-      {
-        "type": 50,
-        "frequency": 12787,
-        "name": "LFSB ATIS"
-      },
-      {
-        "type": 53,
-        "frequency": 12160,
-        "name": "BALE GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11830,
-        "name": "BALE TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11857,
-        "name": "BALE APP"
-      },
-      {
-        "type": 55,
-        "frequency": 11935,
-        "name": "BALE APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12125,
-        "name": "BALE APP"
-      }
-    ],
-    "elevation": 884,
-    "tower": true,
-    "name": "Bale-Mulhouse",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 47.617704,
-        "lonStart": 7.509856,
-        "latEnd": 47.585942,
-        "lonEnd": 7.531954,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 58.83,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 47.587951,
-        "lonStart": 7.516919,
-        "latEnd": 47.591645,
-        "lonEnd": 7.540493,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 102,
-        "width": 10.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 47.602568,
-        "lonStart": 7.524155,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 14.9
-      },
-      {
-        "type": 102,
-        "width": 10.1,
-        "surfaceType": 2,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 47.602442,
-        "lonStart": 7.524237,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 14.9
-      },
-      {
-        "type": 102,
-        "width": 10.1,
-        "surfaceType": 2,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 47.602493,
-        "lonStart": 7.524405,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 14.9
-      },
-      {
-        "type": 102,
-        "width": 7.6,
-        "surfaceType": 5,
-        "numberStart": "H4",
-        "numberEnd": null,
-        "latStart": 47.605512,
-        "lonStart": 7.522937,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 7.6
-      },
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 5,
-        "numberStart": "H5",
-        "numberEnd": null,
-        "latStart": 47.605884,
-        "lonStart": 7.523017,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 2128
-  },
-  {
-    "type": 1,
-    "icao": "LFSQ",
-    "lat": 47.65,
-    "lon": 7.016667,
-    "communications": [],
-    "elevation": 1207,
-    "tower": true,
-    "name": "Belfort Fontaine",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 47.6402103,
-        "lonStart": 7.00447307,
-        "latEnd": 47.6597897,
-        "lonEnd": 7.02886093,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 2485
-  },
-  {
-    "type": 1,
-    "icao": "LSZP",
-    "lat": 47.088299,
-    "lon": 7.289999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12315,
-        "name": "AFIS"
-      }
-    ],
-    "elevation": 1437,
-    "tower": false,
-    "name": "Biel-Kappelen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 47.08608373,
-        "lonStart": 7.28642335,
-        "latEnd": 47.09051427,
-        "lonEnd": 7.29357465,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 2678
-  },
-  {
-    "type": 1,
     "icao": "EDTG",
     "lat": 47.902787405,
     "lon": 7.618272245,
@@ -235,65 +42,109 @@
         "surfacetype": 3
       }
     ],
-    "id": 3159
+    "id": 1345
   },
   {
     "type": 1,
-    "icao": "LSZQ",
-    "lat": 47.39240616,
-    "lon": 7.028976715,
-    "communications": [],
-    "elevation": 1870,
-    "tower": false,
-    "name": "Bressaucourt",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 47.39118062,
-        "lonStart": 7.02397811,
-        "latEnd": 47.3936317,
-        "lonEnd": 7.03397532,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 3166
-  },
-  {
-    "type": 1,
-    "icao": "LSZJ",
-    "lat": 47.1833,
-    "lon": 7.090199999999999,
+    "icao": "EDTR",
+    "lat": 47.560277924999994,
+    "lon": 7.748723215,
     "communications": [
       {
-        "type": 51,
-        "frequency": 12460,
-        "name": "AFIS"
+        "type": 54,
+        "frequency": 12325,
+        "name": "Rheinfelden Info"
       }
     ],
-    "elevation": 2247,
-    "tower": false,
-    "name": "Courtelary",
+    "elevation": 925,
+    "tower": true,
+    "name": "Rheinfelden-Herten",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 30,
         "surfaceType": null,
         "numberStart": "06",
         "numberEnd": "24",
-        "latStart": 47.18264956,
-        "lonStart": 7.08401808,
-        "latEnd": 47.18395044,
-        "lonEnd": 7.09638192,
+        "latStart": 47.55864122,
+        "lonStart": 7.74435873,
+        "latEnd": 47.56191463,
+        "lonEnd": 7.7530877,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 5415
+    "id": 1354
+  },
+  {
+    "type": 1,
+    "icao": "LFSB",
+    "lat": 47.595799604999996,
+    "lon": 7.524800235,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12787,
+        "name": "LFSB ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12160,
+        "name": "BALE GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "BALE TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11857,
+        "name": "BALE APP"
+      },
+      {
+        "type": 55,
+        "frequency": 11935,
+        "name": "BALE APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12125,
+        "name": "BALE APP"
+      }
+    ],
+    "elevation": 883,
+    "tower": true,
+    "name": "Bale-Mulhouse",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 47.617704,
+        "lonStart": 7.509856,
+        "latEnd": 47.58592717,
+        "lonEnd": 7.531964,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 47.58793212,
+        "lonStart": 7.51688501,
+        "latEnd": 47.59163513,
+        "lonEnd": 7.54049593,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 3687
   },
   {
     "type": 1,
@@ -319,58 +170,52 @@
         "surfacetype": 3
       }
     ],
-    "id": 6312
+    "id": 3950
   },
   {
     "type": 1,
-    "icao": "LSZI",
-    "lat": 47.50891658,
-    "lon": 7.9498612600000005,
-    "communications": [],
-    "elevation": 1772,
-    "tower": false,
-    "name": "Fricktal-Schupfart",
+    "icao": "LSPL",
+    "lat": 47.1829414125,
+    "lon": 7.74166713,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 11940,
+        "name": "AFIS"
+      }
+    ],
+    "elevation": 1544,
+    "tower": true,
+    "name": "Langenthal",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 18,
         "surfaceType": null,
-        "numberStart": "07L",
-        "numberEnd": "25R",
-        "latStart": 47.50854161,
-        "lonStart": 7.94637747,
-        "latEnd": 47.50980801,
-        "lonEnd": 7.95318052,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 47.18139086,
+        "lonStart": 7.73852741,
+        "latEnd": 47.18461598,
+        "lonEnd": 7.74462559,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 29.87,
+        "width": 19,
         "surfaceType": null,
-        "numberStart": "07R",
-        "numberEnd": "25L",
-        "latStart": 47.50828249,
-        "lonStart": 7.94648332,
-        "latEnd": 47.50954889,
-        "lonEnd": 7.95328624,
+        "numberStart": "05L",
+        "numberEnd": "23R",
+        "latStart": 47.18194902,
+        "lonStart": 7.73999914,
+        "latEnd": 47.18380979,
+        "lonEnd": 7.74351638,
         "length": 0,
         "surfacetype": 3
-      },
-      {
-        "type": 102,
-        "width": 8,
-        "surfaceType": 3,
-        "numberStart": "H",
-        "numberEnd": null,
-        "latStart": 47.5084019,
-        "lonStart": 7.94997875,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 8
       }
     ],
-    "id": 9731
+    "id": 3954
   },
   {
     "type": 1,
@@ -480,7 +325,142 @@
         "length": 7.5
       }
     ],
-    "id": 10794
+    "id": 3972
+  },
+  {
+    "type": 1,
+    "icao": "LSZI",
+    "lat": 47.50891658,
+    "lon": 7.9498612600000005,
+    "communications": [],
+    "elevation": 1772,
+    "tower": false,
+    "name": "Fricktal-Schupfart",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "07L",
+        "numberEnd": "25R",
+        "latStart": 47.50854161,
+        "lonStart": 7.94637747,
+        "latEnd": 47.50980801,
+        "lonEnd": 7.95318052,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "07R",
+        "numberEnd": "25L",
+        "latStart": 47.50828249,
+        "lonStart": 7.94648332,
+        "latEnd": 47.50954889,
+        "lonEnd": 7.95328624,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 8,
+        "surfaceType": 3,
+        "numberStart": "H",
+        "numberEnd": null,
+        "latStart": 47.5084019,
+        "lonStart": 7.94997875,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 8
+      }
+    ],
+    "id": 3974
+  },
+  {
+    "type": 1,
+    "icao": "LSZJ",
+    "lat": 47.183388315,
+    "lon": 7.0908563000000004,
+    "communications": [],
+    "elevation": 2247,
+    "tower": false,
+    "name": "Courtelary",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 47.18227817,
+        "lonStart": 7.08756211,
+        "latEnd": 47.18449846,
+        "lonEnd": 7.09415049,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3975
+  },
+  {
+    "type": 1,
+    "icao": "LSZQ",
+    "lat": 47.39240616,
+    "lon": 7.028976715,
+    "communications": [],
+    "elevation": 1870,
+    "tower": false,
+    "name": "Bressaucourt",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 47.39118062,
+        "lonStart": 7.02397811,
+        "latEnd": 47.3936317,
+        "lonEnd": 7.03397532,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3980
+  },
+  {
+    "type": 1,
+    "icao": "LSZY",
+    "lat": 47.409992,
+    "lon": 7.051602,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12205,
+        "name": "AFIS"
+      }
+    ],
+    "elevation": 1426,
+    "tower": true,
+    "name": "Porrentruy",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 47.40893245,
+        "lonStart": 7.04899631,
+        "latEnd": 47.41105155,
+        "lonEnd": 7.05420769,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3987
   },
   {
     "type": 1,
@@ -517,52 +497,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 11278
-  },
-  {
-    "type": 1,
-    "icao": "LSPL",
-    "lat": 47.1829414125,
-    "lon": 7.74166713,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 11940,
-        "name": "AFIS"
-      }
-    ],
-    "elevation": 1544,
-    "tower": true,
-    "name": "Langenthal",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 47.18139086,
-        "lonStart": 7.73852741,
-        "latEnd": 47.18461598,
-        "lonEnd": 7.74462559,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 19,
-        "surfaceType": null,
-        "numberStart": "05L",
-        "numberEnd": "23R",
-        "latStart": 47.18194902,
-        "lonStart": 7.73999914,
-        "latEnd": 47.18380979,
-        "lonEnd": 7.74351638,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 14929
+    "id": 20282
   },
   {
     "type": 1,
@@ -616,7 +551,33 @@
         "length": 24.99
       }
     ],
-    "id": 17120
+    "id": 20452
+  },
+  {
+    "type": 1,
+    "icao": "LFSQ",
+    "lat": 47.65,
+    "lon": 7.016667,
+    "communications": [],
+    "elevation": 1207,
+    "tower": true,
+    "name": "Belfort Fontaine",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 47.6402103,
+        "lonStart": 7.00447307,
+        "latEnd": 47.6597897,
+        "lonEnd": 7.02886093,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 20460
   },
   {
     "type": 1,
@@ -642,71 +603,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 18936
-  },
-  {
-    "type": 1,
-    "icao": "LSZY",
-    "lat": 47.409992,
-    "lon": 7.051602,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12205,
-        "name": "AFIS"
-      }
-    ],
-    "elevation": 1427,
-    "tower": true,
-    "name": "Porrentruy",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 47.40893245,
-        "lonStart": 7.04899631,
-        "latEnd": 47.41105155,
-        "lonEnd": 7.05420769,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 20371
-  },
-  {
-    "type": 1,
-    "icao": "EDTR",
-    "lat": 47.560277924999994,
-    "lon": 7.748723215,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12325,
-        "name": "Rheinfelden Info"
-      }
-    ],
-    "elevation": 925,
-    "tower": true,
-    "name": "Rheinfelden-Herten",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 47.55864122,
-        "lonStart": 7.74435873,
-        "latEnd": 47.56191463,
-        "lonEnd": 7.7530877,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 21407
+    "id": 20889
   },
   {
     "type": 17,
@@ -731,6 +628,38 @@
         "length": 25
       }
     ],
-    "id": 31995
+    "id": 20896
+  },
+  {
+    "type": 1,
+    "icao": "LSZP",
+    "lat": 47.088299,
+    "lon": 7.289999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12315,
+        "name": "AFIS"
+      }
+    ],
+    "elevation": 1437,
+    "tower": false,
+    "name": "Biel-Kappelen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 47.08608373,
+        "lonStart": 7.28642335,
+        "latEnd": 47.09051427,
+        "lonEnd": 7.29357465,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20903
   }
 ]

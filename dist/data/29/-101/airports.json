@@ -1,6 +1,115 @@
 [
   {
     "type": 1,
+    "icao": "KDLF",
+    "lat": 29.35749462555556,
+    "lon": -100.77818487666667,
+    "communications": [
+      {
+        "type": 52,
+        "frequency": 12050,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 54,
+        "frequency": 12520,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11960,
+        "name": "DEL RIO APP"
+      },
+      {
+        "type": 56,
+        "frequency": 11960,
+        "name": "DEL RIO DEP"
+      }
+    ],
+    "elevation": 1081,
+    "tower": true,
+    "name": "Laughlin AFB",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "13R",
+        "numberEnd": "31L",
+        "latStart": 29.36611578,
+        "lonStart": -100.78865378,
+        "latEnd": 29.35288778,
+        "lonEnd": -100.77378522,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "13C",
+        "numberEnd": "31C",
+        "latStart": 29.367453,
+        "lonStart": -100.787908,
+        "latEnd": 29.350108,
+        "lonEnd": -100.768411,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "13L",
+        "numberEnd": "31R",
+        "latStart": 29.368222,
+        "lonStart": -100.784369,
+        "latEnd": 29.351928,
+        "lonEnd": -100.766053,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 29.35250777,
+        "lonStart": -100.77695786,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      },
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 29.35363306,
+        "lonStart": -100.7782117,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      },
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 1,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 29.35459624,
+        "lonStart": -100.77931433,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 2568
+  },
+  {
+    "type": 1,
     "icao": "0XS7",
     "lat": 29.191806,
     "lon": -100.275139,
@@ -23,7 +132,280 @@
         "surfacetype": 1
       }
     ],
-    "id": 287
+    "id": 6255
+  },
+  {
+    "type": 1,
+    "icao": "0XS8",
+    "lat": 29.07607555,
+    "lon": -100.37535251,
+    "communications": [],
+    "elevation": 958,
+    "tower": false,
+    "name": "Dunbar Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 29.07877755,
+        "lonStart": -100.3793096,
+        "latEnd": 29.07337355,
+        "lonEnd": -100.37139542,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 6256
+  },
+  {
+    "type": 1,
+    "icao": "1XS8",
+    "lat": 29.634083,
+    "lon": -100.374361,
+    "communications": [],
+    "elevation": 1640,
+    "tower": false,
+    "name": "PINON RANCH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 29.639897,
+        "lonStart": -100.376783,
+        "latEnd": 29.628269,
+        "lonEnd": -100.371939,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 6843
+  },
+  {
+    "type": 1,
+    "icao": "2TX3",
+    "lat": 29.216903000000002,
+    "lon": -100.6170275,
+    "communications": [],
+    "elevation": 1020,
+    "tower": false,
+    "name": "LA FONDA RANCH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 29.224114,
+        "lonStart": -100.616072,
+        "latEnd": 29.209692,
+        "lonEnd": -100.617983,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 7343
+  },
+  {
+    "type": 1,
+    "icao": "3TA6",
+    "lat": 29.541894499999998,
+    "lon": -100.2531305,
+    "communications": [],
+    "elevation": 1440,
+    "tower": false,
+    "name": "SPRING RANCH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 10.97,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 29.546992,
+        "lonStart": -100.256494,
+        "latEnd": 29.536797,
+        "lonEnd": -100.249767,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 7865
+  },
+  {
+    "type": 1,
+    "icao": "4T1",
+    "lat": 29.54189361,
+    "lon": -100.61703250000001,
+    "communications": [],
+    "elevation": 1290,
+    "tower": false,
+    "name": "Horn Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 29.53935061,
+        "lonStart": -100.61858669,
+        "latEnd": 29.54443661,
+        "lonEnd": -100.61547831,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 29.54456402,
+        "lonStart": -100.61827264,
+        "latEnd": 29.5392232,
+        "lonEnd": -100.61579236,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 29.54436079,
+        "lonStart": -100.61713153,
+        "latEnd": 29.53942643,
+        "lonEnd": -100.61693347,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 29.54321859,
+        "lonStart": -100.61840379,
+        "latEnd": 29.54056863,
+        "lonEnd": -100.61566121,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 8360
+  },
+  {
+    "type": 1,
+    "icao": "4T3",
+    "lat": 29.74077055,
+    "lon": -100.96510028,
+    "communications": [],
+    "elevation": 1680,
+    "tower": false,
+    "name": "Devils River Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 29.74464357,
+        "lonStart": -100.9691166,
+        "latEnd": 29.73689753,
+        "lonEnd": -100.96108396,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 8362
+  },
+  {
+    "type": 1,
+    "icao": "4T4",
+    "lat": 29.91743,
+    "lon": -100.91287889,
+    "communications": [],
+    "elevation": 1945,
+    "tower": false,
+    "name": "Rnk Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 29.92346088,
+        "lonStart": -100.91312187,
+        "latEnd": 29.91139912,
+        "lonEnd": -100.91263591,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 8363
+  },
+  {
+    "type": 1,
+    "icao": "5XS8",
+    "lat": 29.51689583,
+    "lon": -100.31702222999999,
+    "communications": [],
+    "elevation": 1390,
+    "tower": false,
+    "name": "L Davis Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 29.52090144,
+        "lonStart": -100.31888198,
+        "latEnd": 29.51289022,
+        "lonEnd": -100.31516248,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 8986
+  },
+  {
+    "type": 1,
+    "icao": "8TX2",
+    "lat": 29.97854416,
+    "lon": -100.20174667,
+    "communications": [],
+    "elevation": 2379,
+    "tower": false,
+    "name": "Freeman Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 6.1,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 29.97579104,
+        "lonStart": -100.20527657,
+        "latEnd": 29.98129728,
+        "lonEnd": -100.19821677,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 10361
   },
   {
     "type": 1,
@@ -49,7 +431,169 @@
         "surfacetype": 4
       }
     ],
-    "id": 2615
+    "id": 11454
+  },
+  {
+    "type": 1,
+    "icao": "50XS",
+    "lat": 29.043297000000003,
+    "lon": -100.584528,
+    "communications": [],
+    "elevation": 905,
+    "tower": false,
+    "name": "HUGHES RANCH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 29.047906,
+        "lonStart": -100.589475,
+        "latEnd": 29.038688,
+        "lonEnd": -100.579581,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12508
+  },
+  {
+    "type": 1,
+    "icao": "55XS",
+    "lat": 29.16635,
+    "lon": -100.41841099999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "UNICOM"
+      }
+    ],
+    "elevation": 1001,
+    "tower": false,
+    "name": "FRONTIER",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 29.160671,
+        "lonStart": -100.420374,
+        "latEnd": 29.172029,
+        "lonEnd": -100.416448,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12706
+  },
+  {
+    "type": 1,
+    "icao": "73TX",
+    "lat": 29.171904159999997,
+    "lon": -100.64202917,
+    "communications": [],
+    "elevation": 995,
+    "tower": false,
+    "name": "Frerich Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 29.17283134,
+        "lonStart": -100.64402625,
+        "latEnd": 29.17097698,
+        "lonEnd": -100.64003209,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 35.05,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 29.17027664,
+        "lonStart": -100.64302025,
+        "latEnd": 29.17353168,
+        "lonEnd": -100.64103809,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13412
+  },
+  {
+    "type": 1,
+    "icao": "74TX",
+    "lat": 29.28662416,
+    "lon": -100.43368945,
+    "communications": [],
+    "elevation": 1106,
+    "tower": false,
+    "name": "Fort Clark Springs",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 29.29416276,
+        "lonStart": -100.43399128,
+        "latEnd": 29.27908556,
+        "lonEnd": -100.43338762,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 29.29192683,
+        "lonStart": -100.43614583,
+        "latEnd": 29.28132149,
+        "lonEnd": -100.43123307,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13460
+  },
+  {
+    "type": 1,
+    "icao": "75TX",
+    "lat": 29.5002305,
+    "lon": -100.3670255,
+    "communications": [],
+    "elevation": 1720,
+    "tower": false,
+    "name": "LEONA RANCH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 29.505104,
+        "lonStart": -100.370711,
+        "latEnd": 29.495357,
+        "lonEnd": -100.36334,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 13506
   },
   {
     "type": 1,
@@ -125,59 +669,7 @@
         "length": 13.72
       }
     ],
-    "id": 6155
-  },
-  {
-    "type": 1,
-    "icao": "4T3",
-    "lat": 29.74077055,
-    "lon": -100.96510028,
-    "communications": [],
-    "elevation": 1680,
-    "tower": false,
-    "name": "Devils River Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 29.74464357,
-        "lonStart": -100.9691166,
-        "latEnd": 29.73689753,
-        "lonEnd": -100.96108396,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 6226
-  },
-  {
-    "type": 1,
-    "icao": "0XS8",
-    "lat": 29.07607555,
-    "lon": -100.37535251,
-    "communications": [],
-    "elevation": 958,
-    "tower": false,
-    "name": "Dunbar Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 29.07877755,
-        "lonStart": -100.3793096,
-        "latEnd": 29.07337355,
-        "lonEnd": -100.37139542,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 6552
+    "id": 19044
   },
   {
     "type": 1,
@@ -224,338 +716,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 6660
-  },
-  {
-    "type": 1,
-    "icao": "55XS",
-    "lat": 29.16635,
-    "lon": -100.41841099999999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12270,
-        "name": "UNICOM"
-      }
-    ],
-    "elevation": 1001,
-    "tower": false,
-    "name": "FRONTIER",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 29.160671,
-        "lonStart": -100.420374,
-        "latEnd": 29.172029,
-        "lonEnd": -100.416448,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 7720
-  },
-  {
-    "type": 1,
-    "icao": "TA29",
-    "lat": 29.925763609999997,
-    "lon": -100.84009945,
-    "communications": [],
-    "elevation": 1630,
-    "tower": false,
-    "name": "Flying D Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 29.92320706,
-        "lonStart": -100.84105791,
-        "latEnd": 29.92832016,
-        "lonEnd": -100.83914099,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9426
-  },
-  {
-    "type": 1,
-    "icao": "74TX",
-    "lat": 29.28662416,
-    "lon": -100.43368945,
-    "communications": [],
-    "elevation": 1106,
-    "tower": false,
-    "name": "Fort Clark Springs",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 29.29416276,
-        "lonStart": -100.43399128,
-        "latEnd": 29.27908556,
-        "lonEnd": -100.43338762,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 29.29192683,
-        "lonStart": -100.43614583,
-        "latEnd": 29.28132149,
-        "lonEnd": -100.43123307,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9597
-  },
-  {
-    "type": 1,
-    "icao": "8TX2",
-    "lat": 29.97854416,
-    "lon": -100.20174667,
-    "communications": [],
-    "elevation": 2379,
-    "tower": false,
-    "name": "Freeman Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 6.1,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 29.97579104,
-        "lonStart": -100.20527657,
-        "latEnd": 29.98129728,
-        "lonEnd": -100.19821677,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 9715
-  },
-  {
-    "type": 1,
-    "icao": "73TX",
-    "lat": 29.171904159999997,
-    "lon": -100.64202917,
-    "communications": [],
-    "elevation": 995,
-    "tower": false,
-    "name": "Frerich Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 27.43,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 29.17283134,
-        "lonStart": -100.64402625,
-        "latEnd": 29.17097698,
-        "lonEnd": -100.64003209,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 35.05,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 29.17027664,
-        "lonStart": -100.64302025,
-        "latEnd": 29.17353168,
-        "lonEnd": -100.64103809,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9725
-  },
-  {
-    "type": 1,
-    "icao": "50XS",
-    "lat": 29.043297000000003,
-    "lon": -100.584528,
-    "communications": [],
-    "elevation": 905,
-    "tower": false,
-    "name": "HUGHES RANCH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 29.047906,
-        "lonStart": -100.589475,
-        "latEnd": 29.038688,
-        "lonEnd": -100.579581,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 11233
-  },
-  {
-    "type": 1,
-    "icao": "XS69",
-    "lat": 29.91132638,
-    "lon": -100.00034916999999,
-    "communications": [],
-    "elevation": 1829,
-    "tower": false,
-    "name": "Hackberry Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 29.90963104,
-        "lonStart": -100.00138912,
-        "latEnd": 29.91302172,
-        "lonEnd": -99.99930922,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11281
-  },
-  {
-    "type": 1,
-    "icao": "4T1",
-    "lat": 29.54189361,
-    "lon": -100.61703250000001,
-    "communications": [],
-    "elevation": 1290,
-    "tower": false,
-    "name": "Horn Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 29.53935061,
-        "lonStart": -100.61858669,
-        "latEnd": 29.54443661,
-        "lonEnd": -100.61547831,
-        "length": 0,
-        "surfacetype": 4
-      },
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 29.54456402,
-        "lonStart": -100.61827264,
-        "latEnd": 29.5392232,
-        "lonEnd": -100.61579236,
-        "length": 0,
-        "surfacetype": 4
-      },
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 29.54436079,
-        "lonStart": -100.61713153,
-        "latEnd": 29.53942643,
-        "lonEnd": -100.61693347,
-        "length": 0,
-        "surfacetype": 4
-      },
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 29.54321859,
-        "lonStart": -100.61840379,
-        "latEnd": 29.54056863,
-        "lonEnd": -100.61566121,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 12054
-  },
-  {
-    "type": 1,
-    "icao": "5XS8",
-    "lat": 29.51689583,
-    "lon": -100.31702222999999,
-    "communications": [],
-    "elevation": 1390,
-    "tower": false,
-    "name": "L Davis Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 29.52090144,
-        "lonStart": -100.31888198,
-        "latEnd": 29.51289022,
-        "lonEnd": -100.31516248,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 14239
-  },
-  {
-    "type": 1,
-    "icao": "2TX3",
-    "lat": 29.216903000000002,
-    "lon": -100.6170275,
-    "communications": [],
-    "elevation": 1020,
-    "tower": false,
-    "name": "LA FONDA RANCH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 29.224114,
-        "lonStart": -100.616072,
-        "latEnd": 29.209692,
-        "lonEnd": -100.617983,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 14266
+    "id": 19069
   },
   {
     "type": 1,
@@ -587,210 +748,59 @@
         "surfacetype": 1
       }
     ],
-    "id": 14419
+    "id": 29713
   },
   {
     "type": 1,
-    "icao": "75TX",
-    "lat": 29.5002305,
-    "lon": -100.3670255,
+    "icao": "TA29",
+    "lat": 29.925763609999997,
+    "lon": -100.84009945,
     "communications": [],
-    "elevation": 1720,
+    "elevation": 1630,
     "tower": false,
-    "name": "LEONA RANCH",
+    "name": "Flying D Ranch",
     "runways": [
       {
         "type": 100,
         "width": 15.24,
         "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 29.505104,
-        "lonStart": -100.370711,
-        "latEnd": 29.495357,
-        "lonEnd": -100.36334,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 29.92320706,
+        "lonStart": -100.84105791,
+        "latEnd": 29.92832016,
+        "lonEnd": -100.83914099,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 14492
+    "id": 29754
   },
   {
     "type": 1,
-    "icao": "KDLF",
-    "lat": 29.359521333333337,
-    "lon": -100.77825766666666,
-    "communications": [
-      {
-        "type": 52,
-        "frequency": 12050,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 54,
-        "frequency": 12520,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11960,
-        "name": "DEL RIO APP"
-      },
-      {
-        "type": 56,
-        "frequency": 11960,
-        "name": "DEL RIO DEP"
-      }
-    ],
-    "elevation": 1081,
-    "tower": true,
-    "name": "Laughlin AFB",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "13C",
-        "numberEnd": "31C",
-        "latStart": 29.367453,
-        "lonStart": -100.787908,
-        "latEnd": 29.350108,
-        "lonEnd": -100.768411,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "13L",
-        "numberEnd": "31R",
-        "latStart": 29.368222,
-        "lonStart": -100.784369,
-        "latEnd": 29.351928,
-        "lonEnd": -100.766053,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "13R",
-        "numberEnd": "31L",
-        "latStart": 29.365817,
-        "lonStart": -100.788269,
-        "latEnd": 29.3536,
-        "lonEnd": -100.774536,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 15011
-  },
-  {
-    "type": 1,
-    "icao": "1XS8",
-    "lat": 29.634083,
-    "lon": -100.374361,
+    "icao": "TA31",
+    "lat": 29.430509999999998,
+    "lon": -100.25757417,
     "communications": [],
-    "elevation": 1640,
+    "elevation": 1397,
     "tower": false,
-    "name": "PINON RANCH",
+    "name": "Tularosa",
     "runways": [
       {
         "type": 100,
-        "width": 15.24,
+        "width": 18.29,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 29.639897,
-        "lonStart": -100.376783,
-        "latEnd": 29.628269,
-        "lonEnd": -100.371939,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 29.42555341,
+        "lonStart": -100.25942329,
+        "latEnd": 29.43546659,
+        "lonEnd": -100.25572505,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 19405
-  },
-  {
-    "type": 1,
-    "icao": "TS04",
-    "lat": 29.8357665,
-    "lon": -100.9781475,
-    "communications": [],
-    "elevation": 1774,
-    "tower": false,
-    "name": "RIO VISTA RANCH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 29.839397,
-        "lonStart": -100.980553,
-        "latEnd": 29.832136,
-        "lonEnd": -100.975742,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 20954
-  },
-  {
-    "type": 1,
-    "icao": "4T4",
-    "lat": 29.91743,
-    "lon": -100.91287889,
-    "communications": [],
-    "elevation": 1945,
-    "tower": false,
-    "name": "Rnk Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 29.92346088,
-        "lonStart": -100.91312187,
-        "latEnd": 29.91139912,
-        "lonEnd": -100.91263591,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 21556
-  },
-  {
-    "type": 1,
-    "icao": "3TA6",
-    "lat": 29.541894499999998,
-    "lon": -100.2531305,
-    "communications": [],
-    "elevation": 1440,
-    "tower": false,
-    "name": "SPRING RANCH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 10.97,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 29.546992,
-        "lonStart": -100.256494,
-        "latEnd": 29.536797,
-        "lonEnd": -100.249767,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22432
+    "id": 29756
   },
   {
     "type": 1,
@@ -822,32 +832,58 @@
         "surfacetype": 1
       }
     ],
-    "id": 24936
+    "id": 29801
   },
   {
     "type": 1,
-    "icao": "TA31",
-    "lat": 29.430509999999998,
-    "lon": -100.25757417,
+    "icao": "TS04",
+    "lat": 29.8357665,
+    "lon": -100.9781475,
     "communications": [],
-    "elevation": 1397,
+    "elevation": 1774,
     "tower": false,
-    "name": "Tularosa",
+    "name": "RIO VISTA RANCH",
     "runways": [
       {
         "type": 100,
-        "width": 18.29,
+        "width": 15.24,
         "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 29.42555341,
-        "lonStart": -100.25942329,
-        "latEnd": 29.43546659,
-        "lonEnd": -100.25572505,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 29.839397,
+        "lonStart": -100.980553,
+        "latEnd": 29.832136,
+        "lonEnd": -100.975742,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 29985
+  },
+  {
+    "type": 1,
+    "icao": "XS69",
+    "lat": 29.91132638,
+    "lon": -100.00034916999999,
+    "communications": [],
+    "elevation": 1829,
+    "tower": false,
+    "name": "Hackberry Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 29.90963104,
+        "lonStart": -100.00138912,
+        "latEnd": 29.91302172,
+        "lonEnd": -99.99930922,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 25677
+    "id": 32499
   }
 ]

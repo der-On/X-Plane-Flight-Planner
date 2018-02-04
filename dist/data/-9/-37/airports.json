@@ -1,5 +1,55 @@
 [
   {
+    "type": 17,
+    "icao": "SINY",
+    "lat": -8.16,
+    "lon": -36.19694444,
+    "communications": [],
+    "elevation": 470,
+    "tower": false,
+    "name": "[H] Fazenda Nova",
+    "runways": [
+      {
+        "type": 102,
+        "width": 22,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -8.16,
+        "lonStart": -36.19694444,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 22
+      }
+    ],
+    "id": 26415
+  },
+  {
+    "type": 17,
+    "icao": "SJSG",
+    "lat": -8.97805556,
+    "lon": -36.07027778,
+    "communications": [],
+    "elevation": 356,
+    "tower": false,
+    "name": "[H] Usina Serra Grande",
+    "runways": [
+      {
+        "type": 102,
+        "width": 19.5,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -8.97805556,
+        "lonStart": -36.07027778,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19.5
+      }
+    ],
+    "id": 27181
+  },
+  {
     "type": 1,
     "icao": "SNBJ",
     "lat": -8.345273500000001,
@@ -13,8 +63,8 @@
         "type": 100,
         "width": 29.87,
         "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
+        "numberStart": "10",
+        "numberEnd": "28",
         "latStart": -8.345808,
         "lonStart": -36.446372,
         "latEnd": -8.344739,
@@ -23,33 +73,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 2523
-  },
-  {
-    "type": 1,
-    "icao": "SNRU",
-    "lat": -8.282392000000002,
-    "lon": -36.013501500000004,
-    "communications": [],
-    "elevation": 1891,
-    "tower": true,
-    "name": "Caruaru",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": -8.280328,
-        "lonStart": -36.021353,
-        "latEnd": -8.284456,
-        "lonEnd": -36.00565,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 4599
+    "id": 27608
   },
   {
     "type": 1,
@@ -75,7 +99,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 10296
+    "id": 27730
   },
   {
     "type": 1,
@@ -101,56 +125,32 @@
         "surfacetype": 2
       }
     ],
-    "id": 19999
+    "id": 27952
   },
   {
-    "type": 17,
-    "icao": "SINY",
-    "lat": -8.16,
-    "lon": -36.19694444,
+    "type": 1,
+    "icao": "SNRU",
+    "lat": -8.282392000000002,
+    "lon": -36.013501500000004,
     "communications": [],
-    "elevation": 470,
-    "tower": false,
-    "name": "[H] Fazenda Nova",
+    "elevation": 1891,
+    "tower": true,
+    "name": "Caruaru",
     "runways": [
       {
-        "type": 102,
-        "width": 22,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -8.16,
-        "lonStart": -36.19694444,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 22
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -8.280328,
+        "lonStart": -36.021353,
+        "latEnd": -8.284456,
+        "lonEnd": -36.00565,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "id": 29683
-  },
-  {
-    "type": 17,
-    "icao": "SJSG",
-    "lat": -8.97805556,
-    "lon": -36.07027778,
-    "communications": [],
-    "elevation": 356,
-    "tower": false,
-    "name": "[H] Usina Serra Grande",
-    "runways": [
-      {
-        "type": 102,
-        "width": 19.5,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -8.97805556,
-        "lonStart": -36.07027778,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.5
-      }
-    ],
-    "id": 33537
+    "id": 28005
   }
 ]

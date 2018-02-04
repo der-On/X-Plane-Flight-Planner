@@ -1,6 +1,70 @@
 [
   {
     "type": 1,
+    "icao": "LKCR",
+    "lat": 49.93553333,
+    "lon": 15.78006858,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12280,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 977,
+    "tower": true,
+    "name": "Chrudim",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.08,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 49.93354188,
+        "lonStart": 15.77394351,
+        "latEnd": 49.93752478,
+        "lonEnd": 15.78619365,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20572
+  },
+  {
+    "type": 1,
+    "icao": "LKCT",
+    "lat": 49.68514259,
+    "lon": 15.67624209,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12220,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 1944,
+    "tower": true,
+    "name": "Chotebor",
+    "runways": [
+      {
+        "type": 100,
+        "width": 149.96,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 49.68956911,
+        "lonStart": 15.67464997,
+        "latEnd": 49.68071607,
+        "lonEnd": 15.67783421,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20573
+  },
+  {
+    "type": 1,
     "icao": "LKCV",
     "lat": 49.939289007499994,
     "lon": 15.381538242500001,
@@ -42,8 +106,8 @@
         "type": 100,
         "width": 60.05,
         "surfaceType": null,
-        "numberStart": "13L",
-        "numberEnd": "31R",
+        "numberStart": "13",
+        "numberEnd": "31",
         "latStart": 49.94751235,
         "lonStart": 15.37056589,
         "latEnd": 49.93163179,
@@ -52,71 +116,7 @@
         "surfacetype": 2
       }
     ],
-    "id": 4623
-  },
-  {
-    "type": 1,
-    "icao": "LKCT",
-    "lat": 49.68514259,
-    "lon": 15.67624209,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12220,
-        "name": "INFO"
-      }
-    ],
-    "elevation": 1944,
-    "tower": true,
-    "name": "Chotebor",
-    "runways": [
-      {
-        "type": 100,
-        "width": 149.96,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 49.68956911,
-        "lonStart": 15.67464997,
-        "latEnd": 49.68071607,
-        "lonEnd": 15.67783421,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 4959
-  },
-  {
-    "type": 1,
-    "icao": "LKCR",
-    "lat": 49.93553333,
-    "lon": 15.78006858,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12280,
-        "name": "INFO"
-      }
-    ],
-    "elevation": 977,
-    "tower": true,
-    "name": "Chrudim",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.08,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 49.93354188,
-        "lonStart": 15.77394351,
-        "latEnd": 49.93752478,
-        "lonEnd": 15.78619365,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 4974
+    "id": 20574
   },
   {
     "type": 1,
@@ -148,7 +148,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 11553
+    "id": 20578
   },
   {
     "type": 1,
@@ -180,7 +180,39 @@
         "surfacetype": 3
       }
     ],
-    "id": 12987
+    "id": 20588
+  },
+  {
+    "type": 1,
+    "icao": "LKPI",
+    "lat": 49.58063361,
+    "lon": 15.762770419999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12360,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 1742,
+    "tower": true,
+    "name": "Pribyslav",
+    "runways": [
+      {
+        "type": 100,
+        "width": 149.96,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 49.5799867,
+        "lonStart": 15.75758925,
+        "latEnd": 49.58128052,
+        "lonEnd": 15.76795159,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20618
   },
   {
     "type": 1,
@@ -225,39 +257,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 20298
-  },
-  {
-    "type": 1,
-    "icao": "LKPI",
-    "lat": 49.58063361,
-    "lon": 15.762770419999999,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12360,
-        "name": "INFO"
-      }
-    ],
-    "elevation": 1742,
-    "tower": true,
-    "name": "Pribyslav",
-    "runways": [
-      {
-        "type": 100,
-        "width": 149.96,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 49.5799867,
-        "lonStart": 15.75758925,
-        "latEnd": 49.58128052,
-        "lonEnd": 15.76795159,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 20528
+    "id": 20621
   },
   {
     "type": 1,
@@ -289,6 +289,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 27882
+    "id": 20654
   }
 ]

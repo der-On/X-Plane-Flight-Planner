@@ -2,28 +2,28 @@
   {
     "type": 1,
     "icao": "RCSS",
-    "lat": 25.069586,
-    "lon": 121.5525695,
+    "lat": 25.06907347666667,
+    "lon": 121.55050443333334,
     "communications": [
       {
         "type": 50,
         "frequency": 12740,
-        "name": "ATIS"
+        "name": "SONGSHAN AIRPORT"
       },
       {
         "type": 52,
         "frequency": 12120,
-        "name": "CLNC DEL"
+        "name": "SONGSHAN CLNCDEL"
       },
       {
         "type": 53,
         "frequency": 12190,
-        "name": "GND"
+        "name": "SONGSHAN GROUND"
       },
       {
         "type": 54,
-        "frequency": 12630,
-        "name": "TWR"
+        "frequency": 11810,
+        "name": "SONGSHAN TOWER"
       },
       {
         "type": 55,
@@ -31,89 +31,181 @@
         "name": "TAIPEI APP"
       }
     ],
-    "elevation": 18,
+    "elevation": 59,
     "tower": true,
     "name": "Sungshan",
     "runways": [
       {
         "type": 100,
-        "width": 60.05,
+        "width": 60,
         "surfaceType": null,
         "numberStart": "10",
         "numberEnd": "28",
-        "latStart": 25.07005,
-        "lonStart": 121.539622,
-        "latEnd": 25.069122,
-        "lonEnd": 121.565517,
+        "latStart": 25.07005635,
+        "lonStart": 121.53955395,
+        "latEnd": 25.06912918,
+        "lonEnd": 121.565415,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 24,
+        "surfaceType": 1,
+        "numberStart": "H32",
+        "numberEnd": null,
+        "latStart": 25.0680349,
+        "lonStart": 121.54654435,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24
       }
     ],
-    "id": 24375
+    "id": 24348
   },
   {
     "type": 1,
     "icao": "RCTP",
-    "lat": 25.07773125,
-    "lon": 121.2328235,
+    "lat": 25.077870865,
+    "lon": 121.233699765,
     "communications": [
       {
-        "type": 50,
-        "frequency": 12760,
-        "name": "ATIS"
+        "type": 55,
+        "frequency": 11960,
+        "name": "TAIPEI APPROACH"
       },
       {
-        "type": 52,
-        "frequency": 12180,
-        "name": "CLNC DEL"
+        "type": 55,
+        "frequency": 11970,
+        "name": "TAIPEI APPROACH"
       },
       {
-        "type": 53,
-        "frequency": 12170,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11870,
-        "name": "TAIPEI TWR"
+        "type": 55,
+        "frequency": 12350,
+        "name": "TAIPEI APPROACH"
       },
       {
         "type": 55,
         "frequency": 12510,
-        "name": "TAIPEI APP"
+        "name": "TAIPEI APPROACH"
+      },
+      {
+        "type": 55,
+        "frequency": 12850,
+        "name": "TAIPEI APPROACH"
+      },
+      {
+        "type": 55,
+        "frequency": 22800,
+        "name": "TAIPEI APPROACH"
+      },
+      {
+        "type": 55,
+        "frequency": 25130,
+        "name": "TAIPEI APPROACH"
+      },
+      {
+        "type": 55,
+        "frequency": 12420,
+        "name": "TAIPEI APPROACH"
+      },
+      {
+        "type": 55,
+        "frequency": 12560,
+        "name": "TAIPEI APPROACH"
+      },
+      {
+        "type": 55,
+        "frequency": 30660,
+        "name": "TAIPEI APPROACH"
+      },
+      {
+        "type": 55,
+        "frequency": 33090,
+        "name": "TAIPEI APPROACH"
+      },
+      {
+        "type": 55,
+        "frequency": 13130,
+        "name": "TAIPEI APPROACH"
+      },
+      {
+        "type": 55,
+        "frequency": 13150,
+        "name": "TAIPEI APPROACH"
+      },
+      {
+        "type": 55,
+        "frequency": 13180,
+        "name": "TAIPEI APPROACH"
+      },
+      {
+        "type": 54,
+        "frequency": 11870,
+        "name": "TAIPEI TOWER"
+      },
+      {
+        "type": 54,
+        "frequency": 12930,
+        "name": "TAIPEI TOWER"
+      },
+      {
+        "type": 54,
+        "frequency": 23660,
+        "name": "TAIPEI TOWER"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "TAIPEI GROUND"
+      },
+      {
+        "type": 53,
+        "frequency": 12160,
+        "name": "TAIPEI GROUND"
+      },
+      {
+        "type": 52,
+        "frequency": 12180,
+        "name": "TAIPEI DELIVERY"
+      },
+      {
+        "type": 50,
+        "frequency": 12760,
+        "name": "TAIWAN TAOYUAN INTL AIRPORT"
       }
     ],
-    "elevation": 106,
+    "elevation": 107,
     "tower": true,
     "name": "Taiwan Taoyuan International",
     "runways": [
       {
         "type": 100,
-        "width": 60.05,
+        "width": 60,
         "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 25.073081,
-        "lonStart": 121.215572,
-        "latEnd": 25.094647,
-        "lonEnd": 121.243133,
+        "numberStart": "05L",
+        "numberEnd": "23R",
+        "latStart": 25.07289397,
+        "lonStart": 121.21595519,
+        "latEnd": 25.0944909,
+        "lonEnd": 121.24341572,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 60.05,
+        "width": 60,
         "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 25.061728,
-        "lonStart": 121.223703,
-        "latEnd": 25.081469,
-        "lonEnd": 121.248886,
+        "numberStart": "05R",
+        "numberEnd": "23L",
+        "latStart": 25.06084014,
+        "lonStart": 121.22345896,
+        "latEnd": 25.08325845,
+        "lonEnd": 121.25196919,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 1
       }
     ],
-    "id": 24973
+    "id": 24349
   }
 ]

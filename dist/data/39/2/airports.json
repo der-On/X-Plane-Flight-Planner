@@ -2,18 +2,18 @@
   {
     "type": 1,
     "icao": "LEPA",
-    "lat": 39.55163882,
-    "lon": 2.7369601875,
+    "lat": 39.55477125625,
+    "lon": 2.73896419625,
     "communications": [
-      {
-        "type": 55,
-        "frequency": 11940,
-        "name": "APP"
-      },
       {
         "type": 54,
         "frequency": 11830,
         "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11940,
+        "name": "APP"
       },
       {
         "type": 50,
@@ -31,7 +31,7 @@
         "name": "GMC S"
       }
     ],
-    "elevation": 24,
+    "elevation": 23,
     "tower": true,
     "name": "Palma de Mallorca",
     "runways": [
@@ -41,10 +41,10 @@
         "surfaceType": null,
         "numberStart": "06L",
         "numberEnd": "24R",
-        "latStart": 39.54715256,
-        "lonStart": 2.71074093,
-        "latEnd": 39.56280899,
-        "lonEnd": 2.74384248,
+        "latStart": 39.54715288,
+        "lonStart": 2.71074067,
+        "latEnd": 39.56280867,
+        "lonEnd": 2.74385021,
         "length": 0,
         "surfacetype": 1
       },
@@ -54,15 +54,63 @@
         "surfaceType": null,
         "numberStart": "06R",
         "numberEnd": "24L",
-        "latStart": 39.54125901,
-        "lonStart": 2.73172851,
-        "latEnd": 39.55533472,
-        "lonEnd": 2.76152883,
+        "latStart": 39.54125845,
+        "lonStart": 2.73172896,
+        "latEnd": 39.55533528,
+        "lonEnd": 2.7615314,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 30,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.55890798,
+        "lonStart": 2.7414738,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30
+      },
+      {
+        "type": 102,
+        "width": 30,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 39.55865335,
+        "lonStart": 2.74090086,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30
+      },
+      {
+        "type": 102,
+        "width": 30,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 39.55716343,
+        "lonStart": 2.7410322,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30
+      },
+      {
+        "type": 102,
+        "width": 30,
+        "surfaceType": 2,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 39.55689001,
+        "lonStart": 2.74045547,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30
       }
     ],
-    "id": 19678
+    "id": 3519
   },
   {
     "type": 1,
@@ -99,6 +147,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 23837
+    "id": 20180
   }
 ]

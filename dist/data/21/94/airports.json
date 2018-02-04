@@ -1,9 +1,35 @@
 [
   {
     "type": 1,
+    "icao": "VYXG",
+    "lat": 21.4070375,
+    "lon": 94.131704,
+    "communications": [],
+    "elevation": 1345,
+    "tower": true,
+    "name": "Kyaukhtu South",
+    "runways": [
+      {
+        "type": 100,
+        "width": 31.09,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 21.400111,
+        "lonStart": 94.125519,
+        "latEnd": 21.413964,
+        "lonEnd": 94.137889,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 5207
+  },
+  {
+    "type": 1,
     "icao": "VYBG",
-    "lat": 21.1787545,
-    "lon": 94.93016800000001,
+    "lat": 21.17889328,
+    "lon": 94.93027239,
     "communications": [
       {
         "type": 54,
@@ -26,40 +52,14 @@
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 21.190403,
-        "lonStart": 94.930244,
+        "latStart": 21.19068056,
+        "lonStart": 94.93045278,
         "latEnd": 21.167106,
         "lonEnd": 94.930092,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 1425
-  },
-  {
-    "type": 1,
-    "icao": "VYXG",
-    "lat": 21.4070375,
-    "lon": 94.131704,
-    "communications": [],
-    "elevation": 1345,
-    "tower": false,
-    "name": "Kyaukhtu South",
-    "runways": [
-      {
-        "type": 100,
-        "width": 31.09,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 21.400111,
-        "lonStart": 94.125519,
-        "latEnd": 21.413964,
-        "lonEnd": 94.137889,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 14225
+    "id": 31203
   }
 ]

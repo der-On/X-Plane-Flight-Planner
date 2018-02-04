@@ -1,9 +1,35 @@
 [
   {
     "type": 1,
+    "icao": "LF4722",
+    "lat": 44.699070835,
+    "lon": 0.637930715,
+    "communications": [],
+    "elevation": 393,
+    "tower": false,
+    "name": "Castillonnès",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 44.70144331,
+        "lonStart": 0.63611849,
+        "latEnd": 44.69669836,
+        "lonEnd": 0.63974294,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3537
+  },
+  {
+    "type": 1,
     "icao": "LFBA",
-    "lat": 44.174025,
-    "lon": 0.5929610000000001,
+    "lat": 44.172427015,
+    "lon": 0.59276558,
     "communications": [
       {
         "type": 50,
@@ -51,53 +77,21 @@
         "surfaceType": null,
         "numberStart": "11",
         "numberEnd": "29",
-        "latStart": 44.177703,
-        "lonStart": 0.580428,
-        "latEnd": 44.170347,
-        "lonEnd": 0.605494,
+        "latStart": 44.17585427,
+        "lonStart": 0.58104924,
+        "latEnd": 44.16899976,
+        "lonEnd": 0.60448192,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 679
-  },
-  {
-    "type": 1,
-    "icao": "LFIB",
-    "lat": 44.782471685,
-    "lon": 0.952747165,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12350,
-        "name": "A/A"
-      }
-    ],
-    "elevation": 791,
-    "tower": false,
-    "name": "Belves Saint Pardoux",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 44.78352456,
-        "lonStart": 0.94789682,
-        "latEnd": 44.78141881,
-        "lonEnd": 0.95759751,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 2529
+    "id": 3546
   },
   {
     "type": 1,
     "icao": "LFBE",
-    "lat": 44.82426097,
-    "lon": 0.5161749800000001,
+    "lat": 44.824251335,
+    "lon": 0.5161503525,
     "communications": [
       {
         "type": 54,
@@ -108,11 +102,6 @@
         "type": 55,
         "frequency": 11927,
         "name": "AQUITAINE APP"
-      },
-      {
-        "type": 50,
-        "frequency": 12747,
-        "name": "ATIS"
       }
     ],
     "elevation": 169,
@@ -125,10 +114,10 @@
         "surfaceType": null,
         "numberStart": "10",
         "numberEnd": "28",
-        "latStart": 44.825269,
-        "lonStart": 0.50495,
-        "latEnd": 44.823781,
-        "lonEnd": 0.532603,
+        "latStart": 44.82527146,
+        "lonStart": 0.50488429,
+        "latEnd": 44.82377698,
+        "lonEnd": 0.53266999,
         "length": 0,
         "surfacetype": 1
       },
@@ -136,95 +125,17 @@
         "type": 100,
         "width": 60,
         "surfaceType": null,
-        "numberStart": "10R",
-        "numberEnd": "28L",
-        "latStart": 44.82426413,
-        "lonStart": 0.50870313,
-        "latEnd": 44.82372975,
-        "lonEnd": 0.51844379,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 44.8242408,
+        "lonStart": 0.50867234,
+        "latEnd": 44.8237161,
+        "lonEnd": 0.51837479,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 15
       }
     ],
-    "id": 2581
-  },
-  {
-    "type": 1,
-    "icao": "LF02",
-    "lat": 44.699070835,
-    "lon": 0.637930715,
-    "communications": [],
-    "elevation": 393,
-    "tower": false,
-    "name": "Castillonnes Cavarc",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 44.70144331,
-        "lonStart": 0.63611849,
-        "latEnd": 44.69669836,
-        "lonEnd": 0.63974294,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 4638
-  },
-  {
-    "type": 1,
-    "icao": "LFDM",
-    "lat": 44.4989195,
-    "lon": 0.20051249999999998,
-    "communications": [],
-    "elevation": 105,
-    "tower": false,
-    "name": "Marmande Virazeil",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 44.500553,
-        "lonStart": 0.193328,
-        "latEnd": 44.497286,
-        "lonEnd": 0.207697,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 16717
-  },
-  {
-    "type": 1,
-    "icao": "LFDF",
-    "lat": 44.853611,
-    "lon": 0.176667,
-    "communications": [],
-    "elevation": 282,
-    "tower": false,
-    "name": "Sainte Foy la Grande",
-    "runways": [
-      {
-        "type": 100,
-        "width": 79.86,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 44.85417526,
-        "lonStart": 0.16909396,
-        "latEnd": 44.85304674,
-        "lonEnd": 0.18424004,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 22719
+    "id": 3547
   },
   {
     "type": 1,
@@ -256,6 +167,114 @@
         "surfacetype": 1
       }
     ],
-    "id": 26343
+    "id": 3562
+  },
+  {
+    "type": 1,
+    "icao": "LFDF",
+    "lat": 44.8530116,
+    "lon": 0.17713947333333335,
+    "communications": [],
+    "elevation": 282,
+    "tower": false,
+    "name": "Sainte Foy la Grande",
+    "runways": [
+      {
+        "type": 100,
+        "width": 78,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 44.85392495,
+        "lonStart": 0.16804319,
+        "latEnd": 44.85286287,
+        "lonEnd": 0.18315136,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 10,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 44.85224698,
+        "lonStart": 0.18022387,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10
+      }
+    ],
+    "id": 3566
+  },
+  {
+    "type": 1,
+    "icao": "LFDM",
+    "lat": 44.49933507666666,
+    "lon": 0.19821687000000002,
+    "communications": [],
+    "elevation": 104,
+    "tower": false,
+    "name": "Marmande Virazeil",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 44.50071966,
+        "lonStart": 0.1931759,
+        "latEnd": 44.49748734,
+        "lonEnd": 0.2075297,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 18.41,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 44.49979823,
+        "lonStart": 0.19394501,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.73
+      }
+    ],
+    "id": 3571
+  },
+  {
+    "type": 1,
+    "icao": "LFIB",
+    "lat": 44.782471685,
+    "lon": 0.952747165,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12350,
+        "name": "A/A"
+      }
+    ],
+    "elevation": 791,
+    "tower": false,
+    "name": "Belves Saint Pardoux",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 44.78352456,
+        "lonStart": 0.94789682,
+        "latEnd": 44.78141881,
+        "lonEnd": 0.95759751,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3605
   }
 ]

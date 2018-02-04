@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "RJBB",
-    "lat": 34.43361925,
-    "lon": 135.2335985,
+    "lat": 34.43719777222221,
+    "lon": 135.24743715555556,
     "communications": [
       {
         "type": 50,
@@ -61,38 +61,98 @@
         "name": "DEP"
       }
     ],
-    "elevation": 26,
+    "elevation": 25,
     "tower": true,
     "name": "KANSAI INTL",
     "runways": [
       {
         "type": 100,
-        "width": 60.96,
+        "width": 54.19,
         "surfaceType": null,
-        "numberStart": "06L",
-        "numberEnd": "24R",
-        "latStart": 34.428586,
-        "lonStart": 135.206215,
-        "latEnd": 34.45128,
-        "lonEnd": 135.240034,
+        "numberStart": "06R",
+        "numberEnd": "24L",
+        "latStart": 34.41737258,
+        "lonStart": 135.22912971,
+        "latEnd": 34.43723355,
+        "lonEnd": 135.25878501,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 60.96,
+        "width": 56.53,
         "surfaceType": null,
-        "numberStart": "06R",
-        "numberEnd": "24L",
-        "latStart": 34.417378,
-        "lonStart": 135.229278,
-        "latEnd": 34.437233,
-        "lonEnd": 135.258867,
+        "numberStart": "06L",
+        "numberEnd": "24R",
+        "latStart": 34.42853689,
+        "lonStart": 135.20617153,
+        "latEnd": 34.45127166,
+        "lonEnd": 135.24009367,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 10,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.43938795,
+        "lonStart": 135.25676766,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10
+      },
+      {
+        "type": 102,
+        "width": 10,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 34.44051934,
+        "lonStart": 135.25871291,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10
+      },
+      {
+        "type": 102,
+        "width": 10,
+        "surfaceType": 1,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 34.44033638,
+        "lonStart": 135.2588971,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10
+      },
+      {
+        "type": 102,
+        "width": 10,
+        "surfaceType": 1,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 34.44015028,
+        "lonStart": 135.25907418,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10
+      },
+      {
+        "type": 102,
+        "width": 10,
+        "surfaceType": 1,
+        "numberStart": "H5",
+        "numberEnd": null,
+        "latStart": 34.43997132,
+        "lonStart": 135.25930263,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10
       }
     ],
-    "id": 13229
+    "id": 4432
   },
   {
     "type": 1,
@@ -181,13 +241,13 @@
         "length": 60.7
       }
     ],
-    "id": 14022
+    "id": 4433
   },
   {
     "type": 1,
     "icao": "RJOO",
-    "lat": 34.785602749999995,
-    "lon": 135.4380195,
+    "lat": 34.785260095999995,
+    "lon": 135.439427992,
     "communications": [
       {
         "type": 50,
@@ -201,18 +261,8 @@
       },
       {
         "type": 53,
-        "frequency": 12620,
-        "name": "GND"
-      },
-      {
-        "type": 53,
         "frequency": 12170,
         "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12620,
-        "name": "TWR"
       },
       {
         "type": 54,
@@ -255,44 +305,56 @@
         "name": "KANSAI DEP"
       }
     ],
-    "elevation": 50,
+    "elevation": 48,
     "tower": true,
     "name": "OSAKA INTL",
     "runways": [
       {
         "type": 100,
-        "width": 60.96,
+        "width": 60,
         "surfaceType": null,
         "numberStart": "14R",
         "numberEnd": "32L",
-        "latStart": 34.791325,
-        "lonStart": 135.428706,
-        "latEnd": 34.7722,
-        "lonEnd": 135.451878,
+        "latStart": 34.79133154,
+        "lonStart": 135.42869896,
+        "latEnd": 34.772192,
+        "lonEnd": 135.451874,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 45.72,
+        "width": 45,
         "surfaceType": null,
         "numberStart": "14L",
         "numberEnd": "32R",
-        "latStart": 34.795269,
-        "lonStart": 135.428686,
-        "latEnd": 34.783617,
-        "lonEnd": 135.442808,
+        "latStart": 34.79527318,
+        "lonStart": 135.42868149,
+        "latEnd": 34.78361282,
+        "lonEnd": 135.44281051,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 10,
+        "surfaceType": 2,
+        "numberStart": "H7",
+        "numberEnd": null,
+        "latStart": 34.78389094,
+        "lonStart": 135.445075,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10
       }
     ],
-    "id": 18715
+    "id": 4460
   },
   {
     "type": 1,
     "icao": "RJOY",
-    "lat": 34.596714,
-    "lon": 135.5993325,
+    "lat": 34.596919541666665,
+    "lon": 135.59885656166665,
     "communications": [
       {
         "type": 53,
@@ -332,8 +394,8 @@
         "numberEnd": "27",
         "latStart": 34.595606,
         "lonStart": 135.589375,
-        "latEnd": 34.596389,
-        "lonEnd": 135.605594,
+        "latEnd": 34.59638589,
+        "lonEnd": 135.60551472,
         "length": 0,
         "surfacetype": 1
       },
@@ -343,14 +405,38 @@
         "surfaceType": null,
         "numberStart": "13",
         "numberEnd": "31",
-        "latStart": 34.600694,
-        "lonStart": 135.596,
-        "latEnd": 34.594167,
-        "lonEnd": 135.606361,
+        "latStart": 34.60062426,
+        "lonStart": 135.5959609,
+        "latEnd": 34.59410556,
+        "lonEnd": 135.60630278,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.59735388,
+        "lonStart": 135.59843432,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      },
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 4,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 34.59744166,
+        "lonStart": 135.59755165,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
       }
     ],
-    "id": 27677
+    "id": 24419
   }
 ]

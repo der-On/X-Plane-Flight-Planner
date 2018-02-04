@@ -1,28 +1,34 @@
 [
   {
     "type": 1,
-    "icao": "ZUCG",
-    "lat": 30.933945,
-    "lon": 104.33914200000001,
-    "communications": [],
-    "elevation": 1555,
+    "icao": "ZUGH",
+    "lat": 30.94846803,
+    "lon": 104.329568395,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "TOWER"
+      }
+    ],
+    "elevation": 1607,
     "tower": true,
     "name": "Chengdu Guanghan",
     "runways": [
       {
         "type": 100,
-        "width": 45.72,
+        "width": 45,
         "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 30.93870859,
-        "lonStart": 104.33339117,
-        "latEnd": 30.92918141,
-        "lonEnd": 104.34489283,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 30.95432048,
+        "lonStart": 104.32029415,
+        "latEnd": 30.94261558,
+        "lonEnd": 104.33884264,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 1
       }
     ],
-    "id": 4866
+    "id": 5671
   }
 ]

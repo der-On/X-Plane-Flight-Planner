@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "KLTS",
-    "lat": 34.6706,
-    "lon": -99.26629533333333,
+    "lat": 34.658757237500005,
+    "lon": -99.27428161166665,
     "communications": [
       {
         "type": 52,
@@ -31,7 +31,7 @@
         "name": "DEP"
       }
     ],
-    "elevation": 1381,
+    "elevation": 1380,
     "tower": true,
     "name": "ALTUS AFB",
     "runways": [
@@ -41,9 +41,9 @@
         "surfaceType": null,
         "numberStart": "17R",
         "numberEnd": "35L",
-        "latStart": 34.682475,
+        "latStart": 34.68248278,
         "lonStart": -99.273822,
-        "latEnd": 34.64555,
+        "latEnd": 34.64555778,
         "lonEnd": -99.273822,
         "length": 0,
         "surfacetype": 2
@@ -55,9 +55,9 @@
         "numberStart": "17L",
         "numberEnd": "35R",
         "latStart": 34.682483,
-        "lonStart": -99.25955,
+        "lonStart": -99.2595405,
         "latEnd": 34.657753,
-        "lonEnd": -99.259531,
+        "lonEnd": -99.2595405,
         "length": 0,
         "surfacetype": 1
       },
@@ -67,15 +67,539 @@
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 34.682497,
-        "lonStart": -99.265528,
-        "latEnd": 34.672842,
-        "lonEnd": -99.265519,
+        "latStart": 34.68248404,
+        "lonStart": -99.2655235,
+        "latEnd": 34.67282904,
+        "lonEnd": -99.2655235,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 22.9,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.6462278,
+        "lonStart": -99.28226789,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 22.9
+      },
+      {
+        "type": 102,
+        "width": 22.9,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 34.64649792,
+        "lonStart": -99.28226789,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 22.9
+      },
+      {
+        "type": 102,
+        "width": 22.9,
+        "surfaceType": 1,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 34.64677787,
+        "lonStart": -99.28226789,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 22.9
+      },
+      {
+        "type": 102,
+        "width": 22.9,
+        "surfaceType": 1,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 34.64705781,
+        "lonStart": -99.28226789,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 22.9
+      },
+      {
+        "type": 102,
+        "width": 22.9,
+        "surfaceType": 1,
+        "numberStart": "H5",
+        "numberEnd": null,
+        "latStart": 34.64732793,
+        "lonStart": -99.28226789,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 22.9
+      },
+      {
+        "type": 102,
+        "width": 22.9,
+        "surfaceType": 1,
+        "numberStart": "H6",
+        "numberEnd": null,
+        "latStart": 34.64760788,
+        "lonStart": -99.28226789,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 22.9
+      }
+    ],
+    "id": 2911
+  },
+  {
+    "type": 1,
+    "icao": "1O8",
+    "lat": 34.458622500000004,
+    "lon": -99.171336,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      },
+      {
+        "type": 55,
+        "frequency": 12510,
+        "name": "ALTUS APP"
+      },
+      {
+        "type": 56,
+        "frequency": 12510,
+        "name": "ALTUS DEP"
+      }
+    ],
+    "elevation": 1248,
+    "tower": false,
+    "name": "TIPTON MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 34.462828,
+        "lonStart": -99.171339,
+        "latEnd": 34.454417,
+        "lonEnd": -99.171333,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 251
+    "id": 6655
+  },
+  {
+    "type": 1,
+    "icao": "1OK5",
+    "lat": 34.98339027,
+    "lon": -99.22952389,
+    "communications": [],
+    "elevation": 1563,
+    "tower": false,
+    "name": "Hohman",
+    "runways": [
+      {
+        "type": 100,
+        "width": 6.1,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 34.98692144,
+        "lonStart": -99.22891817,
+        "latEnd": 34.9798591,
+        "lonEnd": -99.23012961,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 6680
+  },
+  {
+    "type": 1,
+    "icao": "2K4",
+    "lat": 34.8926195,
+    "lon": -99.5282125,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      },
+      {
+        "type": 55,
+        "frequency": 12510,
+        "name": "ALTUS"
+      }
+    ],
+    "elevation": 1643,
+    "tower": false,
+    "name": "SCOTT FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 34.898389,
+        "lonStart": -99.528206,
+        "latEnd": 34.88685,
+        "lonEnd": -99.528219,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 7041
+  },
+  {
+    "type": 1,
+    "icao": "6OK3",
+    "lat": 34.47480027,
+    "lon": -99.13146917,
+    "communications": [],
+    "elevation": 1296,
+    "tower": false,
+    "name": "Pinsons Cottonpatch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 34.47755803,
+        "lonStart": -99.13158599,
+        "latEnd": 34.47204251,
+        "lonEnd": -99.13135235,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9336
+  },
+  {
+    "type": 1,
+    "icao": "07OK",
+    "lat": 34.63340472,
+    "lon": -99.03368861999999,
+    "communications": [],
+    "elevation": 1322,
+    "tower": false,
+    "name": "Pleasant Valley",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 34.63669429,
+        "lonStart": -99.03382823,
+        "latEnd": 34.63011515,
+        "lonEnd": -99.03354901,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9808
+  },
+  {
+    "type": 1,
+    "icao": "7OK2",
+    "lat": 34.976445549999994,
+    "lon": -99.49981138999999,
+    "communications": [],
+    "elevation": 1649,
+    "tower": false,
+    "name": "Scott",
+    "runways": [
+      {
+        "type": 100,
+        "width": 91.44,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 34.98006408,
+        "lonStart": -99.4999656,
+        "latEnd": 34.97282702,
+        "lonEnd": -99.49965718,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9811
+  },
+  {
+    "type": 1,
+    "icao": "28TX",
+    "lat": 34.08591888,
+    "lon": -99.45508584000001,
+    "communications": [],
+    "elevation": 1275,
+    "tower": false,
+    "name": "Lehman",
+    "runways": [
+      {
+        "type": 100,
+        "width": 6.1,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 34.08863517,
+        "lonStart": -99.4546249,
+        "latEnd": 34.08320259,
+        "lonEnd": -99.45554678,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11646
+  },
+  {
+    "type": 1,
+    "icao": "29TX",
+    "lat": 34.094530500000005,
+    "lon": -99.365639,
+    "communications": [],
+    "elevation": 1282,
+    "tower": false,
+    "name": "LOCKETT",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 34.0981,
+        "lonStart": -99.368116,
+        "latEnd": 34.090961,
+        "lonEnd": -99.363162,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11690
+  },
+  {
+    "type": 1,
+    "icao": "53TA",
+    "lat": 34.15425277,
+    "lon": -99.26424695,
+    "communications": [],
+    "elevation": 1215,
+    "tower": false,
+    "name": "Shivers - Private",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 34.15671995,
+        "lonStart": -99.26435106,
+        "latEnd": 34.15178559,
+        "lonEnd": -99.26414284,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12624
+  },
+  {
+    "type": 1,
+    "icao": "63TA",
+    "lat": 34.269525830000006,
+    "lon": -99.51425556000001,
+    "communications": [],
+    "elevation": 1384,
+    "tower": false,
+    "name": "Barnett",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 34.27365771,
+        "lonStart": -99.51531831,
+        "latEnd": 34.26539395,
+        "lonEnd": -99.51319281,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13010
+  },
+  {
+    "type": 1,
+    "icao": "91OK",
+    "lat": 34.64201361,
+    "lon": -99.37119834,
+    "communications": [],
+    "elevation": 1365,
+    "tower": false,
+    "name": "Stewart",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 34.64516612,
+        "lonStart": -99.37133215,
+        "latEnd": 34.6388611,
+        "lonEnd": -99.37106453,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14073
+  },
+  {
+    "type": 1,
+    "icao": "F01",
+    "lat": 34.274166666666666,
+    "lon": -99.76,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1602,
+    "tower": false,
+    "name": "QUANAH MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 34.280833,
+        "lonStart": -99.758611,
+        "latEnd": 34.268889,
+        "lonEnd": -99.758611,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 36.58,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 34.273889,
+        "lonStart": -99.764167,
+        "latEnd": 34.270833,
+        "lonEnd": -99.757222,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 34.273889,
+        "lonStart": -99.764167,
+        "latEnd": 34.276667,
+        "lonEnd": -99.757222,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16703
+  },
+  {
+    "type": 1,
+    "icao": "F05",
+    "lat": 34.22567074999999,
+    "lon": -99.28377574999999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11852,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12510,
+        "name": "ALTUS APP/DEP"
+      }
+    ],
+    "elevation": 1265,
+    "tower": false,
+    "name": "WILBARGER CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 34.219828,
+        "lonStart": -99.287778,
+        "latEnd": 34.231722,
+        "lonEnd": -99.278867,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 34.231297,
+        "lonStart": -99.285983,
+        "latEnd": 34.219836,
+        "lonEnd": -99.282475,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16705
+  },
+  {
+    "type": 1,
+    "icao": "F09",
+    "lat": 34.51257416,
+    "lon": -99.42953334,
+    "communications": [],
+    "elevation": 1346,
+    "tower": false,
+    "name": "Olustee Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 34.51531547,
+        "lonStart": -99.42964952,
+        "latEnd": 34.50983285,
+        "lonEnd": -99.42941716,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16707
   },
   {
     "type": 1,
@@ -117,33 +641,7 @@
         "surfacetype": 2
       }
     ],
-    "id": 252
-  },
-  {
-    "type": 1,
-    "icao": "63TA",
-    "lat": 34.269525830000006,
-    "lon": -99.51425556000001,
-    "communications": [],
-    "elevation": 1384,
-    "tower": false,
-    "name": "Barnett",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 34.27365771,
-        "lonStart": -99.51531831,
-        "latEnd": 34.26539395,
-        "lonEnd": -99.51319281,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 2253
+    "id": 18837
   },
   {
     "type": 1,
@@ -216,7 +714,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 11153
+    "id": 19259
   },
   {
     "type": 1,
@@ -248,221 +746,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 11167
-  },
-  {
-    "type": 1,
-    "icao": "1OK5",
-    "lat": 34.98339027,
-    "lon": -99.22952389,
-    "communications": [],
-    "elevation": 1563,
-    "tower": false,
-    "name": "Hohman",
-    "runways": [
-      {
-        "type": 100,
-        "width": 6.1,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 34.98692144,
-        "lonStart": -99.22891817,
-        "latEnd": 34.9798591,
-        "lonEnd": -99.23012961,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 11942
-  },
-  {
-    "type": 1,
-    "icao": "29TX",
-    "lat": 34.094530500000005,
-    "lon": -99.365639,
-    "communications": [],
-    "elevation": 1282,
-    "tower": false,
-    "name": "LOCKETT",
-    "runways": [
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 34.0981,
-        "lonStart": -99.368116,
-        "latEnd": 34.090961,
-        "lonEnd": -99.363162,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 14576
-  },
-  {
-    "type": 1,
-    "icao": "28TX",
-    "lat": 34.08591888,
-    "lon": -99.45508584000001,
-    "communications": [],
-    "elevation": 1275,
-    "tower": false,
-    "name": "Lehman",
-    "runways": [
-      {
-        "type": 100,
-        "width": 6.1,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 34.08863517,
-        "lonStart": -99.4546249,
-        "latEnd": 34.08320259,
-        "lonEnd": -99.45554678,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 15123
-  },
-  {
-    "type": 1,
-    "icao": "F09",
-    "lat": 34.51257416,
-    "lon": -99.42953334,
-    "communications": [],
-    "elevation": 1346,
-    "tower": false,
-    "name": "Olustee Municipal",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 34.51531547,
-        "lonStart": -99.42964952,
-        "latEnd": 34.50983285,
-        "lonEnd": -99.42941716,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 18938
-  },
-  {
-    "type": 1,
-    "icao": "6OK3",
-    "lat": 34.47480027,
-    "lon": -99.13146917,
-    "communications": [],
-    "elevation": 1296,
-    "tower": false,
-    "name": "Pinsons Cottonpatch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 34.47755803,
-        "lonStart": -99.13158599,
-        "latEnd": 34.47204251,
-        "lonEnd": -99.13135235,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 20179
-  },
-  {
-    "type": 1,
-    "icao": "07OK",
-    "lat": 34.63340472,
-    "lon": -99.03368861999999,
-    "communications": [],
-    "elevation": 1322,
-    "tower": false,
-    "name": "Pleasant Valley",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 34.63669429,
-        "lonStart": -99.03382823,
-        "latEnd": 34.63011515,
-        "lonEnd": -99.03354901,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 20257
-  },
-  {
-    "type": 1,
-    "icao": "F01",
-    "lat": 34.274166666666666,
-    "lon": -99.76,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12270,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 1602,
-    "tower": false,
-    "name": "QUANAH MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 34.280833,
-        "lonStart": -99.758611,
-        "latEnd": 34.268889,
-        "lonEnd": -99.758611,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 36.58,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 34.273889,
-        "lonStart": -99.764167,
-        "latEnd": 34.270833,
-        "lonEnd": -99.757222,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 34.273889,
-        "lonStart": -99.764167,
-        "latEnd": 34.276667,
-        "lonEnd": -99.757222,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 20660
+    "id": 23109
   },
   {
     "type": 1,
@@ -488,148 +772,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 21236
-  },
-  {
-    "type": 1,
-    "icao": "2K4",
-    "lat": 34.8926195,
-    "lon": -99.5282125,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      },
-      {
-        "type": 55,
-        "frequency": 12510,
-        "name": "ALTUS"
-      }
-    ],
-    "elevation": 1643,
-    "tower": false,
-    "name": "SCOTT FLD",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 34.898389,
-        "lonStart": -99.528206,
-        "latEnd": 34.88685,
-        "lonEnd": -99.528219,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22124
-  },
-  {
-    "type": 1,
-    "icao": "7OK2",
-    "lat": 34.976445549999994,
-    "lon": -99.49981138999999,
-    "communications": [],
-    "elevation": 1649,
-    "tower": false,
-    "name": "Scott",
-    "runways": [
-      {
-        "type": 100,
-        "width": 91.44,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 34.98006408,
-        "lonStart": -99.4999656,
-        "latEnd": 34.97282702,
-        "lonEnd": -99.49965718,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23164
-  },
-  {
-    "type": 1,
-    "icao": "OK82",
-    "lat": 34.691734159999996,
-    "lon": -99.34480862000001,
-    "communications": [],
-    "elevation": 1425,
-    "tower": false,
-    "name": "Scottys Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 34.6947496,
-        "lonStart": -99.34493669,
-        "latEnd": 34.68871872,
-        "lonEnd": -99.34468055,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 23180
-  },
-  {
-    "type": 1,
-    "icao": "OK83",
-    "lat": 34.56833333,
-    "lon": -99.35166667,
-    "communications": [],
-    "elevation": 1355,
-    "tower": false,
-    "name": "Sheffield-Smith Airstrip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 7.62,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 34.57080051,
-        "lonStart": -99.3517713,
-        "latEnd": 34.56586615,
-        "lonEnd": -99.35156204,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 23376
-  },
-  {
-    "type": 1,
-    "icao": "53TA",
-    "lat": 34.15425277,
-    "lon": -99.26424695,
-    "communications": [],
-    "elevation": 1215,
-    "tower": false,
-    "name": "Shivers - Private",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 34.15671995,
-        "lonStart": -99.26435106,
-        "latEnd": 34.15178559,
-        "lonEnd": -99.26414284,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23436
+    "id": 23475
   },
   {
     "type": 1,
@@ -655,130 +798,59 @@
         "surfacetype": 1
       }
     ],
-    "id": 23785
+    "id": 23484
   },
   {
     "type": 1,
-    "icao": "91OK",
-    "lat": 34.64201361,
-    "lon": -99.37119834,
+    "icao": "OK82",
+    "lat": 34.691734159999996,
+    "lon": -99.34480862000001,
     "communications": [],
-    "elevation": 1365,
+    "elevation": 1425,
     "tower": false,
-    "name": "Stewart",
+    "name": "Scottys Field",
     "runways": [
       {
         "type": 100,
-        "width": 30.48,
+        "width": 9.14,
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 34.64516612,
-        "lonStart": -99.37133215,
-        "latEnd": 34.6388611,
-        "lonEnd": -99.37106453,
+        "latStart": 34.6947496,
+        "lonStart": -99.34493669,
+        "latEnd": 34.68871872,
+        "lonEnd": -99.34468055,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       }
     ],
-    "id": 24182
+    "id": 23525
   },
   {
     "type": 1,
-    "icao": "1O8",
-    "lat": 34.458622500000004,
-    "lon": -99.171336,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      },
-      {
-        "type": 55,
-        "frequency": 12510,
-        "name": "ALTUS APP"
-      },
-      {
-        "type": 56,
-        "frequency": 12510,
-        "name": "ALTUS DEP"
-      }
-    ],
-    "elevation": 1248,
+    "icao": "OK83",
+    "lat": 34.56833333,
+    "lon": -99.35166667,
+    "communications": [],
+    "elevation": 1355,
     "tower": false,
-    "name": "TIPTON MUNI",
+    "name": "Sheffield-Smith Airstrip",
     "runways": [
       {
         "type": 100,
-        "width": 15.24,
+        "width": 7.62,
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 34.462828,
-        "lonStart": -99.171339,
-        "latEnd": 34.454417,
-        "lonEnd": -99.171333,
+        "latStart": 34.57080051,
+        "lonStart": -99.3517713,
+        "latEnd": 34.56586615,
+        "lonEnd": -99.35156204,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 24744
-  },
-  {
-    "type": 1,
-    "icao": "F05",
-    "lat": 34.22567074999999,
-    "lon": -99.28377574999999,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11852,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 12510,
-        "name": "ALTUS APP/DEP"
-      }
-    ],
-    "elevation": 1265,
-    "tower": false,
-    "name": "WILBARGER CO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 34.219828,
-        "lonStart": -99.287778,
-        "latEnd": 34.231722,
-        "lonEnd": -99.278867,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 34.231297,
-        "lonStart": -99.285983,
-        "latEnd": 34.219836,
-        "lonEnd": -99.282475,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 26644
+    "id": 23526
   },
   {
     "type": 17,
@@ -803,6 +875,6 @@
         "length": 12.2
       }
     ],
-    "id": 33846
+    "id": 30010
   }
 ]

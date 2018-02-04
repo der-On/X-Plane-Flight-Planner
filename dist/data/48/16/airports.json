@@ -2,13 +2,13 @@
   {
     "type": 1,
     "icao": "LOAR",
-    "lat": 48.66623214,
-    "lon": 16.82519413,
+    "lat": 48.66625828,
+    "lon": 16.825279455,
     "communications": [
       {
-        "type": 54,
+        "type": 51,
         "frequency": 12525,
-        "name": "Altlichtenwarth Flugplatz"
+        "name": "Flugplatz Altlichtenwarth"
       }
     ],
     "elevation": 603,
@@ -21,15 +21,166 @@
         "surfaceType": null,
         "numberStart": "04",
         "numberEnd": "22",
-        "latStart": 48.66444899,
-        "lonStart": 16.82312483,
-        "latEnd": 48.66801529,
-        "lonEnd": 16.82726343,
+        "latStart": 48.66442079,
+        "lonStart": 16.82324843,
+        "latEnd": 48.66809577,
+        "lonEnd": 16.82731048,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 934
+    "id": 3844
+  },
+  {
+    "type": 1,
+    "icao": "LOAS",
+    "lat": 48.09888900999999,
+    "lon": 16.933329505000003,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12207,
+        "name": "Flugplatz Spitzerberg"
+      }
+    ],
+    "elevation": 623,
+    "tower": true,
+    "name": "Spitzerberg",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 48.10157569,
+        "lonStart": 16.9308444,
+        "latEnd": 48.09620233,
+        "lonEnd": 16.93581461,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3845
+  },
+  {
+    "type": 1,
+    "icao": "LOWW",
+    "lat": 48.114300480000004,
+    "lon": 16.561191708333336,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12295,
+        "name": "LOWW ATIS arr"
+      },
+      {
+        "type": 50,
+        "frequency": 12172,
+        "name": "LOWW ATIS dep"
+      },
+      {
+        "type": 51,
+        "frequency": 11852,
+        "name": "WIEN FSS"
+      },
+      {
+        "type": 52,
+        "frequency": 12212,
+        "name": "WIEN CLD"
+      },
+      {
+        "type": 53,
+        "frequency": 12160,
+        "name": "VIENNA GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11940,
+        "name": "VIENNA TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12380,
+        "name": "VIENNA TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11980,
+        "name": "VIENNA APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12455,
+        "name": "VIENNA APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12819,
+        "name": "VIENNA APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12905,
+        "name": "VIENNA APP"
+      }
+    ],
+    "elevation": 600,
+    "tower": true,
+    "name": "Wien Schwechat",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 48.12281045,
+        "lonStart": 16.53337472,
+        "latEnd": 48.10904418,
+        "lonEnd": 16.57565435,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 48.11977972,
+        "lonStart": 16.57820239,
+        "latEnd": 48.088631,
+        "lonEnd": 16.59137808,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 9.4,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 48.12161035,
+        "lonStart": 16.54848888,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10
+      },
+      {
+        "type": 102,
+        "width": 14.8,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 48.12392718,
+        "lonStart": 16.54005183,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.5
+      }
+    ],
+    "id": 3860
   },
   {
     "type": 1,
@@ -61,59 +212,39 @@
         "surfacetype": 3
       }
     ],
-    "id": 3143
+    "id": 20563
   },
   {
     "type": 1,
-    "icao": "LOAL",
-    "lat": 48.233000000000004,
-    "lon": 16.667,
-    "communications": [],
-    "elevation": 495,
+    "icao": "LKZN",
+    "lat": 48.81776931,
+    "lon": 16.06575797,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13060,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 826,
     "tower": true,
-    "name": "Leopoldsdorf",
+    "name": "Znojmo",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 17.98,
         "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 48.23437832,
-        "lonStart": 16.66450575,
-        "latEnd": 48.23162168,
-        "lonEnd": 16.66949425,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 48.81718367,
+        "lonStart": 16.06005576,
+        "latEnd": 48.81835495,
+        "lonEnd": 16.07146018,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 15176
-  },
-  {
-    "type": 1,
-    "icao": "LOAS",
-    "lat": 48.102000000000004,
-    "lon": 16.935000000000002,
-    "communications": [],
-    "elevation": 623,
-    "tower": true,
-    "name": "Spitzerberg",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 48.10471026,
-        "lonStart": 16.93259927,
-        "latEnd": 48.09928974,
-        "lonEnd": 16.93740073,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23962
+    "id": 20656
   },
   {
     "type": 1,
@@ -139,7 +270,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 24207
+    "id": 20745
   },
   {
     "type": 1,
@@ -215,138 +346,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 25681
-  },
-  {
-    "type": 1,
-    "icao": "LOWW",
-    "lat": 48.1100685,
-    "lon": 16.56963724,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12295,
-        "name": "LOWW ATIS arr"
-      },
-      {
-        "type": 50,
-        "frequency": 12172,
-        "name": "LOWW ATIS dep"
-      },
-      {
-        "type": 50,
-        "frequency": 11852,
-        "name": "WIEN FSS"
-      },
-      {
-        "type": 52,
-        "frequency": 12212,
-        "name": "WIEN CLD"
-      },
-      {
-        "type": 53,
-        "frequency": 12160,
-        "name": "VIENNA GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11940,
-        "name": "VIENNA TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12380,
-        "name": "VIENNA TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12880,
-        "name": "unnamed entity"
-      },
-      {
-        "type": 55,
-        "frequency": 11980,
-        "name": "VIENNA APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12455,
-        "name": "VIENNA APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12819,
-        "name": "VIENNA APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12905,
-        "name": "VIENNA APP"
-      }
-    ],
-    "elevation": 600,
-    "tower": true,
-    "name": "Wien Schwechat",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 48.122815,
-        "lonStart": 16.53337475,
-        "latEnd": 48.109047,
-        "lonEnd": 16.57563875,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 48.119781,
-        "lonStart": 16.57818373,
-        "latEnd": 48.088631,
-        "lonEnd": 16.59135173,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 27257
-  },
-  {
-    "type": 1,
-    "icao": "LKZN",
-    "lat": 48.81776931,
-    "lon": 16.06575797,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13060,
-        "name": "INFO"
-      }
-    ],
-    "elevation": 826,
-    "tower": true,
-    "name": "Znojmo",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 48.81718367,
-        "lonStart": 16.06005576,
-        "latEnd": 48.81835495,
-        "lonEnd": 16.07146018,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 27916
+    "id": 20773
   }
 ]

@@ -1,123 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "0NA6",
-    "lat": 46.973895830000004,
-    "lon": -102.29823056000001,
-    "communications": [],
-    "elevation": 2080,
-    "tower": false,
-    "name": "AX Ranch Airstrip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 46.97397961,
-        "lonStart": -102.30526451,
-        "latEnd": 46.97381205,
-        "lonEnd": -102.29119661,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 496
-  },
-  {
-    "type": 1,
-    "icao": "1NA2",
-    "lat": 46.85361777,
-    "lon": -102.20877945000001,
-    "communications": [],
-    "elevation": 2430,
-    "tower": false,
-    "name": "Antelope",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 46.85314576,
-        "lonStart": -102.21313723,
-        "latEnd": 46.85408978,
-        "lonEnd": -102.20442167,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 1088
-  },
-  {
-    "type": 1,
-    "icao": "ND62",
-    "lat": 46.84833972,
-    "lon": -102.45795584000001,
-    "communications": [],
-    "elevation": 2422,
-    "tower": false,
-    "name": "Brands",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 46.84896778,
-        "lonStart": -102.46268014,
-        "latEnd": 46.84771166,
-        "lonEnd": -102.45323154,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 46.84970414,
-        "lonStart": -102.45930146,
-        "latEnd": 46.8469753,
-        "lonEnd": -102.45661022,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 3116
-  },
-  {
-    "type": 1,
-    "icao": "6NA5",
-    "lat": 46.912784720000005,
-    "lon": -102.00905112000001,
-    "communications": [],
-    "elevation": 2140,
-    "tower": false,
-    "name": "Chase Airstrip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 46.91683494,
-        "lonStart": -102.0138524,
-        "latEnd": 46.9087345,
-        "lonEnd": -102.00424984,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 4826
-  },
-  {
-    "type": 1,
     "icao": "KDIK",
     "lat": 46.79734725,
     "lon": -102.80194725,
@@ -133,7 +16,7 @@
         "name": "ASOS"
       }
     ],
-    "elevation": 2591,
+    "elevation": 2590,
     "tower": false,
     "name": "DICKINSON THEODORE ROOSEVELT RGNL",
     "runways": [
@@ -164,7 +47,59 @@
         "surfacetype": 1
       }
     ],
-    "id": 5795
+    "id": 2564
+  },
+  {
+    "type": 1,
+    "icao": "0NA6",
+    "lat": 46.973895830000004,
+    "lon": -102.29823056000001,
+    "communications": [],
+    "elevation": 2080,
+    "tower": false,
+    "name": "AX Ranch Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 46.97397961,
+        "lonStart": -102.30526451,
+        "latEnd": 46.97381205,
+        "lonEnd": -102.29119661,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6012
+  },
+  {
+    "type": 1,
+    "icao": "1NA2",
+    "lat": 46.85361777,
+    "lon": -102.20877945000001,
+    "communications": [],
+    "elevation": 2430,
+    "tower": false,
+    "name": "Antelope",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 46.85314576,
+        "lonStart": -102.21313723,
+        "latEnd": 46.85408978,
+        "lonEnd": -102.20442167,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6589
   },
   {
     "type": 1,
@@ -216,7 +151,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 7246
+    "id": 6606
   },
   {
     "type": 1,
@@ -255,7 +190,195 @@
         "surfacetype": 3
       }
     ],
-    "id": 9571
+    "id": 6607
+  },
+  {
+    "type": 1,
+    "icao": "3P3",
+    "lat": 46.359722000000005,
+    "lon": -102.323054,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 2411,
+    "tower": false,
+    "name": "MOTT MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 46.360833,
+        "lonStart": -102.329719,
+        "latEnd": 46.358611,
+        "lonEnd": -102.316389,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 7808
+  },
+  {
+    "type": 1,
+    "icao": "6NA5",
+    "lat": 46.912784720000005,
+    "lon": -102.00905112000001,
+    "communications": [],
+    "elevation": 2140,
+    "tower": false,
+    "name": "Chase Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 46.91683494,
+        "lonStart": -102.0138524,
+        "latEnd": 46.9087345,
+        "lonEnd": -102.00424984,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9263
+  },
+  {
+    "type": 1,
+    "icao": "6ND7",
+    "lat": 46.42194888,
+    "lon": -102.56655194999999,
+    "communications": [],
+    "elevation": 2500,
+    "tower": false,
+    "name": "Regent Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 46.42633698,
+        "lonStart": -102.56644084,
+        "latEnd": 46.41756078,
+        "lonEnd": -102.56666306,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9285
+  },
+  {
+    "type": 1,
+    "icao": "14ND",
+    "lat": 46.207785,
+    "lon": -102.90849556,
+    "communications": [],
+    "elevation": 2810,
+    "tower": false,
+    "name": "Hagen - Private",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 46.21019548,
+        "lonStart": -102.91084495,
+        "latEnd": 46.20537452,
+        "lonEnd": -102.90614617,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11070
+  },
+  {
+    "type": 1,
+    "icao": "75ND",
+    "lat": 46.907506659999996,
+    "lon": -102.49129223,
+    "communications": [],
+    "elevation": 2370,
+    "tower": false,
+    "name": "Jurgens Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 46.91038595,
+        "lonStart": -102.49614052,
+        "latEnd": 46.90462737,
+        "lonEnd": -102.48644394,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 46.90795154,
+        "lonStart": -102.4946423,
+        "latEnd": 46.90706178,
+        "lonEnd": -102.48794216,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13491
+  },
+  {
+    "type": 1,
+    "icao": "82ND",
+    "lat": 46.98500722,
+    "lon": -102.09516639,
+    "communications": [],
+    "elevation": 2250,
+    "tower": false,
+    "name": "Jaeger Farm Strip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 46.98713892,
+        "lonStart": -102.09769679,
+        "latEnd": 46.98287552,
+        "lonEnd": -102.09263599,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 46.98720127,
+        "lonStart": -102.09511025,
+        "latEnd": 46.98281317,
+        "lonEnd": -102.09522253,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13756
   },
   {
     "type": 1,
@@ -305,72 +428,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 11120
-  },
-  {
-    "type": 1,
-    "icao": "14ND",
-    "lat": 46.207785,
-    "lon": -102.90849556,
-    "communications": [],
-    "elevation": 2810,
-    "tower": false,
-    "name": "Hagen - Private",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 46.21019548,
-        "lonStart": -102.91084495,
-        "latEnd": 46.20537452,
-        "lonEnd": -102.90614617,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11296
-  },
-  {
-    "type": 1,
-    "icao": "82ND",
-    "lat": 46.98500722,
-    "lon": -102.09516639,
-    "communications": [],
-    "elevation": 2250,
-    "tower": false,
-    "name": "Jaeger Farm Strip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 46.98713892,
-        "lonStart": -102.09769679,
-        "latEnd": 46.98287552,
-        "lonEnd": -102.09263599,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 46.98720127,
-        "lonStart": -102.09511025,
-        "latEnd": 46.98281317,
-        "lonEnd": -102.09522253,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 12879
+    "id": 19269
   },
   {
     "type": 1,
@@ -396,78 +454,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 13067
-  },
-  {
-    "type": 1,
-    "icao": "75ND",
-    "lat": 46.907506659999996,
-    "lon": -102.49129223,
-    "communications": [],
-    "elevation": 2370,
-    "tower": false,
-    "name": "Jurgens Airstrip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 46.91038595,
-        "lonStart": -102.49614052,
-        "latEnd": 46.90462737,
-        "lonEnd": -102.48644394,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 46.90795154,
-        "lonStart": -102.4946423,
-        "latEnd": 46.90706178,
-        "lonEnd": -102.48794216,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 13152
-  },
-  {
-    "type": 1,
-    "icao": "3P3",
-    "lat": 46.359722000000005,
-    "lon": -102.323054,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 2411,
-    "tower": false,
-    "name": "MOTT MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 46.360833,
-        "lonStart": -102.329719,
-        "latEnd": 46.358611,
-        "lonEnd": -102.316389,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 16280
+    "id": 22245
   },
   {
     "type": 1,
@@ -493,33 +480,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 21307
-  },
-  {
-    "type": 1,
-    "icao": "6ND7",
-    "lat": 46.42194888,
-    "lon": -102.56655194999999,
-    "communications": [],
-    "elevation": 2500,
-    "tower": false,
-    "name": "Regent Municipal",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 46.42633698,
-        "lonStart": -102.56644084,
-        "latEnd": 46.41756078,
-        "lonEnd": -102.56666306,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 21321
+    "id": 22397
   },
   {
     "type": 1,
@@ -545,7 +506,46 @@
         "surfacetype": 3
       }
     ],
-    "id": 21439
+    "id": 22398
+  },
+  {
+    "type": 1,
+    "icao": "ND62",
+    "lat": 46.84833972,
+    "lon": -102.45795584000001,
+    "communications": [],
+    "elevation": 2422,
+    "tower": false,
+    "name": "Brands",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 46.84896778,
+        "lonStart": -102.46268014,
+        "latEnd": 46.84771166,
+        "lonEnd": -102.45323154,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 46.84970414,
+        "lonStart": -102.45930146,
+        "latEnd": 46.8469753,
+        "lonEnd": -102.45661022,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 22407
   },
   {
     "type": 17,
@@ -570,6 +570,6 @@
         "length": 15.2
       }
     ],
-    "id": 32338
+    "id": 22409
   }
 ]

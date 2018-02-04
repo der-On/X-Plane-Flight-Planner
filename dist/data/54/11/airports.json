@@ -1,93 +1,35 @@
 [
   {
     "type": 1,
-    "icao": "EK62",
-    "lat": 54.983822025,
-    "lon": 11.53719204,
-    "communications": [],
-    "elevation": 50,
-    "tower": false,
-    "name": "Femoe Kro Flyveplads",
+    "icao": "EDCR",
+    "lat": 54.08192123,
+    "lon": 11.64937673,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12650,
+        "name": "Rerik Info"
+      }
+    ],
+    "elevation": 29,
+    "tower": true,
+    "name": "Rerik-Zweedorf",
     "runways": [
       {
         "type": 100,
-        "width": 14.94,
+        "width": 35,
         "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 54.98179666,
-        "lonStart": 11.53328233,
-        "latEnd": 54.98584739,
-        "lonEnd": 11.54110175,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 54.08122779,
+        "lonStart": 11.64462142,
+        "latEnd": 54.08261467,
+        "lonEnd": 11.65413204,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 9233
-  },
-  {
-    "type": 1,
-    "icao": "EDHB",
-    "lat": 54.2444305,
-    "lon": 11.0237925,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12260,
-        "name": "Grube Info"
-      }
-    ],
-    "elevation": 5,
-    "tower": true,
-    "name": "Grube",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 54.244506,
-        "lonStart": 11.019932,
-        "latEnd": 54.244355,
-        "lonEnd": 11.027653,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 10840
-  },
-  {
-    "type": 1,
-    "icao": "EKMB",
-    "lat": 54.699458570000004,
-    "lon": 11.438425,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11897,
-        "name": "MARIBO AFIS"
-      }
-    ],
-    "elevation": 16,
-    "tower": true,
-    "name": "Lolland Falster Maribo",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 54.70006714,
-        "lonStart": 11.42918056,
-        "latEnd": 54.69885,
-        "lonEnd": 11.44766944,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 15416
+    "id": 1043
   },
   {
     "type": 1,
@@ -119,7 +61,65 @@
         "surfacetype": 3
       }
     ],
-    "id": 18226
+    "id": 1125
+  },
+  {
+    "type": 1,
+    "icao": "EDHB",
+    "lat": 54.2444305,
+    "lon": 11.0237925,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12260,
+        "name": "Grube Info"
+      }
+    ],
+    "elevation": 5,
+    "tower": true,
+    "name": "Grube",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 54.244506,
+        "lonStart": 11.019932,
+        "latEnd": 54.244355,
+        "lonEnd": 11.027653,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1127
+  },
+  {
+    "type": 1,
+    "icao": "EK62",
+    "lat": 54.983822025,
+    "lon": 11.53719204,
+    "communications": [],
+    "elevation": 50,
+    "tower": false,
+    "name": "Femoe Kro Flyveplads",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 54.98179666,
+        "lonStart": 11.53328233,
+        "latEnd": 54.98584739,
+        "lonEnd": 11.54110175,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1675
   },
   {
     "type": 1,
@@ -145,38 +145,38 @@
         "surfacetype": 3
       }
     ],
-    "id": 18422
+    "id": 16492
   },
   {
     "type": 1,
-    "icao": "EDCR",
-    "lat": 54.08192123,
-    "lon": 11.64937673,
+    "icao": "EKMB",
+    "lat": 54.699458570000004,
+    "lon": 11.438425,
     "communications": [
       {
         "type": 54,
-        "frequency": 12650,
-        "name": "Rerik Info"
+        "frequency": 11897,
+        "name": "MARIBO AFIS"
       }
     ],
-    "elevation": 29,
+    "elevation": 16,
     "tower": true,
-    "name": "Rerik-Zweedorf",
+    "name": "Lolland Falster Maribo",
     "runways": [
       {
         "type": 100,
-        "width": 35,
+        "width": 29.87,
         "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 54.08122779,
-        "lonStart": 11.64462142,
-        "latEnd": 54.08261467,
-        "lonEnd": 11.65413204,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 54.70006714,
+        "lonStart": 11.42918056,
+        "latEnd": 54.69885,
+        "lonEnd": 11.44766944,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       }
     ],
-    "id": 21372
+    "id": 16532
   }
 ]

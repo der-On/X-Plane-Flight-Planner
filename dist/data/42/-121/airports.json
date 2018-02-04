@@ -1,58 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "71OR",
-    "lat": 42.161544989999996,
-    "lon": -120.90997556,
-    "communications": [],
-    "elevation": 5180,
-    "tower": false,
-    "name": "Barnes Valley",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 42.16510869,
-        "lonStart": -120.91014345,
-        "latEnd": 42.15798129,
-        "lonEnd": -120.90980767,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 2251
-  },
-  {
-    "type": 1,
-    "icao": "OR26",
-    "lat": 42.127660829999996,
-    "lon": -120.48384945,
-    "communications": [],
-    "elevation": 4775,
-    "tower": false,
-    "name": "Farr",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 42.13147238,
-        "lonStart": -120.48321843,
-        "latEnd": 42.12384928,
-        "lonEnd": -120.48448047,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 7820
-  },
-  {
-    "type": 1,
     "icao": "KLKV",
     "lat": 42.158592872499995,
     "lon": -120.4044173575,
@@ -76,8 +24,8 @@
         "type": 100,
         "width": 30.48,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
+        "numberStart": "17",
+        "numberEnd": "35",
         "latStart": 42.168375,
         "lonStart": -120.399036,
         "latEnd": 42.153819,
@@ -110,7 +58,7 @@
         "length": 12
       }
     ],
-    "id": 14821
+    "id": 2897
   },
   {
     "type": 1,
@@ -142,7 +90,33 @@
         "surfacetype": 1
       }
     ],
-    "id": 19657
+    "id": 11407
+  },
+  {
+    "type": 1,
+    "icao": "71OR",
+    "lat": 42.161544989999996,
+    "lon": -120.90997556,
+    "communications": [],
+    "elevation": 5180,
+    "tower": false,
+    "name": "Barnes Valley",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 42.16510869,
+        "lonStart": -120.91014345,
+        "latEnd": 42.15798129,
+        "lonEnd": -120.90980767,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 13322
   },
   {
     "type": 1,
@@ -168,7 +142,7 @@
         "surfacetype": 5
       }
     ],
-    "id": 27277
+    "id": 13686
   },
   {
     "type": 17,
@@ -193,6 +167,32 @@
         "length": 12.2
       }
     ],
-    "id": 30817
+    "id": 14039
+  },
+  {
+    "type": 1,
+    "icao": "OR26",
+    "lat": 42.127660829999996,
+    "lon": -120.48384945,
+    "communications": [],
+    "elevation": 4775,
+    "tower": false,
+    "name": "Farr",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 42.13147238,
+        "lonStart": -120.48321843,
+        "latEnd": 42.12384928,
+        "lonEnd": -120.48448047,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23659
   }
 ]

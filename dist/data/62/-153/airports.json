@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "6AK",
+    "lat": 62.0841419,
+    "lon": -152.71753168499998,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1899,
+    "tower": false,
+    "name": "Rainy Pass",
+    "runways": [
+      {
+        "type": 100,
+        "width": 10.67,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 62.08633088,
+        "lonStart": -152.72152499,
+        "latEnd": 62.08195292,
+        "lonEnd": -152.71353838,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 212
+  },
+  {
+    "type": 1,
     "icao": "01A",
     "lat": 62.94361083,
     "lon": -152.27001639000002,
@@ -23,32 +55,6 @@
         "surfacetype": 5
       }
     ],
-    "id": 20638
-  },
-  {
-    "type": 1,
-    "icao": "6AK",
-    "lat": 62.084141939999995,
-    "lon": -152.71752472999998,
-    "communications": [],
-    "elevation": 1899,
-    "tower": false,
-    "name": "Rainy Pass",
-    "runways": [
-      {
-        "type": 100,
-        "width": 7.62,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 62.08499939,
-        "lonStart": -152.71942127,
-        "latEnd": 62.08328449,
-        "lonEnd": -152.71562819,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 21136
+    "id": 6264
   }
 ]

@@ -1,58 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "81Y",
-    "lat": 40.86251194,
-    "lon": -98.06422195,
-    "communications": [],
-    "elevation": 1825,
-    "tower": false,
-    "name": "Aarons Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 19.81,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 40.86610569,
-        "lonStart": -98.06363849,
-        "latEnd": 40.85891819,
-        "lonEnd": -98.06480541,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 505
-  },
-  {
-    "type": 1,
-    "icao": "NE38",
-    "lat": 40.708107195,
-    "lon": -98.55954721500001,
-    "communications": [],
-    "elevation": 2024,
-    "tower": false,
-    "name": "Aknux",
-    "runways": [
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 40.71298303,
-        "lonStart": -98.55953599,
-        "latEnd": 40.70323136,
-        "lonEnd": -98.55955844,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 784
-  },
-  {
-    "type": 1,
     "icao": "KGRI",
     "lat": 40.9697320425,
     "lon": -98.3090951975,
@@ -71,11 +19,6 @@
         "type": 51,
         "frequency": 12295,
         "name": "UNICOM"
-      },
-      {
-        "type": 52,
-        "frequency": 12190,
-        "name": "CLNC DEL"
       },
       {
         "type": 53,
@@ -119,33 +62,32 @@
         "surfacetype": 2
       }
     ],
-    "id": 3767
+    "id": 2731
   },
   {
-    "type": 1,
-    "icao": "NE04",
-    "lat": 40.09395217,
-    "lon": -98.34776011,
+    "type": 17,
+    "icao": "0NE4",
+    "lat": 40.09723527,
+    "lon": -98.95035834,
     "communications": [],
-    "elevation": 1743,
+    "elevation": 1950,
     "tower": false,
-    "name": "Ely",
+    "name": "[H] Franklin County Memorial Hospital",
     "runways": [
       {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 40.09829234,
-        "lonStart": -98.34803922,
-        "latEnd": 40.089612,
-        "lonEnd": -98.347481,
-        "length": 0,
-        "surfacetype": 4
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.09723527,
+        "lonStart": -98.95035834,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
       }
     ],
-    "id": 7142
+    "id": 6034
   },
   {
     "type": 1,
@@ -171,33 +113,84 @@
         "surfacetype": 4
       }
     ],
-    "id": 7670
+    "id": 6036
   },
   {
     "type": 1,
-    "icao": "8NE6",
-    "lat": 40.129326225,
-    "lon": -98.94327751,
-    "communications": [],
-    "elevation": 2000,
+    "icao": "0V3",
+    "lat": 40.51495833,
+    "lon": -98.94618997250001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 2160,
     "tower": false,
-    "name": "Franklins Plainview",
+    "name": "PIONEER VILLAGE FLD",
     "runways": [
       {
         "type": 100,
-        "width": 42.98,
+        "width": 17.98,
         "surfaceType": null,
         "numberStart": "16",
         "numberEnd": "34",
-        "latStart": 40.13211505,
-        "lonStart": -98.94377067,
-        "latEnd": 40.1265374,
-        "lonEnd": -98.94278435,
+        "latStart": 40.5196543,
+        "lonStart": -98.94749246,
+        "latEnd": 40.5092432,
+        "lonEnd": -98.94417942,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 92.05,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 40.51389932,
+        "lonStart": -98.94995461,
+        "latEnd": 40.5170365,
+        "lonEnd": -98.9431334,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 9685
+    "id": 6205
+  },
+  {
+    "type": 1,
+    "icao": "7V7",
+    "lat": 40.082169500000006,
+    "lon": -98.541347825,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1742,
+    "tower": false,
+    "name": "RED CLOUD MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 40.08702971,
+        "lonStart": -98.54328989,
+        "latEnd": 40.07730929,
+        "lonEnd": -98.53940576,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 9924
   },
   {
     "type": 1,
@@ -242,7 +235,182 @@
         "surfacetype": 1
       }
     ],
-    "id": 11037
+    "id": 10117
+  },
+  {
+    "type": 1,
+    "icao": "8NE6",
+    "lat": 40.129326225,
+    "lon": -98.94327751,
+    "communications": [],
+    "elevation": 2000,
+    "tower": false,
+    "name": "Franklins Plainview",
+    "runways": [
+      {
+        "type": 100,
+        "width": 42.98,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 40.13211505,
+        "lonStart": -98.94377067,
+        "latEnd": 40.1265374,
+        "lonEnd": -98.94278435,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10232
+  },
+  {
+    "type": 1,
+    "icao": "12K",
+    "lat": 40.046420485,
+    "lon": -98.06172184500001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1691,
+    "tower": false,
+    "name": "SUPERIOR MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 40.05050372,
+        "lonStart": -98.0639031,
+        "latEnd": 40.04084722,
+        "lonEnd": -98.05507778,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 40.043085,
+        "lonStart": -98.0649285,
+        "latEnd": 40.051246,
+        "lonEnd": -98.062978,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10977
+  },
+  {
+    "type": 1,
+    "icao": "15NE",
+    "lat": 40.287954705000004,
+    "lon": -98.8281502,
+    "communications": [],
+    "elevation": 1990,
+    "tower": false,
+    "name": "Sindt",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 40.28457241,
+        "lonStart": -98.8302334,
+        "latEnd": 40.291337,
+        "lonEnd": -98.826067,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11110
+  },
+  {
+    "type": 1,
+    "icao": "30NE",
+    "lat": 40.354865055,
+    "lon": -98.68577827,
+    "communications": [],
+    "elevation": 2000,
+    "tower": false,
+    "name": "Rs Ag-Land",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 40.35863413,
+        "lonStart": -98.68573511,
+        "latEnd": 40.35109598,
+        "lonEnd": -98.68582143,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11714
+  },
+  {
+    "type": 1,
+    "icao": "81Y",
+    "lat": 40.86251194,
+    "lon": -98.06422195,
+    "communications": [],
+    "elevation": 1825,
+    "tower": false,
+    "name": "Aarons Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 19.81,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 40.86610569,
+        "lonStart": -98.06363849,
+        "latEnd": 40.85891819,
+        "lonEnd": -98.06480541,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13734
+  },
+  {
+    "type": 1,
+    "icao": "98Y",
+    "lat": 40.45417972,
+    "lon": -98.30449806,
+    "communications": [],
+    "elevation": 1860,
+    "tower": false,
+    "name": "Munsterman",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 40.45777347,
+        "lonStart": -98.30391817,
+        "latEnd": 40.45058597,
+        "lonEnd": -98.30507795,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14317
   },
   {
     "type": 1,
@@ -304,207 +472,7 @@
         "length": 14.94
       }
     ],
-    "id": 11049
-  },
-  {
-    "type": 1,
-    "icao": "98Y",
-    "lat": 40.45417972,
-    "lon": -98.30449806,
-    "communications": [],
-    "elevation": 1860,
-    "tower": false,
-    "name": "Munsterman",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 40.45777347,
-        "lonStart": -98.30391817,
-        "latEnd": 40.45058597,
-        "lonEnd": -98.30507795,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 17724
-  },
-  {
-    "type": 1,
-    "icao": "0V3",
-    "lat": 40.51495833,
-    "lon": -98.94618997250001,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12270,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 2160,
-    "tower": false,
-    "name": "PIONEER VILLAGE FLD",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 40.5196543,
-        "lonStart": -98.94749246,
-        "latEnd": 40.5092432,
-        "lonEnd": -98.94417942,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 92.05,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 40.51389932,
-        "lonStart": -98.94995461,
-        "latEnd": 40.5170365,
-        "lonEnd": -98.9431334,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 19406
-  },
-  {
-    "type": 1,
-    "icao": "7V7",
-    "lat": 40.082169500000006,
-    "lon": -98.541347825,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 1742,
-    "tower": false,
-    "name": "RED CLOUD MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 40.08702971,
-        "lonStart": -98.54328989,
-        "latEnd": 40.07730929,
-        "lonEnd": -98.53940576,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 20873
-  },
-  {
-    "type": 1,
-    "icao": "NE87",
-    "lat": 40.096847095,
-    "lon": -98.06499701999999,
-    "communications": [],
-    "elevation": 1760,
-    "tower": false,
-    "name": "Rempe - Private",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.99,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 40.10405428,
-        "lonStart": -98.06507924,
-        "latEnd": 40.08963991,
-        "lonEnd": -98.0649148,
-        "length": 0,
-        "surfacetype": 15
-      }
-    ],
-    "id": 21354
-  },
-  {
-    "type": 1,
-    "icao": "30NE",
-    "lat": 40.354865055,
-    "lon": -98.68577827,
-    "communications": [],
-    "elevation": 2000,
-    "tower": false,
-    "name": "Rs Ag-Land",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 40.35863413,
-        "lonStart": -98.68573511,
-        "latEnd": 40.35109598,
-        "lonEnd": -98.68582143,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 21803
-  },
-  {
-    "type": 1,
-    "icao": "12K",
-    "lat": 40.046754375,
-    "lon": -98.0620254325,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12300,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 1691,
-    "tower": false,
-    "name": "SUPERIOR MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 40.05050372,
-        "lonStart": -98.0639031,
-        "latEnd": 40.04218278,
-        "lonEnd": -98.05629213,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 40.043085,
-        "lonStart": -98.0649285,
-        "latEnd": 40.051246,
-        "lonEnd": -98.062978,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 22611
+    "id": 19311
   },
   {
     "type": 1,
@@ -530,33 +498,59 @@
         "surfacetype": 3
       }
     ],
-    "id": 23140
+    "id": 22436
   },
   {
     "type": 1,
-    "icao": "15NE",
-    "lat": 40.287954705000004,
-    "lon": -98.8281502,
+    "icao": "NE04",
+    "lat": 40.09395217,
+    "lon": -98.34776011,
     "communications": [],
-    "elevation": 1990,
+    "elevation": 1743,
     "tower": false,
-    "name": "Sindt",
+    "name": "Ely",
     "runways": [
       {
         "type": 100,
-        "width": 17.98,
+        "width": 29.87,
         "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 40.28457241,
-        "lonStart": -98.8302334,
-        "latEnd": 40.291337,
-        "lonEnd": -98.826067,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 40.09829234,
+        "lonStart": -98.34803922,
+        "latEnd": 40.089612,
+        "lonEnd": -98.347481,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 4
       }
     ],
-    "id": 23539
+    "id": 22439
+  },
+  {
+    "type": 1,
+    "icao": "NE38",
+    "lat": 40.708107195,
+    "lon": -98.55954721500001,
+    "communications": [],
+    "elevation": 2024,
+    "tower": false,
+    "name": "Aknux",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 40.71298303,
+        "lonStart": -98.55953599,
+        "latEnd": 40.70323136,
+        "lonEnd": -98.55955844,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22462
   },
   {
     "type": 1,
@@ -582,57 +576,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 25184
-  },
-  {
-    "type": 17,
-    "icao": "0NE4",
-    "lat": 40.09723527,
-    "lon": -98.95035834,
-    "communications": [],
-    "elevation": 1950,
-    "tower": false,
-    "name": "[H] Franklin County Memorial Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.09723527,
-        "lonStart": -98.95035834,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 29822
-  },
-  {
-    "type": 17,
-    "icao": "NE84",
-    "lat": 40.86834555,
-    "lon": -98.01449917,
-    "communications": [],
-    "elevation": 1800,
-    "tower": false,
-    "name": "[H] Memorial Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.86834555,
-        "lonStart": -98.01449917,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 31241
+    "id": 22469
   },
   {
     "type": 17,
@@ -657,6 +601,57 @@
         "length": 9.1
       }
     ],
-    "id": 32893
+    "id": 22485
+  },
+  {
+    "type": 17,
+    "icao": "NE84",
+    "lat": 40.86834555,
+    "lon": -98.01449917,
+    "communications": [],
+    "elevation": 1800,
+    "tower": false,
+    "name": "[H] Memorial Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.86834555,
+        "lonStart": -98.01449917,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 22491
+  },
+  {
+    "type": 1,
+    "icao": "NE87",
+    "lat": 40.096847095,
+    "lon": -98.06499701999999,
+    "communications": [],
+    "elevation": 1760,
+    "tower": false,
+    "name": "Rempe - Private",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 40.10405428,
+        "lonStart": -98.06507924,
+        "latEnd": 40.08963991,
+        "lonEnd": -98.0649148,
+        "length": 0,
+        "surfacetype": 15
+      }
+    ],
+    "id": 22494
   }
 ]

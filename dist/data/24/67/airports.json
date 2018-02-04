@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "OPKC",
-    "lat": 24.9065465,
-    "lon": 67.16079725,
+    "lat": 24.906540919999998,
+    "lon": 67.16079305,
     "communications": [
       {
         "type": 50,
@@ -12,23 +12,38 @@
       },
       {
         "type": 53,
-        "frequency": 12300,
-        "name": "KARACHI GND"
+        "frequency": 12160,
+        "name": "Ground"
+      },
+      {
+        "type": 53,
+        "frequency": 11840,
+        "name": "Ground"
       },
       {
         "type": 54,
         "frequency": 11880,
-        "name": "KARACHI TWR"
+        "name": "Tower"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "Tower"
       },
       {
         "type": 55,
         "frequency": 12550,
-        "name": "KARACHI APP"
+        "name": "Approach"
+      },
+      {
+        "type": 55,
+        "frequency": 12130,
+        "name": "Approach"
       }
     ],
     "elevation": 100,
     "tower": true,
-    "name": "Karachi Jinnah Intl",
+    "name": "Karachi Jinnah International",
     "runways": [
       {
         "type": 100,
@@ -36,10 +51,10 @@
         "surfaceType": null,
         "numberStart": "07R",
         "numberEnd": "25L",
-        "latStart": 24.900386,
-        "lonStart": 67.142631,
-        "latEnd": 24.908686,
-        "lonEnd": 67.175036,
+        "latStart": 24.90038042,
+        "lonStart": 67.1426268,
+        "latEnd": 24.90868042,
+        "lonEnd": 67.1750318,
         "length": 0,
         "surfacetype": 2
       },
@@ -49,15 +64,15 @@
         "surfaceType": null,
         "numberStart": "07L",
         "numberEnd": "25R",
-        "latStart": 24.904708,
-        "lonStart": 67.147553,
-        "latEnd": 24.912406,
-        "lonEnd": 67.177969,
+        "latStart": 24.90470242,
+        "lonStart": 67.1475488,
+        "latEnd": 24.91240042,
+        "lonEnd": 67.1779648,
         "length": 0,
         "surfacetype": 2
       }
     ],
-    "id": 13605
+    "id": 4336
   },
   {
     "type": 1,
@@ -89,6 +104,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 22197
+    "id": 23627
   }
 ]

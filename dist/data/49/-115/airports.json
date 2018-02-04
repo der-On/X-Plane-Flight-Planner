@@ -2,41 +2,47 @@
   {
     "type": 1,
     "icao": "CYYM",
-    "lat": 49.6357005,
-    "lon": -114.0894965,
-    "communications": [],
+    "lat": 49.636907635,
+    "lon": -114.0953165825,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12340,
+        "name": "UNICOM / Traffic"
+      }
+    ],
     "elevation": 3875,
     "tower": false,
     "name": "Cowley",
     "runways": [
       {
         "type": 100,
-        "width": 152.4,
+        "width": 91.44,
         "surfaceType": null,
         "numberStart": "11",
         "numberEnd": "29",
-        "latStart": 49.63885714,
-        "lonStart": -114.09722155,
-        "latEnd": 49.63154486,
-        "lonEnd": -114.08277045,
+        "latStart": 49.63998028,
+        "lonStart": -114.10200422,
+        "latEnd": 49.63302241,
+        "lonEnd": -114.09022174,
         "length": 0,
         "surfacetype": 3
       },
       {
         "type": 100,
-        "width": 152.4,
+        "width": 91.44,
         "surfaceType": null,
         "numberStart": "03",
         "numberEnd": "21",
-        "latStart": 49.63289626,
-        "lonStart": -114.09466247,
-        "latEnd": 49.63950374,
-        "lonEnd": -114.08333153,
+        "latStart": 49.63464358,
+        "lonStart": -114.10093275,
+        "latEnd": 49.63998427,
+        "lonEnd": -114.08810762,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 5431
+    "id": 872
   },
   {
     "type": 1,
@@ -68,6 +74,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 22417
+    "id": 15813
   }
 ]

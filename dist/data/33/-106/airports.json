@@ -1,6 +1,51 @@
 [
   {
     "type": 1,
+    "icao": "F37",
+    "lat": 33.6491757,
+    "lon": -105.895687525,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 5370,
+    "tower": false,
+    "name": "Carrizozo Municipal Airport",
+    "runways": [
+      {
+        "type": 100,
+        "width": 23,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 33.6459111,
+        "lonStart": -105.9048972,
+        "latEnd": 33.6507778,
+        "lonEnd": -105.8897167,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 27,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 33.6532167,
+        "lonStart": -105.8955306,
+        "latEnd": 33.6467972,
+        "lonEnd": -105.8926056,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 2114
+  },
+  {
+    "type": 1,
     "icao": "4AZ2",
     "lat": 33.70202611,
     "lon": -105.38387334000001,
@@ -23,78 +68,33 @@
         "surfacetype": 5
       }
     ],
-    "id": 2837
+    "id": 7980
   },
   {
     "type": 1,
-    "icao": "F37",
-    "lat": 33.649155,
-    "lon": -105.89449775,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 5371,
-    "tower": false,
-    "name": "CARRIZOZO MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 33.645778,
-        "lonStart": -105.9042,
-        "latEnd": 33.650722,
-        "lonEnd": -105.889222,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 27.43,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 33.653278,
-        "lonStart": -105.892333,
-        "latEnd": 33.646842,
-        "lonEnd": -105.892236,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 3700
-  },
-  {
-    "type": 1,
-    "icao": "81NM",
-    "lat": 33.345092,
-    "lon": -105.17970600000001,
+    "icao": "62E",
+    "lat": 33.91674666,
+    "lon": -105.33387945000001,
     "communications": [],
-    "elevation": 5056,
+    "elevation": 5800,
     "tower": false,
-    "name": "DIAMOND A RANCH",
+    "name": "Transwestern Pipeline Nr 8",
     "runways": [
       {
         "type": 100,
         "width": 15.24,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 33.353336,
-        "lonStart": -105.179776,
-        "latEnd": 33.336848,
-        "lonEnd": -105.179636,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 33.91805512,
+        "lonStart": -105.34199112,
+        "latEnd": 33.9154382,
+        "lonEnd": -105.32576778,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 5791
+    "id": 12946
   },
   {
     "type": 1,
@@ -120,7 +120,59 @@
         "surfacetype": 4
       }
     ],
-    "id": 9448
+    "id": 13184
+  },
+  {
+    "type": 1,
+    "icao": "81NM",
+    "lat": 33.345092,
+    "lon": -105.17970600000001,
+    "communications": [],
+    "elevation": 5056,
+    "tower": false,
+    "name": "DIAMOND A RANCH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 33.353336,
+        "lonStart": -105.179776,
+        "latEnd": 33.336848,
+        "lonEnd": -105.179636,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 13717
+  },
+  {
+    "type": 1,
+    "icao": "82E",
+    "lat": 33.170096380000004,
+    "lon": -105.13386862,
+    "communications": [],
+    "elevation": 5524,
+    "tower": false,
+    "name": "Skeen Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 33.16694451,
+        "lonStart": -105.13702821,
+        "latEnd": 33.17324825,
+        "lonEnd": -105.13070903,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 13740
   },
   {
     "type": 1,
@@ -146,7 +198,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 9847
+    "id": 16113
   },
   {
     "type": 1,
@@ -196,84 +248,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 22266
-  },
-  {
-    "type": 1,
-    "icao": "82E",
-    "lat": 33.170096380000004,
-    "lon": -105.13386862,
-    "communications": [],
-    "elevation": 5524,
-    "tower": false,
-    "name": "Skeen Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 33.16694451,
-        "lonStart": -105.13702821,
-        "latEnd": 33.17324825,
-        "lonEnd": -105.13070903,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 23594
-  },
-  {
-    "type": 1,
-    "icao": "62E",
-    "lat": 33.91674666,
-    "lon": -105.33387945000001,
-    "communications": [],
-    "elevation": 5800,
-    "tower": false,
-    "name": "Transwestern Pipeline Nr 8",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 33.91805512,
-        "lonStart": -105.34199112,
-        "latEnd": 33.9154382,
-        "lonEnd": -105.32576778,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 25531
-  },
-  {
-    "type": 17,
-    "icao": "NM23",
-    "lat": 33.16258527,
-    "lon": -105.76443167,
-    "communications": [],
-    "elevation": 6660,
-    "tower": false,
-    "name": "[H] Ihs Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 22.9,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.16258527,
-        "lonStart": -105.76443167,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 22.9
-      }
-    ],
-    "id": 30483
+    "id": 19842
   },
   {
     "type": 17,
@@ -298,6 +273,31 @@
         "length": 30.5
       }
     ],
-    "id": 32447
+    "id": 22813
+  },
+  {
+    "type": 17,
+    "icao": "NM23",
+    "lat": 33.16258527,
+    "lon": -105.76443167,
+    "communications": [],
+    "elevation": 6660,
+    "tower": false,
+    "name": "[H] Ihs Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 22.9,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.16258527,
+        "lonStart": -105.76443167,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 22.9
+      }
+    ],
+    "id": 22817
   }
 ]

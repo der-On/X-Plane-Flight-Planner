@@ -1,29 +1,238 @@
 [
   {
     "type": 1,
-    "icao": "7TS2",
-    "lat": 29.831332500000002,
-    "lon": -97.88917056,
-    "communications": [],
-    "elevation": 629,
+    "icao": "50R",
+    "lat": 29.8503295,
+    "lon": -97.67243006000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12087,
+        "name": "AUSTIN APP/DEP"
+      }
+    ],
+    "elevation": 532,
     "tower": false,
-    "name": "Alison Air Park",
+    "name": "Lockhart Municipal",
     "runways": [
       {
         "type": 100,
-        "width": 7.92,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 29.855828,
+        "lonStart": -97.67221456,
+        "latEnd": 29.844831,
+        "lonEnd": -97.67264556,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 422
+  },
+  {
+    "type": 1,
+    "icao": "E70",
+    "lat": 29.60240422,
+    "lon": -97.99036480000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 556,
+    "tower": false,
+    "name": "Huber Airpark",
+    "runways": [
+      {
+        "type": 100,
+        "width": 19,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 29.60695584,
+        "lonStart": -97.99047246,
+        "latEnd": 29.5978526,
+        "lonEnd": -97.99025714,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 935
+  },
+  {
+    "type": 1,
+    "icao": "KHYI",
+    "lat": 29.892805499999998,
+    "lon": -97.86269444999999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12082,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 54,
+        "frequency": 12682,
+        "name": "Tower"
+      },
+      {
+        "type": 53,
+        "frequency": 12012,
+        "name": "Ground"
+      },
+      {
+        "type": 55,
+        "frequency": 11900,
+        "name": "AUSTIN APP/DEP"
+      },
+      {
+        "type": 52,
+        "frequency": 12135,
+        "name": "CLNC DEL"
+      }
+    ],
+    "elevation": 594,
+    "tower": true,
+    "name": "SAN MARCOS MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 29.897,
+        "lonStart": -97.87,
+        "latEnd": 29.8865,
+        "lonEnd": -97.857,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 29.8918333,
+        "lonStart": -97.877,
+        "latEnd": 29.8925,
+        "lonEnd": -97.8571667,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 29.83311299,
-        "lonStart": -97.88927812,
-        "latEnd": 29.82955201,
-        "lonEnd": -97.889063,
+        "latStart": 29.9016667,
+        "lonStart": -97.8578333,
+        "latEnd": 29.887333,
+        "lonEnd": -97.8571667,
         "length": 0,
-        "surfacetype": 5
+        "surfacetype": 1
       }
     ],
-    "id": 879
+    "id": 2795
+  },
+  {
+    "type": 1,
+    "icao": "T20",
+    "lat": 29.529120425000002,
+    "lon": -97.46431867000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      },
+      {
+        "type": 50,
+        "frequency": 12587,
+        "name": "WX AWOS-3"
+      }
+    ],
+    "elevation": 354,
+    "tower": false,
+    "name": "Roger M Dreyer Memorial",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 29.53313015,
+        "lonStart": -97.46638683,
+        "latEnd": 29.5251107,
+        "lonEnd": -97.46225051,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4986
+  },
+  {
+    "type": 1,
+    "icao": "0TX6",
+    "lat": 29.50523194,
+    "lon": -97.99694945,
+    "communications": [],
+    "elevation": 550,
+    "tower": false,
+    "name": "Elm Creek Airpark",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 29.50776244,
+        "lonStart": -97.99883766,
+        "latEnd": 29.50270144,
+        "lonEnd": -97.99506124,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6194
+  },
+  {
+    "type": 17,
+    "icao": "2T9",
+    "lat": 29.11330888,
+    "lon": -97.28332306,
+    "communications": [],
+    "elevation": 208,
+    "tower": false,
+    "name": "[H] Cuero Community Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 29.11330888,
+        "lonStart": -97.28332306,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 7306
   },
   {
     "type": 1,
@@ -49,7 +258,85 @@
         "surfacetype": 1
       }
     ],
-    "id": 1445
+    "id": 7337
+  },
+  {
+    "type": 1,
+    "icao": "5TA3",
+    "lat": 29.358577500000003,
+    "lon": -97.14470834,
+    "communications": [],
+    "elevation": 350,
+    "tower": false,
+    "name": "Pearson Ranch - Private",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 29.36151745,
+        "lonStart": -97.1454871,
+        "latEnd": 29.35563755,
+        "lonEnd": -97.14392958,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 8893
+  },
+  {
+    "type": 1,
+    "icao": "7TS2",
+    "lat": 29.831332500000002,
+    "lon": -97.88917056,
+    "communications": [],
+    "elevation": 629,
+    "tower": false,
+    "name": "Alison Air Park",
+    "runways": [
+      {
+        "type": 100,
+        "width": 7.92,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 29.83311299,
+        "lonStart": -97.88927812,
+        "latEnd": 29.82955201,
+        "lonEnd": -97.889063,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 9900
+  },
+  {
+    "type": 1,
+    "icao": "7TS3",
+    "lat": 29.95993833,
+    "lon": -97.98528417,
+    "communications": [],
+    "elevation": 799,
+    "tower": false,
+    "name": "Wyatt",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 29.95736433,
+        "lonStart": -97.98752298,
+        "latEnd": 29.96251233,
+        "lonEnd": -97.98304536,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 9901
   },
   {
     "type": 1,
@@ -88,247 +375,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 3251
-  },
-  {
-    "type": 1,
-    "icao": "XS24",
-    "lat": 29.829671660000002,
-    "lon": -97.09915251,
-    "communications": [],
-    "elevation": 370,
-    "tower": false,
-    "name": "Cherry Spraying Service",
-    "runways": [
-      {
-        "type": 100,
-        "width": 6.1,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 29.83075432,
-        "lonStart": -97.10323457,
-        "latEnd": 29.828589,
-        "lonEnd": -97.09507045,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 4879
-  },
-  {
-    "type": 1,
-    "icao": "T71",
-    "lat": 29.083588050000003,
-    "lon": -97.26693417,
-    "communications": [],
-    "elevation": 213,
-    "tower": false,
-    "name": "Cuero Municipal",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 29.08680869,
-        "lonStart": -97.26932744,
-        "latEnd": 29.08036741,
-        "lonEnd": -97.2645409,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 5562
-  },
-  {
-    "type": 1,
-    "icao": "XS73",
-    "lat": 29.873558,
-    "lon": -97.288325,
-    "communications": [],
-    "elevation": 520,
-    "tower": false,
-    "name": "DOUBLE D RANCH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 29.874633,
-        "lonStart": -97.295317,
-        "latEnd": 29.872483,
-        "lonEnd": -97.281333,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 5857
-  },
-  {
-    "type": 1,
-    "icao": "XS49",
-    "lat": 29.49023916,
-    "lon": -97.12193027999999,
-    "communications": [],
-    "elevation": 400,
-    "tower": false,
-    "name": "Dean Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 29.48940616,
-        "lonStart": -97.12607544,
-        "latEnd": 29.49107216,
-        "lonEnd": -97.11778512,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 6106
-  },
-  {
-    "type": 1,
-    "icao": "0TX6",
-    "lat": 29.50523194,
-    "lon": -97.99694945,
-    "communications": [],
-    "elevation": 550,
-    "tower": false,
-    "name": "Elm Creek Airpark",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 29.50776244,
-        "lonStart": -97.99883766,
-        "latEnd": 29.50270144,
-        "lonEnd": -97.99506124,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 7125
-  },
-  {
-    "type": 1,
-    "icao": "XS90",
-    "lat": 29.768280269999998,
-    "lon": -97.77527889000001,
-    "communications": [],
-    "elevation": 460,
-    "tower": false,
-    "name": "Fentress Airpark",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.8,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 29.76588998,
-        "lonStart": -97.77951917,
-        "latEnd": 29.77067056,
-        "lonEnd": -97.77103861,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 9238
-  },
-  {
-    "type": 1,
-    "icao": "T20",
-    "lat": 29.528014,
-    "lon": -97.4613805,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 354,
-    "tower": false,
-    "name": "GONZALES MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 29.531825,
-        "lonStart": -97.463897,
-        "latEnd": 29.524203,
-        "lonEnd": -97.458864,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 10067
-  },
-  {
-    "type": 1,
-    "icao": "TE36",
-    "lat": 29.39190944,
-    "lon": -97.18470916999999,
-    "communications": [],
-    "elevation": 425,
-    "tower": false,
-    "name": "Gerum Farm",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 29.39464866,
-        "lonStart": -97.18487393,
-        "latEnd": 29.38917022,
-        "lonEnd": -97.18454441,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 10433
-  },
-  {
-    "type": 1,
-    "icao": "83R",
-    "lat": 29.52939916,
-    "lon": -97.78833417000001,
-    "communications": [],
-    "elevation": 465,
-    "tower": false,
-    "name": "Glen Beicker Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 29.53205363,
-        "lonStart": -97.78795958,
-        "latEnd": 29.52674469,
-        "lonEnd": -97.78870876,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 10523
+    "id": 10804
   },
   {
     "type": 1,
@@ -354,180 +401,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 10647
+    "id": 10914
   },
   {
     "type": 1,
-    "icao": "E70",
-    "lat": 29.60240422,
-    "lon": -97.99036480000001,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 556,
-    "tower": false,
-    "name": "Huber Airpark",
-    "runways": [
-      {
-        "type": 100,
-        "width": 19,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 29.60695584,
-        "lonStart": -97.99047246,
-        "latEnd": 29.5978526,
-        "lonEnd": -97.99025714,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 12141
-  },
-  {
-    "type": 1,
-    "icao": "XS96",
-    "lat": 29.52523194,
-    "lon": -97.87528028,
+    "icao": "32TA",
+    "lat": 29.69189694,
+    "lon": -97.43360417,
     "communications": [],
-    "elevation": 496,
+    "elevation": 350,
     "tower": false,
-    "name": "Joe Fleming Field",
+    "name": "Wilbourn Ranch",
     "runways": [
       {
         "type": 100,
         "width": 30.48,
         "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 29.52775687,
-        "lonStart": -97.876512,
-        "latEnd": 29.52270701,
-        "lonEnd": -97.87404856,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 13014
-  },
-  {
-    "type": 1,
-    "icao": "TS22",
-    "lat": 29.24166666,
-    "lon": -97.62972223,
-    "communications": [],
-    "elevation": 280,
-    "tower": false,
-    "name": "Joye Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 29.24561264,
-        "lonStart": -97.63393931,
-        "latEnd": 29.23772068,
-        "lonEnd": -97.62550515,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 13116
-  },
-  {
-    "type": 1,
-    "icao": "50R",
-    "lat": 29.8503295,
-    "lon": -97.67241250000001,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 11880,
-        "name": "AUSTIN APP/DEP"
-      }
-    ],
-    "elevation": 532,
-    "tower": false,
-    "name": "LOCKHART MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 29.855828,
-        "lonStart": -97.672197,
-        "latEnd": 29.844831,
-        "lonEnd": -97.672628,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 14577
-  },
-  {
-    "type": 1,
-    "icao": "TE51",
-    "lat": 29.53912055,
-    "lon": -97.83500167,
-    "communications": [],
-    "elevation": 420,
-    "tower": false,
-    "name": "Lackorn",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 29.54322938,
-        "lonStart": -97.83524918,
-        "latEnd": 29.53501172,
-        "lonEnd": -97.83475416,
+        "latStart": 29.69543624,
+        "lonStart": -97.43310392,
+        "latEnd": 29.68835764,
+        "lonEnd": -97.43410442,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 14761
-  },
-  {
-    "type": 1,
-    "icao": "TA36",
-    "lat": 29.00581277,
-    "lon": -97.31165777999999,
-    "communications": [],
-    "elevation": 247,
-    "tower": false,
-    "name": "Lempa",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 29.00915362,
-        "lonStart": -97.31253969,
-        "latEnd": 29.00247192,
-        "lonEnd": -97.31077587,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15149
+    "id": 11798
   },
   {
     "type": 1,
@@ -553,7 +453,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 17372
+    "id": 12502
   },
   {
     "type": 1,
@@ -579,33 +479,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 17584
+    "id": 12814
   },
   {
     "type": 1,
-    "icao": "5TA3",
-    "lat": 29.358577500000003,
-    "lon": -97.14470834,
+    "icao": "83R",
+    "lat": 29.52939916,
+    "lon": -97.78833417000001,
     "communications": [],
-    "elevation": 350,
+    "elevation": 465,
     "tower": false,
-    "name": "Pearson Ranch - Private",
+    "name": "Glen Beicker Ranch",
     "runways": [
       {
         "type": 100,
-        "width": 22.86,
+        "width": 15.24,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 29.36151745,
-        "lonStart": -97.1454871,
-        "latEnd": 29.35563755,
-        "lonEnd": -97.14392958,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 29.53205363,
+        "lonStart": -97.78795958,
+        "latEnd": 29.52674469,
+        "lonEnd": -97.78870876,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 19906
+    "id": 13802
   },
   {
     "type": 1,
@@ -657,80 +557,65 @@
         "surfacetype": 1
       }
     ],
-    "id": 20828
+    "id": 19805
   },
   {
     "type": 1,
-    "icao": "KHYI",
-    "lat": 29.892815666666664,
-    "lon": -97.86269866666667,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12082,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12305,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 52,
-        "frequency": 12135,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 55,
-        "frequency": 11900,
-        "name": "AUSTIN APP/DEP"
-      }
-    ],
-    "elevation": 597,
+    "icao": "T71",
+    "lat": 29.083588050000003,
+    "lon": -97.26693417,
+    "communications": [],
+    "elevation": 213,
     "tower": false,
-    "name": "SAN MARCOS MUNI",
+    "name": "Cuero Municipal",
     "runways": [
       {
         "type": 100,
-        "width": 30.48,
+        "width": 18.29,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 29.891806,
-        "lonStart": -97.877081,
-        "latEnd": 29.892458,
-        "lonEnd": -97.857122,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 29.897033,
-        "lonStart": -97.870028,
-        "latEnd": 29.886553,
-        "lonEnd": -97.857072,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 29.901683,
-        "lonStart": -97.85775,
-        "latEnd": 29.887361,
-        "lonEnd": -97.857139,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 29.08680869,
+        "lonStart": -97.26932744,
+        "latEnd": 29.08036741,
+        "lonEnd": -97.2645409,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 21990
+    "id": 29714
+  },
+  {
+    "type": 1,
+    "icao": "T85",
+    "lat": 29.313169000000002,
+    "lon": -97.13840450000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 365,
+    "tower": false,
+    "name": "YOAKUM MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 29.316469,
+        "lonStart": -97.142281,
+        "latEnd": 29.309869,
+        "lonEnd": -97.134528,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 29718
   },
   {
     "type": 1,
@@ -769,116 +654,241 @@
         "surfacetype": 3
       }
     ],
-    "id": 25223
+    "id": 29723
   },
   {
     "type": 1,
-    "icao": "32TA",
-    "lat": 29.69189694,
-    "lon": -97.43360417,
+    "icao": "TA36",
+    "lat": 29.00581277,
+    "lon": -97.31165777999999,
     "communications": [],
-    "elevation": 350,
+    "elevation": 247,
     "tower": false,
-    "name": "Wilbourn Ranch",
+    "name": "Lempa",
     "runways": [
       {
         "type": 100,
-        "width": 30.48,
+        "width": 45.72,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 29.69543624,
-        "lonStart": -97.43310392,
-        "latEnd": 29.68835764,
-        "lonEnd": -97.43410442,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 29.00915362,
+        "lonStart": -97.31253969,
+        "latEnd": 29.00247192,
+        "lonEnd": -97.31077587,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 27266
+    "id": 29761
   },
   {
     "type": 1,
-    "icao": "7TS3",
-    "lat": 29.95993833,
-    "lon": -97.98528417,
+    "icao": "TE36",
+    "lat": 29.39190944,
+    "lon": -97.18470916999999,
     "communications": [],
-    "elevation": 799,
+    "elevation": 425,
     "tower": false,
-    "name": "Wyatt",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 29.95736433,
-        "lonStart": -97.98752298,
-        "latEnd": 29.96251233,
-        "lonEnd": -97.98304536,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 27603
-  },
-  {
-    "type": 1,
-    "icao": "T85",
-    "lat": 29.313169000000002,
-    "lon": -97.13840450000001,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 365,
-    "tower": false,
-    "name": "YOAKUM MUNI",
+    "name": "Gerum Farm",
     "runways": [
       {
         "type": 100,
         "width": 18.29,
         "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 29.39464866,
+        "lonStart": -97.18487393,
+        "latEnd": 29.38917022,
+        "lonEnd": -97.18454441,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 29854
+  },
+  {
+    "type": 1,
+    "icao": "TE51",
+    "lat": 29.53912055,
+    "lon": -97.83500167,
+    "communications": [],
+    "elevation": 420,
+    "tower": false,
+    "name": "Lackorn",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 29.54322938,
+        "lonStart": -97.83524918,
+        "latEnd": 29.53501172,
+        "lonEnd": -97.83475416,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 29868
+  },
+  {
+    "type": 1,
+    "icao": "TS22",
+    "lat": 29.24166666,
+    "lon": -97.62972223,
+    "communications": [],
+    "elevation": 280,
+    "tower": false,
+    "name": "Joye Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
         "numberStart": "13",
         "numberEnd": "31",
-        "latStart": 29.316469,
-        "lonStart": -97.142281,
-        "latEnd": 29.309869,
-        "lonEnd": -97.134528,
+        "latStart": 29.24561264,
+        "lonStart": -97.63393931,
+        "latEnd": 29.23772068,
+        "lonEnd": -97.62550515,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 30002
+  },
+  {
+    "type": 1,
+    "icao": "XS24",
+    "lat": 29.829671660000002,
+    "lon": -97.09915251,
+    "communications": [],
+    "elevation": 370,
+    "tower": false,
+    "name": "Cherry Spraying Service",
+    "runways": [
+      {
+        "type": 100,
+        "width": 6.1,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 29.83075432,
+        "lonStart": -97.10323457,
+        "latEnd": 29.828589,
+        "lonEnd": -97.09507045,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 27707
+    "id": 32457
   },
   {
-    "type": 17,
-    "icao": "2T9",
-    "lat": 29.11330888,
-    "lon": -97.28332306,
+    "type": 1,
+    "icao": "XS49",
+    "lat": 29.49023916,
+    "lon": -97.12193027999999,
     "communications": [],
-    "elevation": 208,
+    "elevation": 400,
     "tower": false,
-    "name": "[H] Cuero Community Hospital",
+    "name": "Dean Ranch",
     "runways": [
       {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 29.11330888,
-        "lonStart": -97.28332306,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 29.48940616,
+        "lonStart": -97.12607544,
+        "latEnd": 29.49107216,
+        "lonEnd": -97.11778512,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 29202
+    "id": 32481
+  },
+  {
+    "type": 1,
+    "icao": "XS73",
+    "lat": 29.873558,
+    "lon": -97.288325,
+    "communications": [],
+    "elevation": 520,
+    "tower": false,
+    "name": "DOUBLE D RANCH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 29.874633,
+        "lonStart": -97.295317,
+        "latEnd": 29.872483,
+        "lonEnd": -97.281333,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 32502
+  },
+  {
+    "type": 1,
+    "icao": "XS90",
+    "lat": 29.768280269999998,
+    "lon": -97.77527889000001,
+    "communications": [],
+    "elevation": 460,
+    "tower": false,
+    "name": "Fentress Airpark",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.8,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 29.76588998,
+        "lonStart": -97.77951917,
+        "latEnd": 29.77067056,
+        "lonEnd": -97.77103861,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 32517
+  },
+  {
+    "type": 1,
+    "icao": "XS96",
+    "lat": 29.52523194,
+    "lon": -97.87528028,
+    "communications": [],
+    "elevation": 496,
+    "tower": false,
+    "name": "Joe Fleming Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 29.52775687,
+        "lonStart": -97.876512,
+        "latEnd": 29.52270701,
+        "lonEnd": -97.87404856,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 32523
   },
   {
     "type": 17,
@@ -903,6 +913,6 @@
         "length": 12.2
       }
     ],
-    "id": 30035
+    "id": 32525
   }
 ]

@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "MMLT",
+    "lat": 25.989831979999998,
+    "lon": -111.34833171,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11840,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 34,
+    "tower": true,
+    "name": "LORETO INTL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 25.99974848,
+        "lonStart": -111.34967871,
+        "latEnd": 25.97991548,
+        "lonEnd": -111.34698471,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4117
+  },
+  {
+    "type": 1,
     "icao": "MM71",
     "lat": 25.053779499999997,
     "lon": -111.61486500000001,
@@ -23,38 +55,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 3944
-  },
-  {
-    "type": 1,
-    "icao": "MMLT",
-    "lat": 25.9891945,
-    "lon": -111.34834699999999,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11840,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 34,
-    "tower": true,
-    "name": "LORETO INTL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 25.999111,
-        "lonStart": -111.349694,
-        "latEnd": 25.979278,
-        "lonEnd": -111.347,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 14609
+    "id": 21447
   }
 ]

@@ -1,61 +1,9 @@
 [
   {
     "type": 1,
-    "icao": "OR46",
-    "lat": 45.38318333,
-    "lon": -120.46782445,
-    "communications": [],
-    "elevation": 2165,
-    "tower": false,
-    "name": "Ajax",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 45.38429961,
-        "lonStart": -120.47244019,
-        "latEnd": 45.38206705,
-        "lonEnd": -120.46320871,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 774
-  },
-  {
-    "type": 1,
-    "icao": "1S8",
-    "lat": 45.71651833,
-    "lon": -120.16781972999999,
-    "communications": [],
-    "elevation": 890,
-    "tower": false,
-    "name": "Arlington Municipal",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 45.71520987,
-        "lonStart": -120.17746077,
-        "latEnd": 45.71782679,
-        "lonEnd": -120.15817869,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 1187
-  },
-  {
-    "type": 1,
     "icao": "3S9",
     "lat": 45.246567,
-    "lon": -120.1664515,
+    "lon": -120.166451505,
     "communications": [
       {
         "type": 51,
@@ -65,7 +13,7 @@
     ],
     "elevation": 2911,
     "tower": false,
-    "name": "CONDON STATE PAULING FLD",
+    "name": "Condon State - Pauling Field",
     "runways": [
       {
         "type": 100,
@@ -73,67 +21,99 @@
         "surfaceType": null,
         "numberStart": "07",
         "numberEnd": "25",
-        "latStart": 45.246581,
-        "lonStart": -120.173247,
-        "latEnd": 45.246553,
-        "lonEnd": -120.159656,
+        "latStart": 45.24658105,
+        "lonStart": -120.17326941,
+        "latEnd": 45.24655295,
+        "lonEnd": -120.1596336,
         "length": 0,
         "surfacetype": 2
       }
     ],
-    "id": 4105
+    "id": 131
   },
   {
     "type": 1,
-    "icao": "OR87",
-    "lat": 45.12901555,
-    "lon": -120.61532167,
+    "icao": "5WA7",
+    "lat": 45.71843258,
+    "lon": -120.98484832,
     "communications": [],
-    "elevation": 2676,
+    "elevation": 1620,
     "tower": false,
-    "name": "Compressor Station Nr 10",
+    "name": "Warwick",
     "runways": [
       {
         "type": 100,
-        "width": 15.24,
+        "width": 14.43,
         "surfaceType": null,
         "numberStart": "07",
         "numberEnd": "25",
-        "latStart": 45.12894494,
-        "lonStart": -120.62105549,
-        "latEnd": 45.12908616,
-        "lonEnd": -120.60958785,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 5240
-  },
-  {
-    "type": 1,
-    "icao": "9S0",
-    "lat": 45.166515000000004,
-    "lon": -120.66782473,
-    "communications": [],
-    "elevation": 2621,
-    "tower": false,
-    "name": "Decker Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 45.16540875,
-        "lonStart": -120.67104173,
-        "latEnd": 45.16762125,
-        "lonEnd": -120.66460773,
+        "latStart": 45.71846909,
+        "lonStart": -120.98934277,
+        "latEnd": 45.71839607,
+        "lonEnd": -120.98035387,
         "length": 0,
         "surfacetype": 4
       }
     ],
-    "id": 6127
+    "id": 209
+  },
+  {
+    "type": 1,
+    "icao": "9WA7",
+    "lat": 45.844710475,
+    "lon": -120.700958135,
+    "communications": [],
+    "elevation": 2403,
+    "tower": false,
+    "name": "Hillcrest",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.67,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 45.84439924,
+        "lonStart": -120.70579541,
+        "latEnd": 45.84502171,
+        "lonEnd": -120.69612086,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 324
+  },
+  {
+    "type": 1,
+    "icao": "35S",
+    "lat": 45.58916667,
+    "lon": -120.673984725,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1501,
+    "tower": false,
+    "name": "WASCO STATE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 45.58916667,
+        "lonStart": -120.68071945,
+        "latEnd": 45.58916667,
+        "lonEnd": -120.66725,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 378
   },
   {
     "type": 1,
@@ -165,33 +145,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 10054
-  },
-  {
-    "type": 1,
-    "icao": "9WA7",
-    "lat": 45.84512472,
-    "lon": -120.70089417,
-    "communications": [],
-    "elevation": 2404,
-    "tower": false,
-    "name": "Hillcrest",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 45.84505938,
-        "lonStart": -120.70626827,
-        "latEnd": 45.84519006,
-        "lonEnd": -120.69552007,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11844
+    "id": 4500
   },
   {
     "type": 1,
@@ -217,7 +171,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 21301
+    "id": 6689
+  },
+  {
+    "type": 1,
+    "icao": "1S8",
+    "lat": 45.71651833,
+    "lon": -120.16781972999999,
+    "communications": [],
+    "elevation": 890,
+    "tower": false,
+    "name": "Arlington Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 45.71520987,
+        "lonStart": -120.17746077,
+        "latEnd": 45.71782679,
+        "lonEnd": -120.15817869,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6729
   },
   {
     "type": 1,
@@ -243,7 +223,59 @@
         "surfacetype": 3
       }
     ],
-    "id": 23344
+    "id": 10725
+  },
+  {
+    "type": 1,
+    "icao": "9S0",
+    "lat": 45.166515000000004,
+    "lon": -120.66782473,
+    "communications": [],
+    "elevation": 2621,
+    "tower": false,
+    "name": "Decker Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 45.16540875,
+        "lonStart": -120.67104173,
+        "latEnd": 45.16762125,
+        "lonEnd": -120.66460773,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 10771
+  },
+  {
+    "type": 1,
+    "icao": "OR46",
+    "lat": 45.38318333,
+    "lon": -120.46782445,
+    "communications": [],
+    "elevation": 2165,
+    "tower": false,
+    "name": "Ajax",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 45.38429961,
+        "lonStart": -120.47244019,
+        "latEnd": 45.38206705,
+        "lonEnd": -120.46320871,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 23676
   },
   {
     "type": 1,
@@ -269,64 +301,32 @@
         "surfacetype": 3
       }
     ],
-    "id": 23787
+    "id": 23678
   },
   {
     "type": 1,
-    "icao": "35S",
-    "lat": 45.589444,
-    "lon": -120.67416650000001,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 1502,
+    "icao": "OR87",
+    "lat": 45.12901555,
+    "lon": -120.61532167,
+    "communications": [],
+    "elevation": 2676,
     "tower": false,
-    "name": "WASCO STATE",
+    "name": "Compressor Station Nr 10",
     "runways": [
       {
         "type": 100,
-        "width": 18.29,
+        "width": 15.24,
         "surfaceType": null,
         "numberStart": "07",
         "numberEnd": "25",
-        "latStart": 45.589444,
-        "lonStart": -120.680833,
-        "latEnd": 45.589444,
-        "lonEnd": -120.6675,
+        "latStart": 45.12894494,
+        "lonStart": -120.62105549,
+        "latEnd": 45.12908616,
+        "lonEnd": -120.60958785,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 26515
-  },
-  {
-    "type": 1,
-    "icao": "5WA7",
-    "lat": 45.71651138,
-    "lon": -120.98451223,
-    "communications": [],
-    "elevation": 1620,
-    "tower": false,
-    "name": "Warwick",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 45.71640129,
-        "lonStart": -120.98902736,
-        "latEnd": 45.71662147,
-        "lonEnd": -120.9799971,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 26949
+    "id": 23713
   }
 ]

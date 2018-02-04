@@ -2,13 +2,23 @@
   {
     "type": 1,
     "icao": "CYGV",
-    "lat": 50.2819445,
-    "lon": -63.611389,
+    "lat": 50.28197208,
+    "lon": -63.611198995,
     "communications": [
+      {
+        "type": 51,
+        "frequency": 12200,
+        "name": "Radio Madeleine"
+      },
       {
         "type": 50,
         "frequency": 12595,
-        "name": "AWOS"
+        "name": "AWOS Eng."
+      },
+      {
+        "type": 50,
+        "frequency": 12830,
+        "name": "AWOS Fr."
       }
     ],
     "elevation": 124,
@@ -19,16 +29,16 @@
         "type": 100,
         "width": 30.48,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 50.279167,
-        "lonStart": -63.62,
-        "latEnd": 50.284722,
-        "lonEnd": -63.602778,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 50.27917889,
+        "lonStart": -63.61978795,
+        "latEnd": 50.28476527,
+        "lonEnd": -63.60261004,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 11057
+    "id": 764
   }
 ]

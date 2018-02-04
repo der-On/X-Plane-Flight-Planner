@@ -1,55 +1,78 @@
 [
   {
-    "type": 1,
-    "icao": "YBYN",
-    "lat": -16.571585624999997,
-    "lon": 145.1558221,
+    "type": 17,
+    "icao": "YAGR",
+    "lat": -16.01656404,
+    "lon": 145.84999542,
     "communications": [],
-    "elevation": 1168,
+    "elevation": 8,
     "tower": false,
-    "name": "BROOKLYN",
+    "name": "[H] AGINCOURT REEF",
     "runways": [
       {
-        "type": 100,
+        "type": 102,
+        "width": 14.9,
+        "surfaceType": 2,
+        "numberStart": "H23",
+        "numberEnd": null,
+        "latStart": -16.01656404,
+        "lonStart": 145.84999542,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.9
+      }
+    ],
+    "id": 32610
+  },
+  {
+    "type": 16,
+    "icao": "YAIS",
+    "lat": -16.035568405,
+    "lon": 145.83454176,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] AGINCOURT SOUTH",
+    "runways": [
+      {
+        "type": 101,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -16.0355196,
+        "lonStart": 145.83445057,
+        "latEnd": -16.03561721,
+        "lonEnd": 145.83463295,
+        "length": 0
+      }
+    ],
+    "id": 32613
+  },
+  {
+    "type": 16,
+    "icao": "YBAT",
+    "lat": -16.41665802,
+    "lon": 145.76666688,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] BATT REEF",
+    "runways": [
+      {
+        "type": 101,
         "width": 49.99,
         "surfaceType": null,
         "numberStart": "13",
         "numberEnd": "31",
-        "latStart": -16.56800225,
-        "lonStart": 145.1518212,
-        "latEnd": -16.575169,
-        "lonEnd": 145.159823,
-        "length": 0,
-        "surfacetype": 4
+        "latStart": -16.4165225,
+        "lonStart": 145.76652175,
+        "latEnd": -16.41679354,
+        "lonEnd": 145.76681201,
+        "length": 0
       }
     ],
-    "id": 1925
-  },
-  {
-    "type": 1,
-    "icao": "YCWG",
-    "lat": -16.79846315,
-    "lon": 145.69102078,
-    "communications": [],
-    "elevation": 43,
-    "tower": false,
-    "name": "COAST WATCHER HEIGHTS",
-    "runways": [
-      {
-        "type": 100,
-        "width": 10.06,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": -16.79818791,
-        "lonStart": 145.68952865,
-        "latEnd": -16.79873839,
-        "lonEnd": 145.69251291,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 4002
+    "id": 32693
   },
   {
     "type": 1,
@@ -261,7 +284,33 @@
         "length": 14.9
       }
     ],
-    "id": 4327
+    "id": 32710
+  },
+  {
+    "type": 1,
+    "icao": "YBYN",
+    "lat": -16.571585624999997,
+    "lon": 145.1558221,
+    "communications": [],
+    "elevation": 1168,
+    "tower": false,
+    "name": "BROOKLYN",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -16.56800225,
+        "lonStart": 145.1518212,
+        "latEnd": -16.575169,
+        "lonEnd": 145.159823,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 32895
   },
   {
     "type": 1,
@@ -287,234 +336,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 5424
-  },
-  {
-    "type": 1,
-    "icao": "YWGA",
-    "lat": -16.32058964,
-    "lon": 145.422370355,
-    "communications": [],
-    "elevation": 22,
-    "tower": false,
-    "name": "WONGA BEACH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 27.13,
-        "surfaceType": null,
-        "numberStart": "3",
-        "numberEnd": "21",
-        "latStart": -16.32458376,
-        "lonStart": 145.41908923,
-        "latEnd": -16.31659552,
-        "lonEnd": 145.42565148,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 26727
-  },
-  {
-    "type": 1,
-    "icao": "YYAK",
-    "lat": -16.73017332,
-    "lon": 145.34742043,
-    "communications": [],
-    "elevation": 1270,
-    "tower": false,
-    "name": "YALKULA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": -16.736004,
-        "lonStart": 145.34693057,
-        "latEnd": -16.72434264,
-        "lonEnd": 145.34791029,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 27660
-  },
-  {
-    "type": 17,
-    "icao": "YAGR",
-    "lat": -16.01656404,
-    "lon": 145.84999542,
-    "communications": [],
-    "elevation": 8,
-    "tower": false,
-    "name": "[H] AGINCOURT REEF",
-    "runways": [
-      {
-        "type": 102,
-        "width": 14.9,
-        "surfaceType": 2,
-        "numberStart": "H23",
-        "numberEnd": null,
-        "latStart": -16.01656404,
-        "lonStart": 145.84999542,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 14.9
-      }
-    ],
-    "id": 27973
-  },
-  {
-    "type": 17,
-    "icao": "YMAM",
-    "lat": -16.7333251,
-    "lon": 145.51075726,
-    "communications": [],
-    "elevation": 1341,
-    "tower": false,
-    "name": "[H] MONA MONA",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 3,
-        "numberStart": "H13",
-        "numberEnd": null,
-        "latStart": -16.7333251,
-        "lonStart": 145.51075726,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
-      }
-    ],
-    "id": 31009
-  },
-  {
-    "type": 17,
-    "icao": "YPAE",
-    "lat": -16.78590818,
-    "lon": 145.6652317,
-    "communications": [],
-    "elevation": 162,
-    "tower": false,
-    "name": "[H] PARADISE PALMS",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 3,
-        "numberStart": "H4",
-        "numberEnd": null,
-        "latStart": -16.78590818,
-        "lonStart": 145.6652317,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
-      }
-    ],
-    "id": 31809
-  },
-  {
-    "type": 17,
-    "icao": "YSSP",
-    "lat": -16.84774432,
-    "lon": 145.71547451,
-    "communications": [],
-    "elevation": 20,
-    "tower": false,
-    "name": "[H] SKYSAFARI BASE",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 3,
-        "numberStart": "H57",
-        "numberEnd": null,
-        "latStart": -16.84774432,
-        "lonStart": 145.71547451,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
-      }
-    ],
-    "id": 32486
-  },
-  {
-    "type": 17,
-    "icao": "YYBH",
-    "lat": -16.91015076,
-    "lon": 145.8720064,
-    "communications": [],
-    "elevation": 7,
-    "tower": false,
-    "name": "[H] YARRABAH",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.9,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -16.91015076,
-        "lonStart": 145.8720064,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.9
-      }
-    ],
-    "id": 33920
-  },
-  {
-    "type": 16,
-    "icao": "YAIS",
-    "lat": -16.035568405,
-    "lon": 145.83454176,
-    "communications": [],
-    "elevation": 0,
-    "tower": false,
-    "name": "[S] AGINCOURT SOUTH",
-    "runways": [
-      {
-        "type": 101,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": -16.0355196,
-        "lonStart": 145.83445057,
-        "latEnd": -16.03561721,
-        "lonEnd": 145.83463295,
-        "length": 0
-      }
-    ],
-    "id": 33960
-  },
-  {
-    "type": 16,
-    "icao": "YBAT",
-    "lat": -16.41665802,
-    "lon": 145.76666688,
-    "communications": [],
-    "elevation": 0,
-    "tower": false,
-    "name": "[S] BATT REEF",
-    "runways": [
-      {
-        "type": 101,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": -16.4165225,
-        "lonStart": 145.76652175,
-        "latEnd": -16.41679354,
-        "lonEnd": 145.76681201,
-        "length": 0
-      }
-    ],
-    "id": 33981
+    "id": 32926
   },
   {
     "type": 16,
@@ -540,7 +362,7 @@
         "surfacetype": 15
       }
     ],
-    "id": 34023
+    "id": 33059
   },
   {
     "type": 16,
@@ -565,7 +387,32 @@
         "length": 0
       }
     ],
-    "id": 34120
+    "id": 33371
+  },
+  {
+    "type": 17,
+    "icao": "YMAM",
+    "lat": -16.7333251,
+    "lon": 145.51075726,
+    "communications": [],
+    "elevation": 1341,
+    "tower": false,
+    "name": "[H] MONA MONA",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 3,
+        "numberStart": "H13",
+        "numberEnd": null,
+        "latStart": -16.7333251,
+        "lonStart": 145.51075726,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 33760
   },
   {
     "type": 16,
@@ -590,7 +437,7 @@
         "length": 0
       }
     ],
-    "id": 34269
+    "id": 33790
   },
   {
     "type": 16,
@@ -615,7 +462,7 @@
         "length": 0
       }
     ],
-    "id": 34270
+    "id": 33851
   },
   {
     "type": 16,
@@ -640,7 +487,7 @@
         "length": 0
       }
     ],
-    "id": 34304
+    "id": 34055
   },
   {
     "type": 16,
@@ -665,7 +512,32 @@
         "length": 0
       }
     ],
-    "id": 34329
+    "id": 34154
+  },
+  {
+    "type": 17,
+    "icao": "YPAE",
+    "lat": -16.78590818,
+    "lon": 145.6652317,
+    "communications": [],
+    "elevation": 162,
+    "tower": false,
+    "name": "[H] PARADISE PALMS",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 3,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": -16.78590818,
+        "lonStart": 145.6652317,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 34156
   },
   {
     "type": 16,
@@ -690,7 +562,7 @@
         "length": 0
       }
     ],
-    "id": 34338
+    "id": 34249
   },
   {
     "type": 16,
@@ -715,32 +587,7 @@
         "length": 0
       }
     ],
-    "id": 34387
-  },
-  {
-    "type": 16,
-    "icao": "YSYY",
-    "lat": -16.65755008,
-    "lon": 145.98971304,
-    "communications": [],
-    "elevation": 0,
-    "tower": false,
-    "name": "[S] SANDY CAY",
-    "runways": [
-      {
-        "type": 101,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "9",
-        "numberEnd": "27",
-        "latStart": -16.65755016,
-        "lonStart": 145.98957008,
-        "latEnd": -16.65755,
-        "lonEnd": 145.989856,
-        "length": 0
-      }
-    ],
-    "id": 34410
+    "id": 34279
   },
   {
     "type": 16,
@@ -765,7 +612,57 @@
         "length": 0
       }
     ],
-    "id": 34414
+    "id": 34439
+  },
+  {
+    "type": 17,
+    "icao": "YSSP",
+    "lat": -16.84774432,
+    "lon": 145.71547451,
+    "communications": [],
+    "elevation": 20,
+    "tower": false,
+    "name": "[H] SKYSAFARI BASE",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 3,
+        "numberStart": "H57",
+        "numberEnd": null,
+        "latStart": -16.84774432,
+        "lonStart": 145.71547451,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 34462
+  },
+  {
+    "type": 16,
+    "icao": "YSYY",
+    "lat": -16.65755008,
+    "lon": 145.98971304,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] SANDY CAY",
+    "runways": [
+      {
+        "type": 101,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "9",
+        "numberEnd": "27",
+        "latStart": -16.65755016,
+        "lonStart": 145.98957008,
+        "latEnd": -16.65755,
+        "lonEnd": 145.989856,
+        "length": 0
+      }
+    ],
+    "id": 34499
   },
   {
     "type": 16,
@@ -790,7 +687,7 @@
         "length": 0
       }
     ],
-    "id": 34480
+    "id": 34596
   },
   {
     "type": 16,
@@ -815,6 +712,83 @@
         "length": 0
       }
     ],
-    "id": 34502
+    "id": 34636
+  },
+  {
+    "type": 1,
+    "icao": "YWGA",
+    "lat": -16.32058964,
+    "lon": 145.422370355,
+    "communications": [],
+    "elevation": 22,
+    "tower": false,
+    "name": "WONGA BEACH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.13,
+        "surfaceType": null,
+        "numberStart": "3",
+        "numberEnd": "21",
+        "latStart": -16.32458376,
+        "lonStart": 145.41908923,
+        "latEnd": -16.31659552,
+        "lonEnd": 145.42565148,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 34703
+  },
+  {
+    "type": 1,
+    "icao": "YYAK",
+    "lat": -16.73017332,
+    "lon": 145.34742043,
+    "communications": [],
+    "elevation": 1270,
+    "tower": false,
+    "name": "YALKULA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -16.736004,
+        "lonStart": 145.34693057,
+        "latEnd": -16.72434264,
+        "lonEnd": 145.34791029,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 34840
+  },
+  {
+    "type": 17,
+    "icao": "YYBH",
+    "lat": -16.91015076,
+    "lon": 145.8720064,
+    "communications": [],
+    "elevation": 7,
+    "tower": false,
+    "name": "[H] YARRABAH",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.9,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -16.91015076,
+        "lonStart": 145.8720064,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.9
+      }
+    ],
+    "id": 34847
   }
 ]

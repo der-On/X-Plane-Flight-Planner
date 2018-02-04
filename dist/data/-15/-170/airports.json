@@ -1,6 +1,32 @@
 [
   {
     "type": 1,
+    "icao": "NSAS",
+    "lat": -14.184350550000001,
+    "lon": -169.670023745,
+    "communications": [],
+    "elevation": 9,
+    "tower": false,
+    "name": "Ofu",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -14.18399055,
+        "lonStart": -169.67282305,
+        "latEnd": -14.18471055,
+        "lonEnd": -169.66722444,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 22865
+  },
+  {
+    "type": 1,
     "icao": "NSFQ",
     "lat": -14.21725228,
     "lon": -169.42537499,
@@ -29,58 +55,6 @@
         "surfacetype": 2
       }
     ],
-    "id": 9327
-  },
-  {
-    "type": 1,
-    "icao": "NSAS",
-    "lat": -14.184350550000001,
-    "lon": -169.670023745,
-    "communications": [],
-    "elevation": 9,
-    "tower": false,
-    "name": "Ofu",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": -14.18399055,
-        "lonStart": -169.67282305,
-        "latEnd": -14.18471055,
-        "lonEnd": -169.66722444,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 18833
-  },
-  {
-    "type": 1,
-    "icao": "HI36",
-    "lat": -14.22916666,
-    "lon": -169.51111112,
-    "communications": [],
-    "elevation": 185,
-    "tower": false,
-    "name": "Tau",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": -14.22625556,
-        "lonStart": -169.51047276,
-        "latEnd": -14.23207776,
-        "lonEnd": -169.51174948,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 25079
+    "id": 22867
   }
 ]

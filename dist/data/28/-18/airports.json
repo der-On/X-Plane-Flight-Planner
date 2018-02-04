@@ -29,56 +29,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 14712
-  },
-  {
-    "type": 1,
-    "icao": "GCLA",
-    "lat": 28.624224503333334,
-    "lon": -17.75499798,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11890,
-        "name": "GCLA TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12610,
-        "name": "GCLA APP"
-      }
-    ],
-    "elevation": 106,
-    "tower": true,
-    "name": "La Palma",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 28.61654521,
-        "lonStart": -17.75542,
-        "latEnd": 28.636399,
-        "lonEnd": -17.755807,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 13,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 28.6197293,
-        "lonStart": -17.75376694,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 13
-      }
-    ],
-    "id": 14725
+    "id": 2235
   },
   {
     "type": 17,
@@ -103,6 +54,104 @@
         "length": 37.7
       }
     ],
-    "id": 22827
+    "id": 2236
+  },
+  {
+    "type": 1,
+    "icao": "GCLA",
+    "lat": 28.624224503333334,
+    "lon": -17.75499798,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11890,
+        "name": "GCLA TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12610,
+        "name": "GCLA APP"
+      }
+    ],
+    "elevation": 108,
+    "tower": true,
+    "name": "La Palma",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 28.636399,
+        "lonStart": -17.755807,
+        "latEnd": 28.61654521,
+        "lonEnd": -17.75542,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 13,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 28.6197293,
+        "lonStart": -17.75376694,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13
+      }
+    ],
+    "id": 2239
+  },
+  {
+    "type": 17,
+    "icao": "GCPU",
+    "lat": 28.778750276666667,
+    "lon": -17.99578013,
+    "communications": [],
+    "elevation": 1430,
+    "tower": true,
+    "name": "[H] Helipuerto C.I. Puntagorda (La Palma)",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 28.77863949,
+        "lonStart": -17.99594158,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30
+      },
+      {
+        "type": 102,
+        "width": 30,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 28.77861238,
+        "lonStart": -17.99550749,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30
+      },
+      {
+        "type": 102,
+        "width": 30,
+        "surfaceType": 1,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 28.77899896,
+        "lonStart": -17.99589132,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30
+      }
+    ],
+    "id": 2243
   }
 ]

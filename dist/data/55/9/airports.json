@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "EKBI",
-    "lat": 55.73794423333334,
-    "lon": 9.148286338333333,
+    "lat": 55.73951186666667,
+    "lon": 9.161201193333333,
     "communications": [
       {
         "type": 50,
@@ -39,157 +39,34 @@
         "surfacetype": 1
       },
       {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 55.732077,
-        "lonStart": 9.142112,
-        "latEnd": 55.731702,
-        "lonEnd": 9.151904,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
         "type": 102,
         "width": 20.1,
         "surfaceType": 2,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 55.74509539,
-        "lonStart": 9.15181368,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20.1
-      },
-      {
-        "type": 102,
-        "width": 20.1,
-        "surfaceType": 2,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 55.737837,
-        "lonStart": 9.129682,
+        "latStart": 55.73758159,
+        "lonStart": 9.16939723,
         "latEnd": null,
         "lonEnd": null,
         "length": 20.1
       }
     ],
-    "id": 2728
-  },
-  {
-    "type": 1,
-    "icao": "EK12",
-    "lat": 55.943616465,
-    "lon": 9.653260255,
-    "communications": [],
-    "elevation": 173,
-    "tower": false,
-    "name": "Braedstrup",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 55.94552063,
-        "lonStart": 9.65141932,
-        "latEnd": 55.9417123,
-        "lonEnd": 9.65510119,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 3104
-  },
-  {
-    "type": 1,
-    "icao": "EK06",
-    "lat": 55.991136215,
-    "lon": 9.267205364999999,
-    "communications": [],
-    "elevation": 230,
-    "tower": false,
-    "name": "Ejstrupholm (E516)",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 55.99233713,
-        "lonStart": 9.26257839,
-        "latEnd": 55.9899353,
-        "lonEnd": 9.27183234,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 7020
-  },
-  {
-    "type": 1,
-    "icao": "EK17",
-    "lat": 55.81457498,
-    "lon": 9.046930225,
-    "communications": [],
-    "elevation": 150,
-    "tower": false,
-    "name": "Filskov",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 55.81567244,
-        "lonStart": 9.04019086,
-        "latEnd": 55.81347752,
-        "lonEnd": 9.05366959,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9285
-  },
-  {
-    "type": 1,
-    "icao": "EK22",
-    "lat": 55.55216112,
-    "lon": 9.185304765000001,
-    "communications": [],
-    "elevation": 160,
-    "tower": false,
-    "name": "Gesten",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 55.55258837,
-        "lonStart": 9.17758324,
-        "latEnd": 55.55173387,
-        "lonEnd": 9.19302629,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 10436
+    "id": 1681
   },
   {
     "type": 1,
     "icao": "EKHV",
     "lat": 55.301847765000005,
     "lon": 9.524614555,
-    "communications": [],
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12222,
+        "name": "Haderslev Radio"
+      }
+    ],
     "elevation": 81,
-    "tower": false,
+    "tower": true,
     "name": "Haderslev",
     "runways": [
       {
@@ -206,33 +83,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 11288
-  },
-  {
-    "type": 1,
-    "icao": "EK28",
-    "lat": 55.908049205,
-    "lon": 9.44897809,
-    "communications": [],
-    "elevation": 296,
-    "tower": false,
-    "name": "Hammer",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 55.9087375,
-        "lonStart": 9.44224707,
-        "latEnd": 55.90736091,
-        "lonEnd": 9.45570911,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11366
+    "id": 1700
   },
   {
     "type": 1,
@@ -272,8 +123,8 @@
         "type": 100,
         "width": 22.86,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
+        "numberStart": "07",
+        "numberEnd": "25",
         "latStart": 55.43555876,
         "lonStart": 9.32549502,
         "latEnd": 55.43700324,
@@ -282,7 +133,137 @@
         "surfacetype": 3
       }
     ],
-    "id": 14052
+    "id": 1717
+  },
+  {
+    "type": 1,
+    "icao": "EK06",
+    "lat": 55.991136215,
+    "lon": 9.267205364999999,
+    "communications": [],
+    "elevation": 230,
+    "tower": false,
+    "name": "Ejstrupholm (E516)",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 55.99233713,
+        "lonStart": 9.26257839,
+        "latEnd": 55.9899353,
+        "lonEnd": 9.27183234,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16468
+  },
+  {
+    "type": 1,
+    "icao": "EK12",
+    "lat": 55.943616465,
+    "lon": 9.653260255,
+    "communications": [],
+    "elevation": 173,
+    "tower": false,
+    "name": "Braedstrup",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 55.94552063,
+        "lonStart": 9.65141932,
+        "latEnd": 55.9417123,
+        "lonEnd": 9.65510119,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16471
+  },
+  {
+    "type": 1,
+    "icao": "EK17",
+    "lat": 55.81457498,
+    "lon": 9.046930225,
+    "communications": [],
+    "elevation": 150,
+    "tower": false,
+    "name": "Filskov",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 55.81567244,
+        "lonStart": 9.04019086,
+        "latEnd": 55.81347752,
+        "lonEnd": 9.05366959,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16475
+  },
+  {
+    "type": 1,
+    "icao": "EK22",
+    "lat": 55.55216112,
+    "lon": 9.185304765000001,
+    "communications": [],
+    "elevation": 160,
+    "tower": false,
+    "name": "Gesten",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 55.55258837,
+        "lonStart": 9.17758324,
+        "latEnd": 55.55173387,
+        "lonEnd": 9.19302629,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16478
+  },
+  {
+    "type": 1,
+    "icao": "EK28",
+    "lat": 55.908049205,
+    "lon": 9.44897809,
+    "communications": [],
+    "elevation": 296,
+    "tower": false,
+    "name": "Hammer",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 55.9087375,
+        "lonStart": 9.44224707,
+        "latEnd": 55.90736091,
+        "lonEnd": 9.45570911,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16484
   },
   {
     "type": 1,
@@ -308,7 +289,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 15613
+    "id": 16489
   },
   {
     "type": 1,
@@ -334,33 +315,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 18402
-  },
-  {
-    "type": 1,
-    "icao": "EKRA",
-    "lat": 55.777610949999996,
-    "lon": 9.941359065,
-    "communications": [],
-    "elevation": 130,
-    "tower": false,
-    "name": "Raarup",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.07,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 55.77856076,
-        "lonStart": 9.93567987,
-        "latEnd": 55.77666114,
-        "lonEnd": 9.94703826,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 21097
+    "id": 16491
   },
   {
     "type": 1,
@@ -386,7 +341,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 21658
+    "id": 16513
   },
   {
     "type": 1,
@@ -412,7 +367,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 25427
+    "id": 16516
+  },
+  {
+    "type": 1,
+    "icao": "EKRA",
+    "lat": 55.777610949999996,
+    "lon": 9.941359065,
+    "communications": [],
+    "elevation": 130,
+    "tower": false,
+    "name": "Raarup",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.07,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 55.77856076,
+        "lonStart": 9.93567987,
+        "latEnd": 55.77666114,
+        "lonEnd": 9.94703826,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16536
   },
   {
     "type": 1,
@@ -439,8 +420,8 @@
         "type": 100,
         "width": 46.02,
         "surfaceType": null,
-        "numberStart": "11L",
-        "numberEnd": "29R",
+        "numberStart": "10L",
+        "numberEnd": "28R",
         "latStart": 55.22460048,
         "lonStart": 9.24394289,
         "latEnd": 55.21740752,
@@ -452,8 +433,8 @@
         "type": 100,
         "width": 24.08,
         "surfaceType": null,
-        "numberStart": "11R",
-        "numberEnd": "29L",
+        "numberStart": "10R",
+        "numberEnd": "28L",
         "latStart": 55.22269624,
         "lonStart": 9.24330738,
         "latEnd": 55.21558976,
@@ -462,7 +443,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 26136
+    "id": 16544
   },
   {
     "type": 1,
@@ -501,6 +482,6 @@
         "surfacetype": 2
       }
     ],
-    "id": 26211
+    "id": 16551
   }
 ]

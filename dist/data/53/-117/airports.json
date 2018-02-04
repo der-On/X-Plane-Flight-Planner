@@ -2,18 +2,23 @@
   {
     "type": 1,
     "icao": "CYET",
-    "lat": 53.578932,
-    "lon": -116.4650445,
+    "lat": 53.578902695,
+    "lon": -116.46506066,
     "communications": [
       {
-        "type": 51,
+        "type": 50,
+        "frequency": 12875,
+        "name": "AWOS"
+      },
+      {
+        "type": 54,
         "frequency": 12320,
-        "name": "CTAF"
+        "name": "Traffic"
       }
     ],
-    "elevation": 3041,
+    "elevation": 3042,
     "tower": false,
-    "name": "EDSON",
+    "name": "Edson",
     "runways": [
       {
         "type": 100,
@@ -21,14 +26,14 @@
         "surfaceType": null,
         "numberStart": "07",
         "numberEnd": "25",
-        "latStart": 53.579022,
-        "lonStart": -116.478847,
-        "latEnd": 53.578842,
-        "lonEnd": -116.451242,
+        "latStart": 53.57899339,
+        "lonStart": -116.47884646,
+        "latEnd": 53.578812,
+        "lonEnd": -116.45127486,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 6655
+    "id": 754
   }
 ]

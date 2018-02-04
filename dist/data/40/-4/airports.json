@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "LEMD",
-    "lat": 40.495362498750005,
-    "lon": -3.5601099725,
+    "lat": 40.49531782375,
+    "lon": -3.56006304625,
     "communications": [
       {
         "type": 50,
@@ -16,24 +16,54 @@
         "name": "ATIS DEP"
       },
       {
+        "type": 52,
+        "frequency": 13035,
+        "name": "CLR West"
+      },
+      {
+        "type": 52,
+        "frequency": 13007,
+        "name": "CLR East"
+      },
+      {
         "type": 53,
-        "frequency": 12185,
-        "name": "BARAJAS APRON"
+        "frequency": 12175,
+        "name": "GND E North"
+      },
+      {
+        "type": 53,
+        "frequency": 12315,
+        "name": "GND C North"
+      },
+      {
+        "type": 53,
+        "frequency": 12162,
+        "name": "GND E South"
+      },
+      {
+        "type": 53,
+        "frequency": 12197,
+        "name": "GND C South"
       },
       {
         "type": 54,
         "frequency": 11807,
-        "name": "BARAJAS TWR"
+        "name": "BARAJAS TWR 36L"
       },
       {
         "type": 54,
         "frequency": 11815,
-        "name": "BARAJAS TWR"
+        "name": "BARAJAS TWR 14R"
       },
       {
         "type": 54,
-        "frequency": 12015,
-        "name": "BARAJAS TWR"
+        "frequency": 11897,
+        "name": "BARAJAS TWR 14L"
+      },
+      {
+        "type": 54,
+        "frequency": 11867,
+        "name": "BARAJAS TWR 36L"
       },
       {
         "type": 55,
@@ -46,9 +76,9 @@
         "name": "MADRID APP"
       }
     ],
-    "elevation": 2000,
+    "elevation": 1998,
     "tower": true,
-    "name": "Barajas",
+    "name": "Madrid Barajas",
     "runways": [
       {
         "type": 100,
@@ -56,10 +86,10 @@
         "surfaceType": null,
         "numberStart": "14R",
         "numberEnd": "32L",
-        "latStart": 40.48486032,
-        "lonStart": -3.5760195,
-        "latEnd": 40.4556053,
-        "lonEnd": -3.54630876,
+        "latStart": 40.4848604,
+        "lonStart": -3.57601958,
+        "latEnd": 40.45560522,
+        "lonEnd": -3.54631515,
         "length": 0,
         "surfacetype": 1
       },
@@ -84,8 +114,8 @@
         "numberEnd": "32R",
         "latStart": 40.49491739,
         "lonStart": -3.55787519,
-        "latEnd": 40.47000463,
-        "lonEnd": -3.53259123,
+        "latEnd": 40.46964723,
+        "lonEnd": -3.53220935,
         "length": 0,
         "surfacetype": 1
       },
@@ -103,76 +133,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 2213
-  },
-  {
-    "type": 1,
-    "icao": "LEVS",
-    "lat": 40.371972658333334,
-    "lon": -3.7842910599999997,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11870,
-        "name": "ATC Cuatro Vientos"
-      }
-    ],
-    "elevation": 2266,
-    "tower": true,
-    "name": "Cuatro Vientos",
-    "runways": [
-      {
-        "type": 100,
-        "width": 38.57,
-        "surfaceType": null,
-        "numberStart": "10L",
-        "numberEnd": "28R",
-        "latStart": 40.37231125,
-        "lonStart": -3.79110705,
-        "latEnd": 40.37157074,
-        "lonEnd": -3.77738159,
-        "length": 0,
-        "surfacetype": 4
-      },
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "10R",
-        "numberEnd": "28L",
-        "latStart": 40.37111912,
-        "lonStart": -3.79394766,
-        "latEnd": 40.37023576,
-        "lonEnd": -3.77638622,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 30,
-        "surfaceType": 1,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 40.37282451,
-        "lonStart": -3.78386882,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 40
-      },
-      {
-        "type": 102,
-        "width": 20.4,
-        "surfaceType": 12,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.37377457,
-        "lonStart": -3.78305502,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.8
-      }
-    ],
-    "id": 5548
+    "id": 3514
   },
   {
     "type": 1,
@@ -214,7 +175,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 10437
+    "id": 20164
   },
   {
     "type": 1,
@@ -284,13 +245,13 @@
         "length": 11.66
       }
     ],
-    "id": 20992
+    "id": 20177
   },
   {
     "type": 1,
     "icao": "LETO",
-    "lat": 40.49791744666667,
-    "lon": -3.4410210033333333,
+    "lat": 40.49755117666667,
+    "lon": -3.44108614,
     "communications": [
       {
         "type": 53,
@@ -308,7 +269,7 @@
         "name": "APP"
       }
     ],
-    "elevation": 2026,
+    "elevation": 2025,
     "tower": true,
     "name": "Torrejon",
     "runways": [
@@ -316,12 +277,12 @@
         "type": 100,
         "width": 66.14,
         "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 40.48513542,
-        "lonStart": -3.46035881,
-        "latEnd": 40.50908242,
-        "lonEnd": -3.43069781,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 40.48476915,
+        "lonStart": -3.46042397,
+        "latEnd": 40.50871615,
+        "lonEnd": -3.43076297,
         "length": 0,
         "surfacetype": 1
       },
@@ -331,13 +292,82 @@
         "surfaceType": 2,
         "numberStart": "H9",
         "numberEnd": null,
-        "latStart": 40.4995345,
-        "lonStart": -3.43200639,
+        "latStart": 40.49916823,
+        "lonStart": -3.43207148,
         "latEnd": null,
         "lonEnd": null,
         "length": 50
       }
     ],
-    "id": 25484
+    "id": 20185
+  },
+  {
+    "type": 1,
+    "icao": "LEVS",
+    "lat": 40.371972658333334,
+    "lon": -3.7842910599999997,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11870,
+        "name": "ATC Cuatro Vientos"
+      }
+    ],
+    "elevation": 2266,
+    "tower": true,
+    "name": "Cuatro Vientos",
+    "runways": [
+      {
+        "type": 100,
+        "width": 38.57,
+        "surfaceType": null,
+        "numberStart": "09L",
+        "numberEnd": "27R",
+        "latStart": 40.37231125,
+        "lonStart": -3.79110705,
+        "latEnd": 40.37157074,
+        "lonEnd": -3.77738159,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "09R",
+        "numberEnd": "27L",
+        "latStart": 40.37111912,
+        "lonStart": -3.79394766,
+        "latEnd": 40.37023576,
+        "lonEnd": -3.77638622,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 30,
+        "surfaceType": 1,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 40.37282451,
+        "lonStart": -3.78386882,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 40
+      },
+      {
+        "type": 102,
+        "width": 20.4,
+        "surfaceType": 12,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.37377457,
+        "lonStart": -3.78305502,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19.8
+      }
+    ],
+    "id": 20189
   }
 ]

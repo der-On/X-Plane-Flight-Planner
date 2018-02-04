@@ -1,64 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "SCCL",
-    "lat": -27.0780525,
-    "lon": -70.795305415,
-    "communications": [],
-    "elevation": 180,
-    "tower": false,
-    "name": "Caldera",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": -27.07633637,
-        "lonStart": -70.80106914,
-        "latEnd": -27.07976863,
-        "lonEnd": -70.78954169,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 4342
-  },
-  {
-    "type": 1,
-    "icao": "SCHA",
-    "lat": -27.2969085,
-    "lon": -70.41362144499999,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11830,
-        "name": "ATC traffic"
-      }
-    ],
-    "elevation": 954,
-    "tower": true,
-    "name": "Chamonate",
-    "runways": [
-      {
-        "type": 100,
-        "width": 28.04,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": -27.29614692,
-        "lonStart": -70.42177539,
-        "latEnd": -27.29767008,
-        "lonEnd": -70.4054675,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 4774
-  },
-  {
-    "type": 1,
     "icao": "SCAT",
     "lat": -27.261404,
     "lon": -70.779244555,
@@ -97,6 +39,64 @@
         "surfacetype": 1
       }
     ],
-    "id": 6210
+    "id": 4700
+  },
+  {
+    "type": 1,
+    "icao": "SCCL",
+    "lat": -27.0780525,
+    "lon": -70.795305415,
+    "communications": [],
+    "elevation": 180,
+    "tower": false,
+    "name": "Caldera",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -27.07633637,
+        "lonStart": -70.80106914,
+        "latEnd": -27.07976863,
+        "lonEnd": -70.78954169,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4713
+  },
+  {
+    "type": 1,
+    "icao": "SCHA",
+    "lat": -27.2969085,
+    "lon": -70.41362144499999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "ATC traffic"
+      }
+    ],
+    "elevation": 954,
+    "tower": true,
+    "name": "Chamonate",
+    "runways": [
+      {
+        "type": 100,
+        "width": 28.04,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -27.29614692,
+        "lonStart": -70.42177539,
+        "latEnd": -27.29767008,
+        "lonEnd": -70.4054675,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4739
   }
 ]

@@ -1,6 +1,50 @@
 [
   {
     "type": 1,
+    "icao": "SSVV",
+    "lat": -2.90604145,
+    "lon": -40.35479522333333,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12280,
+        "name": "UNICOM"
+      }
+    ],
+    "elevation": 88,
+    "tower": true,
+    "name": "Jericoacoara Airport",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -2.91114223,
+        "lonStart": -40.36673446,
+        "latEnd": -2.90205277,
+        "lonEnd": -40.34851676,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 14.5,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -2.90492935,
+        "lonStart": -40.34913445,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.5
+      }
+    ],
+    "id": 4964
+  },
+  {
+    "type": 1,
     "icao": "SB11",
     "lat": -2.8961835000000002,
     "lon": -40.857993,
@@ -23,7 +67,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 3584
+    "id": 25094
   },
   {
     "type": 1,
@@ -49,6 +93,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 4390
+    "id": 28111
   }
 ]

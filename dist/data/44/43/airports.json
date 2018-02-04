@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "URMM",
-    "lat": 44.225072499999996,
-    "lon": 43.0818905,
+    "lat": 44.225009915,
+    "lon": 43.0832195,
     "communications": [
       {
         "type": 50,
@@ -24,9 +24,19 @@
         "type": 55,
         "frequency": 11930,
         "name": "APP"
+      },
+      {
+        "type": 51,
+        "frequency": 12070,
+        "name": "KRUG"
+      },
+      {
+        "type": 51,
+        "frequency": 11800,
+        "name": "TRANZIT"
       }
     ],
-    "elevation": 1054,
+    "elevation": 1046,
     "tower": true,
     "name": "MINERALNYYE VODY",
     "runways": [
@@ -36,14 +46,38 @@
         "surfaceType": null,
         "numberStart": "12",
         "numberEnd": "30",
-        "latStart": 44.234417,
-        "lonStart": 43.061256,
-        "latEnd": 44.215728,
-        "lonEnd": 43.102525,
+        "latStart": 44.23616059,
+        "lonStart": 43.06234192,
+        "latEnd": 44.21743258,
+        "lonEnd": 43.10372582,
         "length": 0,
         "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 29.3,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 44.22190214,
+        "lonStart": 43.083722,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.4
+      },
+      {
+        "type": 102,
+        "width": 57.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 44.22454435,
+        "lonStart": 43.08308826,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 57.3
       }
     ],
-    "id": 16130
+    "id": 5107
   }
 ]

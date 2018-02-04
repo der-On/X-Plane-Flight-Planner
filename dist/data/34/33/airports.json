@@ -2,9 +2,14 @@
   {
     "type": 1,
     "icao": "LCLK",
-    "lat": 34.87511550000001,
-    "lon": 33.624832,
+    "lat": 34.873908385,
+    "lon": 33.62413057,
     "communications": [
+      {
+        "type": 50,
+        "frequency": 12655,
+        "name": "ATIS"
+      },
       {
         "type": 54,
         "frequency": 11940,
@@ -16,7 +21,7 @@
         "name": "APP"
       }
     ],
-    "elevation": 8,
+    "elevation": 6,
     "tower": true,
     "name": "Larnaca",
     "runways": [
@@ -26,14 +31,14 @@
         "surfaceType": null,
         "numberStart": "04",
         "numberEnd": "22",
-        "latStart": 34.865675,
-        "lonStart": 33.613261,
-        "latEnd": 34.884556,
-        "lonEnd": 33.636403,
+        "latStart": 34.864258,
+        "lonStart": 33.61233,
+        "latEnd": 34.88355877,
+        "lonEnd": 33.63593114,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 14967
+    "id": 3463
   }
 ]

@@ -1,58 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "LFLZ",
-    "lat": 45.707277,
-    "lon": 4.2018699999999995,
-    "communications": [],
-    "elevation": 1096,
-    "tower": false,
-    "name": "Feurs Chambeon",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 45.71104567,
-        "lonStart": 4.19912023,
-        "latEnd": 45.70350833,
-        "lonEnd": 4.20461977,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9263
-  },
-  {
-    "type": 1,
-    "icao": "LFKL",
-    "lat": 45.711667,
-    "lon": 4.697778,
-    "communications": [],
-    "elevation": 1040,
-    "tower": false,
-    "name": "Lyon Brindas",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 45.70972583,
-        "lonStart": 4.69743666,
-        "latEnd": 45.71360817,
-        "lonEnd": 4.69811934,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15647
-  },
-  {
-    "type": 1,
     "icao": "LFLY",
     "lat": 45.72809780199999,
     "lon": 4.943613709999999,
@@ -136,7 +84,91 @@
         "length": 14.9
       }
     ],
-    "id": 15648
+    "id": 3624
+  },
+  {
+    "type": 1,
+    "icao": "LFLZ",
+    "lat": 45.706562000000005,
+    "lon": 4.196996815,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12350,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1095,
+    "tower": false,
+    "name": "Feurs Chambeon",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 45.71032898,
+        "lonStart": 4.19424594,
+        "latEnd": 45.70279502,
+        "lonEnd": 4.19974769,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3625
+  },
+  {
+    "type": 1,
+    "icao": "LFHG",
+    "lat": 45.493055999999996,
+    "lon": 4.535556,
+    "communications": [],
+    "elevation": 1296,
+    "tower": false,
+    "name": "Saint Chamond l Horme",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 45.49349425,
+        "lonStart": 4.53110762,
+        "latEnd": 45.49261775,
+        "lonEnd": 4.54000438,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20309
+  },
+  {
+    "type": 1,
+    "icao": "LFHH",
+    "lat": 45.464167,
+    "lon": 4.828428,
+    "communications": [],
+    "elevation": 719,
+    "tower": false,
+    "name": "Vienne Reventin",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 45.46125362,
+        "lonStart": 4.82762056,
+        "latEnd": 45.46708038,
+        "lonEnd": 4.82923544,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20310
   },
   {
     "type": 1,
@@ -201,33 +233,143 @@
         "surfacetype": 3
       }
     ],
-    "id": 15649
+    "id": 20312
   },
   {
     "type": 1,
-    "icao": "LFHG",
-    "lat": 45.493055999999996,
-    "lon": 4.535556,
+    "icao": "LFHV",
+    "lat": 45.91863975,
+    "lon": 4.63535775,
     "communications": [],
-    "elevation": 1296,
+    "elevation": 1076,
+    "tower": true,
+    "name": "Villefranche Tarare",
+    "runways": [
+      {
+        "type": 100,
+        "width": 79.86,
+        "surfaceType": null,
+        "numberStart": "18L",
+        "numberEnd": "36R",
+        "latStart": 45.923514,
+        "lonStart": 4.636039,
+        "latEnd": 45.913814,
+        "lonEnd": 4.635581,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 45.9233,
+        "lonStart": 4.635,
+        "latEnd": 45.913931,
+        "lonEnd": 4.634811,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20319
+  },
+  {
+    "type": 1,
+    "icao": "LFKL",
+    "lat": 45.711667,
+    "lon": 4.697778,
+    "communications": [],
+    "elevation": 1040,
     "tower": false,
-    "name": "Saint Chamond l Horme",
+    "name": "Lyon Brindas",
     "runways": [
       {
         "type": 100,
         "width": 60.05,
         "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 45.49349425,
-        "lonStart": 4.53110762,
-        "latEnd": 45.49261775,
-        "lonEnd": 4.54000438,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 45.70972583,
+        "lonStart": 4.69743666,
+        "latEnd": 45.71360817,
+        "lonEnd": 4.69811934,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 22691
+    "id": 20347
+  },
+  {
+    "type": 1,
+    "icao": "LFKM",
+    "lat": 45.607222,
+    "lon": 4.305833,
+    "communications": [],
+    "elevation": 1266,
+    "tower": false,
+    "name": "Saint Galmier",
+    "runways": [
+      {
+        "type": 100,
+        "width": 70.1,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 45.60987206,
+        "lonStart": 4.30406658,
+        "latEnd": 45.60457194,
+        "lonEnd": 4.30759942,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20348
+  },
+  {
+    "type": 1,
+    "icao": "LFLR",
+    "lat": 45.25186196,
+    "lon": 4.82643513,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13340,
+        "name": "SAINT_RAMBERT TWR"
+      }
+    ],
+    "elevation": 508,
+    "tower": true,
+    "name": "St_Rambert_d'Albon",
+    "runways": [
+      {
+        "type": 100,
+        "width": 99.97,
+        "surfaceType": null,
+        "numberStart": "01R",
+        "numberEnd": "19L",
+        "latStart": 45.24778296,
+        "lonStart": 4.82646713,
+        "latEnd": 45.25580696,
+        "lonEnd": 4.82800513,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 99.97,
+        "surfaceType": null,
+        "numberStart": "01L",
+        "numberEnd": "19R",
+        "latStart": 45.24791596,
+        "lonStart": 4.82487913,
+        "latEnd": 45.25594196,
+        "lonEnd": 4.82638913,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20367
   },
   {
     "type": 1,
@@ -279,142 +421,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 22697
-  },
-  {
-    "type": 1,
-    "icao": "LFKM",
-    "lat": 45.607222,
-    "lon": 4.305833,
-    "communications": [],
-    "elevation": 1266,
-    "tower": false,
-    "name": "Saint Galmier",
-    "runways": [
-      {
-        "type": 100,
-        "width": 70.1,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 45.60987206,
-        "lonStart": 4.30406658,
-        "latEnd": 45.60457194,
-        "lonEnd": 4.30759942,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 22701
-  },
-  {
-    "type": 1,
-    "icao": "LFLR",
-    "lat": 45.25186196,
-    "lon": 4.82643513,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13340,
-        "name": "SAINT_RAMBERT TWR"
-      }
-    ],
-    "elevation": 508,
-    "tower": true,
-    "name": "St_Rambert_d'Albon",
-    "runways": [
-      {
-        "type": 100,
-        "width": 99.97,
-        "surfaceType": null,
-        "numberStart": "01R",
-        "numberEnd": "19L",
-        "latStart": 45.24778296,
-        "lonStart": 4.82646713,
-        "latEnd": 45.25580696,
-        "lonEnd": 4.82800513,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 99.97,
-        "surfaceType": null,
-        "numberStart": "01L",
-        "numberEnd": "19R",
-        "latStart": 45.24791596,
-        "lonStart": 4.82487913,
-        "latEnd": 45.25594196,
-        "lonEnd": 4.82638913,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 24073
-  },
-  {
-    "type": 1,
-    "icao": "LFHH",
-    "lat": 45.464167,
-    "lon": 4.828428,
-    "communications": [],
-    "elevation": 719,
-    "tower": false,
-    "name": "Vienne Reventin",
-    "runways": [
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 45.46125362,
-        "lonStart": 4.82762056,
-        "latEnd": 45.46708038,
-        "lonEnd": 4.82923544,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 26316
-  },
-  {
-    "type": 1,
-    "icao": "LFHV",
-    "lat": 45.91863975,
-    "lon": 4.63535775,
-    "communications": [],
-    "elevation": 1076,
-    "tower": true,
-    "name": "Villefranche Tarare",
-    "runways": [
-      {
-        "type": 100,
-        "width": 79.86,
-        "surfaceType": null,
-        "numberStart": "18L",
-        "numberEnd": "36R",
-        "latStart": 45.923514,
-        "lonStart": 4.636039,
-        "latEnd": 45.913814,
-        "lonEnd": 4.635581,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 45.9233,
-        "lonStart": 4.635,
-        "latEnd": 45.913931,
-        "lonEnd": 4.634811,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 26341
+    "id": 20375
   }
 ]

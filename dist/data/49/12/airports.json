@@ -19,8 +19,8 @@
         "type": 100,
         "width": 10.06,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
+        "numberStart": "16",
+        "numberEnd": "34",
         "latStart": 49.12650056,
         "lonStart": 12.98487597,
         "latEnd": 49.12284326,
@@ -29,71 +29,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 1197
-  },
-  {
-    "type": 1,
-    "icao": "LKKC",
-    "lat": 49.870540375000004,
-    "lon": 12.772368149999998,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12280,
-        "name": "INFO"
-      }
-    ],
-    "elevation": 2076,
-    "tower": true,
-    "name": "Krizenec",
-    "runways": [
-      {
-        "type": 100,
-        "width": 14.94,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 49.87005354,
-        "lonStart": 12.76833198,
-        "latEnd": 49.87102721,
-        "lonEnd": 12.77640432,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 14142
-  },
-  {
-    "type": 1,
-    "icao": "LKMR",
-    "lat": 49.922402845,
-    "lon": 12.72461821,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12090,
-        "name": "INFO"
-      }
-    ],
-    "elevation": 1768,
-    "tower": true,
-    "name": "Marianske Lazne",
-    "runways": [
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 49.92635257,
-        "lonStart": 12.72084407,
-        "latEnd": 49.91845312,
-        "lonEnd": 12.72839235,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 16686
+    "id": 1211
   },
   {
     "type": 1,
@@ -125,7 +61,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 18356
+    "id": 1222
   },
   {
     "type": 1,
@@ -157,39 +93,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 21320
-  },
-  {
-    "type": 1,
-    "icao": "EDPQ",
-    "lat": 49.42943219,
-    "lon": 12.098212375,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12300,
-        "name": "Schmidgaden Info"
-      }
-    ],
-    "elevation": 1247,
-    "tower": false,
-    "name": "Schmidgaden",
-    "runways": [
-      {
-        "type": 100,
-        "width": 13.5,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 49.43062491,
-        "lonStart": 12.09512407,
-        "latEnd": 49.42823947,
-        "lonEnd": 12.10130068,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 23104
+    "id": 1226
   },
   {
     "type": 1,
@@ -221,7 +125,191 @@
         "surfacetype": 3
       }
     ],
-    "id": 23149
+    "id": 1265
+  },
+  {
+    "type": 1,
+    "icao": "EDPQ",
+    "lat": 49.42943219,
+    "lon": 12.098212375,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12300,
+        "name": "Schmidgaden Info"
+      }
+    ],
+    "elevation": 1247,
+    "tower": false,
+    "name": "Schmidgaden",
+    "runways": [
+      {
+        "type": 100,
+        "width": 13.5,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 49.43062491,
+        "lonStart": 12.09512407,
+        "latEnd": 49.42823947,
+        "lonEnd": 12.10130068,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1273
+  },
+  {
+    "type": 1,
+    "icao": "EDQW",
+    "lat": 49.678935885,
+    "lon": 12.116924994999998,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12025,
+        "name": "Weiden Info"
+      }
+    ],
+    "elevation": 1328,
+    "tower": true,
+    "name": "Weiden",
+    "runways": [
+      {
+        "type": 100,
+        "width": 10,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 49.68070964,
+        "lonStart": 12.11449818,
+        "latEnd": 49.67655731,
+        "lonEnd": 12.11915264,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 20,
+        "surfaceType": 15,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 49.67867269,
+        "lonStart": 12.11762338,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20
+      },
+      {
+        "type": 102,
+        "width": 10.3,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 49.6798039,
+        "lonStart": 12.11642578,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.3
+      }
+    ],
+    "id": 1298
+  },
+  {
+    "type": 1,
+    "icao": "XEDI7",
+    "lat": 49.271622304999994,
+    "lon": 12.778320525000002,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12342,
+        "name": "Arnschwang Info"
+      }
+    ],
+    "elevation": 1354,
+    "tower": true,
+    "name": "Arnschwang",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 49.27040862,
+        "lonStart": 12.77624521,
+        "latEnd": 49.27283599,
+        "lonEnd": 12.78039584,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5393
+  },
+  {
+    "type": 1,
+    "icao": "LKKC",
+    "lat": 49.870540375000004,
+    "lon": 12.772368149999998,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12280,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 2076,
+    "tower": true,
+    "name": "Krizenec",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 49.87005354,
+        "lonStart": 12.76833198,
+        "latEnd": 49.87102721,
+        "lonEnd": 12.77640432,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20591
+  },
+  {
+    "type": 1,
+    "icao": "LKMR",
+    "lat": 49.922402845,
+    "lon": 12.72461821,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12090,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 1768,
+    "tower": true,
+    "name": "Marianske Lazne",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 49.92635257,
+        "lonStart": 12.72084407,
+        "latEnd": 49.91845312,
+        "lonEnd": 12.72839235,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20608
   },
   {
     "type": 1,
@@ -253,50 +341,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 24951
-  },
-  {
-    "type": 1,
-    "icao": "EDQW",
-    "lat": 49.678992646666664,
-    "lon": 12.116719483333334,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12025,
-        "name": "Weiden Info"
-      }
-    ],
-    "elevation": 1328,
-    "tower": true,
-    "name": "Weiden",
-    "runways": [
-      {
-        "type": 100,
-        "width": 10,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 49.68066981,
-        "lonStart": 12.11453533,
-        "latEnd": 49.6765352,
-        "lonEnd": 12.11917012,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 10.3,
-        "surfaceType": 15,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 49.67977293,
-        "lonStart": 12.116453,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.3
-      }
-    ],
-    "id": 27039
+    "id": 20642
   }
 ]

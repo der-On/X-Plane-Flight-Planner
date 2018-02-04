@@ -117,13 +117,13 @@
         "surfacetype": 1
       }
     ],
-    "id": 12011
+    "id": 5152
   },
   {
     "type": 1,
     "icao": "VMMC",
-    "lat": 22.148674999999997,
-    "lon": 113.59141149999999,
+    "lat": 22.149364845,
+    "lon": 113.59141197,
     "communications": [
       {
         "type": 50,
@@ -156,21 +156,63 @@
         "surfaceType": null,
         "numberStart": "16",
         "numberEnd": "34",
-        "latStart": 22.162328,
-        "lonStart": 113.586131,
+        "latStart": 22.16370769,
+        "lonStart": 113.58613194,
         "latEnd": 22.135022,
         "lonEnd": 113.596692,
         "length": 0,
         "surfacetype": 2
       }
     ],
-    "id": 16433
+    "id": 5162
+  },
+  {
+    "type": 1,
+    "icao": "ZGSD",
+    "lat": 22.006755384999998,
+    "lon": 113.376688185,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12845,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11865,
+        "name": "Tower"
+      },
+      {
+        "type": 53,
+        "frequency": 12165,
+        "name": "Ground"
+      }
+    ],
+    "elevation": 26,
+    "tower": true,
+    "name": "Zhuhai Jinwan",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 21.99393296,
+        "lonStart": 113.36308048,
+        "latEnd": 22.01957781,
+        "lonEnd": 113.39029589,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5628
   },
   {
     "type": 1,
     "icao": "ZGSZ",
-    "lat": 22.639205295,
-    "lon": 113.8019245575,
+    "lat": 22.63922546,
+    "lon": 113.80197154499999,
     "communications": [
       {
         "type": 50,
@@ -184,7 +226,7 @@
       },
       {
         "type": 52,
-        "frequency": 12795,
+        "frequency": 12195,
         "name": "CLD"
       },
       {
@@ -224,14 +266,14 @@
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 50,
         "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 22.652961,
-        "lonStart": 113.803147,
-        "latEnd": 22.625556,
-        "lonEnd": 113.818178,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 22.65447688,
+        "lonStart": 113.78488598,
+        "latEnd": 22.62389437,
+        "lonEnd": 113.80163823,
         "length": 0,
         "surfacetype": 2
       },
@@ -239,16 +281,16 @@
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 22.65445664,
-        "lonStart": 113.78479513,
-        "latEnd": 22.62384754,
-        "lonEnd": 113.8015781,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 22.65297112,
+        "lonStart": 113.80317833,
+        "latEnd": 22.62555947,
+        "lonEnd": 113.81818364,
         "length": 0,
         "surfacetype": 2
       }
     ],
-    "id": 23399
+    "id": 5629
   }
 ]

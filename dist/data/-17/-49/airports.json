@@ -1,54 +1,9 @@
 [
   {
     "type": 1,
-    "icao": "SWNS",
-    "lat": -16.3657059975,
-    "lon": -48.928517835,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12345,
-        "name": "CTAF Anapolis"
-      }
-    ],
-    "elevation": 3642,
-    "tower": false,
-    "name": "ANAPOLIS",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": -16.37654665,
-        "lonStart": -48.93617143,
-        "latEnd": -16.36160534,
-        "lonEnd": -48.92379391,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": -16.367247,
-        "lonStart": -48.933989,
-        "latEnd": -16.357425,
-        "lonEnd": -48.920117,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 294
-  },
-  {
-    "type": 1,
     "icao": "SBAN",
-    "lat": -16.2291535,
-    "lon": -48.96426675,
+    "lat": -16.2292539625,
+    "lon": -48.964310565000005,
     "communications": [
       {
         "type": 53,
@@ -63,6 +18,11 @@
       {
         "type": 54,
         "frequency": 11830,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12150,
         "name": "TWR"
       },
       {
@@ -84,11 +44,16 @@
         "type": 55,
         "frequency": 12055,
         "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12150,
+        "name": "APP"
       }
     ],
     "elevation": 3728,
     "tower": true,
-    "name": "BASE AEREA",
+    "name": "BASE AEREA ANAPOLIS",
     "runways": [
       {
         "type": 100,
@@ -109,41 +74,60 @@
         "surfaceType": null,
         "numberStart": "06R",
         "numberEnd": "24L",
-        "latStart": -16.239389,
-        "lonStart": -48.971667,
-        "latEnd": -16.223436,
-        "lonEnd": -48.958311,
+        "latStart": -16.23947397,
+        "lonStart": -48.9716917,
+        "latEnd": -16.22375288,
+        "lonEnd": -48.95846156,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 1549
+    "id": 4587
   },
   {
     "type": 1,
-    "icao": "SJPH",
-    "lat": -16.18944444,
-    "lon": -48.078055565,
-    "communications": [],
-    "elevation": 3297,
+    "icao": "SWNS",
+    "lat": -16.365154219999997,
+    "lon": -48.928318495,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12345,
+        "name": "CTAF Anapolis"
+      }
+    ],
+    "elevation": 3642,
     "tower": false,
-    "name": "Fazenda Palma",
+    "name": "ANAPOLIS",
     "runways": [
       {
         "type": 100,
-        "width": 22.86,
+        "width": 45,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": -16.19182484,
-        "lonStart": -48.08206143,
-        "latEnd": -16.18706404,
-        "lonEnd": -48.0740497,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -16.37654665,
+        "lonStart": -48.93617143,
+        "latEnd": -16.35766464,
+        "lonEnd": -48.92056605,
         "length": 0,
-        "surfacetype": 5
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -16.36726276,
+        "lonStart": -48.93399447,
+        "latEnd": -16.35914283,
+        "lonEnd": -48.92254203,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "id": 8579
+    "id": 4980
   },
   {
     "type": 1,
@@ -169,32 +153,33 @@
         "surfacetype": 5
       }
     ],
-    "id": 8691
+    "id": 26458
   },
   {
-    "type": 17,
-    "icao": "SSYX",
-    "lat": -16.40277778,
-    "lon": -48.96416667,
+    "type": 1,
+    "icao": "SJPH",
+    "lat": -16.18944444,
+    "lon": -48.078055565,
     "communications": [],
-    "elevation": 1143,
+    "elevation": 3297,
     "tower": false,
-    "name": "[H] Neo Quimica",
+    "name": "Fazenda Palma",
     "runways": [
       {
-        "type": 102,
-        "width": 21,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -16.40277778,
-        "lonStart": -48.96416667,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -16.19182484,
+        "lonStart": -48.08206143,
+        "latEnd": -16.18706404,
+        "lonEnd": -48.0740497,
+        "length": 0,
+        "surfacetype": 5
       }
     ],
-    "id": 31585
+    "id": 27105
   },
   {
     "type": 17,
@@ -219,7 +204,32 @@
         "length": 28
       }
     ],
-    "id": 31864
+    "id": 27190
+  },
+  {
+    "type": 17,
+    "icao": "SSYX",
+    "lat": -16.40277778,
+    "lon": -48.96416667,
+    "communications": [],
+    "elevation": 1143,
+    "tower": false,
+    "name": "[H] Neo Quimica",
+    "runways": [
+      {
+        "type": 102,
+        "width": 21,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -16.40277778,
+        "lonStart": -48.96416667,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21
+      }
+    ],
+    "id": 28916
   },
   {
     "type": 17,
@@ -244,7 +254,7 @@
         "length": 20.1
       }
     ],
-    "id": 33261
+    "id": 29468
   },
   {
     "type": 17,
@@ -269,6 +279,6 @@
         "length": 18
       }
     ],
-    "id": 33341
+    "id": 29583
   }
 ]

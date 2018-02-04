@@ -1,6 +1,44 @@
 [
   {
     "type": 1,
+    "icao": "PAAL",
+    "lat": 56.00029823333333,
+    "lon": -160.56428676,
+    "communications": [],
+    "elevation": 6,
+    "tower": false,
+    "name": "Port Moller",
+    "runways": [
+      {
+        "type": 100,
+        "width": 35,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 56.0099455,
+        "lonStart": -160.555528,
+        "latEnd": 56.0018345,
+        "lonEnd": -160.56429408,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 25,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 55.9891147,
+        "lonStart": -160.5730382,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 25
+      }
+    ],
+    "id": 4360
+  },
+  {
+    "type": 1,
     "icao": "Z52",
     "lat": 56.03668555000001,
     "lon": -160.26620528,
@@ -36,44 +74,6 @@
         "surfacetype": 5
       }
     ],
-    "id": 13077
-  },
-  {
-    "type": 1,
-    "icao": "PAAL",
-    "lat": 56.00029823333333,
-    "lon": -160.56428676,
-    "communications": [],
-    "elevation": 6,
-    "tower": false,
-    "name": "Port Moller",
-    "runways": [
-      {
-        "type": 100,
-        "width": 35,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 56.0099455,
-        "lonStart": -160.555528,
-        "latEnd": 56.0018345,
-        "lonEnd": -160.56429408,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 25,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 55.9891147,
-        "lonStart": -160.5730382,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 25
-      }
-    ],
-    "id": 20390
+    "id": 34897
   }
 ]

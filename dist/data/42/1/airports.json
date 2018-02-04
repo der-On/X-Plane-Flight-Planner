@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "LECD",
-    "lat": 42.386988265,
-    "lon": 1.8629415950000001,
+    "lat": 42.38696409333333,
+    "lon": 1.8640486,
     "communications": [
       {
         "type": 54,
@@ -11,7 +11,7 @@
         "name": "TWR"
       }
     ],
-    "elevation": 3586,
+    "elevation": 3585,
     "tower": true,
     "name": "La Cerdanya",
     "runways": [
@@ -27,47 +27,65 @@
         "lonEnd": 1.86920818,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 20,
+        "surfaceType": 2,
+        "numberStart": "H10",
+        "numberEnd": null,
+        "latStart": 42.38691575,
+        "lonStart": 1.86626261,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20
       }
     ],
-    "id": 14698
+    "id": 3492
   },
   {
     "type": 1,
     "icao": "LESU",
-    "lat": 42.33979923333333,
-    "lon": 1.4079035,
-    "communications": [],
+    "lat": 42.339816879999994,
+    "lon": 1.40792679,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12220,
+        "name": "AFIS"
+      }
+    ],
     "elevation": 2624,
     "tower": true,
     "name": "La Seu d'Urgell",
     "runways": [
       {
         "type": 100,
-        "width": 35,
+        "width": 28,
         "surfaceType": null,
         "numberStart": "03",
         "numberEnd": "21",
-        "latStart": 42.33566899,
-        "lonStart": 1.40633753,
-        "latEnd": 42.34632463,
-        "lonEnd": 1.41496986,
+        "latStart": 42.33567812,
+        "lonStart": 1.40635318,
+        "latEnd": 42.34639512,
+        "lonEnd": 1.41501992,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 102,
-        "width": 21.1,
-        "surfaceType": 15,
+        "width": 20,
+        "surfaceType": 2,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 42.33740408,
-        "lonStart": 1.40240311,
+        "latStart": 42.3373774,
+        "lonStart": 1.40240727,
         "latEnd": null,
         "lonEnd": null,
-        "length": 20.4
+        "length": 20
       }
     ],
-    "id": 14743
+    "id": 3529
   },
   {
     "type": 1,
@@ -99,6 +117,6 @@
         "surfacetype": 4
       }
     ],
-    "id": 15366
+    "id": 20152
   }
 ]

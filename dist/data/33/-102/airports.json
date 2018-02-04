@@ -1,299 +1,9 @@
 [
   {
     "type": 1,
-    "icao": "F83",
-    "lat": 33.84625425,
-    "lon": -101.764729,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 3327,
-    "tower": false,
-    "name": "ABERNATHY MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 33.851411,
-        "lonStart": -101.762947,
-        "latEnd": 33.840417,
-        "lonEnd": -101.762947,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 33.843292,
-        "lonStart": -101.770075,
-        "latEnd": 33.849897,
-        "lonEnd": -101.762947,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 46
-  },
-  {
-    "type": 1,
-    "icao": "47XS",
-    "lat": 33.47249999,
-    "lon": -101.78527778,
-    "communications": [],
-    "elevation": 3152,
-    "tower": false,
-    "name": "Bartos Farm",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 33.47551727,
-        "lonStart": -101.78527778,
-        "latEnd": 33.46948271,
-        "lonEnd": -101.78527778,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 2304
-  },
-  {
-    "type": 1,
-    "icao": "9TX6",
-    "lat": 33.17509527,
-    "lon": -101.02401639,
-    "communications": [],
-    "elevation": 2354,
-    "tower": false,
-    "name": "Beggs Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 33.18188599,
-        "lonStart": -101.02287616,
-        "latEnd": 33.16830455,
-        "lonEnd": -101.02515662,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 2459
-  },
-  {
-    "type": 1,
-    "icao": "8F3",
-    "lat": 33.623836499999996,
-    "lon": -101.2408485,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 11920,
-        "name": "LUBBOCK APP/DEP"
-      }
-    ],
-    "elevation": 3018,
-    "tower": false,
-    "name": "CROSBYTON MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 33.628781,
-        "lonStart": -101.24085,
-        "latEnd": 33.618892,
-        "lonEnd": -101.240847,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 4238
-  },
-  {
-    "type": 1,
-    "icao": "3F1",
-    "lat": 33.81119333,
-    "lon": -101.39626862,
-    "communications": [],
-    "elevation": 3144,
-    "tower": false,
-    "name": "Cone",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 33.8170487,
-        "lonStart": -101.39639163,
-        "latEnd": 33.80533796,
-        "lonEnd": -101.39614561,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 33.81113349,
-        "lonStart": -101.40039463,
-        "latEnd": 33.81125317,
-        "lonEnd": -101.39214261,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 5260
-  },
-  {
-    "type": 1,
-    "icao": "2TX6",
-    "lat": 33.68175083,
-    "lon": -101.66849806,
-    "communications": [],
-    "elevation": 3200,
-    "tower": false,
-    "name": "Everitt",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 33.68641319,
-        "lonStart": -101.66859586,
-        "latEnd": 33.67708847,
-        "lonEnd": -101.66840026,
-        "length": 0,
-        "surfacetype": 4
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 33.68169817,
-        "lonStart": -101.67212347,
-        "latEnd": 33.68180349,
-        "lonEnd": -101.66487265,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 7366
-  },
-  {
-    "type": 1,
-    "icao": "18XS",
-    "lat": 33.80008194,
-    "lon": -101.03375445,
-    "communications": [],
-    "elevation": 3000,
-    "tower": false,
-    "name": "Gardner Farm",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 33.80337302,
-        "lonStart": -101.03382358,
-        "latEnd": 33.79679086,
-        "lonEnd": -101.03368532,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 10311
-  },
-  {
-    "type": 1,
-    "icao": "9XS5",
-    "lat": 33.350090550000004,
-    "lon": -101.64154306,
-    "communications": [],
-    "elevation": 3049,
-    "tower": false,
-    "name": "Kitten Farm - Private",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 33.34521397,
-        "lonStart": -101.6424677,
-        "latEnd": 33.35496713,
-        "lonEnd": -101.64061842,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 13948
-  },
-  {
-    "type": 1,
-    "icao": "00XS",
-    "lat": 33.03342777,
-    "lon": -101.93377195,
-    "communications": [],
-    "elevation": 3110,
-    "tower": false,
-    "name": "L P Askew Farms",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 33.03544904,
-        "lonStart": -101.93381403,
-        "latEnd": 33.0314065,
-        "lonEnd": -101.93372987,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 14245
-  },
-  {
-    "type": 1,
     "icao": "KLBB",
-    "lat": 33.66164813500001,
-    "lon": -101.8145084925,
+    "lat": 33.661567,
+    "lon": -101.81859983333334,
     "communications": [
       {
         "type": 50,
@@ -352,19 +62,6 @@
     "runways": [
       {
         "type": 100,
-        "width": 2.13,
-        "surfaceType": null,
-        "numberStart": "15L",
-        "numberEnd": "33R",
-        "latStart": 33.66188991,
-        "lonStart": -101.80256402,
-        "latEnd": 33.66189317,
-        "lonEnd": -101.80190492,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
         "width": 45.72,
         "surfaceType": null,
         "numberStart": "17R",
@@ -403,136 +100,33 @@
         "surfacetype": 1
       }
     ],
-    "id": 14650
+    "id": 2871
   },
   {
     "type": 1,
-    "icao": "9XS3",
-    "lat": 33.10343055,
-    "lon": -101.46486167,
+    "icao": "00XS",
+    "lat": 33.03342777,
+    "lon": -101.93377195,
     "communications": [],
-    "elevation": 2870,
+    "elevation": 3110,
     "tower": false,
-    "name": "Macy Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 38.1,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 33.10049947,
-        "lonStart": -101.46769512,
-        "latEnd": 33.10636163,
-        "lonEnd": -101.46202822,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 16451
-  },
-  {
-    "type": 1,
-    "icao": "TX01",
-    "lat": 33.3084225,
-    "lon": -101.9101625,
-    "communications": [],
-    "elevation": 3234,
-    "tower": false,
-    "name": "New Home",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 33.31204268,
-        "lonStart": -101.91023811,
-        "latEnd": 33.30480232,
-        "lonEnd": -101.91008689,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 18255
-  },
-  {
-    "type": 1,
-    "icao": "5F1",
-    "lat": 33.2044445,
-    "lon": -101.34187524999999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 2545,
-    "tower": false,
-    "name": "POST GARZA CO MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 33.212222,
-        "lonStart": -101.340278,
-        "latEnd": 33.200556,
-        "lonEnd": -101.340556,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 33.201389,
-        "lonStart": -101.346667,
-        "latEnd": 33.203611,
-        "lonEnd": -101.34,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19519
-  },
-  {
-    "type": 1,
-    "icao": "F49",
-    "lat": 33.483961,
-    "lon": -101.66081199999999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12300,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 3123,
-    "tower": false,
-    "name": "SLATON MUNI",
+    "name": "L P Askew Farms",
     "runways": [
       {
         "type": 100,
         "width": 22.86,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 33.489722,
-        "lonStart": -101.659722,
-        "latEnd": 33.4782,
-        "lonEnd": -101.661902,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 33.03544904,
+        "lonStart": -101.93381403,
+        "latEnd": 33.0314065,
+        "lonEnd": -101.93372987,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 22336
+    "id": 6249
   },
   {
     "type": 1,
@@ -577,7 +171,379 @@
         "surfacetype": 5
       }
     ],
-    "id": 24515
+    "id": 6943
+  },
+  {
+    "type": 1,
+    "icao": "2TX6",
+    "lat": 33.68175083,
+    "lon": -101.66849806,
+    "communications": [],
+    "elevation": 3200,
+    "tower": false,
+    "name": "Everitt",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 33.68641319,
+        "lonStart": -101.66859586,
+        "latEnd": 33.67708847,
+        "lonEnd": -101.66840026,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 33.68169817,
+        "lonStart": -101.67212347,
+        "latEnd": 33.68180349,
+        "lonEnd": -101.66487265,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 7346
+  },
+  {
+    "type": 1,
+    "icao": "3F1",
+    "lat": 33.81119333,
+    "lon": -101.39626862,
+    "communications": [],
+    "elevation": 3144,
+    "tower": false,
+    "name": "Cone",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 33.8170487,
+        "lonStart": -101.39639163,
+        "latEnd": 33.80533796,
+        "lonEnd": -101.39614561,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 33.81113349,
+        "lonStart": -101.40039463,
+        "latEnd": 33.81125317,
+        "lonEnd": -101.39214261,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7499
+  },
+  {
+    "type": 1,
+    "icao": "5F1",
+    "lat": 33.2044445,
+    "lon": -101.34187524999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 2545,
+    "tower": false,
+    "name": "POST GARZA CO MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 33.212222,
+        "lonStart": -101.340278,
+        "latEnd": 33.200556,
+        "lonEnd": -101.340556,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 33.201389,
+        "lonStart": -101.346667,
+        "latEnd": 33.203611,
+        "lonEnd": -101.34,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 8551
+  },
+  {
+    "type": 17,
+    "icao": "6TX0",
+    "lat": 33.59175166,
+    "lon": -101.84766639,
+    "communications": [],
+    "elevation": 3210,
+    "tower": false,
+    "name": "[H] Department of Public Safety",
+    "runways": [
+      {
+        "type": 102,
+        "width": 21.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.59175166,
+        "lonStart": -101.84766639,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 9421
+  },
+  {
+    "type": 1,
+    "icao": "8F3",
+    "lat": 33.623836499999996,
+    "lon": -101.2408485,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11920,
+        "name": "LUBBOCK APP/DEP"
+      }
+    ],
+    "elevation": 3018,
+    "tower": false,
+    "name": "CROSBYTON MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 33.628781,
+        "lonStart": -101.24085,
+        "latEnd": 33.618892,
+        "lonEnd": -101.240847,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10030
+  },
+  {
+    "type": 1,
+    "icao": "9TX6",
+    "lat": 33.17509527,
+    "lon": -101.02401639,
+    "communications": [],
+    "elevation": 2354,
+    "tower": false,
+    "name": "Beggs Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 33.18188599,
+        "lonStart": -101.02287616,
+        "latEnd": 33.16830455,
+        "lonEnd": -101.02515662,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10808
+  },
+  {
+    "type": 1,
+    "icao": "9XS3",
+    "lat": 33.10343055,
+    "lon": -101.46486167,
+    "communications": [],
+    "elevation": 2870,
+    "tower": false,
+    "name": "Macy Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 38.1,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 33.10049947,
+        "lonStart": -101.46769512,
+        "latEnd": 33.10636163,
+        "lonEnd": -101.46202822,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10863
+  },
+  {
+    "type": 1,
+    "icao": "9XS5",
+    "lat": 33.350090550000004,
+    "lon": -101.64154306,
+    "communications": [],
+    "elevation": 3049,
+    "tower": false,
+    "name": "Kitten Farm - Private",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 33.34521397,
+        "lonStart": -101.6424677,
+        "latEnd": 33.35496713,
+        "lonEnd": -101.64061842,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 10864
+  },
+  {
+    "type": 1,
+    "icao": "18XS",
+    "lat": 33.80008194,
+    "lon": -101.03375445,
+    "communications": [],
+    "elevation": 3000,
+    "tower": false,
+    "name": "Gardner Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 33.80337302,
+        "lonStart": -101.03382358,
+        "latEnd": 33.79679086,
+        "lonEnd": -101.03368532,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 11252
+  },
+  {
+    "type": 1,
+    "icao": "47XS",
+    "lat": 33.47249999,
+    "lon": -101.78527778,
+    "communications": [],
+    "elevation": 3152,
+    "tower": false,
+    "name": "Bartos Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 33.47551727,
+        "lonStart": -101.78527778,
+        "latEnd": 33.46948271,
+        "lonEnd": -101.78527778,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 12389
+  },
+  {
+    "type": 17,
+    "icao": "74TS",
+    "lat": 33.57397388,
+    "lon": -101.90072306,
+    "communications": [],
+    "elevation": 3278,
+    "tower": false,
+    "name": "[H] St Mary of The Plains Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.57397388,
+        "lonStart": -101.90072306,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 13459
+  },
+  {
+    "type": 1,
+    "icao": "F49",
+    "lat": 33.483961,
+    "lon": -101.66081199999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 3123,
+    "tower": false,
+    "name": "SLATON MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 33.489722,
+        "lonStart": -101.659722,
+        "latEnd": 33.4782,
+        "lonEnd": -101.661902,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16732
   },
   {
     "type": 1,
@@ -622,82 +588,52 @@
         "surfacetype": 3
       }
     ],
-    "id": 24819
+    "id": 16751
   },
   {
-    "type": 17,
-    "icao": "6TX0",
-    "lat": 33.59175166,
-    "lon": -101.84766639,
-    "communications": [],
-    "elevation": 3210,
-    "tower": false,
-    "name": "[H] Department of Public Safety",
-    "runways": [
+    "type": 1,
+    "icao": "F83",
+    "lat": 33.84625425,
+    "lon": -101.764729,
+    "communications": [
       {
-        "type": 102,
-        "width": 21.3,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.59175166,
-        "lonStart": -101.84766639,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
       }
     ],
-    "id": 29323
-  },
-  {
-    "type": 17,
-    "icao": "TS66",
-    "lat": 33.58305555,
-    "lon": -101.89416667,
-    "communications": [],
-    "elevation": 3225,
+    "elevation": 3327,
     "tower": false,
-    "name": "[H] Lubbbock Methodist Hospital",
+    "name": "ABERNATHY MUNI",
     "runways": [
       {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.58305555,
-        "lonStart": -101.89416667,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 30961
-  },
-  {
-    "type": 17,
-    "icao": "74TS",
-    "lat": 33.57397388,
-    "lon": -101.90072306,
-    "communications": [],
-    "elevation": 3278,
-    "tower": false,
-    "name": "[H] St Mary of The Plains Hospital",
-    "runways": [
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 33.851411,
+        "lonStart": -101.762947,
+        "latEnd": 33.840417,
+        "lonEnd": -101.762947,
+        "length": 0,
+        "surfacetype": 1
+      },
       {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.57397388,
-        "lonStart": -101.90072306,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 33.843292,
+        "lonStart": -101.770075,
+        "latEnd": 33.849897,
+        "lonEnd": -101.762947,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "id": 32970
+    "id": 16752
   },
   {
     "type": 17,
@@ -722,6 +658,57 @@
         "length": 18.3
       }
     ],
-    "id": 33510
+    "id": 29799
+  },
+  {
+    "type": 17,
+    "icao": "TS66",
+    "lat": 33.58305555,
+    "lon": -101.89416667,
+    "communications": [],
+    "elevation": 3225,
+    "tower": false,
+    "name": "[H] Lubbbock Methodist Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.58305555,
+        "lonStart": -101.89416667,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 30042
+  },
+  {
+    "type": 1,
+    "icao": "TX01",
+    "lat": 33.3084225,
+    "lon": -101.9101625,
+    "communications": [],
+    "elevation": 3234,
+    "tower": false,
+    "name": "New Home",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 33.31204268,
+        "lonStart": -101.91023811,
+        "latEnd": 33.30480232,
+        "lonEnd": -101.91008689,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 30083
   }
 ]

@@ -3,42 +3,11 @@
     "type": 1,
     "icao": "KIDA",
     "lat": 43.514641235,
-    "lon": -112.06830748,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13532,
-        "name": "ASOS"
-      },
-      {
-        "type": 50,
-        "frequency": 13532,
-        "name": "ATIS"
-      },
-      {
-        "type": 51,
-        "frequency": 11850,
-        "name": "CTAF"
-      },
-      {
-        "type": 51,
-        "frequency": 12295,
-        "name": "UNICOM"
-      },
-      {
-        "type": 53,
-        "frequency": 12170,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11850,
-        "name": "TWR"
-      }
-    ],
+    "lon": -112.0683074675,
+    "communications": [],
     "elevation": 4744,
     "tower": true,
-    "name": "KIDA",
+    "name": "Idaho Falls Regional",
     "runways": [
       {
         "type": 100,
@@ -46,10 +15,10 @@
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 43.51148934,
-        "lonStart": -112.06210285,
-        "latEnd": 43.52259284,
-        "lonEnd": -112.06159267,
+        "latStart": 43.52259283,
+        "lonStart": -112.06159243,
+        "latEnd": 43.51148935,
+        "lonEnd": -112.06210304,
         "length": 0,
         "surfacetype": 1
       },
@@ -67,39 +36,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 13353
-  },
-  {
-    "type": 1,
-    "icao": "U02",
-    "lat": 43.2092515,
-    "lon": -112.3495865,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 4488,
-    "tower": false,
-    "name": "MCCARLEY FLD",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 43.203842,
-        "lonStart": -112.352867,
-        "latEnd": 43.214661,
-        "lonEnd": -112.346306,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 15977
+    "id": 2808
   },
   {
     "type": 1,
@@ -131,59 +68,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 16358
-  },
-  {
-    "type": 1,
-    "icao": "U37",
-    "lat": 43.45824222,
-    "lon": -112.80915834000001,
-    "communications": [],
-    "elevation": 5017,
-    "tower": false,
-    "name": "Midway",
-    "runways": [
-      {
-        "type": 100,
-        "width": 53.34,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 43.4540259,
-        "lonStart": -112.81337854,
-        "latEnd": 43.46245854,
-        "lonEnd": -112.80493814,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 17167
-  },
-  {
-    "type": 1,
-    "icao": "ID50",
-    "lat": 43.6013,
-    "lon": -112.24330973,
-    "communications": [],
-    "elevation": 4875,
-    "tower": false,
-    "name": "Q.B. One",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 43.60484634,
-        "lonStart": -112.24279501,
-        "latEnd": 43.59775366,
-        "lonEnd": -112.24382445,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 20649
+    "id": 6790
   },
   {
     "type": 1,
@@ -209,7 +94,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 21628
+    "id": 7353
   },
   {
     "type": 1,
@@ -235,6 +120,90 @@
         "surfacetype": 3
       }
     ],
-    "id": 21858
+    "id": 18242
+  },
+  {
+    "type": 1,
+    "icao": "ID50",
+    "lat": 43.6013,
+    "lon": -112.24330973,
+    "communications": [],
+    "elevation": 4875,
+    "tower": false,
+    "name": "Q.B. One",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 43.60484634,
+        "lonStart": -112.24279501,
+        "latEnd": 43.59775366,
+        "lonEnd": -112.24382445,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 18279
+  },
+  {
+    "type": 1,
+    "icao": "U02",
+    "lat": 43.2092515,
+    "lon": -112.3495865,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 4488,
+    "tower": false,
+    "name": "MCCARLEY FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 43.203842,
+        "lonStart": -112.352867,
+        "latEnd": 43.214661,
+        "lonEnd": -112.346306,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 30173
+  },
+  {
+    "type": 1,
+    "icao": "U37",
+    "lat": 43.45824222,
+    "lon": -112.80915834000001,
+    "communications": [],
+    "elevation": 5017,
+    "tower": false,
+    "name": "Midway",
+    "runways": [
+      {
+        "type": 100,
+        "width": 53.34,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 43.4540259,
+        "lonStart": -112.81337854,
+        "latEnd": 43.46245854,
+        "lonEnd": -112.80493814,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 30181
   }
 ]

@@ -21,11 +21,6 @@
         "name": "CLEARANCE DEL."
       },
       {
-        "type": 53,
-        "frequency": 12087,
-        "name": "GROUND"
-      },
-      {
         "type": 54,
         "frequency": 12495,
         "name": "TWR/CTAF"
@@ -41,7 +36,7 @@
         "name": "SAN JUAN CNTR"
       }
     ],
-    "elevation": 236,
+    "elevation": 235,
     "tower": true,
     "name": "Aguadilla/Rafael Hernandez",
     "runways": [
@@ -59,33 +54,39 @@
         "surfacetype": 1
       }
     ],
-    "id": 714
+    "id": 5008
   },
   {
     "type": 1,
-    "icao": "PR10",
-    "lat": 18.0107455,
-    "lon": -67.1414195,
-    "communications": [],
-    "elevation": 2,
-    "tower": false,
-    "name": "BOQUERON",
+    "icao": "TJMZ",
+    "lat": 18.2556445,
+    "lon": -67.1484515,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11875,
+        "name": "SAN JUAN CNTR"
+      }
+    ],
+    "elevation": 28,
+    "tower": true,
+    "name": "Mayaguez/Eugenio Maria De Hostos",
     "runways": [
       {
         "type": 100,
-        "width": 18.29,
+        "width": 29.87,
         "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 18.009044,
-        "lonStart": -67.145342,
-        "latEnd": 18.012447,
-        "lonEnd": -67.137497,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 18.254036,
+        "lonStart": -67.155456,
+        "latEnd": 18.257253,
+        "lonEnd": -67.141447,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 1840
+    "id": 5011
   },
   {
     "type": 1,
@@ -111,49 +112,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 14749
-  },
-  {
-    "type": 1,
-    "icao": "TJMZ",
-    "lat": 18.2556445,
-    "lon": -67.1484515,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 52,
-        "frequency": 12170,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 55,
-        "frequency": 11875,
-        "name": "SAN JUAN CNTR"
-      }
-    ],
-    "elevation": 28,
-    "tower": true,
-    "name": "Mayaguez/Eugenio Maria De Hostos",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 18.254036,
-        "lonStart": -67.155456,
-        "latEnd": 18.257253,
-        "lonEnd": -67.141447,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 16846
+    "id": 24156
   },
   {
     "type": 17,
@@ -178,6 +137,32 @@
         "length": 30.5
       }
     ],
-    "id": 28374
+    "id": 24159
+  },
+  {
+    "type": 1,
+    "icao": "PR10",
+    "lat": 18.0107455,
+    "lon": -67.1414195,
+    "communications": [],
+    "elevation": 2,
+    "tower": false,
+    "name": "BOQUERON",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 18.009044,
+        "lonStart": -67.145342,
+        "latEnd": 18.012447,
+        "lonEnd": -67.137497,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 24160
   }
 ]

@@ -1,61 +1,9 @@
 [
   {
     "type": 1,
-    "icao": "SDNT",
-    "lat": -15.68166667,
-    "lon": -47.76888889,
-    "communications": [],
-    "elevation": 3562,
-    "tower": false,
-    "name": "Aerorancho",
-    "runways": [
-      {
-        "type": 100,
-        "width": 27.13,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": -15.67895427,
-        "lonStart": -47.77376812,
-        "latEnd": -15.68437907,
-        "lonEnd": -47.76400966,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 661
-  },
-  {
-    "type": 1,
-    "icao": "SIQE",
-    "lat": -15.9373755,
-    "lon": -47.7270155,
-    "communications": [],
-    "elevation": 3362,
-    "tower": false,
-    "name": "Botelho",
-    "runways": [
-      {
-        "type": 100,
-        "width": 25,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": -15.933638,
-        "lonStart": -47.733206,
-        "latEnd": -15.941113,
-        "lonEnd": -47.720825,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 3039
-  },
-  {
-    "type": 1,
     "icao": "SBBR",
-    "lat": -15.867752988571429,
-    "lon": -47.91291410571428,
+    "lat": -15.867742332857144,
+    "lon": -47.91290758142857,
     "communications": [
       {
         "type": 50,
@@ -125,8 +73,8 @@
         "numberEnd": "29L",
         "latStart": -15.88052267,
         "lonStart": -47.94002399,
-        "latEnd": -15.87844967,
-        "lonEnd": -47.90921799,
+        "latEnd": -15.87850122,
+        "lonEnd": -47.90926823,
         "length": 0,
         "surfacetype": 1
       },
@@ -138,10 +86,22 @@
         "numberEnd": "29R",
         "latStart": -15.86336905,
         "lonStart": -47.92761138,
-        "latEnd": -15.86153607,
-        "lonEnd": -47.8977796,
+        "latEnd": -15.8614277,
+        "lonEnd": -47.89770957,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 18.9,
+        "surfaceType": 2,
+        "numberStart": "H5",
+        "numberEnd": null,
+        "latStart": -15.86072509,
+        "lonStart": -47.90540046,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21.8
       },
       {
         "type": 102,
@@ -161,58 +121,46 @@
         "surfaceType": 1,
         "numberStart": "H2",
         "numberEnd": null,
-        "latStart": -15.86468597,
-        "lonStart": -47.90519298,
+        "latStart": -15.8646682,
+        "lonStart": -47.9051671,
         "latEnd": null,
         "lonEnd": null,
         "length": 21.5
-      },
-      {
-        "type": 102,
-        "width": 18.9,
-        "surfaceType": 2,
-        "numberStart": "H5",
-        "numberEnd": null,
-        "latStart": -15.86072509,
-        "lonStart": -47.90540046,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21.8
       }
     ],
-    "id": 3126
+    "id": 4593
   },
   {
     "type": 1,
-    "icao": "SDZF",
-    "lat": -15.991944445000001,
-    "lon": -47.47527778,
+    "icao": "SIQE",
+    "lat": -15.937245,
+    "lon": -47.726935999999995,
     "communications": [],
-    "elevation": 2946,
+    "elevation": 3398,
     "tower": false,
-    "name": "Fazenda Lamarao",
+    "name": "Botelho",
     "runways": [
       {
         "type": 100,
-        "width": 17.98,
+        "width": 25,
         "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": -15.99405115,
-        "lonStart": -47.47599168,
-        "latEnd": -15.98983774,
-        "lonEnd": -47.47456388,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -15.933375,
+        "lonStart": -47.733042,
+        "latEnd": -15.941115,
+        "lonEnd": -47.72083,
         "length": 0,
-        "surfacetype": 5
+        "surfacetype": 1
       }
     ],
-    "id": 8451
+    "id": 4879
   },
   {
     "type": 1,
     "icao": "SWFR",
-    "lat": -15.554266093333334,
-    "lon": -47.3443125,
+    "lat": -15.554294030000001,
+    "lon": -47.34432179,
     "communications": [
       {
         "type": 51,
@@ -243,14 +191,241 @@
         "surfaceType": 2,
         "numberStart": "H3",
         "numberEnd": null,
-        "latStart": -15.55128706,
-        "lonStart": -47.34399699,
+        "latStart": -15.55137087,
+        "lonStart": -47.34402486,
         "latEnd": null,
         "lonEnd": null,
         "length": 9.2
       }
     ],
-    "id": 9587
+    "id": 4975
+  },
+  {
+    "type": 1,
+    "icao": "SDNT",
+    "lat": -15.68166667,
+    "lon": -47.76888889,
+    "communications": [],
+    "elevation": 3562,
+    "tower": false,
+    "name": "Aerorancho",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.13,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -15.67895427,
+        "lonStart": -47.77376812,
+        "latEnd": -15.68437907,
+        "lonEnd": -47.76400966,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 25660
+  },
+  {
+    "type": 1,
+    "icao": "SDZF",
+    "lat": -15.991944445000001,
+    "lon": -47.47527778,
+    "communications": [],
+    "elevation": 2946,
+    "tower": false,
+    "name": "Fazenda Lamarao",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": -15.99405115,
+        "lonStart": -47.47599168,
+        "latEnd": -15.98983774,
+        "lonEnd": -47.47456388,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 25951
+  },
+  {
+    "type": 17,
+    "icao": "SICS",
+    "lat": -15.775,
+    "lon": -47.90611111,
+    "communications": [],
+    "elevation": 1100,
+    "tower": false,
+    "name": "[H] Base Resgate",
+    "runways": [
+      {
+        "type": 102,
+        "width": 22.6,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -15.775,
+        "lonStart": -47.90611111,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.9
+      }
+    ],
+    "id": 26127
+  },
+  {
+    "type": 17,
+    "icao": "SIHF",
+    "lat": -15.70444444,
+    "lon": -47.92055556,
+    "communications": [],
+    "elevation": 1048,
+    "tower": false,
+    "name": "[H] Campo de Exposicao Torto",
+    "runways": [
+      {
+        "type": 102,
+        "width": 28.6,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -15.70444444,
+        "lonStart": -47.92055556,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 28.6
+      }
+    ],
+    "id": 26242
+  },
+  {
+    "type": 17,
+    "icao": "SIIY",
+    "lat": -15.79222222,
+    "lon": -47.89444444,
+    "communications": [],
+    "elevation": 1187,
+    "tower": false,
+    "name": "[H] Brasil XXI",
+    "runways": [
+      {
+        "type": 102,
+        "width": 19.5,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -15.79222222,
+        "lonStart": -47.89444444,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19.5
+      }
+    ],
+    "id": 26287
+  },
+  {
+    "type": 17,
+    "icao": "SIVA",
+    "lat": -15.70694444,
+    "lon": -47.36944444,
+    "communications": [],
+    "elevation": 970,
+    "tower": false,
+    "name": "[H] Cereal Citrus",
+    "runways": [
+      {
+        "type": 102,
+        "width": 21,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -15.70694444,
+        "lonStart": -47.36944444,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21
+      }
+    ],
+    "id": 26592
+  },
+  {
+    "type": 17,
+    "icao": "SJWY",
+    "lat": -15.91083333,
+    "lon": -47.97305556,
+    "communications": [],
+    "elevation": 1133,
+    "tower": false,
+    "name": "[H] Parkway",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -15.91083333,
+        "lonStart": -47.97305556,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 27298
+  },
+  {
+    "type": 17,
+    "icao": "SNCN",
+    "lat": -15.795,
+    "lon": -47.89416667,
+    "communications": [],
+    "elevation": 3854,
+    "tower": false,
+    "name": "[H] Parque Cidade",
+    "runways": [
+      {
+        "type": 102,
+        "width": 24.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -15.795,
+        "lonStart": -47.89416667,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.1
+      }
+    ],
+    "id": 27636
+  },
+  {
+    "type": 17,
+    "icao": "SNHF",
+    "lat": -15.77361111,
+    "lon": -47.81666667,
+    "communications": [],
+    "elevation": 3292,
+    "tower": false,
+    "name": "[H] Figaro",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -15.77361111,
+        "lonStart": -47.81666667,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 27747
   },
   {
     "type": 1,
@@ -276,7 +451,132 @@
         "surfacetype": 3
       }
     ],
-    "id": 20191
+    "id": 28472
+  },
+  {
+    "type": 17,
+    "icao": "SWAS",
+    "lat": -15.80611111,
+    "lon": -47.88361111,
+    "communications": [],
+    "elevation": 1116,
+    "tower": false,
+    "name": "[H] Telebras I",
+    "runways": [
+      {
+        "type": 102,
+        "width": 17.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -15.80611111,
+        "lonStart": -47.88361111,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 17.1
+      }
+    ],
+    "id": 29069
+  },
+  {
+    "type": 17,
+    "icao": "SWAW",
+    "lat": -15.80611111,
+    "lon": -47.8825,
+    "communications": [],
+    "elevation": 1116,
+    "tower": false,
+    "name": "[H] Telebras II",
+    "runways": [
+      {
+        "type": 102,
+        "width": 17.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -15.80611111,
+        "lonStart": -47.8825,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 17.1
+      }
+    ],
+    "id": 29073
+  },
+  {
+    "type": 17,
+    "icao": "SWES",
+    "lat": -15.79111111,
+    "lon": -47.895,
+    "communications": [],
+    "elevation": 1121,
+    "tower": false,
+    "name": "[H] ESAT Aerotaxi",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.9,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -15.79111111,
+        "lonStart": -47.895,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.9
+      }
+    ],
+    "id": 29158
+  },
+  {
+    "type": 17,
+    "icao": "SWHB",
+    "lat": -15.855,
+    "lon": -47.86805556,
+    "communications": [],
+    "elevation": 1008,
+    "tower": false,
+    "name": "[H] Brasex 1",
+    "runways": [
+      {
+        "type": 102,
+        "width": 22.6,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -15.855,
+        "lonStart": -47.86805556,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 22.6
+      }
+    ],
+    "id": 29210
+  },
+  {
+    "type": 17,
+    "icao": "SWNZ",
+    "lat": -15.78916667,
+    "lon": -47.8875,
+    "communications": [],
+    "elevation": 1144,
+    "tower": false,
+    "name": "[H] Number One",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -15.78916667,
+        "lonStart": -47.8875,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 29360
   },
   {
     "type": 1,
@@ -302,257 +602,7 @@
         "surfacetype": 5
       }
     ],
-    "id": 20237
-  },
-  {
-    "type": 17,
-    "icao": "SWWR",
-    "lat": -15.77583333,
-    "lon": -47.90111111,
-    "communications": [],
-    "elevation": 1126,
-    "tower": false,
-    "name": "[H] Autodromo Internacional de Brasilia",
-    "runways": [
-      {
-        "type": 102,
-        "width": 19.5,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -15.77583333,
-        "lonStart": -47.90111111,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.5
-      }
-    ],
-    "id": 28236
-  },
-  {
-    "type": 17,
-    "icao": "SICS",
-    "lat": -15.775,
-    "lon": -47.90611111,
-    "communications": [],
-    "elevation": 1100,
-    "tower": false,
-    "name": "[H] Base Resgate",
-    "runways": [
-      {
-        "type": 102,
-        "width": 22.6,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -15.775,
-        "lonStart": -47.90611111,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 29.9
-      }
-    ],
-    "id": 28358
-  },
-  {
-    "type": 17,
-    "icao": "SWHB",
-    "lat": -15.855,
-    "lon": -47.86805556,
-    "communications": [],
-    "elevation": 1008,
-    "tower": false,
-    "name": "[H] Brasex 1",
-    "runways": [
-      {
-        "type": 102,
-        "width": 22.6,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -15.855,
-        "lonStart": -47.86805556,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 22.6
-      }
-    ],
-    "id": 28571
-  },
-  {
-    "type": 17,
-    "icao": "SIIY",
-    "lat": -15.79222222,
-    "lon": -47.89444444,
-    "communications": [],
-    "elevation": 1187,
-    "tower": false,
-    "name": "[H] Brasil XXI",
-    "runways": [
-      {
-        "type": 102,
-        "width": 19.5,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -15.79222222,
-        "lonStart": -47.89444444,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.5
-      }
-    ],
-    "id": 28572
-  },
-  {
-    "type": 17,
-    "icao": "SIHF",
-    "lat": -15.70444444,
-    "lon": -47.92055556,
-    "communications": [],
-    "elevation": 1048,
-    "tower": false,
-    "name": "[H] Campo de Exposicao Torto",
-    "runways": [
-      {
-        "type": 102,
-        "width": 28.6,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -15.70444444,
-        "lonStart": -47.92055556,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 28.6
-      }
-    ],
-    "id": 28745
-  },
-  {
-    "type": 17,
-    "icao": "SIVA",
-    "lat": -15.70694444,
-    "lon": -47.36944444,
-    "communications": [],
-    "elevation": 970,
-    "tower": false,
-    "name": "[H] Cereal Citrus",
-    "runways": [
-      {
-        "type": 102,
-        "width": 21,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -15.70694444,
-        "lonStart": -47.36944444,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21
-      }
-    ],
-    "id": 28864
-  },
-  {
-    "type": 17,
-    "icao": "SWES",
-    "lat": -15.79111111,
-    "lon": -47.895,
-    "communications": [],
-    "elevation": 1121,
-    "tower": false,
-    "name": "[H] ESAT Aerotaxi",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.9,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -15.79111111,
-        "lonStart": -47.895,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.9
-      }
-    ],
-    "id": 29443
-  },
-  {
-    "type": 17,
-    "icao": "SWWP",
-    "lat": -15.85111111,
-    "lon": -47.80777778,
-    "communications": [],
-    "elevation": 1080,
-    "tower": false,
-    "name": "[H] Fazenda Taboca",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -15.85111111,
-        "lonStart": -47.80777778,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
-      }
-    ],
-    "id": 29704
-  },
-  {
-    "type": 17,
-    "icao": "SNHF",
-    "lat": -15.77361111,
-    "lon": -47.81666667,
-    "communications": [],
-    "elevation": 3292,
-    "tower": false,
-    "name": "[H] Figaro",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -15.77361111,
-        "lonStart": -47.81666667,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
-      }
-    ],
-    "id": 29722
-  },
-  {
-    "type": 17,
-    "icao": "SWNZ",
-    "lat": -15.78916667,
-    "lon": -47.8875,
-    "communications": [],
-    "elevation": 1144,
-    "tower": false,
-    "name": "[H] Number One",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -15.78916667,
-        "lonStart": -47.8875,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
-      }
-    ],
-    "id": 31691
+    "id": 29405
   },
   {
     "type": 17,
@@ -577,132 +627,7 @@
         "length": 19.5
       }
     ],
-    "id": 31812
-  },
-  {
-    "type": 17,
-    "icao": "SJWY",
-    "lat": -15.91083333,
-    "lon": -47.97305556,
-    "communications": [],
-    "elevation": 1133,
-    "tower": false,
-    "name": "[H] Parkway",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -15.91083333,
-        "lonStart": -47.97305556,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
-      }
-    ],
-    "id": 31908
-  },
-  {
-    "type": 17,
-    "icao": "SNCN",
-    "lat": -15.795,
-    "lon": -47.89416667,
-    "communications": [],
-    "elevation": 3854,
-    "tower": false,
-    "name": "[H] Parque Cidade",
-    "runways": [
-      {
-        "type": 102,
-        "width": 24.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -15.795,
-        "lonStart": -47.89416667,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.1
-      }
-    ],
-    "id": 31913
-  },
-  {
-    "type": 17,
-    "icao": "SWAS",
-    "lat": -15.80611111,
-    "lon": -47.88361111,
-    "communications": [],
-    "elevation": 1116,
-    "tower": false,
-    "name": "[H] Telebras I",
-    "runways": [
-      {
-        "type": 102,
-        "width": 17.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -15.80611111,
-        "lonStart": -47.88361111,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 17.1
-      }
-    ],
-    "id": 33227
-  },
-  {
-    "type": 17,
-    "icao": "SWAW",
-    "lat": -15.80611111,
-    "lon": -47.8825,
-    "communications": [],
-    "elevation": 1116,
-    "tower": false,
-    "name": "[H] Telebras II",
-    "runways": [
-      {
-        "type": 102,
-        "width": 17.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -15.80611111,
-        "lonStart": -47.8825,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 17.1
-      }
-    ],
-    "id": 33228
-  },
-  {
-    "type": 17,
-    "icao": "SWWQ",
-    "lat": -15.77166667,
-    "lon": -47.87055556,
-    "communications": [],
-    "elevation": 1045,
-    "tower": false,
-    "name": "[H] UNB Autotrac",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -15.77166667,
-        "lonStart": -47.87055556,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
-      }
-    ],
-    "id": 33443
+    "id": 29478
   },
   {
     "type": 17,
@@ -727,6 +652,81 @@
         "length": 18
       }
     ],
-    "id": 33583
+    "id": 29526
+  },
+  {
+    "type": 17,
+    "icao": "SWWP",
+    "lat": -15.85111111,
+    "lon": -47.80777778,
+    "communications": [],
+    "elevation": 1080,
+    "tower": false,
+    "name": "[H] Fazenda Taboca",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -15.85111111,
+        "lonStart": -47.80777778,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 29565
+  },
+  {
+    "type": 17,
+    "icao": "SWWQ",
+    "lat": -15.77166667,
+    "lon": -47.87055556,
+    "communications": [],
+    "elevation": 1045,
+    "tower": false,
+    "name": "[H] UNB Autotrac",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -15.77166667,
+        "lonStart": -47.87055556,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 29566
+  },
+  {
+    "type": 17,
+    "icao": "SWWR",
+    "lat": -15.77583333,
+    "lon": -47.90111111,
+    "communications": [],
+    "elevation": 1126,
+    "tower": false,
+    "name": "[H] Autodromo Internacional de Brasilia",
+    "runways": [
+      {
+        "type": 102,
+        "width": 19.5,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -15.77583333,
+        "lonStart": -47.90111111,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19.5
+      }
+    ],
+    "id": 29567
   }
 ]

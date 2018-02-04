@@ -4,7 +4,13 @@
     "icao": "88NV",
     "lat": 40.751839,
     "lon": -119.22247725,
-    "communications": [],
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
     "elevation": 3903,
     "tower": false,
     "name": "Black Rock City - Burning Man",
@@ -36,7 +42,7 @@
         "surfacetype": 12
       }
     ],
-    "id": 2794
+    "id": 483
   },
   {
     "type": 1,
@@ -75,33 +81,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 7169
-  },
-  {
-    "type": 1,
-    "icao": "NV77",
-    "lat": 40.43573611,
-    "lon": -119.46185473,
-    "communications": [],
-    "elevation": 4085,
-    "tower": false,
-    "name": "Empire Farms",
-    "runways": [
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 40.44132337,
-        "lonStart": -119.45961045,
-        "latEnd": 40.43014885,
-        "lonEnd": -119.46409901,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 7172
+    "id": 6271
   },
   {
     "type": 1,
@@ -140,7 +120,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 14760
+    "id": 22916
+  },
+  {
+    "type": 1,
+    "icao": "NV77",
+    "lat": 40.43573611,
+    "lon": -119.46185473,
+    "communications": [],
+    "elevation": 4085,
+    "tower": false,
+    "name": "Empire Farms",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 40.44132337,
+        "lonStart": -119.45961045,
+        "latEnd": 40.43014885,
+        "lonEnd": -119.46409901,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 22953
   },
   {
     "type": 16,
@@ -165,6 +171,6 @@
         "length": 0
       }
     ],
-    "id": 34383
+    "id": 24325
   }
 ]

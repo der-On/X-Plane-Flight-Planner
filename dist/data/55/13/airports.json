@@ -1,5 +1,56 @@
 [
   {
+    "type": 17,
+    "icao": "ESEM",
+    "lat": 55.71176163,
+    "lon": 13.19883151,
+    "communications": [],
+    "elevation": 217,
+    "tower": false,
+    "name": "[H] Lund hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 35,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 55.71176163,
+        "lonStart": 13.19883151,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 35
+      }
+    ],
+    "id": 1878
+  },
+  {
+    "type": 1,
+    "icao": "ESFJ",
+    "lat": 55.649041,
+    "lon": 13.625468285,
+    "communications": [],
+    "elevation": 137,
+    "tower": false,
+    "name": "[X] Sjöbo Björka airbase",
+    "runways": [
+      {
+        "type": 100,
+        "width": 35,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 55.65428642,
+        "lonStart": 13.61267212,
+        "latEnd": 55.64379558,
+        "lonEnd": 13.63826445,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1884
+  },
+  {
     "type": 1,
     "icao": "ESME",
     "lat": 55.8482867475,
@@ -7,7 +58,7 @@
     "communications": [],
     "elevation": 196,
     "tower": false,
-    "name": "EslC6v",
+    "name": "Eslöv",
     "runways": [
       {
         "type": 100,
@@ -36,7 +87,52 @@
         "surfacetype": 3
       }
     ],
-    "id": 7275
+    "id": 1947
+  },
+  {
+    "type": 1,
+    "icao": "ESMI",
+    "lat": 55.5978605,
+    "lon": 13.67518275,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12365,
+        "name": "RDO Sovde Radio"
+      }
+    ],
+    "elevation": 118,
+    "tower": false,
+    "name": "Sjobo Sovde",
+    "runways": [
+      {
+        "type": 100,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 55.600315,
+        "lonStart": 13.671436,
+        "latEnd": 55.595787,
+        "lonEnd": 13.681242,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "12R",
+        "numberEnd": "30L",
+        "latStart": 55.600473,
+        "lonStart": 13.668093,
+        "latEnd": 55.594867,
+        "lonEnd": 13.67996,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1951
   },
   {
     "type": 1,
@@ -62,7 +158,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 13533
+    "id": 1952
   },
   {
     "type": 1,
@@ -127,52 +223,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 16546
-  },
-  {
-    "type": 1,
-    "icao": "ESMI",
-    "lat": 55.5978605,
-    "lon": 13.67518275,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12365,
-        "name": "RDO Sovde Radio"
-      }
-    ],
-    "elevation": 118,
-    "tower": false,
-    "name": "Sjobo Sovde",
-    "runways": [
-      {
-        "type": 100,
-        "width": 50,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 55.600315,
-        "lonStart": 13.671436,
-        "latEnd": 55.595787,
-        "lonEnd": 13.681242,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 50,
-        "surfaceType": null,
-        "numberStart": "12R",
-        "numberEnd": "30L",
-        "latStart": 55.600473,
-        "lonStart": 13.668093,
-        "latEnd": 55.594867,
-        "lonEnd": 13.67996,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23583
+    "id": 1958
   },
   {
     "type": 1,
@@ -198,7 +249,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 25451
+    "id": 2024
   },
   {
     "type": 1,
@@ -230,6 +281,123 @@
         "surfacetype": 3
       }
     ],
-    "id": 26257
+    "id": 2025
+  },
+  {
+    "type": 1,
+    "icao": "XESM2",
+    "lat": 55.6587052925,
+    "lon": 13.2682540025,
+    "communications": [],
+    "elevation": 55,
+    "tower": false,
+    "name": "Bjällerup",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 55.6576205,
+        "lonStart": 13.26724273,
+        "latEnd": 55.659751,
+        "lonEnd": 13.275536,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 12,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 55.65936364,
+        "lonStart": 13.2612027,
+        "latEnd": 55.65808603,
+        "lonEnd": 13.26903458,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5429
+  },
+  {
+    "type": 1,
+    "icao": "XESM6",
+    "lat": 55.428033,
+    "lon": 13.005255965,
+    "communications": [],
+    "elevation": 7,
+    "tower": false,
+    "name": "Fridhem Gaard",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 55.42842368,
+        "lonStart": 13.00180464,
+        "latEnd": 55.42764232,
+        "lonEnd": 13.00870729,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5433
+  },
+  {
+    "type": 1,
+    "icao": "XESM8",
+    "lat": 55.800636,
+    "lon": 13.622157985000001,
+    "communications": [],
+    "elevation": 432,
+    "tower": false,
+    "name": "Kvarnhem",
+    "runways": [
+      {
+        "type": 100,
+        "width": 25,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 55.80077523,
+        "lonStart": 13.61718237,
+        "latEnd": 55.80049677,
+        "lonEnd": 13.6271336,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5435
+  },
+  {
+    "type": 1,
+    "icao": "XESM10",
+    "lat": 55.723946999999995,
+    "lon": 13.107574795,
+    "communications": [],
+    "elevation": 47,
+    "tower": false,
+    "name": "Vindfälle",
+    "runways": [
+      {
+        "type": 100,
+        "width": 16,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 55.72376672,
+        "lonStart": 13.1047689,
+        "latEnd": 55.72412728,
+        "lonEnd": 13.11038069,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5437
   }
 ]

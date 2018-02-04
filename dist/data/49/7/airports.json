@@ -1,119 +1,85 @@
 [
   {
     "type": 1,
-    "icao": "EDRS",
-    "lat": 49.7906542725,
-    "lon": 7.6654833925,
+    "icao": "EDDR",
+    "lat": 49.21536388,
+    "lon": 7.112668449999999,
     "communications": [
       {
-        "type": 54,
-        "frequency": 11892,
-        "name": "Sobernheim Info"
-      }
-    ],
-    "elevation": 810,
-    "tower": true,
-    "name": "Bad Sobernheim",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 49.79017138,
-        "lonStart": 7.66539613,
-        "latEnd": 49.79401342,
-        "lonEnd": 7.66936702,
-        "length": 0,
-        "surfacetype": 3
+        "type": 50,
+        "frequency": 12547,
+        "name": "Saarbruecken ATIS"
       },
       {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 49.78823247,
-        "lonStart": 7.66173434,
-        "latEnd": 49.79019982,
-        "lonEnd": 7.66543608,
-        "length": 0,
-        "surfacetype": 3
+        "type": 54,
+        "frequency": 11835,
+        "name": "Saarbruecken Tower"
       }
     ],
-    "id": 2048
-  },
-  {
-    "type": 1,
-    "icao": "ETEK",
-    "lat": 49.651675499999996,
-    "lon": 7.307074500000001,
-    "communications": [],
-    "elevation": 1420,
-    "tower": false,
-    "name": "Baumholder Army Airfield",
+    "elevation": 1057,
+    "tower": true,
+    "name": "Saarbruecken",
     "runways": [
       {
         "type": 100,
-        "width": 16,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 49.650917,
-        "lonStart": 7.303263,
-        "latEnd": 49.652434,
-        "lonEnd": 7.310886,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 49.21417063,
+        "lonStart": 7.0963572,
+        "latEnd": 49.21498163,
+        "lonEnd": 7.1237422,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "09L",
+        "numberEnd": "27R",
+        "latStart": 49.21602798,
+        "lonStart": 7.11155046,
+        "latEnd": 49.21627528,
+        "lonEnd": 7.11902394,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 2361
+    "id": 1062
   },
   {
     "type": 1,
-    "icao": "EDRX",
-    "lat": 49.33881769,
-    "lon": 7.2510114725,
+    "icao": "EDEL",
+    "lat": 49.908658,
+    "lon": 7.9077265,
     "communications": [
       {
         "type": 54,
-        "frequency": 12305,
-        "name": "Bexbach Info"
+        "frequency": 12287,
+        "name": "Langenlonsheim Info"
       }
     ],
-    "elevation": 892,
+    "elevation": 295,
     "tower": true,
-    "name": "Bexbach",
+    "name": "Langenlonsheim",
     "runways": [
-      {
-        "type": 100,
-        "width": 20,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 49.33619256,
-        "lonStart": 7.24663056,
-        "latEnd": 49.3393332,
-        "lonEnd": 7.25146733,
-        "length": 0,
-        "surfacetype": 3
-      },
       {
         "type": 100,
         "width": 30,
         "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 49.338774,
-        "lonStart": 7.250007,
-        "latEnd": 49.340971,
-        "lonEnd": 7.255941,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 49.905429,
+        "lonStart": 7.906286,
+        "latEnd": 49.911887,
+        "lonEnd": 7.909167,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 2651
+    "id": 1071
   },
   {
     "type": 1,
@@ -182,7 +148,39 @@
         "length": 17.9
       }
     ],
-    "id": 9677
+    "id": 1085
+  },
+  {
+    "type": 1,
+    "icao": "EDRG",
+    "lat": 49.732059,
+    "lon": 7.335724,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12285,
+        "name": "Idar-Oberstein Info"
+      }
+    ],
+    "elevation": 1574,
+    "tower": true,
+    "name": "Idar-Oberstein/Goettschied",
+    "runways": [
+      {
+        "type": 100,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 49.731047,
+        "lonStart": 7.331873,
+        "latEnd": 49.733071,
+        "lonEnd": 7.339575,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1307
   },
   {
     "type": 1,
@@ -232,121 +230,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 12041
-  },
-  {
-    "type": 1,
-    "icao": "EDRG",
-    "lat": 49.732059,
-    "lon": 7.335724,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12285,
-        "name": "Idar-Oberstein Info"
-      }
-    ],
-    "elevation": 1574,
-    "tower": true,
-    "name": "Idar-Oberstein/Goettschied",
-    "runways": [
-      {
-        "type": 100,
-        "width": 50,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 49.731047,
-        "lonStart": 7.331873,
-        "latEnd": 49.733071,
-        "lonEnd": 7.339575,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 12406
-  },
-  {
-    "type": 17,
-    "icao": "ETED",
-    "lat": 49.44789,
-    "lon": 7.839579,
-    "communications": [],
-    "elevation": 951,
-    "tower": false,
-    "name": "Kaiserlautern Depot Heliport",
-    "runways": [
-      {
-        "type": 102,
-        "width": 14.7,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 49.44789,
-        "lonStart": 7.839579,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 14.7
-      }
-    ],
-    "id": 13542
-  },
-  {
-    "type": 17,
-    "icao": "ETIY",
-    "lat": 49.402481,
-    "lon": 7.558593,
-    "communications": [],
-    "elevation": 1135,
-    "tower": false,
-    "name": "Landstuhl Regional Medical Center",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.3,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 49.402481,
-        "lonStart": 7.558593,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.3
-      }
-    ],
-    "id": 14918
-  },
-  {
-    "type": 1,
-    "icao": "EDEL",
-    "lat": 49.908658,
-    "lon": 7.9077265,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12287,
-        "name": "Langenlonsheim Info"
-      }
-    ],
-    "elevation": 295,
-    "tower": true,
-    "name": "Langenlonsheim",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 49.905429,
-        "lonStart": 7.906286,
-        "latEnd": 49.911887,
-        "lonEnd": 7.909167,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 14928
+    "id": 1308
   },
   {
     "type": 1,
@@ -378,7 +262,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 17395
+    "id": 1313
   },
   {
     "type": 1,
@@ -410,7 +294,39 @@
         "surfacetype": 3
       }
     ],
-    "id": 18108
+    "id": 1314
+  },
+  {
+    "type": 1,
+    "icao": "EDRO",
+    "lat": 49.0318305,
+    "lon": 7.990539,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12300,
+        "name": "Schweighofen Info"
+      }
+    ],
+    "elevation": 492,
+    "tower": true,
+    "name": "Schweighofen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 49.031335,
+        "lonStart": 7.986586,
+        "latEnd": 49.032326,
+        "lonEnd": 7.994492,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1315
   },
   {
     "type": 1,
@@ -452,7 +368,134 @@
         "surfacetype": 1
       }
     ],
-    "id": 20204
+    "id": 1316
+  },
+  {
+    "type": 1,
+    "icao": "EDRS",
+    "lat": 49.7906542725,
+    "lon": 7.6654833925,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11892,
+        "name": "Sobernheim Info"
+      }
+    ],
+    "elevation": 810,
+    "tower": true,
+    "name": "Bad Sobernheim",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 49.79017138,
+        "lonStart": 7.66539613,
+        "latEnd": 49.79401342,
+        "lonEnd": 7.66936702,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 49.78823247,
+        "lonStart": 7.66173434,
+        "latEnd": 49.79019982,
+        "lonEnd": 7.66543608,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1317
+  },
+  {
+    "type": 1,
+    "icao": "EDRX",
+    "lat": 49.33881769,
+    "lon": 7.2510114725,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12305,
+        "name": "Bexbach Info"
+      }
+    ],
+    "elevation": 892,
+    "tower": true,
+    "name": "Bexbach",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 49.33619256,
+        "lonStart": 7.24663056,
+        "latEnd": 49.3393332,
+        "lonEnd": 7.25146733,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 49.338774,
+        "lonStart": 7.250007,
+        "latEnd": 49.340971,
+        "lonEnd": 7.255941,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1321
+  },
+  {
+    "type": 1,
+    "icao": "EDRZ",
+    "lat": 49.208449,
+    "lon": 7.3997145,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12382,
+        "name": "Zweibruecken Info"
+      },
+      {
+        "type": 55,
+        "frequency": 12967,
+        "name": "LANGEN RADAR"
+      }
+    ],
+    "elevation": 1130,
+    "tower": true,
+    "name": "Zweibruecken",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 49.198041,
+        "lonStart": 7.390546,
+        "latEnd": 49.218857,
+        "lonEnd": 7.408883,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1323
   },
   {
     "type": 1,
@@ -502,57 +545,108 @@
         "surfacetype": 1
       }
     ],
-    "id": 21158
+    "id": 2055
+  },
+  {
+    "type": 17,
+    "icao": "ETED",
+    "lat": 49.44789,
+    "lon": 7.839579,
+    "communications": [],
+    "elevation": 951,
+    "tower": false,
+    "name": "Kaiserlautern Depot Heliport",
+    "runways": [
+      {
+        "type": 102,
+        "width": 14.7,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 49.44789,
+        "lonStart": 7.839579,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.7
+      }
+    ],
+    "id": 2057
   },
   {
     "type": 1,
-    "icao": "EDDR",
-    "lat": 49.21536388,
-    "lon": 7.112668449999999,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12530,
-        "name": "ATIS"
-      },
-      {
-        "type": 54,
-        "frequency": 11835,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 1057,
-    "tower": true,
-    "name": "Saarbruecken",
+    "icao": "ETEK",
+    "lat": 49.651675499999996,
+    "lon": 7.307074500000001,
+    "communications": [],
+    "elevation": 1420,
+    "tower": false,
+    "name": "Baumholder Army Airfield",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 16,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 49.21417063,
-        "lonStart": 7.0963572,
-        "latEnd": 49.21498163,
-        "lonEnd": 7.1237422,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 49.650917,
+        "lonStart": 7.303263,
+        "latEnd": 49.652434,
+        "lonEnd": 7.310886,
         "length": 0,
         "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "09L",
-        "numberEnd": "27R",
-        "latStart": 49.21602798,
-        "lonStart": 7.11155046,
-        "latEnd": 49.21627528,
-        "lonEnd": 7.11902394,
-        "length": 0,
-        "surfacetype": 3
       }
     ],
-    "id": 22644
+    "id": 2058
+  },
+  {
+    "type": 17,
+    "icao": "ETIP",
+    "lat": 49.40306119,
+    "lon": 7.53612917,
+    "communications": [],
+    "elevation": 1175,
+    "tower": true,
+    "name": "[H] Landstuhl Army Heliport",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 49.40306119,
+        "lonStart": 7.53612917,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30
+      }
+    ],
+    "id": 2072
+  },
+  {
+    "type": 17,
+    "icao": "ETIY",
+    "lat": 49.402481,
+    "lon": 7.558593,
+    "communications": [],
+    "elevation": 1135,
+    "tower": false,
+    "name": "Landstuhl Regional Medical Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 49.402481,
+        "lonStart": 7.558593,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.3
+      }
+    ],
+    "id": 2073
   },
   {
     "type": 1,
@@ -591,75 +685,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 23023
-  },
-  {
-    "type": 1,
-    "icao": "EDRO",
-    "lat": 49.0318305,
-    "lon": 7.990539,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12300,
-        "name": "Schweighofen Info"
-      }
-    ],
-    "elevation": 492,
-    "tower": true,
-    "name": "Schweighofen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 49.031335,
-        "lonStart": 7.986586,
-        "latEnd": 49.032326,
-        "lonEnd": 7.994492,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23152
-  },
-  {
-    "type": 1,
-    "icao": "EDRZ",
-    "lat": 49.208449,
-    "lon": 7.3997145,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12382,
-        "name": "Zweibruecken Info"
-      },
-      {
-        "type": 55,
-        "frequency": 12967,
-        "name": "LANGEN RADAR"
-      }
-    ],
-    "elevation": 1130,
-    "tower": true,
-    "name": "Zweibruecken",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 49.198041,
-        "lonStart": 7.390546,
-        "latEnd": 49.218857,
-        "lonEnd": 7.408883,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 27930
+    "id": 20300
   }
 ]

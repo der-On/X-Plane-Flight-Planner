@@ -1,6 +1,95 @@
 [
   {
     "type": 1,
+    "icao": "WIMK",
+    "lat": 3.558057,
+    "lon": 98.6717155,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12680,
+        "name": "MEDAN ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11970,
+        "name": "MEDAN APP"
+      }
+    ],
+    "elevation": 89,
+    "tower": true,
+    "name": "Soewondo AB",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 3.549075,
+        "lonStart": 98.662217,
+        "latEnd": 3.567039,
+        "lonEnd": 98.681214,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5256
+  },
+  {
+    "type": 1,
+    "icao": "WIMM",
+    "lat": 3.637817,
+    "lon": 98.8705935,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 11970,
+        "name": "Medan Director APP"
+      },
+      {
+        "type": 54,
+        "frequency": 11860,
+        "name": "Kualanamu TWR"
+      },
+      {
+        "type": 53,
+        "frequency": 13030,
+        "name": "Kualanamu GND"
+      },
+      {
+        "type": 50,
+        "frequency": 12630,
+        "name": "ATIS"
+      }
+    ],
+    "elevation": 75,
+    "tower": true,
+    "name": "Medan - Kualanamu International",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "5",
+        "numberEnd": "23",
+        "latStart": 3.62583,
+        "lonStart": 98.858662,
+        "latEnd": 3.649804,
+        "lonEnd": 98.882525,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5257
+  },
+  {
+    "type": 1,
     "icao": "WIMH",
     "lat": 3.682503165,
     "lon": 98.64011157499999,
@@ -23,48 +112,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 11657
-  },
-  {
-    "type": 1,
-    "icao": "WIMM",
-    "lat": 3.558057,
-    "lon": 98.6717155,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12680,
-        "name": "MEDAN ATIS"
-      },
-      {
-        "type": 54,
-        "frequency": 11810,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11970,
-        "name": "MEDAN APP"
-      }
-    ],
-    "elevation": 90,
-    "tower": true,
-    "name": "Medan/Polonia",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 3.549075,
-        "lonStart": 98.662217,
-        "latEnd": 3.567039,
-        "lonEnd": 98.681214,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 17007
+    "id": 31640
   }
 ]

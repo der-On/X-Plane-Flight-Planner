@@ -1,9 +1,35 @@
 [
   {
     "type": 1,
+    "icao": "BE2",
+    "lat": 49.28556331,
+    "lon": -115.157578445,
+    "communications": [],
+    "elevation": 2850,
+    "tower": false,
+    "name": "Elko",
+    "runways": [
+      {
+        "type": 100,
+        "width": 38.1,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 49.28244891,
+        "lonStart": -115.1643495,
+        "latEnd": 49.28867771,
+        "lonEnd": -115.15080739,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 531
+  },
+  {
+    "type": 1,
     "icao": "CYXC",
-    "lat": 49.612121,
-    "lon": -115.7820545,
+    "lat": 49.61378703,
+    "lon": -115.78324714,
     "communications": [
       {
         "type": 54,
@@ -21,40 +47,26 @@
         "surfaceType": null,
         "numberStart": "16",
         "numberEnd": "34",
-        "latStart": 49.623081,
-        "lonStart": -115.782303,
-        "latEnd": 49.601161,
-        "lonEnd": -115.781806,
+        "latStart": 49.62521985,
+        "lonStart": -115.78235133,
+        "latEnd": 49.60115026,
+        "lonEnd": -115.78180516,
         "length": 0,
         "surfacetype": 1
-      }
-    ],
-    "id": 3607
-  },
-  {
-    "type": 1,
-    "icao": "BE2",
-    "lat": 49.2833328,
-    "lon": -115.1500015,
-    "communications": [],
-    "elevation": 2850,
-    "tower": false,
-    "name": "Elko",
-    "runways": [
+      },
       {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 49.28068807,
-        "lonStart": -115.15483329,
-        "latEnd": 49.28597753,
-        "lonEnd": -115.14516971,
-        "length": 0,
-        "surfacetype": 3
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 49.61499098,
+        "lonStart": -115.78558493,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
       }
     ],
-    "id": 7101
+    "id": 856
   }
 ]

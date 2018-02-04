@@ -2,9 +2,14 @@
   {
     "type": 1,
     "icao": "NSTU",
-    "lat": -14.33005963,
-    "lon": -170.7102440125,
+    "lat": -14.3301302025,
+    "lon": -170.7103223125,
     "communications": [
+      {
+        "type": 50,
+        "frequency": 12792,
+        "name": "AWOS"
+      },
       {
         "type": 51,
         "frequency": 12290,
@@ -44,14 +49,14 @@
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": -14.32645432,
-        "lonStart": -170.71300155,
-        "latEnd": -14.3264407,
-        "lonEnd": -170.7019526,
+        "latStart": -14.32670585,
+        "lonStart": -170.71301728,
+        "latEnd": -14.32647146,
+        "lonEnd": -170.70225007,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 19651
+    "id": 4194
   }
 ]

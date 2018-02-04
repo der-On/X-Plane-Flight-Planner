@@ -1,61 +1,17 @@
 [
   {
     "type": 1,
-    "icao": "LIMW",
-    "lat": 45.73869547666667,
-    "lon": 7.367805126666667,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11995,
-        "name": "INFO"
-      }
-    ],
-    "elevation": 1791,
-    "tower": true,
-    "name": "AOSTA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 45.73791403,
-        "lonStart": 7.3576214,
-        "latEnd": 45.73923397,
-        "lonEnd": 7.37816424,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 27.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 45.73893843,
-        "lonStart": 7.36762974,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 27.1
-      }
-    ],
-    "id": 342
-  },
-  {
-    "type": 1,
     "icao": "LIMA",
-    "lat": 45.0856395,
-    "lon": 7.60422275,
+    "lat": 45.085960283999995,
+    "lon": 7.604686118000001,
     "communications": [
       {
         "type": 54,
         "frequency": 11980,
-        "name": "INFO"
+        "name": "info"
       }
     ],
-    "elevation": 943,
+    "elevation": 942,
     "tower": true,
     "name": "Torino Aeritalia",
     "runways": [
@@ -65,10 +21,10 @@
         "surfaceType": null,
         "numberStart": "10L",
         "numberEnd": "28R",
-        "latStart": 45.087308,
-        "lonStart": 7.596689,
-        "latEnd": 45.085397,
-        "lonEnd": 7.610061,
+        "latStart": 45.08729621,
+        "lonStart": 7.59668505,
+        "latEnd": 45.08540879,
+        "lonEnd": 7.61006327,
         "length": 0,
         "surfacetype": 1
       },
@@ -78,15 +34,27 @@
         "surfaceType": null,
         "numberStart": "10R",
         "numberEnd": "28L",
-        "latStart": 45.0856,
-        "lonStart": 7.600408,
-        "latEnd": 45.084253,
-        "lonEnd": 7.609733,
+        "latStart": 45.08555228,
+        "lonStart": 7.60053733,
+        "latEnd": 45.08425497,
+        "lonEnd": 7.60973485,
         "length": 0,
         "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 30,
+        "surfaceType": 15,
+        "numberStart": "H01",
+        "numberEnd": null,
+        "latStart": 45.08728917,
+        "lonStart": 7.60641009,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30
       }
     ],
-    "id": 25472
+    "id": 3779
   },
   {
     "type": 1,
@@ -120,7 +88,7 @@
         "name": "APP"
       }
     ],
-    "elevation": 988,
+    "elevation": 987,
     "tower": true,
     "name": "Torino Caselle",
     "runways": [
@@ -150,32 +118,51 @@
         "length": 22.5
       }
     ],
-    "id": 25473
+    "id": 3783
   },
   {
-    "type": 17,
-    "icao": "LI91",
-    "lat": 45.033708,
-    "lon": 7.675253,
-    "communications": [],
-    "elevation": 979,
-    "tower": false,
-    "name": "[H] CTO Hospital Torino",
+    "type": 1,
+    "icao": "LIMW",
+    "lat": 45.73870313999999,
+    "lon": 7.36803921,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11995,
+        "name": "Aosta Aerodrome Info"
+      }
+    ],
+    "elevation": 1795,
+    "tower": true,
+    "name": "Aosta",
     "runways": [
       {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 45.73789779,
+        "lonStart": 7.35721108,
+        "latEnd": 45.73929965,
+        "lonEnd": 7.379285,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
         "type": 102,
-        "width": 20.1,
+        "width": 26.5,
         "surfaceType": 2,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 45.033708,
-        "lonStart": 7.675253,
+        "latStart": 45.73891198,
+        "lonStart": 7.36762155,
         "latEnd": null,
         "lonEnd": null,
-        "length": 20.1
+        "length": 26
       }
     ],
-    "id": 28701
+    "id": 3789
   },
   {
     "type": 17,
@@ -200,7 +187,7 @@
         "length": 20.1
       }
     ],
-    "id": 29718
+    "id": 20530
   },
   {
     "type": 17,
@@ -225,6 +212,31 @@
         "length": 20.1
       }
     ],
-    "id": 29719
+    "id": 20531
+  },
+  {
+    "type": 17,
+    "icao": "LI91",
+    "lat": 45.033708,
+    "lon": 7.675253,
+    "communications": [],
+    "elevation": 979,
+    "tower": false,
+    "name": "[H] CTO Hospital Torino",
+    "runways": [
+      {
+        "type": 102,
+        "width": 20.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 45.033708,
+        "lonStart": 7.675253,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.1
+      }
+    ],
+    "id": 20532
   }
 ]

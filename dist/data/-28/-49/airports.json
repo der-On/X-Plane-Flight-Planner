@@ -1,55 +1,88 @@
 [
   {
     "type": 1,
-    "icao": "SSKT",
-    "lat": -27.611666669999998,
-    "lon": -48.67277778,
-    "communications": [],
-    "elevation": 20,
-    "tower": false,
-    "name": "Aeroclube de Santa Catarina",
+    "icao": "SBFL",
+    "lat": -27.670486750000002,
+    "lon": -48.54717993,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12745,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GNDC"
+      },
+      {
+        "type": 54,
+        "frequency": 11870,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11280,
+        "name": "TWR (Mil)"
+      },
+      {
+        "type": 54,
+        "frequency": 12150,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11965,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12895,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12945,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12150,
+        "name": "APP"
+      }
+    ],
+    "elevation": 19,
+    "tower": true,
+    "name": "Hercillo Luz Intl",
     "runways": [
       {
         "type": 100,
-        "width": 17.98,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -27.66559314,
+        "lonStart": -48.55129364,
+        "latEnd": -27.67634286,
+        "lonEnd": -48.5313214,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45,
         "surfaceType": null,
         "numberStart": "03",
         "numberEnd": "21",
-        "latStart": -27.61573601,
-        "lonStart": -48.67361902,
-        "latEnd": -27.60759733,
-        "lonEnd": -48.67193654,
+        "latStart": -27.67661815,
+        "lonStart": -48.55457821,
+        "latEnd": -27.66339285,
+        "lonEnd": -48.55152647,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 638
-  },
-  {
-    "type": 1,
-    "icao": "SDYS",
-    "lat": -27.17361111,
-    "lon": -48.63111111,
-    "communications": [],
-    "elevation": 33,
-    "tower": false,
-    "name": "Aeroportobelo",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.99,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": -27.17561661,
-        "lonStart": -48.63288667,
-        "latEnd": -27.17160561,
-        "lonEnd": -48.62933555,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 660
+    "id": 4614
   },
   {
     "type": 1,
@@ -75,46 +108,208 @@
         "surfacetype": 3
       }
     ],
-    "id": 5369
+    "id": 25431
+  },
+  {
+    "type": 17,
+    "icao": "SDUX",
+    "lat": -27.10694444,
+    "lon": -48.9075,
+    "communications": [],
+    "elevation": 251,
+    "tower": false,
+    "name": "[H] Havan",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -27.10694444,
+        "lonStart": -48.9075,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 25841
   },
   {
     "type": 1,
-    "icao": "SBFL",
-    "lat": -27.670486750000002,
-    "lon": -48.54717993,
+    "icao": "SDYS",
+    "lat": -27.17361111,
+    "lon": -48.63111111,
     "communications": [],
-    "elevation": 19,
-    "tower": true,
-    "name": "Hercillo Luz Intl",
+    "elevation": 33,
+    "tower": false,
+    "name": "Aeroportobelo",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 24.99,
         "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": -27.66559314,
-        "lonStart": -48.55129364,
-        "latEnd": -27.67634286,
-        "lonEnd": -48.5313214,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -27.17561661,
+        "lonStart": -48.63288667,
+        "latEnd": -27.17160561,
+        "lonEnd": -48.62933555,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": -27.67661815,
-        "lonStart": -48.55457821,
-        "latEnd": -27.66339285,
-        "lonEnd": -48.55152647,
-        "length": 0,
-        "surfacetype": 2
+        "surfacetype": 3
       }
     ],
-    "id": 11709
+    "id": 25938
+  },
+  {
+    "type": 17,
+    "icao": "SIDX",
+    "lat": -27.57277778,
+    "lon": -48.53194444,
+    "communications": [],
+    "elevation": 28,
+    "tower": false,
+    "name": "[H] Policia Federal - Florianopolis",
+    "runways": [
+      {
+        "type": 102,
+        "width": 21,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -27.57277778,
+        "lonStart": -48.53194444,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21
+      }
+    ],
+    "id": 26158
+  },
+  {
+    "type": 17,
+    "icao": "SIIV",
+    "lat": -27.08944444,
+    "lon": -48.915,
+    "communications": [],
+    "elevation": 115,
+    "tower": false,
+    "name": "[H] Kekafly II",
+    "runways": [
+      {
+        "type": 102,
+        "width": 20.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -27.08944444,
+        "lonStart": -48.915,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.1
+      }
+    ],
+    "id": 26284
+  },
+  {
+    "type": 17,
+    "icao": "SIKB",
+    "lat": -27.08277778,
+    "lon": -48.92555556,
+    "communications": [],
+    "elevation": 152,
+    "tower": false,
+    "name": "[H] Kekafly I",
+    "runways": [
+      {
+        "type": 102,
+        "width": 20.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -27.08277778,
+        "lonStart": -48.92555556,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.1
+      }
+    ],
+    "id": 26315
+  },
+  {
+    "type": 17,
+    "icao": "SINL",
+    "lat": -27.46361111,
+    "lon": -48.3825,
+    "communications": [],
+    "elevation": 41,
+    "tower": false,
+    "name": "[H] Costao",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -27.46361111,
+        "lonStart": -48.3825,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 26402
+  },
+  {
+    "type": 17,
+    "icao": "SIQF",
+    "lat": -27.38583333,
+    "lon": -48.53027778,
+    "communications": [],
+    "elevation": 55,
+    "tower": false,
+    "name": "[H] Recanto das Mares",
+    "runways": [
+      {
+        "type": 102,
+        "width": 20.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -27.38583333,
+        "lonStart": -48.53027778,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.1
+      }
+    ],
+    "id": 26472
+  },
+  {
+    "type": 17,
+    "icao": "SJKD",
+    "lat": -27.02638889,
+    "lon": -48.62111111,
+    "communications": [],
+    "elevation": 1,
+    "tower": false,
+    "name": "[H] Helisilva",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -27.02638889,
+        "lonStart": -48.62111111,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 26972
   },
   {
     "type": 1,
@@ -140,232 +335,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 23845
-  },
-  {
-    "type": 17,
-    "icao": "SINL",
-    "lat": -27.46361111,
-    "lon": -48.3825,
-    "communications": [],
-    "elevation": 41,
-    "tower": false,
-    "name": "[H] Costao",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -27.46361111,
-        "lonStart": -48.3825,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
-      }
-    ],
-    "id": 29157
-  },
-  {
-    "type": 17,
-    "icao": "SSEM",
-    "lat": -27.00666667,
-    "lon": -48.60888889,
-    "communications": [],
-    "elevation": 0,
-    "tower": false,
-    "name": "[H] Esplanada das Marinas",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -27.00666667,
-        "lonStart": -48.60888889,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
-      }
-    ],
-    "id": 29580
-  },
-  {
-    "type": 17,
-    "icao": "SNVX",
-    "lat": -27.54166667,
-    "lon": -48.62416667,
-    "communications": [],
-    "elevation": 19,
-    "tower": false,
-    "name": "[H] Golden Air",
-    "runways": [
-      {
-        "type": 102,
-        "width": 20.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -27.54166667,
-        "lonStart": -48.62416667,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20.1
-      }
-    ],
-    "id": 29953
-  },
-  {
-    "type": 17,
-    "icao": "SDUX",
-    "lat": -27.10694444,
-    "lon": -48.9075,
-    "communications": [],
-    "elevation": 251,
-    "tower": false,
-    "name": "[H] Havan",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -27.10694444,
-        "lonStart": -48.9075,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
-      }
-    ],
-    "id": 30146
-  },
-  {
-    "type": 17,
-    "icao": "SJKD",
-    "lat": -27.02638889,
-    "lon": -48.62111111,
-    "communications": [],
-    "elevation": 1,
-    "tower": false,
-    "name": "[H] Helisilva",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -27.02638889,
-        "lonStart": -48.62111111,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
-      }
-    ],
-    "id": 30196
-  },
-  {
-    "type": 17,
-    "icao": "SIKB",
-    "lat": -27.08277778,
-    "lon": -48.92555556,
-    "communications": [],
-    "elevation": 152,
-    "tower": false,
-    "name": "[H] Kekafly I",
-    "runways": [
-      {
-        "type": 102,
-        "width": 20.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -27.08277778,
-        "lonStart": -48.92555556,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20.1
-      }
-    ],
-    "id": 30701
-  },
-  {
-    "type": 17,
-    "icao": "SIIV",
-    "lat": -27.08944444,
-    "lon": -48.915,
-    "communications": [],
-    "elevation": 115,
-    "tower": false,
-    "name": "[H] Kekafly II",
-    "runways": [
-      {
-        "type": 102,
-        "width": 20.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -27.08944444,
-        "lonStart": -48.915,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20.1
-      }
-    ],
-    "id": 30702
-  },
-  {
-    "type": 17,
-    "icao": "SIDX",
-    "lat": -27.57277778,
-    "lon": -48.53194444,
-    "communications": [],
-    "elevation": 28,
-    "tower": false,
-    "name": "[H] Policia Federal - Florianopolis",
-    "runways": [
-      {
-        "type": 102,
-        "width": 21,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -27.57277778,
-        "lonStart": -48.53194444,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21
-      }
-    ],
-    "id": 32089
-  },
-  {
-    "type": 17,
-    "icao": "SIQF",
-    "lat": -27.38583333,
-    "lon": -48.53027778,
-    "communications": [],
-    "elevation": 55,
-    "tower": false,
-    "name": "[H] Recanto das Mares",
-    "runways": [
-      {
-        "type": 102,
-        "width": 20.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -27.38583333,
-        "lonStart": -48.53027778,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20.1
-      }
-    ],
-    "id": 32276
+    "id": 27182
   },
   {
     "type": 17,
@@ -390,7 +360,57 @@
         "length": 18
       }
     ],
-    "id": 33620
+    "id": 27257
+  },
+  {
+    "type": 17,
+    "icao": "SNVX",
+    "lat": -27.54166667,
+    "lon": -48.62416667,
+    "communications": [],
+    "elevation": 19,
+    "tower": false,
+    "name": "[H] Golden Air",
+    "runways": [
+      {
+        "type": 102,
+        "width": 20.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -27.54166667,
+        "lonStart": -48.62416667,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.1
+      }
+    ],
+    "id": 28106
+  },
+  {
+    "type": 17,
+    "icao": "SSEM",
+    "lat": -27.00666667,
+    "lon": -48.60888889,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[H] Esplanada das Marinas",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -27.00666667,
+        "lonStart": -48.60888889,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 28419
   },
   {
     "type": 17,
@@ -415,6 +435,32 @@
         "length": 18
       }
     ],
-    "id": 33621
+    "id": 28536
+  },
+  {
+    "type": 1,
+    "icao": "SSKT",
+    "lat": -27.611666669999998,
+    "lon": -48.67277778,
+    "communications": [],
+    "elevation": 20,
+    "tower": false,
+    "name": "Aeroclube de Santa Catarina",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -27.61573601,
+        "lonStart": -48.67361902,
+        "latEnd": -27.60759733,
+        "lonEnd": -48.67193654,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 28577
   }
 ]

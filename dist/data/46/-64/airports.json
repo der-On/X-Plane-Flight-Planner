@@ -2,47 +2,52 @@
   {
     "type": 1,
     "icao": "CYYG",
-    "lat": 46.292586005,
-    "lon": -63.122276095000004,
+    "lat": 46.292534617499996,
+    "lon": -63.121976995,
     "communications": [
       {
+        "type": 53,
+        "frequency": 12250,
+        "name": "CYYG TOWER"
+      },
+      {
         "type": 54,
-        "frequency": 12210,
-        "name": "MF"
+        "frequency": 12680,
+        "name": "CYYG CONTROL"
       }
     ],
-    "elevation": 160,
+    "elevation": 155,
     "tower": true,
-    "name": "CHARLOTTETOWN",
+    "name": "Charlottetown",
     "runways": [
       {
         "type": 100,
-        "width": 46.02,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 46.28003494,
-        "lonStart": -63.12751553,
-        "latEnd": 46.29899906,
-        "lonEnd": -63.12316554,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 60.96,
+        "width": 45.11,
         "surfaceType": null,
         "numberStart": "10",
         "numberEnd": "28",
-        "latStart": 46.29433131,
-        "lonStart": -63.12894977,
-        "latEnd": 46.29697871,
-        "lonEnd": -63.10947354,
+        "latStart": 46.29431071,
+        "lonStart": -63.12866155,
+        "latEnd": 46.2969292,
+        "lonEnd": -63.10930331,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 46.27988757,
+        "lonStart": -63.12715009,
+        "latEnd": 46.29901099,
+        "lonEnd": -63.12279303,
+        "length": 0,
+        "surfacetype": 2
       }
     ],
-    "id": 3830
+    "id": 870
   },
   {
     "type": 1,
@@ -105,6 +110,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 22593
+    "id": 15812
   }
 ]

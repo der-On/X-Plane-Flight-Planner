@@ -1,29 +1,53 @@
 [
   {
-    "type": 1,
-    "icao": "SWCD",
-    "lat": -15.93525,
-    "lon": -48.646589,
+    "type": 17,
+    "icao": "SIHQ",
+    "lat": -15.82111111,
+    "lon": -48.02027778,
     "communications": [],
-    "elevation": 3888,
+    "elevation": 1145,
     "tower": false,
-    "name": "FAZENDA SANTA MONICA",
+    "name": "[H] Aguas Claras",
     "runways": [
       {
-        "type": 100,
-        "width": 19.81,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": -15.937136,
-        "lonStart": -48.651053,
-        "latEnd": -15.933364,
-        "lonEnd": -48.642125,
-        "length": 0,
-        "surfacetype": 1
+        "type": 102,
+        "width": 28.6,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -15.82111111,
+        "lonStart": -48.02027778,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 28.6
       }
     ],
-    "id": 7510
+    "id": 26253
+  },
+  {
+    "type": 17,
+    "icao": "SIKW",
+    "lat": -15.93027778,
+    "lon": -48.925,
+    "communications": [],
+    "elevation": 638,
+    "tower": false,
+    "name": "[H] Luciano Peixoto",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -15.93027778,
+        "lonStart": -48.925,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 26335
   },
   {
     "type": 1,
@@ -49,33 +73,32 @@
         "surfacetype": 4
       }
     ],
-    "id": 8374
+    "id": 26749
   },
   {
-    "type": 1,
-    "icao": "SWFK",
-    "lat": -15.07472222,
-    "lon": -48.23861111,
+    "type": 17,
+    "icao": "SJDF",
+    "lat": -15.82333333,
+    "lon": -48.06638889,
     "communications": [],
-    "elevation": 2297,
+    "elevation": 1223,
     "tower": false,
-    "name": "Fazenda Juquei Agropecuaria",
+    "name": "[H] Hospital Anchieta",
     "runways": [
       {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": -15.07117645,
-        "lonStart": -48.24071643,
-        "latEnd": -15.07826799,
-        "lonEnd": -48.23650579,
-        "length": 0,
-        "surfacetype": 3
+        "type": 102,
+        "width": 26.5,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -15.82333333,
+        "lonStart": -48.06638889,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 26.5
       }
     ],
-    "id": 8421
+    "id": 26797
   },
   {
     "type": 1,
@@ -101,33 +124,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 8626
-  },
-  {
-    "type": 1,
-    "icao": "SWOS",
-    "lat": -15.171944445000001,
-    "lon": -48.953055565,
-    "communications": [],
-    "elevation": 2289,
-    "tower": false,
-    "name": "Fazenda Tapajos",
-    "runways": [
-      {
-        "type": 100,
-        "width": 79.86,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": -15.17584465,
-        "lonStart": -48.95628554,
-        "latEnd": -15.16804424,
-        "lonEnd": -48.94982559,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 9085
+    "id": 27106
   },
   {
     "type": 1,
@@ -153,7 +150,110 @@
         "surfacetype": 1
       }
     ],
-    "id": 20202
+    "id": 27868
+  },
+  {
+    "type": 1,
+    "icao": "SWCD",
+    "lat": -15.93525,
+    "lon": -48.646589,
+    "communications": [],
+    "elevation": 3888,
+    "tower": false,
+    "name": "FAZENDA SANTA MONICA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 19.81,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -15.937136,
+        "lonStart": -48.651053,
+        "latEnd": -15.933364,
+        "lonEnd": -48.642125,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 29100
+  },
+  {
+    "type": 1,
+    "icao": "SWFK",
+    "lat": -15.07472222,
+    "lon": -48.23861111,
+    "communications": [],
+    "elevation": 2297,
+    "tower": false,
+    "name": "Fazenda Juquei Agropecuaria",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -15.07117645,
+        "lonStart": -48.24071643,
+        "latEnd": -15.07826799,
+        "lonEnd": -48.23650579,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 29173
+  },
+  {
+    "type": 1,
+    "icao": "SWOS",
+    "lat": -15.171944445000001,
+    "lon": -48.953055565,
+    "communications": [],
+    "elevation": 2289,
+    "tower": false,
+    "name": "Fazenda Tapajos",
+    "runways": [
+      {
+        "type": 100,
+        "width": 79.86,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -15.17584465,
+        "lonStart": -48.95628554,
+        "latEnd": -15.16804424,
+        "lonEnd": -48.94982559,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 29378
+  },
+  {
+    "type": 17,
+    "icao": "SWQN",
+    "lat": -15.76361111,
+    "lon": -48.2575,
+    "communications": [],
+    "elevation": 1125,
+    "tower": false,
+    "name": "[H] SPA-UNICORDIS",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -15.76361111,
+        "lonStart": -48.2575,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 29422
   },
   {
     "type": 1,
@@ -179,106 +279,6 @@
         "surfacetype": 4
       }
     ],
-    "id": 22949
-  },
-  {
-    "type": 17,
-    "icao": "SIHQ",
-    "lat": -15.82111111,
-    "lon": -48.02027778,
-    "communications": [],
-    "elevation": 1145,
-    "tower": false,
-    "name": "[H] Aguas Claras",
-    "runways": [
-      {
-        "type": 102,
-        "width": 28.6,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -15.82111111,
-        "lonStart": -48.02027778,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 28.6
-      }
-    ],
-    "id": 28032
-  },
-  {
-    "type": 17,
-    "icao": "SJDF",
-    "lat": -15.82333333,
-    "lon": -48.06638889,
-    "communications": [],
-    "elevation": 1223,
-    "tower": false,
-    "name": "[H] Hospital Anchieta",
-    "runways": [
-      {
-        "type": 102,
-        "width": 26.5,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -15.82333333,
-        "lonStart": -48.06638889,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 26.5
-      }
-    ],
-    "id": 30321
-  },
-  {
-    "type": 17,
-    "icao": "SIKW",
-    "lat": -15.93027778,
-    "lon": -48.925,
-    "communications": [],
-    "elevation": 638,
-    "tower": false,
-    "name": "[H] Luciano Peixoto",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -15.93027778,
-        "lonStart": -48.925,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
-      }
-    ],
-    "id": 30965
-  },
-  {
-    "type": 17,
-    "icao": "SWQN",
-    "lat": -15.76361111,
-    "lon": -48.2575,
-    "communications": [],
-    "elevation": 1125,
-    "tower": false,
-    "name": "[H] SPA-UNICORDIS",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -15.76361111,
-        "lonStart": -48.2575,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
-      }
-    ],
-    "id": 32494
+    "id": 29444
   }
 ]

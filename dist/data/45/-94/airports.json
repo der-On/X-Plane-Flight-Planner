@@ -1,9 +1,56 @@
 [
   {
     "type": 1,
+    "icao": "8Y2",
+    "lat": 45.158829,
+    "lon": -93.843309,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 12650,
+        "name": "App"
+      },
+      {
+        "type": 56,
+        "frequency": 12650,
+        "name": "Dep"
+      },
+      {
+        "type": 50,
+        "frequency": 12045,
+        "name": "AWOS"
+      },
+      {
+        "type": 54,
+        "frequency": 12280,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 965,
+    "tower": false,
+    "name": "Buffalo Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 45.163217,
+        "lonStart": -93.843228,
+        "latEnd": 45.154441,
+        "lonEnd": -93.84339,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 300
+  },
+  {
+    "type": 1,
     "icao": "KANE",
-    "lat": 45.144919755,
-    "lon": -93.2111719575,
+    "lat": 45.1448973775,
+    "lon": -93.210200045,
     "communications": [
       {
         "type": 50,
@@ -66,23 +113,144 @@
         "numberEnd": "27",
         "latStart": 45.14487551,
         "lonStart": -93.22009343,
-        "latEnd": 45.14473951,
-        "lonEnd": -93.20459043,
+        "latEnd": 45.14465,
+        "lonEnd": -93.20070278,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 324
+    "id": 2348
   },
   {
     "type": 1,
-    "icao": "MN98",
-    "lat": 45.41135333,
-    "lon": -93.38467612,
+    "icao": "KMGG",
+    "lat": 45.23599541,
+    "lon": -93.985593885,
     "communications": [],
-    "elevation": 931,
+    "elevation": 1027,
     "tower": false,
-    "name": "Aero-Plain",
+    "name": "Maple Lake Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 45.23680277,
+        "lonStart": -93.99089861,
+        "latEnd": 45.23518805,
+        "lonEnd": -93.98028916,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2960
+  },
+  {
+    "type": 16,
+    "icao": "1MN9",
+    "lat": 45.116633050000004,
+    "lon": -93.01688473,
+    "communications": [],
+    "elevation": 910,
+    "tower": false,
+    "name": "[S] Lees",
+    "runways": [
+      {
+        "type": 101,
+        "width": 1524,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 45.11699194,
+        "lonStart": -93.02658911,
+        "latEnd": 45.11627416,
+        "lonEnd": -93.00718035,
+        "length": 0
+      },
+      {
+        "type": 101,
+        "width": 1524,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 45.13375318,
+        "lonStart": -93.01561327,
+        "latEnd": 45.09951292,
+        "lonEnd": -93.01815619,
+        "length": 0
+      }
+    ],
+    "id": 6553
+  },
+  {
+    "type": 1,
+    "icao": "2MN9",
+    "lat": 45.824410549999996,
+    "lon": -93.99526195,
+    "communications": [],
+    "elevation": 1295,
+    "tower": false,
+    "name": "F. Dillenburg",
+    "runways": [
+      {
+        "type": 100,
+        "width": 19.81,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 45.82460189,
+        "lonStart": -93.99918856,
+        "latEnd": 45.82421921,
+        "lonEnd": -93.99133534,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7116
+  },
+  {
+    "type": 1,
+    "icao": "8MN5",
+    "lat": 45.208299440000005,
+    "lon": -93.13355666999999,
+    "communications": [],
+    "elevation": 899,
+    "tower": false,
+    "name": "Vieira",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 45.20556022,
+        "lonStart": -93.13376043,
+        "latEnd": 45.21103866,
+        "lonEnd": -93.13335291,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10173
+  },
+  {
+    "type": 1,
+    "icao": "8Y6",
+    "lat": 45.444133,
+    "lon": -93.971092,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 990,
+    "tower": false,
+    "name": "LEADERS CLEAR LAKE",
     "runways": [
       {
         "type": 100,
@@ -90,88 +258,182 @@
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 45.41546216,
-        "lonStart": -93.38436938,
-        "latEnd": 45.4072445,
-        "lonEnd": -93.38498286,
+        "latStart": 45.448247,
+        "lonStart": -93.971092,
+        "latEnd": 45.440019,
+        "lonEnd": -93.971092,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 4
       }
     ],
-    "id": 618
+    "id": 10424
   },
   {
-    "type": 1,
-    "icao": "MY43",
-    "lat": 45.40274222,
-    "lon": -93.38939834,
+    "type": 16,
+    "icao": "9MN3",
+    "lat": 45.034685270000004,
+    "lon": -93.89219112,
     "communications": [],
-    "elevation": 919,
+    "elevation": 932,
     "tower": false,
-    "name": "Becker Personal",
+    "name": "[S] Fountain Lake",
     "runways": [
       {
-        "type": 100,
-        "width": 22.86,
+        "type": 101,
+        "width": 91.44,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 45.03912351,
+        "lonStart": -93.89675411,
+        "latEnd": 45.03024703,
+        "lonEnd": -93.88762813,
+        "length": 0
+      },
+      {
+        "type": 101,
+        "width": 60.96,
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 45.40630321,
-        "lonStart": -93.38913254,
-        "latEnd": 45.39918123,
-        "lonEnd": -93.38966414,
+        "latStart": 45.03988424,
+        "lonStart": -93.89167668,
+        "latEnd": 45.0294863,
+        "lonEnd": -93.89270556,
+        "length": 0
+      }
+    ],
+    "id": 10626
+  },
+  {
+    "type": 1,
+    "icao": "18Y",
+    "lat": 45.77246472,
+    "lon": -93.63218445,
+    "communications": [],
+    "elevation": 1100,
+    "tower": false,
+    "name": "Milaca Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 45.77626825,
+        "lonStart": -93.6338516,
+        "latEnd": 45.76866119,
+        "lonEnd": -93.6305173,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 2431
+    "id": 11253
   },
   {
     "type": 1,
-    "icao": "8Y2",
-    "lat": 45.158829,
-    "lon": -93.843309,
-    "communications": [
-      {
-        "type": 55,
-        "frequency": 12650,
-        "name": "App"
-      },
-      {
-        "type": 56,
-        "frequency": 12650,
-        "name": "Dep"
-      },
-      {
-        "type": 50,
-        "frequency": 12045,
-        "name": "AWOS"
-      },
-      {
-        "type": 54,
-        "frequency": 12280,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 965,
+    "icao": "20Y",
+    "lat": 45.31829777,
+    "lon": -93.77747027999999,
+    "communications": [],
+    "elevation": 943,
     "tower": false,
-    "name": "Buffalo Municipal",
+    "name": "Pilots Cove",
     "runways": [
       {
         "type": 100,
-        "width": 22.86,
+        "width": 42.67,
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 45.163217,
-        "lonStart": -93.843228,
-        "latEnd": 45.154441,
-        "lonEnd": -93.84339,
+        "latStart": 45.32179028,
+        "lonStart": -93.77720998,
+        "latEnd": 45.31480526,
+        "lonEnd": -93.77773058,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 3351
+    "id": 11335
+  },
+  {
+    "type": 1,
+    "icao": "42MN",
+    "lat": 45.08413027,
+    "lon": -93.56440278,
+    "communications": [],
+    "elevation": 990,
+    "tower": false,
+    "name": "Krals Personal Use Landing Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 45.08425229,
+        "lonStart": -93.56770039,
+        "latEnd": 45.08400825,
+        "lonEnd": -93.56110517,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12179
+  },
+  {
+    "type": 1,
+    "icao": "55MN",
+    "lat": 45.835237500000005,
+    "lon": -93.33550389000001,
+    "communications": [],
+    "elevation": 1003,
+    "tower": false,
+    "name": "Conley Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 45.83879849,
+        "lonStart": -93.33523603,
+        "latEnd": 45.83167651,
+        "lonEnd": -93.33577175,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12689
+  },
+  {
+    "type": 1,
+    "icao": "70MN",
+    "lat": 45.351908879999996,
+    "lon": -93.24606112000001,
+    "communications": [],
+    "elevation": 940,
+    "tower": false,
+    "name": "Harry-Walt",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 45.3546481,
+        "lonStart": -93.24585684,
+        "latEnd": 45.34916966,
+        "lonEnd": -93.2462654,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13280
   },
   {
     "type": 1,
@@ -208,7 +470,52 @@
         "surfacetype": 1
       }
     ],
-    "id": 3569
+    "id": 18918
+  },
+  {
+    "type": 1,
+    "icao": "KJMR",
+    "lat": 45.8860129175,
+    "lon": -93.2721580825,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1012,
+    "tower": false,
+    "name": "MORA MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 45.89571667,
+        "lonStart": -93.27253333,
+        "latEnd": 45.882697,
+        "lonEnd": -93.269822,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 45.884319,
+        "lonStart": -93.277444,
+        "latEnd": 45.881319,
+        "lonEnd": -93.268833,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 19370
   },
   {
     "type": 1,
@@ -309,486 +616,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 4247
-  },
-  {
-    "type": 1,
-    "icao": "55MN",
-    "lat": 45.835237500000005,
-    "lon": -93.33550389000001,
-    "communications": [],
-    "elevation": 1003,
-    "tower": false,
-    "name": "Conley Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 45.83879849,
-        "lonStart": -93.33523603,
-        "latEnd": 45.83167651,
-        "lonEnd": -93.33577175,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 5265
-  },
-  {
-    "type": 1,
-    "icao": "MY82",
-    "lat": 45.21302222,
-    "lon": -93.07466584,
-    "communications": [],
-    "elevation": 900,
-    "tower": false,
-    "name": "Du Fresne",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 45.21576144,
-        "lonStart": -93.07446206,
-        "latEnd": 45.210283,
-        "lonEnd": -93.07486962,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 6507
-  },
-  {
-    "type": 1,
-    "icao": "2MN9",
-    "lat": 45.824410549999996,
-    "lon": -93.99526195,
-    "communications": [],
-    "elevation": 1295,
-    "tower": false,
-    "name": "F. Dillenburg",
-    "runways": [
-      {
-        "type": 100,
-        "width": 19.81,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 45.82460189,
-        "lonStart": -93.99918856,
-        "latEnd": 45.82421921,
-        "lonEnd": -93.99133534,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 7381
-  },
-  {
-    "type": 1,
-    "icao": "MY92",
-    "lat": 45.728573049999994,
-    "lon": -93.28828056,
-    "communications": [],
-    "elevation": 960,
-    "tower": false,
-    "name": "Grohnke Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 45.73041876,
-        "lonStart": -93.28903873,
-        "latEnd": 45.72672734,
-        "lonEnd": -93.28752239,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 10824
-  },
-  {
-    "type": 1,
-    "icao": "70MN",
-    "lat": 45.351908879999996,
-    "lon": -93.24606112000001,
-    "communications": [],
-    "elevation": 940,
-    "tower": false,
-    "name": "Harry-Walt",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 45.3546481,
-        "lonStart": -93.24585684,
-        "latEnd": 45.34916966,
-        "lonEnd": -93.2462654,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11490
-  },
-  {
-    "type": 1,
-    "icao": "MN66",
-    "lat": 45.08107416,
-    "lon": -93.66829584,
-    "communications": [],
-    "elevation": 1021,
-    "tower": false,
-    "name": "Ingleside",
-    "runways": [
-      {
-        "type": 100,
-        "width": 13.72,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 45.08079002,
-        "lonStart": -93.67157319,
-        "latEnd": 45.0813583,
-        "lonEnd": -93.66501849,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 12497
-  },
-  {
-    "type": 1,
-    "icao": "MY86",
-    "lat": 45.15079638,
-    "lon": -93.73996638999999,
-    "communications": [],
-    "elevation": 970,
-    "tower": false,
-    "name": "Johnson",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 45.15243816,
-        "lonStart": -93.7398036,
-        "latEnd": 45.1491546,
-        "lonEnd": -93.74012918,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 101,
-        "width": 487.68,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 45.15611938,
-        "lonStart": -93.73808452,
-        "latEnd": 45.14547338,
-        "lonEnd": -93.74184826,
-        "length": 0
-      }
-    ],
-    "id": 13052
-  },
-  {
-    "type": 1,
-    "icao": "MN76",
-    "lat": 45.316631380000004,
-    "lon": -93.81691667,
-    "communications": [],
-    "elevation": 940,
-    "tower": false,
-    "name": "Joyner",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 45.31687056,
-        "lonStart": -93.82178076,
-        "latEnd": 45.3163922,
-        "lonEnd": -93.81205258,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 13118
-  },
-  {
-    "type": 1,
-    "icao": "MY15",
-    "lat": 45.95579805,
-    "lon": -93.98942834,
-    "communications": [],
-    "elevation": 1320,
-    "tower": false,
-    "name": "Kastanek",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 45.95603723,
-        "lonStart": -93.99434823,
-        "latEnd": 45.95555887,
-        "lonEnd": -93.98450845,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 13650
-  },
-  {
-    "type": 1,
-    "icao": "42MN",
-    "lat": 45.08413027,
-    "lon": -93.56440278,
-    "communications": [],
-    "elevation": 990,
-    "tower": false,
-    "name": "Krals Personal Use Landing Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 45.08425229,
-        "lonStart": -93.56770039,
-        "latEnd": 45.08400825,
-        "lonEnd": -93.56110517,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 14113
-  },
-  {
-    "type": 1,
-    "icao": "8Y6",
-    "lat": 45.444133,
-    "lon": -93.971092,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 990,
-    "tower": false,
-    "name": "LEADERS CLEAR LAKE",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 45.448247,
-        "lonStart": -93.971092,
-        "latEnd": 45.440019,
-        "lonEnd": -93.971092,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 14453
-  },
-  {
-    "type": 1,
-    "icao": "MY18",
-    "lat": 45.18718833,
-    "lon": -93.13050084,
-    "communications": [],
-    "elevation": 907,
-    "tower": false,
-    "name": "Lino Air Park",
-    "runways": [
-      {
-        "type": 100,
-        "width": 35.05,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 45.18735801,
-        "lonStart": -93.13509476,
-        "latEnd": 45.18701865,
-        "lonEnd": -93.12590692,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15310
-  },
-  {
-    "type": 1,
-    "icao": "KJMR",
-    "lat": 45.88546975,
-    "lon": -93.27204549999999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 1012,
-    "tower": false,
-    "name": "MORA MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 45.893544,
-        "lonStart": -93.272083,
-        "latEnd": 45.882697,
-        "lonEnd": -93.269822,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 45.884319,
-        "lonStart": -93.277444,
-        "latEnd": 45.881319,
-        "lonEnd": -93.268833,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 16247
-  },
-  {
-    "type": 1,
-    "icao": "MN69",
-    "lat": 45.00274055,
-    "lon": -93.67190612,
-    "communications": [],
-    "elevation": 1026,
-    "tower": false,
-    "name": "Maple",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 45.00456256,
-        "lonStart": -93.67797675,
-        "latEnd": 45.00091854,
-        "lonEnd": -93.66583549,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 16625
-  },
-  {
-    "type": 1,
-    "icao": "KMGG",
-    "lat": 45.23599541,
-    "lon": -93.985593885,
-    "communications": [],
-    "elevation": 1027,
-    "tower": false,
-    "name": "Maple Lake Municipal",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 45.23680277,
-        "lonStart": -93.99089861,
-        "latEnd": 45.23518805,
-        "lonEnd": -93.98028916,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 16630
-  },
-  {
-    "type": 1,
-    "icao": "MN40",
-    "lat": 45.362465,
-    "lon": -93.5885725,
-    "communications": [],
-    "elevation": 950,
-    "tower": false,
-    "name": "Meadowvale",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 45.36073966,
-        "lonStart": -93.59016718,
-        "latEnd": 45.36419034,
-        "lonEnd": -93.58697782,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 17001
-  },
-  {
-    "type": 1,
-    "icao": "18Y",
-    "lat": 45.77246472,
-    "lon": -93.63218445,
-    "communications": [],
-    "elevation": 1100,
-    "tower": false,
-    "name": "Milaca Municipal",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 45.77626825,
-        "lonStart": -93.6338516,
-        "latEnd": 45.76866119,
-        "lonEnd": -93.6305173,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 17176
+    "id": 19483
   },
   {
     "type": 1,
@@ -825,111 +653,32 @@
         "surfacetype": 1
       }
     ],
-    "id": 19562
+    "id": 19696
   },
   {
-    "type": 1,
-    "icao": "MN68",
-    "lat": 45.700795549999995,
-    "lon": -93.37161723,
+    "type": 17,
+    "icao": "MN07",
+    "lat": 45.18357611,
+    "lon": -93.37023056,
     "communications": [],
-    "elevation": 990,
+    "elevation": 867,
     "tower": false,
-    "name": "Pangerl",
+    "name": "[H] Health One Mercy Hospital",
     "runways": [
       {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 45.70090322,
-        "lonStart": -93.37455881,
-        "latEnd": 45.70068788,
-        "lonEnd": -93.36867565,
-        "length": 0,
-        "surfacetype": 3
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 45.18357611,
+        "lonStart": -93.37023056,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
       }
     ],
-    "id": 19718
-  },
-  {
-    "type": 1,
-    "icao": "20Y",
-    "lat": 45.31829777,
-    "lon": -93.77747027999999,
-    "communications": [],
-    "elevation": 943,
-    "tower": false,
-    "name": "Pilots Cove",
-    "runways": [
-      {
-        "type": 100,
-        "width": 42.67,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 45.32179028,
-        "lonStart": -93.77720998,
-        "latEnd": 45.31480526,
-        "lonEnd": -93.77773058,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 20130
-  },
-  {
-    "type": 1,
-    "icao": "MN91",
-    "lat": 45.53746444,
-    "lon": -93.51412417,
-    "communications": [],
-    "elevation": 985,
-    "tower": false,
-    "name": "Reynolds Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 41.15,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 45.53755919,
-        "lonStart": -93.51670523,
-        "latEnd": 45.53736969,
-        "lonEnd": -93.51154311,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 21402
-  },
-  {
-    "type": 1,
-    "icao": "MN79",
-    "lat": 45.43135472,
-    "lon": -93.85775306,
-    "communications": [],
-    "elevation": 970,
-    "tower": false,
-    "name": "Schroeder",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 45.43149536,
-        "lonStart": -93.86061895,
-        "latEnd": 45.43121408,
-        "lonEnd": -93.85488717,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23127
+    "id": 21526
   },
   {
     "type": 1,
@@ -955,109 +704,95 @@
         "surfacetype": 3
       }
     ],
-    "id": 24418
+    "id": 21541
   },
   {
-    "type": 1,
-    "icao": "MY95",
-    "lat": 45.44638888,
-    "lon": -93.38277778,
+    "type": 16,
+    "icao": "MN29",
+    "lat": 45.16218611,
+    "lon": -93.91080611999999,
     "communications": [],
-    "elevation": 935,
+    "elevation": 915,
     "tower": false,
-    "name": "Swanson Field",
+    "name": "[S] Buffalo Lake",
     "runways": [
       {
-        "type": 100,
-        "width": 30.48,
+        "type": 101,
+        "width": 91.44,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 45.16256879,
+        "lonStart": -93.91856754,
+        "latEnd": 45.16180343,
+        "lonEnd": -93.9030447,
+        "length": 0
+      },
+      {
+        "type": 101,
+        "width": 91.44,
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 45.44994987,
-        "lonStart": -93.38251177,
-        "latEnd": 45.44282789,
-        "lonEnd": -93.38304379,
+        "latStart": 45.16765871,
+        "lonStart": -93.91026339,
+        "latEnd": 45.15671351,
+        "lonEnd": -93.91134885,
+        "length": 0
+      }
+    ],
+    "id": 21545
+  },
+  {
+    "type": 16,
+    "icao": "MN30",
+    "lat": 45.09413083,
+    "lon": -93.4652325,
+    "communications": [],
+    "elevation": 870,
+    "tower": false,
+    "name": "[S] Buschs Fish Lake",
+    "runways": [
+      {
+        "type": 101,
+        "width": 609.6,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 45.09451351,
+        "lonStart": -93.47298467,
+        "latEnd": 45.09374815,
+        "lonEnd": -93.45748033,
+        "length": 0
+      }
+    ],
+    "id": 21546
+  },
+  {
+    "type": 1,
+    "icao": "MN40",
+    "lat": 45.362465,
+    "lon": -93.5885725,
+    "communications": [],
+    "elevation": 950,
+    "tower": false,
+    "name": "Meadowvale",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 45.36073966,
+        "lonStart": -93.59016718,
+        "latEnd": 45.36419034,
+        "lonEnd": -93.58697782,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 24468
-  },
-  {
-    "type": 1,
-    "icao": "8MN5",
-    "lat": 45.208299440000005,
-    "lon": -93.13355666999999,
-    "communications": [],
-    "elevation": 899,
-    "tower": false,
-    "name": "Vieira",
-    "runways": [
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 45.20556022,
-        "lonStart": -93.13376043,
-        "latEnd": 45.21103866,
-        "lonEnd": -93.13335291,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 26315
-  },
-  {
-    "type": 17,
-    "icao": "MY85",
-    "lat": 45.00190777,
-    "lon": -93.46967612,
-    "communications": [],
-    "elevation": 973,
-    "tower": false,
-    "name": "[H] Advance Machine Company",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 45.00190777,
-        "lonStart": -93.46967612,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 28020
-  },
-  {
-    "type": 17,
-    "icao": "MN07",
-    "lat": 45.18357611,
-    "lon": -93.37023056,
-    "communications": [],
-    "elevation": 867,
-    "tower": false,
-    "name": "[H] Health One Mercy Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 45.18357611,
-        "lonStart": -93.37023056,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 30162
+    "id": 21556
   },
   {
     "type": 17,
@@ -1082,32 +817,241 @@
         "length": 15.2
       }
     ],
-    "id": 30688
+    "id": 21558
   },
   {
-    "type": 17,
-    "icao": "MY77",
-    "lat": 45.01388888,
-    "lon": -93.32250001,
+    "type": 1,
+    "icao": "MN66",
+    "lat": 45.08107416,
+    "lon": -93.66829584,
     "communications": [],
-    "elevation": 930,
+    "elevation": 1021,
     "tower": false,
-    "name": "[H] North Memorial",
+    "name": "Ingleside",
     "runways": [
       {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 45.01388888,
-        "lonStart": -93.32250001,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 36.6
+        "type": 100,
+        "width": 13.72,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 45.08079002,
+        "lonStart": -93.67157319,
+        "latEnd": 45.0813583,
+        "lonEnd": -93.66501849,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 31652
+    "id": 21576
+  },
+  {
+    "type": 1,
+    "icao": "MN68",
+    "lat": 45.700795549999995,
+    "lon": -93.37161723,
+    "communications": [],
+    "elevation": 990,
+    "tower": false,
+    "name": "Pangerl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 45.70090322,
+        "lonStart": -93.37455881,
+        "latEnd": 45.70068788,
+        "lonEnd": -93.36867565,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21578
+  },
+  {
+    "type": 1,
+    "icao": "MN69",
+    "lat": 45.00274055,
+    "lon": -93.67190612,
+    "communications": [],
+    "elevation": 1026,
+    "tower": false,
+    "name": "Maple",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 45.00456256,
+        "lonStart": -93.67797675,
+        "latEnd": 45.00091854,
+        "lonEnd": -93.66583549,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21579
+  },
+  {
+    "type": 1,
+    "icao": "MN76",
+    "lat": 45.316631380000004,
+    "lon": -93.81691667,
+    "communications": [],
+    "elevation": 940,
+    "tower": false,
+    "name": "Joyner",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 45.31687056,
+        "lonStart": -93.82178076,
+        "latEnd": 45.3163922,
+        "lonEnd": -93.81205258,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21586
+  },
+  {
+    "type": 1,
+    "icao": "MN79",
+    "lat": 45.43135472,
+    "lon": -93.85775306,
+    "communications": [],
+    "elevation": 970,
+    "tower": false,
+    "name": "Schroeder",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 45.43149536,
+        "lonStart": -93.86061895,
+        "latEnd": 45.43121408,
+        "lonEnd": -93.85488717,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21589
+  },
+  {
+    "type": 1,
+    "icao": "MN91",
+    "lat": 45.53746444,
+    "lon": -93.51412417,
+    "communications": [],
+    "elevation": 985,
+    "tower": false,
+    "name": "Reynolds Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 41.15,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 45.53755919,
+        "lonStart": -93.51670523,
+        "latEnd": 45.53736969,
+        "lonEnd": -93.51154311,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21600
+  },
+  {
+    "type": 1,
+    "icao": "MN98",
+    "lat": 45.41135333,
+    "lon": -93.38467612,
+    "communications": [],
+    "elevation": 931,
+    "tower": false,
+    "name": "Aero-Plain",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 45.41546216,
+        "lonStart": -93.38436938,
+        "latEnd": 45.4072445,
+        "lonEnd": -93.38498286,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21607
+  },
+  {
+    "type": 1,
+    "icao": "MY15",
+    "lat": 45.95579805,
+    "lon": -93.98942834,
+    "communications": [],
+    "elevation": 1320,
+    "tower": false,
+    "name": "Kastanek",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 45.95603723,
+        "lonStart": -93.99434823,
+        "latEnd": 45.95555887,
+        "lonEnd": -93.98450845,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 22036
+  },
+  {
+    "type": 1,
+    "icao": "MY18",
+    "lat": 45.18718833,
+    "lon": -93.13050084,
+    "communications": [],
+    "elevation": 907,
+    "tower": false,
+    "name": "Lino Air Park",
+    "runways": [
+      {
+        "type": 100,
+        "width": 35.05,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 45.18735801,
+        "lonStart": -93.13509476,
+        "latEnd": 45.18701865,
+        "lonEnd": -93.12590692,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 22038
   },
   {
     "type": 17,
@@ -1132,7 +1076,157 @@
         "length": 27.4
       }
     ],
-    "id": 32178
+    "id": 22040
+  },
+  {
+    "type": 16,
+    "icao": "MY21",
+    "lat": 45.033298880000004,
+    "lon": -93.12522084,
+    "communications": [],
+    "elevation": 886,
+    "tower": false,
+    "name": "[S] Kollars Shoreview Marine",
+    "runways": [
+      {
+        "type": 101,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 45.02528641,
+        "lonStart": -93.13075072,
+        "latEnd": 45.04131135,
+        "lonEnd": -93.11969096,
+        "length": 0
+      },
+      {
+        "type": 101,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 45.02687494,
+        "lonStart": -93.13531643,
+        "latEnd": 45.03972282,
+        "lonEnd": -93.11512525,
+        "length": 0
+      }
+    ],
+    "id": 22041
+  },
+  {
+    "type": 16,
+    "icao": "MY33",
+    "lat": 45.07691,
+    "lon": -93.20439084,
+    "communications": [],
+    "elevation": 865,
+    "tower": false,
+    "name": "[S] Rosackers Nr 1",
+    "runways": [
+      {
+        "type": 101,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 45.08074362,
+        "lonStart": -93.20848177,
+        "latEnd": 45.07307638,
+        "lonEnd": -93.20029991,
+        "length": 0
+      },
+      {
+        "type": 101,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 45.08167444,
+        "lonStart": -93.20521927,
+        "latEnd": 45.07214556,
+        "lonEnd": -93.20356241,
+        "length": 0
+      }
+    ],
+    "id": 22050
+  },
+  {
+    "type": 1,
+    "icao": "MY43",
+    "lat": 45.40274222,
+    "lon": -93.38939834,
+    "communications": [],
+    "elevation": 919,
+    "tower": false,
+    "name": "Becker Personal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 45.40630321,
+        "lonStart": -93.38913254,
+        "latEnd": 45.39918123,
+        "lonEnd": -93.38966414,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 22056
+  },
+  {
+    "type": 16,
+    "icao": "MY48",
+    "lat": 45.45746527,
+    "lon": -93.57829473,
+    "communications": [],
+    "elevation": 974,
+    "tower": false,
+    "name": "[S] Lake Fremont",
+    "runways": [
+      {
+        "type": 101,
+        "width": 274.32,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 45.46705254,
+        "lonStart": -93.57757842,
+        "latEnd": 45.447878,
+        "lonEnd": -93.57901104,
+        "length": 0
+      }
+    ],
+    "id": 22059
+  },
+  {
+    "type": 16,
+    "icao": "MY73",
+    "lat": 45.198575,
+    "lon": -93.84469333999999,
+    "communications": [],
+    "elevation": 958,
+    "tower": false,
+    "name": "[S] Lake Pulaski",
+    "runways": [
+      {
+        "type": 101,
+        "width": 1219.2,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 45.18925974,
+        "lonStart": -93.84798937,
+        "latEnd": 45.20789026,
+        "lonEnd": -93.84139731,
+        "length": 0
+      }
+    ],
+    "id": 22076
   },
   {
     "type": 16,
@@ -1181,266 +1275,172 @@
         "length": 0
       }
     ],
-    "id": 34014
+    "id": 22077
   },
   {
-    "type": 16,
-    "icao": "MN29",
-    "lat": 45.16218611,
-    "lon": -93.91080611999999,
+    "type": 17,
+    "icao": "MY77",
+    "lat": 45.01388888,
+    "lon": -93.32250001,
     "communications": [],
-    "elevation": 915,
+    "elevation": 930,
     "tower": false,
-    "name": "[S] Buffalo Lake",
+    "name": "[H] North Memorial",
     "runways": [
       {
-        "type": 101,
-        "width": 91.44,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 45.16256879,
-        "lonStart": -93.91856754,
-        "latEnd": 45.16180343,
-        "lonEnd": -93.9030447,
-        "length": 0
-      },
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 45.01388888,
+        "lonStart": -93.32250001,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 36.6
+      }
+    ],
+    "id": 22079
+  },
+  {
+    "type": 1,
+    "icao": "MY82",
+    "lat": 45.21302222,
+    "lon": -93.07466584,
+    "communications": [],
+    "elevation": 900,
+    "tower": false,
+    "name": "Du Fresne",
+    "runways": [
       {
-        "type": 101,
-        "width": 91.44,
+        "type": 100,
+        "width": 18.29,
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 45.16765871,
-        "lonStart": -93.91026339,
-        "latEnd": 45.15671351,
-        "lonEnd": -93.91134885,
-        "length": 0
+        "latStart": 45.21576144,
+        "lonStart": -93.07446206,
+        "latEnd": 45.210283,
+        "lonEnd": -93.07486962,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 34016
+    "id": 22083
   },
   {
-    "type": 16,
-    "icao": "MN30",
-    "lat": 45.09413083,
-    "lon": -93.4652325,
+    "type": 17,
+    "icao": "MY85",
+    "lat": 45.00190777,
+    "lon": -93.46967612,
     "communications": [],
-    "elevation": 870,
+    "elevation": 973,
     "tower": false,
-    "name": "[S] Buschs Fish Lake",
+    "name": "[H] Advance Machine Company",
     "runways": [
       {
-        "type": 101,
-        "width": 609.6,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 45.09451351,
-        "lonStart": -93.47298467,
-        "latEnd": 45.09374815,
-        "lonEnd": -93.45748033,
-        "length": 0
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 45.00190777,
+        "lonStart": -93.46967612,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
       }
     ],
-    "id": 34021
+    "id": 22086
   },
   {
-    "type": 16,
-    "icao": "9MN3",
-    "lat": 45.034685270000004,
-    "lon": -93.89219112,
+    "type": 1,
+    "icao": "MY86",
+    "lat": 45.15079638,
+    "lon": -93.73996638999999,
     "communications": [],
-    "elevation": 932,
+    "elevation": 970,
     "tower": false,
-    "name": "[S] Fountain Lake",
+    "name": "Johnson",
     "runways": [
       {
-        "type": 101,
-        "width": 91.44,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 45.03912351,
-        "lonStart": -93.89675411,
-        "latEnd": 45.03024703,
-        "lonEnd": -93.88762813,
-        "length": 0
-      },
-      {
-        "type": 101,
-        "width": 60.96,
+        "type": 100,
+        "width": 22.86,
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 45.03988424,
-        "lonStart": -93.89167668,
-        "latEnd": 45.0294863,
-        "lonEnd": -93.89270556,
-        "length": 0
-      }
-    ],
-    "id": 34112
-  },
-  {
-    "type": 16,
-    "icao": "MY21",
-    "lat": 45.033298880000004,
-    "lon": -93.12522084,
-    "communications": [],
-    "elevation": 886,
-    "tower": false,
-    "name": "[S] Kollars Shoreview Marine",
-    "runways": [
-      {
-        "type": 101,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 45.02528641,
-        "lonStart": -93.13075072,
-        "latEnd": 45.04131135,
-        "lonEnd": -93.11969096,
-        "length": 0
+        "latStart": 45.15243816,
+        "lonStart": -93.7398036,
+        "latEnd": 45.1491546,
+        "lonEnd": -93.74012918,
+        "length": 0,
+        "surfacetype": 3
       },
       {
         "type": 101,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 45.02687494,
-        "lonStart": -93.13531643,
-        "latEnd": 45.03972282,
-        "lonEnd": -93.11512525,
-        "length": 0
-      }
-    ],
-    "id": 34215
-  },
-  {
-    "type": 16,
-    "icao": "MY48",
-    "lat": 45.45746527,
-    "lon": -93.57829473,
-    "communications": [],
-    "elevation": 974,
-    "tower": false,
-    "name": "[S] Lake Fremont",
-    "runways": [
-      {
-        "type": 101,
-        "width": 274.32,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 45.46705254,
-        "lonStart": -93.57757842,
-        "latEnd": 45.447878,
-        "lonEnd": -93.57901104,
-        "length": 0
-      }
-    ],
-    "id": 34232
-  },
-  {
-    "type": 16,
-    "icao": "MY73",
-    "lat": 45.198575,
-    "lon": -93.84469333999999,
-    "communications": [],
-    "elevation": 958,
-    "tower": false,
-    "name": "[S] Lake Pulaski",
-    "runways": [
-      {
-        "type": 101,
-        "width": 1219.2,
+        "width": 487.68,
         "surfaceType": null,
         "numberStart": "01",
         "numberEnd": "19",
-        "latStart": 45.18925974,
-        "lonStart": -93.84798937,
-        "latEnd": 45.20789026,
-        "lonEnd": -93.84139731,
+        "latStart": 45.15611938,
+        "lonStart": -93.73808452,
+        "latEnd": 45.14547338,
+        "lonEnd": -93.74184826,
         "length": 0
       }
     ],
-    "id": 34241
+    "id": 22087
   },
   {
-    "type": 16,
-    "icao": "1MN9",
-    "lat": 45.116633050000004,
-    "lon": -93.01688473,
+    "type": 1,
+    "icao": "MY92",
+    "lat": 45.728573049999994,
+    "lon": -93.28828056,
     "communications": [],
-    "elevation": 910,
+    "elevation": 960,
     "tower": false,
-    "name": "[S] Lees",
+    "name": "Grohnke Field",
     "runways": [
       {
-        "type": 101,
-        "width": 1524,
+        "type": 100,
+        "width": 18.29,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 45.11699194,
-        "lonStart": -93.02658911,
-        "latEnd": 45.11627416,
-        "lonEnd": -93.00718035,
-        "length": 0
-      },
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 45.73041876,
+        "lonStart": -93.28903873,
+        "latEnd": 45.72672734,
+        "lonEnd": -93.28752239,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 22093
+  },
+  {
+    "type": 1,
+    "icao": "MY95",
+    "lat": 45.44638888,
+    "lon": -93.38277778,
+    "communications": [],
+    "elevation": 935,
+    "tower": false,
+    "name": "Swanson Field",
+    "runways": [
       {
-        "type": 101,
-        "width": 1524,
+        "type": 100,
+        "width": 30.48,
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 45.13375318,
-        "lonStart": -93.01561327,
-        "latEnd": 45.09951292,
-        "lonEnd": -93.01815619,
-        "length": 0
+        "latStart": 45.44994987,
+        "lonStart": -93.38251177,
+        "latEnd": 45.44282789,
+        "lonEnd": -93.38304379,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 34252
-  },
-  {
-    "type": 16,
-    "icao": "MY33",
-    "lat": 45.07691,
-    "lon": -93.20439084,
-    "communications": [],
-    "elevation": 865,
-    "tower": false,
-    "name": "[S] Rosackers Nr 1",
-    "runways": [
-      {
-        "type": 101,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 45.08074362,
-        "lonStart": -93.20848177,
-        "latEnd": 45.07307638,
-        "lonEnd": -93.20029991,
-        "length": 0
-      },
-      {
-        "type": 101,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 45.08167444,
-        "lonStart": -93.20521927,
-        "latEnd": 45.07214556,
-        "lonEnd": -93.20356241,
-        "length": 0
-      }
-    ],
-    "id": 34402
+    "id": 22095
   }
 ]

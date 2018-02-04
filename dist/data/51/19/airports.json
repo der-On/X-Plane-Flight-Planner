@@ -23,15 +23,26 @@
         "surfacetype": 1
       }
     ],
-    "id": 14415
+    "id": 1826
   },
   {
     "type": 1,
     "icao": "EPLL",
-    "lat": 51.719904369999995,
-    "lon": 19.389175265,
-    "communications": [],
-    "elevation": 605,
+    "lat": 51.71995543,
+    "lon": 19.389233335,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13567,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 12422,
+        "name": "LODZ"
+      }
+    ],
+    "elevation": 604,
     "tower": true,
     "name": "LODZ LUBLINEK",
     "runways": [
@@ -41,15 +52,15 @@
         "surfaceType": null,
         "numberStart": "07",
         "numberEnd": "25",
-        "latStart": 51.71621244,
-        "lonStart": 19.37208275,
-        "latEnd": 51.7235963,
-        "lonEnd": 19.40626778,
+        "latStart": 51.7162635,
+        "lonStart": 19.37214082,
+        "latEnd": 51.72364736,
+        "lonEnd": 19.40632585,
         "length": 0,
         "surfacetype": 2
       }
     ],
-    "id": 14580
+    "id": 1827
   },
   {
     "type": 1,
@@ -65,8 +76,8 @@
         "type": 100,
         "width": 18,
         "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
+        "numberStart": "03R",
+        "numberEnd": "21L",
         "latStart": 51.37892442,
         "lonStart": 19.68492272,
         "latEnd": 51.38618149,
@@ -75,6 +86,6 @@
         "surfacetype": 2
       }
     ],
-    "id": 20186
+    "id": 1847
   }
 ]

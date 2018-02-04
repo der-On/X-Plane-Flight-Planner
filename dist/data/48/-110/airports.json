@@ -1,10 +1,122 @@
 [
   {
     "type": 1,
-    "icao": "S71",
-    "lat": 48.592111,
-    "lon": -109.25061099999999,
+    "icao": "4U4",
+    "lat": 48.51363364,
+    "lon": -109.064178275,
     "communications": [
+      {
+        "type": 51,
+        "frequency": 12880,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 2576,
+    "tower": false,
+    "name": "Hebbelman",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 48.51182062,
+        "lonStart": -109.07280105,
+        "latEnd": 48.51493237,
+        "lonEnd": -109.05844613,
+        "length": 0,
+        "surfacetype": 5
+      },
+      {
+        "type": 100,
+        "width": 16.76,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 48.51476731,
+        "lonStart": -109.06726612,
+        "latEnd": 48.51301426,
+        "lonEnd": -109.0581998,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 166
+  },
+  {
+    "type": 1,
+    "icao": "KHVR",
+    "lat": 48.543432054,
+    "lon": -109.76148283599998,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13522,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 2589,
+    "tower": false,
+    "name": "Havre City Co",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 48.54405001,
+        "lonStart": -109.77277069,
+        "latEnd": 48.544033,
+        "lonEnd": -109.75128971,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 48.53791399,
+        "lonStart": -109.7681812,
+        "latEnd": 48.54509151,
+        "lonEnd": -109.75738702,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 10.59,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 48.54607176,
+        "lonStart": -109.75778556,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.57
+      }
+    ],
+    "id": 2789
+  },
+  {
+    "type": 1,
+    "icao": "S71",
+    "lat": 48.592178685,
+    "lon": -109.2503987,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11835,
+        "name": "AWOS"
+      },
       {
         "type": 51,
         "frequency": 12280,
@@ -21,104 +133,15 @@
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": 48.593069,
-        "lonStart": -109.258747,
-        "latEnd": 48.591153,
-        "lonEnd": -109.242475,
+        "latStart": 48.59313847,
+        "lonStart": -109.25853872,
+        "latEnd": 48.5912189,
+        "lonEnd": -109.24225868,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 6647
-  },
-  {
-    "type": 1,
-    "icao": "KHVR",
-    "lat": 48.542767999999995,
-    "lon": -109.762405,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13522,
-        "name": "ASOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 2590,
-    "tower": false,
-    "name": "Havre City Co",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 48.544047,
-        "lonStart": -109.772769,
-        "latEnd": 48.544033,
-        "lonEnd": -109.751289,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 48.537914,
-        "lonStart": -109.768181,
-        "latEnd": 48.545078,
-        "lonEnd": -109.757381,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 11554
-  },
-  {
-    "type": 1,
-    "icao": "4U4",
-    "lat": 48.51388638,
-    "lon": -109.06239027999999,
-    "communications": [],
-    "elevation": 2576,
-    "tower": false,
-    "name": "Hebbelman",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 48.51108709,
-        "lonStart": -109.06865518,
-        "latEnd": 48.51668567,
-        "lonEnd": -109.05612538,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 16.76,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 48.51570342,
-        "lonStart": -109.06616564,
-        "latEnd": 48.51206934,
-        "lonEnd": -109.05861492,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11617
+    "id": 4516
   },
   {
     "type": 1,
@@ -144,6 +167,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 22851
+    "id": 14249
   }
 ]

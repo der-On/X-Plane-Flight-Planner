@@ -1,5 +1,69 @@
 [
   {
+    "type": 17,
+    "icao": "YGNB",
+    "lat": -33.76167987,
+    "lon": 150.63617057,
+    "communications": [],
+    "elevation": 640,
+    "tower": false,
+    "name": "[H] Glenbrook HLS",
+    "runways": [
+      {
+        "type": 102,
+        "width": 11.9,
+        "surfaceType": 3,
+        "numberStart": "H7",
+        "numberEnd": null,
+        "latStart": -33.76167987,
+        "lonStart": 150.63617057,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.1
+      }
+    ],
+    "id": 33369
+  },
+  {
+    "type": 1,
+    "icao": "YKAT",
+    "lat": -33.667924282499996,
+    "lon": 150.322481855,
+    "communications": [],
+    "elevation": 3232,
+    "tower": false,
+    "name": "Katoomba Airfield",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.08,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -33.66893671,
+        "lonStart": 150.31691833,
+        "latEnd": -33.66698379,
+        "lonEnd": 150.32724655,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -33.6665826,
+        "lonStart": 150.31902576,
+        "latEnd": -33.66919403,
+        "lonEnd": 150.32673678,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 33550
+  },
+  {
     "type": 1,
     "icao": "YSBK",
     "lat": -33.91966938551724,
@@ -371,7 +435,59 @@
         "length": 6.1
       }
     ],
-    "id": 2196
+    "id": 34376
+  },
+  {
+    "type": 1,
+    "icao": "YSFS",
+    "lat": -33.716878465,
+    "lon": 150.87094416833335,
+    "communications": [],
+    "elevation": 72,
+    "tower": true,
+    "name": "Schofields",
+    "runways": [
+      {
+        "type": 100,
+        "width": 36.88,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -33.719585,
+        "lonStart": 150.865635,
+        "latEnd": -33.710617,
+        "lonEnd": 150.873775,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 36.88,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -33.722453,
+        "lonStart": 150.877055,
+        "latEnd": -33.719483,
+        "lonEnd": 150.865753,
+        "length": 0,
+        "surfacetype": 5
+      },
+      {
+        "type": 100,
+        "width": 36.88,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -33.71821679,
+        "lonStart": 150.87452502,
+        "latEnd": -33.710916,
+        "lonEnd": 150.86892199,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 34398
   },
   {
     "type": 1,
@@ -403,46 +519,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 11978
-  },
-  {
-    "type": 1,
-    "icao": "YKAT",
-    "lat": -33.667924282499996,
-    "lon": 150.322481855,
-    "communications": [],
-    "elevation": 3232,
-    "tower": false,
-    "name": "Katoomba Airfield",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.08,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": -33.66893671,
-        "lonStart": 150.31691833,
-        "latEnd": -33.66698379,
-        "lonEnd": 150.32724655,
-        "length": 0,
-        "surfacetype": 4
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": -33.6665826,
-        "lonStart": 150.31902576,
-        "latEnd": -33.66919403,
-        "lonEnd": 150.32673678,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 13660
+    "id": 34413
   },
   {
     "type": 1,
@@ -530,84 +607,7 @@
         "surfacetype": 15
       }
     ],
-    "id": 21446
-  },
-  {
-    "type": 1,
-    "icao": "YSFS",
-    "lat": -33.716878465,
-    "lon": 150.87094416833335,
-    "communications": [],
-    "elevation": 72,
-    "tower": true,
-    "name": "Schofields",
-    "runways": [
-      {
-        "type": 100,
-        "width": 36.88,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": -33.719585,
-        "lonStart": 150.865635,
-        "latEnd": -33.710617,
-        "lonEnd": 150.873775,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 36.88,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": -33.722453,
-        "lonStart": 150.877055,
-        "latEnd": -33.719483,
-        "lonEnd": 150.865753,
-        "length": 0,
-        "surfacetype": 5
-      },
-      {
-        "type": 100,
-        "width": 36.88,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": -33.71821679,
-        "lonStart": 150.87452502,
-        "latEnd": -33.710916,
-        "lonEnd": 150.86892199,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 23118
-  },
-  {
-    "type": 17,
-    "icao": "YGNB",
-    "lat": -33.76167987,
-    "lon": 150.63617057,
-    "communications": [],
-    "elevation": 640,
-    "tower": false,
-    "name": "[H] Glenbrook HLS",
-    "runways": [
-      {
-        "type": 102,
-        "width": 11.9,
-        "surfaceType": 3,
-        "numberStart": "H7",
-        "numberEnd": null,
-        "latStart": -33.76167987,
-        "lonStart": 150.63617057,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 13.1
-      }
-    ],
-    "id": 29940
+    "id": 34456
   },
   {
     "type": 17,
@@ -632,6 +632,6 @@
         "length": 27.1
       }
     ],
-    "id": 33819
+    "id": 34764
   }
 ]

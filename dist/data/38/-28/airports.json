@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "LPLA",
-    "lat": 38.76441,
-    "lon": -27.093482,
+    "lat": 38.76442666,
+    "lon": -27.093455855000002,
     "communications": [
       {
         "type": 50,
@@ -21,6 +21,11 @@
         "name": "TWR"
       },
       {
+        "type": 52,
+        "frequency": 13410,
+        "name": "CLR"
+      },
+      {
         "type": 55,
         "frequency": 13500,
         "name": "APP"
@@ -28,22 +33,22 @@
     ],
     "elevation": 180,
     "tower": true,
-    "name": "LAJES",
+    "name": "Lajes",
     "runways": [
       {
         "type": 100,
-        "width": 60.05,
+        "width": 60.7,
         "surfaceType": null,
         "numberStart": "15",
         "numberEnd": "33",
-        "latStart": 38.775953,
-        "lonStart": -27.10555,
-        "latEnd": 38.752867,
-        "lonEnd": -27.081414,
+        "latStart": 38.77596395,
+        "lonStart": -27.1055163,
+        "latEnd": 38.75288937,
+        "lonEnd": -27.08139541,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 14324
+    "id": 3885
   }
 ]

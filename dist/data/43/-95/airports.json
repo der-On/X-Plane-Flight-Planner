@@ -1,6 +1,58 @@
 [
   {
     "type": 1,
+    "icao": "4MN7",
+    "lat": 43.84384611,
+    "lon": -94.28579694999999,
+    "communications": [],
+    "elevation": 1069,
+    "tower": false,
+    "name": "Burk",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 43.84774534,
+        "lonStart": -94.2854189,
+        "latEnd": 43.83994688,
+        "lonEnd": -94.286175,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 8217
+  },
+  {
+    "type": 1,
+    "icao": "IA52",
+    "lat": 43.443013879999995,
+    "lon": -94.84804251,
+    "communications": [],
+    "elevation": 1350,
+    "tower": false,
+    "name": "Freedom Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 43.44424657,
+        "lonStart": -94.84887057,
+        "latEnd": 43.44178119,
+        "lonEnd": -94.84721445,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18186
+  },
+  {
+    "type": 1,
     "icao": "KAXA",
     "lat": 43.078126250000004,
     "lon": -94.2717475,
@@ -47,78 +99,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 210
-  },
-  {
-    "type": 1,
-    "icao": "KSBU",
-    "lat": 43.594629250000004,
-    "lon": -94.09267925,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 1106,
-    "tower": false,
-    "name": "BLUE EARTH MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 43.598325,
-        "lonStart": -94.094589,
-        "latEnd": 43.589503,
-        "lonEnd": -94.090433,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 43.592753,
-        "lonStart": -94.095289,
-        "latEnd": 43.597936,
-        "lonEnd": -94.090406,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 1783
-  },
-  {
-    "type": 1,
-    "icao": "4MN7",
-    "lat": 43.84384611,
-    "lon": -94.28579694999999,
-    "communications": [],
-    "elevation": 1069,
-    "tower": false,
-    "name": "Burk",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 43.84774534,
-        "lonStart": -94.2854189,
-        "latEnd": 43.83994688,
-        "lonEnd": -94.286175,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 3412
+    "id": 18833
   },
   {
     "type": 1,
@@ -176,7 +157,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 6764
+    "id": 19079
   },
   {
     "type": 1,
@@ -226,7 +207,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 6824
+    "id": 19107
   },
   {
     "type": 1,
@@ -271,39 +252,45 @@
         "surfacetype": 1
       }
     ],
-    "id": 7399
+    "id": 19161
   },
   {
     "type": 1,
-    "icao": "IA52",
-    "lat": 43.443013879999995,
-    "lon": -94.84804251,
-    "communications": [],
-    "elevation": 1350,
+    "icao": "KJYG",
+    "lat": 43.986318499999996,
+    "lon": -94.55793750000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1067,
     "tower": false,
-    "name": "Freedom Field",
+    "name": "ST JAMES MUNI",
     "runways": [
       {
         "type": 100,
-        "width": 18.29,
+        "width": 22.86,
         "surfaceType": null,
         "numberStart": "15",
         "numberEnd": "33",
-        "latStart": 43.44424657,
-        "lonStart": -94.84887057,
-        "latEnd": 43.44178119,
-        "lonEnd": -94.84721445,
+        "latStart": 43.991031,
+        "lonStart": -94.561828,
+        "latEnd": 43.981606,
+        "lonEnd": -94.554047,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       }
     ],
-    "id": 9706
+    "id": 19382
   },
   {
     "type": 1,
     "icao": "KMJQ",
-    "lat": 43.64990225,
-    "lon": -94.98639025,
+    "lat": 43.6499876675,
+    "lon": -94.98641386,
     "communications": [
       {
         "type": 51,
@@ -336,71 +323,83 @@
         "numberEnd": "22",
         "latStart": 43.647203,
         "lonStart": -94.988847,
-        "latEnd": 43.651325,
-        "lonEnd": -94.982525,
+        "latEnd": 43.65166667,
+        "lonEnd": -94.98261944,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 12673
+    "id": 19489
   },
   {
     "type": 1,
-    "icao": "MY80",
-    "lat": 43.52217805,
-    "lon": -94.58247806,
-    "communications": [],
-    "elevation": 1255,
-    "tower": false,
-    "name": "Rosenberg",
-    "runways": [
-      {
-        "type": 100,
-        "width": 27.43,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 43.52306547,
-        "lonStart": -94.58704551,
-        "latEnd": 43.52129063,
-        "lonEnd": -94.57791061,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 21738
-  },
-  {
-    "type": 1,
-    "icao": "KJYG",
-    "lat": 43.986318499999996,
-    "lon": -94.55793750000001,
+    "icao": "KSBU",
+    "lat": 43.594629250000004,
+    "lon": -94.09267925,
     "communications": [
       {
         "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
       }
     ],
-    "elevation": 1067,
+    "elevation": 1106,
     "tower": false,
-    "name": "ST JAMES MUNI",
+    "name": "BLUE EARTH MUNI",
     "runways": [
       {
         "type": 100,
         "width": 22.86,
         "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 43.991031,
-        "lonStart": -94.561828,
-        "latEnd": 43.981606,
-        "lonEnd": -94.554047,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 43.598325,
+        "lonStart": -94.094589,
+        "latEnd": 43.589503,
+        "lonEnd": -94.090433,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 43.592753,
+        "lonStart": -94.095289,
+        "latEnd": 43.597936,
+        "lonEnd": -94.090406,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 22467
+    "id": 19795
+  },
+  {
+    "type": 17,
+    "icao": "MN14",
+    "lat": 43.633705,
+    "lon": -94.10009862,
+    "communications": [],
+    "elevation": 1087,
+    "tower": false,
+    "name": "[H] United Hospital District",
+    "runways": [
+      {
+        "type": 102,
+        "width": 29.9,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 43.633705,
+        "lonStart": -94.10009862,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 34.4
+      }
+    ],
+    "id": 21532
   },
   {
     "type": 1,
@@ -439,31 +438,32 @@
         "surfacetype": 3
       }
     ],
-    "id": 23484
+    "id": 22027
   },
   {
-    "type": 17,
-    "icao": "MN14",
-    "lat": 43.633705,
-    "lon": -94.10009862,
+    "type": 1,
+    "icao": "MY80",
+    "lat": 43.52217805,
+    "lon": -94.58247806,
     "communications": [],
-    "elevation": 1087,
+    "elevation": 1255,
     "tower": false,
-    "name": "[H] United Hospital District",
+    "name": "Rosenberg",
     "runways": [
       {
-        "type": 102,
-        "width": 29.9,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 43.633705,
-        "lonStart": -94.10009862,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 34.4
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 43.52306547,
+        "lonStart": -94.58704551,
+        "latEnd": 43.52129063,
+        "lonEnd": -94.57791061,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 33493
+    "id": 22082
   }
 ]

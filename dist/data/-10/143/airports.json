@@ -1,38 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "YDNI",
-    "lat": -9.578934,
-    "lon": 143.77869800000002,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12030,
-        "name": "Darnley MULT"
-      }
-    ],
-    "elevation": 220,
-    "tower": false,
-    "name": "Darnley Island",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": -9.578352,
-        "lonStart": 143.776641,
-        "latEnd": -9.579516,
-        "lonEnd": 143.780755,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 6013
-  },
-  {
-    "type": 1,
     "icao": "AYDU",
     "lat": -9.087449,
     "lon": 143.20842,
@@ -61,7 +29,64 @@
         "surfacetype": 4
       }
     ],
-    "id": 6019
+    "id": 14790
+  },
+  {
+    "type": 1,
+    "icao": "YDNI",
+    "lat": -9.578934,
+    "lon": 143.77869800000002,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12030,
+        "name": "Darnley MULT"
+      }
+    ],
+    "elevation": 220,
+    "tower": false,
+    "name": "Darnley Island",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -9.578352,
+        "lonStart": 143.776641,
+        "latEnd": -9.579516,
+        "lonEnd": 143.780755,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 33156
+  },
+  {
+    "type": 16,
+    "icao": "YSTI",
+    "lat": -9.509055,
+    "lon": 143.550579995,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] STEPHENS ISLAND",
+    "runways": [
+      {
+        "type": 101,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -9.50919201,
+        "lonStart": 143.55057999,
+        "latEnd": -9.50891799,
+        "lonEnd": 143.55058,
+        "length": 0
+      }
+    ],
+    "id": 34468
   },
   {
     "type": 1,
@@ -93,31 +118,6 @@
         "surfacetype": 2
       }
     ],
-    "id": 27790
-  },
-  {
-    "type": 16,
-    "icao": "YSTI",
-    "lat": -9.509055,
-    "lon": 143.550579995,
-    "communications": [],
-    "elevation": 0,
-    "tower": false,
-    "name": "[S] STEPHENS ISLAND",
-    "runways": [
-      {
-        "type": 101,
-        "width": 14.94,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": -9.50919201,
-        "lonStart": 143.55057999,
-        "latEnd": -9.50891799,
-        "lonEnd": 143.55058,
-        "length": 0
-      }
-    ],
-    "id": 34419
+    "id": 34858
   }
 ]

@@ -1,9 +1,59 @@
 [
   {
     "type": 1,
+    "icao": "3U3",
+    "lat": 46.152650412499995,
+    "lon": -112.8673028725,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 50,
+        "frequency": 12002,
+        "name": "AWOS"
+      }
+    ],
+    "elevation": 5028,
+    "tower": false,
+    "name": "Bowman Fld",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 46.16392949,
+        "lonStart": -112.87115194,
+        "latEnd": 46.14723268,
+        "lonEnd": -112.87114057,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 46.14637557,
+        "lonStart": -112.87094604,
+        "latEnd": 46.15306391,
+        "lonEnd": -112.85597294,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 134
+  },
+  {
+    "type": 1,
     "icao": "3U9",
-    "lat": 46.21159444,
-    "lon": -112.10583223,
+    "lat": 46.211304115000004,
+    "lon": -112.10696068499999,
     "communications": [],
     "elevation": 4970,
     "tower": false,
@@ -15,79 +65,34 @@
         "surfaceType": null,
         "numberStart": "11",
         "numberEnd": "29",
-        "latStart": 46.2146269,
-        "lonStart": -112.11164758,
-        "latEnd": 46.20856198,
-        "lonEnd": -112.10001688,
+        "latStart": 46.2144847,
+        "lonStart": -112.11254384,
+        "latEnd": 46.20812353,
+        "lonEnd": -112.10137753,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 4
       }
     ],
-    "id": 3050
-  },
-  {
-    "type": 1,
-    "icao": "3U3",
-    "lat": 46.1525695,
-    "lon": -112.867222,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 5029,
-    "tower": false,
-    "name": "Bowman Fld",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 46.163889,
-        "lonStart": -112.871111,
-        "latEnd": 46.147222,
-        "lonEnd": -112.871111,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 46.146111,
-        "lonStart": -112.870833,
-        "latEnd": 46.153056,
-        "lonEnd": -112.855833,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 3078
+    "id": 139
   },
   {
     "type": 1,
     "icao": "38S",
-    "lat": 46.38875,
-    "lon": -112.7669445,
+    "lat": 46.38674569,
+    "lon": -112.764593385,
     "communications": [
       {
         "type": 51,
         "frequency": 12290,
         "name": "CTAF"
+      },
+      {
+        "type": 50,
+        "frequency": 12002,
+        "name": "AWOS-AV"
       }
     ],
-    "elevation": 4692,
+    "elevation": 4691,
     "tower": false,
     "name": "DEER LODGE CITY COUNTY",
     "runways": [
@@ -97,15 +102,97 @@
         "surfaceType": null,
         "numberStart": "12",
         "numberEnd": "30",
-        "latStart": 46.393056,
-        "lonStart": -112.773056,
-        "latEnd": 46.384444,
-        "lonEnd": -112.760833,
+        "latStart": 46.39290687,
+        "lonStart": -112.77184928,
+        "latEnd": 46.38058451,
+        "lonEnd": -112.75733749,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 5732
+    "id": 385
+  },
+  {
+    "type": 1,
+    "icao": "S69",
+    "lat": 46.955047685,
+    "lon": -112.650639015,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 4600,
+    "tower": false,
+    "name": "LINCOLN",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 46.95140629,
+        "lonStart": -112.65725468,
+        "latEnd": 46.95797957,
+        "lonEnd": -112.64320639,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 16.62,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 46.95545719,
+        "lonStart": -112.65093144,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 16.89
+      },
+      {
+        "type": 102,
+        "width": 16.96,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 46.95534769,
+        "lonStart": -112.65116355,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 16.5
+      }
+    ],
+    "id": 4515
+  },
+  {
+    "type": 1,
+    "icao": "6U4",
+    "lat": 46.97910916,
+    "lon": -112.00499945000001,
+    "communications": [],
+    "elevation": 3634,
+    "tower": false,
+    "name": "Ox Bow Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 46.983071,
+        "lonStart": -112.01270546,
+        "latEnd": 46.97514732,
+        "lonEnd": -111.99729344,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9436
   },
   {
     "type": 1,
@@ -144,7 +231,84 @@
         "surfacetype": 3
       }
     ],
-    "id": 7635
+    "id": 21838
+  },
+  {
+    "type": 1,
+    "icao": "MT18",
+    "lat": 46.749381940000006,
+    "lon": -112.18028612,
+    "communications": [],
+    "elevation": 4380,
+    "tower": false,
+    "name": "Silver City",
+    "runways": [
+      {
+        "type": 100,
+        "width": 25.91,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 46.74995538,
+        "lonStart": -112.18824873,
+        "latEnd": 46.7488085,
+        "lonEnd": -112.17232351,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21841
+  },
+  {
+    "type": 1,
+    "icao": "MT43",
+    "lat": 46.34631861,
+    "lon": -112.34362639,
+    "communications": [],
+    "elevation": 6300,
+    "tower": false,
+    "name": "Klies Air Strip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 46.34774548,
+        "lonStart": -112.34647142,
+        "latEnd": 46.34489174,
+        "lonEnd": -112.34078136,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21865
+  },
+  {
+    "type": 17,
+    "icao": "MT61",
+    "lat": 46.51659888,
+    "lon": -112.20084084,
+    "communications": [],
+    "elevation": 5548,
+    "tower": false,
+    "name": "[H] Red Mountain",
+    "runways": [
+      {
+        "type": 102,
+        "width": 21.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 46.51659888,
+        "lonStart": -112.20084084,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 21882
   },
   {
     "type": 1,
@@ -183,143 +347,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 13699
-  },
-  {
-    "type": 1,
-    "icao": "MT43",
-    "lat": 46.34631861,
-    "lon": -112.34362639,
-    "communications": [],
-    "elevation": 6300,
-    "tower": false,
-    "name": "Klies Air Strip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 46.34774548,
-        "lonStart": -112.34647142,
-        "latEnd": 46.34489174,
-        "lonEnd": -112.34078136,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 13982
-  },
-  {
-    "type": 1,
-    "icao": "S69",
-    "lat": 46.954355500000005,
-    "lon": -112.6504635,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 4600,
-    "tower": false,
-    "name": "LINCOLN",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 46.951258,
-        "lonStart": -112.657083,
-        "latEnd": 46.957453,
-        "lonEnd": -112.643844,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 14533
-  },
-  {
-    "type": 1,
-    "icao": "MT93",
-    "lat": 46.28714833,
-    "lon": -112.75809416999999,
-    "communications": [],
-    "elevation": 4710,
-    "tower": false,
-    "name": "Larner Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 46.28774955,
-        "lonStart": -112.75987797,
-        "latEnd": 46.28654711,
-        "lonEnd": -112.75631037,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 14968
-  },
-  {
-    "type": 1,
-    "icao": "6U4",
-    "lat": 46.97910916,
-    "lon": -112.00499945000001,
-    "communications": [],
-    "elevation": 3634,
-    "tower": false,
-    "name": "Ox Bow Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 46.983071,
-        "lonStart": -112.01270546,
-        "latEnd": 46.97514732,
-        "lonEnd": -111.99729344,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 19131
-  },
-  {
-    "type": 1,
-    "icao": "MT18",
-    "lat": 46.749381940000006,
-    "lon": -112.18028612,
-    "communications": [],
-    "elevation": 4380,
-    "tower": false,
-    "name": "Silver City",
-    "runways": [
-      {
-        "type": 100,
-        "width": 25.91,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 46.74995538,
-        "lonStart": -112.18824873,
-        "latEnd": 46.7488085,
-        "lonEnd": -112.17232351,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23509
+    "id": 21890
   },
   {
     "type": 1,
@@ -345,7 +373,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 25151
+    "id": 21903
+  },
+  {
+    "type": 1,
+    "icao": "MT93",
+    "lat": 46.28714833,
+    "lon": -112.75809416999999,
+    "communications": [],
+    "elevation": 4710,
+    "tower": false,
+    "name": "Larner Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 46.28774955,
+        "lonStart": -112.75987797,
+        "latEnd": 46.28654711,
+        "lonEnd": -112.75631037,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21913
   },
   {
     "type": 1,
@@ -371,31 +425,6 @@
         "surfacetype": 5
       }
     ],
-    "id": 27291
-  },
-  {
-    "type": 17,
-    "icao": "MT61",
-    "lat": 46.51659888,
-    "lon": -112.20084084,
-    "communications": [],
-    "elevation": 5548,
-    "tower": false,
-    "name": "[H] Red Mountain",
-    "runways": [
-      {
-        "type": 102,
-        "width": 21.3,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 46.51659888,
-        "lonStart": -112.20084084,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 32282
+    "id": 21916
   }
 ]

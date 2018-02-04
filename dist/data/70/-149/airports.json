@@ -1,5 +1,56 @@
 [
   {
+    "type": 17,
+    "icao": "35AK",
+    "lat": 70.49215472,
+    "lon": -148.69514195,
+    "communications": [],
+    "elevation": 28,
+    "tower": false,
+    "name": "[H] Seal Island",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 70.49215472,
+        "lonStart": -148.69514195,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 11891
+  },
+  {
+    "type": 1,
+    "icao": "AK11",
+    "lat": 70.40167694,
+    "lon": -148.68223723,
+    "communications": [],
+    "elevation": 15,
+    "tower": false,
+    "name": "Point Mcintyre",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 70.40095456,
+        "lonStart": -148.68815428,
+        "latEnd": 70.40239932,
+        "lonEnd": -148.67632018,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 14432
+  },
+  {
     "type": 1,
     "icao": "PASC",
     "lat": 70.194754,
@@ -29,8 +80,8 @@
         "type": 100,
         "width": 46.02,
         "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
+        "numberStart": "05",
+        "numberEnd": "23",
         "latStart": 70.19244722,
         "lonStart": -148.49057672,
         "latEnd": 70.19706078,
@@ -39,58 +90,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 5713
-  },
-  {
-    "type": 1,
-    "icao": "AK11",
-    "lat": 70.40167694,
-    "lon": -148.68223723,
-    "communications": [],
-    "elevation": 15,
-    "tower": false,
-    "name": "Point Mcintyre",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 70.40095456,
-        "lonStart": -148.68815428,
-        "latEnd": 70.40239932,
-        "lonEnd": -148.67632018,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 20304
-  },
-  {
-    "type": 17,
-    "icao": "35AK",
-    "lat": 70.49215472,
-    "lon": -148.69514195,
-    "communications": [],
-    "elevation": 28,
-    "tower": false,
-    "name": "[H] Seal Island",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 70.49215472,
-        "lonStart": -148.69514195,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 32625
+    "id": 24018
   },
   {
     "type": 1,
@@ -116,6 +116,6 @@
         "surfacetype": 5
       }
     ],
-    "id": 34573
+    "id": 24267
   }
 ]

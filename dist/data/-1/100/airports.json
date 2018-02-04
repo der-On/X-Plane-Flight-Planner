@@ -1,48 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "WIPT",
-    "lat": -0.786959615,
-    "lon": 100.280878435,
-    "communications": [
-      {
-        "type": 55,
-        "frequency": 12400,
-        "name": "Padang APP"
-      },
-      {
-        "type": 50,
-        "frequency": 12725,
-        "name": "Minang ATIS"
-      },
-      {
-        "type": 54,
-        "frequency": 11830,
-        "name": "Minang Tower"
-      }
-    ],
-    "elevation": 18,
-    "tower": true,
-    "name": "MINANGKABAU",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": -0.7756548,
-        "lonStart": 100.2756472,
-        "latEnd": -0.79826443,
-        "lonEnd": 100.28610967,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 16121
-  },
-  {
-    "type": 1,
     "icao": "WIMG",
     "lat": -0.874989,
     "lon": 100.35188199999999,
@@ -81,6 +39,48 @@
         "surfacetype": 2
       }
     ],
-    "id": 19637
+    "id": 31639
+  },
+  {
+    "type": 1,
+    "icao": "WIPT",
+    "lat": -0.786959615,
+    "lon": 100.280878435,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 12400,
+        "name": "Padang APP"
+      },
+      {
+        "type": 50,
+        "frequency": 12725,
+        "name": "Minang ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "Minang Tower"
+      }
+    ],
+    "elevation": 18,
+    "tower": true,
+    "name": "MINANGKABAU",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -0.7756548,
+        "lonStart": 100.2756472,
+        "latEnd": -0.79826443,
+        "lonEnd": 100.28610967,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 31666
   }
 ]

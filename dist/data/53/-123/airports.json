@@ -2,39 +2,39 @@
   {
     "type": 1,
     "icao": "CYXS",
-    "lat": 53.88666083857142,
-    "lon": -122.67386489142858,
+    "lat": 53.88686983,
+    "lon": -122.671776855,
     "communications": [
       {
         "type": 53,
         "frequency": 12190,
-        "name": "GND"
+        "name": "CYXS GND"
       },
       {
         "type": 54,
         "frequency": 11830,
-        "name": "TWR"
+        "name": "CYXS TWR"
       },
       {
         "type": 50,
-        "frequency": 12873,
-        "name": "AWOS"
+        "frequency": 12872,
+        "name": "CYXS AWOS"
       }
     ],
-    "elevation": 2267,
+    "elevation": 2233,
     "tower": true,
     "name": "Prince George Airport",
     "runways": [
       {
         "type": 100,
-        "width": 45.72,
+        "width": 22.86,
         "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 53.89951596,
-        "lonStart": -122.67085016,
-        "latEnd": 53.8684722,
-        "lonEnd": -122.66212273,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 53.88527666,
+        "lonStart": -122.67657106,
+        "latEnd": 53.89547831,
+        "lonEnd": -122.66623609,
         "length": 0,
         "surfacetype": 1
       },
@@ -44,40 +44,28 @@
         "surfaceType": null,
         "numberStart": "06",
         "numberEnd": "24",
-        "latStart": 53.885762,
-        "lonStart": -122.69305,
-        "latEnd": 53.88829744,
-        "lonEnd": -122.66717275,
+        "latStart": 53.88529939,
+        "lonStart": -122.69116976,
+        "latEnd": 53.88775763,
+        "lonEnd": -122.66632687,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 22.86,
+        "width": 46.02,
         "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 53.88576349,
-        "lonStart": -122.67807876,
-        "latEnd": 53.89611063,
-        "lonEnd": -122.6676538,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 53.89919399,
+        "lonStart": -122.66954555,
+        "latEnd": 53.868213,
+        "lonEnd": -122.6608118,
         "length": 0,
         "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 22.6,
-        "surfaceType": 2,
-        "numberStart": "H20",
-        "numberEnd": null,
-        "latStart": 53.88270415,
-        "lonStart": -122.67812604,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.4
       }
     ],
-    "id": 20547
+    "id": 861
   },
   {
     "type": 1,
@@ -114,6 +102,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 20668
+    "id": 15798
   }
 ]

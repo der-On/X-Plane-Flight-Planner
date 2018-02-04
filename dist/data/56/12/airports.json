@@ -1,48 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "ESTA",
-    "lat": 56.291491949999994,
-    "lon": 12.85497654,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12710,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 13245,
-        "name": "TWR"
-      },
-      {
-        "type": 56,
-        "frequency": 12485,
-        "name": "SWEDEN"
-      }
-    ],
-    "elevation": 68,
-    "tower": true,
-    "name": "Angelholm",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 56.29777925,
-        "lonStart": 12.84417674,
-        "latEnd": 56.28520465,
-        "lonEnd": 12.86577634,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 1048
-  },
-  {
-    "type": 1,
     "icao": "ESGF",
     "lat": 56.96858,
     "lon": 12.388297999999999,
@@ -71,52 +29,32 @@
         "surfacetype": 3
       }
     ],
-    "id": 7781
+    "id": 1895
   },
   {
-    "type": 1,
-    "icao": "ESMT",
-    "lat": 56.6883455175,
-    "lon": 12.81552792,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13010,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 101,
-    "tower": true,
-    "name": "Halmstad",
+    "type": 17,
+    "icao": "ESHH",
+    "lat": 56.03735833,
+    "lon": 12.68975334,
+    "communications": [],
+    "elevation": 12,
+    "tower": false,
+    "name": "[H] Helsingborg harbor",
     "runways": [
       {
-        "type": 100,
-        "width": 60,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 56.68373876,
-        "lonStart": 12.80602108,
-        "latEnd": 56.68765523,
-        "lonEnd": 12.81572487,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 40,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 56.68074704,
-        "lonStart": 12.81815934,
-        "latEnd": 56.70124104,
-        "lonEnd": 12.82220639,
-        "length": 0,
-        "surfacetype": 1
+        "type": 102,
+        "width": 20,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 56.03735833,
+        "lonStart": 12.68975334,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30
       }
     ],
-    "id": 11346
+    "id": 1916
   },
   {
     "type": 1,
@@ -161,31 +99,158 @@
         "surfacetype": 3
       }
     ],
-    "id": 11932
+    "id": 1950
   },
   {
-    "type": 17,
-    "icao": "ESHH",
-    "lat": 56.03735833,
-    "lon": 12.68975334,
-    "communications": [],
-    "elevation": 12,
-    "tower": false,
-    "name": "[H] Helsingborg harbor",
-    "runways": [
+    "type": 1,
+    "icao": "ESMT",
+    "lat": 56.6883455175,
+    "lon": 12.81552792,
+    "communications": [
       {
-        "type": 102,
-        "width": 20,
-        "surfaceType": 15,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 56.03735833,
-        "lonStart": 12.68975334,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30
+        "type": 54,
+        "frequency": 13010,
+        "name": "TWR"
       }
     ],
-    "id": 30204
+    "elevation": 101,
+    "tower": true,
+    "name": "Halmstad",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 56.68373876,
+        "lonStart": 12.80602108,
+        "latEnd": 56.68765523,
+        "lonEnd": 12.81572487,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 56.68074704,
+        "lonStart": 12.81815934,
+        "latEnd": 56.70124104,
+        "lonEnd": 12.82220639,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1959
+  },
+  {
+    "type": 1,
+    "icao": "ESTA",
+    "lat": 56.291491949999994,
+    "lon": 12.85497654,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12710,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 13245,
+        "name": "TWR"
+      },
+      {
+        "type": 56,
+        "frequency": 12485,
+        "name": "SWEDEN"
+      }
+    ],
+    "elevation": 67,
+    "tower": true,
+    "name": "Angelholm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 56.29777925,
+        "lonStart": 12.84417674,
+        "latEnd": 56.28520465,
+        "lonEnd": 12.86577634,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2021
+  },
+  {
+    "type": 1,
+    "icao": "XESM4",
+    "lat": 56.349952349999995,
+    "lon": 12.767628860000002,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "Amrenlanda",
+    "runways": [
+      {
+        "type": 100,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 56.35176829,
+        "lonStart": 12.76575204,
+        "latEnd": 56.34801521,
+        "lonEnd": 12.76586926,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 56.3499898,
+        "lonStart": 12.76618724,
+        "latEnd": 56.3500361,
+        "lonEnd": 12.7727069,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5431
+  },
+  {
+    "type": 1,
+    "icao": "XESM9",
+    "lat": 56.516615,
+    "lon": 12.97542841,
+    "communications": [],
+    "elevation": 19,
+    "tower": false,
+    "name": "Mellbystrand Laholm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 56.5173255,
+        "lonStart": 12.97096499,
+        "latEnd": 56.5159045,
+        "lonEnd": 12.97989183,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5436
   }
 ]

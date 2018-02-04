@@ -2,13 +2,13 @@
   {
     "type": 1,
     "icao": "LKCS",
-    "lat": 48.94635099,
-    "lon": 14.427462590000001,
+    "lat": 48.94565114666667,
+    "lon": 14.432616726666666,
     "communications": [
       {
         "type": 54,
-        "frequency": 12925,
-        "name": "INFO"
+        "frequency": 13592,
+        "name": "Tower Budejovice info"
       }
     ],
     "elevation": 1416,
@@ -17,71 +17,95 @@
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 56.03,
         "surfaceType": null,
         "numberStart": "09",
         "numberEnd": "27",
-        "latStart": 48.94634246,
-        "lonStart": 14.41040525,
-        "latEnd": 48.94635952,
-        "lonEnd": 14.44451993,
+        "latStart": 48.94638198,
+        "lonStart": 14.41041496,
+        "latEnd": 48.94639314,
+        "lonEnd": 14.44454062,
         "length": 0,
         "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 30,
+        "surfaceType": 2,
+        "numberStart": "H6",
+        "numberEnd": null,
+        "latStart": 48.94417832,
+        "lonStart": 14.4428946,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30
       }
     ],
-    "id": 4738
+    "id": 3835
   },
   {
     "type": 1,
     "icao": "LOLF",
-    "lat": 48.5025,
-    "lon": 14.401389,
-    "communications": [],
+    "lat": 48.51378205,
+    "lon": 14.406511519999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12232,
+        "name": "Freistadt Flugplatz"
+      }
+    ],
     "elevation": 2236,
     "tower": true,
     "name": "Freistadt",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 30,
         "surfaceType": null,
         "numberStart": "11",
         "numberEnd": "29",
-        "latStart": 48.50296335,
-        "lonStart": 14.39876487,
-        "latEnd": 48.50203665,
-        "lonEnd": 14.40401313,
+        "latStart": 48.51442616,
+        "lonStart": 14.40290426,
+        "latEnd": 48.51313794,
+        "lonEnd": 14.41011878,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 9723
+    "id": 3854
   },
   {
     "type": 1,
-    "icao": "LOLH",
-    "lat": 48.139722000000006,
-    "lon": 14.337499999999999,
-    "communications": [],
-    "elevation": 1168,
+    "icao": "LOLO",
+    "lat": 48.299045559999996,
+    "lon": 14.33433255,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12237,
+        "name": "Linz-Ost Flugplatz"
+      }
+    ],
+    "elevation": 827,
     "tower": true,
-    "name": "Hofkirchen",
+    "name": "Linz-Ost",
     "runways": [
       {
         "type": 100,
-        "width": 24.99,
+        "width": 30,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 48.13944019,
-        "lonStart": 14.33450847,
-        "latEnd": 48.14000381,
-        "lonEnd": 14.34049153,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 48.30330343,
+        "lonStart": 14.33151328,
+        "latEnd": 48.29478769,
+        "lonEnd": 14.33715182,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 11929
+    "id": 3856
   },
   {
     "type": 1,
@@ -113,8 +137,8 @@
         "type": 100,
         "width": 60.05,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
+        "numberStart": "08",
+        "numberEnd": "26",
         "latStart": 48.23239906,
         "lonStart": 14.16738659,
         "latEnd": 48.23403894,
@@ -132,11 +156,11 @@
         "lonStart": 14.1811172,
         "latEnd": null,
         "lonEnd": null,
-        "length": 24.99
+        "length": 25
       },
       {
         "type": 102,
-        "width": 14.02,
+        "width": 14,
         "surfaceType": 2,
         "numberStart": "H13",
         "numberEnd": null,
@@ -144,62 +168,10 @@
         "lonStart": 14.18686475,
         "latEnd": null,
         "lonEnd": null,
-        "length": 14.02
+        "length": 14
       }
     ],
-    "id": 15317
-  },
-  {
-    "type": 1,
-    "icao": "LOLO",
-    "lat": 48.299994999999996,
-    "lon": 14.329999999999998,
-    "communications": [],
-    "elevation": 827,
-    "tower": true,
-    "name": "Linz Ost",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 48.30365008,
-        "lonStart": 14.32680035,
-        "latEnd": 48.29633992,
-        "lonEnd": 14.33319965,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15318
-  },
-  {
-    "type": 1,
-    "icao": "LOLT",
-    "lat": 48.052,
-    "lon": 14.663,
-    "communications": [],
-    "elevation": 1050,
-    "tower": true,
-    "name": "Seitenstetten",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 48.05257898,
-        "lonStart": 14.65748277,
-        "latEnd": 48.05142102,
-        "lonEnd": 14.66851723,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23225
+    "id": 3858
   },
   {
     "type": 1,
@@ -225,7 +197,59 @@
         "surfacetype": 3
       }
     ],
-    "id": 24040
+    "id": 20762
+  },
+  {
+    "type": 1,
+    "icao": "LOLH",
+    "lat": 48.139722000000006,
+    "lon": 14.337499999999999,
+    "communications": [],
+    "elevation": 1168,
+    "tower": true,
+    "name": "Hofkirchen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 48.13944019,
+        "lonStart": 14.33450847,
+        "latEnd": 48.14000381,
+        "lonEnd": 14.34049153,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20763
+  },
+  {
+    "type": 1,
+    "icao": "LOLT",
+    "lat": 48.052,
+    "lon": 14.663,
+    "communications": [],
+    "elevation": 1050,
+    "tower": true,
+    "name": "Seitenstetten",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 48.05257898,
+        "lonStart": 14.65748277,
+        "latEnd": 48.05142102,
+        "lonEnd": 14.66851723,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20766
   },
   {
     "type": 1,
@@ -283,6 +307,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 26571
+    "id": 20768
   }
 ]

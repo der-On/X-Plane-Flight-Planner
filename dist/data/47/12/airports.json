@@ -1,121 +1,11 @@
 [
   {
     "type": 1,
-    "icao": "EDPC",
-    "lat": 47.9267915,
-    "lon": 12.287179,
-    "communications": [],
-    "elevation": 1687,
-    "tower": false,
-    "name": "Bad Endorf",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 47.930235,
-        "lonStart": 12.285388,
-        "latEnd": 47.923348,
-        "lonEnd": 12.28897,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 2038
-  },
-  {
-    "type": 1,
-    "icao": "EDJG",
-    "lat": 47.85276,
-    "lon": 12.550491274999999,
-    "communications": [],
-    "elevation": 1762,
-    "tower": false,
-    "name": "GrabenstC$tt",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 47.85236934,
-        "lonStart": 12.54718946,
-        "latEnd": 47.85315066,
-        "lonEnd": 12.55379309,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 10658
-  },
-  {
-    "type": 1,
-    "icao": "LOIK",
-    "lat": 47.564998599999996,
-    "lon": 12.1280003,
-    "communications": [],
-    "elevation": 1589,
-    "tower": true,
-    "name": "Kufstein Langkampfen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 47.56293442,
-        "lonStart": 12.12363136,
-        "latEnd": 47.56706278,
-        "lonEnd": 12.13236924,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 14175
-  },
-  {
-    "type": 1,
-    "icao": "LOIJ",
-    "lat": 47.520173985,
-    "lon": 12.4495012,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12035,
-        "name": "LOIJ Info"
-      }
-    ],
-    "elevation": 2198,
-    "tower": true,
-    "name": "St Johann Tirol",
-    "runways": [
-      {
-        "type": 100,
-        "width": 26.82,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 47.52240695,
-        "lonStart": 12.44578356,
-        "latEnd": 47.51794102,
-        "lonEnd": 12.45321884,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 24047
-  },
-  {
-    "type": 1,
     "icao": "ED05",
     "lat": 47.729739525,
-    "lon": 12.438136075,
+    "lon": 12.438136405,
     "communications": [],
-    "elevation": 1819,
+    "elevation": 1818,
     "tower": true,
     "name": "Unterwoessen",
     "runways": [
@@ -125,15 +15,47 @@
         "surfaceType": null,
         "numberStart": "06",
         "numberEnd": "24",
-        "latStart": 47.72778631,
-        "lonStart": 12.43377321,
-        "latEnd": 47.73169274,
-        "lonEnd": 12.44249894,
+        "latStart": 47.72778606,
+        "lonStart": 12.43377346,
+        "latEnd": 47.73169299,
+        "lonEnd": 12.44249935,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 25953
+    "id": 976
+  },
+  {
+    "type": 1,
+    "icao": "EDJG",
+    "lat": 47.852782595,
+    "lon": 12.550320655,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12997,
+        "name": "Grabenstätt Info"
+      }
+    ],
+    "elevation": 1762,
+    "tower": true,
+    "name": "Grabenstätt",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 47.85241257,
+        "lonStart": 12.5471838,
+        "latEnd": 47.85315262,
+        "lonEnd": 12.55345751,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1144
   },
   {
     "type": 1,
@@ -165,7 +87,33 @@
         "surfacetype": 1
       }
     ],
-    "id": 26399
+    "id": 1230
+  },
+  {
+    "type": 1,
+    "icao": "EDPC",
+    "lat": 47.9267915,
+    "lon": 12.287179,
+    "communications": [],
+    "elevation": 1687,
+    "tower": false,
+    "name": "Bad Endorf",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 47.930235,
+        "lonStart": 12.285388,
+        "latEnd": 47.923348,
+        "lonEnd": 12.28897,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1262
   },
   {
     "type": 1,
@@ -217,6 +165,64 @@
         "surfacetype": 1
       }
     ],
-    "id": 27889
+    "id": 3861
+  },
+  {
+    "type": 1,
+    "icao": "LOIJ",
+    "lat": 47.520173985,
+    "lon": 12.4495012,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12035,
+        "name": "LOIJ Info"
+      }
+    ],
+    "elevation": 2198,
+    "tower": true,
+    "name": "St Johann Tirol",
+    "runways": [
+      {
+        "type": 100,
+        "width": 26.82,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 47.52240695,
+        "lonStart": 12.44578356,
+        "latEnd": 47.51794102,
+        "lonEnd": 12.45321884,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20753
+  },
+  {
+    "type": 1,
+    "icao": "LOIK",
+    "lat": 47.564998599999996,
+    "lon": 12.1280003,
+    "communications": [],
+    "elevation": 1589,
+    "tower": true,
+    "name": "Kufstein Langkampfen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 47.56293442,
+        "lonStart": 12.12363136,
+        "latEnd": 47.56706278,
+        "lonEnd": 12.13236924,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20754
   }
 ]

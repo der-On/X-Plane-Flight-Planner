@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "CYPS",
-    "lat": 50.30272296333333,
-    "lon": -122.73972758166667,
+    "lat": 50.302724796666666,
+    "lon": -122.73973748833335,
     "communications": [
       {
         "type": 51,
@@ -11,72 +11,108 @@
         "name": "CTAF"
       }
     ],
-    "elevation": 670,
+    "elevation": 669,
     "tower": false,
     "name": "PEMBERTON",
     "runways": [
       {
         "type": 100,
-        "width": 40.54,
+        "width": 30,
         "surfaceType": null,
         "numberStart": "06",
         "numberEnd": "24",
-        "latStart": 50.3015961,
-        "lonStart": -122.74632208,
-        "latEnd": 50.30283521,
-        "lonEnd": -122.72934797,
+        "latStart": 50.3016118,
+        "lonStart": -122.7463291,
+        "latEnd": 50.30285091,
+        "lonEnd": -122.72935499,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 102,
-        "width": 17.18,
-        "surfaceType": 3,
+        "width": 10,
+        "surfaceType": 2,
         "numberStart": "H4",
         "numberEnd": null,
-        "latStart": 50.3028903,
-        "lonStart": -122.74087815,
+        "latStart": 50.30288869,
+        "lonStart": -122.74089244,
         "latEnd": null,
         "lonEnd": null,
-        "length": 17.04
+        "length": 10
       },
       {
         "type": 102,
-        "width": 17.18,
-        "surfaceType": 3,
+        "width": 10,
+        "surfaceType": 2,
         "numberStart": "H3",
         "numberEnd": null,
-        "latStart": 50.30308625,
-        "lonStart": -122.74090982,
+        "latStart": 50.30307551,
+        "lonStart": -122.74091907,
         "latEnd": null,
         "lonEnd": null,
-        "length": 16.6
+        "length": 10
       },
       {
         "type": 102,
-        "width": 18.08,
+        "width": 18,
         "surfaceType": 1,
         "numberStart": "H2",
         "numberEnd": null,
-        "latStart": 50.30306373,
-        "lonStart": -122.74047097,
+        "latStart": 50.30305568,
+        "lonStart": -122.74047938,
         "latEnd": null,
         "lonEnd": null,
-        "length": 18.26
+        "length": 18
       },
       {
         "type": 102,
-        "width": 18.08,
+        "width": 18,
         "surfaceType": 1,
         "numberStart": "H1",
         "numberEnd": null,
         "latStart": 50.30286619,
-        "lonStart": -122.7404365,
+        "lonStart": -122.74044995,
         "latEnd": null,
         "lonEnd": null,
-        "length": 18.26
+        "length": 18
       }
     ],
-    "id": 19292
+    "id": 807
+  },
+  {
+    "type": 17,
+    "icao": "XCAW4",
+    "lat": 50.12022738,
+    "lon": -122.95467614,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 15876,
+        "name": "Hospital Security"
+      },
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "Traffic"
+      }
+    ],
+    "elevation": 2181,
+    "tower": true,
+    "name": "[H] Whistler (Hospital) Heliport",
+    "runways": [
+      {
+        "type": 102,
+        "width": 20.73,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 50.12022738,
+        "lonStart": -122.95467614,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.68
+      }
+    ],
+    "id": 5320
   }
 ]

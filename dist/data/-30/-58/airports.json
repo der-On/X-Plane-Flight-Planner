@@ -1,55 +1,53 @@
 [
   {
     "type": 1,
-    "icao": "SJDJ",
-    "lat": -29.88861111,
-    "lon": -57.14,
-    "communications": [],
-    "elevation": 209,
+    "icao": "SBUG",
+    "lat": -29.781812722500003,
+    "lon": -57.03806562,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "URUGUAIANA RDO"
+      },
+      {
+        "type": 54,
+        "frequency": 12590,
+        "name": "URUGUAIANA RDO"
+      }
+    ],
+    "elevation": 255,
     "tower": false,
-    "name": "Arenhart",
+    "name": "Rubem Berta",
     "runways": [
       {
         "type": 100,
-        "width": 22.86,
+        "width": 30,
         "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": -29.88801129,
-        "lonStart": -57.1417721,
-        "latEnd": -29.88921093,
-        "lonEnd": -57.1382279,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -29.7826732,
+        "lonStart": -57.04553654,
+        "latEnd": -29.7814568,
+        "lonEnd": -57.03004674,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": -29.78450913,
+        "lonStart": -57.04071847,
+        "latEnd": -29.77861176,
+        "lonEnd": -57.03596073,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 1169
-  },
-  {
-    "type": 1,
-    "icao": "SATU",
-    "lat": -29.7705945,
-    "lon": -57.9789765,
-    "communications": [],
-    "elevation": 229,
-    "tower": true,
-    "name": "CURUZU CUATIA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": -29.780161,
-        "lonStart": -57.9792,
-        "latEnd": -29.761028,
-        "lonEnd": -57.978753,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 4279
+    "id": 4671
   },
   {
     "type": 1,
@@ -75,7 +73,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 14509
+    "id": 24841
   },
   {
     "type": 1,
@@ -117,56 +115,58 @@
         "surfacetype": 1
       }
     ],
-    "id": 19243
+    "id": 25046
   },
   {
     "type": 1,
-    "icao": "SBUG",
-    "lat": -29.78190825,
-    "lon": -57.037952250000004,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11810,
-        "name": "URUGUAIANA RDO"
-      },
-      {
-        "type": 54,
-        "frequency": 12590,
-        "name": "URUGUAIANA RDO"
-      }
-    ],
-    "elevation": 256,
-    "tower": false,
-    "name": "Rubem Berta",
+    "icao": "SATU",
+    "lat": -29.7705945,
+    "lon": -57.9789765,
+    "communications": [],
+    "elevation": 229,
+    "tower": true,
+    "name": "CURUZU CUATIA",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 30.48,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": -29.7828,
-        "lonStart": -57.045442,
-        "latEnd": -29.781561,
-        "lonEnd": -57.029992,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": -29.780161,
+        "lonStart": -57.9792,
+        "latEnd": -29.761028,
+        "lonEnd": -57.978753,
         "length": 0,
         "surfacetype": 1
-      },
+      }
+    ],
+    "id": 25057
+  },
+  {
+    "type": 1,
+    "icao": "SJDJ",
+    "lat": -29.88861111,
+    "lon": -57.14,
+    "communications": [],
+    "elevation": 209,
+    "tower": false,
+    "name": "Arenhart",
+    "runways": [
       {
         "type": 100,
-        "width": 61.57,
+        "width": 22.86,
         "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": -29.7847,
-        "lonStart": -57.040661,
-        "latEnd": -29.778572,
-        "lonEnd": -57.035714,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -29.88801129,
+        "lonStart": -57.1417721,
+        "latEnd": -29.88921093,
+        "lonEnd": -57.1382279,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 21807
+    "id": 26801
   }
 ]

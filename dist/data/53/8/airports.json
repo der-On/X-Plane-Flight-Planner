@@ -12,12 +12,7 @@
       },
       {
         "type": 54,
-        "frequency": 12510,
-        "name": "INFO"
-      },
-      {
-        "type": 54,
-        "frequency": 11850,
+        "frequency": 12032,
         "name": "TWR"
       },
       {
@@ -34,6 +29,11 @@
         "type": 55,
         "frequency": 13627,
         "name": "RADAR"
+      },
+      {
+        "type": 50,
+        "frequency": 13237,
+        "name": "ATIS"
       }
     ],
     "elevation": 14,
@@ -103,23 +103,17 @@
         "length": 42.1
       }
     ],
-    "id": 3155
+    "id": 1066
   },
   {
     "type": 1,
     "icao": "EDWB",
     "lat": 53.5060305,
     "lon": 8.57393225,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12905,
-        "name": "Luneort INFO"
-      }
-    ],
-    "elevation": 9,
-    "tower": true,
-    "name": "Bremerhaven- Luneort",
+    "communications": [],
+    "elevation": 8,
+    "tower": false,
+    "name": "Bremerhaven-Luneort (clsd)",
     "runways": [
       {
         "type": 100,
@@ -148,194 +142,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 3157
-  },
-  {
-    "type": 1,
-    "icao": "EDWQ",
-    "lat": 53.036059,
-    "lon": 8.505444,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11862,
-        "name": "Ganderkesee Info"
-      }
-    ],
-    "elevation": 96,
-    "tower": true,
-    "name": "Ganderkesee Atlas Airfield",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.95,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 53.035274,
-        "lonStart": 8.499371,
-        "latEnd": 53.036844,
-        "lonEnd": 8.511517,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 10289
-  },
-  {
-    "type": 1,
-    "icao": "EDXU",
-    "lat": 53.286623915,
-    "lon": 8.948353325,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12285,
-        "name": "Huettenbusch Info"
-      }
-    ],
-    "elevation": 9,
-    "tower": true,
-    "name": "Huettenbusch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 25,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 53.28662983,
-        "lonStart": 8.94470765,
-        "latEnd": 53.286618,
-        "lonEnd": 8.951999,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 12160
-  },
-  {
-    "type": 1,
-    "icao": "EDXZ",
-    "lat": 53.568130999999994,
-    "lon": 8.789305500000001,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13500,
-        "name": "Kuehrstedt Info"
-      }
-    ],
-    "elevation": 25,
-    "tower": true,
-    "name": "Kuehrstedt-Bederkesa",
-    "runways": [
-      {
-        "type": 100,
-        "width": 25,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 53.569348,
-        "lonStart": 8.785397,
-        "latEnd": 53.566914,
-        "lonEnd": 8.793214,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 14174
-  },
-  {
-    "type": 1,
-    "icao": "EDXN",
-    "lat": 53.7672585,
-    "lon": 8.6433425,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12102,
-        "name": "Spieka Info"
-      }
-    ],
-    "elevation": 71,
-    "tower": true,
-    "name": "Nordholz - Spieka",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 53.766439,
-        "lonStart": 8.636535,
-        "latEnd": 53.768078,
-        "lonEnd": 8.65015,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 18408
-  },
-  {
-    "type": 1,
-    "icao": "ETMN",
-    "lat": 53.76707783999999,
-    "lon": 8.662725246666666,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12510,
-        "name": "BREMEN INFO"
-      },
-      {
-        "type": 54,
-        "frequency": 12210,
-        "name": "Nordholz tower"
-      },
-      {
-        "type": 55,
-        "frequency": 12330,
-        "name": "RADAR"
-      },
-      {
-        "type": 55,
-        "frequency": 12985,
-        "name": "RADAR"
-      }
-    ],
-    "elevation": 74,
-    "tower": true,
-    "name": "Nordholz AB",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 53.765449,
-        "lonStart": 8.640389,
-        "latEnd": 53.769792,
-        "lonEnd": 8.676666,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 102,
-        "width": 37.6,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 53.76599252,
-        "lonStart": 8.67112074,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 40.2
-      }
-    ],
-    "id": 18409
+    "id": 1390
   },
   {
     "type": 1,
@@ -367,39 +174,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 18905
-  },
-  {
-    "type": 1,
-    "icao": "EDWP",
-    "lat": 53.321279000000004,
-    "lon": 8.0733235,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12650,
-        "name": "Conneforde Info"
-      }
-    ],
-    "elevation": 29,
-    "tower": false,
-    "name": "Wiefelstede- Conneforde",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 53.322654,
-        "lonStart": 8.069454,
-        "latEnd": 53.319904,
-        "lonEnd": 8.077193,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 27256
+    "id": 1395
   },
   {
     "type": 1,
@@ -461,6 +236,257 @@
         "length": 18.8
       }
     ],
-    "id": 27293
+    "id": 1396
+  },
+  {
+    "type": 1,
+    "icao": "EDWP",
+    "lat": 53.321279000000004,
+    "lon": 8.0733235,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12650,
+        "name": "Conneforde Info"
+      }
+    ],
+    "elevation": 29,
+    "tower": false,
+    "name": "Wiefelstede- Conneforde",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 53.322654,
+        "lonStart": 8.069454,
+        "latEnd": 53.319904,
+        "lonEnd": 8.077193,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1403
+  },
+  {
+    "type": 1,
+    "icao": "EDWQ",
+    "lat": 53.036059,
+    "lon": 8.505444,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11862,
+        "name": "Ganderkesee Info"
+      }
+    ],
+    "elevation": 96,
+    "tower": true,
+    "name": "Ganderkesee Atlas Airfield",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.95,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 53.035274,
+        "lonStart": 8.499371,
+        "latEnd": 53.036844,
+        "lonEnd": 8.511517,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1404
+  },
+  {
+    "type": 1,
+    "icao": "EDWT",
+    "lat": 53.538328485,
+    "lon": 8.538832195000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12060,
+        "name": "Blexen Info"
+      }
+    ],
+    "elevation": 8,
+    "tower": true,
+    "name": "Blexen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 53.53846104,
+        "lonStart": 8.53126396,
+        "latEnd": 53.53819593,
+        "lonEnd": 8.54640043,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1407
+  },
+  {
+    "type": 1,
+    "icao": "EDXN",
+    "lat": 53.7672585,
+    "lon": 8.6433425,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12102,
+        "name": "Spieka Info"
+      }
+    ],
+    "elevation": 71,
+    "tower": true,
+    "name": "Nordholz - Spieka",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 53.766439,
+        "lonStart": 8.636535,
+        "latEnd": 53.768078,
+        "lonEnd": 8.65015,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1434
+  },
+  {
+    "type": 1,
+    "icao": "EDXU",
+    "lat": 53.286623915,
+    "lon": 8.948353325,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12285,
+        "name": "Huettenbusch Info"
+      }
+    ],
+    "elevation": 9,
+    "tower": true,
+    "name": "Huettenbusch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 25,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 53.28662983,
+        "lonStart": 8.94470765,
+        "latEnd": 53.286618,
+        "lonEnd": 8.951999,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1441
+  },
+  {
+    "type": 1,
+    "icao": "EDXZ",
+    "lat": 53.568130999999994,
+    "lon": 8.789305500000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13500,
+        "name": "Kuehrstedt Info"
+      }
+    ],
+    "elevation": 25,
+    "tower": true,
+    "name": "Kuehrstedt-Bederkesa",
+    "runways": [
+      {
+        "type": 100,
+        "width": 25,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 53.569348,
+        "lonStart": 8.785397,
+        "latEnd": 53.566914,
+        "lonEnd": 8.793214,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1444
+  },
+  {
+    "type": 1,
+    "icao": "ETMN",
+    "lat": 53.76707783999999,
+    "lon": 8.662725246666666,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12510,
+        "name": "BREMEN INFO"
+      },
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "Nordholz tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12330,
+        "name": "RADAR"
+      },
+      {
+        "type": 55,
+        "frequency": 12985,
+        "name": "RADAR"
+      }
+    ],
+    "elevation": 74,
+    "tower": true,
+    "name": "Nordholz AB",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 53.765449,
+        "lonStart": 8.640389,
+        "latEnd": 53.769792,
+        "lonEnd": 8.676666,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 37.6,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 53.76599252,
+        "lonStart": 8.67112074,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 40.2
+      }
+    ],
+    "id": 2074
   }
 ]

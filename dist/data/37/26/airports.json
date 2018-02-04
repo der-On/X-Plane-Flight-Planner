@@ -1,6 +1,48 @@
 [
   {
     "type": 1,
+    "icao": "LGSM",
+    "lat": 37.689122505,
+    "lon": 26.91251158,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12985,
+        "name": "Samos Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12410,
+        "name": "Samos Approach"
+      },
+      {
+        "type": 54,
+        "frequency": 12705,
+        "name": "ATIS"
+      }
+    ],
+    "elevation": 18,
+    "tower": true,
+    "name": "Samos",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 37.68983593,
+        "lonStart": 26.90056235,
+        "latEnd": 37.68840908,
+        "lonEnd": 26.92446081,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3715
+  },
+  {
+    "type": 1,
     "icao": "LGIK",
     "lat": 37.682715,
     "lon": 26.34706,
@@ -29,7 +71,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 12267
+    "id": 20490
   },
   {
     "type": 1,
@@ -61,53 +103,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 14495
-  },
-  {
-    "type": 1,
-    "icao": "LGSM",
-    "lat": 37.689012000000005,
-    "lon": 26.9111225,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12410,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12210,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12210,
-        "name": "APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12410,
-        "name": "APP"
-      }
-    ],
-    "elevation": 19,
-    "tower": true,
-    "name": "SAMOS",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 37.689655,
-        "lonStart": 26.899567,
-        "latEnd": 37.688369,
-        "lonEnd": 26.922678,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 21946
+    "id": 20500
   }
 ]

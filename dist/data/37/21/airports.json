@@ -1,6 +1,32 @@
 [
   {
     "type": 1,
+    "icao": "LG55",
+    "lat": 37.094111,
+    "lon": 21.990375,
+    "communications": [],
+    "elevation": 36,
+    "tower": false,
+    "name": "TRIODHON",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 37.09825,
+        "lonStart": 21.987667,
+        "latEnd": 37.089972,
+        "lonEnd": 21.993083,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20482
+  },
+  {
+    "type": 1,
     "icao": "LGAD",
     "lat": 37.920708000000005,
     "lon": 21.292583,
@@ -34,8 +60,8 @@
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
+        "numberStart": "16L",
+        "numberEnd": "34R",
         "latStart": 37.934333,
         "lonStart": 21.287833,
         "latEnd": 37.907083,
@@ -44,32 +70,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 306
-  },
-  {
-    "type": 1,
-    "icao": "LG55",
-    "lat": 37.094111,
-    "lon": 21.990375,
-    "communications": [],
-    "elevation": 36,
-    "tower": false,
-    "name": "TRIODHON",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 37.09825,
-        "lonStart": 21.987667,
-        "latEnd": 37.089972,
-        "lonEnd": 21.993083,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 24866
+    "id": 20484
   }
 ]

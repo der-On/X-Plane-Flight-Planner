@@ -36,7 +36,104 @@
         "surfacetype": 3
       }
     ],
-    "id": 492
+    "id": 32680
+  },
+  {
+    "type": 1,
+    "icao": "YBGP",
+    "lat": -36.054758135,
+    "lon": 146.710801515,
+    "communications": [],
+    "elevation": 519,
+    "tower": false,
+    "name": "BOGONG PARK",
+    "runways": [
+      {
+        "type": 100,
+        "width": 75.9,
+        "surfaceType": null,
+        "numberStart": "1",
+        "numberEnd": "19",
+        "latStart": -36.04980327,
+        "lonStart": 146.71150003,
+        "latEnd": -36.059713,
+        "lonEnd": 146.710103,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 32748
+  },
+  {
+    "type": 1,
+    "icao": "YBLA",
+    "lat": -36.55166503,
+    "lon": 146.01264408999998,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12250,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 568,
+    "tower": false,
+    "name": "Benalla",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -36.55194684,
+        "lonStart": 146.00675384,
+        "latEnd": -36.55266666,
+        "lonEnd": 146.01839918,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 68.88,
+        "surfaceType": null,
+        "numberStart": "08L",
+        "numberEnd": "26R",
+        "latStart": -36.5506636,
+        "lonStart": 146.00737928,
+        "latEnd": -36.55138302,
+        "lonEnd": 146.01804406,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 32780
+  },
+  {
+    "type": 1,
+    "icao": "YILA",
+    "lat": -36.4563288,
+    "lon": 146.43302148499998,
+    "communications": [],
+    "elevation": 500,
+    "tower": false,
+    "name": "Milawa",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.03,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": -36.4605456,
+        "lonStart": 146.43105097,
+        "latEnd": -36.452112,
+        "lonEnd": 146.434992,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 33487
   },
   {
     "type": 1,
@@ -160,104 +257,32 @@
         "length": 7.6
       }
     ],
-    "id": 824
+    "id": 33767
   },
   {
-    "type": 1,
-    "icao": "YBGP",
-    "lat": -36.054758135,
-    "lon": 146.710801515,
+    "type": 17,
+    "icao": "YNGA",
+    "lat": -36.357841,
+    "lon": 146.310588,
     "communications": [],
-    "elevation": 519,
+    "elevation": 484,
     "tower": false,
-    "name": "BOGONG PARK",
+    "name": "[H] Wangaratta",
     "runways": [
       {
-        "type": 100,
-        "width": 75.9,
-        "surfaceType": null,
-        "numberStart": "1",
-        "numberEnd": "19",
-        "latStart": -36.04980327,
-        "lonStart": 146.71150003,
-        "latEnd": -36.059713,
-        "lonEnd": 146.710103,
-        "length": 0,
-        "surfacetype": 3
+        "type": 102,
+        "width": 14.9,
+        "surfaceType": 3,
+        "numberStart": "H7",
+        "numberEnd": null,
+        "latStart": -36.357841,
+        "lonStart": 146.310588,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.9
       }
     ],
-    "id": 1805
-  },
-  {
-    "type": 1,
-    "icao": "YBLA",
-    "lat": -36.55166503,
-    "lon": 146.01264408999998,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12250,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 568,
-    "tower": false,
-    "name": "Benalla",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "08R",
-        "numberEnd": "26L",
-        "latStart": -36.55194684,
-        "lonStart": 146.00675384,
-        "latEnd": -36.55266666,
-        "lonEnd": 146.01839918,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 68.88,
-        "surfaceType": null,
-        "numberStart": "08L",
-        "numberEnd": "26R",
-        "latStart": -36.5506636,
-        "lonStart": 146.00737928,
-        "latEnd": -36.55138302,
-        "lonEnd": 146.01804406,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 2535
-  },
-  {
-    "type": 1,
-    "icao": "YILA",
-    "lat": -36.4563288,
-    "lon": 146.43302148499998,
-    "communications": [],
-    "elevation": 500,
-    "tower": false,
-    "name": "Milawa",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.03,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": -36.4605456,
-        "lonStart": 146.43105097,
-        "latEnd": -36.452112,
-        "lonEnd": 146.434992,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 17180
+    "id": 34030
   },
   {
     "type": 1,
@@ -294,13 +319,13 @@
         "surfacetype": 3
       }
     ],
-    "id": 20368
+    "id": 34227
   },
   {
     "type": 1,
     "icao": "YWGT",
-    "lat": -36.4174201,
-    "lon": 146.3055289325,
+    "lat": -36.417441170000004,
+    "lon": 146.3054625225,
     "communications": [
       {
         "type": 51,
@@ -318,10 +343,10 @@
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": -36.40829929,
-        "lonStart": 146.30967352,
-        "latEnd": -36.42288786,
-        "lonEnd": 146.30709345,
+        "latStart": -36.4083121,
+        "lonStart": 146.30967879,
+        "latEnd": -36.422917,
+        "lonEnd": 146.30704825,
         "length": 0,
         "surfacetype": 1
       },
@@ -331,15 +356,15 @@
         "surfaceType": null,
         "numberStart": "9",
         "numberEnd": "27",
-        "latStart": -36.41891732,
-        "lonStart": 146.29977358,
-        "latEnd": -36.41957593,
-        "lonEnd": 146.30557518,
+        "latStart": -36.41893677,
+        "lonStart": 146.29961175,
+        "latEnd": -36.41959881,
+        "lonEnd": 146.3055113,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 26887
+    "id": 34708
   },
   {
     "type": 1,
@@ -384,31 +409,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 27754
-  },
-  {
-    "type": 17,
-    "icao": "YNGA",
-    "lat": -36.357841,
-    "lon": 146.310588,
-    "communications": [],
-    "elevation": 484,
-    "tower": false,
-    "name": "[H] Wangaratta",
-    "runways": [
-      {
-        "type": 102,
-        "width": 14.9,
-        "surfaceType": 3,
-        "numberStart": "H7",
-        "numberEnd": null,
-        "latStart": -36.357841,
-        "lonStart": 146.310588,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 14.9
-      }
-    ],
-    "id": 33720
+    "id": 34877
   }
 ]

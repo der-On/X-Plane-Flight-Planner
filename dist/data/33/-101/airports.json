@@ -1,6 +1,45 @@
 [
   {
     "type": 1,
+    "icao": "1TX2",
+    "lat": 33.71675166,
+    "lon": -100.15038223000002,
+    "communications": [],
+    "elevation": 1808,
+    "tower": false,
+    "name": "J Y Ranch-R B Masterson Iii Estate",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 33.71486203,
+        "lonStart": -100.15401779,
+        "latEnd": 33.71864129,
+        "lonEnd": -100.14674667,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 33.71838241,
+        "lonStart": -100.15214749,
+        "latEnd": 33.71512091,
+        "lonEnd": -100.14861697,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6780
+  },
+  {
+    "type": 1,
     "icao": "1TX3",
     "lat": 33.42508694,
     "lon": -100.54206139,
@@ -23,7 +62,182 @@
         "surfacetype": 3
       }
     ],
-    "id": 2458
+    "id": 6781
+  },
+  {
+    "type": 1,
+    "icao": "6F8",
+    "lat": 33.168985,
+    "lon": -100.21705001000001,
+    "communications": [],
+    "elevation": 1743,
+    "tower": false,
+    "name": "Douglas Flying Service - Private",
+    "runways": [
+      {
+        "type": 100,
+        "width": 7.62,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 33.16447972,
+        "lonStart": -100.21879881,
+        "latEnd": 33.17349028,
+        "lonEnd": -100.21530121,
+        "length": 0,
+        "surfacetype": 5
+      },
+      {
+        "type": 100,
+        "width": 7.62,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 33.17198673,
+        "lonStart": -100.21717524,
+        "latEnd": 33.16598327,
+        "lonEnd": -100.21692478,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 9056
+  },
+  {
+    "type": 1,
+    "icao": "6TE6",
+    "lat": 33.6411945,
+    "lon": -100.347611,
+    "communications": [],
+    "elevation": 1774,
+    "tower": false,
+    "name": "SIX 666 RANCH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 33.634311,
+        "lonStart": -100.349061,
+        "latEnd": 33.648078,
+        "lonEnd": -100.346161,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 9400
+  },
+  {
+    "type": 1,
+    "icao": "6TS0",
+    "lat": 33.44286638,
+    "lon": -100.85457362,
+    "communications": [],
+    "elevation": 2316,
+    "tower": false,
+    "name": "Spur Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 7.62,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 33.44629302,
+        "lonStart": -100.85471702,
+        "latEnd": 33.43943974,
+        "lonEnd": -100.85443022,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 7.62,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 33.44492665,
+        "lonStart": -100.85773387,
+        "latEnd": 33.44080611,
+        "lonEnd": -100.85141337,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 9412
+  },
+  {
+    "type": 1,
+    "icao": "22F",
+    "lat": 33.229261,
+    "lon": -100.568725,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 2006,
+    "tower": false,
+    "name": "KENT CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 33.233789,
+        "lonStart": -100.569026,
+        "latEnd": 33.224733,
+        "lonEnd": -100.568424,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11380
+  },
+  {
+    "type": 1,
+    "icao": "26TX",
+    "lat": 33.764807219999994,
+    "lon": -100.01787777999999,
+    "communications": [],
+    "elevation": 1692,
+    "tower": false,
+    "name": "Lowrance Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 33.76776783,
+        "lonStart": -100.01800214,
+        "latEnd": 33.76184661,
+        "lonEnd": -100.01775342,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 33.76307802,
+        "lonStart": -100.01950289,
+        "latEnd": 33.76653642,
+        "lonEnd": -100.01625267,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11573
   },
   {
     "type": 1,
@@ -75,208 +289,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 3468
-  },
-  {
-    "type": 1,
-    "icao": "6F8",
-    "lat": 33.168985,
-    "lon": -100.21705001000001,
-    "communications": [],
-    "elevation": 1743,
-    "tower": false,
-    "name": "Douglas Flying Service - Private",
-    "runways": [
-      {
-        "type": 100,
-        "width": 7.62,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 33.16447972,
-        "lonStart": -100.21879881,
-        "latEnd": 33.17349028,
-        "lonEnd": -100.21530121,
-        "length": 0,
-        "surfacetype": 5
-      },
-      {
-        "type": 100,
-        "width": 7.62,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 33.17198673,
-        "lonStart": -100.21717524,
-        "latEnd": 33.16598327,
-        "lonEnd": -100.21692478,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 6437
-  },
-  {
-    "type": 1,
-    "icao": "1TX2",
-    "lat": 33.71675166,
-    "lon": -100.15038223000002,
-    "communications": [],
-    "elevation": 1808,
-    "tower": false,
-    "name": "J Y Ranch-R B Masterson Iii Estate",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 33.71486203,
-        "lonStart": -100.15401779,
-        "latEnd": 33.71864129,
-        "lonEnd": -100.14674667,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 33.71838241,
-        "lonStart": -100.15214749,
-        "latEnd": 33.71512091,
-        "lonEnd": -100.14861697,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 12643
-  },
-  {
-    "type": 1,
-    "icao": "22F",
-    "lat": 33.229261,
-    "lon": -100.568725,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 2006,
-    "tower": false,
-    "name": "KENT CO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 33.233789,
-        "lonStart": -100.569026,
-        "latEnd": 33.224733,
-        "lonEnd": -100.568424,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 13313
-  },
-  {
-    "type": 1,
-    "icao": "26TX",
-    "lat": 33.764807219999994,
-    "lon": -100.01787777999999,
-    "communications": [],
-    "elevation": 1692,
-    "tower": false,
-    "name": "Lowrance Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 33.76776783,
-        "lonStart": -100.01800214,
-        "latEnd": 33.76184661,
-        "lonEnd": -100.01775342,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 33.76307802,
-        "lonStart": -100.01950289,
-        "latEnd": 33.76653642,
-        "lonEnd": -100.01625267,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15556
-  },
-  {
-    "type": 1,
-    "icao": "TS62",
-    "lat": 33.20009416,
-    "lon": -100.51844695,
-    "communications": [],
-    "elevation": 1987,
-    "tower": false,
-    "name": "Norris Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 33.20365786,
-        "lonStart": -100.51859567,
-        "latEnd": 33.19653046,
-        "lonEnd": -100.51829823,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 18426
-  },
-  {
-    "type": 1,
-    "icao": "6TE6",
-    "lat": 33.6411945,
-    "lon": -100.347611,
-    "communications": [],
-    "elevation": 1774,
-    "tower": false,
-    "name": "SIX 666 RANCH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 33.634311,
-        "lonStart": -100.349061,
-        "latEnd": 33.648078,
-        "lonEnd": -100.346161,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22315
+    "id": 12600
   },
   {
     "type": 1,
@@ -308,45 +321,32 @@
         "surfacetype": 1
       }
     ],
-    "id": 22540
+    "id": 29706
   },
   {
     "type": 1,
-    "icao": "6TS0",
-    "lat": 33.44286638,
-    "lon": -100.85457362,
+    "icao": "TS62",
+    "lat": 33.20009416,
+    "lon": -100.51844695,
     "communications": [],
-    "elevation": 2316,
+    "elevation": 1987,
     "tower": false,
-    "name": "Spur Municipal",
+    "name": "Norris Field",
     "runways": [
       {
         "type": 100,
-        "width": 7.62,
+        "width": 15.24,
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 33.44629302,
-        "lonStart": -100.85471702,
-        "latEnd": 33.43943974,
-        "lonEnd": -100.85443022,
+        "latStart": 33.20365786,
+        "lonStart": -100.51859567,
+        "latEnd": 33.19653046,
+        "lonEnd": -100.51829823,
         "length": 0,
-        "surfacetype": 4
-      },
-      {
-        "type": 100,
-        "width": 7.62,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 33.44492665,
-        "lonStart": -100.85773387,
-        "latEnd": 33.44080611,
-        "lonEnd": -100.85141337,
-        "length": 0,
-        "surfacetype": 4
+        "surfacetype": 3
       }
     ],
-    "id": 24010
+    "id": 30038
   }
 ]

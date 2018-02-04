@@ -1,35 +1,9 @@
 [
   {
     "type": 1,
-    "icao": "CS31",
-    "lat": 52.001850000000005,
-    "lon": -106.4362,
-    "communications": [],
-    "elevation": 1669,
-    "tower": false,
-    "name": "Clavet Airstrip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.08,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 52.0054,
-        "lonStart": -106.4375,
-        "latEnd": 51.9983,
-        "lonEnd": -106.4349,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 5066
-  },
-  {
-    "type": 1,
     "icao": "CYXE",
     "lat": 52.173067966000005,
-    "lon": -106.69757645,
+    "lon": -106.69756754400001,
     "communications": [
       {
         "type": 50,
@@ -45,16 +19,11 @@
         "type": 54,
         "frequency": 11830,
         "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11990,
-        "name": "APP/DEP"
       }
     ],
-    "elevation": 1653,
+    "elevation": 1651,
     "tower": true,
-    "name": "Saskatoon J G Diefenbaker Intl",
+    "name": "Saskatoon International",
     "runways": [
       {
         "type": 100,
@@ -63,9 +32,9 @@
         "numberStart": "09",
         "numberEnd": "27",
         "latStart": 52.17852194,
-        "lonStart": -106.7180895,
+        "lonStart": -106.7180806,
         "latEnd": 52.17418483,
-        "lonEnd": -106.68181292,
+        "lonEnd": -106.68180401,
         "length": 0,
         "surfacetype": 1
       },
@@ -76,26 +45,26 @@
         "numberStart": "15",
         "numberEnd": "33",
         "latStart": 52.17898468,
-        "lonStart": -106.70569157,
+        "lonStart": -106.70568266,
         "latEnd": 52.16290854,
-        "lonEnd": -106.69670748,
+        "lonEnd": -106.69669857,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 102,
-        "width": 7.01,
+        "width": 7,
         "surfaceType": 1,
         "numberStart": "H1",
         "numberEnd": null,
         "latStart": 52.17073984,
-        "lonStart": -106.68558078,
+        "lonStart": -106.68557188,
         "latEnd": null,
         "lonEnd": null,
-        "length": 7.01
+        "length": 7
       }
     ],
-    "id": 23029
+    "id": 857
   },
   {
     "type": 1,
@@ -121,7 +90,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 23030
+    "id": 15255
   },
   {
     "type": 1,
@@ -147,6 +116,32 @@
         "surfacetype": 4
       }
     ],
-    "id": 23031
+    "id": 15566
+  },
+  {
+    "type": 1,
+    "icao": "CS31",
+    "lat": 52.001850000000005,
+    "lon": -106.4362,
+    "communications": [],
+    "elevation": 1669,
+    "tower": false,
+    "name": "Clavet Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.08,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 52.0054,
+        "lonStart": -106.4375,
+        "latEnd": 51.9983,
+        "lonEnd": -106.4349,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 15575
   }
 ]

@@ -2,9 +2,14 @@
   {
     "type": 1,
     "icao": "SKCC",
-    "lat": 7.9288125,
-    "lon": -72.51292025000001,
+    "lat": 7.927196643749999,
+    "lon": -72.51120199625,
     "communications": [
+      {
+        "type": 50,
+        "frequency": 12500,
+        "name": "ATIS"
+      },
       {
         "type": 54,
         "frequency": 11810,
@@ -12,13 +17,18 @@
       },
       {
         "type": 55,
+        "frequency": 11960,
+        "name": "APP"
+      },
+      {
+        "type": 55,
         "frequency": 11990,
-        "name": "CUCUTA APP"
+        "name": "APP"
       }
     ],
-    "elevation": 1096,
+    "elevation": 1097,
     "tower": true,
-    "name": "CAMILO DAZA",
+    "name": "Camilo Daza Intl",
     "runways": [
       {
         "type": 100,
@@ -26,10 +36,10 @@
         "surfaceType": null,
         "numberStart": "16",
         "numberEnd": "34",
-        "latStart": 7.940344,
-        "lonStart": -72.519578,
-        "latEnd": 7.922417,
-        "lonEnd": -72.508214,
+        "latStart": 7.94039694,
+        "lonStart": -72.51943313,
+        "latEnd": 7.92245359,
+        "lonEnd": -72.50852613,
         "length": 0,
         "surfacetype": 1
       },
@@ -37,54 +47,65 @@
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 7.917892,
-        "lonStart": -72.514508,
-        "latEnd": 7.934597,
-        "lonEnd": -72.509381,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 7.91781854,
+        "lonStart": -72.51450538,
+        "latEnd": 7.93440642,
+        "lonEnd": -72.50937968,
         "length": 0,
         "surfacetype": 1
-      }
-    ],
-    "id": 3582
-  },
-  {
-    "type": 1,
-    "icao": "SVSO",
-    "lat": 7.5651115,
-    "lon": -72.035125,
-    "communications": [
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "GND"
       },
       {
-        "type": 54,
-        "frequency": 12330,
-        "name": "VIVAS TWR"
-      }
-    ],
-    "elevation": 1083,
-    "tower": true,
-    "name": "MAYOR BUENAVENTURA VIVAS",
-    "runways": [
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 7.92533114,
+        "lonStart": -72.50926526,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      },
       {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 7.569917,
-        "lonStart": -72.048056,
-        "latEnd": 7.560306,
-        "lonEnd": -72.022194,
-        "length": 0,
-        "surfacetype": 1
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 15,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 7.9255232,
+        "lonStart": -72.50938566,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      },
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 15,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 7.92591875,
+        "lonStart": -72.50962134,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      },
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 15,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 7.92572457,
+        "lonStart": -72.50949939,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
       }
     ],
-    "id": 15950
+    "id": 4890
   },
   {
     "type": 1,
@@ -116,7 +137,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 19213
+    "id": 29024
   },
   {
     "type": 1,
@@ -153,6 +174,43 @@
         "surfacetype": 1
       }
     ],
-    "id": 21956
+    "id": 29034
+  },
+  {
+    "type": 1,
+    "icao": "SVSO",
+    "lat": 7.5651115,
+    "lon": -72.035125,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12330,
+        "name": "VIVAS TWR"
+      }
+    ],
+    "elevation": 1083,
+    "tower": true,
+    "name": "MAYOR BUENAVENTURA VIVAS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 7.569917,
+        "lonStart": -72.048056,
+        "latEnd": 7.560306,
+        "lonEnd": -72.022194,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 29038
   }
 ]

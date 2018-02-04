@@ -1,35 +1,270 @@
 [
   {
     "type": 1,
-    "icao": "EDBT",
-    "lat": 51.378697,
-    "lon": 11.4371195,
+    "icao": "EDAM",
+    "lat": 51.362682164999995,
+    "lon": 11.9418687,
     "communications": [
       {
         "type": 54,
-        "frequency": 12580,
-        "name": "BERLIN INFO"
+        "frequency": 12290,
+        "name": "Merseburg Info"
       }
     ],
-    "elevation": 932,
-    "tower": false,
-    "name": "ALLSTEDT",
+    "elevation": 341,
+    "tower": true,
+    "name": "Merseburg",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 30,
         "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 51.376847,
-        "lonStart": 11.429025,
-        "latEnd": 51.380547,
-        "lonEnd": 11.445214,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 51.36122641,
+        "lonStart": 11.93277223,
+        "latEnd": 51.36413792,
+        "lonEnd": 11.95096517,
         "length": 0,
         "surfacetype": 2
       }
     ],
-    "id": 230
+    "id": 990
+  },
+  {
+    "type": 1,
+    "icao": "EDBC",
+    "lat": 51.85457908,
+    "lon": 11.411223825,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13112,
+        "name": "Cochstedt Tower"
+      },
+      {
+        "type": 53,
+        "frequency": 12182,
+        "name": "Cochstedt Ground"
+      }
+    ],
+    "elevation": 601,
+    "tower": true,
+    "name": "Magdeburg-Cochstedt",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 51.853473,
+        "lonStart": 11.400294,
+        "latEnd": 51.858376,
+        "lonEnd": 11.435704,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "08R",
+        "numberEnd": "26L",
+        "latStart": 51.85244555,
+        "lonStart": 11.398754,
+        "latEnd": 51.85402177,
+        "lonEnd": 11.4101433,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1005
+  },
+  {
+    "type": 1,
+    "icao": "EDBL",
+    "lat": 51.246090455,
+    "lon": 11.69357798,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12247,
+        "name": "Laucha Info"
+      }
+    ],
+    "elevation": 738,
+    "tower": true,
+    "name": "Laucha",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 51.24626161,
+        "lonStart": 11.68833737,
+        "latEnd": 51.2459193,
+        "lonEnd": 11.69881859,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1013
+  },
+  {
+    "type": 1,
+    "icao": "EDBS",
+    "lat": 51.19821297000001,
+    "lon": 11.193328776666666,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12400,
+        "name": "Sömmerda Info"
+      }
+    ],
+    "elevation": 451,
+    "tower": true,
+    "name": "Sömmerda-Dermsdorf",
+    "runways": [
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 51.19706058,
+        "lonStart": 11.18543486,
+        "latEnd": 51.19971617,
+        "lonEnd": 11.19802429,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 28,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 51.19786216,
+        "lonStart": 11.19652718,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 28
+      }
+    ],
+    "id": 1020
+  },
+  {
+    "type": 1,
+    "icao": "EDBT",
+    "lat": 51.380632405,
+    "lon": 11.44660614,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12200,
+        "name": "Allstedt Info"
+      }
+    ],
+    "elevation": 931,
+    "tower": true,
+    "name": "Allstedt",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 51.37892465,
+        "lonStart": 11.43848163,
+        "latEnd": 51.38234016,
+        "lonEnd": 11.45473065,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 1021
+  },
+  {
+    "type": 1,
+    "icao": "EDCB",
+    "lat": 51.7450836575,
+    "lon": 11.228904095,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12270,
+        "name": "Ballenstedt Info"
+      }
+    ],
+    "elevation": 501,
+    "tower": true,
+    "name": "Ballenstedt-Harz",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 51.74568456,
+        "lonStart": 11.22341847,
+        "latEnd": 51.74598913,
+        "lonEnd": 11.23505788,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "09R",
+        "numberEnd": "27L",
+        "latStart": 51.74410476,
+        "lonStart": 11.22345943,
+        "latEnd": 51.74455618,
+        "lonEnd": 11.2336806,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1029
+  },
+  {
+    "type": 1,
+    "icao": "EDCK",
+    "lat": 51.72380046,
+    "lon": 11.949147595,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12365,
+        "name": "Köthen Info"
+      }
+    ],
+    "elevation": 301,
+    "tower": true,
+    "name": "Köthen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 13.5,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 51.72251934,
+        "lonStart": 11.94371677,
+        "latEnd": 51.72508158,
+        "lonEnd": 11.95457842,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 1037
   },
   {
     "type": 1,
@@ -74,7 +309,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 1254
+    "id": 1042
   },
   {
     "type": 1,
@@ -106,307 +341,55 @@
         "surfacetype": 3
       }
     ],
-    "id": 2039
-  },
-  {
-    "type": 1,
-    "icao": "EDCB",
-    "lat": 51.7431564,
-    "lon": 11.227829,
-    "communications": [],
-    "elevation": 533,
-    "tower": false,
-    "name": "Ballenstedt",
-    "runways": [
-      {
-        "type": 100,
-        "width": 26.82,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 51.7431564,
-        "lonStart": 11.22376229,
-        "latEnd": 51.7431564,
-        "lonEnd": 11.23189571,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 2141
+    "id": 1240
   },
   {
     "type": 1,
     "icao": "EDOM",
-    "lat": 51.9476667,
-    "lon": 11.769833205,
+    "lat": 51.947522840000005,
+    "lon": 11.769437815,
     "communications": [
       {
-        "type": 51,
+        "type": 54,
         "frequency": 12200,
-        "name": "INFO"
+        "name": "Mühlingen Info"
       }
     ],
     "elevation": 170,
     "tower": true,
-    "name": "KLEIN MUEHLINGEN",
+    "name": "Klein Mühlingen",
     "runways": [
       {
         "type": 100,
-        "width": 49.99,
+        "width": 30,
         "surfaceType": null,
         "numberStart": "09",
         "numberEnd": "27",
-        "latStart": 51.9476667,
-        "lonStart": 11.76654816,
-        "latEnd": 51.9476667,
-        "lonEnd": 11.77311825,
+        "latStart": 51.94784775,
+        "lonStart": 11.76560485,
+        "latEnd": 51.94719793,
+        "lonEnd": 11.77327078,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 13425
-  },
-  {
-    "type": 1,
-    "icao": "EDCK",
-    "lat": 51.7224922,
-    "lon": 11.9472313,
-    "communications": [],
-    "elevation": 304,
-    "tower": false,
-    "name": "Koethen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 14.94,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 51.72126134,
-        "lonStart": 11.94177219,
-        "latEnd": 51.72372306,
-        "lonEnd": 11.95269041,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 14035
-  },
-  {
-    "type": 1,
-    "icao": "EDBL",
-    "lat": 51.246066,
-    "lon": 11.69363636,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12335,
-        "name": "GLD"
-      },
-      {
-        "type": 51,
-        "frequency": 12247,
-        "name": "INFO"
-      }
-    ],
-    "elevation": 737,
-    "tower": true,
-    "name": "LAUCHA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 51.24624,
-        "lonStart": 11.688381,
-        "latEnd": 51.245892,
-        "lonEnd": 11.69889172,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 14418
-  },
-  {
-    "type": 1,
-    "icao": "EDBC",
-    "lat": 51.8559265,
-    "lon": 11.418004,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13112,
-        "name": "COCHSTEDT INFO"
-      }
-    ],
-    "elevation": 596,
-    "tower": false,
-    "name": "MAGDEBURG COCHSTEDT",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 51.853475,
-        "lonStart": 11.400294,
-        "latEnd": 51.858375,
-        "lonEnd": 11.435706,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 39.93,
-        "surfaceType": null,
-        "numberStart": "08R",
-        "numberEnd": "26L",
-        "latStart": 51.85514123,
-        "lonStart": 11.41232228,
-        "latEnd": 51.85671477,
-        "lonEnd": 11.42369372,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15705
-  },
-  {
-    "type": 1,
-    "icao": "EDAM",
-    "lat": 51.362999,
-    "lon": 11.940833999999999,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12580,
-        "name": "BERLIN INFO"
-      },
-      {
-        "type": 54,
-        "frequency": 12290,
-        "name": "INFO"
-      },
-      {
-        "type": 55,
-        "frequency": 12417,
-        "name": "BERLIN RADAR"
-      }
-    ],
-    "elevation": 340,
-    "tower": false,
-    "name": "MERSEBURG",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 51.362155,
-        "lonStart": 11.932762,
-        "latEnd": 51.363843,
-        "lonEnd": 11.948906,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 16048
-  },
-  {
-    "type": 1,
-    "icao": "EDUO",
-    "lat": 51.5431495,
-    "lon": 11.595161443333334,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12230,
-        "name": "START"
-      }
-    ],
-    "elevation": 738,
-    "tower": false,
-    "name": "OBERRISSDORF",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.99,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 51.54536007,
-        "lonStart": 11.59170191,
-        "latEnd": 51.54158843,
-        "lonEnd": 11.59791642,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 102,
-        "width": 24.99,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 51.5425,
-        "lonStart": 11.595866,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.99
-      }
-    ],
-    "id": 18598
+    "id": 1247
   },
   {
     "type": 1,
     "icao": "EDOZ",
-    "lat": 51.996333199999995,
-    "lon": 11.792166739999999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12300,
-        "name": "INFO"
-      }
-    ],
-    "elevation": 166,
-    "tower": true,
-    "name": "SCHOENEBECK-Zackmuende",
-    "runways": [
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 51.99510203,
-        "lonStart": 11.7866729,
-        "latEnd": 51.99756437,
-        "lonEnd": 11.79766058,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 22116
-  },
-  {
-    "type": 1,
-    "icao": "EDBS",
-    "lat": 51.19821297000001,
-    "lon": 11.193328776666666,
+    "lat": 51.99862055333333,
+    "lon": 11.79114981,
     "communications": [
       {
         "type": 54,
-        "frequency": 12400,
-        "name": "SC6mmerda Info"
+        "frequency": 12300,
+        "name": "Schönebeck Info"
       }
     ],
-    "elevation": 451,
+    "elevation": 167,
     "tower": true,
-    "name": "SC6mmerda-Dermsdorf",
+    "name": "Schönebeck-Zackmünde",
     "runways": [
       {
         "type": 100,
@@ -414,26 +397,58 @@
         "surfaceType": null,
         "numberStart": "07",
         "numberEnd": "25",
-        "latStart": 51.19706058,
-        "lonStart": 11.18543486,
-        "latEnd": 51.19971617,
-        "lonEnd": 11.19802429,
+        "latStart": 51.99605931,
+        "lonStart": 11.78435224,
+        "latEnd": 51.99854693,
+        "lonEnd": 11.79532493,
         "length": 0,
         "surfacetype": 3
       },
       {
         "type": 102,
-        "width": 28,
+        "width": 10,
         "surfaceType": 3,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 51.19786216,
-        "lonStart": 11.19652718,
+        "latStart": 52.00125542,
+        "lonStart": 11.79377226,
         "latEnd": null,
         "lonEnd": null,
-        "length": 28
+        "length": 10
       }
     ],
-    "id": 24512
+    "id": 1259
+  },
+  {
+    "type": 1,
+    "icao": "EDUO",
+    "lat": 51.543016890000004,
+    "lon": 11.59519671,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12230,
+        "name": "Oberrissdorf Info"
+      }
+    ],
+    "elevation": 738,
+    "tower": true,
+    "name": "Oberrissdorf",
+    "runways": [
+      {
+        "type": 100,
+        "width": 25,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 51.54460942,
+        "lonStart": 11.59264147,
+        "latEnd": 51.54142436,
+        "lonEnd": 11.59775195,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1364
   }
 ]

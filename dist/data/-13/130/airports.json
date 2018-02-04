@@ -1,6 +1,80 @@
 [
   {
     "type": 1,
+    "icao": "YDII",
+    "lat": -12.63242367,
+    "lon": 130.371625655,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12670,
+        "name": "DUM IN MIRRIE CTAF"
+      },
+      {
+        "type": 54,
+        "frequency": 11815,
+        "name": "BRISBANE CENTRE CNTR"
+      }
+    ],
+    "elevation": 20,
+    "tower": true,
+    "name": "Dum in Mirrie Is",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -12.62756551,
+        "lonStart": 130.36815248,
+        "latEnd": -12.63728183,
+        "lonEnd": 130.37509883,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 33130
+  },
+  {
+    "type": 1,
+    "icao": "YDLV",
+    "lat": -12.55040572,
+    "lon": 130.686917485,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 11815,
+        "name": "BRISBANE CENTRE MULT"
+      },
+      {
+        "type": 51,
+        "frequency": 12670,
+        "name": "DELISSAVILLE CTAF"
+      }
+    ],
+    "elevation": 112,
+    "tower": false,
+    "name": "Delissaville",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -12.54717629,
+        "lonStart": 130.68252698,
+        "latEnd": -12.55363515,
+        "lonEnd": 130.69130799,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 33146
+  },
+  {
+    "type": 1,
     "icao": "YPDN",
     "lat": -12.4128156,
     "lon": 130.8819156,
@@ -209,112 +283,7 @@
         "length": 4.88
       }
     ],
-    "id": 6021
-  },
-  {
-    "type": 1,
-    "icao": "YDLV",
-    "lat": -12.55040572,
-    "lon": 130.686917485,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 11815,
-        "name": "BRISBANE CENTRE MULT"
-      },
-      {
-        "type": 51,
-        "frequency": 12670,
-        "name": "DELISSAVILLE CTAF"
-      }
-    ],
-    "elevation": 112,
-    "tower": false,
-    "name": "Delissaville",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": -12.54717629,
-        "lonStart": 130.68252698,
-        "latEnd": -12.55363515,
-        "lonEnd": 130.69130799,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 6165
-  },
-  {
-    "type": 1,
-    "icao": "YDII",
-    "lat": -12.63242367,
-    "lon": 130.371625655,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12670,
-        "name": "DUM IN MIRRIE CTAF"
-      },
-      {
-        "type": 54,
-        "frequency": 11815,
-        "name": "BRISBANE CENTRE CNTR"
-      }
-    ],
-    "elevation": 20,
-    "tower": true,
-    "name": "Dum in Mirrie Is",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": -12.62756551,
-        "lonStart": 130.36815248,
-        "latEnd": -12.63728183,
-        "lonEnd": 130.37509883,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 6542
-  },
-  {
-    "type": 17,
-    "icao": "YXDH",
-    "lat": -12.353675,
-    "lon": 130.882487,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11815,
-        "name": "BRISBANE_CENTRE CNTR"
-      }
-    ],
-    "elevation": 60,
-    "tower": true,
-    "name": "[H] Darwin_Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 14.9,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -12.353675,
-        "lonStart": 130.882487,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 14.9
-      }
-    ],
-    "id": 29265
+    "id": 34180
   },
   {
     "type": 17,
@@ -351,7 +320,7 @@
         "length": 18.9
       }
     ],
-    "id": 32385
+    "id": 34288
   },
   {
     "type": 16,
@@ -376,7 +345,7 @@
         "length": 0
       }
     ],
-    "id": 34388
+    "id": 34338
   },
   {
     "type": 16,
@@ -401,6 +370,37 @@
         "length": 0
       }
     ],
-    "id": 34477
+    "id": 34547
+  },
+  {
+    "type": 17,
+    "icao": "YXDH",
+    "lat": -12.353675,
+    "lon": 130.882487,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11815,
+        "name": "BRISBANE_CENTRE CNTR"
+      }
+    ],
+    "elevation": 60,
+    "tower": true,
+    "name": "[H] Darwin_Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 14.9,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -12.353675,
+        "lonStart": 130.882487,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.9
+      }
+    ],
+    "id": 34826
   }
 ]

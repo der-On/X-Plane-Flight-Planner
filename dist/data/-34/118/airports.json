@@ -1,6 +1,32 @@
 [
   {
     "type": 1,
+    "icao": "AU93",
+    "lat": -33.17506685,
+    "lon": 118.08538901,
+    "communications": [],
+    "elevation": 1132,
+    "tower": false,
+    "name": "Kukerin",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -33.17507552,
+        "lonStart": 118.07879612,
+        "latEnd": -33.17505818,
+        "lonEnd": 118.0919819,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 14777
+  },
+  {
+    "type": 1,
     "icao": "YGNW",
     "lat": -33.97845586,
     "lon": 118.013026775,
@@ -23,7 +49,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 10042
+    "id": 33373
   },
   {
     "type": 1,
@@ -49,33 +75,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 12729
-  },
-  {
-    "type": 1,
-    "icao": "AU93",
-    "lat": -33.17506685,
-    "lon": 118.08538901,
-    "communications": [],
-    "elevation": 1132,
-    "tower": false,
-    "name": "Kukerin",
-    "runways": [
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": -33.17507552,
-        "lonStart": 118.07879612,
-        "latEnd": -33.17505818,
-        "lonEnd": 118.0919819,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 14179
+    "id": 33521
   },
   {
     "type": 1,
@@ -101,6 +101,6 @@
         "surfacetype": 15
       }
     ],
-    "id": 14332
+    "id": 33677
   }
 ]

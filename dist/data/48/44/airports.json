@@ -2,79 +2,70 @@
   {
     "type": 1,
     "icao": "URWW",
-    "lat": 48.78063016666666,
-    "lon": 44.35269633333334,
+    "lat": 48.783227036666666,
+    "lon": 44.337039510000004,
     "communications": [
       {
         "type": 50,
-        "frequency": 13280,
-        "name": "VOLGOGRAD ATIS"
+        "frequency": 12990,
+        "name": "Volgograd-ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 11890,
+        "name": "Volgograd-Ground"
       },
       {
         "type": 53,
         "frequency": 11900,
-        "name": "VOLGOGRAD TAXIING"
+        "name": "Volgograd-Taxiing"
+      },
+      {
+        "type": 54,
+        "frequency": 12200,
+        "name": "Volgograd-Krug"
       },
       {
         "type": 54,
         "frequency": 12800,
-        "name": "VOLGOGRAD TWR"
+        "name": "Volgograd-Tower"
       },
       {
         "type": 55,
         "frequency": 12530,
-        "name": "VOLGOGRAD APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12900,
-        "name": "VOLGOGRAD APP"
+        "name": "Volgograd-Approach"
       }
     ],
-    "elevation": 482,
+    "elevation": 479,
     "tower": true,
     "name": "GUMRAK",
     "runways": [
       {
         "type": 100,
-        "width": 49.07,
+        "width": 50,
         "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 48.788097,
-        "lonStart": 44.331014,
-        "latEnd": 48.776819,
-        "lonEnd": 44.360417,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 48.77480294,
+        "lonStart": 44.31845129,
+        "latEnd": 48.78576097,
+        "lonEnd": 44.35288142,
         "length": 0,
         "surfacetype": 1
       },
       {
-        "type": 100,
-        "width": 100.58,
-        "surfaceType": null,
-        "numberStart": "11R",
-        "numberEnd": "29L",
-        "latStart": 48.780756,
-        "lonStart": 44.347047,
-        "latEnd": 48.773189,
-        "lonEnd": 44.366867,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 106.68,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 48.782242,
-        "lonStart": 44.352183,
-        "latEnd": 48.782678,
-        "lonEnd": 44.35865,
-        "length": 0,
-        "surfacetype": 3
+        "type": 102,
+        "width": 50,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 48.7891172,
+        "lonStart": 44.33978582,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 59
       }
     ],
-    "id": 10220
+    "id": 5114
   }
 ]

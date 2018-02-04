@@ -1,6 +1,86 @@
 [
   {
     "type": 1,
+    "icao": "MDPC",
+    "lat": 18.570768465,
+    "lon": -68.3661440075,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13285,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11880,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11877,
+        "name": "TWR"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 52,
+        "frequency": 12165,
+        "name": "DLV"
+      },
+      {
+        "type": 55,
+        "frequency": 11975,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 11985,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12070,
+        "name": "APP"
+      }
+    ],
+    "elevation": 43,
+    "tower": true,
+    "name": "Punta Cana International",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "8",
+        "numberEnd": "26",
+        "latStart": 18.57029688,
+        "lonStart": -68.38294099,
+        "latEnd": 18.57805306,
+        "lonEnd": -68.35477704,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "9",
+        "numberEnd": "27",
+        "latStart": 18.56609796,
+        "lonStart": -68.378058,
+        "latEnd": 18.56862596,
+        "lonEnd": -68.3488,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4090
+  },
+  {
+    "type": 1,
     "icao": "MDLR",
     "lat": 18.4507125,
     "lon": -68.9118335,
@@ -39,56 +119,6 @@
         "surfacetype": 2
       }
     ],
-    "id": 14738
-  },
-  {
-    "type": 1,
-    "icao": "MDPC",
-    "lat": 18.5705740675,
-    "lon": -68.366130465,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11880,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11930,
-        "name": "LAS AMERICAS APP"
-      }
-    ],
-    "elevation": 45,
-    "tower": true,
-    "name": "Punta Cana Intl",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 18.57000946,
-        "lonStart": -68.38289375,
-        "latEnd": 18.57755281,
-        "lonEnd": -68.35477011,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 18.566103,
-        "lonStart": -68.378058,
-        "latEnd": 18.568631,
-        "lonEnd": -68.3488,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 20629
+    "id": 21216
   }
 ]

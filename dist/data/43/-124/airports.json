@@ -1,6 +1,32 @@
 [
   {
     "type": 1,
+    "icao": "5S1",
+    "lat": 43.21545659,
+    "lon": -123.404429685,
+    "communications": [],
+    "elevation": 428,
+    "tower": false,
+    "name": "George Felt",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 43.21699382,
+        "lonStart": -123.40804072,
+        "latEnd": 43.21391936,
+        "lonEnd": -123.40081865,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 195
+  },
+  {
+    "type": 1,
     "icao": "61S",
     "lat": 43.804097,
     "lon": -123.03204149999999,
@@ -29,111 +55,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 4185
-  },
-  {
-    "type": 1,
-    "icao": "94OR",
-    "lat": 43.530671659999996,
-    "lon": -123.54898223000001,
-    "communications": [],
-    "elevation": 230,
-    "tower": false,
-    "name": "Farm Yard Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 43.53218477,
-        "lonStart": -123.55290736,
-        "latEnd": 43.52915855,
-        "lonEnd": -123.5450571,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 7808
-  },
-  {
-    "type": 1,
-    "icao": "95OR",
-    "lat": 43.20761472,
-    "lon": -123.53258056,
-    "communications": [],
-    "elevation": 790,
-    "tower": false,
-    "name": "Flournoy Valley",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 43.20458733,
-        "lonStart": -123.53478901,
-        "latEnd": 43.21064211,
-        "lonEnd": -123.53037211,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9375
-  },
-  {
-    "type": 1,
-    "icao": "5S1",
-    "lat": 43.22483777,
-    "lon": -123.39701862,
-    "communications": [],
-    "elevation": 428,
-    "tower": false,
-    "name": "George Felt",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 43.22631868,
-        "lonStart": -123.40084091,
-        "latEnd": 43.22335686,
-        "lonEnd": -123.39319633,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 10407
-  },
-  {
-    "type": 1,
-    "icao": "17OR",
-    "lat": 43.26416666,
-    "lon": -123.11027777999999,
-    "communications": [],
-    "elevation": 980,
-    "tower": false,
-    "name": "Glide Aero",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 43.26684177,
-        "lonStart": -123.11257329,
-        "latEnd": 43.26149155,
-        "lonEnd": -123.10798227,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 10539
+    "id": 442
   },
   {
     "type": 1,
@@ -165,85 +87,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 11155
-  },
-  {
-    "type": 1,
-    "icao": "2OR4",
-    "lat": 43.47484,
-    "lon": -123.34563667,
-    "communications": [],
-    "elevation": 965,
-    "tower": false,
-    "name": "Heavens Gate Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 43.47914631,
-        "lonStart": -123.35323209,
-        "latEnd": 43.47053369,
-        "lonEnd": -123.33804125,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 11616
-  },
-  {
-    "type": 1,
-    "icao": "11OR",
-    "lat": 43.39345111,
-    "lon": -123.28535278,
-    "communications": [],
-    "elevation": 510,
-    "tower": false,
-    "name": "Holiday Sky Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 43.39230849,
-        "lonStart": -123.28924472,
-        "latEnd": 43.39459373,
-        "lonEnd": -123.28146084,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11957
-  },
-  {
-    "type": 1,
-    "icao": "48OR",
-    "lat": 43.15928166,
-    "lon": -123.50174417,
-    "communications": [],
-    "elevation": 580,
-    "tower": false,
-    "name": "Lookingglass",
-    "runways": [
-      {
-        "type": 100,
-        "width": 6.1,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 43.15915721,
-        "lonStart": -123.5066296,
-        "latEnd": 43.15940611,
-        "lonEnd": -123.49685874,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 15490
+    "id": 469
   },
   {
     "type": 1,
@@ -316,33 +160,111 @@
         "length": 12
       }
     ],
-    "id": 21734
+    "id": 3175
   },
   {
     "type": 1,
-    "icao": "58OR",
-    "lat": 43.30972222,
-    "lon": -123.12694445,
+    "icao": "2OR4",
+    "lat": 43.47484,
+    "lon": -123.34563667,
     "communications": [],
-    "elevation": 700,
+    "elevation": 965,
     "tower": false,
-    "name": "Umpqua",
+    "name": "Heavens Gate Ranch",
     "runways": [
       {
         "type": 100,
-        "width": 15.24,
+        "width": 24.38,
         "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 43.30963128,
-        "lonStart": -123.1305234,
-        "latEnd": 43.30981316,
-        "lonEnd": -123.1233655,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 43.47914631,
+        "lonStart": -123.35323209,
+        "latEnd": 43.47053369,
+        "lonEnd": -123.33804125,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 7241
+  },
+  {
+    "type": 1,
+    "icao": "11OR",
+    "lat": 43.39345111,
+    "lon": -123.28535278,
+    "communications": [],
+    "elevation": 510,
+    "tower": false,
+    "name": "Holiday Sky Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 43.39230849,
+        "lonStart": -123.28924472,
+        "latEnd": 43.39459373,
+        "lonEnd": -123.28146084,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 25912
+    "id": 10955
+  },
+  {
+    "type": 1,
+    "icao": "17OR",
+    "lat": 43.26416666,
+    "lon": -123.11027777999999,
+    "communications": [],
+    "elevation": 980,
+    "tower": false,
+    "name": "Glide Aero",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 43.26684177,
+        "lonStart": -123.11257329,
+        "latEnd": 43.26149155,
+        "lonEnd": -123.10798227,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11204
+  },
+  {
+    "type": 1,
+    "icao": "48OR",
+    "lat": 43.15928166,
+    "lon": -123.50174417,
+    "communications": [],
+    "elevation": 580,
+    "tower": false,
+    "name": "Lookingglass",
+    "runways": [
+      {
+        "type": 100,
+        "width": 6.1,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 43.15915721,
+        "lonStart": -123.5066296,
+        "latEnd": 43.15940611,
+        "lonEnd": -123.49685874,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12415
   },
   {
     "type": 1,
@@ -368,33 +290,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 25913
+    "id": 12771
   },
   {
     "type": 1,
-    "icao": "OR57",
-    "lat": 43.868735,
-    "lon": -123.03396973,
+    "icao": "58OR",
+    "lat": 43.30972222,
+    "lon": -123.12694445,
     "communications": [],
-    "elevation": 580,
+    "elevation": 700,
     "tower": false,
-    "name": "Walker",
+    "name": "Umpqua",
     "runways": [
       {
         "type": 100,
-        "width": 24.38,
+        "width": 15.24,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 43.87099397,
-        "lonStart": -123.03289081,
-        "latEnd": 43.86647603,
-        "lonEnd": -123.03504865,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 43.30963128,
+        "lonStart": -123.1305234,
+        "latEnd": 43.30981316,
+        "lonEnd": -123.1233655,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 26832
+    "id": 12811
   },
   {
     "type": 1,
@@ -420,57 +342,7 @@
         "surfacetype": 5
       }
     ],
-    "id": 27200
-  },
-  {
-    "type": 17,
-    "icao": "OR01",
-    "lat": 43.21539361,
-    "lon": -123.35701639,
-    "communications": [],
-    "elevation": 450,
-    "tower": false,
-    "name": "[H] Douglas Community Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 43.21539361,
-        "lonStart": -123.35701639,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 29397
-  },
-  {
-    "type": 17,
-    "icao": "OR58",
-    "lat": 43.91651333,
-    "lon": -123.009525,
-    "communications": [],
-    "elevation": 535,
-    "tower": false,
-    "name": "[H] Mazama Timber Pad",
-    "runways": [
-      {
-        "type": 102,
-        "width": 91.4,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 43.91651333,
-        "lonStart": -123.009525,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 121.9
-      }
-    ],
-    "id": 31133
+    "id": 12890
   },
   {
     "type": 17,
@@ -495,6 +367,134 @@
         "length": 15.2
       }
     ],
-    "id": 33880
+    "id": 13122
+  },
+  {
+    "type": 1,
+    "icao": "94OR",
+    "lat": 43.530671659999996,
+    "lon": -123.54898223000001,
+    "communications": [],
+    "elevation": 230,
+    "tower": false,
+    "name": "Farm Yard Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 43.53218477,
+        "lonStart": -123.55290736,
+        "latEnd": 43.52915855,
+        "lonEnd": -123.5450571,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14171
+  },
+  {
+    "type": 1,
+    "icao": "95OR",
+    "lat": 43.20761472,
+    "lon": -123.53258056,
+    "communications": [],
+    "elevation": 790,
+    "tower": false,
+    "name": "Flournoy Valley",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 43.20458733,
+        "lonStart": -123.53478901,
+        "latEnd": 43.21064211,
+        "lonEnd": -123.53037211,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14207
+  },
+  {
+    "type": 17,
+    "icao": "OR01",
+    "lat": 43.21539361,
+    "lon": -123.35701639,
+    "communications": [],
+    "elevation": 450,
+    "tower": false,
+    "name": "[H] Douglas Community Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 43.21539361,
+        "lonStart": -123.35701639,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 23636
+  },
+  {
+    "type": 1,
+    "icao": "OR57",
+    "lat": 43.868735,
+    "lon": -123.03396973,
+    "communications": [],
+    "elevation": 580,
+    "tower": false,
+    "name": "Walker",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 43.87099397,
+        "lonStart": -123.03289081,
+        "latEnd": 43.86647603,
+        "lonEnd": -123.03504865,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23686
+  },
+  {
+    "type": 17,
+    "icao": "OR58",
+    "lat": 43.91651333,
+    "lon": -123.009525,
+    "communications": [],
+    "elevation": 535,
+    "tower": false,
+    "name": "[H] Mazama Timber Pad",
+    "runways": [
+      {
+        "type": 102,
+        "width": 91.4,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 43.91651333,
+        "lonStart": -123.009525,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 121.9
+      }
+    ],
+    "id": 23687
   }
 ]

@@ -1,70 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "LFLW",
-    "lat": 44.8914165,
-    "lon": 2.4221950000000003,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11832,
-        "name": "INFO"
-      }
-    ],
-    "elevation": 2096,
-    "tower": false,
-    "name": "Aurillac",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 44.897861,
-        "lonStart": 2.416945,
-        "latEnd": 44.884972,
-        "lonEnd": 2.427445,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 1332
-  },
-  {
-    "type": 1,
-    "icao": "LFIG",
-    "lat": 44.1794445,
-    "lon": 2.5186115,
-    "communications": [
-      {
-        "type": 55,
-        "frequency": 12537,
-        "name": "RODEZ APP"
-      }
-    ],
-    "elevation": 2023,
-    "tower": false,
-    "name": "Cassagnes Begonhes",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 44.179774,
-        "lonStart": 2.512062,
-        "latEnd": 44.179115,
-        "lonEnd": 2.525161,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 4625
-  },
-  {
-    "type": 1,
     "icao": "LFCR",
     "lat": 44.4078885,
     "lon": 2.482646,
@@ -98,7 +34,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 21652
+    "id": 20238
   },
   {
     "type": 1,
@@ -124,6 +60,70 @@
         "surfacetype": 3
       }
     ],
-    "id": 26342
+    "id": 20241
+  },
+  {
+    "type": 1,
+    "icao": "LFIG",
+    "lat": 44.1794445,
+    "lon": 2.5186115,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 12537,
+        "name": "RODEZ APP"
+      }
+    ],
+    "elevation": 2023,
+    "tower": false,
+    "name": "Cassagnes Begonhes",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 44.179774,
+        "lonStart": 2.512062,
+        "latEnd": 44.179115,
+        "lonEnd": 2.525161,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 20326
+  },
+  {
+    "type": 1,
+    "icao": "LFLW",
+    "lat": 44.891184665,
+    "lon": 2.4221725000000003,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11832,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 2096,
+    "tower": false,
+    "name": "Aurillac",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 44.897861,
+        "lonStart": 2.416945,
+        "latEnd": 44.88450833,
+        "lonEnd": 2.4274,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20370
   }
 ]

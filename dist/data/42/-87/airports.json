@@ -1,160 +1,48 @@
 [
   {
     "type": 1,
-    "icao": "KHLM",
-    "lat": 42.79581025,
-    "lon": -86.16203624999999,
+    "icao": "40C",
+    "lat": 42.20099182,
+    "lon": -86.2488252825,
     "communications": [
       {
         "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 52,
-        "frequency": 12395,
-        "name": "MUSKEGON CLNC DEL"
-      },
-      {
-        "type": 55,
-        "frequency": 11980,
-        "name": "MUSKEGON APP/DEP"
+        "frequency": 12290,
+        "name": "CTAF"
       }
     ],
-    "elevation": 603,
+    "elevation": 654,
     "tower": false,
-    "name": "PARK TOWNSHIP",
+    "name": "Watervliet Municipal",
     "runways": [
       {
         "type": 100,
-        "width": 15.24,
+        "width": 60.96,
         "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 42.793667,
-        "lonStart": -86.166056,
-        "latEnd": 42.798958,
-        "lonEnd": -86.1575,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 42.19797483,
+        "lonStart": -86.25012249,
+        "latEnd": 42.20485761,
+        "lonEnd": -86.24760095,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       },
       {
         "type": 100,
-        "width": 27.43,
+        "width": 60.96,
         "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 42.796494,
-        "lonStart": -86.166153,
-        "latEnd": 42.794122,
-        "lonEnd": -86.158436,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 42.19984706,
+        "lonStart": -86.25227904,
+        "latEnd": 42.20128778,
+        "lonEnd": -86.24529865,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 19224
-  },
-  {
-    "type": 1,
-    "icao": "4MI3",
-    "lat": 42.72780333,
-    "lon": -86.04031528,
-    "communications": [],
-    "elevation": 685,
-    "tower": false,
-    "name": "Phils Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 42.72660818,
-        "lonStart": -86.04282059,
-        "latEnd": 42.72899848,
-        "lonEnd": -86.03780997,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 20072
-  },
-  {
-    "type": 1,
-    "icao": "MI76",
-    "lat": 42.550026939999995,
-    "lon": -86.21670084,
-    "communications": [],
-    "elevation": 700,
-    "tower": false,
-    "name": "Reading",
-    "runways": [
-      {
-        "type": 100,
-        "width": 27.43,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 42.54827443,
-        "lonStart": -86.21849348,
-        "latEnd": 42.55177945,
-        "lonEnd": -86.2149082,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 21251
-  },
-  {
-    "type": 1,
-    "icao": "KLWA",
-    "lat": 42.350881750000006,
-    "lon": -86.25605674999998,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11802,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 666,
-    "tower": false,
-    "name": "SOUTH HAVEN AREA RGNL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 42.347853,
-        "lonStart": -86.26005,
-        "latEnd": 42.357358,
-        "lonEnd": -86.247761,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 57.91,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 42.352172,
-        "lonStart": -86.262694,
-        "latEnd": 42.346144,
-        "lonEnd": -86.253722,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 22389
+    "id": 389
   },
   {
     "type": 1,
@@ -227,7 +115,185 @@
         "surfacetype": 1
       }
     ],
-    "id": 22407
+    "id": 2401
+  },
+  {
+    "type": 1,
+    "icao": "KBIV",
+    "lat": 42.7427834,
+    "lon": -86.10782839999999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11902,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12305,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11980,
+        "name": "MUSKEGON APP/DEP"
+      }
+    ],
+    "elevation": 698,
+    "tower": false,
+    "name": "West Michigan Regional Airport",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 42.741313,
+        "lonStart": -86.1188196,
+        "latEnd": 42.7442538,
+        "lonEnd": -86.0968372,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2418
+  },
+  {
+    "type": 1,
+    "icao": "KHLM",
+    "lat": 42.7959112125,
+    "lon": -86.161996795,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11980,
+        "name": "MUSKEGON APP/DEP"
+      }
+    ],
+    "elevation": 603,
+    "tower": false,
+    "name": "PARK TOWNSHIP",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 42.793667,
+        "lonStart": -86.166056,
+        "latEnd": 42.7989595,
+        "lonEnd": -86.1575006,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 42.79675858,
+        "lonStart": -86.16601644,
+        "latEnd": 42.79425977,
+        "lonEnd": -86.15841414,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 2765
+  },
+  {
+    "type": 1,
+    "icao": "KLWA",
+    "lat": 42.3510230025,
+    "lon": -86.25617457,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11802,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11855,
+        "name": "SOUTH BEND APCH"
+      },
+      {
+        "type": 56,
+        "frequency": 11855,
+        "name": "SOUTH BEND DEP"
+      }
+    ],
+    "elevation": 666,
+    "tower": false,
+    "name": "SOUTH HAVEN AREA RGNL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 42.3478481,
+        "lonStart": -86.2600461,
+        "latEnd": 42.3573568,
+        "lonEnd": -86.2477564,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 57.91,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 42.35249274,
+        "lonStart": -86.2629141,
+        "latEnd": 42.34639437,
+        "lonEnd": -86.25398168,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 2920
+  },
+  {
+    "type": 1,
+    "icao": "4MI3",
+    "lat": 42.72780333,
+    "lon": -86.04031528,
+    "communications": [],
+    "elevation": 685,
+    "tower": false,
+    "name": "Phils Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 42.72660818,
+        "lonStart": -86.04282059,
+        "latEnd": 42.72899848,
+        "lonEnd": -86.03780997,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 8205
   },
   {
     "type": 1,
@@ -253,7 +319,32 @@
         "surfacetype": 3
       }
     ],
-    "id": 25627
+    "id": 10160
+  },
+  {
+    "type": 17,
+    "icao": "8MI5",
+    "lat": 42.32725527,
+    "lon": -86.30474945,
+    "communications": [],
+    "elevation": 609,
+    "tower": false,
+    "name": "[H] Consumers Power Company",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 42.32725527,
+        "lonStart": -86.30474945,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 10163
   },
   {
     "type": 1,
@@ -279,117 +370,32 @@
         "surfacetype": 3
       }
     ],
-    "id": 26856
+    "id": 21018
   },
   {
     "type": 1,
-    "icao": "40C",
-    "lat": 42.20003805,
-    "lon": -86.25002223,
+    "icao": "MI76",
+    "lat": 42.550026939999995,
+    "lon": -86.21670084,
     "communications": [],
-    "elevation": 655,
+    "elevation": 700,
     "tower": false,
-    "name": "Watervliet Municipal",
+    "name": "Reading",
     "runways": [
       {
         "type": 100,
-        "width": 60.96,
+        "width": 27.43,
         "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 42.19662799,
-        "lonStart": -86.25142957,
-        "latEnd": 42.20344811,
-        "lonEnd": -86.24861489,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 42.19898022,
-        "lonStart": -86.25338628,
-        "latEnd": 42.20109588,
-        "lonEnd": -86.24665818,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 42.54827443,
+        "lonStart": -86.21849348,
+        "latEnd": 42.55177945,
+        "lonEnd": -86.2149082,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 26971
-  },
-  {
-    "type": 1,
-    "icao": "KBIV",
-    "lat": 42.742846,
-    "lon": -86.1073515,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11902,
-        "name": "ASOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12305,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 52,
-        "frequency": 12395,
-        "name": "MUSKEGON CLNC DEL"
-      },
-      {
-        "type": 55,
-        "frequency": 11980,
-        "name": "MUSKEGON APP/DEP"
-      }
-    ],
-    "elevation": 698,
-    "tower": false,
-    "name": "West Michigan Regional Airport",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 42.741311,
-        "lonStart": -86.118822,
-        "latEnd": 42.744381,
-        "lonEnd": -86.095881,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 27120
-  },
-  {
-    "type": 17,
-    "icao": "8MI5",
-    "lat": 42.32725527,
-    "lon": -86.30474945,
-    "communications": [],
-    "elevation": 609,
-    "tower": false,
-    "name": "[H] Consumers Power Company",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 42.32725527,
-        "lonStart": -86.30474945,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 29132
+    "id": 21380
   }
 ]

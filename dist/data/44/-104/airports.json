@@ -1,273 +1,9 @@
 [
   {
     "type": 1,
-    "icao": "KEFC",
-    "lat": 44.734525,
-    "lon": -103.861793,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 3189,
-    "tower": false,
-    "name": "BELLE FOURCHE MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 44.739664,
-        "lonStart": -103.866025,
-        "latEnd": 44.728747,
-        "lonEnd": -103.857961,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 36.58,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 44.739706,
-        "lonStart": -103.860064,
-        "latEnd": 44.729983,
-        "lonEnd": -103.863122,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 1623
-  },
-  {
-    "type": 1,
-    "icao": "SD77",
-    "lat": 44.00026611,
-    "lon": -103.01767473000001,
-    "communications": [],
-    "elevation": 3200,
-    "tower": false,
-    "name": "Barber Strip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 48.77,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 44.0036248,
-        "lonStart": -103.02026288,
-        "latEnd": 43.99690742,
-        "lonEnd": -103.01508658,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 2221
-  },
-  {
-    "type": 1,
-    "icao": "KSPF",
-    "lat": 44.47996525,
-    "lon": -103.78216900000001,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11832,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 11950,
-        "name": "ELLSWORTH APP/DEP"
-      }
-    ],
-    "elevation": 3931,
-    "tower": false,
-    "name": "Black Hills Clyde Ice Fld",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 44.487142,
-        "lonStart": -103.791961,
-        "latEnd": 44.476447,
-        "lonEnd": -103.777114,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 44.47665,
-        "lonStart": -103.79395,
-        "latEnd": 44.47665,
-        "lonEnd": -103.778719,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 44.487622,
-        "lonStart": -103.779919,
-        "latEnd": 44.476925,
-        "lonEnd": -103.779919,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 44.47705,
-        "lonStart": -103.780431,
-        "latEnd": 44.481236,
-        "lonEnd": -103.775339,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 2788
-  },
-  {
-    "type": 1,
-    "icao": "SD24",
-    "lat": 44.44722222,
-    "lon": -103.39527778,
-    "communications": [],
-    "elevation": 3069,
-    "tower": false,
-    "name": "Bruch Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 44.4491194,
-        "lonStart": -103.40220082,
-        "latEnd": 44.44532504,
-        "lonEnd": -103.38835474,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 44.44804655,
-        "lonStart": -103.40121817,
-        "latEnd": 44.44639789,
-        "lonEnd": -103.38933739,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 3283
-  },
-  {
-    "type": 1,
-    "icao": "KRCA",
-    "lat": 44.145077834999995,
-    "lon": -103.10356751,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12062,
-        "name": "ATIS"
-      },
-      {
-        "type": 53,
-        "frequency": 12180,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12605,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11950,
-        "name": "APP/DEP"
-      }
-    ],
-    "elevation": 3278,
-    "tower": true,
-    "name": "ELLSWORTH AFB",
-    "runways": [
-      {
-        "type": 100,
-        "width": 91.44,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 44.15885133,
-        "lonStart": -103.12077758,
-        "latEnd": 44.13130434,
-        "lonEnd": -103.08635744,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 6751
-  },
-  {
-    "type": 1,
-    "icao": "2SD0",
-    "lat": 44.163597499999995,
-    "lon": -103.47879972999999,
-    "communications": [],
-    "elevation": 4500,
-    "tower": false,
-    "name": "Paradise Valley",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 44.16633881,
-        "lonStart": -103.47866628,
-        "latEnd": 44.16085619,
-        "lonEnd": -103.47893318,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 19752
-  },
-  {
-    "type": 1,
     "icao": "KRAP",
     "lat": 44.04695166,
-    "lon": -103.05868770500001,
+    "lon": -103.05868534999999,
     "communications": [
       {
         "type": 50,
@@ -329,14 +65,112 @@
         "numberStart": "05",
         "numberEnd": "23",
         "latStart": 44.04806641,
-        "lonStart": -103.06501671,
+        "lonStart": -103.065012,
         "latEnd": 44.05272141,
-        "lonEnd": -103.05294171,
+        "lonEnd": -103.052937,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 20836
+    "id": 3172
+  },
+  {
+    "type": 1,
+    "icao": "KRCA",
+    "lat": 44.145077834999995,
+    "lon": -103.10356751,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12062,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12605,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11950,
+        "name": "APP/DEP"
+      }
+    ],
+    "elevation": 3278,
+    "tower": true,
+    "name": "ELLSWORTH AFB",
+    "runways": [
+      {
+        "type": 100,
+        "width": 91.44,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 44.15885133,
+        "lonStart": -103.12077758,
+        "latEnd": 44.13130434,
+        "lonEnd": -103.08635744,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 3176
+  },
+  {
+    "type": 17,
+    "icao": "1SD2",
+    "lat": 44.07359861,
+    "lon": -103.27129334,
+    "communications": [],
+    "elevation": 3345,
+    "tower": false,
+    "name": "[H] Camp Rapid",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 44.07359861,
+        "lonStart": -103.27129334,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 6732
+  },
+  {
+    "type": 1,
+    "icao": "2SD0",
+    "lat": 44.163597499999995,
+    "lon": -103.47879972999999,
+    "communications": [],
+    "elevation": 4500,
+    "tower": false,
+    "name": "Paradise Valley",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 44.16633881,
+        "lonStart": -103.47866628,
+        "latEnd": 44.16085619,
+        "lonEnd": -103.47893318,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7297
   },
   {
     "type": 1,
@@ -378,32 +212,172 @@
         "surfacetype": 1
       }
     ],
-    "id": 22566
+    "id": 12428
   },
   {
-    "type": 17,
-    "icao": "1SD2",
-    "lat": 44.07359861,
-    "lon": -103.27129334,
-    "communications": [],
-    "elevation": 3345,
-    "tower": false,
-    "name": "[H] Camp Rapid",
-    "runways": [
+    "type": 1,
+    "icao": "KEFC",
+    "lat": 44.734525,
+    "lon": -103.861793,
+    "communications": [
       {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 44.07359861,
-        "lonStart": -103.27129334,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
       }
     ],
-    "id": 28738
+    "elevation": 3189,
+    "tower": false,
+    "name": "BELLE FOURCHE MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 44.739664,
+        "lonStart": -103.866025,
+        "latEnd": 44.728747,
+        "lonEnd": -103.857961,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 36.58,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 44.739706,
+        "lonStart": -103.860064,
+        "latEnd": 44.729983,
+        "lonEnd": -103.863122,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 19075
+  },
+  {
+    "type": 1,
+    "icao": "KSPF",
+    "lat": 44.4799305275,
+    "lon": -103.78211350000001,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11832,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11950,
+        "name": "ELLSWORTH APP/DEP"
+      }
+    ],
+    "elevation": 3931,
+    "tower": false,
+    "name": "Black Hills Clyde Ice Fld",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 44.487142,
+        "lonStart": -103.791961,
+        "latEnd": 44.476447,
+        "lonEnd": -103.777114,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 44.47665,
+        "lonStart": -103.79395,
+        "latEnd": 44.47637222,
+        "lonEnd": -103.778275,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 44.487622,
+        "lonStart": -103.779919,
+        "latEnd": 44.476925,
+        "lonEnd": -103.779919,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 44.47705,
+        "lonStart": -103.780431,
+        "latEnd": 44.481236,
+        "lonEnd": -103.775339,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 19833
+  },
+  {
+    "type": 1,
+    "icao": "SD24",
+    "lat": 44.44722222,
+    "lon": -103.39527778,
+    "communications": [],
+    "elevation": 3069,
+    "tower": false,
+    "name": "Bruch Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 44.4491194,
+        "lonStart": -103.40220082,
+        "latEnd": 44.44532504,
+        "lonEnd": -103.38835474,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 44.44804655,
+        "lonStart": -103.40121817,
+        "latEnd": 44.44639789,
+        "lonEnd": -103.38933739,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25269
   },
   {
     "type": 17,
@@ -428,6 +402,32 @@
         "length": 14.6
       }
     ],
-    "id": 32264
+    "id": 25280
+  },
+  {
+    "type": 1,
+    "icao": "SD77",
+    "lat": 44.00026611,
+    "lon": -103.01767473000001,
+    "communications": [],
+    "elevation": 3200,
+    "tower": false,
+    "name": "Barber Strip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 48.77,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 44.0036248,
+        "lonStart": -103.02026288,
+        "latEnd": 43.99690742,
+        "lonEnd": -103.01508658,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25311
   }
 ]

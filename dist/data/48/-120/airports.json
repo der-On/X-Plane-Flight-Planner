@@ -1,38 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "S97",
-    "lat": 48.105000000000004,
-    "lon": -119.72069450000001,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 914,
-    "tower": false,
-    "name": "ANDERSON FLD",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 48.104722,
-        "lonStart": -119.728889,
-        "latEnd": 48.105278,
-        "lonEnd": -119.7125,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 302
-  },
-  {
-    "type": 1,
     "icao": "0S7",
     "lat": 48.958965000000006,
     "lon": -119.411964,
@@ -61,7 +29,33 @@
         "surfacetype": 1
       }
     ],
-    "id": 5853
+    "id": 6145
+  },
+  {
+    "type": 1,
+    "icao": "5WA0",
+    "lat": 48.595638879999996,
+    "lon": -119.10058334,
+    "communications": [],
+    "elevation": 2640,
+    "tower": false,
+    "name": "Sourdough",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 48.59838183,
+        "lonStart": -119.10418861,
+        "latEnd": 48.59289593,
+        "lonEnd": -119.09697807,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 8960
   },
   {
     "type": 1,
@@ -87,7 +81,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 11497
+    "id": 11536
   },
   {
     "type": 1,
@@ -124,7 +118,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 18661
+    "id": 19624
   },
   {
     "type": 1,
@@ -150,33 +144,39 @@
         "surfacetype": 1
       }
     ],
-    "id": 18860
+    "id": 24612
   },
   {
     "type": 1,
-    "icao": "5WA0",
-    "lat": 48.595638879999996,
-    "lon": -119.10058334,
-    "communications": [],
-    "elevation": 2640,
+    "icao": "S97",
+    "lat": 48.105000000000004,
+    "lon": -119.72069450000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 914,
     "tower": false,
-    "name": "Sourdough",
+    "name": "ANDERSON FLD",
     "runways": [
       {
         "type": 100,
         "width": 18.29,
         "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 48.59838183,
-        "lonStart": -119.10418861,
-        "latEnd": 48.59289593,
-        "lonEnd": -119.09697807,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 48.104722,
+        "lonStart": -119.728889,
+        "latEnd": 48.105278,
+        "lonEnd": -119.7125,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       }
     ],
-    "id": 23873
+    "id": 24641
   },
   {
     "type": 1,
@@ -208,6 +208,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 24790
+    "id": 31234
   }
 ]

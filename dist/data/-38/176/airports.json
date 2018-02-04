@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "NZTG",
-    "lat": -37.67346725,
-    "lon": 176.19585812500003,
+    "lat": -37.6723811275,
+    "lon": 176.19593029499998,
     "communications": [
       {
         "type": 50,
@@ -17,23 +17,18 @@
       },
       {
         "type": 54,
-        "frequency": 12340,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
         "frequency": 11830,
         "name": "TWR"
       },
       {
         "type": 55,
         "frequency": 11950,
-        "name": "CHRISTCHURCH APP"
+        "name": "CHRISTCHURCH CONTROL"
       },
       {
-        "type": 55,
-        "frequency": 12380,
-        "name": "CHRISTCHURCH APP"
+        "type": 56,
+        "frequency": 11950,
+        "name": "CHRISTCHURCH CONTROL"
       }
     ],
     "elevation": 13,
@@ -44,27 +39,27 @@
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "07R",
-        "numberEnd": "25L",
-        "latStart": -37.67375,
-        "lonStart": 176.188056,
-        "latEnd": -37.675556,
-        "lonEnd": 176.208611,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -37.67272513,
+        "lonStart": 176.18843056,
+        "latEnd": -37.67379605,
+        "lonEnd": 176.20906411,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 60.05,
+        "width": 56.85,
         "surfaceType": null,
         "numberStart": "07L",
         "numberEnd": "25R",
-        "latStart": -37.673333,
-        "lonStart": 176.195139,
-        "latEnd": -37.674167,
-        "lonEnd": 176.203889,
+        "latStart": -37.67207428,
+        "lonStart": 176.19508195,
+        "latEnd": -37.67253484,
+        "lonEnd": 176.20432772,
         "length": 0,
-        "surfacetype": 4
+        "surfacetype": 3
       },
       {
         "type": 100,
@@ -72,12 +67,12 @@
         "surfaceType": null,
         "numberStart": "16",
         "numberEnd": "34",
-        "latStart": -37.671071,
-        "lonStart": 176.194604,
-        "latEnd": -37.677364,
-        "lonEnd": 176.194058,
+        "latStart": -37.67041341,
+        "lonStart": 176.19473249,
+        "latEnd": -37.67734227,
+        "lonEnd": 176.19408678,
         "length": 0,
-        "surfacetype": 4
+        "surfacetype": 3
       },
       {
         "type": 100,
@@ -85,15 +80,15 @@
         "surfaceType": null,
         "numberStart": "04",
         "numberEnd": "22",
-        "latStart": -37.673053,
-        "lonStart": 176.188339,
-        "latEnd": -37.669444,
-        "lonEnd": 176.194169,
+        "latStart": -37.67151504,
+        "lonStart": 176.18768079,
+        "latEnd": -37.668648,
+        "lonEnd": 176.19403796,
         "length": 0,
-        "surfacetype": 4
+        "surfacetype": 3
       }
     ],
-    "id": 24614
+    "id": 4274
   },
   {
     "type": 1,
@@ -120,8 +115,8 @@
         "type": 100,
         "width": 30.48,
         "surfaceType": null,
-        "numberStart": "09L",
-        "numberEnd": "27R",
+        "numberStart": "09",
+        "numberEnd": "27",
         "latStart": -37.916611,
         "lonStart": 176.90895,
         "latEnd": -37.921528,
@@ -143,6 +138,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 26610
+    "id": 23086
   }
 ]

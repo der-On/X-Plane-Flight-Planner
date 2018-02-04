@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "AL3",
-    "lat": 50.1666655,
-    "lon": -120.1833305,
+    "lat": 50.165453854999996,
+    "lon": -120.17122366000001,
     "communications": [
       {
         "type": 51,
@@ -21,42 +21,47 @@
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": 50.167778,
-        "lonStart": -120.19305,
-        "latEnd": 50.165553,
-        "lonEnd": -120.173611,
+        "latStart": 50.16694697,
+        "lonStart": -120.18074624,
+        "latEnd": 50.16396074,
+        "lonEnd": -120.16170108,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 6438
+    "id": 513
   },
   {
     "type": 1,
     "icao": "CYKA",
-    "lat": 50.701874794999995,
-    "lon": -120.4427094425,
+    "lat": 50.70332532888889,
+    "lon": -120.44085181666667,
     "communications": [
       {
+        "type": 52,
+        "frequency": 12190,
+        "name": "Clearance Delivery"
+      },
+      {
         "type": 54,
-        "frequency": 12300,
-        "name": "SHELL AERO CNTR"
+        "frequency": 12570,
+        "name": "Radio"
       }
     ],
-    "elevation": 1133,
-    "tower": false,
+    "elevation": 1132,
+    "tower": true,
     "name": "Kamloops",
     "runways": [
       {
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 50.70431488,
-        "lonStart": -120.45711317,
-        "latEnd": 50.70053537,
-        "lonEnd": -120.43185329,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 50.70554625,
+        "lonStart": -120.46539689,
+        "latEnd": 50.70052688,
+        "lonEnd": -120.43180112,
         "length": 0,
         "surfacetype": 1
       },
@@ -66,15 +71,75 @@
         "surfaceType": null,
         "numberStart": "04",
         "numberEnd": "22",
-        "latStart": 50.69945593,
-        "lonStart": -120.44626315,
-        "latEnd": 50.703193,
-        "lonEnd": -120.43560816,
+        "latStart": 50.69946549,
+        "lonStart": -120.44620497,
+        "latEnd": 50.70316455,
+        "lonEnd": -120.43567671,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 50,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 50.70603526,
+        "lonStart": -120.43851667,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 50
+      },
+      {
+        "type": 102,
+        "width": 50,
+        "surfaceType": 15,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 50.70594465,
+        "lonStart": -120.43877732,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 50
+      },
+      {
+        "type": 102,
+        "width": 50,
+        "surfaceType": 15,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 50.70519102,
+        "lonStart": -120.43821624,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 50
+      },
+      {
+        "type": 102,
+        "width": 50,
+        "surfaceType": 15,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 50.7050975,
+        "lonStart": -120.43847709,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 50
+      },
+      {
+        "type": 102,
+        "width": 50,
+        "surfaceType": 15,
+        "numberStart": "H5",
+        "numberEnd": null,
+        "latStart": 50.69895636,
+        "lonStart": -120.43459934,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 50
       }
     ],
-    "id": 13573
+    "id": 778
   },
   {
     "type": 1,
@@ -106,6 +171,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 17092
+    "id": 14393
   }
 ]

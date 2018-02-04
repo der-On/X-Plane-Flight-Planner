@@ -1,29 +1,94 @@
 [
   {
     "type": 1,
-    "icao": "CZVL",
-    "lat": 53.6625555,
-    "lon": -113.847071,
+    "icao": "CYEG",
+    "lat": 53.3086576975,
+    "lon": -113.5805642025,
     "communications": [
       {
-        "type": 51,
-        "frequency": 12000,
-        "name": "CTAF"
+        "type": 50,
+        "frequency": 12800,
+        "name": "ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 12410,
+        "name": "Clearance"
       },
       {
         "type": 53,
+        "frequency": 12170,
+        "name": "Ground"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "Tower"
+      },
+      {
+        "type": 54,
+        "frequency": 13365,
+        "name": "Departure"
+      }
+    ],
+    "elevation": 2325,
+    "tower": true,
+    "name": "Edmonton International",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 53.30620265,
+        "lonStart": -113.59557524,
+        "latEnd": 53.28643708,
+        "lonEnd": -113.56253466,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 53.30864762,
+        "lonStart": -113.59648083,
+        "latEnd": 53.33334344,
+        "lonEnd": -113.56766608,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 751
+  },
+  {
+    "type": 1,
+    "icao": "CZVL",
+    "lat": 53.670039904999996,
+    "lon": -113.857963235,
+    "communications": [
+      {
+        "type": 53,
         "frequency": 12080,
-        "name": "GND"
+        "name": "Villeneuve Ground"
       },
       {
         "type": 54,
         "frequency": 12000,
-        "name": "TWR"
+        "name": "Villeneuve Tower"
+      },
+      {
+        "type": 54,
+        "frequency": 12835,
+        "name": "Villeneuve ATIS"
       }
     ],
-    "elevation": 2255,
+    "elevation": 2254,
     "tower": true,
-    "name": "EDMONTON VILLENEUVE",
+    "name": "Edmonton Villeneuve",
     "runways": [
       {
         "type": 100,
@@ -31,10 +96,10 @@
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": 53.665503,
-        "lonStart": -113.847725,
-        "latEnd": 53.663333,
-        "lonEnd": -113.831389,
+        "latStart": 53.67381904,
+        "lonStart": -113.86204949,
+        "latEnd": 53.67144722,
+        "lonEnd": -113.83931944,
         "length": 0,
         "surfacetype": 1
       },
@@ -44,65 +109,108 @@
         "surfaceType": null,
         "numberStart": "16",
         "numberEnd": "34",
-        "latStart": 53.665489,
-        "lonStart": -113.854456,
-        "latEnd": 53.655897,
-        "lonEnd": -113.854714,
+        "latStart": 53.67223296,
+        "lonStart": -113.86524586,
+        "latEnd": 53.6626604,
+        "lonEnd": -113.86523815,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 6652
+    "id": 899
+  },
+  {
+    "type": 1,
+    "icao": "EZ3",
+    "lat": 53.4275265,
+    "lon": -113.11560428,
+    "communications": [],
+    "elevation": 2431,
+    "tower": false,
+    "name": "Edmonton Cooking Lake",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 53.42952002,
+        "lonStart": -113.12151807,
+        "latEnd": 53.42553298,
+        "lonEnd": -113.10969049,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2110
+  },
+  {
+    "type": 1,
+    "icao": "XCPL6",
+    "lat": 53.4741365,
+    "lon": -113.824041675,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "Unicom - Tower Freq"
+      }
+    ],
+    "elevation": 2324,
+    "tower": false,
+    "name": "Parkland Airport",
+    "runways": [
+      {
+        "type": 100,
+        "width": 33.53,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 53.47475694,
+        "lonStart": -113.83601796,
+        "latEnd": 53.47351606,
+        "lonEnd": -113.81206539,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5331
+  },
+  {
+    "type": 1,
+    "icao": "CFQ7",
+    "lat": 53.280969999999996,
+    "lon": -113.4561555,
+    "communications": [],
+    "elevation": 2391,
+    "tower": false,
+    "name": "Edmonton-Gartner",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 53.282055,
+        "lonStart": -113.462724,
+        "latEnd": 53.279885,
+        "lonEnd": -113.449587,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 15202
   },
   {
     "type": 1,
     "icao": "CYXD",
-    "lat": 53.5720835,
-    "lon": -113.51541775,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12540,
-        "name": "ATIS"
-      },
-      {
-        "type": 50,
-        "frequency": 12862,
-        "name": "AWOS"
-      },
-      {
-        "type": 52,
-        "frequency": 12130,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11910,
-        "name": "MF RED DEER RDO"
-      },
-      {
-        "type": 54,
-        "frequency": 11910,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12245,
-        "name": "AIR AMBULANCE"
-      },
-      {
-        "type": 55,
-        "frequency": 11950,
-        "name": "ARR/DEP"
-      }
-    ],
+    "lat": 53.57406985,
+    "lon": -113.5159908075,
+    "communications": [],
     "elevation": 2200,
-    "tower": true,
+    "tower": false,
     "name": "Edmonton City Centre (Blatchford Fld)",
     "runways": [
       {
@@ -111,10 +219,10 @@
         "surfaceType": null,
         "numberStart": "12",
         "numberEnd": "30",
-        "latStart": 53.577778,
-        "lonStart": -113.528333,
-        "latEnd": 53.565556,
-        "lonEnd": -113.51,
+        "latStart": 53.57378318,
+        "lonStart": -113.52233996,
+        "latEnd": 53.57108006,
+        "lonEnd": -113.51828527,
         "length": 0,
         "surfacetype": 1
       },
@@ -126,78 +234,13 @@
         "numberEnd": "34",
         "latStart": 53.580556,
         "lonStart": -113.511669,
-        "latEnd": 53.564444,
+        "latEnd": 53.57086016,
         "lonEnd": -113.511669,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 6970
-  },
-  {
-    "type": 1,
-    "icao": "EZ3",
-    "lat": 53.427195,
-    "lon": -113.11515800000001,
-    "communications": [],
-    "elevation": 2436,
-    "tower": false,
-    "name": "Edmonton Cooking Lake",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 53.42921795,
-        "lonStart": -113.12103848,
-        "latEnd": 53.42517205,
-        "lonEnd": -113.10927752,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 6971
-  },
-  {
-    "type": 1,
-    "icao": "CYEG",
-    "lat": 53.3098823875,
-    "lon": -113.5801310725,
-    "communications": [],
-    "elevation": 2373,
-    "tower": true,
-    "name": "Edmonton Intl",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 53.307731,
-        "lonStart": -113.59527712,
-        "latEnd": 53.28787929,
-        "lonEnd": -113.56228939,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 53.30966229,
-        "lonStart": -113.59610959,
-        "latEnd": 53.33425697,
-        "lonEnd": -113.56684819,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 6972
+    "id": 15834
   },
   {
     "type": 1,
@@ -229,32 +272,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 6973
-  },
-  {
-    "type": 1,
-    "icao": "CFQ7",
-    "lat": 53.280969999999996,
-    "lon": -113.4561555,
-    "communications": [],
-    "elevation": 2391,
-    "tower": false,
-    "name": "Edmonton-Gartner",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 53.282055,
-        "lonStart": -113.462724,
-        "latEnd": 53.279885,
-        "lonEnd": -113.449587,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 6974
+    "id": 16864
   }
 ]

@@ -2,9 +2,15 @@
   {
     "type": 1,
     "icao": "8U1",
-    "lat": 47.10416361,
-    "lon": -107.50342806,
-    "communications": [],
+    "lat": 47.104250625000006,
+    "lon": -107.50325355999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF"
+      }
+    ],
     "elevation": 3180,
     "tower": false,
     "name": "Sand Springs Strip",
@@ -15,14 +21,14 @@
         "surfaceType": null,
         "numberStart": "10",
         "numberEnd": "28",
-        "latStart": 47.1058929,
-        "lonStart": -107.50913429,
-        "latEnd": 47.10243432,
-        "lonEnd": -107.49772183,
+        "latStart": 47.10577451,
+        "lonStart": -107.50753144,
+        "latEnd": 47.10272674,
+        "lonEnd": -107.49897568,
         "length": 0,
         "surfacetype": 5
       }
     ],
-    "id": 22835
+    "id": 288
   }
 ]

@@ -1,36 +1,15 @@
 [
   {
     "type": 1,
-    "icao": "EFII",
-    "lat": 63.631699999999995,
-    "lon": 27.1256,
-    "communications": [],
-    "elevation": 384,
-    "tower": false,
-    "name": "Iisalmi",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 63.63462282,
-        "lonStart": 27.12443962,
-        "latEnd": 63.62877718,
-        "lonEnd": 27.12676038,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 12424
-  },
-  {
-    "type": 1,
     "icao": "EFKU",
-    "lat": 63.00694525,
-    "lon": 27.79869925,
+    "lat": 63.006504500000005,
+    "lon": 27.7983595,
     "communications": [
+      {
+        "type": 50,
+        "frequency": 11300,
+        "name": "ATIS"
+      },
       {
         "type": 54,
         "frequency": 11970,
@@ -68,22 +47,35 @@
         "lonEnd": 27.809075,
         "length": 0,
         "surfacetype": 1
-      },
+      }
+    ],
+    "id": 1471
+  },
+  {
+    "type": 1,
+    "icao": "EFII",
+    "lat": 63.631699999999995,
+    "lon": 27.1256,
+    "communications": [],
+    "elevation": 384,
+    "tower": false,
+    "name": "Iisalmi",
+    "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 17.98,
         "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 63.0048,
-        "lonStart": 27.785372,
-        "latEnd": 63.009972,
-        "lonEnd": 27.812706,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 63.63462282,
+        "lonStart": 27.12443962,
+        "latEnd": 63.62877718,
+        "lonEnd": 27.12676038,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 14197
+    "id": 16180
   },
   {
     "type": 1,
@@ -109,7 +101,7 @@
         "surfacetype": 5
       }
     ],
-    "id": 14958
+    "id": 16200
   },
   {
     "type": 1,
@@ -135,6 +127,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 23846
+    "id": 16221
   }
 ]

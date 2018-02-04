@@ -1,160 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "7WI7",
-    "lat": 45.158855270000004,
-    "lon": -90.14930584,
-    "communications": [],
-    "elevation": 1490,
-    "tower": false,
-    "name": "Charlies",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 45.162476,
-        "lonStart": -90.14930584,
-        "latEnd": 45.15523454,
-        "lonEnd": -90.14930584,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 4814
-  },
-  {
-    "type": 1,
-    "icao": "WS44",
-    "lat": 45.53663388,
-    "lon": -90.70486695,
-    "communications": [],
-    "elevation": 1403,
-    "tower": false,
-    "name": "Diderrich Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 45.53668113,
-        "lonStart": -90.70873146,
-        "latEnd": 45.53658663,
-        "lonEnd": -90.70100244,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 6264
-  },
-  {
-    "type": 1,
-    "icao": "81WI",
-    "lat": 45.078577769999995,
-    "lon": -90.17652611999999,
-    "communications": [],
-    "elevation": 1465,
-    "tower": false,
-    "name": "Gunner Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 13.72,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 45.07857777,
-        "lonStart": -90.18128462,
-        "latEnd": 45.07857777,
-        "lonEnd": -90.17176762,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 45.08148775,
-        "lonStart": -90.17890537,
-        "latEnd": 45.07566779,
-        "lonEnd": -90.17414687,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 10899
-  },
-  {
-    "type": 1,
-    "icao": "WS05",
-    "lat": 45.47719055,
-    "lon": -90.62514389,
-    "communications": [],
-    "elevation": 1365,
-    "tower": false,
-    "name": "Lonely Pines",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 45.47882815,
-        "lonStart": -90.62783051,
-        "latEnd": 45.47555295,
-        "lonEnd": -90.62245727,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15438
-  },
-  {
-    "type": 1,
-    "icao": "KPKF",
-    "lat": 45.955665894999996,
-    "lon": -90.42459758999999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 13365,
-        "name": "MINNEAPOLIS APP/DEP"
-      }
-    ],
-    "elevation": 1500,
-    "tower": false,
-    "name": "PARK FALLS MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 45.95991073,
-        "lonStart": -90.42453325,
-        "latEnd": 45.95142106,
-        "lonEnd": -90.42466193,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19221
-  },
-  {
-    "type": 1,
     "icao": "5N2",
     "lat": 45.538201145,
     "lon": -90.27588004500001,
@@ -183,7 +29,57 @@
         "surfacetype": 1
       }
     ],
-    "id": 19541
+    "id": 189
+  },
+  {
+    "type": 1,
+    "icao": "KMDZ",
+    "lat": 45.10097201250001,
+    "lon": -90.30108251499999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11902,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1470,
+    "tower": false,
+    "name": "TAYLOR CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 45.10316389,
+        "lonStart": -90.30667222,
+        "latEnd": 45.10335392,
+        "lonEnd": -90.2834438,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 45.10423811,
+        "lonStart": -90.31063567,
+        "latEnd": 45.09313213,
+        "lonEnd": -90.30357837,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2951
   },
   {
     "type": 1,
@@ -238,83 +134,109 @@
         "surfacetype": 1
       }
     ],
-    "id": 20531
+    "id": 3103
   },
   {
     "type": 1,
-    "icao": "WS06",
-    "lat": 45.98772611,
-    "lon": -90.163495,
-    "communications": [],
-    "elevation": 1600,
+    "icao": "KPKF",
+    "lat": 45.955665894999996,
+    "lon": -90.42459758999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 13365,
+        "name": "MINNEAPOLIS APP/DEP"
+      }
+    ],
+    "elevation": 1500,
     "tower": false,
-    "name": "Springstead",
+    "name": "PARK FALLS MUNI",
     "runways": [
       {
         "type": 100,
         "width": 18.29,
         "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 45.9850248,
-        "lonStart": -90.16418053,
-        "latEnd": 45.99042742,
-        "lonEnd": -90.16280947,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 45.95991073,
+        "lonStart": -90.42453325,
+        "latEnd": 45.95142106,
+        "lonEnd": -90.42466193,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       }
     ],
-    "id": 23999
+    "id": 3129
   },
   {
     "type": 1,
-    "icao": "KMDZ",
-    "lat": 45.1009874525,
-    "lon": -90.301114245,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11902,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 1470,
+    "icao": "7WI7",
+    "lat": 45.158855270000004,
+    "lon": -90.14930584,
+    "communications": [],
+    "elevation": 1490,
     "tower": false,
-    "name": "TAYLOR CO",
+    "name": "Charlies",
     "runways": [
       {
         "type": 100,
         "width": 30.48,
         "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 45.162476,
+        "lonStart": -90.14930584,
+        "latEnd": 45.15523454,
+        "lonEnd": -90.14930584,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9957
+  },
+  {
+    "type": 1,
+    "icao": "81WI",
+    "lat": 45.078577769999995,
+    "lon": -90.17652611999999,
+    "communications": [],
+    "elevation": 1465,
+    "tower": false,
+    "name": "Gunner Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 13.72,
+        "surfaceType": null,
         "numberStart": "09",
         "numberEnd": "27",
-        "latStart": 45.10329888,
-        "lonStart": -90.28345438,
-        "latEnd": 45.10330672,
-        "lonEnd": -90.30677107,
+        "latStart": 45.07857777,
+        "lonStart": -90.18128462,
+        "latEnd": 45.07857777,
+        "lonEnd": -90.17176762,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       },
       {
         "type": 100,
-        "width": 22.86,
+        "width": 15.24,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 45.10422557,
-        "lonStart": -90.31063644,
-        "latEnd": 45.09311864,
-        "lonEnd": -90.30359509,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 45.08148775,
+        "lonStart": -90.17890537,
+        "latEnd": 45.07566779,
+        "lonEnd": -90.17414687,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 24617
+    "id": 13731
   },
   {
     "type": 16,
@@ -351,6 +273,84 @@
         "length": 0
       }
     ],
-    "id": 34115
+    "id": 31552
+  },
+  {
+    "type": 1,
+    "icao": "WS05",
+    "lat": 45.47719055,
+    "lon": -90.62514389,
+    "communications": [],
+    "elevation": 1365,
+    "tower": false,
+    "name": "Lonely Pines",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 45.47882815,
+        "lonStart": -90.62783051,
+        "latEnd": 45.47555295,
+        "lonEnd": -90.62245727,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 31788
+  },
+  {
+    "type": 1,
+    "icao": "WS06",
+    "lat": 45.98772611,
+    "lon": -90.163495,
+    "communications": [],
+    "elevation": 1600,
+    "tower": false,
+    "name": "Springstead",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 45.9850248,
+        "lonStart": -90.16418053,
+        "latEnd": 45.99042742,
+        "lonEnd": -90.16280947,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 31789
+  },
+  {
+    "type": 1,
+    "icao": "WS44",
+    "lat": 45.53663388,
+    "lon": -90.70486695,
+    "communications": [],
+    "elevation": 1403,
+    "tower": false,
+    "name": "Diderrich Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 45.53668113,
+        "lonStart": -90.70873146,
+        "latEnd": 45.53658663,
+        "lonEnd": -90.70100244,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 31820
   }
 ]

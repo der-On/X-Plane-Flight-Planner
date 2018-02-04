@@ -1,6 +1,75 @@
 [
   {
     "type": 1,
+    "icao": "YMHB",
+    "lat": -42.836992943333335,
+    "lon": 147.51089528,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 11810,
+        "name": "Hobart CTAF"
+      },
+      {
+        "type": 50,
+        "frequency": 12845,
+        "name": "Hobart ATIS"
+      },
+      {
+        "type": 50,
+        "frequency": 12237,
+        "name": "Hobart AWIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "HOBART TWR"
+      },
+      {
+        "type": 52,
+        "frequency": 12170,
+        "name": "Hobart ACD"
+      },
+      {
+        "type": 55,
+        "frequency": 12555,
+        "name": "MELBOURNE CENTRE"
+      }
+    ],
+    "elevation": 12,
+    "tower": true,
+    "name": "Hobart",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -42.829005,
+        "lonStart": 147.50206638,
+        "latEnd": -42.84332984,
+        "lonEnd": 147.52153351,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 12,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -42.83864399,
+        "lonStart": 147.50908595,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12
+      }
+    ],
+    "id": 5595
+  },
+  {
+    "type": 1,
     "icao": "YBEL",
     "lat": -42.369,
     "lon": 147.022687,
@@ -23,112 +92,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 3041
-  },
-  {
-    "type": 1,
-    "icao": "YFON",
-    "lat": -42.350975500000004,
-    "lon": 147.594516945,
-    "communications": [],
-    "elevation": 1260,
-    "tower": false,
-    "name": "Fonthill",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": -42.35530633,
-        "lonStart": 147.59371421,
-        "latEnd": -42.34664467,
-        "lonEnd": 147.59531968,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9566
-  },
-  {
-    "type": 1,
-    "icao": "YMHB",
-    "lat": -42.83699283000001,
-    "lon": 147.51089528,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 11810,
-        "name": "Hobart CTAF"
-      },
-      {
-        "type": 50,
-        "frequency": 12845,
-        "name": "Hobart ATIS"
-      },
-      {
-        "type": 50,
-        "frequency": 11270,
-        "name": "Hobart ATIS"
-      },
-      {
-        "type": 50,
-        "frequency": 12237,
-        "name": "Hobart AWIS"
-      },
-      {
-        "type": 54,
-        "frequency": 11810,
-        "name": "HOBART TWR"
-      },
-      {
-        "type": 52,
-        "frequency": 12170,
-        "name": "Hobart ACD"
-      },
-      {
-        "type": 53,
-        "frequency": 12170,
-        "name": "Hobart SMC"
-      },
-      {
-        "type": 55,
-        "frequency": 12555,
-        "name": "MELBOURNE CENTRE"
-      }
-    ],
-    "elevation": 12,
-    "tower": true,
-    "name": "Hobart",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": -42.82900466,
-        "lonStart": 147.50206638,
-        "latEnd": -42.84332984,
-        "lonEnd": 147.52153351,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 12,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -42.83864399,
-        "lonStart": 147.50908595,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12
-      }
-    ],
-    "id": 11899
+    "id": 32730
   },
   {
     "type": 1,
@@ -225,7 +189,33 @@
         "length": 6.7
       }
     ],
-    "id": 11900
+    "id": 32918
+  },
+  {
+    "type": 1,
+    "icao": "YFON",
+    "lat": -42.350975500000004,
+    "lon": 147.594516945,
+    "communications": [],
+    "elevation": 1260,
+    "tower": false,
+    "name": "Fonthill",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -42.35530633,
+        "lonStart": 147.59371421,
+        "latEnd": -42.34664467,
+        "lonEnd": 147.59531968,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 33282
   },
   {
     "type": 1,
@@ -251,7 +241,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 12962
+    "id": 33514
   },
   {
     "type": 1,
@@ -277,7 +267,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 13299
+    "id": 33616
   },
   {
     "type": 1,
@@ -303,7 +293,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 14316
+    "id": 33645
   },
   {
     "type": 1,
@@ -329,7 +319,32 @@
         "surfacetype": 3
       }
     ],
-    "id": 14484
+    "id": 33670
+  },
+  {
+    "type": 17,
+    "icao": "YRKB",
+    "lat": -42.908427,
+    "lon": 147.454545,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[H] ROKEBY POLICE ACADEMY",
+    "runways": [
+      {
+        "type": 102,
+        "width": 29.9,
+        "surfaceType": 3,
+        "numberStart": "H30",
+        "numberEnd": null,
+        "latStart": -42.908427,
+        "lonStart": 147.454545,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.9
+      }
+    ],
+    "id": 34310
   },
   {
     "type": 1,
@@ -355,7 +370,32 @@
         "surfacetype": 3
       }
     ],
-    "id": 22016
+    "id": 34399
+  },
+  {
+    "type": 17,
+    "icao": "YSRL",
+    "lat": -42.781854,
+    "lon": 147.557498,
+    "communications": [],
+    "elevation": 35,
+    "tower": false,
+    "name": "[H] SORELL",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 3,
+        "numberStart": "H48",
+        "numberEnd": null,
+        "latStart": -42.781854,
+        "lonStart": 147.557498,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 34458
   },
   {
     "type": 1,
@@ -394,7 +434,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 25582
+    "id": 34608
   },
   {
     "type": 1,
@@ -420,7 +460,32 @@
         "surfacetype": 3
       }
     ],
-    "id": 25692
+    "id": 34613
+  },
+  {
+    "type": 17,
+    "icao": "YWLI",
+    "lat": -42.896514,
+    "lon": 147.235913,
+    "communications": [],
+    "elevation": 4131,
+    "tower": false,
+    "name": "[H] MOUNT WELLINGTON",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 15,
+        "numberStart": "H18",
+        "numberEnd": null,
+        "latStart": -42.896514,
+        "lonStart": 147.235913,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 34742
   },
   {
     "type": 1,
@@ -459,81 +524,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 26736
-  },
-  {
-    "type": 17,
-    "icao": "YWLI",
-    "lat": -42.896514,
-    "lon": 147.235913,
-    "communications": [],
-    "elevation": 4131,
-    "tower": false,
-    "name": "[H] MOUNT WELLINGTON",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 15,
-        "numberStart": "H18",
-        "numberEnd": null,
-        "latStart": -42.896514,
-        "lonStart": 147.235913,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
-      }
-    ],
-    "id": 31014
-  },
-  {
-    "type": 17,
-    "icao": "YRKB",
-    "lat": -42.908427,
-    "lon": 147.454545,
-    "communications": [],
-    "elevation": 0,
-    "tower": false,
-    "name": "[H] ROKEBY POLICE ACADEMY",
-    "runways": [
-      {
-        "type": 102,
-        "width": 29.9,
-        "surfaceType": 3,
-        "numberStart": "H30",
-        "numberEnd": null,
-        "latStart": -42.908427,
-        "lonStart": 147.454545,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 29.9
-      }
-    ],
-    "id": 32235
-  },
-  {
-    "type": 17,
-    "icao": "YSRL",
-    "lat": -42.781854,
-    "lon": 147.557498,
-    "communications": [],
-    "elevation": 35,
-    "tower": false,
-    "name": "[H] SORELL",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 3,
-        "numberStart": "H48",
-        "numberEnd": null,
-        "latStart": -42.781854,
-        "lonStart": 147.557498,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
-      }
-    ],
-    "id": 32490
+    "id": 34765
   }
 ]

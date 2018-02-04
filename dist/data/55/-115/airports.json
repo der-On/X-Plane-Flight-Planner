@@ -2,18 +2,23 @@
   {
     "type": 1,
     "icao": "CYZH",
-    "lat": 55.293303,
-    "lon": -114.77831,
+    "lat": 55.293138150000004,
+    "lon": -114.779765258,
     "communications": [
       {
-        "type": 51,
+        "type": 54,
         "frequency": 12320,
-        "name": "CTAF"
+        "name": "ATF"
+      },
+      {
+        "type": 50,
+        "frequency": 12700,
+        "name": "AWOS"
       }
     ],
     "elevation": 1912,
     "tower": false,
-    "name": "SLAVE LAKE",
+    "name": "Slave Lake",
     "runways": [
       {
         "type": 100,
@@ -21,14 +26,50 @@
         "surfaceType": null,
         "numberStart": "10",
         "numberEnd": "28",
-        "latStart": 55.296478,
-        "lonStart": -114.790406,
-        "latEnd": 55.290128,
-        "lonEnd": -114.766214,
+        "latStart": 55.29628197,
+        "lonStart": -114.78929417,
+        "latEnd": 55.28961888,
+        "lonEnd": -114.76527955,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 55.29332466,
+        "lonStart": -114.78136542,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      },
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 55.29316398,
+        "lonStart": -114.78119549,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      },
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 1,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 55.29330126,
+        "lonStart": -114.78169166,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
       }
     ],
-    "id": 22337
+    "id": 880
   }
 ]

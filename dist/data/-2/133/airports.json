@@ -1,6 +1,32 @@
 [
   {
     "type": 1,
+    "icao": "WA0J",
+    "lat": -1.1144292349999998,
+    "lon": 133.61931220000002,
+    "communications": [],
+    "elevation": 5006,
+    "tower": false,
+    "name": "Meyambo (TEAM)",
+    "runways": [
+      {
+        "type": 100,
+        "width": 31.09,
+        "surfaceType": null,
+        "numberStart": "7",
+        "numberEnd": "25",
+        "latStart": -1.11357147,
+        "lonStart": 133.6200904,
+        "latEnd": -1.115287,
+        "lonEnd": 133.618534,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 31281
+  },
+  {
+    "type": 1,
     "icao": "WAKJ",
     "lat": -1.386069,
     "lon": 133.87413199999997,
@@ -23,189 +49,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 1051
-  },
-  {
-    "type": 1,
-    "icao": "WZ02",
-    "lat": -1.230021,
-    "lon": 133.947766,
-    "communications": [],
-    "elevation": 6943,
-    "tower": false,
-    "name": "Hing (TEAM)",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": -1.22919811,
-        "lonStart": 133.94634038,
-        "latEnd": -1.23084389,
-        "lonEnd": 133.94919162,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11879
-  },
-  {
-    "type": 1,
-    "icao": "WZ09",
-    "lat": -1.3703319999999999,
-    "lon": 133.376633,
-    "communications": [],
-    "elevation": 3878,
-    "tower": false,
-    "name": "Igamu (MAF)",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": -1.36800047,
-        "lonStart": 133.376633,
-        "latEnd": -1.37266353,
-        "lonEnd": 133.376633,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 12417
-  },
-  {
-    "type": 1,
-    "icao": "WZ15",
-    "lat": -1.328504,
-    "lon": 133.912579,
-    "communications": [],
-    "elevation": 6413,
-    "tower": false,
-    "name": "Iray (Local Gov)",
-    "runways": [
-      {
-        "type": 100,
-        "width": 28.04,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": -1.32636045,
-        "lonStart": 133.91450315,
-        "latEnd": -1.33064755,
-        "lonEnd": 133.91065485,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 12545
-  },
-  {
-    "type": 1,
-    "icao": "WXY2",
-    "lat": -1.8204910600000002,
-    "lon": 133.051279695,
-    "communications": [],
-    "elevation": 81,
-    "tower": false,
-    "name": "Jagiro",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": -1.81996087,
-        "lonStart": 133.04807191,
-        "latEnd": -1.82102125,
-        "lonEnd": 133.05448748,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 12881
-  },
-  {
-    "type": 1,
-    "icao": "WZ18",
-    "lat": -1.217201,
-    "lon": 133.790009,
-    "communications": [],
-    "elevation": 6089,
-    "tower": false,
-    "name": "Jatubo (TEAM)",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": -1.21528091,
-        "lonStart": 133.790009,
-        "latEnd": -1.21912109,
-        "lonEnd": 133.790009,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 12928
-  },
-  {
-    "type": 1,
-    "icao": "WW06",
-    "lat": -1.85,
-    "lon": 133.15834,
-    "communications": [],
-    "elevation": 469,
-    "tower": false,
-    "name": "Mayado (Conoco/Total)",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": -1.84662613,
-        "lonStart": 133.15834,
-        "latEnd": -1.85337387,
-        "lonEnd": 133.15834,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 16845
-  },
-  {
-    "type": 1,
-    "icao": "WW10",
-    "lat": -1.13208243,
-    "lon": 133.86413598500002,
-    "communications": [],
-    "elevation": 4428,
-    "tower": false,
-    "name": "Menyembou (TEAM)",
-    "runways": [
-      {
-        "type": 100,
-        "width": 25.91,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": -1.13262406,
-        "lonStart": 133.86211703,
-        "latEnd": -1.1315408,
-        "lonEnd": 133.86615494,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 17067
+    "id": 31414
   },
   {
     "type": 1,
@@ -231,59 +75,111 @@
         "surfacetype": 3
       }
     ],
-    "id": 17075
+    "id": 31483
   },
   {
     "type": 1,
-    "icao": "WW11",
-    "lat": -1.380566,
-    "lon": 133.173861,
+    "icao": "WT32",
+    "lat": -1.308056,
+    "lon": 133.85670499999998,
     "communications": [],
-    "elevation": 2020,
+    "elevation": 6274,
     "tower": false,
-    "name": "Mesina/Merdey (TEAM)",
+    "name": "Taige (TEAM)",
     "runways": [
       {
         "type": 100,
-        "width": 21.03,
+        "width": 24.08,
         "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": -1.38224141,
-        "lonStart": 133.17325102,
-        "latEnd": -1.37889059,
-        "lonEnd": 133.17447098,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 17104
-  },
-  {
-    "type": 1,
-    "icao": "WA0J",
-    "lat": -1.1144292349999998,
-    "lon": 133.61931220000002,
-    "communications": [],
-    "elevation": 5006,
-    "tower": false,
-    "name": "Meyambo (TEAM)",
-    "runways": [
-      {
-        "type": 100,
-        "width": 31.09,
-        "surfaceType": null,
-        "numberStart": "7",
+        "numberStart": "07",
         "numberEnd": "25",
-        "latStart": -1.11357147,
-        "lonStart": 133.6200904,
-        "latEnd": -1.115287,
-        "lonEnd": 133.618534,
+        "latStart": -1.30908797,
+        "lonStart": 133.85386895,
+        "latEnd": -1.30702403,
+        "lonEnd": 133.85954105,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 17119
+    "id": 31882
+  },
+  {
+    "type": 1,
+    "icao": "WT33",
+    "lat": -1.367332,
+    "lon": 133.724274,
+    "communications": [],
+    "elevation": 5745,
+    "tower": false,
+    "name": "Taigei (MAF)",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -1.36546129,
+        "lonStart": 133.724274,
+        "latEnd": -1.36920271,
+        "lonEnd": 133.724274,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 31883
+  },
+  {
+    "type": 1,
+    "icao": "WT46",
+    "lat": -1.378149,
+    "lon": 133.59473400000002,
+    "communications": [],
+    "elevation": 3784,
+    "tower": false,
+    "name": "Testega (TEAM)",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -1.37898149,
+        "lonStart": 133.59329166,
+        "latEnd": -1.37731651,
+        "lonEnd": 133.59617634,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 31896
+  },
+  {
+    "type": 1,
+    "icao": "WT50",
+    "lat": -1.406261,
+    "lon": 133.92971999999997,
+    "communications": [],
+    "elevation": 6542,
+    "tower": false,
+    "name": "Tombok (MAF)",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -1.4067135,
+        "lonStart": 133.92715298,
+        "latEnd": -1.4058085,
+        "lonEnd": 133.93228702,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 31900
   },
   {
     "type": 1,
@@ -309,7 +205,85 @@
         "surfacetype": 3
       }
     ],
-    "id": 17359
+    "id": 31926
+  },
+  {
+    "type": 1,
+    "icao": "WW06",
+    "lat": -1.85,
+    "lon": 133.15834,
+    "communications": [],
+    "elevation": 469,
+    "tower": false,
+    "name": "Mayado (Conoco/Total)",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -1.84662613,
+        "lonStart": 133.15834,
+        "latEnd": -1.85337387,
+        "lonEnd": 133.15834,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 32010
+  },
+  {
+    "type": 1,
+    "icao": "WW10",
+    "lat": -1.13208243,
+    "lon": 133.86413598500002,
+    "communications": [],
+    "elevation": 4428,
+    "tower": false,
+    "name": "Menyembou (TEAM)",
+    "runways": [
+      {
+        "type": 100,
+        "width": 25.91,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -1.13262406,
+        "lonStart": 133.86211703,
+        "latEnd": -1.1315408,
+        "lonEnd": 133.86615494,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 32014
+  },
+  {
+    "type": 1,
+    "icao": "WW11",
+    "lat": -1.380566,
+    "lon": 133.173861,
+    "communications": [],
+    "elevation": 2020,
+    "tower": false,
+    "name": "Mesina/Merdey (TEAM)",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.03,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": -1.38224141,
+        "lonStart": 133.17325102,
+        "latEnd": -1.37889059,
+        "lonEnd": 133.17447098,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 32015
   },
   {
     "type": 1,
@@ -348,43 +322,69 @@
         "surfacetype": 3
       }
     ],
-    "id": 18202
+    "id": 32033
   },
   {
     "type": 1,
-    "icao": "WT32",
-    "lat": -1.308056,
-    "lon": 133.85670499999998,
+    "icao": "WXY2",
+    "lat": -1.8204910600000002,
+    "lon": 133.051279695,
     "communications": [],
-    "elevation": 6274,
+    "elevation": 81,
     "tower": false,
-    "name": "Taige (TEAM)",
+    "name": "Jagiro",
     "runways": [
       {
         "type": 100,
-        "width": 24.08,
+        "width": 29.87,
         "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": -1.30908797,
-        "lonStart": 133.85386895,
-        "latEnd": -1.30702403,
-        "lonEnd": 133.85954105,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -1.81996087,
+        "lonStart": 133.04807191,
+        "latEnd": -1.82102125,
+        "lonEnd": 133.05448748,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 32194
+  },
+  {
+    "type": 1,
+    "icao": "WZ02",
+    "lat": -1.230021,
+    "lon": 133.947766,
+    "communications": [],
+    "elevation": 6943,
+    "tower": false,
+    "name": "Hing (TEAM)",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -1.22919811,
+        "lonStart": 133.94634038,
+        "latEnd": -1.23084389,
+        "lonEnd": 133.94919162,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 24962
+    "id": 32265
   },
   {
     "type": 1,
-    "icao": "WT33",
-    "lat": -1.367332,
-    "lon": 133.724274,
+    "icao": "WZ09",
+    "lat": -1.3703319999999999,
+    "lon": 133.376633,
     "communications": [],
-    "elevation": 5745,
+    "elevation": 3878,
     "tower": false,
-    "name": "Taigei (MAF)",
+    "name": "Igamu (MAF)",
     "runways": [
       {
         "type": 100,
@@ -392,66 +392,66 @@
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": -1.36546129,
-        "lonStart": 133.724274,
-        "latEnd": -1.36920271,
-        "lonEnd": 133.724274,
+        "latStart": -1.36800047,
+        "lonStart": 133.376633,
+        "latEnd": -1.37266353,
+        "lonEnd": 133.376633,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 24963
+    "id": 32272
   },
   {
     "type": 1,
-    "icao": "WT46",
-    "lat": -1.378149,
-    "lon": 133.59473400000002,
+    "icao": "WZ15",
+    "lat": -1.328504,
+    "lon": 133.912579,
     "communications": [],
-    "elevation": 3784,
+    "elevation": 6413,
     "tower": false,
-    "name": "Testega (TEAM)",
+    "name": "Iray (Local Gov)",
     "runways": [
       {
         "type": 100,
-        "width": 20.12,
+        "width": 28.04,
         "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": -1.37898149,
-        "lonStart": 133.59329166,
-        "latEnd": -1.37731651,
-        "lonEnd": 133.59617634,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": -1.32636045,
+        "lonStart": 133.91450315,
+        "latEnd": -1.33064755,
+        "lonEnd": 133.91065485,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 4
       }
     ],
-    "id": 25191
+    "id": 32277
   },
   {
     "type": 1,
-    "icao": "WT50",
-    "lat": -1.406261,
-    "lon": 133.92971999999997,
+    "icao": "WZ18",
+    "lat": -1.217201,
+    "lon": 133.790009,
     "communications": [],
-    "elevation": 6542,
+    "elevation": 6089,
     "tower": false,
-    "name": "Tombok (MAF)",
+    "name": "Jatubo (TEAM)",
     "runways": [
       {
         "type": 100,
         "width": 29.87,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": -1.4067135,
-        "lonStart": 133.92715298,
-        "latEnd": -1.4058085,
-        "lonEnd": 133.93228702,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -1.21528091,
+        "lonStart": 133.790009,
+        "latEnd": -1.21912109,
+        "lonEnd": 133.790009,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 25449
+    "id": 32280
   }
 ]

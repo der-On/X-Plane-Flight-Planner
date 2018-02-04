@@ -1,6 +1,51 @@
 [
   {
     "type": 1,
+    "icao": "1D8",
+    "lat": 44.862362749999996,
+    "lon": -98.5304165,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1307,
+    "tower": false,
+    "name": "REDFIELD MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 44.866111,
+        "lonStart": -98.533333,
+        "latEnd": 44.858892,
+        "lonEnd": -98.525558,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 76.2,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 44.858892,
+        "lonStart": -98.533333,
+        "latEnd": 44.865556,
+        "lonEnd": -98.529442,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6363
+  },
+  {
+    "type": 1,
     "icao": "3DE",
     "lat": 44.87914166,
     "lon": -98.39203778000001,
@@ -36,7 +81,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 6149
+    "id": 7494
+  },
+  {
+    "type": 1,
+    "icao": "4X4",
+    "lat": 44.061039,
+    "lon": -98.530892,
+    "communications": [],
+    "elevation": 1545,
+    "tower": false,
+    "name": "WESSINGTON SPRINGS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 44.063508,
+        "lonStart": -98.536822,
+        "latEnd": 44.05857,
+        "lonEnd": -98.524962,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 8455
   },
   {
     "type": 1,
@@ -91,7 +162,39 @@
         "surfacetype": 2
       }
     ],
-    "id": 11255
+    "id": 19296
+  },
+  {
+    "type": 1,
+    "icao": "KMKA",
+    "lat": 44.525239,
+    "lon": -98.958079,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1569,
+    "tower": false,
+    "name": "MILLER MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 44.529817,
+        "lonStart": -98.960664,
+        "latEnd": 44.520661,
+        "lonEnd": -98.955494,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19491
   },
   {
     "type": 1,
@@ -117,7 +220,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 11923
+    "id": 25262
   },
   {
     "type": 1,
@@ -169,39 +272,58 @@
         "surfacetype": 3
       }
     ],
-    "id": 12495
+    "id": 25283
+  },
+  {
+    "type": 17,
+    "icao": "SD45",
+    "lat": 44.871365,
+    "lon": -98.52120612,
+    "communications": [],
+    "elevation": 1298,
+    "tower": false,
+    "name": "[H] Community Memorial Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 7.6,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 44.871365,
+        "lonStart": -98.52120612,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 7.6
+      }
+    ],
+    "id": 25285
   },
   {
     "type": 1,
-    "icao": "KMKA",
-    "lat": 44.525239,
-    "lon": -98.958079,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 1569,
+    "icao": "SD55",
+    "lat": 44.315833330000004,
+    "lon": -98.27333334,
+    "communications": [],
+    "elevation": 1323,
     "tower": false,
-    "name": "MILLER MUNI",
+    "name": "Winter Airfield",
     "runways": [
       {
         "type": 100,
-        "width": 18.29,
+        "width": 9.14,
         "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 44.529817,
-        "lonStart": -98.960664,
-        "latEnd": 44.520661,
-        "lonEnd": -98.955494,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 44.31806187,
+        "lonStart": -98.27746663,
+        "latEnd": 44.31360479,
+        "lonEnd": -98.26920005,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 16107
+    "id": 25294
   },
   {
     "type": 1,
@@ -240,128 +362,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 16718
-  },
-  {
-    "type": 1,
-    "icao": "1D8",
-    "lat": 44.862362749999996,
-    "lon": -98.5304165,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 1307,
-    "tower": false,
-    "name": "REDFIELD MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 44.866111,
-        "lonStart": -98.533333,
-        "latEnd": 44.858892,
-        "lonEnd": -98.525558,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 76.2,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 44.858892,
-        "lonStart": -98.533333,
-        "latEnd": 44.865556,
-        "lonEnd": -98.529442,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 20884
-  },
-  {
-    "type": 1,
-    "icao": "4X4",
-    "lat": 44.061039,
-    "lon": -98.530892,
-    "communications": [],
-    "elevation": 1545,
-    "tower": false,
-    "name": "WESSINGTON SPRINGS",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 44.063508,
-        "lonStart": -98.536822,
-        "latEnd": 44.05857,
-        "lonEnd": -98.524962,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 26580
-  },
-  {
-    "type": 1,
-    "icao": "SD55",
-    "lat": 44.315833330000004,
-    "lon": -98.27333334,
-    "communications": [],
-    "elevation": 1323,
-    "tower": false,
-    "name": "Winter Airfield",
-    "runways": [
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 44.31806187,
-        "lonStart": -98.27746663,
-        "latEnd": 44.31360479,
-        "lonEnd": -98.26920005,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 27440
-  },
-  {
-    "type": 17,
-    "icao": "SD45",
-    "lat": 44.871365,
-    "lon": -98.52120612,
-    "communications": [],
-    "elevation": 1298,
-    "tower": false,
-    "name": "[H] Community Memorial Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 7.6,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 44.871365,
-        "lonStart": -98.52120612,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 7.6
-      }
-    ],
-    "id": 29095
+    "id": 25315
   }
 ]

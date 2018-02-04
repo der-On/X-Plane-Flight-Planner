@@ -2,39 +2,44 @@
   {
     "type": 1,
     "icao": "EKVG",
-    "lat": 62.063584500000005,
-    "lon": -7.2770434999999996,
+    "lat": 62.0632655,
+    "lon": -7.275771499999999,
     "communications": [
       {
         "type": 54,
         "frequency": 12485,
-        "name": "AFIS"
+        "name": "Tower (AFIS)"
       },
       {
-        "type": 54,
+        "type": 51,
+        "frequency": 12050,
+        "name": "Emergency (CTAF)"
+      },
+      {
+        "type": 50,
         "frequency": 12020,
-        "name": "AFIS"
+        "name": "ATIS"
       }
     ],
-    "elevation": 279,
+    "elevation": 275,
     "tower": true,
     "name": "Vagar",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 30,
         "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 62.066208,
-        "lonStart": -7.287606,
-        "latEnd": 62.060961,
-        "lonEnd": -7.266481,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 62.067042,
+        "lonStart": -7.290972,
+        "latEnd": 62.059489,
+        "lonEnd": -7.260571,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 26149
+    "id": 1718
   },
   {
     "type": 17,
@@ -59,6 +64,6 @@
         "length": 4.6
       }
     ],
-    "id": 31508
+    "id": 16534
   }
 ]

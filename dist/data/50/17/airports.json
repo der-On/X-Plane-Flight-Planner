@@ -1,70 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "LKKR",
-    "lat": 50.074063025,
-    "lon": 17.695046985,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12260,
-        "name": "INFO"
-      }
-    ],
-    "elevation": 1227,
-    "tower": true,
-    "name": "Krnov",
-    "runways": [
-      {
-        "type": 100,
-        "width": 124.97,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 50.07550289,
-        "lonStart": 17.69032221,
-        "latEnd": 50.07262316,
-        "lonEnd": 17.69977176,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 14143
-  },
-  {
-    "type": 1,
-    "icao": "LKMI",
-    "lat": 50.30170463,
-    "lon": 17.29769738,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12350,
-        "name": "INFO"
-      }
-    ],
-    "elevation": 1374,
-    "tower": true,
-    "name": "Mikulovice",
-    "runways": [
-      {
-        "type": 100,
-        "width": 89.92,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 50.2990159,
-        "lonStart": 17.29209099,
-        "latEnd": 50.30439336,
-        "lonEnd": 17.30330377,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 17175
-  },
-  {
-    "type": 1,
     "icao": "EPOP",
     "lat": 50.6324534775,
     "lon": 17.7809774875,
@@ -100,6 +36,70 @@
         "surfacetype": 3
       }
     ],
-    "id": 18994
+    "id": 1839
+  },
+  {
+    "type": 1,
+    "icao": "LKKR",
+    "lat": 50.074063025,
+    "lon": 17.695046985,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12260,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 1227,
+    "tower": true,
+    "name": "Krnov",
+    "runways": [
+      {
+        "type": 100,
+        "width": 124.97,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 50.07550289,
+        "lonStart": 17.69032221,
+        "latEnd": 50.07262316,
+        "lonEnd": 17.69977176,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20595
+  },
+  {
+    "type": 1,
+    "icao": "LKMI",
+    "lat": 50.30170463,
+    "lon": 17.29769738,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12350,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 1374,
+    "tower": true,
+    "name": "Mikulovice",
+    "runways": [
+      {
+        "type": 100,
+        "width": 89.92,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 50.2990159,
+        "lonStart": 17.29209099,
+        "latEnd": 50.30439336,
+        "lonEnd": 17.30330377,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20604
   }
 ]

@@ -1,54 +1,23 @@
 [
   {
     "type": 1,
-    "icao": "MYLD",
-    "lat": 23.179014000000002,
-    "lon": -75.093597,
-    "communications": [],
-    "elevation": 9,
-    "tower": true,
-    "name": "DEADMANS CAY",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 23.179167,
-        "lonStart": -75.099586,
-        "latEnd": 23.178861,
-        "lonEnd": -75.087608,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 5714
-  },
-  {
-    "type": 1,
     "icao": "MYEF",
     "lat": 23.56246,
     "lon": -75.8776015,
     "communications": [
       {
-        "type": 51,
+        "type": 54,
         "frequency": 11800,
-        "name": "CTAF"
-      },
-      {
-        "type": 50,
-        "frequency": 11850,
-        "name": "AWOS"
+        "name": "AFIS"
       },
       {
         "type": 55,
-        "frequency": 12100,
-        "name": "NASSAU APCH"
+        "frequency": 12760,
+        "name": "NASSAU APP"
       }
     ],
-    "elevation": 9,
-    "tower": false,
+    "elevation": 8,
+    "tower": true,
     "name": "Exuma Intl",
     "runways": [
       {
@@ -65,7 +34,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 7375
+    "id": 4164
   },
   {
     "type": 1,
@@ -102,7 +71,33 @@
         "surfacetype": 1
       }
     ],
-    "id": 9974
+    "id": 22118
+  },
+  {
+    "type": 1,
+    "icao": "MYLD",
+    "lat": 23.179014000000002,
+    "lon": -75.093597,
+    "communications": [],
+    "elevation": 9,
+    "tower": true,
+    "name": "DEADMANS CAY",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 23.179167,
+        "lonStart": -75.099586,
+        "latEnd": 23.178861,
+        "lonEnd": -75.087608,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22125
   },
   {
     "type": 1,
@@ -134,7 +129,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 22519
+    "id": 22126
   },
   {
     "type": 16,
@@ -159,6 +154,6 @@
         "length": 0
       }
     ],
-    "id": 34064
+    "id": 28238
   }
 ]

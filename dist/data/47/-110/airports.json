@@ -2,28 +2,135 @@
   {
     "type": 1,
     "icao": "5U0",
-    "lat": 47.32080638,
-    "lon": -109.9418625,
-    "communications": [],
+    "lat": 47.320742925000005,
+    "lon": -109.94205674,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
     "elevation": 3591,
     "tower": false,
     "name": "Denton",
     "runways": [
       {
         "type": 100,
-        "width": 54.86,
+        "width": 41.15,
         "surfaceType": null,
         "numberStart": "09",
         "numberEnd": "27",
-        "latStart": 47.32177037,
-        "lonStart": -109.94682172,
-        "latEnd": 47.31984239,
-        "lonEnd": -109.93690328,
+        "latStart": 47.32070498,
+        "lonStart": -109.94716791,
+        "latEnd": 47.32078087,
+        "lonEnd": -109.93694557,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 6188
+    "id": 197
+  },
+  {
+    "type": 1,
+    "icao": "9S7",
+    "lat": 47.555400995,
+    "lon": -109.387214525,
+    "communications": [],
+    "elevation": 3311,
+    "tower": false,
+    "name": "Winifred",
+    "runways": [
+      {
+        "type": 100,
+        "width": 38.1,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 47.5553441,
+        "lonStart": -109.39564434,
+        "latEnd": 47.55545789,
+        "lonEnd": -109.37878471,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 313
+  },
+  {
+    "type": 1,
+    "icao": "KLWT",
+    "lat": 47.049080562857135,
+    "lon": -109.46547823428571,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11837,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 4169,
+    "tower": false,
+    "name": "Lewistown Muni",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 47.053003,
+        "lonStart": -109.469548,
+        "latEnd": 47.05300226,
+        "lonEnd": -109.44508043,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 47.04038791,
+        "lonStart": -109.48093234,
+        "latEnd": 47.05248326,
+        "lonEnd": -109.46713872,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 47.05182515,
+        "lonStart": -109.47591389,
+        "latEnd": 47.043214,
+        "lonEnd": -109.465319,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 18.54,
+        "surfaceType": 2,
+        "numberStart": "H47",
+        "numberEnd": null,
+        "latStart": 47.04964836,
+        "lonStart": -109.45441526,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.26
+      }
+    ],
+    "id": 2925
   },
   {
     "type": 1,
@@ -49,109 +156,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 11958
-  },
-  {
-    "type": 1,
-    "icao": "KLWT",
-    "lat": 47.0489815,
-    "lon": -109.46732283333334,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11837,
-        "name": "ASOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12300,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 4170,
-    "tower": false,
-    "name": "Lewistown Muni",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 47.053003,
-        "lonStart": -109.469556,
-        "latEnd": 47.052997,
-        "lonEnd": -109.445092,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 47.040375,
-        "lonStart": -109.480939,
-        "latEnd": 47.052478,
-        "lonEnd": -109.467131,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 47.051822,
-        "lonStart": -109.4759,
-        "latEnd": 47.043214,
-        "lonEnd": -109.465319,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 15227
-  },
-  {
-    "type": 1,
-    "icao": "9S7",
-    "lat": 47.55558652,
-    "lon": -109.38503046,
-    "communications": [],
-    "elevation": 3311,
-    "tower": false,
-    "name": "Winifred",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 47.55639496,
-        "lonStart": -109.3877969,
-        "latEnd": 47.55523104,
-        "lonEnd": -109.3784851,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 47.55531019,
-        "lonStart": -109.3949634,
-        "latEnd": 47.55540989,
-        "lonEnd": -109.37887644,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 27430
+    "id": 9438
   },
   {
     "type": 17,
@@ -176,6 +181,6 @@
         "length": 22.9
       }
     ],
-    "id": 28843
+    "id": 21853
   }
 ]

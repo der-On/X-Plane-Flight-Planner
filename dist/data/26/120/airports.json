@@ -2,48 +2,60 @@
   {
     "type": 1,
     "icao": "RCMT",
-    "lat": 26.224153,
-    "lon": 120.00274999999999,
+    "lat": 26.22412230666667,
+    "lon": 120.00197935,
     "communications": [
       {
         "type": 54,
         "frequency": 11865,
-        "name": "TWR"
+        "name": "BEIGAN TOWER"
       },
       {
         "type": 54,
-        "frequency": 11810,
-        "name": "TWR"
+        "frequency": 12150,
+        "name": "BEIGAN TOWER"
+      },
+      {
+        "type": 50,
+        "frequency": 12735,
+        "name": "BEIGAN AIRPORT"
       },
       {
         "type": 55,
         "frequency": 12550,
-        "name": "TAIPEI CON"
-      },
-      {
-        "type": 55,
-        "frequency": 12340,
-        "name": "TAIPEI CON"
+        "name": "TAIPEI CONTROL"
       }
     ],
     "elevation": 41,
     "tower": true,
-    "name": "BEIGAN",
+    "name": "Matsu Beigan",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 30,
         "surfaceType": null,
         "numberStart": "03",
         "numberEnd": "21",
-        "latStart": 26.2195,
-        "lonStart": 120.000111,
-        "latEnd": 26.228806,
-        "lonEnd": 120.005389,
+        "latStart": 26.21954334,
+        "lonStart": 120.00014471,
+        "latEnd": 26.22876721,
+        "lonEnd": 120.00537633,
         "length": 0,
         "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 19,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 26.22405637,
+        "lonStart": 120.00041701,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19
       }
     ],
-    "id": 1608
+    "id": 24344
   }
 ]

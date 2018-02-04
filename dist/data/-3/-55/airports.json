@@ -1,29 +1,45 @@
 [
   {
     "type": 1,
-    "icao": "SNEL",
-    "lat": -2.666667,
-    "lon": -54.9002762,
-    "communications": [],
-    "elevation": 538,
+    "icao": "SBSN",
+    "lat": -2.422439155,
+    "lon": -54.792818475000004,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11930,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 13140,
+        "name": "APP"
+      }
+    ],
+    "elevation": 198,
     "tower": true,
-    "name": "Belterra",
+    "name": "Santarem Airport",
     "runways": [
       {
         "type": 100,
-        "width": 28.65,
+        "width": 45.11,
         "surfaceType": null,
         "numberStart": "10",
         "numberEnd": "28",
-        "latStart": -2.66760773,
-        "lonStart": -54.90923632,
-        "latEnd": -2.66572627,
-        "lonEnd": -54.89131608,
+        "latStart": -2.42418562,
+        "lonStart": -54.80348499,
+        "latEnd": -2.42069269,
+        "lonEnd": -54.78215196,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 1
       }
     ],
-    "id": 2526
+    "id": 4661
   },
   {
     "type": 1,
@@ -49,49 +65,33 @@
         "surfacetype": 5
       }
     ],
-    "id": 20192
+    "id": 27633
   },
   {
     "type": 1,
-    "icao": "SBSN",
-    "lat": -2.4224305,
-    "lon": -54.7927875,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11810,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11930,
-        "name": "APP"
-      },
-      {
-        "type": 55,
-        "frequency": 13140,
-        "name": "APP"
-      }
-    ],
-    "elevation": 198,
+    "icao": "SNEL",
+    "lat": -2.666667,
+    "lon": -54.9002762,
+    "communications": [],
+    "elevation": 538,
     "tower": true,
-    "name": "SANTAREM",
+    "name": "Belterra",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 28.65,
         "surfaceType": null,
         "numberStart": "10",
         "numberEnd": "28",
-        "latStart": -2.424175,
-        "lonStart": -54.803442,
-        "latEnd": -2.420686,
-        "lonEnd": -54.782133,
+        "latStart": -2.66760773,
+        "lonStart": -54.90923632,
+        "latEnd": -2.66572627,
+        "lonEnd": -54.89131608,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
       }
     ],
-    "id": 22058
+    "id": 27679
   },
   {
     "type": 1,
@@ -117,6 +117,6 @@
         "surfacetype": 5
       }
     ],
-    "id": 22979
+    "id": 28018
   }
 ]

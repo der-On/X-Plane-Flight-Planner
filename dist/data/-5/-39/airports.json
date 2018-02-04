@@ -1,55 +1,85 @@
 [
   {
     "type": 1,
-    "icao": "SWWZ",
-    "lat": -4.11638889,
-    "lon": -38.250833330000006,
-    "communications": [],
-    "elevation": 13,
-    "tower": false,
-    "name": "Darinha",
-    "runways": [
+    "icao": "SNQX",
+    "lat": -4.979020504999999,
+    "lon": -38.987634485,
+    "communications": [
       {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": -4.11552917,
-        "lonStart": -38.25339978,
-        "latEnd": -4.11724861,
-        "lonEnd": -38.24826688,
-        "length": 0,
-        "surfacetype": 5
+        "type": 54,
+        "frequency": 12280,
+        "name": "UNICOM"
       }
     ],
-    "id": 6005
-  },
-  {
-    "type": 1,
-    "icao": "SNQX",
-    "lat": -4.9790735,
-    "lon": -38.987632000000005,
-    "communications": [],
-    "elevation": 653,
+    "elevation": 652,
     "tower": false,
-    "name": "QUIXADA",
+    "name": "Quixada Airfield",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 31,
         "surfaceType": null,
         "numberStart": "14",
         "numberEnd": "32",
-        "latStart": -4.977447,
-        "lonStart": -38.992806,
-        "latEnd": -4.9807,
-        "lonEnd": -38.982458,
+        "latStart": -4.97738605,
+        "lonStart": -38.99285701,
+        "latEnd": -4.98065496,
+        "lonEnd": -38.98241196,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 20679
+    "id": 4937
+  },
+  {
+    "type": 17,
+    "icao": "SIZW",
+    "lat": -4.11166667,
+    "lon": -38.24805556,
+    "communications": [],
+    "elevation": 8,
+    "tower": false,
+    "name": "[H] Darinha",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -4.11166667,
+        "lonStart": -38.24805556,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 26715
+  },
+  {
+    "type": 17,
+    "icao": "SNCM",
+    "lat": -4.02361111,
+    "lon": -38.20888889,
+    "communications": [],
+    "elevation": 4,
+    "tower": false,
+    "name": "[H] Caponga",
+    "runways": [
+      {
+        "type": 102,
+        "width": 22,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -4.02361111,
+        "lonStart": -38.20888889,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 22
+      }
+    ],
+    "id": 27635
   },
   {
     "type": 1,
@@ -75,7 +105,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 21851
+    "id": 28003
   },
   {
     "type": 1,
@@ -101,7 +131,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 23577
+    "id": 28183
   },
   {
     "type": 1,
@@ -127,57 +157,7 @@
         "surfacetype": 5
       }
     ],
-    "id": 26302
-  },
-  {
-    "type": 17,
-    "icao": "SNCM",
-    "lat": -4.02361111,
-    "lon": -38.20888889,
-    "communications": [],
-    "elevation": 4,
-    "tower": false,
-    "name": "[H] Caponga",
-    "runways": [
-      {
-        "type": 102,
-        "width": 22,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -4.02361111,
-        "lonStart": -38.20888889,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 22
-      }
-    ],
-    "id": 28769
-  },
-  {
-    "type": 17,
-    "icao": "SIZW",
-    "lat": -4.11166667,
-    "lon": -38.24805556,
-    "communications": [],
-    "elevation": 8,
-    "tower": false,
-    "name": "[H] Darinha",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -4.11166667,
-        "lonStart": -38.24805556,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
-      }
-    ],
-    "id": 29261
+    "id": 28185
   },
   {
     "type": 17,
@@ -202,6 +182,32 @@
         "length": 18
       }
     ],
-    "id": 31358
+    "id": 29414
+  },
+  {
+    "type": 1,
+    "icao": "SWWZ",
+    "lat": -4.11638889,
+    "lon": -38.250833330000006,
+    "communications": [],
+    "elevation": 13,
+    "tower": false,
+    "name": "Darinha",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -4.11552917,
+        "lonStart": -38.25339978,
+        "latEnd": -4.11724861,
+        "lonEnd": -38.24826688,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 29575
   }
 ]

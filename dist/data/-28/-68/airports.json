@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "SA46",
+    "lat": -27.642052919999998,
+    "lon": -67.624994705,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11820,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 5145,
+    "tower": true,
+    "name": "Fiambalá",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -27.63400235,
+        "lonStart": -67.62311381,
+        "latEnd": -27.65010349,
+        "lonEnd": -67.6268756,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4535
+  },
+  {
+    "type": 1,
     "icao": "SA44",
     "lat": -27.7079335,
     "lon": -67.09505999999999,
@@ -23,38 +55,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 1612
-  },
-  {
-    "type": 1,
-    "icao": "SA46",
-    "lat": -27.642052919999998,
-    "lon": -67.624994705,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11820,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 5145,
-    "tower": true,
-    "name": "FiambalC!",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": -27.63400235,
-        "lonStart": -67.62311381,
-        "latEnd": -27.65010349,
-        "lonEnd": -67.6268756,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 9265
+    "id": 24909
   }
 ]

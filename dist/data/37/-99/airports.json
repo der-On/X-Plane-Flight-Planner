@@ -1,77 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "KANY",
-    "lat": 37.15844925,
-    "lon": -98.07982425,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 1339,
-    "tower": false,
-    "name": "ANTHONY MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 37.163697,
-        "lonStart": -98.079044,
-        "latEnd": 37.153814,
-        "lonEnd": -98.079086,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 37.158878,
-        "lonStart": -98.084267,
-        "latEnd": 37.157408,
-        "lonEnd": -98.0769,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 329
-  },
-  {
-    "type": 1,
-    "icao": "23K",
-    "lat": 37.27946388,
-    "lon": -98.01811638999999,
-    "communications": [],
-    "elevation": 1414,
-    "tower": false,
-    "name": "Deweze",
-    "runways": [
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 37.2774061,
-        "lonStart": -98.0208897,
-        "latEnd": 37.28152166,
-        "lonEnd": -98.01534308,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 6234
-  },
-  {
-    "type": 1,
     "icao": "2KS4",
     "lat": 37.44779611,
     "lon": -98.22534612000001,
@@ -94,33 +23,59 @@
         "surfacetype": 3
       }
     ],
-    "id": 6256
+    "id": 7051
   },
   {
     "type": 1,
-    "icao": "50KS",
-    "lat": 37.66557333,
-    "lon": -98.61980778,
+    "icao": "3TA",
+    "lat": 37.95834833,
+    "lon": -98.65036194999999,
     "communications": [],
-    "elevation": 1820,
+    "elevation": 1886,
     "tower": false,
-    "name": "Grandpas Farm",
+    "name": "Stafford Municipal",
     "runways": [
       {
         "type": 100,
-        "width": 18.29,
+        "width": 30.48,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 37.66869706,
-        "lonStart": -98.61925319,
-        "latEnd": 37.6624496,
-        "lonEnd": -98.62036237,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 37.96172014,
+        "lonStart": -98.65051129,
+        "latEnd": 37.95497652,
+        "lonEnd": -98.65021261,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 37.96028484,
+        "lonStart": -98.65257341,
+        "latEnd": 37.95641182,
+        "lonEnd": -98.64815049,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 79.25,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 37.95664075,
+        "lonStart": -98.652054,
+        "latEnd": 37.96005591,
+        "lonEnd": -98.6486699,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 10701
+    "id": 7858
   },
   {
     "type": 1,
@@ -165,33 +120,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 11014
-  },
-  {
-    "type": 1,
-    "icao": "42KS",
-    "lat": 37.658348610000004,
-    "lon": -98.08089417,
-    "communications": [],
-    "elevation": 1600,
-    "tower": false,
-    "name": "Hetsel Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 37.6571682,
-        "lonStart": -98.08135003,
-        "latEnd": 37.65952902,
-        "lonEnd": -98.08043831,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11756
+    "id": 10119
   },
   {
     "type": 1,
@@ -241,7 +170,33 @@
         "surfacetype": 2
       }
     ],
-    "id": 13385
+    "id": 10574
+  },
+  {
+    "type": 1,
+    "icao": "23K",
+    "lat": 37.27946388,
+    "lon": -98.01811638999999,
+    "communications": [],
+    "elevation": 1414,
+    "tower": false,
+    "name": "Deweze",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 37.2774061,
+        "lonStart": -98.0208897,
+        "latEnd": 37.28152166,
+        "lonEnd": -98.01534308,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11431
   },
   {
     "type": 1,
@@ -267,7 +222,85 @@
         "surfacetype": 1
       }
     ],
-    "id": 13919
+    "id": 11860
+  },
+  {
+    "type": 1,
+    "icao": "42K",
+    "lat": 37.975015,
+    "lon": -98.96565389,
+    "communications": [],
+    "elevation": 2023,
+    "tower": false,
+    "name": "Smith Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 37.9785787,
+        "lonStart": -98.96581176,
+        "latEnd": 37.9714513,
+        "lonEnd": -98.96549602,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12173
+  },
+  {
+    "type": 1,
+    "icao": "42KS",
+    "lat": 37.658348610000004,
+    "lon": -98.08089417,
+    "communications": [],
+    "elevation": 1600,
+    "tower": false,
+    "name": "Hetsel Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 37.6571682,
+        "lonStart": -98.08135003,
+        "latEnd": 37.65952902,
+        "lonEnd": -98.08043831,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12174
+  },
+  {
+    "type": 1,
+    "icao": "50KS",
+    "lat": 37.66557333,
+    "lon": -98.61980778,
+    "communications": [],
+    "elevation": 1820,
+    "tower": false,
+    "name": "Grandpas Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 37.66869706,
+        "lonStart": -98.61925319,
+        "latEnd": 37.6624496,
+        "lonEnd": -98.62036237,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12483
   },
   {
     "type": 1,
@@ -330,33 +363,52 @@
         "surfacetype": 3
       }
     ],
-    "id": 15995
+    "id": 18724
   },
   {
     "type": 1,
-    "icao": "SN48",
-    "lat": 37.78834972,
-    "lon": -98.84981751000001,
-    "communications": [],
-    "elevation": 1992,
+    "icao": "KANY",
+    "lat": 37.15844925,
+    "lon": -98.07982425,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1339,
     "tower": false,
-    "name": "Moore Field",
+    "name": "ANTHONY MUNI",
     "runways": [
       {
         "type": 100,
-        "width": 22.86,
+        "width": 21.34,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 37.79163679,
-        "lonStart": -98.85003549,
-        "latEnd": 37.78506265,
-        "lonEnd": -98.84959953,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 37.163697,
+        "lonStart": -98.079044,
+        "latEnd": 37.153814,
+        "lonEnd": -98.079086,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 37.158878,
+        "lonStart": -98.084267,
+        "latEnd": 37.157408,
+        "lonEnd": -98.0769,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 17465
+    "id": 18807
   },
   {
     "type": 1,
@@ -393,7 +445,33 @@
         "surfacetype": 1
       }
     ],
-    "id": 19535
+    "id": 19719
+  },
+  {
+    "type": 1,
+    "icao": "SN48",
+    "lat": 37.78834972,
+    "lon": -98.84981751000001,
+    "communications": [],
+    "elevation": 1992,
+    "tower": false,
+    "name": "Moore Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 37.79163679,
+        "lonStart": -98.85003549,
+        "latEnd": 37.78506265,
+        "lonEnd": -98.84959953,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 27528
   },
   {
     "type": 1,
@@ -432,84 +510,6 @@
         "surfacetype": 2
       }
     ],
-    "id": 21580
-  },
-  {
-    "type": 1,
-    "icao": "42K",
-    "lat": 37.975015,
-    "lon": -98.96565389,
-    "communications": [],
-    "elevation": 2023,
-    "tower": false,
-    "name": "Smith Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 37.9785787,
-        "lonStart": -98.96581176,
-        "latEnd": 37.9714513,
-        "lonEnd": -98.96549602,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 23742
-  },
-  {
-    "type": 1,
-    "icao": "3TA",
-    "lat": 37.95834833,
-    "lon": -98.65036194999999,
-    "communications": [],
-    "elevation": 1886,
-    "tower": false,
-    "name": "Stafford Municipal",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 37.96172014,
-        "lonStart": -98.65051129,
-        "latEnd": 37.95497652,
-        "lonEnd": -98.65021261,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 37.96028484,
-        "lonStart": -98.65257341,
-        "latEnd": 37.95641182,
-        "lonEnd": -98.64815049,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 79.25,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 37.95664075,
-        "lonStart": -98.652054,
-        "latEnd": 37.96005591,
-        "lonEnd": -98.6486699,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 24082
+    "id": 27570
   }
 ]

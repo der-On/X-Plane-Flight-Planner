@@ -1,63 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "ESSL",
-    "lat": 58.40636438999999,
-    "lon": 15.679829940000001,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11880,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12340,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 13310,
-        "name": "TWR"
-      },
-      {
-        "type": 52,
-        "frequency": 12870,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 13295,
-        "name": "Ostgota control"
-      },
-      {
-        "type": 56,
-        "frequency": 13585,
-        "name": "Ostgota control"
-      }
-    ],
-    "elevation": 171,
-    "tower": true,
-    "name": "Linkoping Saab",
-    "runways": [
-      {
-        "type": 100,
-        "width": 39.93,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 58.41006578,
-        "lonStart": 15.66257388,
-        "latEnd": 58.402663,
-        "lonEnd": 15.697086,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 15308
-  },
-  {
-    "type": 1,
     "icao": "ESCF",
     "lat": 58.40094906624999,
     "lon": 15.519928162500001,
@@ -100,7 +43,7 @@
     ],
     "elevation": 308,
     "tower": true,
-    "name": "LinkC6ping Malmen",
+    "name": "Linköping Malmen",
     "runways": [
       {
         "type": 100,
@@ -166,31 +109,166 @@
         "length": 25
       }
     ],
-    "id": 15309
+    "id": 1871
   },
   {
     "type": 17,
     "icao": "ESEL",
-    "lat": 58.400555,
-    "lon": 15.620003,
+    "lat": 58.4000008,
+    "lon": 15.61687183,
     "communications": [],
-    "elevation": 232,
+    "elevation": 233,
     "tower": false,
-    "name": "[H] Linkoping/Universitetssjukhuset",
+    "name": "[H] Linköping University Hospital",
     "runways": [
       {
         "type": 102,
-        "width": 6.4,
-        "surfaceType": 1,
+        "width": 15,
+        "surfaceType": 15,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 58.400555,
-        "lonStart": 15.620003,
+        "latStart": 58.4000008,
+        "lonStart": 15.61687183,
         "latEnd": null,
         "lonEnd": null,
-        "length": 6.4
+        "length": 15
       }
     ],
-    "id": 30907
+    "id": 1877
+  },
+  {
+    "type": 1,
+    "icao": "ESSL",
+    "lat": 58.40636438999999,
+    "lon": 15.679829940000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11880,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12340,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 13310,
+        "name": "TWR"
+      },
+      {
+        "type": 52,
+        "frequency": 12870,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 13295,
+        "name": "Ostgota control"
+      },
+      {
+        "type": 56,
+        "frequency": 13585,
+        "name": "Ostgota control"
+      }
+    ],
+    "elevation": 171,
+    "tower": true,
+    "name": "Linkoping Saab",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 58.41006578,
+        "lonStart": 15.66257388,
+        "latEnd": 58.402663,
+        "lonEnd": 15.697086,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2011
+  },
+  {
+    "type": 1,
+    "icao": "XESV2",
+    "lat": 58.73399,
+    "lon": 15.603697415,
+    "communications": [],
+    "elevation": 173,
+    "tower": false,
+    "name": "Finspång",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 58.73008084,
+        "lonStart": 15.60003261,
+        "latEnd": 58.73789916,
+        "lonEnd": 15.60736222,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5468
+  },
+  {
+    "type": 1,
+    "icao": "XESV3",
+    "lat": 58.49169555,
+    "lon": 15.102099745,
+    "communications": [],
+    "elevation": 341,
+    "tower": false,
+    "name": "Motala Skärstad",
+    "runways": [
+      {
+        "type": 100,
+        "width": 35,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 58.48823601,
+        "lonStart": 15.10155201,
+        "latEnd": 58.49515509,
+        "lonEnd": 15.10264748,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5469
+  },
+  {
+    "type": 1,
+    "icao": "XESV6",
+    "lat": 58.393871000000004,
+    "lon": 15.955536895,
+    "communications": [],
+    "elevation": 239,
+    "tower": false,
+    "name": "Ekenäs",
+    "runways": [
+      {
+        "type": 100,
+        "width": 13,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 58.39177371,
+        "lonStart": 15.95364636,
+        "latEnd": 58.39596829,
+        "lonEnd": 15.95742743,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5472
   }
 ]

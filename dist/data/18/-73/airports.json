@@ -1,42 +1,15 @@
 [
   {
     "type": 1,
-    "icao": "MTJA",
-    "lat": 18.241083500000002,
-    "lon": -72.5185,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11850,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 167,
-    "tower": true,
-    "name": "JACMEL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 28.96,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 18.2365,
-        "lonStart": -72.519,
-        "latEnd": 18.245667,
-        "lonEnd": -72.518,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 12675
-  },
-  {
-    "type": 1,
     "icao": "MTPP",
     "lat": 18.5800515,
     "lon": -72.29254,
     "communications": [
+      {
+        "type": 50,
+        "frequency": 13415,
+        "name": "ATIS"
+      },
       {
         "type": 54,
         "frequency": 11830,
@@ -66,6 +39,38 @@
         "surfacetype": 1
       }
     ],
-    "id": 24817
+    "id": 4143
+  },
+  {
+    "type": 1,
+    "icao": "MTJA",
+    "lat": 18.241083500000002,
+    "lon": -72.5185,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11850,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 167,
+    "tower": true,
+    "name": "JACMEL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 28.96,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 18.2365,
+        "lonStart": -72.519,
+        "latEnd": 18.245667,
+        "lonEnd": -72.518,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 21922
   }
 ]

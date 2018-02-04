@@ -1,6 +1,95 @@
 [
   {
     "type": 1,
+    "icao": "KLSB",
+    "lat": 32.334495478,
+    "lon": -108.69198946399999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 4289,
+    "tower": false,
+    "name": "LORDSBURG MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 32.33758708,
+        "lonStart": -108.69771065,
+        "latEnd": 32.32830477,
+        "lonEnd": -108.6848121,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 32.33082988,
+        "lonStart": -108.69333884,
+        "latEnd": 32.33906688,
+        "lonEnd": -108.68958684,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 102,
+        "width": 17.1,
+        "surfaceType": 15,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 32.33668878,
+        "lonStart": -108.69449889,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 16
+      }
+    ],
+    "id": 2910
+  },
+  {
+    "type": 1,
+    "icao": "94E",
+    "lat": 32.761951499999995,
+    "lon": -108.2083875,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 6125,
+    "tower": false,
+    "name": "WHISKEY CREEK",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 32.769344,
+        "lonStart": -108.207622,
+        "latEnd": 32.754559,
+        "lonEnd": -108.209153,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14153
+  },
+  {
+    "type": 1,
     "icao": "KSVC",
     "lat": 32.636864,
     "lon": -108.15655425000001,
@@ -73,52 +162,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 10119
-  },
-  {
-    "type": 1,
-    "icao": "KLSB",
-    "lat": 32.33386675,
-    "lon": -108.691219,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 4289,
-    "tower": false,
-    "name": "LORDSBURG MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 32.337231,
-        "lonStart": -108.697164,
-        "latEnd": 32.328333,
-        "lonEnd": -108.684786,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 32.330833,
-        "lonStart": -108.693339,
-        "latEnd": 32.33907,
-        "lonEnd": -108.689587,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 14608
+    "id": 19856
   },
   {
     "type": 1,
@@ -157,38 +201,6 @@
         "surfacetype": 4
       }
     ],
-    "id": 24917
-  },
-  {
-    "type": 1,
-    "icao": "94E",
-    "lat": 32.761951499999995,
-    "lon": -108.2083875,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 6125,
-    "tower": false,
-    "name": "WHISKEY CREEK",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 32.769344,
-        "lonStart": -108.207622,
-        "latEnd": 32.754559,
-        "lonEnd": -108.209153,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 26617
+    "id": 22859
   }
 ]

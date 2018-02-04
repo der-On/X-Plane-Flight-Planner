@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "RPUS",
+    "lat": 16.595606144999998,
+    "lon": 120.303210535,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 13,
+    "tower": true,
+    "name": "SAN FERNANDO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 16.58967421,
+        "lonStart": 120.30265227,
+        "latEnd": 16.60153808,
+        "lonEnd": 120.3037688,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 4484
+  },
+  {
+    "type": 1,
     "icao": "RPUB",
     "lat": 16.3751025,
     "lon": 120.619504,
@@ -23,7 +55,7 @@
         "surfacetype": 2
       }
     ],
-    "id": 1432
+    "id": 24572
   },
   {
     "type": 1,
@@ -49,38 +81,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 14546
-  },
-  {
-    "type": 1,
-    "icao": "RPUS",
-    "lat": 16.595588499999998,
-    "lon": 120.30322100000001,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12210,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 13,
-    "tower": true,
-    "name": "SAN FERNANDO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 16.590183,
-        "lonStart": 120.302711,
-        "latEnd": 16.600994,
-        "lonEnd": 120.303731,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 21970
+    "id": 24574
   }
 ]

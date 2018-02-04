@@ -1,43 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "TKPN",
-    "lat": 17.205676500000003,
-    "lon": -62.5898695,
-    "communications": [
-      {
-        "type": 53,
-        "frequency": 12160,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12050,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 14,
-    "tower": true,
-    "name": "Nevis/Amory Intl",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 17.205622,
-        "lonStart": -62.595603,
-        "latEnd": 17.205731,
-        "lonEnd": -62.584136,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 18241
-  },
-  {
-    "type": 1,
     "icao": "TFFJ",
     "lat": 17.904294766666666,
     "lon": -62.84361643333333,
@@ -78,39 +41,7 @@
         "length": 12.26
       }
     ],
-    "id": 24024
-  },
-  {
-    "type": 1,
-    "icao": "TNCE",
-    "lat": 17.496491499999998,
-    "lon": -62.979439,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 11810,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 129,
-    "tower": false,
-    "name": "St Eustatius/F D Roosevelt",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 17.4927,
-        "lonStart": -62.984172,
-        "latEnd": 17.500283,
-        "lonEnd": -62.974706,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 24035
+    "id": 5000
   },
   {
     "type": 1,
@@ -134,7 +65,7 @@
         "name": "APP"
       }
     ],
-    "elevation": 170,
+    "elevation": 169,
     "tower": true,
     "name": "St. Kitts/Bradshaw Intl",
     "runways": [
@@ -152,6 +83,75 @@
         "surfacetype": 1
       }
     ],
-    "id": 24068
+    "id": 5017
+  },
+  {
+    "type": 1,
+    "icao": "TKPN",
+    "lat": 17.205680715,
+    "lon": -62.58990786,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12160,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12050,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 14,
+    "tower": true,
+    "name": "Nevis/Amory Intl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 17.20562613,
+        "lonStart": -62.59565054,
+        "latEnd": 17.2057353,
+        "lonEnd": -62.58416518,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5018
+  },
+  {
+    "type": 1,
+    "icao": "TNCE",
+    "lat": 17.496516685,
+    "lon": -62.979455380000005,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 11810,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 128,
+    "tower": false,
+    "name": "St Eustatius/F D Roosevelt",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 17.49277052,
+        "lonStart": -62.98417147,
+        "latEnd": 17.50026285,
+        "lonEnd": -62.97473929,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5024
   }
 ]

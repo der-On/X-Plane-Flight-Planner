@@ -1,6 +1,61 @@
 [
   {
     "type": 1,
+    "icao": "LRCL",
+    "lat": 46.783366275,
+    "lon": 23.696090465,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13440,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12510,
+        "name": "APP"
+      },
+      {
+        "type": 50,
+        "frequency": 12552,
+        "name": "ATIS"
+      }
+    ],
+    "elevation": 1039,
+    "tower": false,
+    "name": "CLUJ NAPOCA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 46.78447362,
+        "lonStart": 23.67106071,
+        "latEnd": 46.78952426,
+        "lonEnd": 23.69353919,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 46.77882258,
+        "lonStart": 23.7041186,
+        "latEnd": 46.78064464,
+        "lonEnd": 23.71564336,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3922
+  },
+  {
+    "type": 1,
     "icao": "LRCT",
     "lat": 46.502279,
     "lon": 23.885914,
@@ -39,48 +94,6 @@
         "surfacetype": 2
       }
     ],
-    "id": 3595
-  },
-  {
-    "type": 1,
-    "icao": "LRCL",
-    "lat": 46.7873333,
-    "lon": 23.683766650000003,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13440,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12510,
-        "name": "APP"
-      },
-      {
-        "type": 50,
-        "frequency": 12552,
-        "name": "ATIS"
-      }
-    ],
-    "elevation": 1039,
-    "tower": false,
-    "name": "CLUJ NAPOCA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 46.7844722,
-        "lonStart": 23.6710722,
-        "latEnd": 46.7901944,
-        "lonEnd": 23.6964611,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 3996
+    "id": 20786
   }
 ]

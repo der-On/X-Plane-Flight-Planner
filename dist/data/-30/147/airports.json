@@ -1,38 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "YGDA",
-    "lat": -29.07325256,
-    "lon": 147.38478604,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12670,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 458,
-    "tower": false,
-    "name": "Goodooga",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": -29.07025323,
-        "lonStart": 147.38084525,
-        "latEnd": -29.07625189,
-        "lonEnd": 147.38872683,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 10603
-  },
-  {
-    "type": 1,
     "icao": "YLRD",
     "lat": -29.4527985025,
     "lon": 147.97997409250002,
@@ -46,11 +14,6 @@
         "type": 51,
         "frequency": 12670,
         "name": "CTAF"
-      },
-      {
-        "type": 52,
-        "frequency": 12710,
-        "name": "BRISBANE CENTRE MULT"
       }
     ],
     "elevation": 539,
@@ -84,6 +47,38 @@
         "surfacetype": 4
       }
     ],
-    "id": 15262
+    "id": 5593
+  },
+  {
+    "type": 1,
+    "icao": "YGDA",
+    "lat": -29.07280968,
+    "lon": 147.38480596,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12670,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 458,
+    "tower": false,
+    "name": "Goodooga",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -29.06981035,
+        "lonStart": 147.38086517,
+        "latEnd": -29.07580901,
+        "lonEnd": 147.38874675,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 33321
   }
 ]

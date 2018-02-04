@@ -2,21 +2,21 @@
   {
     "type": 1,
     "icao": "LGMK",
-    "lat": 37.43538532,
-    "lon": 25.348137795,
+    "lat": 37.435156875000004,
+    "lon": 25.34824714,
     "communications": [
       {
         "type": 54,
-        "frequency": 12210,
+        "frequency": 11875,
         "name": "TWR"
       },
       {
-        "type": 55,
-        "frequency": 12210,
-        "name": "APP"
+        "type": 50,
+        "frequency": 12885,
+        "name": "ATIS"
       }
     ],
-    "elevation": 405,
+    "elevation": 404,
     "tower": true,
     "name": "Mikonos",
     "runways": [
@@ -26,15 +26,15 @@
         "surfaceType": null,
         "numberStart": "16",
         "numberEnd": "34",
-        "latStart": 37.44368764,
-        "lonStart": 25.34446159,
-        "latEnd": 37.427083,
-        "lonEnd": 25.351814,
+        "latStart": 37.44324638,
+        "lonStart": 25.34466666,
+        "latEnd": 37.42706737,
+        "lonEnd": 25.35182762,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 17174
+    "id": 3710
   },
   {
     "type": 1,
@@ -60,32 +60,32 @@
         "surfacetype": 1
       }
     ],
-    "id": 18164
+    "id": 3712
   },
   {
     "type": 1,
     "icao": "LGPA",
-    "lat": 37.016602000000006,
-    "lon": 25.133297,
+    "lat": 37.010652175,
+    "lon": 25.128072160000002,
     "communications": [],
     "elevation": 121,
     "tower": true,
-    "name": "Paros",
+    "name": "PAROS",
     "runways": [
       {
         "type": 100,
-        "width": 24.99,
+        "width": 25,
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 37.01979483,
-        "lonStart": 25.133297,
-        "latEnd": 37.01340917,
-        "lonEnd": 25.133297,
+        "latStart": 37.01434609,
+        "lonStart": 25.12746397,
+        "latEnd": 37.00695826,
+        "lonEnd": 25.12868035,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 19803
+    "id": 3713
   }
 ]

@@ -1,6 +1,83 @@
 [
   {
     "type": 1,
+    "icao": "9D1",
+    "lat": 43.221667,
+    "lon": -99.4031945,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 2167,
+    "tower": false,
+    "name": "GREGORY MUNI FLYNN FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 43.225278,
+        "lonStart": -99.408333,
+        "latEnd": 43.218056,
+        "lonEnd": -99.398056,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10464
+  },
+  {
+    "type": 1,
+    "icao": "9V9",
+    "lat": 43.76617625,
+    "lon": -99.32134674999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1694,
+    "tower": false,
+    "name": "CHAMBERLAIN MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 43.770286,
+        "lonStart": -99.326414,
+        "latEnd": 43.761125,
+        "lonEnd": -99.316161,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 43.7713,
+        "lonStart": -99.320656,
+        "latEnd": 43.761994,
+        "lonEnd": -99.322156,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10822
+  },
+  {
+    "type": 1,
     "icao": "KSFD",
     "lat": 43.39035075,
     "lon": -99.84230550000001,
@@ -47,52 +124,32 @@
         "surfacetype": 3
       }
     ],
-    "id": 1795
+    "id": 19807
   },
   {
-    "type": 1,
-    "icao": "9V9",
-    "lat": 43.76617625,
-    "lon": -99.32134674999999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 1694,
+    "type": 17,
+    "icao": "SD09",
+    "lat": 43.78693944,
+    "lon": -99.32648834,
+    "communications": [],
+    "elevation": 1733,
     "tower": false,
-    "name": "CHAMBERLAIN MUNI",
+    "name": "[H] Mid-Dakota Hospital",
     "runways": [
       {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 43.770286,
-        "lonStart": -99.326414,
-        "latEnd": 43.761125,
-        "lonEnd": -99.316161,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 43.7713,
-        "lonStart": -99.320656,
-        "latEnd": 43.761994,
-        "lonEnd": -99.322156,
-        "length": 0,
-        "surfacetype": 3
+        "type": 102,
+        "width": 19.8,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 43.78693944,
+        "lonStart": -99.32648834,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19.8
       }
     ],
-    "id": 3792
+    "id": 25260
   },
   {
     "type": 1,
@@ -131,63 +188,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 5286
-  },
-  {
-    "type": 1,
-    "icao": "9D1",
-    "lat": 43.221667,
-    "lon": -99.4031945,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 2167,
-    "tower": false,
-    "name": "GREGORY MUNI FLYNN FLD",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 43.225278,
-        "lonStart": -99.408333,
-        "latEnd": 43.218056,
-        "lonEnd": -99.398056,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 10165
-  },
-  {
-    "type": 17,
-    "icao": "SD09",
-    "lat": 43.78693944,
-    "lon": -99.32648834,
-    "communications": [],
-    "elevation": 1733,
-    "tower": false,
-    "name": "[H] Mid-Dakota Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 19.8,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 43.78693944,
-        "lonStart": -99.32648834,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.8
-      }
-    ],
-    "id": 31342
+    "id": 25284
   }
 ]

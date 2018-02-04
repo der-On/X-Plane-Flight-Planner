@@ -1,35 +1,9 @@
 [
   {
     "type": 1,
-    "icao": "LE98",
-    "lat": 38.791230275000004,
-    "lon": -0.39868215500000004,
-    "communications": [],
-    "elevation": 1049,
-    "tower": false,
-    "name": "Alcosser de Planes",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 38.7888733,
-        "lonStart": -0.40104325,
-        "latEnd": 38.79358725,
-        "lonEnd": -0.39632106,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 828
-  },
-  {
-    "type": 1,
     "icao": "LEAL",
-    "lat": 38.28216045,
-    "lon": -0.558112635,
+    "lat": 38.28445096749999,
+    "lon": -0.56073232,
     "communications": [
       {
         "type": 54,
@@ -57,23 +31,47 @@
         "surfaceType": null,
         "numberStart": "10",
         "numberEnd": "28",
-        "latStart": 38.28451834,
-        "lonStart": -0.57499808,
-        "latEnd": 38.27980256,
-        "lonEnd": -0.54122719,
+        "latStart": 38.28464873,
+        "lonStart": -0.57592741,
+        "latEnd": 38.27971106,
+        "lonEnd": -0.54057571,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 25,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 38.28669289,
+        "lonStart": -0.56301624,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 25
+      },
+      {
+        "type": 102,
+        "width": 25,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 38.28675119,
+        "lonStart": -0.56340992,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 25
       }
     ],
-    "id": 871
+    "id": 3481
   },
   {
     "type": 1,
     "icao": "LECX",
-    "lat": 38.731215000000006,
-    "lon": -0.144315,
+    "lat": 38.73183331,
+    "lon": -0.144088035,
     "communications": [],
-    "elevation": 1950,
+    "elevation": 3019,
     "tower": false,
     "name": "Castell de Castells Cocoll",
     "runways": [
@@ -83,15 +81,93 @@
         "surfaceType": null,
         "numberStart": "01",
         "numberEnd": "19",
-        "latStart": 38.73405,
-        "lonStart": -0.1434,
-        "latEnd": 38.72838,
-        "lonEnd": -0.14523,
+        "latStart": 38.72824896,
+        "lonStart": -0.14524508,
+        "latEnd": 38.73541766,
+        "lonEnd": -0.14293099,
         "length": 0,
         "surfacetype": 4
       }
     ],
-    "id": 4632
+    "id": 3497
+  },
+  {
+    "type": 1,
+    "icao": "LE97",
+    "lat": 38.884592465,
+    "lon": -0.373880015,
+    "communications": [],
+    "elevation": 983,
+    "tower": false,
+    "name": "ULM Castello de Rugat",
+    "runways": [
+      {
+        "type": 100,
+        "width": 13.44,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 38.88445662,
+        "lonStart": -0.37512299,
+        "latEnd": 38.88472831,
+        "lonEnd": -0.37263704,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 20156
+  },
+  {
+    "type": 1,
+    "icao": "LE98",
+    "lat": 38.791230275000004,
+    "lon": -0.39868215500000004,
+    "communications": [],
+    "elevation": 1049,
+    "tower": false,
+    "name": "Alcosser de Planes",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 38.7888733,
+        "lonStart": -0.40104325,
+        "latEnd": 38.79358725,
+        "lonEnd": -0.39632106,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 20157
+  },
+  {
+    "type": 1,
+    "icao": "LE99",
+    "lat": 38.91868862,
+    "lon": -0.355625765,
+    "communications": [],
+    "elevation": 807,
+    "tower": false,
+    "name": "ULM Balica",
+    "runways": [
+      {
+        "type": 100,
+        "width": 11.03,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 38.91875903,
+        "lonStart": -0.35677674,
+        "latEnd": 38.91861821,
+        "lonEnd": -0.35447479,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20158
   },
   {
     "type": 1,
@@ -117,7 +193,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 5034
+    "id": 20162
   },
   {
     "type": 1,
@@ -143,7 +219,7 @@
         "surfacetype": 2
       }
     ],
-    "id": 12083
+    "id": 20165
   },
   {
     "type": 1,
@@ -175,58 +251,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 17763
-  },
-  {
-    "type": 1,
-    "icao": "LE99",
-    "lat": 38.91868862,
-    "lon": -0.355625765,
-    "communications": [],
-    "elevation": 807,
-    "tower": false,
-    "name": "ULM Balica",
-    "runways": [
-      {
-        "type": 100,
-        "width": 11.03,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 38.91875903,
-        "lonStart": -0.35677674,
-        "latEnd": 38.91861821,
-        "lonEnd": -0.35447479,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 25799
-  },
-  {
-    "type": 1,
-    "icao": "LE97",
-    "lat": 38.884592465,
-    "lon": -0.373880015,
-    "communications": [],
-    "elevation": 983,
-    "tower": false,
-    "name": "ULM Castello de Rugat",
-    "runways": [
-      {
-        "type": 100,
-        "width": 13.44,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 38.88445662,
-        "lonStart": -0.37512299,
-        "latEnd": 38.88472831,
-        "lonEnd": -0.37263704,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 25800
+    "id": 20173
   }
 ]

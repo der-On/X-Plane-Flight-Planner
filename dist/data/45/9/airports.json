@@ -2,28 +2,34 @@
   {
     "type": 1,
     "icao": "LILB",
-    "lat": 45.7694435,
-    "lon": 9.1611109,
-    "communications": [],
+    "lat": 45.76951955,
+    "lon": 9.16223602,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12350,
+        "name": "Alzate Radio"
+      }
+    ],
     "elevation": 1259,
-    "tower": false,
-    "name": "Alzate Brianza",
+    "tower": true,
+    "name": "Alzate Brianza - Giancarlo Maestri",
     "runways": [
       {
         "type": 100,
-        "width": 14.94,
+        "width": 15,
         "surfaceType": null,
         "numberStart": "03",
         "numberEnd": "21",
-        "latStart": 45.77168115,
-        "lonStart": 9.16327464,
-        "latEnd": 45.76720585,
-        "lonEnd": 9.15894716,
+        "latStart": 45.76705239,
+        "lonStart": 9.16066432,
+        "latEnd": 45.77198671,
+        "lonEnd": 9.16380772,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 949
+    "id": 3770
   },
   {
     "type": 1,
@@ -37,7 +43,7 @@
         "name": "BRESSO RADIO"
       }
     ],
-    "elevation": 483,
+    "elevation": 482,
     "tower": true,
     "name": "Bresso",
     "runways": [
@@ -67,7 +73,120 @@
         "length": 25.8
       }
     ],
-    "id": 3168
+    "id": 3780
+  },
+  {
+    "type": 1,
+    "icao": "LIME",
+    "lat": 45.673588173750005,
+    "lon": 9.7036643725,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12050,
+        "name": "ORIO GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12587,
+        "name": "ORIO TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12630,
+        "name": "MILAN APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12675,
+        "name": "MILAN APP"
+      },
+      {
+        "type": 50,
+        "frequency": 11495,
+        "name": "BERGAMO ATIS"
+      }
+    ],
+    "elevation": 773,
+    "tower": true,
+    "name": "Bergamo Orio Al Serio - Il Caravaggio",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.99,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 45.67819564,
+        "lonStart": 9.7015395,
+        "latEnd": 45.67439152,
+        "lonEnd": 9.71042694,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 45.67112712,
+        "lonStart": 9.68912658,
+        "latEnd": 45.66426156,
+        "lonEnd": 9.72615096,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 16.6,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 45.67484968,
+        "lonStart": 9.6992316,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.8
+      },
+      {
+        "type": 102,
+        "width": 15.7,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 45.67527481,
+        "lonStart": 9.6999589,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.7
+      },
+      {
+        "type": 102,
+        "width": 14.7,
+        "surfaceType": 1,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 45.67570108,
+        "lonStart": 9.70069356,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.1
+      },
+      {
+        "type": 102,
+        "width": 22.3,
+        "surfaceType": 1,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 45.67490398,
+        "lonStart": 9.70218694,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 22.7
+      }
+    ],
+    "id": 3782
   },
   {
     "type": 1,
@@ -144,127 +263,7 @@
         "length": 37.9
       }
     ],
-    "id": 17178
-  },
-  {
-    "type": 1,
-    "icao": "LIME",
-    "lat": 45.673390940000004,
-    "lon": 9.703087954444443,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12050,
-        "name": "ORIO TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12650,
-        "name": "ORIO TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 13269,
-        "name": "MILAN APP"
-      },
-      {
-        "type": 56,
-        "frequency": 12675,
-        "name": "MILAN DEP"
-      }
-    ],
-    "elevation": 776,
-    "tower": true,
-    "name": "Orio Al Serio",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.99,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 45.67819603,
-        "lonStart": 9.70155589,
-        "latEnd": 45.67425594,
-        "lonEnd": 9.71077024,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 45.67110065,
-        "lonStart": 9.68924979,
-        "latEnd": 45.66433065,
-        "lonEnd": 9.72570379,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 45.67462872,
-        "lonStart": 9.69774664,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      },
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 1,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 45.67529172,
-        "lonStart": 9.69853564,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      },
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 1,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 45.67586772,
-        "lonStart": 9.69929364,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      },
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 1,
-        "numberStart": "H4",
-        "numberEnd": null,
-        "latStart": 45.67435272,
-        "lonStart": 9.70041564,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      },
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 1,
-        "numberStart": "H5",
-        "numberEnd": null,
-        "latStart": 45.67249431,
-        "lonStart": 9.70452032,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 19023
+    "id": 3786
   },
   {
     "type": 1,
@@ -290,6 +289,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 26156
+    "id": 20549
   }
 ]

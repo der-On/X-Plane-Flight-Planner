@@ -42,7 +42,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 5903
+    "id": 30965
   },
   {
     "type": 1,
@@ -68,7 +68,87 @@
         "surfacetype": 2
       }
     ],
-    "id": 10961
+    "id": 30967
+  },
+  {
+    "type": 1,
+    "icao": "VOHS",
+    "lat": 17.2298957725,
+    "lon": 78.43281293999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11845,
+        "name": "Shamshabad TWR"
+      },
+      {
+        "type": 52,
+        "frequency": 12163,
+        "name": "Shamshabad CLR"
+      },
+      {
+        "type": 50,
+        "frequency": 12647,
+        "name": "Shamshabad ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12185,
+        "name": "Shamshabad GND"
+      },
+      {
+        "type": 56,
+        "frequency": 12095,
+        "name": "Hyderabad Control"
+      },
+      {
+        "type": 56,
+        "frequency": 12835,
+        "name": "Hyderabad Control"
+      },
+      {
+        "type": 55,
+        "frequency": 12555,
+        "name": "Hyderabad APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12025,
+        "name": "Hyderabad APP"
+      }
+    ],
+    "elevation": 2023,
+    "tower": true,
+    "name": "Rajiv Gandhi International Airport",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "09L",
+        "numberEnd": "27R",
+        "latStart": 17.23065569,
+        "lonStart": 78.41211747,
+        "latEnd": 17.23119382,
+        "lonEnd": 78.45345257,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "09R",
+        "numberEnd": "27L",
+        "latStart": 17.22858978,
+        "lonStart": 78.41279889,
+        "latEnd": 17.2291438,
+        "lonEnd": 78.45288283,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 30968
   },
   {
     "type": 1,
@@ -110,6 +190,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 11264
+    "id": 30969
   }
 ]

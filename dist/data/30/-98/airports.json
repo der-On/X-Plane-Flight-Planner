@@ -1,6 +1,130 @@
 [
   {
     "type": 1,
+    "icao": "3R9",
+    "lat": 30.357492999999998,
+    "lon": -97.99446850000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11900,
+        "name": "AUSTIN APP/DEP"
+      }
+    ],
+    "elevation": 909,
+    "tower": false,
+    "name": "Lakeway Airpark",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.03,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 30.362794,
+        "lonStart": -97.995681,
+        "latEnd": 30.352192,
+        "lonEnd": -97.993256,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 129
+  },
+  {
+    "type": 17,
+    "icao": "4TS9",
+    "lat": 30.32323155,
+    "lon": -97.86719121,
+    "communications": [],
+    "elevation": 815,
+    "tower": false,
+    "name": "[H] Ossiport",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 30.32323155,
+        "lonStart": -97.86719121,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 165
+  },
+  {
+    "type": 17,
+    "icao": "6TS7",
+    "lat": 30.23275784,
+    "lon": -97.91475362,
+    "communications": [],
+    "elevation": 1049,
+    "tower": false,
+    "name": "[H] Johnny Voudouris",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.73,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 30.23275784,
+        "lonStart": -97.91475362,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 37.49
+      }
+    ],
+    "id": 232
+  },
+  {
+    "type": 17,
+    "icao": "18TS",
+    "lat": 30.27378944,
+    "lon": -97.73466808,
+    "communications": [],
+    "elevation": 519,
+    "tower": false,
+    "name": "[H] Brackenridge Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 11.6,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 30.27377625,
+        "lonStart": -97.73475702,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      },
+      {
+        "type": 102,
+        "width": 11.9,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 30.27380263,
+        "lonStart": -97.73457914,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 346
+  },
+  {
+    "type": 1,
     "icao": "KAUS",
     "lat": 30.191612195,
     "lon": -97.66584021166666,
@@ -96,88 +220,172 @@
         "length": 11.9
       }
     ],
-    "id": 1343
+    "id": 2377
   },
   {
     "type": 1,
-    "icao": "KEDC",
-    "lat": 30.3965573025,
-    "lon": -97.566428385,
+    "icao": "T74",
+    "lat": 30.57262479,
+    "lon": -97.44321252,
     "communications": [
       {
-        "type": 50,
-        "frequency": 11825,
-        "name": "AWOS"
-      },
-      {
         "type": 51,
-        "frequency": 12297,
-        "name": "CTAF"
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
       },
       {
         "type": 55,
-        "frequency": 12722,
-        "name": "AUSTIN APCH"
+        "frequency": 11880,
+        "name": "AUSTIN APP/DEP"
       }
     ],
-    "elevation": 761,
+    "elevation": 600,
     "tower": false,
-    "name": "Austin Executive Airpark",
+    "name": "Taylor Municipal",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 22.86,
         "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 30.40352767,
-        "lonStart": -97.57346408,
-        "latEnd": 30.39268956,
-        "lonEnd": -97.55900915,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 7.62,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 30.39706113,
-        "lonStart": -97.56725857,
-        "latEnd": 30.39295085,
-        "lonEnd": -97.56598174,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 30.57812229,
+        "lonStart": -97.44336102,
+        "latEnd": 30.56712729,
+        "lonEnd": -97.44306402,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 1344
+    "id": 4988
+  },
+  {
+    "type": 17,
+    "icao": "TE14",
+    "lat": 30.40264385,
+    "lon": -97.96135524,
+    "communications": [],
+    "elevation": 750,
+    "tower": false,
+    "name": "[H] Winns",
+    "runways": [
+      {
+        "type": 102,
+        "width": 10.4,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 30.40264385,
+        "lonStart": -97.96135524,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.4
+      }
+    ],
+    "id": 4996
+  },
+  {
+    "type": 17,
+    "icao": "TX26",
+    "lat": 30.32337427,
+    "lon": -97.76037592,
+    "communications": [],
+    "elevation": 667,
+    "tower": false,
+    "name": "[H] Camp Mabry AHP NG",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 5,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 30.32337427,
+        "lonStart": -97.76037592,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 5035
   },
   {
     "type": 1,
-    "icao": "TX61",
-    "lat": 30.33020833,
-    "lon": -97.45888695,
+    "icao": "0TS9",
+    "lat": 30.01549472,
+    "lon": -97.73722417,
     "communications": [],
-    "elevation": 459,
+    "elevation": 600,
     "tower": false,
-    "name": "Bakers Place",
+    "name": "Jim Roach Field",
     "runways": [
       {
         "type": 100,
-        "width": 18.29,
+        "width": 21.34,
         "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 30.33342761,
-        "lonStart": -97.46047015,
-        "latEnd": 30.32698905,
-        "lonEnd": -97.45730375,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 30.01431617,
+        "lonStart": -97.73868375,
+        "latEnd": 30.01667327,
+        "lonEnd": -97.73576459,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 2106
+    "id": 6187
+  },
+  {
+    "type": 1,
+    "icao": "1TX4",
+    "lat": 30.42863888,
+    "lon": -97.97052778,
+    "communications": [],
+    "elevation": 900,
+    "tower": false,
+    "name": "Shoreline Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 30.43164588,
+        "lonStart": -97.97208045,
+        "latEnd": 30.42563188,
+        "lonEnd": -97.96897511,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6782
+  },
+  {
+    "type": 1,
+    "icao": "1XS2",
+    "lat": 30.38076222,
+    "lon": -97.42749751,
+    "communications": [],
+    "elevation": 532,
+    "tower": false,
+    "name": "Skye Dance",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 30.38362088,
+        "lonStart": -97.42709064,
+        "latEnd": 30.37790356,
+        "lonEnd": -97.42790438,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6838
   },
   {
     "type": 1,
@@ -203,33 +411,122 @@
         "surfacetype": 3
       }
     ],
-    "id": 2300
+    "id": 6840
   },
   {
     "type": 1,
-    "icao": "40XS",
-    "lat": 30.51797555,
-    "lon": -97.78056556,
+    "icao": "02XS",
+    "lat": 30.14771305,
+    "lon": -97.66277917,
     "communications": [],
-    "elevation": 896,
+    "elevation": 510,
     "tower": false,
-    "name": "Breakaway Park",
+    "name": "Seidel Ranch",
     "runways": [
       {
         "type": 100,
-        "width": 30.48,
+        "width": 12.19,
         "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 30.52176294,
-        "lonStart": -97.78243173,
-        "latEnd": 30.51418816,
-        "lonEnd": -97.77869939,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 30.14588004,
+        "lonStart": -97.66385923,
+        "latEnd": 30.14954606,
+        "lonEnd": -97.66169911,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 30.14853494,
+        "lonStart": -97.66464454,
+        "latEnd": 30.14689116,
+        "lonEnd": -97.6609138,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 3137
+    "id": 7396
+  },
+  {
+    "type": 17,
+    "icao": "04TA",
+    "lat": 30.27104166,
+    "lon": -97.7447275,
+    "communications": [],
+    "elevation": 540,
+    "tower": false,
+    "name": "[H] Capitol National Bank Building",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 30.27104166,
+        "lonStart": -97.7447275,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 8365
+  },
+  {
+    "type": 17,
+    "icao": "04TS",
+    "lat": 30.55353166,
+    "lon": -97.60611639,
+    "communications": [],
+    "elevation": 688,
+    "tower": false,
+    "name": "[H] Hummingbird",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 30.55353166,
+        "lonStart": -97.60611639,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 8388
+  },
+  {
+    "type": 1,
+    "icao": "05T",
+    "lat": 30.72213333,
+    "lon": -97.79140251,
+    "communications": [],
+    "elevation": 950,
+    "tower": false,
+    "name": "Hilde-Griff Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 30.72402703,
+        "lonStart": -97.79233757,
+        "latEnd": 30.72023963,
+        "lonEnd": -97.79046745,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 8883
   },
   {
     "type": 1,
@@ -255,33 +552,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 4778
+    "id": 8917
   },
   {
     "type": 1,
-    "icao": "TA75",
-    "lat": 30.387153050000002,
-    "lon": -97.1049875,
+    "icao": "06TA",
+    "lat": 30.90852027,
+    "lon": -97.11693639,
     "communications": [],
-    "elevation": 430,
+    "elevation": 480,
     "tower": false,
-    "name": "Cotton Patch",
+    "name": "Glaser Field",
     "runways": [
       {
         "type": 100,
-        "width": 39.62,
+        "width": 4.57,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 30.39030315,
-        "lonStart": -97.10517888,
-        "latEnd": 30.38400295,
-        "lonEnd": -97.10479612,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 30.91110668,
+        "lonStart": -97.11656626,
+        "latEnd": 30.90593386,
+        "lonEnd": -97.11730652,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 5
       }
     ],
-    "id": 5381
+    "id": 9389
   },
   {
     "type": 1,
@@ -307,33 +604,239 @@
         "surfacetype": 3
       }
     ],
-    "id": 5527
+    "id": 9897
   },
   {
     "type": 1,
-    "icao": "TA55",
-    "lat": 30.16771305,
-    "lon": -97.59277778,
+    "icao": "8XS3",
+    "lat": 30.56686166,
+    "lon": -97.82945667,
     "communications": [],
-    "elevation": 460,
+    "elevation": 964,
     "tower": false,
-    "name": "Del Valle",
+    "name": "Pegasus Place Airstrip",
     "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 30.57027031,
+        "lonStart": -97.83113707,
+        "latEnd": 30.56345301,
+        "lonEnd": -97.82777627,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10417
+  },
+  {
+    "type": 1,
+    "icao": "14XS",
+    "lat": 30.808523049999998,
+    "lon": -97.27388583999999,
+    "communications": [],
+    "elevation": 430,
+    "tower": false,
+    "name": "Isbell Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 30.80616224,
+        "lonStart": -97.2747262,
+        "latEnd": 30.81088386,
+        "lonEnd": -97.27304548,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11087
+  },
+  {
+    "type": 1,
+    "icao": "30TA",
+    "lat": 30.59186194,
+    "lon": -97.72250945,
+    "communications": [],
+    "elevation": 812,
+    "tower": false,
+    "name": "Tri-Modal Air Park",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 30.59667655,
+        "lonStart": -97.72772509,
+        "latEnd": 30.58704733,
+        "lonEnd": -97.71729381,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 11722
+  },
+  {
+    "type": 1,
+    "icao": "31TA",
+    "lat": 30.72935916,
+    "lon": -97.42527945,
+    "communications": [],
+    "elevation": 580,
+    "tower": false,
+    "name": "Vitek Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 30.73167331,
+        "lonStart": -97.42494889,
+        "latEnd": 30.72704501,
+        "lonEnd": -97.42561001,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11760
+  },
+  {
+    "type": 17,
+    "icao": "32TS",
+    "lat": 30.30437361,
+    "lon": -97.74583917,
+    "communications": [],
+    "elevation": 582,
+    "tower": false,
+    "name": "[H] Seton Medical Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 30.30437361,
+        "lonStart": -97.74583917,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 11799
+  },
+  {
+    "type": 17,
+    "icao": "36TS",
+    "lat": 30.71880027,
+    "lon": -97.77334639,
+    "communications": [],
+    "elevation": 918,
+    "tower": false,
+    "name": "[H] 4BH",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 30.71880027,
+        "lonStart": -97.77334639,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 11957
+  },
+  {
+    "type": 1,
+    "icao": "40R",
+    "lat": 30.789076659999996,
+    "lon": -97.65501056,
+    "communications": [],
+    "elevation": 841,
+    "tower": false,
+    "name": "Sybert Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 30.78959794,
+        "lonStart": -97.65699533,
+        "latEnd": 30.78855538,
+        "lonEnd": -97.65302579,
+        "length": 0,
+        "surfacetype": 3
+      },
       {
         "type": 100,
         "width": 30.48,
         "surfaceType": null,
         "numberStart": "02",
         "numberEnd": "20",
-        "latStart": 30.16502464,
-        "lonStart": -97.59436219,
-        "latEnd": 30.17040146,
-        "lonEnd": -97.59119337,
+        "latStart": 30.78761025,
+        "lonStart": -97.65588032,
+        "latEnd": 30.79054307,
+        "lonEnd": -97.6541408,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 30.78832969,
+        "lonStart": -97.6563495,
+        "latEnd": 30.78982363,
+        "lonEnd": -97.65367162,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 6157
+    "id": 12112
+  },
+  {
+    "type": 1,
+    "icao": "40XS",
+    "lat": 30.51797555,
+    "lon": -97.78056556,
+    "communications": [],
+    "elevation": 896,
+    "tower": false,
+    "name": "Breakaway Park",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 30.52176294,
+        "lonStart": -97.78243173,
+        "latEnd": 30.51418816,
+        "lonEnd": -97.77869939,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12121
   },
   {
     "type": 1,
@@ -397,33 +900,33 @@
         "length": 22.86
       }
     ],
-    "id": 7085
+    "id": 12740
   },
   {
     "type": 1,
-    "icao": "TX23",
-    "lat": 30.856293049999998,
-    "lon": -97.94585306,
+    "icao": "62TA",
+    "lat": 30.31833333,
+    "lon": -97.30222223000001,
     "communications": [],
-    "elevation": 1150,
+    "elevation": 520,
     "tower": false,
-    "name": "FLF",
+    "name": "Hawken Air One",
     "runways": [
       {
         "type": 100,
-        "width": 91.44,
+        "width": 15.24,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 30.86230658,
-        "lonStart": -97.9474703,
-        "latEnd": 30.85027952,
-        "lonEnd": -97.94423582,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 30.31643922,
+        "lonStart": -97.30334023,
+        "latEnd": 30.32022744,
+        "lonEnd": -97.30110423,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 4
       }
     ],
-    "id": 7578
+    "id": 12971
   },
   {
     "type": 1,
@@ -449,33 +952,224 @@
         "surfacetype": 3
       }
     ],
-    "id": 9323
+    "id": 13168
   },
   {
     "type": 1,
-    "icao": "TA27",
-    "lat": 30.83796027,
-    "lon": -97.95029751,
+    "icao": "68T",
+    "lat": 30.99878944,
+    "lon": -97.75585056,
     "communications": [],
-    "elevation": 1132,
+    "elevation": 890,
     "tower": false,
-    "name": "Flying K",
+    "name": "White",
     "runways": [
       {
         "type": 100,
         "width": 30.48,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 30.84103385,
-        "lonStart": -97.95112394,
-        "latEnd": 30.83488669,
-        "lonEnd": -97.94947108,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 31.00002752,
+        "lonStart": -97.75776729,
+        "latEnd": 30.99755136,
+        "lonEnd": -97.75393383,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 9468
+    "id": 13213
+  },
+  {
+    "type": 1,
+    "icao": "73R",
+    "lat": 30.92073972,
+    "lon": -97.53973112,
+    "communications": [],
+    "elevation": 670,
+    "tower": false,
+    "name": "Salado",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 30.91655584,
+        "lonStart": -97.54122217,
+        "latEnd": 30.9249236,
+        "lonEnd": -97.53824007,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13410
+  },
+  {
+    "type": 1,
+    "icao": "77T",
+    "lat": 30.602138049999997,
+    "lon": -97.81890139,
+    "communications": [],
+    "elevation": 1020,
+    "tower": false,
+    "name": "Kittie Hill",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 30.60107366,
+        "lonStart": -97.82425778,
+        "latEnd": 30.60320244,
+        "lonEnd": -97.813545,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 30.60453166,
+        "lonStart": -97.82259181,
+        "latEnd": 30.59974444,
+        "lonEnd": -97.81521097,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 30.60535664,
+        "lonStart": -97.81909736,
+        "latEnd": 30.59891946,
+        "lonEnd": -97.81870542,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13576
+  },
+  {
+    "type": 1,
+    "icao": "84R",
+    "lat": 30.0304805,
+    "lon": -97.16687200000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 323,
+    "tower": false,
+    "name": "SMITHVILLE CRAWFORD MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 30.03595,
+        "lonStart": -97.167533,
+        "latEnd": 30.025011,
+        "lonEnd": -97.166211,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 13837
+  },
+  {
+    "type": 1,
+    "icao": "85TX",
+    "lat": 30.077711,
+    "lon": -97.965564,
+    "communications": [],
+    "elevation": 983,
+    "tower": false,
+    "name": "RUTHERFORD RANCH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 30.082936,
+        "lonStart": -97.965564,
+        "latEnd": 30.072486,
+        "lonEnd": -97.965564,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 13880
+  },
+  {
+    "type": 1,
+    "icao": "KEDC",
+    "lat": 30.3965573025,
+    "lon": -97.566428385,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11825,
+        "name": "AWOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12297,
+        "name": "CTAF"
+      },
+      {
+        "type": 55,
+        "frequency": 12722,
+        "name": "AUSTIN APCH"
+      }
+    ],
+    "elevation": 761,
+    "tower": false,
+    "name": "Austin Executive Airpark",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 30.40352767,
+        "lonStart": -97.57346408,
+        "latEnd": 30.39268956,
+        "lonEnd": -97.55900915,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 7.62,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 30.39706113,
+        "lonStart": -97.56725857,
+        "latEnd": 30.39295085,
+        "lonEnd": -97.56598174,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19070
   },
   {
     "type": 1,
@@ -535,219 +1229,11 @@
         "surfacetype": 1
       }
     ],
-    "id": 10418
+    "id": 19231
   },
   {
     "type": 1,
-    "icao": "06TA",
-    "lat": 30.90852027,
-    "lon": -97.11693639,
-    "communications": [],
-    "elevation": 480,
-    "tower": false,
-    "name": "Glaser Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 4.57,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 30.91110668,
-        "lonStart": -97.11656626,
-        "latEnd": 30.90593386,
-        "lonEnd": -97.11730652,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 10513
-  },
-  {
-    "type": 1,
-    "icao": "TX92",
-    "lat": 30.59602888,
-    "lon": -97.66945251,
-    "communications": [],
-    "elevation": 850,
-    "tower": false,
-    "name": "Green",
-    "runways": [
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 30.59434524,
-        "lonStart": -97.67155001,
-        "latEnd": 30.59771252,
-        "lonEnd": -97.66735501,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 10748
-  },
-  {
-    "type": 1,
-    "icao": "62TA",
-    "lat": 30.31833333,
-    "lon": -97.30222223000001,
-    "communications": [],
-    "elevation": 520,
-    "tower": false,
-    "name": "Hawken Air One",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 30.31643922,
-        "lonStart": -97.30334023,
-        "latEnd": 30.32022744,
-        "lonEnd": -97.30110423,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 11563
-  },
-  {
-    "type": 1,
-    "icao": "05T",
-    "lat": 30.72213333,
-    "lon": -97.79140251,
-    "communications": [],
-    "elevation": 950,
-    "tower": false,
-    "name": "Hilde-Griff Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 30.72402703,
-        "lonStart": -97.79233757,
-        "latEnd": 30.72023963,
-        "lonEnd": -97.79046745,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11828
-  },
-  {
-    "type": 1,
-    "icao": "14XS",
-    "lat": 30.808523049999998,
-    "lon": -97.27388583999999,
-    "communications": [],
-    "elevation": 430,
-    "tower": false,
-    "name": "Isbell Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 30.80616224,
-        "lonStart": -97.2747262,
-        "latEnd": 30.81088386,
-        "lonEnd": -97.27304548,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 12562
-  },
-  {
-    "type": 1,
-    "icao": "0TS9",
-    "lat": 30.01549472,
-    "lon": -97.73722417,
-    "communications": [],
-    "elevation": 600,
-    "tower": false,
-    "name": "Jim Roach Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 30.01431617,
-        "lonStart": -97.73868375,
-        "latEnd": 30.01667327,
-        "lonEnd": -97.73576459,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 12992
-  },
-  {
-    "type": 1,
-    "icao": "77T",
-    "lat": 30.602138049999997,
-    "lon": -97.81890139,
-    "communications": [],
-    "elevation": 1020,
-    "tower": false,
-    "name": "Kittie Hill",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 30.60107366,
-        "lonStart": -97.82425778,
-        "latEnd": 30.60320244,
-        "lonEnd": -97.813545,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 30.60453166,
-        "lonStart": -97.82259181,
-        "latEnd": 30.59974444,
-        "lonEnd": -97.81521097,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 30.60535664,
-        "lonStart": -97.81909736,
-        "latEnd": 30.59891946,
-        "lonEnd": -97.81870542,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 13949
-  },
-  {
-    "type": 1,
-    "icao": "5R3",
+    "icao": "KRYW",
     "lat": 30.4985875,
     "lon": -97.969461,
     "communications": [
@@ -780,44 +1266,85 @@
         "surfacetype": 1
       }
     ],
-    "id": 14313
+    "id": 19782
   },
   {
     "type": 1,
-    "icao": "3R9",
-    "lat": 30.357492999999998,
-    "lon": -97.99446850000001,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12300,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 11900,
-        "name": "AUSTIN APP/DEP"
-      }
-    ],
-    "elevation": 909,
+    "icao": "TA27",
+    "lat": 30.83796027,
+    "lon": -97.95029751,
+    "communications": [],
+    "elevation": 1132,
     "tower": false,
-    "name": "LAKEWAY AIRPARK",
+    "name": "Flying K",
     "runways": [
       {
         "type": 100,
-        "width": 21.03,
+        "width": 30.48,
         "surfaceType": null,
         "numberStart": "16",
         "numberEnd": "34",
-        "latStart": 30.362794,
-        "lonStart": -97.995681,
-        "latEnd": 30.352192,
-        "lonEnd": -97.993256,
+        "latStart": 30.84103385,
+        "lonStart": -97.95112394,
+        "latEnd": 30.83488669,
+        "lonEnd": -97.94947108,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 14354
+    "id": 29752
+  },
+  {
+    "type": 1,
+    "icao": "TA55",
+    "lat": 30.16771305,
+    "lon": -97.59277778,
+    "communications": [],
+    "elevation": 460,
+    "tower": false,
+    "name": "Del Valle",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 30.16502464,
+        "lonStart": -97.59436219,
+        "latEnd": 30.17040146,
+        "lonEnd": -97.59119337,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 29777
+  },
+  {
+    "type": 1,
+    "icao": "TA75",
+    "lat": 30.387153050000002,
+    "lon": -97.1049875,
+    "communications": [],
+    "elevation": 430,
+    "tower": false,
+    "name": "Cotton Patch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.62,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 30.39030315,
+        "lonStart": -97.10517888,
+        "latEnd": 30.38400295,
+        "lonEnd": -97.10479612,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 29795
   },
   {
     "type": 1,
@@ -843,375 +1370,59 @@
         "surfacetype": 5
       }
     ],
-    "id": 14910
+    "id": 29982
   },
   {
     "type": 1,
-    "icao": "8XS3",
-    "lat": 30.56686166,
-    "lon": -97.82945667,
+    "icao": "TX23",
+    "lat": 30.856293049999998,
+    "lon": -97.94585306,
     "communications": [],
-    "elevation": 964,
+    "elevation": 1150,
     "tower": false,
-    "name": "Pegasus Place Airstrip",
+    "name": "FLF",
     "runways": [
       {
         "type": 100,
-        "width": 22.86,
+        "width": 91.44,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 30.86230658,
+        "lonStart": -97.9474703,
+        "latEnd": 30.85027952,
+        "lonEnd": -97.94423582,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 30101
+  },
+  {
+    "type": 1,
+    "icao": "TX61",
+    "lat": 30.33020833,
+    "lon": -97.45888695,
+    "communications": [],
+    "elevation": 459,
+    "tower": false,
+    "name": "Bakers Place",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
         "surfaceType": null,
         "numberStart": "15",
         "numberEnd": "33",
-        "latStart": 30.57027031,
-        "lonStart": -97.83113707,
-        "latEnd": 30.56345301,
-        "lonEnd": -97.82777627,
+        "latStart": 30.33342761,
+        "lonStart": -97.46047015,
+        "latEnd": 30.32698905,
+        "lonEnd": -97.45730375,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 19929
-  },
-  {
-    "type": 1,
-    "icao": "85TX",
-    "lat": 30.077711,
-    "lon": -97.965564,
-    "communications": [],
-    "elevation": 983,
-    "tower": false,
-    "name": "RUTHERFORD RANCH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 30.082936,
-        "lonStart": -97.965564,
-        "latEnd": 30.072486,
-        "lonEnd": -97.965564,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 21093
-  },
-  {
-    "type": 1,
-    "icao": "84R",
-    "lat": 30.0304805,
-    "lon": -97.16687200000001,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 323,
-    "tower": false,
-    "name": "SMITHVILLE CRAWFORD MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 30.03595,
-        "lonStart": -97.167533,
-        "latEnd": 30.025011,
-        "lonEnd": -97.166211,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22351
-  },
-  {
-    "type": 1,
-    "icao": "73R",
-    "lat": 30.92073972,
-    "lon": -97.53973112,
-    "communications": [],
-    "elevation": 670,
-    "tower": false,
-    "name": "Salado",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 30.91655584,
-        "lonStart": -97.54122217,
-        "latEnd": 30.9249236,
-        "lonEnd": -97.53824007,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 22729
-  },
-  {
-    "type": 1,
-    "icao": "02XS",
-    "lat": 30.14771305,
-    "lon": -97.66277917,
-    "communications": [],
-    "elevation": 510,
-    "tower": false,
-    "name": "Seidel Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 30.14588004,
-        "lonStart": -97.66385923,
-        "latEnd": 30.14954606,
-        "lonEnd": -97.66169911,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 30.14853494,
-        "lonStart": -97.66464454,
-        "latEnd": 30.14689116,
-        "lonEnd": -97.6609138,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23221
-  },
-  {
-    "type": 1,
-    "icao": "1TX4",
-    "lat": 30.42863888,
-    "lon": -97.97052778,
-    "communications": [],
-    "elevation": 900,
-    "tower": false,
-    "name": "Shoreline Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 30.43164588,
-        "lonStart": -97.97208045,
-        "latEnd": 30.42563188,
-        "lonEnd": -97.96897511,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23448
-  },
-  {
-    "type": 1,
-    "icao": "1XS2",
-    "lat": 30.38076222,
-    "lon": -97.42749751,
-    "communications": [],
-    "elevation": 532,
-    "tower": false,
-    "name": "Skye Dance",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 30.38362088,
-        "lonStart": -97.42709064,
-        "latEnd": 30.37790356,
-        "lonEnd": -97.42790438,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23661
-  },
-  {
-    "type": 1,
-    "icao": "40R",
-    "lat": 30.789076659999996,
-    "lon": -97.65501056,
-    "communications": [],
-    "elevation": 841,
-    "tower": false,
-    "name": "Sybert Farm",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 30.78959794,
-        "lonStart": -97.65699533,
-        "latEnd": 30.78855538,
-        "lonEnd": -97.65302579,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 30.78761025,
-        "lonStart": -97.65588032,
-        "latEnd": 30.79054307,
-        "lonEnd": -97.6541408,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 30.78832969,
-        "lonStart": -97.6563495,
-        "latEnd": 30.78982363,
-        "lonEnd": -97.65367162,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 24494
-  },
-  {
-    "type": 1,
-    "icao": "T74",
-    "lat": 30.5726305,
-    "lon": -97.44317649999999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 11880,
-        "name": "AUSTIN APP/DEP"
-      }
-    ],
-    "elevation": 600,
-    "tower": false,
-    "name": "TAYLOR MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 30.578128,
-        "lonStart": -97.443325,
-        "latEnd": 30.567133,
-        "lonEnd": -97.443028,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 24619
-  },
-  {
-    "type": 1,
-    "icao": "30TA",
-    "lat": 30.59186194,
-    "lon": -97.72250945,
-    "communications": [],
-    "elevation": 812,
-    "tower": false,
-    "name": "Tri-Modal Air Park",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 30.59667655,
-        "lonStart": -97.72772509,
-        "latEnd": 30.58704733,
-        "lonEnd": -97.71729381,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 25581
-  },
-  {
-    "type": 1,
-    "icao": "31TA",
-    "lat": 30.72935916,
-    "lon": -97.42527945,
-    "communications": [],
-    "elevation": 580,
-    "tower": false,
-    "name": "Vitek Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 30.73167331,
-        "lonStart": -97.42494889,
-        "latEnd": 30.72704501,
-        "lonEnd": -97.42561001,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 26377
-  },
-  {
-    "type": 1,
-    "icao": "68T",
-    "lat": 30.99878944,
-    "lon": -97.75585056,
-    "communications": [],
-    "elevation": 890,
-    "tower": false,
-    "name": "White",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 31.00002752,
-        "lonStart": -97.75776729,
-        "latEnd": 30.99755136,
-        "lonEnd": -97.75393383,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 27204
+    "id": 30136
   },
   {
     "type": 1,
@@ -1250,157 +1461,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 27534
+    "id": 30145
   },
   {
-    "type": 17,
-    "icao": "36TS",
-    "lat": 30.71880027,
-    "lon": -97.77334639,
+    "type": 1,
+    "icao": "TX92",
+    "lat": 30.59602888,
+    "lon": -97.66945251,
     "communications": [],
-    "elevation": 918,
+    "elevation": 850,
     "tower": false,
-    "name": "[H] 4BH",
+    "name": "Green",
     "runways": [
       {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 30.71880027,
-        "lonStart": -97.77334639,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 30.59434524,
+        "lonStart": -97.67155001,
+        "latEnd": 30.59771252,
+        "lonEnd": -97.66735501,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 27946
-  },
-  {
-    "type": 17,
-    "icao": "18TS",
-    "lat": 30.27381944,
-    "lon": -97.73417167,
-    "communications": [],
-    "elevation": 519,
-    "tower": false,
-    "name": "[H] Brackenridge Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 16.8,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 30.27381944,
-        "lonStart": -97.73417167,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 16.8
-      }
-    ],
-    "id": 28551
-  },
-  {
-    "type": 17,
-    "icao": "TX26",
-    "lat": 30.31687277,
-    "lon": -97.76695084,
-    "communications": [],
-    "elevation": 668,
-    "tower": false,
-    "name": "[H] Camp Mabry AHP NG",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 4,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 30.31687277,
-        "lonStart": -97.76695084,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 28736
-  },
-  {
-    "type": 17,
-    "icao": "04TA",
-    "lat": 30.27104166,
-    "lon": -97.7447275,
-    "communications": [],
-    "elevation": 540,
-    "tower": false,
-    "name": "[H] Capitol National Bank Building",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 30.27104166,
-        "lonStart": -97.7447275,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 28768
-  },
-  {
-    "type": 17,
-    "icao": "04TS",
-    "lat": 30.55353166,
-    "lon": -97.60611639,
-    "communications": [],
-    "elevation": 688,
-    "tower": false,
-    "name": "[H] Hummingbird",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 30.55353166,
-        "lonStart": -97.60611639,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 30420
-  },
-  {
-    "type": 17,
-    "icao": "6TS7",
-    "lat": 30.23270722,
-    "lon": -97.91473001,
-    "communications": [],
-    "elevation": 1049,
-    "tower": false,
-    "name": "[H] Johnny Voudouris",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 30.23270722,
-        "lonStart": -97.91473001,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 30635
+    "id": 30162
   },
   {
     "type": 17,
@@ -1425,81 +1512,6 @@
         "length": 15.2
       }
     ],
-    "id": 30737
-  },
-  {
-    "type": 17,
-    "icao": "4TS9",
-    "lat": 30.32381555,
-    "lon": -97.86778639,
-    "communications": [],
-    "elevation": 816,
-    "tower": false,
-    "name": "[H] Ossiport",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 30.32381555,
-        "lonStart": -97.86778639,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 31777
-  },
-  {
-    "type": 17,
-    "icao": "32TS",
-    "lat": 30.30437361,
-    "lon": -97.74583917,
-    "communications": [],
-    "elevation": 582,
-    "tower": false,
-    "name": "[H] Seton Medical Center",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 30.30437361,
-        "lonStart": -97.74583917,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 32649
-  },
-  {
-    "type": 17,
-    "icao": "TE14",
-    "lat": 30.40131111,
-    "lon": -97.96001223,
-    "communications": [],
-    "elevation": 750,
-    "tower": false,
-    "name": "[H] Winns",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 30.40131111,
-        "lonStart": -97.96001223,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 33879
+    "id": 32495
   }
 ]

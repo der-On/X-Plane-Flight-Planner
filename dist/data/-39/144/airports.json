@@ -51,7 +51,7 @@
         "length": 38
       }
     ],
-    "id": 1354
+    "id": 5594
   },
   {
     "type": 1,
@@ -90,13 +90,13 @@
         "surfacetype": 3
       }
     ],
-    "id": 1355
+    "id": 32678
   },
   {
     "type": 1,
     "icao": "YBRS",
-    "lat": -38.2570265575,
-    "lon": 144.4279211025,
+    "lat": -38.257481022,
+    "lon": 144.42794704999997,
     "communications": [
       {
         "type": 51,
@@ -104,38 +104,50 @@
         "name": "CTAF"
       }
     ],
-    "elevation": 49,
+    "elevation": 47,
     "tower": false,
     "name": "Barwon Heads",
     "runways": [
       {
         "type": 100,
-        "width": 24.99,
+        "width": 11.04,
         "surfaceType": null,
-        "numberStart": "1",
-        "numberEnd": "19",
-        "latStart": -38.25929112,
-        "lonStart": 144.42730989,
-        "latEnd": -38.25266804,
-        "lonEnd": 144.42853215,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -38.25256064,
+        "lonStart": 144.42855303,
+        "latEnd": -38.25944757,
+        "lonEnd": 144.42730014,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -38.25788243,
+        "lonStart": 144.42512714,
+        "latEnd": -38.2584582,
+        "lonEnd": 144.43066684,
         "length": 0,
         "surfacetype": 3
       },
       {
-        "type": 100,
-        "width": 18.9,
-        "surfaceType": null,
-        "numberStart": "9",
-        "numberEnd": "27",
-        "latStart": -38.25778677,
-        "lonStart": 144.42510931,
-        "latEnd": -38.2583603,
-        "lonEnd": 144.43073306,
-        "length": 0,
-        "surfacetype": 3
+        "type": 102,
+        "width": 11,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -38.25905627,
+        "lonStart": 144.4280881,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11
       }
     ],
-    "id": 2309
+    "id": 32841
   },
   {
     "type": 1,
@@ -161,46 +173,157 @@
         "surfacetype": 15
       }
     ],
-    "id": 4732
+    "id": 32946
   },
   {
-    "type": 1,
-    "icao": "YGLG",
-    "lat": -38.224068245,
-    "lon": 144.331157055,
+    "type": 17,
+    "icao": "YGEH",
+    "lat": -38.15130584,
+    "lon": 144.36411036,
     "communications": [],
-    "elevation": 118,
+    "elevation": 104,
     "tower": false,
-    "name": "Geelong",
+    "name": "[H] GEELONG HOSPITAL",
     "runways": [
       {
-        "type": 100,
-        "width": 10.97,
-        "surfaceType": null,
-        "numberStart": "1",
-        "numberEnd": "19",
-        "latStart": -38.22778301,
-        "lonStart": 144.33252417,
-        "latEnd": -38.21925561,
-        "lonEnd": 144.33447722,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 11.89,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": -38.22397575,
-        "lonStart": 144.32365827,
-        "latEnd": -38.22525861,
-        "lonEnd": 144.33396856,
-        "length": 0,
-        "surfacetype": 4
+        "type": 102,
+        "width": 11.9,
+        "surfaceType": 2,
+        "numberStart": "H44",
+        "numberEnd": null,
+        "latStart": -38.15130584,
+        "lonStart": 144.36411036,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.9
       }
     ],
-    "id": 10368
+    "id": 33333
+  },
+  {
+    "type": 17,
+    "icao": "YOCG",
+    "lat": -38.272123,
+    "lon": 144.559534,
+    "communications": [],
+    "elevation": 19,
+    "tower": false,
+    "name": "[H] OCEAN GROVE",
+    "runways": [
+      {
+        "type": 102,
+        "width": 14.9,
+        "surfaceType": 3,
+        "numberStart": "H14",
+        "numberEnd": null,
+        "latStart": -38.272123,
+        "lonStart": 144.559534,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.9
+      }
+    ],
+    "id": 34111
+  },
+  {
+    "type": 17,
+    "icao": "YPTA",
+    "lat": -38.11393823,
+    "lon": 144.64447404,
+    "communications": [],
+    "elevation": 22,
+    "tower": false,
+    "name": "[H] PORTARLINGTON",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 3,
+        "numberStart": "H66",
+        "numberEnd": null,
+        "latStart": -38.11393823,
+        "lonStart": 144.64447404,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 34247
+  },
+  {
+    "type": 17,
+    "icao": "YPTS",
+    "lat": -38.31858013,
+    "lon": 144.71799123,
+    "communications": [],
+    "elevation": 65,
+    "tower": false,
+    "name": "[H] PORTSEA",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 3,
+        "numberStart": "H80",
+        "numberEnd": null,
+        "latStart": -38.31858013,
+        "lonStart": 144.71799123,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 34254
+  },
+  {
+    "type": 17,
+    "icao": "YQCF",
+    "lat": -38.265501,
+    "lon": 144.666591,
+    "communications": [],
+    "elevation": 2,
+    "tower": false,
+    "name": "[H] QUEENSCLIFF",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 3,
+        "numberStart": "H12",
+        "numberEnd": null,
+        "latStart": -38.265501,
+        "lonStart": 144.666591,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 34269
+  },
+  {
+    "type": 17,
+    "icao": "YRBD",
+    "lat": -38.353949,
+    "lon": 144.905773,
+    "communications": [],
+    "elevation": 23,
+    "tower": false,
+    "name": "[H] ROSEBUD",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 3,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": -38.353949,
+        "lonStart": 144.905773,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 34285
   },
   {
     "type": 1,
@@ -239,7 +362,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 22475
+    "id": 34421
   },
   {
     "type": 1,
@@ -297,156 +420,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 25481
-  },
-  {
-    "type": 17,
-    "icao": "YGEH",
-    "lat": -38.15130584,
-    "lon": 144.36411036,
-    "communications": [],
-    "elevation": 104,
-    "tower": false,
-    "name": "[H] GEELONG HOSPITAL",
-    "runways": [
-      {
-        "type": 102,
-        "width": 11.9,
-        "surfaceType": 2,
-        "numberStart": "H44",
-        "numberEnd": null,
-        "latStart": -38.15130584,
-        "lonStart": 144.36411036,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11.9
-      }
-    ],
-    "id": 29854
-  },
-  {
-    "type": 17,
-    "icao": "YOCG",
-    "lat": -38.272123,
-    "lon": 144.559534,
-    "communications": [],
-    "elevation": 19,
-    "tower": false,
-    "name": "[H] OCEAN GROVE",
-    "runways": [
-      {
-        "type": 102,
-        "width": 14.9,
-        "surfaceType": 3,
-        "numberStart": "H14",
-        "numberEnd": null,
-        "latStart": -38.272123,
-        "lonStart": 144.559534,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 14.9
-      }
-    ],
-    "id": 31701
-  },
-  {
-    "type": 17,
-    "icao": "YPTA",
-    "lat": -38.11393823,
-    "lon": 144.64447404,
-    "communications": [],
-    "elevation": 22,
-    "tower": false,
-    "name": "[H] PORTARLINGTON",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 3,
-        "numberStart": "H66",
-        "numberEnd": null,
-        "latStart": -38.11393823,
-        "lonStart": 144.64447404,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
-      }
-    ],
-    "id": 31834
-  },
-  {
-    "type": 17,
-    "icao": "YPTS",
-    "lat": -38.31858013,
-    "lon": 144.71799123,
-    "communications": [],
-    "elevation": 65,
-    "tower": false,
-    "name": "[H] PORTSEA",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 3,
-        "numberStart": "H80",
-        "numberEnd": null,
-        "latStart": -38.31858013,
-        "lonStart": 144.71799123,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
-      }
-    ],
-    "id": 31836
-  },
-  {
-    "type": 17,
-    "icao": "YQCF",
-    "lat": -38.265501,
-    "lon": 144.666591,
-    "communications": [],
-    "elevation": 2,
-    "tower": false,
-    "name": "[H] QUEENSCLIFF",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 3,
-        "numberStart": "H12",
-        "numberEnd": null,
-        "latStart": -38.265501,
-        "lonStart": 144.666591,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
-      }
-    ],
-    "id": 32198
-  },
-  {
-    "type": 17,
-    "icao": "YRBD",
-    "lat": -38.353949,
-    "lon": 144.905773,
-    "communications": [],
-    "elevation": 23,
-    "tower": false,
-    "name": "[H] ROSEBUD",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 3,
-        "numberStart": "H4",
-        "numberEnd": null,
-        "latStart": -38.353949,
-        "lonStart": 144.905773,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
-      }
-    ],
-    "id": 32238
+    "id": 34590
   }
 ]

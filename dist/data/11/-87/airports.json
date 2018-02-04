@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "MNCE",
+    "lat": 11.4275,
+    "lon": -86.03333237999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11805,
+        "name": "Tower"
+      }
+    ],
+    "elevation": 83,
+    "tower": true,
+    "name": "Costa Esmeralda",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.13,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 11.42186202,
+        "lonStart": -86.03731542,
+        "latEnd": 11.43313798,
+        "lonEnd": -86.02934934,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4130
+  },
+  {
+    "type": 1,
     "icao": "MNMR",
     "lat": 11.805155500000001,
     "lon": -86.5113415,
@@ -11,7 +43,7 @@
     "runways": [
       {
         "type": 100,
-        "width": 45.72,
+        "width": 27.43,
         "surfaceType": null,
         "numberStart": "05",
         "numberEnd": "23",
@@ -23,6 +55,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 16219
+    "id": 4135
   }
 ]

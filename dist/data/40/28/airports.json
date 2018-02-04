@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "LTBA",
-    "lat": 40.97954853833334,
-    "lon": 28.813192388333334,
+    "lat": 40.978617856999996,
+    "lon": 28.817154988,
     "communications": [
       {
         "type": 50,
@@ -17,18 +17,23 @@
       },
       {
         "type": 53,
-        "frequency": 12190,
-        "name": "YESILKOY GND"
+        "frequency": 12180,
+        "name": "YESILKOY GND SOUTH"
+      },
+      {
+        "type": 53,
+        "frequency": 12160,
+        "name": "YESILKOY GND NORTH"
       },
       {
         "type": 54,
-        "frequency": 12180,
-        "name": "YESILKOY TWR"
+        "frequency": 11810,
+        "name": "YESILKOY TWR APP"
       },
       {
-        "type": 55,
-        "frequency": 12110,
-        "name": "YESILKOY APP"
+        "type": 56,
+        "frequency": 11837,
+        "name": "YESILKOY TWR DEP"
       }
     ],
     "elevation": 163,
@@ -41,10 +46,10 @@
         "surfaceType": null,
         "numberStart": "17R",
         "numberEnd": "35L",
-        "latStart": 40.99788245,
-        "lonStart": 28.8058553,
-        "latEnd": 40.96847728,
-        "lonEnd": 28.80696541,
+        "latStart": 40.99639215,
+        "lonStart": 28.806027,
+        "latEnd": 40.96931384,
+        "lonEnd": 28.80697862,
         "length": 0,
         "surfacetype": 2
       },
@@ -54,10 +59,10 @@
         "surfaceType": null,
         "numberStart": "17L",
         "numberEnd": "35R",
-        "latStart": 40.99755014,
-        "lonStart": 28.80859453,
-        "latEnd": 40.9691151,
-        "lonEnd": 28.80948085,
+        "latStart": 40.99649115,
+        "lonStart": 28.80852032,
+        "latEnd": 40.96932285,
+        "lonEnd": 28.809473,
         "length": 0,
         "surfacetype": 2
       },
@@ -67,14 +72,62 @@
         "surfaceType": null,
         "numberStart": "05",
         "numberEnd": "23",
-        "latStart": 40.96550418,
-        "lonStart": 28.80981834,
-        "latEnd": 40.97876208,
-        "lonEnd": 28.8384399,
+        "latStart": 40.96560681,
+        "lonStart": 28.80986572,
+        "latEnd": 40.97768719,
+        "lonEnd": 28.83612909,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 50,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.96759712,
+        "lonStart": 28.82862016,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 50
+      },
+      {
+        "type": 102,
+        "width": 50,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 40.98158104,
+        "lonStart": 28.8223619,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 50
+      },
+      {
+        "type": 102,
+        "width": 35,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 40.98121769,
+        "lonStart": 28.82161324,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 35
+      },
+      {
+        "type": 102,
+        "width": 35,
+        "surfaceType": 2,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 40.98096873,
+        "lonStart": 28.82196083,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 35
       }
     ],
-    "id": 12587
+    "id": 4001
   }
 ]

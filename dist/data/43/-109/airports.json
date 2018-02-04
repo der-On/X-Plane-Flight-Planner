@@ -2,34 +2,78 @@
   {
     "type": 1,
     "icao": "KTHP",
-    "lat": 43.663132000000004,
-    "lon": -108.209607225,
+    "lat": 43.663124804999995,
+    "lon": -108.209580265,
     "communications": [
       {
         "type": 51,
         "frequency": 12280,
         "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 54,
+        "frequency": 12880,
+        "name": "Tower For AI Traffic"
       }
     ],
-    "elevation": 4592,
+    "elevation": 4591,
     "tower": false,
-    "name": "HOT SPRINGS CO THERMOPOLIS MUNI",
+    "name": "Hot Springs County Thermopolis Municipal",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 30.48,
         "surfaceType": null,
         "numberStart": "01",
         "numberEnd": "19",
-        "latStart": 43.6570564,
-        "lonStart": -108.21306885,
-        "latEnd": 43.6692076,
-        "lonEnd": -108.2061456,
+        "latStart": 43.65704347,
+        "lonStart": -108.21304294,
+        "latEnd": 43.66920614,
+        "lonEnd": -108.20611759,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 11204
+    "id": 3325
+  },
+  {
+    "type": 1,
+    "icao": "49U",
+    "lat": 43.251178602500005,
+    "lon": -108.12161554,
+    "communications": [],
+    "elevation": 4816,
+    "tower": false,
+    "name": "Shoshoni Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 26.95,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 43.2504992,
+        "lonStart": -108.13170308,
+        "latEnd": 43.24936237,
+        "lonEnd": -108.1131854,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 20.06,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 43.25527986,
+        "lonStart": -108.12512419,
+        "latEnd": 43.24957298,
+        "lonEnd": -108.11644949,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 12463
   },
   {
     "type": 1,
@@ -79,46 +123,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 20966
-  },
-  {
-    "type": 1,
-    "icao": "49U",
-    "lat": 43.251178602500005,
-    "lon": -108.12161554,
-    "communications": [],
-    "elevation": 4816,
-    "tower": false,
-    "name": "Shoshoni Municipal",
-    "runways": [
-      {
-        "type": 100,
-        "width": 26.95,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 43.2504992,
-        "lonStart": -108.13170308,
-        "latEnd": 43.24936237,
-        "lonEnd": -108.1131854,
-        "length": 0,
-        "surfacetype": 4
-      },
-      {
-        "type": 100,
-        "width": 20.06,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 43.25527986,
-        "lonStart": -108.12512419,
-        "latEnd": 43.24957298,
-        "lonEnd": -108.11644949,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 23456
+    "id": 19749
   },
   {
     "type": 17,
@@ -143,6 +148,6 @@
         "length": 12.2
       }
     ],
-    "id": 32373
+    "id": 32231
   }
 ]

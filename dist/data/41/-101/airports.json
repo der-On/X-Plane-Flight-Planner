@@ -1,55 +1,130 @@
 [
   {
     "type": 1,
-    "icao": "9NE7",
-    "lat": 41.43333166,
-    "lon": -100.48375084,
-    "communications": [],
-    "elevation": 3000,
-    "tower": false,
-    "name": "Bay Field",
-    "runways": [
+    "icao": "KLBF",
+    "lat": 41.1263750325,
+    "lon": -100.68574,
+    "communications": [
       {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 41.43688587,
-        "lonStart": -100.48467233,
-        "latEnd": 41.42977745,
-        "lonEnd": -100.48282935,
-        "length": 0,
-        "surfacetype": 3
+        "type": 50,
+        "frequency": 11842,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
       }
     ],
-    "id": 2369
-  },
-  {
-    "type": 1,
-    "icao": "9NE8",
-    "lat": 41.400436735,
-    "lon": -100.47848213,
-    "communications": [],
-    "elevation": 3009,
+    "elevation": 2777,
     "tower": false,
-    "name": "Brosius Field",
+    "name": "North Platte Regional Airport Lee Bird",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 45.72,
         "surfaceType": null,
         "numberStart": "12",
         "numberEnd": "30",
-        "latStart": 41.40351447,
-        "lonStart": -100.47974126,
-        "latEnd": 41.397359,
-        "lonEnd": -100.477223,
+        "latStart": 41.13224236,
+        "lonStart": -100.690224,
+        "latEnd": 41.119369,
+        "lonEnd": -100.666702,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 41.13302977,
+        "lonStart": -100.692862,
+        "latEnd": 41.120859,
+        "lonEnd": -100.693172,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 2873
+  },
+  {
+    "type": 1,
+    "icao": "1NE1",
+    "lat": 41.28333833,
+    "lon": -100.05040278,
+    "communications": [],
+    "elevation": 2880,
+    "tower": false,
+    "name": "Paul Ridder Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 259.08,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 41.28140359,
+        "lonStart": -100.05394649,
+        "latEnd": 41.28527307,
+        "lonEnd": -100.04685907,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 3257
+    "id": 6615
+  },
+  {
+    "type": 17,
+    "icao": "4NE3",
+    "lat": 41.10499861,
+    "lon": -100.74403334,
+    "communications": [],
+    "elevation": 2789,
+    "tower": false,
+    "name": "[H] Simon",
+    "runways": [
+      {
+        "type": 102,
+        "width": 24.4,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.10499861,
+        "lonStart": -100.74403334,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.4
+      }
+    ],
+    "id": 8263
+  },
+  {
+    "type": 1,
+    "icao": "5NE1",
+    "lat": 41.54999472,
+    "lon": -100.83376195,
+    "communications": [],
+    "elevation": 3260,
+    "tower": false,
+    "name": "Trumbull Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 41.54871873,
+        "lonStart": -100.83252319,
+        "latEnd": 41.55127071,
+        "lonEnd": -100.83500071,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 8777
   },
   {
     "type": 1,
@@ -75,7 +150,85 @@
         "surfacetype": 3
       }
     ],
-    "id": 6242
+    "id": 8779
+  },
+  {
+    "type": 1,
+    "icao": "9NE7",
+    "lat": 41.43333166,
+    "lon": -100.48375084,
+    "communications": [],
+    "elevation": 3000,
+    "tower": false,
+    "name": "Bay Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 41.43688587,
+        "lonStart": -100.48467233,
+        "latEnd": 41.42977745,
+        "lonEnd": -100.48282935,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10671
+  },
+  {
+    "type": 1,
+    "icao": "9NE8",
+    "lat": 41.400436735,
+    "lon": -100.47848213,
+    "communications": [],
+    "elevation": 3009,
+    "tower": false,
+    "name": "Brosius Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 41.40351447,
+        "lonStart": -100.47974126,
+        "latEnd": 41.397359,
+        "lonEnd": -100.477223,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10672
+  },
+  {
+    "type": 1,
+    "icao": "32NE",
+    "lat": 41.721740595,
+    "lon": -100.088118365,
+    "communications": [],
+    "elevation": 2758,
+    "tower": false,
+    "name": "Mc Ginn Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 41.72377725,
+        "lonStart": -100.09204443,
+        "latEnd": 41.71970394,
+        "lonEnd": -100.0841923,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11787
   },
   {
     "type": 1,
@@ -101,7 +254,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 7356
+    "id": 11869
   },
   {
     "type": 1,
@@ -140,130 +293,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 11434
-  },
-  {
-    "type": 1,
-    "icao": "32NE",
-    "lat": 41.721740595,
-    "lon": -100.088118365,
-    "communications": [],
-    "elevation": 2758,
-    "tower": false,
-    "name": "Mc Ginn Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 14.94,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 41.72377725,
-        "lonStart": -100.09204443,
-        "latEnd": 41.71970394,
-        "lonEnd": -100.0841923,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 16931
-  },
-  {
-    "type": 1,
-    "icao": "KLBF",
-    "lat": 41.126371885,
-    "lon": -100.685739985,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11842,
-        "name": "ASOS"
-      }
-    ],
-    "elevation": 2776,
-    "tower": false,
-    "name": "North Platte Regional Airport Lee Bird",
-    "runways": [
-      {
-        "type": 100,
-        "width": 46.02,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 41.13221578,
-        "lonStart": -100.69025284,
-        "latEnd": 41.11934728,
-        "lonEnd": -100.6666528,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 41.13303001,
-        "lonStart": -100.69287248,
-        "latEnd": 41.12089447,
-        "lonEnd": -100.69318182,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 18457
-  },
-  {
-    "type": 1,
-    "icao": "NE25",
-    "lat": 41.187096034999996,
-    "lon": -100.845011725,
-    "communications": [],
-    "elevation": 1438,
-    "tower": false,
-    "name": "Orr Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 39.93,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 41.18967899,
-        "lonStart": -100.84789169,
-        "latEnd": 41.18451308,
-        "lonEnd": -100.84213176,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 19039
-  },
-  {
-    "type": 1,
-    "icao": "1NE1",
-    "lat": 41.28333833,
-    "lon": -100.05040278,
-    "communications": [],
-    "elevation": 2880,
-    "tower": false,
-    "name": "Paul Ridder Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 259.08,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 41.28140359,
-        "lonStart": -100.05394649,
-        "latEnd": 41.28527307,
-        "lonEnd": -100.04685907,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 19862
+    "id": 12451
   },
   {
     "type": 1,
@@ -300,57 +330,32 @@
         "surfacetype": 1
       }
     ],
-    "id": 25274
+    "id": 19884
   },
   {
     "type": 1,
-    "icao": "5NE1",
-    "lat": 41.54999472,
-    "lon": -100.83376195,
+    "icao": "NE25",
+    "lat": 41.187096034999996,
+    "lon": -100.845011725,
     "communications": [],
-    "elevation": 3260,
+    "elevation": 1438,
     "tower": false,
-    "name": "Trumbull Ranch",
+    "name": "Orr Field",
     "runways": [
       {
         "type": 100,
-        "width": 30.48,
+        "width": 39.93,
         "surfaceType": null,
         "numberStart": "14",
         "numberEnd": "32",
-        "latStart": 41.54871873,
-        "lonStart": -100.83252319,
-        "latEnd": 41.55127071,
-        "lonEnd": -100.83500071,
+        "latStart": 41.18967899,
+        "lonStart": -100.84789169,
+        "latEnd": 41.18451308,
+        "lonEnd": -100.84213176,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 25638
-  },
-  {
-    "type": 17,
-    "icao": "4NE3",
-    "lat": 41.10499861,
-    "lon": -100.74403334,
-    "communications": [],
-    "elevation": 2789,
-    "tower": false,
-    "name": "[H] Simon",
-    "runways": [
-      {
-        "type": 102,
-        "width": 24.4,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.10499861,
-        "lonStart": -100.74403334,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.4
-      }
-    ],
-    "id": 32718
+    "id": 22451
   }
 ]

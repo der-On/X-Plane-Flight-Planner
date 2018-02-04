@@ -1,29 +1,83 @@
 [
   {
     "type": 1,
-    "icao": "TE26",
-    "lat": 28.7835915,
-    "lon": -98.3500005,
-    "communications": [],
-    "elevation": 274,
+    "icao": "8T6",
+    "lat": 28.364247326666668,
+    "lon": -98.11757514333334,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      },
+      {
+        "type": 55,
+        "frequency": 13460,
+        "name": "HOUSTON CNTR"
+      },
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 128,
     "tower": false,
-    "name": "ARROW S RANCH",
+    "name": "LIVE OAK CO",
     "runways": [
       {
         "type": 100,
-        "width": 15.24,
+        "width": 18.29,
         "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 28.788016,
-        "lonStart": -98.356963,
-        "latEnd": 28.779167,
-        "lonEnd": -98.343038,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 28.36655,
+        "lonStart": -98.120586,
+        "latEnd": 28.359058,
+        "lonEnd": -98.11235,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 17.31,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 28.36713398,
+        "lonStart": -98.11978943,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19.05
+      }
+    ],
+    "id": 286
+  },
+  {
+    "type": 1,
+    "icao": "0XA5",
+    "lat": 28.684903,
+    "lon": -98.3827835,
+    "communications": [],
+    "elevation": 320,
+    "tower": false,
+    "name": "SEVENTY FOUR RANCH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 28.68863,
+        "lonStart": -98.386937,
+        "latEnd": 28.681176,
+        "lonEnd": -98.37863,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 402
+    "id": 6248
   },
   {
     "type": 1,
@@ -49,122 +103,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 2453
+    "id": 6844
   },
   {
     "type": 1,
-    "icao": "46TA",
-    "lat": 28.12611861,
-    "lon": -98.85974361999999,
+    "icao": "2T6",
+    "lat": 28.88775416,
+    "lon": -98.05028278,
     "communications": [],
-    "elevation": 287,
+    "elevation": 448,
     "tower": false,
-    "name": "Gould Strip",
+    "name": "W B Burris",
     "runways": [
       {
         "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 28.12090115,
-        "lonStart": -98.86166587,
-        "latEnd": 28.13133607,
-        "lonEnd": -98.85782137,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 10649
-  },
-  {
-    "type": 1,
-    "icao": "37TA",
-    "lat": 28.189726659999998,
-    "lon": -98.91696778,
-    "communications": [],
-    "elevation": 380,
-    "tower": false,
-    "name": "Herradura Lodge",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 28.19321593,
-        "lonStart": -98.91944153,
-        "latEnd": 28.18623739,
-        "lonEnd": -98.91449403,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11735
-  },
-  {
-    "type": 1,
-    "icao": "34XS",
-    "lat": 28.36832944,
-    "lon": -98.89335778,
-    "communications": [],
-    "elevation": 460,
-    "tower": false,
-    "name": "Kenley Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
+        "width": 27.43,
         "surfaceType": null,
         "numberStart": "16",
         "numberEnd": "34",
-        "latStart": 28.37260573,
-        "lonStart": -98.89447978,
-        "latEnd": 28.36405315,
-        "lonEnd": -98.89223578,
+        "latStart": 28.89176318,
+        "lonStart": -98.05133987,
+        "latEnd": 28.88374514,
+        "lonEnd": -98.04922569,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 13756
-  },
-  {
-    "type": 1,
-    "icao": "8T6",
-    "lat": 28.362804,
-    "lon": -98.116468,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      },
-      {
-        "type": 55,
-        "frequency": 13460,
-        "name": "HOUSTON CNTR"
-      }
-    ],
-    "elevation": 128,
-    "tower": false,
-    "name": "LIVE OAK CO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 28.36655,
-        "lonStart": -98.120586,
-        "latEnd": 28.359058,
-        "lonEnd": -98.11235,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 14563
+    "id": 7304
   },
   {
     "type": 1,
@@ -203,7 +168,111 @@
         "surfacetype": 3
       }
     ],
-    "id": 15511
+    "id": 9398
+  },
+  {
+    "type": 1,
+    "icao": "34XS",
+    "lat": 28.36832944,
+    "lon": -98.89335778,
+    "communications": [],
+    "elevation": 460,
+    "tower": false,
+    "name": "Kenley Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 28.37260573,
+        "lonStart": -98.89447978,
+        "latEnd": 28.36405315,
+        "lonEnd": -98.89223578,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11889
+  },
+  {
+    "type": 1,
+    "icao": "37TA",
+    "lat": 28.189726659999998,
+    "lon": -98.91696778,
+    "communications": [],
+    "elevation": 380,
+    "tower": false,
+    "name": "Herradura Lodge",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 28.19321593,
+        "lonStart": -98.91944153,
+        "latEnd": 28.18623739,
+        "lonEnd": -98.91449403,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11995
+  },
+  {
+    "type": 1,
+    "icao": "46TA",
+    "lat": 28.12611861,
+    "lon": -98.85974361999999,
+    "communications": [],
+    "elevation": 287,
+    "tower": false,
+    "name": "Gould Strip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 28.12090115,
+        "lonStart": -98.86166587,
+        "latEnd": 28.13133607,
+        "lonEnd": -98.85782137,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12349
+  },
+  {
+    "type": 1,
+    "icao": "59TS",
+    "lat": 28.14306444,
+    "lon": -98.15833889,
+    "communications": [],
+    "elevation": 250,
+    "tower": false,
+    "name": "Rossler Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 28.14554059,
+        "lonStart": -98.16206543,
+        "latEnd": 28.14058829,
+        "lonEnd": -98.15461235,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 12854
   },
   {
     "type": 1,
@@ -229,7 +298,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 17538
+    "id": 13654
   },
   {
     "type": 1,
@@ -255,7 +324,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 19169
+    "id": 14076
   },
   {
     "type": 1,
@@ -302,33 +371,33 @@
         "surfacetype": 1
       }
     ],
-    "id": 19434
+    "id": 19667
   },
   {
     "type": 1,
-    "icao": "59TS",
-    "lat": 28.14306444,
-    "lon": -98.15833889,
+    "icao": "TE26",
+    "lat": 28.7835915,
+    "lon": -98.3500005,
     "communications": [],
-    "elevation": 250,
+    "elevation": 274,
     "tower": false,
-    "name": "Rossler Ranch",
+    "name": "ARROW S RANCH",
     "runways": [
       {
         "type": 100,
-        "width": 18.29,
+        "width": 15.24,
         "surfaceType": null,
         "numberStart": "12",
         "numberEnd": "30",
-        "latStart": 28.14554059,
-        "lonStart": -98.16206543,
-        "latEnd": 28.14058829,
-        "lonEnd": -98.15461235,
+        "latStart": 28.788016,
+        "lonStart": -98.356963,
+        "latEnd": 28.779167,
+        "lonEnd": -98.343038,
         "length": 0,
-        "surfacetype": 4
+        "surfacetype": 1
       }
     ],
-    "id": 21752
+    "id": 29845
   },
   {
     "type": 1,
@@ -354,58 +423,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 21966
-  },
-  {
-    "type": 1,
-    "icao": "0XA5",
-    "lat": 28.684903,
-    "lon": -98.3827835,
-    "communications": [],
-    "elevation": 320,
-    "tower": false,
-    "name": "SEVENTY FOUR RANCH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 28.68863,
-        "lonStart": -98.386937,
-        "latEnd": 28.681176,
-        "lonEnd": -98.37863,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22174
-  },
-  {
-    "type": 1,
-    "icao": "2T6",
-    "lat": 28.88775416,
-    "lon": -98.05028278,
-    "communications": [],
-    "elevation": 448,
-    "tower": false,
-    "name": "W B Burris",
-    "runways": [
-      {
-        "type": 100,
-        "width": 27.43,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 28.89176318,
-        "lonStart": -98.05133987,
-        "latEnd": 28.88374514,
-        "lonEnd": -98.04922569,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 26422
+    "id": 32500
   }
 ]

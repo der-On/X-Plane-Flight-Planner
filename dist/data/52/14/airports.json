@@ -1,58 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "EP74",
-    "lat": 52.939663124999996,
-    "lon": 14.421821025,
-    "communications": [],
-    "elevation": 164,
-    "tower": false,
-    "name": "Chojna",
-    "runways": [
-      {
-        "type": 100,
-        "width": 48.72,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 52.93999814,
-        "lonStart": 14.40483777,
-        "latEnd": 52.93932811,
-        "lonEnd": 14.43880428,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 4951
-  },
-  {
-    "type": 1,
-    "icao": "EDCE",
-    "lat": 52.4791641,
-    "lon": 14.0833368,
-    "communications": [],
-    "elevation": 220,
-    "tower": false,
-    "name": "Eggersdorf Muencheberg",
-    "runways": [
-      {
-        "type": 100,
-        "width": 39.93,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 52.4738098,
-        "lonStart": 14.06810994,
-        "latEnd": 52.4845184,
-        "lonEnd": 14.09856366,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 6993
-  },
-  {
-    "type": 1,
     "icao": "EDAE",
     "lat": 52.19726681,
     "lon": 14.585588000000001,
@@ -86,28 +34,94 @@
         "surfacetype": 1
       }
     ],
-    "id": 7018
+    "id": 984
+  },
+  {
+    "type": 1,
+    "icao": "EDCE",
+    "lat": 52.47986913375001,
+    "lon": 14.08467192,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12300,
+        "name": "Eggersdorf Info"
+      }
+    ],
+    "elevation": 220,
+    "tower": true,
+    "name": "Eggersdorf - Muencheberg",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "06C",
+        "numberEnd": "24C",
+        "latStart": 52.48000605,
+        "lonStart": 14.08327739,
+        "latEnd": 52.48375196,
+        "lonEnd": 14.09334421,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "06R",
+        "numberEnd": "24L",
+        "latStart": 52.47556411,
+        "lonStart": 14.07819459,
+        "latEnd": 52.48051176,
+        "lonEnd": 14.09188448,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "06L",
+        "numberEnd": "24R",
+        "latStart": 52.47510115,
+        "lonStart": 14.07009506,
+        "latEnd": 52.48375462,
+        "lonEnd": 14.09334915,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 35,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 52.47464016,
+        "lonStart": 14.06885806,
+        "latEnd": 52.48562326,
+        "lonEnd": 14.09837242,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1031
   },
   {
     "type": 1,
     "icao": "EDON",
-    "lat": 52.6129955,
-    "lon": 14.242668,
+    "lat": 52.61296011,
+    "lon": 14.242577935,
     "communications": [
       {
         "type": 54,
-        "frequency": 13265,
-        "name": "BERLIN INFO"
-      },
-      {
-        "type": 54,
         "frequency": 11912,
-        "name": "INFO"
+        "name": "Neuhardenberg Info"
       }
     ],
     "elevation": 35,
     "tower": false,
-    "name": "NEUHARDENBERG",
+    "name": "Neuhardenberg",
     "runways": [
       {
         "type": 100,
@@ -115,15 +129,41 @@
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": 52.611497,
-        "lonStart": 14.225125,
-        "latEnd": 52.614494,
-        "lonEnd": 14.260211,
+        "latStart": 52.61190359,
+        "lonStart": 14.22494755,
+        "latEnd": 52.61401663,
+        "lonEnd": 14.26020832,
         "length": 0,
         "surfacetype": 2
       }
     ],
-    "id": 17895
+    "id": 1248
+  },
+  {
+    "type": 1,
+    "icao": "EP74",
+    "lat": 52.939663124999996,
+    "lon": 14.421821025,
+    "communications": [],
+    "elevation": 164,
+    "tower": false,
+    "name": "Chojna",
+    "runways": [
+      {
+        "type": 100,
+        "width": 48.72,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 52.93999814,
+        "lonStart": 14.40483777,
+        "latEnd": 52.93932811,
+        "lonEnd": 14.43880428,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1793
   },
   {
     "type": 1,
@@ -149,6 +189,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 21883
+    "id": 16632
   }
 ]

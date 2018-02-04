@@ -1,32 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "YCAW",
-    "lat": -34.83112218,
-    "lon": 150.578829225,
-    "communications": [],
-    "elevation": 164,
-    "tower": false,
-    "name": "CAMBEWARRA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 42.06,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": -34.82898336,
-        "lonStart": 150.57605449,
-        "latEnd": -34.833261,
-        "lonEnd": 150.58160396,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 3566
-  },
-  {
-    "type": 1,
     "icao": "YSCN",
     "lat": -34.03979369333334,
     "lon": 150.68648844166668,
@@ -117,7 +91,7 @@
         "length": 30
       }
     ],
-    "id": 4380
+    "id": 5608
   },
   {
     "type": 1,
@@ -143,7 +117,58 @@
         "surfacetype": 3
       }
     ],
-    "id": 5108
+    "id": 14761
+  },
+  {
+    "type": 1,
+    "icao": "YCAW",
+    "lat": -34.83112218,
+    "lon": 150.578829225,
+    "communications": [],
+    "elevation": 164,
+    "tower": false,
+    "name": "CAMBEWARRA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 42.06,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -34.82898336,
+        "lonStart": 150.57605449,
+        "latEnd": -34.833261,
+        "lonEnd": 150.58160396,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 32912
+  },
+  {
+    "type": 17,
+    "icao": "YKAM",
+    "lat": -34.66885149,
+    "lon": 150.84658168,
+    "communications": [],
+    "elevation": 169,
+    "tower": false,
+    "name": "[H] KIAMA",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 3,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": -34.66885149,
+        "lonStart": 150.84658168,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 33546
   },
   {
     "type": 1,
@@ -180,7 +205,90 @@
         "surfacetype": 15
       }
     ],
-    "id": 17325
+    "id": 33853
+  },
+  {
+    "type": 17,
+    "icao": "YNKG",
+    "lat": -34.36297846,
+    "lon": 150.33775742,
+    "communications": [],
+    "elevation": 2245,
+    "tower": false,
+    "name": "[H] NORTH KANANGRA",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": -34.36297846,
+        "lonStart": 150.33775742,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 34041
+  },
+  {
+    "type": 1,
+    "icao": "YOAS",
+    "lat": -34.08402953,
+    "lon": 150.559770185,
+    "communications": [],
+    "elevation": 879,
+    "tower": false,
+    "name": "The Oaks",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -34.08831302,
+        "lonStart": 150.55875792,
+        "latEnd": -34.07974604,
+        "lonEnd": 150.56078245,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 34105
+  },
+  {
+    "type": 1,
+    "icao": "YRBN",
+    "lat": -34.645076545,
+    "lon": 150.642092585,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12730,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1820,
+    "tower": false,
+    "name": "Robertson",
+    "runways": [
+      {
+        "type": 100,
+        "width": 50.9,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -34.64616721,
+        "lonStart": 150.6393006,
+        "latEnd": -34.64398588,
+        "lonEnd": 150.64488457,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 34290
   },
   {
     "type": 1,
@@ -404,65 +512,7 @@
         "length": 29.87
       }
     ],
-    "id": 18533
-  },
-  {
-    "type": 1,
-    "icao": "YRBN",
-    "lat": -34.645076545,
-    "lon": 150.642092585,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12730,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 1820,
-    "tower": false,
-    "name": "Robertson",
-    "runways": [
-      {
-        "type": 100,
-        "width": 50.9,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": -34.64616721,
-        "lonStart": 150.6393006,
-        "latEnd": -34.64398588,
-        "lonEnd": 150.64488457,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 21592
-  },
-  {
-    "type": 1,
-    "icao": "YOAS",
-    "lat": -34.08402953,
-    "lon": 150.559770185,
-    "communications": [],
-    "elevation": 879,
-    "tower": false,
-    "name": "The Oaks",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": -34.08831302,
-        "lonStart": 150.55875792,
-        "latEnd": -34.07974604,
-        "lonEnd": 150.56078245,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 25243
+    "id": 34442
   },
   {
     "type": 1,
@@ -499,7 +549,44 @@
         "surfacetype": 1
       }
     ],
-    "id": 27026
+    "id": 34673
+  },
+  {
+    "type": 17,
+    "icao": "YWHP",
+    "lat": -34.439658395,
+    "lon": 150.89596978499998,
+    "communications": [],
+    "elevation": 2,
+    "tower": false,
+    "name": "[H] Wollongong City Heliport",
+    "runways": [
+      {
+        "type": 102,
+        "width": 34.1,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -34.43942718,
+        "lonStart": 150.89585221,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 34.1
+      },
+      {
+        "type": 102,
+        "width": 7.9,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": -34.43988961,
+        "lonStart": 150.89608736,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 7.9
+      }
+    ],
+    "id": 34716
   },
   {
     "type": 1,
@@ -549,7 +636,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 27386
+    "id": 34724
   },
   {
     "type": 1,
@@ -594,8 +681,8 @@
         "type": 100,
         "width": 29.87,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
+        "numberStart": "08",
+        "numberEnd": "26",
         "latStart": -34.56229034,
         "lonStart": 150.78172715,
         "latEnd": -34.56317958,
@@ -604,94 +691,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 27506
-  },
-  {
-    "type": 17,
-    "icao": "YKAM",
-    "lat": -34.66885149,
-    "lon": 150.84658168,
-    "communications": [],
-    "elevation": 169,
-    "tower": false,
-    "name": "[H] KIAMA",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 3,
-        "numberStart": "H4",
-        "numberEnd": null,
-        "latStart": -34.66885149,
-        "lonStart": 150.84658168,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
-      }
-    ],
-    "id": 30666
-  },
-  {
-    "type": 17,
-    "icao": "YNKG",
-    "lat": -34.36297846,
-    "lon": 150.33775742,
-    "communications": [],
-    "elevation": 2245,
-    "tower": false,
-    "name": "[H] NORTH KANANGRA",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 2,
-        "numberStart": "H4",
-        "numberEnd": null,
-        "latStart": -34.36297846,
-        "lonStart": 150.33775742,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 31523
-  },
-  {
-    "type": 17,
-    "icao": "YWHP",
-    "lat": -34.439658395,
-    "lon": 150.89596978499998,
-    "communications": [],
-    "elevation": 2,
-    "tower": false,
-    "name": "[H] Wollongong City Heliport",
-    "runways": [
-      {
-        "type": 102,
-        "width": 34.1,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -34.43942718,
-        "lonStart": 150.89585221,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 34.1
-      },
-      {
-        "type": 102,
-        "width": 7.9,
-        "surfaceType": 2,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": -34.43988961,
-        "lonStart": 150.89608736,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 7.9
-      }
-    ],
-    "id": 33893
+    "id": 34769
   },
   {
     "type": 17,
@@ -716,6 +716,6 @@
         "length": 18
       }
     ],
-    "id": 33919
+    "id": 34878
   }
 ]

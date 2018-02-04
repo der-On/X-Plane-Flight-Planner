@@ -1,32 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "LDSH",
-    "lat": 43.18157837,
-    "lon": 16.633403735,
-    "communications": [],
-    "elevation": 108,
-    "tower": false,
-    "name": "Aerodrom Hvar",
-    "runways": [
-      {
-        "type": 100,
-        "width": 40,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 43.18233655,
-        "lonStart": 16.6285933,
-        "latEnd": 43.18082019,
-        "lonEnd": 16.63821417,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 642
-  },
-  {
-    "type": 1,
     "icao": "LDSB",
     "lat": 43.285716969999996,
     "lon": 16.679711855,
@@ -65,18 +39,49 @@
         "surfacetype": 1
       }
     ],
-    "id": 1872
+    "id": 3470
+  },
+  {
+    "type": 1,
+    "icao": "LDSH",
+    "lat": 43.18157837,
+    "lon": 16.633403735,
+    "communications": [],
+    "elevation": 108,
+    "tower": false,
+    "name": "Aerodrom Hvar",
+    "runways": [
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 43.18233655,
+        "lonStart": 16.6285933,
+        "latEnd": 43.18082019,
+        "lonEnd": 16.63821417,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 3471
   },
   {
     "type": 1,
     "icao": "LDSP",
-    "lat": 43.539025499999994,
-    "lon": 16.298112,
+    "lat": 43.538981660000005,
+    "lon": 16.298050605,
     "communications": [
       {
-        "type": 54,
+        "type": 50,
         "frequency": 12867,
-        "name": "INFO"
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 12467,
+        "name": "TWR"
       },
       {
         "type": 54,
@@ -84,9 +89,9 @@
         "name": "TWR"
       },
       {
-        "type": 54,
-        "frequency": 12467,
-        "name": "TWR"
+        "type": 55,
+        "frequency": 12087,
+        "name": "APP"
       },
       {
         "type": 55,
@@ -95,12 +100,7 @@
       },
       {
         "type": 55,
-        "frequency": 12530,
-        "name": "APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12087,
+        "frequency": 12867,
         "name": "APP"
       },
       {
@@ -115,18 +115,18 @@
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 45,
         "surfaceType": null,
         "numberStart": "05",
         "numberEnd": "23",
-        "latStart": 43.532053,
-        "lonStart": 16.285583,
-        "latEnd": 43.545998,
-        "lonEnd": 16.310641,
+        "latStart": 43.5319956,
+        "lonStart": 16.28549425,
+        "latEnd": 43.54596772,
+        "lonEnd": 16.31060696,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 22428
+    "id": 3472
   }
 ]

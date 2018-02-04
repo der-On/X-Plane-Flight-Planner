@@ -1,58 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "21AK",
-    "lat": 62.071704440000005,
-    "lon": -150.06891445000002,
-    "communications": [],
-    "elevation": 250,
-    "tower": false,
-    "name": "Montana Creek",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 62.07484686,
-        "lonStart": -150.06832746,
-        "latEnd": 62.06856202,
-        "lonEnd": -150.06950144,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 17400
-  },
-  {
-    "type": 1,
-    "icao": "97Z",
-    "lat": 62.51725611,
-    "lon": -150.94534167,
-    "communications": [],
-    "elevation": 2010,
-    "tower": false,
-    "name": "Nugget Bench",
-    "runways": [
-      {
-        "type": 100,
-        "width": 11.58,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 62.51586302,
-        "lonStart": -150.94745541,
-        "latEnd": 62.5186492,
-        "lonEnd": -150.94322793,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 18541
-  },
-  {
-    "type": 1,
     "icao": "0AK3",
     "lat": 62.03586638,
     "lon": -150.49391695,
@@ -75,7 +23,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 19791
+    "id": 5686
   },
   {
     "type": 1,
@@ -101,7 +49,116 @@
         "surfacetype": 5
       }
     ],
-    "id": 23843
+    "id": 7423
+  },
+  {
+    "type": 1,
+    "icao": "21AK",
+    "lat": 62.071704440000005,
+    "lon": -150.06891445000002,
+    "communications": [],
+    "elevation": 250,
+    "tower": false,
+    "name": "Montana Creek",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 62.07484686,
+        "lonStart": -150.06832746,
+        "latEnd": 62.06856202,
+        "lonEnd": -150.06950144,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 11336
+  },
+  {
+    "type": 1,
+    "icao": "97Z",
+    "lat": 62.51725611,
+    "lon": -150.94534167,
+    "communications": [],
+    "elevation": 2010,
+    "tower": false,
+    "name": "Nugget Bench",
+    "runways": [
+      {
+        "type": 100,
+        "width": 11.58,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 62.51586302,
+        "lonStart": -150.94745541,
+        "latEnd": 62.5186492,
+        "lonEnd": -150.94322793,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 14287
+  },
+  {
+    "type": 16,
+    "icao": "AK8",
+    "lat": 62.316010500000004,
+    "lon": -150.06473649999998,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12360,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 395,
+    "tower": false,
+    "name": "[S] Christiansen Lake SPB",
+    "runways": [
+      {
+        "type": 101,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "4",
+        "numberEnd": "22",
+        "latStart": 62.31582365,
+        "lonStart": -150.06540582,
+        "latEnd": 62.31619735,
+        "lonEnd": -150.06406718,
+        "length": 0
+      }
+    ],
+    "id": 14429
+  },
+  {
+    "type": 1,
+    "icao": "AK44",
+    "lat": 62.31854861,
+    "lon": -150.11629812500001,
+    "communications": [],
+    "elevation": 318,
+    "tower": false,
+    "name": "Talkeetna Village Strip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 62.32066815,
+        "lonStart": -150.11598659,
+        "latEnd": 62.31642907,
+        "lonEnd": -150.11660966,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 14455
   },
   {
     "type": 1,
@@ -160,63 +217,6 @@
         "length": 25.91
       }
     ],
-    "id": 24558
-  },
-  {
-    "type": 1,
-    "icao": "AK44",
-    "lat": 62.31854861,
-    "lon": -150.11629812500001,
-    "communications": [],
-    "elevation": 318,
-    "tower": false,
-    "name": "Talkeetna Village Strip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 62.32066815,
-        "lonStart": -150.11598659,
-        "latEnd": 62.31642907,
-        "lonEnd": -150.11660966,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 24989
-  },
-  {
-    "type": 16,
-    "icao": "AK8",
-    "lat": 62.316010500000004,
-    "lon": -150.06473649999998,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12360,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 395,
-    "tower": false,
-    "name": "[S] Christiansen Lake SPB",
-    "runways": [
-      {
-        "type": 101,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "4",
-        "numberEnd": "22",
-        "latStart": 62.31582365,
-        "lonStart": -150.06540582,
-        "latEnd": 62.31619735,
-        "lonEnd": -150.06406718,
-        "length": 0
-      }
-    ],
-    "id": 34039
+    "id": 24034
   }
 ]

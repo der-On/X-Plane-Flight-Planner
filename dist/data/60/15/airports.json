@@ -2,23 +2,28 @@
   {
     "type": 1,
     "icao": "ESSD",
-    "lat": 60.41944463285715,
-    "lon": 15.521034677142856,
+    "lat": 60.425560688,
+    "lon": 15.505783421999999,
     "communications": [
       {
-        "type": 54,
-        "frequency": 12330,
-        "name": "TWR"
+        "type": 53,
+        "frequency": 12730,
+        "name": "Ground"
       },
       {
         "type": 54,
         "frequency": 12730,
         "name": "TWR"
+      },
+      {
+        "type": 52,
+        "frequency": 12880,
+        "name": "Clearance"
       }
     ],
     "elevation": 502,
     "tower": true,
-    "name": "Borlange Dala Airport",
+    "name": "Borlange",
     "runways": [
       {
         "type": 100,
@@ -26,10 +31,10 @@
         "surfaceType": null,
         "numberStart": "14",
         "numberEnd": "32",
-        "latStart": 60.42911095,
-        "lonStart": 15.49987545,
-        "latEnd": 60.415093,
-        "lonEnd": 15.530861,
+        "latStart": 60.42912358,
+        "lonStart": 15.49980606,
+        "latEnd": 60.41506242,
+        "lonEnd": 15.53089972,
         "length": 0,
         "surfacetype": 1
       },
@@ -39,66 +44,27 @@
         "surfaceType": null,
         "numberStart": "12",
         "numberEnd": "30",
-        "latStart": 60.42874615,
-        "lonStart": 15.48900051,
-        "latEnd": 60.42531354,
-        "lonEnd": 15.50208862,
+        "latStart": 60.42836836,
+        "lonStart": 15.49064441,
+        "latEnd": 60.42513164,
+        "lonEnd": 15.50200359,
         "length": 0,
         "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 20,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 60.40813423,
-        "lonStart": 15.553078,
-        "latEnd": 60.40047139,
-        "lonEnd": 15.56811157,
-        "length": 0,
-        "surfacetype": 1
       },
       {
         "type": 102,
-        "width": 15,
-        "surfaceType": 3,
+        "width": 12.3,
+        "surfaceType": 1,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 60.42924317,
-        "lonStart": 15.50422759,
+        "latStart": 60.43011744,
+        "lonStart": 15.50556333,
         "latEnd": null,
         "lonEnd": null,
-        "length": 15
+        "length": 12.3
       }
     ],
-    "id": 3019
-  },
-  {
-    "type": 1,
-    "icao": "ESVG",
-    "lat": 60.550769970000005,
-    "lon": 15.078324105,
-    "communications": [],
-    "elevation": 575,
-    "tower": false,
-    "name": "Gagnef HimmelslC$tta",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 60.54978157,
-        "lonStart": 15.0714116,
-        "latEnd": 60.55175837,
-        "lonEnd": 15.08523661,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 10256
+    "id": 2004
   },
   {
     "type": 1,
@@ -143,6 +109,110 @@
         "surfacetype": 1
       }
     ],
-    "id": 15586
+    "id": 2007
+  },
+  {
+    "type": 1,
+    "icao": "ESVG",
+    "lat": 60.550769970000005,
+    "lon": 15.078324105,
+    "communications": [],
+    "elevation": 575,
+    "tower": false,
+    "name": "Gagnef Himmelslätta",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 60.54978157,
+        "lonStart": 15.0714116,
+        "latEnd": 60.55175837,
+        "lonEnd": 15.08523661,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 2048
+  },
+  {
+    "type": 1,
+    "icao": "XESV4",
+    "lat": 60.107265095,
+    "lon": 15.95046699,
+    "communications": [],
+    "elevation": 626,
+    "tower": false,
+    "name": "Norberg",
+    "runways": [
+      {
+        "type": 100,
+        "width": 16,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 60.10405719,
+        "lonStart": 15.94864298,
+        "latEnd": 60.110473,
+        "lonEnd": 15.952291,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5470
+  },
+  {
+    "type": 1,
+    "icao": "XESV7",
+    "lat": 60.942224035,
+    "lon": 15.195106915,
+    "communications": [],
+    "elevation": 618,
+    "tower": false,
+    "name": "Kolanda",
+    "runways": [
+      {
+        "type": 100,
+        "width": 8,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 60.94197589,
+        "lonStart": 15.1939661,
+        "latEnd": 60.94247218,
+        "lonEnd": 15.19624773,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5473
+  },
+  {
+    "type": 1,
+    "icao": "XESV9",
+    "lat": 60.240021,
+    "lon": 15.98281277,
+    "communications": [],
+    "elevation": 297,
+    "tower": false,
+    "name": "Hedemora",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 60.24168006,
+        "lonStart": 15.97824422,
+        "latEnd": 60.23836194,
+        "lonEnd": 15.98738132,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5475
   }
 ]

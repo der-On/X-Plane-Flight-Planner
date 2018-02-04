@@ -1,6 +1,64 @@
 [
   {
     "type": 1,
+    "icao": "LFAJ",
+    "lat": 48.709474645,
+    "lon": 0.00271924,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12350,
+        "name": "ARGENTAN INFO"
+      }
+    ],
+    "elevation": 581,
+    "tower": true,
+    "name": "Argentan",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 48.70610585,
+        "lonStart": -0.00180122,
+        "latEnd": 48.71284344,
+        "lonEnd": 0.0072397,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3540
+  },
+  {
+    "type": 1,
+    "icao": "LFAX",
+    "lat": 48.540279,
+    "lon": 0.5338890000000001,
+    "communications": [],
+    "elevation": 886,
+    "tower": false,
+    "name": "Mortagne au Perche",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 48.53906548,
+        "lonStart": 0.52935252,
+        "latEnd": 48.54149252,
+        "lonEnd": 0.53842548,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20211
+  },
+  {
+    "type": 1,
     "icao": "LFOF",
     "lat": 48.447844999999994,
     "lon": 0.109488,
@@ -36,33 +94,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 847
-  },
-  {
-    "type": 1,
-    "icao": "LFAJ",
-    "lat": 48.710556,
-    "lon": 0.0038890000000000005,
-    "communications": [],
-    "elevation": 581,
-    "tower": false,
-    "name": "Argentan",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 48.70721195,
-        "lonStart": -0.00067406,
-        "latEnd": 48.71390005,
-        "lonEnd": 0.00845206,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 1173
+    "id": 20403
   },
   {
     "type": 1,
@@ -88,32 +120,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 14236
-  },
-  {
-    "type": 1,
-    "icao": "LFAX",
-    "lat": 48.540279,
-    "lon": 0.5338890000000001,
-    "communications": [],
-    "elevation": 886,
-    "tower": false,
-    "name": "Mortagne au Perche",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 48.53906548,
-        "lonStart": 0.52935252,
-        "latEnd": 48.54149252,
-        "lonEnd": 0.53842548,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 17551
+    "id": 20406
   }
 ]

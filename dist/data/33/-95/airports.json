@@ -1,29 +1,121 @@
 [
   {
-    "type": 1,
-    "icao": "7TX9",
-    "lat": 33.35873221999999,
-    "lon": -94.43769972999999,
+    "type": 17,
+    "icao": "1OK4",
+    "lat": 33.88233138,
+    "lon": -94.81132723,
     "communications": [],
-    "elevation": 305,
+    "elevation": 479,
     "tower": false,
-    "name": "Ashford Field",
+    "name": "[H] Mc Curtain Memorial Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.88233138,
+        "lonStart": -94.81132723,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 6679
+  },
+  {
+    "type": 17,
+    "icao": "2TS1",
+    "lat": 33.17611111,
+    "lon": -94.97083334,
+    "communications": [],
+    "elevation": 420,
+    "tower": false,
+    "name": "[H] Titus Regional Medical Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 7.6,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.17611111,
+        "lonStart": -94.97083334,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 7.6
+      }
+    ],
+    "id": 7331
+  },
+  {
+    "type": 1,
+    "icao": "4O4",
+    "lat": 33.9093635,
+    "lon": -94.85936,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12000,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12392,
+        "name": "FORT WORTH CNTR"
+      }
+    ],
+    "elevation": 472,
+    "tower": false,
+    "name": "MC CURTAIN CO RGNL",
     "runways": [
       {
         "type": 100,
-        "width": 12.19,
+        "width": 22.86,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 33.35599968,
-        "lonStart": -94.43798595,
-        "latEnd": 33.36146476,
-        "lonEnd": -94.43741351,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 33.903044,
+        "lonStart": -94.862603,
+        "latEnd": 33.915683,
+        "lonEnd": -94.856117,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 8289
+  },
+  {
+    "type": 1,
+    "icao": "5AR8",
+    "lat": 33.6167875,
+    "lon": -94.11685972999999,
+    "communications": [],
+    "elevation": 321,
+    "tower": false,
+    "name": "Pine Prairie",
+    "runways": [
+      {
+        "type": 100,
+        "width": 13.72,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 33.62034662,
+        "lonStart": -94.11985234,
+        "latEnd": 33.61322838,
+        "lonEnd": -94.11386712,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 1265
+    "id": 8498
   },
   {
     "type": 1,
@@ -62,33 +154,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 2988
+    "id": 8934
   },
   {
     "type": 1,
-    "icao": "AR44",
-    "lat": 33.51262361,
-    "lon": -94.01352166999999,
+    "icao": "7TX9",
+    "lat": 33.35873221999999,
+    "lon": -94.43769972999999,
     "communications": [],
-    "elevation": 265,
+    "elevation": 305,
     "tower": false,
-    "name": "Flying W",
+    "name": "Ashford Field",
     "runways": [
       {
         "type": 100,
-        "width": 45.72,
+        "width": 12.19,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 33.51292244,
-        "lonStart": -94.01761837,
-        "latEnd": 33.51232478,
-        "lonEnd": -94.00942497,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 33.35599968,
+        "lonStart": -94.43798595,
+        "latEnd": 33.36146476,
+        "lonEnd": -94.43741351,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 9532
+    "id": 9914
   },
   {
     "type": 1,
@@ -120,7 +212,134 @@
         "surfacetype": 1
       }
     ],
-    "id": 10141
+    "id": 10032
+  },
+  {
+    "type": 1,
+    "icao": "21TX",
+    "lat": 33.4995675,
+    "lon": -94.09435778,
+    "communications": [],
+    "elevation": 350,
+    "tower": false,
+    "name": "Shillings",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 33.49990219,
+        "lonStart": -94.09894539,
+        "latEnd": 33.49923281,
+        "lonEnd": -94.08977017,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11371
+  },
+  {
+    "type": 17,
+    "icao": "22TX",
+    "lat": 33.46678777,
+    "lon": -94.31686473,
+    "communications": [],
+    "elevation": 298,
+    "tower": false,
+    "name": "[H] Red River Army Depot",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.46678777,
+        "lonStart": -94.31686473,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 11410
+  },
+  {
+    "type": 17,
+    "icao": "99TS",
+    "lat": 33.19817722,
+    "lon": -94.68131639,
+    "communications": [],
+    "elevation": 419,
+    "tower": false,
+    "name": "[H] David Granberry Memorial Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.19817722,
+        "lonStart": -94.68131639,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 14342
+  },
+  {
+    "type": 17,
+    "icao": "AR37",
+    "lat": 33.42734722,
+    "lon": -94.04213223,
+    "communications": [],
+    "elevation": 1100,
+    "tower": false,
+    "name": "[H] St Michael Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.42734722,
+        "lonStart": -94.04213223,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 14626
+  },
+  {
+    "type": 1,
+    "icao": "AR44",
+    "lat": 33.51262361,
+    "lon": -94.01352166999999,
+    "communications": [],
+    "elevation": 265,
+    "tower": false,
+    "name": "Flying W",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 33.51292244,
+        "lonStart": -94.01761837,
+        "latEnd": 33.51232478,
+        "lonEnd": -94.00942497,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14632
   },
   {
     "type": 1,
@@ -165,81 +384,39 @@
         "surfacetype": 3
       }
     ],
-    "id": 10966
+    "id": 18824
   },
   {
     "type": 1,
-    "icao": "TX35",
-    "lat": 33.44316888,
-    "lon": -94.81410167,
+    "icao": "KMSA",
+    "lat": 33.129359300000004,
+    "lon": -94.975630415,
     "communications": [],
-    "elevation": 345,
+    "elevation": 404,
     "tower": false,
-    "name": "Keys Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 19.2,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 33.4473688,
-        "lonStart": -94.81454202,
-        "latEnd": 33.43896896,
-        "lonEnd": -94.81366132,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 13805
-  },
-  {
-    "type": 1,
-    "icao": "4O4",
-    "lat": 33.9093635,
-    "lon": -94.85936,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12000,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 12392,
-        "name": "FORT WORTH CNTR"
-      }
-    ],
-    "elevation": 472,
-    "tower": false,
-    "name": "MC CURTAIN CO RGNL",
+    "name": "Mount Pleasant Municipal",
     "runways": [
       {
         "type": 100,
         "width": 22.86,
         "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 33.903044,
-        "lonStart": -94.862603,
-        "latEnd": 33.915683,
-        "lonEnd": -94.856117,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 33.13463194,
+        "lonStart": -94.9756925,
+        "latEnd": 33.12408666,
+        "lonEnd": -94.97556833,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 15964
+    "id": 19521
   },
   {
     "type": 1,
     "icao": "KOSA",
-    "lat": 33.095532000000006,
-    "lon": -94.961517,
+    "lat": 33.096894555000006,
+    "lon": -94.961753,
     "communications": [
       {
         "type": 50,
@@ -267,67 +444,15 @@
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 33.102336,
-        "lonStart": -94.962653,
+        "latStart": 33.10506111,
+        "lonStart": -94.963125,
         "latEnd": 33.088728,
         "lonEnd": -94.960381,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 16317
-  },
-  {
-    "type": 1,
-    "icao": "KMSA",
-    "lat": 33.129359300000004,
-    "lon": -94.975630415,
-    "communications": [],
-    "elevation": 404,
-    "tower": false,
-    "name": "Mount Pleasant Municipal",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 33.13463194,
-        "lonStart": -94.9756925,
-        "latEnd": 33.12408666,
-        "lonEnd": -94.97556833,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 17619
-  },
-  {
-    "type": 1,
-    "icao": "5AR8",
-    "lat": 33.6167875,
-    "lon": -94.11685972999999,
-    "communications": [],
-    "elevation": 321,
-    "tower": false,
-    "name": "Pine Prairie",
-    "runways": [
-      {
-        "type": 100,
-        "width": 13.72,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 33.62034662,
-        "lonStart": -94.11985234,
-        "latEnd": 33.61322838,
-        "lonEnd": -94.11386712,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 20151
+    "id": 19638
   },
   {
     "type": 1,
@@ -366,157 +491,32 @@
         "surfacetype": 1
       }
     ],
-    "id": 21859
+    "id": 30097
   },
   {
     "type": 1,
-    "icao": "21TX",
-    "lat": 33.4995675,
-    "lon": -94.09435778,
+    "icao": "TX35",
+    "lat": 33.44316888,
+    "lon": -94.81410167,
     "communications": [],
-    "elevation": 350,
+    "elevation": 345,
     "tower": false,
-    "name": "Shillings",
+    "name": "Keys Ranch",
     "runways": [
       {
         "type": 100,
-        "width": 22.86,
+        "width": 19.2,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 33.49990219,
-        "lonStart": -94.09894539,
-        "latEnd": 33.49923281,
-        "lonEnd": -94.08977017,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 33.4473688,
+        "lonStart": -94.81454202,
+        "latEnd": 33.43896896,
+        "lonEnd": -94.81366132,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 23419
-  },
-  {
-    "type": 17,
-    "icao": "99TS",
-    "lat": 33.19817722,
-    "lon": -94.68131639,
-    "communications": [],
-    "elevation": 419,
-    "tower": false,
-    "name": "[H] David Granberry Memorial Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.19817722,
-        "lonStart": -94.68131639,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 29270
-  },
-  {
-    "type": 17,
-    "icao": "1OK4",
-    "lat": 33.88233138,
-    "lon": -94.81132723,
-    "communications": [],
-    "elevation": 479,
-    "tower": false,
-    "name": "[H] Mc Curtain Memorial Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.88233138,
-        "lonStart": -94.81132723,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 31142
-  },
-  {
-    "type": 17,
-    "icao": "22TX",
-    "lat": 33.46678777,
-    "lon": -94.31686473,
-    "communications": [],
-    "elevation": 298,
-    "tower": false,
-    "name": "[H] Red River Army Depot",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.46678777,
-        "lonStart": -94.31686473,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 32283
-  },
-  {
-    "type": 17,
-    "icao": "AR37",
-    "lat": 33.42734722,
-    "lon": -94.04213223,
-    "communications": [],
-    "elevation": 1100,
-    "tower": false,
-    "name": "[H] St Michael Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.42734722,
-        "lonStart": -94.04213223,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 33000
-  },
-  {
-    "type": 17,
-    "icao": "2TS1",
-    "lat": 33.17611111,
-    "lon": -94.97083334,
-    "communications": [],
-    "elevation": 420,
-    "tower": false,
-    "name": "[H] Titus Regional Medical Center",
-    "runways": [
-      {
-        "type": 102,
-        "width": 7.6,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.17611111,
-        "lonStart": -94.97083334,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 7.6
-      }
-    ],
-    "id": 33335
+    "id": 30112
   }
 ]

@@ -1,64 +1,22 @@
 [
   {
     "type": 1,
-    "icao": "EJ6",
-    "lat": 53.8929155,
-    "lon": -110.7720845,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12320,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 1981,
-    "tower": false,
-    "name": "Elk Point",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 53.893056,
-        "lonStart": -110.7825,
-        "latEnd": 53.892775,
-        "lonEnd": -110.761669,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 7095
-  },
-  {
-    "type": 1,
     "icao": "CYLL",
-    "lat": 53.31046944799999,
-    "lon": -110.07931040199999,
+    "lat": 53.31017149,
+    "lon": -110.0797729725,
     "communications": [
+      {
+        "type": 54,
+        "frequency": 12220,
+        "name": "Lloyd Radio / Traffic"
+      },
       {
         "type": 50,
         "frequency": 12855,
         "name": "AWOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12220,
-        "name": "MULTICOM"
-      },
-      {
-        "type": 52,
-        "frequency": 12355,
-        "name": "RCO"
-      },
-      {
-        "type": 54,
-        "frequency": 13344,
-        "name": "PAL"
       }
     ],
-    "elevation": 2192,
+    "elevation": 2194,
     "tower": false,
     "name": "Lloydminster",
     "runways": [
@@ -68,10 +26,10 @@
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": 53.30921012,
-        "lonStart": -110.08528125,
-        "latEnd": 53.30921012,
-        "lonEnd": -110.05978042,
+        "latStart": 53.30923499,
+        "lonStart": -110.08531882,
+        "latEnd": 53.30923499,
+        "lonEnd": -110.05979777,
         "length": 0,
         "surfacetype": 1
       },
@@ -79,45 +37,33 @@
         "type": 100,
         "width": 30.48,
         "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 53.31244824,
-        "lonStart": -110.08893981,
-        "latEnd": 53.30973176,
-        "lonEnd": -110.08499419,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 53.31246623,
+        "lonStart": -110.08896046,
+        "latEnd": 53.30974975,
+        "lonEnd": -110.08501484,
         "length": 0,
         "surfacetype": 3
-      },
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 4,
-        "numberStart": "H01",
-        "numberEnd": null,
-        "latStart": 53.311747,
-        "lonStart": -110.07755634,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
       }
     ],
-    "id": 15372
+    "id": 784
   },
   {
     "type": 1,
     "icao": "CYVG",
-    "lat": 53.3559725,
-    "lon": -110.8233345,
+    "lat": 53.356892175,
+    "lon": -110.824844945,
     "communications": [
       {
-        "type": 51,
+        "type": 54,
         "frequency": 12280,
-        "name": "CTAF"
+        "name": "Traffic"
       }
     ],
-    "elevation": 2024,
+    "elevation": 2023,
     "tower": false,
-    "name": "VERMILION",
+    "name": "Vermilion",
     "runways": [
       {
         "type": 100,
@@ -125,14 +71,46 @@
         "surfaceType": null,
         "numberStart": "10",
         "numberEnd": "28",
-        "latStart": 53.358056,
-        "lonStart": -110.829719,
-        "latEnd": 53.353889,
-        "lonEnd": -110.81695,
+        "latStart": 53.35909904,
+        "lonStart": -110.83164669,
+        "latEnd": 53.35468531,
+        "lonEnd": -110.8180432,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 26071
+    "id": 848
+  },
+  {
+    "type": 1,
+    "icao": "EJ6",
+    "lat": 53.892923,
+    "lon": -110.772288285,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12320,
+        "name": "Traffic"
+      }
+    ],
+    "elevation": 1980,
+    "tower": false,
+    "name": "Elk Point",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 53.892923,
+        "lonStart": -110.78272467,
+        "latEnd": 53.892923,
+        "lonEnd": -110.7618519,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1673
   }
 ]

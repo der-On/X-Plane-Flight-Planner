@@ -63,7 +63,64 @@
         "length": 7
       }
     ],
-    "id": 1079
+    "id": 3618
+  },
+  {
+    "type": 1,
+    "icao": "LFSP",
+    "lat": 46.904966368,
+    "lon": 6.326727234000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 13570,
+        "name": "AA ATC"
+      }
+    ],
+    "elevation": 2683,
+    "tower": false,
+    "name": "Pontarlier",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 46.90005,
+        "lonStart": 6.3248,
+        "latEnd": 46.90847597,
+        "lonEnd": 6.32926449,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 80,
+        "surfaceType": null,
+        "numberStart": "02L",
+        "numberEnd": "20R",
+        "latStart": 46.90020528,
+        "lonStart": 6.32411086,
+        "latEnd": 46.90760958,
+        "lonEnd": 6.3280339,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 10,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 46.90849101,
+        "lonStart": 6.32742692,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10
+      }
+    ],
+    "id": 3691
   },
   {
     "type": 1,
@@ -95,13 +152,13 @@
         "surfacetype": 3
       }
     ],
-    "id": 2650
+    "id": 3934
   },
   {
     "type": 1,
     "icao": "LSGG",
-    "lat": 46.2377545425,
-    "lon": 6.1061726625,
+    "lat": 46.2379048290909,
+    "lon": 6.103954069090909,
     "communications": [
       {
         "type": 50,
@@ -115,18 +172,13 @@
       },
       {
         "type": 53,
-        "frequency": 11870,
+        "frequency": 12185,
         "name": "Geneva Apron"
       },
       {
         "type": 53,
         "frequency": 12167,
         "name": "Geneva Ground"
-      },
-      {
-        "type": 53,
-        "frequency": 11970,
-        "name": "Geneva Ground (auxiliary)"
       },
       {
         "type": 54,
@@ -198,41 +250,93 @@
         "lonEnd": 6.10715805,
         "length": 0,
         "surfacetype": 3
-      }
-    ],
-    "id": 10394
-  },
-  {
-    "type": 1,
-    "icao": "LSGP",
-    "lat": 46.40647253,
-    "lon": 6.25813786,
-    "communications": [
+      },
       {
-        "type": 54,
-        "frequency": 12365,
-        "name": "AFIS"
-      }
-    ],
-    "elevation": 1350,
-    "tower": true,
-    "name": "La Cote",
-    "runways": [
+        "type": 102,
+        "width": 18,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 46.23786745,
+        "lonStart": 6.10250506,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      },
       {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 46.40452505,
-        "lonStart": 6.25576788,
-        "latEnd": 46.40842001,
-        "lonEnd": 6.26050784,
-        "length": 0,
-        "surfacetype": 15
+        "type": 102,
+        "width": 18,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 46.23798965,
+        "lonStart": 6.10268605,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      },
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 46.23811406,
+        "lonStart": 6.10286704,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      },
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 2,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 46.23823684,
+        "lonStart": 6.10304804,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      },
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 2,
+        "numberStart": "H5",
+        "numberEnd": null,
+        "latStart": 46.23835962,
+        "lonStart": 6.10322903,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      },
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 2,
+        "numberStart": "H6",
+        "numberEnd": null,
+        "latStart": 46.23774451,
+        "lonStart": 6.10232581,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      },
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 2,
+        "numberStart": "H7",
+        "numberEnd": null,
+        "latStart": 46.23762282,
+        "lonStart": 6.10214308,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
       }
     ],
-    "id": 14701
+    "id": 3937
   },
   {
     "type": 1,
@@ -341,65 +445,7 @@
         "length": 5
       }
     ],
-    "id": 15023
-  },
-  {
-    "type": 1,
-    "icao": "LSTR",
-    "lat": 46.590230930000004,
-    "lon": 6.40060785,
-    "communications": [],
-    "elevation": 2178,
-    "tower": true,
-    "name": "Montricher",
-    "runways": [
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 46.59296801,
-        "lonStart": 6.40271668,
-        "latEnd": 46.58749385,
-        "lonEnd": 6.39849902,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 17446
-  },
-  {
-    "type": 1,
-    "icao": "LSTO",
-    "lat": 46.916603,
-    "lon": 6.614999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12665,
-        "name": "AFIS"
-      }
-    ],
-    "elevation": 2402,
-    "tower": false,
-    "name": "Motiers",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 46.91502707,
-        "lonStart": 6.61306306,
-        "latEnd": 46.91817893,
-        "lonEnd": 6.61693494,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 17575
+    "id": 3939
   },
   {
     "type": 1,
@@ -456,7 +502,197 @@
         "length": 12
       }
     ],
-    "id": 18222
+    "id": 3940
+  },
+  {
+    "type": 1,
+    "icao": "LSGY",
+    "lat": 46.76183237,
+    "lon": 6.613348567499999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13112,
+        "name": "AFIS"
+      },
+      {
+        "type": 54,
+        "frequency": 13260,
+        "name": "ATIS"
+      }
+    ],
+    "elevation": 1420,
+    "tower": true,
+    "name": "Yverdon Les Bains",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 46.75923612,
+        "lonStart": 6.6090579,
+        "latEnd": 46.76459195,
+        "lonEnd": 6.61734047,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "05R",
+        "numberEnd": "23L",
+        "latStart": 46.75949842,
+        "lonStart": 6.61001564,
+        "latEnd": 46.76400299,
+        "lonEnd": 6.61698026,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3943
+  },
+  {
+    "type": 1,
+    "icao": "LSTO",
+    "lat": 46.916603,
+    "lon": 6.614999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12665,
+        "name": "AFIS"
+      }
+    ],
+    "elevation": 2401,
+    "tower": false,
+    "name": "Motiers",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 46.91502707,
+        "lonStart": 6.61306306,
+        "latEnd": 46.91817893,
+        "lonEnd": 6.61693494,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3961
+  },
+  {
+    "type": 1,
+    "icao": "LSTR",
+    "lat": 46.59021,
+    "lon": 6.400687005,
+    "communications": [],
+    "elevation": 2178,
+    "tower": true,
+    "name": "Montricher",
+    "runways": [
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 46.5883485,
+        "lonStart": 6.39926701,
+        "latEnd": 46.5920715,
+        "lonEnd": 6.402107,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3962
+  },
+  {
+    "type": 1,
+    "icao": "LSGP",
+    "lat": 46.40647253,
+    "lon": 6.25813786,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12365,
+        "name": "AFIS"
+      }
+    ],
+    "elevation": 1350,
+    "tower": true,
+    "name": "La Cote",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 46.40452505,
+        "lonStart": 6.25576788,
+        "latEnd": 46.40842001,
+        "lonEnd": 6.26050784,
+        "length": 0,
+        "surfacetype": 15
+      }
+    ],
+    "id": 20878
+  },
+  {
+    "type": 17,
+    "icao": "LSHC",
+    "lat": 46.268484,
+    "lon": 6.959769,
+    "communications": [],
+    "elevation": 1289,
+    "tower": false,
+    "name": "[H] Collombey Muraz",
+    "runways": [
+      {
+        "type": 102,
+        "width": 25,
+        "surfaceType": 2,
+        "numberStart": "H17",
+        "numberEnd": null,
+        "latStart": 46.268484,
+        "lonStart": 6.959769,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 25
+      }
+    ],
+    "id": 20881
+  },
+  {
+    "type": 17,
+    "icao": "LSHS",
+    "lat": 46.147632,
+    "lon": 6.013574,
+    "communications": [],
+    "elevation": 1414,
+    "tower": false,
+    "name": "[H] Sezegnin",
+    "runways": [
+      {
+        "type": 102,
+        "width": 25,
+        "surfaceType": 2,
+        "numberStart": "H17",
+        "numberEnd": null,
+        "latStart": 46.147632,
+        "lonStart": 6.013574,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 25
+      }
+    ],
+    "id": 20883
   },
   {
     "type": 1,
@@ -493,119 +729,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 19879
-  },
-  {
-    "type": 1,
-    "icao": "LFSP",
-    "lat": 46.904269,
-    "lon": 6.326942,
-    "communications": [],
-    "elevation": 2683,
-    "tower": false,
-    "name": "Pontarlier",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 46.900069,
-        "lonStart": 6.324617,
-        "latEnd": 46.908469,
-        "lonEnd": 6.329267,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 20350
-  },
-  {
-    "type": 1,
-    "icao": "LSGY",
-    "lat": 46.761901675,
-    "lon": 6.613994335,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13112,
-        "name": "AFIS"
-      },
-      {
-        "type": 54,
-        "frequency": 13260,
-        "name": "ATIS"
-      }
-    ],
-    "elevation": 1419,
-    "tower": true,
-    "name": "Yverdon Les Bains",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 46.75967272,
-        "lonStart": 6.61051725,
-        "latEnd": 46.76413063,
-        "lonEnd": 6.61747142,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 27818
-  },
-  {
-    "type": 17,
-    "icao": "LSHC",
-    "lat": 46.268484,
-    "lon": 6.959769,
-    "communications": [],
-    "elevation": 1289,
-    "tower": false,
-    "name": "[H] Collombey Muraz",
-    "runways": [
-      {
-        "type": 102,
-        "width": 25,
-        "surfaceType": 2,
-        "numberStart": "H17",
-        "numberEnd": null,
-        "latStart": 46.268484,
-        "lonStart": 6.959769,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 25
-      }
-    ],
-    "id": 29050
-  },
-  {
-    "type": 17,
-    "icao": "LSHS",
-    "lat": 46.147632,
-    "lon": 6.013574,
-    "communications": [],
-    "elevation": 1414,
-    "tower": false,
-    "name": "[H] Sezegnin",
-    "runways": [
-      {
-        "type": 102,
-        "width": 25,
-        "surfaceType": 2,
-        "numberStart": "H17",
-        "numberEnd": null,
-        "latStart": 46.147632,
-        "lonStart": 6.013574,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 25
-      }
-    ],
-    "id": 32652
+    "id": 20887
   }
 ]

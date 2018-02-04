@@ -1,29 +1,67 @@
 [
   {
     "type": 1,
-    "icao": "EBBX",
-    "lat": 49.887264,
-    "lon": 5.228861,
-    "communications": [],
-    "elevation": 1514,
-    "tower": false,
-    "name": "Bertrix",
+    "icao": "ELNT",
+    "lat": 49.98094477,
+    "lon": 5.918154015,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12695,
+        "name": "Noertrange Information"
+      }
+    ],
+    "elevation": 1522,
+    "tower": true,
+    "name": "Noertrange",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 30,
         "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 49.881611,
-        "lonStart": 5.214611,
-        "latEnd": 49.892917,
-        "lonEnd": 5.243111,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 49.98020538,
+        "lonStart": 5.91370285,
+        "latEnd": 49.98168416,
+        "lonEnd": 5.92260518,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 3
       }
     ],
-    "id": 2616
+    "id": 1724
+  },
+  {
+    "type": 1,
+    "icao": "ELUS",
+    "lat": 49.768224805,
+    "lon": 5.9664899,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12997,
+        "name": "Useldange"
+      }
+    ],
+    "elevation": 925,
+    "tower": true,
+    "name": "Useldange",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 49.76881502,
+        "lonStart": 5.95964289,
+        "latEnd": 49.76763459,
+        "lonEnd": 5.97333691,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1725
   },
   {
     "type": 1,
@@ -81,7 +119,59 @@
         "surfacetype": 1
       }
     ],
-    "id": 4772
+    "id": 3610
+  },
+  {
+    "type": 1,
+    "icao": "EBBX",
+    "lat": 49.887264,
+    "lon": 5.228861,
+    "communications": [],
+    "elevation": 1514,
+    "tower": false,
+    "name": "Bertrix",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 49.881611,
+        "lonStart": 5.214611,
+        "latEnd": 49.892917,
+        "lonEnd": 5.243111,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 16129
+  },
+  {
+    "type": 1,
+    "icao": "LFAW",
+    "lat": 49.411389,
+    "lon": 5.890556,
+    "communications": [],
+    "elevation": 1298,
+    "tower": false,
+    "name": "Villerupt",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 49.41021113,
+        "lonStart": 5.88629102,
+        "latEnd": 49.41256687,
+        "lonEnd": 5.89482098,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20210
   },
   {
     "type": 1,
@@ -107,7 +197,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 6376
+    "id": 20297
   },
   {
     "type": 1,
@@ -133,33 +223,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 15484
+    "id": 20298
   },
   {
     "type": 1,
-    "icao": "LFYK",
-    "lat": 49.454167,
-    "lon": 5.431111,
+    "icao": "LFGW",
+    "lat": 49.122384499999995,
+    "lon": 5.469028,
     "communications": [],
-    "elevation": 909,
-    "tower": true,
-    "name": "Montmedy Marville",
+    "elevation": 1229,
+    "tower": false,
+    "name": "Verdun Le Rozelier",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 20.12,
         "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 49.45956656,
-        "lonStart": 5.41672408,
-        "latEnd": 49.44876744,
-        "lonEnd": 5.44549792,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 49.123222,
+        "lonStart": 5.461481,
+        "latEnd": 49.121547,
+        "lonEnd": 5.476575,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 17437
+    "id": 20302
   },
   {
     "type": 1,
@@ -191,7 +281,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 21054
+    "id": 20435
   },
   {
     "type": 1,
@@ -243,58 +333,32 @@
         "surfacetype": 3
       }
     ],
-    "id": 23205
+    "id": 20457
   },
   {
     "type": 1,
-    "icao": "LFGW",
-    "lat": 49.122384499999995,
-    "lon": 5.469028,
+    "icao": "LFYK",
+    "lat": 49.454167,
+    "lon": 5.431111,
     "communications": [],
-    "elevation": 1229,
-    "tower": false,
-    "name": "Verdun Le Rozelier",
+    "elevation": 909,
+    "tower": true,
+    "name": "Montmedy Marville",
     "runways": [
       {
         "type": 100,
-        "width": 20.12,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 49.123222,
-        "lonStart": 5.461481,
-        "latEnd": 49.121547,
-        "lonEnd": 5.476575,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 49.45956656,
+        "lonStart": 5.41672408,
+        "latEnd": 49.44876744,
+        "lonEnd": 5.44549792,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 26276
-  },
-  {
-    "type": 1,
-    "icao": "LFAW",
-    "lat": 49.411389,
-    "lon": 5.890556,
-    "communications": [],
-    "elevation": 1298,
-    "tower": false,
-    "name": "Villerupt",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 49.41021113,
-        "lonStart": 5.88629102,
-        "latEnd": 49.41256687,
-        "lonEnd": 5.89482098,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 26344
+    "id": 20474
   }
 ]

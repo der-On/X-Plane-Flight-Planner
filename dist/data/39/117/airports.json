@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "ZBTJ",
-    "lat": 39.1243515,
-    "lon": 117.346182,
+    "lat": 39.127214625,
+    "lon": 117.3579510925,
     "communications": [
       {
         "type": 50,
@@ -12,48 +12,61 @@
       },
       {
         "type": 53,
-        "frequency": 12175,
-        "name": "RAMP CON"
+        "frequency": 12195,
+        "name": "GND"
       },
       {
         "type": 54,
-        "frequency": 12790,
-        "name": "TIANJIN TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 13000,
-        "name": "TIANJIN TWR"
-      },
-      {
-        "type": 55,
         "frequency": 11820,
-        "name": "TIANJIN APP"
+        "name": "TWR"
+      },
+      {
+        "type": 52,
+        "frequency": 12180,
+        "name": "DLV"
       },
       {
         "type": 55,
-        "frequency": 12090,
-        "name": "TIANJIN APP"
+        "frequency": 12790,
+        "name": "APP"
+      },
+      {
+        "type": 56,
+        "frequency": 12525,
+        "name": "DEP"
       }
     ],
-    "elevation": 9,
+    "elevation": 13,
     "tower": true,
-    "name": "BINHAI",
+    "name": "TIANJIN Binhai International",
     "runways": [
       {
         "type": 100,
-        "width": 49.99,
+        "width": 45,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 39.137353,
-        "lonStart": 117.338208,
-        "latEnd": 39.11135,
-        "lonEnd": 117.354156,
+        "numberStart": "16L",
+        "numberEnd": "34R",
+        "latStart": 39.141445,
+        "lonStart": 117.362687,
+        "latEnd": 39.1154285,
+        "lonEnd": 117.37862637,
         "length": 0,
         "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "16R",
+        "numberEnd": "34L",
+        "latStart": 39.140617,
+        "lonStart": 117.336267,
+        "latEnd": 39.111368,
+        "lonEnd": 117.354224,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "id": 1732
+    "id": 5624
   }
 ]

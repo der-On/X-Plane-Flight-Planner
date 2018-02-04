@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "CYQB",
-    "lat": 46.78945825,
-    "lon": -71.392764,
+    "lat": 46.791649230000004,
+    "lon": -71.38895165599999,
     "communications": [
       {
         "type": 50,
@@ -14,11 +14,6 @@
         "type": 53,
         "frequency": 12190,
         "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12030,
-        "name": "TWR"
       },
       {
         "type": 54,
@@ -38,36 +33,48 @@
     ],
     "elevation": 244,
     "tower": true,
-    "name": "Quebec Jean Lesage Intl",
+    "name": "Quebec Jean Lesage International",
     "runways": [
       {
         "type": 100,
-        "width": 45.72,
+        "width": 46,
         "surfaceType": null,
         "numberStart": "06",
         "numberEnd": "24",
-        "latStart": 46.782222,
-        "lonStart": -71.406389,
-        "latEnd": 46.8,
-        "lonEnd": -71.381306,
+        "latStart": 46.78210669,
+        "lonStart": -71.40622065,
+        "latEnd": 46.79988469,
+        "lonEnd": -71.38113765,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 45.72,
+        "width": 46,
         "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 46.788833,
-        "lonStart": -71.402944,
-        "latEnd": 46.786778,
-        "lonEnd": -71.380417,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 46.78887968,
+        "lonStart": -71.40288085,
+        "latEnd": 46.78670433,
+        "lonEnd": -71.38027475,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 15,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 46.80067076,
+        "lonStart": -71.37424438,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15
       }
     ],
-    "id": 20699
+    "id": 811
   },
   {
     "type": 1,
@@ -112,7 +119,7 @@
         "surfacetype": 5
       }
     ],
-    "id": 22468
+    "id": 15582
   },
   {
     "type": 1,
@@ -149,7 +156,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 24687
+    "id": 15589
   },
   {
     "type": 1,
@@ -186,6 +193,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 26084
+    "id": 15592
   }
 ]

@@ -1,31 +1,5 @@
 [
   {
-    "type": 1,
-    "icao": "CNU4",
-    "lat": 44.1922755,
-    "lon": -77.30966950000001,
-    "communications": [],
-    "elevation": 319,
-    "tower": false,
-    "name": "Bellevile",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 44.190945,
-        "lonStart": -77.315211,
-        "latEnd": 44.193606,
-        "lonEnd": -77.304128,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 2507
-  },
-  {
     "type": 17,
     "icao": "CBV5",
     "lat": 44.16721434,
@@ -54,128 +28,33 @@
         "length": 31.1
       }
     ],
-    "id": 2508
+    "id": 645
   },
   {
     "type": 1,
-    "icao": "CPU6",
-    "lat": 44.183796666666666,
-    "lon": -77.10981483333335,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12350,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 260,
+    "icao": "CNU4",
+    "lat": 44.1922755,
+    "lon": -77.30966950000001,
+    "communications": [],
+    "elevation": 319,
     "tower": false,
-    "name": "MOHAWK",
+    "name": "Bellevile",
     "runways": [
       {
         "type": 100,
-        "width": 45.72,
+        "width": 30.48,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 44.181389,
-        "lonStart": -77.1175,
-        "latEnd": 44.183889,
-        "lonEnd": -77.101667,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 44.190945,
+        "lonStart": -77.315211,
+        "latEnd": 44.193606,
+        "lonEnd": -77.304128,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 44.181389,
-        "lonStart": -77.1175,
-        "latEnd": 44.186944,
-        "lonEnd": -77.108889,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 44.187222,
-        "lonStart": -77.11,
-        "latEnd": 44.181947,
-        "lonEnd": -77.103333,
-        "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 16175
-  },
-  {
-    "type": 1,
-    "icao": "PZ3",
-    "lat": 44.0718525,
-    "lon": -77.33856483333334,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12330,
-        "name": "CTAF"
-      },
-      {
-        "type": 54,
-        "frequency": 12870,
-        "name": "TRENTON TWR"
-      }
-    ],
-    "elevation": 362,
-    "tower": true,
-    "name": "Mountain View",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 44.064725,
-        "lonStart": -77.345,
-        "latEnd": 44.073892,
-        "lonEnd": -77.330833,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 44.075553,
-        "lonStart": -77.343331,
-        "latEnd": 44.068889,
-        "lonEnd": -77.336389,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 44.073892,
-        "lonStart": -77.343614,
-        "latEnd": 44.074164,
-        "lonEnd": -77.332222,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 17640
+    "id": 695
   },
   {
     "type": 1,
@@ -263,6 +142,127 @@
         "length": 30.5
       }
     ],
-    "id": 24846
+    "id": 844
+  },
+  {
+    "type": 1,
+    "icao": "CPU6",
+    "lat": 44.183796666666666,
+    "lon": -77.10981483333335,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12350,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 260,
+    "tower": false,
+    "name": "MOHAWK",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 44.181389,
+        "lonStart": -77.1175,
+        "latEnd": 44.183889,
+        "lonEnd": -77.101667,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 44.181389,
+        "lonStart": -77.1175,
+        "latEnd": 44.186944,
+        "lonEnd": -77.108889,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 44.187222,
+        "lonStart": -77.11,
+        "latEnd": 44.181947,
+        "lonEnd": -77.103333,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 15563
+  },
+  {
+    "type": 1,
+    "icao": "XCYCPZ3",
+    "lat": 44.0718525,
+    "lon": -77.33856483333334,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12330,
+        "name": "CTAF"
+      },
+      {
+        "type": 54,
+        "frequency": 12870,
+        "name": "TRENTON TWR"
+      }
+    ],
+    "elevation": 362,
+    "tower": true,
+    "name": "Mountain View",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 44.064725,
+        "lonStart": -77.345,
+        "latEnd": 44.073892,
+        "lonEnd": -77.330833,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 44.075553,
+        "lonStart": -77.343331,
+        "latEnd": 44.068889,
+        "lonEnd": -77.336389,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 44.073892,
+        "lonStart": -77.343614,
+        "latEnd": 44.074164,
+        "lonEnd": -77.332222,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 32411
   }
 ]

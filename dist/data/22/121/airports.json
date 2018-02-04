@@ -3,37 +3,37 @@
     "type": 1,
     "icao": "RCFN",
     "lat": 22.754872,
-    "lon": 121.10165,
+    "lon": 121.10165047000001,
     "communications": [
       {
         "type": 50,
         "frequency": 12700,
-        "name": "ATIS"
-      },
-      {
-        "type": 54,
-        "frequency": 12190,
-        "name": "TWR"
+        "name": "Taitung Fongnian ATIS"
       },
       {
         "type": 54,
         "frequency": 11810,
-        "name": "TWR"
+        "name": "Taitung Fongnian TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 23660,
+        "name": "Taitung Fongnian TWR"
       },
       {
         "type": 55,
         "frequency": 11940,
-        "name": "TAITUNG APP"
+        "name": "KAOHSIUNG APP"
       },
       {
         "type": 55,
         "frequency": 12310,
-        "name": "TAITUNG APP"
+        "name": "KAOHSIUNG APP"
       }
     ],
     "elevation": 143,
     "tower": true,
-    "name": "FENGNIN",
+    "name": "Taitung Fongnian",
     "runways": [
       {
         "type": 100,
@@ -41,15 +41,113 @@
         "surfaceType": null,
         "numberStart": "04",
         "numberEnd": "22",
-        "latStart": 22.746275,
-        "lonStart": 121.094231,
-        "latEnd": 22.763469,
-        "lonEnd": 121.109069,
+        "latStart": 22.74628846,
+        "lonStart": 121.09424262,
+        "latEnd": 22.76345554,
+        "lonEnd": 121.10905832,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 7536
+    "id": 24339
+  },
+  {
+    "type": 1,
+    "icao": "RCGI",
+    "lat": 22.673379036666663,
+    "lon": 121.46669562,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11880,
+        "name": "LUDAO TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12150,
+        "name": "LUDAO TWR"
+      }
+    ],
+    "elevation": 27,
+    "tower": true,
+    "name": "LYUDAO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 23,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 22.67782767,
+        "lonStart": 121.46525517,
+        "latEnd": 22.66987533,
+        "lonEnd": 121.46764469,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 28.5,
+        "surfaceType": 2,
+        "numberStart": "H",
+        "numberEnd": null,
+        "latStart": 22.67243411,
+        "lonStart": 121.467187,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 28.3
+      }
+    ],
+    "id": 24340
+  },
+  {
+    "type": 1,
+    "icao": "RCLY",
+    "lat": 22.02846857333333,
+    "lon": 121.53392894333335,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11850,
+        "name": "LANYU TOWER"
+      },
+      {
+        "type": 54,
+        "frequency": 12150,
+        "name": "LANYU TOWER"
+      }
+    ],
+    "elevation": 44,
+    "tower": true,
+    "name": "LANYU",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.08,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 22.03247601,
+        "lonStart": 121.52902251,
+        "latEnd": 22.02520699,
+        "lonEnd": 121.53825825,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 30.37,
+        "surfaceType": 1,
+        "numberStart": "H",
+        "numberEnd": null,
+        "latStart": 22.02772272,
+        "lonStart": 121.53450607,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.4
+      }
+    ],
+    "id": 24343
   },
   {
     "type": 1,
@@ -91,70 +189,6 @@
         "surfacetype": 2
       }
     ],
-    "id": 12741
-  },
-  {
-    "type": 1,
-    "icao": "RCLY",
-    "lat": 22.0288415,
-    "lon": 121.53364049999999,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11850,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 44,
-    "tower": true,
-    "name": "LANYU",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.08,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 22.032489,
-        "lonStart": 121.529006,
-        "latEnd": 22.025194,
-        "lonEnd": 121.538275,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 14385
-  },
-  {
-    "type": 1,
-    "icao": "RCGI",
-    "lat": 22.673851499999998,
-    "lon": 121.46645,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11880,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 28,
-    "tower": true,
-    "name": "LYUDAO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 22.678364,
-        "lonStart": 121.465094,
-        "latEnd": 22.669339,
-        "lonEnd": 121.467806,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 14692
+    "id": 24346
   }
 ]

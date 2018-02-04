@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "NTGF",
+    "lat": -16.054606720000002,
+    "lon": -145.65793589,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11990,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 13,
+    "tower": false,
+    "name": "FAKARAVA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -16.05734444,
+        "lonStart": -145.66385278,
+        "latEnd": -16.051869,
+        "lonEnd": -145.652019,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22877
+  },
+  {
+    "type": 1,
     "icao": "NTKF",
     "lat": -16.686733,
     "lon": -145.32919600000002,
@@ -23,38 +55,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 7385
-  },
-  {
-    "type": 1,
-    "icao": "NTGF",
-    "lat": -16.05415,
-    "lon": -145.6569955,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11990,
-        "name": "INFO"
-      }
-    ],
-    "elevation": 13,
-    "tower": false,
-    "name": "FAKARAVA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": -16.056431,
-        "lonStart": -145.661972,
-        "latEnd": -16.051869,
-        "lonEnd": -145.652019,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 7407
+    "id": 22887
   }
 ]

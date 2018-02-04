@@ -1,55 +1,98 @@
 [
   {
     "type": 1,
-    "icao": "94MN",
-    "lat": 46.57662694,
-    "lon": -96.51201501,
-    "communications": [],
-    "elevation": 959,
-    "tower": false,
-    "name": "Ag Spray Inc",
+    "icao": "KFAR",
+    "lat": 46.920608695714286,
+    "lon": -96.81449633428574,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12450,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND/CLNC DEL"
+      },
+      {
+        "type": 54,
+        "frequency": 13380,
+        "name": "FARGO TWR"
+      },
+      {
+        "type": 56,
+        "frequency": 12040,
+        "name": "FARGO APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12770,
+        "name": "FARGO APP/DEP"
+      }
+    ],
+    "elevation": 900,
+    "tower": true,
+    "name": "HECTOR INTL",
     "runways": [
       {
         "type": 100,
-        "width": 15.24,
+        "width": 45.72,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 46.58073139,
-        "lonStart": -96.51243255,
-        "latEnd": 46.57252249,
-        "lonEnd": -96.51159747,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 46.932867,
+        "lonStart": -96.816106,
+        "latEnd": 46.908192,
+        "lonEnd": -96.816403,
         "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 673
-  },
-  {
-    "type": 1,
-    "icao": "8M3",
-    "lat": 46.66523777,
-    "lon": -96.44117944999999,
-    "communications": [],
-    "elevation": 979,
-    "tower": false,
-    "name": "Barnesville Municipal",
-    "runways": [
+        "surfacetype": 2
+      },
       {
         "type": 100,
-        "width": 24.38,
+        "width": 30.48,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 46.66893998,
-        "lonStart": -96.44155669,
-        "latEnd": 46.66153556,
-        "lonEnd": -96.44080221,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 46.927136,
+        "lonStart": -96.827319,
+        "latEnd": 46.926994,
+        "lonEnd": -96.802108,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 46.914128,
+        "lonStart": -96.821483,
+        "latEnd": 46.906461,
+        "lonEnd": -96.811178,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 15.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 46.92848287,
+        "lonStart": -96.80687734,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
       }
     ],
-    "id": 2252
+    "id": 2650
   },
   {
     "type": 1,
@@ -75,104 +118,85 @@
         "surfacetype": 3
       }
     ],
-    "id": 2561
+    "id": 6008
   },
   {
     "type": 1,
-    "icao": "92MN",
-    "lat": 46.01440416,
-    "lon": -96.10172417,
+    "icao": "1MN0",
+    "lat": 46.043570270000004,
+    "lon": -96.54618112,
     "communications": [],
-    "elevation": 1126,
+    "elevation": 979,
     "tower": false,
-    "name": "Brutlag Farms",
+    "name": "Wetherbee Farm",
     "runways": [
       {
         "type": 100,
-        "width": 18.29,
+        "width": 24.38,
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 46.0186396,
-        "lonStart": -96.10225774,
-        "latEnd": 46.01016872,
-        "lonEnd": -96.1011906,
+        "latStart": 46.04712746,
+        "lonStart": -96.54653948,
+        "latEnd": 46.04001308,
+        "lonEnd": -96.54582276,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 3299
+    "id": 6548
   },
   {
     "type": 1,
-    "icao": "ND99",
-    "lat": 46.72024166,
-    "lon": -96.80952778,
+    "icao": "2NA3",
+    "lat": 46.450795830000004,
+    "lon": -96.99286305999999,
     "communications": [],
-    "elevation": 910,
+    "elevation": 1036,
     "tower": false,
-    "name": "Ellig Field",
+    "name": "Hendrickson Farm",
     "runways": [
       {
         "type": 100,
-        "width": 20.12,
+        "width": 19.81,
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 46.72384256,
-        "lonStart": -96.80897572,
-        "latEnd": 46.71664076,
-        "lonEnd": -96.81007984,
+        "latStart": 46.45447857,
+        "lonStart": -96.99230125,
+        "latEnd": 46.44711309,
+        "lonEnd": -96.99342487,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 7106
+    "id": 7146
   },
   {
     "type": 1,
-    "icao": "KFFM",
-    "lat": 46.284535500000004,
-    "lon": -96.1575895,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 1182,
+    "icao": "2NA4",
+    "lat": 46.334126940000004,
+    "lon": -96.95091694999999,
+    "communications": [],
+    "elevation": 998,
     "tower": false,
-    "name": "FERGUS FALLS MUNI EINAR MICKELSON FLD",
+    "name": "Woodbury",
     "runways": [
       {
         "type": 100,
-        "width": 30.48,
+        "width": 15.24,
         "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 46.289289,
-        "lonStart": -96.162261,
-        "latEnd": 46.278703,
-        "lonEnd": -96.146008,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 46.33389733,
+        "lonStart": -96.95567262,
+        "latEnd": 46.33435655,
+        "lonEnd": -96.94616128,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 46.2896,
-        "lonStart": -96.161131,
-        "latEnd": 46.28055,
-        "lonEnd": -96.160958,
-        "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 7538
+    "id": 7147
   },
   {
     "type": 1,
@@ -198,7 +222,439 @@
         "surfacetype": 3
       }
     ],
-    "id": 9358
+    "id": 7150
+  },
+  {
+    "type": 1,
+    "icao": "04Y",
+    "lat": 46.8838205,
+    "lon": -96.35025999999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12040,
+        "name": "FARGO APP/DEP"
+      }
+    ],
+    "elevation": 1208,
+    "tower": false,
+    "name": "HAWLEY MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 46.888244,
+        "lonStart": -96.352428,
+        "latEnd": 46.879397,
+        "lonEnd": -96.348092,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 8467
+  },
+  {
+    "type": 1,
+    "icao": "5NA5",
+    "lat": 46.822745,
+    "lon": -96.92980778,
+    "communications": [],
+    "elevation": 905,
+    "tower": false,
+    "name": "Olson Private Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 46.82629134,
+        "lonStart": -96.92926305,
+        "latEnd": 46.81919866,
+        "lonEnd": -96.93035251,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 8753
+  },
+  {
+    "type": 1,
+    "icao": "6NA2",
+    "lat": 46.792464159999994,
+    "lon": -96.80369389,
+    "communications": [],
+    "elevation": 910,
+    "tower": false,
+    "name": "South Hector Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 46.79520046,
+        "lonStart": -96.80397337,
+        "latEnd": 46.78972786,
+        "lonEnd": -96.80341441,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9261
+  },
+  {
+    "type": 1,
+    "icao": "8M3",
+    "lat": 46.66523777,
+    "lon": -96.44117944999999,
+    "communications": [],
+    "elevation": 979,
+    "tower": false,
+    "name": "Barnesville Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 46.66893998,
+        "lonStart": -96.44155669,
+        "latEnd": 46.66153556,
+        "lonEnd": -96.44080221,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10153
+  },
+  {
+    "type": 1,
+    "icao": "9MN5",
+    "lat": 46.71190361,
+    "lon": -96.35145473,
+    "communications": [],
+    "elevation": 1100,
+    "tower": false,
+    "name": "Janssen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 46.70917566,
+        "lonStart": -96.35187289,
+        "latEnd": 46.71463156,
+        "lonEnd": -96.35103657,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10627
+  },
+  {
+    "type": 1,
+    "icao": "29MN",
+    "lat": 46.02829305,
+    "lon": -96.36284278,
+    "communications": [],
+    "elevation": 990,
+    "tower": false,
+    "name": "Wetenkamp",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 46.0323975,
+        "lonStart": -96.36325616,
+        "latEnd": 46.0241886,
+        "lonEnd": -96.3624294,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11674
+  },
+  {
+    "type": 1,
+    "icao": "33MN",
+    "lat": 46.089959719999996,
+    "lon": -96.09700223,
+    "communications": [],
+    "elevation": 1100,
+    "tower": false,
+    "name": "Swift - Private",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 46.09017488,
+        "lonStart": -96.10054828,
+        "latEnd": 46.08974456,
+        "lonEnd": -96.09345618,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11821
+  },
+  {
+    "type": 1,
+    "icao": "36MN",
+    "lat": 46.67162777,
+    "lon": -96.57535112,
+    "communications": [],
+    "elevation": 935,
+    "tower": false,
+    "name": "Wagner Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 46.67210086,
+        "lonStart": -96.58191082,
+        "latEnd": 46.67115468,
+        "lonEnd": -96.56879142,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11942
+  },
+  {
+    "type": 17,
+    "icao": "40ND",
+    "lat": 46.3846825,
+    "lon": -96.82258001,
+    "communications": [],
+    "elevation": 951,
+    "tower": false,
+    "name": "[H] Gorder Farm",
+    "runways": [
+      {
+        "type": 102,
+        "width": 61,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 46.3846825,
+        "lonStart": -96.82258001,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 152.4
+      }
+    ],
+    "id": 12103
+  },
+  {
+    "type": 1,
+    "icao": "46ND",
+    "lat": 46.98107916,
+    "lon": -96.92119417,
+    "communications": [],
+    "elevation": 890,
+    "tower": false,
+    "name": "Monson Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 46.9842259,
+        "lonStart": -96.9215167,
+        "latEnd": 46.97793242,
+        "lonEnd": -96.92087164,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12337
+  },
+  {
+    "type": 1,
+    "icao": "47Y",
+    "lat": 46.64162527,
+    "lon": -96.10450195,
+    "communications": [],
+    "elevation": 1389,
+    "tower": false,
+    "name": "Pelican Rapids Municipal-Lyons Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 46.64567742,
+        "lonStart": -96.10725415,
+        "latEnd": 46.63757312,
+        "lonEnd": -96.10174975,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12390
+  },
+  {
+    "type": 1,
+    "icao": "68MN",
+    "lat": 46.67134888,
+    "lon": -96.45090223,
+    "communications": [],
+    "elevation": 965,
+    "tower": false,
+    "name": "Mathew Private Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 46.67434963,
+        "lonStart": -96.4504426,
+        "latEnd": 46.66834813,
+        "lonEnd": -96.45136186,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13200
+  },
+  {
+    "type": 1,
+    "icao": "69MN",
+    "lat": 46.277737220000006,
+    "lon": -96.42951334,
+    "communications": [],
+    "elevation": 981,
+    "tower": false,
+    "name": "Yaggie - Private",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 46.28114716,
+        "lonStart": -96.42899479,
+        "latEnd": 46.27432728,
+        "lonEnd": -96.43003189,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13241
+  },
+  {
+    "type": 1,
+    "icao": "92MN",
+    "lat": 46.01440416,
+    "lon": -96.10172417,
+    "communications": [],
+    "elevation": 1126,
+    "tower": false,
+    "name": "Brutlag Farms",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 46.0186396,
+        "lonStart": -96.10225774,
+        "latEnd": 46.01016872,
+        "lonEnd": -96.1011906,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14096
+  },
+  {
+    "type": 1,
+    "icao": "94MN",
+    "lat": 46.57662694,
+    "lon": -96.51201501,
+    "communications": [],
+    "elevation": 959,
+    "tower": false,
+    "name": "Ag Spray Inc",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 46.58073139,
+        "lonStart": -96.51243255,
+        "latEnd": 46.57252249,
+        "lonEnd": -96.51159747,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14163
+  },
+  {
+    "type": 1,
+    "icao": "D54",
+    "lat": 46.8995995,
+    "lon": -96.918611,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 895,
+    "tower": false,
+    "name": "WEST FARGO MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 46.904167,
+        "lonStart": -96.918611,
+        "latEnd": 46.895032,
+        "lonEnd": -96.918611,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 15911
   },
   {
     "type": 1,
@@ -220,8 +676,8 @@
         "type": 100,
         "width": 18.29,
         "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
+        "numberStart": "11",
+        "numberEnd": "29",
         "latStart": 46.650883,
         "lonStart": -97.004381,
         "latEnd": 46.646636,
@@ -230,7 +686,7 @@
         "surfacetype": 2
       }
     ],
-    "id": 10989
+    "id": 18738
   },
   {
     "type": 1,
@@ -280,257 +736,52 @@
         "surfacetype": 3
       }
     ],
-    "id": 11033
+    "id": 18906
   },
   {
     "type": 1,
-    "icao": "04Y",
-    "lat": 46.8838205,
-    "lon": -96.35025999999999,
+    "icao": "KFFM",
+    "lat": 46.284535500000004,
+    "lon": -96.1575895,
     "communications": [
       {
         "type": 51,
         "frequency": 12280,
         "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 12040,
-        "name": "FARGO APP/DEP"
       }
     ],
-    "elevation": 1208,
+    "elevation": 1182,
     "tower": false,
-    "name": "HAWLEY MUNI",
+    "name": "FERGUS FALLS MUNI EINAR MICKELSON FLD",
     "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 46.289289,
+        "lonStart": -96.162261,
+        "latEnd": 46.278703,
+        "lonEnd": -96.146008,
+        "length": 0,
+        "surfacetype": 1
+      },
       {
         "type": 100,
         "width": 22.86,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 46.888244,
-        "lonStart": -96.352428,
-        "latEnd": 46.879397,
-        "lonEnd": -96.348092,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 46.2896,
+        "lonStart": -96.161131,
+        "latEnd": 46.28055,
+        "lonEnd": -96.160958,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 11061
-  },
-  {
-    "type": 1,
-    "icao": "KFAR",
-    "lat": 46.919296333333335,
-    "lon": -96.81576616666668,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12450,
-        "name": "ATIS"
-      },
-      {
-        "type": 51,
-        "frequency": 12295,
-        "name": "UNICOM"
-      },
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "GND/CLNC DEL"
-      },
-      {
-        "type": 54,
-        "frequency": 13380,
-        "name": "FARGO TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12040,
-        "name": "FARGO APP/DEP"
-      },
-      {
-        "type": 55,
-        "frequency": 12770,
-        "name": "FARGO APP/DEP"
-      }
-    ],
-    "elevation": 902,
-    "tower": true,
-    "name": "HECTOR INTL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 46.932867,
-        "lonStart": -96.816106,
-        "latEnd": 46.908192,
-        "lonEnd": -96.816403,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 46.927136,
-        "lonStart": -96.827319,
-        "latEnd": 46.926994,
-        "lonEnd": -96.802108,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 46.914128,
-        "lonStart": -96.821483,
-        "latEnd": 46.906461,
-        "lonEnd": -96.811178,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 11084
-  },
-  {
-    "type": 1,
-    "icao": "2NA3",
-    "lat": 46.450795830000004,
-    "lon": -96.99286305999999,
-    "communications": [],
-    "elevation": 1036,
-    "tower": false,
-    "name": "Hendrickson Farm",
-    "runways": [
-      {
-        "type": 100,
-        "width": 19.81,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 46.45447857,
-        "lonStart": -96.99230125,
-        "latEnd": 46.44711309,
-        "lonEnd": -96.99342487,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11676
-  },
-  {
-    "type": 1,
-    "icao": "NA17",
-    "lat": 46.94274611,
-    "lon": -96.92897278000001,
-    "communications": [],
-    "elevation": 895,
-    "tower": false,
-    "name": "Jacob Gust",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 46.94683804,
-        "lonStart": -96.92834284,
-        "latEnd": 46.93865418,
-        "lonEnd": -96.92960272,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 12870
-  },
-  {
-    "type": 1,
-    "icao": "9MN5",
-    "lat": 46.71190361,
-    "lon": -96.35145473,
-    "communications": [],
-    "elevation": 1100,
-    "tower": false,
-    "name": "Janssen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 46.70917566,
-        "lonStart": -96.35187289,
-        "latEnd": 46.71463156,
-        "lonEnd": -96.35103657,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 12908
-  },
-  {
-    "type": 1,
-    "icao": "MY99",
-    "lat": 46.85745833,
-    "lon": -96.23520001,
-    "communications": [],
-    "elevation": 1360,
-    "tower": false,
-    "name": "Johnston",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 46.85946654,
-        "lonStart": -96.2417961,
-        "latEnd": 46.85545012,
-        "lonEnd": -96.22860392,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 13079
-  },
-  {
-    "type": 1,
-    "icao": "MY25",
-    "lat": 46.27995944,
-    "lon": -96.33145472999999,
-    "communications": [],
-    "elevation": 1018,
-    "tower": false,
-    "name": "Knapp Personal Use",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 46.28216525,
-        "lonStart": -96.33360748,
-        "latEnd": 46.27775363,
-        "lonEnd": -96.32930198,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 13999
+    "id": 19139
   },
   {
     "type": 1,
@@ -572,7 +823,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 16243
+    "id": 19367
   },
   {
     "type": 1,
@@ -598,215 +849,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 16758
-  },
-  {
-    "type": 1,
-    "icao": "68MN",
-    "lat": 46.67134888,
-    "lon": -96.45090223,
-    "communications": [],
-    "elevation": 965,
-    "tower": false,
-    "name": "Mathew Private Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 46.67434963,
-        "lonStart": -96.4504426,
-        "latEnd": 46.66834813,
-        "lonEnd": -96.45136186,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 16800
-  },
-  {
-    "type": 1,
-    "icao": "NA56",
-    "lat": 46.302182220000006,
-    "lon": -96.99147362,
-    "communications": [],
-    "elevation": 1028,
-    "tower": false,
-    "name": "Moffet Airstrip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 46.30599936,
-        "lonStart": -96.99185998,
-        "latEnd": 46.29836508,
-        "lonEnd": -96.99108726,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 17349
-  },
-  {
-    "type": 1,
-    "icao": "46ND",
-    "lat": 46.98107916,
-    "lon": -96.92119417,
-    "communications": [],
-    "elevation": 890,
-    "tower": false,
-    "name": "Monson Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 46.9842259,
-        "lonStart": -96.9215167,
-        "latEnd": 46.97793242,
-        "lonEnd": -96.92087164,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 17393
-  },
-  {
-    "type": 1,
-    "icao": "MY07",
-    "lat": 46.58329416,
-    "lon": -96.60646306000001,
-    "communications": [],
-    "elevation": 948,
-    "tower": false,
-    "name": "Nord Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 46.5868405,
-        "lonStart": -96.60592074,
-        "latEnd": 46.57974782,
-        "lonEnd": -96.60700538,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 18401
-  },
-  {
-    "type": 1,
-    "icao": "5NA5",
-    "lat": 46.822745,
-    "lon": -96.92980778,
-    "communications": [],
-    "elevation": 905,
-    "tower": false,
-    "name": "Olson Private Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 46.82629134,
-        "lonStart": -96.92926305,
-        "latEnd": 46.81919866,
-        "lonEnd": -96.93035251,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 18933
-  },
-  {
-    "type": 1,
-    "icao": "47Y",
-    "lat": 46.64162527,
-    "lon": -96.10450195,
-    "communications": [],
-    "elevation": 1389,
-    "tower": false,
-    "name": "Pelican Rapids Municipal-Lyons Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 46.64567742,
-        "lonStart": -96.10725415,
-        "latEnd": 46.63757312,
-        "lonEnd": -96.10174975,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 19940
-  },
-  {
-    "type": 1,
-    "icao": "6NA2",
-    "lat": 46.792464159999994,
-    "lon": -96.80369389,
-    "communications": [],
-    "elevation": 910,
-    "tower": false,
-    "name": "South Hector Airstrip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 46.79520046,
-        "lonStart": -96.80397337,
-        "latEnd": 46.78972786,
-        "lonEnd": -96.80341441,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23887
-  },
-  {
-    "type": 1,
-    "icao": "33MN",
-    "lat": 46.089959719999996,
-    "lon": -96.09700223,
-    "communications": [],
-    "elevation": 1100,
-    "tower": false,
-    "name": "Swift - Private",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 46.09017488,
-        "lonStart": -96.10054828,
-        "latEnd": 46.08974456,
-        "lonEnd": -96.09345618,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 24488
+    "id": 21587
   },
   {
     "type": 1,
@@ -832,75 +875,121 @@
         "surfacetype": 3
       }
     ],
-    "id": 26258
+    "id": 21604
   },
   {
     "type": 1,
-    "icao": "D54",
-    "lat": 46.8995995,
-    "lon": -96.918611,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12270,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 895,
+    "icao": "MY07",
+    "lat": 46.58329416,
+    "lon": -96.60646306000001,
+    "communications": [],
+    "elevation": 948,
     "tower": false,
-    "name": "WEST FARGO MUNI",
+    "name": "Nord Field",
     "runways": [
       {
         "type": 100,
-        "width": 15.24,
+        "width": 30.48,
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 46.904167,
-        "lonStart": -96.918611,
-        "latEnd": 46.895032,
-        "lonEnd": -96.918611,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 26583
-  },
-  {
-    "type": 1,
-    "icao": "36MN",
-    "lat": 46.67162777,
-    "lon": -96.57535112,
-    "communications": [],
-    "elevation": 935,
-    "tower": false,
-    "name": "Wagner Farm",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 46.67210086,
-        "lonStart": -96.58191082,
-        "latEnd": 46.67115468,
-        "lonEnd": -96.56879142,
+        "latStart": 46.5868405,
+        "lonStart": -96.60592074,
+        "latEnd": 46.57974782,
+        "lonEnd": -96.60700538,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 26798
+    "id": 22032
   },
   {
     "type": 1,
-    "icao": "29MN",
-    "lat": 46.02829305,
-    "lon": -96.36284278,
+    "icao": "MY25",
+    "lat": 46.27995944,
+    "lon": -96.33145472999999,
     "communications": [],
-    "elevation": 990,
+    "elevation": 1018,
     "tower": false,
-    "name": "Wetenkamp",
+    "name": "Knapp Personal Use",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 46.28216525,
+        "lonStart": -96.33360748,
+        "latEnd": 46.27775363,
+        "lonEnd": -96.32930198,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 22045
+  },
+  {
+    "type": 1,
+    "icao": "MY99",
+    "lat": 46.85745833,
+    "lon": -96.23520001,
+    "communications": [],
+    "elevation": 1360,
+    "tower": false,
+    "name": "Johnston",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 46.85946654,
+        "lonStart": -96.2417961,
+        "latEnd": 46.85545012,
+        "lonEnd": -96.22860392,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 22099
+  },
+  {
+    "type": 1,
+    "icao": "NA17",
+    "lat": 46.94274611,
+    "lon": -96.92897278000001,
+    "communications": [],
+    "elevation": 895,
+    "tower": false,
+    "name": "Jacob Gust",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 46.94683804,
+        "lonStart": -96.92834284,
+        "latEnd": 46.93865418,
+        "lonEnd": -96.92960272,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 22209
+  },
+  {
+    "type": 1,
+    "icao": "NA56",
+    "lat": 46.302182220000006,
+    "lon": -96.99147362,
+    "communications": [],
+    "elevation": 1028,
+    "tower": false,
+    "name": "Moffet Airstrip",
     "runways": [
       {
         "type": 100,
@@ -908,118 +997,15 @@
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 46.0323975,
-        "lonStart": -96.36325616,
-        "latEnd": 46.0241886,
-        "lonEnd": -96.3624294,
+        "latStart": 46.30599936,
+        "lonStart": -96.99185998,
+        "latEnd": 46.29836508,
+        "lonEnd": -96.99108726,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 27169
-  },
-  {
-    "type": 1,
-    "icao": "1MN0",
-    "lat": 46.043570270000004,
-    "lon": -96.54618112,
-    "communications": [],
-    "elevation": 979,
-    "tower": false,
-    "name": "Wetherbee Farm",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 46.04712746,
-        "lonStart": -96.54653948,
-        "latEnd": 46.04001308,
-        "lonEnd": -96.54582276,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 27170
-  },
-  {
-    "type": 1,
-    "icao": "2NA4",
-    "lat": 46.334126940000004,
-    "lon": -96.95091694999999,
-    "communications": [],
-    "elevation": 998,
-    "tower": false,
-    "name": "Woodbury",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 46.33389733,
-        "lonStart": -96.95567262,
-        "latEnd": 46.33435655,
-        "lonEnd": -96.94616128,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 27537
-  },
-  {
-    "type": 1,
-    "icao": "69MN",
-    "lat": 46.277737220000006,
-    "lon": -96.42951334,
-    "communications": [],
-    "elevation": 981,
-    "tower": false,
-    "name": "Yaggie - Private",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 46.28114716,
-        "lonStart": -96.42899479,
-        "latEnd": 46.27432728,
-        "lonEnd": -96.43003189,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 27729
-  },
-  {
-    "type": 17,
-    "icao": "40ND",
-    "lat": 46.3846825,
-    "lon": -96.82258001,
-    "communications": [],
-    "elevation": 951,
-    "tower": false,
-    "name": "[H] Gorder Farm",
-    "runways": [
-      {
-        "type": 102,
-        "width": 61,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 46.3846825,
-        "lonStart": -96.82258001,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 152.4
-      }
-    ],
-    "id": 29971
+    "id": 22238
   },
   {
     "type": 17,
@@ -1044,6 +1030,32 @@
         "length": 9.1
       }
     ],
-    "id": 33031
+    "id": 22394
+  },
+  {
+    "type": 1,
+    "icao": "ND99",
+    "lat": 46.72024166,
+    "lon": -96.80952778,
+    "communications": [],
+    "elevation": 910,
+    "tower": false,
+    "name": "Ellig Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 46.72384256,
+        "lonStart": -96.80897572,
+        "latEnd": 46.71664076,
+        "lonEnd": -96.81007984,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 22435
   }
 ]

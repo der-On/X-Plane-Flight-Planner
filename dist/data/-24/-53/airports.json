@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "SBMG",
+    "lat": -23.4761125,
+    "lon": -52.016403999999994,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13195,
+        "name": "RDO"
+      }
+    ],
+    "elevation": 1788,
+    "tower": false,
+    "name": "REGIONAL DE MARINGA SILVIO NAME JUNIOR",
+    "runways": [
+      {
+        "type": 100,
+        "width": 44.81,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -23.478083,
+        "lonStart": -52.026475,
+        "latEnd": -23.474142,
+        "lonEnd": -52.006333,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 25135
+  },
+  {
+    "type": 1,
     "icao": "SSCT",
     "lat": -23.691467,
     "lon": -52.64195,
@@ -23,7 +55,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 4988
+    "id": 28376
   },
   {
     "type": 1,
@@ -49,7 +81,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 8423
+    "id": 28493
   },
   {
     "type": 1,
@@ -75,7 +107,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 9118
+    "id": 28621
   },
   {
     "type": 1,
@@ -101,7 +133,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 19769
+    "id": 28686
   },
   {
     "type": 1,
@@ -127,38 +159,6 @@
         "surfacetype": 5
       }
     ],
-    "id": 20465
-  },
-  {
-    "type": 1,
-    "icao": "SBMG",
-    "lat": -23.4761125,
-    "lon": -52.016403999999994,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13195,
-        "name": "RDO"
-      }
-    ],
-    "elevation": 1788,
-    "tower": false,
-    "name": "REGIONAL DE MARINGA SILVIO NAME JUNIOR",
-    "runways": [
-      {
-        "type": 100,
-        "width": 44.81,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": -23.478083,
-        "lonStart": -52.026475,
-        "latEnd": -23.474142,
-        "lonEnd": -52.006333,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 20895
+    "id": 28882
   }
 ]

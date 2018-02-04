@@ -1,6 +1,32 @@
 [
   {
     "type": 1,
+    "icao": "RPVT",
+    "lat": 9.664625825,
+    "lon": 123.853175015,
+    "communications": [],
+    "elevation": 38,
+    "tower": false,
+    "name": "Tagbilaran",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 9.67205981,
+        "lonStart": 123.85232341,
+        "latEnd": 9.65719184,
+        "lonEnd": 123.85402662,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4489
+  },
+  {
+    "type": 1,
     "icao": "RPVD",
     "lat": 9.333714,
     "lon": 123.30047350000001,
@@ -34,32 +60,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 5898
-  },
-  {
-    "type": 1,
-    "icao": "RPVT",
-    "lat": 9.664082,
-    "lon": 123.85324750000001,
-    "communications": [],
-    "elevation": 38,
-    "tower": false,
-    "name": "TAGBILARAN",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 9.672017,
-        "lonStart": 123.852339,
-        "latEnd": 9.656147,
-        "lonEnd": 123.854156,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 24538
+    "id": 24589
   }
 ]

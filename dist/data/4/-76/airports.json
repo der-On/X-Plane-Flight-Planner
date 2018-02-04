@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "SKAR",
-    "lat": 4.452775,
-    "lon": -75.76648750000001,
+    "lat": 4.451605875,
+    "lon": -75.766303,
     "communications": [
       {
         "type": 54,
@@ -12,103 +12,29 @@
       },
       {
         "type": 55,
-        "frequency": 11990,
-        "name": "PEREIRA APP"
+        "frequency": 12070,
+        "name": "APP"
       }
     ],
-    "elevation": 3990,
+    "elevation": 3988,
     "tower": true,
-    "name": "EL EDEN",
+    "name": "El Eden",
     "runways": [
       {
         "type": 100,
-        "width": 35.97,
+        "width": 36,
         "surfaceType": null,
         "numberStart": "02",
         "numberEnd": "20",
-        "latStart": 4.443394,
-        "lonStart": -75.768686,
-        "latEnd": 4.462156,
-        "lonEnd": -75.764289,
+        "latStart": 4.44138333,
+        "lonStart": -75.768825,
+        "latEnd": 4.46182842,
+        "lonEnd": -75.763781,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 6690
-  },
-  {
-    "type": 1,
-    "icao": "SKPE",
-    "lat": 4.812673500000001,
-    "lon": -75.739518,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11870,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12070,
-        "name": "PEREIRA APP"
-      }
-    ],
-    "elevation": 4416,
-    "tower": true,
-    "name": "MATECANA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 4.809903,
-        "lonStart": -75.748197,
-        "latEnd": 4.815444,
-        "lonEnd": -75.730839,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 15920
-  },
-  {
-    "type": 1,
-    "icao": "SKIB",
-    "lat": 4.421609500000001,
-    "lon": -75.13329999999999,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11830,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11950,
-        "name": "BOGOTA APP"
-      }
-    ],
-    "elevation": 2999,
-    "tower": true,
-    "name": "PERALES",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 4.426947,
-        "lonStart": -75.139386,
-        "latEnd": 4.416272,
-        "lonEnd": -75.127214,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19306
+    "id": 4884
   },
   {
     "type": 1,
@@ -145,6 +71,80 @@
         "surfacetype": 1
       }
     ],
-    "id": 22031
+    "id": 27389
+  },
+  {
+    "type": 1,
+    "icao": "SKIB",
+    "lat": 4.421662215,
+    "lon": -75.13363612500001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11950,
+        "name": "BOGOTA APP"
+      }
+    ],
+    "elevation": 2999,
+    "tower": true,
+    "name": "PERALES",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 4.4269865,
+        "lonStart": -75.13977241,
+        "latEnd": 4.41633793,
+        "lonEnd": -75.12749984,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 27392
+  },
+  {
+    "type": 1,
+    "icao": "SKPE",
+    "lat": 4.812615,
+    "lon": -75.739654,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11870,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11990,
+        "name": "APP"
+      }
+    ],
+    "elevation": 4418,
+    "tower": true,
+    "name": "Matecana",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 4.80980804,
+        "lonStart": -75.74831395,
+        "latEnd": 4.81542196,
+        "lonEnd": -75.73099405,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 27418
   }
 ]

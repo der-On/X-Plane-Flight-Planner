@@ -2,18 +2,28 @@
   {
     "type": 1,
     "icao": "CYZV",
-    "lat": 50.22388983333334,
-    "lon": -66.26750133333333,
+    "lat": 50.22008296363636,
+    "lon": -66.26373901181817,
     "communications": [
       {
         "type": 50,
         "frequency": 12480,
         "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "RADIO"
+      },
+      {
+        "type": 52,
+        "frequency": 13555,
+        "name": "CTR Montreal"
       }
     ],
     "elevation": 180,
     "tower": true,
-    "name": "SEPT ILES",
+    "name": "Sept-Iles",
     "runways": [
       {
         "type": 100,
@@ -21,23 +31,10 @@
         "surfaceType": null,
         "numberStart": "09",
         "numberEnd": "27",
-        "latStart": 50.217225,
-        "lonStart": -66.279167,
-        "latEnd": 50.223611,
-        "lonEnd": -66.252503,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 50.217225,
-        "lonStart": -66.278197,
-        "latEnd": 50.231389,
-        "lonEnd": -66.265694,
+        "latStart": 50.21745688,
+        "lonStart": -66.27866455,
+        "latEnd": 50.22390211,
+        "lonEnd": -66.25247151,
         "length": 0,
         "surfacetype": 1
       },
@@ -47,14 +44,98 @@
         "surfaceType": null,
         "numberStart": "13",
         "numberEnd": "31",
-        "latStart": 50.229722,
-        "lonStart": -66.276944,
-        "latEnd": 50.224167,
-        "lonEnd": -66.252503,
+        "latStart": 50.2293173,
+        "lonStart": -66.27681868,
+        "latEnd": 50.22414279,
+        "lonEnd": -66.25340623,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 15.9,
+        "surfaceType": 1,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 50.21678011,
+        "lonStart": -66.26755964,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.6
+      },
+      {
+        "type": 102,
+        "width": 16.5,
+        "surfaceType": 1,
+        "numberStart": "H10",
+        "numberEnd": null,
+        "latStart": 50.21962394,
+        "lonStart": -66.25691041,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.7
+      },
+      {
+        "type": 102,
+        "width": 16.5,
+        "surfaceType": 1,
+        "numberStart": "H11",
+        "numberEnd": null,
+        "latStart": 50.21945775,
+        "lonStart": -66.25681626,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.7
+      },
+      {
+        "type": 102,
+        "width": 16.5,
+        "surfaceType": 1,
+        "numberStart": "H12",
+        "numberEnd": null,
+        "latStart": 50.21928428,
+        "lonStart": -66.25672048,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.7
+      },
+      {
+        "type": 102,
+        "width": 16.5,
+        "surfaceType": 1,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 50.21684254,
+        "lonStart": -66.26729693,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.7
+      },
+      {
+        "type": 102,
+        "width": 15.9,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 50.21708784,
+        "lonStart": -66.26705877,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.7
+      },
+      {
+        "type": 102,
+        "width": 15.9,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 50.21701706,
+        "lonStart": -66.26740567,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.7
       }
     ],
-    "id": 22164
+    "id": 884
   }
 ]

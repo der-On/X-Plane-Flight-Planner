@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "FKKC",
+    "lat": 4.0891905,
+    "lon": 9.360528,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11890,
+        "name": "AFIS"
+      }
+    ],
+    "elevation": 151,
+    "tower": false,
+    "name": "TIKO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 4.084678,
+        "lonStart": 9.356267,
+        "latEnd": 4.093703,
+        "lonEnd": 9.364789,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17097
+  },
+  {
+    "type": 1,
     "icao": "FKKD",
     "lat": 4.01420775,
     "lon": 9.71653775,
@@ -42,38 +74,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 6418
-  },
-  {
-    "type": 1,
-    "icao": "FKKC",
-    "lat": 4.0891905,
-    "lon": 9.360528,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11890,
-        "name": "AFIS"
-      }
-    ],
-    "elevation": 151,
-    "tower": false,
-    "name": "TIKO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 46.02,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 4.084678,
-        "lonStart": 9.356267,
-        "latEnd": 4.093703,
-        "lonEnd": 9.364789,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 24724
+    "id": 17098
   }
 ]

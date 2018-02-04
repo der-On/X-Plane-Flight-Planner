@@ -2,18 +2,23 @@
   {
     "type": 1,
     "icao": "FAKM",
-    "lat": -28.804750499999997,
-    "lon": 24.7639975,
+    "lat": -28.8022389,
+    "lon": 24.7651828,
     "communications": [
       {
         "type": 54,
-        "frequency": 11860,
+        "frequency": 11820,
         "name": "TWR"
       },
       {
         "type": 55,
         "frequency": 11940,
         "name": "BLOEMFONTEIN APP"
+      },
+      {
+        "type": 53,
+        "frequency": 12265,
+        "name": "APN"
       }
     ],
     "elevation": 3950,
@@ -22,31 +27,43 @@
     "runways": [
       {
         "type": 100,
-        "width": 45.72,
+        "width": 45,
         "surfaceType": null,
         "numberStart": "02",
         "numberEnd": "20",
-        "latStart": -28.82006821,
-        "lonStart": 24.765109,
-        "latEnd": -28.79307179,
-        "lonEnd": 24.765109,
+        "latStart": -28.820266,
+        "lonStart": 24.765176,
+        "latEnd": -28.793186,
+        "lonEnd": 24.765104,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 45.11,
+        "width": 45,
         "surfaceType": null,
         "numberStart": "10",
         "numberEnd": "28",
-        "latStart": -28.80478578,
-        "lonStart": 24.75054203,
-        "latEnd": -28.80107622,
-        "lonEnd": 24.77522997,
+        "latStart": -28.805137,
+        "lonStart": 24.750844,
+        "latEnd": -28.80127,
+        "lonEnd": 24.775427,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 20,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -28.7913355,
+        "lonStart": 24.769363,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20
       }
     ],
-    "id": 13869
+    "id": 2135
   }
 ]

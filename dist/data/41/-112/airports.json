@@ -34,7 +34,102 @@
         "surfacetype": 1
       }
     ],
-    "id": 7357
+    "id": 2640
+  },
+  {
+    "type": 1,
+    "icao": "KLGU",
+    "lat": 41.788924560000005,
+    "lon": -111.85461747666666,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13527,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 4457,
+    "tower": false,
+    "name": "LOGAN CACHE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 41.80580999,
+        "lonStart": -111.84763961,
+        "latEnd": 41.78112338,
+        "lonEnd": -111.84920717,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 41.79097024,
+        "lonStart": -111.86511957,
+        "latEnd": 41.78362131,
+        "lonEnd": -111.84956744,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 41.78325,
+        "lonStart": -111.86573301,
+        "latEnd": 41.78877244,
+        "lonEnd": -111.85043806,
+        "length": 0,
+        "surfacetype": 15
+      }
+    ],
+    "id": 2888
+  },
+  {
+    "type": 1,
+    "icao": "42U",
+    "lat": 41.148675,
+    "lon": -111.76715,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 5020,
+    "tower": false,
+    "name": "Morgan County",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 41.145017,
+        "lonStart": -111.772325,
+        "latEnd": 41.152333,
+        "lonEnd": -111.761975,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12194
   },
   {
     "type": 1,
@@ -116,102 +211,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 11833
-  },
-  {
-    "type": 1,
-    "icao": "KLGU",
-    "lat": 41.78889701833334,
-    "lon": -111.85462295499998,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13527,
-        "name": "ASOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 4457,
-    "tower": false,
-    "name": "LOGAN CACHE",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 41.805844,
-        "lonStart": -111.847639,
-        "latEnd": 41.780919,
-        "lonEnd": -111.849222,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 41.790961,
-        "lonStart": -111.8651,
-        "latEnd": 41.78363567,
-        "lonEnd": -111.84960566,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 46.02,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 41.78325,
-        "lonStart": -111.86573301,
-        "latEnd": 41.78877244,
-        "lonEnd": -111.85043806,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 14581
-  },
-  {
-    "type": 1,
-    "icao": "42U",
-    "lat": 41.148675,
-    "lon": -111.76715,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 5020,
-    "tower": false,
-    "name": "Morgan County",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 41.145017,
-        "lonStart": -111.772325,
-        "latEnd": 41.152333,
-        "lonEnd": -111.761975,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 17502
+    "id": 19280
   },
   {
     "type": 17,
@@ -236,6 +236,6 @@
         "length": 22.9
       }
     ],
-    "id": 33813
+    "id": 30536
   }
 ]

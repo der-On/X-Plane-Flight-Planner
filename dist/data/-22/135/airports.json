@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "YAMJ",
+    "lat": -21.654419304999998,
+    "lon": 135.23056649,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12670,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1286,
+    "tower": false,
+    "name": "Ampilatwatja",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -21.64984689,
+        "lonStart": 135.2267949,
+        "latEnd": -21.65899172,
+        "lonEnd": 135.23433808,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 32630
+  },
+  {
+    "type": 1,
     "icao": "YAMM",
     "lat": -21.7386140475,
     "lon": 135.24523557499998,
@@ -42,39 +74,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 994
-  },
-  {
-    "type": 1,
-    "icao": "YAMJ",
-    "lat": -21.654419304999998,
-    "lon": 135.23056649,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12670,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 1286,
-    "tower": false,
-    "name": "Ampilatwatja",
-    "runways": [
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": -21.64984689,
-        "lonStart": 135.2267949,
-        "latEnd": -21.65899172,
-        "lonEnd": 135.23433808,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 1000
+    "id": 32633
   },
   {
     "type": 1,
@@ -106,6 +106,6 @@
         "surfacetype": 4
       }
     ],
-    "id": 7099
+    "id": 33213
   }
 ]

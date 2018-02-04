@@ -1,84 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "KS86",
-    "lat": 38.70418027,
-    "lon": -101.42127389000001,
-    "communications": [],
-    "elevation": 3430,
-    "tower": false,
-    "name": "Arrow B Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 38.7077456,
-        "lonStart": -101.42135364,
-        "latEnd": 38.70061494,
-        "lonEnd": -101.42119414,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 1223
-  },
-  {
-    "type": 1,
-    "icao": "6KS4",
-    "lat": 38.905286110000006,
-    "lon": -101.78378278,
-    "communications": [],
-    "elevation": 3475,
-    "tower": false,
-    "name": "Bussen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 26.82,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 38.90881525,
-        "lonStart": -101.78650774,
-        "latEnd": 38.90175697,
-        "lonEnd": -101.78105782,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 3447
-  },
-  {
-    "type": 1,
-    "icao": "5KS5",
-    "lat": 38.67445916,
-    "lon": -101.33710528,
-    "communications": [],
-    "elevation": 3314,
-    "tower": false,
-    "name": "Hobson",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 38.67930865,
-        "lonStart": -101.33612145,
-        "latEnd": 38.66960967,
-        "lonEnd": -101.33808911,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11907
-  },
-  {
-    "type": 1,
     "icao": "3K7",
     "lat": 38.45756975,
     "lon": -101.3554135,
@@ -120,7 +42,65 @@
         "surfacetype": 1
       }
     ],
-    "id": 15849
+    "id": 7605
+  },
+  {
+    "type": 1,
+    "icao": "5K2",
+    "lat": 38.454182,
+    "lon": -101.7462835,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 3620,
+    "tower": false,
+    "name": "TRIBUNE MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 13.72,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 38.461077,
+        "lonStart": -101.74783,
+        "latEnd": 38.447287,
+        "lonEnd": -101.744737,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 8648
+  },
+  {
+    "type": 1,
+    "icao": "5KS5",
+    "lat": 38.67445916,
+    "lon": -101.33710528,
+    "communications": [],
+    "elevation": 3314,
+    "tower": false,
+    "name": "Hobson",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 38.67930865,
+        "lonStart": -101.33612145,
+        "latEnd": 38.66960967,
+        "lonEnd": -101.33808911,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 8661
   },
   {
     "type": 1,
@@ -172,65 +152,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 17366
-  },
-  {
-    "type": 1,
-    "icao": "SN55",
-    "lat": 38.215300830000004,
-    "lon": -101.00321639,
-    "communications": [],
-    "elevation": 2900,
-    "tower": false,
-    "name": "R J C Farms Inc",
-    "runways": [
-      {
-        "type": 100,
-        "width": 8.23,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 38.21872903,
-        "lonStart": -101.00329255,
-        "latEnd": 38.21187263,
-        "lonEnd": -101.00314023,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 20741
-  },
-  {
-    "type": 1,
-    "icao": "5K2",
-    "lat": 38.454182,
-    "lon": -101.7462835,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 3620,
-    "tower": false,
-    "name": "TRIBUNE MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 13.72,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 38.461077,
-        "lonStart": -101.74783,
-        "latEnd": 38.447287,
-        "lonEnd": -101.744737,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 24864
+    "id": 8662
   },
   {
     "type": 1,
@@ -256,6 +178,84 @@
         "surfacetype": 4
       }
     ],
-    "id": 26839
+    "id": 9171
+  },
+  {
+    "type": 1,
+    "icao": "6KS4",
+    "lat": 38.905286110000006,
+    "lon": -101.78378278,
+    "communications": [],
+    "elevation": 3475,
+    "tower": false,
+    "name": "Bussen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 26.82,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 38.90881525,
+        "lonStart": -101.78650774,
+        "latEnd": 38.90175697,
+        "lonEnd": -101.78105782,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9172
+  },
+  {
+    "type": 1,
+    "icao": "KS86",
+    "lat": 38.70418027,
+    "lon": -101.42127389000001,
+    "communications": [],
+    "elevation": 3430,
+    "tower": false,
+    "name": "Arrow B Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 38.7077456,
+        "lonStart": -101.42135364,
+        "latEnd": 38.70061494,
+        "lonEnd": -101.42119414,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 19788
+  },
+  {
+    "type": 1,
+    "icao": "SN55",
+    "lat": 38.215300830000004,
+    "lon": -101.00321639,
+    "communications": [],
+    "elevation": 2900,
+    "tower": false,
+    "name": "R J C Farms Inc",
+    "runways": [
+      {
+        "type": 100,
+        "width": 8.23,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 38.21872903,
+        "lonStart": -101.00329255,
+        "latEnd": 38.21187263,
+        "lonEnd": -101.00314023,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 27534
   }
 ]

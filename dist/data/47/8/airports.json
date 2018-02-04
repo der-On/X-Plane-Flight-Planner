@@ -29,7 +29,368 @@
         "surfacetype": 3
       }
     ],
-    "id": 2738
+    "id": 1329
+  },
+  {
+    "type": 1,
+    "icao": "EDSL",
+    "lat": 47.84412322,
+    "lon": 8.565235845,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12305,
+        "name": "Blumberg Info"
+      }
+    ],
+    "elevation": 2290,
+    "tower": true,
+    "name": "Blumberg",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 47.84311944,
+        "lonStart": 8.56158169,
+        "latEnd": 47.845127,
+        "lonEnd": 8.56889,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1331
+  },
+  {
+    "type": 1,
+    "icao": "EDSN",
+    "lat": 47.976564069999995,
+    "lon": 8.9040155,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11960,
+        "name": "Neuhausen ob Eck Info"
+      }
+    ],
+    "elevation": 2637,
+    "tower": true,
+    "name": "Neuhausen ob Eck",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 47.97654557,
+        "lonStart": 8.894894,
+        "latEnd": 47.97658257,
+        "lonEnd": 8.913137,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1332
+  },
+  {
+    "type": 1,
+    "icao": "EDSR",
+    "lat": 47.802746,
+    "lon": 8.979575045,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13012,
+        "name": "Stahringen Info"
+      }
+    ],
+    "elevation": 1371,
+    "tower": true,
+    "name": "Radolfzell-Stahringen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 47.80011992,
+        "lonStart": 8.97863121,
+        "latEnd": 47.80537208,
+        "lonEnd": 8.98051888,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1335
+  },
+  {
+    "type": 1,
+    "icao": "EDTD",
+    "lat": 47.97397096,
+    "lon": 8.5222772,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12425,
+        "name": "Donaueschingen INFO"
+      }
+    ],
+    "elevation": 2227,
+    "tower": true,
+    "name": "Donaueschingen-Villingen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 47.97976646,
+        "lonStart": 8.5220474,
+        "latEnd": 47.96817546,
+        "lonEnd": 8.522507,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1342
+  },
+  {
+    "type": 1,
+    "icao": "LSMD",
+    "lat": 47.397863332,
+    "lon": 8.643521268,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12847,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 13492,
+        "name": "ARR"
+      }
+    ],
+    "elevation": 1470,
+    "tower": true,
+    "name": "Duebendorf",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 47.40197633,
+        "lonStart": 8.63208994,
+        "latEnd": 47.39454708,
+        "lonEnd": 8.66623984,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "11R",
+        "numberEnd": "29L",
+        "latStart": 47.39957033,
+        "lonStart": 8.63520146,
+        "latEnd": 47.39711698,
+        "lonEnd": 8.6464253,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 25,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 47.39610594,
+        "lonStart": 8.6376498,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.9
+      }
+    ],
+    "id": 3945
+  },
+  {
+    "type": 1,
+    "icao": "LSPF",
+    "lat": 47.69047844,
+    "lon": 8.527006400000001,
+    "communications": [],
+    "elevation": 1521,
+    "tower": false,
+    "name": "Schaffhausen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 55,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 47.68943994,
+        "lonStart": 8.52327612,
+        "latEnd": 47.69151694,
+        "lonEnd": 8.53073668,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3951
+  },
+  {
+    "type": 1,
+    "icao": "LSPH",
+    "lat": 47.51495197,
+    "lon": 8.7719193,
+    "communications": [],
+    "elevation": 1496,
+    "tower": false,
+    "name": "Winterthur",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 47.5116335,
+        "lonStart": 8.7705926,
+        "latEnd": 47.51827044,
+        "lonEnd": 8.773246,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3953
+  },
+  {
+    "type": 1,
+    "icao": "LSPN",
+    "lat": 47.22590515,
+    "lon": 8.078582130000001,
+    "communications": [],
+    "elevation": 1590,
+    "tower": false,
+    "name": "Triengen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 47.22810695,
+        "lonStart": 8.07663248,
+        "latEnd": 47.22370335,
+        "lonEnd": 8.08053178,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3956
+  },
+  {
+    "type": 1,
+    "icao": "LSPV",
+    "lat": 47.204622695,
+    "lon": 8.8666291425,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12320,
+        "name": "AFIS"
+      }
+    ],
+    "elevation": 1336,
+    "tower": true,
+    "name": "Wangen-Lachen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 47.20440979,
+        "lonStart": 8.86415042,
+        "latEnd": 47.20529071,
+        "lonEnd": 8.87059853,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 6,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 47.20437237,
+        "lonStart": 8.86571896,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6
+      },
+      {
+        "type": 102,
+        "width": 6,
+        "surfaceType": 15,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 47.20441791,
+        "lonStart": 8.86604866,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6
+      }
+    ],
+    "id": 3958
+  },
+  {
+    "type": 17,
+    "icao": "LSXS",
+    "lat": 47.170285605000004,
+    "lon": 8.713905,
+    "communications": [],
+    "elevation": 2605,
+    "tower": false,
+    "name": "[H] Schindellegi",
+    "runways": [
+      {
+        "type": 102,
+        "width": 10,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 47.17025245,
+        "lonStart": 8.71407111,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10
+      },
+      {
+        "type": 102,
+        "width": 10,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 47.17031876,
+        "lonStart": 8.71373889,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10
+      }
+    ],
+    "id": 3966
   },
   {
     "type": 1,
@@ -111,49 +472,48 @@
         "length": 8
       }
     ],
-    "id": 2766
+    "id": 3971
   },
   {
     "type": 1,
-    "icao": "EDSL",
-    "lat": 47.84412322,
-    "lon": 8.565235845,
+    "icao": "LSZH",
+    "lat": 47.462123463750004,
+    "lon": 8.55538329375,
     "communications": [
       {
-        "type": 54,
-        "frequency": 12305,
-        "name": "Blumberg Info"
-      }
-    ],
-    "elevation": 2290,
-    "tower": true,
-    "name": "Blumberg",
-    "runways": [
+        "type": 50,
+        "frequency": 12852,
+        "name": "ATIS"
+      },
       {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 47.84311944,
-        "lonStart": 8.56158169,
-        "latEnd": 47.845127,
-        "lonEnd": 8.56889,
-        "length": 0,
-        "surfacetype": 3
+        "type": 52,
+        "frequency": 12192,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12775,
+        "name": "TERMINAL"
+      },
+      {
+        "type": 56,
+        "frequency": 12595,
+        "name": "DEP"
       }
     ],
-    "id": 2872
-  },
-  {
-    "type": 1,
-    "icao": "LSZU",
-    "lat": 47.264841000000004,
-    "lon": 8.30260721,
-    "communications": [],
-    "elevation": 2372,
-    "tower": false,
-    "name": "Buttwil",
+    "elevation": 1416,
+    "tower": true,
+    "name": "Zurich",
     "runways": [
       {
         "type": 100,
@@ -161,184 +521,97 @@
         "surfaceType": null,
         "numberStart": "16",
         "numberEnd": "34",
-        "latStart": 47.267984,
-        "lonStart": 8.30095542,
-        "latEnd": 47.261698,
-        "lonEnd": 8.304259,
+        "latStart": 47.4757115,
+        "lonStart": 8.5359435,
+        "latEnd": 47.44548591,
+        "lonEnd": 8.55671983,
         "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 3463
-  },
-  {
-    "type": 1,
-    "icao": "EDTD",
-    "lat": 47.97397096,
-    "lon": 8.5222772,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12425,
-        "name": "Donaueschingen INFO"
-      }
-    ],
-    "elevation": 2227,
-    "tower": true,
-    "name": "Donaueschingen-Villingen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 47.97976646,
-        "lonStart": 8.5220474,
-        "latEnd": 47.96817546,
-        "lonEnd": 8.522507,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 6373
-  },
-  {
-    "type": 1,
-    "icao": "LSMD",
-    "lat": 47.397863332,
-    "lon": 8.643521268,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12847,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 13492,
-        "name": "ARR"
-      }
-    ],
-    "elevation": 1470,
-    "tower": true,
-    "name": "Duebendorf",
-    "runways": [
-      {
-        "type": 100,
-        "width": 39.93,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 47.40197633,
-        "lonStart": 8.63208994,
-        "latEnd": 47.39454708,
-        "lonEnd": 8.66623984,
-        "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
       },
       {
         "type": 100,
-        "width": 29.87,
+        "width": 60.05,
         "surfaceType": null,
-        "numberStart": "11R",
-        "numberEnd": "29L",
-        "latStart": 47.39957033,
-        "lonStart": 8.63520146,
-        "latEnd": 47.39711698,
-        "lonEnd": 8.6464253,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 47.48308151,
+        "lonStart": 8.53472583,
+        "latEnd": 47.46129349,
+        "lonEnd": 8.56444902,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 58.05,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 47.45893659,
+        "lonStart": 8.53741772,
+        "latEnd": 47.45657302,
+        "lonEnd": 8.57077173,
+        "length": 0,
+        "surfacetype": 2
       },
       {
         "type": 102,
-        "width": 24.99,
-        "surfaceType": 2,
-        "numberStart": "H1",
+        "width": 10,
+        "surfaceType": 15,
+        "numberStart": "H2",
         "numberEnd": null,
-        "latStart": 47.39610594,
-        "lonStart": 8.6376498,
+        "latStart": 47.45813336,
+        "lonStart": 8.57190042,
         "latEnd": null,
         "lonEnd": null,
-        "length": 29.87
-      }
-    ],
-    "id": 6527
-  },
-  {
-    "type": 1,
-    "icao": "LSME",
-    "lat": 47.09146066666667,
-    "lon": 8.302947000000001,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12042,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11950,
-        "name": "ARR/DEP"
-      }
-    ],
-    "elevation": 1400,
-    "tower": true,
-    "name": "Emmen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 39.62,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 47.083453,
-        "lonStart": 8.295069,
-        "latEnd": 47.101286,
-        "lonEnd": 8.315167,
-        "length": 0,
-        "surfacetype": 1
+        "length": 10
       },
       {
         "type": 102,
-        "width": 18.29,
+        "width": 12,
         "surfaceType": 2,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 47.089643,
-        "lonStart": 8.298605,
+        "latStart": 47.45777233,
+        "lonStart": 8.5711383,
         "latEnd": null,
         "lonEnd": null,
-        "length": 18.29
+        "length": 12
       }
     ],
-    "id": 7166
+    "id": 3973
   },
   {
     "type": 1,
-    "icao": "LSPK",
-    "lat": 47.280063,
-    "lon": 8.882106499999999,
-    "communications": [],
-    "elevation": 2480,
+    "icao": "LSZK",
+    "lat": 47.376415235,
+    "lon": 8.75753396,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12035,
+        "name": "AFIS"
+      }
+    ],
+    "elevation": 1758,
     "tower": false,
-    "name": "Hasenstrick",
+    "name": "Speck",
     "runways": [
       {
         "type": 100,
-        "width": 24.99,
+        "width": 18,
         "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 47.280546,
-        "lonStart": 8.879762,
-        "latEnd": 47.27958,
-        "lonEnd": 8.884451,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 47.37796474,
+        "lonStart": 8.75406826,
+        "latEnd": 47.37486573,
+        "lonEnd": 8.76099966,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 11520
+    "id": 3976
   },
   {
     "type": 1,
@@ -377,7 +650,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 11542
+    "id": 3978
   },
   {
     "type": 1,
@@ -428,314 +701,114 @@
         "length": 8.5
       }
     ],
-    "id": 15632
+    "id": 3979
   },
   {
     "type": 1,
-    "icao": "EDSN",
-    "lat": 47.976564069999995,
-    "lon": 8.9040155,
+    "icao": "LSZU",
+    "lat": 47.2647495,
+    "lon": 8.302620789999999,
     "communications": [
       {
-        "type": 54,
-        "frequency": 11960,
-        "name": "Neuhausen ob Eck Info"
+        "type": 51,
+        "frequency": 12215,
+        "name": "LSZU"
       }
     ],
-    "elevation": 2637,
-    "tower": true,
-    "name": "Neuhausen ob Eck",
+    "elevation": 2371,
+    "tower": false,
+    "name": "Buttwil",
     "runways": [
       {
         "type": 100,
-        "width": 30,
+        "width": 25,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 47.97654557,
-        "lonStart": 8.894894,
-        "latEnd": 47.97658257,
-        "lonEnd": 8.913137,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 18225
-  },
-  {
-    "type": 1,
-    "icao": "EDSR",
-    "lat": 47.802746,
-    "lon": 8.979575045,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13012,
-        "name": "Stahringen Info"
-      }
-    ],
-    "elevation": 1371,
-    "tower": true,
-    "name": "Radolfzell-Stahringen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 47.80011992,
-        "lonStart": 8.97863121,
-        "latEnd": 47.80537208,
-        "lonEnd": 8.98051888,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 47.267685,
+        "lonStart": 8.30106529,
+        "latEnd": 47.261814,
+        "lonEnd": 8.30417629,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 21113
+    "id": 3984
   },
   {
     "type": 1,
-    "icao": "LSPF",
-    "lat": 47.690481500000004,
-    "lon": 8.527041,
-    "communications": [],
-    "elevation": 1522,
-    "tower": false,
-    "name": "Schaffhausen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 47.689453,
-        "lonStart": 8.52328,
-        "latEnd": 47.69151,
-        "lonEnd": 8.530802,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23078
-  },
-  {
-    "type": 1,
-    "icao": "LSZK",
-    "lat": 47.37648125,
-    "lon": 8.75746392,
-    "communications": [],
-    "elevation": 1751,
-    "tower": false,
-    "name": "Speck",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 47.3780475,
-        "lonStart": 8.75385484,
-        "latEnd": 47.374915,
-        "lonEnd": 8.761073,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23938
-  },
-  {
-    "type": 1,
-    "icao": "LSPN",
-    "lat": 47.22590515,
-    "lon": 8.078582130000001,
-    "communications": [],
-    "elevation": 1590,
-    "tower": false,
-    "name": "Triengen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 47.22810695,
-        "lonStart": 8.07663248,
-        "latEnd": 47.22370335,
-        "lonEnd": 8.08053178,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 25593
-  },
-  {
-    "type": 1,
-    "icao": "LSPV",
-    "lat": 47.204622695,
-    "lon": 8.8666291425,
+    "icao": "LSME",
+    "lat": 47.09146066666667,
+    "lon": 8.302947000000001,
     "communications": [
       {
         "type": 54,
-        "frequency": 12320,
-        "name": "AFIS"
-      }
-    ],
-    "elevation": 1336,
-    "tower": true,
-    "name": "Wangen-Lachen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 47.20440979,
-        "lonStart": 8.86415042,
-        "latEnd": 47.20529071,
-        "lonEnd": 8.87059853,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 6,
-        "surfaceType": 15,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 47.20437237,
-        "lonStart": 8.86571896,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6
-      },
-      {
-        "type": 102,
-        "width": 6,
-        "surfaceType": 15,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 47.20441791,
-        "lonStart": 8.86604866,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6
-      }
-    ],
-    "id": 26889
-  },
-  {
-    "type": 1,
-    "icao": "LSPH",
-    "lat": 47.514947750000005,
-    "lon": 8.771949755,
-    "communications": [],
-    "elevation": 1496,
-    "tower": false,
-    "name": "Winterthur",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 47.5116335,
-        "lonStart": 8.77063351,
-        "latEnd": 47.518262,
-        "lonEnd": 8.773266,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 27447
-  },
-  {
-    "type": 1,
-    "icao": "LSZH",
-    "lat": 47.46351367,
-    "lon": 8.550005626666668,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12852,
-        "name": "ATIS"
-      },
-      {
-        "type": 52,
-        "frequency": 12192,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11810,
+        "frequency": 12042,
         "name": "TWR"
       },
       {
         "type": 55,
-        "frequency": 12775,
-        "name": "TERMINAL"
-      },
-      {
-        "type": 56,
-        "frequency": 12595,
-        "name": "DEP"
+        "frequency": 11950,
+        "name": "ARR/DEP"
       }
     ],
-    "elevation": 1416,
+    "elevation": 1400,
     "tower": true,
-    "name": "Zurich",
+    "name": "Emmen",
     "runways": [
       {
         "type": 100,
-        "width": 60.05,
+        "width": 39.62,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 47.4757115,
-        "lonStart": 8.53594349,
-        "latEnd": 47.44548591,
-        "lonEnd": 8.55671982,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 47.083453,
+        "lonStart": 8.295069,
+        "latEnd": 47.101286,
+        "lonEnd": 8.315167,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 1
       },
       {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 47.483081,
-        "lonStart": 8.534725,
-        "latEnd": 47.461294,
-        "lonEnd": 8.564456,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 58.05,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 47.45893659,
-        "lonStart": 8.53741772,
-        "latEnd": 47.45657302,
-        "lonEnd": 8.57077173,
-        "length": 0,
-        "surfacetype": 2
+        "type": 102,
+        "width": 18.29,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 47.089643,
+        "lonStart": 8.298605,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.29
       }
     ],
-    "id": 27926
+    "id": 20885
+  },
+  {
+    "type": 1,
+    "icao": "LSPK",
+    "lat": 47.280063,
+    "lon": 8.882106499999999,
+    "communications": [],
+    "elevation": 2480,
+    "tower": false,
+    "name": "Hasenstrick",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 47.280546,
+        "lonStart": 8.879762,
+        "latEnd": 47.27958,
+        "lonEnd": 8.884451,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20888
   },
   {
     "type": 17,
@@ -760,32 +833,7 @@
         "length": 25
       }
     ],
-    "id": 30287
-  },
-  {
-    "type": 17,
-    "icao": "LSXS",
-    "lat": 47.170434,
-    "lon": 8.713338,
-    "communications": [],
-    "elevation": 2606,
-    "tower": false,
-    "name": "[H] Schindellegi",
-    "runways": [
-      {
-        "type": 102,
-        "width": 25,
-        "surfaceType": 2,
-        "numberStart": "H17",
-        "numberEnd": null,
-        "latStart": 47.170434,
-        "lonStart": 8.713338,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 25
-      }
-    ],
-    "id": 32604
+    "id": 20894
   },
   {
     "type": 17,
@@ -810,6 +858,6 @@
         "length": 25
       }
     ],
-    "id": 33911
+    "id": 20899
   }
 ]

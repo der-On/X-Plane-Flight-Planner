@@ -1,38 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "SBAX",
-    "lat": -19.5632475,
-    "lon": -46.9603585,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13035,
-        "name": "RDO"
-      }
-    ],
-    "elevation": 3275,
-    "tower": false,
-    "name": "ARAXA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": -19.557242,
-        "lonStart": -46.966825,
-        "latEnd": -19.569253,
-        "lonEnd": -46.953892,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 364
-  },
-  {
-    "type": 1,
     "icao": "SB04",
     "lat": -19.2874195,
     "lon": -46.511739,
@@ -55,7 +23,64 @@
         "surfacetype": 1
       }
     ],
-    "id": 475
+    "id": 25092
+  },
+  {
+    "type": 1,
+    "icao": "SBAX",
+    "lat": -19.5632475,
+    "lon": -46.9603585,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13035,
+        "name": "RDO"
+      }
+    ],
+    "elevation": 3275,
+    "tower": false,
+    "name": "ARAXA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -19.557242,
+        "lonStart": -46.966825,
+        "latEnd": -19.569253,
+        "lonEnd": -46.953892,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 25102
+  },
+  {
+    "type": 17,
+    "icao": "SJBQ",
+    "lat": -19.67583333,
+    "lon": -46.90388889,
+    "communications": [],
+    "elevation": 1111,
+    "tower": false,
+    "name": "[H] CBMM",
+    "runways": [
+      {
+        "type": 102,
+        "width": 24.1,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -19.67583333,
+        "lonStart": -46.90388889,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.1
+      }
+    ],
+    "id": 26760
   },
   {
     "type": 1,
@@ -81,31 +106,6 @@
         "surfacetype": 2
       }
     ],
-    "id": 21507
-  },
-  {
-    "type": 17,
-    "icao": "SJBQ",
-    "lat": -19.67583333,
-    "lon": -46.90388889,
-    "communications": [],
-    "elevation": 1111,
-    "tower": false,
-    "name": "[H] CBMM",
-    "runways": [
-      {
-        "type": 102,
-        "width": 24.1,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -19.67583333,
-        "lonStart": -46.90388889,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.1
-      }
-    ],
-    "id": 28675
+    "id": 28000
   }
 ]

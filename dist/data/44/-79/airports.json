@@ -1,6 +1,61 @@
 [
   {
     "type": 1,
+    "icao": "XCYCNF4",
+    "lat": 44.364694765,
+    "lon": -78.782011145,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "ATF"
+      },
+      {
+        "type": 56,
+        "frequency": 13425,
+        "name": "Toronto Departure"
+      },
+      {
+        "type": 55,
+        "frequency": 13425,
+        "name": "Toronto Arrival"
+      }
+    ],
+    "elevation": 895,
+    "tower": false,
+    "name": "Lindsay",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 44.36665506,
+        "lonStart": -78.78991479,
+        "latEnd": 44.362397,
+        "lonEnd": -78.77788779,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 44.360794,
+        "lonStart": -78.781801,
+        "latEnd": 44.368933,
+        "lonEnd": -78.778441,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5337
+  },
+  {
+    "type": 1,
     "icao": "CPS2",
     "lat": 44.250930905000004,
     "lon": -78.116933205,
@@ -29,58 +84,13 @@
         "surfacetype": 3
       }
     ],
-    "id": 7129
-  },
-  {
-    "type": 1,
-    "icao": "NF4",
-    "lat": 44.36368,
-    "lon": -78.7815285,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 882,
-    "tower": false,
-    "name": "Lindsay",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 44.366389,
-        "lonStart": -78.789169,
-        "latEnd": 44.361667,
-        "lonEnd": -78.777497,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 44.359722,
-        "lonStart": -78.780556,
-        "latEnd": 44.366942,
-        "lonEnd": -78.778892,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15299
+    "id": 15561
   },
   {
     "type": 1,
     "icao": "CYPQ",
-    "lat": 44.225814,
-    "lon": -78.36002925,
+    "lat": 44.2257550275,
+    "lon": -78.36034725,
     "communications": [
       {
         "type": 50,
@@ -103,8 +113,8 @@
         "surfaceType": null,
         "numberStart": "09",
         "numberEnd": "27",
-        "latStart": 44.228447,
-        "lonStart": -78.374878,
+        "latStart": 44.22821111,
+        "lonStart": -78.37615,
         "latEnd": 44.231753,
         "lonEnd": -78.35635,
         "length": 0,
@@ -124,6 +134,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 19332
+    "id": 15788
   }
 ]

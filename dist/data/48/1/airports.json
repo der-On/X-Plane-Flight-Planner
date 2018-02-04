@@ -1,45 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "LFFL",
-    "lat": 48.5169445,
-    "lon": 1.63841,
-    "communications": [],
-    "elevation": 508,
-    "tower": false,
-    "name": "Bailleau Armenonville",
-    "runways": [
-      {
-        "type": 100,
-        "width": 99.97,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 48.52203227,
-        "lonStart": 1.640353,
-        "latEnd": 48.51501573,
-        "lonEnd": 1.640353,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 99.97,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 48.51433928,
-        "lonStart": 1.63140227,
-        "latEnd": 48.51639072,
-        "lonEnd": 1.64153173,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 2077
-  },
-  {
-    "type": 1,
     "icao": "LFPF",
     "lat": 48.842783,
     "lon": 1.907531535,
@@ -68,93 +29,7 @@
         "surfacetype": 15
       }
     ],
-    "id": 2654
-  },
-  {
-    "type": 1,
-    "icao": "LFOR",
-    "lat": 48.457465317499995,
-    "lon": 1.5196703225,
-    "communications": [],
-    "elevation": 508,
-    "tower": false,
-    "name": "Chartres Champol",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.99,
-        "surfaceType": null,
-        "numberStart": "10R",
-        "numberEnd": "28L",
-        "latStart": 48.45708989,
-        "lonStart": 1.51415365,
-        "latEnd": 48.45673598,
-        "lonEnd": 1.52550858,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 99.97,
-        "surfaceType": null,
-        "numberStart": "10L",
-        "numberEnd": "28R",
-        "latStart": 48.4581735,
-        "lonStart": 1.51339413,
-        "latEnd": 48.4578619,
-        "lonEnd": 1.52562493,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 4825
-  },
-  {
-    "type": 1,
-    "icao": "LFOC",
-    "lat": 48.058141500000005,
-    "lon": 1.3766250000000002,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12210,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12562,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12270,
-        "name": "BRICY APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12330,
-        "name": "GCA"
-      }
-    ],
-    "elevation": 433,
-    "tower": true,
-    "name": "Chateaudun AB",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 48.059586,
-        "lonStart": 1.361336,
-        "latEnd": 48.056697,
-        "lonEnd": 1.391914,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 4830
+    "id": 3653
   },
   {
     "type": 1,
@@ -209,85 +84,52 @@
         "surfacetype": 3
       }
     ],
-    "id": 4847
-  },
-  {
-    "type": 1,
-    "icao": "LFON",
-    "lat": 48.705755225000004,
-    "lon": 1.361436415,
-    "communications": [],
-    "elevation": 443,
-    "tower": false,
-    "name": "Dreux Vernouillet",
-    "runways": [
-      {
-        "type": 100,
-        "width": 74.98,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 48.70836628,
-        "lonStart": 1.36427952,
-        "latEnd": 48.70314417,
-        "lonEnd": 1.35859331,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 6489
-  },
-  {
-    "type": 1,
-    "icao": "LF04",
-    "lat": 48.508333,
-    "lon": 1.016667,
-    "communications": [],
-    "elevation": 689,
-    "tower": false,
-    "name": "Fontaine Simon",
-    "runways": [
-      {
-        "type": 100,
-        "width": 35.05,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 48.50588295,
-        "lonStart": 1.01097238,
-        "latEnd": 48.51078305,
-        "lonEnd": 1.02236162,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9561
+    "id": 3657
   },
   {
     "type": 1,
     "icao": "LFXU",
-    "lat": 48.998333,
-    "lon": 1.9449999999999998,
-    "communications": [],
-    "elevation": 89,
-    "tower": true,
+    "lat": 48.998216295000006,
+    "lon": 1.9427069149999998,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "Les Mureaux"
+      }
+    ],
+    "elevation": 88,
+    "tower": false,
     "name": "Les Mureaux",
     "runways": [
       {
         "type": 100,
-        "width": 45.72,
+        "width": 50,
         "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 48.99970568,
-        "lonStart": 1.9317901,
-        "latEnd": 48.99696032,
-        "lonEnd": 1.9582099,
+        "numberStart": "10L",
+        "numberEnd": "28R",
+        "latStart": 48.99988761,
+        "lonStart": 1.92957305,
+        "latEnd": 48.99698879,
+        "lonEnd": 1.95595397,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 15
+      },
+      {
+        "type": 100,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "10R",
+        "numberEnd": "28L",
+        "latStart": 48.9994438,
+        "lonStart": 1.92945986,
+        "latEnd": 48.99654498,
+        "lonEnd": 1.95584078,
+        "length": 0,
+        "surfacetype": 15
       }
     ],
-    "id": 15189
+    "id": 3702
   },
   {
     "type": 1,
@@ -313,7 +155,69 @@
         "surfacetype": 3
       }
     ],
-    "id": 20109
+    "id": 14356
+  },
+  {
+    "type": 17,
+    "icao": "HDRE",
+    "lat": 48.7275,
+    "lon": 1.384722,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 11820,
+        "name": "A/A DREUX VERNOUILLET"
+      },
+      {
+        "type": 51,
+        "frequency": 11832,
+        "name": "SAMU"
+      }
+    ],
+    "elevation": 450,
+    "tower": false,
+    "name": "[H] Dreux Centre hospitalier",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 48.7275,
+        "lonStart": 1.384722,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 17890
+  },
+  {
+    "type": 1,
+    "icao": "LF2827",
+    "lat": 48.508333,
+    "lon": 1.016667,
+    "communications": [],
+    "elevation": 689,
+    "tower": false,
+    "name": "Fontaine Simon",
+    "runways": [
+      {
+        "type": 100,
+        "width": 35.05,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 48.50588295,
+        "lonStart": 1.01097238,
+        "latEnd": 48.51078305,
+        "lonEnd": 1.02236162,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20193
   },
   {
     "type": 1,
@@ -365,42 +269,157 @@
         "surfacetype": 3
       }
     ],
-    "id": 22688
+    "id": 20267
   },
   {
-    "type": 17,
-    "icao": "HDRE",
-    "lat": 48.7275,
-    "lon": 1.384722,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 11820,
-        "name": "A/A DREUX VERNOUILLET"
-      },
-      {
-        "type": 51,
-        "frequency": 11832,
-        "name": "SAMU"
-      }
-    ],
-    "elevation": 450,
+    "type": 1,
+    "icao": "LFFL",
+    "lat": 48.5169445,
+    "lon": 1.63841,
+    "communications": [],
+    "elevation": 508,
     "tower": false,
-    "name": "[H] Dreux Centre hospitalier",
+    "name": "Bailleau Armenonville",
     "runways": [
       {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 48.7275,
-        "lonStart": 1.384722,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
+        "type": 100,
+        "width": 99.97,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 48.52203227,
+        "lonStart": 1.640353,
+        "latEnd": 48.51501573,
+        "lonEnd": 1.640353,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 99.97,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 48.51433928,
+        "lonStart": 1.63140227,
+        "latEnd": 48.51639072,
+        "lonEnd": 1.64153173,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 29413
+    "id": 20272
+  },
+  {
+    "type": 1,
+    "icao": "LFOC",
+    "lat": 48.058141500000005,
+    "lon": 1.3766250000000002,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12562,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12270,
+        "name": "BRICY APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12330,
+        "name": "GCA"
+      }
+    ],
+    "elevation": 433,
+    "tower": true,
+    "name": "Chateaudun AB",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 48.059586,
+        "lonStart": 1.361336,
+        "latEnd": 48.056697,
+        "lonEnd": 1.391914,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20400
+  },
+  {
+    "type": 1,
+    "icao": "LFON",
+    "lat": 48.705755225000004,
+    "lon": 1.361436415,
+    "communications": [],
+    "elevation": 443,
+    "tower": false,
+    "name": "Dreux Vernouillet",
+    "runways": [
+      {
+        "type": 100,
+        "width": 74.98,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 48.70836628,
+        "lonStart": 1.36427952,
+        "latEnd": 48.70314417,
+        "lonEnd": 1.35859331,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20407
+  },
+  {
+    "type": 1,
+    "icao": "LFOR",
+    "lat": 48.457465317499995,
+    "lon": 1.5196703225,
+    "communications": [],
+    "elevation": 508,
+    "tower": false,
+    "name": "Chartres Champol",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 48.45708989,
+        "lonStart": 1.51415365,
+        "latEnd": 48.45673598,
+        "lonEnd": 1.52550858,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 99.97,
+        "surfaceType": null,
+        "numberStart": "10L",
+        "numberEnd": "28R",
+        "latStart": 48.4581735,
+        "lonStart": 1.51339413,
+        "latEnd": 48.4578619,
+        "lonEnd": 1.52562493,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20409
   }
 ]

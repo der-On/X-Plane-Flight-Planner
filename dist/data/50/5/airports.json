@@ -1,6 +1,162 @@
 [
   {
     "type": 1,
+    "icao": "EBLG",
+    "lat": 50.639091474000004,
+    "lon": 5.443913114,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12625,
+        "name": "ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 12180,
+        "name": "Clearance Delivery"
+      },
+      {
+        "type": 53,
+        "frequency": 12192,
+        "name": "Ground"
+      },
+      {
+        "type": 54,
+        "frequency": 13062,
+        "name": "Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12250,
+        "name": "Approach"
+      }
+    ],
+    "elevation": 645,
+    "tower": true,
+    "name": "Liege",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "05R",
+        "numberEnd": "23L",
+        "latStart": 50.62715222,
+        "lonStart": 5.42790843,
+        "latEnd": 50.65059773,
+        "lonEnd": 5.46505918,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "05L",
+        "numberEnd": "23R",
+        "latStart": 50.63128675,
+        "lonStart": 5.43017153,
+        "latEnd": 50.64608743,
+        "lonEnd": 5.45364386,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 18.7,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 50.64033324,
+        "lonStart": 5.44278257,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 17.6
+      }
+    ],
+    "id": 946
+  },
+  {
+    "type": 1,
+    "icao": "EBSP",
+    "lat": 50.48191229,
+    "lon": 5.9131343649999994,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12475,
+        "name": "Spa Radio"
+      }
+    ],
+    "elevation": 1541,
+    "tower": true,
+    "name": "Spa-La Sauveniere",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 50.4795245,
+        "lonStart": 5.90891994,
+        "latEnd": 50.48430008,
+        "lonEnd": 5.91734879,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 948
+  },
+  {
+    "type": 1,
+    "icao": "EHBK",
+    "lat": 50.910365,
+    "lon": 5.768685,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 12398,
+        "name": "Beek Approach"
+      },
+      {
+        "type": 54,
+        "frequency": 11947,
+        "name": "Beek Tower"
+      },
+      {
+        "type": 52,
+        "frequency": 12182,
+        "name": "Beek Delivery"
+      },
+      {
+        "type": 50,
+        "frequency": 12458,
+        "name": "ATIS"
+      }
+    ],
+    "elevation": 375,
+    "tower": true,
+    "name": "Maastricht Aachen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 50.89996,
+        "lonStart": 5.75814,
+        "latEnd": 50.92077,
+        "lonEnd": 5.77923,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1637
+  },
+  {
+    "type": 1,
     "icao": "EBAV",
     "lat": 50.707165785,
     "lon": 5.069388330000001,
@@ -29,242 +185,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 1359
-  },
-  {
-    "type": 1,
-    "icao": "EBZH",
-    "lat": 50.970039,
-    "lon": 5.375005,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 11832,
-        "name": "Hasselt Radio"
-      },
-      {
-        "type": 55,
-        "frequency": 12250,
-        "name": "Brussels Approach"
-      }
-    ],
-    "elevation": 141,
-    "tower": true,
-    "name": "Hasselt Zonhoven",
-    "runways": [
-      {
-        "type": 100,
-        "width": 54.86,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 50.970039,
-        "lonStart": 5.37014825,
-        "latEnd": 50.970039,
-        "lonEnd": 5.37986175,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11522
-  },
-  {
-    "type": 1,
-    "icao": "EBLG",
-    "lat": 50.63896711499999,
-    "lon": 5.444782568333333,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12625,
-        "name": "ATIS"
-      },
-      {
-        "type": 52,
-        "frequency": 12180,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 53,
-        "frequency": 12192,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 13062,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12250,
-        "name": "APP"
-      }
-    ],
-    "elevation": 645,
-    "tower": true,
-    "name": "Liege",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "05R",
-        "numberEnd": "23L",
-        "latStart": 50.62708272,
-        "lonStart": 5.42795428,
-        "latEnd": 50.64799528,
-        "lonEnd": 5.46092772,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "05L",
-        "numberEnd": "23R",
-        "latStart": 50.63127632,
-        "lonStart": 5.43013023,
-        "latEnd": 50.64612768,
-        "lonEnd": 5.45354739,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 29.87,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 50.63931674,
-        "lonStart": 5.45197753,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 29.87
-      },
-      {
-        "type": 102,
-        "width": 29.87,
-        "surfaceType": 2,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 50.64200395,
-        "lonStart": 5.44415826,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 29.87
-      }
-    ],
-    "id": 15255
-  },
-  {
-    "type": 1,
-    "icao": "EHBK",
-    "lat": 50.911397705,
-    "lon": 5.769529665,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12457,
-        "name": "ATIS"
-      },
-      {
-        "type": 53,
-        "frequency": 12182,
-        "name": "BEEK GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11947,
-        "name": "BEEK TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 11970,
-        "name": "BEEK TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12020,
-        "name": "BEEK APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12397,
-        "name": "BEEK APP"
-      }
-    ],
-    "elevation": 375,
-    "tower": true,
-    "name": "Maastricht Aachen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 39.66,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 50.90192841,
-        "lonStart": 5.75991539,
-        "latEnd": 50.920867,
-        "lonEnd": 5.77914394,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 16423
-  },
-  {
-    "type": 1,
-    "icao": "EBSU",
-    "lat": 50.0349985,
-    "lon": 5.441114,
-    "communications": [],
-    "elevation": 1930,
-    "tower": false,
-    "name": "SAINT HUBERT MIL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 44.81,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 50.030247,
-        "lonStart": 5.424542,
-        "latEnd": 50.03975,
-        "lonEnd": 5.457686,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 21912
-  },
-  {
-    "type": 1,
-    "icao": "EBSP",
-    "lat": 50.482506,
-    "lon": 5.910276,
-    "communications": [],
-    "elevation": 1542,
-    "tower": false,
-    "name": "Spa",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 50.48019274,
-        "lonStart": 5.90594349,
-        "latEnd": 50.48481926,
-        "lonEnd": 5.91460851,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 23924
+    "id": 16125
   },
   {
     "type": 1,
@@ -314,33 +235,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 24043
-  },
-  {
-    "type": 1,
-    "icao": "EBTX",
-    "lat": 50.552505,
-    "lon": 5.855,
-    "communications": [],
-    "elevation": 1099,
-    "tower": false,
-    "name": "Verviers",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 50.55106768,
-        "lonStart": 5.85108179,
-        "latEnd": 50.55394232,
-        "lonEnd": 5.85891821,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 26288
+    "id": 16148
   },
   {
     "type": 1,
@@ -366,7 +261,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 27928
+    "id": 16149
   },
   {
     "type": 1,
@@ -392,6 +287,95 @@
         "surfacetype": 2
       }
     ],
-    "id": 34548
+    "id": 16150
+  },
+  {
+    "type": 1,
+    "icao": "EBSU",
+    "lat": 50.0349985,
+    "lon": 5.441114,
+    "communications": [],
+    "elevation": 1930,
+    "tower": false,
+    "name": "SAINT HUBERT MIL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 44.81,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 50.030247,
+        "lonStart": 5.424542,
+        "latEnd": 50.03975,
+        "lonEnd": 5.457686,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 16151
+  },
+  {
+    "type": 1,
+    "icao": "EBTX",
+    "lat": 50.552505,
+    "lon": 5.855,
+    "communications": [],
+    "elevation": 1099,
+    "tower": false,
+    "name": "Verviers",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 50.55106768,
+        "lonStart": 5.85108179,
+        "latEnd": 50.55394232,
+        "lonEnd": 5.85891821,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16154
+  },
+  {
+    "type": 1,
+    "icao": "EBZH",
+    "lat": 50.970039,
+    "lon": 5.375005,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 11832,
+        "name": "Hasselt Radio"
+      },
+      {
+        "type": 55,
+        "frequency": 12250,
+        "name": "Brussels Approach"
+      }
+    ],
+    "elevation": 141,
+    "tower": true,
+    "name": "Hasselt Zonhoven",
+    "runways": [
+      {
+        "type": 100,
+        "width": 54.86,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 50.970039,
+        "lonStart": 5.37014825,
+        "latEnd": 50.970039,
+        "lonEnd": 5.37986175,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16158
   }
 ]

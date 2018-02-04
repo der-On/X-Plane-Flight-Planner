@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "LHSN",
-    "lat": 47.122859500000004,
-    "lon": 20.235500000000002,
+    "lat": 47.12265304499999,
+    "lon": 20.23624331,
     "communications": [
       {
         "type": 54,
@@ -16,24 +16,37 @@
         "name": "OPERA TWR"
       }
     ],
-    "elevation": 322,
+    "elevation": 282,
     "tower": true,
-    "name": "SZOLNOK",
+    "name": "Szolnok Air Base",
     "runways": [
       {
         "type": 100,
-        "width": 69.8,
+        "width": 70,
         "surfaceType": null,
         "numberStart": "02",
         "numberEnd": "20",
-        "latStart": 47.114458,
-        "lonStart": 20.230775,
-        "latEnd": 47.131261,
-        "lonEnd": 20.240225,
+        "latStart": 47.11445645,
+        "lonStart": 20.23077454,
+        "latEnd": 47.13126114,
+        "lonEnd": 20.24022567,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "02R",
+        "numberEnd": "20L",
+        "latStart": 47.11419753,
+        "lonStart": 20.23228869,
+        "latEnd": 47.13069706,
+        "lonEnd": 20.24168434,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 22641
+    "id": 3730
   }
 ]

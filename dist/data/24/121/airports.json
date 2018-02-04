@@ -2,36 +2,26 @@
   {
     "type": 1,
     "icao": "RCYU",
-    "lat": 24.02709925,
-    "lon": 121.61644,
+    "lat": 24.0248271175,
+    "lon": 121.60369175749999,
     "communications": [
       {
         "type": 53,
         "frequency": 12190,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12617,
-        "name": "TWR"
+        "name": "HUALIEN GND"
       },
       {
         "type": 54,
         "frequency": 11810,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12400,
-        "name": "APP"
+        "name": "HUALIEN TWR"
       },
       {
         "type": 55,
         "frequency": 11910,
-        "name": "APP"
+        "name": "TAIPEI APPROACH"
       }
     ],
-    "elevation": 52,
+    "elevation": 51,
     "tower": true,
     "name": "HUALIEN",
     "runways": [
@@ -41,28 +31,28 @@
         "surfaceType": null,
         "numberStart": "03",
         "numberEnd": "21",
-        "latStart": 24.012611,
-        "lonStart": 121.610969,
-        "latEnd": 24.03475,
-        "lonEnd": 121.622889,
+        "latStart": 24.01257272,
+        "lonStart": 121.61094839,
+        "latEnd": 24.03478828,
+        "lonEnd": 121.62291064,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 19.81,
+        "width": 48.75,
         "surfaceType": null,
-        "numberStart": "03L",
-        "numberEnd": "21R",
-        "latStart": 24.029119,
-        "lonStart": 121.615208,
-        "latEnd": 24.031917,
-        "lonEnd": 121.616694,
+        "numberStart": "03R",
+        "numberEnd": "21L",
+        "latStart": 24.01614159,
+        "lonStart": 121.58515768,
+        "latEnd": 24.03580588,
+        "lonEnd": 121.59575032,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
       }
     ],
-    "id": 11225
+    "id": 4426
   },
   {
     "type": 1,
@@ -104,6 +94,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 14602
+    "id": 24337
   }
 ]

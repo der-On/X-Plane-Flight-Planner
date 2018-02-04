@@ -27,7 +27,7 @@
       },
       {
         "type": 54,
-        "frequency": 12500,
+        "frequency": 11840,
         "name": "TWR"
       },
       {
@@ -114,13 +114,13 @@
         "length": 14.7
       }
     ],
-    "id": 4962
+    "id": 4219
   },
   {
     "type": 1,
     "icao": "NZFF",
-    "lat": -43.38786966666667,
-    "lon": 172.36087799999999,
+    "lat": -43.384640710000006,
+    "lon": 172.361730205,
     "communications": [
       {
         "type": 51,
@@ -128,33 +128,20 @@
         "name": "FOREST_FIELD MULT"
       }
     ],
-    "elevation": 402,
+    "elevation": 401,
     "tower": true,
-    "name": "Forest_Field",
+    "name": "Forest Field",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 40,
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": -43.381261,
-        "lonStart": 172.360597,
-        "latEnd": -43.390259,
-        "lonEnd": 172.360597,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": -43.390308,
-        "lonStart": 172.357454,
-        "latEnd": -43.386924,
-        "lonEnd": 172.365188,
+        "latStart": -43.37834542,
+        "lonStart": 172.36411304,
+        "latEnd": -43.38695007,
+        "lonEnd": 172.36010383,
         "length": 0,
         "surfacetype": 3
       },
@@ -164,21 +151,34 @@
         "surfaceType": null,
         "numberStart": "10",
         "numberEnd": "28",
-        "latStart": -43.388647,
-        "lonStart": 172.356151,
-        "latEnd": -43.389819,
-        "lonEnd": 172.365281,
+        "latStart": -43.38424044,
+        "lonStart": 172.35693851,
+        "latEnd": -43.38762917,
+        "lonEnd": 172.36510488,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -43.38631649,
+        "lonStart": 172.35797058,
+        "latEnd": -43.38436267,
+        "lonEnd": 172.36615039,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 9581
+    "id": 4226
   },
   {
     "type": 1,
     "icao": "NZRT",
-    "lat": -43.28920528571429,
-    "lon": 172.54122614285717,
+    "lat": -43.289081485714284,
+    "lon": 172.54132446714286,
     "communications": [
       {
         "type": 51,
@@ -192,14 +192,14 @@
     "runways": [
       {
         "type": 100,
-        "width": 35.05,
+        "width": 60.05,
         "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": -43.29113,
-        "lonStart": 172.540215,
-        "latEnd": -43.288744,
-        "lonEnd": 172.545663,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -43.2887319,
+        "lonStart": 172.53401393,
+        "latEnd": -43.28898443,
+        "lonEnd": 172.54849842,
         "length": 0,
         "surfacetype": 3
       },
@@ -209,114 +209,46 @@
         "surfaceType": null,
         "numberStart": "10",
         "numberEnd": "28",
-        "latStart": -43.287986,
-        "lonStart": 172.536468,
-        "latEnd": -43.290844,
-        "lonEnd": 172.542502,
+        "latStart": -43.28748845,
+        "lonStart": 172.53572487,
+        "latEnd": -43.29093544,
+        "lonEnd": 172.54289009,
         "length": 0,
         "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": -43.288891,
-        "lonStart": 172.533545,
-        "latEnd": -43.289077,
-        "lonEnd": 172.548105,
-        "length": 0,
-        "surfacetype": 15
-      },
-      {
-        "type": 102,
-        "width": 20.12,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -43.287765,
-        "lonStart": 172.542085,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20.12
-      }
-    ],
-    "id": 21196
-  },
-  {
-    "type": 1,
-    "icao": "NZWG",
-    "lat": -43.551955166666666,
-    "lon": 172.55427466666666,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12720,
-        "name": "CHRISTCHURCH ATIS"
-      },
-      {
-        "type": 51,
-        "frequency": 11875,
-        "name": "CTAF"
-      },
-      {
-        "type": 54,
-        "frequency": 12090,
-        "name": "CHRISTCHURCH CON"
-      }
-    ],
-    "elevation": 74,
-    "tower": false,
-    "name": "WIGRAM",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "03R",
-        "numberEnd": "21L",
-        "latStart": -43.554603,
-        "lonStart": 172.549556,
-        "latEnd": -43.545461,
-        "lonEnd": 172.564425,
-        "length": 0,
-        "surfacetype": 1
       },
       {
         "type": 100,
         "width": 35.05,
         "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": -43.548611,
-        "lonStart": 172.552222,
-        "latEnd": -43.557222,
-        "lonEnd": 172.558333,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": -43.29117899,
+        "lonStart": 172.54039222,
+        "latEnd": -43.28854642,
+        "lonEnd": 172.54567287,
         "length": 0,
         "surfacetype": 3
       },
       {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "03L",
-        "numberEnd": "21R",
-        "latStart": -43.555556,
-        "lonStart": 172.545556,
-        "latEnd": -43.550278,
-        "lonEnd": 172.555556,
-        "length": 0,
-        "surfacetype": 3
+        "type": 102,
+        "width": 15,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -43.28770477,
+        "lonStart": 172.54207887,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15
       }
     ],
-    "id": 26641
+    "id": 4270
   },
   {
     "type": 1,
     "icao": "NZWL",
-    "lat": -43.474126666666656,
-    "lon": 172.39562733333335,
+    "lat": -43.4776431825,
+    "lon": 172.39240388000002,
     "communications": [
       {
         "type": 51,
@@ -326,48 +258,113 @@
     ],
     "elevation": 304,
     "tower": true,
-    "name": "West_Melton",
+    "name": "West Melton",
     "runways": [
       {
         "type": 100,
-        "width": 89.92,
+        "width": 16,
         "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": -43.473762,
-        "lonStart": 172.401484,
-        "latEnd": -43.471804,
-        "lonEnd": 172.394086,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": -43.47893535,
+        "lonStart": 172.3878934,
+        "latEnd": -43.47679557,
+        "lonEnd": 172.39482281,
         "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 79.86,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": -43.47285,
-        "lonStart": 172.391815,
-        "latEnd": -43.478838,
-        "lonEnd": 172.394069,
-        "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       },
       {
         "type": 100,
         "width": 81.08,
         "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": -43.477024,
-        "lonStart": 172.391932,
-        "latEnd": -43.470482,
-        "lonEnd": 172.400378,
+        "numberStart": "04C",
+        "numberEnd": "22C",
+        "latStart": -43.47883171,
+        "lonStart": 172.38771822,
+        "latEnd": -43.47545305,
+        "lonEnd": 172.39862521,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 58,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -43.47523551,
+        "lonStart": 172.38997653,
+        "latEnd": -43.48135433,
+        "lonEnd": 172.38813953,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 72,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -43.47482677,
+        "lonStart": 172.3923913,
+        "latEnd": -43.47971317,
+        "lonEnd": 172.39966404,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 27136
+    "id": 4286
+  },
+  {
+    "type": 1,
+    "icao": "XNZFS",
+    "lat": -43.31748837,
+    "lon": 172.511822585,
+    "communications": [],
+    "elevation": 187,
+    "tower": true,
+    "name": "Fernside",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -43.31760359,
+        "lonStart": 172.50688731,
+        "latEnd": -43.31737315,
+        "lonEnd": 172.51675786,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5518
+  },
+  {
+    "type": 1,
+    "icao": "XNZL7",
+    "lat": -43.640574325,
+    "lon": 172.53027685,
+    "communications": [],
+    "elevation": 22,
+    "tower": true,
+    "name": "Worthy Lodge",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": -43.64296216,
+        "lonStart": 172.52976845,
+        "latEnd": -43.63818649,
+        "lonEnd": 172.53078525,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5521
   }
 ]

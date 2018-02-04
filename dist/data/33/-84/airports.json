@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "KAHN",
-    "lat": 33.94848247,
-    "lon": -83.3258575925,
+    "lat": 33.949268458333336,
+    "lon": -83.325402325,
     "communications": [
       {
         "type": 50,
@@ -16,14 +16,9 @@
         "name": "ATLANTA CNTR"
       },
       {
-        "type": 52,
-        "frequency": 12180,
-        "name": "CLEARANCE"
-      },
-      {
         "type": 53,
         "frequency": 12180,
-        "name": "GND"
+        "name": "GND / CLR"
       },
       {
         "type": 54,
@@ -41,7 +36,7 @@
         "name": "ATLANTA APP/DEP"
       }
     ],
-    "elevation": 808,
+    "elevation": 813,
     "tower": true,
     "name": "ATHENS BEN EPPS",
     "runways": [
@@ -51,10 +46,10 @@
         "surfaceType": null,
         "numberStart": "09",
         "numberEnd": "27",
-        "latStart": 33.94889081,
-        "lonStart": -83.33830736,
-        "latEnd": 33.94933907,
-        "lonEnd": -83.32005601,
+        "latStart": 33.94891276,
+        "lonStart": -83.33821915,
+        "latEnd": 33.94940556,
+        "lonEnd": -83.31803333,
         "length": 0,
         "surfacetype": 1
       },
@@ -70,271 +65,39 @@
         "lonEnd": -83.320192,
         "length": 0,
         "surfacetype": 1
-      }
-    ],
-    "id": 447
-  },
-  {
-    "type": 1,
-    "icao": "1GA9",
-    "lat": 33.761505549999995,
-    "lon": -83.65267084000001,
-    "communications": [],
-    "elevation": 830,
-    "tower": false,
-    "name": "Aerie",
-    "runways": [
-      {
-        "type": 100,
-        "width": 91.44,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 33.76334096,
-        "lonStart": -83.65512277,
-        "latEnd": 33.75967014,
-        "lonEnd": -83.65021891,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 592
-  },
-  {
-    "type": 1,
-    "icao": "67GA",
-    "lat": 33.8592825,
-    "lon": -83.58766667,
-    "communications": [],
-    "elevation": 734,
-    "tower": false,
-    "name": "Apalachee Bluff",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 33.85761091,
-        "lonStart": -83.5908881,
-        "latEnd": 33.86095409,
-        "lonEnd": -83.58444524,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 1106
-  },
-  {
-    "type": 1,
-    "icao": "KMLJ",
-    "lat": 33.1541695,
-    "lon": -83.241361,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12092,
-        "name": "AWOS 3"
       },
       {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
+        "type": 102,
+        "width": 12.6,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 33.95080611,
+        "lonStart": -83.32568149,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.9
       },
       {
-        "type": 55,
-        "frequency": 11960,
-        "name": "ATLANTA APP/DEP"
-      },
-      {
-        "type": 55,
-        "frequency": 12420,
-        "name": "ATLANTA APP/DEP"
+        "type": 102,
+        "width": 12.6,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.95078632,
+        "lonStart": -83.32541298,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.3
       }
     ],
-    "elevation": 383,
-    "tower": false,
-    "name": "BALDWIN CO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 33.154308,
-        "lonStart": -83.250344,
-        "latEnd": 33.154031,
-        "lonEnd": -83.232378,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 1468
-  },
-  {
-    "type": 1,
-    "icao": "GA76",
-    "lat": 33.15484861,
-    "lon": -83.89879528,
-    "communications": [],
-    "elevation": 620,
-    "tower": false,
-    "name": "Broken Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 33.15477442,
-        "lonStart": -83.90133294,
-        "latEnd": 33.1549228,
-        "lonEnd": -83.89625762,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 3229
-  },
-  {
-    "type": 1,
-    "icao": "9A1",
-    "lat": 33.632481999999996,
-    "lon": -83.8495585,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12300,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 52,
-        "frequency": 11987,
-        "name": "ATLANTA CLNC DEL"
-      },
-      {
-        "type": 55,
-        "frequency": 12697,
-        "name": "ATLANTA APP/DEP"
-      }
-    ],
-    "elevation": 794,
-    "tower": false,
-    "name": "COVINGTON MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 33.633033,
-        "lonStart": -83.856431,
-        "latEnd": 33.631931,
-        "lonEnd": -83.842686,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 4199
-  },
-  {
-    "type": 1,
-    "icao": "98GA",
-    "lat": 33.20568,
-    "lon": -83.91240694999999,
-    "communications": [],
-    "elevation": 544,
-    "tower": false,
-    "name": "Circle T",
-    "runways": [
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 33.206753,
-        "lonStart": -83.91410875,
-        "latEnd": 33.204607,
-        "lonEnd": -83.91070515,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 5021
-  },
-  {
-    "type": 1,
-    "icao": "GA81",
-    "lat": 33.617060269999996,
-    "lon": -83.78212306,
-    "communications": [],
-    "elevation": 759,
-    "tower": false,
-    "name": "Cline Ranch Strip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 33.61626185,
-        "lonStart": -83.78663369,
-        "latEnd": 33.61785869,
-        "lonEnd": -83.77761243,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 5100
-  },
-  {
-    "type": 1,
-    "icao": "3J7",
-    "lat": 33.597671000000005,
-    "lon": -83.138996,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 12750,
-        "name": "ATLANTA APP/DEP"
-      }
-    ],
-    "elevation": 677,
-    "tower": false,
-    "name": "GREENE CO RGNL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 33.594667,
-        "lonStart": -83.146386,
-        "latEnd": 33.600675,
-        "lonEnd": -83.131606,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 10152
+    "id": 2330
   },
   {
     "type": 1,
     "icao": "KLZU",
-    "lat": 33.978082,
-    "lon": -83.962365,
+    "lat": 33.978437985,
+    "lon": -83.96114246,
     "communications": [
       {
         "type": 50,
@@ -382,519 +145,21 @@
         "surfaceType": null,
         "numberStart": "07",
         "numberEnd": "25",
-        "latStart": 33.974428,
-        "lonStart": -83.971236,
-        "latEnd": 33.981736,
-        "lonEnd": -83.953494,
+        "latStart": 33.97478399,
+        "lonStart": -83.97001346,
+        "latEnd": 33.98209198,
+        "lonEnd": -83.95227146,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 10918
-  },
-  {
-    "type": 1,
-    "icao": "GA02",
-    "lat": 33.35150777,
-    "lon": -83.96379834000001,
-    "communications": [],
-    "elevation": 720,
-    "tower": false,
-    "name": "Howard - Private",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 33.34929035,
-        "lonStart": -83.96466087,
-        "latEnd": 33.35372519,
-        "lonEnd": -83.96293581,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 12110
-  },
-  {
-    "type": 1,
-    "icao": "2GA0",
-    "lat": 33.52651111,
-    "lon": -83.63795167,
-    "communications": [],
-    "elevation": 695,
-    "tower": false,
-    "name": "Kennedy Intranational",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 33.52716297,
-        "lonStart": -83.64432013,
-        "latEnd": 33.52585925,
-        "lonEnd": -83.63158321,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 13761
-  },
-  {
-    "type": 1,
-    "icao": "GA15",
-    "lat": 33.70873138,
-    "lon": -83.57905695,
-    "communications": [],
-    "elevation": 740,
-    "tower": false,
-    "name": "Klockner",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 33.71094125,
-        "lonStart": -83.58071692,
-        "latEnd": 33.70652151,
-        "lonEnd": -83.57739698,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 13990
-  },
-  {
-    "type": 1,
-    "icao": "2GA9",
-    "lat": 33.80455166,
-    "lon": -83.99629973,
-    "communications": [],
-    "elevation": 940,
-    "tower": false,
-    "name": "Lenora",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 33.80266203,
-        "lonStart": -83.99993902,
-        "latEnd": 33.80644129,
-        "lonEnd": -83.99266044,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15158
-  },
-  {
-    "type": 1,
-    "icao": "36GA",
-    "lat": 33.73010944,
-    "lon": -83.97463306,
-    "communications": [],
-    "elevation": 870,
-    "tower": false,
-    "name": "Lola Landing",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 33.73216542,
-        "lonStart": -83.97471939,
-        "latEnd": 33.72805346,
-        "lonEnd": -83.97454673,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15414
-  },
-  {
-    "type": 1,
-    "icao": "52A",
-    "lat": 33.612121,
-    "lon": -83.46044,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 694,
-    "tower": false,
-    "name": "MADISON MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 33.616167,
-        "lonStart": -83.464397,
-        "latEnd": 33.608075,
-        "lonEnd": -83.456483,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 15698
-  },
-  {
-    "type": 1,
-    "icao": "D73",
-    "lat": 33.7814865,
-    "lon": -83.69356,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      },
-      {
-        "type": 55,
-        "frequency": 12697,
-        "name": "ATLANTA APP/DEP"
-      }
-    ],
-    "elevation": 867,
-    "tower": false,
-    "name": "MONROE WALTON CO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 33.776667,
-        "lonStart": -83.697089,
-        "latEnd": 33.786306,
-        "lonEnd": -83.690031,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 16199
-  },
-  {
-    "type": 1,
-    "icao": "GA06",
-    "lat": 33.332499999999996,
-    "lon": -83.72694445,
-    "communications": [],
-    "elevation": 690,
-    "tower": false,
-    "name": "Monticello Sky Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 33.33647494,
-        "lonStart": -83.7312282,
-        "latEnd": 33.32852506,
-        "lonEnd": -83.7226607,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 17432
-  },
-  {
-    "type": 1,
-    "icao": "GA82",
-    "lat": 33.59594916,
-    "lon": -83.80406889,
-    "communications": [],
-    "elevation": 700,
-    "tower": false,
-    "name": "Morgan Farm Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 33.59778421,
-        "lonStart": -83.80821221,
-        "latEnd": 33.59411411,
-        "lonEnd": -83.79992557,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 17505
-  },
-  {
-    "type": 1,
-    "icao": "6GA7",
-    "lat": 33.37595527,
-    "lon": -83.74628778,
-    "communications": [],
-    "elevation": 729,
-    "tower": false,
-    "name": "Palalto",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 33.37860523,
-        "lonStart": -83.74914504,
-        "latEnd": 33.37330531,
-        "lonEnd": -83.74343052,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 19663
-  },
-  {
-    "type": 1,
-    "icao": "0GA4",
-    "lat": 33.812897500000005,
-    "lon": -83.50571862,
-    "communications": [],
-    "elevation": 736,
-    "tower": false,
-    "name": "Paradise Falls",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 33.81563672,
-        "lonStart": -83.5058914,
-        "latEnd": 33.81015828,
-        "lonEnd": -83.50554584,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 19750
-  },
-  {
-    "type": 1,
-    "icao": "2GA1",
-    "lat": 33.68066861,
-    "lon": -83.85268195,
-    "communications": [],
-    "elevation": 830,
-    "tower": false,
-    "name": "Poole Farm",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 33.68335165,
-        "lonStart": -83.85336729,
-        "latEnd": 33.67798557,
-        "lonEnd": -83.85199661,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 33.68157004,
-        "lonStart": -83.85471927,
-        "latEnd": 33.67976718,
-        "lonEnd": -83.85064463,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 20358
-  },
-  {
-    "type": 1,
-    "icao": "32GA",
-    "lat": 33.45416666,
-    "lon": -83.27777778000001,
-    "communications": [],
-    "elevation": 490,
-    "tower": false,
-    "name": "Sebastian Cove",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 33.45324111,
-        "lonStart": -83.28258287,
-        "latEnd": 33.45509221,
-        "lonEnd": -83.27297269,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23197
-  },
-  {
-    "type": 1,
-    "icao": "62GA",
-    "lat": 33.324565,
-    "lon": -83.91629584,
-    "communications": [],
-    "elevation": 630,
-    "tower": false,
-    "name": "Seven Lakes",
-    "runways": [
-      {
-        "type": 100,
-        "width": 39.62,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 33.32858102,
-        "lonStart": -83.91646368,
-        "latEnd": 33.32054898,
-        "lonEnd": -83.916128,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23308
-  },
-  {
-    "type": 1,
-    "icao": "18GA",
-    "lat": 33.69317361,
-    "lon": -83.65767223,
-    "communications": [],
-    "elevation": 750,
-    "tower": false,
-    "name": "Sleepy Hollow",
-    "runways": [
-      {
-        "type": 100,
-        "width": 6.71,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 33.69645601,
-        "lonStart": -83.65934683,
-        "latEnd": 33.68989121,
-        "lonEnd": -83.65599763,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 23703
-  },
-  {
-    "type": 1,
-    "icao": "6GA4",
-    "lat": 33.797055,
-    "lon": -83.85129194999999,
-    "communications": [],
-    "elevation": 919,
-    "tower": false,
-    "name": "Spring Valley Farm",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 33.79487466,
-        "lonStart": -83.85549076,
-        "latEnd": 33.79923534,
-        "lonEnd": -83.84709314,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23990
-  },
-  {
-    "type": 1,
-    "icao": "0GA6",
-    "lat": 33.73344611,
-    "lon": -83.81879083999999,
-    "communications": [],
-    "elevation": 780,
-    "tower": false,
-    "name": "Sunset Strip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 33.7358886,
-        "lonStart": -83.82062607,
-        "latEnd": 33.73100362,
-        "lonEnd": -83.81695561,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 24397
-  },
-  {
-    "type": 1,
-    "icao": "GA16",
-    "lat": 33.72428722,
-    "lon": -83.56683389,
-    "communications": [],
-    "elevation": 710,
-    "tower": false,
-    "name": "Taylor Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 33.72468806,
-        "lonStart": -83.57026305,
-        "latEnd": 33.72388638,
-        "lonEnd": -83.56340473,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 25103
+    "id": 2930
   },
   {
     "type": 1,
     "icao": "KWDR",
-    "lat": 33.98259575,
-    "lon": -83.66765799999999,
+    "lat": 33.98249994363636,
+    "lon": -83.66888497181817,
     "communications": [
       {
         "type": 50,
@@ -946,9 +211,973 @@
         "lonEnd": -83.664569,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 6.4,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.9821186,
+        "lonStart": -83.66994311,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.3
+      },
+      {
+        "type": 102,
+        "width": 6.4,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 33.98196249,
+        "lonStart": -83.67012623,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.3
+      },
+      {
+        "type": 102,
+        "width": 6.4,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 33.98244688,
+        "lonStart": -83.66958334,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.3
+      },
+      {
+        "type": 102,
+        "width": 6.4,
+        "surfaceType": 2,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 33.98292699,
+        "lonStart": -83.66904947,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.3
+      },
+      {
+        "type": 102,
+        "width": 6.4,
+        "surfaceType": 2,
+        "numberStart": "H5",
+        "numberEnd": null,
+        "latStart": 33.98277087,
+        "lonStart": -83.66922356,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.3
+      },
+      {
+        "type": 102,
+        "width": 6.4,
+        "surfaceType": 2,
+        "numberStart": "H6",
+        "numberEnd": null,
+        "latStart": 33.98260834,
+        "lonStart": -83.66940409,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.3
+      },
+      {
+        "type": 102,
+        "width": 6.4,
+        "surfaceType": 2,
+        "numberStart": "H7",
+        "numberEnd": null,
+        "latStart": 33.98228221,
+        "lonStart": -83.66977289,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.3
       }
     ],
-    "id": 26689
+    "id": 3397
+  },
+  {
+    "type": 1,
+    "icao": "0GA4",
+    "lat": 33.812897500000005,
+    "lon": -83.50571862,
+    "communications": [],
+    "elevation": 736,
+    "tower": false,
+    "name": "Paradise Falls",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 33.81563672,
+        "lonStart": -83.5058914,
+        "latEnd": 33.81015828,
+        "lonEnd": -83.50554584,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5810
+  },
+  {
+    "type": 1,
+    "icao": "0GA6",
+    "lat": 33.73344611,
+    "lon": -83.81879083999999,
+    "communications": [],
+    "elevation": 780,
+    "tower": false,
+    "name": "Sunset Strip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 33.7358886,
+        "lonStart": -83.82062607,
+        "latEnd": 33.73100362,
+        "lonEnd": -83.81695561,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5812
+  },
+  {
+    "type": 1,
+    "icao": "1GA9",
+    "lat": 33.761505549999995,
+    "lon": -83.65267084000001,
+    "communications": [],
+    "elevation": 830,
+    "tower": false,
+    "name": "Aerie",
+    "runways": [
+      {
+        "type": 100,
+        "width": 91.44,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 33.76334096,
+        "lonStart": -83.65512277,
+        "latEnd": 33.75967014,
+        "lonEnd": -83.65021891,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6401
+  },
+  {
+    "type": 1,
+    "icao": "2GA0",
+    "lat": 33.52651111,
+    "lon": -83.63795167,
+    "communications": [],
+    "elevation": 695,
+    "tower": false,
+    "name": "Kennedy Intranational",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 33.52716297,
+        "lonStart": -83.64432013,
+        "latEnd": 33.52585925,
+        "lonEnd": -83.63158321,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6964
+  },
+  {
+    "type": 1,
+    "icao": "2GA1",
+    "lat": 33.68066861,
+    "lon": -83.85268195,
+    "communications": [],
+    "elevation": 830,
+    "tower": false,
+    "name": "Poole Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 33.68335165,
+        "lonStart": -83.85336729,
+        "latEnd": 33.67798557,
+        "lonEnd": -83.85199661,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 33.68157004,
+        "lonStart": -83.85471927,
+        "latEnd": 33.67976718,
+        "lonEnd": -83.85064463,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6965
+  },
+  {
+    "type": 1,
+    "icao": "2GA9",
+    "lat": 33.80455166,
+    "lon": -83.99629973,
+    "communications": [],
+    "elevation": 940,
+    "tower": false,
+    "name": "Lenora",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 33.80266203,
+        "lonStart": -83.99993902,
+        "latEnd": 33.80644129,
+        "lonEnd": -83.99266044,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6973
+  },
+  {
+    "type": 1,
+    "icao": "3J7",
+    "lat": 33.59796961,
+    "lon": -83.13826244500001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12750,
+        "name": "ATLANTA APP/DEP"
+      }
+    ],
+    "elevation": 677,
+    "tower": false,
+    "name": "GREENE CO RGNL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 33.594667,
+        "lonStart": -83.146386,
+        "latEnd": 33.60127222,
+        "lonEnd": -83.13013889,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 7595
+  },
+  {
+    "type": 17,
+    "icao": "5GA1",
+    "lat": 33.98732555,
+    "lon": -83.97379417,
+    "communications": [],
+    "elevation": 1068,
+    "tower": false,
+    "name": "[H] County Police",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.98732555,
+        "lonStart": -83.97379417,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 8589
+  },
+  {
+    "type": 1,
+    "icao": "6GA4",
+    "lat": 33.797055,
+    "lon": -83.85129194999999,
+    "communications": [],
+    "elevation": 919,
+    "tower": false,
+    "name": "Spring Valley Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 33.79487466,
+        "lonStart": -83.85549076,
+        "latEnd": 33.79923534,
+        "lonEnd": -83.84709314,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9093
+  },
+  {
+    "type": 17,
+    "icao": "6GA6",
+    "lat": 33.02320055,
+    "lon": -83.20098639,
+    "communications": [],
+    "elevation": 390,
+    "tower": false,
+    "name": "[H] Central State Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.02320055,
+        "lonStart": -83.20098639,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 9095
+  },
+  {
+    "type": 1,
+    "icao": "6GA7",
+    "lat": 33.37595527,
+    "lon": -83.74628778,
+    "communications": [],
+    "elevation": 729,
+    "tower": false,
+    "name": "Palalto",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 33.37860523,
+        "lonStart": -83.74914504,
+        "latEnd": 33.37330531,
+        "lonEnd": -83.74343052,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9096
+  },
+  {
+    "type": 17,
+    "icao": "7GA0",
+    "lat": 33.94789277,
+    "lon": -83.40805556,
+    "communications": [],
+    "elevation": 735,
+    "tower": false,
+    "name": "[H] St Marys Health Care Systems",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.94789277,
+        "lonStart": -83.40805556,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 9590
+  },
+  {
+    "type": 1,
+    "icao": "9A1",
+    "lat": 33.632481999999996,
+    "lon": -83.8495585,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 11987,
+        "name": "ATLANTA CLNC DEL"
+      },
+      {
+        "type": 55,
+        "frequency": 12697,
+        "name": "ATLANTA APP/DEP"
+      }
+    ],
+    "elevation": 794,
+    "tower": false,
+    "name": "COVINGTON MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 33.633033,
+        "lonStart": -83.856431,
+        "latEnd": 33.631931,
+        "lonEnd": -83.842686,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10427
+  },
+  {
+    "type": 1,
+    "icao": "18GA",
+    "lat": 33.69317361,
+    "lon": -83.65767223,
+    "communications": [],
+    "elevation": 750,
+    "tower": false,
+    "name": "Sleepy Hollow",
+    "runways": [
+      {
+        "type": 100,
+        "width": 6.71,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 33.69645601,
+        "lonStart": -83.65934683,
+        "latEnd": 33.68989121,
+        "lonEnd": -83.65599763,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11220
+  },
+  {
+    "type": 1,
+    "icao": "32GA",
+    "lat": 33.45416666,
+    "lon": -83.27777778000001,
+    "communications": [],
+    "elevation": 490,
+    "tower": false,
+    "name": "Sebastian Cove",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 33.45324111,
+        "lonStart": -83.28258287,
+        "latEnd": 33.45509221,
+        "lonEnd": -83.27297269,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11774
+  },
+  {
+    "type": 1,
+    "icao": "36GA",
+    "lat": 33.73010944,
+    "lon": -83.97463306,
+    "communications": [],
+    "elevation": 870,
+    "tower": false,
+    "name": "Lola Landing",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 33.73216542,
+        "lonStart": -83.97471939,
+        "latEnd": 33.72805346,
+        "lonEnd": -83.97454673,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11931
+  },
+  {
+    "type": 1,
+    "icao": "52A",
+    "lat": 33.612121,
+    "lon": -83.46044,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 694,
+    "tower": false,
+    "name": "MADISON MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 33.616167,
+        "lonStart": -83.464397,
+        "latEnd": 33.608075,
+        "lonEnd": -83.456483,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12549
+  },
+  {
+    "type": 1,
+    "icao": "62GA",
+    "lat": 33.324565,
+    "lon": -83.91629584,
+    "communications": [],
+    "elevation": 630,
+    "tower": false,
+    "name": "Seven Lakes",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.62,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 33.32858102,
+        "lonStart": -83.91646368,
+        "latEnd": 33.32054898,
+        "lonEnd": -83.916128,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12949
+  },
+  {
+    "type": 1,
+    "icao": "67GA",
+    "lat": 33.8592825,
+    "lon": -83.58766667,
+    "communications": [],
+    "elevation": 734,
+    "tower": false,
+    "name": "Apalachee Bluff",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 33.85761091,
+        "lonStart": -83.5908881,
+        "latEnd": 33.86095409,
+        "lonEnd": -83.58444524,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13141
+  },
+  {
+    "type": 17,
+    "icao": "70GA",
+    "lat": 33.97954805,
+    "lon": -83.97046084,
+    "communications": [],
+    "elevation": 1040,
+    "tower": false,
+    "name": "[H] Gdps - Police",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.97954805,
+        "lonStart": -83.97046084,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 13268
+  },
+  {
+    "type": 17,
+    "icao": "71GA",
+    "lat": 33.60138888,
+    "lon": -83.84861112,
+    "communications": [],
+    "elevation": 770,
+    "tower": false,
+    "name": "[H] Newton General Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 21.3,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.60138888,
+        "lonStart": -83.84861112,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 13306
+  },
+  {
+    "type": 17,
+    "icao": "90GA",
+    "lat": 33.06012944,
+    "lon": -83.96379862,
+    "communications": [],
+    "elevation": 588,
+    "tower": false,
+    "name": "[H] Georgia Public Safety Training Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.06012944,
+        "lonStart": -83.96379862,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 14024
+  },
+  {
+    "type": 1,
+    "icao": "98GA",
+    "lat": 33.20568,
+    "lon": -83.91240694999999,
+    "communications": [],
+    "elevation": 544,
+    "tower": false,
+    "name": "Circle T",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 33.206753,
+        "lonStart": -83.91410875,
+        "latEnd": 33.204607,
+        "lonEnd": -83.91070515,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14296
+  },
+  {
+    "type": 1,
+    "icao": "D73",
+    "lat": 33.7814865,
+    "lon": -83.69356,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      },
+      {
+        "type": 55,
+        "frequency": 12697,
+        "name": "ATLANTA APP/DEP"
+      }
+    ],
+    "elevation": 867,
+    "tower": false,
+    "name": "MONROE WALTON CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 33.776667,
+        "lonStart": -83.697089,
+        "latEnd": 33.786306,
+        "lonEnd": -83.690031,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 15927
+  },
+  {
+    "type": 1,
+    "icao": "GA02",
+    "lat": 33.35150777,
+    "lon": -83.96379834000001,
+    "communications": [],
+    "elevation": 720,
+    "tower": false,
+    "name": "Howard - Private",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 33.34929035,
+        "lonStart": -83.96466087,
+        "latEnd": 33.35372519,
+        "lonEnd": -83.96293581,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17653
+  },
+  {
+    "type": 17,
+    "icao": "GA05",
+    "lat": 33.55346,
+    "lon": -83.47155612,
+    "communications": [],
+    "elevation": 660,
+    "tower": false,
+    "name": "[H] Holiday Inn",
+    "runways": [
+      {
+        "type": 102,
+        "width": 121.9,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.55346,
+        "lonStart": -83.47155612,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 121.9
+      }
+    ],
+    "id": 17656
+  },
+  {
+    "type": 1,
+    "icao": "GA06",
+    "lat": 33.332499999999996,
+    "lon": -83.72694445,
+    "communications": [],
+    "elevation": 690,
+    "tower": false,
+    "name": "Monticello Sky Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 33.33647494,
+        "lonStart": -83.7312282,
+        "latEnd": 33.32852506,
+        "lonEnd": -83.7226607,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17657
+  },
+  {
+    "type": 1,
+    "icao": "GA15",
+    "lat": 33.70873138,
+    "lon": -83.57905695,
+    "communications": [],
+    "elevation": 740,
+    "tower": false,
+    "name": "Klockner",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 33.71094125,
+        "lonStart": -83.58071692,
+        "latEnd": 33.70652151,
+        "lonEnd": -83.57739698,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17664
+  },
+  {
+    "type": 1,
+    "icao": "GA16",
+    "lat": 33.72428722,
+    "lon": -83.56683389,
+    "communications": [],
+    "elevation": 710,
+    "tower": false,
+    "name": "Taylor Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 33.72468806,
+        "lonStart": -83.57026305,
+        "latEnd": 33.72388638,
+        "lonEnd": -83.56340473,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17665
+  },
+  {
+    "type": 17,
+    "icao": "GA24",
+    "lat": 33.03124166,
+    "lon": -83.94490889,
+    "communications": [],
+    "elevation": 1620,
+    "tower": false,
+    "name": "[H] Monroe County Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.03124166,
+        "lonStart": -83.94490889,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 45.7
+      }
+    ],
+    "id": 17672
+  },
+  {
+    "type": 17,
+    "icao": "GA38",
+    "lat": 33.78316972,
+    "lon": -83.71795167,
+    "communications": [],
+    "elevation": 878,
+    "tower": false,
+    "name": "[H] Walton County Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.78316972,
+        "lonStart": -83.71795167,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 17686
+  },
+  {
+    "type": 1,
+    "icao": "GA76",
+    "lat": 33.15484861,
+    "lon": -83.89879528,
+    "communications": [],
+    "elevation": 620,
+    "tower": false,
+    "name": "Broken Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 33.15477442,
+        "lonStart": -83.90133294,
+        "latEnd": 33.1549228,
+        "lonEnd": -83.89625762,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17723
   },
   {
     "type": 1,
@@ -974,7 +1203,59 @@
         "surfacetype": 1
       }
     ],
-    "id": 27199
+    "id": 17727
+  },
+  {
+    "type": 1,
+    "icao": "GA81",
+    "lat": 33.617060269999996,
+    "lon": -83.78212306,
+    "communications": [],
+    "elevation": 759,
+    "tower": false,
+    "name": "Cline Ranch Strip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 33.61626185,
+        "lonStart": -83.78663369,
+        "latEnd": 33.61785869,
+        "lonEnd": -83.77761243,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17728
+  },
+  {
+    "type": 1,
+    "icao": "GA82",
+    "lat": 33.59594916,
+    "lon": -83.80406889,
+    "communications": [],
+    "elevation": 700,
+    "tower": false,
+    "name": "Morgan Farm Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 33.59778421,
+        "lonStart": -83.80821221,
+        "latEnd": 33.59411411,
+        "lonEnd": -83.79992557,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17729
   },
   {
     "type": 1,
@@ -1000,231 +1281,53 @@
         "surfacetype": 3
       }
     ],
-    "id": 27411
+    "id": 17730
   },
   {
-    "type": 17,
-    "icao": "6GA6",
-    "lat": 33.02320055,
-    "lon": -83.20098639,
-    "communications": [],
-    "elevation": 390,
-    "tower": false,
-    "name": "[H] Central State Hospital",
-    "runways": [
+    "type": 1,
+    "icao": "KMLJ",
+    "lat": 33.1541695,
+    "lon": -83.241361,
+    "communications": [
       {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.02320055,
-        "lonStart": -83.20098639,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
+        "type": 50,
+        "frequency": 12092,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11960,
+        "name": "ATLANTA APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12420,
+        "name": "ATLANTA APP/DEP"
       }
     ],
-    "id": 28845
-  },
-  {
-    "type": 17,
-    "icao": "5GA1",
-    "lat": 33.98732555,
-    "lon": -83.97379417,
-    "communications": [],
-    "elevation": 1068,
+    "elevation": 383,
     "tower": false,
-    "name": "[H] County Police",
+    "name": "BALDWIN CO",
     "runways": [
       {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.98732555,
-        "lonStart": -83.97379417,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 33.154308,
+        "lonStart": -83.250344,
+        "latEnd": 33.154031,
+        "lonEnd": -83.232378,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "id": 29165
-  },
-  {
-    "type": 17,
-    "icao": "70GA",
-    "lat": 33.97954805,
-    "lon": -83.97046084,
-    "communications": [],
-    "elevation": 1040,
-    "tower": false,
-    "name": "[H] Gdps - Police",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.97954805,
-        "lonStart": -83.97046084,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 29895
-  },
-  {
-    "type": 17,
-    "icao": "90GA",
-    "lat": 33.06012944,
-    "lon": -83.96379862,
-    "communications": [],
-    "elevation": 588,
-    "tower": false,
-    "name": "[H] Georgia Public Safety Training Center",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.06012944,
-        "lonStart": -83.96379862,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 29918
-  },
-  {
-    "type": 17,
-    "icao": "GA05",
-    "lat": 33.55346,
-    "lon": -83.47155612,
-    "communications": [],
-    "elevation": 660,
-    "tower": false,
-    "name": "[H] Holiday Inn",
-    "runways": [
-      {
-        "type": 102,
-        "width": 121.9,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.55346,
-        "lonStart": -83.47155612,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 121.9
-      }
-    ],
-    "id": 30268
-  },
-  {
-    "type": 17,
-    "icao": "GA24",
-    "lat": 33.03124166,
-    "lon": -83.94490889,
-    "communications": [],
-    "elevation": 1620,
-    "tower": false,
-    "name": "[H] Monroe County Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.03124166,
-        "lonStart": -83.94490889,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 45.7
-      }
-    ],
-    "id": 31420
-  },
-  {
-    "type": 17,
-    "icao": "71GA",
-    "lat": 33.60138888,
-    "lon": -83.84861112,
-    "communications": [],
-    "elevation": 770,
-    "tower": false,
-    "name": "[H] Newton General Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 21.3,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.60138888,
-        "lonStart": -83.84861112,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 31612
-  },
-  {
-    "type": 17,
-    "icao": "7GA0",
-    "lat": 33.94789277,
-    "lon": -83.40805556,
-    "communications": [],
-    "elevation": 735,
-    "tower": false,
-    "name": "[H] St Marys Health Care Systems",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.94789277,
-        "lonStart": -83.40805556,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 32976
-  },
-  {
-    "type": 17,
-    "icao": "GA38",
-    "lat": 33.78316972,
-    "lon": -83.71795167,
-    "communications": [],
-    "elevation": 878,
-    "tower": false,
-    "name": "[H] Walton County Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.78316972,
-        "lonStart": -83.71795167,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 33718
+    "id": 19496
   }
 ]

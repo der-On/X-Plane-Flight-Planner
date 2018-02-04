@@ -1,40 +1,28 @@
 [
   {
-    "type": 1,
-    "icao": "PANV",
-    "lat": 62.6467345,
-    "lon": -160.19065849999998,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13355,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12270,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 309,
+    "type": 16,
+    "icao": "K40",
+    "lat": 62.65622388,
+    "lon": -160.20544862,
+    "communications": [],
+    "elevation": 50,
     "tower": false,
-    "name": "ANVIK",
+    "name": "[S] Anvik",
     "runways": [
       {
-        "type": 100,
-        "width": 22.86,
+        "type": 101,
+        "width": 152.4,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 62.650747,
-        "lonStart": -160.189514,
-        "latEnd": 62.642722,
-        "lonEnd": -160.191803,
-        "length": 0,
-        "surfacetype": 5
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 62.65716203,
+        "lonStart": -160.2110602,
+        "latEnd": 62.65528573,
+        "lonEnd": -160.19983704,
+        "length": 0
       }
     ],
-    "id": 340
+    "id": 18716
   },
   {
     "type": 1,
@@ -79,31 +67,43 @@
         "surfacetype": 5
       }
     ],
-    "id": 10731
+    "id": 19244
   },
   {
-    "type": 16,
-    "icao": "K40",
-    "lat": 62.65622388,
-    "lon": -160.20544862,
-    "communications": [],
-    "elevation": 50,
-    "tower": false,
-    "name": "[S] Anvik",
-    "runways": [
+    "type": 1,
+    "icao": "PANV",
+    "lat": 62.6467345,
+    "lon": -160.19065849999998,
+    "communications": [
       {
-        "type": 101,
-        "width": 152.4,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 62.65716203,
-        "lonStart": -160.2110602,
-        "latEnd": 62.65528573,
-        "lonEnd": -160.19983704,
-        "length": 0
+        "type": 50,
+        "frequency": 13355,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
       }
     ],
-    "id": 33975
+    "elevation": 309,
+    "tower": false,
+    "name": "ANVIK",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 62.650747,
+        "lonStart": -160.189514,
+        "latEnd": 62.642722,
+        "lonEnd": -160.191803,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 23993
   }
 ]

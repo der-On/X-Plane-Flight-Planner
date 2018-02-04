@@ -1,119 +1,41 @@
 [
   {
     "type": 1,
-    "icao": "WV65",
-    "lat": 39.449252220000005,
-    "lon": -80.01138889,
-    "communications": [],
-    "elevation": 1704,
-    "tower": false,
-    "name": "Carr",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 39.44768399,
-        "lonStart": -80.01408397,
-        "latEnd": 39.45082045,
-        "lonEnd": -80.00869381,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 4578
-  },
-  {
-    "type": 1,
     "icao": "4G7",
-    "lat": 39.448164025,
-    "lon": -80.16703486,
-    "communications": [],
-    "elevation": 1028,
-    "tower": false,
-    "name": "Fairmont Municipal",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 39.44504722,
-        "lonStart": -80.1701025,
-        "latEnd": 39.45128083,
-        "lonEnd": -80.16396722,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 7757
-  },
-  {
-    "type": 1,
-    "icao": "KWAY",
-    "lat": 39.899998499999995,
-    "lon": -80.1330555,
+    "lat": 39.44752515,
+    "lon": -80.16765846000001,
     "communications": [
       {
         "type": 51,
         "frequency": 12280,
-        "name": "CTAF/UNICOM"
+        "name": "CTAF"
       }
     ],
-    "elevation": 1065,
-    "tower": false,
-    "name": "GREENE CO",
+    "elevation": 1027,
+    "tower": true,
+    "name": "Fairmont Municipal-Frankman Field",
     "runways": [
       {
         "type": 100,
         "width": 22.86,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 39.899722,
-        "lonStart": -80.139167,
-        "latEnd": 39.900275,
-        "lonEnd": -80.126944,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 39.44429354,
+        "lonStart": -80.17083562,
+        "latEnd": 39.45075676,
+        "lonEnd": -80.1644813,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 10150
-  },
-  {
-    "type": 1,
-    "icao": "KGWV",
-    "lat": 39.948684990000004,
-    "lon": -80.75952973,
-    "communications": [],
-    "elevation": 648,
-    "tower": false,
-    "name": "Glendale Fokker Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 39.945124,
-        "lonStart": -80.75977317,
-        "latEnd": 39.95224598,
-        "lonEnd": -80.75928629,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 10527
+    "id": 151
   },
   {
     "type": 1,
     "icao": "KCKB",
-    "lat": 39.29680575,
-    "lon": -80.22878916666667,
+    "lat": 39.29682375,
+    "lon": -80.22871938666667,
     "communications": [
       {
         "type": 50,
@@ -151,7 +73,7 @@
         "name": "CLARKSBURG APP/DEP"
       }
     ],
-    "elevation": 1217,
+    "elevation": 1216,
     "tower": true,
     "name": "HARRISON MARION RGNL",
     "runways": [
@@ -170,18 +92,70 @@
       },
       {
         "type": 102,
-        "width": 14.94,
+        "width": 14.9,
         "surfaceType": 2,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 39.29713225,
-        "lonStart": -80.2302075,
+        "latStart": 39.29718625,
+        "lonStart": -80.22999816,
         "latEnd": null,
         "lonEnd": null,
-        "length": 14.94
+        "length": 14.9
       }
     ],
-    "id": 11029
+    "id": 2491
+  },
+  {
+    "type": 1,
+    "icao": "6W0",
+    "lat": 39.40703055,
+    "lon": -80.27675223,
+    "communications": [],
+    "elevation": 961,
+    "tower": false,
+    "name": "Wade F Maley Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 13.72,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 39.40475966,
+        "lonStart": -80.27949296,
+        "latEnd": 39.40930144,
+        "lonEnd": -80.2740115,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9453
+  },
+  {
+    "type": 1,
+    "icao": "9W3",
+    "lat": 39.0934325,
+    "lon": -80.02591223,
+    "communications": [],
+    "elevation": 1959,
+    "tower": false,
+    "name": "Simpson",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 39.09137808,
+        "lonStart": -80.02605096,
+        "latEnd": 39.09548692,
+        "lonEnd": -80.0257735,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10831
   },
   {
     "type": 1,
@@ -213,7 +187,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 14631
+    "id": 12438
   },
   {
     "type": 1,
@@ -245,7 +219,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 15868
+    "id": 13425
   },
   {
     "type": 1,
@@ -271,7 +245,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 19151
+    "id": 13470
   },
   {
     "type": 1,
@@ -303,69 +277,17 @@
         "surfacetype": 1
       }
     ],
-    "id": 19344
+    "id": 13626
   },
   {
     "type": 1,
-    "icao": "WV47",
-    "lat": 39.135555499999995,
-    "lon": -80.2105555,
+    "icao": "KGWV",
+    "lat": 39.948684990000004,
+    "lon": -80.75952973,
     "communications": [],
-    "elevation": 1350,
+    "elevation": 648,
     "tower": false,
-    "name": "REXROAD",
-    "runways": [
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 39.136486,
-        "lonStart": -80.217322,
-        "latEnd": 39.134625,
-        "lonEnd": -80.203789,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 20914
-  },
-  {
-    "type": 1,
-    "icao": "WV28",
-    "lat": 39.324532489999996,
-    "lon": -80.39675723,
-    "communications": [],
-    "elevation": 1200,
-    "tower": false,
-    "name": "Ruth Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 39.32302109,
-        "lonStart": -80.39802604,
-        "latEnd": 39.32604389,
-        "lonEnd": -80.39548842,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 21866
-  },
-  {
-    "type": 1,
-    "icao": "9W3",
-    "lat": 39.0934325,
-    "lon": -80.02591223,
-    "communications": [],
-    "elevation": 1959,
-    "tower": false,
-    "name": "Simpson",
+    "name": "Glendale Fokker Field",
     "runways": [
       {
         "type": 100,
@@ -373,15 +295,47 @@
         "surfaceType": null,
         "numberStart": "01",
         "numberEnd": "19",
-        "latStart": 39.09137808,
-        "lonStart": -80.02605096,
-        "latEnd": 39.09548692,
-        "lonEnd": -80.0257735,
+        "latStart": 39.945124,
+        "lonStart": -80.75977317,
+        "latEnd": 39.95224598,
+        "lonEnd": -80.75928629,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 23531
+    "id": 19242
+  },
+  {
+    "type": 1,
+    "icao": "KWAY",
+    "lat": 39.899998499999995,
+    "lon": -80.1330555,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1065,
+    "tower": false,
+    "name": "GREENE CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 39.899722,
+        "lonStart": -80.139167,
+        "latEnd": 39.900275,
+        "lonEnd": -80.126944,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19969
   },
   {
     "type": 1,
@@ -423,33 +377,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 25824
-  },
-  {
-    "type": 1,
-    "icao": "6W0",
-    "lat": 39.40703055,
-    "lon": -80.27675223,
-    "communications": [],
-    "elevation": 961,
-    "tower": false,
-    "name": "Wade F Maley Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 13.72,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 39.40475966,
-        "lonStart": -80.27949296,
-        "latEnd": 39.40930144,
-        "lonEnd": -80.2740115,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 26786
+    "id": 31242
   },
   {
     "type": 17,
@@ -474,32 +402,33 @@
         "length": 18.3
       }
     ],
-    "id": 29022
+    "id": 31959
   },
   {
-    "type": 16,
-    "icao": "WV44",
-    "lat": 39.92924111000001,
-    "lon": -80.76508612,
+    "type": 1,
+    "icao": "WV28",
+    "lat": 39.324532489999996,
+    "lon": -80.39675723,
     "communications": [],
-    "elevation": 623,
+    "elevation": 1200,
     "tower": false,
-    "name": "[S] Moundsville",
+    "name": "Ruth Field",
     "runways": [
       {
-        "type": 101,
-        "width": 152.4,
+        "type": 100,
+        "width": 18.29,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 39.93579892,
-        "lonStart": -80.76770066,
-        "latEnd": 39.9226833,
-        "lonEnd": -80.76247158,
-        "length": 0
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 39.32302109,
+        "lonStart": -80.39802604,
+        "latEnd": 39.32604389,
+        "lonEnd": -80.39548842,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 34302
+    "id": 31968
   },
   {
     "type": 16,
@@ -524,6 +453,83 @@
         "length": 0
       }
     ],
-    "id": 34312
+    "id": 31976
+  },
+  {
+    "type": 16,
+    "icao": "WV44",
+    "lat": 39.92924111000001,
+    "lon": -80.76508612,
+    "communications": [],
+    "elevation": 623,
+    "tower": false,
+    "name": "[S] Moundsville",
+    "runways": [
+      {
+        "type": 101,
+        "width": 152.4,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 39.93579892,
+        "lonStart": -80.76770066,
+        "latEnd": 39.9226833,
+        "lonEnd": -80.76247158,
+        "length": 0
+      }
+    ],
+    "id": 31983
+  },
+  {
+    "type": 1,
+    "icao": "WV47",
+    "lat": 39.135555499999995,
+    "lon": -80.2105555,
+    "communications": [],
+    "elevation": 1350,
+    "tower": false,
+    "name": "REXROAD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 39.136486,
+        "lonStart": -80.217322,
+        "latEnd": 39.134625,
+        "lonEnd": -80.203789,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 31986
+  },
+  {
+    "type": 1,
+    "icao": "WV65",
+    "lat": 39.449252220000005,
+    "lon": -80.01138889,
+    "communications": [],
+    "elevation": 1704,
+    "tower": false,
+    "name": "Carr",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 39.44768399,
+        "lonStart": -80.01408397,
+        "latEnd": 39.45082045,
+        "lonEnd": -80.00869381,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 32003
   }
 ]

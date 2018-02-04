@@ -1,0 +1,75 @@
+[
+  {
+    "type": 1,
+    "icao": "LCEN",
+    "lat": 35.15399532,
+    "lon": 33.50498844,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12020,
+        "name": "Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12150,
+        "name": "APPR"
+      },
+      {
+        "type": 55,
+        "frequency": 12690,
+        "name": "APPR"
+      },
+      {
+        "type": 50,
+        "frequency": 11835,
+        "name": "ATIS"
+      }
+    ],
+    "elevation": 398,
+    "tower": true,
+    "name": "Ercan",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 35.15861368,
+        "lonStart": 33.49091953,
+        "latEnd": 35.14937696,
+        "lonEnd": 33.51905735,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3461
+  },
+  {
+    "type": 1,
+    "icao": "LCGK",
+    "lat": 35.236002705000004,
+    "lon": 33.71983672,
+    "communications": [],
+    "elevation": 144,
+    "tower": true,
+    "name": "Gecitkale",
+    "runways": [
+      {
+        "type": 100,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 35.2361561,
+        "lonStart": 33.70416604,
+        "latEnd": 35.23584931,
+        "lonEnd": 33.7355074,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3462
+  }
+]

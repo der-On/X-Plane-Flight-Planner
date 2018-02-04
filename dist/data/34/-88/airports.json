@@ -1,6 +1,114 @@
 [
   {
     "type": 1,
+    "icao": "KMSL",
+    "lat": 34.745341249999996,
+    "lon": -87.61137199999999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11942,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12305,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 549,
+    "tower": false,
+    "name": "NORTHWEST ALABAMA RGNL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 34.749017,
+        "lonStart": -87.617019,
+        "latEnd": 34.7415,
+        "lonEnd": -87.596686,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 34.750917,
+        "lonStart": -87.615733,
+        "latEnd": 34.739931,
+        "lonEnd": -87.61605,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3004
+  },
+  {
+    "type": 1,
+    "icao": "0AL9",
+    "lat": 34.85,
+    "lon": -87.6325,
+    "communications": [],
+    "elevation": 589,
+    "tower": false,
+    "name": "Wilson Creek",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 34.85,
+        "lonStart": -87.63617669,
+        "latEnd": 34.85,
+        "lonEnd": -87.62882331,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5697
+  },
+  {
+    "type": 1,
+    "icao": "1M4",
+    "lat": 34.2803335,
+    "lon": -87.600415,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 930,
+    "tower": false,
+    "name": "POSEY FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 34.287211,
+        "lonStart": -87.600172,
+        "latEnd": 34.273456,
+        "lonEnd": -87.600658,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 6514
+  },
+  {
+    "type": 1,
     "icao": "2A8",
     "lat": 34.20926833,
     "lon": -87.15806723,
@@ -23,33 +131,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 571
-  },
-  {
-    "type": 1,
-    "icao": "5AL5",
-    "lat": 34.691111,
-    "lon": -87.652778,
-    "communications": [],
-    "elevation": 504,
-    "tower": false,
-    "name": "BIG RIVER AIRPARK",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 34.695232,
-        "lonStart": -87.652778,
-        "latEnd": 34.68699,
-        "lonEnd": -87.652778,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 1709
+    "id": 6859
   },
   {
     "type": 1,
@@ -81,33 +163,33 @@
         "surfacetype": 1
       }
     ],
-    "id": 5858
+    "id": 7645
   },
   {
     "type": 1,
-    "icao": "AL34",
-    "lat": 34.44704,
-    "lon": -87.38613278,
+    "icao": "5AL5",
+    "lat": 34.691111,
+    "lon": -87.652778,
     "communications": [],
-    "elevation": 685,
+    "elevation": 504,
     "tower": false,
-    "name": "Henson Field",
+    "name": "BIG RIVER AIRPARK",
     "runways": [
       {
         "type": 100,
-        "width": 9.14,
+        "width": 15.24,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 34.44704,
-        "lonStart": -87.3919537,
-        "latEnd": 34.44704,
-        "lonEnd": -87.38031186,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 34.695232,
+        "lonStart": -87.652778,
+        "latEnd": 34.68699,
+        "lonEnd": -87.652778,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       }
     ],
-    "id": 11696
+    "id": 8489
   },
   {
     "type": 1,
@@ -157,179 +239,7 @@
         "surfacetype": 2
       }
     ],
-    "id": 14431
-  },
-  {
-    "type": 1,
-    "icao": "KHAB",
-    "lat": 34.1169445,
-    "lon": -87.9982015,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 442,
-    "tower": false,
-    "name": "MARION CO RANKIN FITE",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 34.124497,
-        "lonStart": -87.997906,
-        "latEnd": 34.109392,
-        "lonEnd": -87.998497,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 15837
-  },
-  {
-    "type": 1,
-    "icao": "KMSL",
-    "lat": 34.745341249999996,
-    "lon": -87.61137199999999,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11942,
-        "name": "ASOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12305,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 550,
-    "tower": false,
-    "name": "NORTHWEST ALABAMA RGNL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 34.749017,
-        "lonStart": -87.617019,
-        "latEnd": 34.7415,
-        "lonEnd": -87.596686,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 34.750917,
-        "lonStart": -87.615733,
-        "latEnd": 34.739931,
-        "lonEnd": -87.61605,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 18002
-  },
-  {
-    "type": 1,
-    "icao": "1M4",
-    "lat": 34.2803335,
-    "lon": -87.600415,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 930,
-    "tower": false,
-    "name": "POSEY FLD",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 34.287211,
-        "lonStart": -87.600172,
-        "latEnd": 34.273456,
-        "lonEnd": -87.600658,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19515
-  },
-  {
-    "type": 1,
-    "icao": "M22",
-    "lat": 34.4450775,
-    "lon": -87.7116235,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 723,
-    "tower": false,
-    "name": "RUSSELLVILLE MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 34.437822,
-        "lonStart": -87.714169,
-        "latEnd": 34.452333,
-        "lonEnd": -87.709078,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 21088
-  },
-  {
-    "type": 1,
-    "icao": "0AL9",
-    "lat": 34.85,
-    "lon": -87.6325,
-    "communications": [],
-    "elevation": 589,
-    "tower": false,
-    "name": "Wilson Creek",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 34.85,
-        "lonStart": -87.63617669,
-        "latEnd": 34.85,
-        "lonEnd": -87.62882331,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 27378
+    "id": 10429
   },
   {
     "type": 17,
@@ -354,57 +264,33 @@
         "length": 15.2
       }
     ],
-    "id": 29522
+    "id": 14514
   },
   {
-    "type": 17,
-    "icao": "AL53",
-    "lat": 34.7462,
-    "lon": -87.67641806,
+    "type": 1,
+    "icao": "AL34",
+    "lat": 34.44704,
+    "lon": -87.38613278,
     "communications": [],
-    "elevation": 500,
+    "elevation": 685,
     "tower": false,
-    "name": "[H] Humana Hospital Shoals",
+    "name": "Henson Field",
     "runways": [
       {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 34.7462,
-        "lonStart": -87.67641806,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 34.44704,
+        "lonStart": -87.3919537,
+        "latEnd": 34.44704,
+        "lonEnd": -87.38031186,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 30416
-  },
-  {
-    "type": 17,
-    "icao": "AL86",
-    "lat": 34.48398388,
-    "lon": -87.28640862,
-    "communications": [],
-    "elevation": 648,
-    "tower": false,
-    "name": "[H] Lawrence County Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 34.48398388,
-        "lonStart": -87.28640862,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 30852
+    "id": 14526
   },
   {
     "type": 16,
@@ -453,6 +339,120 @@
         "length": 0
       }
     ],
-    "id": 34444
+    "id": 14537
+  },
+  {
+    "type": 17,
+    "icao": "AL53",
+    "lat": 34.7462,
+    "lon": -87.67641806,
+    "communications": [],
+    "elevation": 500,
+    "tower": false,
+    "name": "[H] Humana Hospital Shoals",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.7462,
+        "lonStart": -87.67641806,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 14544
+  },
+  {
+    "type": 17,
+    "icao": "AL86",
+    "lat": 34.48398388,
+    "lon": -87.28640862,
+    "communications": [],
+    "elevation": 648,
+    "tower": false,
+    "name": "[H] Lawrence County Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.48398388,
+        "lonStart": -87.28640862,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 14576
+  },
+  {
+    "type": 1,
+    "icao": "KHAB",
+    "lat": 34.1169445,
+    "lon": -87.9982015,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 442,
+    "tower": false,
+    "name": "MARION CO RANKIN FITE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 34.124497,
+        "lonStart": -87.997906,
+        "latEnd": 34.109392,
+        "lonEnd": -87.998497,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19253
+  },
+  {
+    "type": 1,
+    "icao": "M22",
+    "lat": 34.4450775,
+    "lon": -87.7116235,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 723,
+    "tower": false,
+    "name": "RUSSELLVILLE MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 34.437822,
+        "lonStart": -87.714169,
+        "latEnd": 34.452333,
+        "lonEnd": -87.709078,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20967
   }
 ]

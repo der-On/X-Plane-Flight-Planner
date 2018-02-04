@@ -2,12 +2,18 @@
   {
     "type": 1,
     "icao": "SBTR",
-    "lat": -29.414939,
-    "lon": -49.809978,
-    "communications": [],
+    "lat": -29.41487333,
+    "lon": -49.809991855,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13025,
+        "name": "FSS"
+      }
+    ],
     "elevation": 33,
     "tower": false,
-    "name": "TORRES",
+    "name": "Torres",
     "runways": [
       {
         "type": 100,
@@ -15,14 +21,14 @@
         "surfaceType": null,
         "numberStart": "05",
         "numberEnd": "23",
-        "latStart": -29.420247,
-        "lonStart": -49.814781,
-        "latEnd": -29.409631,
-        "lonEnd": -49.805175,
+        "latStart": -29.42017066,
+        "lonStart": -49.81480364,
+        "latEnd": -29.409576,
+        "lonEnd": -49.80518007,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 24805
+    "id": 4668
   }
 ]

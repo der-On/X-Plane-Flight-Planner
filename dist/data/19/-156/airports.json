@@ -1,68 +1,34 @@
 [
   {
-    "type": 1,
-    "icao": "PHSF",
-    "lat": 19.759926626666665,
-    "lon": -155.55384956666668,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12470,
-        "name": "ATIS"
-      },
-      {
-        "type": 51,
-        "frequency": 12630,
-        "name": "CTAF"
-      },
-      {
-        "type": 54,
-        "frequency": 12630,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12600,
-        "name": "HONOLULU CNTR"
-      }
-    ],
-    "elevation": 6188,
-    "tower": true,
-    "name": "BRADSHAW AAF",
+    "type": 17,
+    "icao": "00HI",
+    "lat": 19.8326818,
+    "lon": -155.980087,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[H] Kaupulehu Heliport",
     "runways": [
       {
-        "type": 100,
-        "width": 27.43,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 19.76102722,
-        "lonStart": -155.55909792,
-        "latEnd": 19.75913578,
-        "lonEnd": -155.54852211,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
         "type": 102,
-        "width": 9.1,
-        "surfaceType": 1,
+        "width": 18.3,
+        "surfaceType": 15,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 19.75961688,
-        "lonStart": -155.55392867,
+        "latStart": 19.8326818,
+        "lonStart": -155.980087,
         "latEnd": null,
         "lonEnd": null,
-        "length": 9.1
+        "length": 18.3
       }
     ],
-    "id": 1879
+    "id": 10
   },
   {
     "type": 1,
     "icao": "PHTO",
-    "lat": 19.717661456363636,
-    "lon": -155.05418732727273,
+    "lat": 19.719846750000002,
+    "lon": -155.0503884425,
     "communications": [
       {
         "type": 50,
@@ -119,197 +85,9 @@
         "lonEnd": -155.05186627,
         "length": 0,
         "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 27.13,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 19.7172312,
-        "lonStart": -155.05567003,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 41.15
-      },
-      {
-        "type": 102,
-        "width": 20.12,
-        "surfaceType": 2,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 19.71670882,
-        "lonStart": -155.05636976,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20.12
-      },
-      {
-        "type": 102,
-        "width": 20.12,
-        "surfaceType": 2,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 19.71656984,
-        "lonStart": -155.05620136,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20.12
-      },
-      {
-        "type": 102,
-        "width": 20.12,
-        "surfaceType": 2,
-        "numberStart": "H4",
-        "numberEnd": null,
-        "latStart": 19.71643519,
-        "lonStart": -155.05603065,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20.12
-      },
-      {
-        "type": 102,
-        "width": 20.12,
-        "surfaceType": 2,
-        "numberStart": "H5",
-        "numberEnd": null,
-        "latStart": 19.71611814,
-        "lonStart": -155.05691649,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20.12
-      },
-      {
-        "type": 102,
-        "width": 20.12,
-        "surfaceType": 2,
-        "numberStart": "H6",
-        "numberEnd": null,
-        "latStart": 19.71598132,
-        "lonStart": -155.05674347,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20.12
-      },
-      {
-        "type": 102,
-        "width": 20.12,
-        "surfaceType": 2,
-        "numberStart": "H7",
-        "numberEnd": null,
-        "latStart": 19.71584451,
-        "lonStart": -155.05657507,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20.12
       }
     ],
-    "id": 11865
-  },
-  {
-    "type": 1,
-    "icao": "HI25",
-    "lat": 19.122824440000002,
-    "lon": -155.57805028,
-    "communications": [],
-    "elevation": 1964,
-    "tower": false,
-    "name": "Kaalaiki Airstrip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 19.12129058,
-        "lonStart": -155.58045713,
-        "latEnd": 19.1243583,
-        "lonEnd": -155.57564343,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 13519
-  },
-  {
-    "type": 1,
-    "icao": "HI31",
-    "lat": 19.764044485,
-    "lon": -155.13962767499999,
-    "communications": [],
-    "elevation": 1419,
-    "tower": false,
-    "name": "Mauna Kea-Honolii",
-    "runways": [
-      {
-        "type": 100,
-        "width": 5.18,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 19.76366543,
-        "lonStart": -155.1419284,
-        "latEnd": 19.76442354,
-        "lonEnd": -155.13732695,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 16827
-  },
-  {
-    "type": 1,
-    "icao": "HI23",
-    "lat": 19.546940765,
-    "lon": -155.106809135,
-    "communications": [],
-    "elevation": 1500,
-    "tower": false,
-    "name": "Mountain View Airstrip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 6.4,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 19.54618149,
-        "lonStart": -155.10845234,
-        "latEnd": 19.54770004,
-        "lonEnd": -155.10516593,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 17643
-  },
-  {
-    "type": 1,
-    "icao": "HI28",
-    "lat": 19.21616978,
-    "lon": -155.468775655,
-    "communications": [],
-    "elevation": 1194,
-    "tower": false,
-    "name": "Pahala Airstrip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 19.21832856,
-        "lonStart": -155.46892229,
-        "latEnd": 19.214011,
-        "lonEnd": -155.46862902,
-        "length": 0,
-        "surfacetype": 15
-      }
-    ],
-    "id": 19653
+    "id": 4409
   },
   {
     "type": 1,
@@ -335,59 +113,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 19936
-  },
-  {
-    "type": 1,
-    "icao": "HI32",
-    "lat": 19.844731940000003,
-    "lon": -155.1133425,
-    "communications": [],
-    "elevation": 675,
-    "tower": false,
-    "name": "Pepeekeo Airstrip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 7.62,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 19.84319808,
-        "lonStart": -155.1157601,
-        "latEnd": 19.8462658,
-        "lonEnd": -155.1109249,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19970
-  },
-  {
-    "type": 1,
-    "icao": "HI29",
-    "lat": 19.227766185,
-    "lon": -155.50603748,
-    "communications": [],
-    "elevation": 2609,
-    "tower": false,
-    "name": "Upper Paauau",
-    "runways": [
-      {
-        "type": 100,
-        "width": 4.57,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 19.22609647,
-        "lonStart": -155.50728215,
-        "latEnd": 19.2294359,
-        "lonEnd": -155.50479281,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 25963
+    "id": 17942
   },
   {
     "type": 17,
@@ -412,82 +138,7 @@
         "length": 26.2
       }
     ],
-    "id": 30253
-  },
-  {
-    "type": 17,
-    "icao": "00HI",
-    "lat": 19.8326818,
-    "lon": -155.980087,
-    "communications": [],
-    "elevation": 0,
-    "tower": false,
-    "name": "[H] Kaupulehu Heliport",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 15,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 19.8326818,
-        "lonStart": -155.980087,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 30696
-  },
-  {
-    "type": 17,
-    "icao": "HI18",
-    "lat": 19.86583861,
-    "lon": -155.64722334,
-    "communications": [],
-    "elevation": 2798,
-    "tower": false,
-    "name": "[H] Lucy Henriques Medical Center",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 19.86583861,
-        "lonStart": -155.64722334,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 30966
-  },
-  {
-    "type": 17,
-    "icao": "HI52",
-    "lat": 19.43308666,
-    "lon": -155.25972306,
-    "communications": [],
-    "elevation": 4000,
-    "tower": false,
-    "name": "[H] Rainshed",
-    "runways": [
-      {
-        "type": 102,
-        "width": 27.4,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 19.43308666,
-        "lonStart": -155.25972306,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 27.4
-      }
-    ],
-    "id": 32253
+    "id": 17944
   },
   {
     "type": 17,
@@ -512,82 +163,7 @@
         "length": 7.9
       }
     ],
-    "id": 33700
-  },
-  {
-    "type": 16,
-    "icao": "QILO",
-    "lat": 19.739722999999998,
-    "lon": -155.078049,
-    "communications": [],
-    "elevation": 0,
-    "tower": false,
-    "name": "[S] Hilo Seaport",
-    "runways": [
-      {
-        "type": 101,
-        "width": 1524,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 19.74658045,
-        "lonStart": -155.078049,
-        "latEnd": 19.73286555,
-        "lonEnd": -155.078049,
-        "length": 0
-      }
-    ],
-    "id": 34161
-  },
-  {
-    "type": 16,
-    "icao": "QKKI",
-    "lat": 19.078054,
-    "lon": -155.544876,
-    "communications": [],
-    "elevation": 0,
-    "tower": false,
-    "name": "[S] Kaalaiki Harbor",
-    "runways": [
-      {
-        "type": 101,
-        "width": 1219.2,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 19.08491145,
-        "lonStart": -155.544876,
-        "latEnd": 19.07119655,
-        "lonEnd": -155.544876,
-        "length": 0
-      }
-    ],
-    "id": 34192
-  },
-  {
-    "type": 16,
-    "icao": "QONA",
-    "lat": 19.529708999999997,
-    "lon": -155.969055,
-    "communications": [],
-    "elevation": 0,
-    "tower": false,
-    "name": "[S] Kailua Bay",
-    "runways": [
-      {
-        "type": 101,
-        "width": 1524,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 19.53656645,
-        "lonStart": -155.969055,
-        "latEnd": 19.52285155,
-        "lonEnd": -155.969055,
-        "length": 0
-      }
-    ],
-    "id": 34193
+    "id": 17946
   },
   {
     "type": 1,
@@ -613,6 +189,346 @@
         "surfacetype": 1
       }
     ],
-    "id": 34574
+    "id": 17949
+  },
+  {
+    "type": 17,
+    "icao": "HI18",
+    "lat": 19.86583861,
+    "lon": -155.64722334,
+    "communications": [],
+    "elevation": 2798,
+    "tower": false,
+    "name": "[H] Lucy Henriques Medical Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 19.86583861,
+        "lonStart": -155.64722334,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 17950
+  },
+  {
+    "type": 1,
+    "icao": "HI23",
+    "lat": 19.546940765,
+    "lon": -155.106809135,
+    "communications": [],
+    "elevation": 1500,
+    "tower": false,
+    "name": "Mountain View Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 6.4,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 19.54618149,
+        "lonStart": -155.10845234,
+        "latEnd": 19.54770004,
+        "lonEnd": -155.10516593,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17952
+  },
+  {
+    "type": 1,
+    "icao": "HI25",
+    "lat": 19.122824440000002,
+    "lon": -155.57805028,
+    "communications": [],
+    "elevation": 1964,
+    "tower": false,
+    "name": "Kaalaiki Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 19.12129058,
+        "lonStart": -155.58045713,
+        "latEnd": 19.1243583,
+        "lonEnd": -155.57564343,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17954
+  },
+  {
+    "type": 1,
+    "icao": "HI28",
+    "lat": 19.21616978,
+    "lon": -155.468775655,
+    "communications": [],
+    "elevation": 1194,
+    "tower": false,
+    "name": "Pahala Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 19.21832856,
+        "lonStart": -155.46892229,
+        "latEnd": 19.214011,
+        "lonEnd": -155.46862902,
+        "length": 0,
+        "surfacetype": 15
+      }
+    ],
+    "id": 17956
+  },
+  {
+    "type": 1,
+    "icao": "HI29",
+    "lat": 19.227766185,
+    "lon": -155.50603748,
+    "communications": [],
+    "elevation": 2609,
+    "tower": false,
+    "name": "Upper Paauau",
+    "runways": [
+      {
+        "type": 100,
+        "width": 4.57,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 19.22609647,
+        "lonStart": -155.50728215,
+        "latEnd": 19.2294359,
+        "lonEnd": -155.50479281,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17957
+  },
+  {
+    "type": 1,
+    "icao": "HI31",
+    "lat": 19.764044485,
+    "lon": -155.13962767499999,
+    "communications": [],
+    "elevation": 1419,
+    "tower": false,
+    "name": "Mauna Kea-Honolii",
+    "runways": [
+      {
+        "type": 100,
+        "width": 5.18,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 19.76366543,
+        "lonStart": -155.1419284,
+        "latEnd": 19.76442354,
+        "lonEnd": -155.13732695,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17958
+  },
+  {
+    "type": 1,
+    "icao": "HI32",
+    "lat": 19.844731940000003,
+    "lon": -155.1133425,
+    "communications": [],
+    "elevation": 675,
+    "tower": false,
+    "name": "Pepeekeo Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 7.62,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 19.84319808,
+        "lonStart": -155.1157601,
+        "latEnd": 19.8462658,
+        "lonEnd": -155.1109249,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17959
+  },
+  {
+    "type": 17,
+    "icao": "HI52",
+    "lat": 19.43308666,
+    "lon": -155.25972306,
+    "communications": [],
+    "elevation": 4000,
+    "tower": false,
+    "name": "[H] Rainshed",
+    "runways": [
+      {
+        "type": 102,
+        "width": 27.4,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 19.43308666,
+        "lonStart": -155.25972306,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 27.4
+      }
+    ],
+    "id": 17967
+  },
+  {
+    "type": 1,
+    "icao": "PHSF",
+    "lat": 19.759926626666665,
+    "lon": -155.55384956666668,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12470,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12630,
+        "name": "CTAF"
+      },
+      {
+        "type": 54,
+        "frequency": 12630,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12600,
+        "name": "HONOLULU CNTR"
+      }
+    ],
+    "elevation": 6188,
+    "tower": true,
+    "name": "BRADSHAW AAF",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 19.76102722,
+        "lonStart": -155.55909792,
+        "latEnd": 19.75913578,
+        "lonEnd": -155.54852211,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 19.75961688,
+        "lonStart": -155.55392867,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 24086
+  },
+  {
+    "type": 16,
+    "icao": "QILO",
+    "lat": 19.739722999999998,
+    "lon": -155.078049,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] Hilo Seaport",
+    "runways": [
+      {
+        "type": 101,
+        "width": 1524,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 19.74658045,
+        "lonStart": -155.078049,
+        "latEnd": 19.73286555,
+        "lonEnd": -155.078049,
+        "length": 0
+      }
+    ],
+    "id": 24311
+  },
+  {
+    "type": 16,
+    "icao": "QKKI",
+    "lat": 19.078054,
+    "lon": -155.544876,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] Kaalaiki Harbor",
+    "runways": [
+      {
+        "type": 101,
+        "width": 1219.2,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 19.08491145,
+        "lonStart": -155.544876,
+        "latEnd": 19.07119655,
+        "lonEnd": -155.544876,
+        "length": 0
+      }
+    ],
+    "id": 24313
+  },
+  {
+    "type": 16,
+    "icao": "QONA",
+    "lat": 19.529708999999997,
+    "lon": -155.969055,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] Kailua Bay",
+    "runways": [
+      {
+        "type": 101,
+        "width": 1524,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 19.53656645,
+        "lonStart": -155.969055,
+        "latEnd": 19.52285155,
+        "lonEnd": -155.969055,
+        "length": 0
+      }
+    ],
+    "id": 24321
   }
 ]

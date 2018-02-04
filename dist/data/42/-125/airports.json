@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "4S1",
+    "lat": 42.415402055,
+    "lon": -124.424934685,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 18,
+    "tower": false,
+    "name": "GOLD BEACH MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 42.41970521,
+        "lonStart": -124.42539341,
+        "latEnd": 42.4110989,
+        "lonEnd": -124.42447596,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 159
+  },
+  {
+    "type": 1,
     "icao": "KBOK",
     "lat": 42.073864275000005,
     "lon": -124.28977563000001,
@@ -39,7 +71,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 3242
+    "id": 2438
   },
   {
     "type": 1,
@@ -71,39 +103,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 3634
-  },
-  {
-    "type": 1,
-    "icao": "4S1",
-    "lat": 42.415402055,
-    "lon": -124.424934685,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 18,
-    "tower": false,
-    "name": "GOLD BEACH MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 42.41970521,
-        "lonStart": -124.42539341,
-        "latEnd": 42.4110989,
-        "lonEnd": -124.42447596,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 10052
+    "id": 8881
   },
   {
     "type": 1,
@@ -129,7 +129,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 20480
+    "id": 9381
   },
   {
     "type": 17,
@@ -154,6 +154,6 @@
         "length": 30.5
       }
     ],
-    "id": 29888
+    "id": 23666
   }
 ]

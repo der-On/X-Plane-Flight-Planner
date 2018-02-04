@@ -1,6 +1,32 @@
 [
   {
     "type": 1,
+    "icao": "00F",
+    "lat": 45.47047574,
+    "lon": -105.45716825,
+    "communications": [],
+    "elevation": 3282,
+    "tower": false,
+    "name": "Broadus",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 45.47314456,
+        "lonStart": -105.46488607,
+        "latEnd": 45.46780692,
+        "lonEnd": -105.44945043,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 8
+  },
+  {
+    "type": 1,
     "icao": "3V7",
     "lat": 45.1248615,
     "lon": -105.0920835,
@@ -29,65 +55,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 1622
-  },
-  {
-    "type": 1,
-    "icao": "00F",
-    "lat": 45.472528,
-    "lon": -105.453695,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 2379,
-    "tower": false,
-    "name": "BROADUS AIRPORT",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 45.474982,
-        "lonStart": -105.461529,
-        "latEnd": 45.470074,
-        "lonEnd": -105.445861,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 1918
-  },
-  {
-    "type": 1,
-    "icao": "MT57",
-    "lat": 45.32526611,
-    "lon": -105.14776112000001,
-    "communications": [],
-    "elevation": 3200,
-    "tower": false,
-    "name": "Klapmeier Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 45.32539531,
-        "lonStart": -105.15126754,
-        "latEnd": 45.32513691,
-        "lonEnd": -105.1442547,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 13971
+    "id": 7903
   },
   {
     "type": 1,
@@ -113,6 +81,32 @@
         "surfacetype": 3
       }
     ],
-    "id": 17539
+    "id": 21827
+  },
+  {
+    "type": 1,
+    "icao": "MT57",
+    "lat": 45.32526611,
+    "lon": -105.14776112000001,
+    "communications": [],
+    "elevation": 3200,
+    "tower": false,
+    "name": "Klapmeier Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 45.32539531,
+        "lonStart": -105.15126754,
+        "latEnd": 45.32513691,
+        "lonEnd": -105.1442547,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21878
   }
 ]

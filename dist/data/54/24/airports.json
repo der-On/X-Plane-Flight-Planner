@@ -2,38 +2,43 @@
   {
     "type": 1,
     "icao": "EYKA",
-    "lat": 54.9638805,
-    "lon": 24.0840015,
+    "lat": 54.9639126,
+    "lon": 24.084777475,
     "communications": [
       {
         "type": 54,
         "frequency": 11850,
-        "name": "TWR"
+        "name": "Kaunas Tower"
       },
       {
         "type": 55,
         "frequency": 12420,
-        "name": "APP"
+        "name": "Kaunas Approach"
+      },
+      {
+        "type": 50,
+        "frequency": 12905,
+        "name": "Kaunas ATIS"
       }
     ],
-    "elevation": 256,
+    "elevation": 255,
     "tower": true,
-    "name": "Kaunas Intl",
+    "name": "Kaunas International",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 45,
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": 54.962667,
-        "lonStart": 24.059489,
-        "latEnd": 54.965094,
-        "lonEnd": 24.108514,
+        "latStart": 54.96266363,
+        "lonStart": 24.05950436,
+        "latEnd": 54.96516157,
+        "lonEnd": 24.11005059,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 13667
+    "id": 2108
   }
 ]

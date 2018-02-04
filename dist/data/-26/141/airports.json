@@ -1,6 +1,45 @@
 [
   {
     "type": 1,
+    "icao": "AU78",
+    "lat": -25.845372920000003,
+    "lon": 141.9260855975,
+    "communications": [],
+    "elevation": 337,
+    "tower": false,
+    "name": "Tanbar",
+    "runways": [
+      {
+        "type": 100,
+        "width": 23.77,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -25.84228739,
+        "lonStart": 141.92170569,
+        "latEnd": -25.84315318,
+        "lonEnd": 141.92600589,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -25.84334311,
+        "lonStart": 141.92600781,
+        "latEnd": -25.852708,
+        "lonEnd": 141.930623,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 14764
+  },
+  {
+    "type": 1,
     "icao": "YCUD",
     "lat": -25.59995232,
     "lon": 141.507774275,
@@ -49,7 +88,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 4262
+    "id": 33069
   },
   {
     "type": 1,
@@ -75,7 +114,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 4274
+    "id": 33075
   },
   {
     "type": 1,
@@ -107,45 +146,6 @@
         "surfacetype": 4
       }
     ],
-    "id": 17519
-  },
-  {
-    "type": 1,
-    "icao": "AU78",
-    "lat": -25.845372920000003,
-    "lon": 141.9260855975,
-    "communications": [],
-    "elevation": 337,
-    "tower": false,
-    "name": "Tanbar",
-    "runways": [
-      {
-        "type": 100,
-        "width": 23.77,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": -25.84228739,
-        "lonStart": 141.92170569,
-        "latEnd": -25.84315318,
-        "lonEnd": 141.92600589,
-        "length": 0,
-        "surfacetype": 4
-      },
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": -25.84334311,
-        "lonStart": 141.92600781,
-        "latEnd": -25.852708,
-        "lonEnd": 141.930623,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 25025
+    "id": 33909
   }
 ]

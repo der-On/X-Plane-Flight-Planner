@@ -2,61 +2,60 @@
   {
     "type": 1,
     "icao": "UNEE",
-    "lat": 55.27127075,
-    "lon": 86.107893,
+    "lat": 55.27206088,
+    "lon": 86.11004267,
     "communications": [
       {
         "type": 54,
         "frequency": 11830,
-        "name": "START"
+        "name": "Kemerovo Tower"
       },
       {
-        "type": 55,
-        "frequency": 12900,
-        "name": "APP"
+        "type": 53,
+        "frequency": 11900,
+        "name": "Kemerovo Ground"
       },
       {
         "type": 55,
         "frequency": 12550,
-        "name": "APP"
+        "name": "Kemerovo Approach"
       },
       {
-        "type": 55,
-        "frequency": 12850,
-        "name": "APP"
+        "type": 50,
+        "frequency": 12870,
+        "name": "Meteo"
       }
     ],
-    "elevation": 863,
+    "elevation": 862,
     "tower": true,
-    "name": "KEMEROVO",
+    "name": "Kemerovo",
     "runways": [
       {
         "type": 100,
-        "width": 60.05,
+        "width": 60,
         "surfaceType": null,
         "numberStart": "05",
         "numberEnd": "23",
-        "latStart": 55.261567,
-        "lonStart": 86.086947,
-        "latEnd": 55.278633,
-        "lonEnd": 86.127525,
+        "latStart": 55.26147182,
+        "lonStart": 86.08742238,
+        "latEnd": 55.27856237,
+        "lonEnd": 86.12795952,
         "length": 0,
         "surfacetype": 2
       },
       {
-        "type": 100,
-        "width": 47.24,
-        "surfaceType": null,
-        "numberStart": "05L",
-        "numberEnd": "23R",
-        "latStart": 55.265686,
-        "lonStart": 86.091494,
-        "latEnd": 55.279197,
-        "lonEnd": 86.125606,
-        "length": 0,
-        "surfacetype": 1
+        "type": 102,
+        "width": 26.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 55.27614845,
+        "lonStart": 86.11474611,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 26.1
       }
     ],
-    "id": 13297
+    "id": 5098
   }
 ]

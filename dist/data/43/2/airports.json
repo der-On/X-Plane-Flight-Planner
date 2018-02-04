@@ -1,35 +1,9 @@
 [
   {
     "type": 1,
-    "icao": "LFIF",
-    "lat": 43.825107,
-    "lon": 2.746186,
-    "communications": [],
-    "elevation": 1686,
-    "tower": false,
-    "name": "Belmont",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 43.827869,
-        "lonStart": 2.739063,
-        "latEnd": 43.822345,
-        "lonEnd": 2.753309,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 2519
-  },
-  {
-    "type": 1,
     "icao": "LFCI",
-    "lat": 43.913225,
-    "lon": 2.11072042,
+    "lat": 43.91321981,
+    "lon": 2.11047186,
     "communications": [
       {
         "type": 54,
@@ -47,7 +21,7 @@
         "name": "TOULOUSE APP"
       }
     ],
-    "elevation": 563,
+    "elevation": 534,
     "tower": true,
     "name": "Le Sequestre",
     "runways": [
@@ -57,47 +31,109 @@
         "surfaceType": null,
         "numberStart": "09",
         "numberEnd": "27",
-        "latStart": 43.91308358,
-        "lonStart": 2.10102509,
-        "latEnd": 43.91336642,
-        "lonEnd": 2.12041575,
+        "latStart": 43.91307839,
+        "lonStart": 2.10077653,
+        "latEnd": 43.91336123,
+        "lonEnd": 2.12016719,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 15074
+    "id": 3559
   },
   {
     "type": 1,
-    "icao": "LFMZ",
-    "lat": 43.174976,
-    "lon": 2.732743,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12120,
-        "name": "LEZIGNAN FSS"
-      }
-    ],
-    "elevation": 206,
-    "tower": true,
-    "name": "Lezignan-Corbieres",
+    "icao": "1104",
+    "lat": 43.283333,
+    "lon": 2.216667,
+    "communications": [],
+    "elevation": 581,
+    "tower": false,
+    "name": "Moussoulens",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 39.93,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 43.175892,
-        "lonStart": 2.738773,
-        "latEnd": 43.17406,
-        "lonEnd": 2.726713,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 43.28456386,
+        "lonStart": 2.21202155,
+        "latEnd": 43.28210214,
+        "lonEnd": 2.22131245,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 15233
+    "id": 14351
+  },
+  {
+    "type": 17,
+    "icao": "HCAR",
+    "lat": 43.189569,
+    "lon": 2.339594,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12100,
+        "name": "CARCASSONNE TWR"
+      }
+    ],
+    "elevation": 480,
+    "tower": true,
+    "name": "[H] DZ Hopital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 13.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 43.189569,
+        "lonStart": 2.339594,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.1
+      }
+    ],
+    "id": 17883
+  },
+  {
+    "type": 17,
+    "icao": "HNAR",
+    "lat": 43.173631,
+    "lon": 2.9907615,
+    "communications": [],
+    "elevation": 36,
+    "tower": true,
+    "name": "[H] DZ Heliport",
+    "runways": [
+      {
+        "type": 102,
+        "width": 29.9,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 43.174293,
+        "lonStart": 2.99065,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 35
+      },
+      {
+        "type": 102,
+        "width": 29.9,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 43.172969,
+        "lonStart": 2.990873,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 35
+      }
+    ],
+    "id": 18039
   },
   {
     "type": 1,
@@ -134,7 +170,7 @@
         "surfacetype": 2
       }
     ],
-    "id": 16867
+    "id": 20232
   },
   {
     "type": 1,
@@ -160,33 +196,33 @@
         "surfacetype": 1
       }
     ],
-    "id": 17405
+    "id": 20237
   },
   {
     "type": 1,
-    "icao": "1104",
-    "lat": 43.283333,
-    "lon": 2.216667,
+    "icao": "LFIF",
+    "lat": 43.825107,
+    "lon": 2.746186,
     "communications": [],
-    "elevation": 581,
+    "elevation": 1686,
     "tower": false,
-    "name": "Moussoulens",
+    "name": "Belmont",
     "runways": [
       {
         "type": 100,
-        "width": 39.93,
+        "width": 20.12,
         "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 43.28456386,
-        "lonStart": 2.21202155,
-        "latEnd": 43.28210214,
-        "lonEnd": 2.22131245,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 43.827869,
+        "lonStart": 2.739063,
+        "latEnd": 43.822345,
+        "lonEnd": 2.753309,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 17652
+    "id": 20325
   },
   {
     "type": 1,
@@ -228,74 +264,38 @@
         "surfacetype": 1
       }
     ],
-    "id": 22768
+    "id": 20377
   },
   {
-    "type": 17,
-    "icao": "HNAR",
-    "lat": 43.173631,
-    "lon": 2.9907615,
-    "communications": [],
-    "elevation": 36,
-    "tower": true,
-    "name": "[H] DZ Heliport",
-    "runways": [
-      {
-        "type": 102,
-        "width": 29.9,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 43.174293,
-        "lonStart": 2.99065,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 35
-      },
-      {
-        "type": 102,
-        "width": 29.9,
-        "surfaceType": 2,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 43.172969,
-        "lonStart": 2.990873,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 35
-      }
-    ],
-    "id": 29236
-  },
-  {
-    "type": 17,
-    "icao": "HCAR",
-    "lat": 43.189569,
-    "lon": 2.339594,
+    "type": 1,
+    "icao": "LFMZ",
+    "lat": 43.174976,
+    "lon": 2.732743,
     "communications": [
       {
-        "type": 54,
-        "frequency": 12100,
-        "name": "CARCASSONNE TWR"
+        "type": 50,
+        "frequency": 12120,
+        "name": "LEZIGNAN FSS"
       }
     ],
-    "elevation": 480,
+    "elevation": 206,
     "tower": true,
-    "name": "[H] DZ Hopital",
+    "name": "Lezignan-Corbieres",
     "runways": [
       {
-        "type": 102,
-        "width": 13.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 43.189569,
-        "lonStart": 2.339594,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 13.1
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 43.175892,
+        "lonStart": 2.738773,
+        "latEnd": 43.17406,
+        "lonEnd": 2.726713,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "id": 29237
+    "id": 20385
   }
 ]

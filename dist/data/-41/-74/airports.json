@@ -1,9 +1,41 @@
 [
   {
     "type": 1,
+    "icao": "SCGA",
+    "lat": -40.003616,
+    "lon": -73.697453155,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11820,
+        "name": "ATC traffic"
+      }
+    ],
+    "elevation": 235,
+    "tower": true,
+    "name": "Punta Galera",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.85,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -39.99979771,
+        "lonStart": -73.69657422,
+        "latEnd": -40.00743429,
+        "lonEnd": -73.69833209,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4733
+  },
+  {
+    "type": 1,
     "icao": "SCJO",
-    "lat": -40.61127266,
-    "lon": -73.06063402500001,
+    "lat": -40.610256025,
+    "lon": -73.061247545,
     "communications": [
       {
         "type": 54,
@@ -23,7 +55,7 @@
     ],
     "elevation": 187,
     "tower": true,
-    "name": "CaC1al Bajo",
+    "name": "Cañal Bajo",
     "runways": [
       {
         "type": 100,
@@ -31,15 +63,15 @@
         "surfaceType": null,
         "numberStart": "15",
         "numberEnd": "33",
-        "latStart": -40.60432216,
-        "lonStart": -73.06484518,
+        "latStart": -40.60228889,
+        "lonStart": -73.06607222,
         "latEnd": -40.61822316,
         "lonEnd": -73.05642287,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 4683
+    "id": 4755
   },
   {
     "type": 1,
@@ -65,7 +97,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 5360
+    "id": 4797
   },
   {
     "type": 1,
@@ -97,7 +129,7 @@
         "surfacetype": 5
       }
     ],
-    "id": 14989
+    "id": 4806
   },
   {
     "type": 1,
@@ -123,38 +155,6 @@
         "surfacetype": 2
       }
     ],
-    "id": 19706
-  },
-  {
-    "type": 1,
-    "icao": "SCGA",
-    "lat": -40.003616,
-    "lon": -73.697453155,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11820,
-        "name": "ATC traffic"
-      }
-    ],
-    "elevation": 235,
-    "tower": true,
-    "name": "Punta Galera",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.85,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": -39.99979771,
-        "lonStart": -73.69657422,
-        "latEnd": -40.00743429,
-        "lonEnd": -73.69833209,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 20630
+    "id": 25253
   }
 ]

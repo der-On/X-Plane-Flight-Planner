@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "80S",
-    "lat": 46.30718055,
-    "lon": -108.95571389,
+    "lat": 46.307279685,
+    "lon": -108.955570965,
     "communications": [],
     "elevation": 3490,
     "tower": false,
@@ -15,15 +15,70 @@
         "surfaceType": null,
         "numberStart": "07",
         "numberEnd": "25",
-        "latStart": 46.30676696,
-        "lonStart": -108.96255719,
-        "latEnd": 46.30759414,
-        "lonEnd": -108.94887059,
+        "latStart": 46.30726026,
+        "lonStart": -108.96237747,
+        "latEnd": 46.30729911,
+        "lonEnd": -108.94876446,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 4
       }
     ],
-    "id": 15032
+    "id": 476
+  },
+  {
+    "type": 1,
+    "icao": "KRPX",
+    "lat": 46.4749519125,
+    "lon": -108.5444397675,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12775,
+        "name": "SALT LAKE ARTCC APP"
+      },
+      {
+        "type": 56,
+        "frequency": 12775,
+        "name": "SALT LAKE ARTCC SEP"
+      }
+    ],
+    "elevation": 3491,
+    "tower": false,
+    "name": "Roundup",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 46.47360818,
+        "lonStart": -108.55137248,
+        "latEnd": 46.47657505,
+        "lonEnd": -108.53160372,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 46.47811044,
+        "lonStart": -108.54843084,
+        "latEnd": 46.47151398,
+        "lonEnd": -108.54635203,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 3209
   },
   {
     "type": 1,
@@ -62,51 +117,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 17793
-  },
-  {
-    "type": 1,
-    "icao": "KRPX",
-    "lat": 46.474951999999995,
-    "lon": -108.54442875,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 3491,
-    "tower": false,
-    "name": "Roundup",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 46.4736,
-        "lonStart": -108.551364,
-        "latEnd": 46.476569,
-        "lonEnd": -108.531592,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 46.478111,
-        "lonStart": -108.548417,
-        "latEnd": 46.471528,
-        "lonEnd": -108.546342,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 21779
+    "id": 14178
   }
 ]

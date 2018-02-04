@@ -1,38 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "DOI",
-    "lat": -10.700934565,
-    "lon": 150.72178379000002,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12770,
-        "name": "DOI AWOS"
-      }
-    ],
-    "elevation": 10,
-    "tower": false,
-    "name": "Doini",
-    "runways": [
-      {
-        "type": 100,
-        "width": 42.06,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": -10.70021054,
-        "lonStart": 150.71876116,
-        "latEnd": -10.70165859,
-        "lonEnd": 150.72480642,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 6351
-  },
-  {
-    "type": 1,
     "icao": "AYGN",
     "lat": -10.311531855,
     "lon": 150.333755585,
@@ -76,7 +44,39 @@
         "surfacetype": 1
       }
     ],
-    "id": 10905
+    "id": 14791
+  },
+  {
+    "type": 1,
+    "icao": "DOI",
+    "lat": -10.700934565,
+    "lon": 150.72178379000002,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12770,
+        "name": "DOI AWOS"
+      }
+    ],
+    "elevation": 10,
+    "tower": false,
+    "name": "Doini",
+    "runways": [
+      {
+        "type": 100,
+        "width": 42.06,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -10.70021054,
+        "lonStart": 150.71876116,
+        "latEnd": -10.70165859,
+        "lonEnd": 150.72480642,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 16055
   },
   {
     "type": 1,
@@ -108,6 +108,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 15376
+    "id": 20739
   }
 ]

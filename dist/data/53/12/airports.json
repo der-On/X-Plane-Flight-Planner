@@ -1,6 +1,70 @@
 [
   {
     "type": 1,
+    "icao": "EDAX",
+    "lat": 53.30638874,
+    "lon": 12.752545975,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12997,
+        "name": "Laerz Info"
+      }
+    ],
+    "elevation": 219,
+    "tower": true,
+    "name": "Rechlin-Lärz",
+    "runways": [
+      {
+        "type": 100,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 53.30360433,
+        "lonStart": 12.7353177,
+        "latEnd": 53.30917315,
+        "lonEnd": 12.76977425,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 1001
+  },
+  {
+    "type": 1,
+    "icao": "EDBU",
+    "lat": 53.179978825,
+    "lon": 12.184539455,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12260,
+        "name": "Pritzwalk Info"
+      }
+    ],
+    "elevation": 289,
+    "tower": false,
+    "name": "Pritzwalk - Sommersberg",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 53.17928742,
+        "lonStart": 12.17873498,
+        "latEnd": 53.18067023,
+        "lonEnd": 12.19034393,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1022
+  },
+  {
+    "type": 1,
     "icao": "EDCU",
     "lat": 53.8044796075,
     "lon": 12.2303126575,
@@ -8,12 +72,12 @@
       {
         "type": 54,
         "frequency": 12200,
-        "name": "GC<strow Info"
+        "name": "Güstrow Info"
       }
     ],
     "elevation": 45,
     "tower": false,
-    "name": "GC<strow",
+    "name": "Güstrow",
     "runways": [
       {
         "type": 100,
@@ -42,65 +106,39 @@
         "surfacetype": 3
       }
     ],
-    "id": 10925
+    "id": 1046
   },
   {
     "type": 1,
-    "icao": "EDBU",
-    "lat": 53.1756668,
-    "lon": 12.1853285,
-    "communications": [],
-    "elevation": 289,
-    "tower": false,
-    "name": "Pritzwalk Sommersberg",
+    "icao": "EDOW",
+    "lat": 53.56795124,
+    "lon": 12.6523287,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13032,
+        "name": "Waren Info"
+      }
+    ],
+    "elevation": 282,
+    "tower": true,
+    "name": "Varen-Vielist",
     "runways": [
       {
         "type": 100,
-        "width": 22.86,
+        "width": 40,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 53.17515179,
-        "lonStart": 12.18090797,
-        "latEnd": 53.17618181,
-        "lonEnd": 12.18974903,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 53.56527759,
+        "lonStart": 12.6482699,
+        "latEnd": 53.57062489,
+        "lonEnd": 12.6563875,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 20555
-  },
-  {
-    "type": 1,
-    "icao": "EDAX",
-    "lat": 53.30638874,
-    "lon": 12.752545975,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12997,
-        "name": "Laerz Info"
-      }
-    ],
-    "elevation": 219,
-    "tower": true,
-    "name": "Rechlin-LC$rz",
-    "runways": [
-      {
-        "type": 100,
-        "width": 50,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 53.30360433,
-        "lonStart": 12.7353177,
-        "latEnd": 53.30917315,
-        "lonEnd": 12.76977425,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 21261
+    "id": 1256
   },
   {
     "type": 1,
@@ -152,38 +190,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 21757
-  },
-  {
-    "type": 1,
-    "icao": "EDOW",
-    "lat": 53.56795124,
-    "lon": 12.6523287,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13032,
-        "name": "Waren Info"
-      }
-    ],
-    "elevation": 282,
-    "tower": true,
-    "name": "Varen-Vielist",
-    "runways": [
-      {
-        "type": 100,
-        "width": 40,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 53.56527759,
-        "lonStart": 12.6482699,
-        "latEnd": 53.57062489,
-        "lonEnd": 12.6563875,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 26228
+    "id": 2079
   }
 ]

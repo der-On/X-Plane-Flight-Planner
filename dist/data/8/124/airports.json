@@ -1,6 +1,64 @@
 [
   {
     "type": 1,
+    "icao": "RPMY",
+    "lat": 8.612207,
+    "lon": 124.456500525,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11860,
+        "name": "Laguindingan Tower"
+      }
+    ],
+    "elevation": 190,
+    "tower": true,
+    "name": "Laguindingan Airport",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 8.61146765,
+        "lonStart": 124.446999,
+        "latEnd": 8.61294635,
+        "lonEnd": 124.46600205,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 4482
+  },
+  {
+    "type": 1,
+    "icao": "RPMI",
+    "lat": 8.1304905,
+    "lon": 124.21492649999999,
+    "communications": [],
+    "elevation": 1300,
+    "tower": false,
+    "name": "ILIGAN",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 8.124578,
+        "lonStart": 124.212722,
+        "latEnd": 8.136403,
+        "lonEnd": 124.217131,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 24559
+  },
+  {
+    "type": 1,
     "icao": "RPML",
     "lat": 8.4156195,
     "lon": 124.6112195,
@@ -39,32 +97,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 3528
-  },
-  {
-    "type": 1,
-    "icao": "RPMI",
-    "lat": 8.1304905,
-    "lon": 124.21492649999999,
-    "communications": [],
-    "elevation": 1300,
-    "tower": false,
-    "name": "ILIGAN",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 8.124578,
-        "lonStart": 124.212722,
-        "latEnd": 8.136403,
-        "lonEnd": 124.217131,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 12274
+    "id": 24561
   }
 ]

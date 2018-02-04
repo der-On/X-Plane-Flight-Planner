@@ -1,214 +1,19 @@
 [
   {
     "type": 1,
-    "icao": "CO07",
-    "lat": 39.85415388,
-    "lon": -105.47138444999999,
-    "communications": [],
-    "elevation": 8899,
-    "tower": false,
-    "name": "Athanasiou Valley",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 39.85472418,
-        "lonStart": -105.47487946,
-        "latEnd": 39.85358358,
-        "lonEnd": -105.46788944,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 1289
-  },
-  {
-    "type": 1,
-    "icao": "CO98",
-    "lat": 39.54998805,
-    "lon": -105.03387251,
-    "communications": [],
-    "elevation": 5450,
-    "tower": false,
-    "name": "Bowen Farms Nr 1",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 39.5504591,
-        "lonStart": -105.03701532,
-        "latEnd": 39.549517,
-        "lonEnd": -105.0307297,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 39.55173823,
-        "lonStart": -105.0334313,
-        "latEnd": 39.54823787,
-        "lonEnd": -105.03431372,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 3067
-  },
-  {
-    "type": 1,
-    "icao": "27CO",
-    "lat": 39.54276611,
-    "lon": -105.31749251,
-    "communications": [],
-    "elevation": 8040,
-    "tower": false,
-    "name": "Flying J Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 39.54537035,
-        "lonStart": -105.31737458,
-        "latEnd": 39.54016187,
-        "lonEnd": -105.31761044,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9461
-  },
-  {
-    "type": 1,
-    "icao": "77CO",
-    "lat": 39.408320829999994,
-    "lon": -105.83667806,
-    "communications": [],
-    "elevation": 9869,
-    "tower": false,
-    "name": "Heckendorf Ranches - Georgia Pass Ranc",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 39.41207479,
-        "lonStart": -105.83926142,
-        "latEnd": 39.40456687,
-        "lonEnd": -105.8340947,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11624
-  },
-  {
-    "type": 1,
-    "icao": "CO10",
-    "lat": 39.994707489999996,
-    "lon": -105.22387695,
-    "communications": [],
-    "elevation": 5230,
-    "tower": false,
-    "name": "Lemons Private Strip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 39.99873205,
-        "lonStart": -105.22276033,
-        "latEnd": 39.99068293,
-        "lonEnd": -105.22499357,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15147
-  },
-  {
-    "type": 1,
-    "icao": "CO52",
-    "lat": 39.58332138,
-    "lon": -105.30332584,
-    "communications": [],
-    "elevation": 7700,
-    "tower": false,
-    "name": "Marshdale",
-    "runways": [
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 39.58622767,
-        "lonStart": -105.30533091,
-        "latEnd": 39.58041509,
-        "lonEnd": -105.30132077,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 16734
-  },
-  {
-    "type": 1,
-    "icao": "5CO6",
-    "lat": 39.54998805,
-    "lon": -105.28388056,
-    "communications": [],
-    "elevation": 8000,
-    "tower": false,
-    "name": "Meyer Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 39.55228232,
-        "lonStart": -105.28718511,
-        "latEnd": 39.54769378,
-        "lonEnd": -105.28057601,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 17122
-  },
-  {
-    "type": 1,
     "icao": "KBJC",
     "lat": 39.90901783333333,
-    "lon": -105.11696766666667,
+    "lon": -105.11696876333333,
     "communications": [
+      {
+        "type": 54,
+        "frequency": 11860,
+        "name": "TWR"
+      },
       {
         "type": 50,
         "frequency": 12625,
         "name": "ATIS"
-      },
-      {
-        "type": 51,
-        "frequency": 11860,
-        "name": "CTAF"
       },
       {
         "type": 53,
@@ -221,17 +26,12 @@
         "name": "TWR"
       },
       {
-        "type": 54,
-        "frequency": 11860,
-        "name": "TWR"
-      },
-      {
         "type": 55,
         "frequency": 12610,
         "name": "DENVER APP/DEP"
       }
     ],
-    "elevation": 5670,
+    "elevation": 5669,
     "tower": true,
     "name": "Rocky Mountain Metropolitan Airport",
     "runways": [
@@ -239,12 +39,12 @@
         "type": 100,
         "width": 30.48,
         "surfaceType": null,
-        "numberStart": "11L",
-        "numberEnd": "29R",
-        "latStart": 39.915286,
-        "lonStart": -105.128431,
-        "latEnd": 39.901369,
-        "lonEnd": -105.101931,
+        "numberStart": "12L",
+        "numberEnd": "30R",
+        "latStart": 39.91528554,
+        "lonStart": -105.12843141,
+        "latEnd": 39.90136946,
+        "lonEnd": -105.10193597,
         "length": 0,
         "surfacetype": 1
       },
@@ -252,12 +52,12 @@
         "type": 100,
         "width": 22.86,
         "surfaceType": null,
-        "numberStart": "11R",
-        "numberEnd": "29L",
-        "latStart": 39.914189,
-        "lonStart": -105.131558,
-        "latEnd": 39.903361,
-        "lonEnd": -105.110936,
+        "numberStart": "12R",
+        "numberEnd": "30L",
+        "latStart": 39.91418839,
+        "lonStart": -105.13155854,
+        "latEnd": 39.90336161,
+        "lonEnd": -105.11093709,
         "length": 0,
         "surfacetype": 1
       },
@@ -265,17 +65,67 @@
         "type": 100,
         "width": 22.86,
         "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 39.905869,
-        "lonStart": -105.118089,
-        "latEnd": 39.914033,
-        "lonEnd": -105.110861,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 39.90586888,
+        "lonStart": -105.11808877,
+        "latEnd": 39.91403312,
+        "lonEnd": -105.1108608,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 21640
+    "id": 2419
+  },
+  {
+    "type": 17,
+    "icao": "1CO1",
+    "lat": 39.66915416,
+    "lon": -105.21971167,
+    "communications": [],
+    "elevation": 7879,
+    "tower": false,
+    "name": "[H] Mount Morrison",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.66915416,
+        "lonStart": -105.21971167,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 6344
+  },
+  {
+    "type": 17,
+    "icao": "2CO6",
+    "lat": 39.58693333,
+    "lon": -105.16943334,
+    "communications": [],
+    "elevation": 6220,
+    "tower": false,
+    "name": "[H] Manor House",
+    "runways": [
+      {
+        "type": 102,
+        "width": 22.9,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.58693333,
+        "lonStart": -105.16943334,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 22.9
+      }
+    ],
+    "id": 6924
   },
   {
     "type": 1,
@@ -314,182 +164,7 @@
         "surfacetype": 5
       }
     ],
-    "id": 23512
-  },
-  {
-    "type": 17,
-    "icao": "CD19",
-    "lat": 39.69082138,
-    "lon": -105.50471973,
-    "communications": [],
-    "elevation": 10670,
-    "tower": false,
-    "name": "[H] Arapahoe",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 39.69082138,
-        "lonStart": -105.50471973,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 28161
-  },
-  {
-    "type": 17,
-    "icao": "CO45",
-    "lat": 39.95276305,
-    "lon": -105.15248528,
-    "communications": [],
-    "elevation": 5508,
-    "tower": false,
-    "name": "[H] Avista Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 39.95276305,
-        "lonStart": -105.15248528,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 28245
-  },
-  {
-    "type": 17,
-    "icao": "CD21",
-    "lat": 39.04943583,
-    "lon": -105.51305556,
-    "communications": [],
-    "elevation": 11292,
-    "tower": false,
-    "name": "[H] Badger Mountain",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 4,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 39.04943583,
-        "lonStart": -105.51305556,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 28279
-  },
-  {
-    "type": 17,
-    "icao": "CD37",
-    "lat": 39.79387583,
-    "lon": -105.76389501,
-    "communications": [],
-    "elevation": 12440,
-    "tower": false,
-    "name": "[H] Berthoud Pass",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 39.79387583,
-        "lonStart": -105.76389501,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 28443
-  },
-  {
-    "type": 17,
-    "icao": "CO26",
-    "lat": 39.89026333,
-    "lon": -105.08776139,
-    "communications": [],
-    "elevation": 5378,
-    "tower": false,
-    "name": "[H] Cirino",
-    "runways": [
-      {
-        "type": 102,
-        "width": 24.4,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 39.89026333,
-        "lonStart": -105.08776139,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 61
-      }
-    ],
-    "id": 28967
-  },
-  {
-    "type": 17,
-    "icao": "9CO1",
-    "lat": 39.55609916,
-    "lon": -105.16221056,
-    "communications": [],
-    "elevation": 6228,
-    "tower": false,
-    "name": "[H] Deer Creek Building",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 39.55609916,
-        "lonStart": -105.16221056,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 29297
-  },
-  {
-    "type": 17,
-    "icao": "CO39",
-    "lat": 39.72332027,
-    "lon": -105.11081862,
-    "communications": [],
-    "elevation": 5548,
-    "tower": false,
-    "name": "[H] Denver Federal Center Helistop",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 39.72332027,
-        "lonStart": -105.11081862,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 29320
+    "id": 6927
   },
   {
     "type": 17,
@@ -514,182 +189,7 @@
         "length": 18.3
       }
     ],
-    "id": 29322
-  },
-  {
-    "type": 17,
-    "icao": "70CO",
-    "lat": 39.64082138,
-    "lon": -105.39610612,
-    "communications": [],
-    "elevation": 7540,
-    "tower": false,
-    "name": "[H] Greystone",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 39.64082138,
-        "lonStart": -105.39610612,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 30023
-  },
-  {
-    "type": 17,
-    "icao": "CO51",
-    "lat": 39.76832,
-    "lon": -105.84806556,
-    "communications": [],
-    "elevation": 10398,
-    "tower": false,
-    "name": "[H] Henderson",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 39.76832,
-        "lonStart": -105.84806556,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 30209
-  },
-  {
-    "type": 17,
-    "icao": "CD25",
-    "lat": 39.76943111,
-    "lon": -105.85112167,
-    "communications": [],
-    "elevation": 10338,
-    "tower": false,
-    "name": "[H] Henderson Mine",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 39.76943111,
-        "lonStart": -105.85112167,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 30211
-  },
-  {
-    "type": 17,
-    "icao": "21CO",
-    "lat": 39.73443166,
-    "lon": -105.20637667,
-    "communications": [],
-    "elevation": 5896,
-    "tower": false,
-    "name": "[H] Lookout Center Parking Lot",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 39.73443166,
-        "lonStart": -105.20637667,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 30935
-  },
-  {
-    "type": 17,
-    "icao": "20CO",
-    "lat": 39.73554277,
-    "lon": -105.20665473,
-    "communications": [],
-    "elevation": 5916,
-    "tower": false,
-    "name": "[H] Lookout Center Rooftop",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.8,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 39.73554277,
-        "lonStart": -105.20665473,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 30936
-  },
-  {
-    "type": 17,
-    "icao": "4CO6",
-    "lat": 39.76665333,
-    "lon": -105.09026195,
-    "communications": [],
-    "elevation": 5500,
-    "tower": false,
-    "name": "[H] Lutheran Medical Center",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 39.76665333,
-        "lonStart": -105.09026195,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 30979
-  },
-  {
-    "type": 17,
-    "icao": "2CO6",
-    "lat": 39.58693333,
-    "lon": -105.16943334,
-    "communications": [],
-    "elevation": 6220,
-    "tower": false,
-    "name": "[H] Manor House",
-    "runways": [
-      {
-        "type": 102,
-        "width": 22.9,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 39.58693333,
-        "lonStart": -105.16943334,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 22.9
-      }
-    ],
-    "id": 31064
+    "id": 8012
   },
   {
     "type": 17,
@@ -714,207 +214,7 @@
         "length": 22.9
       }
     ],
-    "id": 31106
-  },
-  {
-    "type": 17,
-    "icao": "CO66",
-    "lat": 39.71026527,
-    "lon": -105.24526695,
-    "communications": [],
-    "elevation": 7358,
-    "tower": false,
-    "name": "[H] Morton",
-    "runways": [
-      {
-        "type": 102,
-        "width": 27.4,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 39.71026527,
-        "lonStart": -105.24526695,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 29
-      }
-    ],
-    "id": 31455
-  },
-  {
-    "type": 17,
-    "icao": "1CO1",
-    "lat": 39.66915416,
-    "lon": -105.21971167,
-    "communications": [],
-    "elevation": 7879,
-    "tower": false,
-    "name": "[H] Mount Morrison",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 39.66915416,
-        "lonStart": -105.21971167,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 31471
-  },
-  {
-    "type": 17,
-    "icao": "42CO",
-    "lat": 39.68748777,
-    "lon": -105.39638251,
-    "communications": [],
-    "elevation": 8198,
-    "tower": false,
-    "name": "[H] Ptarmigan",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 39.68748777,
-        "lonStart": -105.39638251,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 36.6
-      }
-    ],
-    "id": 32181
-  },
-  {
-    "type": 17,
-    "icao": "CO08",
-    "lat": 39.80916666,
-    "lon": -105.04777778,
-    "communications": [],
-    "elevation": 5290,
-    "tower": false,
-    "name": "[H] Public Service of Colorado Arvada",
-    "runways": [
-      {
-        "type": 102,
-        "width": 19.8,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 39.80916666,
-        "lonStart": -105.04777778,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 39.6
-      }
-    ],
-    "id": 32184
-  },
-  {
-    "type": 17,
-    "icao": "CD04",
-    "lat": 39.82081944,
-    "lon": -105.05387139,
-    "communications": [],
-    "elevation": 5500,
-    "tower": false,
-    "name": "[H] SF",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 39.82081944,
-        "lonStart": -105.05387139,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 22.9
-      }
-    ],
-    "id": 32482
-  },
-  {
-    "type": 17,
-    "icao": "CO67",
-    "lat": 39.84720888,
-    "lon": -105.28193473,
-    "communications": [],
-    "elevation": 6580,
-    "tower": false,
-    "name": "[H] Schwartzwalder",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 39.84720888,
-        "lonStart": -105.28193473,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 36.6
-      }
-    ],
-    "id": 32611
-  },
-  {
-    "type": 17,
-    "icao": "83CO",
-    "lat": 39.60415333,
-    "lon": -105.95890362,
-    "communications": [],
-    "elevation": 9298,
-    "tower": false,
-    "name": "[H] Snake River Health Services Inc",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 39.60415333,
-        "lonStart": -105.95890362,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 32758
-  },
-  {
-    "type": 17,
-    "icao": "CO04",
-    "lat": 39.74248694,
-    "lon": -105.04664973,
-    "communications": [],
-    "elevation": 5273,
-    "tower": false,
-    "name": "[H] St Anthony Hospital Central",
-    "runways": [
-      {
-        "type": 102,
-        "width": 20.4,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 39.74248694,
-        "lonStart": -105.04664973,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20.4
-      }
-    ],
-    "id": 32855
+    "id": 8013
   },
   {
     "type": 17,
@@ -939,6 +239,701 @@
         "length": 25
       }
     ],
-    "id": 32857
+    "id": 8015
+  },
+  {
+    "type": 17,
+    "icao": "4CO6",
+    "lat": 39.76665333,
+    "lon": -105.09026195,
+    "communications": [],
+    "elevation": 5500,
+    "tower": false,
+    "name": "[H] Lutheran Medical Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.76665333,
+        "lonStart": -105.09026195,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 8017
+  },
+  {
+    "type": 1,
+    "icao": "5CO6",
+    "lat": 39.54998805,
+    "lon": -105.28388056,
+    "communications": [],
+    "elevation": 8000,
+    "tower": false,
+    "name": "Meyer Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 39.55228232,
+        "lonStart": -105.28718511,
+        "latEnd": 39.54769378,
+        "lonEnd": -105.28057601,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 8538
+  },
+  {
+    "type": 17,
+    "icao": "9CO1",
+    "lat": 39.55609916,
+    "lon": -105.16221056,
+    "communications": [],
+    "elevation": 6228,
+    "tower": false,
+    "name": "[H] Deer Creek Building",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.55609916,
+        "lonStart": -105.16221056,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 10460
+  },
+  {
+    "type": 17,
+    "icao": "20CO",
+    "lat": 39.73554277,
+    "lon": -105.20665473,
+    "communications": [],
+    "elevation": 5916,
+    "tower": false,
+    "name": "[H] Lookout Center Rooftop",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.8,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.73554277,
+        "lonStart": -105.20665473,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 11299
+  },
+  {
+    "type": 17,
+    "icao": "21CO",
+    "lat": 39.73443166,
+    "lon": -105.20637667,
+    "communications": [],
+    "elevation": 5896,
+    "tower": false,
+    "name": "[H] Lookout Center Parking Lot",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.73443166,
+        "lonStart": -105.20637667,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 11338
+  },
+  {
+    "type": 1,
+    "icao": "27CO",
+    "lat": 39.54276611,
+    "lon": -105.31749251,
+    "communications": [],
+    "elevation": 8040,
+    "tower": false,
+    "name": "Flying J Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 39.54537035,
+        "lonStart": -105.31737458,
+        "latEnd": 39.54016187,
+        "lonEnd": -105.31761044,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11582
+  },
+  {
+    "type": 17,
+    "icao": "42CO",
+    "lat": 39.68748777,
+    "lon": -105.39638251,
+    "communications": [],
+    "elevation": 8198,
+    "tower": false,
+    "name": "[H] Ptarmigan",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.68748777,
+        "lonStart": -105.39638251,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 36.6
+      }
+    ],
+    "id": 12162
+  },
+  {
+    "type": 17,
+    "icao": "70CO",
+    "lat": 39.64082138,
+    "lon": -105.39610612,
+    "communications": [],
+    "elevation": 7540,
+    "tower": false,
+    "name": "[H] Greystone",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.64082138,
+        "lonStart": -105.39610612,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 13263
+  },
+  {
+    "type": 1,
+    "icao": "77CO",
+    "lat": 39.408320829999994,
+    "lon": -105.83667806,
+    "communications": [],
+    "elevation": 9869,
+    "tower": false,
+    "name": "Heckendorf Ranches - Georgia Pass Ranc",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 39.41207479,
+        "lonStart": -105.83926142,
+        "latEnd": 39.40456687,
+        "lonEnd": -105.8340947,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13551
+  },
+  {
+    "type": 17,
+    "icao": "83CO",
+    "lat": 39.60415333,
+    "lon": -105.95890362,
+    "communications": [],
+    "elevation": 9298,
+    "tower": false,
+    "name": "[H] Snake River Health Services Inc",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.60415333,
+        "lonStart": -105.95890362,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 13775
+  },
+  {
+    "type": 17,
+    "icao": "CD04",
+    "lat": 39.82081944,
+    "lon": -105.05387139,
+    "communications": [],
+    "elevation": 5500,
+    "tower": false,
+    "name": "[H] SF",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.82081944,
+        "lonStart": -105.05387139,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 22.9
+      }
+    ],
+    "id": 15126
+  },
+  {
+    "type": 17,
+    "icao": "CD19",
+    "lat": 39.69082138,
+    "lon": -105.50471973,
+    "communications": [],
+    "elevation": 10670,
+    "tower": false,
+    "name": "[H] Arapahoe",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.69082138,
+        "lonStart": -105.50471973,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 15139
+  },
+  {
+    "type": 17,
+    "icao": "CD21",
+    "lat": 39.04943583,
+    "lon": -105.51305556,
+    "communications": [],
+    "elevation": 11292,
+    "tower": false,
+    "name": "[H] Badger Mountain",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 4,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.04943583,
+        "lonStart": -105.51305556,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 15140
+  },
+  {
+    "type": 17,
+    "icao": "CD25",
+    "lat": 39.76943111,
+    "lon": -105.85112167,
+    "communications": [],
+    "elevation": 10338,
+    "tower": false,
+    "name": "[H] Henderson Mine",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.76943111,
+        "lonStart": -105.85112167,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 15142
+  },
+  {
+    "type": 17,
+    "icao": "CD37",
+    "lat": 39.79387583,
+    "lon": -105.76389501,
+    "communications": [],
+    "elevation": 12440,
+    "tower": false,
+    "name": "[H] Berthoud Pass",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.79387583,
+        "lonStart": -105.76389501,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 15150
+  },
+  {
+    "type": 17,
+    "icao": "CO04",
+    "lat": 39.74248694,
+    "lon": -105.04664973,
+    "communications": [],
+    "elevation": 5273,
+    "tower": false,
+    "name": "[H] St Anthony Hospital Central",
+    "runways": [
+      {
+        "type": 102,
+        "width": 20.4,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.74248694,
+        "lonStart": -105.04664973,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.4
+      }
+    ],
+    "id": 15475
+  },
+  {
+    "type": 1,
+    "icao": "CO07",
+    "lat": 39.85415388,
+    "lon": -105.47138444999999,
+    "communications": [],
+    "elevation": 8899,
+    "tower": false,
+    "name": "Athanasiou Valley",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 39.85472418,
+        "lonStart": -105.47487946,
+        "latEnd": 39.85358358,
+        "lonEnd": -105.46788944,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 15477
+  },
+  {
+    "type": 17,
+    "icao": "CO08",
+    "lat": 39.80916666,
+    "lon": -105.04777778,
+    "communications": [],
+    "elevation": 5290,
+    "tower": false,
+    "name": "[H] Public Service of Colorado Arvada",
+    "runways": [
+      {
+        "type": 102,
+        "width": 19.8,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.80916666,
+        "lonStart": -105.04777778,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 39.6
+      }
+    ],
+    "id": 15478
+  },
+  {
+    "type": 1,
+    "icao": "CO10",
+    "lat": 39.994707489999996,
+    "lon": -105.22387695,
+    "communications": [],
+    "elevation": 5230,
+    "tower": false,
+    "name": "Lemons Private Strip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 39.99873205,
+        "lonStart": -105.22276033,
+        "latEnd": 39.99068293,
+        "lonEnd": -105.22499357,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 15480
+  },
+  {
+    "type": 17,
+    "icao": "CO26",
+    "lat": 39.89026333,
+    "lon": -105.08776139,
+    "communications": [],
+    "elevation": 5378,
+    "tower": false,
+    "name": "[H] Cirino",
+    "runways": [
+      {
+        "type": 102,
+        "width": 24.4,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.89026333,
+        "lonStart": -105.08776139,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 61
+      }
+    ],
+    "id": 15494
+  },
+  {
+    "type": 17,
+    "icao": "CO39",
+    "lat": 39.72332027,
+    "lon": -105.11081862,
+    "communications": [],
+    "elevation": 5548,
+    "tower": false,
+    "name": "[H] Denver Federal Center Helistop",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.72332027,
+        "lonStart": -105.11081862,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 15505
+  },
+  {
+    "type": 17,
+    "icao": "CO45",
+    "lat": 39.95276305,
+    "lon": -105.15248528,
+    "communications": [],
+    "elevation": 5508,
+    "tower": false,
+    "name": "[H] Avista Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.95276305,
+        "lonStart": -105.15248528,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 15511
+  },
+  {
+    "type": 17,
+    "icao": "CO51",
+    "lat": 39.76832,
+    "lon": -105.84806556,
+    "communications": [],
+    "elevation": 10398,
+    "tower": false,
+    "name": "[H] Henderson",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.76832,
+        "lonStart": -105.84806556,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 15515
+  },
+  {
+    "type": 1,
+    "icao": "CO52",
+    "lat": 39.58332138,
+    "lon": -105.30332584,
+    "communications": [],
+    "elevation": 7700,
+    "tower": false,
+    "name": "Marshdale",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 39.58622767,
+        "lonStart": -105.30533091,
+        "latEnd": 39.58041509,
+        "lonEnd": -105.30132077,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 15516
+  },
+  {
+    "type": 17,
+    "icao": "CO66",
+    "lat": 39.71026527,
+    "lon": -105.24526695,
+    "communications": [],
+    "elevation": 7358,
+    "tower": false,
+    "name": "[H] Morton",
+    "runways": [
+      {
+        "type": 102,
+        "width": 27.4,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.71026527,
+        "lonStart": -105.24526695,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29
+      }
+    ],
+    "id": 15527
+  },
+  {
+    "type": 17,
+    "icao": "CO67",
+    "lat": 39.84720888,
+    "lon": -105.28193473,
+    "communications": [],
+    "elevation": 6580,
+    "tower": false,
+    "name": "[H] Schwartzwalder",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.84720888,
+        "lonStart": -105.28193473,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 36.6
+      }
+    ],
+    "id": 15528
+  },
+  {
+    "type": 1,
+    "icao": "CO98",
+    "lat": 39.54998805,
+    "lon": -105.03387251,
+    "communications": [],
+    "elevation": 5450,
+    "tower": false,
+    "name": "Bowen Farms Nr 1",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 39.5504591,
+        "lonStart": -105.03701532,
+        "latEnd": 39.549517,
+        "lonEnd": -105.0307297,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 39.55173823,
+        "lonStart": -105.0334313,
+        "latEnd": 39.54823787,
+        "lonEnd": -105.03431372,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 15555
   }
 ]

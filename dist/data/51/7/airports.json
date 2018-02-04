@@ -32,8 +32,8 @@
         "type": 100,
         "width": 31,
         "surfaceType": null,
-        "numberStart": "05R",
-        "numberEnd": "23L",
+        "numberStart": "06",
+        "numberEnd": "24",
         "latStart": 51.311385,
         "lonStart": 7.700825,
         "latEnd": 51.313547,
@@ -42,71 +42,65 @@
         "surfacetype": 3
       }
     ],
-    "id": 930
+    "id": 1147
   },
   {
     "type": 1,
-    "icao": "EDLA",
-    "lat": 51.48378952,
-    "lon": 7.89822071,
+    "icao": "EDKE",
+    "lat": 51.59040126333334,
+    "lon": 7.7103716350000004,
     "communications": [
       {
-        "type": 54,
-        "frequency": 12302,
-        "name": "Arnsberg Info"
+        "type": 51,
+        "frequency": 12997,
+        "name": "Kamen Info"
       }
     ],
-    "elevation": 793,
+    "elevation": 203,
     "tower": true,
-    "name": "Arnsberg-Menden",
+    "name": "Kamen-Heeren",
     "runways": [
       {
         "type": 100,
-        "width": 20,
+        "width": 28,
         "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 51.48093252,
-        "lonStart": 7.89292671,
-        "latEnd": 51.48664652,
-        "lonEnd": 7.90351471,
+        "numberStart": "11C",
+        "numberEnd": "29C",
+        "latStart": 51.59061302,
+        "lonStart": 7.7093252,
+        "latEnd": 51.59001867,
+        "lonEnd": 7.71352864,
         "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 1210
-  },
-  {
-    "type": 1,
-    "icao": "EDKU",
-    "lat": 51.145646,
-    "lon": 7.936453075,
-    "communications": [
+        "surfacetype": 3
+      },
       {
-        "type": 54,
-        "frequency": 12140,
-        "name": "Attendorn Info"
-      }
-    ],
-    "elevation": 1040,
-    "tower": true,
-    "name": "Attendorn-Finnentrop",
-    "runways": [
+        "type": 100,
+        "width": 29,
+        "surfaceType": null,
+        "numberStart": "11R",
+        "numberEnd": "29L",
+        "latStart": 51.59013116,
+        "lonStart": 7.70915623,
+        "latEnd": 51.5893611,
+        "lonEnd": 7.71470808,
+        "length": 0,
+        "surfacetype": 3
+      },
       {
         "type": 100,
         "width": 30,
         "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 51.143864,
-        "lonStart": 7.93455443,
-        "latEnd": 51.147428,
-        "lonEnd": 7.93835172,
+        "numberStart": "11L",
+        "numberEnd": "29R",
+        "latStart": 51.5913862,
+        "lonStart": 7.70603286,
+        "latEnd": 51.59089743,
+        "lonEnd": 7.7094788,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 1305
+    "id": 1148
   },
   {
     "type": 1,
@@ -138,7 +132,231 @@
         "surfacetype": 3
       }
     ],
-    "id": 2582
+    "id": 1149
+  },
+  {
+    "type": 1,
+    "icao": "EDKL",
+    "lat": 51.014797,
+    "lon": 7.006496,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12242,
+        "name": "Leverkusen Info"
+      }
+    ],
+    "elevation": 157,
+    "tower": true,
+    "name": "Leverkusen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 51.01863,
+        "lonStart": 7.003091,
+        "latEnd": 51.010964,
+        "lonEnd": 7.009901,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1152
+  },
+  {
+    "type": 1,
+    "icao": "EDKN",
+    "lat": 51.124530500000006,
+    "lon": 7.3721705,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12240,
+        "name": "Wipperfuerth Info"
+      }
+    ],
+    "elevation": 862,
+    "tower": true,
+    "name": "Wipperfuerth-Neye",
+    "runways": [
+      {
+        "type": 100,
+        "width": 25,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 51.125399,
+        "lonStart": 7.368133,
+        "latEnd": 51.123662,
+        "lonEnd": 7.376208,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1154
+  },
+  {
+    "type": 1,
+    "icao": "EDKP",
+    "lat": 51.192088999999996,
+    "lon": 7.78962497,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12292,
+        "name": "Plettenberg Info"
+      }
+    ],
+    "elevation": 980,
+    "tower": true,
+    "name": "Plettenberg-Huelinghausen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 51.1925045,
+        "lonStart": 7.78639853,
+        "latEnd": 51.1916735,
+        "lonEnd": 7.79285141,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1156
+  },
+  {
+    "type": 1,
+    "icao": "EDKU",
+    "lat": 51.145646,
+    "lon": 7.936453075,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12140,
+        "name": "Attendorn Info"
+      }
+    ],
+    "elevation": 1040,
+    "tower": true,
+    "name": "Attendorn-Finnentrop",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 51.143864,
+        "lonStart": 7.93455443,
+        "latEnd": 51.147428,
+        "lonEnd": 7.93835172,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1158
+  },
+  {
+    "type": 1,
+    "icao": "EDKW",
+    "lat": 51.296957,
+    "lon": 7.817304105,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11800,
+        "name": "Werdohl Info"
+      }
+    ],
+    "elevation": 1036,
+    "tower": true,
+    "name": "Werdohl-Kuentrop",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 51.2957965,
+        "lonStart": 7.81305539,
+        "latEnd": 51.2981175,
+        "lonEnd": 7.82155282,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1160
+  },
+  {
+    "type": 1,
+    "icao": "EDKZ",
+    "lat": 51.09982,
+    "lon": 7.599223,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13060,
+        "name": "Meinerzhagen Info"
+      }
+    ],
+    "elevation": 1548,
+    "tower": true,
+    "name": "Meinerzhagen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 51.098309,
+        "lonStart": 7.591408,
+        "latEnd": 51.101331,
+        "lonEnd": 7.607038,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1161
+  },
+  {
+    "type": 1,
+    "icao": "EDLA",
+    "lat": 51.48378952,
+    "lon": 7.89822071,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12302,
+        "name": "Arnsberg Info"
+      }
+    ],
+    "elevation": 793,
+    "tower": true,
+    "name": "Arnsberg-Menden",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 51.48093252,
+        "lonStart": 7.89292671,
+        "latEnd": 51.48664652,
+        "lonEnd": 7.90351471,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1162
   },
   {
     "type": 1,
@@ -196,54 +414,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 3017
-  },
-  {
-    "type": 1,
-    "icao": "EDLW",
-    "lat": 51.51909555,
-    "lon": 7.61444851,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12512,
-        "name": "Dortmund ATIS"
-      },
-      {
-        "type": 53,
-        "frequency": 12182,
-        "name": "Dortmund ground"
-      },
-      {
-        "type": 54,
-        "frequency": 13417,
-        "name": "Dortmund tower"
-      },
-      {
-        "type": 55,
-        "frequency": 12522,
-        "name": "Langen Radar"
-      }
-    ],
-    "elevation": 424,
-    "tower": true,
-    "name": "Dortmund - Wickede",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 51.51467605,
-        "lonStart": 7.60188301,
-        "latEnd": 51.52351505,
-        "lonEnd": 7.62701401,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 6409
+    "id": 1163
   },
   {
     "type": 1,
@@ -305,97 +476,7 @@
         "length": 16.7
       }
     ],
-    "id": 11363
-  },
-  {
-    "type": 1,
-    "icao": "EDKE",
-    "lat": 51.59040126333334,
-    "lon": 7.7103716350000004,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12997,
-        "name": "Kamen Info"
-      }
-    ],
-    "elevation": 203,
-    "tower": true,
-    "name": "Kamen-Heeren",
-    "runways": [
-      {
-        "type": 100,
-        "width": 28,
-        "surfaceType": null,
-        "numberStart": "11C",
-        "numberEnd": "29C",
-        "latStart": 51.59061302,
-        "lonStart": 7.7093252,
-        "latEnd": 51.59001867,
-        "lonEnd": 7.71352864,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 29,
-        "surfaceType": null,
-        "numberStart": "11R",
-        "numberEnd": "29L",
-        "latStart": 51.59013116,
-        "lonStart": 7.70915623,
-        "latEnd": 51.5893611,
-        "lonEnd": 7.71470808,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "11L",
-        "numberEnd": "29R",
-        "latStart": 51.5913862,
-        "lonStart": 7.70603286,
-        "latEnd": 51.59089743,
-        "lonEnd": 7.7094788,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 13568
-  },
-  {
-    "type": 1,
-    "icao": "EDKL",
-    "lat": 51.014797,
-    "lon": 7.006496,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12242,
-        "name": "Leverkusen Info"
-      }
-    ],
-    "elevation": 157,
-    "tower": true,
-    "name": "Leverkusen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 51.01863,
-        "lonStart": 7.003091,
-        "latEnd": 51.010964,
-        "lonEnd": 7.009901,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15213
+    "id": 1169
   },
   {
     "type": 1,
@@ -427,39 +508,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 16713
-  },
-  {
-    "type": 1,
-    "icao": "EDKZ",
-    "lat": 51.09982,
-    "lon": 7.599223,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13060,
-        "name": "Meinerzhagen Info"
-      }
-    ],
-    "elevation": 1548,
-    "tower": true,
-    "name": "Meinerzhagen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 51.098309,
-        "lonStart": 7.591408,
-        "latEnd": 51.101331,
-        "lonEnd": 7.607038,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 17021
+    "id": 1173
   },
   {
     "type": 1,
@@ -504,102 +553,208 @@
         "surfacetype": 3
       }
     ],
-    "id": 17685
+    "id": 1179
   },
   {
     "type": 1,
-    "icao": "EDKP",
-    "lat": 51.192088999999996,
-    "lon": 7.78962497,
+    "icao": "EDLW",
+    "lat": 51.51909718,
+    "lon": 7.61444851,
     "communications": [
       {
+        "type": 50,
+        "frequency": 12512,
+        "name": "Dortmund ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12182,
+        "name": "Dortmund ground"
+      },
+      {
         "type": 54,
-        "frequency": 12292,
-        "name": "Plettenberg Info"
+        "frequency": 13417,
+        "name": "Dortmund tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12522,
+        "name": "Langen Radar"
       }
     ],
-    "elevation": 980,
+    "elevation": 423,
     "tower": true,
-    "name": "Plettenberg-Huelinghausen",
+    "name": "Dortmund - Wickede",
     "runways": [
       {
         "type": 100,
-        "width": 30,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 51.1925045,
-        "lonStart": 7.78639853,
-        "latEnd": 51.1916735,
-        "lonEnd": 7.79285141,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 51.51467768,
+        "lonStart": 7.60188301,
+        "latEnd": 51.52351668,
+        "lonEnd": 7.62701401,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1182
+  },
+  {
+    "type": 1,
+    "icao": "XED10",
+    "lat": 51.436307240000005,
+    "lon": 7.699729404999999,
+    "communications": [],
+    "elevation": 505,
+    "tower": false,
+    "name": "Iserlohn-Suemmern",
+    "runways": [
+      {
+        "type": 100,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 51.433627,
+        "lonStart": 7.695804,
+        "latEnd": 51.43898748,
+        "lonEnd": 7.70365481,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 20267
+    "id": 5367
   },
   {
     "type": 1,
-    "icao": "EDKW",
-    "lat": 51.296957,
-    "lon": 7.817304105,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11800,
-        "name": "Werdohl Info"
-      }
-    ],
-    "elevation": 1036,
-    "tower": true,
-    "name": "Werdohl-Kuentrop",
+    "icao": "XEDCU",
+    "lat": 51.47285481,
+    "lon": 7.64555256,
+    "communications": [],
+    "elevation": 410,
+    "tower": false,
+    "name": "Hengsen-Opherdicke",
     "runways": [
       {
         "type": 100,
-        "width": 30,
+        "width": 35,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 51.47283513,
+        "lonStart": 7.64103598,
+        "latEnd": 51.47382426,
+        "lonEnd": 7.64952551,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 65,
         "surfaceType": null,
         "numberStart": "07",
         "numberEnd": "25",
-        "latStart": 51.2957965,
-        "lonStart": 7.81305539,
-        "latEnd": 51.2981175,
-        "lonEnd": 7.82155282,
+        "latStart": 51.47141248,
+        "lonStart": 7.64005474,
+        "latEnd": 51.47334737,
+        "lonEnd": 7.65159401,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 27090
+    "id": 5380
   },
   {
     "type": 1,
-    "icao": "EDKN",
-    "lat": 51.124530500000006,
-    "lon": 7.3721705,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12240,
-        "name": "Wipperfuerth Info"
-      }
-    ],
-    "elevation": 862,
-    "tower": true,
-    "name": "Wipperfuerth-Neye",
+    "icao": "XEDDA",
+    "lat": 51.429300345,
+    "lon": 7.6437712950000005,
+    "communications": [],
+    "elevation": 626,
+    "tower": false,
+    "name": "Iserlohn-Rheinermark",
     "runways": [
       {
         "type": 100,
         "width": 25,
         "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 51.125399,
-        "lonStart": 7.368133,
-        "latEnd": 51.123662,
-        "lonEnd": 7.376208,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 51.42796725,
+        "lonStart": 7.63815413,
+        "latEnd": 51.43063344,
+        "lonEnd": 7.64938846,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 27452
+    "id": 5383
+  },
+  {
+    "type": 1,
+    "icao": "XEDH2",
+    "lat": 51.307179945,
+    "lon": 7.4269150375,
+    "communications": [],
+    "elevation": 1305,
+    "tower": true,
+    "name": "Hagen Hof-Wahl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 51.30773321,
+        "lonStart": 7.42456841,
+        "latEnd": 51.30691711,
+        "lonEnd": 7.4298356,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 22,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 51.3071641,
+        "lonStart": 7.42339557,
+        "latEnd": 51.30690536,
+        "lonEnd": 7.42986057,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5391
+  },
+  {
+    "type": 17,
+    "icao": "XEDZ1",
+    "lat": 51.53325775,
+    "lon": 7.454829,
+    "communications": [],
+    "elevation": 807,
+    "tower": false,
+    "name": "[H] Klinikum Dortmund Nord",
+    "runways": [
+      {
+        "type": 102,
+        "width": 20.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 51.53325775,
+        "lonStart": 7.454829,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19.9
+      }
+    ],
+    "id": 5404
   }
 ]

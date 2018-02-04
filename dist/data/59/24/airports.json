@@ -1,41 +1,92 @@
 [
   {
+    "type": 17,
+    "icao": "EECL",
+    "lat": 59.4480111,
+    "lon": 24.753325,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13590,
+        "name": "Tallinn Tower"
+      }
+    ],
+    "elevation": 17,
+    "tower": true,
+    "name": "[H] Tallinn City Hall",
+    "runways": [
+      {
+        "type": 102,
+        "width": 24,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 59.4480111,
+        "lonStart": 24.753325,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24
+      }
+    ],
+    "id": 1447
+  },
+  {
     "type": 1,
     "icao": "EEEI",
-    "lat": 59.2602955,
-    "lon": 24.208503999999998,
+    "lat": 59.259611199999995,
+    "lon": 24.20475815,
     "communications": [
       {
         "type": 54,
         "frequency": 12090,
-        "name": "INFO"
+        "name": "Ämari Tower"
+      },
+      {
+        "type": 54,
+        "frequency": 25780,
+        "name": "Ämari Tower"
+      },
+      {
+        "type": 54,
+        "frequency": 12150,
+        "name": "Ämari Tower EMERGENCY"
+      },
+      {
+        "type": 54,
+        "frequency": 24300,
+        "name": "Ämari Tower EMERGENCY"
+      },
+      {
+        "type": 50,
+        "frequency": 12387,
+        "name": "ATIS"
       }
     ],
-    "elevation": 64,
-    "tower": false,
-    "name": "AMARI",
+    "elevation": 66,
+    "tower": true,
+    "name": "Ämari Military Aerodrome",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 45,
         "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 59.257319,
-        "lonStart": 24.191919,
-        "latEnd": 59.263272,
-        "lonEnd": 24.225089,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 59.2555194,
+        "lonStart": 24.1820083,
+        "latEnd": 59.263703,
+        "lonEnd": 24.227508,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 1
       }
     ],
-    "id": 262
+    "id": 1448
   },
   {
     "type": 1,
     "icao": "EETN",
-    "lat": 59.413400325,
-    "lon": 24.83280851,
+    "lat": 59.413317735,
+    "lon": 24.836434779999998,
     "communications": [
       {
         "type": 50,
@@ -65,12 +116,12 @@
         "numberEnd": "26",
         "latStart": 59.41346325,
         "lonStart": 24.80566123,
-        "latEnd": 59.4133374,
-        "lonEnd": 24.85995579,
+        "latEnd": 59.41317222,
+        "lonEnd": 24.86720833,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 15155
+    "id": 1454
   }
 ]

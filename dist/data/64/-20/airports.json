@@ -1,38 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "BIHX",
-    "lat": 64.204599885,
-    "lon": -19.264437285,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11810,
-        "name": "AFIS"
-      }
-    ],
-    "elevation": 1195,
-    "tower": false,
-    "name": "Hrauneyjafoss",
-    "runways": [
-      {
-        "type": 100,
-        "width": 27.43,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 64.20357485,
-        "lonStart": -19.26998658,
-        "latEnd": 64.20562492,
-        "lonEnd": -19.25888799,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 12128
-  },
-  {
-    "type": 1,
     "icao": "BIHI",
     "lat": 64.88345100000001,
     "lon": -19.48925346,
@@ -61,7 +29,39 @@
         "surfacetype": 5
       }
     ],
-    "id": 12235
+    "id": 563
+  },
+  {
+    "type": 1,
+    "icao": "BIHX",
+    "lat": 64.204599885,
+    "lon": -19.264437285,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11810,
+        "name": "AFIS"
+      }
+    ],
+    "elevation": 1195,
+    "tower": false,
+    "name": "Hrauneyjafoss",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 64.20357485,
+        "lonStart": -19.26998658,
+        "latEnd": 64.20562492,
+        "lonEnd": -19.25888799,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 572
   },
   {
     "type": 1,
@@ -93,6 +93,6 @@
         "surfacetype": 5
       }
     ],
-    "id": 13779
+    "id": 578
   }
 ]

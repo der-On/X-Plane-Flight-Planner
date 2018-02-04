@@ -1,9 +1,35 @@
 [
   {
     "type": 1,
+    "icao": "UT45",
+    "lat": 38.5123265,
+    "lon": 68.6724625,
+    "communications": [],
+    "elevation": 2379,
+    "tower": false,
+    "name": "GISSAR",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49.38,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 38.510925,
+        "lonStart": 68.658147,
+        "latEnd": 38.513728,
+        "lonEnd": 68.686778,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 30555
+  },
+  {
+    "type": 1,
     "icao": "UTDD",
-    "lat": 38.543486,
-    "lon": 68.8246375,
+    "lat": 38.543417805000004,
+    "lon": 68.82492961,
     "communications": [
       {
         "type": 50,
@@ -38,38 +64,12 @@
         "numberEnd": "27",
         "latStart": 38.543503,
         "lonStart": 68.806844,
-        "latEnd": 38.543469,
-        "lonEnd": 68.842431,
+        "latEnd": 38.54333261,
+        "lonEnd": 68.84301522,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 5913
-  },
-  {
-    "type": 1,
-    "icao": "UT45",
-    "lat": 38.5123265,
-    "lon": 68.6724625,
-    "communications": [],
-    "elevation": 2379,
-    "tower": false,
-    "name": "GISSAR",
-    "runways": [
-      {
-        "type": 100,
-        "width": 49.38,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 38.510925,
-        "lonStart": 68.658147,
-        "latEnd": 38.513728,
-        "lonEnd": 68.686778,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 10013
+    "id": 30593
   }
 ]

@@ -1,32 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "LE96",
-    "lat": 39.226073695,
-    "lon": -0.36673835499999996,
-    "communications": [],
-    "elevation": 25,
-    "tower": false,
-    "name": "Albalat 1",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.54,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 39.22600746,
-        "lonStart": -0.36768435,
-        "latEnd": 39.22613993,
-        "lonEnd": -0.36579236,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 802
-  },
-  {
-    "type": 1,
     "icao": "LE95",
     "lat": 39.22052603,
     "lon": -0.368624925,
@@ -49,13 +23,39 @@
         "surfacetype": 3
       }
     ],
-    "id": 25896
+    "id": 3479
+  },
+  {
+    "type": 1,
+    "icao": "LE96",
+    "lat": 39.226073695,
+    "lon": -0.36673835499999996,
+    "communications": [],
+    "elevation": 25,
+    "tower": false,
+    "name": "Albalat 1",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.54,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 39.22600746,
+        "lonStart": -0.36768435,
+        "latEnd": 39.22613993,
+        "lonEnd": -0.36579236,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3480
   },
   {
     "type": 1,
     "icao": "LEVC",
-    "lat": 39.489967,
-    "lon": -0.48334449999999995,
+    "lat": 39.48333575,
+    "lon": -0.479699755,
     "communications": [
       {
         "type": 50,
@@ -88,7 +88,7 @@
         "name": "APP"
       }
     ],
-    "elevation": 239,
+    "elevation": 238,
     "tower": true,
     "name": "Valencia",
     "runways": [
@@ -98,14 +98,62 @@
         "surfaceType": null,
         "numberStart": "12",
         "numberEnd": "30",
-        "latStart": 39.496353,
-        "lonStart": -0.500114,
-        "latEnd": 39.483581,
-        "lonEnd": -0.466575,
+        "latStart": 39.49635201,
+        "lonStart": -0.50011091,
+        "latEnd": 39.48358001,
+        "lonEnd": -0.46657191,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 25,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.48002324,
+        "lonStart": -0.47661939,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 25
+      },
+      {
+        "type": 102,
+        "width": 25,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 39.48002225,
+        "lonStart": -0.47703918,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 25
+      },
+      {
+        "type": 102,
+        "width": 25,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 39.48001752,
+        "lonStart": -0.47872014,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 25
+      },
+      {
+        "type": 102,
+        "width": 25,
+        "surfaceType": 2,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 39.48001947,
+        "lonStart": -0.479137,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 25
       }
     ],
-    "id": 26165
+    "id": 3530
   }
 ]

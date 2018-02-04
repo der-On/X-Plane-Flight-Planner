@@ -1,64 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "LOLE",
-    "lat": 48.338889,
-    "lon": 13.986111,
-    "communications": [],
-    "elevation": 887,
-    "tower": true,
-    "name": "Eferding",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 48.3405168,
-        "lonStart": 13.98460252,
-        "latEnd": 48.3372612,
-        "lonEnd": 13.98761948,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 6989
-  },
-  {
-    "type": 1,
-    "icao": "EDNF",
-    "lat": 48.8224883,
-    "lon": 13.36745136,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12250,
-        "name": "Grafenau Info"
-      }
-    ],
-    "elevation": 1433,
-    "tower": true,
-    "name": "Elsenthal-Grafenau",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 48.82446595,
-        "lonStart": 13.36655023,
-        "latEnd": 48.82051065,
-        "lonEnd": 13.36835249,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 7138
-  },
-  {
-    "type": 1,
     "icao": "EDMF",
     "lat": 48.518039815,
     "lon": 13.345975715,
@@ -87,91 +29,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 19824
-  },
-  {
-    "type": 1,
-    "icao": "LOLK",
-    "lat": 48.202222000000006,
-    "lon": 13.335556,
-    "communications": [],
-    "elevation": 1378,
-    "tower": true,
-    "name": "Ried Kirchheim",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 48.20348424,
-        "lonStart": 13.33197648,
-        "latEnd": 48.20095976,
-        "lonEnd": 13.33913552,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 21470
-  },
-  {
-    "type": 1,
-    "icao": "LOLS",
-    "lat": 48.403611,
-    "lon": 13.448889000000001,
-    "communications": [],
-    "elevation": 1070,
-    "tower": true,
-    "name": "Schaerding",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 48.40635739,
-        "lonStart": 13.44538588,
-        "latEnd": 48.40086461,
-        "lonEnd": 13.45239212,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 23076
-  },
-  {
-    "type": 1,
-    "icao": "EDPS",
-    "lat": 48.682431185,
-    "lon": 13.694571620000001,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12205,
-        "name": "Sonnen Info"
-      }
-    ],
-    "elevation": 2673,
-    "tower": true,
-    "name": "Sonnen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 10,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 48.6796843,
-        "lonStart": 13.69310029,
-        "latEnd": 48.68517807,
-        "lonEnd": 13.69604295,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 23847
+    "id": 1191
   },
   {
     "type": 1,
@@ -215,6 +73,154 @@
         "length": 9.3
       }
     ],
-    "id": 26350
+    "id": 1206
+  },
+  {
+    "type": 1,
+    "icao": "EDNF",
+    "lat": 48.8224883,
+    "lon": 13.36745136,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12250,
+        "name": "Grafenau Info"
+      }
+    ],
+    "elevation": 1433,
+    "tower": true,
+    "name": "Elsenthal-Grafenau",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 48.82446595,
+        "lonStart": 13.36655023,
+        "latEnd": 48.82051065,
+        "lonEnd": 13.36835249,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1215
+  },
+  {
+    "type": 1,
+    "icao": "EDPS",
+    "lat": 48.682431185,
+    "lon": 13.694571620000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12205,
+        "name": "Sonnen Info"
+      }
+    ],
+    "elevation": 2673,
+    "tower": true,
+    "name": "Sonnen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 10,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 48.6796843,
+        "lonStart": 13.69310029,
+        "latEnd": 48.68517807,
+        "lonEnd": 13.69604295,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1275
+  },
+  {
+    "type": 1,
+    "icao": "LOLK",
+    "lat": 48.212189894999995,
+    "lon": 13.345898094999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12265,
+        "name": "Kirchheim Flugplatz"
+      }
+    ],
+    "elevation": 1377,
+    "tower": true,
+    "name": "Ried-Kirchheim",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 48.21383501,
+        "lonStart": 13.3415306,
+        "latEnd": 48.21054478,
+        "lonEnd": 13.35026559,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3855
+  },
+  {
+    "type": 1,
+    "icao": "LOLE",
+    "lat": 48.338889,
+    "lon": 13.986111,
+    "communications": [],
+    "elevation": 887,
+    "tower": true,
+    "name": "Eferding",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 48.3405168,
+        "lonStart": 13.98460252,
+        "latEnd": 48.3372612,
+        "lonEnd": 13.98761948,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20761
+  },
+  {
+    "type": 1,
+    "icao": "LOLS",
+    "lat": 48.403611,
+    "lon": 13.448889000000001,
+    "communications": [],
+    "elevation": 1070,
+    "tower": true,
+    "name": "Schaerding",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 48.40635739,
+        "lonStart": 13.44538588,
+        "latEnd": 48.40086461,
+        "lonEnd": 13.45239212,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20765
   }
 ]

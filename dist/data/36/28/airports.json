@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "LTBS",
-    "lat": 36.7131885,
-    "lon": 28.79251325,
+    "lat": 36.713087009999995,
+    "lon": 28.79246621,
     "communications": [
       {
         "type": 50,
@@ -38,7 +38,7 @@
     ],
     "elevation": 20,
     "tower": true,
-    "name": "DALAMAN",
+    "name": "Dalaman",
     "runways": [
       {
         "type": 100,
@@ -46,15 +46,65 @@
         "surfaceType": null,
         "numberStart": "01",
         "numberEnd": "19",
-        "latStart": 36.70016523,
-        "lonStart": 28.78808595,
-        "latEnd": 36.72621177,
-        "lonEnd": 28.79694055,
+        "latStart": 36.70006426,
+        "lonStart": 28.78803315,
+        "latEnd": 36.72610976,
+        "lonEnd": 28.79689927,
         "length": 0,
         "surfacetype": 2
       }
     ],
-    "id": 5649
+    "id": 4008
+  },
+  {
+    "type": 1,
+    "icao": "LGRD",
+    "lat": 36.38367975,
+    "lon": 28.11333325,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12060,
+        "name": "RODOS APP"
+      }
+    ],
+    "elevation": 204,
+    "tower": true,
+    "name": "MARITSA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 36.381111,
+        "lonStart": 28.095556,
+        "latEnd": 36.384997,
+        "lonEnd": 28.122222,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 36.388611,
+        "lonStart": 28.113611,
+        "latEnd": 36.38,
+        "lonEnd": 28.121944,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20507
   },
   {
     "type": 1,
@@ -116,56 +166,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 5789
-  },
-  {
-    "type": 1,
-    "icao": "LGRD",
-    "lat": 36.38367975,
-    "lon": 28.11333325,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11810,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12060,
-        "name": "RODOS APP"
-      }
-    ],
-    "elevation": 204,
-    "tower": true,
-    "name": "MARITSA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 36.381111,
-        "lonStart": 28.095556,
-        "latEnd": 36.384997,
-        "lonEnd": 28.122222,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 36.388611,
-        "lonStart": 28.113611,
-        "latEnd": 36.38,
-        "lonEnd": 28.121944,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 15846
+    "id": 20508
   }
 ]

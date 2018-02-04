@@ -1,6 +1,80 @@
 [
   {
     "type": 1,
+    "icao": "EBOS",
+    "lat": 51.199966579999995,
+    "lon": 2.8750083149999996,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "OOSTENDE GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11817,
+        "name": "OOSTENDE TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12060,
+        "name": "OOSTENDE APP"
+      }
+    ],
+    "elevation": 13,
+    "tower": true,
+    "name": "Oostende",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 51.19657229,
+        "lonStart": 2.85266187,
+        "latEnd": 51.20336087,
+        "lonEnd": 2.89735476,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 947
+  },
+  {
+    "type": 1,
+    "icao": "LFAK",
+    "lat": 51.039460375,
+    "lon": 2.548852205,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 12210,
+        "name": "KOKSIJDE APP"
+      }
+    ],
+    "elevation": 0,
+    "tower": true,
+    "name": "Les Moeres",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 51.03837237,
+        "lonStart": 2.54466002,
+        "latEnd": 51.04054838,
+        "lonEnd": 2.55304439,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3541
+  },
+  {
+    "type": 1,
     "icao": "EBFN",
     "lat": 51.091173264999995,
     "lon": 2.650867865,
@@ -68,80 +142,6 @@
         "length": 32
       }
     ],
-    "id": 13445
-  },
-  {
-    "type": 1,
-    "icao": "LFAK",
-    "lat": 51.039317,
-    "lon": 2.548419,
-    "communications": [
-      {
-        "type": 55,
-        "frequency": 12210,
-        "name": "KOKSIJDE APP"
-      }
-    ],
-    "elevation": 0,
-    "tower": true,
-    "name": "Les Moeres",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 51.038173,
-        "lonStart": 2.543991,
-        "latEnd": 51.040461,
-        "lonEnd": 2.552847,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15188
-  },
-  {
-    "type": 1,
-    "icao": "EBOS",
-    "lat": 51.199966579999995,
-    "lon": 2.8750083149999996,
-    "communications": [
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "OOSTENDE GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11817,
-        "name": "OOSTENDE TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12060,
-        "name": "OOSTENDE APP"
-      }
-    ],
-    "elevation": 13,
-    "tower": true,
-    "name": "Oostende",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 51.19657229,
-        "lonStart": 2.85266187,
-        "latEnd": 51.20336087,
-        "lonEnd": 2.89735476,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 18987
+    "id": 16135
   }
 ]

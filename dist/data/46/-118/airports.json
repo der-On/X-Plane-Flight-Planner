@@ -1,123 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "WA17",
-    "lat": 46.37930944,
-    "lon": -117.95188056,
-    "communications": [],
-    "elevation": 1940,
-    "tower": false,
-    "name": "Dayton",
-    "runways": [
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 46.37793202,
-        "lonStart": -117.95520347,
-        "latEnd": 46.38068686,
-        "lonEnd": -117.94855765,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 6083
-  },
-  {
-    "type": 1,
-    "icao": "58WA",
-    "lat": 46.507377219999995,
-    "lon": -117.44962445,
-    "communications": [],
-    "elevation": 2500,
-    "tower": false,
-    "name": "Dye Seed Ranch Inc.",
-    "runways": [
-      {
-        "type": 100,
-        "width": 8.53,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 46.50731499,
-        "lonStart": -117.45480465,
-        "latEnd": 46.50743945,
-        "lonEnd": -117.44444425,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 6597
-  },
-  {
-    "type": 1,
-    "icao": "52WA",
-    "lat": 46.932100000000005,
-    "lon": -117.9760575,
-    "communications": [],
-    "elevation": 1620,
-    "tower": false,
-    "name": "Honn Farm",
-    "runways": [
-      {
-        "type": 100,
-        "width": 7.62,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 46.92994053,
-        "lonStart": -117.97969539,
-        "latEnd": 46.93425947,
-        "lonEnd": -117.97241961,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 12013
-  },
-  {
-    "type": 1,
-    "icao": "WA30",
-    "lat": 46.790988049999996,
-    "lon": -117.92133111999999,
-    "communications": [],
-    "elevation": 1491,
-    "tower": false,
-    "name": "Lacrosse Municipal",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 46.78838155,
-        "lonStart": -117.92766702,
-        "latEnd": 46.79359455,
-        "lonEnd": -117.91499522,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 46.79347223,
-        "lonStart": -117.92448519,
-        "latEnd": 46.78850387,
-        "lonEnd": -117.91817705,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 14764
-  },
-  {
-    "type": 1,
     "icao": "KLWS",
     "lat": 46.3748171775,
     "lon": -117.015497455,
@@ -179,7 +62,76 @@
         "surfacetype": 1
       }
     ],
-    "id": 15226
+    "id": 2924
+  },
+  {
+    "type": 1,
+    "icao": "KPUW",
+    "lat": 46.74385419,
+    "lon": -117.10959324500001,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13567,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 2556,
+    "tower": false,
+    "name": "Pullman Moscow Rgnl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 46.74071438,
+        "lonStart": -117.12221949,
+        "latEnd": 46.746994,
+        "lonEnd": -117.096967,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3156
+  },
+  {
+    "type": 1,
+    "icao": "S94",
+    "lat": 46.858700420000005,
+    "lon": -117.414065615,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 2181,
+    "tower": false,
+    "name": "Port of Whitman Business Air Center",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 46.8587392,
+        "lonStart": -117.42050162,
+        "latEnd": 46.85866164,
+        "lonEnd": -117.40762961,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4524
   },
   {
     "type": 1,
@@ -205,76 +157,134 @@
         "surfacetype": 5
       }
     ],
-    "id": 15550
+    "id": 6218
   },
   {
     "type": 1,
-    "icao": "S94",
-    "lat": 46.858706999999995,
-    "lon": -117.41408150000001,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 2181,
+    "icao": "52WA",
+    "lat": 46.932100000000005,
+    "lon": -117.9760575,
+    "communications": [],
+    "elevation": 1620,
     "tower": false,
-    "name": "PORT OF WHITMAN BUSINESS AIR CNTR",
+    "name": "Honn Farm",
     "runways": [
       {
         "type": 100,
-        "width": 18.29,
+        "width": 7.62,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 46.92994053,
+        "lonStart": -117.97969539,
+        "latEnd": 46.93425947,
+        "lonEnd": -117.97241961,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 12591
+  },
+  {
+    "type": 1,
+    "icao": "58WA",
+    "lat": 46.507377219999995,
+    "lon": -117.44962445,
+    "communications": [],
+    "elevation": 2500,
+    "tower": false,
+    "name": "Dye Seed Ranch Inc.",
+    "runways": [
+      {
+        "type": 100,
+        "width": 8.53,
         "surfaceType": null,
         "numberStart": "07",
         "numberEnd": "25",
-        "latStart": 46.858747,
-        "lonStart": -117.420494,
-        "latEnd": 46.858667,
-        "lonEnd": -117.407669,
+        "latStart": 46.50731499,
+        "lonStart": -117.45480465,
+        "latEnd": 46.50743945,
+        "lonEnd": -117.44444425,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 19495
+    "id": 12819
   },
   {
-    "type": 1,
-    "icao": "KPUW",
-    "lat": 46.7438565,
-    "lon": -117.1095865,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13567,
-        "name": "ASOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 2556,
+    "type": 17,
+    "icao": "69WA",
+    "lat": 46.42232805,
+    "lon": -117.03913028,
+    "communications": [],
+    "elevation": 744,
     "tower": false,
-    "name": "Pullman Moscow Rgnl",
+    "name": "[H] O & M Facilities",
     "runways": [
       {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 46.740719,
-        "lonStart": -117.122206,
-        "latEnd": 46.746994,
-        "lonEnd": -117.096967,
-        "length": 0,
-        "surfacetype": 1
+        "type": 102,
+        "width": 18.9,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 46.42232805,
+        "lonStart": -117.03913028,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.3
       }
     ],
-    "id": 20623
+    "id": 13258
+  },
+  {
+    "type": 17,
+    "icao": "70WA",
+    "lat": 46.87488722,
+    "lon": -117.37601667,
+    "communications": [],
+    "elevation": 2250,
+    "tower": false,
+    "name": "[H] Whitman Community Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 46.87488722,
+        "lonStart": -117.37601667,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 13297
+  },
+  {
+    "type": 16,
+    "icao": "78U",
+    "lat": 46.39988305,
+    "lon": -117.05099112,
+    "communications": [],
+    "elevation": 733,
+    "tower": false,
+    "name": "[S] Snake River",
+    "runways": [
+      {
+        "type": 101,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 46.40377336,
+        "lonStart": -117.04904869,
+        "latEnd": 46.39599274,
+        "lonEnd": -117.05293355,
+        "length": 0
+      }
+    ],
+    "id": 13615
   },
   {
     "type": 1,
@@ -300,57 +310,7 @@
         "surfacetype": 5
       }
     ],
-    "id": 23174
-  },
-  {
-    "type": 17,
-    "icao": "WN43",
-    "lat": 46.66127,
-    "lon": -117.43796028,
-    "communications": [],
-    "elevation": 650,
-    "tower": false,
-    "name": "[H] Lower Granite Dam",
-    "runways": [
-      {
-        "type": 102,
-        "width": 8.5,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 46.66127,
-        "lonStart": -117.43796028,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 8.5
-      }
-    ],
-    "id": 30957
-  },
-  {
-    "type": 17,
-    "icao": "69WA",
-    "lat": 46.42232805,
-    "lon": -117.03913028,
-    "communications": [],
-    "elevation": 744,
-    "tower": false,
-    "name": "[H] O & M Facilities",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.9,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 46.42232805,
-        "lonStart": -117.03913028,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 29.3
-      }
-    ],
-    "id": 31696
+    "id": 13883
   },
   {
     "type": 17,
@@ -375,7 +335,7 @@
         "length": 15.2
       }
     ],
-    "id": 32937
+    "id": 18266
   },
   {
     "type": 17,
@@ -400,56 +360,96 @@
         "length": 18.3
       }
     ],
-    "id": 33516
+    "id": 18285
+  },
+  {
+    "type": 1,
+    "icao": "WA17",
+    "lat": 46.37930944,
+    "lon": -117.95188056,
+    "communications": [],
+    "elevation": 1940,
+    "tower": false,
+    "name": "Dayton",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 46.37793202,
+        "lonStart": -117.95520347,
+        "latEnd": 46.38068686,
+        "lonEnd": -117.94855765,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 31307
+  },
+  {
+    "type": 1,
+    "icao": "WA30",
+    "lat": 46.790988049999996,
+    "lon": -117.92133111999999,
+    "communications": [],
+    "elevation": 1491,
+    "tower": false,
+    "name": "Lacrosse Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 46.78838155,
+        "lonStart": -117.92766702,
+        "latEnd": 46.79359455,
+        "lonEnd": -117.91499522,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 46.79347223,
+        "lonStart": -117.92448519,
+        "latEnd": 46.78850387,
+        "lonEnd": -117.91817705,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 31315
   },
   {
     "type": 17,
-    "icao": "70WA",
-    "lat": 46.87488722,
-    "lon": -117.37601667,
+    "icao": "WN43",
+    "lat": 46.66127,
+    "lon": -117.43796028,
     "communications": [],
-    "elevation": 2250,
+    "elevation": 650,
     "tower": false,
-    "name": "[H] Whitman Community Hospital",
+    "name": "[H] Lower Granite Dam",
     "runways": [
       {
         "type": 102,
-        "width": 15.2,
-        "surfaceType": 2,
+        "width": 8.5,
+        "surfaceType": 1,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 46.87488722,
-        "lonStart": -117.37601667,
+        "latStart": 46.66127,
+        "lonStart": -117.43796028,
         "latEnd": null,
         "lonEnd": null,
-        "length": 15.2
+        "length": 8.5
       }
     ],
-    "id": 33841
-  },
-  {
-    "type": 16,
-    "icao": "78U",
-    "lat": 46.39988305,
-    "lon": -117.05099112,
-    "communications": [],
-    "elevation": 733,
-    "tower": false,
-    "name": "[S] Snake River",
-    "runways": [
-      {
-        "type": 101,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 46.40377336,
-        "lonStart": -117.04904869,
-        "latEnd": 46.39599274,
-        "lonEnd": -117.05293355,
-        "length": 0
-      }
-    ],
-    "id": 34453
+    "id": 31711
   }
 ]

@@ -1,107 +1,13 @@
 [
   {
     "type": 1,
-    "icao": "YCDR",
-    "lat": -26.801691916,
-    "lon": 153.10588218599997,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12210,
-        "name": "YCDR MULT"
-      },
-      {
-        "type": 51,
-        "frequency": 12869,
-        "name": "YCDR UNIC"
-      }
-    ],
-    "elevation": 37,
-    "tower": false,
-    "name": "Caloundra",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": -26.804733,
-        "lonStart": 153.10274846,
-        "latEnd": -26.800776,
-        "lonEnd": 153.109337,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": -26.80001669,
-        "lonStart": 153.10030052,
-        "latEnd": -26.80449881,
-        "lonEnd": 153.10660191,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 14.9,
-        "surfaceType": 1,
-        "numberStart": "H8",
-        "numberEnd": null,
-        "latStart": -26.79843508,
-        "lonStart": 153.11042304,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 14.9
-      }
-    ],
-    "id": 4358
-  },
-  {
-    "type": 1,
-    "icao": "YNSH",
-    "lat": -26.423078175,
-    "lon": 153.06483981000002,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12670,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 0,
-    "tower": false,
-    "name": "Noosa",
-    "runways": [
-      {
-        "type": 100,
-        "width": 54.86,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": -26.42090853,
-        "lonStart": 153.06094751,
-        "latEnd": -26.42524782,
-        "lonEnd": 153.06873211,
-        "length": 0,
-        "surfacetype": 15
-      }
-    ],
-    "id": 18400
-  },
-  {
-    "type": 1,
     "icao": "YBSU",
-    "lat": -26.603018235714284,
-    "lon": 153.08924445285714,
+    "lat": -26.603043105,
+    "lon": 153.08947812333335,
     "communications": [
       {
         "type": 50,
-        "frequency": 11985,
+        "frequency": 11980,
         "name": "YBSU ATIS"
       },
       {
@@ -110,27 +16,12 @@
         "name": "ACTIVATE LIGHTS ONLY MULT"
       },
       {
-        "type": 51,
-        "frequency": 12440,
-        "name": "Sunshine Coast MULT"
-      },
-      {
-        "type": 51,
-        "frequency": 12440,
-        "name": "Sunshine Coast CTAF"
-      },
-      {
         "type": 53,
         "frequency": 12110,
-        "name": "MAROOCHY GND"
+        "name": "Sunshine Coast GND"
       },
       {
-        "type": 54,
-        "frequency": 12300,
-        "name": "BRISBANE CNTR"
-      },
-      {
-        "type": 54,
+        "type": 52,
         "frequency": 12900,
         "name": "BRISBANE CNTR"
       },
@@ -163,7 +54,7 @@
         "surfaceType": null,
         "numberStart": "12",
         "numberEnd": "30",
-        "latStart": -26.60054695,
+        "latStart": -26.600536,
         "lonStart": 153.08627293,
         "latEnd": -26.60418705,
         "lonEnd": 153.09139915,
@@ -172,15 +63,15 @@
       },
       {
         "type": 102,
-        "width": 20,
+        "width": 15.9,
         "surfaceType": 3,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": -26.60117089,
-        "lonStart": 153.08550387,
+        "latStart": -26.60118844,
+        "lonStart": 153.08556859,
         "latEnd": null,
         "lonEnd": null,
-        "length": 20
+        "length": 15.8
       },
       {
         "type": 102,
@@ -188,26 +79,14 @@
         "surfaceType": 1,
         "numberStart": "H2",
         "numberEnd": null,
-        "latStart": -26.60790791,
-        "lonStart": 153.08934474,
+        "latStart": -26.60786764,
+        "lonStart": 153.08937086,
         "latEnd": null,
         "lonEnd": null,
         "length": 8.5
-      },
-      {
-        "type": 102,
-        "width": 8,
-        "surfaceType": 1,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": -26.60283535,
-        "lonStart": 153.08793327,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 8
       }
     ],
-    "id": 24404
+    "id": 5586
   },
   {
     "type": 1,
@@ -272,6 +151,100 @@
         "surfacetype": 4
       }
     ],
-    "id": 25130
+    "id": 14765
+  },
+  {
+    "type": 1,
+    "icao": "YCDR",
+    "lat": -26.801691916,
+    "lon": 153.10588218599997,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12210,
+        "name": "YCDR MULT"
+      },
+      {
+        "type": 51,
+        "frequency": 12869,
+        "name": "YCDR UNIC"
+      }
+    ],
+    "elevation": 37,
+    "tower": false,
+    "name": "Caloundra",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -26.804733,
+        "lonStart": 153.10274846,
+        "latEnd": -26.800776,
+        "lonEnd": 153.109337,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -26.80001669,
+        "lonStart": 153.10030052,
+        "latEnd": -26.80449881,
+        "lonEnd": 153.10660191,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 14.9,
+        "surfaceType": 1,
+        "numberStart": "H8",
+        "numberEnd": null,
+        "latStart": -26.79843508,
+        "lonStart": 153.11042304,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.9
+      }
+    ],
+    "id": 32937
+  },
+  {
+    "type": 1,
+    "icao": "YNSH",
+    "lat": -26.423078175,
+    "lon": 153.06483981000002,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12670,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 0,
+    "tower": false,
+    "name": "Noosa",
+    "runways": [
+      {
+        "type": 100,
+        "width": 54.86,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -26.42090853,
+        "lonStart": 153.06094751,
+        "latEnd": -26.42524782,
+        "lonEnd": 153.06873211,
+        "length": 0,
+        "surfacetype": 15
+      }
+    ],
+    "id": 34075
   }
 ]

@@ -1,7 +1,52 @@
 [
   {
     "type": 1,
-    "icao": "EGOD",
+    "icao": "EGFA",
+    "lat": 52.115936887500006,
+    "lon": -4.558186915,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12215,
+        "name": "West Wales Information"
+      }
+    ],
+    "elevation": 428,
+    "tower": true,
+    "name": "West Wales Aberporth",
+    "runways": [
+      {
+        "type": 100,
+        "width": 35.05,
+        "surfaceType": null,
+        "numberStart": "3",
+        "numberEnd": "21",
+        "latStart": 52.11517231,
+        "lonStart": -4.55932733,
+        "latEnd": 52.11914052,
+        "lonEnd": -4.55457713,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 52.11301296,
+        "lonStart": -4.56818304,
+        "latEnd": 52.11642176,
+        "lonEnd": -4.55066016,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1532
+  },
+  {
+    "type": 1,
+    "icao": "EGFD",
     "lat": 52.80972866333334,
     "lon": -4.124834668333333,
     "communications": [
@@ -60,51 +105,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 15368
-  },
-  {
-    "type": 1,
-    "icao": "EGFA",
-    "lat": 52.11593245,
-    "lon": -4.558192437500001,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12215,
-        "name": "West Wales Information"
-      }
-    ],
-    "elevation": 428,
-    "tower": true,
-    "name": "West Wales Aberporth",
-    "runways": [
-      {
-        "type": 100,
-        "width": 35.05,
-        "surfaceType": null,
-        "numberStart": "3",
-        "numberEnd": "21",
-        "latStart": 52.11516638,
-        "lonStart": -4.55933699,
-        "latEnd": 52.11913647,
-        "lonEnd": -4.55458923,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 52.11300887,
-        "lonStart": -4.56818437,
-        "latEnd": 52.11641808,
-        "lonEnd": -4.55065916,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 27133
+    "id": 16324
   }
 ]

@@ -1,29 +1,29 @@
 [
   {
     "type": 1,
-    "icao": "EDOI",
-    "lat": 52.660266899999996,
-    "lon": 12.7477818,
+    "icao": "EDAI",
+    "lat": 52.82654609,
+    "lon": 12.543625145,
     "communications": [],
-    "elevation": 102,
+    "elevation": 142,
     "tower": false,
-    "name": "Bienenfarm Nauen",
+    "name": "Segeletz",
     "runways": [
       {
         "type": 100,
-        "width": 39.93,
+        "width": 28,
         "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 52.66223626,
-        "lonStart": 12.74237809,
-        "latEnd": 52.65829754,
-        "lonEnd": 12.75318551,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 52.82746686,
+        "lonStart": 12.53690121,
+        "latEnd": 52.82562532,
+        "lonEnd": 12.55034908,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 2682
+    "id": 987
   },
   {
     "type": 1,
@@ -39,7 +39,7 @@
     ],
     "elevation": 100,
     "tower": true,
-    "name": "Brandenburg/MC<hlenfeld",
+    "name": "Brandenburg/Mühlenfeld",
     "runways": [
       {
         "type": 100,
@@ -55,28 +55,55 @@
         "surfacetype": 3
       }
     ],
-    "id": 3111
+    "id": 1006
+  },
+  {
+    "type": 1,
+    "icao": "EDBF",
+    "lat": 52.79346891,
+    "lon": 12.760283855,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12250,
+        "name": "Ruppiner Land Info"
+      }
+    ],
+    "elevation": 138,
+    "tower": true,
+    "name": "Ruppiner Land",
+    "runways": [
+      {
+        "type": 100,
+        "width": 23,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 52.79447485,
+        "lonStart": 12.75375824,
+        "latEnd": 52.79246297,
+        "lonEnd": 12.76680947,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1007
   },
   {
     "type": 1,
     "icao": "EDBK",
-    "lat": 52.918662,
-    "lon": 12.4249875,
+    "lat": 52.918467535000005,
+    "lon": 12.4252066,
     "communications": [
       {
         "type": 54,
-        "frequency": 13265,
-        "name": "BERLIN INFO"
-      },
-      {
-        "type": 54,
         "frequency": 12272,
-        "name": "INFO"
+        "name": "Kyritz Info"
       }
     ],
-    "elevation": 130,
+    "elevation": 128,
     "tower": false,
-    "name": "KYRITZ",
+    "name": "Kyritz",
     "runways": [
       {
         "type": 100,
@@ -84,10 +111,10 @@
         "surfaceType": null,
         "numberStart": "14",
         "numberEnd": "32",
-        "latStart": 52.922306,
-        "lonStart": 12.420617,
-        "latEnd": 52.915361,
-        "lonEnd": 12.430047,
+        "latStart": 52.92227899,
+        "lonStart": 12.42120118,
+        "latEnd": 52.91501364,
+        "lonEnd": 12.43000021,
         "length": 0,
         "surfacetype": 1
       },
@@ -97,15 +124,15 @@
         "surfaceType": null,
         "numberStart": "14R",
         "numberEnd": "32L",
-        "latStart": 52.921964,
-        "lonStart": 12.419928,
-        "latEnd": 52.915017,
-        "lonEnd": 12.429358,
+        "latStart": 52.92190965,
+        "lonStart": 12.42042348,
+        "latEnd": 52.91466786,
+        "lonEnd": 12.42920153,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 13516
+    "id": 1012
   },
   {
     "type": 1,
@@ -149,7 +176,39 @@
         "length": 9
       }
     ],
-    "id": 13983
+    "id": 1038
+  },
+  {
+    "type": 1,
+    "icao": "EDOI",
+    "lat": 52.66123066,
+    "lon": 12.74734104,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12285,
+        "name": "Bienenfarm Info"
+      }
+    ],
+    "elevation": 102,
+    "tower": true,
+    "name": "Bienenfarm - Nauen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 52.66367727,
+        "lonStart": 12.74073798,
+        "latEnd": 52.65878405,
+        "lonEnd": 12.7539441,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1243
   },
   {
     "type": 1,
@@ -160,12 +219,12 @@
       {
         "type": 54,
         "frequency": 12997,
-        "name": "LC<sse Info"
+        "name": "Lüsse Info"
       }
     ],
     "elevation": 214,
     "tower": true,
-    "name": "LC<sse",
+    "name": "Lüsse",
     "runways": [
       {
         "type": 100,
@@ -181,65 +240,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 15656
-  },
-  {
-    "type": 1,
-    "icao": "EDBF",
-    "lat": 52.79346891,
-    "lon": 12.760283855,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12250,
-        "name": "Ruppiner Land Info"
-      }
-    ],
-    "elevation": 138,
-    "tower": true,
-    "name": "Ruppiner Land",
-    "runways": [
-      {
-        "type": 100,
-        "width": 23,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 52.79447485,
-        "lonStart": 12.75375824,
-        "latEnd": 52.79246297,
-        "lonEnd": 12.76680947,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 21838
-  },
-  {
-    "type": 1,
-    "icao": "EDAI",
-    "lat": 52.821666699999994,
-    "lon": 12.5529995,
-    "communications": [],
-    "elevation": 142,
-    "tower": false,
-    "name": "Segeletz",
-    "runways": [
-      {
-        "type": 100,
-        "width": 36.27,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 52.82308988,
-        "lonStart": 12.54652892,
-        "latEnd": 52.82024352,
-        "lonEnd": 12.55947008,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23215
+    "id": 1244
   },
   {
     "type": 1,
@@ -250,12 +251,12 @@
       {
         "type": 54,
         "frequency": 12200,
-        "name": "StC6lln Info"
+        "name": "Stölln Info"
       }
     ],
     "elevation": 130,
     "tower": true,
-    "name": "StC6lln/Rhinow",
+    "name": "Stölln/Rhinow",
     "runways": [
       {
         "type": 100,
@@ -271,7 +272,39 @@
         "surfacetype": 3
       }
     ],
-    "id": 24313
+    "id": 1251
+  },
+  {
+    "type": 1,
+    "icao": "EDUA",
+    "lat": 52.650840055,
+    "lon": 12.487928675,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12220,
+        "name": "Stechow Info"
+      }
+    ],
+    "elevation": 147,
+    "tower": true,
+    "name": "Stechow-Ferchesar",
+    "runways": [
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 52.64912353,
+        "lonStart": 12.48564777,
+        "latEnd": 52.65255658,
+        "lonEnd": 12.49020958,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1361
   },
   {
     "type": 1,
@@ -328,6 +361,6 @@
         "length": 14
       }
     ],
-    "id": 27897
+    "id": 1368
   }
 ]

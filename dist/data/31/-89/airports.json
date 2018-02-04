@@ -1,35 +1,35 @@
 [
   {
     "type": 1,
-    "icao": "M59",
-    "lat": 31.3174,
-    "lon": -88.935047,
+    "icao": "2R0",
+    "lat": 31.645992999999997,
+    "lon": -88.6347555,
     "communications": [
       {
         "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
+        "frequency": 12280,
+        "name": "UNICOM"
       }
     ],
-    "elevation": 167,
+    "elevation": 164,
     "tower": false,
-    "name": "RICHTON PERRY CO",
+    "name": "WAYNESBORO MUNI",
     "runways": [
       {
         "type": 100,
-        "width": 18.29,
+        "width": 22.86,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 31.321524,
-        "lonStart": -88.935047,
-        "latEnd": 31.313276,
-        "lonEnd": -88.935047,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 31.639511,
+        "lonStart": -88.637425,
+        "latEnd": 31.652475,
+        "lonEnd": -88.632086,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 20931
+    "id": 7280
   },
   {
     "type": 1,
@@ -61,39 +61,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 21060
-  },
-  {
-    "type": 1,
-    "icao": "2R0",
-    "lat": 31.645992999999997,
-    "lon": -88.6347555,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "UNICOM"
-      }
-    ],
-    "elevation": 164,
-    "tower": false,
-    "name": "WAYNESBORO MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 31.639511,
-        "lonStart": -88.637425,
-        "latEnd": 31.652475,
-        "lonEnd": -88.632086,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 26549
+    "id": 8871
   },
   {
     "type": 17,
@@ -130,6 +98,38 @@
         "length": 15.2
       }
     ],
-    "id": 31153
+    "id": 14585
+  },
+  {
+    "type": 1,
+    "icao": "M59",
+    "lat": 31.3174,
+    "lon": -88.935047,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 167,
+    "tower": false,
+    "name": "RICHTON PERRY CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 31.321524,
+        "lonStart": -88.935047,
+        "latEnd": 31.313276,
+        "lonEnd": -88.935047,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20996
   }
 ]

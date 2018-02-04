@@ -1,6 +1,70 @@
 [
   {
     "type": 1,
+    "icao": "AYTI",
+    "lat": -8.357421930000001,
+    "lon": 146.98963255,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12740,
+        "name": "TAP AWOS"
+      }
+    ],
+    "elevation": 3150,
+    "tower": false,
+    "name": "Tapini",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -8.35716353,
+        "lonStart": 146.98464902,
+        "latEnd": -8.35768033,
+        "lonEnd": 146.99461608,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 14803
+  },
+  {
+    "type": 1,
+    "icao": "LNG",
+    "lat": -8.162936,
+    "lon": 146.117004,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12770,
+        "name": "LNG AWOS"
+      }
+    ],
+    "elevation": 5,
+    "tower": false,
+    "name": "Lese",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -8.16008541,
+        "lonStart": 146.11534137,
+        "latEnd": -8.16578659,
+        "lonEnd": 146.11866663,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 20738
+  },
+  {
+    "type": 1,
     "icao": "RKU",
     "lat": -8.813948385,
     "lon": 146.523702105,
@@ -39,71 +103,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 13541
-  },
-  {
-    "type": 1,
-    "icao": "LNG",
-    "lat": -8.162936,
-    "lon": 146.117004,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12770,
-        "name": "LNG AWOS"
-      }
-    ],
-    "elevation": 5,
-    "tower": false,
-    "name": "Lese",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": -8.16008541,
-        "lonStart": 146.11534137,
-        "latEnd": -8.16578659,
-        "lonEnd": 146.11866663,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 15193
-  },
-  {
-    "type": 1,
-    "icao": "AYTI",
-    "lat": -8.357421930000001,
-    "lon": 146.98963255,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12740,
-        "name": "TAP AWOS"
-      }
-    ],
-    "elevation": 3150,
-    "tower": false,
-    "name": "Tapini",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": -8.35716353,
-        "lonStart": 146.98464902,
-        "latEnd": -8.35768033,
-        "lonEnd": 146.99461608,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 25046
+    "id": 24521
   },
   {
     "type": 1,
@@ -135,6 +135,6 @@
         "surfacetype": 4
       }
     ],
-    "id": 25169
+    "id": 29875
   }
 ]

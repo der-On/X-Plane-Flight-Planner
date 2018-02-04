@@ -1,6 +1,51 @@
 [
   {
     "type": 1,
+    "icao": "ESOE",
+    "lat": 59.226464875,
+    "lon": 15.04457799,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12027,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 187,
+    "tower": true,
+    "name": "Orebro",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "01R",
+        "numberEnd": "19L",
+        "latStart": 59.226326,
+        "lonStart": 15.051041,
+        "latEnd": 59.234713,
+        "lonEnd": 15.052414,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 59.2109745,
+        "lonStart": 15.03282096,
+        "latEnd": 59.233846,
+        "lonEnd": 15.042036,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1990
+  },
+  {
+    "type": 1,
     "icao": "ESQO",
     "lat": 59.3889868525,
     "lon": 15.9219816875,
@@ -47,7 +92,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 1146
+    "id": 1999
   },
   {
     "type": 1,
@@ -57,7 +102,7 @@
     "communications": [],
     "elevation": 24,
     "tower": false,
-    "name": "KC6ping GC%lby",
+    "name": "Köping Gålby",
     "runways": [
       {
         "type": 100,
@@ -73,51 +118,32 @@
         "surfacetype": 3
       }
     ],
-    "id": 14234
+    "id": 2052
   },
   {
     "type": 1,
-    "icao": "ESOE",
-    "lat": 59.226464875,
-    "lon": 15.04457799,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12027,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 187,
-    "tower": true,
-    "name": "Orebro",
+    "icao": "XESV10",
+    "lat": 59.776410999999996,
+    "lon": 15.378652605,
+    "communications": [],
+    "elevation": 404,
+    "tower": false,
+    "name": "Ramsberg Gammelbo",
     "runways": [
       {
         "type": 100,
-        "width": 60,
+        "width": 50,
         "surfaceType": null,
-        "numberStart": "01R",
-        "numberEnd": "19L",
-        "latStart": 59.226326,
-        "lonStart": 15.051041,
-        "latEnd": 59.234713,
-        "lonEnd": 15.052414,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 59.78069196,
+        "lonStart": 15.37556089,
+        "latEnd": 59.77213004,
+        "lonEnd": 15.38174432,
         "length": 0,
         "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 45,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 59.2109745,
-        "lonStart": 15.03282096,
-        "latEnd": 59.233846,
-        "lonEnd": 15.042036,
-        "length": 0,
-        "surfacetype": 1
       }
     ],
-    "id": 19015
+    "id": 5476
   }
 ]

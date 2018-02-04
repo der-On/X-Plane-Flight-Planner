@@ -1,9 +1,59 @@
 [
   {
     "type": 1,
+    "icao": "KPWD",
+    "lat": 48.7907993625,
+    "lon": -104.523654315,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 50,
+        "frequency": 13502,
+        "name": "WX AWOS-AV"
+      }
+    ],
+    "elevation": 2250,
+    "tower": false,
+    "name": "SHER WOOD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 48.79242763,
+        "lonStart": -104.52996595,
+        "latEnd": 48.78526663,
+        "lonEnd": -104.51800166,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 48.79280802,
+        "lonStart": -104.52947909,
+        "latEnd": 48.79269517,
+        "lonEnd": -104.51717056,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3164
+  },
+  {
+    "type": 1,
     "icao": "S85",
-    "lat": 48.153333,
-    "lon": -104.503889,
+    "lat": 48.153570785,
+    "lon": -104.50403471999999,
     "communications": [
       {
         "type": 51,
@@ -21,73 +71,15 @@
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": 48.153333,
-        "lonStart": -104.511667,
-        "latEnd": 48.153333,
-        "lonEnd": -104.496111,
+        "latStart": 48.15356345,
+        "lonStart": -104.51181143,
+        "latEnd": 48.15357812,
+        "lonEnd": -104.49625801,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 1712
-  },
-  {
-    "type": 1,
-    "icao": "KPWD",
-    "lat": 48.78943533333333,
-    "lon": -104.52601216666666,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 2250,
-    "tower": false,
-    "name": "SHER WOOD",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 48.792222,
-        "lonStart": -104.529167,
-        "latEnd": 48.785044,
-        "lonEnd": -104.517181,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 48.792719,
-        "lonStart": -104.528817,
-        "latEnd": 48.793194,
-        "lonEnd": -104.516708,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 25.3,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 48.78945,
-        "lonStart": -104.5321,
-        "latEnd": 48.783983,
-        "lonEnd": -104.5321,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 22219
+    "id": 4520
   },
   {
     "type": 1,
@@ -126,6 +118,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 24195
+    "id": 8768
   }
 ]

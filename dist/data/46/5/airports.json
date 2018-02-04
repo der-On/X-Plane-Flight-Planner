@@ -1,61 +1,42 @@
 [
   {
     "type": 1,
-    "icao": "LFLK",
-    "lat": 46.278457,
-    "lon": 5.666449,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12350,
-        "name": "OYONNAX TWR"
-      }
-    ],
-    "elevation": 1753,
+    "icao": "LFHN",
+    "lat": 46.123497439999994,
+    "lon": 5.804810945,
+    "communications": [],
+    "elevation": 1624,
     "tower": true,
-    "name": "Arbent",
+    "name": "Vouvray",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 20,
         "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 46.275326,
-        "lonStart": 5.663066,
-        "latEnd": 46.281588,
-        "lonEnd": 5.669832,
+        "numberStart": "01L",
+        "numberEnd": "19R",
+        "latStart": 46.12213791,
+        "lonStart": 5.80438965,
+        "latEnd": 46.1252695,
+        "lonEnd": 5.80487685,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 18,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 46.12029148,
+        "lonStart": 5.80455437,
+        "latEnd": 46.12629087,
+        "lonEnd": 5.80542291,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 1145
-  },
-  {
-    "type": 1,
-    "icao": "LFGD",
-    "lat": 46.92,
-    "lon": 5.763031,
-    "communications": [],
-    "elevation": 875,
-    "tower": false,
-    "name": "Arbois",
-    "runways": [
-      {
-        "type": 100,
-        "width": 79.86,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 46.92317078,
-        "lonStart": 5.75913565,
-        "latEnd": 46.91682922,
-        "lonEnd": 5.76692635,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 1147
+    "id": 3602
   },
   {
     "type": 1,
@@ -125,33 +106,33 @@
         "length": 16
       }
     ],
-    "id": 3057
+    "id": 3604
   },
   {
     "type": 1,
-    "icao": "LFGX",
-    "lat": 46.764444,
-    "lon": 5.820833,
+    "icao": "LFGD",
+    "lat": 46.92,
+    "lon": 5.763031,
     "communications": [],
-    "elevation": 1745,
+    "elevation": 875,
     "tower": false,
-    "name": "Champagnole Crotenay",
+    "name": "Arbois",
     "runways": [
       {
         "type": 100,
         "width": 79.86,
         "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 46.76089988,
-        "lonStart": 5.8199207,
-        "latEnd": 46.76798812,
-        "lonEnd": 5.8217453,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 46.92317078,
+        "lonStart": 5.75913565,
+        "latEnd": 46.91682922,
+        "lonEnd": 5.76692635,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 4776
+    "id": 20284
   },
   {
     "type": 1,
@@ -177,7 +158,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 15489
+    "id": 20291
+  },
+  {
+    "type": 1,
+    "icao": "LFGX",
+    "lat": 46.764444,
+    "lon": 5.820833,
+    "communications": [],
+    "elevation": 1745,
+    "tower": false,
+    "name": "Champagnole Crotenay",
+    "runways": [
+      {
+        "type": 100,
+        "width": 79.86,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 46.76089988,
+        "lonStart": 5.8199207,
+        "latEnd": 46.76798812,
+        "lonEnd": 5.8217453,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20303
   },
   {
     "type": 1,
@@ -203,45 +210,38 @@
         "surfacetype": 3
       }
     ],
-    "id": 22692
+    "id": 20355
   },
   {
     "type": 1,
-    "icao": "LFHN",
-    "lat": 46.123497439999994,
-    "lon": 5.804810945,
-    "communications": [],
-    "elevation": 1624,
+    "icao": "LFLK",
+    "lat": 46.278457,
+    "lon": 5.666449,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12350,
+        "name": "OYONNAX TWR"
+      }
+    ],
+    "elevation": 1753,
     "tower": true,
-    "name": "Vouvray",
+    "name": "Arbent",
     "runways": [
       {
         "type": 100,
-        "width": 20,
+        "width": 29.87,
         "surfaceType": null,
-        "numberStart": "01L",
-        "numberEnd": "19R",
-        "latStart": 46.12213791,
-        "lonStart": 5.80438965,
-        "latEnd": 46.1252695,
-        "lonEnd": 5.80487685,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 18,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 46.12029148,
-        "lonStart": 5.80455437,
-        "latEnd": 46.12629087,
-        "lonEnd": 5.80542291,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 46.275326,
+        "lonStart": 5.663066,
+        "latEnd": 46.281588,
+        "lonEnd": 5.669832,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 26410
+    "id": 20362
   }
 ]

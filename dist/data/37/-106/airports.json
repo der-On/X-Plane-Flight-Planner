@@ -1,6 +1,43 @@
 [
   {
     "type": 1,
+    "icao": "KALS",
+    "lat": 37.43511518,
+    "lon": -105.867883945,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13517,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 7539,
+    "tower": false,
+    "name": "SAN LUIS VALLEY RGNL BERGMAN FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 37.425183,
+        "lonStart": -105.875607,
+        "latEnd": 37.44504736,
+        "lonEnd": -105.86016089,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2342
+  },
+  {
+    "type": 1,
     "icao": "05V",
     "lat": 37.41111916,
     "lon": -105.55168001,
@@ -23,7 +60,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 2821
+    "id": 8940
   },
   {
     "type": 1,
@@ -55,7 +92,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 4258
+    "id": 9919
   },
   {
     "type": 1,
@@ -94,43 +131,6 @@
         "surfacetype": 4
       }
     ],
-    "id": 10571
-  },
-  {
-    "type": 1,
-    "icao": "KALS",
-    "lat": 37.43511518,
-    "lon": -105.867883945,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13517,
-        "name": "ASOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 7539,
-    "tower": false,
-    "name": "SAN LUIS VALLEY RGNL BERGMAN FLD",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 37.425183,
-        "lonStart": -105.875607,
-        "latEnd": 37.44504736,
-        "lonEnd": -105.86016089,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 21988
+    "id": 15522
   }
 ]

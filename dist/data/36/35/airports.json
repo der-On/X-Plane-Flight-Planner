@@ -2,14 +2,9 @@
   {
     "type": 1,
     "icao": "LTAF",
-    "lat": 36.982141999999996,
-    "lon": 35.280394,
+    "lat": 36.981881476666665,
+    "lon": 35.28437667,
     "communications": [
-      {
-        "type": 54,
-        "frequency": 11805,
-        "name": "TWR"
-      },
       {
         "type": 54,
         "frequency": 12110,
@@ -18,32 +13,39 @@
       {
         "type": 55,
         "frequency": 12650,
-        "name": "INCIRLIK APP"
-      },
-      {
-        "type": 56,
-        "frequency": 12650,
-        "name": "INCIRLIK DEP"
+        "name": "APP"
       }
     ],
-    "elevation": 64,
+    "elevation": 62,
     "tower": true,
-    "name": "ADANA",
+    "name": "Adana",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 44.81,
         "surfaceType": null,
         "numberStart": "05",
         "numberEnd": "23",
-        "latStart": 36.974817,
-        "lonStart": 35.268019,
-        "latEnd": 36.989467,
-        "lonEnd": 35.292769,
+        "latStart": 36.97481778,
+        "lonStart": 35.26802063,
+        "latEnd": 36.98946622,
+        "lonEnd": 35.29276937,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 25,
+        "surfaceType": 2,
+        "numberStart": "H98",
+        "numberEnd": null,
+        "latStart": 36.98136043,
+        "lonStart": 35.29234001,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 25
       }
     ],
-    "id": 68
+    "id": 3990
   }
 ]

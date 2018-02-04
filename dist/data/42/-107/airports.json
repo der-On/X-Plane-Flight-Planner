@@ -23,7 +23,135 @@
         "surfacetype": 3
       }
     ],
-    "id": 985
+    "id": 407
+  },
+  {
+    "type": 1,
+    "icao": "KCPR",
+    "lat": 42.9079681225,
+    "lon": -106.4640789475,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12615,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "CASPER GND/CLNC DEL"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "CASPER TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11900,
+        "name": "CASPER APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12065,
+        "name": "CASPER APP/DEP"
+      }
+    ],
+    "elevation": 5347,
+    "tower": true,
+    "name": "NATRONA CO INTL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 42.89332477,
+        "lonStart": -106.47525,
+        "latEnd": 42.91348123,
+        "lonEnd": -106.44894958,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 42.90844783,
+        "lonStart": -106.48199548,
+        "latEnd": 42.90891967,
+        "lonEnd": -106.44949908,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 42.9187668,
+        "lonStart": -106.47019684,
+        "latEnd": 42.89821708,
+        "lonEnd": -106.46968917,
+        "length": 0,
+        "surfacetype": 5
+      },
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 42.91922879,
+        "lonStart": -106.46974507,
+        "latEnd": 42.90335881,
+        "lonEnd": -106.44730636,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 2518
+  },
+  {
+    "type": 1,
+    "icao": "KHAD",
+    "lat": 42.923615,
+    "lon": -106.309925885,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "Harford CTAF"
+      }
+    ],
+    "elevation": 5370,
+    "tower": false,
+    "name": "Harford Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.92,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 42.92310971,
+        "lonStart": -106.31702908,
+        "latEnd": 42.92412029,
+        "lonEnd": -106.30282269,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 2747
   },
   {
     "type": 1,
@@ -88,152 +216,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 7120
-  },
-  {
-    "type": 1,
-    "icao": "KHAD",
-    "lat": 42.923599955,
-    "lon": -106.309981395,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "Harford CTAF"
-      }
-    ],
-    "elevation": 5370,
-    "tower": false,
-    "name": "Harford Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.92,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 42.92312024,
-        "lonStart": -106.31702992,
-        "latEnd": 42.92407967,
-        "lonEnd": -106.30293287,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 11444
-  },
-  {
-    "type": 1,
-    "icao": "KCPR",
-    "lat": 42.907594787777775,
-    "lon": -106.46464279,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12615,
-        "name": "ATIS"
-      },
-      {
-        "type": 51,
-        "frequency": 11830,
-        "name": "CTAF"
-      },
-      {
-        "type": 51,
-        "frequency": 12295,
-        "name": "UNICOM"
-      },
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "CASPER GND/CLNC DEL"
-      },
-      {
-        "type": 54,
-        "frequency": 11830,
-        "name": "CASPER TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11900,
-        "name": "CASPER APP/DEP"
-      },
-      {
-        "type": 55,
-        "frequency": 12065,
-        "name": "CASPER APP/DEP"
-      }
-    ],
-    "elevation": 5347,
-    "tower": true,
-    "name": "NATRONA CO INTL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 46,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 42.89339959,
-        "lonStart": -106.47503769,
-        "latEnd": 42.91349515,
-        "lonEnd": -106.44872929,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 46,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 42.90848736,
-        "lonStart": -106.48189876,
-        "latEnd": 42.90894673,
-        "lonEnd": -106.44952983,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 18.08,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 42.91927,
-        "lonStart": -106.46949565,
-        "latEnd": 42.90810079,
-        "lonEnd": -106.45369772,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 17.74,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 42.91878221,
-        "lonStart": -106.46996315,
-        "latEnd": 42.89903103,
-        "lonEnd": -106.46945949,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 7,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 42.89884023,
-        "lonStart": -106.46397353,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 7
-      }
-    ],
-    "id": 17855
+    "id": 32226
   },
   {
     "type": 17,
@@ -258,7 +241,7 @@
         "length": 18.3
       }
     ],
-    "id": 33413
+    "id": 32247
   },
   {
     "type": 17,
@@ -283,6 +266,6 @@
         "length": 18.3
       }
     ],
-    "id": 33917
+    "id": 32252
   }
 ]

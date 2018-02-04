@@ -1,9 +1,41 @@
 [
   {
     "type": 1,
+    "icao": "0Q5",
+    "lat": 40.02816038,
+    "lon": -124.07433090999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 67,
+    "tower": false,
+    "name": "Shelter Cove",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 40.03171639,
+        "lonStart": -124.07825442,
+        "latEnd": 40.02460437,
+        "lonEnd": -124.0704074,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22
+  },
+  {
+    "type": 1,
     "icao": "KACV",
-    "lat": 40.978077,
-    "lon": -124.10863849999998,
+    "lat": 40.977982515,
+    "lon": -124.1085761225,
     "communications": [
       {
         "type": 50,
@@ -26,8 +58,8 @@
         "surfaceType": null,
         "numberStart": "14",
         "numberEnd": "32",
-        "latStart": 40.98565636,
-        "lonStart": -124.11337271,
+        "latStart": 40.98527842,
+        "lonStart": -124.1131232,
         "latEnd": 40.97101564,
         "lonEnd": -124.10342329,
         "length": 0,
@@ -47,17 +79,17 @@
         "surfacetype": 1
       }
     ],
-    "id": 1152
+    "id": 2319
   },
   {
     "type": 1,
     "icao": "O33",
-    "lat": 40.78096,
-    "lon": -124.212288,
+    "lat": 40.780935385,
+    "lon": -124.21216207500001,
     "communications": [],
     "elevation": 20,
     "tower": false,
-    "name": "Eureka Municipal",
+    "name": "Samoa Field",
     "runways": [
       {
         "type": 100,
@@ -65,15 +97,15 @@
         "surfaceType": null,
         "numberStart": "16",
         "numberEnd": "34",
-        "latStart": 40.7844397,
-        "lonStart": -124.21396059,
-        "latEnd": 40.7774803,
-        "lonEnd": -124.21061541,
+        "latStart": 40.78463822,
+        "lonStart": -124.2121194,
+        "latEnd": 40.77723255,
+        "lonEnd": -124.21220475,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 7347
+    "id": 4298
   },
   {
     "type": 1,
@@ -100,8 +132,8 @@
         "type": 100,
         "width": 22.86,
         "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
+        "numberStart": "12",
+        "numberEnd": "30",
         "latStart": 40.806286,
         "lonStart": -124.116653,
         "latEnd": 40.800495,
@@ -123,7 +155,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 17748
+    "id": 19085
   },
   {
     "type": 1,
@@ -155,38 +187,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 21670
-  },
-  {
-    "type": 1,
-    "icao": "0Q5",
-    "lat": 40.028138999999996,
-    "lon": -124.074354,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 69,
-    "tower": false,
-    "name": "Shelter Cove",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 40.03166495,
-        "lonStart": -124.07830071,
-        "latEnd": 40.02461305,
-        "lonEnd": -124.07040729,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 23391
+    "id": 19156
   }
 ]

@@ -1,6 +1,32 @@
 [
   {
     "type": 1,
+    "icao": "EKLS",
+    "lat": 57.277227999999994,
+    "lon": 11.000085,
+    "communications": [],
+    "elevation": 24,
+    "tower": true,
+    "name": "Laeso",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 57.27547513,
+        "lonStart": 10.99311215,
+        "latEnd": 57.27898087,
+        "lonEnd": 11.00705785,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1702
+  },
+  {
+    "type": 1,
     "icao": "ESGP",
     "lat": 57.77788386500001,
     "lon": 11.876640233333333,
@@ -76,39 +102,7 @@
         "length": 75
       }
     ],
-    "id": 10643
-  },
-  {
-    "type": 1,
-    "icao": "EKLS",
-    "lat": 57.277227999999994,
-    "lon": 11.000085,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12497,
-        "name": "COPPENHAGEN INFO"
-      }
-    ],
-    "elevation": 25,
-    "tower": true,
-    "name": "Laeso",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 57.27547513,
-        "lonStart": 10.99311215,
-        "latEnd": 57.27898087,
-        "lonEnd": 11.00705785,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 14770
+    "id": 1905
   },
   {
     "type": 1,
@@ -124,7 +118,7 @@
         "type": 102,
         "width": 32.7,
         "surfaceType": 15,
-        "numberStart": "H162",
+        "numberStart": "H1",
         "numberEnd": null,
         "latStart": 57.68361013,
         "lonStart": 11.95666805,
@@ -133,6 +127,6 @@
         "length": 27.6
       }
     ],
-    "id": 22679
+    "id": 1922
   }
 ]

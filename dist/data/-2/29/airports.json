@@ -1,6 +1,53 @@
 [
   {
     "type": 1,
+    "icao": "FZNA",
+    "lat": -1.6681404450000001,
+    "lon": 29.238166665,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12190,
+        "name": "UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12450,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11870,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12650,
+        "name": "APP"
+      }
+    ],
+    "elevation": 5089,
+    "tower": true,
+    "name": "GOMA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -1.65648889,
+        "lonStart": 29.23698333,
+        "latEnd": -1.679792,
+        "lonEnd": 29.23935,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17639
+  },
+  {
+    "type": 1,
     "icao": "HRYG",
     "lat": -1.677203,
     "lon": 29.258875,
@@ -34,54 +81,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 10012
-  },
-  {
-    "type": 1,
-    "icao": "FZNA",
-    "lat": -1.6708155,
-    "lon": 29.2384625,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12190,
-        "name": "UNICOM"
-      },
-      {
-        "type": 53,
-        "frequency": 12450,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11870,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12650,
-        "name": "APP"
-      }
-    ],
-    "elevation": 5089,
-    "tower": true,
-    "name": "GOMA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": -1.661839,
-        "lonStart": 29.237575,
-        "latEnd": -1.679792,
-        "lonEnd": 29.23935,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 10061
+    "id": 18041
   },
   {
     "type": 1,
@@ -107,6 +107,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 13941
+    "id": 18065
   }
 ]

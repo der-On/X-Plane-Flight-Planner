@@ -49,7 +49,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 2680
+    "id": 1796
   },
   {
     "type": 1,
@@ -75,7 +75,52 @@
         "surfacetype": 1
       }
     ],
-    "id": 2681
+    "id": 1824
+  },
+  {
+    "type": 1,
+    "icao": "EPZR",
+    "lat": 49.770702395,
+    "lon": 19.2172713725,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12280,
+        "name": "RADIO"
+      }
+    ],
+    "elevation": 1289,
+    "tower": true,
+    "name": "Zar",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 49.77042768,
+        "lonStart": 19.214916,
+        "latEnd": 49.77091739,
+        "lonEnd": 19.21924231,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 75,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 49.76955798,
+        "lonStart": 19.21544403,
+        "latEnd": 49.77190653,
+        "lonEnd": 19.21948315,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1863
   },
   {
     "type": 1,
@@ -131,33 +176,7 @@
         "length": 21.3
       }
     ],
-    "id": 12921
-  },
-  {
-    "type": 1,
-    "icao": "LZ01",
-    "lat": 49.09607231,
-    "lon": 19.734459155,
-    "communications": [],
-    "elevation": 2581,
-    "tower": false,
-    "name": "Liptovsky Ondrey",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.44,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 49.09730736,
-        "lonStart": 19.73177578,
-        "latEnd": 49.09483726,
-        "lonEnd": 19.73714253,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 15322
+    "id": 4051
   },
   {
     "type": 1,
@@ -202,45 +221,32 @@
         "surfacetype": 3
       }
     ],
-    "id": 21872
+    "id": 4064
   },
   {
     "type": 1,
-    "icao": "EPZR",
-    "lat": 49.77081136,
-    "lon": 19.2178333625,
+    "icao": "LZ01",
+    "lat": 49.09607231,
+    "lon": 19.734459155,
     "communications": [],
-    "elevation": 1289,
-    "tower": true,
-    "name": "Zar",
+    "elevation": 2581,
+    "tower": false,
+    "name": "Liptovsky Ondrey",
     "runways": [
       {
         "type": 100,
-        "width": 47,
+        "width": 24.44,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 49.77064833,
-        "lonStart": 19.21607623,
-        "latEnd": 49.7711326,
-        "lonEnd": 19.22033004,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 49.09730736,
+        "lonStart": 19.73177578,
+        "latEnd": 49.09483726,
+        "lonEnd": 19.73714253,
         "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 72.68,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 49.76955798,
-        "lonStart": 19.21544403,
-        "latEnd": 49.77190653,
-        "lonEnd": 19.21948315,
-        "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       }
     ],
-    "id": 27876
+    "id": 20948
   }
 ]

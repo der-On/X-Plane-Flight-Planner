@@ -1,6 +1,156 @@
 [
   {
     "type": 1,
+    "icao": "LYVR",
+    "lat": 45.14838331666667,
+    "lon": 21.308922948333333,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12350,
+        "name": "INFO"
+      },
+      {
+        "type": 54,
+        "frequency": 11860,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12505,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 11860,
+        "name": "APP"
+      }
+    ],
+    "elevation": 274,
+    "tower": true,
+    "name": "VRSAC",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.95,
+        "surfaceType": null,
+        "numberStart": "01R",
+        "numberEnd": "19L",
+        "latStart": 45.14317224,
+        "lonStart": 21.30850546,
+        "latEnd": 45.15197824,
+        "lonEnd": 21.31117146,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "01L",
+        "numberEnd": "19R",
+        "latStart": 45.14477696,
+        "lonStart": 21.30789072,
+        "latEnd": 45.15211096,
+        "lonEnd": 21.31014072,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 33.53,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 45.15152261,
+        "lonStart": 21.30681266,
+        "latEnd": 45.14673889,
+        "lonEnd": 21.30901667,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 4045
+  },
+  {
+    "type": 1,
+    "icao": "XLRBUZI",
+    "lat": 45.6518777625,
+    "lon": 21.5763093425,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12890,
+        "name": "ATC"
+      }
+    ],
+    "elevation": 400,
+    "tower": true,
+    "name": "BUZIAS AERO WEST",
+    "runways": [
+      {
+        "type": 100,
+        "width": 25,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 45.65408004,
+        "lonStart": 21.57438485,
+        "latEnd": 45.65408346,
+        "lonEnd": 21.58339715,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 25,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 45.65313544,
+        "lonStart": 21.5723153,
+        "latEnd": 45.64621211,
+        "lonEnd": 21.57514007,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5510
+  },
+  {
+    "type": 1,
+    "icao": "XLRCIOC",
+    "lat": 45.785940249999996,
+    "lon": 21.188475125,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12890,
+        "name": "ATC"
+      }
+    ],
+    "elevation": 280,
+    "tower": true,
+    "name": "CIOCA UTILITAR TIMISOARA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 45.78395653,
+        "lonStart": 21.18496668,
+        "latEnd": 45.78792397,
+        "lonEnd": 21.19198357,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5511
+  },
+  {
+    "type": 1,
     "icao": "LRTR",
     "lat": 45.809833499999996,
     "lon": 21.337872500000003,
@@ -39,79 +189,6 @@
         "surfacetype": 2
       }
     ],
-    "id": 24827
-  },
-  {
-    "type": 1,
-    "icao": "LYVR",
-    "lat": 45.14786566666666,
-    "lon": 21.308824166666668,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12350,
-        "name": "INFO"
-      },
-      {
-        "type": 54,
-        "frequency": 11860,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12505,
-        "name": "APP"
-      },
-      {
-        "type": 55,
-        "frequency": 11860,
-        "name": "APP"
-      }
-    ],
-    "elevation": 275,
-    "tower": true,
-    "name": "VRSAC",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.95,
-        "surfaceType": null,
-        "numberStart": "01R",
-        "numberEnd": "19L",
-        "latStart": 45.142472,
-        "lonStart": 21.308556,
-        "latEnd": 45.151278,
-        "lonEnd": 21.311222,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 70.1,
-        "surfaceType": null,
-        "numberStart": "01L",
-        "numberEnd": "19R",
-        "latStart": 45.144222,
-        "lonStart": 21.307667,
-        "latEnd": 45.151556,
-        "lonEnd": 21.309917,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 33.53,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 45.150833,
-        "lonStart": 21.306833,
-        "latEnd": 45.146833,
-        "lonEnd": 21.30875,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 26143
+    "id": 20789
   }
 ]

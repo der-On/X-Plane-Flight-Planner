@@ -1,289 +1,35 @@
 [
   {
     "type": 1,
-    "icao": "SJER",
-    "lat": -17.3188885,
-    "lon": -50.3202775,
-    "communications": [],
-    "elevation": 1841,
+    "icao": "SWLC",
+    "lat": -17.833209500000002,
+    "lon": -50.95538064,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12280,
+        "name": "UNICOM"
+      }
+    ],
+    "elevation": 2463,
     "tower": false,
-    "name": "FAZENDA CANADA",
+    "name": "Rio Verde - Leite de Castro",
     "runways": [
       {
         "type": 100,
-        "width": 17.98,
+        "width": 31,
         "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": -17.316548,
-        "lonStart": -50.324301,
-        "latEnd": -17.321229,
-        "lonEnd": -50.316254,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -17.83974319,
+        "lonStart": -50.95728663,
+        "latEnd": -17.82667581,
+        "lonEnd": -50.95347465,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 7456
-  },
-  {
-    "type": 1,
-    "icao": "SSTP",
-    "lat": -17.97083333,
-    "lon": -50.32055556,
-    "communications": [],
-    "elevation": 1591,
-    "tower": false,
-    "name": "Fazenda Baessa",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.99,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": -17.96652767,
-        "lonStart": -50.32409856,
-        "latEnd": -17.97513899,
-        "lonEnd": -50.31701256,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 7949
-  },
-  {
-    "type": 1,
-    "icao": "SJRR",
-    "lat": -17.054166665,
-    "lon": -50.92833333,
-    "communications": [],
-    "elevation": 2461,
-    "tower": false,
-    "name": "Fazenda Barreiro",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": -17.05776856,
-        "lonStart": -50.92838174,
-        "latEnd": -17.05056477,
-        "lonEnd": -50.92828492,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 7978
-  },
-  {
-    "type": 1,
-    "icao": "SIQM",
-    "lat": -17.900277775,
-    "lon": -50.12361111,
-    "communications": [],
-    "elevation": 1693,
-    "tower": false,
-    "name": "Fazenda Bom Jardim",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": -17.90379765,
-        "lonStart": -50.12301766,
-        "latEnd": -17.8967579,
-        "lonEnd": -50.12420456,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 8025
-  },
-  {
-    "type": 1,
-    "icao": "SWZH",
-    "lat": -17.575000000000003,
-    "lon": -50.175,
-    "communications": [],
-    "elevation": 1918,
-    "tower": false,
-    "name": "Fazenda Cacapava",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": -17.57682961,
-        "lonStart": -50.17822332,
-        "latEnd": -17.57317039,
-        "lonEnd": -50.17177668,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 8054
-  },
-  {
-    "type": 1,
-    "icao": "SWZD",
-    "lat": -17.255833335,
-    "lon": -50.14222222,
-    "communications": [],
-    "elevation": 1699,
-    "tower": false,
-    "name": "Fazenda Denusa Destilaria Nova Uniao",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.99,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": -17.25988449,
-        "lonStart": -50.14224838,
-        "latEnd": -17.25178218,
-        "lonEnd": -50.14219606,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 8194
-  },
-  {
-    "type": 1,
-    "icao": "SWZN",
-    "lat": -17.322222224999997,
-    "lon": -50.425833335,
-    "communications": [],
-    "elevation": 2210,
-    "tower": false,
-    "name": "Fazenda Frances",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": -17.32512293,
-        "lonStart": -50.42637252,
-        "latEnd": -17.31932152,
-        "lonEnd": -50.42529415,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 8286
-  },
-  {
-    "type": 1,
-    "icao": "SITH",
-    "lat": -17.67361111,
-    "lon": -50.38805556,
-    "communications": [],
-    "elevation": 1644,
-    "tower": false,
-    "name": "Fazenda Itaipu",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": -17.67016056,
-        "lonStart": -50.38927408,
-        "latEnd": -17.67706166,
-        "lonEnd": -50.38683704,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 8364
-  },
-  {
-    "type": 1,
-    "icao": "SWGT",
-    "lat": -17.188055555,
-    "lon": -50.21333333,
-    "communications": [],
-    "elevation": 1844,
-    "tower": false,
-    "name": "Fazenda Nova",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.9,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": -17.19333843,
-        "lonStart": -50.2124398,
-        "latEnd": -17.18277268,
-        "lonEnd": -50.21422686,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 8551
-  },
-  {
-    "type": 1,
-    "icao": "SSKR",
-    "lat": -17.169444445,
-    "lon": -50.82444444,
-    "communications": [],
-    "elevation": 2306,
-    "tower": false,
-    "name": "Fazenda Primavera",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.9,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": -17.17260691,
-        "lonStart": -50.82716747,
-        "latEnd": -17.16628198,
-        "lonEnd": -50.82172141,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 8667
-  },
-  {
-    "type": 1,
-    "icao": "SITU",
-    "lat": -17.94,
-    "lon": -50.34222222,
-    "communications": [],
-    "elevation": 1526,
-    "tower": false,
-    "name": "Fazenda Santa Genoveva",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": -17.93756872,
-        "lonStart": -50.34506386,
-        "latEnd": -17.94243128,
-        "lonEnd": -50.33938058,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 8815
+    "id": 4979
   },
   {
     "type": 1,
@@ -309,33 +55,33 @@
         "surfacetype": 4
       }
     ],
-    "id": 8968
+    "id": 26459
   },
   {
     "type": 1,
-    "icao": "SJCP",
-    "lat": -17.072777780000003,
-    "lon": -50.8475,
+    "icao": "SIQM",
+    "lat": -17.900277775,
+    "lon": -50.12361111,
     "communications": [],
-    "elevation": 2497,
+    "elevation": 1693,
     "tower": false,
-    "name": "Fazenda Sao Roberto",
+    "name": "Fazenda Bom Jardim",
     "runways": [
       {
         "type": 100,
-        "width": 24.99,
+        "width": 29.87,
         "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": -17.0763411,
-        "lonStart": -50.84961827,
-        "latEnd": -17.06921446,
-        "lonEnd": -50.84538173,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": -17.90379765,
+        "lonStart": -50.12301766,
+        "latEnd": -17.8967579,
+        "lonEnd": -50.12420456,
         "length": 0,
         "surfacetype": 5
       }
     ],
-    "id": 9013
+    "id": 26479
   },
   {
     "type": 1,
@@ -361,59 +107,215 @@
         "surfacetype": 4
       }
     ],
-    "id": 9049
+    "id": 26526
   },
   {
     "type": 1,
-    "icao": "SWIO",
-    "lat": -17.62138889,
-    "lon": -50.14166667,
+    "icao": "SITH",
+    "lat": -17.67361111,
+    "lon": -50.38805556,
     "communications": [],
-    "elevation": 1562,
+    "elevation": 1644,
     "tower": false,
-    "name": "Fazenda Triangulo",
+    "name": "Fazenda Itaipu",
     "runways": [
       {
         "type": 100,
-        "width": 22.86,
+        "width": 20.12,
         "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": -17.6273276,
-        "lonStart": -50.14275877,
-        "latEnd": -17.61545018,
-        "lonEnd": -50.14057457,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -17.67016056,
+        "lonStart": -50.38927408,
+        "latEnd": -17.67706166,
+        "lonEnd": -50.38683704,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 4
       }
     ],
-    "id": 9127
+    "id": 26551
   },
   {
     "type": 1,
-    "icao": "SWLC",
-    "lat": -17.8331985,
-    "lon": -50.955318500000004,
+    "icao": "SITU",
+    "lat": -17.94,
+    "lon": -50.34222222,
     "communications": [],
-    "elevation": 2464,
+    "elevation": 1526,
     "tower": false,
-    "name": "GENERAL LEITE DE CASTRO",
+    "name": "Fazenda Santa Genoveva",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 20.12,
         "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": -17.839736,
-        "lonStart": -50.957231,
-        "latEnd": -17.826661,
-        "lonEnd": -50.953406,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -17.93756872,
+        "lonStart": -50.34506386,
+        "latEnd": -17.94243128,
+        "lonEnd": -50.33938058,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 26563
+  },
+  {
+    "type": 1,
+    "icao": "SJCP",
+    "lat": -17.072777780000003,
+    "lon": -50.8475,
+    "communications": [],
+    "elevation": 2497,
+    "tower": false,
+    "name": "Fazenda Sao Roberto",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -17.0763411,
+        "lonStart": -50.84961827,
+        "latEnd": -17.06921446,
+        "lonEnd": -50.84538173,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 26782
+  },
+  {
+    "type": 1,
+    "icao": "SJER",
+    "lat": -17.3188885,
+    "lon": -50.3202775,
+    "communications": [],
+    "elevation": 1841,
+    "tower": false,
+    "name": "FAZENDA CANADA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -17.316548,
+        "lonStart": -50.324301,
+        "latEnd": -17.321229,
+        "lonEnd": -50.316254,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 9938
+    "id": 26834
+  },
+  {
+    "type": 1,
+    "icao": "SJRR",
+    "lat": -17.054166665,
+    "lon": -50.92833333,
+    "communications": [],
+    "elevation": 2461,
+    "tower": false,
+    "name": "Fazenda Barreiro",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": -17.05776856,
+        "lonStart": -50.92838174,
+        "latEnd": -17.05056477,
+        "lonEnd": -50.92828492,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 27166
+  },
+  {
+    "type": 1,
+    "icao": "SSKR",
+    "lat": -17.169444445,
+    "lon": -50.82444444,
+    "communications": [],
+    "elevation": 2306,
+    "tower": false,
+    "name": "Fazenda Primavera",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.9,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -17.17260691,
+        "lonStart": -50.82716747,
+        "latEnd": -17.16628198,
+        "lonEnd": -50.82172141,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 28575
+  },
+  {
+    "type": 1,
+    "icao": "SSTP",
+    "lat": -17.97083333,
+    "lon": -50.32055556,
+    "communications": [],
+    "elevation": 1591,
+    "tower": false,
+    "name": "Fazenda Baessa",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -17.96652767,
+        "lonStart": -50.32409856,
+        "latEnd": -17.97513899,
+        "lonEnd": -50.31701256,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 28785
+  },
+  {
+    "type": 1,
+    "icao": "SWGT",
+    "lat": -17.188055555,
+    "lon": -50.21333333,
+    "communications": [],
+    "elevation": 1844,
+    "tower": false,
+    "name": "Fazenda Nova",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.9,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": -17.19333843,
+        "lonStart": -50.2124398,
+        "latEnd": -17.18277268,
+        "lonEnd": -50.21422686,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 29202
   },
   {
     "type": 1,
@@ -439,6 +341,110 @@
         "surfacetype": 1
       }
     ],
-    "id": 22898
+    "id": 29213
+  },
+  {
+    "type": 1,
+    "icao": "SWIO",
+    "lat": -17.62138889,
+    "lon": -50.14166667,
+    "communications": [],
+    "elevation": 1562,
+    "tower": false,
+    "name": "Fazenda Triangulo",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -17.6273276,
+        "lonStart": -50.14275877,
+        "latEnd": -17.61545018,
+        "lonEnd": -50.14057457,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 29244
+  },
+  {
+    "type": 1,
+    "icao": "SWZD",
+    "lat": -17.255833335,
+    "lon": -50.14222222,
+    "communications": [],
+    "elevation": 1699,
+    "tower": false,
+    "name": "Fazenda Denusa Destilaria Nova Uniao",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": -17.25988449,
+        "lonStart": -50.14224838,
+        "latEnd": -17.25178218,
+        "lonEnd": -50.14219606,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 29625
+  },
+  {
+    "type": 1,
+    "icao": "SWZH",
+    "lat": -17.575000000000003,
+    "lon": -50.175,
+    "communications": [],
+    "elevation": 1918,
+    "tower": false,
+    "name": "Fazenda Cacapava",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -17.57682961,
+        "lonStart": -50.17822332,
+        "latEnd": -17.57317039,
+        "lonEnd": -50.17177668,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 29629
+  },
+  {
+    "type": 1,
+    "icao": "SWZN",
+    "lat": -17.322222224999997,
+    "lon": -50.425833335,
+    "communications": [],
+    "elevation": 2210,
+    "tower": false,
+    "name": "Fazenda Frances",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -17.32512293,
+        "lonStart": -50.42637252,
+        "latEnd": -17.31932152,
+        "lonEnd": -50.42529415,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 29634
   }
 ]

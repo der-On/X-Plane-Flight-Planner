@@ -1,29 +1,55 @@
 [
   {
     "type": 1,
-    "icao": "WX74",
-    "lat": -4.072168425,
-    "lon": 136.714768165,
+    "icao": "WABD",
+    "lat": -4.006607915,
+    "lon": 136.03772548,
     "communications": [],
-    "elevation": 4794,
+    "elevation": 5112,
     "tower": false,
-    "name": "Duma (CAMA)",
+    "name": "Moanamani",
     "runways": [
       {
         "type": 100,
-        "width": 24.99,
+        "width": 20.12,
         "surfaceType": null,
-        "numberStart": "6",
-        "numberEnd": "24",
-        "latStart": -4.07295566,
-        "lonStart": 136.71340119,
-        "latEnd": -4.07138119,
-        "lonEnd": 136.71613514,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -4.01034013,
+        "lonStart": 136.03555669,
+        "latEnd": -4.0028757,
+        "lonEnd": 136.03989427,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       }
     ],
-    "id": 6543
+    "id": 31365
+  },
+  {
+    "type": 1,
+    "icao": "WABG",
+    "lat": -4.042516539999999,
+    "lon": 136.27630282500002,
+    "communications": [],
+    "elevation": 5611,
+    "tower": false,
+    "name": "Wagethe",
+    "runways": [
+      {
+        "type": 100,
+        "width": 8.53,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": -4.04552002,
+        "lonStart": 136.27584047,
+        "latEnd": -4.03951306,
+        "lonEnd": 136.27676518,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 31368
   },
   {
     "type": 1,
@@ -49,59 +75,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 14048
-  },
-  {
-    "type": 1,
-    "icao": "WABD",
-    "lat": -4.006607915,
-    "lon": 136.03772548,
-    "communications": [],
-    "elevation": 5112,
-    "tower": false,
-    "name": "Moanamani",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": -4.01034013,
-        "lonStart": 136.03555669,
-        "latEnd": -4.0028757,
-        "lonEnd": 136.03989427,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 17332
-  },
-  {
-    "type": 1,
-    "icao": "WT47",
-    "lat": -4.025169999999999,
-    "lon": 136.211906,
-    "communications": [],
-    "elevation": 5825,
-    "tower": false,
-    "name": "Tigi (CAMA)",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": -4.02626788,
-        "lonStart": 136.20999972,
-        "latEnd": -4.02407212,
-        "lonEnd": 136.21381228,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 25356
+    "id": 31373
   },
   {
     "type": 1,
@@ -181,32 +155,58 @@
         "length": 10.1
       }
     ],
-    "id": 25382
+    "id": 31375
   },
   {
     "type": 1,
-    "icao": "WABG",
-    "lat": -4.042516539999999,
-    "lon": 136.27630282500002,
+    "icao": "WT47",
+    "lat": -4.025169999999999,
+    "lon": 136.211906,
     "communications": [],
-    "elevation": 5611,
+    "elevation": 5825,
     "tower": false,
-    "name": "Wagethe",
+    "name": "Tigi (CAMA)",
     "runways": [
       {
         "type": 100,
-        "width": 8.53,
+        "width": 29.87,
         "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": -4.04552002,
-        "lonStart": 136.27584047,
-        "latEnd": -4.03951306,
-        "lonEnd": 136.27676518,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -4.02626788,
+        "lonStart": 136.20999972,
+        "latEnd": -4.02407212,
+        "lonEnd": 136.21381228,
         "length": 0,
-        "surfacetype": 4
+        "surfacetype": 3
       }
     ],
-    "id": 26794
+    "id": 31897
+  },
+  {
+    "type": 1,
+    "icao": "WX74",
+    "lat": -4.072168425,
+    "lon": 136.714768165,
+    "communications": [],
+    "elevation": 4794,
+    "tower": false,
+    "name": "Duma (CAMA)",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "6",
+        "numberEnd": "24",
+        "latStart": -4.07295566,
+        "lonStart": 136.71340119,
+        "latEnd": -4.07138119,
+        "lonEnd": 136.71613514,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 32159
   }
 ]

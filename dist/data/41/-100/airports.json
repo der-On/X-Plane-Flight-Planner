@@ -1,98 +1,29 @@
 [
   {
     "type": 1,
-    "icao": "KBBW",
-    "lat": 41.436477499999995,
-    "lon": -99.64222315,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12000,
-        "name": "ASOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 2546,
+    "icao": "1NE2",
+    "lat": 41.325938795,
+    "lon": -99.917418395,
+    "communications": [],
+    "elevation": 2700,
     "tower": false,
-    "name": "BROKEN BOW MUNI",
+    "name": "Witthuhn",
     "runways": [
       {
         "type": 100,
-        "width": 22.86,
+        "width": 29.87,
         "surfaceType": null,
         "numberStart": "14",
         "numberEnd": "32",
-        "latStart": 41.44139283,
-        "lonStart": -99.64622525,
-        "latEnd": 41.43156217,
-        "lonEnd": -99.63822105,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 1920
-  },
-  {
-    "type": 1,
-    "icao": "KBUB",
-    "lat": 41.77669075,
-    "lon": -99.149742065,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 2182,
-    "tower": false,
-    "name": "CRAM FLD",
-    "runways": [
-      {
-        "type": 100,
-        "width": 14.94,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 41.78080532,
-        "lonStart": -99.15185999,
-        "latEnd": 41.77257618,
-        "lonEnd": -99.14762414,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 4214
-  },
-  {
-    "type": 1,
-    "icao": "6NE9",
-    "lat": 41.268061939999996,
-    "lon": -99.8878975,
-    "communications": [],
-    "elevation": 2600,
-    "tower": false,
-    "name": "Hoesel",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 41.27117742,
-        "lonStart": -99.88957217,
-        "latEnd": 41.26494646,
-        "lonEnd": -99.88622283,
+        "latStart": 41.32826037,
+        "lonStart": -99.91943369,
+        "latEnd": 41.32361722,
+        "lonEnd": -99.9154031,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 11920
+    "id": 6616
   },
   {
     "type": 1,
@@ -118,7 +49,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 12239
+    "id": 7732
   },
   {
     "type": 1,
@@ -157,33 +88,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 16958
+    "id": 8262
   },
   {
     "type": 1,
-    "icao": "71NE",
-    "lat": 41.03474235,
-    "lon": -99.829821385,
+    "icao": "6NE9",
+    "lat": 41.268061939999996,
+    "lon": -99.8878975,
     "communications": [],
-    "elevation": 2615,
+    "elevation": 2600,
     "tower": false,
-    "name": "Neben",
+    "name": "Hoesel",
     "runways": [
       {
         "type": 100,
-        "width": 24.08,
+        "width": 15.24,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 41.0371527,
-        "lonStart": -99.82987177,
-        "latEnd": 41.032332,
-        "lonEnd": -99.829771,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 41.27117742,
+        "lonStart": -99.88957217,
+        "latEnd": 41.26494646,
+        "lonEnd": -99.88622283,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 18172
+    "id": 9292
   },
   {
     "type": 1,
@@ -215,7 +146,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 22081
+    "id": 10566
   },
   {
     "type": 1,
@@ -241,32 +172,101 @@
         "surfacetype": 3
       }
     ],
-    "id": 26433
+    "id": 13014
   },
   {
     "type": 1,
-    "icao": "1NE2",
-    "lat": 41.325938795,
-    "lon": -99.917418395,
+    "icao": "71NE",
+    "lat": 41.03474235,
+    "lon": -99.829821385,
     "communications": [],
-    "elevation": 2700,
+    "elevation": 2615,
     "tower": false,
-    "name": "Witthuhn",
+    "name": "Neben",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 24.08,
         "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 41.32826037,
-        "lonStart": -99.91943369,
-        "latEnd": 41.32361722,
-        "lonEnd": -99.9154031,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 41.0371527,
+        "lonStart": -99.82987177,
+        "latEnd": 41.032332,
+        "lonEnd": -99.829771,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 27478
+    "id": 13318
+  },
+  {
+    "type": 1,
+    "icao": "KBBW",
+    "lat": 41.436477499999995,
+    "lon": -99.64222315,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12000,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 2546,
+    "tower": false,
+    "name": "BROKEN BOW MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 41.44139283,
+        "lonStart": -99.64622525,
+        "latEnd": 41.43156217,
+        "lonEnd": -99.63822105,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 18849
+  },
+  {
+    "type": 1,
+    "icao": "KBUB",
+    "lat": 41.777574200000004,
+    "lon": -99.15019818,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 2182,
+    "tower": false,
+    "name": "CRAM FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 41.78257222,
+        "lonStart": -99.15277222,
+        "latEnd": 41.77257618,
+        "lonEnd": -99.14762414,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 18896
   }
 ]

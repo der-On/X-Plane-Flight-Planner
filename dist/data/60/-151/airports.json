@@ -1,6 +1,32 @@
 [
   {
     "type": 1,
+    "icao": "1AK4",
+    "lat": 60.524154440000004,
+    "lon": -150.75220917000001,
+    "communications": [],
+    "elevation": 200,
+    "tower": false,
+    "name": "Rotor Air",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 60.52435535,
+        "lonStart": -150.75804816,
+        "latEnd": 60.52395353,
+        "lonEnd": -150.74637018,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 6276
+  },
+  {
+    "type": 1,
     "icao": "7AK5",
     "lat": 60.50359666,
     "lon": -150.93555027999997,
@@ -23,7 +49,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 5942
+    "id": 9511
   },
   {
     "type": 1,
@@ -49,59 +75,32 @@
         "surfacetype": 4
       }
     ],
-    "id": 5978
+    "id": 9512
   },
   {
-    "type": 1,
-    "icao": "1AK4",
-    "lat": 60.524154440000004,
-    "lon": -150.75220917000001,
+    "type": 16,
+    "icao": "8AK4",
+    "lat": 60.534153610000004,
+    "lon": -150.85221362,
     "communications": [],
-    "elevation": 200,
+    "elevation": 245,
     "tower": false,
-    "name": "Rotor Air",
+    "name": "[S] Scout Lake",
     "runways": [
       {
-        "type": 100,
-        "width": 18.29,
+        "type": 101,
+        "width": 182.88,
         "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 60.52435535,
-        "lonStart": -150.75804816,
-        "latEnd": 60.52395353,
-        "lonEnd": -150.74637018,
-        "length": 0,
-        "surfacetype": 5
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 60.53366211,
+        "lonStart": -150.85481656,
+        "latEnd": 60.53464511,
+        "lonEnd": -150.84961068,
+        "length": 0
       }
     ],
-    "id": 21767
-  },
-  {
-    "type": 1,
-    "icao": "AK39",
-    "lat": 60.6971975,
-    "lon": -150.17994917,
-    "communications": [],
-    "elevation": 381,
-    "tower": false,
-    "name": "South Gasline",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 60.69477302,
-        "lonStart": -150.18490289,
-        "latEnd": 60.69962198,
-        "lonEnd": -150.17499545,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 23884
+    "id": 9985
   },
   {
     "type": 1,
@@ -127,7 +126,7 @@
         "surfacetype": 5
       }
     ],
-    "id": 27122
+    "id": 12239
   },
   {
     "type": 17,
@@ -164,7 +163,33 @@
         "length": 6.1
       }
     ],
-    "id": 32737
+    "id": 14444
+  },
+  {
+    "type": 1,
+    "icao": "AK39",
+    "lat": 60.6971975,
+    "lon": -150.17994917,
+    "communications": [],
+    "elevation": 381,
+    "tower": false,
+    "name": "South Gasline",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 60.69477302,
+        "lonStart": -150.18490289,
+        "latEnd": 60.69962198,
+        "lonEnd": -150.17499545,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 14452
   },
   {
     "type": 16,
@@ -189,31 +214,6 @@
         "length": 0
       }
     ],
-    "id": 34274
-  },
-  {
-    "type": 16,
-    "icao": "8AK4",
-    "lat": 60.534153610000004,
-    "lon": -150.85221362,
-    "communications": [],
-    "elevation": 245,
-    "tower": false,
-    "name": "[S] Scout Lake",
-    "runways": [
-      {
-        "type": 101,
-        "width": 182.88,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 60.53366211,
-        "lonStart": -150.85481656,
-        "latEnd": 60.53464511,
-        "lonEnd": -150.84961068,
-        "length": 0
-      }
-    ],
-    "id": 34434
+    "id": 20014
   }
 ]

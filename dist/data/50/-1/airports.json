@@ -1,38 +1,23 @@
 [
   {
     "type": 1,
-    "icao": "EGKC",
-    "lat": 50.80137096,
-    "lon": -0.65914399,
-    "communications": [],
-    "elevation": 2,
-    "tower": false,
-    "name": "Bognor Regis",
-    "runways": [
+    "icao": "EGHR",
+    "lat": 50.86024450699999,
+    "lon": -0.7581948959999999,
+    "communications": [
       {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "2",
-        "numberEnd": "20",
-        "latStart": 50.7991989,
-        "lonStart": -0.66177826,
-        "latEnd": 50.80354302,
-        "lonEnd": -0.65650972,
-        "length": 0,
-        "surfacetype": 1
+        "type": 54,
+        "frequency": 12245,
+        "name": "ATC Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12245,
+        "name": "ATC Approach"
       }
     ],
-    "id": 2925
-  },
-  {
-    "type": 1,
-    "icao": "EGHR",
-    "lat": 50.860262623,
-    "lon": -0.7581951339999999,
-    "communications": [],
     "elevation": 100,
-    "tower": false,
+    "tower": true,
     "name": "Chichester Goodwood",
     "runways": [
       {
@@ -89,40 +74,40 @@
       },
       {
         "type": 102,
-        "width": 29.9,
-        "surfaceType": 3,
+        "width": 10.5,
+        "surfaceType": 2,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 50.86036375,
-        "lonStart": -0.75628408,
+        "latStart": 50.86023999,
+        "lonStart": -0.75615988,
         "latEnd": null,
         "lonEnd": null,
-        "length": 29.9
+        "length": 10.2
       },
       {
         "type": 102,
-        "width": 29.9,
+        "width": 12.8,
         "surfaceType": 3,
         "numberStart": "H2",
         "numberEnd": null,
-        "latStart": 50.86049859,
-        "lonStart": -0.75584959,
+        "latStart": 50.86044119,
+        "lonStart": -0.75597141,
         "latEnd": null,
         "lonEnd": null,
-        "length": 29.9
+        "length": 13
       }
     ],
-    "id": 4901
+    "id": 1552
   },
   {
     "type": 1,
     "icao": "EGKA",
-    "lat": 50.83528090636364,
-    "lon": -0.29419628,
+    "lat": 50.835357679999994,
+    "lon": -0.29411963727272733,
     "communications": [
       {
         "type": 50,
-        "frequency": 12530,
+        "frequency": 13097,
         "name": "Shoreham Information"
       },
       {
@@ -152,9 +137,9 @@
         "numberStart": "02",
         "numberEnd": "20",
         "latStart": 50.83133847,
-        "lonStart": -0.29994016,
+        "lonStart": -0.29994017,
         "latEnd": 50.8400063,
-        "lonEnd": -0.29451592,
+        "lonEnd": -0.29451593,
         "length": 0,
         "surfacetype": 1
       },
@@ -164,23 +149,23 @@
         "surfaceType": null,
         "numberStart": "02R",
         "numberEnd": "20L",
-        "latStart": 50.8326973,
-        "lonStart": -0.29824914,
-        "latEnd": 50.83975808,
-        "lonEnd": -0.293836,
+        "latStart": 50.83389297,
+        "lonStart": -0.29754851,
+        "latEnd": 50.83892905,
+        "lonEnd": -0.29440217,
         "length": 0,
         "surfacetype": 3
       },
       {
         "type": 100,
-        "width": 49.99,
+        "width": 25,
         "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 50.832647,
-        "lonStart": -0.30007501,
-        "latEnd": 50.83617781,
-        "lonEnd": -0.28888292,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 50.83306633,
+        "lonStart": -0.29913849,
+        "latEnd": 50.83623635,
+        "lonEnd": -0.28911081,
         "length": 0,
         "surfacetype": 3
       },
@@ -234,7 +219,33 @@
         "length": 11.9
       }
     ],
-    "id": 23447
+    "id": 1556
+  },
+  {
+    "type": 1,
+    "icao": "EGKC",
+    "lat": 50.80137096,
+    "lon": -0.65914399,
+    "communications": [],
+    "elevation": 2,
+    "tower": false,
+    "name": "Bognor Regis",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "2",
+        "numberEnd": "20",
+        "latStart": 50.7991989,
+        "lonStart": -0.66177826,
+        "latEnd": 50.80354302,
+        "lonEnd": -0.65650972,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16333
   },
   {
     "type": 17,
@@ -273,6 +284,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 29970
+    "id": 16334
   }
 ]

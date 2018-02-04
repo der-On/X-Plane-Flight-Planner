@@ -1,90 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "K19",
-    "lat": 40.2619445,
-    "lon": -94.33985949999999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 886,
-    "tower": false,
-    "name": "ALBANY MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 40.2575,
-        "lonStart": -94.341111,
-        "latEnd": 40.266389,
-        "lonEnd": -94.338608,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 175
-  },
-  {
-    "type": 1,
-    "icao": "Y46",
-    "lat": 40.63776555,
-    "lon": -94.72941334000001,
-    "communications": [],
-    "elevation": 1201,
-    "tower": false,
-    "name": "Bedford Municipal",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 40.64146815,
-        "lonStart": -94.72898646,
-        "latEnd": 40.63406295,
-        "lonEnd": -94.72984022,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 2442
-  },
-  {
-    "type": 1,
-    "icao": "75K",
-    "lat": 40.27694554999999,
-    "lon": -94.00773000000001,
-    "communications": [],
-    "elevation": 1026,
-    "tower": false,
-    "name": "Bethany Memorial",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 40.27438726,
-        "lonStart": -94.00999179,
-        "latEnd": 40.27950384,
-        "lonEnd": -94.00546821,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 2634
-  },
-  {
-    "type": 1,
     "icao": "1IA0",
     "lat": 40.897208879999994,
     "lon": -94.79108528,
@@ -107,39 +23,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 3270
+    "id": 6418
   },
   {
     "type": 1,
-    "icao": "KCRZ",
-    "lat": 40.9941305,
-    "lon": -94.75502900000001,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 1273,
+    "icao": "1Y3",
+    "lat": 40.70554833,
+    "lon": -94.22384278,
+    "communications": [],
+    "elevation": 1265,
     "tower": false,
-    "name": "CORNING MUNI",
+    "name": "Judge Lewis Fld Mt Ayr Municipal",
     "runways": [
       {
         "type": 100,
-        "width": 15.24,
+        "width": 12.19,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 40.997814,
-        "lonStart": -94.754944,
-        "latEnd": 40.990447,
-        "lonEnd": -94.755114,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 40.70937389,
+        "lonStart": -94.22428429,
+        "latEnd": 40.70172277,
+        "lonEnd": -94.22340127,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 5
       }
     ],
-    "id": 4153
+    "id": 6846
   },
   {
     "type": 1,
@@ -165,7 +75,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 7753
+    "id": 7693
   },
   {
     "type": 1,
@@ -191,7 +101,32 @@
         "surfacetype": 3
       }
     ],
-    "id": 9334
+    "id": 7694
+  },
+  {
+    "type": 17,
+    "icao": "3MO9",
+    "lat": 40.03332861,
+    "lon": -94.53773612,
+    "communications": [],
+    "elevation": 1080,
+    "tower": false,
+    "name": "[H] Quad State Helicopter",
+    "runways": [
+      {
+        "type": 102,
+        "width": 45.7,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.03332861,
+        "lonStart": -94.53773612,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 137.2
+      }
+    ],
+    "id": 7695
   },
   {
     "type": 1,
@@ -230,109 +165,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 11402
+    "id": 11750
   },
   {
     "type": 1,
-    "icao": "MO62",
-    "lat": 40.51026722,
-    "lon": -94.58162945000001,
+    "icao": "75K",
+    "lat": 40.27694554999999,
+    "lon": -94.00773000000001,
     "communications": [],
-    "elevation": 1150,
+    "elevation": 1026,
     "tower": false,
-    "name": "Hibbs Farm",
+    "name": "Bethany Memorial",
     "runways": [
       {
         "type": 100,
         "width": 12.19,
         "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 40.51134531,
-        "lonStart": -94.58467035,
-        "latEnd": 40.50918913,
-        "lonEnd": -94.57858855,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11778
-  },
-  {
-    "type": 1,
-    "icao": "1Y3",
-    "lat": 40.70554833,
-    "lon": -94.22384278,
-    "communications": [],
-    "elevation": 1265,
-    "tower": false,
-    "name": "Judge Lewis Fld Mt Ayr Municipal",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 40.70937389,
-        "lonStart": -94.22428429,
-        "latEnd": 40.70172277,
-        "lonEnd": -94.22340127,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 13125
-  },
-  {
-    "type": 1,
-    "icao": "KEVU",
-    "lat": 40.351908,
-    "lon": -94.9147105,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11822,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 1150,
-    "tower": false,
-    "name": "NORTHWEST MISSOURI RGNL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 40.358658,
-        "lonStart": -94.920975,
-        "latEnd": 40.349322,
-        "lonEnd": -94.913428,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 13.72,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 40.352533,
-        "lonStart": -94.911614,
-        "latEnd": 40.347119,
-        "lonEnd": -94.912825,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 40.27438726,
+        "lonStart": -94.00999179,
+        "latEnd": 40.27950384,
+        "lonEnd": -94.00546821,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 18003
+    "id": 13481
   },
   {
     "type": 1,
@@ -364,33 +223,121 @@
         "surfacetype": 1
       }
     ],
-    "id": 20831
+    "id": 13620
   },
   {
     "type": 1,
-    "icao": "MU35",
-    "lat": 40.267490550000005,
-    "lon": -94.78663473,
-    "communications": [],
-    "elevation": 1123,
+    "icao": "K19",
+    "lat": 40.2619445,
+    "lon": -94.33985949999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 886,
     "tower": false,
-    "name": "Tallen",
+    "name": "ALBANY MUNI",
     "runways": [
       {
         "type": 100,
-        "width": 30.48,
+        "width": 15.24,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 40.27022309,
-        "lonStart": -94.78694804,
-        "latEnd": 40.26475801,
-        "lonEnd": -94.78632142,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 40.2575,
+        "lonStart": -94.341111,
+        "latEnd": 40.266389,
+        "lonEnd": -94.338608,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 2
       }
     ],
-    "id": 24995
+    "id": 18702
+  },
+  {
+    "type": 1,
+    "icao": "KCRZ",
+    "lat": 40.9941305,
+    "lon": -94.75502900000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1273,
+    "tower": false,
+    "name": "CORNING MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 40.997814,
+        "lonStart": -94.754944,
+        "latEnd": 40.990447,
+        "lonEnd": -94.755114,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 18988
+  },
+  {
+    "type": 1,
+    "icao": "KEVU",
+    "lat": 40.351558055,
+    "lon": -94.914427805,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11822,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1150,
+    "tower": false,
+    "name": "NORTHWEST MISSOURI RGNL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 40.358658,
+        "lonStart": -94.920975,
+        "latEnd": 40.34792222,
+        "lonEnd": -94.91229722,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 13.72,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 40.352533,
+        "lonStart": -94.911614,
+        "latEnd": 40.347119,
+        "lonEnd": -94.912825,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19114
   },
   {
     "type": 1,
@@ -416,31 +363,84 @@
         "surfacetype": 3
       }
     ],
-    "id": 26978
+    "id": 21630
   },
   {
-    "type": 17,
-    "icao": "3MO9",
-    "lat": 40.03332861,
-    "lon": -94.53773612,
+    "type": 1,
+    "icao": "MO62",
+    "lat": 40.51026722,
+    "lon": -94.58162945000001,
     "communications": [],
-    "elevation": 1080,
+    "elevation": 1150,
     "tower": false,
-    "name": "[H] Quad State Helicopter",
+    "name": "Hibbs Farm",
     "runways": [
       {
-        "type": 102,
-        "width": 45.7,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.03332861,
-        "lonStart": -94.53773612,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 137.2
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 40.51134531,
+        "lonStart": -94.58467035,
+        "latEnd": 40.50918913,
+        "lonEnd": -94.57858855,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 32199
+    "id": 21652
+  },
+  {
+    "type": 1,
+    "icao": "MU35",
+    "lat": 40.267490550000005,
+    "lon": -94.78663473,
+    "communications": [],
+    "elevation": 1123,
+    "tower": false,
+    "name": "Tallen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 40.27022309,
+        "lonStart": -94.78694804,
+        "latEnd": 40.26475801,
+        "lonEnd": -94.78632142,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21957
+  },
+  {
+    "type": 1,
+    "icao": "Y46",
+    "lat": 40.63776555,
+    "lon": -94.72941334000001,
+    "communications": [],
+    "elevation": 1201,
+    "tower": false,
+    "name": "Bedford Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 40.64146815,
+        "lonStart": -94.72898646,
+        "latEnd": 40.63406295,
+        "lonEnd": -94.72984022,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 32554
   }
 ]

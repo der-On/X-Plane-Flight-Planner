@@ -1,36 +1,15 @@
 [
   {
     "type": 1,
-    "icao": "SC15",
-    "lat": 32.632127499999996,
-    "lon": -80.50399306,
-    "communications": [],
-    "elevation": 20,
-    "tower": false,
-    "name": "Airy Hall",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 32.62864478,
-        "lonStart": -80.50688878,
-        "latEnd": 32.63561022,
-        "lonEnd": -80.50109734,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 765
-  },
-  {
-    "type": 1,
     "icao": "KARW",
     "lat": 32.412161499999996,
     "lon": -80.6343545,
     "communications": [
+      {
+        "type": 50,
+        "frequency": 11967,
+        "name": "AWOS-3"
+      },
       {
         "type": 51,
         "frequency": 12270,
@@ -42,7 +21,7 @@
         "name": "APP/DEP"
       }
     ],
-    "elevation": 9,
+    "elevation": 8,
     "tower": false,
     "name": "BEAUFORT CO",
     "runways": [
@@ -60,93 +39,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 1588
-  },
-  {
-    "type": 1,
-    "icao": "KNBC",
-    "lat": 32.477911875000004,
-    "lon": -80.72373075,
-    "communications": [
-      {
-        "type": 53,
-        "frequency": 12815,
-        "name": "GND/CLNC DEL"
-      },
-      {
-        "type": 54,
-        "frequency": 11905,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12370,
-        "name": "APP/DEP"
-      },
-      {
-        "type": 55,
-        "frequency": 11845,
-        "name": "APP/DEP"
-      }
-    ],
-    "elevation": 37,
-    "tower": true,
-    "name": "BEAUFORT MCAS",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 32.470556,
-        "lonStart": -80.730461,
-        "latEnd": 32.495536,
-        "lonEnd": -80.704058,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 32.484597,
-        "lonStart": -80.731383,
-        "latEnd": 32.468994,
-        "lonEnd": -80.713111,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 32.475556,
-        "lonStart": -80.735,
-        "latEnd": 32.475556,
-        "lonEnd": -80.714167,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 32.481667,
-        "lonStart": -80.730833,
-        "latEnd": 32.470833,
-        "lonEnd": -80.730833,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 1589
+    "id": 2365
   },
   {
     "type": 1,
@@ -241,67 +134,7 @@
         "surfacetype": 2
       }
     ],
-    "id": 4808
-  },
-  {
-    "type": 1,
-    "icao": "KJZI",
-    "lat": 32.700788162500004,
-    "lon": -80.00251529500001,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12377,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 52,
-        "frequency": 12715,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 55,
-        "frequency": 12070,
-        "name": "APP/DEP"
-      }
-    ],
-    "elevation": 17,
-    "tower": false,
-    "name": "Charleston Executive",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 32.70486047,
-        "lonStart": -80.01235412,
-        "latEnd": 32.70505353,
-        "lonEnd": -79.99491586,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 46.02,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 32.69166369,
-        "lonStart": -80.00523443,
-        "latEnd": 32.70157496,
-        "lonEnd": -79.99755677,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 4809
+    "id": 2487
   },
   {
     "type": 1,
@@ -318,11 +151,6 @@
         "type": 51,
         "frequency": 12300,
         "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 52,
-        "frequency": 12110,
-        "name": "CLNC DEL"
       },
       {
         "type": 53,
@@ -358,7 +186,205 @@
         "surfacetype": 1
       }
     ],
-    "id": 11868
+    "id": 2793
+  },
+  {
+    "type": 1,
+    "icao": "KJZI",
+    "lat": 32.70053538,
+    "lon": -80.00344978999999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12377,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12070,
+        "name": "APP/DEP"
+      }
+    ],
+    "elevation": 17,
+    "tower": false,
+    "name": "Charleston Executive Airport",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 32.704857,
+        "lonStart": -80.0128997,
+        "latEnd": 32.705038,
+        "lonEnd": -79.9966797,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 32.69112152,
+        "lonStart": -80.00583506,
+        "latEnd": 32.701125,
+        "lonEnd": -79.9983847,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 2861
+  },
+  {
+    "type": 17,
+    "icao": "SC02",
+    "lat": 32.41643948,
+    "lon": -80.68681078,
+    "communications": [],
+    "elevation": 20,
+    "tower": false,
+    "name": "[H] Beaufort County Memorial Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 16.5,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 32.41643948,
+        "lonStart": -80.68681078,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.4
+      }
+    ],
+    "id": 4675
+  },
+  {
+    "type": 1,
+    "icao": "3J1",
+    "lat": 32.492686,
+    "lon": -80.9923305,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 79,
+    "tower": false,
+    "name": "RIDGELAND",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 32.489483,
+        "lonStart": -80.994514,
+        "latEnd": 32.495889,
+        "lonEnd": -80.990147,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 7591
+  },
+  {
+    "type": 1,
+    "icao": "KNBC",
+    "lat": 32.477911875000004,
+    "lon": -80.72373075,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12815,
+        "name": "GND/CLNC DEL"
+      },
+      {
+        "type": 54,
+        "frequency": 11905,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12370,
+        "name": "APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 11845,
+        "name": "APP/DEP"
+      }
+    ],
+    "elevation": 37,
+    "tower": true,
+    "name": "BEAUFORT MCAS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 32.470556,
+        "lonStart": -80.730461,
+        "latEnd": 32.495536,
+        "lonEnd": -80.704058,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 32.484597,
+        "lonStart": -80.731383,
+        "latEnd": 32.468994,
+        "lonEnd": -80.713111,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 32.475556,
+        "lonStart": -80.735,
+        "latEnd": 32.475556,
+        "lonEnd": -80.714167,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 32.481667,
+        "lonStart": -80.730833,
+        "latEnd": 32.470833,
+        "lonEnd": -80.730833,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19542
   },
   {
     "type": 1,
@@ -426,7 +452,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 14641
+    "id": 19737
   },
   {
     "type": 1,
@@ -452,33 +478,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 15016
-  },
-  {
-    "type": 1,
-    "icao": "SC74",
-    "lat": 32.46185722,
-    "lon": -80.60093889000001,
-    "communications": [],
-    "elevation": 12,
-    "tower": false,
-    "name": "Marsh Point",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 32.46418307,
-        "lonStart": -80.60113165,
-        "latEnd": 32.45953137,
-        "lonEnd": -80.60074613,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 16728
+    "id": 25167
   },
   {
     "type": 1,
@@ -504,65 +504,33 @@
         "surfacetype": 4
       }
     ],
-    "id": 20275
+    "id": 25168
   },
   {
     "type": 1,
-    "icao": "3J1",
-    "lat": 32.492686,
-    "lon": -80.9923305,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12270,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 79,
+    "icao": "SC15",
+    "lat": 32.632127499999996,
+    "lon": -80.50399306,
+    "communications": [],
+    "elevation": 20,
     "tower": false,
-    "name": "RIDGELAND",
+    "name": "Airy Hall",
     "runways": [
       {
         "type": 100,
-        "width": 21.34,
+        "width": 45.72,
         "surfaceType": null,
         "numberStart": "04",
         "numberEnd": "22",
-        "latStart": 32.489483,
-        "lonStart": -80.994514,
-        "latEnd": 32.495889,
-        "lonEnd": -80.990147,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 20935
-  },
-  {
-    "type": 1,
-    "icao": "SC51",
-    "lat": 32.70462305,
-    "lon": -80.25315417,
-    "communications": [],
-    "elevation": 15,
-    "tower": false,
-    "name": "Too Goo Doo Farms",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 32.70754404,
-        "lonStart": -80.25558481,
-        "latEnd": 32.70170206,
-        "lonEnd": -80.25072353,
+        "latStart": 32.62864478,
+        "lonStart": -80.50688878,
+        "latEnd": 32.63561022,
+        "lonEnd": -80.50109734,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 25458
+    "id": 25173
   },
   {
     "type": 1,
@@ -588,32 +556,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 27785
+    "id": 25199
   },
   {
-    "type": 17,
-    "icao": "SC02",
-    "lat": 32.41685972,
-    "lon": -80.68732862,
+    "type": 1,
+    "icao": "SC51",
+    "lat": 32.70462305,
+    "lon": -80.25315417,
     "communications": [],
-    "elevation": 20,
+    "elevation": 15,
     "tower": false,
-    "name": "[H] Beaufort County Memorial Hospital",
+    "name": "Too Goo Doo Farms",
     "runways": [
       {
-        "type": 102,
-        "width": 14.6,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 32.41685972,
-        "lonStart": -80.68732862,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.6
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 32.70754404,
+        "lonStart": -80.25558481,
+        "latEnd": 32.70170206,
+        "lonEnd": -80.25072353,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 28395
+    "id": 25200
   },
   {
     "type": 17,
@@ -638,6 +607,32 @@
         "length": 15.2
       }
     ],
-    "id": 29835
+    "id": 25216
+  },
+  {
+    "type": 1,
+    "icao": "SC74",
+    "lat": 32.46185722,
+    "lon": -80.60093889000001,
+    "communications": [],
+    "elevation": 12,
+    "tower": false,
+    "name": "Marsh Point",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 32.46418307,
+        "lonStart": -80.60113165,
+        "latEnd": 32.45953137,
+        "lonEnd": -80.60074613,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25218
   }
 ]

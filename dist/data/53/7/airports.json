@@ -1,70 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "EDWZ",
-    "lat": 53.724844000000004,
-    "lon": 7.373243,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12305,
-        "name": "Baltrum Info"
-      }
-    ],
-    "elevation": 5,
-    "tower": true,
-    "name": "Baltrum",
-    "runways": [
-      {
-        "type": 100,
-        "width": 14.94,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 53.72497,
-        "lonStart": 7.370529,
-        "latEnd": 53.724718,
-        "lonEnd": 7.375957,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 2154
-  },
-  {
-    "type": 1,
-    "icao": "EDXL",
-    "lat": 53.164608,
-    "lon": 7.7937275,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12200,
-        "name": "Barssel Info"
-      }
-    ],
-    "elevation": 9,
-    "tower": true,
-    "name": "Barssel",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 53.165971,
-        "lonStart": 7.78985,
-        "latEnd": 53.163245,
-        "lonEnd": 7.797605,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 2289
-  },
-  {
-    "type": 1,
     "icao": "EDWE",
     "lat": 53.39060369999999,
     "lon": 7.22670039,
@@ -115,65 +51,101 @@
         "length": 16.4
       }
     ],
-    "id": 7153
+    "id": 1392
   },
   {
     "type": 1,
-    "icao": "EDXP",
-    "lat": 53.7065985,
-    "lon": 7.8203130000000005,
+    "icao": "EDWF",
+    "lat": 53.271770000000004,
+    "lon": 7.441552,
     "communications": [
       {
         "type": 54,
-        "frequency": 12240,
-        "name": "Harle Info"
+        "frequency": 12510,
+        "name": "Bremen Information"
+      },
+      {
+        "type": 54,
+        "frequency": 13077,
+        "name": "Leer Info"
       }
     ],
-    "elevation": 6,
+    "elevation": 2,
     "tower": true,
-    "name": "Harle",
+    "name": "Leer-Papenburg",
     "runways": [
       {
         "type": 100,
         "width": 20.12,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 53.70637,
-        "lonStart": 7.816438,
-        "latEnd": 53.706827,
-        "lonEnd": 7.824188,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 53.270704,
+        "lonStart": 7.43228,
+        "latEnd": 53.272836,
+        "lonEnd": 7.450824,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 11450
+    "id": 1393
   },
   {
     "type": 1,
-    "icao": "ETNJ",
-    "lat": 53.533514,
-    "lon": 7.888909,
-    "communications": [],
-    "elevation": 22,
-    "tower": false,
-    "name": "Jever AB (closed)",
+    "icao": "EDWG",
+    "lat": 53.785194694000005,
+    "lon": 7.915609921999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12240,
+        "name": "Wooge INFO"
+      }
+    ],
+    "elevation": 4,
+    "tower": true,
+    "name": "Wangerooge",
     "runways": [
       {
         "type": 100,
-        "width": 30,
+        "width": 21.03,
         "surfaceType": null,
         "numberStart": "10",
         "numberEnd": "28",
-        "latStart": 53.535917,
-        "lonStart": 7.869321,
-        "latEnd": 53.531111,
-        "lonEnd": 7.908497,
+        "latStart": 53.78282,
+        "lonStart": 7.913096,
+        "latEnd": 53.782271,
+        "lonEnd": 7.926004,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 29.73,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 53.78438548,
+        "lonStart": 7.91288317,
+        "latEnd": 53.78869436,
+        "lonEnd": 7.9148453,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 19.9,
+        "surfaceType": 2,
+        "numberStart": "H",
+        "numberEnd": null,
+        "latStart": 53.78780263,
+        "lonStart": 7.91122114,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20
       }
     ],
-    "id": 12980
+    "id": 1394
   },
   {
     "type": 1,
@@ -231,7 +203,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 13132
+    "id": 1397
   },
   {
     "type": 1,
@@ -275,44 +247,7 @@
         "length": 14.9
       }
     ],
-    "id": 14930
-  },
-  {
-    "type": 1,
-    "icao": "EDWF",
-    "lat": 53.271770000000004,
-    "lon": 7.441552,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12510,
-        "name": "Bremen Information"
-      },
-      {
-        "type": 54,
-        "frequency": 13077,
-        "name": "Leer Info"
-      }
-    ],
-    "elevation": 2,
-    "tower": true,
-    "name": "Leer-Papenburg",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 53.270704,
-        "lonStart": 7.43228,
-        "latEnd": 53.272836,
-        "lonEnd": 7.450824,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 15109
+    "id": 1399
   },
   {
     "type": 1,
@@ -349,122 +284,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 18403
-  },
-  {
-    "type": 1,
-    "icao": "EDWY",
-    "lat": 53.7068955,
-    "lon": 7.23006,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12200,
-        "name": "Norderney INFO"
-      }
-    ],
-    "elevation": 5,
-    "tower": true,
-    "name": "Norderney",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 53.706565,
-        "lonStart": 7.22252,
-        "latEnd": 53.707226,
-        "lonEnd": 7.2376,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 18404
-  },
-  {
-    "type": 1,
-    "icao": "EHOW",
-    "lat": 53.201667,
-    "lon": 7.0336110000000005,
-    "communications": [],
-    "elevation": 2,
-    "tower": false,
-    "name": "Oostwold",
-    "runways": [
-      {
-        "type": 100,
-        "width": 74.98,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 53.19967385,
-        "lonStart": 7.02687839,
-        "latEnd": 53.20366015,
-        "lonEnd": 7.04034361,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 18988
-  },
-  {
-    "type": 1,
-    "icao": "EDWG",
-    "lat": 53.785194694000005,
-    "lon": 7.915609921999999,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12240,
-        "name": "Wooge INFO"
-      }
-    ],
-    "elevation": 5,
-    "tower": true,
-    "name": "Wangerooge",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.03,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 53.78282,
-        "lonStart": 7.913096,
-        "latEnd": 53.782271,
-        "lonEnd": 7.926004,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 29.73,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 53.78438548,
-        "lonStart": 7.91288317,
-        "latEnd": 53.78869436,
-        "lonEnd": 7.9148453,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 102,
-        "width": 19.9,
-        "surfaceType": 2,
-        "numberStart": "H",
-        "numberEnd": null,
-        "latStart": 53.78780263,
-        "lonStart": 7.91122114,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20
-      }
-    ],
-    "id": 26891
+    "id": 1406
   },
   {
     "type": 1,
@@ -496,7 +316,193 @@
         "surfacetype": 1
       }
     ],
-    "id": 27144
+    "id": 1410
+  },
+  {
+    "type": 1,
+    "icao": "EDWY",
+    "lat": 53.706904249999994,
+    "lon": 7.23007313,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12200,
+        "name": "Norderney INFO"
+      }
+    ],
+    "elevation": 3,
+    "tower": true,
+    "name": "Norderney",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 53.70657375,
+        "lonStart": 7.22253313,
+        "latEnd": 53.70723475,
+        "lonEnd": 7.23761313,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1411
+  },
+  {
+    "type": 1,
+    "icao": "EDWZ",
+    "lat": 53.724844000000004,
+    "lon": 7.373243,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12305,
+        "name": "Baltrum Info"
+      }
+    ],
+    "elevation": 5,
+    "tower": true,
+    "name": "Baltrum",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 53.72497,
+        "lonStart": 7.370529,
+        "latEnd": 53.724718,
+        "lonEnd": 7.375957,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1412
+  },
+  {
+    "type": 1,
+    "icao": "EDXL",
+    "lat": 53.164608,
+    "lon": 7.7937275,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12200,
+        "name": "Barssel Info"
+      }
+    ],
+    "elevation": 9,
+    "tower": true,
+    "name": "Barssel",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 53.165971,
+        "lonStart": 7.78985,
+        "latEnd": 53.163245,
+        "lonEnd": 7.797605,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1432
+  },
+  {
+    "type": 1,
+    "icao": "EDXP",
+    "lat": 53.7065985,
+    "lon": 7.8203130000000005,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12240,
+        "name": "Harle Info"
+      }
+    ],
+    "elevation": 6,
+    "tower": true,
+    "name": "Harle",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 53.70637,
+        "lonStart": 7.816438,
+        "latEnd": 53.706827,
+        "lonEnd": 7.824188,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1436
+  },
+  {
+    "type": 1,
+    "icao": "EHOW",
+    "lat": 53.208746735,
+    "lon": 7.0329326850000005,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11835,
+        "name": "Oostwold Radio"
+      }
+    ],
+    "elevation": 0,
+    "tower": true,
+    "name": "Oostwold",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 53.20699913,
+        "lonStart": 7.02653223,
+        "latEnd": 53.21049434,
+        "lonEnd": 7.03933314,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1649
+  },
+  {
+    "type": 1,
+    "icao": "ETNJ",
+    "lat": 53.533514,
+    "lon": 7.888909,
+    "communications": [],
+    "elevation": 22,
+    "tower": false,
+    "name": "Jever AB (closed)",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 53.535917,
+        "lonStart": 7.869321,
+        "latEnd": 53.531111,
+        "lonEnd": 7.908497,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2078
   },
   {
     "type": 1,
@@ -540,6 +546,6 @@
         "length": 34.7
       }
     ],
-    "id": 27479
+    "id": 2082
   }
 ]

@@ -1,6 +1,48 @@
 [
   {
     "type": 1,
+    "icao": "FASZ",
+    "lat": -24.961320999999998,
+    "lon": 31.5888265,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12480,
+        "name": "CTAF"
+      },
+      {
+        "type": 54,
+        "frequency": 11900,
+        "name": "LASS"
+      },
+      {
+        "type": 53,
+        "frequency": 12525,
+        "name": "Ground"
+      }
+    ],
+    "elevation": 1020,
+    "tower": false,
+    "name": "Skukuza",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -24.955303,
+        "lonStart": 31.585828,
+        "latEnd": -24.967339,
+        "lonEnd": 31.591825,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2158
+  },
+  {
+    "type": 1,
     "icao": "FAHS",
     "lat": -24.363588,
     "lon": 31.0487265,
@@ -52,7 +94,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 11917
+    "id": 16809
   },
   {
     "type": 1,
@@ -84,48 +126,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 16523
-  },
-  {
-    "type": 1,
-    "icao": "FASZ",
-    "lat": -24.961320999999998,
-    "lon": 31.5888265,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12480,
-        "name": "CTAF"
-      },
-      {
-        "type": 54,
-        "frequency": 11900,
-        "name": "LASS"
-      },
-      {
-        "type": 53,
-        "frequency": 12525,
-        "name": "Ground"
-      }
-    ],
-    "elevation": 1020,
-    "tower": false,
-    "name": "Skukuza",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": -24.955303,
-        "lonStart": 31.585828,
-        "latEnd": -24.967339,
-        "lonEnd": 31.591825,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 23615
+    "id": 16822
   }
 ]

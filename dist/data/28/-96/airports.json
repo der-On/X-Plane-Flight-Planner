@@ -1,40 +1,29 @@
 [
   {
     "type": 1,
-    "icao": "KBYY",
-    "lat": 28.973246000000003,
-    "lon": -95.86345299999999,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11807,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 44,
+    "icao": "0T2",
+    "lat": 28.937754159999997,
+    "lon": -95.75023167,
+    "communications": [],
+    "elevation": 25,
     "tower": false,
-    "name": "BAY CITY MUNI",
+    "name": "Fay Ranch",
     "runways": [
       {
         "type": 100,
         "width": 22.86,
         "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 28.978086,
-        "lonStart": -95.869239,
-        "latEnd": 28.968406,
-        "lonEnd": -95.857667,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 28.94156317,
+        "lonStart": -95.75316742,
+        "latEnd": 28.93394515,
+        "lonEnd": -95.74729592,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 1577
+    "id": 6153
   },
   {
     "type": 1,
@@ -60,109 +49,32 @@
         "surfacetype": 3
       }
     ],
-    "id": 6862
-  },
-  {
-    "type": 1,
-    "icao": "0T2",
-    "lat": 28.937754159999997,
-    "lon": -95.75023167,
-    "communications": [],
-    "elevation": 25,
-    "tower": false,
-    "name": "Fay Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 28.94156317,
-        "lonStart": -95.75316742,
-        "latEnd": 28.93394515,
-        "lonEnd": -95.74729592,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 7838
-  },
-  {
-    "type": 1,
-    "icao": "TX11",
-    "lat": 28.95247972,
-    "lon": -95.97356917,
-    "communications": [],
-    "elevation": 50,
-    "tower": false,
-    "name": "Fehmel Dusting Service",
-    "runways": [
-      {
-        "type": 100,
-        "width": 7.62,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 28.95484472,
-        "lonStart": -95.97539222,
-        "latEnd": 28.95011472,
-        "lonEnd": -95.97174612,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 9221
+    "id": 6895
   },
   {
     "type": 17,
-    "icao": "9TA6",
-    "lat": 28.97691333,
-    "lon": -95.3174375,
+    "icao": "02TA",
+    "lat": 28.721375,
+    "lon": -95.87385028,
     "communications": [],
-    "elevation": 4,
+    "elevation": 3,
     "tower": false,
-    "name": "[H] Buccaneer Shore Facility",
-    "runways": [
-      {
-        "type": 102,
-        "width": 13.7,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 28.97691333,
-        "lonStart": -95.3174375,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 13.7
-      }
-    ],
-    "id": 28613
-  },
-  {
-    "type": 17,
-    "icao": "52TX",
-    "lat": 28.96638888,
-    "lon": -95.29055556,
-    "communications": [],
-    "elevation": 2,
-    "tower": false,
-    "name": "[H] Hercules Marine Services Corp",
+    "name": "[H] Matagorda Shore Facility",
     "runways": [
       {
         "type": 102,
         "width": 9.8,
-        "surfaceType": 1,
+        "surfaceType": 2,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 28.96638888,
-        "lonStart": -95.29055556,
+        "latStart": 28.721375,
+        "lonStart": -95.87385028,
         "latEnd": null,
         "lonEnd": null,
-        "length": 11.9
+        "length": 9.8
       }
     ],
-    "id": 30223
+    "id": 7307
   },
   {
     "type": 17,
@@ -235,31 +147,119 @@
         "length": 10.4
       }
     ],
-    "id": 30989
+    "id": 10776
   },
   {
     "type": 17,
-    "icao": "02TA",
-    "lat": 28.721375,
-    "lon": -95.87385028,
+    "icao": "9TA6",
+    "lat": 28.97691333,
+    "lon": -95.3174375,
     "communications": [],
-    "elevation": 3,
+    "elevation": 4,
     "tower": false,
-    "name": "[H] Matagorda Shore Facility",
+    "name": "[H] Buccaneer Shore Facility",
+    "runways": [
+      {
+        "type": 102,
+        "width": 13.7,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 28.97691333,
+        "lonStart": -95.3174375,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.7
+      }
+    ],
+    "id": 10787
+  },
+  {
+    "type": 17,
+    "icao": "52TX",
+    "lat": 28.96638888,
+    "lon": -95.29055556,
+    "communications": [],
+    "elevation": 2,
+    "tower": false,
+    "name": "[H] Hercules Marine Services Corp",
     "runways": [
       {
         "type": 102,
         "width": 9.8,
-        "surfaceType": 2,
+        "surfaceType": 1,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 28.721375,
-        "lonStart": -95.87385028,
+        "latStart": 28.96638888,
+        "lonStart": -95.29055556,
         "latEnd": null,
         "lonEnd": null,
-        "length": 9.8
+        "length": 11.9
       }
     ],
-    "id": 31123
+    "id": 12588
+  },
+  {
+    "type": 1,
+    "icao": "KBYY",
+    "lat": 28.973246000000003,
+    "lon": -95.86345299999999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11807,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 44,
+    "tower": false,
+    "name": "BAY CITY MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 28.978086,
+        "lonStart": -95.869239,
+        "latEnd": 28.968406,
+        "lonEnd": -95.857667,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 18913
+  },
+  {
+    "type": 1,
+    "icao": "TX11",
+    "lat": 28.95247972,
+    "lon": -95.97356917,
+    "communications": [],
+    "elevation": 50,
+    "tower": false,
+    "name": "Fehmel Dusting Service",
+    "runways": [
+      {
+        "type": 100,
+        "width": 7.62,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 28.95484472,
+        "lonStart": -95.97539222,
+        "latEnd": 28.95011472,
+        "lonEnd": -95.97174612,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 30089
   }
 ]

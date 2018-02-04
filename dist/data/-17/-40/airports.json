@@ -1,121 +1,22 @@
 [
   {
     "type": 1,
-    "icao": "SSTI",
-    "lat": -16.45777778,
-    "lon": -39.16583333,
-    "communications": [],
-    "elevation": 278,
-    "tower": false,
-    "name": "Arraial da Ajuda",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": -16.45663241,
-        "lonStart": -39.1681336,
-        "latEnd": -16.45892315,
-        "lonEnd": -39.16353306,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 1217
-  },
-  {
-    "type": 1,
-    "icao": "SIAJ",
-    "lat": -16.984722220000002,
-    "lon": -39.15888889,
-    "communications": [],
-    "elevation": 43,
-    "tower": false,
-    "name": "Fazenda Taua",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": -16.98414992,
-        "lonStart": -39.16403151,
-        "latEnd": -16.98529452,
-        "lonEnd": -39.15374627,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 9092
-  },
-  {
-    "type": 1,
-    "icao": "SNHQ",
-    "lat": -16.18111111,
-    "lon": -39.93194444,
-    "communications": [],
-    "elevation": 984,
-    "tower": false,
-    "name": "Nacional de Grafite III",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": -16.18515319,
-        "lonStart": -39.93241427,
-        "latEnd": -16.17706903,
-        "lonEnd": -39.93147461,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 18048
-  },
-  {
-    "type": 1,
-    "icao": "SNEC",
-    "lat": -16.713055564999998,
-    "lon": -39.14305556,
-    "communications": [],
-    "elevation": 130,
-    "tower": false,
-    "name": "Outeiro das Brisas",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": -16.709863,
-        "lonStart": -39.14609049,
-        "latEnd": -16.71624813,
-        "lonEnd": -39.14002063,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 19111
-  },
-  {
-    "type": 1,
     "icao": "SBPS",
-    "lat": -16.43852552,
-    "lon": -39.080927505000005,
+    "lat": -16.438587395,
+    "lon": -39.080966105,
     "communications": [
       {
         "type": 54,
-        "frequency": 11820,
+        "frequency": 11885,
         "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12150,
+        "name": "TWR 2"
       }
     ],
-    "elevation": 167,
+    "elevation": 166,
     "tower": true,
     "name": "Porto Seguro",
     "runways": [
@@ -125,67 +26,15 @@
         "surfaceType": null,
         "numberStart": "10",
         "numberEnd": "28",
-        "latStart": -16.44096067,
-        "lonStart": -39.08996004,
-        "latEnd": -16.43609037,
-        "lonEnd": -39.07189497,
+        "latStart": -16.4410256,
+        "lonStart": -39.08999787,
+        "latEnd": -16.43614919,
+        "lonEnd": -39.07193434,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 20432
-  },
-  {
-    "type": 1,
-    "icao": "SIOV",
-    "lat": -16.901388894999997,
-    "lon": -39.158888884999996,
-    "communications": [],
-    "elevation": 44,
-    "tower": false,
-    "name": "Taua",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": -16.90080968,
-        "lonStart": -39.1640284,
-        "latEnd": -16.90196811,
-        "lonEnd": -39.15374937,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 25080
-  },
-  {
-    "type": 1,
-    "icao": "SBTV",
-    "lat": -16.540833329999998,
-    "lon": -39.107777780000006,
-    "communications": [],
-    "elevation": 174,
-    "tower": false,
-    "name": "Terravista",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": -16.53668376,
-        "lonStart": -39.11339585,
-        "latEnd": -16.5449829,
-        "lonEnd": -39.10215971,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 25182
+    "id": 4650
   },
   {
     "type": 1,
@@ -211,7 +60,210 @@
         "surfacetype": 1
       }
     ],
-    "id": 25844
+    "id": 25090
+  },
+  {
+    "type": 1,
+    "icao": "SBTV",
+    "lat": -16.540833329999998,
+    "lon": -39.107777780000006,
+    "communications": [],
+    "elevation": 174,
+    "tower": false,
+    "name": "Terravista",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -16.53668376,
+        "lonStart": -39.11339585,
+        "latEnd": -16.5449829,
+        "lonEnd": -39.10215971,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 25154
+  },
+  {
+    "type": 17,
+    "icao": "SDCS",
+    "lat": -16.09194444,
+    "lon": -39.41277778,
+    "communications": [],
+    "elevation": 145,
+    "tower": false,
+    "name": "[H] Veracel",
+    "runways": [
+      {
+        "type": 102,
+        "width": 29.9,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -16.09194444,
+        "lonStart": -39.41277778,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.9
+      }
+    ],
+    "id": 25389
+  },
+  {
+    "type": 17,
+    "icao": "SDRQ",
+    "lat": -16.44055556,
+    "lon": -39.08333333,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[H] Dr. Rudolf Imanuel Schneider",
+    "runways": [
+      {
+        "type": 102,
+        "width": 20.1,
+        "surfaceType": 5,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -16.44055556,
+        "lonStart": -39.08333333,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.1
+      }
+    ],
+    "id": 25759
+  },
+  {
+    "type": 1,
+    "icao": "SIAJ",
+    "lat": -16.984722220000002,
+    "lon": -39.15888889,
+    "communications": [],
+    "elevation": 43,
+    "tower": false,
+    "name": "Fazenda Taua",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -16.98414992,
+        "lonStart": -39.16403151,
+        "latEnd": -16.98529452,
+        "lonEnd": -39.15374627,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 26067
+  },
+  {
+    "type": 1,
+    "icao": "SIOV",
+    "lat": -16.901388894999997,
+    "lon": -39.158888884999996,
+    "communications": [],
+    "elevation": 44,
+    "tower": false,
+    "name": "Taua",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -16.90080968,
+        "lonStart": -39.1640284,
+        "latEnd": -16.90196811,
+        "lonEnd": -39.15374937,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 26437
+  },
+  {
+    "type": 17,
+    "icao": "SJBO",
+    "lat": -16.54305556,
+    "lon": -39.11166667,
+    "communications": [],
+    "elevation": 73,
+    "tower": false,
+    "name": "[H] Terra Vista",
+    "runways": [
+      {
+        "type": 102,
+        "width": 29,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -16.54305556,
+        "lonStart": -39.11166667,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29
+      }
+    ],
+    "id": 26758
+  },
+  {
+    "type": 17,
+    "icao": "SJFE",
+    "lat": -16.70305556,
+    "lon": -39.10555556,
+    "communications": [],
+    "elevation": 13,
+    "tower": false,
+    "name": "[H] Condominio Jacuma Ocean Resort",
+    "runways": [
+      {
+        "type": 102,
+        "width": 21,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -16.70305556,
+        "lonStart": -39.10555556,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21
+      }
+    ],
+    "id": 26847
+  },
+  {
+    "type": 17,
+    "icao": "SJPY",
+    "lat": -16.48527778,
+    "lon": -39.06833333,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[H] Coqueiral",
+    "runways": [
+      {
+        "type": 102,
+        "width": 19.5,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -16.48527778,
+        "lonStart": -39.06833333,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19.5
+      }
+    ],
+    "id": 27122
   },
   {
     "type": 1,
@@ -237,7 +289,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 25998
+    "id": 27302
   },
   {
     "type": 1,
@@ -263,57 +315,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 26070
-  },
-  {
-    "type": 17,
-    "icao": "SJFE",
-    "lat": -16.70305556,
-    "lon": -39.10555556,
-    "communications": [],
-    "elevation": 13,
-    "tower": false,
-    "name": "[H] Condominio Jacuma Ocean Resort",
-    "runways": [
-      {
-        "type": 102,
-        "width": 21,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -16.70305556,
-        "lonStart": -39.10555556,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21
-      }
-    ],
-    "id": 29115
-  },
-  {
-    "type": 17,
-    "icao": "SJPY",
-    "lat": -16.48527778,
-    "lon": -39.06833333,
-    "communications": [],
-    "elevation": 0,
-    "tower": false,
-    "name": "[H] Coqueiral",
-    "runways": [
-      {
-        "type": 102,
-        "width": 19.5,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -16.48527778,
-        "lonStart": -39.06833333,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.5
-      }
-    ],
-    "id": 29142
+    "id": 27318
   },
   {
     "type": 17,
@@ -338,57 +340,59 @@
         "length": 18
       }
     ],
-    "id": 29155
+    "id": 27365
   },
   {
-    "type": 17,
-    "icao": "SDRQ",
-    "lat": -16.44055556,
-    "lon": -39.08333333,
+    "type": 1,
+    "icao": "SNEC",
+    "lat": -16.713055564999998,
+    "lon": -39.14305556,
     "communications": [],
-    "elevation": 0,
+    "elevation": 130,
     "tower": false,
-    "name": "[H] Dr. Rudolf Imanuel Schneider",
+    "name": "Outeiro das Brisas",
     "runways": [
       {
-        "type": 102,
-        "width": 20.1,
-        "surfaceType": 5,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -16.44055556,
-        "lonStart": -39.08333333,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20.1
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -16.709863,
+        "lonStart": -39.14609049,
+        "latEnd": -16.71624813,
+        "lonEnd": -39.14002063,
+        "length": 0,
+        "surfacetype": 4
       }
     ],
-    "id": 29410
+    "id": 27671
   },
   {
-    "type": 17,
-    "icao": "SJBO",
-    "lat": -16.54305556,
-    "lon": -39.11166667,
+    "type": 1,
+    "icao": "SNHQ",
+    "lat": -16.18111111,
+    "lon": -39.93194444,
     "communications": [],
-    "elevation": 73,
+    "elevation": 984,
     "tower": false,
-    "name": "[H] Terra Vista",
+    "name": "Nacional de Grafite III",
     "runways": [
       {
-        "type": 102,
-        "width": 29,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -16.54305556,
-        "lonStart": -39.11166667,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 29
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -16.18515319,
+        "lonStart": -39.93241427,
+        "latEnd": -16.17706903,
+        "lonEnd": -39.93147461,
+        "length": 0,
+        "surfacetype": 5
       }
     ],
-    "id": 33256
+    "id": 27758
   },
   {
     "type": 17,
@@ -413,31 +417,32 @@
         "length": 18
       }
     ],
-    "id": 33338
+    "id": 28060
   },
   {
-    "type": 17,
-    "icao": "SDCS",
-    "lat": -16.09194444,
-    "lon": -39.41277778,
+    "type": 1,
+    "icao": "SSTI",
+    "lat": -16.45777778,
+    "lon": -39.16583333,
     "communications": [],
-    "elevation": 145,
+    "elevation": 278,
     "tower": false,
-    "name": "[H] Veracel",
+    "name": "Arraial da Ajuda",
     "runways": [
       {
-        "type": 102,
-        "width": 29.9,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -16.09194444,
-        "lonStart": -39.41277778,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 29.9
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -16.45663241,
+        "lonStart": -39.1681336,
+        "latEnd": -16.45892315,
+        "lonEnd": -39.16353306,
+        "length": 0,
+        "surfacetype": 4
       }
     ],
-    "id": 33604
+    "id": 28779
   }
 ]

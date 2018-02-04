@@ -1,35 +1,80 @@
 [
   {
     "type": 1,
-    "icao": "EDXD",
-    "lat": 52.3512535,
-    "lon": 8.328113,
+    "icao": "EDHA",
+    "lat": 52.888898025,
+    "lon": 8.232751125,
     "communications": [
       {
-        "type": 51,
-        "frequency": 12250,
-        "name": "Bohmte Info"
+        "type": 54,
+        "frequency": 13615,
+        "name": "Ahlhorn Info"
       }
     ],
-    "elevation": 147,
+    "elevation": 150,
     "tower": true,
-    "name": "Bohmte - Bad Essen",
+    "name": "Ahlhorn",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 45,
         "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 52.351803,
-        "lonStart": 8.323914,
-        "latEnd": 52.350704,
-        "lonEnd": 8.332312,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 52.88869518,
+        "lonStart": 8.2170863,
+        "latEnd": 52.88910087,
+        "lonEnd": 8.24841595,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       }
     ],
-    "id": 2929
+    "id": 1126
+  },
+  {
+    "type": 1,
+    "icao": "EDVY",
+    "lat": 52.221556175,
+    "lon": 8.859476545,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12237,
+        "name": "Porta Info"
+      }
+    ],
+    "elevation": 146,
+    "tower": true,
+    "name": "Porta Westfalica",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "05L",
+        "numberEnd": "23R",
+        "latStart": 52.219766,
+        "lonStart": 8.85361893,
+        "latEnd": 52.2244267,
+        "lonEnd": 8.86513025,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 15,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 52.218804,
+        "lonStart": 8.854149,
+        "latEnd": 52.223228,
+        "lonEnd": 8.865008,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1389
   },
   {
     "type": 1,
@@ -74,7 +119,103 @@
         "surfacetype": 3
       }
     ],
-    "id": 5976
+    "id": 1391
+  },
+  {
+    "type": 1,
+    "icao": "EDWU",
+    "lat": 52.908459500000006,
+    "lon": 8.042546999999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11982,
+        "name": "Varrelbusch Ifo"
+      }
+    ],
+    "elevation": 127,
+    "tower": true,
+    "name": "Varrelbusch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 32,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 52.90834,
+        "lonStart": 8.036236,
+        "latEnd": 52.908579,
+        "lonEnd": 8.048858,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1408
+  },
+  {
+    "type": 1,
+    "icao": "EDXD",
+    "lat": 52.3512535,
+    "lon": 8.328113,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12250,
+        "name": "Bohmte Info"
+      }
+    ],
+    "elevation": 147,
+    "tower": true,
+    "name": "Bohmte - Bad Essen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 52.351803,
+        "lonStart": 8.323914,
+        "latEnd": 52.350704,
+        "lonEnd": 8.332312,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1424
+  },
+  {
+    "type": 1,
+    "icao": "EDXG",
+    "lat": 52.2009065,
+    "lon": 8.3806685,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12240,
+        "name": "Melle Info"
+      }
+    ],
+    "elevation": 235,
+    "tower": true,
+    "name": "Melle - Groenegau",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 52.20093,
+        "lonStart": 8.375059,
+        "latEnd": 52.200883,
+        "lonEnd": 8.386278,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1427
   },
   {
     "type": 1,
@@ -201,115 +342,6 @@
         "length": 10.4
       }
     ],
-    "id": 6270
-  },
-  {
-    "type": 1,
-    "icao": "EDXG",
-    "lat": 52.2009065,
-    "lon": 8.3806685,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12240,
-        "name": "Melle Info"
-      }
-    ],
-    "elevation": 235,
-    "tower": true,
-    "name": "Melle - Groenegau",
-    "runways": [
-      {
-        "type": 100,
-        "width": 14.94,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 52.20093,
-        "lonStart": 8.375059,
-        "latEnd": 52.200883,
-        "lonEnd": 8.386278,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 17040
-  },
-  {
-    "type": 1,
-    "icao": "EDVY",
-    "lat": 52.221556175,
-    "lon": 8.859476545,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12237,
-        "name": "Porta Info"
-      }
-    ],
-    "elevation": 146,
-    "tower": true,
-    "name": "Porta Westfalica",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "05L",
-        "numberEnd": "23R",
-        "latStart": 52.219766,
-        "lonStart": 8.85361893,
-        "latEnd": 52.2244267,
-        "lonEnd": 8.86513025,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 15,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 52.218804,
-        "lonStart": 8.854149,
-        "latEnd": 52.223228,
-        "lonEnd": 8.865008,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 20403
-  },
-  {
-    "type": 1,
-    "icao": "EDWU",
-    "lat": 52.908459500000006,
-    "lon": 8.042546999999999,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11982,
-        "name": "Varrelbusch Ifo"
-      }
-    ],
-    "elevation": 127,
-    "tower": true,
-    "name": "Varrelbusch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 32,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 52.90834,
-        "lonStart": 8.036236,
-        "latEnd": 52.908579,
-        "lonEnd": 8.048858,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 26235
+    "id": 2075
   }
 ]

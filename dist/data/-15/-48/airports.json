@@ -2,28 +2,34 @@
   {
     "type": 1,
     "icao": "SDXF",
-    "lat": -14.1210275,
-    "lon": -47.530861,
-    "communications": [],
-    "elevation": 1200,
+    "lat": -14.118954445,
+    "lon": -47.530178645,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12280,
+        "name": "UNICOM"
+      }
+    ],
+    "elevation": 4412,
     "tower": false,
-    "name": "ALTO PARAISO",
+    "name": "Alto Paraiso Airfield",
     "runways": [
       {
         "type": 100,
-        "width": 30.48,
+        "width": 32,
         "surfaceType": null,
         "numberStart": "09",
         "numberEnd": "27",
-        "latStart": -14.122333,
-        "lonStart": -47.536333,
-        "latEnd": -14.119722,
-        "lonEnd": -47.525389,
+        "latStart": -14.12025248,
+        "lonStart": -47.5355831,
+        "latEnd": -14.11765641,
+        "lonEnd": -47.52477419,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 248
+    "id": 4865
   },
   {
     "type": 1,
@@ -49,6 +55,6 @@
         "surfacetype": 5
       }
     ],
-    "id": 8827
+    "id": 28593
   }
 ]

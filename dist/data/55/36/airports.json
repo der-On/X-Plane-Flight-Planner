@@ -1,5 +1,37 @@
 [
   {
+    "type": 1,
+    "icao": "UUMB",
+    "lat": 55.611734575,
+    "lon": 36.64931465,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12130,
+        "name": "Kubinka Tower"
+      }
+    ],
+    "elevation": 609,
+    "tower": true,
+    "name": "Kubinka",
+    "runways": [
+      {
+        "type": 100,
+        "width": 78.94,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 55.60465642,
+        "lonStart": 36.63390864,
+        "latEnd": 55.61881273,
+        "lonEnd": 36.66472066,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 5123
+  },
+  {
     "type": 17,
     "icao": "UU01",
     "lat": 55.731215,
@@ -22,7 +54,7 @@
         "length": 20.1
       }
     ],
-    "id": 28062
+    "id": 30604
   },
   {
     "type": 17,
@@ -47,7 +79,7 @@
         "length": 21
       }
     ],
-    "id": 28148
+    "id": 30605
   },
   {
     "type": 17,
@@ -138,7 +170,7 @@
         "length": 10.1
       }
     ],
-    "id": 28149
+    "id": 30606
   },
   {
     "type": 17,
@@ -169,7 +201,7 @@
         "length": 20.1
       }
     ],
-    "id": 28622
+    "id": 30609
   },
   {
     "type": 17,
@@ -200,6 +232,6 @@
         "length": 4.9
       }
     ],
-    "id": 29957
+    "id": 30617
   }
 ]

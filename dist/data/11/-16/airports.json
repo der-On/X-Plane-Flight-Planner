@@ -1,6 +1,32 @@
 [
   {
     "type": 1,
+    "icao": "GGCF",
+    "lat": 11.2879165,
+    "lon": -15.1804855,
+    "communications": [],
+    "elevation": 64,
+    "tower": false,
+    "name": "CUFAR",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.56,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 11.282416,
+        "lonStart": -15.187166,
+        "latEnd": 11.293417,
+        "lonEnd": -15.173805,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17755
+  },
+  {
+    "type": 1,
     "icao": "GGOV",
     "lat": 11.8901665,
     "lon": -15.648832955,
@@ -39,32 +65,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 1758
-  },
-  {
-    "type": 1,
-    "icao": "GGCF",
-    "lat": 11.2879165,
-    "lon": -15.1804855,
-    "communications": [],
-    "elevation": 64,
-    "tower": false,
-    "name": "CUFAR",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.56,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 11.282416,
-        "lonStart": -15.187166,
-        "latEnd": 11.293417,
-        "lonEnd": -15.173805,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 4264
+    "id": 17756
   }
 ]

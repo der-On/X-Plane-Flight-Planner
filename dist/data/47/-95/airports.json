@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "KBJI",
-    "lat": 47.50939575,
-    "lon": -94.93373299999999,
+    "lat": 47.510497525000005,
+    "lon": -94.93433901750001,
     "communications": [
       {
         "type": 50,
@@ -26,10 +26,10 @@
         "surfaceType": null,
         "numberStart": "13",
         "numberEnd": "31",
-        "latStart": 47.515983,
-        "lonStart": -94.943044,
-        "latEnd": 47.503417,
-        "lonEnd": -94.923836,
+        "latStart": 47.51806005,
+        "lonStart": -94.94665255,
+        "latEnd": 47.50495737,
+        "lonEnd": -94.92585072,
         "length": 0,
         "surfacetype": 1
       },
@@ -39,67 +39,41 @@
         "surfaceType": null,
         "numberStart": "07",
         "numberEnd": "25",
-        "latStart": 47.506939,
-        "lonStart": -94.945108,
-        "latEnd": 47.511244,
-        "lonEnd": -94.922944,
+        "latStart": 47.50724722,
+        "lonStart": -94.94350278,
+        "latEnd": 47.51172546,
+        "lonEnd": -94.92135002,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 1635
+    "id": 2420
   },
   {
     "type": 1,
-    "icao": "38MN",
-    "lat": 47.411064159999995,
-    "lon": -94.77249417,
+    "icao": "Y49",
+    "lat": 47.15828972,
+    "lon": -94.64610667,
     "communications": [],
-    "elevation": 1379,
+    "elevation": 1362,
     "tower": false,
-    "name": "Chandler Personal Use",
+    "name": "Walker Municipal",
     "runways": [
       {
         "type": 100,
-        "width": 15.24,
+        "width": 22.86,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 47.41129377,
-        "lonStart": -94.77734624,
-        "latEnd": 47.41083455,
-        "lonEnd": -94.7676421,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 47.1613987,
+        "lonStart": -94.64942857,
+        "latEnd": 47.15518074,
+        "lonEnd": -94.64278477,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       }
     ],
-    "id": 4787
-  },
-  {
-    "type": 1,
-    "icao": "MY54",
-    "lat": 47.43828583,
-    "lon": -94.81221778,
-    "communications": [],
-    "elevation": 1444,
-    "tower": false,
-    "name": "Cloverleaf-East Bemidji",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 47.43868765,
-        "lonStart": -94.82071329,
-        "latEnd": 47.43788401,
-        "lonEnd": -94.80372227,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 5116
+    "id": 5567
   },
   {
     "type": 1,
@@ -125,33 +99,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 11641
-  },
-  {
-    "type": 1,
-    "icao": "MN13",
-    "lat": 47.49606277,
-    "lon": -94.95278084,
-    "communications": [],
-    "elevation": 1373,
-    "tower": false,
-    "name": "Moberg Air Base",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 47.49840411,
-        "lonStart": -94.95579324,
-        "latEnd": 47.49372143,
-        "lonEnd": -94.94976844,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 17334
+    "id": 8211
   },
   {
     "type": 1,
@@ -183,7 +131,33 @@
         "surfacetype": 1
       }
     ],
-    "id": 17841
+    "id": 8511
+  },
+  {
+    "type": 1,
+    "icao": "38MN",
+    "lat": 47.411064159999995,
+    "lon": -94.77249417,
+    "communications": [],
+    "elevation": 1379,
+    "tower": false,
+    "name": "Chandler Personal Use",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 47.41129377,
+        "lonStart": -94.77734624,
+        "latEnd": 47.41083455,
+        "lonEnd": -94.7676421,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12025
   },
   {
     "type": 1,
@@ -222,7 +196,57 @@
         "surfacetype": 3
       }
     ],
-    "id": 18478
+    "id": 12238
+  },
+  {
+    "type": 16,
+    "icao": "96M",
+    "lat": 47.49967388,
+    "lon": -94.94528,
+    "communications": [],
+    "elevation": 1370,
+    "tower": false,
+    "name": "[S] Moberg Air Base",
+    "runways": [
+      {
+        "type": 101,
+        "width": 804.67,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 47.50017902,
+        "lonStart": -94.95597255,
+        "latEnd": 47.49916874,
+        "lonEnd": -94.93458745,
+        "length": 0
+      }
+    ],
+    "id": 14235
+  },
+  {
+    "type": 16,
+    "icao": "MN05",
+    "lat": 47.597175269999994,
+    "lon": -94.84693639,
+    "communications": [],
+    "elevation": 1344,
+    "tower": false,
+    "name": "[S] Jordan",
+    "runways": [
+      {
+        "type": 101,
+        "width": 304.8,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 47.60463322,
+        "lonStart": -94.85209359,
+        "latEnd": 47.58971732,
+        "lonEnd": -94.84177919,
+        "length": 0
+      }
+    ],
+    "id": 21524
   },
   {
     "type": 1,
@@ -261,83 +285,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 21569
+    "id": 21530
   },
   {
     "type": 1,
-    "icao": "Y49",
-    "lat": 47.15828972,
-    "lon": -94.64610667,
+    "icao": "MN13",
+    "lat": 47.49606277,
+    "lon": -94.95278084,
     "communications": [],
-    "elevation": 1362,
+    "elevation": 1373,
     "tower": false,
-    "name": "Walker Municipal",
+    "name": "Moberg Air Base",
     "runways": [
       {
         "type": 100,
-        "width": 22.86,
+        "width": 45.72,
         "surfaceType": null,
         "numberStart": "14",
         "numberEnd": "32",
-        "latStart": 47.1613987,
-        "lonStart": -94.64942857,
-        "latEnd": 47.15518074,
-        "lonEnd": -94.64278477,
+        "latStart": 47.49840411,
+        "lonStart": -94.95579324,
+        "latEnd": 47.49372143,
+        "lonEnd": -94.94976844,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 26836
-  },
-  {
-    "type": 16,
-    "icao": "MN05",
-    "lat": 47.597175269999994,
-    "lon": -94.84693639,
-    "communications": [],
-    "elevation": 1344,
-    "tower": false,
-    "name": "[S] Jordan",
-    "runways": [
-      {
-        "type": 101,
-        "width": 304.8,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 47.60463322,
-        "lonStart": -94.85209359,
-        "latEnd": 47.58971732,
-        "lonEnd": -94.84177919,
-        "length": 0
-      }
-    ],
-    "id": 34187
-  },
-  {
-    "type": 16,
-    "icao": "96M",
-    "lat": 47.49967388,
-    "lon": -94.94528,
-    "communications": [],
-    "elevation": 1370,
-    "tower": false,
-    "name": "[S] Moberg Air Base",
-    "runways": [
-      {
-        "type": 101,
-        "width": 804.67,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 47.50017902,
-        "lonStart": -94.95597255,
-        "latEnd": 47.49916874,
-        "lonEnd": -94.93458745,
-        "length": 0
-      }
-    ],
-    "id": 34296
+    "id": 21531
   },
   {
     "type": 16,
@@ -374,6 +348,32 @@
         "length": 0
       }
     ],
-    "id": 34501
+    "id": 21588
+  },
+  {
+    "type": 1,
+    "icao": "MY54",
+    "lat": 47.43828583,
+    "lon": -94.81221778,
+    "communications": [],
+    "elevation": 1444,
+    "tower": false,
+    "name": "Cloverleaf-East Bemidji",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 47.43868765,
+        "lonStart": -94.82071329,
+        "latEnd": 47.43788401,
+        "lonEnd": -94.80372227,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 22063
   }
 ]

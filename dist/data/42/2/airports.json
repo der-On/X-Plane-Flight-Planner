@@ -1,61 +1,9 @@
 [
   {
     "type": 1,
-    "icao": "LFNQ",
-    "lat": 42.543501985,
-    "lon": 2.119960465,
-    "communications": [],
-    "elevation": 5528,
-    "tower": true,
-    "name": "Montlouis La Quillane",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 42.54713556,
-        "lonStart": 2.11608816,
-        "latEnd": 42.53986841,
-        "lonEnd": 2.12383277,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 17434
-  },
-  {
-    "type": 1,
-    "icao": "LFNW",
-    "lat": 42.911388,
-    "lon": 2.056111,
-    "communications": [],
-    "elevation": 1608,
-    "tower": false,
-    "name": "Puivert",
-    "runways": [
-      {
-        "type": 100,
-        "width": 99.97,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 42.91397253,
-        "lonStart": 2.05314997,
-        "latEnd": 42.90880347,
-        "lonEnd": 2.05907203,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 20609
-  },
-  {
-    "type": 1,
     "icao": "LFMP",
-    "lat": 42.739338000000004,
-    "lon": 2.8698117499999998,
+    "lat": 42.7393774025,
+    "lon": 2.8697311387499997,
     "communications": [
       {
         "type": 50,
@@ -103,8 +51,8 @@
         "numberEnd": "31",
         "latStart": 42.739898,
         "lonStart": 2.865188,
-        "latEnd": 42.732832,
-        "lonEnd": 2.877706,
+        "latEnd": 42.73314722,
+        "lonEnd": 2.87706111,
         "length": 0,
         "surfacetype": 1
       },
@@ -157,18 +105,70 @@
         "length": 14.94
       }
     ],
-    "id": 21553
+    "id": 20379
+  },
+  {
+    "type": 1,
+    "icao": "LFNQ",
+    "lat": 42.543501985,
+    "lon": 2.119960465,
+    "communications": [],
+    "elevation": 5528,
+    "tower": true,
+    "name": "Montlouis La Quillane",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 42.54713556,
+        "lonStart": 2.11608816,
+        "latEnd": 42.53986841,
+        "lonEnd": 2.12383277,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 20393
+  },
+  {
+    "type": 1,
+    "icao": "LFNW",
+    "lat": 42.911388,
+    "lon": 2.056111,
+    "communications": [],
+    "elevation": 1608,
+    "tower": false,
+    "name": "Puivert",
+    "runways": [
+      {
+        "type": 100,
+        "width": 99.97,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 42.91397253,
+        "lonStart": 2.05314997,
+        "latEnd": 42.90880347,
+        "lonEnd": 2.05907203,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20396
   },
   {
     "type": 1,
     "icao": "LFYS",
-    "lat": 42.44596663666666,
-    "lon": 2.0080910633333335,
+    "lat": 42.44596663666667,
+    "lon": 2.0080911233333336,
     "communications": [
       {
-        "type": 51,
+        "type": 54,
         "frequency": 11862,
-        "name": "SAINTE LEOCADIE MULT"
+        "name": "SAINTE LEOCADIE TWR"
       }
     ],
     "elevation": 4330,
@@ -181,16 +181,16 @@
         "surfaceType": null,
         "numberStart": "7",
         "numberEnd": "25",
-        "latStart": 42.44484953,
-        "lonStart": 2.00148192,
-        "latEnd": 42.44724418,
-        "lonEnd": 2.01042198,
+        "latStart": 42.44481863,
+        "lonStart": 2.00136655,
+        "latEnd": 42.44727508,
+        "lonEnd": 2.01053753,
         "length": 0,
-        "surfacetype": 4
+        "surfacetype": 3
       },
       {
         "type": 102,
-        "width": 20.12,
+        "width": 20.1,
         "surfaceType": 1,
         "numberStart": "H1",
         "numberEnd": null,
@@ -198,9 +198,9 @@
         "lonStart": 2.01236929,
         "latEnd": null,
         "lonEnd": null,
-        "length": 20.12
+        "length": 20.1
       }
     ],
-    "id": 22720
+    "id": 20477
   }
 ]

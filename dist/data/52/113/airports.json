@@ -1,53 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "XIAI",
-    "lat": 52.0735136,
-    "lon": 113.432969635,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12740,
-        "name": "Cheremushki ATIS"
-      },
-      {
-        "type": 54,
-        "frequency": 12400,
-        "name": "Cheremushki Start"
-      },
-      {
-        "type": 55,
-        "frequency": 13000,
-        "name": "Cheremushki Center"
-      },
-      {
-        "type": 56,
-        "frequency": 12850,
-        "name": "Cheremushki Departure"
-      }
-    ],
-    "elevation": 2128,
-    "tower": true,
-    "name": "Cheremushki",
-    "runways": [
-      {
-        "type": 100,
-        "width": 39.93,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 52.08323214,
-        "lonStart": 113.42114112,
-        "latEnd": 52.06379506,
-        "lonEnd": 113.44479815,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 4870
-  },
-  {
-    "type": 1,
     "icao": "UIAA",
     "lat": 52.02758475,
     "lon": 113.30166375,
@@ -104,7 +57,54 @@
         "surfacetype": 2
       }
     ],
-    "id": 13170
+    "id": 30421
+  },
+  {
+    "type": 1,
+    "icao": "XIAI",
+    "lat": 52.0735136,
+    "lon": 113.432969635,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12740,
+        "name": "Cheremushki ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 12400,
+        "name": "Cheremushki Start"
+      },
+      {
+        "type": 55,
+        "frequency": 13000,
+        "name": "Cheremushki Center"
+      },
+      {
+        "type": 56,
+        "frequency": 12850,
+        "name": "Cheremushki Departure"
+      }
+    ],
+    "elevation": 2128,
+    "tower": true,
+    "name": "Cheremushki",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 52.08323214,
+        "lonStart": 113.42114112,
+        "latEnd": 52.06379506,
+        "lonEnd": 113.44479815,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 32419
   },
   {
     "type": 1,
@@ -143,6 +143,6 @@
         "surfacetype": 2
       }
     ],
-    "id": 13641
+    "id": 32421
   }
 ]

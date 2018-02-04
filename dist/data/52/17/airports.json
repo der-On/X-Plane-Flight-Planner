@@ -1,46 +1,69 @@
 [
   {
     "type": 1,
-    "icao": "EPPW",
-    "lat": 52.380675866249994,
-    "lon": 17.85009297,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12850,
-        "name": "INFO"
-      }
-    ],
-    "elevation": 380,
+    "icao": "EPPK",
+    "lat": 52.4332145475,
+    "lon": 17.044496005000003,
+    "communications": [],
+    "elevation": 282,
     "tower": true,
-    "name": "POWIDZ",
+    "name": "POZNAN KOBYLNICA",
     "runways": [
       {
         "type": 100,
-        "width": 60.05,
+        "width": 300.06,
         "surfaceType": null,
-        "numberStart": "11R",
-        "numberEnd": "29L",
-        "latStart": 52.383828,
-        "lonStart": 17.827414,
-        "latEnd": 52.374397,
-        "lonEnd": 17.876772,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 52.42883624,
+        "lonStart": 17.04366439,
+        "latEnd": 52.43489173,
+        "lonEnd": 17.0465123,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 3
       },
       {
         "type": 100,
-        "width": 29.87,
+        "width": 100,
         "surfaceType": null,
-        "numberStart": "11L",
-        "numberEnd": "29R",
-        "latStart": 52.385989,
-        "lonStart": 17.8285,
-        "latEnd": 52.378619,
-        "lonEnd": 17.866703,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 52.43296634,
+        "lonStart": 17.03761453,
+        "latEnd": 52.43616388,
+        "lonEnd": 17.0501928,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 3
+      }
+    ],
+    "id": 1843
+  },
+  {
+    "type": 1,
+    "icao": "EPPW",
+    "lat": 52.380643482500005,
+    "lon": 17.85033869,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12967,
+        "name": "APPROACH"
       },
+      {
+        "type": 54,
+        "frequency": 11900,
+        "name": "TOWER"
+      },
+      {
+        "type": 50,
+        "frequency": 27985,
+        "name": "ATIS"
+      }
+    ],
+    "elevation": 379,
+    "tower": true,
+    "name": "POWIDZ",
+    "runways": [
       {
         "type": 100,
         "width": 29.87,
@@ -68,7 +91,7 @@
         "surfacetype": 2
       }
     ],
-    "id": 19523
+    "id": 1848
   },
   {
     "type": 1,
@@ -107,46 +130,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 19524
-  },
-  {
-    "type": 1,
-    "icao": "EPPK",
-    "lat": 52.4332145475,
-    "lon": 17.044496005000003,
-    "communications": [],
-    "elevation": 282,
-    "tower": true,
-    "name": "POZNAN KOBYLNICA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 300.06,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 52.42883624,
-        "lonStart": 17.04366439,
-        "latEnd": 52.43489173,
-        "lonEnd": 17.0465123,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 100,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 52.43296634,
-        "lonStart": 17.03761453,
-        "latEnd": 52.43616388,
-        "lonEnd": 17.0501928,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 19525
+    "id": 16661
   },
   {
     "type": 1,
@@ -197,6 +181,6 @@
         "length": 0
       }
     ],
-    "id": 27899
+    "id": 16678
   }
 ]

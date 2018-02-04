@@ -2,10 +2,10 @@
   {
     "type": 1,
     "icao": "NZDA",
-    "lat": -35.936735500000005,
-    "lon": 173.888397,
+    "lat": -35.939165905,
+    "lon": 173.89284190749999,
     "communications": [],
-    "elevation": 6,
+    "elevation": 5,
     "tower": false,
     "name": "Dargaville",
     "runways": [
@@ -15,10 +15,10 @@
         "surfaceType": null,
         "numberStart": "04",
         "numberEnd": "22",
-        "latStart": -35.93881891,
-        "lonStart": 173.88384236,
-        "latEnd": -35.93459509,
-        "lonEnd": 173.89365364,
+        "latStart": -35.94142029,
+        "lonStart": 173.88788038,
+        "latEnd": -35.93719647,
+        "lonEnd": 173.89769165,
         "length": 0,
         "surfacetype": 2
       },
@@ -28,104 +28,15 @@
         "surfaceType": null,
         "numberStart": "04L",
         "numberEnd": "22R",
-        "latStart": -35.9387304,
-        "lonStart": 173.88347837,
-        "latEnd": -35.9347976,
-        "lonEnd": 173.89261363,
+        "latStart": -35.94098983,
+        "lonStart": 173.88833017,
+        "latEnd": -35.93705703,
+        "lonEnd": 173.89746543,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 6004
-  },
-  {
-    "type": 1,
-    "icao": "NZKO",
-    "lat": -35.4563335,
-    "lon": 173.8188245,
-    "communications": [],
-    "elevation": 545,
-    "tower": false,
-    "name": "Kaikohe",
-    "runways": [
-      {
-        "type": 100,
-        "width": 139.9,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": -35.44859615,
-        "lonStart": 173.81993166,
-        "latEnd": -35.46236185,
-        "lonEnd": 173.81797634,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": -35.45375873,
-        "lonStart": 173.81580153,
-        "latEnd": -35.46061727,
-        "lonEnd": 173.82158847,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 13537
-  },
-  {
-    "type": 1,
-    "icao": "NZKT",
-    "lat": -35.0713803575,
-    "lon": 173.286011735,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 11910,
-        "name": "CTAF"
-      },
-      {
-        "type": 54,
-        "frequency": 12710,
-        "name": "CHRISTCHURCH FIS"
-      }
-    ],
-    "elevation": 270,
-    "tower": false,
-    "name": "Kaitaia",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": -35.064536,
-        "lonStart": 173.281007,
-        "latEnd": -35.074538,
-        "lonEnd": 173.29048,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": -35.06821964,
-        "lonStart": 173.28858995,
-        "latEnd": -35.07822779,
-        "lonEnd": 173.28396999,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 13543
+    "id": 4223
   },
   {
     "type": 1,
@@ -193,6 +104,95 @@
         "surfacetype": 3
       }
     ],
-    "id": 13778
+    "id": 4240
+  },
+  {
+    "type": 1,
+    "icao": "NZKT",
+    "lat": -35.0713803575,
+    "lon": 173.286011735,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 11910,
+        "name": "CTAF"
+      },
+      {
+        "type": 54,
+        "frequency": 12710,
+        "name": "CHRISTCHURCH FIS"
+      }
+    ],
+    "elevation": 270,
+    "tower": false,
+    "name": "Kaitaia",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -35.064536,
+        "lonStart": 173.281007,
+        "latEnd": -35.074538,
+        "lonEnd": 173.29048,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -35.06821964,
+        "lonStart": 173.28858995,
+        "latEnd": -35.07822779,
+        "lonEnd": 173.28396999,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 4242
+  },
+  {
+    "type": 1,
+    "icao": "NZKO",
+    "lat": -35.4563335,
+    "lon": 173.8188245,
+    "communications": [],
+    "elevation": 545,
+    "tower": false,
+    "name": "Kaikohe",
+    "runways": [
+      {
+        "type": 100,
+        "width": 139.9,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -35.44859615,
+        "lonStart": 173.81993166,
+        "latEnd": -35.46236185,
+        "lonEnd": 173.81797634,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -35.45375873,
+        "lonStart": 173.81580153,
+        "latEnd": -35.46061727,
+        "lonEnd": 173.82158847,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23067
   }
 ]

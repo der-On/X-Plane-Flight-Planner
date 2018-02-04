@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "LOGM",
+    "lat": 47.789884119999996,
+    "lon": 15.300224825,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "Mariazell Flugplatz"
+      }
+    ],
+    "elevation": 2821,
+    "tower": true,
+    "name": "Mariazell",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 47.79252867,
+        "lonStart": 15.29770309,
+        "latEnd": 47.78723957,
+        "lonEnd": 15.30274656,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3847
+  },
+  {
+    "type": 1,
     "icao": "LOGK",
     "lat": 47.458,
     "lon": 15.33,
@@ -23,7 +55,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 13602
+    "id": 20749
   },
   {
     "type": 1,
@@ -49,33 +81,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 14953
-  },
-  {
-    "type": 1,
-    "icao": "LOGM",
-    "lat": 47.790000000000006,
-    "lon": 15.302,
-    "communications": [],
-    "elevation": 2820,
-    "tower": true,
-    "name": "Mariazell",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 47.79311057,
-        "lonStart": 15.29930612,
-        "latEnd": 47.78688943,
-        "lonEnd": 15.30469388,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 16687
+    "id": 20750
   },
   {
     "type": 1,
@@ -101,6 +107,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 27053
+    "id": 20752
   }
 ]

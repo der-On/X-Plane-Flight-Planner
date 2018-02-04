@@ -1,6 +1,56 @@
 [
   {
     "type": 1,
+    "icao": "EGNC",
+    "lat": 54.9383165625,
+    "lon": -2.8101263825,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11842,
+        "name": "Carlisle Info"
+      },
+      {
+        "type": 54,
+        "frequency": 12360,
+        "name": "Carlisle Tower"
+      }
+    ],
+    "elevation": 188,
+    "tower": true,
+    "name": "Carlisle",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 54.93328796,
+        "lonStart": -2.82129372,
+        "latEnd": 54.94161859,
+        "lonEnd": -2.79679228,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 54.935008,
+        "lonStart": -2.811353,
+        "latEnd": 54.9433517,
+        "lonEnd": -2.81106653,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1575
+  },
+  {
+    "type": 1,
     "icao": "EG15",
     "lat": 54.16378356,
     "lon": -2.962468275,
@@ -23,56 +73,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 4548
-  },
-  {
-    "type": 1,
-    "icao": "EGNC",
-    "lat": 54.9383231275,
-    "lon": -2.8101324274999997,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11842,
-        "name": "Carlisle Info"
-      },
-      {
-        "type": 54,
-        "frequency": 12360,
-        "name": "Carlisle Tower"
-      }
-    ],
-    "elevation": 189,
-    "tower": true,
-    "name": "Carlisle",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 54.9333028,
-        "lonStart": -2.82130962,
-        "latEnd": 54.94163001,
-        "lonEnd": -2.79680056,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 54.935008,
-        "lonStart": -2.811353,
-        "latEnd": 54.9433517,
-        "lonEnd": -2.81106653,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 4552
+    "id": 16241
   }
 ]

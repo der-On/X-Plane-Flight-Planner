@@ -1,6 +1,48 @@
 [
   {
     "type": 1,
+    "icao": "LGBL",
+    "lat": 39.219486,
+    "lon": 22.7944665,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "ALMIROS TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12035,
+        "name": "ALMIROS APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12210,
+        "name": "ALMIROS APP"
+      }
+    ],
+    "elevation": 83,
+    "tower": true,
+    "name": "NEA ANCHIALOS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 39.217644,
+        "lonStart": 22.778669,
+        "latEnd": 39.221328,
+        "lonEnd": 22.810264,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20487
+  },
+  {
+    "type": 1,
     "icao": "LGLR",
     "lat": 39.649617750000004,
     "lon": 22.46493925,
@@ -57,49 +99,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 14392
-  },
-  {
-    "type": 1,
-    "icao": "LGBL",
-    "lat": 39.219486,
-    "lon": 22.7944665,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12210,
-        "name": "ALMIROS TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12035,
-        "name": "ALMIROS APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12210,
-        "name": "ALMIROS APP"
-      }
-    ],
-    "elevation": 83,
-    "tower": true,
-    "name": "NEA ANCHIALOS",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 39.217644,
-        "lonStart": 22.778669,
-        "latEnd": 39.221328,
-        "lonEnd": 22.810264,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 17866
+    "id": 20502
   },
   {
     "type": 1,
@@ -131,6 +131,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 22516
+    "id": 20515
   }
 ]

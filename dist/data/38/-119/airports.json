@@ -1,6 +1,32 @@
 [
   {
     "type": 1,
+    "icao": "3Q0",
+    "lat": 38.383258330000004,
+    "lon": -118.10095139,
+    "communications": [],
+    "elevation": 4552,
+    "tower": false,
+    "name": "Mina",
+    "runways": [
+      {
+        "type": 100,
+        "width": 50.29,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 38.38842624,
+        "lonStart": -118.1055677,
+        "latEnd": 38.37809042,
+        "lonEnd": -118.09633508,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 7833
+  },
+  {
+    "type": 1,
     "icao": "KHTH",
     "lat": 38.54554566666666,
     "lon": -118.63123983333332,
@@ -55,33 +81,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 11065
-  },
-  {
-    "type": 1,
-    "icao": "3Q0",
-    "lat": 38.383258330000004,
-    "lon": -118.10095139,
-    "communications": [],
-    "elevation": 4552,
-    "tower": false,
-    "name": "Mina",
-    "runways": [
-      {
-        "type": 100,
-        "width": 50.29,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 38.38842624,
-        "lonStart": -118.1055677,
-        "latEnd": 38.37809042,
-        "lonEnd": -118.09633508,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 17253
+    "id": 19314
   },
   {
     "type": 16,
@@ -106,6 +106,6 @@
         "length": 0
       }
     ],
-    "id": 34517
+    "id": 24328
   }
 ]

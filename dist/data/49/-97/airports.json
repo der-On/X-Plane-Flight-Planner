@@ -2,18 +2,12 @@
   {
     "type": 1,
     "icao": "CJB3",
-    "lat": 49.549304,
-    "lon": -96.6791635,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12270,
-        "name": "CTAF"
-      }
-    ],
+    "lat": 49.55159836,
+    "lon": -96.67996824,
+    "communications": [],
     "elevation": 850,
-    "tower": false,
-    "name": "STEINBACH",
+    "tower": true,
+    "name": "Steinbach Airport",
     "runways": [
       {
         "type": 100,
@@ -21,15 +15,73 @@
         "surfaceType": null,
         "numberStart": "14",
         "numberEnd": "32",
-        "latStart": 49.552775,
-        "lonStart": -96.682219,
-        "latEnd": 49.545833,
-        "lonEnd": -96.676108,
+        "latStart": 49.55445697,
+        "lonStart": -96.68369855,
+        "latEnd": 49.5473236,
+        "lonEnd": -96.6775636,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 49.55230172,
+        "lonStart": -96.68175725,
+        "latEnd": 49.55231115,
+        "lonEnd": -96.67685356,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 22518
+    "id": 669
+  },
+  {
+    "type": 1,
+    "icao": "XCJL5",
+    "lat": 49.85159451,
+    "lon": -96.9718873925,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12320,
+        "name": "Lyncrest Traffic"
+      }
+    ],
+    "elevation": 774,
+    "tower": false,
+    "name": "Winnipeg-Lyncrest",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 49.85599676,
+        "lonStart": -96.96919813,
+        "latEnd": 49.84914576,
+        "lonEnd": -96.96864817,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 36.58,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 49.85104876,
+        "lonStart": -96.98119913,
+        "latEnd": 49.85018676,
+        "lonEnd": -96.96850414,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5327
   },
   {
     "type": 1,
@@ -68,6 +120,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 24157
+    "id": 15323
   }
 ]

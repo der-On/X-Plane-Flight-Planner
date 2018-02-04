@@ -1,13 +1,39 @@
 [
   {
     "type": 1,
-    "icao": "U54",
-    "lat": 44.97963666,
-    "lon": -114.73481362000001,
+    "icao": "0U3",
+    "lat": 44.744548425000005,
+    "lon": -114.92141463,
     "communications": [],
-    "elevation": 3625,
+    "elevation": 4618,
     "tower": false,
-    "name": "Bernard USFS",
+    "name": "Mahoney Creek USFS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 10,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 44.74267089,
+        "lonStart": -114.92476602,
+        "latEnd": 44.74642596,
+        "lonEnd": -114.91806324,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 27
+  },
+  {
+    "type": 1,
+    "icao": "2U7",
+    "lat": 44.20857615,
+    "lon": -114.934560145,
+    "communications": [],
+    "elevation": 6402,
+    "tower": false,
+    "name": "Stanley",
     "runways": [
       {
         "type": 100,
@@ -15,21 +41,47 @@
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 44.98222307,
-        "lonStart": -114.73436467,
-        "latEnd": 44.97705025,
-        "lonEnd": -114.73526257,
+        "latStart": 44.21438097,
+        "lonStart": -114.93280155,
+        "latEnd": 44.20277133,
+        "lonEnd": -114.93631874,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 4
       }
     ],
-    "id": 2602
+    "id": 97
+  },
+  {
+    "type": 1,
+    "icao": "ID67",
+    "lat": 44.808709615,
+    "lon": -114.808860275,
+    "communications": [],
+    "elevation": 4200,
+    "tower": false,
+    "name": "Lower Loon Creek",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 44.81047389,
+        "lonStart": -114.80916615,
+        "latEnd": 44.80694534,
+        "lonEnd": -114.8085544,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 2307
   },
   {
     "type": 1,
     "icao": "KLLJ",
-    "lat": 44.522917,
-    "lon": -114.2175,
+    "lat": 44.523612625,
+    "lon": -114.217954975,
     "communications": [
       {
         "type": 50,
@@ -42,7 +94,7 @@
         "name": "CTAF/UNICOM"
       }
     ],
-    "elevation": 5071,
+    "elevation": 5070,
     "tower": false,
     "name": "CHALLIS",
     "runways": [
@@ -52,15 +104,41 @@
         "surfaceType": null,
         "numberStart": "16",
         "numberEnd": "34",
-        "latStart": 44.529167,
-        "lonStart": -114.217222,
-        "latEnd": 44.516667,
-        "lonEnd": -114.217778,
+        "latStart": 44.52992551,
+        "lonStart": -114.21795361,
+        "latEnd": 44.51729974,
+        "lonEnd": -114.21795634,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 3791
+    "id": 2898
+  },
+  {
+    "type": 1,
+    "icao": "U54",
+    "lat": 44.979720135,
+    "lon": -114.73484912,
+    "communications": [],
+    "elevation": 3625,
+    "tower": false,
+    "name": "Bernard USFS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 44.98229588,
+        "lonStart": -114.73470395,
+        "latEnd": 44.97714439,
+        "lonEnd": -114.73499429,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 5048
   },
   {
     "type": 1,
@@ -86,85 +164,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 9411
-  },
-  {
-    "type": 1,
-    "icao": "ID67",
-    "lat": 44.808245830000004,
-    "lon": -114.80925778,
-    "communications": [],
-    "elevation": 4200,
-    "tower": false,
-    "name": "Lower Loon Creek",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 44.80951108,
-        "lonStart": -114.81041592,
-        "latEnd": 44.80698058,
-        "lonEnd": -114.80809964,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15551
-  },
-  {
-    "type": 1,
-    "icao": "0U3",
-    "lat": 44.744632769999996,
-    "lon": -114.92148362,
-    "communications": [],
-    "elevation": 4618,
-    "tower": false,
-    "name": "Mahoney Creek USFS",
-    "runways": [
-      {
-        "type": 100,
-        "width": 4.57,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 44.74262176,
-        "lonStart": -114.92451993,
-        "latEnd": 44.74664378,
-        "lonEnd": -114.91844731,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 16489
-  },
-  {
-    "type": 1,
-    "icao": "2U7",
-    "lat": 44.208519159999994,
-    "lon": -114.93452805999999,
-    "communications": [],
-    "elevation": 6403,
-    "tower": false,
-    "name": "Stanley",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 44.21437261,
-        "lonStart": -114.9335254,
-        "latEnd": 44.20266571,
-        "lonEnd": -114.93553072,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 24103
+    "id": 13657
   },
   {
     "type": 1,
@@ -190,6 +190,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 25962
+    "id": 30196
   }
 ]

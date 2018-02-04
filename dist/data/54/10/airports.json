@@ -1,64 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "EKAE",
-    "lat": 54.85260278,
-    "lon": 10.45639583,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12317,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 0,
-    "tower": false,
-    "name": "Aeroe",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 54.85565278,
-        "lonStart": 10.45326944,
-        "latEnd": 54.84955278,
-        "lonEnd": 10.45952222,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 645
-  },
-  {
-    "type": 1,
-    "icao": "EK59",
-    "lat": 54.96486376,
-    "lon": 10.41599983,
-    "communications": [],
-    "elevation": 2,
-    "tower": false,
-    "name": "Drejoe",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 54.9660524,
-        "lonStart": 10.41300779,
-        "latEnd": 54.96367512,
-        "lonEnd": 10.41899187,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 6483
-  },
-  {
-    "type": 1,
     "icao": "EDHK",
     "lat": 54.37822095538461,
     "lon": 10.145818156923077,
@@ -223,7 +165,7 @@
         "length": 10.6
       }
     ],
-    "id": 13845
+    "id": 1134
   },
   {
     "type": 1,
@@ -255,7 +197,39 @@
         "surfacetype": 3
       }
     ],
-    "id": 23486
+    "id": 1440
+  },
+  {
+    "type": 1,
+    "icao": "EKAE",
+    "lat": 54.85260278,
+    "lon": 10.45639583,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12317,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 0,
+    "tower": false,
+    "name": "Aeroe",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 54.85565278,
+        "lonStart": 10.45326944,
+        "latEnd": 54.84955278,
+        "lonEnd": 10.45952222,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1677
   },
   {
     "type": 17,
@@ -280,32 +254,7 @@
         "length": 50
       }
     ],
-    "id": 30759
-  },
-  {
-    "type": 17,
-    "icao": "XED2I",
-    "lat": 54.23895759,
-    "lon": 10.27730859,
-    "communications": [],
-    "elevation": 104,
-    "tower": false,
-    "name": "[H] Preetz Klinikum",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 54.23895759,
-        "lonStart": 10.27730859,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.6
-      }
-    ],
-    "id": 32144
+    "id": 5340
   },
   {
     "type": 17,
@@ -330,6 +279,57 @@
         "length": 19.8
       }
     ],
-    "id": 32606
+    "id": 5343
+  },
+  {
+    "type": 17,
+    "icao": "XED2I",
+    "lat": 54.23895759,
+    "lon": 10.27730859,
+    "communications": [],
+    "elevation": 104,
+    "tower": false,
+    "name": "[H] Preetz Klinikum",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 54.23895759,
+        "lonStart": 10.27730859,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.6
+      }
+    ],
+    "id": 5345
+  },
+  {
+    "type": 1,
+    "icao": "EK59",
+    "lat": 54.96486376,
+    "lon": 10.41599983,
+    "communications": [],
+    "elevation": 2,
+    "tower": false,
+    "name": "Drejoe",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 54.9660524,
+        "lonStart": 10.41300779,
+        "latEnd": 54.96367512,
+        "lonEnd": 10.41899187,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16503
   }
 ]

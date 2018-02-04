@@ -2,17 +2,27 @@
   {
     "type": 1,
     "icao": "CYBC",
-    "lat": 49.132270500000004,
-    "lon": -68.207207,
+    "lat": 49.13245383,
+    "lon": -68.20404184,
     "communications": [
       {
         "type": 55,
         "frequency": 13465,
         "name": "MONTREAL CNTR"
+      },
+      {
+        "type": 50,
+        "frequency": 12585,
+        "name": "AWOS"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "MF"
       }
     ],
     "elevation": 70,
-    "tower": false,
+    "tower": true,
     "name": "BAIE COMEAU",
     "runways": [
       {
@@ -21,14 +31,14 @@
         "surfaceType": null,
         "numberStart": "10",
         "numberEnd": "28",
-        "latStart": 49.130919,
-        "lonStart": -68.219567,
-        "latEnd": 49.133622,
-        "lonEnd": -68.194847,
+        "latStart": 49.13100844,
+        "lonStart": -68.21637412,
+        "latEnd": 49.13389922,
+        "lonEnd": -68.19170956,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 1443
+    "id": 727
   }
 ]

@@ -2,12 +2,18 @@
   {
     "type": 1,
     "icao": "EFEU",
-    "lat": 61.116110500000005,
-    "lon": 22.201388,
-    "communications": [],
-    "elevation": 259,
+    "lat": 61.116734015,
+    "lon": 22.198797335000002,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12355,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 258,
     "tower": false,
-    "name": "EURA",
+    "name": "Eura",
     "runways": [
       {
         "type": 100,
@@ -15,92 +21,136 @@
         "surfaceType": null,
         "numberStart": "11",
         "numberEnd": "29",
-        "latStart": 61.118057,
-        "lonStart": 22.193034,
-        "latEnd": 61.114164,
-        "lonEnd": 22.209742,
+        "latStart": 61.11868584,
+        "lonStart": 22.18924607,
+        "latEnd": 61.11478219,
+        "lonEnd": 22.2083486,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 6834
+    "id": 1460
   },
   {
     "type": 1,
     "icao": "EFJM",
-    "lat": 61.7783,
-    "lon": 22.7194,
-    "communications": [],
-    "elevation": 505,
-    "tower": false,
-    "name": "Jamijarvi",
-    "runways": [
+    "lat": 61.7778501225,
+    "lon": 22.714099345,
+    "communications": [
       {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 61.7783,
-        "lonStart": 22.71150548,
-        "latEnd": 61.7783,
-        "lonEnd": 22.72729452,
-        "length": 0,
-        "surfacetype": 1
-      },
+        "type": 51,
+        "frequency": 12365,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 504,
+    "tower": false,
+    "name": "Jämijärvi",
+    "runways": [
       {
         "type": 100,
         "width": 14.94,
         "surfaceType": null,
         "numberStart": "15",
         "numberEnd": "33",
-        "latStart": 61.78153304,
-        "lonStart": 22.71545274,
-        "latEnd": 61.77506696,
-        "lonEnd": 22.72334726,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 12900
-  },
-  {
-    "type": 1,
-    "icao": "EFPI",
-    "lat": 61.24588875,
-    "lon": 22.192687,
-    "communications": [],
-    "elevation": 148,
-    "tower": false,
-    "name": "PIIKAJARVI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 61.250581,
-        "lonStart": 22.191825,
-        "latEnd": 61.240958,
-        "lonEnd": 22.194781,
+        "latStart": 61.77776772,
+        "lonStart": 22.71450795,
+        "latEnd": 61.77106081,
+        "lonEnd": 22.72161537,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 17.98,
+        "width": 18,
         "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 61.248672,
-        "lonStart": 22.184431,
-        "latEnd": 61.243344,
-        "lonEnd": 22.199711,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 61.78157746,
+        "lonStart": 22.70192547,
+        "latEnd": 61.7809945,
+        "lonEnd": 22.71834859,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 19374
+    "id": 1467
+  },
+  {
+    "type": 1,
+    "icao": "EFPI",
+    "lat": 61.24594427,
+    "lon": 22.19267594,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12355,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 147,
+    "tower": false,
+    "name": "Piikajärvi",
+    "runways": [
+      {
+        "type": 100,
+        "width": 10,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 61.25063836,
+        "lonStart": 22.19178326,
+        "latEnd": 61.24102555,
+        "lonEnd": 22.19477115,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 10,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 61.2487193,
+        "lonStart": 22.18444411,
+        "latEnd": 61.24339387,
+        "lonEnd": 22.19970524,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1478
+  },
+  {
+    "type": 1,
+    "icao": "EFVP",
+    "lat": 61.039714195,
+    "lon": 22.591233805,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12355,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 295,
+    "tower": false,
+    "name": "Vampula",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 61.04114405,
+        "lonStart": 22.58239182,
+        "latEnd": 61.03828434,
+        "lonEnd": 22.60007579,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1486
   }
 ]

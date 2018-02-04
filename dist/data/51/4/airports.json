@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "EBAW",
-    "lat": 51.19005757333333,
-    "lon": 4.461493655000001,
+    "lat": 51.189837874,
+    "lon": 4.46034871,
     "communications": [
       {
         "type": 53,
@@ -27,56 +27,394 @@
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 55,
         "surfaceType": null,
         "numberStart": "11",
         "numberEnd": "29",
-        "latStart": 51.19237886,
-        "lonStart": 4.45276224,
-        "latEnd": 51.18779298,
-        "lonEnd": 4.47304168,
+        "latStart": 51.19230693,
+        "lonStart": 4.45283164,
+        "latEnd": 51.18770935,
+        "lonEnd": 4.47320801,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 25.8,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 51.1902104,
+        "lonStart": 4.4541002,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 26.9
+      },
+      {
+        "type": 102,
+        "width": 13,
+        "surfaceType": 15,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 51.19172814,
+        "lonStart": 4.46183559,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13
+      },
+      {
+        "type": 102,
+        "width": 12,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 51.18723455,
+        "lonStart": 4.45976811,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12
+      }
+    ],
+    "id": 943
+  },
+  {
+    "type": 1,
+    "icao": "EBHN",
+    "lat": 51.306161075,
+    "lon": 4.387134545,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12690,
+        "name": "Brussels Info"
+      },
+      {
+        "type": 51,
+        "frequency": 13500,
+        "name": "Hoevenen Radio"
+      }
+    ],
+    "elevation": 32,
+    "tower": false,
+    "name": "Hoevenen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 51.30844774,
+        "lonStart": 4.38484673,
+        "latEnd": 51.30387441,
+        "lonEnd": 4.38942236,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 945
+  },
+  {
+    "type": 1,
+    "icao": "EHGR",
+    "lat": 51.56530532583332,
+    "lon": 4.932841690000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12532,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12357,
+        "name": "RAPCON WEST"
+      }
+    ],
+    "elevation": 48,
+    "tower": true,
+    "name": "Gilze Rijen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 51.569537,
+        "lonStart": 4.911985,
+        "latEnd": 51.565173,
+        "lonEnd": 4.95145,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 49.99,
+        "width": 29.87,
         "surfaceType": null,
-        "numberStart": "11L",
-        "numberEnd": "29R",
-        "latStart": 51.19276395,
-        "lonStart": 4.45782914,
-        "latEnd": 51.18967877,
-        "lonEnd": 4.47147264,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 51.555436,
+        "lonStart": 4.933242,
+        "latEnd": 51.572833,
+        "lonEnd": 4.942094,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       },
       {
         "type": 102,
-        "width": 20.1,
-        "surfaceType": 1,
+        "width": 30.5,
+        "surfaceType": 15,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 51.19021555,
-        "lonStart": 4.45373572,
+        "latStart": 51.56116592,
+        "lonStart": 4.93421994,
         "latEnd": null,
         "lonEnd": null,
-        "length": 20.1
+        "length": 31.6
       },
       {
         "type": 102,
-        "width": 15.9,
-        "surfaceType": 1,
+        "width": 30.5,
+        "surfaceType": 15,
         "numberStart": "H2",
         "numberEnd": null,
-        "latStart": 51.18751533,
-        "lonStart": 4.46012051,
+        "latStart": 51.56096727,
+        "lonStart": 4.93518884,
         "latEnd": null,
         "lonEnd": null,
-        "length": 15.9
+        "length": 31.3
+      },
+      {
+        "type": 102,
+        "width": 30.3,
+        "surfaceType": 15,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 51.5615659,
+        "lonStart": 4.93549403,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 31.4
+      },
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 15,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 51.56176249,
+        "lonStart": 4.93453443,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 31.6
+      },
+      {
+        "type": 102,
+        "width": 39.8,
+        "surfaceType": 15,
+        "numberStart": "H5",
+        "numberEnd": null,
+        "latStart": 51.56897172,
+        "lonStart": 4.93724662,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 41
+      },
+      {
+        "type": 102,
+        "width": 32.9,
+        "surfaceType": 15,
+        "numberStart": "H6",
+        "numberEnd": null,
+        "latStart": 51.5686338,
+        "lonStart": 4.92721099,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 31.8
+      },
+      {
+        "type": 102,
+        "width": 32.8,
+        "surfaceType": 15,
+        "numberStart": "H7",
+        "numberEnd": null,
+        "latStart": 51.56875181,
+        "lonStart": 4.9262121,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 31.6
+      },
+      {
+        "type": 102,
+        "width": 32.7,
+        "surfaceType": 15,
+        "numberStart": "H8",
+        "numberEnd": null,
+        "latStart": 51.568866,
+        "lonStart": 4.92522233,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 31.6
       }
     ],
-    "id": 1103
+    "id": 1641
+  },
+  {
+    "type": 1,
+    "icao": "EHRD",
+    "lat": 51.95538185,
+    "lon": 4.441765026666666,
+    "communications": [
+      {
+        "type": 52,
+        "frequency": 12217,
+        "name": "Rotterdam Delivery"
+      },
+      {
+        "type": 54,
+        "frequency": 11820,
+        "name": "Rotterdam Tower"
+      },
+      {
+        "type": 54,
+        "frequency": 11970,
+        "name": "Rotterdam Tower VDF"
+      },
+      {
+        "type": 55,
+        "frequency": 11905,
+        "name": "SCHIPHOL"
+      },
+      {
+        "type": 55,
+        "frequency": 12120,
+        "name": "SCHIPHOL"
+      },
+      {
+        "type": 55,
+        "frequency": 12702,
+        "name": "Rotterdam Approach"
+      }
+    ],
+    "elevation": -15,
+    "tower": true,
+    "name": "Rotterdam The Hague",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 51.952086,
+        "lonStart": 4.428242,
+        "latEnd": 51.96285,
+        "lonEnd": 4.455081,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 25,
+        "surfaceType": 1,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 51.95120955,
+        "lonStart": 4.44197208,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 25
+      }
+    ],
+    "id": 1650
+  },
+  {
+    "type": 1,
+    "icao": "EHSE",
+    "lat": 51.554992515,
+    "lon": 4.55343318,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12065,
+        "name": "Seppe Radio"
+      }
+    ],
+    "elevation": 29,
+    "tower": true,
+    "name": "Breda International Airport - Seppe",
+    "runways": [
+      {
+        "type": 100,
+        "width": 23,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 51.553446,
+        "lonStart": 4.54775711,
+        "latEnd": 51.55653903,
+        "lonEnd": 4.55910925,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1651
+  },
+  {
+    "type": 1,
+    "icao": "EHWO",
+    "lat": 51.44936302,
+    "lon": 4.3459851,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11850,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12357,
+        "name": "ARRIVAL"
+      },
+      {
+        "type": 55,
+        "frequency": 12357,
+        "name": "RAPCON WEST"
+      }
+    ],
+    "elevation": 62,
+    "tower": true,
+    "name": "Woensdrecht",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 51.445167,
+        "lonStart": 4.325667,
+        "latEnd": 51.452833,
+        "lonEnd": 4.3585,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 51.44783161,
+        "lonStart": 4.34177322,
+        "latEnd": 51.45162047,
+        "lonEnd": 4.35800018,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1659
   },
   {
     "type": 1,
@@ -113,195 +451,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 3127
-  },
-  {
-    "type": 1,
-    "icao": "EBHN",
-    "lat": 51.306160750000004,
-    "lon": 4.387136164999999,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12690,
-        "name": "Brussels Info"
-      },
-      {
-        "type": 51,
-        "frequency": 13500,
-        "name": "Hoevenen Radio"
-      }
-    ],
-    "elevation": 32,
-    "tower": false,
-    "name": "EBHN",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.99,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 51.30849937,
-        "lonStart": 4.38481395,
-        "latEnd": 51.30382213,
-        "lonEnd": 4.38945838,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 6637
-  },
-  {
-    "type": 1,
-    "icao": "EHGR",
-    "lat": 51.56574475,
-    "lon": 4.93469275,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12532,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12357,
-        "name": "RAPCON WEST"
-      }
-    ],
-    "elevation": 49,
-    "tower": true,
-    "name": "Gilze Rijen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 51.569537,
-        "lonStart": 4.911985,
-        "latEnd": 51.565173,
-        "lonEnd": 4.95145,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 51.555436,
-        "lonStart": 4.933242,
-        "latEnd": 51.572833,
-        "lonEnd": 4.942094,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 10489
-  },
-  {
-    "type": 1,
-    "icao": "EHRD",
-    "lat": 51.95538185,
-    "lon": 4.441765026666666,
-    "communications": [
-      {
-        "type": 53,
-        "frequency": 12217,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11820,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 11970,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11905,
-        "name": "SCHIPHOL"
-      },
-      {
-        "type": 55,
-        "frequency": 12120,
-        "name": "SCHIPHOL"
-      },
-      {
-        "type": 55,
-        "frequency": 12702,
-        "name": "APP"
-      }
-    ],
-    "elevation": -15,
-    "tower": true,
-    "name": "Rotterdam The Hague",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 51.952086,
-        "lonStart": 4.428242,
-        "latEnd": 51.96285,
-        "lonEnd": 4.455081,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 25,
-        "surfaceType": 1,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 51.95120955,
-        "lonStart": 4.44197208,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 25
-      }
-    ],
-    "id": 21770
-  },
-  {
-    "type": 1,
-    "icao": "EHSE",
-    "lat": 51.55494544,
-    "lon": 4.55323068,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12065,
-        "name": "Seppe Radio"
-      }
-    ],
-    "elevation": 30,
-    "tower": true,
-    "name": "Seppe",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 51.55339688,
-        "lonStart": 4.54763744,
-        "latEnd": 51.556494,
-        "lonEnd": 4.55882392,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 23273
+    "id": 16128
   },
   {
     "type": 1,
@@ -333,49 +483,7 @@
         "surfacetype": 2
       }
     ],
-    "id": 26558
-  },
-  {
-    "type": 1,
-    "icao": "EHWO",
-    "lat": 51.449,
-    "lon": 4.3420835,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11850,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12357,
-        "name": "ARRIVAL"
-      },
-      {
-        "type": 55,
-        "frequency": 12357,
-        "name": "RAPCON WEST"
-      }
-    ],
-    "elevation": 62,
-    "tower": true,
-    "name": "Woensdrecht",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 51.445167,
-        "lonStart": 4.325667,
-        "latEnd": 51.452833,
-        "lonEnd": 4.3585,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 27488
+    "id": 16157
   },
   {
     "type": 1,
@@ -407,6 +515,6 @@
         "surfacetype": 2
       }
     ],
-    "id": 27918
+    "id": 16159
   }
 ]

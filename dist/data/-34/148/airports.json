@@ -1,29 +1,48 @@
 [
   {
     "type": 1,
-    "icao": "YCWW",
-    "lat": -33.543048915,
-    "lon": 148.663680905,
-    "communications": [],
-    "elevation": 1073,
-    "tower": false,
-    "name": "CANOWINDRA",
+    "icao": "YPKS",
+    "lat": -33.130944555,
+    "lon": 148.23774356500002,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12670,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1068,
+    "tower": true,
+    "name": "Parkes",
     "runways": [
       {
         "type": 100,
-        "width": 22.86,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "1",
-        "numberEnd": "19",
-        "latStart": -33.53615839,
-        "lonStart": 148.66495792,
-        "latEnd": -33.54993944,
-        "lonEnd": 148.66240389,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": -33.13723209,
+        "lonStart": 148.2305882,
+        "latEnd": -33.12848955,
+        "lonEnd": 148.24533319,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 24.08,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -33.12485732,
+        "lonStart": 148.23040628,
+        "latEnd": -33.13319926,
+        "lonEnd": 148.24464659,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "id": 3622
+    "id": 5602
   },
   {
     "type": 1,
@@ -62,7 +81,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 4260
+    "id": 33068
   },
   {
     "type": 1,
@@ -107,7 +126,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 5433
+    "id": 33091
+  },
+  {
+    "type": 1,
+    "icao": "YCWW",
+    "lat": -33.543048915,
+    "lon": 148.663680905,
+    "communications": [],
+    "elevation": 1073,
+    "tower": false,
+    "name": "CANOWINDRA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "1",
+        "numberEnd": "19",
+        "latStart": -33.53615839,
+        "lonStart": 148.66495792,
+        "latEnd": -33.54993944,
+        "lonEnd": 148.66240389,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 33093
   },
   {
     "type": 1,
@@ -146,52 +191,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 10168
-  },
-  {
-    "type": 1,
-    "icao": "YPKS",
-    "lat": -33.130944555,
-    "lon": 148.23774356500002,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12670,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 1069,
-    "tower": false,
-    "name": "Parkes",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": -33.13723209,
-        "lonStart": 148.2305882,
-        "latEnd": -33.12848955,
-        "lonEnd": 148.24533319,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 24.08,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": -33.12485732,
-        "lonStart": 148.23040628,
-        "latEnd": -33.13319926,
-        "lonEnd": 148.24464659,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19794
+    "id": 33370
   },
   {
     "type": 1,
@@ -230,6 +230,6 @@
         "surfacetype": 4
       }
     ],
-    "id": 26575
+    "id": 34696
   }
 ]

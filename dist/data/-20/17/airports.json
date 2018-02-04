@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "FYTM",
+    "lat": -19.2621145,
+    "lon": 17.7324645,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12480,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 4353,
+    "tower": false,
+    "name": "TSUMEB",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.07,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -19.260005,
+        "lonStart": 17.725505,
+        "latEnd": -19.264224,
+        "lonEnd": 17.739424,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2221
+  },
+  {
+    "type": 1,
     "icao": "FY11",
     "lat": -19.6213,
     "lon": 17.19885,
@@ -23,7 +55,7 @@
         "surfacetype": 5
       }
     ],
-    "id": 7805
+    "id": 17407
   },
   {
     "type": 1,
@@ -49,7 +81,7 @@
         "surfacetype": 5
       }
     ],
-    "id": 10376
+    "id": 17413
   },
   {
     "type": 1,
@@ -75,7 +107,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 14058
+    "id": 17522
   },
   {
     "type": 1,
@@ -101,7 +133,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 19067
+    "id": 17570
   },
   {
     "type": 1,
@@ -127,38 +159,6 @@
         "surfacetype": 5
       }
     ],
-    "id": 21476
-  },
-  {
-    "type": 1,
-    "icao": "FYTM",
-    "lat": -19.261904,
-    "lon": 17.7324985,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12480,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 4353,
-    "tower": false,
-    "name": "TSUMEB",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.07,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": -19.259808,
-        "lonStart": 17.725597,
-        "latEnd": -19.264,
-        "lonEnd": 17.7394,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 24886
+    "id": 17577
   }
 ]

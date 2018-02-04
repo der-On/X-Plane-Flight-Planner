@@ -1,6 +1,53 @@
 [
   {
     "type": 1,
+    "icao": "EGNT",
+    "lat": 55.037949874999995,
+    "lon": -1.68979817,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11837,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12172,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11970,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12437,
+        "name": "APP"
+      }
+    ],
+    "elevation": 266,
+    "tower": true,
+    "name": "Newcastle",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 55.03356137,
+        "lonStart": -1.70633334,
+        "latEnd": 55.04233838,
+        "lonEnd": -1.673263,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1585
+  },
+  {
+    "type": 1,
     "icao": "EG34",
     "lat": 55.278396599999994,
     "lon": -1.72056915,
@@ -36,53 +83,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 7272
-  },
-  {
-    "type": 1,
-    "icao": "EGNT",
-    "lat": 55.037921499999996,
-    "lon": -1.68983288,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11837,
-        "name": "ATIS"
-      },
-      {
-        "type": 53,
-        "frequency": 12172,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11970,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12437,
-        "name": "APP"
-      }
-    ],
-    "elevation": 266,
-    "tower": true,
-    "name": "Newcastle",
-    "runways": [
-      {
-        "type": 100,
-        "width": 46.02,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 55.033533,
-        "lonStart": -1.70636788,
-        "latEnd": 55.04231,
-        "lonEnd": -1.67329788,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 18273
+    "id": 16252
   }
 ]

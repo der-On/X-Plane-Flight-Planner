@@ -1,6 +1,32 @@
 [
   {
     "type": 1,
+    "icao": "WWLD",
+    "lat": -32.882824330000005,
+    "lon": 151.67233082500002,
+    "communications": [],
+    "elevation": 20,
+    "tower": false,
+    "name": "West Wallsend",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.98,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -32.88536054,
+        "lonStart": 151.67000421,
+        "latEnd": -32.88028812,
+        "lonEnd": 151.67465744,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 5295
+  },
+  {
+    "type": 1,
     "icao": "YCNK",
     "lat": -32.784839399999996,
     "lon": 151.34012949,
@@ -29,7 +55,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 4739
+    "id": 33003
   },
   {
     "type": 1,
@@ -61,7 +87,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 6330
+    "id": 33159
   },
   {
     "type": 1,
@@ -100,7 +126,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 6721
+    "id": 33203
   },
   {
     "type": 1,
@@ -126,7 +152,32 @@
         "surfacetype": 3
       }
     ],
-    "id": 10038
+    "id": 33320
+  },
+  {
+    "type": 17,
+    "icao": "YLID",
+    "lat": -32.418068,
+    "lon": 151.033713,
+    "communications": [],
+    "elevation": 372,
+    "tower": false,
+    "name": "[H] LIDDELL",
+    "runways": [
+      {
+        "type": 102,
+        "width": 29.9,
+        "surfaceType": 3,
+        "numberStart": "H16",
+        "numberEnd": null,
+        "latStart": -32.418068,
+        "lonStart": 151.033713,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.9
+      }
+    ],
+    "id": 33685
   },
   {
     "type": 1,
@@ -202,7 +253,38 @@
         "surfacetype": 1
       }
     ],
-    "id": 16501
+    "id": 33896
+  },
+  {
+    "type": 17,
+    "icao": "YNRH",
+    "lat": -32.87908851,
+    "lon": 151.72803036,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "Williamtown TWR"
+      }
+    ],
+    "elevation": 22,
+    "tower": true,
+    "name": "[H] Newcastle Regional Heliport",
+    "runways": [
+      {
+        "type": 102,
+        "width": 10.1,
+        "surfaceType": 2,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": -32.87908851,
+        "lonStart": 151.72803036,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.1
+      }
+    ],
+    "id": 34069
   },
   {
     "type": 1,
@@ -234,7 +316,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 23550
+    "id": 34404
   },
   {
     "type": 1,
@@ -266,45 +348,13 @@
         "surfacetype": 3
       }
     ],
-    "id": 26920
-  },
-  {
-    "type": 1,
-    "icao": "WWLD",
-    "lat": -32.880001,
-    "lon": 151.66000400000001,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12600,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 20,
-    "tower": false,
-    "name": "West Wallsend",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": -32.88294186,
-        "lonStart": 151.65798223,
-        "latEnd": -32.87706014,
-        "lonEnd": 151.66202577,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 27134
+    "id": 34736
   },
   {
     "type": 1,
     "icao": "YWLM",
-    "lat": -32.795878,
-    "lon": 151.83479549999998,
+    "lat": -32.79686961,
+    "lon": 151.83618172,
     "communications": [
       {
         "type": 50,
@@ -349,13 +399,13 @@
         "numberEnd": "30",
         "latStart": -32.788767,
         "lonStart": 151.824869,
-        "latEnd": -32.802989,
-        "lonEnd": 151.844722,
+        "latEnd": -32.80497222,
+        "lonEnd": 151.84749444,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 27348
+    "id": 34743
   },
   {
     "type": 17,
@@ -404,62 +454,6 @@
         "length": 10.1
       }
     ],
-    "id": 28592
-  },
-  {
-    "type": 17,
-    "icao": "YLID",
-    "lat": -32.418068,
-    "lon": 151.033713,
-    "communications": [],
-    "elevation": 372,
-    "tower": false,
-    "name": "[H] LIDDELL",
-    "runways": [
-      {
-        "type": 102,
-        "width": 29.9,
-        "surfaceType": 3,
-        "numberStart": "H16",
-        "numberEnd": null,
-        "latStart": -32.418068,
-        "lonStart": 151.033713,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 29.9
-      }
-    ],
-    "id": 30790
-  },
-  {
-    "type": 17,
-    "icao": "YNRH",
-    "lat": -32.87908851,
-    "lon": 151.72803036,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11830,
-        "name": "Williamtown TWR"
-      }
-    ],
-    "elevation": 22,
-    "tower": true,
-    "name": "[H] Newcastle Regional Heliport",
-    "runways": [
-      {
-        "type": 102,
-        "width": 10.1,
-        "surfaceType": 2,
-        "numberStart": "H4",
-        "numberEnd": null,
-        "latStart": -32.87908851,
-        "lonStart": 151.72803036,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.1
-      }
-    ],
-    "id": 31603
+    "id": 34827
   }
 ]

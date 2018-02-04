@@ -1,35 +1,189 @@
 [
   {
     "type": 1,
-    "icao": "RKRB",
-    "lat": 37.4749305,
-    "lon": 126.74721,
+    "icao": "RKSI",
+    "lat": 37.465440666666666,
+    "lon": 126.44320966666668,
     "communications": [
+      {
+        "type": 50,
+        "frequency": 12819,
+        "name": "INCHEON ATIS"
+      },
+      {
+        "type": 50,
+        "frequency": 12840,
+        "name": "INCHEON ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 12100,
+        "name": "INCHEON CLD"
+      },
+      {
+        "type": 52,
+        "frequency": 12162,
+        "name": "INCHEON CLD"
+      },
+      {
+        "type": 53,
+        "frequency": 12140,
+        "name": "INCHEON GND"
+      },
+      {
+        "type": 53,
+        "frequency": 12177,
+        "name": "INCHEON GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11820,
+        "name": "INCHEON TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11880,
+        "name": "INCHEON TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11975,
+        "name": "SEOUL APP"
+      },
       {
         "type": 55,
         "frequency": 12080,
         "name": "SEOUL APP"
+      },
+      {
+        "type": 56,
+        "frequency": 12135,
+        "name": "SEOUL DEP"
+      },
+      {
+        "type": 56,
+        "frequency": 12325,
+        "name": "SEOUL DEP"
+      },
+      {
+        "type": 56,
+        "frequency": 12420,
+        "name": "SEOUL DEP"
+      },
+      {
+        "type": 56,
+        "frequency": 12515,
+        "name": "SEOUL DEP"
       }
     ],
-    "elevation": 92,
-    "tower": false,
-    "name": "G 103",
+    "elevation": 21,
+    "tower": true,
+    "name": "Seoul Incheon Intl",
     "runways": [
       {
         "type": 100,
-        "width": 30.18,
+        "width": 60.05,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 37.476858,
-        "lonStart": 126.746464,
-        "latEnd": 37.473003,
-        "lonEnd": 126.747956,
+        "numberStart": "15L",
+        "numberEnd": "33R",
+        "latStart": 37.48395,
+        "lonStart": 126.440147,
+        "latEnd": 37.456382,
+        "lonEnd": 126.464653,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "15R",
+        "numberEnd": "33L",
+        "latStart": 37.4818,
+        "lonStart": 126.436313,
+        "latEnd": 37.454232,
+        "lonEnd": 126.460819,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 37.472835,
+        "lonStart": 126.415597,
+        "latEnd": 37.443445,
+        "lonEnd": 126.441729,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 9800
+    "id": 4471
+  },
+  {
+    "type": 1,
+    "icao": "RKSS",
+    "lat": 37.54713998,
+    "lon": 126.80393342166666,
+    "communications": [],
+    "elevation": 59,
+    "tower": true,
+    "name": "Gimpo International",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "14R",
+        "numberEnd": "32L",
+        "latStart": 37.55863796,
+        "lonStart": 126.78891371,
+        "latEnd": 37.5382464,
+        "lonEnd": 126.81449034,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "14L",
+        "numberEnd": "32R",
+        "latStart": 37.56091666,
+        "lonStart": 126.7917997,
+        "latEnd": 37.53799169,
+        "lonEnd": 126.82057314,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 24.4,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 37.54616904,
+        "lonStart": 126.80060258,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.4
+      },
+      {
+        "type": 102,
+        "width": 21.3,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 37.54087813,
+        "lonStart": 126.80722106,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21.3
+      }
+    ],
+    "id": 4472
   },
   {
     "type": 1,
@@ -55,39 +209,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 9801
-  },
-  {
-    "type": 1,
-    "icao": "RKRP",
-    "lat": 37.7626125,
-    "lon": 126.7931095,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13110,
-        "name": "PA JU TWR"
-      }
-    ],
-    "elevation": 65,
-    "tower": true,
-    "name": "G 110",
-    "runways": [
-      {
-        "type": 100,
-        "width": 16.76,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 37.764631,
-        "lonStart": 126.791947,
-        "latEnd": 37.760594,
-        "lonEnd": 126.794272,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 9802
+    "id": 24464
   },
   {
     "type": 1,
@@ -119,7 +241,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 9806
+    "id": 24465
   },
   {
     "type": 1,
@@ -145,191 +267,70 @@
         "surfacetype": 1
       }
     ],
-    "id": 9808
+    "id": 24503
   },
   {
     "type": 1,
-    "icao": "RKSI",
-    "lat": 37.46908475,
-    "lon": 126.45050575,
+    "icao": "RKRB",
+    "lat": 37.4749305,
+    "lon": 126.74721,
     "communications": [
-      {
-        "type": 50,
-        "frequency": 12840,
-        "name": "ATIS"
-      },
-      {
-        "type": 52,
-        "frequency": 12162,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 53,
-        "frequency": 12177,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11880,
-        "name": "TWR"
-      },
       {
         "type": 55,
         "frequency": 12080,
         "name": "SEOUL APP"
-      },
-      {
-        "type": 56,
-        "frequency": 12515,
-        "name": "SEOUL DEP"
       }
     ],
-    "elevation": 23,
-    "tower": true,
-    "name": "Incheon Intl",
+    "elevation": 92,
+    "tower": false,
+    "name": "G 103",
     "runways": [
       {
         "type": 100,
-        "width": 60.05,
+        "width": 30.18,
         "surfaceType": null,
-        "numberStart": "15R",
-        "numberEnd": "33L",
-        "latStart": 37.481789,
-        "lonStart": 126.436339,
-        "latEnd": 37.454225,
-        "lonEnd": 126.460856,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "15L",
-        "numberEnd": "33R",
-        "latStart": 37.483944,
-        "lonStart": 126.440156,
-        "latEnd": 37.456381,
-        "lonEnd": 126.464672,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 37.476858,
+        "lonStart": 126.746464,
+        "latEnd": 37.473003,
+        "lonEnd": 126.747956,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 12462
+    "id": 24504
   },
   {
     "type": 1,
-    "icao": "RKSS",
-    "lat": 37.55831025,
-    "lon": 126.79058375,
+    "icao": "RKRP",
+    "lat": 37.7626125,
+    "lon": 126.7931095,
     "communications": [
       {
-        "type": 50,
-        "frequency": 12640,
-        "name": "ATIS"
-      },
-      {
-        "type": 52,
-        "frequency": 12260,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 52,
-        "frequency": 12585,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 53,
-        "frequency": 12125,
-        "name": "GND"
-      },
-      {
-        "type": 53,
-        "frequency": 12195,
-        "name": "GND"
-      },
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "GND"
-      },
-      {
         "type": 54,
-        "frequency": 12710,
-        "name": "SEOUL RDO"
-      },
-      {
-        "type": 54,
-        "frequency": 11805,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 11810,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12080,
-        "name": "SEOUL APP"
-      },
-      {
-        "type": 55,
-        "frequency": 11975,
-        "name": "SEOUL APP"
-      },
-      {
-        "type": 55,
-        "frequency": 11990,
-        "name": "SEOUL APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12550,
-        "name": "SEOUL APP"
-      },
-      {
-        "type": 56,
-        "frequency": 12515,
-        "name": "SEOUL DEP"
-      },
-      {
-        "type": 56,
-        "frequency": 12480,
-        "name": "SEOUL DEP"
+        "frequency": 13110,
+        "name": "PA JU TWR"
       }
     ],
-    "elevation": 58,
+    "elevation": 65,
     "tower": true,
-    "name": "Seoul Gimpo",
+    "name": "G 110",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 16.76,
         "surfaceType": null,
-        "numberStart": "14L",
-        "numberEnd": "32R",
-        "latStart": 37.570297,
-        "lonStart": 126.778422,
-        "latEnd": 37.547353,
-        "lonEnd": 126.807222,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "14R",
-        "numberEnd": "32L",
-        "latStart": 37.567983,
-        "lonStart": 126.775533,
-        "latEnd": 37.547608,
-        "lonEnd": 126.801158,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 37.764631,
+        "lonStart": 126.791947,
+        "latEnd": 37.760594,
+        "lonEnd": 126.794272,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 23272
+    "id": 24509
   }
 ]

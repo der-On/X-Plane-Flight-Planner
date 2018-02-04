@@ -1,9 +1,41 @@
 [
   {
     "type": 1,
+    "icao": "1L9",
+    "lat": 37.859622665,
+    "lon": -112.81591637,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 5930,
+    "tower": false,
+    "name": "Parowan",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "4",
+        "numberEnd": "22",
+        "latStart": 37.85552335,
+        "lonStart": -112.82287922,
+        "latEnd": 37.86372198,
+        "lonEnd": -112.80895352,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 49
+  },
+  {
+    "type": 1,
     "icao": "KBCE",
-    "lat": 37.7063695,
-    "lon": -112.1454705,
+    "lat": 37.70469172666667,
+    "lon": -112.14875056333335,
     "communications": [
       {
         "type": 50,
@@ -16,7 +48,7 @@
         "name": "CTAF/UNICOM"
       }
     ],
-    "elevation": 7589,
+    "elevation": 7588,
     "tower": false,
     "name": "BRYCE CANYON",
     "runways": [
@@ -26,15 +58,243 @@
         "surfaceType": null,
         "numberStart": "03",
         "numberEnd": "21",
-        "latStart": 37.699375,
-        "lonStart": -112.154747,
-        "latEnd": 37.713364,
-        "lonEnd": -112.136194,
+        "latStart": 37.699487,
+        "lonStart": -112.155124,
+        "latEnd": 37.713391,
+        "lonEnd": -112.136514,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 37.70119718,
+        "lonStart": -112.15461369,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 2393
+  },
+  {
+    "type": 1,
+    "icao": "KKNB",
+    "lat": 37.01049378333334,
+    "lon": -112.53106442,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13317,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 4868,
+    "tower": false,
+    "name": "Kenab Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 37.00256743,
+        "lonStart": -112.53528744,
+        "latEnd": 37.01847701,
+        "lonEnd": -112.52770174,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H47",
+        "numberEnd": null,
+        "latStart": 37.01043691,
+        "lonStart": -112.53020408,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 2863
+  },
+  {
+    "type": 1,
+    "icao": "U55",
+    "lat": 37.8452195,
+    "lon": -112.39195050000001,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13312,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 6758,
+    "tower": false,
+    "name": "PANGUITCH MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 37.852682,
+        "lonStart": -112.38899,
+        "latEnd": 37.837757,
+        "lonEnd": -112.394911,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 1946
+    "id": 5049
+  },
+  {
+    "type": 1,
+    "icao": "00UT",
+    "lat": 37.2475,
+    "lon": -112.822225,
+    "communications": [],
+    "elevation": 6138,
+    "tower": false,
+    "name": "CLEAR CREEK RANCH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 37.249722,
+        "lonStart": -112.8275,
+        "latEnd": 37.245278,
+        "lonEnd": -112.81695,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 6204
+  },
+  {
+    "type": 1,
+    "icao": "1L5",
+    "lat": 37.47220305,
+    "lon": -112.62215695,
+    "communications": [],
+    "elevation": 7780,
+    "tower": false,
+    "name": "Swains Creek",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 37.46518671,
+        "lonStart": -112.62609305,
+        "latEnd": 37.47921939,
+        "lonEnd": -112.61822085,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 6491
+  },
+  {
+    "type": 1,
+    "icao": "UT15",
+    "lat": 37.928585,
+    "lon": -112.76883223,
+    "communications": [],
+    "elevation": 5764,
+    "tower": false,
+    "name": "Flying Cal Ute Rancheros",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 37.93033687,
+        "lonStart": -112.77774015,
+        "latEnd": 37.92683313,
+        "lonEnd": -112.75992431,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 30529
+  },
+  {
+    "type": 1,
+    "icao": "UT17",
+    "lat": 37.93220027,
+    "lon": -112.33187112,
+    "communications": [],
+    "elevation": 7040,
+    "tower": false,
+    "name": "Pfeiler Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 37.93260209,
+        "lonStart": -112.33915646,
+        "latEnd": 37.93179845,
+        "lonEnd": -112.32458578,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 30531
+  },
+  {
+    "type": 1,
+    "icao": "UT24",
+    "lat": 37.49331361,
+    "lon": -112.64549084000001,
+    "communications": [],
+    "elevation": 8141,
+    "tower": false,
+    "name": "Strawberry Valley Estates",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 37.48917003,
+        "lonStart": -112.65053406,
+        "latEnd": 37.49745719,
+        "lonEnd": -112.64044762,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 30538
   },
   {
     "type": 1,
@@ -73,59 +333,7 @@
         "surfacetype": 5
       }
     ],
-    "id": 3305
-  },
-  {
-    "type": 1,
-    "icao": "00UT",
-    "lat": 37.2475,
-    "lon": -112.822225,
-    "communications": [],
-    "elevation": 6138,
-    "tower": false,
-    "name": "CLEAR CREEK RANCH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 37.249722,
-        "lonStart": -112.8275,
-        "latEnd": 37.245278,
-        "lonEnd": -112.81695,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 3973
-  },
-  {
-    "type": 1,
-    "icao": "UT37",
-    "lat": 37.266927769999995,
-    "lon": -112.70076695,
-    "communications": [],
-    "elevation": 5589,
-    "tower": false,
-    "name": "Carmel Mountain Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 37.27102445,
-        "lonStart": -112.70609758,
-        "latEnd": 37.26283109,
-        "lonEnd": -112.69543632,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 4566
+    "id": 30539
   },
   {
     "type": 1,
@@ -151,216 +359,32 @@
         "surfacetype": 4
       }
     ],
-    "id": 6145
+    "id": 30542
   },
   {
     "type": 1,
-    "icao": "UT15",
-    "lat": 37.928585,
-    "lon": -112.76883223,
+    "icao": "UT37",
+    "lat": 37.266927769999995,
+    "lon": -112.70076695,
     "communications": [],
-    "elevation": 5764,
+    "elevation": 5589,
     "tower": false,
-    "name": "Flying Cal Ute Rancheros",
+    "name": "Carmel Mountain Ranch",
     "runways": [
       {
         "type": 100,
         "width": 24.38,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 37.93033687,
-        "lonStart": -112.77774015,
-        "latEnd": 37.92683313,
-        "lonEnd": -112.75992431,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 9419
-  },
-  {
-    "type": 1,
-    "icao": "KKNB",
-    "lat": 37.010523500000005,
-    "lon": -112.5314695,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13317,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 4868,
-    "tower": false,
-    "name": "KANAB MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 37.002586,
-        "lonStart": -112.535256,
-        "latEnd": 37.018461,
-        "lonEnd": -112.527683,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 13216
-  },
-  {
-    "type": 1,
-    "icao": "U55",
-    "lat": 37.845274,
-    "lon": -112.3918655,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13312,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 6759,
-    "tower": false,
-    "name": "PANGUITCH MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 37.852774,
-        "lonStart": -112.389088,
-        "latEnd": 37.837774,
-        "lonEnd": -112.394643,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19198
-  },
-  {
-    "type": 1,
-    "icao": "1L9",
-    "lat": 37.859446,
-    "lon": -112.81583599999999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 5930,
-    "tower": false,
-    "name": "PAROWAN",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 37.855556,
-        "lonStart": -112.823061,
-        "latEnd": 37.863336,
-        "lonEnd": -112.808611,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19233
-  },
-  {
-    "type": 1,
-    "icao": "UT17",
-    "lat": 37.93220027,
-    "lon": -112.33187112,
-    "communications": [],
-    "elevation": 7040,
-    "tower": false,
-    "name": "Pfeiler Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 37.93260209,
-        "lonStart": -112.33915646,
-        "latEnd": 37.93179845,
-        "lonEnd": -112.32458578,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 37.27102445,
+        "lonStart": -112.70609758,
+        "latEnd": 37.26283109,
+        "lonEnd": -112.69543632,
         "length": 0,
         "surfacetype": 4
       }
     ],
-    "id": 20043
-  },
-  {
-    "type": 1,
-    "icao": "UT24",
-    "lat": 37.49331361,
-    "lon": -112.64549084000001,
-    "communications": [],
-    "elevation": 8141,
-    "tower": false,
-    "name": "Strawberry Valley Estates",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 37.48917003,
-        "lonStart": -112.65053406,
-        "latEnd": 37.49745719,
-        "lonEnd": -112.64044762,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 24274
-  },
-  {
-    "type": 1,
-    "icao": "1L5",
-    "lat": 37.47220305,
-    "lon": -112.62215695,
-    "communications": [],
-    "elevation": 7780,
-    "tower": false,
-    "name": "Swains Creek",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 37.46518671,
-        "lonStart": -112.62609305,
-        "latEnd": 37.47921939,
-        "lonEnd": -112.61822085,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 24451
+    "id": 30548
   }
 ]

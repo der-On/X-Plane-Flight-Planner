@@ -1,45 +1,112 @@
 [
   {
     "type": 1,
+    "icao": "LFOH",
+    "lat": 49.534755275,
+    "lon": 0.09259648000000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13520,
+        "name": "LE HAVRE INFO"
+      },
+      {
+        "type": 55,
+        "frequency": 12035,
+        "name": "DEAUVILLE APP"
+      }
+    ],
+    "elevation": 312,
+    "tower": true,
+    "name": "Le Havre-Octeville",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.94,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 49.52651128,
+        "lonStart": 0.07756808,
+        "latEnd": 49.54163327,
+        "lonEnd": 0.09935175,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 10.3,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 49.53492512,
+        "lonStart": 0.09645082,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.4
+      },
+      {
+        "type": 102,
+        "width": 11.9,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 49.53595143,
+        "lonStart": 0.09701527,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.9
+      }
+    ],
+    "id": 3645
+  },
+  {
+    "type": 1,
     "icao": "LFPD",
-    "lat": 49.102778,
-    "lon": 0.566667,
-    "communications": [],
-    "elevation": 554,
-    "tower": false,
+    "lat": 49.10243889,
+    "lon": 0.5655737249999999,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 12142,
+        "name": "DEAUVILLE INFO"
+      },
+      {
+        "type": 54,
+        "frequency": 11922,
+        "name": "BERNAY INFO"
+      }
+    ],
+    "elevation": 555,
+    "tower": true,
     "name": "Bernay Saint Martin",
     "runways": [
       {
         "type": 100,
-        "width": 79.86,
+        "width": 80,
         "surfaceType": null,
         "numberStart": "10",
         "numberEnd": "28",
-        "latStart": 49.10352928,
-        "lonStart": 0.55850201,
-        "latEnd": 49.10202672,
-        "lonEnd": 0.57483199,
+        "latStart": 49.10318036,
+        "lonStart": 0.55740457,
+        "latEnd": 49.10169742,
+        "lonEnd": 0.57374288,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 2603
+    "id": 3652
   },
   {
     "type": 1,
     "icao": "LFRG",
-    "lat": 49.365296,
-    "lon": 0.1543235,
+    "lat": 49.36530376,
+    "lon": 0.154325015,
     "communications": [
       {
         "type": 50,
-        "frequency": 13615,
+        "frequency": 11917,
         "name": "ATIS"
-      },
-      {
-        "type": 51,
-        "frequency": 12035,
-        "name": "DEAUVILLE INFO"
       },
       {
         "type": 51,
@@ -63,150 +130,19 @@
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 45,
         "surfaceType": null,
         "numberStart": "12",
         "numberEnd": "30",
-        "latStart": 49.370528,
-        "lonStart": 0.138714,
-        "latEnd": 49.360064,
-        "lonEnd": 0.169933,
+        "latStart": 49.37055484,
+        "lonStart": 0.13865938,
+        "latEnd": 49.36005268,
+        "lonEnd": 0.16999065,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 6111
-  },
-  {
-    "type": 1,
-    "icao": "LFOY",
-    "lat": 49.54509899999999,
-    "lon": 0.3610455,
-    "communications": [],
-    "elevation": 423,
-    "tower": false,
-    "name": "Le Havre Saint Romain",
-    "runways": [
-      {
-        "type": 100,
-        "width": 99.97,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 49.54244524,
-        "lonStart": 0.35645864,
-        "latEnd": 49.54699476,
-        "lonEnd": 0.36576336,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 99.97,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 49.54940917,
-        "lonStart": 0.3621577,
-        "latEnd": 49.54154683,
-        "lonEnd": 0.3598023,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15065
-  },
-  {
-    "type": 1,
-    "icao": "LFOH",
-    "lat": 49.534764877499995,
-    "lon": 0.092578335,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12617,
-        "name": "ATIS"
-      },
-      {
-        "type": 54,
-        "frequency": 13520,
-        "name": "LE HAVRE TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12035,
-        "name": "DEAUVILLE APP"
-      }
-    ],
-    "elevation": 311,
-    "tower": true,
-    "name": "Le Havre-Octeville",
-    "runways": [
-      {
-        "type": 100,
-        "width": 39.93,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 49.52651939,
-        "lonStart": 0.0775664,
-        "latEnd": 49.54163861,
-        "lonEnd": 0.09934797,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 11.89,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 49.5349437,
-        "lonStart": 0.0963873,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11.89
-      },
-      {
-        "type": 102,
-        "width": 11.89,
-        "surfaceType": 2,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 49.53595781,
-        "lonStart": 0.09701167,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11.89
-      }
-    ],
-    "id": 15066
-  },
-  {
-    "type": 1,
-    "icao": "LFOS",
-    "lat": 49.83530982,
-    "lon": 0.65562141,
-    "communications": [],
-    "elevation": 250,
-    "tower": true,
-    "name": "Saint Valery Vittefleur",
-    "runways": [
-      {
-        "type": 100,
-        "width": 39.93,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 49.83355037,
-        "lonStart": 0.64998948,
-        "latEnd": 49.83706927,
-        "lonEnd": 0.66125334,
-        "length": 0,
-        "surfacetype": 15
-      }
-    ],
-    "id": 22715
+    "id": 3670
   },
   {
     "type": 1,
@@ -245,6 +181,71 @@
         "surfacetype": 3
       }
     ],
-    "id": 27819
+    "id": 14366
+  },
+  {
+    "type": 1,
+    "icao": "LFOS",
+    "lat": 49.83530982,
+    "lon": 0.65562141,
+    "communications": [],
+    "elevation": 250,
+    "tower": true,
+    "name": "Saint Valery Vittefleur",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 49.83355037,
+        "lonStart": 0.64998948,
+        "latEnd": 49.83706927,
+        "lonEnd": 0.66125334,
+        "length": 0,
+        "surfacetype": 15
+      }
+    ],
+    "id": 20410
+  },
+  {
+    "type": 1,
+    "icao": "LFOY",
+    "lat": 49.54509899999999,
+    "lon": 0.3610455,
+    "communications": [],
+    "elevation": 423,
+    "tower": false,
+    "name": "Le Havre Saint Romain",
+    "runways": [
+      {
+        "type": 100,
+        "width": 99.97,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 49.54244524,
+        "lonStart": 0.35645864,
+        "latEnd": 49.54699476,
+        "lonEnd": 0.36576336,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 99.97,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 49.54940917,
+        "lonStart": 0.3621577,
+        "latEnd": 49.54154683,
+        "lonEnd": 0.3598023,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20414
   }
 ]

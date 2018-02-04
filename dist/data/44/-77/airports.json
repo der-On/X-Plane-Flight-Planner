@@ -1,29 +1,53 @@
 [
   {
     "type": 1,
-    "icao": "NY70",
-    "lat": 44.04172194,
-    "lon": -76.12881834000001,
-    "communications": [],
-    "elevation": 274,
-    "tower": false,
-    "name": "Chaumont Bay",
+    "icao": "CYGK",
+    "lat": 44.2241432,
+    "lon": -76.599294,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13555,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12250,
+        "name": "ATF"
+      }
+    ],
+    "elevation": 303,
+    "tower": true,
+    "name": "Kingston",
     "runways": [
       {
         "type": 100,
-        "width": 6.1,
+        "width": 30.48,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 44.04466189,
-        "lonStart": -76.12976256,
-        "latEnd": 44.03878199,
-        "lonEnd": -76.12787412,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 44.21912204,
+        "lonStart": -76.60181617,
+        "latEnd": 44.23260996,
+        "lonEnd": -76.60316867,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 44.21920605,
+        "lonStart": -76.60208284,
+        "latEnd": 44.22563475,
+        "lonEnd": -76.59010832,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 4843
+    "id": 761
   },
   {
     "type": 1,
@@ -49,51 +73,32 @@
         "surfacetype": 3
       }
     ],
-    "id": 13027
+    "id": 23033
   },
   {
     "type": 1,
-    "icao": "CYGK",
-    "lat": 44.22422075,
-    "lon": -76.599169205,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12250,
-        "name": "ATF"
-      }
-    ],
-    "elevation": 303,
-    "tower": true,
-    "name": "KINGSTON",
+    "icao": "NY70",
+    "lat": 44.04172194,
+    "lon": -76.12881834000001,
+    "communications": [],
+    "elevation": 274,
+    "tower": false,
+    "name": "Chaumont Bay",
     "runways": [
       {
         "type": 100,
-        "width": 30.48,
+        "width": 6.1,
         "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 44.219517,
-        "lonStart": -76.601568,
-        "latEnd": 44.225634,
-        "lonEnd": -76.590113,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 44.23260996,
-        "lonStart": -76.60317416,
-        "latEnd": 44.21912204,
-        "lonEnd": -76.60182166,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 44.04466189,
+        "lonStart": -76.12976256,
+        "latEnd": 44.03878199,
+        "lonEnd": -76.12787412,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 13388
+    "id": 23034
   }
 ]

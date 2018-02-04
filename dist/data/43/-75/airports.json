@@ -1,81 +1,47 @@
 [
   {
     "type": 1,
-    "icao": "NY65",
-    "lat": 43.137294999999995,
-    "lon": -74.11624112,
-    "communications": [],
-    "elevation": 919,
+    "icao": "K09",
+    "lat": 43.45211732333333,
+    "lon": -74.51563517666666,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1703,
     "tower": false,
-    "name": "Circle K Ranch",
+    "name": "PISECO",
     "runways": [
       {
         "type": 100,
-        "width": 30.48,
+        "width": 18.29,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 43.13934163,
-        "lonStart": -74.11813291,
-        "latEnd": 43.13524837,
-        "lonEnd": -74.11434933,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 43.44970709,
+        "lonStart": -74.51791343,
+        "latEnd": 43.45683268,
+        "lonEnd": -74.51210875,
         "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 5015
-  },
-  {
-    "type": 1,
-    "icao": "1F6",
-    "lat": 43.11673694,
-    "lon": -74.74959306,
-    "communications": [],
-    "elevation": 945,
-    "tower": false,
-    "name": "Dolgeville",
-    "runways": [
+        "surfacetype": 1
+      },
       {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 43.11696425,
-        "lonStart": -74.75212925,
-        "latEnd": 43.11650963,
-        "lonEnd": -74.74705687,
-        "length": 0,
-        "surfacetype": 3
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 43.4498122,
+        "lonStart": -74.51688335,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
       }
     ],
-    "id": 6357
-  },
-  {
-    "type": 1,
-    "icao": "9NY7",
-    "lat": 43.03285166,
-    "lon": -74.15096362,
-    "communications": [],
-    "elevation": 924,
-    "tower": false,
-    "name": "Hart",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 43.03353212,
-        "lonStart": -74.15421009,
-        "latEnd": 43.0321712,
-        "lonEnd": -74.14771715,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11494
+    "id": 2309
   },
   {
     "type": 1,
@@ -101,7 +67,7 @@
         "surfacetype": 5
       }
     ],
-    "id": 13780
+    "id": 6058
   },
   {
     "type": 1,
@@ -127,39 +93,7 @@
         "surfacetype": 5
       }
     ],
-    "id": 17744
-  },
-  {
-    "type": 1,
-    "icao": "K09",
-    "lat": 43.453357,
-    "lon": -74.51766649999999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 1703,
-    "tower": false,
-    "name": "PISECO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 43.449775,
-        "lonStart": -74.520775,
-        "latEnd": 43.456939,
-        "lonEnd": -74.514558,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19412
+    "id": 6061
   },
   {
     "type": 1,
@@ -198,59 +132,59 @@
         "surfacetype": 3
       }
     ],
-    "id": 20245
+    "id": 6367
   },
   {
     "type": 1,
-    "icao": "NY66",
-    "lat": 43.133406109999996,
-    "lon": -74.11624112000001,
+    "icao": "1F6",
+    "lat": 43.11673694,
+    "lon": -74.74959306,
     "communications": [],
-    "elevation": 900,
+    "elevation": 945,
     "tower": false,
-    "name": "The Farm",
+    "name": "Dolgeville",
     "runways": [
       {
         "type": 100,
-        "width": 53.34,
+        "width": 30.48,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 43.13606761,
-        "lonStart": -74.11715044,
-        "latEnd": 43.13074461,
-        "lonEnd": -74.1153318,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 43.11696425,
+        "lonStart": -74.75212925,
+        "latEnd": 43.11650963,
+        "lonEnd": -74.74705687,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 25228
+    "id": 6370
   },
   {
     "type": 1,
-    "icao": "NY64",
-    "lat": 43.10285083,
-    "lon": -74.15513084,
+    "icao": "9NY7",
+    "lat": 43.03285166,
+    "lon": -74.15096362,
     "communications": [],
-    "elevation": 850,
+    "elevation": 924,
     "tower": false,
-    "name": "The Pines",
+    "name": "Hart",
     "runways": [
       {
         "type": 100,
-        "width": 36.58,
+        "width": 30.48,
         "surfaceType": null,
         "numberStart": "12",
         "numberEnd": "30",
-        "latStart": 43.10390933,
-        "lonStart": -74.16018668,
-        "latEnd": 43.10179233,
-        "lonEnd": -74.150075,
+        "latStart": 43.03353212,
+        "lonStart": -74.15421009,
+        "latEnd": 43.0321712,
+        "lonEnd": -74.14771715,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 25245
+    "id": 10689
   },
   {
     "type": 16,
@@ -287,7 +221,7 @@
         "length": 0
       }
     ],
-    "id": 34009
+    "id": 22761
   },
   {
     "type": 16,
@@ -312,6 +246,84 @@
         "length": 0
       }
     ],
-    "id": 34079
+    "id": 23025
+  },
+  {
+    "type": 1,
+    "icao": "NY64",
+    "lat": 43.10285083,
+    "lon": -74.15513084,
+    "communications": [],
+    "elevation": 850,
+    "tower": false,
+    "name": "The Pines",
+    "runways": [
+      {
+        "type": 100,
+        "width": 36.58,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 43.10390933,
+        "lonStart": -74.16018668,
+        "latEnd": 43.10179233,
+        "lonEnd": -74.150075,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23028
+  },
+  {
+    "type": 1,
+    "icao": "NY65",
+    "lat": 43.137294999999995,
+    "lon": -74.11624112,
+    "communications": [],
+    "elevation": 919,
+    "tower": false,
+    "name": "Circle K Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 43.13934163,
+        "lonStart": -74.11813291,
+        "latEnd": 43.13524837,
+        "lonEnd": -74.11434933,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23029
+  },
+  {
+    "type": 1,
+    "icao": "NY66",
+    "lat": 43.133406109999996,
+    "lon": -74.11624112000001,
+    "communications": [],
+    "elevation": 900,
+    "tower": false,
+    "name": "The Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 53.34,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 43.13606761,
+        "lonStart": -74.11715044,
+        "latEnd": 43.13074461,
+        "lonEnd": -74.1153318,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23030
   }
 ]

@@ -1,43 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "EGPN",
-    "lat": 56.45241,
-    "lon": -3.0258295200000003,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12290,
-        "name": "Dundee Tower"
-      },
-      {
-        "type": 55,
-        "frequency": 12290,
-        "name": "Dundee Approach"
-      }
-    ],
-    "elevation": 17,
-    "tower": true,
-    "name": "Dundee",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 56.45246475,
-        "lonStart": -3.03718104,
-        "latEnd": 56.45235525,
-        "lonEnd": -3.014478,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 6554
-  },
-  {
-    "type": 1,
     "icao": "EGPJ",
     "lat": 56.18362063666667,
     "lon": -3.2199293333333334,
@@ -78,7 +41,44 @@
         "length": 17.98
       }
     ],
-    "id": 9274
+    "id": 1600
+  },
+  {
+    "type": 1,
+    "icao": "EGPN",
+    "lat": 56.45241,
+    "lon": -3.0258295200000003,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12290,
+        "name": "Dundee Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12290,
+        "name": "Dundee Approach"
+      }
+    ],
+    "elevation": 17,
+    "tower": true,
+    "name": "Dundee",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 56.45246475,
+        "lonStart": -3.03718104,
+        "latEnd": 56.45235525,
+        "lonEnd": -3.014478,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1604
   },
   {
     "type": 1,
@@ -136,7 +136,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 19995
+    "id": 1607
   },
   {
     "type": 1,
@@ -162,6 +162,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 24265
+    "id": 32530
   }
 ]

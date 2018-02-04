@@ -2,60 +2,34 @@
   {
     "type": 1,
     "icao": "SAVB",
-    "lat": -41.94213527,
-    "lon": -71.53247235,
+    "lat": -41.94324762,
+    "lon": -71.532098065,
     "communications": [
       {
-        "type": 51,
+        "type": 54,
         "frequency": 11840,
-        "name": "BOLSON MULT"
+        "name": "Bolson Torre"
       }
     ],
     "elevation": 1131,
-    "tower": false,
+    "tower": true,
     "name": "El Bolson",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 30,
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": -41.93641427,
-        "lonStart": -71.53083935,
-        "latEnd": -41.94785627,
-        "lonEnd": -71.53410535,
+        "latStart": -41.9374775,
+        "lonStart": -71.53080947,
+        "latEnd": -41.94901774,
+        "lonEnd": -71.53338666,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 7030
-  },
-  {
-    "type": 1,
-    "icao": "SA8B",
-    "lat": -41.096944445,
-    "lon": -71.17777778,
-    "communications": [],
-    "elevation": 2558,
-    "tower": false,
-    "name": "LAGO NAHUEL HUAPI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": -41.09425546,
-        "lonStart": -71.18243524,
-        "latEnd": -41.09963343,
-        "lonEnd": -71.17312032,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 14312
+    "id": 4565
   },
   {
     "type": 1,
@@ -81,7 +55,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 15367
+    "id": 4764
   },
   {
     "type": 1,
@@ -91,7 +65,7 @@
     "communications": [],
     "elevation": 1000,
     "tower": false,
-    "name": "RC-o FrC-o",
+    "name": "Río Frío",
     "runways": [
       {
         "type": 100,
@@ -107,7 +81,33 @@
         "surfacetype": 5
       }
     ],
-    "id": 21885
+    "id": 4818
+  },
+  {
+    "type": 1,
+    "icao": "SA8B",
+    "lat": -41.096944445,
+    "lon": -71.17777778,
+    "communications": [],
+    "elevation": 2558,
+    "tower": false,
+    "name": "LAGO NAHUEL HUAPI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -41.09425546,
+        "lonStart": -71.18243524,
+        "latEnd": -41.09963343,
+        "lonEnd": -71.17312032,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 24829
   },
   {
     "type": 1,
@@ -149,6 +149,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 21964
+    "id": 25085
   }
 ]

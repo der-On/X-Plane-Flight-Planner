@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "SBCA",
-    "lat": -25.000338999999997,
-    "lon": -53.5007625,
+    "lat": -25.000175499999997,
+    "lon": -53.501235925,
     "communications": [
       {
         "type": 54,
@@ -17,19 +17,19 @@
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 46,
         "surfaceType": null,
         "numberStart": "15",
         "numberEnd": "33",
-        "latStart": -24.995153,
-        "lonStart": -53.506414,
-        "latEnd": -25.005525,
-        "lonEnd": -53.495111,
+        "latStart": -24.99451599,
+        "lonStart": -53.50745441,
+        "latEnd": -25.00583501,
+        "lonEnd": -53.49501744,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 4613
+    "id": 4597
   },
   {
     "type": 1,
@@ -55,7 +55,32 @@
         "surfacetype": 3
       }
     ],
-    "id": 17336
+    "id": 26421
+  },
+  {
+    "type": 17,
+    "icao": "SJYX",
+    "lat": -25.57138889,
+    "lon": -53.12277778,
+    "communications": [],
+    "elevation": 1240,
+    "tower": false,
+    "name": "[H] Foz do Chopim",
+    "runways": [
+      {
+        "type": 102,
+        "width": 20.1,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -25.57138889,
+        "lonStart": -53.12277778,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.1
+      }
+    ],
+    "id": 27349
   },
   {
     "type": 1,
@@ -81,7 +106,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 21253
+    "id": 28732
   },
   {
     "type": 1,
@@ -107,31 +132,6 @@
         "surfacetype": 4
       }
     ],
-    "id": 25993
-  },
-  {
-    "type": 17,
-    "icao": "SJYX",
-    "lat": -25.57138889,
-    "lon": -53.12277778,
-    "communications": [],
-    "elevation": 1240,
-    "tower": false,
-    "name": "[H] Foz do Chopim",
-    "runways": [
-      {
-        "type": 102,
-        "width": 20.1,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -25.57138889,
-        "lonStart": -53.12277778,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20.1
-      }
-    ],
-    "id": 29812
+    "id": 28792
   }
 ]

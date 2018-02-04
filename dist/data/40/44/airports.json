@@ -1,38 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "UDYE",
-    "lat": 40.1221155,
-    "lon": 44.4649945,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11940,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 2948,
-    "tower": true,
-    "name": "EREBUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 40.23,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 40.111503,
-        "lonStart": 44.4563,
-        "latEnd": 40.132728,
-        "lonEnd": 44.473689,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 6792
-  },
-  {
-    "type": 1,
     "icao": "UD21",
     "lat": 40.29603,
     "lon": 44.56623275,
@@ -68,7 +36,39 @@
         "surfacetype": 2
       }
     ],
-    "id": 27701
+    "id": 30254
+  },
+  {
+    "type": 1,
+    "icao": "UDYE",
+    "lat": 40.1221155,
+    "lon": 44.4649945,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11940,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 2948,
+    "tower": true,
+    "name": "EREBUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 40.23,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 40.111503,
+        "lonStart": 44.4563,
+        "latEnd": 40.132728,
+        "lonEnd": 44.473689,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 30258
   },
   {
     "type": 1,
@@ -125,6 +125,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 27861
+    "id": 30259
   }
 ]

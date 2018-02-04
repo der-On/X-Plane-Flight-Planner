@@ -1,6 +1,43 @@
 [
   {
     "type": 1,
+    "icao": "LIPQ",
+    "lat": 45.827860935000004,
+    "lon": 13.466658265,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13020,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11915,
+        "name": "APP"
+      }
+    ],
+    "elevation": 37,
+    "tower": true,
+    "name": "Ronchi Dei Legionari",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 45.82796587,
+        "lonStart": 13.44734553,
+        "latEnd": 45.827756,
+        "lonEnd": 13.485971,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3800
+  },
+  {
+    "type": 1,
     "icao": "LJAJ",
     "lat": 45.889390250000005,
     "lon": 13.886675,
@@ -23,7 +60,44 @@
         "surfacetype": 3
       }
     ],
-    "id": 775
+    "id": 3828
+  },
+  {
+    "type": 1,
+    "icao": "LJPZ",
+    "lat": 45.4724445,
+    "lon": 13.61568051,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12932,
+        "name": "Portoroz TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12932,
+        "name": "Portoroz APP"
+      }
+    ],
+    "elevation": 5,
+    "tower": true,
+    "name": "PORTOROZ",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 45.477178,
+        "lonStart": 13.61198301,
+        "latEnd": 45.467711,
+        "lonEnd": 13.61937801,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3834
   },
   {
     "type": 1,
@@ -49,7 +123,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 9658
+    "id": 20539
   },
   {
     "type": 1,
@@ -88,44 +162,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 10629
-  },
-  {
-    "type": 1,
-    "icao": "LJPZ",
-    "lat": 45.4724445,
-    "lon": 13.61568051,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12932,
-        "name": "Portoroz TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12932,
-        "name": "Portoroz APP"
-      }
-    ],
-    "elevation": 6,
-    "tower": true,
-    "name": "PORTOROZ",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 45.477178,
-        "lonStart": 13.61198301,
-        "latEnd": 45.467711,
-        "lonEnd": 13.61937801,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19511
+    "id": 20555
   },
   {
     "type": 1,
@@ -162,43 +199,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 20970
-  },
-  {
-    "type": 1,
-    "icao": "LIPQ",
-    "lat": 45.827857,
-    "lon": 13.4666635,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13020,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11915,
-        "name": "APP"
-      }
-    ],
-    "elevation": 37,
-    "tower": true,
-    "name": "Ronchi Dei Legionari",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 45.827958,
-        "lonStart": 13.447356,
-        "latEnd": 45.827756,
-        "lonEnd": 13.485971,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 21702
+    "id": 20556
   }
 ]

@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "FACT",
-    "lat": -33.970501,
-    "lon": 18.6044045,
+    "lat": -33.97030375,
+    "lon": 18.604145499999998,
     "communications": [
       {
         "type": 50,
@@ -11,9 +11,9 @@
         "name": "ATIS"
       },
       {
-        "type": 53,
+        "type": 56,
         "frequency": 12190,
-        "name": "GND"
+        "name": "DEPARTURE"
       },
       {
         "type": 54,
@@ -22,42 +22,52 @@
       },
       {
         "type": 55,
-        "frequency": 11970,
-        "name": "ARSA RDR"
+        "frequency": 12005,
+        "name": "APP"
+      },
+      {
+        "type": 52,
+        "frequency": 12265,
+        "name": "APRON"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GROUND"
       }
     ],
-    "elevation": 150,
+    "elevation": 149,
     "tower": true,
     "name": "Cape Town International",
     "runways": [
       {
         "type": 100,
-        "width": 60.96,
+        "width": 60.29,
         "surfaceType": null,
         "numberStart": "01",
         "numberEnd": "19",
-        "latStart": -33.98801792,
-        "lonStart": 18.60902345,
-        "latEnd": -33.96011808,
-        "lonEnd": 18.60017855,
+        "latStart": -33.987735,
+        "lonStart": 18.608893,
+        "latEnd": -33.959841,
+        "lonEnd": 18.60005,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 46.02,
+        "width": 45,
         "surfaceType": null,
         "numberStart": "16",
         "numberEnd": "34",
-        "latStart": -33.96148864,
-        "lonStart": 18.59772199,
-        "latEnd": -33.97237936,
-        "lonEnd": 18.61069401,
+        "latStart": -33.961377,
+        "lonStart": 18.597469,
+        "latEnd": -33.972262,
+        "lonEnd": 18.61017,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 4501
+    "id": 2129
   },
   {
     "type": 1,
@@ -83,7 +93,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 24161
+    "id": 16839
   },
   {
     "type": 1,
@@ -125,6 +135,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 27806
+    "id": 16856
   }
 ]

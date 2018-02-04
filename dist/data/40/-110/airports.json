@@ -1,6 +1,133 @@
 [
   {
     "type": 1,
+    "icao": "33U",
+    "lat": 40.91963776750001,
+    "lon": -109.38994462,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 6561,
+    "tower": false,
+    "name": "DUTCH JOHN",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 40.9223092,
+        "lonStart": -109.39979853,
+        "latEnd": 40.91318734,
+        "lonEnd": -109.38172009,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 40.92075915,
+        "lonStart": -109.39567282,
+        "latEnd": 40.92229538,
+        "lonEnd": -109.38258704,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 375
+  },
+  {
+    "type": 1,
+    "icao": "40U",
+    "lat": 40.986395645,
+    "lon": -109.67852651999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 6174,
+    "tower": false,
+    "name": "MANILA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 40.98632364,
+        "lonStart": -109.68810352,
+        "latEnd": 40.98646765,
+        "lonEnd": -109.66894952,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 393
+  },
+  {
+    "type": 1,
+    "icao": "KVEL",
+    "lat": 40.441561435000004,
+    "lon": -109.509791705,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13517,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 5276,
+    "tower": false,
+    "name": "Vernal Regional",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 40.44686952,
+        "lonStart": -109.51069341,
+        "latEnd": 40.42984393,
+        "lonEnd": -109.51031062,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 40.4446959,
+        "lonStart": -109.51646729,
+        "latEnd": 40.44483639,
+        "lonEnd": -109.5016955,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3379
+  },
+  {
+    "type": 1,
     "icao": "UT07",
     "lat": 40.42496,
     "lon": -109.59236111999999,
@@ -23,65 +150,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 744
-  },
-  {
-    "type": 1,
-    "icao": "33U",
-    "lat": 40.91975633333333,
-    "lon": -109.389456,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 6561,
-    "tower": false,
-    "name": "DUTCH JOHN",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 40.923053,
-        "lonStart": -109.401661,
-        "latEnd": 40.913133,
-        "lonEnd": -109.381681,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 40.915833,
-        "lonStart": -109.393061,
-        "latEnd": 40.924858,
-        "lonEnd": -109.381164,
-        "length": 0,
-        "surfacetype": 4
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 40.919997,
-        "lonStart": -109.3975,
-        "latEnd": 40.921664,
-        "lonEnd": -109.381669,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 5914
+    "id": 30522
   },
   {
     "type": 1,
@@ -107,39 +176,32 @@
         "surfacetype": 1
       }
     ],
-    "id": 13263
+    "id": 30526
   },
   {
-    "type": 1,
-    "icao": "40U",
-    "lat": 40.986069,
-    "lon": -109.67847900000001,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 6175,
+    "type": 17,
+    "icao": "UT32",
+    "lat": 40.45829166,
+    "lon": -109.54235834,
+    "communications": [],
+    "elevation": 5340,
     "tower": false,
-    "name": "MANILA",
+    "name": "[H] Ashley Valley Medical Center",
     "runways": [
       {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 40.985144,
-        "lonStart": -109.688,
-        "latEnd": 40.986994,
-        "lonEnd": -109.668958,
-        "length": 0,
-        "surfacetype": 1
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.45829166,
+        "lonStart": -109.54235834,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
       }
     ],
-    "id": 15774
+    "id": 30543
   },
   {
     "type": 1,
@@ -165,7 +227,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 19748
+    "id": 30576
   },
   {
     "type": 1,
@@ -191,81 +253,6 @@
         "surfacetype": 4
       }
     ],
-    "id": 19938
-  },
-  {
-    "type": 1,
-    "icao": "KVEL",
-    "lat": 40.44156025,
-    "lon": -109.50977575,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13517,
-        "name": "ASOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12270,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 5277,
-    "tower": false,
-    "name": "VERNAL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 40.446861,
-        "lonStart": -109.510678,
-        "latEnd": 40.429847,
-        "lonEnd": -109.510297,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 40.444694,
-        "lonStart": -109.516442,
-        "latEnd": 40.444839,
-        "lonEnd": -109.501686,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 26073
-  },
-  {
-    "type": 17,
-    "icao": "UT32",
-    "lat": 40.45829166,
-    "lon": -109.54235834,
-    "communications": [],
-    "elevation": 5340,
-    "tower": false,
-    "name": "[H] Ashley Valley Medical Center",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.45829166,
-        "lonStart": -109.54235834,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 28198
+    "id": 30578
   }
 ]

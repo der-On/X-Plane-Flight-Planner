@@ -1,32 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "ESGI",
-    "lat": 57.949467514999995,
-    "lon": 12.57610016,
-    "communications": [],
-    "elevation": 226,
-    "tower": false,
-    "name": "Alingsas Vallen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 40,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 57.94602603,
-        "lonStart": 12.574394,
-        "latEnd": 57.952909,
-        "lonEnd": 12.57780632,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 878
-  },
-  {
-    "type": 1,
     "icao": "ESGE",
     "lat": 57.696034157499994,
     "lon": 12.846048075,
@@ -62,33 +36,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 3004
-  },
-  {
-    "type": 1,
-    "icao": "XESG2",
-    "lat": 57.443454475,
-    "lon": 12.164366795,
-    "communications": [],
-    "elevation": 39,
-    "tower": true,
-    "name": "Fjaras - Duvhed",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 57.44288988,
-        "lonStart": 12.15962058,
-        "latEnd": 57.44401907,
-        "lonEnd": 12.16911301,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9336
+    "id": 1894
   },
   {
     "type": 1,
@@ -144,7 +92,7 @@
     ],
     "elevation": 505,
     "tower": true,
-    "name": "GC6teborg Landvetter",
+    "name": "Göteborg Landvetter",
     "runways": [
       {
         "type": 100,
@@ -160,7 +108,161 @@
         "surfacetype": 1
       }
     ],
-    "id": 10922
+    "id": 1896
+  },
+  {
+    "type": 1,
+    "icao": "ESGI",
+    "lat": 57.949467514999995,
+    "lon": 12.57610016,
+    "communications": [],
+    "elevation": 226,
+    "tower": false,
+    "name": "Alingsas Vallen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 57.94602603,
+        "lonStart": 12.574394,
+        "latEnd": 57.952909,
+        "lonEnd": 12.57780632,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1898
+  },
+  {
+    "type": 1,
+    "icao": "ESGM",
+    "lat": 57.4452549,
+    "lon": 12.64863999,
+    "communications": [],
+    "elevation": 377,
+    "tower": false,
+    "name": "Oresten",
+    "runways": [
+      {
+        "type": 100,
+        "width": 35.05,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 57.4435748,
+        "lonStart": 12.64357598,
+        "latEnd": 57.446935,
+        "lonEnd": 12.653704,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1902
+  },
+  {
+    "type": 1,
+    "icao": "ESGV",
+    "lat": 57.12484795,
+    "lon": 12.2287889525,
+    "communications": [],
+    "elevation": 2,
+    "tower": false,
+    "name": "Varberg",
+    "runways": [
+      {
+        "type": 100,
+        "width": 80.16,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 57.12588783,
+        "lonStart": 12.22554565,
+        "latEnd": 57.12387809,
+        "lonEnd": 12.23280903,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 46,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 57.12347688,
+        "lonStart": 12.22405913,
+        "latEnd": 57.126149,
+        "lonEnd": 12.232742,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1910
+  },
+  {
+    "type": 17,
+    "icao": "ESHB",
+    "lat": 57.720799375,
+    "lon": 12.04853235,
+    "communications": [],
+    "elevation": 141,
+    "tower": false,
+    "name": "Oestra Sjukhuset Goteborg",
+    "runways": [
+      {
+        "type": 102,
+        "width": 35,
+        "surfaceType": 15,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 57.72101608,
+        "lonStart": 12.04838142,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.7
+      },
+      {
+        "type": 102,
+        "width": 14,
+        "surfaceType": 15,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 57.72058267,
+        "lonStart": 12.04868328,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.8
+      }
+    ],
+    "id": 1912
+  },
+  {
+    "type": 1,
+    "icao": "XESG2",
+    "lat": 57.443454475,
+    "lon": 12.164366795,
+    "communications": [],
+    "elevation": 39,
+    "tower": true,
+    "name": "Fjaras - Duvhed",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 57.44288988,
+        "lonStart": 12.15962058,
+        "latEnd": 57.44401907,
+        "lonEnd": 12.16911301,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5419
   },
   {
     "type": 1,
@@ -212,108 +314,31 @@
         "surfacetype": 3
       }
     ],
-    "id": 13663
+    "id": 5421
   },
   {
     "type": 17,
-    "icao": "ESHB",
-    "lat": 57.720799375,
-    "lon": 12.04853235,
+    "icao": "XESG7",
+    "lat": 57.724184,
+    "lon": 12.964342,
     "communications": [],
-    "elevation": 141,
-    "tower": false,
-    "name": "Oestra Sjukhuset Goteborg",
+    "elevation": 623,
+    "tower": true,
+    "name": "[H] Borås sjukhus",
     "runways": [
       {
         "type": 102,
-        "width": 35,
+        "width": 20,
         "surfaceType": 15,
-        "numberStart": "H2",
+        "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 57.72101608,
-        "lonStart": 12.04838142,
+        "latStart": 57.724184,
+        "lonStart": 12.964342,
         "latEnd": null,
         "lonEnd": null,
-        "length": 29.7
-      },
-      {
-        "type": 102,
-        "width": 14,
-        "surfaceType": 15,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 57.72058267,
-        "lonStart": 12.04868328,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.8
+        "length": 20
       }
     ],
-    "id": 18830
-  },
-  {
-    "type": 1,
-    "icao": "ESGM",
-    "lat": 57.4452549,
-    "lon": 12.64863999,
-    "communications": [],
-    "elevation": 377,
-    "tower": false,
-    "name": "Oresten",
-    "runways": [
-      {
-        "type": 100,
-        "width": 35.05,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 57.4435748,
-        "lonStart": 12.64357598,
-        "latEnd": 57.446935,
-        "lonEnd": 12.653704,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 19018
-  },
-  {
-    "type": 1,
-    "icao": "ESGV",
-    "lat": 57.12484795,
-    "lon": 12.2287889525,
-    "communications": [],
-    "elevation": 2,
-    "tower": false,
-    "name": "Varberg",
-    "runways": [
-      {
-        "type": 100,
-        "width": 80.16,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 57.12588783,
-        "lonStart": 12.22554565,
-        "latEnd": 57.12387809,
-        "lonEnd": 12.23280903,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 46,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 57.12347688,
-        "lonStart": 12.22405913,
-        "latEnd": 57.126149,
-        "lonEnd": 12.232742,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 26226
+    "id": 5424
   }
 ]

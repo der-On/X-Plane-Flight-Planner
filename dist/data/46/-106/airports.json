@@ -1,14 +1,46 @@
 [
   {
     "type": 1,
+    "icao": "8U6",
+    "lat": 46.77714373,
+    "lon": -105.31312056499999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 2283,
+    "tower": false,
+    "name": "TERRY",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 46.77722736,
+        "lonStart": -105.32169996,
+        "latEnd": 46.7770601,
+        "lonEnd": -105.30454117,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 291
+  },
+  {
+    "type": 1,
     "icao": "KMLS",
-    "lat": 46.42797349999999,
-    "lon": -105.88623150000001,
+    "lat": 46.427809396,
+    "lon": -105.88435070400001,
     "communications": [
       {
         "type": 50,
         "frequency": 13557,
-        "name": "ASOS"
+        "name": "WX ASOS"
       },
       {
         "type": 51,
@@ -16,7 +48,7 @@
         "name": "CTAF/UNICOM"
       }
     ],
-    "elevation": 2630,
+    "elevation": 2629,
     "tower": false,
     "name": "Frank Wiley Fld",
     "runways": [
@@ -26,10 +58,10 @@
         "surfaceType": null,
         "numberStart": "04",
         "numberEnd": "22",
-        "latStart": 46.421719,
-        "lonStart": -105.896636,
-        "latEnd": 46.431322,
-        "lonEnd": -105.878906,
+        "latStart": 46.4217251,
+        "lonStart": -105.89665074,
+        "latEnd": 46.43134029,
+        "lonEnd": -105.87888536,
         "length": 0,
         "surfacetype": 1
       },
@@ -37,17 +69,29 @@
         "type": 100,
         "width": 30.48,
         "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 46.434867,
-        "lonStart": -105.892592,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 46.43486869,
+        "lonStart": -105.89259937,
         "latEnd": 46.423986,
-        "lonEnd": -105.876792,
+        "lonEnd": -105.8767961,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 15.8,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 46.4271269,
+        "lonStart": -105.87682195,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.9
       }
     ],
-    "id": 9672
+    "id": 2982
   },
   {
     "type": 1,
@@ -86,38 +130,6 @@
         "surfacetype": 5
       }
     ],
-    "id": 24368
-  },
-  {
-    "type": 1,
-    "icao": "8U6",
-    "lat": 46.777139000000005,
-    "lon": -105.31311099999999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 2283,
-    "tower": false,
-    "name": "TERRY",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 46.777222,
-        "lonStart": -105.321694,
-        "latEnd": 46.777056,
-        "lonEnd": -105.304528,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 24664
+    "id": 21852
   }
 ]

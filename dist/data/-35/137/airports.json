@@ -29,7 +29,39 @@
         "surfacetype": 4
       }
     ],
-    "id": 1162
+    "id": 32660
+  },
+  {
+    "type": 1,
+    "icao": "YMIN",
+    "lat": -34.74361397,
+    "lon": 137.52885654,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12670,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 108,
+    "tower": false,
+    "name": "Minlaton",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -34.73684994,
+        "lonStart": 137.52619508,
+        "latEnd": -34.750378,
+        "lonEnd": 137.531518,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 33855
   },
   {
     "type": 1,
@@ -74,39 +106,32 @@
         "surfacetype": 15
       }
     ],
-    "id": 16500
+    "id": 33875
   },
   {
-    "type": 1,
-    "icao": "YMIN",
-    "lat": -34.74361397,
-    "lon": 137.52885654,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12670,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 108,
+    "type": 17,
+    "icao": "YPVC",
+    "lat": -34.508567,
+    "lon": 137.475578,
+    "communications": [],
+    "elevation": 25,
     "tower": false,
-    "name": "Minlaton",
+    "name": "[H] PORT VICTORIA",
     "runways": [
       {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": -34.73684994,
-        "lonStart": 137.52619508,
-        "latEnd": -34.750378,
-        "lonEnd": 137.531518,
-        "length": 0,
-        "surfacetype": 4
+        "type": 102,
+        "width": 18,
+        "surfaceType": 3,
+        "numberStart": "H99",
+        "numberEnd": null,
+        "latStart": -34.508567,
+        "lonStart": 137.475578,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
       }
     ],
-    "id": 17274
+    "id": 34260
   },
   {
     "type": 1,
@@ -132,7 +157,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 26493
+    "id": 34687
   },
   {
     "type": 1,
@@ -171,31 +196,6 @@
         "surfacetype": 4
       }
     ],
-    "id": 26498
-  },
-  {
-    "type": 17,
-    "icao": "YPVC",
-    "lat": -34.508567,
-    "lon": 137.475578,
-    "communications": [],
-    "elevation": 25,
-    "tower": false,
-    "name": "[H] PORT VICTORIA",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 3,
-        "numberStart": "H99",
-        "numberEnd": null,
-        "latStart": -34.508567,
-        "lonStart": 137.475578,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
-      }
-    ],
-    "id": 31833
+    "id": 34780
   }
 ]

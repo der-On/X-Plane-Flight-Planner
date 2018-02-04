@@ -1,38 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "WY11",
-    "lat": 41.157089655,
-    "lon": -106.55662742999999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "UNICOM"
-      }
-    ],
-    "elevation": 7879,
-    "tower": false,
-    "name": "A A RANCH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 14.94,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 41.16436138,
-        "lonStart": -106.56016182,
-        "latEnd": 41.14981793,
-        "lonEnd": -106.55309304,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 23
-  },
-  {
-    "type": 1,
     "icao": "96WY",
     "lat": 41.40874794,
     "lon": -106.59441505500001,
@@ -68,7 +36,44 @@
         "surfacetype": 3
       }
     ],
-    "id": 4693
+    "id": 491
+  },
+  {
+    "type": 1,
+    "icao": "KSAA",
+    "lat": 41.443550325,
+    "lon": -106.827462485,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11817,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 7012,
+    "tower": false,
+    "name": "Shively Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 41.43844134,
+        "lonStart": -106.84270595,
+        "latEnd": 41.44865931,
+        "lonEnd": -106.81221902,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3225
   },
   {
     "type": 1,
@@ -107,7 +112,39 @@
         "surfacetype": 3
       }
     ],
-    "id": 17012
+    "id": 13695
+  },
+  {
+    "type": 1,
+    "icao": "WY11",
+    "lat": 41.157089655,
+    "lon": -106.55662742999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "UNICOM"
+      }
+    ],
+    "elevation": 7879,
+    "tower": false,
+    "name": "A A RANCH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 41.16436138,
+        "lonStart": -106.56016182,
+        "latEnd": 41.14981793,
+        "lonEnd": -106.55309304,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 32221
   },
   {
     "type": 1,
@@ -133,43 +170,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 20249
-  },
-  {
-    "type": 1,
-    "icao": "KSAA",
-    "lat": 41.443550325,
-    "lon": -106.827462485,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11817,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 7012,
-    "tower": false,
-    "name": "SHIVELY FLD",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 41.43844134,
-        "lonStart": -106.84270595,
-        "latEnd": 41.44865931,
-        "lonEnd": -106.81221902,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22235
+    "id": 32250
   }
 ]

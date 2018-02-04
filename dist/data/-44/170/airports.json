@@ -1,9 +1,35 @@
 [
   {
     "type": 1,
+    "icao": "NZFH",
+    "lat": -43.46105247,
+    "lon": 170.01671239,
+    "communications": [],
+    "elevation": 554,
+    "tower": true,
+    "name": "Fox Glacier",
+    "runways": [
+      {
+        "type": 100,
+        "width": 8,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -43.46001982,
+        "lonStart": 170.0137837,
+        "latEnd": -43.46208512,
+        "lonEnd": 170.01964108,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4227
+  },
+  {
+    "type": 1,
     "icao": "NZGT",
-    "lat": -43.910385,
-    "lon": 170.12816600000002,
+    "lat": -43.9108013,
+    "lon": 170.12875942,
     "communications": [
       {
         "type": 51,
@@ -18,29 +44,29 @@
     ],
     "elevation": 1824,
     "tower": false,
-    "name": "GLENTANNER",
+    "name": "Glentanner",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 25,
         "surfaceType": null,
         "numberStart": "15",
         "numberEnd": "33",
-        "latStart": -43.906093,
-        "lonStart": 170.127251,
-        "latEnd": -43.914677,
-        "lonEnd": 170.129081,
+        "latStart": -43.90612646,
+        "lonStart": 170.12778833,
+        "latEnd": -43.91547614,
+        "lonEnd": 170.12973051,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 10035
+    "id": 4232
   },
   {
     "type": 1,
     "icao": "NZMC",
-    "lat": -43.7659682575,
-    "lon": 170.13347039750002,
+    "lat": -43.765972489999996,
+    "lon": 170.13345904250002,
     "communications": [
       {
         "type": 51,
@@ -58,9 +84,9 @@
         "name": "CHRISTCHURCH APP"
       }
     ],
-    "elevation": 2152,
+    "elevation": 2142,
     "tower": false,
-    "name": "Mount_Cook",
+    "name": "Mount Cook",
     "runways": [
       {
         "type": 100,
@@ -68,16 +94,16 @@
         "surfaceType": null,
         "numberStart": "13",
         "numberEnd": "31",
-        "latStart": -43.760345,
-        "lonStart": 170.131073,
-        "latEnd": -43.772626,
-        "lonEnd": 170.138812,
+        "latStart": -43.76035848,
+        "lonStart": 170.13104033,
+        "latEnd": -43.77262945,
+        "lonEnd": 170.13879925,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 102,
-        "width": 21.03,
+        "width": 21,
         "surfaceType": 2,
         "numberStart": "H1",
         "numberEnd": null,
@@ -89,7 +115,7 @@
       },
       {
         "type": 102,
-        "width": 21.95,
+        "width": 22,
         "surfaceType": 2,
         "numberStart": "H2",
         "numberEnd": null,
@@ -97,9 +123,47 @@
         "lonStart": 170.13222841,
         "latEnd": null,
         "lonEnd": null,
-        "length": 17.98
+        "length": 18
       }
     ],
-    "id": 17630
+    "id": 4245
+  },
+  {
+    "type": 1,
+    "icao": "XNZQP",
+    "lat": -43.641902390000006,
+    "lon": 170.90398457,
+    "communications": [],
+    "elevation": 1581,
+    "tower": false,
+    "name": "Mesopotamia Station",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -43.64043453,
+        "lonStart": 170.90166551,
+        "latEnd": -43.64437601,
+        "lonEnd": 170.90936426,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 20,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -43.64089663,
+        "lonStart": 170.90092394,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20
+      }
+    ],
+    "id": 5526
   }
 ]

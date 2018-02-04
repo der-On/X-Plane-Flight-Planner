@@ -36,7 +36,57 @@
         "surfacetype": 4
       }
     ],
-    "id": 15712
+    "id": 33992
+  },
+  {
+    "type": 1,
+    "icao": "YPWR",
+    "lat": -31.1429778775,
+    "lon": 136.81680051749998,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 11830,
+        "name": "CTAF"
+      },
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 547,
+    "tower": true,
+    "name": "Woomera",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -31.1350723,
+        "lonStart": 136.81387121,
+        "latEnd": -31.156375,
+        "lonEnd": 136.81134,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -31.1353994,
+        "lonStart": 136.81305029,
+        "latEnd": -31.14506481,
+        "lonEnd": 136.82894057,
+        "length": 0,
+        "surfacetype": 15
+      }
+    ],
+    "id": 34266
   },
   {
     "type": 1,
@@ -94,57 +144,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 27453
-  },
-  {
-    "type": 1,
-    "icao": "YPWR",
-    "lat": -31.1429778775,
-    "lon": 136.81680051749998,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 11830,
-        "name": "CTAF"
-      },
-      {
-        "type": 54,
-        "frequency": 11830,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 547,
-    "tower": true,
-    "name": "Woomera",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": -31.1350723,
-        "lonStart": 136.81387121,
-        "latEnd": -31.156375,
-        "lonEnd": 136.81134,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": -31.1353994,
-        "lonStart": 136.81305029,
-        "latEnd": -31.14506481,
-        "lonEnd": 136.82894057,
-        "length": 0,
-        "surfacetype": 15
-      }
-    ],
-    "id": 27567
+    "id": 34725
   },
   {
     "type": 1,
@@ -183,6 +183,6 @@
         "surfacetype": 4
       }
     ],
-    "id": 27736
+    "id": 34868
   }
 ]

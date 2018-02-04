@@ -1,9 +1,131 @@
 [
   {
     "type": 1,
+    "icao": "5022",
+    "lat": 49.33533097,
+    "lon": -1.713958385,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12350,
+        "name": "Portbail MULT"
+      }
+    ],
+    "elevation": 48,
+    "tower": false,
+    "name": "Portbail",
+    "runways": [
+      {
+        "type": 100,
+        "width": 16,
+        "surfaceType": null,
+        "numberStart": "5",
+        "numberEnd": "23",
+        "latStart": 49.33482397,
+        "lonStart": -1.71501477,
+        "latEnd": 49.33583797,
+        "lonEnd": -1.712902,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 500
+  },
+  {
+    "type": 1,
+    "icao": "LFAU",
+    "lat": 49.62340466999999,
+    "lon": -1.8304389599999997,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12250,
+        "name": "Vauville MULT"
+      }
+    ],
+    "elevation": 458,
+    "tower": false,
+    "name": "Vauville",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 49.62558277,
+        "lonStart": -1.83329992,
+        "latEnd": 49.62128115,
+        "lonEnd": -1.82911512,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 49.6225603,
+        "lonStart": -1.83223704,
+        "latEnd": 49.6237142,
+        "lonEnd": -1.82638993,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 49.62408173,
+        "lonStart": -1.83349115,
+        "latEnd": 49.62320787,
+        "lonEnd": -1.8281006,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3544
+  },
+  {
+    "type": 1,
+    "icao": "LFOM",
+    "lat": 49.203615235,
+    "lon": -1.50398269,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12892,
+        "name": "LESSAY MULT"
+      }
+    ],
+    "elevation": 96,
+    "tower": false,
+    "name": "Lessay",
+    "runways": [
+      {
+        "type": 100,
+        "width": 80,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 49.20111681,
+        "lonStart": -1.51169527,
+        "latEnd": 49.20611366,
+        "lonEnd": -1.49627011,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3647
+  },
+  {
+    "type": 1,
     "icao": "LFRC",
-    "lat": 49.6501515,
-    "lon": -1.470264,
+    "lat": 49.65015024,
+    "lon": -1.470271575,
     "communications": [
       {
         "type": 54,
@@ -12,7 +134,7 @@
       },
       {
         "type": 55,
-        "frequency": 11935,
+        "frequency": 12035,
         "name": "DEAUVILLE APP"
       }
     ],
@@ -26,124 +148,14 @@
         "surfaceType": null,
         "numberStart": "10",
         "numberEnd": "28",
-        "latStart": 49.6522,
-        "lonStart": -1.486864,
-        "latEnd": 49.648103,
-        "lonEnd": -1.453664,
+        "latStart": 49.65220335,
+        "lonStart": -1.48687597,
+        "latEnd": 49.64809713,
+        "lonEnd": -1.45366718,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
       }
     ],
-    "id": 4869
-  },
-  {
-    "type": 1,
-    "icao": "LFOM",
-    "lat": 49.203763574999996,
-    "lon": -1.50465756,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12892,
-        "name": "Lessay MULT"
-      }
-    ],
-    "elevation": 91,
-    "tower": true,
-    "name": "Lessay",
-    "runways": [
-      {
-        "type": 100,
-        "width": 88.09,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 49.20125159,
-        "lonStart": -1.51235233,
-        "latEnd": 49.20627556,
-        "lonEnd": -1.49696279,
-        "length": 0,
-        "surfacetype": 15
-      }
-    ],
-    "id": 15195
-  },
-  {
-    "type": 1,
-    "icao": "5022",
-    "lat": 49.335446250000004,
-    "lon": -1.71421867,
-    "communications": [],
-    "elevation": 21,
-    "tower": false,
-    "name": "Portbail",
-    "runways": [
-      {
-        "type": 100,
-        "width": 11.89,
-        "surfaceType": null,
-        "numberStart": "5",
-        "numberEnd": "23",
-        "latStart": 49.33494454,
-        "lonStart": -1.71524638,
-        "latEnd": 49.33594796,
-        "lonEnd": -1.71319096,
-        "length": 0,
-        "surfacetype": 15
-      }
-    ],
-    "id": 20406
-  },
-  {
-    "type": 1,
-    "icao": "LFAU",
-    "lat": 49.624283999999996,
-    "lon": -1.8295876666666666,
-    "communications": [],
-    "elevation": 456,
-    "tower": false,
-    "name": "Vauville",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 49.62685329,
-        "lonStart": -1.83270839,
-        "latEnd": 49.62194871,
-        "lonEnd": -1.82779161,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 49.62301049,
-        "lonStart": -1.83241624,
-        "latEnd": 49.62462151,
-        "lonEnd": -1.82519376,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 49.62505588,
-        "lonStart": -1.83276466,
-        "latEnd": 49.62421412,
-        "lonEnd": -1.82665134,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 26246
+    "id": 3666
   }
 ]

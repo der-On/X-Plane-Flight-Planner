@@ -1,55 +1,103 @@
 [
   {
-    "type": 1,
-    "icao": "SWJX",
-    "lat": -19.50222222,
-    "lon": -44.15777778,
+    "type": 17,
+    "icao": "SDBO",
+    "lat": -19.46638889,
+    "lon": -44.37305556,
     "communications": [],
-    "elevation": 2762,
+    "elevation": 2419,
     "tower": false,
-    "name": "Fazenda das Perobas",
+    "name": "[H] Morada Nova",
     "runways": [
       {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": -19.50446569,
-        "lonStart": -44.15769552,
-        "latEnd": -19.49997875,
-        "lonEnd": -44.15786004,
-        "length": 0,
-        "surfacetype": 3
+        "type": 102,
+        "width": 21,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -19.46638889,
+        "lonStart": -44.37305556,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21
       }
     ],
-    "id": 9203
+    "id": 25361
   },
   {
-    "type": 1,
-    "icao": "SWZT",
-    "lat": -19.255000000000003,
-    "lon": -44.47333333,
+    "type": 17,
+    "icao": "SIDH",
+    "lat": -19.95777778,
+    "lon": -44.33611111,
     "communications": [],
-    "elevation": 2451,
+    "elevation": 754,
     "tower": false,
-    "name": "Fazenda do Brejo",
+    "name": "[H] Brahma Juatuba",
     "runways": [
       {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": -19.26020733,
-        "lonStart": -44.47406517,
-        "latEnd": -19.24979267,
-        "lonEnd": -44.47260149,
-        "length": 0,
-        "surfacetype": 1
+        "type": 102,
+        "width": 28,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -19.95777778,
+        "lonStart": -44.33611111,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 28
       }
     ],
-    "id": 9206
+    "id": 26142
+  },
+  {
+    "type": 17,
+    "icao": "SIZV",
+    "lat": -19.95972222,
+    "lon": -44.1175,
+    "communications": [],
+    "elevation": 960,
+    "tower": false,
+    "name": "[H] Sada",
+    "runways": [
+      {
+        "type": 102,
+        "width": 21,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -19.95972222,
+        "lonStart": -44.1175,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21
+      }
+    ],
+    "id": 26714
+  },
+  {
+    "type": 17,
+    "icao": "SNHN",
+    "lat": -19.89111111,
+    "lon": -44.05333333,
+    "communications": [],
+    "elevation": 888,
+    "tower": false,
+    "name": "[H] Megafort",
+    "runways": [
+      {
+        "type": 102,
+        "width": 21,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -19.89111111,
+        "lonStart": -44.05333333,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21
+      }
+    ],
+    "id": 27755
   },
   {
     "type": 1,
@@ -75,157 +123,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 19739
-  },
-  {
-    "type": 17,
-    "icao": "SIDH",
-    "lat": -19.95777778,
-    "lon": -44.33611111,
-    "communications": [],
-    "elevation": 754,
-    "tower": false,
-    "name": "[H] Brahma Juatuba",
-    "runways": [
-      {
-        "type": 102,
-        "width": 28,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -19.95777778,
-        "lonStart": -44.33611111,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 28
-      }
-    ],
-    "id": 28563
-  },
-  {
-    "type": 17,
-    "icao": "SNHN",
-    "lat": -19.89111111,
-    "lon": -44.05333333,
-    "communications": [],
-    "elevation": 888,
-    "tower": false,
-    "name": "[H] Megafort",
-    "runways": [
-      {
-        "type": 102,
-        "width": 21,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -19.89111111,
-        "lonStart": -44.05333333,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21
-      }
-    ],
-    "id": 31212
-  },
-  {
-    "type": 17,
-    "icao": "SWYF",
-    "lat": -19.90138889,
-    "lon": -44.06472222,
-    "communications": [],
-    "elevation": 908,
-    "tower": false,
-    "name": "[H] Minas Empreendimentos",
-    "runways": [
-      {
-        "type": 102,
-        "width": 21,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -19.90138889,
-        "lonStart": -44.06472222,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21
-      }
-    ],
-    "id": 31381
-  },
-  {
-    "type": 17,
-    "icao": "SDBO",
-    "lat": -19.46638889,
-    "lon": -44.37305556,
-    "communications": [],
-    "elevation": 2419,
-    "tower": false,
-    "name": "[H] Morada Nova",
-    "runways": [
-      {
-        "type": 102,
-        "width": 21,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -19.46638889,
-        "lonStart": -44.37305556,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21
-      }
-    ],
-    "id": 31442
-  },
-  {
-    "type": 17,
-    "icao": "SIZV",
-    "lat": -19.95972222,
-    "lon": -44.1175,
-    "communications": [],
-    "elevation": 960,
-    "tower": false,
-    "name": "[H] Sada",
-    "runways": [
-      {
-        "type": 102,
-        "width": 21,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -19.95972222,
-        "lonStart": -44.1175,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21
-      }
-    ],
-    "id": 32513
-  },
-  {
-    "type": 17,
-    "icao": "SNXC",
-    "lat": -19.95416667,
-    "lon": -44.07194444,
-    "communications": [],
-    "elevation": 985,
-    "tower": false,
-    "name": "[H] Vigano 2",
-    "runways": [
-      {
-        "type": 102,
-        "width": 24.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -19.95416667,
-        "lonStart": -44.07194444,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.1
-      }
-    ],
-    "id": 33631
+    "id": 27936
   },
   {
     "type": 17,
@@ -250,6 +148,108 @@
         "length": 19.5
       }
     ],
-    "id": 33632
+    "id": 28130
+  },
+  {
+    "type": 17,
+    "icao": "SNXC",
+    "lat": -19.95416667,
+    "lon": -44.07194444,
+    "communications": [],
+    "elevation": 985,
+    "tower": false,
+    "name": "[H] Vigano 2",
+    "runways": [
+      {
+        "type": 102,
+        "width": 24.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -19.95416667,
+        "lonStart": -44.07194444,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.1
+      }
+    ],
+    "id": 28137
+  },
+  {
+    "type": 1,
+    "icao": "SWJX",
+    "lat": -19.50222222,
+    "lon": -44.15777778,
+    "communications": [],
+    "elevation": 2762,
+    "tower": false,
+    "name": "Fazenda das Perobas",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": -19.50446569,
+        "lonStart": -44.15769552,
+        "latEnd": -19.49997875,
+        "lonEnd": -44.15786004,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 29275
+  },
+  {
+    "type": 17,
+    "icao": "SWYF",
+    "lat": -19.90138889,
+    "lon": -44.06472222,
+    "communications": [],
+    "elevation": 908,
+    "tower": false,
+    "name": "[H] Minas Empreendimentos",
+    "runways": [
+      {
+        "type": 102,
+        "width": 21,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -19.90138889,
+        "lonStart": -44.06472222,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21
+      }
+    ],
+    "id": 29603
+  },
+  {
+    "type": 1,
+    "icao": "SWZT",
+    "lat": -19.255000000000003,
+    "lon": -44.47333333,
+    "communications": [],
+    "elevation": 2451,
+    "tower": false,
+    "name": "Fazenda do Brejo",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -19.26020733,
+        "lonStart": -44.47406517,
+        "latEnd": -19.24979267,
+        "lonEnd": -44.47260149,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 29640
   }
 ]

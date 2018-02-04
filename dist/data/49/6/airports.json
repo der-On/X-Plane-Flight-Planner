@@ -29,7 +29,115 @@
         "surfacetype": 1
       }
     ],
-    "id": 2777
+    "id": 1303
+  },
+  {
+    "type": 1,
+    "icao": "EDRD",
+    "lat": 49.8429785,
+    "lon": 6.9160185,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11817,
+        "name": "Neumagen Info"
+      }
+    ],
+    "elevation": 879,
+    "tower": true,
+    "name": "Neumagen-Dhron",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 49.843214,
+        "lonStart": 6.911576,
+        "latEnd": 49.842743,
+        "lonEnd": 6.920461,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1304
+  },
+  {
+    "type": 1,
+    "icao": "EDRJ",
+    "lat": 49.31240589,
+    "lon": 6.6743077500000005,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12260,
+        "name": "Saarlouis Info"
+      }
+    ],
+    "elevation": 1118,
+    "tower": true,
+    "name": "Saarlouis - Dueren",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 49.31144989,
+        "lonStart": 6.66900925,
+        "latEnd": 49.31336189,
+        "lonEnd": 6.67960625,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1310
+  },
+  {
+    "type": 1,
+    "icao": "EDRT",
+    "lat": 49.86332889333334,
+    "lon": 6.786064443333334,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12205,
+        "name": "Trier Info"
+      }
+    ],
+    "elevation": 665,
+    "tower": true,
+    "name": "Trier - Foehren",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 49.860109,
+        "lonStart": 6.782185,
+        "latEnd": 49.868111,
+        "lonEnd": 6.793382,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 20.12,
+        "surfaceType": 3,
+        "numberStart": "H5",
+        "numberEnd": null,
+        "latStart": 49.86176668,
+        "lonStart": 6.78262633,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.34
+      }
+    ],
+    "id": 1318
   },
   {
     "type": 1,
@@ -95,71 +203,39 @@
         "length": 20
       }
     ],
-    "id": 15630
+    "id": 1722
   },
   {
     "type": 1,
-    "icao": "EDRD",
-    "lat": 49.8429785,
-    "lon": 6.9160185,
+    "icao": "ELMD",
+    "lat": 49.789034025,
+    "lon": 6.24126911,
     "communications": [
       {
-        "type": 54,
-        "frequency": 11817,
-        "name": "Neumagen Info"
+        "type": 51,
+        "frequency": 11950,
+        "name": "Kitzebur"
       }
     ],
-    "elevation": 879,
+    "elevation": 1171,
     "tower": true,
-    "name": "Neumagen-Dhron",
+    "name": "Medernach / Kitzebour",
     "runways": [
       {
         "type": 100,
         "width": 30,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 49.843214,
-        "lonStart": 6.911576,
-        "latEnd": 49.842743,
-        "lonEnd": 6.920461,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 49.78848929,
+        "lonStart": 6.23994728,
+        "latEnd": 49.78957876,
+        "lonEnd": 6.24259094,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 18227
-  },
-  {
-    "type": 1,
-    "icao": "EDRJ",
-    "lat": 49.31240589,
-    "lon": 6.6743077500000005,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12260,
-        "name": "Saarlouis Info"
-      }
-    ],
-    "elevation": 1118,
-    "tower": true,
-    "name": "Saarlouis - Dueren",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 49.31144989,
-        "lonStart": 6.66900925,
-        "latEnd": 49.31336189,
-        "lonEnd": 6.67960625,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22645
+    "id": 1723
   },
   {
     "type": 1,
@@ -191,8 +267,8 @@
         "type": 100,
         "width": 45,
         "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
+        "numberStart": "05",
+        "numberEnd": "23",
         "latStart": 49.966795,
         "lonStart": 6.683574,
         "latEnd": 49.986282,
@@ -213,7 +289,7 @@
         "length": 18.3
       }
     ],
-    "id": 23928
+    "id": 2054
   },
   {
     "type": 1,
@@ -265,50 +341,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 25268
-  },
-  {
-    "type": 1,
-    "icao": "EDRT",
-    "lat": 49.86332889333334,
-    "lon": 6.786064443333334,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12205,
-        "name": "Trier Info"
-      }
-    ],
-    "elevation": 665,
-    "tower": true,
-    "name": "Trier - Foehren",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 49.860109,
-        "lonStart": 6.782185,
-        "latEnd": 49.868111,
-        "lonEnd": 6.793382,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 102,
-        "width": 20.12,
-        "surfaceType": 3,
-        "numberStart": "H5",
-        "numberEnd": null,
-        "latStart": 49.86176668,
-        "lonStart": 6.78262633,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20.34
-      }
-    ],
-    "id": 25594
+    "id": 20301
   }
 ]

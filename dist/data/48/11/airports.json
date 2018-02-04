@@ -1,6 +1,76 @@
 [
   {
     "type": 1,
+    "icao": "EDDM",
+    "lat": 48.35377975,
+    "lon": 11.786088249999999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12312,
+        "name": "Muenchen ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 12172,
+        "name": "Muenchen Delivery"
+      },
+      {
+        "type": 53,
+        "frequency": 12197,
+        "name": "Muenchen Ground"
+      },
+      {
+        "type": 54,
+        "frequency": 11870,
+        "name": "Muenchen Tower"
+      },
+      {
+        "type": 54,
+        "frequency": 12880,
+        "name": "Muenchen Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12390,
+        "name": "Muenchen Approach"
+      }
+    ],
+    "elevation": 1485,
+    "tower": true,
+    "name": "Muenchen Franz-Josef-Strauss",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "08L",
+        "numberEnd": "26R",
+        "latStart": 48.362767,
+        "lonStart": 11.76755,
+        "latEnd": 48.366886,
+        "lonEnd": 11.821172,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "08R",
+        "numberEnd": "26L",
+        "latStart": 48.340669,
+        "lonStart": 11.751017,
+        "latEnd": 48.344797,
+        "lonEnd": 11.804614,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 1059
+  },
+  {
+    "type": 1,
     "icao": "EDMD",
     "lat": 48.228598774999995,
     "lon": 11.42279697,
@@ -13,7 +83,7 @@
     ],
     "elevation": 1607,
     "tower": true,
-    "name": "Dachau-GrC6benried",
+    "name": "Dachau-Gröbenried",
     "runways": [
       {
         "type": 100,
@@ -29,7 +99,259 @@
         "surfacetype": 3
       }
     ],
-    "id": 5928
+    "id": 1189
+  },
+  {
+    "type": 1,
+    "icao": "EDMJ",
+    "lat": 48.174350605,
+    "lon": 11.12539262,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12242,
+        "name": "Jesenwang Info"
+      }
+    ],
+    "elevation": 1859,
+    "tower": true,
+    "name": "Jesenwang",
+    "runways": [
+      {
+        "type": 100,
+        "width": 11.89,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 48.17379493,
+        "lonStart": 11.12277786,
+        "latEnd": 48.17490628,
+        "lonEnd": 11.12800738,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1195
+  },
+  {
+    "type": 1,
+    "icao": "EDMO",
+    "lat": 48.08045791666666,
+    "lon": 11.283176003333333,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11955,
+        "name": "OBI Tower"
+      }
+    ],
+    "elevation": 1919,
+    "tower": true,
+    "name": "Oberpfaffenhofen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 48.074028,
+        "lonStart": 11.273066,
+        "latEnd": 48.089194,
+        "lonEnd": 11.293773,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "04L",
+        "numberEnd": "22R",
+        "latStart": 48.07920549,
+        "lonStart": 11.27817191,
+        "latEnd": 48.08085462,
+        "lonEnd": 11.28041833,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 48.07948002,
+        "lonStart": 11.28228357,
+        "latEnd": 48.07998537,
+        "lonEnd": 11.29134321,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1199
+  },
+  {
+    "type": 17,
+    "icao": "EDMR",
+    "lat": 48.04812628,
+    "lon": 11.65366921,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12995,
+        "name": "Ottobrunn Info"
+      }
+    ],
+    "elevation": 1852,
+    "tower": true,
+    "name": "[H] Ottobrunn",
+    "runways": [
+      {
+        "type": 102,
+        "width": 28,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 48.04812628,
+        "lonStart": 11.65366921,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 28
+      }
+    ],
+    "id": 1202
+  },
+  {
+    "type": 1,
+    "icao": "EDMX",
+    "lat": 48.23795451,
+    "lon": 11.56542585,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12940,
+        "name": "Pirol 299"
+      },
+      {
+        "type": 51,
+        "frequency": 13070,
+        "name": "Pirol 299"
+      }
+    ],
+    "elevation": 1600,
+    "tower": false,
+    "name": "[H] Oberschleissheim HEL",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 48.23795451,
+        "lonStart": 11.56542585,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30
+      }
+    ],
+    "id": 1208
+  },
+  {
+    "type": 1,
+    "icao": "EDNJ",
+    "lat": 48.78192369,
+    "lon": 11.21581194,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12347,
+        "name": "Egweil Info"
+      }
+    ],
+    "elevation": 1345,
+    "tower": true,
+    "name": "Neuburg-Egweil",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 48.78145102,
+        "lonStart": 11.21130385,
+        "latEnd": 48.78239636,
+        "lonEnd": 11.22032003,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1219
+  },
+  {
+    "type": 1,
+    "icao": "EDNX",
+    "lat": 48.23883626333333,
+    "lon": 11.559185528333332,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12940,
+        "name": "Schleissheim Info"
+      },
+      {
+        "type": 50,
+        "frequency": 13540,
+        "name": "Oberschleissheim ATIS"
+      }
+    ],
+    "elevation": 1596,
+    "tower": true,
+    "name": "Oberschleissheim",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.6,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 48.23824754,
+        "lonStart": 11.55390833,
+        "latEnd": 48.24010549,
+        "lonEnd": 11.56446379,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "07R",
+        "numberEnd": "25L",
+        "latStart": 48.23903249,
+        "lonStart": 11.5612688,
+        "latEnd": 48.23960715,
+        "lonEnd": 11.56453473,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "09R",
+        "numberEnd": "27L",
+        "latStart": 48.23772511,
+        "lonStart": 11.55383587,
+        "latEnd": 48.2382998,
+        "lonEnd": 11.55710165,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1232
   },
   {
     "type": 1,
@@ -61,7 +383,39 @@
         "surfacetype": 3
       }
     ],
-    "id": 7007
+    "id": 1264
+  },
+  {
+    "type": 1,
+    "icao": "EDPI",
+    "lat": 48.45678696,
+    "lon": 11.941669990000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12365,
+        "name": "Moosburg Info"
+      }
+    ],
+    "elevation": 1505,
+    "tower": true,
+    "name": "Moosburg-Auf der Kippe",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 48.45446688,
+        "lonStart": 11.93900296,
+        "latEnd": 48.45910704,
+        "lonEnd": 11.94433702,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1268
   },
   {
     "type": 1,
@@ -87,13 +441,52 @@
         "surfacetype": 1
       }
     ],
-    "id": 7238
+    "id": 2090
+  },
+  {
+    "type": 1,
+    "icao": "ETSF",
+    "lat": 48.206880000000005,
+    "lon": 11.2640087675,
+    "communications": [],
+    "elevation": 1703,
+    "tower": false,
+    "name": "[X] Fürstenfeldbruck AB",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17,
+        "surfaceType": null,
+        "numberStart": "09L",
+        "numberEnd": "27R",
+        "latStart": 48.20838733,
+        "lonStart": 11.25269424,
+        "latEnd": 48.20788288,
+        "lonEnd": 11.26922888,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 48.20617929,
+        "lonStart": 11.24860772,
+        "latEnd": 48.2050705,
+        "lonEnd": 11.28550423,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2091
   },
   {
     "type": 1,
     "icao": "ETSI",
-    "lat": 48.7139637225,
-    "lon": 11.528958666249999,
+    "lat": 48.714884021,
+    "lon": 11.528214533,
     "communications": [
       {
         "type": 54,
@@ -171,181 +564,28 @@
         "lonEnd": 11.52357018,
         "length": 0,
         "surfacetype": 3
-      }
-    ],
-    "id": 12498
-  },
-  {
-    "type": 1,
-    "icao": "EDMJ",
-    "lat": 48.174350605,
-    "lon": 11.12539262,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12242,
-        "name": "Jesenwang Info"
-      }
-    ],
-    "elevation": 1859,
-    "tower": true,
-    "name": "Jesenwang",
-    "runways": [
-      {
-        "type": 100,
-        "width": 11.89,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 48.17379493,
-        "lonStart": 11.12277786,
-        "latEnd": 48.17490628,
-        "lonEnd": 11.12800738,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 12974
-  },
-  {
-    "type": 1,
-    "icao": "EDPI",
-    "lat": 48.45678696,
-    "lon": 11.941669990000001,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12365,
-        "name": "Moosburg Info"
-      }
-    ],
-    "elevation": 1505,
-    "tower": true,
-    "name": "Moosburg-Auf der Kippe",
-    "runways": [
+      },
       {
         "type": 100,
         "width": 30,
         "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 48.45446688,
-        "lonStart": 11.93900296,
-        "latEnd": 48.45910704,
-        "lonEnd": 11.94433702,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 48.71571805,
+        "lonStart": 11.51448779,
+        "latEnd": 48.72141238,
+        "lonEnd": 11.53598821,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 15
       }
     ],
-    "id": 17479
-  },
-  {
-    "type": 1,
-    "icao": "EDDM",
-    "lat": 48.3537830475,
-    "lon": 11.7860628325,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12312,
-        "name": "Muenchen ATIS"
-      },
-      {
-        "type": 52,
-        "frequency": 12172,
-        "name": "Munich Delivery"
-      },
-      {
-        "type": 53,
-        "frequency": 12197,
-        "name": "Muenchen Ground"
-      },
-      {
-        "type": 54,
-        "frequency": 11870,
-        "name": "Meunchen Tower"
-      },
-      {
-        "type": 54,
-        "frequency": 12880,
-        "name": "Muenchen Tower"
-      },
-      {
-        "type": 55,
-        "frequency": 12390,
-        "name": "Muenchen Approach"
-      }
-    ],
-    "elevation": 1484,
-    "tower": true,
-    "name": "Muenchen Franz-Josef-Strauss Intl",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "08L",
-        "numberEnd": "26R",
-        "latStart": 48.36275813,
-        "lonStart": 11.76753053,
-        "latEnd": 48.36687997,
-        "lonEnd": 11.82111561,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "08R",
-        "numberEnd": "26L",
-        "latStart": 48.34067892,
-        "lonStart": 11.75102018,
-        "latEnd": 48.34481517,
-        "lonEnd": 11.80458501,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 17684
-  },
-  {
-    "type": 1,
-    "icao": "EDNJ",
-    "lat": 48.781850015,
-    "lon": 11.21584858,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12347,
-        "name": "Egweil Info"
-      }
-    ],
-    "elevation": 1345,
-    "tower": true,
-    "name": "Neuburg - Egweil",
-    "runways": [
-      {
-        "type": 100,
-        "width": 28,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 48.78137911,
-        "lonStart": 11.2113545,
-        "latEnd": 48.78232092,
-        "lonEnd": 11.22034266,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 18220
+    "id": 2093
   },
   {
     "type": 1,
     "icao": "ETSN",
-    "lat": 48.710538039999996,
-    "lon": 11.20932408,
+    "lat": 48.71054421666667,
+    "lon": 11.208207143333333,
     "communications": [
       {
         "type": 54,
@@ -365,8 +605,8 @@
         "numberEnd": "27",
         "latStart": 48.71111066,
         "lonStart": 11.19119548,
-        "latEnd": 48.71088147,
-        "lonEnd": 11.23202581,
+        "latEnd": 48.7109,
+        "lonEnd": 11.228675,
         "length": 0,
         "surfacetype": 1
       },
@@ -383,222 +623,273 @@
         "length": 40.5
       }
     ],
-    "id": 18221
-  },
-  {
-    "type": 1,
-    "icao": "EDMO",
-    "lat": 48.08045791666666,
-    "lon": 11.283176003333333,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11955,
-        "name": "OBI Tower"
-      }
-    ],
-    "elevation": 1919,
-    "tower": true,
-    "name": "Oberpfaffenhofen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 48.074028,
-        "lonStart": 11.273066,
-        "latEnd": 48.089194,
-        "lonEnd": 11.293773,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "04L",
-        "numberEnd": "22R",
-        "latStart": 48.07920549,
-        "lonStart": 11.27817191,
-        "latEnd": 48.08085462,
-        "lonEnd": 11.28041833,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 45,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 48.07948002,
-        "lonStart": 11.28228357,
-        "latEnd": 48.07998537,
-        "lonEnd": 11.29134321,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 18793
-  },
-  {
-    "type": 1,
-    "icao": "EDNX",
-    "lat": 48.23883626333333,
-    "lon": 11.559185528333332,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12940,
-        "name": "Schleissheim Info"
-      },
-      {
-        "type": 50,
-        "frequency": 13540,
-        "name": "Oberschleissheim ATIS"
-      }
-    ],
-    "elevation": 1596,
-    "tower": true,
-    "name": "Oberschleissheim",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.6,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 48.23824754,
-        "lonStart": 11.55390833,
-        "latEnd": 48.24010549,
-        "lonEnd": 11.56446379,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "07R",
-        "numberEnd": "25L",
-        "latStart": 48.23903249,
-        "lonStart": 11.5612688,
-        "latEnd": 48.23960715,
-        "lonEnd": 11.56453473,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "09R",
-        "numberEnd": "27L",
-        "latStart": 48.23772511,
-        "lonStart": 11.55383587,
-        "latEnd": 48.2382998,
-        "lonEnd": 11.55710165,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 18794
-  },
-  {
-    "type": 1,
-    "icao": "EDMX",
-    "lat": 48.23795451,
-    "lon": 11.56542585,
-    "communications": [],
-    "elevation": 1600,
-    "tower": false,
-    "name": "[H] Oberschleissheim HEL",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 48.23795451,
-        "lonStart": 11.56542585,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30
-      }
-    ],
-    "id": 31717
+    "id": 2095
   },
   {
     "type": 17,
-    "icao": "EDMR",
-    "lat": 48.04812628,
-    "lon": 11.65366921,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12995,
-        "name": "Ottobrunn Info"
-      }
-    ],
-    "elevation": 1852,
+    "icao": "XED7B",
+    "lat": 48.77048058,
+    "lon": 11.37255905,
+    "communications": [],
+    "elevation": 1243,
     "tower": true,
-    "name": "[H] Ottobrunn",
+    "name": "[H] Klinikum Ingolstadt",
     "runways": [
       {
         "type": 102,
-        "width": 28,
-        "surfaceType": 1,
+        "width": 17,
+        "surfaceType": 15,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 48.04812628,
-        "lonStart": 11.65366921,
+        "latStart": 48.77048058,
+        "lonStart": 11.37255905,
         "latEnd": null,
         "lonEnd": null,
-        "length": 28
+        "length": 17
       }
     ],
-    "id": 31782
+    "id": 5350
+  },
+  {
+    "type": 17,
+    "icao": "XED7H",
+    "lat": 48.0835607,
+    "lon": 11.55991808,
+    "communications": [],
+    "elevation": 1840,
+    "tower": false,
+    "name": "[H] Klinikum München Harlaching",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 48.0835607,
+        "lonStart": 11.55991808,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15
+      }
+    ],
+    "id": 5355
+  },
+  {
+    "type": 17,
+    "icao": "XED7M",
+    "lat": 48.11056209,
+    "lon": 11.46525279,
+    "communications": [],
+    "elevation": 1804,
+    "tower": false,
+    "name": "[H] Klinikum München Grosshadern",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 48.11056209,
+        "lonStart": 11.46525279,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15
+      }
+    ],
+    "id": 5359
   },
   {
     "type": 1,
-    "icao": "ETSF",
-    "lat": 48.206880000000005,
-    "lon": 11.2640087675,
-    "communications": [],
-    "elevation": 1703,
-    "tower": false,
-    "name": "[X] FC<rstenfeldbruck AB",
+    "icao": "XEDAB",
+    "lat": 48.472945005,
+    "lon": 11.134921055,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12230,
+        "name": "Aichach Info"
+      }
+    ],
+    "elevation": 1437,
+    "tower": true,
+    "name": "Aichach",
     "runways": [
       {
         "type": 100,
-        "width": 17,
+        "width": 30,
         "surfaceType": null,
-        "numberStart": "09L",
-        "numberEnd": "27R",
-        "latStart": 48.20838733,
-        "lonStart": 11.25269424,
-        "latEnd": 48.20788288,
-        "lonEnd": 11.26922888,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 48.47060913,
+        "lonStart": 11.13368784,
+        "latEnd": 48.47528088,
+        "lonEnd": 11.13615427,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 46.02,
-        "surfaceType": null,
-        "numberStart": "09R",
-        "numberEnd": "27L",
-        "latStart": 48.20617929,
-        "lonStart": 11.24860772,
-        "latEnd": 48.2050705,
-        "lonEnd": 11.28550423,
-        "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 34564
+    "id": 5369
+  },
+  {
+    "type": 1,
+    "icao": "XEDBW",
+    "lat": 48.810279025,
+    "lon": 11.42094759,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12350,
+        "name": "Etting Info"
+      }
+    ],
+    "elevation": 1248,
+    "tower": true,
+    "name": "Ingolstadt-Etting",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 48.8107961,
+        "lonStart": 11.41622966,
+        "latEnd": 48.80976195,
+        "lonEnd": 11.42566552,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5376
+  },
+  {
+    "type": 1,
+    "icao": "XEDCK",
+    "lat": 48.649667,
+    "lon": 11.59679725,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12335,
+        "name": "Hallertau Info"
+      }
+    ],
+    "elevation": 1266,
+    "tower": true,
+    "name": "Hallertau",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 48.6460499,
+        "lonStart": 11.5933116,
+        "latEnd": 48.6532841,
+        "lonEnd": 11.6002829,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5379
+  },
+  {
+    "type": 1,
+    "icao": "XEDCY",
+    "lat": 48.878052,
+    "lon": 11.760497955,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12350,
+        "name": "Hienheim Info"
+      }
+    ],
+    "elevation": 1312,
+    "tower": true,
+    "name": "Hienheim",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 48.87877118,
+        "lonStart": 11.7570235,
+        "latEnd": 48.87733282,
+        "lonEnd": 11.76397241,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5382
+  },
+  {
+    "type": 1,
+    "icao": "XEDG7",
+    "lat": 48.382106405,
+    "lon": 11.272945085,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12342,
+        "name": "Altomünster Info"
+      }
+    ],
+    "elevation": 1604,
+    "tower": true,
+    "name": "Altomünster",
+    "runways": [
+      {
+        "type": 100,
+        "width": 7,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 48.38106904,
+        "lonStart": 11.27249316,
+        "latEnd": 48.38314377,
+        "lonEnd": 11.27339701,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5388
+  },
+  {
+    "type": 1,
+    "icao": "XEDP7",
+    "lat": 48.180134464999995,
+    "lon": 11.927739005,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12342,
+        "name": "Strassham Info"
+      }
+    ],
+    "elevation": 1689,
+    "tower": true,
+    "name": "Strassham",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 48.1785073,
+        "lonStart": 11.92658527,
+        "latEnd": 48.18176163,
+        "lonEnd": 11.92889274,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5400
   }
 ]

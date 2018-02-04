@@ -1,6 +1,147 @@
 [
   {
     "type": 1,
+    "icao": "EDAC",
+    "lat": 50.982687229999996,
+    "lon": 12.507495355,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12357,
+        "name": "Altenburg Info"
+      }
+    ],
+    "elevation": 640,
+    "tower": true,
+    "name": "Leipzig-Altenburg",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 50.9742369,
+        "lonStart": 12.49647455,
+        "latEnd": 50.99113756,
+        "lonEnd": 12.51851616,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 982
+  },
+  {
+    "type": 1,
+    "icao": "EDAJ",
+    "lat": 50.88150066,
+    "lon": 12.135790775,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11807,
+        "name": "Gera Info"
+      }
+    ],
+    "elevation": 1015,
+    "tower": true,
+    "name": "Gera-Leumnitz",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 50.87965792,
+        "lonStart": 12.12985213,
+        "latEnd": 50.8833434,
+        "lonEnd": 12.14172942,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 988
+  },
+  {
+    "type": 1,
+    "icao": "EDBI",
+    "lat": 50.7011126,
+    "lon": 12.452460075,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12290,
+        "name": "Zwickau Info"
+      }
+    ],
+    "elevation": 1049,
+    "tower": true,
+    "name": "Zwickau",
+    "runways": [
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 50.69825658,
+        "lonStart": 12.44564554,
+        "latEnd": 50.70396862,
+        "lonEnd": 12.45927461,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1010
+  },
+  {
+    "type": 1,
+    "icao": "EDCJ",
+    "lat": 50.7472400575,
+    "lon": 12.837407525000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12250,
+        "name": "Jahnsdorf Info"
+      }
+    ],
+    "elevation": 1202,
+    "tower": true,
+    "name": "Chemnitz/Jahnsdorf",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 50.74569206,
+        "lonStart": 12.83150901,
+        "latEnd": 50.74910579,
+        "lonEnd": 12.84307343,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "07R",
+        "numberEnd": "25L",
+        "latStart": 50.74540723,
+        "lonStart": 12.83185259,
+        "latEnd": 50.74875515,
+        "lonEnd": 12.84319507,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1036
+  },
+  {
+    "type": 1,
     "icao": "EDOA",
     "lat": 50.49781403,
     "lon": 12.378628695000002,
@@ -53,71 +194,7 @@
         "length": 18
       }
     ],
-    "id": 1321
-  },
-  {
-    "type": 1,
-    "icao": "EDCJ",
-    "lat": 50.747389,
-    "lon": 12.837306,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12250,
-        "name": "EDCJ TWR"
-      }
-    ],
-    "elevation": 1202,
-    "tower": true,
-    "name": "Chemnitz Jahnsdorf",
-    "runways": [
-      {
-        "type": 100,
-        "width": 19.81,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 50.74580707,
-        "lonStart": 12.83141608,
-        "latEnd": 50.74897093,
-        "lonEnd": 12.84319592,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 4859
-  },
-  {
-    "type": 1,
-    "icao": "EDAJ",
-    "lat": 50.88150066,
-    "lon": 12.135790775,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11807,
-        "name": "Gera Info"
-      }
-    ],
-    "elevation": 1015,
-    "tower": true,
-    "name": "Gera-Leumnitz",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 50.87965792,
-        "lonStart": 12.12985213,
-        "latEnd": 50.8833434,
-        "lonEnd": 12.14172942,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 10420
+    "id": 1235
   },
   {
     "type": 1,
@@ -149,7 +226,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 10790
+    "id": 1253
   },
   {
     "type": 1,
@@ -204,39 +281,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 13621
-  },
-  {
-    "type": 1,
-    "icao": "EDAC",
-    "lat": 50.982687229999996,
-    "lon": 12.507495355,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12357,
-        "name": "Altenburg Info"
-      }
-    ],
-    "elevation": 640,
-    "tower": true,
-    "name": "Leipzig-Altenburg",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 50.9742369,
-        "lonStart": 12.49647455,
-        "latEnd": 50.99113756,
-        "lonEnd": 12.51851616,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 15129
+    "id": 3837
   },
   {
     "type": 1,
@@ -268,6 +313,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 25510
+    "id": 20643
   }
 ]

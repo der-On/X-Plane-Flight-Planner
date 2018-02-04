@@ -1,108 +1,393 @@
 [
   {
     "type": 1,
-    "icao": "EDDB",
-    "lat": 52.378541,
-    "lon": 13.520629249999999,
+    "icao": "EDAV",
+    "lat": 52.82632494,
+    "lon": 13.701657489999999,
     "communications": [
       {
-        "type": 50,
-        "frequency": 12495,
-        "name": "ATIS"
+        "type": 54,
+        "frequency": 11905,
+        "name": "Finow Info"
+      }
+    ],
+    "elevation": 121,
+    "tower": true,
+    "name": "Finow",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 52.82748046,
+        "lonStart": 13.69083332,
+        "latEnd": 52.82516942,
+        "lonEnd": 13.71248166,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 999
+  },
+  {
+    "type": 1,
+    "icao": "EDAY",
+    "lat": 52.581362606666666,
+    "lon": 13.915789105000002,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12305,
+        "name": "Strausberg Info"
+      }
+    ],
+    "elevation": 263,
+    "tower": true,
+    "name": "Strausberg",
+    "runways": [
+      {
+        "type": 100,
+        "width": 28.04,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 52.57644841,
+        "lonStart": 13.90897232,
+        "latEnd": 52.58353759,
+        "lonEnd": 13.92237876,
+        "length": 0,
+        "surfacetype": 2
       },
       {
-        "type": 53,
-        "frequency": 12180,
-        "name": "GND"
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "05R",
+        "numberEnd": "23L",
+        "latStart": 52.5759254,
+        "lonStart": 13.90981429,
+        "latEnd": 52.5829716,
+        "lonEnd": 13.92328179,
+        "length": 0,
+        "surfacetype": 3
       },
       {
-        "type": 53,
-        "frequency": 12160,
-        "name": "GND"
+        "type": 102,
+        "width": 21,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 52.5845265,
+        "lonStart": 13.91469057,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.6
       },
+      {
+        "type": 102,
+        "width": 20.9,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 52.58476614,
+        "lonStart": 13.9155969,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19.4
+      }
+    ],
+    "id": 1002
+  },
+  {
+    "type": 1,
+    "icao": "EDAZ",
+    "lat": 52.20623645,
+    "lon": 13.158920911666668,
+    "communications": [
       {
         "type": 54,
         "frequency": 12270,
         "name": "INFO"
-      },
-      {
-        "type": 54,
-        "frequency": 12787,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12002,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 13265,
-        "name": "BERLIN INFO"
-      },
-      {
-        "type": 55,
-        "frequency": 13610,
-        "name": "BERLIN DIRECTOR"
-      },
-      {
-        "type": 55,
-        "frequency": 12112,
-        "name": "BERLIN DIRECTOR"
-      },
-      {
-        "type": 55,
-        "frequency": 11962,
-        "name": "BERLIN ARR"
-      },
-      {
-        "type": 55,
-        "frequency": 12642,
-        "name": "BERLIN ARR"
-      },
-      {
-        "type": 56,
-        "frequency": 12062,
-        "name": "BERLIN DEP"
-      },
-      {
-        "type": 56,
-        "frequency": 11950,
-        "name": "BERLIN DEP"
       }
     ],
-    "elevation": 157,
+    "elevation": 130,
     "tower": true,
-    "name": "Berlin Schoenefeld",
+    "name": "Schonhagen",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 23,
         "surfaceType": null,
         "numberStart": "07",
         "numberEnd": "25",
-        "latStart": 52.367689,
-        "lonStart": 13.485025,
-        "latEnd": 52.377431,
-        "lonEnd": 13.526097,
+        "latStart": 52.20219005,
+        "lonStart": 13.14906431,
+        "latEnd": 52.2056159,
+        "lonEnd": 13.17107497,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 45.11,
+        "width": 18,
         "surfaceType": null,
-        "numberStart": "07L",
-        "numberEnd": "25R",
-        "latStart": 52.380125,
-        "lonStart": 13.517142,
-        "latEnd": 52.388919,
-        "lonEnd": 13.554253,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 52.20923857,
+        "lonStart": 13.15505333,
+        "latEnd": 52.20551616,
+        "lonEnd": 13.16331051,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "12R",
+        "numberEnd": "30L",
+        "latStart": 52.20946197,
+        "lonStart": 13.15296868,
+        "latEnd": 52.20539605,
+        "lonEnd": 13.16205367,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1003
+  },
+  {
+    "type": 1,
+    "icao": "EDBW",
+    "lat": 52.63222801,
+    "lon": 13.77601125,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12260,
+        "name": "Werneuchen Info"
+      }
+    ],
+    "elevation": 263,
+    "tower": true,
+    "name": "Werneuchen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 35,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 52.63154631,
+        "lonStart": 13.7649536,
+        "latEnd": 52.63290971,
+        "lonEnd": 13.7870689,
         "length": 0,
         "surfacetype": 2
       }
     ],
-    "id": 2593
+    "id": 1024
+  },
+  {
+    "type": 1,
+    "icao": "EDCF",
+    "lat": 52.2823349825,
+    "lon": 13.802291307499999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12285,
+        "name": "Friedersdorf Info"
+      }
+    ],
+    "elevation": 114,
+    "tower": true,
+    "name": "Friedersdorf",
+    "runways": [
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 52.28482432,
+        "lonStart": 13.795021,
+        "latEnd": 52.28063022,
+        "lonEnd": 13.80967829,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "12R",
+        "numberEnd": "30L",
+        "latStart": 52.28385806,
+        "lonStart": 13.79557611,
+        "latEnd": 52.28002733,
+        "lonEnd": 13.80888983,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1032
+  },
+  {
+    "type": 1,
+    "icao": "EDCS",
+    "lat": 52.308345040000006,
+    "lon": 13.099058395,
+    "communications": [],
+    "elevation": 171,
+    "tower": false,
+    "name": "Saarmund",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 52.30885287,
+        "lonStart": 13.09174573,
+        "latEnd": 52.30783721,
+        "lonEnd": 13.10637106,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1044
+  },
+  {
+    "type": 1,
+    "icao": "EDDB",
+    "lat": 52.355906673750006,
+    "lon": 13.48538501,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12377,
+        "name": "Schoenefeld ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 12002,
+        "name": "Schoenefeld TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11957,
+        "name": "Schoenefeld TWR 1"
+      },
+      {
+        "type": 53,
+        "frequency": 12950,
+        "name": "Schoenefeld GND"
+      },
+      {
+        "type": 53,
+        "frequency": 12960,
+        "name": "Schoenefeld APN"
+      },
+      {
+        "type": 56,
+        "frequency": 12062,
+        "name": "Bremen RAD"
+      },
+      {
+        "type": 55,
+        "frequency": 11962,
+        "name": "Bremen RAD"
+      },
+      {
+        "type": 52,
+        "frequency": 11885,
+        "name": "Schoenefeld DLV"
+      }
+    ],
+    "elevation": 157,
+    "tower": true,
+    "name": "Berlin Brandenburg Intl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "07R",
+        "numberEnd": "25L",
+        "latStart": 52.34542363,
+        "lonStart": 13.46843171,
+        "latEnd": 52.35841312,
+        "lonEnd": 13.5231453,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "07L",
+        "numberEnd": "25R",
+        "latStart": 52.36670657,
+        "lonStart": 13.48091725,
+        "latEnd": 52.37839755,
+        "lonEnd": 13.53020031,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 16.4,
+        "surfaceType": 15,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 52.349711,
+        "lonStart": 13.47065196,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 17.4
+      },
+      {
+        "type": 102,
+        "width": 16.4,
+        "surfaceType": 15,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 52.34962017,
+        "lonStart": 13.47028224,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 17.4
+      },
+      {
+        "type": 102,
+        "width": 16.4,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 52.34953302,
+        "lonStart": 13.46991051,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 17.4
+      },
+      {
+        "type": 102,
+        "width": 16.4,
+        "surfaceType": 15,
+        "numberStart": "H0",
+        "numberEnd": null,
+        "latStart": 52.34944833,
+        "lonStart": 13.4695408,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 17.4
+      }
+    ],
+    "id": 1051
   },
   {
     "type": 1,
@@ -218,234 +503,7 @@
         "length": 15.7
       }
     ],
-    "id": 2595
-  },
-  {
-    "type": 1,
-    "icao": "EDAV",
-    "lat": 52.827165,
-    "lon": 13.6934985,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12635,
-        "name": "BERLIN INFO"
-      },
-      {
-        "type": 54,
-        "frequency": 13265,
-        "name": "BERLIN INFO"
-      },
-      {
-        "type": 54,
-        "frequency": 11905,
-        "name": "INFO"
-      }
-    ],
-    "elevation": 121,
-    "tower": true,
-    "name": "Finow",
-    "runways": [
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 52.829119,
-        "lonStart": 13.675086,
-        "latEnd": 52.825211,
-        "lonEnd": 13.711911,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 9303
-  },
-  {
-    "type": 1,
-    "icao": "EDCS",
-    "lat": 52.308345040000006,
-    "lon": 13.099058395,
-    "communications": [],
-    "elevation": 171,
-    "tower": false,
-    "name": "Saarmund",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 52.30885287,
-        "lonStart": 13.09174573,
-        "latEnd": 52.30783721,
-        "lonEnd": 13.10637106,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 22646
-  },
-  {
-    "type": 1,
-    "icao": "EDAZ",
-    "lat": 52.20623645,
-    "lon": 13.158920771666667,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12270,
-        "name": "INFO"
-      }
-    ],
-    "elevation": 131,
-    "tower": true,
-    "name": "Schonhagen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 23,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 52.20219052,
-        "lonStart": 13.14906412,
-        "latEnd": 52.20561543,
-        "lonEnd": 13.17107432,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 18,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 52.20923857,
-        "lonStart": 13.15505333,
-        "latEnd": 52.20551616,
-        "lonEnd": 13.16331051,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 40,
-        "surfaceType": null,
-        "numberStart": "12R",
-        "numberEnd": "30L",
-        "latStart": 52.20946197,
-        "lonStart": 13.15296868,
-        "latEnd": 52.20539605,
-        "lonEnd": 13.16205367,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23120
-  },
-  {
-    "type": 1,
-    "icao": "EDAY",
-    "lat": 52.58136012,
-    "lon": 13.915790513333334,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12305,
-        "name": "Strausberg Info"
-      }
-    ],
-    "elevation": 263,
-    "tower": true,
-    "name": "Strausberg",
-    "runways": [
-      {
-        "type": 100,
-        "width": 28.04,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 52.57644841,
-        "lonStart": 13.90897232,
-        "latEnd": 52.58353759,
-        "lonEnd": 13.92237876,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 39.93,
-        "surfaceType": null,
-        "numberStart": "05R",
-        "numberEnd": "23L",
-        "latStart": 52.5759254,
-        "lonStart": 13.90981429,
-        "latEnd": 52.5829716,
-        "lonEnd": 13.92328179,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 102,
-        "width": 21.7,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 52.58452133,
-        "lonStart": 13.914693,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20.6
-      },
-      {
-        "type": 102,
-        "width": 21.7,
-        "surfaceType": 2,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 52.58475639,
-        "lonStart": 13.91560292,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20.6
-      }
-    ],
-    "id": 24271
-  },
-  {
-    "type": 1,
-    "icao": "EDBW",
-    "lat": 52.63222801,
-    "lon": 13.77601125,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12260,
-        "name": "Werneuchen Info"
-      }
-    ],
-    "elevation": 263,
-    "tower": true,
-    "name": "Werneuchen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 35,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 52.63154631,
-        "lonStart": 13.7649536,
-        "latEnd": 52.63290971,
-        "lonEnd": 13.7870689,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 27096
+    "id": 1064
   },
   {
     "type": 17,
@@ -470,7 +528,7 @@
         "length": 30
       }
     ],
-    "id": 28503
+    "id": 1258
   },
   {
     "type": 1,
@@ -545,6 +603,6 @@
         "length": 14
       }
     ],
-    "id": 34545
+    "id": 16162
   }
 ]

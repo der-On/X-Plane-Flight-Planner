@@ -1,55 +1,99 @@
 [
   {
     "type": 1,
-    "icao": "LOXA",
-    "lat": 47.533,
-    "lon": 14.133,
-    "communications": [],
-    "elevation": 2000,
+    "icao": "LOGI",
+    "lat": 47.493341744999995,
+    "lon": 14.495753480000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12250,
+        "name": "Trieben Flugplatz"
+      }
+    ],
+    "elevation": 2286,
     "tower": true,
-    "name": "Aigen",
+    "name": "Trieben",
     "runways": [
       {
         "type": 100,
-        "width": 45.72,
+        "width": 18,
         "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 47.5295662,
-        "lonStart": 14.12420839,
-        "latEnd": 47.5364338,
-        "lonEnd": 14.14179161,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 47.49475159,
+        "lonStart": 14.4909748,
+        "latEnd": 47.4919319,
+        "lonEnd": 14.50053216,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       }
     ],
-    "id": 727
+    "id": 3846
   },
   {
     "type": 1,
-    "icao": "LOLM",
-    "lat": 47.870833,
-    "lon": 14.125,
-    "communications": [],
-    "elevation": 1510,
+    "icao": "LOGT",
+    "lat": 47.379656655,
+    "lon": 14.964048739999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12230,
+        "name": "Timmersdorf Flugplatz"
+      }
+    ],
+    "elevation": 2060,
     "tower": true,
-    "name": "Micheldorf",
+    "name": "Leoben/Timmersdorf",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 30,
         "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 47.87217663,
-        "lonStart": 14.12260789,
-        "latEnd": 47.86948937,
-        "lonEnd": 14.12739211,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 47.38087896,
+        "lonStart": 14.96030835,
+        "latEnd": 47.37843435,
+        "lonEnd": 14.96778913,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 17139
+    "id": 3849
+  },
+  {
+    "type": 1,
+    "icao": "LOXA",
+    "lat": 47.535704325,
+    "lon": 14.141440155,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11800,
+        "name": "Aigen Tower"
+      }
+    ],
+    "elevation": 2092,
+    "tower": true,
+    "name": "Aigen im Ennstal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 47.53359814,
+        "lonStart": 14.1349903,
+        "latEnd": 47.53781051,
+        "lonEnd": 14.14789001,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3862
   },
   {
     "type": 1,
@@ -75,59 +119,33 @@
         "surfacetype": 1
       }
     ],
-    "id": 18315
+    "id": 20751
   },
   {
     "type": 1,
-    "icao": "LOGT",
-    "lat": 47.379999999999995,
-    "lon": 14.968,
+    "icao": "LOLM",
+    "lat": 47.870833,
+    "lon": 14.125,
     "communications": [],
-    "elevation": 2060,
+    "elevation": 1510,
     "tower": true,
-    "name": "Timmersdorf",
+    "name": "Micheldorf",
     "runways": [
       {
         "type": 100,
         "width": 29.87,
         "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 47.38140143,
-        "lonStart": 14.9643631,
-        "latEnd": 47.37859857,
-        "lonEnd": 14.9716369,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 47.87217663,
+        "lonStart": 14.12260789,
+        "latEnd": 47.86948937,
+        "lonEnd": 14.12739211,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 25384
-  },
-  {
-    "type": 1,
-    "icao": "LOGI",
-    "lat": 47.495,
-    "lon": 14.498000000000001,
-    "communications": [],
-    "elevation": 2283,
-    "tower": true,
-    "name": "Trieben",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 47.49614233,
-        "lonStart": 14.49305622,
-        "latEnd": 47.49385767,
-        "lonEnd": 14.50294378,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 25592
+    "id": 20764
   },
   {
     "type": 1,
@@ -187,6 +205,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 27843
+    "id": 20774
   }
 ]

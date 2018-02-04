@@ -3,33 +3,38 @@
     "type": 1,
     "icao": "YBOA",
     "lat": -28.018091,
-    "lon": 152.675774,
+    "lon": 152.67577370499998,
     "communications": [
       {
         "type": 51,
         "frequency": 12275,
         "name": "CTAF"
+      },
+      {
+        "type": 55,
+        "frequency": 11950,
+        "name": "Brisbane Center"
       }
     ],
-    "elevation": 319,
+    "elevation": 317,
     "tower": false,
     "name": "Boonah",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 45.72,
         "surfaceType": null,
         "numberStart": "04",
         "numberEnd": "22",
-        "latStart": -28.020652,
-        "lonStart": 152.671744,
-        "latEnd": -28.01553,
-        "lonEnd": 152.679804,
+        "latStart": -28.02132407,
+        "lonStart": 152.67080009,
+        "latEnd": -28.01485793,
+        "lonEnd": 152.68074732,
         "length": 0,
-        "surfacetype": 4
+        "surfacetype": 3
       }
     ],
-    "id": 2989
+    "id": 5584
   },
   {
     "type": 1,
@@ -55,38 +60,38 @@
         "surfacetype": 4
       }
     ],
-    "id": 3861
+    "id": 32959
   },
   {
     "type": 1,
     "icao": "YKBN",
-    "lat": -28.088826400000002,
-    "lon": 152.84567223,
+    "lat": -28.08881048,
+    "lon": 152.84565063,
     "communications": [
       {
-        "type": 51,
-        "frequency": 12670,
-        "name": "CTAF"
+        "type": 54,
+        "frequency": 12665,
+        "name": "Kooralbyn CTAF"
       }
     ],
-    "elevation": 314,
+    "elevation": 312,
     "tower": false,
-    "name": "KOORALBYN",
+    "name": "Kooralbyn",
     "runways": [
       {
         "type": 100,
-        "width": 14.02,
+        "width": 14,
         "surfaceType": null,
         "numberStart": "12",
         "numberEnd": "30",
-        "latStart": -28.08510446,
-        "lonStart": 152.83995472,
-        "latEnd": -28.09254834,
-        "lonEnd": 152.85138974,
+        "latStart": -28.08510244,
+        "lonStart": 152.839967,
+        "latEnd": -28.09251852,
+        "lonEnd": 152.85133426,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 13463
+    "id": 33554
   }
 ]

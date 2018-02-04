@@ -1,14 +1,51 @@
 [
   {
     "type": 1,
-    "icao": "EA6",
-    "lat": 49.162499999999994,
-    "lon": -113.2409695,
+    "icao": "CZPC",
+    "lat": 49.520440175000005,
+    "lon": -113.99709741000001,
     "communications": [
       {
-        "type": 51,
+        "type": 50,
+        "frequency": 12765,
+        "name": "AWOS"
+      },
+      {
+        "type": 54,
         "frequency": 12320,
-        "name": "CTAF"
+        "name": "Traffic"
+      }
+    ],
+    "elevation": 3902,
+    "tower": false,
+    "name": "Pincher Creek",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 49.52044,
+        "lonStart": -114.01098741,
+        "latEnd": 49.52044035,
+        "lonEnd": -113.98320741,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 894
+  },
+  {
+    "type": 1,
+    "icao": "EA6",
+    "lat": 49.163661505,
+    "lon": -113.241913555,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12320,
+        "name": "Traffic"
       }
     ],
     "elevation": 3887,
@@ -21,15 +58,15 @@
         "surfaceType": null,
         "numberStart": "05",
         "numberEnd": "23",
-        "latStart": 49.160278,
-        "lonStart": -113.2475,
-        "latEnd": 49.164722,
-        "lonEnd": -113.234439,
+        "latStart": 49.16152616,
+        "lonStart": -113.2484551,
+        "latEnd": 49.16579685,
+        "lonEnd": -113.23537201,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 4538
+    "id": 940
   },
   {
     "type": 1,
@@ -61,43 +98,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 9606
-  },
-  {
-    "type": 1,
-    "icao": "CZPC",
-    "lat": 49.520558,
-    "lon": -113.997221,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12320,
-        "name": "CTAF"
-      },
-      {
-        "type": 55,
-        "frequency": 13275,
-        "name": "EDMONTON CNTR"
-      }
-    ],
-    "elevation": 3903,
-    "tower": false,
-    "name": "PINCHER CREEK",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 49.520558,
-        "lonStart": -114.011111,
-        "latEnd": 49.520558,
-        "lonEnd": -113.983331,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19385
+    "id": 16695
   }
 ]

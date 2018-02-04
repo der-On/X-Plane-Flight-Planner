@@ -1,55 +1,70 @@
 [
   {
     "type": 1,
-    "icao": "SWXD",
-    "lat": -21.56111111,
-    "lon": -48.79861111,
-    "communications": [],
-    "elevation": 1762,
+    "icao": "SBGP",
+    "lat": -21.749518822000002,
+    "lon": -48.393434896,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11895,
+        "name": "AFIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "GNDC"
+      },
+      {
+        "type": 54,
+        "frequency": 11815,
+        "name": "RDO"
+      }
+    ],
+    "elevation": 1998,
     "tower": false,
-    "name": "Aerogardi",
+    "name": "EMBRAER UNIDADE GAVIAO PEIXOTO",
     "runways": [
       {
         "type": 100,
-        "width": 17.98,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": -21.55939211,
-        "lonStart": -48.80155872,
-        "latEnd": -21.56283011,
-        "lonEnd": -48.7956635,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": -21.796454,
+        "lonStart": -48.404628,
+        "latEnd": -21.751332,
+        "lonEnd": -48.405428,
         "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 646
-  },
-  {
-    "type": 1,
-    "icao": "SSTN",
-    "lat": -21.67861111,
-    "lon": -48.211944439999996,
-    "communications": [],
-    "elevation": 2283,
-    "tower": false,
-    "name": "Alberto Bertelli",
-    "runways": [
+        "surfacetype": 1
+      },
       {
         "type": 100,
-        "width": 29.87,
+        "width": 28,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": -21.68003142,
-        "lonStart": -48.21584036,
-        "latEnd": -21.6771908,
-        "lonEnd": -48.20804852,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -21.72041764,
+        "lonStart": -48.3788047,
+        "latEnd": -21.72889708,
+        "lonEnd": -48.37531585,
         "length": 0,
-        "surfacetype": 4
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 48.2,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -21.75049339,
+        "lonStart": -48.40299793,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 76.5
       }
     ],
-    "id": 812
+    "id": 4619
   },
   {
     "type": 1,
@@ -81,169 +96,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 1141
-  },
-  {
-    "type": 1,
-    "icao": "SDCD",
-    "lat": -21.149237499999998,
-    "lon": -48.9886805,
-    "communications": [],
-    "elevation": 1840,
-    "tower": false,
-    "name": "CATANDUVA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": -21.153033,
-        "lonStart": -48.992619,
-        "latEnd": -21.145442,
-        "lonEnd": -48.984742,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 3733
-  },
-  {
-    "type": 1,
-    "icao": "SDXE",
-    "lat": -21.264802500000002,
-    "lon": -48.356078,
-    "communications": [],
-    "elevation": 2037,
-    "tower": false,
-    "name": "CHACARA SERRADINHO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 14.94,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": -21.268422,
-        "lonStart": -48.359075,
-        "latEnd": -21.261183,
-        "lonEnd": -48.353081,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 3779
-  },
-  {
-    "type": 1,
-    "icao": "SBGP",
-    "lat": -21.773682,
-    "lon": -48.405077500000004,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11815,
-        "name": "RDO"
-      }
-    ],
-    "elevation": 1998,
-    "tower": false,
-    "name": "EMBRAER UNIDADE GAVIAO PEIXOTO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": -21.796108,
-        "lonStart": -48.404733,
-        "latEnd": -21.751256,
-        "lonEnd": -48.405422,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 6763
-  },
-  {
-    "type": 1,
-    "icao": "SDMY",
-    "lat": -21.632844499999997,
-    "lon": -48.4791265,
-    "communications": [],
-    "elevation": 2008,
-    "tower": false,
-    "name": "FAZENDA DO CAMBUHY",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": -21.635039,
-        "lonStart": -48.485989,
-        "latEnd": -21.63065,
-        "lonEnd": -48.472264,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 7461
-  },
-  {
-    "type": 1,
-    "icao": "SDEO",
-    "lat": -21.878632,
-    "lon": -48.659356,
-    "communications": [],
-    "elevation": 1709,
-    "tower": false,
-    "name": "FAZENDA ENTRE RIOS",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.99,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": -21.872861,
-        "lonStart": -48.663106,
-        "latEnd": -21.884403,
-        "lonEnd": -48.655606,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 7466
-  },
-  {
-    "type": 1,
-    "icao": "SDFI",
-    "lat": -21.6546265,
-    "lon": -48.266315500000005,
-    "communications": [],
-    "elevation": 2257,
-    "tower": false,
-    "name": "FAZENDA ITAQUERE",
-    "runways": [
-      {
-        "type": 100,
-        "width": 11.89,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": -21.650928,
-        "lonStart": -48.271656,
-        "latEnd": -21.658325,
-        "lonEnd": -48.260975,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 7479
+    "id": 25100
   },
   {
     "type": 1,
@@ -269,423 +122,33 @@
         "surfacetype": 4
       }
     ],
-    "id": 7895
+    "id": 25346
   },
   {
     "type": 1,
-    "icao": "SJAW",
-    "lat": -21.725277785,
-    "lon": -48.451944435,
+    "icao": "SDCD",
+    "lat": -21.149237499999998,
+    "lon": -48.9886805,
     "communications": [],
-    "elevation": 2057,
+    "elevation": 1840,
     "tower": false,
-    "name": "Fazenda Citricola",
+    "name": "CATANDUVA",
     "runways": [
       {
         "type": 100,
         "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": -21.72137051,
-        "lonStart": -48.45335885,
-        "latEnd": -21.72918506,
-        "lonEnd": -48.45053002,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 8152
-  },
-  {
-    "type": 1,
-    "icao": "SDZR",
-    "lat": -21.412222225,
-    "lon": -48.32861111,
-    "communications": [],
-    "elevation": 2116,
-    "tower": false,
-    "name": "Fazenda Cruzeiro",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.99,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": -21.41603775,
-        "lonStart": -48.32928252,
-        "latEnd": -21.4084067,
-        "lonEnd": -48.3279397,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 8187
-  },
-  {
-    "type": 1,
-    "icao": "SDFF",
-    "lat": -21.854444435,
-    "lon": -48.29583333,
-    "communications": [],
-    "elevation": 1673,
-    "tower": false,
-    "name": "Fazenda Fittipaldi Citrus",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": -21.85118848,
-        "lonStart": -48.29701647,
-        "latEnd": -21.85770039,
-        "lonEnd": -48.29465019,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 8269
-  },
-  {
-    "type": 1,
-    "icao": "SDSV",
-    "lat": -21.327777785000002,
-    "lon": -48.17111111,
-    "communications": [],
-    "elevation": 2080,
-    "tower": false,
-    "name": "Fazenda Santa Candida",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": -21.3253393,
-        "lonStart": -48.17402957,
-        "latEnd": -21.33021627,
-        "lonEnd": -48.16819265,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 8788
-  },
-  {
-    "type": 1,
-    "icao": "SDNL",
-    "lat": -21.75972222,
-    "lon": -48.58611111,
-    "communications": [],
-    "elevation": 1877,
-    "tower": false,
-    "name": "Fazenda Sao Francisco do Itaquere",
-    "runways": [
-      {
-        "type": 100,
-        "width": 32,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": -21.75537093,
-        "lonStart": -48.58973904,
-        "latEnd": -21.76407351,
-        "lonEnd": -48.58248318,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 8937
-  },
-  {
-    "type": 1,
-    "icao": "SDVS",
-    "lat": -21.07305556,
-    "lon": -48.03222222,
-    "communications": [],
-    "elevation": 1801,
-    "tower": false,
-    "name": "Fazenda Vassoural",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": -21.06943005,
-        "lonStart": -48.03433486,
-        "latEnd": -21.07668107,
-        "lonEnd": -48.03010958,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 9166
-  },
-  {
-    "type": 1,
-    "icao": "SDIO",
-    "lat": -21.60035,
-    "lon": -48.832989,
-    "communications": [],
-    "elevation": 1739,
-    "tower": false,
-    "name": "ITAPOLIS",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.99,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": -21.606242,
-        "lonStart": -48.832378,
-        "latEnd": -21.594458,
-        "lonEnd": -48.8336,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 12366
-  },
-  {
-    "type": 1,
-    "icao": "SDIG",
-    "lat": -21.747264,
-    "lon": -48.855680500000005,
-    "communications": [],
-    "elevation": 1780,
-    "tower": true,
-    "name": "Ibitinga",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": -21.745056,
-        "lonStart": -48.861083,
-        "latEnd": -21.749472,
-        "lonEnd": -48.850278,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 12397
-  },
-  {
-    "type": 1,
-    "icao": "SDJC",
-    "lat": -21.229999499999998,
-    "lon": -48.2844429,
-    "communications": [],
-    "elevation": 2021,
-    "tower": true,
-    "name": "Jaboticabal",
-    "runways": [
-      {
-        "type": 100,
-        "width": 13.72,
         "surfaceType": null,
         "numberStart": "06",
         "numberEnd": "24",
-        "latStart": -21.23325999,
-        "lonStart": -48.28748356,
-        "latEnd": -21.22673901,
-        "lonEnd": -48.28140224,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 12843
-  },
-  {
-    "type": 1,
-    "icao": "SDME",
-    "lat": -21.6305735,
-    "lon": -48.392881,
-    "communications": [],
-    "elevation": 1942,
-    "tower": false,
-    "name": "MARCHESAN S A",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": -21.628844,
-        "lonStart": -48.398281,
-        "latEnd": -21.632303,
-        "lonEnd": -48.387481,
+        "latStart": -21.153033,
+        "lonStart": -48.992619,
+        "latEnd": -21.145442,
+        "lonEnd": -48.984742,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 15810
-  },
-  {
-    "type": 1,
-    "icao": "SDLY",
-    "lat": -21.62305556,
-    "lon": -48.352499995,
-    "communications": [],
-    "elevation": 2083,
-    "tower": false,
-    "name": "Matao",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": -21.62034325,
-        "lonStart": -48.35477347,
-        "latEnd": -21.62576787,
-        "lonEnd": -48.35022652,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 16792
-  },
-  {
-    "type": 1,
-    "icao": "SDMO",
-    "lat": -21.261388895,
-    "lon": -48.529722215,
-    "communications": [],
-    "elevation": 2461,
-    "tower": false,
-    "name": "Monte Alto",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": -21.25795322,
-        "lonStart": -48.53170021,
-        "latEnd": -21.26482457,
-        "lonEnd": -48.52774422,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 17408
-  },
-  {
-    "type": 1,
-    "icao": "SDZZ",
-    "lat": -21.79777778,
-    "lon": -48.54388889,
-    "communications": [],
-    "elevation": 1790,
-    "tower": false,
-    "name": "Sitio Sao Jose",
-    "runways": [
-      {
-        "type": 100,
-        "width": 32,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": -21.80084073,
-        "lonStart": -48.54335817,
-        "latEnd": -21.79471483,
-        "lonEnd": -48.54441961,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23575
-  },
-  {
-    "type": 1,
-    "icao": "SDUD",
-    "lat": -21.332248999999997,
-    "lon": -48.3162485,
-    "communications": [],
-    "elevation": 1991,
-    "tower": false,
-    "name": "USINA SANTA ADELIA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": -21.335067,
-        "lonStart": -48.320039,
-        "latEnd": -21.329431,
-        "lonEnd": -48.312458,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 25843
-  },
-  {
-    "type": 1,
-    "icao": "SDTY",
-    "lat": -21.339772,
-    "lon": -48.1149205,
-    "communications": [],
-    "elevation": 1713,
-    "tower": false,
-    "name": "USINA SAO MARTINHO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": -21.338258,
-        "lonStart": -48.122508,
-        "latEnd": -21.341286,
-        "lonEnd": -48.107333,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 25845
-  },
-  {
-    "type": 1,
-    "icao": "SDGU",
-    "lat": -21.404444445,
-    "lon": -48.30333333,
-    "communications": [],
-    "elevation": 2116,
-    "tower": false,
-    "name": "Usina Bonfim",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": -21.40878088,
-        "lonStart": -48.30490909,
-        "latEnd": -21.40010801,
-        "lonEnd": -48.30175757,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 25982
+    "id": 25375
   },
   {
     "type": 1,
@@ -711,33 +174,423 @@
         "surfacetype": 4
       }
     ],
-    "id": 25986
+    "id": 25415
   },
   {
     "type": 1,
-    "icao": "SJQV",
-    "lat": -21.50916667,
-    "lon": -48.19722222,
+    "icao": "SDEO",
+    "lat": -21.878632,
+    "lon": -48.659356,
     "communications": [],
-    "elevation": 1978,
+    "elevation": 1709,
     "tower": false,
-    "name": "Usina Santa Luiza",
+    "name": "FAZENDA ENTRE RIOS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -21.872861,
+        "lonStart": -48.663106,
+        "latEnd": -21.884403,
+        "lonEnd": -48.655606,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 25432
+  },
+  {
+    "type": 1,
+    "icao": "SDFF",
+    "lat": -21.854444435,
+    "lon": -48.29583333,
+    "communications": [],
+    "elevation": 1673,
+    "tower": false,
+    "name": "Fazenda Fittipaldi Citrus",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -21.85118848,
+        "lonStart": -48.29701647,
+        "latEnd": -21.85770039,
+        "lonEnd": -48.29465019,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25449
+  },
+  {
+    "type": 1,
+    "icao": "SDFI",
+    "lat": -21.6546265,
+    "lon": -48.266315500000005,
+    "communications": [],
+    "elevation": 2257,
+    "tower": false,
+    "name": "FAZENDA ITAQUERE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 11.89,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -21.650928,
+        "lonStart": -48.271656,
+        "latEnd": -21.658325,
+        "lonEnd": -48.260975,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 25452
+  },
+  {
+    "type": 1,
+    "icao": "SDGU",
+    "lat": -21.404444445,
+    "lon": -48.30333333,
+    "communications": [],
+    "elevation": 2116,
+    "tower": false,
+    "name": "Usina Bonfim",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": -21.40878088,
+        "lonStart": -48.30490909,
+        "latEnd": -21.40010801,
+        "lonEnd": -48.30175757,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 25489
+  },
+  {
+    "type": 1,
+    "icao": "SDIG",
+    "lat": -21.747264,
+    "lon": -48.855680500000005,
+    "communications": [],
+    "elevation": 1780,
+    "tower": true,
+    "name": "Ibitinga",
     "runways": [
       {
         "type": 100,
         "width": 17.98,
         "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": -21.50992701,
-        "lonStart": -48.20150372,
-        "latEnd": -21.50840633,
-        "lonEnd": -48.19294072,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -21.745056,
+        "lonStart": -48.861083,
+        "latEnd": -21.749472,
+        "lonEnd": -48.850278,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 25526
+  },
+  {
+    "type": 1,
+    "icao": "SDIO",
+    "lat": -21.60035,
+    "lon": -48.832989,
+    "communications": [],
+    "elevation": 1739,
+    "tower": false,
+    "name": "ITAPOLIS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": -21.606242,
+        "lonStart": -48.832378,
+        "latEnd": -21.594458,
+        "lonEnd": -48.8336,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 25531
+  },
+  {
+    "type": 1,
+    "icao": "SDJC",
+    "lat": -21.229999499999998,
+    "lon": -48.2844429,
+    "communications": [],
+    "elevation": 2021,
+    "tower": true,
+    "name": "Jaboticabal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 13.72,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -21.23325999,
+        "lonStart": -48.28748356,
+        "latEnd": -21.22673901,
+        "lonEnd": -48.28140224,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 25545
+  },
+  {
+    "type": 1,
+    "icao": "SDLY",
+    "lat": -21.62305556,
+    "lon": -48.352499995,
+    "communications": [],
+    "elevation": 2083,
+    "tower": false,
+    "name": "Matao",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -21.62034325,
+        "lonStart": -48.35477347,
+        "latEnd": -21.62576787,
+        "lonEnd": -48.35022652,
         "length": 0,
         "surfacetype": 4
       }
     ],
-    "id": 25999
+    "id": 25617
+  },
+  {
+    "type": 1,
+    "icao": "SDME",
+    "lat": -21.6305735,
+    "lon": -48.392881,
+    "communications": [],
+    "elevation": 1942,
+    "tower": false,
+    "name": "MARCHESAN S A",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -21.628844,
+        "lonStart": -48.398281,
+        "latEnd": -21.632303,
+        "lonEnd": -48.387481,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 25622
+  },
+  {
+    "type": 1,
+    "icao": "SDMO",
+    "lat": -21.261388895,
+    "lon": -48.529722215,
+    "communications": [],
+    "elevation": 2461,
+    "tower": false,
+    "name": "Monte Alto",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -21.25795322,
+        "lonStart": -48.53170021,
+        "latEnd": -21.26482457,
+        "lonEnd": -48.52774422,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 25630
+  },
+  {
+    "type": 1,
+    "icao": "SDMY",
+    "lat": -21.632844499999997,
+    "lon": -48.4791265,
+    "communications": [],
+    "elevation": 2008,
+    "tower": false,
+    "name": "FAZENDA DO CAMBUHY",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -21.635039,
+        "lonStart": -48.485989,
+        "latEnd": -21.63065,
+        "lonEnd": -48.472264,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 25640
+  },
+  {
+    "type": 1,
+    "icao": "SDNL",
+    "lat": -21.75972222,
+    "lon": -48.58611111,
+    "communications": [],
+    "elevation": 1877,
+    "tower": false,
+    "name": "Fazenda Sao Francisco do Itaquere",
+    "runways": [
+      {
+        "type": 100,
+        "width": 32,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -21.75537093,
+        "lonStart": -48.58973904,
+        "latEnd": -21.76407351,
+        "lonEnd": -48.58248318,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 25652
+  },
+  {
+    "type": 1,
+    "icao": "SDSV",
+    "lat": -21.327777785000002,
+    "lon": -48.17111111,
+    "communications": [],
+    "elevation": 2080,
+    "tower": false,
+    "name": "Fazenda Santa Candida",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -21.3253393,
+        "lonStart": -48.17402957,
+        "latEnd": -21.33021627,
+        "lonEnd": -48.16819265,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 25789
+  },
+  {
+    "type": 1,
+    "icao": "SDTY",
+    "lat": -21.339772,
+    "lon": -48.1149205,
+    "communications": [],
+    "elevation": 1713,
+    "tower": false,
+    "name": "USINA SAO MARTINHO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -21.338258,
+        "lonStart": -48.122508,
+        "latEnd": -21.341286,
+        "lonEnd": -48.107333,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 25816
+  },
+  {
+    "type": 1,
+    "icao": "SDUD",
+    "lat": -21.332248999999997,
+    "lon": -48.3162485,
+    "communications": [],
+    "elevation": 1991,
+    "tower": false,
+    "name": "USINA SANTA ADELIA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -21.335067,
+        "lonStart": -48.320039,
+        "latEnd": -21.329431,
+        "lonEnd": -48.312458,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 25821
+  },
+  {
+    "type": 1,
+    "icao": "SDVS",
+    "lat": -21.07305556,
+    "lon": -48.03222222,
+    "communications": [],
+    "elevation": 1801,
+    "tower": false,
+    "name": "Fazenda Vassoural",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -21.06943005,
+        "lonStart": -48.03433486,
+        "latEnd": -21.07668107,
+        "lonEnd": -48.03010958,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 25861
   },
   {
     "type": 1,
@@ -763,32 +616,111 @@
         "surfacetype": 4
       }
     ],
-    "id": 26002
+    "id": 25873
   },
   {
-    "type": 17,
-    "icao": "SNZJ",
-    "lat": -21.805,
-    "lon": -48.17361111,
+    "type": 1,
+    "icao": "SDXE",
+    "lat": -21.264802500000002,
+    "lon": -48.356078,
     "communications": [],
-    "elevation": 2258,
+    "elevation": 2037,
     "tower": false,
-    "name": "[H] Edificio America",
+    "name": "CHACARA SERRADINHO",
     "runways": [
       {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -21.805,
-        "lonStart": -48.17361111,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
+        "type": 100,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -21.268422,
+        "lonStart": -48.359075,
+        "latEnd": -21.261183,
+        "lonEnd": -48.353081,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "id": 29470
+    "id": 25899
+  },
+  {
+    "type": 1,
+    "icao": "SDZR",
+    "lat": -21.412222225,
+    "lon": -48.32861111,
+    "communications": [],
+    "elevation": 2116,
+    "tower": false,
+    "name": "Fazenda Cruzeiro",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -21.41603775,
+        "lonStart": -48.32928252,
+        "latEnd": -21.4084067,
+        "lonEnd": -48.3279397,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 25960
+  },
+  {
+    "type": 1,
+    "icao": "SDZZ",
+    "lat": -21.79777778,
+    "lon": -48.54388889,
+    "communications": [],
+    "elevation": 1790,
+    "tower": false,
+    "name": "Sitio Sao Jose",
+    "runways": [
+      {
+        "type": 100,
+        "width": 32,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": -21.80084073,
+        "lonStart": -48.54335817,
+        "latEnd": -21.79471483,
+        "lonEnd": -48.54441961,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25967
+  },
+  {
+    "type": 1,
+    "icao": "SJAW",
+    "lat": -21.725277785,
+    "lon": -48.451944435,
+    "communications": [],
+    "elevation": 2057,
+    "tower": false,
+    "name": "Fazenda Citricola",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -21.72137051,
+        "lonStart": -48.45335885,
+        "latEnd": -21.72918506,
+        "lonEnd": -48.45053002,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 26740
   },
   {
     "type": 17,
@@ -813,6 +745,109 @@
         "length": 21
       }
     ],
-    "id": 30382
+    "id": 27074
+  },
+  {
+    "type": 1,
+    "icao": "SJQV",
+    "lat": -21.50916667,
+    "lon": -48.19722222,
+    "communications": [],
+    "elevation": 1978,
+    "tower": false,
+    "name": "Usina Santa Luiza",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -21.50992701,
+        "lonStart": -48.20150372,
+        "latEnd": -21.50840633,
+        "lonEnd": -48.19294072,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 27145
+  },
+  {
+    "type": 17,
+    "icao": "SNZJ",
+    "lat": -21.805,
+    "lon": -48.17361111,
+    "communications": [],
+    "elevation": 2258,
+    "tower": false,
+    "name": "[H] Edificio America",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -21.805,
+        "lonStart": -48.17361111,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 28194
+  },
+  {
+    "type": 1,
+    "icao": "SSTN",
+    "lat": -21.67861111,
+    "lon": -48.211944439999996,
+    "communications": [],
+    "elevation": 2283,
+    "tower": false,
+    "name": "Alberto Bertelli",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -21.68003142,
+        "lonStart": -48.21584036,
+        "latEnd": -21.6771908,
+        "lonEnd": -48.20804852,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 28783
+  },
+  {
+    "type": 1,
+    "icao": "SWXD",
+    "lat": -21.56111111,
+    "lon": -48.79861111,
+    "communications": [],
+    "elevation": 1762,
+    "tower": false,
+    "name": "Aerogardi",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -21.55939211,
+        "lonStart": -48.80155872,
+        "latEnd": -21.56283011,
+        "lonEnd": -48.7956635,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 29578
   }
 ]

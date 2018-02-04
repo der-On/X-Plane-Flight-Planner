@@ -1,6 +1,114 @@
 [
   {
     "type": 1,
+    "icao": "FAGM",
+    "lat": -26.240699235,
+    "lon": 28.15132026625,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 13440,
+        "name": "Approach North"
+      },
+      {
+        "type": 55,
+        "frequency": 12370,
+        "name": "Approach West"
+      },
+      {
+        "type": 55,
+        "frequency": 12450,
+        "name": "Approach South & East"
+      },
+      {
+        "type": 54,
+        "frequency": 11870,
+        "name": "Rand Tower"
+      }
+    ],
+    "elevation": 5482,
+    "tower": true,
+    "name": "Rand",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -26.24264296,
+        "lonStart": 28.14054992,
+        "latEnd": -26.24245504,
+        "lonEnd": 28.15769865,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 15,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -26.235364,
+        "lonStart": 28.147787,
+        "latEnd": -26.247745,
+        "lonEnd": 28.153648,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 15,
+        "surfaceType": 2,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": -26.23837851,
+        "lonStart": 28.15748347,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15
+      },
+      {
+        "type": 102,
+        "width": 10,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": -26.23759583,
+        "lonStart": 28.15070727,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10
+      },
+      {
+        "type": 102,
+        "width": 20,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": -26.24030086,
+        "lonStart": 28.15074817,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20
+      },
+      {
+        "type": 102,
+        "width": 20,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -26.24111168,
+        "lonStart": 28.15193965,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20
+      }
+    ],
+    "id": 2133
+  },
+  {
+    "type": 1,
     "icao": "FABB",
     "lat": -26.236715,
     "lon": 28.301853,
@@ -23,43 +131,63 @@
         "surfacetype": 1
       }
     ],
-    "id": 3106
+    "id": 16796
   },
   {
     "type": 1,
     "icao": "FAOR",
-    "lat": -26.1385425,
-    "lon": 28.246527,
+    "lat": -26.138507877499997,
+    "lon": 28.246541310000005,
     "communications": [
+      {
+        "type": 53,
+        "frequency": 12265,
+        "name": "Apron"
+      },
       {
         "type": 50,
         "frequency": 12620,
         "name": "ATIS"
       },
       {
+        "type": 50,
+        "frequency": 13172,
+        "name": "D-ATIS"
+      },
+      {
         "type": 52,
-        "frequency": 12190,
-        "name": "CLNC DEL"
+        "frequency": 12170,
+        "name": "Delivery"
       },
       {
         "type": 53,
         "frequency": 12190,
-        "name": "GND"
+        "name": "Ground"
       },
       {
-        "type": 54,
-        "frequency": 12190,
-        "name": "TWR"
+        "type": 55,
+        "frequency": 12370,
+        "name": "Radar West"
       },
       {
         "type": 55,
         "frequency": 12450,
-        "name": "APP"
+        "name": "Radar East"
+      },
+      {
+        "type": 54,
+        "frequency": 11860,
+        "name": "Tower East"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "Tower West"
       }
     ],
     "elevation": 5558,
     "tower": true,
-    "name": "Johannesburg OR Thambo Intl",
+    "name": "Johannesburg O R Tambo Intl",
     "runways": [
       {
         "type": 100,
@@ -67,10 +195,10 @@
         "surfaceType": null,
         "numberStart": "03L",
         "numberEnd": "21R",
-        "latStart": -26.14631923,
-        "lonStart": 28.23434267,
-        "latEnd": -26.10801877,
-        "lonEnd": 28.24622933,
+        "latStart": -26.14631535,
+        "lonStart": 28.23437162,
+        "latEnd": -26.10787463,
+        "lonEnd": 28.2462839,
         "length": 0,
         "surfacetype": 1
       },
@@ -80,70 +208,15 @@
         "surfaceType": null,
         "numberStart": "03R",
         "numberEnd": "21L",
-        "latStart": -26.1646514,
-        "lonStart": 28.24818467,
-        "latEnd": -26.1351806,
-        "lonEnd": 28.25735133,
+        "latStart": -26.16466097,
+        "lonStart": 28.24818938,
+        "latEnd": -26.13518056,
+        "lonEnd": 28.25732034,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 13019
-  },
-  {
-    "type": 1,
-    "icao": "FAGM",
-    "lat": -26.242056,
-    "lon": 28.1498965,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11870,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12450,
-        "name": "JOHANNESBURG APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12370,
-        "name": "JOHANNESBURG APP"
-      }
-    ],
-    "elevation": 5483,
-    "tower": true,
-    "name": "Rand",
-    "runways": [
-      {
-        "type": 100,
-        "width": 14.94,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": -26.242544,
-        "lonStart": 28.14051561,
-        "latEnd": -26.242544,
-        "lonEnd": 28.15769039,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 14.94,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": -26.23538445,
-        "lonStart": 28.14776364,
-        "latEnd": -26.24775155,
-        "lonEnd": 28.15361636,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 21183
+    "id": 16830
   },
   {
     "type": 1,
@@ -182,6 +255,6 @@
         "surfacetype": 4
       }
     ],
-    "id": 23998
+    "id": 16840
   }
 ]

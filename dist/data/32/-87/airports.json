@@ -1,66 +1,164 @@
 [
   {
     "type": 1,
-    "icao": "AL79",
-    "lat": 32.26958638,
-    "lon": -86.09884973,
-    "communications": [],
-    "elevation": 305,
-    "tower": false,
-    "name": "Bartlett Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 32.27301511,
-        "lonStart": -86.09884973,
-        "latEnd": 32.26615765,
-        "lonEnd": -86.09884973,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 2296
-  },
-  {
-    "type": 1,
-    "icao": "KSEM",
-    "lat": 32.343946,
-    "lon": -86.987804,
+    "icao": "08A",
+    "lat": 32.528150322,
+    "lon": -86.330330824,
     "communications": [
       {
         "type": 51,
-        "frequency": 12270,
+        "frequency": 12305,
         "name": "CTAF/UNICOM"
       },
       {
         "type": 55,
-        "frequency": 12400,
+        "frequency": 12120,
         "name": "MONTGOMERY APP/DEP"
       }
     ],
-    "elevation": 166,
+    "elevation": 196,
     "tower": false,
-    "name": "CRAIG FLD",
+    "name": "WETUMPKA MUNI",
     "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 32.5294,
+        "lonStart": -86.3331,
+        "latEnd": 32.5295,
+        "lonEnd": -86.323333,
+        "length": 0,
+        "surfacetype": 1
+      },
       {
         "type": 100,
         "width": 45.72,
         "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 32.353042,
-        "lonStart": -86.995086,
-        "latEnd": 32.33485,
-        "lonEnd": -86.980522,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 32.529086,
+        "lonStart": -86.333833,
+        "latEnd": 32.52194168,
+        "lonEnd": -86.33395668,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 17,
+        "surfaceType": 2,
+        "numberStart": "H11",
+        "numberEnd": null,
+        "latStart": 32.53082393,
+        "lonStart": -86.32743144,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21.5
+      }
+    ],
+    "id": 271
+  },
+  {
+    "type": 1,
+    "icao": "1A9",
+    "lat": 32.438739,
+    "lon": -86.512681,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12120,
+        "name": "MONTGOMERY APP/DEP"
+      }
+    ],
+    "elevation": 225,
+    "tower": false,
+    "name": "PRATTVILLE GROUBY FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 32.438636,
+        "lonStart": -86.521431,
+        "latEnd": 32.438842,
+        "lonEnd": -86.503931,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 4210
+    "id": 6272
+  },
+  {
+    "type": 17,
+    "icao": "1AL7",
+    "lat": 32.3775,
+    "lon": -86.29833334,
+    "communications": [],
+    "elevation": 401,
+    "tower": false,
+    "name": "[H] Business Center of Alabama",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 32.3775,
+        "lonStart": -86.29833334,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 6286
+  },
+  {
+    "type": 1,
+    "icao": "02A",
+    "lat": 32.85048311,
+    "lon": -86.6114345,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12120,
+        "name": "MONTGOMERY APP/DEP"
+      }
+    ],
+    "elevation": 585,
+    "tower": false,
+    "name": "GRAGG WADE FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 32.84937222,
+        "lonStart": -86.617825,
+        "latEnd": 32.851594,
+        "lonEnd": -86.605044,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 6853
   },
   {
     "type": 1,
@@ -86,44 +184,58 @@
         "surfacetype": 3
       }
     ],
-    "id": 7156
+    "id": 6870
   },
   {
     "type": 1,
-    "icao": "02A",
-    "lat": 32.850483,
-    "lon": -86.611436,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 12120,
-        "name": "MONTGOMERY APP/DEP"
-      }
-    ],
-    "elevation": 585,
+    "icao": "65A",
+    "lat": 32.94595611,
+    "lon": -86.51386834,
+    "communications": [],
+    "elevation": 344,
     "tower": false,
-    "name": "GRAGG WADE FLD",
+    "name": "Ware Island",
     "runways": [
       {
         "type": 100,
-        "width": 30.48,
+        "width": 48.77,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 32.849372,
-        "lonStart": -86.617828,
-        "latEnd": 32.851594,
-        "lonEnd": -86.605044,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 32.94938484,
+        "lonStart": -86.51386834,
+        "latEnd": 32.94252738,
+        "lonEnd": -86.51386834,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 10095
+    "id": 13062
+  },
+  {
+    "type": 17,
+    "icao": "AL11",
+    "lat": 32.32791722,
+    "lon": -86.27607862,
+    "communications": [],
+    "elevation": 208,
+    "tower": false,
+    "name": "[H] Baptist Medical Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 32.32791722,
+        "lonStart": -86.27607862,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 14504
   },
   {
     "type": 1,
@@ -149,72 +261,84 @@
         "surfacetype": 1
       }
     ],
-    "id": 13324
+    "id": 14505
   },
   {
     "type": 1,
-    "icao": "KMXF",
-    "lat": 32.3837525,
-    "lon": -86.36532725,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13470,
-        "name": "ATIS"
-      },
-      {
-        "type": 53,
-        "frequency": 12715,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11815,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12120,
-        "name": "MONTGOMERY APP/DEP"
-      },
-      {
-        "type": 55,
-        "frequency": 12400,
-        "name": "MONTGOMERY APP/DEP"
-      }
-    ],
-    "elevation": 171,
-    "tower": true,
-    "name": "MAXWELL AFB",
+    "icao": "AL76",
+    "lat": 32.848736939999995,
+    "lon": -86.86998834,
+    "communications": [],
+    "elevation": 495,
+    "tower": false,
+    "name": "Mayfield - Private",
     "runways": [
       {
         "type": 100,
-        "width": 45.72,
+        "width": 30.48,
         "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 32.391358,
-        "lonStart": -86.373106,
-        "latEnd": 32.372586,
-        "lonEnd": -86.359533,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 32.84461285,
+        "lonStart": -86.87177508,
+        "latEnd": 32.85286103,
+        "lonEnd": -86.8682016,
         "length": 0,
-        "surfacetype": 1
-      },
+        "surfacetype": 3
+      }
+    ],
+    "id": 14566
+  },
+  {
+    "type": 17,
+    "icao": "AL77",
+    "lat": 32.37513805,
+    "lon": -86.29719112,
+    "communications": [],
+    "elevation": 292,
+    "tower": false,
+    "name": "[H] Montgomery Regional Medical Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 32.37513805,
+        "lonStart": -86.29719112,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 14567
+  },
+  {
+    "type": 1,
+    "icao": "AL79",
+    "lat": 32.26958638,
+    "lon": -86.09884973,
+    "communications": [],
+    "elevation": 305,
+    "tower": false,
+    "name": "Bartlett Ranch",
+    "runways": [
       {
         "type": 100,
-        "width": 18.29,
+        "width": 60.96,
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 32.389658,
-        "lonStart": -86.363881,
-        "latEnd": 32.381408,
-        "lonEnd": -86.364789,
+        "latStart": 32.27301511,
+        "lonStart": -86.09884973,
+        "latEnd": 32.26615765,
+        "lonEnd": -86.09884973,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 15941
+    "id": 14569
   },
   {
     "type": 1,
@@ -321,232 +445,108 @@
         "length": 49.99
       }
     ],
-    "id": 16226
+    "id": 19476
   },
   {
     "type": 1,
-    "icao": "AL76",
-    "lat": 32.848736939999995,
-    "lon": -86.86998834,
-    "communications": [],
-    "elevation": 495,
-    "tower": false,
-    "name": "Mayfield - Private",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 32.84461285,
-        "lonStart": -86.87177508,
-        "latEnd": 32.85286103,
-        "lonEnd": -86.8682016,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 16855
-  },
-  {
-    "type": 1,
-    "icao": "1A9",
-    "lat": 32.438739,
-    "lon": -86.512681,
+    "icao": "KMXF",
+    "lat": 32.3837525,
+    "lon": -86.36532725,
     "communications": [
       {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
+        "type": 50,
+        "frequency": 13470,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12715,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11815,
+        "name": "TWR"
       },
       {
         "type": 55,
         "frequency": 12120,
         "name": "MONTGOMERY APP/DEP"
-      }
-    ],
-    "elevation": 225,
-    "tower": false,
-    "name": "PRATTVILLE GROUBY FLD",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 32.438636,
-        "lonStart": -86.521431,
-        "latEnd": 32.438842,
-        "lonEnd": -86.503931,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19536
-  },
-  {
-    "type": 1,
-    "icao": "08A",
-    "lat": 32.528149786,
-    "lon": -86.330330688,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12305,
-        "name": "CTAF/UNICOM"
       },
       {
         "type": 55,
-        "frequency": 12120,
+        "frequency": 12400,
         "name": "MONTGOMERY APP/DEP"
       }
     ],
-    "elevation": 196,
-    "tower": false,
-    "name": "WETUMPKA MUNI",
+    "elevation": 171,
+    "tower": true,
+    "name": "MAXWELL AFB",
     "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 32.5294,
-        "lonStart": -86.3331,
-        "latEnd": 32.5295,
-        "lonEnd": -86.323333,
-        "length": 0,
-        "surfacetype": 1
-      },
       {
         "type": 100,
         "width": 45.72,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 32.529086,
-        "lonStart": -86.333833,
-        "latEnd": 32.521939,
-        "lonEnd": -86.333956,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 32.391358,
+        "lonStart": -86.373106,
+        "latEnd": 32.372586,
+        "lonEnd": -86.359533,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       },
       {
-        "type": 102,
-        "width": 17,
-        "surfaceType": 2,
-        "numberStart": "H11",
-        "numberEnd": null,
-        "latStart": 32.53082393,
-        "lonStart": -86.32743144,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21.5
-      }
-    ],
-    "id": 26606
-  },
-  {
-    "type": 1,
-    "icao": "65A",
-    "lat": 32.94595611,
-    "lon": -86.51386834,
-    "communications": [],
-    "elevation": 344,
-    "tower": false,
-    "name": "Ware Island",
-    "runways": [
-      {
         "type": 100,
-        "width": 48.77,
+        "width": 18.29,
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 32.94938484,
-        "lonStart": -86.51386834,
-        "latEnd": 32.94252738,
-        "lonEnd": -86.51386834,
+        "latStart": 32.389658,
+        "lonStart": -86.363881,
+        "latEnd": 32.381408,
+        "lonEnd": -86.364789,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       }
     ],
-    "id": 26913
+    "id": 19535
   },
   {
-    "type": 17,
-    "icao": "AL11",
-    "lat": 32.32791722,
-    "lon": -86.27607862,
-    "communications": [],
-    "elevation": 208,
-    "tower": false,
-    "name": "[H] Baptist Medical Center",
-    "runways": [
+    "type": 1,
+    "icao": "KSEM",
+    "lat": 32.343946,
+    "lon": -86.987804,
+    "communications": [
       {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 32.32791722,
-        "lonStart": -86.27607862,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12400,
+        "name": "MONTGOMERY APP/DEP"
       }
     ],
-    "id": 28329
-  },
-  {
-    "type": 17,
-    "icao": "1AL7",
-    "lat": 32.3775,
-    "lon": -86.29833334,
-    "communications": [],
-    "elevation": 401,
+    "elevation": 166,
     "tower": false,
-    "name": "[H] Business Center of Alabama",
+    "name": "CRAIG FLD",
     "runways": [
       {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 32.3775,
-        "lonStart": -86.29833334,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 32.353042,
+        "lonStart": -86.995086,
+        "latEnd": 32.33485,
+        "lonEnd": -86.980522,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "id": 28657
-  },
-  {
-    "type": 17,
-    "icao": "AL77",
-    "lat": 32.37513805,
-    "lon": -86.29719112,
-    "communications": [],
-    "elevation": 292,
-    "tower": false,
-    "name": "[H] Montgomery Regional Medical Center",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 32.37513805,
-        "lonStart": -86.29719112,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 31434
+    "id": 19803
   }
 ]

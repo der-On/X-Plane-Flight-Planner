@@ -1,61 +1,9 @@
 [
   {
     "type": 1,
-    "icao": "NH49",
-    "lat": 43.97034583,
-    "lon": -71.67952417000001,
-    "communications": [],
-    "elevation": 649,
-    "tower": false,
-    "name": "Bradley Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 43.96801998,
-        "lonStart": -71.67975015,
-        "latEnd": 43.97267168,
-        "lonEnd": -71.67929819,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 3095
-  },
-  {
-    "type": 1,
-    "icao": "NH18",
-    "lat": 43.73340972,
-    "lon": -71.15117917,
-    "communications": [],
-    "elevation": 560,
-    "tower": false,
-    "name": "Chickville",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 43.73068719,
-        "lonStart": -71.15071653,
-        "latEnd": 43.73613225,
-        "lonEnd": -71.15164181,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 4904
-  },
-  {
-    "type": 1,
     "icao": "KCON",
-    "lat": 43.20362300000001,
-    "lon": -71.50201249999999,
+    "lat": 43.203615840000005,
+    "lon": -71.50200667749999,
     "communications": [
       {
         "type": 50,
@@ -63,7 +11,7 @@
         "name": "ASOS"
       },
       {
-        "type": 51,
+        "type": 54,
         "frequency": 12270,
         "name": "CTAF/UNICOM"
       },
@@ -84,14 +32,14 @@
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 30.48,
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 43.20817316,
-        "lonStart": -71.50765813,
-        "latEnd": 43.19323284,
-        "lonEnd": -71.49816187,
+        "latStart": 43.20816149,
+        "lonStart": -71.50764748,
+        "latEnd": 43.19321587,
+        "lonEnd": -71.49814901,
         "length": 0,
         "surfacetype": 1
       },
@@ -101,167 +49,26 @@
         "surfaceType": null,
         "numberStart": "12",
         "numberEnd": "30",
-        "latStart": 43.20768308,
-        "lonStart": -71.50691192,
-        "latEnd": 43.20540292,
-        "lonEnd": -71.49531808,
+        "latStart": 43.20768631,
+        "lonStart": -71.50692837,
+        "latEnd": 43.20539969,
+        "lonEnd": -71.49530185,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 5248
-  },
-  {
-    "type": 1,
-    "icao": "NH07",
-    "lat": 43.28036111,
-    "lon": -71.45661111999999,
-    "communications": [],
-    "elevation": 484,
-    "tower": false,
-    "name": "Cooper Farm",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 43.28219188,
-        "lonStart": -71.45843821,
-        "latEnd": 43.27853034,
-        "lonEnd": -71.45478403,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 5303
-  },
-  {
-    "type": 1,
-    "icao": "NH04",
-    "lat": 43.06730444,
-    "lon": -71.61118306,
-    "communications": [],
-    "elevation": 779,
-    "tower": false,
-    "name": "Country Club Air Park",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 43.0689313,
-        "lonStart": -71.61182161,
-        "latEnd": 43.06567758,
-        "lonEnd": -71.61054451,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 5403
-  },
-  {
-    "type": 1,
-    "icao": "NH40",
-    "lat": 43.404658330000004,
-    "lon": -71.95036056000001,
-    "communications": [],
-    "elevation": 998,
-    "tower": false,
-    "name": "Eagles Nest",
-    "runways": [
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 43.40680573,
-        "lonStart": -71.95474262,
-        "latEnd": 43.40251093,
-        "lonEnd": -71.9459785,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 6883
-  },
-  {
-    "type": 1,
-    "icao": "NH25",
-    "lat": 43.686743050000004,
-    "lon": -71.28923667000001,
-    "communications": [],
-    "elevation": 620,
-    "tower": false,
-    "name": "Flying H Skyport",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 43.686176,
-        "lonStart": -71.29197138,
-        "latEnd": 43.6873101,
-        "lonEnd": -71.28650196,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 9453
-  },
-  {
-    "type": 1,
-    "icao": "8B1",
-    "lat": 43.066743,
-    "lon": -71.8995225,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 600,
-    "tower": false,
-    "name": "HAWTHORNE FEATHER AIRPARK",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 43.062339,
-        "lonStart": -71.900581,
-        "latEnd": 43.071147,
-        "lonEnd": -71.898464,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 11063
+    "id": 2513
   },
   {
     "type": 1,
     "icao": "KLCI",
-    "lat": 43.573060645,
-    "lon": -71.41779903,
+    "lat": 43.57308845,
+    "lon": -71.41771991499999,
     "communications": [
       {
         "type": 50,
         "frequency": 13352,
         "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12300,
-        "name": "CTAF/UNICOM"
       },
       {
         "type": 52,
@@ -272,6 +79,11 @@
         "type": 55,
         "frequency": 13475,
         "name": "BOSTON APP/DEP"
+      },
+      {
+        "type": 54,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
       }
     ],
     "elevation": 545,
@@ -280,123 +92,19 @@
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 30.48,
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": 43.56996428,
-        "lonStart": -71.42809893,
-        "latEnd": 43.57615701,
-        "lonEnd": -71.40749913,
+        "latStart": 43.57003468,
+        "lonStart": -71.4281361,
+        "latEnd": 43.57614222,
+        "lonEnd": -71.40730373,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 14763
-  },
-  {
-    "type": 1,
-    "icao": "8B8",
-    "lat": 43.587577769999996,
-    "lon": -71.26618001,
-    "communications": [],
-    "elevation": 580,
-    "tower": false,
-    "name": "Lakes Region",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 43.58825131,
-        "lonStart": -71.2699096,
-        "latEnd": 43.58690423,
-        "lonEnd": -71.26245042,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 14862
-  },
-  {
-    "type": 1,
-    "icao": "NH38",
-    "lat": 43.972571110000004,
-    "lon": -71.1697925,
-    "communications": [],
-    "elevation": 860,
-    "tower": false,
-    "name": "Leavitt",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 43.97223682,
-        "lonStart": -71.17357552,
-        "latEnd": 43.9729054,
-        "lonEnd": -71.16600948,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 15087
-  },
-  {
-    "type": 1,
-    "icao": "NH03",
-    "lat": 43.02924916,
-    "lon": -71.64535028,
-    "communications": [],
-    "elevation": 300,
-    "tower": false,
-    "name": "Lee Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 43.03115459,
-        "lonStart": -71.64804949,
-        "latEnd": 43.02734373,
-        "lonEnd": -71.64265107,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15102
-  },
-  {
-    "type": 1,
-    "icao": "NH15",
-    "lat": 43.38674666,
-    "lon": -71.23339973,
-    "communications": [],
-    "elevation": 702,
-    "tower": false,
-    "name": "Locke Lake",
-    "runways": [
-      {
-        "type": 100,
-        "width": 91.44,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 43.38912845,
-        "lonStart": -71.23679357,
-        "latEnd": 43.38436487,
-        "lonEnd": -71.23000589,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15385
+    "id": 2876
   },
   {
     "type": 1,
@@ -428,59 +136,90 @@
         "surfacetype": 1
       }
     ],
-    "id": 16284
+    "id": 8694
   },
   {
     "type": 1,
-    "icao": "NH24",
-    "lat": 43.70840944,
-    "lon": -71.28562556,
-    "communications": [],
-    "elevation": 670,
+    "icao": "8B1",
+    "lat": 43.066743,
+    "lon": -71.8995225,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 600,
     "tower": false,
-    "name": "Melvin Village",
+    "name": "HAWTHORNE FEATHER AIRPARK",
     "runways": [
       {
         "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 43.062339,
+        "lonStart": -71.900581,
+        "latEnd": 43.071147,
+        "lonEnd": -71.898464,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 9990
+  },
+  {
+    "type": 1,
+    "icao": "8B8",
+    "lat": 43.587577769999996,
+    "lon": -71.26618001,
+    "communications": [],
+    "elevation": 580,
+    "tower": false,
+    "name": "Lakes Region",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 43.58825131,
+        "lonStart": -71.2699096,
+        "latEnd": 43.58690423,
+        "lonEnd": -71.26245042,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 9994
+  },
+  {
+    "type": 16,
+    "icao": "B18",
+    "lat": 43.47758333,
+    "lon": -71.237,
+    "communications": [],
+    "elevation": 502,
+    "tower": false,
+    "name": "[S] Alton Bay",
+    "runways": [
+      {
+        "type": 101,
         "width": 30.48,
         "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 43.70969246,
-        "lonStart": -71.28961207,
-        "latEnd": 43.70712642,
-        "lonEnd": -71.28163905,
-        "length": 0,
-        "surfacetype": 3
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 43.47280941,
+        "lonStart": -71.23630853,
+        "latEnd": 43.48235725,
+        "lonEnd": -71.23769147,
+        "length": 0
       }
     ],
-    "id": 17051
-  },
-  {
-    "type": 1,
-    "icao": "NH31",
-    "lat": 43.650077499999995,
-    "lon": -71.14951195,
-    "communications": [],
-    "elevation": 965,
-    "tower": false,
-    "name": "Mountain View Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 32,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 43.6523184,
-        "lonStart": -71.15428093,
-        "latEnd": 43.6478366,
-        "lonEnd": -71.14474297,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 17644
+    "id": 14903
   },
   {
     "type": 1,
@@ -506,7 +245,135 @@
         "surfacetype": 1
       }
     ],
-    "id": 18279
+    "id": 22545
+  },
+  {
+    "type": 1,
+    "icao": "NH03",
+    "lat": 43.02924916,
+    "lon": -71.64535028,
+    "communications": [],
+    "elevation": 300,
+    "tower": false,
+    "name": "Lee Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 43.03115459,
+        "lonStart": -71.64804949,
+        "latEnd": 43.02734373,
+        "lonEnd": -71.64265107,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 22547
+  },
+  {
+    "type": 1,
+    "icao": "NH04",
+    "lat": 43.06730444,
+    "lon": -71.61118306,
+    "communications": [],
+    "elevation": 779,
+    "tower": false,
+    "name": "Country Club Air Park",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 43.0689313,
+        "lonStart": -71.61182161,
+        "latEnd": 43.06567758,
+        "lonEnd": -71.61054451,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 22548
+  },
+  {
+    "type": 1,
+    "icao": "NH07",
+    "lat": 43.28036111,
+    "lon": -71.45661111999999,
+    "communications": [],
+    "elevation": 484,
+    "tower": false,
+    "name": "Cooper Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 43.28219188,
+        "lonStart": -71.45843821,
+        "latEnd": 43.27853034,
+        "lonEnd": -71.45478403,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 22550
+  },
+  {
+    "type": 17,
+    "icao": "NH10",
+    "lat": 43.11730388,
+    "lon": -71.57868278,
+    "communications": [],
+    "elevation": 700,
+    "tower": false,
+    "name": "[H] Audley Divide",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 43.11730388,
+        "lonStart": -71.57868278,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 22552
+  },
+  {
+    "type": 17,
+    "icao": "NH11",
+    "lat": 43.21119222,
+    "lon": -71.5067375,
+    "communications": [],
+    "elevation": 338,
+    "tower": false,
+    "name": "[H] Canterbury",
+    "runways": [
+      {
+        "type": 102,
+        "width": 22.9,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 43.21119222,
+        "lonStart": -71.5067375,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 22.9
+      }
+    ],
+    "id": 22553
   },
   {
     "type": 1,
@@ -532,33 +399,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 20284
-  },
-  {
-    "type": 1,
-    "icao": "NH20",
-    "lat": 43.49229805,
-    "lon": -71.64591001,
-    "communications": [],
-    "elevation": 439,
-    "tower": false,
-    "name": "Ward Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 43.49091984,
-        "lonStart": -71.64675584,
-        "latEnd": 43.49367626,
-        "lonEnd": -71.64506418,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 26908
+    "id": 22554
   },
   {
     "type": 1,
@@ -584,258 +425,85 @@
         "surfacetype": 5
       }
     ],
-    "id": 27214
+    "id": 22555
   },
   {
     "type": 1,
-    "icao": "NH69",
-    "lat": 43.830629720000005,
-    "lon": -71.18701389,
+    "icao": "NH15",
+    "lat": 43.38674666,
+    "lon": -71.23339973,
     "communications": [],
-    "elevation": 459,
+    "elevation": 702,
     "tower": false,
-    "name": "Windsock Village",
+    "name": "Locke Lake",
     "runways": [
       {
         "type": 100,
-        "width": 68.58,
+        "width": 91.44,
         "surfaceType": null,
         "numberStart": "15",
         "numberEnd": "33",
-        "latStart": 43.83437114,
-        "lonStart": -71.19257562,
-        "latEnd": 43.8268883,
-        "lonEnd": -71.18145216,
+        "latStart": 43.38912845,
+        "lonStart": -71.23679357,
+        "latEnd": 43.38436487,
+        "lonEnd": -71.23000589,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 27404
+    "id": 22556
   },
   {
-    "type": 17,
-    "icao": "NH10",
-    "lat": 43.11730388,
-    "lon": -71.57868278,
+    "type": 1,
+    "icao": "NH18",
+    "lat": 43.73340972,
+    "lon": -71.15117917,
     "communications": [],
-    "elevation": 700,
+    "elevation": 560,
     "tower": false,
-    "name": "[H] Audley Divide",
+    "name": "Chickville",
     "runways": [
       {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 43.11730388,
-        "lonStart": -71.57868278,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 43.73068719,
+        "lonStart": -71.15071653,
+        "latEnd": 43.73613225,
+        "lonEnd": -71.15164181,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 28227
+    "id": 22559
   },
   {
-    "type": 17,
-    "icao": "NH33",
-    "lat": 43.19591472,
-    "lon": -71.47729223,
+    "type": 1,
+    "icao": "NH20",
+    "lat": 43.49229805,
+    "lon": -71.64591001,
     "communications": [],
-    "elevation": 358,
+    "elevation": 439,
     "tower": false,
-    "name": "[H] Brigham",
+    "name": "Ward Field",
     "runways": [
       {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 43.19591472,
-        "lonStart": -71.47729223,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 43.49091984,
+        "lonStart": -71.64675584,
+        "latEnd": 43.49367626,
+        "lonEnd": -71.64506418,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "id": 28582
-  },
-  {
-    "type": 17,
-    "icao": "NH11",
-    "lat": 43.21119222,
-    "lon": -71.5067375,
-    "communications": [],
-    "elevation": 338,
-    "tower": false,
-    "name": "[H] Canterbury",
-    "runways": [
-      {
-        "type": 102,
-        "width": 22.9,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 43.21119222,
-        "lonStart": -71.5067375,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 22.9
-      }
-    ],
-    "id": 28755
-  },
-  {
-    "type": 17,
-    "icao": "NH76",
-    "lat": 43.19813638,
-    "lon": -71.56285,
-    "communications": [],
-    "elevation": 398,
-    "tower": false,
-    "name": "[H] Concord Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 10.7,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 43.19813638,
-        "lonStart": -71.56285,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.7
-      }
-    ],
-    "id": 29104
-  },
-  {
-    "type": 17,
-    "icao": "NH74",
-    "lat": 43.34091277,
-    "lon": -71.47090473,
-    "communications": [],
-    "elevation": 568,
-    "tower": false,
-    "name": "[H] Crowley",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 43.34091277,
-        "lonStart": -71.47090473,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 29195
-  },
-  {
-    "type": 17,
-    "icao": "NH58",
-    "lat": 43.41785472,
-    "lon": -71.64479834,
-    "communications": [],
-    "elevation": 438,
-    "tower": false,
-    "name": "[H] D.W.",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 43.41785472,
-        "lonStart": -71.64479834,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 29220
-  },
-  {
-    "type": 17,
-    "icao": "NH79",
-    "lat": 43.04064083,
-    "lon": -71.12561639,
-    "communications": [],
-    "elevation": 160,
-    "tower": false,
-    "name": "[H] Falcon Station",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 43.04064083,
-        "lonStart": -71.12561639,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 29649
-  },
-  {
-    "type": 17,
-    "icao": "NH73",
-    "lat": 43.79285277,
-    "lon": -71.17729112,
-    "communications": [],
-    "elevation": 418,
-    "tower": false,
-    "name": "[H] Meaders",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 43.79285277,
-        "lonStart": -71.17729112,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 31169
-  },
-  {
-    "type": 17,
-    "icao": "NH75",
-    "lat": 43.14508194,
-    "lon": -71.47534695,
-    "communications": [],
-    "elevation": 188,
-    "tower": false,
-    "name": "[H] PSNH",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 43.14508194,
-        "lonStart": -71.47534695,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 31843
+    "id": 22561
   },
   {
     "type": 17,
@@ -860,32 +528,313 @@
         "length": 24.4
       }
     ],
-    "id": 32182
+    "id": 22563
+  },
+  {
+    "type": 1,
+    "icao": "NH24",
+    "lat": 43.70840944,
+    "lon": -71.28562556,
+    "communications": [],
+    "elevation": 670,
+    "tower": false,
+    "name": "Melvin Village",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 43.70969246,
+        "lonStart": -71.28961207,
+        "latEnd": 43.70712642,
+        "lonEnd": -71.28163905,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 22564
+  },
+  {
+    "type": 1,
+    "icao": "NH25",
+    "lat": 43.686743050000004,
+    "lon": -71.28923667000001,
+    "communications": [],
+    "elevation": 620,
+    "tower": false,
+    "name": "Flying H Skyport",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 43.686176,
+        "lonStart": -71.29197138,
+        "latEnd": 43.6873101,
+        "lonEnd": -71.28650196,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22565
+  },
+  {
+    "type": 1,
+    "icao": "NH31",
+    "lat": 43.650077499999995,
+    "lon": -71.14951195,
+    "communications": [],
+    "elevation": 965,
+    "tower": false,
+    "name": "Mountain View Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 32,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 43.6523184,
+        "lonStart": -71.15428093,
+        "latEnd": 43.6478366,
+        "lonEnd": -71.14474297,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 22568
   },
   {
     "type": 17,
-    "icao": "NH77",
-    "lat": 43.62618583,
-    "lon": -71.55924195,
+    "icao": "NH33",
+    "lat": 43.19591472,
+    "lon": -71.47729223,
     "communications": [],
-    "elevation": 729,
+    "elevation": 358,
     "tower": false,
-    "name": "[H] Smiling Jack",
+    "name": "[H] Brigham",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 43.19591472,
+        "lonStart": -71.47729223,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 22570
+  },
+  {
+    "type": 16,
+    "icao": "NH36",
+    "lat": 43.627020830000006,
+    "lon": -71.34451528,
+    "communications": [],
+    "elevation": 502,
+    "tower": false,
+    "name": "[S] Arthurs",
+    "runways": [
+      {
+        "type": 101,
+        "width": 609.6,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 43.62513066,
+        "lonStart": -71.35362191,
+        "latEnd": 43.628911,
+        "lonEnd": -71.33540865,
+        "length": 0
+      }
+    ],
+    "id": 22573
+  },
+  {
+    "type": 16,
+    "icao": "NH37",
+    "lat": 43.07036083,
+    "lon": -71.46506806,
+    "communications": [],
+    "elevation": 188,
+    "tower": false,
+    "name": "[S] Breaults River Side",
+    "runways": [
+      {
+        "type": 101,
+        "width": 152.4,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 43.07695264,
+        "lonStart": -71.46765551,
+        "latEnd": 43.06376902,
+        "lonEnd": -71.46248061,
+        "length": 0
+      }
+    ],
+    "id": 22574
+  },
+  {
+    "type": 1,
+    "icao": "NH38",
+    "lat": 43.972571110000004,
+    "lon": -71.1697925,
+    "communications": [],
+    "elevation": 860,
+    "tower": false,
+    "name": "Leavitt",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 43.97223682,
+        "lonStart": -71.17357552,
+        "latEnd": 43.9729054,
+        "lonEnd": -71.16600948,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 22575
+  },
+  {
+    "type": 1,
+    "icao": "NH40",
+    "lat": 43.404658330000004,
+    "lon": -71.95036056000001,
+    "communications": [],
+    "elevation": 998,
+    "tower": false,
+    "name": "Eagles Nest",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 43.40680573,
+        "lonStart": -71.95474262,
+        "latEnd": 43.40251093,
+        "lonEnd": -71.9459785,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 22577
+  },
+  {
+    "type": 17,
+    "icao": "NH48",
+    "lat": 43.55785638,
+    "lon": -71.19173417,
+    "communications": [],
+    "elevation": 502,
+    "tower": false,
+    "name": "[H] Springfield Point",
+    "runways": [
+      {
+        "type": 102,
+        "width": 4.9,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 43.55785638,
+        "lonStart": -71.19173417,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 4.9
+      }
+    ],
+    "id": 22584
+  },
+  {
+    "type": 1,
+    "icao": "NH49",
+    "lat": 43.97034583,
+    "lon": -71.67952417000001,
+    "communications": [],
+    "elevation": 649,
+    "tower": false,
+    "name": "Bradley Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 43.96801998,
+        "lonStart": -71.67975015,
+        "latEnd": 43.97267168,
+        "lonEnd": -71.67929819,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 22585
+  },
+  {
+    "type": 17,
+    "icao": "NH52",
+    "lat": 43.20508138,
+    "lon": -71.48423695,
+    "communications": [],
+    "elevation": 332,
+    "tower": false,
+    "name": "[H] Waste",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 43.20508138,
+        "lonStart": -71.48423695,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 22587
+  },
+  {
+    "type": 17,
+    "icao": "NH58",
+    "lat": 43.41785472,
+    "lon": -71.64479834,
+    "communications": [],
+    "elevation": 438,
+    "tower": false,
+    "name": "[H] D.W.",
     "runways": [
       {
         "type": 102,
         "width": 6.1,
-        "surfaceType": 1,
+        "surfaceType": 3,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 43.62618583,
-        "lonStart": -71.55924195,
+        "latStart": 43.41785472,
+        "lonStart": -71.64479834,
         "latEnd": null,
         "lonEnd": null,
         "length": 6.1
       }
     ],
-    "id": 32748
+    "id": 22593
   },
   {
     "type": 17,
@@ -934,157 +883,33 @@
         "length": 9.1
       }
     ],
-    "id": 32830
+    "id": 22594
   },
   {
-    "type": 17,
-    "icao": "NH48",
-    "lat": 43.55785638,
-    "lon": -71.19173417,
+    "type": 1,
+    "icao": "NH69",
+    "lat": 43.830629720000005,
+    "lon": -71.18701389,
     "communications": [],
-    "elevation": 502,
+    "elevation": 459,
     "tower": false,
-    "name": "[H] Springfield Point",
+    "name": "Windsock Village",
     "runways": [
       {
-        "type": 102,
-        "width": 4.9,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 43.55785638,
-        "lonStart": -71.19173417,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 4.9
-      }
-    ],
-    "id": 32841
-  },
-  {
-    "type": 17,
-    "icao": "NH72",
-    "lat": 43.12230388,
-    "lon": -71.57146028,
-    "communications": [],
-    "elevation": 898,
-    "tower": false,
-    "name": "[H] Sterling Place",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 43.12230388,
-        "lonStart": -71.57146028,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 33076
-  },
-  {
-    "type": 17,
-    "icao": "NH52",
-    "lat": 43.20508138,
-    "lon": -71.48423695,
-    "communications": [],
-    "elevation": 332,
-    "tower": false,
-    "name": "[H] Waste",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 43.20508138,
-        "lonStart": -71.48423695,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 33740
-  },
-  {
-    "type": 16,
-    "icao": "B18",
-    "lat": 43.47758333,
-    "lon": -71.237,
-    "communications": [],
-    "elevation": 502,
-    "tower": false,
-    "name": "[S] Alton Bay",
-    "runways": [
-      {
-        "type": 101,
-        "width": 30.48,
+        "type": 100,
+        "width": 68.58,
         "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 43.47280941,
-        "lonStart": -71.23630853,
-        "latEnd": 43.48235725,
-        "lonEnd": -71.23769147,
-        "length": 0
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 43.83437114,
+        "lonStart": -71.19257562,
+        "latEnd": 43.8268883,
+        "lonEnd": -71.18145216,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 33967
-  },
-  {
-    "type": 16,
-    "icao": "NH36",
-    "lat": 43.627020830000006,
-    "lon": -71.34451528,
-    "communications": [],
-    "elevation": 502,
-    "tower": false,
-    "name": "[S] Arthurs",
-    "runways": [
-      {
-        "type": 101,
-        "width": 609.6,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 43.62513066,
-        "lonStart": -71.35362191,
-        "latEnd": 43.628911,
-        "lonEnd": -71.33540865,
-        "length": 0
-      }
-    ],
-    "id": 33978
-  },
-  {
-    "type": 16,
-    "icao": "NH37",
-    "lat": 43.07036083,
-    "lon": -71.46506806,
-    "communications": [],
-    "elevation": 188,
-    "tower": false,
-    "name": "[S] Breaults River Side",
-    "runways": [
-      {
-        "type": 101,
-        "width": 152.4,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 43.07695264,
-        "lonStart": -71.46765551,
-        "latEnd": 43.06376902,
-        "lonEnd": -71.46248061,
-        "length": 0
-      }
-    ],
-    "id": 34011
+    "id": 22603
   },
   {
     "type": 16,
@@ -1121,6 +946,181 @@
         "length": 0
       }
     ],
-    "id": 34263
+    "id": 22605
+  },
+  {
+    "type": 17,
+    "icao": "NH72",
+    "lat": 43.12230388,
+    "lon": -71.57146028,
+    "communications": [],
+    "elevation": 898,
+    "tower": false,
+    "name": "[H] Sterling Place",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 43.12230388,
+        "lonStart": -71.57146028,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 22606
+  },
+  {
+    "type": 17,
+    "icao": "NH73",
+    "lat": 43.79285277,
+    "lon": -71.17729112,
+    "communications": [],
+    "elevation": 418,
+    "tower": false,
+    "name": "[H] Meaders",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 43.79285277,
+        "lonStart": -71.17729112,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 22607
+  },
+  {
+    "type": 17,
+    "icao": "NH74",
+    "lat": 43.34091277,
+    "lon": -71.47090473,
+    "communications": [],
+    "elevation": 568,
+    "tower": false,
+    "name": "[H] Crowley",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 43.34091277,
+        "lonStart": -71.47090473,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 22608
+  },
+  {
+    "type": 17,
+    "icao": "NH75",
+    "lat": 43.14508194,
+    "lon": -71.47534695,
+    "communications": [],
+    "elevation": 188,
+    "tower": false,
+    "name": "[H] PSNH",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 43.14508194,
+        "lonStart": -71.47534695,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 22609
+  },
+  {
+    "type": 17,
+    "icao": "NH76",
+    "lat": 43.19813638,
+    "lon": -71.56285,
+    "communications": [],
+    "elevation": 398,
+    "tower": false,
+    "name": "[H] Concord Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 10.7,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 43.19813638,
+        "lonStart": -71.56285,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.7
+      }
+    ],
+    "id": 22610
+  },
+  {
+    "type": 17,
+    "icao": "NH77",
+    "lat": 43.62618583,
+    "lon": -71.55924195,
+    "communications": [],
+    "elevation": 729,
+    "tower": false,
+    "name": "[H] Smiling Jack",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 43.62618583,
+        "lonStart": -71.55924195,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 22611
+  },
+  {
+    "type": 17,
+    "icao": "NH79",
+    "lat": 43.04064083,
+    "lon": -71.12561639,
+    "communications": [],
+    "elevation": 160,
+    "tower": false,
+    "name": "[H] Falcon Station",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 43.04064083,
+        "lonStart": -71.12561639,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 22613
   }
 ]

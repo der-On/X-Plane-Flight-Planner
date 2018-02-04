@@ -1,6 +1,108 @@
 [
   {
     "type": 1,
+    "icao": "EHHV",
+    "lat": 52.190988315,
+    "lon": 5.145773935,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 13103,
+        "name": "Hilversum Radio"
+      }
+    ],
+    "elevation": 1,
+    "tower": true,
+    "name": "Hilversum",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 52.19107781,
+        "lonStart": 5.14114653,
+        "latEnd": 52.19320942,
+        "lonEnd": 5.1492698,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 52.19137507,
+        "lonStart": 5.13999288,
+        "latEnd": 52.18816745,
+        "lonEnd": 5.14791531,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 52.19391619,
+        "lonStart": 5.1481283,
+        "latEnd": 52.18818395,
+        "lonEnd": 5.14819079,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1643
+  },
+  {
+    "type": 1,
+    "icao": "EHLE",
+    "lat": 52.453914903333335,
+    "lon": 5.516693483333333,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12367,
+        "name": "Lelystad Aerodrome Information"
+      }
+    ],
+    "elevation": -13,
+    "tower": true,
+    "name": "Lelystad",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 52.44476577,
+        "lonStart": 5.49966218,
+        "latEnd": 52.46126139,
+        "lonEnd": 5.52912947,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 20,
+        "surfaceType": 15,
+        "numberStart": "H01",
+        "numberEnd": null,
+        "latStart": 52.45571755,
+        "lonStart": 5.5212888,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20
+      }
+    ],
+    "id": 1645
+  },
+  {
+    "type": 1,
     "icao": "EHDL",
     "lat": 52.059667,
     "lon": 5.8720015,
@@ -34,7 +136,33 @@
         "surfacetype": 1
       }
     ],
-    "id": 6132
+    "id": 16419
+  },
+  {
+    "type": 1,
+    "icao": "EHDV",
+    "lat": 52.6685181,
+    "lon": 5.9286189,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "Voorst Sport",
+    "runways": [
+      {
+        "type": 100,
+        "width": 36.58,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 52.66594852,
+        "lonStart": 5.92391296,
+        "latEnd": 52.67108768,
+        "lonEnd": 5.93332484,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16422
   },
   {
     "type": 1,
@@ -60,127 +188,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 7165
-  },
-  {
-    "type": 1,
-    "icao": "EHHV",
-    "lat": 52.191023744999995,
-    "lon": 5.145641568333333,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13102,
-        "name": "Hilversum Radio"
-      }
-    ],
-    "elevation": 3,
-    "tower": true,
-    "name": "Hilversum",
-    "runways": [
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 52.1910001,
-        "lonStart": 5.14068362,
-        "latEnd": 52.19302285,
-        "lonEnd": 5.14885065,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 52.19133594,
-        "lonStart": 5.14035464,
-        "latEnd": 52.18810112,
-        "lonEnd": 5.14847988,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 52.19449065,
-        "lonStart": 5.14766609,
-        "latEnd": 52.18819181,
-        "lonEnd": 5.14781453,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11870
-  },
-  {
-    "type": 1,
-    "icao": "EHLE",
-    "lat": 52.458650736,
-    "lon": 5.520151088,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12367,
-        "name": "Lelystad Radio"
-      },
-      {
-        "type": 54,
-        "frequency": 12882,
-        "name": "Lelystad Radio MLA"
-      }
-    ],
-    "elevation": -13,
-    "tower": true,
-    "name": "Lelystad",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 52.45114636,
-        "lonStart": 5.51101024,
-        "latEnd": 52.4587254,
-        "lonEnd": 5.5246021,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 50,
-        "surfaceType": null,
-        "numberStart": "05L",
-        "numberEnd": "23R",
-        "latStart": 52.46292023,
-        "lonStart": 5.52030427,
-        "latEnd": 52.46474259,
-        "lonEnd": 5.52357371,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 102,
-        "width": 20,
-        "surfaceType": 2,
-        "numberStart": "H23",
-        "numberEnd": null,
-        "latStart": 52.4557191,
-        "lonStart": 5.52126512,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20
-      }
-    ],
-    "id": 15141
+    "id": 16425
   },
   {
     "type": 1,
@@ -217,7 +225,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 23803
+    "id": 16427
   },
   {
     "type": 1,
@@ -256,32 +264,6 @@
         "surfacetype": 2
       }
     ],
-    "id": 25171
-  },
-  {
-    "type": 1,
-    "icao": "EHDV",
-    "lat": 52.6685181,
-    "lon": 5.9286189,
-    "communications": [],
-    "elevation": 0,
-    "tower": false,
-    "name": "Voorst Sport",
-    "runways": [
-      {
-        "type": 100,
-        "width": 36.58,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 52.66594852,
-        "lonStart": 5.92391296,
-        "latEnd": 52.67108768,
-        "lonEnd": 5.93332484,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 26406
+    "id": 16428
   }
 ]

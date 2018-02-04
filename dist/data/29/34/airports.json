@@ -1,93 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "LLET",
-    "lat": 29.561268,
-    "lon": 34.960111,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13255,
-        "name": "INFO"
-      },
-      {
-        "type": 54,
-        "frequency": 11900,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12180,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 42,
-    "tower": true,
-    "name": "EILAT",
-    "runways": [
-      {
-        "type": 100,
-        "width": 27.13,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 29.553703,
-        "lonStart": 34.9555,
-        "latEnd": 29.568833,
-        "lonEnd": 34.964722,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 6672
-  },
-  {
-    "type": 1,
-    "icao": "LLOV",
-    "lat": 29.94025075,
-    "lon": 34.93584875,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12990,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 1492,
-    "tower": true,
-    "name": "OVDA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "02R",
-        "numberEnd": "20L",
-        "latStart": 29.927164,
-        "lonStart": 34.931731,
-        "latEnd": 29.95215,
-        "lonEnd": 34.943342,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "02L",
-        "numberEnd": "20R",
-        "latStart": 29.930028,
-        "lonStart": 34.929119,
-        "latEnd": 29.951661,
-        "lonEnd": 34.939203,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 18749
-  },
-  {
-    "type": 1,
     "icao": "HETB",
     "lat": 29.588393,
     "lon": 34.7775615,
@@ -134,8 +47,8 @@
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "04R",
-        "numberEnd": "22L",
+        "numberStart": "04",
+        "numberEnd": "22",
         "latStart": 29.574444,
         "lonStart": 34.764444,
         "latEnd": 29.601389,
@@ -144,6 +57,93 @@
         "surfacetype": 1
       }
     ],
-    "id": 24523
+    "id": 17936
+  },
+  {
+    "type": 1,
+    "icao": "LLET",
+    "lat": 29.56039337,
+    "lon": 34.96005513,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13255,
+        "name": "INFO"
+      },
+      {
+        "type": 54,
+        "frequency": 11900,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12180,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 41,
+    "tower": true,
+    "name": "EILAT",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.13,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 29.55282837,
+        "lonStart": 34.95544413,
+        "latEnd": 29.56795837,
+        "lonEnd": 34.96466613,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20723
+  },
+  {
+    "type": 1,
+    "icao": "LLOV",
+    "lat": 29.94025075,
+    "lon": 34.93584875,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12990,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 1492,
+    "tower": true,
+    "name": "OVDA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "03R",
+        "numberEnd": "21L",
+        "latStart": 29.927164,
+        "lonStart": 34.931731,
+        "latEnd": 29.95215,
+        "lonEnd": 34.943342,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "03L",
+        "numberEnd": "21R",
+        "latStart": 29.930028,
+        "lonStart": 34.929119,
+        "latEnd": 29.951661,
+        "lonEnd": 34.939203,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20732
   }
 ]

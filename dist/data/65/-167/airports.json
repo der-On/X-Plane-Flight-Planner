@@ -1,6 +1,85 @@
 [
   {
     "type": 1,
+    "icao": "PAPC",
+    "lat": 65.25369549999999,
+    "lon": -166.8583305,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12185,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 10,
+    "tower": false,
+    "name": "PORT CLARENCE CGS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 36.88,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 65.259833,
+        "lonStart": -166.858411,
+        "latEnd": 65.247558,
+        "lonEnd": -166.85825,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 24003
+  },
+  {
+    "type": 1,
+    "icao": "PATE",
+    "lat": 65.24037899999999,
+    "lon": -166.339339975,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11837,
+        "name": "AWOS-3"
+      },
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF"
+      },
+      {
+        "type": 55,
+        "frequency": 13330,
+        "name": "ANCHORAGE CNTR"
+      }
+    ],
+    "elevation": 294,
+    "tower": false,
+    "name": "Teller",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 65.24030768,
+        "lonStart": -166.34916264,
+        "latEnd": 65.24045032,
+        "lonEnd": -166.32951731,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 24032
+  },
+  {
+    "type": 1,
     "icao": "PFKT",
     "lat": 65.33180205333333,
     "lon": -166.47027202,
@@ -45,8 +124,8 @@
         "type": 100,
         "width": 29.87,
         "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
+        "numberStart": "12",
+        "numberEnd": "30",
         "latStart": 65.333457,
         "lonStart": -166.471863,
         "latEnd": 65.328239,
@@ -55,85 +134,6 @@
         "surfacetype": 5
       }
     ],
-    "id": 3176
-  },
-  {
-    "type": 1,
-    "icao": "PAPC",
-    "lat": 65.25369549999999,
-    "lon": -166.8583305,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12185,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 10,
-    "tower": false,
-    "name": "PORT CLARENCE CGS",
-    "runways": [
-      {
-        "type": 100,
-        "width": 36.88,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 65.259833,
-        "lonStart": -166.858411,
-        "latEnd": 65.247558,
-        "lonEnd": -166.85825,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19485
-  },
-  {
-    "type": 1,
-    "icao": "PATE",
-    "lat": 65.24037899999999,
-    "lon": -166.339339975,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11837,
-        "name": "AWOS-3"
-      },
-      {
-        "type": 51,
-        "frequency": 12300,
-        "name": "CTAF"
-      },
-      {
-        "type": 55,
-        "frequency": 13330,
-        "name": "ANCHORAGE CNTR"
-      }
-    ],
-    "elevation": 294,
-    "tower": false,
-    "name": "Teller",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 65.24030768,
-        "lonStart": -166.34916264,
-        "latEnd": 65.24045032,
-        "lonEnd": -166.32951731,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 25141
+    "id": 24071
   }
 ]

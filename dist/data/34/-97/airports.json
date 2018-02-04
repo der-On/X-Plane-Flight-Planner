@@ -1,9 +1,41 @@
 [
   {
     "type": 1,
+    "icao": "1F4",
+    "lat": 34.1404,
+    "lon": -96.812039,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 890,
+    "tower": false,
+    "name": "MADILL MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 34.144506,
+        "lonStart": -96.811486,
+        "latEnd": 34.136294,
+        "lonEnd": -96.812592,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 43
+  },
+  {
+    "type": 1,
     "icao": "KADH",
-    "lat": 34.80413525,
-    "lon": -96.67092975,
+    "lat": 34.803946762500004,
+    "lon": -96.67070225,
     "communications": [
       {
         "type": 50,
@@ -26,7 +58,7 @@
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 34.813275,
+        "latStart": 34.8132736,
         "lonStart": -96.671975,
         "latEnd": 34.796233,
         "lonEnd": -96.671972,
@@ -39,15 +71,337 @@
         "surfaceType": null,
         "numberStart": "13",
         "numberEnd": "31",
-        "latStart": 34.806536,
-        "lonStart": -96.673533,
-        "latEnd": 34.800497,
-        "lonEnd": -96.666239,
+        "latStart": 34.80578445,
+        "lonStart": -96.672624,
+        "latEnd": 34.800496,
+        "lonEnd": -96.666238,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 64
+    "id": 2321
+  },
+  {
+    "type": 1,
+    "icao": "0F9",
+    "lat": 34.1984975,
+    "lon": -96.674486,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 647,
+    "tower": false,
+    "name": "TISHOMINGO AIRPARK",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 34.202756,
+        "lonStart": -96.674444,
+        "latEnd": 34.194239,
+        "lonEnd": -96.674528,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5784
+  },
+  {
+    "type": 1,
+    "icao": "0OK4",
+    "lat": 34.66064805,
+    "lon": -96.25361251000001,
+    "communications": [],
+    "elevation": 730,
+    "tower": false,
+    "name": "Rock Creek Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 34.65840916,
+        "lonStart": -96.25643116,
+        "latEnd": 34.66288694,
+        "lonEnd": -96.25079386,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 6086
+  },
+  {
+    "type": 1,
+    "icao": "3OK0",
+    "lat": 34.705,
+    "lon": -96.57666667000001,
+    "communications": [],
+    "elevation": 779,
+    "tower": false,
+    "name": "Valley",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 34.70855719,
+        "lonStart": -96.57696924,
+        "latEnd": 34.70144281,
+        "lonEnd": -96.5763641,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7788
+  },
+  {
+    "type": 1,
+    "icao": "08F",
+    "lat": 34.53175888,
+    "lon": -96.23305389000001,
+    "communications": [],
+    "elevation": 615,
+    "tower": false,
+    "name": "City of Coalgate",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 34.53452254,
+        "lonStart": -96.23328848,
+        "latEnd": 34.52899522,
+        "lonEnd": -96.2328193,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10027
+  },
+  {
+    "type": 1,
+    "icao": "9OK5",
+    "lat": 34.778333329999995,
+    "lon": -96.9275,
+    "communications": [],
+    "elevation": 1140,
+    "tower": false,
+    "name": "Diamond C Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 34.78166021,
+        "lonStart": -96.92850988,
+        "latEnd": 34.77500645,
+        "lonEnd": -96.92649012,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10718
+  },
+  {
+    "type": 1,
+    "icao": "30OK",
+    "lat": 34.91675694,
+    "lon": -96.23361584,
+    "communications": [],
+    "elevation": 860,
+    "tower": false,
+    "name": "Lobo Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 34.91908279,
+        "lonStart": -96.23381418,
+        "latEnd": 34.91443109,
+        "lonEnd": -96.2334175,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11718
+  },
+  {
+    "type": 17,
+    "icao": "37OK",
+    "lat": 34.77619805,
+    "lon": -96.63334362,
+    "communications": [],
+    "elevation": 1070,
+    "tower": false,
+    "name": "[H] Valley View Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.77619805,
+        "lonStart": -96.63334362,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 11990
+  },
+  {
+    "type": 17,
+    "icao": "57OK",
+    "lat": 34.36953638,
+    "lon": -96.13915834,
+    "communications": [],
+    "elevation": 600,
+    "tower": false,
+    "name": "[H] Atoka Memorial Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.36953638,
+        "lonStart": -96.13915834,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 12770
+  },
+  {
+    "type": 1,
+    "icao": "66OK",
+    "lat": 34.088984159999995,
+    "lon": -96.42165973,
+    "communications": [],
+    "elevation": 695,
+    "tower": false,
+    "name": "Mc Laughlin Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 34.08832057,
+        "lonStart": -96.42487345,
+        "latEnd": 34.08964775,
+        "lonEnd": -96.41844601,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13121
+  },
+  {
+    "type": 1,
+    "icao": "88F",
+    "lat": 34.96453305,
+    "lon": -96.27111751,
+    "communications": [],
+    "elevation": 825,
+    "tower": false,
+    "name": "Pace Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 34.96175915,
+        "lonStart": -96.27357674,
+        "latEnd": 34.96730695,
+        "lonEnd": -96.26865828,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13954
+  },
+  {
+    "type": 1,
+    "icao": "92OK",
+    "lat": 34.38286861,
+    "lon": -96.29194,
+    "communications": [],
+    "elevation": 618,
+    "tower": false,
+    "name": "Flying W Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 34.38474799,
+        "lonStart": -96.2929539,
+        "latEnd": 34.38098923,
+        "lonEnd": -96.2909261,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14102
+  },
+  {
+    "type": 1,
+    "icao": "F30",
+    "lat": 34.524533000000005,
+    "lon": -96.989739,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1051,
+    "tower": false,
+    "name": "SULPHUR MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 34.529322,
+        "lonStart": -96.99025,
+        "latEnd": 34.519744,
+        "lonEnd": -96.989228,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16719
   },
   {
     "type": 1,
@@ -84,7 +438,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 457
+    "id": 18811
   },
   {
     "type": 1,
@@ -110,59 +464,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 4479
-  },
-  {
-    "type": 1,
-    "icao": "08F",
-    "lat": 34.53175888,
-    "lon": -96.23305389000001,
-    "communications": [],
-    "elevation": 615,
-    "tower": false,
-    "name": "City of Coalgate",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 34.53452254,
-        "lonStart": -96.23328848,
-        "latEnd": 34.52899522,
-        "lonEnd": -96.2328193,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 5033
-  },
-  {
-    "type": 1,
-    "icao": "9OK5",
-    "lat": 34.778333329999995,
-    "lon": -96.9275,
-    "communications": [],
-    "elevation": 1140,
-    "tower": false,
-    "name": "Diamond C Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 34.78166021,
-        "lonStart": -96.92850988,
-        "latEnd": 34.77500645,
-        "lonEnd": -96.92649012,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 6244
+    "id": 23501
   },
   {
     "type": 1,
@@ -188,33 +490,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 9446
+    "id": 23520
   },
   {
     "type": 1,
-    "icao": "92OK",
-    "lat": 34.38286861,
-    "lon": -96.29194,
+    "icao": "OK80",
+    "lat": 34.72869944,
+    "lon": -96.60111945,
     "communications": [],
-    "elevation": 618,
+    "elevation": 811,
     "tower": false,
-    "name": "Flying W Ranch",
+    "name": "Thomas Ranch",
     "runways": [
       {
         "type": 100,
-        "width": 15.24,
+        "width": 76.2,
         "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 34.38474799,
-        "lonStart": -96.2929539,
-        "latEnd": 34.38098923,
-        "lonEnd": -96.2909261,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 34.73347336,
+        "lonStart": -96.60050893,
+        "latEnd": 34.72392552,
+        "lonEnd": -96.60172997,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 9536
+    "id": 23523
   },
   {
     "type": 1,
@@ -240,201 +542,7 @@
         "surfacetype": 2
       }
     ],
-    "id": 10046
-  },
-  {
-    "type": 1,
-    "icao": "30OK",
-    "lat": 34.91675694,
-    "lon": -96.23361584,
-    "communications": [],
-    "elevation": 860,
-    "tower": false,
-    "name": "Lobo Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 34.91908279,
-        "lonStart": -96.23381418,
-        "latEnd": 34.91443109,
-        "lonEnd": -96.2334175,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15380
-  },
-  {
-    "type": 1,
-    "icao": "1F4",
-    "lat": 34.1404,
-    "lon": -96.812039,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 890,
-    "tower": false,
-    "name": "MADILL MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 34.144506,
-        "lonStart": -96.811486,
-        "latEnd": 34.136294,
-        "lonEnd": -96.812592,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 15694
-  },
-  {
-    "type": 1,
-    "icao": "66OK",
-    "lat": 34.088984159999995,
-    "lon": -96.42165973,
-    "communications": [],
-    "elevation": 695,
-    "tower": false,
-    "name": "Mc Laughlin Farm",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 34.08832057,
-        "lonStart": -96.42487345,
-        "latEnd": 34.08964775,
-        "lonEnd": -96.41844601,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 16951
-  },
-  {
-    "type": 1,
-    "icao": "88F",
-    "lat": 34.96453305,
-    "lon": -96.27111751,
-    "communications": [],
-    "elevation": 825,
-    "tower": false,
-    "name": "Pace Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 34.96175915,
-        "lonStart": -96.27357674,
-        "latEnd": 34.96730695,
-        "lonEnd": -96.26865828,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 19627
-  },
-  {
-    "type": 1,
-    "icao": "0OK4",
-    "lat": 34.66064805,
-    "lon": -96.25361251000001,
-    "communications": [],
-    "elevation": 730,
-    "tower": false,
-    "name": "Rock Creek Farm",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 34.65840916,
-        "lonStart": -96.25643116,
-        "latEnd": 34.66288694,
-        "lonEnd": -96.25079386,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 21619
-  },
-  {
-    "type": 1,
-    "icao": "F30",
-    "lat": 34.524533000000005,
-    "lon": -96.989739,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 1051,
-    "tower": false,
-    "name": "SULPHUR MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 34.529322,
-        "lonStart": -96.99025,
-        "latEnd": 34.519744,
-        "lonEnd": -96.989228,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22588
-  },
-  {
-    "type": 1,
-    "icao": "OL19",
-    "lat": 34.91536916,
-    "lon": -96.12944667,
-    "communications": [],
-    "elevation": 990,
-    "tower": false,
-    "name": "Stuart Mountain Airpark",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 34.9173423,
-        "lonStart": -96.13177038,
-        "latEnd": 34.91339602,
-        "lonEnd": -96.12712296,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 24301
+    "id": 23528
   },
   {
     "type": 1,
@@ -473,116 +581,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 24302
-  },
-  {
-    "type": 1,
-    "icao": "0F9",
-    "lat": 34.1984975,
-    "lon": -96.674486,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 647,
-    "tower": false,
-    "name": "TISHOMINGO AIRPARK",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 34.202756,
-        "lonStart": -96.674444,
-        "latEnd": 34.194239,
-        "lonEnd": -96.674528,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 24749
-  },
-  {
-    "type": 1,
-    "icao": "OK80",
-    "lat": 34.72869944,
-    "lon": -96.60111945,
-    "communications": [],
-    "elevation": 811,
-    "tower": false,
-    "name": "Thomas Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 76.2,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 34.73347336,
-        "lonStart": -96.60050893,
-        "latEnd": 34.72392552,
-        "lonEnd": -96.60172997,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 25281
-  },
-  {
-    "type": 1,
-    "icao": "3OK0",
-    "lat": 34.705,
-    "lon": -96.57666667000001,
-    "communications": [],
-    "elevation": 779,
-    "tower": false,
-    "name": "Valley",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 34.70855719,
-        "lonStart": -96.57696924,
-        "latEnd": 34.70144281,
-        "lonEnd": -96.5763641,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 26178
-  },
-  {
-    "type": 17,
-    "icao": "57OK",
-    "lat": 34.36953638,
-    "lon": -96.13915834,
-    "communications": [],
-    "elevation": 600,
-    "tower": false,
-    "name": "[H] Atoka Memorial Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 34.36953638,
-        "lonStart": -96.13915834,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 28215
+    "id": 23532
   },
   {
     "type": 17,
@@ -607,31 +606,32 @@
         "length": 10.1
       }
     ],
-    "id": 31196
+    "id": 23550
   },
   {
-    "type": 17,
-    "icao": "37OK",
-    "lat": 34.77619805,
-    "lon": -96.63334362,
+    "type": 1,
+    "icao": "OL19",
+    "lat": 34.91536916,
+    "lon": -96.12944667,
     "communications": [],
-    "elevation": 1070,
+    "elevation": 990,
     "tower": false,
-    "name": "[H] Valley View Hospital",
+    "name": "Stuart Mountain Airpark",
     "runways": [
       {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 34.77619805,
-        "lonStart": -96.63334362,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 34.9173423,
+        "lonStart": -96.13177038,
+        "latEnd": 34.91339602,
+        "lonEnd": -96.12712296,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 33582
+    "id": 23556
   }
 ]

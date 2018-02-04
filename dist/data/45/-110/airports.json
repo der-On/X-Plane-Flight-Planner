@@ -2,9 +2,14 @@
   {
     "type": 1,
     "icao": "6S0",
-    "lat": 45.802847,
-    "lon": -109.9819445,
+    "lat": 45.80631304,
+    "lon": -109.97845122749999,
     "communications": [
+      {
+        "type": 50,
+        "frequency": 0,
+        "name": "AWOS"
+      },
       {
         "type": 51,
         "frequency": 12280,
@@ -21,10 +26,10 @@
         "surfaceType": null,
         "numberStart": "06",
         "numberEnd": "24",
-        "latStart": 45.801944,
-        "lonStart": -109.99,
-        "latEnd": 45.805833,
-        "lonEnd": -109.969722,
+        "latStart": 45.80506462,
+        "lonStart": -109.98732809,
+        "latEnd": 45.80903496,
+        "lonEnd": -109.9674726,
         "length": 0,
         "surfacetype": 1
       },
@@ -32,17 +37,81 @@
         "type": 100,
         "width": 30.48,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 45.807222,
-        "lonStart": -109.982778,
-        "latEnd": 45.796389,
-        "lonEnd": -109.985278,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 45.81080341,
+        "lonStart": -109.97769735,
+        "latEnd": 45.80034917,
+        "lonEnd": -109.98130687,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 4
       }
     ],
-    "id": 1714
+    "id": 225
+  },
+  {
+    "type": 1,
+    "icao": "6S3",
+    "lat": 45.630529695,
+    "lon": -109.23923331,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 3575,
+    "tower": false,
+    "name": "COLUMBUS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 45.63248162,
+        "lonStart": -109.24612337,
+        "latEnd": 45.62857777,
+        "lonEnd": -109.23234325,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 228
+  },
+  {
+    "type": 1,
+    "icao": "KRED",
+    "lat": 45.184937725,
+    "lon": -109.257730755,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 5763,
+    "tower": false,
+    "name": "RED LODGE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 45.19041838,
+        "lonStart": -109.258108,
+        "latEnd": 45.17945707,
+        "lonEnd": -109.25735351,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3184
   },
   {
     "type": 1,
@@ -68,39 +137,7 @@
         "surfacetype": 5
       }
     ],
-    "id": 2187
-  },
-  {
-    "type": 1,
-    "icao": "6S3",
-    "lat": 45.6305375,
-    "lon": -109.239239,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 3575,
-    "tower": false,
-    "name": "COLUMBUS",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 45.632503,
-        "lonStart": -109.246147,
-        "latEnd": 45.628572,
-        "lonEnd": -109.232331,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 4063
+    "id": 9918
   },
   {
     "type": 1,
@@ -126,39 +163,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 16442
-  },
-  {
-    "type": 1,
-    "icao": "KRED",
-    "lat": 45.187364,
-    "lon": -109.267365,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 5763,
-    "tower": false,
-    "name": "RED LODGE",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 45.192781,
-        "lonStart": -109.268061,
-        "latEnd": 45.181947,
-        "lonEnd": -109.266669,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 20881
+    "id": 21833
   },
   {
     "type": 17,
@@ -183,6 +188,6 @@
         "length": 11
       }
     ],
-    "id": 28821
+    "id": 21919
   }
 ]

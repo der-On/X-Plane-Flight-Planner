@@ -1,6 +1,77 @@
 [
   {
     "type": 1,
+    "icao": "A002",
+    "lat": -33.020913545,
+    "lon": 115.70206634,
+    "communications": [],
+    "elevation": 73,
+    "tower": false,
+    "name": "Preston Field - Blair Howe",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -33.02021078,
+        "lonStart": 115.69918546,
+        "latEnd": -33.01959973,
+        "lonEnd": 115.70475853,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 14.33,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -33.01805536,
+        "lonStart": 115.70098556,
+        "latEnd": -33.02578831,
+        "lonEnd": 115.70333581,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 14369
+  },
+  {
+    "type": 1,
+    "icao": "AU55",
+    "lat": -33.770583775,
+    "lon": 115.04326625,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12760,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 348,
+    "tower": false,
+    "name": "Yallingup",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -33.77804055,
+        "lonStart": 115.0432365,
+        "latEnd": -33.763127,
+        "lonEnd": 115.043296,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 14753
+  },
+  {
+    "type": 1,
     "icao": "YBGE",
     "lat": -33.828547115,
     "lon": 115.09949068,
@@ -23,7 +94,51 @@
         "surfacetype": 3
       }
     ],
-    "id": 1828
+    "id": 32744
+  },
+  {
+    "type": 1,
+    "icao": "YBLN",
+    "lat": -33.686227550000005,
+    "lon": 115.40163378,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12670,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 55,
+    "tower": false,
+    "name": "Busselton",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -33.69487039,
+        "lonStart": 115.39776218,
+        "latEnd": -33.68021299,
+        "lonEnd": 115.40613212,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 15,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -33.68359927,
+        "lonStart": 115.40100704,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15
+      }
+    ],
+    "id": 32789
   },
   {
     "type": 1,
@@ -65,39 +180,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 3376
-  },
-  {
-    "type": 1,
-    "icao": "YBLN",
-    "lat": -33.68759946,
-    "lon": 115.40196868999999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12670,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 55,
-    "tower": false,
-    "name": "Busselton",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": -33.69491592,
-        "lonStart": 115.39777722,
-        "latEnd": -33.680283,
-        "lonEnd": 115.40616016,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 3446
+    "id": 32867
   },
   {
     "type": 1,
@@ -123,7 +206,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 6744
+    "id": 33194
   },
   {
     "type": 1,
@@ -155,77 +238,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 16677
-  },
-  {
-    "type": 1,
-    "icao": "A002",
-    "lat": -33.020913545,
-    "lon": 115.70206634,
-    "communications": [],
-    "elevation": 73,
-    "tower": false,
-    "name": "Preston Field - Blair Howe",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": -33.02021078,
-        "lonStart": 115.69918546,
-        "latEnd": -33.01959973,
-        "lonEnd": 115.70475853,
-        "length": 0,
-        "surfacetype": 4
-      },
-      {
-        "type": 100,
-        "width": 14.33,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": -33.01805536,
-        "lonStart": 115.70098556,
-        "latEnd": -33.02578831,
-        "lonEnd": 115.70333581,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 20524
-  },
-  {
-    "type": 1,
-    "icao": "AU55",
-    "lat": -33.770583775,
-    "lon": 115.04326625,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12760,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 348,
-    "tower": false,
-    "name": "Yallingup",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": -33.77804055,
-        "lonStart": 115.0432365,
-        "latEnd": -33.763127,
-        "lonEnd": 115.043296,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 27735
+    "id": 33837
   }
 ]

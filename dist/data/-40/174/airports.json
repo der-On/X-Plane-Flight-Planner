@@ -1,58 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "NZHA",
-    "lat": -39.554996499999994,
-    "lon": 174.2691142,
-    "communications": [],
-    "elevation": 374,
-    "tower": false,
-    "name": "Hawera",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.35,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": -39.55165769,
-        "lonStart": 174.26614291,
-        "latEnd": -39.55999851,
-        "lonEnd": 174.26986789,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 30.18,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": -39.55855656,
-        "lonStart": 174.26692803,
-        "latEnd": -39.55309964,
-        "lonEnd": 174.27308057,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 30.18,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": -39.5532714,
-        "lonStart": 174.2647337,
-        "latEnd": -39.5533952,
-        "lonEnd": 174.2739321,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11557
-  },
-  {
-    "type": 1,
     "icao": "NZNP",
     "lat": -39.00763474833333,
     "lon": 174.17771764166665,
@@ -101,8 +49,8 @@
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "05L",
-        "numberEnd": "23R",
+        "numberStart": "05",
+        "numberEnd": "23",
         "latStart": -39.01050282,
         "lonStart": 174.16997454,
         "latEnd": -39.00569957,
@@ -137,7 +85,59 @@
         "surfacetype": 3
       }
     ],
-    "id": 17921
+    "id": 4252
+  },
+  {
+    "type": 1,
+    "icao": "NZHA",
+    "lat": -39.554996499999994,
+    "lon": 174.2691142,
+    "communications": [],
+    "elevation": 374,
+    "tower": false,
+    "name": "Hawera",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.35,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -39.55165769,
+        "lonStart": 174.26614291,
+        "latEnd": -39.55999851,
+        "lonEnd": 174.26986789,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 30.18,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": -39.55855656,
+        "lonStart": 174.26692803,
+        "latEnd": -39.55309964,
+        "lonEnd": 174.27308057,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 30.18,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -39.5532714,
+        "lonStart": 174.2647337,
+        "latEnd": -39.5533952,
+        "lonEnd": 174.2739321,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23064
   },
   {
     "type": 1,
@@ -176,6 +176,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 24262
+    "id": 23077
   }
 ]

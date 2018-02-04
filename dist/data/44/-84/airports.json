@@ -1,119 +1,9 @@
 [
   {
     "type": 1,
-    "icao": "MI93",
-    "lat": 44.68779,
-    "lon": -83.74387250000001,
-    "communications": [],
-    "elevation": 1009,
-    "tower": false,
-    "name": "Circle T Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 44.6874316,
-        "lonStart": -83.74866882,
-        "latEnd": 44.6881484,
-        "lonEnd": -83.73907618,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 5022
-  },
-  {
-    "type": 1,
-    "icao": "H80",
-    "lat": 44.364697785000004,
-    "lon": -83.76266357,
-    "communications": [],
-    "elevation": 830,
-    "tower": false,
-    "name": "Field of Dreams",
-    "runways": [
-      {
-        "type": 100,
-        "width": 27.13,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 44.36379052,
-        "lonStart": -83.76708946,
-        "latEnd": 44.36560505,
-        "lonEnd": -83.75823768,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9271
-  },
-  {
-    "type": 1,
-    "icao": "5Y0",
-    "lat": 44.67084638,
-    "lon": -83.30413389,
-    "communications": [],
-    "elevation": 674,
-    "tower": false,
-    "name": "Harrisville",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 44.66806896,
-        "lonStart": -83.30579167,
-        "latEnd": 44.6736238,
-        "lonEnd": -83.30247611,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11484
-  },
-  {
-    "type": 1,
-    "icao": "6D9",
-    "lat": 44.3128345,
-    "lon": -83.422357,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 605,
-    "tower": false,
-    "name": "IOSCO CO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 44.311475,
-        "lonStart": -83.431389,
-        "latEnd": 44.314194,
-        "lonEnd": -83.413325,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 12335
-  },
-  {
-    "type": 1,
     "icao": "KOSC",
-    "lat": 44.451557,
-    "lon": -83.39405400000001,
+    "lat": 44.451540805,
+    "lon": -83.394141485,
     "communications": [
       {
         "type": 51,
@@ -121,7 +11,7 @@
         "name": "CTAF/UNICOM"
       }
     ],
-    "elevation": 634,
+    "elevation": 633,
     "tower": false,
     "name": "OSCODA WURTSMITH",
     "runways": [
@@ -131,15 +21,15 @@
         "surfaceType": null,
         "numberStart": "06",
         "numberEnd": "24",
-        "latStart": 44.443036,
-        "lonStart": -83.413261,
-        "latEnd": 44.460078,
-        "lonEnd": -83.374847,
+        "latStart": 44.44299285,
+        "lonStart": -83.41337156,
+        "latEnd": 44.46008876,
+        "lonEnd": -83.37491141,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
       }
     ],
-    "id": 18723
+    "id": 3084
   },
   {
     "type": 1,
@@ -165,46 +55,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 24196
-  },
-  {
-    "type": 1,
-    "icao": "7Y0",
-    "lat": 44.46946,
-    "lon": -83.88193417000001,
-    "communications": [],
-    "elevation": 944,
-    "tower": false,
-    "name": "Timbers Sky Camp",
-    "runways": [
-      {
-        "type": 100,
-        "width": 38.1,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 44.47179007,
-        "lonStart": -83.88430642,
-        "latEnd": 44.46712993,
-        "lonEnd": -83.87956192,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 35.05,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 44.46755592,
-        "lonStart": -83.8845108,
-        "latEnd": 44.47136408,
-        "lonEnd": -83.87935754,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 25379
+    "id": 5950
   },
   {
     "type": 1,
@@ -243,7 +94,65 @@
         "surfacetype": 3
       }
     ],
-    "id": 26386
+    "id": 6545
+  },
+  {
+    "type": 1,
+    "icao": "5Y0",
+    "lat": 44.67084638,
+    "lon": -83.30413389,
+    "communications": [],
+    "elevation": 674,
+    "tower": false,
+    "name": "Harrisville",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 44.66806896,
+        "lonStart": -83.30579167,
+        "latEnd": 44.6736238,
+        "lonEnd": -83.30247611,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 8989
+  },
+  {
+    "type": 1,
+    "icao": "6D9",
+    "lat": 44.3128345,
+    "lon": -83.422357,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 605,
+    "tower": false,
+    "name": "IOSCO CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 44.311475,
+        "lonStart": -83.431389,
+        "latEnd": 44.314194,
+        "lonEnd": -83.413325,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 9049
   },
   {
     "type": 17,
@@ -280,6 +189,146 @@
         "length": 167.6
       }
     ],
-    "id": 30652
+    "id": 9234
+  },
+  {
+    "type": 1,
+    "icao": "7Y0",
+    "lat": 44.46946,
+    "lon": -83.88193417000001,
+    "communications": [],
+    "elevation": 944,
+    "tower": false,
+    "name": "Timbers Sky Camp",
+    "runways": [
+      {
+        "type": 100,
+        "width": 38.1,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 44.47179007,
+        "lonStart": -83.88430642,
+        "latEnd": 44.46712993,
+        "lonEnd": -83.87956192,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 35.05,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 44.46755592,
+        "lonStart": -83.8845108,
+        "latEnd": 44.47136408,
+        "lonEnd": -83.87935754,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9970
+  },
+  {
+    "type": 1,
+    "icao": "H80",
+    "lat": 44.364697785000004,
+    "lon": -83.76266357,
+    "communications": [],
+    "elevation": 830,
+    "tower": false,
+    "name": "Field of Dreams",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.13,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 44.36379052,
+        "lonStart": -83.76708946,
+        "latEnd": 44.36560505,
+        "lonEnd": -83.75823768,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17855
+  },
+  {
+    "type": 16,
+    "icao": "M47",
+    "lat": 44.35183758,
+    "lon": -83.94541893666667,
+    "communications": [],
+    "elevation": 905,
+    "tower": false,
+    "name": "[S] Sage Lake",
+    "runways": [
+      {
+        "type": 101,
+        "width": 91.44,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 44.34857,
+        "lonStart": -83.95232176,
+        "latEnd": 44.3581,
+        "lonEnd": -83.93857512,
+        "length": 0
+      },
+      {
+        "type": 101,
+        "width": 91.44,
+        "surfaceType": null,
+        "numberStart": "14L",
+        "numberEnd": "32R",
+        "latStart": 44.35667494,
+        "lonStart": -83.94694587,
+        "latEnd": 44.34423604,
+        "lonEnd": -83.92809307,
+        "length": 0
+      },
+      {
+        "type": 101,
+        "width": 91.44,
+        "surfaceType": null,
+        "numberStart": "14R",
+        "numberEnd": "32L",
+        "latStart": 44.3580278,
+        "lonStart": -83.9626056,
+        "latEnd": 44.3454167,
+        "lonEnd": -83.9439722,
+        "length": 0
+      }
+    ],
+    "id": 20984
+  },
+  {
+    "type": 1,
+    "icao": "MI93",
+    "lat": 44.68779,
+    "lon": -83.74387250000001,
+    "communications": [],
+    "elevation": 1009,
+    "tower": false,
+    "name": "Circle T Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 44.6874316,
+        "lonStart": -83.74866882,
+        "latEnd": 44.6881484,
+        "lonEnd": -83.73907618,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21391
   }
 ]

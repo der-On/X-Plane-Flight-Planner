@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "MUBY",
-    "lat": 20.396330499999998,
-    "lon": -76.62149450000001,
+    "lat": 20.39654165,
+    "lon": -76.62113116500001,
     "communications": [
       {
         "type": 54,
@@ -23,13 +23,45 @@
         "numberEnd": "25",
         "latStart": 20.393133,
         "lonStart": -76.630108,
-        "latEnd": 20.399528,
-        "lonEnd": -76.612881,
+        "latEnd": 20.3999503,
+        "lonEnd": -76.61215433,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 3679
+    "id": 4145
+  },
+  {
+    "type": 1,
+    "icao": "MUVT",
+    "lat": 20.987643,
+    "lon": -76.9358,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12250,
+        "name": "TUNAS TWR"
+      }
+    ],
+    "elevation": 328,
+    "tower": true,
+    "name": "HERMANOS AMEIJEIRAS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 20.981792,
+        "lonStart": -76.941956,
+        "latEnd": 20.993494,
+        "lonEnd": -76.929644,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4156
   },
   {
     "type": 1,
@@ -71,38 +103,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 7678
-  },
-  {
-    "type": 1,
-    "icao": "MUVT",
-    "lat": 20.987643,
-    "lon": -76.9358,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12250,
-        "name": "TUNAS TWR"
-      }
-    ],
-    "elevation": 328,
-    "tower": true,
-    "name": "HERMANOS AMEIJEIRAS",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 20.981792,
-        "lonStart": -76.941956,
-        "latEnd": 20.993494,
-        "lonEnd": -76.929644,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 11113
+    "id": 22011
   }
 ]

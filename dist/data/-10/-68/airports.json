@@ -1,6 +1,43 @@
 [
   {
     "type": 1,
+    "icao": "SBRB",
+    "lat": -9.869054995,
+    "lon": -67.893911635,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11870,
+        "name": "RIO BRANCO TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11990,
+        "name": "RIO BRANCO APP"
+      }
+    ],
+    "elevation": 633,
+    "tower": true,
+    "name": "Presidente Medici",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -9.87436268,
+        "lonStart": -67.90218221,
+        "latEnd": -9.86374731,
+        "lonEnd": -67.88564106,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4653
+  },
+  {
+    "type": 1,
     "icao": "SDNQ",
     "lat": -9.97027778,
     "lon": -67.48666667,
@@ -23,7 +60,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 7879
+    "id": 25657
   },
   {
     "type": 1,
@@ -49,43 +86,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 8084
-  },
-  {
-    "type": 1,
-    "icao": "SBRB",
-    "lat": -9.869157,
-    "lon": -67.894072,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11870,
-        "name": "RIO BRANCO TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11990,
-        "name": "RIO BRANCO APP"
-      }
-    ],
-    "elevation": 634,
-    "tower": true,
-    "name": "Presidente Medici",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": -9.874464,
-        "lonStart": -67.902372,
-        "latEnd": -9.86385,
-        "lonEnd": -67.885772,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 20519
+    "id": 29279
   }
 ]

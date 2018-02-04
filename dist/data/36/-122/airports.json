@@ -1,6 +1,331 @@
 [
   {
     "type": 1,
+    "icao": "1C9",
+    "lat": 36.9528905,
+    "lon": -121.46259475000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12305,
+        "name": "CTAF Frequency"
+      },
+      {
+        "type": 50,
+        "frequency": 12042,
+        "name": "AWOS KCVH"
+      },
+      {
+        "type": 54,
+        "frequency": 12305,
+        "name": "Tower Frequency"
+      }
+    ],
+    "elevation": 150,
+    "tower": false,
+    "name": "Frazier Lake Airpark",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 36.951617,
+        "lonStart": -121.46684,
+        "latEnd": 36.954537,
+        "lonEnd": -121.458964,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 36.95098,
+        "lonStart": -121.466975,
+        "latEnd": 36.954428,
+        "lonEnd": -121.4576,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 39
+  },
+  {
+    "type": 1,
+    "icao": "3CA7",
+    "lat": 36.327125370000005,
+    "lon": -121.18604367,
+    "communications": [],
+    "elevation": 240,
+    "tower": false,
+    "name": "Metz",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 36.33119585,
+        "lonStart": -121.18826258,
+        "latEnd": 36.32305489,
+        "lonEnd": -121.18382476,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 113
+  },
+  {
+    "type": 1,
+    "icao": "3CA9",
+    "lat": 36.363575385,
+    "lon": -121.31036073,
+    "communications": [],
+    "elevation": 274,
+    "tower": false,
+    "name": "Clark Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.92,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 36.36615832,
+        "lonStart": -121.31264079,
+        "latEnd": 36.36099245,
+        "lonEnd": -121.30808067,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 114
+  },
+  {
+    "type": 1,
+    "icao": "KMRY",
+    "lat": 36.5869157025,
+    "lon": -121.84192719250001,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11925,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11840,
+        "name": "Tower"
+      },
+      {
+        "type": 53,
+        "frequency": 12087,
+        "name": "Ground"
+      },
+      {
+        "type": 52,
+        "frequency": 13545,
+        "name": "Clearance Delivery"
+      },
+      {
+        "type": 55,
+        "frequency": 13350,
+        "name": "NORCAL Approach"
+      },
+      {
+        "type": 56,
+        "frequency": 12715,
+        "name": "NORCAL Departure"
+      }
+    ],
+    "elevation": 255,
+    "tower": true,
+    "name": "Monterey Regional",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "10L",
+        "numberEnd": "28R",
+        "latStart": 36.58858796,
+        "lonStart": -121.84466124,
+        "latEnd": 36.58485697,
+        "lonEnd": -121.83363358,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "10R",
+        "numberEnd": "28L",
+        "latStart": 36.59092965,
+        "lonStart": -121.85600085,
+        "latEnd": 36.58328823,
+        "lonEnd": -121.8334131,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3003
+  },
+  {
+    "type": 1,
+    "icao": "KSNS",
+    "lat": 36.66329417,
+    "lon": -121.60530575,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12485,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 11940,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11940,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12715,
+        "name": "NORCAL APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 13300,
+        "name": "NORCAL APP/DEP"
+      }
+    ],
+    "elevation": 84,
+    "tower": true,
+    "name": "SALINAS MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 36.662914,
+        "lonStart": -121.618539,
+        "latEnd": 36.66095,
+        "lonEnd": -121.598214,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 36.668608,
+        "lonStart": -121.610006,
+        "latEnd": 36.657389,
+        "lonEnd": -121.60125,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 36.66726636,
+        "lonStart": -121.60337408,
+        "latEnd": 36.66263766,
+        "lonEnd": -121.60045142,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3286
+  },
+  {
+    "type": 1,
+    "icao": "KWVI",
+    "lat": 36.9358245,
+    "lon": -121.7895110425,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13227,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12220,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12715,
+        "name": "NORCAL APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 13300,
+        "name": "NORCAL APP/DEP"
+      }
+    ],
+    "elevation": 163,
+    "tower": true,
+    "name": "Watsonville Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 36.929036,
+        "lonStart": -121.795794,
+        "latEnd": 36.939481,
+        "lonEnd": -121.787561,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 36.93833062,
+        "lonStart": -121.79410483,
+        "latEnd": 36.93645038,
+        "lonEnd": -121.78058434,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3406
+  },
+  {
+    "type": 1,
     "icao": "9CL2",
     "lat": 36.871528999999995,
     "lon": -121.3370845,
@@ -29,7 +354,32 @@
         "surfacetype": 1
       }
     ],
-    "id": 3915
+    "id": 10456
+  },
+  {
+    "type": 17,
+    "icao": "12Q",
+    "lat": 36.20829916,
+    "lon": -121.13158501,
+    "communications": [],
+    "elevation": 318,
+    "tower": false,
+    "name": "[H] Mee Memorial Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 19.8,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.20829916,
+        "lonStart": -121.13158501,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19.8
+      }
+    ],
+    "id": 10994
   },
   {
     "type": 1,
@@ -55,71 +405,185 @@
         "surfacetype": 5
       }
     ],
-    "id": 4765
+    "id": 12597
   },
   {
     "type": 1,
-    "icao": "3CA9",
-    "lat": 36.363298330000006,
-    "lon": -121.31020639,
+    "icao": "CA24",
+    "lat": 36.62635,
+    "lon": -121.49132889,
     "communications": [],
-    "elevation": 275,
+    "elevation": 339,
     "tower": false,
-    "name": "Clark Ranch",
+    "name": "Quail Creek",
     "runways": [
       {
         "type": 100,
         "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 36.36599463,
-        "lonStart": -121.3125509,
-        "latEnd": 36.36060203,
-        "lonEnd": -121.30786188,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 5054
-  },
-  {
-    "type": 1,
-    "icao": "1C9",
-    "lat": 36.953781,
-    "lon": -121.465485,
-    "communications": [],
-    "elevation": 151,
-    "tower": false,
-    "name": "Frazier Lake Airpark",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
         "surfaceType": null,
         "numberStart": "05",
         "numberEnd": "23",
-        "latStart": 36.95183596,
-        "lonStart": -121.4693736,
-        "latEnd": 36.95473404,
-        "lonEnd": -121.4615964,
+        "latStart": 36.62461115,
+        "lonStart": -121.49597534,
+        "latEnd": 36.62808885,
+        "lonEnd": -121.48668244,
         "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 101,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 36.9532121,
-        "lonStart": -121.47045834,
-        "latEnd": 36.9553419,
-        "lonEnd": -121.46051166,
-        "length": 0
+        "surfacetype": 4
       }
     ],
-    "id": 9693
+    "id": 15013
+  },
+  {
+    "type": 17,
+    "icao": "CA37",
+    "lat": 36.99050527,
+    "lon": -121.98273917,
+    "communications": [],
+    "elevation": 115,
+    "tower": false,
+    "name": "[H] Dominican Santa Cruz Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 24.4,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.99050527,
+        "lonStart": -121.98273917,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.4
+      }
+    ],
+    "id": 15025
+  },
+  {
+    "type": 17,
+    "icao": "CA56",
+    "lat": 36.46718611,
+    "lon": -121.37021028,
+    "communications": [],
+    "elevation": 180,
+    "tower": false,
+    "name": "[H] Correctional Training Facility",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.46718611,
+        "lonStart": -121.37021028,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 15041
+  },
+  {
+    "type": 17,
+    "icao": "CA65",
+    "lat": 36.97050666,
+    "lon": -121.86217723,
+    "communications": [],
+    "elevation": 479,
+    "tower": false,
+    "name": "[H] Alta Vista",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.97050666,
+        "lonStart": -121.86217723,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 15050
+  },
+  {
+    "type": 1,
+    "icao": "CA66",
+    "lat": 36.906063880000005,
+    "lon": -121.84300889,
+    "communications": [],
+    "elevation": 70,
+    "tower": false,
+    "name": "Monterey Bay Academy",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 36.90738657,
+        "lonStart": -121.84640039,
+        "latEnd": 36.90474119,
+        "lonEnd": -121.83961739,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 15051
+  },
+  {
+    "type": 1,
+    "icao": "CL56",
+    "lat": 36.51024138,
+    "lon": -121.13519723,
+    "communications": [],
+    "elevation": 1200,
+    "tower": false,
+    "name": "Pinnacles Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 36.51421565,
+        "lonStart": -121.13387231,
+        "latEnd": 36.50626711,
+        "lonEnd": -121.13652215,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 15408
+  },
+  {
+    "type": 17,
+    "icao": "CL99",
+    "lat": 36.93995222,
+    "lon": -121.77606223,
+    "communications": [],
+    "elevation": 109,
+    "tower": false,
+    "name": "[H] Watsonville Community Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.93995222,
+        "lonStart": -121.77606223,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 15445
   },
   {
     "type": 1,
@@ -169,77 +633,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 11962
-  },
-  {
-    "type": 1,
-    "icao": "KMRY",
-    "lat": 36.5869157025,
-    "lon": -121.8419265325,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11925,
-        "name": "ATIS"
-      },
-      {
-        "type": 54,
-        "frequency": 11840,
-        "name": "Tower"
-      },
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "Gnd"
-      },
-      {
-        "type": 52,
-        "frequency": 13545,
-        "name": "Clr Del"
-      },
-      {
-        "type": 55,
-        "frequency": 12715,
-        "name": "NORCAL Approach"
-      },
-      {
-        "type": 56,
-        "frequency": 12715,
-        "name": "NORCAL Departure"
-      }
-    ],
-    "elevation": 255,
-    "tower": true,
-    "name": "KMRY",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "10L",
-        "numberEnd": "28R",
-        "latStart": 36.5885886,
-        "lonStart": -121.84466313,
-        "latEnd": 36.58485633,
-        "lonEnd": -121.83363142,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "10R",
-        "numberEnd": "28L",
-        "latStart": 36.5911545,
-        "lonStart": -121.85666558,
-        "latEnd": 36.58306338,
-        "lonEnd": -121.832746,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 13431
+    "id": 19003
   },
   {
     "type": 1,
@@ -271,13 +665,13 @@
         "surfacetype": 1
       }
     ],
-    "id": 16051
+    "id": 19389
   },
   {
     "type": 1,
     "icao": "KOAR",
-    "lat": 36.681878,
-    "lon": -121.762347,
+    "lat": 36.681522335,
+    "lon": -121.76165277999999,
     "communications": [
       {
         "type": 51,
@@ -307,390 +701,13 @@
         "numberEnd": "29",
         "latStart": 36.684103,
         "lonStart": -121.76665,
-        "latEnd": 36.679653,
-        "lonEnd": -121.758044,
+        "latEnd": 36.67894167,
+        "lonEnd": -121.75665556,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 16693
-  },
-  {
-    "type": 1,
-    "icao": "3CA7",
-    "lat": 36.327125370000005,
-    "lon": -121.18604367,
-    "communications": [],
-    "elevation": 240,
-    "tower": false,
-    "name": "Metz",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 36.33119585,
-        "lonStart": -121.18826258,
-        "latEnd": 36.32305489,
-        "lonEnd": -121.18382476,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 17112
-  },
-  {
-    "type": 1,
-    "icao": "CA66",
-    "lat": 36.906063880000005,
-    "lon": -121.84300889,
-    "communications": [],
-    "elevation": 70,
-    "tower": false,
-    "name": "Monterey Bay Academy",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 36.90738657,
-        "lonStart": -121.84640039,
-        "latEnd": 36.90474119,
-        "lonEnd": -121.83961739,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 17424
-  },
-  {
-    "type": 1,
-    "icao": "CL56",
-    "lat": 36.51024138,
-    "lon": -121.13519723,
-    "communications": [],
-    "elevation": 1200,
-    "tower": false,
-    "name": "Pinnacles Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 36.51421565,
-        "lonStart": -121.13387231,
-        "latEnd": 36.50626711,
-        "lonEnd": -121.13652215,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 20174
-  },
-  {
-    "type": 1,
-    "icao": "CA24",
-    "lat": 36.62635,
-    "lon": -121.49132889,
-    "communications": [],
-    "elevation": 339,
-    "tower": false,
-    "name": "Quail Creek",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 36.62461115,
-        "lonStart": -121.49597534,
-        "latEnd": 36.62808885,
-        "lonEnd": -121.48668244,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 20689
-  },
-  {
-    "type": 1,
-    "icao": "KSNS",
-    "lat": 36.66329166666666,
-    "lon": -121.60529833333332,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12485,
-        "name": "ATIS"
-      },
-      {
-        "type": 51,
-        "frequency": 11940,
-        "name": "CTAF"
-      },
-      {
-        "type": 51,
-        "frequency": 12295,
-        "name": "UNICOM"
-      },
-      {
-        "type": 53,
-        "frequency": 12170,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11940,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12715,
-        "name": "NORCAL APP/DEP"
-      },
-      {
-        "type": 55,
-        "frequency": 13300,
-        "name": "NORCAL APP/DEP"
-      }
-    ],
-    "elevation": 85,
-    "tower": true,
-    "name": "SALINAS MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 36.662914,
-        "lonStart": -121.618539,
-        "latEnd": 36.66095,
-        "lonEnd": -121.598214,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 36.668608,
-        "lonStart": -121.610006,
-        "latEnd": 36.657389,
-        "lonEnd": -121.60125,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 36.667272,
-        "lonStart": -121.603353,
-        "latEnd": 36.662617,
-        "lonEnd": -121.600428,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 21931
-  },
-  {
-    "type": 1,
-    "icao": "KWVI",
-    "lat": 36.9358245,
-    "lon": -121.78951099999999,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13217,
-        "name": "ASOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 12715,
-        "name": "NORCAL APP/DEP"
-      },
-      {
-        "type": 55,
-        "frequency": 13300,
-        "name": "NORCAL APP/DEP"
-      }
-    ],
-    "elevation": 163,
-    "tower": false,
-    "name": "WATSONVILLE MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 36.929036,
-        "lonStart": -121.795794,
-        "latEnd": 36.939481,
-        "lonEnd": -121.787561,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 36.938328,
-        "lonStart": -121.794086,
-        "latEnd": 36.936453,
-        "lonEnd": -121.780603,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 26536
-  },
-  {
-    "type": 17,
-    "icao": "CA65",
-    "lat": 36.97050666,
-    "lon": -121.86217723,
-    "communications": [],
-    "elevation": 479,
-    "tower": false,
-    "name": "[H] Alta Vista",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 36.97050666,
-        "lonStart": -121.86217723,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 28107
-  },
-  {
-    "type": 17,
-    "icao": "CA56",
-    "lat": 36.46718611,
-    "lon": -121.37021028,
-    "communications": [],
-    "elevation": 180,
-    "tower": false,
-    "name": "[H] Correctional Training Facility",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 36.46718611,
-        "lonStart": -121.37021028,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 29150
-  },
-  {
-    "type": 17,
-    "icao": "CA37",
-    "lat": 36.99050527,
-    "lon": -121.98273917,
-    "communications": [],
-    "elevation": 115,
-    "tower": false,
-    "name": "[H] Dominican Santa Cruz Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 24.4,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 36.99050527,
-        "lonStart": -121.98273917,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.4
-      }
-    ],
-    "id": 29384
-  },
-  {
-    "type": 17,
-    "icao": "12Q",
-    "lat": 36.20829916,
-    "lon": -121.13158501,
-    "communications": [],
-    "elevation": 318,
-    "tower": false,
-    "name": "[H] Mee Memorial Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 19.8,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 36.20829916,
-        "lonStart": -121.13158501,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.8
-      }
-    ],
-    "id": 31208
-  },
-  {
-    "type": 17,
-    "icao": "CL99",
-    "lat": 36.93995222,
-    "lon": -121.77606223,
-    "communications": [],
-    "elevation": 109,
-    "tower": false,
-    "name": "[H] Watsonville Community Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 36.93995222,
-        "lonStart": -121.77606223,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 33749
+    "id": 19601
   },
   {
     "type": 1,
@@ -716,6 +733,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 34554
+    "id": 23123
   }
 ]

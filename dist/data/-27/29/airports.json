@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "FASC",
+    "lat": -26.523824,
+    "lon": 29.1701985,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12200,
+        "name": "Secunda Radio"
+      }
+    ],
+    "elevation": 5240,
+    "tower": true,
+    "name": "Secunda",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -26.523824,
+        "lonStart": 29.16466666,
+        "latEnd": -26.523824,
+        "lonEnd": 29.17573034,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2156
+  },
+  {
+    "type": 1,
     "icao": "FAEO",
     "lat": -26.495643,
     "lon": 29.979764,
@@ -23,44 +55,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 6800
-  },
-  {
-    "type": 1,
-    "icao": "FASC",
-    "lat": -26.524082,
-    "lon": 29.170149000000002,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12100,
-        "name": "ATIS"
-      },
-      {
-        "type": 51,
-        "frequency": 12200,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 5250,
-    "tower": false,
-    "name": "Secunda",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": -26.52403277,
-        "lonStart": 29.16461884,
-        "latEnd": -26.52413123,
-        "lonEnd": 29.17567916,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 23203
+    "id": 16802
   },
   {
     "type": 1,
@@ -92,6 +87,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 25735
+    "id": 16846
   }
 ]

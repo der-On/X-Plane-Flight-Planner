@@ -1,41 +1,9 @@
 [
   {
     "type": 1,
-    "icao": "PHDH",
-    "lat": 21.579469250000002,
-    "lon": -158.197298005,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12300,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 14,
-    "tower": false,
-    "name": "DILLINGHAM",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 21.57959194,
-        "lonStart": -158.21055999,
-        "latEnd": 21.57934656,
-        "lonEnd": -158.18403602,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 5806
-  },
-  {
-    "type": 1,
     "icao": "PHJR",
-    "lat": 21.306718732857146,
-    "lon": -158.06925932142855,
+    "lat": 21.306831364285717,
+    "lon": -158.06942105142858,
     "communications": [
       {
         "type": 50,
@@ -78,10 +46,10 @@
         "surfaceType": null,
         "numberStart": "04R",
         "numberEnd": "22L",
-        "latStart": 21.29936901,
-        "lonStart": -158.08025033,
-        "latEnd": 21.31255213,
-        "lonEnd": -158.06017622,
+        "latStart": 21.29987372,
+        "lonStart": -158.07946622,
+        "latEnd": 21.31251623,
+        "lonEnd": -158.06021445,
         "length": 0,
         "surfacetype": 1
       },
@@ -91,10 +59,10 @@
         "surfaceType": null,
         "numberStart": "11",
         "numberEnd": "29",
-        "latStart": 21.31186565,
-        "lonStart": -158.08389385,
-        "latEnd": 21.30078693,
-        "lonEnd": -158.06192848,
+        "latStart": 21.310477,
+        "lonStart": -158.08151577,
+        "latEnd": 21.30264126,
+        "lonEnd": -158.06598113,
         "length": 0,
         "surfacetype": 1
       },
@@ -104,27 +72,84 @@
         "surfaceType": null,
         "numberStart": "04L",
         "numberEnd": "22R",
-        "latStart": 21.3057398,
-        "lonStart": -158.07374969,
-        "latEnd": 21.313947,
-        "lonEnd": -158.06123601,
+        "latStart": 21.30628193,
+        "lonStart": -158.07290499,
+        "latEnd": 21.31338728,
+        "lonEnd": -158.06207101,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 102,
-        "width": 24.99,
+        "width": 25,
         "surfaceType": 3,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 21.30277061,
-        "lonStart": -158.06358067,
+        "latStart": 21.30264213,
+        "lonStart": -158.06379379,
         "latEnd": null,
         "lonEnd": null,
-        "length": 24.69
+        "length": 24.7
       }
     ],
-    "id": 13187
+    "id": 4400
+  },
+  {
+    "type": 17,
+    "icao": "HI58",
+    "lat": 21.70487,
+    "lon": -158.00557917,
+    "communications": [],
+    "elevation": 13,
+    "tower": false,
+    "name": "[H] Turtle Bay Hilton",
+    "runways": [
+      {
+        "type": 102,
+        "width": 38.1,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 21.70487,
+        "lonStart": -158.00557917,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 38.1
+      }
+    ],
+    "id": 17972
+  },
+  {
+    "type": 1,
+    "icao": "PHDH",
+    "lat": 21.579469250000002,
+    "lon": -158.197298005,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 14,
+    "tower": false,
+    "name": "DILLINGHAM",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 21.57959194,
+        "lonStart": -158.21055999,
+        "latEnd": 21.57934656,
+        "lonEnd": -158.18403602,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 24083
   },
   {
     "type": 1,
@@ -218,31 +243,6 @@
         "length": 27.7
       }
     ],
-    "id": 26613
-  },
-  {
-    "type": 17,
-    "icao": "HI58",
-    "lat": 21.70487,
-    "lon": -158.00557917,
-    "communications": [],
-    "elevation": 13,
-    "tower": false,
-    "name": "[H] Turtle Bay Hilton",
-    "runways": [
-      {
-        "type": 102,
-        "width": 38.1,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 21.70487,
-        "lonStart": -158.00557917,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 38.1
-      }
-    ],
-    "id": 33424
+    "id": 24084
   }
 ]

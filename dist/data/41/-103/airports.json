@@ -1,124 +1,29 @@
 [
   {
     "type": 1,
-    "icao": "NE19",
-    "lat": 41.60213032,
-    "lon": -102.82598481,
+    "icao": "0NE5",
+    "lat": 41.021347375000005,
+    "lon": -102.018068105,
     "communications": [],
-    "elevation": 3650,
+    "elevation": 3528,
     "tower": false,
-    "name": "Ag Air",
+    "name": "Newman",
     "runways": [
       {
         "type": 100,
-        "width": 10.97,
+        "width": 27.13,
         "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 41.60399826,
-        "lonStart": -102.82825782,
-        "latEnd": 41.60026238,
-        "lonEnd": -102.8237118,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 41.02486494,
+        "lonStart": -102.02003738,
+        "latEnd": 41.01782981,
+        "lonEnd": -102.01609883,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 670
-  },
-  {
-    "type": 1,
-    "icao": "KCNP",
-    "lat": 41.077579745,
-    "lon": -102.46422387999999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 3682,
-    "tower": false,
-    "name": "BILLY G RAY FIELD",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.07,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 41.08098768,
-        "lonStart": -102.46961166,
-        "latEnd": 41.07417181,
-        "lonEnd": -102.4588361,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 1728
-  },
-  {
-    "type": 1,
-    "icao": "NE34",
-    "lat": 41.038875270000005,
-    "lon": -102.95269805999999,
-    "communications": [],
-    "elevation": 4300,
-    "tower": false,
-    "name": "Fehringer Aerodrome",
-    "runways": [
-      {
-        "type": 100,
-        "width": 19.81,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 41.04202922,
-        "lonStart": -102.95262507,
-        "latEnd": 41.03572132,
-        "lonEnd": -102.95277105,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9222
-  },
-  {
-    "type": 1,
-    "icao": "KOKS",
-    "lat": 41.401919,
-    "lon": -102.35635571,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 54,
-        "frequency": 12880,
-        "name": "unnamed entity"
-      }
-    ],
-    "elevation": 3394,
-    "tower": true,
-    "name": "GARDEN CO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 41.40636651,
-        "lonStart": -102.36256038,
-        "latEnd": 41.39747149,
-        "lonEnd": -102.35015104,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 9885
+    "id": 6035
   },
   {
     "type": 1,
@@ -157,33 +62,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 17219
-  },
-  {
-    "type": 1,
-    "icao": "0NE5",
-    "lat": 41.021347375000005,
-    "lon": -102.018068105,
-    "communications": [],
-    "elevation": 3528,
-    "tower": false,
-    "name": "Newman",
-    "runways": [
-      {
-        "type": 100,
-        "width": 27.13,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 41.02486494,
-        "lonStart": -102.02003738,
-        "latEnd": 41.01782981,
-        "lonEnd": -102.01609883,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 18280
+    "id": 6618
   },
   {
     "type": 1,
@@ -209,13 +88,82 @@
         "surfacetype": 3
       }
     ],
-    "id": 19874
+    "id": 7736
+  },
+  {
+    "type": 1,
+    "icao": "KCNP",
+    "lat": 41.077466915,
+    "lon": -102.46404529,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 3682,
+    "tower": false,
+    "name": "BILLY G RAY FIELD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.07,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 41.08098768,
+        "lonStart": -102.46961166,
+        "latEnd": 41.07394615,
+        "lonEnd": -102.45847892,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 18969
+  },
+  {
+    "type": 1,
+    "icao": "KOKS",
+    "lat": 41.401919,
+    "lon": -102.35635571,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 54,
+        "frequency": 12880,
+        "name": "unnamed entity"
+      }
+    ],
+    "elevation": 3394,
+    "tower": true,
+    "name": "GARDEN CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 41.40636651,
+        "lonStart": -102.36256038,
+        "latEnd": 41.39747149,
+        "lonEnd": -102.35015104,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 19617
   },
   {
     "type": 1,
     "icao": "KSNY",
-    "lat": 41.09989425,
-    "lon": -102.984508115,
+    "lat": 41.0998936675,
+    "lon": -102.984503225,
     "communications": [
       {
         "type": 50,
@@ -236,10 +184,10 @@
         "type": 100,
         "width": 29.87,
         "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 41.107719,
-        "lonStart": -102.99378067,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 41.10771667,
+        "lonStart": -102.99376111,
         "latEnd": 41.094933,
         "lonEnd": -102.97681,
         "length": 0,
@@ -249,8 +197,8 @@
         "type": 100,
         "width": 22.86,
         "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
+        "numberStart": "03",
+        "numberEnd": "21",
         "latStart": 41.09449107,
         "lonStart": -102.98757801,
         "latEnd": 41.10243393,
@@ -259,6 +207,58 @@
         "surfacetype": 15
       }
     ],
-    "id": 22264
+    "id": 19829
+  },
+  {
+    "type": 1,
+    "icao": "NE19",
+    "lat": 41.60213032,
+    "lon": -102.82598481,
+    "communications": [],
+    "elevation": 3650,
+    "tower": false,
+    "name": "Ag Air",
+    "runways": [
+      {
+        "type": 100,
+        "width": 10.97,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 41.60399826,
+        "lonStart": -102.82825782,
+        "latEnd": 41.60026238,
+        "lonEnd": -102.8237118,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 22448
+  },
+  {
+    "type": 1,
+    "icao": "NE34",
+    "lat": 41.038875270000005,
+    "lon": -102.95269805999999,
+    "communications": [],
+    "elevation": 4300,
+    "tower": false,
+    "name": "Fehringer Aerodrome",
+    "runways": [
+      {
+        "type": 100,
+        "width": 19.81,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 41.04202922,
+        "lonStart": -102.95262507,
+        "latEnd": 41.03572132,
+        "lonEnd": -102.95277105,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 22459
   }
 ]

@@ -1,66 +1,90 @@
 [
   {
     "type": 1,
-    "icao": "LPCV",
-    "lat": 40.2647695,
-    "lon": -7.479958,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12200,
-        "name": "AFIS"
-      }
-    ],
-    "elevation": 1571,
+    "icao": "LPSE",
+    "lat": 40.45344562333333,
+    "lon": -7.690413216666666,
+    "communications": [],
+    "elevation": 1456,
     "tower": false,
-    "name": "COVILHA",
+    "name": "Seia",
     "runways": [
       {
         "type": 100,
-        "width": 22.86,
+        "width": 29,
         "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 40.261872,
-        "lonStart": -7.484144,
-        "latEnd": 40.267667,
-        "lonEnd": -7.475772,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 40.45125724,
+        "lonStart": -7.69958822,
+        "latEnd": 40.45550106,
+        "lonEnd": -7.68309697,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 30.9,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.45357857,
+        "lonStart": -7.68855446,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.7
       }
     ],
-    "id": 4198
+    "id": 3904
   },
   {
     "type": 1,
     "icao": "LPVZ",
-    "lat": 40.72554,
-    "lon": -7.889025,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12230,
-        "name": "RDO"
-      }
-    ],
+    "lat": 40.72491565,
+    "lon": -7.8896948275000005,
+    "communications": [],
     "elevation": 2060,
     "tower": false,
-    "name": "VISEU",
+    "name": "Viseu",
     "runways": [
       {
         "type": 100,
-        "width": 29.57,
+        "width": 30,
         "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 40.720044,
-        "lonStart": -7.888497,
-        "latEnd": 40.731036,
-        "lonEnd": -7.889553,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 40.73102178,
+        "lonStart": -7.88957198,
+        "latEnd": 40.72006222,
+        "lonEnd": -7.888527,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 20,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 40.72414255,
+        "lonStart": -7.89032118,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20
+      },
+      {
+        "type": 102,
+        "width": 20,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.72443605,
+        "lonStart": -7.89035915,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20
       }
     ],
-    "id": 26126
+    "id": 3912
   }
 ]

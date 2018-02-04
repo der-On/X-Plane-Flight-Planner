@@ -2,9 +2,15 @@
   {
     "type": 1,
     "icao": "LPLG",
-    "lat": 37.121551653333334,
-    "lon": -8.67817714,
-    "communications": [],
+    "lat": 37.121513076666666,
+    "lon": -8.678165909999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12240,
+        "name": "CTAF"
+      }
+    ],
     "elevation": 17,
     "tower": true,
     "name": "Lagos",
@@ -15,38 +21,38 @@
         "surfaceType": null,
         "numberStart": "12",
         "numberEnd": "30",
-        "latStart": 37.12295159,
-        "lonStart": -8.68201948,
-        "latEnd": 37.12093539,
-        "lonEnd": -8.67601793,
+        "latStart": 37.1229016,
+        "lonStart": -8.68198084,
+        "latEnd": 37.12090303,
+        "lonEnd": -8.67602288,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 102,
-        "width": 17.98,
-        "surfaceType": 15,
+        "width": 18,
+        "surfaceType": 2,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 37.12076798,
+        "latStart": 37.1207346,
         "lonStart": -8.67649401,
         "latEnd": null,
         "lonEnd": null,
-        "length": 17.98
+        "length": 18
       }
     ],
-    "id": 14787
+    "id": 3886
   },
   {
     "type": 1,
     "icao": "LPPM",
-    "lat": 37.149398605,
-    "lon": -8.583992235,
+    "lat": 37.149373645,
+    "lon": -8.583968145,
     "communications": [
       {
         "type": 51,
         "frequency": 12200,
-        "name": "PORTIMAO MULT"
+        "name": "Portimao"
       }
     ],
     "elevation": 4,
@@ -55,19 +61,19 @@
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 27,
         "surfaceType": null,
         "numberStart": "11",
         "numberEnd": "29",
-        "latStart": 37.15056022,
-        "lonStart": -8.58862754,
-        "latEnd": 37.14823699,
-        "lonEnd": -8.57935693,
+        "latStart": 37.15053267,
+        "lonStart": -8.58858561,
+        "latEnd": 37.14821462,
+        "lonEnd": -8.57935068,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 1
       }
     ],
-    "id": 20413
+    "id": 3898
   },
   {
     "type": 1,
@@ -93,6 +99,6 @@
         "surfacetype": 4
       }
     ],
-    "id": 23542
+    "id": 20778
   }
 ]

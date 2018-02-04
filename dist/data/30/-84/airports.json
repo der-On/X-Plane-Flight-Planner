@@ -1,29 +1,117 @@
 [
   {
     "type": 1,
-    "icao": "7FD9",
-    "lat": 30.62437444,
-    "lon": -83.28681417,
-    "communications": [],
-    "elevation": 100,
-    "tower": false,
-    "name": "AH Farm",
+    "icao": "KVLD",
+    "lat": 30.781601058333333,
+    "lon": -83.27714593833333,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12622,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12090,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12090,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11952,
+        "name": "APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12660,
+        "name": "APP/DEP"
+      }
+    ],
+    "elevation": 203,
+    "tower": true,
+    "name": "VALDOSTA RGNL",
     "runways": [
       {
         "type": 100,
-        "width": 19.81,
+        "width": 45.72,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 30.62711575,
-        "lonStart": -83.28692541,
-        "latEnd": 30.62163313,
-        "lonEnd": -83.28670293,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 30.79043189,
+        "lonStart": -83.27520871,
+        "latEnd": 30.76876061,
+        "lonEnd": -83.27115505,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 30.77745015,
+        "lonStart": -83.28553722,
+        "latEnd": 30.78992238,
+        "lonEnd": -83.27511136,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 30.78444958,
+        "lonStart": -83.28262938,
+        "latEnd": 30.77859174,
+        "lonEnd": -83.27323391,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3385
+  },
+  {
+    "type": 1,
+    "icao": "0GA8",
+    "lat": 30.88714111,
+    "lon": -83.41599028,
+    "communications": [],
+    "elevation": 200,
+    "tower": false,
+    "name": "Paso Fino Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 30.88350825,
+        "lonStart": -83.41824112,
+        "latEnd": 30.89077397,
+        "lonEnd": -83.41373944,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 101
+    "id": 5814
   },
   {
     "type": 1,
@@ -49,241 +137,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 2326
+    "id": 6375
   },
   {
     "type": 1,
-    "icao": "FA11",
-    "lat": 30.62243055,
-    "lon": -83.25931334,
+    "icao": "1GA5",
+    "lat": 30.931029719999998,
+    "lon": -83.38349,
     "communications": [],
-    "elevation": 149,
+    "elevation": 211,
     "tower": false,
-    "name": "Bird Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 30.61946371,
-        "lonStart": -83.26114648,
-        "latEnd": 30.62539739,
-        "lonEnd": -83.2574802,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 2750
-  },
-  {
-    "type": 1,
-    "icao": "FD95",
-    "lat": 30.48354611,
-    "lon": -83.24986528,
-    "communications": [],
-    "elevation": 95,
-    "tower": false,
-    "name": "Blue Springs",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 30.48683568,
-        "lonStart": -83.24999858,
-        "latEnd": 30.48025654,
-        "lonEnd": -83.24973198,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 2864
-  },
-  {
-    "type": 1,
-    "icao": "66GA",
-    "lat": 30.78770444,
-    "lon": -83.22098223,
-    "communications": [],
-    "elevation": 209,
-    "tower": false,
-    "name": "Comanche Landing",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 30.78581481,
-        "lonStart": -83.22450236,
-        "latEnd": 30.78959407,
-        "lonEnd": -83.2174621,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 5220
-  },
-  {
-    "type": 1,
-    "icao": "FD42",
-    "lat": 30.211612770000002,
-    "lon": -83.05457666999999,
-    "communications": [],
-    "elevation": 89,
-    "tower": false,
-    "name": "Cooksey Brothers",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 30.21127792,
-        "lonStart": -83.06011783,
-        "latEnd": 30.21194762,
-        "lonEnd": -83.04903551,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 5288
-  },
-  {
-    "type": 1,
-    "icao": "FD69",
-    "lat": 30.08661472,
-    "lon": -83.01651945,
-    "communications": [],
-    "elevation": 68,
-    "tower": false,
-    "name": "Crews Hay",
+    "name": "Shilo Farms",
     "runways": [
       {
         "type": 100,
         "width": 22.86,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 30.08650875,
-        "lonStart": -83.0200266,
-        "latEnd": 30.08672069,
-        "lonEnd": -83.0130123,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 30.93552381,
+        "lonStart": -83.38460362,
+        "latEnd": 30.92653563,
+        "lonEnd": -83.38237638,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 5490
-  },
-  {
-    "type": 1,
-    "icao": "9FL8",
-    "lat": 30.61659083,
-    "lon": -83.65237973,
-    "communications": [],
-    "elevation": 149,
-    "tower": false,
-    "name": "Finlayson Farm",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 30.61644724,
-        "lonStart": -83.65715778,
-        "latEnd": 30.61673442,
-        "lonEnd": -83.64760168,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9294
-  },
-  {
-    "type": 1,
-    "icao": "FL08",
-    "lat": 30.41549694,
-    "lon": -83.01652306,
-    "communications": [],
-    "elevation": 93,
-    "tower": false,
-    "name": "Florida Sheriffs Boys Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 30.41796412,
-        "lonStart": -83.01662297,
-        "latEnd": 30.41302976,
-        "lonEnd": -83.01642315,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9373
-  },
-  {
-    "type": 1,
-    "icao": "4FD2",
-    "lat": 30.05383722,
-    "lon": -83.01874167,
-    "communications": [],
-    "elevation": 40,
-    "tower": false,
-    "name": "Flying F Farms",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 30.05372235,
-        "lonStart": -83.0225422,
-        "latEnd": 30.05395209,
-        "lonEnd": -83.01494114,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9437
-  },
-  {
-    "type": 1,
-    "icao": "07FD",
-    "lat": 30.41799194,
-    "lon": -83.28375417,
-    "communications": [],
-    "elevation": 90,
-    "tower": false,
-    "name": "Flying G Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 30.42071456,
-        "lonStart": -83.28397494,
-        "latEnd": 30.41526932,
-        "lonEnd": -83.2835334,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9442
+    "id": 6397
   },
   {
     "type": 1,
@@ -309,7 +189,372 @@
         "surfacetype": 3
       }
     ],
-    "id": 9655
+    "id": 8040
+  },
+  {
+    "type": 1,
+    "icao": "4FD2",
+    "lat": 30.05383722,
+    "lon": -83.01874167,
+    "communications": [],
+    "elevation": 40,
+    "tower": false,
+    "name": "Flying F Farms",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 30.05372235,
+        "lonStart": -83.0225422,
+        "latEnd": 30.05395209,
+        "lonEnd": -83.01494114,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 8041
+  },
+  {
+    "type": 1,
+    "icao": "4J5",
+    "lat": 30.805752499999997,
+    "lon": -83.58654999999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 185,
+    "tower": false,
+    "name": "QUITMAN BROOKS CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 30.806184,
+        "lonStart": -83.592261,
+        "latEnd": 30.805321,
+        "lonEnd": -83.580839,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 8132
+  },
+  {
+    "type": 1,
+    "icao": "07FD",
+    "lat": 30.41799194,
+    "lon": -83.28375417,
+    "communications": [],
+    "elevation": 90,
+    "tower": false,
+    "name": "Flying G Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 30.42071456,
+        "lonStart": -83.28397494,
+        "latEnd": 30.41526932,
+        "lonEnd": -83.2835334,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9562
+  },
+  {
+    "type": 1,
+    "icao": "7FD8",
+    "lat": 30.50104333,
+    "lon": -83.39014723,
+    "communications": [],
+    "elevation": 100,
+    "tower": false,
+    "name": "Rocky Ford",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 30.49915424,
+        "lonStart": -83.39131299,
+        "latEnd": 30.50293242,
+        "lonEnd": -83.38898147,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9571
+  },
+  {
+    "type": 1,
+    "icao": "7FD9",
+    "lat": 30.62437444,
+    "lon": -83.28681417,
+    "communications": [],
+    "elevation": 100,
+    "tower": false,
+    "name": "AH Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 19.81,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 30.62711575,
+        "lonStart": -83.28692541,
+        "latEnd": 30.62163313,
+        "lonEnd": -83.28670293,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9572
+  },
+  {
+    "type": 1,
+    "icao": "9FL0",
+    "lat": 30.09244666,
+    "lon": -83.08541056,
+    "communications": [],
+    "elevation": 49,
+    "tower": false,
+    "name": "Suwannee Belle",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 30.0883347,
+        "lonStart": -83.0852446,
+        "latEnd": 30.09655862,
+        "lonEnd": -83.08557652,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10490
+  },
+  {
+    "type": 1,
+    "icao": "9FL8",
+    "lat": 30.61659083,
+    "lon": -83.65237973,
+    "communications": [],
+    "elevation": 149,
+    "tower": false,
+    "name": "Finlayson Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 30.61644724,
+        "lonStart": -83.65715778,
+        "latEnd": 30.61673442,
+        "lonEnd": -83.64760168,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10497
+  },
+  {
+    "type": 17,
+    "icao": "9FL9",
+    "lat": 30.29133444,
+    "lon": -83.00402028,
+    "communications": [],
+    "elevation": 94,
+    "tower": false,
+    "name": "[H] Suwannee Hospital Emergency",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 30.29133444,
+        "lonStart": -83.00402028,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 10498
+  },
+  {
+    "type": 1,
+    "icao": "20FD",
+    "lat": 30.425486380000002,
+    "lon": -83.57598501000001,
+    "communications": [],
+    "elevation": 100,
+    "tower": false,
+    "name": "Pratt Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 30.42960485,
+        "lonStart": -83.57700022,
+        "latEnd": 30.42136791,
+        "lonEnd": -83.5749698,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11302
+  },
+  {
+    "type": 1,
+    "icao": "24J",
+    "lat": 30.300125,
+    "lon": -83.0246945,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11822,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 104,
+    "tower": false,
+    "name": "SUWANNEE CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 30.298139,
+        "lonStart": -83.030667,
+        "latEnd": 30.302111,
+        "lonEnd": -83.018722,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11473
+  },
+  {
+    "type": 1,
+    "icao": "40J",
+    "lat": 30.06920083333333,
+    "lon": -83.58045183333333,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11837,
+        "name": "AWOS 1"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 45,
+    "tower": false,
+    "name": "PERRY FOLEY",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 30.076144,
+        "lonStart": -83.584983,
+        "latEnd": 30.062436,
+        "lonEnd": -83.585192,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 30.0757,
+        "lonStart": -83.584281,
+        "latEnd": 30.069061,
+        "lonEnd": -83.571333,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 30.062947,
+        "lonStart": -83.584469,
+        "latEnd": 30.068917,
+        "lonEnd": -83.572453,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12094
+  },
+  {
+    "type": 1,
+    "icao": "66GA",
+    "lat": 30.78770444,
+    "lon": -83.22098223,
+    "communications": [],
+    "elevation": 209,
+    "tower": false,
+    "name": "Comanche Landing",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 30.78581481,
+        "lonStart": -83.22450236,
+        "latEnd": 30.78959407,
+        "lonEnd": -83.2174621,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13106
   },
   {
     "type": 1,
@@ -335,33 +580,59 @@
         "surfacetype": 3
       }
     ],
-    "id": 12939
+    "id": 13427
   },
   {
     "type": 1,
-    "icao": "FL09",
-    "lat": 30.33883027,
-    "lon": -83.14430389,
+    "icao": "99FL",
+    "lat": 30.447435,
+    "lon": -83.31097751,
     "communications": [],
-    "elevation": 90,
+    "elevation": 150,
     "tower": false,
-    "name": "Kittyhawk Estates",
+    "name": "Madison County",
     "runways": [
       {
         "type": 100,
-        "width": 45.72,
+        "width": 30.48,
         "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 30.33993219,
-        "lonStart": -83.14823337,
-        "latEnd": 30.33772835,
-        "lonEnd": -83.14037441,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 30.44730864,
+        "lonStart": -83.31517488,
+        "latEnd": 30.44756136,
+        "lonEnd": -83.30678014,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 13957
+    "id": 14323
+  },
+  {
+    "type": 1,
+    "icao": "FA11",
+    "lat": 30.62243055,
+    "lon": -83.25931334,
+    "communications": [],
+    "elevation": 149,
+    "tower": false,
+    "name": "Bird Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 30.61946371,
+        "lonStart": -83.26114648,
+        "latEnd": 30.62539739,
+        "lonEnd": -83.2574802,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16772
   },
   {
     "type": 1,
@@ -387,7 +658,294 @@
         "surfacetype": 3
       }
     ],
-    "id": 15601
+    "id": 16789
+  },
+  {
+    "type": 17,
+    "icao": "FD21",
+    "lat": 30.12799055,
+    "lon": -83.57987028,
+    "communications": [],
+    "elevation": 24,
+    "tower": false,
+    "name": "[H] Doctors Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 30.12799055,
+        "lonStart": -83.57987028,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 17010
+  },
+  {
+    "type": 1,
+    "icao": "FD42",
+    "lat": 30.211612770000002,
+    "lon": -83.05457666999999,
+    "communications": [],
+    "elevation": 89,
+    "tower": false,
+    "name": "Cooksey Brothers",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 30.21127792,
+        "lonStart": -83.06011783,
+        "latEnd": 30.21194762,
+        "lonEnd": -83.04903551,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17031
+  },
+  {
+    "type": 1,
+    "icao": "FD50",
+    "lat": 30.10911138,
+    "lon": -83.18874751,
+    "communications": [],
+    "elevation": 45,
+    "tower": false,
+    "name": "The Trails",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 30.11377161,
+        "lonStart": -83.18893563,
+        "latEnd": 30.10445115,
+        "lonEnd": -83.18855939,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17038
+  },
+  {
+    "type": 1,
+    "icao": "FD69",
+    "lat": 30.08661472,
+    "lon": -83.01651945,
+    "communications": [],
+    "elevation": 68,
+    "tower": false,
+    "name": "Crews Hay",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 30.08650875,
+        "lonStart": -83.0200266,
+        "latEnd": 30.08672069,
+        "lonEnd": -83.0130123,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17054
+  },
+  {
+    "type": 1,
+    "icao": "FD95",
+    "lat": 30.48354611,
+    "lon": -83.24986528,
+    "communications": [],
+    "elevation": 95,
+    "tower": false,
+    "name": "Blue Springs",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 30.48683568,
+        "lonStart": -83.24999858,
+        "latEnd": 30.48025654,
+        "lonEnd": -83.24973198,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17076
+  },
+  {
+    "type": 1,
+    "icao": "FL08",
+    "lat": 30.41549694,
+    "lon": -83.01652306,
+    "communications": [],
+    "elevation": 93,
+    "tower": false,
+    "name": "Florida Sheriffs Boys Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 30.41796412,
+        "lonStart": -83.01662297,
+        "latEnd": 30.41302976,
+        "lonEnd": -83.01642315,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17113
+  },
+  {
+    "type": 1,
+    "icao": "FL09",
+    "lat": 30.33883027,
+    "lon": -83.14430389,
+    "communications": [],
+    "elevation": 90,
+    "tower": false,
+    "name": "Kittyhawk Estates",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 30.33993219,
+        "lonStart": -83.14823337,
+        "latEnd": 30.33772835,
+        "lonEnd": -83.14037441,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17114
+  },
+  {
+    "type": 1,
+    "icao": "FL18",
+    "lat": 30.09050277,
+    "lon": -83.05457612000001,
+    "communications": [],
+    "elevation": 50,
+    "tower": false,
+    "name": "Suwannee Farms",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 30.09037832,
+        "lonStart": -83.05869489,
+        "latEnd": 30.09062722,
+        "lonEnd": -83.05045735,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17123
+  },
+  {
+    "type": 17,
+    "icao": "GA43",
+    "lat": 30.84963666,
+    "lon": -83.95072473,
+    "communications": [],
+    "elevation": 285,
+    "tower": false,
+    "name": "[H] Remington Ave",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 30.84963666,
+        "lonStart": -83.95072473,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 17691
+  },
+  {
+    "type": 1,
+    "icao": "KTVI",
+    "lat": 30.90182075,
+    "lon": -83.88108275,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11917,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12307,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11952,
+        "name": "VALDOSTA APP/DEP"
+      }
+    ],
+    "elevation": 264,
+    "tower": false,
+    "name": "THOMASVILLE RGNL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 30.895208,
+        "lonStart": -83.88755,
+        "latEnd": 30.906791,
+        "lonEnd": -83.876278,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 30.907342,
+        "lonStart": -83.886064,
+        "latEnd": 30.897942,
+        "lonEnd": -83.874439,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19913
   },
   {
     "type": 1,
@@ -457,564 +1015,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 16233
-  },
-  {
-    "type": 1,
-    "icao": "99FL",
-    "lat": 30.447435,
-    "lon": -83.31097751,
-    "communications": [],
-    "elevation": 150,
-    "tower": false,
-    "name": "Madison County",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 30.44730864,
-        "lonStart": -83.31517488,
-        "latEnd": 30.44756136,
-        "lonEnd": -83.30678014,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 16458
-  },
-  {
-    "type": 1,
-    "icao": "40J",
-    "lat": 30.06920083333333,
-    "lon": -83.58045183333333,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11837,
-        "name": "AWOS 1"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 45,
-    "tower": false,
-    "name": "PERRY FOLEY",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 30.076144,
-        "lonStart": -83.584983,
-        "latEnd": 30.062436,
-        "lonEnd": -83.585192,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 30.0757,
-        "lonStart": -83.584281,
-        "latEnd": 30.069061,
-        "lonEnd": -83.571333,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 30.062947,
-        "lonStart": -83.584469,
-        "latEnd": 30.068917,
-        "lonEnd": -83.572453,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19317
-  },
-  {
-    "type": 1,
-    "icao": "0GA8",
-    "lat": 30.88714111,
-    "lon": -83.41599028,
-    "communications": [],
-    "elevation": 200,
-    "tower": false,
-    "name": "Paso Fino Farm",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 30.88350825,
-        "lonStart": -83.41824112,
-        "latEnd": 30.89077397,
-        "lonEnd": -83.41373944,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 19820
-  },
-  {
-    "type": 1,
-    "icao": "20FD",
-    "lat": 30.425486380000002,
-    "lon": -83.57598501000001,
-    "communications": [],
-    "elevation": 100,
-    "tower": false,
-    "name": "Pratt Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 30.42960485,
-        "lonStart": -83.57700022,
-        "latEnd": 30.42136791,
-        "lonEnd": -83.5749698,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 20508
-  },
-  {
-    "type": 1,
-    "icao": "4J5",
-    "lat": 30.805752499999997,
-    "lon": -83.58654999999999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 185,
-    "tower": false,
-    "name": "QUITMAN BROOKS CO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 30.806184,
-        "lonStart": -83.592261,
-        "latEnd": 30.805321,
-        "lonEnd": -83.580839,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 20678
-  },
-  {
-    "type": 1,
-    "icao": "7FD8",
-    "lat": 30.50104333,
-    "lon": -83.39014723,
-    "communications": [],
-    "elevation": 100,
-    "tower": false,
-    "name": "Rocky Ford",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 30.49915424,
-        "lonStart": -83.39131299,
-        "latEnd": 30.50293242,
-        "lonEnd": -83.38898147,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 21639
-  },
-  {
-    "type": 1,
-    "icao": "24J",
-    "lat": 30.300125,
-    "lon": -83.0246945,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11822,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 104,
-    "tower": false,
-    "name": "SUWANNEE CO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 30.298139,
-        "lonStart": -83.030667,
-        "latEnd": 30.302111,
-        "lonEnd": -83.018722,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22623
-  },
-  {
-    "type": 1,
-    "icao": "1GA5",
-    "lat": 30.931029719999998,
-    "lon": -83.38349,
-    "communications": [],
-    "elevation": 211,
-    "tower": false,
-    "name": "Shilo Farms",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 30.93552381,
-        "lonStart": -83.38460362,
-        "latEnd": 30.92653563,
-        "lonEnd": -83.38237638,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23420
-  },
-  {
-    "type": 1,
-    "icao": "9FL0",
-    "lat": 30.09244666,
-    "lon": -83.08541056,
-    "communications": [],
-    "elevation": 49,
-    "tower": false,
-    "name": "Suwannee Belle",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 30.0883347,
-        "lonStart": -83.0852446,
-        "latEnd": 30.09655862,
-        "lonEnd": -83.08557652,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 24437
-  },
-  {
-    "type": 1,
-    "icao": "FL18",
-    "lat": 30.09050277,
-    "lon": -83.05457612000001,
-    "communications": [],
-    "elevation": 50,
-    "tower": false,
-    "name": "Suwannee Farms",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 30.09037832,
-        "lonStart": -83.05869489,
-        "latEnd": 30.09062722,
-        "lonEnd": -83.05045735,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 24438
-  },
-  {
-    "type": 1,
-    "icao": "KTVI",
-    "lat": 30.90182075,
-    "lon": -83.88108275,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11917,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12307,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 11952,
-        "name": "VALDOSTA APP/DEP"
-      }
-    ],
-    "elevation": 264,
-    "tower": false,
-    "name": "THOMASVILLE RGNL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 30.895208,
-        "lonStart": -83.88755,
-        "latEnd": 30.906791,
-        "lonEnd": -83.876278,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 30.907342,
-        "lonStart": -83.886064,
-        "latEnd": 30.897942,
-        "lonEnd": -83.874439,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 24698
-  },
-  {
-    "type": 1,
-    "icao": "FD50",
-    "lat": 30.10911138,
-    "lon": -83.18874751,
-    "communications": [],
-    "elevation": 45,
-    "tower": false,
-    "name": "The Trails",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 30.11377161,
-        "lonStart": -83.18893563,
-        "latEnd": 30.10445115,
-        "lonEnd": -83.18855939,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 25251
-  },
-  {
-    "type": 1,
-    "icao": "KVLD",
-    "lat": 30.782353166666667,
-    "lon": -83.27690799999999,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12622,
-        "name": "ASOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12090,
-        "name": "CTAF"
-      },
-      {
-        "type": 51,
-        "frequency": 12295,
-        "name": "UNICOM"
-      },
-      {
-        "type": 53,
-        "frequency": 12170,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12090,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11952,
-        "name": "APP/DEP"
-      },
-      {
-        "type": 55,
-        "frequency": 12660,
-        "name": "APP/DEP"
-      }
-    ],
-    "elevation": 203,
-    "tower": true,
-    "name": "VALDOSTA RGNL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 30.790464,
-        "lonStart": -83.275217,
-        "latEnd": 30.773358,
-        "lonEnd": -83.272017,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 30.777886,
-        "lonStart": -83.285172,
-        "latEnd": 30.790364,
-        "lonEnd": -83.274742,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 30.78395,
-        "lonStart": -83.281844,
-        "latEnd": 30.778097,
-        "lonEnd": -83.272456,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 26032
-  },
-  {
-    "type": 17,
-    "icao": "FD21",
-    "lat": 30.12799055,
-    "lon": -83.57987028,
-    "communications": [],
-    "elevation": 24,
-    "tower": false,
-    "name": "[H] Doctors Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 30.12799055,
-        "lonStart": -83.57987028,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 29379
-  },
-  {
-    "type": 17,
-    "icao": "GA43",
-    "lat": 30.84963666,
-    "lon": -83.95072473,
-    "communications": [],
-    "elevation": 285,
-    "tower": false,
-    "name": "[H] Remington Ave",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 30.84963666,
-        "lonStart": -83.95072473,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 32307
-  },
-  {
-    "type": 17,
-    "icao": "9FL9",
-    "lat": 30.29133444,
-    "lon": -83.00402028,
-    "communications": [],
-    "elevation": 94,
-    "tower": false,
-    "name": "[H] Suwannee Hospital Emergency",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 30.29133444,
-        "lonStart": -83.00402028,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 33149
+    "id": 19942
   }
 ]

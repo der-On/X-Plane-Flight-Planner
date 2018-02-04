@@ -3,7 +3,7 @@
     "type": 1,
     "icao": "EPGD",
     "lat": 54.376166999999995,
-    "lon": 18.471882235000002,
+    "lon": 18.471882245,
     "communications": [
       {
         "type": 50,
@@ -21,7 +21,7 @@
         "name": "GDANSK APP"
       }
     ],
-    "elevation": 487,
+    "elevation": 486,
     "tower": true,
     "name": "GDANSK LECH WALESA",
     "runways": [
@@ -32,14 +32,14 @@
         "numberStart": "11",
         "numberEnd": "29",
         "latStart": 54.38106527,
-        "lonStart": 18.45205118,
+        "lonStart": 18.45205119,
         "latEnd": 54.37126873,
-        "lonEnd": 18.49171329,
+        "lonEnd": 18.4917133,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 9909
+    "id": 1803
   },
   {
     "type": 1,
@@ -71,52 +71,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 12925
-  },
-  {
-    "type": 1,
-    "icao": "EPLI",
-    "lat": 54.0077778825,
-    "lon": 18.5007543725,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11805,
-        "name": "Linowiec-Radio"
-      }
-    ],
-    "elevation": 334,
-    "tower": true,
-    "name": "Linowiec",
-    "runways": [
-      {
-        "type": 100,
-        "width": 33.06,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 54.006542,
-        "lonStart": 18.500937,
-        "latEnd": 54.00878553,
-        "lonEnd": 18.50213146,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 40.12,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 54.0078306,
-        "lonStart": 18.49714,
-        "latEnd": 54.0079534,
-        "lonEnd": 18.50280903,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15311
+    "id": 1813
   },
   {
     "type": 1,
@@ -166,7 +121,33 @@
         "surfacetype": 1
       }
     ],
-    "id": 18634
+    "id": 1837
+  },
+  {
+    "type": 1,
+    "icao": "EPPD",
+    "lat": 54.215587915,
+    "lon": 18.339113124999997,
+    "communications": [],
+    "elevation": 810,
+    "tower": false,
+    "name": "Przywidz-Katarynki",
+    "runways": [
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 54.2160177,
+        "lonStart": 18.33325433,
+        "latEnd": 54.21515813,
+        "lonEnd": 18.34497192,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1841
   },
   {
     "type": 1,
@@ -193,8 +174,8 @@
         "type": 100,
         "width": 64,
         "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
+        "numberStart": "09",
+        "numberEnd": "27",
         "latStart": 54.24856119,
         "lonStart": 18.66566567,
         "latEnd": 54.24685108,
@@ -203,32 +184,51 @@
         "surfacetype": 1
       }
     ],
-    "id": 19572
+    "id": 1845
   },
   {
     "type": 1,
-    "icao": "EPPD",
-    "lat": 54.215587915,
-    "lon": 18.339113124999997,
-    "communications": [],
-    "elevation": 810,
-    "tower": false,
-    "name": "Przywidz-Katarynki",
+    "icao": "EPLI",
+    "lat": 54.0077778825,
+    "lon": 18.5007543725,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11805,
+        "name": "Linowiec-Radio"
+      }
+    ],
+    "elevation": 334,
+    "tower": true,
+    "name": "Linowiec",
     "runways": [
       {
         "type": 100,
-        "width": 40,
+        "width": 33.06,
         "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 54.2160177,
-        "lonStart": 18.33325433,
-        "latEnd": 54.21515813,
-        "lonEnd": 18.34497192,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 54.006542,
+        "lonStart": 18.500937,
+        "latEnd": 54.00878553,
+        "lonEnd": 18.50213146,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 40.12,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 54.0078306,
+        "lonStart": 18.49714,
+        "latEnd": 54.0079534,
+        "lonEnd": 18.50280903,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 20583
+    "id": 16652
   }
 ]

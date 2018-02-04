@@ -1,74 +1,9 @@
 [
   {
     "type": 1,
-    "icao": "7CA1",
-    "lat": 34.41472194,
-    "lon": -116.62252362000001,
-    "communications": [],
-    "elevation": 2850,
-    "tower": false,
-    "name": "Abraham Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 34.41604911,
-        "lonStart": -116.62897599,
-        "latEnd": 34.41339477,
-        "lonEnd": -116.61607125,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 536
-  },
-  {
-    "type": 1,
-    "icao": "2CA8",
-    "lat": 34.420555,
-    "lon": -116.61057833999999,
-    "communications": [],
-    "elevation": 2792,
-    "tower": false,
-    "name": "B & E Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 16.76,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 34.42401495,
-        "lonStart": -116.60953257,
-        "latEnd": 34.41709505,
-        "lonEnd": -116.61162411,
-        "length": 0,
-        "surfacetype": 4
-      },
-      {
-        "type": 100,
-        "width": 16.76,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 34.42337643,
-        "lonStart": -116.61263346,
-        "latEnd": 34.41773357,
-        "lonEnd": -116.60852322,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 1400
-  },
-  {
-    "type": 1,
     "icao": "KDAG",
-    "lat": 34.853992250000005,
-    "lon": -116.78662800000001,
+    "lat": 34.85720756333333,
+    "lon": -116.78685130777778,
     "communications": [
       {
         "type": 50,
@@ -81,44 +16,257 @@
         "name": "CTAF/UNICOM"
       }
     ],
-    "elevation": 1926,
+    "elevation": 1925,
     "tower": false,
     "name": "BARSTOW DAGGETT",
     "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 34.851486,
-        "lonStart": -116.797831,
-        "latEnd": 34.851472,
-        "lonEnd": -116.776503,
-        "length": 0,
-        "surfacetype": 1
-      },
       {
         "type": 100,
         "width": 30.48,
         "surfaceType": null,
         "numberStart": "04",
         "numberEnd": "22",
-        "latStart": 34.852033,
-        "lonStart": -116.792672,
-        "latEnd": 34.860978,
-        "lonEnd": -116.779506,
+        "latStart": 34.85198093,
+        "lonStart": -116.79265087,
+        "latEnd": 34.86091774,
+        "lonEnd": -116.77949694,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 34.85143185,
+        "lonStart": -116.79780247,
+        "latEnd": 34.851462,
+        "lonEnd": -116.7764745,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 13,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.86084259,
+        "lonStart": -116.78673963,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.1
+      },
+      {
+        "type": 102,
+        "width": 13,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 34.86061869,
+        "lonStart": -116.78674322,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.1
+      },
+      {
+        "type": 102,
+        "width": 13,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 34.85974412,
+        "lonStart": -116.7874698,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.1
+      },
+      {
+        "type": 102,
+        "width": 9.7,
+        "surfaceType": 2,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 34.85834364,
+        "lonStart": -116.78681132,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.7
+      },
+      {
+        "type": 102,
+        "width": 13,
+        "surfaceType": 2,
+        "numberStart": "H5",
+        "numberEnd": null,
+        "latStart": 34.85952651,
+        "lonStart": -116.78747302,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.1
+      }
+    ],
+    "id": 2547
+  },
+  {
+    "type": 1,
+    "icao": "KNXP",
+    "lat": 34.29433885888889,
+    "lon": -116.15832922777778,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13552,
+        "name": "TWR"
+      },
+      {
+        "type": 50,
+        "frequency": 25635,
+        "name": "ATIS"
+      }
+    ],
+    "elevation": 2050,
+    "tower": true,
+    "name": "TWENTYNINE PALMS EAF",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 34.300289,
+        "lonStart": -116.174372,
+        "latEnd": 34.291931,
+        "lonEnd": -116.149819,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 24.4,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.29851124,
+        "lonStart": -116.16479751,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.4
+      },
+      {
+        "type": 102,
+        "width": 24.38,
+        "surfaceType": 2,
+        "numberStart": "H7",
+        "numberEnd": null,
+        "latStart": 34.29042121,
+        "lonStart": -116.15067838,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.38
+      },
+      {
+        "type": 102,
+        "width": 24.38,
+        "surfaceType": 2,
+        "numberStart": "H8",
+        "numberEnd": null,
+        "latStart": 34.29015119,
+        "lonStart": -116.15103551,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.38
+      },
+      {
+        "type": 102,
+        "width": 24.4,
+        "surfaceType": 2,
+        "numberStart": "H10",
+        "numberEnd": null,
+        "latStart": 34.29385918,
+        "lonStart": -116.15827178,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.5
+      },
+      {
+        "type": 102,
+        "width": 24.4,
+        "surfaceType": 2,
+        "numberStart": "H11",
+        "numberEnd": null,
+        "latStart": 34.29165084,
+        "lonStart": -116.15174442,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.4
+      },
+      {
+        "type": 102,
+        "width": 24.4,
+        "surfaceType": 2,
+        "numberStart": "H15",
+        "numberEnd": null,
+        "latStart": 34.29736192,
+        "lonStart": -116.16577576,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.4
+      },
+      {
+        "type": 102,
+        "width": 24.4,
+        "surfaceType": 2,
+        "numberStart": "H16",
+        "numberEnd": null,
+        "latStart": 34.29487415,
+        "lonStart": -116.15846869,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.7
+      }
+    ],
+    "id": 3043
+  },
+  {
+    "type": 1,
+    "icao": "L22",
+    "lat": 34.129818965,
+    "lon": -116.406950165,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 3224,
+    "tower": false,
+    "name": "Yucca Valley",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 34.12772501,
+        "lonStart": -116.4137124,
+        "latEnd": 34.13191292,
+        "lonEnd": -116.40018793,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 1541
+    "id": 3434
   },
   {
     "type": 1,
     "icao": "L35",
-    "lat": 34.263805,
-    "lon": -116.856082995,
+    "lat": 34.263789335,
+    "lon": -116.85604086000001,
     "communications": [
       {
         "type": 50,
@@ -127,7 +275,7 @@
       },
       {
         "type": 51,
-        "frequency": 12305,
+        "frequency": 12272,
         "name": "Big Bear Unicom"
       }
     ],
@@ -141,15 +289,60 @@
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": 34.26376859,
-        "lonStart": -116.8657909,
-        "latEnd": 34.26384141,
-        "lonEnd": -116.84637509,
+        "latStart": 34.26375156,
+        "lonStart": -116.86571686,
+        "latEnd": 34.26382711,
+        "lonEnd": -116.84636486,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 2685
+    "id": 3436
+  },
+  {
+    "type": 1,
+    "icao": "L80",
+    "lat": 34.15415587,
+    "lon": -116.25197330499999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 2463,
+    "tower": false,
+    "name": "Roy Williams",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 34.15428942,
+        "lonStart": -116.25269724,
+        "latEnd": 34.1534283,
+        "lonEnd": -116.25167201,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 15,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 34.15382568,
+        "lonStart": -116.25590461,
+        "latEnd": 34.15508008,
+        "lonEnd": -116.24761936,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3452
   },
   {
     "type": 1,
@@ -201,98 +394,46 @@
         "surfacetype": 4
       }
     ],
-    "id": 5261
+    "id": 6902
   },
   {
     "type": 1,
-    "icao": "CN23",
-    "lat": 34.961650829999996,
-    "lon": -116.67530834,
+    "icao": "2CA8",
+    "lat": 34.420555,
+    "lon": -116.61057833999999,
     "communications": [],
-    "elevation": 1825,
+    "elevation": 2792,
     "tower": false,
-    "name": "Harvard",
+    "name": "B & E Ranch",
     "runways": [
       {
         "type": 100,
-        "width": 30.48,
+        "width": 16.76,
         "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 34.96127236,
-        "lonStart": -116.67970217,
-        "latEnd": 34.9620293,
-        "lonEnd": -116.67091451,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 34.42401495,
+        "lonStart": -116.60953257,
+        "latEnd": 34.41709505,
+        "lonEnd": -116.61162411,
         "length": 0,
         "surfacetype": 4
-      }
-    ],
-    "id": 11516
-  },
-  {
-    "type": 1,
-    "icao": "L80",
-    "lat": 34.15417111,
-    "lon": -116.25223167,
-    "communications": [],
-    "elevation": 2464,
-    "tower": false,
-    "name": "Hi Desert",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 34.15322905,
-        "lonStart": -116.25620175,
-        "latEnd": 34.15511317,
-        "lonEnd": -116.24826159,
-        "length": 0,
-        "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 30.48,
+        "width": 16.76,
         "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 34.15569546,
-        "lonStart": -116.25413916,
-        "latEnd": 34.15264676,
-        "lonEnd": -116.25032418,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 11768
-  },
-  {
-    "type": 1,
-    "icao": "51CA",
-    "lat": 34.42361055,
-    "lon": -116.61696751,
-    "communications": [],
-    "elevation": 2806,
-    "tower": false,
-    "name": "Kelly",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 34.42647823,
-        "lonStart": -116.62056751,
-        "latEnd": 34.42074287,
-        "lonEnd": -116.61336751,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 34.42337643,
+        "lonStart": -116.61263346,
+        "latEnd": 34.41773357,
+        "lonEnd": -116.60852322,
         "length": 0,
         "surfacetype": 4
       }
     ],
-    "id": 13722
+    "id": 6907
   },
   {
     "type": 1,
@@ -318,39 +459,32 @@
         "surfacetype": 1
       }
     ],
-    "id": 15585
+    "id": 8519
   },
   {
-    "type": 1,
-    "icao": "KNXP",
-    "lat": 34.29611,
-    "lon": -116.16209549999999,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13552,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 2051,
-    "tower": true,
-    "name": "TWENTYNINE PALMS EAF",
+    "type": 17,
+    "icao": "06CA",
+    "lat": 34.87081888,
+    "lon": -116.83420139,
+    "communications": [],
+    "elevation": 1940,
+    "tower": false,
+    "name": "[H] Sce Solar I",
     "runways": [
       {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 34.300289,
-        "lonStart": -116.174372,
-        "latEnd": 34.291931,
-        "lonEnd": -116.149819,
-        "length": 0,
-        "surfacetype": 4
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.87081888,
+        "lonStart": -116.83420139,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
       }
     ],
-    "id": 24926
+    "id": 9017
   },
   {
     "type": 1,
@@ -389,139 +523,33 @@
         "surfacetype": 1
       }
     ],
-    "id": 26188
+    "id": 9023
   },
   {
     "type": 1,
-    "icao": "L22",
-    "lat": 34.129818965,
-    "lon": -116.406950165,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12300,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 3224,
+    "icao": "7CA1",
+    "lat": 34.41472194,
+    "lon": -116.62252362000001,
+    "communications": [],
+    "elevation": 2850,
     "tower": false,
-    "name": "Yucca Valley",
+    "name": "Abraham Ranch",
     "runways": [
       {
         "type": 100,
-        "width": 18.29,
+        "width": 22.86,
         "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 34.12772501,
-        "lonStart": -116.4137124,
-        "latEnd": 34.13191292,
-        "lonEnd": -116.40018793,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 34.41604911,
+        "lonStart": -116.62897599,
+        "latEnd": 34.41339477,
+        "lonEnd": -116.61607125,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 4
       }
     ],
-    "id": 27810
-  },
-  {
-    "type": 17,
-    "icao": "9CA1",
-    "lat": 34.87526138,
-    "lon": -116.99670556,
-    "communications": [],
-    "elevation": 2240,
-    "tower": false,
-    "name": "[H] Barstow Service Center",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 34.87526138,
-        "lonStart": -116.99670556,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 28352
-  },
-  {
-    "type": 17,
-    "icao": "9CA4",
-    "lat": 34.13167222,
-    "lon": -116.27639889,
-    "communications": [],
-    "elevation": 2651,
-    "tower": false,
-    "name": "[H] Hi-Desert Memorial Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 34.13167222,
-        "lonStart": -116.27639889,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 30235
-  },
-  {
-    "type": 17,
-    "icao": "CL28",
-    "lat": 34.13472749,
-    "lon": -116.27501,
-    "communications": [],
-    "elevation": 2483,
-    "tower": false,
-    "name": "[H] Moronga Basin Chp",
-    "runways": [
-      {
-        "type": 102,
-        "width": 4.6,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 34.13472749,
-        "lonStart": -116.27501,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 4.6
-      }
-    ],
-    "id": 31449
-  },
-  {
-    "type": 17,
-    "icao": "06CA",
-    "lat": 34.87081888,
-    "lon": -116.83420139,
-    "communications": [],
-    "elevation": 1940,
-    "tower": false,
-    "name": "[H] Sce Solar I",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 34.87081888,
-        "lonStart": -116.83420139,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 32598
+    "id": 9528
   },
   {
     "type": 17,
@@ -546,6 +574,133 @@
         "length": 19.8
       }
     ],
-    "id": 33935
+    "id": 10009
+  },
+  {
+    "type": 17,
+    "icao": "9CA1",
+    "lat": 34.87526138,
+    "lon": -116.99670556,
+    "communications": [],
+    "elevation": 2240,
+    "tower": false,
+    "name": "[H] Barstow Service Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.87526138,
+        "lonStart": -116.99670556,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 10446
+  },
+  {
+    "type": 17,
+    "icao": "9CA4",
+    "lat": 34.13167222,
+    "lon": -116.27639889,
+    "communications": [],
+    "elevation": 2651,
+    "tower": false,
+    "name": "[H] Hi-Desert Memorial Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.13167222,
+        "lonStart": -116.27639889,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 10449
+  },
+  {
+    "type": 1,
+    "icao": "51CA",
+    "lat": 34.42361055,
+    "lon": -116.61696751,
+    "communications": [],
+    "elevation": 2806,
+    "tower": false,
+    "name": "Kelly",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 34.42647823,
+        "lonStart": -116.62056751,
+        "latEnd": 34.42074287,
+        "lonEnd": -116.61336751,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 12511
+  },
+  {
+    "type": 17,
+    "icao": "CL28",
+    "lat": 34.13472749,
+    "lon": -116.27501,
+    "communications": [],
+    "elevation": 2483,
+    "tower": false,
+    "name": "[H] Moronga Basin Chp",
+    "runways": [
+      {
+        "type": 102,
+        "width": 4.6,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.13472749,
+        "lonStart": -116.27501,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 4.6
+      }
+    ],
+    "id": 15384
+  },
+  {
+    "type": 1,
+    "icao": "CN23",
+    "lat": 34.961650829999996,
+    "lon": -116.67530834,
+    "communications": [],
+    "elevation": 1825,
+    "tower": false,
+    "name": "Harvard",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 34.96127236,
+        "lonStart": -116.67970217,
+        "latEnd": 34.9620293,
+        "lonEnd": -116.67091451,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 15452
   }
 ]

@@ -2,52 +2,34 @@
   {
     "type": 1,
     "icao": "YBEB",
-    "lat": -17.54432597,
-    "lon": 128.305756425,
-    "communications": [],
+    "lat": -17.54456203,
+    "lon": 128.30474174,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12730,
+        "name": "Bellburn CTAF"
+      }
+    ],
     "elevation": 805,
     "tower": false,
-    "name": "BUNGLE BUNGLE",
+    "name": "Bellburn",
     "runways": [
       {
         "type": 100,
-        "width": 53.04,
+        "width": 91.86,
         "surfaceType": null,
         "numberStart": "10",
         "numberEnd": "28",
-        "latStart": -17.54335575,
-        "lonStart": 128.29891448,
-        "latEnd": -17.54589402,
-        "lonEnd": 128.31048016,
+        "latStart": -17.54325057,
+        "lonStart": 128.2987072,
+        "latEnd": -17.54587349,
+        "lonEnd": 128.31077628,
         "length": 0,
         "surfacetype": 4
-      },
-      {
-        "type": 102,
-        "width": 20.1,
-        "surfaceType": 4,
-        "numberStart": "H01",
-        "numberEnd": null,
-        "latStart": -17.54413865,
-        "lonStart": 128.30683208,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.9
-      },
-      {
-        "type": 102,
-        "width": 20.1,
-        "surfaceType": 4,
-        "numberStart": "H22",
-        "numberEnd": null,
-        "latStart": -17.54391546,
-        "lonStart": 128.30679898,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.9
       }
     ],
-    "id": 1976
+    "id": 32725
   },
   {
     "type": 1,
@@ -86,7 +68,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 18694
+    "id": 34146
   },
   {
     "type": 1,
@@ -112,6 +94,6 @@
         "surfacetype": 4
       }
     ],
-    "id": 24911
+    "id": 34561
   }
 ]

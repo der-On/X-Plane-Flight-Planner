@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "4KA",
+    "lat": 60.57559666,
+    "lon": -165.27312723,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 17,
+    "tower": false,
+    "name": "Tununak",
+    "runways": [
+      {
+        "type": 100,
+        "width": 11.89,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 60.57588481,
+        "lonStart": -165.2787078,
+        "latEnd": 60.57530851,
+        "lonEnd": -165.26754666,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 8144
+  },
+  {
+    "type": 1,
     "icao": "PAOO",
     "lat": 60.5413365,
     "lon": -165.087185,
@@ -34,38 +66,6 @@
         "surfacetype": 5
       }
     ],
-    "id": 24773
-  },
-  {
-    "type": 1,
-    "icao": "4KA",
-    "lat": 60.57559666,
-    "lon": -165.27312723,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 17,
-    "tower": false,
-    "name": "Tununak",
-    "runways": [
-      {
-        "type": 100,
-        "width": 11.89,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 60.57588481,
-        "lonStart": -165.2787078,
-        "latEnd": 60.57530851,
-        "lonEnd": -165.26754666,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 25699
+    "id": 23999
   }
 ]

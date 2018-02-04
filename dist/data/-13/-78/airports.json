@@ -2,113 +2,108 @@
   {
     "type": 1,
     "icao": "SPJC",
-    "lat": -12.015387707142859,
-    "lon": -77.1153836842857,
+    "lat": -12.021714750000001,
+    "lon": -77.11061807285715,
     "communications": [
       {
         "type": 54,
         "frequency": 11810,
-        "name": "TWR"
-      },
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "GND"
-      },
-      {
-        "type": 55,
-        "frequency": 11970,
-        "name": "APP"
+        "name": "Lima Tower"
       },
       {
         "type": 52,
         "frequency": 11850,
-        "name": "CLNC DEL"
+        "name": "Lima Clearance"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "Lima Ground"
       },
       {
         "type": 50,
         "frequency": 12790,
-        "name": "ATIS"
+        "name": "Lima ATIS"
       }
     ],
     "elevation": 112,
     "tower": true,
-    "name": "Jorge ChC!vez - Lima",
+    "name": "Jorge Chavez Intl",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 45,
         "surfaceType": null,
         "numberStart": "15",
         "numberEnd": "33",
-        "latStart": -12.00424367,
-        "lonStart": -77.12425386,
-        "latEnd": -12.0326708,
-        "lonEnd": -77.1102359,
+        "latStart": -12.00763509,
+        "lonStart": -77.12133909,
+        "latEnd": -12.03615021,
+        "lonEnd": -77.10725798,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 102,
-        "width": 12.2,
-        "surfaceType": 1,
+        "width": 5,
+        "surfaceType": 2,
+        "numberStart": "H10",
+        "numberEnd": null,
+        "latStart": -12.00854613,
+        "lonStart": -77.11652124,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 5.2
+      },
+      {
+        "type": 102,
+        "width": 5,
+        "surfaceType": 2,
+        "numberStart": "H9",
+        "numberEnd": null,
+        "latStart": -12.00896344,
+        "lonStart": -77.11630088,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 5.2
+      },
+      {
+        "type": 102,
+        "width": 1.6,
+        "surfaceType": 2,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": -12.01589702,
-        "lonStart": -77.11510111,
+        "latStart": -12.02786056,
+        "lonStart": -77.10433524,
         "latEnd": null,
         "lonEnd": null,
-        "length": 12.2
+        "length": 1.6
       },
       {
         "type": 102,
-        "width": 12.2,
-        "surfaceType": 1,
+        "width": 1.6,
+        "surfaceType": 2,
         "numberStart": "H2",
         "numberEnd": null,
-        "latStart": -12.00666152,
-        "lonStart": -77.11777572,
+        "latStart": -12.02765975,
+        "lonStart": -77.10443213,
         "latEnd": null,
         "lonEnd": null,
-        "length": 12.2
+        "length": 1.6
       },
       {
         "type": 102,
-        "width": 12.2,
-        "surfaceType": 1,
-        "numberStart": "H3",
+        "width": 5.2,
+        "surfaceType": 2,
+        "numberStart": "H37",
         "numberEnd": null,
-        "latStart": -12.00501649,
-        "lonStart": -77.11859817,
+        "latStart": -12.03518807,
+        "lonStart": -77.10413995,
         "latEnd": null,
         "lonEnd": null,
-        "length": 12.2
-      },
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 1,
-        "numberStart": "H4",
-        "numberEnd": null,
-        "latStart": -12.00577232,
-        "lonStart": -77.11822197,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      },
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 1,
-        "numberStart": "H5",
-        "numberEnd": null,
-        "latStart": -12.03745213,
-        "lonStart": -77.10349906,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
+        "length": 5.2
       }
     ],
-    "id": 13104
+    "id": 4946
   }
 ]

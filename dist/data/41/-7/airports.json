@@ -2,33 +2,65 @@
   {
     "type": 1,
     "icao": "LPBG",
-    "lat": 41.857800999999995,
-    "lon": -6.707125,
+    "lat": 41.857793815,
+    "lon": -6.70720312,
     "communications": [
       {
-        "type": 54,
+        "type": 51,
         "frequency": 12230,
-        "name": "RDO"
+        "name": "CTAF"
       }
     ],
-    "elevation": 2241,
+    "elevation": 2129,
     "tower": false,
-    "name": "BRAGANCA",
+    "name": "Bragança",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 30,
         "surfaceType": null,
         "numberStart": "02",
         "numberEnd": "20",
-        "latStart": 41.850294,
-        "lonStart": -6.709569,
-        "latEnd": 41.865308,
-        "lonEnd": -6.704681,
+        "latStart": 41.85035577,
+        "lonStart": -6.70960064,
+        "latEnd": 41.86523186,
+        "lonEnd": -6.7048056,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 1884
+    "id": 3868
+  },
+  {
+    "type": 1,
+    "icao": "LPMU",
+    "lat": 41.396266775,
+    "lon": -6.683488605,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12010,
+        "name": "Mogadouro Radio"
+      }
+    ],
+    "elevation": 2344,
+    "tower": true,
+    "name": "Mogadouro",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 41.39127949,
+        "lonStart": -6.68637027,
+        "latEnd": 41.40125406,
+        "lonEnd": -6.68060694,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3893
   }
 ]

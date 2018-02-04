@@ -1,6 +1,32 @@
 [
   {
     "type": 1,
+    "icao": "ENBV",
+    "lat": 70.87131500000001,
+    "lon": 29.031938,
+    "communications": [],
+    "elevation": 41,
+    "tower": true,
+    "name": "Berlevaag",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 70.870231,
+        "lonStart": 29.01981,
+        "latEnd": 70.872399,
+        "lonEnd": 29.044066,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1739
+  },
+  {
+    "type": 1,
     "icao": "ENBS",
     "lat": 70.6001345,
     "lon": 29.696205499999998,
@@ -29,33 +55,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 1568
-  },
-  {
-    "type": 1,
-    "icao": "ENBV",
-    "lat": 70.871475,
-    "lon": 29.033566999999998,
-    "communications": [],
-    "elevation": 41,
-    "tower": true,
-    "name": "Berlevaag",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 70.87043522,
-        "lonStart": 29.0219123,
-        "latEnd": 70.87251478,
-        "lonEnd": 29.0452217,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 2590
+    "id": 16576
   },
   {
     "type": 1,
@@ -71,8 +71,8 @@
         "type": 100,
         "width": 29.87,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
+        "numberStart": "08",
+        "numberEnd": "26",
         "latStart": 70.06502871,
         "lonStart": 29.83402895,
         "latEnd": 70.06542852,
@@ -81,6 +81,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 26147
+    "id": 16623
   }
 ]

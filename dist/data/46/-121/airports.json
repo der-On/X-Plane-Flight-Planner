@@ -1,107 +1,68 @@
 [
   {
     "type": 1,
-    "icao": "WA97",
-    "lat": 46.44318361,
-    "lon": -120.34089055999999,
-    "communications": [],
-    "elevation": 830,
-    "tower": false,
-    "name": "Buena",
-    "runways": [
+    "icao": "KYKM",
+    "lat": 46.56776625,
+    "lon": -120.54343417999999,
+    "communications": [
       {
-        "type": 100,
-        "width": 36.58,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 46.44491238,
-        "lonStart": -120.34541661,
-        "latEnd": 46.44145484,
-        "lonEnd": -120.33636451,
-        "length": 0,
-        "surfacetype": 3
+        "type": 50,
+        "frequency": 12525,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 13325,
+        "name": "CTAF"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND / CLNC DEL"
+      },
+      {
+        "type": 54,
+        "frequency": 13325,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12380,
+        "name": "CHINOOK APP/DEP"
       }
     ],
-    "id": 3345
-  },
-  {
-    "type": 1,
-    "icao": "WA37",
-    "lat": 46.908181940000006,
-    "lon": -120.43728806,
-    "communications": [],
-    "elevation": 1799,
-    "tower": false,
-    "name": "Chinook Farms",
+    "elevation": 1099,
+    "tower": true,
+    "name": "Yakima Air Terminal / McAllister Field",
     "runways": [
       {
         "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 46.90904505,
-        "lonStart": -120.43884821,
-        "latEnd": 46.90731883,
-        "lonEnd": -120.43572791,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 4932
-  },
-  {
-    "type": 1,
-    "icao": "WA26",
-    "lat": 46.40818166,
-    "lon": -120.63451028,
-    "communications": [],
-    "elevation": 845,
-    "tower": false,
-    "name": "Harrah",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
+        "width": 46.02,
         "surfaceType": null,
         "numberStart": "09",
         "numberEnd": "27",
-        "latStart": 46.40936492,
-        "lonStart": -120.63949412,
-        "latEnd": 46.4069984,
-        "lonEnd": -120.62952644,
+        "latStart": 46.572556,
+        "lonStart": -120.559533,
+        "latEnd": 46.565428,
+        "lonEnd": -120.531128,
         "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 11468
-  },
-  {
-    "type": 1,
-    "icao": "WN64",
-    "lat": 46.974292770000005,
-    "lon": -120.46201112,
-    "communications": [],
-    "elevation": 1575,
-    "tower": false,
-    "name": "J K D Farms",
-    "runways": [
+        "surfacetype": 1
+      },
       {
         "type": 100,
-        "width": 18.29,
+        "width": 46.02,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 46.9777215,
-        "lonStart": -120.46201112,
-        "latEnd": 46.97086404,
-        "lonEnd": -120.46201112,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 46.56389795,
+        "lonStart": -120.54814562,
+        "latEnd": 46.56918305,
+        "lonEnd": -120.5349301,
         "length": 0,
-        "surfacetype": 5
+        "surfacetype": 1
       }
     ],
-    "id": 12633
+    "id": 3415
   },
   {
     "type": 1,
@@ -140,7 +101,57 @@
         "surfacetype": 3
       }
     ],
-    "id": 14751
+    "id": 7376
+  },
+  {
+    "type": 17,
+    "icao": "45WA",
+    "lat": 46.59373722,
+    "lon": -120.54673334,
+    "communications": [],
+    "elevation": 1220,
+    "tower": false,
+    "name": "[H] Yakima Valley Memorial Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 46.59373722,
+        "lonStart": -120.54673334,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 12314
+  },
+  {
+    "type": 17,
+    "icao": "46WA",
+    "lat": 46.60901444,
+    "lon": -120.61423528,
+    "communications": [],
+    "elevation": 1560,
+    "tower": false,
+    "name": "[H] Don Williams - Private",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 46.60901444,
+        "lonStart": -120.61423528,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21.3
+      }
+    ],
+    "id": 12353
   },
   {
     "type": 1,
@@ -166,33 +177,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 16956
-  },
-  {
-    "type": 1,
-    "icao": "Z25",
-    "lat": 46.713055499999996,
-    "lon": -120.3266665,
-    "communications": [],
-    "elevation": 2180,
-    "tower": false,
-    "name": "SELAH CREEK LANDING ZONE",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 46.716944,
-        "lonStart": -120.332222,
-        "latEnd": 46.709167,
-        "lonEnd": -120.321111,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22144
+    "id": 13219
   },
   {
     "type": 1,
@@ -224,131 +209,136 @@
         "surfacetype": 1
       }
     ],
-    "id": 26027
+    "id": 19128
   },
   {
     "type": 1,
-    "icao": "KYKM",
-    "lat": 46.56776625,
-    "lon": -120.54343449999999,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12525,
-        "name": "ATIS"
-      },
-      {
-        "type": 51,
-        "frequency": 13325,
-        "name": "CTAF"
-      },
-      {
-        "type": 51,
-        "frequency": 12295,
-        "name": "UNICOM"
-      },
-      {
-        "type": 52,
-        "frequency": 12190,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 13325,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12380,
-        "name": "CHINOOK APP/DEP"
-      }
-    ],
-    "elevation": 1095,
-    "tower": true,
-    "name": "YAKIMA AIR TERMINAL MC ALLISTER FLD",
+    "icao": "WA26",
+    "lat": 46.40818166,
+    "lon": -120.63451028,
+    "communications": [],
+    "elevation": 845,
+    "tower": false,
+    "name": "Harrah",
     "runways": [
       {
         "type": 100,
-        "width": 46.02,
+        "width": 30.48,
         "surfaceType": null,
         "numberStart": "09",
         "numberEnd": "27",
-        "latStart": 46.572556,
-        "lonStart": -120.559533,
-        "latEnd": 46.565428,
-        "lonEnd": -120.531128,
+        "latStart": 46.40936492,
+        "lonStart": -120.63949412,
+        "latEnd": 46.4069984,
+        "lonEnd": -120.62952644,
         "length": 0,
-        "surfacetype": 1
-      },
+        "surfacetype": 4
+      }
+    ],
+    "id": 31313
+  },
+  {
+    "type": 1,
+    "icao": "WA37",
+    "lat": 46.908181940000006,
+    "lon": -120.43728806,
+    "communications": [],
+    "elevation": 1799,
+    "tower": false,
+    "name": "Chinook Farms",
+    "runways": [
       {
         "type": 100,
-        "width": 46.02,
+        "width": 12.19,
         "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 46.563903,
-        "lonStart": -120.548133,
-        "latEnd": 46.569178,
-        "lonEnd": -120.534944,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 46.90904505,
+        "lonStart": -120.43884821,
+        "latEnd": 46.90731883,
+        "lonEnd": -120.43572791,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 31316
+  },
+  {
+    "type": 1,
+    "icao": "WA97",
+    "lat": 46.44318361,
+    "lon": -120.34089055999999,
+    "communications": [],
+    "elevation": 830,
+    "tower": false,
+    "name": "Buena",
+    "runways": [
+      {
+        "type": 100,
+        "width": 36.58,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 46.44491238,
+        "lonStart": -120.34541661,
+        "latEnd": 46.44145484,
+        "lonEnd": -120.33636451,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 31356
+  },
+  {
+    "type": 1,
+    "icao": "WN64",
+    "lat": 46.974292770000005,
+    "lon": -120.46201112,
+    "communications": [],
+    "elevation": 1575,
+    "tower": false,
+    "name": "J K D Farms",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 46.9777215,
+        "lonStart": -120.46201112,
+        "latEnd": 46.97086404,
+        "lonEnd": -120.46201112,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 31727
+  },
+  {
+    "type": 1,
+    "icao": "Z25",
+    "lat": 46.713055499999996,
+    "lon": -120.3266665,
+    "communications": [],
+    "elevation": 2180,
+    "tower": false,
+    "name": "SELAH CREEK LANDING ZONE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 46.716944,
+        "lonStart": -120.332222,
+        "latEnd": 46.709167,
+        "lonEnd": -120.321111,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 27651
-  },
-  {
-    "type": 17,
-    "icao": "46WA",
-    "lat": 46.60901444,
-    "lon": -120.61423528,
-    "communications": [],
-    "elevation": 1560,
-    "tower": false,
-    "name": "[H] Don Williams - Private",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 46.60901444,
-        "lonStart": -120.61423528,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21.3
-      }
-    ],
-    "id": 29386
-  },
-  {
-    "type": 17,
-    "icao": "45WA",
-    "lat": 46.59373722,
-    "lon": -120.54673334,
-    "communications": [],
-    "elevation": 1220,
-    "tower": false,
-    "name": "[H] Yakima Valley Memorial Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 46.59373722,
-        "lonStart": -120.54673334,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 33923
+    "id": 34889
   }
 ]

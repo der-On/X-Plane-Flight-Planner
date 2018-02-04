@@ -2,11 +2,17 @@
   {
     "type": 1,
     "icao": "CYYY",
-    "lat": 48.607251,
-    "lon": -68.2092285,
-    "communications": [],
-    "elevation": 172,
-    "tower": false,
+    "lat": 48.608089647499995,
+    "lon": -68.2079286525,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "MF"
+      }
+    ],
+    "elevation": 171,
+    "tower": true,
     "name": "MONT JOLI",
     "runways": [
       {
@@ -15,10 +21,10 @@
         "surfaceType": null,
         "numberStart": "06",
         "numberEnd": "24",
-        "latStart": 48.603611,
-        "lonStart": -68.216389,
-        "latEnd": 48.616389,
-        "lonEnd": -68.200833,
+        "latStart": 48.60586614,
+        "lonStart": -68.2132255,
+        "latEnd": 48.61668312,
+        "lonEnd": -68.20047291,
         "length": 0,
         "surfacetype": 1
       },
@@ -28,15 +34,15 @@
         "surfaceType": null,
         "numberStart": "15",
         "numberEnd": "33",
-        "latStart": 48.608171,
-        "lonStart": -68.215803,
-        "latEnd": 48.600833,
-        "lonEnd": -68.203889,
+        "latStart": 48.60861914,
+        "lonStart": -68.21524756,
+        "latEnd": 48.60119019,
+        "lonEnd": -68.20276864,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 16203
+    "id": 876
   },
   {
     "type": 1,
@@ -62,6 +68,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 20942
+    "id": 15835
   }
 ]

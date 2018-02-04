@@ -1,76 +1,89 @@
 [
   {
-    "type": 1,
-    "icao": "EDHO",
-    "lat": 53.700088,
-    "lon": 9.7415755,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12260,
-        "name": "Ahrenlohe INFO"
-      }
-    ],
-    "elevation": 33,
-    "tower": true,
-    "name": "Ahrenlohe",
+    "type": 17,
+    "icao": "ED2A",
+    "lat": 53.75311748,
+    "lon": 9.68486252,
+    "communications": [],
+    "elevation": 19,
+    "tower": false,
+    "name": "[H] Elmshorn Regioklinik Helipad",
     "runways": [
       {
-        "type": 100,
-        "width": 14.94,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 53.69858,
-        "lonStart": 9.737809,
-        "latEnd": 53.701596,
-        "lonEnd": 9.745342,
-        "length": 0,
-        "surfacetype": 1
+        "type": 102,
+        "width": 14.3,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 53.75311748,
+        "lonStart": 9.68486252,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.5
       }
     ],
-    "id": 724
+    "id": 969
+  },
+  {
+    "type": 17,
+    "icao": "ED2C",
+    "lat": 53.9432286,
+    "lon": 9.50585637,
+    "communications": [],
+    "elevation": 111,
+    "tower": false,
+    "name": "[H] Itzehoe Klinikum",
+    "runways": [
+      {
+        "type": 102,
+        "width": 31.1,
+        "surfaceType": 15,
+        "numberStart": "H55",
+        "numberEnd": null,
+        "latStart": 53.9432286,
+        "lonStart": 9.50585637,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 31.1
+      }
+    ],
+    "id": 971
   },
   {
     "type": 1,
     "icao": "EDDH",
-    "lat": 53.630011801428566,
-    "lon": 9.990873298571428,
+    "lat": 53.62945536125,
+    "lon": 9.99009001875,
     "communications": [
       {
         "type": 50,
         "frequency": 12312,
-        "name": "EDDH ATIS"
+        "name": "Hamburg ATIS"
       },
       {
         "type": 53,
         "frequency": 12180,
-        "name": "HAMBURG GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12127,
-        "name": "HAMBURG TWR"
+        "name": "Hamburg Ground"
       },
       {
         "type": 54,
         "frequency": 12685,
-        "name": "HAMBURG TWR"
+        "name": "Hamburg Tower"
       },
       {
         "type": 55,
         "frequency": 11820,
-        "name": "HAMBURG APP"
+        "name": "Hamburg Director"
       },
       {
-        "type": 55,
-        "frequency": 12462,
-        "name": "HAMBURG APP"
+        "type": 56,
+        "frequency": 13425,
+        "name": "Bremen Radar"
       }
     ],
     "elevation": 53,
     "tower": true,
-    "name": "Hamburg",
+    "name": "Hamburg - Fuhlsbuettel",
     "runways": [
       {
         "type": 100,
@@ -97,6 +110,18 @@
         "lonEnd": 10.00050753,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 31.4,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 53.62556028,
+        "lonStart": 9.98460706,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 31.4
       },
       {
         "type": 102,
@@ -135,59 +160,56 @@
         "length": 7
       }
     ],
-    "id": 11350
+    "id": 1056
   },
   {
     "type": 1,
-    "icao": "EDHI",
-    "lat": 53.53421532,
-    "lon": 9.833350804999998,
+    "icao": "EDHE",
+    "lat": 53.64794771666667,
+    "lon": 9.705961330000001,
     "communications": [
       {
         "type": 50,
-        "frequency": 12312,
-        "name": "Finkenwerder ATIS"
-      },
-      {
-        "type": 54,
         "frequency": 12510,
-        "name": "BREMEN INFO"
+        "name": "AWOS 3"
       },
       {
         "type": 54,
-        "frequency": 12325,
-        "name": "Finkenwerder Tower"
-      },
-      {
-        "type": 55,
-        "frequency": 12422,
-        "name": "BREMEN RADAR"
-      },
-      {
-        "type": 55,
-        "frequency": 13425,
-        "name": "BREMEN RADAR"
+        "frequency": 12270,
+        "name": "TWR"
       }
     ],
-    "elevation": 20,
+    "elevation": 21,
     "tower": true,
-    "name": "Hamburg Finkenwerder",
+    "name": "Uetersen",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 55,
         "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 53.52533963,
-        "lonStart": 9.81444247,
-        "latEnd": 53.54309101,
-        "lonEnd": 9.85225914,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 53.646914,
+        "lonStart": 9.69510918,
+        "latEnd": 53.646215,
+        "lonEnd": 9.711922,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 14.8,
+        "surfaceType": 1,
+        "numberStart": "H22",
+        "numberEnd": null,
+        "latStart": 53.65071415,
+        "lonStart": 9.71085281,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.3
       }
     ],
-    "id": 11351
+    "id": 1130
   },
   {
     "type": 1,
@@ -257,39 +279,135 @@
         "length": 50
       }
     ],
-    "id": 12610
+    "id": 1131
   },
   {
     "type": 1,
-    "icao": "EDWK",
-    "lat": 53.33276295,
-    "lon": 9.02870473,
+    "icao": "EDHI",
+    "lat": 53.533993190000004,
+    "lon": 9.832848875,
     "communications": [
       {
+        "type": 50,
+        "frequency": 12312,
+        "name": "Finkenwerder ATIS"
+      },
+      {
         "type": 54,
-        "frequency": 11892,
-        "name": "Karlshoefen Info"
+        "frequency": 12510,
+        "name": "BREMEN INFO"
+      },
+      {
+        "type": 54,
+        "frequency": 12325,
+        "name": "Finkenwerder Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12422,
+        "name": "BREMEN RADAR"
+      },
+      {
+        "type": 55,
+        "frequency": 13425,
+        "name": "BREMEN RADAR"
       }
     ],
     "elevation": 20,
-    "tower": false,
-    "name": "Karlshoefen",
+    "tower": true,
+    "name": "Hamburg Finkenwerder",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 53.52489537,
+        "lonStart": 9.81343861,
+        "latEnd": 53.54309101,
+        "lonEnd": 9.85225914,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1133
+  },
+  {
+    "type": 1,
+    "icao": "EDHO",
+    "lat": 53.700088,
+    "lon": 9.7415755,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12260,
+        "name": "Ahrenlohe INFO"
+      }
+    ],
+    "elevation": 33,
+    "tower": true,
+    "name": "Ahrenlohe",
     "runways": [
       {
         "type": 100,
         "width": 14.94,
         "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 53.33404842,
-        "lonStart": 9.02397815,
-        "latEnd": 53.33147748,
-        "lonEnd": 9.03343131,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 53.69858,
+        "lonStart": 9.737809,
+        "latEnd": 53.701596,
+        "lonEnd": 9.745342,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 13623
+    "id": 1138
+  },
+  {
+    "type": 1,
+    "icao": "EDHS",
+    "lat": 53.561310926666664,
+    "lon": 9.497245299999998,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12300,
+        "name": "Stade Info"
+      }
+    ],
+    "elevation": 62,
+    "tower": true,
+    "name": "Stade",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 53.562124,
+        "lonStart": 9.494439,
+        "latEnd": 53.559858,
+        "lonEnd": 9.504912,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 10.7,
+        "surfaceType": 1,
+        "numberStart": "H8",
+        "numberEnd": null,
+        "latStart": 53.56195078,
+        "lonStart": 9.4923849,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.3
+      }
+    ],
+    "id": 1140
   },
   {
     "type": 1,
@@ -321,7 +439,103 @@
         "surfacetype": 3
       }
     ],
-    "id": 15009
+    "id": 1141
+  },
+  {
+    "type": 1,
+    "icao": "EDWK",
+    "lat": 53.33276295,
+    "lon": 9.02870473,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11892,
+        "name": "Karlshoefen Info"
+      }
+    ],
+    "elevation": 20,
+    "tower": false,
+    "name": "Karlshoefen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 53.33404842,
+        "lonStart": 9.02397815,
+        "latEnd": 53.33147748,
+        "lonEnd": 9.03343131,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1398
+  },
+  {
+    "type": 1,
+    "icao": "EDWM",
+    "lat": 53.053861,
+    "lon": 9.2085925,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12260,
+        "name": "Weser-Wuemme Info"
+      }
+    ],
+    "elevation": 59,
+    "tower": true,
+    "name": "Weser-Wuemme",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 53.057328,
+        "lonStart": 9.208245,
+        "latEnd": 53.050394,
+        "lonEnd": 9.20894,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1400
+  },
+  {
+    "type": 1,
+    "icao": "EDXM",
+    "lat": 53.9782705,
+    "lon": 9.1453705,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12250,
+        "name": "St. Michel INFO"
+      }
+    ],
+    "elevation": 124,
+    "tower": true,
+    "name": "Sankt Michaelisdonn",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 53.977794,
+        "lonStart": 9.140109,
+        "latEnd": 53.978747,
+        "lonEnd": 9.150632,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1433
   },
   {
     "type": 1,
@@ -369,7 +583,7 @@
         "type": 102,
         "width": 44.8,
         "surfaceType": 2,
-        "numberStart": "H127",
+        "numberStart": "H1",
         "numberEnd": null,
         "latStart": 53.13038246,
         "lonStart": 9.35700612,
@@ -378,39 +592,7 @@
         "length": 44.4
       }
     ],
-    "id": 21760
-  },
-  {
-    "type": 1,
-    "icao": "EDXM",
-    "lat": 53.9782705,
-    "lon": 9.1453705,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12250,
-        "name": "St. Michel INFO"
-      }
-    ],
-    "elevation": 124,
-    "tower": true,
-    "name": "Sankt Michaelisdonn",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 53.977794,
-        "lonStart": 9.140109,
-        "latEnd": 53.978747,
-        "lonEnd": 9.150632,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22878
+    "id": 1437
   },
   {
     "type": 1,
@@ -442,181 +624,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 23208
-  },
-  {
-    "type": 1,
-    "icao": "EDHS",
-    "lat": 53.561310926666664,
-    "lon": 9.497245299999998,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12300,
-        "name": "Stade Info"
-      }
-    ],
-    "elevation": 62,
-    "tower": true,
-    "name": "Stade",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 53.562124,
-        "lonStart": 9.494439,
-        "latEnd": 53.559858,
-        "lonEnd": 9.504912,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 10.7,
-        "surfaceType": 1,
-        "numberStart": "H8",
-        "numberEnd": null,
-        "latStart": 53.56195078,
-        "lonStart": 9.4923849,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11.3
-      }
-    ],
-    "id": 24077
-  },
-  {
-    "type": 1,
-    "icao": "EDHE",
-    "lat": 53.64794771666667,
-    "lon": 9.705961330000001,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12510,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 54,
-        "frequency": 12270,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 21,
-    "tower": true,
-    "name": "Uetersen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 55,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 53.646914,
-        "lonStart": 9.69510918,
-        "latEnd": 53.646215,
-        "lonEnd": 9.711922,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 102,
-        "width": 14.8,
-        "surfaceType": 1,
-        "numberStart": "H22",
-        "numberEnd": null,
-        "latStart": 53.65071415,
-        "lonStart": 9.71085281,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 14.3
-      }
-    ],
-    "id": 25875
-  },
-  {
-    "type": 1,
-    "icao": "EDWM",
-    "lat": 53.053861,
-    "lon": 9.2085925,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12260,
-        "name": "Weser-Wuemme Info"
-      }
-    ],
-    "elevation": 59,
-    "tower": true,
-    "name": "Weser-Wuemme",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 53.057328,
-        "lonStart": 9.208245,
-        "latEnd": 53.050394,
-        "lonEnd": 9.20894,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 27103
-  },
-  {
-    "type": 17,
-    "icao": "ED2A",
-    "lat": 53.75311748,
-    "lon": 9.68486252,
-    "communications": [],
-    "elevation": 19,
-    "tower": false,
-    "name": "[H] Elmshorn Regioklinik Helipad",
-    "runways": [
-      {
-        "type": 102,
-        "width": 14.3,
-        "surfaceType": 15,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 53.75311748,
-        "lonStart": 9.68486252,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 14.5
-      }
-    ],
-    "id": 29533
-  },
-  {
-    "type": 17,
-    "icao": "ED2C",
-    "lat": 53.9432286,
-    "lon": 9.50585637,
-    "communications": [],
-    "elevation": 111,
-    "tower": false,
-    "name": "[H] Itzehoe Klinikum",
-    "runways": [
-      {
-        "type": 102,
-        "width": 31.1,
-        "surfaceType": 15,
-        "numberStart": "H55",
-        "numberEnd": null,
-        "latStart": 53.9432286,
-        "lonStart": 9.50585637,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 31.1
-      }
-    ],
-    "id": 30552
+    "id": 1439
   }
 ]

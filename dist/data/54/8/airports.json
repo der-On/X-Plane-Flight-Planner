@@ -1,29 +1,35 @@
 [
   {
     "type": 1,
-    "icao": "EDWA",
-    "lat": 54.627240130000004,
-    "lon": 8.930057184999999,
-    "communications": [],
-    "elevation": 1,
-    "tower": false,
-    "name": "Bordelum",
+    "icao": "EDHP",
+    "lat": 54.53634,
+    "lon": 8.680126999999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12300,
+        "name": "Pellworm Info"
+      }
+    ],
+    "elevation": 9,
+    "tower": true,
+    "name": "Pellworm",
     "runways": [
       {
         "type": 100,
-        "width": 24.99,
+        "width": 29.87,
         "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 54.62538241,
-        "lonStart": 8.92735897,
-        "latEnd": 54.62909785,
-        "lonEnd": 8.9327554,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 54.5371,
+        "lonStart": 8.676431,
+        "latEnd": 54.53558,
+        "lonEnd": 8.683823,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 3010
+    "id": 1139
   },
   {
     "type": 1,
@@ -67,7 +73,7 @@
         "length": 14.9
       }
     ],
-    "id": 11632
+    "id": 1422
   },
   {
     "type": 1,
@@ -99,39 +105,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 15091
-  },
-  {
-    "type": 1,
-    "icao": "EDHP",
-    "lat": 54.53634,
-    "lon": 8.680126999999999,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12300,
-        "name": "Pellworm Info"
-      }
-    ],
-    "elevation": 9,
-    "tower": true,
-    "name": "Pellworm",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 54.5371,
-        "lonStart": 8.676431,
-        "latEnd": 54.53558,
-        "lonEnd": 8.683823,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 19944
+    "id": 1431
   },
   {
     "type": 1,
@@ -163,33 +137,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 22879
-  },
-  {
-    "type": 1,
-    "icao": "EKTD",
-    "lat": 54.929625,
-    "lon": 8.840316665,
-    "communications": [],
-    "elevation": 6,
-    "tower": false,
-    "name": "Toender",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 54.93136667,
-        "lonStart": 8.8342,
-        "latEnd": 54.92788333,
-        "lonEnd": 8.84643333,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 25423
+    "id": 1435
   },
   {
     "type": 1,
@@ -257,7 +205,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 27139
+    "id": 1442
   },
   {
     "type": 1,
@@ -314,7 +262,7 @@
         "length": 14.9
       }
     ],
-    "id": 27609
+    "id": 1443
   },
   {
     "type": 17,
@@ -351,6 +299,32 @@
         "length": 8.9
       }
     ],
-    "id": 31616
+    "id": 5344
+  },
+  {
+    "type": 1,
+    "icao": "EKTD",
+    "lat": 54.929625,
+    "lon": 8.840316665,
+    "communications": [],
+    "elevation": 6,
+    "tower": false,
+    "name": "Toender",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 54.93136667,
+        "lonStart": 8.8342,
+        "latEnd": 54.92788333,
+        "lonEnd": 8.84643333,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16550
   }
 ]

@@ -1,5 +1,56 @@
 [
   {
+    "type": 17,
+    "icao": "0AR6",
+    "lat": 34.48147833,
+    "lon": -93.03101139,
+    "communications": [],
+    "elevation": 545,
+    "tower": false,
+    "name": "[H] Ami National Park Medical Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.48147833,
+        "lonStart": -93.03101139,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 5703
+  },
+  {
+    "type": 1,
+    "icao": "4F6",
+    "lat": 34.37926666,
+    "lon": -93.63768945,
+    "communications": [],
+    "elevation": 750,
+    "tower": false,
+    "name": "Williams Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 34.38077366,
+        "lonStart": -93.64160525,
+        "latEnd": 34.37775966,
+        "lonEnd": -93.63377365,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 8034
+  },
+  {
     "type": 1,
     "icao": "7M3",
     "lat": 34.529028,
@@ -29,44 +80,32 @@
         "surfacetype": 1
       }
     ],
-    "id": 1584
+    "id": 9699
   },
   {
-    "type": 1,
-    "icao": "M89",
-    "lat": 34.0998405,
-    "lon": -93.0661125,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12270,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 12847,
-        "name": "MEMPHIS CNTR"
-      }
-    ],
-    "elevation": 182,
+    "type": 17,
+    "icao": "AR66",
+    "lat": 34.04983083,
+    "lon": -93.68407112,
+    "communications": [],
+    "elevation": 333,
     "tower": false,
-    "name": "DEXTER B FLORENCE MEM FLD",
+    "name": "[H] Pike County Hospital",
     "runways": [
       {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 34.094753,
-        "lonStart": -93.071661,
-        "latEnd": 34.104928,
-        "lonEnd": -93.060564,
-        "length": 0,
-        "surfacetype": 1
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.04983083,
+        "lonStart": -93.68407112,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
       }
     ],
-    "id": 5776
+    "id": 14651
   },
   {
     "type": 1,
@@ -121,82 +160,43 @@
         "surfacetype": 1
       }
     ],
-    "id": 16018
+    "id": 19298
   },
   {
     "type": 1,
-    "icao": "4F6",
-    "lat": 34.37926666,
-    "lon": -93.63768945,
-    "communications": [],
-    "elevation": 750,
+    "icao": "M89",
+    "lat": 34.0998405,
+    "lon": -93.0661125,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12847,
+        "name": "MEMPHIS CNTR"
+      }
+    ],
+    "elevation": 182,
     "tower": false,
-    "name": "Williams Ranch",
+    "name": "DEXTER B FLORENCE MEM FLD",
     "runways": [
       {
         "type": 100,
-        "width": 9.14,
+        "width": 22.86,
         "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 34.38077366,
-        "lonStart": -93.64160525,
-        "latEnd": 34.37775966,
-        "lonEnd": -93.63377365,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 34.094753,
+        "lonStart": -93.071661,
+        "latEnd": 34.104928,
+        "lonEnd": -93.060564,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       }
     ],
-    "id": 27337
-  },
-  {
-    "type": 17,
-    "icao": "0AR6",
-    "lat": 34.48147833,
-    "lon": -93.03101139,
-    "communications": [],
-    "elevation": 545,
-    "tower": false,
-    "name": "[H] Ami National Park Medical Center",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 34.48147833,
-        "lonStart": -93.03101139,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 28129
-  },
-  {
-    "type": 17,
-    "icao": "AR66",
-    "lat": 34.04983083,
-    "lon": -93.68407112,
-    "communications": [],
-    "elevation": 333,
-    "tower": false,
-    "name": "[H] Pike County Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 34.04983083,
-        "lonStart": -93.68407112,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 32021
+    "id": 21020
   }
 ]

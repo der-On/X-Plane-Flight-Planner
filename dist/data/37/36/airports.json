@@ -2,33 +2,38 @@
   {
     "type": 1,
     "icao": "LTCN",
-    "lat": 37.538967,
-    "lon": 36.953411,
+    "lat": 37.53878431,
+    "lon": 36.953500070000004,
     "communications": [
       {
         "type": 54,
         "frequency": 11875,
         "name": "TWR"
+      },
+      {
+        "type": 53,
+        "frequency": 12155,
+        "name": "GND"
       }
     ],
-    "elevation": 1723,
+    "elevation": 1724,
     "tower": true,
     "name": "KAHRAMANMARAS",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 45,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 37.536378,
-        "lonStart": 36.940811,
-        "latEnd": 37.541556,
-        "lonEnd": 36.966011,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 37.53610942,
+        "lonStart": 36.94089214,
+        "latEnd": 37.5414592,
+        "lonEnd": 36.966108,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 13179
+    "id": 4024
   }
 ]

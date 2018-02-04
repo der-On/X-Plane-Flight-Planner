@@ -1,6 +1,70 @@
 [
   {
     "type": 1,
+    "icao": "EP07",
+    "lat": 47.824483075,
+    "lon": 11.704270355,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12305,
+        "name": "Warngau Info"
+      }
+    ],
+    "elevation": 2370,
+    "tower": false,
+    "name": "Warngau",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 47.8221588,
+        "lonStart": 11.70291145,
+        "latEnd": 47.82680735,
+        "lonEnd": 11.70562926,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1791
+  },
+  {
+    "type": 1,
+    "icao": "XED7O",
+    "lat": 47.658346980000005,
+    "lon": 11.234659324999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13012,
+        "name": "Ohlstadt Start"
+      }
+    ],
+    "elevation": 2169,
+    "tower": true,
+    "name": "Ohlstadt-Pömetsried",
+    "runways": [
+      {
+        "type": 100,
+        "width": 10,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 47.65533235,
+        "lonStart": 11.23084841,
+        "latEnd": 47.66136161,
+        "lonEnd": 11.23847024,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5361
+  },
+  {
+    "type": 1,
     "icao": "XEDAI",
     "lat": 47.963202714999994,
     "lon": 11.995550735,
@@ -29,7 +93,65 @@
         "surfacetype": 3
       }
     ],
-    "id": 1090
+    "id": 5372
+  },
+  {
+    "type": 1,
+    "icao": "XEDH7",
+    "lat": 47.76005016,
+    "lon": 11.30438165,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12342,
+        "name": "Antdorf Info"
+      }
+    ],
+    "elevation": 2030,
+    "tower": true,
+    "name": "Antdorf",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 47.75969695,
+        "lonStart": 11.30121199,
+        "latEnd": 47.76040337,
+        "lonEnd": 11.30755131,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5392
+  },
+  {
+    "type": 1,
+    "icao": "XEDO7",
+    "lat": 47.90619061,
+    "lon": 11.76944552,
+    "communications": [],
+    "elevation": 2112,
+    "tower": false,
+    "name": "Sollach",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 47.90799539,
+        "lonStart": 11.76926162,
+        "latEnd": 47.90438583,
+        "lonEnd": 11.76962942,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5399
   },
   {
     "type": 1,
@@ -83,70 +205,6 @@
         "length": 15.85
       }
     ],
-    "id": 12513
-  },
-  {
-    "type": 1,
-    "icao": "XED7O",
-    "lat": 47.658346980000005,
-    "lon": 11.234659324999999,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13012,
-        "name": "Ohlstadt Start"
-      }
-    ],
-    "elevation": 2169,
-    "tower": true,
-    "name": "Ohlstadt-PC6metsried",
-    "runways": [
-      {
-        "type": 100,
-        "width": 10,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 47.65533235,
-        "lonStart": 11.23084841,
-        "latEnd": 47.66136161,
-        "lonEnd": 11.23847024,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 18846
-  },
-  {
-    "type": 1,
-    "icao": "EP07",
-    "lat": 47.824489,
-    "lon": 11.7042875,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12305,
-        "name": "Radio"
-      }
-    ],
-    "elevation": 2370,
-    "tower": false,
-    "name": "Warngau",
-    "runways": [
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 47.822166,
-        "lonStart": 11.70294,
-        "latEnd": 47.826812,
-        "lonEnd": 11.705635,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 26929
+    "id": 20770
   }
 ]

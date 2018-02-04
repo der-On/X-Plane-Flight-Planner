@@ -2,13 +2,18 @@
   {
     "type": 1,
     "icao": "MMGL",
-    "lat": 20.524575249999998,
-    "lon": -103.30882475000001,
+    "lat": 20.52813862625,
+    "lon": -103.30584386,
     "communications": [
       {
         "type": 50,
         "frequency": 12790,
         "name": "ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 13280,
+        "name": "CLRS"
       },
       {
         "type": 53,
@@ -18,22 +23,22 @@
       {
         "type": 54,
         "frequency": 11810,
-        "name": "GUADALAJARA TWR"
+        "name": "TWR"
       },
       {
         "type": 55,
         "frequency": 11930,
-        "name": "GUADALAJARA APP"
+        "name": "APP"
       },
       {
-        "type": 55,
-        "frequency": 12080,
-        "name": "GUADALAJARA APP"
+        "type": 56,
+        "frequency": 11930,
+        "name": "DEP"
       }
     ],
-    "elevation": 5016,
+    "elevation": 5012,
     "tower": true,
-    "name": "Don Miguel Hidalgo Y Costilla Intl",
+    "name": "Don Miguel Hidalgo Intl",
     "runways": [
       {
         "type": 100,
@@ -41,34 +46,82 @@
         "surfaceType": null,
         "numberStart": "10",
         "numberEnd": "28",
-        "latStart": 20.52875,
-        "lonStart": -103.32775,
-        "latEnd": 20.514017,
-        "lonEnd": -103.292633,
+        "latStart": 20.52872981,
+        "lonStart": -103.32765419,
+        "latEnd": 20.51401021,
+        "lonEnd": -103.29261087,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 28.65,
+        "width": 30.48,
         "surfaceType": null,
         "numberStart": "02",
         "numberEnd": "20",
-        "latStart": 20.520617,
-        "lonStart": -103.311883,
-        "latEnd": 20.534917,
-        "lonEnd": -103.303033,
+        "latStart": 20.52062214,
+        "lonStart": -103.3118048,
+        "latEnd": 20.53484587,
+        "lonEnd": -103.30299385,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 7.9,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 20.53191414,
+        "lonStart": -103.30324129,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.4
+      },
+      {
+        "type": 102,
+        "width": 7.9,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 20.53179787,
+        "lonStart": -103.30303762,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.4
+      },
+      {
+        "type": 102,
+        "width": 7.9,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 20.53168291,
+        "lonStart": -103.30283256,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.4
+      },
+      {
+        "type": 102,
+        "width": 18.5,
+        "surfaceType": 1,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 20.53150606,
+        "lonStart": -103.3025757,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 22.9
       }
     ],
-    "id": 6368
+    "id": 4113
   },
   {
     "type": 1,
     "icao": "MMZP",
-    "lat": 20.755909000000003,
-    "lon": -103.46517374999999,
+    "lat": 20.753372751249998,
+    "lon": -103.46424396,
     "communications": [
       {
         "type": 54,
@@ -78,35 +131,72 @@
     ],
     "elevation": 5333,
     "tower": true,
-    "name": "ZAPOPAN",
+    "name": "Zapopan",
     "runways": [
       {
         "type": 100,
-        "width": 41.45,
+        "width": 70,
         "surfaceType": null,
         "numberStart": "08R",
         "numberEnd": "26L",
-        "latStart": 20.751297,
-        "lonStart": -103.476306,
-        "latEnd": 20.75005,
-        "lonEnd": -103.450425,
+        "latStart": 20.74865686,
+        "lonStart": -103.47605461,
+        "latEnd": 20.74704743,
+        "lonEnd": -103.44723597,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 37.65,
+        "surfaceType": null,
+        "numberStart": "08L",
+        "numberEnd": "26R",
+        "latStart": 20.75138617,
+        "lonStart": -103.47580615,
+        "latEnd": 20.75014576,
+        "lonEnd": -103.44987103,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 28.96,
+        "width": 29.3,
         "surfaceType": null,
-        "numberStart": "08L",
-        "numberEnd": "26R",
-        "latStart": 20.761517,
-        "lonStart": -103.472731,
-        "latEnd": 20.760772,
-        "lonEnd": -103.461233,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 20.76155693,
+        "lonStart": -103.47235676,
+        "latEnd": 20.76083394,
+        "lonEnd": -103.46074808,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 28.6,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 20.75376955,
+        "lonStart": -103.4660275,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 27
+      },
+      {
+        "type": 102,
+        "width": 28.6,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 20.75358537,
+        "lonStart": -103.46585158,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 27
       }
     ],
-    "id": 27832
+    "id": 4126
   }
 ]

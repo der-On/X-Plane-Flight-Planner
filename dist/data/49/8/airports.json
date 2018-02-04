@@ -47,121 +47,84 @@
         "surfacetype": 1
       }
     ],
-    "id": 2019
+    "id": 1068
   },
   {
     "type": 1,
-    "icao": "EDRF",
-    "lat": 49.472956999999994,
-    "lon": 8.1964455,
+    "icao": "EDEH",
+    "lat": 49.34577193,
+    "lon": 8.48873467,
     "communications": [
       {
         "type": 54,
-        "frequency": 12240,
-        "name": "Duerkheim Info"
+        "frequency": 13205,
+        "name": "Herrenteich Info"
       }
     ],
-    "elevation": 351,
+    "elevation": 308,
     "tower": true,
-    "name": "Bad Duerkheim",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 49.472331,
-        "lonStart": 8.192414,
-        "latEnd": 49.473583,
-        "lonEnd": 8.200477,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 2037
-  },
-  {
-    "type": 1,
-    "icao": "EDTC",
-    "lat": 49.135076055,
-    "lon": 8.56372507,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12837,
-        "name": "Bruchsal Info"
-      }
-    ],
-    "elevation": 364,
-    "tower": true,
-    "name": "Bruchsal",
+    "name": "Herrenteich",
     "runways": [
       {
         "type": 100,
         "width": 30,
         "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 49.13612799,
-        "lonStart": 8.56058268,
-        "latEnd": 49.13402412,
-        "lonEnd": 8.56686746,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 49.3436213,
+        "lonStart": 8.48616917,
+        "latEnd": 49.34792256,
+        "lonEnd": 8.49130017,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 3284
+    "id": 1070
   },
   {
     "type": 1,
-    "icao": "ETOR",
-    "lat": 49.562968875,
-    "lon": 8.46280549,
-    "communications": [],
-    "elevation": 311,
-    "tower": false,
-    "name": "Coleman AB (clsd)",
+    "icao": "EDEP",
+    "lat": 49.6214966175,
+    "lon": 8.6249324775,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12247,
+        "name": "Heppenheim Info"
+      }
+    ],
+    "elevation": 360,
+    "tower": true,
+    "name": "Heppenheim Bergstrasse",
     "runways": [
       {
         "type": 100,
-        "width": 22,
+        "width": 42,
         "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 49.56625,
-        "lonStart": 8.468221,
-        "latEnd": 49.560899,
-        "lonEnd": 8.458574,
+        "numberStart": "15L",
+        "numberEnd": "33R",
+        "latStart": 49.62557766,
+        "lonStart": 8.62221373,
+        "latEnd": 49.61746581,
+        "lonEnd": 8.62962518,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       },
       {
-        "type": 102,
-        "width": 10,
-        "surfaceType": 15,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 49.56278426,
-        "lonStart": 8.46296974,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.3
-      },
-      {
-        "type": 102,
-        "width": 10,
-        "surfaceType": 15,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 49.56194224,
-        "lonStart": 8.46145722,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.3
+        "type": 100,
+        "width": 42,
+        "surfaceType": null,
+        "numberStart": "15R",
+        "numberEnd": "33L",
+        "latStart": 49.6172,
+        "lonStart": 8.627821,
+        "latEnd": 49.625743,
+        "lonEnd": 8.62007,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 5177
+    "id": 1074
   },
   {
     "type": 1,
@@ -171,8 +134,8 @@
     "communications": [
       {
         "type": 54,
-        "frequency": null,
-        "name": null
+        "frequency": 12880,
+        "name": "Tower"
       }
     ],
     "elevation": 334,
@@ -193,13 +156,13 @@
         "surfacetype": 1
       }
     ],
-    "id": 6012
+    "id": 1077
   },
   {
     "type": 1,
     "icao": "EDFE",
-    "lat": 49.96100613375,
-    "lon": 8.641171986249999,
+    "lat": 49.9610104225,
+    "lon": 8.64115021125,
     "communications": [
       {
         "type": 53,
@@ -230,8 +193,8 @@
         "type": 100,
         "width": 24.99,
         "surfaceType": null,
-        "numberStart": "09L",
-        "numberEnd": "27R",
+        "numberStart": "08",
+        "numberEnd": "26",
         "latStart": 49.960318,
         "lonStart": 8.630902,
         "latEnd": 49.961275,
@@ -243,12 +206,12 @@
         "type": 100,
         "width": 29.87,
         "surfaceType": null,
-        "numberStart": "09R",
-        "numberEnd": "27L",
-        "latStart": 49.959419,
-        "lonStart": 8.640958,
-        "latEnd": 49.959843,
-        "lonEnd": 8.651319,
+        "numberStart": "08R",
+        "numberEnd": "26L",
+        "latStart": 49.95943044,
+        "lonStart": 8.64097577,
+        "latEnd": 49.95986587,
+        "lonEnd": 8.65112703,
         "length": 0,
         "surfacetype": 3
       },
@@ -301,231 +264,13 @@
         "length": 17.4
       }
     ],
-    "id": 9676
-  },
-  {
-    "type": 1,
-    "icao": "EDEP",
-    "lat": 49.6214966175,
-    "lon": 8.6249324775,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12247,
-        "name": "Heppenheim Info"
-      }
-    ],
-    "elevation": 360,
-    "tower": true,
-    "name": "Heppenheim Bergstrasse",
-    "runways": [
-      {
-        "type": 100,
-        "width": 42,
-        "surfaceType": null,
-        "numberStart": "15L",
-        "numberEnd": "33R",
-        "latStart": 49.62557766,
-        "lonStart": 8.62221373,
-        "latEnd": 49.61746581,
-        "lonEnd": 8.62962518,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 42,
-        "surfaceType": null,
-        "numberStart": "15R",
-        "numberEnd": "33L",
-        "latStart": 49.6172,
-        "lonStart": 8.627821,
-        "latEnd": 49.625743,
-        "lonEnd": 8.62007,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11702
-  },
-  {
-    "type": 1,
-    "icao": "EDEH",
-    "lat": 49.34577193,
-    "lon": 8.48873467,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13205,
-        "name": "Herrenteich Info"
-      }
-    ],
-    "elevation": 308,
-    "tower": true,
-    "name": "Herrenteich",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 49.3436213,
-        "lonStart": 8.48616917,
-        "latEnd": 49.34792256,
-        "lonEnd": 8.49130017,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11738
-  },
-  {
-    "type": 1,
-    "icao": "EDFX",
-    "lat": 49.3248025,
-    "lon": 8.5278805,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12895,
-        "name": "Hockenheim Info"
-      }
-    ],
-    "elevation": 314,
-    "tower": true,
-    "name": "Hockenheim",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 49.32722,
-        "lonStart": 8.525028,
-        "latEnd": 49.322385,
-        "lonEnd": 8.530733,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11912
-  },
-  {
-    "type": 1,
-    "icao": "EDRL",
-    "lat": 49.329890000000006,
-    "lon": 8.212795499999999,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12895,
-        "name": "Lachen Info"
-      }
-    ],
-    "elevation": 393,
-    "tower": true,
-    "name": "Lachen-Speyerdorf",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 49.33176,
-        "lonStart": 8.206351,
-        "latEnd": 49.32802,
-        "lonEnd": 8.21924,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 14757
-  },
-  {
-    "type": 1,
-    "icao": "EDRI",
-    "lat": 49.141746,
-    "lon": 8.39485915,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12260,
-        "name": "Linkenheim Info"
-      }
-    ],
-    "elevation": 324,
-    "tower": true,
-    "name": "Linkenheim",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 49.1396365,
-        "lonStart": 8.391284,
-        "latEnd": 49.1438555,
-        "lonEnd": 8.3984343,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15307
-  },
-  {
-    "type": 1,
-    "icao": "EDFZ",
-    "lat": 49.9680695,
-    "lon": 8.148546499999998,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12292,
-        "name": "Mainz Info"
-      }
-    ],
-    "elevation": 761,
-    "tower": true,
-    "name": "Mainz-Finthen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 49.967923,
-        "lonStart": 8.141169,
-        "latEnd": 49.970284,
-        "lonEnd": 8.154483,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 49.966026,
-        "lonStart": 8.142297,
-        "latEnd": 49.968045,
-        "lonEnd": 8.156237,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 16499
+    "id": 1083
   },
   {
     "type": 1,
     "icao": "EDFM",
-    "lat": 49.4730589975,
-    "lon": 8.5143942775,
+    "lat": 49.4730588875,
+    "lon": 8.51439426,
     "communications": [
       {
         "type": 50,
@@ -553,10 +298,10 @@
         "surfaceType": null,
         "numberStart": "09",
         "numberEnd": "27",
-        "latStart": 49.472989,
+        "latStart": 49.47298878,
         "lonStart": 8.506101,
-        "latEnd": 49.47248544,
-        "lonEnd": 8.52074014,
+        "latEnd": 49.47248522,
+        "lonEnd": 8.52074007,
         "length": 0,
         "surfacetype": 1
       },
@@ -574,7 +319,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 16600
+    "id": 1090
   },
   {
     "type": 1,
@@ -606,135 +351,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 17141
-  },
-  {
-    "type": 1,
-    "icao": "EDGP",
-    "lat": 49.841066,
-    "lon": 8.375953500000001,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12200,
-        "name": "Oppenheim Info"
-      }
-    ],
-    "elevation": 278,
-    "tower": true,
-    "name": "Oppenheim",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 49.837586,
-        "lonStart": 8.374418,
-        "latEnd": 49.844546,
-        "lonEnd": 8.377489,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 18996
-  },
-  {
-    "type": 1,
-    "icao": "EDRY",
-    "lat": 49.30262632,
-    "lon": 8.45265209,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11807,
-        "name": "Speyer INFO"
-      }
-    ],
-    "elevation": 312,
-    "tower": true,
-    "name": "Speyer",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 49.30992499,
-        "lonStart": 8.44971458,
-        "latEnd": 49.29532765,
-        "lonEnd": 8.4555896,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 23951
-  },
-  {
-    "type": 1,
-    "icao": "EDGX",
-    "lat": 49.304543,
-    "lon": 8.65906,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11827,
-        "name": "Walldorf Info"
-      }
-    ],
-    "elevation": 344,
-    "tower": true,
-    "name": "Walldorf",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 49.306634,
-        "lonStart": 8.659077,
-        "latEnd": 49.302452,
-        "lonEnd": 8.659043,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 26854
-  },
-  {
-    "type": 1,
-    "icao": "EDGZ",
-    "lat": 49.566904885,
-    "lon": 8.61076963,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12360,
-        "name": "Weinheim Info"
-      }
-    ],
-    "elevation": 318,
-    "tower": true,
-    "name": "Weinheim Bergstrasse",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 49.57039304,
-        "lonStart": 8.60954436,
-        "latEnd": 49.56341673,
-        "lonEnd": 8.6119949,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 27044
+    "id": 1092
   },
   {
     "type": 1,
@@ -779,6 +396,568 @@
         "surfacetype": 3
       }
     ],
-    "id": 27574
+    "id": 1099
+  },
+  {
+    "type": 1,
+    "icao": "EDFX",
+    "lat": 49.3248025,
+    "lon": 8.5278805,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12895,
+        "name": "Hockenheim Info"
+      }
+    ],
+    "elevation": 314,
+    "tower": true,
+    "name": "Hockenheim",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 49.32722,
+        "lonStart": 8.525028,
+        "latEnd": 49.322385,
+        "lonEnd": 8.530733,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1101
+  },
+  {
+    "type": 1,
+    "icao": "EDFZ",
+    "lat": 49.9680695,
+    "lon": 8.148546499999998,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12292,
+        "name": "Mainz Info"
+      }
+    ],
+    "elevation": 761,
+    "tower": true,
+    "name": "Mainz-Finthen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 49.967923,
+        "lonStart": 8.141169,
+        "latEnd": 49.970284,
+        "lonEnd": 8.154483,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 49.966026,
+        "lonStart": 8.142297,
+        "latEnd": 49.968045,
+        "lonEnd": 8.156237,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1103
+  },
+  {
+    "type": 17,
+    "icao": "EDGL",
+    "lat": 49.486520505,
+    "lon": 8.389635909999999,
+    "communications": [],
+    "elevation": 311,
+    "tower": true,
+    "name": "[H] Ludwigshafen Unfallklinik",
+    "runways": [
+      {
+        "type": 102,
+        "width": 21.5,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 49.4865238,
+        "lonStart": 8.3892435,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 21.5
+      },
+      {
+        "type": 102,
+        "width": 11,
+        "surfaceType": 15,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 49.48651721,
+        "lonStart": 8.39002832,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11
+      }
+    ],
+    "id": 1112
+  },
+  {
+    "type": 1,
+    "icao": "EDGP",
+    "lat": 49.841066,
+    "lon": 8.375953500000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12200,
+        "name": "Oppenheim Info"
+      }
+    ],
+    "elevation": 278,
+    "tower": true,
+    "name": "Oppenheim",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 49.837586,
+        "lonStart": 8.374418,
+        "latEnd": 49.844546,
+        "lonEnd": 8.377489,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1115
+  },
+  {
+    "type": 1,
+    "icao": "EDGX",
+    "lat": 49.304543,
+    "lon": 8.65906,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11827,
+        "name": "Walldorf Info"
+      }
+    ],
+    "elevation": 344,
+    "tower": true,
+    "name": "Walldorf",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 49.306634,
+        "lonStart": 8.659077,
+        "latEnd": 49.302452,
+        "lonEnd": 8.659043,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1122
+  },
+  {
+    "type": 1,
+    "icao": "EDGZ",
+    "lat": 49.566904885,
+    "lon": 8.61076963,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12360,
+        "name": "Weinheim Info"
+      }
+    ],
+    "elevation": 318,
+    "tower": true,
+    "name": "Weinheim Bergstrasse",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 49.57039304,
+        "lonStart": 8.60954436,
+        "latEnd": 49.56341673,
+        "lonEnd": 8.6119949,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1124
+  },
+  {
+    "type": 1,
+    "icao": "EDRF",
+    "lat": 49.472956999999994,
+    "lon": 8.1964455,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12240,
+        "name": "Duerkheim Info"
+      }
+    ],
+    "elevation": 351,
+    "tower": true,
+    "name": "Bad Duerkheim",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 49.472331,
+        "lonStart": 8.192414,
+        "latEnd": 49.473583,
+        "lonEnd": 8.200477,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1306
+  },
+  {
+    "type": 1,
+    "icao": "EDRI",
+    "lat": 49.141746,
+    "lon": 8.39485915,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12260,
+        "name": "Linkenheim Info"
+      }
+    ],
+    "elevation": 324,
+    "tower": true,
+    "name": "Linkenheim",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 49.1396365,
+        "lonStart": 8.391284,
+        "latEnd": 49.1438555,
+        "lonEnd": 8.3984343,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1309
+  },
+  {
+    "type": 1,
+    "icao": "EDRL",
+    "lat": 49.329890000000006,
+    "lon": 8.212795499999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12895,
+        "name": "Lachen Info"
+      }
+    ],
+    "elevation": 393,
+    "tower": true,
+    "name": "Lachen-Speyerdorf",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 49.33176,
+        "lonStart": 8.206351,
+        "latEnd": 49.32802,
+        "lonEnd": 8.21924,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1312
+  },
+  {
+    "type": 1,
+    "icao": "EDRY",
+    "lat": 49.30262632,
+    "lon": 8.45265209,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11807,
+        "name": "Speyer INFO"
+      }
+    ],
+    "elevation": 312,
+    "tower": true,
+    "name": "Speyer",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 49.30992499,
+        "lonStart": 8.44971458,
+        "latEnd": 49.29532765,
+        "lonEnd": 8.4555896,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1322
+  },
+  {
+    "type": 1,
+    "icao": "EDTC",
+    "lat": 49.135076055,
+    "lon": 8.56372507,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12837,
+        "name": "Bruchsal Info"
+      }
+    ],
+    "elevation": 364,
+    "tower": true,
+    "name": "Bruchsal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 49.13612799,
+        "lonStart": 8.56058268,
+        "latEnd": 49.13402412,
+        "lonEnd": 8.56686746,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1341
+  },
+  {
+    "type": 1,
+    "icao": "EDTK",
+    "lat": 49.24740856333333,
+    "lon": 8.894132805,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12247,
+        "name": "Sinsheim Info"
+      }
+    ],
+    "elevation": 519,
+    "tower": true,
+    "name": "Sinsheim",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 49.24942245,
+        "lonStart": 8.88749455,
+        "latEnd": 49.24492664,
+        "lonEnd": 8.90022621,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 49.24982242,
+        "lonStart": 8.88781132,
+        "latEnd": 49.2487554,
+        "lonEnd": 8.89084562,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 49.24632485,
+        "lonStart": 8.89771763,
+        "latEnd": 49.24519962,
+        "lonEnd": 8.9007015,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1347
+  },
+  {
+    "type": 1,
+    "icao": "ETOR",
+    "lat": 49.562968875,
+    "lon": 8.46280549,
+    "communications": [],
+    "elevation": 311,
+    "tower": false,
+    "name": "Coleman AB (clsd)",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 49.56625,
+        "lonStart": 8.468221,
+        "latEnd": 49.560899,
+        "lonEnd": 8.458574,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 10,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 49.56278426,
+        "lonStart": 8.46296974,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.3
+      },
+      {
+        "type": 102,
+        "width": 10,
+        "surfaceType": 15,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 49.56194224,
+        "lonStart": 8.46145722,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.3
+      }
+    ],
+    "id": 2086
+  },
+  {
+    "type": 1,
+    "icao": "XED12",
+    "lat": 49.83957624,
+    "lon": 8.850830575,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12400,
+        "name": "Reinheim Segelflug"
+      }
+    ],
+    "elevation": 509,
+    "tower": true,
+    "name": "Reinheim",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.55,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 49.83614661,
+        "lonStart": 8.84961681,
+        "latEnd": 49.84300587,
+        "lonEnd": 8.85204434,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5368
+  },
+  {
+    "type": 1,
+    "icao": "XEDAU",
+    "lat": 49.69292106,
+    "lon": 8.581437148333334,
+    "communications": [],
+    "elevation": 0,
+    "tower": true,
+    "name": "Bensheimer Stadtwiesen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "14L",
+        "numberEnd": "32R",
+        "latStart": 49.69163412,
+        "lonStart": 8.58397532,
+        "latEnd": 49.68988653,
+        "lonEnd": 8.58611261,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "14C",
+        "numberEnd": "32C",
+        "latStart": 49.69598101,
+        "lonStart": 8.57786324,
+        "latEnd": 49.68960683,
+        "lonEnd": 8.58557033,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "14R",
+        "numberEnd": "32L",
+        "latStart": 49.69608273,
+        "lonStart": 8.57648205,
+        "latEnd": 49.69433514,
+        "lonEnd": 8.57861934,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5373
   }
 ]

@@ -1,65 +1,39 @@
 [
   {
     "type": 1,
-    "icao": "23N",
-    "lat": 40.758431380000005,
-    "lon": -73.05372084000001,
+    "icao": "KFLU",
+    "lat": 40.7776774,
+    "lon": -73.834492595,
     "communications": [],
-    "elevation": 41,
+    "elevation": 4,
     "tower": false,
-    "name": "Bayport Aerodrome",
+    "name": "[X] Flushing",
     "runways": [
       {
         "type": 100,
-        "width": 45.72,
+        "width": 18.29,
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 40.76209295,
-        "lonStart": -73.05483685,
-        "latEnd": 40.75476981,
-        "lonEnd": -73.05260483,
+        "latStart": 40.78139059,
+        "lonStart": -73.83563587,
+        "latEnd": 40.77396421,
+        "lonEnd": -73.83334932,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       }
     ],
-    "id": 2377
+    "id": 2673
   },
   {
     "type": 1,
-    "icao": "07NY",
-    "lat": 40.87093166,
-    "lon": -73.03705139,
-    "communications": [],
-    "elevation": 80,
-    "tower": false,
-    "name": "Hough-Mcgee",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 40.87385931,
-        "lonStart": -73.03801669,
-        "latEnd": 40.86800401,
-        "lonEnd": -73.03608609,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 12092
-  },
-  {
-    "type": 1,
-    "icao": "KJFK",
-    "lat": 40.64412376333333,
-    "lon": -73.78150115916667,
+    "icao": "KFRG",
+    "lat": 40.728829250000004,
+    "lon": -73.4135097175,
     "communications": [
       {
         "type": 50,
-        "frequency": 12872,
+        "frequency": 12665,
         "name": "ATIS"
       },
       {
@@ -68,43 +42,38 @@
         "name": "UNICOM"
       },
       {
+        "type": 51,
+        "frequency": 11880,
+        "name": "CTAF"
+      },
+      {
         "type": 52,
-        "frequency": 13505,
+        "frequency": 12825,
         "name": "CLNC DEL"
       },
       {
         "type": 53,
-        "frequency": 12165,
-        "name": "GND"
-      },
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "GND"
-      },
-      {
-        "type": 53,
-        "frequency": 12505,
+        "frequency": 12160,
         "name": "GND"
       },
       {
         "type": 54,
-        "frequency": 11910,
-        "name": "KENNEDY TWR"
+        "frequency": 12520,
+        "name": "TWR"
       },
       {
         "type": 54,
-        "frequency": 12390,
-        "name": "KENNEDY TWR"
+        "frequency": 11880,
+        "name": "TWR"
       },
       {
         "type": 55,
-        "frequency": 12370,
+        "frequency": 11840,
         "name": "NEW YORK APP"
       },
       {
         "type": 55,
-        "frequency": 12680,
+        "frequency": 12370,
         "name": "NEW YORK APP"
       },
       {
@@ -124,203 +93,47 @@
       },
       {
         "type": 56,
-        "frequency": 12475,
-        "name": "NEW YORK DEP"
-      },
-      {
-        "type": 56,
         "frequency": 13435,
         "name": "NEW YORK DEP"
       },
       {
         "type": 56,
-        "frequency": 13590,
+        "frequency": 12570,
         "name": "NEW YORK DEP"
       }
     ],
-    "elevation": 13,
+    "elevation": 82,
     "tower": true,
-    "name": "John F Kennedy Intl",
+    "name": "REPUBLIC",
     "runways": [
       {
         "type": 100,
-        "width": 46.02,
+        "width": 45.72,
         "surfaceType": null,
-        "numberStart": "13R",
-        "numberEnd": "31L",
-        "latStart": 40.64836167,
-        "lonStart": -73.81671471,
-        "latEnd": 40.627911,
-        "lonEnd": -73.77159416,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 40.73464087,
+        "lonStart": -73.42174933,
+        "latEnd": 40.72200913,
+        "lonEnd": -73.40347254,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 46.02,
+        "width": 45.72,
         "surfaceType": null,
-        "numberStart": "04L",
-        "numberEnd": "22R",
-        "latStart": 40.62201778,
-        "lonStart": -73.78558529,
-        "latEnd": 40.64879083,
-        "lonEnd": -73.76466723,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 40.721764,
+        "lonStart": -73.414267,
+        "latEnd": 40.736903,
+        "lonEnd": -73.41455,
         "length": 0,
         "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 46.02,
-        "surfaceType": null,
-        "numberStart": "13L",
-        "numberEnd": "31R",
-        "latStart": 40.6577648,
-        "lonStart": -73.79023952,
-        "latEnd": 40.64372612,
-        "lonEnd": -73.75927694,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "04R",
-        "numberEnd": "22L",
-        "latStart": 40.62542555,
-        "lonStart": -73.77034723,
-        "latEnd": 40.64523583,
-        "lonEnd": -73.75486363,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 17.98,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.65449557,
-        "lonStart": -73.79829261,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 17.98
-      },
-      {
-        "type": 102,
-        "width": 17.98,
-        "surfaceType": 1,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 40.64572572,
-        "lonStart": -73.77040456,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 17.98
-      },
-      {
-        "type": 102,
-        "width": 17.98,
-        "surfaceType": 1,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 40.66039844,
-        "lonStart": -73.78553873,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 17.98
-      },
-      {
-        "type": 102,
-        "width": 17.98,
-        "surfaceType": 1,
-        "numberStart": "H4",
-        "numberEnd": null,
-        "latStart": 40.64963185,
-        "lonStart": -73.8104893,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 17.98
       }
     ],
-    "id": 13025
-  },
-  {
-    "type": 1,
-    "icao": "KLGA",
-    "lat": 40.77698719999999,
-    "lon": -73.874576566,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12595,
-        "name": "ATIS"
-      },
-      {
-        "type": 54,
-        "frequency": 11870,
-        "name": "TWR"
-      },
-      {
-        "type": 53,
-        "frequency": 12170,
-        "name": "Ground"
-      },
-      {
-        "type": 52,
-        "frequency": 12187,
-        "name": "Clearance Delivery"
-      },
-      {
-        "type": 55,
-        "frequency": 12880,
-        "name": "NEW YORK APP"
-      }
-    ],
-    "elevation": 21,
-    "tower": true,
-    "name": "La Guardia",
-    "runways": [
-      {
-        "type": 100,
-        "width": 46.02,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 40.76916537,
-        "lonStart": -73.88411972,
-        "latEnd": 40.78542937,
-        "lonEnd": -73.87067467,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 46.02,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 40.78228496,
-        "lonStart": -73.87851875,
-        "latEnd": 40.77206398,
-        "lonEnd": -73.85712666,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.77599232,
-        "lonStart": -73.88244303,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 14717
+    "id": 2684
   },
   {
     "type": 1,
@@ -440,17 +253,17 @@
         "length": 18.3
       }
     ],
-    "id": 15450
+    "id": 2830
   },
   {
     "type": 1,
-    "icao": "KFRG",
-    "lat": 40.728829250000004,
-    "lon": -73.41350625,
+    "icao": "KJFK",
+    "lat": 40.64412418833333,
+    "lon": -73.7815022725,
     "communications": [
       {
         "type": 50,
-        "frequency": 12665,
+        "frequency": 12872,
         "name": "ATIS"
       },
       {
@@ -459,38 +272,43 @@
         "name": "UNICOM"
       },
       {
-        "type": 51,
-        "frequency": 11880,
-        "name": "CTAF"
-      },
-      {
         "type": 52,
-        "frequency": 12825,
+        "frequency": 13505,
         "name": "CLNC DEL"
       },
       {
         "type": 53,
-        "frequency": 12160,
+        "frequency": 12165,
+        "name": "GND"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 53,
+        "frequency": 12505,
         "name": "GND"
       },
       {
         "type": 54,
-        "frequency": 12520,
-        "name": "TWR"
+        "frequency": 11910,
+        "name": "KENNEDY TWR"
       },
       {
         "type": 54,
-        "frequency": 11880,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11840,
-        "name": "NEW YORK APP"
+        "frequency": 12390,
+        "name": "KENNEDY TWR"
       },
       {
         "type": 55,
         "frequency": 12370,
+        "name": "NEW YORK APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12680,
         "name": "NEW YORK APP"
       },
       {
@@ -510,472 +328,253 @@
       },
       {
         "type": 56,
-        "frequency": 12570,
+        "frequency": 12475,
         "name": "NEW YORK DEP"
       },
       {
         "type": 56,
         "frequency": 13435,
         "name": "NEW YORK DEP"
+      },
+      {
+        "type": 56,
+        "frequency": 13590,
+        "name": "NEW YORK DEP"
       }
     ],
-    "elevation": 82,
+    "elevation": 13,
     "tower": true,
-    "name": "REPUBLIC",
+    "name": "John F Kennedy Intl",
     "runways": [
       {
         "type": 100,
-        "width": 45.72,
+        "width": 60.96,
         "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 40.734622,
-        "lonStart": -73.421722,
-        "latEnd": 40.722028,
-        "lonEnd": -73.403486,
+        "numberStart": "13R",
+        "numberEnd": "31L",
+        "latStart": 40.64836677,
+        "lonStart": -73.81672792,
+        "latEnd": 40.627911,
+        "lonEnd": -73.77159409,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "04L",
+        "numberEnd": "22R",
+        "latStart": 40.62201778,
+        "lonStart": -73.78558534,
+        "latEnd": 40.64879083,
+        "lonEnd": -73.76466728,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 45.72,
+        "width": 46.02,
         "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 40.721764,
-        "lonStart": -73.414267,
-        "latEnd": 40.736903,
-        "lonEnd": -73.41455,
+        "numberStart": "13L",
+        "numberEnd": "31R",
+        "latStart": 40.6577648,
+        "lonStart": -73.79023947,
+        "latEnd": 40.64372612,
+        "lonEnd": -73.75927689,
         "length": 0,
         "surfacetype": 1
-      }
-    ],
-    "id": 20903
-  },
-  {
-    "type": 17,
-    "icao": "3NY2",
-    "lat": 40.78621222,
-    "lon": -73.91208112,
-    "communications": [],
-    "elevation": 15,
-    "tower": false,
-    "name": "[H] Astoria",
-    "runways": [
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "04R",
+        "numberEnd": "22L",
+        "latStart": 40.62542555,
+        "lonStart": -73.77034734,
+        "latEnd": 40.64523583,
+        "lonEnd": -73.75486374,
+        "length": 0,
+        "surfacetype": 1
+      },
       {
         "type": 102,
-        "width": 30.5,
+        "width": 18,
         "surfaceType": 1,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 40.78621222,
-        "lonStart": -73.91208112,
+        "latStart": 40.65449557,
+        "lonStart": -73.79829261,
         "latEnd": null,
         "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 28204
-  },
-  {
-    "type": 17,
-    "icao": "4NY9",
-    "lat": 40.71454666,
-    "lon": -73.71040862,
-    "communications": [],
-    "elevation": 70,
-    "tower": false,
-    "name": "[H] Belmont Park",
-    "runways": [
+        "length": 18
+      },
       {
         "type": 102,
-        "width": 12.2,
+        "width": 18,
         "surfaceType": 1,
-        "numberStart": "H1",
+        "numberStart": "H2",
         "numberEnd": null,
-        "latStart": 40.71454666,
-        "lonStart": -73.71040862,
+        "latStart": 40.64572572,
+        "lonStart": -73.77040456,
         "latEnd": null,
         "lonEnd": null,
-        "length": 22.9
+        "length": 18
+      },
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 1,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 40.66039844,
+        "lonStart": -73.78553873,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      },
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 1,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 40.64963185,
+        "lonStart": -73.8104893,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
       }
     ],
-    "id": 28415
+    "id": 2846
   },
   {
-    "type": 17,
-    "icao": "KNOP",
-    "lat": 40.60010472,
-    "lon": -73.89958084,
-    "communications": [],
-    "elevation": 16,
+    "type": 1,
+    "icao": "KLGA",
+    "lat": 40.77698719999999,
+    "lon": -73.874576566,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12595,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11870,
+        "name": "TWR"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "Ground"
+      },
+      {
+        "type": 52,
+        "frequency": 12187,
+        "name": "Clearance Delivery"
+      },
+      {
+        "type": 55,
+        "frequency": 12880,
+        "name": "NEW YORK APP"
+      }
+    ],
+    "elevation": 20,
     "tower": true,
-    "name": "[H] Brooklyn Cgas - Floyd Bennett Field",
+    "name": "La Guardia",
     "runways": [
       {
-        "type": 102,
-        "width": 61,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.60010472,
-        "lonStart": -73.89958084,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 304.8
-      }
-    ],
-    "id": 28596
-  },
-  {
-    "type": 17,
-    "icao": "NK44",
-    "lat": 40.70009972,
-    "lon": -73.39956639,
-    "communications": [],
-    "elevation": 60,
-    "tower": false,
-    "name": "[H] Brunswick Hospital",
-    "runways": [
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 40.76916537,
+        "lonStart": -73.88411972,
+        "latEnd": 40.78542937,
+        "lonEnd": -73.87067467,
+        "length": 0,
+        "surfacetype": 1
+      },
       {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.70009972,
-        "lonStart": -73.39956639,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 28609
-  },
-  {
-    "type": 17,
-    "icao": "NY93",
-    "lat": 40.79027777,
-    "lon": -73.91075584,
-    "communications": [],
-    "elevation": 15,
-    "tower": false,
-    "name": "[H] Charles Poletti",
-    "runways": [
-      {
-        "type": 102,
-        "width": 91.4,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.79027777,
-        "lonStart": -73.91075584,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 91.4
-      }
-    ],
-    "id": 28891
-  },
-  {
-    "type": 17,
-    "icao": "2NK2",
-    "lat": 40.88370944,
-    "lon": -73.49123334,
-    "communications": [],
-    "elevation": 8,
-    "tower": false,
-    "name": "[H] Cove Neck",
-    "runways": [
-      {
-        "type": 102,
-        "width": 38.1,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.88370944,
-        "lonStart": -73.49123334,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 38.1
-      }
-    ],
-    "id": 29166
-  },
-  {
-    "type": 17,
-    "icao": "NK92",
-    "lat": 40.71954527,
-    "lon": -73.582905,
-    "communications": [],
-    "elevation": 95,
-    "tower": false,
-    "name": "[H] Eab Plaza",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.71954527,
-        "lonStart": -73.582905,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 29446
-  },
-  {
-    "type": 17,
-    "icao": "6N5",
-    "lat": 40.74260166,
-    "lon": -73.97208306,
-    "communications": [],
-    "elevation": 9,
-    "tower": false,
-    "name": "[H] East 34th Street",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.74260166,
-        "lonStart": -73.97208306,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 92.7
-      }
-    ],
-    "id": 29452
-  },
-  {
-    "type": 17,
-    "icao": "40NY",
-    "lat": 40.76620916,
-    "lon": -73.26539473,
-    "communications": [],
-    "elevation": 81,
-    "tower": false,
-    "name": "[H] Entenmanns",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.76620916,
-        "lonStart": -73.26539473,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 29560
-  },
-  {
-    "type": 17,
-    "icao": "58NY",
-    "lat": 40.6584375,
-    "lon": -73.56790639,
-    "communications": [],
-    "elevation": 28,
-    "tower": false,
-    "name": "[H] Freeport",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.6584375,
-        "lonStart": -73.56790639,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 29826
-  },
-  {
-    "type": 17,
-    "icao": "NJ54",
-    "lat": 40.8501,
-    "lon": -73.96624917,
-    "communications": [],
-    "elevation": 330,
-    "tower": false,
-    "name": "[H] George Washington Bridge",
-    "runways": [
-      {
-        "type": 102,
-        "width": 22.9,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.8501,
-        "lonStart": -73.96624917,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 22.9
-      }
-    ],
-    "id": 29916
-  },
-  {
-    "type": 17,
-    "icao": "82NJ",
-    "lat": 40.88621027,
-    "lon": -73.99124973,
-    "communications": [],
-    "elevation": 8,
-    "tower": false,
-    "name": "[H] Graphic Scanning Corporation",
-    "runways": [
-      {
-        "type": 102,
-        "width": 34.8,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.88621027,
-        "lonStart": -73.99124973,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 109.7
-      }
-    ],
-    "id": 30005
-  },
-  {
-    "type": 17,
-    "icao": "13NY",
-    "lat": 40.90759833,
-    "lon": -73.11622,
-    "communications": [],
-    "elevation": 188,
-    "tower": false,
-    "name": "[H] Health Sciences Cntr Unv Hosp",
-    "runways": [
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 40.78228496,
+        "lonStart": -73.87851875,
+        "latEnd": 40.77206398,
+        "lonEnd": -73.85712666,
+        "length": 0,
+        "surfacetype": 1
+      },
       {
         "type": 102,
         "width": 18.3,
-        "surfaceType": 2,
+        "surfaceType": 1,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 40.90759833,
-        "lonStart": -73.11622,
+        "latStart": 40.77599232,
+        "lonStart": -73.88244303,
         "latEnd": null,
         "lonEnd": null,
         "length": 18.3
       }
     ],
-    "id": 30163
+    "id": 2884
   },
   {
     "type": 17,
-    "icao": "1NK9",
-    "lat": 40.88398694,
-    "lon": -73.42289778,
+    "icao": "NY22",
+    "lat": 40.590704,
+    "lon": -73.879585,
     "communications": [],
-    "elevation": 12,
+    "elevation": 16,
     "tower": false,
-    "name": "[H] Huntington Emergency Helistop",
+    "name": "NYPD Air Operations Heliport",
     "runways": [
       {
         "type": 102,
-        "width": 30.5,
+        "width": 24.4,
         "surfaceType": 1,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 40.88398694,
-        "lonStart": -73.42289778,
+        "latStart": 40.590704,
+        "lonStart": -73.879585,
         "latEnd": null,
         "lonEnd": null,
         "length": 30.5
       }
     ],
-    "id": 30428
+    "id": 4209
   },
   {
     "type": 17,
-    "icao": "2NK8",
-    "lat": 40.78204583,
-    "lon": -73.82568973,
+    "icao": "XK8NY9",
+    "lat": 40.74554696,
+    "lon": -73.49074247,
     "communications": [],
-    "elevation": 80,
+    "elevation": 129,
     "tower": false,
-    "name": "[H] Landmark Plaza",
-    "runways": [
-      {
-        "type": 102,
-        "width": 8.5,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.78204583,
-        "lonStart": -73.82568973,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 30837
-  },
-  {
-    "type": 17,
-    "icao": "6NY5",
-    "lat": 40.70538055,
-    "lon": -73.80457806,
-    "communications": [],
-    "elevation": 15,
-    "tower": false,
-    "name": "[H] Mary Immaculate Hospital",
+    "name": "[H] Nassau County Police",
     "runways": [
       {
         "type": 102,
         "width": 15.2,
-        "surfaceType": 3,
+        "surfaceType": 2,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 40.70538055,
-        "lonStart": -73.80457806,
+        "latStart": 40.74554696,
+        "lonStart": -73.49074247,
         "latEnd": null,
         "lonEnd": null,
         "length": 15.2
       }
     ],
-    "id": 31111
-  },
-  {
-    "type": 17,
-    "icao": "NK41",
-    "lat": 40.93907083,
-    "lon": -73.05438389,
-    "communications": [],
-    "elevation": 203,
-    "tower": false,
-    "name": "[H] Mather",
-    "runways": [
-      {
-        "type": 102,
-        "width": 33.5,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.93907083,
-        "lonStart": -73.05438389,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 33.5
-      }
-    ],
-    "id": 31124
+    "id": 5483
   },
   {
     "type": 17,
@@ -1000,307 +599,7 @@
         "length": 12.2
       }
     ],
-    "id": 31182
-  },
-  {
-    "type": 17,
-    "icao": "5NY6",
-    "lat": 40.86009916,
-    "lon": -73.59623751,
-    "communications": [],
-    "elevation": 149,
-    "tower": false,
-    "name": "[H] Merrill Glen Cove",
-    "runways": [
-      {
-        "type": 102,
-        "width": 45.7,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.86009916,
-        "lonStart": -73.59623751,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 61
-      }
-    ],
-    "id": 31295
-  },
-  {
-    "type": 17,
-    "icao": "7NY3",
-    "lat": 40.77787888,
-    "lon": -73.70513056,
-    "communications": [],
-    "elevation": 92,
-    "tower": false,
-    "name": "[H] North Shore University Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 19.5,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.77787888,
-        "lonStart": -73.70513056,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.5
-      }
-    ],
-    "id": 31659
-  },
-  {
-    "type": 17,
-    "icao": "NK39",
-    "lat": 40.71260222,
-    "lon": -73.99958362,
-    "communications": [],
-    "elevation": 244,
-    "tower": false,
-    "name": "[H] One Police Plaza",
-    "runways": [
-      {
-        "type": 102,
-        "width": 29.3,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.71260222,
-        "lonStart": -73.99958362,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 29.3
-      }
-    ],
-    "id": 31753
-  },
-  {
-    "type": 17,
-    "icao": "07NJ",
-    "lat": 40.7917675,
-    "lon": -73.99541667,
-    "communications": [],
-    "elevation": 8,
-    "tower": false,
-    "name": "[H] Palisades General Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 13.7,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.7917675,
-        "lonStart": -73.99541667,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 13.7
-      }
-    ],
-    "id": 31861
-  },
-  {
-    "type": 17,
-    "icao": "6N4",
-    "lat": 40.76010138,
-    "lon": -73.95680473,
-    "communications": [],
-    "elevation": 5,
-    "tower": false,
-    "name": "[H] Pan Am Metroport",
-    "runways": [
-      {
-        "type": 102,
-        "width": 22.9,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.76010138,
-        "lonStart": -73.95680473,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 100.6
-      }
-    ],
-    "id": 31873
-  },
-  {
-    "type": 17,
-    "icao": "15NY",
-    "lat": 40.59177138,
-    "lon": -73.78013306,
-    "communications": [],
-    "elevation": 0,
-    "tower": false,
-    "name": "[H] Peninsula Hospital Center",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.59177138,
-        "lonStart": -73.78013306,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 31963
-  },
-  {
-    "type": 17,
-    "icao": "NK45",
-    "lat": 40.9464875,
-    "lon": -73.06093945,
-    "communications": [],
-    "elevation": 500,
-    "tower": false,
-    "name": "[H] St Charles Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 24.4,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.9464875,
-        "lonStart": -73.06093945,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.4
-      }
-    ],
-    "id": 32864
-  },
-  {
-    "type": 17,
-    "icao": "NK42",
-    "lat": 40.86954222,
-    "lon": -73.22178028,
-    "communications": [],
-    "elevation": 128,
-    "tower": false,
-    "name": "[H] St Johns Episcopal Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.86954222,
-        "lonStart": -73.22178028,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 32904
-  },
-  {
-    "type": 17,
-    "icao": "9NY8",
-    "lat": 40.84232222,
-    "lon": -73.70124139,
-    "communications": [],
-    "elevation": 20,
-    "tower": false,
-    "name": "[H] Thomson Industries Inc",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.84232222,
-        "lonStart": -73.70124139,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 33319
-  },
-  {
-    "type": 17,
-    "icao": "NK69",
-    "lat": 40.610935,
-    "lon": -73.43234612,
-    "communications": [],
-    "elevation": 11,
-    "tower": false,
-    "name": "[H] Tobay Beach Park",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.610935,
-        "lonStart": -73.43234612,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 33339
-  },
-  {
-    "type": 17,
-    "icao": "4NY3",
-    "lat": 40.76926833,
-    "lon": -73.850135,
-    "communications": [],
-    "elevation": 20,
-    "tower": false,
-    "name": "[H] Traulsen-College Point",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.76926833,
-        "lonStart": -73.850135,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 33379
-  },
-  {
-    "type": 17,
-    "icao": "26NY",
-    "lat": 40.92509777,
-    "lon": -73.30622639,
-    "communications": [],
-    "elevation": 100,
-    "tower": false,
-    "name": "[H] Vamc",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 40.92509777,
-        "lonStart": -73.30622639,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 33586
+    "id": 6051
   },
   {
     "type": 17,
@@ -1325,57 +624,107 @@
         "length": 15.2
       }
     ],
-    "id": 33699
+    "id": 6633
   },
   {
     "type": 17,
-    "icao": "45NY",
-    "lat": 40.68648777,
-    "lon": -73.04677667,
+    "icao": "1NK9",
+    "lat": 40.88398694,
+    "lon": -73.42289778,
     "communications": [],
-    "elevation": 0,
+    "elevation": 12,
     "tower": false,
-    "name": "[H] Waterfront Floating Helistop",
+    "name": "[H] Huntington Emergency Helistop",
     "runways": [
       {
         "type": 102,
-        "width": 9.1,
+        "width": 30.5,
         "surfaceType": 1,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 40.68648777,
-        "lonStart": -73.04677667,
+        "latStart": 40.88398694,
+        "lonStart": -73.42289778,
         "latEnd": null,
         "lonEnd": null,
-        "length": 10.7
+        "length": 30.5
       }
     ],
-    "id": 33746
+    "id": 6637
   },
   {
     "type": 17,
-    "icao": "NK37",
-    "lat": 40.74176777,
-    "lon": -73.64401778,
+    "icao": "2NK2",
+    "lat": 40.88370944,
+    "lon": -73.49123334,
     "communications": [],
-    "elevation": 154,
+    "elevation": 8,
     "tower": false,
-    "name": "[H] Winthrop University Hospital",
+    "name": "[H] Cove Neck",
     "runways": [
       {
         "type": 102,
-        "width": 24.4,
+        "width": 38.1,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.88370944,
+        "lonStart": -73.49123334,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 38.1
+      }
+    ],
+    "id": 7189
+  },
+  {
+    "type": 17,
+    "icao": "2NK8",
+    "lat": 40.78204583,
+    "lon": -73.82568973,
+    "communications": [],
+    "elevation": 80,
+    "tower": false,
+    "name": "[H] Landmark Plaza",
+    "runways": [
+      {
+        "type": 102,
+        "width": 8.5,
         "surfaceType": 2,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 40.74176777,
-        "lonStart": -73.64401778,
+        "latStart": 40.78204583,
+        "lonStart": -73.82568973,
         "latEnd": null,
         "lonEnd": null,
-        "length": 24.4
+        "length": 12.2
       }
     ],
-    "id": 33882
+    "id": 7195
+  },
+  {
+    "type": 17,
+    "icao": "3NY2",
+    "lat": 40.78621222,
+    "lon": -73.91208112,
+    "communications": [],
+    "elevation": 15,
+    "tower": false,
+    "name": "[H] Astoria",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.78621222,
+        "lonStart": -73.91208112,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 7759
   },
   {
     "type": 16,
@@ -1424,7 +773,132 @@
         "length": 0
       }
     ],
-    "id": 34076
+    "id": 8283
+  },
+  {
+    "type": 17,
+    "icao": "4NY3",
+    "lat": 40.76926833,
+    "lon": -73.850135,
+    "communications": [],
+    "elevation": 20,
+    "tower": false,
+    "name": "[H] Traulsen-College Point",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.76926833,
+        "lonStart": -73.850135,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 8284
+  },
+  {
+    "type": 17,
+    "icao": "4NY9",
+    "lat": 40.71454666,
+    "lon": -73.71040862,
+    "communications": [],
+    "elevation": 70,
+    "tower": false,
+    "name": "[H] Belmont Park",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.71454666,
+        "lonStart": -73.71040862,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 22.9
+      }
+    ],
+    "id": 8288
+  },
+  {
+    "type": 17,
+    "icao": "5NY6",
+    "lat": 40.86009916,
+    "lon": -73.59623751,
+    "communications": [],
+    "elevation": 149,
+    "tower": false,
+    "name": "[H] Merrill Glen Cove",
+    "runways": [
+      {
+        "type": 102,
+        "width": 45.7,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.86009916,
+        "lonStart": -73.59623751,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 61
+      }
+    ],
+    "id": 8801
+  },
+  {
+    "type": 17,
+    "icao": "6N4",
+    "lat": 40.76010138,
+    "lon": -73.95680473,
+    "communications": [],
+    "elevation": 5,
+    "tower": false,
+    "name": "[H] Pan Am Metroport",
+    "runways": [
+      {
+        "type": 102,
+        "width": 22.9,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.76010138,
+        "lonStart": -73.95680473,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 100.6
+      }
+    ],
+    "id": 9255
+  },
+  {
+    "type": 17,
+    "icao": "6N5",
+    "lat": 40.74260166,
+    "lon": -73.97208306,
+    "communications": [],
+    "elevation": 9,
+    "tower": false,
+    "name": "[H] East 34th Street",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.74260166,
+        "lonStart": -73.97208306,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 92.7
+      }
+    ],
+    "id": 9256
   },
   {
     "type": 16,
@@ -1449,32 +923,7 @@
         "length": 0
       }
     ],
-    "id": 34090
-  },
-  {
-    "type": 16,
-    "icao": "54NJ",
-    "lat": 40.41677527,
-    "lon": -73.99958278,
-    "communications": [],
-    "elevation": 0,
-    "tower": false,
-    "name": "[S] Highlands",
-    "runways": [
-      {
-        "type": 101,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 40.41523268,
-        "lonStart": -74.00835891,
-        "latEnd": 40.41831786,
-        "lonEnd": -73.99080665,
-        "length": 0
-      }
-    ],
-    "id": 34160
+    "id": 9257
   },
   {
     "type": 16,
@@ -1499,44 +948,32 @@
         "length": 0
       }
     ],
-    "id": 34314
+    "id": 9258
   },
   {
-    "type": 16,
-    "icao": "NK30",
-    "lat": 40.55566111,
-    "lon": -73.88569138999999,
+    "type": 17,
+    "icao": "6NY5",
+    "lat": 40.70538055,
+    "lon": -73.80457806,
     "communications": [],
-    "elevation": 0,
+    "elevation": 15,
     "tower": false,
-    "name": "[S] Private Sealanes-Jamaica Bay",
+    "name": "[H] Mary Immaculate Hospital",
     "runways": [
       {
-        "type": 101,
-        "width": 152.4,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 40.55298169,
-        "lonStart": -73.89399953,
-        "latEnd": 40.55834053,
-        "lonEnd": -73.87738325,
-        "length": 0
-      },
-      {
-        "type": 101,
-        "width": 152.4,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 40.56197343,
-        "lonStart": -73.88921799,
-        "latEnd": 40.54934879,
-        "lonEnd": -73.88216479,
-        "length": 0
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.70538055,
+        "lonStart": -73.80457806,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
       }
     ],
-    "id": 34380
+    "id": 9308
   },
   {
     "type": 16,
@@ -1573,32 +1010,645 @@
         "length": 0
       }
     ],
-    "id": 34428
+    "id": 9737
+  },
+  {
+    "type": 17,
+    "icao": "07NJ",
+    "lat": 40.7917675,
+    "lon": -73.99541667,
+    "communications": [],
+    "elevation": 8,
+    "tower": false,
+    "name": "[H] Palisades General Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 13.7,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.7917675,
+        "lonStart": -73.99541667,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.7
+      }
+    ],
+    "id": 9770
   },
   {
     "type": 1,
-    "icao": "KFLU",
-    "lat": 40.77926805,
-    "lon": -73.83291223,
+    "icao": "07NY",
+    "lat": 40.87093166,
+    "lon": -73.03705139,
     "communications": [],
-    "elevation": 3,
+    "elevation": 80,
     "tower": false,
-    "name": "[X] Flushing",
+    "name": "Hough-Mcgee",
     "runways": [
       {
         "type": 100,
-        "width": 18.29,
+        "width": 60.96,
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 40.7830098,
-        "lonStart": -73.83405303,
-        "latEnd": 40.7755263,
-        "lonEnd": -73.83177143,
+        "latStart": 40.87385931,
+        "lonStart": -73.03801669,
+        "latEnd": 40.86800401,
+        "lonEnd": -73.03608609,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 34562
+    "id": 9779
+  },
+  {
+    "type": 17,
+    "icao": "7NY3",
+    "lat": 40.77787888,
+    "lon": -73.70513056,
+    "communications": [],
+    "elevation": 92,
+    "tower": false,
+    "name": "[H] North Shore University Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 19.5,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.77787888,
+        "lonStart": -73.70513056,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19.5
+      }
+    ],
+    "id": 9782
+  },
+  {
+    "type": 17,
+    "icao": "9NY8",
+    "lat": 40.84232222,
+    "lon": -73.70124139,
+    "communications": [],
+    "elevation": 20,
+    "tower": false,
+    "name": "[H] Thomson Industries Inc",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.84232222,
+        "lonStart": -73.70124139,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 10690
+  },
+  {
+    "type": 17,
+    "icao": "13NY",
+    "lat": 40.90759833,
+    "lon": -73.11622,
+    "communications": [],
+    "elevation": 188,
+    "tower": false,
+    "name": "[H] Health Sciences Cntr Unv Hosp",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.90759833,
+        "lonStart": -73.11622,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 11026
+  },
+  {
+    "type": 17,
+    "icao": "15NY",
+    "lat": 40.59177138,
+    "lon": -73.78013306,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[H] Peninsula Hospital Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.59177138,
+        "lonStart": -73.78013306,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 11112
+  },
+  {
+    "type": 1,
+    "icao": "23N",
+    "lat": 40.758431380000005,
+    "lon": -73.05372084000001,
+    "communications": [],
+    "elevation": 41,
+    "tower": false,
+    "name": "Bayport Aerodrome",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 40.76209295,
+        "lonStart": -73.05483685,
+        "latEnd": 40.75476981,
+        "lonEnd": -73.05260483,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11442
+  },
+  {
+    "type": 17,
+    "icao": "26NY",
+    "lat": 40.92509777,
+    "lon": -73.30622639,
+    "communications": [],
+    "elevation": 100,
+    "tower": false,
+    "name": "[H] Vamc",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.92509777,
+        "lonStart": -73.30622639,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 11562
+  },
+  {
+    "type": 17,
+    "icao": "40NY",
+    "lat": 40.76620916,
+    "lon": -73.26539473,
+    "communications": [],
+    "elevation": 81,
+    "tower": false,
+    "name": "[H] Entenmanns",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.76620916,
+        "lonStart": -73.26539473,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 12106
+  },
+  {
+    "type": 17,
+    "icao": "45NY",
+    "lat": 40.68648777,
+    "lon": -73.04677667,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[H] Waterfront Floating Helistop",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.68648777,
+        "lonStart": -73.04677667,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.7
+      }
+    ],
+    "id": 12302
+  },
+  {
+    "type": 16,
+    "icao": "54NJ",
+    "lat": 40.41677527,
+    "lon": -73.99958278,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] Highlands",
+    "runways": [
+      {
+        "type": 101,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 40.41523268,
+        "lonStart": -74.00835891,
+        "latEnd": 40.41831786,
+        "lonEnd": -73.99080665,
+        "length": 0
+      }
+    ],
+    "id": 12654
+  },
+  {
+    "type": 17,
+    "icao": "58NY",
+    "lat": 40.6584375,
+    "lon": -73.56790639,
+    "communications": [],
+    "elevation": 28,
+    "tower": false,
+    "name": "[H] Freeport",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.6584375,
+        "lonStart": -73.56790639,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 12807
+  },
+  {
+    "type": 17,
+    "icao": "82NJ",
+    "lat": 40.88621027,
+    "lon": -73.99124973,
+    "communications": [],
+    "elevation": 8,
+    "tower": false,
+    "name": "[H] Graphic Scanning Corporation",
+    "runways": [
+      {
+        "type": 102,
+        "width": 34.8,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.88621027,
+        "lonStart": -73.99124973,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 109.7
+      }
+    ],
+    "id": 13757
+  },
+  {
+    "type": 17,
+    "icao": "KNOP",
+    "lat": 40.60010472,
+    "lon": -73.89958084,
+    "communications": [],
+    "elevation": 16,
+    "tower": true,
+    "name": "[H] Brooklyn Cgas - Floyd Bennett Field",
+    "runways": [
+      {
+        "type": 102,
+        "width": 61,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.60010472,
+        "lonStart": -73.89958084,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 304.8
+      }
+    ],
+    "id": 19574
+  },
+  {
+    "type": 17,
+    "icao": "NJ54",
+    "lat": 40.8501,
+    "lon": -73.96624917,
+    "communications": [],
+    "elevation": 330,
+    "tower": false,
+    "name": "[H] George Washington Bridge",
+    "runways": [
+      {
+        "type": 102,
+        "width": 22.9,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.8501,
+        "lonStart": -73.96624917,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 22.9
+      }
+    ],
+    "id": 22668
+  },
+  {
+    "type": 16,
+    "icao": "NK30",
+    "lat": 40.55566111,
+    "lon": -73.88569138999999,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] Private Sealanes-Jamaica Bay",
+    "runways": [
+      {
+        "type": 101,
+        "width": 152.4,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 40.55298169,
+        "lonStart": -73.89399953,
+        "latEnd": 40.55834053,
+        "lonEnd": -73.87738325,
+        "length": 0
+      },
+      {
+        "type": 101,
+        "width": 152.4,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 40.56197343,
+        "lonStart": -73.88921799,
+        "latEnd": 40.54934879,
+        "lonEnd": -73.88216479,
+        "length": 0
+      }
+    ],
+    "id": 22733
+  },
+  {
+    "type": 17,
+    "icao": "NK37",
+    "lat": 40.74176777,
+    "lon": -73.64401778,
+    "communications": [],
+    "elevation": 154,
+    "tower": false,
+    "name": "[H] Winthrop University Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 24.4,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.74176777,
+        "lonStart": -73.64401778,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.4
+      }
+    ],
+    "id": 22739
+  },
+  {
+    "type": 17,
+    "icao": "NK39",
+    "lat": 40.71260222,
+    "lon": -73.99958362,
+    "communications": [],
+    "elevation": 244,
+    "tower": false,
+    "name": "[H] One Police Plaza",
+    "runways": [
+      {
+        "type": 102,
+        "width": 29.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.71260222,
+        "lonStart": -73.99958362,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.3
+      }
+    ],
+    "id": 22741
+  },
+  {
+    "type": 17,
+    "icao": "NK41",
+    "lat": 40.93907083,
+    "lon": -73.05438389,
+    "communications": [],
+    "elevation": 203,
+    "tower": false,
+    "name": "[H] Mather",
+    "runways": [
+      {
+        "type": 102,
+        "width": 33.5,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.93907083,
+        "lonStart": -73.05438389,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 33.5
+      }
+    ],
+    "id": 22743
+  },
+  {
+    "type": 17,
+    "icao": "NK42",
+    "lat": 40.86954222,
+    "lon": -73.22178028,
+    "communications": [],
+    "elevation": 128,
+    "tower": false,
+    "name": "[H] St Johns Episcopal Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.86954222,
+        "lonStart": -73.22178028,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 22744
+  },
+  {
+    "type": 17,
+    "icao": "NK44",
+    "lat": 40.70009972,
+    "lon": -73.39956639,
+    "communications": [],
+    "elevation": 60,
+    "tower": false,
+    "name": "[H] Brunswick Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.70009972,
+        "lonStart": -73.39956639,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 22746
+  },
+  {
+    "type": 17,
+    "icao": "NK45",
+    "lat": 40.9464875,
+    "lon": -73.06093945,
+    "communications": [],
+    "elevation": 500,
+    "tower": false,
+    "name": "[H] St Charles Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 24.4,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.9464875,
+        "lonStart": -73.06093945,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.4
+      }
+    ],
+    "id": 22747
+  },
+  {
+    "type": 17,
+    "icao": "NK69",
+    "lat": 40.610935,
+    "lon": -73.43234612,
+    "communications": [],
+    "elevation": 11,
+    "tower": false,
+    "name": "[H] Tobay Beach Park",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.610935,
+        "lonStart": -73.43234612,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 22768
+  },
+  {
+    "type": 17,
+    "icao": "NK92",
+    "lat": 40.71954527,
+    "lon": -73.582905,
+    "communications": [],
+    "elevation": 95,
+    "tower": false,
+    "name": "[H] Eab Plaza",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.71954527,
+        "lonStart": -73.582905,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 22789
+  },
+  {
+    "type": 17,
+    "icao": "NY93",
+    "lat": 40.79027777,
+    "lon": -73.91075584,
+    "communications": [],
+    "elevation": 15,
+    "tower": false,
+    "name": "[H] Charles Poletti",
+    "runways": [
+      {
+        "type": 102,
+        "width": 91.4,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.79027777,
+        "lonStart": -73.91075584,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 91.4
+      }
+    ],
+    "id": 23054
   }
 ]

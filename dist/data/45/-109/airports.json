@@ -1,35 +1,9 @@
 [
   {
     "type": 1,
-    "icao": "MT05",
-    "lat": 45.70606194,
-    "lon": -108.62236112,
-    "communications": [],
-    "elevation": 3189,
-    "tower": false,
-    "name": "Airpark Oscars",
-    "runways": [
-      {
-        "type": 100,
-        "width": 10.67,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 45.70306529,
-        "lonStart": -108.62665223,
-        "latEnd": 45.70905859,
-        "lonEnd": -108.61807001,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 760
-  },
-  {
-    "type": 1,
     "icao": "6S1",
-    "lat": 45.2916665,
-    "lon": -108.92569449999999,
+    "lat": 45.29153786,
+    "lon": -108.92132504,
     "communications": [
       {
         "type": 51,
@@ -47,88 +21,15 @@
         "surfaceType": null,
         "numberStart": "16",
         "numberEnd": "34",
-        "latStart": 45.296389,
-        "lonStart": -108.926389,
-        "latEnd": 45.286944,
-        "lonEnd": -108.925,
+        "latStart": 45.2963113,
+        "lonStart": -108.92169157,
+        "latEnd": 45.28676442,
+        "lonEnd": -108.92095851,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 1909
-  },
-  {
-    "type": 1,
-    "icao": "KBIL",
-    "lat": 45.80762239833333,
-    "lon": -108.54616387166668,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12720,
-        "name": "tower"
-      },
-      {
-        "type": 50,
-        "frequency": 12630,
-        "name": "atis"
-      },
-      {
-        "type": 53,
-        "frequency": 12990,
-        "name": "GND CON"
-      },
-      {
-        "type": 52,
-        "frequency": 12190,
-        "name": "clnc del"
-      }
-    ],
-    "elevation": 3651,
-    "tower": true,
-    "name": "KBIL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "10L",
-        "numberEnd": "28R",
-        "latStart": 45.81269711,
-        "lonStart": -108.55481125,
-        "latEnd": 45.80162782,
-        "lonEnd": -108.51505347,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "10R",
-        "numberEnd": "28L",
-        "latStart": 45.80919738,
-        "lonStart": -108.56281486,
-        "latEnd": 45.8053057,
-        "lonEnd": -108.54896676,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 45.80766617,
-        "lonStart": -108.55840569,
-        "latEnd": 45.80924021,
-        "lonEnd": -108.5369312,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 13281
+    "id": 226
   },
   {
     "type": 1,
@@ -196,32 +97,106 @@
         "surfacetype": 3
       }
     ],
-    "id": 14422
+    "id": 230
   },
   {
-    "type": 17,
-    "icao": "MT55",
-    "lat": 45.78745194,
-    "lon": -108.51735806,
-    "communications": [],
-    "elevation": 3137,
-    "tower": false,
-    "name": "[H] Deaconess Medical Center of Billings I",
-    "runways": [
+    "type": 1,
+    "icao": "KBIL",
+    "lat": 45.80768432666667,
+    "lon": -108.54638582833333,
+    "communications": [
       {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 45.78745194,
-        "lonStart": -108.51735806,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
+        "type": 54,
+        "frequency": 12720,
+        "name": "tower"
+      },
+      {
+        "type": 56,
+        "frequency": 12050,
+        "name": "DEP"
+      },
+      {
+        "type": 50,
+        "frequency": 12630,
+        "name": "atis"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND CLR"
       }
     ],
-    "id": 29284
+    "elevation": 3652,
+    "tower": true,
+    "name": "Billings Logan International",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "10L",
+        "numberEnd": "28R",
+        "latStart": 45.81269932,
+        "lonStart": -108.55481357,
+        "latEnd": 45.80199718,
+        "lonEnd": -108.51637833,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "10R",
+        "numberEnd": "28L",
+        "latStart": 45.80919738,
+        "lonStart": -108.562816,
+        "latEnd": 45.8053057,
+        "lonEnd": -108.5489679,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 45.80766617,
+        "lonStart": -108.55840683,
+        "latEnd": 45.80924021,
+        "lonEnd": -108.53693234,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2417
+  },
+  {
+    "type": 1,
+    "icao": "MT05",
+    "lat": 45.70606194,
+    "lon": -108.62236112,
+    "communications": [],
+    "elevation": 3189,
+    "tower": false,
+    "name": "Airpark Oscars",
+    "runways": [
+      {
+        "type": 100,
+        "width": 10.67,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 45.70306529,
+        "lonStart": -108.62665223,
+        "latEnd": 45.70905859,
+        "lonEnd": -108.61807001,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 21829
   },
   {
     "type": 17,
@@ -246,6 +221,31 @@
         "length": 9.4
       }
     ],
-    "id": 33018
+    "id": 21848
+  },
+  {
+    "type": 17,
+    "icao": "MT55",
+    "lat": 45.78745194,
+    "lon": -108.51735806,
+    "communications": [],
+    "elevation": 3137,
+    "tower": false,
+    "name": "[H] Deaconess Medical Center of Billings I",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 45.78745194,
+        "lonStart": -108.51735806,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 21876
   }
 ]

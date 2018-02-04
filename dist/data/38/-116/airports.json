@@ -1,64 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "9U7",
-    "lat": 38.736047,
-    "lon": -115.480311,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 5181,
-    "tower": false,
-    "name": "CURRANT RANCH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 38.730019,
-        "lonStart": -115.484861,
-        "latEnd": 38.742075,
-        "lonEnd": -115.475761,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 4273
-  },
-  {
-    "type": 1,
-    "icao": "NV01",
-    "lat": 38.03633833000001,
-    "lon": -115.45919612,
-    "communications": [],
-    "elevation": 5161,
-    "tower": false,
-    "name": "Civa",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 38.03975401,
-        "lonStart": -115.45957553,
-        "latEnd": 38.03292265,
-        "lonEnd": -115.45881671,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 5036
-  },
-  {
-    "type": 1,
     "icao": "01U",
     "lat": 38.85159972,
     "lon": -115.63364695,
@@ -94,7 +36,65 @@
         "surfacetype": 4
       }
     ],
-    "id": 6521
+    "id": 6788
+  },
+  {
+    "type": 1,
+    "icao": "9U7",
+    "lat": 38.736047,
+    "lon": -115.480311,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 5181,
+    "tower": false,
+    "name": "CURRANT RANCH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 38.730019,
+        "lonStart": -115.484861,
+        "latEnd": 38.742075,
+        "lonEnd": -115.475761,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10813
+  },
+  {
+    "type": 1,
+    "icao": "NV01",
+    "lat": 38.03633833000001,
+    "lon": -115.45919612,
+    "communications": [],
+    "elevation": 5161,
+    "tower": false,
+    "name": "Civa",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 38.03975401,
+        "lonStart": -115.45957553,
+        "latEnd": 38.03292265,
+        "lonEnd": -115.45881671,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 22902
   },
   {
     "type": 1,
@@ -120,6 +120,6 @@
         "surfacetype": 4
       }
     ],
-    "id": 24385
+    "id": 22908
   }
 ]

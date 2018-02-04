@@ -1,6 +1,53 @@
 [
   {
     "type": 1,
+    "icao": "DTNH",
+    "lat": 36.075732,
+    "lon": 10.4386025,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13630,
+        "name": "ATIS ENFIDHA"
+      },
+      {
+        "type": 53,
+        "frequency": 12167,
+        "name": "ENFIDHA GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11855,
+        "name": "ENFIDHA TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11930,
+        "name": "ENFIDHA APP"
+      }
+    ],
+    "elevation": 21,
+    "tower": true,
+    "name": "Enfidha-Hammamet",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 36.075814,
+        "lonStart": 10.420286,
+        "latEnd": 36.07565,
+        "lonEnd": 10.456919,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16065
+  },
+  {
+    "type": 1,
     "icao": "DTTA",
     "lat": 36.8512675,
     "lon": 10.230027,
@@ -62,53 +109,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 3708
-  },
-  {
-    "type": 1,
-    "icao": "DTNH",
-    "lat": 36.075732,
-    "lon": 10.4386025,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13630,
-        "name": "ATIS ENFIDHA"
-      },
-      {
-        "type": 53,
-        "frequency": 12167,
-        "name": "ENFIDHA GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11855,
-        "name": "ENFIDHA TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11930,
-        "name": "ENFIDHA APP"
-      }
-    ],
-    "elevation": 21,
-    "tower": true,
-    "name": "Enfidha-Hammamet",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 36.075814,
-        "lonStart": 10.420286,
-        "latEnd": 36.07565,
-        "lonEnd": 10.456919,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 7186
+    "id": 16066
   }
 ]

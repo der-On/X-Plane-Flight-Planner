@@ -1,89 +1,11 @@
 [
   {
     "type": 1,
-    "icao": "NZHB",
-    "lat": -36.79244766666667,
-    "lon": 174.66454533333334,
-    "communications": [],
-    "elevation": 62,
-    "tower": true,
-    "name": "Hobsonville",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.35,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": -36.7942284,
-        "lonStart": 174.65477889,
-        "latEnd": -36.7907636,
-        "lonEnd": 174.66858511,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 60.35,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": -36.79140564,
-        "lonStart": 174.66155939,
-        "latEnd": -36.79412036,
-        "lonEnd": 174.66821261,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 60.35,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": -36.78956162,
-        "lonStart": 174.66585892,
-        "latEnd": -36.79460638,
-        "lonEnd": 174.66827708,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11908
-  },
-  {
-    "type": 1,
-    "icao": "NZKF",
-    "lat": -36.4063797,
-    "lon": 174.5872192,
-    "communications": [],
-    "elevation": 110,
-    "tower": false,
-    "name": "Kaipara Flats",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": -36.406446,
-        "lonStart": 174.58249962,
-        "latEnd": -36.4063134,
-        "lonEnd": 174.59193878,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 13540
-  },
-  {
-    "type": 1,
     "icao": "NZNE",
-    "lat": -36.6563015,
-    "lon": 174.6559445,
+    "lat": -36.656381432857145,
+    "lon": 174.65507834000002,
     "communications": [],
-    "elevation": 212,
+    "elevation": 211,
     "tower": true,
     "name": "North Shore",
     "runways": [
@@ -93,10 +15,10 @@
         "surfaceType": null,
         "numberStart": "03",
         "numberEnd": "21",
-        "latStart": -36.65874942,
-        "lonStart": 174.65222952,
-        "latEnd": -36.65384258,
-        "lonEnd": 174.65865248,
+        "latStart": -36.65879196,
+        "lonStart": 174.65222442,
+        "latEnd": -36.65396455,
+        "lonEnd": 174.65860318,
         "length": 0,
         "surfacetype": 2
       },
@@ -107,98 +29,56 @@
         "numberStart": "09",
         "numberEnd": "27",
         "latStart": -36.65564895,
-        "lonStart": 174.65342889,
+        "lonStart": 174.65343027,
         "latEnd": -36.65696505,
-        "lonEnd": 174.65946711,
+        "lonEnd": 174.65946849,
         "length": 0,
         "surfacetype": 5
-      }
-    ],
-    "id": 18460
-  },
-  {
-    "type": 1,
-    "icao": "NZPI",
-    "lat": -36.6519089,
-    "lon": 174.436264,
-    "communications": [],
-    "elevation": 6,
-    "tower": false,
-    "name": "Parakai",
-    "runways": [
+      },
       {
-        "type": 100,
-        "width": 10.06,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": -36.6519089,
-        "lonStart": 174.43259884,
-        "latEnd": -36.6519089,
-        "lonEnd": 174.43992916,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 19759
-  },
-  {
-    "type": 1,
-    "icao": "NZPK",
-    "lat": -36.929871,
-    "lon": 174.815247,
-    "communications": [],
-    "elevation": 10,
-    "tower": false,
-    "name": "Pikes Point",
-    "runways": [
+        "type": 102,
+        "width": 5,
+        "surfaceType": 2,
+        "numberStart": "H9",
+        "numberEnd": null,
+        "latStart": -36.65621755,
+        "lonStart": 174.65366694,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 5
+      },
       {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": -36.93008319,
-        "lonStart": 174.81102783,
-        "latEnd": -36.92965881,
-        "lonEnd": 174.81946617,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 20119
-  },
-  {
-    "type": 1,
-    "icao": "NZSL",
-    "lat": -36.3248253,
-    "lon": 174.5559998,
-    "communications": [],
-    "elevation": 99,
-    "tower": false,
-    "name": "Springhill",
-    "runways": [
+        "type": 102,
+        "width": 5,
+        "surfaceType": 2,
+        "numberStart": "H24",
+        "numberEnd": null,
+        "latStart": -36.65657471,
+        "lonStart": 174.65414296,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 5
+      },
       {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": -36.32088972,
-        "lonStart": 174.55591453,
-        "latEnd": -36.32876088,
-        "lonEnd": 174.55608507,
-        "length": 0,
-        "surfacetype": 2
+        "type": 102,
+        "width": 5,
+        "surfaceType": 2,
+        "numberStart": "H23",
+        "numberEnd": null,
+        "latStart": -36.65650726,
+        "lonStart": 174.65401212,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 5
       }
     ],
-    "id": 23997
+    "id": 4251
   },
   {
     "type": 1,
     "icao": "NZWP",
-    "lat": -36.78655725,
-    "lon": 174.63029475000002,
+    "lat": -36.78635386333333,
+    "lon": 174.63089324166663,
     "communications": [
       {
         "type": 50,
@@ -231,10 +111,10 @@
         "surfaceType": null,
         "numberStart": "03",
         "numberEnd": "21",
-        "latStart": -36.79618644,
-        "lonStart": 174.62090548,
-        "latEnd": -36.78509756,
-        "lonEnd": 174.63904252,
+        "latStart": -36.79613312,
+        "lonStart": 174.62087323,
+        "latEnd": -36.78510678,
+        "lonEnd": 174.6390363,
         "length": 0,
         "surfacetype": 1
       },
@@ -244,23 +124,10 @@
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": -36.78375259,
-        "lonStart": 174.62330971,
-        "latEnd": -36.78570541,
-        "lonEnd": 174.64097229,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": -36.78184286,
-        "lonStart": 174.62364587,
-        "latEnd": -36.79229114,
-        "lonEnd": 174.63343413,
+        "latStart": -36.78371154,
+        "lonStart": 174.62344467,
+        "latEnd": -36.78568356,
+        "lonEnd": 174.64100187,
         "length": 0,
         "surfacetype": 2
       },
@@ -270,14 +137,118 @@
         "surfaceType": null,
         "numberStart": "08L",
         "numberEnd": "26R",
-        "latStart": -36.78328709,
-        "lonStart": 174.62604717,
-        "latEnd": -36.78429491,
-        "lonEnd": 174.63500083,
+        "latStart": -36.78324018,
+        "lonStart": 174.62602486,
+        "latEnd": -36.784248,
+        "lonEnd": 174.63497852,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 27189
+    "id": 4289
+  },
+  {
+    "type": 1,
+    "icao": "NZKF",
+    "lat": -36.4063797,
+    "lon": 174.5872192,
+    "communications": [],
+    "elevation": 110,
+    "tower": false,
+    "name": "Kaipara Flats",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -36.406446,
+        "lonStart": 174.58249962,
+        "latEnd": -36.4063134,
+        "lonEnd": 174.59193878,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23066
+  },
+  {
+    "type": 1,
+    "icao": "NZPI",
+    "lat": -36.6519089,
+    "lon": 174.436264,
+    "communications": [],
+    "elevation": 6,
+    "tower": false,
+    "name": "Parakai",
+    "runways": [
+      {
+        "type": 100,
+        "width": 10.06,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -36.6519089,
+        "lonStart": 174.43259884,
+        "latEnd": -36.6519089,
+        "lonEnd": 174.43992916,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23073
+  },
+  {
+    "type": 1,
+    "icao": "NZPK",
+    "lat": -36.929871,
+    "lon": 174.815247,
+    "communications": [],
+    "elevation": 10,
+    "tower": false,
+    "name": "Pikes Point",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -36.93008319,
+        "lonStart": 174.81102783,
+        "latEnd": -36.92965881,
+        "lonEnd": 174.81946617,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 23074
+  },
+  {
+    "type": 1,
+    "icao": "NZSL",
+    "lat": -36.3248253,
+    "lon": 174.5559998,
+    "communications": [],
+    "elevation": 99,
+    "tower": false,
+    "name": "Springhill",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -36.32088972,
+        "lonStart": 174.55591453,
+        "latEnd": -36.32876088,
+        "lonEnd": 174.55608507,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 23078
   }
 ]

@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "LPBR",
-    "lat": 41.587022000000005,
-    "lon": -8.4451915,
+    "lat": 41.587113996666666,
+    "lon": -8.444444663333334,
     "communications": [
       {
         "type": 54,
@@ -13,7 +13,7 @@
     ],
     "elevation": 247,
     "tower": false,
-    "name": "BRAGA",
+    "name": "Braga",
     "runways": [
       {
         "type": 100,
@@ -21,46 +21,32 @@
         "surfaceType": null,
         "numberStart": "07",
         "numberEnd": "25",
-        "latStart": 41.58505,
-        "lonStart": -8.450169,
-        "latEnd": 41.588994,
-        "lonEnd": -8.440214,
+        "latStart": 41.5850317,
+        "lonStart": -8.45015783,
+        "latEnd": 41.58898925,
+        "lonEnd": -8.4401888,
         "length": 0,
         "surfacetype": 1
-      }
-    ],
-    "id": 1881
-  },
-  {
-    "type": 1,
-    "icao": "LPVL",
-    "lat": 41.2666702,
-    "lon": -8.5010157,
-    "communications": [],
-    "elevation": 787,
-    "tower": false,
-    "name": "Maia Airfield",
-    "runways": [
+      },
       {
-        "type": 100,
-        "width": 30.18,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 41.26998416,
-        "lonStart": -8.50321391,
-        "latEnd": 41.26335624,
-        "lonEnd": -8.49881749,
-        "length": 0,
-        "surfacetype": 1
+        "type": 102,
+        "width": 16.71,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.58732104,
+        "lonStart": -8.44298736,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.5
       }
     ],
-    "id": 16492
+    "id": 3870
   },
   {
     "type": 1,
     "icao": "LPPR",
-    "lat": 41.247932000000006,
+    "lat": 41.247937,
     "lon": -8.6812205,
     "communications": [
       {
@@ -79,24 +65,56 @@
         "name": "APP"
       }
     ],
-    "elevation": 228,
+    "elevation": 226,
     "tower": true,
     "name": "Porto",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 45,
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 41.263328,
-        "lonStart": -8.685244,
-        "latEnd": 41.232536,
-        "lonEnd": -8.677197,
+        "latStart": 41.263316,
+        "lonStart": -8.685252,
+        "latEnd": 41.232558,
+        "lonEnd": -8.677189,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 20419
+    "id": 3900
+  },
+  {
+    "type": 1,
+    "icao": "LPVL",
+    "lat": 41.278670095,
+    "lon": -8.51690776,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12240,
+        "name": "Tower"
+      }
+    ],
+    "elevation": 761,
+    "tower": true,
+    "name": "Maia Airfield",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 41.28562842,
+        "lonStart": -8.52132102,
+        "latEnd": 41.27171177,
+        "lonEnd": -8.5124945,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3910
   }
 ]

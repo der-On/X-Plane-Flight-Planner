@@ -1,6 +1,43 @@
 [
   {
     "type": 1,
+    "icao": "LCPH",
+    "lat": 34.71814826,
+    "lon": 32.484839050000005,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11990,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12080,
+        "name": "APP"
+      }
+    ],
+    "elevation": 41,
+    "tower": true,
+    "name": "PAFOS INTL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 34.72235853,
+        "lonStart": 32.47101389,
+        "latEnd": 34.71393799,
+        "lonEnd": 32.49866421,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3464
+  },
+  {
+    "type": 1,
     "icao": "LCRA",
     "lat": 34.590417,
     "lon": 32.987750000000005,
@@ -44,43 +81,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 786
-  },
-  {
-    "type": 1,
-    "icao": "LCPH",
-    "lat": 34.7180375,
-    "lon": 32.4857305,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11990,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12080,
-        "name": "APP"
-      }
-    ],
-    "elevation": 41,
-    "tower": true,
-    "name": "PAFOS INTL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 34.722256,
-        "lonStart": 32.471892,
-        "latEnd": 34.713819,
-        "lonEnd": 32.499569,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19161
+    "id": 20142
   }
 ]

@@ -1,7 +1,44 @@
 [
   {
     "type": 1,
-    "icao": "WX94",
+    "icao": "WADY",
+    "lat": -8.309888664999999,
+    "lon": 114.341851555,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11835,
+        "name": "Tower"
+      },
+      {
+        "type": 54,
+        "frequency": 12265,
+        "name": "Tower (secondary)"
+      }
+    ],
+    "elevation": 42,
+    "tower": true,
+    "name": "Blimbingsari",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -8.31108333,
+        "lonStart": 114.33378611,
+        "latEnd": -8.308694,
+        "lonEnd": 114.349917,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5242
+  },
+  {
+    "type": 1,
+    "icao": "WADE",
     "lat": -8.139306905,
     "lon": 114.61553472,
     "communications": [],
@@ -23,6 +60,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 15202
+    "id": 31386
   }
 ]

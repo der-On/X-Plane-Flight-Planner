@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "SA18",
+    "lat": -38.081902,
+    "lon": -70.64389758499999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11820,
+        "name": "ATC traffic"
+      }
+    ],
+    "elevation": 3450,
+    "tower": false,
+    "name": "Loncopué",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -38.08077585,
+        "lonStart": -70.65293081,
+        "latEnd": -38.08302815,
+        "lonEnd": -70.63486436,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4532
+  },
+  {
+    "type": 1,
     "icao": "SA38",
     "lat": -38.53829967,
     "lon": -70.33677088499999,
@@ -29,39 +61,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 14986
-  },
-  {
-    "type": 1,
-    "icao": "SA18",
-    "lat": -38.081902,
-    "lon": -70.64389758499999,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11820,
-        "name": "ATC traffic"
-      }
-    ],
-    "elevation": 3450,
-    "tower": false,
-    "name": "LoncopuC)",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": -38.08077585,
-        "lonStart": -70.65293081,
-        "latEnd": -38.08302815,
-        "lonEnd": -70.63486436,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 15423
+    "id": 4534
   },
   {
     "type": 1,
@@ -99,6 +99,6 @@
         "length": 4.6
       }
     ],
-    "id": 27875
+    "id": 4546
   }
 ]

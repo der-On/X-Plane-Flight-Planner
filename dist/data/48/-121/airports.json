@@ -1,6 +1,107 @@
 [
   {
     "type": 1,
+    "icao": "2S0",
+    "lat": 48.350586050000004,
+    "lon": -120.093906315,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1602,
+    "tower": false,
+    "name": "Twisp Municipal Airport",
+    "runways": [
+      {
+        "type": 100,
+        "width": 10.97,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 48.35234885,
+        "lonStart": -120.09880861,
+        "latEnd": 48.34882325,
+        "lonEnd": -120.08900402,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 92
+  },
+  {
+    "type": 1,
+    "icao": "6S9",
+    "lat": 48.345698705000004,
+    "lon": -120.720670365,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1229,
+    "tower": false,
+    "name": "Stehekin State Airport",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 48.348853,
+        "lonStart": -120.72330275,
+        "latEnd": 48.34254441,
+        "lonEnd": -120.71803798,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 231
+  },
+  {
+    "type": 1,
+    "icao": "S52",
+    "lat": 48.424941860000004,
+    "lon": -120.14586552,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 50,
+        "frequency": 11842,
+        "name": "AWOS-3"
+      }
+    ],
+    "elevation": 1706,
+    "tower": false,
+    "name": "Methow Valley State",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 48.43072799,
+        "lonStart": -120.15154717,
+        "latEnd": 48.41915573,
+        "lonEnd": -120.14018387,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4510
+  },
+  {
+    "type": 1,
     "icao": "W12",
     "lat": 48.64958416,
     "lon": -120.50204445,
@@ -20,98 +121,9 @@
         "latEnd": 48.64674986,
         "lonEnd": -120.49710926,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 5
       }
     ],
-    "id": 15527
-  },
-  {
-    "type": 1,
-    "icao": "S52",
-    "lat": 48.4249475,
-    "lon": -120.1458865,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11842,
-        "name": "AWOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 1706,
-    "tower": false,
-    "name": "METHOW VALLEY STATE",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 48.430742,
-        "lonStart": -120.151567,
-        "latEnd": 48.419153,
-        "lonEnd": -120.140206,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 16057
-  },
-  {
-    "type": 1,
-    "icao": "6S9",
-    "lat": 48.34569055,
-    "lon": -120.72065612,
-    "communications": [],
-    "elevation": 1229,
-    "tower": false,
-    "name": "Stehekin State",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 48.34881432,
-        "lonStart": -120.72336966,
-        "latEnd": 48.34256678,
-        "lonEnd": -120.71794258,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 24155
-  },
-  {
-    "type": 1,
-    "icao": "2S0",
-    "lat": 48.350422769999994,
-    "lon": -120.09396834,
-    "communications": [],
-    "elevation": 1597,
-    "tower": false,
-    "name": "Twisp Municipal",
-    "runways": [
-      {
-        "type": 100,
-        "width": 10.97,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 48.35226742,
-        "lonStart": -120.09877599,
-        "latEnd": 48.34857812,
-        "lonEnd": -120.08916069,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 25762
+    "id": 5213
   }
 ]

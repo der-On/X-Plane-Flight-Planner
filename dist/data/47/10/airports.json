@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "ED01",
-    "lat": 47.554143395,
-    "lon": 10.27298577,
+    "lat": 47.554142999999996,
+    "lon": 10.272985985,
     "communications": [
       {
         "type": 54,
@@ -11,63 +11,31 @@
         "name": "Agathazell Info"
       }
     ],
-    "elevation": 2393,
-    "tower": false,
+    "elevation": 2385,
+    "tower": true,
     "name": "Agathazell",
     "runways": [
       {
         "type": 100,
-        "width": 7.5,
+        "width": 7,
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 47.55701754,
-        "lonStart": 10.27271933,
-        "latEnd": 47.55126925,
-        "lonEnd": 10.27325221,
+        "latStart": 47.55701715,
+        "lonStart": 10.27271957,
+        "latEnd": 47.55126885,
+        "lonEnd": 10.2732524,
         "length": 0,
         "surfacetype": 2
       }
     ],
-    "id": 677
-  },
-  {
-    "type": 1,
-    "icao": "ETHA",
-    "lat": 47.835509,
-    "lon": 10.87127701,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12210,
-        "name": "Altenstadt Tower"
-      }
-    ],
-    "elevation": 2424,
-    "tower": true,
-    "name": "Altenstadt AB",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 47.83548872,
-        "lonStart": 10.86659601,
-        "latEnd": 47.83552928,
-        "lonEnd": 10.87595801,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 931
+    "id": 950
   },
   {
     "type": 1,
     "icao": "ED02",
-    "lat": 47.58270846,
-    "lon": 10.687601064999999,
+    "lat": 47.582708,
+    "lon": 10.687602025,
     "communications": [
       {
         "type": 54,
@@ -75,7 +43,7 @@
         "name": "Fuessen Info"
       }
     ],
-    "elevation": 2628,
+    "elevation": 2585,
     "tower": false,
     "name": "Fuessen",
     "runways": [
@@ -85,15 +53,15 @@
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": 47.58240306,
-        "lonStart": 10.6841619,
-        "latEnd": 47.58301386,
-        "lonEnd": 10.69104023,
+        "latStart": 47.58240262,
+        "lonStart": 10.68416283,
+        "latEnd": 47.58301338,
+        "lonEnd": 10.69104122,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 9774
+    "id": 968
   },
   {
     "type": 1,
@@ -137,7 +105,49 @@
         "length": 24.8
       }
     ],
-    "id": 13664
+    "id": 979
+  },
+  {
+    "type": 1,
+    "icao": "EDJA",
+    "lat": 47.98884039,
+    "lon": 10.23952111,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12685,
+        "name": "Memmingen Tower"
+      },
+      {
+        "type": 53,
+        "frequency": 12167,
+        "name": "Memmingen Ground"
+      },
+      {
+        "type": 50,
+        "frequency": 11885,
+        "name": "Memmingen ATIS"
+      }
+    ],
+    "elevation": 2063,
+    "tower": true,
+    "name": "Memmingen/ Allgaeu",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 47.98206739,
+        "lonStart": 10.22246411,
+        "latEnd": 47.99561339,
+        "lonEnd": 10.25657811,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1143
   },
   {
     "type": 1,
@@ -194,7 +204,7 @@
         "length": 7.6
       }
     ],
-    "id": 13739
+    "id": 1196
   },
   {
     "type": 1,
@@ -226,55 +236,45 @@
         "surfacetype": 1
       }
     ],
-    "id": 15210
+    "id": 1221
   },
   {
     "type": 1,
-    "icao": "EDJA",
-    "lat": 47.98884039,
-    "lon": 10.23952111,
+    "icao": "ETHA",
+    "lat": 47.835509,
+    "lon": 10.87127701,
     "communications": [
       {
         "type": 54,
-        "frequency": 12685,
-        "name": "Memmingen Tower"
-      },
-      {
-        "type": 53,
-        "frequency": 12167,
-        "name": "Memmingen Ground"
-      },
-      {
-        "type": 50,
-        "frequency": 11885,
-        "name": "Memmingen ATIS"
+        "frequency": 12210,
+        "name": "Altenstadt Tower"
       }
     ],
-    "elevation": 2063,
+    "elevation": 2424,
     "tower": true,
-    "name": "Memmingen/ Allgaeu",
+    "name": "Altenstadt AB",
     "runways": [
       {
         "type": 100,
         "width": 30,
         "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 47.98206739,
-        "lonStart": 10.22246411,
-        "latEnd": 47.99561339,
-        "lonEnd": 10.25657811,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 47.83548872,
+        "lonStart": 10.86659601,
+        "latEnd": 47.83552928,
+        "lonEnd": 10.87595801,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 17054
+    "id": 2059
   },
   {
     "type": 1,
     "icao": "LOIR",
-    "lat": 47.47095925,
-    "lon": 10.691260415,
+    "lat": 47.470573447499994,
+    "lon": 10.6905736,
     "communications": [
       {
         "type": 54,
@@ -282,24 +282,69 @@
         "name": "Reutte Info"
       }
     ],
-    "elevation": 2842,
-    "tower": false,
+    "elevation": 2841,
+    "tower": true,
     "name": "Reutte - Hoefen",
     "runways": [
       {
         "type": 100,
+        "width": 18,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 47.46815381,
+        "lonStart": 10.687193,
+        "latEnd": 47.47301561,
+        "lonEnd": 10.69444163,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
         "width": 30,
         "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 47.4684235,
-        "lonStart": 10.68748066,
-        "latEnd": 47.473495,
-        "lonEnd": 10.69504017,
+        "numberStart": "04L",
+        "numberEnd": "22R",
+        "latStart": 47.46916122,
+        "lonStart": 10.68824152,
+        "latEnd": 47.47196315,
+        "lonEnd": 10.69241825,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 21389
+    "id": 3851
+  },
+  {
+    "type": 1,
+    "icao": "XEDL7",
+    "lat": 47.757490465000004,
+    "lon": 10.90452959,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12342,
+        "name": "Peiting Info"
+      }
+    ],
+    "elevation": 2442,
+    "tower": true,
+    "name": "Peiting",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.5,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 47.75672507,
+        "lonStart": 10.90210643,
+        "latEnd": 47.75825586,
+        "lonEnd": 10.90695275,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5396
   }
 ]

@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "LINL",
+    "lat": 40.358917805000004,
+    "lon": 18.29797386,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11965,
+        "name": "Lecce Radio"
+      }
+    ],
+    "elevation": 59,
+    "tower": true,
+    "name": "LECCE Lepore",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 40.36284894,
+        "lonStart": 18.29870401,
+        "latEnd": 40.35498667,
+        "lonEnd": 18.29724371,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3791
+  },
+  {
+    "type": 1,
     "icao": "LIBN",
     "lat": 40.238982,
     "lon": 18.1330905,
@@ -44,38 +76,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 14462
-  },
-  {
-    "type": 1,
-    "icao": "LINL",
-    "lat": 40.358917805000004,
-    "lon": 18.29797386,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11965,
-        "name": "Lecce Radio"
-      }
-    ],
-    "elevation": 59,
-    "tower": true,
-    "name": "LECCE Lepore",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 40.36284894,
-        "lonStart": 18.29870401,
-        "latEnd": 40.35498667,
-        "lonEnd": 18.29724371,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 14463
+    "id": 20534
   }
 ]

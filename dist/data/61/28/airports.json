@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "EFLP",
+    "lat": 61.044507785,
+    "lon": 28.14428397,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12020,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 349,
+    "tower": true,
+    "name": "Lappeenranta",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 61.04005951,
+        "lonStart": 28.12294211,
+        "latEnd": 61.04895606,
+        "lonEnd": 28.16562583,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1473
+  },
+  {
+    "type": 1,
     "icao": "EFIM",
     "lat": 61.249131000000006,
     "lon": 28.903646,
@@ -36,39 +68,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 12283
-  },
-  {
-    "type": 1,
-    "icao": "EFLP",
-    "lat": 61.044507785,
-    "lon": 28.14428397,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12020,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 349,
-    "tower": true,
-    "name": "Lappeenranta",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 61.04005951,
-        "lonStart": 28.12294211,
-        "latEnd": 61.04895606,
-        "lonEnd": 28.16562583,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 14959
+    "id": 16182
   },
   {
     "type": 1,
@@ -105,6 +105,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 23060
+    "id": 16218
   }
 ]

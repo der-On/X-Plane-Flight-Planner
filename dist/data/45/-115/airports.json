@@ -1,41 +1,87 @@
 [
   {
     "type": 1,
-    "icao": "U81",
-    "lat": 45.291528,
-    "lon": -114.949444,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 7029,
+    "icao": "2U5",
+    "lat": 45.989897264999996,
+    "lon": -114.84156157999999,
+    "communications": [],
+    "elevation": 2633,
     "tower": false,
-    "name": "COLD MEADOWS USFS",
+    "name": "Shearer USFS",
     "runways": [
       {
         "type": 100,
-        "width": 27.43,
+        "width": 15.24,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 45.297778,
-        "lonStart": -114.949444,
-        "latEnd": 45.285278,
-        "lonEnd": -114.949444,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 45.99242558,
+        "lonStart": -114.84029887,
+        "latEnd": 45.98736895,
+        "lonEnd": -114.84282429,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 4028
+    "id": 96
+  },
+  {
+    "type": 1,
+    "icao": "4U7",
+    "lat": 45.86428396,
+    "lon": -114.21584920500001,
+    "communications": [],
+    "elevation": 4247,
+    "tower": false,
+    "name": "West Fork Lodge",
+    "runways": [
+      {
+        "type": 100,
+        "width": 19.81,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 45.86164834,
+        "lonStart": -114.21907973,
+        "latEnd": 45.86691958,
+        "lonEnd": -114.21261868,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 168
+  },
+  {
+    "type": 1,
+    "icao": "85U",
+    "lat": 45.104622875000004,
+    "lon": -114.79927166,
+    "communications": [],
+    "elevation": 4189,
+    "tower": false,
+    "name": "Soldier Bar USFS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.1,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 45.10468022,
+        "lonStart": -114.80261923,
+        "latEnd": 45.10456553,
+        "lonEnd": -114.79592409,
+        "length": 0,
+        "surfacetype": 15
+      }
+    ],
+    "id": 479
   },
   {
     "type": 1,
     "icao": "I08",
-    "lat": 45.14352444,
-    "lon": -114.92898973,
+    "lat": 45.14373291,
+    "lon": -114.92868763999999,
     "communications": [],
     "elevation": 4289,
     "tower": false,
@@ -47,21 +93,79 @@
         "surfaceType": null,
         "numberStart": "02",
         "numberEnd": "20",
-        "latStart": 45.14160763,
-        "lonStart": -114.93103759,
-        "latEnd": 45.14544125,
-        "lonEnd": -114.92694187,
+        "latStart": 45.14195887,
+        "lonStart": -114.93058316,
+        "latEnd": 45.14550695,
+        "lonEnd": -114.92679212,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 4
       }
     ],
-    "id": 4294
+    "id": 2299
   },
   {
     "type": 1,
-    "icao": "72U",
-    "lat": 45.91408361,
-    "lon": -114.83566056000001,
+    "icao": "MT30",
+    "lat": 45.939335025,
+    "lon": -114.13695023,
+    "communications": [],
+    "elevation": 4040,
+    "tower": false,
+    "name": "Trapper Creek Strip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 45.94040576,
+        "lonStart": -114.13694264,
+        "latEnd": 45.93826429,
+        "lonEnd": -114.13695782,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 4141
+  },
+  {
+    "type": 1,
+    "icao": "U81",
+    "lat": 45.29331254,
+    "lon": -114.9453384,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 7028,
+    "tower": false,
+    "name": "COLD MEADOWS USFS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 93.28,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 45.29971433,
+        "lonStart": -114.94579177,
+        "latEnd": 45.28691075,
+        "lonEnd": -114.94488503,
+        "length": 0,
+        "surfacetype": 15
+      }
+    ],
+    "id": 5055
+  },
+  {
+    "type": 1,
+    "icao": "XK05ID",
+    "lat": 45.914284405000004,
+    "lon": -114.83551531500001,
     "communications": [],
     "elevation": 2969,
     "tower": false,
@@ -69,71 +173,19 @@
     "runways": [
       {
         "type": 100,
-        "width": 21.34,
+        "width": 27.43,
         "surfaceType": null,
         "numberStart": "03",
         "numberEnd": "21",
-        "latStart": 45.9122482,
-        "lonStart": -114.83859045,
-        "latEnd": 45.91591902,
-        "lonEnd": -114.83273067,
+        "latStart": 45.91219661,
+        "lonStart": -114.83799166,
+        "latEnd": 45.9163722,
+        "lonEnd": -114.83303897,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 21831
-  },
-  {
-    "type": 1,
-    "icao": "2U5",
-    "lat": 45.99158416,
-    "lon": -114.84093945000001,
-    "communications": [],
-    "elevation": 2634,
-    "tower": false,
-    "name": "Shearer USFS",
-    "runways": [
-      {
-        "type": 100,
-        "width": 7.62,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 45.99419289,
-        "lonStart": -114.83971943,
-        "latEnd": 45.98897543,
-        "lonEnd": -114.84215947,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23368
-  },
-  {
-    "type": 1,
-    "icao": "85U",
-    "lat": 45.104751,
-    "lon": -114.799404,
-    "communications": [],
-    "elevation": 4190,
-    "tower": false,
-    "name": "Soldier Bar USFS",
-    "runways": [
-      {
-        "type": 100,
-        "width": 4.57,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 45.10471151,
-        "lonStart": -114.80260969,
-        "latEnd": 45.10479049,
-        "lonEnd": -114.79619831,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 23808
+    "id": 5482
   },
   {
     "type": 1,
@@ -159,58 +211,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 25109
-  },
-  {
-    "type": 1,
-    "icao": "MT30",
-    "lat": 45.94019777,
-    "lon": -114.13702917,
-    "communications": [],
-    "elevation": 4040,
-    "tower": false,
-    "name": "Trapper Creek Strip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 45.9422111,
-        "lonStart": -114.1371809,
-        "latEnd": 45.93818444,
-        "lonEnd": -114.13687744,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 25533
-  },
-  {
-    "type": 1,
-    "icao": "4U7",
-    "lat": 45.86241916,
-    "lon": -114.21480806,
-    "communications": [],
-    "elevation": 4247,
-    "tower": false,
-    "name": "West Fork Lodge",
-    "runways": [
-      {
-        "type": 100,
-        "width": 19.81,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 45.85965895,
-        "lonStart": -114.21779487,
-        "latEnd": 45.86517937,
-        "lonEnd": -114.21182125,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 27116
+    "id": 13694
   }
 ]

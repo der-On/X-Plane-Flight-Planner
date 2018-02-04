@@ -2,127 +2,148 @@
   {
     "type": 1,
     "icao": "LTBJ",
-    "lat": 38.29221,
-    "lon": 27.1559395,
+    "lat": 38.289045691666665,
+    "lon": 27.158183365,
     "communications": [
       {
         "type": 50,
-        "frequency": 12920,
+        "frequency": 12919,
         "name": "ATIS"
       },
       {
         "type": 53,
         "frequency": 12190,
-        "name": "MENDERES GND"
+        "name": "GND"
       },
       {
         "type": 54,
         "frequency": 11810,
-        "name": "MENDERES TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11950,
-        "name": "MENDERES APP"
-      },
-      {
-        "type": 55,
-        "frequency": 11977,
-        "name": "MENDERES APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12010,
-        "name": "MENDERES APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12017,
-        "name": "MENDERES APP"
-      }
-    ],
-    "elevation": 412,
-    "tower": true,
-    "name": "ADNAN MENDERES",
-    "runways": [
-      {
-        "type": 100,
-        "width": 44.81,
-        "surfaceType": null,
-        "numberStart": "16L",
-        "numberEnd": "34R",
-        "latStart": 38.306578,
-        "lonStart": 27.152719,
-        "latEnd": 38.278206,
-        "lonEnd": 27.161208,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 44.81,
-        "surfaceType": null,
-        "numberStart": "16R",
-        "numberEnd": "34L",
-        "latStart": 38.306231,
-        "lonStart": 27.150642,
-        "latEnd": 38.277825,
-        "lonEnd": 27.159189,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 73
-  },
-  {
-    "type": 1,
-    "icao": "LTBT",
-    "lat": 38.80895025,
-    "lon": 27.833787,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12210,
         "name": "TWR"
       },
       {
         "type": 55,
+        "frequency": 11950,
+        "name": "APP"
+      },
+      {
+        "type": 55,
         "frequency": 12010,
-        "name": "MENDERES APP"
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12860,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12869,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12930,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 13290,
+        "name": "APP"
       }
     ],
-    "elevation": 263,
+    "elevation": 412,
     "tower": true,
-    "name": "AKHISAR",
+    "name": "Adnan Menderes",
     "runways": [
       {
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "14L",
-        "numberEnd": "32R",
-        "latStart": 38.819549,
-        "lonStart": 27.823116,
-        "latEnd": 38.79924,
-        "lonEnd": 27.845758,
+        "numberStart": "16L",
+        "numberEnd": "34R",
+        "latStart": 38.30662517,
+        "lonStart": 27.15270609,
+        "latEnd": 38.2781985,
+        "lonEnd": 27.16128543,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "16R",
+        "numberEnd": "34L",
+        "latStart": 38.30624647,
+        "lonStart": 27.15064141,
+        "latEnd": 38.27781467,
+        "lonEnd": 27.15923446,
         "length": 0,
         "surfacetype": 2
       },
       {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "14R",
-        "numberEnd": "32L",
-        "latStart": 38.81866,
-        "lonStart": 27.821816,
-        "latEnd": 38.798352,
-        "lonEnd": 27.844458,
-        "length": 0,
-        "surfacetype": 2
+        "type": 102,
+        "width": 20,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 38.28279862,
+        "lonStart": 27.16258144,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20
+      },
+      {
+        "type": 102,
+        "width": 20,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 38.28259072,
+        "lonStart": 27.16265136,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20
       }
     ],
-    "id": 121
+    "id": 4004
+  },
+  {
+    "type": 1,
+    "icao": "LTBK",
+    "lat": 38.3191055,
+    "lon": 27.159353,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 12010,
+        "name": "MENDERES APP"
+      },
+      {
+        "type": 55,
+        "frequency": 13290,
+        "name": "MENDERES APP"
+      }
+    ],
+    "elevation": 433,
+    "tower": false,
+    "name": "GAZIEMIR",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 38.325086,
+        "lonStart": 27.157742,
+        "latEnd": 38.313125,
+        "lonEnd": 27.160964,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20915
   },
   {
     "type": 1,
@@ -179,43 +200,56 @@
         "surfacetype": 1
       }
     ],
-    "id": 3930
+    "id": 20916
   },
   {
     "type": 1,
-    "icao": "LTBK",
-    "lat": 38.3191055,
-    "lon": 27.159353,
+    "icao": "LTBT",
+    "lat": 38.80895025,
+    "lon": 27.833787,
     "communications": [
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "TWR"
+      },
       {
         "type": 55,
         "frequency": 12010,
         "name": "MENDERES APP"
-      },
-      {
-        "type": 55,
-        "frequency": 13290,
-        "name": "MENDERES APP"
       }
     ],
-    "elevation": 433,
-    "tower": false,
-    "name": "GAZIEMIR",
+    "elevation": 263,
+    "tower": true,
+    "name": "AKHISAR",
     "runways": [
       {
         "type": 100,
-        "width": 39.93,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 38.325086,
-        "lonStart": 27.157742,
-        "latEnd": 38.313125,
-        "lonEnd": 27.160964,
+        "numberStart": "14L",
+        "numberEnd": "32R",
+        "latStart": 38.819549,
+        "lonStart": 27.823116,
+        "latEnd": 38.79924,
+        "lonEnd": 27.845758,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "14R",
+        "numberEnd": "32L",
+        "latStart": 38.81866,
+        "lonStart": 27.821816,
+        "latEnd": 38.798352,
+        "lonEnd": 27.844458,
+        "length": 0,
+        "surfacetype": 2
       }
     ],
-    "id": 9907
+    "id": 20920
   }
 ]

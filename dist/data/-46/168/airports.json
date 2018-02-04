@@ -1,40 +1,24 @@
 [
   {
     "type": 1,
-    "icao": "NZVL",
-    "lat": -45.993827800000005,
-    "lon": 168.8163452,
-    "communications": [],
-    "elevation": 335,
-    "tower": false,
-    "name": "Mandeville",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": -45.99174551,
-        "lonStart": 168.8107082,
-        "latEnd": -45.99591009,
-        "lonEnd": 168.8219822,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 16578
-  },
-  {
-    "type": 1,
     "icao": "NZQN",
-    "lat": -45.020545999999996,
-    "lon": 168.745402,
+    "lat": -45.019653152500005,
+    "lon": 168.7447483075,
     "communications": [
       {
         "type": 50,
         "frequency": 12640,
         "name": "ATIS"
+      },
+      {
+        "type": 55,
+        "frequency": 12575,
+        "name": "APP"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TWR"
       },
       {
         "type": 51,
@@ -45,62 +29,91 @@
         "type": 53,
         "frequency": 12190,
         "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11810,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11810,
-        "name": "APP"
       }
     ],
-    "elevation": 1171,
+    "elevation": 1170,
     "tower": true,
     "name": "Queenstown",
     "runways": [
       {
         "type": 100,
-        "width": 35.36,
+        "width": 32,
         "surfaceType": null,
-        "numberStart": "05R",
-        "numberEnd": "23L",
-        "latStart": -45.02180538,
-        "lonStart": 168.73530165,
-        "latEnd": -45.01777662,
-        "lonEnd": 168.75807635,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -45.02013985,
+        "lonStart": 168.73499061,
+        "latEnd": -45.01649985,
+        "lonEnd": 168.75846252,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 50.9,
+        "width": 12,
         "surfaceType": null,
         "numberStart": "14",
         "numberEnd": "32",
-        "latStart": -45.01849307,
-        "lonStart": 168.74018074,
-        "latEnd": -45.02668093,
-        "lonEnd": 168.74413326,
+        "latStart": -45.01724914,
+        "lonStart": 168.74098496,
+        "latEnd": -45.02472377,
+        "lonEnd": 168.74455514,
         "length": 0,
-        "surfacetype": 3
-      },
+        "surfacetype": 1
+      }
+    ],
+    "id": 4266
+  },
+  {
+    "type": 1,
+    "icao": "NZVL",
+    "lat": -45.991805345,
+    "lon": 168.81562806,
+    "communications": [],
+    "elevation": 335,
+    "tower": false,
+    "name": "Mandeville",
+    "runways": [
       {
         "type": 100,
-        "width": 36.88,
+        "width": 62,
         "surfaceType": null,
-        "numberStart": "05L",
-        "numberEnd": "23R",
-        "latStart": -45.02009646,
-        "lonStart": 168.74262797,
-        "latEnd": -45.01842354,
-        "lonEnd": 168.75209203,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -45.98988406,
+        "lonStart": 168.81036352,
+        "latEnd": -45.99372663,
+        "lonEnd": 168.8208926,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 20701
+    "id": 4283
+  },
+  {
+    "type": 1,
+    "icao": "XNZYL",
+    "lat": -45.083868935,
+    "lon": 168.746696695,
+    "communications": [],
+    "elevation": 1207,
+    "tower": false,
+    "name": "Jacks Point",
+    "runways": [
+      {
+        "type": 100,
+        "width": 35,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -45.08205943,
+        "lonStart": 168.74197621,
+        "latEnd": -45.08567844,
+        "lonEnd": 168.75141718,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5531
   }
 ]

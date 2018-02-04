@@ -2,38 +2,43 @@
   {
     "type": 1,
     "icao": "LRTM",
-    "lat": 46.467777999999996,
-    "lon": 24.4125,
+    "lat": 46.467754775,
+    "lon": 24.41256063,
     "communications": [
       {
         "type": 54,
-        "frequency": 12590,
+        "frequency": 12033,
         "name": "TARGU MURES TWR"
       },
       {
         "type": 55,
-        "frequency": 12190,
+        "frequency": 12033,
         "name": "TARGU MURES APP"
+      },
+      {
+        "type": 50,
+        "frequency": 12595,
+        "name": "TARGU MURES ATIS"
       }
     ],
-    "elevation": 963,
+    "elevation": 962,
     "tower": true,
     "name": "TRANSILVANIA TARGU MURES",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 41.76,
         "surfaceType": null,
         "numberStart": "07",
         "numberEnd": "25",
-        "latStart": 46.465278,
-        "lonStart": 24.4,
-        "latEnd": 46.470278,
-        "lonEnd": 24.425,
+        "latStart": 46.46530007,
+        "lonStart": 24.39999106,
+        "latEnd": 46.47020948,
+        "lonEnd": 24.4251302,
         "length": 0,
         "surfacetype": 2
       }
     ],
-    "id": 24831
+    "id": 3931
   }
 ]

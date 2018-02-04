@@ -1,6 +1,71 @@
 [
   {
     "type": 1,
+    "icao": "YBRK",
+    "lat": -23.3788409575,
+    "lon": 150.4732693525,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12850,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "ROCKY GND"
+      },
+      {
+        "type": 52,
+        "frequency": 11955,
+        "name": "BRISBANE CENTRE"
+      },
+      {
+        "type": 55,
+        "frequency": 12375,
+        "name": "ROCKY APPROACH"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "ROCKY TOWER"
+      }
+    ],
+    "elevation": 34,
+    "tower": true,
+    "name": "Rockhampton",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": -23.38241059,
+        "lonStart": 150.46502595,
+        "latEnd": -23.37348247,
+        "lonEnd": 150.47787749,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -23.36904652,
+        "lonStart": 150.47029878,
+        "latEnd": -23.39042425,
+        "lonEnd": 150.47987519,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5585
+  },
+  {
+    "type": 1,
     "icao": "YEMP",
     "lat": -23.255597690000002,
     "lon": 150.81459892499998,
@@ -23,7 +88,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 6772
+    "id": 33223
   },
   {
     "type": 1,
@@ -55,7 +120,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 10738
+    "id": 33351
   },
   {
     "type": 1,
@@ -94,7 +159,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 11085
+    "id": 33427
   },
   {
     "type": 1,
@@ -120,7 +185,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 16100
+    "id": 33856
   },
   {
     "type": 1,
@@ -146,57 +211,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 18648
-  },
-  {
-    "type": 1,
-    "icao": "YBRK",
-    "lat": -23.377769968000003,
-    "lon": 150.47462314199998,
-    "communications": [],
-    "elevation": 34,
-    "tower": true,
-    "name": "Rockhampton",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": -23.36871188,
-        "lonStart": 150.47034733,
-        "latEnd": -23.39065712,
-        "lonEnd": 150.48010409,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 31,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": -23.38244334,
-        "lonStart": 150.46530493,
-        "latEnd": -23.37332058,
-        "lonEnd": 150.47825404,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 15,
-        "surfaceType": 2,
-        "numberStart": "H101",
-        "numberEnd": null,
-        "latStart": -23.37371692,
-        "lonStart": 150.47910532,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15
-      }
-    ],
-    "id": 21630
+    "id": 34150
   }
 ]

@@ -1,61 +1,90 @@
 [
   {
     "type": 1,
-    "icao": "SC48",
-    "lat": 33.88432694,
-    "lon": -79.99979472999999,
+    "icao": "38J",
+    "lat": 33.72865476,
+    "lon": -79.51596246,
     "communications": [],
-    "elevation": 109,
+    "elevation": 54,
     "tower": false,
-    "name": "Byrd Field",
+    "name": "[X] Hemingway Stuckey",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 33.72997103,
+        "lonStart": -79.52130384,
+        "latEnd": 33.72733849,
+        "lonEnd": -79.51062108,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 384
+  },
+  {
+    "type": 1,
+    "icao": "KGGE",
+    "lat": 33.3110276375,
+    "lon": -79.32005475,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 50,
+        "frequency": 11827,
+        "name": "AWOS-3"
+      },
+      {
+        "type": 55,
+        "frequency": 12740,
+        "name": "MYRTLE BEACH APP/DEP"
+      }
+    ],
+    "elevation": 39,
+    "tower": false,
+    "name": "Georgetown County",
     "runways": [
       {
         "type": 100,
         "width": 30.48,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 33.88938214,
-        "lonStart": -80.00032748,
-        "latEnd": 33.87927174,
-        "lonEnd": -79.99926198,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 33.30753052,
+        "lonStart": -79.32841948,
+        "latEnd": 33.31990803,
+        "lonEnd": -79.31542104,
         "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 3478
-  },
-  {
-    "type": 1,
-    "icao": "SC60",
-    "lat": 33.90405138,
-    "lon": -79.68395334,
-    "communications": [],
-    "elevation": 82,
-    "tower": false,
-    "name": "Cockfield Aerodrome",
-    "runways": [
+        "surfacetype": 1
+      },
       {
         "type": 100,
-        "width": 20.12,
+        "width": 45.72,
         "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 33.90086773,
-        "lonStart": -79.68654065,
-        "latEnd": 33.90723503,
-        "lonEnd": -79.68136603,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 33.309572,
+        "lonStart": -79.32547048,
+        "latEnd": 33.3071,
+        "lonEnd": -79.310908,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       }
     ],
-    "id": 5146
+    "id": 2710
   },
   {
     "type": 1,
     "icao": "KHYW",
     "lat": 33.8284845,
-    "lon": -79.12217749999999,
+    "lon": -79.12217704,
     "communications": [
       {
         "type": 50,
@@ -80,7 +109,7 @@
     ],
     "elevation": 34,
     "tower": false,
-    "name": "Conway-Horry County Airport",
+    "name": "Conway-Horry County",
     "runways": [
       {
         "type": 100,
@@ -88,31 +117,26 @@
         "surfaceType": null,
         "numberStart": "04",
         "numberEnd": "22",
-        "latStart": 33.823347,
-        "lonStart": -79.125997,
-        "latEnd": 33.833622,
-        "lonEnd": -79.118358,
+        "latStart": 33.82334687,
+        "lonStart": -79.12599675,
+        "latEnd": 33.83362213,
+        "lonEnd": -79.11835733,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 5280
+    "id": 2798
   },
   {
     "type": 1,
-    "icao": "KGGE",
-    "lat": 33.31204983333333,
-    "lon": -79.31714749999999,
+    "icao": "KPHH",
+    "lat": 33.4517035,
+    "lon": -79.52619899999999,
     "communications": [
       {
         "type": 51,
-        "frequency": 12300,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 52,
-        "frequency": 11970,
-        "name": "MYRTLE BEACH CLNC"
+        "frequency": 12290,
+        "name": "CTAF"
       },
       {
         "type": 55,
@@ -120,83 +144,25 @@
         "name": "MYRTLE BEACH APP/DEP"
       }
     ],
-    "elevation": 39,
+    "elevation": 26,
     "tower": false,
-    "name": "GEORGETOWN CO",
+    "name": "Robert F Swinnie",
     "runways": [
       {
         "type": 100,
-        "width": 30.48,
+        "width": 18.29,
         "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 33.3096,
-        "lonStart": -79.326247,
-        "latEnd": 33.319908,
-        "lonEnd": -79.315422,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 33.319486,
-        "lonStart": -79.315672,
-        "latEnd": 33.306633,
-        "lonEnd": -79.309167,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 33.309572,
-        "lonStart": -79.325469,
-        "latEnd": 33.3071,
-        "lonEnd": -79.310908,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 33.455788,
+        "lonStart": -79.526861,
+        "latEnd": 33.447619,
+        "lonEnd": -79.525537,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 9975
-  },
-  {
-    "type": 1,
-    "icao": "38J",
-    "lat": 33.7286415,
-    "lon": -79.515968,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 54,
-    "tower": false,
-    "name": "HEMINGWAY STUCKEY",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 33.729958,
-        "lonStart": -79.521308,
-        "latEnd": 33.727325,
-        "lonEnd": -79.510628,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 11092
+    "id": 3117
   },
   {
     "type": 1,
@@ -233,44 +199,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 14329
-  },
-  {
-    "type": 1,
-    "icao": "KPHH",
-    "lat": 33.4517,
-    "lon": -79.52617749999999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      },
-      {
-        "type": 55,
-        "frequency": 12740,
-        "name": "MYRTLE BEACH APP/DEP"
-      }
-    ],
-    "elevation": 26,
-    "tower": false,
-    "name": "ROBERT F SWINNIE",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 33.455786,
-        "lonStart": -79.526833,
-        "latEnd": 33.447614,
-        "lonEnd": -79.525522,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 20982
+    "id": 12522
   },
   {
     "type": 1,
@@ -307,6 +236,58 @@
         "surfacetype": 1
       }
     ],
-    "id": 26667
+    "id": 18954
+  },
+  {
+    "type": 1,
+    "icao": "SC48",
+    "lat": 33.88432694,
+    "lon": -79.99979472999999,
+    "communications": [],
+    "elevation": 109,
+    "tower": false,
+    "name": "Byrd Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 33.88938214,
+        "lonStart": -80.00032748,
+        "latEnd": 33.87927174,
+        "lonEnd": -79.99926198,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25198
+  },
+  {
+    "type": 1,
+    "icao": "SC60",
+    "lat": 33.90405138,
+    "lon": -79.68395334,
+    "communications": [],
+    "elevation": 82,
+    "tower": false,
+    "name": "Cockfield Aerodrome",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 33.90086773,
+        "lonStart": -79.68654065,
+        "latEnd": 33.90723503,
+        "lonEnd": -79.68136603,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25209
   }
 ]

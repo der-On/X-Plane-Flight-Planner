@@ -1,6 +1,51 @@
 [
   {
     "type": 1,
+    "icao": "SBQV",
+    "lat": -14.8853508175,
+    "lon": -40.888873950000004,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13030,
+        "name": "RDO"
+      }
+    ],
+    "elevation": 2998,
+    "tower": true,
+    "name": "Vitoria da Conquista",
+    "runways": [
+      {
+        "type": 100,
+        "width": 33,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -14.85805504,
+        "lonStart": -40.86962493,
+        "latEnd": -14.86752494,
+        "lonEnd": -40.85625766,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "15R",
+        "numberEnd": "33L",
+        "latStart": -14.90225883,
+        "lonStart": -40.9227005,
+        "latEnd": -14.91356446,
+        "lonEnd": -40.90691271,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4652
+  },
+  {
+    "type": 1,
     "icao": "SNZP",
     "lat": -14.522578,
     "lon": -40.345041499999994,
@@ -23,38 +68,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 20291
-  },
-  {
-    "type": 1,
-    "icao": "SBQV",
-    "lat": -14.86212461,
-    "lon": -40.863471655,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13030,
-        "name": "RDO"
-      }
-    ],
-    "elevation": 2998,
-    "tower": true,
-    "name": "VITORIA DA CONQUISTA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": -14.85720712,
-        "lonStart": -40.86998361,
-        "latEnd": -14.8670421,
-        "lonEnd": -40.8569597,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 26131
+    "id": 28200
   }
 ]

@@ -1,61 +1,9 @@
 [
   {
     "type": 1,
-    "icao": "LOLU",
-    "lat": 47.950278,
-    "lon": 13.866667,
-    "communications": [],
-    "elevation": 1670,
-    "tower": true,
-    "name": "Gmunden",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 47.94958872,
-        "lonStart": 13.86311922,
-        "latEnd": 47.95096728,
-        "lonEnd": 13.87021478,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 10546
-  },
-  {
-    "type": 1,
-    "icao": "LOSM",
-    "lat": 47.132999999999996,
-    "lon": 13.697,
-    "communications": [],
-    "elevation": 3642,
-    "tower": true,
-    "name": "Mauterndorf",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 47.13172754,
-        "lonStart": 13.6919097,
-        "latEnd": 47.13427246,
-        "lonEnd": 13.7020903,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 16833
-  },
-  {
-    "type": 1,
     "icao": "LOWS",
-    "lat": 47.793333000000004,
-    "lon": 13.0043335,
+    "lat": 47.79422949,
+    "lon": 13.003632915,
     "communications": [
       {
         "type": 50,
@@ -66,6 +14,11 @@
         "type": 53,
         "frequency": 12175,
         "name": "GND"
+      },
+      {
+        "type": 56,
+        "frequency": 13380,
+        "name": "DEP"
       },
       {
         "type": 54,
@@ -84,19 +37,19 @@
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 45,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 47.804722,
-        "lonStart": 12.997167,
-        "latEnd": 47.781944,
-        "lonEnd": 13.0115,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 47.80565396,
+        "lonStart": 12.99659357,
+        "latEnd": 47.78280502,
+        "lonEnd": 13.01067226,
         "length": 0,
         "surfacetype": 2
       }
     ],
-    "id": 22770
+    "id": 3859
   },
   {
     "type": 1,
@@ -122,6 +75,58 @@
         "surfacetype": 3
       }
     ],
-    "id": 23083
+    "id": 20760
+  },
+  {
+    "type": 1,
+    "icao": "LOLU",
+    "lat": 47.950278,
+    "lon": 13.866667,
+    "communications": [],
+    "elevation": 1670,
+    "tower": true,
+    "name": "Gmunden",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 47.94958872,
+        "lonStart": 13.86311922,
+        "latEnd": 47.95096728,
+        "lonEnd": 13.87021478,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20767
+  },
+  {
+    "type": 1,
+    "icao": "LOSM",
+    "lat": 47.132999999999996,
+    "lon": 13.697,
+    "communications": [],
+    "elevation": 3642,
+    "tower": true,
+    "name": "Mauterndorf",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 47.13172754,
+        "lonStart": 13.6919097,
+        "latEnd": 47.13427246,
+        "lonEnd": 13.7020903,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20769
   }
 ]

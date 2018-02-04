@@ -1,56 +1,9 @@
 [
   {
     "type": 1,
-    "icao": "KPVE",
-    "lat": 35.6563625,
-    "lon": -88.195353,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11812,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12300,
-        "name": "CTAF"
-      },
-      {
-        "type": 51,
-        "frequency": 12300,
-        "name": "UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 12585,
-        "name": "APP/DEP"
-      }
-    ],
-    "elevation": 487,
-    "tower": false,
-    "name": "BEECH RIVER RGNL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 35.648297,
-        "lonStart": -88.197431,
-        "latEnd": 35.664428,
-        "lonEnd": -88.193275,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 1602
-  },
-  {
-    "type": 1,
-    "icao": "M52",
-    "lat": 35.65096375,
-    "lon": -88.37936525,
+    "icao": "0M1",
+    "lat": 35.6377805,
+    "lon": -88.127994,
     "communications": [
       {
         "type": 51,
@@ -58,9 +11,9 @@
         "name": "CTAF/UNICOM"
       }
     ],
-    "elevation": 514,
+    "elevation": 520,
     "tower": false,
-    "name": "FRANKLIN WILKINS",
+    "name": "SCOTT FLD",
     "runways": [
       {
         "type": 100,
@@ -68,118 +21,216 @@
         "surfaceType": null,
         "numberStart": "15",
         "numberEnd": "33",
-        "latStart": 35.656075,
-        "lonStart": -88.381467,
-        "latEnd": 35.644339,
-        "lonEnd": -88.372719,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 35.648958,
-        "lonStart": -88.382961,
-        "latEnd": 35.654483,
-        "lonEnd": -88.380314,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 7691
-  },
-  {
-    "type": 1,
-    "icao": "KTGC",
-    "lat": 35.932452999999995,
-    "lon": -88.848939,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 359,
-    "tower": false,
-    "name": "GIBSON CO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 35.925939,
-        "lonStart": -88.850189,
-        "latEnd": 35.938967,
-        "lonEnd": -88.847689,
+        "latStart": 35.6427,
+        "lonStart": -88.130919,
+        "latEnd": 35.632861,
+        "lonEnd": -88.125069,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 9992
+    "id": 5925
   },
   {
-    "type": 1,
-    "icao": "M53",
-    "lat": 35.802174,
-    "lon": -88.87495849999999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 421,
-    "tower": false,
-    "name": "HUMBOLDT MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 35.798356,
-        "lonStart": -88.879814,
-        "latEnd": 35.805992,
-        "lonEnd": -88.870103,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 11240
-  },
-  {
-    "type": 1,
-    "icao": "TN16",
-    "lat": 35.99450694,
-    "lon": -88.46116306,
+    "type": 17,
+    "icao": "4TN8",
+    "lat": 35.68229333,
+    "lon": -88.85505945,
     "communications": [],
-    "elevation": 400,
+    "elevation": 42,
     "tower": false,
-    "name": "Huntingdon",
+    "name": "[H] Regional Hospital Campus",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 35.68229333,
+        "lonStart": -88.85505945,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 8386
+  },
+  {
+    "type": 1,
+    "icao": "4TN9",
+    "lat": 35.610833330000006,
+    "lon": -88.69472223,
+    "communications": [],
+    "elevation": 387,
+    "tower": false,
+    "name": "Southfork",
     "runways": [
       {
         "type": 100,
         "width": 30.48,
         "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 35.9908322,
-        "lonStart": -88.46290654,
-        "latEnd": 35.99818168,
-        "lonEnd": -88.45941958,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 35.6119392,
+        "lonStart": -88.6982658,
+        "latEnd": 35.60972746,
+        "lonEnd": -88.69117866,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 12209
+    "id": 8387
+  },
+  {
+    "type": 17,
+    "icao": "5TN2",
+    "lat": 35.03342166,
+    "lon": -88.89311417,
+    "communications": [],
+    "elevation": 439,
+    "tower": false,
+    "name": "[H] TGP Station 71",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 35.03342166,
+        "lonStart": -88.89311417,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 8906
+  },
+  {
+    "type": 17,
+    "icao": "5TN6",
+    "lat": 35.21813666,
+    "lon": -88.21920278,
+    "communications": [],
+    "elevation": 450,
+    "tower": false,
+    "name": "[H] Hardin County General Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 22.9,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 35.21813666,
+        "lonStart": -88.21920278,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 45.7
+      }
+    ],
+    "id": 8910
+  },
+  {
+    "type": 17,
+    "icao": "5TN7",
+    "lat": 35.15922472,
+    "lon": -88.22239695,
+    "communications": [],
+    "elevation": 483,
+    "tower": false,
+    "name": "[H] TGP Station 856",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 35.15922472,
+        "lonStart": -88.22239695,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 8911
+  },
+  {
+    "type": 17,
+    "icao": "6TN5",
+    "lat": 35.63611111,
+    "lon": -88.12222223,
+    "communications": [],
+    "elevation": 520,
+    "tower": false,
+    "name": "[H] Decatur County Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 35.63611111,
+        "lonStart": -88.12222223,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 9406
+  },
+  {
+    "type": 17,
+    "icao": "6TN6",
+    "lat": 35.91277777,
+    "lon": -88.75361112,
+    "communications": [],
+    "elevation": 423,
+    "tower": false,
+    "name": "[H] John C Carruth",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 35.91277777,
+        "lonStart": -88.75361112,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 9407
+  },
+  {
+    "type": 17,
+    "icao": "7TN7",
+    "lat": 35.045,
+    "lon": -88.26444445,
+    "communications": [],
+    "elevation": 479,
+    "tower": false,
+    "name": "[H] PCA",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 35.045,
+        "lonStart": -88.26444445,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 9894
   },
   {
     "type": 1,
@@ -244,44 +295,54 @@
         "surfacetype": 1
       }
     ],
-    "id": 15969
+    "id": 19492
   },
   {
     "type": 1,
-    "icao": "KSZY",
-    "lat": 35.2028915,
-    "lon": -88.498214,
+    "icao": "KPVE",
+    "lat": 35.6563625,
+    "lon": -88.195353,
     "communications": [
       {
         "type": 50,
-        "frequency": 11842,
+        "frequency": 11812,
         "name": "AWOS 3"
       },
       {
         "type": 51,
-        "frequency": 12270,
-        "name": "CTAF/UNICOM"
+        "frequency": 12300,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12585,
+        "name": "APP/DEP"
       }
     ],
-    "elevation": 610,
+    "elevation": 487,
     "tower": false,
-    "name": "ROBERT SIBLEY",
+    "name": "BEECH RIVER RGNL",
     "runways": [
       {
         "type": 100,
-        "width": 22.86,
+        "width": 30.48,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 35.209525,
-        "lonStart": -88.500397,
-        "latEnd": 35.196258,
-        "lonEnd": -88.496031,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 35.648297,
+        "lonStart": -88.197431,
+        "latEnd": 35.664428,
+        "lonEnd": -88.193275,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
       }
     ],
-    "id": 20988
+    "id": 19721
   },
   {
     "type": 1,
@@ -318,13 +379,50 @@
         "surfacetype": 2
       }
     ],
-    "id": 22098
+    "id": 19827
   },
   {
     "type": 1,
-    "icao": "0M1",
-    "lat": 35.6377805,
-    "lon": -88.127994,
+    "icao": "KSZY",
+    "lat": 35.2028915,
+    "lon": -88.498214,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11842,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 610,
+    "tower": false,
+    "name": "ROBERT SIBLEY",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 35.209525,
+        "lonStart": -88.500397,
+        "latEnd": 35.196258,
+        "lonEnd": -88.496031,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19870
+  },
+  {
+    "type": 1,
+    "icao": "KTGC",
+    "lat": 35.932452999999995,
+    "lon": -88.848939,
     "communications": [
       {
         "type": 51,
@@ -332,9 +430,41 @@
         "name": "CTAF/UNICOM"
       }
     ],
-    "elevation": 520,
+    "elevation": 359,
     "tower": false,
-    "name": "SCOTT FLD",
+    "name": "GIBSON CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 35.925939,
+        "lonStart": -88.850189,
+        "latEnd": 35.938967,
+        "lonEnd": -88.847689,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19881
+  },
+  {
+    "type": 1,
+    "icao": "M52",
+    "lat": 35.65096375,
+    "lon": -88.37936525,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 514,
+    "tower": false,
+    "name": "FRANKLIN WILKINS",
     "runways": [
       {
         "type": 100,
@@ -342,91 +472,60 @@
         "surfaceType": null,
         "numberStart": "15",
         "numberEnd": "33",
-        "latStart": 35.6427,
-        "lonStart": -88.130919,
-        "latEnd": 35.632861,
-        "lonEnd": -88.125069,
+        "latStart": 35.656075,
+        "lonStart": -88.381467,
+        "latEnd": 35.644339,
+        "lonEnd": -88.372719,
         "length": 0,
         "surfacetype": 1
-      }
-    ],
-    "id": 22123
-  },
-  {
-    "type": 1,
-    "icao": "4TN9",
-    "lat": 35.610833330000006,
-    "lon": -88.69472223,
-    "communications": [],
-    "elevation": 387,
-    "tower": false,
-    "name": "Southfork",
-    "runways": [
+      },
       {
         "type": 100,
-        "width": 30.48,
+        "width": 60.96,
         "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 35.6119392,
-        "lonStart": -88.6982658,
-        "latEnd": 35.60972746,
-        "lonEnd": -88.69117866,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 35.648958,
+        "lonStart": -88.382961,
+        "latEnd": 35.654483,
+        "lonEnd": -88.380314,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 23915
+    "id": 20989
   },
   {
-    "type": 17,
-    "icao": "6TN5",
-    "lat": 35.63611111,
-    "lon": -88.12222223,
-    "communications": [],
-    "elevation": 520,
-    "tower": false,
-    "name": "[H] Decatur County Hospital",
-    "runways": [
+    "type": 1,
+    "icao": "M53",
+    "lat": 35.802174,
+    "lon": -88.87495849999999,
+    "communications": [
       {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 35.63611111,
-        "lonStart": -88.12222223,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
       }
     ],
-    "id": 29292
-  },
-  {
-    "type": 17,
-    "icao": "5TN6",
-    "lat": 35.21813666,
-    "lon": -88.21920278,
-    "communications": [],
-    "elevation": 450,
+    "elevation": 421,
     "tower": false,
-    "name": "[H] Hardin County General Hospital",
+    "name": "HUMBOLDT MUNI",
     "runways": [
       {
-        "type": 102,
-        "width": 22.9,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 35.21813666,
-        "lonStart": -88.21920278,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 45.7
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 35.798356,
+        "lonStart": -88.879814,
+        "latEnd": 35.805992,
+        "lonEnd": -88.870103,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "id": 30126
+    "id": 20990
   },
   {
     "type": 17,
@@ -451,131 +550,32 @@
         "length": 22.9
       }
     ],
-    "id": 30579
+    "id": 29891
   },
   {
-    "type": 17,
-    "icao": "6TN6",
-    "lat": 35.91277777,
-    "lon": -88.75361112,
+    "type": 1,
+    "icao": "TN16",
+    "lat": 35.99450694,
+    "lon": -88.46116306,
     "communications": [],
-    "elevation": 423,
+    "elevation": 400,
     "tower": false,
-    "name": "[H] John C Carruth",
+    "name": "Huntingdon",
     "runways": [
       {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 35.91277777,
-        "lonStart": -88.75361112,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 35.9908322,
+        "lonStart": -88.46290654,
+        "latEnd": 35.99818168,
+        "lonEnd": -88.45941958,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 30629
-  },
-  {
-    "type": 17,
-    "icao": "7TN7",
-    "lat": 35.045,
-    "lon": -88.26444445,
-    "communications": [],
-    "elevation": 479,
-    "tower": false,
-    "name": "[H] PCA",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 35.045,
-        "lonStart": -88.26444445,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 31811
-  },
-  {
-    "type": 17,
-    "icao": "4TN8",
-    "lat": 35.68229333,
-    "lon": -88.85505945,
-    "communications": [],
-    "elevation": 42,
-    "tower": false,
-    "name": "[H] Regional Hospital Campus",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 35.68229333,
-        "lonStart": -88.85505945,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 32300
-  },
-  {
-    "type": 17,
-    "icao": "5TN2",
-    "lat": 35.03342166,
-    "lon": -88.89311417,
-    "communications": [],
-    "elevation": 439,
-    "tower": false,
-    "name": "[H] TGP Station 71",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 35.03342166,
-        "lonStart": -88.89311417,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 33185
-  },
-  {
-    "type": 17,
-    "icao": "5TN7",
-    "lat": 35.15922472,
-    "lon": -88.22239695,
-    "communications": [],
-    "elevation": 483,
-    "tower": false,
-    "name": "[H] TGP Station 856",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 35.15922472,
-        "lonStart": -88.22239695,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 33190
+    "id": 29901
   }
 ]

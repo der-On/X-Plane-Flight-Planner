@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "DN53",
+    "lat": 10.598944,
+    "lon": 7.448707,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11850,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 2126,
+    "tower": true,
+    "name": "KADUNA OLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 31.09,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 10.590669,
+        "lonStart": 7.440111,
+        "latEnd": 10.607219,
+        "lonEnd": 7.457303,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16030
+  },
+  {
+    "type": 1,
     "icao": "DNKA",
     "lat": 10.6958665,
     "lon": 7.3201445,
@@ -34,38 +66,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 13174
-  },
-  {
-    "type": 1,
-    "icao": "DN53",
-    "lat": 10.598944,
-    "lon": 7.448707,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11850,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 2126,
-    "tower": true,
-    "name": "KADUNA OLD",
-    "runways": [
-      {
-        "type": 100,
-        "width": 31.09,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 10.590669,
-        "lonStart": 7.440111,
-        "latEnd": 10.607219,
-        "lonEnd": 7.457303,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 13175
+    "id": 16045
   }
 ]

@@ -1,6 +1,32 @@
 [
   {
     "type": 1,
+    "icao": "PCK",
+    "lat": 67.23789833000001,
+    "lon": -150.28606084,
+    "communications": [],
+    "elevation": 1100,
+    "tower": false,
+    "name": "Porcupine Creek",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 67.23875673,
+        "lonStart": -150.28900505,
+        "latEnd": 67.23703993,
+        "lonEnd": -150.28311663,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 24059
+  },
+  {
+    "type": 1,
     "icao": "PCXF",
     "lat": 67.2521795,
     "lon": -150.203879,
@@ -29,33 +55,7 @@
         "surfacetype": 5
       }
     ],
-    "id": 4030
-  },
-  {
-    "type": 1,
-    "icao": "PCK",
-    "lat": 67.23789833000001,
-    "lon": -150.28606084,
-    "communications": [],
-    "elevation": 1100,
-    "tower": false,
-    "name": "Porcupine Creek",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 67.23875673,
-        "lonStart": -150.28900505,
-        "latEnd": 67.23703993,
-        "lonEnd": -150.28311663,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 20366
+    "id": 24060
   },
   {
     "type": 1,
@@ -81,6 +81,6 @@
         "surfacetype": 5
       }
     ],
-    "id": 27461
+    "id": 31851
   }
 ]

@@ -1,6 +1,177 @@
 [
   {
     "type": 1,
+    "icao": "49X",
+    "lat": 34.52887277,
+    "lon": -114.43197075,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 629,
+    "tower": false,
+    "name": "Chemehuevi Valley",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 34.53574744,
+        "lonStart": -114.43195988,
+        "latEnd": 34.5219981,
+        "lonEnd": -114.43198162,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 421
+  },
+  {
+    "type": 1,
+    "icao": "A09",
+    "lat": 34.887502999999995,
+    "lon": -114.616353,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      },
+      {
+        "type": 50,
+        "frequency": 12832,
+        "name": "AWOS at EED"
+      },
+      {
+        "type": 50,
+        "frequency": 11982,
+        "name": "AWOS at IFP"
+      }
+    ],
+    "elevation": 484,
+    "tower": false,
+    "name": "EAGLE AIRPARK",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 34.894089,
+        "lonStart": -114.615953,
+        "latEnd": 34.880917,
+        "lonEnd": -114.616753,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 503
+  },
+  {
+    "type": 1,
+    "icao": "KEED",
+    "lat": 34.766586,
+    "lon": -114.62299989499999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12832,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 13465,
+        "name": "LOS ANGELES CNTR"
+      }
+    ],
+    "elevation": 982,
+    "tower": false,
+    "name": "Needles",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 34.767058,
+        "lonStart": -114.633642,
+        "latEnd": 34.760372,
+        "lonEnd": -114.619086,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 34.76437835,
+        "lonStart": -114.62306674,
+        "latEnd": 34.77453565,
+        "lonEnd": -114.61620484,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2605
+  },
+  {
+    "type": 1,
+    "icao": "KHII",
+    "lat": 34.571127135,
+    "lon": -114.35828965,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11902,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 55,
+        "frequency": 13465,
+        "name": "L.A. Center"
+      },
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 780,
+    "tower": false,
+    "name": "Lake Havasu City",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 34.58061095,
+        "lonStart": -114.3650075,
+        "latEnd": 34.56164332,
+        "lonEnd": -114.3515718,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2760
+  },
+  {
+    "type": 1,
     "icao": "P20",
     "lat": 34.149799225,
     "lon": -114.267840965,
@@ -29,97 +200,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 490
-  },
-  {
-    "type": 1,
-    "icao": "49X",
-    "lat": 34.527362499999995,
-    "lon": -114.43111,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 630,
-    "tower": false,
-    "name": "CHEMEHUEVI VALLEY",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 34.534168,
-        "lonStart": -114.43111,
-        "latEnd": 34.520557,
-        "lonEnd": -114.43111,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 3849
-  },
-  {
-    "type": 1,
-    "icao": "CL29",
-    "lat": 34.835000550000004,
-    "lon": -114.95719473,
-    "communications": [],
-    "elevation": 2079,
-    "tower": false,
-    "name": "Camino Airstrip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 34.8378587,
-        "lonStart": -114.9608006,
-        "latEnd": 34.8321424,
-        "lonEnd": -114.95358886,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 4388
-  },
-  {
-    "type": 1,
-    "icao": "A09",
-    "lat": 34.887502999999995,
-    "lon": -114.616353,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 485,
-    "tower": false,
-    "name": "EAGLE AIRPARK",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 34.894089,
-        "lonStart": -114.615953,
-        "latEnd": 34.880917,
-        "lonEnd": -114.616753,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 6609
+    "id": 4357
   },
   {
     "type": 1,
@@ -145,99 +226,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 10383
-  },
-  {
-    "type": 1,
-    "icao": "KHII",
-    "lat": 34.5711225,
-    "lon": -114.3582765,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11902,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12270,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 781,
-    "tower": false,
-    "name": "LAKE HAVASU CITY",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 34.580606,
-        "lonStart": -114.364992,
-        "latEnd": 34.561639,
-        "lonEnd": -114.351561,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 14333
-  },
-  {
-    "type": 1,
-    "icao": "KEED",
-    "lat": 34.766586,
-    "lon": -114.62299999999999,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12832,
-        "name": "ASOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12300,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 13465,
-        "name": "LOS ANGELES CNTR"
-      }
-    ],
-    "elevation": 983,
-    "tower": false,
-    "name": "Needles",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 34.767058,
-        "lonStart": -114.633642,
-        "latEnd": 34.760372,
-        "lonEnd": -114.619086,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 34.764375,
-        "lonStart": -114.623069,
-        "latEnd": 34.774539,
-        "lonEnd": -114.616203,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 18177
+    "id": 8530
   },
   {
     "type": 1,
@@ -263,32 +252,7 @@
         "surfacetype": 5
       }
     ],
-    "id": 23282
-  },
-  {
-    "type": 17,
-    "icao": "AZ80",
-    "lat": 34.48112305,
-    "lon": -114.33912139,
-    "communications": [],
-    "elevation": 600,
-    "tower": false,
-    "name": "[H] Havasu Samaritan Regional Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 34.48112305,
-        "lonStart": -114.33912139,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 30147
+    "id": 14814
   },
   {
     "type": 17,
@@ -313,6 +277,57 @@
         "length": 12.2
       }
     ],
-    "id": 31898
+    "id": 14848
+  },
+  {
+    "type": 17,
+    "icao": "AZ80",
+    "lat": 34.48112305,
+    "lon": -114.33912139,
+    "communications": [],
+    "elevation": 600,
+    "tower": false,
+    "name": "[H] Havasu Samaritan Regional Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 34.48112305,
+        "lonStart": -114.33912139,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 14880
+  },
+  {
+    "type": 1,
+    "icao": "CL29",
+    "lat": 34.835000550000004,
+    "lon": -114.95719473,
+    "communications": [],
+    "elevation": 2079,
+    "tower": false,
+    "name": "Camino Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 34.8378587,
+        "lonStart": -114.9608006,
+        "latEnd": 34.8321424,
+        "lonEnd": -114.95358886,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 15385
   }
 ]

@@ -2,18 +2,13 @@
   {
     "type": 1,
     "icao": "LTAT",
-    "lat": 38.435345999999996,
-    "lon": 38.091007000000005,
+    "lat": 38.4358574825,
+    "lon": 38.0899928925,
     "communications": [
       {
         "type": 50,
         "frequency": 12835,
         "name": "ATIS"
-      },
-      {
-        "type": 53,
-        "frequency": 12195,
-        "name": "GND"
       },
       {
         "type": 54,
@@ -26,25 +21,38 @@
         "name": "APP"
       }
     ],
-    "elevation": 2828,
+    "elevation": 2827,
     "tower": true,
-    "name": "ERHAC",
+    "name": "Erhac AB",
     "runways": [
       {
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 38.422481,
-        "lonStart": 38.080983,
-        "latEnd": 38.448211,
-        "lonEnd": 38.101031,
+        "numberStart": "03L",
+        "numberEnd": "21R",
+        "latStart": 38.4234909,
+        "lonStart": 38.07889104,
+        "latEnd": 38.44920679,
+        "lonEnd": 38.09896857,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "03R",
+        "numberEnd": "21L",
+        "latStart": 38.42247944,
+        "lonStart": 38.08102375,
+        "latEnd": 38.4482528,
+        "lonEnd": 38.10108821,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 6793
+    "id": 3998
   },
   {
     "type": 1,
@@ -81,6 +89,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 24899
+    "id": 20908
   }
 ]

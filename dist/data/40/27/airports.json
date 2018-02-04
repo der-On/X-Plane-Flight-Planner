@@ -2,18 +2,13 @@
   {
     "type": 1,
     "icao": "LTBG",
-    "lat": 40.3181955,
-    "lon": 27.977732,
+    "lat": 40.3164538325,
+    "lon": 27.9745702325,
     "communications": [
       {
         "type": 50,
         "frequency": 12835,
-        "name": "INFO"
-      },
-      {
-        "type": 53,
-        "frequency": 12195,
-        "name": "GND"
+        "name": "ATIS"
       },
       {
         "type": 54,
@@ -26,24 +21,48 @@
         "name": "APP"
       }
     ],
-    "elevation": 169,
+    "elevation": 166,
     "tower": true,
-    "name": "BANDIRMA",
+    "name": "Bandirma AB",
     "runways": [
       {
         "type": 100,
-        "width": 44.81,
+        "width": 50,
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 40.331733,
-        "lonStart": 27.978075,
-        "latEnd": 40.304658,
-        "lonEnd": 27.977389,
+        "latStart": 40.3320215,
+        "lonStart": 27.97805192,
+        "latEnd": 40.30464722,
+        "lonEnd": 27.97730833,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 30,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.32270189,
+        "lonStart": 27.97366227,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30
+      },
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 40.30644472,
+        "lonStart": 27.96925841,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
       }
     ],
-    "id": 1497
+    "id": 4002
   }
 ]

@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "CYCT",
-    "lat": 52.0749985,
-    "lon": -111.44527500000001,
+    "lat": 52.07492336,
+    "lon": -111.44606415999999,
     "communications": [
       {
         "type": 51,
@@ -21,47 +21,15 @@
         "surfaceType": null,
         "numberStart": "11",
         "numberEnd": "29",
-        "latStart": 52.0775,
-        "lonStart": -111.45055,
-        "latEnd": 52.072497,
-        "lonEnd": -111.44,
+        "latStart": 52.07734638,
+        "lonStart": -111.45146279,
+        "latEnd": 52.07250034,
+        "lonEnd": -111.44066553,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 4157
-  },
-  {
-    "type": 1,
-    "icao": "ER2",
-    "lat": 52.22152561,
-    "lon": -111.927430465,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12320,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 2704,
-    "tower": false,
-    "name": "Castor",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 52.22497028,
-        "lonStart": -111.93107538,
-        "latEnd": 52.21808094,
-        "lonEnd": -111.92378555,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 4644
+    "id": 741
   },
   {
     "type": 1,
@@ -70,9 +38,9 @@
     "lon": -111.385430055,
     "communications": [
       {
-        "type": 51,
+        "type": 54,
         "frequency": 12320,
-        "name": "CTAF"
+        "name": "Traffic"
       }
     ],
     "elevation": 2326,
@@ -93,33 +61,39 @@
         "surfacetype": 1
       }
     ],
-    "id": 11437
+    "id": 939
   },
   {
     "type": 1,
-    "icao": "EK6",
-    "lat": 52.799999,
-    "lon": -111.76670100000001,
-    "communications": [],
-    "elevation": 2182,
+    "icao": "ER2",
+    "lat": 52.221519334999996,
+    "lon": -111.927588095,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12320,
+        "name": "Traffic"
+      }
+    ],
+    "elevation": 2704,
     "tower": false,
-    "name": "Killam",
+    "name": "Castor",
     "runways": [
       {
         "type": 100,
         "width": 22.86,
         "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 52.80254517,
-        "lonStart": -111.77190156,
-        "latEnd": 52.79745283,
-        "lonEnd": -111.76150044,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 52.22497188,
+        "lonStart": -111.93124103,
+        "latEnd": 52.21806679,
+        "lonEnd": -111.92393516,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 13853
+    "id": 1864
   },
   {
     "type": 1,
@@ -145,6 +119,32 @@
         "surfacetype": 1
       }
     ],
-    "id": 26456
+    "id": 15198
+  },
+  {
+    "type": 1,
+    "icao": "EK6",
+    "lat": 52.799999,
+    "lon": -111.76670100000001,
+    "communications": [],
+    "elevation": 2182,
+    "tower": false,
+    "name": "Killam",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 52.80254517,
+        "lonStart": -111.77190156,
+        "latEnd": 52.79745283,
+        "lonEnd": -111.76150044,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16467
   }
 ]

@@ -1,6 +1,70 @@
 [
   {
     "type": 1,
+    "icao": "8U0",
+    "lat": 46.290470674999995,
+    "lon": -109.24768663500001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 3688,
+    "tower": false,
+    "name": "Ryegate",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 46.29028992,
+        "lonStart": -109.25448568,
+        "latEnd": 46.29065143,
+        "lonEnd": -109.24088759,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 287
+  },
+  {
+    "type": 1,
+    "icao": "KHWQ",
+    "lat": 46.448617854999995,
+    "lon": -109.852782665,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 4311,
+    "tower": false,
+    "name": "Wheatland Co At Harlowton",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 46.4494852,
+        "lonStart": -109.8610201,
+        "latEnd": 46.44775051,
+        "lonEnd": -109.84454523,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2791
+  },
+  {
+    "type": 1,
     "icao": "6U1",
     "lat": 46.30829027,
     "lon": -109.87157112,
@@ -23,7 +87,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 2366
+    "id": 9433
   },
   {
     "type": 1,
@@ -75,64 +139,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 2386
-  },
-  {
-    "type": 1,
-    "icao": "8U0",
-    "lat": 46.2905,
-    "lon": -109.24766667,
-    "communications": [],
-    "elevation": 3688,
-    "tower": false,
-    "name": "Ryegate",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 46.29008881,
-        "lonStart": -109.25446835,
-        "latEnd": 46.29091119,
-        "lonEnd": -109.24086499,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 21880
-  },
-  {
-    "type": 1,
-    "icao": "KHWQ",
-    "lat": 46.454165,
-    "lon": -109.854996,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 4311,
-    "tower": false,
-    "name": "Wheatland Co At Harlowton",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 46.454722,
-        "lonStart": -109.863331,
-        "latEnd": 46.453608,
-        "lonEnd": -109.846661,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 27183
+    "id": 21847
   }
 ]

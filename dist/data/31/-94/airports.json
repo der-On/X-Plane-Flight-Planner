@@ -1,35 +1,9 @@
 [
   {
     "type": 1,
-    "icao": "5LS9",
-    "lat": 31.5316665,
-    "lon": -93.707775,
-    "communications": [],
-    "elevation": 209,
-    "tower": false,
-    "name": "AMMONS",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 31.536111,
-        "lonStart": -93.708053,
-        "latEnd": 31.527222,
-        "lonEnd": -93.707497,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 279
-  },
-  {
-    "type": 1,
     "icao": "3R4",
-    "lat": 31.54509975,
-    "lon": -93.48771675,
+    "lat": 31.5449560825,
+    "lon": -93.487442445,
     "communications": [
       {
         "type": 51,
@@ -54,8 +28,8 @@
         "numberEnd": "30",
         "latStart": 31.547369,
         "lonStart": -93.489861,
-        "latEnd": 31.541708,
-        "lonEnd": -93.47885,
+        "latEnd": 31.54113333,
+        "lonEnd": -93.47775278,
         "length": 0,
         "surfacetype": 1
       },
@@ -73,44 +47,84 @@
         "surfacetype": 3
       }
     ],
-    "id": 11034
+    "id": 7837
   },
   {
     "type": 1,
-    "icao": "L39",
-    "lat": 31.168182,
-    "lon": -93.342457,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 12370,
-        "name": "POLK APP/DEP"
-      }
-    ],
-    "elevation": 280,
+    "icao": "4XS5",
+    "lat": 31.12185888,
+    "lon": -93.80295945,
+    "communications": [],
+    "elevation": 350,
     "tower": false,
-    "name": "LEESVILLE",
+    "name": "Scrappin Valley",
     "runways": [
       {
         "type": 100,
-        "width": 22.86,
+        "width": 18.29,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 31.173406,
-        "lonStart": -93.342447,
-        "latEnd": 31.162958,
-        "lonEnd": -93.342467,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 31.11655985,
+        "lonStart": -93.80461804,
+        "latEnd": 31.12715791,
+        "lonEnd": -93.80130086,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 14473
+    "id": 8462
+  },
+  {
+    "type": 1,
+    "icao": "5LS9",
+    "lat": 31.5316665,
+    "lon": -93.707775,
+    "communications": [],
+    "elevation": 209,
+    "tower": false,
+    "name": "AMMONS",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 31.536111,
+        "lonStart": -93.708053,
+        "latEnd": 31.527222,
+        "lonEnd": -93.707497,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 8689
+  },
+  {
+    "type": 17,
+    "icao": "7LA8",
+    "lat": 31.75361111,
+    "lon": -93.07888889,
+    "communications": [],
+    "elevation": 116,
+    "tower": false,
+    "name": "[H] Natchitoches Parish Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 31.75361111,
+        "lonStart": -93.07888889,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 9687
   },
   {
     "type": 1,
@@ -165,39 +179,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 18149
-  },
-  {
-    "type": 1,
-    "icao": "T24",
-    "lat": 31.233611,
-    "lon": -93.981944,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 260,
-    "tower": false,
-    "name": "PINELAND MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 31.238611,
-        "lonStart": -93.981944,
-        "latEnd": 31.228611,
-        "lonEnd": -93.981944,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19398
+    "id": 19332
   },
   {
     "type": 1,
@@ -257,33 +239,44 @@
         "surfacetype": 1
       }
     ],
-    "id": 19455
+    "id": 19699
   },
   {
     "type": 1,
-    "icao": "4XS5",
-    "lat": 31.12185888,
-    "lon": -93.80295945,
-    "communications": [],
-    "elevation": 350,
+    "icao": "L39",
+    "lat": 31.168182,
+    "lon": -93.342457,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12370,
+        "name": "POLK APP/DEP"
+      }
+    ],
+    "elevation": 280,
     "tower": false,
-    "name": "Scrappin Valley",
+    "name": "LEESVILLE",
     "runways": [
       {
         "type": 100,
-        "width": 18.29,
+        "width": 22.86,
         "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 31.11655985,
-        "lonStart": -93.80461804,
-        "latEnd": 31.12715791,
-        "lonEnd": -93.80130086,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 31.173406,
+        "lonStart": -93.342447,
+        "latEnd": 31.162958,
+        "lonEnd": -93.342467,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 23181
+    "id": 20004
   },
   {
     "type": 17,
@@ -308,32 +301,7 @@
         "length": 13.7
       }
     ],
-    "id": 28660
-  },
-  {
-    "type": 17,
-    "icao": "7LA8",
-    "lat": 31.75361111,
-    "lon": -93.07888889,
-    "communications": [],
-    "elevation": 116,
-    "tower": false,
-    "name": "[H] Natchitoches Parish Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 31.75361111,
-        "lonStart": -93.07888889,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 31559
+    "id": 20039
   },
   {
     "type": 17,
@@ -358,6 +326,38 @@
         "length": 15.2
       }
     ],
-    "id": 32503
+    "id": 20877
+  },
+  {
+    "type": 1,
+    "icao": "T24",
+    "lat": 31.233611,
+    "lon": -93.981944,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 260,
+    "tower": false,
+    "name": "PINELAND MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 31.238611,
+        "lonStart": -93.981944,
+        "latEnd": 31.228611,
+        "lonEnd": -93.981944,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 29679
   }
 ]

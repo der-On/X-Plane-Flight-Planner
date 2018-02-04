@@ -1,35 +1,41 @@
 [
   {
     "type": 1,
-    "icao": "RJFR",
-    "lat": 33.8459405,
-    "lon": 131.03468900000001,
-    "communications": [],
+    "icao": "RJDC",
+    "lat": 33.9299125,
+    "lon": 131.27877016000002,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11805,
+        "name": "RJDC_TWR"
+      }
+    ],
     "elevation": 21,
-    "tower": false,
-    "name": "NEW KITAKYUSHU",
+    "tower": true,
+    "name": "YAMAGUCHI UBE",
     "runways": [
       {
         "type": 100,
-        "width": 79.25,
+        "width": 45.72,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 33.857592,
-        "lonStart": 131.032306,
-        "latEnd": 33.834289,
-        "lonEnd": 131.037072,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 33.92466825,
+        "lonStart": 131.26679748,
+        "latEnd": 33.93515675,
+        "lonEnd": 131.29074284,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 17912
+    "id": 4438
   },
   {
     "type": 1,
     "icao": "RJFO",
-    "lat": 33.479503,
-    "lon": 131.737125,
+    "lat": 33.479493000000005,
+    "lon": 131.7371185,
     "communications": [
       {
         "type": 50,
@@ -77,15 +83,41 @@
         "surfaceType": null,
         "numberStart": "01",
         "numberEnd": "19",
-        "latStart": 33.465981,
-        "lonStart": 131.737006,
-        "latEnd": 33.493025,
-        "lonEnd": 131.737244,
+        "latStart": 33.465964,
+        "lonStart": 131.736998,
+        "latEnd": 33.493022,
+        "lonEnd": 131.737239,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 18622
+    "id": 4449
+  },
+  {
+    "type": 1,
+    "icao": "RJFR",
+    "lat": 33.8459405,
+    "lon": 131.03468900000001,
+    "communications": [],
+    "elevation": 21,
+    "tower": false,
+    "name": "NEW KITAKYUSHU",
+    "runways": [
+      {
+        "type": 100,
+        "width": 79.25,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 33.857592,
+        "lonStart": 131.032306,
+        "latEnd": 33.834289,
+        "lonEnd": 131.037072,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 24398
   },
   {
     "type": 1,
@@ -137,32 +169,6 @@
         "surfacetype": 2
       }
     ],
-    "id": 24885
-  },
-  {
-    "type": 1,
-    "icao": "RJDC",
-    "lat": 33.9299125,
-    "lon": 131.278765,
-    "communications": [],
-    "elevation": 22,
-    "tower": true,
-    "name": "YAMAGUCHI UBE",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 33.924669,
-        "lonStart": 131.266797,
-        "latEnd": 33.935156,
-        "lonEnd": 131.290733,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 27664
+    "id": 24401
   }
 ]

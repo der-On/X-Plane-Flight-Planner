@@ -1,6 +1,32 @@
 [
   {
     "type": 1,
+    "icao": "FWKG",
+    "lat": -13.014629,
+    "lon": 33.468599,
+    "communications": [],
+    "elevation": 3470,
+    "tower": false,
+    "name": "KASUNGU",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.37,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -13.0161,
+        "lonStart": 33.463281,
+        "latEnd": -13.013158,
+        "lonEnd": 33.473917,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17261
+  },
+  {
+    "type": 1,
     "icao": "FWKI",
     "lat": -13.7893765,
     "lon": 33.781,
@@ -39,33 +65,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 13215
-  },
-  {
-    "type": 1,
-    "icao": "FWKG",
-    "lat": -13.014629,
-    "lon": 33.468599,
-    "communications": [],
-    "elevation": 3470,
-    "tower": false,
-    "name": "KASUNGU",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.37,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": -13.0161,
-        "lonStart": 33.463281,
-        "latEnd": -13.013158,
-        "lonEnd": 33.473917,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 13265
+    "id": 17262
   },
   {
     "type": 1,
@@ -110,6 +110,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 14524
+    "id": 17263
   }
 ]

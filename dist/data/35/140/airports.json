@@ -2,10 +2,10 @@
   {
     "type": 1,
     "icao": "RJA2",
-    "lat": 35.8555565,
-    "lon": 140.2444458,
+    "lat": 35.85939135,
+    "lon": 140.241239675,
     "communications": [],
-    "elevation": 65,
+    "elevation": 7,
     "tower": true,
     "name": "Ohotone",
     "runways": [
@@ -15,21 +15,21 @@
         "surfaceType": null,
         "numberStart": "07",
         "numberEnd": "25",
-        "latStart": 35.85450188,
-        "lonStart": 140.24138036,
-        "latEnd": 35.85661112,
-        "lonEnd": 140.24751124,
+        "latStart": 35.85835808,
+        "lonStart": 140.23817922,
+        "latEnd": 35.86042462,
+        "lonEnd": 140.24430013,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 18849
+    "id": 4428
   },
   {
     "type": 1,
     "icao": "RJA3",
-    "lat": 35.9030609,
-    "lon": 140.2447205,
+    "lat": 35.906268785,
+    "lon": 140.24214059,
     "communications": [],
     "elevation": 8,
     "tower": true,
@@ -37,76 +37,19 @@
     "runways": [
       {
         "type": 100,
-        "width": 35.05,
+        "width": 35,
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": 35.90197872,
-        "lonStart": 140.24048324,
-        "latEnd": 35.90414308,
-        "lonEnd": 140.24895776,
+        "latStart": 35.90518754,
+        "lonStart": 140.23790375,
+        "latEnd": 35.90735003,
+        "lonEnd": 140.24637743,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 21882
-  },
-  {
-    "type": 1,
-    "icao": "RJTL",
-    "lat": 35.798944500000005,
-    "lon": 140.01220849999999,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12620,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12200,
-        "name": "PAR"
-      },
-      {
-        "type": 55,
-        "frequency": 12600,
-        "name": "TOKYO APP"
-      },
-      {
-        "type": 56,
-        "frequency": 12600,
-        "name": "TOKYO DEP"
-      },
-      {
-        "type": 56,
-        "frequency": 12080,
-        "name": "TOKYO DEP"
-      },
-      {
-        "type": 56,
-        "frequency": 12760,
-        "name": "TOKYO DEP"
-      }
-    ],
-    "elevation": 98,
-    "tower": true,
-    "name": "SHIMOFUSA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 35.788806,
-        "lonStart": 140.012417,
-        "latEnd": 35.809083,
-        "lonEnd": 140.012,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 22228
+    "id": 4429
   },
   {
     "type": 1,
@@ -191,6 +134,63 @@
         "surfacetype": 1
       }
     ],
-    "id": 25437
+    "id": 4430
+  },
+  {
+    "type": 1,
+    "icao": "RJTL",
+    "lat": 35.798944500000005,
+    "lon": 140.01220849999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12620,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12200,
+        "name": "PAR"
+      },
+      {
+        "type": 55,
+        "frequency": 12600,
+        "name": "TOKYO APP"
+      },
+      {
+        "type": 56,
+        "frequency": 12600,
+        "name": "TOKYO DEP"
+      },
+      {
+        "type": 56,
+        "frequency": 12080,
+        "name": "TOKYO DEP"
+      },
+      {
+        "type": 56,
+        "frequency": 12760,
+        "name": "TOKYO DEP"
+      }
+    ],
+    "elevation": 98,
+    "tower": true,
+    "name": "SHIMOFUSA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 35.788806,
+        "lonStart": 140.012417,
+        "latEnd": 35.809083,
+        "lonEnd": 140.012,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 24441
   }
 ]

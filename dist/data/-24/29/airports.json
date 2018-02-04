@@ -1,35 +1,42 @@
 [
   {
     "type": 1,
-    "icao": "FALO",
-    "lat": -23.061917,
-    "lon": 29.86475,
-    "communications": [
-      {
-        "type": 55,
-        "frequency": 12120,
-        "name": "APP"
-      }
-    ],
-    "elevation": 3025,
-    "tower": false,
-    "name": "LOUIS TRICHARDT",
+    "icao": "FAPP",
+    "lat": -23.848163749999998,
+    "lon": 29.45767025,
+    "communications": [],
+    "elevation": 4076,
+    "tower": true,
+    "name": "Polokwane Intl",
     "runways": [
       {
         "type": 100,
-        "width": 17.98,
+        "width": 45,
         "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": -23.062778,
-        "lonStart": 29.858917,
-        "latEnd": -23.061056,
-        "lonEnd": 29.870583,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": -23.860404,
+        "lonStart": 29.458804,
+        "latEnd": -23.837301,
+        "lonEnd": 29.458386,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -23.858832,
+        "lonStart": 29.447136,
+        "latEnd": -23.836118,
+        "lonEnd": 29.466355,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 14632
+    "id": 2151
   },
   {
     "type": 1,
@@ -84,7 +91,39 @@
         "surfacetype": 1
       }
     ],
-    "id": 16512
+    "id": 16817
+  },
+  {
+    "type": 1,
+    "icao": "FALO",
+    "lat": -23.061917,
+    "lon": 29.86475,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 12120,
+        "name": "APP"
+      }
+    ],
+    "elevation": 3025,
+    "tower": false,
+    "name": "LOUIS TRICHARDT",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -23.062778,
+        "lonStart": 29.858917,
+        "latEnd": -23.061056,
+        "lonEnd": 29.870583,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16818
   },
   {
     "type": 1,
@@ -116,51 +155,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 19372
-  },
-  {
-    "type": 1,
-    "icao": "FAPP",
-    "lat": -23.849664,
-    "lon": 29.4564885,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12430,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 4076,
-    "tower": true,
-    "name": "Polokwane Intl",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": -23.86034002,
-        "lonStart": 29.45891578,
-        "latEnd": -23.83730798,
-        "lonEnd": 29.45847622,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": -23.85873066,
-        "lonStart": 29.4472535,
-        "latEnd": -23.84227734,
-        "lonEnd": 29.4613085,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 20326
+    "id": 16831
   }
 ]

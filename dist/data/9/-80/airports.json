@@ -1,35 +1,9 @@
 [
   {
     "type": 1,
-    "icao": "MP23",
-    "lat": 9.166285,
-    "lon": -79.545079,
-    "communications": [],
-    "elevation": 394,
-    "tower": false,
-    "name": "CALZADA LARGA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 9.171689,
-        "lonStart": -79.545197,
-        "latEnd": 9.160881,
-        "lonEnd": -79.544961,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 3561
-  },
-  {
-    "type": 1,
     "icao": "MPEJ",
-    "lat": 9.356639000000001,
-    "lon": -79.867414,
+    "lat": 9.360595499999999,
+    "lon": -79.867273,
     "communications": [
       {
         "type": 51,
@@ -67,7 +41,7 @@
         "name": "PANAMA APP"
       }
     ],
-    "elevation": 25,
+    "elevation": 24,
     "tower": true,
     "name": "ENRIQUE ADOLFO JIMENEZ",
     "runways": [
@@ -77,15 +51,41 @@
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 9.364903,
-        "lonStart": -79.867164,
-        "latEnd": 9.348375,
-        "lonEnd": -79.867664,
+        "latStart": 9.372777,
+        "lonStart": -79.866851,
+        "latEnd": 9.348414,
+        "lonEnd": -79.867695,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 1
       }
     ],
-    "id": 6780
+    "id": 4137
+  },
+  {
+    "type": 1,
+    "icao": "MP23",
+    "lat": 9.166285,
+    "lon": -79.545079,
+    "communications": [],
+    "elevation": 394,
+    "tower": false,
+    "name": "CALZADA LARGA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 9.171689,
+        "lonStart": -79.545197,
+        "latEnd": 9.160881,
+        "lonEnd": -79.544961,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 21696
   },
   {
     "type": 1,
@@ -145,6 +145,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 25416
+    "id": 21709
   }
 ]

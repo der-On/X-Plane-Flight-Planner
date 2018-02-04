@@ -1,5 +1,36 @@
 [
   {
+    "type": 17,
+    "icao": "UU10",
+    "lat": 56.636843,
+    "lon": 43.246008,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11930,
+        "name": "Vershilovo Ploshadka"
+      }
+    ],
+    "elevation": 282,
+    "tower": true,
+    "name": "[H] Vershilovo",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.9,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 56.636843,
+        "lonStart": 43.246008,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.9
+      }
+    ],
+    "id": 30612
+  },
+  {
     "type": 1,
     "icao": "UWGG",
     "lat": 56.22092875,
@@ -83,37 +114,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 22557
-  },
-  {
-    "type": 17,
-    "icao": "UU10",
-    "lat": 56.636843,
-    "lon": 43.246008,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11930,
-        "name": "Vershilovo Ploshadka"
-      }
-    ],
-    "elevation": 282,
-    "tower": true,
-    "name": "[H] Vershilovo",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.9,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 56.636843,
-        "lonStart": 43.246008,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.9
-      }
-    ],
-    "id": 33612
+    "id": 30636
   }
 ]

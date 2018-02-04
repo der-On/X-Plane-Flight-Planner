@@ -1,35 +1,9 @@
 [
   {
     "type": 1,
-    "icao": "SJQK",
-    "lat": 2.69555556,
-    "lon": -60.81416667,
-    "communications": [],
-    "elevation": 278,
-    "tower": false,
-    "name": "Barra do Vento",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 2.69367898,
-        "lonStart": -60.8182617,
-        "latEnd": 2.69743214,
-        "lonEnd": -60.81007164,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 2268
-  },
-  {
-    "type": 1,
     "icao": "SBBV",
-    "lat": 2.8443155,
-    "lon": -60.688899000000006,
+    "lat": 2.8449751833333337,
+    "lon": -60.68964365,
     "communications": [
       {
         "type": 53,
@@ -47,7 +21,7 @@
         "name": "BOA VISTA APP"
       }
     ],
-    "elevation": 274,
+    "elevation": 273,
     "tower": true,
     "name": "Boa Vista Intl",
     "runways": [
@@ -57,65 +31,27 @@
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": 2.840769,
-        "lonStart": -60.7009,
-        "latEnd": 2.851853,
-        "lonEnd": -60.679236,
+        "latStart": 2.84076982,
+        "lonStart": -60.70090042,
+        "latEnd": 2.85185218,
+        "lonEnd": -60.67923548,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 102,
-        "width": 11.9,
-        "surfaceType": 1,
+        "width": 14.4,
+        "surfaceType": 15,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 2.842615,
-        "lonStart": -60.687392,
+        "latStart": 2.84230355,
+        "lonStart": -60.68879505,
         "latEnd": null,
         "lonEnd": null,
-        "length": 11.9
-      },
-      {
-        "type": 102,
-        "width": 7.9,
-        "surfaceType": 2,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 2.842025,
-        "lonStart": -60.688068,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 7.9
+        "length": 14.1
       }
     ],
-    "id": 2881
-  },
-  {
-    "type": 1,
-    "icao": "SWQR",
-    "lat": 2.675833335,
-    "lon": -60.77861111,
-    "communications": [],
-    "elevation": 279,
-    "tower": false,
-    "name": "Estancia Norteagro",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.85,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 2.67068052,
-        "lonStart": -60.77909547,
-        "latEnd": 2.68098615,
-        "lonEnd": -60.77812675,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 7301
+    "id": 4595
   },
   {
     "type": 1,
@@ -141,7 +77,33 @@
         "surfacetype": 4
       }
     ],
-    "id": 16605
+    "id": 27010
+  },
+  {
+    "type": 1,
+    "icao": "SJQK",
+    "lat": 2.69555556,
+    "lon": -60.81416667,
+    "communications": [],
+    "elevation": 278,
+    "tower": false,
+    "name": "Barra do Vento",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 2.69367898,
+        "lonStart": -60.8182617,
+        "latEnd": 2.69743214,
+        "lonEnd": -60.81007164,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 27134
   },
   {
     "type": 1,
@@ -167,7 +129,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 18523
+    "id": 29351
   },
   {
     "type": 1,
@@ -193,7 +155,7 @@
         "surfacetype": 5
       }
     ],
-    "id": 19107
+    "id": 29365
   },
   {
     "type": 1,
@@ -219,6 +181,32 @@
         "surfacetype": 1
       }
     ],
-    "id": 20469
+    "id": 29389
+  },
+  {
+    "type": 1,
+    "icao": "SWQR",
+    "lat": 2.675833335,
+    "lon": -60.77861111,
+    "communications": [],
+    "elevation": 279,
+    "tower": false,
+    "name": "Estancia Norteagro",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.85,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 2.67068052,
+        "lonStart": -60.77909547,
+        "latEnd": 2.68098615,
+        "lonEnd": -60.77812675,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 29426
   }
 ]

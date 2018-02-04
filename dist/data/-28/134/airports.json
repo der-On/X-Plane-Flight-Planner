@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "AU21",
+    "lat": -27.137046525000002,
+    "lon": 134.748461405,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12670,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 607,
+    "tower": false,
+    "name": "Todmorden Homestead",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -27.13605665,
+        "lonStart": 134.74439544,
+        "latEnd": -27.1380364,
+        "lonEnd": 134.75252737,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 14732
+  },
+  {
+    "type": 1,
     "icao": "YAKG",
     "lat": -27.947552855,
     "lon": 134.74568674,
@@ -23,7 +55,39 @@
         "surfacetype": 4
       }
     ],
-    "id": 1155
+    "id": 32615
+  },
+  {
+    "type": 1,
+    "icao": "YCDH",
+    "lat": -27.906857015,
+    "lon": 134.05611374,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12670,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 940,
+    "tower": false,
+    "name": "Cadney Homestead",
+    "runways": [
+      {
+        "type": 100,
+        "width": 71.93,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -27.91198228,
+        "lonStart": 134.05953929,
+        "latEnd": -27.90173175,
+        "lonEnd": 134.05268819,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 32935
   },
   {
     "type": 1,
@@ -62,78 +126,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 4136
-  },
-  {
-    "type": 1,
-    "icao": "YCDH",
-    "lat": -27.906857015,
-    "lon": 134.05611374,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12670,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 940,
-    "tower": false,
-    "name": "Cadney Homestead",
-    "runways": [
-      {
-        "type": 100,
-        "width": 71.93,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": -27.91198228,
-        "lonStart": 134.05953929,
-        "latEnd": -27.90173175,
-        "lonEnd": 134.05268819,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 4313
-  },
-  {
-    "type": 1,
-    "icao": "YWIB",
-    "lat": -27.9753676375,
-    "lon": 134.1474985225,
-    "communications": [],
-    "elevation": 922,
-    "tower": false,
-    "name": "MOUNT WILLOUGHBY",
-    "runways": [
-      {
-        "type": 100,
-        "width": 36.88,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": -27.9716169,
-        "lonStart": 134.14366564,
-        "latEnd": -27.98201544,
-        "lonEnd": 134.14757767,
-        "length": 0,
-        "surfacetype": 4
-      },
-      {
-        "type": 100,
-        "width": 24.99,
-        "surfaceType": null,
-        "numberStart": "5",
-        "numberEnd": "23",
-        "latStart": -27.97657746,
-        "lonStart": 134.14557801,
-        "latEnd": -27.97126075,
-        "lonEnd": 134.15317277,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 16330
+    "id": 33030
   },
   {
     "type": 1,
@@ -178,78 +171,46 @@
         "surfacetype": 4
       }
     ],
-    "id": 25420
+    "id": 34524
   },
   {
     "type": 1,
-    "icao": "AU21",
-    "lat": -27.137046525000002,
-    "lon": 134.748461405,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12670,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 607,
-    "tower": false,
-    "name": "Todmorden Homestead",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": -27.13605665,
-        "lonStart": 134.74439544,
-        "latEnd": -27.1380364,
-        "lonEnd": 134.75252737,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 25421
-  },
-  {
-    "type": 1,
-    "icao": "YWTA",
-    "lat": -27.72876399,
-    "lon": 134.12279194500002,
+    "icao": "YWIB",
+    "lat": -27.9753676375,
+    "lon": 134.1474985225,
     "communications": [],
-    "elevation": 0,
+    "elevation": 922,
     "tower": false,
-    "name": "WINTINNA",
+    "name": "MOUNT WILLOUGHBY",
     "runways": [
       {
         "type": 100,
-        "width": 32,
+        "width": 36.88,
         "surfaceType": null,
-        "numberStart": "3",
-        "numberEnd": "21",
-        "latStart": -27.73216036,
-        "lonStart": 134.12161416,
-        "latEnd": -27.72630585,
-        "lonEnd": 134.1254846,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -27.9716169,
+        "lonStart": 134.14366564,
+        "latEnd": -27.98201544,
+        "lonEnd": 134.14757767,
         "length": 0,
         "surfacetype": 4
       },
       {
         "type": 100,
-        "width": 35.97,
+        "width": 24.99,
         "surfaceType": null,
-        "numberStart": "9",
-        "numberEnd": "27",
-        "latStart": -27.72823685,
-        "lonStart": 134.11714899,
-        "latEnd": -27.7283529,
-        "lonEnd": 134.12692003,
+        "numberStart": "5",
+        "numberEnd": "23",
+        "latStart": -27.97657746,
+        "lonStart": 134.14557801,
+        "latEnd": -27.97126075,
+        "lonEnd": 134.15317277,
         "length": 0,
         "surfacetype": 4
       }
     ],
-    "id": 26712
+    "id": 34718
   },
   {
     "type": 1,
@@ -288,6 +249,45 @@
         "surfacetype": 4
       }
     ],
-    "id": 27055
+    "id": 34738
+  },
+  {
+    "type": 1,
+    "icao": "YWTA",
+    "lat": -27.72876399,
+    "lon": 134.12279194500002,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "WINTINNA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 32,
+        "surfaceType": null,
+        "numberStart": "3",
+        "numberEnd": "21",
+        "latStart": -27.73216036,
+        "lonStart": 134.12161416,
+        "latEnd": -27.72630585,
+        "lonEnd": 134.1254846,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 35.97,
+        "surfaceType": null,
+        "numberStart": "9",
+        "numberEnd": "27",
+        "latStart": -27.72823685,
+        "lonStart": 134.11714899,
+        "latEnd": -27.7283529,
+        "lonEnd": 134.12692003,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 34794
   }
 ]

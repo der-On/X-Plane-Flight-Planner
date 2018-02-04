@@ -1,6 +1,146 @@
 [
   {
     "type": 1,
+    "icao": "LJBL",
+    "lat": 46.356958685,
+    "lon": 14.1738429,
+    "communications": [],
+    "elevation": 1650,
+    "tower": true,
+    "name": "Lesce-Bled",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "14L",
+        "numberEnd": "32R",
+        "latStart": 46.35991289,
+        "lonStart": 14.17099616,
+        "latEnd": 46.35549004,
+        "lonEnd": 14.17572109,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 23,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 46.360278,
+        "lonStart": 14.17,
+        "latEnd": 46.35215381,
+        "lonEnd": 14.17865435,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3829
+  },
+  {
+    "type": 1,
+    "icao": "LJLJ",
+    "lat": 46.22387759,
+    "lon": 14.45908643,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12817,
+        "name": "LJUBLJANA ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12162,
+        "name": "LJUBLJANA GROUND"
+      },
+      {
+        "type": 54,
+        "frequency": 11800,
+        "name": "LJUBLJANA TOWER"
+      },
+      {
+        "type": 54,
+        "frequency": 11875,
+        "name": "LJUBLJANA TOWER"
+      },
+      {
+        "type": 55,
+        "frequency": 13527,
+        "name": "LJUBLJANA APP"
+      },
+      {
+        "type": 55,
+        "frequency": 13600,
+        "name": "LJUBLJANA APP"
+      }
+    ],
+    "elevation": 1272,
+    "tower": true,
+    "name": "LJUBLJANA Joze Pucnik",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 46.232492,
+        "lonStart": 14.440392,
+        "latEnd": 46.214878,
+        "lonEnd": 14.474825,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 40,
+        "surfaceType": 2,
+        "numberStart": "H",
+        "numberEnd": null,
+        "latStart": 46.22426277,
+        "lonStart": 14.46204229,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 40
+      }
+    ],
+    "id": 3831
+  },
+  {
+    "type": 1,
+    "icao": "LOKM",
+    "lat": 46.974989535000006,
+    "lon": 14.371209225000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12285,
+        "name": "Mayerhofen Flugplatz"
+      }
+    ],
+    "elevation": 2119,
+    "tower": true,
+    "name": "Mayerhofen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 25,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 46.97469842,
+        "lonStart": 14.36860581,
+        "latEnd": 46.97528065,
+        "lonEnd": 14.37381264,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3853
+  },
+  {
+    "type": 1,
     "icao": "LOKF",
     "lat": 46.708,
     "lon": 14.077,
@@ -23,7 +163,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 9225
+    "id": 20755
   },
   {
     "type": 1,
@@ -49,7 +189,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 9248
+    "id": 20756
   },
   {
     "type": 1,
@@ -75,7 +215,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 11889
+    "id": 20757
+  },
+  {
+    "type": 1,
+    "icao": "LOKW",
+    "lat": 46.818,
+    "lon": 14.827,
+    "communications": [],
+    "elevation": 1459,
+    "tower": true,
+    "name": "Wolfsberg",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 46.81496107,
+        "lonStart": 14.82626411,
+        "latEnd": 46.82103893,
+        "lonEnd": 14.82773589,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20759
   },
   {
     "type": 1,
@@ -166,154 +332,6 @@
         "length": 22.86
       }
     ],
-    "id": 13966
-  },
-  {
-    "type": 1,
-    "icao": "LJLJ",
-    "lat": 46.223685,
-    "lon": 14.4576085,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12817,
-        "name": "LJUBLJANA ATIS"
-      },
-      {
-        "type": 53,
-        "frequency": 12162,
-        "name": "LJUBLJANA GROUND"
-      },
-      {
-        "type": 54,
-        "frequency": 11800,
-        "name": "LJUBLJANA TOWER"
-      },
-      {
-        "type": 54,
-        "frequency": 11875,
-        "name": "LJUBLJANA TOWER"
-      },
-      {
-        "type": 55,
-        "frequency": 13527,
-        "name": "LJUBLJANA APP"
-      },
-      {
-        "type": 55,
-        "frequency": 13600,
-        "name": "LJUBLJANA APP"
-      }
-    ],
-    "elevation": 1273,
-    "tower": true,
-    "name": "LJUBLJANA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 46.232492,
-        "lonStart": 14.440392,
-        "latEnd": 46.214878,
-        "lonEnd": 14.474825,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 14569
-  },
-  {
-    "type": 1,
-    "icao": "LJBL",
-    "lat": 46.356958685,
-    "lon": 14.1738429,
-    "communications": [],
-    "elevation": 1650,
-    "tower": true,
-    "name": "Lesce-Bled",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "14L",
-        "numberEnd": "32R",
-        "latStart": 46.35991289,
-        "lonStart": 14.17099616,
-        "latEnd": 46.35549004,
-        "lonEnd": 14.17572109,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 23,
-        "surfaceType": null,
-        "numberStart": "14R",
-        "numberEnd": "32L",
-        "latStart": 46.360278,
-        "lonStart": 14.17,
-        "latEnd": 46.35215381,
-        "lonEnd": 14.17865435,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 15192
-  },
-  {
-    "type": 1,
-    "icao": "LOKM",
-    "lat": 46.977000000000004,
-    "lon": 14.372,
-    "communications": [],
-    "elevation": 2120,
-    "tower": true,
-    "name": "Mayerhofen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 46.97609663,
-        "lonStart": 14.36971916,
-        "latEnd": 46.97790337,
-        "lonEnd": 14.37428084,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 16849
-  },
-  {
-    "type": 1,
-    "icao": "LOKW",
-    "lat": 46.818,
-    "lon": 14.827,
-    "communications": [],
-    "elevation": 1459,
-    "tower": true,
-    "name": "Wolfsberg",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 46.81496107,
-        "lonStart": 14.82626411,
-        "latEnd": 46.82103893,
-        "lonEnd": 14.82773589,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 27503
+    "id": 20771
   }
 ]

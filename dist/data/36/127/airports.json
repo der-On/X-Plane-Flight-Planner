@@ -1,6 +1,58 @@
 [
   {
     "type": 1,
+    "icao": "RK20",
+    "lat": 36.112314,
+    "lon": 127.1032335,
+    "communications": [],
+    "elevation": 66,
+    "tower": false,
+    "name": "G 500",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 36.114028,
+        "lonStart": 127.100728,
+        "latEnd": 36.1106,
+        "lonEnd": 127.105739,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 24460
+  },
+  {
+    "type": 1,
+    "icao": "RK24",
+    "lat": 36.1802775,
+    "lon": 127.833335,
+    "communications": [],
+    "elevation": 546,
+    "tower": false,
+    "name": "G 522",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 36.179722,
+        "lonStart": 127.831389,
+        "latEnd": 36.180833,
+        "lonEnd": 127.835281,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 24463
+  },
+  {
+    "type": 1,
     "icao": "RKSG",
     "lat": 36.9622125,
     "lon": 127.0310705,
@@ -39,7 +91,49 @@
         "surfacetype": 1
       }
     ],
-    "id": 22
+    "id": 24510
+  },
+  {
+    "type": 1,
+    "icao": "RKTE",
+    "lat": 36.568177500000004,
+    "lon": 127.500115,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 13455,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12620,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 13130,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 258,
+    "tower": true,
+    "name": "SEONGMU",
+    "runways": [
+      {
+        "type": 100,
+        "width": 36.58,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 36.573211,
+        "lonStart": 127.497386,
+        "latEnd": 36.563144,
+        "lonEnd": 127.502844,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 24514
   },
   {
     "type": 1,
@@ -124,33 +218,7 @@
         "surfacetype": 2
       }
     ],
-    "id": 3852
-  },
-  {
-    "type": 1,
-    "icao": "RK20",
-    "lat": 36.112314,
-    "lon": 127.1032335,
-    "communications": [],
-    "elevation": 66,
-    "tower": false,
-    "name": "G 500",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 36.114028,
-        "lonStart": 127.100728,
-        "latEnd": 36.1106,
-        "lonEnd": 127.105739,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 9835
+    "id": 24519
   },
   {
     "type": 1,
@@ -176,33 +244,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 9837
-  },
-  {
-    "type": 1,
-    "icao": "RK24",
-    "lat": 36.1802775,
-    "lon": 127.833335,
-    "communications": [],
-    "elevation": 546,
-    "tower": false,
-    "name": "G 522",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 36.179722,
-        "lonStart": 127.831389,
-        "latEnd": 36.180833,
-        "lonEnd": 127.835281,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 9839
+    "id": 24522
   },
   {
     "type": 1,
@@ -247,48 +289,6 @@
         "surfacetype": 2
       }
     ],
-    "id": 9842
-  },
-  {
-    "type": 1,
-    "icao": "RKTE",
-    "lat": 36.568177500000004,
-    "lon": 127.500115,
-    "communications": [
-      {
-        "type": 53,
-        "frequency": 13455,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12620,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 13130,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 258,
-    "tower": true,
-    "name": "SEONGMU",
-    "runways": [
-      {
-        "type": 100,
-        "width": 36.58,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 36.573211,
-        "lonStart": 127.497386,
-        "latEnd": 36.563144,
-        "lonEnd": 127.502844,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 22161
+    "id": 24523
   }
 ]

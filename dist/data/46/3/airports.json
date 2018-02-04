@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "LFLV",
+    "lat": 46.1697135,
+    "lon": 3.4036144999999998,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12140,
+        "name": "VICHY INFO"
+      }
+    ],
+    "elevation": 816,
+    "tower": true,
+    "name": "Vichy Charmeil",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 46.159919,
+        "lonStart": 3.401615,
+        "latEnd": 46.179508,
+        "lonEnd": 3.405614,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3623
+  },
+  {
+    "type": 1,
     "icao": "LFHX",
     "lat": 46.253889,
     "lon": 3.588611,
@@ -23,7 +55,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 14956
+    "id": 20321
   },
   {
     "type": 1,
@@ -55,38 +87,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 17582
-  },
-  {
-    "type": 1,
-    "icao": "LFLV",
-    "lat": 46.169689,
-    "lon": 3.4037375,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12140,
-        "name": "VICHY INFO"
-      }
-    ],
-    "elevation": 816,
-    "tower": true,
-    "name": "Vichy Charmeil",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 46.159878,
-        "lonStart": 3.401722,
-        "latEnd": 46.1795,
-        "lonEnd": 3.405753,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 26304
+    "id": 20322
   }
 ]

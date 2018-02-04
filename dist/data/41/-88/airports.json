@@ -1,39 +1,143 @@
 [
   {
     "type": 1,
-    "icao": "IL78",
-    "lat": 41.131143609999995,
-    "lon": -87.79226195,
-    "communications": [],
-    "elevation": 660,
+    "icao": "05C",
+    "lat": 41.52051189333333,
+    "lon": -87.39867592,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 13310,
+        "name": "CHICAGO APP/DEP"
+      }
+    ],
+    "elevation": 633,
     "tower": false,
-    "name": "Benoit",
+    "name": "GRIFFITH MERRILLVILLE",
     "runways": [
       {
         "type": 100,
-        "width": 32,
+        "width": 22.86,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 41.13388617,
-        "lonStart": -87.79232551,
-        "latEnd": 41.12840105,
-        "lonEnd": -87.79219839,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 41.518678,
+        "lonStart": -87.408319,
+        "latEnd": 41.521006,
+        "lonEnd": -87.390697,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 1,
+        "numberStart": "H17",
+        "numberEnd": null,
+        "latStart": 41.52185168,
+        "lonStart": -87.39701176,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
       }
     ],
-    "id": 2559
+    "id": 180
   },
   {
     "type": 1,
-    "icao": "IN70",
-    "lat": 41.63364916,
-    "lon": -87.02697639,
-    "communications": [],
-    "elevation": 674,
+    "icao": "KGYY",
+    "lat": 41.61713675,
+    "lon": -87.41497650000001,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13457,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12560,
+        "name": "CTAF"
+      },
+      {
+        "type": 53,
+        "frequency": 12190,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12560,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 13310,
+        "name": "CHICAGO APP/DEP"
+      }
+    ],
+    "elevation": 591,
+    "tower": true,
+    "name": "Gary Chicago Intl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 41.624205,
+        "lonStart": -87.427322,
+        "latEnd": 41.610556,
+        "lonEnd": -87.400514,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 41.612283,
+        "lonStart": -87.418417,
+        "latEnd": 41.621503,
+        "lonEnd": -87.413653,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2745
+  },
+  {
+    "type": 1,
+    "icao": "KIGQ",
+    "lat": 41.535285890000004,
+    "lon": -87.5296902225,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11927,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12820,
+        "name": "CHICAGO APP/DEP"
+      }
+    ],
+    "elevation": 620,
     "tower": false,
-    "name": "Bodin",
+    "name": "LANSING MUNI",
     "runways": [
       {
         "type": 100,
@@ -41,53 +145,216 @@
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 41.63693873,
-        "lonStart": -87.02713009,
-        "latEnd": 41.63035959,
-        "lonEnd": -87.02682269,
+        "latStart": 41.53618056,
+        "lonStart": -87.52766389,
+        "latEnd": 41.525197,
+        "lonEnd": -87.5277,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 41.539897,
+        "lonStart": -87.5379,
+        "latEnd": 41.539869,
+        "lonEnd": -87.525497,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "id": 2906
+    "id": 2813
   },
   {
     "type": 1,
-    "icao": "55IL",
-    "lat": 41.27781027,
-    "lon": -87.82226584,
-    "communications": [],
-    "elevation": 680,
+    "icao": "KIKK",
+    "lat": 41.0712744025,
+    "lon": -87.8459280925,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 629,
     "tower": false,
-    "name": "Brandt",
+    "name": "GREATER KANKAKEE",
     "runways": [
       {
         "type": 100,
-        "width": 21.34,
+        "width": 30.48,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 41.28082709,
-        "lonStart": -87.82233591,
-        "latEnd": 41.27479345,
-        "lonEnd": -87.82219577,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 41.06579015,
+        "lonStart": -87.85488875,
+        "latEnd": 41.07872811,
+        "lonEnd": -87.84142821,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 41.07600042,
+        "lonStart": -87.84629131,
+        "latEnd": 41.06457893,
+        "lonEnd": -87.8411041,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "id": 3117
+    "id": 2816
+  },
+  {
+    "type": 1,
+    "icao": "KMDW",
+    "lat": 41.785337840000004,
+    "lon": -87.75280281272727,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13275,
+        "name": "ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 12185,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 12165,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11870,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11945,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 13520,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11840,
+        "name": "APP/DEP"
+      },
+      {
+        "type": 55,
+        "frequency": 12605,
+        "name": "APP/DEP"
+      }
+    ],
+    "elevation": 620,
+    "tower": true,
+    "name": "Chicago Midway Intl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "13C",
+        "numberEnd": "31C",
+        "latStart": 41.79157217,
+        "lonStart": -87.76106808,
+        "latEnd": 41.77923819,
+        "lonEnd": -87.7437404,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "04R",
+        "numberEnd": "22L",
+        "latStart": 41.77916142,
+        "lonStart": -87.75931749,
+        "latEnd": 41.79199658,
+        "lonEnd": -87.74305653,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "04L",
+        "numberEnd": "22R",
+        "latStart": 41.78136769,
+        "lonStart": -87.76119025,
+        "latEnd": 41.79233631,
+        "lonEnd": -87.74729859,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "13L",
+        "numberEnd": "31R",
+        "latStart": 41.79231722,
+        "lonStart": -87.75793893,
+        "latEnd": 41.78259678,
+        "lonEnd": -87.74427298,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "13R",
+        "numberEnd": "31L",
+        "latStart": 41.78806892,
+        "lonStart": -87.75880278,
+        "latEnd": 41.78077203,
+        "lonEnd": -87.74855098,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 27.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.77928893,
+        "lonStart": -87.75559393,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 27.6
+      }
+    ],
+    "id": 2950
   },
   {
     "type": 1,
     "icao": "KORD",
-    "lat": 41.977982985263154,
-    "lon": -87.90652989736842,
+    "lat": 41.97634321882352,
+    "lon": -87.90688147411765,
     "communications": [
-      {
-        "type": 50,
-        "frequency": 13540,
-        "name": "ASOS"
-      },
       {
         "type": 50,
         "frequency": 13540,
@@ -177,14 +444,9 @@
         "type": 56,
         "frequency": 12740,
         "name": "DEP"
-      },
-      {
-        "type": 54,
-        "frequency": 12880,
-        "name": "unnamed entity"
       }
     ],
-    "elevation": 667,
+    "elevation": 666,
     "tower": true,
     "name": "CHICAGO OHARE INTL",
     "runways": [
@@ -231,25 +493,12 @@
         "type": 100,
         "width": 60.93,
         "surfaceType": null,
-        "numberStart": "14R",
-        "numberEnd": "32L",
+        "numberStart": "15",
+        "numberEnd": "33",
         "latStart": 41.9904354,
         "lonStart": -87.93313999,
         "latEnd": 41.97005669,
         "lonEnd": -87.91021479,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "14L",
-        "numberEnd": "32R",
-        "latStart": 42.002436,
-        "lonStart": -87.91536899,
-        "latEnd": 41.981406,
-        "lonEnd": -87.891714,
         "length": 0,
         "surfacetype": 1
       },
@@ -318,7 +567,428 @@
         "length": 30.5
       }
     ],
-    "id": 3883
+    "id": 3078
+  },
+  {
+    "type": 1,
+    "icao": "LL22",
+    "lat": 41.733254280000004,
+    "lon": -87.996896815,
+    "communications": [],
+    "elevation": 749,
+    "tower": false,
+    "name": "Brookeridge Air Park (Pvt)",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 41.732694,
+        "lonStart": -88.004564,
+        "latEnd": 41.732883,
+        "lonEnd": -87.994261,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.73637993,
+        "lonStart": -87.99446988,
+        "latEnd": 41.73106019,
+        "lonEnd": -87.99429238,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3840
+  },
+  {
+    "type": 1,
+    "icao": "0C6",
+    "lat": 41.206976940000004,
+    "lon": -87.78531862,
+    "communications": [],
+    "elevation": 665,
+    "tower": false,
+    "name": "St George",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 41.20691375,
+        "lonStart": -87.79013055,
+        "latEnd": 41.20704013,
+        "lonEnd": -87.78050669,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5727
+  },
+  {
+    "type": 17,
+    "icao": "00II",
+    "lat": 41.64448166,
+    "lon": -87.12281195,
+    "communications": [],
+    "elevation": 600,
+    "tower": false,
+    "name": "[H] Bailey Generation Station",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.64448166,
+        "lonStart": -87.12281195,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 5837
+  },
+  {
+    "type": 1,
+    "icao": "0II8",
+    "lat": 41.324757219999995,
+    "lon": -87.47586917000001,
+    "communications": [],
+    "elevation": 740,
+    "tower": false,
+    "name": "Suttons Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 41.32286077,
+        "lonStart": -87.47626914,
+        "latEnd": 41.32665367,
+        "lonEnd": -87.4754692,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5846
+  },
+  {
+    "type": 17,
+    "icao": "0IL1",
+    "lat": 41.86086472,
+    "lon": -87.83644806,
+    "communications": [],
+    "elevation": 623,
+    "tower": false,
+    "name": "[H] Loyola University Medical Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 27.4,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.86086472,
+        "lonStart": -87.83644806,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 27.4
+      }
+    ],
+    "id": 5850
+  },
+  {
+    "type": 17,
+    "icao": "0IS1",
+    "lat": 41.92919722,
+    "lon": -87.86200639,
+    "communications": [],
+    "elevation": 640,
+    "tower": false,
+    "name": "[H] Matsushita Electric Corp of America",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.92919722,
+        "lonStart": -87.86200639,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 5868
+  },
+  {
+    "type": 1,
+    "icao": "1C2",
+    "lat": 41.479820000000004,
+    "lon": -87.921334,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 753,
+    "tower": false,
+    "name": "Howell New Lenox",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 41.482508,
+        "lonStart": -87.924608,
+        "latEnd": 41.477122,
+        "lonEnd": -87.916931,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 41.477569,
+        "lonStart": -87.924994,
+        "latEnd": 41.482081,
+        "lonEnd": -87.918803,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 6315
+  },
+  {
+    "type": 17,
+    "icao": "2II5",
+    "lat": 41.63698138,
+    "lon": -87.15225695,
+    "communications": [],
+    "elevation": 596,
+    "tower": false,
+    "name": "[H] Burns International Harbor",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.63698138,
+        "lonStart": -87.15225695,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 45.7
+      }
+    ],
+    "id": 7001
+  },
+  {
+    "type": 1,
+    "icao": "2IL9",
+    "lat": 41.432778,
+    "lon": -87.781665,
+    "communications": [],
+    "elevation": 770,
+    "tower": false,
+    "name": "MEADOW CREEK",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 41.429156,
+        "lonStart": -87.785572,
+        "latEnd": 41.4364,
+        "lonEnd": -87.777758,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 7013
+  },
+  {
+    "type": 17,
+    "icao": "2IN8",
+    "lat": 41.39444444,
+    "lon": -87.36888889,
+    "communications": [],
+    "elevation": 756,
+    "tower": false,
+    "name": "[H] St Anthony",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.39444444,
+        "lonStart": -87.36888889,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 7019
+  },
+  {
+    "type": 17,
+    "icao": "02LL",
+    "lat": 41.84928027,
+    "lon": -87.93342306,
+    "communications": [],
+    "elevation": 668,
+    "tower": false,
+    "name": "[H] Official Airline Guides",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.84928027,
+        "lonStart": -87.93342306,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 7072
+  },
+  {
+    "type": 1,
+    "icao": "3C0",
+    "lat": 41.20698111,
+    "lon": -87.21252973,
+    "communications": [],
+    "elevation": 655,
+    "tower": false,
+    "name": "De Motte",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.21054644,
+        "lonStart": -87.21261245,
+        "latEnd": 41.20341578,
+        "lonEnd": -87.21244701,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7453
+  },
+  {
+    "type": 1,
+    "icao": "3HO",
+    "lat": 41.5559,
+    "lon": -87.263922,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 644,
+    "tower": false,
+    "name": "HOBART SKY RANCH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.560189,
+        "lonStart": -87.263922,
+        "latEnd": 41.551611,
+        "lonEnd": -87.263922,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 7541
+  },
+  {
+    "type": 1,
+    "icao": "03IL",
+    "lat": 41.40225527,
+    "lon": -87.81671334,
+    "communications": [],
+    "elevation": 750,
+    "tower": false,
+    "name": "Wix",
+    "runways": [
+      {
+        "type": 100,
+        "width": 32,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.4058206,
+        "lonStart": -87.81679631,
+        "latEnd": 41.39868994,
+        "lonEnd": -87.81663037,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7570
+  },
+  {
+    "type": 17,
+    "icao": "3IL0",
+    "lat": 41.92419611,
+    "lon": -87.96339862,
+    "communications": [],
+    "elevation": 693,
+    "tower": false,
+    "name": "[H] Patten Industries",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.92419611,
+        "lonStart": -87.96339862,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 7571
   },
   {
     "type": 1,
@@ -344,13 +1014,1582 @@
         "surfacetype": 3
       }
     ],
-    "id": 4561
+    "id": 7578
+  },
+  {
+    "type": 1,
+    "icao": "3KK",
+    "lat": 41.10003222,
+    "lon": -87.91671,
+    "communications": [],
+    "elevation": 625,
+    "tower": false,
+    "name": "Kankakee",
+    "runways": [
+      {
+        "type": 100,
+        "width": 91.44,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 41.09996893,
+        "lonStart": -87.92152137,
+        "latEnd": 41.10009551,
+        "lonEnd": -87.91189863,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.10354819,
+        "lonStart": -87.91679144,
+        "latEnd": 41.09651625,
+        "lonEnd": -87.91662856,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7608
+  },
+  {
+    "type": 17,
+    "icao": "4II1",
+    "lat": 41.65586861,
+    "lon": -87.51365389,
+    "communications": [],
+    "elevation": 588,
+    "tower": false,
+    "name": "[H] Justak Brothers",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.65586861,
+        "lonStart": -87.51365389,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 8099
+  },
+  {
+    "type": 17,
+    "icao": "4II5",
+    "lat": 41.595,
+    "lon": -87.49250001,
+    "communications": [],
+    "elevation": 600,
+    "tower": false,
+    "name": "[H] Escc",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.595,
+        "lonStart": -87.49250001,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 8103
+  },
+  {
+    "type": 17,
+    "icao": "4IL8",
+    "lat": 41.86447583,
+    "lon": -87.80978028,
+    "communications": [],
+    "elevation": 620,
+    "tower": false,
+    "name": "[H] 86th USARcom",
+    "runways": [
+      {
+        "type": 102,
+        "width": 91.4,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.86447583,
+        "lonStart": -87.80978028,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 152.4
+      }
+    ],
+    "id": 8115
+  },
+  {
+    "type": 17,
+    "icao": "4IS3",
+    "lat": 41.78836722,
+    "lon": -87.60421556,
+    "communications": [],
+    "elevation": 665,
+    "tower": false,
+    "name": "[H] University of Chicago Hospitals",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.78836722,
+        "lonStart": -87.60421556,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.6
+      }
+    ],
+    "id": 8121
+  },
+  {
+    "type": 17,
+    "icao": "05LL",
+    "lat": 41.74892,
+    "lon": -87.93505889,
+    "communications": [],
+    "elevation": 708,
+    "tower": false,
+    "name": "[H] Midwest",
+    "runways": [
+      {
+        "type": 102,
+        "width": 36.6,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.74892,
+        "lonStart": -87.93505889,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 36.6
+      }
+    ],
+    "id": 8683
+  },
+  {
+    "type": 17,
+    "icao": "6IL8",
+    "lat": 41.52114583,
+    "lon": -87.65337778,
+    "communications": [],
+    "elevation": 660,
+    "tower": false,
+    "name": "[H] Raeco",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.52114583,
+        "lonStart": -87.65337778,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 9142
+  },
+  {
+    "type": 17,
+    "icao": "6IS7",
+    "lat": 41.90281,
+    "lon": -87.68283251,
+    "communications": [],
+    "elevation": 640,
+    "tower": false,
+    "name": "[H] St Mary of Nazareth Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 26.8,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.90281,
+        "lonStart": -87.68283251,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 26.8
+      }
+    ],
+    "id": 9150
+  },
+  {
+    "type": 1,
+    "icao": "7IL0",
+    "lat": 41.2708675,
+    "lon": -87.57781473,
+    "communications": [],
+    "elevation": 705,
+    "tower": false,
+    "name": "Mussman",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 41.27081307,
+        "lonStart": -87.58196361,
+        "latEnd": 41.27092193,
+        "lonEnd": -87.57366585,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9635
+  },
+  {
+    "type": 17,
+    "icao": "8IL8",
+    "lat": 41.56697861,
+    "lon": -87.69588028,
+    "communications": [],
+    "elevation": 665,
+    "tower": false,
+    "name": "[H] South Suburban Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.56697861,
+        "lonStart": -87.69588028,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 10104
+  },
+  {
+    "type": 17,
+    "icao": "9IS4",
+    "lat": 41.50559027,
+    "lon": -87.64004389,
+    "communications": [],
+    "elevation": 659,
+    "tower": false,
+    "name": "[H] St James Hospital and Health Centers",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.50559027,
+        "lonStart": -87.64004389,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 10555
+  },
+  {
+    "type": 17,
+    "icao": "10IL",
+    "lat": 41.12364333,
+    "lon": -87.88532056,
+    "communications": [],
+    "elevation": 620,
+    "tower": false,
+    "name": "[H] Riverside Medical Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 61,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.12364333,
+        "lonStart": -87.88532056,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 91.4
+      }
+    ],
+    "id": 10892
+  },
+  {
+    "type": 17,
+    "icao": "11IL",
+    "lat": 41.12197666,
+    "lon": -87.87226445,
+    "communications": [],
+    "elevation": 608,
+    "tower": false,
+    "name": "[H] St Marys Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.12197666,
+        "lonStart": -87.87226445,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 10937
+  },
+  {
+    "type": 17,
+    "icao": "18IL",
+    "lat": 41.79669777,
+    "lon": -87.88672556,
+    "communications": [],
+    "elevation": 700,
+    "tower": false,
+    "name": "[H] La Grange Meml Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 13.4,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.79669777,
+        "lonStart": -87.88672556,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.4
+      }
+    ],
+    "id": 11223
+  },
+  {
+    "type": 1,
+    "icao": "19LL",
+    "lat": 41.25697638,
+    "lon": -87.91949139,
+    "communications": [],
+    "elevation": 650,
+    "tower": false,
+    "name": "Neiner",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.25963667,
+        "lonStart": -87.91955316,
+        "latEnd": 41.25431609,
+        "lonEnd": -87.91942962,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11271
+  },
+  {
+    "type": 17,
+    "icao": "20IL",
+    "lat": 41.66892138,
+    "lon": -87.81310862,
+    "communications": [],
+    "elevation": 715,
+    "tower": false,
+    "name": "[H] Palos Community Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 14,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.66892138,
+        "lonStart": -87.81310862,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 16.5
+      }
+    ],
+    "id": 11306
+  },
+  {
+    "type": 17,
+    "icao": "40IS",
+    "lat": 41.92558777,
+    "lon": -87.64644306,
+    "communications": [],
+    "elevation": 720,
+    "tower": false,
+    "name": "[H] Childrens Memorial Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.92558777,
+        "lonStart": -87.64644306,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 12093
+  },
+  {
+    "type": 17,
+    "icao": "43II",
+    "lat": 41.45225861,
+    "lon": -87.31892417,
+    "communications": [],
+    "elevation": 708,
+    "tower": false,
+    "name": "[H] Kirk",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.45225861,
+        "lonStart": -87.31892417,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 12209
+  },
+  {
+    "type": 17,
+    "icao": "46II",
+    "lat": 41.46670583,
+    "lon": -87.05058528,
+    "communications": [],
+    "elevation": 862,
+    "tower": false,
+    "name": "[H] Porter Memorial Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.46670583,
+        "lonStart": -87.05058528,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 12327
+  },
+  {
+    "type": 1,
+    "icao": "46IS",
+    "lat": 41.183365269999996,
+    "lon": -87.90115584,
+    "communications": [],
+    "elevation": 685,
+    "tower": false,
+    "name": "Karlock",
+    "runways": [
+      {
+        "type": 100,
+        "width": 38.1,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.1888504,
+        "lonStart": -87.90128306,
+        "latEnd": 41.17788014,
+        "lonEnd": -87.90102862,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12330
+  },
+  {
+    "type": 1,
+    "icao": "55IL",
+    "lat": 41.27781027,
+    "lon": -87.82226584,
+    "communications": [],
+    "elevation": 680,
+    "tower": false,
+    "name": "Brandt",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.28082709,
+        "lonStart": -87.82233591,
+        "latEnd": 41.27479345,
+        "lonEnd": -87.82219577,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12681
+  },
+  {
+    "type": 1,
+    "icao": "58IL",
+    "lat": 41.23836555,
+    "lon": -87.85948862000001,
+    "communications": [],
+    "elevation": 675,
+    "tower": false,
+    "name": "Spangler",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 41.2368857,
+        "lonStart": -87.86138905,
+        "latEnd": 41.2398454,
+        "lonEnd": -87.85758819,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12793
+  },
+  {
+    "type": 17,
+    "icao": "64LL",
+    "lat": 41.81253305,
+    "lon": -87.66310723,
+    "communications": [],
+    "elevation": 645,
+    "tower": false,
+    "name": "[H] Rose Nr 3",
+    "runways": [
+      {
+        "type": 102,
+        "width": 22.9,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.81253305,
+        "lonStart": -87.66310723,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 22.9
+      }
+    ],
+    "id": 13038
+  },
+  {
+    "type": 17,
+    "icao": "70IS",
+    "lat": 41.84141888,
+    "lon": -87.99284167,
+    "communications": [],
+    "elevation": 798,
+    "tower": false,
+    "name": "[H] Waste Management Inc",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.84141888,
+        "lonStart": -87.99284167,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 13272
+  },
+  {
+    "type": 1,
+    "icao": "72II",
+    "lat": 41.19197916,
+    "lon": -87.46420028,
+    "communications": [],
+    "elevation": 640,
+    "tower": false,
+    "name": "Huber Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 41.19190735,
+        "lonStart": -87.46966713,
+        "latEnd": 41.19205097,
+        "lonEnd": -87.45873343,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13344
+  },
+  {
+    "type": 17,
+    "icao": "74IS",
+    "lat": 41.64864555,
+    "lon": -87.62393528,
+    "communications": [],
+    "elevation": 595,
+    "tower": false,
+    "name": "[H] Waste Management Chemical Lab",
+    "runways": [
+      {
+        "type": 102,
+        "width": 13.7,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.64864555,
+        "lonStart": -87.62393528,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.7
+      }
+    ],
+    "id": 13433
+  },
+  {
+    "type": 17,
+    "icao": "88IL",
+    "lat": 41.51669916,
+    "lon": -87.88338501,
+    "communications": [],
+    "elevation": 665,
+    "tower": false,
+    "name": "[H] Richards",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.51669916,
+        "lonStart": -87.88338501,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 13958
+  },
+  {
+    "type": 1,
+    "icao": "89LL",
+    "lat": 41.358366939999996,
+    "lon": -87.72504251000001,
+    "communications": [],
+    "elevation": 750,
+    "tower": false,
+    "name": "Norman",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 41.3583071,
+        "lonStart": -87.72960985,
+        "latEnd": 41.35842678,
+        "lonEnd": -87.72047517,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13995
+  },
+  {
+    "type": 1,
+    "icao": "90IL",
+    "lat": 41.19808972,
+    "lon": -87.55892417,
+    "communications": [],
+    "elevation": 630,
+    "tower": false,
+    "name": "Johnson",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.20165505,
+        "lonStart": -87.55900688,
+        "latEnd": 41.19452439,
+        "lonEnd": -87.55884146,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14026
+  },
+  {
+    "type": 1,
+    "icao": "C56",
+    "lat": 41.3775773575,
+    "lon": -87.6813220775,
+    "communications": [],
+    "elevation": 790,
+    "tower": false,
+    "name": "Sanger",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.75,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 41.37737277,
+        "lonStart": -87.68820666,
+        "latEnd": 41.37743861,
+        "lonEnd": -87.67942,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 9.75,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 41.3759675,
+        "lonStart": -87.68231777,
+        "latEnd": 41.37953055,
+        "lonEnd": -87.67534388,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14966
+  },
+  {
+    "type": 1,
+    "icao": "C97",
+    "lat": 41.23003472,
+    "lon": -87.5078125,
+    "communications": [],
+    "elevation": 675,
+    "tower": false,
+    "name": "Lowell",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.23421713,
+        "lonStart": -87.50790957,
+        "latEnd": 41.22585231,
+        "lonEnd": -87.50771543,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14990
+  },
+  {
+    "type": 1,
+    "icao": "C98",
+    "lat": 41.15003444,
+    "lon": -87.46253278,
+    "communications": [],
+    "elevation": 644,
+    "tower": false,
+    "name": "Lake Village",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.15343522,
+        "lonStart": -87.46261161,
+        "latEnd": 41.14663366,
+        "lonEnd": -87.46245395,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14991
+  },
+  {
+    "type": 17,
+    "icao": "II46",
+    "lat": 41.38833333,
+    "lon": -87.21388889,
+    "communications": [],
+    "elevation": 733,
+    "tower": false,
+    "name": "[H] Carlson Farms",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.38833333,
+        "lonStart": -87.21388889,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 18348
+  },
+  {
+    "type": 17,
+    "icao": "II57",
+    "lat": 41.46336972,
+    "lon": -87.32364667,
+    "communications": [],
+    "elevation": 688,
+    "tower": false,
+    "name": "[H] Nipsco Southlake Complex",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.46336972,
+        "lonStart": -87.32364667,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 18359
+  },
+  {
+    "type": 17,
+    "icao": "IL14",
+    "lat": 41.95002972,
+    "lon": -87.91784223,
+    "communications": [],
+    "elevation": 660,
+    "tower": false,
+    "name": "[H] Garden City Garage",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.95002972,
+        "lonStart": -87.91784223,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 18416
+  },
+  {
+    "type": 1,
+    "icao": "IL29",
+    "lat": 41.30003388,
+    "lon": -87.65003917000001,
+    "communications": [],
+    "elevation": 714,
+    "tower": false,
+    "name": "Von Alvens Airview",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.30263931,
+        "lonStart": -87.65009971,
+        "latEnd": 41.29742845,
+        "lonEnd": -87.64997863,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18431
+  },
+  {
+    "type": 1,
+    "icao": "IL30",
+    "lat": 41.38114527,
+    "lon": -87.65420806,
+    "communications": [],
+    "elevation": 759,
+    "tower": false,
+    "name": "Wirth",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.38350936,
+        "lonStart": -87.65426306,
+        "latEnd": 41.37878118,
+        "lonEnd": -87.65415306,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18432
+  },
+  {
+    "type": 17,
+    "icao": "IL31",
+    "lat": 41.88058638,
+    "lon": -87.86756056,
+    "communications": [],
+    "elevation": 628,
+    "tower": false,
+    "name": "[H] Sauerman",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.88058638,
+        "lonStart": -87.86756056,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 18433
+  },
+  {
+    "type": 17,
+    "icao": "IL69",
+    "lat": 41.80003361,
+    "lon": -87.62782778,
+    "communications": [],
+    "elevation": 600,
+    "tower": false,
+    "name": "[H] First Area Police Hdqtrs",
+    "runways": [
+      {
+        "type": 102,
+        "width": 22.9,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.80003361,
+        "lonStart": -87.62782778,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 22.9
+      }
+    ],
+    "id": 18469
+  },
+  {
+    "type": 17,
+    "icao": "IL70",
+    "lat": 41.94892083,
+    "lon": -87.69116751,
+    "communications": [],
+    "elevation": 589,
+    "tower": false,
+    "name": "[H] WGN",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.94892083,
+        "lonStart": -87.69116751,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 18470
+  },
+  {
+    "type": 17,
+    "icao": "IL71",
+    "lat": 41.98614277,
+    "lon": -87.66672306,
+    "communications": [],
+    "elevation": 579,
+    "tower": false,
+    "name": "[H] Edgewater Medical Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 14.6,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.98614277,
+        "lonStart": -87.66672306,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 19.5
+      }
+    ],
+    "id": 18471
+  },
+  {
+    "type": 17,
+    "icao": "IL74",
+    "lat": 41.80281,
+    "lon": -87.76616612,
+    "communications": [],
+    "elevation": 611,
+    "tower": false,
+    "name": "[H] Rose Packing Co",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.80281,
+        "lonStart": -87.76616612,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 18474
+  },
+  {
+    "type": 17,
+    "icao": "IL75",
+    "lat": 41.87475472,
+    "lon": -87.67338695,
+    "communications": [],
+    "elevation": 591,
+    "tower": false,
+    "name": "[H] Robin Dean",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.87475472,
+        "lonStart": -87.67338695,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 18475
+  },
+  {
+    "type": 17,
+    "icao": "IL76",
+    "lat": 41.89614361,
+    "lon": -87.64227528,
+    "communications": [],
+    "elevation": 1045,
+    "tower": false,
+    "name": "[H] Marcor",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.89614361,
+        "lonStart": -87.64227528,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 18476
+  },
+  {
+    "type": 17,
+    "icao": "IL77",
+    "lat": 41.72503305,
+    "lon": -87.72921834,
+    "communications": [],
+    "elevation": 619,
+    "tower": false,
+    "name": "[H] Christ Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 22.9,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.72503305,
+        "lonStart": -87.72921834,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 22.9
+      }
+    ],
+    "id": 18477
+  },
+  {
+    "type": 1,
+    "icao": "IL78",
+    "lat": 41.131143609999995,
+    "lon": -87.79226195,
+    "communications": [],
+    "elevation": 660,
+    "tower": false,
+    "name": "Benoit",
+    "runways": [
+      {
+        "type": 100,
+        "width": 32,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.13388617,
+        "lonStart": -87.79232551,
+        "latEnd": 41.12840105,
+        "lonEnd": -87.79219839,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18478
+  },
+  {
+    "type": 17,
+    "icao": "IL79",
+    "lat": 41.98669722,
+    "lon": -87.81506195,
+    "communications": [],
+    "elevation": 663,
+    "tower": false,
+    "name": "[H] Resurrection Medical Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.98669722,
+        "lonStart": -87.81506195,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 18479
+  },
+  {
+    "type": 17,
+    "icao": "IL83",
+    "lat": 41.47864611,
+    "lon": -87.58976389,
+    "communications": [],
+    "elevation": 665,
+    "tower": false,
+    "name": "[H] Mulderink",
+    "runways": [
+      {
+        "type": 102,
+        "width": 10.7,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.47864611,
+        "lonStart": -87.58976389,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.7
+      }
+    ],
+    "id": 18483
+  },
+  {
+    "type": 17,
+    "icao": "IL92",
+    "lat": 41.60642305,
+    "lon": -87.66032445,
+    "communications": [],
+    "elevation": 606,
+    "tower": false,
+    "name": "[H] Ingalls Memorial Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.60642305,
+        "lonStart": -87.66032445,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 17.1
+      }
+    ],
+    "id": 18492
+  },
+  {
+    "type": 17,
+    "icao": "IN28",
+    "lat": 41.55086861,
+    "lon": -87.50698501,
+    "communications": [],
+    "elevation": 616,
+    "tower": false,
+    "name": "[H] Community Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.55086861,
+        "lonStart": -87.50698501,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 18524
+  },
+  {
+    "type": 17,
+    "icao": "IN37",
+    "lat": 41.60837055,
+    "lon": -87.17642362,
+    "communications": [],
+    "elevation": 648,
+    "tower": false,
+    "name": "[H] Midwest Steel",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.60837055,
+        "lonStart": -87.17642362,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 18533
+  },
+  {
+    "type": 1,
+    "icao": "IN70",
+    "lat": 41.63364916,
+    "lon": -87.02697639,
+    "communications": [],
+    "elevation": 674,
+    "tower": false,
+    "name": "Bodin",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.63693873,
+        "lonStart": -87.02713009,
+        "latEnd": 41.63035959,
+        "lonEnd": -87.02682269,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18563
+  },
+  {
+    "type": 1,
+    "icao": "IN72",
+    "lat": 41.43198027,
+    "lon": -87.38753612,
+    "communications": [],
+    "elevation": 712,
+    "tower": false,
+    "name": "Klinedorf",
+    "runways": [
+      {
+        "type": 100,
+        "width": 19.81,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 41.4349011,
+        "lonStart": -87.38760412,
+        "latEnd": 41.42905944,
+        "lonEnd": -87.38746812,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18565
+  },
+  {
+    "type": 17,
+    "icao": "IN78",
+    "lat": 41.59114722,
+    "lon": -87.33614889,
+    "communications": [],
+    "elevation": 589,
+    "tower": false,
+    "name": "[H] Police",
+    "runways": [
+      {
+        "type": 102,
+        "width": 38.1,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.59114722,
+        "lonStart": -87.33614889,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 97.2
+      }
+    ],
+    "id": 18571
+  },
+  {
+    "type": 17,
+    "icao": "IN79",
+    "lat": 41.59975833,
+    "lon": -87.34892723,
+    "communications": [],
+    "elevation": 598,
+    "tower": false,
+    "name": "[H] Northwest Family Hosp",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.59975833,
+        "lonStart": -87.34892723,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 18572
+  },
+  {
+    "type": 1,
+    "icao": "IN90",
+    "lat": 41.25975722,
+    "lon": -87.48142362,
+    "communications": [],
+    "elevation": 694,
+    "tower": false,
+    "name": "Wietbrock",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 41.2596902,
+        "lonStart": -87.48653131,
+        "latEnd": 41.25982424,
+        "lonEnd": -87.47631593,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 18582
+  },
+  {
+    "type": 17,
+    "icao": "IS25",
+    "lat": 41.94141944,
+    "lon": -87.85950667,
+    "communications": [],
+    "elevation": 647,
+    "tower": false,
+    "name": "[H] B & L",
+    "runways": [
+      {
+        "type": 102,
+        "width": 13.7,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.94141944,
+        "lonStart": -87.85950667,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.7
+      }
+    ],
+    "id": 18615
+  },
+  {
+    "type": 17,
+    "icao": "IS30",
+    "lat": 41.52142333,
+    "lon": -87.71199084,
+    "communications": [],
+    "elevation": 709,
+    "tower": false,
+    "name": "[H] Olympia Fields Osteopathic Medical Cen",
+    "runways": [
+      {
+        "type": 102,
+        "width": 26.8,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.52142333,
+        "lonStart": -87.71199084,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 26.8
+      }
+    ],
+    "id": 18620
+  },
+  {
+    "type": 17,
+    "icao": "IS33",
+    "lat": 41.13864361,
+    "lon": -87.84643056,
+    "communications": [],
+    "elevation": 628,
+    "tower": false,
+    "name": "[H] Azz - 1",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.13864361,
+        "lonStart": -87.84643056,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 18623
+  },
+  {
+    "type": 17,
+    "icao": "IS78",
+    "lat": 41.87169944,
+    "lon": -87.64033028,
+    "communications": [],
+    "elevation": 625,
+    "tower": false,
+    "name": "[H] Continental",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.87169944,
+        "lonStart": -87.64033028,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 18655
+  },
+  {
+    "type": 17,
+    "icao": "IS81",
+    "lat": 41.67503305,
+    "lon": -87.74949556,
+    "communications": [],
+    "elevation": 623,
+    "tower": false,
+    "name": "[H] Alsip Fire Department",
+    "runways": [
+      {
+        "type": 102,
+        "width": 21.3,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 41.67503305,
+        "lonStart": -87.74949556,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.4
+      }
+    ],
+    "id": 18658
   },
   {
     "type": 1,
     "icao": "KCGX",
-    "lat": 41.8583228,
-    "lon": -87.60879859999999,
+    "lat": 41.858283452,
+    "lon": -87.608764618,
     "communications": [
       {
         "type": 50,
@@ -403,833 +2642,61 @@
         "name": "CHICAGO DEP"
       }
     ],
-    "elevation": 592,
+    "elevation": 591,
     "tower": true,
     "name": "Chicago Meigs",
     "runways": [
       {
         "type": 100,
-        "width": 45.72,
+        "width": 42.98,
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 41.86424619,
-        "lonStart": -87.60835463,
-        "latEnd": 41.85357781,
-        "lonEnd": -87.60758137,
+        "latStart": 41.86419703,
+        "lonStart": -87.60831695,
+        "latEnd": 41.85350754,
+        "lonEnd": -87.60753465,
         "length": 0,
         "surfacetype": 2
       },
       {
         "type": 102,
-        "width": 34.1,
+        "width": 15.25,
         "surfaceType": 2,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 41.857759,
-        "lonStart": -87.609342,
+        "latStart": 41.85773026,
+        "lonStart": -87.60931232,
         "latEnd": null,
         "lonEnd": null,
-        "length": 34.1
+        "length": 14.93
       },
       {
         "type": 102,
-        "width": 34.1,
+        "width": 15.43,
         "surfaceType": 2,
         "numberStart": "H2",
         "numberEnd": null,
-        "latStart": 41.857932,
-        "lonStart": -87.60935,
+        "latStart": 41.85790434,
+        "lonStart": -87.60932327,
         "latEnd": null,
         "lonEnd": null,
-        "length": 34.1
+        "length": 14.72
       },
       {
         "type": 102,
-        "width": 34.1,
+        "width": 15.08,
         "surfaceType": 2,
         "numberStart": "H3",
         "numberEnd": null,
-        "latStart": 41.858099,
-        "lonStart": -87.609365,
+        "latStart": 41.85807809,
+        "lonStart": -87.6093359,
         "latEnd": null,
         "lonEnd": null,
-        "length": 34.1
+        "length": 15.34
       }
     ],
-    "id": 4899
-  },
-  {
-    "type": 1,
-    "icao": "KMDW",
-    "lat": 41.785943,
-    "lon": -87.752524,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13275,
-        "name": "ATIS"
-      },
-      {
-        "type": 51,
-        "frequency": 12295,
-        "name": "UNICOM"
-      },
-      {
-        "type": 52,
-        "frequency": 12185,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 53,
-        "frequency": 12165,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11870,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 11945,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 13520,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11840,
-        "name": "APP/DEP"
-      },
-      {
-        "type": 55,
-        "frequency": 12605,
-        "name": "APP/DEP"
-      }
-    ],
-    "elevation": 620,
-    "tower": true,
-    "name": "Chicago Midway Intl",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "13C",
-        "numberEnd": "31C",
-        "latStart": 41.79157299,
-        "lonStart": -87.76106684,
-        "latEnd": 41.77923901,
-        "lonEnd": -87.74373916,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "04R",
-        "numberEnd": "22L",
-        "latStart": 41.77916142,
-        "lonStart": -87.75931748,
-        "latEnd": 41.79199658,
-        "lonEnd": -87.74305652,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "04L",
-        "numberEnd": "22R",
-        "latStart": 41.78136769,
-        "lonStart": -87.76119183,
-        "latEnd": 41.79233631,
-        "lonEnd": -87.74730017,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "13L",
-        "numberEnd": "31R",
-        "latStart": 41.79231722,
-        "lonStart": -87.75793898,
-        "latEnd": 41.78259678,
-        "lonEnd": -87.74427302,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "13R",
-        "numberEnd": "31L",
-        "latStart": 41.78806892,
-        "lonStart": -87.75880278,
-        "latEnd": 41.78077308,
-        "lonEnd": -87.74855322,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 4900
-  },
-  {
-    "type": 1,
-    "icao": "3C0",
-    "lat": 41.20698111,
-    "lon": -87.21252973,
-    "communications": [],
-    "elevation": 655,
-    "tower": false,
-    "name": "De Motte",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 41.21054644,
-        "lonStart": -87.21261245,
-        "latEnd": 41.20341578,
-        "lonEnd": -87.21244701,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 6092
-  },
-  {
-    "type": 1,
-    "icao": "LL40",
-    "lat": 41.477517,
-    "lon": -87.84049300000001,
-    "communications": [
-      {
-        "type": 55,
-        "frequency": 13310,
-        "name": "CHICAGO APP/DEP"
-      }
-    ],
-    "elevation": 778,
-    "tower": false,
-    "name": "FRANKFORT",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 41.477517,
-        "lonStart": -87.848161,
-        "latEnd": 41.477517,
-        "lonEnd": -87.832825,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 7680
-  },
-  {
-    "type": 1,
-    "icao": "KIKK",
-    "lat": 41.0712744025,
-    "lon": -87.8459280925,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12300,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 629,
-    "tower": false,
-    "name": "GREATER KANKAKEE",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 41.06579015,
-        "lonStart": -87.85488875,
-        "latEnd": 41.07872811,
-        "lonEnd": -87.84142821,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 41.07600042,
-        "lonStart": -87.84629131,
-        "latEnd": 41.06457893,
-        "lonEnd": -87.8411041,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 10139
-  },
-  {
-    "type": 1,
-    "icao": "05C",
-    "lat": 41.52051189333333,
-    "lon": -87.39867592,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12300,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 13310,
-        "name": "CHICAGO APP/DEP"
-      }
-    ],
-    "elevation": 633,
-    "tower": false,
-    "name": "GRIFFITH MERRILLVILLE",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 41.518678,
-        "lonStart": -87.408319,
-        "latEnd": 41.521006,
-        "lonEnd": -87.390697,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 1,
-        "numberStart": "H17",
-        "numberEnd": null,
-        "latStart": 41.52185168,
-        "lonStart": -87.39701176,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 10174
-  },
-  {
-    "type": 1,
-    "icao": "KGYY",
-    "lat": 41.6164215,
-    "lon": -87.4135725,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12062,
-        "name": "ATIS"
-      },
-      {
-        "type": 51,
-        "frequency": 12560,
-        "name": "CTAF"
-      },
-      {
-        "type": 53,
-        "frequency": 12190,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12560,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 13310,
-        "name": "CHICAGO APP/DEP"
-      }
-    ],
-    "elevation": 591,
-    "tower": true,
-    "name": "Gary Chicago Intl",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 41.621344,
-        "lonStart": -87.421706,
-        "latEnd": 41.610556,
-        "lonEnd": -87.400514,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 41.612283,
-        "lonStart": -87.418417,
-        "latEnd": 41.621503,
-        "lonEnd": -87.413653,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 10334
-  },
-  {
-    "type": 1,
-    "icao": "3HO",
-    "lat": 41.5559,
-    "lon": -87.263922,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 644,
-    "tower": false,
-    "name": "HOBART SKY RANCH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 41.560189,
-        "lonStart": -87.263922,
-        "latEnd": 41.551611,
-        "lonEnd": -87.263922,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 11154
-  },
-  {
-    "type": 1,
-    "icao": "1C2",
-    "lat": 41.479820000000004,
-    "lon": -87.921334,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12300,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 753,
-    "tower": false,
-    "name": "Howell New Lenox",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 41.482508,
-        "lonStart": -87.924608,
-        "latEnd": 41.477122,
-        "lonEnd": -87.916931,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 41.477569,
-        "lonStart": -87.924994,
-        "latEnd": 41.482081,
-        "lonEnd": -87.918803,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 12119
-  },
-  {
-    "type": 1,
-    "icao": "72II",
-    "lat": 41.19197916,
-    "lon": -87.46420028,
-    "communications": [],
-    "elevation": 640,
-    "tower": false,
-    "name": "Huber Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 41.19190735,
-        "lonStart": -87.46966713,
-        "latEnd": 41.19205097,
-        "lonEnd": -87.45873343,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 12142
-  },
-  {
-    "type": 1,
-    "icao": "90IL",
-    "lat": 41.19808972,
-    "lon": -87.55892417,
-    "communications": [],
-    "elevation": 630,
-    "tower": false,
-    "name": "Johnson",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 41.20165505,
-        "lonStart": -87.55900688,
-        "latEnd": 41.19452439,
-        "lonEnd": -87.55884146,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 13050
-  },
-  {
-    "type": 1,
-    "icao": "3KK",
-    "lat": 41.10003222,
-    "lon": -87.91671,
-    "communications": [],
-    "elevation": 625,
-    "tower": false,
-    "name": "Kankakee",
-    "runways": [
-      {
-        "type": 100,
-        "width": 91.44,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 41.09996893,
-        "lonStart": -87.92152137,
-        "latEnd": 41.10009551,
-        "lonEnd": -87.91189863,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 41.10354819,
-        "lonStart": -87.91679144,
-        "latEnd": 41.09651625,
-        "lonEnd": -87.91662856,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 13590
-  },
-  {
-    "type": 1,
-    "icao": "46IS",
-    "lat": 41.183365269999996,
-    "lon": -87.90115584,
-    "communications": [],
-    "elevation": 685,
-    "tower": false,
-    "name": "Karlock",
-    "runways": [
-      {
-        "type": 100,
-        "width": 38.1,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 41.1888504,
-        "lonStart": -87.90128306,
-        "latEnd": 41.17788014,
-        "lonEnd": -87.90102862,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 13620
-  },
-  {
-    "type": 1,
-    "icao": "IN72",
-    "lat": 41.43198027,
-    "lon": -87.38753612,
-    "communications": [],
-    "elevation": 712,
-    "tower": false,
-    "name": "Klinedorf",
-    "runways": [
-      {
-        "type": 100,
-        "width": 19.81,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 41.4349011,
-        "lonStart": -87.38760412,
-        "latEnd": 41.42905944,
-        "lonEnd": -87.38746812,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 13986
-  },
-  {
-    "type": 1,
-    "icao": "KIGQ",
-    "lat": 41.535286,
-    "lon": -87.52969024999999,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11927,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12270,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 11840,
-        "name": "CHICAGO APP/DEP"
-      }
-    ],
-    "elevation": 620,
-    "tower": false,
-    "name": "LANSING MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 41.536181,
-        "lonStart": -87.527664,
-        "latEnd": 41.525197,
-        "lonEnd": -87.5277,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 41.539897,
-        "lonStart": -87.5379,
-        "latEnd": 41.539869,
-        "lonEnd": -87.525497,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 14384
-  },
-  {
-    "type": 1,
-    "icao": "C98",
-    "lat": 41.15003444,
-    "lon": -87.46253278,
-    "communications": [],
-    "elevation": 644,
-    "tower": false,
-    "name": "Lake Village",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 41.15343522,
-        "lonStart": -87.46261161,
-        "latEnd": 41.14663366,
-        "lonEnd": -87.46245395,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 14848
-  },
-  {
-    "type": 1,
-    "icao": "C97",
-    "lat": 41.23003472,
-    "lon": -87.5078125,
-    "communications": [],
-    "elevation": 675,
-    "tower": false,
-    "name": "Lowell",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 41.23421713,
-        "lonStart": -87.50790957,
-        "latEnd": 41.22585231,
-        "lonEnd": -87.50771543,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15544
-  },
-  {
-    "type": 1,
-    "icao": "2IL9",
-    "lat": 41.432778,
-    "lon": -87.781665,
-    "communications": [],
-    "elevation": 770,
-    "tower": false,
-    "name": "MEADOW CREEK",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 41.429156,
-        "lonStart": -87.785572,
-        "latEnd": 41.4364,
-        "lonEnd": -87.777758,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 15987
-  },
-  {
-    "type": 1,
-    "icao": "7IL0",
-    "lat": 41.2708675,
-    "lon": -87.57781473,
-    "communications": [],
-    "elevation": 705,
-    "tower": false,
-    "name": "Mussman",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 41.27081307,
-        "lonStart": -87.58196361,
-        "latEnd": 41.27092193,
-        "lonEnd": -87.57366585,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 17758
-  },
-  {
-    "type": 1,
-    "icao": "19LL",
-    "lat": 41.25697638,
-    "lon": -87.91949139,
-    "communications": [],
-    "elevation": 650,
-    "tower": false,
-    "name": "Neiner",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 41.25963667,
-        "lonStart": -87.91955316,
-        "latEnd": 41.25431609,
-        "lonEnd": -87.91942962,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 18182
-  },
-  {
-    "type": 1,
-    "icao": "89LL",
-    "lat": 41.358366939999996,
-    "lon": -87.72504251000001,
-    "communications": [],
-    "elevation": 750,
-    "tower": false,
-    "name": "Norman",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 41.3583071,
-        "lonStart": -87.72960985,
-        "latEnd": 41.35842678,
-        "lonEnd": -87.72047517,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 18415
+    "id": 18943
   },
   {
     "type": 1,
@@ -1294,353 +2761,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 19502
-  },
-  {
-    "type": 1,
-    "icao": "C56",
-    "lat": 41.3775773575,
-    "lon": -87.6813220775,
-    "communications": [],
-    "elevation": 790,
-    "tower": false,
-    "name": "Sanger",
-    "runways": [
-      {
-        "type": 100,
-        "width": 9.75,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 41.37737277,
-        "lonStart": -87.68820666,
-        "latEnd": 41.37743861,
-        "lonEnd": -87.67942,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 9.75,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 41.3759675,
-        "lonStart": -87.68231777,
-        "latEnd": 41.37953055,
-        "lonEnd": -87.67534388,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22871
-  },
-  {
-    "type": 1,
-    "icao": "58IL",
-    "lat": 41.23836555,
-    "lon": -87.85948862000001,
-    "communications": [],
-    "elevation": 675,
-    "tower": false,
-    "name": "Spangler",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 41.2368857,
-        "lonStart": -87.86138905,
-        "latEnd": 41.2398454,
-        "lonEnd": -87.85758819,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23930
-  },
-  {
-    "type": 1,
-    "icao": "0C6",
-    "lat": 41.206976940000004,
-    "lon": -87.78531862,
-    "communications": [],
-    "elevation": 665,
-    "tower": false,
-    "name": "St George",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 41.20691375,
-        "lonStart": -87.79013055,
-        "latEnd": 41.20704013,
-        "lonEnd": -87.78050669,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 24037
-  },
-  {
-    "type": 1,
-    "icao": "0II8",
-    "lat": 41.324757219999995,
-    "lon": -87.47586917000001,
-    "communications": [],
-    "elevation": 740,
-    "tower": false,
-    "name": "Suttons Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 41.32286077,
-        "lonStart": -87.47626914,
-        "latEnd": 41.32665367,
-        "lonEnd": -87.4754692,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 24435
-  },
-  {
-    "type": 1,
-    "icao": "IL29",
-    "lat": 41.30003388,
-    "lon": -87.65003917000001,
-    "communications": [],
-    "elevation": 714,
-    "tower": false,
-    "name": "Von Alvens Airview",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 41.30263931,
-        "lonStart": -87.65009971,
-        "latEnd": 41.29742845,
-        "lonEnd": -87.64997863,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 26403
-  },
-  {
-    "type": 1,
-    "icao": "IN90",
-    "lat": 41.25975722,
-    "lon": -87.48142362,
-    "communications": [],
-    "elevation": 694,
-    "tower": false,
-    "name": "Wietbrock",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 41.2596902,
-        "lonStart": -87.48653131,
-        "latEnd": 41.25982424,
-        "lonEnd": -87.47631593,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 27259
-  },
-  {
-    "type": 1,
-    "icao": "IL30",
-    "lat": 41.38114527,
-    "lon": -87.65420806,
-    "communications": [],
-    "elevation": 759,
-    "tower": false,
-    "name": "Wirth",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 41.38350936,
-        "lonStart": -87.65426306,
-        "latEnd": 41.37878118,
-        "lonEnd": -87.65415306,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 27456
-  },
-  {
-    "type": 1,
-    "icao": "03IL",
-    "lat": 41.40225527,
-    "lon": -87.81671334,
-    "communications": [],
-    "elevation": 750,
-    "tower": false,
-    "name": "Wix",
-    "runways": [
-      {
-        "type": 100,
-        "width": 32,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 41.4058206,
-        "lonStart": -87.81679631,
-        "latEnd": 41.39868994,
-        "lonEnd": -87.81663037,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 27481
-  },
-  {
-    "type": 17,
-    "icao": "4IL8",
-    "lat": 41.86447583,
-    "lon": -87.80978028,
-    "communications": [],
-    "elevation": 620,
-    "tower": false,
-    "name": "[H] 86th USARcom",
-    "runways": [
-      {
-        "type": 102,
-        "width": 91.4,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.86447583,
-        "lonStart": -87.80978028,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 152.4
-      }
-    ],
-    "id": 27956
-  },
-  {
-    "type": 17,
-    "icao": "IS81",
-    "lat": 41.67503305,
-    "lon": -87.74949556,
-    "communications": [],
-    "elevation": 623,
-    "tower": false,
-    "name": "[H] Alsip Fire Department",
-    "runways": [
-      {
-        "type": 102,
-        "width": 21.3,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.67503305,
-        "lonStart": -87.74949556,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.4
-      }
-    ],
-    "id": 28106
-  },
-  {
-    "type": 17,
-    "icao": "IS33",
-    "lat": 41.13864361,
-    "lon": -87.84643056,
-    "communications": [],
-    "elevation": 628,
-    "tower": false,
-    "name": "[H] Azz - 1",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.13864361,
-        "lonStart": -87.84643056,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 28249
-  },
-  {
-    "type": 17,
-    "icao": "IS25",
-    "lat": 41.94141944,
-    "lon": -87.85950667,
-    "communications": [],
-    "elevation": 647,
-    "tower": false,
-    "name": "[H] B & L",
-    "runways": [
-      {
-        "type": 102,
-        "width": 13.7,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.94141944,
-        "lonStart": -87.85950667,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 13.7
-      }
-    ],
-    "id": 28252
-  },
-  {
-    "type": 17,
-    "icao": "00II",
-    "lat": 41.64448166,
-    "lon": -87.12281195,
-    "communications": [],
-    "elevation": 600,
-    "tower": false,
-    "name": "[H] Bailey Generation Station",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.64448166,
-        "lonStart": -87.12281195,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 28286
+    "id": 19959
   },
   {
     "type": 17,
@@ -1665,1131 +2786,38 @@
         "length": 22.9
       }
     ],
-    "id": 28603
+    "id": 20667
   },
   {
-    "type": 17,
-    "icao": "2II5",
-    "lat": 41.63698138,
-    "lon": -87.15225695,
-    "communications": [],
-    "elevation": 596,
-    "tower": false,
-    "name": "[H] Burns International Harbor",
-    "runways": [
+    "type": 1,
+    "icao": "LL40",
+    "lat": 41.477517,
+    "lon": -87.84049300000001,
+    "communications": [
       {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.63698138,
-        "lonStart": -87.15225695,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 45.7
+        "type": 55,
+        "frequency": 13310,
+        "name": "CHICAGO APP/DEP"
       }
     ],
-    "id": 28635
-  },
-  {
-    "type": 17,
-    "icao": "II46",
-    "lat": 41.38833333,
-    "lon": -87.21388889,
-    "communications": [],
-    "elevation": 733,
+    "elevation": 778,
     "tower": false,
-    "name": "[H] Carlson Farms",
+    "name": "FRANKFORT",
     "runways": [
       {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.38833333,
-        "lonStart": -87.21388889,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 41.477517,
+        "lonStart": -87.848161,
+        "latEnd": 41.477517,
+        "lonEnd": -87.832825,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "id": 28788
-  },
-  {
-    "type": 17,
-    "icao": "40IS",
-    "lat": 41.92558777,
-    "lon": -87.64644306,
-    "communications": [],
-    "elevation": 720,
-    "tower": false,
-    "name": "[H] Childrens Memorial Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.92558777,
-        "lonStart": -87.64644306,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 28935
-  },
-  {
-    "type": 17,
-    "icao": "IL77",
-    "lat": 41.72503305,
-    "lon": -87.72921834,
-    "communications": [],
-    "elevation": 619,
-    "tower": false,
-    "name": "[H] Christ Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 22.9,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.72503305,
-        "lonStart": -87.72921834,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 22.9
-      }
-    ],
-    "id": 28947
-  },
-  {
-    "type": 17,
-    "icao": "IN28",
-    "lat": 41.55086861,
-    "lon": -87.50698501,
-    "communications": [],
-    "elevation": 616,
-    "tower": false,
-    "name": "[H] Community Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.55086861,
-        "lonStart": -87.50698501,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 29080
-  },
-  {
-    "type": 17,
-    "icao": "IS78",
-    "lat": 41.87169944,
-    "lon": -87.64033028,
-    "communications": [],
-    "elevation": 625,
-    "tower": false,
-    "name": "[H] Continental",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.87169944,
-        "lonStart": -87.64033028,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 29133
-  },
-  {
-    "type": 17,
-    "icao": "IL71",
-    "lat": 41.98614277,
-    "lon": -87.66672306,
-    "communications": [],
-    "elevation": 579,
-    "tower": false,
-    "name": "[H] Edgewater Medical Center",
-    "runways": [
-      {
-        "type": 102,
-        "width": 14.6,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.98614277,
-        "lonStart": -87.66672306,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 19.5
-      }
-    ],
-    "id": 29469
-  },
-  {
-    "type": 17,
-    "icao": "4II5",
-    "lat": 41.595,
-    "lon": -87.49250001,
-    "communications": [],
-    "elevation": 600,
-    "tower": false,
-    "name": "[H] Escc",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.595,
-        "lonStart": -87.49250001,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 29579
-  },
-  {
-    "type": 17,
-    "icao": "IL69",
-    "lat": 41.80003361,
-    "lon": -87.62782778,
-    "communications": [],
-    "elevation": 600,
-    "tower": false,
-    "name": "[H] First Area Police Hdqtrs",
-    "runways": [
-      {
-        "type": 102,
-        "width": 22.9,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.80003361,
-        "lonStart": -87.62782778,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 22.9
-      }
-    ],
-    "id": 29733
-  },
-  {
-    "type": 17,
-    "icao": "IL14",
-    "lat": 41.95002972,
-    "lon": -87.91784223,
-    "communications": [],
-    "elevation": 660,
-    "tower": false,
-    "name": "[H] Garden City Garage",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.95002972,
-        "lonStart": -87.91784223,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 29881
-  },
-  {
-    "type": 17,
-    "icao": "IL92",
-    "lat": 41.60642305,
-    "lon": -87.66032445,
-    "communications": [],
-    "elevation": 606,
-    "tower": false,
-    "name": "[H] Ingalls Memorial Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.60642305,
-        "lonStart": -87.66032445,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 17.1
-      }
-    ],
-    "id": 30515
-  },
-  {
-    "type": 17,
-    "icao": "4II1",
-    "lat": 41.65586861,
-    "lon": -87.51365389,
-    "communications": [],
-    "elevation": 588,
-    "tower": false,
-    "name": "[H] Justak Brothers",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.65586861,
-        "lonStart": -87.51365389,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 30658
-  },
-  {
-    "type": 17,
-    "icao": "43II",
-    "lat": 41.45225861,
-    "lon": -87.31892417,
-    "communications": [],
-    "elevation": 708,
-    "tower": false,
-    "name": "[H] Kirk",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.45225861,
-        "lonStart": -87.31892417,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 30734
-  },
-  {
-    "type": 17,
-    "icao": "18IL",
-    "lat": 41.79669777,
-    "lon": -87.88672556,
-    "communications": [],
-    "elevation": 700,
-    "tower": false,
-    "name": "[H] La Grange Meml Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 13.4,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.79669777,
-        "lonStart": -87.88672556,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 13.4
-      }
-    ],
-    "id": 30797
-  },
-  {
-    "type": 17,
-    "icao": "0IL1",
-    "lat": 41.86086472,
-    "lon": -87.83644806,
-    "communications": [],
-    "elevation": 623,
-    "tower": false,
-    "name": "[H] Loyola University Medical Center",
-    "runways": [
-      {
-        "type": 102,
-        "width": 27.4,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.86086472,
-        "lonStart": -87.83644806,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 27.4
-      }
-    ],
-    "id": 30959
-  },
-  {
-    "type": 17,
-    "icao": "IL76",
-    "lat": 41.89614361,
-    "lon": -87.64227528,
-    "communications": [],
-    "elevation": 1045,
-    "tower": false,
-    "name": "[H] Marcor",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.89614361,
-        "lonStart": -87.64227528,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 31072
-  },
-  {
-    "type": 17,
-    "icao": "0IS1",
-    "lat": 41.92919722,
-    "lon": -87.86200639,
-    "communications": [],
-    "elevation": 640,
-    "tower": false,
-    "name": "[H] Matsushita Electric Corp of America",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.92919722,
-        "lonStart": -87.86200639,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 31126
-  },
-  {
-    "type": 17,
-    "icao": "05LL",
-    "lat": 41.74892,
-    "lon": -87.93505889,
-    "communications": [],
-    "elevation": 708,
-    "tower": false,
-    "name": "[H] Midwest",
-    "runways": [
-      {
-        "type": 102,
-        "width": 36.6,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.74892,
-        "lonStart": -87.93505889,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 36.6
-      }
-    ],
-    "id": 31352
-  },
-  {
-    "type": 17,
-    "icao": "IN37",
-    "lat": 41.60837055,
-    "lon": -87.17642362,
-    "communications": [],
-    "elevation": 648,
-    "tower": false,
-    "name": "[H] Midwest Steel",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.60837055,
-        "lonStart": -87.17642362,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 31355
-  },
-  {
-    "type": 17,
-    "icao": "IL83",
-    "lat": 41.47864611,
-    "lon": -87.58976389,
-    "communications": [],
-    "elevation": 665,
-    "tower": false,
-    "name": "[H] Mulderink",
-    "runways": [
-      {
-        "type": 102,
-        "width": 10.7,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.47864611,
-        "lonStart": -87.58976389,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.7
-      }
-    ],
-    "id": 31492
-  },
-  {
-    "type": 17,
-    "icao": "II57",
-    "lat": 41.46336972,
-    "lon": -87.32364667,
-    "communications": [],
-    "elevation": 688,
-    "tower": false,
-    "name": "[H] Nipsco Southlake Complex",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.46336972,
-        "lonStart": -87.32364667,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 31621
-  },
-  {
-    "type": 17,
-    "icao": "IN79",
-    "lat": 41.59975833,
-    "lon": -87.34892723,
-    "communications": [],
-    "elevation": 598,
-    "tower": false,
-    "name": "[H] Northwest Family Hosp",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.59975833,
-        "lonStart": -87.34892723,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 31673
-  },
-  {
-    "type": 17,
-    "icao": "02LL",
-    "lat": 41.84928027,
-    "lon": -87.93342306,
-    "communications": [],
-    "elevation": 668,
-    "tower": false,
-    "name": "[H] Official Airline Guides",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.84928027,
-        "lonStart": -87.93342306,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 31730
-  },
-  {
-    "type": 17,
-    "icao": "IS30",
-    "lat": 41.52142333,
-    "lon": -87.71199084,
-    "communications": [],
-    "elevation": 709,
-    "tower": false,
-    "name": "[H] Olympia Fields Osteopathic Medical Cen",
-    "runways": [
-      {
-        "type": 102,
-        "width": 26.8,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.52142333,
-        "lonStart": -87.71199084,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 26.8
-      }
-    ],
-    "id": 31743
-  },
-  {
-    "type": 17,
-    "icao": "20IL",
-    "lat": 41.66892138,
-    "lon": -87.81310862,
-    "communications": [],
-    "elevation": 715,
-    "tower": false,
-    "name": "[H] Palos Community Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 14,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.66892138,
-        "lonStart": -87.81310862,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 16.5
-      }
-    ],
-    "id": 31871
-  },
-  {
-    "type": 17,
-    "icao": "3IL0",
-    "lat": 41.92419611,
-    "lon": -87.96339862,
-    "communications": [],
-    "elevation": 693,
-    "tower": false,
-    "name": "[H] Patten Industries",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.92419611,
-        "lonStart": -87.96339862,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 31929
-  },
-  {
-    "type": 17,
-    "icao": "IN78",
-    "lat": 41.59114722,
-    "lon": -87.33614889,
-    "communications": [],
-    "elevation": 589,
-    "tower": false,
-    "name": "[H] Police",
-    "runways": [
-      {
-        "type": 102,
-        "width": 38.1,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.59114722,
-        "lonStart": -87.33614889,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 97.2
-      }
-    ],
-    "id": 32077
-  },
-  {
-    "type": 17,
-    "icao": "46II",
-    "lat": 41.46670583,
-    "lon": -87.05058528,
-    "communications": [],
-    "elevation": 862,
-    "tower": false,
-    "name": "[H] Porter Memorial Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.46670583,
-        "lonStart": -87.05058528,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 32113
-  },
-  {
-    "type": 17,
-    "icao": "6IL8",
-    "lat": 41.52114583,
-    "lon": -87.65337778,
-    "communications": [],
-    "elevation": 660,
-    "tower": false,
-    "name": "[H] Raeco",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.52114583,
-        "lonStart": -87.65337778,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 32247
-  },
-  {
-    "type": 17,
-    "icao": "IL79",
-    "lat": 41.98669722,
-    "lon": -87.81506195,
-    "communications": [],
-    "elevation": 663,
-    "tower": false,
-    "name": "[H] Resurrection Medical Center",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.98669722,
-        "lonStart": -87.81506195,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 32323
-  },
-  {
-    "type": 17,
-    "icao": "88IL",
-    "lat": 41.51669916,
-    "lon": -87.88338501,
-    "communications": [],
-    "elevation": 665,
-    "tower": false,
-    "name": "[H] Richards",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.51669916,
-        "lonStart": -87.88338501,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 32337
-  },
-  {
-    "type": 17,
-    "icao": "10IL",
-    "lat": 41.12364333,
-    "lon": -87.88532056,
-    "communications": [],
-    "elevation": 620,
-    "tower": false,
-    "name": "[H] Riverside Medical Center",
-    "runways": [
-      {
-        "type": 102,
-        "width": 61,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.12364333,
-        "lonStart": -87.88532056,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 91.4
-      }
-    ],
-    "id": 32369
-  },
-  {
-    "type": 17,
-    "icao": "IL75",
-    "lat": 41.87475472,
-    "lon": -87.67338695,
-    "communications": [],
-    "elevation": 591,
-    "tower": false,
-    "name": "[H] Robin Dean",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.87475472,
-        "lonStart": -87.67338695,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 32386
-  },
-  {
-    "type": 17,
-    "icao": "64LL",
-    "lat": 41.81253305,
-    "lon": -87.66310723,
-    "communications": [],
-    "elevation": 645,
-    "tower": false,
-    "name": "[H] Rose Nr 3",
-    "runways": [
-      {
-        "type": 102,
-        "width": 22.9,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.81253305,
-        "lonStart": -87.66310723,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 22.9
-      }
-    ],
-    "id": 32415
-  },
-  {
-    "type": 17,
-    "icao": "IL74",
-    "lat": 41.80281,
-    "lon": -87.76616612,
-    "communications": [],
-    "elevation": 611,
-    "tower": false,
-    "name": "[H] Rose Packing Co",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.80281,
-        "lonStart": -87.76616612,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 32417
-  },
-  {
-    "type": 17,
-    "icao": "IL31",
-    "lat": 41.88058638,
-    "lon": -87.86756056,
-    "communications": [],
-    "elevation": 628,
-    "tower": false,
-    "name": "[H] Sauerman",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.88058638,
-        "lonStart": -87.86756056,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 32576
-  },
-  {
-    "type": 17,
-    "icao": "8IL8",
-    "lat": 41.56697861,
-    "lon": -87.69588028,
-    "communications": [],
-    "elevation": 665,
-    "tower": false,
-    "name": "[H] South Suburban Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.56697861,
-        "lonStart": -87.69588028,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 32792
-  },
-  {
-    "type": 17,
-    "icao": "2IN8",
-    "lat": 41.39444444,
-    "lon": -87.36888889,
-    "communications": [],
-    "elevation": 756,
-    "tower": false,
-    "name": "[H] St Anthony",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.39444444,
-        "lonStart": -87.36888889,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 32852
-  },
-  {
-    "type": 17,
-    "icao": "9IS4",
-    "lat": 41.50559027,
-    "lon": -87.64004389,
-    "communications": [],
-    "elevation": 659,
-    "tower": false,
-    "name": "[H] St James Hospital and Health Centers",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.50559027,
-        "lonStart": -87.64004389,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 32900
-  },
-  {
-    "type": 17,
-    "icao": "6IS7",
-    "lat": 41.90281,
-    "lon": -87.68283251,
-    "communications": [],
-    "elevation": 640,
-    "tower": false,
-    "name": "[H] St Mary of Nazareth Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 26.8,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.90281,
-        "lonStart": -87.68283251,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 26.8
-      }
-    ],
-    "id": 32969
-  },
-  {
-    "type": 17,
-    "icao": "11IL",
-    "lat": 41.12197666,
-    "lon": -87.87226445,
-    "communications": [],
-    "elevation": 608,
-    "tower": false,
-    "name": "[H] St Marys Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.12197666,
-        "lonStart": -87.87226445,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 32982
-  },
-  {
-    "type": 17,
-    "icao": "4IS3",
-    "lat": 41.78836722,
-    "lon": -87.60421556,
-    "communications": [],
-    "elevation": 665,
-    "tower": false,
-    "name": "[H] University of Chicago Hospitals",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.78836722,
-        "lonStart": -87.60421556,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11.6
-      }
-    ],
-    "id": 33514
-  },
-  {
-    "type": 17,
-    "icao": "IL70",
-    "lat": 41.94892083,
-    "lon": -87.69116751,
-    "communications": [],
-    "elevation": 589,
-    "tower": false,
-    "name": "[H] WGN",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.94892083,
-        "lonStart": -87.69116751,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 33679
-  },
-  {
-    "type": 17,
-    "icao": "74IS",
-    "lat": 41.64864555,
-    "lon": -87.62393528,
-    "communications": [],
-    "elevation": 595,
-    "tower": false,
-    "name": "[H] Waste Management Chemical Lab",
-    "runways": [
-      {
-        "type": 102,
-        "width": 13.7,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.64864555,
-        "lonStart": -87.62393528,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 13.7
-      }
-    ],
-    "id": 33741
-  },
-  {
-    "type": 17,
-    "icao": "70IS",
-    "lat": 41.84141888,
-    "lon": -87.99284167,
-    "communications": [],
-    "elevation": 798,
-    "tower": false,
-    "name": "[H] Waste Management Inc",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 41.84141888,
-        "lonStart": -87.99284167,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 33742
+    "id": 20677
   }
 ]

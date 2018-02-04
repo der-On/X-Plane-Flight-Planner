@@ -1,38 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "LKFR",
-    "lat": 49.589581280000004,
-    "lon": 18.37934842,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12350,
-        "name": "INFO"
-      }
-    ],
-    "elevation": 1440,
-    "tower": true,
-    "name": "Frydlant",
-    "runways": [
-      {
-        "type": 100,
-        "width": 64.92,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 49.58889644,
-        "lonStart": 18.37410913,
-        "latEnd": 49.59026612,
-        "lonEnd": 18.38458771,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9763
-  },
-  {
-    "type": 1,
     "icao": "LZMA",
     "lat": 49.0651934725,
     "lon": 18.95069365,
@@ -74,88 +42,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 16741
-  },
-  {
-    "type": 1,
-    "icao": "LKMT",
-    "lat": 49.69647471,
-    "lon": 18.113669646666665,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12080,
-        "name": "TOWER"
-      },
-      {
-        "type": 54,
-        "frequency": 12150,
-        "name": "TOWER"
-      }
-    ],
-    "elevation": 843,
-    "tower": true,
-    "name": "Ostrava Mosnov",
-    "runways": [
-      {
-        "type": 100,
-        "width": 63.09,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 49.68529998,
-        "lonStart": 18.09319357,
-        "latEnd": 49.70713416,
-        "lonEnd": 18.12851631,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 102,
-        "width": 39.93,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 49.69698999,
-        "lonStart": 18.11929906,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 39.93
-      }
-    ],
-    "id": 19065
-  },
-  {
-    "type": 1,
-    "icao": "LKZA",
-    "lat": 49.9277919,
-    "lon": 18.075239279999998,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12360,
-        "name": "INFO"
-      }
-    ],
-    "elevation": 791,
-    "tower": true,
-    "name": "Zabreh",
-    "runways": [
-      {
-        "type": 100,
-        "width": 89.92,
-        "surfaceType": null,
-        "numberStart": "10R",
-        "numberEnd": "28L",
-        "latStart": 49.92841373,
-        "lonStart": 18.06892679,
-        "latEnd": 49.92717007,
-        "lonEnd": 18.08155177,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 27864
+    "id": 4055
   },
   {
     "type": 1,
@@ -229,6 +116,119 @@
         "length": 11.9
       }
     ],
-    "id": 27907
+    "id": 4074
+  },
+  {
+    "type": 1,
+    "icao": "LKFR",
+    "lat": 49.589581280000004,
+    "lon": 18.37934842,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12350,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 1440,
+    "tower": true,
+    "name": "Frydlant",
+    "runways": [
+      {
+        "type": 100,
+        "width": 64.92,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 49.58889644,
+        "lonStart": 18.37410913,
+        "latEnd": 49.59026612,
+        "lonEnd": 18.38458771,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20577
+  },
+  {
+    "type": 1,
+    "icao": "LKMT",
+    "lat": 49.69647471,
+    "lon": 18.113669646666665,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12080,
+        "name": "TOWER"
+      },
+      {
+        "type": 54,
+        "frequency": 12150,
+        "name": "TOWER"
+      }
+    ],
+    "elevation": 843,
+    "tower": true,
+    "name": "Ostrava Mosnov",
+    "runways": [
+      {
+        "type": 100,
+        "width": 63.09,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 49.68529998,
+        "lonStart": 18.09319357,
+        "latEnd": 49.70713416,
+        "lonEnd": 18.12851631,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 39.93,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 49.69698999,
+        "lonStart": 18.11929906,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 39.93
+      }
+    ],
+    "id": 20609
+  },
+  {
+    "type": 1,
+    "icao": "LKZA",
+    "lat": 49.9277919,
+    "lon": 18.075239279999998,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12360,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 791,
+    "tower": true,
+    "name": "Zabreh",
+    "runways": [
+      {
+        "type": 100,
+        "width": 89.92,
+        "surfaceType": null,
+        "numberStart": "10R",
+        "numberEnd": "28L",
+        "latStart": 49.92841373,
+        "lonStart": 18.06892679,
+        "latEnd": 49.92717007,
+        "lonEnd": 18.08155177,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20653
   }
 ]

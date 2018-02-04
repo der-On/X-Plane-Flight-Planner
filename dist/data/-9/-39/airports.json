@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "SNHS",
+    "lat": -8.061437999999999,
+    "lon": -38.328916855,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12280,
+        "name": "UNICOM"
+      }
+    ],
+    "elevation": 1541,
+    "tower": true,
+    "name": "Santa Magalhaes",
+    "runways": [
+      {
+        "type": 100,
+        "width": 31,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -8.05887741,
+        "lonStart": -38.33667753,
+        "latEnd": -8.06399859,
+        "lonEnd": -38.32115618,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4928
+  },
+  {
+    "type": 1,
     "icao": "SNFR",
     "lat": -8.769589,
     "lon": -38.949625,
@@ -23,32 +55,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 2479
-  },
-  {
-    "type": 1,
-    "icao": "SNHS",
-    "lat": -8.062396,
-    "lon": -38.328786,
-    "communications": [],
-    "elevation": 1542,
-    "tower": true,
-    "name": "Santa Magalhaes",
-    "runways": [
-      {
-        "type": 100,
-        "width": 27.43,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": -8.059881,
-        "lonStart": -38.336539,
-        "latEnd": -8.064911,
-        "lonEnd": -38.321033,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22906
+    "id": 27708
   }
 ]

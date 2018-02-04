@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "CJB8",
+    "lat": 50.83343807999999,
+    "lon": -108.06999479000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12320,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 2175,
+    "tower": false,
+    "name": "Kyle",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 50.83351034,
+        "lonStart": -108.07648448,
+        "latEnd": 50.83336582,
+        "lonEnd": -108.0635051,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 15215
+  },
+  {
+    "type": 1,
     "icao": "CJJ5",
     "lat": 50.619752775,
     "lon": -108.47019622,
@@ -23,7 +55,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 4298
+    "id": 15240
   },
   {
     "type": 1,
@@ -62,38 +94,6 @@
         "surfacetype": 5
       }
     ],
-    "id": 10888
-  },
-  {
-    "type": 1,
-    "icao": "CJB8",
-    "lat": 50.83343807999999,
-    "lon": -108.06999479000001,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12320,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 2175,
-    "tower": false,
-    "name": "Kyle",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 50.83351034,
-        "lonStart": -108.07648448,
-        "latEnd": 50.83336582,
-        "lonEnd": -108.0635051,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 14227
+    "id": 15243
   }
 ]

@@ -1,61 +1,96 @@
 [
   {
     "type": 1,
-    "icao": "E95",
-    "lat": 31.9996945,
-    "lon": -110.357501,
+    "icao": "KOLS",
+    "lat": 31.41837019333333,
+    "lon": -110.84818820999999,
     "communications": [
+      {
+        "type": 50,
+        "frequency": 12112,
+        "name": "ASOS"
+      },
       {
         "type": 51,
         "frequency": 12280,
         "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12510,
+        "name": "TUCSON APP DEP"
       }
     ],
-    "elevation": 3829,
+    "elevation": 3955,
     "tower": false,
-    "name": "BENSON MUNI",
+    "name": "NOGALES INTL",
     "runways": [
       {
         "type": 100,
-        "width": 22.86,
+        "width": 30.48,
         "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 32.001672,
-        "lonStart": -110.363508,
-        "latEnd": 31.997717,
-        "lonEnd": -110.351494,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 31.410886,
+        "lonStart": -110.856236,
+        "latEnd": 31.42455,
+        "lonEnd": -110.839553,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 29.57,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 31.41967458,
+        "lonStart": -110.84877563,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.57
       }
     ],
-    "id": 1652
+    "id": 3064
   },
   {
     "type": 1,
-    "icao": "AZ19",
-    "lat": 31.73777777,
-    "lon": -110.62638889,
+    "icao": "03AZ",
+    "lat": 31.43333325,
+    "lon": -110.08555775,
     "communications": [],
-    "elevation": 4600,
+    "elevation": 4275,
     "tower": false,
-    "name": "C & L Ranch",
+    "name": "THOMPSON INTL AVIATION",
     "runways": [
       {
         "type": 100,
-        "width": 76.2,
+        "width": 18.29,
         "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 31.73690545,
-        "lonStart": -110.62702982,
-        "latEnd": 31.73865009,
-        "lonEnd": -110.62574796,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 31.433056,
+        "lonStart": -110.095281,
+        "latEnd": 31.433333,
+        "lonEnd": -110.083889,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 44.2,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 31.435833,
+        "lonStart": -110.08195,
+        "latEnd": 31.431111,
+        "lonEnd": -110.081111,
+        "length": 0,
+        "surfacetype": 4
       }
     ],
-    "id": 3486
+    "id": 7433
   },
   {
     "type": 1,
@@ -81,7 +116,33 @@
         "surfacetype": 4
       }
     ],
-    "id": 4116
+    "id": 11892
+  },
+  {
+    "type": 1,
+    "icao": "AZ19",
+    "lat": 31.73777777,
+    "lon": -110.62638889,
+    "communications": [],
+    "elevation": 4600,
+    "tower": false,
+    "name": "C & L Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 76.2,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 31.73690545,
+        "lonStart": -110.62702982,
+        "latEnd": 31.73865009,
+        "lonEnd": -110.62574796,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14824
   },
   {
     "type": 1,
@@ -133,75 +194,65 @@
         "surfacetype": 3
       }
     ],
-    "id": 15431
+    "id": 14874
   },
   {
     "type": 1,
-    "icao": "KOLS",
-    "lat": 31.417718,
-    "lon": -110.8478945,
-    "communications": [
+    "icao": "E65",
+    "lat": 31.68370194,
+    "lon": -110.2900775,
+    "communications": [],
+    "elevation": 4250,
+    "tower": false,
+    "name": "Whetstone",
+    "runways": [
       {
-        "type": 50,
-        "frequency": 12112,
-        "name": "ASOS"
-      },
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 31.68388622,
+        "lonStart": -110.29627875,
+        "latEnd": 31.68351766,
+        "lonEnd": -110.28387625,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16107
+  },
+  {
+    "type": 1,
+    "icao": "E95",
+    "lat": 31.9996945,
+    "lon": -110.357501,
+    "communications": [
       {
         "type": 51,
         "frequency": 12280,
         "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 12510,
-        "name": "TUCSON APP DEP"
       }
     ],
-    "elevation": 3955,
+    "elevation": 3829,
     "tower": false,
-    "name": "NOGALES INTL",
+    "name": "BENSON MUNI",
     "runways": [
       {
         "type": 100,
-        "width": 27.43,
+        "width": 22.86,
         "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 31.410886,
-        "lonStart": -110.856236,
-        "latEnd": 31.42455,
-        "lonEnd": -110.839553,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 32.001672,
+        "lonStart": -110.363508,
+        "latEnd": 31.997717,
+        "lonEnd": -110.351494,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 17965
-  },
-  {
-    "type": 1,
-    "icao": "MMNG",
-    "lat": 31.2260835,
-    "lon": -110.9770445,
-    "communications": [],
-    "elevation": 3990,
-    "tower": false,
-    "name": "NOGALES INTL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 31.234061,
-        "lonStart": -110.977989,
-        "latEnd": 31.218106,
-        "lonEnd": -110.9761,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 17966
+    "id": 16119
   },
   {
     "type": 1,
@@ -289,46 +340,33 @@
         "surfacetype": 1
       }
     ],
-    "id": 22268
+    "id": 19142
   },
   {
     "type": 1,
-    "icao": "03AZ",
-    "lat": 31.43333325,
-    "lon": -110.08555775,
+    "icao": "MMNG",
+    "lat": 31.2260835,
+    "lon": -110.9770445,
     "communications": [],
-    "elevation": 4275,
+    "elevation": 3990,
     "tower": false,
-    "name": "THOMPSON INTL AVIATION",
+    "name": "NOGALES INTL",
     "runways": [
       {
         "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 31.433056,
-        "lonStart": -110.095281,
-        "latEnd": 31.433333,
-        "lonEnd": -110.083889,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 44.2,
+        "width": 29.87,
         "surfaceType": null,
         "numberStart": "16",
         "numberEnd": "34",
-        "latStart": 31.435833,
-        "lonStart": -110.08195,
-        "latEnd": 31.431111,
-        "lonEnd": -110.081111,
+        "latStart": 31.234061,
+        "lonStart": -110.977989,
+        "latEnd": 31.218106,
+        "lonEnd": -110.9761,
         "length": 0,
-        "surfacetype": 4
+        "surfacetype": 1
       }
     ],
-    "id": 24702
+    "id": 21491
   },
   {
     "type": 1,
@@ -360,32 +398,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 24787
-  },
-  {
-    "type": 1,
-    "icao": "E65",
-    "lat": 31.68370194,
-    "lon": -110.2900775,
-    "communications": [],
-    "elevation": 4250,
-    "tower": false,
-    "name": "Whetstone",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 31.68388622,
-        "lonStart": -110.29627875,
-        "latEnd": 31.68351766,
-        "lonEnd": -110.28387625,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 27190
+    "id": 23787
   }
 ]

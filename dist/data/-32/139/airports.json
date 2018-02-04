@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "AU19",
+    "lat": -31.970556000000002,
+    "lon": 139.209167,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12670,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 682,
+    "tower": false,
+    "name": "Tenneco Station 5",
+    "runways": [
+      {
+        "type": 100,
+        "width": 36.58,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -31.96518988,
+        "lonStart": 139.20994368,
+        "latEnd": -31.97592212,
+        "lonEnd": 139.20839032,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 14730
+  },
+  {
+    "type": 1,
     "icao": "YBRT",
     "lat": -31.963848315,
     "lon": 139.10103371,
@@ -23,33 +55,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 1537
-  },
-  {
-    "type": 1,
-    "icao": "YEPE",
-    "lat": -31.970496685,
-    "lon": 139.2090195,
-    "communications": [],
-    "elevation": 677,
-    "tower": false,
-    "name": "EPIC ENERGY FIVE",
-    "runways": [
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "1",
-        "numberEnd": "19",
-        "latStart": -31.97589937,
-        "lonStart": 139.20824,
-        "latEnd": -31.965094,
-        "lonEnd": 139.209799,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 6785
+    "id": 32842
   },
   {
     "type": 1,
@@ -75,7 +81,33 @@
         "surfacetype": 4
       }
     ],
-    "id": 6786
+    "id": 33229
+  },
+  {
+    "type": 1,
+    "icao": "YEPE",
+    "lat": -31.970496685,
+    "lon": 139.2090195,
+    "communications": [],
+    "elevation": 677,
+    "tower": false,
+    "name": "EPIC ENERGY FIVE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "1",
+        "numberEnd": "19",
+        "latStart": -31.97589937,
+        "lonStart": 139.20824,
+        "latEnd": -31.965094,
+        "lonEnd": 139.209799,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 33230
   },
   {
     "type": 1,
@@ -114,7 +146,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 6805
+    "id": 33241
   },
   {
     "type": 1,
@@ -153,7 +185,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 7717
+    "id": 33287
   },
   {
     "type": 1,
@@ -198,38 +230,6 @@
         "surfacetype": 4
       }
     ],
-    "id": 16759
-  },
-  {
-    "type": 1,
-    "icao": "AU19",
-    "lat": -31.970556000000002,
-    "lon": 139.209167,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12670,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 682,
-    "tower": false,
-    "name": "Tenneco Station 5",
-    "runways": [
-      {
-        "type": 100,
-        "width": 36.58,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": -31.96518988,
-        "lonStart": 139.20994368,
-        "latEnd": -31.97592212,
-        "lonEnd": 139.20839032,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 25164
+    "id": 33962
   }
 ]

@@ -1,6 +1,521 @@
 [
   {
     "type": 1,
+    "icao": "EDMA",
+    "lat": 48.4243877325,
+    "lon": 10.934226160000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12497,
+        "name": "Augsburg Tower"
+      },
+      {
+        "type": 50,
+        "frequency": 12457,
+        "name": "Augsburg ATIS"
+      }
+    ],
+    "elevation": 1515,
+    "tower": true,
+    "name": "Augsburg",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 48.42297894,
+        "lonStart": 10.92172367,
+        "latEnd": 48.42753926,
+        "lonEnd": 10.94214115,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "07R",
+        "numberEnd": "25L",
+        "latStart": 48.42205868,
+        "lonStart": 10.93002978,
+        "latEnd": 48.42497405,
+        "lonEnd": 10.94301004,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1186
+  },
+  {
+    "type": 1,
+    "icao": "EDMG",
+    "lat": 48.486211505,
+    "lon": 10.282302845,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11812,
+        "name": "Guenzburg Info"
+      }
+    ],
+    "elevation": 1456,
+    "tower": true,
+    "name": "Günzburg-Donauried",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 48.48499769,
+        "lonStart": 10.27900891,
+        "latEnd": 48.48742532,
+        "lonEnd": 10.28559678,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1192
+  },
+  {
+    "type": 1,
+    "icao": "EDMI",
+    "lat": 48.23516023,
+    "lon": 10.138074379999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11852,
+        "name": "Illertissen Info"
+      }
+    ],
+    "elevation": 1679,
+    "tower": true,
+    "name": "Illertissen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 48.2342879,
+        "lonStart": 10.13390305,
+        "latEnd": 48.23603256,
+        "lonEnd": 10.14224571,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1194
+  },
+  {
+    "type": 1,
+    "icao": "EDMN",
+    "lat": 48.10833581333333,
+    "lon": 10.52426152,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12695,
+        "name": "MUNCHEN INFO"
+      },
+      {
+        "type": 54,
+        "frequency": 12297,
+        "name": "Mindelheim Info"
+      }
+    ],
+    "elevation": 1856,
+    "tower": true,
+    "name": "Mindelheim Mattsies",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 48.11226577,
+        "lonStart": 10.52084509,
+        "latEnd": 48.10268263,
+        "lonEnd": 10.52832699,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 10,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 48.11005904,
+        "lonStart": 10.52361248,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10
+      }
+    ],
+    "id": 1198
+  },
+  {
+    "type": 1,
+    "icao": "EDMQ",
+    "lat": 48.703055500000005,
+    "lon": 10.8523705,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13412,
+        "name": "Genderkingen Info"
+      }
+    ],
+    "elevation": 1312,
+    "tower": true,
+    "name": "Donauwörth-Genderkingen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 48.702834,
+        "lonStart": 10.847276,
+        "latEnd": 48.703277,
+        "lonEnd": 10.857465,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1201
+  },
+  {
+    "type": 1,
+    "icao": "EDMT",
+    "lat": 48.009814469999995,
+    "lon": 10.100182375,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12282,
+        "name": "Tannheim Info"
+      }
+    ],
+    "elevation": 1895,
+    "tower": false,
+    "name": "Tannheim",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 48.01005514,
+        "lonStart": 10.09331801,
+        "latEnd": 48.0095738,
+        "lonEnd": 10.10704674,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1204
+  },
+  {
+    "type": 1,
+    "icao": "EDMU",
+    "lat": 48.569383,
+    "lon": 10.358282970000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12250,
+        "name": "Gundelfingen Info"
+      }
+    ],
+    "elevation": 1446,
+    "tower": true,
+    "name": "Gundelfingen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 48.56977355,
+        "lonStart": 10.35452469,
+        "latEnd": 48.56899245,
+        "lonEnd": 10.36204125,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1205
+  },
+  {
+    "type": 1,
+    "icao": "EDNG",
+    "lat": 48.633987000000005,
+    "lon": 10.2165555,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12235,
+        "name": "Giengen Info"
+      }
+    ],
+    "elevation": 1696,
+    "tower": true,
+    "name": "Gingen/Brenz",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 48.63638,
+        "lonStart": 10.215687,
+        "latEnd": 48.631594,
+        "lonEnd": 10.217424,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1216
+  },
+  {
+    "type": 1,
+    "icao": "EDNH",
+    "lat": 48.016165305,
+    "lon": 10.615023820000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12260,
+        "name": "Bad Woerishofen Info"
+      }
+    ],
+    "elevation": 1220,
+    "tower": true,
+    "name": "Bad Wörishofen-Nord",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 48.01562891,
+        "lonStart": 10.61001214,
+        "latEnd": 48.0167017,
+        "lonEnd": 10.6200355,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1217
+  },
+  {
+    "type": 1,
+    "icao": "EDNO",
+    "lat": 48.87110465,
+    "lon": 10.50606279,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13307,
+        "name": "Noerdlingen Info"
+      }
+    ],
+    "elevation": 1383,
+    "tower": true,
+    "name": "Noerdlingen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 48.868648,
+        "lonStart": 10.502564,
+        "latEnd": 48.8735613,
+        "lonEnd": 10.50956158,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1223
+  },
+  {
+    "type": 1,
+    "icao": "EDNQ",
+    "lat": 48.848043430000004,
+    "lon": 10.333827540000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12285,
+        "name": "Bopfingen Info"
+      }
+    ],
+    "elevation": 2027,
+    "tower": true,
+    "name": "Bopfingen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.5,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 48.84733093,
+        "lonStart": 10.33089754,
+        "latEnd": 48.84875593,
+        "lonEnd": 10.33675754,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1225
+  },
+  {
+    "type": 1,
+    "icao": "EDNS",
+    "lat": 48.179199999999994,
+    "lon": 10.70315505,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12250,
+        "name": "Schwabmuenchen Info"
+      }
+    ],
+    "elevation": 1804,
+    "tower": true,
+    "name": "Schwabmuenchen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 48.17876448,
+        "lonStart": 10.69748343,
+        "latEnd": 48.17963552,
+        "lonEnd": 10.70882667,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1227
+  },
+  {
+    "type": 1,
+    "icao": "EDNT",
+    "lat": 48.99568712999999,
+    "lon": 10.88464839,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12260,
+        "name": "Treuchtlingen-Bubenheim Info"
+      }
+    ],
+    "elevation": 1345,
+    "tower": true,
+    "name": "Treuchtlingen-Bubenheim",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 48.99812211,
+        "lonStart": 10.88218701,
+        "latEnd": 48.99325215,
+        "lonEnd": 10.88710977,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1228
+  },
+  {
+    "type": 1,
+    "icao": "EDNU",
+    "lat": 48.290036195,
+    "lon": 10.441969005,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11817,
+        "name": "Thannhausen Info"
+      }
+    ],
+    "elevation": 1610,
+    "tower": true,
+    "name": "Thannhausen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 48.28966906,
+        "lonStart": 10.43862624,
+        "latEnd": 48.29040333,
+        "lonEnd": 10.44531177,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1229
+  },
+  {
+    "type": 1,
+    "icao": "EDNW",
+    "lat": 48.289391275,
+    "lon": 10.13991278,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11942,
+        "name": "Weissenhorn Info"
+      }
+    ],
+    "elevation": 1643,
+    "tower": true,
+    "name": "Weissenhorn",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 48.28894226,
+        "lonStart": 10.13558698,
+        "latEnd": 48.28984029,
+        "lonEnd": 10.14423858,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1231
+  },
+  {
+    "type": 1,
     "icao": "EDPA",
     "lat": 48.777413196666664,
     "lon": 10.264530481666666,
@@ -55,7 +570,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 501
+    "id": 1260
   },
   {
     "type": 1,
@@ -66,12 +581,12 @@
       {
         "type": 50,
         "frequency": 12432,
-        "name": "DonauwC6rth ATIS"
+        "name": "Donauwörth ATIS"
       }
     ],
     "elevation": 1315,
     "tower": false,
-    "name": "Airbus Helicopters DonauwC6rth",
+    "name": "Airbus Helicopters Donauwörth",
     "runways": [
       {
         "type": 100,
@@ -340,68 +855,23 @@
         "length": 11.9
       }
     ],
-    "id": 749
+    "id": 1274
   },
   {
     "type": 1,
-    "icao": "EDMA",
-    "lat": 48.4243797125,
-    "lon": 10.934228752500001,
+    "icao": "EDPT",
+    "lat": 48.620536,
+    "lon": 10.061292015,
     "communications": [
       {
         "type": 54,
-        "frequency": 12497,
-        "name": "Augsburg Tower"
+        "frequency": 12300,
+        "name": "Gerstetten Info"
       }
     ],
-    "elevation": 1515,
+    "elevation": 1975,
     "tower": true,
-    "name": "Augsburg",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 48.422973,
-        "lonStart": 10.921715,
-        "latEnd": 48.42751312,
-        "lonEnd": 10.94216019,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "07R",
-        "numberEnd": "25L",
-        "latStart": 48.42205868,
-        "lonStart": 10.93002978,
-        "latEnd": 48.42497405,
-        "lonEnd": 10.94301004,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 1322
-  },
-  {
-    "type": 1,
-    "icao": "EDNH",
-    "lat": 48.016165305,
-    "lon": 10.615023820000001,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12260,
-        "name": "Bad Woerishofen Info"
-      }
-    ],
-    "elevation": 1220,
-    "tower": true,
-    "name": "Bad WC6rishofen-Nord",
+    "name": "Gerstetten",
     "runways": [
       {
         "type": 100,
@@ -409,15 +879,15 @@
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": 48.01562891,
-        "lonStart": 10.61001214,
-        "latEnd": 48.0167017,
-        "lonEnd": 10.6200355,
+        "latStart": 48.620358,
+        "lonStart": 10.05756749,
+        "latEnd": 48.620714,
+        "lonEnd": 10.06501654,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 2050
+    "id": 1276
   },
   {
     "type": 1,
@@ -452,8 +922,8 @@
         "type": 100,
         "width": 29.5,
         "surfaceType": null,
-        "numberStart": "16L",
-        "numberEnd": "34R",
+        "numberStart": "16",
+        "numberEnd": "34",
         "latStart": 48.74998216,
         "lonStart": 10.00335661,
         "latEnd": 48.74270316,
@@ -462,71 +932,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 2292
-  },
-  {
-    "type": 1,
-    "icao": "EDNQ",
-    "lat": 48.848043430000004,
-    "lon": 10.333827540000001,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12285,
-        "name": "Bopfingen Info"
-      }
-    ],
-    "elevation": 2027,
-    "tower": true,
-    "name": "Bopfingen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.5,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 48.84733093,
-        "lonStart": 10.33089754,
-        "latEnd": 48.84875593,
-        "lonEnd": 10.33675754,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 2998
-  },
-  {
-    "type": 1,
-    "icao": "EDMQ",
-    "lat": 48.703055500000005,
-    "lon": 10.8523705,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13412,
-        "name": "Genderkingen Info"
-      }
-    ],
-    "elevation": 1312,
-    "tower": true,
-    "name": "Donauwoerth-Genderkingen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 48.702834,
-        "lonStart": 10.847276,
-        "latEnd": 48.703277,
-        "lonEnd": 10.857465,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 6374
+    "id": 1277
   },
   {
     "type": 1,
@@ -558,167 +964,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 7124
-  },
-  {
-    "type": 1,
-    "icao": "EDPT",
-    "lat": 48.620536,
-    "lon": 10.061292015,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12300,
-        "name": "Gerstetten Info"
-      }
-    ],
-    "elevation": 1975,
-    "tower": true,
-    "name": "Gerstetten",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 48.620358,
-        "lonStart": 10.05756749,
-        "latEnd": 48.620714,
-        "lonEnd": 10.06501654,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 10432
-  },
-  {
-    "type": 1,
-    "icao": "EDNG",
-    "lat": 48.633987000000005,
-    "lon": 10.2165555,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12235,
-        "name": "Giengen Info"
-      }
-    ],
-    "elevation": 1696,
-    "tower": true,
-    "name": "Gingen/Brenz",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 48.63638,
-        "lonStart": 10.215687,
-        "latEnd": 48.631594,
-        "lonEnd": 10.217424,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 10491
-  },
-  {
-    "type": 1,
-    "icao": "EDMU",
-    "lat": 48.569383,
-    "lon": 10.358282970000001,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12250,
-        "name": "Gundelfingen Info"
-      }
-    ],
-    "elevation": 1446,
-    "tower": true,
-    "name": "Gundelfingen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 48.56977355,
-        "lonStart": 10.35452469,
-        "latEnd": 48.56899245,
-        "lonEnd": 10.36204125,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 10895
-  },
-  {
-    "type": 1,
-    "icao": "EDMG",
-    "lat": 48.486211505,
-    "lon": 10.282302845,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11812,
-        "name": "Guenzburg Info"
-      }
-    ],
-    "elevation": 1456,
-    "tower": true,
-    "name": "GC<nzburg-Donauried",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 48.48499769,
-        "lonStart": 10.27900891,
-        "latEnd": 48.48742532,
-        "lonEnd": 10.28559678,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 10924
-  },
-  {
-    "type": 1,
-    "icao": "EDMI",
-    "lat": 48.23516023,
-    "lon": 10.138074379999999,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11852,
-        "name": "Illertissen Info"
-      }
-    ],
-    "elevation": 1679,
-    "tower": true,
-    "name": "Illertissen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 48.2342879,
-        "lonStart": 10.13390305,
-        "latEnd": 48.23603256,
-        "lonEnd": 10.14224571,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 12439
+    "id": 1279
   },
   {
     "type": 1,
@@ -767,7 +1013,7 @@
         "length": 58.8
       }
     ],
-    "id": 14914
+    "id": 2088
   },
   {
     "type": 1,
@@ -834,136 +1080,60 @@
         "length": 35
       }
     ],
-    "id": 15090
+    "id": 2094
   },
   {
-    "type": 1,
-    "icao": "EDMN",
-    "lat": 48.10833581333333,
-    "lon": 10.52426152,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12695,
-        "name": "MUNCHEN INFO"
-      },
-      {
-        "type": 54,
-        "frequency": 12297,
-        "name": "Mindelheim Info"
-      }
-    ],
-    "elevation": 1856,
-    "tower": true,
-    "name": "Mindelheim Mattsies",
+    "type": 17,
+    "icao": "XED7D",
+    "lat": 48.383048,
+    "lon": 10.838354695,
+    "communications": [],
+    "elevation": 1624,
+    "tower": false,
+    "name": "[H] Klinikum Augsburg",
     "runways": [
       {
-        "type": 100,
-        "width": 20,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 48.11226577,
-        "lonStart": 10.52084509,
-        "latEnd": 48.10268263,
-        "lonEnd": 10.52832699,
-        "length": 0,
-        "surfacetype": 1
+        "type": 102,
+        "width": 18,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 48.38450384,
+        "lonStart": 10.83776564,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
       },
       {
         "type": 102,
-        "width": 10,
-        "surfaceType": 2,
-        "numberStart": "H1",
+        "width": 30,
+        "surfaceType": 15,
+        "numberStart": "H2",
         "numberEnd": null,
-        "latStart": 48.11005904,
-        "lonStart": 10.52361248,
+        "latStart": 48.38159216,
+        "lonStart": 10.83894375,
         "latEnd": null,
         "lonEnd": null,
-        "length": 10
+        "length": 30
       }
     ],
-    "id": 17262
+    "id": 5352
   },
   {
     "type": 1,
-    "icao": "EDNO",
-    "lat": 48.87110465,
-    "lon": 10.50606279,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13307,
-        "name": "Noerdlingen Info"
-      }
-    ],
-    "elevation": 1383,
-    "tower": true,
-    "name": "Noerdlingen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 48.868648,
-        "lonStart": 10.502564,
-        "latEnd": 48.8735613,
-        "lonEnd": 10.50956158,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 18372
-  },
-  {
-    "type": 1,
-    "icao": "EDNS",
-    "lat": 48.179199999999994,
-    "lon": 10.70315505,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12250,
-        "name": "Schwabmuenchen Info"
-      }
-    ],
-    "elevation": 1804,
-    "tower": true,
-    "name": "Schwabmuenchen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 48.17876448,
-        "lonStart": 10.69748343,
-        "latEnd": 48.17963552,
-        "lonEnd": 10.70882667,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23145
-  },
-  {
-    "type": 1,
-    "icao": "EDMT",
-    "lat": 48.009814469999995,
-    "lon": 10.100182375,
+    "icao": "XEDFO",
+    "lat": 48.730881,
+    "lon": 10.83535101,
     "communications": [
       {
         "type": 51,
-        "frequency": 12282,
-        "name": "Tannheim Info"
+        "frequency": 12347,
+        "name": "Stillberghof Info"
       }
     ],
-    "elevation": 1895,
-    "tower": false,
-    "name": "Tannheim",
+    "elevation": 1673,
+    "tower": true,
+    "name": "Stillberghof",
     "runways": [
       {
         "type": 100,
@@ -971,110 +1141,14 @@
         "surfaceType": null,
         "numberStart": "09",
         "numberEnd": "27",
-        "latStart": 48.01005514,
-        "lonStart": 10.09331801,
-        "latEnd": 48.0095738,
-        "lonEnd": 10.10704674,
+        "latStart": 48.73077578,
+        "lonStart": 10.83054426,
+        "latEnd": 48.73098622,
+        "lonEnd": 10.84015776,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 25042
-  },
-  {
-    "type": 1,
-    "icao": "EDNU",
-    "lat": 48.290036195,
-    "lon": 10.441969005,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11817,
-        "name": "Thannhausen Info"
-      }
-    ],
-    "elevation": 1610,
-    "tower": true,
-    "name": "Thannhausen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 48.28966906,
-        "lonStart": 10.43862624,
-        "latEnd": 48.29040333,
-        "lonEnd": 10.44531177,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 25215
-  },
-  {
-    "type": 1,
-    "icao": "EDNT",
-    "lat": 48.99568712999999,
-    "lon": 10.88464839,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12260,
-        "name": "Treuchtlingen-Bubenheim Info"
-      }
-    ],
-    "elevation": 1345,
-    "tower": true,
-    "name": "Treuchtlingen-Bubenheim",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 48.99812211,
-        "lonStart": 10.88218701,
-        "latEnd": 48.99325215,
-        "lonEnd": 10.88710977,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 25566
-  },
-  {
-    "type": 1,
-    "icao": "EDNW",
-    "lat": 48.289391275,
-    "lon": 10.13991278,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11942,
-        "name": "Weissenhorn Info"
-      }
-    ],
-    "elevation": 1643,
-    "tower": true,
-    "name": "Weissenhorn",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 48.28894226,
-        "lonStart": 10.13558698,
-        "latEnd": 48.28984029,
-        "lonEnd": 10.14423858,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 27052
+    "id": 5387
   }
 ]

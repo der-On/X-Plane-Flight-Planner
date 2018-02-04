@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "U07",
-    "lat": 37.5455555,
-    "lon": -110.713056,
+    "lat": 37.546298632500005,
+    "lon": -110.70939918,
     "communications": [
       {
         "type": 51,
@@ -17,30 +17,48 @@
     "runways": [
       {
         "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 37.54736985,
+        "lonStart": -110.70939599,
+        "latEnd": 37.54205899,
+        "lonEnd": -110.70249988,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
         "width": 12.19,
         "surfaceType": null,
         "numberStart": "01",
         "numberEnd": "19",
-        "latStart": 37.541111,
-        "lonStart": -110.715281,
-        "latEnd": 37.55,
-        "lonEnd": -110.710831,
+        "latStart": 37.54339437,
+        "lonStart": -110.71502408,
+        "latEnd": 37.55237132,
+        "lonEnd": -110.71067677,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 1972
+    "id": 5039
   },
   {
     "type": 1,
     "icao": "U96",
-    "lat": 37.441943,
-    "lon": -110.5694405,
+    "lat": 37.435304125,
+    "lon": -110.564289285,
     "communications": [
       {
         "type": 50,
         "frequency": 13437,
         "name": "AWOS 3"
+      },
+      {
+        "type": 54,
+        "frequency": 12880,
+        "name": "AI Tower"
       },
       {
         "type": 51,
@@ -58,93 +76,15 @@
         "surfaceType": null,
         "numberStart": "01",
         "numberEnd": "19",
-        "latStart": 37.434722,
-        "lonStart": -110.573331,
-        "latEnd": 37.449164,
-        "lonEnd": -110.56555,
+        "latStart": 37.4283812,
+        "lonStart": -110.5688854,
+        "latEnd": 37.44222705,
+        "lonEnd": -110.55969317,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 3536
-  },
-  {
-    "type": 1,
-    "icao": "UT03",
-    "lat": 37.89481959,
-    "lon": -110.37889863,
-    "communications": [],
-    "elevation": 3840,
-    "tower": false,
-    "name": "Hite Airport",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 37.895447,
-        "lonStart": -110.38263855,
-        "latEnd": 37.89419218,
-        "lonEnd": -110.37515871,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 11895
-  },
-  {
-    "type": 1,
-    "icao": "71V",
-    "lat": 37.01666749,
-    "lon": -110.20068473,
-    "communications": [],
-    "elevation": 5192,
-    "tower": false,
-    "name": "Monument Valley",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 37.02211256,
-        "lonStart": -110.20152205,
-        "latEnd": 37.01122242,
-        "lonEnd": -110.19984741,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 17452
-  },
-  {
-    "type": 1,
-    "icao": "72V",
-    "lat": 37.00832972,
-    "lon": -110.79513667,
-    "communications": [],
-    "elevation": 6160,
-    "tower": false,
-    "name": "Navajo Mountain",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 37.0052758,
-        "lonStart": -110.80021174,
-        "latEnd": 37.01138364,
-        "lonEnd": -110.7900616,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 18157
+    "id": 5058
   },
   {
     "type": 1,
@@ -176,6 +116,84 @@
         "surfacetype": 1
       }
     ],
-    "id": 18655
+    "id": 8939
+  },
+  {
+    "type": 1,
+    "icao": "71V",
+    "lat": 37.01666749,
+    "lon": -110.20068473,
+    "communications": [],
+    "elevation": 5192,
+    "tower": false,
+    "name": "Monument Valley",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 37.02211256,
+        "lonStart": -110.20152205,
+        "latEnd": 37.01122242,
+        "lonEnd": -110.19984741,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 13328
+  },
+  {
+    "type": 1,
+    "icao": "72V",
+    "lat": 37.00832972,
+    "lon": -110.79513667,
+    "communications": [],
+    "elevation": 6160,
+    "tower": false,
+    "name": "Navajo Mountain",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 37.0052758,
+        "lonStart": -110.80021174,
+        "latEnd": 37.01138364,
+        "lonEnd": -110.7900616,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 13376
+  },
+  {
+    "type": 1,
+    "icao": "UT03",
+    "lat": 37.89481959,
+    "lon": -110.37889863,
+    "communications": [],
+    "elevation": 3840,
+    "tower": false,
+    "name": "Hite Airport",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 37.895447,
+        "lonStart": -110.38263855,
+        "latEnd": 37.89419218,
+        "lonEnd": -110.37515871,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 30518
   }
 ]

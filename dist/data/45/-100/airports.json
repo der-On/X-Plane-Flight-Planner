@@ -1,29 +1,61 @@
 [
   {
     "type": 1,
-    "icao": "SD08",
-    "lat": 45.439426659999995,
-    "lon": -99.67511778,
+    "icao": "2SD9",
+    "lat": 45.452197,
+    "lon": -99.010111,
     "communications": [],
-    "elevation": 1966,
+    "elevation": 1515,
     "tower": false,
-    "name": "Bowdle Municipal",
+    "name": "TC FIELD",
     "runways": [
       {
         "type": 100,
-        "width": 45.72,
+        "width": 8.53,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 45.455625,
+        "lonStart": -99.010111,
+        "latEnd": 45.448769,
+        "lonEnd": -99.010111,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 7301
+  },
+  {
+    "type": 1,
+    "icao": "3FU",
+    "lat": 45.030347500000005,
+    "lon": -99.112607,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1568,
+    "tower": false,
+    "name": "FAULKTON MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
         "surfaceType": null,
         "numberStart": "13",
         "numberEnd": "31",
-        "latStart": 45.44309584,
-        "lonStart": -99.67982623,
-        "latEnd": 45.43575748,
-        "lonEnd": -99.67040933,
+        "latStart": 45.033306,
+        "lonStart": -99.116636,
+        "latEnd": 45.027389,
+        "lonEnd": -99.108578,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       }
     ],
-    "id": 3065
+    "id": 7517
   },
   {
     "type": 1,
@@ -68,39 +100,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 6838
-  },
-  {
-    "type": 1,
-    "icao": "3FU",
-    "lat": 45.030347500000005,
-    "lon": -99.112607,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 1568,
-    "tower": false,
-    "name": "FAULKTON MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 45.033306,
-        "lonStart": -99.116636,
-        "latEnd": 45.027389,
-        "lonEnd": -99.108578,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 7431
+    "id": 7920
   },
   {
     "type": 1,
@@ -132,7 +132,33 @@
         "surfacetype": 1
       }
     ],
-    "id": 11216
+    "id": 10475
+  },
+  {
+    "type": 1,
+    "icao": "SD08",
+    "lat": 45.439426659999995,
+    "lon": -99.67511778,
+    "communications": [],
+    "elevation": 1966,
+    "tower": false,
+    "name": "Bowdle Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 45.44309584,
+        "lonStart": -99.67982623,
+        "latEnd": 45.43575748,
+        "lonEnd": -99.67040933,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25259
   },
   {
     "type": 1,
@@ -158,32 +184,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 17450
-  },
-  {
-    "type": 1,
-    "icao": "2SD9",
-    "lat": 45.452197,
-    "lon": -99.010111,
-    "communications": [],
-    "elevation": 1515,
-    "tower": false,
-    "name": "TC FIELD",
-    "runways": [
-      {
-        "type": 100,
-        "width": 8.53,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 45.455625,
-        "lonStart": -99.010111,
-        "latEnd": 45.448769,
-        "lonEnd": -99.010111,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 24626
+    "id": 25312
   }
 ]

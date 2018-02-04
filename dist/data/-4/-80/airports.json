@@ -1,87 +1,35 @@
 [
   {
     "type": 1,
-    "icao": "SEPS",
-    "lat": -3.3196525,
-    "lon": -79.769165,
-    "communications": [],
-    "elevation": 21,
-    "tower": false,
-    "name": "AMABLE CALLE GUTIERREZ",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.37,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": -3.318222,
-        "lonStart": -79.774193,
-        "latEnd": -3.321083,
-        "lonEnd": -79.764137,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 256
-  },
-  {
-    "type": 1,
-    "icao": "SE58",
-    "lat": -3.3409415,
-    "lon": -79.8638165,
-    "communications": [],
-    "elevation": 29,
-    "tower": false,
-    "name": "BANASUR",
-    "runways": [
-      {
-        "type": 100,
-        "width": 11.89,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": -3.340022,
-        "lonStart": -79.86805,
-        "latEnd": -3.341861,
-        "lonEnd": -79.859583,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 1488
-  },
-  {
-    "type": 1,
-    "icao": "SETM",
-    "lat": -3.9958905000000002,
-    "lon": -79.371925,
+    "icao": "SECA",
+    "lat": -3.9957805,
+    "lon": -79.37195236,
     "communications": [
       {
         "type": 54,
         "frequency": 12220,
-        "name": "LA TOMA TWR"
+        "name": "CATAMAYO TORRE TWR"
       }
     ],
     "elevation": 4056,
     "tower": true,
-    "name": "CAMILO PONCE ENRIQUEZ",
+    "name": "CIUDAD DE CATAMAYO",
     "runways": [
       {
         "type": 100,
         "width": 29.87,
         "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": -4.000028,
-        "lonStart": -79.380181,
-        "latEnd": -3.991753,
-        "lonEnd": -79.363669,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -3.999444,
+        "lonStart": -79.37948836,
+        "latEnd": -3.992117,
+        "lonEnd": -79.36441636,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 3583
+    "id": 4867
   },
   {
     "type": 1,
@@ -107,33 +55,59 @@
         "surfacetype": 1
       }
     ],
-    "id": 3757
+    "id": 25974
   },
   {
     "type": 1,
-    "icao": "SERO",
-    "lat": -3.4351625,
-    "lon": -79.97781649999999,
+    "icao": "SE58",
+    "lat": -3.3409415,
+    "lon": -79.8638165,
     "communications": [],
-    "elevation": 169,
-    "tower": true,
-    "name": "CORONEL ARTILLERIA VICTOR LARREA",
+    "elevation": 29,
+    "tower": false,
+    "name": "BANASUR",
     "runways": [
       {
         "type": 100,
-        "width": 17.98,
+        "width": 11.89,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": -3.435083,
-        "lonStart": -79.982272,
-        "latEnd": -3.435242,
-        "lonEnd": -79.973361,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -3.340022,
+        "lonStart": -79.86805,
+        "latEnd": -3.341861,
+        "lonEnd": -79.859583,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 4159
+    "id": 25975
+  },
+  {
+    "type": 1,
+    "icao": "SE59",
+    "lat": -3.2029265000000002,
+    "lon": -79.798257,
+    "communications": [],
+    "elevation": 13,
+    "tower": false,
+    "name": "LA MINA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.9,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": -3.207122,
+        "lonStart": -79.798831,
+        "latEnd": -3.198731,
+        "lonEnd": -79.797683,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 25976
   },
   {
     "type": 1,
@@ -165,32 +139,58 @@
         "surfacetype": 1
       }
     ],
-    "id": 9945
+    "id": 25990
   },
   {
     "type": 1,
-    "icao": "SE59",
-    "lat": -3.2029265000000002,
-    "lon": -79.798257,
+    "icao": "SEPS",
+    "lat": -3.3196525,
+    "lon": -79.769165,
     "communications": [],
-    "elevation": 13,
+    "elevation": 21,
     "tower": false,
-    "name": "LA MINA",
+    "name": "AMABLE CALLE GUTIERREZ",
     "runways": [
       {
         "type": 100,
-        "width": 18.9,
+        "width": 17.37,
         "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": -3.207122,
-        "lonStart": -79.798831,
-        "latEnd": -3.198731,
-        "lonEnd": -79.797683,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": -3.318222,
+        "lonStart": -79.774193,
+        "latEnd": -3.321083,
+        "lonEnd": -79.764137,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 14276
+    "id": 25994
+  },
+  {
+    "type": 1,
+    "icao": "SERO",
+    "lat": -3.4351625,
+    "lon": -79.97781649999999,
+    "communications": [],
+    "elevation": 169,
+    "tower": true,
+    "name": "CORONEL ARTILLERIA VICTOR LARREA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -3.435083,
+        "lonStart": -79.982272,
+        "latEnd": -3.435242,
+        "lonEnd": -79.973361,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 25998
   }
 ]

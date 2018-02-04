@@ -1,36 +1,16 @@
 [
   {
     "type": 1,
-    "icao": "MT73",
-    "lat": 46.85076333000001,
-    "lon": -113.53758695,
-    "communications": [],
-    "elevation": 3870,
-    "tower": false,
-    "name": "Camas",
-    "runways": [
+    "icao": "KDRU",
+    "lat": 46.62167193,
+    "lon": -113.201660215,
+    "communications": [
       {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 46.8515105,
-        "lonStart": -113.53973113,
-        "latEnd": 46.85001616,
-        "lonEnd": -113.53544277,
-        "length": 0,
-        "surfacetype": 3
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
       }
     ],
-    "id": 4370
-  },
-  {
-    "type": 1,
-    "icao": "KDRU",
-    "lat": 46.6207625,
-    "lon": -113.20506612,
-    "communications": [],
     "elevation": 4245,
     "tower": false,
     "name": "Drummond",
@@ -39,23 +19,55 @@
         "type": 100,
         "width": 38.1,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 46.62172486,
-        "lonStart": -113.20964917,
-        "latEnd": 46.61980014,
-        "lonEnd": -113.20048307,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 46.6216277,
+        "lonStart": -113.20644529,
+        "latEnd": 46.62171616,
+        "lonEnd": -113.19687514,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 4
       }
     ],
-    "id": 6500
+    "id": 2579
+  },
+  {
+    "type": 1,
+    "icao": "RC0",
+    "lat": 46.727058975000006,
+    "lon": -113.65805592000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 3547,
+    "tower": true,
+    "name": "Rock Creek",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "7",
+        "numberEnd": "25",
+        "latStart": 46.72717903,
+        "lonStart": -113.66527526,
+        "latEnd": 46.72693892,
+        "lonEnd": -113.65083658,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 4421
   },
   {
     "type": 1,
     "icao": "U05",
-    "lat": 46.319444000000004,
-    "lon": -113.305139,
+    "lat": 46.317377750000006,
+    "lon": -113.305166435,
     "communications": [
       {
         "type": 51,
@@ -73,41 +85,15 @@
         "surfaceType": null,
         "numberStart": "16",
         "numberEnd": "34",
-        "latStart": 46.324444,
-        "lonStart": -113.305278,
-        "latEnd": 46.314444,
-        "lonEnd": -113.305,
+        "latStart": 46.3223138,
+        "lonStart": -113.30516479,
+        "latEnd": 46.3124417,
+        "lonEnd": -113.30516808,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 20934
-  },
-  {
-    "type": 1,
-    "icao": "RC0",
-    "lat": 46.72703154,
-    "lon": -113.657938455,
-    "communications": [],
-    "elevation": 3547,
-    "tower": true,
-    "name": "Rock Creek",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "7",
-        "numberEnd": "25",
-        "latStart": 46.72714691,
-        "lonStart": -113.66614119,
-        "latEnd": 46.72691617,
-        "lonEnd": -113.64973572,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 21618
+    "id": 5037
   },
   {
     "type": 17,
@@ -132,7 +118,7 @@
         "length": 12.2
       }
     ],
-    "id": 29086
+    "id": 9916
   },
   {
     "type": 17,
@@ -157,6 +143,32 @@
         "length": 9.1
       }
     ],
-    "id": 29998
+    "id": 21888
+  },
+  {
+    "type": 1,
+    "icao": "MT73",
+    "lat": 46.85076333000001,
+    "lon": -113.53758695,
+    "communications": [],
+    "elevation": 3870,
+    "tower": false,
+    "name": "Camas",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 46.8515105,
+        "lonStart": -113.53973113,
+        "latEnd": 46.85001616,
+        "lonEnd": -113.53544277,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 21894
   }
 ]

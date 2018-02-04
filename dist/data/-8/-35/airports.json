@@ -1,29 +1,97 @@
 [
   {
     "type": 1,
-    "icao": "SIXW",
-    "lat": -7.5316666649999995,
-    "lon": -34.86166667,
-    "communications": [],
-    "elevation": 0,
-    "tower": false,
-    "name": "Cimento Poty",
+    "icao": "SBJP",
+    "lat": -7.148567,
+    "lon": -34.950723499999995,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "PESSOA TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11830,
+        "name": "PESSOA CON"
+      }
+    ],
+    "elevation": 214,
+    "tower": true,
+    "name": "Presidente Castro Pinto",
     "runways": [
       {
         "type": 100,
-        "width": 20.12,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": -7.53111016,
-        "lonStart": -34.8657135,
-        "latEnd": -7.53222317,
-        "lonEnd": -34.85761984,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -7.140484,
+        "lonStart": -34.958759,
+        "latEnd": -7.15665,
+        "lonEnd": -34.942688,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 4999
+    "id": 4627
+  },
+  {
+    "type": 1,
+    "icao": "SIFC",
+    "lat": -7.844921,
+    "lon": -34.891609970000005,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12280,
+        "name": "UNICOM"
+      }
+    ],
+    "elevation": 29,
+    "tower": true,
+    "name": "Coroa do Aviao PE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -7.83949913,
+        "lonStart": -34.89366935,
+        "latEnd": -7.85034287,
+        "lonEnd": -34.88955059,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4878
+  },
+  {
+    "type": 17,
+    "icao": "SDOM",
+    "lat": -7.66555556,
+    "lon": -34.83,
+    "communications": [],
+    "elevation": 28,
+    "tower": false,
+    "name": "[H] Catuama II",
+    "runways": [
+      {
+        "type": 102,
+        "width": 24.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -7.66555556,
+        "lonStart": -34.83,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.1
+      }
+    ],
+    "id": 25678
   },
   {
     "type": 1,
@@ -49,195 +117,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 12363
-  },
-  {
-    "type": 1,
-    "icao": "SNJO",
-    "lat": -7.0919905,
-    "lon": -34.8415915,
-    "communications": [],
-    "elevation": 16,
-    "tower": false,
-    "name": "JOAO PESSOA AEROCLUBE",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": -7.089414,
-        "lonStart": -34.8454,
-        "latEnd": -7.094567,
-        "lonEnd": -34.837783,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 12764
-  },
-  {
-    "type": 1,
-    "icao": "SBJP",
-    "lat": -7.148382,
-    "lon": -34.950680500000004,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11830,
-        "name": "PESSOA TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11830,
-        "name": "PESSOA CON"
-      }
-    ],
-    "elevation": 215,
-    "tower": true,
-    "name": "Presidente Castro Pinto",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": -7.140264,
-        "lonStart": -34.958672,
-        "latEnd": -7.1565,
-        "lonEnd": -34.942689,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 20517
-  },
-  {
-    "type": 17,
-    "icao": "SNOH",
-    "lat": -7.56416667,
-    "lon": -34.85861111,
-    "communications": [],
-    "elevation": 3,
-    "tower": false,
-    "name": "[H] Atlantis",
-    "runways": [
-      {
-        "type": 102,
-        "width": 20.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -7.56416667,
-        "lonStart": -34.85861111,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20.1
-      }
-    ],
-    "id": 28214
-  },
-  {
-    "type": 17,
-    "icao": "SNCD",
-    "lat": -7.69055556,
-    "lon": -34.87583333,
-    "communications": [],
-    "elevation": 3,
-    "tower": false,
-    "name": "[H] Catuama",
-    "runways": [
-      {
-        "type": 102,
-        "width": 22,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -7.69055556,
-        "lonStart": -34.87583333,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 22
-      }
-    ],
-    "id": 28816
-  },
-  {
-    "type": 17,
-    "icao": "SDOM",
-    "lat": -7.66555556,
-    "lon": -34.83,
-    "communications": [],
-    "elevation": 28,
-    "tower": false,
-    "name": "[H] Catuama II",
-    "runways": [
-      {
-        "type": 102,
-        "width": 24.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -7.66555556,
-        "lonStart": -34.83,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.1
-      }
-    ],
-    "id": 28817
-  },
-  {
-    "type": 17,
-    "icao": "SJTW",
-    "lat": -7.81805556,
-    "lon": -34.91777778,
-    "communications": [],
-    "elevation": 20,
-    "tower": false,
-    "name": "[H] Centauro",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -7.81805556,
-        "lonStart": -34.91777778,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
-      }
-    ],
-    "id": 28831
-  },
-  {
-    "type": 17,
-    "icao": "SJFY",
-    "lat": -7.12138889,
-    "lon": -34.84444444,
-    "communications": [],
-    "elevation": 25,
-    "tower": false,
-    "name": "[H] Hospital Estadual de Pronto Socorro",
-    "runways": [
-      {
-        "type": 102,
-        "width": 29.9,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -7.12138889,
-        "lonStart": -34.84444444,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 29.9
-      }
-    ],
-    "id": 30331
+    "id": 26446
   },
   {
     "type": 17,
@@ -262,6 +142,158 @@
         "length": 18
       }
     ],
-    "id": 30338
+    "id": 26530
+  },
+  {
+    "type": 1,
+    "icao": "SIXW",
+    "lat": -7.5316666649999995,
+    "lon": -34.86166667,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "Cimento Poty",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -7.53111016,
+        "lonStart": -34.8657135,
+        "latEnd": -7.53222317,
+        "lonEnd": -34.85761984,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 26664
+  },
+  {
+    "type": 17,
+    "icao": "SJFY",
+    "lat": -7.12138889,
+    "lon": -34.84444444,
+    "communications": [],
+    "elevation": 25,
+    "tower": false,
+    "name": "[H] Hospital Estadual de Pronto Socorro",
+    "runways": [
+      {
+        "type": 102,
+        "width": 29.9,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -7.12138889,
+        "lonStart": -34.84444444,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.9
+      }
+    ],
+    "id": 26867
+  },
+  {
+    "type": 17,
+    "icao": "SJTW",
+    "lat": -7.81805556,
+    "lon": -34.91777778,
+    "communications": [],
+    "elevation": 20,
+    "tower": false,
+    "name": "[H] Centauro",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -7.81805556,
+        "lonStart": -34.91777778,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 27219
+  },
+  {
+    "type": 17,
+    "icao": "SNCD",
+    "lat": -7.69055556,
+    "lon": -34.87583333,
+    "communications": [],
+    "elevation": 3,
+    "tower": false,
+    "name": "[H] Catuama",
+    "runways": [
+      {
+        "type": 102,
+        "width": 22,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -7.69055556,
+        "lonStart": -34.87583333,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 22
+      }
+    ],
+    "id": 27627
+  },
+  {
+    "type": 1,
+    "icao": "SNJO",
+    "lat": -7.0919905,
+    "lon": -34.8415915,
+    "communications": [],
+    "elevation": 16,
+    "tower": false,
+    "name": "JOAO PESSOA AEROCLUBE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -7.089414,
+        "lonStart": -34.8454,
+        "latEnd": -7.094567,
+        "lonEnd": -34.837783,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 27803
+  },
+  {
+    "type": 17,
+    "icao": "SNOH",
+    "lat": -7.56416667,
+    "lon": -34.85861111,
+    "communications": [],
+    "elevation": 3,
+    "tower": false,
+    "name": "[H] Atlantis",
+    "runways": [
+      {
+        "type": 102,
+        "width": 20.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -7.56416667,
+        "lonStart": -34.85861111,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.1
+      }
+    ],
+    "id": 27917
   }
 ]

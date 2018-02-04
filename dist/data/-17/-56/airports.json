@@ -1,6 +1,32 @@
 [
   {
     "type": 1,
+    "icao": "SISL",
+    "lat": -16.894166665,
+    "lon": -55.90722222,
+    "communications": [],
+    "elevation": 509,
+    "tower": false,
+    "name": "Fazenda Santa Lucia",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -16.89684612,
+        "lonStart": -55.90979172,
+        "latEnd": -16.89148721,
+        "lonEnd": -55.90465272,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 26529
+  },
+  {
+    "type": 1,
     "icao": "SWCE",
     "lat": -16.2042625,
     "lon": -55.3987015,
@@ -23,33 +49,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 7458
-  },
-  {
-    "type": 1,
-    "icao": "SWEG",
-    "lat": -16.833333330000002,
-    "lon": -55.669166675,
-    "communications": [],
-    "elevation": 446,
-    "tower": false,
-    "name": "Fazenda Duas Marias",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": -16.83445767,
-        "lonStart": -55.67299425,
-        "latEnd": -16.83220899,
-        "lonEnd": -55.6653391,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 8220
+    "id": 29101
   },
   {
     "type": 1,
@@ -75,32 +75,32 @@
         "surfacetype": 5
       }
     ],
-    "id": 8762
+    "id": 29134
   },
   {
     "type": 1,
-    "icao": "SISL",
-    "lat": -16.894166665,
-    "lon": -55.90722222,
+    "icao": "SWEG",
+    "lat": -16.833333330000002,
+    "lon": -55.669166675,
     "communications": [],
-    "elevation": 509,
+    "elevation": 446,
     "tower": false,
-    "name": "Fazenda Santa Lucia",
+    "name": "Fazenda Duas Marias",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 17.98,
         "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": -16.89684612,
-        "lonStart": -55.90979172,
-        "latEnd": -16.89148721,
-        "lonEnd": -55.90465272,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": -16.83445767,
+        "lonStart": -55.67299425,
+        "latEnd": -16.83220899,
+        "lonEnd": -55.6653391,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 8836
+    "id": 29148
   }
 ]

@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "FMNA",
+    "lat": -12.349388385000001,
+    "lon": 49.291683595,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "AFIS INFO"
+      }
+    ],
+    "elevation": 374,
+    "tower": true,
+    "name": "Arrachart",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -12.34559883,
+        "lonStart": 49.28589998,
+        "latEnd": -12.35317794,
+        "lonEnd": 49.29746721,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2185
+  },
+  {
+    "type": 1,
     "icao": "FM43",
     "lat": -12.2560915,
     "lon": 49.254171,
@@ -34,38 +66,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 338
-  },
-  {
-    "type": 1,
-    "icao": "FMNA",
-    "lat": -12.3494,
-    "lon": 49.2917475,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11810,
-        "name": "AFIS INFO"
-      }
-    ],
-    "elevation": 374,
-    "tower": false,
-    "name": "ARRACHART",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": -12.345619,
-        "lonStart": 49.286056,
-        "latEnd": -12.353181,
-        "lonEnd": 49.297439,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 401
+    "id": 17157
   }
 ]

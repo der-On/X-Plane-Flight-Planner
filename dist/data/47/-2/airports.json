@@ -2,80 +2,54 @@
   {
     "type": 1,
     "icao": "LFFI",
-    "lat": 47.408203,
-    "lon": -1.1775660000000001,
+    "lat": 47.407108795,
+    "lon": -1.17873517,
     "communications": [
       {
         "type": 54,
         "frequency": 11820,
-        "name": "INFO"
+        "name": "ANCENIS INFO"
       },
       {
         "type": 55,
-        "frequency": 13027,
+        "frequency": 12442,
         "name": "NANTES APP"
       }
     ],
-    "elevation": 110,
-    "tower": false,
+    "elevation": 108,
+    "tower": true,
     "name": "Ancenis",
     "runways": [
       {
         "type": 100,
-        "width": 24.99,
+        "width": 25,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 47.406632,
-        "lonStart": -1.185168,
-        "latEnd": 47.409774,
-        "lonEnd": -1.169964,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 47.40546383,
+        "lonStart": -1.18633877,
+        "latEnd": 47.40875376,
+        "lonEnd": -1.17113157,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 1008
-  },
-  {
-    "type": 1,
-    "icao": "LFTQ",
-    "lat": 47.739999999999995,
-    "lon": -1.19,
-    "communications": [],
-    "elevation": 321,
-    "tower": false,
-    "name": "Chateaubriant Pouance",
-    "runways": [
-      {
-        "type": 100,
-        "width": 39.93,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 47.74083843,
-        "lonStart": -1.19465293,
-        "latEnd": 47.73916157,
-        "lonEnd": -1.18534707,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 4829
+    "id": 3591
   },
   {
     "type": 1,
     "icao": "LFRS",
-    "lat": 47.156040000000004,
-    "lon": -1.611186,
+    "lat": 47.153165044999994,
+    "lon": -1.610734395,
     "communications": [
       {
         "type": 50,
         "frequency": 12692,
-        "name": "LFRS ATIS"
+        "name": "NANTES ATIS"
       },
       {
         "type": 53,
-        "frequency": 12187,
+        "frequency": 12165,
         "name": "NANTES GND"
       },
       {
@@ -85,41 +59,97 @@
       },
       {
         "type": 55,
-        "frequency": 12987,
+        "frequency": 12442,
         "name": "NANTES APP"
       }
     ],
     "elevation": 89,
     "tower": true,
-    "name": "Nantes_Atlantique",
+    "name": "Nantes Atlantique",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 45,
         "surfaceType": null,
         "numberStart": "03",
         "numberEnd": "21",
-        "latStart": 47.141604,
-        "lonStart": -1.619537,
-        "latEnd": 47.164788,
-        "lonEnd": -1.601895,
+        "latStart": 47.14157854,
+        "lonStart": -1.61956084,
+        "latEnd": 47.16475155,
+        "lonEnd": -1.60190795,
         "length": 0,
         "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 47.160477,
-        "lonStart": -1.614934,
-        "latEnd": 47.157291,
-        "lonEnd": -1.608378,
-        "length": 0,
-        "surfacetype": 2
       }
     ],
-    "id": 18109
+    "id": 3681
+  },
+  {
+    "type": 1,
+    "icao": "LFSS",
+    "lat": 47.791431865,
+    "lon": -1.6383500899999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12350,
+        "name": "SAINT SULPICE INFO"
+      }
+    ],
+    "elevation": 312,
+    "tower": true,
+    "name": "Saint Sulpice des Landes",
+    "runways": [
+      {
+        "type": 100,
+        "width": 80,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 47.79158102,
+        "lonStart": -1.64351585,
+        "latEnd": 47.79128271,
+        "lonEnd": -1.63318433,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3692
+  },
+  {
+    "type": 1,
+    "icao": "LFTQ",
+    "lat": 47.739558275,
+    "lon": -1.19021537,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 13400,
+        "name": "RENNES INFO"
+      },
+      {
+        "type": 54,
+        "frequency": 12350,
+        "name": "CHATEAUBRIANT INFO"
+      }
+    ],
+    "elevation": 321,
+    "tower": true,
+    "name": "Chateaubriant Pouance",
+    "runways": [
+      {
+        "type": 100,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 47.74031132,
+        "lonStart": -1.19490087,
+        "latEnd": 47.73880523,
+        "lonEnd": -1.18552987,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3697
   }
 ]

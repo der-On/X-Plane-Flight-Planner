@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "LTCA",
-    "lat": 38.606925,
-    "lon": 39.291415,
+    "lat": 38.602410590000005,
+    "lon": 39.285715745,
     "communications": [
       {
         "type": 54,
@@ -16,10 +16,23 @@
         "name": "APP"
       }
     ],
-    "elevation": 2927,
+    "elevation": 2926,
     "tower": true,
     "name": "ELAZIG",
     "runways": [
+      {
+        "type": 100,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 38.59452955,
+        "lonStart": 39.26274537,
+        "latEnd": 38.60126281,
+        "lonEnd": 39.29728761,
+        "length": 0,
+        "surfacetype": 2
+      },
       {
         "type": 100,
         "width": 32,
@@ -34,6 +47,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 6719
+    "id": 4014
   }
 ]

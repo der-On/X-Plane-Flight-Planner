@@ -7,28 +7,23 @@
     "communications": [
       {
         "type": 50,
+        "frequency": 12670,
+        "name": "FSS"
+      },
+      {
+        "type": 51,
         "frequency": 12220,
-        "name": "FSS"
+        "name": "Iqaluit Radio"
       },
       {
-        "type": 50,
-        "frequency": 12670,
-        "name": "FSS"
-      },
-      {
-        "type": 51,
-        "frequency": 12670,
-        "name": "MULTICOM"
-      },
-      {
-        "type": 51,
-        "frequency": 12690,
-        "name": "MULTICOM"
-      },
-      {
-        "type": 54,
+        "type": 56,
         "frequency": 13455,
-        "name": "CNTR"
+        "name": "Montreal Center"
+      },
+      {
+        "type": 55,
+        "frequency": 13455,
+        "name": "Montreal Center"
       }
     ],
     "elevation": 110,
@@ -39,8 +34,8 @@
         "type": 100,
         "width": 60.96,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
+        "numberStart": "16",
+        "numberEnd": "34",
         "latStart": 63.7649891,
         "lonStart": -68.57471386,
         "latEnd": 63.74814142,
@@ -49,6 +44,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 12541
+    "id": 755
   }
 ]

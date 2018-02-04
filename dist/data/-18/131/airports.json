@@ -1,38 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "YCFD",
-    "lat": -17.019944385000002,
-    "lon": 131.329729075,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12670,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 419,
-    "tower": false,
-    "name": "Camfield Station",
-    "runways": [
-      {
-        "type": 100,
-        "width": 81.08,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": -17.02474948,
-        "lonStart": 131.32486901,
-        "latEnd": -17.01513929,
-        "lonEnd": 131.33458914,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 4387
-  },
-  {
-    "type": 1,
     "icao": "YCAC",
     "lat": -17.607641,
     "lon": 131.54991559500002,
@@ -61,7 +29,39 @@
         "surfacetype": 4
       }
     ],
-    "id": 4662
+    "id": 32901
+  },
+  {
+    "type": 1,
+    "icao": "YCFD",
+    "lat": -17.019944385000002,
+    "lon": 131.329729075,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12670,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 419,
+    "tower": false,
+    "name": "Camfield Station",
+    "runways": [
+      {
+        "type": 100,
+        "width": 81.08,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": -17.02474948,
+        "lonStart": 131.32486901,
+        "latEnd": -17.01513929,
+        "lonEnd": 131.33458914,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 32947
   },
   {
     "type": 1,
@@ -93,6 +93,6 @@
         "surfacetype": 4
       }
     ],
-    "id": 26991
+    "id": 34666
   }
 ]

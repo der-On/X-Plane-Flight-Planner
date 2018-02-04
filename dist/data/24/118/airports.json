@@ -1,6 +1,58 @@
 [
   {
     "type": 1,
+    "icao": "RCBS",
+    "lat": 24.427896,
+    "lon": 118.358916135,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12720,
+        "name": "KINMEN ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11800,
+        "name": "KINMEN TWR"
+      },
+      {
+        "type": 53,
+        "frequency": 12620,
+        "name": "KINMEN GND"
+      },
+      {
+        "type": 55,
+        "frequency": 12460,
+        "name": "KAOHSIUNG APPROACH"
+      },
+      {
+        "type": 55,
+        "frequency": 13310,
+        "name": "KAOHSIUNG APPROACH"
+      }
+    ],
+    "elevation": 56,
+    "tower": true,
+    "name": "Kinmen Shangyi",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 24.42184829,
+        "lonStart": 118.34563909,
+        "latEnd": 24.43394371,
+        "lonEnd": 118.37219318,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 24335
+  },
+  {
+    "type": 1,
     "icao": "ZSAM",
     "lat": 24.544,
     "lon": 118.12774200000001,
@@ -54,58 +106,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 9884
-  },
-  {
-    "type": 1,
-    "icao": "RCBS",
-    "lat": 24.427896,
-    "lon": 118.3589155,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12720,
-        "name": "KINMEN ATIS"
-      },
-      {
-        "type": 54,
-        "frequency": 11800,
-        "name": "KINMEN TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12620,
-        "name": "KINMEN TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12460,
-        "name": "TAICHUNG APP"
-      },
-      {
-        "type": 55,
-        "frequency": 13310,
-        "name": "TAICHUNG APP"
-      }
-    ],
-    "elevation": 93,
-    "tower": true,
-    "name": "SHANG YI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 24.421861,
-        "lonStart": 118.345667,
-        "latEnd": 24.433931,
-        "lonEnd": 118.372164,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22194
+    "id": 34937
   }
 ]

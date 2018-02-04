@@ -1,6 +1,32 @@
 [
   {
     "type": 1,
+    "icao": "XEP83",
+    "lat": 50.37399989,
+    "lon": 21.485999155000002,
+    "communications": [],
+    "elevation": 500,
+    "tower": false,
+    "name": "Tuszow Narodowy",
+    "runways": [
+      {
+        "type": 100,
+        "width": 35,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 50.37180329,
+        "lonStart": 21.4842086,
+        "latEnd": 50.37619649,
+        "lonEnd": 21.48778971,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 5410
+  },
+  {
+    "type": 1,
     "icao": "EPML",
     "lat": 50.32355380833334,
     "lon": 21.456442531666667,
@@ -42,8 +68,8 @@
         "type": 100,
         "width": 44.5,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
+        "numberStart": "09R",
+        "numberEnd": "27L",
         "latStart": 50.32231175,
         "lonStart": 21.44691166,
         "latEnd": 50.32224117,
@@ -65,7 +91,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 16089
+    "id": 16656
   },
   {
     "type": 1,
@@ -104,6 +130,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 25706
+    "id": 16668
   }
 ]

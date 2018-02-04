@@ -1,48 +1,53 @@
 [
   {
-    "type": 1,
-    "icao": "CYVT",
-    "lat": 55.843317,
-    "lon": -108.41959,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12230,
-        "name": "MF REGINA RDO"
-      }
-    ],
-    "elevation": 1443,
+    "type": 16,
+    "icao": "CJB7",
+    "lat": 55.842676,
+    "lon": -108.4702905,
+    "communications": [],
+    "elevation": 0,
     "tower": true,
-    "name": "Buffalo Narrows",
+    "name": "[S] Buffalo Narrows Water Aerodrome",
     "runways": [
       {
-        "type": 100,
-        "width": 29.87,
+        "type": 101,
+        "width": 79.86,
         "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 55.84623386,
-        "lonStart": -108.42356717,
-        "latEnd": 55.83769614,
-        "lonEnd": -108.40445083,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 55.84390449,
-        "lonStart": -108.43106915,
-        "latEnd": 55.84543351,
-        "lonEnd": -108.41927285,
-        "length": 0,
-        "surfacetype": 1
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 55.844015,
+        "lonStart": -108.471206,
+        "latEnd": 55.841337,
+        "lonEnd": -108.469375,
+        "length": 0
       }
     ],
-    "id": 3352
+    "id": 15214
+  },
+  {
+    "type": 17,
+    "icao": "CJC9",
+    "lat": 55.868607,
+    "lon": -108.482506,
+    "communications": [],
+    "elevation": 1392,
+    "tower": false,
+    "name": "[H] Buffalo Narrows (Heli)",
+    "runways": [
+      {
+        "type": 102,
+        "width": 29.9,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 55.868607,
+        "lonStart": -108.482506,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.9
+      }
+    ],
+    "id": 15221
   },
   {
     "type": 1,
@@ -68,56 +73,51 @@
         "surfacetype": 4
       }
     ],
-    "id": 4463
+    "id": 15571
   },
   {
-    "type": 17,
-    "icao": "CJC9",
-    "lat": 55.868607,
-    "lon": -108.482506,
-    "communications": [],
-    "elevation": 1392,
-    "tower": false,
-    "name": "[H] Buffalo Narrows (Heli)",
-    "runways": [
+    "type": 1,
+    "icao": "CYVT",
+    "lat": 55.843317,
+    "lon": -108.41959,
+    "communications": [
       {
-        "type": 102,
-        "width": 29.9,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 55.868607,
-        "lonStart": -108.482506,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 29.9
+        "type": 54,
+        "frequency": 12230,
+        "name": "MF REGINA RDO"
       }
     ],
-    "id": 28618
-  },
-  {
-    "type": 16,
-    "icao": "CJB7",
-    "lat": 55.842676,
-    "lon": -108.4702905,
-    "communications": [],
-    "elevation": 0,
+    "elevation": 1443,
     "tower": true,
-    "name": "[S] Buffalo Narrows Water Aerodrome",
+    "name": "Buffalo Narrows",
     "runways": [
       {
-        "type": 101,
-        "width": 79.86,
+        "type": 100,
+        "width": 29.87,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 55.844015,
-        "lonStart": -108.471206,
-        "latEnd": 55.841337,
-        "lonEnd": -108.469375,
-        "length": 0
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 55.84623386,
+        "lonStart": -108.42356717,
+        "latEnd": 55.83769614,
+        "lonEnd": -108.40445083,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 55.84390449,
+        "lonStart": -108.43106915,
+        "latEnd": 55.84543351,
+        "lonEnd": -108.41927285,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "id": 34017
+    "id": 15826
   }
 ]

@@ -1,6 +1,160 @@
 [
   {
     "type": 1,
+    "icao": "KSOA",
+    "lat": 30.58570272,
+    "lon": -100.64857176000001,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11807,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 2140,
+    "tower": false,
+    "name": "SONORA MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 30.59116637,
+        "lonStart": -100.64745367,
+        "latEnd": 30.58023907,
+        "lonEnd": -100.64968985,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3287
+  },
+  {
+    "type": 1,
+    "icao": "0XS2",
+    "lat": 30.55490444,
+    "lon": -100.53425834,
+    "communications": [],
+    "elevation": 2342,
+    "tower": false,
+    "name": "John Fields Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 30.55150893,
+        "lonStart": -100.53863752,
+        "latEnd": 30.55829995,
+        "lonEnd": -100.52987916,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 6251
+  },
+  {
+    "type": 1,
+    "icao": "3TA0",
+    "lat": 30.0965275,
+    "lon": -100.404167,
+    "communications": [],
+    "elevation": 2250,
+    "tower": false,
+    "name": "FOUR SQUARE RANCH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 30.101944,
+        "lonStart": -100.403056,
+        "latEnd": 30.091111,
+        "lonEnd": -100.405278,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 7859
+  },
+  {
+    "type": 1,
+    "icao": "6T9",
+    "lat": 30.85850638,
+    "lon": -100.32258806,
+    "communications": [],
+    "elevation": 2250,
+    "tower": false,
+    "name": "Rocking R Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 32,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 30.85302805,
+        "lonStart": -100.32466162,
+        "latEnd": 30.86398471,
+        "lonEnd": -100.3205145,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 9388
+  },
+  {
+    "type": 1,
+    "icao": "8T3",
+    "lat": 30.718234439999996,
+    "lon": -100.08091278,
+    "communications": [],
+    "elevation": 2317,
+    "tower": false,
+    "name": "Lopez Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 30.72118578,
+        "lonStart": -100.08164249,
+        "latEnd": 30.7152831,
+        "lonEnd": -100.08018307,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 30.71730966,
+        "lonStart": -100.08357528,
+        "latEnd": 30.71915922,
+        "lonEnd": -100.07825028,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10329
+  },
+  {
+    "type": 1,
     "icao": "13TX",
     "lat": 30.531294719999995,
     "lon": -100.45147834000001,
@@ -49,33 +203,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 900
-  },
-  {
-    "type": 1,
-    "icao": "TE37",
-    "lat": 30.2690835,
-    "lon": -100.45092249999999,
-    "communications": [],
-    "elevation": 2306,
-    "tower": false,
-    "name": "CANYON RANCH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 30.276465,
-        "lonStart": -100.455832,
-        "latEnd": 30.261702,
-        "lonEnd": -100.446013,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 3627
+    "id": 11038
   },
   {
     "type": 1,
@@ -107,7 +235,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 6724
+    "id": 11604
   },
   {
     "type": 1,
@@ -133,160 +261,32 @@
         "surfacetype": 3
       }
     ],
-    "id": 7380
+    "id": 12623
   },
   {
     "type": 1,
-    "icao": "3TA0",
-    "lat": 30.0965275,
-    "lon": -100.404167,
+    "icao": "TE37",
+    "lat": 30.2690835,
+    "lon": -100.45092249999999,
     "communications": [],
-    "elevation": 2250,
+    "elevation": 2306,
     "tower": false,
-    "name": "FOUR SQUARE RANCH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 30.101944,
-        "lonStart": -100.403056,
-        "latEnd": 30.091111,
-        "lonEnd": -100.405278,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 7665
-  },
-  {
-    "type": 1,
-    "icao": "0XS2",
-    "lat": 30.55490444,
-    "lon": -100.53425834,
-    "communications": [],
-    "elevation": 2342,
-    "tower": false,
-    "name": "John Fields Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 30.55150893,
-        "lonStart": -100.53863752,
-        "latEnd": 30.55829995,
-        "lonEnd": -100.52987916,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 13026
-  },
-  {
-    "type": 1,
-    "icao": "8T3",
-    "lat": 30.718234439999996,
-    "lon": -100.08091278,
-    "communications": [],
-    "elevation": 2317,
-    "tower": false,
-    "name": "Lopez Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 30.72118578,
-        "lonStart": -100.08164249,
-        "latEnd": 30.7152831,
-        "lonEnd": -100.08018307,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 30.71730966,
-        "lonStart": -100.08357528,
-        "latEnd": 30.71915922,
-        "lonEnd": -100.07825028,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15497
-  },
-  {
-    "type": 1,
-    "icao": "6T9",
-    "lat": 30.85850638,
-    "lon": -100.32258806,
-    "communications": [],
-    "elevation": 2250,
-    "tower": false,
-    "name": "Rocking R Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 32,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 30.85302805,
-        "lonStart": -100.32466162,
-        "latEnd": 30.86398471,
-        "lonEnd": -100.3205145,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 21632
-  },
-  {
-    "type": 1,
-    "icao": "KSOA",
-    "lat": 30.5857,
-    "lon": -100.648561,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11807,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 2140,
-    "tower": false,
-    "name": "SONORA MUNI",
+    "name": "CANYON RANCH",
     "runways": [
       {
         "type": 100,
         "width": 18.29,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 30.591164,
-        "lonStart": -100.64745,
-        "latEnd": 30.580236,
-        "lonEnd": -100.649672,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 30.276465,
+        "lonStart": -100.455832,
+        "latEnd": 30.261702,
+        "lonEnd": -100.446013,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 22374
+    "id": 29855
   }
 ]

@@ -1,35 +1,46 @@
 [
   {
     "type": 1,
-    "icao": "LFXQ",
-    "lat": 47.942940495,
-    "lon": -2.185852325,
-    "communications": [],
-    "elevation": 499,
-    "tower": true,
-    "name": "Coetquidan",
+    "icao": "LFER",
+    "lat": 47.698717175,
+    "lon": -2.037936865,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12350,
+        "name": "REDON MULT"
+      },
+      {
+        "type": 55,
+        "frequency": 13400,
+        "name": "RENNES APP"
+      }
+    ],
+    "elevation": 225,
+    "tower": false,
+    "name": "Redon Bains sur Oust",
     "runways": [
       {
         "type": 100,
         "width": 20.12,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 47.94347258,
-        "lonStart": -2.18910843,
-        "latEnd": 47.94240841,
-        "lonEnd": -2.18259622,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 47.69602466,
+        "lonStart": -2.0418477,
+        "latEnd": 47.70140969,
+        "lonEnd": -2.03402603,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 5157
+    "id": 3583
   },
   {
     "type": 1,
     "icao": "LFRE",
-    "lat": 47.288889,
-    "lon": -2.3458335,
+    "lat": 47.288322445000006,
+    "lon": -2.346862975,
     "communications": [
       {
         "type": 54,
@@ -47,100 +58,31 @@
         "surfaceType": null,
         "numberStart": "11",
         "numberEnd": "29",
-        "latStart": 47.290139,
-        "lonStart": -2.351839,
-        "latEnd": 47.287639,
-        "lonEnd": -2.339828,
+        "latStart": 47.28954583,
+        "lonStart": -2.35289095,
+        "latEnd": 47.28709906,
+        "lonEnd": -2.340835,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 14695
-  },
-  {
-    "type": 1,
-    "icao": "LFER",
-    "lat": 47.698710000000005,
-    "lon": -2.0379579999999997,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12350,
-        "name": "REDON MULT"
-      }
-    ],
-    "elevation": 222,
-    "tower": true,
-    "name": "Redon Bains sur Oust",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 47.696013,
-        "lonStart": -2.041876,
-        "latEnd": 47.701407,
-        "lonEnd": -2.03404,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 21293
-  },
-  {
-    "type": 1,
-    "icao": "LFRZ",
-    "lat": 47.3121875,
-    "lon": -2.1491795,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11895,
-        "name": "SAINT NAZAIRE TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 13027,
-        "name": "NANTES APP"
-      }
-    ],
-    "elevation": 13,
-    "tower": true,
-    "name": "Saint Nazaire Montoir",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 47.309111,
-        "lonStart": -2.164428,
-        "latEnd": 47.315264,
-        "lonEnd": -2.133931,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22709
+    "id": 3668
   },
   {
     "type": 1,
     "icao": "LFRV",
-    "lat": 47.7238972525,
-    "lon": -2.7214806400000002,
+    "lat": 47.723966575,
+    "lon": -2.7214551975,
     "communications": [
       {
-        "type": 51,
-        "frequency": 12260,
-        "name": "VANNES MULT"
+        "type": 55,
+        "frequency": 12280,
+        "name": "NANTES INFO"
       },
       {
         "type": 54,
         "frequency": 12260,
-        "name": "VANNES TWR"
+        "name": "VANNES INFO"
       }
     ],
     "elevation": 438,
@@ -153,27 +95,108 @@
         "surfaceType": null,
         "numberStart": "04",
         "numberEnd": "22",
-        "latStart": 47.717944,
-        "lonStart": -2.724948,
-        "latEnd": 47.728584,
-        "lonEnd": -2.712078,
+        "latStart": 47.71796502,
+        "lonStart": -2.72489996,
+        "latEnd": 47.72858844,
+        "lonEnd": -2.7120582,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 60,
+        "width": 57.3,
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": 47.7240484,
-        "lonStart": -2.73126706,
-        "latEnd": 47.72501261,
-        "lonEnd": -2.7176295,
+        "latStart": 47.72404782,
+        "lonStart": -2.73098465,
+        "latEnd": 47.72526502,
+        "lonEnd": -2.71787798,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 26219
+    "id": 3684
+  },
+  {
+    "type": 1,
+    "icao": "LFRZ",
+    "lat": 47.312182105,
+    "lon": -2.14916735,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11895,
+        "name": "SAINT NAZAIRE TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12442,
+        "name": "NANTES APP"
+      }
+    ],
+    "elevation": 13,
+    "tower": true,
+    "name": "Saint Nazaire Montoir",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 47.30910178,
+        "lonStart": -2.1644335,
+        "latEnd": 47.31526243,
+        "lonEnd": -2.1339012,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3686
+  },
+  {
+    "type": 1,
+    "icao": "LFXQ",
+    "lat": 47.944543196666665,
+    "lon": -2.1786382300000002,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12037,
+        "name": "Coetquidan TWR"
+      }
+    ],
+    "elevation": 499,
+    "tower": true,
+    "name": "Coetquidan",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 47.94352085,
+        "lonStart": -2.18903485,
+        "latEnd": 47.94244691,
+        "lonEnd": -2.18252562,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 40.6,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 47.94766183,
+        "lonStart": -2.16435422,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 44.1
+      }
+    ],
+    "id": 3701
   }
 ]

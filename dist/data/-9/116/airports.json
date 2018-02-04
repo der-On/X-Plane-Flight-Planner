@@ -1,6 +1,48 @@
 [
   {
     "type": 1,
+    "icao": "WADL",
+    "lat": -8.75722222,
+    "lon": 116.27526270499999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12670,
+        "name": "ATIS"
+      },
+      {
+        "type": 55,
+        "frequency": 11855,
+        "name": "Lombok APP"
+      },
+      {
+        "type": 54,
+        "frequency": 11855,
+        "name": "Lombok TWR"
+      }
+    ],
+    "elevation": 314,
+    "tower": true,
+    "name": "Lombok International",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": -8.74940577,
+        "lonStart": 116.26555538,
+        "latEnd": -8.76503867,
+        "lonEnd": 116.28497003,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5241
+  },
+  {
+    "type": 1,
     "icao": "WADA",
     "lat": -8.561249632500001,
     "lon": 116.09739235500001,
@@ -63,6 +105,6 @@
         "length": 9.1
       }
     ],
-    "id": 16793
+    "id": 31384
   }
 ]

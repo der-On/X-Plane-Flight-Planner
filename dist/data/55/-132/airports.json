@@ -1,6 +1,282 @@
 [
   {
     "type": 1,
+    "icao": "PAKT",
+    "lat": 55.3625319225,
+    "lon": -131.7199632375,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13445,
+        "name": "AFIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12360,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12295,
+        "name": "UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11850,
+        "name": "App"
+      },
+      {
+        "type": 56,
+        "frequency": 11850,
+        "name": "Dep"
+      }
+    ],
+    "elevation": 87,
+    "tower": false,
+    "name": "Ketchikan International",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.74,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 55.36255995,
+        "lonStart": -131.72575128,
+        "latEnd": 55.34784177,
+        "lonEnd": -131.70046735,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 101,
+        "width": 456.99,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 55.37924183,
+        "lonStart": -131.74273603,
+        "latEnd": 55.36048414,
+        "lonEnd": -131.71089829,
+        "length": 0
+      }
+    ],
+    "id": 4379
+  },
+  {
+    "type": 16,
+    "icao": "5KE",
+    "lat": 55.35798638,
+    "lon": -131.66835278000002,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] Ketchikan Harbor",
+    "runways": [
+      {
+        "type": 101,
+        "width": 457.2,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 55.37095408,
+        "lonStart": -131.67620775,
+        "latEnd": 55.34501868,
+        "lonEnd": -131.66049781,
+        "length": 0
+      }
+    ],
+    "id": 8655
+  },
+  {
+    "type": 17,
+    "icao": "6Z4",
+    "lat": 55.38298416,
+    "lon": -131.73501834,
+    "communications": [],
+    "elevation": 20,
+    "tower": false,
+    "name": "[H] Ketchikan Temsco H",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 55.38298416,
+        "lonStart": -131.73501834,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 45.7
+      }
+    ],
+    "id": 9497
+  },
+  {
+    "type": 16,
+    "icao": "8K9",
+    "lat": 55.389650270000004,
+    "lon": -131.73807417,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] Murphys Pullout",
+    "runways": [
+      {
+        "type": 101,
+        "width": 609.6,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 55.38518513,
+        "lonStart": -131.76090492,
+        "latEnd": 55.39411541,
+        "lonEnd": -131.71524342,
+        "length": 0
+      }
+    ],
+    "id": 10124
+  },
+  {
+    "type": 16,
+    "icao": "9C0",
+    "lat": 55.38465055,
+    "lon": -131.73835223,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] Peninsula Point Pullout",
+    "runways": [
+      {
+        "type": 101,
+        "width": 609.6,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 55.38063193,
+        "lonStart": -131.75889731,
+        "latEnd": 55.38866917,
+        "lonEnd": -131.71780715,
+        "length": 0
+      }
+    ],
+    "id": 10440
+  },
+  {
+    "type": 16,
+    "icao": "13Z",
+    "lat": 55.60130583,
+    "lon": -131.63668306,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] Loring",
+    "runways": [
+      {
+        "type": 101,
+        "width": 609.6,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 55.60731805,
+        "lonStart": -131.65850253,
+        "latEnd": 55.59529361,
+        "lonEnd": -131.61486359,
+        "length": 0
+      }
+    ],
+    "id": 11043
+  },
+  {
+    "type": 16,
+    "icao": "KBE",
+    "lat": 55.92907805,
+    "lon": -131.57169056,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] Bell Island Hot Springs",
+    "runways": [
+      {
+        "type": 101,
+        "width": 792.48,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 55.92434501,
+        "lonStart": -131.59622697,
+        "latEnd": 55.93381109,
+        "lonEnd": -131.54715415,
+        "length": 0
+      }
+    ],
+    "id": 18857
+  },
+  {
+    "type": 16,
+    "icao": "PABP",
+    "lat": 55.91630138,
+    "lon": -131.80113362,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] Yes Bay Lodge",
+    "runways": [
+      {
+        "type": 101,
+        "width": 609.6,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 55.91930749,
+        "lonStart": -131.81213183,
+        "latEnd": 55.91329527,
+        "lonEnd": -131.79013541,
+        "length": 0
+      }
+    ],
+    "id": 23895
+  },
+  {
+    "type": 16,
+    "icao": "PAMM",
+    "lat": 55.13104527,
+    "lon": -131.57806751,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] Metlakatla",
+    "runways": [
+      {
+        "type": 101,
+        "width": 1524,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 55.13405138,
+        "lonStart": -131.58884838,
+        "latEnd": 55.12803916,
+        "lonEnd": -131.56728664,
+        "length": 0
+      },
+      {
+        "type": 101,
+        "width": 1524,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 55.13720871,
+        "lonStart": -131.57280933,
+        "latEnd": 55.12488183,
+        "lonEnd": -131.58332569,
+        "length": 0
+      }
+    ],
+    "id": 23983
+  },
+  {
+    "type": 1,
     "icao": "PANT",
     "lat": 55.039538,
     "lon": -131.572274,
@@ -47,241 +323,7 @@
         "surfacetype": 5
       }
     ],
-    "id": 323
-  },
-  {
-    "type": 1,
-    "icao": "PAKT",
-    "lat": 55.3555445,
-    "lon": -131.71373649999998,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11990,
-        "name": "ATIS"
-      },
-      {
-        "type": 50,
-        "frequency": 13445,
-        "name": "ATIS"
-      },
-      {
-        "type": 51,
-        "frequency": 12360,
-        "name": "CTAF"
-      },
-      {
-        "type": 51,
-        "frequency": 12295,
-        "name": "UNICOM"
-      }
-    ],
-    "elevation": 88,
-    "tower": false,
-    "name": "KETCHIKAN INTL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 55.362881,
-        "lonStart": -131.726342,
-        "latEnd": 55.348208,
-        "lonEnd": -131.701131,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 13327
-  },
-  {
-    "type": 17,
-    "icao": "6Z4",
-    "lat": 55.38298416,
-    "lon": -131.73501834,
-    "communications": [],
-    "elevation": 20,
-    "tower": false,
-    "name": "[H] Ketchikan Temsco H",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 55.38298416,
-        "lonStart": -131.73501834,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 45.7
-      }
-    ],
-    "id": 30718
-  },
-  {
-    "type": 16,
-    "icao": "KBE",
-    "lat": 55.92907805,
-    "lon": -131.57169056,
-    "communications": [],
-    "elevation": 0,
-    "tower": false,
-    "name": "[S] Bell Island Hot Springs",
-    "runways": [
-      {
-        "type": 101,
-        "width": 792.48,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 55.92434501,
-        "lonStart": -131.59622697,
-        "latEnd": 55.93381109,
-        "lonEnd": -131.54715415,
-        "length": 0
-      }
-    ],
-    "id": 33998
-  },
-  {
-    "type": 16,
-    "icao": "5KE",
-    "lat": 55.35798638,
-    "lon": -131.66835278000002,
-    "communications": [],
-    "elevation": 0,
-    "tower": false,
-    "name": "[S] Ketchikan Harbor",
-    "runways": [
-      {
-        "type": 101,
-        "width": 457.2,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 55.37095408,
-        "lonStart": -131.67620775,
-        "latEnd": 55.34501868,
-        "lonEnd": -131.66049781,
-        "length": 0
-      }
-    ],
-    "id": 34204
-  },
-  {
-    "type": 16,
-    "icao": "13Z",
-    "lat": 55.60130583,
-    "lon": -131.63668306,
-    "communications": [],
-    "elevation": 0,
-    "tower": false,
-    "name": "[S] Loring",
-    "runways": [
-      {
-        "type": 101,
-        "width": 609.6,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 55.60731805,
-        "lonStart": -131.65850253,
-        "latEnd": 55.59529361,
-        "lonEnd": -131.61486359,
-        "length": 0
-      }
-    ],
-    "id": 34265
-  },
-  {
-    "type": 16,
-    "icao": "PAMM",
-    "lat": 55.13104527,
-    "lon": -131.57806751,
-    "communications": [],
-    "elevation": 0,
-    "tower": false,
-    "name": "[S] Metlakatla",
-    "runways": [
-      {
-        "type": 101,
-        "width": 1524,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 55.13405138,
-        "lonStart": -131.58884838,
-        "latEnd": 55.12803916,
-        "lonEnd": -131.56728664,
-        "length": 0
-      },
-      {
-        "type": 101,
-        "width": 1524,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 55.13720871,
-        "lonStart": -131.57280933,
-        "latEnd": 55.12488183,
-        "lonEnd": -131.58332569,
-        "length": 0
-      }
-    ],
-    "id": 34289
-  },
-  {
-    "type": 16,
-    "icao": "8K9",
-    "lat": 55.389650270000004,
-    "lon": -131.73807417,
-    "communications": [],
-    "elevation": 0,
-    "tower": false,
-    "name": "[S] Murphys Pullout",
-    "runways": [
-      {
-        "type": 101,
-        "width": 609.6,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 55.38518513,
-        "lonStart": -131.76090492,
-        "latEnd": 55.39411541,
-        "lonEnd": -131.71524342,
-        "length": 0
-      }
-    ],
-    "id": 34303
-  },
-  {
-    "type": 16,
-    "icao": "9C0",
-    "lat": 55.38465055,
-    "lon": -131.73835223,
-    "communications": [],
-    "elevation": 0,
-    "tower": false,
-    "name": "[S] Peninsula Point Pullout",
-    "runways": [
-      {
-        "type": 101,
-        "width": 609.6,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 55.38063193,
-        "lonStart": -131.75889731,
-        "latEnd": 55.38866917,
-        "lonEnd": -131.71780715,
-        "length": 0
-      }
-    ],
-    "id": 34354
+    "id": 23991
   },
   {
     "type": 16,
@@ -306,31 +348,6 @@
         "length": 0
       }
     ],
-    "id": 34483
-  },
-  {
-    "type": 16,
-    "icao": "PABP",
-    "lat": 55.91630138,
-    "lon": -131.80113362,
-    "communications": [],
-    "elevation": 0,
-    "tower": false,
-    "name": "[S] Yes Bay Lodge",
-    "runways": [
-      {
-        "type": 101,
-        "width": 609.6,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 55.91930749,
-        "lonStart": -131.81213183,
-        "latEnd": 55.91329527,
-        "lonEnd": -131.79013541,
-        "length": 0
-      }
-    ],
-    "id": 34542
+    "id": 34894
   }
 ]

@@ -1,6 +1,83 @@
 [
   {
     "type": 1,
+    "icao": "CKQ5",
+    "lat": 50.99408616,
+    "lon": -107.130116165,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12320,
+        "name": "Traffic"
+      }
+    ],
+    "elevation": 2083,
+    "tower": false,
+    "name": "Lucky Lake",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 50.99417993,
+        "lonStart": -107.13665264,
+        "latEnd": 50.99399239,
+        "lonEnd": -107.12357969,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 677
+  },
+  {
+    "type": 1,
+    "icao": "CYYN",
+    "lat": 50.291936185000004,
+    "lon": -107.692307125,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12488,
+        "name": "AWOS"
+      }
+    ],
+    "elevation": 2681,
+    "tower": true,
+    "name": "Swift Current",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 50.28888103,
+        "lonStart": -107.69909518,
+        "latEnd": 50.29368934,
+        "lonEnd": -107.69146517,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 50.29676204,
+        "lonStart": -107.69570259,
+        "latEnd": 50.28841233,
+        "lonEnd": -107.68296556,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 873
+  },
+  {
+    "type": 1,
     "icao": "CJH7",
     "lat": 50.833286,
     "lon": -107.370033,
@@ -23,39 +100,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 2451
-  },
-  {
-    "type": 1,
-    "icao": "CKQ5",
-    "lat": 50.99381855,
-    "lon": -107.13001858,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12320,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 2084,
-    "tower": false,
-    "name": "Lucky Lake",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 50.99381855,
-        "lonStart": -107.13658187,
-        "latEnd": 50.99381855,
-        "lonEnd": -107.12345529,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 15582
+    "id": 15237
   },
   {
     "type": 1,
@@ -81,56 +126,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 20473
-  },
-  {
-    "type": 1,
-    "icao": "CYYN",
-    "lat": 50.2918994625,
-    "lon": -107.6919421075,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12470,
-        "name": "AWOS"
-      },
-      {
-        "type": 54,
-        "frequency": 12230,
-        "name": "MF"
-      }
-    ],
-    "elevation": 2680,
-    "tower": true,
-    "name": "Swift Current",
-    "runways": [
-      {
-        "type": 100,
-        "width": 46.02,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 50.29667627,
-        "lonStart": -107.6952391,
-        "latEnd": 50.28834273,
-        "lonEnd": -107.6824608,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 14.94,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 50.28885763,
-        "lonStart": -107.69890757,
-        "latEnd": 50.29372122,
-        "lonEnd": -107.69116096,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 24489
+    "id": 15564
   }
 ]

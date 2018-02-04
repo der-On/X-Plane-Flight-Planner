@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "WATR",
+    "lat": -10.7666667,
+    "lon": 123.0744444,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12340,
+        "name": "AFIS Rote Information"
+      }
+    ],
+    "elevation": 197,
+    "tower": true,
+    "name": "Rote/Lekunik (DGCA)",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": -10.76981415,
+        "lonStart": 123.07184997,
+        "latEnd": -10.76351925,
+        "lonEnd": 123.07703883,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 31496
+  },
+  {
+    "type": 1,
     "icao": "WATT",
     "lat": -10.17339725,
     "lon": 123.66770500000001,
@@ -47,38 +79,6 @@
         "surfacetype": 4
       }
     ],
-    "id": 14198
-  },
-  {
-    "type": 1,
-    "icao": "WATR",
-    "lat": -10.7666667,
-    "lon": 123.0744444,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12340,
-        "name": "AFIS Rote Information"
-      }
-    ],
-    "elevation": 197,
-    "tower": true,
-    "name": "Rote/Lekunik (DGCA)",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": -10.76981415,
-        "lonStart": 123.07184997,
-        "latEnd": -10.76351925,
-        "lonEnd": 123.07703883,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 21759
+    "id": 31498
   }
 ]

@@ -1,6 +1,48 @@
 [
   {
     "type": 1,
+    "icao": "SBAR",
+    "lat": -10.98389454,
+    "lon": -37.07300206,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11880,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11900,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12030,
+        "name": "APP"
+      }
+    ],
+    "elevation": 21,
+    "tower": false,
+    "name": "Santa Maria Airport",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -10.98345938,
+        "lonStart": -37.08575973,
+        "latEnd": -10.9843297,
+        "lonEnd": -37.06024439,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4588
+  },
+  {
+    "type": 1,
     "icao": "SNAU",
     "lat": -10.9030561,
     "lon": -37.0830574,
@@ -23,7 +65,7 @@
         "surfacetype": 2
       }
     ],
-    "id": 621
+    "id": 27593
   },
   {
     "type": 1,
@@ -49,39 +91,7 @@
         "surfacetype": 5
       }
     ],
-    "id": 8009
-  },
-  {
-    "type": 1,
-    "icao": "SBAR",
-    "lat": -10.984,
-    "lon": -37.070333465000004,
-    "communications": [
-      {
-        "type": 55,
-        "frequency": 12030,
-        "name": "ARACAJU APP"
-      }
-    ],
-    "elevation": 22,
-    "tower": false,
-    "name": "SANTA MARIA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": -10.98366661,
-        "lonStart": -37.08041171,
-        "latEnd": -10.98433339,
-        "lonEnd": -37.06025522,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22043
+    "id": 27858
   },
   {
     "type": 17,
@@ -106,6 +116,6 @@
         "length": 18
       }
     ],
-    "id": 32155
+    "id": 29206
   }
 ]

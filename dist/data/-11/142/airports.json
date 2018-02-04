@@ -29,7 +29,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 2058
+    "id": 32694
   },
   {
     "type": 1,
@@ -168,7 +168,7 @@
         "length": 20.12
       }
     ],
-    "id": 12052
+    "id": 33434
   },
   {
     "type": 1,
@@ -205,7 +205,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 14171
+    "id": 33631
   },
   {
     "type": 1,
@@ -237,7 +237,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 18476
+    "id": 34062
   },
   {
     "type": 1,
@@ -263,7 +263,82 @@
         "surfacetype": 15
       }
     ],
-    "id": 19170
+    "id": 34158
+  },
+  {
+    "type": 16,
+    "icao": "YPAU",
+    "lat": -10.19195673,
+    "lon": 142.338732,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] ST PAULS",
+    "runways": [
+      {
+        "type": 101,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "9",
+        "numberEnd": "27",
+        "latStart": -10.192025,
+        "lonStart": 142.33861143,
+        "latEnd": -10.19188846,
+        "lonEnd": 142.33885257,
+        "length": 0
+      }
+    ],
+    "id": 34163
+  },
+  {
+    "type": 16,
+    "icao": "YPSB",
+    "lat": -10.72004495,
+    "lon": 142.46352100000001,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] PUNOSAND BAY",
+    "runways": [
+      {
+        "type": 101,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "8",
+        "numberEnd": "26",
+        "latStart": -10.7200489,
+        "lonStart": 142.46338123,
+        "latEnd": -10.720041,
+        "lonEnd": 142.46366077,
+        "length": 0
+      }
+    ],
+    "id": 34242
+  },
+  {
+    "type": 16,
+    "icao": "YSEI",
+    "lat": -10.84662797,
+    "lon": 142.36501700000002,
+    "communications": [],
+    "elevation": 0,
+    "tower": false,
+    "name": "[S] SEISIA",
+    "runways": [
+      {
+        "type": 101,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "2",
+        "numberEnd": "20",
+        "latStart": -10.84675694,
+        "lonStart": 142.36496818,
+        "latEnd": -10.846499,
+        "lonEnd": 142.36506582,
+        "length": 0
+      }
+    ],
+    "id": 34391
   },
   {
     "type": 1,
@@ -289,7 +364,32 @@
         "surfacetype": 4
       }
     ],
-    "id": 24920
+    "id": 34604
+  },
+  {
+    "type": 17,
+    "icao": "YTUD",
+    "lat": -10.583253,
+    "lon": 142.216729,
+    "communications": [],
+    "elevation": 48,
+    "tower": false,
+    "name": "[H] THURSDAY ISLAND",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 3,
+        "numberStart": "H49",
+        "numberEnd": null,
+        "latStart": -10.583253,
+        "lonStart": 142.216729,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18
+      }
+    ],
+    "id": 34610
   },
   {
     "type": 1,
@@ -326,106 +426,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 26933
-  },
-  {
-    "type": 17,
-    "icao": "YTUD",
-    "lat": -10.583253,
-    "lon": 142.216729,
-    "communications": [],
-    "elevation": 48,
-    "tower": false,
-    "name": "[H] THURSDAY ISLAND",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18,
-        "surfaceType": 3,
-        "numberStart": "H49",
-        "numberEnd": null,
-        "latStart": -10.583253,
-        "lonStart": 142.216729,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18
-      }
-    ],
-    "id": 33196
-  },
-  {
-    "type": 16,
-    "icao": "YPSB",
-    "lat": -10.72004495,
-    "lon": 142.46352100000001,
-    "communications": [],
-    "elevation": 0,
-    "tower": false,
-    "name": "[S] PUNOSAND BAY",
-    "runways": [
-      {
-        "type": 101,
-        "width": 14.94,
-        "surfaceType": null,
-        "numberStart": "8",
-        "numberEnd": "26",
-        "latStart": -10.7200489,
-        "lonStart": 142.46338123,
-        "latEnd": -10.720041,
-        "lonEnd": 142.46366077,
-        "length": 0
-      }
-    ],
-    "id": 34341
-  },
-  {
-    "type": 16,
-    "icao": "YSEI",
-    "lat": -10.84662797,
-    "lon": 142.36501700000002,
-    "communications": [],
-    "elevation": 0,
-    "tower": false,
-    "name": "[S] SEISIA",
-    "runways": [
-      {
-        "type": 101,
-        "width": 14.94,
-        "surfaceType": null,
-        "numberStart": "2",
-        "numberEnd": "20",
-        "latStart": -10.84675694,
-        "lonStart": 142.36496818,
-        "latEnd": -10.846499,
-        "lonEnd": 142.36506582,
-        "length": 0
-      }
-    ],
-    "id": 34412
-  },
-  {
-    "type": 16,
-    "icao": "YPAU",
-    "lat": -10.19195673,
-    "lon": 142.338732,
-    "communications": [],
-    "elevation": 0,
-    "tower": false,
-    "name": "[S] ST PAULS",
-    "runways": [
-      {
-        "type": 101,
-        "width": 14.94,
-        "surfaceType": null,
-        "numberStart": "9",
-        "numberEnd": "27",
-        "latStart": -10.192025,
-        "lonStart": 142.33861143,
-        "latEnd": -10.19188846,
-        "lonEnd": 142.33885257,
-        "length": 0
-      }
-    ],
-    "id": 34416
+    "id": 34675
   }
 ]

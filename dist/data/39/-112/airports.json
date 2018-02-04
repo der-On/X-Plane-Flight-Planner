@@ -1,6 +1,43 @@
 [
   {
     "type": 1,
+    "icao": "U14",
+    "lat": 39.736570185,
+    "lon": -111.87005513,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 54,
+        "frequency": 12880,
+        "name": "AI Tower"
+      }
+    ],
+    "elevation": 5008,
+    "tower": false,
+    "name": "Nephi Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 39.74522001,
+        "lonStart": -111.87008498,
+        "latEnd": 39.72792036,
+        "lonEnd": -111.87002528,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5041
+  },
+  {
+    "type": 1,
     "icao": "41U",
     "lat": 39.331345999999996,
     "lon": -111.60440299999999,
@@ -29,7 +66,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 15790
+    "id": 12156
   },
   {
     "type": 1,
@@ -61,39 +98,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 16315
-  },
-  {
-    "type": 1,
-    "icao": "U14",
-    "lat": 39.74055115,
-    "lon": -111.86864553500001,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 5009,
-    "tower": false,
-    "name": "Nephi Muni",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 39.74698251,
-        "lonStart": -111.86866946,
-        "latEnd": 39.73411979,
-        "lonEnd": -111.86862161,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 18206
+    "id": 12233
   },
   {
     "type": 1,
@@ -125,6 +130,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 21930
+    "id": 12276
   }
 ]

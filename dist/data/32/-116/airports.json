@@ -41,13 +41,13 @@
         "length": 14.9
       }
     ],
-    "id": 1897
+    "id": 2456
   },
   {
     "type": 1,
     "icao": "KCXL",
-    "lat": 32.667429,
-    "lon": -115.51757950000001,
+    "lat": 32.667433595,
+    "lon": -115.517589755,
     "communications": [
       {
         "type": 51,
@@ -55,7 +55,7 @@
         "name": "CTAF/UNICOM"
       }
     ],
-    "elevation": 3,
+    "elevation": 2,
     "tower": false,
     "name": "CALEXICO INTL",
     "runways": [
@@ -65,15 +65,148 @@
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": 32.667561,
-        "lonStart": -115.525181,
-        "latEnd": 32.667297,
-        "lonEnd": -115.509978,
+        "latStart": 32.66756261,
+        "lonStart": -115.52520113,
+        "latEnd": 32.66730458,
+        "lonEnd": -115.50997838,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 3545
+    "id": 2536
+  },
+  {
+    "type": 1,
+    "icao": "KIPL",
+    "lat": 32.834066484999994,
+    "lon": -115.57908301999998,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13217,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "UNICOM/CTAF"
+      }
+    ],
+    "elevation": -54,
+    "tower": false,
+    "name": "Imperial County",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 32.84251403,
+        "lonStart": -115.57931545,
+        "latEnd": 32.82954726,
+        "lonEnd": -115.57138486,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 32.83209976,
+        "lonStart": -115.5901426,
+        "latEnd": 32.83210489,
+        "lonEnd": -115.57548917,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2827
+  },
+  {
+    "type": 1,
+    "icao": "L04",
+    "lat": 32.844975075,
+    "lon": -115.26863199499999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 59,
+    "tower": false,
+    "name": "HOLTVILLE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 62,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 32.84504956,
+        "lonStart": -115.27840865,
+        "latEnd": 32.84490059,
+        "lonEnd": -115.25885534,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 3424
+  },
+  {
+    "type": 1,
+    "icao": "6L1",
+    "lat": 32.67339277000001,
+    "lon": -115.55916278000001,
+    "communications": [],
+    "elevation": -1,
+    "tower": false,
+    "name": "Johnson Brothers",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 32.67416407,
+        "lonStart": -115.56313166,
+        "latEnd": 32.67262147,
+        "lonEnd": -115.5551939,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 9176
+  },
+  {
+    "type": 17,
+    "icao": "9CA2",
+    "lat": 32.95838027,
+    "lon": -115.55499112,
+    "communications": [],
+    "elevation": -100,
+    "tower": false,
+    "name": "[H] Pioneers Meml Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 32.95838027,
+        "lonStart": -115.55499112,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 10447
   },
   {
     "type": 1,
@@ -112,157 +245,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 6442
-  },
-  {
-    "type": 1,
-    "icao": "MMML",
-    "lat": 32.630667,
-    "lon": -115.24243899999999,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12760,
-        "name": "ATIS"
-      },
-      {
-        "type": 54,
-        "frequency": 12390,
-        "name": "MEXICALI INFO"
-      },
-      {
-        "type": 55,
-        "frequency": 11820,
-        "name": "MEXICALI APP/TWR"
-      }
-    ],
-    "elevation": 74,
-    "tower": true,
-    "name": "GENERAL RODOLFO SANCHEZ TABOADA INTL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 32.636217,
-        "lonStart": -115.254663,
-        "latEnd": 32.625117,
-        "lonEnd": -115.230215,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 9958
-  },
-  {
-    "type": 1,
-    "icao": "L04",
-    "lat": 32.840279,
-    "lon": -115.267494,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12300,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 59,
-    "tower": false,
-    "name": "HOLTVILLE",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 32.840558,
-        "lonStart": -115.277219,
-        "latEnd": 32.84,
-        "lonEnd": -115.257769,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 11173
-  },
-  {
-    "type": 1,
-    "icao": "KIPL",
-    "lat": 32.83406625,
-    "lon": -115.57906025,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13217,
-        "name": "ASOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12270,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": -54,
-    "tower": false,
-    "name": "IMPERIAL CO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 32.842506,
-        "lonStart": -115.579286,
-        "latEnd": 32.829553,
-        "lonEnd": -115.571367,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 32.8321,
-        "lonStart": -115.590119,
-        "latEnd": 32.832106,
-        "lonEnd": -115.575469,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 12287
-  },
-  {
-    "type": 1,
-    "icao": "6L1",
-    "lat": 32.67339277000001,
-    "lon": -115.55916278000001,
-    "communications": [],
-    "elevation": -1,
-    "tower": false,
-    "name": "Johnson Brothers",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 32.67416407,
-        "lonStart": -115.56313166,
-        "latEnd": 32.67262147,
-        "lonEnd": -115.5551939,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 13057
+    "id": 10587
   },
   {
     "type": 1,
@@ -317,7 +300,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 13433
+    "id": 19567
   },
   {
     "type": 1,
@@ -343,31 +326,48 @@
         "surfacetype": 4
       }
     ],
-    "id": 18573
+    "id": 19995
   },
   {
-    "type": 17,
-    "icao": "9CA2",
-    "lat": 32.95838027,
-    "lon": -115.55499112,
-    "communications": [],
-    "elevation": -100,
-    "tower": false,
-    "name": "[H] Pioneers Meml Hospital",
-    "runways": [
+    "type": 1,
+    "icao": "MMML",
+    "lat": 32.630667,
+    "lon": -115.24243899999999,
+    "communications": [
       {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 32.95838027,
-        "lonStart": -115.55499112,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
+        "type": 50,
+        "frequency": 12760,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 12390,
+        "name": "MEXICALI INFO"
+      },
+      {
+        "type": 55,
+        "frequency": 11820,
+        "name": "MEXICALI APP/TWR"
       }
     ],
-    "id": 32035
+    "elevation": 74,
+    "tower": true,
+    "name": "GENERAL RODOLFO SANCHEZ TABOADA INTL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.11,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 32.636217,
+        "lonStart": -115.254663,
+        "latEnd": 32.625117,
+        "lonEnd": -115.230215,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 21485
   }
 ]

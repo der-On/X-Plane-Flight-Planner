@@ -3,27 +3,32 @@
     "type": 1,
     "icao": "RCQC",
     "lat": 23.5686695,
-    "lon": 119.62831249999999,
+    "lon": 119.62831295,
     "communications": [
       {
         "type": 50,
-        "frequency": 12750,
-        "name": "ATIS"
+        "frequency": 12705,
+        "name": "MOGONG ATIS"
       },
       {
         "type": 53,
         "frequency": 12190,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12617,
-        "name": "TWR"
+        "name": "MAGONG GROUND"
       },
       {
         "type": 54,
         "frequency": 11830,
-        "name": "TWR"
+        "name": "MAGONG TOWER"
+      },
+      {
+        "type": 55,
+        "frequency": 12810,
+        "name": "KAOHSIUNG APPROACH"
+      },
+      {
+        "type": 55,
+        "frequency": 23480,
+        "name": "KAOHSIUNG APPROACH"
       }
     ],
     "elevation": 103,
@@ -36,26 +41,31 @@
         "surfaceType": null,
         "numberStart": "02",
         "numberEnd": "20",
-        "latStart": 23.555847,
-        "lonStart": 119.623744,
-        "latEnd": 23.581492,
-        "lonEnd": 119.632881,
+        "latStart": 23.55583761,
+        "lonStart": 119.62374066,
+        "latEnd": 23.58150139,
+        "lonEnd": 119.63288524,
         "length": 0,
         "surfacetype": 2
       }
     ],
-    "id": 15710
+    "id": 4425
   },
   {
     "type": 1,
     "icao": "RCWA",
-    "lat": 23.3692115,
-    "lon": 119.5036085,
+    "lat": 23.36881526666666,
+    "lon": 119.50333994333334,
     "communications": [
       {
         "type": 54,
         "frequency": 11810,
-        "name": "TWR"
+        "name": "WANG-AN TOWER"
+      },
+      {
+        "type": 50,
+        "frequency": 12150,
+        "name": "WANG-AN ATIS"
       }
     ],
     "elevation": 115,
@@ -68,14 +78,26 @@
         "surfaceType": null,
         "numberStart": "02",
         "numberEnd": "20",
-        "latStart": 23.365292,
-        "lonStart": 119.501989,
-        "latEnd": 23.373131,
-        "lonEnd": 119.505228,
+        "latStart": 23.36575322,
+        "lonStart": 119.50217957,
+        "latEnd": 23.37266978,
+        "lonEnd": 119.50503751,
         "length": 0,
         "surfacetype": 2
+      },
+      {
+        "type": 102,
+        "width": 28,
+        "surfaceType": 2,
+        "numberStart": "H16",
+        "numberEnd": null,
+        "latStart": 23.3680228,
+        "lonStart": 119.50280275,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 28
       }
     ],
-    "id": 26489
+    "id": 24350
   }
 ]

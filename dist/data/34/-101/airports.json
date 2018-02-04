@@ -1,69 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "KCDS",
-    "lat": 34.4320185,
-    "lon": -100.289306,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13512,
-        "name": "ASOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 1954,
-    "tower": false,
-    "name": "CHILDRESS MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 34.440264,
-        "lonStart": -100.285531,
-        "latEnd": 34.423925,
-        "lonEnd": -100.286172,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 34.431894,
-        "lonStart": -100.296228,
-        "latEnd": 34.440203,
-        "lonEnd": -100.285514,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 34.431897,
-        "lonStart": -100.296222,
-        "latEnd": 34.423928,
-        "lonEnd": -100.286169,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 3889
-  },
-  {
-    "type": 1,
     "icao": "3F6",
     "lat": 34.027643,
     "lon": -100.282007,
@@ -92,7 +29,91 @@
         "surfacetype": 1
       }
     ],
-    "id": 5666
+    "id": 7504
+  },
+  {
+    "type": 1,
+    "icao": "38F",
+    "lat": 34.02924555,
+    "lon": -100.06843945,
+    "communications": [],
+    "elevation": 1757,
+    "tower": false,
+    "name": "Triangle Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 34.03407772,
+        "lonStart": -100.07079519,
+        "latEnd": 34.02441338,
+        "lonEnd": -100.06608371,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12009
+  },
+  {
+    "type": 1,
+    "icao": "49XS",
+    "lat": 34.14174083,
+    "lon": -100.14371973,
+    "communications": [],
+    "elevation": 1751,
+    "tower": false,
+    "name": "Wilson",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 34.1376973,
+        "lonStart": -100.14530714,
+        "latEnd": 34.14578436,
+        "lonEnd": -100.14213232,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12467
+  },
+  {
+    "type": 1,
+    "icao": "E34",
+    "lat": 34.9114985,
+    "lon": -100.8693475,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 2833,
+    "tower": false,
+    "name": "SMILEY JOHNSON MUNI BASS FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 34.905672,
+        "lonStart": -100.871831,
+        "latEnd": 34.917325,
+        "lonEnd": -100.866864,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16092
   },
   {
     "type": 1,
@@ -150,7 +171,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 15821
+    "id": 16706
   },
   {
     "type": 1,
@@ -195,90 +216,69 @@
         "surfacetype": 3
       }
     ],
-    "id": 16021
+    "id": 16713
   },
   {
     "type": 1,
-    "icao": "E34",
-    "lat": 34.9114985,
-    "lon": -100.8693475,
+    "icao": "KCDS",
+    "lat": 34.4320185,
+    "lon": -100.289306,
     "communications": [
       {
+        "type": 50,
+        "frequency": 13512,
+        "name": "ASOS"
+      },
+      {
         "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
       }
     ],
-    "elevation": 2833,
+    "elevation": 1954,
     "tower": false,
-    "name": "SMILEY JOHNSON MUNI BASS FLD",
+    "name": "CHILDRESS MUNI",
     "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 34.440264,
+        "lonStart": -100.285531,
+        "latEnd": 34.423925,
+        "lonEnd": -100.286172,
+        "length": 0,
+        "surfacetype": 1
+      },
       {
         "type": 100,
         "width": 18.29,
         "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 34.905672,
-        "lonStart": -100.871831,
-        "latEnd": 34.917325,
-        "lonEnd": -100.866864,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 34.431894,
+        "lonStart": -100.296228,
+        "latEnd": 34.440203,
+        "lonEnd": -100.285514,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 34.431897,
+        "lonStart": -100.296222,
+        "latEnd": 34.423928,
+        "lonEnd": -100.286169,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 22344
-  },
-  {
-    "type": 1,
-    "icao": "38F",
-    "lat": 34.02924555,
-    "lon": -100.06843945,
-    "communications": [],
-    "elevation": 1757,
-    "tower": false,
-    "name": "Triangle Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 34.03407772,
-        "lonStart": -100.07079519,
-        "latEnd": 34.02441338,
-        "lonEnd": -100.06608371,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 25586
-  },
-  {
-    "type": 1,
-    "icao": "49XS",
-    "lat": 34.14174083,
-    "lon": -100.14371973,
-    "communications": [],
-    "elevation": 1751,
-    "tower": false,
-    "name": "Wilson",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 34.1376973,
-        "lonStart": -100.14530714,
-        "latEnd": 34.14578436,
-        "lonEnd": -100.14213232,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 27373
+    "id": 18931
   }
 ]

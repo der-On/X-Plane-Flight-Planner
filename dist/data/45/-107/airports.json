@@ -1,41 +1,9 @@
 [
   {
     "type": 1,
-    "icao": "M46",
-    "lat": 45.852850000000004,
-    "lon": -106.7092725,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 3425,
-    "tower": false,
-    "name": "Colstrip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 45.850986,
-        "lonStart": -106.718917,
-        "latEnd": 45.854714,
-        "lonEnd": -106.699628,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 5207
-  },
-  {
-    "type": 1,
     "icao": "3U4",
-    "lat": 45.5999975,
-    "lon": -106.2672195,
+    "lat": 45.606653185,
+    "lon": -106.27427343,
     "communications": [
       {
         "type": 51,
@@ -53,14 +21,56 @@
         "surfaceType": null,
         "numberStart": "13",
         "numberEnd": "31",
-        "latStart": 45.604392,
-        "lonStart": -106.271316,
-        "latEnd": 45.595603,
-        "lonEnd": -106.263123,
+        "latStart": 45.6109237,
+        "lonStart": -106.27851244,
+        "latEnd": 45.60238267,
+        "lonEnd": -106.27003442,
         "length": 0,
         "surfacetype": 5
       }
     ],
-    "id": 22471
+    "id": 135
+  },
+  {
+    "type": 1,
+    "icao": "M46",
+    "lat": 45.852855855,
+    "lon": -106.70928323999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF"
+      },
+      {
+        "type": 50,
+        "frequency": 12270,
+        "name": "AWOS"
+      },
+      {
+        "type": 55,
+        "frequency": 13242,
+        "name": "APP/DEP SL ARTCC"
+      }
+    ],
+    "elevation": 3424,
+    "tower": false,
+    "name": "Colstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 45.85099516,
+        "lonStart": -106.71892752,
+        "latEnd": 45.85471655,
+        "lonEnd": -106.69963896,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4080
   }
 ]

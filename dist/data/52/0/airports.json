@@ -1,55 +1,29 @@
 [
   {
     "type": 1,
-    "icao": "EG02",
-    "lat": 52.007517050000004,
-    "lon": 0.22409953500000002,
+    "icao": "EG65",
+    "lat": 52.86108378,
+    "lon": 0.9055152449999999,
     "communications": [],
-    "elevation": 283,
+    "elevation": 195,
     "tower": false,
-    "name": "Audley End",
+    "name": "Little Snoring",
     "runways": [
       {
         "type": 100,
-        "width": 34.14,
+        "width": 33.56,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 52.01086083,
-        "lonStart": 0.22440114,
-        "latEnd": 52.00417327,
-        "lonEnd": 0.22379793,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 52.85934077,
+        "lonStart": 0.89981861,
+        "latEnd": 52.86282679,
+        "lonEnd": 0.91121188,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 1320
-  },
-  {
-    "type": 1,
-    "icao": "EG13",
-    "lat": 52.93808112,
-    "lon": 0.77213442,
-    "communications": [],
-    "elevation": 49,
-    "tower": false,
-    "name": "Burnham",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 52.93810688,
-        "lonStart": 0.76797573,
-        "latEnd": 52.93805536,
-        "lonEnd": 0.77629311,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 3421
+    "id": 1488
   },
   {
     "type": 1,
@@ -78,7 +52,7 @@
         "name": "Cambridge Radar"
       }
     ],
-    "elevation": 46,
+    "elevation": 44,
     "tower": true,
     "name": "Cambridge",
     "runways": [
@@ -122,7 +96,104 @@
         "surfacetype": 3
       }
     ],
-    "id": 4375
+    "id": 1610
+  },
+  {
+    "type": 1,
+    "icao": "EGSU",
+    "lat": 52.0909532375,
+    "lon": 0.130577135,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12207,
+        "name": "Duxford Information"
+      }
+    ],
+    "elevation": 125,
+    "tower": true,
+    "name": "Duxford",
+    "runways": [
+      {
+        "type": 100,
+        "width": 31.3,
+        "surfaceType": null,
+        "numberStart": "06R",
+        "numberEnd": "24L",
+        "latStart": 52.0870697,
+        "lonStart": 0.12255371,
+        "latEnd": 52.09395725,
+        "lonEnd": 0.14046832,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "06L",
+        "numberEnd": "24R",
+        "latStart": 52.08929676,
+        "lonStart": 0.12418319,
+        "latEnd": 52.09348924,
+        "lonEnd": 0.13510332,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1619
+  },
+  {
+    "type": 1,
+    "icao": "EG02",
+    "lat": 52.007517050000004,
+    "lon": 0.22409953500000002,
+    "communications": [],
+    "elevation": 283,
+    "tower": false,
+    "name": "Audley End",
+    "runways": [
+      {
+        "type": 100,
+        "width": 34.14,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 52.01086083,
+        "lonStart": 0.22440114,
+        "latEnd": 52.00417327,
+        "lonEnd": 0.22379793,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16235
+  },
+  {
+    "type": 1,
+    "icao": "EG13",
+    "lat": 52.93808112,
+    "lon": 0.77213442,
+    "communications": [],
+    "elevation": 49,
+    "tower": false,
+    "name": "Burnham",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 52.93810688,
+        "lonStart": 0.76797573,
+        "latEnd": 52.93805536,
+        "lonEnd": 0.77629311,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16239
   },
   {
     "type": 1,
@@ -200,78 +271,72 @@
         "surfacetype": 3
       }
     ],
-    "id": 4842
+    "id": 16242
   },
   {
     "type": 1,
-    "icao": "EGSU",
-    "lat": 52.0909565475,
-    "lon": 0.1305743475,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12207,
-        "name": "Duxford Information"
-      }
-    ],
-    "elevation": 125,
-    "tower": true,
-    "name": "Duxford",
+    "icao": "EG95",
+    "lat": 52.386216712499994,
+    "lon": 0.0615947325,
+    "communications": [],
+    "elevation": 8,
+    "tower": false,
+    "name": "Sutton Meadows",
     "runways": [
       {
         "type": 100,
-        "width": 46.94,
+        "width": 17.98,
         "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 52.087075,
-        "lonStart": 0.122544,
-        "latEnd": 52.09396519,
-        "lonEnd": 0.14046688,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 52.38420445,
+        "lonStart": 0.06199714,
+        "latEnd": 52.38882668,
+        "lonEnd": 0.06311154,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       },
       {
         "type": 100,
-        "width": 24.99,
+        "width": 17.98,
         "surfaceType": null,
-        "numberStart": "06L",
-        "numberEnd": "24R",
-        "latStart": 52.08929676,
-        "lonStart": 0.12418319,
-        "latEnd": 52.09348924,
-        "lonEnd": 0.13510332,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 52.38625502,
+        "lonStart": 0.05743812,
+        "latEnd": 52.3855807,
+        "lonEnd": 0.06383213,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 6590
+    "id": 16286
   },
   {
     "type": 1,
-    "icao": "EGST",
-    "lat": 52.075531275,
-    "lon": 0.9778670199999999,
+    "icao": "EG96",
+    "lat": 52.734769385,
+    "lon": 0.9622399500000001,
     "communications": [],
-    "elevation": 226,
+    "elevation": 155,
     "tower": false,
-    "name": "Elmsett",
+    "name": "Swanton Morley",
     "runways": [
       {
         "type": 100,
-        "width": 25.91,
+        "width": 35.97,
         "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 52.07283185,
-        "lonStart": 0.97309678,
-        "latEnd": 52.0782307,
-        "lonEnd": 0.98263726,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 52.73484838,
+        "lonStart": 0.95817226,
+        "latEnd": 52.73469039,
+        "lonEnd": 0.96630764,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 7134
+    "id": 16287
   },
   {
     "type": 1,
@@ -297,33 +362,59 @@
         "surfacetype": 3
       }
     ],
-    "id": 9640
+    "id": 16343
   },
   {
     "type": 1,
-    "icao": "EG65",
-    "lat": 52.86108378,
-    "lon": 0.9055152449999999,
+    "icao": "EGSA",
+    "lat": 52.629353795,
+    "lon": 0.92796384,
     "communications": [],
-    "elevation": 195,
+    "elevation": 209,
     "tower": false,
-    "name": "Little Snoring",
+    "name": "Shipdham",
     "runways": [
       {
         "type": 100,
-        "width": 33.56,
+        "width": 17.98,
         "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 52.85934077,
-        "lonStart": 0.89981861,
-        "latEnd": 52.86282679,
-        "lonEnd": 0.91121188,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 52.62572919,
+        "lonStart": 0.92593892,
+        "latEnd": 52.6329784,
+        "lonEnd": 0.92998876,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16364
+  },
+  {
+    "type": 1,
+    "icao": "EGST",
+    "lat": 52.075531275,
+    "lon": 0.9778670199999999,
+    "communications": [],
+    "elevation": 226,
+    "tower": false,
+    "name": "Elmsett",
+    "runways": [
+      {
+        "type": 100,
+        "width": 25.91,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 52.07283185,
+        "lonStart": 0.97309678,
+        "latEnd": 52.0782307,
+        "lonEnd": 0.98263726,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 15351
+    "id": 16373
   },
   {
     "type": 1,
@@ -349,49 +440,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 18285
-  },
-  {
-    "type": 1,
-    "icao": "EGXH",
-    "lat": 52.34282,
-    "lon": 0.7730090000000001,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12210,
-        "name": "Honington Tower"
-      },
-      {
-        "type": 55,
-        "frequency": 12890,
-        "name": "Lakenheath Radar"
-      },
-      {
-        "type": 55,
-        "frequency": 12330,
-        "name": "Honington Approach"
-      }
-    ],
-    "elevation": 174,
-    "tower": true,
-    "name": "RAF Honington",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 52.34095361,
-        "lonStart": 0.7531144,
-        "latEnd": 52.34468639,
-        "lonEnd": 0.7929036,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 20774
+    "id": 16374
   },
   {
     "type": 1,
@@ -433,7 +482,128 @@
         "surfacetype": 1
       }
     ],
-    "id": 20777
+    "id": 16384
+  },
+  {
+    "type": 1,
+    "icao": "EGUN",
+    "lat": 52.361943135000004,
+    "lon": 0.48635346,
+    "communications": [
+      {
+        "type": 53,
+        "frequency": 12167,
+        "name": "Mildenhall Ground"
+      },
+      {
+        "type": 54,
+        "frequency": 12255,
+        "name": "Mildenhall Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 13650,
+        "name": "Lakenheath Approach"
+      }
+    ],
+    "elevation": 33,
+    "tower": true,
+    "name": "RAF Mildenhall",
+    "runways": [
+      {
+        "type": 100,
+        "width": 42.06,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 52.36547299,
+        "lonStart": 0.46188151,
+        "latEnd": 52.35841328,
+        "lonEnd": 0.51082541,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16385
+  },
+  {
+    "type": 1,
+    "icao": "EGUW",
+    "lat": 52.127023775,
+    "lon": 0.955427765,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "Wattisham Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12330,
+        "name": "Wattisham Approach"
+      }
+    ],
+    "elevation": 284,
+    "tower": true,
+    "name": "RAF Wattisham",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 52.11973655,
+        "lonStart": 0.94232453,
+        "latEnd": 52.134311,
+        "lonEnd": 0.968531,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16387
+  },
+  {
+    "type": 1,
+    "icao": "EGXH",
+    "lat": 52.34282,
+    "lon": 0.7730090000000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "Honington Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12890,
+        "name": "Lakenheath Radar"
+      },
+      {
+        "type": 55,
+        "frequency": 12330,
+        "name": "Honington Approach"
+      }
+    ],
+    "elevation": 174,
+    "tower": true,
+    "name": "RAF Honington",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 52.34095361,
+        "lonStart": 0.7531144,
+        "latEnd": 52.34468639,
+        "lonEnd": 0.7929036,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16404
   },
   {
     "type": 1,
@@ -483,176 +653,6 @@
         "surfacetype": 2
       }
     ],
-    "id": 20783
-  },
-  {
-    "type": 1,
-    "icao": "EGUN",
-    "lat": 52.361943135000004,
-    "lon": 0.48635346,
-    "communications": [
-      {
-        "type": 53,
-        "frequency": 12167,
-        "name": "Mildenhall Ground"
-      },
-      {
-        "type": 54,
-        "frequency": 12255,
-        "name": "Mildenhall Tower"
-      },
-      {
-        "type": 55,
-        "frequency": 13650,
-        "name": "Lakenheath Approach"
-      }
-    ],
-    "elevation": 33,
-    "tower": true,
-    "name": "RAF Mildenhall",
-    "runways": [
-      {
-        "type": 100,
-        "width": 42.06,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 52.36547299,
-        "lonStart": 0.46188151,
-        "latEnd": 52.35841328,
-        "lonEnd": 0.51082541,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 20784
-  },
-  {
-    "type": 1,
-    "icao": "EGUW",
-    "lat": 52.127023775,
-    "lon": 0.955427765,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12210,
-        "name": "Wattisham Tower"
-      },
-      {
-        "type": 55,
-        "frequency": 12330,
-        "name": "Wattisham Approach"
-      }
-    ],
-    "elevation": 284,
-    "tower": true,
-    "name": "RAF Wattisham",
-    "runways": [
-      {
-        "type": 100,
-        "width": 46.02,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 52.11973655,
-        "lonStart": 0.94232453,
-        "latEnd": 52.134311,
-        "lonEnd": 0.968531,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 20794
-  },
-  {
-    "type": 1,
-    "icao": "EGSA",
-    "lat": 52.629353795,
-    "lon": 0.92796384,
-    "communications": [],
-    "elevation": 210,
-    "tower": false,
-    "name": "Shipdham",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 52.62572919,
-        "lonStart": 0.92593892,
-        "latEnd": 52.6329784,
-        "lonEnd": 0.92998876,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 23427
-  },
-  {
-    "type": 1,
-    "icao": "EG95",
-    "lat": 52.386216712499994,
-    "lon": 0.0615947325,
-    "communications": [],
-    "elevation": 8,
-    "tower": false,
-    "name": "Sutton Meadows",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 52.38420445,
-        "lonStart": 0.06199714,
-        "latEnd": 52.38882668,
-        "lonEnd": 0.06311154,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 52.38625502,
-        "lonStart": 0.05743812,
-        "latEnd": 52.3855807,
-        "lonEnd": 0.06383213,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 24433
-  },
-  {
-    "type": 1,
-    "icao": "EG96",
-    "lat": 52.734769385,
-    "lon": 0.9622399500000001,
-    "communications": [],
-    "elevation": 155,
-    "tower": false,
-    "name": "Swanton Morley",
-    "runways": [
-      {
-        "type": 100,
-        "width": 35.97,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 52.73484838,
-        "lonStart": 0.95817226,
-        "latEnd": 52.73469039,
-        "lonEnd": 0.96630764,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 24473
+    "id": 16416
   }
 ]

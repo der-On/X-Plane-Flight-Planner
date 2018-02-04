@@ -2,33 +2,28 @@
   {
     "type": 1,
     "icao": "URMT",
-    "lat": 45.109257,
-    "lon": 42.1128265,
+    "lat": 45.109251315,
+    "lon": 42.11267506,
     "communications": [
       {
         "type": 54,
         "frequency": 12090,
-        "name": "STAVROPOL TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12400,
-        "name": "STAVROPOL TWR"
+        "name": "Tower/Ground"
       },
       {
         "type": 55,
         "frequency": 12030,
-        "name": "STAVROPOL APP"
+        "name": "Approach Control/Radar"
       },
       {
-        "type": 55,
+        "type": 51,
         "frequency": 12400,
-        "name": "STAVROPOL APP"
+        "name": "Secondary Frequency"
       }
     ],
-    "elevation": 1486,
+    "elevation": 1485,
     "tower": true,
-    "name": "SHPAKOVSKOYE",
+    "name": "Shpakovskoye Stavropol",
     "runways": [
       {
         "type": 100,
@@ -36,14 +31,14 @@
         "surfaceType": null,
         "numberStart": "07",
         "numberEnd": "25",
-        "latStart": 45.106414,
-        "lonStart": 42.096572,
-        "latEnd": 45.1121,
-        "lonEnd": 42.129081,
+        "latStart": 45.10634369,
+        "lonStart": 42.09662661,
+        "latEnd": 45.11215894,
+        "lonEnd": 42.12872351,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 22243
+    "id": 30484
   }
 ]

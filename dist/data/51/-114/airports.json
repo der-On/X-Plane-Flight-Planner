@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "CEF4",
-    "lat": 51.26230975,
-    "lon": -113.93598937499999,
+    "lat": 51.263843390000005,
+    "lon": -113.934492465,
     "communications": [
       {
         "type": 51,
@@ -11,7 +11,7 @@
         "name": "CTAF UNIC"
       }
     ],
-    "elevation": 3647,
+    "elevation": 3646,
     "tower": false,
     "name": "AIRDRIE",
     "runways": [
@@ -21,54 +21,47 @@
         "surfaceType": null,
         "numberStart": "12",
         "numberEnd": "30",
-        "latStart": 51.268875,
-        "lonStart": -113.941883,
-        "latEnd": 51.258767,
-        "lonEnd": -113.927144,
+        "latStart": 51.26890757,
+        "lonStart": -113.94183876,
+        "latEnd": 51.25877921,
+        "lonEnd": -113.92714617,
         "length": 0,
         "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 51.265836,
-        "lonStart": -113.94055,
-        "latEnd": 51.261944,
-        "lonEnd": -113.929169,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 51.265556,
-        "lonStart": -113.94,
-        "latEnd": 51.257778,
-        "lonEnd": -113.94,
-        "length": 0,
-        "surfacetype": 5
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 51.257778,
-        "lonStart": -113.94,
-        "latEnd": 51.261944,
-        "lonEnd": -113.929169,
-        "length": 0,
-        "surfacetype": 5
       }
     ],
-    "id": 113
+    "id": 659
+  },
+  {
+    "type": 1,
+    "icao": "EN3",
+    "lat": 51.69641444,
+    "lon": -113.209449485,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12320,
+        "name": "Traffic"
+      }
+    ],
+    "elevation": 2975,
+    "tower": false,
+    "name": "Three Hills",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 51.69913566,
+        "lonStart": -113.21442753,
+        "latEnd": 51.69369322,
+        "lonEnd": -113.20447144,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1729
   },
   {
     "type": 1,
@@ -107,33 +100,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 548
-  },
-  {
-    "type": 1,
-    "icao": "FV2",
-    "lat": 51.38929,
-    "lon": -113.46981,
-    "communications": [],
-    "elevation": 3036,
-    "tower": false,
-    "name": "Beiseker",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 51.3933359,
-        "lonStart": -113.46981,
-        "latEnd": 51.3852441,
-        "lonEnd": -113.46981,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 2468
+    "id": 16234
   },
   {
     "type": 1,
@@ -159,7 +126,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 4851
+    "id": 17214
+  },
+  {
+    "type": 1,
+    "icao": "FV2",
+    "lat": 51.38929,
+    "lon": -113.46981,
+    "communications": [],
+    "elevation": 3036,
+    "tower": false,
+    "name": "Beiseker",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 51.3933359,
+        "lonStart": -113.46981,
+        "latEnd": 51.3852441,
+        "lonEnd": -113.46981,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17241
   },
   {
     "type": 1,
@@ -185,38 +178,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 24266
-  },
-  {
-    "type": 1,
-    "icao": "EN3",
-    "lat": 51.696416835,
-    "lon": -113.209446425,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12320,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 2975,
-    "tower": false,
-    "name": "Three Hills",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 51.69913823,
-        "lonStart": -113.21442479,
-        "latEnd": 51.69369544,
-        "lonEnd": -113.20446806,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 25316
+    "id": 17623
   }
 ]

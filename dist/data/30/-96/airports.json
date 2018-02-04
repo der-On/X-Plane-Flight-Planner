@@ -1,58 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "06TE",
-    "lat": 30.3127085,
-    "lon": -95.026875,
-    "communications": [],
-    "elevation": 128,
-    "tower": false,
-    "name": "AINSWORTH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 30.312344,
-        "lonStart": -95.030814,
-        "latEnd": 30.313073,
-        "lonEnd": -95.022936,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 107
-  },
-  {
-    "type": 1,
-    "icao": "TX49",
-    "lat": 30.11827222,
-    "lon": -95.85995167,
-    "communications": [],
-    "elevation": 250,
-    "tower": false,
-    "name": "Biggin Hill",
-    "runways": [
-      {
-        "type": 100,
-        "width": 33.53,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 30.12278711,
-        "lonStart": -95.86031666,
-        "latEnd": 30.11375733,
-        "lonEnd": -95.85958668,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 2716
-  },
-  {
-    "type": 1,
     "icao": "6R3",
     "lat": 30.356436,
     "lon": -95.00802250000001,
@@ -68,7 +16,7 @@
         "name": "HOUSTON APP/DEP"
       }
     ],
-    "elevation": 149,
+    "elevation": 148,
     "tower": false,
     "name": "CLEVELAND MUNI",
     "runways": [
@@ -86,7 +34,134 @@
         "surfacetype": 1
       }
     ],
-    "id": 3980
+    "id": 224
+  },
+  {
+    "type": 1,
+    "icao": "9X1",
+    "lat": 30.15305698,
+    "lon": -95.32216932,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 125,
+    "tower": false,
+    "name": "North Houston",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.02,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 30.1579964,
+        "lonStart": -95.3221095,
+        "latEnd": 30.14811756,
+        "lonEnd": -95.32222914,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 326
+  },
+  {
+    "type": 1,
+    "icao": "KUTS",
+    "lat": 30.74728262,
+    "lon": -95.58752698,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11942,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 362,
+    "tower": false,
+    "name": "Huntsville Muni",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 30.75414048,
+        "lonStart": -95.58671995,
+        "latEnd": 30.74042476,
+        "lonEnd": -95.58833401,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3373
+  },
+  {
+    "type": 1,
+    "icao": "00R",
+    "lat": 30.685858500000002,
+    "lon": -95.017932,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 151,
+    "tower": false,
+    "name": "LIVINGSTON MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 30.689167,
+        "lonStart": -95.022403,
+        "latEnd": 30.68255,
+        "lonEnd": -95.013461,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 6132
+  },
+  {
+    "type": 1,
+    "icao": "0T5",
+    "lat": 30.44187166,
+    "lon": -95.18632584,
+    "communications": [],
+    "elevation": 230,
+    "tower": false,
+    "name": "Lake Bay Gall",
+    "runways": [
+      {
+        "type": 100,
+        "width": 54.86,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 30.43941749,
+        "lonStart": -95.19054608,
+        "latEnd": 30.44432583,
+        "lonEnd": -95.1821056,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6154
   },
   {
     "type": 1,
@@ -112,18 +187,427 @@
         "surfacetype": 3
       }
     ],
-    "id": 5613
+    "id": 6723
+  },
+  {
+    "type": 17,
+    "icao": "3TS6",
+    "lat": 30.34520861,
+    "lon": -95.47771862,
+    "communications": [],
+    "elevation": 250,
+    "tower": false,
+    "name": "[H] Lawrence Administrative Services Inc",
+    "runways": [
+      {
+        "type": 102,
+        "width": 7.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 30.34520861,
+        "lonStart": -95.47771862,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 7.3
+      }
+    ],
+    "id": 7888
   },
   {
     "type": 1,
-    "icao": "T51",
-    "lat": 30.042771000000002,
-    "lon": -95.6672155,
+    "icao": "3XS8",
+    "lat": 30.1308335,
+    "lon": -95.9002765,
+    "communications": [],
+    "elevation": 250,
+    "tower": false,
+    "name": "KEN ADA RANCH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 30.135,
+        "lonStart": -95.905,
+        "latEnd": 30.126667,
+        "lonEnd": -95.895553,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 7954
+  },
+  {
+    "type": 17,
+    "icao": "4XS4",
+    "lat": 30.02361111,
+    "lon": -95.47222223,
+    "communications": [],
+    "elevation": 103,
+    "tower": false,
+    "name": "[H] Ponderosa Lakes",
+    "runways": [
+      {
+        "type": 102,
+        "width": 4.6,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 30.02361111,
+        "lonStart": -95.47222223,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 4.6
+      }
+    ],
+    "id": 8461
+  },
+  {
+    "type": 1,
+    "icao": "06TE",
+    "lat": 30.3127085,
+    "lon": -95.026875,
+    "communications": [],
+    "elevation": 128,
+    "tower": false,
+    "name": "AINSWORTH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 30.312344,
+        "lonStart": -95.030814,
+        "latEnd": 30.313073,
+        "lonEnd": -95.022936,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 9399
+  },
+  {
+    "type": 1,
+    "icao": "7TA0",
+    "lat": 30.09216222,
+    "lon": -95.65161139,
+    "communications": [],
+    "elevation": 198,
+    "tower": false,
+    "name": "Fields Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 30.09516297,
+        "lonStart": -95.65124687,
+        "latEnd": 30.08916147,
+        "lonEnd": -95.65197591,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9872
+  },
+  {
+    "type": 17,
+    "icao": "7TS6",
+    "lat": 30.03299777,
+    "lon": -95.50132889,
+    "communications": [],
+    "elevation": 149,
+    "tower": false,
+    "name": "[H] Strack Farms",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 30.03299777,
+        "lonStart": -95.50132889,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 9904
+  },
+  {
+    "type": 17,
+    "icao": "8TX4",
+    "lat": 30.3757625,
+    "lon": -95.55744306,
+    "communications": [],
+    "elevation": 203,
+    "tower": false,
+    "name": "[H] Sartor",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 30.3757625,
+        "lonStart": -95.55744306,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 10363
+  },
+  {
+    "type": 1,
+    "icao": "9TS3",
+    "lat": 30.148272,
+    "lon": -95.96690000000001,
+    "communications": [],
+    "elevation": 310,
+    "tower": false,
+    "name": "SIMARON RANCH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 7.62,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 30.152333,
+        "lonStart": -95.967725,
+        "latEnd": 30.144211,
+        "lonEnd": -95.966075,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10795
+  },
+  {
+    "type": 17,
+    "icao": "26TS",
+    "lat": 30.17604833,
+    "lon": -95.45660584,
+    "communications": [],
+    "elevation": 148,
+    "tower": false,
+    "name": "[H] Memorial Hospital-The Woodlands",
+    "runways": [
+      {
+        "type": 102,
+        "width": 22.9,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 30.17604833,
+        "lonStart": -95.45660584,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 22.9
+      }
+    ],
+    "id": 11572
+  },
+  {
+    "type": 1,
+    "icao": "33TA",
+    "lat": 30.33298611,
+    "lon": -95.61216639,
+    "communications": [],
+    "elevation": 301,
+    "tower": false,
+    "name": "Lake Bonanza",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 30.3365132,
+        "lonStart": -95.61245215,
+        "latEnd": 30.32945902,
+        "lonEnd": -95.61188063,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11835
+  },
+  {
+    "type": 17,
+    "icao": "40TX",
+    "lat": 30.32187666,
+    "lon": -95.16160084,
+    "communications": [],
+    "elevation": 163,
+    "tower": false,
+    "name": "[H] TGP 25",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.4,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 30.32187666,
+        "lonStart": -95.16160084,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.4
+      }
+    ],
+    "id": 12116
+  },
+  {
+    "type": 1,
+    "icao": "51R",
+    "lat": 30.912836,
+    "lon": -95.951993,
     "communications": [
       {
         "type": 51,
-        "frequency": 12280,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 287,
+    "tower": false,
+    "name": "MADISONVILLE MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 30.917169,
+        "lonStart": -95.9511,
+        "latEnd": 30.908503,
+        "lonEnd": -95.952886,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12540
+  },
+  {
+    "type": 17,
+    "icao": "55TA",
+    "lat": 30.28493333,
+    "lon": -95.46771778,
+    "communications": [],
+    "elevation": 162,
+    "tower": false,
+    "name": "[H] Montgomery County Medical Center Hospi",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 30.28493333,
+        "lonStart": -95.46771778,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 12701
+  },
+  {
+    "type": 1,
+    "icao": "89TA",
+    "lat": 30.19271388,
+    "lon": -95.96328889,
+    "communications": [],
+    "elevation": 308,
+    "tower": false,
+    "name": "Soaring Club of Houston",
+    "runways": [
+      {
+        "type": 100,
+        "width": 152.4,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 30.19708595,
+        "lonStart": -95.96373143,
+        "latEnd": 30.18834181,
+        "lonEnd": -95.96284635,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14006
+  },
+  {
+    "type": 1,
+    "icao": "97TS",
+    "lat": 30.48020277,
+    "lon": -95.53994334000001,
+    "communications": [],
+    "elevation": 300,
+    "tower": false,
+    "name": "Gdap Air Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 30.48333507,
+        "lonStart": -95.54156156,
+        "latEnd": 30.47707047,
+        "lonEnd": -95.53832512,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14279
+  },
+  {
+    "type": 1,
+    "icao": "KCXO",
+    "lat": 30.3531740675,
+    "lon": -95.4154349425,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11832,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12412,
         "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 11955,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 54,
+        "frequency": 12412,
+        "name": "LONE STAR TOWER"
+      },
+      {
+        "type": 53,
+        "frequency": 12045,
+        "name": "GROUND"
       },
       {
         "type": 55,
@@ -131,25 +615,38 @@
         "name": "HOUSTON APP/DEP"
       }
     ],
-    "elevation": 166,
+    "elevation": 245,
     "tower": false,
-    "name": "DAN JONES INTL",
+    "name": "Lone Star Executive",
     "runways": [
       {
         "type": 100,
-        "width": 15.24,
+        "width": 45.72,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 30.0475,
-        "lonStart": -95.667267,
-        "latEnd": 30.038042,
-        "lonEnd": -95.667164,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 30.3627,
+        "lonStart": -95.42045,
+        "latEnd": 30.345708,
+        "lonEnd": -95.406975,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 30.34558705,
+        "lonStart": -95.41948784,
+        "latEnd": 30.35870122,
+        "lonEnd": -95.41482693,
+        "length": 0,
+        "surfacetype": 2
       }
     ],
-    "id": 5667
+    "id": 19012
   },
   {
     "type": 1,
@@ -289,237 +786,18 @@
         "length": 14.94
       }
     ],
-    "id": 6036
+    "id": 19057
   },
   {
     "type": 1,
-    "icao": "7TA0",
-    "lat": 30.09216222,
-    "lon": -95.65161139,
-    "communications": [],
-    "elevation": 198,
-    "tower": false,
-    "name": "Fields Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 30.09516297,
-        "lonStart": -95.65124687,
-        "latEnd": 30.08916147,
-        "lonEnd": -95.65197591,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9272
-  },
-  {
-    "type": 1,
-    "icao": "97TS",
-    "lat": 30.48020277,
-    "lon": -95.53994334000001,
-    "communications": [],
-    "elevation": 300,
-    "tower": false,
-    "name": "Gdap Air Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 30.48333507,
-        "lonStart": -95.54156156,
-        "latEnd": 30.47707047,
-        "lonEnd": -95.53832512,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 10362
-  },
-  {
-    "type": 1,
-    "icao": "KUTS",
-    "lat": 30.7468835,
-    "lon": -95.587154,
+    "icao": "T51",
+    "lat": 30.042771000000002,
+    "lon": -95.6672155,
     "communications": [
-      {
-        "type": 50,
-        "frequency": 11942,
-        "name": "ASOS"
-      },
       {
         "type": 51,
         "frequency": 12280,
         "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 363,
-    "tower": false,
-    "name": "Huntsville Muni",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 30.753731,
-        "lonStart": -95.58635,
-        "latEnd": 30.740036,
-        "lonEnd": -95.587958,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 12214
-  },
-  {
-    "type": 1,
-    "icao": "3XS8",
-    "lat": 30.1308335,
-    "lon": -95.9002765,
-    "communications": [],
-    "elevation": 250,
-    "tower": false,
-    "name": "KEN ADA RANCH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 30.135,
-        "lonStart": -95.905,
-        "latEnd": 30.126667,
-        "lonEnd": -95.895553,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 13300
-  },
-  {
-    "type": 1,
-    "icao": "00R",
-    "lat": 30.685858500000002,
-    "lon": -95.017932,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12270,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 151,
-    "tower": false,
-    "name": "LIVINGSTON MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 30.689167,
-        "lonStart": -95.022403,
-        "latEnd": 30.68255,
-        "lonEnd": -95.013461,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 14566
-  },
-  {
-    "type": 1,
-    "icao": "0T5",
-    "lat": 30.44187166,
-    "lon": -95.18632584,
-    "communications": [],
-    "elevation": 230,
-    "tower": false,
-    "name": "Lake Bay Gall",
-    "runways": [
-      {
-        "type": 100,
-        "width": 54.86,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 30.43941749,
-        "lonStart": -95.19054608,
-        "latEnd": 30.44432583,
-        "lonEnd": -95.1821056,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 14811
-  },
-  {
-    "type": 1,
-    "icao": "33TA",
-    "lat": 30.33298611,
-    "lon": -95.61216639,
-    "communications": [],
-    "elevation": 301,
-    "tower": false,
-    "name": "Lake Bonanza",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 30.3365132,
-        "lonStart": -95.61245215,
-        "latEnd": 30.32945902,
-        "lonEnd": -95.61188063,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 14813
-  },
-  {
-    "type": 1,
-    "icao": "KCXO",
-    "lat": 30.3523240675,
-    "lon": -95.4147606925,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11832,
-        "name": "ASOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12412,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 52,
-        "frequency": 11955,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 54,
-        "frequency": 12412,
-        "name": "LONE STAR TOWER"
-      },
-      {
-        "type": 53,
-        "frequency": 12045,
-        "name": "GROUND"
       },
       {
         "type": 55,
@@ -527,179 +805,25 @@
         "name": "HOUSTON APP/DEP"
       }
     ],
-    "elevation": 245,
+    "elevation": 166,
     "tower": false,
-    "name": "Lone Star Executive",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 30.3593,
-        "lonStart": -95.417753,
-        "latEnd": 30.345708,
-        "lonEnd": -95.406975,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 30.34558705,
-        "lonStart": -95.41948784,
-        "latEnd": 30.35870122,
-        "lonEnd": -95.41482693,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 15435
-  },
-  {
-    "type": 1,
-    "icao": "51R",
-    "lat": 30.912836,
-    "lon": -95.951993,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 287,
-    "tower": false,
-    "name": "MADISONVILLE MUNI",
+    "name": "DAN JONES INTL",
     "runways": [
       {
         "type": 100,
         "width": 15.24,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 30.917169,
-        "lonStart": -95.9511,
-        "latEnd": 30.908503,
-        "lonEnd": -95.952886,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 30.0475,
+        "lonStart": -95.667267,
+        "latEnd": 30.038042,
+        "lonEnd": -95.667164,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 15700
-  },
-  {
-    "type": 1,
-    "icao": "9TS3",
-    "lat": 30.148272,
-    "lon": -95.96690000000001,
-    "communications": [],
-    "elevation": 310,
-    "tower": false,
-    "name": "SIMARON RANCH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 7.62,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 30.152333,
-        "lonStart": -95.967725,
-        "latEnd": 30.144211,
-        "lonEnd": -95.966075,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22292
-  },
-  {
-    "type": 1,
-    "icao": "89TA",
-    "lat": 30.19271388,
-    "lon": -95.96328889,
-    "communications": [],
-    "elevation": 308,
-    "tower": false,
-    "name": "Soaring Club of Houston",
-    "runways": [
-      {
-        "type": 100,
-        "width": 152.4,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 30.19708595,
-        "lonStart": -95.96373143,
-        "latEnd": 30.18834181,
-        "lonEnd": -95.96284635,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23789
-  },
-  {
-    "type": 1,
-    "icao": "9X1",
-    "lat": 30.153375,
-    "lon": -95.321989,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 122,
-    "tower": false,
-    "name": "WILLIAMS",
-    "runways": [
-      {
-        "type": 100,
-        "width": 14.02,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 30.158289,
-        "lonStart": -95.322579,
-        "latEnd": 30.148461,
-        "lonEnd": -95.321399,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 26661
-  },
-  {
-    "type": 17,
-    "icao": "TA96",
-    "lat": 30.09521777,
-    "lon": -95.54494139,
-    "communications": [],
-    "elevation": 148,
-    "tower": false,
-    "name": "[H] Helicopter Express",
-    "runways": [
-      {
-        "type": 102,
-        "width": 36.6,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 30.09521777,
-        "lonStart": -95.54494139,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 121.9
-      }
-    ],
-    "id": 30185
+    "id": 29699
   },
   {
     "type": 17,
@@ -724,7 +848,32 @@
         "length": 24.4
       }
     ],
-    "id": 30389
+    "id": 29813
+  },
+  {
+    "type": 17,
+    "icao": "TA96",
+    "lat": 30.09521777,
+    "lon": -95.54494139,
+    "communications": [],
+    "elevation": 148,
+    "tower": false,
+    "name": "[H] Helicopter Express",
+    "runways": [
+      {
+        "type": 102,
+        "width": 36.6,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 30.09521777,
+        "lonStart": -95.54494139,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 121.9
+      }
+    ],
+    "id": 29814
   },
   {
     "type": 17,
@@ -749,57 +898,7 @@
         "length": 10.7
       }
     ],
-    "id": 30433
-  },
-  {
-    "type": 17,
-    "icao": "3TS6",
-    "lat": 30.34520861,
-    "lon": -95.47771862,
-    "communications": [],
-    "elevation": 250,
-    "tower": false,
-    "name": "[H] Lawrence Administrative Services Inc",
-    "runways": [
-      {
-        "type": 102,
-        "width": 7.3,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 30.34520861,
-        "lonStart": -95.47771862,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 7.3
-      }
-    ],
-    "id": 30850
-  },
-  {
-    "type": 17,
-    "icao": "26TS",
-    "lat": 30.17604833,
-    "lon": -95.45660584,
-    "communications": [],
-    "elevation": 148,
-    "tower": false,
-    "name": "[H] Memorial Hospital-The Woodlands",
-    "runways": [
-      {
-        "type": 102,
-        "width": 22.9,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 30.17604833,
-        "lonStart": -95.45660584,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 22.9
-      }
-    ],
-    "id": 31251
+    "id": 29825
   },
   {
     "type": 17,
@@ -824,132 +923,7 @@
         "length": 15.2
       }
     ],
-    "id": 31431
-  },
-  {
-    "type": 17,
-    "icao": "55TA",
-    "lat": 30.28493333,
-    "lon": -95.46771778,
-    "communications": [],
-    "elevation": 162,
-    "tower": false,
-    "name": "[H] Montgomery County Medical Center Hospi",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 30.28493333,
-        "lonStart": -95.46771778,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 31432
-  },
-  {
-    "type": 17,
-    "icao": "4XS4",
-    "lat": 30.02361111,
-    "lon": -95.47222223,
-    "communications": [],
-    "elevation": 103,
-    "tower": false,
-    "name": "[H] Ponderosa Lakes",
-    "runways": [
-      {
-        "type": 102,
-        "width": 4.6,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 30.02361111,
-        "lonStart": -95.47222223,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 4.6
-      }
-    ],
-    "id": 32101
-  },
-  {
-    "type": 17,
-    "icao": "8TX4",
-    "lat": 30.3757625,
-    "lon": -95.55744306,
-    "communications": [],
-    "elevation": 203,
-    "tower": false,
-    "name": "[H] Sartor",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 30.3757625,
-        "lonStart": -95.55744306,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 32575
-  },
-  {
-    "type": 17,
-    "icao": "7TS6",
-    "lat": 30.03299777,
-    "lon": -95.50132889,
-    "communications": [],
-    "elevation": 149,
-    "tower": false,
-    "name": "[H] Strack Farms",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 30.03299777,
-        "lonStart": -95.50132889,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 33103
-  },
-  {
-    "type": 17,
-    "icao": "40TX",
-    "lat": 30.32187666,
-    "lon": -95.16160084,
-    "communications": [],
-    "elevation": 163,
-    "tower": false,
-    "name": "[H] TGP 25",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.4,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 30.32187666,
-        "lonStart": -95.16160084,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.4
-      }
-    ],
-    "id": 33175
+    "id": 29858
   },
   {
     "type": 17,
@@ -974,6 +948,32 @@
         "length": 15.2
       }
     ],
-    "id": 33347
+    "id": 30031
+  },
+  {
+    "type": 1,
+    "icao": "TX49",
+    "lat": 30.11827222,
+    "lon": -95.85995167,
+    "communications": [],
+    "elevation": 250,
+    "tower": false,
+    "name": "Biggin Hill",
+    "runways": [
+      {
+        "type": 100,
+        "width": 33.53,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 30.12278711,
+        "lonStart": -95.86031666,
+        "latEnd": 30.11375733,
+        "lonEnd": -95.85958668,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 30126
   }
 ]

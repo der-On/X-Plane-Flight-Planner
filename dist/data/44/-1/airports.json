@@ -2,10 +2,10 @@
   {
     "type": 1,
     "icao": "LFCS",
-    "lat": 44.698262,
-    "lon": -0.59515,
+    "lat": 44.698173305,
+    "lon": -0.5969916275,
     "communications": [],
-    "elevation": 189,
+    "elevation": 188,
     "tower": false,
     "name": "Bordeaux Leognan Saucats",
     "runways": [
@@ -13,12 +13,12 @@
         "type": 100,
         "width": 20.12,
         "surfaceType": null,
-        "numberStart": "04L",
-        "numberEnd": "22R",
-        "latStart": 44.6966838,
-        "lonStart": -0.5979075,
-        "latEnd": 44.7027202,
-        "lonEnd": -0.5923925,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 44.69616827,
+        "lonStart": -0.59983778,
+        "latEnd": 44.70224779,
+        "lonEnd": -0.59443621,
         "length": 0,
         "surfacetype": 1
       },
@@ -26,17 +26,132 @@
         "type": 100,
         "width": 79.86,
         "surfaceType": null,
-        "numberStart": "04R",
-        "numberEnd": "22L",
-        "latStart": 44.69389812,
-        "lonStart": -0.5978212,
-        "latEnd": 44.69974588,
-        "lonEnd": -0.5924788,
+        "numberStart": "03R",
+        "numberEnd": "21L",
+        "latStart": 44.69419773,
+        "lonStart": -0.59946374,
+        "latEnd": 44.70007943,
+        "lonEnd": -0.59422878,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 3006
+    "id": 3561
+  },
+  {
+    "type": 1,
+    "icao": "LFDI",
+    "lat": 44.983644000000005,
+    "lon": -0.137620816,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12065,
+        "name": "Aquitaine Approach"
+      }
+    ],
+    "elevation": 157,
+    "tower": false,
+    "name": "Libourne",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 44.98017047,
+        "lonStart": -0.14118436,
+        "latEnd": 44.98822975,
+        "lonEnd": -0.13313724,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "04R",
+        "numberEnd": "22L",
+        "latStart": 44.98017178,
+        "lonStart": -0.14042348,
+        "latEnd": 44.98604221,
+        "lonEnd": -0.13454913,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 10.8,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 44.98360579,
+        "lonStart": -0.13880987,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11.5
+      }
+    ],
+    "id": 3568
+  },
+  {
+    "type": 1,
+    "icao": "LFDR",
+    "lat": 44.56695294,
+    "lon": -0.05723757,
+    "communications": [],
+    "elevation": 42,
+    "tower": false,
+    "name": "La Reole Floudes",
+    "runways": [
+      {
+        "type": 100,
+        "width": 58,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 44.56603322,
+        "lonStart": -0.06313863,
+        "latEnd": 44.56787266,
+        "lonEnd": -0.05133651,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3573
+  },
+  {
+    "type": 1,
+    "icao": "LFDY",
+    "lat": 44.876387815,
+    "lon": -0.481738015,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 11995,
+        "name": "A/A"
+      }
+    ],
+    "elevation": 240,
+    "tower": false,
+    "name": "Bordeaux Yvrac",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 44.8773238,
+        "lonStart": -0.48587395,
+        "latEnd": 44.87545183,
+        "lonEnd": -0.47760208,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 3577
   },
   {
     "type": 1,
@@ -108,84 +223,6 @@
         "length": 28
       }
     ],
-    "id": 3007
-  },
-  {
-    "type": 1,
-    "icao": "LFDY",
-    "lat": 44.877459,
-    "lon": -0.480171,
-    "communications": [],
-    "elevation": 240,
-    "tower": false,
-    "name": "Bordeaux Yvrac",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 44.87835961,
-        "lonStart": -0.48432807,
-        "latEnd": 44.87655839,
-        "lonEnd": -0.47601393,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 3008
-  },
-  {
-    "type": 1,
-    "icao": "LFDR",
-    "lat": 44.568054000000004,
-    "lon": -0.056110999999999994,
-    "communications": [],
-    "elevation": 43,
-    "tower": false,
-    "name": "La Reole Floudes",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 44.56708217,
-        "lonStart": -0.06201971,
-        "latEnd": 44.56902583,
-        "lonEnd": -0.05020229,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 14733
-  },
-  {
-    "type": 1,
-    "icao": "LFDI",
-    "lat": 44.9826105,
-    "lon": -0.13475,
-    "communications": [],
-    "elevation": 157,
-    "tower": false,
-    "name": "Libourne",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 44.978584,
-        "lonStart": -0.138778,
-        "latEnd": 44.986637,
-        "lonEnd": -0.130722,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 15244
+    "id": 20214
   }
 ]

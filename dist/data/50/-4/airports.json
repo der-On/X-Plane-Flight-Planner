@@ -1,112 +1,9 @@
 [
   {
     "type": 1,
-    "icao": "EG33",
-    "lat": 50.69797323,
-    "lon": -3.1557730399999997,
-    "communications": [],
-    "elevation": 495,
-    "tower": false,
-    "name": "Branscombe",
-    "runways": [
-      {
-        "type": 100,
-        "width": 11.89,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 50.6983421,
-        "lonStart": -3.16118677,
-        "latEnd": 50.69760436,
-        "lonEnd": -3.15035931,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 3121
-  },
-  {
-    "type": 1,
-    "icao": "EGTU",
-    "lat": 50.86126073,
-    "lon": -3.2337747325,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12347,
-        "name": "Dunkeswell Radio"
-      }
-    ],
-    "elevation": 838,
-    "tower": true,
-    "name": "Dunkeswell",
-    "runways": [
-      {
-        "type": 100,
-        "width": 46.02,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 50.85669995,
-        "lonStart": -3.23929785,
-        "latEnd": 50.86514597,
-        "lonEnd": -3.22765608,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 50.864436,
-        "lonStart": -3.234903,
-        "latEnd": 50.858761,
-        "lonEnd": -3.233242,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 6560
-  },
-  {
-    "type": 1,
-    "icao": "EGHU",
-    "lat": 50.928490315000005,
-    "lon": -3.989291265,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12300,
-        "name": "Eaglescott Radio"
-      }
-    ],
-    "elevation": 655,
-    "tower": true,
-    "name": "Eaglescott",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 50.92751871,
-        "lonStart": -3.99327944,
-        "latEnd": 50.92946192,
-        "lonEnd": -3.98530309,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 6891
-  },
-  {
-    "type": 1,
     "icao": "EGTE",
-    "lat": 50.73426,
-    "lon": -3.41399969,
+    "lat": 50.734362865,
+    "lon": -3.4138958749999997,
     "communications": [
       {
         "type": 50,
@@ -134,15 +31,86 @@
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": 50.73206575,
-        "lonStart": -3.42800869,
-        "latEnd": 50.73645425,
-        "lonEnd": -3.39999069,
+        "latStart": 50.73217255,
+        "lonStart": -3.42787211,
+        "latEnd": 50.73655318,
+        "lonEnd": -3.39991964,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 7372
+    "id": 1623
+  },
+  {
+    "type": 1,
+    "icao": "EGTU",
+    "lat": 50.86125454500001,
+    "lon": -3.2337826450000002,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12347,
+        "name": "Dunkeswell Radio"
+      }
+    ],
+    "elevation": 836,
+    "tower": true,
+    "name": "Dunkeswell",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 50.85667521,
+        "lonStart": -3.2393295,
+        "latEnd": 50.86514597,
+        "lonEnd": -3.22765608,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 50.864436,
+        "lonStart": -3.234903,
+        "latEnd": 50.858761,
+        "lonEnd": -3.233242,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1630
+  },
+  {
+    "type": 1,
+    "icao": "EG33",
+    "lat": 50.69797323,
+    "lon": -3.1557730399999997,
+    "communications": [],
+    "elevation": 495,
+    "tower": false,
+    "name": "Branscombe",
+    "runways": [
+      {
+        "type": 100,
+        "width": 11.89,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 50.6983421,
+        "lonStart": -3.16118677,
+        "latEnd": 50.69760436,
+        "lonEnd": -3.15035931,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16251
   },
   {
     "type": 1,
@@ -207,6 +175,38 @@
         "surfacetype": 3
       }
     ],
-    "id": 7830
+    "id": 16254
+  },
+  {
+    "type": 1,
+    "icao": "EGHU",
+    "lat": 50.928490315000005,
+    "lon": -3.989291265,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12300,
+        "name": "Eaglescott Radio"
+      }
+    ],
+    "elevation": 655,
+    "tower": true,
+    "name": "Eaglescott",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 50.92751871,
+        "lonStart": -3.99327944,
+        "latEnd": 50.92946192,
+        "lonEnd": -3.98530309,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16331
   }
 ]

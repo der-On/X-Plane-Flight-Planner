@@ -1,6 +1,63 @@
 [
   {
     "type": 1,
+    "icao": "KWLW",
+    "lat": 39.51731212200001,
+    "lon": -122.21748504600001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 139,
+    "tower": false,
+    "name": "WILLOWS GLENN CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 39.52267573,
+        "lonStart": -122.21989309,
+        "latEnd": 39.51030405,
+        "lonEnd": -122.21943788,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 39.51979141,
+        "lonStart": -122.21840324,
+        "latEnd": 39.51128252,
+        "lonEnd": -122.2107788,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 39.5225069,
+        "lonStart": -122.21891222,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 3400
+  },
+  {
+    "type": 1,
     "icao": "0O4",
     "lat": 39.94376805,
     "lon": -122.17137806,
@@ -23,59 +80,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 5337
-  },
-  {
-    "type": 1,
-    "icao": "Q23",
-    "lat": 39.20100138,
-    "lon": -122.04858444999999,
-    "communications": [],
-    "elevation": 45,
-    "tower": false,
-    "name": "Davis",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 39.2036381,
-        "lonStart": -122.04760879,
-        "latEnd": 39.19836466,
-        "lonEnd": -122.04956011,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 6051
-  },
-  {
-    "type": 1,
-    "icao": "7Q3",
-    "lat": 39.57210166,
-    "lon": -122.6094375,
-    "communications": [],
-    "elevation": 1295,
-    "tower": false,
-    "name": "Diamond M Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 39.57306402,
-        "lonStart": -122.61352112,
-        "latEnd": 39.5711393,
-        "lonEnd": -122.60535388,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 6248
+    "id": 6064
   },
   {
     "type": 1,
@@ -101,7 +106,33 @@
         "surfacetype": 5
       }
     ],
-    "id": 10722
+    "id": 6717
+  },
+  {
+    "type": 1,
+    "icao": "2CL2",
+    "lat": 39.011007219999996,
+    "lon": -122.09774834000001,
+    "communications": [],
+    "elevation": 65,
+    "tower": false,
+    "name": "Mc Cabe Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 10.97,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 39.0128866,
+        "lonStart": -122.09882521,
+        "latEnd": 39.00912784,
+        "lonEnd": -122.09667147,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 6912
   },
   {
     "type": 1,
@@ -127,7 +158,84 @@
         "surfacetype": 1
       }
     ],
-    "id": 10900
+    "id": 9373
+  },
+  {
+    "type": 1,
+    "icao": "7Q3",
+    "lat": 39.57210166,
+    "lon": -122.6094375,
+    "communications": [],
+    "elevation": 1295,
+    "tower": false,
+    "name": "Diamond M Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 39.57306402,
+        "lonStart": -122.61352112,
+        "latEnd": 39.5711393,
+        "lonEnd": -122.60535388,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9854
+  },
+  {
+    "type": 1,
+    "icao": "34Q",
+    "lat": 39.288498610000005,
+    "lon": -122.18914416999999,
+    "communications": [],
+    "elevation": 85,
+    "tower": false,
+    "name": "Moller",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 39.29072827,
+        "lonStart": -122.18826342,
+        "latEnd": 39.28626895,
+        "lonEnd": -122.19002492,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11877
+  },
+  {
+    "type": 16,
+    "icao": "CN20",
+    "lat": 39.030928419999995,
+    "lon": -122.79357062,
+    "communications": [],
+    "elevation": 1320,
+    "tower": false,
+    "name": "[S] Ferndale Resort Seaplane Base (PVT)",
+    "runways": [
+      {
+        "type": 101,
+        "width": 1218.9,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 39.05150029,
+        "lonStart": -122.79375247,
+        "latEnd": 39.01035655,
+        "lonEnd": -122.79338877,
+        "length": 0
+      }
+    ],
+    "id": 15451
   },
   {
     "type": 1,
@@ -159,59 +267,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 10955
-  },
-  {
-    "type": 1,
-    "icao": "2CL2",
-    "lat": 39.011007219999996,
-    "lon": -122.09774834000001,
-    "communications": [],
-    "elevation": 65,
-    "tower": false,
-    "name": "Mc Cabe Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 10.97,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 39.0128866,
-        "lonStart": -122.09882521,
-        "latEnd": 39.00912784,
-        "lonEnd": -122.09667147,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 16882
-  },
-  {
-    "type": 1,
-    "icao": "34Q",
-    "lat": 39.288498610000005,
-    "lon": -122.18914416999999,
-    "communications": [],
-    "elevation": 85,
-    "tower": false,
-    "name": "Moller",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 39.29072827,
-        "lonStart": -122.18826342,
-        "latEnd": 39.28626895,
-        "lonEnd": -122.19002492,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 17367
+    "id": 23110
   },
   {
     "type": 1,
@@ -237,52 +293,7 @@
         "surfacetype": 5
       }
     ],
-    "id": 18385
-  },
-  {
-    "type": 1,
-    "icao": "KWLW",
-    "lat": 39.5164755,
-    "lon": -122.2176,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 139,
-    "tower": false,
-    "name": "WILLOWS GLENN CO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 39.522667,
-        "lonStart": -122.219978,
-        "latEnd": 39.510303,
-        "lonEnd": -122.219472,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 39.521217,
-        "lonStart": -122.21975,
-        "latEnd": 39.511715,
-        "lonEnd": -122.2112,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 26680
+    "id": 23116
   },
   {
     "type": 1,
@@ -308,31 +319,32 @@
         "surfacetype": 1
       }
     ],
-    "id": 27325
+    "id": 24275
   },
   {
-    "type": 16,
-    "icao": "CN20",
-    "lat": 39.030928419999995,
-    "lon": -122.79357062,
+    "type": 1,
+    "icao": "Q23",
+    "lat": 39.20100138,
+    "lon": -122.04858444999999,
     "communications": [],
-    "elevation": 1320,
+    "elevation": 45,
     "tower": false,
-    "name": "[S] Ferndale Resort Seaplane Base (PVT)",
+    "name": "Davis",
     "runways": [
       {
-        "type": 101,
-        "width": 1218.9,
+        "type": 100,
+        "width": 22.86,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 39.05150029,
-        "lonStart": -122.79375247,
-        "latEnd": 39.01035655,
-        "lonEnd": -122.79338877,
-        "length": 0
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 39.2036381,
+        "lonStart": -122.04760879,
+        "latEnd": 39.19836466,
+        "lonEnd": -122.04956011,
+        "length": 0,
+        "surfacetype": 5
       }
     ],
-    "id": 34100
+    "id": 24281
   }
 ]

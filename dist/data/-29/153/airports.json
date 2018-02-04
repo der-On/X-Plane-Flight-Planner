@@ -1,6 +1,157 @@
 [
   {
     "type": 1,
+    "icao": "YBCG",
+    "lat": -28.165803423333333,
+    "lon": 153.50729580833334,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11870,
+        "name": "ATC Tower"
+      },
+      {
+        "type": 50,
+        "frequency": 13450,
+        "name": "YBCG ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 12060,
+        "name": "Cooly Mult"
+      },
+      {
+        "type": 51,
+        "frequency": 12060,
+        "name": "Activate Lights Only Mult"
+      },
+      {
+        "type": 55,
+        "frequency": 12350,
+        "name": "Bris Approach"
+      },
+      {
+        "type": 55,
+        "frequency": 11950,
+        "name": "Bris App"
+      },
+      {
+        "type": 53,
+        "frequency": 12180,
+        "name": "Cooly GND"
+      }
+    ],
+    "elevation": 19,
+    "tower": true,
+    "name": "Gold Coast",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": -28.156516,
+        "lonStart": 153.50072754,
+        "latEnd": -28.17609053,
+        "lonEnd": 153.51317813,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 17.88,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -28.16435979,
+        "lonStart": 153.50674073,
+        "latEnd": -28.16958926,
+        "lonEnd": 153.50632041,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 17.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -28.16631101,
+        "lonStart": 153.50865448,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 16.5
+      },
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": -28.16195395,
+        "lonStart": 153.50815356,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.3
+      }
+    ],
+    "id": 5580
+  },
+  {
+    "type": 1,
+    "icao": "1AUS",
+    "lat": -28.600176,
+    "lon": 153.542068,
+    "communications": [],
+    "elevation": 20,
+    "tower": false,
+    "name": "Tyagarah",
+    "runways": [
+      {
+        "type": 100,
+        "width": 51.82,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -28.60285238,
+        "lonStart": 153.53661365,
+        "latEnd": -28.59749962,
+        "lonEnd": 153.54752235,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6298
+  },
+  {
+    "type": 1,
+    "icao": "3AUS",
+    "lat": -28.576572,
+    "lon": 153.452606,
+    "communications": [],
+    "elevation": 80,
+    "tower": false,
+    "name": "Mullumbimby Grass Strip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -28.57722885,
+        "lonStart": 153.4497345,
+        "latEnd": -28.57591515,
+        "lonEnd": 153.4554775,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7432
+  },
+  {
+    "type": 1,
     "icao": "YBNA",
     "lat": -28.833302115,
     "lon": 153.56109330499999,
@@ -39,7 +190,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 2144
+    "id": 32803
   },
   {
     "type": 1,
@@ -89,91 +240,69 @@
         "surfacetype": 3
       }
     ],
-    "id": 4621
+    "id": 32911
   },
   {
-    "type": 1,
-    "icao": "YBCG",
-    "lat": -28.165811821666665,
-    "lon": 153.5072881783333,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13450,
-        "name": "ATIS"
-      },
-      {
-        "type": 54,
-        "frequency": 11870,
-        "name": "Gold Coast Tower"
-      },
-      {
-        "type": 53,
-        "frequency": 12180,
-        "name": "Gold Coast Ground"
-      },
-      {
-        "type": 55,
-        "frequency": 11950,
-        "name": "Brisbane Center"
-      }
-    ],
-    "elevation": 20,
-    "tower": true,
-    "name": "Gold Coast International",
+    "type": 17,
+    "icao": "YGWG",
+    "lat": -28.17842647,
+    "lon": 153.3924184,
+    "communications": [],
+    "elevation": 750,
+    "tower": false,
+    "name": "[H] GWINGANNA",
     "runways": [
       {
-        "type": 100,
-        "width": 45,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": -28.15651377,
-        "lonStart": 153.50070747,
-        "latEnd": -28.17609505,
-        "lonEnd": 153.513172,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 18,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": -28.164367,
-        "lonStart": 153.506729,
-        "latEnd": -28.169605,
-        "lonEnd": 153.506306,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
         "type": 102,
-        "width": 14,
-        "surfaceType": 1,
-        "numberStart": "H1",
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H62",
         "numberEnd": null,
-        "latStart": -28.16197232,
-        "lonStart": 153.50814995,
+        "latStart": -28.17842647,
+        "lonStart": 153.3924184,
         "latEnd": null,
         "lonEnd": null,
-        "length": 14
-      },
-      {
-        "type": 102,
-        "width": 17,
-        "surfaceType": 1,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": -28.16631779,
-        "lonStart": 153.50866465,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 17
+        "length": 9.1
       }
     ],
-    "id": 10569
+    "id": 33403
+  },
+  {
+    "type": 17,
+    "icao": "YLIH",
+    "lat": -28.801237695,
+    "lon": 153.28817668,
+    "communications": [],
+    "elevation": 34,
+    "tower": false,
+    "name": "[H] LISMORE HOSPITAL",
+    "runways": [
+      {
+        "type": 102,
+        "width": 11,
+        "surfaceType": 2,
+        "numberStart": "H21",
+        "numberEnd": null,
+        "latStart": -28.80127105,
+        "lonStart": 153.2880678,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11
+      },
+      {
+        "type": 102,
+        "width": 11,
+        "surfaceType": 2,
+        "numberStart": "H22",
+        "numberEnd": null,
+        "latStart": -28.80120434,
+        "lonStart": 153.28828556,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 11
+      }
+    ],
+    "id": 33686
   },
   {
     "type": 1,
@@ -215,33 +344,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 15328
-  },
-  {
-    "type": 1,
-    "icao": "3AUS",
-    "lat": -28.576572,
-    "lon": 153.452606,
-    "communications": [],
-    "elevation": 80,
-    "tower": false,
-    "name": "Mullumbimby Grass Strip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": -28.57722885,
-        "lonStart": 153.4497345,
-        "latEnd": -28.57591515,
-        "lonEnd": 153.4554775,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 17705
+    "id": 33689
   },
   {
     "type": 1,
@@ -267,7 +370,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 17753
+    "id": 33977
   },
   {
     "type": 1,
@@ -293,33 +396,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 17962
-  },
-  {
-    "type": 1,
-    "icao": "YXNU",
-    "lat": -28.167721405,
-    "lon": 153.222411665,
-    "communications": [],
-    "elevation": 436,
-    "tower": false,
-    "name": "NUMINBAH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.07,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": -28.16600878,
-        "lonStart": 153.22130759,
-        "latEnd": -28.16943403,
-        "lonEnd": 153.22351574,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 18029
+    "id": 34051
   },
   {
     "type": 1,
@@ -345,33 +422,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 24932
-  },
-  {
-    "type": 1,
-    "icao": "1AUS",
-    "lat": -28.600176,
-    "lon": 153.542068,
-    "communications": [],
-    "elevation": 20,
-    "tower": false,
-    "name": "Tyagarah",
-    "runways": [
-      {
-        "type": 100,
-        "width": 51.82,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": -28.60285238,
-        "lonStart": 153.53661365,
-        "latEnd": -28.59749962,
-        "lonEnd": 153.54752235,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 25770
+    "id": 34620
   },
   {
     "type": 1,
@@ -397,69 +448,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 26715
-  },
-  {
-    "type": 17,
-    "icao": "YGWG",
-    "lat": -28.17842647,
-    "lon": 153.3924184,
-    "communications": [],
-    "elevation": 750,
-    "tower": false,
-    "name": "[H] GWINGANNA",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H62",
-        "numberEnd": null,
-        "latStart": -28.17842647,
-        "lonStart": 153.3924184,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 29860
-  },
-  {
-    "type": 17,
-    "icao": "YLIH",
-    "lat": -28.801237695,
-    "lon": 153.28817668,
-    "communications": [],
-    "elevation": 34,
-    "tower": false,
-    "name": "[H] LISMORE HOSPITAL",
-    "runways": [
-      {
-        "type": 102,
-        "width": 11,
-        "surfaceType": 2,
-        "numberStart": "H21",
-        "numberEnd": null,
-        "latStart": -28.80127105,
-        "lonStart": 153.2880678,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11
-      },
-      {
-        "type": 102,
-        "width": 11,
-        "surfaceType": 2,
-        "numberStart": "H22",
-        "numberEnd": null,
-        "latStart": -28.80120434,
-        "lonStart": 153.28828556,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 11
-      }
-    ],
-    "id": 30792
+    "id": 34813
   },
   {
     "type": 17,
@@ -484,7 +473,33 @@
         "length": 18
       }
     ],
-    "id": 31518
+    "id": 34830
+  },
+  {
+    "type": 1,
+    "icao": "YXNU",
+    "lat": -28.167721405,
+    "lon": 153.222411665,
+    "communications": [],
+    "elevation": 436,
+    "tower": false,
+    "name": "NUMINBAH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.07,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": -28.16600878,
+        "lonStart": 153.22130759,
+        "latEnd": -28.16943403,
+        "lonEnd": 153.22351574,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 34831
   },
   {
     "type": 17,
@@ -509,6 +524,6 @@
         "length": 18
       }
     ],
-    "id": 31706
+    "id": 34832
   }
 ]

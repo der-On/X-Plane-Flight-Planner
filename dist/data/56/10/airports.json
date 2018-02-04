@@ -47,7 +47,51 @@
         "surfacetype": 1
       }
     ],
-    "id": 503
+    "id": 1678
+  },
+  {
+    "type": 1,
+    "icao": "EKHS",
+    "lat": 56.75595293333333,
+    "lon": 10.23045051,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12980,
+        "name": "Hadsund air-to-air"
+      }
+    ],
+    "elevation": 7,
+    "tower": true,
+    "name": "Hadsund",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 56.75610556,
+        "lonStart": 10.22333056,
+        "latEnd": 56.75571667,
+        "lonEnd": 10.23410556,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 9.15,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 56.75603657,
+        "lonStart": 10.23391541,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.54
+      }
+    ],
+    "id": 1699
   },
   {
     "type": 1,
@@ -73,59 +117,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 7326
-  },
-  {
-    "type": 1,
-    "icao": "EKGR",
-    "lat": 56.441910469999996,
-    "lon": 10.930645885,
-    "communications": [],
-    "elevation": 33,
-    "tower": false,
-    "name": "Grenaa",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 56.43863054,
-        "lonStart": 10.9291851,
-        "latEnd": 56.4451904,
-        "lonEnd": 10.93210667,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 10792
-  },
-  {
-    "type": 1,
-    "icao": "EKHS",
-    "lat": 56.755911115,
-    "lon": 10.22871806,
-    "communications": [],
-    "elevation": 7,
-    "tower": false,
-    "name": "Hadsund",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 56.75610556,
-        "lonStart": 10.22333056,
-        "latEnd": 56.75571667,
-        "lonEnd": 10.23410556,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11290
+    "id": 16466
   },
   {
     "type": 1,
@@ -151,33 +143,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 13651
-  },
-  {
-    "type": 1,
-    "icao": "EKRD",
-    "lat": 56.50666667,
-    "lon": 10.036249999999999,
-    "communications": [],
-    "elevation": 153,
-    "tower": false,
-    "name": "Randers",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 56.50555556,
-        "lonStart": 10.02916667,
-        "latEnd": 56.50777778,
-        "lonEnd": 10.04333333,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 21186
+    "id": 16486
   },
   {
     "type": 1,
@@ -203,6 +169,58 @@
         "surfacetype": 3
       }
     ],
-    "id": 25634
+    "id": 16517
+  },
+  {
+    "type": 1,
+    "icao": "EKGR",
+    "lat": 56.441910469999996,
+    "lon": 10.930645885,
+    "communications": [],
+    "elevation": 33,
+    "tower": false,
+    "name": "Grenaa",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 56.43863054,
+        "lonStart": 10.9291851,
+        "latEnd": 56.4451904,
+        "lonEnd": 10.93210667,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16525
+  },
+  {
+    "type": 1,
+    "icao": "EKRD",
+    "lat": 56.50666667,
+    "lon": 10.036249999999999,
+    "communications": [],
+    "elevation": 153,
+    "tower": false,
+    "name": "Randers",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 56.50555556,
+        "lonStart": 10.02916667,
+        "latEnd": 56.50777778,
+        "lonEnd": 10.04333333,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16537
   }
 ]

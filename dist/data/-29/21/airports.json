@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "FAUP",
-    "lat": -28.401673333333335,
-    "lon": 21.261190666666668,
+    "lat": -28.402631001428574,
+    "lon": 21.26009421714286,
     "communications": [
       {
         "type": 54,
@@ -11,9 +11,9 @@
         "name": "TWR"
       },
       {
-        "type": 55,
-        "frequency": 12130,
-        "name": "APP"
+        "type": 52,
+        "frequency": 12265,
+        "name": "APN"
       }
     ],
     "elevation": 2791,
@@ -22,44 +22,56 @@
     "runways": [
       {
         "type": 100,
-        "width": 60.05,
+        "width": 60,
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": -28.37991198,
-        "lonStart": 21.25203408,
-        "latEnd": -28.41938202,
-        "lonEnd": 21.27438592,
+        "latStart": -28.379833,
+        "lonStart": 21.252111,
+        "latEnd": -28.419389,
+        "lonEnd": 21.274444,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 45.72,
+        "width": 46,
         "surfaceType": null,
         "numberStart": "01",
         "numberEnd": "19",
-        "latStart": -28.41291636,
-        "lonStart": 21.26067939,
-        "latEnd": -28.39133164,
-        "lonEnd": 21.25618461,
+        "latStart": -28.41300956,
+        "lonStart": 21.2607672,
+        "latEnd": -28.39140559,
+        "lonEnd": 21.2562053,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 29.87,
+        "width": 30,
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": -28.4051484,
-        "lonStart": 21.25825096,
-        "latEnd": -28.4013496,
-        "lonEnd": 21.26560904,
+        "latStart": -28.40502773,
+        "lonStart": 21.25810052,
+        "latEnd": -28.40125273,
+        "lonEnd": 21.26539252,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 15,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -28.4084994,
+        "lonStart": 21.25363898,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15
       }
     ],
-    "id": 25959
+    "id": 2161
   }
 ]

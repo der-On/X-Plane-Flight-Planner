@@ -1,81 +1,70 @@
 [
   {
-    "type": 1,
-    "icao": "VA76",
-    "lat": 36.98764861,
-    "lon": -77.77166223,
+    "type": 17,
+    "icao": "73VA",
+    "lat": 36.70263508,
+    "lon": -77.5369645,
     "communications": [],
-    "elevation": 250,
+    "elevation": 126,
     "tower": false,
-    "name": "Baskerville",
+    "name": "[H] Greensville Memorial Hospital",
     "runways": [
       {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 36.98741956,
-        "lonStart": -77.77370259,
-        "latEnd": 36.98787766,
-        "lonEnd": -77.76962187,
-        "length": 0,
-        "surfacetype": 3
+        "type": 102,
+        "width": 19.9,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.70263508,
+        "lonStart": -77.5369645,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20.1
       }
     ],
-    "id": 2323
+    "id": 463
   },
   {
     "type": 1,
-    "icao": "19NC",
-    "lat": 36.064874720000006,
-    "lon": -77.92303889,
-    "communications": [],
-    "elevation": 195,
+    "icao": "KAKQ",
+    "lat": 36.987217,
+    "lon": -77.0011165,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12832,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12790,
+        "name": "NORFOLK APP/DEP"
+      }
+    ],
+    "elevation": 112,
     "tower": false,
-    "name": "Double S",
+    "name": "WAKEFIELD MUNI",
     "runways": [
       {
         "type": 100,
-        "width": 30.48,
+        "width": 22.86,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 36.0680052,
-        "lonStart": -77.9242972,
-        "latEnd": 36.06174424,
-        "lonEnd": -77.92178058,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 36.981517,
+        "lonStart": -77.003264,
+        "latEnd": 36.992917,
+        "lonEnd": -76.998969,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       }
     ],
-    "id": 6427
-  },
-  {
-    "type": 1,
-    "icao": "4W2",
-    "lat": 36.15987583,
-    "lon": -77.62469639,
-    "communications": [],
-    "elevation": 100,
-    "tower": false,
-    "name": "Dunroamin Farms",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 36.15606096,
-        "lonStart": -77.62660543,
-        "latEnd": 36.1636907,
-        "lonEnd": -77.62278735,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 6570
+    "id": 2337
   },
   {
     "type": 1,
@@ -102,8 +91,8 @@
         "type": 100,
         "width": 30.48,
         "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
+        "numberStart": "16",
+        "numberEnd": "34",
         "latStart": 36.69260778,
         "lonStart": -77.48767716,
         "latEnd": 36.68105622,
@@ -112,17 +101,120 @@
         "surfacetype": 1
       }
     ],
-    "id": 6767
+    "id": 2625
+  },
+  {
+    "type": 17,
+    "icao": "0NC6",
+    "lat": 36.13126666,
+    "lon": -77.41885862,
+    "communications": [],
+    "elevation": 111,
+    "tower": false,
+    "name": "[H] Our Community Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 45.7,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.13126666,
+        "lonStart": -77.41885862,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 61
+      }
+    ],
+    "id": 6022
   },
   {
     "type": 1,
-    "icao": "NC45",
-    "lat": 36.21722222,
-    "lon": -77.63750001,
+    "icao": "2NC7",
+    "lat": 36.16793333,
+    "lon": -77.39885834,
     "communications": [],
-    "elevation": 125,
+    "elevation": 103,
     "tower": false,
-    "name": "Enfield-Shearin",
+    "name": "Scotland Neck East",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 36.17200776,
+        "lonStart": -77.39956766,
+        "latEnd": 36.1638589,
+        "lonEnd": -77.39814902,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7159
+  },
+  {
+    "type": 1,
+    "icao": "3NC8",
+    "lat": 36.44070805,
+    "lon": -77.45914084,
+    "communications": [],
+    "elevation": 138,
+    "tower": false,
+    "name": "Stephenson Farms",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 36.4419411,
+        "lonStart": -77.4629345,
+        "latEnd": 36.439475,
+        "lonEnd": -77.45534718,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7725
+  },
+  {
+    "type": 1,
+    "icao": "4W2",
+    "lat": 36.15987583,
+    "lon": -77.62469639,
+    "communications": [],
+    "elevation": 100,
+    "tower": false,
+    "name": "Dunroamin Farms",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 36.15606096,
+        "lonStart": -77.62660543,
+        "latEnd": 36.1636907,
+        "lonEnd": -77.62278735,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 8427
+  },
+  {
+    "type": 1,
+    "icao": "6NC5",
+    "lat": 36.01793222,
+    "lon": -77.66191889,
+    "communications": [],
+    "elevation": 100,
+    "tower": false,
+    "name": "Thompson Farms",
     "runways": [
       {
         "type": 100,
@@ -130,15 +222,149 @@
         "surfaceType": null,
         "numberStart": "03",
         "numberEnd": "21",
-        "latStart": 36.21312495,
-        "lonStart": -77.63944947,
-        "latEnd": 36.22131949,
-        "lonEnd": -77.63555055,
+        "latStart": 36.0156433,
+        "lonStart": -77.66306225,
+        "latEnd": 36.02022114,
+        "lonEnd": -77.66077553,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 7187
+    "id": 9273
+  },
+  {
+    "type": 1,
+    "icao": "19NC",
+    "lat": 36.064874720000006,
+    "lon": -77.92303889,
+    "communications": [],
+    "elevation": 195,
+    "tower": false,
+    "name": "Double S",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 36.0680052,
+        "lonStart": -77.9242972,
+        "latEnd": 36.06174424,
+        "lonEnd": -77.92178058,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11277
+  },
+  {
+    "type": 1,
+    "icao": "95W",
+    "lat": 36.54904055,
+    "lon": -77.19135612,
+    "communications": [],
+    "elevation": 35,
+    "tower": false,
+    "name": "Mann",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 36.55216428,
+        "lonStart": -77.1919026,
+        "latEnd": 36.54591682,
+        "lonEnd": -77.19080964,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14215
+  },
+  {
+    "type": 1,
+    "icao": "KASJ",
+    "lat": 36.297525,
+    "lon": -77.1707445,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11907,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 68,
+    "tower": false,
+    "name": "TRI CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 36.291344,
+        "lonStart": -77.170906,
+        "latEnd": 36.303706,
+        "lonEnd": -77.170583,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 18820
+  },
+  {
+    "type": 1,
+    "icao": "KLVL",
+    "lat": 36.77242325,
+    "lon": -77.79445625,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 329,
+    "tower": false,
+    "name": "LAWRENCEVILLE BRUNSWICK MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 36.778742,
+        "lonStart": -77.794456,
+        "latEnd": 36.770518,
+        "lonEnd": -77.793108,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 21.34,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 36.768797,
+        "lonStart": -77.797833,
+        "latEnd": 36.771636,
+        "lonEnd": -77.792428,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 19445
   },
   {
     "type": 1,
@@ -188,229 +414,17 @@
         "surfacetype": 3
       }
     ],
-    "id": 10964
+    "id": 19785
   },
   {
     "type": 1,
-    "icao": "KLVL",
-    "lat": 36.77242325,
-    "lon": -77.79445625,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 329,
-    "tower": false,
-    "name": "LAWRENCEVILLE BRUNSWICK MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 36.778742,
-        "lonStart": -77.794456,
-        "latEnd": 36.770518,
-        "lonEnd": -77.793108,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 21.34,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 36.768797,
-        "lonStart": -77.797833,
-        "latEnd": 36.771636,
-        "lonEnd": -77.792428,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 14438
-  },
-  {
-    "type": 1,
-    "icao": "95W",
-    "lat": 36.54904055,
-    "lon": -77.19135612,
+    "icao": "NC45",
+    "lat": 36.21722222,
+    "lon": -77.63750001,
     "communications": [],
-    "elevation": 35,
+    "elevation": 125,
     "tower": false,
-    "name": "Mann",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 36.55216428,
-        "lonStart": -77.1919026,
-        "latEnd": 36.54591682,
-        "lonEnd": -77.19080964,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 16599
-  },
-  {
-    "type": 1,
-    "icao": "W15",
-    "lat": 36.16848888,
-    "lon": -77.40635834,
-    "communications": [],
-    "elevation": 113,
-    "tower": false,
-    "name": "Scotland Neck",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 36.16547005,
-        "lonStart": -77.40786919,
-        "latEnd": 36.17150771,
-        "lonEnd": -77.40484749,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23162
-  },
-  {
-    "type": 1,
-    "icao": "2NC7",
-    "lat": 36.16793333,
-    "lon": -77.39885834,
-    "communications": [],
-    "elevation": 103,
-    "tower": false,
-    "name": "Scotland Neck East",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 36.17200776,
-        "lonStart": -77.39956766,
-        "latEnd": 36.1638589,
-        "lonEnd": -77.39814902,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23163
-  },
-  {
-    "type": 1,
-    "icao": "VA14",
-    "lat": 36.74070527,
-    "lon": -77.26274723,
-    "communications": [],
-    "elevation": 50,
-    "tower": false,
-    "name": "Southampton Correctional Center",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 36.74028153,
-        "lonStart": -77.26650972,
-        "latEnd": 36.74112901,
-        "lonEnd": -77.25898474,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23897
-  },
-  {
-    "type": 1,
-    "icao": "3NC8",
-    "lat": 36.44070805,
-    "lon": -77.45914084,
-    "communications": [],
-    "elevation": 138,
-    "tower": false,
-    "name": "Stephenson Farms",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 36.4419411,
-        "lonStart": -77.4629345,
-        "latEnd": 36.439475,
-        "lonEnd": -77.45534718,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 24168
-  },
-  {
-    "type": 1,
-    "icao": "KASJ",
-    "lat": 36.297525,
-    "lon": -77.1707445,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11907,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 68,
-    "tower": false,
-    "name": "TRI CO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 36.291344,
-        "lonStart": -77.170906,
-        "latEnd": 36.303706,
-        "lonEnd": -77.170583,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 24859
-  },
-  {
-    "type": 1,
-    "icao": "6NC5",
-    "lat": 36.01793222,
-    "lon": -77.66191889,
-    "communications": [],
-    "elevation": 100,
-    "tower": false,
-    "name": "Thompson Farms",
+    "name": "Enfield-Shearin",
     "runways": [
       {
         "type": 100,
@@ -418,15 +432,40 @@
         "surfaceType": null,
         "numberStart": "03",
         "numberEnd": "21",
-        "latStart": 36.0156433,
-        "lonStart": -77.66306225,
-        "latEnd": 36.02022114,
-        "lonEnd": -77.66077553,
+        "latStart": 36.21312495,
+        "lonStart": -77.63944947,
+        "latEnd": 36.22131949,
+        "lonEnd": -77.63555055,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 25289
+    "id": 22307
+  },
+  {
+    "type": 17,
+    "icao": "NC51",
+    "lat": 36.43681749,
+    "lon": -77.64609001,
+    "communications": [],
+    "elevation": 167,
+    "tower": false,
+    "name": "[H] Halifax Memorial Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 27.4,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.43681749,
+        "lonStart": -77.64609001,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 27.4
+      }
+    ],
+    "id": 22312
   },
   {
     "type": 1,
@@ -452,123 +491,84 @@
         "surfacetype": 3
       }
     ],
-    "id": 26269
+    "id": 22326
   },
   {
     "type": 1,
-    "icao": "KAKQ",
-    "lat": 36.987217,
-    "lon": -77.0011165,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12832,
-        "name": "ASOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 12790,
-        "name": "NORFOLK APP/DEP"
-      }
-    ],
-    "elevation": 112,
+    "icao": "VA14",
+    "lat": 36.74070527,
+    "lon": -77.26274723,
+    "communications": [],
+    "elevation": 50,
     "tower": false,
-    "name": "WAKEFIELD MUNI",
+    "name": "Southampton Correctional Center",
     "runways": [
       {
         "type": 100,
-        "width": 22.86,
+        "width": 30.48,
         "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 36.981517,
-        "lonStart": -77.003264,
-        "latEnd": 36.992917,
-        "lonEnd": -76.998969,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 36.74028153,
+        "lonStart": -77.26650972,
+        "latEnd": 36.74112901,
+        "lonEnd": -77.25898474,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       }
     ],
-    "id": 26461
+    "id": 30673
   },
   {
-    "type": 17,
-    "icao": "73VA",
-    "lat": 36.70209361,
-    "lon": -77.53998084,
+    "type": 1,
+    "icao": "VA76",
+    "lat": 36.98764861,
+    "lon": -77.77166223,
     "communications": [],
-    "elevation": 128,
+    "elevation": 250,
     "tower": false,
-    "name": "[H] Greensville Memorial Hospital",
+    "name": "Baskerville",
     "runways": [
       {
-        "type": 102,
-        "width": 21.3,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 36.70209361,
-        "lonStart": -77.53998084,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 21.3
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 36.98741956,
+        "lonStart": -77.77370259,
+        "latEnd": 36.98787766,
+        "lonEnd": -77.76962187,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 30019
+    "id": 30726
   },
   {
-    "type": 17,
-    "icao": "NC51",
-    "lat": 36.43681749,
-    "lon": -77.64609001,
+    "type": 1,
+    "icao": "W15",
+    "lat": 36.16848888,
+    "lon": -77.40635834,
     "communications": [],
-    "elevation": 167,
+    "elevation": 113,
     "tower": false,
-    "name": "[H] Halifax Memorial Hospital",
+    "name": "Scotland Neck",
     "runways": [
       {
-        "type": 102,
-        "width": 27.4,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 36.43681749,
-        "lonStart": -77.64609001,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 27.4
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 36.16547005,
+        "lonStart": -77.40786919,
+        "latEnd": 36.17150771,
+        "lonEnd": -77.40484749,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 30100
-  },
-  {
-    "type": 17,
-    "icao": "0NC6",
-    "lat": 36.13126666,
-    "lon": -77.41885862,
-    "communications": [],
-    "elevation": 111,
-    "tower": false,
-    "name": "[H] Our Community Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 45.7,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 36.13126666,
-        "lonStart": -77.41885862,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 61
-      }
-    ],
-    "id": 31785
+    "id": 31239
   }
 ]

@@ -1,6 +1,90 @@
 [
   {
     "type": 1,
+    "icao": "0ND0",
+    "lat": 47.92917138,
+    "lon": -99.40040973,
+    "communications": [],
+    "elevation": 1550,
+    "tower": false,
+    "name": "Gilbertson Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 47.93273508,
+        "lonStart": -99.40059546,
+        "latEnd": 47.92560768,
+        "lonEnd": -99.400224,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6026
+  },
+  {
+    "type": 1,
+    "icao": "3NA6",
+    "lat": 47.77055916,
+    "lon": -99.46179223,
+    "communications": [],
+    "elevation": 1560,
+    "tower": false,
+    "name": "Risovi Ranch Strip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 47.77046582,
+        "lonStart": -99.46576898,
+        "latEnd": 47.7706525,
+        "lonEnd": -99.45781548,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7713
+  },
+  {
+    "type": 1,
+    "icao": "5H4",
+    "lat": 47.7912315,
+    "lon": -99.931743,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1605,
+    "tower": false,
+    "name": "HARVEY MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 47.793694,
+        "lonStart": -99.938086,
+        "latEnd": 47.788769,
+        "lonEnd": -99.9254,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 8600
+  },
+  {
+    "type": 1,
     "icao": "7ND5",
     "lat": 47.35971888,
     "lon": -99.62261612,
@@ -23,7 +107,65 @@
         "surfacetype": 3
       }
     ],
-    "id": 3317
+    "id": 9762
+  },
+  {
+    "type": 1,
+    "icao": "8J7",
+    "lat": 47.696388999999996,
+    "lon": -99.131111,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1533,
+    "tower": false,
+    "name": "TOMLINSON FLD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 47.700278,
+        "lonStart": -99.135278,
+        "latEnd": 47.6925,
+        "lonEnd": -99.126944,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 10115
+  },
+  {
+    "type": 1,
+    "icao": "9NA1",
+    "lat": 47.42277361,
+    "lon": -99.90067528,
+    "communications": [],
+    "elevation": 1700,
+    "tower": false,
+    "name": "Weckerly - Private",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 47.42277361,
+        "lonStart": -99.90554028,
+        "latEnd": 47.42277361,
+        "lonEnd": -99.89581028,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10649
   },
   {
     "type": 1,
@@ -68,7 +210,59 @@
         "surfacetype": 1
       }
     ],
-    "id": 3699
+    "id": 12322
+  },
+  {
+    "type": 1,
+    "icao": "53ND",
+    "lat": 47.54805305,
+    "lon": -99.94706862,
+    "communications": [],
+    "elevation": 1894,
+    "tower": false,
+    "name": "R. Leep Strip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 47.55079561,
+        "lonStart": -99.94713954,
+        "latEnd": 47.54531049,
+        "lonEnd": -99.9469977,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12615
+  },
+  {
+    "type": 1,
+    "icao": "79ND",
+    "lat": 47.32333,
+    "lon": -99.00122223,
+    "communications": [],
+    "elevation": 1590,
+    "tower": false,
+    "name": "Reimers",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 47.32569425,
+        "lonStart": -99.00568642,
+        "latEnd": 47.32096575,
+        "lonEnd": -98.99675804,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13643
   },
   {
     "type": 1,
@@ -94,7 +288,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 9260
+    "id": 15893
+  },
+  {
+    "type": 1,
+    "icao": "NA38",
+    "lat": 47.950561660000005,
+    "lon": -99.42957723,
+    "communications": [],
+    "elevation": 1572,
+    "tower": false,
+    "name": "Sabbe Brothers Landing Strip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 47.9504353,
+        "lonStart": -99.43497986,
+        "latEnd": 47.95068802,
+        "lonEnd": -99.4241746,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 22224
   },
   {
     "type": 1,
@@ -120,104 +340,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 10415
-  },
-  {
-    "type": 1,
-    "icao": "0ND0",
-    "lat": 47.92917138,
-    "lon": -99.40040973,
-    "communications": [],
-    "elevation": 1550,
-    "tower": false,
-    "name": "Gilbertson Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 47.93273508,
-        "lonStart": -99.40059546,
-        "latEnd": 47.92560768,
-        "lonEnd": -99.400224,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 10463
-  },
-  {
-    "type": 1,
-    "icao": "5H4",
-    "lat": 47.7912315,
-    "lon": -99.931743,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 1605,
-    "tower": false,
-    "name": "HARVEY MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 47.793694,
-        "lonStart": -99.938086,
-        "latEnd": 47.788769,
-        "lonEnd": -99.9254,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 11039
-  },
-  {
-    "type": 1,
-    "icao": "ND53",
-    "lat": 47.131379159999994,
-    "lon": -99.75288723,
-    "communications": [],
-    "elevation": 1775,
-    "tower": false,
-    "name": "James Whitman",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 47.13470784,
-        "lonStart": -99.75644207,
-        "latEnd": 47.12805048,
-        "lonEnd": -99.74933239,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 47.13517205,
-        "lonStart": -99.75200421,
-        "latEnd": 47.12758627,
-        "lonEnd": -99.75377025,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 12897
+    "id": 22228
   },
   {
     "type": 1,
@@ -256,7 +379,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 14248
+    "id": 22248
   },
   {
     "type": 1,
@@ -282,7 +405,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 15272
+    "id": 22250
   },
   {
     "type": 1,
@@ -308,59 +431,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 16454
-  },
-  {
-    "type": 1,
-    "icao": "53ND",
-    "lat": 47.54805305,
-    "lon": -99.94706862,
-    "communications": [],
-    "elevation": 1894,
-    "tower": false,
-    "name": "R. Leep Strip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 47.55079561,
-        "lonStart": -99.94713954,
-        "latEnd": 47.54531049,
-        "lonEnd": -99.9469977,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 20748
-  },
-  {
-    "type": 1,
-    "icao": "79ND",
-    "lat": 47.32333,
-    "lon": -99.00122223,
-    "communications": [],
-    "elevation": 1590,
-    "tower": false,
-    "name": "Reimers",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 47.32569425,
-        "lonStart": -99.00568642,
-        "latEnd": 47.32096575,
-        "lonEnd": -98.99675804,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 21340
+    "id": 22386
   },
   {
     "type": 1,
@@ -386,117 +457,46 @@
         "surfacetype": 3
       }
     ],
-    "id": 21426
+    "id": 22387
   },
   {
     "type": 1,
-    "icao": "3NA6",
-    "lat": 47.77055916,
-    "lon": -99.46179223,
+    "icao": "ND53",
+    "lat": 47.131379159999994,
+    "lon": -99.75288723,
     "communications": [],
-    "elevation": 1560,
+    "elevation": 1775,
     "tower": false,
-    "name": "Risovi Ranch Strip",
+    "name": "James Whitman",
     "runways": [
       {
         "type": 100,
         "width": 30.48,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 47.77046582,
-        "lonStart": -99.46576898,
-        "latEnd": 47.7706525,
-        "lonEnd": -99.45781548,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 47.13470784,
+        "lonStart": -99.75644207,
+        "latEnd": 47.12805048,
+        "lonEnd": -99.74933239,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 47.13517205,
+        "lonStart": -99.75200421,
+        "latEnd": 47.12758627,
+        "lonEnd": -99.75377025,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 21521
-  },
-  {
-    "type": 1,
-    "icao": "NA38",
-    "lat": 47.950561660000005,
-    "lon": -99.42957723,
-    "communications": [],
-    "elevation": 1572,
-    "tower": false,
-    "name": "Sabbe Brothers Landing Strip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 47.9504353,
-        "lonStart": -99.43497986,
-        "latEnd": 47.95068802,
-        "lonEnd": -99.4241746,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 22649
-  },
-  {
-    "type": 1,
-    "icao": "8J7",
-    "lat": 47.696388999999996,
-    "lon": -99.131111,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 1533,
-    "tower": false,
-    "name": "TOMLINSON FLD",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 47.700278,
-        "lonStart": -99.135278,
-        "latEnd": 47.6925,
-        "lonEnd": -99.126944,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 24788
-  },
-  {
-    "type": 1,
-    "icao": "9NA1",
-    "lat": 47.42277361,
-    "lon": -99.90067528,
-    "communications": [],
-    "elevation": 1700,
-    "tower": false,
-    "name": "Weckerly - Private",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 47.42277361,
-        "lonStart": -99.90554028,
-        "latEnd": 47.42277361,
-        "lonEnd": -99.89581028,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 27024
+    "id": 22399
   },
   {
     "type": 1,
@@ -522,6 +522,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 27238
+    "id": 22400
   }
 ]

@@ -3,27 +3,38 @@
     "type": 1,
     "icao": "WBKG",
     "lat": 5.355687365,
-    "lon": 116.16481146,
-    "communications": [],
+    "lon": 116.164811455,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12580,
+        "name": "Tower"
+      },
+      {
+        "type": 50,
+        "frequency": 12680,
+        "name": "AWOS"
+      }
+    ],
     "elevation": 1040,
     "tower": false,
     "name": "Keningau",
     "runways": [
       {
         "type": 100,
-        "width": 24.08,
+        "width": 26,
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 5.35954193,
-        "lonStart": 116.1640238,
-        "latEnd": 5.3518328,
-        "lonEnd": 116.16559912,
+        "latStart": 5.35953228,
+        "lonStart": 116.16402577,
+        "latEnd": 5.35184245,
+        "lonEnd": 116.16559714,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 13754
+    "id": 5251
   },
   {
     "type": 1,
@@ -75,6 +86,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 14097
+    "id": 31521
   }
 ]

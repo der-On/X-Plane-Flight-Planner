@@ -1,6 +1,51 @@
 [
   {
     "type": 1,
+    "icao": "CYKY",
+    "lat": 51.516707765,
+    "lon": -109.18002385,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12280,
+        "name": "UNICOM / Traffic"
+      }
+    ],
+    "elevation": 2276,
+    "tower": false,
+    "name": "Kindersley Regional",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 51.518318,
+        "lonStart": -109.18825789,
+        "latEnd": 51.518318,
+        "lonEnd": -109.17287479,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 51.51822253,
+        "lonStart": -109.17948136,
+        "latEnd": 51.51197253,
+        "lonEnd": -109.17948136,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 781
+  },
+  {
+    "type": 1,
     "icao": "CJG2",
     "lat": 51.2194,
     "lon": -109.39250207500001,
@@ -23,7 +68,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 6932
+    "id": 15233
   },
   {
     "type": 1,
@@ -62,51 +107,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 13783
-  },
-  {
-    "type": 1,
-    "icao": "CYKY",
-    "lat": 51.516707765,
-    "lon": -109.180019165,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 2277,
-    "tower": false,
-    "name": "Kindersley",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 51.518318,
-        "lonStart": -109.18825789,
-        "latEnd": 51.518318,
-        "lonEnd": -109.17285605,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 51.51822253,
-        "lonStart": -109.17948986,
-        "latEnd": 51.51197253,
-        "lonEnd": -109.17947286,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 13882
+    "id": 15256
   }
 ]

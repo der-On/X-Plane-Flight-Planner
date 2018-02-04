@@ -1,6 +1,43 @@
 [
   {
     "type": 1,
+    "icao": "FZIA",
+    "lat": 0.5174639999999999,
+    "lon": 25.155012499999998,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12190,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 1289,
+    "tower": true,
+    "name": "KISANGANI SIMISINI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 0.518678,
+        "lonStart": 25.145164,
+        "latEnd": 0.51625,
+        "lonEnd": 25.164861,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17633
+  },
+  {
+    "type": 1,
     "icao": "FZIC",
     "lat": 0.481646,
     "lon": 25.337958,
@@ -39,43 +76,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 1499
-  },
-  {
-    "type": 1,
-    "icao": "FZIA",
-    "lat": 0.5174639999999999,
-    "lon": 25.155012499999998,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12190,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 11810,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 1289,
-    "tower": true,
-    "name": "KISANGANI SIMISINI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 0.518678,
-        "lonStart": 25.145164,
-        "latEnd": 0.51625,
-        "lonEnd": 25.164861,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 13406
+    "id": 17634
   }
 ]

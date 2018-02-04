@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "EGFE",
-    "lat": 51.833805622499995,
-    "lon": -4.961813965,
+    "lat": 51.833799805,
+    "lon": -4.961787015,
     "communications": [
       {
         "type": 54,
@@ -19,12 +19,12 @@
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 51.82738585,
-        "lonStart": -4.96630092,
-        "latEnd": 51.8392272,
-        "lonEnd": -4.95539859,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 51.83409171,
+        "lonStart": -4.97062926,
+        "latEnd": 51.83451493,
+        "lonEnd": -4.95481621,
         "length": 0,
         "surfacetype": 1
       },
@@ -32,17 +32,88 @@
         "type": 100,
         "width": 45.11,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 51.83409451,
-        "lonStart": -4.97064962,
-        "latEnd": 51.83451493,
-        "lonEnd": -4.95490673,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 51.82734091,
+        "lonStart": -4.96633077,
+        "latEnd": 51.83925167,
+        "lonEnd": -4.95537182,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 11550
+    "id": 1533
+  },
+  {
+    "type": 1,
+    "icao": "EGFH",
+    "lat": 51.6029692025,
+    "lon": -4.068756535,
+    "communications": [],
+    "elevation": 298,
+    "tower": true,
+    "name": "Swansea",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 51.59986866,
+        "lonStart": -4.07418993,
+        "latEnd": 51.61052967,
+        "lonEnd": -4.06161063,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 18,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 51.60119815,
+        "lonStart": -4.07626119,
+        "latEnd": 51.60028033,
+        "lonEnd": -4.06296439,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1535
+  },
+  {
+    "type": 1,
+    "icao": "EGFP",
+    "lat": 51.713924254999995,
+    "lon": -4.31227189,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12440,
+        "name": "Pembrey Radio"
+      }
+    ],
+    "elevation": 15,
+    "tower": true,
+    "name": "Pembrey",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 51.71089637,
+        "lonStart": -4.31531847,
+        "latEnd": 51.71695214,
+        "lonEnd": -4.30922531,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1536
   },
   {
     "type": 1,
@@ -68,39 +139,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 15616
-  },
-  {
-    "type": 1,
-    "icao": "EGFP",
-    "lat": 51.71393577,
-    "lon": -4.312281055,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12440,
-        "name": "Pembrey Radio"
-      }
-    ],
-    "elevation": 15,
-    "tower": true,
-    "name": "Pembrey",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "8",
-        "numberEnd": "26",
-        "latStart": 51.71091354,
-        "lonStart": -4.31534311,
-        "latEnd": 51.716958,
-        "lonEnd": -4.309219,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19950
+    "id": 16274
   },
   {
     "type": 1,
@@ -168,58 +207,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 21796
-  },
-  {
-    "type": 1,
-    "icao": "EGFH",
-    "lat": 51.602631405000004,
-    "lon": -4.069216035,
-    "communications": [],
-    "elevation": 299,
-    "tower": true,
-    "name": "Swansea",
-    "runways": [
-      {
-        "type": 100,
-        "width": 46,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 51.59972489,
-        "lonStart": -4.07430426,
-        "latEnd": 51.61075151,
-        "lonEnd": -4.06169131,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 50,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 51.60131636,
-        "lonStart": -4.07717148,
-        "latEnd": 51.60021661,
-        "lonEnd": -4.06216448,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 46,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 51.60567555,
-        "lonStart": -4.07430872,
-        "latEnd": 51.59810351,
-        "lonEnd": -4.06565596,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 24464
+    "id": 16307
   }
 ]

@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "FARB",
+    "lat": -28.7410515,
+    "lon": 32.0920325,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11890,
+        "name": "TWR/APP"
+      }
+    ],
+    "elevation": 108,
+    "tower": true,
+    "name": "Richards Bay",
+    "runways": [
+      {
+        "type": 100,
+        "width": 21,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -28.745857,
+        "lonStart": 32.088323,
+        "latEnd": -28.736246,
+        "lonEnd": 32.095742,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2154
+  },
+  {
+    "type": 1,
     "icao": "FADK",
     "lat": -28.368402500000002,
     "lon": 32.248136,
@@ -23,43 +55,6 @@
         "surfacetype": 2
       }
     ],
-    "id": 5895
-  },
-  {
-    "type": 1,
-    "icao": "FARB",
-    "lat": -28.741039,
-    "lon": 32.092113,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11890,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11890,
-        "name": "APP"
-      }
-    ],
-    "elevation": 109,
-    "tower": true,
-    "name": "Richards Bay",
-    "runways": [
-      {
-        "type": 100,
-        "width": 21.03,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": -28.74588724,
-        "lonStart": 32.08838333,
-        "latEnd": -28.73619076,
-        "lonEnd": 32.09584267,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 21433
+    "id": 16800
   }
 ]

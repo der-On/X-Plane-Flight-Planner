@@ -1,6 +1,56 @@
 [
   {
     "type": 1,
+    "icao": "KHYR",
+    "lat": 46.02420001749999,
+    "lon": -91.44428905000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12645,
+        "name": "MINNEAPOLIS CNTR"
+      }
+    ],
+    "elevation": 1215,
+    "tower": false,
+    "name": "SAWYER CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 46.019638,
+        "lonStart": -91.44841772,
+        "latEnd": 46.03207307,
+        "lonEnd": -91.44006641,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 36.58,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 46.0239741,
+        "lonStart": -91.44496548,
+        "latEnd": 46.0211149,
+        "lonEnd": -91.44370659,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 2796
+  },
+  {
+    "type": 1,
     "icao": "Y77",
     "lat": 46.576329720000004,
     "lon": -91.45852223,
@@ -23,33 +73,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 2373
-  },
-  {
-    "type": 1,
-    "icao": "WI33",
-    "lat": 46.103554439999996,
-    "lon": -91.90240612,
-    "communications": [],
-    "elevation": 1056,
-    "tower": false,
-    "name": "Ben Sutherland",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 46.10639992,
-        "lonStart": -91.90226281,
-        "latEnd": 46.10070896,
-        "lonEnd": -91.90254943,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 2534
+    "id": 5570
   },
   {
     "type": 1,
@@ -71,8 +95,8 @@
         "type": 100,
         "width": 22.86,
         "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
+        "numberStart": "17",
+        "numberEnd": "35",
         "latStart": 46.199153,
         "lonStart": -91.248322,
         "latEnd": 46.189339,
@@ -94,7 +118,44 @@
         "surfacetype": 3
       }
     ],
-    "id": 3512
+    "id": 7486
+  },
+  {
+    "type": 1,
+    "icao": "KOLG",
+    "lat": 46.3147515,
+    "lon": -91.81637649999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      },
+      {
+        "type": 55,
+        "frequency": 12545,
+        "name": "DULUTH APP/DEP"
+      }
+    ],
+    "elevation": 1102,
+    "tower": false,
+    "name": "SOLON SPRINGS MUNICIPAL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 46.310542,
+        "lonStart": -91.8172,
+        "latEnd": 46.318961,
+        "lonEnd": -91.815553,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19621
   },
   {
     "type": 1,
@@ -133,7 +194,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 4697
+    "id": 31541
   },
   {
     "type": 1,
@@ -159,7 +220,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 5338
+    "id": 31549
   },
   {
     "type": 1,
@@ -185,120 +246,33 @@
         "surfacetype": 1
       }
     ],
-    "id": 16138
+    "id": 31555
   },
   {
     "type": 1,
-    "icao": "KHYR",
-    "lat": 46.02420001749999,
-    "lon": -91.44428905000001,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 12645,
-        "name": "MINNEAPOLIS CNTR"
-      }
-    ],
-    "elevation": 1215,
+    "icao": "WI33",
+    "lat": 46.103554439999996,
+    "lon": -91.90240612,
+    "communications": [],
+    "elevation": 1056,
     "tower": false,
-    "name": "SAWYER CO",
+    "name": "Ben Sutherland",
     "runways": [
       {
         "type": 100,
         "width": 30.48,
         "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 46.019638,
-        "lonStart": -91.44841772,
-        "latEnd": 46.03207307,
-        "lonEnd": -91.44006641,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 36.58,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 46.0239741,
-        "lonStart": -91.44496548,
-        "latEnd": 46.0211149,
-        "lonEnd": -91.44370659,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 46.10639992,
+        "lonStart": -91.90226281,
+        "latEnd": 46.10070896,
+        "lonEnd": -91.90254943,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 22102
-  },
-  {
-    "type": 1,
-    "icao": "KOLG",
-    "lat": 46.3147515,
-    "lon": -91.81637649999999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      },
-      {
-        "type": 55,
-        "frequency": 12545,
-        "name": "DULUTH APP/DEP"
-      }
-    ],
-    "elevation": 1102,
-    "tower": false,
-    "name": "SOLON SPRINGS MUNICIPAL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 46.310542,
-        "lonStart": -91.8172,
-        "latEnd": 46.318961,
-        "lonEnd": -91.815553,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22368
-  },
-  {
-    "type": 1,
-    "icao": "WS67",
-    "lat": 46.79993388,
-    "lon": -91.20851834,
-    "communications": [],
-    "elevation": 794,
-    "tower": false,
-    "name": "Vietmeier",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 46.80252742,
-        "lonStart": -91.20982289,
-        "latEnd": 46.79734034,
-        "lonEnd": -91.20721379,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 26319
+    "id": 31556
   },
   {
     "type": 16,
@@ -335,6 +309,32 @@
         "length": 0
       }
     ],
-    "id": 34405
+    "id": 31802
+  },
+  {
+    "type": 1,
+    "icao": "WS67",
+    "lat": 46.79993388,
+    "lon": -91.20851834,
+    "communications": [],
+    "elevation": 794,
+    "tower": false,
+    "name": "Vietmeier",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 46.80252742,
+        "lonStart": -91.20982289,
+        "latEnd": 46.79734034,
+        "lonEnd": -91.20721379,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 31840
   }
 ]

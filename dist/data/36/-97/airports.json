@@ -1,51 +1,9 @@
 [
   {
     "type": 1,
-    "icao": "KBVO",
-    "lat": 36.762465500000005,
-    "lon": -96.011146,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13267,
-        "name": "ASOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12000,
-        "name": "CTAF"
-      },
-      {
-        "type": 51,
-        "frequency": 12300,
-        "name": "UNICOM"
-      }
-    ],
-    "elevation": 712,
-    "tower": false,
-    "name": "Bartlesville Muni",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 36.770981,
-        "lonStart": -96.011361,
-        "latEnd": 36.75395,
-        "lonEnd": -96.010931,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 2293
-  },
-  {
-    "type": 1,
-    "icao": "95F",
-    "lat": 36.2837655,
-    "lon": -96.4633515,
+    "icao": "H76",
+    "lat": 36.67198168,
+    "lon": -96.405463615,
     "communications": [
       {
         "type": 51,
@@ -53,51 +11,67 @@
         "name": "CTAF"
       }
     ],
-    "elevation": 912,
+    "elevation": 1000,
     "tower": false,
-    "name": "CLEVELAND MUNI",
+    "name": "PAWHUSKA MUNI",
     "runways": [
       {
         "type": 100,
         "width": 18.29,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 36.289214,
-        "lonStart": -96.462486,
-        "latEnd": 36.278317,
-        "lonEnd": -96.464217,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 36.67637138,
+        "lonStart": -96.40549102,
+        "latEnd": 36.66759198,
+        "lonEnd": -96.40543621,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 3981
+    "id": 2266
   },
   {
     "type": 1,
-    "icao": "9OK7",
-    "lat": 36.18479,
-    "lon": -96.55030028,
-    "communications": [],
-    "elevation": 919,
+    "icao": "KOWP",
+    "lat": 36.175253585,
+    "lon": -96.151948895,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11832,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12400,
+        "name": "TULSA APP/DEP"
+      }
+    ],
+    "elevation": 891,
     "tower": false,
-    "name": "Cimarron Strip",
+    "name": "WILLIAM R POGUE MunIcipal",
     "runways": [
       {
         "type": 100,
-        "width": 15.24,
+        "width": 30.48,
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 36.18684222,
-        "lonStart": -96.55047808,
-        "latEnd": 36.18273778,
-        "lonEnd": -96.55012248,
+        "latStart": 36.18312614,
+        "lonStart": -96.15258047,
+        "latEnd": 36.16738103,
+        "lonEnd": -96.15131732,
         "length": 0,
-        "surfacetype": 4
+        "surfacetype": 1
       }
     ],
-    "id": 4998
+    "id": 3091
   },
   {
     "type": 1,
@@ -136,253 +110,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 5543
-  },
-  {
-    "type": 1,
-    "icao": "3OK7",
-    "lat": 36.241752219999995,
-    "lon": -96.13417195,
-    "communications": [],
-    "elevation": 790,
-    "tower": false,
-    "name": "Double W",
-    "runways": [
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 36.24475297,
-        "lonStart": -96.1337809,
-        "latEnd": 36.23875147,
-        "lonEnd": -96.134563,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 6433
-  },
-  {
-    "type": 1,
-    "icao": "3OK8",
-    "lat": 36.11674916,
-    "lon": -96.23361806,
-    "communications": [],
-    "elevation": 890,
-    "tower": false,
-    "name": "Flying G Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 36.12026234,
-        "lonStart": -96.23470238,
-        "latEnd": 36.11323598,
-        "lonEnd": -96.23253374,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 36.11894921,
-        "lonStart": -96.23624806,
-        "latEnd": 36.11454911,
-        "lonEnd": -96.23098806,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9441
-  },
-  {
-    "type": 1,
-    "icao": "H92",
-    "lat": 36.442750000000004,
-    "lon": -96.387225,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 825,
-    "tower": false,
-    "name": "HOMINY MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 36.447158,
-        "lonStart": -96.387225,
-        "latEnd": 36.438342,
-        "lonEnd": -96.387225,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 11179
-  },
-  {
-    "type": 1,
-    "icao": "4F1",
-    "lat": 36.22229888,
-    "lon": -96.34612584,
-    "communications": [],
-    "elevation": 900,
-    "tower": false,
-    "name": "Keystone Air Park",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 36.21908116,
-        "lonStart": -96.34902372,
-        "latEnd": 36.2255166,
-        "lonEnd": -96.34322796,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 13810
-  },
-  {
-    "type": 1,
-    "icao": "6OK9",
-    "lat": 36.141721110000006,
-    "lon": -96.94225528,
-    "communications": [],
-    "elevation": 950,
-    "tower": false,
-    "name": "Mulberry Hill",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 36.14537407,
-        "lonStart": -96.94257159,
-        "latEnd": 36.13806815,
-        "lonEnd": -96.94193897,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 17693
-  },
-  {
-    "type": 1,
-    "icao": "H76",
-    "lat": 36.671665000000004,
-    "lon": -96.405556,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 1000,
-    "tower": false,
-    "name": "PAWHUSKA MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 36.676108,
-        "lonStart": -96.405831,
-        "latEnd": 36.667222,
-        "lonEnd": -96.405281,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19261
-  },
-  {
-    "type": 1,
-    "icao": "H97",
-    "lat": 36.38338555,
-    "lon": -96.8103125,
-    "communications": [],
-    "elevation": 875,
-    "tower": false,
-    "name": "Pawnee Municipal",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 36.38629082,
-        "lonStart": -96.80993321,
-        "latEnd": 36.38048028,
-        "lonEnd": -96.81069179,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 36.38530936,
-        "lonStart": -96.81262014,
-        "latEnd": 36.38146174,
-        "lonEnd": -96.80800486,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 19876
-  },
-  {
-    "type": 1,
-    "icao": "03OK",
-    "lat": 36.04119722,
-    "lon": -96.16138889,
-    "communications": [],
-    "elevation": 890,
-    "tower": false,
-    "name": "Sahoma Lake",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 36.04283399,
-        "lonStart": -96.16117614,
-        "latEnd": 36.03956045,
-        "lonEnd": -96.16160164,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 22680
+    "id": 6090
   },
   {
     "type": 1,
@@ -421,249 +149,124 @@
         "surfacetype": 3
       }
     ],
-    "id": 23601
+    "id": 6945
   },
   {
     "type": 1,
-    "icao": "0F8",
-    "lat": 36.175276499999995,
-    "lon": -96.1518415,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11832,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12270,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 12400,
-        "name": "TULSA APP/DEP"
-      }
-    ],
-    "elevation": 891,
+    "icao": "03OK",
+    "lat": 36.04119722,
+    "lon": -96.16138889,
+    "communications": [],
+    "elevation": 890,
     "tower": false,
-    "name": "WILLIAM R POGUE MUNI",
+    "name": "Sahoma Lake",
     "runways": [
       {
         "type": 100,
-        "width": 30.48,
+        "width": 15.24,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 36.183217,
-        "lonStart": -96.152636,
-        "latEnd": 36.167336,
-        "lonEnd": -96.151047,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 36.04283399,
+        "lonStart": -96.16117614,
+        "latEnd": 36.03956045,
+        "lonEnd": -96.16160164,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7787
+  },
+  {
+    "type": 1,
+    "icao": "3OK7",
+    "lat": 36.241752219999995,
+    "lon": -96.13417195,
+    "communications": [],
+    "elevation": 790,
+    "tower": false,
+    "name": "Double W",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 36.24475297,
+        "lonStart": -96.1337809,
+        "latEnd": 36.23875147,
+        "lonEnd": -96.134563,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7794
+  },
+  {
+    "type": 1,
+    "icao": "3OK8",
+    "lat": 36.11674916,
+    "lon": -96.23361806,
+    "communications": [],
+    "elevation": 890,
+    "tower": false,
+    "name": "Flying G Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 36.12026234,
+        "lonStart": -96.23470238,
+        "latEnd": 36.11323598,
+        "lonEnd": -96.23253374,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 36.11894921,
+        "lonStart": -96.23624806,
+        "latEnd": 36.11454911,
+        "lonEnd": -96.23098806,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7795
+  },
+  {
+    "type": 1,
+    "icao": "4F1",
+    "lat": 36.22229888,
+    "lon": -96.34612584,
+    "communications": [],
+    "elevation": 900,
+    "tower": false,
+    "name": "Keystone Air Park",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 36.21908116,
+        "lonStart": -96.34902372,
+        "latEnd": 36.2255166,
+        "lonEnd": -96.34322796,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 26658
-  },
-  {
-    "type": 17,
-    "icao": "OK76",
-    "lat": 36.11620305,
-    "lon": -96.02610917,
-    "communications": [],
-    "elevation": 910,
-    "tower": false,
-    "name": "[H] Channel 8",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 36.11620305,
-        "lonStart": -96.02610917,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 28887
-  },
-  {
-    "type": 17,
-    "icao": "8OK3",
-    "lat": 36.31673333,
-    "lon": -96.50030167,
-    "communications": [],
-    "elevation": 959,
-    "tower": false,
-    "name": "[H] Cleveland Area Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 7.6,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 36.31673333,
-        "lonStart": -96.50030167,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 29006
-  },
-  {
-    "type": 17,
-    "icao": "68OK",
-    "lat": 36.56671388,
-    "lon": -96.71697695,
-    "communications": [],
-    "elevation": 958,
-    "tower": false,
-    "name": "[H] Fairfax",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 36.56671388,
-        "lonStart": -96.71697695,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 29640
-  },
-  {
-    "type": 17,
-    "icao": "OL01",
-    "lat": 36.12897527,
-    "lon": -96.14417001,
-    "communications": [],
-    "elevation": 652,
-    "tower": false,
-    "name": "[H] Hissom Memorial Center",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 36.12897527,
-        "lonStart": -96.14417001,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 30255
-  },
-  {
-    "type": 17,
-    "icao": "OK61",
-    "lat": 36.10342638,
-    "lon": -96.00360806,
-    "communications": [],
-    "elevation": 628,
-    "tower": false,
-    "name": "[H] Major",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 36.10342638,
-        "lonStart": -96.00360806,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 31049
-  },
-  {
-    "type": 17,
-    "icao": "78OK",
-    "lat": 36.66673166,
-    "lon": -96.33361945,
-    "communications": [],
-    "elevation": 877,
-    "tower": false,
-    "name": "[H] Pawhuska",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 36.66673166,
-        "lonStart": -96.33361945,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 31935
-  },
-  {
-    "type": 17,
-    "icao": "9OK2",
-    "lat": 36.33338777,
-    "lon": -96.80031195,
-    "communications": [],
-    "elevation": 924,
-    "tower": false,
-    "name": "[H] Pawnee Municipal Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 36.33338777,
-        "lonStart": -96.80031195,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 31936
-  },
-  {
-    "type": 17,
-    "icao": "82OK",
-    "lat": 36.00009055,
-    "lon": -96.09194334,
-    "communications": [],
-    "elevation": 750,
-    "tower": false,
-    "name": "[H] W D Robinson",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 36.00009055,
-        "lonStart": -96.09194334,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 33666
+    "id": 8031
   },
   {
     "type": 1,
@@ -689,6 +292,403 @@
         "surfacetype": 1
       }
     ],
-    "id": 34559
+    "id": 8552
+  },
+  {
+    "type": 1,
+    "icao": "6OK9",
+    "lat": 36.141721110000006,
+    "lon": -96.94225528,
+    "communications": [],
+    "elevation": 950,
+    "tower": false,
+    "name": "Mulberry Hill",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 36.14537407,
+        "lonStart": -96.94257159,
+        "latEnd": 36.13806815,
+        "lonEnd": -96.94193897,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9341
+  },
+  {
+    "type": 17,
+    "icao": "8OK3",
+    "lat": 36.31673333,
+    "lon": -96.50030167,
+    "communications": [],
+    "elevation": 959,
+    "tower": false,
+    "name": "[H] Cleveland Area Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 7.6,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.31673333,
+        "lonStart": -96.50030167,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 10275
+  },
+  {
+    "type": 17,
+    "icao": "9OK2",
+    "lat": 36.33338777,
+    "lon": -96.80031195,
+    "communications": [],
+    "elevation": 924,
+    "tower": false,
+    "name": "[H] Pawnee Municipal Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.33338777,
+        "lonStart": -96.80031195,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 10715
+  },
+  {
+    "type": 1,
+    "icao": "9OK7",
+    "lat": 36.18479,
+    "lon": -96.55030028,
+    "communications": [],
+    "elevation": 919,
+    "tower": false,
+    "name": "Cimarron Strip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 36.18684222,
+        "lonStart": -96.55047808,
+        "latEnd": 36.18273778,
+        "lonEnd": -96.55012248,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 10720
+  },
+  {
+    "type": 17,
+    "icao": "68OK",
+    "lat": 36.56671388,
+    "lon": -96.71697695,
+    "communications": [],
+    "elevation": 958,
+    "tower": false,
+    "name": "[H] Fairfax",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.56671388,
+        "lonStart": -96.71697695,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 13207
+  },
+  {
+    "type": 17,
+    "icao": "78OK",
+    "lat": 36.66673166,
+    "lon": -96.33361945,
+    "communications": [],
+    "elevation": 877,
+    "tower": false,
+    "name": "[H] Pawhuska",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.66673166,
+        "lonStart": -96.33361945,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 13607
+  },
+  {
+    "type": 17,
+    "icao": "82OK",
+    "lat": 36.00009055,
+    "lon": -96.09194334,
+    "communications": [],
+    "elevation": 750,
+    "tower": false,
+    "name": "[H] W D Robinson",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.00009055,
+        "lonStart": -96.09194334,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 13760
+  },
+  {
+    "type": 1,
+    "icao": "95F",
+    "lat": 36.2837655,
+    "lon": -96.4633515,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 912,
+    "tower": false,
+    "name": "CLEVELAND MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 36.289214,
+        "lonStart": -96.462486,
+        "latEnd": 36.278317,
+        "lonEnd": -96.464217,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 14191
+  },
+  {
+    "type": 1,
+    "icao": "H92",
+    "lat": 36.442750000000004,
+    "lon": -96.387225,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 825,
+    "tower": false,
+    "name": "HOMINY MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 36.447158,
+        "lonStart": -96.387225,
+        "latEnd": 36.438342,
+        "lonEnd": -96.387225,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 17865
+  },
+  {
+    "type": 1,
+    "icao": "H97",
+    "lat": 36.38338555,
+    "lon": -96.8103125,
+    "communications": [],
+    "elevation": 875,
+    "tower": false,
+    "name": "Pawnee Municipal",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 36.38629082,
+        "lonStart": -96.80993321,
+        "latEnd": 36.38048028,
+        "lonEnd": -96.81069179,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 36.38530936,
+        "lonStart": -96.81262014,
+        "latEnd": 36.38146174,
+        "lonEnd": -96.80800486,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 17867
+  },
+  {
+    "type": 1,
+    "icao": "KBVO",
+    "lat": 36.762465500000005,
+    "lon": -96.011146,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13267,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12000,
+        "name": "CTAF"
+      },
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "UNICOM"
+      }
+    ],
+    "elevation": 712,
+    "tower": false,
+    "name": "Bartlesville Muni",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 36.770981,
+        "lonStart": -96.011361,
+        "latEnd": 36.75395,
+        "lonEnd": -96.010931,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 18901
+  },
+  {
+    "type": 17,
+    "icao": "OK61",
+    "lat": 36.10342638,
+    "lon": -96.00360806,
+    "communications": [],
+    "elevation": 628,
+    "tower": false,
+    "name": "[H] Major",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.10342638,
+        "lonStart": -96.00360806,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 23512
+  },
+  {
+    "type": 17,
+    "icao": "OK76",
+    "lat": 36.11620305,
+    "lon": -96.02610917,
+    "communications": [],
+    "elevation": 910,
+    "tower": false,
+    "name": "[H] Channel 8",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.11620305,
+        "lonStart": -96.02610917,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 23521
+  },
+  {
+    "type": 17,
+    "icao": "OL01",
+    "lat": 36.12897527,
+    "lon": -96.14417001,
+    "communications": [],
+    "elevation": 652,
+    "tower": false,
+    "name": "[H] Hissom Memorial Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 18.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.12897527,
+        "lonStart": -96.14417001,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 18.3
+      }
+    ],
+    "id": 23545
   }
 ]

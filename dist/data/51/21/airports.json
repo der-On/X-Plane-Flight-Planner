@@ -1,45 +1,40 @@
 [
   {
     "type": 1,
-    "icao": "EPDE",
-    "lat": 51.551180195,
-    "lon": 21.891074675,
+    "icao": "EPRA",
+    "lat": 51.3888309,
+    "lon": 21.211627485,
     "communications": [
       {
-        "type": 50,
-        "frequency": 12850,
-        "name": "AFIS INFO"
-      },
-      {
         "type": 54,
-        "frequency": 12275,
-        "name": "DEBLIN TOWER"
+        "frequency": 13100,
+        "name": "Radom TOWER"
       },
       {
         "type": 55,
-        "frequency": 12825,
-        "name": "DEBLIN APPROACH"
+        "frequency": 12867,
+        "name": "Radom APPROACH"
       }
     ],
-    "elevation": 388,
+    "elevation": 623,
     "tower": true,
-    "name": "DEBLIN",
+    "name": "RADOM SADKOW",
     "runways": [
       {
         "type": 100,
-        "width": 60.05,
+        "width": 60.24,
         "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 51.55688638,
-        "lonStart": 21.87548337,
-        "latEnd": 51.54547401,
-        "lonEnd": 21.90666598,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 51.3865118,
+        "lonStart": 21.1977633,
+        "latEnd": 51.39115,
+        "lonEnd": 21.22549167,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 5718
+    "id": 1850
   },
   {
     "type": 1,
@@ -78,44 +73,49 @@
         "surfacetype": 3
       }
     ],
-    "id": 20083
+    "id": 1852
   },
   {
     "type": 1,
-    "icao": "EPRA",
-    "lat": 51.388827825,
-    "lon": 21.21163328,
+    "icao": "EPDE",
+    "lat": 51.551180195,
+    "lon": 21.891074675,
     "communications": [
       {
+        "type": 50,
+        "frequency": 12850,
+        "name": "AFIS INFO"
+      },
+      {
         "type": 54,
-        "frequency": 13100,
-        "name": "Radom TOWER"
+        "frequency": 12275,
+        "name": "DEBLIN TOWER"
       },
       {
         "type": 55,
-        "frequency": 12867,
-        "name": "Radom APPROACH"
+        "frequency": 12825,
+        "name": "DEBLIN APPROACH"
       }
     ],
-    "elevation": 623,
+    "elevation": 388,
     "tower": true,
-    "name": "RADOM SADKOW",
+    "name": "DEBLIN",
     "runways": [
       {
         "type": 100,
-        "width": 60.24,
+        "width": 60.05,
         "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 51.3865118,
-        "lonStart": 21.1977633,
-        "latEnd": 51.39114385,
-        "lonEnd": 21.22550326,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 51.55688638,
+        "lonStart": 21.87548337,
+        "latEnd": 51.54547401,
+        "lonEnd": 21.90666598,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 20756
+    "id": 16640
   },
   {
     "type": 1,
@@ -141,6 +141,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 23792
+    "id": 16664
   }
 ]

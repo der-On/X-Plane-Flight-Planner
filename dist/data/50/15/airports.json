@@ -1,6 +1,71 @@
 [
   {
     "type": 1,
+    "icao": "EPJG",
+    "lat": 50.8984293225,
+    "lon": 15.786594465,
+    "communications": [],
+    "elevation": 1122,
+    "tower": false,
+    "name": "Jelenia Gora",
+    "runways": [
+      {
+        "type": 100,
+        "width": 100,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 50.89716704,
+        "lonStart": 15.78681203,
+        "latEnd": 50.8988788,
+        "lonEnd": 15.78934241,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 213.91,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 50.90025808,
+        "lonStart": 15.78019222,
+        "latEnd": 50.89741337,
+        "lonEnd": 15.7900312,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1814
+  },
+  {
+    "type": 1,
+    "icao": "EPJS",
+    "lat": 50.94334806,
+    "lon": 15.763482415,
+    "communications": [],
+    "elevation": 1833,
+    "tower": false,
+    "name": "Jezow Sudecki",
+    "runways": [
+      {
+        "type": 100,
+        "width": 90,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 50.94248502,
+        "lonStart": 15.76147014,
+        "latEnd": 50.9442111,
+        "lonEnd": 15.76549469,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1815
+  },
+  {
+    "type": 1,
     "icao": "LKDK",
     "lat": 50.414208204999994,
     "lon": 15.837059100000001,
@@ -29,39 +94,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 6591
-  },
-  {
-    "type": 1,
-    "icao": "LKHD",
-    "lat": 50.657311,
-    "lon": 15.07789193,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12090,
-        "name": "INFO"
-      }
-    ],
-    "elevation": 1479,
-    "tower": true,
-    "name": "Hodkovice",
-    "runways": [
-      {
-        "type": 100,
-        "width": 99.97,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 50.65295734,
-        "lonStart": 15.07676129,
-        "latEnd": 50.66166466,
-        "lonEnd": 15.07902257,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11916
+    "id": 20575
   },
   {
     "type": 1,
@@ -93,7 +126,39 @@
         "surfacetype": 3
       }
     ],
-    "id": 12047
+    "id": 20579
+  },
+  {
+    "type": 1,
+    "icao": "LKHD",
+    "lat": 50.657311,
+    "lon": 15.07789193,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12090,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 1479,
+    "tower": true,
+    "name": "Hodkovice",
+    "runways": [
+      {
+        "type": 100,
+        "width": 99.97,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 50.65295734,
+        "lonStart": 15.07676129,
+        "latEnd": 50.66166466,
+        "lonEnd": 15.07902257,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20580
   },
   {
     "type": 1,
@@ -138,7 +203,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 12125
+    "id": 20581
   },
   {
     "type": 1,
@@ -170,72 +235,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 12920
-  },
-  {
-    "type": 1,
-    "icao": "EPJG",
-    "lat": 50.8984293225,
-    "lon": 15.786594465,
-    "communications": [],
-    "elevation": 1122,
-    "tower": false,
-    "name": "Jelenia Gora",
-    "runways": [
-      {
-        "type": 100,
-        "width": 100,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 50.89716704,
-        "lonStart": 15.78681203,
-        "latEnd": 50.8988788,
-        "lonEnd": 15.78934241,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 213.91,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 50.90025808,
-        "lonStart": 15.78019222,
-        "latEnd": 50.89741337,
-        "lonEnd": 15.7900312,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 12942
-  },
-  {
-    "type": 1,
-    "icao": "EPJS",
-    "lat": 50.94334806,
-    "lon": 15.763482415,
-    "communications": [],
-    "elevation": 1833,
-    "tower": false,
-    "name": "Jezow Sudecki",
-    "runways": [
-      {
-        "type": 100,
-        "width": 90,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 50.94248502,
-        "lonStart": 15.76147014,
-        "latEnd": 50.9442111,
-        "lonEnd": 15.76549469,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 12983
+    "id": 20585
   },
   {
     "type": 1,
@@ -267,7 +267,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 12986
+    "id": 20586
   },
   {
     "type": 1,
@@ -312,7 +312,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 14055
+    "id": 20594
   },
   {
     "type": 1,
@@ -344,7 +344,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 15240
+    "id": 20599
   },
   {
     "type": 1,
@@ -389,7 +389,7 @@
         "surfacetype": 2
       }
     ],
-    "id": 17329
+    "id": 20603
   },
   {
     "type": 1,
@@ -415,7 +415,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 18564
+    "id": 20612
   },
   {
     "type": 1,
@@ -471,7 +471,7 @@
         "length": 14.02
       }
     ],
-    "id": 19772
+    "id": 20617
   },
   {
     "type": 1,
@@ -503,6 +503,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 26412
+    "id": 20651
   }
 ]

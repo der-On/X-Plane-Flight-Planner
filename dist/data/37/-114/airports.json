@@ -1,6 +1,48 @@
 [
   {
     "type": 1,
+    "icao": "KSGU",
+    "lat": 37.0363765,
+    "lon": -113.5103,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13507,
+        "name": "WX AWOS-3 at SGU"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/Unicom"
+      },
+      {
+        "type": 55,
+        "frequency": 12420,
+        "name": "LA Center APP/DEP Con"
+      }
+    ],
+    "elevation": 2883,
+    "tower": false,
+    "name": "St George Regional",
+    "runways": [
+      {
+        "type": 100,
+        "width": 46.02,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 37.02462,
+        "lonStart": -113.516522,
+        "latEnd": 37.048133,
+        "lonEnd": -113.504078,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3259
+  },
+  {
+    "type": 1,
     "icao": "1L6",
     "lat": 37.7099725,
     "lon": -113.64579834,
@@ -23,7 +65,39 @@
         "surfacetype": 5
       }
     ],
-    "id": 2622
+    "id": 6492
+  },
+  {
+    "type": 1,
+    "icao": "1L8",
+    "lat": 37.138872,
+    "lon": -113.30633850000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 3347,
+    "tower": false,
+    "name": "GENERAL DICK STOUT FIELD",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 37.143425,
+        "lonStart": -113.304969,
+        "latEnd": 37.134319,
+        "lonEnd": -113.307708,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 6493
   },
   {
     "type": 1,
@@ -78,7 +152,109 @@
         "surfacetype": 1
       }
     ],
-    "id": 3752
+    "id": 18925
+  },
+  {
+    "type": 17,
+    "icao": "UT12",
+    "lat": 37.68747666,
+    "lon": -113.08550445,
+    "communications": [],
+    "elevation": 5668,
+    "tower": false,
+    "name": "[H] Gilbert Development Shop",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 37.68747666,
+        "lonStart": -113.08550445,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 30527
+  },
+  {
+    "type": 1,
+    "icao": "UT27",
+    "lat": 37.25109333,
+    "lon": -113.20855778,
+    "communications": [],
+    "elevation": 5105,
+    "tower": false,
+    "name": "Hurricane Mesa",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 37.25768514,
+        "lonStart": -113.21093239,
+        "latEnd": 37.24450152,
+        "lonEnd": -113.20618317,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 30540
+  },
+  {
+    "type": 1,
+    "icao": "UT28",
+    "lat": 37.974968880000006,
+    "lon": -113.46329834,
+    "communications": [],
+    "elevation": 5110,
+    "tower": false,
+    "name": "Sun Valley Estates",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 37.98044148,
+        "lonStart": -113.46281288,
+        "latEnd": 37.96949628,
+        "lonEnd": -113.4637838,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 30541
+  },
+  {
+    "type": 17,
+    "icao": "UT36",
+    "lat": 37.31664805,
+    "lon": -113.31745,
+    "communications": [],
+    "elevation": 5313,
+    "tower": false,
+    "name": "[H] Wecco",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 37.31664805,
+        "lonStart": -113.31745,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 30547
   },
   {
     "type": 1,
@@ -104,65 +280,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 5031
-  },
-  {
-    "type": 1,
-    "icao": "UT54",
-    "lat": 37.25331527,
-    "lon": -113.33411584000001,
-    "communications": [],
-    "elevation": 3670,
-    "tower": false,
-    "name": "Crystal Springs Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 37.25075019,
-        "lonStart": -113.33722786,
-        "latEnd": 37.25588035,
-        "lonEnd": -113.33100382,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 5547
-  },
-  {
-    "type": 1,
-    "icao": "1L8",
-    "lat": 37.138872,
-    "lon": -113.30633850000001,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 3347,
-    "tower": false,
-    "name": "GENERAL DICK STOUT FIELD",
-    "runways": [
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 37.143425,
-        "lonStart": -113.304969,
-        "latEnd": 37.134319,
-        "lonEnd": -113.307708,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 9925
+    "id": 30554
   },
   {
     "type": 1,
@@ -194,176 +312,32 @@
         "surfacetype": 1
       }
     ],
-    "id": 10124
+    "id": 30557
   },
   {
     "type": 1,
-    "icao": "UT27",
-    "lat": 37.25109333,
-    "lon": -113.20855778,
+    "icao": "UT54",
+    "lat": 37.25331527,
+    "lon": -113.33411584000001,
     "communications": [],
-    "elevation": 5105,
+    "elevation": 3670,
     "tower": false,
-    "name": "Hurricane Mesa",
+    "name": "Crystal Springs Ranch",
     "runways": [
       {
         "type": 100,
         "width": 24.38,
         "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 37.25768514,
-        "lonStart": -113.21093239,
-        "latEnd": 37.24450152,
-        "lonEnd": -113.20618317,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 12220
-  },
-  {
-    "type": 1,
-    "icao": "KDXZ",
-    "lat": 37.036616825,
-    "lon": -113.510660005,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13507,
-        "name": "WX AWOS-3 at SGU"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/Unicom"
-      },
-      {
-        "type": 55,
-        "frequency": 12420,
-        "name": "LA Center APP/DEP Con"
-      }
-    ],
-    "elevation": 2884,
-    "tower": true,
-    "name": "St George Muni",
-    "runways": [
-      {
-        "type": 100,
-        "width": 46.02,
-        "surfaceType": null,
-        "numberStart": "1",
-        "numberEnd": "19",
-        "latStart": 37.02500675,
-        "lonStart": -113.51727615,
-        "latEnd": 37.0482269,
-        "lonEnd": -113.50404386,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 24039
-  },
-  {
-    "type": 1,
-    "icao": "UT28",
-    "lat": 37.974968880000006,
-    "lon": -113.46329834,
-    "communications": [],
-    "elevation": 5110,
-    "tower": false,
-    "name": "Sun Valley Estates",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 37.98044148,
-        "lonStart": -113.46281288,
-        "latEnd": 37.96949628,
-        "lonEnd": -113.4637838,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 37.25075019,
+        "lonStart": -113.33722786,
+        "latEnd": 37.25588035,
+        "lonEnd": -113.33100382,
         "length": 0,
         "surfacetype": 4
       }
     ],
-    "id": 24363
-  },
-  {
-    "type": 17,
-    "icao": "UT12",
-    "lat": 37.68747666,
-    "lon": -113.08550445,
-    "communications": [],
-    "elevation": 5668,
-    "tower": false,
-    "name": "[H] Gilbert Development Shop",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 37.68747666,
-        "lonStart": -113.08550445,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 29930
-  },
-  {
-    "type": 17,
-    "icao": "UT36",
-    "lat": 37.31664805,
-    "lon": -113.31745,
-    "communications": [],
-    "elevation": 5313,
-    "tower": false,
-    "name": "[H] Wecco",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 37.31664805,
-        "lonStart": -113.31745,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 33766
-  },
-  {
-    "type": 1,
-    "icao": "KSGU",
-    "lat": 37.090590315,
-    "lon": -113.59307512,
-    "communications": [],
-    "elevation": 2939,
-    "tower": false,
-    "name": "[X] St George Muni",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 37.09965032,
-        "lonStart": -113.59303424,
-        "latEnd": 37.08153031,
-        "lonEnd": -113.593116,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 34577
+    "id": 30564
   }
 ]

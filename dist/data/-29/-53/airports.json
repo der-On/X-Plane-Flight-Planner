@@ -1,6 +1,63 @@
 [
   {
     "type": 1,
+    "icao": "SBPF",
+    "lat": -28.2439905,
+    "lon": -52.327670499999996,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13125,
+        "name": "PASSO FUNDO RDO"
+      }
+    ],
+    "elevation": 2376,
+    "tower": false,
+    "name": "Lauro Kurtz",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": -28.24685,
+        "lonStart": -52.335783,
+        "latEnd": -28.241131,
+        "lonEnd": -52.319558,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 25142
+  },
+  {
+    "type": 17,
+    "icao": "SJEP",
+    "lat": -28.44333333,
+    "lon": -52.81388889,
+    "communications": [],
+    "elevation": 523,
+    "tower": false,
+    "name": "[H] Sementes Roos",
+    "runways": [
+      {
+        "type": 102,
+        "width": 22.9,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -28.44333333,
+        "lonStart": -52.81388889,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 22.9
+      }
+    ],
+    "id": 26832
+  },
+  {
+    "type": 1,
     "icao": "SSAQ",
     "lat": -28.2502785,
     "lon": -52.516666400000005,
@@ -36,85 +93,7 @@
         "surfacetype": 2
       }
     ],
-    "id": 622
-  },
-  {
-    "type": 1,
-    "icao": "SSYQ",
-    "lat": -28.37888889,
-    "lon": -52.87944444,
-    "communications": [],
-    "elevation": 1751,
-    "tower": false,
-    "name": "Agropecuaria Monte Alverne",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": -28.38148012,
-        "lonStart": -52.88124003,
-        "latEnd": -28.37629766,
-        "lonEnd": -52.87764885,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 702
-  },
-  {
-    "type": 1,
-    "icao": "SSKZ",
-    "lat": -28.322486,
-    "lon": -52.8169165,
-    "communications": [],
-    "elevation": 1854,
-    "tower": true,
-    "name": "Carazinho",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": -28.321411,
-        "lonStart": -52.824819,
-        "latEnd": -28.323561,
-        "lonEnd": -52.809014,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 4531
-  },
-  {
-    "type": 1,
-    "icao": "SSEZ",
-    "lat": -28.7375,
-    "lon": -52.856388890000005,
-    "communications": [],
-    "elevation": 1198,
-    "tower": false,
-    "name": "Espumoso",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": -28.73955935,
-        "lonStart": -52.85931362,
-        "latEnd": -28.73544065,
-        "lonEnd": -52.85346416,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 7279
+    "id": 28326
   },
   {
     "type": 1,
@@ -140,39 +119,59 @@
         "surfacetype": 4
       }
     ],
-    "id": 8183
+    "id": 28380
   },
   {
     "type": 1,
-    "icao": "SBPF",
-    "lat": -28.2439905,
-    "lon": -52.327670499999996,
-    "communications": [
+    "icao": "SSEZ",
+    "lat": -28.7375,
+    "lon": -52.856388890000005,
+    "communications": [],
+    "elevation": 1198,
+    "tower": false,
+    "name": "Espumoso",
+    "runways": [
       {
-        "type": 54,
-        "frequency": 13125,
-        "name": "PASSO FUNDO RDO"
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -28.73955935,
+        "lonStart": -52.85931362,
+        "latEnd": -28.73544065,
+        "lonEnd": -52.85346416,
+        "length": 0,
+        "surfacetype": 4
       }
     ],
-    "elevation": 2376,
-    "tower": false,
-    "name": "Lauro Kurtz",
+    "id": 28432
+  },
+  {
+    "type": 1,
+    "icao": "SSKZ",
+    "lat": -28.322486,
+    "lon": -52.8169165,
+    "communications": [],
+    "elevation": 1854,
+    "tower": true,
+    "name": "Carazinho",
     "runways": [
       {
         "type": 100,
         "width": 22.86,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": -28.24685,
-        "lonStart": -52.335783,
-        "latEnd": -28.241131,
-        "lonEnd": -52.319558,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": -28.321411,
+        "lonStart": -52.824819,
+        "latEnd": -28.323561,
+        "lonEnd": -52.809014,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 15022
+    "id": 28583
   },
   {
     "type": 1,
@@ -198,31 +197,32 @@
         "surfacetype": 2
       }
     ],
-    "id": 23811
+    "id": 28755
   },
   {
-    "type": 17,
-    "icao": "SJEP",
-    "lat": -28.44333333,
-    "lon": -52.81388889,
+    "type": 1,
+    "icao": "SSYQ",
+    "lat": -28.37888889,
+    "lon": -52.87944444,
     "communications": [],
-    "elevation": 523,
+    "elevation": 1751,
     "tower": false,
-    "name": "[H] Sementes Roos",
+    "name": "Agropecuaria Monte Alverne",
     "runways": [
       {
-        "type": 102,
-        "width": 22.9,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -28.44333333,
-        "lonStart": -52.81388889,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 22.9
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -28.38148012,
+        "lonStart": -52.88124003,
+        "latEnd": -28.37629766,
+        "lonEnd": -52.87764885,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 32639
+    "id": 28909
   }
 ]

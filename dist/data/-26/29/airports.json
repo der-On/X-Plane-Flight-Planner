@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "FAWI",
+    "lat": -25.8323325,
+    "lon": 29.191955,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12350,
+        "name": "Traffic"
+      }
+    ],
+    "elevation": 5078,
+    "tower": true,
+    "name": "Witbank",
+    "runways": [
+      {
+        "type": 100,
+        "width": 11,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": -25.837638,
+        "lonStart": 29.189925,
+        "latEnd": -25.827027,
+        "lonEnd": 29.193985,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2163
+  },
+  {
+    "type": 1,
     "icao": "FAMB",
     "lat": -25.6832505,
     "lon": 29.4409615,
@@ -36,38 +68,6 @@
         "surfacetype": 5
       }
     ],
-    "id": 17148
-  },
-  {
-    "type": 1,
-    "icao": "FAWI",
-    "lat": -25.832294,
-    "lon": 29.19202,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12350,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 5078,
-    "tower": false,
-    "name": "Witbank",
-    "runways": [
-      {
-        "type": 100,
-        "width": 10.97,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": -25.83769115,
-        "lonStart": 29.18995529,
-        "latEnd": -25.82689685,
-        "lonEnd": 29.19408471,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 27468
+    "id": 16821
   }
 ]

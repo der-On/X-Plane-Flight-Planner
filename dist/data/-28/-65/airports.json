@@ -1,64 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "SA95",
-    "lat": -27.90138889,
-    "lon": -64.24972222,
-    "communications": [],
-    "elevation": 689,
-    "tower": false,
-    "name": "SANTIAGO DEL ESTERO GOBERNADOR SANTILL",
-    "runways": [
-      {
-        "type": 100,
-        "width": 17.98,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": -27.90269753,
-        "lonStart": -64.25198885,
-        "latEnd": -27.90008025,
-        "lonEnd": -64.24745559,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 22060
-  },
-  {
-    "type": 1,
-    "icao": "SANR",
-    "lat": -27.4967875,
-    "lon": -64.9363395,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11830,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 919,
-    "tower": true,
-    "name": "TERMAS DE RIO HONDO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "1",
-        "numberEnd": "19",
-        "latStart": -27.508064,
-        "lonStart": -64.936632,
-        "latEnd": -27.485511,
-        "lonEnd": -64.936047,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 24657
-  },
-  {
-    "type": 1,
     "icao": "SANE",
     "lat": -27.762310515,
     "lon": -64.304732045,
@@ -111,6 +53,64 @@
         "length": 12.2
       }
     ],
-    "id": 26300
+    "id": 4551
+  },
+  {
+    "type": 1,
+    "icao": "SA95",
+    "lat": -27.90138889,
+    "lon": -64.24972222,
+    "communications": [],
+    "elevation": 689,
+    "tower": false,
+    "name": "SANTIAGO DEL ESTERO GOBERNADOR SANTILL",
+    "runways": [
+      {
+        "type": 100,
+        "width": 17.98,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": -27.90269753,
+        "lonStart": -64.25198885,
+        "latEnd": -27.90008025,
+        "lonEnd": -64.24745559,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 24949
+  },
+  {
+    "type": 1,
+    "icao": "SANR",
+    "lat": -27.49670561,
+    "lon": -64.936007665,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11830,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 919,
+    "tower": true,
+    "name": "TERMAS DE RIO HONDO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "1",
+        "numberEnd": "19",
+        "latStart": -27.508064,
+        "lonStart": -64.936632,
+        "latEnd": -27.48534722,
+        "lonEnd": -64.93538333,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 25037
   }
 ]

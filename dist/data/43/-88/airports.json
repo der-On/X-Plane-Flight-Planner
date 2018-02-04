@@ -1,107 +1,48 @@
 [
   {
     "type": 1,
-    "icao": "WI61",
-    "lat": 43.34889194,
-    "lon": -87.99425723,
-    "communications": [],
-    "elevation": 859,
+    "icao": "KSBM",
+    "lat": 43.7695847125,
+    "lon": -87.85180685249999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 753,
     "tower": false,
-    "name": "Ashenfelter Aerodrome",
+    "name": "Sheboygan Co Mem",
     "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "4",
+        "numberEnd": "22",
+        "latStart": 43.7631455,
+        "lonStart": -87.85870796,
+        "latEnd": 43.7784239,
+        "lonEnd": -87.84389115,
+        "length": 0,
+        "surfacetype": 2
+      },
       {
         "type": 100,
         "width": 22.86,
         "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 43.34642808,
-        "lonStart": -87.99542388,
-        "latEnd": 43.3513558,
-        "lonEnd": -87.99309058,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 43.77279418,
+        "lonStart": -87.85959109,
+        "latEnd": 43.76397527,
+        "lonEnd": -87.84503721,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       }
     ],
-    "id": 1263
-  },
-  {
-    "type": 1,
-    "icao": "2WI8",
-    "lat": 43.597497219999994,
-    "lon": -87.77897639,
-    "communications": [],
-    "elevation": 645,
-    "tower": false,
-    "name": "Davies",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 43.60040494,
-        "lonStart": -87.78148529,
-        "latEnd": 43.5945895,
-        "lonEnd": -87.77646749,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 6043
-  },
-  {
-    "type": 1,
-    "icao": "65WI",
-    "lat": 43.61916361,
-    "lon": -87.82203278,
-    "communications": [],
-    "elevation": 720,
-    "tower": false,
-    "name": "Dulmes Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 43.62231612,
-        "lonStart": -87.82218485,
-        "latEnd": 43.6160111,
-        "lonEnd": -87.82188071,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 6541
-  },
-  {
-    "type": 1,
-    "icao": "4WI6",
-    "lat": 43.80416083,
-    "lon": -87.89731334000001,
-    "communications": [],
-    "elevation": 750,
-    "tower": false,
-    "name": "Feldmann Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 4.57,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 43.80580637,
-        "lonStart": -87.89735314,
-        "latEnd": 43.80251529,
-        "lonEnd": -87.89727354,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9226
+    "id": 3234
   },
   {
     "type": 1,
@@ -127,7 +68,84 @@
         "surfacetype": 3
       }
     ],
-    "id": 9505
+    "id": 6822
+  },
+  {
+    "type": 1,
+    "icao": "2WI8",
+    "lat": 43.597497219999994,
+    "lon": -87.77897639,
+    "communications": [],
+    "elevation": 645,
+    "tower": false,
+    "name": "Davies",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.38,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 43.60040494,
+        "lonStart": -87.78148529,
+        "latEnd": 43.5945895,
+        "lonEnd": -87.77646749,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 7387
+  },
+  {
+    "type": 1,
+    "icao": "4WI6",
+    "lat": 43.80416083,
+    "lon": -87.89731334000001,
+    "communications": [],
+    "elevation": 750,
+    "tower": false,
+    "name": "Feldmann Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 4.57,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 43.80580637,
+        "lonStart": -87.89735314,
+        "latEnd": 43.80251529,
+        "lonEnd": -87.89727354,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 8449
+  },
+  {
+    "type": 17,
+    "icao": "8WI4",
+    "lat": 43.39639083,
+    "lon": -87.87647723,
+    "communications": [],
+    "elevation": 709,
+    "tower": false,
+    "name": "[H] St Marys Hospital Ozaukee",
+    "runways": [
+      {
+        "type": 102,
+        "width": 10.7,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 43.39639083,
+        "lonStart": -87.87647723,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.7
+      }
+    ],
+    "id": 10402
   },
   {
     "type": 1,
@@ -179,7 +197,109 @@
         "surfacetype": 3
       }
     ],
-    "id": 10822
+    "id": 12468
+  },
+  {
+    "type": 1,
+    "icao": "65WI",
+    "lat": 43.61916361,
+    "lon": -87.82203278,
+    "communications": [],
+    "elevation": 720,
+    "tower": false,
+    "name": "Dulmes Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 43.62231612,
+        "lonStart": -87.82218485,
+        "latEnd": 43.6160111,
+        "lonEnd": -87.82188071,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13098
+  },
+  {
+    "type": 17,
+    "icao": "71WI",
+    "lat": 43.26639472,
+    "lon": -87.96592223,
+    "communications": [],
+    "elevation": 602,
+    "tower": false,
+    "name": "[H] Hoffman Prop Inc",
+    "runways": [
+      {
+        "type": 102,
+        "width": 3.7,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 43.26639472,
+        "lonStart": -87.96592223,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 3.7
+      }
+    ],
+    "id": 13331
+  },
+  {
+    "type": 17,
+    "icao": "74WI",
+    "lat": 43.18111972,
+    "lon": -87.96342112,
+    "communications": [],
+    "elevation": 660,
+    "tower": false,
+    "name": "[H] Witi Tv Studio Building",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 43.18111972,
+        "lonStart": -87.96342112,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 30.5
+      }
+    ],
+    "id": 13464
+  },
+  {
+    "type": 1,
+    "icao": "75WI",
+    "lat": 43.588886380000005,
+    "lon": -87.78425417,
+    "communications": [],
+    "elevation": 640,
+    "tower": false,
+    "name": "Smies",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 43.59011997,
+        "lonStart": -87.78431364,
+        "latEnd": 43.58765279,
+        "lonEnd": -87.7841947,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 13508
   },
   {
     "type": 1,
@@ -218,83 +338,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 19146
+    "id": 14017
   },
   {
     "type": 1,
-    "icao": "KSBM",
-    "lat": 43.7695858,
-    "lon": -87.8517968525,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12270,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 52,
-        "frequency": 12737,
-        "name": "Cleareance Delivery"
-      }
-    ],
-    "elevation": 753,
+    "icao": "WI61",
+    "lat": 43.34889194,
+    "lon": -87.99425723,
+    "communications": [],
+    "elevation": 859,
     "tower": false,
-    "name": "Sheboygan County Memorial",
+    "name": "Ashenfelter Aerodrome",
     "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 43.76316489,
-        "lonStart": -87.85871696,
-        "latEnd": 43.77843131,
-        "lonEnd": -87.84387645,
-        "length": 0,
-        "surfacetype": 2
-      },
       {
         "type": 100,
         "width": 22.86,
         "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 43.772725,
-        "lonStart": -87.859611,
-        "latEnd": 43.764022,
-        "lonEnd": -87.844983,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 23369
-  },
-  {
-    "type": 1,
-    "icao": "75WI",
-    "lat": 43.588886380000005,
-    "lon": -87.78425417,
-    "communications": [],
-    "elevation": 640,
-    "tower": false,
-    "name": "Smies",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 43.59011997,
-        "lonStart": -87.78431364,
-        "latEnd": 43.58765279,
-        "lonEnd": -87.7841947,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 43.34642808,
+        "lonStart": -87.99542388,
+        "latEnd": 43.3513558,
+        "lonEnd": -87.99309058,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 23718
+    "id": 31579
   },
   {
     "type": 1,
@@ -320,7 +390,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 24021
+    "id": 31580
   },
   {
     "type": 1,
@@ -346,57 +416,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 26198
-  },
-  {
-    "type": 17,
-    "icao": "71WI",
-    "lat": 43.26639472,
-    "lon": -87.96592223,
-    "communications": [],
-    "elevation": 602,
-    "tower": false,
-    "name": "[H] Hoffman Prop Inc",
-    "runways": [
-      {
-        "type": 102,
-        "width": 3.7,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 43.26639472,
-        "lonStart": -87.96592223,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 3.7
-      }
-    ],
-    "id": 30259
-  },
-  {
-    "type": 17,
-    "icao": "8WI4",
-    "lat": 43.39639083,
-    "lon": -87.87647723,
-    "communications": [],
-    "elevation": 709,
-    "tower": false,
-    "name": "[H] St Marys Hospital Ozaukee",
-    "runways": [
-      {
-        "type": 102,
-        "width": 10.7,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 43.39639083,
-        "lonStart": -87.87647723,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.7
-      }
-    ],
-    "id": 32992
+    "id": 31680
   },
   {
     "type": 17,
@@ -421,7 +441,7 @@
         "length": 6.1
       }
     ],
-    "id": 32993
+    "id": 31786
   },
   {
     "type": 17,
@@ -446,31 +466,6 @@
         "length": 9.1
       }
     ],
-    "id": 33001
-  },
-  {
-    "type": 17,
-    "icao": "74WI",
-    "lat": 43.18111972,
-    "lon": -87.96342112,
-    "communications": [],
-    "elevation": 660,
-    "tower": false,
-    "name": "[H] Witi Tv Studio Building",
-    "runways": [
-      {
-        "type": 102,
-        "width": 30.5,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 43.18111972,
-        "lonStart": -87.96342112,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 30.5
-      }
-    ],
-    "id": 33885
+    "id": 31830
   }
 ]

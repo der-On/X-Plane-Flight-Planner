@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "LILE",
-    "lat": 45.4953,
-    "lon": 8.1027775,
+    "lat": 45.49562474,
+    "lon": 8.102680535000001,
     "communications": [
       {
         "type": 54,
@@ -11,119 +11,169 @@
         "name": "AFIS"
       }
     ],
-    "elevation": 924,
+    "elevation": 923,
     "tower": false,
     "name": "BIELLA CERRIONE",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 30,
         "surfaceType": null,
         "numberStart": "16",
         "numberEnd": "34",
-        "latStart": 45.501386,
-        "lonStart": 8.098922,
-        "latEnd": 45.489214,
-        "lonEnd": 8.106633,
+        "latStart": 45.50179763,
+        "lonStart": 8.0987965,
+        "latEnd": 45.48945185,
+        "lonEnd": 8.10656457,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 1699
+    "id": 3771
   },
   {
     "type": 1,
-    "icao": "LIMN",
-    "lat": 45.5310585,
-    "lon": 8.66905,
+    "icao": "LILG",
+    "lat": 45.712664564,
+    "lon": 8.700533656,
     "communications": [
       {
-        "type": 53,
-        "frequency": 12170,
-        "name": "GND"
-      },
-      {
         "type": 54,
-        "frequency": 11812,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12210,
-        "name": "TWR"
+        "frequency": 11977,
+        "name": "VERGIATE TWR"
       }
     ],
-    "elevation": 585,
+    "elevation": 862,
     "tower": true,
-    "name": "CAMERI",
+    "name": "Vergiate",
     "runways": [
       {
         "type": 100,
-        "width": 28.65,
+        "width": 50,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 45.544205,
-        "lonStart": 8.664925,
-        "latEnd": 45.517912,
-        "lonEnd": 8.673175,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 45.71593566,
+        "lonStart": 8.69888714,
+        "latEnd": 45.70926779,
+        "lonEnd": 8.70270991,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 27.5,
+        "surfaceType": 15,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 45.71200015,
+        "lonStart": 8.70000542,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 27.9
+      },
+      {
+        "type": 102,
+        "width": 17.2,
+        "surfaceType": 15,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 45.71174484,
+        "lonStart": 8.70128383,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 17.5
+      },
+      {
+        "type": 102,
+        "width": 37.4,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 45.71437438,
+        "lonStart": 8.69978198,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 37.1
       }
     ],
-    "id": 3575
+    "id": 3772
   },
   {
     "type": 1,
-    "icao": "LILC",
-    "lat": 45.809167,
-    "lon": 8.768332999999998,
-    "communications": [],
-    "elevation": 796,
-    "tower": false,
-    "name": "Calcinate del Pesce",
+    "icao": "LILI",
+    "lat": 45.310041999999996,
+    "lon": 8.41871508,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11885,
+        "name": "Vercelli Radio TWR"
+      }
+    ],
+    "elevation": 416,
+    "tower": true,
+    "name": "Vercelli",
     "runways": [
       {
         "type": 100,
-        "width": 49.99,
+        "width": 22.86,
         "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 45.80968201,
-        "lonStart": 8.76453198,
-        "latEnd": 45.80865199,
-        "lonEnd": 8.77213402,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 45.30958186,
+        "lonStart": 8.41389669,
+        "latEnd": 45.31050214,
+        "lonEnd": 8.42353347,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 4336
+    "id": 3774
   },
   {
     "type": 1,
     "icao": "LILM",
-    "lat": 45.1105576,
-    "lon": 8.456389399999999,
-    "communications": [],
-    "elevation": 377,
+    "lat": 45.110372016666666,
+    "lon": 8.455369556666666,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11835,
+        "name": "Radio"
+      }
+    ],
+    "elevation": 376,
     "tower": false,
     "name": "Casale Monferrato",
     "runways": [
       {
         "type": 100,
-        "width": 60.05,
+        "width": 60,
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 45.11550518,
-        "lonStart": 8.45651177,
-        "latEnd": 45.10561002,
-        "lonEnd": 8.45626703,
+        "latStart": 45.11532,
+        "lonStart": 8.456712,
+        "latEnd": 45.105236,
+        "lonEnd": 8.457224,
         "length": 0,
-        "surfacetype": 4
+        "surfacetype": 3
+      },
+      {
+        "type": 102,
+        "width": 50,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 45.11056005,
+        "lonStart": 8.45217267,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 50.4
       }
     ],
-    "id": 4607
+    "id": 3775
   },
   {
     "type": 1,
@@ -223,7 +273,33 @@
         "surfacetype": 1
       }
     ],
-    "id": 17179
+    "id": 3781
+  },
+  {
+    "type": 1,
+    "icao": "LILC",
+    "lat": 45.809167,
+    "lon": 8.768332999999998,
+    "communications": [],
+    "elevation": 796,
+    "tower": false,
+    "name": "Calcinate del Pesce",
+    "runways": [
+      {
+        "type": 100,
+        "width": 49.99,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 45.80968201,
+        "lonStart": 8.76453198,
+        "latEnd": 45.80865199,
+        "lonEnd": 8.77213402,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20547
   },
   {
     "type": 1,
@@ -255,38 +331,48 @@
         "surfacetype": 1
       }
     ],
-    "id": 26066
+    "id": 20548
   },
   {
     "type": 1,
-    "icao": "LILI",
-    "lat": 45.310556000000005,
-    "lon": 8.417777999999998,
+    "icao": "LIMN",
+    "lat": 45.5310585,
+    "lon": 8.66905,
     "communications": [
       {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
         "type": 54,
-        "frequency": 12260,
-        "name": "Vercelli Radio TWR"
+        "frequency": 11812,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "TWR"
       }
     ],
-    "elevation": 416,
+    "elevation": 585,
     "tower": true,
-    "name": "Vercelli",
+    "name": "CAMERI",
     "runways": [
       {
         "type": 100,
-        "width": 22.86,
+        "width": 28.65,
         "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 45.31042414,
-        "lonStart": 8.41420043,
-        "latEnd": 45.31068786,
-        "lonEnd": 8.42135557,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 45.544205,
+        "lonStart": 8.664925,
+        "latEnd": 45.517912,
+        "lonEnd": 8.673175,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       }
     ],
-    "id": 26274
+    "id": 20550
   }
 ]

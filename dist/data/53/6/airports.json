@@ -60,14 +60,19 @@
         "surfacetype": 3
       }
     ],
-    "id": 3018
+    "id": 1405
   },
   {
     "type": 1,
     "icao": "EHDR",
-    "lat": 53.118260725,
-    "lon": 6.129192645,
+    "lat": 53.118011370000005,
+    "lon": 6.127595325,
     "communications": [
+      {
+        "type": 54,
+        "frequency": 11965,
+        "name": "Drachten Radio"
+      },
       {
         "type": 54,
         "frequency": 13235,
@@ -84,21 +89,21 @@
         "surfaceType": null,
         "numberStart": "08",
         "numberEnd": "26",
-        "latStart": 53.11726285,
-        "lonStart": 6.12226696,
-        "latEnd": 53.1192586,
-        "lonEnd": 6.13611833,
+        "latStart": 53.11725521,
+        "lonStart": 6.12228616,
+        "latEnd": 53.11876753,
+        "lonEnd": 6.13290449,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 6470
+    "id": 1638
   },
   {
     "type": 1,
     "icao": "EHGG",
-    "lat": 53.121032750000005,
-    "lon": 6.57707275,
+    "lat": 53.12037007,
+    "lon": 6.577075055,
     "communications": [
       {
         "type": 50,
@@ -109,11 +114,6 @@
         "type": 52,
         "frequency": 12170,
         "name": "DEL"
-      },
-      {
-        "type": 53,
-        "frequency": 12170,
-        "name": "GND/CLNC DEL"
       },
       {
         "type": 54,
@@ -136,10 +136,10 @@
         "surfaceType": null,
         "numberStart": "05",
         "numberEnd": "23",
-        "latStart": 53.111083,
-        "lonStart": 6.560897,
-        "latEnd": 53.124956,
-        "lonEnd": 6.590267,
+        "latStart": 53.11042032,
+        "lonStart": 6.56089929,
+        "latEnd": 53.12429332,
+        "lonEnd": 6.59026929,
         "length": 0,
         "surfacetype": 1
       },
@@ -149,14 +149,14 @@
         "surfaceType": null,
         "numberStart": "01",
         "numberEnd": "19",
-        "latStart": 53.117386,
-        "lonStart": 6.576858,
-        "latEnd": 53.130706,
-        "lonEnd": 6.580269,
+        "latStart": 53.11672332,
+        "lonStart": 6.57686032,
+        "latEnd": 53.13004332,
+        "lonEnd": 6.58027132,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 6988
+    "id": 1640
   }
 ]

@@ -1,5 +1,30 @@
 [
   {
+    "type": 17,
+    "icao": "ESES",
+    "lat": 65.6723582,
+    "lon": 21.93592308,
+    "communications": [],
+    "elevation": 36,
+    "tower": false,
+    "name": "[H] Luleå Sunderby hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 25,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 65.6723582,
+        "lonStart": 21.93592308,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 25
+      }
+    ],
+    "id": 1879
+  },
+  {
     "type": 1,
     "icao": "ESNP",
     "lat": 65.393118085,
@@ -41,7 +66,7 @@
         "length": 0
       }
     ],
-    "id": 20220
+    "id": 1980
   },
   {
     "type": 17,
@@ -106,32 +131,33 @@
         "surfacetype": 2
       }
     ],
-    "id": 28515
+    "id": 1997
   },
   {
-    "type": 17,
-    "icao": "ESES",
-    "lat": 65.6723582,
-    "lon": 21.93592308,
+    "type": 1,
+    "icao": "ESPJ",
+    "lat": 65.83824899999999,
+    "lon": 21.469407855,
     "communications": [],
-    "elevation": 36,
+    "elevation": 127,
     "tower": false,
-    "name": "[H] LuleC% Sunderby hospital",
+    "name": "[X] Boden Heden airbase",
     "runways": [
       {
-        "type": 102,
-        "width": 25,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 65.6723582,
-        "lonStart": 21.93592308,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 25
+        "type": 100,
+        "width": 35,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 65.84230615,
+        "lonStart": 21.4499406,
+        "latEnd": 65.83419185,
+        "lonEnd": 21.48887511,
+        "length": 0,
+        "surfacetype": 1
       }
     ],
-    "id": 30971
+    "id": 1998
   },
   {
     "type": 1,
@@ -141,7 +167,7 @@
     "communications": [],
     "elevation": 227,
     "tower": false,
-    "name": "C\u0004lvsbyn HC6gheden",
+    "name": "Älvsbyn Högheden",
     "runways": [
       {
         "type": 100,
@@ -157,6 +183,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 34584
+    "id": 2043
   }
 ]

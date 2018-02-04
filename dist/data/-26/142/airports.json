@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "YWDH",
+    "lat": -25.4104875,
+    "lon": 142.66872010499998,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12670,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 452,
+    "tower": false,
+    "name": "Windorah",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": -25.41445322,
+        "lonStart": 142.66346921,
+        "latEnd": -25.40652178,
+        "lonEnd": 142.673971,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 5615
+  },
+  {
+    "type": 1,
     "icao": "YGWD",
     "lat": -25.18574292166667,
     "lon": 142.68827900833335,
@@ -49,7 +81,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 9868
+    "id": 33402
   },
   {
     "type": 1,
@@ -75,7 +107,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 13288
+    "id": 33622
   },
   {
     "type": 1,
@@ -101,7 +133,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 16339
+    "id": 33919
   },
   {
     "type": 1,
@@ -140,7 +172,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 18743
+    "id": 34114
   },
   {
     "type": 1,
@@ -172,38 +204,6 @@
         "surfacetype": 4
       }
     ],
-    "id": 23883
-  },
-  {
-    "type": 1,
-    "icao": "YWDH",
-    "lat": -25.4104875,
-    "lon": 142.668720155,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12670,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 452,
-    "tower": false,
-    "name": "Windorah",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": -25.41445322,
-        "lonStart": 142.66346921,
-        "latEnd": -25.40652178,
-        "lonEnd": 142.6739711,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 27401
+    "id": 34405
   }
 ]

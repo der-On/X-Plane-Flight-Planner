@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "SECO",
-    "lat": -0.4609265,
-    "lon": -76.987829,
+    "lat": -0.457884,
+    "lon": -76.9893372,
     "communications": [
       {
         "type": 54,
@@ -21,7 +21,7 @@
         "name": "QUITO APP"
       }
     ],
-    "elevation": 834,
+    "elevation": 833,
     "tower": true,
     "name": "FRANCISCO DE ORELLANA",
     "runways": [
@@ -29,17 +29,61 @@
         "type": 100,
         "width": 27.43,
         "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": -0.452578,
-        "lonStart": -76.991939,
-        "latEnd": -0.469275,
-        "lonEnd": -76.983719,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": -0.448697,
+        "lonStart": -76.9938434,
+        "latEnd": -0.467071,
+        "lonEnd": -76.984831,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 7675
+    "id": 4868
+  },
+  {
+    "type": 1,
+    "icao": "SETR",
+    "lat": -0.12210133000000001,
+    "lon": -76.33871767000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12910,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 814,
+    "tower": true,
+    "name": "TARAPOA",
+    "runways": [
+      {
+        "type": 100,
+        "width": 14.94,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -0.119008,
+        "lonStart": -76.343825,
+        "latEnd": -0.126903,
+        "lonEnd": -76.331672,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 25,
+        "surfaceType": 2,
+        "numberStart": "H12",
+        "numberEnd": null,
+        "latStart": -0.12039299,
+        "lonStart": -76.34065601,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 25
+      }
+    ],
+    "id": 4876
   },
   {
     "type": 1,
@@ -65,38 +109,6 @@
         "surfacetype": 2
       }
     ],
-    "id": 14777
-  },
-  {
-    "type": 1,
-    "icao": "SETR",
-    "lat": -0.1229555,
-    "lon": -76.3377485,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12910,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 814,
-    "tower": true,
-    "name": "TARAPOA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 14.94,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": -0.119008,
-        "lonStart": -76.343825,
-        "latEnd": -0.126903,
-        "lonEnd": -76.331672,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 24596
+    "id": 25985
   }
 ]

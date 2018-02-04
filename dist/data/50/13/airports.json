@@ -1,6 +1,102 @@
 [
   {
     "type": 1,
+    "icao": "EDAG",
+    "lat": 50.644209345,
+    "lon": 13.127601774999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12300,
+        "name": "Grossrückerswalde Info"
+      }
+    ],
+    "elevation": 2198,
+    "tower": true,
+    "name": "Grossrückerswalde",
+    "runways": [
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 50.64533922,
+        "lonStart": 13.12073319,
+        "latEnd": 50.64307947,
+        "lonEnd": 13.13447036,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 985
+  },
+  {
+    "type": 1,
+    "icao": "EDAR",
+    "lat": 50.97963632,
+    "lon": 13.908398855,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11862,
+        "name": "Pirna Info"
+      }
+    ],
+    "elevation": 400,
+    "tower": true,
+    "name": "Pirna-Pratzschwitz",
+    "runways": [
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 50.98180417,
+        "lonStart": 13.90187976,
+        "latEnd": 50.97746847,
+        "lonEnd": 13.91491795,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 995
+  },
+  {
+    "type": 1,
+    "icao": "EDOH",
+    "lat": 50.948283755000006,
+    "lon": 13.261663565,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12230,
+        "name": "Langhennersdorf Info"
+      }
+    ],
+    "elevation": 1266,
+    "tower": true,
+    "name": "Langhennersdorf",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 50.94578131,
+        "lonStart": 13.25660982,
+        "latEnd": 50.9507862,
+        "lonEnd": 13.26671731,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1242
+  },
+  {
+    "type": 1,
     "icao": "LKCH",
     "lat": 50.471703659999996,
     "lon": 13.47059992,
@@ -42,52 +138,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 4954
-  },
-  {
-    "type": 1,
-    "icao": "EDAR",
-    "lat": 50.9794151325,
-    "lon": 13.90790281,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11862,
-        "name": "Pirna Info"
-      }
-    ],
-    "elevation": 400,
-    "tower": true,
-    "name": "EDAR Pirna Pratzschwitz",
-    "runways": [
-      {
-        "type": 100,
-        "width": 49.99,
-        "surfaceType": null,
-        "numberStart": "12L",
-        "numberEnd": "30R",
-        "latStart": 50.98156027,
-        "lonStart": 13.90271984,
-        "latEnd": 50.97794411,
-        "lonEnd": 13.91365473,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 70.1,
-        "surfaceType": null,
-        "numberStart": "12R",
-        "numberEnd": "30L",
-        "latStart": 50.98089633,
-        "lonStart": 13.90212902,
-        "latEnd": 50.97725982,
-        "lonEnd": 13.91310765,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 6643
+    "id": 20570
   },
   {
     "type": 1,
@@ -132,7 +183,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 17569
+    "id": 20607
   },
   {
     "type": 1,
@@ -164,52 +215,7 @@
         "surfacetype": 2
       }
     ],
-    "id": 19717
-  },
-  {
-    "type": 1,
-    "icao": "LKRK",
-    "lat": 50.09432229,
-    "lon": 13.691625564999999,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12350,
-        "name": "INFO"
-      }
-    ],
-    "elevation": 1272,
-    "tower": true,
-    "name": "Rakovnik",
-    "runways": [
-      {
-        "type": 100,
-        "width": 89.92,
-        "surfaceType": null,
-        "numberStart": "09L",
-        "numberEnd": "27R",
-        "latStart": 50.09466252,
-        "lonStart": 13.68693661,
-        "latEnd": 50.09485324,
-        "lonEnd": 13.69749034,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 88.09,
-        "surfaceType": null,
-        "numberStart": "09R",
-        "numberEnd": "27L",
-        "latStart": 50.09371037,
-        "lonStart": 13.68454389,
-        "latEnd": 50.09406303,
-        "lonEnd": 13.69753142,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 21140
+    "id": 20616
   },
   {
     "type": 1,
@@ -254,7 +260,52 @@
         "surfacetype": 3
       }
     ],
-    "id": 21160
+    "id": 20626
+  },
+  {
+    "type": 1,
+    "icao": "LKRK",
+    "lat": 50.09432229,
+    "lon": 13.691625564999999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12350,
+        "name": "INFO"
+      }
+    ],
+    "elevation": 1272,
+    "tower": true,
+    "name": "Rakovnik",
+    "runways": [
+      {
+        "type": 100,
+        "width": 89.92,
+        "surfaceType": null,
+        "numberStart": "09L",
+        "numberEnd": "27R",
+        "latStart": 50.09466252,
+        "lonStart": 13.68693661,
+        "latEnd": 50.09485324,
+        "lonEnd": 13.69749034,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 88.09,
+        "surfaceType": null,
+        "numberStart": "09R",
+        "numberEnd": "27L",
+        "latStart": 50.09371037,
+        "lonStart": 13.68454389,
+        "latEnd": 50.09406303,
+        "lonEnd": 13.69753142,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20627
   },
   {
     "type": 1,
@@ -286,7 +337,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 26015
+    "id": 20645
   },
   {
     "type": 1,
@@ -318,6 +369,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 27878
+    "id": 20655
   }
 ]

@@ -31,7 +31,7 @@
         "name": "BASTIA APP"
       }
     ],
-    "elevation": 23,
+    "elevation": 22,
     "tower": true,
     "name": "Bastia Poretta",
     "runways": [
@@ -49,59 +49,44 @@
         "surfacetype": 1
       }
     ],
-    "id": 2331
-  },
-  {
-    "type": 1,
-    "icao": "LFKT",
-    "lat": 42.291790000000006,
-    "lon": 9.189611,
-    "communications": [],
-    "elevation": 1130,
-    "tower": true,
-    "name": "Corte",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 42.294268,
-        "lonStart": 9.184992,
-        "latEnd": 42.289312,
-        "lonEnd": 9.19423,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 5359
+    "id": 3611
   },
   {
     "type": 1,
     "icao": "LFKG",
-    "lat": 42.052435,
-    "lon": 9.400126,
-    "communications": [],
-    "elevation": 177,
+    "lat": 42.05243399,
+    "lon": 9.400147295,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 11990,
+        "name": "SOLENZARA APP"
+      },
+      {
+        "type": 54,
+        "frequency": 11835,
+        "name": "SOLENZARA TWR"
+      }
+    ],
+    "elevation": 176,
     "tower": false,
-    "name": "GHISONACCIA ALZITONE",
+    "name": "Ghisonaccia Alzitone Airport",
     "runways": [
       {
         "type": 100,
-        "width": 17.98,
+        "width": 18,
         "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 42.048842,
-        "lonStart": 9.399832,
-        "latEnd": 42.056028,
-        "lonEnd": 9.40042,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 42.05602485,
+        "lonStart": 9.40048702,
+        "latEnd": 42.04884313,
+        "lonEnd": 9.39980757,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 9990
+    "id": 3613
   },
   {
     "type": 1,
@@ -127,6 +112,32 @@
         "surfacetype": 3
       }
     ],
-    "id": 17514
+    "id": 14354
+  },
+  {
+    "type": 1,
+    "icao": "LFKT",
+    "lat": 42.291790000000006,
+    "lon": 9.189611,
+    "communications": [],
+    "elevation": 1130,
+    "tower": true,
+    "name": "Corte",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 42.294268,
+        "lonStart": 9.184992,
+        "latEnd": 42.289312,
+        "lonEnd": 9.19423,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 20352
   }
 ]

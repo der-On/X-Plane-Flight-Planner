@@ -2,33 +2,38 @@
   {
     "type": 1,
     "icao": "YBMK",
-    "lat": -21.171625974285714,
-    "lon": 149.18163354428572,
+    "lat": -21.171321454,
+    "lon": 149.182416346,
     "communications": [
       {
-        "type": 50,
-        "frequency": 12800,
-        "name": "ATIS"
+        "type": 55,
+        "frequency": 12565,
+        "name": "Aproach"
       },
       {
         "type": 50,
-        "frequency": 12450,
-        "name": "ACTIVATE LIGHTS ONLY MULT"
-      },
-      {
-        "type": 51,
-        "frequency": 12450,
-        "name": "CTAF"
-      },
-      {
-        "type": 53,
         "frequency": 12170,
-        "name": "SMC"
+        "name": "Ground"
+      },
+      {
+        "type": 52,
+        "frequency": 13550,
+        "name": "Brisbane Centre"
       },
       {
         "type": 54,
         "frequency": 12450,
         "name": "MACKAY TWR"
+      },
+      {
+        "type": 50,
+        "frequency": 12800,
+        "name": "YBMK ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 11960,
+        "name": "ACTIVATE LIGHTS ONLY MULT"
       }
     ],
     "elevation": 18,
@@ -37,68 +42,55 @@
     "runways": [
       {
         "type": 100,
-        "width": 45,
+        "width": 45.11,
         "surfaceType": null,
         "numberStart": "14",
         "numberEnd": "32",
-        "latStart": -21.16319524,
-        "lonStart": 149.17749011,
-        "latEnd": -21.17832326,
-        "lonEnd": 149.18766673,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": -21.1756545,
-        "lonStart": 149.17420892,
-        "latEnd": -21.16924801,
-        "lonEnd": 149.18516529,
+        "latStart": -21.16319546,
+        "lonStart": 149.17748973,
+        "latEnd": -21.17832304,
+        "lonEnd": 149.18766607,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 102,
-        "width": 13.7,
+        "width": 17.1,
         "surfaceType": 1,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": -21.17328728,
-        "lonStart": 149.18088858,
+        "latStart": -21.17335813,
+        "lonStart": 149.18087904,
         "latEnd": null,
         "lonEnd": null,
-        "length": 13.7
+        "length": 17.1
       },
       {
         "type": 102,
-        "width": 13.7,
+        "width": 17.1,
         "surfaceType": 1,
         "numberStart": "H2",
         "numberEnd": null,
-        "latStart": -21.17369652,
-        "lonStart": 149.18115149,
+        "latStart": -21.1737628,
+        "lonStart": 149.18115197,
         "latEnd": null,
         "lonEnd": null,
-        "length": 13.7
+        "length": 17.1
       },
       {
         "type": 102,
-        "width": 15.2,
-        "surfaceType": 15,
-        "numberStart": "H3",
+        "width": 17.1,
+        "surfaceType": 1,
+        "numberStart": "H5",
         "numberEnd": null,
-        "latStart": -21.16797701,
-        "lonStart": 149.18486369,
+        "latStart": -21.16796784,
+        "lonStart": 149.18489492,
         "latEnd": null,
         "lonEnd": null,
-        "length": 15.2
+        "length": 17.1
       }
     ],
-    "id": 16440
+    "id": 5583
   },
   {
     "type": 17,
@@ -123,7 +115,7 @@
         "length": 11.9
       }
     ],
-    "id": 30991
+    "id": 33845
   },
   {
     "type": 16,
@@ -148,6 +140,6 @@
         "length": 0
       }
     ],
-    "id": 34267
+    "id": 33871
   }
 ]

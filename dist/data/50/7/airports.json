@@ -1,6 +1,91 @@
 [
   {
     "type": 1,
+    "icao": "EDDK",
+    "lat": 50.866827632857145,
+    "lon": 7.136415945714286,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13212,
+        "name": "Koeln-Bonn ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 12185,
+        "name": "Koeln-Bonn Delivery"
+      },
+      {
+        "type": 53,
+        "frequency": 12172,
+        "name": "Koeln-Bonn Ground"
+      },
+      {
+        "type": 54,
+        "frequency": 12497,
+        "name": "Koeln-Bonn Tower"
+      }
+    ],
+    "elevation": 300,
+    "tower": true,
+    "name": "Koeln - Bonn",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60,
+        "surfaceType": null,
+        "numberStart": "14L",
+        "numberEnd": "32R",
+        "latStart": 50.88046268,
+        "lonStart": 7.12907912,
+        "latEnd": 50.855194,
+        "lonEnd": 7.165682,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 50.86010777,
+        "lonStart": 7.12375142,
+        "latEnd": 50.86966431,
+        "lonEnd": 7.15529089,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "14R",
+        "numberEnd": "32L",
+        "latStart": 50.87081801,
+        "lonStart": 7.12089818,
+        "latEnd": 50.858449,
+        "lonEnd": 7.138812,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 18,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 50.87309766,
+        "lonStart": 7.12139801,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 17
+      }
+    ],
+    "id": 1057
+  },
+  {
+    "type": 1,
     "icao": "EDGA",
     "lat": 50.592768500000005,
     "lon": 7.94477,
@@ -29,71 +114,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 730
-  },
-  {
-    "type": 1,
-    "icao": "EDRA",
-    "lat": 50.5578335,
-    "lon": 7.137175,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12235,
-        "name": "Neuenahr Info"
-      }
-    ],
-    "elevation": 672,
-    "tower": true,
-    "name": "Bad Neuenahr-Ahrweiler",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 50.558435,
-        "lonStart": 7.133808,
-        "latEnd": 50.557232,
-        "lonEnd": 7.140542,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 2044
-  },
-  {
-    "type": 1,
-    "icao": "EDKI",
-    "lat": 50.817034500000005,
-    "lon": 7.830277,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12275,
-        "name": "Betzdorf Info"
-      }
-    ],
-    "elevation": 1125,
-    "tower": true,
-    "name": "Betzdorf",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 50.816271,
-        "lonStart": 7.826116,
-        "latEnd": 50.817798,
-        "lonEnd": 7.834438,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 2641
+    "id": 1104
   },
   {
     "type": 1,
@@ -146,7 +167,7 @@
         "type": 102,
         "width": 52.8,
         "surfaceType": 15,
-        "numberStart": "H248",
+        "numberStart": "H1",
         "numberEnd": null,
         "latStart": 50.76888595,
         "lonStart": 7.15308964,
@@ -155,96 +176,7 @@
         "length": 53.8
       }
     ],
-    "id": 2971
-  },
-  {
-    "type": 17,
-    "icao": "ETHH",
-    "lat": 50.69649129,
-    "lon": 7.04511519,
-    "communications": [],
-    "elevation": 528,
-    "tower": false,
-    "name": "Bonn-Hardthoehe Heliport",
-    "runways": [
-      {
-        "type": 102,
-        "width": 49.5,
-        "surfaceType": 15,
-        "numberStart": "H111",
-        "numberEnd": null,
-        "latStart": 50.69649129,
-        "lonStart": 7.04511519,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 45.8
-      }
-    ],
-    "id": 2972
-  },
-  {
-    "type": 1,
-    "icao": "ETSB",
-    "lat": 50.173971945000005,
-    "lon": 7.0634984,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12210,
-        "name": "Buechel Tower"
-      }
-    ],
-    "elevation": 1566,
-    "tower": true,
-    "name": "Buechel AB",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 50.16408364,
-        "lonStart": 7.05486771,
-        "latEnd": 50.18386025,
-        "lonEnd": 7.07212909,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 3339
-  },
-  {
-    "type": 1,
-    "icao": "EDRW",
-    "lat": 50.565991499999996,
-    "lon": 7.652514,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12892,
-        "name": "Dierdorf Info"
-      }
-    ],
-    "elevation": 951,
-    "tower": true,
-    "name": "Dierdorf - Wienau",
-    "runways": [
-      {
-        "type": 100,
-        "width": 10,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 50.565338,
-        "lonStart": 7.648603,
-        "latEnd": 50.566645,
-        "lonEnd": 7.656425,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 6272
+    "id": 1146
   },
   {
     "type": 1,
@@ -276,7 +208,103 @@
         "surfacetype": 3
       }
     ],
-    "id": 12156
+    "id": 1150
+  },
+  {
+    "type": 1,
+    "icao": "EDKI",
+    "lat": 50.817034500000005,
+    "lon": 7.830277,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12275,
+        "name": "Betzdorf Info"
+      }
+    ],
+    "elevation": 1125,
+    "tower": true,
+    "name": "Betzdorf",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 50.816271,
+        "lonStart": 7.826116,
+        "latEnd": 50.817798,
+        "lonEnd": 7.834438,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1151
+  },
+  {
+    "type": 1,
+    "icao": "EDRA",
+    "lat": 50.5578335,
+    "lon": 7.137175,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12235,
+        "name": "Neuenahr Info"
+      }
+    ],
+    "elevation": 672,
+    "tower": true,
+    "name": "Bad Neuenahr-Ahrweiler",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 50.558435,
+        "lonStart": 7.133808,
+        "latEnd": 50.557232,
+        "lonEnd": 7.140542,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1302
+  },
+  {
+    "type": 1,
+    "icao": "EDRE",
+    "lat": 50.3660165,
+    "lon": 7.3153625,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12347,
+        "name": "Mendig Info"
+      }
+    ],
+    "elevation": 597,
+    "tower": true,
+    "name": "Mendig",
+    "runways": [
+      {
+        "type": 100,
+        "width": 36,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 50.364135,
+        "lonStart": 7.30427,
+        "latEnd": 50.367898,
+        "lonEnd": 7.326455,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1305
   },
   {
     "type": 1,
@@ -344,123 +372,95 @@
         "length": 5.5
       }
     ],
-    "id": 14024
+    "id": 1311
   },
   {
     "type": 1,
-    "icao": "EDDK",
-    "lat": 50.866827632857145,
-    "lon": 7.136415945714286,
+    "icao": "EDRW",
+    "lat": 50.565991499999996,
+    "lon": 7.652514,
     "communications": [
       {
-        "type": 50,
-        "frequency": 11902,
-        "name": "Koeln-Bonn ATIS"
-      },
-      {
-        "type": 52,
-        "frequency": 12185,
-        "name": "Koeln-Bonn Delivery"
-      },
-      {
-        "type": 53,
-        "frequency": 12172,
-        "name": "Koeln-Bonn Ground"
-      },
-      {
         "type": 54,
-        "frequency": 12497,
-        "name": "Koeln-Bonn Tower"
+        "frequency": 12892,
+        "name": "Dierdorf Info"
       }
     ],
-    "elevation": 300,
+    "elevation": 951,
     "tower": true,
-    "name": "Koeln-Bonn Intl",
+    "name": "Dierdorf - Wienau",
     "runways": [
       {
         "type": 100,
-        "width": 60,
-        "surfaceType": null,
-        "numberStart": "14L",
-        "numberEnd": "32R",
-        "latStart": 50.88046268,
-        "lonStart": 7.12907912,
-        "latEnd": 50.855194,
-        "lonEnd": 7.165682,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 45,
+        "width": 10,
         "surfaceType": null,
         "numberStart": "06",
         "numberEnd": "24",
-        "latStart": 50.86010777,
-        "lonStart": 7.12375142,
-        "latEnd": 50.86966431,
-        "lonEnd": 7.15529089,
-        "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 45,
-        "surfaceType": null,
-        "numberStart": "14R",
-        "numberEnd": "32L",
-        "latStart": 50.87081801,
-        "lonStart": 7.12089818,
-        "latEnd": 50.858449,
-        "lonEnd": 7.138812,
+        "latStart": 50.565338,
+        "lonStart": 7.648603,
+        "latEnd": 50.566645,
+        "lonEnd": 7.656425,
         "length": 0,
         "surfacetype": 1
-      },
+      }
+    ],
+    "id": 1320
+  },
+  {
+    "type": 17,
+    "icao": "ETHH",
+    "lat": 50.69649129,
+    "lon": 7.04511519,
+    "communications": [],
+    "elevation": 528,
+    "tower": false,
+    "name": "Bonn-Hardthoehe Heliport",
+    "runways": [
       {
         "type": 102,
-        "width": 18,
+        "width": 49.5,
         "surfaceType": 15,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 50.87309766,
-        "lonStart": 7.12139801,
+        "latStart": 50.69649129,
+        "lonStart": 7.04511519,
         "latEnd": null,
         "lonEnd": null,
-        "length": 17
+        "length": 45.8
       }
     ],
-    "id": 14030
+    "id": 2064
   },
   {
     "type": 1,
-    "icao": "EDRE",
-    "lat": 50.3660165,
-    "lon": 7.3153625,
+    "icao": "ETSB",
+    "lat": 50.173971945000005,
+    "lon": 7.0634984,
     "communications": [
       {
         "type": 54,
-        "frequency": 12347,
-        "name": "Mendig Info"
+        "frequency": 12210,
+        "name": "Buechel Tower"
       }
     ],
-    "elevation": 597,
+    "elevation": 1566,
     "tower": true,
-    "name": "Mendig",
+    "name": "Buechel AB",
     "runways": [
       {
         "type": 100,
-        "width": 36,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 50.364135,
-        "lonStart": 7.30427,
-        "latEnd": 50.367898,
-        "lonEnd": 7.326455,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 50.16408364,
+        "lonStart": 7.05486771,
+        "latEnd": 50.18386025,
+        "lonEnd": 7.07212909,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 17058
+    "id": 2089
   }
 ]

@@ -1,90 +1,6 @@
 [
   {
     "type": 1,
-    "icao": "RK29",
-    "lat": 37.643675,
-    "lon": 127.1487655,
-    "communications": [],
-    "elevation": 80,
-    "tower": false,
-    "name": "G 203",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 37.645833,
-        "lonStart": 127.1479,
-        "latEnd": 37.641517,
-        "lonEnd": 127.149631,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 9803
-  },
-  {
-    "type": 1,
-    "icao": "RKRK",
-    "lat": 37.8116665,
-    "lon": 127.35722200000001,
-    "communications": [],
-    "elevation": 400,
-    "tower": false,
-    "name": "G 213",
-    "runways": [
-      {
-        "type": 100,
-        "width": 23.16,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 37.813622,
-        "lonStart": 127.356325,
-        "latEnd": 37.809711,
-        "lonEnd": 127.358119,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 9804
-  },
-  {
-    "type": 1,
-    "icao": "RKRO",
-    "lat": 37.866480499999994,
-    "lon": 127.1747015,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12050,
-        "name": "PO CHEON"
-      }
-    ],
-    "elevation": 328,
-    "tower": true,
-    "name": "G 217",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.38,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 37.862472,
-        "lonStart": 127.171056,
-        "latEnd": 37.870489,
-        "lonEnd": 127.178347,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 9805
-  },
-  {
-    "type": 1,
     "icao": "RK28",
     "lat": 37.9093815,
     "lon": 127.008025,
@@ -107,39 +23,33 @@
         "surfacetype": 4
       }
     ],
-    "id": 9807
+    "id": 24466
   },
   {
     "type": 1,
-    "icao": "RKRG",
-    "lat": 37.501527499999995,
-    "lon": 127.62986000000001,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12760,
-        "name": "YANG PYEONG TWR"
-      }
-    ],
-    "elevation": 230,
-    "tower": true,
-    "name": "G 301",
+    "icao": "RK29",
+    "lat": 37.643675,
+    "lon": 127.1487655,
+    "communications": [],
+    "elevation": 80,
+    "tower": false,
+    "name": "G 203",
     "runways": [
       {
         "type": 100,
-        "width": 30.48,
+        "width": 15.24,
         "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 37.503333,
-        "lonStart": 127.628331,
-        "latEnd": 37.499722,
-        "lonEnd": 127.631389,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 37.645833,
+        "lonStart": 127.1479,
+        "latEnd": 37.641517,
+        "lonEnd": 127.149631,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 4
       }
     ],
-    "id": 9818
+    "id": 24467
   },
   {
     "type": 1,
@@ -165,7 +75,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 9819
+    "id": 24468
   },
   {
     "type": 1,
@@ -191,7 +101,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 9833
+    "id": 24482
   },
   {
     "type": 1,
@@ -236,7 +146,117 @@
         "surfacetype": 1
       }
     ],
-    "id": 9836
+    "id": 24485
+  },
+  {
+    "type": 1,
+    "icao": "RKNW",
+    "lat": 37.438079,
+    "lon": 127.96037749999999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13645,
+        "name": "ATIS"
+      },
+      {
+        "type": 54,
+        "frequency": 11832,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12620,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 13020,
+        "name": "APP"
+      },
+      {
+        "type": 56,
+        "frequency": 13020,
+        "name": "DEP"
+      }
+    ],
+    "elevation": 329,
+    "tower": true,
+    "name": "WONJU",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 37.427033,
+        "lonStart": 127.953583,
+        "latEnd": 37.449125,
+        "lonEnd": 127.967172,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 24496
+  },
+  {
+    "type": 1,
+    "icao": "RKRG",
+    "lat": 37.501527499999995,
+    "lon": 127.62986000000001,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12760,
+        "name": "YANG PYEONG TWR"
+      }
+    ],
+    "elevation": 230,
+    "tower": true,
+    "name": "G 301",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 37.503333,
+        "lonStart": 127.628331,
+        "latEnd": 37.499722,
+        "lonEnd": 127.631389,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 24505
+  },
+  {
+    "type": 1,
+    "icao": "RKRK",
+    "lat": 37.8116665,
+    "lon": 127.35722200000001,
+    "communications": [],
+    "elevation": 400,
+    "tower": false,
+    "name": "G 213",
+    "runways": [
+      {
+        "type": 100,
+        "width": 23.16,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 37.813622,
+        "lonStart": 127.356325,
+        "latEnd": 37.809711,
+        "lonEnd": 127.358119,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 24506
   },
   {
     "type": 1,
@@ -291,124 +311,39 @@
         "surfacetype": 2
       }
     ],
-    "id": 9838
+    "id": 24507
   },
   {
     "type": 1,
-    "icao": "RKTI",
-    "lat": 37.02999725,
-    "lon": 127.88526524999999,
+    "icao": "RKRO",
+    "lat": 37.866480499999994,
+    "lon": 127.1747015,
     "communications": [
       {
-        "type": 50,
-        "frequency": 13560,
-        "name": "ATIS"
-      },
-      {
         "type": 54,
-        "frequency": 12620,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 13255,
-        "name": "APP"
-      },
-      {
-        "type": 56,
-        "frequency": 13255,
-        "name": "DEP"
+        "frequency": 12050,
+        "name": "PO CHEON"
       }
     ],
-    "elevation": 281,
+    "elevation": 328,
     "tower": true,
-    "name": "JUNGWON AB",
+    "name": "G 217",
     "runways": [
       {
         "type": 100,
-        "width": 36.58,
+        "width": 24.38,
         "surfaceType": null,
-        "numberStart": "18R",
-        "numberEnd": "36L",
-        "latStart": 37.042694,
-        "lonStart": 127.882728,
-        "latEnd": 37.017164,
-        "lonEnd": 127.885211,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 37.862472,
+        "lonStart": 127.171056,
+        "latEnd": 37.870489,
+        "lonEnd": 127.178347,
         "length": 0,
-        "surfacetype": 2
-      },
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "18L",
-        "numberEnd": "36R",
-        "latStart": 37.042392,
-        "lonStart": 127.885358,
-        "latEnd": 37.017739,
-        "lonEnd": 127.887764,
-        "length": 0,
-        "surfacetype": 2
+        "surfacetype": 1
       }
     ],
-    "id": 12831
-  },
-  {
-    "type": 1,
-    "icao": "RKSO",
-    "lat": 37.0906165,
-    "lon": 127.029593,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13212,
-        "name": "ATIS"
-      },
-      {
-        "type": 52,
-        "frequency": 12730,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 53,
-        "frequency": 13245,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12210,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12790,
-        "name": "APP"
-      },
-      {
-        "type": 56,
-        "frequency": 12790,
-        "name": "DEP"
-      }
-    ],
-    "elevation": 40,
-    "tower": true,
-    "name": "OSAN AB",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 37.089339,
-        "lonStart": 127.014242,
-        "latEnd": 37.091894,
-        "lonEnd": 127.044944,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 18716
+    "id": 24508
   },
   {
     "type": 1,
@@ -483,7 +418,64 @@
         "surfacetype": 2
       }
     ],
-    "id": 22163
+    "id": 24511
+  },
+  {
+    "type": 1,
+    "icao": "RKSO",
+    "lat": 37.0906165,
+    "lon": 127.029593,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13212,
+        "name": "ATIS"
+      },
+      {
+        "type": 52,
+        "frequency": 12730,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 13245,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 12210,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12790,
+        "name": "APP"
+      },
+      {
+        "type": 56,
+        "frequency": 12790,
+        "name": "DEP"
+      }
+    ],
+    "elevation": 40,
+    "tower": true,
+    "name": "OSAN AB",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "09R",
+        "numberEnd": "27L",
+        "latStart": 37.089339,
+        "lonStart": 127.014242,
+        "latEnd": 37.091894,
+        "lonEnd": 127.044944,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 24512
   },
   {
     "type": 1,
@@ -551,23 +543,18 @@
         "surfacetype": 1
       }
     ],
-    "id": 22624
+    "id": 24513
   },
   {
     "type": 1,
-    "icao": "RKNW",
-    "lat": 37.438079,
-    "lon": 127.96037749999999,
+    "icao": "RKTI",
+    "lat": 37.02999725,
+    "lon": 127.88526524999999,
     "communications": [
       {
         "type": 50,
-        "frequency": 13645,
+        "frequency": 13560,
         "name": "ATIS"
-      },
-      {
-        "type": 54,
-        "frequency": 11832,
-        "name": "TWR"
       },
       {
         "type": 54,
@@ -576,33 +563,46 @@
       },
       {
         "type": 55,
-        "frequency": 13020,
+        "frequency": 13255,
         "name": "APP"
       },
       {
         "type": 56,
-        "frequency": 13020,
+        "frequency": 13255,
         "name": "DEP"
       }
     ],
-    "elevation": 329,
+    "elevation": 281,
     "tower": true,
-    "name": "WONJU",
+    "name": "JUNGWON AB",
     "runways": [
       {
         "type": 100,
-        "width": 45.72,
+        "width": 36.58,
         "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 37.427033,
-        "lonStart": 127.953583,
-        "latEnd": 37.449125,
-        "lonEnd": 127.967172,
+        "numberStart": "18R",
+        "numberEnd": "36L",
+        "latStart": 37.042694,
+        "lonStart": 127.882728,
+        "latEnd": 37.017164,
+        "lonEnd": 127.885211,
+        "length": 0,
+        "surfacetype": 2
+      },
+      {
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "18L",
+        "numberEnd": "36R",
+        "latStart": 37.042392,
+        "lonStart": 127.885358,
+        "latEnd": 37.017739,
+        "lonEnd": 127.887764,
         "length": 0,
         "surfacetype": 2
       }
     ],
-    "id": 26730
+    "id": 24516
   }
 ]

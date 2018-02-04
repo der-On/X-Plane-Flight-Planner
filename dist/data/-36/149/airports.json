@@ -1,6 +1,68 @@
 [
   {
     "type": 1,
+    "icao": "YGDO",
+    "lat": -35.050049525000006,
+    "lon": 149.2559716,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12670,
+        "name": "GUNDAROO CTAF"
+      },
+      {
+        "type": 52,
+        "frequency": 12450,
+        "name": "CANBERRA APPROACH"
+      }
+    ],
+    "elevation": 1895,
+    "tower": false,
+    "name": "Gundaroo",
+    "runways": [
+      {
+        "type": 100,
+        "width": 13,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": -35.0549217,
+        "lonStart": 149.25511055,
+        "latEnd": -35.04517735,
+        "lonEnd": 149.25683265,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 33327
+  },
+  {
+    "type": 17,
+    "icao": "YMJR",
+    "lat": -35.245885,
+    "lon": 149.195703,
+    "communications": [],
+    "elevation": 2022,
+    "tower": false,
+    "name": "[H] MAJURA TRAINING AREA",
+    "runways": [
+      {
+        "type": 102,
+        "width": 29.9,
+        "surfaceType": 1,
+        "numberStart": "H7",
+        "numberEnd": null,
+        "latStart": -35.245885,
+        "lonStart": 149.195703,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.9
+      }
+    ],
+    "id": 33867
+  },
+  {
+    "type": 1,
     "icao": "YSCB",
     "lat": -35.30424910875,
     "lon": 149.1909923975,
@@ -125,44 +187,7 @@
         "length": 6.1
       }
     ],
-    "id": 4447
-  },
-  {
-    "type": 1,
-    "icao": "YGDO",
-    "lat": -35.050049525000006,
-    "lon": 149.2559716,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12670,
-        "name": "GUNDAROO CTAF"
-      },
-      {
-        "type": 52,
-        "frequency": 12450,
-        "name": "CANBERRA APPROACH"
-      }
-    ],
-    "elevation": 1895,
-    "tower": false,
-    "name": "Gundaroo",
-    "runways": [
-      {
-        "type": 100,
-        "width": 13,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": -35.0549217,
-        "lonStart": 149.25511055,
-        "latEnd": -35.04517735,
-        "lonEnd": 149.25683265,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 10894
+    "id": 34379
   },
   {
     "type": 1,
@@ -188,32 +213,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 24828
-  },
-  {
-    "type": 17,
-    "icao": "YMJR",
-    "lat": -35.245885,
-    "lon": 149.195703,
-    "communications": [],
-    "elevation": 2022,
-    "tower": false,
-    "name": "[H] MAJURA TRAINING AREA",
-    "runways": [
-      {
-        "type": 102,
-        "width": 29.9,
-        "surfaceType": 1,
-        "numberStart": "H7",
-        "numberEnd": null,
-        "latStart": -35.245885,
-        "lonStart": 149.195703,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 29.9
-      }
-    ],
-    "id": 30994
+    "id": 34502
   },
   {
     "type": 17,
@@ -238,6 +238,6 @@
         "length": 14.9
       }
     ],
-    "id": 32493
+    "id": 34835
   }
 ]

@@ -1,6 +1,56 @@
 [
   {
     "type": 1,
+    "icao": "KSHR",
+    "lat": 44.770054810000005,
+    "lon": -106.9799404775,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 13517,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 4020,
+    "tower": false,
+    "name": "SHERIDAN CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 44.77704514,
+        "lonStart": -106.98775171,
+        "latEnd": 44.75620468,
+        "lonEnd": -106.97492136,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 23,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 44.7708964,
+        "lonStart": -106.98754155,
+        "latEnd": 44.77607302,
+        "lonEnd": -106.96954729,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3262
+  },
+  {
+    "type": 1,
     "icao": "WY23",
     "lat": 44.07177353333333,
     "lon": -106.26613813666665,
@@ -49,7 +99,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 12392
+    "id": 5299
   },
   {
     "type": 1,
@@ -86,57 +136,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 12783
-  },
-  {
-    "type": 1,
-    "icao": "KSHR",
-    "lat": 44.770054810000005,
-    "lon": -106.9799404775,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 13517,
-        "name": "ASOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12300,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 4020,
-    "tower": false,
-    "name": "SHERIDAN CO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 44.77704514,
-        "lonStart": -106.98775171,
-        "latEnd": 44.75620468,
-        "lonEnd": -106.97492136,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 23,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 44.7708964,
-        "lonStart": -106.98754155,
-        "latEnd": 44.77607302,
-        "lonEnd": -106.96954729,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22221
+    "id": 18910
   },
   {
     "type": 1,
@@ -162,6 +162,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 24504
+    "id": 32242
   }
 ]

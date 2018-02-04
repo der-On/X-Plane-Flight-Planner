@@ -1,6 +1,69 @@
 [
   {
     "type": 1,
+    "icao": "EPGW",
+    "lat": 52.693436070000004,
+    "lon": 15.216248975,
+    "communications": [],
+    "elevation": 164,
+    "tower": true,
+    "name": "Ulim",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.28,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 52.69470641,
+        "lonStart": 15.21203849,
+        "latEnd": 52.69216573,
+        "lonEnd": 15.22045946,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1809
+  },
+  {
+    "type": 1,
+    "icao": "EPZG",
+    "lat": 52.138512485,
+    "lon": 15.798545449999999,
+    "communications": [
+      {
+        "type": 55,
+        "frequency": 12902,
+        "name": "POZNAN APPROACH"
+      },
+      {
+        "type": 54,
+        "frequency": 11875,
+        "name": "ZIELONA GORA TOWER"
+      }
+    ],
+    "elevation": 190,
+    "tower": true,
+    "name": "ZIELONA GORA BABIMOST",
+    "runways": [
+      {
+        "type": 100,
+        "width": 60.05,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 52.13369563,
+        "lonStart": 15.78208448,
+        "latEnd": 52.14332934,
+        "lonEnd": 15.81500642,
+        "length": 0,
+        "surfacetype": 2
+      }
+    ],
+    "id": 1862
+  },
+  {
+    "type": 1,
     "icao": "EP69",
     "lat": 52.715805945,
     "lon": 15.510930235,
@@ -29,64 +92,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 15321
-  },
-  {
-    "type": 1,
-    "icao": "EPGW",
-    "lat": 52.693436070000004,
-    "lon": 15.216248975,
-    "communications": [],
-    "elevation": 164,
-    "tower": true,
-    "name": "Ulim",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.28,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 52.69470641,
-        "lonStart": 15.21203849,
-        "latEnd": 52.69216573,
-        "lonEnd": 15.22045946,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 25894
-  },
-  {
-    "type": 1,
-    "icao": "EPZG",
-    "lat": 52.138632865,
-    "lon": 15.79839988,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11875,
-        "name": "ZIELONA GORA TOWER"
-      }
-    ],
-    "elevation": 191,
-    "tower": true,
-    "name": "ZIELONA GORA BABIMOST",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.05,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 52.13381601,
-        "lonStart": 15.78193891,
-        "latEnd": 52.14344972,
-        "lonEnd": 15.81486085,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 27852
+    "id": 16631
   }
 ]

@@ -1,6 +1,32 @@
 [
   {
     "type": 1,
+    "icao": "0SD6",
+    "lat": 44.28887388,
+    "lon": -101.82598056,
+    "communications": [],
+    "elevation": 2580,
+    "tower": false,
+    "name": "Oasis Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 7.62,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 44.29168253,
+        "lonStart": -101.82872792,
+        "latEnd": 44.28606523,
+        "lonEnd": -101.8232332,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 6149
+  },
+  {
+    "type": 1,
     "icao": "84D",
     "lat": 44.984376,
     "lon": -101.2510445,
@@ -29,98 +55,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 3880
-  },
-  {
-    "type": 1,
-    "icao": "SD30",
-    "lat": 44.295817500000005,
-    "lon": -101.18930889,
-    "communications": [],
-    "elevation": 2240,
-    "tower": false,
-    "name": "Gene Armstrong",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 44.30188418,
-        "lonStart": -101.19524388,
-        "latEnd": 44.28975082,
-        "lonEnd": -101.1833739,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 44.2993292,
-        "lonStart": -101.18844377,
-        "latEnd": 44.2923058,
-        "lonEnd": -101.19017401,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 10382
-  },
-  {
-    "type": 1,
-    "icao": "SD21",
-    "lat": 44.370815,
-    "lon": -101.00875389000001,
-    "communications": [],
-    "elevation": 1986,
-    "tower": false,
-    "name": "Hayes Emergency Airstrip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 44.37328375,
-        "lonStart": -101.01082904,
-        "latEnd": 44.36834625,
-        "lonEnd": -101.00667874,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 11592
-  },
-  {
-    "type": 1,
-    "icao": "0SD6",
-    "lat": 44.28887388,
-    "lon": -101.82598056,
-    "communications": [],
-    "elevation": 2580,
-    "tower": false,
-    "name": "Oasis Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 7.62,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 44.29168253,
-        "lonStart": -101.82872792,
-        "latEnd": 44.28606523,
-        "lonEnd": -101.8232332,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 18787
+    "id": 13815
   },
   {
     "type": 1,
@@ -170,7 +105,72 @@
         "surfacetype": 3
       }
     ],
-    "id": 19342
+    "id": 19672
+  },
+  {
+    "type": 1,
+    "icao": "SD21",
+    "lat": 44.370815,
+    "lon": -101.00875389000001,
+    "communications": [],
+    "elevation": 1986,
+    "tower": false,
+    "name": "Hayes Emergency Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 44.37328375,
+        "lonStart": -101.01082904,
+        "latEnd": 44.36834625,
+        "lonEnd": -101.00667874,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 25267
+  },
+  {
+    "type": 1,
+    "icao": "SD30",
+    "lat": 44.295817500000005,
+    "lon": -101.18930889,
+    "communications": [],
+    "elevation": 2240,
+    "tower": false,
+    "name": "Gene Armstrong",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 44.30188418,
+        "lonStart": -101.19524388,
+        "latEnd": 44.28975082,
+        "lonEnd": -101.1833739,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 44.2993292,
+        "lonStart": -101.18844377,
+        "latEnd": 44.2923058,
+        "lonEnd": -101.19017401,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 25273
   },
   {
     "type": 1,
@@ -196,6 +196,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 24075
+    "id": 25307
   }
 ]

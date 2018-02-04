@@ -1,6 +1,265 @@
 [
   {
     "type": 1,
+    "icao": "YPJT",
+    "lat": -32.097719562222224,
+    "lon": 115.8799453977778,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12090,
+        "name": "YPJT ATIS"
+      },
+      {
+        "type": 51,
+        "frequency": 11810,
+        "name": "JANDAKOT MULTICOM"
+      },
+      {
+        "type": 51,
+        "frequency": 12390,
+        "name": "ACTIVATE LIGHTS ONLY MULTICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 13295,
+        "name": "PERTH CLNC"
+      },
+      {
+        "type": 53,
+        "frequency": 12430,
+        "name": "JANDAKOT GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11810,
+        "name": "JANDAKOT TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12370,
+        "name": "PERTH APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12810,
+        "name": "PERTH APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12750,
+        "name": "PERTH APP"
+      },
+      {
+        "type": 56,
+        "frequency": 11870,
+        "name": "PERTH DEP"
+      },
+      {
+        "type": 56,
+        "frequency": 12810,
+        "name": "PERTH DEP"
+      }
+    ],
+    "elevation": 99,
+    "tower": true,
+    "name": "Jandakot",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": -32.09996601,
+        "lonStart": 115.87247748,
+        "latEnd": -32.10364979,
+        "lonEnd": 115.88201977,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "06L",
+        "numberEnd": "24R",
+        "latStart": -32.10060094,
+        "lonStart": 115.87356691,
+        "latEnd": -32.09329963,
+        "lonEnd": 115.885561,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 18.9,
+        "surfaceType": null,
+        "numberStart": "06R",
+        "numberEnd": "24L",
+        "latStart": -32.10087893,
+        "lonStart": 115.87692633,
+        "latEnd": -32.09486436,
+        "lonEnd": 115.88683147,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 17.1,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": -32.09709038,
+        "lonStart": 115.8779534,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.9
+      },
+      {
+        "type": 102,
+        "width": 8.9,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": -32.09664943,
+        "lonStart": 115.87866473,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.2
+      },
+      {
+        "type": 102,
+        "width": 14.6,
+        "surfaceType": 1,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": -32.09247659,
+        "lonStart": 115.88550749,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 13.7
+      }
+    ],
+    "id": 5601
+  },
+  {
+    "type": 1,
+    "icao": "A001",
+    "lat": -32.666776514999995,
+    "lon": 115.88162921,
+    "communications": [],
+    "elevation": 47,
+    "tower": false,
+    "name": "Pinjarra Skydiving Airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.25,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": -32.67198765,
+        "lonStart": 115.88013505,
+        "latEnd": -32.66156538,
+        "lonEnd": 115.88312337,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 14368
+  },
+  {
+    "type": 1,
+    "icao": "A010",
+    "lat": -32.78783460499999,
+    "lon": 115.78889192333334,
+    "communications": [],
+    "elevation": 20,
+    "tower": false,
+    "name": "Wheeler Field",
+    "runways": [
+      {
+        "type": 100,
+        "width": 16.46,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": -32.78630635,
+        "lonStart": 115.78751289,
+        "latEnd": -32.79027609,
+        "lonEnd": 115.78779447,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 18.59,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": -32.78778455,
+        "lonStart": 115.78601708,
+        "latEnd": -32.78596356,
+        "lonEnd": 115.79304573,
+        "length": 0,
+        "surfacetype": 4
+      },
+      {
+        "type": 100,
+        "width": 22.25,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": -32.79167216,
+        "lonStart": 115.78382478,
+        "latEnd": -32.78500492,
+        "lonEnd": 115.79515659,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 14378
+  },
+  {
+    "type": 17,
+    "icao": "YFTL",
+    "lat": -32.045908710000006,
+    "lon": 115.73326969,
+    "communications": [],
+    "elevation": 17,
+    "tower": false,
+    "name": "[H] FREMANTLE HELIPORT",
+    "runways": [
+      {
+        "type": 102,
+        "width": 7.9,
+        "surfaceType": 1,
+        "numberStart": "H68",
+        "numberEnd": null,
+        "latStart": -32.04579247,
+        "lonStart": 115.73345628,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 7.9
+      },
+      {
+        "type": 102,
+        "width": 27.1,
+        "surfaceType": 2,
+        "numberStart": "H69",
+        "numberEnd": null,
+        "latStart": -32.04602495,
+        "lonStart": 115.7330831,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 27.1
+      }
+    ],
+    "id": 33300
+  },
+  {
+    "type": 1,
     "icao": "YGAD",
     "lat": -32.24003069666667,
     "lon": 115.68511397666668,
@@ -77,139 +336,7 @@
         "length": 28
       }
     ],
-    "id": 10302
-  },
-  {
-    "type": 1,
-    "icao": "YPJT",
-    "lat": -32.098374682499994,
-    "lon": 115.87925103875,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12090,
-        "name": "YPJT ATIS"
-      },
-      {
-        "type": 51,
-        "frequency": 11810,
-        "name": "JANDAKOT MULTICOM"
-      },
-      {
-        "type": 51,
-        "frequency": 12390,
-        "name": "ACTIVATE LIGHTS ONLY MULTICOM"
-      },
-      {
-        "type": 52,
-        "frequency": 13294,
-        "name": "PERTH CLNC"
-      },
-      {
-        "type": 53,
-        "frequency": 12430,
-        "name": "JANDAKOT GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11810,
-        "name": "JANDAKOT TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12370,
-        "name": "PERTH APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12810,
-        "name": "PERTH APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12750,
-        "name": "PERTH APP"
-      },
-      {
-        "type": 56,
-        "frequency": 11870,
-        "name": "PERTH DEP"
-      },
-      {
-        "type": 56,
-        "frequency": 12810,
-        "name": "PERTH DEP"
-      }
-    ],
-    "elevation": 99,
-    "tower": true,
-    "name": "Jandakot",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": -32.09996601,
-        "lonStart": 115.87247748,
-        "latEnd": -32.10364979,
-        "lonEnd": 115.88201977,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "06L",
-        "numberEnd": "24R",
-        "latStart": -32.10060094,
-        "lonStart": 115.87356691,
-        "latEnd": -32.09329963,
-        "lonEnd": 115.88556105,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 18.9,
-        "surfaceType": null,
-        "numberStart": "06R",
-        "numberEnd": "24L",
-        "latStart": -32.10087893,
-        "lonStart": 115.87692633,
-        "latEnd": -32.09486436,
-        "lonEnd": 115.88683147,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 17.07,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": -32.09708727,
-        "lonStart": 115.87794972,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.85
-      },
-      {
-        "type": 102,
-        "width": 10.06,
-        "surfaceType": 1,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": -32.09665053,
-        "lonStart": 115.87867558,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 10.06
-      }
-    ],
-    "id": 12905
+    "id": 33306
   },
   {
     "type": 1,
@@ -259,7 +386,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 17747
+    "id": 33973
   },
   {
     "type": 1,
@@ -285,33 +412,7 @@
         "surfacetype": 4
       }
     ],
-    "id": 17992
-  },
-  {
-    "type": 1,
-    "icao": "A001",
-    "lat": -32.666776514999995,
-    "lon": 115.88162921,
-    "communications": [],
-    "elevation": 47,
-    "tower": false,
-    "name": "Pinjarra Skydiving Airstrip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.25,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": -32.67198765,
-        "lonStart": 115.88013505,
-        "latEnd": -32.66156538,
-        "lonEnd": 115.88312337,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 20171
+    "id": 34063
   },
   {
     "type": 1,
@@ -348,7 +449,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 21771
+    "id": 34347
   },
   {
     "type": 1,
@@ -393,95 +494,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 23287
-  },
-  {
-    "type": 1,
-    "icao": "A010",
-    "lat": -32.78783460499999,
-    "lon": 115.78889192333334,
-    "communications": [],
-    "elevation": 20,
-    "tower": false,
-    "name": "Wheeler Field",
-    "runways": [
-      {
-        "type": 100,
-        "width": 16.46,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": -32.78630635,
-        "lonStart": 115.78751289,
-        "latEnd": -32.79027609,
-        "lonEnd": 115.78779447,
-        "length": 0,
-        "surfacetype": 4
-      },
-      {
-        "type": 100,
-        "width": 18.59,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": -32.78778455,
-        "lonStart": 115.78601708,
-        "latEnd": -32.78596356,
-        "lonEnd": 115.79304573,
-        "length": 0,
-        "surfacetype": 4
-      },
-      {
-        "type": 100,
-        "width": 22.25,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": -32.79167216,
-        "lonStart": 115.78382478,
-        "latEnd": -32.78500492,
-        "lonEnd": 115.79515659,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 27187
-  },
-  {
-    "type": 17,
-    "icao": "YFTL",
-    "lat": -32.045908710000006,
-    "lon": 115.73326969,
-    "communications": [],
-    "elevation": 17,
-    "tower": false,
-    "name": "[H] FREMANTLE HELIPORT",
-    "runways": [
-      {
-        "type": 102,
-        "width": 7.9,
-        "surfaceType": 1,
-        "numberStart": "H68",
-        "numberEnd": null,
-        "latStart": -32.04579247,
-        "lonStart": 115.73345628,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 7.9
-      },
-      {
-        "type": 102,
-        "width": 27.1,
-        "surfaceType": 2,
-        "numberStart": "H69",
-        "numberEnd": null,
-        "latStart": -32.04602495,
-        "lonStart": 115.7330831,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 27.1
-      }
-    ],
-    "id": 29629
+    "id": 34393
   }
 ]

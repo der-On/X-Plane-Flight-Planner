@@ -1,6 +1,102 @@
 [
   {
     "type": 1,
+    "icao": "S49",
+    "lat": 43.963913805,
+    "lon": -117.25251391750001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 2249,
+    "tower": false,
+    "name": "Miller Memorial Airpark",
+    "runways": [
+      {
+        "type": 100,
+        "width": 19.81,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 43.96717721,
+        "lonStart": -117.25228386,
+        "latEnd": 43.95678133,
+        "lonEnd": -117.2553011,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 43.96712618,
+        "lonStart": -117.25473177,
+        "latEnd": 43.9645705,
+        "lonEnd": -117.24773894,
+        "length": 0,
+        "surfacetype": 5
+      }
+    ],
+    "id": 4508
+  },
+  {
+    "type": 1,
+    "icao": "28U",
+    "lat": 43.42488138,
+    "lon": -117.34544,
+    "communications": [],
+    "elevation": 2680,
+    "tower": false,
+    "name": "Owyhee Reservoir State",
+    "runways": [
+      {
+        "type": 100,
+        "width": 9.14,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 43.42672698,
+        "lonStart": -117.34780969,
+        "latEnd": 43.42303578,
+        "lonEnd": -117.34307031,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 11647
+  },
+  {
+    "type": 17,
+    "icao": "75OR",
+    "lat": 43.88016194,
+    "lon": -117.00765917,
+    "communications": [],
+    "elevation": 2185,
+    "tower": false,
+    "name": "[H] Malheur Memorial Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 43.88016194,
+        "lonStart": -117.00765917,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 7.6
+      }
+    ],
+    "id": 13498
+  },
+  {
+    "type": 1,
     "icao": "78OR",
     "lat": 43.30793583,
     "lon": -117.89434556,
@@ -23,72 +119,7 @@
         "surfacetype": 5
       }
     ],
-    "id": 5539
-  },
-  {
-    "type": 1,
-    "icao": "S49",
-    "lat": 43.96377165999999,
-    "lon": -117.25934251,
-    "communications": [],
-    "elevation": 2249,
-    "tower": false,
-    "name": "Miller Memorial Airpark",
-    "runways": [
-      {
-        "type": 100,
-        "width": 19.81,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 43.96904249,
-        "lonStart": -117.25844338,
-        "latEnd": 43.95850083,
-        "lonEnd": -117.26024164,
-        "length": 0,
-        "surfacetype": 5
-      },
-      {
-        "type": 100,
-        "width": 12.19,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 43.96514148,
-        "lonStart": -117.26307757,
-        "latEnd": 43.96240184,
-        "lonEnd": -117.25560745,
-        "length": 0,
-        "surfacetype": 5
-      }
-    ],
-    "id": 17231
-  },
-  {
-    "type": 1,
-    "icao": "28U",
-    "lat": 43.42488138,
-    "lon": -117.34544,
-    "communications": [],
-    "elevation": 2680,
-    "tower": false,
-    "name": "Owyhee Reservoir State",
-    "runways": [
-      {
-        "type": 100,
-        "width": 9.14,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 43.42672698,
-        "lonStart": -117.34780969,
-        "latEnd": 43.42303578,
-        "lonEnd": -117.34307031,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 19130
+    "id": 13608
   },
   {
     "type": 1,
@@ -114,7 +145,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 21431
+    "id": 18291
   },
   {
     "type": 1,
@@ -140,31 +171,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 25246
-  },
-  {
-    "type": 17,
-    "icao": "75OR",
-    "lat": 43.88016194,
-    "lon": -117.00765917,
-    "communications": [],
-    "elevation": 2185,
-    "tower": false,
-    "name": "[H] Malheur Memorial Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 43.88016194,
-        "lonStart": -117.00765917,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 7.6
-      }
-    ],
-    "id": 31053
+    "id": 23647
   }
 ]

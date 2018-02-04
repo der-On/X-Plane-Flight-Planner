@@ -1,6 +1,44 @@
 [
   {
     "type": 1,
+    "icao": "CYVK",
+    "lat": 50.246370406666664,
+    "lon": -119.32883643000001,
+    "communications": [],
+    "elevation": 1140,
+    "tower": false,
+    "name": "VERNON",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 50.24489487,
+        "lonStart": -119.33687598,
+        "latEnd": 50.24771979,
+        "lonEnd": -119.32395685,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 10.8,
+        "surfaceType": 1,
+        "numberStart": "H41",
+        "numberEnd": null,
+        "latStart": 50.24649656,
+        "lonStart": -119.32567646,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.6
+      }
+    ],
+    "id": 849
+  },
+  {
+    "type": 1,
     "icao": "CZAM",
     "lat": 50.6827775,
     "lon": -119.228611,
@@ -29,38 +67,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 21936
-  },
-  {
-    "type": 1,
-    "icao": "CYVK",
-    "lat": 50.2480555,
-    "lon": -119.3305555,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 1140,
-    "tower": false,
-    "name": "VERNON",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 50.246528,
-        "lonStart": -119.337328,
-        "latEnd": 50.249583,
-        "lonEnd": -119.323783,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 26074
+    "id": 15857
   }
 ]

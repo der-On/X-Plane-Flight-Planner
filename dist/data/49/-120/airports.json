@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "CYLW",
-    "lat": 49.956117000000006,
-    "lon": -119.377757,
+    "lat": 49.95720292,
+    "lon": -119.377944765,
     "communications": [
       {
         "type": 50,
@@ -31,21 +31,21 @@
         "surfaceType": null,
         "numberStart": "16",
         "numberEnd": "34",
-        "latStart": 49.966078,
-        "lonStart": -119.379142,
-        "latEnd": 49.946156,
-        "lonEnd": -119.376372,
+        "latStart": 49.96962082,
+        "lonStart": -119.37967793,
+        "latEnd": 49.94478502,
+        "lonEnd": -119.3762116,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 13726
+    "id": 787
   },
   {
     "type": 1,
     "icao": "CYYF",
-    "lat": 49.46125,
-    "lon": -119.601385,
+    "lat": 49.4597246525,
+    "lon": -119.60440487,
     "communications": [
       {
         "type": 54,
@@ -58,7 +58,7 @@
         "name": "VANCOUVER APP/DEP"
       }
     ],
-    "elevation": 1129,
+    "elevation": 1128,
     "tower": false,
     "name": "PENTICTON",
     "runways": [
@@ -68,14 +68,168 @@
         "surfaceType": null,
         "numberStart": "16",
         "numberEnd": "34",
-        "latStart": 49.469444,
-        "lonStart": -119.600831,
-        "latEnd": 49.453056,
-        "lonEnd": -119.601939,
+        "latStart": 49.47061725,
+        "lonStart": -119.6019918,
+        "latEnd": 49.45528111,
+        "lonEnd": -119.60257627,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 15,
+        "surfaceType": 1,
+        "numberStart": "H07",
+        "numberEnd": null,
+        "latStart": 49.45885518,
+        "lonStart": -119.60502437,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.5
+      },
+      {
+        "type": 102,
+        "width": 15,
+        "surfaceType": 1,
+        "numberStart": "H08",
+        "numberEnd": null,
+        "latStart": 49.45868308,
+        "lonStart": -119.6052463,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.5
+      },
+      {
+        "type": 102,
+        "width": 15,
+        "surfaceType": 1,
+        "numberStart": "H09",
+        "numberEnd": null,
+        "latStart": 49.45867935,
+        "lonStart": -119.60501739,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.5
+      },
+      {
+        "type": 102,
+        "width": 15,
+        "surfaceType": 1,
+        "numberStart": "H10",
+        "numberEnd": null,
+        "latStart": 49.45849984,
+        "lonStart": -119.6050404,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.5
+      },
+      {
+        "type": 102,
+        "width": 15,
+        "surfaceType": 1,
+        "numberStart": "H11",
+        "numberEnd": null,
+        "latStart": 49.45832316,
+        "lonStart": -119.60504849,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.5
+      },
+      {
+        "type": 102,
+        "width": 15,
+        "surfaceType": 1,
+        "numberStart": "H12",
+        "numberEnd": null,
+        "latStart": 49.45885825,
+        "lonStart": -119.60529394,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.5
       }
     ],
-    "id": 19303
+    "id": 869
+  },
+  {
+    "type": 17,
+    "icao": "XCAB7",
+    "lat": 49.86385863,
+    "lon": -119.56850706,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12750,
+        "name": "ATIS"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11960,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 1640,
+    "tower": true,
+    "name": "[H] Kelowna (Alpine) Heliport",
+    "runways": [
+      {
+        "type": 102,
+        "width": 27,
+        "surfaceType": 2,
+        "numberStart": "H35",
+        "numberEnd": null,
+        "latStart": 49.86385863,
+        "lonStart": -119.56850706,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 27.8
+      }
+    ],
+    "id": 5317
+  },
+  {
+    "type": 1,
+    "icao": "XCWC2",
+    "lat": 49.86740942,
+    "lon": -119.57918476,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12320,
+        "name": "Traffic"
+      },
+      {
+        "type": 50,
+        "frequency": 12670,
+        "name": "Pacific Radio bcst"
+      },
+      {
+        "type": 50,
+        "frequency": 12250,
+        "name": "Pacific Radio fise"
+      }
+    ],
+    "elevation": 1640,
+    "tower": false,
+    "name": "[H] Kelowna (Wildcat Helicopters) Heliport",
+    "runways": [
+      {
+        "type": 102,
+        "width": 27.4,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 49.86740942,
+        "lonStart": -119.57918476,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 27.4
+      }
+    ],
+    "id": 5333
   }
 ]

@@ -1,29 +1,53 @@
 [
   {
     "type": 1,
-    "icao": "64T",
-    "lat": 30.159092219999998,
-    "lon": -99.33726945000001,
-    "communications": [],
-    "elevation": 2016,
+    "icao": "KJCT",
+    "lat": 30.5112889875,
+    "lon": -99.76192309499999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11927,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1749,
     "tower": false,
-    "name": "Brinkman Ranch - Mt Home",
+    "name": "Kimble County",
     "runways": [
       {
         "type": 100,
-        "width": 18.29,
+        "width": 23,
         "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 30.15582264,
-        "lonStart": -99.33928009,
-        "latEnd": 30.1623618,
-        "lonEnd": -99.33525881,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 30.51767327,
+        "lonStart": -99.76439328,
+        "latEnd": 30.50394955,
+        "lonEnd": -99.76447375,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 30.51187445,
+        "lonStart": -99.7629986,
+        "latEnd": 30.51165868,
+        "lonEnd": -99.75582675,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 3207
+    "id": 2843
   },
   {
     "type": 1,
@@ -49,59 +73,33 @@
         "surfacetype": 1
       }
     ],
-    "id": 4071
+    "id": 8371
   },
   {
     "type": 1,
-    "icao": "87TA",
-    "lat": 30.18909111,
-    "lon": -99.26976805999999,
+    "icao": "14T",
+    "lat": 30.916840829999998,
+    "lon": -99.48367334,
     "communications": [],
-    "elevation": 2180,
+    "elevation": 1793,
     "tower": false,
-    "name": "Cielo Grande Ranch",
+    "name": "Smith I-Ranch",
     "runways": [
       {
         "type": 100,
-        "width": 12.19,
+        "width": 30.48,
         "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 30.19196949,
-        "lonStart": -99.26988435,
-        "latEnd": 30.18621273,
-        "lonEnd": -99.26965177,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 30.91912064,
+        "lonStart": -99.48707464,
+        "latEnd": 30.91456102,
+        "lonEnd": -99.48027204,
         "length": 0,
-        "surfacetype": 4
+        "surfacetype": 3
       }
     ],
-    "id": 4994
-  },
-  {
-    "type": 1,
-    "icao": "XS20",
-    "lat": 30.1540915,
-    "lon": -99.297825,
-    "communications": [],
-    "elevation": 2058,
-    "tower": false,
-    "name": "DOS ARROYOS RANCH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 30.158872,
-        "lonStart": -99.299828,
-        "latEnd": 30.149311,
-        "lonEnd": -99.295822,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 5854
+    "id": 11079
   },
   {
     "type": 1,
@@ -127,57 +125,302 @@
         "surfacetype": 3
       }
     ],
-    "id": 12639
+    "id": 11123
   },
   {
     "type": 1,
-    "icao": "KJCT",
-    "lat": 30.511064750000003,
-    "lon": -99.76229375,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11927,
-        "name": "ASOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 1749,
+    "icao": "18TA",
+    "lat": 30.136314,
+    "lon": -99.743675,
+    "communications": [],
+    "elevation": 2330,
     "tower": false,
-    "name": "KIMBLE CO",
+    "name": "WEST KERR RANCH",
     "runways": [
       {
         "type": 100,
-        "width": 22.86,
+        "width": 14.63,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 30.142128,
+        "lonStart": -99.746108,
+        "latEnd": 30.1305,
+        "lonEnd": -99.741242,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 11244
+  },
+  {
+    "type": 17,
+    "icao": "42R",
+    "lat": 30.01437944,
+    "lon": -99.11226195,
+    "communications": [],
+    "elevation": 1600,
+    "tower": false,
+    "name": "[H] Vamc",
+    "runways": [
+      {
+        "type": 102,
+        "width": 27.4,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 30.01437944,
+        "lonStart": -99.11226195,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 27.4
+      }
+    ],
+    "id": 12190
+  },
+  {
+    "type": 1,
+    "icao": "44TX",
+    "lat": 30.210481110000003,
+    "lon": -99.09476556,
+    "communications": [],
+    "elevation": 1875,
+    "tower": false,
+    "name": "White Oak",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 30.517153,
-        "lonStart": -99.764386,
-        "latEnd": 30.503406,
-        "lonEnd": -99.764453,
+        "latStart": 30.21418188,
+        "lonStart": -99.0949151,
+        "latEnd": 30.20678034,
+        "lonEnd": -99.09461602,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12275
+  },
+  {
+    "type": 1,
+    "icao": "45T",
+    "lat": 30.05770833,
+    "lon": -99.51282834,
+    "communications": [],
+    "elevation": 2002,
+    "tower": false,
+    "name": "Stowers Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 30.05809008,
+        "lonStart": -99.51596666,
+        "latEnd": 30.05732658,
+        "lonEnd": -99.50969002,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 12309
+  },
+  {
+    "type": 1,
+    "icao": "52T",
+    "lat": 30.51685361,
+    "lon": -99.51700278000001,
+    "communications": [],
+    "elevation": 2100,
+    "tower": false,
+    "name": "Robinson Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 30.51455934,
+        "lonStart": -99.51996053,
+        "latEnd": 30.51914788,
+        "lonEnd": -99.51404503,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 12585
+  },
+  {
+    "type": 1,
+    "icao": "60TE",
+    "lat": 30.133539,
+    "lon": -99.1503195,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12275,
+        "name": "UNICOM"
+      }
+    ],
+    "elevation": 1990,
+    "tower": false,
+    "name": "TIERRA LINDA RANCH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 30.137414,
+        "lonStart": -99.151942,
+        "latEnd": 30.129664,
+        "lonEnd": -99.148697,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 12895
+  },
+  {
+    "type": 1,
+    "icao": "64T",
+    "lat": 30.159092219999998,
+    "lon": -99.33726945000001,
+    "communications": [],
+    "elevation": 2016,
+    "tower": false,
+    "name": "Brinkman Ranch - Mt Home",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 30.15582264,
+        "lonStart": -99.33928009,
+        "latEnd": 30.1623618,
+        "lonEnd": -99.33525881,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 13052
+  },
+  {
+    "type": 1,
+    "icao": "87TA",
+    "lat": 30.18909111,
+    "lon": -99.26976805999999,
+    "communications": [],
+    "elevation": 2180,
+    "tower": false,
+    "name": "Cielo Grande Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 12.19,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 30.19196949,
+        "lonStart": -99.26988435,
+        "latEnd": 30.18621273,
+        "lonEnd": -99.26965177,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 13941
+  },
+  {
+    "type": 1,
+    "icao": "T50",
+    "lat": 30.933472000000002,
+    "lon": -99.8168055,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 1930,
+    "tower": false,
+    "name": "MENARD CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 30.938611,
+        "lonStart": -99.819722,
+        "latEnd": 30.928333,
+        "lonEnd": -99.813889,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 29698
+  },
+  {
+    "type": 1,
+    "icao": "T92",
+    "lat": 30.73223575,
+    "lon": -99.18398075000002,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      },
+      {
+        "type": 55,
+        "frequency": 13235,
+        "name": "HOUSTON CNTR"
+      }
+    ],
+    "elevation": 1502,
+    "tower": false,
+    "name": "MASON CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 30.737317,
+        "lonStart": -99.184189,
+        "latEnd": 30.727103,
+        "lonEnd": -99.184403,
         "length": 0,
         "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 44.5,
+        "width": 18.29,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 30.511983,
-        "lonStart": -99.763742,
-        "latEnd": 30.511717,
-        "lonEnd": -99.756594,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 30.735456,
+        "lonStart": -99.187,
+        "latEnd": 30.729067,
+        "lonEnd": -99.180331,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 13366
+    "id": 29724
   },
   {
     "type": 1,
@@ -216,167 +459,7 @@
         "surfacetype": 3
       }
     ],
-    "id": 15657
-  },
-  {
-    "type": 1,
-    "icao": "T92",
-    "lat": 30.73223575,
-    "lon": -99.18398075000002,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      },
-      {
-        "type": 55,
-        "frequency": 13235,
-        "name": "HOUSTON CNTR"
-      }
-    ],
-    "elevation": 1502,
-    "tower": false,
-    "name": "MASON CO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 30.737317,
-        "lonStart": -99.184189,
-        "latEnd": 30.727103,
-        "lonEnd": -99.184403,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 30.735456,
-        "lonStart": -99.187,
-        "latEnd": 30.729067,
-        "lonEnd": -99.180331,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15900
-  },
-  {
-    "type": 1,
-    "icao": "T50",
-    "lat": 30.933472000000002,
-    "lon": -99.8168055,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 1930,
-    "tower": false,
-    "name": "MENARD CO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 30.938611,
-        "lonStart": -99.819722,
-        "latEnd": 30.928333,
-        "lonEnd": -99.813889,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 16024
-  },
-  {
-    "type": 1,
-    "icao": "XS08",
-    "lat": 30.87684027,
-    "lon": -99.19949806,
-    "communications": [],
-    "elevation": 1840,
-    "tower": false,
-    "name": "Polk Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 30.87397067,
-        "lonStart": -99.20058442,
-        "latEnd": 30.87970987,
-        "lonEnd": -99.1984117,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 20322
-  },
-  {
-    "type": 1,
-    "icao": "XS23",
-    "lat": 30.12659333,
-    "lon": -99.47116138999999,
-    "communications": [],
-    "elevation": 2200,
-    "tower": false,
-    "name": "Priour Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 60.96,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 30.13008128,
-        "lonStart": -99.47201857,
-        "latEnd": 30.12310538,
-        "lonEnd": -99.47030421,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 20552
-  },
-  {
-    "type": 1,
-    "icao": "52T",
-    "lat": 30.51685361,
-    "lon": -99.51700278000001,
-    "communications": [],
-    "elevation": 2100,
-    "tower": false,
-    "name": "Robinson Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 30.51455934,
-        "lonStart": -99.51996053,
-        "latEnd": 30.51914788,
-        "lonEnd": -99.51404503,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 21606
+    "id": 29835
   },
   {
     "type": 1,
@@ -402,143 +485,33 @@
         "surfacetype": 1
       }
     ],
-    "id": 22287
+    "id": 30016
   },
   {
     "type": 1,
-    "icao": "14T",
-    "lat": 30.916840829999998,
-    "lon": -99.48367334,
+    "icao": "XS08",
+    "lat": 30.87684027,
+    "lon": -99.19949806,
     "communications": [],
-    "elevation": 1793,
+    "elevation": 1840,
     "tower": false,
-    "name": "Smith I-Ranch",
+    "name": "Polk Ranch",
     "runways": [
       {
         "type": 100,
-        "width": 30.48,
+        "width": 18.29,
         "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 30.91912064,
-        "lonStart": -99.48707464,
-        "latEnd": 30.91456102,
-        "lonEnd": -99.48027204,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 30.87397067,
+        "lonStart": -99.20058442,
+        "latEnd": 30.87970987,
+        "lonEnd": -99.1984117,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 23747
-  },
-  {
-    "type": 1,
-    "icao": "45T",
-    "lat": 30.05770833,
-    "lon": -99.51282834,
-    "communications": [],
-    "elevation": 2002,
-    "tower": false,
-    "name": "Stowers Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 30.05809008,
-        "lonStart": -99.51596666,
-        "latEnd": 30.05732658,
-        "lonEnd": -99.50969002,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 24253
-  },
-  {
-    "type": 1,
-    "icao": "60TE",
-    "lat": 30.133539,
-    "lon": -99.1503195,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12275,
-        "name": "UNICOM"
-      }
-    ],
-    "elevation": 1990,
-    "tower": false,
-    "name": "TIERRA LINDA RANCH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 30.137414,
-        "lonStart": -99.151942,
-        "latEnd": 30.129664,
-        "lonEnd": -99.148697,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 24720
-  },
-  {
-    "type": 1,
-    "icao": "18TA",
-    "lat": 30.136314,
-    "lon": -99.743675,
-    "communications": [],
-    "elevation": 2330,
-    "tower": false,
-    "name": "WEST KERR RANCH",
-    "runways": [
-      {
-        "type": 100,
-        "width": 14.63,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 30.142128,
-        "lonStart": -99.746108,
-        "latEnd": 30.1305,
-        "lonEnd": -99.741242,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 26586
-  },
-  {
-    "type": 1,
-    "icao": "44TX",
-    "lat": 30.210481110000003,
-    "lon": -99.09476556,
-    "communications": [],
-    "elevation": 1875,
-    "tower": false,
-    "name": "White Oak",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 30.21418188,
-        "lonStart": -99.0949151,
-        "latEnd": 30.20678034,
-        "lonEnd": -99.09461602,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 27215
+    "id": 32442
   },
   {
     "type": 1,
@@ -564,7 +537,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 27518
+    "id": 32448
+  },
+  {
+    "type": 1,
+    "icao": "XS20",
+    "lat": 30.1540915,
+    "lon": -99.297825,
+    "communications": [],
+    "elevation": 2058,
+    "tower": false,
+    "name": "DOS ARROYOS RANCH",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 30.158872,
+        "lonStart": -99.299828,
+        "latEnd": 30.149311,
+        "lonEnd": -99.295822,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 32453
   },
   {
     "type": 1,
@@ -590,31 +589,32 @@
         "surfacetype": 5
       }
     ],
-    "id": 27645
+    "id": 32455
   },
   {
-    "type": 17,
-    "icao": "42R",
-    "lat": 30.01437944,
-    "lon": -99.11226195,
+    "type": 1,
+    "icao": "XS23",
+    "lat": 30.12659333,
+    "lon": -99.47116138999999,
     "communications": [],
-    "elevation": 1600,
+    "elevation": 2200,
     "tower": false,
-    "name": "[H] Vamc",
+    "name": "Priour Ranch",
     "runways": [
       {
-        "type": 102,
-        "width": 27.4,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 30.01437944,
-        "lonStart": -99.11226195,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 27.4
+        "type": 100,
+        "width": 60.96,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 30.13008128,
+        "lonStart": -99.47201857,
+        "latEnd": 30.12310538,
+        "lonEnd": -99.47030421,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 33587
+    "id": 32456
   }
 ]

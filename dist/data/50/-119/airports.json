@@ -1,5 +1,36 @@
 [
   {
+    "type": 17,
+    "icao": "XCOL4",
+    "lat": 50.81132161,
+    "lon": -118.96989507,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12320,
+        "name": "ATF"
+      }
+    ],
+    "elevation": 1394,
+    "tower": false,
+    "name": "[H] Sicamous Owls Landing Heliport",
+    "runways": [
+      {
+        "type": 102,
+        "width": 27.4,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 50.81132161,
+        "lonStart": -118.96989507,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 28.4
+      }
+    ],
+    "id": 5330
+  },
+  {
     "type": 1,
     "icao": "CYRV",
     "lat": 50.9666655,
@@ -29,6 +60,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 20912
+    "id": 15804
   }
 ]

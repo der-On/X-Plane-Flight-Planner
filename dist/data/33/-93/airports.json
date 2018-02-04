@@ -1,67 +1,28 @@
 [
   {
-    "type": 1,
-    "icao": "F43",
-    "lat": 33.19125,
-    "lon": -92.66322500000001,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "UNICOM"
-      }
-    ],
-    "elevation": 256,
+    "type": 17,
+    "icao": "0F5",
+    "lat": 33.81121611,
+    "lon": -92.42570834,
+    "communications": [],
+    "elevation": 298,
     "tower": false,
-    "name": "DOWNTOWN",
+    "name": "[H] Dallas County Hospital",
     "runways": [
       {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 33.195372,
-        "lonStart": -92.663267,
-        "latEnd": 33.187128,
-        "lonEnd": -92.663183,
-        "length": 0,
-        "surfacetype": 1
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.81121611,
+        "lonStart": -92.42570834,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
       }
     ],
-    "id": 5867
-  },
-  {
-    "type": 1,
-    "icao": "5M4",
-    "lat": 33.845791500000004,
-    "lon": -92.36552900000001,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 193,
-    "tower": false,
-    "name": "H L HOPKINS FORDYCE MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 33.842858,
-        "lonStart": -92.369414,
-        "latEnd": 33.848725,
-        "lonEnd": -92.361644,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 10930
+    "id": 5781
   },
   {
     "type": 1,
@@ -93,7 +54,203 @@
         "surfacetype": 1
       }
     ],
-    "id": 10985
+    "id": 6137
+  },
+  {
+    "type": 1,
+    "icao": "3M9",
+    "lat": 33.5604445,
+    "lon": -92.0853875,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 234,
+    "tower": false,
+    "name": "WARREN MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 33.556275,
+        "lonStart": -92.089225,
+        "latEnd": 33.564614,
+        "lonEnd": -92.08155,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 7649
+  },
+  {
+    "type": 1,
+    "icao": "5M4",
+    "lat": 33.845791500000004,
+    "lon": -92.36552900000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 193,
+    "tower": false,
+    "name": "H L HOPKINS FORDYCE MUNI",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 33.842858,
+        "lonStart": -92.369414,
+        "latEnd": 33.848725,
+        "lonEnd": -92.361644,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 8695
+  },
+  {
+    "type": 17,
+    "icao": "AR42",
+    "lat": 33.57650277,
+    "lon": -92.83544028,
+    "communications": [],
+    "elevation": 210,
+    "tower": false,
+    "name": "[H] Ouachita County Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 27.4,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.57650277,
+        "lonStart": -92.83544028,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.3
+      }
+    ],
+    "id": 14630
+  },
+  {
+    "type": 17,
+    "icao": "AR47",
+    "lat": 33.21346305,
+    "lon": -92.66793417,
+    "communications": [],
+    "elevation": 210,
+    "tower": false,
+    "name": "[H] Warner Brown Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.4,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.21346305,
+        "lonStart": -92.66793417,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.4
+      }
+    ],
+    "id": 14634
+  },
+  {
+    "type": 17,
+    "icao": "AR48",
+    "lat": 33.21457388,
+    "lon": -92.66793417,
+    "communications": [],
+    "elevation": 265,
+    "tower": false,
+    "name": "[H] Union Medical Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.21457388,
+        "lonStart": -92.66793417,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 14635
+  },
+  {
+    "type": 17,
+    "icao": "AR70",
+    "lat": 33.61038638,
+    "lon": -92.059305,
+    "communications": [],
+    "elevation": 200,
+    "tower": false,
+    "name": "[H] Bradley County Memorial Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 9.1,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 33.61038638,
+        "lonStart": -92.059305,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 9.1
+      }
+    ],
+    "id": 14655
+  },
+  {
+    "type": 1,
+    "icao": "F43",
+    "lat": 33.19125,
+    "lon": -92.66322500000001,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "UNICOM"
+      }
+    ],
+    "elevation": 256,
+    "tower": false,
+    "name": "DOWNTOWN",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 33.195372,
+        "lonStart": -92.663267,
+        "latEnd": 33.187128,
+        "lonEnd": -92.663183,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16727
   },
   {
     "type": 1,
@@ -130,7 +287,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 11015
+    "id": 18927
   },
   {
     "type": 1,
@@ -193,163 +350,6 @@
         "surfacetype": 2
       }
     ],
-    "id": 22384
-  },
-  {
-    "type": 1,
-    "icao": "3M9",
-    "lat": 33.5604445,
-    "lon": -92.0853875,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 234,
-    "tower": false,
-    "name": "WARREN MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 33.556275,
-        "lonStart": -92.089225,
-        "latEnd": 33.564614,
-        "lonEnd": -92.08155,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 26505
-  },
-  {
-    "type": 17,
-    "icao": "AR70",
-    "lat": 33.61038638,
-    "lon": -92.059305,
-    "communications": [],
-    "elevation": 200,
-    "tower": false,
-    "name": "[H] Bradley County Memorial Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.61038638,
-        "lonStart": -92.059305,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 28561
-  },
-  {
-    "type": 17,
-    "icao": "0F5",
-    "lat": 33.81121611,
-    "lon": -92.42570834,
-    "communications": [],
-    "elevation": 298,
-    "tower": false,
-    "name": "[H] Dallas County Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.81121611,
-        "lonStart": -92.42570834,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.1
-      }
-    ],
-    "id": 29249
-  },
-  {
-    "type": 17,
-    "icao": "AR42",
-    "lat": 33.57650277,
-    "lon": -92.83544028,
-    "communications": [],
-    "elevation": 210,
-    "tower": false,
-    "name": "[H] Ouachita County Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 27.4,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.57650277,
-        "lonStart": -92.83544028,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 29.3
-      }
-    ],
-    "id": 31784
-  },
-  {
-    "type": 17,
-    "icao": "AR48",
-    "lat": 33.21457388,
-    "lon": -92.66793417,
-    "communications": [],
-    "elevation": 265,
-    "tower": false,
-    "name": "[H] Union Medical Center",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.21457388,
-        "lonStart": -92.66793417,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 33484
-  },
-  {
-    "type": 17,
-    "icao": "AR47",
-    "lat": 33.21346305,
-    "lon": -92.66793417,
-    "communications": [],
-    "elevation": 210,
-    "tower": false,
-    "name": "[H] Warner Brown Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 9.4,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 33.21346305,
-        "lonStart": -92.66793417,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 9.4
-      }
-    ],
-    "id": 33723
+    "id": 19089
   }
 ]

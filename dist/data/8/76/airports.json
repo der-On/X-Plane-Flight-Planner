@@ -2,28 +2,38 @@
   {
     "type": 1,
     "icao": "VOTV",
-    "lat": 8.4821205,
-    "lon": 76.92011550000001,
+    "lat": 8.482137269999999,
+    "lon": 76.920012865,
     "communications": [
+      {
+        "type": 51,
+        "frequency": 12590,
+        "name": "CON"
+      },
+      {
+        "type": 55,
+        "frequency": 11960,
+        "name": "APP"
+      },
       {
         "type": 50,
         "frequency": 12660,
         "name": "ATIS"
       },
       {
+        "type": 51,
+        "frequency": 112850,
+        "name": "RDO"
+      },
+      {
         "type": 54,
         "frequency": 11810,
         "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11960,
-        "name": "APP"
       }
     ],
-    "elevation": 15,
-    "tower": true,
-    "name": "THIRUVANANTHAPURAM INTL",
+    "elevation": 16,
+    "tower": false,
+    "name": "Trivandrum International Airport",
     "runways": [
       {
         "type": 100,
@@ -31,14 +41,14 @@
         "surfaceType": null,
         "numberStart": "14",
         "numberEnd": "32",
-        "latStart": 8.493147,
-        "lonStart": 76.909364,
-        "latEnd": 8.471094,
-        "lonEnd": 76.930867,
+        "latStart": 8.49318282,
+        "lonStart": 76.90915796,
+        "latEnd": 8.47109172,
+        "lonEnd": 76.93086777,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 24692
+    "id": 30976
   }
 ]

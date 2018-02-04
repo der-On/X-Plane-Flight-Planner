@@ -1,9 +1,41 @@
 [
   {
     "type": 1,
+    "icao": "EDVC",
+    "lat": 52.688016000000005,
+    "lon": 10.112708999999999,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12880,
+        "name": "Arloh Info"
+      }
+    ],
+    "elevation": 164,
+    "tower": true,
+    "name": "Celle-Arloh",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 52.685243,
+        "lonStart": 10.108384,
+        "latEnd": 52.690789,
+        "lonEnd": 10.117034,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1370
+  },
+  {
+    "type": 1,
     "icao": "EDVE",
-    "lat": 52.3179805,
-    "lon": 10.556205673333334,
+    "lat": 52.318168857500005,
+    "lon": 10.5567198525,
     "communications": [
       {
         "type": 54,
@@ -13,10 +45,15 @@
       {
         "type": 54,
         "frequency": 12005,
-        "name": "Braunschweig tower"
+        "name": "Braunschweig Tower"
+      },
+      {
+        "type": 50,
+        "frequency": 13445,
+        "name": "Braunschweig ATIS"
       }
     ],
-    "elevation": 294,
+    "elevation": 293,
     "tower": true,
     "name": "Braunschweig-Wolfsburg",
     "runways": [
@@ -34,26 +71,13 @@
         "surfacetype": 1
       },
       {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "08R",
-        "numberEnd": "26L",
-        "latStart": 52.31724397,
-        "lonStart": 10.5485515,
-        "latEnd": 52.31800187,
-        "lonEnd": 10.56189077,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
         "type": 102,
         "width": 9.2,
         "surfaceType": 1,
         "numberStart": "H2",
         "numberEnd": null,
-        "latStart": 52.31742262,
-        "lonStart": 10.56273885,
+        "latStart": 52.31744048,
+        "lonStart": 10.56276111,
         "latEnd": null,
         "lonEnd": null,
         "length": 9.2
@@ -64,14 +88,244 @@
         "surfaceType": 1,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 52.31650054,
-        "lonStart": 10.54621592,
+        "latStart": 52.31652095,
+        "lonStart": 10.5462813,
         "latEnd": null,
         "lonEnd": null,
         "length": 9.7
       }
     ],
-    "id": 3133
+    "id": 1371
+  },
+  {
+    "type": 1,
+    "icao": "EDVJ",
+    "lat": 52.0306815,
+    "lon": 10.3624845,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12250,
+        "name": "Schaeferstuhl Info"
+      }
+    ],
+    "elevation": 741,
+    "tower": true,
+    "name": "Salzgitter-Schaeferstuhl",
+    "runways": [
+      {
+        "type": 100,
+        "width": 50,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 52.032107,
+        "lonStart": 10.356756,
+        "latEnd": 52.029256,
+        "lonEnd": 10.368213,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1376
+  },
+  {
+    "type": 1,
+    "icao": "EDVP",
+    "lat": 52.323791825,
+    "lon": 10.1814994,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12285,
+        "name": "Peine INFO"
+      }
+    ],
+    "elevation": 242,
+    "tower": true,
+    "name": "Peine/Glindbruchkippe",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 52.32400884,
+        "lonStart": 10.17654582,
+        "latEnd": 52.32357481,
+        "lonEnd": 10.18645298,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1381
+  },
+  {
+    "type": 1,
+    "icao": "EDVQ",
+    "lat": 52.524128424999994,
+    "lon": 10.463312676666666,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12997,
+        "name": "Wilsche Info"
+      }
+    ],
+    "elevation": 180,
+    "tower": true,
+    "name": "Wilsche",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "09L",
+        "numberEnd": "27R",
+        "latStart": 52.52494352,
+        "lonStart": 10.45749086,
+        "latEnd": 52.52456449,
+        "lonEnd": 10.4685668,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "09R",
+        "numberEnd": "27L",
+        "latStart": 52.52434879,
+        "lonStart": 10.45814359,
+        "latEnd": 52.5242424,
+        "lonEnd": 10.46183723,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 52.52341792,
+        "lonStart": 10.46507489,
+        "latEnd": 52.52325343,
+        "lonEnd": 10.46876269,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1382
+  },
+  {
+    "type": 1,
+    "icao": "EDVS",
+    "lat": 52.154482,
+    "lon": 10.4267165,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12285,
+        "name": "Salzgitter Info"
+      }
+    ],
+    "elevation": 328,
+    "tower": true,
+    "name": "Salzgitter-Druette",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 52.153542,
+        "lonStart": 10.422348,
+        "latEnd": 52.155422,
+        "lonEnd": 10.431085,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1384
+  },
+  {
+    "type": 1,
+    "icao": "EDVU",
+    "lat": 52.9838570225,
+    "lon": 10.463066272499999,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13090,
+        "name": "Uelzen Info"
+      }
+    ],
+    "elevation": 246,
+    "tower": false,
+    "name": "Uelzen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 52.98396024,
+        "lonStart": 10.45876222,
+        "latEnd": 52.98404285,
+        "lonEnd": 10.46255187,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 21.03,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 52.983542,
+        "lonStart": 10.459538,
+        "latEnd": 52.983883,
+        "lonEnd": 10.471413,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1386
+  },
+  {
+    "type": 17,
+    "icao": "EDVX",
+    "lat": 52.49517822,
+    "lon": 10.51028274,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 13070,
+        "name": "Pirol 699"
+      }
+    ],
+    "elevation": 209,
+    "tower": true,
+    "name": "[H] Bundespolizei Gifhorn",
+    "runways": [
+      {
+        "type": 102,
+        "width": 50,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 52.49517822,
+        "lonStart": 10.51028274,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 50
+      }
+    ],
+    "id": 1388
   },
   {
     "type": 1,
@@ -343,39 +597,7 @@
         "length": 21.5
       }
     ],
-    "id": 4707
-  },
-  {
-    "type": 1,
-    "icao": "EDVC",
-    "lat": 52.688016000000005,
-    "lon": 10.112708999999999,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12880,
-        "name": "Arloh Info"
-      }
-    ],
-    "elevation": 164,
-    "tower": true,
-    "name": "Celle-Arloh",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 52.685243,
-        "lonStart": 10.108384,
-        "latEnd": 52.690789,
-        "lonEnd": 10.117034,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 4708
+    "id": 2061
   },
   {
     "type": 1,
@@ -427,141 +649,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 7834
-  },
-  {
-    "type": 1,
-    "icao": "EDVP",
-    "lat": 52.4024895,
-    "lon": 10.229151,
-    "communications": [],
-    "elevation": 249,
-    "tower": true,
-    "name": "Peine-Edesse (clsd)",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 52.401365,
-        "lonStart": 10.222812,
-        "latEnd": 52.403614,
-        "lonEnd": 10.23549,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 19933
-  },
-  {
-    "type": 1,
-    "icao": "EDVS",
-    "lat": 52.154482,
-    "lon": 10.4267165,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12285,
-        "name": "Salzgitter Info"
-      }
-    ],
-    "elevation": 328,
-    "tower": true,
-    "name": "Salzgitter-Druette",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 52.153542,
-        "lonStart": 10.422348,
-        "latEnd": 52.155422,
-        "lonEnd": 10.431085,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 22771
-  },
-  {
-    "type": 1,
-    "icao": "EDVJ",
-    "lat": 52.0306815,
-    "lon": 10.3624845,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12250,
-        "name": "Schaeferstuhl Info"
-      }
-    ],
-    "elevation": 741,
-    "tower": true,
-    "name": "Salzgitter-Schaeferstuhl",
-    "runways": [
-      {
-        "type": 100,
-        "width": 50,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 52.032107,
-        "lonStart": 10.356756,
-        "latEnd": 52.029256,
-        "lonEnd": 10.368213,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 22772
-  },
-  {
-    "type": 1,
-    "icao": "EDVU",
-    "lat": 52.9838570225,
-    "lon": 10.463066272499999,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 13090,
-        "name": "Uelzen Info"
-      }
-    ],
-    "elevation": 246,
-    "tower": false,
-    "name": "Uelzen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 52.98396024,
-        "lonStart": 10.45876222,
-        "latEnd": 52.98404285,
-        "lonEnd": 10.46255187,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 21.03,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 52.983542,
-        "lonStart": 10.459538,
-        "latEnd": 52.983883,
-        "lonEnd": 10.471413,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 25874
+    "id": 2068
   }
 ]

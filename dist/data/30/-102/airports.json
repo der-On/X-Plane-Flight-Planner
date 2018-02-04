@@ -1,29 +1,35 @@
 [
   {
     "type": 1,
-    "icao": "9TX9",
-    "lat": 30.74821833,
-    "lon": -101.96540723,
-    "communications": [],
-    "elevation": 2379,
+    "icao": "KOZA",
+    "lat": 30.735195515,
+    "lon": -101.20219301,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 2380,
     "tower": false,
-    "name": "Canon Ranch",
+    "name": "OZONA MUNI",
     "runways": [
       {
         "type": 100,
-        "width": 27.43,
+        "width": 22.86,
         "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 30.74649809,
-        "lonStart": -101.97062165,
-        "latEnd": 30.74993857,
-        "lonEnd": -101.96019281,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 30.74326163,
+        "lonStart": -101.20421894,
+        "latEnd": 30.7271294,
+        "lonEnd": -101.20016708,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       }
     ],
-    "id": 4464
+    "id": 3096
   },
   {
     "type": 1,
@@ -68,65 +74,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 12340
-  },
-  {
-    "type": 1,
-    "icao": "63R",
-    "lat": 30.24185444,
-    "lon": -101.41705917,
-    "communications": [],
-    "elevation": 1965,
-    "tower": false,
-    "name": "Mills Ranch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 7.62,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 30.24011017,
-        "lonStart": -101.42029032,
-        "latEnd": 30.24359871,
-        "lonEnd": -101.41382802,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 17244
-  },
-  {
-    "type": 1,
-    "icao": "KOZA",
-    "lat": 30.735197,
-    "lon": -101.202201,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 2381,
-    "tower": false,
-    "name": "OZONA MUNI",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 30.743258,
-        "lonStart": -101.204233,
-        "latEnd": 30.727136,
-        "lonEnd": -101.200169,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 18763
+    "id": 6941
   },
   {
     "type": 1,
@@ -152,7 +100,59 @@
         "surfacetype": 5
       }
     ],
-    "id": 19987
+    "id": 8373
+  },
+  {
+    "type": 1,
+    "icao": "9TX9",
+    "lat": 30.74821833,
+    "lon": -101.96540723,
+    "communications": [],
+    "elevation": 2379,
+    "tower": false,
+    "name": "Canon Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 27.43,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 30.74649809,
+        "lonStart": -101.97062165,
+        "latEnd": 30.74993857,
+        "lonEnd": -101.96019281,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 10811
+  },
+  {
+    "type": 1,
+    "icao": "63R",
+    "lat": 30.24185444,
+    "lon": -101.41705917,
+    "communications": [],
+    "elevation": 1965,
+    "tower": false,
+    "name": "Mills Ranch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 7.62,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 30.24011017,
+        "lonStart": -101.42029032,
+        "latEnd": 30.24359871,
+        "lonEnd": -101.41382802,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 13008
   },
   {
     "type": 1,
@@ -191,6 +191,6 @@
         "surfacetype": 5
       }
     ],
-    "id": 21174
+    "id": 32467
   }
 ]

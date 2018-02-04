@@ -1,42 +1,99 @@
 [
   {
     "type": 1,
-    "icao": "XESG6",
-    "lat": 58.149823007500004,
-    "lon": 12.126263332499999,
+    "icao": "ESGO",
+    "lat": 58.0393596525,
+    "lon": 12.7853954625,
     "communications": [],
-    "elevation": 82,
-    "tower": true,
-    "name": "Bondestrom",
+    "elevation": 321,
+    "tower": false,
+    "name": "Vargarda",
     "runways": [
       {
         "type": 100,
-        "width": 25,
+        "width": 30,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 58.153978,
-        "lonStart": 12.126312,
-        "latEnd": 58.150578,
-        "lonEnd": 12.126355,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 58.03622966,
+        "lonStart": 12.78111089,
+        "latEnd": 58.04236961,
+        "lonEnd": 12.7904504,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "04L",
+        "numberEnd": "22R",
+        "latStart": 58.03658513,
+        "lonStart": 12.7807224,
+        "latEnd": 58.04225421,
+        "lonEnd": 12.78929816,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 1904
+  },
+  {
+    "type": 1,
+    "icao": "ESGT",
+    "lat": 58.318432982000004,
+    "lon": 12.343450114,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12272,
+        "name": "TWR"
+      }
+    ],
+    "elevation": 137,
+    "tower": true,
+    "name": "Trollhattan Vanersborg",
+    "runways": [
+      {
+        "type": 100,
+        "width": 40,
+        "surfaceType": null,
+        "numberStart": "14R",
+        "numberEnd": "32L",
+        "latStart": 58.32329112,
+        "lonStart": 12.33475283,
+        "latEnd": 58.31774392,
+        "lonEnd": 12.34170838,
         "length": 0,
         "surfacetype": 3
       },
       {
         "type": 100,
-        "width": 25,
+        "width": 30,
         "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 58.14603934,
-        "lonStart": 12.12601459,
-        "latEnd": 58.14869669,
-        "lonEnd": 12.12637174,
+        "numberStart": "15",
+        "numberEnd": "33",
+        "latStart": 58.324232,
+        "lonStart": 12.336616,
+        "latEnd": 58.311498,
+        "lonEnd": 12.352824,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 20,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 58.31539987,
+        "lonStart": 12.35134936,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 20
       }
     ],
-    "id": 2967
+    "id": 1908
   },
   {
     "type": 1,
@@ -108,102 +165,45 @@
         "length": 50
       }
     ],
-    "id": 23034
+    "id": 1927
   },
   {
     "type": 1,
-    "icao": "ESGT",
-    "lat": 58.318432982000004,
-    "lon": 12.343450114,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12272,
-        "name": "TWR"
-      }
-    ],
-    "elevation": 137,
-    "tower": true,
-    "name": "Trollhattan Vanersborg",
-    "runways": [
-      {
-        "type": 100,
-        "width": 40,
-        "surfaceType": null,
-        "numberStart": "14R",
-        "numberEnd": "32L",
-        "latStart": 58.32329112,
-        "lonStart": 12.33475283,
-        "latEnd": 58.31774392,
-        "lonEnd": 12.34170838,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 30,
-        "surfaceType": null,
-        "numberStart": "15",
-        "numberEnd": "33",
-        "latStart": 58.324232,
-        "lonStart": 12.336616,
-        "latEnd": 58.311498,
-        "lonEnd": 12.352824,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 20,
-        "surfaceType": 15,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 58.31539987,
-        "lonStart": 12.35134936,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 20
-      }
-    ],
-    "id": 25617
-  },
-  {
-    "type": 1,
-    "icao": "ESGO",
-    "lat": 58.0393596525,
-    "lon": 12.7853954625,
+    "icao": "XESG6",
+    "lat": 58.149823007500004,
+    "lon": 12.126263332499999,
     "communications": [],
-    "elevation": 321,
-    "tower": false,
-    "name": "Vargarda",
+    "elevation": 82,
+    "tower": true,
+    "name": "Bondestrom",
     "runways": [
       {
         "type": 100,
-        "width": 30,
+        "width": 25,
         "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 58.03622966,
-        "lonStart": 12.78111089,
-        "latEnd": 58.04236961,
-        "lonEnd": 12.7904504,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 58.153978,
+        "lonStart": 12.126312,
+        "latEnd": 58.150578,
+        "lonEnd": 12.126355,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       },
       {
         "type": 100,
-        "width": 40,
+        "width": 25,
         "surfaceType": null,
-        "numberStart": "04L",
-        "numberEnd": "22R",
-        "latStart": 58.03658513,
-        "lonStart": 12.7807224,
-        "latEnd": 58.04225421,
-        "lonEnd": 12.78929816,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 58.14603934,
+        "lonStart": 12.12601459,
+        "latEnd": 58.14869669,
+        "lonEnd": 12.12637174,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 26229
+    "id": 5423
   }
 ]

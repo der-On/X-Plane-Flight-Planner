@@ -1,6 +1,45 @@
 [
   {
     "type": 1,
+    "icao": "LFCU",
+    "lat": 45.535768000000004,
+    "lon": 2.4245699625,
+    "communications": [],
+    "elevation": 2410,
+    "tower": false,
+    "name": "Ussel Thalamy",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 45.53690164,
+        "lonStart": 2.41629793,
+        "latEnd": 45.53495964,
+        "lonEnd": 2.43324708,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 39.93,
+        "surfaceType": null,
+        "numberStart": "10R",
+        "numberEnd": "28L",
+        "latStart": 45.53625611,
+        "lonStart": 2.41869142,
+        "latEnd": 45.53495461,
+        "lonEnd": 2.43004342,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 20240
+  },
+  {
+    "type": 1,
     "icao": "LFDE",
     "lat": 45.420598206,
     "lon": 2.0686701259999998,
@@ -48,7 +87,7 @@
         "length": 14.94
       }
     ],
-    "id": 6996
+    "id": 20245
   },
   {
     "type": 1,
@@ -80,45 +119,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 22699
-  },
-  {
-    "type": 1,
-    "icao": "LFCU",
-    "lat": 45.535768000000004,
-    "lon": 2.4245699625,
-    "communications": [],
-    "elevation": 2410,
-    "tower": false,
-    "name": "Ussel Thalamy",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 45.53690164,
-        "lonStart": 2.41629793,
-        "latEnd": 45.53495964,
-        "lonEnd": 2.43324708,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 39.93,
-        "surfaceType": null,
-        "numberStart": "10R",
-        "numberEnd": "28L",
-        "latStart": 45.53625611,
-        "lonStart": 2.41869142,
-        "latEnd": 45.53495461,
-        "lonEnd": 2.43004342,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 26007
+    "id": 20315
   }
 ]

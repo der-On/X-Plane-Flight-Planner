@@ -1,90 +1,18 @@
 [
   {
     "type": 1,
-    "icao": "EK61",
-    "lat": 56.02135919,
-    "lon": 8.691045155000001,
-    "communications": [],
-    "elevation": 100,
-    "tower": false,
-    "name": "Ejstruphede",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "12",
-        "numberEnd": "30",
-        "latStart": 56.02335938,
-        "lonStart": 8.68523257,
-        "latEnd": 56.019359,
-        "lonEnd": 8.69685774,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 7019
-  },
-  {
-    "type": 1,
-    "icao": "EKFU",
-    "lat": 56.824976500000005,
-    "lon": 8.986977,
-    "communications": [],
-    "elevation": 11,
-    "tower": false,
-    "name": "Fur",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.08,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 56.826008,
-        "lonStart": 8.982705,
-        "latEnd": 56.823945,
-        "lonEnd": 8.991249,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 9794
-  },
-  {
-    "type": 1,
-    "icao": "EKLV",
-    "lat": 56.503045834999995,
-    "lon": 8.311552775,
-    "communications": [],
-    "elevation": 100,
-    "tower": false,
-    "name": "Lemvig",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 56.50246667,
-        "lonStart": 8.30562222,
-        "latEnd": 56.503625,
-        "lonEnd": 8.31748333,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15150
-  },
-  {
-    "type": 1,
     "icao": "EKHO",
     "lat": 56.39684018,
     "lon": 8.443895999999999,
-    "communications": [],
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12250,
+        "name": "Lindtorp radio"
+      }
+    ],
     "elevation": 49,
-    "tower": false,
+    "tower": true,
     "name": "Lindtorp",
     "runways": [
       {
@@ -101,59 +29,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 15303
-  },
-  {
-    "type": 1,
-    "icao": "EKNM",
-    "lat": 56.82445833,
-    "lon": 8.786329165,
-    "communications": [],
-    "elevation": 51,
-    "tower": false,
-    "name": "Morsoe",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 56.82533333,
-        "lonStart": 8.78086111,
-        "latEnd": 56.82358333,
-        "lonEnd": 8.79179722,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 17550
-  },
-  {
-    "type": 1,
-    "icao": "EK67",
-    "lat": 56.306252334999996,
-    "lon": 8.586582485000001,
-    "communications": [],
-    "elevation": 100,
-    "tower": false,
-    "name": "Noerre Felding",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 56.30259261,
-        "lonStart": 8.5831678,
-        "latEnd": 56.30991206,
-        "lonEnd": 8.58999717,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 18373
+    "id": 1697
   },
   {
     "type": 1,
@@ -179,33 +55,59 @@
         "surfacetype": 3
       }
     ],
-    "id": 23270
+    "id": 16495
   },
   {
     "type": 1,
-    "icao": "EKSD",
-    "lat": 56.102747935,
-    "lon": 8.514139915,
+    "icao": "EK61",
+    "lat": 56.02135919,
+    "lon": 8.691045155000001,
     "communications": [],
-    "elevation": 245,
+    "elevation": 100,
     "tower": false,
-    "name": "Spjald",
+    "name": "Ejstruphede",
     "runways": [
       {
         "type": 100,
         "width": 29.87,
         "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 56.10494031,
-        "lonStart": 8.51050205,
-        "latEnd": 56.10055556,
-        "lonEnd": 8.51777778,
+        "numberStart": "12",
+        "numberEnd": "30",
+        "latStart": 56.02335938,
+        "lonStart": 8.68523257,
+        "latEnd": 56.019359,
+        "lonEnd": 8.69685774,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 23963
+    "id": 16505
+  },
+  {
+    "type": 1,
+    "icao": "EK67",
+    "lat": 56.306252334999996,
+    "lon": 8.586582485000001,
+    "communications": [],
+    "elevation": 100,
+    "tower": false,
+    "name": "Noerre Felding",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 56.30259261,
+        "lonStart": 8.5831678,
+        "latEnd": 56.30991206,
+        "lonEnd": 8.58999717,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16510
   },
   {
     "type": 1,
@@ -231,6 +133,110 @@
         "surfacetype": 3
       }
     ],
-    "id": 25368
+    "id": 16519
+  },
+  {
+    "type": 1,
+    "icao": "EKFU",
+    "lat": 56.824976500000005,
+    "lon": 8.986977,
+    "communications": [],
+    "elevation": 11,
+    "tower": false,
+    "name": "Fur",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.08,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 56.826008,
+        "lonStart": 8.982705,
+        "latEnd": 56.823945,
+        "lonEnd": 8.991249,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16524
+  },
+  {
+    "type": 1,
+    "icao": "EKLV",
+    "lat": 56.503045834999995,
+    "lon": 8.311552775,
+    "communications": [],
+    "elevation": 100,
+    "tower": false,
+    "name": "Lemvig",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 56.50246667,
+        "lonStart": 8.30562222,
+        "latEnd": 56.503625,
+        "lonEnd": 8.31748333,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16531
+  },
+  {
+    "type": 1,
+    "icao": "EKNM",
+    "lat": 56.82445833,
+    "lon": 8.786329165,
+    "communications": [],
+    "elevation": 51,
+    "tower": false,
+    "name": "Morsoe",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 56.82533333,
+        "lonStart": 8.78086111,
+        "latEnd": 56.82358333,
+        "lonEnd": 8.79179722,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16535
+  },
+  {
+    "type": 1,
+    "icao": "EKSD",
+    "lat": 56.102747935,
+    "lon": 8.514139915,
+    "communications": [],
+    "elevation": 245,
+    "tower": false,
+    "name": "Spjald",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 56.10494031,
+        "lonStart": 8.51050205,
+        "latEnd": 56.10055556,
+        "lonEnd": 8.51777778,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16542
   }
 ]

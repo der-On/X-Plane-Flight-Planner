@@ -2,27 +2,45 @@
   {
     "type": 1,
     "icao": "VO80",
-    "lat": 8.724234500000001,
-    "lon": 78.02582050000001,
-    "communications": [],
-    "elevation": 129,
+    "lat": 8.723698083333334,
+    "lon": 78.02718891666667,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12350,
+        "name": "Tuticorin TWR"
+      }
+    ],
+    "elevation": 128,
     "tower": false,
     "name": "TUTICORIN SOUTHWEST",
     "runways": [
       {
         "type": 100,
-        "width": 28.96,
+        "width": 30.69,
         "surfaceType": null,
         "numberStart": "10",
         "numberEnd": "28",
-        "latStart": 8.725383,
-        "lonStart": 78.019858,
-        "latEnd": 8.723086,
-        "lonEnd": 78.031783,
+        "latStart": 8.72405822,
+        "lonStart": 78.02107228,
+        "latEnd": 8.72175088,
+        "lonEnd": 78.03314996,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 9.85,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 8.72528515,
+        "lonStart": 78.02734451,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 10.3
       }
     ],
-    "id": 24923
+    "id": 5174
   }
 ]

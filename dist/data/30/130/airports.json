@@ -1,6 +1,38 @@
 [
   {
     "type": 1,
+    "icao": "RJFC",
+    "lat": 30.385571815,
+    "lon": 130.65920183,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12705,
+        "name": "ATIS"
+      }
+    ],
+    "elevation": 122,
+    "tower": false,
+    "name": "Yakushima",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
+        "surfaceType": null,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 30.39025676,
+        "lonStart": 130.65357007,
+        "latEnd": 30.38088687,
+        "lonEnd": 130.66483359,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 4445
+  },
+  {
+    "type": 1,
     "icao": "RJFG",
     "lat": 30.60509,
     "lon": 130.991605,
@@ -44,7 +76,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 17928
+    "id": 24396
   },
   {
     "type": 1,
@@ -70,38 +102,6 @@
         "surfacetype": 2
       }
     ],
-    "id": 23036
-  },
-  {
-    "type": 1,
-    "icao": "RJFC",
-    "lat": 30.385527500000002,
-    "lon": 130.659585,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 11865,
-        "name": "REMOTE"
-      }
-    ],
-    "elevation": 124,
-    "tower": true,
-    "name": "YAKUSHIMA",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 30.390194,
-        "lonStart": 130.653981,
-        "latEnd": 30.380861,
-        "lonEnd": 130.665189,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 27653
+    "id": 24448
   }
 ]

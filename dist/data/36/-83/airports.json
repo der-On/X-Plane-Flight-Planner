@@ -1,35 +1,41 @@
 [
   {
     "type": 1,
-    "icao": "TN03",
-    "lat": 36.1962175,
-    "lon": -82.48708805999999,
-    "communications": [],
-    "elevation": 1505,
+    "icao": "0A4",
+    "lat": 36.363376185,
+    "lon": -82.309300255,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 1549,
     "tower": false,
-    "name": "Decker Farm",
+    "name": "Johnson City STOLport",
     "runways": [
       {
         "type": 100,
-        "width": 22.86,
+        "width": 15.24,
         "surfaceType": null,
-        "numberStart": "08",
-        "numberEnd": "26",
-        "latStart": 36.19568663,
-        "lonStart": -82.48972648,
-        "latEnd": 36.19674837,
-        "lonEnd": -82.48444964,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 36.36002595,
+        "lonStart": -82.31234203,
+        "latEnd": 36.36672642,
+        "lonEnd": -82.30625848,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       }
     ],
-    "id": 6124
+    "id": 1
   },
   {
     "type": 1,
     "icao": "0A9",
-    "lat": 36.3712115,
-    "lon": -82.17340250000001,
+    "lat": 36.371211185,
+    "lon": -82.173409555,
     "communications": [
       {
         "type": 50,
@@ -42,9 +48,9 @@
         "name": "CTAF/UNICOM"
       }
     ],
-    "elevation": 1593,
+    "elevation": 1591,
     "tower": false,
-    "name": "ELIZABETHTON MUNI",
+    "name": "Elizabethton Municipal",
     "runways": [
       {
         "type": 100,
@@ -52,246 +58,45 @@
         "surfaceType": null,
         "numberStart": "06",
         "numberEnd": "24",
-        "latStart": 36.367881,
-        "lonStart": -82.179897,
-        "latEnd": 36.374542,
-        "lonEnd": -82.166908,
+        "latStart": 36.36787937,
+        "lonStart": -82.17990911,
+        "latEnd": 36.374543,
+        "lonEnd": -82.16691,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 6732
+    "id": 3
   },
   {
-    "type": 1,
-    "icao": "19VA",
-    "lat": 36.889722219999996,
-    "lon": -82.29777778,
+    "type": 17,
+    "icao": "5VA2",
+    "lat": 36.61136337,
+    "lon": -82.18829286,
     "communications": [],
-    "elevation": 1720,
+    "elevation": 1729,
     "tower": false,
-    "name": "Flying W",
+    "name": "[H] Sullins",
     "runways": [
       {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 36.89190825,
-        "lonStart": -82.29801691,
-        "latEnd": 36.88753619,
-        "lonEnd": -82.29753865,
-        "length": 0,
-        "surfacetype": 3
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.61136337,
+        "lonStart": -82.18829286,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 16.8
       }
     ],
-    "id": 9531
-  },
-  {
-    "type": 1,
-    "icao": "KGCY",
-    "lat": 36.192983,
-    "lon": -82.81505849999999,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12842,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12270,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 11925,
-        "name": "TRI CITY APP/DEP"
-      }
-    ],
-    "elevation": 1608,
-    "tower": false,
-    "name": "Greeneville Greene Co Muni",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 36.187122,
-        "lonStart": -82.822911,
-        "latEnd": 36.198844,
-        "lonEnd": -82.807206,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 10770
-  },
-  {
-    "type": 1,
-    "icao": "KRVN",
-    "lat": 36.457578999999996,
-    "lon": -82.885036,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 11925,
-        "name": "TRI CITY APP/DEP"
-      }
-    ],
-    "elevation": 1255,
-    "tower": false,
-    "name": "HAWKINS CO",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 36.455475,
-        "lonStart": -82.890389,
-        "latEnd": 36.459683,
-        "lonEnd": -82.879683,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 11058
-  },
-  {
-    "type": 1,
-    "icao": "3TN0",
-    "lat": 36.53527777,
-    "lon": -82.43055556,
-    "communications": [],
-    "elevation": 1550,
-    "tower": false,
-    "name": "Indian Springs",
-    "runways": [
-      {
-        "type": 100,
-        "width": 7.62,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 36.53446796,
-        "lonStart": -82.43159923,
-        "latEnd": 36.53608758,
-        "lonEnd": -82.42951189,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 12477
-  },
-  {
-    "type": 1,
-    "icao": "0A4",
-    "lat": 36.36361,
-    "lon": -82.3088875,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 1550,
-    "tower": false,
-    "name": "JOHNSON CITY STOLPORT",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 36.360278,
-        "lonStart": -82.311942,
-        "latEnd": 36.366942,
-        "lonEnd": -82.305833,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 12782
-  },
-  {
-    "type": 1,
-    "icao": "KLNP",
-    "lat": 36.987518,
-    "lon": -82.5299975,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 11860,
-        "name": "AWOS 3"
-      },
-      {
-        "type": 51,
-        "frequency": 12300,
-        "name": "CTAF/UNICOM"
-      }
-    ],
-    "elevation": 2684,
-    "tower": false,
-    "name": "LONESOME PINE",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 36.983483,
-        "lonStart": -82.537506,
-        "latEnd": 36.991553,
-        "lonEnd": -82.522489,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 14596
-  },
-  {
-    "type": 1,
-    "icao": "TN62",
-    "lat": 36.372326939999994,
-    "lon": -82.39153028000001,
-    "communications": [],
-    "elevation": 1925,
-    "tower": false,
-    "name": "Mc Afee STOL Patch",
-    "runways": [
-      {
-        "type": 100,
-        "width": 15.24,
-        "surfaceType": null,
-        "numberStart": "05",
-        "numberEnd": "23",
-        "latStart": 36.37127895,
-        "lonStart": -82.39287808,
-        "latEnd": 36.37337493,
-        "lonEnd": -82.39018248,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 16876
+    "id": 203
   },
   {
     "type": 1,
     "icao": "KTRI",
-    "lat": 36.4759195,
+    "lat": 36.475919605,
     "lon": -82.40641364999999,
     "communications": [
       {
@@ -355,9 +160,9 @@
         "surfaceType": null,
         "numberStart": "05",
         "numberEnd": "23",
-        "latStart": 36.465342,
+        "latStart": 36.46534221,
         "lonStart": -82.4191123,
-        "latEnd": 36.481525,
+        "latEnd": 36.48152521,
         "lonEnd": -82.4007093,
         "length": 0,
         "surfacetype": 1
@@ -376,13 +181,13 @@
         "surfacetype": 1
       }
     ],
-    "id": 25569
+    "id": 3343
   },
   {
     "type": 1,
     "icao": "KVJI",
-    "lat": 36.6871025,
-    "lon": -82.0333265,
+    "lat": 36.686175684,
+    "lon": -82.033892146,
     "communications": [
       {
         "type": 50,
@@ -395,7 +200,7 @@
         "name": "CTAF/UNICOM"
       }
     ],
-    "elevation": 2086,
+    "elevation": 2083,
     "tower": false,
     "name": "Virginia Highlands",
     "runways": [
@@ -405,40 +210,288 @@
         "surfaceType": null,
         "numberStart": "06",
         "numberEnd": "24",
-        "latStart": 36.683672,
-        "lonStart": -82.039647,
-        "latEnd": 36.690533,
-        "lonEnd": -82.027006,
+        "latStart": 36.68352737,
+        "lonStart": -82.03993771,
+        "latEnd": 36.690537,
+        "lonEnd": -82.027013,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 8.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.68571988,
+        "lonStart": -82.03395821,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 8.2
+      },
+      {
+        "type": 102,
+        "width": 8.2,
+        "surfaceType": 1,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 36.68560461,
+        "lonStart": -82.03417003,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 8.3
+      },
+      {
+        "type": 102,
+        "width": 8.2,
+        "surfaceType": 1,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 36.68548956,
+        "lonStart": -82.03438178,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 8.3
       }
     ],
-    "id": 26369
+    "id": 3382
+  },
+  {
+    "type": 17,
+    "icao": "TN04",
+    "lat": 36.586897,
+    "lon": -82.257081,
+    "communications": [],
+    "elevation": 1791,
+    "tower": false,
+    "name": "[H] Bristol Regional Medical Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 16.5,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.586897,
+        "lonStart": -82.257081,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 16.5
+      }
+    ],
+    "id": 5021
   },
   {
     "type": 17,
     "icao": "TN57",
-    "lat": 36.4309375,
-    "lon": -82.30791528,
-    "communications": [],
+    "lat": 36.431183684,
+    "lon": -82.307714776,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12307,
+        "name": "UNICOM"
+      }
+    ],
     "elevation": 1620,
     "tower": false,
     "name": "[H] Air Trade Center",
     "runways": [
       {
         "type": 102,
-        "width": 15.2,
+        "width": 6.3,
         "surfaceType": 2,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 36.4309375,
-        "lonStart": -82.30791528,
+        "latStart": 36.43138128,
+        "lonStart": -82.30746797,
         "latEnd": null,
         "lonEnd": null,
-        "length": 100.6
+        "length": 7.9
+      },
+      {
+        "type": 102,
+        "width": 6.3,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 36.43127702,
+        "lonStart": -82.30759813,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 7.9
+      },
+      {
+        "type": 102,
+        "width": 6.3,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 36.43118289,
+        "lonStart": -82.30771406,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 8.1
+      },
+      {
+        "type": 102,
+        "width": 6.3,
+        "surfaceType": 2,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 36.43108624,
+        "lonStart": -82.3078359,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 7.9
+      },
+      {
+        "type": 102,
+        "width": 6.3,
+        "surfaceType": 2,
+        "numberStart": "H5",
+        "numberEnd": null,
+        "latStart": 36.43099099,
+        "lonStart": -82.30795782,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 7.9
       }
     ],
-    "id": 28054
+    "id": 5022
+  },
+  {
+    "type": 17,
+    "icao": "XK89TN",
+    "lat": 36.43307131900001,
+    "lon": -82.293872358,
+    "communications": [],
+    "elevation": 1581,
+    "tower": false,
+    "name": "[H] Bell Helicopter",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.5,
+        "surfaceType": 15,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.43217004,
+        "lonStart": -82.29434396,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15
+      },
+      {
+        "type": 102,
+        "width": 6.5,
+        "surfaceType": 15,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 36.43225932,
+        "lonStart": -82.29411484,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15
+      },
+      {
+        "type": 102,
+        "width": 6.5,
+        "surfaceType": 15,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 36.43240436,
+        "lonStart": -82.29393263,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.9
+      },
+      {
+        "type": 102,
+        "width": 6.5,
+        "surfaceType": 15,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 36.43260308,
+        "lonStart": -82.29384019,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 14.6
+      },
+      {
+        "type": 102,
+        "width": 6.5,
+        "surfaceType": 15,
+        "numberStart": "H5",
+        "numberEnd": null,
+        "latStart": 36.43280946,
+        "lonStart": -82.29387418,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      },
+      {
+        "type": 102,
+        "width": 6.5,
+        "surfaceType": 15,
+        "numberStart": "H6",
+        "numberEnd": null,
+        "latStart": 36.43299295,
+        "lonStart": -82.29397792,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.5
+      },
+      {
+        "type": 102,
+        "width": 11,
+        "surfaceType": 15,
+        "numberStart": "H7",
+        "numberEnd": null,
+        "latStart": 36.43313981,
+        "lonStart": -82.29416058,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.1
+      },
+      {
+        "type": 102,
+        "width": 7,
+        "surfaceType": 15,
+        "numberStart": "H8",
+        "numberEnd": null,
+        "latStart": 36.43390049,
+        "lonStart": -82.2935458,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      },
+      {
+        "type": 102,
+        "width": 7,
+        "surfaceType": 15,
+        "numberStart": "H9",
+        "numberEnd": null,
+        "latStart": 36.43411289,
+        "lonStart": -82.29349371,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      },
+      {
+        "type": 102,
+        "width": 11.3,
+        "surfaceType": 15,
+        "numberStart": "H10",
+        "numberEnd": null,
+        "latStart": 36.43432079,
+        "lonStart": -82.29343977,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 5486
   },
   {
     "type": 17,
@@ -463,257 +516,7 @@
         "length": 6.1
       }
     ],
-    "id": 28575
-  },
-  {
-    "type": 17,
-    "icao": "7VA1",
-    "lat": 36.60232694,
-    "lon": -82.21513445,
-    "communications": [],
-    "elevation": 1819,
-    "tower": false,
-    "name": "[H] Bristol Regional Medical Center",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 36.60232694,
-        "lonStart": -82.21513445,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 28585
-  },
-  {
-    "type": 17,
-    "icao": "TN04",
-    "lat": 36.58677027,
-    "lon": -82.25735862,
-    "communications": [],
-    "elevation": 1791,
-    "tower": false,
-    "name": "[H] Bristol Regional Medical Center",
-    "runways": [
-      {
-        "type": 102,
-        "width": 18.3,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 36.58677027,
-        "lonStart": -82.25735862,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 18.3
-      }
-    ],
-    "id": 28586
-  },
-  {
-    "type": 17,
-    "icao": "VA05",
-    "lat": 36.90566444,
-    "lon": -82.06346306,
-    "communications": [],
-    "elevation": 2048,
-    "tower": false,
-    "name": "[H] Clinchfield",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 36.90566444,
-        "lonStart": -82.06346306,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 29010
-  },
-  {
-    "type": 17,
-    "icao": "5VA7",
-    "lat": 36.959825,
-    "lon": -82.47015139,
-    "communications": [],
-    "elevation": 2009,
-    "tower": false,
-    "name": "[H] Coeburn",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 36.959825,
-        "lonStart": -82.47015139,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      }
-    ],
-    "id": 29036
-  },
-  {
-    "type": 17,
-    "icao": "5VA8",
-    "lat": 36.71120638,
-    "lon": -82.80071723,
-    "communications": [],
-    "elevation": 1339,
-    "tower": false,
-    "name": "[H] DDA",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 36.71120638,
-        "lonStart": -82.80071723,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 29225
-  },
-  {
-    "type": 17,
-    "icao": "3TN5",
-    "lat": 36.55361111,
-    "lon": -82.55333334,
-    "communications": [],
-    "elevation": 1270,
-    "tower": false,
-    "name": "[H] Holston Valley Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 36.55361111,
-        "lonStart": -82.55333334,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 30276
-  },
-  {
-    "type": 17,
-    "icao": "59VA",
-    "lat": 36.94204361,
-    "lon": -82.64376834,
-    "communications": [],
-    "elevation": 2000,
-    "tower": false,
-    "name": "[H] Humphreys",
-    "runways": [
-      {
-        "type": 102,
-        "width": 4.6,
-        "surfaceType": 4,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 36.94204361,
-        "lonStart": -82.64376834,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 4.6
-      }
-    ],
-    "id": 30421
-  },
-  {
-    "type": 17,
-    "icao": "TN91",
-    "lat": 36.30833333,
-    "lon": -82.38555556,
-    "communications": [],
-    "elevation": 1745,
-    "tower": false,
-    "name": "[H] Johnson City Medical Center",
-    "runways": [
-      {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 36.30833333,
-        "lonStart": -82.38555556,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
-      }
-    ],
-    "id": 30640
-  },
-  {
-    "type": 17,
-    "icao": "VA01",
-    "lat": 36.9401025,
-    "lon": -82.48154084,
-    "communications": [],
-    "elevation": 2000,
-    "tower": false,
-    "name": "[H] Marty 1",
-    "runways": [
-      {
-        "type": 102,
-        "width": 3.7,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 36.9401025,
-        "lonStart": -82.48154084,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 31110
-  },
-  {
-    "type": 17,
-    "icao": "75VA",
-    "lat": 36.93509916,
-    "lon": -82.64487945,
-    "communications": [],
-    "elevation": 2200,
-    "tower": false,
-    "name": "[H] Norton Community Hospital",
-    "runways": [
-      {
-        "type": 102,
-        "width": 15.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 36.93509916,
-        "lonStart": -82.64487945,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 15.2
-      }
-    ],
-    "id": 31680
+    "id": 6764
   },
   {
     "type": 17,
@@ -738,42 +541,43 @@
         "length": 61
       }
     ],
-    "id": 32255
+    "id": 6765
   },
   {
-    "type": 17,
-    "icao": "8VA9",
-    "lat": 36.94371083,
-    "lon": -82.62543445,
+    "type": 1,
+    "icao": "3TN0",
+    "lat": 36.53527777,
+    "lon": -82.43055556,
     "communications": [],
-    "elevation": 2243,
+    "elevation": 1550,
     "tower": false,
-    "name": "[H] St Marys Hospital",
+    "name": "Indian Springs",
     "runways": [
       {
-        "type": 102,
-        "width": 12.2,
-        "surfaceType": 1,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 36.94371083,
-        "lonStart": -82.62543445,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 12.2
+        "type": 100,
+        "width": 7.62,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 36.53446796,
+        "lonStart": -82.43159923,
+        "latEnd": 36.53608758,
+        "lonEnd": -82.42951189,
+        "length": 0,
+        "surfacetype": 3
       }
     ],
-    "id": 32980
+    "id": 7871
   },
   {
     "type": 17,
-    "icao": "5VA2",
-    "lat": 36.61205027,
-    "lon": -82.18874445,
+    "icao": "3TN5",
+    "lat": 36.55361111,
+    "lon": -82.55333334,
     "communications": [],
-    "elevation": 1729,
+    "elevation": 1270,
     "tower": false,
-    "name": "[H] Sullins",
+    "name": "[H] Holston Valley Hospital",
     "runways": [
       {
         "type": 102,
@@ -781,39 +585,89 @@
         "surfaceType": 2,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 36.61205027,
-        "lonStart": -82.18874445,
+        "latStart": 36.55361111,
+        "lonStart": -82.55333334,
         "latEnd": null,
         "lonEnd": null,
-        "length": 16.8
+        "length": 15.2
       }
     ],
-    "id": 33121
+    "id": 7876
   },
   {
     "type": 17,
-    "icao": "TN95",
-    "lat": 36.30843944,
-    "lon": -82.38319639,
+    "icao": "5VA7",
+    "lat": 36.959825,
+    "lon": -82.47015139,
     "communications": [],
-    "elevation": 1500,
+    "elevation": 2009,
     "tower": false,
-    "name": "[H] TVA",
+    "name": "[H] Coeburn",
     "runways": [
       {
         "type": 102,
-        "width": 30.5,
-        "surfaceType": 4,
+        "width": 6.1,
+        "surfaceType": 2,
         "numberStart": "H1",
         "numberEnd": null,
-        "latStart": 36.30843944,
-        "lonStart": -82.38319639,
+        "latStart": 36.959825,
+        "lonStart": -82.47015139,
         "latEnd": null,
         "lonEnd": null,
-        "length": 73.2
+        "length": 6.1
       }
     ],
-    "id": 33204
+    "id": 8951
+  },
+  {
+    "type": 17,
+    "icao": "5VA8",
+    "lat": 36.71120638,
+    "lon": -82.80071723,
+    "communications": [],
+    "elevation": 1339,
+    "tower": false,
+    "name": "[H] DDA",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.71120638,
+        "lonStart": -82.80071723,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 8952
+  },
+  {
+    "type": 17,
+    "icao": "7VA1",
+    "lat": 36.60232694,
+    "lon": -82.21513445,
+    "communications": [],
+    "elevation": 1819,
+    "tower": false,
+    "name": "[H] Bristol Regional Medical Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.60232694,
+        "lonStart": -82.21513445,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 9929
   },
   {
     "type": 17,
@@ -838,7 +692,376 @@
         "length": 13.7
       }
     ],
-    "id": 33386
+    "id": 9936
+  },
+  {
+    "type": 17,
+    "icao": "8VA9",
+    "lat": 36.94371083,
+    "lon": -82.62543445,
+    "communications": [],
+    "elevation": 2243,
+    "tower": false,
+    "name": "[H] St Marys Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.94371083,
+        "lonStart": -82.62543445,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 10382
+  },
+  {
+    "type": 1,
+    "icao": "19VA",
+    "lat": 36.889722219999996,
+    "lon": -82.29777778,
+    "communications": [],
+    "elevation": 1720,
+    "tower": false,
+    "name": "Flying W",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "18",
+        "numberEnd": "36",
+        "latStart": 36.89190825,
+        "lonStart": -82.29801691,
+        "latEnd": 36.88753619,
+        "lonEnd": -82.29753865,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 11290
+  },
+  {
+    "type": 17,
+    "icao": "59VA",
+    "lat": 36.94204361,
+    "lon": -82.64376834,
+    "communications": [],
+    "elevation": 2000,
+    "tower": false,
+    "name": "[H] Humphreys",
+    "runways": [
+      {
+        "type": 102,
+        "width": 4.6,
+        "surfaceType": 4,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.94204361,
+        "lonStart": -82.64376834,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 4.6
+      }
+    ],
+    "id": 12855
+  },
+  {
+    "type": 17,
+    "icao": "75VA",
+    "lat": 36.93509916,
+    "lon": -82.64487945,
+    "communications": [],
+    "elevation": 2200,
+    "tower": false,
+    "name": "[H] Norton Community Hospital",
+    "runways": [
+      {
+        "type": 102,
+        "width": 15.2,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.93509916,
+        "lonStart": -82.64487945,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 13507
+  },
+  {
+    "type": 1,
+    "icao": "KGCY",
+    "lat": 36.192983,
+    "lon": -82.81505849999999,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12842,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12270,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11925,
+        "name": "TRI CITY APP/DEP"
+      }
+    ],
+    "elevation": 1608,
+    "tower": false,
+    "name": "Greeneville Greene Co Muni",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 36.187122,
+        "lonStart": -82.822911,
+        "latEnd": 36.198844,
+        "lonEnd": -82.807206,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19194
+  },
+  {
+    "type": 1,
+    "icao": "KLNP",
+    "lat": 36.987518,
+    "lon": -82.5299975,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 11860,
+        "name": "AWOS 3"
+      },
+      {
+        "type": 51,
+        "frequency": 12300,
+        "name": "CTAF/UNICOM"
+      }
+    ],
+    "elevation": 2684,
+    "tower": false,
+    "name": "LONESOME PINE",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 36.983483,
+        "lonStart": -82.537506,
+        "latEnd": 36.991553,
+        "lonEnd": -82.522489,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19422
+  },
+  {
+    "type": 1,
+    "icao": "KRVN",
+    "lat": 36.457578999999996,
+    "lon": -82.885036,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 11925,
+        "name": "TRI CITY APP/DEP"
+      }
+    ],
+    "elevation": 1255,
+    "tower": false,
+    "name": "HAWKINS CO",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 36.455475,
+        "lonStart": -82.890389,
+        "latEnd": 36.459683,
+        "lonEnd": -82.879683,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 19773
+  },
+  {
+    "type": 1,
+    "icao": "TN03",
+    "lat": 36.1962175,
+    "lon": -82.48708805999999,
+    "communications": [],
+    "elevation": 1505,
+    "tower": false,
+    "name": "Decker Farm",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "08",
+        "numberEnd": "26",
+        "latStart": 36.19568663,
+        "lonStart": -82.48972648,
+        "latEnd": 36.19674837,
+        "lonEnd": -82.48444964,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 29890
+  },
+  {
+    "type": 1,
+    "icao": "TN62",
+    "lat": 36.372326939999994,
+    "lon": -82.39153028000001,
+    "communications": [],
+    "elevation": 1925,
+    "tower": false,
+    "name": "Mc Afee STOL Patch",
+    "runways": [
+      {
+        "type": 100,
+        "width": 15.24,
+        "surfaceType": null,
+        "numberStart": "05",
+        "numberEnd": "23",
+        "latStart": 36.37127895,
+        "lonStart": -82.39287808,
+        "latEnd": 36.37337493,
+        "lonEnd": -82.39018248,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 29944
+  },
+  {
+    "type": 17,
+    "icao": "TN91",
+    "lat": 36.30833333,
+    "lon": -82.38555556,
+    "communications": [],
+    "elevation": 1745,
+    "tower": false,
+    "name": "[H] Johnson City Medical Center",
+    "runways": [
+      {
+        "type": 102,
+        "width": 12.2,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.30833333,
+        "lonStart": -82.38555556,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 12.2
+      }
+    ],
+    "id": 29969
+  },
+  {
+    "type": 17,
+    "icao": "TN95",
+    "lat": 36.30843944,
+    "lon": -82.38319639,
+    "communications": [],
+    "elevation": 1500,
+    "tower": false,
+    "name": "[H] TVA",
+    "runways": [
+      {
+        "type": 102,
+        "width": 30.5,
+        "surfaceType": 4,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.30843944,
+        "lonStart": -82.38319639,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 73.2
+      }
+    ],
+    "id": 29973
+  },
+  {
+    "type": 17,
+    "icao": "VA01",
+    "lat": 36.9401025,
+    "lon": -82.48154084,
+    "communications": [],
+    "elevation": 2000,
+    "tower": false,
+    "name": "[H] Marty 1",
+    "runways": [
+      {
+        "type": 102,
+        "width": 3.7,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.9401025,
+        "lonStart": -82.48154084,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 15.2
+      }
+    ],
+    "id": 30644
+  },
+  {
+    "type": 17,
+    "icao": "VA05",
+    "lat": 36.90566444,
+    "lon": -82.06346306,
+    "communications": [],
+    "elevation": 2048,
+    "tower": false,
+    "name": "[H] Clinchfield",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 36.90566444,
+        "lonStart": -82.06346306,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      }
+    ],
+    "id": 30665
   },
   {
     "type": 17,
@@ -863,6 +1086,6 @@
         "length": 12.2
       }
     ],
-    "id": 33884
+    "id": 30669
   }
 ]

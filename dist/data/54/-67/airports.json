@@ -2,8 +2,8 @@
   {
     "type": 1,
     "icao": "CYKL",
-    "lat": 54.8047225,
-    "lon": -66.804722,
+    "lat": 54.80412869,
+    "lon": -66.80521925,
     "communications": [
       {
         "type": 50,
@@ -16,24 +16,36 @@
         "name": "MF"
       }
     ],
-    "elevation": 1709,
-    "tower": false,
-    "name": "SCHEFFERVILLE",
+    "elevation": 1708,
+    "tower": true,
+    "name": "Schefferville",
     "runways": [
       {
         "type": 100,
         "width": 45.72,
         "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 54.810589,
-        "lonStart": -66.810825,
-        "latEnd": 54.798856,
-        "lonEnd": -66.798619,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 54.81104707,
+        "lonStart": -66.81136807,
+        "latEnd": 54.79927993,
+        "lonEnd": -66.79923102,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 22.67,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 54.80205907,
+        "lonStart": -66.80505866,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.62
       }
     ],
-    "id": 22112
+    "id": 780
   }
 ]

@@ -2,13 +2,18 @@
   {
     "type": 1,
     "icao": "CYCQ",
-    "lat": 55.687211000000005,
-    "lon": -121.62665949999999,
+    "lat": 55.687222335,
+    "lon": -121.62670546,
     "communications": [
       {
         "type": 51,
         "frequency": 12320,
         "name": "CTAF"
+      },
+      {
+        "type": 50,
+        "frequency": 12255,
+        "name": "LWIS"
       }
     ],
     "elevation": 2000,
@@ -21,14 +26,14 @@
         "surfaceType": null,
         "numberStart": "05",
         "numberEnd": "23",
-        "latStart": 55.68535,
-        "lonStart": -121.637019,
-        "latEnd": 55.689072,
-        "lonEnd": -121.6163,
+        "latStart": 55.68536943,
+        "lonStart": -121.63707932,
+        "latEnd": 55.68907524,
+        "lonEnd": -121.6163316,
         "length": 0,
         "surfacetype": 1
       }
     ],
-    "id": 3875
+    "id": 740
   }
 ]

@@ -1,61 +1,193 @@
 [
   {
     "type": 1,
-    "icao": "EBBY",
-    "lat": 50.56825506166666,
-    "lon": 4.434915471666667,
+    "icao": "EBBR",
+    "lat": 50.89974100083333,
+    "lon": 4.485154629999999,
     "communications": [
       {
+        "type": 50,
+        "frequency": 12175,
+        "name": "ATIS DEP"
+      },
+      {
+        "type": 50,
+        "frequency": 13247,
+        "name": "ATIS ARR"
+      },
+      {
         "type": 51,
-        "frequency": 12345,
-        "name": "Baisy-Thy Radio"
+        "frequency": 13055,
+        "name": "ABELAG UNICOM"
+      },
+      {
+        "type": 52,
+        "frequency": 12195,
+        "name": "CLNC DEL"
+      },
+      {
+        "type": 53,
+        "frequency": 11805,
+        "name": "GND"
+      },
+      {
+        "type": 53,
+        "frequency": 12170,
+        "name": "GND"
+      },
+      {
+        "type": 53,
+        "frequency": 12187,
+        "name": "GND"
+      },
+      {
+        "type": 54,
+        "frequency": 11860,
+        "name": "TWR"
+      },
+      {
+        "type": 54,
+        "frequency": 12077,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 11825,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12010,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12250,
+        "name": "APP"
+      },
+      {
+        "type": 56,
+        "frequency": 12662,
+        "name": "DEP"
       }
     ],
-    "elevation": 541,
-    "tower": false,
-    "name": "Baisy-Thy",
+    "elevation": 184,
+    "tower": true,
+    "name": "Brussels Airport",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 50.56671341,
-        "lonStart": 4.43470301,
-        "latEnd": 50.56803559,
-        "lonEnd": 4.43688802,
+        "numberStart": "07L",
+        "numberEnd": "25R",
+        "latStart": 50.8989732,
+        "lonStart": 4.45592345,
+        "latEnd": 50.91267642,
+        "lonEnd": 4.5033095,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 29.87,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "14",
-        "numberEnd": "32",
-        "latStart": 50.56769797,
-        "lonStart": 4.43592685,
-        "latEnd": 50.56967103,
-        "lonEnd": 4.43288208,
+        "numberStart": "07R",
+        "numberEnd": "25L",
+        "latStart": 50.88903977,
+        "lonStart": 4.48039286,
+        "latEnd": 50.89894167,
+        "lonEnd": 4.5233,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
       },
       {
         "type": 100,
-        "width": 27.13,
+        "width": 49.99,
         "surfaceType": null,
-        "numberStart": "5",
-        "numberEnd": "23",
-        "latStart": 50.56779859,
-        "lonStart": 4.43596079,
-        "latEnd": 50.56961378,
-        "lonEnd": 4.43313208,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 50.88680618,
+        "lonStart": 4.49134748,
+        "latEnd": 50.91307165,
+        "lonEnd": 4.50205064,
         "length": 0,
-        "surfacetype": 3
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 24.1,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 50.89750366,
+        "lonStart": 4.49073037,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.1
+      },
+      {
+        "type": 102,
+        "width": 24.1,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 50.89354498,
+        "lonStart": 4.4843039,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.1
+      },
+      {
+        "type": 102,
+        "width": 24.1,
+        "surfaceType": 2,
+        "numberStart": "H3",
+        "numberEnd": null,
+        "latStart": 50.904393,
+        "lonStart": 4.461372,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.1
+      },
+      {
+        "type": 102,
+        "width": 24.1,
+        "surfaceType": 2,
+        "numberStart": "H4",
+        "numberEnd": null,
+        "latStart": 50.91269323,
+        "lonStart": 4.49033719,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.1
+      },
+      {
+        "type": 102,
+        "width": 24.1,
+        "surfaceType": 2,
+        "numberStart": "H5",
+        "numberEnd": null,
+        "latStart": 50.89535425,
+        "lonStart": 4.46977017,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.1
+      },
+      {
+        "type": 102,
+        "width": 24.1,
+        "surfaceType": 2,
+        "numberStart": "H6",
+        "numberEnd": null,
+        "latStart": 50.893894,
+        "lonStart": 4.469018,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.1
       }
     ],
-    "id": 2086
+    "id": 944
   },
   {
     "type": 1,
@@ -142,192 +274,142 @@
         "length": 31.1
       }
     ],
-    "id": 2412
+    "id": 16126
   },
   {
     "type": 1,
-    "icao": "EBBR",
-    "lat": 50.899755983333336,
-    "lon": 4.485201461666667,
+    "icao": "EBBY",
+    "lat": 50.56825506166666,
+    "lon": 4.434915471666667,
     "communications": [
       {
-        "type": 50,
-        "frequency": 13247,
-        "name": "ATIS ARR"
-      },
-      {
-        "type": 50,
-        "frequency": 12175,
-        "name": "ATIS DEP"
-      },
-      {
         "type": 51,
-        "frequency": 13055,
-        "name": "ABELAG UNICOM"
-      },
-      {
-        "type": 52,
-        "frequency": 12195,
-        "name": "CLNC DEL"
-      },
-      {
-        "type": 53,
-        "frequency": 11805,
-        "name": "GND"
-      },
-      {
-        "type": 53,
-        "frequency": 12187,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 11860,
-        "name": "TWR"
-      },
-      {
-        "type": 54,
-        "frequency": 12077,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11825,
-        "name": "APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12010,
-        "name": "APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12250,
-        "name": "APP"
-      },
-      {
-        "type": 56,
-        "frequency": 12662,
-        "name": "DEP"
+        "frequency": 12345,
+        "name": "Baisy-Thy Radio"
       }
     ],
-    "elevation": 184,
-    "tower": true,
-    "name": "Brussels Airport",
+    "elevation": 541,
+    "tower": false,
+    "name": "Baisy-Thy",
     "runways": [
       {
         "type": 100,
-        "width": 45.11,
+        "width": 29.87,
         "surfaceType": null,
-        "numberStart": "07L",
-        "numberEnd": "25R",
-        "latStart": 50.89886682,
-        "lonStart": 4.45563939,
-        "latEnd": 50.91279104,
-        "lonEnd": 4.50339081,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 50.56671341,
+        "lonStart": 4.43470301,
+        "latEnd": 50.56803559,
+        "lonEnd": 4.43688802,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       },
       {
         "type": 100,
-        "width": 45.11,
+        "width": 29.87,
         "surfaceType": null,
-        "numberStart": "07R",
-        "numberEnd": "25L",
-        "latStart": 50.88903977,
-        "lonStart": 4.48039286,
-        "latEnd": 50.89911322,
-        "lonEnd": 4.52406473,
+        "numberStart": "14",
+        "numberEnd": "32",
+        "latStart": 50.56769797,
+        "lonStart": 4.43592685,
+        "latEnd": 50.56967103,
+        "lonEnd": 4.43288208,
         "length": 0,
-        "surfacetype": 1
+        "surfacetype": 3
       },
       {
         "type": 100,
-        "width": 49.99,
+        "width": 27.13,
         "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 50.88680618,
-        "lonStart": 4.49134748,
-        "latEnd": 50.91307165,
-        "lonEnd": 4.50205064,
+        "numberStart": "5",
+        "numberEnd": "23",
+        "latStart": 50.56779859,
+        "lonStart": 4.43596079,
+        "latEnd": 50.56961378,
+        "lonEnd": 4.43313208,
         "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 24.1,
-        "surfaceType": 2,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 50.89750366,
-        "lonStart": 4.49073037,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.1
-      },
-      {
-        "type": 102,
-        "width": 24.1,
-        "surfaceType": 2,
-        "numberStart": "H2",
-        "numberEnd": null,
-        "latStart": 50.89354498,
-        "lonStart": 4.4843039,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.1
-      },
-      {
-        "type": 102,
-        "width": 24.1,
-        "surfaceType": 2,
-        "numberStart": "H3",
-        "numberEnd": null,
-        "latStart": 50.904393,
-        "lonStart": 4.461372,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.1
-      },
-      {
-        "type": 102,
-        "width": 24.1,
-        "surfaceType": 2,
-        "numberStart": "H4",
-        "numberEnd": null,
-        "latStart": 50.91269323,
-        "lonStart": 4.49033719,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.1
-      },
-      {
-        "type": 102,
-        "width": 24.1,
-        "surfaceType": 2,
-        "numberStart": "H5",
-        "numberEnd": null,
-        "latStart": 50.89535425,
-        "lonStart": 4.46977017,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.1
-      },
-      {
-        "type": 102,
-        "width": 24.1,
-        "surfaceType": 2,
-        "numberStart": "H6",
-        "numberEnd": null,
-        "latStart": 50.893894,
-        "lonStart": 4.469018,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.1
+        "surfacetype": 3
       }
     ],
-    "id": 3297
+    "id": 16130
+  },
+  {
+    "type": 1,
+    "icao": "EBBZ",
+    "lat": 50.543343285,
+    "lon": 4.3815416549999995,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12405,
+        "name": "Buzet Radio"
+      }
+    ],
+    "elevation": 475,
+    "tower": false,
+    "name": "Buzet",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.99,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 50.54416784,
+        "lonStart": 4.38087535,
+        "latEnd": 50.54251873,
+        "lonEnd": 4.38220796,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16131
+  },
+  {
+    "type": 1,
+    "icao": "EBCF",
+    "lat": 50.153166569999996,
+    "lon": 4.3864870575,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12587,
+        "name": "Cerfontaine Radio"
+      }
+    ],
+    "elevation": 954,
+    "tower": true,
+    "name": "Cerfontaine",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "12L",
+        "numberEnd": "30R",
+        "latStart": 50.15505423,
+        "lonStart": 4.38201746,
+        "latEnd": 50.1518598,
+        "lonEnd": 4.392087,
+        "length": 0,
+        "surfacetype": 3
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "12R",
+        "numberEnd": "30L",
+        "latStart": 50.15430376,
+        "lonStart": 4.38142159,
+        "latEnd": 50.15144849,
+        "lonEnd": 4.39042218,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16132
   },
   {
     "type": 1,
@@ -374,84 +456,296 @@
         "surfacetype": 1
       }
     ],
-    "id": 3298
+    "id": 16133
   },
   {
     "type": 1,
-    "icao": "EBBZ",
-    "lat": 50.543343285,
-    "lon": 4.3815416549999995,
+    "icao": "EBFS",
+    "lat": 50.2408465225,
+    "lon": 4.6481592325,
     "communications": [
       {
-        "type": 54,
-        "frequency": 12405,
-        "name": "Buzet Radio"
-      }
-    ],
-    "elevation": 475,
-    "tower": false,
-    "name": "Buzet",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.99,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 50.54416784,
-        "lonStart": 4.38087535,
-        "latEnd": 50.54251873,
-        "lonEnd": 4.38220796,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 3466
-  },
-  {
-    "type": 1,
-    "icao": "EBCF",
-    "lat": 50.153166569999996,
-    "lon": 4.3864870575,
-    "communications": [
+        "type": 53,
+        "frequency": 12210,
+        "name": "GND"
+      },
       {
         "type": 54,
-        "frequency": 12587,
-        "name": "Cerfontaine Radio"
+        "frequency": 12210,
+        "name": "TWR"
+      },
+      {
+        "type": 55,
+        "frequency": 12250,
+        "name": "APP"
+      },
+      {
+        "type": 55,
+        "frequency": 12330,
+        "name": "GCA"
       }
     ],
-    "elevation": 954,
+    "elevation": 900,
     "tower": true,
-    "name": "Cerfontaine",
+    "name": "Florennes",
     "runways": [
       {
         "type": 100,
-        "width": 20.12,
+        "width": 45.11,
         "surfaceType": null,
-        "numberStart": "12L",
-        "numberEnd": "30R",
-        "latStart": 50.15505423,
-        "lonStart": 4.38201746,
-        "latEnd": 50.1518598,
-        "lonEnd": 4.392087,
+        "numberStart": "08L",
+        "numberEnd": "26R",
+        "latStart": 50.24084359,
+        "lonStart": 4.62545623,
+        "latEnd": 50.24637948,
+        "lonEnd": 4.67216473,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "08R",
+        "numberEnd": "26L",
+        "latStart": 50.23624075,
+        "lonStart": 4.6320551,
+        "latEnd": 50.23992227,
+        "lonEnd": 4.66296087,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16136
+  },
+  {
+    "type": 1,
+    "icao": "EBGB",
+    "lat": 50.94861133249999,
+    "lon": 4.391832955,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12780,
+        "name": "Brussels Volmet"
+      },
+      {
+        "type": 51,
+        "frequency": 11950,
+        "name": "Grimbergen Radio"
+      },
+      {
+        "type": 52,
+        "frequency": 12662,
+        "name": "Brussels Departure"
+      }
+    ],
+    "elevation": 68,
+    "tower": true,
+    "name": "Grimbergen",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "01",
+        "numberEnd": "19",
+        "latStart": 50.9458842,
+        "lonStart": 4.39097591,
+        "latEnd": 50.95130818,
+        "lonEnd": 4.39264991,
         "length": 0,
         "surfacetype": 3
       },
       {
         "type": 100,
-        "width": 29.87,
+        "width": 39.01,
         "surfaceType": null,
-        "numberStart": "12R",
-        "numberEnd": "30L",
-        "latStart": 50.15430376,
-        "lonStart": 4.38142159,
-        "latEnd": 50.15144849,
-        "lonEnd": 4.39042218,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 50.94582907,
+        "lonStart": 4.39103085,
+        "latEnd": 50.95142388,
+        "lonEnd": 4.39267515,
         "length": 0,
         "surfacetype": 3
       }
     ],
-    "id": 4733
+    "id": 16137
+  },
+  {
+    "type": 1,
+    "icao": "EBLN",
+    "lat": 50.57954893,
+    "lon": 4.79167649,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12345,
+        "name": "Liernu Radio"
+      }
+    ],
+    "elevation": 560,
+    "tower": true,
+    "name": "Liernu",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "7",
+        "numberEnd": "25",
+        "latStart": 50.57905374,
+        "lonStart": 4.78998665,
+        "latEnd": 50.58004412,
+        "lonEnd": 4.79336633,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16142
+  },
+  {
+    "type": 1,
+    "icao": "EBNM",
+    "lat": 50.489841195,
+    "lon": 4.770472685,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12690,
+        "name": "Brussels Radio"
+      },
+      {
+        "type": 54,
+        "frequency": 12130,
+        "name": "Charleroi Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 13312,
+        "name": "Charleroi Approach"
+      }
+    ],
+    "elevation": 594,
+    "tower": true,
+    "name": "Namur",
+    "runways": [
+      {
+        "type": 100,
+        "width": 77.11,
+        "surfaceType": null,
+        "numberStart": "06L",
+        "numberEnd": "24R",
+        "latStart": 50.48796642,
+        "lonStart": 4.7655539,
+        "latEnd": 50.49171597,
+        "lonEnd": 4.77539147,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 16144
+  },
+  {
+    "type": 17,
+    "icao": "EBSW",
+    "lat": 50.763182207499995,
+    "lon": 4.218968455,
+    "communications": [],
+    "elevation": 195,
+    "tower": false,
+    "name": "[H] Sint-Pieters-Leeuw",
+    "runways": [
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H01",
+        "numberEnd": null,
+        "latStart": 50.76277211,
+        "lonStart": 4.21907584,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      },
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H02",
+        "numberEnd": null,
+        "latStart": 50.76295038,
+        "lonStart": 4.21895368,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      },
+      {
+        "type": 102,
+        "width": 6.1,
+        "surfaceType": 2,
+        "numberStart": "H03",
+        "numberEnd": null,
+        "latStart": 50.76315612,
+        "lonStart": 4.21904502,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 6.1
+      },
+      {
+        "type": 102,
+        "width": 24.1,
+        "surfaceType": 3,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 50.76385022,
+        "lonStart": 4.21879928,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.1
+      }
+    ],
+    "id": 16152
+  },
+  {
+    "type": 1,
+    "icao": "EBTN",
+    "lat": 50.765003,
+    "lon": 4.957777,
+    "communications": [],
+    "elevation": 247,
+    "tower": true,
+    "name": "Goetsenhoven",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 50.76846067,
+        "lonStart": 4.95681308,
+        "latEnd": 50.76154533,
+        "lonEnd": 4.95874092,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "06",
+        "numberEnd": "24",
+        "latStart": 50.76338327,
+        "lonStart": 4.95334152,
+        "latEnd": 50.76662273,
+        "lonEnd": 4.96221248,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 16153
   },
   {
     "type": 1,
@@ -533,295 +827,6 @@
         "length": 15.85
       }
     ],
-    "id": 7079
-  },
-  {
-    "type": 1,
-    "icao": "EBFS",
-    "lat": 50.24086387,
-    "lon": 4.648294745,
-    "communications": [
-      {
-        "type": 53,
-        "frequency": 12210,
-        "name": "GND"
-      },
-      {
-        "type": 54,
-        "frequency": 12210,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 12250,
-        "name": "APP"
-      },
-      {
-        "type": 55,
-        "frequency": 12330,
-        "name": "GCA"
-      }
-    ],
-    "elevation": 900,
-    "tower": true,
-    "name": "Florennes",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "08L",
-        "numberEnd": "26R",
-        "latStart": 50.24084359,
-        "lonStart": 4.62545623,
-        "latEnd": 50.24644887,
-        "lonEnd": 4.67270678,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "08R",
-        "numberEnd": "26L",
-        "latStart": 50.23624075,
-        "lonStart": 4.6320551,
-        "latEnd": 50.23992227,
-        "lonEnd": 4.66296087,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 9370
-  },
-  {
-    "type": 1,
-    "icao": "EBTN",
-    "lat": 50.765003,
-    "lon": 4.957777,
-    "communications": [],
-    "elevation": 247,
-    "tower": true,
-    "name": "Goetsenhoven",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "17",
-        "numberEnd": "35",
-        "latStart": 50.76846067,
-        "lonStart": 4.95681308,
-        "latEnd": 50.76154533,
-        "lonEnd": 4.95874092,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "06",
-        "numberEnd": "24",
-        "latStart": 50.76338327,
-        "lonStart": 4.95334152,
-        "latEnd": 50.76662273,
-        "lonEnd": 4.96221248,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 10565
-  },
-  {
-    "type": 1,
-    "icao": "EBGB",
-    "lat": 50.94861133249999,
-    "lon": 4.391832955,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12780,
-        "name": "Brussels Volmet"
-      },
-      {
-        "type": 51,
-        "frequency": 11950,
-        "name": "Grimbergen Radio"
-      },
-      {
-        "type": 52,
-        "frequency": 12662,
-        "name": "Brussels Departure"
-      }
-    ],
-    "elevation": 68,
-    "tower": true,
-    "name": "Grimbergen",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "01",
-        "numberEnd": "19",
-        "latStart": 50.9458842,
-        "lonStart": 4.39097591,
-        "latEnd": 50.95130818,
-        "lonEnd": 4.39264991,
-        "length": 0,
-        "surfacetype": 3
-      },
-      {
-        "type": 100,
-        "width": 39.01,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 50.94582907,
-        "lonStart": 4.39103085,
-        "latEnd": 50.95142388,
-        "lonEnd": 4.39267515,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 10811
-  },
-  {
-    "type": 1,
-    "icao": "EBLN",
-    "lat": 50.57954893,
-    "lon": 4.79167649,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12345,
-        "name": "Liernu Radio"
-      }
-    ],
-    "elevation": 560,
-    "tower": true,
-    "name": "Liernu",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "7",
-        "numberEnd": "25",
-        "latStart": 50.57905374,
-        "lonStart": 4.78998665,
-        "latEnd": 50.58004412,
-        "lonEnd": 4.79336633,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 15259
-  },
-  {
-    "type": 1,
-    "icao": "EBNM",
-    "lat": 50.489841195,
-    "lon": 4.770472685,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12690,
-        "name": "Brussels Radio"
-      },
-      {
-        "type": 54,
-        "frequency": 12130,
-        "name": "Charleroi Tower"
-      },
-      {
-        "type": 55,
-        "frequency": 13312,
-        "name": "Charleroi Approach"
-      }
-    ],
-    "elevation": 594,
-    "tower": true,
-    "name": "Namur",
-    "runways": [
-      {
-        "type": 100,
-        "width": 77.11,
-        "surfaceType": null,
-        "numberStart": "06L",
-        "numberEnd": "24R",
-        "latStart": 50.48796642,
-        "lonStart": 4.7655539,
-        "latEnd": 50.49171597,
-        "lonEnd": 4.77539147,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 18088
-  },
-  {
-    "type": 17,
-    "icao": "EBSW",
-    "lat": 50.763182207499995,
-    "lon": 4.218968455,
-    "communications": [],
-    "elevation": 195,
-    "tower": false,
-    "name": "[H] Sint-Pieters-Leeuw",
-    "runways": [
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 2,
-        "numberStart": "H01",
-        "numberEnd": null,
-        "latStart": 50.76277211,
-        "lonStart": 4.21907584,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      },
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 2,
-        "numberStart": "H02",
-        "numberEnd": null,
-        "latStart": 50.76295038,
-        "lonStart": 4.21895368,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      },
-      {
-        "type": 102,
-        "width": 6.1,
-        "surfaceType": 2,
-        "numberStart": "H03",
-        "numberEnd": null,
-        "latStart": 50.76315612,
-        "lonStart": 4.21904502,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 6.1
-      },
-      {
-        "type": 102,
-        "width": 24.1,
-        "surfaceType": 3,
-        "numberStart": "H1",
-        "numberEnd": null,
-        "latStart": 50.76385022,
-        "lonStart": 4.21879928,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 24.1
-      }
-    ],
-    "id": 32723
+    "id": 20439
   }
 ]

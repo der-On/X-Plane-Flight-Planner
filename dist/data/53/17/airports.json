@@ -1,6 +1,58 @@
 [
   {
     "type": 1,
+    "icao": "EPBO",
+    "lat": 53.951741625,
+    "lon": 17.943663524999998,
+    "communications": [],
+    "elevation": 465,
+    "tower": false,
+    "name": "Borsk",
+    "runways": [
+      {
+        "type": 100,
+        "width": 39.83,
+        "surfaceType": null,
+        "numberStart": "10",
+        "numberEnd": "28",
+        "latStart": 53.95472124,
+        "lonStart": 17.9269119,
+        "latEnd": 53.94876201,
+        "lonEnd": 17.96041515,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1798
+  },
+  {
+    "type": 1,
+    "icao": "EPDB",
+    "lat": 53.524376245,
+    "lon": 17.258532799999998,
+    "communications": [],
+    "elevation": 506,
+    "tower": true,
+    "name": "Debrzno",
+    "runways": [
+      {
+        "type": 100,
+        "width": 58.54,
+        "surfaceType": null,
+        "numberStart": "07",
+        "numberEnd": "25",
+        "latStart": 53.52013954,
+        "lonStart": 17.24113022,
+        "latEnd": 53.52861295,
+        "lonEnd": 17.27593538,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 1800
+  },
+  {
+    "type": 1,
     "icao": "EPBY",
     "lat": 53.10299674,
     "lon": 17.96524791,
@@ -68,58 +120,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 2010
-  },
-  {
-    "type": 1,
-    "icao": "EPBO",
-    "lat": 53.951741625,
-    "lon": 17.943663524999998,
-    "communications": [],
-    "elevation": 465,
-    "tower": false,
-    "name": "Borsk",
-    "runways": [
-      {
-        "type": 100,
-        "width": 39.83,
-        "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
-        "latStart": 53.95472124,
-        "lonStart": 17.9269119,
-        "latEnd": 53.94876201,
-        "lonEnd": 17.96041515,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 3026
-  },
-  {
-    "type": 1,
-    "icao": "EPDB",
-    "lat": 53.524376245,
-    "lon": 17.258532799999998,
-    "communications": [],
-    "elevation": 506,
-    "tower": true,
-    "name": "Debrzno",
-    "runways": [
-      {
-        "type": 100,
-        "width": 58.54,
-        "surfaceType": null,
-        "numberStart": "07",
-        "numberEnd": "25",
-        "latStart": 53.52013954,
-        "lonStart": 17.24113022,
-        "latEnd": 53.52861295,
-        "lonEnd": 17.27593538,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 6115
+    "id": 16637
   }
 ]

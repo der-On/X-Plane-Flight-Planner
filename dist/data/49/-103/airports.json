@@ -36,7 +36,33 @@
         "surfacetype": 3
       }
     ],
-    "id": 1156
+    "id": 15212
+  },
+  {
+    "type": 1,
+    "icao": "CJQ2",
+    "lat": 49.371038999999996,
+    "lon": -102.759504675,
+    "communications": [],
+    "elevation": 1950,
+    "tower": false,
+    "name": "Lampman",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20.12,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 49.37303342,
+        "lonStart": -102.76503026,
+        "latEnd": 49.36904458,
+        "lonEnd": -102.75397909,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 15260
   },
   {
     "type": 1,
@@ -58,8 +84,8 @@
         "type": 100,
         "width": 22.86,
         "surfaceType": null,
-        "numberStart": "10",
-        "numberEnd": "28",
+        "numberStart": "11",
+        "numberEnd": "29",
         "latStart": 49.64563148,
         "lonStart": -102.29201455,
         "latEnd": 49.64239252,
@@ -68,7 +94,33 @@
         "surfacetype": 1
       }
     ],
-    "id": 4563
+    "id": 15261
+  },
+  {
+    "type": 1,
+    "icao": "CJW2",
+    "lat": 49.223910000000004,
+    "lon": -102.14651014,
+    "communications": [],
+    "elevation": 1850,
+    "tower": false,
+    "name": "Oxbow",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "09",
+        "numberEnd": "27",
+        "latStart": 49.22454136,
+        "lonStart": -102.15199237,
+        "latEnd": 49.22327864,
+        "lonEnd": -102.14102791,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 15279
   },
   {
     "type": 1,
@@ -107,7 +159,59 @@
         "surfacetype": 3
       }
     ],
-    "id": 7318
+    "id": 15321
+  },
+  {
+    "type": 1,
+    "icao": "CKV7",
+    "lat": 49.894189999999995,
+    "lon": -102.03036005999999,
+    "communications": [],
+    "elevation": 2167,
+    "tower": false,
+    "name": "Wawota",
+    "runways": [
+      {
+        "type": 100,
+        "width": 29.87,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 49.89692295,
+        "lonStart": -102.03072376,
+        "latEnd": 49.89145705,
+        "lonEnd": -102.02999636,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 15350
+  },
+  {
+    "type": 1,
+    "icao": "CS41",
+    "lat": 49.679805,
+    "lon": -102.99497500000001,
+    "communications": [],
+    "elevation": 0,
+    "tower": true,
+    "name": "Stoughton farm airstrip",
+    "runways": [
+      {
+        "type": 100,
+        "width": 24.08,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 49.68255,
+        "lonStart": -102.99764,
+        "latEnd": 49.67706,
+        "lonEnd": -102.99231,
+        "length": 0,
+        "surfacetype": 4
+      }
+    ],
+    "id": 15577
   },
   {
     "type": 1,
@@ -152,110 +256,6 @@
         "surfacetype": 1
       }
     ],
-    "id": 7320
-  },
-  {
-    "type": 1,
-    "icao": "CJQ2",
-    "lat": 49.371038999999996,
-    "lon": -102.759504675,
-    "communications": [],
-    "elevation": 1950,
-    "tower": false,
-    "name": "Lampman",
-    "runways": [
-      {
-        "type": 100,
-        "width": 20.12,
-        "surfaceType": null,
-        "numberStart": "11",
-        "numberEnd": "29",
-        "latStart": 49.37303342,
-        "lonStart": -102.76503026,
-        "latEnd": 49.36904458,
-        "lonEnd": -102.75397909,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 14895
-  },
-  {
-    "type": 1,
-    "icao": "CJW2",
-    "lat": 49.223910000000004,
-    "lon": -102.14651014,
-    "communications": [],
-    "elevation": 1850,
-    "tower": false,
-    "name": "Oxbow",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "09",
-        "numberEnd": "27",
-        "latStart": 49.22454136,
-        "lonStart": -102.15199237,
-        "latEnd": 49.22327864,
-        "lonEnd": -102.14102791,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 19133
-  },
-  {
-    "type": 1,
-    "icao": "CS41",
-    "lat": 49.679805,
-    "lon": -102.99497500000001,
-    "communications": [],
-    "elevation": 0,
-    "tower": true,
-    "name": "Stoughton farm airstrip",
-    "runways": [
-      {
-        "type": 100,
-        "width": 24.08,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 49.68255,
-        "lonStart": -102.99764,
-        "latEnd": 49.67706,
-        "lonEnd": -102.99231,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 24248
-  },
-  {
-    "type": 1,
-    "icao": "CKV7",
-    "lat": 49.894189999999995,
-    "lon": -102.03036005999999,
-    "communications": [],
-    "elevation": 2167,
-    "tower": false,
-    "name": "Wawota",
-    "runways": [
-      {
-        "type": 100,
-        "width": 29.87,
-        "surfaceType": null,
-        "numberStart": "16",
-        "numberEnd": "34",
-        "latStart": 49.89692295,
-        "lonStart": -102.03072376,
-        "latEnd": 49.89145705,
-        "lonEnd": -102.02999636,
-        "length": 0,
-        "surfacetype": 4
-      }
-    ],
-    "id": 26996
+    "id": 15724
   }
 ]

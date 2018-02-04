@@ -1,6 +1,61 @@
 [
   {
     "type": 1,
+    "icao": "KASX",
+    "lat": 46.548843749999996,
+    "lon": -90.91849167750001,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12677,
+        "name": "ASOS"
+      },
+      {
+        "type": 51,
+        "frequency": 12280,
+        "name": "CTAF/UNICOM"
+      },
+      {
+        "type": 55,
+        "frequency": 12645,
+        "name": "MINNEAPOLIS APP/DEP"
+      }
+    ],
+    "elevation": 826,
+    "tower": false,
+    "name": "John F. Kennedy Memorial",
+    "runways": [
+      {
+        "type": 100,
+        "width": 30.48,
+        "surfaceType": null,
+        "numberStart": "02",
+        "numberEnd": "20",
+        "latStart": 46.54054789,
+        "lonStart": -90.92465416,
+        "latEnd": 46.55388011,
+        "lonEnd": -90.91731694,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "13",
+        "numberEnd": "31",
+        "latStart": 46.55359635,
+        "lonStart": -90.92129347,
+        "latEnd": 46.54735065,
+        "lonEnd": -90.91070214,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 2371
+  },
+  {
+    "type": 1,
     "icao": "2WI5",
     "lat": 46.09744833,
     "lon": -90.16322138999999,
@@ -23,7 +78,90 @@
         "surfacetype": 3
       }
     ],
-    "id": 2815
+    "id": 7384
+  },
+  {
+    "type": 1,
+    "icao": "4R5",
+    "lat": 46.788667000000004,
+    "lon": -90.758725,
+    "communications": [
+      {
+        "type": 51,
+        "frequency": 12290,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 649,
+    "tower": false,
+    "name": "MADELINE ISLAND",
+    "runways": [
+      {
+        "type": 100,
+        "width": 22.86,
+        "surfaceType": null,
+        "numberStart": "04",
+        "numberEnd": "22",
+        "latStart": 46.785517,
+        "lonStart": -90.762575,
+        "latEnd": 46.791817,
+        "lonEnd": -90.754875,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 8356
+  },
+  {
+    "type": 1,
+    "icao": "6WI4",
+    "lat": 46.51550277,
+    "lon": -90.43156945,
+    "communications": [],
+    "elevation": 950,
+    "tower": false,
+    "name": "Saxon",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18.29,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 46.51241463,
+        "lonStart": -90.43416033,
+        "latEnd": 46.51859091,
+        "lonEnd": -90.42897857,
+        "length": 0,
+        "surfacetype": 3
+      }
+    ],
+    "id": 9471
+  },
+  {
+    "type": 16,
+    "icao": "7WI1",
+    "lat": 46.15856416,
+    "lon": -90.88434834,
+    "communications": [],
+    "elevation": 1456,
+    "tower": false,
+    "name": "[S] Little Clam Lake",
+    "runways": [
+      {
+        "type": 101,
+        "width": 45.72,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 46.15444957,
+        "lonStart": -90.88791759,
+        "latEnd": 46.16267875,
+        "lonEnd": -90.88077909,
+        "length": 0
+      }
+    ],
+    "id": 9952
   },
   {
     "type": 1,
@@ -60,94 +198,7 @@
         "surfacetype": 1
       }
     ],
-    "id": 10050
-  },
-  {
-    "type": 1,
-    "icao": "KASX",
-    "lat": 46.54884375,
-    "lon": -90.91849175,
-    "communications": [
-      {
-        "type": 50,
-        "frequency": 12677,
-        "name": "ASOS"
-      },
-      {
-        "type": 51,
-        "frequency": 12280,
-        "name": "CTAF/UNICOM"
-      },
-      {
-        "type": 55,
-        "frequency": 12645,
-        "name": "MINNEAPOLIS APP/DEP"
-      }
-    ],
-    "elevation": 826,
-    "tower": false,
-    "name": "JOHN F KENNEDY MEM",
-    "runways": [
-      {
-        "type": 100,
-        "width": 30.48,
-        "surfaceType": null,
-        "numberStart": "02",
-        "numberEnd": "20",
-        "latStart": 46.54055,
-        "lonStart": -90.924653,
-        "latEnd": 46.553878,
-        "lonEnd": -90.917319,
-        "length": 0,
-        "surfacetype": 1
-      },
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "13",
-        "numberEnd": "31",
-        "latStart": 46.553589,
-        "lonStart": -90.921281,
-        "latEnd": 46.547358,
-        "lonEnd": -90.910714,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 12776
-  },
-  {
-    "type": 1,
-    "icao": "4R5",
-    "lat": 46.788667000000004,
-    "lon": -90.758725,
-    "communications": [
-      {
-        "type": 51,
-        "frequency": 12290,
-        "name": "CTAF"
-      }
-    ],
-    "elevation": 649,
-    "tower": false,
-    "name": "MADELINE ISLAND",
-    "runways": [
-      {
-        "type": 100,
-        "width": 22.86,
-        "surfaceType": null,
-        "numberStart": "04",
-        "numberEnd": "22",
-        "latStart": 46.785517,
-        "lonStart": -90.762575,
-        "latEnd": 46.791817,
-        "lonEnd": -90.754875,
-        "length": 0,
-        "surfacetype": 1
-      }
-    ],
-    "id": 15693
+    "id": 19356
   },
   {
     "type": 1,
@@ -173,57 +224,6 @@
         "surfacetype": 3
       }
     ],
-    "id": 20033
-  },
-  {
-    "type": 1,
-    "icao": "6WI4",
-    "lat": 46.51550277,
-    "lon": -90.43156945,
-    "communications": [],
-    "elevation": 950,
-    "tower": false,
-    "name": "Saxon",
-    "runways": [
-      {
-        "type": 100,
-        "width": 18.29,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 46.51241463,
-        "lonStart": -90.43416033,
-        "latEnd": 46.51859091,
-        "lonEnd": -90.42897857,
-        "length": 0,
-        "surfacetype": 3
-      }
-    ],
-    "id": 23067
-  },
-  {
-    "type": 16,
-    "icao": "7WI1",
-    "lat": 46.15856416,
-    "lon": -90.88434834,
-    "communications": [],
-    "elevation": 1456,
-    "tower": false,
-    "name": "[S] Little Clam Lake",
-    "runways": [
-      {
-        "type": 101,
-        "width": 45.72,
-        "surfaceType": null,
-        "numberStart": "03",
-        "numberEnd": "21",
-        "latStart": 46.15444957,
-        "lonStart": -90.88791759,
-        "latEnd": 46.16267875,
-        "lonEnd": -90.88077909,
-        "length": 0
-      }
-    ],
-    "id": 34254
+    "id": 31799
   }
 ]

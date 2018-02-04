@@ -2,10 +2,10 @@
   {
     "type": 1,
     "icao": "LPAV",
-    "lat": 40.6541725,
-    "lon": -8.7435515,
+    "lat": 40.65755414666666,
+    "lon": -8.740868206666667,
     "communications": [],
-    "elevation": 25,
+    "elevation": 24,
     "tower": false,
     "name": "AVEIRO",
     "runways": [
@@ -15,109 +15,214 @@
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 40.660264,
-        "lonStart": -8.745639,
-        "latEnd": 40.648081,
-        "lonEnd": -8.741464,
+        "latStart": 40.66318,
+        "lonStart": -8.74372787,
+        "latEnd": 40.65098665,
+        "lonEnd": -8.73955009,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 29.6,
+        "surfaceType": 1,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.65849579,
+        "lonStart": -8.73932666,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.3
       }
     ],
-    "id": 487
+    "id": 3865
   },
   {
     "type": 1,
     "icao": "LPCO",
-    "lat": 40.157222000000004,
-    "lon": -8.47,
+    "lat": 40.15909445,
+    "lon": -8.471033485,
     "communications": [
       {
-        "type": 54,
+        "type": 51,
         "frequency": 12290,
-        "name": "RDO"
+        "name": "Coimbra Radio"
       }
     ],
-    "elevation": 586,
-    "tower": false,
-    "name": "COIMBRA",
+    "elevation": 569,
+    "tower": true,
+    "name": "Coimbra",
     "runways": [
       {
         "type": 100,
-        "width": 29.87,
+        "width": 30,
         "surfaceType": null,
         "numberStart": "16",
         "numberEnd": "34",
-        "latStart": 40.161036,
-        "lonStart": -8.472108,
-        "latEnd": 40.153408,
-        "lonEnd": -8.467892,
+        "latStart": 40.16280443,
+        "lonStart": -8.47347608,
+        "latEnd": 40.15538447,
+        "lonEnd": -8.46859089,
         "length": 0,
-        "surfacetype": 2
+        "surfacetype": 1
       }
     ],
-    "id": 4024
-  },
-  {
-    "type": 1,
-    "icao": "LPOV",
-    "lat": 40.9159195,
-    "lon": -8.645924999999998,
-    "communications": [
-      {
-        "type": 54,
-        "frequency": 12210,
-        "name": "TWR"
-      },
-      {
-        "type": 55,
-        "frequency": 11860,
-        "name": "APP"
-      }
-    ],
-    "elevation": 56,
-    "tower": true,
-    "name": "OVAR",
-    "runways": [
-      {
-        "type": 100,
-        "width": 45.11,
-        "surfaceType": null,
-        "numberStart": "18",
-        "numberEnd": "36",
-        "latStart": 40.926828,
-        "lonStart": -8.646897,
-        "latEnd": 40.905011,
-        "lonEnd": -8.644953,
-        "length": 0,
-        "surfacetype": 2
-      }
-    ],
-    "id": 18748
+    "id": 3873
   },
   {
     "type": 1,
     "icao": "LPIN",
-    "lat": 40.9666672,
-    "lon": -8.6499977,
+    "lat": 40.97365582333333,
+    "lon": -8.644325093333334,
     "communications": [],
-    "elevation": 10,
+    "elevation": 13,
     "tower": false,
     "name": "Paramos Airfield",
     "runways": [
       {
         "type": 100,
-        "width": 39.93,
+        "width": 30,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 40.97622803,
+        "lonStart": -8.645644,
+        "latEnd": 40.97216597,
+        "lonEnd": -8.64496949,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 20.3,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.97257347,
+        "lonStart": -8.64236179,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 24.5
+      }
+    ],
+    "id": 3883
+  },
+  {
+    "type": 1,
+    "icao": "LPLZ",
+    "lat": 40.143392326666664,
+    "lon": -8.241231286666666,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 12250,
+        "name": "CTAF"
+      }
+    ],
+    "elevation": 652,
+    "tower": false,
+    "name": "Lousa",
+    "runways": [
+      {
+        "type": 100,
+        "width": 10,
+        "surfaceType": null,
+        "numberStart": "17",
+        "numberEnd": "35",
+        "latStart": 40.145777,
+        "lonStart": -8.241404,
+        "latEnd": 40.141296,
+        "lonEnd": -8.239679,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 100,
+        "width": 10,
+        "surfaceType": null,
+        "numberStart": "11",
+        "numberEnd": "29",
+        "latStart": 40.14368569,
+        "lonStart": -8.24529325,
+        "latEnd": 40.14185031,
+        "lonEnd": -8.23821385,
+        "length": 0,
+        "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 29.9,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.14395557,
+        "lonStart": -8.2412117,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 29.9
+      },
+      {
+        "type": 102,
+        "width": 12.7,
+        "surfaceType": 2,
+        "numberStart": "H2",
+        "numberEnd": null,
+        "latStart": 40.14378939,
+        "lonStart": -8.24158592,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 17.2
+      }
+    ],
+    "id": 3887
+  },
+  {
+    "type": 1,
+    "icao": "LPOV",
+    "lat": 40.91739918,
+    "lon": -8.645206986666667,
+    "communications": [
+      {
+        "type": 54,
+        "frequency": 11860,
+        "name": "Ovar Tower"
+      },
+      {
+        "type": 55,
+        "frequency": 12330,
+        "name": "Ovar Approach"
+      }
+    ],
+    "elevation": 56,
+    "tower": true,
+    "name": "Ovar",
+    "runways": [
+      {
+        "type": 100,
+        "width": 45,
         "surfaceType": null,
         "numberStart": "18",
         "numberEnd": "36",
-        "latStart": 40.97330194,
-        "lonStart": -8.65162621,
-        "latEnd": 40.96003246,
-        "lonEnd": -8.64836919,
+        "latStart": 40.926911,
+        "lonStart": -8.646902,
+        "latEnd": 40.904931,
+        "lonEnd": -8.644939,
         "length": 0,
         "surfacetype": 1
+      },
+      {
+        "type": 102,
+        "width": 40.7,
+        "surfaceType": 2,
+        "numberStart": "H1",
+        "numberEnd": null,
+        "latStart": 40.92035554,
+        "lonStart": -8.64377996,
+        "latEnd": null,
+        "lonEnd": null,
+        "length": 41.4
       }
     ],
-    "id": 19764
+    "id": 3895
   }
 ]

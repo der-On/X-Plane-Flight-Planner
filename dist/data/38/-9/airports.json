@@ -1,40 +1,86 @@
 [
   {
     "type": 1,
-    "icao": "LPFC",
-    "lat": 38.07657193,
-    "lon": -8.235045633333334,
-    "communications": [],
-    "elevation": 262,
+    "icao": "LPFA",
+    "lat": 38.039659265,
+    "lon": -8.10433055,
+    "communications": [
+      {
+        "type": 50,
+        "frequency": 12265,
+        "name": "ATIS"
+      }
+    ],
+    "elevation": 459,
     "tower": false,
-    "name": "Figueira dos Cavaleiros",
+    "name": "Ferreira do Alentejo",
     "runways": [
       {
         "type": 100,
-        "width": 14.02,
+        "width": 20,
         "surfaceType": null,
         "numberStart": "17",
         "numberEnd": "35",
-        "latStart": 38.07787893,
-        "lonStart": -8.23596455,
-        "latEnd": 38.07369896,
-        "lonEnd": -8.23430111,
+        "latStart": 38.04214739,
+        "lonStart": -8.10481628,
+        "latEnd": 38.03717114,
+        "lonEnd": -8.10384482,
         "length": 0,
         "surfacetype": 1
-      },
-      {
-        "type": 102,
-        "width": 7.92,
-        "surfaceType": 15,
-        "numberStart": "H0",
-        "numberEnd": null,
-        "latStart": 38.0781379,
-        "lonStart": -8.23487124,
-        "latEnd": null,
-        "lonEnd": null,
-        "length": 7.92
       }
     ],
-    "id": 9279
+    "id": 3877
+  },
+  {
+    "type": 1,
+    "icao": "LPFC",
+    "lat": 38.07556,
+    "lon": -8.2349845,
+    "communications": [],
+    "elevation": 259,
+    "tower": true,
+    "name": "Figueira de Cavaleiros",
+    "runways": [
+      {
+        "type": 100,
+        "width": 20,
+        "surfaceType": null,
+        "numberStart": "16",
+        "numberEnd": "34",
+        "latStart": 38.077758,
+        "lonStart": -8.235857,
+        "latEnd": 38.073362,
+        "lonEnd": -8.234112,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3878
+  },
+  {
+    "type": 1,
+    "icao": "LPMN",
+    "lat": 38.70938098,
+    "lon": -8.275079815000002,
+    "communications": [],
+    "elevation": 636,
+    "tower": false,
+    "name": "Amendoeira",
+    "runways": [
+      {
+        "type": 100,
+        "width": 18,
+        "surfaceType": null,
+        "numberStart": "03",
+        "numberEnd": "21",
+        "latStart": 38.70648824,
+        "lonStart": -8.27730726,
+        "latEnd": 38.71227372,
+        "lonEnd": -8.27285237,
+        "length": 0,
+        "surfacetype": 1
+      }
+    ],
+    "id": 3890
   }
 ]
