@@ -34,21 +34,21 @@ And finally add a user for the database:
 Next you need to copy the file "local_config.sample.js" and rename the copy to "local_config.js".
 Open up the "local_config.js" in a text editor and adjust the mongodb user, password and maybe host to your needs.
 
-Now you'll need the lates apt nav data. You can either download it from http://data.x-plane.com/get_data.html (You find the download to the left under "Download the data ...".)
+Now you'll need the lates apt nav data. You can either download it from http://gateway.x-plane.com/NOTAMs (You find the download to the left under `Download the data ...`.)
 or directly from mcantsin's GitHub repository: https://github.com/mcantsin/x-plane-navdata
-After downloading it unpack it's contents into the "apt_nav" folder of the flight planner.
-Then start the server (See "How to start").
+After downloading it unpack it's contents into the `apt_nav` folder of the flight planner.
+Then start the server (See `How to start`).
 
 
 ## How to start
 
-Before you try to start the server be sure to read "How to install".
+Before you try to start the server be sure to read `How to install`.
 
 Open your console and within the root directory of the flight planner type:
-
+```
   node app.js
-
-This will open up a local server listening on port 3000. 
+```
+This will open up a local server listening on port `3000`. 
 Now open your browser and open up the URL: http://localhost:3000/flight-planner
 
 If you haven't done so before you now need to import the apt nav data, you've downloaded before.
@@ -56,7 +56,7 @@ To do so open up: http://localhost:3000/flight-planner/import and then choose wi
 It now processes the corresponding apt_nav/*.dat file and imports every airport/navaid or fix found within into the mongoDB.
 When done you'll see a list of all imported data.
 
-To shutdown the server simply hit CTRL-C or on mac Apple-C within the console you've used to start the server.
+To shutdown the server simply hit `CTRL`-`C` or on mac `Apple`-`C` within the console you've used to start the server.
 
 
 ## Donations
